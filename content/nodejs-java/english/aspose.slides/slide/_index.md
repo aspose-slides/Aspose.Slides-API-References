@@ -270,7 +270,7 @@ int
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Returns:**
-[BaseOverrideThemeManager](../baseoverridethememanager), [ChartThemeManager](../chartthememanager), [SlideThemeManager](../slidethememanager), [NotesSlideThemeManager](../notesslidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager)
+[SlideThemeManager](../slidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [ChartThemeManager](../chartthememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [NotesSlideThemeManager](../notesslidethememanager)
 
 
 ---

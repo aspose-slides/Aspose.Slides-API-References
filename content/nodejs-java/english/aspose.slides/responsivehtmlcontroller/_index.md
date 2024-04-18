@@ -28,13 +28,13 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| ResponsiveHtmlController([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance |
+| ResponsiveHtmlController([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [ResponsiveHtmlController](../responsivehtmlcontroller) | HTML formatting controller |
+| controller | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | HTML formatting controller |
 
  **Returns:**
 ResponsiveHtmlController
@@ -85,13 +85,13 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| ResponsiveHtmlController([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance |
+| ResponsiveHtmlController([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | HTML formatting controller |
+| controller | [ResponsiveHtmlController](../responsivehtmlcontroller) | HTML formatting controller |
 
  **Returns:**
 ResponsiveHtmlController
@@ -143,17 +143,7 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 
 
 ---
@@ -173,87 +163,7 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
 
 
 ---
@@ -273,6 +183,46 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GeometryShape](../geometryshape)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
 
 
@@ -283,7 +233,7 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
 
 
 ---
@@ -293,17 +243,7 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
 
 
 ---
@@ -314,6 +254,16 @@ ResponsiveHtmlController
 | Name | Description |
 | --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
 
 
 ---
@@ -339,31 +289,61 @@ ResponsiveHtmlController
 ---
 
 
-### writeShapeStart {#writeShapeStart}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
 
 
 ---
 
 
-### writeShapeStart {#writeShapeStart}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
 
 
 ---
 
 
-### writeShapeStart {#writeShapeStart}
+### writeShapeEnd {#writeShapeEnd}
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
 
 
 ---
@@ -383,7 +363,7 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
 
 
 ---
@@ -403,7 +383,17 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GeometryShape](../geometryshape)) |  |
 
 
 ---
@@ -423,27 +413,7 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
 
 
 ---
@@ -463,16 +433,6 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
 
 
@@ -483,7 +443,7 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
 
 
 ---
@@ -493,17 +453,7 @@ ResponsiveHtmlController
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
 
 
 ---
@@ -514,6 +464,16 @@ ResponsiveHtmlController
 | Name | Description |
 | --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
 
 
 ---
@@ -534,6 +494,66 @@ ResponsiveHtmlController
 | Name | Description |
 | --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
 
 
 ---

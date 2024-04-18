@@ -31,7 +31,7 @@ url: /aspose.slides/field/
 | getSlide () | Returns the parent slide of a paragraph. Read-only BaseSlide. |
 
  **Returns:**
-[Slide](../slide), [NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [MasterSlide](../masterslide)
+[Slide](../slide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide)
 
 
 ---

@@ -202,43 +202,20 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([OleObjectFrame](../oleobjectframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+| addClone ([Shape](../shape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [OleObjectFrame](../oleobjectframe) | Shape to clone. |
+| sourceShape | [Shape](../shape) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 | width | float | Width of a new shape. |
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([GraphicalObject](../graphicalobject), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -261,53 +238,7 @@ url: /aspose.slides/shapecollection/
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([Shape](../shape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [Shape](../shape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([GroupShape](../groupshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -330,145 +261,7 @@ url: /aspose.slides/shapecollection/
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([SummaryZoomSection](../summaryzoomsection), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([Chart](../chart), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [Chart](../chart) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([Table](../table), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [Table](../table) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([ZoomFrame](../zoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([SmartArt](../smartart), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [SmartArt](../smartart) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([AutoShape](../autoshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -491,7 +284,99 @@ url: /aspose.slides/shapecollection/
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([GeometryShape](../geometryshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [GeometryShape](../geometryshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([Chart](../chart), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [Chart](../chart) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([GroupShape](../groupshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([AutoShape](../autoshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -514,7 +399,7 @@ url: /aspose.slides/shapecollection/
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -524,20 +409,20 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([ZoomObject](../zoomobject), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+| addClone ([ZoomFrame](../zoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 | width | float | Width of a new shape. |
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -547,43 +432,20 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([Ink](../ink), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+| addClone ([GraphicalObject](../graphicalobject), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [Ink](../ink) | Shape to clone. |
+| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 | width | float | Width of a new shape. |
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([SummaryZoomFrame](../summaryzoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -606,7 +468,30 @@ url: /aspose.slides/shapecollection/
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([ZoomObject](../zoomobject), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -629,7 +514,7 @@ url: /aspose.slides/shapecollection/
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -652,7 +537,7 @@ url: /aspose.slides/shapecollection/
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -662,7 +547,30 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([OleObjectFrame](../oleobjectframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| addClone ([SummaryZoomFrame](../summaryzoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([OleObjectFrame](../oleobjectframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
  **Parameters:**
 
@@ -671,9 +579,11 @@ url: /aspose.slides/shapecollection/
 | sourceShape | [OleObjectFrame](../oleobjectframe) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -683,18 +593,20 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([GraphicalObject](../graphicalobject), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| addClone ([Ink](../ink), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
+| sourceShape | [Ink](../ink) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -704,18 +616,66 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([AudioFrame](../audioframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| addClone ([SmartArt](../smartart), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [AudioFrame](../audioframe) | Shape to clone. |
+| sourceShape | [SmartArt](../smartart) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([Table](../table), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [Table](../table) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([SummaryZoomSection](../summaryzoomsection), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -736,7 +696,7 @@ url: /aspose.slides/shapecollection/
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -746,18 +706,18 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([GroupShape](../groupshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| addClone ([AudioFrame](../audioframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
+| sourceShape | [AudioFrame](../audioframe) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -778,133 +738,7 @@ url: /aspose.slides/shapecollection/
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([SummaryZoomSection](../summaryzoomsection), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([Chart](../chart), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [Chart](../chart) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([Table](../table), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [Table](../table) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([ZoomFrame](../zoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([SmartArt](../smartart), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [SmartArt](../smartart) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([AutoShape](../autoshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -925,7 +759,91 @@ url: /aspose.slides/shapecollection/
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([GeometryShape](../geometryshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [GeometryShape](../geometryshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([Chart](../chart), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [Chart](../chart) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([GroupShape](../groupshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([AutoShape](../autoshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -946,7 +864,7 @@ url: /aspose.slides/shapecollection/
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -956,18 +874,18 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([ZoomObject](../zoomobject), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| addClone ([ZoomFrame](../zoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -977,39 +895,18 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([Ink](../ink), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| addClone ([GraphicalObject](../graphicalobject), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [Ink](../ink) | Shape to clone. |
+| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([SummaryZoomFrame](../summaryzoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1030,7 +927,28 @@ url: /aspose.slides/shapecollection/
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([ZoomObject](../zoomobject), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1051,7 +969,7 @@ url: /aspose.slides/shapecollection/
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1072,7 +990,7 @@ url: /aspose.slides/shapecollection/
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1082,16 +1000,39 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([OleObjectFrame](../oleobjectframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| addClone ([SummaryZoomFrame](../summaryzoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([OleObjectFrame](../oleobjectframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | sourceShape | [OleObjectFrame](../oleobjectframe) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1101,16 +1042,18 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([GraphicalObject](../graphicalobject)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| addClone ([Ink](../ink), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
+| sourceShape | [Ink](../ink) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1120,16 +1063,60 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([AudioFrame](../audioframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| addClone ([SmartArt](../smartart), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [AudioFrame](../audioframe) | Shape to clone. |
+| sourceShape | [SmartArt](../smartart) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([Table](../table), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [Table](../table) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([SummaryZoomSection](../summaryzoomsection), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1148,7 +1135,7 @@ url: /aspose.slides/shapecollection/
 | sourceShape | [Shape](../shape) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1158,16 +1145,16 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([GroupShape](../groupshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| addClone ([AudioFrame](../audioframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
+| sourceShape | [AudioFrame](../audioframe) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1186,121 +1173,7 @@ url: /aspose.slides/shapecollection/
 | sourceShape | [LegacyDiagram](../legacydiagram) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([SummaryZoomSection](../summaryzoomsection)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([Chart](../chart)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [Chart](../chart) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([Table](../table)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [Table](../table) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([ZoomFrame](../zoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([SmartArt](../smartart)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [SmartArt](../smartart) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([AutoShape](../autoshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1319,7 +1192,83 @@ url: /aspose.slides/shapecollection/
 | sourceShape | [SmartArtShape](../smartartshape) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([GeometryShape](../geometryshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [GeometryShape](../geometryshape) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([Chart](../chart)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [Chart](../chart) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([GroupShape](../groupshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([AutoShape](../autoshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1338,7 +1287,7 @@ url: /aspose.slides/shapecollection/
 | sourceShape | [VideoFrame](../videoframe) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1348,16 +1297,16 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([ZoomObject](../zoomobject)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| addClone ([ZoomFrame](../zoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1367,35 +1316,16 @@ url: /aspose.slides/shapecollection/
 
 | Name | Description |
 | --- | --- |
-| addClone ([Ink](../ink)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| addClone ([GraphicalObject](../graphicalobject)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceShape | [Ink](../ink) | Shape to clone. |
+| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### addClone {#addClone}
-
-| Name | Description |
-| --- | --- |
-| addClone ([SummaryZoomFrame](../summaryzoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1414,7 +1344,26 @@ url: /aspose.slides/shapecollection/
 | sourceShape | [PictureFrame](../pictureframe) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([ZoomObject](../zoomobject)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1433,7 +1382,7 @@ url: /aspose.slides/shapecollection/
 | sourceShape | [SectionZoomFrame](../sectionzoomframe) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1452,7 +1401,121 @@ url: /aspose.slides/shapecollection/
 | sourceShape | [Connector](../connector) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([SummaryZoomFrame](../summaryzoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([OleObjectFrame](../oleobjectframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [OleObjectFrame](../oleobjectframe) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([Ink](../ink)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [Ink](../ink) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([SmartArt](../smartart)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [SmartArt](../smartart) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([Table](../table)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [Table](../table) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### addClone {#addClone}
+
+| Name | Description |
+| --- | --- |
+| addClone ([SummaryZoomSection](../summaryzoomsection)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1628,7 +1691,7 @@ url: /aspose.slides/shapecollection/
 | image | [PPImage](../ppimage) | The image of picture frame. |
 
  **Returns:**
-[AudioFrame](../audioframe), [PictureFrame](../pictureframe), [VideoFrame](../videoframe)
+[VideoFrame](../videoframe), [PictureFrame](../pictureframe), [AudioFrame](../audioframe)
 
 
 ---
@@ -1651,7 +1714,7 @@ url: /aspose.slides/shapecollection/
 | section | [Section](../section) | The section object referenced by the Section Zoom frame ISection. |
 
  **Returns:**
-[SummaryZoomSection](../summaryzoomsection), [SectionZoomFrame](../sectionzoomframe)
+[SectionZoomFrame](../sectionzoomframe), [SummaryZoomSection](../summaryzoomsection)
 
  **Error**
 
@@ -1681,7 +1744,7 @@ url: /aspose.slides/shapecollection/
 | image | [PPImage](../ppimage) | The image for the referenced slide IPPImage |
 
  **Returns:**
-[SummaryZoomSection](../summaryzoomsection), [SectionZoomFrame](../sectionzoomframe)
+[SectionZoomFrame](../sectionzoomframe), [SummaryZoomSection](../summaryzoomsection)
 
  **Error**
 
@@ -1914,7 +1977,7 @@ Object
 | get_Item (int) | Gets the element at the specified index. Read-only IShape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -1924,32 +1987,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| indexOf ([OleObjectFrame](../oleobjectframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+| indexOf ([Shape](../shape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../oleobjectframe) | The shape to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([GraphicalObject](../graphicalobject)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GraphicalObject](../graphicalobject) | The shape to locate in the collection. |
+| shape | [Shape](../shape) | The shape to locate in the collection. |
 
  **Returns:**
 int
@@ -1981,44 +2025,6 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf ([Shape](../shape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Shape](../shape) | The shape to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([GroupShape](../groupshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GroupShape](../groupshape) | The shape to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
 | indexOf ([LegacyDiagram](../legacydiagram)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
  **Parameters:**
@@ -2026,120 +2032,6 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [LegacyDiagram](../legacydiagram) | The shape to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([SummaryZoomSection](../summaryzoomsection)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomSection](../summaryzoomsection) | The shape to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([Chart](../chart)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Chart](../chart) | The shape to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([Table](../table)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Table](../table) | The shape to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([ZoomFrame](../zoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [ZoomFrame](../zoomframe) | The shape to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([SmartArt](../smartart)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SmartArt](../smartart) | The shape to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([AutoShape](../autoshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [AutoShape](../autoshape) | The shape to locate in the collection. |
 
  **Returns:**
 int
@@ -2171,6 +2063,82 @@ int
 
 | Name | Description |
 | --- | --- |
+| indexOf ([GeometryShape](../geometryshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GeometryShape](../geometryshape) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([Chart](../chart)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Chart](../chart) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([GroupShape](../groupshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GroupShape](../groupshape) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([AutoShape](../autoshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AutoShape](../autoshape) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
 | indexOf ([VideoFrame](../videoframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
  **Parameters:**
@@ -2190,13 +2158,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf ([ZoomObject](../zoomobject)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+| indexOf ([ZoomFrame](../zoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomObject](../zoomobject) | The shape to locate in the collection. |
+| shape | [ZoomFrame](../zoomframe) | The shape to locate in the collection. |
 
  **Returns:**
 int
@@ -2209,32 +2177,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf ([Ink](../ink)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+| indexOf ([GraphicalObject](../graphicalobject)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Ink](../ink) | The shape to locate in the collection. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf ([SummaryZoomFrame](../summaryzoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomFrame](../summaryzoomframe) | The shape to locate in the collection. |
+| shape | [GraphicalObject](../graphicalobject) | The shape to locate in the collection. |
 
  **Returns:**
 int
@@ -2254,6 +2203,25 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [PictureFrame](../pictureframe) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([ZoomObject](../zoomobject)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [ZoomObject](../zoomobject) | The shape to locate in the collection. |
 
  **Returns:**
 int
@@ -2292,6 +2260,120 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Connector](../connector) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([SummaryZoomFrame](../summaryzoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomFrame](../summaryzoomframe) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([OleObjectFrame](../oleobjectframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../oleobjectframe) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([Ink](../ink)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Ink](../ink) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([SmartArt](../smartart)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SmartArt](../smartart) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([Table](../table)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Table](../table) | The shape to locate in the collection. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf ([SummaryZoomSection](../summaryzoomsection)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomSection](../summaryzoomsection) | The shape to locate in the collection. |
 
  **Returns:**
 int
@@ -2499,45 +2581,21 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [OleObjectFrame](../oleobjectframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+| insertClone (int, [Shape](../shape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [OleObjectFrame](../oleobjectframe) | Shape to clone. |
+| sourceShape | [Shape](../shape) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 | width | float | Width of a new shape. |
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [GraphicalObject](../graphicalobject), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -2561,55 +2619,7 @@ int
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [Shape](../shape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [Shape](../shape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [GroupShape](../groupshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -2633,151 +2643,7 @@ int
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [SummaryZoomSection](../summaryzoomsection), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [Chart](../chart), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [Chart](../chart) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [Table](../table), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [Table](../table) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [ZoomFrame](../zoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [SmartArt](../smartart), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [SmartArt](../smartart) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [AutoShape](../autoshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -2801,7 +2667,103 @@ int
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [GeometryShape](../geometryshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [GeometryShape](../geometryshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [Chart](../chart), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [Chart](../chart) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [GroupShape](../groupshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [AutoShape](../autoshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -2825,7 +2787,7 @@ int
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -2835,21 +2797,21 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [ZoomObject](../zoomobject), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+| insertClone (int, [ZoomFrame](../zoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 | width | float | Width of a new shape. |
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -2859,45 +2821,21 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [Ink](../ink), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+| insertClone (int, [GraphicalObject](../graphicalobject), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [Ink](../ink) | Shape to clone. |
+| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 | width | float | Width of a new shape. |
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [SummaryZoomFrame](../summaryzoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -2921,7 +2859,31 @@ int
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [ZoomObject](../zoomobject), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -2945,7 +2907,7 @@ int
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -2969,7 +2931,7 @@ int
 | height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -2979,7 +2941,31 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [OleObjectFrame](../oleobjectframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| insertClone (int, [SummaryZoomFrame](../summaryzoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [OleObjectFrame](../oleobjectframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
  **Parameters:**
 
@@ -2989,9 +2975,11 @@ int
 | sourceShape | [OleObjectFrame](../oleobjectframe) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3001,19 +2989,21 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [GraphicalObject](../graphicalobject), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| insertClone (int, [Ink](../ink), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
+| sourceShape | [Ink](../ink) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3023,19 +3013,69 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [AudioFrame](../audioframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| insertClone (int, [SmartArt](../smartart), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [AudioFrame](../audioframe) | Shape to clone. |
+| sourceShape | [SmartArt](../smartart) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [Table](../table), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [Table](../table) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [SummaryZoomSection](../summaryzoomsection), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3057,7 +3097,7 @@ int
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3067,19 +3107,19 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [GroupShape](../groupshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| insertClone (int, [AudioFrame](../audioframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
+| sourceShape | [AudioFrame](../audioframe) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3101,139 +3141,7 @@ int
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [SummaryZoomSection](../summaryzoomsection), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [Chart](../chart), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [Chart](../chart) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [Table](../table), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [Table](../table) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [ZoomFrame](../zoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [SmartArt](../smartart), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [SmartArt](../smartart) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [AutoShape](../autoshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3255,7 +3163,95 @@ int
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [GeometryShape](../geometryshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [GeometryShape](../geometryshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [Chart](../chart), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [Chart](../chart) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [GroupShape](../groupshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [AutoShape](../autoshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3277,7 +3273,7 @@ int
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3287,19 +3283,19 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [ZoomObject](../zoomobject), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| insertClone (int, [ZoomFrame](../zoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3309,41 +3305,19 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [Ink](../ink), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| insertClone (int, [GraphicalObject](../graphicalobject), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [Ink](../ink) | Shape to clone. |
+| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
 | x | float | X coordinate of a new shape. |
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [SummaryZoomFrame](../summaryzoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3365,7 +3339,29 @@ int
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [ZoomObject](../zoomobject), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3387,7 +3383,7 @@ int
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3409,7 +3405,7 @@ int
 | y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3419,7 +3415,29 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [OleObjectFrame](../oleobjectframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| insertClone (int, [SummaryZoomFrame](../summaryzoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [OleObjectFrame](../oleobjectframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
@@ -3427,9 +3445,11 @@ int
 | --- | --- | --- |
 | index | int | Index of new shape. |
 | sourceShape | [OleObjectFrame](../oleobjectframe) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3439,17 +3459,19 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [GraphicalObject](../graphicalobject)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| insertClone (int, [Ink](../ink), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
+| sourceShape | [Ink](../ink) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3459,17 +3481,63 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [AudioFrame](../audioframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| insertClone (int, [SmartArt](../smartart), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [AudioFrame](../audioframe) | Shape to clone. |
+| sourceShape | [SmartArt](../smartart) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [Table](../table), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [Table](../table) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [SummaryZoomSection](../summaryzoomsection), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3489,7 +3557,7 @@ int
 | sourceShape | [Shape](../shape) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3499,17 +3567,17 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [GroupShape](../groupshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| insertClone (int, [AudioFrame](../audioframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
+| sourceShape | [AudioFrame](../audioframe) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3529,127 +3597,7 @@ int
 | sourceShape | [LegacyDiagram](../legacydiagram) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [SummaryZoomSection](../summaryzoomsection)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [Chart](../chart)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [Chart](../chart) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [Table](../table)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [Table](../table) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [ZoomFrame](../zoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [SmartArt](../smartart)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [SmartArt](../smartart) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [AutoShape](../autoshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3669,7 +3617,87 @@ int
 | sourceShape | [SmartArtShape](../smartartshape) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [GeometryShape](../geometryshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [GeometryShape](../geometryshape) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [Chart](../chart)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [Chart](../chart) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [GroupShape](../groupshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [GroupShape](../groupshape) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [AutoShape](../autoshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [AutoShape](../autoshape) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3689,7 +3717,7 @@ int
 | sourceShape | [VideoFrame](../videoframe) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3699,17 +3727,17 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [ZoomObject](../zoomobject)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| insertClone (int, [ZoomFrame](../zoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+| sourceShape | [ZoomFrame](../zoomframe) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3719,37 +3747,17 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertClone (int, [Ink](../ink)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| insertClone (int, [GraphicalObject](../graphicalobject)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new shape. |
-| sourceShape | [Ink](../ink) | Shape to clone. |
+| sourceShape | [GraphicalObject](../graphicalobject) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
-
-
----
-
-
-### insertClone {#insertClone}
-
-| Name | Description |
-| --- | --- |
-| insertClone (int, [SummaryZoomFrame](../summaryzoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3769,7 +3777,27 @@ int
 | sourceShape | [PictureFrame](../pictureframe) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [ZoomObject](../zoomobject)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [ZoomObject](../zoomobject) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3789,7 +3817,7 @@ int
 | sourceShape | [SectionZoomFrame](../sectionzoomframe) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3809,7 +3837,127 @@ int
 | sourceShape | [Connector](../connector) | Shape to clone. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [SummaryZoomFrame](../summaryzoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [SummaryZoomFrame](../summaryzoomframe) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [OleObjectFrame](../oleobjectframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [OleObjectFrame](../oleobjectframe) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [Ink](../ink)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [Ink](../ink) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [SmartArt](../smartart)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [SmartArt](../smartart) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [Table](../table)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [Table](../table) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
+
+
+---
+
+
+### insertClone {#insertClone}
+
+| Name | Description |
+| --- | --- |
+| insertClone (int, [SummaryZoomSection](../summaryzoomsection)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [SummaryZoomSection](../summaryzoomsection) | Shape to clone. |
+
+ **Returns:**
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -3951,7 +4099,7 @@ int
 | image | [PPImage](../ppimage) | The image of picture frame. |
 
  **Returns:**
-[AudioFrame](../audioframe), [PictureFrame](../pictureframe), [VideoFrame](../videoframe)
+[VideoFrame](../videoframe), [PictureFrame](../pictureframe), [AudioFrame](../audioframe)
 
 
 ---
@@ -3975,7 +4123,7 @@ int
 | section | [Section](../section) | The slide object referenced by the Section Zoom frame ISection. |
 
  **Returns:**
-[SummaryZoomSection](../summaryzoomsection), [SectionZoomFrame](../sectionzoomframe)
+[SectionZoomFrame](../sectionzoomframe), [SummaryZoomSection](../summaryzoomsection)
 
  **Error**
 
@@ -4006,7 +4154,7 @@ int
 | image | [PPImage](../ppimage) | The image for the referenced slide IPPImage |
 
  **Returns:**
-[SummaryZoomSection](../summaryzoomsection), [SectionZoomFrame](../sectionzoomframe)
+[SectionZoomFrame](../sectionzoomframe), [SummaryZoomSection](../summaryzoomsection)
 
  **Error**
 
@@ -4198,29 +4346,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([OleObjectFrame](../oleobjectframe)) | Removes the first occurrence of a specific shape from the collection. |
+| remove ([Shape](../shape)) | Removes the first occurrence of a specific shape from the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../oleobjectframe) | The shape to remove from the collection. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([GraphicalObject](../graphicalobject)) | Removes the first occurrence of a specific shape from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GraphicalObject](../graphicalobject) | The shape to remove from the collection. |
+| shape | [Shape](../shape) | The shape to remove from the collection. |
 
 
 ---
@@ -4246,38 +4378,6 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([Shape](../shape)) | Removes the first occurrence of a specific shape from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Shape](../shape) | The shape to remove from the collection. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([GroupShape](../groupshape)) | Removes the first occurrence of a specific shape from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GroupShape](../groupshape) | The shape to remove from the collection. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
 | remove ([LegacyDiagram](../legacydiagram)) | Removes the first occurrence of a specific shape from the collection. |
 
  **Parameters:**
@@ -4285,102 +4385,6 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [LegacyDiagram](../legacydiagram) | The shape to remove from the collection. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([SummaryZoomSection](../summaryzoomsection)) | Removes the first occurrence of a specific shape from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomSection](../summaryzoomsection) | The shape to remove from the collection. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([Chart](../chart)) | Removes the first occurrence of a specific shape from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Chart](../chart) | The shape to remove from the collection. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([Table](../table)) | Removes the first occurrence of a specific shape from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Table](../table) | The shape to remove from the collection. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([ZoomFrame](../zoomframe)) | Removes the first occurrence of a specific shape from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [ZoomFrame](../zoomframe) | The shape to remove from the collection. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([SmartArt](../smartart)) | Removes the first occurrence of a specific shape from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SmartArt](../smartart) | The shape to remove from the collection. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([AutoShape](../autoshape)) | Removes the first occurrence of a specific shape from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [AutoShape](../autoshape) | The shape to remove from the collection. |
 
 
 ---
@@ -4406,6 +4410,70 @@ boolean
 
 | Name | Description |
 | --- | --- |
+| remove ([GeometryShape](../geometryshape)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GeometryShape](../geometryshape) | The shape to remove from the collection. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([Chart](../chart)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Chart](../chart) | The shape to remove from the collection. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([GroupShape](../groupshape)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GroupShape](../groupshape) | The shape to remove from the collection. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([AutoShape](../autoshape)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AutoShape](../autoshape) | The shape to remove from the collection. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
 | remove ([VideoFrame](../videoframe)) | Removes the first occurrence of a specific shape from the collection. |
 
  **Parameters:**
@@ -4422,13 +4490,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([ZoomObject](../zoomobject)) | Removes the first occurrence of a specific shape from the collection. |
+| remove ([ZoomFrame](../zoomframe)) | Removes the first occurrence of a specific shape from the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomObject](../zoomobject) | The shape to remove from the collection. |
+| shape | [ZoomFrame](../zoomframe) | The shape to remove from the collection. |
 
 
 ---
@@ -4438,29 +4506,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove ([Ink](../ink)) | Removes the first occurrence of a specific shape from the collection. |
+| remove ([GraphicalObject](../graphicalobject)) | Removes the first occurrence of a specific shape from the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Ink](../ink) | The shape to remove from the collection. |
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove ([SummaryZoomFrame](../summaryzoomframe)) | Removes the first occurrence of a specific shape from the collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomFrame](../summaryzoomframe) | The shape to remove from the collection. |
+| shape | [GraphicalObject](../graphicalobject) | The shape to remove from the collection. |
 
 
 ---
@@ -4477,6 +4529,22 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [PictureFrame](../pictureframe) | The shape to remove from the collection. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([ZoomObject](../zoomobject)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [ZoomObject](../zoomobject) | The shape to remove from the collection. |
 
 
 ---
@@ -4514,6 +4582,102 @@ boolean
 ---
 
 
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([SummaryZoomFrame](../summaryzoomframe)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomFrame](../summaryzoomframe) | The shape to remove from the collection. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([OleObjectFrame](../oleobjectframe)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../oleobjectframe) | The shape to remove from the collection. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([Ink](../ink)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Ink](../ink) | The shape to remove from the collection. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([SmartArt](../smartart)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SmartArt](../smartart) | The shape to remove from the collection. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([Table](../table)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Table](../table) | The shape to remove from the collection. |
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove ([SummaryZoomSection](../summaryzoomsection)) | Removes the first occurrence of a specific shape from the collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomSection](../summaryzoomsection) | The shape to remove from the collection. |
+
+
+---
+
+
 ### removeAt {#removeAt}
 
 | Name | Description |
@@ -4525,57 +4689,6 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the element to remove. |
-
-
----
-
-
-### reorder {#reorder}
-
-| Name | Description |
-| --- | --- |
-| reorder (int, [OleObjectFrame](../oleobjectframe)) | Moves a shape from the collection to the specified position. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [OleObjectFrame](../oleobjectframe) | Shape to move. |
-
-
----
-
-
-### reorder {#reorder}
-
-| Name | Description |
-| --- | --- |
-| reorder (int, [GraphicalObject](../graphicalobject)) | Moves a shape from the collection to the specified position. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [GraphicalObject](../graphicalobject) | Shape to move. |
-
-
----
-
-
-### reorder {#reorder}
-
-| Name | Description |
-| --- | --- |
-| reorder (int, [AudioFrame](../audioframe)) | Moves a shape from the collection to the specified position. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [AudioFrame](../audioframe) | Shape to move. |
 
 
 ---
@@ -4602,14 +4715,14 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| reorder (int, [GroupShape](../groupshape)) | Moves a shape from the collection to the specified position. |
+| reorder (int, [AudioFrame](../audioframe)) | Moves a shape from the collection to the specified position. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | [GroupShape](../groupshape) | Shape to move. |
+| shape | [AudioFrame](../audioframe) | Shape to move. |
 
 
 ---
@@ -4636,14 +4749,31 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| reorder (int, [SummaryZoomSection](../summaryzoomsection)) | Moves a shape from the collection to the specified position. |
+| reorder (int, [SmartArtShape](../smartartshape)) | Moves a shape from the collection to the specified position. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | [SummaryZoomSection](../summaryzoomsection) | Shape to move. |
+| shape | [SmartArtShape](../smartartshape) | Shape to move. |
+
+
+---
+
+
+### reorder {#reorder}
+
+| Name | Description |
+| --- | --- |
+| reorder (int, [GeometryShape](../geometryshape)) | Moves a shape from the collection to the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [GeometryShape](../geometryshape) | Shape to move. |
 
 
 ---
@@ -4670,48 +4800,14 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| reorder (int, [Table](../table)) | Moves a shape from the collection to the specified position. |
+| reorder (int, [GroupShape](../groupshape)) | Moves a shape from the collection to the specified position. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | [Table](../table) | Shape to move. |
-
-
----
-
-
-### reorder {#reorder}
-
-| Name | Description |
-| --- | --- |
-| reorder (int, [ZoomFrame](../zoomframe)) | Moves a shape from the collection to the specified position. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [ZoomFrame](../zoomframe) | Shape to move. |
-
-
----
-
-
-### reorder {#reorder}
-
-| Name | Description |
-| --- | --- |
-| reorder (int, [SmartArt](../smartart)) | Moves a shape from the collection to the specified position. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [SmartArt](../smartart) | Shape to move. |
+| shape | [GroupShape](../groupshape) | Shape to move. |
 
 
 ---
@@ -4738,23 +4834,6 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| reorder (int, [SmartArtShape](../smartartshape)) | Moves a shape from the collection to the specified position. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [SmartArtShape](../smartartshape) | Shape to move. |
-
-
----
-
-
-### reorder {#reorder}
-
-| Name | Description |
-| --- | --- |
 | reorder (int, [VideoFrame](../videoframe)) | Moves a shape from the collection to the specified position. |
 
  **Parameters:**
@@ -4772,14 +4851,14 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| reorder (int, [ZoomObject](../zoomobject)) | Moves a shape from the collection to the specified position. |
+| reorder (int, [ZoomFrame](../zoomframe)) | Moves a shape from the collection to the specified position. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | [ZoomObject](../zoomobject) | Shape to move. |
+| shape | [ZoomFrame](../zoomframe) | Shape to move. |
 
 
 ---
@@ -4789,31 +4868,14 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| reorder (int, [Ink](../ink)) | Moves a shape from the collection to the specified position. |
+| reorder (int, [GraphicalObject](../graphicalobject)) | Moves a shape from the collection to the specified position. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | [Ink](../ink) | Shape to move. |
-
-
----
-
-
-### reorder {#reorder}
-
-| Name | Description |
-| --- | --- |
-| reorder (int, [SummaryZoomFrame](../summaryzoomframe)) | Moves a shape from the collection to the specified position. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [SummaryZoomFrame](../summaryzoomframe) | Shape to move. |
+| shape | [GraphicalObject](../graphicalobject) | Shape to move. |
 
 
 ---
@@ -4831,6 +4893,23 @@ boolean
 | --- | --- | --- |
 | index | int | Target index. |
 | shape | [PictureFrame](../pictureframe) | Shape to move. |
+
+
+---
+
+
+### reorder {#reorder}
+
+| Name | Description |
+| --- | --- |
+| reorder (int, [ZoomObject](../zoomobject)) | Moves a shape from the collection to the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [ZoomObject](../zoomobject) | Shape to move. |
 
 
 ---
@@ -4874,6 +4953,108 @@ boolean
 
 | Name | Description |
 | --- | --- |
+| reorder (int, [SummaryZoomFrame](../summaryzoomframe)) | Moves a shape from the collection to the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [SummaryZoomFrame](../summaryzoomframe) | Shape to move. |
+
+
+---
+
+
+### reorder {#reorder}
+
+| Name | Description |
+| --- | --- |
+| reorder (int, [OleObjectFrame](../oleobjectframe)) | Moves a shape from the collection to the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [OleObjectFrame](../oleobjectframe) | Shape to move. |
+
+
+---
+
+
+### reorder {#reorder}
+
+| Name | Description |
+| --- | --- |
+| reorder (int, [Ink](../ink)) | Moves a shape from the collection to the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [Ink](../ink) | Shape to move. |
+
+
+---
+
+
+### reorder {#reorder}
+
+| Name | Description |
+| --- | --- |
+| reorder (int, [SmartArt](../smartart)) | Moves a shape from the collection to the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [SmartArt](../smartart) | Shape to move. |
+
+
+---
+
+
+### reorder {#reorder}
+
+| Name | Description |
+| --- | --- |
+| reorder (int, [Table](../table)) | Moves a shape from the collection to the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [Table](../table) | Shape to move. |
+
+
+---
+
+
+### reorder {#reorder}
+
+| Name | Description |
+| --- | --- |
+| reorder (int, [SummaryZoomSection](../summaryzoomsection)) | Moves a shape from the collection to the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [SummaryZoomSection](../summaryzoomsection) | Shape to move. |
+
+
+---
+
+
+### reorder {#reorder}
+
+| Name | Description |
+| --- | --- |
 | reorder (int, com.aspose.slides.IShape[]) | Moves shapes from the collection to the specified position. Shapes will be placed starting from index in order they appear in list. |
 
  **Parameters:**
@@ -4907,7 +5088,7 @@ int
 | toArray () | Creates and returns an array with all shapse in it. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
@@ -4927,7 +5108,7 @@ int
 | count | int | A number of shapes to return. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [GraphicalObject](../graphicalobject), [AudioFrame](../audioframe), [Shape](../shape), [GroupShape](../groupshape), [LegacyDiagram](../legacydiagram), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GeometryShape](../geometryshape), [Table](../table), [ZoomFrame](../zoomframe), [SmartArt](../smartart), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomObject](../zoomobject), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector)
+[Shape](../shape), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GeometryShape](../geometryshape), [Chart](../chart), [GroupShape](../groupshape), [AutoShape](../autoshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [OleObjectFrame](../oleobjectframe), [Ink](../ink), [SmartArt](../smartart), [Table](../table), [SummaryZoomSection](../summaryzoomsection)
 
 
 ---
