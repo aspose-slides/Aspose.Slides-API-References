@@ -20,7 +20,6 @@ The IPortionFormatEffectiveData type exposes the following members:
 | [`bookmark_id`](/slides/python-net/aspose.slides/iportionformateffectivedata/bookmark_id/) | Returns bookmark identifier.<br/>            Read-only **str**. |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/iportionformateffectivedata/hyperlink_click/) | Returns the hyperlink defined for mouse click.<br/>            Read-only [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink). |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/iportionformateffectivedata/hyperlink_mouse_over/) | Returns the hyperlink defined for mouse over.<br/>            Read-only [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink). |
-| [`as_i_base_portion_format_effective_data`](/slides/python-net/aspose.slides/iportionformateffectivedata/as_i_base_portion_format_effective_data/) | Returns IBasePortionFormatEffectiveData interface. |
 | [`line_format`](/slides/python-net/aspose.slides/iportionformateffectivedata/line_format/) |  |
 | [`fill_format`](/slides/python-net/aspose.slides/iportionformateffectivedata/fill_format/) |  |
 | [`effect_format`](/slides/python-net/aspose.slides/iportionformateffectivedata/effect_format/) |  |
@@ -54,7 +53,9 @@ The IPortionFormatEffectiveData type exposes the following members:
 
 This interface is used together with the [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat) interface to return effective formatting values with inheritance applied.
 
+
 ### See Also
 * class [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

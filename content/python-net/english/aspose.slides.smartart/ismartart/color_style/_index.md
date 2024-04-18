@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/ismartart/color_style/
-weight: 150
+weight: 160
 ---
 
 
@@ -17,13 +17,16 @@ Return or set color style of the SmartArt object.
 @property
 def color_style(self):
     ...
+
 @color_style.setter
 def color_style(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart)
 * enumeration [`SmartArtColorType`](/slides/python-net/aspose.slides.smartart/smartartcolortype)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

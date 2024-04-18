@@ -17,12 +17,15 @@ Returns or sets value, interpreting it as angle in degrees.
 @property
 def angle_value(self):
     ...
+
 @angle_value.setter
 def angle_value(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAdjustValue`](/slides/python-net/aspose.slides/iadjustvalue)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

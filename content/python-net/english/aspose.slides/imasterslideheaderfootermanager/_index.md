@@ -19,11 +19,9 @@ The IMasterSlideHeaderFooterManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_base_slide_header_footer_manager`](/slides/python-net/aspose.slides/imasterslideheaderfootermanager/as_i_base_slide_header_footer_manager/) | Returns IBaseSlideHeaderFooterManager interface. |
 | [`is_footer_visible`](/slides/python-net/aspose.slides/imasterslideheaderfootermanager/is_footer_visible/) |  |
 | [`is_slide_number_visible`](/slides/python-net/aspose.slides/imasterslideheaderfootermanager/is_slide_number_visible/) |  |
 | [`is_date_time_visible`](/slides/python-net/aspose.slides/imasterslideheaderfootermanager/is_date_time_visible/) |  |
-| [`as_i_base_header_footer_manager`](/slides/python-net/aspose.slides/imasterslideheaderfootermanager/as_i_base_header_footer_manager/) |  |
 
 ## Methods
 
@@ -40,6 +38,8 @@ The IMasterSlideHeaderFooterManager type exposes the following members:
 | [`set_footer_text`](/slides/python-net/aspose.slides/imasterslideheaderfootermanager/set_footer_text/#str) |  |
 | [`set_date_time_text`](/slides/python-net/aspose.slides/imasterslideheaderfootermanager/set_date_time_text/#str) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

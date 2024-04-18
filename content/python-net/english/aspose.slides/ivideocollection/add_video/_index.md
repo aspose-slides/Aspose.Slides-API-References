@@ -28,7 +28,6 @@ def add_video(self, video):
 | video | [`IVideo`](/slides/python-net/aspose.slides/ivideo) | Source video. |
 
 
-
 ## add_video {#iorawiobase}
 Creates and adds a video to a presentation from stream.
 
@@ -49,7 +48,6 @@ def add_video(self, stream):
 | stream | **io.RawIOBase** | Stream to add video file from. |
 
 
-
 ## add_video {#bytes}
 Creates and adds a video to a presentation from byte array.
 
@@ -68,7 +66,6 @@ def add_video(self, video_data):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | video_data | **bytes** | Video bytes. |
-
 
 
 ## add_video {#iorawiobase-loadingstreambehavior}
@@ -99,3 +96,4 @@ def add_video(self, stream, loading_stream_behavior):
 * enumeration [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

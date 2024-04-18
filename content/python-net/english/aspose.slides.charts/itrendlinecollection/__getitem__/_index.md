@@ -14,7 +14,10 @@ weight: 30
 | Name | Description |
 | :- | :- |
 | index |  |
+
+
 ### See Also
 * class [`ITrendlineCollection`](/slides/python-net/aspose.slides.charts/itrendlinecollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

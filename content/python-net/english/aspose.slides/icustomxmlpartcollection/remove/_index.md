@@ -27,11 +27,11 @@ def remove(self, item):
 | :- | :- | :- |
 | item | [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart) | The custom xml part to remove. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | item is `null`. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | item is `null`. |
 
 
 
@@ -40,3 +40,4 @@ def remove(self, item):
 * class [`ICustomXmlPartCollection`](/slides/python-net/aspose.slides/icustomxmlpartcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -22,7 +22,6 @@ The IMathFraction type exposes the following members:
 | [`fraction_type`](/slides/python-net/aspose.slides.mathtext/imathfraction/fraction_type/) | Fraction type<br/>            Default: Bar |
 | [`numerator`](/slides/python-net/aspose.slides.mathtext/imathfraction/numerator/) | Numerator |
 | [`denominator`](/slides/python-net/aspose.slides.mathtext/imathfraction/denominator/) | Denominator |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/imathfraction/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 
@@ -75,6 +74,8 @@ The IMathFraction type exposes the following members:
 | [`underbar`](/slides/python-net/aspose.slides.mathtext/imathfraction/underbar/#) |  |
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/imathfraction/to_box/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

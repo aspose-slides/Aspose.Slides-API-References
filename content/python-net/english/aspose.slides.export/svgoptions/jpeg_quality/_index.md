@@ -17,12 +17,15 @@ Determines JPEG encoding quality.
 @property
 def jpeg_quality(self):
     ...
+
 @jpeg_quality.setter
 def jpeg_quality(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

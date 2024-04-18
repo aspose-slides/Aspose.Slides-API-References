@@ -22,6 +22,8 @@ The IStreamWrapperFactory type exposes the following members:
 | [`create_file_stream_wrapper`](/slides/python-net/aspose.slides/istreamwrapperfactory/create_file_stream_wrapper/#str-systemiofilemode) | Creates FileStream with the specified path and creation mode. |
 | [`create_file_stream_wrapper`](/slides/python-net/aspose.slides/istreamwrapperfactory/create_file_stream_wrapper/#str-systemiofilemode-systemiofileaccess) | Creates FileStream with the specified path, creation mode, and read/write permission. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

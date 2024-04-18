@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#str}
 Constructor allowing a message to be added to this exception.
 
@@ -40,3 +39,4 @@ def __init__(self, message):
 * class [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

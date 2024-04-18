@@ -29,9 +29,7 @@ The MathPortion type exposes the following members:
 | [`text`](/slides/python-net/aspose.slides.mathtext/mathportion/text/) | Gets or sets the plain text of a portion.<br/>            Read/write **str**. |
 | [`field`](/slides/python-net/aspose.slides.mathtext/mathportion/field/) | Returns a field of this portion.<br/>            Read-only [`IField`](/slides/python-net/aspose.slides/ifield). |
 | [`math_paragraph`](/slides/python-net/aspose.slides.mathtext/mathportion/math_paragraph/) | Math paragraph |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.mathtext/mathportion/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.mathtext/mathportion/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.mathtext/mathportion/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.mathtext/mathportion/presentation/) |  |
 
 ## Methods
@@ -44,8 +42,10 @@ The MathPortion type exposes the following members:
 | [`get_rect`](/slides/python-net/aspose.slides.mathtext/mathportion/get_rect/#) | Get coordinates of rect that bounds portion. The rect includes all the lines of<br/>             text in portion, including empty ones. |
 | [`get_coordinates`](/slides/python-net/aspose.slides.mathtext/mathportion/get_coordinates/#) | Get coordinates of the beginning of the portion. The X coordinate of point represents the <br/>            portion beginning from the first character including left side bearing. The Y coordinate <br/>            includes top side bearing. |
 
+
 ### See Also
 * class [`MathPortion`](/slides/python-net/aspose.slides.mathtext/mathportion)
 * class [`Portion`](/slides/python-net/aspose.slides/portion)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -19,8 +19,10 @@ def border_right(self):
     ...
 ```
 
+
 ### See Also
 * class [`IBaseTableFormatEffectiveData`](/slides/python-net/aspose.slides/ibasetableformateffectivedata)
 * class [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

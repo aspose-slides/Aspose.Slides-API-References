@@ -25,8 +25,6 @@ The MasterTheme type exposes the following members:
 | [`presentation`](/slides/python-net/aspose.slides.theme/mastertheme/presentation/) | Returns the parent presentation.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 | [`extra_color_schemes`](/slides/python-net/aspose.slides.theme/mastertheme/extra_color_schemes/) | Returns the collection of additional color schemes.<br/>            These schemes don't affect presentation's look, they can be selected as main color scheme for a slide.<br/>            Read-only [`IExtraColorSchemeCollection`](/slides/python-net/aspose.slides.theme/iextracolorschemecollection). |
 | [`name`](/slides/python-net/aspose.slides.theme/mastertheme/name/) | Returns the name of a theme.<br/>            Read/write **str**. |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.theme/mastertheme/as_i_presentation_component/) |  |
-| [`as_i_theme`](/slides/python-net/aspose.slides.theme/mastertheme/as_i_theme/) |  |
 
 ## Methods
 
@@ -34,8 +32,10 @@ The MasterTheme type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides.theme/mastertheme/get_effective/#) | Gets effective theme data with the inheritance applied. |
 
+
 ### See Also
 * class [`MasterTheme`](/slides/python-net/aspose.slides.theme/mastertheme)
 * class [`Theme`](/slides/python-net/aspose.slides.theme/theme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

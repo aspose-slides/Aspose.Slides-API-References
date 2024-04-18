@@ -17,12 +17,15 @@ Determines whether hidden slides will be exported.
 @property
 def export_hidden_slides(self):
     ...
+
 @export_hidden_slides.setter
 def export_hidden_slides(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGifOptions`](/slides/python-net/aspose.slides.export/igifoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -31,11 +31,11 @@ def remove(self, item):
 | :- | :- | :- |
 | item | [`IPortion`](/slides/python-net/aspose.slides/iportion) | The object to remove from the **System.Collections.Generic.ICollection`1**. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.NotSupportedException** | The **System.Collections.Generic.ICollection`1** is read-only. |
+| **RuntimeError(Proxy error(NotSupportedException))** | The **System.Collections.Generic.ICollection`1** is read-only. |
 
 
 
@@ -44,3 +44,4 @@ def remove(self, item):
 * class [`PortionCollection`](/slides/python-net/aspose.slides/portioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

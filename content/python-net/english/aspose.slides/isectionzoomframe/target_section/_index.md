@@ -17,13 +17,16 @@ Gets or sets the section object that the Section Zoom object is linked to.
 @property
 def target_section(self):
     ...
+
 @target_section.setter
 def target_section(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ISection`](/slides/python-net/aspose.slides/isection)
 * class [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

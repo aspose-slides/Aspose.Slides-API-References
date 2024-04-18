@@ -17,12 +17,15 @@ Position of grouping character.
 @property
 def position(self):
     ...
+
 @position.setter
 def position(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathGroupingCharacter`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

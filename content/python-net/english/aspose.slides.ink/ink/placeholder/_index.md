@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.ink/ink/placeholder/
-weight: 320
+weight: 330
 ---
 
 
@@ -19,8 +19,10 @@ def placeholder(self):
     ...
 ```
 
+
 ### See Also
 * class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * class [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

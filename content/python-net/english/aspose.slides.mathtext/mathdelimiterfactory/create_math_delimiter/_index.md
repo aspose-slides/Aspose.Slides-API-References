@@ -28,7 +28,6 @@ def create_math_delimiter(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply delimiter |
 
 
-
 ## create_math_delimiter {#imathelementcollection}
 Create a math delimiter by applying to the element
 
@@ -57,3 +56,4 @@ def create_math_delimiter(self, math_elements):
 * class [`MathDelimiterFactory`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

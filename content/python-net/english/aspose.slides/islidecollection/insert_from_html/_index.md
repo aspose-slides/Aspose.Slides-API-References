@@ -29,7 +29,6 @@ def insert_from_html(self, index, html_text):
 | html_text | **str** | Html to add. |
 
 
-
 ## insert_from_html {#int-iorawiobase}
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -49,7 +48,6 @@ def insert_from_html(self, index, html_stream):
 | :- | :- | :- |
 | index | **int** | Position to insert. |
 | html_stream | **io.RawIOBase** | A Stream object which will be used as a source of a HTML file. |
-
 
 
 ## insert_from_html {#int-str-asposeslidesimportingiexternalresourceresolver-str}
@@ -73,7 +71,6 @@ def insert_from_html(self, index, html_text, resolver, uri):
 | html_text | **str** | Html to add. |
 | resolver | [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | **str** | An URI of the specified HTML. Used to resolve relative links. |
-
 
 
 ## insert_from_html {#int-iorawiobase-asposeslidesimportingiexternalresourceresolver-str}
@@ -105,3 +102,4 @@ def insert_from_html(self, index, html_stream, resolver, uri):
 * class [`ISlideCollection`](/slides/python-net/aspose.slides/islidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

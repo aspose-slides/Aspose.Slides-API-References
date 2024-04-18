@@ -14,12 +14,15 @@ weight: 90
 @property
 def height(self):
     ...
+
 @height.setter
 def height(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ILegend`](/slides/python-net/aspose.slides.charts/ilegend)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

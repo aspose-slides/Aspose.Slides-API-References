@@ -17,12 +17,15 @@ Returns or sets the custom dash pattern.
 @property
 def custom_dash_pattern(self):
     ...
+
 @custom_dash_pattern.setter
 def custom_dash_pattern(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -19,7 +19,6 @@ The IAlphaModulateFixed type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`amount`](/slides/python-net/aspose.slides.effects/ialphamodulatefixed/amount/) | Returns an amount of effect in percents.<br/>            Read/write **float**. |
-| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/ialphamodulatefixed/as_i_image_transform_operation/) | Allows to get base IImageTransformOperation interface.<br/>            Read-only [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation). |
 
 ## Methods
 
@@ -27,6 +26,8 @@ The IAlphaModulateFixed type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides.effects/ialphamodulatefixed/get_effective/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

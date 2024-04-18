@@ -31,7 +31,6 @@ def add_effect(self, shape, effect_type, subtype, trigger_type):
 | trigger_type | [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
 
 
-
 ## add_effect {#iparagraph-effecttype-effectsubtype-effecttriggertype}
 Add new animation effect for paragraph to the end of sequence.
 
@@ -53,7 +52,6 @@ def add_effect(self, paragraph, effect_type, subtype, trigger_type):
 | effect_type | [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
 | subtype | [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
 | trigger_type | [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
-
 
 
 ## add_effect {#asposeslideschartsichart-effectchartmajorgroupingtype-int-effecttype-effectsubtype-effecttriggertype}
@@ -79,7 +77,6 @@ def add_effect(self, chart, type, index, effect_type, subtype, trigger_type):
 | effect_type | [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) | Type of an animation effect [`EffectType`](/slides/python-net/aspose.slides.animation/effecttype) |
 | subtype | [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) | Subtypes of animation effect [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype) |
 | trigger_type | [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) | Trigger type of effect [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype) |
-
 
 
 ## add_effect {#asposeslideschartsichart-effectchartminorgroupingtype-int-int-effecttype-effectsubtype-effecttriggertype}
@@ -122,3 +119,4 @@ def add_effect(self, chart, type, series_index, categories_index, effect_type, s
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

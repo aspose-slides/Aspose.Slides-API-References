@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/slide/write_as_svg/
-weight: 100
+weight: 110
 ---
 
 
@@ -21,7 +21,6 @@ def write_as_svg(self, stream):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Target stream |
-
 
 
 ## write_as_svg {#iorawiobase-asposeslidesexportisvgoptions}
@@ -46,3 +45,4 @@ def write_as_svg(self, stream, svg_options):
 * class [`Slide`](/slides/python-net/aspose.slides/slide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

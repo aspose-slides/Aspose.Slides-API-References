@@ -16,12 +16,15 @@ Show Narration in Slide Show
 @property
 def show_narration(self):
     ...
+
 @show_narration.setter
 def show_narration(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SlideShowSettings`](/slides/python-net/aspose.slides/slideshowsettings)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

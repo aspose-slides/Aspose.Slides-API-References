@@ -22,6 +22,8 @@ The IMotionCmdPath type exposes the following members:
 | [`is_relative`](/slides/python-net/aspose.slides.animation/imotioncmdpath/is_relative/) | Determine command coordinates relative or not.<br/>            Read/write **bool**. |
 | [`points_type`](/slides/python-net/aspose.slides.animation/imotioncmdpath/points_type/) | Specifies command points type<br/>            Read/write [`MotionPathPointsType`](/slides/python-net/aspose.slides.animation/motionpathpointstype). |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

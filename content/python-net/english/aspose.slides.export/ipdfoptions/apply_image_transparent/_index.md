@@ -16,12 +16,15 @@ Applies the specified transparent color to an image if `true`.
 @property
 def apply_image_transparent(self):
     ...
+
 @apply_image_transparent.setter
 def apply_image_transparent(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

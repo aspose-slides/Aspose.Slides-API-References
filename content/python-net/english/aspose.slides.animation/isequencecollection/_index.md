@@ -18,13 +18,12 @@ The ISequenceCollection type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.animation/isequencecollection/count/) | Returns the number of elements in a collection<br/>            Read-only **int**. |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.animation/isequencecollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only **collections.abc.Iterable**. |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/isequencecollection/__getitem__/) |  |
 
 ## Methods
 
@@ -35,6 +34,8 @@ The ISequenceCollection type exposes the following members:
 | [`remove_at`](/slides/python-net/aspose.slides.animation/isequencecollection/remove_at/#int) | Removes sequence at the specified index. |
 | [`clear`](/slides/python-net/aspose.slides.animation/isequencecollection/clear/#) | Removes all sequences from a collection. |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

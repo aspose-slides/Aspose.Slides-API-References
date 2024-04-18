@@ -25,6 +25,8 @@ The IBaseTableFormatEffectiveData type exposes the following members:
 | [`border_diagonal_down`](/slides/python-net/aspose.slides/ibasetableformateffectivedata/border_diagonal_down/) | Returns down diagonal line format effective value.<br/>            Read-only [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata). |
 | [`border_diagonal_up`](/slides/python-net/aspose.slides/ibasetableformateffectivedata/border_diagonal_up/) | Returns up diagonal line format effective value.<br/>            Read-only [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

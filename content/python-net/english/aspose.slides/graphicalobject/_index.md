@@ -52,10 +52,6 @@ The GraphicalObject type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides/graphicalobject/slide/) | Returns the parent slide of a shape.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
 | [`presentation`](/slides/python-net/aspose.slides/graphicalobject/presentation/) | Returns the parent presentation of a slide.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 | [`graphical_object_lock`](/slides/python-net/aspose.slides/graphicalobject/graphical_object_lock/) | Returns shape's locks.<br/>            Read-only [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock). |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/graphicalobject/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/graphicalobject/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/graphicalobject/as_i_presentation_component/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/graphicalobject/as_i_shape/) |  |
 
 ## Methods
 
@@ -63,14 +59,18 @@ The GraphicalObject type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/graphicalobject/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/graphicalobject/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
+| [`get_image`](/slides/python-net/aspose.slides/graphicalobject/get_image/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [`get_image`](/slides/python-net/aspose.slides/graphicalobject/get_image/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/graphicalobject/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/graphicalobject/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/graphicalobject/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`add_placeholder`](/slides/python-net/aspose.slides/graphicalobject/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/graphicalobject/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
 
+
 ### See Also
 * class [`GraphicalObject`](/slides/python-net/aspose.slides/graphicalobject)
 * class [`Shape`](/slides/python-net/aspose.slides/shape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

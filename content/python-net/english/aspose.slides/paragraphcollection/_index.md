@@ -19,17 +19,14 @@ The ParagraphCollection type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides/paragraphcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
 | [`is_read_only`](/slides/python-net/aspose.slides/paragraphcollection/is_read_only/) | Gets a value indicating whether the **System.Collections.Generic.ICollection`1** is read-only.<br/>            Read-only **bool**. |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/paragraphcollection/as_i_slide_component/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/paragraphcollection/as_i_enumerable/) |  |
 | [`slide`](/slides/python-net/aspose.slides/paragraphcollection/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/paragraphcollection/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/paragraphcollection/presentation/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/paragraphcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -49,6 +46,8 @@ The ParagraphCollection type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/paragraphcollection/remove/#iparagraph) | Removes the first occurrence of a specific object from the **System.Collections.Generic.ICollection`1**. |
 | [`export_to_html`](/slides/python-net/aspose.slides/paragraphcollection/export_to_html/#int-int-asposeslidesexportitexttohtmlconversionoptions) | Converts specifying paragraphs to the HTML and returns it as String object. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

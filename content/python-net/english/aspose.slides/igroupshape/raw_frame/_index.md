@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/igroupshape/raw_frame/
-weight: 330
+weight: 340
 ---
 
 
@@ -14,12 +14,15 @@ weight: 330
 @property
 def raw_frame(self):
     ...
+
 @raw_frame.setter
 def raw_frame(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

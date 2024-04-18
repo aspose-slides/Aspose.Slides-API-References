@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichart/parent_group/
-weight: 490
+weight: 500
 ---
 
 
@@ -16,7 +16,9 @@ def parent_group(self):
     ...
 ```
 
+
 ### See Also
 * class [`IChart`](/slides/python-net/aspose.slides.charts/ichart)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

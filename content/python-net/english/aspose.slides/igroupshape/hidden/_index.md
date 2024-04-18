@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/igroupshape/hidden/
-weight: 200
+weight: 210
 ---
 
 
@@ -14,12 +14,15 @@ weight: 200
 @property
 def hidden(self):
     ...
+
 @hidden.setter
 def hidden(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

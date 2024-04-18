@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartartshape/three_d_format/
-weight: 450
+weight: 460
 ---
 
 
@@ -20,8 +20,10 @@ def three_d_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
 * class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

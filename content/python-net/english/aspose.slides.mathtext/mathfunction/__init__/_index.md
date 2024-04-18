@@ -24,7 +24,6 @@ def __init__(self, func_name, base_argument):
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-
 ## __init__ {#str-imathelement}
 Initializes a new instance of the MathFunction class.
 
@@ -47,3 +46,4 @@ def __init__(self, func_name, base_argument):
 * class [`MathFunction`](/slides/python-net/aspose.slides.mathtext/mathfunction)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

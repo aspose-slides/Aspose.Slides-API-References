@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipictureframe/picture_frame_lock/
-weight: 370
+weight: 380
 ---
 
 
@@ -19,8 +19,10 @@ def picture_frame_lock(self):
     ...
 ```
 
+
 ### See Also
 * class [`IPictureFrame`](/slides/python-net/aspose.slides/ipictureframe)
 * class [`IPictureFrameLock`](/slides/python-net/aspose.slides/ipictureframelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

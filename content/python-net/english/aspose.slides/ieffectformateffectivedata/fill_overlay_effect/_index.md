@@ -19,8 +19,10 @@ def fill_overlay_effect(self):
     ...
 ```
 
+
 ### See Also
 * class [`IEffectFormatEffectiveData`](/slides/python-net/aspose.slides/ieffectformateffectivedata)
 * class [`IFillOverlayEffectiveData`](/slides/python-net/aspose.slides.effects/ifilloverlayeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

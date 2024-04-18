@@ -30,10 +30,8 @@ The IOleObjectFrame type exposes the following members:
 | [`is_object_link`](/slides/python-net/aspose.slides/ioleobjectframe/is_object_link/) | Determines whether an object is linked to external file.<br/>            Read-only **bool**. |
 | [`update_automatic`](/slides/python-net/aspose.slides/ioleobjectframe/update_automatic/) | Determines if the linked embedded object is automatically updated when the presentation is opened or printed.<br/>            Read/write **bool**. |
 | [`substitute_picture_title`](/slides/python-net/aspose.slides/ioleobjectframe/substitute_picture_title/) | Returns or sets the title for OleObject icon.<br/>            Read/write **str**. |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides/ioleobjectframe/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
 | [`shape_lock`](/slides/python-net/aspose.slides/ioleobjectframe/shape_lock/) |  |
 | [`graphical_object_lock`](/slides/python-net/aspose.slides/ioleobjectframe/graphical_object_lock/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/ioleobjectframe/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides/ioleobjectframe/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/ioleobjectframe/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/ioleobjectframe/custom_data/) |  |
@@ -60,10 +58,7 @@ The IOleObjectFrame type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/ioleobjectframe/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/ioleobjectframe/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/ioleobjectframe/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/ioleobjectframe/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/ioleobjectframe/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/ioleobjectframe/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/ioleobjectframe/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/ioleobjectframe/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/ioleobjectframe/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/ioleobjectframe/hyperlink_mouse_over/) |  |
@@ -75,6 +70,8 @@ The IOleObjectFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ioleobjectframe/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ioleobjectframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/ioleobjectframe/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/ioleobjectframe/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/ioleobjectframe/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/ioleobjectframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`set_embedded_data`](/slides/python-net/aspose.slides/ioleobjectframe/set_embedded_data/#ioleembeddeddatainfo) | Sets information about OLE embedded data. |
@@ -82,6 +79,8 @@ The IOleObjectFrame type exposes the following members:
 | [`remove_placeholder`](/slides/python-net/aspose.slides/ioleobjectframe/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/ioleobjectframe/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

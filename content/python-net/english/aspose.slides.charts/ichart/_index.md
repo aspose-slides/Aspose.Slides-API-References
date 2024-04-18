@@ -37,12 +37,8 @@ The IChart type exposes the following members:
 | [`axes`](/slides/python-net/aspose.slides.charts/ichart/axes/) | Provide access to chart axes.<br/>            Read-only [`IAxesManager`](/slides/python-net/aspose.slides.charts/iaxesmanager). |
 | [`show_data_labels_over_maximum`](/slides/python-net/aspose.slides.charts/ichart/show_data_labels_over_maximum/) | Specifies data labels over the maximum of the chart shall be shown.<br/>            Read/write **bool**. |
 | [`has_rounded_corners`](/slides/python-net/aspose.slides.charts/ichart/has_rounded_corners/) | Specifies the chart area shall have rounded corners.<br/>            Read/write **bool**. |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides.charts/ichart/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
-| [`as_i_formatted_text_container`](/slides/python-net/aspose.slides.charts/ichart/as_i_formatted_text_container/) | Allows to get base IFormattedTextContainer interface.<br/>            Read-only [`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer). |
-| [`as_i_override_themeable`](/slides/python-net/aspose.slides.charts/ichart/as_i_override_themeable/) | Returns IOverrideThemeable interface.<br/>            Read-only [`IOverrideThemeable`](/slides/python-net/aspose.slides.theme/ioverridethemeable). |
 | [`shape_lock`](/slides/python-net/aspose.slides.charts/ichart/shape_lock/) |  |
 | [`graphical_object_lock`](/slides/python-net/aspose.slides.charts/ichart/graphical_object_lock/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides.charts/ichart/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides.charts/ichart/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides.charts/ichart/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides.charts/ichart/custom_data/) |  |
@@ -69,18 +65,14 @@ The IChart type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides.charts/ichart/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides.charts/ichart/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides.charts/ichart/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides.charts/ichart/as_i_hyperlink_container/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/ichart/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/ichart/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/ichart/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides.charts/ichart/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides.charts/ichart/hyperlink_mouse_over/) |  |
 | [`hyperlink_manager`](/slides/python-net/aspose.slides.charts/ichart/hyperlink_manager/) |  |
 | [`text_format`](/slides/python-net/aspose.slides.charts/ichart/text_format/) |  |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/ichart/as_i_chart_component/) |  |
 | [`chart`](/slides/python-net/aspose.slides.charts/ichart/chart/) |  |
 | [`theme_manager`](/slides/python-net/aspose.slides.charts/ichart/theme_manager/) |  |
-| [`as_i_themeable`](/slides/python-net/aspose.slides.charts/ichart/as_i_themeable/) |  |
 
 ## Methods
 
@@ -88,6 +80,8 @@ The IChart type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.charts/ichart/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.charts/ichart/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides.charts/ichart/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides.charts/ichart/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides.charts/ichart/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`validate_chart_layout`](/slides/python-net/aspose.slides.charts/ichart/validate_chart_layout/#) | Calculates actual values of chart elements. Actual values inlude position of elements that implement IActualLayout interface <br/>            (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight)<br/>            and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, <br/>            IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
@@ -96,6 +90,8 @@ The IChart type exposes the following members:
 | [`get_base_placeholder`](/slides/python-net/aspose.slides.charts/ichart/get_base_placeholder/#) |  |
 | [`create_theme_effective`](/slides/python-net/aspose.slides.charts/ichart/create_theme_effective/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

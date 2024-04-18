@@ -17,13 +17,16 @@ Returns or sets the color identified by a color scheme.
 @property
 def scheme_color(self):
     ...
+
 @scheme_color.setter
 def scheme_color(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
 * enumeration [`SchemeColor`](/slides/python-net/aspose.slides/schemecolor)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

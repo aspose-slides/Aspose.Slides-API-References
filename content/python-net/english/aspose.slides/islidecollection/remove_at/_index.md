@@ -22,11 +22,11 @@ def remove_at(self, index):
 | :- | :- | :- |
 | index | **int** | The zero-based index of the element to remove. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** |  |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** |  |
 
 
 
@@ -34,3 +34,4 @@ def remove_at(self, index):
 * class [`ISlideCollection`](/slides/python-net/aspose.slides/islidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

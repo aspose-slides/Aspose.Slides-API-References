@@ -34,3 +34,4 @@ def add_alpha_replace_effect(self, alpha):
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

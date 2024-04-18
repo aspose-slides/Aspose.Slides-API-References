@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iautoshape/set_geometry_paths/
-weight: 90
+weight: 100
 ---
 
 
@@ -28,3 +28,4 @@ def set_geometry_paths(self, geometry_paths):
 * class [`IAutoShape`](/slides/python-net/aspose.slides/iautoshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

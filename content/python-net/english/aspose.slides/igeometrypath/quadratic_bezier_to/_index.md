@@ -24,7 +24,6 @@ def quadratic_bezier_to(self, point1, point2):
 | point2 | **aspose.pydrawing.PointF** | End point |
 
 
-
 ## quadratic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf-int}
 Adds quadratic Bezier curve to the specified place of the path
 
@@ -41,12 +40,11 @@ def quadratic_bezier_to(self, point1, point2, index):
 | point2 | **aspose.pydrawing.PointF** | End point |
 | index | **int** | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
-
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
 ## quadratic_bezier_to {#float-float-float-float}
@@ -67,7 +65,6 @@ def quadratic_bezier_to(self, x1, y1, x2, y2):
 | y2 | **float** | Y coordinate of end point |
 
 
-
 ## quadratic_bezier_to {#float-float-float-float-int}
 Adds quadratic Bezier curve to the specified place of the path
 
@@ -86,11 +83,11 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 | y2 | **float** | Y coordinate of end point |
 | index | **int** | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
 
@@ -98,3 +95,4 @@ def quadratic_bezier_to(self, x1, y1, x2, y2, index):
 * class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

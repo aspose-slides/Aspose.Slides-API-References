@@ -13,18 +13,11 @@ Represents a collection of comments of one author.
 
 The ICommentCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/icommentcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/icommentcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/icommentcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -40,6 +33,8 @@ The ICommentCollection type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/icommentcollection/remove/#icomment) | Removes the first occurrence of the specified comment in a collection. |
 | [`clear`](/slides/python-net/aspose.slides/icommentcollection/clear/#) | Removes all comments from a collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

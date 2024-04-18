@@ -19,12 +19,15 @@ Spacing between rows of an array
 @property
 def row_spacing(self):
     ...
+
 @row_spacing.setter
 def row_spacing(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathArray`](/slides/python-net/aspose.slides.mathtext/matharray)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/remove_placeholder/
-weight: 50
+weight: 60
 ---
 
 
@@ -24,3 +24,4 @@ def remove_placeholder(self):
 * class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

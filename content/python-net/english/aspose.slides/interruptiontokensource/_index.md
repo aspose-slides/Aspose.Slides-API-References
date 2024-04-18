@@ -32,8 +32,10 @@ The InterruptionTokenSource type exposes the following members:
 | :- | :- |
 | [`interrupt`](/slides/python-net/aspose.slides/interruptiontokensource/interrupt/#) | Intialize request for interruption. |
 
+
 ### See Also
 * class [`InterruptionToken`](/slides/python-net/aspose.slides/interruptiontoken)
 * class [`InterruptionTokenSource`](/slides/python-net/aspose.slides/interruptiontokensource)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

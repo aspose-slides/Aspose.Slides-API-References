@@ -17,13 +17,16 @@ Returns or sets the East Asian font.
 @property
 def east_asian_font(self):
     ...
+
 @east_asian_font.setter
 def east_asian_font(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * class [`IFonts`](/slides/python-net/aspose.slides/ifonts)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

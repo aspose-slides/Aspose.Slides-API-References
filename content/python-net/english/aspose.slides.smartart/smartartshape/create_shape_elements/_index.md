@@ -30,3 +30,4 @@ def create_shape_elements(self):
 * class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

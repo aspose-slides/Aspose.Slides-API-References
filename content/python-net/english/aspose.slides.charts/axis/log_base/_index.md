@@ -17,12 +17,15 @@ Represents the logarithmic base. Default value is 10.
 @property
 def log_base(self):
     ...
+
 @log_base.setter
 def log_base(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

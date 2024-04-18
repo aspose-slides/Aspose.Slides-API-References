@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#str}
 Initializes a new instance of the [`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception) class with a specified error message.
 
@@ -33,7 +32,6 @@ def __init__(self, message):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | message | **str** | A string that describes the error. |
-
 
 
 ## __init__ {#str-str}
@@ -59,3 +57,4 @@ def __init__(self, message, reference):
 * class [`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception)
 * module [`aspose.slides.spreadsheet`](/slides/python-net/aspose.slides.spreadsheet)
 * library [`Aspose.Slides`](/slides/python-net)
+

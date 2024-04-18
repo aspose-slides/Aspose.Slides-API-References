@@ -18,13 +18,16 @@ Determines whether the underline style has own FillFormat properties or inherits
 @property
 def is_hard_underline_fill(self):
     ...
+
 @is_hard_underline_fill.setter
 def is_hard_underline_fill(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * class [`PortionFormat`](/slides/python-net/aspose.slides/portionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

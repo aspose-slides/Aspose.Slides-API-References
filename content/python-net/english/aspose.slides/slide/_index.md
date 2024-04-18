@@ -36,11 +36,7 @@ The Slide type exposes the following members:
 | [`hidden`](/slides/python-net/aspose.slides/slide/hidden/) | Determines whether the specified slide is hidden during a slide show.<br/>            Read/write **bool**. |
 | [`layout_slide`](/slides/python-net/aspose.slides/slide/layout_slide/) | Returns or sets the layout slide for the current slide.<br/>            Read/write [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide). |
 | [`notes_slide_manager`](/slides/python-net/aspose.slides/slide/notes_slide_manager/) | Allow to access notes slide, add and remove it.<br/>            Read-only [`INotesSlideManager`](/slides/python-net/aspose.slides/inotesslidemanager). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/slide/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/slide/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/slide/as_i_presentation_component/) |  |
-| [`as_i_base_slide`](/slides/python-net/aspose.slides/slide/as_i_base_slide/) |  |
-| [`as_i_override_themeable`](/slides/python-net/aspose.slides/slide/as_i_override_themeable/) |  |
 
 ## Methods
 
@@ -50,17 +46,18 @@ The Slide type exposes the following members:
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#) | Returns a Thumbnail Image object (20% of real size). |
+| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Bitmap object. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposepydrawingsize) | Returns a Thumbnail Bitmap object with specified size. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportitiffoptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportinotescommentslayoutingoptions) | Returns a Thumbnail Bitmap object. |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportinotescommentslayoutingoptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportinotescommentslayoutingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap object with specified size. |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Bitmap object. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap object with specified size. |
-| [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics-int-int) | Renders certain slide to a Graphics object using specified size. |
-| [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics-float) | Renders certain slide to a Graphics object using specified scale. |
-| [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportinotescommentslayoutingoptions-asposepydrawinggraphics) | Renders certain slide to a Graphics object. |
+| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#float-float) | Returns a Thumbnail Image object with custom scaling. |
+| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#) | Returns a Thumbnail Image object (20% of real size). |
+| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposepydrawingsize) | Returns a Thumbnail Image object with specified size. |
+| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportitiffoptions) | Returns a Thumbnail tiff image object with specified parameters. |
+| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Image object. |
+| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Image object with custom scaling. |
+| [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Image object with specified size. |
 | [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics) | Renders certain slide to a Graphics object. |
 | [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-float-float) | Renders certain slide to a Graphics object with custom scaling. |
 | [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-asposepydrawingsize) | Renders certain slide to a Graphics object using specified size. |
@@ -73,8 +70,10 @@ The Slide type exposes the following members:
 | [`reset`](/slides/python-net/aspose.slides/slide/reset/#) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
 | [`get_slide_comments`](/slides/python-net/aspose.slides/slide/get_slide_comments/#icommentauthor) | Returns all slide comments added by specific author. |
 
+
 ### See Also
 * class [`BaseSlide`](/slides/python-net/aspose.slides/baseslide)
 * class [`Slide`](/slides/python-net/aspose.slides/slide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -22,14 +22,12 @@ The IChartDataPointCollection type exposes the following members:
 | [`data_source_type_for_bubble_sizes`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/data_source_type_for_bubble_sizes/) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property<br/>            is actual in data points BubbleSize property object. In other words it specifies<br/>            the type of value of ChartDataPointEx.BubbleSize.Data property.<br/>            Read/write [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype). |
 | [`data_source_type_for_values`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/data_source_type_for_values/) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property<br/>            is actual in data points Value property object. In other words it specifies<br/>            the type of value of ChartDataPoint.Value.Data property.<br/>            Read/write [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype). |
 | [`data_source_type_for_error_bars_custom_values`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/data_source_type_for_error_bars_custom_values/) | Specifies the type of values in ChartDataPoint.ErrorBarsCustomValues properties list.<br/>            Read-only [`IDataSourceTypeForErrorBarsCustomValues`](/slides/python-net/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues). |
-| [`as_i_collection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/as_i_enumerable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -81,6 +79,8 @@ The IChartDataPointCollection type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/remove/#ichartdatapoint) | Removes the specified value. |
 | [`remove_at`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/remove_at/#int) | Removes the element at the given index. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

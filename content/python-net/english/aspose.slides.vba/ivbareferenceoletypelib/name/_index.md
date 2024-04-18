@@ -14,12 +14,15 @@ weight: 30
 @property
 def name(self):
     ...
+
 @name.setter
 def name(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IVbaReferenceOleTypeLib`](/slides/python-net/aspose.slides.vba/ivbareferenceoletypelib)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

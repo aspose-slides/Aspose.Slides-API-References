@@ -17,12 +17,15 @@ Blur radius.
 @property
 def blur_radius(self):
     ...
+
 @blur_radius.setter
 def blur_radius(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Reflection`](/slides/python-net/aspose.slides.effects/reflection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

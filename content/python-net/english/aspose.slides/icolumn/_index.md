@@ -19,20 +19,14 @@ The IColumn type exposes the following members:
 | :- | :- |
 | [`width`](/slides/python-net/aspose.slides/icolumn/width/) | Returns or sets the width of a column.<br/>            Read/write **float**. |
 | [`column_format`](/slides/python-net/aspose.slides/icolumn/column_format/) | Returns the ColumnFormat object that contains formatting properties for this column.<br/>            Read-only [`IColumnFormat`](/slides/python-net/aspose.slides/icolumnformat). |
-| [`as_i_cell_collection`](/slides/python-net/aspose.slides/icolumn/as_i_cell_collection/) | Allows to get base ICellCollection interface.<br/>            Read-only [`ICellCollection`](/slides/python-net/aspose.slides/icellcollection). |
-| [`as_i_bulk_text_formattable`](/slides/python-net/aspose.slides/icolumn/as_i_bulk_text_formattable/) | Allows to get base IBulkTextFormattable interface.<br/>            Read-only [`IBulkTextFormattable`](/slides/python-net/aspose.slides/ibulktextformattable). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/icolumn/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/icolumn/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/icolumn/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/icolumn/presentation/) |  |
-| [`as_i_collection`](/slides/python-net/aspose.slides/icolumn/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/icolumn/as_i_enumerable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/icolumn/__getitem__/) |  |
 
 ## Methods
 
@@ -42,6 +36,8 @@ The IColumn type exposes the following members:
 | [`set_text_format`](/slides/python-net/aspose.slides/icolumn/set_text_format/#iparagraphformat) |  |
 | [`set_text_format`](/slides/python-net/aspose.slides/icolumn/set_text_format/#itextframeformat) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

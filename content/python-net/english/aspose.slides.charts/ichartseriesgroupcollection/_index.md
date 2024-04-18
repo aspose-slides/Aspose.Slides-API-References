@@ -13,18 +13,11 @@ Represents the collection of groups of combinable series.
 
 The IChartSeriesGroupCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides.charts/ichartseriesgroupcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.charts/ichartseriesgroupcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/ichartseriesgroupcollection/__getitem__/) |  |
 
 
 ### Remarks
@@ -42,6 +35,8 @@ The IChartSeriesGroupCollection type exposes the following members:
             "Series group properties" in ChartSeriesGroup class is read/write.
             Each of "series group properties" can have a read-only projection in ChartSeries class.
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

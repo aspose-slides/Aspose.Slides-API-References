@@ -17,12 +17,15 @@ Determines whether selecting this shape is forbidden.
 @property
 def select_locked(self):
     ...
+
 @select_locked.setter
 def select_locked(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGroupShapeLock`](/slides/python-net/aspose.slides/igroupshapelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -18,12 +18,15 @@ Specifies size of a generated TIFF image.
 @property
 def image_size(self):
     ...
+
 @image_size.setter
 def image_size(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Returns or sets the author of a presentation.
 @property
 def author(self):
     ...
+
 @author.setter
 def author(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

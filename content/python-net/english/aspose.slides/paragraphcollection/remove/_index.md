@@ -31,11 +31,11 @@ def remove(self, item):
 | :- | :- | :- |
 | item | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | The object to remove from the **System.Collections.Generic.ICollection`1**. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.NotSupportedException** | The **System.Collections.Generic.ICollection`1** is read-only. |
+| **RuntimeError(Proxy error(NotSupportedException))** | The **System.Collections.Generic.ICollection`1** is read-only. |
 
 
 
@@ -44,3 +44,4 @@ def remove(self, item):
 * class [`ParagraphCollection`](/slides/python-net/aspose.slides/paragraphcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

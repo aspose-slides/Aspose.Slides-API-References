@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/audioframe/shape_style/
-weight: 580
+weight: 590
 ---
 
 
@@ -19,8 +19,10 @@ def shape_style(self):
     ...
 ```
 
+
 ### See Also
 * class [`AudioFrame`](/slides/python-net/aspose.slides/audioframe)
 * class [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

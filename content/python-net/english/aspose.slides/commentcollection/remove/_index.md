@@ -22,11 +22,11 @@ def remove(self, comment):
 | :- | :- | :- |
 | comment | [`IComment`](/slides/python-net/aspose.slides/icomment) | The comment to remove from a collection. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | If comment is `null` |
+| **RuntimeError(Proxy error(ArgumentNullException))** | If comment is `null` |
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | Thrown if comment is already removed. |
 
 
@@ -37,3 +37,4 @@ def remove(self, comment):
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

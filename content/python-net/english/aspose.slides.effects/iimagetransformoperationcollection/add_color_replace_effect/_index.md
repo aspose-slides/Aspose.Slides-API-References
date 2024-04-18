@@ -30,3 +30,4 @@ def add_color_replace_effect(self):
 * class [`IImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

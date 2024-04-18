@@ -34,6 +34,8 @@ The MaterialPresetType type exposes the following members:
 | TRANSLUCENT_POWDER |  |
 | WARM_MATTE |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

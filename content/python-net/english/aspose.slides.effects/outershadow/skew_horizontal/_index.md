@@ -17,12 +17,15 @@ Specifies the horizontal skew angle (in degrees).
 @property
 def skew_horizontal(self):
     ...
+
 @skew_horizontal.setter
 def skew_horizontal(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`OuterShadow`](/slides/python-net/aspose.slides.effects/outershadow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

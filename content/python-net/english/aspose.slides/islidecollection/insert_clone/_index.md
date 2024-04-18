@@ -39,7 +39,6 @@ When cloning a slide between different presentations slide's master can be clone
             **Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide** for cloning masters.
 
 
-
 ## insert_clone {#int-islide-ilayoutslide}
 Inserts a copy of a specified slide to specified position of the collection.
 
@@ -60,7 +59,6 @@ def insert_clone(self, index, source_slide, dest_layout):
 | index | **int** | Index of new slide. |
 | source_slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to clone. |
 | dest_layout | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) | Layout slide for a new slide. |
-
 
 
 ## insert_clone {#int-islide-imasterslide-bool}
@@ -91,7 +89,7 @@ def insert_clone(self, index, source_slide, dest_master, allow_clone_missing_lay
 | dest_master | [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide) | Master slide for a new slide. |
 | allow_clone_missing_layout | **bool** | If there is no appropriate layout in specified master then layout of the <br/><br/>            source slide will be cloned (if allowCloneMissingLayout is true) or <br/><br/>            PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -107,3 +105,4 @@ def insert_clone(self, index, source_slide, dest_master, allow_clone_missing_lay
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

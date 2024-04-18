@@ -20,6 +20,8 @@ The VbaModule type exposes the following members:
 | [`name`](/slides/python-net/aspose.slides.vba/vbamodule/name/) | Gets the name of the module.<br/>            Read-only **str**. |
 | [`source_code`](/slides/python-net/aspose.slides.vba/vbamodule/source_code/) | Returns or sets the source code of the module.<br/>            Read/write **str**. |
 
+
 ### See Also
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

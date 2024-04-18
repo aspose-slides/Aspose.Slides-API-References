@@ -17,12 +17,15 @@ Specifies the state that the vertical splitter bar should be shown in.
 @property
 def vertical_bar_state(self):
     ...
+
 @vertical_bar_state.setter
 def vertical_bar_state(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`NormalViewProperties`](/slides/python-net/aspose.slides/normalviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

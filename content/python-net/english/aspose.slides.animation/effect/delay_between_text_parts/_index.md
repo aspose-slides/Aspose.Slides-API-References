@@ -19,12 +19,15 @@ Defines a delay between animated text parts (words or letters).
 @property
 def delay_between_text_parts(self):
     ...
+
 @delay_between_text_parts.setter
 def delay_between_text_parts(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Effect`](/slides/python-net/aspose.slides.animation/effect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

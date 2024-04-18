@@ -27,7 +27,6 @@ The OuterShadow type exposes the following members:
 | [`rotate_shadow_with_shape`](/slides/python-net/aspose.slides.effects/outershadow/rotate_shadow_with_shape/) | Specifies whether the shadow should rotate with the shape if the shape is rotated.<br/>            Read/write **bool**. |
 | [`scale_horizontal`](/slides/python-net/aspose.slides.effects/outershadow/scale_horizontal/) | Specifies the horizontal scaling factor, negative scaling causes a flip.<br/>            Read/write **float**. |
 | [`scale_vertical`](/slides/python-net/aspose.slides.effects/outershadow/scale_vertical/) | Specifies the vertical scaling factor, negative scaling causes a flip.<br/>            Read/write **float**. |
-| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/outershadow/as_i_image_transform_operation/) |  |
 
 ## Methods
 
@@ -35,6 +34,8 @@ The OuterShadow type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides.effects/outershadow/get_effective/#) | Gets effective Outer Shadow effect data with the inheritance applied. |
 
+
 ### See Also
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

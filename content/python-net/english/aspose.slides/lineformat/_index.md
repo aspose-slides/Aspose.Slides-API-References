@@ -19,7 +19,6 @@ The LineFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/lineformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`is_format_not_defined`](/slides/python-net/aspose.slides/lineformat/is_format_not_defined/) | Returns true if line format is not defined (as just created, default).<br/>            Read-only **bool**. |
 | [`fill_format`](/slides/python-net/aspose.slides/lineformat/fill_format/) | Returns the fill format of a line.<br/>            Read-only [`ILineFillFormat`](/slides/python-net/aspose.slides/ilinefillformat). |
 | [`sketch_format`](/slides/python-net/aspose.slides/lineformat/sketch_format/) | Returns the sketch format of a line.<br/>            Read-only [`ILineFillFormat`](/slides/python-net/aspose.slides/ilinefillformat). |
@@ -39,7 +38,6 @@ The LineFormat type exposes the following members:
 | [`end_arrowhead_length`](/slides/python-net/aspose.slides/lineformat/end_arrowhead_length/) | Returns or sets the arrowhead length at the end of a line.<br/>            Read/write [`LineArrowheadLength`](/slides/python-net/aspose.slides/linearrowheadlength). |
 | [`slide`](/slides/python-net/aspose.slides/lineformat/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/lineformat/presentation/) |  |
-| [`as_i_line_param_source`](/slides/python-net/aspose.slides/lineformat/as_i_line_param_source/) |  |
 
 ## Methods
 
@@ -48,8 +46,10 @@ The LineFormat type exposes the following members:
 | [`equals`](/slides/python-net/aspose.slides/lineformat/equals/#ilineformat) | Determines whether the two LineFormat instances are equal. |
 | [`get_effective`](/slides/python-net/aspose.slides/lineformat/get_effective/#) | Gets effective line formatting data with the inheritance applied. |
 
+
 ### See Also
 * class [`LineFormat`](/slides/python-net/aspose.slides/lineformat)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -38,11 +38,7 @@ The MasterSlide type exposes the following members:
 | [`preserve`](/slides/python-net/aspose.slides/masterslide/preserve/) | Determines whether the corresponding master is deleted when all the slides that follow that master are deleted.<br/>            Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call **Aspose.Slides.MasterSlideCollection.RemoveUnused(Syste**<br/>            Read/write **bool**. |
 | [`has_depending_slides`](/slides/python-net/aspose.slides/masterslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this master slide.<br/>            Read-only **bool**. |
 | [`theme_manager`](/slides/python-net/aspose.slides/masterslide/theme_manager/) | Returns the theme manager.<br/>            Read-only [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/masterslide/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/masterslide/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/masterslide/as_i_presentation_component/) |  |
-| [`as_i_base_slide`](/slides/python-net/aspose.slides/masterslide/as_i_base_slide/) |  |
-| [`as_i_master_themeable`](/slides/python-net/aspose.slides/masterslide/as_i_master_themeable/) |  |
 
 ## Methods
 
@@ -56,8 +52,10 @@ The MasterSlide type exposes the following members:
 | [`apply_external_theme_to_depending_slides`](/slides/python-net/aspose.slides/masterslide/apply_external_theme_to_depending_slides/#str) | Creates a new master slide based on the current one, applying an external theme to it <br/>            and applies the created master slide to all dependent slides. |
 | [`get_depending_slides`](/slides/python-net/aspose.slides/masterslide/get_depending_slides/#) | Returns an array with all slides, which depend on this master slide. |
 
+
 ### See Also
 * class [`BaseSlide`](/slides/python-net/aspose.slides/baseslide)
 * class [`MasterSlide`](/slides/python-net/aspose.slides/masterslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

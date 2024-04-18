@@ -30,15 +30,12 @@ The MathBlock type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.mathtext/mathblock/count/) | Gets the number of child math elements actually contained in the collection.<br/>            Read-only **int**. |
 | [`is_read_only`](/slides/python-net/aspose.slides.mathtext/mathblock/is_read_only/) | Returns false because child elements collection can be modified. |
-| [`as_i_math_element_collection`](/slides/python-net/aspose.slides.mathtext/mathblock/as_i_math_element_collection/) |  |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/mathblock/as_i_math_element/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.mathtext/mathblock/as_i_enumerable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/mathblock/__getitem__/) |  |
 
 ## Methods
 
@@ -103,8 +100,10 @@ The MathBlock type exposes the following members:
 | [`delimit`](/slides/python-net/aspose.slides.mathtext/mathblock/delimit/#char) | Delimits child elements with separator character (without the brackets) |
 | [`write_as_math_ml`](/slides/python-net/aspose.slides.mathtext/mathblock/write_as_math_ml/#iorawiobase) | Saves content of this [`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock) as MathML |
 
+
 ### See Also
 * class [`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

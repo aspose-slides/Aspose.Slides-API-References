@@ -24,11 +24,11 @@ The IControl type exposes the following members:
 | [`properties`](/slides/python-net/aspose.slides/icontrol/properties/) | Returns a collection of ActiveX properties.<br/>            Read-only [`IControlPropertiesCollection`](/slides/python-net/aspose.slides/icontrolpropertiescollection). |
 | [`persistence`](/slides/python-net/aspose.slides/icontrol/persistence/) | Gets the method used to store properties of the ActiveX control.<br/>            Read only [`PersistenceType`](/slides/python-net/aspose.slides/persistencetype). |
 | [`active_x_control_binary`](/slides/python-net/aspose.slides/icontrol/active_x_control_binary/) | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/icontrol/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
 | [`slide`](/slides/python-net/aspose.slides/icontrol/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/icontrol/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/icontrol/presentation/) |  |
+
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

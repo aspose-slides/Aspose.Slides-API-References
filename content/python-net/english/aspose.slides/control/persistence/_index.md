@@ -19,8 +19,10 @@ def persistence(self):
     ...
 ```
 
+
 ### See Also
 * class [`Control`](/slides/python-net/aspose.slides/control)
 * enumeration [`PersistenceType`](/slides/python-net/aspose.slides/persistencetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Specifies the vertical skew angle.
 @property
 def skew_vertical(self):
     ...
+
 @skew_vertical.setter
 def skew_vertical(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Reflection`](/slides/python-net/aspose.slides.effects/reflection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -22,12 +22,15 @@ Specifies the custom rotation that is being applied to the text within the bound
 @property
 def rotation_angle(self):
     ...
+
 @rotation_angle.setter
 def rotation_angle(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

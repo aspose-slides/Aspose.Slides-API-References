@@ -17,12 +17,15 @@ Specifies the vertical skew angle (in degrees).
 @property
 def skew_vertical(self):
     ...
+
 @skew_vertical.setter
 def skew_vertical(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`OuterShadow`](/slides/python-net/aspose.slides.effects/outershadow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -21,12 +21,15 @@ Default is **NotesPositions.None** .
 @property
 def notes_position(self):
     ...
+
 @notes_position.setter
 def notes_position(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`NotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/notescommentslayoutingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

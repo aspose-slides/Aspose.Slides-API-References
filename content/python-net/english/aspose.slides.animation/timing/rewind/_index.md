@@ -17,12 +17,15 @@ This attribute specifies if the effect will rewind when done playing.
 @property
 def rewind(self):
     ...
+
 @rewind.setter
 def rewind(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Timing`](/slides/python-net/aspose.slides.animation/timing)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

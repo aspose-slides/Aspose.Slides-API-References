@@ -29,7 +29,6 @@ def create_math_nary_operator(self, operator_symbol, base_argument):
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument to apply operator |
 
 
-
 ## create_math_nary_operator {#char-imathelement-imathelement}
 Creates IMathNaryOperator
 
@@ -50,7 +49,6 @@ def create_math_nary_operator(self, operator_symbol, base_argument, lower_limit)
 | operator_symbol | **char** | The operator sign |
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument to apply operator |
 | lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Lower limit |
-
 
 
 ## create_math_nary_operator {#char-imathelement-imathelement-imathelement}
@@ -83,3 +81,4 @@ def create_math_nary_operator(self, operator_symbol, base_argument, lower_limit,
 * class [`IMathNaryOperatorFactory`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorfactory)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

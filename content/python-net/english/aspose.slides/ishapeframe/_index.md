@@ -34,6 +34,8 @@ The IShapeFrame type exposes the following members:
 | :- | :- |
 | [`clone_t`](/slides/python-net/aspose.slides/ishapeframe/clone_t/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

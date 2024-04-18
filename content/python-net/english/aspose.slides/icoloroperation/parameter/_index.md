@@ -19,7 +19,9 @@ def parameter(self):
     ...
 ```
 
+
 ### See Also
 * class [`IColorOperation`](/slides/python-net/aspose.slides/icoloroperation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

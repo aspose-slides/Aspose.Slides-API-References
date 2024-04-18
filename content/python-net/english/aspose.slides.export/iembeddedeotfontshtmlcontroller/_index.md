@@ -13,12 +13,6 @@ Embedded Eot fonts HTML controller.
 
 The IEmbeddedEotFontsHtmlController type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_html_formatting_controller`](/slides/python-net/aspose.slides.export/iembeddedeotfontshtmlcontroller/as_i_html_formatting_controller/) | Returns IHtmlFormattingController interface. |
-
 ## Methods
 
 | Method | Description |
@@ -30,6 +24,8 @@ The IEmbeddedEotFontsHtmlController type exposes the following members:
 | [`write_shape_start`](/slides/python-net/aspose.slides.export/iembeddedeotfontshtmlcontroller/write_shape_start/#ihtmlgenerator-ishape) |  |
 | [`write_shape_end`](/slides/python-net/aspose.slides.export/iembeddedeotfontshtmlcontroller/write_shape_end/#ihtmlgenerator-ishape) |  |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

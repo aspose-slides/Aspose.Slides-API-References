@@ -17,13 +17,16 @@ Determines whether the height of a text should be normalized. No inheritance app
 @property
 def normalise_height(self):
     ...
+
 @normalise_height.setter
 def normalise_height(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`BasePortionFormat`](/slides/python-net/aspose.slides/baseportionformat)
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

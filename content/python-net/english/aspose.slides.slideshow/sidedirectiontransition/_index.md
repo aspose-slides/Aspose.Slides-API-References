@@ -20,10 +20,11 @@ The SideDirectionTransition type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`direction`](/slides/python-net/aspose.slides.slideshow/sidedirectiontransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionSideDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionsidedirectiontype). |
-| [`as_i_transition_value_base`](/slides/python-net/aspose.slides.slideshow/sidedirectiontransition/as_i_transition_value_base/) |  |
+
 
 ### See Also
 * class [`SideDirectionTransition`](/slides/python-net/aspose.slides.slideshow/sidedirectiontransition)
 * class [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

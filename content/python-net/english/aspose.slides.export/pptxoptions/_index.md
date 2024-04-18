@@ -29,10 +29,12 @@ The PptxOptions type exposes the following members:
 | [`progress_callback`](/slides/python-net/aspose.slides.export/pptxoptions/progress_callback/) | Represents a callback object for saving progress updates in percentage.<br/>            See [`IProgressCallback`](/slides/python-net/aspose.slides/iprogresscallback). |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/pptxoptions/default_regular_font/) | Returns or sets font used in case source font is not found.<br/>            Read-write **str**. |
 | [`conformance`](/slides/python-net/aspose.slides.export/pptxoptions/conformance/) | Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is [`Conformance.ECMA_376_2006`](/slides/python-net/aspose.slides.export/conformance#ECMA_376_2006) |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export/pptxoptions/as_i_save_options/) |  |
+| [`zip_64_mode`](/slides/python-net/aspose.slides.export/pptxoptions/zip_64_mode/) | Specifies whether the ZIP64 format is used for the Presentation document. <br/>            The default value is [`Zip64Mode.IF_NECESSARY`](/slides/python-net/aspose.slides.export/zip64mode#IF_NECESSARY) |
+
 
 ### See Also
 * class [`PptxOptions`](/slides/python-net/aspose.slides.export/pptxoptions)
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/table/hyperlink_manager/
-weight: 300
+weight: 310
 ---
 
 
@@ -19,8 +19,10 @@ def hyperlink_manager(self):
     ...
 ```
 
+
 ### See Also
 * class [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager)
 * class [`Table`](/slides/python-net/aspose.slides/table)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

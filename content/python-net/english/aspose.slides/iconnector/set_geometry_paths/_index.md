@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iconnector/set_geometry_paths/
-weight: 90
+weight: 100
 ---
 
 
@@ -28,3 +28,4 @@ def set_geometry_paths(self, geometry_paths):
 * class [`IConnector`](/slides/python-net/aspose.slides/iconnector)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

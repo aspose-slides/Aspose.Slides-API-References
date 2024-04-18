@@ -19,12 +19,15 @@ Specifies the shape of delimiters in the delimiter object.
 @property
 def delimiter_shape(self):
     ...
+
 @delimiter_shape.setter
 def delimiter_shape(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathDelimiter`](/slides/python-net/aspose.slides.mathtext/imathdelimiter)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

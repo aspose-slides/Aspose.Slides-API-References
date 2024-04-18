@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iaudioframe/link_path_long/
-weight: 410
+weight: 420
 ---
 
 
@@ -17,12 +17,15 @@ Returns or sets the name of an audio file which is linked to an AudioFrame.
 @property
 def link_path_long(self):
     ...
+
 @link_path_long.setter
 def link_path_long(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

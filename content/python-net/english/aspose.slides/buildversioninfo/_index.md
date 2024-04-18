@@ -24,6 +24,8 @@ The BuildVersionInfo type exposes the following members:
 | [`PRODUCT_MINOR`](/slides/python-net/aspose.slides/buildversioninfo/product_minor/) | Minor version number. |
 | [`RELEASE_DATE`](/slides/python-net/aspose.slides/buildversioninfo/release_date/) | Release date of the assembly. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

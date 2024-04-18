@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/islide/timeline/
-weight: 320
+weight: 330
 ---
 
 
@@ -16,7 +16,9 @@ def timeline(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

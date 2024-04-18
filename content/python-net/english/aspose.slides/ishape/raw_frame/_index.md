@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ishape/raw_frame/
-weight: 310
+weight: 320
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets the raw shape frame's properties.
 @property
 def raw_frame(self):
     ...
+
 @raw_frame.setter
 def raw_frame(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

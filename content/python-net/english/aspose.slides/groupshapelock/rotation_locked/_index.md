@@ -17,12 +17,15 @@ Determines whether changing rotation angle of this shape is forbidden.
 @property
 def rotation_locked(self):
     ...
+
 @rotation_locked.setter
 def rotation_locked(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`GroupShapeLock`](/slides/python-net/aspose.slides/groupshapelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Represents outlier points. True if outlier points are shown on the BoxAndWhisker
 @property
 def show_outlier_points(self):
     ...
+
 @show_outlier_points.setter
 def show_outlier_points(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

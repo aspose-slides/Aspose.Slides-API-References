@@ -26,10 +26,11 @@ The GraphicalObjectLock type exposes the following members:
 | [`aspect_ratio_locked`](/slides/python-net/aspose.slides/graphicalobjectlock/aspect_ratio_locked/) | Determines whether shape have to preserve aspect ratio on resizing.<br/>            Read/write **bool**. |
 | [`position_locked`](/slides/python-net/aspose.slides/graphicalobjectlock/position_locked/) | Determines whether moving this shape is forbidden.<br/>            Read/write **bool**. |
 | [`size_locked`](/slides/python-net/aspose.slides/graphicalobjectlock/size_locked/) | Determines whether resizing this shape is forbidden.<br/>            Read/write **bool**. |
-| [`as_i_base_shape_lock`](/slides/python-net/aspose.slides/graphicalobjectlock/as_i_base_shape_lock/) |  |
+
 
 ### See Also
 * class [`BaseShapeLock`](/slides/python-net/aspose.slides/baseshapelock)
 * class [`GraphicalObjectLock`](/slides/python-net/aspose.slides/graphicalobjectlock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,7 +17,6 @@ The IChartPortionFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_base_portion_format`](/slides/python-net/aspose.slides.charts/ichartportionformat/as_i_base_portion_format/) | Returns IBasePortionFormat interface. |
 | [`line_format`](/slides/python-net/aspose.slides.charts/ichartportionformat/line_format/) |  |
 | [`fill_format`](/slides/python-net/aspose.slides.charts/ichartportionformat/fill_format/) |  |
 | [`effect_format`](/slides/python-net/aspose.slides.charts/ichartportionformat/effect_format/) |  |
@@ -45,6 +44,8 @@ The IChartPortionFormat type exposes the following members:
 | [`alternative_language_id`](/slides/python-net/aspose.slides.charts/ichartportionformat/alternative_language_id/) |  |
 | [`spacing`](/slides/python-net/aspose.slides.charts/ichartportionformat/spacing/) |  |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

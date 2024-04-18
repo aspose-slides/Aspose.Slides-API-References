@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/sectionzoomframe/effect_format/
-weight: 170
+weight: 180
 ---
 
 
@@ -20,8 +20,10 @@ def effect_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)
 * class [`SectionZoomFrame`](/slides/python-net/aspose.slides/sectionzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

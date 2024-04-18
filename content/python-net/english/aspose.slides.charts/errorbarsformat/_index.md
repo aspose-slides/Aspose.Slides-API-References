@@ -25,12 +25,11 @@ The ErrorBarsFormat type exposes the following members:
 | [`format`](/slides/python-net/aspose.slides.charts/errorbarsformat/format/) | Represents the format of the error bars.<br/>            Read/write [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
 | [`chart`](/slides/python-net/aspose.slides.charts/errorbarsformat/chart/) | Returns the parent chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
 | [`is_visible`](/slides/python-net/aspose.slides.charts/errorbarsformat/is_visible/) | Gets or sets Error Bars visibility .<br/>            Read/write **bool**. |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/errorbarsformat/as_i_chart_component/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/errorbarsformat/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/errorbarsformat/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/errorbarsformat/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/errorbarsformat/presentation/) |  |
+
 
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

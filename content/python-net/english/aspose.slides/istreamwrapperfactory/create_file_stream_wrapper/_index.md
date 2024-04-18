@@ -29,7 +29,6 @@ def create_file_stream_wrapper(self, file_name, file_mode):
 | file_mode | **System.IO.FileMode** | File mode **System.IO.FileMode** |
 
 
-
 ## create_file_stream_wrapper {#str-systemiofilemode-systemiofileaccess}
 Creates FileStream with the specified path, creation mode, and read/write permission.
 
@@ -58,3 +57,4 @@ def create_file_stream_wrapper(self, file_name, file_mode, file_access):
 * class [`IStreamWrapperFactory`](/slides/python-net/aspose.slides/istreamwrapperfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

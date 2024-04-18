@@ -19,7 +19,6 @@ The IGraphicalObject type exposes the following members:
 | :- | :- |
 | [`shape_lock`](/slides/python-net/aspose.slides/igraphicalobject/shape_lock/) | Returns shape's locks.<br/>            Read-only [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock). |
 | [`graphical_object_lock`](/slides/python-net/aspose.slides/igraphicalobject/graphical_object_lock/) | Returns shape's locks.<br/>            Read-only [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock). |
-| [`as_i_shape`](/slides/python-net/aspose.slides/igraphicalobject/as_i_shape/) | Allows to get base IShape interface.<br/>            Read-only [`IShape`](/slides/python-net/aspose.slides/ishape). |
 | [`is_text_holder`](/slides/python-net/aspose.slides/igraphicalobject/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/igraphicalobject/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/igraphicalobject/custom_data/) |  |
@@ -46,10 +45,7 @@ The IGraphicalObject type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/igraphicalobject/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/igraphicalobject/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/igraphicalobject/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/igraphicalobject/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/igraphicalobject/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/igraphicalobject/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/igraphicalobject/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/igraphicalobject/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/igraphicalobject/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/igraphicalobject/hyperlink_mouse_over/) |  |
@@ -61,12 +57,16 @@ The IGraphicalObject type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/igraphicalobject/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/igraphicalobject/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/igraphicalobject/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/igraphicalobject/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/igraphicalobject/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/igraphicalobject/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`add_placeholder`](/slides/python-net/aspose.slides/igraphicalobject/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/igraphicalobject/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/igraphicalobject/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

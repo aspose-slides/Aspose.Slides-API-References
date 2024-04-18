@@ -13,18 +13,11 @@ Represents a collection of a VBA Project references.
 
 The IVbaReferenceCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/__getitem__/) |  |
 
 ## Methods
 
@@ -32,6 +25,8 @@ The IVbaReferenceCollection type exposes the following members:
 | :- | :- |
 | [`add`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/add/#ivbareference) | Adds the new reference to references collection |
 
+
 ### See Also
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

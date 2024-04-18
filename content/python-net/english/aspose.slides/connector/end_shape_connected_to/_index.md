@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/connector/end_shape_connected_to/
-weight: 240
+weight: 250
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets the shape to attach the end of the connector to.
 @property
 def end_shape_connected_to(self):
     ...
+
 @end_shape_connected_to.setter
 def end_shape_connected_to(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Connector`](/slides/python-net/aspose.slides/connector)
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

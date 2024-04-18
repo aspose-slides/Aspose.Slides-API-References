@@ -22,6 +22,8 @@ The AfterAnimationType type exposes the following members:
 | HIDE_AFTER_ANIMATION | Hide After Animation type |
 | HIDE_ON_NEXT_MOUSE_CLICK | Hide on Next Mouse Click after animation type. |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -23,7 +23,6 @@ def move_to(self, point):
 | point | **aspose.pydrawing.PointF** | Point position |
 
 
-
 ## move_to {#float-float}
 Sets next point position.
 
@@ -45,3 +44,4 @@ def move_to(self, x, y):
 * class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

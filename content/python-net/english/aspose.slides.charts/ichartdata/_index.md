@@ -36,6 +36,8 @@ The IChartData type exposes the following members:
 | [`get_range`](/slides/python-net/aspose.slides.charts/ichartdata/get_range/#) | Gets chart data range. |
 | [`switch_row_column`](/slides/python-net/aspose.slides.charts/ichartdata/switch_row_column/#) | Swap the data over the axis.<br/>            Data being charted on the X axis will move to the Y axis and vice versa. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

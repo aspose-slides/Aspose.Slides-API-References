@@ -21,6 +21,8 @@ The IHyperlinkContainer type exposes the following members:
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/ihyperlinkcontainer/hyperlink_mouse_over/) | Returns or sets the hyperlink defined for mouse over.<br/>            Read/write [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink). |
 | [`hyperlink_manager`](/slides/python-net/aspose.slides/ihyperlinkcontainer/hyperlink_manager/) | Hyperlinks manager<br/>            Read-only [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

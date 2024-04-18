@@ -30,7 +30,6 @@ The MathRightSubSuperscriptElement type exposes the following members:
 | [`subscript`](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement/subscript/) | Subscript argument |
 | [`superscript`](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement/superscript/) | Superscript argument |
 | [`align_scripts`](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement/align_scripts/) | Specifies the alignment of subscript/superscript. <br/>            When true, subscript and superscript are aligned horizontally to each other.<br/>            When false, they are kerned to the shape of the base.<br/>            Default value is false. |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement/as_i_math_element/) |  |
 
 ## Methods
 
@@ -83,9 +82,11 @@ The MathRightSubSuperscriptElement type exposes the following members:
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement/to_box/#) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement/get_children/#) | Get children elements |
 
+
 ### See Also
 * class [`BaseScript`](/slides/python-net/aspose.slides.mathtext/basescript)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * class [`MathRightSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

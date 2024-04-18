@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentation/protection_manager/
-weight: 280
+weight: 290
 ---
 
 
@@ -19,8 +19,10 @@ def protection_manager(self):
     ...
 ```
 
+
 ### See Also
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * class [`IProtectionManager`](/slides/python-net/aspose.slides/iprotectionmanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

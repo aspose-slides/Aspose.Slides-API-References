@@ -17,12 +17,15 @@ Returns or sets the blue component of a color. All color transformations are ign
 @property
 def b(self):
     ...
+
 @b.setter
 def b(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ColorFormat`](/slides/python-net/aspose.slides/colorformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

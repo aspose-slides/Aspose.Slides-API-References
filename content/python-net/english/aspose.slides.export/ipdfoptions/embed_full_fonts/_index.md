@@ -22,12 +22,15 @@ Default is **false** .
 @property
 def embed_full_fonts(self):
     ...
+
 @embed_full_fonts.setter
 def embed_full_fonts(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

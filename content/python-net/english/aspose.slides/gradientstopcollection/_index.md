@@ -19,17 +19,14 @@ The GradientStopCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/gradientstopcollection/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`slide`](/slides/python-net/aspose.slides/gradientstopcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/gradientstopcollection/presentation/) |  |
-| [`as_i_collection`](/slides/python-net/aspose.slides/gradientstopcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/gradientstopcollection/as_i_enumerable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/gradientstopcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -44,8 +41,10 @@ The GradientStopCollection type exposes the following members:
 | [`remove_at`](/slides/python-net/aspose.slides/gradientstopcollection/remove_at/#int) | Removes a gradient stop at the specified index. |
 | [`clear`](/slides/python-net/aspose.slides/gradientstopcollection/clear/#) | Removes all gradient stops from a collection. |
 
+
 ### See Also
 * class [`GradientStopCollection`](/slides/python-net/aspose.slides/gradientstopcollection)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

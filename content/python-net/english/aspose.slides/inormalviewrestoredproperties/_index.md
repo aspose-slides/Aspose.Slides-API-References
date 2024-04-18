@@ -21,6 +21,8 @@ The INormalViewRestoredProperties type exposes the following members:
 | [`dimension_size`](/slides/python-net/aspose.slides/inormalviewrestoredproperties/dimension_size/) | Specifies the size of the slide region (width when a child of RestoredTop, height when a<br/>            child of RestoredLeft).<br/>            Read/write **float**.<br/>            Throws when value less than 0 ar greater than 100. |
 | [`auto_adjust`](/slides/python-net/aspose.slides/inormalviewrestoredproperties/auto_adjust/) | Specifies whether the size of the side content region should compensate for the new size<br/>            when resizing the window containing the view within the application<br/>            Read/write **bool**. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

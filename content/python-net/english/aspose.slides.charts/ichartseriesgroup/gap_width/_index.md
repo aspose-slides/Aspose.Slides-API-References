@@ -17,12 +17,15 @@ Specifies the space between bar or column clusters, as a percentage of the bar o
 @property
 def gap_width(self):
     ...
+
 @gap_width.setter
 def gap_width(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartSeriesGroup`](/slides/python-net/aspose.slides.charts/ichartseriesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

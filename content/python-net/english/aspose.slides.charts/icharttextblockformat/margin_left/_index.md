@@ -19,12 +19,15 @@ Returns or sets the left margin (points) in a TextFrame.
 @property
 def margin_left(self):
     ...
+
 @margin_left.setter
 def margin_left(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

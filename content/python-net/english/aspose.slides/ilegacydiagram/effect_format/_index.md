@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ilegacydiagram/effect_format/
-weight: 180
+weight: 190
 ---
 
 
@@ -16,7 +16,9 @@ def effect_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`ILegacyDiagram`](/slides/python-net/aspose.slides/ilegacydiagram)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

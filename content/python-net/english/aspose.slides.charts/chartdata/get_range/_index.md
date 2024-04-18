@@ -23,11 +23,11 @@ def get_range(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | Chart doesn't use workbook as a data source |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Chart doesn't use workbook as a data source |
 
 
 
@@ -35,3 +35,4 @@ def get_range(self):
 * class [`ChartData`](/slides/python-net/aspose.slides.charts/chartdata)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

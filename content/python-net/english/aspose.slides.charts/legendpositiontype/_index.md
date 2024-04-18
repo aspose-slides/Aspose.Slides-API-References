@@ -23,6 +23,8 @@ The LegendPositionType type exposes the following members:
 | TOP | Specifies that the legend shall be drawn at the top of the chart. |
 | TOP_RIGHT | Specifies that the legend shall be drawn at the top right of the chart. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

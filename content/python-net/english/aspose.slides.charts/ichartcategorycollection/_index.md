@@ -19,14 +19,12 @@ The IChartCategoryCollection type exposes the following members:
 | :- | :- |
 | [`use_cells`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/use_cells/) | If true then worksheet is used for storing categories (this case supports a multi-level categories).<br/>            If false then worksheet is NOT used for storing values (and this case doesn't support a <br/>            multi-level categories).<br/>            Read/write **bool**. |
 | [`grouping_level_count`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/grouping_level_count/) | Returns count of category grouping levels used.<br/>            Is more then one for multilevel categories.<br/>            Read-only **int**. |
-| [`as_i_collection`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/as_i_enumerable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/__getitem__/) |  |
 
 ## Methods
 
@@ -39,7 +37,9 @@ The IChartCategoryCollection type exposes the following members:
 | [`remove_at`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/remove_at/#int) | Removes the element at the given index. |
 | [`clear`](/slides/python-net/aspose.slides.charts/ichartcategorycollection/clear/#) | Removes all elements from the collection. |
 
+
 ### See Also
 * class [`IChartCategory`](/slides/python-net/aspose.slides.charts/ichartcategory)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

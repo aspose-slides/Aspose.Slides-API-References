@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iautoshape/use_background_fill/
-weight: 500
+weight: 510
 ---
 
 
@@ -17,12 +17,15 @@ Determines whether this autoshape should be filled with slide's background fill 
 @property
 def use_background_fill(self):
     ...
+
 @use_background_fill.setter
 def use_background_fill(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAutoShape`](/slides/python-net/aspose.slides/iautoshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

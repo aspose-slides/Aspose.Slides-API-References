@@ -30,7 +30,6 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 | y_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point YValue |
 
 
-
 ## add_data_point_for_scatter_series {#float-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer.IsChartTypeScatter(ChartType) method).
@@ -51,7 +50,6 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 | :- | :- | :- |
 | x_value | **float** | Data point XValue |
 | y_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point YValue |
-
 
 
 ## add_data_point_for_scatter_series {#str-ichartdatacell}
@@ -76,7 +74,6 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 | y_value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point YValue |
 
 
-
 ## add_data_point_for_scatter_series {#ichartdatacell-float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer.IsChartTypeScatter(ChartType) method).
@@ -99,7 +96,6 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 | y_value | **float** | Data point YValue |
 
 
-
 ## add_data_point_for_scatter_series {#float-float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer.IsChartTypeScatter(ChartType) method).
@@ -120,7 +116,6 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 | :- | :- | :- |
 | x_value | **float** | Data point XValue |
 | y_value | **float** | Data point YValue |
-
 
 
 ## add_data_point_for_scatter_series {#str-float}
@@ -152,3 +147,4 @@ def add_data_point_for_scatter_series(self, x_value, y_value):
 * class [`IChartDataPointCollection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

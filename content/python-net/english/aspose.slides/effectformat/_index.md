@@ -19,7 +19,6 @@ The EffectFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/effectformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`is_no_effects`](/slides/python-net/aspose.slides/effectformat/is_no_effects/) | Returns true if all effects are disabled (as just created, default EffectFormat object).<br/>            Read-only **bool**. |
 | [`blur_effect`](/slides/python-net/aspose.slides/effectformat/blur_effect/) | Blur effect.<br/>            Read/write [`IBlur`](/slides/python-net/aspose.slides.effects/iblur). |
 | [`fill_overlay_effect`](/slides/python-net/aspose.slides/effectformat/fill_overlay_effect/) | Fill overlay effect.<br/>            Read/write [`IFillOverlay`](/slides/python-net/aspose.slides.effects/ifilloverlay). |
@@ -31,7 +30,6 @@ The EffectFormat type exposes the following members:
 | [`soft_edge_effect`](/slides/python-net/aspose.slides/effectformat/soft_edge_effect/) | Soft edge.<br/>            Read/write [`ISoftEdge`](/slides/python-net/aspose.slides.effects/isoftedge). |
 | [`slide`](/slides/python-net/aspose.slides/effectformat/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/effectformat/presentation/) |  |
-| [`as_i_effect_param_source`](/slides/python-net/aspose.slides/effectformat/as_i_effect_param_source/) |  |
 
 ## Methods
 
@@ -55,8 +53,10 @@ The EffectFormat type exposes the following members:
 | [`disable_soft_edge_effect`](/slides/python-net/aspose.slides/effectformat/disable_soft_edge_effect/#) | Disables soft edge effect. |
 | [`get_effective`](/slides/python-net/aspose.slides/effectformat/get_effective/#) | Gets effective effect formatting data with the inheritance applied. |
 
+
 ### See Also
 * class [`EffectFormat`](/slides/python-net/aspose.slides/effectformat)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

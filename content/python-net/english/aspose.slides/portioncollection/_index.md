@@ -19,13 +19,12 @@ The PortionCollection type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides/portioncollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
 | [`is_read_only`](/slides/python-net/aspose.slides/portioncollection/is_read_only/) | Gets a value indicating whether the **System.Collections.Generic.ICollection`1** is read-only.<br/>            Read-only **bool**. |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/portioncollection/as_i_enumerable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/portioncollection/__getitem__/) |  |
 
 ## Methods
 
@@ -40,6 +39,8 @@ The PortionCollection type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/portioncollection/remove/#iportion) | Removes the first occurrence of a specific object from the **System.Collections.Generic.ICollection`1**. |
 | [`remove_at`](/slides/python-net/aspose.slides/portioncollection/remove_at/#int) | Removes the element at the specified index of the collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

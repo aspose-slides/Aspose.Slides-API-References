@@ -34,3 +34,4 @@ def index_of(self, summary_zoom_section):
 * class [`ISummaryZoomSectionCollection`](/slides/python-net/aspose.slides/isummaryzoomsectioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

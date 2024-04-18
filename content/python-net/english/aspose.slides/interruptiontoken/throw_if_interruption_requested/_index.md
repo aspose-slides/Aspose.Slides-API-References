@@ -19,11 +19,11 @@ def throw_if_interruption_requested(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.OperationCanceledException** | Thrown when interruption was requested. |
+| **RuntimeError(Proxy error(OperationCanceledException))** | Thrown when interruption was requested. |
 
 
 
@@ -31,3 +31,4 @@ def throw_if_interruption_requested(self):
 * class [`InterruptionToken`](/slides/python-net/aspose.slides/interruptiontoken)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

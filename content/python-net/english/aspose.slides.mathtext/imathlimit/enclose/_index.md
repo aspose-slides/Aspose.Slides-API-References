@@ -19,7 +19,6 @@ def enclose(self):
 
 
 
-
 ## enclose {#char-char}
 
 
@@ -42,3 +41,4 @@ def enclose(self, beginning_character, ending_character):
 * class [`IMathLimit`](/slides/python-net/aspose.slides.mathtext/imathlimit)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

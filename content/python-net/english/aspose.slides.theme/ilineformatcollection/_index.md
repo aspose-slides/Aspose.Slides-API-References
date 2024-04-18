@@ -13,19 +13,14 @@ Represents the collection of line styles.
 
 The ILineFormatCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides.theme/ilineformatcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.theme/ilineformatcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.theme/ilineformatcollection/__getitem__/) |  |
+
 
 ### See Also
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

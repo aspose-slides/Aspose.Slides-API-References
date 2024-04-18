@@ -17,12 +17,15 @@ Returns or sets the left margin in a paragraph.
 @property
 def margin_left(self):
     ...
+
 @margin_left.setter
 def margin_left(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartParagraphFormat`](/slides/python-net/aspose.slides.charts/ichartparagraphformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

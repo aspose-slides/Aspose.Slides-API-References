@@ -15,19 +15,11 @@ Represents a collection of all layout slides in presentation.
 
 The IGlobalLayoutSlideCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_layout_slide_collection`](/slides/python-net/aspose.slides/igloballayoutslidecollection/as_i_layout_slide_collection/) | Returns ILayoutSlideCollection interface.<br/>            Read-only [`ILayoutSlideCollection`](/slides/python-net/aspose.slides/ilayoutslidecollection). |
-| [`as_i_collection`](/slides/python-net/aspose.slides/igloballayoutslidecollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/igloballayoutslidecollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/igloballayoutslidecollection/__getitem__/) |  |
 
 ## Methods
 
@@ -40,6 +32,8 @@ The IGlobalLayoutSlideCollection type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/igloballayoutslidecollection/remove/#ilayoutslide) |  |
 | [`remove_unused`](/slides/python-net/aspose.slides/igloballayoutslidecollection/remove_unused/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

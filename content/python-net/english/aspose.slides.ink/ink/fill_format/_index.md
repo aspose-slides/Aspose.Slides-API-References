@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.ink/ink/fill_format/
-weight: 170
+weight: 180
 ---
 
 
@@ -20,8 +20,10 @@ def fill_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)
 * class [`Ink`](/slides/python-net/aspose.slides.ink/ink)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

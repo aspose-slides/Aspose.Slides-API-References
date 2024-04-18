@@ -19,8 +19,9 @@ The ISoftEdgeEffectiveData type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`radius`](/slides/python-net/aspose.slides.effects/isoftedgeeffectivedata/radius/) | Specifies the radius of blur to apply to the edges.<br/>            Read-only **float**. |
-| [`as_i_effect_effective_data`](/slides/python-net/aspose.slides.effects/isoftedgeeffectivedata/as_i_effect_effective_data/) | Allows to get base IEffectEffectiveData interface.<br/>            Read-only [`IEffectEffectiveData`](/slides/python-net/aspose.slides.effects/ieffecteffectivedata). |
+
 
 ### See Also
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

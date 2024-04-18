@@ -19,7 +19,6 @@ def join_portions_with_same_formatting(self):
 
 
 
-
 ## join_portions_with_same_formatting {#ishapecollection}
 Joins runs with same formatting in all paragraphs in all acceptable shapes.
 
@@ -41,3 +40,4 @@ def join_portions_with_same_formatting(self, collection):
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

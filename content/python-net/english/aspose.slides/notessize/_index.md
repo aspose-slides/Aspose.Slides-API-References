@@ -25,6 +25,8 @@ The NotesSize type exposes the following members:
 | :- | :- |
 | [`size`](/slides/python-net/aspose.slides/notessize/size/) | Returns or sets the size in points.<br/>            Read/write **aspose.pydrawing.SizeF**. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

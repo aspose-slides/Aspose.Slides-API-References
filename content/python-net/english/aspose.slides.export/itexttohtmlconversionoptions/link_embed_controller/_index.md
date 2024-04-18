@@ -17,13 +17,16 @@ Returns or sets a callback object which controlls how external object will be st
 @property
 def link_embed_controller(self):
     ...
+
 @link_embed_controller.setter
 def link_embed_controller(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller)
 * class [`ITextToHtmlConversionOptions`](/slides/python-net/aspose.slides.export/itexttohtmlconversionoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

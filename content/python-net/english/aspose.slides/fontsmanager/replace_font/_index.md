@@ -23,7 +23,6 @@ def replace_font(self, subst_rule):
 | subst_rule | [`IFontSubstRule`](/slides/python-net/aspose.slides/ifontsubstrule) | Font substitution info |
 
 
-
 ## replace_font {#ifontsubstrulecollection}
 Replace font in presentation using information provided in collection of [`FontSubstRule`](/slides/python-net/aspose.slides/fontsubstrule)
 
@@ -37,7 +36,6 @@ def replace_font(self, subst_rules):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | subst_rules | [`IFontSubstRuleCollection`](/slides/python-net/aspose.slides/ifontsubstrulecollection) | Font substitution rules collection |
-
 
 
 ## replace_font {#ifontdata-ifontdata}
@@ -65,3 +63,4 @@ def replace_font(self, source_font, dest_font):
 * class [`IFontSubstRuleCollection`](/slides/python-net/aspose.slides/ifontsubstrulecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

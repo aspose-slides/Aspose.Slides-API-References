@@ -13,18 +13,11 @@ Represents a collection of Summary Zoom Section objects.
 
 The SummaryZoomSectionCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/__getitem__/) |  |
 
 ## Methods
 
@@ -36,6 +29,8 @@ The SummaryZoomSectionCollection type exposes the following members:
 | [`get_summary_section`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/get_summary_section/#isection) | Returns Summary Zoom Section element for the given section. |
 | [`clear`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/clear/#) | Removes all SummaryZoomSection objects from the collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

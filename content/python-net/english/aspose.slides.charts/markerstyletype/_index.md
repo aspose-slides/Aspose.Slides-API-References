@@ -30,6 +30,8 @@ The MarkerStyleType type exposes the following members:
 | TRIANGLE | Specifies a triangle shall be drawn at each data point. |
 | X | Specifies an X shall be drawn at each data point. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

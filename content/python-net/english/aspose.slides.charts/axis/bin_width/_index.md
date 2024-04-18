@@ -17,12 +17,15 @@ Specifies bin width when AggregationType property value setted to AxisAggregatio
 @property
 def bin_width(self):
     ...
+
 @bin_width.setter
 def bin_width(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

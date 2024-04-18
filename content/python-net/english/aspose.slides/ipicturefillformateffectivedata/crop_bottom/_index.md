@@ -20,7 +20,9 @@ def crop_bottom(self):
     ...
 ```
 
+
 ### See Also
 * class [`IPictureFillFormatEffectiveData`](/slides/python-net/aspose.slides/ipicturefillformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

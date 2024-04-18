@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/ipdfoptions/save_metafiles_as_png/
-weight: 170
+weight: 180
 ---
 
 
@@ -31,12 +31,15 @@ Default is **true** .
 @property
 def save_metafiles_as_png(self):
     ...
+
 @save_metafiles_as_png.setter
 def save_metafiles_as_png(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

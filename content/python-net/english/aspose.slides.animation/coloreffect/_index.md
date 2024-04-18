@@ -34,10 +34,11 @@ The ColorEffect type exposes the following members:
 | [`by`](/slides/python-net/aspose.slides.animation/coloreffect/by/) | Describes the relative offset value for the color animation.<br/>            Read/write [`IColorOffset`](/slides/python-net/aspose.slides.animation/icoloroffset). |
 | [`color_space`](/slides/python-net/aspose.slides.animation/coloreffect/color_space/) | Represent color space of behavior.<br/>            Read/write [`ColorSpace`](/slides/python-net/aspose.slides.animation/colorspace). |
 | [`direction`](/slides/python-net/aspose.slides.animation/coloreffect/direction/) | Specifies which direction to cycle the hue around the color wheel.<br/>            Read/write [`ColorDirection`](/slides/python-net/aspose.slides.animation/colordirection). |
-| [`as_i_behavior`](/slides/python-net/aspose.slides.animation/coloreffect/as_i_behavior/) |  |
+
 
 ### See Also
 * class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
 * class [`ColorEffect`](/slides/python-net/aspose.slides.animation/coloreffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

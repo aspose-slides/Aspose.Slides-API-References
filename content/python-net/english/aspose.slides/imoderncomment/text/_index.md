@@ -14,12 +14,15 @@ weight: 100
 @property
 def text(self):
     ...
+
 @text.setter
 def text(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IModernComment`](/slides/python-net/aspose.slides/imoderncomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

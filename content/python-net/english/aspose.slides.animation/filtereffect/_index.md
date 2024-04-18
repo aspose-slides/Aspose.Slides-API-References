@@ -32,10 +32,11 @@ The FilterEffect type exposes the following members:
 | [`reveal`](/slides/python-net/aspose.slides.animation/filtereffect/reveal/) | Represents that effect with behavior must reveal (in/out)<br/>            Read/write [`FilterEffectRevealType`](/slides/python-net/aspose.slides.animation/filtereffectrevealtype). |
 | [`type`](/slides/python-net/aspose.slides.animation/filtereffect/type/) | Represents type of filter effect.<br/>            Read/write [`FilterEffectType`](/slides/python-net/aspose.slides.animation/filtereffecttype). |
 | [`subtype`](/slides/python-net/aspose.slides.animation/filtereffect/subtype/) | Represents subtype of filter effect.<br/>            Read/write [`FilterEffectSubtype`](/slides/python-net/aspose.slides.animation/filtereffectsubtype). |
-| [`as_i_behavior`](/slides/python-net/aspose.slides.animation/filtereffect/as_i_behavior/) |  |
+
 
 ### See Also
 * class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
 * class [`FilterEffect`](/slides/python-net/aspose.slides.animation/filtereffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

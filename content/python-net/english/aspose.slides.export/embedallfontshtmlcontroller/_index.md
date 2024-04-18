@@ -33,6 +33,8 @@ The EmbedAllFontsHtmlController type exposes the following members:
 | [`write_all_fonts`](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller/write_all_fonts/#ihtmlgenerator-ipresentation) | Write all fonts contained in [`Presentation`](/slides/python-net/aspose.slides/presentation). |
 | [`write_font`](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller/write_font/#ihtmlgenerator-ifontdata-ifontdata-str-str-bytes) | Writes data as base64 into HTML document itself |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -30,3 +30,4 @@ def get_automatic_data_point_color(self):
 * class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

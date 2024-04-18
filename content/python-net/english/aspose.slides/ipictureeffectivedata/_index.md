@@ -26,8 +26,10 @@ The IPictureEffectiveData type exposes the following members:
 
 This interface is used as a part of [`IPictureFillFormatEffectiveData`](/slides/python-net/aspose.slides/ipicturefillformateffectivedata) and [`IBulletFormatEffectiveData`](/slides/python-net/aspose.slides/ibulletformateffectivedata).
 
+
 ### See Also
 * class [`IBulletFormatEffectiveData`](/slides/python-net/aspose.slides/ibulletformateffectivedata)
 * class [`IPictureFillFormatEffectiveData`](/slides/python-net/aspose.slides/ipicturefillformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

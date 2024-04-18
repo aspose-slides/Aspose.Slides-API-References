@@ -27,7 +27,7 @@ def remove(self, value):
 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before.
             2) You can use also [`ILayoutSlide.remove`](/slides/python-net/aspose.slides/ilayoutslide/remove) method to simplify code.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -41,3 +41,4 @@ def remove(self, value):
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

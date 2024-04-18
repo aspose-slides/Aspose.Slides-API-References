@@ -58,11 +58,6 @@ The AutoShape type exposes the following members:
 | [`text_frame`](/slides/python-net/aspose.slides/autoshape/text_frame/) | Returns TextFrame object for the AutoShape.<br/>            Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
 | [`use_background_fill`](/slides/python-net/aspose.slides/autoshape/use_background_fill/) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format.<br/>            Read/write **bool**. |
 | [`is_text_box`](/slides/python-net/aspose.slides/autoshape/is_text_box/) | Specifies if the shape is a text box. |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/autoshape/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/autoshape/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/autoshape/as_i_presentation_component/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/autoshape/as_i_shape/) |  |
-| [`as_i_geometry_shape`](/slides/python-net/aspose.slides/autoshape/as_i_geometry_shape/) |  |
 
 ## Methods
 
@@ -70,6 +65,8 @@ The AutoShape type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/autoshape/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/autoshape/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
+| [`get_image`](/slides/python-net/aspose.slides/autoshape/get_image/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [`get_image`](/slides/python-net/aspose.slides/autoshape/get_image/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/autoshape/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/autoshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/autoshape/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
@@ -81,9 +78,11 @@ The AutoShape type exposes the following members:
 | [`create_shape_elements`](/slides/python-net/aspose.slides/autoshape/create_shape_elements/#) | Creates and returns array of shape's elements. |
 | [`add_text_frame`](/slides/python-net/aspose.slides/autoshape/add_text_frame/#str) | Adds a new TextFrame to a shape.<br/>            If shape already has TextFrame then simply changes its text. |
 
+
 ### See Also
 * class [`AutoShape`](/slides/python-net/aspose.slides/autoshape)
 * class [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape)
 * class [`Shape`](/slides/python-net/aspose.slides/shape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

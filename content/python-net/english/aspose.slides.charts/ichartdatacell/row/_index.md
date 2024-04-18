@@ -19,7 +19,9 @@ def row(self):
     ...
 ```
 
+
 ### See Also
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

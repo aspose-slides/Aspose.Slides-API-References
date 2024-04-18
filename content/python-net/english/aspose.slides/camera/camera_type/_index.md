@@ -17,13 +17,16 @@ Camera type.
 @property
 def camera_type(self):
     ...
+
 @camera_type.setter
 def camera_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Camera`](/slides/python-net/aspose.slides/camera)
 * enumeration [`CameraPresetType`](/slides/python-net/aspose.slides/camerapresettype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

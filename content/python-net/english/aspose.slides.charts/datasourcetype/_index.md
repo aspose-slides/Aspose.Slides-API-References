@@ -21,6 +21,8 @@ The DataSourceType type exposes the following members:
 | STRING_LITERALS | Use fast-access string variable for storing XValue, YValue, Value or BubbleSize of <br/>            data point. Worksheet is NOT used for storing values. |
 | DOUBLE_LITERALS | Use fast-access double variable for storing XValue, YValue, Value or BubbleSize of <br/>            data point. Worksheet is NOT used for storing values. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

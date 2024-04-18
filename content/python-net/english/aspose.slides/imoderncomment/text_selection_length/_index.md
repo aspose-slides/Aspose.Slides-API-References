@@ -17,12 +17,15 @@ Returns or sets text selection length in text frame if the comment associated wi
 @property
 def text_selection_length(self):
     ...
+
 @text_selection_length.setter
 def text_selection_length(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IModernComment`](/slides/python-net/aspose.slides/imoderncomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

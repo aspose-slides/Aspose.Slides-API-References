@@ -22,11 +22,11 @@ def add(self, data_point_index):
 | :- | :- | :- |
 | data_point_index | **int** | Index of data point in parent series points collection. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | Point with the given index was not found". |
+| **RuntimeError(Proxy error(ArgumentException))** | Point with the given index was not found". |
 
 
 
@@ -34,3 +34,4 @@ def add(self, data_point_index):
 * class [`PieSplitCustomPointCollection`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -18,7 +18,9 @@ def math_paragraph(self):
     ...
 ```
 
+
 ### See Also
 * class [`IMathPortion`](/slides/python-net/aspose.slides.mathtext/imathportion)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

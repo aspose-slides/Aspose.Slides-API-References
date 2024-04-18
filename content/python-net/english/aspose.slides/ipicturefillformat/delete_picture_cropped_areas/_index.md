@@ -34,3 +34,4 @@ This method converts WMF/EMF metafiles to raster PNG image while cropping.
 * class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

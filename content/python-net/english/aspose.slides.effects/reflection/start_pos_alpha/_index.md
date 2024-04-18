@@ -17,12 +17,15 @@ Specifies the start position (along the alpha gradient ramp) of the start alpha 
 @property
 def start_pos_alpha(self):
     ...
+
 @start_pos_alpha.setter
 def start_pos_alpha(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Reflection`](/slides/python-net/aspose.slides.effects/reflection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

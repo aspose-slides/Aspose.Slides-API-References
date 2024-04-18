@@ -19,7 +19,9 @@ def threshold(self):
     ...
 ```
 
+
 ### See Also
 * class [`IAlphaBiLevelEffectiveData`](/slides/python-net/aspose.slides.effects/ialphabileveleffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

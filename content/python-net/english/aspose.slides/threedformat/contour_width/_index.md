@@ -17,12 +17,15 @@ Returns or sets the width of a 3D contour.
 @property
 def contour_width(self):
     ...
+
 @contour_width.setter
 def contour_width(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ThreeDFormat`](/slides/python-net/aspose.slides/threedformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

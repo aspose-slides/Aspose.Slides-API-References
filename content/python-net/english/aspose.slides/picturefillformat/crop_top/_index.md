@@ -18,12 +18,15 @@ Returns or sets the number of percents of real image height that are cropped off
 @property
 def crop_top(self):
     ...
+
 @crop_top.setter
 def crop_top(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PictureFillFormat`](/slides/python-net/aspose.slides/picturefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

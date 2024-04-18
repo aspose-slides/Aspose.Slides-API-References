@@ -16,12 +16,15 @@ Sets or gets id for the shape
 @property
 def id(self):
     ...
+
 @id.setter
 def id(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISvgShape`](/slides/python-net/aspose.slides.export/isvgshape)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -33,7 +33,6 @@ def add_chart(self, type, x, y, width, height):
 | height | **float** | Chart's height. |
 
 
-
 ## add_chart {#asposeslideschartscharttype-float-float-float-float-bool}
 Creates a new Chart and adds it to the end of the collection.
 
@@ -65,3 +64,4 @@ def add_chart(self, type, x, y, width, height, init_with_sample):
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

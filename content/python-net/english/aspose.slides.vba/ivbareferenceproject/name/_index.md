@@ -14,12 +14,15 @@ weight: 20
 @property
 def name(self):
     ...
+
 @name.setter
 def name(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IVbaReferenceProject`](/slides/python-net/aspose.slides.vba/ivbareferenceproject)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

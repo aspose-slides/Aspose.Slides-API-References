@@ -17,12 +17,15 @@ Represents the name of the VBA project reference.
 @property
 def name(self):
     ...
+
 @name.setter
 def name(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IVbaReference`](/slides/python-net/aspose.slides.vba/ivbareference)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

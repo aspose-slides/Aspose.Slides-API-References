@@ -17,13 +17,16 @@ Type of morph transition.
 @property
 def morph_type(self):
     ...
+
 @morph_type.setter
 def morph_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`MorphTransition`](/slides/python-net/aspose.slides.slideshow/morphtransition)
 * enumeration [`TransitionMorphType`](/slides/python-net/aspose.slides.slideshow/transitionmorphtype)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

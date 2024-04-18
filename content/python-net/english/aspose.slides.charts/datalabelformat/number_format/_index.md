@@ -26,12 +26,15 @@ If parent of this DataLabelFormat object is a DataLabelCollection collection of 
 @property
 def number_format(self):
     ...
+
 @number_format.setter
 def number_format(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DataLabelFormat`](/slides/python-net/aspose.slides.charts/datalabelformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

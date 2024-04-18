@@ -14,12 +14,15 @@ weight: 20
 @property
 def as_cell(self):
     ...
+
 @as_cell.setter
 def as_cell(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

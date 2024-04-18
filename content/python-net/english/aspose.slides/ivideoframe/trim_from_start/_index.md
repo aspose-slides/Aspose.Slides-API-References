@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ivideoframe/trim_from_start/
-weight: 580
+weight: 590
 ---
 
 
@@ -16,12 +16,15 @@ Trim start [ms]
 @property
 def trim_from_start(self):
     ...
+
 @trim_from_start.setter
 def trim_from_start(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ True if the chart data table has vertical cell borders.
 @property
 def has_border_vertical(self):
     ...
+
 @has_border_vertical.setter
 def has_border_vertical(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DataTable`](/slides/python-net/aspose.slides.charts/datatable)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

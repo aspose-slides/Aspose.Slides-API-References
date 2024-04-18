@@ -25,7 +25,6 @@ The PortionFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/portionformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`line_format`](/slides/python-net/aspose.slides/portionformat/line_format/) | Returns the LineFormat properties for text outlining. No inheritance applied.<br/>            Read-only [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat). |
 | [`fill_format`](/slides/python-net/aspose.slides/portionformat/fill_format/) | Returns the text FillFormat properties. No inheritance applied.<br/>            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
 | [`effect_format`](/slides/python-net/aspose.slides/portionformat/effect_format/) | Returns the text EffectFormat properties. No inheritance applied.<br/>            Read-only [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat). |
@@ -59,8 +58,6 @@ The PortionFormat type exposes the following members:
 | [`hyperlink_manager`](/slides/python-net/aspose.slides/portionformat/hyperlink_manager/) | Hyperlinks manager.<br/>            Read-only [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager). |
 | [`slide`](/slides/python-net/aspose.slides/portionformat/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/portionformat/presentation/) |  |
-| [`as_i_base_portion_format`](/slides/python-net/aspose.slides/portionformat/as_i_base_portion_format/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/portionformat/as_i_hyperlink_container/) |  |
 
 ## Methods
 
@@ -78,6 +75,7 @@ This class is used to return and manipulate text portion formatting properties d
 In order to get the effective formatting parameter values including inherited you need to use [`PortionFormat.get_effective`](/slides/python-net/aspose.slides/portionformat/get_effective) method 
             which returns a [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata) instance.
 
+
 ### See Also
 * class [`BasePortionFormat`](/slides/python-net/aspose.slides/baseportionformat)
 * class [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata)
@@ -85,3 +83,4 @@ In order to get the effective formatting parameter values including inherited yo
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

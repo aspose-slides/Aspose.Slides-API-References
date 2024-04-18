@@ -31,6 +31,8 @@ The MathFunctionFactory type exposes the following members:
 
 For COM comparibility
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

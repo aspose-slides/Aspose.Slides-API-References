@@ -45,10 +45,11 @@ The SVGOptions type exposes the following members:
 | [`pictures_compression`](/slides/python-net/aspose.slides.export/svgoptions/pictures_compression/) | Represents the pictures compression level |
 | [`delete_pictures_cropped_areas`](/slides/python-net/aspose.slides.export/svgoptions/delete_pictures_cropped_areas/) | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped <br/>            parts will removed, if false they will be serialized in the document (which can possible lead to a <br/>            larger file) |
 | [`external_fonts_handling`](/slides/python-net/aspose.slides.export/svgoptions/external_fonts_handling/) | Determines a way of handling externally loaded fonts.<br/>            Read/write [`SvgExternalFontsHandling`](/slides/python-net/aspose.slides.export/svgexternalfontshandling). |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export/svgoptions/as_i_save_options/) |  |
+
 
 ### See Also
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 * class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

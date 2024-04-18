@@ -17,12 +17,15 @@ Determines whether a shape have to preserve aspect ratio on resizing.
 @property
 def aspect_ratio_locked(self):
     ...
+
 @aspect_ratio_locked.setter
 def aspect_ratio_locked(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`AutoShapeLock`](/slides/python-net/aspose.slides/autoshapelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

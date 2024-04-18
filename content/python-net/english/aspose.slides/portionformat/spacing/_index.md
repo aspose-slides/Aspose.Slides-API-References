@@ -18,12 +18,15 @@ Returns or sets the intercharacter spacing increment.
 @property
 def spacing(self):
     ...
+
 @spacing.setter
 def spacing(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PortionFormat`](/slides/python-net/aspose.slides/portionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

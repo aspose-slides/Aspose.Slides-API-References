@@ -18,12 +18,15 @@ Returns or sets the font height of a portion.
 @property
 def font_height(self):
     ...
+
 @font_height.setter
 def font_height(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

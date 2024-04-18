@@ -17,13 +17,16 @@ Return or sets the picture type.
 @property
 def picture_type(self):
     ...
+
 @picture_type.setter
 def picture_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ChartWall`](/slides/python-net/aspose.slides.charts/chartwall)
 * enumeration [`PictureType`](/slides/python-net/aspose.slides.charts/picturetype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

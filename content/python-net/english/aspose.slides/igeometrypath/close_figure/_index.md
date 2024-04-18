@@ -24,3 +24,4 @@ def close_figure(self):
 * class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

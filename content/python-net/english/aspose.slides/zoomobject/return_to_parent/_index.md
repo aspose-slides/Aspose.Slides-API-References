@@ -23,12 +23,15 @@ True value of the property specifies return to parent navigation behavior in sli
 @property
 def return_to_parent(self):
     ...
+
 @return_to_parent.setter
 def return_to_parent(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ZoomObject`](/slides/python-net/aspose.slides/zoomobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

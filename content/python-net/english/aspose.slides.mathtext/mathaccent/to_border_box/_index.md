@@ -24,7 +24,6 @@ def to_border_box(self):
 
 
 
-
 ## to_border_box {#bool-bool-bool-bool-bool-bool-bool-bool}
 Places this element in a border-box
 
@@ -58,3 +57,4 @@ def to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethro
 * class [`MathAccent`](/slides/python-net/aspose.slides.mathtext/mathaccent)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

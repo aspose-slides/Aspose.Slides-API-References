@@ -24,6 +24,8 @@ The LineStyle type exposes the following members:
 | THIN_THICK |  |
 | THICK_BETWEEN_THIN |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

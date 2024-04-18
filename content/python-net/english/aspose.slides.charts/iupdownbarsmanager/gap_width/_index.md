@@ -17,12 +17,15 @@ Returns or sets gap width.
 @property
 def gap_width(self):
     ...
+
 @gap_width.setter
 def gap_width(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IUpDownBarsManager`](/slides/python-net/aspose.slides.charts/iupdownbarsmanager)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Gets or sets the plain text for a TextFrame.
 @property
 def text(self):
     ...
+
 @text.setter
 def text(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`TextFrame`](/slides/python-net/aspose.slides/textframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

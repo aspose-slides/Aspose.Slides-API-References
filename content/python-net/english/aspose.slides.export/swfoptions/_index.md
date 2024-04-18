@@ -44,10 +44,11 @@ The SwfOptions type exposes the following members:
 | [`logo_link`](/slides/python-net/aspose.slides.export/swfoptions/logo_link/) | Gets or sets the full hyperlink address for a logo.<br/>            Has an effect only if a [`SwfOptions.logo_image_bytes`](/slides/python-net/aspose.slides.export/swfoptions#logo_image_bytes) is specified. |
 | [`jpeg_quality`](/slides/python-net/aspose.slides.export/swfoptions/jpeg_quality/) | Specifies the quality of JPEG images.<br/>            Default is 95. |
 | [`notes_comments_layouting`](/slides/python-net/aspose.slides.export/swfoptions/notes_comments_layouting/) | Provides options that control how notes and comments is placed in exported document. |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export/swfoptions/as_i_save_options/) |  |
+
 
 ### See Also
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 * class [`SwfOptions`](/slides/python-net/aspose.slides.export/swfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Returns or sets the Id of an alternative language.
 @property
 def alternative_language_id(self):
     ...
+
 @alternative_language_id.setter
 def alternative_language_id(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

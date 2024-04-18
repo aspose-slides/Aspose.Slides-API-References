@@ -13,18 +13,11 @@ Represents a collection of a VBA Project modules.
 
 The IVbaModuleCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides.vba/ivbamodulecollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.vba/ivbamodulecollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.vba/ivbamodulecollection/__getitem__/) |  |
 
 ## Methods
 
@@ -33,6 +26,8 @@ The IVbaModuleCollection type exposes the following members:
 | [`add_empty_module`](/slides/python-net/aspose.slides.vba/ivbamodulecollection/add_empty_module/#str) | Adds a new empty module to the VBA Project. |
 | [`remove`](/slides/python-net/aspose.slides.vba/ivbamodulecollection/remove/#ivbamodule) | Removes the first occurrence of a specific object from the collection. |
 
+
 ### See Also
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -16,7 +16,9 @@ def properties(self):
     ...
 ```
 
+
 ### See Also
 * class [`IFilterEffect`](/slides/python-net/aspose.slides.animation/ifiltereffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

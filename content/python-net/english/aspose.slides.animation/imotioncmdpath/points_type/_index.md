@@ -17,13 +17,16 @@ Specifies command points type
 @property
 def points_type(self):
     ...
+
 @points_type.setter
 def points_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IMotionCmdPath`](/slides/python-net/aspose.slides.animation/imotioncmdpath)
 * enumeration [`MotionPathPointsType`](/slides/python-net/aspose.slides.animation/motionpathpointstype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

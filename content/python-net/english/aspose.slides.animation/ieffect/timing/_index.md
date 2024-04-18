@@ -17,13 +17,16 @@ Defines timing value for effect.
 @property
 def timing(self):
     ...
+
 @timing.setter
 def timing(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect)
 * class [`ITiming`](/slides/python-net/aspose.slides.animation/itiming)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

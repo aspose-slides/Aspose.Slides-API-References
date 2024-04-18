@@ -25,6 +25,8 @@ The TableFormat type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides/tableformat/get_effective/#) | Gets effective table formatting properties with inheritance and table styles applied. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

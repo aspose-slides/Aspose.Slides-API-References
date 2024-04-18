@@ -29,3 +29,4 @@ def remove(self, item):
 * class [`MotionPath`](/slides/python-net/aspose.slides.animation/motionpath)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

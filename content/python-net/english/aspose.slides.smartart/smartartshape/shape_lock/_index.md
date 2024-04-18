@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartartshape/shape_lock/
-weight: 400
+weight: 410
 ---
 
 
@@ -19,8 +19,10 @@ def shape_lock(self):
     ...
 ```
 
+
 ### See Also
 * class [`IBaseShapeLock`](/slides/python-net/aspose.slides/ibaseshapelock)
 * class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

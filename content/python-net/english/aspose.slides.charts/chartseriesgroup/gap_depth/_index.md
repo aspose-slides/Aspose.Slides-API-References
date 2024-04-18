@@ -17,12 +17,15 @@ Returns or sets the distance, as a percentage of the marker width, between the d
 @property
 def gap_depth(self):
     ...
+
 @gap_depth.setter
 def gap_depth(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartSeriesGroup`](/slides/python-net/aspose.slides.charts/chartseriesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

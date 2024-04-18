@@ -32,7 +32,6 @@ def add_video_frame(self, x, y, width, height, fname):
 | fname | **str** | Video file name. |
 
 
-
 ## add_video_frame {#float-float-float-float-ivideo}
 Adds a new video frame to the end of a collection.
 
@@ -64,3 +63,4 @@ def add_video_frame(self, x, y, width, height, video):
 * class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,7 +24,6 @@ def __init__(self, operator_symbol, base_argument):
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument |
 
 
-
 ## __init__ {#char-imathelement-imathelement}
 Initializes a new instance of the MathNaryOperator class.
 
@@ -40,7 +39,6 @@ def __init__(self, operator_symbol, base_argument, lower_limit):
 | operator_symbol | **char** | Nary operator symbol |
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base argument |
 | lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Lower limit |
-
 
 
 ## __init__ {#char-imathelement-imathelement-imathelement}
@@ -67,3 +65,4 @@ def __init__(self, operator_symbol, base_argument, lower_limit, upper_limit):
 * class [`MathNaryOperator`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

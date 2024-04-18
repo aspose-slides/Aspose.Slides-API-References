@@ -37,7 +37,10 @@ The SaveFormat type exposes the following members:
 | GIF | Save presentation in GIF format. |
 | HTML5 | Save presentation in HTML format using new HTML5 templating system. |
 | MD | Save presentation in Markdown format |
+| XML | Save presentation in PowerPoint XML Presentation format. |
+
 
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

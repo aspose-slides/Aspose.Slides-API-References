@@ -17,12 +17,15 @@ True to exclude width and height attributes from SVG container - that will make 
 @property
 def svg_responsive_layout(self):
     ...
+
 @svg_responsive_layout.setter
 def svg_responsive_layout(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IHtmlOptions`](/slides/python-net/aspose.slides.export/ihtmloptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

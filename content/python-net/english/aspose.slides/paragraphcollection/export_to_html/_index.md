@@ -36,3 +36,4 @@ def export_to_html(self, first_paragraph_index, paragraphs_count, options):
 * class [`ParagraphCollection`](/slides/python-net/aspose.slides/paragraphcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Specifies that the bubbles have a 3-D effect applied to them.
 @property
 def is_bubble_3d(self):
     ...
+
 @is_bubble_3d.setter
 def is_bubble_3d(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartDataPoint`](/slides/python-net/aspose.slides.charts/chartdatapoint)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

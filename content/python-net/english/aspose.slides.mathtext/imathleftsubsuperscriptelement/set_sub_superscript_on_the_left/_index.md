@@ -24,7 +24,6 @@ def set_sub_superscript_on_the_left(self, subscript, superscript):
 | superscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
 
-
 ## set_sub_superscript_on_the_left {#str-str}
 
 
@@ -47,3 +46,4 @@ def set_sub_superscript_on_the_left(self, subscript, superscript):
 * class [`IMathLeftSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathleftsubsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

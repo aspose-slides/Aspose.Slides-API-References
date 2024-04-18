@@ -16,7 +16,9 @@ def fill_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`ICellFormatEffectiveData`](/slides/python-net/aspose.slides/icellformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

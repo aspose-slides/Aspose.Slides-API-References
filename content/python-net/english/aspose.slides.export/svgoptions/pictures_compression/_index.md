@@ -16,12 +16,15 @@ Represents the pictures compression level
 @property
 def pictures_compression(self):
     ...
+
 @pictures_compression.setter
 def pictures_compression(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,18 +24,12 @@ The Row type exposes the following members:
 | [`height`](/slides/python-net/aspose.slides/row/height/) | Returns the height of a row.<br/>            Read-only **float**. |
 | [`minimal_height`](/slides/python-net/aspose.slides/row/minimal_height/) | Returns or sets the minimal possible height of a row.<br/>            Read/write **float**. |
 | [`row_format`](/slides/python-net/aspose.slides/row/row_format/) | Returns the RowFormat object that contains formatting properties for this row.<br/>            Read-only [`IRowFormat`](/slides/python-net/aspose.slides/irowformat). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/row/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/row/as_i_presentation_component/) |  |
-| [`as_i_collection`](/slides/python-net/aspose.slides/row/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/row/as_i_enumerable/) |  |
-| [`as_i_cell_collection`](/slides/python-net/aspose.slides/row/as_i_cell_collection/) |  |
-| [`as_i_bulk_text_formattable`](/slides/python-net/aspose.slides/row/as_i_bulk_text_formattable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/row/__getitem__/) |  |
 
 ## Methods
 
@@ -45,8 +39,10 @@ The Row type exposes the following members:
 | [`set_text_format`](/slides/python-net/aspose.slides/row/set_text_format/#iparagraphformat) | Sets defined paragraph format properties to all row cells' paragraphs. |
 | [`set_text_format`](/slides/python-net/aspose.slides/row/set_text_format/#itextframeformat) | Sets defined text frame format properties to all row cells' text frames. |
 
+
 ### See Also
 * class [`CellCollection`](/slides/python-net/aspose.slides/cellcollection)
 * class [`Row`](/slides/python-net/aspose.slides/row)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

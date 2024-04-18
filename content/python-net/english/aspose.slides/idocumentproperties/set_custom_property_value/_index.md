@@ -24,7 +24,6 @@ def set_custom_property_value(self, name, value):
 | value | **bool** | Custom property value |
 
 
-
 ## set_custom_property_value {#str-int}
 Sets a named integer custom property.
 
@@ -39,7 +38,6 @@ def set_custom_property_value(self, name, value):
 | :- | :- | :- |
 | name | **str** | Name of the custom property to set |
 | value | **int** | Custom property value |
-
 
 
 ## set_custom_property_value {#str-datetime}
@@ -58,7 +56,6 @@ def set_custom_property_value(self, name, value):
 | value | **DateTime** | Custom property value |
 
 
-
 ## set_custom_property_value {#str-str}
 Sets a named string custom property.
 
@@ -75,7 +72,6 @@ def set_custom_property_value(self, name, value):
 | value | **str** | Custom property value |
 
 
-
 ## set_custom_property_value {#str-float}
 Sets a named float custom property.
 
@@ -90,7 +86,6 @@ def set_custom_property_value(self, name, value):
 | :- | :- | :- |
 | name | **str** | Name of the custom property to set |
 | value | **float** | Custom property value |
-
 
 
 ## set_custom_property_value {#str-float}
@@ -114,3 +109,4 @@ def set_custom_property_value(self, name, value):
 * class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

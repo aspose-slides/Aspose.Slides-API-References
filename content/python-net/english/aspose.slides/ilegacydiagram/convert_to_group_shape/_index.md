@@ -31,3 +31,4 @@ def convert_to_group_shape(self):
 * class [`ILegacyDiagram`](/slides/python-net/aspose.slides/ilegacydiagram)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

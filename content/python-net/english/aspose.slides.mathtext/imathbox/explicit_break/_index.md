@@ -21,12 +21,15 @@ Explicit break specifies whether there is a line break at the start of the Box o
 @property
 def explicit_break(self):
     ...
+
 @explicit_break.setter
 def explicit_break(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathBox`](/slides/python-net/aspose.slides.mathtext/imathbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

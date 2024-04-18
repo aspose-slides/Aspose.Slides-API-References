@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chart/shape_lock/
-weight: 570
+weight: 580
 ---
 
 
@@ -19,8 +19,10 @@ def shape_lock(self):
     ...
 ```
 
+
 ### See Also
 * class [`Chart`](/slides/python-net/aspose.slides.charts/chart)
 * class [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

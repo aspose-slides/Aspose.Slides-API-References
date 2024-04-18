@@ -17,13 +17,16 @@ Returns a type of background fill.
 @property
 def type(self):
     ...
+
 @type.setter
 def type(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`BackgroundType`](/slides/python-net/aspose.slides/backgroundtype)
 * class [`IBackground`](/slides/python-net/aspose.slides/ibackground)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

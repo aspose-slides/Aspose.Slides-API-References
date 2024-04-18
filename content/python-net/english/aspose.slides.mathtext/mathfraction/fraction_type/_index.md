@@ -17,12 +17,15 @@ Fraction type
 @property
 def fraction_type(self):
     ...
+
 @fraction_type.setter
 def fraction_type(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathFraction`](/slides/python-net/aspose.slides.mathtext/mathfraction)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

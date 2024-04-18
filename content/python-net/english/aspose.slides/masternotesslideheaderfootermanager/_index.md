@@ -25,9 +25,6 @@ The MasterNotesSlideHeaderFooterManager type exposes the following members:
 | [`is_slide_number_visible`](/slides/python-net/aspose.slides/masternotesslideheaderfootermanager/is_slide_number_visible/) | Gets value indicating that a page number placeholder is present.<br/>            Read**bool**. |
 | [`is_date_time_visible`](/slides/python-net/aspose.slides/masternotesslideheaderfootermanager/is_date_time_visible/) | Gets value indicating that a date-time placeholder is present.<br/>            Read**bool**. |
 | [`is_header_visible`](/slides/python-net/aspose.slides/masternotesslideheaderfootermanager/is_header_visible/) | Gets value indicating that a header placeholder is present.<br/>            Read **bool**. |
-| [`as_i_base_slide_header_footer_manager`](/slides/python-net/aspose.slides/masternotesslideheaderfootermanager/as_i_base_slide_header_footer_manager/) |  |
-| [`as_i_base_header_footer_manager`](/slides/python-net/aspose.slides/masternotesslideheaderfootermanager/as_i_base_header_footer_manager/) |  |
-| [`as_i_base_handout_notes_slide_header_footer_manag`](/slides/python-net/aspose.slides/masternotesslideheaderfootermanager/as_i_base_handout_notes_slide_header_footer_manag/) |  |
 
 ## Methods
 
@@ -48,6 +45,7 @@ The MasterNotesSlideHeaderFooterManager type exposes the following members:
 | [`set_footer_and_child_footers_text`](/slides/python-net/aspose.slides/masternotesslideheaderfootermanager/set_footer_and_child_footers_text/#str) | Sets text to master slide footer placeholder and all child footer placeholders.<br/>            Child placeholders mean placeholders are contained on depending notes slides.<br/>            Depending notes slides use and depend on master notes slide. |
 | [`set_date_time_and_child_date_times_text`](/slides/python-net/aspose.slides/masternotesslideheaderfootermanager/set_date_time_and_child_date_times_text/#str) | Sets text to master slide date-time placeholder and all child date-time placeholders.<br/>            Child placeholders mean placeholders are contained on depending notes slides.<br/>            Depending notes slides use and depend on master notes slide. |
 
+
 ### See Also
 * class [`BaseHandoutNotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/basehandoutnotesslideheaderfootermanager)
 * class [`BaseHeaderFooterManager`](/slides/python-net/aspose.slides/baseheaderfootermanager)
@@ -55,3 +53,4 @@ The MasterNotesSlideHeaderFooterManager type exposes the following members:
 * class [`MasterNotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/masternotesslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

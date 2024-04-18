@@ -18,10 +18,8 @@ The IInk type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`traces`](/slides/python-net/aspose.slides.ink/iink/traces/) | Gets all traces containing in the IInk element [`IInkTrace`](/slides/python-net/aspose.slides.ink/iinktrace).<br/>            Read-only. |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides.ink/iink/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
 | [`shape_lock`](/slides/python-net/aspose.slides.ink/iink/shape_lock/) |  |
 | [`graphical_object_lock`](/slides/python-net/aspose.slides.ink/iink/graphical_object_lock/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides.ink/iink/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides.ink/iink/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides.ink/iink/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides.ink/iink/custom_data/) |  |
@@ -48,10 +46,7 @@ The IInk type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides.ink/iink/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides.ink/iink/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides.ink/iink/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides.ink/iink/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.ink/iink/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.ink/iink/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.ink/iink/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.ink/iink/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides.ink/iink/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides.ink/iink/hyperlink_mouse_over/) |  |
@@ -63,12 +58,16 @@ The IInk type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.ink/iink/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.ink/iink/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides.ink/iink/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides.ink/iink/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides.ink/iink/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides.ink/iink/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`add_placeholder`](/slides/python-net/aspose.slides.ink/iink/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder`](/slides/python-net/aspose.slides.ink/iink/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides.ink/iink/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

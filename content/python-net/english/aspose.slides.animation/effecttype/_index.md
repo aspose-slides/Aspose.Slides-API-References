@@ -173,6 +173,8 @@ The EffectType type exposes the following members:
 | OLE_OBJECT_EDIT | OLEObjectEdit effect. Class **OLEActionVerbs** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
 | OLE_OBJECT_OPEN | OLEObjectOpen effect. Class **OLEActionVerbs** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

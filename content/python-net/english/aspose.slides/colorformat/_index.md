@@ -19,7 +19,6 @@ The ColorFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/colorformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`color_type`](/slides/python-net/aspose.slides/colorformat/color_type/) | Returns or sets the color definition method.<br/>            Read/write [`ColorType`](/slides/python-net/aspose.slides/colortype). |
 | [`color`](/slides/python-net/aspose.slides/colorformat/color/) | Returns resulting color (with all color transformations applied).<br/>            Sets RGB colors and clears all color transformations.<br/>            Read/write **aspose.pydrawing.Color**. |
 | [`preset_color`](/slides/python-net/aspose.slides/colorformat/preset_color/) | Returns or sets the color preset.<br/>            Read/write [`PresetColor`](/slides/python-net/aspose.slides/presetcolor). |
@@ -37,7 +36,6 @@ The ColorFormat type exposes the following members:
 | [`color_transform`](/slides/python-net/aspose.slides/colorformat/color_transform/) | Returns the collection of color transformations applied to a color.<br/>            Read-only [`IColorOperationCollection`](/slides/python-net/aspose.slides/icoloroperationcollection). |
 | [`slide`](/slides/python-net/aspose.slides/colorformat/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/colorformat/presentation/) |  |
-| [`as_i_fill_param_source`](/slides/python-net/aspose.slides/colorformat/as_i_fill_param_source/) |  |
 
 ## Methods
 
@@ -46,8 +44,10 @@ The ColorFormat type exposes the following members:
 | [`to_string`](/slides/python-net/aspose.slides/colorformat/to_string/#colorstringformat) | Returns a **str** that represents the current color format. |
 | [`copy_from`](/slides/python-net/aspose.slides/colorformat/copy_from/#icolorformat) | Copy color format from "color". |
 
+
 ### See Also
 * class [`ColorFormat`](/slides/python-net/aspose.slides/colorformat)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

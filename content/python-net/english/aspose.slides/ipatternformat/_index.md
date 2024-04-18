@@ -27,7 +27,11 @@ The IPatternFormat type exposes the following members:
 | :- | :- |
 | [`get_tile_image`](/slides/python-net/aspose.slides/ipatternformat/get_tile_image/#asposepydrawingcolor-asposepydrawingcolor) | Creates a tile image for the pattern fill with a specified colors. |
 | [`get_tile_image`](/slides/python-net/aspose.slides/ipatternformat/get_tile_image/#asposepydrawingcolor) | Creates a tile image for the pattern fill. |
+| [`get_tile`](/slides/python-net/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor-asposepydrawingcolor) | Creates a tile image for the pattern fill with a specified colors. |
+| [`get_tile`](/slides/python-net/aspose.slides/ipatternformat/get_tile/#asposepydrawingcolor) | Creates a tile image for the pattern fill. |
+
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

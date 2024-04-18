@@ -17,13 +17,16 @@ Determines whether the text shouldn't be proofed. No inheritance applied.
 @property
 def proof_disabled(self):
     ...
+
 @proof_disabled.setter
 def proof_disabled(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * class [`PortionFormat`](/slides/python-net/aspose.slides/portionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

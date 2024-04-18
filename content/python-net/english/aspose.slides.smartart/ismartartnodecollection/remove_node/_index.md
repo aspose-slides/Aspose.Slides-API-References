@@ -22,12 +22,11 @@ def remove_node(self, index):
 | :- | :- | :- |
 | index | **int** | Zero-based index of node |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | index is less than 0.  -or- index is equal to or greater than siblings count. |
-
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | index is less than 0.  -or- index is equal to or greater than siblings count. |
 
 
 ## remove_node {#ismartartnode}
@@ -51,3 +50,4 @@ def remove_node(self, node_obj):
 * class [`ISmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

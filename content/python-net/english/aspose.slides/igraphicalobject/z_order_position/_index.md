@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/igraphicalobject/z_order_position/
-weight: 420
+weight: 430
 ---
 
 
@@ -16,7 +16,9 @@ def z_order_position(self):
     ...
 ```
 
+
 ### See Also
 * class [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

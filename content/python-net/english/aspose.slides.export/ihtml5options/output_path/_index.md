@@ -17,12 +17,15 @@ Determines where external resources should be stored.
 @property
 def output_path(self):
     ...
+
 @output_path.setter
 def output_path(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IHtml5Options`](/slides/python-net/aspose.slides.export/ihtml5options)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

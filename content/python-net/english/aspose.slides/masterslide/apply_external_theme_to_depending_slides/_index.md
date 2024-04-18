@@ -28,7 +28,7 @@ def apply_external_theme_to_depending_slides(self, fname):
 | :- | :- | :- |
 | fname | **str** | Path to the external theme file (.thmx). |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -42,3 +42,4 @@ def apply_external_theme_to_depending_slides(self, fname):
 * class [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

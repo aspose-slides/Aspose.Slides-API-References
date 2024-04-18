@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/videoframe/embedded_video/
-weight: 230
+weight: 240
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets embedded video object.
 @property
 def embedded_video(self):
     ...
+
 @embedded_video.setter
 def embedded_video(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IVideo`](/slides/python-net/aspose.slides/ivideo)
 * class [`VideoFrame`](/slides/python-net/aspose.slides/videoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

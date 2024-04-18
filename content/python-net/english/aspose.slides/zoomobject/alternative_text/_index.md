@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/zoomobject/alternative_text/
-weight: 60
+weight: 70
 ---
 
 
@@ -17,12 +17,15 @@ Returns or sets the alternative text associated with a shape.
 @property
 def alternative_text(self):
     ...
+
 @alternative_text.setter
 def alternative_text(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ZoomObject`](/slides/python-net/aspose.slides/zoomobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

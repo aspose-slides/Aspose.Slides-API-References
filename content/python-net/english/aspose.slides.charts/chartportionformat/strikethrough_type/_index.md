@@ -17,13 +17,16 @@ Returns or sets the strikethrough type of a text. No inheritance applied.
 @property
 def strikethrough_type(self):
     ...
+
 @strikethrough_type.setter
 def strikethrough_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
 * enumeration [`TextStrikethroughType`](/slides/python-net/aspose.slides/textstrikethroughtype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

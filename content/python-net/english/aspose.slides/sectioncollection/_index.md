@@ -13,18 +13,11 @@ Represents a collection of sections.
 
 The SectionCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/sectioncollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/sectioncollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/sectioncollection/__getitem__/) |  |
 
 ## Methods
 
@@ -39,6 +32,8 @@ The SectionCollection type exposes the following members:
 | [`reorder_section_with_slides`](/slides/python-net/aspose.slides/sectioncollection/reorder_section_with_slides/#isection-int) | Moves section and its slides from the collection to the specified position. |
 | [`clear`](/slides/python-net/aspose.slides/sectioncollection/clear/#) | Removes all sections from the collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,19 +17,11 @@ Represents a collection of all layout slides in presentation.
 
 The GlobalLayoutSlideCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/globallayoutslidecollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/globallayoutslidecollection/as_i_enumerable/) |  |
-| [`as_i_layout_slide_collection`](/slides/python-net/aspose.slides/globallayoutslidecollection/as_i_layout_slide_collection/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/globallayoutslidecollection/__getitem__/) |  |
 
 ## Methods
 
@@ -42,8 +34,10 @@ The GlobalLayoutSlideCollection type exposes the following members:
 | [`remove_unused`](/slides/python-net/aspose.slides/globallayoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 | [`add`](/slides/python-net/aspose.slides/globallayoutslidecollection/add/#imasterslide-slidelayouttype-str) | Adds a new layout slide to the presentation. |
 
+
 ### See Also
 * class [`GlobalLayoutSlideCollection`](/slides/python-net/aspose.slides/globallayoutslidecollection)
 * class [`LayoutSlideCollection`](/slides/python-net/aspose.slides/layoutslidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

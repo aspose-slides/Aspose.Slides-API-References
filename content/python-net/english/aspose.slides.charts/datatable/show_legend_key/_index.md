@@ -17,12 +17,15 @@ True if the data label legend key is visible.
 @property
 def show_legend_key(self):
     ...
+
 @show_legend_key.setter
 def show_legend_key(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DataTable`](/slides/python-net/aspose.slides.charts/datatable)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

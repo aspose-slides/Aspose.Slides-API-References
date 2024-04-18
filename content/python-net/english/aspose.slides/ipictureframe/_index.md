@@ -22,11 +22,9 @@ The IPictureFrame type exposes the following members:
 | [`picture_format`](/slides/python-net/aspose.slides/ipictureframe/picture_format/) | Returns the PictureFillFormat object for a picture frame.<br/>            Read-only [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat). |
 | [`relative_scale_height`](/slides/python-net/aspose.slides/ipictureframe/relative_scale_height/) | Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.<br/>            Read/write **float**. |
 | [`relative_scale_width`](/slides/python-net/aspose.slides/ipictureframe/relative_scale_width/) | Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.<br/>            Read/write **float**. |
-| [`as_i_geometry_shape`](/slides/python-net/aspose.slides/ipictureframe/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only [`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape). |
 | [`shape_style`](/slides/python-net/aspose.slides/ipictureframe/shape_style/) |  |
 | [`shape_type`](/slides/python-net/aspose.slides/ipictureframe/shape_type/) |  |
 | [`adjustments`](/slides/python-net/aspose.slides/ipictureframe/adjustments/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/ipictureframe/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides/ipictureframe/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/ipictureframe/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/ipictureframe/custom_data/) |  |
@@ -53,10 +51,7 @@ The IPictureFrame type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/ipictureframe/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/ipictureframe/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/ipictureframe/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/ipictureframe/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/ipictureframe/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/ipictureframe/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/ipictureframe/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/ipictureframe/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/ipictureframe/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/ipictureframe/hyperlink_mouse_over/) |  |
@@ -68,6 +63,8 @@ The IPictureFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ipictureframe/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/ipictureframe/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/ipictureframe/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/ipictureframe/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/ipictureframe/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/ipictureframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`get_geometry_paths`](/slides/python-net/aspose.slides/ipictureframe/get_geometry_paths/#) |  |
@@ -78,6 +75,8 @@ The IPictureFrame type exposes the following members:
 | [`remove_placeholder`](/slides/python-net/aspose.slides/ipictureframe/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/ipictureframe/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

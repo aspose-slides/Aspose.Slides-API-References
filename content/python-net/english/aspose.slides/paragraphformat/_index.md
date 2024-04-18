@@ -25,7 +25,6 @@ The ParagraphFormat type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/paragraphformat/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`alignment`](/slides/python-net/aspose.slides/paragraphformat/alignment/) | Returns or sets the text alignment in a paragraph with no inheritance.<br/>            Read/write [`TextAlignment`](/slides/python-net/aspose.slides/textalignment). |
 | [`space_within`](/slides/python-net/aspose.slides/paragraphformat/space_within/) | Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied.<br/>            Read/write **float**. |
 | [`space_before`](/slides/python-net/aspose.slides/paragraphformat/space_before/) | Returns or sets the amount of space before the first line in a paragraph with no inheritance.<br/>            A positive value specifies the percentage of the font size that the white space should be.<br/>            A negative value specifies the size of the white space in point size.<br/>            Read/write **float**. |
@@ -62,9 +61,11 @@ This class is used to return and manipulate paragraph formatting properties defi
 In order to get the effective formatting parameter values including inherited you need to use [`ParagraphFormat.get_effective`](/slides/python-net/aspose.slides/paragraphformat/get_effective) method 
             which returns a [`IParagraphFormatEffectiveData`](/slides/python-net/aspose.slides/iparagraphformateffectivedata) instance.
 
+
 ### See Also
 * class [`IParagraphFormatEffectiveData`](/slides/python-net/aspose.slides/iparagraphformateffectivedata)
 * class [`ParagraphFormat`](/slides/python-net/aspose.slides/paragraphformat)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

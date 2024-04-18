@@ -20,12 +20,15 @@ If false then [`IChartData.secondary_categories`](/slides/python-net/aspose.slid
 @property
 def use_secondary_categories(self):
     ...
+
 @use_secondary_categories.setter
 def use_secondary_categories(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartData`](/slides/python-net/aspose.slides.charts/ichartdata)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

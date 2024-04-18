@@ -17,12 +17,15 @@ Returns or sets the authors initials.
 @property
 def initials(self):
     ...
+
 @initials.setter
 def initials(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

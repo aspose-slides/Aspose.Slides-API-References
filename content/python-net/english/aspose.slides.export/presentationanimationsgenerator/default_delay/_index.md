@@ -16,12 +16,15 @@ Gets or sets default delay time [ms].
 @property
 def default_delay(self):
     ...
+
 @default_delay.setter
 def default_delay(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

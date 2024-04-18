@@ -29,3 +29,4 @@ def to_double(self):
 * class [`StringOrDoubleChartValue`](/slides/python-net/aspose.slides.charts/stringordoublechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

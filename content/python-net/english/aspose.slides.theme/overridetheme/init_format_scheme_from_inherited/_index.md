@@ -18,11 +18,11 @@ def init_format_scheme_from_inherited(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | Thrown if the FormatScheme is already initialized (not null). |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the FormatScheme is already initialized (not null). |
 
 
 
@@ -30,3 +30,4 @@ def init_format_scheme_from_inherited(self):
 * class [`OverrideTheme`](/slides/python-net/aspose.slides.theme/overridetheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -18,12 +18,15 @@ Returns resulting color (with all color transformations applied).
 @property
 def color(self):
     ...
+
 @color.setter
 def color(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

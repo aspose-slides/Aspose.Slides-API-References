@@ -18,13 +18,16 @@ Null value assigning is not allowed.
 @property
 def as_cells(self):
     ...
+
 @as_cells.setter
 def as_cells(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection)
 * class [`StringChartValue`](/slides/python-net/aspose.slides.charts/stringchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

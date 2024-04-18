@@ -21,7 +21,6 @@ The IModernComment type exposes the following members:
 | [`text_selection_start`](/slides/python-net/aspose.slides/imoderncomment/text_selection_start/) | Returns or sets starting position of text selection in text frame if the comment associated with AutoShape.<br/>            Read/write **int**. |
 | [`text_selection_length`](/slides/python-net/aspose.slides/imoderncomment/text_selection_length/) | Returns or sets text selection length in text frame if the comment associated with AutoShape.<br/>            Read/write **int**. |
 | [`status`](/slides/python-net/aspose.slides/imoderncomment/status/) | Returns or sets the status of the comment.<br/>            Read/write [`ModernCommentStatus`](/slides/python-net/aspose.slides/moderncommentstatus). |
-| [`as_i_comment`](/slides/python-net/aspose.slides/imoderncomment/as_i_comment/) | Allows to get base IComment interface.<br/>            Read-only [`IComment`](/slides/python-net/aspose.slides/icomment). |
 | [`text`](/slides/python-net/aspose.slides/imoderncomment/text/) |  |
 | [`created_time`](/slides/python-net/aspose.slides/imoderncomment/created_time/) |  |
 | [`slide`](/slides/python-net/aspose.slides/imoderncomment/slide/) |  |
@@ -35,6 +34,8 @@ The IModernComment type exposes the following members:
 | :- | :- |
 | [`remove`](/slides/python-net/aspose.slides/imoderncomment/remove/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

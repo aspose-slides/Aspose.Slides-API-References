@@ -16,12 +16,15 @@ Show/hide page stepper. Can be overridden in flashvars. Default is true.
 @property
 def show_page_stepper(self):
     ...
+
 @show_page_stepper.setter
 def show_page_stepper(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISwfOptions`](/slides/python-net/aspose.slides.export/iswfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

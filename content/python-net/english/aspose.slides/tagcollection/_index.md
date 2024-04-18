@@ -13,13 +13,6 @@ Represents the collection of tags (user defined pairs of strings)
 
 The TagCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/tagcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/tagcollection/as_i_enumerable/) |  |
-
 ## Methods
 
 | Method | Description |
@@ -33,6 +26,8 @@ The TagCollection type exposes the following members:
 | [`get_name_by_index`](/slides/python-net/aspose.slides/tagcollection/get_name_by_index/#int) | Returns key of a tag at the specified index. |
 | [`get_names_of_tags`](/slides/python-net/aspose.slides/tagcollection/get_names_of_tags/#) | Returns names of tags. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

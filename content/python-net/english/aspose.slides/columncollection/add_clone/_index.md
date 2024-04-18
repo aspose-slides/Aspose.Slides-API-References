@@ -35,3 +35,4 @@ def add_clone(self, templ, with_attached_columns):
 * class [`IColumn`](/slides/python-net/aspose.slides/icolumn)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

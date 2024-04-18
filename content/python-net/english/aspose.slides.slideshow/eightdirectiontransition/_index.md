@@ -20,10 +20,11 @@ The EightDirectionTransition type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`direction`](/slides/python-net/aspose.slides.slideshow/eightdirectiontransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionEightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioneightdirectiontype). |
-| [`as_i_transition_value_base`](/slides/python-net/aspose.slides.slideshow/eightdirectiontransition/as_i_transition_value_base/) |  |
+
 
 ### See Also
 * class [`EightDirectionTransition`](/slides/python-net/aspose.slides.slideshow/eightdirectiontransition)
 * class [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

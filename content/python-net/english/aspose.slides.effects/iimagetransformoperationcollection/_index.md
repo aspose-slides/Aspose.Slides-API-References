@@ -13,17 +13,11 @@ Represents a collection of effects apllied to an image.
 
 The IImageTransformOperationCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only **collections.abc.Iterable**. |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -48,6 +42,8 @@ The IImageTransformOperationCollection type exposes the following members:
 | [`add_luminance_effect`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection/add_luminance_effect/#float-float) | Adds the new Luminance effect to the end of a collection. |
 | [`add_tint_effect`](/slides/python-net/aspose.slides.effects/iimagetransformoperationcollection/add_tint_effect/#float-float) | Adds the new Tint effect to the end of a collection. |
 
+
 ### See Also
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

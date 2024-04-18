@@ -22,6 +22,8 @@ The TextAutofitType type exposes the following members:
 | NORMAL | Normal autofit. Font size and line spacing will be reduced to fit the shape. |
 | SHAPE | Shape autofit. Shape size will be changed to fit the text. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

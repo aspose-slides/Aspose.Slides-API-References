@@ -23,6 +23,8 @@ The ViewProperties type exposes the following members:
 | [`slide_view_properties`](/slides/python-net/aspose.slides/viewproperties/slide_view_properties/) | Specifies common view properties associated with the slide view mode.<br/>            Read-only [`ICommonSlideViewProperties`](/slides/python-net/aspose.slides/icommonslideviewproperties). |
 | [`notes_view_properties`](/slides/python-net/aspose.slides/viewproperties/notes_view_properties/) | Specifies common view properties associated with the notes view mode.<br/>            Read-only [`ICommonSlideViewProperties`](/slides/python-net/aspose.slides/icommonslideviewproperties). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

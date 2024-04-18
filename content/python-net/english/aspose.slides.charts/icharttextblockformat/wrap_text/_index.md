@@ -19,13 +19,16 @@ weight: 100
 @property
 def wrap_text(self):
     ...
+
 @wrap_text.setter
 def wrap_text(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

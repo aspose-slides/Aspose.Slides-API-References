@@ -25,7 +25,6 @@ def cubic_bezier_to(self, point1, point2, point3):
 | point3 | **aspose.pydrawing.PointF** | End point |
 
 
-
 ## cubic_bezier_to {#asposepydrawingpointf-asposepydrawingpointf-asposepydrawingpointf-int}
 Adds cubic Bezier curve to the specified place of the path
 
@@ -43,12 +42,11 @@ def cubic_bezier_to(self, point1, point2, point3, index):
 | point3 | **aspose.pydrawing.PointF** | End point |
 | index | **int** | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
-
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
 ## cubic_bezier_to {#float-float-float-float-float-float}
@@ -71,7 +69,6 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3):
 | y3 | **float** | Y coordinate of end point |
 
 
-
 ## cubic_bezier_to {#float-float-float-float-float-float-int}
 Adds cubic Bezier curve to the specified place of the path
 
@@ -92,11 +89,11 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 | y3 | **float** | Y coordinate of end point |
 | index | **int** | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** | Segment index is out of PathData range |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Segment index is out of PathData range |
 
 
 
@@ -104,3 +101,4 @@ def cubic_bezier_to(self, x1, y1, x2, y2, x3, y3, index):
 * class [`GeometryPath`](/slides/python-net/aspose.slides/geometrypath)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

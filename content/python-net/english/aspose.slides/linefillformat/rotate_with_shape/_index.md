@@ -17,13 +17,16 @@ Determines whether the fill should be rotated with a shape.
 @property
 def rotate_with_shape(self):
     ...
+
 @rotate_with_shape.setter
 def rotate_with_shape(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`LineFillFormat`](/slides/python-net/aspose.slides/linefillformat)
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Determines whether selecting subshapes of this object is forbidden.
 @property
 def drilldown_locked(self):
     ...
+
 @drilldown_locked.setter
 def drilldown_locked(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

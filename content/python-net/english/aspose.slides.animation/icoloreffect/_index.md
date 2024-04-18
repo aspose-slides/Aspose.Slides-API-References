@@ -22,12 +22,13 @@ The IColorEffect type exposes the following members:
 | [`by`](/slides/python-net/aspose.slides.animation/icoloreffect/by/) | Describes the relative offset value for the color animation.<br/>            Read/write [`IColorOffset`](/slides/python-net/aspose.slides.animation/icoloroffset). |
 | [`color_space`](/slides/python-net/aspose.slides.animation/icoloreffect/color_space/) | Represent color space of behavior.<br/>            Read/write [`IColorEffect.color_space`](/slides/python-net/aspose.slides.animation/icoloreffect#color_space). |
 | [`direction`](/slides/python-net/aspose.slides.animation/icoloreffect/direction/) | Specifies which direction to cycle the hue around the color wheel.<br/>            Read/write [`ColorDirection`](/slides/python-net/aspose.slides.animation/colordirection). |
-| [`as_i_behavior`](/slides/python-net/aspose.slides.animation/icoloreffect/as_i_behavior/) | Allows to get base IBehavior interface.<br/>            Read-only [`IBehavior`](/slides/python-net/aspose.slides.animation/ibehavior). |
 | [`accumulate`](/slides/python-net/aspose.slides.animation/icoloreffect/accumulate/) |  |
 | [`additive`](/slides/python-net/aspose.slides.animation/icoloreffect/additive/) |  |
 | [`properties`](/slides/python-net/aspose.slides.animation/icoloreffect/properties/) |  |
 | [`timing`](/slides/python-net/aspose.slides.animation/icoloreffect/timing/) |  |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Describes the number of times the effect should repeat.
 @property
 def repeat_count(self):
     ...
+
 @repeat_count.setter
 def repeat_count(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Timing`](/slides/python-net/aspose.slides.animation/timing)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

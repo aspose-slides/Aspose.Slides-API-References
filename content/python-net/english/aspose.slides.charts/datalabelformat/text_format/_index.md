@@ -19,8 +19,10 @@ def text_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`DataLabelFormat`](/slides/python-net/aspose.slides.charts/datalabelformat)
 * class [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

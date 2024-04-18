@@ -24,7 +24,6 @@ def to_array(self):
 
 
 
-
 ## to_array {#int-int}
 Creates and returns an array with all slides from the specified range in it.
 
@@ -52,3 +51,4 @@ def to_array(self, start_index, count):
 * class [`ISlideCollection`](/slides/python-net/aspose.slides/islidecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

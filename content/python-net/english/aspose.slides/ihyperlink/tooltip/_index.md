@@ -18,12 +18,15 @@ Returns the string which may be surfaced in a user interface
 @property
 def tooltip(self):
     ...
+
 @tooltip.setter
 def tooltip(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

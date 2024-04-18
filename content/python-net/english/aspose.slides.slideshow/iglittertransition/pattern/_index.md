@@ -17,13 +17,16 @@ Specifies the shape of the visuals used during the transition.
 @property
 def pattern(self):
     ...
+
 @pattern.setter
 def pattern(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IGlitterTransition`](/slides/python-net/aspose.slides.slideshow/iglittertransition)
 * enumeration [`TransitionPattern`](/slides/python-net/aspose.slides.slideshow/transitionpattern)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

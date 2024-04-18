@@ -20,6 +20,8 @@ The CategoryAxisType type exposes the following members:
 | TEXT | Specifies category axis is a text axis. |
 | DATE | Specifies category axis is a date axis. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

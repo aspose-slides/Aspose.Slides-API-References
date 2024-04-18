@@ -24,3 +24,4 @@ def enable_soft_edge_effect(self):
 * class [`EffectFormat`](/slides/python-net/aspose.slides/effectformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -19,7 +19,9 @@ def original_font_name(self):
     ...
 ```
 
+
 ### See Also
 * class [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

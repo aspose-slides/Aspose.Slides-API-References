@@ -25,6 +25,8 @@ The FillType type exposes the following members:
 | PICTURE | A single picture is used to fill the object. |
 | GROUP | The visual object inherits the fill properties from the group. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

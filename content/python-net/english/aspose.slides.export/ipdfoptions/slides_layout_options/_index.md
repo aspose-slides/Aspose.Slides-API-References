@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/ipdfoptions/slides_layout_options/
-weight: 190
+weight: 200
 ---
 
 
@@ -16,13 +16,16 @@ Gets or sets the mode in which slides are placed on the page when exporting a pr
 @property
 def slides_layout_options(self):
     ...
+
 @slides_layout_options.setter
 def slides_layout_options(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * class [`ISlidesLayoutOptions`](/slides/python-net/aspose.slides.export/islideslayoutoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

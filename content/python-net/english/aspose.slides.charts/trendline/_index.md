@@ -31,12 +31,7 @@ The Trendline type exposes the following members:
 | [`text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/trendline/text_frame_for_overriding/) | Can contain a rich formatted text. If this property is not null then this <br/>            formatted text value overrides auto-generated text of data label.<br/>            Auto-generated text of data label means text that is managed by ShowSeriesName, <br/>            ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property.<br/>            Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
 | [`text_format`](/slides/python-net/aspose.slides.charts/trendline/text_format/) | Returns text format.<br/>            Read-only [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat). |
 | [`chart`](/slides/python-net/aspose.slides.charts/trendline/chart/) | Returns the parent chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
-| [`as_i_overridable_text`](/slides/python-net/aspose.slides.charts/trendline/as_i_overridable_text/) |  |
-| [`as_i_formatted_text_container`](/slides/python-net/aspose.slides.charts/trendline/as_i_formatted_text_container/) |  |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/trendline/as_i_chart_component/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/trendline/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/trendline/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/trendline/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/trendline/presentation/) |  |
 
 ## Methods
@@ -45,6 +40,8 @@ The Trendline type exposes the following members:
 | :- | :- |
 | [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/trendline/add_text_frame_for_overriding/#str) | Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -16,12 +16,15 @@ Start with opened left pane. Can be overridden in flashvars. Default is false.
 @property
 def start_open_left_pane(self):
     ...
+
 @start_open_left_pane.setter
 def start_open_left_pane(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SwfOptions`](/slides/python-net/aspose.slides.export/swfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

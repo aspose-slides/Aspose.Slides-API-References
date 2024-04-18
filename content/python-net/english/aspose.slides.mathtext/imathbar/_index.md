@@ -19,7 +19,6 @@ The IMathBar type exposes the following members:
 | :- | :- |
 | [`base`](/slides/python-net/aspose.slides.mathtext/imathbar/base/) | Base argument |
 | [`position`](/slides/python-net/aspose.slides.mathtext/imathbar/position/) | Position of the bar line. <br/>            Default: Top |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/imathbar/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 
@@ -72,6 +71,8 @@ The IMathBar type exposes the following members:
 | [`underbar`](/slides/python-net/aspose.slides.mathtext/imathbar/underbar/#) |  |
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/imathbar/to_box/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

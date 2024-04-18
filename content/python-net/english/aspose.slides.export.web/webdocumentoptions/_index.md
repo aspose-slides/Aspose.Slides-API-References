@@ -29,7 +29,9 @@ The WebDocumentOptions type exposes the following members:
 | [`animate_transitions`](/slides/python-net/aspose.slides.export.web/webdocumentoptions/animate_transitions/) | Returns or sets transitions animation option.<br/>            Read/write **bool**. |
 | [`animate_shapes`](/slides/python-net/aspose.slides.export.web/webdocumentoptions/animate_shapes/) | Returns or sets shapes animation option.<br/>            Read/write **bool**. |
 
+
 ### See Also
 * class [`WebDocument`](/slides/python-net/aspose.slides.export.web/webdocument)
 * module [`aspose.slides.export.web`](/slides/python-net/aspose.slides.export.web)
 * library [`Aspose.Slides`](/slides/python-net)
+

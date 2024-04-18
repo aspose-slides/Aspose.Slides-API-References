@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartartshape/hyperlink_mouse_over/
-weight: 280
+weight: 290
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets the hyperlink defined for mouse over.
 @property
 def hyperlink_mouse_over(self):
     ...
+
 @hyperlink_mouse_over.setter
 def hyperlink_mouse_over(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

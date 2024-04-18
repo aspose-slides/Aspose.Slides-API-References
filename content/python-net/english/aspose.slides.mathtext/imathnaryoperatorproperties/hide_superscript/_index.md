@@ -16,12 +16,15 @@ Hide Superscript
 @property
 def hide_superscript(self):
     ...
+
 @hide_superscript.setter
 def hide_superscript(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathNaryOperatorProperties`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorproperties)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

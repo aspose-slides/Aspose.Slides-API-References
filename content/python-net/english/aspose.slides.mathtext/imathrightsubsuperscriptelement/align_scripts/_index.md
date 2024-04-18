@@ -19,12 +19,15 @@ Specifies the alignment of subscript/superscript.
 @property
 def align_scripts(self):
     ...
+
 @align_scripts.setter
 def align_scripts(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathRightSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -19,8 +19,10 @@ def line(self):
     ...
 ```
 
+
 ### See Also
 * class [`ChartLinesFormat`](/slides/python-net/aspose.slides.charts/chartlinesformat)
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

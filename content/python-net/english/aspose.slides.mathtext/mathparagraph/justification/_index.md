@@ -17,12 +17,15 @@ Paragraph Justification
 @property
 def justification(self):
     ...
+
 @justification.setter
 def justification(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

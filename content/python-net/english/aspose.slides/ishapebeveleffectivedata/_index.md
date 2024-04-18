@@ -26,7 +26,9 @@ The IShapeBevelEffectiveData type exposes the following members:
 
 This interface is used as a part of [`IThreeDFormatEffectiveData`](/slides/python-net/aspose.slides/ithreedformateffectivedata).
 
+
 ### See Also
 * class [`IThreeDFormatEffectiveData`](/slides/python-net/aspose.slides/ithreedformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

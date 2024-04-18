@@ -17,12 +17,15 @@ Returns or sets the bottom margin in a TextFrame.
 @property
 def margin_bottom(self):
     ...
+
 @margin_bottom.setter
 def margin_bottom(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Cell`](/slides/python-net/aspose.slides/cell)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

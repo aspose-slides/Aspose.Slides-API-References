@@ -17,12 +17,15 @@ Specifies the direction to offset the reflection. (angle).
 @property
 def fade_direction(self):
     ...
+
 @fade_direction.setter
 def fade_direction(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IReflection`](/slides/python-net/aspose.slides.effects/ireflection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

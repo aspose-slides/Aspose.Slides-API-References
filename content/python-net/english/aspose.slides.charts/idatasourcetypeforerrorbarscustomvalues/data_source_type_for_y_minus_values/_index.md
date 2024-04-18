@@ -19,13 +19,16 @@ Specifies whether AsCell or AsLiteralString or AsLiteralDouble property
 @property
 def data_source_type_for_y_minus_values(self):
     ...
+
 @data_source_type_for_y_minus_values.setter
 def data_source_type_for_y_minus_values(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype)
 * class [`IDataSourceTypeForErrorBarsCustomValues`](/slides/python-net/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

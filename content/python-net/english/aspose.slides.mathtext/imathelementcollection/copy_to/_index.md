@@ -29,3 +29,4 @@ def copy_to(self, array, array_index):
 * class [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

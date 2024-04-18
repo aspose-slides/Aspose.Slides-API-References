@@ -17,12 +17,15 @@ Hide degree
 @property
 def hide_degree(self):
     ...
+
 @hide_degree.setter
 def hide_degree(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathRadical`](/slides/python-net/aspose.slides.mathtext/imathradical)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

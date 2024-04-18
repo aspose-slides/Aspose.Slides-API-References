@@ -24,6 +24,8 @@ The Rotation3D type exposes the following members:
 | [`depth_percents`](/slides/python-net/aspose.slides.charts/rotation3d/depth_percents/) | Returns or sets the depth of a 3D chart as a percentage of a chart width (between 20 and 2000 percent).<br/>            Read/write **int**. |
 | [`height_percents`](/slides/python-net/aspose.slides.charts/rotation3d/height_percents/) | Specifies the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent).<br/>            Read/write **int**. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

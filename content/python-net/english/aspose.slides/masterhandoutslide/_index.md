@@ -32,11 +32,7 @@ The MasterHandoutSlide type exposes the following members:
 | [`presentation`](/slides/python-net/aspose.slides/masterhandoutslide/presentation/) | Returns IPresentation interface.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 | [`header_footer_manager`](/slides/python-net/aspose.slides/masterhandoutslide/header_footer_manager/) | Returns HeaderFooter manager of the master handout slide.<br/>            Read-only [`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager). |
 | [`theme_manager`](/slides/python-net/aspose.slides/masterhandoutslide/theme_manager/) | Returns the theme manager.<br/>            Read-only [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/masterhandoutslide/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/masterhandoutslide/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/masterhandoutslide/as_i_presentation_component/) |  |
-| [`as_i_base_slide`](/slides/python-net/aspose.slides/masterhandoutslide/as_i_base_slide/) |  |
-| [`as_i_master_themeable`](/slides/python-net/aspose.slides/masterhandoutslide/as_i_master_themeable/) |  |
 
 ## Methods
 
@@ -48,8 +44,10 @@ The MasterHandoutSlide type exposes the following members:
 | [`create_theme_effective`](/slides/python-net/aspose.slides/masterhandoutslide/create_theme_effective/#) | Returns an effective theme for this slide. |
 | [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/masterhandoutslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 
+
 ### See Also
 * class [`BaseSlide`](/slides/python-net/aspose.slides/baseslide)
 * class [`MasterHandoutSlide`](/slides/python-net/aspose.slides/masterhandoutslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

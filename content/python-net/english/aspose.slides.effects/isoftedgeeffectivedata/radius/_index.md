@@ -19,7 +19,9 @@ def radius(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISoftEdgeEffectiveData`](/slides/python-net/aspose.slides.effects/isoftedgeeffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

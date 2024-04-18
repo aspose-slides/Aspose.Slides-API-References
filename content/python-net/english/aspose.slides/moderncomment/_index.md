@@ -29,7 +29,6 @@ The ModernComment type exposes the following members:
 | [`text_selection_start`](/slides/python-net/aspose.slides/moderncomment/text_selection_start/) | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape.<br/>            Read/write **int**. |
 | [`text_selection_length`](/slides/python-net/aspose.slides/moderncomment/text_selection_length/) | Gets or sets text selection length in text frame if the comment associated with AutoShape.<br/>            Read/write **int**. |
 | [`status`](/slides/python-net/aspose.slides/moderncomment/status/) | Gets or sets the status of the comment.<br/>            Read/write [`ModernCommentStatus`](/slides/python-net/aspose.slides/moderncommentstatus). |
-| [`as_i_comment`](/slides/python-net/aspose.slides/moderncomment/as_i_comment/) |  |
 
 ## Methods
 
@@ -37,8 +36,10 @@ The ModernComment type exposes the following members:
 | :- | :- |
 | [`remove`](/slides/python-net/aspose.slides/moderncomment/remove/#) | Removes comment and all its replies from the parent collection. |
 
+
 ### See Also
 * class [`Comment`](/slides/python-net/aspose.slides/comment)
 * class [`ModernComment`](/slides/python-net/aspose.slides/moderncomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

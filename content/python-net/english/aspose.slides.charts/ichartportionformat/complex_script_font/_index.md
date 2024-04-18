@@ -14,12 +14,15 @@ weight: 30
 @property
 def complex_script_font(self):
     ...
+
 @complex_script_font.setter
 def complex_script_font(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

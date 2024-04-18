@@ -17,13 +17,16 @@ Specifies how the motion path moves when shape is moved.
 @property
 def path_edit_mode(self):
     ...
+
 @path_edit_mode.setter
 def path_edit_mode(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`MotionEffect`](/slides/python-net/aspose.slides.animation/motioneffect)
 * enumeration [`MotionPathEditMode`](/slides/python-net/aspose.slides.animation/motionpatheditmode)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

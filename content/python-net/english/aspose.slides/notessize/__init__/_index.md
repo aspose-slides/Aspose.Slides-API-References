@@ -24,3 +24,4 @@ def __init__(self):
 * class [`NotesSize`](/slides/python-net/aspose.slides/notessize)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

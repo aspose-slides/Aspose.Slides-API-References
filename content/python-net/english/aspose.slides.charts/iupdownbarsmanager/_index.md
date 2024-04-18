@@ -22,6 +22,8 @@ The IUpDownBarsManager type exposes the following members:
 | [`has_up_down_bars`](/slides/python-net/aspose.slides.charts/iupdownbarsmanager/has_up_down_bars/) | Determines whether the chart has up/down bars.<br/>            Read/write **bool**. |
 | [`gap_width`](/slides/python-net/aspose.slides.charts/iupdownbarsmanager/gap_width/) | Returns or sets gap width.<br/>            Read/write **int**. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Specifies whether the shadow should rotate with the shape if the shape is rotate
 @property
 def rotate_shadow_with_shape(self):
     ...
+
 @rotate_shadow_with_shape.setter
 def rotate_shadow_with_shape(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IOuterShadow`](/slides/python-net/aspose.slides.effects/ioutershadow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

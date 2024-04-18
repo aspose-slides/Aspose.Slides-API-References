@@ -29,3 +29,4 @@ def add_placeholder(self, placeholder_to_copy_from):
 * class [`IZoomObject`](/slides/python-net/aspose.slides/izoomobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

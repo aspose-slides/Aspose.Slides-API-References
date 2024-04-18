@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/legacydiagram/line_format/
-weight: 300
+weight: 310
 ---
 
 
@@ -20,8 +20,10 @@ def line_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * class [`LegacyDiagram`](/slides/python-net/aspose.slides/legacydiagram)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

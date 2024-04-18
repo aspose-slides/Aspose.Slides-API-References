@@ -28,7 +28,6 @@ def create_math_bar(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply bar |
 
 
-
 ## create_math_bar {#imathelement-mathtopbotpositions}
 Create a math bar by applying to the element
 
@@ -58,3 +57,4 @@ def create_math_bar(self, element, position):
 * enumeration [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

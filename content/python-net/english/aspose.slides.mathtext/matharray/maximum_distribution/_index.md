@@ -17,12 +17,15 @@ Maximum Distribution
 @property
 def maximum_distribution(self):
     ...
+
 @maximum_distribution.setter
 def maximum_distribution(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathArray`](/slides/python-net/aspose.slides.mathtext/matharray)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

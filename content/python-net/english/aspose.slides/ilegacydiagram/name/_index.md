@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ilegacydiagram/name/
-weight: 310
+weight: 320
 ---
 
 
@@ -14,12 +14,15 @@ weight: 310
 @property
 def name(self):
     ...
+
 @name.setter
 def name(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ILegacyDiagram`](/slides/python-net/aspose.slides/ilegacydiagram)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

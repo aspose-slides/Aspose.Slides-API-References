@@ -28,7 +28,6 @@ The MathFunction type exposes the following members:
 | :- | :- |
 | [`name`](/slides/python-net/aspose.slides.mathtext/mathfunction/name/) | Function name<br/>            For example, function names are sin and cos |
 | [`base`](/slides/python-net/aspose.slides.mathtext/mathfunction/base/) | Function Argument |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/mathfunction/as_i_math_element/) |  |
 
 ## Methods
 
@@ -81,8 +80,10 @@ The MathFunction type exposes the following members:
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/mathfunction/to_box/#) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathfunction/get_children/#) | Get children elements |
 
+
 ### See Also
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * class [`MathFunction`](/slides/python-net/aspose.slides.mathtext/mathfunction)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

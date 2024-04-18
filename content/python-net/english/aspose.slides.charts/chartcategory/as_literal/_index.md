@@ -17,12 +17,15 @@ Returns or sets AsLiteral object.
 @property
 def as_literal(self):
     ...
+
 @as_literal.setter
 def as_literal(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartCategory`](/slides/python-net/aspose.slides.charts/chartcategory)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -22,6 +22,8 @@ The IFormat type exposes the following members:
 | [`effect`](/slides/python-net/aspose.slides.charts/iformat/effect/) | Returns effects used for a chart.<br/>            Read-only [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat). |
 | [`effect_3d`](/slides/python-net/aspose.slides.charts/iformat/effect_3d/) | Returns 3D format of a chart.<br/>            Read-only [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat). |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

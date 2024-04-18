@@ -17,12 +17,15 @@ Defines command string.
 @property
 def command_string(self):
     ...
+
 @command_string.setter
 def command_string(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`CommandEffect`](/slides/python-net/aspose.slides.animation/commandeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

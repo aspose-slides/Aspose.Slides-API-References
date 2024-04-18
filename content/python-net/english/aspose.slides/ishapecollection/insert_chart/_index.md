@@ -34,7 +34,6 @@ def insert_chart(self, type, x, y, width, height, index):
 | index | **int** | Chart's position in the collection. |
 
 
-
 ## insert_chart {#asposeslideschartscharttype-float-float-float-float-int-bool}
 Creates a new Chart and inserts it to the specified position in the collection.
 
@@ -67,3 +66,4 @@ def insert_chart(self, type, x, y, width, height, index, init_with_sample):
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -23,7 +23,6 @@ def __init__(self, op):
 | op | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation) | Operation type. |
 
 
-
 ## __init__ {#colortransformoperation-float}
 Creates new color transform operation.
 
@@ -46,3 +45,4 @@ def __init__(self, op, parameter):
 * enumeration [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -18,12 +18,15 @@ If UseCell is true then this property represents AsCell.Value property.
 @property
 def value(self):
     ...
+
 @value.setter
 def value(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartCategory`](/slides/python-net/aspose.slides.charts/chartcategory)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

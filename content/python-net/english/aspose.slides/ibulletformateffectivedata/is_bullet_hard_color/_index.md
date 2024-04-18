@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ibulletformateffectivedata/is_bullet_hard_color/
-weight: 70
+weight: 60
 ---
 
 
@@ -20,7 +20,9 @@ def is_bullet_hard_color(self):
     ...
 ```
 
+
 ### See Also
 * class [`IBulletFormatEffectiveData`](/slides/python-net/aspose.slides/ibulletformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

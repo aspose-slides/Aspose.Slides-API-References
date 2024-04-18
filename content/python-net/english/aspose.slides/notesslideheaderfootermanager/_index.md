@@ -23,9 +23,6 @@ The NotesSlideHeaderFooterManager type exposes the following members:
 | [`is_slide_number_visible`](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_slide_number_visible/) | Gets value indicating that a page number placeholder is present.<br/>            Read**bool**. |
 | [`is_date_time_visible`](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_date_time_visible/) | Gets value indicating that a date-time placeholder is present.<br/>            Read**bool**. |
 | [`is_header_visible`](/slides/python-net/aspose.slides/notesslideheaderfootermanager/is_header_visible/) | Gets value indicating that a header placeholder is present.<br/>            Read **bool**. |
-| [`as_i_base_slide_header_footer_manager`](/slides/python-net/aspose.slides/notesslideheaderfootermanager/as_i_base_slide_header_footer_manager/) |  |
-| [`as_i_base_header_footer_manager`](/slides/python-net/aspose.slides/notesslideheaderfootermanager/as_i_base_header_footer_manager/) |  |
-| [`as_i_base_handout_notes_slide_header_footer_manag`](/slides/python-net/aspose.slides/notesslideheaderfootermanager/as_i_base_handout_notes_slide_header_footer_manag/) |  |
 
 ## Methods
 
@@ -39,6 +36,7 @@ The NotesSlideHeaderFooterManager type exposes the following members:
 | [`set_header_visibility`](/slides/python-net/aspose.slides/notesslideheaderfootermanager/set_header_visibility/#bool) | Changes slide header placeholder visibility. |
 | [`set_header_text`](/slides/python-net/aspose.slides/notesslideheaderfootermanager/set_header_text/#str) | Sets text to slide header placeholder. |
 
+
 ### See Also
 * class [`BaseHandoutNotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/basehandoutnotesslideheaderfootermanager)
 * class [`BaseHeaderFooterManager`](/slides/python-net/aspose.slides/baseheaderfootermanager)
@@ -46,3 +44,4 @@ The NotesSlideHeaderFooterManager type exposes the following members:
 * class [`NotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/notesslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

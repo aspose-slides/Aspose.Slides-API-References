@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#str}
 Initializes a new instance of the Portion class.
 
@@ -33,7 +32,6 @@ def __init__(self, str):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | str | **str** |  |
-
 
 
 ## __init__ {#portion}
@@ -56,3 +54,4 @@ def __init__(self, portion):
 * class [`Portion`](/slides/python-net/aspose.slides/portion)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

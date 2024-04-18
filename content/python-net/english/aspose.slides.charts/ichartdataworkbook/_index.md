@@ -32,6 +32,8 @@ The IChartDataWorkbook type exposes the following members:
 | [`get_cell_collection`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/get_cell_collection/#str-bool) | Gets the set of cells. |
 | [`clear`](/slides/python-net/aspose.slides.charts/ichartdataworkbook/clear/#int) | Clear all cells values on sheet |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

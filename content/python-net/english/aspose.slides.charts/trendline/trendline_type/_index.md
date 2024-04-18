@@ -17,13 +17,16 @@ Gets or sets type of trend line.
 @property
 def trendline_type(self):
     ...
+
 @trendline_type.setter
 def trendline_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * enumeration [`TrendlineType`](/slides/python-net/aspose.slides.charts/trendlinetype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

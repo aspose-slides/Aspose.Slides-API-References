@@ -19,7 +19,9 @@ def image(self):
     ...
 ```
 
+
 ### See Also
 * class [`ImageWrapper`](/slides/python-net/aspose.slides/imagewrapper)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

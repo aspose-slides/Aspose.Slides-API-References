@@ -38,14 +38,14 @@ layout_type`
             2) Analogue of this method is method **Aspose.Slides.IMasterLayoutSlideCollection.Add(Aspose.Slides.SlideLayoutType,Syste**
             accessed with [`IMasterSlide.layout_slides`](/slides/python-net/aspose.slides/imasterslide#layout_slides) property.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.NotImplementedException** | Thrown if unsupported value of parameter `<br/>layout_type`<br/> is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| **System.ArgumentNullException** | Thrown if `<br/>master`<br/> is null. |
-| **System.ArgumentException** | Thrown if `<br/>master`<br/> belongs to the other presentation. |
-| **System.ArgumentException** | Thrown if layout name value `<br/>layout_name`<br/> is already in use in <br/>            collection of the layouts of `<br/>master`<br/>. |
+| **RuntimeError(Proxy error(NotImplementedException))** | Thrown if unsupported value of parameter `<br/>layout_type`<br/> is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown if `<br/>master`<br/> is null. |
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown if `<br/>master`<br/> belongs to the other presentation. |
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown if layout name value `<br/>layout_name`<br/> is already in use in <br/>            collection of the layouts of `<br/>master`<br/>. |
 
 
 
@@ -56,3 +56,4 @@ layout_type`
 * enumeration [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

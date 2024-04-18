@@ -17,12 +17,15 @@ Returns or sets the name of the application.
 @property
 def name_of_application(self):
     ...
+
 @name_of_application.setter
 def name_of_application(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

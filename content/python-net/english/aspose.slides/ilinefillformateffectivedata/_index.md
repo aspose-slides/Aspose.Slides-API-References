@@ -22,14 +22,15 @@ The ILineFillFormatEffectiveData type exposes the following members:
 | [`gradient_format`](/slides/python-net/aspose.slides/ilinefillformateffectivedata/gradient_format/) | Returns the gradient fill format.<br/>            Read-only [`IGradientFormatEffectiveData`](/slides/python-net/aspose.slides/igradientformateffectivedata). |
 | [`pattern_format`](/slides/python-net/aspose.slides/ilinefillformateffectivedata/pattern_format/) | Returns the pattern fill format.<br/>            Read-only [`IPatternFormatEffectiveData`](/slides/python-net/aspose.slides/ipatternformateffectivedata). |
 | [`rotate_with_shape`](/slides/python-net/aspose.slides/ilinefillformateffectivedata/rotate_with_shape/) | Determines whether the fill should be rotated with a shape.<br/>            Read-only **bool**. |
-| [`as_i_fill_param_source`](/slides/python-net/aspose.slides/ilinefillformateffectivedata/as_i_fill_param_source/) | Returns IFillParamSource interface.<br/>            Read-only [`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource). |
 
 
 ### Remarks
 
 This interface is used as a part of [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata).
 
+
 ### See Also
 * class [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

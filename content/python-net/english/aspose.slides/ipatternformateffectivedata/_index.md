@@ -26,14 +26,17 @@ The IPatternFormatEffectiveData type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [`get_tile_image`](/slides/python-net/aspose.slides/ipatternformateffectivedata/get_tile_image/#asposepydrawingcolor-asposepydrawingcolor) | Creates a tile image for the pattern fill with a specified colors. |
+| [`get_tile_i_image`](/slides/python-net/aspose.slides/ipatternformateffectivedata/get_tile_i_image/#asposepydrawingcolor-asposepydrawingcolor) | Creates a tile image for the pattern fill with a specified colors. |
 
 
 ### Remarks
 
 This interface is used as a part of [`IFillFormatEffectiveData`](/slides/python-net/aspose.slides/ifillformateffectivedata) and [`ILineFillFormatEffectiveData`](/slides/python-net/aspose.slides/ilinefillformateffectivedata).
 
+
 ### See Also
 * class [`IFillFormatEffectiveData`](/slides/python-net/aspose.slides/ifillformateffectivedata)
 * class [`ILineFillFormatEffectiveData`](/slides/python-net/aspose.slides/ilinefillformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

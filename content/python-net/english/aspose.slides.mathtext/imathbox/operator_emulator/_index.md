@@ -20,12 +20,15 @@ Operator Emulator.
 @property
 def operator_emulator(self):
     ...
+
 @operator_emulator.setter
 def operator_emulator(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathBox`](/slides/python-net/aspose.slides.mathtext/imathbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

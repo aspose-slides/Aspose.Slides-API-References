@@ -40,6 +40,8 @@ The ITextFrameFormat type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides/itextframeformat/get_effective/#) | Gets effective text frame formatting data with the inheritance applied. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

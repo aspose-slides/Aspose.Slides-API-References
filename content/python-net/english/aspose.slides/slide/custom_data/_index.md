@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/slide/custom_data/
-weight: 170
+weight: 180
 ---
 
 
@@ -19,8 +19,10 @@ def custom_data(self):
     ...
 ```
 
+
 ### See Also
 * class [`ICustomData`](/slides/python-net/aspose.slides/icustomdata)
 * class [`Slide`](/slides/python-net/aspose.slides/slide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

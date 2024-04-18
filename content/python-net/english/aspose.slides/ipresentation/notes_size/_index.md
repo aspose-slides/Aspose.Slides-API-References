@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentation/notes_size/
-weight: 260
+weight: 270
 ---
 
 
@@ -19,8 +19,10 @@ def notes_size(self):
     ...
 ```
 
+
 ### See Also
 * class [`INotesSize`](/slides/python-net/aspose.slides/inotessize)
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

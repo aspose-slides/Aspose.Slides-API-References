@@ -21,10 +21,11 @@ The RevealTransition type exposes the following members:
 | :- | :- |
 | [`direction`](/slides/python-net/aspose.slides.slideshow/revealtransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype). |
 | [`through_black`](/slides/python-net/aspose.slides.slideshow/revealtransition/through_black/) | Specifies whether the transition fades through black.<br/>            Read/write **bool**. |
-| [`as_i_transition_value_base`](/slides/python-net/aspose.slides.slideshow/revealtransition/as_i_transition_value_base/) |  |
+
 
 ### See Also
 * class [`RevealTransition`](/slides/python-net/aspose.slides.slideshow/revealtransition)
 * class [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

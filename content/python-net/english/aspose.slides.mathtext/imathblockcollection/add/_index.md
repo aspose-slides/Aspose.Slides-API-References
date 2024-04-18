@@ -29,3 +29,4 @@ def add(self, item):
 * class [`IMathBlockCollection`](/slides/python-net/aspose.slides.mathtext/imathblockcollection)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

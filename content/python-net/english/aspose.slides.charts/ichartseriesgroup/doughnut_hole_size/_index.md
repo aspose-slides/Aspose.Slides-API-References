@@ -18,12 +18,15 @@ Specifies the size of the hole in a doughnut chart (can be between 10 and 90 per
 @property
 def doughnut_hole_size(self):
     ...
+
 @doughnut_hole_size.setter
 def doughnut_hole_size(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartSeriesGroup`](/slides/python-net/aspose.slides.charts/ichartseriesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

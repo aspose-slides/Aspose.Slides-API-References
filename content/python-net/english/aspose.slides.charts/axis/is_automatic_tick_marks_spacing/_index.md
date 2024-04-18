@@ -17,12 +17,15 @@ Specifies automatic tick marks spacing value. If false: use TickMarksSpacing pro
 @property
 def is_automatic_tick_marks_spacing(self):
     ...
+
 @is_automatic_tick_marks_spacing.setter
 def is_automatic_tick_marks_spacing(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

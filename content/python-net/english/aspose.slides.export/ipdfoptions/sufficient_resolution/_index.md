@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/ipdfoptions/sufficient_resolution/
-weight: 200
+weight: 210
 ---
 
 
@@ -24,12 +24,15 @@ The default value is **96** .
 @property
 def sufficient_resolution(self):
     ...
+
 @sufficient_resolution.setter
 def sufficient_resolution(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

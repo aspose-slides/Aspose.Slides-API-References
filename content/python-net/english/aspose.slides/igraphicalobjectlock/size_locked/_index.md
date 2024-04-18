@@ -17,12 +17,15 @@ Determines whether resizing this shape is forbidden.
 @property
 def size_locked(self):
     ...
+
 @size_locked.setter
 def size_locked(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

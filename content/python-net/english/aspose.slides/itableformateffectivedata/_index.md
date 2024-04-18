@@ -17,7 +17,6 @@ The ITableFormatEffectiveData type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_base_table_format_effective_data`](/slides/python-net/aspose.slides/itableformateffectivedata/as_i_base_table_format_effective_data/) | Allows to get base IBaseTableFormatEffectiveData interface.<br/>            Read-only [`IBaseTableFormatEffectiveData`](/slides/python-net/aspose.slides/ibasetableformateffectivedata). |
 | [`fill_format`](/slides/python-net/aspose.slides/itableformateffectivedata/fill_format/) |  |
 | [`border_left`](/slides/python-net/aspose.slides/itableformateffectivedata/border_left/) |  |
 | [`border_top`](/slides/python-net/aspose.slides/itableformateffectivedata/border_top/) |  |
@@ -31,7 +30,9 @@ The ITableFormatEffectiveData type exposes the following members:
 
 This interface is used together with the [`ITableFormat`](/slides/python-net/aspose.slides/itableformat) interface to return effective formatting values with inheritance and table styles applied.
 
+
 ### See Also
 * class [`ITableFormat`](/slides/python-net/aspose.slides/itableformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

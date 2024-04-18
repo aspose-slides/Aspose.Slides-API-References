@@ -19,12 +19,15 @@ Specifies the certain attribute of a effect after an animation effect.
 @property
 def to(self):
     ...
+
 @to.setter
 def to(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SetEffect`](/slides/python-net/aspose.slides.animation/seteffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

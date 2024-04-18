@@ -19,8 +19,10 @@ def related_legend_entry(self):
     ...
 ```
 
+
 ### See Also
 * class [`ILegendEntryProperties`](/slides/python-net/aspose.slides.charts/ilegendentryproperties)
 * class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

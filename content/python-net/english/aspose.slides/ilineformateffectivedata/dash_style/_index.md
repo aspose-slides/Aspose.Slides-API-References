@@ -19,8 +19,10 @@ def dash_style(self):
     ...
 ```
 
+
 ### See Also
 * class [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
 * enumeration [`LineDashStyle`](/slides/python-net/aspose.slides/linedashstyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

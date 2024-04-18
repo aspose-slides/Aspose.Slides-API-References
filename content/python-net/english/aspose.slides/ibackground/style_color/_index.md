@@ -19,8 +19,10 @@ def style_color(self):
     ...
 ```
 
+
 ### See Also
 * class [`IBackground`](/slides/python-net/aspose.slides/ibackground)
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

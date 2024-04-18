@@ -14,12 +14,15 @@ weight: 20
 @property
 def additive(self):
     ...
+
 @additive.setter
 def additive(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ICommandEffect`](/slides/python-net/aspose.slides.animation/icommandeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

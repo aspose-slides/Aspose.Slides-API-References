@@ -22,6 +22,8 @@ The MathFractionTypes type exposes the following members:
 | LINEAR | Linear Fraction |
 | NO_BAR | No-Bar Fraction (Stack) |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

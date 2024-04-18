@@ -17,13 +17,16 @@ Direction of transition split.
 @property
 def direction(self):
     ...
+
 @direction.setter
 def direction(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ISplitTransition`](/slides/python-net/aspose.slides.slideshow/isplittransition)
 * enumeration [`TransitionInOutDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioninoutdirectiontype)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

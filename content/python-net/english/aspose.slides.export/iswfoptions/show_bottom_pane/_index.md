@@ -16,12 +16,15 @@ Show/hide bottom pane. Can be overridden in flashvars. Default is true.
 @property
 def show_bottom_pane(self):
     ...
+
 @show_bottom_pane.setter
 def show_bottom_pane(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISwfOptions`](/slides/python-net/aspose.slides.export/iswfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

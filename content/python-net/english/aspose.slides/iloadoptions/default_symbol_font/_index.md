@@ -17,12 +17,15 @@ Returns or sets Symbol font used in case source font is not found.
 @property
 def default_symbol_font(self):
     ...
+
 @default_symbol_font.setter
 def default_symbol_font(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

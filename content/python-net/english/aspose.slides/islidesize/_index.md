@@ -28,6 +28,8 @@ The ISlideSize type exposes the following members:
 | [`set_size`](/slides/python-net/aspose.slides/islidesize/set_size/#slidesizetype-slidesizescaletype) | Sets the type of slide size and scales content using scale type.<br/>             Assigning any value except [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype#CUSTOM) will change [`ISlideSize.size`](/slides/python-net/aspose.slides/islidesize#size) accordingly, but will keep [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize#orientation) intact. |
 | [`set_size`](/slides/python-net/aspose.slides/islidesize/set_size/#float-float-slidesizescaletype) | Sets the size in points and scales content using scale type.<br/>            Assigning any value will reset [`ISlideSize.type`](/slides/python-net/aspose.slides/islidesize#type) property to [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype#CUSTOM) and set [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize#orientation). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

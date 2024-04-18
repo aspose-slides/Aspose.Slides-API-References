@@ -19,8 +19,10 @@ def type(self):
     ...
 ```
 
+
 ### See Also
 * class [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder)
 * enumeration [`PlaceholderType`](/slides/python-net/aspose.slides/placeholdertype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,13 +17,16 @@ Returns or sets output saver.
 @property
 def output_saver(self):
     ...
+
 @output_saver.setter
 def output_saver(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IOutputSaver`](/slides/python-net/aspose.slides.export.web/ioutputsaver)
 * class [`WebDocumentOptions`](/slides/python-net/aspose.slides.export.web/webdocumentoptions)
 * module [`aspose.slides.export.web`](/slides/python-net/aspose.slides.export.web)
 * library [`Aspose.Slides`](/slides/python-net)
+

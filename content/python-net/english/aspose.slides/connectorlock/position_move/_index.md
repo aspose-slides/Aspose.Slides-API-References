@@ -17,12 +17,15 @@ Determines whether a moving this shape is forbidden.
 @property
 def position_move(self):
     ...
+
 @position_move.setter
 def position_move(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ConnectorLock`](/slides/python-net/aspose.slides/connectorlock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

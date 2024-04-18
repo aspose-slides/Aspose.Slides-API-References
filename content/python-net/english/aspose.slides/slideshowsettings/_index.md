@@ -26,6 +26,8 @@ The SlideShowSettings type exposes the following members:
 | [`use_timings`](/slides/python-net/aspose.slides/slideshowsettings/use_timings/) | Use Timings in Slide Show |
 | [`show_media_controls`](/slides/python-net/aspose.slides/slideshowsettings/show_media_controls/) | Show Media Controls |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

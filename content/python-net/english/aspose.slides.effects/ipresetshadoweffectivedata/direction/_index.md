@@ -19,7 +19,9 @@ def direction(self):
     ...
 ```
 
+
 ### See Also
 * class [`IPresetShadowEffectiveData`](/slides/python-net/aspose.slides.effects/ipresetshadoweffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

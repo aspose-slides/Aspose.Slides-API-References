@@ -28,10 +28,7 @@ The BaseSlide type exposes the following members:
 | [`hyperlink_queries`](/slides/python-net/aspose.slides/baseslide/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
 | [`show_master_shapes`](/slides/python-net/aspose.slides/baseslide/show_master_shapes/) | Specifies if shapes on the master slide should be shown on slides or not.<br/>            For master slide itself this property always returns `false`.<br/>            Read/write **bool**. |
 | [`presentation`](/slides/python-net/aspose.slides/baseslide/presentation/) | Returns IPresentation interface.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [`as_i_themeable`](/slides/python-net/aspose.slides/baseslide/as_i_themeable/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/baseslide/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/baseslide/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/baseslide/as_i_presentation_component/) |  |
 
 ## Methods
 
@@ -43,6 +40,8 @@ The BaseSlide type exposes the following members:
 | [`create_theme_effective`](/slides/python-net/aspose.slides/baseslide/create_theme_effective/#) | Returns an effective theme for this slide. |
 | [`find_shape_by_alt_text`](/slides/python-net/aspose.slides/baseslide/find_shape_by_alt_text/#str) | Finds first occurrence of a shape with the specified alternative text. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ describes the relative offset value for the animation (in percents).
 @property
 def by(self):
     ...
+
 @by.setter
 def by(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ScaleEffect`](/slides/python-net/aspose.slides.animation/scaleeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

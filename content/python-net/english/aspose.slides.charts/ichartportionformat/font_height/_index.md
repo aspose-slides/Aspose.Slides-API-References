@@ -14,12 +14,15 @@ weight: 90
 @property
 def font_height(self):
     ...
+
 @font_height.setter
 def font_height(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

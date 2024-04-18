@@ -17,12 +17,15 @@ End reflection opacity. (percents).
 @property
 def end_reflection_opacity(self):
     ...
+
 @end_reflection_opacity.setter
 def end_reflection_opacity(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Reflection`](/slides/python-net/aspose.slides.effects/reflection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

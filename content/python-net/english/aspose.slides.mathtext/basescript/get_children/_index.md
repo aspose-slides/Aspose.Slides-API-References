@@ -24,3 +24,4 @@ def get_children(self):
 * class [`BaseScript`](/slides/python-net/aspose.slides.mathtext/basescript)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

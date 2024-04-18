@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/videoframe/is_grouped/
-weight: 340
+weight: 350
 ---
 
 
@@ -24,7 +24,9 @@ def is_grouped(self):
     ...
 ```
 
+
 ### See Also
 * class [`VideoFrame`](/slides/python-net/aspose.slides/videoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

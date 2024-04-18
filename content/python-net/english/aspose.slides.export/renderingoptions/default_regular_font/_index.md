@@ -17,12 +17,15 @@ Returns or sets font used in case source font is not found.
 @property
 def default_regular_font(self):
     ...
+
 @default_regular_font.setter
 def default_regular_font(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`RenderingOptions`](/slides/python-net/aspose.slides.export/renderingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

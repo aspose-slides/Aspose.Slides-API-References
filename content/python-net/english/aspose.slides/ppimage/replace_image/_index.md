@@ -24,7 +24,6 @@ def replace_image(self, new_image_data):
 | new_image_data | **bytes** |  |
 
 
-
 ## replace_image {#asposepydrawingimage}
 Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead
             The new image.When newImage parameter is null.
@@ -40,6 +39,21 @@ def replace_image(self, new_image):
 | :- | :- | :- |
 | new_image | **aspose.pydrawing.Image** |  |
 
+
+## replace_image {#iimage}
+Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead
+            The new image.When newImage parameter is null.
+
+
+```python
+def replace_image(self, new_image):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| new_image | [`IImage`](/slides/python-net/aspose.slides/iimage) |  |
 
 
 ## replace_image {#ippimage}
@@ -60,7 +74,9 @@ def replace_image(self, new_image):
 
 
 ### See Also
+* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
 * class [`PPImage`](/slides/python-net/aspose.slides/ppimage)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

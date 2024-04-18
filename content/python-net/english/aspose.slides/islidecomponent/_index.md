@@ -18,9 +18,10 @@ The ISlideComponent type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`slide`](/slides/python-net/aspose.slides/islidecomponent/slide/) | Returns the base slide.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/islidecomponent/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`presentation`](/slides/python-net/aspose.slides/islidecomponent/presentation/) |  |
+
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/ismartart/is_reversed/
-weight: 290
+weight: 300
 ---
 
 
@@ -17,12 +17,15 @@ Return or set the state of the SmartArt diagram with regard to (left-to-right) L
 @property
 def is_reversed(self):
     ...
+
 @is_reversed.setter
 def is_reversed(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISmartArt`](/slides/python-net/aspose.slides.smartart/ismartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

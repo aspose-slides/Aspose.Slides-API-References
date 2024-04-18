@@ -19,8 +19,10 @@ def bullet(self):
     ...
 ```
 
+
 ### See Also
 * class [`IBulletFormat`](/slides/python-net/aspose.slides/ibulletformat)
 * class [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -31,3 +31,4 @@ def write_shape_start(self, generator, shape):
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

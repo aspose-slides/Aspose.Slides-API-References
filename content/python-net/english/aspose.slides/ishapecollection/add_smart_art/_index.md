@@ -38,3 +38,4 @@ def add_smart_art(self, x, y, width, height, layout_type):
 * enumeration [`SmartArtLayoutType`](/slides/python-net/aspose.slides.smartart/smartartlayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

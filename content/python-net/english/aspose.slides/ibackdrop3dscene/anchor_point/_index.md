@@ -18,12 +18,15 @@ Returns or sets a point in 3D space. This point is the point in space that ancho
 @property
 def anchor_point(self):
     ...
+
 @anchor_point.setter
 def anchor_point(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IBackdrop3DScene`](/slides/python-net/aspose.slides/ibackdrop3dscene)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

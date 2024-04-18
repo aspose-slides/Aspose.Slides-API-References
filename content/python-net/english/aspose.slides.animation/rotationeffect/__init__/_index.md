@@ -24,3 +24,4 @@ def __init__(self):
 * class [`RotationEffect`](/slides/python-net/aspose.slides.animation/rotationeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,6 +24,8 @@ The PathCommandType type exposes the following members:
 | QUAD_BEZIER_TO | Appends quadratic Bezier curve to the geometry path |
 | CUBIC_BEZIER_TO | Appends cubic Bezier curve to the geometry path |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

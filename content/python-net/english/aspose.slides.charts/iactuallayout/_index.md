@@ -22,6 +22,8 @@ The IActualLayout type exposes the following members:
 | [`actual_width`](/slides/python-net/aspose.slides.charts/iactuallayout/actual_width/) | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
 | [`actual_height`](/slides/python-net/aspose.slides.charts/iactuallayout/actual_height/) | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read **float**. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

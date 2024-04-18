@@ -23,7 +23,6 @@ def add_fall_back_fonts(self, font_name):
 | font_name | **str** | Font's name or names (delimited by comma) for FallBack |
 
 
-
 ## add_fall_back_fonts {#liststr}
 Adds a new fonts to the list of FallBack fonts.
 
@@ -44,3 +43,4 @@ def add_fall_back_fonts(self, font_names):
 * class [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

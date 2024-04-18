@@ -27,6 +27,8 @@ The HandoutType type exposes the following members:
 | HANDOUTS_9_HORIZONTAL | Nine slides per page in a horizontal sequence. |
 | HANDOUTS_9_VERTICAL | Nine slides per page in a vertical sequence. |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

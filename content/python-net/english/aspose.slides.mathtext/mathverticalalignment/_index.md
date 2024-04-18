@@ -22,6 +22,8 @@ The MathVerticalAlignment type exposes the following members:
 | CENTER | Center |
 | BOTTOM | Bottom |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

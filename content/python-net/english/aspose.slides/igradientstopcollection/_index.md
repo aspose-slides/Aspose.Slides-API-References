@@ -13,18 +13,11 @@ Represnts a collection of gradient stops.
 
 The IGradientStopCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/igradientstopcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/igradientstopcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/igradientstopcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -39,6 +32,8 @@ The IGradientStopCollection type exposes the following members:
 | [`remove_at`](/slides/python-net/aspose.slides/igradientstopcollection/remove_at/#int) | Removes a gradient stop at the specified index. |
 | [`clear`](/slides/python-net/aspose.slides/igradientstopcollection/clear/#) | Removes all gradient stops from a collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

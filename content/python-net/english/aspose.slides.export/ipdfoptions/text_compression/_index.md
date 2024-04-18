@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/ipdfoptions/text_compression/
-weight: 210
+weight: 220
 ---
 
 
@@ -22,13 +22,16 @@ Default is [`PdfTextCompression.FLATE`](/slides/python-net/aspose.slides.export/
 @property
 def text_compression(self):
     ...
+
 @text_compression.setter
 def text_compression(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * enumeration [`PdfTextCompression`](/slides/python-net/aspose.slides.export/pdftextcompression)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

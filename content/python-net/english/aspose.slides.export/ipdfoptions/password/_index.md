@@ -17,12 +17,15 @@ Setting user password to protect the PDF document.
 @property
 def password(self):
     ...
+
 @password.setter
 def password(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

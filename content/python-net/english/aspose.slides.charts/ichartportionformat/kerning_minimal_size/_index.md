@@ -14,12 +14,15 @@ weight: 150
 @property
 def kerning_minimal_size(self):
     ...
+
 @kerning_minimal_size.setter
 def kerning_minimal_size(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -31,6 +31,8 @@ The ITiming type exposes the following members:
 | [`trigger_type`](/slides/python-net/aspose.slides.animation/itiming/trigger_type/) | Describes trigger type.<br/>            Read/write [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype). |
 | [`rewind`](/slides/python-net/aspose.slides.animation/itiming/rewind/) | This attribute specifies if the effect will rewind when done playing.<br/>             Read/write **bool**. |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -25,3 +25,4 @@ def get_base_placeholder(self):
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

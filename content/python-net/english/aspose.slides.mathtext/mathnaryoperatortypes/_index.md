@@ -26,7 +26,9 @@ The MathNaryOperatorTypes type exposes the following members:
 | LOGICAL_AND | Logical And: '∧' |
 | LOGICAL_OR | Logical Or: '∨' |
 
+
 ### See Also
 * enumeration [`MathIntegralTypes`](/slides/python-net/aspose.slides.mathtext/mathintegraltypes)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

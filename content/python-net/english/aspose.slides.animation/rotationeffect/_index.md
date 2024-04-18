@@ -32,10 +32,11 @@ The RotationEffect type exposes the following members:
 | [`from_address`](/slides/python-net/aspose.slides.animation/rotationeffect/from_address/) | Describes the starting value for the animation.<br/>            Read/write **float**. |
 | [`to`](/slides/python-net/aspose.slides.animation/rotationeffect/to/) | Describes the ending value for the animation.<br/>            Read/write **float**. |
 | [`by`](/slides/python-net/aspose.slides.animation/rotationeffect/by/) | Describes the relative offset value for the animation.<br/>            Read/write **float**. |
-| [`as_i_behavior`](/slides/python-net/aspose.slides.animation/rotationeffect/as_i_behavior/) |  |
+
 
 ### See Also
 * class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
 * class [`RotationEffect`](/slides/python-net/aspose.slides.animation/rotationeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

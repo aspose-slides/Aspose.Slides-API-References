@@ -20,10 +20,8 @@ The GrayScale type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.effects/grayscale/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`slide`](/slides/python-net/aspose.slides.effects/grayscale/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.effects/grayscale/presentation/) |  |
-| [`as_i_image_transform_operation`](/slides/python-net/aspose.slides.effects/grayscale/as_i_image_transform_operation/) |  |
 
 ## Methods
 
@@ -31,9 +29,11 @@ The GrayScale type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides.effects/grayscale/get_effective/#) | Gets effective Gray Scale effect data with the inheritance applied. |
 
+
 ### See Also
 * class [`GrayScale`](/slides/python-net/aspose.slides.effects/grayscale)
 * class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

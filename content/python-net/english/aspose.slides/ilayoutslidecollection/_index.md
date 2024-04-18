@@ -13,18 +13,11 @@ Represents a base class for collection of a layout slides.
 
 The ILayoutSlideCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/ilayoutslidecollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/ilayoutslidecollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/ilayoutslidecollection/__getitem__/) |  |
 
 ## Methods
 
@@ -34,6 +27,8 @@ The ILayoutSlideCollection type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/ilayoutslidecollection/remove/#ilayoutslide) | Removes a layout from the collection. |
 | [`remove_unused`](/slides/python-net/aspose.slides/ilayoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -29,3 +29,4 @@ def copy_to(self, array, array_index):
 * class [`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

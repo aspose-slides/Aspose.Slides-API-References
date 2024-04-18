@@ -18,17 +18,14 @@ The IParagraphCollection type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides/iparagraphcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/iparagraphcollection/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/iparagraphcollection/as_i_enumerable/) | Returns IEnumerable interface.<br/>            Read-only **collections.abc.Iterable**. |
 | [`slide`](/slides/python-net/aspose.slides/iparagraphcollection/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/iparagraphcollection/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/iparagraphcollection/presentation/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/iparagraphcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -45,6 +42,8 @@ The IParagraphCollection type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/iparagraphcollection/remove/#iparagraph) | Removes the first occurrence of a specific paragraph. |
 | [`export_to_html`](/slides/python-net/aspose.slides/iparagraphcollection/export_to_html/#int-int-asposeslidesexportitexttohtmlconversionoptions) | Converts specifying paragraphs to the HTML and returns it as String object. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -29,7 +29,6 @@ def get_presentation_text(self, file, mode):
 | mode | [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode) | Extraction mode |
 
 
-
 ## get_presentation_text {#iorawiobase-textextractionarrangingmode}
 Retrieves the raw text from the slides
 
@@ -49,7 +48,6 @@ def get_presentation_text(self, stream, mode):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Input stream |
 | mode | [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode) | Extraction mode |
-
 
 
 ## get_presentation_text {#iorawiobase-textextractionarrangingmode-iloadoptions}
@@ -82,3 +80,4 @@ def get_presentation_text(self, stream, mode, options):
 * enumeration [`TextExtractionArrangingMode`](/slides/python-net/aspose.slides/textextractionarrangingmode)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Returns or sets the source code of the module.
 @property
 def source_code(self):
     ...
+
 @source_code.setter
 def source_code(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`VbaModule`](/slides/python-net/aspose.slides.vba/vbamodule)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

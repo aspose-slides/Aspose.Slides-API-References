@@ -17,13 +17,16 @@ Specifies the points of the animation.
 @property
 def points(self):
     ...
+
 @points.setter
 def points(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IPointCollection`](/slides/python-net/aspose.slides.animation/ipointcollection)
 * class [`PropertyEffect`](/slides/python-net/aspose.slides.animation/propertyeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

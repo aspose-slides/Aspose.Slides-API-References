@@ -14,12 +14,15 @@ weight: 40
 @property
 def default_regular_font(self):
     ...
+
 @default_regular_font.setter
 def default_regular_font(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

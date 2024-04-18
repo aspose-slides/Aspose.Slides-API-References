@@ -17,13 +17,16 @@ Represents whether the current animation behavior is combined with other running
 @property
 def additive(self):
     ...
+
 @additive.setter
 def additive(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`BehaviorAdditiveType`](/slides/python-net/aspose.slides.animation/behavioradditivetype)
 * class [`SetEffect`](/slides/python-net/aspose.slides.animation/seteffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -20,8 +20,10 @@ def restored_left(self):
     ...
 ```
 
+
 ### See Also
 * class [`INormalViewRestoredProperties`](/slides/python-net/aspose.slides/inormalviewrestoredproperties)
 * class [`NormalViewProperties`](/slides/python-net/aspose.slides/normalviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

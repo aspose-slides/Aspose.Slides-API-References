@@ -21,6 +21,8 @@ The FontCollectionIndex type exposes the following members:
 | MINOR |  |
 | MAJOR |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

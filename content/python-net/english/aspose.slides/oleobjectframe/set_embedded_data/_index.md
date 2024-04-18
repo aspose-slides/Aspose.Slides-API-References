@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/oleobjectframe/set_embedded_data/
-weight: 50
+weight: 60
 ---
 
 
@@ -25,11 +25,11 @@ def set_embedded_data(self, embedded_data):
 | :- | :- | :- |
 | embedded_data | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | Embedded data [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | When embeddedData parameter is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | When embeddedData parameter is null. |
 
 
 
@@ -38,3 +38,4 @@ def set_embedded_data(self, embedded_data):
 * class [`OleObjectFrame`](/slides/python-net/aspose.slides/oleobjectframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

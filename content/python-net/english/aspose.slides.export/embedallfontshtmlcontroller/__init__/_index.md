@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#liststr}
 Creates new instance
 
@@ -40,3 +39,4 @@ def __init__(self, font_name_exclude_list):
 * class [`EmbedAllFontsHtmlController`](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

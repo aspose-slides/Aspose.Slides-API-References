@@ -60,11 +60,8 @@ The IChartSeries type exposes the following members:
 | [`first_slice_angle`](/slides/python-net/aspose.slides.charts/ichartseries/first_slice_angle/) | Specifies the angle of the first pie or doughnut chart slice, <br/>            in degrees (clockwise from up, from 0 to 360 degrees).<br/>            This is the property not only of this series but of all series of parent series <br/>            group - this is projection of appropriate group property. And so this property <br/>            is read-only.<br/>            Use ParentSeriesGroup property for access to parent series group.<br/>            Use ParentSeriesGroup.FirstSliceAngle read/write property for change value.<br/>            Read-only **int**. |
 | [`pie_split_custom_points`](/slides/python-net/aspose.slides.charts/ichartseries/pie_split_custom_points/) | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split.<br/>            Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or <br/>            bar-of-pie chart.<br/>            This is the property not only of this series but of all series of parent series <br/>            group - this is projection of appropriate group property<br/>            Read-only [`IPieSplitCustomPointCollection`](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection). |
 | [`bubble_size_representation`](/slides/python-net/aspose.slides.charts/ichartseries/bubble_size_representation/) | Specifies how the bubble size values are represented on the bubble chart.<br/>            This is the property not only of this series but of all series of parent series <br/>            group - this is projection of appropriate group property. And so this property <br/>            is read-only.<br/>            Use ParentSeriesGroup property for access to parent series group.<br/>            Use ParentSeriesGroup.BubbleSizeRepresentation read/write property for change value. |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/ichartseries/as_i_chart_component/) | Allows to get base IChartComponent interface.<br/>            Read-only [`IChartComponent`](/slides/python-net/aspose.slides.charts/ichartcomponent). |
 | [`chart`](/slides/python-net/aspose.slides.charts/ichartseries/chart/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/ichartseries/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/ichartseries/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/ichartseries/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/ichartseries/presentation/) |  |
 
 ## Methods
@@ -73,6 +70,8 @@ The IChartSeries type exposes the following members:
 | :- | :- |
 | [`get_automatic_series_color`](/slides/python-net/aspose.slides.charts/ichartseries/get_automatic_series_color/#) | Returns an automatic color of series based on series index and chart style. <br/>            This color is used by default if FillType equals NotDefined. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

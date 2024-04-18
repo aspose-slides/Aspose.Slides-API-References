@@ -26,8 +26,10 @@ The IFontsEffectiveData type exposes the following members:
 
 This interface is used as a part of [`IBasePortionFormatEffectiveData`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata) and [`IFontSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata) interfaces.
 
+
 ### See Also
 * class [`IBasePortionFormatEffectiveData`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata)
 * class [`IFontSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/ifontschemeeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

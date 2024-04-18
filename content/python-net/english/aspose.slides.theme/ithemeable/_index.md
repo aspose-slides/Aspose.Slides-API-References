@@ -17,9 +17,7 @@ The IThemeable type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.theme/ithemeable/as_i_slide_component/) | Returns ISlideComponent interface.<br/>            Read-only [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
 | [`slide`](/slides/python-net/aspose.slides.theme/ithemeable/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.theme/ithemeable/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.theme/ithemeable/presentation/) |  |
 
 ## Methods
@@ -28,7 +26,9 @@ The IThemeable type exposes the following members:
 | :- | :- |
 | [`create_theme_effective`](/slides/python-net/aspose.slides.theme/ithemeable/create_theme_effective/#) | Returns an effective theme for this themeable object. |
 
+
 ### See Also
 * class [`ITheme`](/slides/python-net/aspose.slides.theme/itheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

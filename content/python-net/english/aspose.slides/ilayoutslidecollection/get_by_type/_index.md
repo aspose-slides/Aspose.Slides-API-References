@@ -35,3 +35,4 @@ def get_by_type(self, type):
 * enumeration [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

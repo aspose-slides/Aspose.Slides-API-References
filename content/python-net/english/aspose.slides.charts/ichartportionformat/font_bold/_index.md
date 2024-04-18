@@ -14,12 +14,15 @@ weight: 80
 @property
 def font_bold(self):
     ...
+
 @font_bold.setter
 def font_bold(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

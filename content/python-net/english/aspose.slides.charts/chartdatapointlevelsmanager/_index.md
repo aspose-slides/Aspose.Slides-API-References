@@ -24,8 +24,10 @@ The ChartDataPointLevelsManager type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/chartdatapointlevelsmanager/__getitem__/) |  |
+
 
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

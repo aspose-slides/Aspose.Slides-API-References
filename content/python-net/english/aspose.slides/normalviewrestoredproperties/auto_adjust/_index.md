@@ -18,12 +18,15 @@ Specifies whether the size of the side content region should compensate for the 
 @property
 def auto_adjust(self):
     ...
+
 @auto_adjust.setter
 def auto_adjust(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`NormalViewRestoredProperties`](/slides/python-net/aspose.slides/normalviewrestoredproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

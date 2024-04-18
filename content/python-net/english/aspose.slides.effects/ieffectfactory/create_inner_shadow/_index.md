@@ -30,3 +30,4 @@ def create_inner_shadow(self):
 * class [`IInnerShadow`](/slides/python-net/aspose.slides.effects/iinnershadow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

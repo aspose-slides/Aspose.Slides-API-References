@@ -38,10 +38,11 @@ The TiffOptions type exposes the following members:
 | [`pixel_format`](/slides/python-net/aspose.slides.export/tiffoptions/pixel_format/) | Specifies the pixel format for the generated images.<br/>            Read/write [`ImagePixelFormat`](/slides/python-net/aspose.slides.export/imagepixelformat). |
 | [`slides_layout_options`](/slides/python-net/aspose.slides.export/tiffoptions/slides_layout_options/) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](/slides/python-net/aspose.slides.export/islideslayoutoptions). |
 | [`bw_conversion_mode`](/slides/python-net/aspose.slides.export/tiffoptions/bw_conversion_mode/) | Specifies the algorithm for converting a color image into a black and white image.<br/>            This option will applied only if [`TiffOptions.compression_type`](/slides/python-net/aspose.slides.export/tiffoptions#compression_type) <br/>            is set to [`TiffCompressionTypes.CCITT4`](/slides/python-net/aspose.slides.export/tiffcompressiontypes#CCITT4) or [`TiffCompressionTypes.CCITT3`](/slides/python-net/aspose.slides.export/tiffcompressiontypes#CCITT3)<br/>            Read/write [`BlackWhiteConversionMode`](/slides/python-net/aspose.slides.export/blackwhiteconversionmode).<br/>            Default is [`BlackWhiteConversionMode.DEFAULT`](/slides/python-net/aspose.slides.export/blackwhiteconversionmode#DEFAULT). |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export/tiffoptions/as_i_save_options/) |  |
+
 
 ### See Also
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 * class [`TiffOptions`](/slides/python-net/aspose.slides.export/tiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

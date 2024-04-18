@@ -17,13 +17,16 @@ Direction of transition.
 @property
 def direction(self):
     ...
+
 @direction.setter
 def direction(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ILeftRightDirectionTransition`](/slides/python-net/aspose.slides.slideshow/ileftrightdirectiontransition)
 * enumeration [`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

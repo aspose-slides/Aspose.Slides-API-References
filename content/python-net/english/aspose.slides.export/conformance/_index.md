@@ -21,6 +21,8 @@ The Conformance type exposes the following members:
 | ISO_29500_2008_TRANSITIONAL | Specifies that the document conforms to the ISO/IEC 29500:2008 Transitional conformance class. |
 | ISO_29500_2008_STRICT | Specifies that the document conforms to the ISO/IEC 29500:2008 Strict conformance class. |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

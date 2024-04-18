@@ -19,8 +19,10 @@ def gradient_stops(self):
     ...
 ```
 
+
 ### See Also
 * class [`IGradientFormatEffectiveData`](/slides/python-net/aspose.slides/igradientformateffectivedata)
 * class [`IGradientStopCollectionEffectiveData`](/slides/python-net/aspose.slides/igradientstopcollectioneffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

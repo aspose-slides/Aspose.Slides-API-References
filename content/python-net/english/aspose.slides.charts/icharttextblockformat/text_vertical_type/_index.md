@@ -19,13 +19,16 @@ Determines text orientation.
 @property
 def text_vertical_type(self):
     ...
+
 @text_vertical_type.setter
 def text_vertical_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)
 * enumeration [`TextVerticalType`](/slides/python-net/aspose.slides/textverticaltype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

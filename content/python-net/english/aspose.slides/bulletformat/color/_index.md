@@ -19,8 +19,10 @@ def color(self):
     ...
 ```
 
+
 ### See Also
 * class [`BulletFormat`](/slides/python-net/aspose.slides/bulletformat)
 * class [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

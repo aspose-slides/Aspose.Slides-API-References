@@ -16,12 +16,15 @@ Represents connector lines. Applies only to Waterfall charts.
 @property
 def show_connector_lines(self):
     ...
+
 @show_connector_lines.setter
 def show_connector_lines(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

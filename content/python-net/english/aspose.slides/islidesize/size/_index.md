@@ -20,7 +20,9 @@ def size(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISlideSize`](/slides/python-net/aspose.slides/islidesize)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

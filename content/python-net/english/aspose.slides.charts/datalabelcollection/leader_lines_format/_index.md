@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/datalabelcollection/leader_lines_format/
-weight: 140
+weight: 130
 ---
 
 
@@ -19,8 +19,10 @@ def leader_lines_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`DataLabelCollection`](/slides/python-net/aspose.slides.charts/datalabelcollection)
 * class [`IChartLinesFormat`](/slides/python-net/aspose.slides.charts/ichartlinesformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

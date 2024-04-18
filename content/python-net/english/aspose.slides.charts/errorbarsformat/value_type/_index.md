@@ -19,13 +19,16 @@ Represents possible ways to determine the length of the error bars.
 @property
 def value_type(self):
     ...
+
 @value_type.setter
 def value_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ErrorBarsFormat`](/slides/python-net/aspose.slides.charts/errorbarsformat)
 * enumeration [`ErrorBarValueType`](/slides/python-net/aspose.slides.charts/errorbarvaluetype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

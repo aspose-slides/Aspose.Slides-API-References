@@ -32,7 +32,6 @@ The IColorFormat type exposes the following members:
 | [`saturation`](/slides/python-net/aspose.slides/icolorformat/saturation/) | Returns or sets the saturation component of a color in HSL representation.<br/>            All color transformations are ignored.<br/>            Read/write **float**. |
 | [`luminance`](/slides/python-net/aspose.slides/icolorformat/luminance/) | Returns or sets the luminance component of a color in HSL representation.<br/>            All color transformations are ignored.<br/>            Read/write **float**. |
 | [`color_transform`](/slides/python-net/aspose.slides/icolorformat/color_transform/) | Returns the collection of color transformations applied to a color.<br/>            Read-only [`IColorOperationCollection`](/slides/python-net/aspose.slides/icoloroperationcollection). |
-| [`as_i_fill_param_source`](/slides/python-net/aspose.slides/icolorformat/as_i_fill_param_source/) | Returns IFillParamSource interface.<br/>            Read-only [`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource). |
 
 ## Methods
 
@@ -41,6 +40,8 @@ The IColorFormat type exposes the following members:
 | [`to_string`](/slides/python-net/aspose.slides/icolorformat/to_string/#colorstringformat) | Returns a **str** that represents the current color format. |
 | [`copy_from`](/slides/python-net/aspose.slides/icolorformat/copy_from/#icolorformat) | Copy color format from "color". |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

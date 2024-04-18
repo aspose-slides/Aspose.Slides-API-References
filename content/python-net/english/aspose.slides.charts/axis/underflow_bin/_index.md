@@ -16,12 +16,15 @@ Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin prope
 @property
 def underflow_bin(self):
     ...
+
 @underflow_bin.setter
 def underflow_bin(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

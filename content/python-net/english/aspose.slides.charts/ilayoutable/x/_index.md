@@ -17,12 +17,15 @@ Specifies the x location (left) of the chart element as a fraction of the width 
 @property
 def x(self):
     ...
+
 @x.setter
 def x(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

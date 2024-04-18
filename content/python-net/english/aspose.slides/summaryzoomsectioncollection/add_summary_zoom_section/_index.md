@@ -31,11 +31,11 @@ def add_summary_zoom_section(self, section):
 
 If an element for this section already exists in the collection, the existing element is returned.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | Referenced section does not belong to the current presentation or does not contains any slides. |
+| **RuntimeError(Proxy error(ArgumentException))** | Referenced section does not belong to the current presentation or does not contains any slides. |
 
 
 
@@ -46,3 +46,4 @@ If an element for this section already exists in the collection, the existing el
 * class [`SummaryZoomSectionCollection`](/slides/python-net/aspose.slides/summaryzoomsectioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

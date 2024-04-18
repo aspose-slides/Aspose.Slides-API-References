@@ -17,12 +17,15 @@ Gets or sets keeping text flat even if a 3-D Rotation effect was applied.
 @property
 def keep_text_flat(self):
     ...
+
 @keep_text_flat.setter
 def keep_text_flat(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

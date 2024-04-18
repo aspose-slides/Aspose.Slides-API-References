@@ -17,13 +17,16 @@ Defines subtype of effect.
 @property
 def subtype(self):
     ...
+
 @subtype.setter
 def subtype(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Effect`](/slides/python-net/aspose.slides.animation/effect)
 * enumeration [`EffectSubtype`](/slides/python-net/aspose.slides.animation/effectsubtype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

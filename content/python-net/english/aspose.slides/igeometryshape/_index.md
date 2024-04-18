@@ -20,7 +20,6 @@ The IGeometryShape type exposes the following members:
 | [`shape_style`](/slides/python-net/aspose.slides/igeometryshape/shape_style/) | Returns shape's style object.<br/>            Read-only [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle). |
 | [`shape_type`](/slides/python-net/aspose.slides/igeometryshape/shape_type/) | Returns or sets the geometry preset type.<br/>            Note: on value changing all adjustment values will reset to their default values.<br/>            Read/write [`ShapeType`](/slides/python-net/aspose.slides/shapetype). |
 | [`adjustments`](/slides/python-net/aspose.slides/igeometryshape/adjustments/) | Returns a collection of shape's adjustment values.<br/>            Read-only [`IAdjustValueCollection`](/slides/python-net/aspose.slides/iadjustvaluecollection). |
-| [`as_i_shape`](/slides/python-net/aspose.slides/igeometryshape/as_i_shape/) | Allows to get base IShape interface.<br/>            Read-only [`IShape`](/slides/python-net/aspose.slides/ishape). |
 | [`is_text_holder`](/slides/python-net/aspose.slides/igeometryshape/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/igeometryshape/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/igeometryshape/custom_data/) |  |
@@ -48,10 +47,7 @@ The IGeometryShape type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/igeometryshape/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/igeometryshape/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/igeometryshape/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/igeometryshape/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/igeometryshape/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/igeometryshape/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/igeometryshape/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/igeometryshape/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/igeometryshape/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/igeometryshape/hyperlink_mouse_over/) |  |
@@ -63,6 +59,8 @@ The IGeometryShape type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/igeometryshape/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/igeometryshape/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/igeometryshape/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/igeometryshape/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/igeometryshape/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/igeometryshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`get_geometry_paths`](/slides/python-net/aspose.slides/igeometryshape/get_geometry_paths/#) | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |
@@ -73,6 +71,8 @@ The IGeometryShape type exposes the following members:
 | [`remove_placeholder`](/slides/python-net/aspose.slides/igeometryshape/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/igeometryshape/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

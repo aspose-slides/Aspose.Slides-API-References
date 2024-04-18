@@ -15,12 +15,6 @@ Represents manager which holds behavior of all footer, date-time and page number
 
 The PresentationHeaderFooterManager type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_base_header_footer_manager`](/slides/python-net/aspose.slides/presentationheaderfootermanager/as_i_base_header_footer_manager/) |  |
-
 ## Methods
 
 | Method | Description |
@@ -34,8 +28,10 @@ The PresentationHeaderFooterManager type exposes the following members:
 | [`set_all_date_times_text`](/slides/python-net/aspose.slides/presentationheaderfootermanager/set_all_date_times_text/#str) | Sets text to all date-time placeholders, including master slides, layout slides, slides, <br/>            notes master, notes slides and handout master. |
 | [`set_visibility_on_all_title_slides`](/slides/python-net/aspose.slides/presentationheaderfootermanager/set_visibility_on_all_title_slides/#bool) | Changes the footer, date-time and page number placeholders visibility for all title slides and for first layout slide.<br/>            Title slides – slides based on first layout slide (regardless of type of this first layout). |
 
+
 ### See Also
 * class [`BaseHeaderFooterManager`](/slides/python-net/aspose.slides/baseheaderfootermanager)
 * class [`PresentationHeaderFooterManager`](/slides/python-net/aspose.slides/presentationheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

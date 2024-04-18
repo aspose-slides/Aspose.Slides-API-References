@@ -24,12 +24,15 @@ This property makes sense, if presentation file is password protected.
 @property
 def only_load_document_properties(self):
     ...
+
 @only_load_document_properties.setter
 def only_load_document_properties(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ILoadOptions`](/slides/python-net/aspose.slides/iloadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

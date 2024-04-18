@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#paragraph}
 Copy constructor that initializes a new instance of a Paragraph class.
 
@@ -40,3 +39,4 @@ def __init__(self, para):
 * class [`Paragraph`](/slides/python-net/aspose.slides/paragraph)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

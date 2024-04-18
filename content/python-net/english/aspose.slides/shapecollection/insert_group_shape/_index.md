@@ -35,3 +35,4 @@ def insert_group_shape(self, index):
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

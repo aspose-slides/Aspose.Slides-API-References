@@ -19,12 +19,15 @@ Specifies the number of categories (or units on a scatter chart) that the trendl
 @property
 def forward(self):
     ...
+
 @forward.setter
 def forward(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

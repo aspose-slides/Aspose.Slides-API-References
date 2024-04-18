@@ -17,13 +17,16 @@ List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation.
 @property
 def build_type(self):
     ...
+
 @build_type.setter
 def build_type(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`BuildType`](/slides/python-net/aspose.slides.animation/buildtype)
 * class [`TextAnimation`](/slides/python-net/aspose.slides.animation/textanimation)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

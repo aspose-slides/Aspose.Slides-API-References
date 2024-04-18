@@ -22,6 +22,8 @@ The CommandEffectType type exposes the following members:
 | CALL |  |
 | VERB |  |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

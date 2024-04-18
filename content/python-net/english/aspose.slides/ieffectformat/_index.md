@@ -26,7 +26,6 @@ The IEffectFormat type exposes the following members:
 | [`preset_shadow_effect`](/slides/python-net/aspose.slides/ieffectformat/preset_shadow_effect/) | Preset shadow.<br/>            Read/write [`IPresetShadow`](/slides/python-net/aspose.slides.effects/ipresetshadow). |
 | [`reflection_effect`](/slides/python-net/aspose.slides/ieffectformat/reflection_effect/) | Reflection. <br/>            Read/write [`IReflection`](/slides/python-net/aspose.slides.effects/ireflection). |
 | [`soft_edge_effect`](/slides/python-net/aspose.slides/ieffectformat/soft_edge_effect/) | Soft edge.<br/>            Read/write [`ISoftEdge`](/slides/python-net/aspose.slides.effects/isoftedge). |
-| [`as_i_effect_param_source`](/slides/python-net/aspose.slides/ieffectformat/as_i_effect_param_source/) | Allows to get base IEffectParamSource interface.<br/>            Read-only [`IEffectParamSource`](/slides/python-net/aspose.slides/ieffectparamsource). |
 
 ## Methods
 
@@ -50,6 +49,8 @@ The IEffectFormat type exposes the following members:
 | [`disable_soft_edge_effect`](/slides/python-net/aspose.slides/ieffectformat/disable_soft_edge_effect/#) | Disables soft edge effect. |
 | [`get_effective`](/slides/python-net/aspose.slides/ieffectformat/get_effective/#) | Gets effective effect formatting data with the inheritance applied. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

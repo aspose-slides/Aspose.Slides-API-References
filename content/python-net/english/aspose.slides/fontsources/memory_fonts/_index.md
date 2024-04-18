@@ -16,12 +16,15 @@ A collection of fonts represented as byte arrays.
 @property
 def memory_fonts(self):
     ...
+
 @memory_fonts.setter
 def memory_fonts(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`FontSources`](/slides/python-net/aspose.slides/fontsources)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

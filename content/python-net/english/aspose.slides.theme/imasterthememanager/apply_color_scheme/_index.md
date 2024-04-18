@@ -29,3 +29,4 @@ def apply_color_scheme(self, scheme):
 * class [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

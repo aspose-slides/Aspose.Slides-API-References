@@ -23,6 +23,8 @@ The LineSketchType type exposes the following members:
 | FREEHAND | Specifies that a shape has the Freehand effect, which most closely resembles an imperfectly drawn line. |
 | SCRIBBLE | Specifies that a shape has the Scribble effect, which has exaggerated oscillation as if drawn purposely messy. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

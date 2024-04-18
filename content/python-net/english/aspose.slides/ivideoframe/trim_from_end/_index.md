@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ivideoframe/trim_from_end/
-weight: 570
+weight: 580
 ---
 
 
@@ -16,12 +16,15 @@ Trim end [ms]
 @property
 def trim_from_end(self):
     ...
+
 @trim_from_end.setter
 def trim_from_end(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

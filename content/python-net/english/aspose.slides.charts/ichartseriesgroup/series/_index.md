@@ -19,8 +19,10 @@ def series(self):
     ...
 ```
 
+
 ### See Also
 * class [`IChartSeriesGroup`](/slides/python-net/aspose.slides.charts/ichartseriesgroup)
 * class [`IChartSeriesReadonlyCollection`](/slides/python-net/aspose.slides.charts/ichartseriesreadonlycollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

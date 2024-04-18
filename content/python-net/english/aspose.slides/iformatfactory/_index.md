@@ -21,6 +21,8 @@ The IFormatFactory type exposes the following members:
 | [`create_paragraph_format`](/slides/python-net/aspose.slides/iformatfactory/create_paragraph_format/#) | Creates new [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat). |
 | [`create_text_frame_format`](/slides/python-net/aspose.slides/iformatfactory/create_text_frame_format/#) | Creates new [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat). |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

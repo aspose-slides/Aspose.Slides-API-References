@@ -17,13 +17,16 @@ Determines a way of handling externally loaded fonts.
 @property
 def external_fonts_handling(self):
     ...
+
 @external_fonts_handling.setter
 def external_fonts_handling(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`SvgExternalFontsHandling`](/slides/python-net/aspose.slides.export/svgexternalfontshandling)
 * class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Determines whether the smart tag should be cleaned. No inheritance applied.
 @property
 def smart_tag_clean(self):
     ...
+
 @smart_tag_clean.setter
 def smart_tag_clean(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PortionFormat`](/slides/python-net/aspose.slides/portionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

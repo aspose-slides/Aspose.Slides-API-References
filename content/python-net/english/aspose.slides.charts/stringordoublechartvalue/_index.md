@@ -26,8 +26,6 @@ The StringOrDoubleChartValue type exposes the following members:
 | [`as_cell`](/slides/python-net/aspose.slides.charts/stringordoublechartvalue/as_cell/) | Returns or sets chart data cell.<br/>            Read/write [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell). |
 | [`as_literal_string`](/slides/python-net/aspose.slides.charts/stringordoublechartvalue/as_literal_string/) | Returns or sets value as literal string.<br/>            Read/write **str**. |
 | [`as_literal_double`](/slides/python-net/aspose.slides.charts/stringordoublechartvalue/as_literal_double/) | Returns or sets value as literal double.<br/>            Read/write **float**. |
-| [`as_i_single_cell_chart_value`](/slides/python-net/aspose.slides.charts/stringordoublechartvalue/as_i_single_cell_chart_value/) |  |
-| [`as_i_base_chart_value`](/slides/python-net/aspose.slides.charts/stringordoublechartvalue/as_i_base_chart_value/) |  |
 
 ## Methods
 
@@ -35,8 +33,10 @@ The StringOrDoubleChartValue type exposes the following members:
 | :- | :- |
 | [`to_double`](/slides/python-net/aspose.slides.charts/stringordoublechartvalue/to_double/#) | Converts to double. |
 
+
 ### See Also
 * class [`BaseChartValue`](/slides/python-net/aspose.slides.charts/basechartvalue)
 * class [`StringOrDoubleChartValue`](/slides/python-net/aspose.slides.charts/stringordoublechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

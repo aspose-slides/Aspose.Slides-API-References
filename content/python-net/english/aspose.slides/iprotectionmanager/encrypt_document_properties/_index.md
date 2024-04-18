@@ -19,12 +19,15 @@ This property makes sense, if presentation is password protected.
 @property
 def encrypt_document_properties(self):
     ...
+
 @encrypt_document_properties.setter
 def encrypt_document_properties(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IProtectionManager`](/slides/python-net/aspose.slides/iprotectionmanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

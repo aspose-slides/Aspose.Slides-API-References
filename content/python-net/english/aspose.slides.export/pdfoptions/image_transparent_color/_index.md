@@ -16,12 +16,15 @@ Gets or sets the image transparent color.
 @property
 def image_transparent_color(self):
     ...
+
 @image_transparent_color.setter
 def image_transparent_color(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PdfOptions`](/slides/python-net/aspose.slides.export/pdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

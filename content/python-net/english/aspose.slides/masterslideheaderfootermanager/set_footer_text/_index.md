@@ -28,3 +28,4 @@ def set_footer_text(self, text):
 * class [`MasterSlideHeaderFooterManager`](/slides/python-net/aspose.slides/masterslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

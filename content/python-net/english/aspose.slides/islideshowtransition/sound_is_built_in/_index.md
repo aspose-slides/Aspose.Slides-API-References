@@ -19,12 +19,15 @@ Specifies whether or not this sound is a built-in sound. If this attribute is se
 @property
 def sound_is_built_in(self):
     ...
+
 @sound_is_built_in.setter
 def sound_is_built_in(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

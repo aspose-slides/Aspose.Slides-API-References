@@ -21,13 +21,16 @@ Default value is  **HandoutType.Handouts6Horizontal** .
 @property
 def handout(self):
     ...
+
 @handout.setter
 def handout(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`HandoutLayoutingOptions`](/slides/python-net/aspose.slides.export/handoutlayoutingoptions)
 * enumeration [`HandoutType`](/slides/python-net/aspose.slides.export/handouttype)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -31,10 +31,11 @@ The AutoShapeLock type exposes the following members:
 | [`arrowheads_locked`](/slides/python-net/aspose.slides/autoshapelock/arrowheads_locked/) | Determines whether a changing arrowheads is forbidden.<br/>            Read/write **bool**. |
 | [`shape_type_locked`](/slides/python-net/aspose.slides/autoshapelock/shape_type_locked/) | Determines whether a changing of a shape type is forbidden.<br/>            Read/write **bool**. |
 | [`text_locked`](/slides/python-net/aspose.slides/autoshapelock/text_locked/) | Determines whether an editing of text is forbidden.<br/>            Read/write **bool**. |
-| [`as_i_base_shape_lock`](/slides/python-net/aspose.slides/autoshapelock/as_i_base_shape_lock/) |  |
+
 
 ### See Also
 * class [`AutoShapeLock`](/slides/python-net/aspose.slides/autoshapelock)
 * class [`BaseShapeLock`](/slides/python-net/aspose.slides/baseshapelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

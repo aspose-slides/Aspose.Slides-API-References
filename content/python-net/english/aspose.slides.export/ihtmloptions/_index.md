@@ -27,11 +27,12 @@ The IHtmlOptions type exposes the following members:
 | [`notes_comments_layouting`](/slides/python-net/aspose.slides.export/ihtmloptions/notes_comments_layouting/) | Provides options that control how notes and comments is placed in exported document. |
 | [`slides_layout_options`](/slides/python-net/aspose.slides.export/ihtmloptions/slides_layout_options/) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](/slides/python-net/aspose.slides.export/islideslayoutoptions). |
 | [`ink_options`](/slides/python-net/aspose.slides.export/ihtmloptions/ink_options/) | Provides options that control the look of Ink objects in exported document.<br/>            Read-only [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions) |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export/ihtmloptions/as_i_save_options/) | Returns ISaveOptions interface.<br/>            Read-only [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions). |
 | [`warning_callback`](/slides/python-net/aspose.slides.export/ihtmloptions/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export/ihtmloptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/ihtmloptions/default_regular_font/) |  |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

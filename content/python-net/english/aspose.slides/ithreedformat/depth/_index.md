@@ -17,12 +17,15 @@ Returns or sets the depth of a 3D shape.
 @property
 def depth(self):
     ...
+
 @depth.setter
 def depth(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -22,12 +22,11 @@ def set_external_workbook(self, workbook_path):
 | :- | :- | :- |
 | workbook_path | **str** | Path to the target workbook |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | External workbook is not available or can't be loaded. |
-
+| **RuntimeError(Proxy error(InvalidOperationException))** | External workbook is not available or can't be loaded. |
 
 
 ## set_external_workbook {#str-bool}
@@ -45,11 +44,11 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 | workbook_path | **str** | Path to the target workbook |
 | update_chart_data | **bool** | If value is false only workbook path will be updated. <br/><br/>             Chart data won't be loaded and updated from the target workbook. Can be used when target workbook doesn't exist or it's not available.<br/><br/>             If value is true chart data will be updated from the target workbook. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.InvalidOperationException** | External workbook is not available or can't be loaded. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | External workbook is not available or can't be loaded. |
 
 
 
@@ -57,3 +56,4 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 * class [`IChartData`](/slides/python-net/aspose.slides.charts/ichartdata)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

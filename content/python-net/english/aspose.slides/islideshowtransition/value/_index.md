@@ -19,8 +19,10 @@ def value(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISlideShowTransition`](/slides/python-net/aspose.slides/islideshowtransition)
 * class [`ITransitionValueBase`](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Specifies the vertical resolution in dots per inch.
 @property
 def dpi_y(self):
     ...
+
 @dpi_y.setter
 def dpi_y(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`TiffOptions`](/slides/python-net/aspose.slides.export/tiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

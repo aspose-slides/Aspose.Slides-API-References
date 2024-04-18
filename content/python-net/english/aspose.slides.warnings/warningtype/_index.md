@@ -24,6 +24,8 @@ The WarningType type exposes the following members:
 | COMPATIBILITY_ISSUE | This is known issue that will prevent the document being opened by certain user agents, or previous versions of user agents. |
 | UNEXPECTED_CONTENT | Some content in the source document could not be recognised (i.e. is unsupported), this may or may not cause issues or result in data/formatting loss. |
 
+
 ### See Also
 * module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
 * library [`Aspose.Slides`](/slides/python-net)
+

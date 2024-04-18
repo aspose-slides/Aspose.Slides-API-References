@@ -19,8 +19,10 @@ def up_down_bars(self):
     ...
 ```
 
+
 ### See Also
 * class [`ChartSeriesGroup`](/slides/python-net/aspose.slides.charts/chartseriesgroup)
 * class [`IUpDownBarsManager`](/slides/python-net/aspose.slides.charts/iupdownbarsmanager)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

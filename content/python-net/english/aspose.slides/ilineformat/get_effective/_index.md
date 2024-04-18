@@ -30,3 +30,4 @@ def get_effective(self):
 * class [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -22,12 +22,15 @@ Minimal and default value is **150** .
 @property
 def comments_area_width(self):
     ...
+
 @comments_area_width.setter
 def comments_area_width(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`NotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/notescommentslayoutingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

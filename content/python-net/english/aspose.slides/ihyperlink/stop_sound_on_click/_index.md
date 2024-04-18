@@ -17,12 +17,15 @@ Determines whether the sound should be stopped on hyperlink click.
 @property
 def stop_sound_on_click(self):
     ...
+
 @stop_sound_on_click.setter
 def stop_sound_on_click(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

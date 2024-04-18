@@ -19,8 +19,10 @@ def rectangle_align(self):
     ...
 ```
 
+
 ### See Also
 * class [`IOuterShadowEffectiveData`](/slides/python-net/aspose.slides.effects/ioutershadoweffectivedata)
 * enumeration [`RectangleAlignment`](/slides/python-net/aspose.slides/rectanglealignment)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

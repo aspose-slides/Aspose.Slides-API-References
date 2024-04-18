@@ -14,12 +14,15 @@ weight: 230
 @property
 def strikethrough_type(self):
     ...
+
 @strikethrough_type.setter
 def strikethrough_type(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartPortionFormat`](/slides/python-net/aspose.slides.charts/ichartportionformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

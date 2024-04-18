@@ -23,7 +23,6 @@ def __init__(self, certificate):
 | certificate | **System.Security.Cryptography.X509Certificates.X509Certificate2** | Certificate that will be used to sign the presentation. |
 
 
-
 ## __init__ {#str-str}
 Creates a new DigitalSignature object with the specified certificate file path and password.
 
@@ -45,3 +44,4 @@ def __init__(self, file_path, password):
 * class [`DigitalSignature`](/slides/python-net/aspose.slides/digitalsignature)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -19,8 +19,10 @@ def name(self):
     ...
 ```
 
+
 ### See Also
 * class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * class [`IStringChartValue`](/slides/python-net/aspose.slides.charts/istringchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

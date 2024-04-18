@@ -18,12 +18,15 @@ Gets or sets value that specifies whether the Zoom will use the background of th
 @property
 def show_background(self):
     ...
+
 @show_background.setter
 def show_background(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ZoomFrame`](/slides/python-net/aspose.slides/zoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

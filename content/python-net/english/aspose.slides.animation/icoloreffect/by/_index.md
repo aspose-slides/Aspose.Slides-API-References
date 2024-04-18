@@ -17,13 +17,16 @@ Describes the relative offset value for the color animation.
 @property
 def by(self):
     ...
+
 @by.setter
 def by(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IColorEffect`](/slides/python-net/aspose.slides.animation/icoloreffect)
 * class [`IColorOffset`](/slides/python-net/aspose.slides.animation/icoloroffset)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

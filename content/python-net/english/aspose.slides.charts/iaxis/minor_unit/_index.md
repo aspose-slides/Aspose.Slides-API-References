@@ -17,12 +17,15 @@ Represents the minor units for the date or value axis.
 @property
 def minor_unit(self):
     ...
+
 @minor_unit.setter
 def minor_unit(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

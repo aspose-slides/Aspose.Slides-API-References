@@ -31,3 +31,4 @@ def format_shape(self, svg_shape, shape):
 * class [`ISvgShapeFormattingController`](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

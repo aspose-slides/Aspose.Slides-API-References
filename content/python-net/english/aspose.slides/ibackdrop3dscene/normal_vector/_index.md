@@ -19,12 +19,15 @@ Returns or sets a normal vector. To be more precise, this attribute defines a ve
 @property
 def normal_vector(self):
     ...
+
 @normal_vector.setter
 def normal_vector(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IBackdrop3DScene`](/slides/python-net/aspose.slides/ibackdrop3dscene)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

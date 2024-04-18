@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/geometryshape/parent_group/
-weight: 340
+weight: 350
 ---
 
 
@@ -24,8 +24,10 @@ def parent_group(self):
     ...
 ```
 
+
 ### See Also
 * class [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape)
 * class [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

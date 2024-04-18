@@ -17,13 +17,16 @@ Represents the format of the error bars.
 @property
 def format(self):
     ...
+
 @format.setter
 def format(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IErrorBarsFormat`](/slides/python-net/aspose.slides.charts/ierrorbarsformat)
 * class [`IFormat`](/slides/python-net/aspose.slides.charts/iformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

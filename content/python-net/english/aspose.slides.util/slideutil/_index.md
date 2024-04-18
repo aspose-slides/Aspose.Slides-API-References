@@ -19,7 +19,6 @@ The SlideUtil type exposes the following members:
 | :- | :- |
 | [`find_shape`](/slides/python-net/aspose.slides.util/slideutil/find_shape/#ipresentation-str) | Find shape by alternative text in a PPTX presentation. |
 | [`find_shape`](/slides/python-net/aspose.slides.util/slideutil/find_shape/#ibaseslide-str) | Find shape by alternative text on a slide in a PPTX presentation. |
-| [`align_shapes`](/slides/python-net/aspose.slides.util/slideutil/align_shapes/#shapesalignmenttype-bool-ishapecollection) | Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide<br/>            or align them relative to each other. |
 | [`align_shapes`](/slides/python-net/aspose.slides.util/slideutil/align_shapes/#shapesalignmenttype-bool-ibaseslide) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide<br/>            or align them relative to each other. |
 | [`align_shapes`](/slides/python-net/aspose.slides.util/slideutil/align_shapes/#shapesalignmenttype-bool-ibaseslide-listint) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide<br/>             or align them relative to each other. |
 | [`align_shapes`](/slides/python-net/aspose.slides.util/slideutil/align_shapes/#shapesalignmenttype-bool-igroupshape) | Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide<br/>            or align them relative to each other. |
@@ -28,6 +27,8 @@ The SlideUtil type exposes the following members:
 | [`get_all_text_boxes`](/slides/python-net/aspose.slides.util/slideutil/get_all_text_boxes/#ibaseslide) | Returns all text frames on a slide in a PPTX presentation. |
 | [`get_all_text_frames`](/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/#ipresentation-bool) | Returns all text frames in a PPTX presentation. |
 
+
 ### See Also
 * module [`aspose.slides.util`](/slides/python-net/aspose.slides.util)
 * library [`Aspose.Slides`](/slides/python-net)
+

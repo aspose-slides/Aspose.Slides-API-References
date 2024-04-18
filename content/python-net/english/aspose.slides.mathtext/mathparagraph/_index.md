@@ -26,14 +26,12 @@ The MathParagraph type exposes the following members:
 | :- | :- |
 | [`justification`](/slides/python-net/aspose.slides.mathtext/mathparagraph/justification/) | Paragraph Justification <br/>            Default value: CenteredAsGroup |
 | [`count`](/slides/python-net/aspose.slides.mathtext/mathparagraph/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
-| [`as_i_math_block_collection`](/slides/python-net/aspose.slides.mathtext/mathparagraph/as_i_math_block_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.mathtext/mathparagraph/as_i_enumerable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/mathparagraph/__getitem__/) |  |
 
 ## Methods
 
@@ -49,6 +47,8 @@ The MathParagraph type exposes the following members:
 | [`write_as_math_ml`](/slides/python-net/aspose.slides.mathtext/mathparagraph/write_as_math_ml/#iorawiobase) | Saves content of this [`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph) as MathML |
 | [`to_latex`](/slides/python-net/aspose.slides.mathtext/mathparagraph/to_latex/#) | Gets mathematical equation in LaTeX format |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

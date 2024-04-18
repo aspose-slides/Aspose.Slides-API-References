@@ -14,12 +14,15 @@ weight: 30
 @property
 def data(self):
     ...
+
 @data.setter
 def data(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMultipleCellChartValue`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

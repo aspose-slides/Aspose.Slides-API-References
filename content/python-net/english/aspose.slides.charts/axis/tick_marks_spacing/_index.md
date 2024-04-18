@@ -18,12 +18,15 @@ Specifies how many tick marks shall be skipped before the next one shall be
 @property
 def tick_marks_spacing(self):
     ...
+
 @tick_marks_spacing.setter
 def tick_marks_spacing(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

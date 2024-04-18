@@ -14,12 +14,15 @@ weight: 80
 @property
 def data_source_type(self):
     ...
+
 @data_source_type.setter
 def data_source_type(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IStringOrDoubleChartValue`](/slides/python-net/aspose.slides.charts/istringordoublechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

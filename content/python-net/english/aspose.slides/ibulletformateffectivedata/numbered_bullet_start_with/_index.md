@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ibulletformateffectivedata/numbered_bullet_start_with/
-weight: 90
+weight: 80
 ---
 
 
@@ -19,7 +19,9 @@ def numbered_bullet_start_with(self):
     ...
 ```
 
+
 ### See Also
 * class [`IBulletFormatEffectiveData`](/slides/python-net/aspose.slides/ibulletformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

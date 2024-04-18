@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.ink/iink/traces/
-weight: 390
+weight: 400
 ---
 
 
@@ -19,8 +19,10 @@ def traces(self):
     ...
 ```
 
+
 ### See Also
 * class [`IInk`](/slides/python-net/aspose.slides.ink/iink)
 * class [`IInkTrace`](/slides/python-net/aspose.slides.ink/iinktrace)
 * module [`aspose.slides.ink`](/slides/python-net/aspose.slides.ink)
 * library [`Aspose.Slides`](/slides/python-net)
+

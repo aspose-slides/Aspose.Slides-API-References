@@ -31,12 +31,11 @@ def add_section_zoom_frame(self, x, y, width, height, section):
 | height | **float** | Height of a new Section Zoom frame **float**. |
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | The section object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | Referenced section does not belong to the current presentation or does not contains any slides. |
-
+| **RuntimeError(Proxy error(ArgumentException))** | Referenced section does not belong to the current presentation or does not contains any slides. |
 
 
 ## add_section_zoom_frame {#float-float-float-float-isection-ippimage}
@@ -63,11 +62,11 @@ def add_section_zoom_frame(self, x, y, width, height, section, image):
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | The section object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
 | image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | Referenced section does not belong to the current presentation or does not contains any slides. |
+| **RuntimeError(Proxy error(ArgumentException))** | Referenced section does not belong to the current presentation or does not contains any slides. |
 
 
 
@@ -78,3 +77,4 @@ def add_section_zoom_frame(self, x, y, width, height, section, image):
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

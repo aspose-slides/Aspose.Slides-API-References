@@ -19,7 +19,6 @@ The ControlPropertiesCollection type exposes the following members:
 | :- | :- |
 | [`names_of_properties`](/slides/python-net/aspose.slides/controlpropertiescollection/names_of_properties/) | Returns the collection of properties names.<br/>            Read-only **list**. |
 | [`count`](/slides/python-net/aspose.slides/controlpropertiescollection/count/) | Returns a number of properties in the collection.<br/>            Read-only **int**. |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/controlpropertiescollection/as_i_enumerable/) |  |
 
 ## Methods
 
@@ -29,6 +28,8 @@ The ControlPropertiesCollection type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/controlpropertiescollection/remove/#str) | Removes a property with the specified name. |
 | [`clear`](/slides/python-net/aspose.slides/controlpropertiescollection/clear/#) | Removes all properties. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

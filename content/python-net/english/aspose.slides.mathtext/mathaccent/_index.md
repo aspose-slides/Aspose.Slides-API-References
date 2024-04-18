@@ -29,7 +29,6 @@ The MathAccent type exposes the following members:
 | :- | :- |
 | [`base`](/slides/python-net/aspose.slides.mathtext/mathaccent/base/) | The argument to which the accent was applied |
 | [`character`](/slides/python-net/aspose.slides.mathtext/mathaccent/character/) | Accent Character<br/>            The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF)<br/>            Default value: Combining Circumflex Accent (U+0302) |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/mathaccent/as_i_math_element/) |  |
 
 ## Methods
 
@@ -82,8 +81,10 @@ The MathAccent type exposes the following members:
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/mathaccent/to_box/#) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathaccent/get_children/#) | Get children elements |
 
+
 ### See Also
 * class [`MathAccent`](/slides/python-net/aspose.slides.mathtext/mathaccent)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

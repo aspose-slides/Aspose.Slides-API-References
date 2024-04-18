@@ -17,13 +17,16 @@ Returns and sets a callback interface which allows user to control shape convers
 @property
 def shape_formatting_controller(self):
     ...
+
 @shape_formatting_controller.setter
 def shape_formatting_controller(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ISvgShapeFormattingController`](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller)
 * class [`SVGOptions`](/slides/python-net/aspose.slides.export/svgoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

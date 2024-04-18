@@ -17,13 +17,16 @@ Rectangle alignment.
 @property
 def rectangle_align(self):
     ...
+
 @rectangle_align.setter
 def rectangle_align(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`RectangleAlignment`](/slides/python-net/aspose.slides/rectanglealignment)
 * class [`Reflection`](/slides/python-net/aspose.slides.effects/reflection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

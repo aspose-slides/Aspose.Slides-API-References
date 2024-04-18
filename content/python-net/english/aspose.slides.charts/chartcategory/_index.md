@@ -29,6 +29,8 @@ The ChartCategory type exposes the following members:
 | :- | :- |
 | [`remove`](/slides/python-net/aspose.slides.charts/chartcategory/remove/#) | Removes category from chart. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

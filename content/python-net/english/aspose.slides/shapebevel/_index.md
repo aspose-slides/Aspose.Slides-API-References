@@ -25,15 +25,16 @@ The ShapeBevel type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/shapebevel/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`width`](/slides/python-net/aspose.slides/shapebevel/width/) | Bevel width.<br/>            Read/write **float**. |
 | [`height`](/slides/python-net/aspose.slides/shapebevel/height/) | Bevel height.<br/>            Read/write **float**. |
 | [`bevel_type`](/slides/python-net/aspose.slides/shapebevel/bevel_type/) | Bevel type.<br/>            Read/write [`BevelPresetType`](/slides/python-net/aspose.slides/bevelpresettype). |
 | [`slide`](/slides/python-net/aspose.slides/shapebevel/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/shapebevel/presentation/) |  |
 
+
 ### See Also
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * class [`ShapeBevel`](/slides/python-net/aspose.slides/shapebevel)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

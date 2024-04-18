@@ -19,12 +19,15 @@ Returns or sets bottom edge of the fill rectangle that is defined by a percentag
 @property
 def stretch_offset_bottom(self):
     ...
+
 @stretch_offset_bottom.setter
 def stretch_offset_bottom(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PictureFillFormat`](/slides/python-net/aspose.slides/picturefillformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

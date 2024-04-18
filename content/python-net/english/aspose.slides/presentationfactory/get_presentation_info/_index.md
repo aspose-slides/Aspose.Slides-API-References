@@ -28,7 +28,6 @@ def get_presentation_info(self, file):
 | file | **str** | Presentation file. |
 
 
-
 ## get_presentation_info {#iorawiobase}
 Creates new PresentationInfo object from stream and binds presentation to it.
             Gets info about presentation in specified stream.
@@ -56,3 +55,4 @@ def get_presentation_info(self, stream):
 * class [`PresentationFactory`](/slides/python-net/aspose.slides/presentationfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -20,7 +20,6 @@ The IGroupShape type exposes the following members:
 | [`shape_lock`](/slides/python-net/aspose.slides/igroupshape/shape_lock/) | Returns shape's locks.<br/>            Read-only [`IGroupShapeLock`](/slides/python-net/aspose.slides/igroupshapelock). |
 | [`group_shape_lock`](/slides/python-net/aspose.slides/igroupshape/group_shape_lock/) | Returns shape's locks.<br/>            Read-only [`IGroupShapeLock`](/slides/python-net/aspose.slides/igroupshapelock). |
 | [`shapes`](/slides/python-net/aspose.slides/igroupshape/shapes/) | Returns the collection of shapes inside the group.<br/>            Read-only [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection). |
-| [`as_i_shape`](/slides/python-net/aspose.slides/igroupshape/as_i_shape/) | Allows to get base IShape interface.<br/>            Read-only [`IShape`](/slides/python-net/aspose.slides/ishape). |
 | [`is_text_holder`](/slides/python-net/aspose.slides/igroupshape/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides/igroupshape/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides/igroupshape/custom_data/) |  |
@@ -47,10 +46,7 @@ The IGroupShape type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides/igroupshape/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides/igroupshape/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides/igroupshape/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/igroupshape/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/igroupshape/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides/igroupshape/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/igroupshape/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/igroupshape/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/igroupshape/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/igroupshape/hyperlink_mouse_over/) |  |
@@ -62,12 +58,16 @@ The IGroupShape type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/igroupshape/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/igroupshape/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides/igroupshape/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides/igroupshape/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/igroupshape/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/igroupshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`add_placeholder`](/slides/python-net/aspose.slides/igroupshape/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/igroupshape/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/igroupshape/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -30,3 +30,4 @@ def get_effective(self):
 * class [`RowFormat`](/slides/python-net/aspose.slides/rowformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

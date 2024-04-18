@@ -27,14 +27,15 @@ The IThreeDFormatEffectiveData type exposes the following members:
 | [`camera`](/slides/python-net/aspose.slides/ithreedformateffectivedata/camera/) | Returns the settings of a camera.<br/>            Read-only [`ICameraEffectiveData`](/slides/python-net/aspose.slides/icameraeffectivedata). |
 | [`light_rig`](/slides/python-net/aspose.slides/ithreedformateffectivedata/light_rig/) | Returns the type of a light.<br/>            Read-only [`ILightRigEffectiveData`](/slides/python-net/aspose.slides/ilightrigeffectivedata). |
 | [`material`](/slides/python-net/aspose.slides/ithreedformateffectivedata/material/) | Returns the type of a material.<br/>            Read-only [`MaterialPresetType`](/slides/python-net/aspose.slides/materialpresettype). |
-| [`as_i_three_d_param_source`](/slides/python-net/aspose.slides/ithreedformateffectivedata/as_i_three_d_param_source/) | Allows to get base IThreeDParamSource interface.<br/>            Read-only [`IThreeDParamSource`](/slides/python-net/aspose.slides/ithreedparamsource). |
 
 
 ### Remarks
 
 This interface is used together with the [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat) interface to return effective formatting values with inheritance applied.
 
+
 ### See Also
 * class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

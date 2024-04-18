@@ -17,12 +17,15 @@ Specifies sources for external fonts to be used by the presentation.
 @property
 def document_level_font_sources(self):
     ...
+
 @document_level_font_sources.setter
 def document_level_font_sources(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

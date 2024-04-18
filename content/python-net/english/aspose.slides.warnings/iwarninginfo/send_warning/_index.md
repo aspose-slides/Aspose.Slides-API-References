@@ -30,3 +30,4 @@ def send_warning(self, receiver):
 * class [`IWarningInfo`](/slides/python-net/aspose.slides.warnings/iwarninginfo)
 * module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
 * library [`Aspose.Slides`](/slides/python-net)
+

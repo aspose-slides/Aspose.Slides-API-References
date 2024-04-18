@@ -34,3 +34,4 @@ def insert(self, index, type, pts, pts_type, b_relative_coord):
 * enumeration [`MotionPathPointsType`](/slides/python-net/aspose.slides.animation/motionpathpointstype)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

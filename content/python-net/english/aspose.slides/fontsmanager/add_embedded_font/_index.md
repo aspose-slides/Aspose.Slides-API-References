@@ -26,7 +26,6 @@ def add_embedded_font(self, font_data, embed_font_rule):
 | embed_font_rule | [`EmbedFontCharacters`](/slides/python-net/aspose.slides.export/embedfontcharacters) |  |
 
 
-
 ## add_embedded_font {#bytes-asposeslidesexportembedfontcharacters}
 Adds the embedded font
             Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of 
@@ -52,3 +51,4 @@ def add_embedded_font(self, font_data, embed_font_rule):
 * class [`IFontData`](/slides/python-net/aspose.slides/ifontdata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -23,7 +23,6 @@ def add_attribute_value(self, value):
 | value | **str** | Attribute value string. |
 
 
-
 ## add_attribute_value {#listchar}
 Quotes attribute value and adds it to the html file.
 
@@ -37,7 +36,6 @@ def add_attribute_value(self, value):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | value | **List[char]** | Attribute value string. |
-
 
 
 ## add_attribute_value {#listchar-int-int}
@@ -62,3 +60,4 @@ def add_attribute_value(self, value, start_index, length):
 * class [`HtmlGenerator`](/slides/python-net/aspose.slides.export/htmlgenerator)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

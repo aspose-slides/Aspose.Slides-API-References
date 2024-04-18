@@ -30,6 +30,8 @@ The BlackWhiteMode type exposes the following members:
 | WHITE | The object is rendered with white coloring |
 | HIDDEN | The object is not rendered |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

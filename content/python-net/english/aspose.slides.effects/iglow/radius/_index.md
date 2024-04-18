@@ -17,12 +17,15 @@ Radius.
 @property
 def radius(self):
     ...
+
 @radius.setter
 def radius(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGlow`](/slides/python-net/aspose.slides.effects/iglow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

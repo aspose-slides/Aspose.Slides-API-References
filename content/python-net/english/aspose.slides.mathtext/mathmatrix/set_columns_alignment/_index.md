@@ -31,3 +31,4 @@ def set_columns_alignment(self, column_index, columns_count, val):
 * class [`MathMatrix`](/slides/python-net/aspose.slides.mathtext/mathmatrix)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

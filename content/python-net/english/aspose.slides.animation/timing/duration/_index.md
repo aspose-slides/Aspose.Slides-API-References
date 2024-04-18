@@ -17,12 +17,15 @@ Describes the duration of animation effect.
 @property
 def duration(self):
     ...
+
 @duration.setter
 def duration(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Timing`](/slides/python-net/aspose.slides.animation/timing)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

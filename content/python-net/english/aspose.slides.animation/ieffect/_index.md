@@ -32,6 +32,8 @@ The IEffect type exposes the following members:
 | [`animate_text_type`](/slides/python-net/aspose.slides.animation/ieffect/animate_text_type/) | Defines an animate text type for effect. <br/>            The shape text can be animated by letter, by word or all at once.<br/>            Read/write [`IEffect.animate_text_type`](/slides/python-net/aspose.slides.animation/ieffect#animate_text_type). |
 | [`delay_between_text_parts`](/slides/python-net/aspose.slides.animation/ieffect/delay_between_text_parts/) | Defines a delay between animated text parts (words or letters).<br/>            A positive value specifies the percentage of effect duration.<br/>            A negative value specifies the delay in seconds.<br/>            Read/write **float**. |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

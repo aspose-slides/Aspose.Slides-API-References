@@ -17,12 +17,15 @@ Represents the minimum value on the value axis.
 @property
 def min_value(self):
     ...
+
 @min_value.setter
 def min_value(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

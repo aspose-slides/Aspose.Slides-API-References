@@ -35,3 +35,4 @@ def set_internal_hyperlink_mouse_over(self, target_slide):
 * class [`ISlide`](/slides/python-net/aspose.slides/islide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -34,3 +34,4 @@ def read_vba_project(self, data):
 * class [`IVbaProjectFactory`](/slides/python-net/aspose.slides.vba/ivbaprojectfactory)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

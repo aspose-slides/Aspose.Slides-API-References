@@ -19,14 +19,15 @@ The GradientStop type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/gradientstop/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`position`](/slides/python-net/aspose.slides/gradientstop/position/) | Returns or sets the position (0..1) of a gradient stop.<br/>            Read/write **float**. |
 | [`color`](/slides/python-net/aspose.slides/gradientstop/color/) | Returns the color of a gradient stop.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`slide`](/slides/python-net/aspose.slides/gradientstop/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/gradientstop/presentation/) |  |
+
 
 ### See Also
 * class [`GradientStop`](/slides/python-net/aspose.slides/gradientstop)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

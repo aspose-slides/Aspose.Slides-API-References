@@ -34,3 +34,4 @@ def get_color_scheme(self, style_color):
 * class [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/pictureframe/is_text_holder/
-weight: 310
+weight: 320
 ---
 
 
@@ -19,7 +19,9 @@ def is_text_holder(self):
     ...
 ```
 
+
 ### See Also
 * class [`PictureFrame`](/slides/python-net/aspose.slides/pictureframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

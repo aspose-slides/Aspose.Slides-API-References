@@ -17,13 +17,16 @@ Specifies the type of the category axis.
 @property
 def category_axis_type(self):
     ...
+
 @category_axis_type.setter
 def category_axis_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * enumeration [`CategoryAxisType`](/slides/python-net/aspose.slides.charts/categoryaxistype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

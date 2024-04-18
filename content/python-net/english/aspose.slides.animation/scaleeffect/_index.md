@@ -33,10 +33,11 @@ The ScaleEffect type exposes the following members:
 | [`from_address`](/slides/python-net/aspose.slides.animation/scaleeffect/from_address/) | Specifies an x/y co-ordinate to start the animation from (in percents).<br/>            Read/write **aspose.pydrawing.PointF**. |
 | [`to`](/slides/python-net/aspose.slides.animation/scaleeffect/to/) | Specifies the target location for an animation scale effect (in percents).<br/>            Read/write **aspose.pydrawing.PointF**. |
 | [`by`](/slides/python-net/aspose.slides.animation/scaleeffect/by/) | describes the relative offset value for the animation (in percents).<br/>            Read/write **aspose.pydrawing.PointF**. |
-| [`as_i_behavior`](/slides/python-net/aspose.slides.animation/scaleeffect/as_i_behavior/) |  |
+
 
 ### See Also
 * class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
 * class [`ScaleEffect`](/slides/python-net/aspose.slides.animation/scaleeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,7 +24,6 @@ def enclose(self):
 
 
 
-
 ## enclose {#char-char}
 Encloses a math element in specified characters such as parenthesis or another characters as framing
 
@@ -52,3 +51,4 @@ def enclose(self, beginning_character, ending_character):
 * class [`MathSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

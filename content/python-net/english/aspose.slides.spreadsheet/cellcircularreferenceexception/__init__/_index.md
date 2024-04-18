@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#str}
 Initializes a new instance of the [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception) class with a specified error message.
 
@@ -33,7 +32,6 @@ def __init__(self, message):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | message | **str** | A string that describes the error. |
-
 
 
 ## __init__ {#str-str}
@@ -58,3 +56,4 @@ def __init__(self, message, reference):
 * class [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception)
 * module [`aspose.slides.spreadsheet`](/slides/python-net/aspose.slides.spreadsheet)
 * library [`Aspose.Slides`](/slides/python-net)
+

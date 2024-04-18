@@ -58,11 +58,6 @@ The SmartArt type exposes the following members:
 | [`quick_style`](/slides/python-net/aspose.slides.smartart/smartart/quick_style/) | Returns or sets quick style of SmartArt object.<br/>            Read/write [`SmartArtQuickStyleType`](/slides/python-net/aspose.slides.smartart/smartartquickstyletype). |
 | [`color_style`](/slides/python-net/aspose.slides.smartart/smartart/color_style/) | Returns or sets color style of SmartArt object.<br/>            Read/write [`SmartArtColorType`](/slides/python-net/aspose.slides.smartart/smartartcolortype). |
 | [`is_reversed`](/slides/python-net/aspose.slides.smartart/smartart/is_reversed/) | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal.<br/>            Read/write **bool**. |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides.smartart/smartart/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.smartart/smartart/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.smartart/smartart/as_i_presentation_component/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides.smartart/smartart/as_i_shape/) |  |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides.smartart/smartart/as_i_graphical_object/) |  |
 
 ## Methods
 
@@ -70,11 +65,14 @@ The SmartArt type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.smartart/smartart/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.smartart/smartart/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
+| [`get_image`](/slides/python-net/aspose.slides.smartart/smartart/get_image/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [`get_image`](/slides/python-net/aspose.slides.smartart/smartart/get_image/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
 | [`write_as_svg`](/slides/python-net/aspose.slides.smartart/smartart/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides.smartart/smartart/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides.smartart/smartart/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`add_placeholder`](/slides/python-net/aspose.slides.smartart/smartart/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides.smartart/smartart/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
+
 
 ### See Also
 * class [`GraphicalObject`](/slides/python-net/aspose.slides/graphicalobject)
@@ -82,3 +80,4 @@ The SmartArt type exposes the following members:
 * class [`SmartArt`](/slides/python-net/aspose.slides.smartart/smartart)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

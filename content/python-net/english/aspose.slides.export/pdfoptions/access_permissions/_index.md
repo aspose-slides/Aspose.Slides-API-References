@@ -17,13 +17,16 @@ Contains a set of flags specifying which access permissions should be granted wh
 @property
 def access_permissions(self):
     ...
+
 @access_permissions.setter
 def access_permissions(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`PdfAccessPermissions`](/slides/python-net/aspose.slides.export/pdfaccesspermissions)
 * class [`PdfOptions`](/slides/python-net/aspose.slides.export/pdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

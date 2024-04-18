@@ -17,13 +17,16 @@ Direction of transition.
 @property
 def direction(self):
     ...
+
 @direction.setter
 def direction(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`RippleTransition`](/slides/python-net/aspose.slides.slideshow/rippletransition)
 * enumeration [`TransitionCornerAndCenterDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioncornerandcenterdirectiontype)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

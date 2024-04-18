@@ -17,12 +17,15 @@ Gets or sets starting position of text selection in text frame if the comment as
 @property
 def text_selection_start(self):
     ...
+
 @text_selection_start.setter
 def text_selection_start(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ModernComment`](/slides/python-net/aspose.slides/moderncomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Gets or sets the value of a cell.
 @property
 def value(self):
     ...
+
 @value.setter
 def value(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartDataCell`](/slides/python-net/aspose.slides.charts/chartdatacell)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

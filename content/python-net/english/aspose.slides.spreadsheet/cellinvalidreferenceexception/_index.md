@@ -29,6 +29,7 @@ The CellInvalidReferenceException type exposes the following members:
 | :- | :- |
 | [`reference`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception/reference/) | Gets an invalid cell reference. |
 
+
 ### See Also
 * class [`CellCircularReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellcircularreferenceexception)
 * class [`CellInvalidReferenceException`](/slides/python-net/aspose.slides.spreadsheet/cellinvalidreferenceexception)
@@ -37,3 +38,4 @@ The CellInvalidReferenceException type exposes the following members:
 * class [`PptxException`](/slides/python-net/aspose.slides/pptxexception)
 * module [`aspose.slides.spreadsheet`](/slides/python-net/aspose.slides.spreadsheet)
 * library [`Aspose.Slides`](/slides/python-net)
+

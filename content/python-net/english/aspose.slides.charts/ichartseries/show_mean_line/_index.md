@@ -17,12 +17,15 @@ Represents mean markers. True if mean line are shown on the BoxAndWhisker chart.
 @property
 def show_mean_line(self):
     ...
+
 @show_mean_line.setter
 def show_mean_line(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

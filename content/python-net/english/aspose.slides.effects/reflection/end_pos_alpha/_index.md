@@ -17,12 +17,15 @@ Specifies the end position (along the alpha gradient ramp) of the end alpha valu
 @property
 def end_pos_alpha(self):
     ...
+
 @end_pos_alpha.setter
 def end_pos_alpha(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Reflection`](/slides/python-net/aspose.slides.effects/reflection)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

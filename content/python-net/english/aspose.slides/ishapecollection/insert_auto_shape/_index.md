@@ -35,7 +35,6 @@ def insert_auto_shape(self, index, shape_type, x, y, width, height):
 | height | **float** | The height of shape's frame. |
 
 
-
 ## insert_auto_shape {#int-shapetype-float-float-float-float-bool}
 Creates a new AutoShape and inserts it to the collection at the specified index.
             Note: the type of the shape will be determined by the shapeType parameter.
@@ -70,3 +69,4 @@ def insert_auto_shape(self, index, shape_type, x, y, width, height, create_from_
 * enumeration [`ShapeType`](/slides/python-net/aspose.slides/shapetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

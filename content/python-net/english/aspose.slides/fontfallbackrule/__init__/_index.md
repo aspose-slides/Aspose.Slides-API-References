@@ -25,7 +25,6 @@ def __init__(self, start_index, end_index, font_names):
 | font_names | **str** | Font's name or names (delimited by comma) for FallBack |
 
 
-
 ## __init__ {#int-int-liststr}
 Creates new instance.
 
@@ -48,3 +47,4 @@ def __init__(self, start_index, end_index, font_names):
 * class [`FontFallBackRule`](/slides/python-net/aspose.slides/fontfallbackrule)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -27,7 +27,6 @@ The Hyperlink type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/hyperlink/as_i_presentation_component/) | Allows to get base IPresentationComponent interface.<br/>            Read-only [`IPresentationComponent`](/slides/python-net/aspose.slides/ipresentationcomponent). |
 | [`no_action`](/slides/python-net/aspose.slides/hyperlink/no_action/) | Returns a special "do nothing" hyperlink.<br/>            Read-only [`Hyperlink`](/slides/python-net/aspose.slides/hyperlink). |
 | [`media`](/slides/python-net/aspose.slides/hyperlink/media/) | Returns a special "play mediafile" hyperlink. Used in AudioFrame and VideoFrame.<br/>            Read-only [`Hyperlink`](/slides/python-net/aspose.slides/hyperlink). |
 | [`next_slide`](/slides/python-net/aspose.slides/hyperlink/next_slide/) | Returns a hyperlink to the next slide.<br/>            Read-only [`Hyperlink`](/slides/python-net/aspose.slides/hyperlink). |
@@ -56,8 +55,10 @@ The Hyperlink type exposes the following members:
 | :- | :- |
 | [`equals`](/slides/python-net/aspose.slides/hyperlink/equals/#ihyperlink) | Determines whether the two Hyperlink instances are equal. |
 
+
 ### See Also
 * class [`Hyperlink`](/slides/python-net/aspose.slides/hyperlink)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

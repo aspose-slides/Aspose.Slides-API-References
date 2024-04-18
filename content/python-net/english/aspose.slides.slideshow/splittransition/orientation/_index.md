@@ -17,13 +17,16 @@ Orientation of transition split.
 @property
 def orientation(self):
     ...
+
 @orientation.setter
 def orientation(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`Orientation`](/slides/python-net/aspose.slides/orientation)
 * class [`SplitTransition`](/slides/python-net/aspose.slides.slideshow/splittransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

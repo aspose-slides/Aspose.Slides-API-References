@@ -19,13 +19,16 @@ Returns or sets text's autofit mode.
 @property
 def autofit_type(self):
     ...
+
 @autofit_type.setter
 def autofit_type(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IChartTextBlockFormat`](/slides/python-net/aspose.slides.charts/icharttextblockformat)
 * enumeration [`TextAutofitType`](/slides/python-net/aspose.slides/textautofittype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

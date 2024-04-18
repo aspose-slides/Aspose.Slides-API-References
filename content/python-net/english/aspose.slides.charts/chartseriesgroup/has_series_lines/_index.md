@@ -17,12 +17,15 @@ True if chart has series lines. Applied to stacked bar and OfPie charts.
 @property
 def has_series_lines(self):
     ...
+
 @has_series_lines.setter
 def has_series_lines(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartSeriesGroup`](/slides/python-net/aspose.slides.charts/chartseriesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

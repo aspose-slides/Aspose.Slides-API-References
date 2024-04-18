@@ -13,18 +13,11 @@ A collection of ActiveX controls.
 
 The IControlCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/icontrolcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/icontrolcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/icontrolcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -35,6 +28,8 @@ The IControlCollection type exposes the following members:
 | [`clear`](/slides/python-net/aspose.slides/icontrolcollection/clear/#) | Removes all controls from the collection. |
 | [`add_control`](/slides/python-net/aspose.slides/icontrolcollection/add_control/#controltype-float-float-float-float) | Creates and adds a new control to the collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

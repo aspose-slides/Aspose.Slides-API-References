@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ishape/three_d_format/
-weight: 350
+weight: 360
 ---
 
 
@@ -19,8 +19,10 @@ def three_d_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * class [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

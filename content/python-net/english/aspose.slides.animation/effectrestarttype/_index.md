@@ -22,6 +22,8 @@ The EffectRestartType type exposes the following members:
 | WHEN_NOT_ACTIVE |  |
 | NEVER |  |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

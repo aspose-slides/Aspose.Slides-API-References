@@ -17,12 +17,15 @@ Determines whether a resizing this shape is forbidden.
 @property
 def size_locked(self):
     ...
+
 @size_locked.setter
 def size_locked(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`AutoShapeLock`](/slides/python-net/aspose.slides/autoshapelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

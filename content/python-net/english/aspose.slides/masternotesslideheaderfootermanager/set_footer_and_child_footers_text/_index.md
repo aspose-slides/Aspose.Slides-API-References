@@ -30,3 +30,4 @@ def set_footer_and_child_footers_text(self, text):
 * class [`MasterNotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/masternotesslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

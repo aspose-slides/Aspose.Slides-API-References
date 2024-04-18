@@ -16,7 +16,9 @@ def slide(self):
     ...
 ```
 
+
 ### See Also
 * class [`AlphaFloor`](/slides/python-net/aspose.slides.effects/alphafloor)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

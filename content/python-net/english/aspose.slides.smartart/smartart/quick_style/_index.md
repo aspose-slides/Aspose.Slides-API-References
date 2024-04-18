@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartart/quick_style/
-weight: 390
+weight: 400
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets quick style of SmartArt object.
 @property
 def quick_style(self):
     ...
+
 @quick_style.setter
 def quick_style(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`SmartArt`](/slides/python-net/aspose.slides.smartart/smartart)
 * enumeration [`SmartArtQuickStyleType`](/slides/python-net/aspose.slides.smartart/smartartquickstyletype)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

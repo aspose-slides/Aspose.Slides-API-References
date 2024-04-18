@@ -29,6 +29,8 @@ The NotesCommentsLayoutingOptions type exposes the following members:
 | [`comments_area_color`](/slides/python-net/aspose.slides.export/notescommentslayoutingoptions/comments_area_color/) | Gets or sets the color of comments area<br/>             (Applies only if comments are displayed on the right). |
 | [`comments_area_width`](/slides/python-net/aspose.slides.export/notescommentslayoutingoptions/comments_area_width/) | Gets or sets the width of the comment output area in pixels<br/>             (Applies only if comments are displayed on the right). |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

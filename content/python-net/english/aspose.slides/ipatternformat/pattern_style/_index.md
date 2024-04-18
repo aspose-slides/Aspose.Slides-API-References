@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipatternformat/pattern_style/
-weight: 40
+weight: 50
 ---
 
 
@@ -17,13 +17,16 @@ Returns or sets the pattern style.
 @property
 def pattern_style(self):
     ...
+
 @pattern_style.setter
 def pattern_style(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IPatternFormat`](/slides/python-net/aspose.slides/ipatternformat)
 * enumeration [`PatternStyle`](/slides/python-net/aspose.slides/patternstyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

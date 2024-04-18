@@ -20,10 +20,12 @@ The token to monitor for interruption requests.
 @property
 def interruption_token(self):
     ...
+
 @interruption_token.setter
 def interruption_token(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IInterruptionTokenSource`](/slides/python-net/aspose.slides/iinterruptiontokensource)
@@ -31,3 +33,4 @@ def interruption_token(self, value):
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

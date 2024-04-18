@@ -19,8 +19,10 @@ def slide(self):
     ...
 ```
 
+
 ### See Also
 * class [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide)
 * class [`ZoomFrame`](/slides/python-net/aspose.slides/zoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

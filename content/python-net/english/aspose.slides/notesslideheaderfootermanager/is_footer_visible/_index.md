@@ -19,7 +19,9 @@ def is_footer_visible(self):
     ...
 ```
 
+
 ### See Also
 * class [`NotesSlideHeaderFooterManager`](/slides/python-net/aspose.slides/notesslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

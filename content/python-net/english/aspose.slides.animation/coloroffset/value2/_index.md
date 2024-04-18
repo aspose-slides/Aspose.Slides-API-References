@@ -17,12 +17,15 @@ Defines third value of offset.
 @property
 def value2(self):
     ...
+
 @value2.setter
 def value2(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ColorOffset`](/slides/python-net/aspose.slides.animation/coloroffset)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

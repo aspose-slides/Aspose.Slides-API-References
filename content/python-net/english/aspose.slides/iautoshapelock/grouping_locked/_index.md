@@ -17,12 +17,15 @@ Determines whether an adding this shape to a group is forbidden.
 @property
 def grouping_locked(self):
     ...
+
 @grouping_locked.setter
 def grouping_locked(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAutoShapeLock`](/slides/python-net/aspose.slides/iautoshapelock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

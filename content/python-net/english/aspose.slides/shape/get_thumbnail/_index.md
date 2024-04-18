@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/shape/get_thumbnail/
-weight: 30
+weight: 40
 ---
 
 
@@ -22,7 +22,6 @@ Shape thumbnail.
 def get_thumbnail(self):
     ...
 ```
-
 
 
 
@@ -54,3 +53,4 @@ def get_thumbnail(self, bounds, scale_x, scale_y):
 * enumeration [`ShapeThumbnailBounds`](/slides/python-net/aspose.slides/shapethumbnailbounds)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

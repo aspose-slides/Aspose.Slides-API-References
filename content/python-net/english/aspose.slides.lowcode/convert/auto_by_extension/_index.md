@@ -23,11 +23,11 @@ def auto_by_extension(self, pres_path, out_path):
 | pres_path | **str** | Path of the input presentation |
 | out_path | **str** | Output path |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentOutOfRangeException** |  |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** |  |
 
 
 
@@ -36,3 +36,4 @@ def auto_by_extension(self, pres_path, out_path):
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides.lowcode`](/slides/python-net/aspose.slides.lowcode)
 * library [`Aspose.Slides`](/slides/python-net)
+

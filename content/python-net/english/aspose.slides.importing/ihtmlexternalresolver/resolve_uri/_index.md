@@ -29,3 +29,4 @@ def resolve_uri(self, base_uri, relative_uri):
 * class [`IHtmlExternalResolver`](/slides/python-net/aspose.slides.importing/ihtmlexternalresolver)
 * module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)
 * library [`Aspose.Slides`](/slides/python-net)
+

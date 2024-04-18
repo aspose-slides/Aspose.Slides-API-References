@@ -30,3 +30,4 @@ def to_math_array(self):
 * class [`MathNaryOperator`](/slides/python-net/aspose.slides.mathtext/mathnaryoperator)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

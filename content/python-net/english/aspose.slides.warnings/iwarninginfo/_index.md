@@ -26,6 +26,8 @@ The IWarningInfo type exposes the following members:
 | :- | :- |
 | [`send_warning`](/slides/python-net/aspose.slides.warnings/iwarninginfo/send_warning/#iwarningcallback) | If receiver is not null ends warning to a specified receiver and throws the <br/>            AbortRequestedException if receiver decided to abort a operation. |
 
+
 ### See Also
 * module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
 * library [`Aspose.Slides`](/slides/python-net)
+

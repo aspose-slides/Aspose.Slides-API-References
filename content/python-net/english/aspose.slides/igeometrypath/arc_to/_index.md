@@ -31,3 +31,4 @@ def arc_to(self, width, heigth, start_angle, sweep_angle):
 * class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

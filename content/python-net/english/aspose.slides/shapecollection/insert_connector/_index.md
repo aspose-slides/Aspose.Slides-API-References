@@ -34,7 +34,6 @@ def insert_connector(self, index, shape_type, x, y, width, height):
 | height | **float** | The height of shape's frame. |
 
 
-
 ## insert_connector {#int-shapetype-float-float-float-float-bool}
 Creates a new Connector and inserts it to the collection at the specified index.
 
@@ -68,3 +67,4 @@ def insert_connector(self, index, shape_type, x, y, width, height, create_from_t
 * enumeration [`ShapeType`](/slides/python-net/aspose.slides/shapetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

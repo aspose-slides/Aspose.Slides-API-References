@@ -20,6 +20,8 @@ The EffectChartMinorGroupingType type exposes the following members:
 | BY_ELEMENT_IN_SERIES | Animate chart by element in series |
 | BY_ELEMENT_IN_CATEGORY | Animate chart by element in category |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

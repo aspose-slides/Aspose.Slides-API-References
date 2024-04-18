@@ -35,3 +35,4 @@ def __init__(self, x, y, width, height, flip_h, flip_v, rotation_angle):
 * class [`ShapeFrame`](/slides/python-net/aspose.slides/shapeframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

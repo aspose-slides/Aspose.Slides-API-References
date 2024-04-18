@@ -32,7 +32,6 @@ def add_ole_object_frame(self, x, y, width, height, data_info):
 | data_info | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | Embedded data info [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo). |
 
 
-
 ## add_ole_object_frame {#float-float-float-float-str-str}
 Adds a new OLE object to the end of a collection.
 
@@ -65,3 +64,4 @@ def add_ole_object_frame(self, x, y, width, height, class_name, path):
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

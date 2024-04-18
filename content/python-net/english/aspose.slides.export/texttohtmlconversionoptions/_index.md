@@ -28,6 +28,8 @@ The TextToHtmlConversionOptions type exposes the following members:
 | [`link_embed_controller`](/slides/python-net/aspose.slides.export/texttohtmlconversionoptions/link_embed_controller/) | Returns or sets a callback object which controlls how external object will be stored.<br/>            Read/write [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller). |
 | [`encoding_name`](/slides/python-net/aspose.slides.export/texttohtmlconversionoptions/encoding_name/) | Returns or sets html encoding name.<br/>            This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding.<br/>            Read/write **str**. |
 
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

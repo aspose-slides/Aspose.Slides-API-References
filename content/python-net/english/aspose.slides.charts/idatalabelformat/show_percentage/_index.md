@@ -29,12 +29,15 @@ If parent of this DataLabelFormat object is a DataLabelCollection collection of 
 @property
 def show_percentage(self):
     ...
+
 @show_percentage.setter
 def show_percentage(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

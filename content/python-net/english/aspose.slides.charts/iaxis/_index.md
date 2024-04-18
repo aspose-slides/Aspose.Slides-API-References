@@ -71,13 +71,9 @@ The IAxis type exposes the following members:
 | [`is_underflow_bin`](/slides/python-net/aspose.slides.charts/iaxis/is_underflow_bin/) | Specifies if underflow bin applied. Use IsAutomaticUnderflowBin and UnderflowBin to adjust underflow bin value. |
 | [`is_automatic_underflow_bin`](/slides/python-net/aspose.slides.charts/iaxis/is_automatic_underflow_bin/) | Specifies automatic underflow bin value. If false: use UnderflowBin property. |
 | [`underflow_bin`](/slides/python-net/aspose.slides.charts/iaxis/underflow_bin/) | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
-| [`as_i_formatted_text_container`](/slides/python-net/aspose.slides.charts/iaxis/as_i_formatted_text_container/) | Allows to get base IFormattedTextContainer interface.<br/>            Read-only [`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer). |
 | [`text_format`](/slides/python-net/aspose.slides.charts/iaxis/text_format/) |  |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/iaxis/as_i_chart_component/) |  |
 | [`chart`](/slides/python-net/aspose.slides.charts/iaxis/chart/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/iaxis/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/iaxis/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/iaxis/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/iaxis/presentation/) |  |
 
 ## Methods
@@ -86,6 +82,8 @@ The IAxis type exposes the following members:
 | :- | :- |
 | [`set_category_axis_type_automatically`](/slides/python-net/aspose.slides.charts/iaxis/set_category_axis_type_automatically/#) | Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

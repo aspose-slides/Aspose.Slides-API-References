@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/datalabelcollection/parent_series/
-weight: 150
+weight: 140
 ---
 
 
@@ -19,8 +19,10 @@ def parent_series(self):
     ...
 ```
 
+
 ### See Also
 * class [`DataLabelCollection`](/slides/python-net/aspose.slides.charts/datalabelcollection)
 * class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

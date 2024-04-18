@@ -13,18 +13,11 @@ Represents a collection of tabs.
 
 The TabCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/tabcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/tabcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/tabcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -35,6 +28,8 @@ The TabCollection type exposes the following members:
 | [`clear`](/slides/python-net/aspose.slides/tabcollection/clear/#) | Removes all elements from the collection. |
 | [`remove_at`](/slides/python-net/aspose.slides/tabcollection/remove_at/#int) | Removes the element at the specified index of the collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

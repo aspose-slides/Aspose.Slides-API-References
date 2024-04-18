@@ -18,13 +18,16 @@ Determines whether the underline style has own LineFormat properties or inherits
 @property
 def is_hard_underline_line(self):
     ...
+
 @is_hard_underline_line.setter
 def is_hard_underline_line(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ChartPortionFormat`](/slides/python-net/aspose.slides.charts/chartportionformat)
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

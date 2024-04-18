@@ -36,17 +36,14 @@ The ChartSeriesGroup type exposes the following members:
 | [`bubble_size_scale`](/slides/python-net/aspose.slides.charts/chartseriesgroup/bubble_size_scale/) | Specifies the scale factor for the bubble chart (can be <br/>            between 0 and 300 percents of the default size).<br/>            Read/write **int**. |
 | [`pie_split_custom_points`](/slides/python-net/aspose.slides.charts/chartseriesgroup/pie_split_custom_points/) | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split.<br/>            Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or <br/>            bar-of-pie chart.<br/>            Read-only [`PieSplitCustomPointCollection`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection). |
 | [`chart`](/slides/python-net/aspose.slides.charts/chartseriesgroup/chart/) | Returns the parent chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/chartseriesgroup/as_i_chart_component/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/chartseriesgroup/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/chartseriesgroup/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/chartseriesgroup/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/chartseriesgroup/presentation/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/chartseriesgroup/__getitem__/) |  |
 
 
 ### Remarks
@@ -57,6 +54,8 @@ The ChartSeriesGroup type exposes the following members:
             "Series group properties" in ChartSeriesGroup class is read/write.
             Each of "series group properties" can have a read-only projection in ChartSeries class.
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

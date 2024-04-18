@@ -37,6 +37,7 @@ The PdfOptions type exposes the following members:
 | [`embed_true_type_fonts_for_ascii`](/slides/python-net/aspose.slides.export/pdfoptions/embed_true_type_fonts_for_ascii/) | Determines if Aspose.Slides will embed common fonts for ASCII (33..127 code range) text.<br/>            Fonts for character codes greater than 127 are always embedded.<br/>            Common fonts list includes PDF's base 14 fonts and additional user specified fonts.<br/>            Read/write **bool**. |
 | [`additional_common_font_families`](/slides/python-net/aspose.slides.export/pdfoptions/additional_common_font_families/) | Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common.<br/>            Read/write **str**[]. |
 | [`embed_full_fonts`](/slides/python-net/aspose.slides.export/pdfoptions/embed_full_fonts/) | Determines if all characters of font should be embedded or only used subset.<br/>            Read/write **bool**. |
+| [`rasterize_unsupported_font_styles`](/slides/python-net/aspose.slides.export/pdfoptions/rasterize_unsupported_font_styles/) | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling.<br/>            This approach can enhance the quality of text in the resulting PDF for certain fonts.<br/>            Read/write **bool**. |
 | [`jpeg_quality`](/slides/python-net/aspose.slides.export/pdfoptions/jpeg_quality/) | Returns or sets a value determining the quality of the JPEG images inside PDF document.<br/>            Read/write **int**. |
 | [`compliance`](/slides/python-net/aspose.slides.export/pdfoptions/compliance/) | Desired conformance level for generated PDF document.<br/>            Read/write [`PdfCompliance`](/slides/python-net/aspose.slides.export/pdfcompliance). |
 | [`password`](/slides/python-net/aspose.slides.export/pdfoptions/password/) | Setting user password to protect the PDF document. <br/>            Read/write **str**. |
@@ -46,10 +47,11 @@ The PdfOptions type exposes the following members:
 | [`draw_slides_frame`](/slides/python-net/aspose.slides.export/pdfoptions/draw_slides_frame/) | True to draw black frame around each slide.<br/>             Read/write **bool**. |
 | [`image_transparent_color`](/slides/python-net/aspose.slides.export/pdfoptions/image_transparent_color/) | Gets or sets the image transparent color. |
 | [`apply_image_transparent`](/slides/python-net/aspose.slides.export/pdfoptions/apply_image_transparent/) | Applies the specified transparent color to an image if `true`. |
-| [`as_i_save_options`](/slides/python-net/aspose.slides.export/pdfoptions/as_i_save_options/) |  |
+
 
 ### See Also
 * class [`PdfOptions`](/slides/python-net/aspose.slides.export/pdfoptions)
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

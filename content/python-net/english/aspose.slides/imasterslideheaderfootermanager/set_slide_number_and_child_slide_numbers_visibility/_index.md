@@ -30,3 +30,4 @@ def set_slide_number_and_child_slide_numbers_visibility(self, is_visible):
 * class [`IMasterSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

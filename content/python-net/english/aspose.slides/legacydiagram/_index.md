@@ -52,11 +52,6 @@ The LegacyDiagram type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides/legacydiagram/slide/) | Returns the parent slide of a shape.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
 | [`presentation`](/slides/python-net/aspose.slides/legacydiagram/presentation/) | Returns the parent presentation of a slide.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 | [`graphical_object_lock`](/slides/python-net/aspose.slides/legacydiagram/graphical_object_lock/) | Returns shape's locks.<br/>            Read-only [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock). |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides/legacydiagram/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/legacydiagram/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/legacydiagram/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/legacydiagram/as_i_presentation_component/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/legacydiagram/as_i_shape/) |  |
 
 ## Methods
 
@@ -64,6 +59,8 @@ The LegacyDiagram type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/legacydiagram/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/legacydiagram/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
+| [`get_image`](/slides/python-net/aspose.slides/legacydiagram/get_image/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [`get_image`](/slides/python-net/aspose.slides/legacydiagram/get_image/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/legacydiagram/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/legacydiagram/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/legacydiagram/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
@@ -72,9 +69,11 @@ The LegacyDiagram type exposes the following members:
 | [`convert_to_smart_art`](/slides/python-net/aspose.slides/legacydiagram/convert_to_smart_art/#) | Converts legacy digram to editable SmartArt object. <br/>            Created SmartArt object adds to parent group shape at the same position. |
 | [`convert_to_group_shape`](/slides/python-net/aspose.slides/legacydiagram/convert_to_group_shape/#) | Converts legacy digram to editable group shape. <br/>            Created GroupShape object adds to parent group shape at the same position. |
 
+
 ### See Also
 * class [`GraphicalObject`](/slides/python-net/aspose.slides/graphicalobject)
 * class [`LegacyDiagram`](/slides/python-net/aspose.slides/legacydiagram)
 * class [`Shape`](/slides/python-net/aspose.slides/shape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

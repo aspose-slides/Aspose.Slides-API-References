@@ -34,7 +34,7 @@ def add_summary_zoom_frame(self, x, y, width, height):
 
 This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -48,3 +48,4 @@ This method creates a new Summary Zoom and puts a collection of objects into it 
 * class [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -207,6 +207,8 @@ The ShapeType type exposes the following members:
 | CHART_STAR | Chart Star Shape. |
 | CHART_PLUS | Chart Plus Shape. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

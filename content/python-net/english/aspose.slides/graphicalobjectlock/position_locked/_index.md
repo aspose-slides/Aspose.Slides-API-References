@@ -17,12 +17,15 @@ Determines whether moving this shape is forbidden.
 @property
 def position_locked(self):
     ...
+
 @position_locked.setter
 def position_locked(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`GraphicalObjectLock`](/slides/python-net/aspose.slides/graphicalobjectlock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

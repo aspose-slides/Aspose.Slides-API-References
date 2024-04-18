@@ -24,3 +24,4 @@ def __init__(self):
 * class [`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

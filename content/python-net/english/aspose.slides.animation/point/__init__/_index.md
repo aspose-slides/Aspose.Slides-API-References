@@ -19,7 +19,6 @@ def __init__(self):
 
 
 
-
 ## __init__ {#float-any-str}
 Create animation point with time, value and formula.
 
@@ -42,3 +41,4 @@ def __init__(self, time, value, formula):
 * class [`Point`](/slides/python-net/aspose.slides.animation/point)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

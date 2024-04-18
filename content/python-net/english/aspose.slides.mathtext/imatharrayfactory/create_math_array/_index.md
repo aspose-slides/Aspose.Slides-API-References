@@ -28,7 +28,6 @@ def create_math_array(self, element):
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to place in array |
 
 
-
 ## create_math_array {#imathelementcollection}
 Creates a math array and places specified elements in it
 
@@ -57,3 +56,4 @@ def create_math_array(self, elements):
 * class [`IMathElementCollection`](/slides/python-net/aspose.slides.mathtext/imathelementcollection)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

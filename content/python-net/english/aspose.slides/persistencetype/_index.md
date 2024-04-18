@@ -23,6 +23,8 @@ The PersistenceType type exposes the following members:
 | PERSIST_STREAM_INIT | Specifies that the ActiveX control is persisted using a stream-based persistence <br/>             that supports initialization of the ActiveX control to a default state. |
 | PERSIST_STORAGE | Specifies that the ActiveX control is persisted using storage-based persistence. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

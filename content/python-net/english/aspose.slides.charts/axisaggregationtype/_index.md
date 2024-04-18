@@ -22,6 +22,8 @@ The AxisAggregationType type exposes the following members:
 | BY_BIN_WIDTH | Aggregate categories by bin width. Property IAxis.BinWidth must be setted. |
 | BY_NUMBER_OF_BINS | Aggregate categories by number of bins. Property IAxis.NumberOfBins must be setted. |
 
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

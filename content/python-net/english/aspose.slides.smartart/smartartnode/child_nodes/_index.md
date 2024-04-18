@@ -19,8 +19,10 @@ def child_nodes(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISmartArtNodeCollection`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection)
 * class [`SmartArtNode`](/slides/python-net/aspose.slides.smartart/smartartnode)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

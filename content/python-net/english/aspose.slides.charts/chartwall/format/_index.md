@@ -19,8 +19,10 @@ def format(self):
     ...
 ```
 
+
 ### See Also
 * class [`ChartWall`](/slides/python-net/aspose.slides.charts/chartwall)
 * class [`IFormat`](/slides/python-net/aspose.slides.charts/iformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

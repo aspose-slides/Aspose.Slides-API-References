@@ -19,13 +19,16 @@ Determines whether the bullet has own color or inherits it from the first portio
 @property
 def is_bullet_hard_color(self):
     ...
+
 @is_bullet_hard_color.setter
 def is_bullet_hard_color(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`BulletFormat`](/slides/python-net/aspose.slides/bulletformat)
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

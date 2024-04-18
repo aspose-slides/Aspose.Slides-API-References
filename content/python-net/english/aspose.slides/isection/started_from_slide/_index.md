@@ -18,7 +18,9 @@ def started_from_slide(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISection`](/slides/python-net/aspose.slides/isection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

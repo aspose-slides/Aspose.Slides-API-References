@@ -19,12 +19,15 @@ Returns or sets the amount of space before the first line in a paragraph with no
 @property
 def space_before(self):
     ...
+
 @space_before.setter
 def space_before(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

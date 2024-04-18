@@ -17,12 +17,15 @@ This attribute specifies if the slideshow will move to the next slide after a ce
 @property
 def advance_after(self):
     ...
+
 @advance_after.setter
 def advance_after(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SlideShowTransition`](/slides/python-net/aspose.slides.slideshow/slideshowtransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

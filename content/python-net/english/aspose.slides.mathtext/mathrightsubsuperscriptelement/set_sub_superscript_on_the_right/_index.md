@@ -29,7 +29,6 @@ def set_sub_superscript_on_the_right(self, subscript, superscript):
 | superscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Superscript (upper index on the right) |
 
 
-
 ## set_sub_superscript_on_the_right {#str-str}
 Creates subscript and superscript on the right
 
@@ -58,3 +57,4 @@ def set_sub_superscript_on_the_right(self, subscript, superscript):
 * class [`MathRightSubSuperscriptElement`](/slides/python-net/aspose.slides.mathtext/mathrightsubsuperscriptelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -18,12 +18,15 @@ Specifies a relative offset value for the animation with respect to its
 @property
 def by(self):
     ...
+
 @by.setter
 def by(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PropertyEffect`](/slides/python-net/aspose.slides.animation/propertyeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

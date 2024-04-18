@@ -16,12 +16,15 @@ Represents an implementation of IOutputSaver interface.
 @property
 def output_saver(self):
     ...
+
 @output_saver.setter
 def output_saver(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`XamlOptions`](/slides/python-net/aspose.slides.export.xaml/xamloptions)
 * module [`aspose.slides.export.xaml`](/slides/python-net/aspose.slides.export.xaml)
 * library [`Aspose.Slides`](/slides/python-net)
+

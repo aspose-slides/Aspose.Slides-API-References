@@ -16,12 +16,15 @@ Hide Bottom Edge (default is false) - specifies the hidden or shown state of the
 @property
 def hide_bottom(self):
     ...
+
 @hide_bottom.setter
 def hide_bottom(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathBorderBox`](/slides/python-net/aspose.slides.mathtext/mathborderbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

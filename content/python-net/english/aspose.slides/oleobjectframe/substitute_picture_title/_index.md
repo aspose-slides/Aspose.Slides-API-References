@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/oleobjectframe/substitute_picture_title/
-weight: 500
+weight: 510
 ---
 
 
@@ -23,12 +23,15 @@ When IsObjectIcon == false this value is ignored.
 @property
 def substitute_picture_title(self):
     ...
+
 @substitute_picture_title.setter
 def substitute_picture_title(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`OleObjectFrame`](/slides/python-net/aspose.slides/oleobjectframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

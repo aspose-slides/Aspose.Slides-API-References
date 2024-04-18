@@ -30,3 +30,4 @@ def get_effective(self):
 * class [`IGrayScaleEffectiveData`](/slides/python-net/aspose.slides.effects/igrayscaleeffectivedata)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

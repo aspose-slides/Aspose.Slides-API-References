@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iaudioframe/black_white_mode/
-weight: 230
+weight: 240
 ---
 
 
@@ -14,12 +14,15 @@ weight: 230
 @property
 def black_white_mode(self):
     ...
+
 @black_white_mode.setter
 def black_white_mode(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAudioFrame`](/slides/python-net/aspose.slides/iaudioframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Determine command coordinates relative or not.
 @property
 def is_relative(self):
     ...
+
 @is_relative.setter
 def is_relative(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MotionCmdPath`](/slides/python-net/aspose.slides.animation/motioncmdpath)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ibulletformateffectivedata/fill_format/
-weight: 40
+weight: 30
 ---
 
 
@@ -19,8 +19,10 @@ def fill_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IBulletFormatEffectiveData`](/slides/python-net/aspose.slides/ibulletformateffectivedata)
 * class [`IFillFormatEffectiveData`](/slides/python-net/aspose.slides/ifillformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -13,18 +13,11 @@ Represents a collection of sections.
 
 The ISectionCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/isectioncollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/isectioncollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/isectioncollection/__getitem__/) |  |
 
 ## Methods
 
@@ -39,6 +32,8 @@ The ISectionCollection type exposes the following members:
 | [`index_of`](/slides/python-net/aspose.slides/isectioncollection/index_of/#isection) | Returns an index of the specified section in the collection. |
 | [`clear`](/slides/python-net/aspose.slides/isectioncollection/clear/#) | Removes all sections from the collection. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

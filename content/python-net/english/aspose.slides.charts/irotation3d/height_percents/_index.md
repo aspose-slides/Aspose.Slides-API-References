@@ -17,12 +17,15 @@ Specifies the height of a 3-D chart as a percentage of the chart width (between 
 @property
 def height_percents(self):
     ...
+
 @height_percents.setter
 def height_percents(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IRotation3D`](/slides/python-net/aspose.slides.charts/irotation3d)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

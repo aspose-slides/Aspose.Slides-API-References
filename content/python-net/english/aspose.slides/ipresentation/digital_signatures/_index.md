@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentation/digital_signatures/
-weight: 140
+weight: 150
 ---
 
 
@@ -19,8 +19,10 @@ def digital_signatures(self):
     ...
 ```
 
+
 ### See Also
 * class [`IDigitalSignatureCollection`](/slides/python-net/aspose.slides/idigitalsignaturecollection)
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -33,3 +33,4 @@ def get_entity(self, absolute_uri):
 * class [`IExternalResourceResolver`](/slides/python-net/aspose.slides.importing/iexternalresourceresolver)
 * module [`aspose.slides.importing`](/slides/python-net/aspose.slides.importing)
 * library [`Aspose.Slides`](/slides/python-net)
+

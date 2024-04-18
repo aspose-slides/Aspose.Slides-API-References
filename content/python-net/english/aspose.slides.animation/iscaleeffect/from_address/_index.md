@@ -17,12 +17,15 @@ Specifies an x/y co-ordinate to start the animation from (in percents).
 @property
 def from_address(self):
     ...
+
 @from_address.setter
 def from_address(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IScaleEffect`](/slides/python-net/aspose.slides.animation/iscaleeffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

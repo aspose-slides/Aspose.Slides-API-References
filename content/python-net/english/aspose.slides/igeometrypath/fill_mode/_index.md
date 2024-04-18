@@ -16,12 +16,15 @@ Sets fill mode
 @property
 def fill_mode(self):
     ...
+
 @fill_mode.setter
 def fill_mode(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

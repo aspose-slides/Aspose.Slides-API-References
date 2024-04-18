@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentation/print/
-weight: 40
+weight: 50
 ---
 
 
@@ -16,7 +16,6 @@ Prints the whole presentation to the default printer.
 def print(self):
     ...
 ```
-
 
 
 
@@ -36,7 +35,6 @@ def print(self, printer_settings):
 | printer_settings | **aspose.pydrawing.Printing.PrinterSettings** | The .NET printer settings to use. |
 
 
-
 ## print {#str}
 Print the whole presentation to the specified printer,
             using the standard (no User Interface) print controller.
@@ -51,7 +49,6 @@ def print(self, printer_name):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | printer_name | **str** | The name of the printer. |
-
 
 
 ## print {#asposepydrawingprintingprintersettings-str}
@@ -76,3 +73,4 @@ def print(self, printer_settings, pres_name):
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

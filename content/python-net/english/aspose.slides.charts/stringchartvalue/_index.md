@@ -25,8 +25,6 @@ The StringChartValue type exposes the following members:
 | [`data`](/slides/python-net/aspose.slides.charts/stringchartvalue/data/) | Returns or sets Data object.<br/>            Read/write **any**. |
 | [`as_cells`](/slides/python-net/aspose.slides.charts/stringchartvalue/as_cells/) | Null value assigning is not allowed.<br/>            Returning value always is not null.<br/>            Read/write [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection). |
 | [`as_literal_string`](/slides/python-net/aspose.slides.charts/stringchartvalue/as_literal_string/) | Returns or sets value as literal string.<br/>            Read/write **str**. |
-| [`as_i_multiple_cell_chart_value`](/slides/python-net/aspose.slides.charts/stringchartvalue/as_i_multiple_cell_chart_value/) |  |
-| [`as_i_base_chart_value`](/slides/python-net/aspose.slides.charts/stringchartvalue/as_i_base_chart_value/) |  |
 
 ## Methods
 
@@ -35,8 +33,10 @@ The StringChartValue type exposes the following members:
 | [`set_from_one_cell`](/slides/python-net/aspose.slides.charts/stringchartvalue/set_from_one_cell/#ichartdatacell) | Sets value from specified cell. |
 | [`get_cells_address_in_workbook`](/slides/python-net/aspose.slides.charts/stringchartvalue/get_cells_address_in_workbook/#) | If DataSourceType property is DataSourceType.Worksheet then this method returns address<br/>            of the cells in workbook which represent the string data. Otherwise return<br/>            empty string. |
 
+
 ### See Also
 * class [`BaseChartValue`](/slides/python-net/aspose.slides.charts/basechartvalue)
 * class [`StringChartValue`](/slides/python-net/aspose.slides.charts/stringchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Describes the percentage of duration decelerate behavior effect.
 @property
 def decelerate(self):
     ...
+
 @decelerate.setter
 def decelerate(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ITiming`](/slides/python-net/aspose.slides.animation/itiming)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

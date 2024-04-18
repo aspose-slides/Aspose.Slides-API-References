@@ -19,12 +19,15 @@ Specifies the time, in milliseconds, after which the transition should start. Th
 @property
 def advance_after_time(self):
     ...
+
 @advance_after_time.setter
 def advance_after_time(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SlideShowTransition`](/slides/python-net/aspose.slides.slideshow/slideshowtransition)
 * module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
 * library [`Aspose.Slides`](/slides/python-net)
+

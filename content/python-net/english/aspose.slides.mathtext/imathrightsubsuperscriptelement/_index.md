@@ -22,7 +22,6 @@ The IMathRightSubSuperscriptElement type exposes the following members:
 | [`subscript`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript/) | Subscript argument |
 | [`superscript`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript/) | Superscript argument |
 | [`align_scripts`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement/align_scripts/) | Specifies the alignment of subscript/superscript. <br/>            When true, subscript and superscript are aligned horizontally to each other.<br/>            When false, they are kerned to the shape of the base.<br/>            Default value is false. |
-| [`as_i_math_element`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement/as_i_math_element/) | Allows to get base IMathElement interface<br/>            [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |
 
 ## Methods
 
@@ -75,6 +74,8 @@ The IMathRightSubSuperscriptElement type exposes the following members:
 | [`underbar`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement/underbar/#) |  |
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/imathrightsubsuperscriptelement/to_box/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

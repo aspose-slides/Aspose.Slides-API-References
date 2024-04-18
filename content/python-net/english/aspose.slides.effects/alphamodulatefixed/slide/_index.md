@@ -16,7 +16,9 @@ def slide(self):
     ...
 ```
 
+
 ### See Also
 * class [`AlphaModulateFixed`](/slides/python-net/aspose.slides.effects/alphamodulatefixed)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

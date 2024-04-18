@@ -17,12 +17,15 @@ Specifies that the equation for the trendline is displayed on the chart (in the 
 @property
 def display_equation(self):
     ...
+
 @display_equation.setter
 def display_equation(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

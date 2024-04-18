@@ -17,12 +17,15 @@ Specifies if shapes on the master slide should be shown on slides or not.
 @property
 def show_master_shapes(self):
     ...
+
 @show_master_shapes.setter
 def show_master_shapes(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -24,8 +24,10 @@ The IChartDataPointLevelsManager type exposes the following members:
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/ichartdatapointlevelsmanager/__getitem__/) |  |
+
 
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

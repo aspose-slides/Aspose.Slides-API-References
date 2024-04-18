@@ -23,7 +23,6 @@ The IFillFormat type exposes the following members:
 | [`pattern_format`](/slides/python-net/aspose.slides/ifillformat/pattern_format/) | Returns the pattern fill format.<br/>            Read-only [`IPatternFormat`](/slides/python-net/aspose.slides/ipatternformat). |
 | [`picture_fill_format`](/slides/python-net/aspose.slides/ifillformat/picture_fill_format/) | Returns the picture fill format.<br/>            Read-only [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat). |
 | [`rotate_with_shape`](/slides/python-net/aspose.slides/ifillformat/rotate_with_shape/) | Determines whether the fill should be rotated with shape.<br/>            Read/write [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
-| [`as_i_fill_param_source`](/slides/python-net/aspose.slides/ifillformat/as_i_fill_param_source/) | Allows to get base IFillParamSource interface.<br/>            Read-only [`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource). |
 
 ## Methods
 
@@ -31,6 +30,8 @@ The IFillFormat type exposes the following members:
 | :- | :- |
 | [`get_effective`](/slides/python-net/aspose.slides/ifillformat/get_effective/#) | Gets effective fill formatting data with the inheritance applied. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

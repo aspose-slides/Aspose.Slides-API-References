@@ -22,11 +22,11 @@ def remove(self, value):
 | :- | :- | :- |
 | value | [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint) | The value. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | The value parameter was not found in the collection. |
+| **RuntimeError(Proxy error(ArgumentException))** | The value parameter was not found in the collection. |
 
 
 
@@ -35,3 +35,4 @@ def remove(self, value):
 * class [`IChartDataPointCollection`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -20,13 +20,16 @@ Specifies the algorithm for converting a color image into a black and white imag
 @property
 def bw_conversion_mode(self):
     ...
+
 @bw_conversion_mode.setter
 def bw_conversion_mode(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`BlackWhiteConversionMode`](/slides/python-net/aspose.slides.export/blackwhiteconversionmode)
 * class [`ITiffOptions`](/slides/python-net/aspose.slides.export/itiffoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

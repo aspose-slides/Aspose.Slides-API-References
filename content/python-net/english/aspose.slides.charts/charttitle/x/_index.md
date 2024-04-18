@@ -17,12 +17,15 @@ Returns or sets the x coordinate of a title as a fraction of the width of the ch
 @property
 def x(self):
     ...
+
 @x.setter
 def x(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartTitle`](/slides/python-net/aspose.slides.charts/charttitle)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

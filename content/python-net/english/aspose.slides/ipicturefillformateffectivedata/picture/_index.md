@@ -19,8 +19,10 @@ def picture(self):
     ...
 ```
 
+
 ### See Also
 * class [`IPictureEffectiveData`](/slides/python-net/aspose.slides/ipictureeffectivedata)
 * class [`IPictureFillFormatEffectiveData`](/slides/python-net/aspose.slides/ipicturefillformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

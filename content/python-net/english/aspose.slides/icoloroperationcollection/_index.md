@@ -13,18 +13,11 @@ Represents a collection of color transform operations.
 
 The IColorOperationCollection type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`as_i_collection`](/slides/python-net/aspose.slides/icoloroperationcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/icoloroperationcollection/as_i_enumerable/) |  |
-
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/icoloroperationcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -38,6 +31,8 @@ The IColorOperationCollection type exposes the following members:
 | [`clear`](/slides/python-net/aspose.slides/icoloroperationcollection/clear/#) | Removes all color operations. |
 | [`clone_t`](/slides/python-net/aspose.slides/icoloroperationcollection/clone_t/#) |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

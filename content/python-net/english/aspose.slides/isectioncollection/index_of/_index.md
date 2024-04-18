@@ -34,3 +34,4 @@ def index_of(self, section):
 * class [`ISectionCollection`](/slides/python-net/aspose.slides/isectioncollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

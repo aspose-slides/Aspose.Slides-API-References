@@ -17,12 +17,15 @@ Returns or sets the miter limit of a line.
 @property
 def miter_limit(self):
     ...
+
 @miter_limit.setter
 def miter_limit(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`LineFormat`](/slides/python-net/aspose.slides/lineformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

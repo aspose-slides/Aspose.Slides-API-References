@@ -22,11 +22,11 @@ def remove(self, author):
 | :- | :- | :- |
 | author | [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor) | The author to remove from a collection. |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentNullException** | Author is `null` |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Author is `null` |
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | Thrown if author is already removed. |
 
 
@@ -37,3 +37,4 @@ def remove(self, author):
 * class [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

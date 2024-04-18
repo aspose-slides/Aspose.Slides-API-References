@@ -33,3 +33,4 @@ def get_rotation(self):
 * class [`ICameraEffectiveData`](/slides/python-net/aspose.slides/icameraeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

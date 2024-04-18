@@ -19,12 +19,15 @@ Specifies a value that shall be used to determine which data points
 @property
 def pie_split_position(self):
     ...
+
 @pie_split_position.setter
 def pie_split_position(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ChartSeriesGroup`](/slides/python-net/aspose.slides.charts/chartseriesgroup)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

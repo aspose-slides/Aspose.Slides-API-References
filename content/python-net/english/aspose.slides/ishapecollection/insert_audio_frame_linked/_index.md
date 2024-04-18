@@ -39,3 +39,4 @@ def insert_audio_frame_linked(self, index, x, y, width, height, fname):
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

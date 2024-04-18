@@ -17,12 +17,15 @@ Gets or sets the password.
 @property
 def password(self):
     ...
+
 @password.setter
 def password(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`LoadOptions`](/slides/python-net/aspose.slides/loadoptions)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

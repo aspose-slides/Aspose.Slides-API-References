@@ -18,11 +18,9 @@ The ISmartArtShape type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`text_frame`](/slides/python-net/aspose.slides.smartart/ismartartshape/text_frame/) | Returns text of the SmartArt shape.<br/>            Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
-| [`as_i_geometry_shape`](/slides/python-net/aspose.slides.smartart/ismartartshape/as_i_geometry_shape/) | Allows to get base IGeometryShape interface.<br/>            Read-only [`IGeometryShape`](/slides/python-net/aspose.slides/igeometryshape). |
 | [`shape_style`](/slides/python-net/aspose.slides.smartart/ismartartshape/shape_style/) |  |
 | [`shape_type`](/slides/python-net/aspose.slides.smartart/ismartartshape/shape_type/) |  |
 | [`adjustments`](/slides/python-net/aspose.slides.smartart/ismartartshape/adjustments/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides.smartart/ismartartshape/as_i_shape/) |  |
 | [`is_text_holder`](/slides/python-net/aspose.slides.smartart/ismartartshape/is_text_holder/) |  |
 | [`placeholder`](/slides/python-net/aspose.slides.smartart/ismartartshape/placeholder/) |  |
 | [`custom_data`](/slides/python-net/aspose.slides.smartart/ismartartshape/custom_data/) |  |
@@ -50,10 +48,7 @@ The ISmartArtShape type exposes the following members:
 | [`is_grouped`](/slides/python-net/aspose.slides.smartart/ismartartshape/is_grouped/) |  |
 | [`black_white_mode`](/slides/python-net/aspose.slides.smartart/ismartartshape/black_white_mode/) |  |
 | [`parent_group`](/slides/python-net/aspose.slides.smartart/ismartartshape/parent_group/) |  |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides.smartart/ismartartshape/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.smartart/ismartartshape/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.smartart/ismartartshape/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.smartart/ismartartshape/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.smartart/ismartartshape/presentation/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides.smartart/ismartartshape/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides.smartart/ismartartshape/hyperlink_mouse_over/) |  |
@@ -65,6 +60,8 @@ The ISmartArtShape type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.smartart/ismartartshape/get_thumbnail/#) |  |
 | [`get_thumbnail`](/slides/python-net/aspose.slides.smartart/ismartartshape/get_thumbnail/#shapethumbnailbounds-float-float) |  |
+| [`get_image`](/slides/python-net/aspose.slides.smartart/ismartartshape/get_image/#) |  |
+| [`get_image`](/slides/python-net/aspose.slides.smartart/ismartartshape/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides.smartart/ismartartshape/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides.smartart/ismartartshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
 | [`get_geometry_paths`](/slides/python-net/aspose.slides.smartart/ismartartshape/get_geometry_paths/#) |  |
@@ -75,6 +72,8 @@ The ISmartArtShape type exposes the following members:
 | [`remove_placeholder`](/slides/python-net/aspose.slides.smartart/ismartartshape/remove_placeholder/#) |  |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides.smartart/ismartartshape/get_base_placeholder/#) |  |
 
+
 ### See Also
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

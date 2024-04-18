@@ -35,8 +35,10 @@ def series_groups(self):
     ...
 ```
 
+
 ### See Also
 * class [`ChartData`](/slides/python-net/aspose.slides.charts/chartdata)
 * class [`IChartSeriesGroupCollection`](/slides/python-net/aspose.slides.charts/ichartseriesgroupcollection)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -81,6 +81,8 @@ The CameraPresetType type exposes the following members:
 | PERSPECTIVE_RELAXED_MODERATELY |  |
 | PERSPECTIVE_RIGHT |  |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

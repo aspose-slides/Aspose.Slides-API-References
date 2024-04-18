@@ -26,7 +26,9 @@ The FontSubstitutionInfo type exposes the following members:
 | [`original_font_name`](/slides/python-net/aspose.slides/fontsubstitutioninfo/original_font_name/) | Indicates source font name in presentation.<br/>            Read-only **str** |
 | [`substituted_font_name`](/slides/python-net/aspose.slides/fontsubstitutioninfo/substituted_font_name/) | Indicates the replacement font name for the original font.<br/>            Read-only **str** |
 
+
 ### See Also
 * class [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

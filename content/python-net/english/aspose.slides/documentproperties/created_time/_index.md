@@ -18,12 +18,15 @@ Returns the date a presentation was created.
 @property
 def created_time(self):
     ...
+
 @created_time.setter
 def created_time(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

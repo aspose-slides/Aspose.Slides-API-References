@@ -45,6 +45,8 @@ The IBasePortionFormatEffectiveData type exposes the following members:
 | [`alternative_language_id`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/alternative_language_id/) | Returns the Id of an alternative language.<br/>            Read-only **str**. |
 | [`spacing`](/slides/python-net/aspose.slides/ibaseportionformateffectivedata/spacing/) | Returns the intercharacter spacing increment.<br/>            Read-only **float**. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

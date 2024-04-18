@@ -16,7 +16,9 @@ def parent_group(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

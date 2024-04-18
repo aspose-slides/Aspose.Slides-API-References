@@ -18,13 +18,12 @@ The IMathBlockCollection type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/as_i_enumerable/) | Allows to get base IEnumerable interface<br/>            **collections.abc.Iterable** |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -38,6 +37,8 @@ The IMathBlockCollection type exposes the following members:
 | [`index_of`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/index_of/#imathblock) | Determines the index of a specific IMathBlock in collection. |
 | [`clear`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/clear/#) | Removes all elements from the collection. |
 
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,13 +17,16 @@ Represents subtype of filter effect.
 @property
 def subtype(self):
     ...
+
 @subtype.setter
 def subtype(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`FilterEffectSubtype`](/slides/python-net/aspose.slides.animation/filtereffectsubtype)
 * class [`IFilterEffect`](/slides/python-net/aspose.slides.animation/ifiltereffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Specifies how many tick labels to skip between label that is drawn. Applied to c
 @property
 def tick_label_spacing(self):
     ...
+
 @tick_label_spacing.setter
 def tick_label_spacing(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

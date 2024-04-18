@@ -17,12 +17,15 @@ This attribute specifies if the effect will repeat until the next click.
 @property
 def repeat_until_next_click(self):
     ...
+
 @repeat_until_next_click.setter
 def repeat_until_next_click(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ITiming`](/slides/python-net/aspose.slides.animation/itiming)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,13 +17,16 @@ Represents the major unit scale for the date axis.
 @property
 def major_unit_scale(self):
     ...
+
 @major_unit_scale.setter
 def major_unit_scale(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * enumeration [`TimeUnitType`](/slides/python-net/aspose.slides.charts/timeunittype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -178,6 +178,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer/) | Represents hyperlink object. |
 | [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager/) | Provide hyperlinks management (adding, removing). |
 | [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries/) | Provide easy access to contained hyperlinks. |
+| [`IImage`](/slides/python-net/aspose.slides/iimage/) | Represents the raster or vector image. |
 | [`IImageCollection`](/slides/python-net/aspose.slides/iimagecollection/) | Represents collection of PPImage. |
 | [`IImageWrapper`](/slides/python-net/aspose.slides/iimagewrapper/) | System.Drawing.Image wrapper for COM interface. |
 | [`IImageWrapperFactory`](/slides/python-net/aspose.slides/iimagewrapperfactory/) | This interface allows to initialize IBitmapWrapper. |
@@ -304,6 +305,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`ImageCollection`](/slides/python-net/aspose.slides/imagecollection/) | Represents collection of PPImage. |
 | [`ImageWrapper`](/slides/python-net/aspose.slides/imagewrapper/) | System.Drawing.Image wrapper for COM interface. |
 | [`ImageWrapperFactory`](/slides/python-net/aspose.slides/imagewrapperfactory/) | This class allows to initialize IBitmapWrapper. |
+| [`Images`](/slides/python-net/aspose.slides/images/) | Methods to instantiate and work with [`IImage`](/slides/python-net/aspose.slides/iimage). |
 | [`InterruptionToken`](/slides/python-net/aspose.slides/interruptiontoken/) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [`InterruptionTokenSource`](/slides/python-net/aspose.slides/interruptiontokensource/) | Represents the source of [`InterruptionToken`](/slides/python-net/aspose.slides/interruptiontoken). |
 | [`InvalidPasswordException`](/slides/python-net/aspose.slides/invalidpasswordexception/) | Exception which thrown when presentation file format is unsupported. |
@@ -442,6 +444,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`GradientShape`](/slides/python-net/aspose.slides/gradientshape/) | Represents the shape of gradient fill. |
 | [`HyperlinkActionType`](/slides/python-net/aspose.slides/hyperlinkactiontype/) | Represents a type of hyperlink action. |
 | [`HyperlinkColorSource`](/slides/python-net/aspose.slides/hyperlinkcolorsource/) | Represents source of hyperlink color. |
+| [`ImageFormat`](/slides/python-net/aspose.slides/imageformat/) | Represents the file format of the image. |
 | [`LightRigPresetType`](/slides/python-net/aspose.slides/lightrigpresettype/) | Constants which define light preset types. |
 | [`LightingDirection`](/slides/python-net/aspose.slides/lightingdirection/) | Constants which define light directions. |
 | [`LineAlignment`](/slides/python-net/aspose.slides/linealignment/) | Represents the lines alignment type. |

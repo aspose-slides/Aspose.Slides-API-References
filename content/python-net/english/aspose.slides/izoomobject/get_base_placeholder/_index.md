@@ -25,3 +25,4 @@ def get_base_placeholder(self):
 * class [`IZoomObject`](/slides/python-net/aspose.slides/izoomobject)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

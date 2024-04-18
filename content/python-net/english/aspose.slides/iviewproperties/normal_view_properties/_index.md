@@ -20,8 +20,10 @@ def normal_view_properties(self):
     ...
 ```
 
+
 ### See Also
 * class [`INormalViewProperties`](/slides/python-net/aspose.slides/inormalviewproperties)
 * class [`IViewProperties`](/slides/python-net/aspose.slides/iviewproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

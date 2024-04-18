@@ -25,3 +25,4 @@ def to_math_array(self):
 * class [`IMathMatrix`](/slides/python-net/aspose.slides.mathtext/imathmatrix)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

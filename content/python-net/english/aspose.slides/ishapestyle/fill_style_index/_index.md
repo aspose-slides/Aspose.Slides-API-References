@@ -20,12 +20,15 @@ Returns or sets shape's fill column index in style matrices.
 @property
 def fill_style_index(self):
     ...
+
 @fill_style_index.setter
 def fill_style_index(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IShapeStyle`](/slides/python-net/aspose.slides/ishapestyle)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

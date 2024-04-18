@@ -26,3 +26,4 @@ def get_cells_address_in_workbook(self):
 * class [`StringChartValue`](/slides/python-net/aspose.slides.charts/stringchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

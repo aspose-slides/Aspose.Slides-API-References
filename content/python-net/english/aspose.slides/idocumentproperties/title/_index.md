@@ -17,12 +17,15 @@ Returns or sets the title of a presentation.
 @property
 def title(self):
     ...
+
 @title.setter
 def title(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

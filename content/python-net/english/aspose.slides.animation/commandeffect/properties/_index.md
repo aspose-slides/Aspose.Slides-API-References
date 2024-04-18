@@ -19,8 +19,10 @@ def properties(self):
     ...
 ```
 
+
 ### See Also
 * class [`CommandEffect`](/slides/python-net/aspose.slides.animation/commandeffect)
 * class [`IBehaviorPropertyCollection`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

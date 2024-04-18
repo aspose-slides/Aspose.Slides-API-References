@@ -37,8 +37,10 @@ The MarkdownSaveOptions type exposes the following members:
 | [`show_slide_number`](/slides/python-net/aspose.slides.export/markdownsaveoptions/show_slide_number/) | Specifies whether the generated document should show number of each slide or not.<br/>            Default is `false`. |
 | [`flavor`](/slides/python-net/aspose.slides.export/markdownsaveoptions/flavor/) | Specifies markdown specification to convert presentation.<br/>            Default is `Multi-markdown`. |
 
+
 ### See Also
 * class [`MarkdownSaveOptions`](/slides/python-net/aspose.slides.export/markdownsaveoptions)
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

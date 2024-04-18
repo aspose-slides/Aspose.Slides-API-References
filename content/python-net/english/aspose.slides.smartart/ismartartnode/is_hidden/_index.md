@@ -19,7 +19,9 @@ def is_hidden(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISmartArtNode`](/slides/python-net/aspose.slides.smartart/ismartartnode)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

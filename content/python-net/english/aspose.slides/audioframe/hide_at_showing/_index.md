@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/audioframe/hide_at_showing/
-weight: 330
+weight: 340
 ---
 
 
@@ -17,12 +17,15 @@ Determines whether an AudioFrame is hidden.
 @property
 def hide_at_showing(self):
     ...
+
 @hide_at_showing.setter
 def hide_at_showing(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`AudioFrame`](/slides/python-net/aspose.slides/audioframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

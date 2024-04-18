@@ -17,19 +17,17 @@ The ICellCollection type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/icellcollection/as_i_slide_component/) | Allows to get base ISlideComponent interface.<br/>            Read-only [`ISlideComponent`](/slides/python-net/aspose.slides/islidecomponent). |
 | [`slide`](/slides/python-net/aspose.slides/icellcollection/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/icellcollection/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/icellcollection/presentation/) |  |
-| [`as_i_collection`](/slides/python-net/aspose.slides/icellcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/icellcollection/as_i_enumerable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/icellcollection/__getitem__/) |  |
+
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

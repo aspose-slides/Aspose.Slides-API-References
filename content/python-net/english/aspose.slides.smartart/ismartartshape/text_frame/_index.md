@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/ismartartshape/text_frame/
-weight: 440
+weight: 450
 ---
 
 
@@ -19,8 +19,10 @@ def text_frame(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISmartArtShape`](/slides/python-net/aspose.slides.smartart/ismartartshape)
 * class [`ITextFrame`](/slides/python-net/aspose.slides/itextframe)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

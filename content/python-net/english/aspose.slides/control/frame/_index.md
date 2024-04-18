@@ -17,13 +17,16 @@ Returns or sets control's frame.
 @property
 def frame(self):
     ...
+
 @frame.setter
 def frame(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Control`](/slides/python-net/aspose.slides/control)
 * class [`IShapeFrame`](/slides/python-net/aspose.slides/ishapeframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

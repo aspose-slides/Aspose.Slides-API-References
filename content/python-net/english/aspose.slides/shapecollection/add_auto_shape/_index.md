@@ -32,7 +32,6 @@ def add_auto_shape(self, shape_type, x, y, width, height):
 | height | **float** | The height of shape's frame. |
 
 
-
 ## add_auto_shape {#shapetype-float-float-float-float-bool}
 Creates a new AutoShape and adds it to the end of the collection.
 
@@ -65,3 +64,4 @@ def add_auto_shape(self, shape_type, x, y, width, height, create_from_template):
 * enumeration [`ShapeType`](/slides/python-net/aspose.slides/shapetype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

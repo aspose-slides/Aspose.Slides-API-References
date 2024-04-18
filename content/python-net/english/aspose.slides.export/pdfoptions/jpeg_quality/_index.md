@@ -29,12 +29,15 @@ The default value is **100** .
 @property
 def jpeg_quality(self):
     ...
+
 @jpeg_quality.setter
 def jpeg_quality(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PdfOptions`](/slides/python-net/aspose.slides.export/pdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

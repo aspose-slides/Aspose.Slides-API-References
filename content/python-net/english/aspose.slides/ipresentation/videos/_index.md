@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentation/videos/
-weight: 340
+weight: 350
 ---
 
 
@@ -19,8 +19,10 @@ def videos(self):
     ...
 ```
 
+
 ### See Also
 * class [`IPresentation`](/slides/python-net/aspose.slides/ipresentation)
 * class [`IVideoCollection`](/slides/python-net/aspose.slides/ivideocollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

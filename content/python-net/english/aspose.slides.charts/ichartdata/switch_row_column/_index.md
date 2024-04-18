@@ -25,3 +25,4 @@ def switch_row_column(self):
 * class [`IChartData`](/slides/python-net/aspose.slides.charts/ichartdata)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

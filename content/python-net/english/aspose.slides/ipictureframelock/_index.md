@@ -28,9 +28,10 @@ The IPictureFrameLock type exposes the following members:
 | [`arrowheads_locked`](/slides/python-net/aspose.slides/ipictureframelock/arrowheads_locked/) | Determines whether a changing arrowheads is forbidden.<br/>            Read/write **bool**. |
 | [`shape_type_locked`](/slides/python-net/aspose.slides/ipictureframelock/shape_type_locked/) | Determines whether a changing of a shape type is forbidden.<br/>            Read/write **bool**. |
 | [`crop_locked`](/slides/python-net/aspose.slides/ipictureframelock/crop_locked/) | Determines whether an image cropping is forbidden.<br/>            Read/write **bool**. |
-| [`as_i_base_shape_lock`](/slides/python-net/aspose.slides/ipictureframelock/as_i_base_shape_lock/) | Allows to get base IBaseShapeLock interface.<br/>            Read-only [`IBaseShapeLock`](/slides/python-net/aspose.slides/ibaseshapelock). |
 | [`no_locks`](/slides/python-net/aspose.slides/ipictureframelock/no_locks/) |  |
+
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

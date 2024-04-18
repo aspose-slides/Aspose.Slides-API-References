@@ -17,13 +17,16 @@ Soft edge.
 @property
 def soft_edge_effect(self):
     ...
+
 @soft_edge_effect.setter
 def soft_edge_effect(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`EffectFormat`](/slides/python-net/aspose.slides/effectformat)
 * class [`ISoftEdge`](/slides/python-net/aspose.slides.effects/isoftedge)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,13 +17,16 @@ Preset.
 @property
 def preset(self):
     ...
+
 @preset.setter
 def preset(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`PresetShadow`](/slides/python-net/aspose.slides.effects/presetshadow)
 * enumeration [`PresetShadowType`](/slides/python-net/aspose.slides/presetshadowtype)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

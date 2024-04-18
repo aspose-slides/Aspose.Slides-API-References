@@ -35,6 +35,8 @@ The IBulletFormat type exposes the following members:
 | [`apply_default_paragraph_indents_shifts`](/slides/python-net/aspose.slides/ibulletformat/apply_default_paragraph_indents_shifts/#) | Sets default non-zero shifts for effective paragraph Indent and MarginLeft when bullets is enabled (like PowerPoint do if enable paragraph bullets/numbering in it). If bullets is disabled then just reset paragraph Indent and MarginLeft (like PowerPoint do if disable paragraph bullets/numbering in it). Indents shifts are applied in regard to current bullet context - IBulletFormat.Type, .NumberedBulletStyle and FontHeight of first portion. Non-zero indents shifts are applied to effective Indent and MarginLeft of current paragraph (make result values to be local values). |
 | [`get_effective`](/slides/python-net/aspose.slides/ibulletformat/get_effective/#) | Gets effective bullet formatting data with the inheritance applied. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

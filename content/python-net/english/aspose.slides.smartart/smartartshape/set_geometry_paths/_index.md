@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartartshape/set_geometry_paths/
-weight: 80
+weight: 90
 ---
 
 
@@ -24,12 +24,12 @@ def set_geometry_paths(self, geometry_paths):
 | :- | :- | :- |
 | geometry_paths | **List[IGeometryPath]** | Array geometry paths |
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.ArgumentException** | No path found |
-| **System.ArgumentException** | Empty path |
+| **RuntimeError(Proxy error(ArgumentException))** | No path found |
+| **RuntimeError(Proxy error(ArgumentException))** | Empty path |
 
 
 
@@ -38,3 +38,4 @@ def set_geometry_paths(self, geometry_paths):
 * class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

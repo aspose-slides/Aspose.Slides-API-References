@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ivideoframe/relative_scale_height/
-weight: 480
+weight: 490
 ---
 
 
@@ -14,12 +14,15 @@ weight: 480
 @property
 def relative_scale_height(self):
     ...
+
 @relative_scale_height.setter
 def relative_scale_height(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IVideoFrame`](/slides/python-net/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

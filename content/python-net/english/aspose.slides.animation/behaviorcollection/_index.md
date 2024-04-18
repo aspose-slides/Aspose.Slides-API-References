@@ -19,13 +19,12 @@ The BehaviorCollection type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.animation/behaviorcollection/count/) | Returns the number of behaviors in a collection.<br/>            Read-only **int**. |
 | [`is_read_only`](/slides/python-net/aspose.slides.animation/behaviorcollection/is_read_only/) | Gets a value indicating whether the **System.Collections.Generic.ICollection`1** is read-only.<br/>            Read-only **bool**. |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides.animation/behaviorcollection/as_i_enumerable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/behaviorcollection/__getitem__/) |  |
 
 ## Methods
 
@@ -40,6 +39,8 @@ The BehaviorCollection type exposes the following members:
 | [`clear`](/slides/python-net/aspose.slides.animation/behaviorcollection/clear/#) | Removes all behaviors from a collection. |
 | [`contains`](/slides/python-net/aspose.slides.animation/behaviorcollection/contains/#ibehavior) | Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value. |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -64,12 +64,7 @@ The OleObjectFrame type exposes the following members:
 | [`embedded_data`](/slides/python-net/aspose.slides/oleobjectframe/embedded_data/) | Gets or sets information about OLE embedded data.<br/>            Read/write [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo). |
 | [`is_object_icon`](/slides/python-net/aspose.slides/oleobjectframe/is_object_icon/) | Determines whether an object is visible as icon.<br/>            Read/write **bool**. |
 | [`is_object_link`](/slides/python-net/aspose.slides/oleobjectframe/is_object_link/) | Determines whether an object is linked to external file.<br/>            Read-only **bool**. |
-| [`as_i_graphical_object`](/slides/python-net/aspose.slides/oleobjectframe/as_i_graphical_object/) | Allows to get base IGraphicalObject interface.<br/>            Read-only [`IGraphicalObject`](/slides/python-net/aspose.slides/igraphicalobject). |
 | [`update_automatic`](/slides/python-net/aspose.slides/oleobjectframe/update_automatic/) | Determines if the linked embedded object is automatically updated when the presentation is opened or printed.<br/>            Read/write **bool**. |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/oleobjectframe/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/oleobjectframe/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/oleobjectframe/as_i_presentation_component/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/oleobjectframe/as_i_shape/) |  |
 
 ## Methods
 
@@ -77,6 +72,8 @@ The OleObjectFrame type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/oleobjectframe/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/oleobjectframe/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
+| [`get_image`](/slides/python-net/aspose.slides/oleobjectframe/get_image/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [`get_image`](/slides/python-net/aspose.slides/oleobjectframe/get_image/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/oleobjectframe/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/oleobjectframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/oleobjectframe/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
@@ -84,9 +81,11 @@ The OleObjectFrame type exposes the following members:
 | [`get_base_placeholder`](/slides/python-net/aspose.slides/oleobjectframe/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
 | [`set_embedded_data`](/slides/python-net/aspose.slides/oleobjectframe/set_embedded_data/#ioleembeddeddatainfo) | Sets information about OLE embedded data.<br/>            <br/>            This method changes the properties of the object to reflect the new data and <br/>            sets the IsObjectLink flag to false, indicating that the OLE object is embedded. |
 
+
 ### See Also
 * class [`GraphicalObject`](/slides/python-net/aspose.slides/graphicalobject)
 * class [`OleObjectFrame`](/slides/python-net/aspose.slides/oleobjectframe)
 * class [`Shape`](/slides/python-net/aspose.slides/shape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

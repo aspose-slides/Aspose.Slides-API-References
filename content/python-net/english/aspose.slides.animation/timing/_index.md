@@ -31,6 +31,8 @@ The Timing type exposes the following members:
 | [`trigger_delay_time`](/slides/python-net/aspose.slides.animation/timing/trigger_delay_time/) | Describes delay time after trigger.<br/>            Read/write **float**. |
 | [`trigger_type`](/slides/python-net/aspose.slides.animation/timing/trigger_type/) | Describes trigger type.<br/>            Read/write [`EffectTriggerType`](/slides/python-net/aspose.slides.animation/effecttriggertype). |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

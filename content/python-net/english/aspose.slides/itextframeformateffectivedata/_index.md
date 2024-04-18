@@ -35,7 +35,9 @@ The ITextFrameFormatEffectiveData type exposes the following members:
 
 This interface is used together with the [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat) interface to return effective formatting values with inheritance applied.
 
+
 ### See Also
 * class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

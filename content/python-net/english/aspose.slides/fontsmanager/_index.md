@@ -34,6 +34,8 @@ The FontsManager type exposes the following members:
 | [`get_embedded_fonts`](/slides/python-net/aspose.slides/fontsmanager/get_embedded_fonts/#) | Returns the fonts embedded in the presentation |
 | [`remove_embedded_font`](/slides/python-net/aspose.slides/fontsmanager/remove_embedded_font/#ifontdata) | Removes the embedded font |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

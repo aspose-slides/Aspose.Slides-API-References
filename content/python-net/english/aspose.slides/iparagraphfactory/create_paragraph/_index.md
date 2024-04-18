@@ -24,7 +24,6 @@ def create_paragraph(self):
 
 
 
-
 ## create_paragraph {#iparagraph}
 Creates a new paragraph with specified paragraph data using.
 
@@ -51,3 +50,4 @@ def create_paragraph(self, paragraph):
 * class [`IParagraphFactory`](/slides/python-net/aspose.slides/iparagraphfactory)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

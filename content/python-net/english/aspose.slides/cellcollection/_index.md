@@ -19,17 +19,15 @@ The CellCollection type exposes the following members:
 | :- | :- |
 | [`slide`](/slides/python-net/aspose.slides/cellcollection/slide/) | Returns the parent slide of a CellCollection.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
 | [`presentation`](/slides/python-net/aspose.slides/cellcollection/presentation/) | Returns the parent presentation of a CellCollection.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/cellcollection/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/cellcollection/as_i_presentation_component/) |  |
-| [`as_i_collection`](/slides/python-net/aspose.slides/cellcollection/as_i_collection/) |  |
-| [`as_i_enumerable`](/slides/python-net/aspose.slides/cellcollection/as_i_enumerable/) |  |
 
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [index] |  |
+| [`[index]`](/slides/python-net/aspose.slides/cellcollection/__getitem__/) |  |
+
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

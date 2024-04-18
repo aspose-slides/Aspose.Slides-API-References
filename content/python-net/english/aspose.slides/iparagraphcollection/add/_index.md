@@ -23,7 +23,6 @@ def add(self, value):
 | value | [`IParagraph`](/slides/python-net/aspose.slides/iparagraph) | The Paragraph to be added to the end of the collection. |
 
 
-
 ## add {#iparagraphcollection}
 Adds a content of ParagraphCollection to the end of collection.
 
@@ -50,3 +49,4 @@ def add(self, value):
 * class [`IParagraphCollection`](/slides/python-net/aspose.slides/iparagraphcollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

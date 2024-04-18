@@ -17,12 +17,15 @@ Determines whether other chart elements shall be allowed to overlap legend.
 @property
 def overlay(self):
     ...
+
 @overlay.setter
 def overlay(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ILegend`](/slides/python-net/aspose.slides.charts/ilegend)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

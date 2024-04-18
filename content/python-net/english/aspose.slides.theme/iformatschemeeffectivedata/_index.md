@@ -27,7 +27,9 @@ The IFormatSchemeEffectiveData type exposes the following members:
 
 This interface is used as a part of [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata).
 
+
 ### See Also
 * class [`IThemeEffectiveData`](/slides/python-net/aspose.slides.theme/ithemeeffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

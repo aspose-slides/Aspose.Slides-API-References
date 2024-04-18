@@ -16,9 +16,11 @@ Base slide show settings. Ancestors represent types of the slide show:
 
 The SlideShowType type exposes the following members:
 
+
 ### See Also
 * class [`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk)
 * class [`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual)
 * class [`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

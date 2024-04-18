@@ -30,3 +30,4 @@ def get_rect(self):
 * class [`IParagraph`](/slides/python-net/aspose.slides/iparagraph)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

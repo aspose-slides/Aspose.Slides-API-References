@@ -33,3 +33,4 @@ def to_box(self):
 * class [`MathBar`](/slides/python-net/aspose.slides.mathtext/mathbar)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -18,12 +18,15 @@ Returns or sets the minimal font size, for which kerning should be switched on.
 @property
 def kerning_minimal_size(self):
     ...
+
 @kerning_minimal_size.setter
 def kerning_minimal_size(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IBasePortionFormat`](/slides/python-net/aspose.slides/ibaseportionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

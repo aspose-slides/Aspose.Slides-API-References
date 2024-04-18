@@ -17,12 +17,15 @@ Returns or sets the position (0..1) of a gradient stop.
 @property
 def position(self):
     ...
+
 @position.setter
 def position(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IGradientStop`](/slides/python-net/aspose.slides/igradientstop)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

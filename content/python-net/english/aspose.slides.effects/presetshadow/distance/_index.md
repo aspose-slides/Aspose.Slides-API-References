@@ -17,12 +17,15 @@ Distance of shadow.
 @property
 def distance(self):
     ...
+
 @distance.setter
 def distance(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`PresetShadow`](/slides/python-net/aspose.slides.effects/presetshadow)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
+

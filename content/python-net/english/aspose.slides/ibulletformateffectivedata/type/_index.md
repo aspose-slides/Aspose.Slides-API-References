@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ibulletformateffectivedata/type/
-weight: 120
+weight: 110
 ---
 
 
@@ -19,8 +19,10 @@ def type(self):
     ...
 ```
 
+
 ### See Also
 * enumeration [`BulletType`](/slides/python-net/aspose.slides/bullettype)
 * class [`IBulletFormatEffectiveData`](/slides/python-net/aspose.slides/ibulletformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

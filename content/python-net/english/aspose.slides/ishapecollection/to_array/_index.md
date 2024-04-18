@@ -24,7 +24,6 @@ def to_array(self):
 
 
 
-
 ## to_array {#int-int}
 Creates and returns an array with all shapes from the specified range in it.
 
@@ -52,3 +51,4 @@ def to_array(self, start_index, count):
 * class [`IShapeCollection`](/slides/python-net/aspose.slides/ishapecollection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

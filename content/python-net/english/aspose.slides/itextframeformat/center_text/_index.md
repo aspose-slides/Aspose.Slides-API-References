@@ -17,13 +17,16 @@ If NullableBool.True then text should be centered in box horizontally.
 @property
 def center_text(self):
     ...
+
 @center_text.setter
 def center_text(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat)
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

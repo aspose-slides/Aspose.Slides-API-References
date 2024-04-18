@@ -30,3 +30,4 @@ def to_math_array(self):
 * class [`MathArray`](/slides/python-net/aspose.slides.mathtext/matharray)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

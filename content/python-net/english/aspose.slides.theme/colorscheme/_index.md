@@ -31,9 +31,9 @@ The ColorScheme type exposes the following members:
 | [`followed_hyperlink`](/slides/python-net/aspose.slides.theme/colorscheme/followed_hyperlink/) | Color for the visited hyperlinks.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
 | [`slide`](/slides/python-net/aspose.slides.theme/colorscheme/slide/) | Returns the parent slide.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
 | [`presentation`](/slides/python-net/aspose.slides.theme/colorscheme/presentation/) | Returns the parent presentation.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.theme/colorscheme/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.theme/colorscheme/as_i_presentation_component/) |  |
+
 
 ### See Also
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

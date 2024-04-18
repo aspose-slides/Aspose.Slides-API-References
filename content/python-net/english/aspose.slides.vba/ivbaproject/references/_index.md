@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.vba/ivbaproject/references/
-weight: 40
+weight: 50
 ---
 
 
@@ -19,8 +19,10 @@ def references(self):
     ...
 ```
 
+
 ### See Also
 * class [`IVbaProject`](/slides/python-net/aspose.slides.vba/ivbaproject)
 * class [`IVbaReferenceCollection`](/slides/python-net/aspose.slides.vba/ivbareferencecollection)
 * module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
 * library [`Aspose.Slides`](/slides/python-net)
+

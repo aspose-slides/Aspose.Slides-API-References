@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/presentation/sections/
-weight: 300
+weight: 310
 ---
 
 
@@ -19,8 +19,10 @@ def sections(self):
     ...
 ```
 
+
 ### See Also
 * class [`ISectionCollection`](/slides/python-net/aspose.slides/isectioncollection)
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

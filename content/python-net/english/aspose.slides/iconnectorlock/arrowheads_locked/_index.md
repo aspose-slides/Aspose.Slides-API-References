@@ -17,12 +17,15 @@ Determines whether a changing arrowheads is forbidden.
 @property
 def arrowheads_locked(self):
     ...
+
 @arrowheads_locked.setter
 def arrowheads_locked(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IConnectorLock`](/slides/python-net/aspose.slides/iconnectorlock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

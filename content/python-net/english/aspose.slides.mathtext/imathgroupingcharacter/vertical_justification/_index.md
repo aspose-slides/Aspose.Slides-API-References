@@ -21,12 +21,15 @@ Vertical justification of group character.
 @property
 def vertical_justification(self):
     ...
+
 @vertical_justification.setter
 def vertical_justification(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IMathGroupingCharacter`](/slides/python-net/aspose.slides.mathtext/imathgroupingcharacter)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -19,8 +19,10 @@ def author(self):
     ...
 ```
 
+
 ### See Also
 * class [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor)
 * class [`ModernComment`](/slides/python-net/aspose.slides/moderncomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

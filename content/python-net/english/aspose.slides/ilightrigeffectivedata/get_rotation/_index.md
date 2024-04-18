@@ -30,3 +30,4 @@ def get_rotation(self):
 * class [`ILightRigEffectiveData`](/slides/python-net/aspose.slides/ilightrigeffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

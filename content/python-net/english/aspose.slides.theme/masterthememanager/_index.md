@@ -21,7 +21,6 @@ The MasterThemeManager type exposes the following members:
 | :- | :- |
 | [`override_theme`](/slides/python-net/aspose.slides.theme/masterthememanager/override_theme/) | Returns the overriding theme object.<br/>            Read/write [`IMasterTheme`](/slides/python-net/aspose.slides.theme/imastertheme). |
 | [`is_override_theme_enabled`](/slides/python-net/aspose.slides.theme/masterthememanager/is_override_theme_enabled/) | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not.<br/>            Read/write **bool**. |
-| [`as_i_theme_manager`](/slides/python-net/aspose.slides.theme/masterthememanager/as_i_theme_manager/) |  |
 
 ## Methods
 
@@ -30,8 +29,10 @@ The MasterThemeManager type exposes the following members:
 | [`create_theme_effective`](/slides/python-net/aspose.slides.theme/masterthememanager/create_theme_effective/#) | Returns the theme object. |
 | [`apply_color_scheme`](/slides/python-net/aspose.slides.theme/masterthememanager/apply_color_scheme/#iextracolorscheme) | Applies extra color scheme to a slide. |
 
+
 ### See Also
 * class [`BaseThemeManager`](/slides/python-net/aspose.slides.theme/basethememanager)
 * class [`MasterThemeManager`](/slides/python-net/aspose.slides.theme/masterthememanager)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

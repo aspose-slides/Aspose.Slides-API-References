@@ -22,15 +22,13 @@ The IDataTable type exposes the following members:
 | [`has_border_outline`](/slides/python-net/aspose.slides.charts/idatatable/has_border_outline/) | True if the chart data table has outline borders.<br/>            Read/write **bool**. |
 | [`has_border_vertical`](/slides/python-net/aspose.slides.charts/idatatable/has_border_vertical/) | True if the chart data table has vertical cell borders.<br/>            Read/write **bool**. |
 | [`show_legend_key`](/slides/python-net/aspose.slides.charts/idatatable/show_legend_key/) | True if the data label legend key is visible.<br/>            Read/write **bool**. |
-| [`as_i_formatted_text_container`](/slides/python-net/aspose.slides.charts/idatatable/as_i_formatted_text_container/) | Allows to get base IFormattedTextContainer interface.<br/>            Read-only [`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer). |
 | [`text_format`](/slides/python-net/aspose.slides.charts/idatatable/text_format/) |  |
-| [`as_i_chart_component`](/slides/python-net/aspose.slides.charts/idatatable/as_i_chart_component/) |  |
 | [`chart`](/slides/python-net/aspose.slides.charts/idatatable/chart/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides.charts/idatatable/as_i_slide_component/) |  |
 | [`slide`](/slides/python-net/aspose.slides.charts/idatatable/slide/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides.charts/idatatable/as_i_presentation_component/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/idatatable/presentation/) |  |
+
 
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -17,12 +17,15 @@ Strikethrough Top-Left to Bottom-Right (default is false).
 @property
 def strikethrough_top_left_to_bottom_right(self):
     ...
+
 @strikethrough_top_left_to_bottom_right.setter
 def strikethrough_top_left_to_bottom_right(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`MathBorderBox`](/slides/python-net/aspose.slides.mathtext/mathborderbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

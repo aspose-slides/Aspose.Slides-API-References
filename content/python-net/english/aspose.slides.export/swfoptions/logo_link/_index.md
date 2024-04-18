@@ -17,12 +17,15 @@ Gets or sets the full hyperlink address for a logo.
 @property
 def logo_link(self):
     ...
+
 @logo_link.setter
 def logo_link(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`SwfOptions`](/slides/python-net/aspose.slides.export/swfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -51,7 +51,9 @@ This class is used to return and manipulate paragraph formatting properties defi
 In order to get the effective formatting parameter values including inherited you need to use [`IParagraphFormat.get_effective`](/slides/python-net/aspose.slides/iparagraphformat/get_effective) method 
             which returns a [`IParagraphFormatEffectiveData`](/slides/python-net/aspose.slides/iparagraphformateffectivedata) instance.
 
+
 ### See Also
 * class [`IParagraphFormatEffectiveData`](/slides/python-net/aspose.slides/iparagraphformateffectivedata)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

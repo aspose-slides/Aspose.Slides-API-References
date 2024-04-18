@@ -21,6 +21,8 @@ The AnimationTimeLine type exposes the following members:
 | [`main_sequence`](/slides/python-net/aspose.slides.animation/animationtimeline/main_sequence/) | Returns main sequence which may contain only main effects collection.<br/>            Read-only [`ISequence`](/slides/python-net/aspose.slides.animation/isequence). |
 | [`text_animation_collection`](/slides/python-net/aspose.slides.animation/animationtimeline/text_animation_collection/) | Returns collection of text animations.<br/>            Read-only [`ITextAnimationCollection`](/slides/python-net/aspose.slides.animation/itextanimationcollection). |
 
+
 ### See Also
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

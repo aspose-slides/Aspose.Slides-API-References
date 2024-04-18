@@ -23,7 +23,6 @@ def to_svg(self, pres_path):
 | pres_path | **str** | Path of the input presentation |
 
 
-
 ## to_svg {#presentation-asposeslidesexportisvgoptions}
 Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to SVG.
 
@@ -47,3 +46,4 @@ def to_svg(self, pres, options):
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)
 * module [`aspose.slides.lowcode`](/slides/python-net/aspose.slides.lowcode)
 * library [`Aspose.Slides`](/slides/python-net)
+

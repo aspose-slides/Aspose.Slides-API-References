@@ -14,12 +14,15 @@ weight: 200
 @property
 def is_hard_underline_line(self):
     ...
+
 @is_hard_underline_line.setter
 def is_hard_underline_line(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

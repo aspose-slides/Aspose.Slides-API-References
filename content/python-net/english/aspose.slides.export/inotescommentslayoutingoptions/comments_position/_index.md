@@ -21,12 +21,15 @@ Default is **CommentsPositions.None** .
 @property
 def comments_position(self):
     ...
+
 @comments_position.setter
 def comments_position(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

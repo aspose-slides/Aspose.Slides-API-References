@@ -17,12 +17,15 @@ Returns or sets the literal string if DataSourceType property is DataSourceType.
 @property
 def as_literal_string(self):
     ...
+
 @as_literal_string.setter
 def as_literal_string(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IStringChartValue`](/slides/python-net/aspose.slides.charts/istringchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

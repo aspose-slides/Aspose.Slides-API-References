@@ -28,7 +28,6 @@ def set_lower_limit(self, limit):
 | limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | limit |
 
 
-
 ## set_lower_limit {#str}
 Takes lower limit
 
@@ -56,3 +55,4 @@ def set_lower_limit(self, limit):
 * class [`MathBox`](/slides/python-net/aspose.slides.mathtext/mathbox)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
+

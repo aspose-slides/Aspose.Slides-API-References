@@ -17,13 +17,16 @@ Specifies the scaling value of the display units for the value axis.
 @property
 def display_unit(self):
     ...
+
 @display_unit.setter
 def display_unit(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`Axis`](/slides/python-net/aspose.slides.charts/axis)
 * enumeration [`DisplayUnitType`](/slides/python-net/aspose.slides.charts/displayunittype)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

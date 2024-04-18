@@ -30,7 +30,6 @@ def add_data_point_for_stock_series(self, value):
 | value | [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) | Data point Value. |
 
 
-
 ## add_data_point_for_stock_series {#float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Stock subtypes 
@@ -60,3 +59,4 @@ def add_data_point_for_stock_series(self, value):
 * class [`IChartDataPoint`](/slides/python-net/aspose.slides.charts/ichartdatapoint)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

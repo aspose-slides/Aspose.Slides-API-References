@@ -18,12 +18,15 @@ Returns or sets the bullet height of a paragraph with no inheritance.
 @property
 def height(self):
     ...
+
 @height.setter
 def height(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IBulletFormat`](/slides/python-net/aspose.slides/ibulletformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

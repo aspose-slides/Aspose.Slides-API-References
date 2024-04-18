@@ -19,8 +19,10 @@ def effect(self):
     ...
 ```
 
+
 ### See Also
 * class [`AxisFormat`](/slides/python-net/aspose.slides.charts/axisformat)
 * class [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

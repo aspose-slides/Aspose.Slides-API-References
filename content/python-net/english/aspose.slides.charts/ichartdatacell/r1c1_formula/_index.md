@@ -16,12 +16,15 @@ Gets or sets the formula in R1C1-style.
 @property
 def r1c1_formula(self):
     ...
+
 @r1c1_formula.setter
 def r1c1_formula(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

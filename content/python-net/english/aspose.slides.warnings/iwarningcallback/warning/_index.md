@@ -35,3 +35,4 @@ def warning(self, warning):
 * enumeration [`ReturnAction`](/slides/python-net/aspose.slides.warnings/returnaction)
 * module [`aspose.slides.warnings`](/slides/python-net/aspose.slides.warnings)
 * library [`Aspose.Slides`](/slides/python-net)
+

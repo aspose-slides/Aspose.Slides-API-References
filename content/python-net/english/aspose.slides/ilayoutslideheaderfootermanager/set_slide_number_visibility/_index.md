@@ -28,3 +28,4 @@ def set_slide_number_visibility(self, is_visible):
 * class [`ILayoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/ilayoutslideheaderfootermanager)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

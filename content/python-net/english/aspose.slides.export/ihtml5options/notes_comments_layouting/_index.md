@@ -17,13 +17,16 @@ Provides options that control how notes and comments is placed in exported docum
 @property
 def notes_comments_layouting(self):
     ...
+
 @notes_comments_layouting.setter
 def notes_comments_layouting(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`IHtml5Options`](/slides/python-net/aspose.slides.export/ihtml5options)
 * class [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+

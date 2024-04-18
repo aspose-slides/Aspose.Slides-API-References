@@ -34,3 +34,4 @@ def get_line_styles(self, style_color):
 * class [`ILineFormatCollectionEffectiveData`](/slides/python-net/aspose.slides.theme/ilineformatcollectioneffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
+

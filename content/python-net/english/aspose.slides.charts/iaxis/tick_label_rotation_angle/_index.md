@@ -17,12 +17,15 @@ Represents the rotation angle of tick labels
 @property
 def tick_label_rotation_angle(self):
     ...
+
 @tick_label_rotation_angle.setter
 def tick_label_rotation_angle(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IAxis`](/slides/python-net/aspose.slides.charts/iaxis)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

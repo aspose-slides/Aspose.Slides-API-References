@@ -17,13 +17,16 @@ Specifies which direction to cycle the hue around the color wheel.
 @property
 def direction(self):
     ...
+
 @direction.setter
 def direction(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`ColorDirection`](/slides/python-net/aspose.slides.animation/colordirection)
 * class [`IColorEffect`](/slides/python-net/aspose.slides.animation/icoloreffect)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

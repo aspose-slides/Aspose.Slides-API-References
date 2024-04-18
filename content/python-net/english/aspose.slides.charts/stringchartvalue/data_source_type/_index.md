@@ -26,13 +26,16 @@ For points in ChartDataPointCollection this property is read-only.
 @property
 def data_source_type(self):
     ...
+
 @data_source_type.setter
 def data_source_type(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype)
 * class [`StringChartValue`](/slides/python-net/aspose.slides.charts/stringchartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartartshape/effect_format/
-weight: 210
+weight: 220
 ---
 
 
@@ -20,8 +20,10 @@ def effect_format(self):
     ...
 ```
 
+
 ### See Also
 * class [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat)
 * class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
+

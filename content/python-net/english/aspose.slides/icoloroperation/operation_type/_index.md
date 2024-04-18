@@ -19,8 +19,10 @@ def operation_type(self):
     ...
 ```
 
+
 ### See Also
 * enumeration [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation)
 * class [`IColorOperation`](/slides/python-net/aspose.slides/icoloroperation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -22,6 +22,8 @@ The ISvgImage type exposes the following members:
 | [`external_resource_resolver`](/slides/python-net/aspose.slides/isvgimage/external_resource_resolver/) | Return callback interface used to resolve external resources during SVG documents import.<br/>            Read-only **IExternalResourceResolver**. |
 | [`base_uri`](/slides/python-net/aspose.slides/isvgimage/base_uri/) | Returns base URI of the specified SVG. Used to resolve relative links.<br/>            Read-only **str**. |
 
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

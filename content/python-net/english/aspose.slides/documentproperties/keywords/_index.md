@@ -17,12 +17,15 @@ Returns or sets the keywords of a presentation.
 @property
 def keywords(self):
     ...
+
 @keywords.setter
 def keywords(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

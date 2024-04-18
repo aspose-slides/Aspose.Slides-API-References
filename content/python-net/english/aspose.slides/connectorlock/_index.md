@@ -30,10 +30,11 @@ The ConnectorLock type exposes the following members:
 | [`adjust_handles_locked`](/slides/python-net/aspose.slides/connectorlock/adjust_handles_locked/) | Determines whether a changing adjust values is forbidden.<br/>            Read/write **bool**. |
 | [`arrowheads_locked`](/slides/python-net/aspose.slides/connectorlock/arrowheads_locked/) | Determines whether a changing arrowheads is forbidden.<br/>            Read/write **bool**. |
 | [`shape_type_locked`](/slides/python-net/aspose.slides/connectorlock/shape_type_locked/) | Determines whether a changing of a shape type is forbidden.<br/>            Read/write **bool**. |
-| [`as_i_base_shape_lock`](/slides/python-net/aspose.slides/connectorlock/as_i_base_shape_lock/) |  |
+
 
 ### See Also
 * class [`BaseShapeLock`](/slides/python-net/aspose.slides/baseshapelock)
 * class [`ConnectorLock`](/slides/python-net/aspose.slides/connectorlock)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

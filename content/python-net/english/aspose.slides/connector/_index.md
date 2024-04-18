@@ -59,11 +59,6 @@ The Connector type exposes the following members:
 | [`end_shape_connected_to`](/slides/python-net/aspose.slides/connector/end_shape_connected_to/) | Returns or sets the shape to attach the end of the connector to.<br/>            Read/write [`IShape`](/slides/python-net/aspose.slides/ishape). |
 | [`start_shape_connection_site_index`](/slides/python-net/aspose.slides/connector/start_shape_connection_site_index/) | Returns or sets the index of connection site for start shape.<br/>            Read/write **int**. |
 | [`end_shape_connection_site_index`](/slides/python-net/aspose.slides/connector/end_shape_connection_site_index/) | Returns or sets the index of connection site for end shape.<br/>            Read/write **int**. |
-| [`as_i_hyperlink_container`](/slides/python-net/aspose.slides/connector/as_i_hyperlink_container/) |  |
-| [`as_i_slide_component`](/slides/python-net/aspose.slides/connector/as_i_slide_component/) |  |
-| [`as_i_presentation_component`](/slides/python-net/aspose.slides/connector/as_i_presentation_component/) |  |
-| [`as_i_shape`](/slides/python-net/aspose.slides/connector/as_i_shape/) |  |
-| [`as_i_geometry_shape`](/slides/python-net/aspose.slides/connector/as_i_geometry_shape/) |  |
 
 ## Methods
 
@@ -71,6 +66,8 @@ The Connector type exposes the following members:
 | :- | :- |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/connector/get_thumbnail/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [`get_thumbnail`](/slides/python-net/aspose.slides/connector/get_thumbnail/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
+| [`get_image`](/slides/python-net/aspose.slides/connector/get_image/#) | Returns shape thumbnail.<br/>            ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [`get_image`](/slides/python-net/aspose.slides/connector/get_image/#shapethumbnailbounds-float-float) | Returns shape thumbnail. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/connector/write_as_svg/#iorawiobase) | Saves content of Shape as SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/connector/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/connector/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
@@ -82,9 +79,11 @@ The Connector type exposes the following members:
 | [`create_shape_elements`](/slides/python-net/aspose.slides/connector/create_shape_elements/#) | Creates and returns array of shape's elements. |
 | [`reroute`](/slides/python-net/aspose.slides/connector/reroute/#) | Reroutes connector so that it take the shortest possible path between the shapes it connect. |
 
+
 ### See Also
 * class [`Connector`](/slides/python-net/aspose.slides/connector)
 * class [`GeometryShape`](/slides/python-net/aspose.slides/geometryshape)
 * class [`Shape`](/slides/python-net/aspose.slides/shape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

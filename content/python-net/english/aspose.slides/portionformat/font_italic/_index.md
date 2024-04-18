@@ -17,13 +17,16 @@ Determines whether the font is itallic. No inheritance applied.
 @property
 def font_italic(self):
     ...
+
 @font_italic.setter
 def font_italic(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`NullableBool`](/slides/python-net/aspose.slides/nullablebool)
 * class [`PortionFormat`](/slides/python-net/aspose.slides/portionformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

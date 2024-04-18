@@ -18,7 +18,7 @@ def calculate_formulas(self):
 ```
 
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
@@ -33,3 +33,4 @@ def calculate_formulas(self):
 * class [`IChartDataWorkbook`](/slides/python-net/aspose.slides.charts/ichartdataworkbook)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
+

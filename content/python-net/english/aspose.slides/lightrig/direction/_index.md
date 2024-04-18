@@ -17,13 +17,16 @@ Light direction.
 @property
 def direction(self):
     ...
+
 @direction.setter
 def direction(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`LightingDirection`](/slides/python-net/aspose.slides/lightingdirection)
 * class [`LightRig`](/slides/python-net/aspose.slides/lightrig)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

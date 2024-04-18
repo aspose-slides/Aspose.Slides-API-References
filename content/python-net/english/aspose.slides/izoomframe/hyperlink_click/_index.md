@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/izoomframe/hyperlink_click/
-weight: 230
+weight: 240
 ---
 
 
@@ -14,12 +14,15 @@ weight: 230
 @property
 def hyperlink_click(self):
     ...
+
 @hyperlink_click.setter
 def hyperlink_click(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`IZoomFrame`](/slides/python-net/aspose.slides/izoomframe)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

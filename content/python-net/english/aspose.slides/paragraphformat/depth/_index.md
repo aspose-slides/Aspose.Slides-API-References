@@ -14,12 +14,15 @@ weight: 80
 @property
 def depth(self):
     ...
+
 @depth.setter
 def depth(self, value):
     ...
 ```
 
+
 ### See Also
 * class [`ParagraphFormat`](/slides/python-net/aspose.slides/paragraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

@@ -38,12 +38,12 @@ layout_type`
             method **Aspose.Slides.IGlobalLayoutSlideCollection.Add(Aspose.Slides.IMasterSlide,Aspose.Slides.SlideLayoutType,Syste**
             accessed with [`IPresentation.layout_slides`](/slides/python-net/aspose.slides/ipresentation#layout_slides) property.
 
-## Exceptions
+### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **System.NotImplementedException** | Thrown if unsupported value of parameter `<br/>layout_type`<br/> is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| **System.ArgumentException** | Thrown if layout name value `<br/>layout_name`<br/> is already in use in <br/>            this collection of the layouts. |
+| **RuntimeError(Proxy error(NotImplementedException))** | Thrown if unsupported value of parameter `<br/>layout_type`<br/> is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown if layout name value `<br/>layout_name`<br/> is already in use in <br/>            this collection of the layouts. |
 
 
 
@@ -53,3 +53,4 @@ layout_type`
 * enumeration [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

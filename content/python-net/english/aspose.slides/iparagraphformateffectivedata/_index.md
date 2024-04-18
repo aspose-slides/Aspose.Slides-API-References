@@ -40,7 +40,9 @@ The IParagraphFormatEffectiveData type exposes the following members:
 
 This interface is used together with the [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat) interface to return effective formatting values with inheritance applied.
 
+
 ### See Also
 * class [`IParagraphFormat`](/slides/python-net/aspose.slides/iparagraphformat)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
+

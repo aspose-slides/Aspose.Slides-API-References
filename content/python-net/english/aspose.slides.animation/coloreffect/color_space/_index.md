@@ -17,13 +17,16 @@ Represent color space of behavior.
 @property
 def color_space(self):
     ...
+
 @color_space.setter
 def color_space(self, value):
     ...
 ```
+
 
 ### See Also
 * class [`ColorEffect`](/slides/python-net/aspose.slides.animation/coloreffect)
 * enumeration [`ColorSpace`](/slides/python-net/aspose.slides.animation/colorspace)
 * module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
 * library [`Aspose.Slides`](/slides/python-net)
+

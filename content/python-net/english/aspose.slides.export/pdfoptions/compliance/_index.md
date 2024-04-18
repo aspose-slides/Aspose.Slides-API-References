@@ -22,13 +22,16 @@ Default is [`PdfCompliance.PDF17`](/slides/python-net/aspose.slides.export/pdfco
 @property
 def compliance(self):
     ...
+
 @compliance.setter
 def compliance(self, value):
     ...
 ```
+
 
 ### See Also
 * enumeration [`PdfCompliance`](/slides/python-net/aspose.slides.export/pdfcompliance)
 * class [`PdfOptions`](/slides/python-net/aspose.slides.export/pdfoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)
+
