@@ -3,7 +3,7 @@ title: INotesSlideHeaderFooterManager
 second_title: Aspose.Slides for C++ API Reference
 description: Represents manager which holds behavior of the notes slide placeholders, including header placeholder.
 type: docs
-weight: 2848
+weight: 2874
 url: /aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager class

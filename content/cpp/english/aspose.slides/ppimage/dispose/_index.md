@@ -3,7 +3,7 @@ title: Dispose()
 second_title: Aspose.Slides for C++ API Reference
 description: Disposes object.
 type: docs
-weight: 144
+weight: 157
 url: /aspose.slides/ppimage/dispose/
 ---
 ## PPImage::Dispose() method

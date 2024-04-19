@@ -3,7 +3,7 @@ title: IStreamWrapperFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Factory of StreamWrappers. For COM interface.
 type: docs
-weight: 3680
+weight: 3706
 url: /aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory class

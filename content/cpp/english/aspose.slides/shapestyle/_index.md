@@ -3,7 +3,7 @@ title: ShapeStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represent shape's style reference.
 type: docs
-weight: 4889
+weight: 4915
 url: /aspose.slides/shapestyle/
 ---
 ## ShapeStyle class

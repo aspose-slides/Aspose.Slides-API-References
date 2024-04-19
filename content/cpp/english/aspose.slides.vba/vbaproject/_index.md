@@ -25,6 +25,7 @@ class VbaProject : public Aspose::Slides::Vba::IVbaProject
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
+| **bool** [get_IsPasswordProtected](./get_ispasswordprotected/)() override | Indicates whether the VBAProject is protected by a password to view project properties. Read-only **bool**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IVbaModule](../ivbamodule/)\> [get_Module](./get_module/)(**int32_t**) override | Returns the module contained in the VBA project at the specified index. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IVbaModuleCollection](../ivbamodulecollection/)\> [get_Modules](./get_modules/)() override | Returns the list of all modules that are contained in the VBA project. Read-only [IVbaModuleCollection](../ivbamodulecollection/). |
 | [System::String](../../system/string/) [get_Name](./get_name/)() override | Returns the name of the VBA project. Read-only [System::String](../../system/string/). |

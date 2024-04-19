@@ -3,7 +3,7 @@ title: get_IsBulletHardColor()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the bullet has own color or inherits it from the first portion in the paragraph. Returns true if bullet has own color and false if bullet inherits color from the first portion in the paragraph. Read-only bool.
 type: docs
-weight: 105
+weight: 92
 url: /aspose.slides/ibulletformateffectivedata/get_isbullethardcolor/
 ---
 ## IBulletFormatEffectiveData::get_IsBulletHardColor() method

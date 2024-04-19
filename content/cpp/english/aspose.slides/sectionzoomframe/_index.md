@@ -3,7 +3,7 @@ title: SectionZoomFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Section Zoom object in a slide.
 type: docs
-weight: 4811
+weight: 4837
 url: /aspose.slides/sectionzoomframe/
 ---
 ## SectionZoomFrame class
@@ -41,7 +41,6 @@ class SectionZoomFrame : public Aspose::Slides::ZoomObject,
 | [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\> [get_HyperlinkClick](../shape/get_hyperlinkclick/)() override | Returns the hyperlink defined for mouse click. Read [IHyperlink](../ihyperlink/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IHyperlinkManager](../ihyperlinkmanager/)\> [get_HyperlinkManager](../shape/get_hyperlinkmanager/)() override | Returns the hyperlink manager. Read-only [IHyperlinkManager](../ihyperlinkmanager/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\> [get_HyperlinkMouseOver](../shape/get_hyperlinkmouseover/)() override | Returns the hyperlink defined for mouse over. Read [IHyperlink](../ihyperlink/). |
-| [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [get_Image](../zoomobject/get_image/)() override | Gets image for zoom object. Read [IPPImage](../ippimage/). |
 | [ZoomImageType](../zoomimagetype/) [get_ImageType](../zoomobject/get_imagetype/)() override | Gets the image type of a zoom object. Read [ZoomImageType](../zoomimagetype/). Default value: Preview |
 | **bool** [get_IsDecorative](../shape/get_isdecorative/)() override | Gets 'Mark as decorative' option Reed/write **bool**. |
 | **bool** [get_IsGrouped](../shape/get_isgrouped/)() override | Determines whether the shape is grouped. Read-only **bool**. |
@@ -65,10 +64,13 @@ class SectionZoomFrame : public Aspose::Slides::ZoomObject,
 | **float** [get_Width](../shape/get_width/)() override | Returns the width of the shape. Read **float**. |
 | **float** [get_X](../shape/get_x/)() override | Returns the x-coordinate of the upper-left corner of the shape. Read **float**. |
 | **float** [get_Y](../shape/get_y/)() override | Returns the y-coordinate of the upper-left corner of the shape. Read **float**. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [get_ZoomImage](../zoomobject/get_zoomimage/)() override | Gets image for zoom object. Read [IPPImage](../ippimage/). |
 | **int32_t** [get_ZOrderPosition](../shape/get_zorderposition/)() override | Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only **int32_t**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IShape](../ishape/)\> [GetBasePlaceholder](../shape/getbaseplaceholder/)() override | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [GetImage](../shape/getimage/)() override | Returns shape thumbnail. [ShapeThumbnailBounds::Shape](../shapethumbnailbounds/) shape thumbnail bounds type is used by default. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [GetImage](../shape/getimage/)([ShapeThumbnailBounds](../shapethumbnailbounds/), **float**, **float**) override | Returns shape thumbnail. |
 | [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Bitmap](../../system.drawing/bitmap/)\> [GetThumbnail](../shape/getthumbnail/)() override | Returns shape thumbnail. [ShapeThumbnailBounds::Shape](../shapethumbnailbounds/) shape thumbnail bounds type is used by default. |
 | [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Bitmap](../../system.drawing/bitmap/)\> [GetThumbnail](../shape/getthumbnail/)([ShapeThumbnailBounds](../shapethumbnailbounds/), **float**, **float**) override | Returns shape thumbnail. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
@@ -93,7 +95,6 @@ class SectionZoomFrame : public Aspose::Slides::ZoomObject,
 | void [set_Hidden](../shape/set_hidden/)(**bool**) override | Determines whether the shape is hidden. Write **bool**. |
 | void [set_HyperlinkClick](../shape/set_hyperlinkclick/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\>) override | Sets the hyperlink defined for mouse click. Write [IHyperlink](../ihyperlink/). |
 | void [set_HyperlinkMouseOver](../shape/set_hyperlinkmouseover/)([System::SharedPtr](../../system/sharedptr/)\<[IHyperlink](../ihyperlink/)\>) override | Sets the hyperlink defined for mouse over. Write [IHyperlink](../ihyperlink/). |
-| void [set_Image](../zoomobject/set_image/)([System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\>) override | Sets image for zoom object. Write [IPPImage](../ippimage/). |
 | void [set_ImageType](../zoomobject/set_imagetype/)([ZoomImageType](../zoomimagetype/)) override | Sets the image type of a zoom object. Write [ZoomImageType](../zoomimagetype/). Default value: Preview |
 | void [set_IsDecorative](../shape/set_isdecorative/)(**bool**) override | Sets 'Mark as decorative' option Reed/write **bool**. |
 | void [set_Name](../shape/set_name/)([System::String](../../system/string/)) override | Sets the name of a shape. Must be not null. Use empty string value if needed. Write [System::String](../../system/string/). |
@@ -106,6 +107,7 @@ class SectionZoomFrame : public Aspose::Slides::ZoomObject,
 | void [set_Width](../shape/set_width/)(**float**) override | Sets the width of the shape. Write **float**. |
 | void [set_X](../shape/set_x/)(**float**) override | Sets the x-coordinate of the upper-left corner of the shape. Write **float**. |
 | void [set_Y](../shape/set_y/)(**float**) override | Sets the y-coordinate of the upper-left corner of the shape. Write **float**. |
+| void [set_ZoomImage](../zoomobject/set_zoomimage/)([System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\>) override | Sets image for zoom object. Write [IPPImage](../ippimage/). |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |

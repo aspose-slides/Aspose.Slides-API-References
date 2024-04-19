@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Slides for C++ API Reference
 description: This class contains the text style formatting properties.
 type: docs
-weight: 5227
+weight: 5253
 url: /aspose.slides/textstyle/
 ---
 ## TextStyle class

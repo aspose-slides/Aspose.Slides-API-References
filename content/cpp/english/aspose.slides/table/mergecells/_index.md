@@ -3,7 +3,7 @@ title: MergeCells()
 second_title: Aspose.Slides for C++ API Reference
 description: Merges neighbour cells.
 type: docs
-weight: 274
+weight: 261
 url: /aspose.slides/table/mergecells/
 ---
 ## Table::MergeCells(System::SharedPtr\<ICell\>, System::SharedPtr\<ICell\>, bool) method

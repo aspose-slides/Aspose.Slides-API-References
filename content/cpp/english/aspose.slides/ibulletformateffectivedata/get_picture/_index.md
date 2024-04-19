@@ -3,7 +3,7 @@ title: get_Picture()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the picture used as a bullet in the paragraph. Read-only IPictureEffectiveData.
 type: docs
-weight: 131
+weight: 118
 url: /aspose.slides/ibulletformateffectivedata/get_picture/
 ---
 ## IBulletFormatEffectiveData::get_Picture() method

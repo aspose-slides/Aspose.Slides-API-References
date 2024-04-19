@@ -3,7 +3,7 @@ title: get_Password()
 second_title: Aspose.Slides for C++ API Reference
 description: "Setting user password to protect the PDF document. Read System::String."
 type: docs
-weight: 209
+weight: 235
 url: /aspose.slides.export/ipdfoptions/get_password/
 ---
 ## IPdfOptions::get_Password() method

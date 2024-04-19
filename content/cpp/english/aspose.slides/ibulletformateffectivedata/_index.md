@@ -27,7 +27,6 @@ class IBulletFormatEffectiveData : public virtual System::Object
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | virtual [System::String](../../system/string/) [get_ActualBulletValue](./get_actualbulletvalue/)() | Returns actual bullet value for parent paragraph. Read-only [System::String](../../system/string/). |
 | virtual char16_t [get_Char](./get_char/)() | Returns the bullet char of a paragraph. Read-only **wchar_t**. |
-| virtual [System::Drawing::Color](../../system.drawing/color/) [get_Color](./get_color/)() | Returns the color of a bullet. Read-only [System::Drawing::Color](../../system.drawing/color/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IFillFormatEffectiveData](../ifillformateffectivedata/)\> [get_FillFormat](./get_fillformat/)() | Returns the bullet fill format of a paragraph. Read-only [IFillFormatEffectiveData](../ifillformateffectivedata/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\> [get_Font](./get_font/)() | Returns the bullet font of a paragraph. Read-only [IFontData](../ifontdata/). |
 | virtual **float** [get_Height](./get_height/)() | Returns the bullet height of a paragraph. Read-only **float**. |

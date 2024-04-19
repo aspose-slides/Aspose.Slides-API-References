@@ -3,7 +3,7 @@ title: HashSet
 second_title: Aspose.Slides for C++ API Reference
 description: Forward declaration of HashSet class.
 type: docs
-weight: 196
+weight: 209
 url: /system.collections.generic/hashset/
 ---
 ## HashSet class
@@ -12,42 +12,37 @@ url: /system.collections.generic/hashset/
 Forward declaration of [HashSet](./) class.
 
 ```cpp
-template<typename T>class HashSet : public virtual System::Object,
-                                    public System::Collections::Generic::ICollection<T>
+template<typename T>class HashSet : public System::Collections::Generic::BaseSet<T, std::unordered_set<T, EqualityComparerHashAdapter<T>, EqualityComparerAdapter<T>, System::Details::CollectionHelpers::ContainerPointerMode<T>::allocator_type>>
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| void [_add_range](./_add_range/)(std::initializer_list\<T\>) | C++ specific. |
-| void [Add](./add/)(const T\&) override | Adds element into set. |
-| [const_iterator](./const_iterator/) [begin](./begin/)() const | Gets iterator to the first element of the const-qualified collection. |
+| virtual void [Add](../icollection/add/)(const T\&) | Adds element into collection. |
 | [iterator](../ienumerable/iterator/) [begin](../ienumerable/begin/)() | Gets iterator pointing to the first element (if any) of the collection. This iterator can't be used to change a referenced object because [GetEnumerator()](../ienumerable/getenumerator/) returns a copy-object of T. |
-| [const_iterator](./const_iterator/) [cbegin](./cbegin/)() const | Gets iterator to the first const-qualified element of collection. |
-| [const_iterator](./const_iterator/) [cend](./cend/)() const | Gets iterator for a non-existent const-qualified element behind the end of the collection. |
-| void [Clear](./clear/)() override | Deletes all elements in set. |
-| **bool** [Contains](./contains/)(const T\&) const override | Checks if element is present in set. |
-| void [CopyTo](./copyto/)([ArrayPtr](../../system/arrayptr/)\<T\>, int) override | Copies hash contents into existing array elements. |
-| [set_t](./set_t/)\& [data](./data/)() | Underlying data structure accessor. |
-| const [set_t](./set_t/)\& [data](./data/)() const | Underlying data structure accessor. |
-| [const_iterator](./const_iterator/) [end](./end/)() const | Gets iterator for a non-existent element behind the end of the const-qualified collection. |
+| [const_iterator](../ienumerable/const_iterator/) [begin](../ienumerable/begin/)() const | Gets iterator pointing to the first element (if any) of the const-qualified instance of the collection. |
+| [const_iterator](../ienumerable/const_iterator/) [cbegin](../ienumerable/cbegin/)() const | Gets iterator pointing to the first const-qualified element (if any) of the collection. |
+| [const_iterator](../ienumerable/const_iterator/) [cend](../ienumerable/cend/)() const | Gets iterator pointing right after the last const-qualified element (if any) of the collection. |
+| virtual void [Clear](../icollection/clear/)() | Deletes all elements from collection. |
+| virtual **bool** [Contains](../icollection/contains/)(const T\&) const | Checks if element is present in collection. |
+| virtual void [CopyTo](../icollection/copyto/)([System::ArrayPtr](../../system/arrayptr/)\<T\>, int) | Copies all collection elements to existing array elements. |
 | [iterator](../ienumerable/iterator/) [end](../ienumerable/end/)() | Gets iterator pointing right after the last element (if any) of the collection. This iterator can't be used to change a referenced object because [GetEnumerator()](../ienumerable/getenumerator/) returns a copy-object of T. |
+| [const_iterator](../ienumerable/const_iterator/) [end](../ienumerable/end/)() const | Gets iterator pointing right after the last element (if any) of the const-qualified instance of the collection. |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
 | static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |
 | static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares value type objects in C# style. |
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
-| int [get_Count](./get_count/)() const override | Gets number of elements in set. |
-| virtual int [get_Count](./get_count/)() const | Keeping [get_Count()](./get_count/) from hiding. |
+| virtual int [get_Count](../icollection/get_count/)() const | Gets number of elements in collection. |
 | virtual **bool** [get_IsReadOnly](../icollection/get_isreadonly/)() const | Checks if collection is read only. |
 | [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\> [get_SyncRoot](../icollection/get_syncroot/)() const | Gets the object the collection is being synchronized through. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
-| [IEnumeratorPtr](./ienumeratorptr/) [GetEnumerator](./getenumerator/)() override | Creates enumerator. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[IEnumerator](../ienumerator/)\<T\>\> [GetEnumerator](../ienumerable/getenumerator/)() | Gets enumerator. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
-|  [HashSet](./hashset/)() | Creates empty set. |
+|  [HashSet](./hashset/)() | RTTI information. |
 |  [HashSet](./hashset/)(int) | Creates empty set with specified capacity. |
 |  [HashSet](./hashset/)(const [SharedPtr](../../system/sharedptr/)\<[IEqualityComparer](../iequalitycomparer/)\<T\>\>\&) | Creates empty set that uses the specified equality comparer. |
 |  [HashSet](./hashset/)(const [SharedPtr](../../system/sharedptr/)\<[IEnumerable](../ienumerable/)\<T\>\>\&) | Creates hashset based on enumerable values. |
@@ -100,20 +95,19 @@ template<typename T>class HashSet : public virtual System::Object,
 | static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T\>::value, **bool**\>::type [ReferenceEquals](../../system/object/referenceequals/)(T const\&, std::nullptr_t) | Reference-compares value type object with nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
-| **bool** [Remove](./remove/)(const T\&) override | Removes element from set. |
+| virtual **bool** [Remove](../icollection/remove/)(const T\&) | Deletes element from collection. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Decrements and returns shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analog of C# [Object.ToString()](../../system/object/tostring/) method. Enables converting custom objects to string. |
-| **bool** [TryAdd](./tryadd/)(const T\&) | Adds element into set. |
 | static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implements C# typeof([System.Object](../../system/object/)) construct. |
 | void [Unlock](../../system/object/unlock/)() | Implements C# lock() statement unlocking. Call directly or use [LockContext](../../system/lockcontext/) sentry object. |
-| System::Details::VirtualizedIteratorBase\<T\> * [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override | Gets the implementation of begin const iterator for the current container. |
-| System::Details::VirtualizedIteratorBase\<T\> * [virtualizeBeginIterator](./virtualizebeginiterator/)() override | Gets the implementation of begin iterator for the current container. |
-| System::Details::VirtualizedIteratorBase\<T\> * [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override | Gets the implementation of end const iterator for the current container. |
-| System::Details::VirtualizedIteratorBase\<T\> * [virtualizeEndIterator](./virtualizeenditerator/)() override | Gets the implementation of end iterator for the current container. |
+| virtual [virtualized_iterator](../ienumerable/virtualized_iterator/) * [virtualizeBeginConstIterator](../ienumerable/virtualizebeginconstiterator/)() const | Gets the implementation of begin const iterator for the current container. |
+| virtual [virtualized_iterator](../ienumerable/virtualized_iterator/) * [virtualizeBeginIterator](../ienumerable/virtualizebeginiterator/)() | Gets the implementation of begin iterator for the current container. |
+| virtual [virtualized_iterator](../ienumerable/virtualized_iterator/) * [virtualizeEndConstIterator](../ienumerable/virtualizeendconstiterator/)() const | Gets the implementation of end const iterator for the current container. |
+| virtual [virtualized_iterator](../ienumerable/virtualized_iterator/) * [virtualizeEndIterator](../ienumerable/virtualizeenditerator/)() | Gets the implementation of end iterator for the current container. |
 | Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~ICollection](../icollection/~icollection/)() | Destructor. |
@@ -123,14 +117,8 @@ template<typename T>class HashSet : public virtual System::Object,
 | Typedef | Description |
 | --- | --- |
 | [ThisType](./thistype/) | Self type. |
+| [BaseType](./basetype/) | Base type. |
 | [ThisPtr](./thisptr/) | Pointer type. |
-| [set_t](./set_t/) | Underlying data type. |
-| [iterator](./iterator/) | Iterator type. |
-| [const_iterator](./const_iterator/) | Const iterator type. |
-| [ValueType](./valuetype/) | Value type. |
-| [BaseType](./basetype/) | Implemented interface. |
-| [IEnumerablePtr](./ienumerableptr/) | Enumerable interface pointer. |
-| [IEnumeratorPtr](./ienumeratorptr/) | **Enumerator** pointer. |
 ## Remarks
 
 
@@ -138,7 +126,6 @@ Set implementation based on hashing. Objects of this class should only be alloca
 
 ## See Also
 
-* Class [Object](../../system/object/)
-* Class [ICollection](../icollection/)
+* Class [BaseSet](../baseset/)
 * Namespace [System::Collections::Generic](../)
 * Library [Aspose.Slides](../../)

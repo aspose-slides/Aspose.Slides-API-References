@@ -3,7 +3,7 @@ title: PictureFrameLock
 second_title: Aspose.Slides for C++ API Reference
 description: Determines which operations are disabled on the parent PictureFrame.
 type: docs
-weight: 4512
+weight: 4538
 url: /aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock class

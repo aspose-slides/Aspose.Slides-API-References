@@ -3,7 +3,7 @@ title: ReplaceImage()
 second_title: Aspose.Slides for C++ API Reference
 description: Replaces image data.
 type: docs
-weight: 118
+weight: 131
 url: /aspose.slides/ppimage/replaceimage/
 ---
 ## PPImage::ReplaceImage(System::ArrayPtr\<uint8_t\>) method
@@ -24,6 +24,22 @@ Replaces image data. Attention: when Image is metafile - it will be rasterized d
 void Aspose::Slides::PPImage::ReplaceImage(System::SharedPtr<System::Drawing::Image> newImage) override
 ```
 
+
+Deprecated
+:   Use ReplaceImage(IImage newImage) method instead. The method will be removed after release of version 24.7.
+
+## PPImage::ReplaceImage(System::SharedPtr\<Aspose::Slides::IImage\>) method
+
+
+Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead
+
+```cpp
+void Aspose::Slides::PPImage::ReplaceImage(System::SharedPtr<Aspose::Slides::IImage> newImage) override
+```
+
+
+
+
 ## PPImage::ReplaceImage(System::SharedPtr\<Aspose::Slides::IPPImage\>) method
 
 
@@ -39,6 +55,7 @@ void Aspose::Slides::PPImage::ReplaceImage(System::SharedPtr<Aspose::Slides::IPP
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [PPImage](../)
 * Class [Image](../../../system.drawing/image/)
+* Class [IImage](../../iimage/)
 * Class [IPPImage](../../ippimage/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

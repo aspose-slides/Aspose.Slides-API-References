@@ -129,7 +129,7 @@ pres->Save(u"Outputdoc-noCrop.html", SaveFormat::Html, htmlOpts);
  The following example shows how to convert [Slide](../../slide/) to HTML using C++. 
 ```cpp
 ```
- The following example shows how to save CSS and Images when exporting To HTML using C++. 
+ The following example shows how to save CSS and [Images](../../images/) when exporting To HTML using C++. 
 ```cpp
 auto pres = System::MakeObject<Presentation>(u"pres.pptx");
 
@@ -447,6 +447,9 @@ void Aspose::Slides::Presentation::Save(System::String fname, Export::SaveFormat
 | response | [System::SharedPtr](../../../system/sharedptr/)\<[System::Web::HttpResponse](../../../system.web/httpresponse/)\> | Response object where to save the document. |
 | showInline | **bool** | True to show an option to open the presentation inside the browser. |
 
+Deprecated
+:   The method will be removed after release of version 24.7.
+
 ## Presentation::Save(System::String, Export::SaveFormat, System::SharedPtr\<Export::ISaveOptions\>, System::SharedPtr\<System::Web::HttpResponse\>, bool) method
 
 
@@ -466,6 +469,9 @@ void Aspose::Slides::Presentation::Save(System::String fname, Export::SaveFormat
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\> | Additional format options. |
 | response | [System::SharedPtr](../../../system/sharedptr/)\<[System::Web::HttpResponse](../../../system.web/httpresponse/)\> | Response object where to save the document. |
 | showInline | **bool** | True to show an option to open the presentation inside the browser. |
+
+Deprecated
+:   The method will be removed after release of version 24.7.
 
 ## See Also
 

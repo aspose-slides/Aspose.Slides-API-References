@@ -3,7 +3,7 @@ title: IPatternFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective pattern filling properties.
 type: docs
-weight: 3017
+weight: 3043
 url: /aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData class
@@ -30,6 +30,7 @@ class IPatternFormatEffectiveData : public virtual System::Object
 | virtual [Aspose::Slides::PatternStyle](../patternstyle/) [get_PatternStyle](./get_patternstyle/)() | Returns the pattern style. Read-only [Slides::PatternStyle](../patternstyle/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [GetTileIImage](./gettileiimage/)([System::Drawing::Color](../../system.drawing/color/), [System::Drawing::Color](../../system.drawing/color/)) | Creates a tile image for the pattern fill with a specified colors. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Bitmap](../../system.drawing/bitmap/)\> [GetTileImage](./gettileimage/)([System::Drawing::Color](../../system.drawing/color/), [System::Drawing::Color](../../system.drawing/color/)) | Creates a tile image for the pattern fill with a specified colors. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
 | virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Check if object represents an instance of type described by targetType. Analog of C# 'is' operator. |

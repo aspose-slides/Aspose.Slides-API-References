@@ -1,7 +1,7 @@
 ---
 title: HashSet()
 second_title: Aspose.Slides for C++ API Reference
-description: Creates empty set.
+description: RTTI information.
 type: docs
 weight: 1
 url: /system.collections.generic/hashset/hashset/
@@ -9,12 +9,16 @@ url: /system.collections.generic/hashset/hashset/
 ## HashSet::HashSet() constructor
 
 
-Creates empty set.
+RTTI information.
 
 ```cpp
 System::Collections::Generic::HashSet<T>::HashSet()
 ```
 
+## Remarks
+
+
+Creates empty set. 
 ## HashSet::HashSet(int) constructor
 
 

@@ -3,7 +3,7 @@ title: IVideoCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of Video objects.
 type: docs
-weight: 3992
+weight: 4018
 url: /aspose.slides/ivideocollection/
 ---
 ## IVideoCollection class

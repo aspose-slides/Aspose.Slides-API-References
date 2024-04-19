@@ -3,7 +3,7 @@ title: GetSlideComments()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns all slide comments added by specific author.
 type: docs
-weight: 209
+weight: 222
 url: /aspose.slides/slide/getslidecomments/
 ---
 ## Slide::GetSlideComments(System::SharedPtr\<ICommentAuthor\>) method

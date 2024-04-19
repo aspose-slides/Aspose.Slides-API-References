@@ -3,7 +3,7 @@ title: Details_KeyNotFoundException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 105
+weight: 118
 url: /system.collections.generic/details_keynotfoundexception/
 ---
 ## Details_KeyNotFoundException class

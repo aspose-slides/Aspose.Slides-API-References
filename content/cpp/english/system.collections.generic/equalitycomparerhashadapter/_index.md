@@ -3,7 +3,7 @@ title: EqualityComparerHashAdapter
 second_title: Aspose.Slides for C++ API Reference
 description: Adapter to use IEqualityComparer for hashing. Uses comparator object, if set; otherwise, uses available hash method selected using DictionaryHashSelector struct.
 type: docs
-weight: 625
+weight: 664
 url: /system.collections.generic/equalitycomparerhashadapter/
 ---
 ## EqualityComparerHashAdapter struct

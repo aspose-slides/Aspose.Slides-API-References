@@ -27,6 +27,9 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::IPatternForma
 
 Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
 
+Deprecated
+:   Use GetTileIImage(SlidesImage image) method instead. The method will be removed after release of version 24.7.
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

@@ -3,7 +3,7 @@ title: PictureFillFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a picture fill style.
 type: docs
-weight: 4486
+weight: 4512
 url: /aspose.slides/picturefillformat/
 ---
 ## PictureFillFormat class

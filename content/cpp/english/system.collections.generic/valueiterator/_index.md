@@ -3,7 +3,7 @@ title: ValueIterator
 second_title: Aspose.Slides for C++ API Reference
 description: Dictionary iterator that provides value access.
 type: docs
-weight: 573
+weight: 612
 url: /system.collections.generic/valueiterator/
 ---
 ## ValueIterator class

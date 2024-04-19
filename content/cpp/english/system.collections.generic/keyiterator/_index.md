@@ -3,7 +3,7 @@ title: KeyIterator
 second_title: Aspose.Slides for C++ API Reference
 description: Dictionary iterator that provides key access.
 type: docs
-weight: 339
+weight: 352
 url: /system.collections.generic/keyiterator/
 ---
 ## KeyIterator class

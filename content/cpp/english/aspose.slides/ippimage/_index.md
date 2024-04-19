@@ -3,7 +3,7 @@ title: IPPImage
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an image in a presentation.
 type: docs
-weight: 3173
+weight: 3199
 url: /aspose.slides/ippimage/
 ---
 ## IPPImage class
@@ -28,6 +28,7 @@ class IPPImage : public virtual System::Object
 | virtual [System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\> [get_BinaryData](./get_binarydata/)() | Returns the copy of an image's data. Read-only **uint8_t**[]. |
 | virtual [System::String](../../system/string/) [get_ContentType](./get_contenttype/)() | Returns a MIME type of an image, encoded in [IPPImage::get_BinaryData](./get_binarydata/). Read-only [System::String](../../system/string/). |
 | virtual **int32_t** [get_Height](./get_height/)() | Returns a height of an image. Read-only **int32_t**. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [get_Image](./get_image/)() | Returns the copy of an image. Read-only [System::Drawing::Image](../../system.drawing/image/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[ISvgImage](../isvgimage/)\> [get_SvgImage](./get_svgimage/)() const | Returns [ISvgImage](../isvgimage/) object [ISvgImage](../isvgimage/) |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Image](../../system.drawing/image/)\> [get_SystemImage](./get_systemimage/)() | Returns the copy of an image of the [System::Drawing::Image](../../system.drawing/image/) type. Read-only [System::Drawing::Image](../../system.drawing/image/). |
 | virtual **int32_t** [get_Width](./get_width/)() | Returns a width of an image. Read-only **int32_t**. |
@@ -50,6 +51,7 @@ class IPPImage : public virtual System::Object
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | virtual void [ReplaceImage](./replaceimage/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>) | Replaces image data. |
 | virtual void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Image](../../system.drawing/image/)\>) | Replaces image. |
+| virtual void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\>) | Replaces image. |
 | virtual void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[IPPImage](./)\>) | Replaces image. |
 | virtual void [set_SvgImage](./set_svgimage/)([System::SharedPtr](../../system/sharedptr/)\<[ISvgImage](../isvgimage/)\>) | Sets [ISvgImage](../isvgimage/) object [ISvgImage](../isvgimage/) |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |

@@ -3,7 +3,7 @@ title: KeyValuePair
 second_title: Aspose.Slides for C++ API Reference
 description: "Pair of key and value. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 352
+weight: 365
 url: /system.collections.generic/keyvaluepair/
 ---
 ## KeyValuePair class

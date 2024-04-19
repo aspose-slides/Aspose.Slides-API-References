@@ -3,7 +3,7 @@ title: SetTextFormat()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets defined portion format properties to all table cells' portions.
 type: docs
-weight: 287
+weight: 274
 url: /aspose.slides/table/settextformat/
 ---
 ## Table::SetTextFormat(System::SharedPtr\<IPortionFormat\>) method

@@ -3,7 +3,7 @@ title: IImageCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents collection of PPImage.
 type: docs
-weight: 2432
+weight: 2445
 url: /aspose.slides/iimagecollection/
 ---
 ## IImageCollection class
@@ -20,6 +20,7 @@ class IImageCollection : public Aspose::Slides::IGenericCollection<System::Share
 | Method | Description |
 | --- | --- |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [AddImage](./addimage/)([System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Image](../../system.drawing/image/)\>) | Add an image to a presentation. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [AddImage](./addimage/)([System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\>) | Add an image to a presentation. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [AddImage](./addimage/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::MemoryStream](../../system.io/memorystream/)\>) | Adds image from a memory stream. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [AddImage](./addimage/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>) | Add an image to a presentation from stream. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [AddImage](./addimage/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>, [LoadingStreamBehavior](../loadingstreambehavior/)) | Creates and adds an image to a presentation from stream. |

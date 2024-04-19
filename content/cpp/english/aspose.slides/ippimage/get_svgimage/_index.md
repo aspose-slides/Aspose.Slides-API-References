@@ -3,7 +3,7 @@ title: get_SvgImage()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns ISvgImage object ISvgImage
 type: docs
-weight: 27
+weight: 40
 url: /aspose.slides/ippimage/get_svgimage/
 ---
 ## IPPImage::get_SvgImage() const method

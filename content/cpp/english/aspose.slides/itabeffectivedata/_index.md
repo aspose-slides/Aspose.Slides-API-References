@@ -3,7 +3,7 @@ title: ITabEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective text's tabulation stop properties.
 type: docs
-weight: 3784
+weight: 3810
 url: /aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData class

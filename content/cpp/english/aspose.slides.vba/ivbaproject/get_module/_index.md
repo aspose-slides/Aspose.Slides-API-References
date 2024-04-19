@@ -3,7 +3,7 @@ title: get_Module()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the module contained in the VBA project at the specified index.
 type: docs
-weight: 53
+weight: 66
 url: /aspose.slides.vba/ivbaproject/get_module/
 ---
 ## IVbaProject::get_Module(int32_t) method

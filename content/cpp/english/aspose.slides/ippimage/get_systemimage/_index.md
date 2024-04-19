@@ -15,6 +15,10 @@ Returns the copy of an image of the [System::Drawing::Image](../../../system.dra
 virtual System::SharedPtr<System::Drawing::Image> Aspose::Slides::IPPImage::get_SystemImage()=0
 ```
 
+
+Deprecated
+:   Use Image property instead. The property will be removed after release of version 24.7.
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

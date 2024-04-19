@@ -107,3 +107,4 @@ url: /aspose.slides.export/
 | [SvgExternalFontsHandling](./svgexternalfontshandling/) | Represents a way to handle external fonts used for text drawing. |
 | [TextInheritanceLimit](./textinheritancelimit/) | Controls the depth of the text properties inheritance. |
 | [TiffCompressionTypes](./tiffcompressiontypes/) | Provides options that control how a presentation is compressed in TIFF format. |
+| [Zip64Mode](./zip64mode/) | Specifies when to use ZIP64 format extensions for OpenXML file. |

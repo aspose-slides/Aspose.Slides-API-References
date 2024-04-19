@@ -3,7 +3,7 @@ title: VbaProject()
 second_title: Aspose.Slides for C++ API Reference
 description: This constructor creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage
 type: docs
-weight: 40
+weight: 53
 url: /aspose.slides.vba/vbaproject/vbaproject/
 ---
 ## VbaProject::VbaProject() constructor

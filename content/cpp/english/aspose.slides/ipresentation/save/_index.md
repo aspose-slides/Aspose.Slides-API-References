@@ -200,6 +200,9 @@ virtual void Aspose::Slides::IPresentation::Save(System::String fname, Export::S
 | response | [System::SharedPtr](../../../system/sharedptr/)\<[System::Web::HttpResponse](../../../system.web/httpresponse/)\> | Response object where to save the document. |
 | showInline | **bool** | True to show an option to open the presentation inside the browser. |
 
+Deprecated
+:   The method will be removed after release of version 24.7.
+
 ## IPresentation::Save(System::String, Export::SaveFormat, System::SharedPtr\<Export::ISaveOptions\>, System::SharedPtr\<System::Web::HttpResponse\>, bool) method
 
 
@@ -219,6 +222,9 @@ virtual void Aspose::Slides::IPresentation::Save(System::String fname, Export::S
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\> | Additional format options. |
 | response | [System::SharedPtr](../../../system/sharedptr/)\<[System::Web::HttpResponse](../../../system.web/httpresponse/)\> | Response object where to save the document. |
 | showInline | **bool** | True to show an option to open the presentation inside the browser. |
+
+Deprecated
+:   The method will be removed after release of version 24.7.
 
 ## See Also
 

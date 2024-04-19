@@ -3,7 +3,7 @@ title: List
 second_title: Aspose.Slides for C++ API Reference
 description: List forward declaration.
 type: docs
-weight: 404
+weight: 417
 url: /system.collections.generic/list/
 ---
 ## List class

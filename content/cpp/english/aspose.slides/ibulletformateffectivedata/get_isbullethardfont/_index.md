@@ -3,7 +3,7 @@ title: get_IsBulletHardFont()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the bullet has own font or inherits it from the first portion in the paragraph. Returns true if bullet has own font and true if bullet inherits font from the first portion in the paragraph. Read-only bool.
 type: docs
-weight: 118
+weight: 105
 url: /aspose.slides/ibulletformateffectivedata/get_isbullethardfont/
 ---
 ## IBulletFormatEffectiveData::get_IsBulletHardFont() method

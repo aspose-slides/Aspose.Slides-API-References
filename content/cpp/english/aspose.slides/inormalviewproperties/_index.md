@@ -3,7 +3,7 @@ title: INormalViewProperties
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region."
 type: docs
-weight: 2796
+weight: 2822
 url: /aspose.slides/inormalviewproperties/
 ---
 ## INormalViewProperties class

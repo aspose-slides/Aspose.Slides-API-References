@@ -60,7 +60,7 @@ template<typename T,typename F> std::enable_if_t<Details::is_lambda_void_boolref
 The sigle function that emulates behavior of C#'s try[-catch]-finally statement. During translation of C#'s try[-catch]-finally statement with translator's option finally_statement_as_lambda set to true, the statement is translated into the invocation of this method. This overload handles the case in which the return value of the function object that implements the try[-catch] part of the try[-catch]-finally statement is bool&.
 
 ```cpp
-template<typename T,typename F> std::enable_if_t<Details::is_lambda_nonovoid_boolref<T>::value, std::optional<std::result_of_t<T(bool &)>>> System::DoTryFinally(T &&tryBlock, F &&finallyBlock)
+template<typename T,typename F> std::enable_if_t<Details::is_lambda_nonovoid_boolref<T>::value, std::optional<Details::ResultOf<T, bool &>>> System::DoTryFinally(T &&tryBlock, F &&finallyBlock)
 ```
 
 

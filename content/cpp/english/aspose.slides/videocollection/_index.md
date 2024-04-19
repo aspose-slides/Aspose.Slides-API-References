@@ -3,7 +3,7 @@ title: VideoCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of Video objects.
 type: docs
-weight: 5266
+weight: 5292
 url: /aspose.slides/videocollection/
 ---
 ## VideoCollection class

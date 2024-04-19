@@ -1,18 +1,18 @@
 ---
 title: BaseType
 second_title: Aspose.Slides for C++ API Reference
-description: Implemented interface.
+description: Base type.
 type: docs
-weight: 326
+weight: 27
 url: /system.collections.generic/hashset/basetype/
 ---
 ## BaseType typedef
 
 
-Implemented interface.
+Base type.
 
 ```cpp
-using System::Collections::Generic::HashSet< T >::BaseType =  ICollection<T>
+using System::Collections::Generic::HashSet< T >::BaseType =  BaseSet<T, std::unordered_set<T, EqualityComparerHashAdapter<T>, EqualityComparerAdapter<T>, typename System::Details::CollectionHelpers::ContainerPointerMode<T>::allocator_type> >
 ```
 
 ## See Also

@@ -3,7 +3,7 @@ title: IPathSegment
 second_title: Aspose.Slides for C++ API Reference
 description: Represents segment of graphics path of GeometryShape
 type: docs
-weight: 2991
+weight: 3017
 url: /aspose.slides/ipathsegment/
 ---
 ## IPathSegment class

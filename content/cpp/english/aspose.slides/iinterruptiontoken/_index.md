@@ -3,7 +3,7 @@ title: IInterruptionToken
 second_title: Aspose.Slides for C++ API Reference
 description: This class represents the token to use for signaling long running tasks whether the interruption was requested.
 type: docs
-weight: 2445
+weight: 2458
 url: /aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken class

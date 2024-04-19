@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a pattern to fill a shape.
 type: docs
-weight: 4460
+weight: 4486
 url: /aspose.slides/patternformat/
 ---
 ## PatternFormat class
@@ -33,6 +33,8 @@ class PatternFormat : public Aspose::Slides::PVIObject,
 | [Aspose::Slides::PatternStyle](../patternstyle/) [get_PatternStyle](./get_patternstyle/)() override | Returns the pattern style. Read [Slides::PatternStyle](../patternstyle/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | **int32_t** [GetHashCode](../pviobject/gethashcode/)() const override | Returns hash code. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [GetTile](./gettile/)([System::Drawing::Color](../../system.drawing/color/), [System::Drawing::Color](../../system.drawing/color/)) override | Creates a tile image for the pattern fill with a specified colors. |
+| [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [GetTile](./gettile/)([System::Drawing::Color](../../system.drawing/color/)) override | Creates a tile image for the pattern fill. |
 | [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Bitmap](../../system.drawing/bitmap/)\> [GetTileImage](./gettileimage/)([System::Drawing::Color](../../system.drawing/color/), [System::Drawing::Color](../../system.drawing/color/)) override | Creates a tile image for the pattern fill with a specified colors. |
 | [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Bitmap](../../system.drawing/bitmap/)\> [GetTileImage](./gettileimage/)([System::Drawing::Color](../../system.drawing/color/)) override | Creates a tile image for the pattern fill. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |

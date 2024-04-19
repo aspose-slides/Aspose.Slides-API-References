@@ -3,7 +3,7 @@ title: get_AccessPermissions()
 second_title: Aspose.Slides for C++ API Reference
 description: Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See PdfAccessPermissions.
 type: docs
-weight: 235
+weight: 261
 url: /aspose.slides.export/ipdfoptions/get_accesspermissions/
 ---
 ## IPdfOptions::get_AccessPermissions() method

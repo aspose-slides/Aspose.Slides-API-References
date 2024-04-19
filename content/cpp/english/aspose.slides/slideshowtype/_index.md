@@ -3,7 +3,7 @@ title: SlideShowType
 second_title: Aspose.Slides for C++ API Reference
 description: "Base slide show settings. Ancestors represent types of the slide show: PresentedBySpeaker Presented by a speaker (full screen) BrowsedByIndividual Browsed by individual (window) BrowsedAtKiosk Browsed at a kiosk (full screen)"
 type: docs
-weight: 4967
+weight: 4993
 url: /aspose.slides/slideshowtype/
 ---
 ## SlideShowType class

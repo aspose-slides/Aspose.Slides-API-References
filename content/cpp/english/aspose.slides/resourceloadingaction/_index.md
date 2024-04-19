@@ -3,7 +3,7 @@ title: ResourceLoadingAction
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the mode of external resource loading.
 type: docs
-weight: 6397
+weight: 6436
 url: /aspose.slides/resourceloadingaction/
 ---
 ## ResourceLoadingAction enum

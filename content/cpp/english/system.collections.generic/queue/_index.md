@@ -3,7 +3,7 @@ title: Queue
 second_title: Aspose.Slides for C++ API Reference
 description: Queue class forward declaration.
 type: docs
-weight: 443
+weight: 456
 url: /system.collections.generic/queue/
 ---
 ## Queue class

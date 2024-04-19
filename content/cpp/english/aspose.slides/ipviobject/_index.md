@@ -3,7 +3,7 @@ title: IPVIObject
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3290
+weight: 3316
 url: /aspose.slides/ipviobject/
 ---
 ## IPVIObject class

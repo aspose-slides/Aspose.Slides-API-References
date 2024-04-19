@@ -3,7 +3,7 @@ title: EqualityComparerAdapter
 second_title: Aspose.Slides for C++ API Reference
 description: "Adapter making it possible using IEqualityComparer with STL-styled collections and algorithms. Uses IEqualityComparer, if set. If not set, uses operator ==, Object::Equals or T::Equals, whichever is available."
 type: docs
-weight: 612
+weight: 651
 url: /system.collections.generic/equalitycompareradapter/
 ---
 ## EqualityComparerAdapter struct

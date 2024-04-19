@@ -3,7 +3,7 @@ title: INotesSlideManager
 second_title: Aspose.Slides for C++ API Reference
 description: Notes slide manager.
 type: docs
-weight: 2861
+weight: 2887
 url: /aspose.slides/inotesslidemanager/
 ---
 ## INotesSlideManager class

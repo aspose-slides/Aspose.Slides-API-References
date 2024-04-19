@@ -3,7 +3,7 @@ title: ComparerAdapter
 second_title: Aspose.Slides for C++ API Reference
 description: Adapter to use IComparer within STL environment. Uses IComparer if set; otherwise, uses operator < (if available) or returns false (if not).
 type: docs
-weight: 586
+weight: 625
 url: /system.collections.generic/compareradapter/
 ---
 ## ComparerAdapter struct

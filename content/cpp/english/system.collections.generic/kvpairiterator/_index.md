@@ -3,7 +3,7 @@ title: KVPairIterator
 second_title: Aspose.Slides for C++ API Reference
 description: "Adapting iterator, wraps std::pair into KVPair expected from Dictionary."
 type: docs
-weight: 365
+weight: 378
 url: /system.collections.generic/kvpairiterator/
 ---
 ## KVPairIterator class
