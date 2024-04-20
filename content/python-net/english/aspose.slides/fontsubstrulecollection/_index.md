@@ -19,6 +19,8 @@ The FontSubstRuleCollection type exposes the following members:
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides/fontsubstrulecollection/__init__/#) |  |
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

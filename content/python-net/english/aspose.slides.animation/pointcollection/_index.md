@@ -25,6 +25,8 @@ The PointCollection type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.animation/pointcollection/count/) | Returns the number of points in the collection.<br/>            Read-only **int**. |
 
+Returns a point at the specified index.
+
 ## Indexer
 
 | Name | Description |

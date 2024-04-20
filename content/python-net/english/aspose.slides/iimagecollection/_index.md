@@ -13,11 +13,13 @@ Represents collection of PPImage.
 
 The IImageCollection type exposes the following members:
 
+Returns image by its index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides/iimagecollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides/iimagecollection/__getitem__/) | Index. |
 
 ## Methods
 

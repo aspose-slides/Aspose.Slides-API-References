@@ -13,6 +13,9 @@ Represents a collection of Video objects.
 
 The VideoCollection type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`IVideo`](/slides/python-net/aspose.slides/ivideo).
+
 ## Indexer
 
 | Name | Description |
@@ -30,6 +33,7 @@ The VideoCollection type exposes the following members:
 
 
 ### See Also
+* class [`IVideo`](/slides/python-net/aspose.slides/ivideo)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

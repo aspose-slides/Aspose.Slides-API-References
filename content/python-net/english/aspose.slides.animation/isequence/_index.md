@@ -20,11 +20,13 @@ The ISequence type exposes the following members:
 | [`count`](/slides/python-net/aspose.slides.animation/isequence/count/) | Returns the number of effects in a sequense.<br/>            Read-only **int**. |
 | [`trigger_shape`](/slides/python-net/aspose.slides.animation/isequence/trigger_shape/) | Returns or sets shape target for INTERACTIVE sequence.<br/>            If sequence is not interactive then returns null.<br/>            Read/write [`IShape`](/slides/python-net/aspose.slides/ishape). |
 
+Returns an effect at the specified index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.animation/isequence/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/isequence/__getitem__/) | Index |
 
 ## Methods
 

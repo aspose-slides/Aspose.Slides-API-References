@@ -19,6 +19,8 @@ The ImageTransformOCollectionEffectiveData type exposes the following members:
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides.effects/imagetransformocollectioneffectivedata/__init__/#) |  |
 
+Returns element by index.
+
 ## Indexer
 
 | Name | Description |

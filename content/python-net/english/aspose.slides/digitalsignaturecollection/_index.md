@@ -13,6 +13,8 @@ Represents a collection of digital signatures attached to a document.
 
 The DigitalSignatureCollection type exposes the following members:
 
+Returns the signature by index.
+
 ## Indexer
 
 | Name | Description |

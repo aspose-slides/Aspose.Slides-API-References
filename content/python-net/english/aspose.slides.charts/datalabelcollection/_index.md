@@ -27,6 +27,8 @@ The DataLabelCollection type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides.charts/datalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/datalabelcollection/presentation/) |  |
 
+Gets the data label for the data point with the specified index.
+
 ## Indexer
 
 | Name | Description |

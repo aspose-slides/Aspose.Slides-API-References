@@ -13,6 +13,9 @@ Represents a collection of color transform operations.
 
 The IColorOperationCollection type exposes the following members:
 
+Returns or sets the operation at the specified index.
+            Read/write [`IColorOperation`](/slides/python-net/aspose.slides/icoloroperation).
+
 ## Indexer
 
 | Name | Description |
@@ -33,6 +36,7 @@ The IColorOperationCollection type exposes the following members:
 
 
 ### See Also
+* class [`IColorOperation`](/slides/python-net/aspose.slides/icoloroperation)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

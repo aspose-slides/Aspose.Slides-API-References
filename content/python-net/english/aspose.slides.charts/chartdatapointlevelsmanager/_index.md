@@ -20,6 +20,8 @@ The ChartDataPointLevelsManager type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.charts/chartdatapointlevelsmanager/count/) | Returns data point levels count. |
 
+Returns IChartDataPointLevel object for defined level.
+
 ## Indexer
 
 | Name | Description |

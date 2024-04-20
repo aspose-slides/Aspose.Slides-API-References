@@ -20,6 +20,9 @@ The CellCollection type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides/cellcollection/slide/) | Returns the parent slide of a CellCollection.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
 | [`presentation`](/slides/python-net/aspose.slides/cellcollection/presentation/) | Returns the parent presentation of a CellCollection.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 
+Returns a cell by it's position.
+            Read-only [`Cell`](/slides/python-net/aspose.slides/cell).
+
 ## Indexer
 
 | Name | Description |
@@ -28,6 +31,7 @@ The CellCollection type exposes the following members:
 
 
 ### See Also
+* class [`Cell`](/slides/python-net/aspose.slides/cell)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

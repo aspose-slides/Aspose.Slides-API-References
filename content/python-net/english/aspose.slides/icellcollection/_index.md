@@ -20,6 +20,9 @@ The ICellCollection type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides/icellcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/icellcollection/presentation/) |  |
 
+Returns a cell by it's position.
+            Read-only [`ICell`](/slides/python-net/aspose.slides/icell).
+
 ## Indexer
 
 | Name | Description |
@@ -28,6 +31,7 @@ The ICellCollection type exposes the following members:
 
 
 ### See Also
+* class [`ICell`](/slides/python-net/aspose.slides/icell)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

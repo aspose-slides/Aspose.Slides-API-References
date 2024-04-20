@@ -13,11 +13,13 @@ Represents collection of custom xml parts.
 
 The ICustomXmlPartCollection type exposes the following members:
 
+Returns the element at the specified index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides/icustomxmlpartcollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides/icustomxmlpartcollection/__getitem__/) | The zero-based index of the element to get. |
 
 ## Methods
 

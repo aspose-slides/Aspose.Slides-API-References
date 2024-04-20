@@ -13,6 +13,9 @@ Immutable object that represents a readonly collection of effective line formats
 
 The ILineFormatCollectionEffectiveData type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata).
+
 ## Indexer
 
 | Name | Description |
@@ -27,6 +30,7 @@ This interface is used as a part of [`IFormatSchemeEffectiveData`](/slides/pytho
 
 ### See Also
 * class [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata)
+* class [`ILineFormatEffectiveData`](/slides/python-net/aspose.slides/ilineformateffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
 

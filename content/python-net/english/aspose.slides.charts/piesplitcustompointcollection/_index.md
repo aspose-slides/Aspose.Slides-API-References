@@ -20,11 +20,13 @@ The PieSplitCustomPointCollection type exposes the following members:
 | [`is_synchronized`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/is_synchronized/) | Returns a value indicating whether access to the collection is synchronized (thread-safe).<br/>            Read-only **bool**. |
 | [`sync_root`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/sync_root/) | Returns a synchronization root.<br/>            Read-only **any**. |
 
+Returns chart data point for specified index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/piesplitcustompointcollection/__getitem__/) | Index. |
 
 ## Methods
 

@@ -13,11 +13,13 @@ Reprasents a collection of shape's adjustments.
 
 The AdjustValueCollection type exposes the following members:
 
+Returns adjustment by index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides/adjustvaluecollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides/adjustvaluecollection/__getitem__/) | adjustment's index. |
 
 
 ### See Also

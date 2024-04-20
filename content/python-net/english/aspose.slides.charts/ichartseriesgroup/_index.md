@@ -39,6 +39,8 @@ The IChartSeriesGroup type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/ichartseriesgroup/presentation/) |  |
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

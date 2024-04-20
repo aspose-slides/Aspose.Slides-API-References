@@ -31,11 +31,13 @@ The MathBlock type exposes the following members:
 | [`count`](/slides/python-net/aspose.slides.mathtext/mathblock/count/) | Gets the number of child math elements actually contained in the collection.<br/>            Read-only **int**. |
 | [`is_read_only`](/slides/python-net/aspose.slides.mathtext/mathblock/is_read_only/) | Returns false because child elements collection can be modified. |
 
+Gets or sets IMathElement at the specified index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.mathtext/mathblock/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/mathblock/__getitem__/) | The zero-based index of the item |
 
 ## Methods
 

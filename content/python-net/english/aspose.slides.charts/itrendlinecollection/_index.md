@@ -19,6 +19,9 @@ The ITrendlineCollection type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.charts/itrendlinecollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
 
+Gets the element at the specified index.
+            Read-only [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline).
+
 ## Indexer
 
 | Name | Description |
@@ -34,6 +37,7 @@ The ITrendlineCollection type exposes the following members:
 
 
 ### See Also
+* class [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline)
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)
 

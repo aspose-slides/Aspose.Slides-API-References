@@ -19,6 +19,8 @@ The TextAnimationCollection type exposes the following members:
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides.animation/textanimationcollection/__init__/#) |  |
 
+Returns element by index.
+
 ## Indexer
 
 | Name | Description |

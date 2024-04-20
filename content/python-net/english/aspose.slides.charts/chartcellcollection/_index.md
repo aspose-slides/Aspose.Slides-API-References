@@ -19,11 +19,13 @@ The ChartCellCollection type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.charts/chartcellcollection/count/) | Gets the count of cells in collection.<br/>            Read-only **int**. |
 
+Returns a cell (IChartDataCell) by index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.charts/chartcellcollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/chartcellcollection/__getitem__/) | Index of a cell. |
 
 ## Methods
 

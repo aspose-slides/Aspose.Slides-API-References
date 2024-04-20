@@ -13,6 +13,8 @@ Represents collection of  [`IChartSeries`](/slides/python-net/aspose.slides.char
 
 The IChartSeriesCollection type exposes the following members:
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

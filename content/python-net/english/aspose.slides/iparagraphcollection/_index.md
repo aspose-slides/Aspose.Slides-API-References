@@ -21,6 +21,8 @@ The IParagraphCollection type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides/iparagraphcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/iparagraphcollection/presentation/) |  |
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

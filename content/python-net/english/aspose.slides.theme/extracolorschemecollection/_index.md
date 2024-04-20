@@ -13,6 +13,9 @@ Represents a collection of additional color schemes.
 
 The ExtraColorSchemeCollection type exposes the following members:
 
+Returns an color scheme by index.
+            Read-only [`ExtraColorScheme`](/slides/python-net/aspose.slides.theme/extracolorscheme).
+
 ## Indexer
 
 | Name | Description |
@@ -21,6 +24,7 @@ The ExtraColorSchemeCollection type exposes the following members:
 
 
 ### See Also
+* class [`ExtraColorScheme`](/slides/python-net/aspose.slides.theme/extracolorscheme)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
 

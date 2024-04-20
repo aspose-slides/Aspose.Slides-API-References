@@ -20,11 +20,13 @@ The BehaviorCollection type exposes the following members:
 | [`count`](/slides/python-net/aspose.slides.animation/behaviorcollection/count/) | Returns the number of behaviors in a collection.<br/>            Read-only **int**. |
 | [`is_read_only`](/slides/python-net/aspose.slides.animation/behaviorcollection/is_read_only/) | Gets a value indicating whether the **System.Collections.Generic.ICollection`1** is read-only.<br/>            Read-only **bool**. |
 
+Retirns a behavior at the specified index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.animation/behaviorcollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/behaviorcollection/__getitem__/) | Index of a behavior to return. |
 
 ## Methods
 

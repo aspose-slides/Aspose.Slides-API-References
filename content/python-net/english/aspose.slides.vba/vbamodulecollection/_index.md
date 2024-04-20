@@ -13,6 +13,8 @@ Represents a collection of a VBA Project modules.
 
 The VbaModuleCollection type exposes the following members:
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

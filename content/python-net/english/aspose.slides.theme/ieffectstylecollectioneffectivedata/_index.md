@@ -13,6 +13,9 @@ Immutable object that represents a readonly collection of effective effect style
 
 The IEffectStyleCollectionEffectiveData type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`IEffectStyleEffectiveData`](/slides/python-net/aspose.slides.theme/ieffectstyleeffectivedata).
+
 ## Indexer
 
 | Name | Description |
@@ -26,6 +29,7 @@ This interface is used as a part of [`IFormatSchemeEffectiveData`](/slides/pytho
 
 
 ### See Also
+* class [`IEffectStyleEffectiveData`](/slides/python-net/aspose.slides.theme/ieffectstyleeffectivedata)
 * class [`IFormatSchemeEffectiveData`](/slides/python-net/aspose.slides.theme/iformatschemeeffectivedata)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -25,6 +25,8 @@ The MotionPath type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.animation/motionpath/count/) | Returns the number of paths in the collection.<br/>            Read-only **int**. |
 
+Returns a command at the specified index.
+
 ## Indexer
 
 | Name | Description |

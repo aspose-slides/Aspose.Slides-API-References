@@ -27,6 +27,8 @@ The IDataLabelCollection type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides.charts/idatalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/idatalabelcollection/presentation/) |  |
 
+Gets the data label for the data point with the specified index.
+
 ## Indexer
 
 | Name | Description |

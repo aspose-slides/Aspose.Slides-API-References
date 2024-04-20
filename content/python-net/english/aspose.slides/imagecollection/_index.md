@@ -13,6 +13,9 @@ Represents collection of PPImage.
 
 The ImageCollection type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`IPPImage`](/slides/python-net/aspose.slides/ippimage).
+
 ## Indexer
 
 | Name | Description |
@@ -33,6 +36,7 @@ The ImageCollection type exposes the following members:
 
 
 ### See Also
+* class [`IPPImage`](/slides/python-net/aspose.slides/ippimage)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

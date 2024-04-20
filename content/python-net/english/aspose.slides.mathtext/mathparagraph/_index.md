@@ -27,11 +27,14 @@ The MathParagraph type exposes the following members:
 | [`justification`](/slides/python-net/aspose.slides.mathtext/mathparagraph/justification/) | Paragraph Justification <br/>            Default value: CenteredAsGroup |
 | [`count`](/slides/python-net/aspose.slides.mathtext/mathparagraph/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
 
+Gets the item at the specified index.
+            Read-only [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock).
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.mathtext/mathparagraph/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/mathparagraph/__getitem__/) | The zero-based index of the item to get |
 
 ## Methods
 
@@ -49,6 +52,7 @@ The MathParagraph type exposes the following members:
 
 
 ### See Also
+* class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
 

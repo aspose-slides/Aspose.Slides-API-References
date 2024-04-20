@@ -13,11 +13,13 @@ A collection of ActiveX controls.
 
 The ControlCollection type exposes the following members:
 
+Returns a control at the specified position.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides/controlcollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides/controlcollection/__getitem__/) | Index of a control. |
 
 ## Methods
 

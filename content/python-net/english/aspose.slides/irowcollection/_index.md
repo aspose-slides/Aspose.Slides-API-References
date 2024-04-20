@@ -13,6 +13,8 @@ Represents table row collection.
 
 The IRowCollection type exposes the following members:
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

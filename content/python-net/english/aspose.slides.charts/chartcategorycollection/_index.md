@@ -20,6 +20,8 @@ The ChartCategoryCollection type exposes the following members:
 | [`use_cells`](/slides/python-net/aspose.slides.charts/chartcategorycollection/use_cells/) | If true then worksheet is used for storing categories (this case supports a multi-level categories).<br/>            If false then worksheet is NOT used for storing values (and this case doesn't support a <br/>            multi-level categories).<br/>            Read/write **bool**. |
 | [`grouping_level_count`](/slides/python-net/aspose.slides.charts/chartcategorycollection/grouping_level_count/) | Returns count of category grouping levels used.<br/>            Is more then one for multilevel categories.<br/>            Read-only **int**. |
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

@@ -19,6 +19,9 @@ The IShapeCollection type exposes the following members:
 | :- | :- |
 | [`parent_group`](/slides/python-net/aspose.slides/ishapecollection/parent_group/) | Returns parent GroupShape object for a shapes collection.<br/>            Read-only [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape). |
 
+Gets the element at the specified index.
+            Read-only [`IShape`](/slides/python-net/aspose.slides/ishape).
+
 ## Indexer
 
 | Name | Description |
@@ -92,6 +95,7 @@ The IShapeCollection type exposes the following members:
 
 
 ### See Also
+* class [`IShape`](/slides/python-net/aspose.slides/ishape)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

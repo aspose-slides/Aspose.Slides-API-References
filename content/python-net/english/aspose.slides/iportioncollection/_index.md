@@ -19,6 +19,8 @@ The IPortionCollection type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides/iportioncollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

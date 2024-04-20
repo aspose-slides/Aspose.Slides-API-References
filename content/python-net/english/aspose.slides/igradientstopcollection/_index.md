@@ -13,6 +13,8 @@ Represnts a collection of gradient stops.
 
 The IGradientStopCollection type exposes the following members:
 
+Returns the gradient stop by index.
+
 ## Indexer
 
 | Name | Description |

@@ -13,6 +13,8 @@ Represents a collection of a VBA Project references.
 
 The VbaReferenceCollection type exposes the following members:
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

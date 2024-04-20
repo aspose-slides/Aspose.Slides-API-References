@@ -13,6 +13,8 @@ Managed container of the values of the chart category levels.
 
 The ChartCategoryLevelsManager type exposes the following members:
 
+Returns IChartDataCell object for defined level.
+
 ## Indexer
 
 | Name | Description |

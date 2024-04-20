@@ -39,6 +39,8 @@ The ChartSeriesGroup type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides.charts/chartseriesgroup/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.charts/chartseriesgroup/presentation/) |  |
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

@@ -13,6 +13,8 @@ Represents a collection of GradientStopData objects.
 
 The GradientStopCollectionEffectiveData type exposes the following members:
 
+Returns the gradient stop by index.
+
 ## Indexer
 
 | Name | Description |

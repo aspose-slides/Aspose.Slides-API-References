@@ -13,11 +13,14 @@ Represents a collection of SmartArt nodes.
 
 The ISmartArtNodeCollection type exposes the following members:
 
+Returns node by index.
+            Read-only [`ISmartArtNode`](/slides/python-net/aspose.slides.smartart/ismartartnode)
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.smartart/ismartartnodecollection/__getitem__/) | The zero-based index of the element. |
 
 ## Methods
 
@@ -30,6 +33,7 @@ The ISmartArtNodeCollection type exposes the following members:
 
 
 ### See Also
+* class [`ISmartArtNode`](/slides/python-net/aspose.slides.smartart/ismartartnode)
 * module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
 * library [`Aspose.Slides`](/slides/python-net)
 

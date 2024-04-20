@@ -13,6 +13,9 @@ Represents a collection of comments of one author.
 
 The ICommentCollection type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`IComment`](/slides/python-net/aspose.slides/icomment).
+
 ## Indexer
 
 | Name | Description |
@@ -35,6 +38,7 @@ The ICommentCollection type exposes the following members:
 
 
 ### See Also
+* class [`IComment`](/slides/python-net/aspose.slides/icomment)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

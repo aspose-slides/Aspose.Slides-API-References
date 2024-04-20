@@ -13,6 +13,8 @@ Immutable object that represents a readonly collection of effective image transf
 
 The IImageTransformOCollectionEffectiveData type exposes the following members:
 
+Returns element by index.
+
 ## Indexer
 
 | Name | Description |

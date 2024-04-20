@@ -13,6 +13,8 @@ Represents the collection of groups of combinable series.
 
 The IChartSeriesGroupCollection type exposes the following members:
 
+Gets the series group by index.
+
 ## Indexer
 
 | Name | Description |

@@ -21,6 +21,8 @@ The IFontFallBackRule type exposes the following members:
 | [`range_end_index`](/slides/python-net/aspose.slides/ifontfallbackrule/range_end_index/) | Get last index of continuous unicode range. |
 | [`count`](/slides/python-net/aspose.slides/ifontfallbackrule/count/) | Gets the number of fonts actually defined for range. |
 
+Gets the font name at the specified index.
+
 ## Indexer
 
 | Name | Description |

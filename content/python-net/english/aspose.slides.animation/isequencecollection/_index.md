@@ -19,6 +19,8 @@ The ISequenceCollection type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.animation/isequencecollection/count/) | Returns the number of elements in a collection<br/>            Read-only **int**. |
 
+Returns a sequense at the specified index.
+
 ## Indexer
 
 | Name | Description |

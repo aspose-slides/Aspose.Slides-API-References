@@ -19,11 +19,14 @@ The IMathElementCollection type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
 
+Gets the element at the specified index.
+            Read-only [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement).
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/__getitem__/) | The zero-based index of the item to get |
 
 ## Methods
 
@@ -40,6 +43,7 @@ The IMathElementCollection type exposes the following members:
 
 
 ### See Also
+* class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -13,6 +13,8 @@ Represents a readonly collection of  [`IChartSeries`](/slides/python-net/aspose.
 
 The IChartSeriesReadonlyCollection type exposes the following members:
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

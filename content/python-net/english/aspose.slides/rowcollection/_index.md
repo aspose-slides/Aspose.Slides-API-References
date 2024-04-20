@@ -13,6 +13,9 @@ Represents table row collection.
 
 The RowCollection type exposes the following members:
 
+Returns the row at the specified index.
+            Read-only [`Row`](/slides/python-net/aspose.slides/row).
+
 ## Indexer
 
 | Name | Description |
@@ -29,6 +32,7 @@ The RowCollection type exposes the following members:
 
 
 ### See Also
+* class [`Row`](/slides/python-net/aspose.slides/row)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -13,6 +13,9 @@ Represents the collection of line styles.
 
 The LineFormatCollection type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat).
+
 ## Indexer
 
 | Name | Description |
@@ -21,6 +24,7 @@ The LineFormatCollection type exposes the following members:
 
 
 ### See Also
+* class [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -13,6 +13,9 @@ Represents a base class for collection of a layout slides.
 
 The ILayoutSlideCollection type exposes the following members:
 
+Returns the layout slide by index.
+            Read-only [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide).
+
 ## Indexer
 
 | Name | Description |
@@ -29,6 +32,7 @@ The ILayoutSlideCollection type exposes the following members:
 
 
 ### See Also
+* class [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

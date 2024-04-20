@@ -13,6 +13,9 @@ Represents a collection of embedded audio files.
 
 The AudioCollection type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`IAudio`](/slides/python-net/aspose.slides/iaudio).
+
 ## Indexer
 
 | Name | Description |
@@ -30,6 +33,7 @@ The AudioCollection type exposes the following members:
 
 
 ### See Also
+* class [`IAudio`](/slides/python-net/aspose.slides/iaudio)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

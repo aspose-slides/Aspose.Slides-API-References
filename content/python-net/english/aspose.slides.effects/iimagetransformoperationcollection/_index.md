@@ -13,6 +13,8 @@ Represents a collection of effects apllied to an image.
 
 The IImageTransformOperationCollection type exposes the following members:
 
+Returns an [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation) from the collection by it's index.
+
 ## Indexer
 
 | Name | Description |
@@ -44,6 +46,7 @@ The IImageTransformOperationCollection type exposes the following members:
 
 
 ### See Also
+* class [`IImageTransformOperation`](/slides/python-net/aspose.slides.effects/iimagetransformoperation)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -28,6 +28,9 @@ The FontFallBackRule type exposes the following members:
 | [`range_end_index`](/slides/python-net/aspose.slides/fontfallbackrule/range_end_index/) | Get last index of continuous unicode range. |
 | [`count`](/slides/python-net/aspose.slides/fontfallbackrule/count/) | Gets the number of fonts actually defined for range.<br/>            Read-only **int**. |
 
+Gets the font name at the specified index.
+            Read-only [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule).
+
 ## Indexer
 
 | Name | Description |
@@ -49,6 +52,7 @@ The FontFallBackRule type exposes the following members:
 
 
 ### See Also
+* class [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -13,6 +13,9 @@ Represents collection of columns in a table.
 
 The ColumnCollection type exposes the following members:
 
+Returns the column at the specified index.
+            Read-only [`Column`](/slides/python-net/aspose.slides/column).
+
 ## Indexer
 
 | Name | Description |
@@ -29,6 +32,7 @@ The ColumnCollection type exposes the following members:
 
 
 ### See Also
+* class [`Column`](/slides/python-net/aspose.slides/column)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

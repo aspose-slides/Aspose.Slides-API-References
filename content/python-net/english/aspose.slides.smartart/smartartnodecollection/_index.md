@@ -13,11 +13,13 @@ Represents a collection of SmartArt nodes.
 
 The SmartArtNodeCollection type exposes the following members:
 
+Returns node by index
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/__getitem__/) | The zero-based index of the element |
 
 ## Methods
 

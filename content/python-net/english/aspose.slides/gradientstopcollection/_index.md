@@ -22,6 +22,8 @@ The GradientStopCollection type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides/gradientstopcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/gradientstopcollection/presentation/) |  |
 
+Returns the gradient stop by index.
+
 ## Indexer
 
 | Name | Description |

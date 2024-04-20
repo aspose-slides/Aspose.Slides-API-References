@@ -13,6 +13,9 @@ Represents a collection of sections.
 
 The SectionCollection type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`ISection`](/slides/python-net/aspose.slides/isection).
+
 ## Indexer
 
 | Name | Description |
@@ -34,6 +37,7 @@ The SectionCollection type exposes the following members:
 
 
 ### See Also
+* class [`ISection`](/slides/python-net/aspose.slides/isection)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

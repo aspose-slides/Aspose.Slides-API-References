@@ -22,6 +22,8 @@ The ParagraphCollection type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides/paragraphcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides/paragraphcollection/presentation/) |  |
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

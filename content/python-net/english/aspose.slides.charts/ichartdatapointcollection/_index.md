@@ -23,6 +23,8 @@ The IChartDataPointCollection type exposes the following members:
 | [`data_source_type_for_values`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/data_source_type_for_values/) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property<br/>            is actual in data points Value property object. In other words it specifies<br/>            the type of value of ChartDataPoint.Value.Data property.<br/>            Read/write [`DataSourceType`](/slides/python-net/aspose.slides.charts/datasourcetype). |
 | [`data_source_type_for_error_bars_custom_values`](/slides/python-net/aspose.slides.charts/ichartdatapointcollection/data_source_type_for_error_bars_custom_values/) | Specifies the type of values in ChartDataPoint.ErrorBarsCustomValues properties list.<br/>            Read-only [`IDataSourceTypeForErrorBarsCustomValues`](/slides/python-net/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues). |
 
+Returns the series data point by index (its serial number in this collection).
+
 ## Indexer
 
 | Name | Description |

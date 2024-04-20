@@ -19,11 +19,13 @@ The IBehaviorCollection type exposes the following members:
 | :- | :- |
 | [`count`](/slides/python-net/aspose.slides.animation/ibehaviorcollection/count/) | Returns the number of behaviors in a collection.<br/>            Read-only **int**. |
 
+Returns a behavior at the specified index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.animation/ibehaviorcollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.animation/ibehaviorcollection/__getitem__/) | Index of a behavior to return. |
 
 ## Methods
 

@@ -13,6 +13,9 @@ Represents a collection of comment authors.
 
 The ICommentAuthorCollection type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor).
+
 ## Indexer
 
 | Name | Description |
@@ -33,6 +36,7 @@ The ICommentAuthorCollection type exposes the following members:
 
 
 ### See Also
+* class [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

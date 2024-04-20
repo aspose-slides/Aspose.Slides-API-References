@@ -13,6 +13,9 @@ Represents a collection of master slides.
 
 The MasterSlideCollection type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`MasterSlide`](/slides/python-net/aspose.slides/masterslide).
+
 ## Indexer
 
 | Name | Description |
@@ -31,6 +34,7 @@ The MasterSlideCollection type exposes the following members:
 
 
 ### See Also
+* class [`MasterSlide`](/slides/python-net/aspose.slides/masterslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

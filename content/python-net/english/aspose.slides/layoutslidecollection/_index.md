@@ -13,6 +13,9 @@ Represents a base class for collection of a layout slides.
 
 The LayoutSlideCollection type exposes the following members:
 
+Returns the layout slide by index.
+            Read-only [`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide).
+
 ## Indexer
 
 | Name | Description |
@@ -29,6 +32,7 @@ The LayoutSlideCollection type exposes the following members:
 
 
 ### See Also
+* class [`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

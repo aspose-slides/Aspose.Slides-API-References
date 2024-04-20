@@ -22,6 +22,8 @@ The ImageTransformOperationCollection type exposes the following members:
 | [`slide`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/slide/) |  |
 | [`presentation`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection/presentation/) |  |
 
+Returns an [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) from the collection by it's index.
+
 ## Indexer
 
 | Name | Description |
@@ -53,6 +55,7 @@ The ImageTransformOperationCollection type exposes the following members:
 
 
 ### See Also
+* class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
 * class [`ImageTransformOperationCollection`](/slides/python-net/aspose.slides.effects/imagetransformoperationcollection)
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)

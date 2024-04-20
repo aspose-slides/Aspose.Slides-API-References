@@ -13,11 +13,13 @@ Represents a collection of points that shall be drawn in the second pie or bar o
 
 The IPieSplitCustomPointCollection type exposes the following members:
 
+Returns chart data point by index.
+
 ## Indexer
 
 | Name | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection/__getitem__/) |  |
+| [`[index]`](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection/__getitem__/) | Index of  data-point. |
 
 ## Methods
 

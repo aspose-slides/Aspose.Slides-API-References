@@ -13,6 +13,8 @@ Represents collection of  [`ChartSeries`](/slides/python-net/aspose.slides.chart
 
 The ChartSeriesCollection type exposes the following members:
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

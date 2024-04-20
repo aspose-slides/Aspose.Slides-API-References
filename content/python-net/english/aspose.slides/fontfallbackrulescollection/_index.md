@@ -19,6 +19,9 @@ The FontFallBackRulesCollection type exposes the following members:
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides/fontfallbackrulescollection/__init__/#) |  |
 
+Gets the rule at the specified index.
+            Read-only [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule).
+
 ## Indexer
 
 | Name | Description |
@@ -34,6 +37,7 @@ The FontFallBackRulesCollection type exposes the following members:
 
 
 ### See Also
+* class [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

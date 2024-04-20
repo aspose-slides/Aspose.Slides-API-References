@@ -20,6 +20,8 @@ The PortionCollection type exposes the following members:
 | [`count`](/slides/python-net/aspose.slides/portioncollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
 | [`is_read_only`](/slides/python-net/aspose.slides/portioncollection/is_read_only/) | Gets a value indicating whether the **System.Collections.Generic.ICollection`1** is read-only.<br/>            Read-only **bool**. |
 
+Gets the element at the specified index.
+
 ## Indexer
 
 | Name | Description |

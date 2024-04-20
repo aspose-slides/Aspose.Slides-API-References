@@ -13,6 +13,9 @@ Represents the collection of fill styles.
 
 The FillFormatCollection type exposes the following members:
 
+Gets the element at the specified index.
+            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat).
+
 ## Indexer
 
 | Name | Description |
@@ -21,6 +24,7 @@ The FillFormatCollection type exposes the following members:
 
 
 ### See Also
+* class [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat)
 * module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
 * library [`Aspose.Slides`](/slides/python-net)
 
