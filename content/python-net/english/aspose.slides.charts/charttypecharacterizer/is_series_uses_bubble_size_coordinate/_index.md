@@ -18,7 +18,8 @@ True if can be used, otherwise false.
 
 
 ```python
-def is_series_uses_bubble_size_coordinate(self, series_type):
+@staticmethod
+def is_series_uses_bubble_size_coordinate(series_type):
     ...
 ```
 

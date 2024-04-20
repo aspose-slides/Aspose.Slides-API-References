@@ -13,7 +13,8 @@ Makes compression of the [`Presentation`](/slides/python-net/aspose.slides/prese
 
 
 ```python
-def compress_embedded_fonts(self, pres):
+@staticmethod
+def compress_embedded_fonts(pres):
     ...
 ```
 

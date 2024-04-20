@@ -20,7 +20,8 @@ Geometry path
 
 
 ```python
-def graphics_path_to_geometry_path(self, graphics_path):
+@staticmethod
+def graphics_path_to_geometry_path(graphics_path):
     ...
 ```
 

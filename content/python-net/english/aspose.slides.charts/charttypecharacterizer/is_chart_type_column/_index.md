@@ -33,7 +33,8 @@ Return true if chartType is one of Column subtypes.
 
 
 ```python
-def is_chart_type_column(self, chart_type):
+@staticmethod
+def is_chart_type_column(chart_type):
     ...
 ```
 

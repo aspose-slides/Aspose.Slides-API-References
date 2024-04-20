@@ -18,7 +18,8 @@ Array of [`TextFrame`](/slides/python-net/aspose.slides/textframe) objects.
 
 
 ```python
-def get_all_text_frames(self, pres, with_masters):
+@staticmethod
+def get_all_text_frames(pres, with_masters):
     ...
 ```
 

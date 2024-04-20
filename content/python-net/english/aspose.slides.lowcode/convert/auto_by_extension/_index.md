@@ -13,7 +13,8 @@ Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) using t
 
 
 ```python
-def auto_by_extension(self, pres_path, out_path):
+@staticmethod
+def auto_by_extension(pres_path, out_path):
     ...
 ```
 

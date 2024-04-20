@@ -18,7 +18,8 @@ Return true if chartType is one of Surface subtypes.
 
 
 ```python
-def is_chart_type_surface(self, chart_type):
+@staticmethod
+def is_chart_type_surface(chart_type):
     ...
 ```
 

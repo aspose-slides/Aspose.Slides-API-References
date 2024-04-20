@@ -18,7 +18,8 @@ Creates and returns HTML formatter for a simple slide show html which shows slid
 
 
 ```python
-def create_slide_show_formatter(self, css, show_slide_title):
+@staticmethod
+def create_slide_show_formatter(css, show_slide_title):
     ...
 ```
 

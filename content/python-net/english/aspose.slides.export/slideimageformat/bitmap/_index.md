@@ -18,7 +18,8 @@ Slides should be converted to a raster image.
 
 
 ```python
-def bitmap(self, scale, img_format):
+@staticmethod
+def bitmap(scale, img_format):
     ...
 ```
 

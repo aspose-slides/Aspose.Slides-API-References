@@ -13,7 +13,8 @@ Create an image from the stream.
 
 
 ```python
-def from_stream(self, stream):
+@staticmethod
+def from_stream(stream):
     ...
 ```
 
@@ -28,7 +29,8 @@ Create an image from the stream.
 
 
 ```python
-def from_stream(self, stream, use_embedded_color_management):
+@staticmethod
+def from_stream(stream, use_embedded_color_management):
     ...
 ```
 
@@ -44,7 +46,8 @@ Create an image from the stream.
 
 
 ```python
-def from_stream(self, stream, use_embedded_color_management, validate_image_data):
+@staticmethod
+def from_stream(stream, use_embedded_color_management, validate_image_data):
     ...
 ```
 

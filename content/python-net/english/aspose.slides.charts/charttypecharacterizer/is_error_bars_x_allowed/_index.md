@@ -18,7 +18,8 @@ True if allowed, otherwise false.
 
 
 ```python
-def is_error_bars_x_allowed(self, series_type):
+@staticmethod
+def is_error_bars_x_allowed(series_type):
     ...
 ```
 

@@ -13,7 +13,8 @@ Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
 ```python
-def to_pdf(self, pres_path, out_path):
+@staticmethod
+def to_pdf(pres_path, out_path):
     ...
 ```
 
@@ -29,7 +30,8 @@ Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
 ```python
-def to_pdf(self, pres, out_path):
+@staticmethod
+def to_pdf(pres, out_path):
     ...
 ```
 
@@ -45,7 +47,8 @@ Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
 ```python
-def to_pdf(self, pres_path, out_path, options):
+@staticmethod
+def to_pdf(pres_path, out_path, options):
     ...
 ```
 
@@ -62,7 +65,8 @@ Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to PDF.
 
 
 ```python
-def to_pdf(self, pres, out_path, options):
+@staticmethod
+def to_pdf(pres, out_path, options):
     ...
 ```
 

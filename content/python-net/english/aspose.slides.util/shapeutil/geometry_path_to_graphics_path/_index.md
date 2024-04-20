@@ -21,7 +21,8 @@ Graphics path
 
 
 ```python
-def geometry_path_to_graphics_path(self, geometry_path):
+@staticmethod
+def geometry_path_to_graphics_path(geometry_path):
     ...
 ```
 

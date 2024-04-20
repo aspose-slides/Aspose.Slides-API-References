@@ -18,7 +18,8 @@ True if present otherwise false.
 
 
 ```python
-def has_series_trend_lines(self, series_type):
+@staticmethod
+def has_series_trend_lines(series_type):
     ...
 ```
 

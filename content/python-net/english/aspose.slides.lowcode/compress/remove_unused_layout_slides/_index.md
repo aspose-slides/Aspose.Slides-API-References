@@ -13,7 +13,8 @@ Makes compression of the [`Presentation`](/slides/python-net/aspose.slides/prese
 
 
 ```python
-def remove_unused_layout_slides(self, pres):
+@staticmethod
+def remove_unused_layout_slides(pres):
     ...
 ```
 

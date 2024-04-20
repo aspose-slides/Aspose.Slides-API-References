@@ -18,7 +18,8 @@ Collection of all shapes that contain in the presentation
 
 
 ```python
-def shapes(self, pres):
+@staticmethod
+def shapes(pres):
     ...
 ```
 

@@ -20,7 +20,8 @@ Return true if chartType is one of Pie subtypes.
 
 
 ```python
-def is_chart_type_pie(self, chart_type):
+@staticmethod
+def is_chart_type_pie(chart_type):
     ...
 ```
 

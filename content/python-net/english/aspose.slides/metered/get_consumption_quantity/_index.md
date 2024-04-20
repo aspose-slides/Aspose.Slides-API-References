@@ -18,7 +18,8 @@ consumption quantity
 
 
 ```python
-def get_consumption_quantity(self):
+@staticmethod
+def get_consumption_quantity():
     ...
 ```
 

@@ -13,7 +13,8 @@ Releases all custom fonts defined by user
 
 
 ```python
-def clear_cache(self):
+@staticmethod
+def clear_cache():
     ...
 ```
 

@@ -16,7 +16,8 @@ Return true if chartType is one of Bubble subtypes.
 
 
 ```python
-def is_chart_type_bubble(self, chart_type):
+@staticmethod
+def is_chart_type_bubble(chart_type):
     ...
 ```
 

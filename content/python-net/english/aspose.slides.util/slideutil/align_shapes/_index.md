@@ -14,7 +14,8 @@ Changes the placement of all shapes on the slide. Aligns shapes to the margins o
 
 
 ```python
-def align_shapes(self, alignment_type, align_to_slide, slide):
+@staticmethod
+def align_shapes(alignment_type, align_to_slide, slide):
     ...
 ```
 
@@ -32,7 +33,8 @@ Changes the placement of all shapes within group shape. Aligns shapes to the mar
 
 
 ```python
-def align_shapes(self, alignment_type, align_to_slide, group_shape):
+@staticmethod
+def align_shapes(alignment_type, align_to_slide, group_shape):
     ...
 ```
 
@@ -50,7 +52,8 @@ Changes the placement of selected shapes on the slide. Aligns shapes to the marg
 
 
 ```python
-def align_shapes(self, alignment_type, align_to_slide, slide, shape_indexes):
+@staticmethod
+def align_shapes(alignment_type, align_to_slide, slide, shape_indexes):
     ...
 ```
 
@@ -69,7 +72,8 @@ Changes the placement of selected shapes within group shape. Aligns shapes to th
 
 
 ```python
-def align_shapes(self, alignment_type, align_to_slide, group_shape, shape_indexes):
+@staticmethod
+def align_shapes(alignment_type, align_to_slide, group_shape, shape_indexes):
     ...
 ```
 

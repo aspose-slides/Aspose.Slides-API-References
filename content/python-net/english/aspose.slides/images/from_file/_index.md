@@ -13,7 +13,8 @@ Create an image from the file .
 
 
 ```python
-def from_file(self, filename):
+@staticmethod
+def from_file(filename):
     ...
 ```
 
@@ -28,7 +29,8 @@ Create an image from the file
 
 
 ```python
-def from_file(self, filename, use_embedded_color_management):
+@staticmethod
+def from_file(filename, use_embedded_color_management):
     ...
 ```
 

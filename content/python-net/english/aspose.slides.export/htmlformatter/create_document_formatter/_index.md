@@ -18,7 +18,8 @@ Creates and returns HTML formatter for a simple document view which consists of 
 
 
 ```python
-def create_document_formatter(self, css, show_slide_title):
+@staticmethod
+def create_document_formatter(css, show_slide_title):
     ...
 ```
 

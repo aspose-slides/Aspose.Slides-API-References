@@ -18,7 +18,8 @@ True if uses otherwise false.
 
 
 ```python
-def is_series_uses_x_value_coordinate(self, series_type):
+@staticmethod
+def is_series_uses_x_value_coordinate(series_type):
     ...
 ```
 

@@ -19,7 +19,8 @@ Return true if chartType is one of Scatter subtypes.
 
 
 ```python
-def is_chart_type_scatter(self, chart_type):
+@staticmethod
+def is_chart_type_scatter(chart_type):
     ...
 ```
 

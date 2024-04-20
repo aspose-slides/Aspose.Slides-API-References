@@ -20,7 +20,8 @@ Return true if chartType is one of Area subtypes.
 
 
 ```python
-def is_chart_type_area(self, chart_type):
+@staticmethod
+def is_chart_type_area(chart_type):
     ...
 ```
 

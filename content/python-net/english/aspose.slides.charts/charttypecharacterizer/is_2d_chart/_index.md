@@ -15,7 +15,8 @@ chart_type`
 
 
 ```python
-def is_2d_chart(self, chart_type):
+@staticmethod
+def is_2d_chart(chart_type):
     ...
 ```
 

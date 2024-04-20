@@ -18,7 +18,8 @@ instance of BehaviorProperty
 
 
 ```python
-def get_or_create_by_value(self, property_value):
+@staticmethod
+def get_or_create_by_value(property_value):
     ...
 ```
 

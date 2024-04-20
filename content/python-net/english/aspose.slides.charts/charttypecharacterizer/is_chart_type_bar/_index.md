@@ -29,7 +29,8 @@ Return true if chartType is one of Bar subtypes.
 
 
 ```python
-def is_chart_type_bar(self, chart_type):
+@staticmethod
+def is_chart_type_bar(chart_type):
     ...
 ```
 

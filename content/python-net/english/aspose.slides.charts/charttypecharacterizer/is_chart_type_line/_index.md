@@ -21,7 +21,8 @@ Return true if chartType is one of Line subtypes.
 
 
 ```python
-def is_chart_type_line(self, chart_type):
+@staticmethod
+def is_chart_type_line(chart_type):
     ...
 ```
 

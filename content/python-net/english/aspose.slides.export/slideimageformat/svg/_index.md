@@ -18,7 +18,8 @@ Slides should converted to a SVG format.
 
 
 ```python
-def svg(self, options):
+@staticmethod
+def svg(options):
     ...
 ```
 

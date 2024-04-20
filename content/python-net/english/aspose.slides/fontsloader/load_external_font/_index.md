@@ -13,7 +13,8 @@ Adds font from the binary data
 
 
 ```python
-def load_external_font(self, data):
+@staticmethod
+def load_external_font(data):
     ...
 ```
 

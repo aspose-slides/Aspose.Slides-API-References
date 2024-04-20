@@ -13,7 +13,8 @@ Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to SVG.
 
 
 ```python
-def to_svg(self, pres_path):
+@staticmethod
+def to_svg(pres_path):
     ...
 ```
 
@@ -28,7 +29,8 @@ Converts [`Presentation`](/slides/python-net/aspose.slides/presentation) to SVG.
 
 
 ```python
-def to_svg(self, pres, options):
+@staticmethod
+def to_svg(pres, options):
     ...
 ```
 

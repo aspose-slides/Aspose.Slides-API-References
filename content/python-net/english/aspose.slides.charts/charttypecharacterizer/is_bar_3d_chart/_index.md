@@ -13,7 +13,8 @@ Return true if chartType is one of bar3DChart subtypes (3D columns or bars).
 
 
 ```python
-def is_bar_3d_chart(self, chart_type):
+@staticmethod
+def is_bar_3d_chart(chart_type):
     ...
 ```
 

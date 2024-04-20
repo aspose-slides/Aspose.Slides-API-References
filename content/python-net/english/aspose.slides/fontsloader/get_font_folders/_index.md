@@ -18,7 +18,8 @@ array containing folder names
 
 
 ```python
-def get_font_folders(self):
+@staticmethod
+def get_font_folders():
     ...
 ```
 

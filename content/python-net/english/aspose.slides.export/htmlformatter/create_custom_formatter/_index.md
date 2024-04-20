@@ -18,7 +18,8 @@ Creates and returns HTML formatter for custom callback-driven html generation.
 
 
 ```python
-def create_custom_formatter(self, formatting_controller):
+@staticmethod
+def create_custom_formatter(formatting_controller):
     ...
 ```
 

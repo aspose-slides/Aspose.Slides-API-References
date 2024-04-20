@@ -18,7 +18,8 @@ Return true if chartType is one of Stock subtypes.
 
 
 ```python
-def is_chart_type_stock(self, chart_type):
+@staticmethod
+def is_chart_type_stock(chart_type):
     ...
 ```
 

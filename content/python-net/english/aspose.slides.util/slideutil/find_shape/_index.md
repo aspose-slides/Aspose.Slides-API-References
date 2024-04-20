@@ -18,7 +18,8 @@ Shape or null.
 
 
 ```python
-def find_shape(self, pres, alt_text):
+@staticmethod
+def find_shape(pres, alt_text):
     ...
 ```
 
@@ -39,7 +40,8 @@ Shape or null.
 
 
 ```python
-def find_shape(self, slide, alt_text):
+@staticmethod
+def find_shape(slide, alt_text):
     ...
 ```
 

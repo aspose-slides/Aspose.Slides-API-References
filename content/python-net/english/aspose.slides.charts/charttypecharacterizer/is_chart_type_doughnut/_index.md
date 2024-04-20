@@ -16,7 +16,8 @@ Return true if chartType is one of Doughnut subtypes.
 
 
 ```python
-def is_chart_type_doughnut(self, chart_type):
+@staticmethod
+def is_chart_type_doughnut(chart_type):
     ...
 ```
 

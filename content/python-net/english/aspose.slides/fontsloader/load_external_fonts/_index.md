@@ -13,7 +13,8 @@ Adds additional folders to seek fonts.
 
 
 ```python
-def load_external_fonts(self, directories):
+@staticmethod
+def load_external_fonts(directories):
     ...
 ```
 

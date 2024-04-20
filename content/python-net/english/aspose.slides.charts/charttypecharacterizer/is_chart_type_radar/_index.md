@@ -17,7 +17,8 @@ Return true if chartType is one of Radar subtypes.
 
 
 ```python
-def is_chart_type_radar(self, chart_type):
+@staticmethod
+def is_chart_type_radar(chart_type):
     ...
 ```
 

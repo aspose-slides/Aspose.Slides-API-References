@@ -13,7 +13,8 @@ Finds and replaces text in presentation with given format
 
 
 ```python
-def find_and_replace_text(self, presentation, with_masters, find, replace, format):
+@staticmethod
+def find_and_replace_text(presentation, with_masters, find, replace, format):
     ...
 ```
 
