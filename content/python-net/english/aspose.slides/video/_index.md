@@ -1,28 +1,33 @@
----
-title: Video
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: Video class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/video/
 ---
+
 
 ## Video class
 
 Represents an image embedded into a presentation.
 
 The Video type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|content_type|Returns a MIME type of an video, encoded in [binary_data](/slides/python-net/aspose.slides/video/).<br/>            Read-only string.|
-|binary_data|Returns the copy of an audio's data. In case of large amount of data consider using of <br/>            [None](/slides/python-net/aspose.slides/video/) method to prevent unnecessary loading of video's data into memory <br/>            or even OutOfMemoryException.<br/>            Read-only int[].|
+| [`content_type`](/slides/python-net/aspose.slides/video/content_type/) | Returns a MIME type of an video, encoded in [`Video.binary_data`](/slides/python-net/aspose.slides/video#binary_data).<br/>            Read-only **str**. |
+| [`binary_data`](/slides/python-net/aspose.slides/video/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider using of <br/>            [`Video.get_stream`](/slides/python-net/aspose.slides/video/get_stream) method to prevent unnecessary loading of video's data into memory <br/>            or even OutOfMemoryException.<br/>            Read-only **int**[]. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_stream()|Returns Stream stream for reading.<br/>            Use 'using' or close stream after using.|
+| [`get_stream`](/slides/python-net/aspose.slides/video/get_stream/#) | Returns Stream stream for reading.<br/>            Use 'using' or close stream after using. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

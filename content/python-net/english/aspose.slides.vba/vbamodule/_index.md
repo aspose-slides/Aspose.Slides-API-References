@@ -1,24 +1,27 @@
----
-title: VbaModule
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: VbaModule class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.vba/vbamodule/
 ---
+
 
 ## VbaModule class
 
 Represents module that is contained in VBA project.
 
 The VbaModule type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|name|Gets the name of the module.<br/>            Read-only string.|
-|source_code|Returns or sets the source code of the module.<br/>            Read/write string.|
+| [`name`](/slides/python-net/aspose.slides.vba/vbamodule/name/) | Gets the name of the module.<br/>            Read-only **str**. |
+| [`source_code`](/slides/python-net/aspose.slides.vba/vbamodule/source_code/) | Returns or sets the source code of the module.<br/>            Read/write **str**. |
+
 
 ### See Also
-
-* namespace [aspose.slides.vba](/slides/python-net/aspose.slides.vba/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)
 

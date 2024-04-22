@@ -1,33 +1,35 @@
----
-title: IFontSubstRuleCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IFontSubstRuleCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ifontsubstrulecollection/
 ---
+
 
 ## IFontSubstRuleCollection class
 
 Represents collection of fonts substitution.
 
 The IFontSubstRuleCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Gets the element at the specified index.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.|
+| [`[index]`](/slides/python-net/aspose.slides/ifontsubstrulecollection/__getitem__/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(value)|Adds the new font substitution rule to the collection|
-|remove(value)|Removes the first occurrence of a specific object from the collection.|
+| [`add`](/slides/python-net/aspose.slides/ifontsubstrulecollection/add/#ifontsubstrule) | Adds the new font substitution rule to the collection |
+| [`remove`](/slides/python-net/aspose.slides/ifontsubstrulecollection/remove/#ifontsubstrule) | Removes the first occurrence of a specific object from the collection. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,24 +1,27 @@
----
-title: OOXMLException
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: OOXMLException class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ooxmlexception/
 ---
+
 
 ## OOXMLException class
 
 Represents a standard internal exception type related to Office Open XML file format.
 
 The OOXMLException type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|OOXMLException()|Default constructor.|
-|OOXMLException(message)|Initializes a new instance of the OOXMLException class|
+| [`__init__`](/slides/python-net/aspose.slides/ooxmlexception/__init__/#) | Default constructor. |
+| [`__init__`](/slides/python-net/aspose.slides/ooxmlexception/__init__/#str) | Constructor allowing a message to be added to this exception. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

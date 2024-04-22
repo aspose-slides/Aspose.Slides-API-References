@@ -1,24 +1,26 @@
----
-title: IOrientationTransition
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IOrientationTransition class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/iorientationtransition/
 ---
+
 
 ## IOrientationTransition class
 
 Orientation slide transition effect.
 
 The IOrientationTransition type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|direction|Direction of transition.<br/>            Read/write [Orientation](/slides/python-net/aspose.slides/orientation/).|
-|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
+| [`direction`](/slides/python-net/aspose.slides.slideshow/iorientationtransition/direction/) | Direction of transition.<br/>            Read/write [`Orientation`](/slides/python-net/aspose.slides/orientation). |
+
 
 ### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)
 

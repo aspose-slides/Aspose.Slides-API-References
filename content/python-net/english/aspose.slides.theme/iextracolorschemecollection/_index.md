@@ -1,28 +1,30 @@
----
-title: IExtraColorSchemeCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IExtraColorSchemeCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/iextracolorschemecollection/
 ---
+
 
 ## IExtraColorSchemeCollection class
 
 Represents a collection of additional color schemes.
 
 The IExtraColorSchemeCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Returns an color scheme by index.
+            Read-only [`IExtraColorScheme`](/slides/python-net/aspose.slides.theme/iextracolorscheme).
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns an color scheme by index.<br/>            Read-only [IExtraColorScheme](/slides/python-net/aspose.slides.theme/iextracolorscheme/).|
+| [`[index]`](/slides/python-net/aspose.slides.theme/iextracolorschemecollection/__getitem__/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`IExtraColorScheme`](/slides/python-net/aspose.slides.theme/iextracolorscheme)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)
 

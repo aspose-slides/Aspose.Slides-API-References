@@ -1,25 +1,29 @@
----
-title: TextVerticalOverflowType
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: TextVerticalOverflowType enumeration
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/textverticaloverflowtype/
 ---
 
+
 ## TextVerticalOverflowType enumeration
 
 Represents text vertical overflow type.
 
-## Members
-| Member name | Description |
+The TextVerticalOverflowType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED||
-|OVERFLOW||
-|ELLIPSIS||
-|CLIP||
+| NOT_DEFINED |  |
+| OVERFLOW |  |
+| ELLIPSIS |  |
+| CLIP |  |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

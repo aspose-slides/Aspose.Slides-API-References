@@ -1,31 +1,30 @@
----
-title: LegendEntryProperties
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: LegendEntryProperties class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/legendentryproperties/
 ---
+
 
 ## LegendEntryProperties class
 
 Represents legend properties of a chart.
 
 The LegendEntryProperties type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|text_format|Returns text format.<br/>            Read-only [IChartTextFormat](/slides/python-net/aspose.slides.charts/icharttextformat/).|
-|hide|Determines whether the legend entry is hide.<br/>            Read/write bool.|
-|chart|Returns the parent chart.<br/>            Read-only [IChart](/slides/python-net/aspose.slides.charts/ichart/).|
-|as_i_formatted_text_container|Allows to get base IFormattedTextContainer interface.<br/>            Read-only [IFormattedTextContainer](/slides/python-net/aspose.slides.charts/iformattedtextcontainer/).|
-|as_i_chart_component|Returns IChartComponent interface.<br/>            Read-only [IChartComponent](/slides/python-net/aspose.slides.charts/ichartcomponent/).|
-|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+| [`text_format`](/slides/python-net/aspose.slides.charts/legendentryproperties/text_format/) | Returns text format.<br/>            Read-only [`IChartTextFormat`](/slides/python-net/aspose.slides.charts/icharttextformat). |
+| [`hide`](/slides/python-net/aspose.slides.charts/legendentryproperties/hide/) | Determines whether the legend entry is hide.<br/>            Read/write **bool**. |
+| [`chart`](/slides/python-net/aspose.slides.charts/legendentryproperties/chart/) | Returns the parent chart.<br/>            Read-only [`IChart`](/slides/python-net/aspose.slides.charts/ichart). |
+| [`slide`](/slides/python-net/aspose.slides.charts/legendentryproperties/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/legendentryproperties/presentation/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

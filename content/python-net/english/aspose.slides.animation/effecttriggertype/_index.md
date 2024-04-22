@@ -1,24 +1,28 @@
----
-title: EffectTriggerType
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: EffectTriggerType enumeration
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/effecttriggertype/
 ---
 
+
 ## EffectTriggerType enumeration
 
 Represent trigger type of effect.
 
-## Members
-| Member name | Description |
+The EffectTriggerType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|AFTER_PREVIOUS||
-|ON_CLICK||
-|WITH_PREVIOUS||
+| AFTER_PREVIOUS |  |
+| ON_CLICK |  |
+| WITH_PREVIOUS |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)
 

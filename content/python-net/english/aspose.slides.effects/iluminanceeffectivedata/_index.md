@@ -1,25 +1,29 @@
----
-title: ILuminanceEffectiveData
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ILuminanceEffectiveData class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/iluminanceeffectivedata/
 ---
 
+
 ## ILuminanceEffectiveData class
 
-Represents a Luminance effect.<br/>            Brightness linearly shifts all colors closer to white or black.<br/>            Contrast scales all colors to be either closer or further apart.
+Represents a Luminance effect.
+            Brightness linearly shifts all colors closer to white or black.
+            Contrast scales all colors to be either closer or further apart.
 
 The ILuminanceEffectiveData type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|brightness|Brightness.<br/>            Read-only|
-|contrast|Contrast.<br/>            Read-only|
-|as_i_effect_effective_data|Allows to get base IEffectEffectiveData interface.<br/>            Read-only [IEffectEffectiveData](/slides/python-net/aspose.slides.effects/ieffecteffectivedata/).|
+| [`brightness`](/slides/python-net/aspose.slides.effects/iluminanceeffectivedata/brightness/) | Brightness.<br/>            Read-only **float**. |
+| [`contrast`](/slides/python-net/aspose.slides.effects/iluminanceeffectivedata/contrast/) | Contrast.<br/>            Read-only **float**. |
+
 
 ### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)
 

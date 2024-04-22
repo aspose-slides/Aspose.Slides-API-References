@@ -1,40 +1,48 @@
----
-title: PortionCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: PortionCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/portioncollection/
 ---
+
 
 ## PortionCollection class
 
 Represents a collection of portions.
 
 The PortionCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Gets the number of elements actually contained in the collection.<br/>            Read-only|
-|is_read_only|Gets a value indicating whether the list is read-only.<br/>            Read-only bool.|
-|as_i_enumerable|Returns IEnumerable interface.<br/>            Read-only list.|
+| [`count`](/slides/python-net/aspose.slides/portioncollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
+| [`is_read_only`](/slides/python-net/aspose.slides/portioncollection/is_read_only/) | Gets a value indicating whether the **System.Collections.Generic.ICollection`1** is read-only.<br/>            Read-only **bool**. |
+
+Gets the element at the specified index.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.|
+| [`[index]`](/slides/python-net/aspose.slides/portioncollection/__getitem__/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(value)|Adds a Portion to the end of collection.|
-|index_of(item)|Determines the index of a specific item in the list.|
-|insert(index, value)|Inserts a Portion into the collection at the specified index.|
-|clear()|Removes all elements from the collection.|
-|contains(item)|Determines whether the list contains a specific value.|
-|copy_to(array, array_index)|Copies the elements of the list to an array, starting at a particular array index.|
-|remove(item)|Removes the first occurrence of a specific object from the list.|
-|remove_at(index)|Removes the element at the specified index of the collection.|
+| [`add`](/slides/python-net/aspose.slides/portioncollection/add/#iportion) | Adds a Portion to the end of collection. |
+| [`index_of`](/slides/python-net/aspose.slides/portioncollection/index_of/#iportion) | Determines the index of a specific item in the **System.Collections.Generic.IList`1**. |
+| [`insert`](/slides/python-net/aspose.slides/portioncollection/insert/#int-iportion) | Inserts a Portion into the collection at the specified index. |
+| [`clear`](/slides/python-net/aspose.slides/portioncollection/clear/#) | Removes all elements from the collection. |
+| [`contains`](/slides/python-net/aspose.slides/portioncollection/contains/#iportion) | Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value. |
+| [`copy_to`](/slides/python-net/aspose.slides/portioncollection/copy_to/#listiportion-int) | Copies the elements of the **System.Collections.Generic.ICollection`1** to an **System.Array**, starting at a particular **System.Array** index. |
+| [`remove`](/slides/python-net/aspose.slides/portioncollection/remove/#iportion) | Removes the first occurrence of a specific object from the **System.Collections.Generic.ICollection`1**. |
+| [`remove_at`](/slides/python-net/aspose.slides/portioncollection/remove_at/#int) | Removes the element at the specified index of the collection. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

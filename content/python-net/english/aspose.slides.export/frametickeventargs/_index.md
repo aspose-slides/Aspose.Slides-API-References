@@ -1,27 +1,32 @@
----
-title: FrameTickEventArgs
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: FrameTickEventArgs class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/frametickeventargs/
 ---
 
+
 ## FrameTickEventArgs class
 
-Represents arguments of the
+Represents arguments of the **FrameTick** event.
 
 The FrameTickEventArgs type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|player|Get the presentation player|
+| [`player`](/slides/python-net/aspose.slides.export/frametickeventargs/player/) | Get the presentation player |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_frame()|Get the current [PresentationPlayer](/slides/python-net/aspose.slides.export/presentationplayer/) frame.|
+| [`get_frame`](/slides/python-net/aspose.slides.export/frametickeventargs/get_frame/#) | Get the current [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer) frame. |
+
 
 ### See Also
-
-* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)
 

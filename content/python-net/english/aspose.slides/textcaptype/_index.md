@@ -1,25 +1,29 @@
----
-title: TextCapType
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: TextCapType enumeration
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/textcaptype/
 ---
 
+
 ## TextCapType enumeration
 
 Represents the type of text capitalisation.
 
-## Members
-| Member name | Description |
+The TextCapType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED||
-|NONE||
-|SMALL||
-|ALL||
+| NOT_DEFINED |  |
+| NONE |  |
+| SMALL |  |
+| ALL |  |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,28 +1,31 @@
----
-title: BuildVersionInfo
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: BuildVersionInfo class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/buildversioninfo/
 ---
+
 
 ## BuildVersionInfo class
 
 Contains information about version of Aspose.Slides.
 
 The BuildVersionInfo type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|ASSEMBLY_VERSION|Version of Aspose.Slides assembly.|
-|FILE_VERSION|Version of assembly file.|
-|PRODUCT|Product name of Aspose.Slides|
-|PRODUCT_MAJOR|Major version number.|
-|PRODUCT_MINOR|Minor version number.|
-|RELEASE_DATE|Release date of the assembly.|
+| [`ASSEMBLY_VERSION`](/slides/python-net/aspose.slides/buildversioninfo/assembly_version/) | Version of Aspose.Slides assembly. |
+| [`FILE_VERSION`](/slides/python-net/aspose.slides/buildversioninfo/file_version/) | Version of assembly file. |
+| [`PRODUCT`](/slides/python-net/aspose.slides/buildversioninfo/product/) | Product name of Aspose.Slides |
+| [`PRODUCT_MAJOR`](/slides/python-net/aspose.slides/buildversioninfo/product_major/) | Major version number. |
+| [`PRODUCT_MINOR`](/slides/python-net/aspose.slides/buildversioninfo/product_minor/) | Minor version number. |
+| [`RELEASE_DATE`](/slides/python-net/aspose.slides/buildversioninfo/release_date/) | Release date of the assembly. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

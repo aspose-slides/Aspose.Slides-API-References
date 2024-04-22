@@ -1,35 +1,37 @@
----
-title: SmartArtNodeCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: SmartArtNodeCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartartnodecollection/
 ---
+
 
 ## SmartArtNodeCollection class
 
 Represents a collection of SmartArt nodes.
 
 The SmartArtNodeCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Returns node by index
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns node by index|
+| [`[index]`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/__getitem__/) | The zero-based index of the element |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|remove_node(index)|Remove node or sub node by index|
-|remove_node(node)|Remove node or sub node|
-|add_node()|Add new smart art node or sub node.|
-|add_node_by_position(position)|Add new node in the selected position of nodes collection|
+| [`remove_node`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/remove_node/#int) | Remove node or sub node by index |
+| [`remove_node`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/remove_node/#ismartartnode) | Remove node or sub node |
+| [`add_node`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/add_node/#) | Add new smart art node or sub node. |
+| [`add_node_by_position`](/slides/python-net/aspose.slides.smartart/smartartnodecollection/add_node_by_position/#int) | Add new node in the selected position of nodes collection |
+
 
 ### See Also
-
-* namespace [aspose.slides.smartart](/slides/python-net/aspose.slides.smartart/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)
 

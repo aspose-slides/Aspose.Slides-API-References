@@ -1,27 +1,37 @@
----
-title: MathBoxFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: MathBoxFactory class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathboxfactory/
 ---
+
 
 ## MathBoxFactory class
 
 Allows to create a math box
 
 The MathBoxFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|MathBoxFactory()|Initializes a new instance of the MathBoxFactory class|
+| [`__init__`](/slides/python-net/aspose.slides.mathtext/mathboxfactory/__init__/#) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_box(element)|Create a math box by applying to the element|
+| [`create_math_box`](/slides/python-net/aspose.slides.mathtext/mathboxfactory/create_math_box/#imathelement) | Create a math box by applying to the element |
+
+
+### Remarks
+
+For COM comparibility
+
 
 ### See Also
-
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)
 

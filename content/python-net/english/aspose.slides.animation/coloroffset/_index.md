@@ -1,29 +1,34 @@
----
-title: ColorOffset
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ColorOffset class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/coloroffset/
 ---
+
 
 ## ColorOffset class
 
 Represent color offset.
 
 The ColorOffset type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|ColorOffset()|Initializes a new instance of the ColorOffset class|
+| [`__init__`](/slides/python-net/aspose.slides.animation/coloroffset/__init__/#) |  |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|value0|Defines first value of offset.<br/>            Read/write|
-|value1|Defines second value of offset.<br/>            Read/write|
-|value2|Defines third value of offset.<br/>            Read/write|
+| [`value0`](/slides/python-net/aspose.slides.animation/coloroffset/value0/) | Defines first value of offset.<br/>            Read/write **float**. |
+| [`value1`](/slides/python-net/aspose.slides.animation/coloroffset/value1/) | Defines second value of offset.<br/>            Read/write **float**. |
+| [`value2`](/slides/python-net/aspose.slides.animation/coloroffset/value2/) | Defines third value of offset.<br/>            Read/write **float**. |
+
 
 ### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)
 

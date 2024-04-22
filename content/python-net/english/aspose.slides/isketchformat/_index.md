@@ -1,23 +1,26 @@
----
-title: ISketchFormat
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ISketchFormat class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/isketchformat/
 ---
+
 
 ## ISketchFormat class
 
 Represents properties for lines sketch format.
 
 The ISketchFormat type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|sketch_type|Returns or sets the sketch type.<br/>            Read/write [LineSketchType](/slides/python-net/aspose.slides/linesketchtype/).|
+| [`sketch_type`](/slides/python-net/aspose.slides/isketchformat/sketch_type/) | Returns or sets the sketch type.<br/>            Read/write [`LineSketchType`](/slides/python-net/aspose.slides/linesketchtype). |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

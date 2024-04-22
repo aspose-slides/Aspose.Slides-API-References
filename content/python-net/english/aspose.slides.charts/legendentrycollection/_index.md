@@ -1,27 +1,42 @@
----
-title: LegendEntryCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: LegendEntryCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/legendentrycollection/
 ---
+
 
 ## LegendEntryCollection class
 
 Represents legends collection.
 
 The LegendEntryCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Gets the number of legend entries.<br/>            Read-only|
+| [`count`](/slides/python-net/aspose.slides.charts/legendentrycollection/count/) | Gets the number of legend entries.<br/>            Read-only **int**. |
+
+Gets properties of the legend entry corresponding to Chart.ChartData.Series[0].DataPoints[index]
+            in case of chart type from this list:
+              ChartType.BarOfPie,
+              ChartType.ExplodedPie,
+              ChartType.ExplodedPie3D,
+              ChartType.Pie,
+              ChartType.Pie3D,
+              ChartType.PieOfPie;
+            or corresponding to Chart.ChartData.Series[index] for other chart types.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets properties of the legend entry corresponding to Chart.ChartData.Series[0].DataPoints[index]<br/>            in case of chart type from this list:<br/>              ChartType.BarOfPie,<br/>              ChartType.ExplodedPie,<br/>              ChartType.ExplodedPie3D,<br/>              ChartType.Pie,<br/>              ChartType.Pie3D,<br/>              ChartType.PieOfPie;<br/>            or corresponding to Chart.ChartData.Series[index] for other chart types.|
+| [`[index]`](/slides/python-net/aspose.slides.charts/legendentrycollection/__getitem__/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

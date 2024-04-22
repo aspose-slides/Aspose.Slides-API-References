@@ -1,29 +1,33 @@
----
-title: VbaReferenceOleTypeLib
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: VbaReferenceOleTypeLib class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.vba/vbareferenceoletypelib/
 ---
+
 
 ## VbaReferenceOleTypeLib class
 
 Represents OLE Automation type library reference.
 
 The VbaReferenceOleTypeLib type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|VbaReferenceOleTypeLib(name, libid)|Initializes a new instance of the VbaReferenceOleTypeLib class|
+| [`__init__`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/__init__/#str-str) | This constructor creates new OLE Automation type library reference. |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|name|Represents the name of the VBA project reference.<br/>            Read/write string.|
-|libid|Represents the identifier of an Automation type library.<br/>            Read/write string.|
-|as_i_vba_reference|Returns IVbaReference interface.<br/>            Read-only [IVbaReference](/slides/python-net/aspose.slides.vba/ivbareference/).|
+| [`name`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/name/) | Represents the name of the VBA project reference.<br/>            Read/write **str**. |
+| [`libid`](/slides/python-net/aspose.slides.vba/vbareferenceoletypelib/libid/) | Represents the identifier of an Automation type library.<br/>            Read/write **str**. |
+
 
 ### See Also
-
-* namespace [aspose.slides.vba](/slides/python-net/aspose.slides.vba/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)
 

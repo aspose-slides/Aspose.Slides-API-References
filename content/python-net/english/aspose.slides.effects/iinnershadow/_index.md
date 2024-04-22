@@ -1,31 +1,35 @@
----
-title: IInnerShadow
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IInnerShadow class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/iinnershadow/
 ---
+
 
 ## IInnerShadow class
 
 Represents a inner shadow effect.
 
 The IInnerShadow type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|blur_radius|Blur radius.<br/>            Read/write float.|
-|direction|Direction of shadow.<br/>            Read/write|
-|distance|Distance of shadow.<br/>            Read/write float.|
-|shadow_color|Color of shadow.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
-|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [`blur_radius`](/slides/python-net/aspose.slides.effects/iinnershadow/blur_radius/) | Blur radius.<br/>            Read/write **float**. |
+| [`direction`](/slides/python-net/aspose.slides.effects/iinnershadow/direction/) | Direction of shadow.<br/>            Read/write **float**. |
+| [`distance`](/slides/python-net/aspose.slides.effects/iinnershadow/distance/) | Distance of shadow.<br/>            Read/write **float**. |
+| [`shadow_color`](/slides/python-net/aspose.slides.effects/iinnershadow/shadow_color/) | Color of shadow.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective object formatting data with the inheritance applied.|
+| [`get_effective`](/slides/python-net/aspose.slides.effects/iinnershadow/get_effective/#) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)
 

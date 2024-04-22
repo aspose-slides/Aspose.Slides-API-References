@@ -1,27 +1,32 @@
----
-title: FontDataFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: FontDataFactory class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/fontdatafactory/
 ---
+
 
 ## FontDataFactory class
 
 FontData factory
 
 The FontDataFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|FontDataFactory()|Initializes a new instance of the FontDataFactory class|
+| [`__init__`](/slides/python-net/aspose.slides/fontdatafactory/__init__/#) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_font_data(font_name)|Creates FontData with specified font name.|
+| [`create_font_data`](/slides/python-net/aspose.slides/fontdatafactory/create_font_data/#str) | Creates FontData with specified font name. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

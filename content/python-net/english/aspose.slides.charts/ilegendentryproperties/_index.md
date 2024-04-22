@@ -1,31 +1,30 @@
----
-title: ILegendEntryProperties
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ILegendEntryProperties class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ilegendentryproperties/
 ---
+
 
 ## ILegendEntryProperties class
 
 Represents legend properties of a chart.
 
 The ILegendEntryProperties type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|hide|Returns or sets the hide flag of legend entry.<br/>            Read/write bool.|
-|as_i_formatted_text_container|Allows to get base IFormattedTextContainer interface.<br/>            Read-only [IFormattedTextContainer](/slides/python-net/aspose.slides.charts/iformattedtextcontainer/).|
-|text_format|Returns chart text format.<br/>            Read-only [IChartTextFormat](/slides/python-net/aspose.slides.charts/icharttextformat/).|
-|as_i_chart_component|Returns IChartComponent interface.<br/>            Read-only [IChartComponent](/slides/python-net/aspose.slides.charts/ichartcomponent/).|
-|chart|Returns the chart.<br/>            Read-only [IChart](/slides/python-net/aspose.slides.charts/ichart/).|
-|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+| [`hide`](/slides/python-net/aspose.slides.charts/ilegendentryproperties/hide/) | Returns or sets the hide flag of legend entry.<br/>            Read/write **bool**. |
+| [`text_format`](/slides/python-net/aspose.slides.charts/ilegendentryproperties/text_format/) |  |
+| [`chart`](/slides/python-net/aspose.slides.charts/ilegendentryproperties/chart/) |  |
+| [`slide`](/slides/python-net/aspose.slides.charts/ilegendentryproperties/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/ilegendentryproperties/presentation/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

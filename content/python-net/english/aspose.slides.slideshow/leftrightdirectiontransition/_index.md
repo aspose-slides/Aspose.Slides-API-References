@@ -1,24 +1,30 @@
----
-title: LeftRightDirectionTransition
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: LeftRightDirectionTransition class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 
+
 ## LeftRightDirectionTransition class
 
 Left-right direction slide transition effect.
 
+**Inheritance:**[`LeftRightDirectionTransition`](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition) → [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+
 The LeftRightDirectionTransition type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|direction|Direction of transition.<br/>            Read/write [TransitionLeftRightDirectionType](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype/).|
-|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
+| [`direction`](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionLeftRightDirectionType`](/slides/python-net/aspose.slides.slideshow/transitionleftrightdirectiontype). |
+
 
 ### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`LeftRightDirectionTransition`](/slides/python-net/aspose.slides.slideshow/leftrightdirectiontransition)
+* class [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)
 

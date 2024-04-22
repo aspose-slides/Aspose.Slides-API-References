@@ -1,28 +1,39 @@
----
-title: IAlphaBiLevel
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IAlphaBiLevel class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/ialphabilevel/
 ---
 
+
 ## IAlphaBiLevel class
 
-Represents an Alpha Bi-Level effect.<br/>            Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and<br/>            alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
+Represents an Alpha Bi-Level effect.
+            Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and
+            alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
 
 The IAlphaBiLevel type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|threshold|Returns effect threshold.<br/>            Read/write|
-|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [`threshold`](/slides/python-net/aspose.slides.effects/ialphabilevel/threshold/) | Returns effect threshold.<br/>            Read/write **float**. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective object formatting data with the inheritance applied.|
+| [`get_effective`](/slides/python-net/aspose.slides.effects/ialphabilevel/get_effective/#) |  |
+
+
+### Remarks
+
+Use ImageTransformOperationFactory to create instaces in COM.
+
 
 ### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,30 +1,39 @@
----
-title: Tint
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: Tint class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/tint/
 ---
 
+
 ## Tint class
 
-Represents a Tint effect.<br/>            Shifts effect color values towards/away from hue by the specified amount.
+Represents a Tint effect.
+            Shifts effect color values towards/away from hue by the specified amount.
+
+**Inheritance:**[`Tint`](/slides/python-net/aspose.slides.effects/tint) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The Tint type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
-|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [`slide`](/slides/python-net/aspose.slides.effects/tint/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/tint/presentation/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective Tint effect data with the inheritance applied.|
+| [`get_effective`](/slides/python-net/aspose.slides.effects/tint/get_effective/#) | Gets effective Tint effect data with the inheritance applied. |
+
 
 ### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+* class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+* class [`Tint`](/slides/python-net/aspose.slides.effects/tint)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)
 

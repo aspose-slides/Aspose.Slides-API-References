@@ -1,25 +1,29 @@
----
-title: ModernCommentStatus
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ModernCommentStatus enumeration
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/moderncommentstatus/
 ---
 
+
 ## ModernCommentStatus enumeration
 
 Represents the status of a modern comment.
 
-## Members
-| Member name | Description |
+The ModernCommentStatus type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED|Not Defined.|
-|ACTIVE|Active.|
-|RESOLVED|Resolved.|
-|CLOSED|Closed.|
+| NOT_DEFINED | Not Defined. |
+| ACTIVE | Active. |
+| RESOLVED | Resolved. |
+| CLOSED | Closed. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

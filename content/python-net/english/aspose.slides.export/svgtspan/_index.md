@@ -1,23 +1,26 @@
----
-title: SvgTSpan
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: SvgTSpan class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/svgtspan/
 ---
+
 
 ## SvgTSpan class
 
 Represents options for SVG text portion ("tspan").
 
 The SvgTSpan type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|id|Gets "tspan" element id|
+| [`id`](/slides/python-net/aspose.slides.export/svgtspan/id/) | Gets "tspan" element id |
+
 
 ### See Also
-
-* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,33 +1,35 @@
----
-title: VbaModuleCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: VbaModuleCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.vba/vbamodulecollection/
 ---
+
 
 ## VbaModuleCollection class
 
 Represents a collection of a VBA Project modules.
 
 The VbaModuleCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Gets the element at the specified index.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.|
+| [`[index]`](/slides/python-net/aspose.slides.vba/vbamodulecollection/__getitem__/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|remove(value)|Removes the first occurrence of a specific object from the collection.|
-|add_empty_module(name)|Adds a new empty module to the VBA Project.|
+| [`remove`](/slides/python-net/aspose.slides.vba/vbamodulecollection/remove/#ivbamodule) | Removes the first occurrence of a specific object from the collection. |
+| [`add_empty_module`](/slides/python-net/aspose.slides.vba/vbamodulecollection/add_empty_module/#str) | Adds a new empty module to the VBA Project. |
+
 
 ### See Also
-
-* namespace [aspose.slides.vba](/slides/python-net/aspose.slides.vba/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)
 

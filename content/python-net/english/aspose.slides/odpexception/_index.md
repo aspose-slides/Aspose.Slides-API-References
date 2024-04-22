@@ -1,24 +1,27 @@
----
-title: OdpException
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: OdpException class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/odpexception/
 ---
+
 
 ## OdpException class
 
 Represents a standard internal exception type.
 
 The OdpException type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|OdpException()|Default constructor|
-|OdpException(message)|Initializes a new instance of the OdpException class|
+| [`__init__`](/slides/python-net/aspose.slides/odpexception/__init__/#) | Default constructor |
+| [`__init__`](/slides/python-net/aspose.slides/odpexception/__init__/#str) | Constructor allowing a message to be added to this exception. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,34 +1,36 @@
----
-title: IDigitalSignatureCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IDigitalSignatureCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/idigitalsignaturecollection/
 ---
+
 
 ## IDigitalSignatureCollection class
 
 Represents a collection of digital signatures attached to a document.
 
 The IDigitalSignatureCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Returns the signature by index.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns the signature by index.|
+| [`[index]`](/slides/python-net/aspose.slides/idigitalsignaturecollection/__getitem__/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(digital_signature)|Adds the signature at the end of collection.|
-|remove_at(index)|Removes the signature at the specified index.|
-|clear()|Removes all signatures from collection.|
+| [`add`](/slides/python-net/aspose.slides/idigitalsignaturecollection/add/#idigitalsignature) | Adds the signature at the end of collection. |
+| [`remove_at`](/slides/python-net/aspose.slides/idigitalsignaturecollection/remove_at/#int) | Removes the signature at the specified index. |
+| [`clear`](/slides/python-net/aspose.slides/idigitalsignaturecollection/clear/#) | Removes all signatures from collection. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

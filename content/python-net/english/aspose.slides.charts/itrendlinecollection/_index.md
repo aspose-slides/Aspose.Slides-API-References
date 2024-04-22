@@ -1,33 +1,43 @@
----
-title: ITrendlineCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ITrendlineCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/itrendlinecollection/
 ---
+
 
 ## ITrendlineCollection class
 
 Represents a collection of TrendlineEx
 
 The ITrendlineCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Gets the number of elements actually contained in the collection.<br/>            Read-only|
-|as_i_enumerable|Allows to get base IEnumerable interface.<br/>            Read-only list.|
+| [`count`](/slides/python-net/aspose.slides.charts/itrendlinecollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
+
+Gets the element at the specified index.
+            Read-only [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline).
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [ITrendline](/slides/python-net/aspose.slides.charts/itrendline/).|
+| [`[index]`](/slides/python-net/aspose.slides.charts/itrendlinecollection/__getitem__/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(trendline_type)|Adds the new Trendline at the end of a collection and return it.|
-|remove(value)|Removes the specified value.|
+| [`add`](/slides/python-net/aspose.slides.charts/itrendlinecollection/add/#trendlinetype) | Adds the new Trendline at the end of a collection and return it. |
+| [`remove`](/slides/python-net/aspose.slides.charts/itrendlinecollection/remove/#itrendline) | Removes the specified value. |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`ITrendline`](/slides/python-net/aspose.slides.charts/itrendline)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

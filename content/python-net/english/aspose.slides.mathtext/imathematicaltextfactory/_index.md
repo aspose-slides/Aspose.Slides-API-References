@@ -1,26 +1,34 @@
----
-title: IMathematicalTextFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IMathematicalTextFactory class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathematicaltextfactory/
 ---
+
 
 ## IMathematicalTextFactory class
 
 Allows to create a MathematicalText element
 
 The IMathematicalTextFactory type exposes the following members:
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_mathematical_text()|Create empty mathematical text element|
-|create_mathematical_text(math_symbol)|Create mathematical text element with the specified value|
-|create_mathematical_text(math_text)|Create empty mathematical text element with the specified value|
-|create_mathematical_text(math_text, portion_format)|Create empty mathematical text element with the specified value and formatting properties|
+| [`create_mathematical_text`](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/create_mathematical_text/#) | Create empty mathematical text element |
+| [`create_mathematical_text`](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/create_mathematical_text/#char) | Create mathematical text element with the specified value |
+| [`create_mathematical_text`](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/create_mathematical_text/#str) | Create empty mathematical text element with the specified value |
+| [`create_mathematical_text`](/slides/python-net/aspose.slides.mathtext/imathematicaltextfactory/create_mathematical_text/#str-iportionformat) | Create empty mathematical text element with the specified value and formatting properties |
+
+
+### Remarks
+
+For COM comparibility
+
 
 ### See Also
-
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)
 

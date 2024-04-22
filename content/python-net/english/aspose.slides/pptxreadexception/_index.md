@@ -1,24 +1,32 @@
----
-title: PptxReadException
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: PptxReadException class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/pptxreadexception/
 ---
 
+
 ## PptxReadException class
 
 Represents an exception which thrown on presentation reading errors.
 
+**Inheritance:**[`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception) → [`PptxException`](/slides/python-net/aspose.slides/pptxexception) → [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
+
 The PptxReadException type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|PptxReadException()|Default constructor.|
-|PptxReadException(message)|Initializes a new instance of the PptxReadException class|
+| [`__init__`](/slides/python-net/aspose.slides/pptxreadexception/__init__/#) | Default constructor. |
+| [`__init__`](/slides/python-net/aspose.slides/pptxreadexception/__init__/#str) | Constructor allowing a message to be added to this exception. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
+* class [`PptxException`](/slides/python-net/aspose.slides/pptxexception)
+* class [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

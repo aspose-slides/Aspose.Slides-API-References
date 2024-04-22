@@ -1,23 +1,27 @@
----
-title: ChartDataSourceType
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ChartDataSourceType enumeration
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/chartdatasourcetype/
 ---
 
+
 ## ChartDataSourceType enumeration
 
 Represents a type of data source of the chart
 
-## Members
-| Member name | Description |
+The ChartDataSourceType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|INTERNAL_WORKBOOK|Internal data source.|
-|EXTERNAL_WORKBOOK|External data source.|
+| INTERNAL_WORKBOOK | Internal data source. |
+| EXTERNAL_WORKBOOK | External data source. |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

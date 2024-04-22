@@ -1,24 +1,30 @@
----
-title: MorphTransition
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: MorphTransition class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/morphtransition/
 ---
 
+
 ## MorphTransition class
 
 Ripple slide transition effect.
 
+**Inheritance:**[`MorphTransition`](/slides/python-net/aspose.slides.slideshow/morphtransition) → [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+
 The MorphTransition type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|morph_type|Type of morph transition.<br/>            Read/write [TransitionMorphType](/slides/python-net/aspose.slides.slideshow/transitionmorphtype/).|
-|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
+| [`morph_type`](/slides/python-net/aspose.slides.slideshow/morphtransition/morph_type/) | Type of morph transition.<br/>            Read/write [`TransitionMorphType`](/slides/python-net/aspose.slides.slideshow/transitionmorphtype). |
+
 
 ### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`MorphTransition`](/slides/python-net/aspose.slides.slideshow/morphtransition)
+* class [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)
 

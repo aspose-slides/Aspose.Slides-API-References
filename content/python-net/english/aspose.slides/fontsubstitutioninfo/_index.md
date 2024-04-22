@@ -1,28 +1,34 @@
----
-title: FontSubstitutionInfo
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: FontSubstitutionInfo class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/fontsubstitutioninfo/
 ---
+
 
 ## FontSubstitutionInfo class
 
 This structure represents the information about the font replacement when it will be rendered.
 
 The FontSubstitutionInfo type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|FontSubstitutionInfo(origin_font_name, subst_font_name)|Initializes a new instance of the FontSubstitutionInfo class|
+| [`__init__`](/slides/python-net/aspose.slides/fontsubstitutioninfo/__init__/#str-str) | Creates an instance of [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo) class. |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|original_font_name|Indicates source font name in presentation.<br/>            Read-only string|
-|substituted_font_name|Indicates the replacement font name for the original font.<br/>            Read-only string|
+| [`original_font_name`](/slides/python-net/aspose.slides/fontsubstitutioninfo/original_font_name/) | Indicates source font name in presentation.<br/>            Read-only **str** |
+| [`substituted_font_name`](/slides/python-net/aspose.slides/fontsubstitutioninfo/substituted_font_name/) | Indicates the replacement font name for the original font.<br/>            Read-only **str** |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

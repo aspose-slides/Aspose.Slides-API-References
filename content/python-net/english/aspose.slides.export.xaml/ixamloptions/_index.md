@@ -1,28 +1,30 @@
----
-title: IXamlOptions
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IXamlOptions class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export.xaml/ixamloptions/
 ---
+
 
 ## IXamlOptions class
 
 Options that control how a XAML document is saved.
 
 The IXamlOptions type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|export_hidden_slides|Determines whether hidden slides will be exported.|
-|output_saver|Represents an implementation of IOutputSaver interface.|
-|as_i_save_options|Returns ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
-|warning_callback|Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
-|progress_callback|Represents a callback object for saving progress updates in percentage. <br/>            See [IProgressCallback](/slides/python-net/aspose.slides/iprogresscallback/).|
-|default_regular_font|Returns or sets font used in case source font is not found.<br/>            Read-write string.|
+| [`export_hidden_slides`](/slides/python-net/aspose.slides.export.xaml/ixamloptions/export_hidden_slides/) | Determines whether hidden slides will be exported. |
+| [`output_saver`](/slides/python-net/aspose.slides.export.xaml/ixamloptions/output_saver/) | Represents an implementation of IOutputSaver interface. |
+| [`warning_callback`](/slides/python-net/aspose.slides.export.xaml/ixamloptions/warning_callback/) |  |
+| [`progress_callback`](/slides/python-net/aspose.slides.export.xaml/ixamloptions/progress_callback/) |  |
+| [`default_regular_font`](/slides/python-net/aspose.slides.export.xaml/ixamloptions/default_regular_font/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.export.xaml](/slides/python-net/aspose.slides.export.xaml/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.export.xaml`](/slides/python-net/aspose.slides.export.xaml)
+* library [`Aspose.Slides`](/slides/python-net)
 

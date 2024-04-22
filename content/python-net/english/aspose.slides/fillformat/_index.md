@@ -1,36 +1,43 @@
----
-title: FillFormat
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: FillFormat class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/fillformat/
 ---
 
+
 ## FillFormat class
 
 Represents a fill formatting options.
 
+**Inheritance:**[`FillFormat`](/slides/python-net/aspose.slides/fillformat) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+
 The FillFormat type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|fill_type|Returns or sets the type of filling.<br/>            Read/write [FillType](/slides/python-net/aspose.slides/filltype/).|
-|solid_fill_color|Returns the fill color.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
-|gradient_format|Returns the gradient fill format.<br/>            Read-only [IGradientFormat](/slides/python-net/aspose.slides/igradientformat/).|
-|pattern_format|Returns the pattern fill format.<br/>            Read-only [IPatternFormat](/slides/python-net/aspose.slides/ipatternformat/).|
-|picture_fill_format|Returns the picture fill format.<br/>            Read-only [IPictureFillFormat](/slides/python-net/aspose.slides/ipicturefillformat/).|
-|rotate_with_shape|Determines whether the fill should be rotated with shape.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
-|as_i_fill_param_source|Allows to get base IFillParamSource interface.<br/>            Read-only [IFillParamSource](/slides/python-net/aspose.slides/ifillparamsource/).|
+| [`fill_type`](/slides/python-net/aspose.slides/fillformat/fill_type/) | Returns or sets the type of filling.<br/>            Read/write [`FillType`](/slides/python-net/aspose.slides/filltype). |
+| [`solid_fill_color`](/slides/python-net/aspose.slides/fillformat/solid_fill_color/) | Returns the fill color.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [`gradient_format`](/slides/python-net/aspose.slides/fillformat/gradient_format/) | Returns the gradient fill format.<br/>            Read-only [`IGradientFormat`](/slides/python-net/aspose.slides/igradientformat). |
+| [`pattern_format`](/slides/python-net/aspose.slides/fillformat/pattern_format/) | Returns the pattern fill format.<br/>            Read-only [`IPatternFormat`](/slides/python-net/aspose.slides/ipatternformat). |
+| [`picture_fill_format`](/slides/python-net/aspose.slides/fillformat/picture_fill_format/) | Returns the picture fill format.<br/>            Read-only [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat). |
+| [`rotate_with_shape`](/slides/python-net/aspose.slides/fillformat/rotate_with_shape/) | Determines whether the fill should be rotated with shape.<br/>            Read/write [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
+| [`slide`](/slides/python-net/aspose.slides/fillformat/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/fillformat/presentation/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective fill formatting data with the inheritance applied.|
+| [`get_effective`](/slides/python-net/aspose.slides/fillformat/get_effective/#) | Gets effective fill formatting data with the inheritance applied. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`FillFormat`](/slides/python-net/aspose.slides/fillformat)
+* class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

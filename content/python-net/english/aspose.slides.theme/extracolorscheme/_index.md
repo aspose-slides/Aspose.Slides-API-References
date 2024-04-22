@@ -1,24 +1,27 @@
----
-title: ExtraColorScheme
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ExtraColorScheme class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.theme/extracolorscheme/
 ---
+
 
 ## ExtraColorScheme class
 
 Represents an additional color scheme which can be assigned to a slide.
 
 The ExtraColorScheme type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|name|Returns a name of this scheme.<br/>            Read-only string.|
-|color_scheme|Returns a color scheme.<br/>            Read-only [IColorScheme](/slides/python-net/aspose.slides.theme/icolorscheme/).|
+| [`name`](/slides/python-net/aspose.slides.theme/extracolorscheme/name/) | Returns a name of this scheme.<br/>            Read-only **str**. |
+| [`color_scheme`](/slides/python-net/aspose.slides.theme/extracolorscheme/color_scheme/) | Returns a color scheme.<br/>            Read-only [`IColorScheme`](/slides/python-net/aspose.slides.theme/icolorscheme). |
+
 
 ### See Also
-
-* namespace [aspose.slides.theme](/slides/python-net/aspose.slides.theme/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.theme`](/slides/python-net/aspose.slides.theme)
+* library [`Aspose.Slides`](/slides/python-net)
 

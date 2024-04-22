@@ -1,28 +1,30 @@
----
-title: SmartArtShapeCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: SmartArtShapeCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.smartart/smartartshapecollection/
 ---
+
 
 ## SmartArtShapeCollection class
 
 Represents a collection of a SmartArt shapes
 
 The SmartArtShapeCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Gets the element at the specified index.
+            Read-only [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape).>.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [SmartArtShape](/slides/python-net/aspose.slides.smartart/smartartshape/).>.|
+| [`[index]`](/slides/python-net/aspose.slides.smartart/smartartshapecollection/__getitem__/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.smartart](/slides/python-net/aspose.slides.smartart/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape)
+* module [`aspose.slides.smartart`](/slides/python-net/aspose.slides.smartart)
+* library [`Aspose.Slides`](/slides/python-net)
 

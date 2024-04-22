@@ -1,31 +1,40 @@
----
-title: PptxOptions
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: PptxOptions class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/pptxoptions/
 ---
 
+
 ## PptxOptions class
 
 Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
+**Inheritance:**[`PptxOptions`](/slides/python-net/aspose.slides.export/pptxoptions) → [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
+
 The PptxOptions type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|PptxOptions()|Creates new instance of PptxOptions|
+| [`__init__`](/slides/python-net/aspose.slides.export/pptxoptions/__init__/#) | Creates new instance of PptxOptions |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|warning_callback|Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
-|progress_callback|Represents a callback object for saving progress updates in percentage.<br/>            See [IProgressCallback](/slides/python-net/aspose.slides/iprogresscallback/).|
-|default_regular_font|Returns or sets font used in case source font is not found.<br/>            Read-write string.|
-|conformance|Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is|
-|as_i_save_options|Allows to get base ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
+| [`warning_callback`](/slides/python-net/aspose.slides.export/pptxoptions/warning_callback/) | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [`IWarningCallback`](/slides/python-net/aspose.slides.warnings/iwarningcallback). |
+| [`progress_callback`](/slides/python-net/aspose.slides.export/pptxoptions/progress_callback/) | Represents a callback object for saving progress updates in percentage.<br/>            See [`IProgressCallback`](/slides/python-net/aspose.slides/iprogresscallback). |
+| [`default_regular_font`](/slides/python-net/aspose.slides.export/pptxoptions/default_regular_font/) | Returns or sets font used in case source font is not found.<br/>            Read-write **str**. |
+| [`conformance`](/slides/python-net/aspose.slides.export/pptxoptions/conformance/) | Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is [`Conformance.ECMA_376_2006`](/slides/python-net/aspose.slides.export/conformance#ECMA_376_2006) |
+| [`zip_64_mode`](/slides/python-net/aspose.slides.export/pptxoptions/zip_64_mode/) | Specifies whether the ZIP64 format is used for the Presentation document. <br/>            The default value is [`Zip64Mode.IF_NECESSARY`](/slides/python-net/aspose.slides.export/zip64mode#IF_NECESSARY) |
+
 
 ### See Also
-
-* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`PptxOptions`](/slides/python-net/aspose.slides.export/pptxoptions)
+* class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)
 

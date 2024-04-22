@@ -1,52 +1,51 @@
----
-title: IDataLabel
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IDataLabel class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/idatalabel/
 ---
+
 
 ## IDataLabel class
 
 Represents a series labels.
 
 The IDataLabel type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|is_visible|False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false).<br/>            Read-only bool.|
-|data_label_format|Returns format of the data label.<br/>            Read-only [IDataLabelFormat](/slides/python-net/aspose.slides.charts/idatalabelformat/).|
-|value_from_cell|Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true.|
-|as_i_layoutable|Returns ILayoutable interface.<br/>            Read-only [ILayoutable](/slides/python-net/aspose.slides.charts/ilayoutable/).|
-|as_i_overridable_text|Returns IOverridableText interface.<br/>            Read-only [IOverridableText](/slides/python-net/aspose.slides.charts/ioverridabletext/).|
-|as_i_actual_layout|Returns IActualLayout interface.|
-|x|Specifies the x location (left) of the chart element as a fraction of the width of the chart.<br/>            Read/write|
-|y|Specifies the top of the chart element as a fraction of the height of the chart.<br/>            Read/write|
-|width|Specifies the width of the chart element as a fraction of the width of the chart.<br/>            Read/write|
-|height|Specifies the height of the chart element as a fraction of the height of the chart.<br/>            Read/write|
-|right|Gets the right of the chart element as a fraction of the width of the chart.<br/>            Read-only|
-|bottom|Gets the top of the chart element as a fraction of the height of the chart.<br/>            Read-only|
-|chart|Returns the chart.<br/>            Read-only [IChart](/slides/python-net/aspose.slides.charts/ichart/).|
-|as_i_slide_component|Allows to get base ISlideComponent interface.<br/>            Read-only [ISlideComponent](/slides/python-net/aspose.slides/islidecomponent/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
-|text_frame_for_overriding|Can contain a rich formatted text. If this property is not null then this <br/>            formatted text value overrides auto-generated text.<br/>            Auto-generated text is an implicit property of the data label, the display <br/>            unit label of the value axis, the axis title, the chart title, the label of the trendline.<br/>            Auto-generated text is formatted with the IFormattedTextContainer.TextFormat property.<br/>            Read-only [ITextFrame](/slides/python-net/aspose.slides/itextframe/).|
-|as_i_formatted_text_container|Allows to get base IFormattedTextContainer interface.<br/>            Read-only [IFormattedTextContainer](/slides/python-net/aspose.slides.charts/iformattedtextcontainer/).|
-|text_format|Returns chart text format.<br/>            Read-only [IChartTextFormat](/slides/python-net/aspose.slides.charts/icharttextformat/).|
-|actual_x|Specifies actual x location (left) of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read|
-|actual_y|Specifies actual top of the chart element relative to the left top corner of the chart.<br/>            Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read|
-|actual_width|Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read|
-|actual_height|Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. <br/>            Read|
+| [`is_visible`](/slides/python-net/aspose.slides.charts/idatalabel/is_visible/) | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false).<br/>            Read-only **bool**. |
+| [`data_label_format`](/slides/python-net/aspose.slides.charts/idatalabel/data_label_format/) | Returns format of the data label.<br/>            Read-only [`IDataLabelFormat`](/slides/python-net/aspose.slides.charts/idatalabelformat). |
+| [`value_from_cell`](/slides/python-net/aspose.slides.charts/idatalabel/value_from_cell/) | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
+| [`x`](/slides/python-net/aspose.slides.charts/idatalabel/x/) |  |
+| [`y`](/slides/python-net/aspose.slides.charts/idatalabel/y/) |  |
+| [`width`](/slides/python-net/aspose.slides.charts/idatalabel/width/) |  |
+| [`height`](/slides/python-net/aspose.slides.charts/idatalabel/height/) |  |
+| [`right`](/slides/python-net/aspose.slides.charts/idatalabel/right/) |  |
+| [`bottom`](/slides/python-net/aspose.slides.charts/idatalabel/bottom/) |  |
+| [`chart`](/slides/python-net/aspose.slides.charts/idatalabel/chart/) |  |
+| [`slide`](/slides/python-net/aspose.slides.charts/idatalabel/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.charts/idatalabel/presentation/) |  |
+| [`text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/idatalabel/text_frame_for_overriding/) |  |
+| [`text_format`](/slides/python-net/aspose.slides.charts/idatalabel/text_format/) |  |
+| [`actual_x`](/slides/python-net/aspose.slides.charts/idatalabel/actual_x/) |  |
+| [`actual_y`](/slides/python-net/aspose.slides.charts/idatalabel/actual_y/) |  |
+| [`actual_width`](/slides/python-net/aspose.slides.charts/idatalabel/actual_width/) |  |
+| [`actual_height`](/slides/python-net/aspose.slides.charts/idatalabel/actual_height/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|hide()|Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state.<br/>            IsVisible will be false after this.|
-|get_actual_label_text()|Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value.|
-|add_text_frame_for_overriding(text)|Initialize TextFrameForOverriding with the text in paramener "text".<br/>            If TextFrameForOverriding is already initialized then simply changes its text.|
+| [`hide`](/slides/python-net/aspose.slides.charts/idatalabel/hide/#) | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state.<br/>            IsVisible will be false after this. |
+| [`get_actual_label_text`](/slides/python-net/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
+| [`add_text_frame_for_overriding`](/slides/python-net/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

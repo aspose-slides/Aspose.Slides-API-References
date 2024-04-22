@@ -1,24 +1,30 @@
----
-title: RippleTransition
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: RippleTransition class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/rippletransition/
 ---
 
+
 ## RippleTransition class
 
 Ripple slide transition effect.
 
+**Inheritance:**[`RippleTransition`](/slides/python-net/aspose.slides.slideshow/rippletransition) → [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+
 The RippleTransition type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|direction|Direction of transition.<br/>            Read/write [TransitionCornerAndCenterDirectionType](/slides/python-net/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/).|
-|as_i_transition_value_base|Allows to get base ITransitionValueBase interface.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|
+| [`direction`](/slides/python-net/aspose.slides.slideshow/rippletransition/direction/) | Direction of transition.<br/>            Read/write [`TransitionCornerAndCenterDirectionType`](/slides/python-net/aspose.slides.slideshow/transitioncornerandcenterdirectiontype). |
+
 
 ### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`RippleTransition`](/slides/python-net/aspose.slides.slideshow/rippletransition)
+* class [`TransitionValueBase`](/slides/python-net/aspose.slides.slideshow/transitionvaluebase)
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,24 +1,27 @@
----
-title: InvalidPasswordException
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: InvalidPasswordException class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/invalidpasswordexception/
 ---
+
 
 ## InvalidPasswordException class
 
 Exception which thrown when presentation file format is unsupported.
 
 The InvalidPasswordException type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|InvalidPasswordException()|Default constructor.|
-|InvalidPasswordException(message)|Initializes a new instance of the InvalidPasswordException class|
+| [`__init__`](/slides/python-net/aspose.slides/invalidpasswordexception/__init__/#) | Default constructor. |
+| [`__init__`](/slides/python-net/aspose.slides/invalidpasswordexception/__init__/#str) | Constructor allowing a message to be added to this exception. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,27 +1,33 @@
----
-title: GradientStop
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: GradientStop class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/gradientstop/
 ---
 
+
 ## GradientStop class
 
 Represents a gradient format.
 
+**Inheritance:**[`GradientStop`](/slides/python-net/aspose.slides/gradientstop) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+
 The GradientStop type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|position|Returns or sets the position (0..1) of a gradient stop.<br/>            Read/write|
-|color|Returns the color of a gradient stop.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+| [`position`](/slides/python-net/aspose.slides/gradientstop/position/) | Returns or sets the position (0..1) of a gradient stop.<br/>            Read/write **float**. |
+| [`color`](/slides/python-net/aspose.slides/gradientstop/color/) | Returns the color of a gradient stop.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [`slide`](/slides/python-net/aspose.slides/gradientstop/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides/gradientstop/presentation/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`GradientStop`](/slides/python-net/aspose.slides/gradientstop)
+* class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

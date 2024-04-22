@@ -1,28 +1,28 @@
----
-title: GradientStopCollectionEffectiveData
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: GradientStopCollectionEffectiveData class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/gradientstopcollectioneffectivedata/
 ---
+
 
 ## GradientStopCollectionEffectiveData class
 
 Represents a collection of GradientStopData objects.
 
 The GradientStopCollectionEffectiveData type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Returns the gradient stop by index.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns the gradient stop by index.|
+| [`[index]`](/slides/python-net/aspose.slides/gradientstopcollectioneffectivedata/__getitem__/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

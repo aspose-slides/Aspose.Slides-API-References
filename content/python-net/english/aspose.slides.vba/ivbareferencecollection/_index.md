@@ -1,32 +1,34 @@
----
-title: IVbaReferenceCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IVbaReferenceCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.vba/ivbareferencecollection/
 ---
+
 
 ## IVbaReferenceCollection class
 
 Represents a collection of a VBA Project references.
 
 The IVbaReferenceCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Gets the element at the specified index.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.|
+| [`[index]`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/__getitem__/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(value)|Adds the new reference to references collection|
+| [`add`](/slides/python-net/aspose.slides.vba/ivbareferencecollection/add/#ivbareference) | Adds the new reference to references collection |
+
 
 ### See Also
-
-* namespace [aspose.slides.vba](/slides/python-net/aspose.slides.vba/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)
 

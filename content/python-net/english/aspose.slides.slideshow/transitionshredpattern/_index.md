@@ -1,23 +1,27 @@
----
-title: TransitionShredPattern
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: TransitionShredPattern enumeration
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/transitionshredpattern/
 ---
 
+
 ## TransitionShredPattern enumeration
 
 Specifies a geometric shape that tiles together to fill a larger area.
 
-## Members
-| Member name | Description |
+The TransitionShredPattern type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|STRIP|Vertical strips|
-|RECTANGLE|Small rectangles|
+| STRIP | Vertical strips |
+| RECTANGLE | Small rectangles |
+
 
 ### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,27 +1,37 @@
----
-title: MathRadicalFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: MathRadicalFactory class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathradicalfactory/
 ---
+
 
 ## MathRadicalFactory class
 
 Allows to create math radical
 
 The MathRadicalFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|MathRadicalFactory()|Initializes a new instance of the MathRadicalFactory class|
+| [`__init__`](/slides/python-net/aspose.slides.mathtext/mathradicalfactory/__init__/#) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_radical(base_argument, degree_argument)|Creates a math radical|
+| [`create_math_radical`](/slides/python-net/aspose.slides.mathtext/mathradicalfactory/create_math_radical/#imathelement-imathelement) | Creates a math radical |
+
+
+### Remarks
+
+For COM comparibility
+
 
 ### See Also
-
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)
 

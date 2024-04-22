@@ -1,24 +1,32 @@
----
-title: IMathDelimiterFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IMathDelimiterFactory class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imathdelimiterfactory/
 ---
+
 
 ## IMathDelimiterFactory class
 
 Allows to create a math delimiter
 
 The IMathDelimiterFactory type exposes the following members:
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_delimiter(element)|Create a math delimiter by applying to the element|
-|create_math_delimiter(math_elements)|Create a math delimiter by applying to the element|
+| [`create_math_delimiter`](/slides/python-net/aspose.slides.mathtext/imathdelimiterfactory/create_math_delimiter/#imathelement) | Create a math delimiter by applying to the element |
+| [`create_math_delimiter`](/slides/python-net/aspose.slides.mathtext/imathdelimiterfactory/create_math_delimiter/#imathelementcollection) | Create a math delimiter by applying to the element |
+
+
+### Remarks
+
+For COM comparibility
+
 
 ### See Also
-
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)
 

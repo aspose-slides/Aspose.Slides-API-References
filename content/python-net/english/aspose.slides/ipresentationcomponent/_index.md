@@ -1,23 +1,26 @@
----
-title: IPresentationComponent
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IPresentationComponent class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentationcomponent/
 ---
+
 
 ## IPresentationComponent class
 
 Represents a component of a presentation.
 
 The IPresentationComponent type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
+| [`presentation`](/slides/python-net/aspose.slides/ipresentationcomponent/presentation/) | Returns the presentation. <br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,25 +1,29 @@
----
-title: CommandEffectType
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: CommandEffectType enumeration
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/commandeffecttype/
 ---
 
+
 ## CommandEffectType enumeration
 
 Represents command effect type for command effect behavior.
 
-## Members
-| Member name | Description |
+The CommandEffectType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|NOT_DEFINED||
-|EVENT||
-|CALL||
-|VERB||
+| NOT_DEFINED |  |
+| EVENT |  |
+| CALL |  |
+| VERB |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,28 +1,33 @@
----
-title: IAlphaModulateFixed
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IAlphaModulateFixed class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/ialphamodulatefixed/
 ---
 
+
 ## IAlphaModulateFixed class
 
-Represents an Alpha Modulate Fixed effect.<br/>            Effect alpha (opacity) values are multiplied by a fixed percentage.
+Represents an Alpha Modulate Fixed effect.
+            Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 The IAlphaModulateFixed type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|amount|Returns an amount of effect in percents.<br/>            Read/write|
-|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [`amount`](/slides/python-net/aspose.slides.effects/ialphamodulatefixed/amount/) | Returns an amount of effect in percents.<br/>            Read/write **float**. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective object formatting data with the inheritance applied.|
+| [`get_effective`](/slides/python-net/aspose.slides.effects/ialphamodulatefixed/get_effective/#) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)
 

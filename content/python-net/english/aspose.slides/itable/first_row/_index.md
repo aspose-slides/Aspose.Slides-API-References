@@ -1,0 +1,31 @@
+﻿---
+title: first_row property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/itable/first_row/
+weight: 240
+---
+
+
+## first_row property
+Determines whether the first row of a table has to be drawn with a special formatting.
+            Read/write **bool**.
+
+### Definition:
+```python
+@property
+def first_row(self):
+    ...
+
+@first_row.setter
+def first_row(self, value):
+    ...
+```
+
+
+### See Also
+* class [`ITable`](/slides/python-net/aspose.slides/itable)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
+

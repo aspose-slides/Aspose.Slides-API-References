@@ -1,31 +1,34 @@
----
-title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IPieSplitCustomPointCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ipiesplitcustompointcollection/
 ---
+
 
 ## IPieSplitCustomPointCollection class
 
 Represents a collection of points that shall be drawn in the second pie or bar on a bar-of-pie or pie-of-pie chart with a custom split.
 
 The IPieSplitCustomPointCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_enumerable|Returns IEnumerable interface.|
+
+Returns chart data point by index.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns chart data point by index.|
+| [`[index]`](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection/__getitem__/) | Index of  data-point. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(data_point_index)|Adds data point by its index in parent series points collection.|
+| [`add`](/slides/python-net/aspose.slides.charts/ipiesplitcustompointcollection/add/#int) | Adds data point by its index in parent series points collection. |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,23 +1,27 @@
----
-title: QuartileMethodType
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: QuartileMethodType enumeration
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/quartilemethodtype/
 ---
 
+
 ## QuartileMethodType enumeration
 
 Returns type of quartile method
 
-## Members
-| Member name | Description |
+The QuartileMethodType type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|EXCLUSIVE|Represents exclusive quartile method.|
-|INCLUSIVE|Represents inclusive quartile method.|
+| EXCLUSIVE | Represents exclusive quartile method. |
+| INCLUSIVE | Represents inclusive quartile method. |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,30 +1,33 @@
----
-title: IHtml5Options
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IHtml5Options class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/ihtml5options/
 ---
+
 
 ## IHtml5Options class
 
 Represents a HTML5 exporting options.
 
 The IHtml5Options type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|animate_transitions|Returns or sets transitions animation option.<br/>            Read/write bool.|
-|animate_shapes|Returns or sets shapes animation option.<br/>            Read/write bool.|
-|embed_images|Returns or sets images embedding option. <br/>            Read/write bool.|
-|output_path|Determines where external resources should be stored. <br/>            Read/write string.|
-|as_i_save_options|Returns ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
-|warning_callback|Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
-|progress_callback|Represents a callback object for saving progress updates in percentage. <br/>            See [IProgressCallback](/slides/python-net/aspose.slides/iprogresscallback/).|
-|default_regular_font|Returns or sets font used in case source font is not found.<br/>            Read-write string.|
+| [`animate_transitions`](/slides/python-net/aspose.slides.export/ihtml5options/animate_transitions/) | Returns or sets transitions animation option.<br/>            Read/write **bool**. |
+| [`animate_shapes`](/slides/python-net/aspose.slides.export/ihtml5options/animate_shapes/) | Returns or sets shapes animation option.<br/>            Read/write **bool**. |
+| [`embed_images`](/slides/python-net/aspose.slides.export/ihtml5options/embed_images/) | Returns or sets images embedding option. <br/>            Read/write **bool**. |
+| [`output_path`](/slides/python-net/aspose.slides.export/ihtml5options/output_path/) | Determines where external resources should be stored. <br/>            Read/write **str**. |
+| [`notes_comments_layouting`](/slides/python-net/aspose.slides.export/ihtml5options/notes_comments_layouting/) | Provides options that control how notes and comments is placed in exported document.<br/>            Read/write [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions). |
+| [`warning_callback`](/slides/python-net/aspose.slides.export/ihtml5options/warning_callback/) |  |
+| [`progress_callback`](/slides/python-net/aspose.slides.export/ihtml5options/progress_callback/) |  |
+| [`default_regular_font`](/slides/python-net/aspose.slides.export/ihtml5options/default_regular_font/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.export](/slides/python-net/aspose.slides.export/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
+* library [`Aspose.Slides`](/slides/python-net)
 

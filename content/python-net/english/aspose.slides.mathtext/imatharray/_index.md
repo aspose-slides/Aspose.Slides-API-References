@@ -1,78 +1,82 @@
----
-title: IMathArray
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IMathArray class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/imatharray/
 ---
+
 
 ## IMathArray class
 
 Specifies a vertical array of equations or any mathematical objects
 
 The IMathArray type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|arguments|The set of items of the array|
-|base_justification|Specifies alignment of the array relative to surrounding text<br/>            Text outside of the array can be aligned with the bottom, top, or center of a array object.<br/>            Default value: Center|
-|maximum_distribution|Maximum Distribution<br/>            When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.).|
-|object_distribution|Object Distribution<br/>            When true, the contents of the array are spaced to the maximum width of the array object.|
-|row_spacing_rule|The type of vertical spacing between array elements|
-|row_spacing|Spacing between rows of an array<br/>            It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points <br/>            or Multiple in which case the unit of measure is half-lines.<br/>            Default: 0|
-|as_i_math_element|Allows to get base IMathElement interface<br/>            [IMathElement](/slides/python-net/aspose.slides.mathtext/imathelement/)|
+| [`arguments`](/slides/python-net/aspose.slides.mathtext/imatharray/arguments/) | The set of items of the array |
+| [`base_justification`](/slides/python-net/aspose.slides.mathtext/imatharray/base_justification/) | Specifies alignment of the array relative to surrounding text<br/>            Text outside of the array can be aligned with the bottom, top, or center of a array object.<br/>            Default value: Center |
+| [`maximum_distribution`](/slides/python-net/aspose.slides.mathtext/imatharray/maximum_distribution/) | Maximum Distribution<br/>            When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
+| [`object_distribution`](/slides/python-net/aspose.slides.mathtext/imatharray/object_distribution/) | Object Distribution<br/>            When true, the contents of the array are spaced to the maximum width of the array object. |
+| [`row_spacing_rule`](/slides/python-net/aspose.slides.mathtext/imatharray/row_spacing_rule/) | The type of vertical spacing between array elements |
+| [`row_spacing`](/slides/python-net/aspose.slides.mathtext/imatharray/row_spacing/) | Spacing between rows of an array<br/>            It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points <br/>            or Multiple in which case the unit of measure is half-lines.<br/>            Default: 0 |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|join(math_element)|Joins a mathematical element and forms a mathematical block|
-|join(math_text)|Joins a mathematical text and forms a mathematical block|
-|divide(denominator)|Creates a fraction with this numerator and specified denominator|
-|divide(denominator)|Creates a fraction with this numerator and specified denominator|
-|divide(denominator, fraction_type)|Creates a fraction of the specified type with this numerator and specified denominator|
-|divide(denominator, fraction_type)|Creates a fraction of the specified type with this numerator and specified denominator|
-|enclose()|Encloses a math element in parenthesis|
-|enclose(beginning_character, ending_character)|Encloses this element in specified characters such as parenthesis or another characters as framing|
-|function(function_argument)|Takes a function of an argument using this instance as the function name|
-|function(function_argument)|Takes a function of an argument using this instance as the function name|
-|as_argument_of_function(function_name)|Takes specified function using this instance as the argument|
-|as_argument_of_function(function_name)|Takes specified function using this instance as the argument|
-|as_argument_of_function(function_type)|Takes specified function using this instance as the argument|
-|as_argument_of_function(function_type, additional_argument)|Takes specified function using this instance as the argument and specified additional argument|
-|as_argument_of_function(function_type, additional_argument)|Takes specified function using this instance as the argument and specified additional argument|
-|set_subscript(subscript)|Creates subscript|
-|set_subscript(subscript)|Creates subscript|
-|set_superscript(superscript)|Creates superscript|
-|set_superscript(superscript)|Creates superscript|
-|set_sub_superscript_on_the_right(subscript, superscript)|Creates subscript and superscript on the right|
-|set_sub_superscript_on_the_right(subscript, superscript)|Creates subscript and superscript on the right|
-|set_sub_superscript_on_the_left(subscript, superscript)|Creates subscript and superscript on the left|
-|set_sub_superscript_on_the_left(subscript, superscript)|Creates subscript and superscript on the left|
-|radical(degree)|Specifies the mathematical root of the given degree from the specified argument.|
-|radical(degree)|Specifies the mathematical root of the given degree from the specified argument.|
-|set_upper_limit(limit)|Takes upper limit|
-|set_upper_limit(limit)|Takes upper limit|
-|set_lower_limit(limit)|Takes lower limit|
-|set_lower_limit(limit)|Takes lower limit|
-|nary(type, lower_limit, upper_limit)|Creates a N-ary operator|
-|nary(type, lower_limit, upper_limit)|Creates a N-ary operator|
-|integral(integral_type, lower_limit, upper_limit, limit_locations)|Takes the integral|
-|integral(integral_type, lower_limit, upper_limit)|Takes the integral|
-|integral(integral_type)|Takes the integral|
-|integral(integral_type, lower_limit, upper_limit, limit_locations)|Takes the integral|
-|integral(integral_type, lower_limit, upper_limit)|Takes the integral|
-|group()|Places this element in a group using a bottom curly bracket|
-|group(character, position, vertical_justification)|Places this element in a group using a grouping character such as bottom curly bracket or another|
-|to_border_box()|Places this element in a border-box|
-|to_border_box(hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right)|Places this element in a border-box|
-|get_children()|Get children elements|
-|to_math_array()|Puts in a vertical array|
-|accent(accent_character)|Sets an accent mark (a character on the top of this element)|
-|overbar()|Sets a bar on the top of this element|
-|underbar()|Sets a bar on the bottom of this element|
-|to_box()|Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within.|
+| [`join`](/slides/python-net/aspose.slides.mathtext/imatharray/join/#imathelement) |  |
+| [`join`](/slides/python-net/aspose.slides.mathtext/imatharray/join/#str) |  |
+| [`divide`](/slides/python-net/aspose.slides.mathtext/imatharray/divide/#imathelement) |  |
+| [`divide`](/slides/python-net/aspose.slides.mathtext/imatharray/divide/#str) |  |
+| [`divide`](/slides/python-net/aspose.slides.mathtext/imatharray/divide/#imathelement-mathfractiontypes) |  |
+| [`divide`](/slides/python-net/aspose.slides.mathtext/imatharray/divide/#str-mathfractiontypes) |  |
+| [`enclose`](/slides/python-net/aspose.slides.mathtext/imatharray/enclose/#) |  |
+| [`enclose`](/slides/python-net/aspose.slides.mathtext/imatharray/enclose/#char-char) |  |
+| [`function`](/slides/python-net/aspose.slides.mathtext/imatharray/function/#imathelement) |  |
+| [`function`](/slides/python-net/aspose.slides.mathtext/imatharray/function/#str) |  |
+| [`as_argument_of_function`](/slides/python-net/aspose.slides.mathtext/imatharray/as_argument_of_function/#imathelement) |  |
+| [`as_argument_of_function`](/slides/python-net/aspose.slides.mathtext/imatharray/as_argument_of_function/#str) |  |
+| [`as_argument_of_function`](/slides/python-net/aspose.slides.mathtext/imatharray/as_argument_of_function/#mathfunctionsofoneargument) |  |
+| [`as_argument_of_function`](/slides/python-net/aspose.slides.mathtext/imatharray/as_argument_of_function/#mathfunctionsoftwoarguments-imathelement) |  |
+| [`as_argument_of_function`](/slides/python-net/aspose.slides.mathtext/imatharray/as_argument_of_function/#mathfunctionsoftwoarguments-str) |  |
+| [`set_subscript`](/slides/python-net/aspose.slides.mathtext/imatharray/set_subscript/#imathelement) |  |
+| [`set_subscript`](/slides/python-net/aspose.slides.mathtext/imatharray/set_subscript/#str) |  |
+| [`set_superscript`](/slides/python-net/aspose.slides.mathtext/imatharray/set_superscript/#imathelement) |  |
+| [`set_superscript`](/slides/python-net/aspose.slides.mathtext/imatharray/set_superscript/#str) |  |
+| [`set_sub_superscript_on_the_right`](/slides/python-net/aspose.slides.mathtext/imatharray/set_sub_superscript_on_the_right/#imathelement-imathelement) |  |
+| [`set_sub_superscript_on_the_right`](/slides/python-net/aspose.slides.mathtext/imatharray/set_sub_superscript_on_the_right/#str-str) |  |
+| [`set_sub_superscript_on_the_left`](/slides/python-net/aspose.slides.mathtext/imatharray/set_sub_superscript_on_the_left/#imathelement-imathelement) |  |
+| [`set_sub_superscript_on_the_left`](/slides/python-net/aspose.slides.mathtext/imatharray/set_sub_superscript_on_the_left/#str-str) |  |
+| [`radical`](/slides/python-net/aspose.slides.mathtext/imatharray/radical/#imathelement) |  |
+| [`radical`](/slides/python-net/aspose.slides.mathtext/imatharray/radical/#str) |  |
+| [`set_upper_limit`](/slides/python-net/aspose.slides.mathtext/imatharray/set_upper_limit/#imathelement) |  |
+| [`set_upper_limit`](/slides/python-net/aspose.slides.mathtext/imatharray/set_upper_limit/#str) |  |
+| [`set_lower_limit`](/slides/python-net/aspose.slides.mathtext/imatharray/set_lower_limit/#imathelement) |  |
+| [`set_lower_limit`](/slides/python-net/aspose.slides.mathtext/imatharray/set_lower_limit/#str) |  |
+| [`nary`](/slides/python-net/aspose.slides.mathtext/imatharray/nary/#mathnaryoperatortypes-imathelement-imathelement) |  |
+| [`nary`](/slides/python-net/aspose.slides.mathtext/imatharray/nary/#mathnaryoperatortypes-str-str) |  |
+| [`integral`](/slides/python-net/aspose.slides.mathtext/imatharray/integral/#mathintegraltypes-imathelement-imathelement-mathlimitlocations) |  |
+| [`integral`](/slides/python-net/aspose.slides.mathtext/imatharray/integral/#mathintegraltypes-imathelement-imathelement) |  |
+| [`integral`](/slides/python-net/aspose.slides.mathtext/imatharray/integral/#mathintegraltypes) |  |
+| [`integral`](/slides/python-net/aspose.slides.mathtext/imatharray/integral/#mathintegraltypes-str-str-mathlimitlocations) |  |
+| [`integral`](/slides/python-net/aspose.slides.mathtext/imatharray/integral/#mathintegraltypes-str-str) |  |
+| [`group`](/slides/python-net/aspose.slides.mathtext/imatharray/group/#) |  |
+| [`group`](/slides/python-net/aspose.slides.mathtext/imatharray/group/#char-mathtopbotpositions-mathtopbotpositions) |  |
+| [`to_border_box`](/slides/python-net/aspose.slides.mathtext/imatharray/to_border_box/#) |  |
+| [`to_border_box`](/slides/python-net/aspose.slides.mathtext/imatharray/to_border_box/#bool-bool-bool-bool-bool-bool-bool-bool) |  |
+| [`get_children`](/slides/python-net/aspose.slides.mathtext/imatharray/get_children/#) |  |
+| [`to_math_array`](/slides/python-net/aspose.slides.mathtext/imatharray/to_math_array/#) |  |
+| [`accent`](/slides/python-net/aspose.slides.mathtext/imatharray/accent/#char) |  |
+| [`overbar`](/slides/python-net/aspose.slides.mathtext/imatharray/overbar/#) |  |
+| [`underbar`](/slides/python-net/aspose.slides.mathtext/imatharray/underbar/#) |  |
+| [`to_box`](/slides/python-net/aspose.slides.mathtext/imatharray/to_box/#) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,37 +1,40 @@
----
-title: IImageCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IImageCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iimagecollection/
 ---
+
 
 ## IImageCollection class
 
 Represents collection of PPImage.
 
 The IImageCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Returns image by its index.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns image by its index.|
+| [`[index]`](/slides/python-net/aspose.slides/iimagecollection/__getitem__/) | Index. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add_image(image)|Add an image to a presentation.|
-|add_image(stream)|Add an image to a presentation from stream.|
-|add_image(stream, loading_stream_behavior)|Creates and adds an image to a presentation from stream.|
-|add_image(buffer)|Adds an image to a presentation from specified buffer.|
-|add_image(image_source)|Adds a copy of an image from an another presentation.|
-|add_image(svg_image)|Add an image to a presentation from SVG object.|
+| [`add_image`](/slides/python-net/aspose.slides/iimagecollection/add_image/#asposepydrawingimage) | Add an image to a presentation. |
+| [`add_image`](/slides/python-net/aspose.slides/iimagecollection/add_image/#iimage) | Add an image to a presentation. |
+| [`add_image`](/slides/python-net/aspose.slides/iimagecollection/add_image/#iorawiobase) | Add an image to a presentation from stream. |
+| [`add_image`](/slides/python-net/aspose.slides/iimagecollection/add_image/#iorawiobase-loadingstreambehavior) | Creates and adds an image to a presentation from stream. |
+| [`add_image`](/slides/python-net/aspose.slides/iimagecollection/add_image/#bytes) | Adds an image to a presentation from specified buffer. |
+| [`add_image`](/slides/python-net/aspose.slides/iimagecollection/add_image/#ippimage) | Adds a copy of an image from an another presentation. |
+| [`add_image`](/slides/python-net/aspose.slides/iimagecollection/add_image/#isvgimage) | Add an image to a presentation from SVG object. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

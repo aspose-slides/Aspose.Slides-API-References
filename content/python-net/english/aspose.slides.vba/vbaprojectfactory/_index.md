@@ -1,32 +1,39 @@
----
-title: VbaProjectFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: VbaProjectFactory class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.vba/vbaprojectfactory/
 ---
+
 
 ## VbaProjectFactory class
 
 Allows to create VBA project via COM interface
 
 The VbaProjectFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|VbaProjectFactory()|Initializes a new instance of the VbaProjectFactory class|
+| [`__init__`](/slides/python-net/aspose.slides.vba/vbaprojectfactory/__init__/#) |  |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|instance|VBA project factory static instance.<br/>            Read-only [VbaProjectFactory](/slides/python-net/aspose.slides.vba/vbaprojectfactory/).|
+| [`instance`](/slides/python-net/aspose.slides.vba/vbaprojectfactory/instance/) | VBA project factory static instance.<br/>            Read-only [`VbaProjectFactory`](/slides/python-net/aspose.slides.vba/vbaprojectfactory). |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_vba_project()|Creates new VBA project.|
-|read_vba_project(data)|Reads VBA project from OLE container.|
+| [`create_vba_project`](/slides/python-net/aspose.slides.vba/vbaprojectfactory/create_vba_project/#) | Creates new VBA project. |
+| [`read_vba_project`](/slides/python-net/aspose.slides.vba/vbaprojectfactory/read_vba_project/#bytes) | Reads VBA project from OLE container. |
+
 
 ### See Also
-
-* namespace [aspose.slides.vba](/slides/python-net/aspose.slides.vba/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.vba`](/slides/python-net/aspose.slides.vba)
+* library [`Aspose.Slides`](/slides/python-net)
 

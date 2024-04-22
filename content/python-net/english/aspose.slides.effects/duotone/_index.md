@@ -1,32 +1,42 @@
----
-title: Duotone
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: Duotone class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/duotone/
 ---
 
+
 ## Duotone class
 
-Represents a Duotone effect.<br/>            For each pixel, combines Color1 and Color2 through a linear interpolation<br/>            to determine the new color for that pixel.
+Represents a Duotone effect.
+            For each pixel, combines Color1 and Color2 through a linear interpolation
+            to determine the new color for that pixel.
+
+**Inheritance:**[`Duotone`](/slides/python-net/aspose.slides.effects/duotone) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The Duotone type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|color1|Returns target color format for dark pixels.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
-|color2|Returns target color format for light pixels.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
-|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [`color1`](/slides/python-net/aspose.slides.effects/duotone/color1/) | Returns target color format for dark pixels.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [`color2`](/slides/python-net/aspose.slides.effects/duotone/color2/) | Returns target color format for light pixels.<br/>            Read-only [`IColorFormat`](/slides/python-net/aspose.slides/icolorformat). |
+| [`slide`](/slides/python-net/aspose.slides.effects/duotone/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/duotone/presentation/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective Duotone effect data with the inheritance applied.|
+| [`get_effective`](/slides/python-net/aspose.slides.effects/duotone/get_effective/#) | Gets effective Duotone effect data with the inheritance applied. |
+
 
 ### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`Duotone`](/slides/python-net/aspose.slides.effects/duotone)
+* class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+* class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)
 

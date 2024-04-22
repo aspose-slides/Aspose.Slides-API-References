@@ -1,28 +1,38 @@
----
-title: MathDelimiterFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: MathDelimiterFactory class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.mathtext/mathdelimiterfactory/
 ---
+
 
 ## MathDelimiterFactory class
 
 Allows to create a math delimiter
 
 The MathDelimiterFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|MathDelimiterFactory()|Initializes a new instance of the MathDelimiterFactory class|
+| [`__init__`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/__init__/#) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_math_delimiter(element)|Create a math delimiter by applying to the element|
-|create_math_delimiter(math_elements)|Create a math delimiter by applying to the element|
+| [`create_math_delimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/#imathelement) | Create a math delimiter by applying to the element |
+| [`create_math_delimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiterfactory/create_math_delimiter/#imathelementcollection) | Create a math delimiter by applying to the element |
+
+
+### Remarks
+
+For COM comparibility
+
 
 ### See Also
-
-* namespace [aspose.slides.mathtext](/slides/python-net/aspose.slides.mathtext/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,26 +1,28 @@
----
-title: IMultipleCellChartValue
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IMultipleCellChartValue class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/imultiplecellchartvalue/
 ---
+
 
 ## IMultipleCellChartValue class
 
 Represents a collection of a chart cells.
 
 The IMultipleCellChartValue type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_cells|Returns or sets the collection of chart cells.<br/>            Read/write [IChartCellCollection](/slides/python-net/aspose.slides.charts/ichartcellcollection/).|
-|as_i_base_chart_value|Allows to get base IBaseChartValue interface.<br/>            Read-only [IBaseChartValue](/slides/python-net/aspose.slides.charts/ibasechartvalue/).|
-|data_source_type|Specifies whether AsCell or AsLiteralString or AsLiteralDouble property <br/>            is actual. In other words it specifies the type of value of the Data property.<br/>            This property is read-only. For changing value of this property you can use<br/>            one of the ChartDataPointCollection.DataSourceTypeFor<...> properties.<br/>            Read/write [data_source_type](/slides/python-net/aspose.slides.charts/ibasechartvalue/).|
-|data|Read/write object.|
+| [`as_cells`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue/as_cells/) | Returns or sets the collection of chart cells.<br/>            Read/write [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection). |
+| [`data_source_type`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue/data_source_type/) |  |
+| [`data`](/slides/python-net/aspose.slides.charts/imultiplecellchartvalue/data/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

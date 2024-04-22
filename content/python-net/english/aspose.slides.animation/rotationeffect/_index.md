@@ -1,34 +1,42 @@
----
-title: RotationEffect
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: RotationEffect class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/rotationeffect/
 ---
 
+
 ## RotationEffect class
 
 Represent rotation behavior of effect.
 
+**Inheritance:**[`RotationEffect`](/slides/python-net/aspose.slides.animation/rotationeffect) → [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
+
 The RotationEffect type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|RotationEffect()|Initializes a new instance of the RotationEffect class|
+| [`__init__`](/slides/python-net/aspose.slides.animation/rotationeffect/__init__/#) |  |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|accumulate|Represents whether animation behaviors are accumulated.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|additive|Represents whether the current animation behavior is combined with other running animations.<br/>            Read/write [BehaviorAdditiveType](/slides/python-net/aspose.slides.animation/behavioradditivetype/).|
-|properties|Represents properties of behavior.<br/>            Read-only [IBehaviorPropertyCollection](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection/).|
-|timing|Represents timing properties for the effect behavior.<br/>            Read/write [ITiming](/slides/python-net/aspose.slides.animation/itiming/).|
-|from_address|Describes the starting value for the animation.<br/>            Read/write|
-|to|Describes the ending value for the animation.<br/>            Read/write|
-|by|Describes the relative offset value for the animation.<br/>            Read/write|
-|as_i_behavior|Allows to get base IBehavior interface.<br/>            Read-only [IBehavior](/slides/python-net/aspose.slides.animation/ibehavior/).|
+| [`accumulate`](/slides/python-net/aspose.slides.animation/rotationeffect/accumulate/) | Represents whether animation behaviors are accumulated.<br/>            Read/write [`NullableBool`](/slides/python-net/aspose.slides/nullablebool). |
+| [`additive`](/slides/python-net/aspose.slides.animation/rotationeffect/additive/) | Represents whether the current animation behavior is combined with other running animations.<br/>            Read/write [`BehaviorAdditiveType`](/slides/python-net/aspose.slides.animation/behavioradditivetype). |
+| [`properties`](/slides/python-net/aspose.slides.animation/rotationeffect/properties/) | Represents properties of behavior.<br/>            Read-only [`IBehaviorPropertyCollection`](/slides/python-net/aspose.slides.animation/ibehaviorpropertycollection). |
+| [`timing`](/slides/python-net/aspose.slides.animation/rotationeffect/timing/) | Represents timing properties for the effect behavior.<br/>            Read/write [`ITiming`](/slides/python-net/aspose.slides.animation/itiming). |
+| [`from_address`](/slides/python-net/aspose.slides.animation/rotationeffect/from_address/) | Describes the starting value for the animation.<br/>            Read/write **float**. |
+| [`to`](/slides/python-net/aspose.slides.animation/rotationeffect/to/) | Describes the ending value for the animation.<br/>            Read/write **float**. |
+| [`by`](/slides/python-net/aspose.slides.animation/rotationeffect/by/) | Describes the relative offset value for the animation.<br/>            Read/write **float**. |
+
 
 ### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`Behavior`](/slides/python-net/aspose.slides.animation/behavior)
+* class [`RotationEffect`](/slides/python-net/aspose.slides.animation/rotationeffect)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)
 

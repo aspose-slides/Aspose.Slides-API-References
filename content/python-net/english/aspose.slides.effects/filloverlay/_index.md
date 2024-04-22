@@ -1,32 +1,41 @@
----
-title: FillOverlay
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: FillOverlay class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.effects/filloverlay/
 ---
 
+
 ## FillOverlay class
 
-Represents a Fill Overlay effect. A fill overlay may be used to specify<br/>            an additional fill for an object and blend the two fills together.
+Represents a Fill Overlay effect. A fill overlay may be used to specify
+            an additional fill for an object and blend the two fills together.
+
+**Inheritance:**[`FillOverlay`](/slides/python-net/aspose.slides.effects/filloverlay) → [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation) → [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 
 The FillOverlay type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
-|fill_format|Fill format.<br/>            Read-only [IFillFormat](/slides/python-net/aspose.slides/ifillformat/).|
-|blend|FillBlendMode.<br/>            Read/write [FillBlendMode](/slides/python-net/aspose.slides/fillblendmode/).|
-|slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
-|presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
-|as_i_image_transform_operation|Allows to get base IImageTransformOperation interface.<br/>            Read-only [IImageTransformOperation](/slides/python-net/aspose.slides.effects/iimagetransformoperation/).|
+| [`fill_format`](/slides/python-net/aspose.slides.effects/filloverlay/fill_format/) | Fill format.<br/>            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
+| [`blend`](/slides/python-net/aspose.slides.effects/filloverlay/blend/) | FillBlendMode.<br/>            Read/write [`FillBlendMode`](/slides/python-net/aspose.slides/fillblendmode). |
+| [`slide`](/slides/python-net/aspose.slides.effects/filloverlay/slide/) |  |
+| [`presentation`](/slides/python-net/aspose.slides.effects/filloverlay/presentation/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective Fill Overlay effect data with the inheritance applied.|
+| [`get_effective`](/slides/python-net/aspose.slides.effects/filloverlay/get_effective/#) | Gets effective Fill Overlay effect data with the inheritance applied. |
+
 
 ### See Also
-
-* namespace [aspose.slides.effects](/slides/python-net/aspose.slides.effects/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`FillOverlay`](/slides/python-net/aspose.slides.effects/filloverlay)
+* class [`ImageTransformOperation`](/slides/python-net/aspose.slides.effects/imagetransformoperation)
+* class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
+* module [`aspose.slides.effects`](/slides/python-net/aspose.slides.effects)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,29 +1,35 @@
----
-title: ImageWrapperFactory
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ImageWrapperFactory class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/imagewrapperfactory/
 ---
+
 
 ## ImageWrapperFactory class
 
 This class allows to initialize IBitmapWrapper.
 
 The ImageWrapperFactory type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|ImageWrapperFactory()|Initializes a new instance of the ImageWrapperFactory class|
+| [`__init__`](/slides/python-net/aspose.slides/imagewrapperfactory/__init__/#) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|create_image_wrapper(image)|Initializes a new instance of the BitmapWrapper class from the specified existing image.|
-|create_image_wrapper(stream)|Initializes a new instance of the BitmapWrapper class from the specified data stream.|
-|create_image_wrapper(file_name)|Initializes a new instance of the BitmapWrapper class from the specified file.|
+| [`create_image_wrapper`](/slides/python-net/aspose.slides/imagewrapperfactory/create_image_wrapper/#asposepydrawingimage) | Initializes a new instance of the BitmapWrapper class from the specified existing image. |
+| [`create_image_wrapper`](/slides/python-net/aspose.slides/imagewrapperfactory/create_image_wrapper/#iimage) | Initializes a new instance of the ImageWrapper class from the specified existing image. |
+| [`create_image_wrapper`](/slides/python-net/aspose.slides/imagewrapperfactory/create_image_wrapper/#iorawiobase) | Initializes a new instance of the BitmapWrapper class from the specified data stream. |
+| [`create_image_wrapper`](/slides/python-net/aspose.slides/imagewrapperfactory/create_image_wrapper/#str) | Initializes a new instance of the BitmapWrapper class from the specified file. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

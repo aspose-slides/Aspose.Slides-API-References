@@ -1,34 +1,38 @@
----
-title: IColumnCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IColumnCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/icolumncollection/
 ---
+
 
 ## IColumnCollection class
 
 Represents collection of columns in a table.
 
 The IColumnCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Returns the column at the specified index.
+            Read-only [`IColumn`](/slides/python-net/aspose.slides/icolumn).
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns the column at the specified index.<br/>            Read-only [IColumn](/slides/python-net/aspose.slides/icolumn/).|
+| [`[index]`](/slides/python-net/aspose.slides/icolumncollection/__getitem__/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add_clone(templ, with_attached_columns)|Creates a copy of the specified template row and inserts it at the bottom of a table.|
-|insert_clone(index, templ, with_attached_columns)|Creates a copy of the specified template column and insert it at the specified position in a table.|
-|remove_at(first_column_index, with_attached_rows)|Removes a column at the specified position from a table.|
+| [`add_clone`](/slides/python-net/aspose.slides/icolumncollection/add_clone/#icolumn-bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [`insert_clone`](/slides/python-net/aspose.slides/icolumncollection/insert_clone/#int-icolumn-bool) | Creates a copy of the specified template column and insert it at the specified position in a table. |
+| [`remove_at`](/slides/python-net/aspose.slides/icolumncollection/remove_at/#int-bool) | Removes a column at the specified position from a table. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`IColumn`](/slides/python-net/aspose.slides/icolumn)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,29 +1,34 @@
----
-title: OleEmbeddedDataInfo
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: OleEmbeddedDataInfo class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
+
 
 ## OleEmbeddedDataInfo class
 
 Represents embedded data info for OLE object.
 
 The OleEmbeddedDataInfo type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|OleEmbeddedDataInfo()|Creates new embedded data info for OLE object.|
-|OleEmbeddedDataInfo(embedded_file_data, embedded_file_extension)|Initializes a new instance of the OleEmbeddedDataInfo class|
+| [`__init__`](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/__init__/#) | Creates new embedded data info for OLE object. |
+| [`__init__`](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/__init__/#bytes-str) | Creates a new instance of an embedded data info for OLE object.<br/>            File data of an embedded OLE object **int**[].File extension for the current embedded OLE object **str**. |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|embedded_file_data|Returns the file data of an embedded OLE object<br/>            Read only int[].|
-|embedded_file_extension|Returns the file extension for the current embedded OLE object<br/>            Read only string.|
+| [`embedded_file_data`](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/embedded_file_data/) | Returns the file data of an embedded OLE object<br/>            Read only **int**[]. |
+| [`embedded_file_extension`](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/embedded_file_extension/) | Returns the file extension for the current embedded OLE object<br/>            Read only **str**. |
+
 
 ### See Also
-
-* namespace [aspose.slides.dom.ole](/slides/python-net/aspose.slides.dom.ole/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.dom.ole`](/slides/python-net/aspose.slides.dom.ole)
+* library [`Aspose.Slides`](/slides/python-net)
 

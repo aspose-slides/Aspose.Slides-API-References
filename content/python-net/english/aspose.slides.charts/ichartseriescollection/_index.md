@@ -1,40 +1,43 @@
----
-title: IChartSeriesCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IChartSeriesCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartseriescollection/
 ---
 
+
 ## IChartSeriesCollection class
 
-Represents collection of  [IChartSeries](/slides/python-net/aspose.slides.charts/ichartseries/)
+Represents collection of  [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 
 The IChartSeriesCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Gets the element at the specified index.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.|
+| [`[index]`](/slides/python-net/aspose.slides.charts/ichartseriescollection/__getitem__/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(type)|Creates new chart series and adds it to the collection.|
-|add(cell_with_series_name, type)|Creates new chart series from [IChartDataCell](/slides/python-net/aspose.slides.charts/ichartdatacell/) and adds it to the collection.|
-|add(cells_with_series_name, type)|Creates new chart series from [IChartCellCollection](/slides/python-net/aspose.slides.charts/ichartcellcollection/) and adds it to the collection.|
-|add(name, type)|Creates new chart series from value and adds it to the collection.|
-|insert(index, type)|Creates new chart series and inserts it into the collection.|
-|index_of(value)|Searches for the specified [IChartSeries](/slides/python-net/aspose.slides.charts/ichartseries/) and returns the zero-based index of the first occurrence within the entire Collection|
-|remove(value)|Removes the specified value.|
-|remove_at(index)|Removes the element at the specified index|
-|clear()|Removes all elements (including the chart style) from the collection.|
+| [`add`](/slides/python-net/aspose.slides.charts/ichartseriescollection/add/#charttype) | Creates new chart series and adds it to the collection. |
+| [`add`](/slides/python-net/aspose.slides.charts/ichartseriescollection/add/#ichartdatacell-charttype) | Creates new chart series from [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection. |
+| [`add`](/slides/python-net/aspose.slides.charts/ichartseriescollection/add/#ichartcellcollection-charttype) | Creates new chart series from [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection) and adds it to the collection. |
+| [`add`](/slides/python-net/aspose.slides.charts/ichartseriescollection/add/#str-charttype) | Creates new chart series from value and adds it to the collection. |
+| [`insert`](/slides/python-net/aspose.slides.charts/ichartseriescollection/insert/#int-charttype) | Creates new chart series and inserts it into the collection. |
+| [`index_of`](/slides/python-net/aspose.slides.charts/ichartseriescollection/index_of/#ichartseries) | Searches for the specified [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries) and returns the zero-based index of the first occurrence within the entire Collection |
+| [`remove`](/slides/python-net/aspose.slides.charts/ichartseriescollection/remove/#ichartseries) | Removes the specified value. |
+| [`remove_at`](/slides/python-net/aspose.slides.charts/ichartseriescollection/remove_at/#int) | Removes the element at the specified index |
+| [`clear`](/slides/python-net/aspose.slides.charts/ichartseriescollection/clear/#) | Removes all elements (including the chart style) from the collection. |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

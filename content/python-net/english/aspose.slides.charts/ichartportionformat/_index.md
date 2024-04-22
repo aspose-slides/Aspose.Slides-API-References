@@ -1,49 +1,51 @@
----
-title: IChartPortionFormat
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IChartPortionFormat class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartportionformat/
 ---
+
 
 ## IChartPortionFormat class
 
 Represents the chart portion formatting properties used in charts.
 
 The IChartPortionFormat type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|as_i_base_portion_format|Returns IBasePortionFormat interface.|
-|line_format|Returns the LineFormat properties for text outlining. No inheritance applied.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
-|fill_format|Returns the text FillFormat properties. No inheritance applied.<br/>            Read-only [IFillFormat](/slides/python-net/aspose.slides/ifillformat/).|
-|effect_format|Returns the text EffectFormat properties. No inheritance applied.<br/>            Read-only [IEffectFormat](/slides/python-net/aspose.slides/ieffectformat/).|
-|highlight_color|Returns the color used to highlight a text. No inheritance applied.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
-|underline_line_format|Returns the LineFormat properties used to outline underline line. No inheritance applied.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
-|underline_fill_format|Returns the underline line FillFormat properties. No inheritance applied.<br/>            Read-only [IFillFormat](/slides/python-net/aspose.slides/ifillformat/).|
-|font_bold|Determines whether the font is bold. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|font_italic|Determines whether the font is itallic. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|kumimoji|Determines whether the numbers should ignore text eastern language-specific vertical text layout. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|normalise_height|Determines whether the height of a text should be normalized. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|proof_disabled|Determines whether the text shouldn't be proofed. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|font_underline|Returns or sets the text underline type. No inheritance applied.<br/>            Read/write [TextUnderlineType](/slides/python-net/aspose.slides/textunderlinetype/).|
-|text_cap_type|Returns or sets the type of text capitalization. No inheritance applied.<br/>            Read/write [TextCapType](/slides/python-net/aspose.slides/textcaptype/).|
-|strikethrough_type|Returns or sets the strikethrough type of a text. No inheritance applied.<br/>            Read/write [TextStrikethroughType](/slides/python-net/aspose.slides/textstrikethroughtype/).|
-|is_hard_underline_line|Determines whether the underline style has own LineFormat properties or inherits it<br/>            from the LineFormat properties of the text.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|is_hard_underline_fill|Determines whether the underline style has own FillFormat properties or inherits it<br/>            from the FillFormat properties of the text.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|font_height|Returns or sets the font height of a portion.<br/>            float.NaN means height is undefined and should be inherited from the Master.<br/>            Read/write|
-|latin_font|Returns or sets the Latin font info.<br/>            Null means font is undefined and should be inherited from the Master.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
-|east_asian_font|Returns or sets the East Asian font info.<br/>            Null means font is undefined and should be inherited from the Master.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
-|complex_script_font|Returns or sets the complex script font info.<br/>            Null means font is undefined and should be inherited from the Master.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
-|symbol_font|Returns or sets the symbolic font info.<br/>            Null means font is undefined and should be inherited from the Master.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
-|escapement|Returns or sets the superscript or subscript text.<br/>            Value from -100% (subscript) to 100% (superscript).<br/>            float.NaN means value is undefined and should be inherited from the Master.<br/>            Read/write|
-|kerning_minimal_size|Returns or sets the minimal font size, for which kerning should be switched on.<br/>            float.NaN means value is undefined and should be inherited from the Master.<br/>            Read/write|
-|language_id|Returns or sets the Id of a proofing language. Used for checking spelling and grammar.<br/>            Read/write string.|
-|alternative_language_id|Returns or sets the Id of an alternative language.<br/>            Read/write string.|
-|spacing|Returns or sets the intercharacter spacing increment.<br/>            float.NaN means value is undefined and should be inherited from the Master.<br/>            Read/write|
+| [`line_format`](/slides/python-net/aspose.slides.charts/ichartportionformat/line_format/) |  |
+| [`fill_format`](/slides/python-net/aspose.slides.charts/ichartportionformat/fill_format/) |  |
+| [`effect_format`](/slides/python-net/aspose.slides.charts/ichartportionformat/effect_format/) |  |
+| [`highlight_color`](/slides/python-net/aspose.slides.charts/ichartportionformat/highlight_color/) |  |
+| [`underline_line_format`](/slides/python-net/aspose.slides.charts/ichartportionformat/underline_line_format/) |  |
+| [`underline_fill_format`](/slides/python-net/aspose.slides.charts/ichartportionformat/underline_fill_format/) |  |
+| [`font_bold`](/slides/python-net/aspose.slides.charts/ichartportionformat/font_bold/) |  |
+| [`font_italic`](/slides/python-net/aspose.slides.charts/ichartportionformat/font_italic/) |  |
+| [`kumimoji`](/slides/python-net/aspose.slides.charts/ichartportionformat/kumimoji/) |  |
+| [`normalise_height`](/slides/python-net/aspose.slides.charts/ichartportionformat/normalise_height/) |  |
+| [`proof_disabled`](/slides/python-net/aspose.slides.charts/ichartportionformat/proof_disabled/) |  |
+| [`font_underline`](/slides/python-net/aspose.slides.charts/ichartportionformat/font_underline/) |  |
+| [`text_cap_type`](/slides/python-net/aspose.slides.charts/ichartportionformat/text_cap_type/) |  |
+| [`strikethrough_type`](/slides/python-net/aspose.slides.charts/ichartportionformat/strikethrough_type/) |  |
+| [`is_hard_underline_line`](/slides/python-net/aspose.slides.charts/ichartportionformat/is_hard_underline_line/) |  |
+| [`is_hard_underline_fill`](/slides/python-net/aspose.slides.charts/ichartportionformat/is_hard_underline_fill/) |  |
+| [`font_height`](/slides/python-net/aspose.slides.charts/ichartportionformat/font_height/) |  |
+| [`latin_font`](/slides/python-net/aspose.slides.charts/ichartportionformat/latin_font/) |  |
+| [`east_asian_font`](/slides/python-net/aspose.slides.charts/ichartportionformat/east_asian_font/) |  |
+| [`complex_script_font`](/slides/python-net/aspose.slides.charts/ichartportionformat/complex_script_font/) |  |
+| [`symbol_font`](/slides/python-net/aspose.slides.charts/ichartportionformat/symbol_font/) |  |
+| [`escapement`](/slides/python-net/aspose.slides.charts/ichartportionformat/escapement/) |  |
+| [`kerning_minimal_size`](/slides/python-net/aspose.slides.charts/ichartportionformat/kerning_minimal_size/) |  |
+| [`language_id`](/slides/python-net/aspose.slides.charts/ichartportionformat/language_id/) |  |
+| [`alternative_language_id`](/slides/python-net/aspose.slides.charts/ichartportionformat/alternative_language_id/) |  |
+| [`spacing`](/slides/python-net/aspose.slides.charts/ichartportionformat/spacing/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

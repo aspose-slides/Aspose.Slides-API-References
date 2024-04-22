@@ -1,40 +1,48 @@
----
-title: BehaviorCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: BehaviorCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.animation/behaviorcollection/
 ---
+
 
 ## BehaviorCollection class
 
 Represents collection of behavior effects.
 
 The BehaviorCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Returns the number of behaviors in a collection.<br/>            Read-only|
-|is_read_only|Gets a value indicating whether the list is read-only.<br/>            Read-only bool.|
-|as_i_enumerable|Returns IEnumerable interface.<br/>            Read-only list.|
+| [`count`](/slides/python-net/aspose.slides.animation/behaviorcollection/count/) | Returns the number of behaviors in a collection.<br/>            Read-only **int**. |
+| [`is_read_only`](/slides/python-net/aspose.slides.animation/behaviorcollection/is_read_only/) | Gets a value indicating whether the **System.Collections.Generic.ICollection`1** is read-only.<br/>            Read-only **bool**. |
+
+Retirns a behavior at the specified index.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Retirns a behavior at the specified index.|
+| [`[index]`](/slides/python-net/aspose.slides.animation/behaviorcollection/__getitem__/) | Index of a behavior to return. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(item)|Add new behavior to a collection.|
-|index_of(item)|Determines the index of a specific item in the list.|
-|insert(index, item)|Inserts new behavior to a collection at the specified index.|
-|copy_to(array, array_index)|Copies the elements of the list to an array, starting at a particular array index.|
-|remove(item)|Removes specified behavior from a collection.|
-|remove_at(index)|Removes behavior from a collection at the specified index.|
-|clear()|Removes all behaviors from a collection.|
-|contains(item)|Determines whether the list contains a specific value.|
+| [`add`](/slides/python-net/aspose.slides.animation/behaviorcollection/add/#ibehavior) | Add new behavior to a collection. |
+| [`index_of`](/slides/python-net/aspose.slides.animation/behaviorcollection/index_of/#ibehavior) | Determines the index of a specific item in the **System.Collections.Generic.IList`1**. |
+| [`insert`](/slides/python-net/aspose.slides.animation/behaviorcollection/insert/#int-ibehavior) | Inserts new behavior to a collection at the specified index. |
+| [`copy_to`](/slides/python-net/aspose.slides.animation/behaviorcollection/copy_to/#listibehavior-int) | Copies the elements of the **System.Collections.Generic.ICollection`1** to an **System.Array**, starting at a particular **System.Array** index. |
+| [`remove`](/slides/python-net/aspose.slides.animation/behaviorcollection/remove/#ibehavior) | Removes specified behavior from a collection. |
+| [`remove_at`](/slides/python-net/aspose.slides.animation/behaviorcollection/remove_at/#int) | Removes behavior from a collection at the specified index. |
+| [`clear`](/slides/python-net/aspose.slides.animation/behaviorcollection/clear/#) | Removes all behaviors from a collection. |
+| [`contains`](/slides/python-net/aspose.slides.animation/behaviorcollection/contains/#ibehavior) | Determines whether the **System.Collections.Generic.ICollection`1** contains a specific value. |
+
 
 ### See Also
-
-* namespace [aspose.slides.animation](/slides/python-net/aspose.slides.animation/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.animation`](/slides/python-net/aspose.slides.animation)
+* library [`Aspose.Slides`](/slides/python-net)
 

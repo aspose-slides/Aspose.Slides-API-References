@@ -1,36 +1,40 @@
----
-title: SummaryZoomSectionCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: SummaryZoomSectionCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/summaryzoomsectioncollection/
 ---
+
 
 ## SummaryZoomSectionCollection class
 
 Represents a collection of Summary Zoom Section objects.
 
 The SummaryZoomSectionCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Gets the element at the specified index.
+            Read-only [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection).
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [ISummaryZoomSection](/slides/python-net/aspose.slides/isummaryzoomsection/).|
+| [`[index]`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/__getitem__/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add_summary_zoom_section(section)|Creates new Summary Zoom Section object and add it to the collection|
-|index_of(summary_zoom_section)|Returns an index of the specified SummaryZoomSection object.|
-|remove_summary_zoom_section(section)|Remove Summary Zoom Section object from the collection.|
-|get_summary_section(section)|Returns Summary Zoom Section element for the given section.|
-|clear()|Removes all SummaryZoomSection objects from the collection.|
+| [`add_summary_zoom_section`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/add_summary_zoom_section/#isection) | Creates new Summary Zoom Section object and add it to the collection |
+| [`index_of`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/index_of/#isummaryzoomsection) | Returns an index of the specified SummaryZoomSection object. |
+| [`remove_summary_zoom_section`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/remove_summary_zoom_section/#isection) | Remove Summary Zoom Section object from the collection. |
+| [`get_summary_section`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/get_summary_section/#isection) | Returns Summary Zoom Section element for the given section. |
+| [`clear`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/clear/#) | Removes all SummaryZoomSection objects from the collection. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

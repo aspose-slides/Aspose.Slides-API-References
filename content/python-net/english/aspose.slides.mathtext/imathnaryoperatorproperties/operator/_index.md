@@ -1,0 +1,31 @@
+﻿---
+title: operator property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides.mathtext/imathnaryoperatorproperties/operator/
+weight: 50
+---
+
+
+## operator property
+Nary Operator Character
+            For example: '∑', '∫'
+
+### Definition:
+```python
+@property
+def operator(self):
+    ...
+
+@operator.setter
+def operator(self, value):
+    ...
+```
+
+
+### See Also
+* class [`IMathNaryOperatorProperties`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorproperties)
+* module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
+* library [`Aspose.Slides`](/slides/python-net)
+

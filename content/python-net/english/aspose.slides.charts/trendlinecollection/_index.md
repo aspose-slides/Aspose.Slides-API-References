@@ -1,33 +1,43 @@
----
-title: TrendlineCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: TrendlineCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/trendlinecollection/
 ---
+
 
 ## TrendlineCollection class
 
 Represents a collection of Trendline
 
 The TrendlineCollection type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|count|Gets the number of elements actually contained in the collection.<br/>            Read-only|
-|as_i_enumerable|Allows to get base IEnumerable interface.<br/>            Read-only list.|
+| [`count`](/slides/python-net/aspose.slides.charts/trendlinecollection/count/) | Gets the number of elements actually contained in the collection.<br/>            Read-only **int**. |
+
+Gets the element at the specified index.
+            Read-only [`Trendline`](/slides/python-net/aspose.slides.charts/trendline).
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [Trendline](/slides/python-net/aspose.slides.charts/trendline/).|
+| [`[index]`](/slides/python-net/aspose.slides.charts/trendlinecollection/__getitem__/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|add(trendline_type)|Adds the new Trendline at the end of a collection and return it.|
-|remove(value)|Removes the specified value.|
+| [`add`](/slides/python-net/aspose.slides.charts/trendlinecollection/add/#trendlinetype) | Adds the new Trendline at the end of a collection and return it. |
+| [`remove`](/slides/python-net/aspose.slides.charts/trendlinecollection/remove/#itrendline) | Removes the specified value. |
+
 
 ### See Also
-
-* namespace [aspose.slides.charts](/slides/python-net/aspose.slides.charts/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`Trendline`](/slides/python-net/aspose.slides.charts/trendline)
+* module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
+* library [`Aspose.Slides`](/slides/python-net)
 

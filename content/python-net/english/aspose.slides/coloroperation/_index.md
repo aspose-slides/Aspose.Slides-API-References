@@ -1,29 +1,35 @@
----
-title: ColorOperation
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ColorOperation class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/coloroperation/
 ---
 
+
 ## ColorOperation class
 
-Represents different color operations used for color transformations.<br/>            Immutable object.
+Represents different color operations used for color transformations.
+            Immutable object.
 
 The ColorOperation type exposes the following members:
+
 ## Constructors
-| Name | Description |
+
+| Constructor | Description |
 | :- | :- |
-|ColorOperation(op)|Initializes a new instance of the ColorOperation class|
-|ColorOperation(op, parameter)|Initializes a new instance of the ColorOperation class|
+| [`__init__`](/slides/python-net/aspose.slides/coloroperation/__init__/#colortransformoperation) | Creates new color transform operation. |
+| [`__init__`](/slides/python-net/aspose.slides/coloroperation/__init__/#colortransformoperation-float) | Creates new color transform operation. |
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|operation_type|Returns or sets the type of an operation.<br/>            Read-only [ColorTransformOperation](/slides/python-net/aspose.slides/colortransformoperation/).|
-|parameter|Returns a parameter of an operation.<br/>            Read-only|
+| [`operation_type`](/slides/python-net/aspose.slides/coloroperation/operation_type/) | Returns or sets the type of an operation.<br/>            Read-only [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation). |
+| [`parameter`](/slides/python-net/aspose.slides/coloroperation/parameter/) | Returns a parameter of an operation.<br/>            Read-only **float**. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

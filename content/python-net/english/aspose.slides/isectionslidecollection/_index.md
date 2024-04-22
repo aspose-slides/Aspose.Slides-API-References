@@ -1,28 +1,30 @@
----
-title: ISectionSlideCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: ISectionSlideCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/isectionslidecollection/
 ---
+
 
 ## ISectionSlideCollection class
 
 Represents a collection of a slides in the section.
 
 The ISectionSlideCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Gets the element at the specified index.
+            Read-only [`ISlide`](/slides/python-net/aspose.slides/islide).
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Gets the element at the specified index.<br/>            Read-only [ISlide](/slides/python-net/aspose.slides/islide/).|
+| [`[index]`](/slides/python-net/aspose.slides/isectionslidecollection/__getitem__/) |  |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`ISlide`](/slides/python-net/aspose.slides/islide)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

@@ -1,23 +1,27 @@
----
-title: TransitionPattern
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: TransitionPattern enumeration
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.slideshow/transitionpattern/
 ---
 
+
 ## TransitionPattern enumeration
 
 Specifies a geometric pattern that tiles together to fill a larger area.
 
-## Members
-| Member name | Description |
+The TransitionPattern type exposes the following members:
+
+## Fields
+
+| Field | Description |
 | :- | :- |
-|DIAMOND|Diamond tile pattern|
-|HEXAGON|Hexagon tile pattern|
+| DIAMOND | Diamond tile pattern |
+| HEXAGON | Hexagon tile pattern |
+
 
 ### See Also
-
-* namespace [aspose.slides.slideshow](/slides/python-net/aspose.slides.slideshow/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides.slideshow`](/slides/python-net/aspose.slides.slideshow)
+* library [`Aspose.Slides`](/slides/python-net)
 

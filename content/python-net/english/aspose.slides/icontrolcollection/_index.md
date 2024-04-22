@@ -1,35 +1,37 @@
----
-title: IControlCollection
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IControlCollection class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/icontrolcollection/
 ---
+
 
 ## IControlCollection class
 
 A collection of ActiveX controls.
 
 The IControlCollection type exposes the following members:
-## Properties
-| Name | Description |
-| :- | :- |
-|as_i_collection|Returns ICollection class.|
-|as_i_enumerable|Returns IEnumerable class.|
+
+Returns a control at the specified position.
+
 ## Indexer
+
 | Name | Description |
 | :- | :- |
-|[index]|Returns a control at the specified position.|
+| [`[index]`](/slides/python-net/aspose.slides/icontrolcollection/__getitem__/) | Index of a control. |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|remove(item)|Removes an ActiveX control from the collection.|
-|remove_at(index)|Removes an ActiveX control stored at specified position from the collection.|
-|clear()|Removes all controls from the collection.|
-|add_control(control_type, x, y, width, height)|Creates and adds a new control to the collection.|
+| [`remove`](/slides/python-net/aspose.slides/icontrolcollection/remove/#icontrol) | Removes an ActiveX control from the collection. |
+| [`remove_at`](/slides/python-net/aspose.slides/icontrolcollection/remove_at/#int) | Removes an ActiveX control stored at specified position from the collection. |
+| [`clear`](/slides/python-net/aspose.slides/icontrolcollection/clear/#) | Removes all controls from the collection. |
+| [`add_control`](/slides/python-net/aspose.slides/icontrolcollection/add_control/#controltype-float-float-float-float) | Creates and adds a new control to the collection. |
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 

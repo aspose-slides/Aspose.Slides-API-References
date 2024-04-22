@@ -1,59 +1,73 @@
----
-title: IPortionFormat
-second_title: Aspose.Sildes for Python via .NET API Reference
+﻿---
+title: IPortionFormat class
+second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iportionformat/
 ---
 
+
 ## IPortionFormat class
 
-This class contains the text portion formatting properties. Unlike [IPortionFormatEffectiveData](/slides/python-net/aspose.slides/iportionformateffectivedata/), all properties of this class are writeable.
+This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata), all properties of this class are writeable.
 
 The IPortionFormat type exposes the following members:
+
 ## Properties
-| Name | Description |
+
+| Property | Description |
 | :- | :- |
-|bookmark_id|Returns or sets bookmark identifier.<br/>            Read/write string.|
-|smart_tag_clean|Determines whether the smart tag should be cleaned. No inheritance applied.<br/>            Read/write bool.|
-|as_i_base_portion_format|Returns IBasePortionFormat interface.<br/>            Read-only [IBasePortionFormat](/slides/python-net/aspose.slides/ibaseportionformat/).|
-|as_i_hyperlink_container|Allows to get base IHyperlinkContainer interface.<br/>            Read-only [IHyperlinkContainer](/slides/python-net/aspose.slides/ihyperlinkcontainer/).|
-|line_format|Returns the LineFormat properties for text outlining. No inheritance applied.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
-|fill_format|Returns the text FillFormat properties. No inheritance applied.<br/>            Read-only [IFillFormat](/slides/python-net/aspose.slides/ifillformat/).|
-|effect_format|Returns the text EffectFormat properties. No inheritance applied.<br/>            Read-only [IEffectFormat](/slides/python-net/aspose.slides/ieffectformat/).|
-|highlight_color|Returns the color used to highlight a text. No inheritance applied.<br/>            Read-only [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
-|underline_line_format|Returns the LineFormat properties used to outline underline line. No inheritance applied.<br/>            Read-only [ILineFormat](/slides/python-net/aspose.slides/ilineformat/).|
-|underline_fill_format|Returns the underline line FillFormat properties. No inheritance applied.<br/>            Read-only [IFillFormat](/slides/python-net/aspose.slides/ifillformat/).|
-|font_bold|Determines whether the font is bold. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|font_italic|Determines whether the font is itallic. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|kumimoji|Determines whether the numbers should ignore text eastern language-specific vertical text layout. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|normalise_height|Determines whether the height of a text should be normalized. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|proof_disabled|Determines whether the text shouldn't be proofed. No inheritance applied.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|font_underline|Returns or sets the text underline type. No inheritance applied.<br/>            Read/write [TextUnderlineType](/slides/python-net/aspose.slides/textunderlinetype/).|
-|text_cap_type|Returns or sets the type of text capitalization. No inheritance applied.<br/>            Read/write [TextCapType](/slides/python-net/aspose.slides/textcaptype/).|
-|strikethrough_type|Returns or sets the strikethrough type of a text. No inheritance applied.<br/>            Read/write [TextStrikethroughType](/slides/python-net/aspose.slides/textstrikethroughtype/).|
-|is_hard_underline_line|Determines whether the underline style has own LineFormat properties or inherits it<br/>            from the LineFormat properties of the text.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|is_hard_underline_fill|Determines whether the underline style has own FillFormat properties or inherits it<br/>            from the FillFormat properties of the text.<br/>            Read/write [NullableBool](/slides/python-net/aspose.slides/nullablebool/).|
-|font_height|Returns or sets the font height of a portion.<br/>            float.NaN means height is undefined and should be inherited from the Master.<br/>            Read/write|
-|latin_font|Returns or sets the Latin font info.<br/>            Null means font is undefined and should be inherited from the Master.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
-|east_asian_font|Returns or sets the East Asian font info.<br/>            Null means font is undefined and should be inherited from the Master.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
-|complex_script_font|Returns or sets the complex script font info.<br/>            Null means font is undefined and should be inherited from the Master.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
-|symbol_font|Returns or sets the symbolic font info.<br/>            Null means font is undefined and should be inherited from the Master.<br/>            Read/write [IFontData](/slides/python-net/aspose.slides/ifontdata/).|
-|escapement|Returns or sets the superscript or subscript text.<br/>            Value from -100% (subscript) to 100% (superscript).<br/>            float.NaN means value is undefined and should be inherited from the Master.<br/>            Read/write|
-|kerning_minimal_size|Returns or sets the minimal font size, for which kerning should be switched on.<br/>            float.NaN means value is undefined and should be inherited from the Master.<br/>            Read/write|
-|language_id|Returns or sets the Id of a proofing language. Used for checking spelling and grammar.<br/>            Read/write string.|
-|alternative_language_id|Returns or sets the Id of an alternative language.<br/>            Read/write string.|
-|spacing|Returns or sets the intercharacter spacing increment.<br/>            float.NaN means value is undefined and should be inherited from the Master.<br/>            Read/write|
-|hyperlink_click|Returns or sets the hyperlink defined for mouse click.<br/>            Read/write [IHyperlink](/slides/python-net/aspose.slides/ihyperlink/).|
-|hyperlink_mouse_over|Returns or sets the hyperlink defined for mouse over.<br/>            Read/write [IHyperlink](/slides/python-net/aspose.slides/ihyperlink/).|
-|hyperlink_manager|Hyperlinks manager<br/>            Read-only [IHyperlinkManager](/slides/python-net/aspose.slides/ihyperlinkmanager/).|
+| [`bookmark_id`](/slides/python-net/aspose.slides/iportionformat/bookmark_id/) | Returns or sets bookmark identifier.<br/>            Read/write **str**. |
+| [`smart_tag_clean`](/slides/python-net/aspose.slides/iportionformat/smart_tag_clean/) | Determines whether the smart tag should be cleaned. No inheritance applied.<br/>            Read/write **bool**. |
+| [`line_format`](/slides/python-net/aspose.slides/iportionformat/line_format/) |  |
+| [`fill_format`](/slides/python-net/aspose.slides/iportionformat/fill_format/) |  |
+| [`effect_format`](/slides/python-net/aspose.slides/iportionformat/effect_format/) |  |
+| [`highlight_color`](/slides/python-net/aspose.slides/iportionformat/highlight_color/) |  |
+| [`underline_line_format`](/slides/python-net/aspose.slides/iportionformat/underline_line_format/) |  |
+| [`underline_fill_format`](/slides/python-net/aspose.slides/iportionformat/underline_fill_format/) |  |
+| [`font_bold`](/slides/python-net/aspose.slides/iportionformat/font_bold/) |  |
+| [`font_italic`](/slides/python-net/aspose.slides/iportionformat/font_italic/) |  |
+| [`kumimoji`](/slides/python-net/aspose.slides/iportionformat/kumimoji/) |  |
+| [`normalise_height`](/slides/python-net/aspose.slides/iportionformat/normalise_height/) |  |
+| [`proof_disabled`](/slides/python-net/aspose.slides/iportionformat/proof_disabled/) |  |
+| [`font_underline`](/slides/python-net/aspose.slides/iportionformat/font_underline/) |  |
+| [`text_cap_type`](/slides/python-net/aspose.slides/iportionformat/text_cap_type/) |  |
+| [`strikethrough_type`](/slides/python-net/aspose.slides/iportionformat/strikethrough_type/) |  |
+| [`is_hard_underline_line`](/slides/python-net/aspose.slides/iportionformat/is_hard_underline_line/) |  |
+| [`is_hard_underline_fill`](/slides/python-net/aspose.slides/iportionformat/is_hard_underline_fill/) |  |
+| [`font_height`](/slides/python-net/aspose.slides/iportionformat/font_height/) |  |
+| [`latin_font`](/slides/python-net/aspose.slides/iportionformat/latin_font/) |  |
+| [`east_asian_font`](/slides/python-net/aspose.slides/iportionformat/east_asian_font/) |  |
+| [`complex_script_font`](/slides/python-net/aspose.slides/iportionformat/complex_script_font/) |  |
+| [`symbol_font`](/slides/python-net/aspose.slides/iportionformat/symbol_font/) |  |
+| [`escapement`](/slides/python-net/aspose.slides/iportionformat/escapement/) |  |
+| [`kerning_minimal_size`](/slides/python-net/aspose.slides/iportionformat/kerning_minimal_size/) |  |
+| [`language_id`](/slides/python-net/aspose.slides/iportionformat/language_id/) |  |
+| [`alternative_language_id`](/slides/python-net/aspose.slides/iportionformat/alternative_language_id/) |  |
+| [`spacing`](/slides/python-net/aspose.slides/iportionformat/spacing/) |  |
+| [`hyperlink_click`](/slides/python-net/aspose.slides/iportionformat/hyperlink_click/) |  |
+| [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/iportionformat/hyperlink_mouse_over/) |  |
+| [`hyperlink_manager`](/slides/python-net/aspose.slides/iportionformat/hyperlink_manager/) |  |
+
 ## Methods
-| Name | Description |
+
+| Method | Description |
 | :- | :- |
-|get_effective()|Gets effective portion formatting data with the inheritance applied.|
+| [`get_effective`](/slides/python-net/aspose.slides/iportionformat/get_effective/#) | Gets effective portion formatting data with the inheritance applied. |
+
+
+### Remarks
+
+This class is used to return and manipulate text portion formatting properties defined for the particular portion. This means that
+            no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
+
+
+In order to get the effective formatting parameter values including inherited you need to use [`IPortionFormat.get_effective`](/slides/python-net/aspose.slides/iportionformat/get_effective) method 
+            which returns a [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata) instance.
+
 
 ### See Also
-
-* namespace [aspose.slides](/slides/python-net/aspose.slides/)
-* assembly [Aspose.Slides](/slides/python-net/)
+* class [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
 
