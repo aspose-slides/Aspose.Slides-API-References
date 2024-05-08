@@ -20,6 +20,7 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 | Name | Description |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Allows to get base IBaseTableFormatEffectiveData interface. Read-only [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Gets the transparency of the fill color. Read Single. |
 
 ### Remarks
 

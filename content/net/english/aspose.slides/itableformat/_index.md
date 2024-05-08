@@ -20,6 +20,7 @@ public interface ITableFormat
 | Name | Description |
 | --- | --- |
 | [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Returns a table fill properties object. Read-only [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Gets or sets the transparency of the fill color. Read/write Single. |
 
 ## Methods
 

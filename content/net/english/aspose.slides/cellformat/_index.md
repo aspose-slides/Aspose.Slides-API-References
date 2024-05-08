@@ -27,6 +27,7 @@ public sealed class CellFormat : PVIObject, ICellFormat
 | [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Returns a right border line properties object. Read-only [`ILineFormat`](../ilineformat). |
 | [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Returns a top border line properties object. Read-only [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Returns a cell fill properties object. Read-only [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Gets or sets the transparency of the fill color. Read/write Single. |
 
 ## Methods
 

@@ -12,11 +12,12 @@ url: /aspose.slides.export/ipresentationanimationplayer/getframe/
 Get the frame for the current time position previously set with the [`SetTimePosition`](../settimeposition) method.
 
 ```csharp
-public Bitmap GetFrame()
+public IImage GetFrame()
 ```
 
 ### See Also
 
+* interface [IImage](../../../aspose.slides/iimage)
 * interface [IPresentationAnimationPlayer](../../ipresentationanimationplayer)
 * namespace [Aspose.Slides.Export](../../ipresentationanimationplayer)
 * assembly [Aspose.Slides](../../../)

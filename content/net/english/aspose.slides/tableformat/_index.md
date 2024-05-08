@@ -20,6 +20,7 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 | Name | Description |
 | --- | --- |
 | [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Returns a table fill properties object. Read-only [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Gets or sets the transparency of the fill color. Read/write Single. |
 
 ## Methods
 

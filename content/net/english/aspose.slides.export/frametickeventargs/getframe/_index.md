@@ -12,7 +12,7 @@ url: /aspose.slides.export/frametickeventargs/getframe/
 Get the current [`PresentationPlayer`](../../presentationplayer) frame.
 
 ```csharp
-public Bitmap GetFrame()
+public IImage GetFrame()
 ```
 
 ### Examples
@@ -37,6 +37,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### See Also
 
+* interface [IImage](../../../aspose.slides/iimage)
 * class [FrameTickEventArgs](../../frametickeventargs)
 * namespace [Aspose.Slides.Export](../../frametickeventargs)
 * assembly [Aspose.Slides](../../../)

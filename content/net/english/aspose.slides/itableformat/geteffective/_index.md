@@ -3,7 +3,7 @@ title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets effective table formatting properties with inheritance and table styles applied.
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides/itableformat/geteffective/
 ---
 

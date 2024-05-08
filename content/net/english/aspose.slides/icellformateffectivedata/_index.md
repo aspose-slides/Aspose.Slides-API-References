@@ -20,6 +20,7 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 | Name | Description |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Allows to get base IBaseTableFormatEffectiveData interface. Read-only [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Gets the transparency of the fill color. Read Single. |
 
 ### Remarks
 

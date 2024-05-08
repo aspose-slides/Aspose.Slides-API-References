@@ -3,7 +3,7 @@ title: ParentShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns a Shape_PPT for which element was created. Read-only Shapeaspose.slides/shape.
 type: docs
-weight: 30
+weight: 20
 url: /aspose.slides/shapeelement/parentshape/
 ---
 

@@ -20,7 +20,6 @@ public class ShapeElement : IShapeElement
 | Name | Description |
 | --- | --- |
 | [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Returns information about how to fill an element. Read-only [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [GraphicsPath](../../aspose.slides/shapeelement/graphicspath) { get; } | Returns an element's path. Read-only GraphicsPath. |
 | [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Returns a Shape_PPT for which element was created. Read-only [`Shape`](../shape). |
 | [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Returns information about how to stroke an element. Read-only [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
