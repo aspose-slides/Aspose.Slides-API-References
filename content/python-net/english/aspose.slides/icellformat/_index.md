@@ -24,6 +24,7 @@ The ICellFormat type exposes the following members:
 | [`border_bottom`](/slides/python-net/aspose.slides/icellformat/border_bottom/) | Returns a bottom border line properties object.<br/>            Read-only [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat). |
 | [`border_diagonal_down`](/slides/python-net/aspose.slides/icellformat/border_diagonal_down/) | Returns a top-left to bottom-right diagonal line properties object.<br/>            Read-only [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat). |
 | [`border_diagonal_up`](/slides/python-net/aspose.slides/icellformat/border_diagonal_up/) | Returns a bottom-left to top-right diagonal line properties object.<br/>            Read-only [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat). |
+| [`transparency`](/slides/python-net/aspose.slides/icellformat/transparency/) | Gets or sets the transparency of the fill color.<br/>            Read/write **float**. |
 
 ## Methods
 

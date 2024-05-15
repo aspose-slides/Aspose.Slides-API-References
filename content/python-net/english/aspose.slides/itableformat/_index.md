@@ -18,6 +18,7 @@ The ITableFormat type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`fill_format`](/slides/python-net/aspose.slides/itableformat/fill_format/) | Returns a table fill properties object.<br/>            Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat). |
+| [`transparency`](/slides/python-net/aspose.slides/itableformat/transparency/) | Gets or sets the transparency of the fill color.<br/>            Read/write **float**. |
 
 ## Methods
 

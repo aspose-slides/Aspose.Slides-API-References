@@ -9,6 +9,8 @@ weight: 40
 
 
 ## exported_slides property
+Get the number of the exported slides count.
+
 ### Definition:
 ```python
 @property

@@ -9,6 +9,8 @@ weight: 50
 
 
 ## frame_index property
+Gets the frame index.
+
 ### Definition:
 ```python
 @property
