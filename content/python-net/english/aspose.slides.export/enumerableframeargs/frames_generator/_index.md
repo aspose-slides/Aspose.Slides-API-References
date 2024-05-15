@@ -9,6 +9,8 @@ weight: 20
 
 
 ## frames_generator property
+Get the frames generator
+
 ### Definition:
 ```python
 @property

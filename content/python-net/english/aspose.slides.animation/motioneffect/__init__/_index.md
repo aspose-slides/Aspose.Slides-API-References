@@ -9,7 +9,7 @@ weight: 10
 
 
 ## __init__ {#}
-
+Creates new instance.
 
 
 ```python

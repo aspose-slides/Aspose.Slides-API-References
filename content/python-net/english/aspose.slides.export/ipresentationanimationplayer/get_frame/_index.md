@@ -26,6 +26,7 @@ def get_frame(self):
 
 
 ### See Also
+* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`IPresentationAnimationPlayer`](/slides/python-net/aspose.slides.export/ipresentationanimationplayer)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

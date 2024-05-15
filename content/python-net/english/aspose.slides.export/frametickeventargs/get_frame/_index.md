@@ -22,6 +22,7 @@ def get_frame(self):
 
 ### See Also
 * class [`FrameTickEventArgs`](/slides/python-net/aspose.slides.export/frametickeventargs)
+* class [`IImage`](/slides/python-net/aspose.slides/iimage)
 * class [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

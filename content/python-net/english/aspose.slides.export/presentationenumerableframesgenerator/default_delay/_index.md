@@ -9,6 +9,8 @@ weight: 30
 
 
 ## default_delay property
+Gets or sets default delay time [ms].
+
 ### Definition:
 ```python
 @property

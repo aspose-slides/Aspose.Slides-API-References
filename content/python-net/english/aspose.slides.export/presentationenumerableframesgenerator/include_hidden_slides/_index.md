@@ -9,6 +9,8 @@ weight: 60
 
 
 ## include_hidden_slides property
+Get or sets if hidden slides should be included.
+
 ### Definition:
 ```python
 @property

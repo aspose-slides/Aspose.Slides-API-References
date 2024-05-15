@@ -15,7 +15,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [`EmbedAllFontsHtmlController`](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller/) | The formatting controller class to use for embedding all presentation fonts in WOFF format. |
 | [`EmbeddedEotFontsHtmlController`](/slides/python-net/aspose.slides.export/embeddedeotfontshtmlcontroller/) | The formatting controller class to use for fonts embedding in EOT format |
 | [`EmbeddedWoffFontsHtmlController`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/) | The formatting controller class to use for fonts embedding in WOFF format |
-| [`EnumerableFrameArgs`](/slides/python-net/aspose.slides.export/enumerableframeargs/) |  |
+| [`EnumerableFrameArgs`](/slides/python-net/aspose.slides.export/enumerableframeargs/) | Represents return values of **Aspose.Slides.Export.PresentationEnumerableFramesGenerator.EnumerateFrames(System.Collections.Generic.IEnumerable{Aspose.Slide** method. |
 | [`FrameTickEventArgs`](/slides/python-net/aspose.slides.export/frametickeventargs/) | Represents arguments of the **FrameTick** event. |
 | [`GifOptions`](/slides/python-net/aspose.slides.export/gifoptions/) | Represents GIF exporting options. |
 | [`HandoutLayoutingOptions`](/slides/python-net/aspose.slides.export/handoutlayoutingoptions/) | Represents the handout presentation layout mode for export. |
@@ -62,7 +62,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [`PptOptions`](/slides/python-net/aspose.slides.export/pptoptions/) | Provides options that control how a presentation is saved in PPT format. |
 | [`PptxOptions`](/slides/python-net/aspose.slides.export/pptxoptions/) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
 | [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/) | Represents a generator of the animations in the [`Presentation`](/slides/python-net/aspose.slides/presentation). |
-| [`PresentationEnumerableFramesGenerator`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator/) |  |
+| [`PresentationEnumerableFramesGenerator`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator/) | Represents a generator of the animations in the [`Presentation`](/slides/python-net/aspose.slides/presentation). |
 | [`PresentationPlayer`](/slides/python-net/aspose.slides.export/presentationplayer/) | Represents the player of animations associated with the [`Presentation`](/slides/python-net/aspose.slides/presentation). |
 | [`RenderingOptions`](/slides/python-net/aspose.slides.export/renderingoptions/) | Provides options that control how a presentation/slide is rendered. |
 | [`ResponsiveHtmlController`](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/) | Responsive HTML Controller |

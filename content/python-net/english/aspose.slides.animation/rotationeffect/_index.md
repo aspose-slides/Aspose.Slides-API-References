@@ -19,7 +19,7 @@ The RotationEffect type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.animation/rotationeffect/__init__/#) |  |
+| [`__init__`](/slides/python-net/aspose.slides.animation/rotationeffect/__init__/#) | Creates new instance. |
 
 ## Properties
 
