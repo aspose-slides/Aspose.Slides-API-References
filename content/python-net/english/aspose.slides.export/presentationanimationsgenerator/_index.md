@@ -20,21 +20,6 @@ The PresentationAnimationsGenerator type exposes the following members:
 | [`__init__`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/__init__/#presentation) | Creates a new instance of the [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator). |
 | [`__init__`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/__init__/#asposepydrawingsize) | Creates a new instance of the [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator). |
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`default_delay`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/default_delay/) | Gets or sets default delay time [ms]. |
-| [`include_hidden_slides`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/include_hidden_slides/) | Get or sets if hidden slides should be included. |
-| [`exported_slides`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/exported_slides/) | Get the number of the exported slides count. |
-| [`FRAME_SIZE`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/frame_size/) | Gets the frame size. |
-
-## Methods
-
-| Method | Description |
-| :- | :- |
-| [`run`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/run/#iterableislide) |  |
-
 
 ### See Also
 * class [`Presentation`](/slides/python-net/aspose.slides/presentation)

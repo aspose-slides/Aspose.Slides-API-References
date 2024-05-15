@@ -15,19 +15,6 @@ Represents a player of the animation.
 
 The IPresentationAnimationPlayer type exposes the following members:
 
-## Properties
-
-| Property | Description |
-| :- | :- |
-| [`duration`](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/duration/) | Get animation duration [ms] |
-
-## Methods
-
-| Method | Description |
-| :- | :- |
-| [`set_time_position`](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/set_time_position/#float) | Set the animation time position within the [`IPresentationAnimationPlayer.duration`](/slides/python-net/aspose.slides.export/ipresentationanimationplayer#duration). |
-| [`get_frame`](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/get_frame/#) | Get the frame for the current time position previously set with the **Aspose.Slides.Export.IPresentationAnimationPlayer.SetTimePosition(Syste** method. |
-
 
 ### See Also
 * class [`PresentationAnimationsGenerator`](/slides/python-net/aspose.slides.export/presentationanimationsgenerator)
