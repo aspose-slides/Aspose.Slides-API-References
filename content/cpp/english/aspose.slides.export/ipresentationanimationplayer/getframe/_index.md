@@ -12,7 +12,7 @@ url: /aspose.slides.export/ipresentationanimationplayer/getframe/
 Get the frame for the current time position previously set with the [IPresentationAnimationPlayer::SetTimePosition](../settimeposition/) method.
 
 ```cpp
-virtual ASPOSE_SLIDES_LOCAL_API System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::Export::IPresentationAnimationPlayer::GetFrame()=0
+virtual ASPOSE_SLIDES_LOCAL_API System::SharedPtr<IImage> Aspose::Slides::Export::IPresentationAnimationPlayer::GetFrame()=0
 ```
 
 
@@ -23,7 +23,7 @@ virtual ASPOSE_SLIDES_LOCAL_API System::SharedPtr<System::Drawing::Bitmap> Aspos
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
+* Class [IImage](../../../aspose.slides/iimage/)
 * Class [IPresentationAnimationPlayer](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

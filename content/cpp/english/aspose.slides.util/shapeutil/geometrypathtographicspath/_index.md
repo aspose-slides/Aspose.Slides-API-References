@@ -28,6 +28,10 @@ Graphics path
 ## Remarks
 
 
+Deprecated
+:   This method will be removed after release of version 24.7.
+
+
 GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the [IGeometryPath](../../../aspose.slides/igeometrypath/) to use in [GeometryShape](../../../aspose.slides/geometryshape/) via [ShapeUtil::GraphicsPathToGeometryPath](../graphicspathtogeometrypath/) method. 
 
 ## See Also

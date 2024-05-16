@@ -3,7 +3,7 @@ title: ExchangeAdd()
 second_title: Aspose.Slides for C++ API Reference
 description: Increases value atomically via exchange-add procedure.
 type: docs
-weight: 40
+weight: 53
 url: /system.threading/interlocked/exchangeadd/
 ---
 ## Interlocked::ExchangeAdd(int32_t\&, int32_t) method

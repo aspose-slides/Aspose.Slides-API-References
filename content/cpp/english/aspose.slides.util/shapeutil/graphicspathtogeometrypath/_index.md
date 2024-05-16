@@ -28,6 +28,10 @@ Geometry path
 ## Remarks
 
 
+Deprecated
+:   This method will be removed after release of version 24.7.
+
+
 Return value of the method call can be used to change the geometry of a [IGeometryShape](../../../aspose.slides/igeometryshape/) object with [IGeometryShape::SetGeometryPaths](../../../aspose.slides/igeometryshape/setgeometrypaths/) method. 
 
 ## See Also

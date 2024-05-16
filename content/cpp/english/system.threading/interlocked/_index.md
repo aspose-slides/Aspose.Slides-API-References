@@ -32,6 +32,7 @@ class Interlocked
 | static **int64_t** [ExchangeAdd](./exchangeadd/)(**int64_t**\&, **int64_t**) | Increases value atomically via exchange-add procedure. |
 | static **int32_t** [Increment](./increment/)(**int32_t**\&) | Increments value atomically. |
 | static **int64_t** [Increment](./increment/)(**int64_t**\&) | Increments value atomically. |
+| static **int64_t** [Read](./read/)(**int64_t**\&) | Returns a 64-bit value, loaded as an atomic operation. |
 ## See Also
 
 * Namespace [System::Threading](../)

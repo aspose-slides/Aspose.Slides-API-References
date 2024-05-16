@@ -15,6 +15,10 @@ Returns an element's path. Read-only [System::Drawing::Drawing2D::GraphicsPath](
 System::SharedPtr<System::Drawing::Drawing2D::GraphicsPath> Aspose::Slides::ShapeElement::get_GraphicsPath()
 ```
 
+
+Deprecated
+:   This property will be removed after release of version 24.7.
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
