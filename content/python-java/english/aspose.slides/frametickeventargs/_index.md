@@ -18,7 +18,7 @@ url: /aspose.slides/frametickeventargs/
 | getFrame() | Get the current PresentationPlayer frame. |
 
  **Returns:**
-BufferedImage
+SlidesImage
 
 
 ---
