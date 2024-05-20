@@ -20,17 +20,10 @@ Represents a player of the animation.
 >          animationsGenerator.setNewAnimation(animationPlayer -> {
 >              System.out.println(String.format("Animation total duration: %f", animationPlayer.getDuration()));
 >              animationPlayer.setTimePosition(0);
->              try {
->                  ImageIO.write(animationPlayer.getFrame(), "PNG", new java.io.File("firstFrame.png"));
->              } catch (IOException e) {
->                  throw new RuntimeException(e);
->              }
+>              animationPlayer.getFrame().save("firstFrame.png");
+> 
 >              animationPlayer.setTimePosition(animationPlayer.getDuration());
->              try {
->                  ImageIO.write(animationPlayer.getFrame(), "PNG", new java.io.File("lastFrame.png"));
->              } catch (IOException e) {
->                  throw new RuntimeException(e);
->              }
+>              animationPlayer.getFrame().save("lastFrame.png");
 >          });
 >          animationsGenerator.run(presentation.getSlides());
 >      }
@@ -74,11 +67,11 @@ Set the animation time position within the  Duration (\#getDuration.getDuration)
 
 ### getFrame() {#getFrame--}
 ```
-public abstract BufferedImage getFrame()
+public abstract IImage getFrame()
 ```
 
 
 Get the frame for the current time position previously set with the \#setTimePosition(double).setTimePosition(double) method.
 
 **Returns:**
-java.awt.image.BufferedImage - Frame image
+[IImage](../../com.aspose.slides/iimage) - Frame image
