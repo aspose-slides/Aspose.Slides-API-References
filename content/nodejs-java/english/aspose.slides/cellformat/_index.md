@@ -115,6 +115,19 @@ CellFormatEffectiveData
 ---
 
 
+### getTransparency {#getTransparency}
+
+| Name | Description |
+| --- | --- |
+| getTransparency () | Gets or sets the transparency of the fill color. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
 ### getVersion {#getVersion}
 
 | Name | Description |
@@ -123,6 +136,16 @@ CellFormatEffectiveData
 
  **Returns:**
 long
+
+
+---
+
+
+### setTransparency {#setTransparency}
+
+| Name | Description |
+| --- | --- |
+| setTransparency (float) | Gets or sets the transparency of the fill color. Read/write float. |
 
 
 ---
