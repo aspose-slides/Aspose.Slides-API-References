@@ -21,39 +21,11 @@ Represents a player of the animation.
 >              public void invoke(IPresentationAnimationPlayer animationPlayer) {
 >                  System.out.println(String.format("Animation total duration: %f", animationPlayer.getDuration()));
 >                  animationPlayer.setTimePosition(0);
->                  FileOutputStream fosFirst = null;
->                  try {
->                      fosFirst = new FileOutputStream("firstFrame.png");
->                      animationPlayer.getFrame().compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fosFirst);
->                  } catch (IOException e) {
->                      throw new RuntimeException(e);
->                  } finally {
->                      if (fosFirst != null) {
->                          try {
->                              fosFirst.close();
->                          } catch (IOException e) {
->                              e.printStackTrace();
->                          }
->                      }
->                  }
+>                  animationPlayer.getFrame().save("firstFrame.png");
+> 
 >                  animationPlayer.setTimePosition(animationPlayer.getDuration());
->                  FileOutputStream fosLast = null;
->                  try {
->                      fosLast = new FileOutputStream("lastFrame.png");
->                      animationPlayer.getFrame().compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fosLast);
->                  } catch (IOException e) {
->                      throw new RuntimeException(e);
->                  } finally {
->                      if (fosLast != null) {
->                          try {
->                              fosLast.close();
->                          } catch (IOException e) {
->                              e.printStackTrace();
->                          }
->                      }
->                  }
->              }
->          });
+>                  animationPlayer.getFrame().save("lastFrame.png");
+>          }});
 >          animationsGenerator.run(presentation.getSlides());
 >      }
 >  } finally {
@@ -96,11 +68,11 @@ Set the animation time position within the  Duration (\#getDuration.getDuration)
 
 ### getFrame() {#getFrame--}
 ```
-public abstract Bitmap getFrame()
+public abstract IImage getFrame()
 ```
 
 
 Get the frame for the current time position previously set with the \#setTimePosition(double).setTimePosition(double) method.
 
 **Returns:**
-android.graphics.Bitmap - Frame image
+[IImage](../../com.aspose.slides/iimage) - Frame image

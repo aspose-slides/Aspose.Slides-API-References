@@ -14,6 +14,8 @@ Represents format of a table.
 | Method | Description |
 | --- | --- |
 | [getFillFormat()](#getFillFormat--) | Returns a table fill properties object. |
+| [getTransparency()](#getTransparency--) | Gets or sets the transparency of the fill color. |
+| [setTransparency(float value)](#setTransparency-float-) | Gets or sets the transparency of the fill color. |
 | [getEffective()](#getEffective--) | Gets effective table formatting properties with inheritance and table styles applied. |
 ### getFillFormat() {#getFillFormat--}
 ```
@@ -25,6 +27,29 @@ Returns a table fill properties object. Read-only [IFillFormat](../../com.aspose
 
 **Returns:**
 [IFillFormat](../../com.aspose.slides/ifillformat)
+### getTransparency() {#getTransparency--}
+```
+public abstract float getTransparency()
+```
+
+
+Gets or sets the transparency of the fill color. Read/write  float .
+
+**Returns:**
+float
+### setTransparency(float value) {#setTransparency-float-}
+```
+public abstract void setTransparency(float value)
+```
+
+
+Gets or sets the transparency of the fill color. Read/write  float .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
 ### getEffective() {#getEffective--}
 ```
 public abstract ITableFormatEffectiveData getEffective()

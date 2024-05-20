@@ -114,7 +114,7 @@ public final void replaceImage(IImage newImage)
 ```
 
 
-Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead
+Replaces image data. Attention: when Image is metafile - it will be rasterized. Use replaceImage(byte[]) instead
 
 **Parameters:**
 | Parameter | Type | Description |

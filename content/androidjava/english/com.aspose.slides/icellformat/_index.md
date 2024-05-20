@@ -20,6 +20,8 @@ Represents format of a table cell.
 | [getBorderBottom()](#getBorderBottom--) | Returns a bottom border line properties object. |
 | [getBorderDiagonalDown()](#getBorderDiagonalDown--) | Returns a top-left to bottom-right diagonal line properties object. |
 | [getBorderDiagonalUp()](#getBorderDiagonalUp--) | Returns a bottom-left to top-right diagonal line properties object. |
+| [getTransparency()](#getTransparency--) | Gets or sets the transparency of the fill color. |
+| [setTransparency(float value)](#setTransparency-float-) | Gets or sets the transparency of the fill color. |
 | [getEffective()](#getEffective--) | Gets effective table cell formatting properties with inheritance and table styles applied. |
 ### getFillFormat() {#getFillFormat--}
 ```
@@ -91,6 +93,29 @@ Returns a bottom-left to top-right diagonal line properties object. Read-only [I
 
 **Returns:**
 [ILineFormat](../../com.aspose.slides/ilineformat)
+### getTransparency() {#getTransparency--}
+```
+public abstract float getTransparency()
+```
+
+
+Gets or sets the transparency of the fill color. Read/write  float .
+
+**Returns:**
+float
+### setTransparency(float value) {#setTransparency-float-}
+```
+public abstract void setTransparency(float value)
+```
+
+
+Gets or sets the transparency of the fill color. Read/write  float .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
 ### getEffective() {#getEffective--}
 ```
 public abstract ICellFormatEffectiveData getEffective()

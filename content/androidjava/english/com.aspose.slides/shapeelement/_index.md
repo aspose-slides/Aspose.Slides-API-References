@@ -35,7 +35,7 @@ Returns a Shape\_PPT for which element was created. Read-only [Shape](../../com.
 [Shape](../../com.aspose.slides/shape)
 ### getGraphicsPath() {#getGraphicsPath--}
 ```
-public Path getGraphicsPath()
+public final Path getGraphicsPath()
 ```
 
 
