@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/presentation/comment_authors/
-weight: 120
+weight: 140
 ---
 
 

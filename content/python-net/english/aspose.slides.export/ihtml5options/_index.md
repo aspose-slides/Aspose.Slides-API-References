@@ -25,6 +25,7 @@ The IHtml5Options type exposes the following members:
 | [`warning_callback`](/slides/python-net/aspose.slides.export/ihtml5options/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export/ihtml5options/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/ihtml5options/default_regular_font/) |  |
+| [`gradient_style`](/slides/python-net/aspose.slides.export/ihtml5options/gradient_style/) |  |
 
 
 ### See Also

@@ -87,8 +87,11 @@ The Presentation type exposes the following members:
 | [`print`](/slides/python-net/aspose.slides/presentation/print/#asposepydrawingprintingprintersettings) | Prints the presentation according to the specified printer settings,<br/>            using the standard (no User Interface) print controller. |
 | [`print`](/slides/python-net/aspose.slides/presentation/print/#str) | Print the whole presentation to the specified printer,<br/>            using the standard (no User Interface) print controller. |
 | [`print`](/slides/python-net/aspose.slides/presentation/print/#asposepydrawingprintingprintersettings-str) | Prints the document according to the specified printer settings, using<br/>            the standard (no User Interface) print controller and a presentation name. |
+| [`highlight_text`](/slides/python-net/aspose.slides/presentation/highlight_text/#str-asposepydrawingcolor) | Highlights all matches of the sample text with the specified color. |
+| [`highlight_text`](/slides/python-net/aspose.slides/presentation/highlight_text/#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback) | Highlights all matches of the sample text with the specified color. |
 | [`get_slide_by_id`](/slides/python-net/aspose.slides/presentation/get_slide_by_id/#int) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/presentation/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
+| [`replace_text`](/slides/python-net/aspose.slides/presentation/replace_text/#str-str-itextsearchoptions-ifindresultcallback) | Replaces all occurrences of the specified text with another specified text. |
 
 
 ### See Also

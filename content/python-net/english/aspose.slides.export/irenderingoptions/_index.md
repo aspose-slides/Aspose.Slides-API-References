@@ -23,6 +23,7 @@ The IRenderingOptions type exposes the following members:
 | [`warning_callback`](/slides/python-net/aspose.slides.export/irenderingoptions/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export/irenderingoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/irenderingoptions/default_regular_font/) |  |
+| [`gradient_style`](/slides/python-net/aspose.slides.export/irenderingoptions/gradient_style/) |  |
 
 
 ### See Also

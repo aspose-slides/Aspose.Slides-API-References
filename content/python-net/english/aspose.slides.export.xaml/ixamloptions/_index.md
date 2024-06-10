@@ -22,6 +22,7 @@ The IXamlOptions type exposes the following members:
 | [`warning_callback`](/slides/python-net/aspose.slides.export.xaml/ixamloptions/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export.xaml/ixamloptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export.xaml/ixamloptions/default_regular_font/) |  |
+| [`gradient_style`](/slides/python-net/aspose.slides.export.xaml/ixamloptions/gradient_style/) |  |
 
 
 ### See Also

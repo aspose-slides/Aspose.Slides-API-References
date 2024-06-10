@@ -33,6 +33,7 @@ The ISVGOptions type exposes the following members:
 | [`warning_callback`](/slides/python-net/aspose.slides.export/isvgoptions/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export/isvgoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/isvgoptions/default_regular_font/) |  |
+| [`gradient_style`](/slides/python-net/aspose.slides.export/isvgoptions/gradient_style/) |  |
 
 
 ### See Also

@@ -149,6 +149,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat/) | Represents a fill formatting options. |
 | [`IFillFormatEffectiveData`](/slides/python-net/aspose.slides/ifillformateffectivedata/) | Immutable object which contains effective fill formatting properties. |
 | [`IFillParamSource`](/slides/python-net/aspose.slides/ifillparamsource/) | Auxiliary fill parameters interface. |
+| [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback/) | Callback interface used to getting search text result. |
 | [`IFontData`](/slides/python-net/aspose.slides/ifontdata/) | Represents a font definition. |
 | [`IFontDataFactory`](/slides/python-net/aspose.slides/ifontdatafactory/) | FontData factory interface |
 | [`IFontFallBackRule`](/slides/python-net/aspose.slides/ifontfallbackrule/) | Represents font fallback rule |
@@ -291,6 +292,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`ITextFrameFormat`](/slides/python-net/aspose.slides/itextframeformat/) | Contains the TextFrame's formatting properties. |
 | [`ITextFrameFormatEffectiveData`](/slides/python-net/aspose.slides/itextframeformateffectivedata/) | Immutable object which contains effective text frame formatting properties. |
 | [`ITextHighlightingOptions`](/slides/python-net/aspose.slides/itexthighlightingoptions/) | Represents options which can be used to highlight text in text frame. |
+| [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions/) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [`ITextStyle`](/slides/python-net/aspose.slides/itextstyle/) | Text style formatting properties. |
 | [`ITextStyleEffectiveData`](/slides/python-net/aspose.slides/itextstyleeffectivedata/) | Immutable object which contains effective text style properties. |
 | [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat/) | Represents 3-D properties. |
@@ -410,6 +412,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`TextFrame`](/slides/python-net/aspose.slides/textframe/) | Represents a TextFrame. |
 | [`TextFrameFormat`](/slides/python-net/aspose.slides/textframeformat/) | Contains the TextFrame's formatTextFrameFormatting properties. |
 | [`TextHighlightingOptions`](/slides/python-net/aspose.slides/texthighlightingoptions/) | Represents options which can be used to highlight text in text frame. |
+| [`TextSearchOptions`](/slides/python-net/aspose.slides/textsearchoptions/) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [`TextStyle`](/slides/python-net/aspose.slides/textstyle/) | This class contains the text style formatting properties. |
 | [`ThreeDFormat`](/slides/python-net/aspose.slides/threedformat/) | Represents 3-D properties. |
 | [`Video`](/slides/python-net/aspose.slides/video/) | Represents an image embedded into a presentation. |
@@ -442,6 +445,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`FontSubstCondition`](/slides/python-net/aspose.slides/fontsubstcondition/) | Represents a rule fot font substitution |
 | [`GradientDirection`](/slides/python-net/aspose.slides/gradientdirection/) | Represents the gradient style. |
 | [`GradientShape`](/slides/python-net/aspose.slides/gradientshape/) | Represents the shape of gradient fill. |
+| [`GradientStyle`](/slides/python-net/aspose.slides/gradientstyle/) | Represents the available gradient styles. |
 | [`HyperlinkActionType`](/slides/python-net/aspose.slides/hyperlinkactiontype/) | Represents a type of hyperlink action. |
 | [`HyperlinkColorSource`](/slides/python-net/aspose.slides/hyperlinkcolorsource/) | Represents source of hyperlink color. |
 | [`ImageFormat`](/slides/python-net/aspose.slides/imageformat/) | Represents the file format of the image. |
