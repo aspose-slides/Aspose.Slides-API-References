@@ -28,6 +28,7 @@ public class SwfOptions : SaveOptions, ISwfOptions
 | [Compressed](../../aspose.slides.export/swfoptions/compressed) { get; set; } | Specifies whether the generated SWF document should be compressed or not. Default is `true`. |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [EnableContextMenu](../../aspose.slides.export/swfoptions/enablecontextmenu) { get; set; } | Enable/disable context menu. Default is true. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../saveoptions/gradientstyle). |
 | [JpegQuality](../../aspose.slides.export/swfoptions/jpegquality) { get; set; } | Specifies the quality of JPEG images. Default is 95. |
 | [LogoImageBytes](../../aspose.slides.export/swfoptions/logoimagebytes) { get; set; } | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
 | [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | Gets or sets the full hyperlink address for a logo. Has an effect only if a [`LogoImageBytes`](./logoimagebytes) is specified. |

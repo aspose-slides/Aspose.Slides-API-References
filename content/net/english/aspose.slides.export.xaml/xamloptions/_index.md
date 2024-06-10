@@ -27,6 +27,7 @@ public class XamlOptions : SaveOptions, IXamlOptions
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | Determines whether hidden slides will be exported. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides.export/saveoptions/gradientstyle). |
 | [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Represents an implementation of IOutputSaver interface. |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |

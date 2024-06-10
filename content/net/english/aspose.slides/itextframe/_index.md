@@ -3,7 +3,7 @@ title: ITextFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a TextFrame.
 type: docs
-weight: 6910
+weight: 6930
 url: /aspose.slides/itextframe/
 ---
 
@@ -29,10 +29,12 @@ public interface ITextFrame : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex)(string, Color, ITextHighlightingOptions) | Highlight all matches of regular expression in text frame text using specified color. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Highlight all matches of sample in text frame text using specified color. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_1)(string, Color, ITextHighlightingOptions) | Highlight all matches of sample in text frame text using specified color. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Highlights all matches of the regular expression with the specified color. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Highlights all matches of the sample text with the specified color. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Highlights all matches of the sample text with the specified color. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Replaces all matches of the regular expression with the specified string. |
+| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Replaces all occurrences of the specified text with another specified text. |
 
 ### See Also
 

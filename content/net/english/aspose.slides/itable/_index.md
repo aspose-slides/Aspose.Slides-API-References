@@ -3,7 +3,7 @@ title: ITable
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a table on a slide.
 type: docs
-weight: 6870
+weight: 6890
 url: /aspose.slides/itable/
 ---
 

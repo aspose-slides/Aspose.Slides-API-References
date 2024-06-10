@@ -3,7 +3,7 @@ title: MathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies a grouping symbol above or below an expression usually to highlight the relationship between elements
 type: docs
-weight: 8330
+weight: 8350
 url: /aspose.slides.mathtext/mathgroupingcharacter/
 ---
 

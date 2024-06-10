@@ -3,7 +3,7 @@ title: ModernCommentStatus
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the status of a modern comment.
 type: docs
-weight: 8660
+weight: 8680
 url: /aspose.slides/moderncommentstatus/
 ---
 

@@ -3,7 +3,7 @@ title: TableFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents format of a table.
 type: docs
-weight: 10380
+weight: 10400
 url: /aspose.slides/tableformat/
 ---
 

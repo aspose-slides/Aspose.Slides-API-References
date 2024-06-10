@@ -3,7 +3,7 @@ title: PortionFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: This class contains the text portion formatting properties. Unlike IPortionFormatEffectiveData./iportionformateffectivedata all properties of this class are writeable.
 type: docs
-weight: 9050
+weight: 9070
 url: /aspose.slides/portionformat/
 ---
 

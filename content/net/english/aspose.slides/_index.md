@@ -197,7 +197,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [TagCollection](./tagcollection) | Represents the collection of tags (user defined pairs of strings) |
 | [TextFrame](./textframe) | Represents a TextFrame. |
 | [TextFrameFormat](./textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
-| [TextHighlightingOptions](./texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
+| [TextSearchOptions](./textsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [TextStyle](./textstyle) | This class contains the text style formatting properties. |
 | [ThreeDFormat](./threedformat) | Represents 3-D properties. |
 | [Video](./video) | Represents an image embedded into a presentation. |
@@ -271,6 +271,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IFillFormat](./ifillformat) | Represents a fill formatting options. |
 | [IFillFormatEffectiveData](./ifillformateffectivedata) | Immutable object which contains effective fill formatting properties. |
 | [IFillParamSource](./ifillparamsource) | Auxiliary fill parameters interface. |
+| [IFindResultCallback](./ifindresultcallback) | Callback interface used to getting search text result. |
 | [IFontData](./ifontdata) | Represents a font definition. |
 | [IFontDataFactory](./ifontdatafactory) | FontData factory interface |
 | [IFontFallBackRule](./ifontfallbackrule) | Represents font fallback rule |
@@ -414,7 +415,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [ITextFrame](./itextframe) | Represents a TextFrame. |
 | [ITextFrameFormat](./itextframeformat) | Contains the TextFrame's formatting properties. |
 | [ITextFrameFormatEffectiveData](./itextframeformateffectivedata) | Immutable object which contains effective text frame formatting properties. |
-| [ITextHighlightingOptions](./itexthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
+| [ITextSearchOptions](./itextsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [ITextStyle](./itextstyle) | Text style formatting properties. |
 | [ITextStyleEffectiveData](./itextstyleeffectivedata) | Immutable object which contains effective text style properties. |
 | [IThreeDFormat](./ithreedformat) | Represents 3-D properties. |
@@ -449,6 +450,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [FontSubstCondition](./fontsubstcondition) | Represents a rule fot font substitution |
 | [GradientDirection](./gradientdirection) | Represents the gradient style. |
 | [GradientShape](./gradientshape) | Represents the shape of gradient fill. |
+| [GradientStyle](./gradientstyle) | Represents the available gradient styles. |
 | [HyperlinkActionType](./hyperlinkactiontype) | Represents a type of hyperlink action. |
 | [HyperlinkColorSource](./hyperlinkcolorsource) | Represents source of hyperlink color. |
 | [ImageFormat](./imageformat) | Represents the file format of the image. |

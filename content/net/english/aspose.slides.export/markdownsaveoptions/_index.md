@@ -29,6 +29,7 @@ public class MarkdownSaveOptions : SaveOptions
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Specifies markdown specification to convert presentation. Default is `TextOnly`. |
 | [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Specifies markdown specification to convert presentation. Default is `Multi-markdown`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../saveoptions/gradientstyle). |
 | [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Specifies folder name to save images. Default is `Images`. |
 | [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Specifies whether the generated document should have new lines \\r(Macintosh) of \\n(Unix) or \\r\\n(Windows). Default is `Unix`. |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |

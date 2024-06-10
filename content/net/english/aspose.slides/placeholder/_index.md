@@ -3,7 +3,7 @@ title: Placeholder
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a placeholder on a slide.
 type: docs
-weight: 8990
+weight: 9010
 url: /aspose.slides/placeholder/
 ---
 

@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Sildes for .NET API Reference
 description: Saves specified slides of a presentation to a file with the specified format with page number keeping.
 type: docs
-weight: 340
+weight: 380
 url: /aspose.slides/presentation/save/
 ---
 

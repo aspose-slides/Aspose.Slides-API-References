@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Microsoft PowerPoint presentation.
 type: docs
-weight: 9150
+weight: 9170
 url: /aspose.slides/presentation/
 ---
 
@@ -71,7 +71,12 @@ public sealed class Presentation : IPresentation
 | [GetImages](../../aspose.slides/presentation/getimages#getimages_3)(IRenderingOptions, int[], Size) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
 | [GetImages](../../aspose.slides/presentation/getimages#getimages_2)(IRenderingOptions, int[], float, float) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
 | [GetSlideById](../../aspose.slides/presentation/getslidebyid)(uint) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
+| [HighlightRegex](../../aspose.slides/presentation/highlightregex)(Regex, Color, IFindResultCallback) | Highlights all matches of the regular expression with the specified color. |
+| [HighlightText](../../aspose.slides/presentation/highlighttext#highlighttext)(string, Color) | Highlights all matches of the sample text with the specified color. |
+| [HighlightText](../../aspose.slides/presentation/highlighttext#highlighttext_1)(string, Color, ITextSearchOptions, IFindResultCallback) | Highlights all matches of the sample text with the specified color. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/presentation/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
+| [ReplaceRegex](../../aspose.slides/presentation/replaceregex)(Regex, string, IFindResultCallback) | Replaces all matches of the regular expression with the specified string. |
+| [ReplaceText](../../aspose.slides/presentation/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Replaces all occurrences of the specified text with another specified text. |
 | [Save](../../aspose.slides/presentation/save#save)(IXamlOptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
 | [Save](../../aspose.slides/presentation/save#save_1)(Stream, SaveFormat) | Saves all slides of a presentation to a stream in the specified format. |
 | [Save](../../aspose.slides/presentation/save#save_5)(string, SaveFormat) | Saves all slides of a presentation to a file with the specified format. |

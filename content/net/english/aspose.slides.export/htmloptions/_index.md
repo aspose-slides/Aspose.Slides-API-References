@@ -28,6 +28,7 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../saveoptions/gradientstyle). |
 | [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Returns or sets HTML template. Read/write [`IHtmlFormatter`](../ihtmlformatter). |
 | [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Returns or sets a value determining the quality of the JPEG images inside PDF document. Read/write Byte. |

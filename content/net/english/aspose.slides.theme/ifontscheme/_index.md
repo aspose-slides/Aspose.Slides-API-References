@@ -3,7 +3,7 @@ title: IFontScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: Stores theme-defined fonts.
 type: docs
-weight: 10760
+weight: 10780
 url: /aspose.slides.theme/ifontscheme/
 ---
 
