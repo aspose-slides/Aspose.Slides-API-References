@@ -3,7 +3,7 @@ title: RowCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents table row collection.
 type: docs
-weight: 4772
+weight: 4798
 url: /aspose.slides/rowcollection/
 ---
 ## RowCollection class

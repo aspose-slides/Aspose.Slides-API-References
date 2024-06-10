@@ -3,7 +3,7 @@ title: get_LightBlue()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFADD8E6.
 type: docs
-weight: 1080
+weight: 1106
 url: /system.drawing/color/get_lightblue/
 ---
 ## Color::get_LightBlue() method

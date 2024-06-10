@@ -3,7 +3,7 @@ title: ILicense
 second_title: Aspose.Slides for C++ API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 2536
+weight: 2549
 url: /aspose.slides/ilicense/
 ---
 ## ILicense class

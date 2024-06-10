@@ -3,7 +3,7 @@ title: IGradientStopEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: immutable object which represents a gradient stop.
 type: docs
-weight: 2315
+weight: 2328
 url: /aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData class

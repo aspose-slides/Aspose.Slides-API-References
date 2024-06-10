@@ -3,7 +3,7 @@ title: get_BurlyWood()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFDEB887.
 type: docs
-weight: 417
+weight: 443
 url: /system.drawing/color/get_burlywood/
 ---
 ## Color::get_BurlyWood() method

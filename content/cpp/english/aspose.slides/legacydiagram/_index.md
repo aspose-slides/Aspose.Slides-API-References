@@ -3,7 +3,7 @@ title: LegacyDiagram
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a legacy diagram object.
 type: docs
-weight: 4122
+weight: 4148
 url: /aspose.slides/legacydiagram/
 ---
 ## LegacyDiagram class

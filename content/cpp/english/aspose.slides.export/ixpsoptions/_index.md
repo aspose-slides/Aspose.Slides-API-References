@@ -27,6 +27,7 @@ class IXpsOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | virtual [System::String](../../system/string/) [get_DefaultRegularFont](../isaveoptions/get_defaultregularfont/)() | Returns font used in case source font is not found. Reads [System::String](../../system/string/). |
 | virtual **bool** [get_DrawSlidesFrame](./get_drawslidesframe/)() | True to draw black frame around each slide. Read **bool**. |
+| virtual [Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/) [get_GradientStyle](../isaveoptions/get_gradientstyle/)() | Returns the visual style of the gradient. Read [GradientStyle](../../aspose.slides/gradientstyle/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../isaveoptions/get_progresscallback/)() | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | virtual **bool** [get_SaveMetafilesAsPng](./get_savemetafilesaspng/)() | True to convert all metafiles used in a presentation to the PNG images. Read **bool**. |
 | virtual **bool** [get_ShowHiddenSlides](./get_showhiddenslides/)() | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
@@ -48,6 +49,7 @@ class IXpsOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | virtual void [set_DefaultRegularFont](../isaveoptions/set_defaultregularfont/)([System::String](../../system/string/)) | Sets font used in case source font is not found. Writes [System::String](../../system/string/). |
 | virtual void [set_DrawSlidesFrame](./set_drawslidesframe/)(**bool**) | True to draw black frame around each slide. Write **bool**. |
+| virtual void [set_GradientStyle](../isaveoptions/set_gradientstyle/)([Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/)) | Sets the visual style of the gradient. Write [GradientStyle](../../aspose.slides/gradientstyle/). |
 | virtual void [set_ProgressCallback](../isaveoptions/set_progresscallback/)([System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\>) | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | virtual void [set_SaveMetafilesAsPng](./set_savemetafilesaspng/)(**bool**) | True to convert all metafiles used in a presentation to the PNG images. Write **bool**. |
 | virtual void [set_ShowHiddenSlides](./set_showhiddenslides/)(**bool**) | Specifies whether the generated document should include hidden slides or not. Default is **false**. |

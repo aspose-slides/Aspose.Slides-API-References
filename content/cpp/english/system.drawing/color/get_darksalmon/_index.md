@@ -3,7 +3,7 @@ title: get_DarkSalmon()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFE9967A.
 type: docs
-weight: 677
+weight: 703
 url: /system.drawing/color/get_darksalmon/
 ---
 ## Color::get_DarkSalmon() method

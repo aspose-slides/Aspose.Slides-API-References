@@ -3,7 +3,7 @@ title: IHyperlink
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 2380
+weight: 2393
 url: /aspose.slides/ihyperlink/
 ---
 ## IHyperlink class

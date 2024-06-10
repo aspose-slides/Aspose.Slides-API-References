@@ -3,7 +3,7 @@ title: Portion
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a portion of text inside a text paragraph.
 type: docs
-weight: 4564
+weight: 4590
 url: /aspose.slides/portion/
 ---
 ## Portion class

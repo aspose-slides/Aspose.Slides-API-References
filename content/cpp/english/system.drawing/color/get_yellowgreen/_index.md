@@ -3,7 +3,7 @@ title: get_YellowGreen()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF9ACD32.
 type: docs
-weight: 2068
+weight: 2094
 url: /system.drawing/color/get_yellowgreen/
 ---
 ## Color::get_YellowGreen() method

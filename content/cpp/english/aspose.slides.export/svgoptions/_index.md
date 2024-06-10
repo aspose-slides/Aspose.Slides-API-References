@@ -33,6 +33,7 @@ class SVGOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [get_DisableGradientSplit](./get_disablegradientsplit/)() override | Disables splitting FromCornerX and FromCenter gradients. Read **bool**. |
 | **bool** [get_DisableLineEndCropping](./get_disablelineendcropping/)() override | SVG 1.1 lacks ability to define insets for markers. [Aspose.Slides](../../aspose.slides/) SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read **bool**. |
 | [SvgExternalFontsHandling](../svgexternalfontshandling/) [get_ExternalFontsHandling](./get_externalfontshandling/)() override | Determines a way of handling externally loaded fonts. Read [SvgExternalFontsHandling](../svgexternalfontshandling/). |
+| [Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/) [get_GradientStyle](../saveoptions/get_gradientstyle/)() override | Returns the visual style of the gradient. Read [GradientStyle](../../aspose.slides/gradientstyle/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() override | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
 | **int32_t** [get_JpegQuality](./get_jpegquality/)() override | Determines JPEG encoding quality. Read **int32_t**. |
 | **int32_t** [get_MetafileRasterizationDpi](./get_metafilerasterizationdpi/)() override | Returns the lower resolution limit for metafile rasterization. Read **int32_t**. |
@@ -60,12 +61,14 @@ class SVGOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
+|  [SaveOptions](../saveoptions/saveoptions/)() |  |
 | void [set_DefaultRegularFont](../saveoptions/set_defaultregularfont/)([System::String](../../system/string/)) override | Sets font used in case source font is not found. Writes [System::String](../../system/string/). |
 | void [set_DeletePicturesCroppedAreas](./set_deletepicturescroppedareas/)(**bool**) override | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
 | void [set_Disable3DText](./set_disable3dtext/)(**bool**) override | Determines whether the 3D text is disabled in SVG. Write **bool**. |
 | void [set_DisableGradientSplit](./set_disablegradientsplit/)(**bool**) override | Disables splitting FromCornerX and FromCenter gradients. Write **bool**. |
 | void [set_DisableLineEndCropping](./set_disablelineendcropping/)(**bool**) override | SVG 1.1 lacks ability to define insets for markers. [Aspose.Slides](../../aspose.slides/) SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Write **bool**. |
 | void [set_ExternalFontsHandling](./set_externalfontshandling/)([SvgExternalFontsHandling](../svgexternalfontshandling/)) override | Determines a way of handling externally loaded fonts. Write [SvgExternalFontsHandling](../svgexternalfontshandling/). |
+| void [set_GradientStyle](../saveoptions/set_gradientstyle/)([Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/)) override | Sets the visual style of the gradient. Write [GradientStyle](../../aspose.slides/gradientstyle/). |
 | void [set_JpegQuality](./set_jpegquality/)(**int32_t**) override | Determines JPEG encoding quality. Write **int32_t**. |
 | void [set_MetafileRasterizationDpi](./set_metafilerasterizationdpi/)(**int32_t**) override | Sets the lower resolution limit for metafile rasterization. Write **int32_t**. |
 | void [set_PicturesCompression](./set_picturescompression/)([Aspose::Slides::Export::PicturesCompression](../picturescompression/)) override | Represents the pictures compression level |

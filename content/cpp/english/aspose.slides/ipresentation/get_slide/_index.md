@@ -3,7 +3,7 @@ title: get_Slide()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns a slide defined in the presentation at the specified index. Read-only Aspose::Slides::ISlide."
 type: docs
-weight: 456
+weight: 508
 url: /aspose.slides/ipresentation/get_slide/
 ---
 ## IPresentation::get_Slide(int32_t) method

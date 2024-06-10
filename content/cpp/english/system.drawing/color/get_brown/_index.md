@@ -3,7 +3,7 @@ title: get_Brown()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFA52A2A.
 type: docs
-weight: 404
+weight: 430
 url: /system.drawing/color/get_brown/
 ---
 ## Color::get_Brown() method

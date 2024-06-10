@@ -3,7 +3,7 @@ title: get_SpringGreen()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF00FF7F.
 type: docs
-weight: 1912
+weight: 1938
 url: /system.drawing/color/get_springgreen/
 ---
 ## Color::get_SpringGreen() method

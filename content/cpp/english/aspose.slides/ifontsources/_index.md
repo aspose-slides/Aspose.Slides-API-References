@@ -3,7 +3,7 @@ title: IFontSources
 second_title: Aspose.Slides for C++ API Reference
 description: Provides file and memory sources for external fonts.
 type: docs
-weight: 2133
+weight: 2146
 url: /aspose.slides/ifontsources/
 ---
 ## IFontSources class

@@ -3,7 +3,7 @@ title: ITextHighlightingOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options which can be used to highlight text in text frame.
 type: docs
-weight: 3927
+weight: 3940
 url: /aspose.slides/itexthighlightingoptions/
 ---
 ## ITextHighlightingOptions class
@@ -54,6 +54,10 @@ class ITextHighlightingOptions : public virtual System::Object
 | Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |
+
+Deprecated
+:   The interface [ITextHighlightingOptions](./) will be removed after release of version 24.10.
+
 ## See Also
 
 * Class [Object](../../system/object/)

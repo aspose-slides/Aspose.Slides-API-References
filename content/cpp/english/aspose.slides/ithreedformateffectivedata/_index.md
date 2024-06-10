@@ -3,7 +3,7 @@ title: IThreeDFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which represents effective 3-D formatting properties.
 type: docs
-weight: 3979
+weight: 4005
 url: /aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData class

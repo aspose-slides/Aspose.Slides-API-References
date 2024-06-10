@@ -3,7 +3,7 @@ title: MasterLayoutSlideCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collections of all layout slides of defined master slide. Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering layout slides in context of the individual collections of master's layout slides.
 type: docs
-weight: 4226
+weight: 4252
 url: /aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection class

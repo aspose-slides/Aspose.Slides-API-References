@@ -3,7 +3,7 @@ title: FontAlignment
 second_title: Aspose.Slides for C++ API Reference
 description: Represents vertical font alignment.
 type: docs
-weight: 5565
+weight: 5604
 url: /aspose.slides/fontalignment/
 ---
 ## FontAlignment enum

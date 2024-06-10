@@ -54,7 +54,7 @@ bmp->Save(u"Slide_0.png", Aspose::Slides::ImageFormat::Png);
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"PowerPoint-Presentation.ppt");
 
-for (auto&& sld : System::IterateOver(pres->get_Slides()))
+for (auto&& sld : pres->get_Slides())
 {
     // Create a full scale image
     System::SharedPtr<IImage> bmp = sld->GetImage(1.f, 1.f);
@@ -73,7 +73,7 @@ int32_t desiredY = 800;
 float scaleX = (float)(1.0 / pres->get_SlideSize()->get_Size().get_Width()) * desiredX;
 float scaleY = (float)(1.0 / pres->get_SlideSize()->get_Size().get_Height()) * desiredY;
 
-for (auto&& sld : System::IterateOver(pres->get_Slides()))
+for (auto&& sld : pres->get_Slides())
 {
     // Create a full scale image
     System::SharedPtr<IImage> bmp = sld->GetImage(scaleX, scaleY);

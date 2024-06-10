@@ -3,7 +3,7 @@ title: INotesSlide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a notes slide in a presentation.
 type: docs
-weight: 2861
+weight: 2874
 url: /aspose.slides/inotesslide/
 ---
 ## INotesSlide class

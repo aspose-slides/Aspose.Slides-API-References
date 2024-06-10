@@ -3,7 +3,7 @@ title: PortionFormat
 second_title: Aspose.Slides for C++ API Reference
 description: This class contains the text portion formatting properties. Unlike IPortionFormatEffectiveData, all properties of this class are writeable.
 type: docs
-weight: 4603
+weight: 4629
 url: /aspose.slides/portionformat/
 ---
 ## PortionFormat class

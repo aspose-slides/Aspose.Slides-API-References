@@ -3,7 +3,7 @@ title: IGradientStop
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a gradient format.
 type: docs
-weight: 2276
+weight: 2289
 url: /aspose.slides/igradientstop/
 ---
 ## IGradientStop class

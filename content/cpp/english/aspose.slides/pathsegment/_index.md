@@ -3,7 +3,7 @@ title: PathSegment
 second_title: Aspose.Slides for C++ API Reference
 description: Represents segment of graphics path of GeometryShape
 type: docs
-weight: 4473
+weight: 4499
 url: /aspose.slides/pathsegment/
 ---
 ## PathSegment class

@@ -3,7 +3,7 @@ title: ISketchFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective line sketch properties.
 type: docs
-weight: 3563
+weight: 3576
 url: /aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData class

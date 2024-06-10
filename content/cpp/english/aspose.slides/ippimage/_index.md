@@ -3,7 +3,7 @@ title: IPPImage
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an image in a presentation.
 type: docs
-weight: 3199
+weight: 3212
 url: /aspose.slides/ippimage/
 ---
 ## IPPImage class

@@ -3,7 +3,7 @@ title: IFontsLoader
 second_title: Aspose.Slides for C++ API Reference
 description: Class for loading custom fonts defined by user. Should be used before creating any presentation objects.
 type: docs
-weight: 2107
+weight: 2120
 url: /aspose.slides/ifontsloader/
 ---
 ## IFontsLoader class

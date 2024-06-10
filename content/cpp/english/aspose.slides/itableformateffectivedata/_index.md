@@ -3,7 +3,7 @@ title: ITableFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective table formatting properties.
 type: docs
-weight: 3862
+weight: 3875
 url: /aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData class
@@ -32,6 +32,7 @@ class ITableFormatEffectiveData : public virtual Aspose::Slides::IBaseTableForma
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[ILineFormatEffectiveData](../ilineformateffectivedata/)\> [get_BorderRight](../ibasetableformateffectivedata/get_borderright/)() | Returns right border line format effective value. Read-only [ILineFormatEffectiveData](../ilineformateffectivedata/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[ILineFormatEffectiveData](../ilineformateffectivedata/)\> [get_BorderTop](../ibasetableformateffectivedata/get_bordertop/)() | Returns top border line format effective value. Read-only [ILineFormatEffectiveData](../ilineformateffectivedata/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IFillFormatEffectiveData](../ifillformateffectivedata/)\> [get_FillFormat](../ibasetableformateffectivedata/get_fillformat/)() | Returns fill format effective value. Read-only [IFillFormatEffectiveData](../ifillformateffectivedata/). |
+| virtual **float** [get_Transparency](./get_transparency/)() | Gets the transparency of the fill color. Read **float**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |

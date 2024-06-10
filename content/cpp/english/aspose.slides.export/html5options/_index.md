@@ -30,6 +30,7 @@ class Html5Options : public Aspose::Slides::Export::SaveOptions,
 | **bool** [get_AnimateTransitions](./get_animatetransitions/)() override | Returns transitions animation option. Read **bool**. |
 | [System::String](../../system/string/) [get_DefaultRegularFont](../saveoptions/get_defaultregularfont/)() override | Returns font used in case source font is not found. Reads [System::String](../../system/string/). |
 | **bool** [get_EmbedImages](./get_embedimages/)() override | Returns images embedding option. Read **bool**. |
+| [Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/) [get_GradientStyle](../saveoptions/get_gradientstyle/)() override | Returns the visual style of the gradient. Read [GradientStyle](../../aspose.slides/gradientstyle/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/)\> [get_NotesCommentsLayouting](./get_notescommentslayouting/)() override | Provides options that control how notes and comments is placed in exported document. Read [INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/). |
 | [System::String](../../system/string/) [get_OutputPath](./get_outputpath/)() override | Determines where external resources should be stored. Read [System::String](../../system/string/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../saveoptions/get_progresscallback/)() override | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
@@ -50,10 +51,12 @@ class Html5Options : public Aspose::Slides::Export::SaveOptions,
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
+|  [SaveOptions](../saveoptions/saveoptions/)() |  |
 | void [set_AnimateShapes](./set_animateshapes/)(**bool**) override | Sets shapes animation option. Write **bool**. |
 | void [set_AnimateTransitions](./set_animatetransitions/)(**bool**) override | Sets transitions animation option. Write **bool**. |
 | void [set_DefaultRegularFont](../saveoptions/set_defaultregularfont/)([System::String](../../system/string/)) override | Sets font used in case source font is not found. Writes [System::String](../../system/string/). |
 | void [set_EmbedImages](./set_embedimages/)(**bool**) override | Sets images embedding option. Write **bool**. |
+| void [set_GradientStyle](../saveoptions/set_gradientstyle/)([Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/)) override | Sets the visual style of the gradient. Write [GradientStyle](../../aspose.slides/gradientstyle/). |
 | void [set_NotesCommentsLayouting](./set_notescommentslayouting/)([System::SharedPtr](../../system/sharedptr/)\<[INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/)\>) override | Provides options that control how notes and comments is placed in exported document. Write [INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/). |
 | void [set_OutputPath](./set_outputpath/)([System::String](../../system/string/)) override | Determines where external resources should be stored. Write [System::String](../../system/string/). |
 | void [set_ProgressCallback](../saveoptions/set_progresscallback/)([System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\>) override | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |

@@ -35,6 +35,7 @@ class PdfOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [get_DrawSlidesFrame](./get_drawslidesframe/)() override | True to draw black frame around each slide. Read **bool**. |
 | **bool** [get_EmbedFullFonts](./get_embedfullfonts/)() override | Determines if all characters of font should be embedded or only used subset. Read **bool**. |
 | **bool** [get_EmbedTrueTypeFontsForASCII](./get_embedtruetypefontsforascii/)() override | Determines if [Aspose.Slides](../../aspose.slides/) will embed common fonts for ASCII (33..127 code range) text. [Fonts](../../aspose.slides/fonts/) for character codes greater than 127 are always embedded. Common fonts list includes PDF's base 14 fonts and additional user specified fonts. Read **bool**. |
+| [Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/) [get_GradientStyle](../saveoptions/get_gradientstyle/)() override | Returns the visual style of the gradient. Read [GradientStyle](../../aspose.slides/gradientstyle/). |
 | [System::Drawing::Color](../../system.drawing/color/) [get_ImageTransparentColor](./get_imagetransparentcolor/)() override | Gets the image transparent color. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() override | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
 | **uint8_t** [get_JpegQuality](./get_jpegquality/)() override | Returns a value determining the quality of the JPEG images inside PDF document. Read **uint8_t**. |
@@ -64,6 +65,7 @@ class PdfOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
+|  [SaveOptions](../saveoptions/saveoptions/)() |  |
 | void [set_AccessPermissions](./set_accesspermissions/)([PdfAccessPermissions](../pdfaccesspermissions/)) override | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See [PdfAccessPermissions](../pdfaccesspermissions/). |
 | void [set_AdditionalCommonFontFamilies](./set_additionalcommonfontfamilies/)([System::ArrayPtr](../../system/arrayptr/)\<[System::String](../../system/string/)\>) override | Sets an array of user-defined names of font families which [Aspose.Slides](../../aspose.slides/) should consider common. Write [System::String](../../system/string/)[]. |
 | void [set_ApplyImageTransparent](./set_applyimagetransparent/)(**bool**) override | Applies the specified transparent color to an image if **true**. |
@@ -73,6 +75,7 @@ class PdfOptions : public Aspose::Slides::Export::SaveOptions,
 | void [set_DrawSlidesFrame](./set_drawslidesframe/)(**bool**) override | True to draw black frame around each slide. Write **bool**. |
 | void [set_EmbedFullFonts](./set_embedfullfonts/)(**bool**) override | Determines if all characters of font should be embedded or only used subset. Write **bool**. |
 | void [set_EmbedTrueTypeFontsForASCII](./set_embedtruetypefontsforascii/)(**bool**) override | Determines if [Aspose.Slides](../../aspose.slides/) will embed common fonts for ASCII (33..127 code range) text. [Fonts](../../aspose.slides/fonts/) for character codes greater than 127 are always embedded. Common fonts list includes PDF's base 14 fonts and additional user specified fonts. Write **bool**. |
+| void [set_GradientStyle](../saveoptions/set_gradientstyle/)([Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/)) override | Sets the visual style of the gradient. Write [GradientStyle](../../aspose.slides/gradientstyle/). |
 | void [set_ImageTransparentColor](./set_imagetransparentcolor/)([System::Drawing::Color](../../system.drawing/color/)) override | Sets the image transparent color. |
 | void [set_JpegQuality](./set_jpegquality/)(**uint8_t**) override | Sets a value determining the quality of the JPEG images inside PDF document. Write **uint8_t**. |
 | void [set_Password](./set_password/)([System::String](../../system/string/)) override | Setting user password to protect the PDF document. Write [System::String](../../system/string/). |

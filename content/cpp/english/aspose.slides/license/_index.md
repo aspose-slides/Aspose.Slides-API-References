@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Slides for C++ API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 4135
+weight: 4161
 url: /aspose.slides/license/
 ---
 ## License class

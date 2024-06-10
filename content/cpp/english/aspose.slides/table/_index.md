@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a table on a slide.
 type: docs
-weight: 5175
+weight: 5201
 url: /aspose.slides/table/
 ---
 ## Table class

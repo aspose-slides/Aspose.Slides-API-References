@@ -3,7 +3,7 @@ title: IResourceLoadingArgs
 second_title: Aspose.Slides for C++ API Reference
 description: Interface for external resource loading arguments.
 type: docs
-weight: 3329
+weight: 3342
 url: /aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs class

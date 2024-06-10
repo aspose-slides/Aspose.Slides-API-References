@@ -3,7 +3,7 @@ title: get_CommentAuthor()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns the comment author at the specified index. Read-only Aspose::Slides::ICommentAuthor"
 type: docs
-weight: 534
+weight: 586
 url: /aspose.slides/presentation/get_commentauthor/
 ---
 ## Presentation::get_CommentAuthor(int32_t) method

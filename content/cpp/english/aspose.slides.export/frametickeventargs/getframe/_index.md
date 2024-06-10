@@ -12,7 +12,7 @@ url: /aspose.slides.export/frametickeventargs/getframe/
 Get the current [PresentationPlayer](../../presentationplayer/) frame.
 
 ```cpp
-System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::Export::FrameTickEventArgs::GetFrame()
+System::SharedPtr<IImage> Aspose::Slides::Export::FrameTickEventArgs::GetFrame()
 ```
 
 ## Remarks
@@ -35,13 +35,10 @@ player->FrameTick.connect(static_cast<std::function<void(System::SharedPtr<Prese
 animationsGenerator->Run(pres->get_Slides());
 ```
 
-
-
-
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
+* Class [IImage](../../../aspose.slides/iimage/)
 * Class [FrameTickEventArgs](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: CompareExchange()
 second_title: Aspose.Slides for C++ API Reference
 description: "Compare-exchanges value on variable: checks if variable is equal to specific value and stores the new value only if stored value matches expected."
 type: docs
-weight: 66
+weight: 79
 url: /system.threading/interlocked/compareexchange/
 ---
 ## Interlocked::CompareExchange(T\&, T, T) method
