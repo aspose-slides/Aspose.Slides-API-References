@@ -236,6 +236,7 @@ url: /com.aspose.slides/
 | [GradientStopCollection](../com.aspose.slides/gradientstopcollection) | Represnts a collection of gradient stops. |
 | [GradientStopCollectionEffectiveData](../com.aspose.slides/gradientstopcollectioneffectivedata) | Represents a collection of GradientStopData objects. |
 | [GradientStopEffectiveData](../com.aspose.slides/gradientstopeffectivedata) | Immutable object which represents a gradient stop. |
+| [GradientStyle](../com.aspose.slides/gradientstyle) | Represents the styles available for a gradient. |
 | [GraphicalObject](../com.aspose.slides/graphicalobject) | Represents abstract graphical object. |
 | [GraphicalObjectLock](../com.aspose.slides/graphicalobjectlock) | Determines which operations are disabled on the parent GraphicalObject. |
 | [GrayScale](../com.aspose.slides/grayscale) | Represents a Gray Scale effect. |
@@ -580,6 +581,7 @@ url: /com.aspose.slides/
 | [TextFrameFormat](../com.aspose.slides/textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
 | [TextHighlightingOptions](../com.aspose.slides/texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
 | [TextInheritanceLimit](../com.aspose.slides/textinheritancelimit) | Controls the depth of the text properties inheritance. |
+| [TextSearchOptions](../com.aspose.slides/textsearchoptions) | Represents options which can be used to find text in Presentation, Slide or TextFrame. |
 | [TextShapeType](../com.aspose.slides/textshapetype) | Represents text wrapping shape. |
 | [TextStrikethroughType](../com.aspose.slides/textstrikethroughtype) | Represents the type of text strikethrough. |
 | [TextStyle](../com.aspose.slides/textstyle) | This class contains the text style formatting properties. |
@@ -801,6 +803,7 @@ url: /com.aspose.slides/
 | [IFillOverlayEffectiveData](../com.aspose.slides/ifilloverlayeffectivedata) | Immutable object which represents a Fill Overlay effect. |
 | [IFillParamSource](../com.aspose.slides/ifillparamsource) | Auxiliary fill parameters interface. |
 | [IFilterEffect](../com.aspose.slides/ifiltereffect) | Represent filter effect of behavior. |
+| [IFindResultCallback](../com.aspose.slides/ifindresultcallback) | Callback interface used to getting search text result. |
 | [IFlyThroughTransition](../com.aspose.slides/iflythroughtransition) | Fly-through slide transition effect. |
 | [IFontData](../com.aspose.slides/ifontdata) | Represents a font definition. |
 | [IFontDataFactory](../com.aspose.slides/ifontdatafactory) | FontData factory interface |
@@ -1099,6 +1102,7 @@ url: /com.aspose.slides/
 | [ITextFrameFormat](../com.aspose.slides/itextframeformat) | Contains the TextFrame's formatting properties. |
 | [ITextFrameFormatEffectiveData](../com.aspose.slides/itextframeformateffectivedata) | Immutable object which contains effective text frame formatting properties. |
 | [ITextHighlightingOptions](../com.aspose.slides/itexthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
+| [ITextSearchOptions](../com.aspose.slides/itextsearchoptions) | Represents options which can be used to find text in Presentation, Slide or TextFrame. |
 | [ITextStyle](../com.aspose.slides/itextstyle) | Text style formatting properties. |
 | [ITextStyleEffectiveData](../com.aspose.slides/itextstyleeffectivedata) | Immutable object which contains effective text style properties. |
 | [ITextToHtmlConversionOptions](../com.aspose.slides/itexttohtmlconversionoptions) | Options for extracting HTML from the Pptx text. |
