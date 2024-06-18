@@ -235,6 +235,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [GradientStopCollection](gradientstopcollection) | Represnts a collection of gradient stops. |
 | [GradientStopCollectionEffectiveData](gradientstopcollectioneffectivedata) | Represents a collection of GradientStopData objects. |
 | [GradientStopEffectiveData](gradientstopeffectivedata) | Immutable object which represents a gradient stop. |
+| [GradientStyle](gradientstyle) | Represents the styles available for a gradient. This determines the visual gradient effect applied to graphical elements. |
 | [GraphicalObject](graphicalobject) | Represents abstract graphical object. |
 | [GraphicalObjectLock](graphicalobjectlock) | Determines which operations are disabled on the parent GraphicalObject. |
 | [GrayScale](grayscale) | Represents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected. |
@@ -583,6 +584,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [TextFrameFormat](textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
 | [TextHighlightingOptions](texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
 | [TextInheritanceLimit](textinheritancelimit) | Controls the depth of the text properties inheritance. |
+| [TextSearchOptions](textsearchoptions) | Represents options which can be used to find text in Presentation, Slide or TextFrame. |
 | [TextShapeType](textshapetype) | Represents text wrapping shape. |
 | [TextStrikethroughType](textstrikethroughtype) | Represents the type of text strikethrough. |
 | [TextStyle](textstyle) | This class contains the text style formatting properties. |

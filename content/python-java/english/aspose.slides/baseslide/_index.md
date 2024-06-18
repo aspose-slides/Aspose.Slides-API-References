@@ -28,51 +28,13 @@ ThemeEffectiveData
 
 | Name | Description |
 | --- | --- |
-| equals([BaseSlide](../baseslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| equals([Slide](../slide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [BaseSlide](../baseslide) | The IBaseSlide to compare with the current IBaseSlide. |
-
- **Returns:**
-boolean
-
-
----
-
-
-### equals {#equals}
-
-| Name | Description |
-| --- | --- |
-| equals([LayoutSlide](../layoutslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [LayoutSlide](../layoutslide) | The IBaseSlide to compare with the current IBaseSlide. |
-
- **Returns:**
-boolean
-
-
----
-
-
-### equals {#equals}
-
-| Name | Description |
-| --- | --- |
-| equals([NotesSlide](../notesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [NotesSlide](../notesslide) | The IBaseSlide to compare with the current IBaseSlide. |
+| slide | [Slide](../slide) | The IBaseSlide to compare with the current IBaseSlide. |
 
  **Returns:**
 boolean
@@ -104,6 +66,25 @@ boolean
 
 | Name | Description |
 | --- | --- |
+| equals([LayoutSlide](../layoutslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [LayoutSlide](../layoutslide) | The IBaseSlide to compare with the current IBaseSlide. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### equals {#equals}
+
+| Name | Description |
+| --- | --- |
 | equals([MasterHandoutSlide](../masterhandoutslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
@@ -123,13 +104,32 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| equals([Slide](../slide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| equals([NotesSlide](../notesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [Slide](../slide) | The IBaseSlide to compare with the current IBaseSlide. |
+| slide | [NotesSlide](../notesslide) | The IBaseSlide to compare with the current IBaseSlide. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### equals {#equals}
+
+| Name | Description |
+| --- | --- |
+| equals([BaseSlide](../baseslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [BaseSlide](../baseslide) | The IBaseSlide to compare with the current IBaseSlide. |
 
  **Returns:**
 boolean
@@ -170,7 +170,7 @@ boolean
 | altText | String | Alternative text. |
 
  **Returns:**
-[Shape](../shape), [SmartArtShape](../smartartshape), [Connector](../connector), [Ink](../ink), [VideoFrame](../videoframe), [SummaryZoomFrame](../summaryzoomframe), [AutoShape](../autoshape), [Chart](../chart), [SmartArt](../smartart), [Table](../table), [LegacyDiagram](../legacydiagram), [GroupShape](../groupshape), [AudioFrame](../audioframe), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GeometryShape](../geometryshape), [GraphicalObject](../graphicalobject)
+[Table](../table), [Chart](../chart), [Shape](../shape), [SectionZoomFrame](../sectionzoomframe), [AutoShape](../autoshape), [GeometryShape](../geometryshape), [Connector](../connector), [ZoomObject](../zoomobject), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [PictureFrame](../pictureframe), [Ink](../ink), [ZoomFrame](../zoomframe), [SmartArtShape](../smartartshape), [LegacyDiagram](../legacydiagram), [SummaryZoomFrame](../summaryzoomframe), [GroupShape](../groupshape), [GraphicalObject](../graphicalobject), [SmartArt](../smartart), [OleObjectFrame](../oleobjectframe)
 
 
 ---
@@ -293,7 +293,7 @@ boolean
 | getSlide() |  |
 
  **Returns:**
-[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide)
+[Slide](../slide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---

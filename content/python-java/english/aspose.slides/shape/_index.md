@@ -63,7 +63,7 @@ String
 | getBasePlaceholder() | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 
  **Returns:**
-[Shape](../shape), [SmartArtShape](../smartartshape), [Connector](../connector), [Ink](../ink), [VideoFrame](../videoframe), [SummaryZoomFrame](../summaryzoomframe), [AutoShape](../autoshape), [Chart](../chart), [SmartArt](../smartart), [Table](../table), [LegacyDiagram](../legacydiagram), [GroupShape](../groupshape), [AudioFrame](../audioframe), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GeometryShape](../geometryshape), [GraphicalObject](../graphicalobject)
+[Table](../table), [Chart](../chart), [Shape](../shape), [SectionZoomFrame](../sectionzoomframe), [AutoShape](../autoshape), [GeometryShape](../geometryshape), [Connector](../connector), [ZoomObject](../zoomobject), [SummaryZoomSection](../summaryzoomsection), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [PictureFrame](../pictureframe), [Ink](../ink), [ZoomFrame](../zoomframe), [SmartArtShape](../smartartshape), [LegacyDiagram](../legacydiagram), [SummaryZoomFrame](../summaryzoomframe), [GroupShape](../groupshape), [GraphicalObject](../graphicalobject), [SmartArt](../smartart), [OleObjectFrame](../oleobjectframe)
 
 
 ---
@@ -357,7 +357,7 @@ float
 | getShapeLock() | Returns shape's locks. Read-only IBaseShapeLock. |
 
  **Returns:**
-[GraphicalObjectLock](../graphicalobjectlock), [PictureFrameLock](../pictureframelock), [BaseShapeLock](../baseshapelock), [ConnectorLock](../connectorlock), [GroupShapeLock](../groupshapelock), [AutoShapeLock](../autoshapelock)
+[PictureFrameLock](../pictureframelock), [GroupShapeLock](../groupshapelock), [GraphicalObjectLock](../graphicalobjectlock), [ConnectorLock](../connectorlock), [AutoShapeLock](../autoshapelock), [BaseShapeLock](../baseshapelock)
 
 
 ---
@@ -370,7 +370,7 @@ float
 | getSlide() | Returns the parent slide of a shape. Read-only IBaseSlide. |
 
  **Returns:**
-[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide)
+[Slide](../slide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---

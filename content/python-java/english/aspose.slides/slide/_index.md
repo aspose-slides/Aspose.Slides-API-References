@@ -244,7 +244,7 @@ boolean
 | author | [CommentAuthor](../commentauthor) | Author of comments to find or null to return all comments. |
 
  **Returns:**
-[Comment](../comment), [ModernComment](../moderncomment)
+[ModernComment](../moderncomment), [Comment](../comment)
 
 
 ---
@@ -270,7 +270,7 @@ int
 | getThemeManager() | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Returns:**
-[LayoutSlideThemeManager](../layoutslidethememanager), [SlideThemeManager](../slidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [NotesSlideThemeManager](../notesslidethememanager), [ChartThemeManager](../chartthememanager)
+[ChartThemeManager](../chartthememanager), [SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [NotesSlideThemeManager](../notesslidethememanager)
 
 
 ---

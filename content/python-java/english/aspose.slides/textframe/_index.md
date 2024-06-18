@@ -57,7 +57,7 @@ url: /aspose.slides/textframe/
 | getSlide() | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
  **Returns:**
-[BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide)
+[Slide](../slide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterNotesSlide](../masternotesslide)
 
 
 ---
@@ -107,6 +107,24 @@ String
 ---
 
 
+### highlightRegex {#highlightRegex}
+
+| Name | Description |
+| --- | --- |
+| highlightRegex(Pattern, Color, [IFindResultCallback](../ifindresultcallback)) | Highlight all matches of regular expression in text frame text using specified color. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to be replaced. |
+| highlightColor | Color | Highlighting color. |
+| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+
+
+---
+
+
 ### highlightText {#highlightText}
 
 | Name | Description |
@@ -142,11 +160,67 @@ String
 ---
 
 
+### highlightText {#highlightText}
+
+| Name | Description |
+| --- | --- |
+| highlightText(String, Color, [TextSearchOptions](../textsearchoptions), [IFindResultCallback](../ifindresultcallback)) | Highlight all matches of sample in text frame text using specified color. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Text sample to highlight. |
+| highlightColor | Color | Highlighting color. |
+| options | [TextSearchOptions](../textsearchoptions) | Text search options ITextSearchOptions. |
+| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+
+
+---
+
+
 ### joinPortionsWithSameFormatting {#joinPortionsWithSameFormatting}
 
 | Name | Description |
 | --- | --- |
 | joinPortionsWithSameFormatting() | Joins runs with same formatting in all paragraphs. |
+
+
+---
+
+
+### replaceRegex {#replaceRegex}
+
+| Name | Description |
+| --- | --- |
+| replaceRegex(Pattern, String, [IFindResultCallback](../ifindresultcallback)) | Replaces all matches of regular expression with specified string. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to be replaced. |
+| newText | String | The string to replace all occurrences of strings to be replaced. |
+| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+
+
+---
+
+
+### replaceText {#replaceText}
+
+| Name | Description |
+| --- | --- |
+| replaceText(String, String, [TextSearchOptions](../textsearchoptions), [IFindResultCallback](../ifindresultcallback)) | Replaces all occurrences of the specified text with another specified text. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| oldText | String | The string to be replaced. |
+| newText | String | The string to replace all occurrences of oldText. |
+| options | [TextSearchOptions](../textsearchoptions) | Text search options ITextSearchOptions. |
+| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
 
 
 ---
