@@ -201,13 +201,13 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathBorderBox](../mathborderbox)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply delimiter |
+| element | [MathBorderBox](../mathborderbox) | math element to apply delimiter |
 
  **Returns:**
 [MathDelimiter](../mathdelimiter)
@@ -220,13 +220,13 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathBorderBox](../mathborderbox)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to apply delimiter |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply delimiter |
 
  **Returns:**
 [MathDelimiter](../mathdelimiter)
@@ -334,13 +334,13 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([BaseScript](../basescript)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([MathematicalText](../mathematicaltext)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [BaseScript](../basescript) | math element to apply delimiter |
+| element | [MathematicalText](../mathematicaltext) | math element to apply delimiter |
 
  **Returns:**
 [MathDelimiter](../mathdelimiter)
@@ -353,13 +353,13 @@ MathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| createMathDelimiter ([MathematicalText](../mathematicaltext)) | Create a math delimiter by applying to the element |
+| createMathDelimiter ([BaseScript](../basescript)) | Create a math delimiter by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply delimiter |
+| element | [BaseScript](../basescript) | math element to apply delimiter |
 
  **Returns:**
 [MathDelimiter](../mathdelimiter)

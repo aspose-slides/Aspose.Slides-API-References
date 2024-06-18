@@ -210,14 +210,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -230,14 +230,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -350,14 +350,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -370,14 +370,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -630,14 +630,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -650,14 +650,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -770,14 +770,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -790,14 +790,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathMatrix](../mathmatrix), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1050,14 +1050,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1070,14 +1070,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1190,14 +1190,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1210,14 +1210,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathLimit](../mathlimit), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1470,14 +1470,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBlock](../mathblock) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1490,14 +1490,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBlock](../mathblock) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1610,14 +1610,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBlock](../mathblock) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1630,14 +1630,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathBlock](../mathblock), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBlock](../mathblock) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1890,14 +1890,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathRadical](../mathradical) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1910,14 +1910,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathRadical](../mathradical) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2030,14 +2030,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathRadical](../mathradical) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2050,14 +2050,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathRadical](../mathradical), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathRadical](../mathradical) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2310,14 +2310,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathArray](../matharray) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2330,14 +2330,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathArray](../matharray) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2450,14 +2450,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathArray](../matharray) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2470,14 +2470,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathArray](../matharray), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathArray](../matharray) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2730,14 +2730,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2750,14 +2750,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2870,14 +2870,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2890,14 +2890,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathDelimiter](../mathdelimiter), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -3150,14 +3150,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -3170,14 +3170,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -3290,14 +3290,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -3310,14 +3310,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -3570,14 +3570,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathAccent](../mathaccent) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -3590,14 +3590,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathAccent](../mathaccent) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -3710,14 +3710,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathAccent](../mathaccent) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -3730,14 +3730,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathAccent](../mathaccent), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathAccent](../mathaccent) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -3797,426 +3797,6 @@ MathFunctionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathAccent](../mathaccent) | Element used as a function name |
-| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathMatrix](../mathmatrix) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathLimit](../mathlimit) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathBlock](../mathblock) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathRadical](../mathradical) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathArray](../matharray) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathDelimiter](../mathdelimiter) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../mathnaryoperator) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathAccent](../mathaccent) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathBar](../mathbar) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathFunction](../mathfunction) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathFraction](../mathfraction) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [BaseScript](../basescript)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathBox](../mathbox) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathElementBase](../mathelementbase) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function argument |
 
  **Returns:**
@@ -4410,14 +3990,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -4430,14 +4010,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -4550,14 +4130,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -4570,14 +4150,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathBorderBox](../mathborderbox), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -4637,6 +4217,426 @@ MathFunctionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
+| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathMatrix](../mathmatrix) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathLimit](../mathlimit) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathBlock](../mathblock) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathRadical](../mathradical) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathArray](../matharray) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathDelimiter](../mathdelimiter) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../mathnaryoperator) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathAccent](../mathaccent) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathBar](../mathbar) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathFunction](../mathfunction) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathFraction](../mathfraction) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [BaseScript](../basescript)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathBox](../mathbox) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathElementBase](../mathelementbase) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function argument |
 
  **Returns:**
@@ -4830,14 +4830,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBar](../mathbar) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -4850,14 +4850,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBar](../mathbar) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -4970,14 +4970,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBar](../mathbar) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -4990,14 +4990,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathBar](../mathbar), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBar](../mathbar) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -5250,14 +5250,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -5270,14 +5270,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -5390,14 +5390,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -5410,14 +5410,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathSubscriptElement](../mathsubscriptelement), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -5670,14 +5670,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -5690,14 +5690,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -5810,14 +5810,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -5830,14 +5830,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathSuperscriptElement](../mathsuperscriptelement), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -6090,14 +6090,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -6110,14 +6110,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -6230,14 +6230,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -6250,14 +6250,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathFunction](../mathfunction), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -6510,14 +6510,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathFraction](../mathfraction) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -6530,14 +6530,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathFraction](../mathfraction) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -6650,14 +6650,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathFraction](../mathfraction) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -6670,14 +6670,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathFraction](../mathfraction), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathFraction](../mathfraction) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -6737,426 +6737,6 @@ MathFunctionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathFraction](../mathfraction) | Element used as a function name |
-| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathMatrix](../mathmatrix) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathLimit](../mathlimit)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathLimit](../mathlimit) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathBlock](../mathblock)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathBlock](../mathblock) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathRadical](../mathradical)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathRadical](../mathradical) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathArray](../matharray)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathArray](../matharray) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathDelimiter](../mathdelimiter)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathDelimiter](../mathdelimiter) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../mathnaryoperator) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathAccent](../mathaccent)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathAccent](../mathaccent) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathBorderBox](../mathborderbox)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathBar](../mathbar)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathBar](../mathbar) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathFunction](../mathfunction)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathFunction](../mathfunction) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathFraction](../mathfraction)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathFraction](../mathfraction) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [BaseScript](../basescript)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathBox](../mathbox)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathBox](../mathbox) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathElementBase](../mathelementbase)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
-| baseArgument | [MathElementBase](../mathelementbase) | Element used as a function argument |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### createMathFunction {#createMathFunction}
-
-| Name | Description |
-| --- | --- |
-| createMathFunction ([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [BaseScript](../basescript) | Element used as a function name |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function argument |
 
  **Returns:**
@@ -7350,14 +6930,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -7370,14 +6950,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -7490,14 +7070,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -7510,14 +7090,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathematicalText](../mathematicaltext), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -7577,6 +7157,426 @@ MathFunctionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathMatrix](../mathmatrix) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathLimit](../mathlimit)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathLimit](../mathlimit) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathBlock](../mathblock)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathBlock](../mathblock) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathRadical](../mathradical)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathRadical](../mathradical) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathArray](../matharray)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathArray](../matharray) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathDelimiter](../mathdelimiter)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathDelimiter](../mathdelimiter) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../mathnaryoperator) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathAccent](../mathaccent)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathAccent](../mathaccent) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathBorderBox](../mathborderbox)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathBar](../mathbar)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathBar](../mathbar) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathFunction](../mathfunction)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathFunction](../mathfunction) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathFraction](../mathfraction)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathFraction](../mathfraction) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [BaseScript](../basescript)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathBox](../mathbox)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathBox](../mathbox) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathElementBase](../mathelementbase)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
+| baseArgument | [MathElementBase](../mathelementbase) | Element used as a function argument |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### createMathFunction {#createMathFunction}
+
+| Name | Description |
+| --- | --- |
+| createMathFunction ([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates math function |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [BaseScript](../basescript) | Element used as a function name |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function argument |
 
  **Returns:**
@@ -7770,14 +7770,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBox](../mathbox) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -7790,14 +7790,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBox](../mathbox) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -7910,14 +7910,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBox](../mathbox) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -7930,14 +7930,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathBox](../mathbox), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBox](../mathbox) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -8190,14 +8190,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathElementBase](../mathelementbase), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathElementBase](../mathelementbase), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathElementBase](../mathelementbase) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -8210,14 +8210,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathElementBase](../mathelementbase), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathElementBase](../mathelementbase), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathElementBase](../mathelementbase) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -8330,14 +8330,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathElementBase](../mathelementbase), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathElementBase](../mathelementbase) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -8350,14 +8350,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathElementBase](../mathelementbase), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathElementBase](../mathelementbase) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -8610,14 +8610,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -8630,14 +8630,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -8750,14 +8750,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [BaseScript](../basescript)) | Creates math function |
+| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -8770,14 +8770,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -9030,14 +9030,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
+| createMathFunction (String, [MathBorderBox](../mathborderbox)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | String | Function name |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
+| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -9050,14 +9050,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathBorderBox](../mathborderbox)) | Creates math function |
+| createMathFunction (String, [MathGroupingCharacter](../mathgroupingcharacter)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | String | Function name |
-| baseArgument | [MathBorderBox](../mathborderbox) | Element used as a function argument |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -9170,14 +9170,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [BaseScript](../basescript)) | Creates math function |
+| createMathFunction (String, [MathematicalText](../mathematicaltext)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | String | Function name |
-| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
+| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -9190,14 +9190,14 @@ MathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| createMathFunction (String, [MathematicalText](../mathematicaltext)) | Creates math function |
+| createMathFunction (String, [BaseScript](../basescript)) | Creates math function |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | String | Function name |
-| baseArgument | [MathematicalText](../mathematicaltext) | Element used as a function argument |
+| baseArgument | [BaseScript](../basescript) | Element used as a function argument |
 
  **Returns:**
 [MathFunction](../mathfunction)

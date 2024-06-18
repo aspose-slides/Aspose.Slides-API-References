@@ -67,13 +67,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
+| get_Item ([Connector](../connector)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [GraphicalObject](../graphicalobject) | IShape to remove. |
+| shape | [Connector](../connector) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -86,13 +86,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Connector](../connector)) | Returns all elements |
+| get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Connector](../connector) | IShape to remove. |
+| shape | [GraphicalObject](../graphicalobject) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -257,13 +257,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([VideoFrame](../videoframe)) | Returns all elements |
+| get_Item ([OleObjectFrame](../oleobjectframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [VideoFrame](../videoframe) | IShape to remove. |
+| shape | [OleObjectFrame](../oleobjectframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -276,13 +276,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([OleObjectFrame](../oleobjectframe)) | Returns all elements |
+| get_Item ([VideoFrame](../videoframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../oleobjectframe) | IShape to remove. |
+| shape | [VideoFrame](../videoframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -390,25 +390,6 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([AudioFrame](../audioframe)) | Returns all elements |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [AudioFrame](../audioframe) | IShape to remove. |
-
- **Returns:**
-[TextAnimation](../textanimation)
-
-
----
-
-
-### get_Item {#get_Item}
-
-| Name | Description |
-| --- | --- |
 | get_Item ([Chart](../chart)) | Returns all elements |
 
  **Parameters:**
@@ -428,13 +409,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([ZoomObject](../zoomobject)) | Returns all elements |
+| get_Item ([AudioFrame](../audioframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomObject](../zoomobject) | IShape to remove. |
+| shape | [AudioFrame](../audioframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -454,6 +435,25 @@ Object
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [LegacyDiagram](../legacydiagram) | IShape to remove. |
+
+ **Returns:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([ZoomObject](../zoomobject)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [ZoomObject](../zoomobject) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)

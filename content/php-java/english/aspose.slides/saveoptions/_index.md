@@ -37,6 +37,19 @@ String
 ---
 
 
+### getGradientStyle {#getGradientStyle}
+
+| Name | Description |
+| --- | --- |
+| getGradientStyle () | Gets or sets the gradient style to be used for a gradient. This property allows the selection of predefined gradient styles which can affect the appearance of graphical elements. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getProgressCallback {#getProgressCallback}
 
 | Name | Description |
@@ -68,6 +81,19 @@ IWarningCallback
 | Name | Description |
 | --- | --- |
 | setDefaultRegularFont (String) | Returns or sets font used in case source font is not found. Read-write String. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setGradientStyle {#setGradientStyle}
+
+| Name | Description |
+| --- | --- |
+| setGradientStyle (int) | Gets or sets the gradient style to be used for a gradient. This property allows the selection of predefined gradient styles which can affect the appearance of graphical elements. |
 
  **Returns:**
 void

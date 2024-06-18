@@ -214,13 +214,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math block and place the element in it |
+| createMathBlock ([MathBorderBox](../mathborderbox)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../mathgroupingcharacter) | A math element |
+| mathElement | [MathBorderBox](../mathborderbox) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -233,13 +233,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathBorderBox](../mathborderbox)) | Create a math block and place the element in it |
+| createMathBlock ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathBorderBox](../mathborderbox) | A math element |
+| mathElement | [MathGroupingCharacter](../mathgroupingcharacter) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -347,13 +347,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([BaseScript](../basescript)) | Create a math block and place the element in it |
+| createMathBlock ([MathematicalText](../mathematicaltext)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [BaseScript](../basescript) | A math element |
+| mathElement | [MathematicalText](../mathematicaltext) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -366,13 +366,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathematicalText](../mathematicaltext)) | Create a math block and place the element in it |
+| createMathBlock ([BaseScript](../basescript)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathematicalText](../mathematicaltext) | A math element |
+| mathElement | [BaseScript](../basescript) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)

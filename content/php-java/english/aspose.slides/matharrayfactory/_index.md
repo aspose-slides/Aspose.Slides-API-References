@@ -201,13 +201,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathBorderBox](../mathborderbox)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to place in array |
+| element | [MathBorderBox](../mathborderbox) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -220,13 +220,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathBorderBox](../mathborderbox)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to place in array |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -334,13 +334,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([BaseScript](../basescript)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathematicalText](../mathematicaltext)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [BaseScript](../basescript) | math element to place in array |
+| element | [MathematicalText](../mathematicaltext) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -353,13 +353,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathematicalText](../mathematicaltext)) | Creates a math array and places the specified element in it |
+| createMathArray ([BaseScript](../basescript)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to place in array |
+| element | [BaseScript](../basescript) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)

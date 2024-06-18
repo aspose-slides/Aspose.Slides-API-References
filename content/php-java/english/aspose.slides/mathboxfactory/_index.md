@@ -201,13 +201,13 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math box by applying to the element |
+| createMathBox ([MathBorderBox](../mathborderbox)) | Create a math box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply box |
+| element | [MathBorderBox](../mathborderbox) | math element to apply box |
 
  **Returns:**
 [MathBox](../mathbox)
@@ -220,13 +220,13 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathBorderBox](../mathborderbox)) | Create a math box by applying to the element |
+| createMathBox ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to apply box |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply box |
 
  **Returns:**
 [MathBox](../mathbox)
@@ -334,13 +334,13 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([BaseScript](../basescript)) | Create a math box by applying to the element |
+| createMathBox ([MathematicalText](../mathematicaltext)) | Create a math box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [BaseScript](../basescript) | math element to apply box |
+| element | [MathematicalText](../mathematicaltext) | math element to apply box |
 
  **Returns:**
 [MathBox](../mathbox)
@@ -353,13 +353,13 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathematicalText](../mathematicaltext)) | Create a math box by applying to the element |
+| createMathBox ([BaseScript](../basescript)) | Create a math box by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply box |
+| element | [BaseScript](../basescript) | math element to apply box |
 
  **Returns:**
 [MathBox](../mathbox)
