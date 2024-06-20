@@ -22,6 +22,7 @@ The IPptxOptions type exposes the following members:
 | [`warning_callback`](/slides/python-net/aspose.slides.export/ipptxoptions/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export/ipptxoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/ipptxoptions/default_regular_font/) |  |
+| [`gradient_style`](/slides/python-net/aspose.slides.export/ipptxoptions/gradient_style/) |  |
 
 
 ### See Also

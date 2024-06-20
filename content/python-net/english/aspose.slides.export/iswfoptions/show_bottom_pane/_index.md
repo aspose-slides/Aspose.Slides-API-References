@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/iswfoptions/show_bottom_pane/
-weight: 100
+weight: 110
 ---
 
 

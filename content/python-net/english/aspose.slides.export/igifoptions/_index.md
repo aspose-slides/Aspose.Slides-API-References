@@ -24,6 +24,7 @@ The IGifOptions type exposes the following members:
 | [`warning_callback`](/slides/python-net/aspose.slides.export/igifoptions/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export/igifoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/igifoptions/default_regular_font/) |  |
+| [`gradient_style`](/slides/python-net/aspose.slides.export/igifoptions/gradient_style/) |  |
 
 
 ### See Also

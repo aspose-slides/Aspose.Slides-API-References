@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/presentation/default_text_style/
-weight: 150
+weight: 190
 ---
 
 
