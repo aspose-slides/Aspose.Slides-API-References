@@ -3,7 +3,7 @@ title: IGeometryPath
 second_title: Aspose.Slides for C++ API Reference
 description: Represents geometry path of GeometryShape
 type: docs
-weight: 2211
+weight: 2224
 url: /aspose.slides/igeometrypath/
 ---
 ## IGeometryPath class

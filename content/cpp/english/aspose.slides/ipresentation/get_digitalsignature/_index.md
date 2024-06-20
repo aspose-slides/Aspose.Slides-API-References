@@ -3,7 +3,7 @@ title: get_DigitalSignature()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns digital signature used to sign the presentation at the specified index.
 type: docs
-weight: 573
+weight: 625
 url: /aspose.slides/ipresentation/get_digitalsignature/
 ---
 ## IPresentation::get_DigitalSignature(int32_t) method

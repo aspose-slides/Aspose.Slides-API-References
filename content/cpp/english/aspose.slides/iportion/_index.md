@@ -3,7 +3,7 @@ title: IPortion
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a portion of text inside a text paragraph.
 type: docs
-weight: 3134
+weight: 3147
 url: /aspose.slides/iportion/
 ---
 ## IPortion class

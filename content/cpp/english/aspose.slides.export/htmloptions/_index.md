@@ -28,6 +28,7 @@ class HtmlOptions : public Aspose::Slides::Export::SaveOptions,
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | [System::String](../../system/string/) [get_DefaultRegularFont](../saveoptions/get_defaultregularfont/)() override | Returns font used in case source font is not found. Reads [System::String](../../system/string/). |
 | **bool** [get_DeletePicturesCroppedAreas](./get_deletepicturescroppedareas/)() override | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
+| [Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/) [get_GradientStyle](../saveoptions/get_gradientstyle/)() override | Returns the visual style of the gradient. Read [GradientStyle](../../aspose.slides/gradientstyle/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IHtmlFormatter](../ihtmlformatter/)\> [get_HtmlFormatter](./get_htmlformatter/)() override | Returns HTML template. Read [IHtmlFormatter](../ihtmlformatter/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() override | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
 | **uint8_t** [get_JpegQuality](./get_jpegquality/)() override | Returns a value determining the quality of the JPEG images inside PDF document. Read **uint8_t**. |
@@ -56,8 +57,10 @@ class HtmlOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
+|  [SaveOptions](../saveoptions/saveoptions/)() |  |
 | void [set_DefaultRegularFont](../saveoptions/set_defaultregularfont/)([System::String](../../system/string/)) override | Sets font used in case source font is not found. Writes [System::String](../../system/string/). |
 | void [set_DeletePicturesCroppedAreas](./set_deletepicturescroppedareas/)(**bool**) override | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
+| void [set_GradientStyle](../saveoptions/set_gradientstyle/)([Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/)) override | Sets the visual style of the gradient. Write [GradientStyle](../../aspose.slides/gradientstyle/). |
 | void [set_HtmlFormatter](./set_htmlformatter/)([System::SharedPtr](../../system/sharedptr/)\<[IHtmlFormatter](../ihtmlformatter/)\>) override | Sets HTML template. Write [IHtmlFormatter](../ihtmlformatter/). |
 | void [set_JpegQuality](./set_jpegquality/)(**uint8_t**) override | Sets a value determining the quality of the JPEG images inside PDF document. Write **uint8_t**. |
 | void [set_PicturesCompression](./set_picturescompression/)([Aspose::Slides::Export::PicturesCompression](../picturescompression/)) override | Represents the pictures compression level |

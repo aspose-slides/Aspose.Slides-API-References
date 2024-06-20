@@ -3,7 +3,7 @@ title: PVICachingMode
 second_title: Aspose.Slides for C++ API Reference
 description: Represents different levels of caching for PVI effective objects.
 type: docs
-weight: 5981
+weight: 6033
 url: /aspose.slides/pvicachingmode/
 ---
 ## PVICachingMode enum

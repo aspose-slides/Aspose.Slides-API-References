@@ -3,7 +3,7 @@ title: set_DocumentProperty()
 second_title: Aspose.Slides for C++ API Reference
 description: Set custom property defined by name.
 type: docs
-weight: 560
+weight: 612
 url: /aspose.slides/presentation/set_documentproperty/
 ---
 ## Presentation::set_DocumentProperty(System::String, System::SharedPtr\<System::Object\>) method

@@ -3,7 +3,7 @@ title: IVideo
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a video embedded into a presentation.
 type: docs
-weight: 4005
+weight: 4031
 url: /aspose.slides/ivideo/
 ---
 ## IVideo class

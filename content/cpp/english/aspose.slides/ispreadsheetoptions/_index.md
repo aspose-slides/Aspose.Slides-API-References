@@ -3,7 +3,7 @@ title: ISpreadsheetOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options which can be used to specify additional spreadsheets behavior.
 type: docs
-weight: 3680
+weight: 3693
 url: /aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions class

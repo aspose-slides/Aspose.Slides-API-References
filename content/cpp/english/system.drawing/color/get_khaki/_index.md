@@ -3,7 +3,7 @@ title: get_Khaki()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFF0E68C.
 type: docs
-weight: 1015
+weight: 1041
 url: /system.drawing/color/get_khaki/
 ---
 ## Color::get_Khaki() method

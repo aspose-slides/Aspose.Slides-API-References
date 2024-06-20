@@ -3,7 +3,7 @@ title: ParagraphEventArgs
 second_title: Aspose.Slides for C++ API Reference
 description: Event arguments class for paragraph-related events.
 type: docs
-weight: 4434
+weight: 4460
 url: /aspose.slides/paragrapheventargs/
 ---
 ## ParagraphEventArgs class

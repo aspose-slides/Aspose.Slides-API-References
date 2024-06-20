@@ -3,7 +3,7 @@ title: IStyleColorOwner
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3719
+weight: 3732
 url: /aspose.slides/istylecolorowner/
 ---
 ## IStyleColorOwner class

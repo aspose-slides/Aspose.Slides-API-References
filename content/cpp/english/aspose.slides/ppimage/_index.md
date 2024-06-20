@@ -3,7 +3,7 @@ title: PPImage
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an image in a presentation.
 type: docs
-weight: 4616
+weight: 4642
 url: /aspose.slides/ppimage/
 ---
 ## PPImage class

@@ -34,6 +34,7 @@ class IPdfOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | virtual **bool** [get_DrawSlidesFrame](./get_drawslidesframe/)() | True to draw black frame around each slide. Read **bool**. |
 | virtual **bool** [get_EmbedFullFonts](./get_embedfullfonts/)() | Determines if all characters of font should be embedded or only used subset. Read **bool**. |
 | virtual **bool** [get_EmbedTrueTypeFontsForASCII](./get_embedtruetypefontsforascii/)() | True to embed true type fonts for ASCII characters 32-127. [Fonts](../../aspose.slides/fonts/) for character codes greater than 127 are always embedded. Read **bool**. |
+| virtual [Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/) [get_GradientStyle](../isaveoptions/get_gradientstyle/)() | Returns the visual style of the gradient. Read [GradientStyle](../../aspose.slides/gradientstyle/). |
 | virtual [System::Drawing::Color](../../system.drawing/color/) [get_ImageTransparentColor](./get_imagetransparentcolor/)() | Gets the image transparent color. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
 | virtual **uint8_t** [get_JpegQuality](./get_jpegquality/)() | Returns a value determining the quality of the JPEG images inside PDF document. Read **uint8_t**. |
@@ -71,6 +72,7 @@ class IPdfOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | virtual void [set_DrawSlidesFrame](./set_drawslidesframe/)(**bool**) | True to draw black frame around each slide. Write **bool**. |
 | virtual void [set_EmbedFullFonts](./set_embedfullfonts/)(**bool**) | Determines if all characters of font should be embedded or only used subset. Write **bool**. |
 | virtual void [set_EmbedTrueTypeFontsForASCII](./set_embedtruetypefontsforascii/)(**bool**) | True to embed true type fonts for ASCII characters 32-127. [Fonts](../../aspose.slides/fonts/) for character codes greater than 127 are always embedded. Write **bool**. |
+| virtual void [set_GradientStyle](../isaveoptions/set_gradientstyle/)([Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/)) | Sets the visual style of the gradient. Write [GradientStyle](../../aspose.slides/gradientstyle/). |
 | virtual void [set_ImageTransparentColor](./set_imagetransparentcolor/)([System::Drawing::Color](../../system.drawing/color/)) | Sets the image transparent color. |
 | virtual void [set_JpegQuality](./set_jpegquality/)(**uint8_t**) | Sets a value determining the quality of the JPEG images inside PDF document. Write **uint8_t**. |
 | virtual void [set_Password](./set_password/)([System::String](../../system/string/)) | Setting user password to protect the PDF document. Write [System::String](../../system/string/). |

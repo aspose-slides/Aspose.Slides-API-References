@@ -3,7 +3,7 @@ title: FillType
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the interior fill type of various visual objects.
 type: docs
-weight: 5552
+weight: 5591
 url: /aspose.slides/filltype/
 ---
 ## FillType enum

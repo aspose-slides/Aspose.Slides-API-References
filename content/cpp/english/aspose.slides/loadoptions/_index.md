@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to specify additional options (such as format or default font) when loading a presentation.
 type: docs
-weight: 4187
+weight: 4213
 url: /aspose.slides/loadoptions/
 ---
 ## LoadOptions class

@@ -177,6 +177,8 @@ class Color
 | static [Color](./) [get_YellowGreen](./get_yellowgreen/)() | Returns a color whose ARGB value in hexadecimal notation is #FF9ACD32. |
 | **float** [GetBrightness](./getbrightness/)() | Returns the brightness component of the color reprsented by the current object. |
 | int [GetHashCode](./gethashcode/)() const | Returns the hash code of the current object. |
+| **float** [GetHue](./gethue/)() | Returns the Hue-Saturation-Brightness (HSB) hue value, in degrees, for the color reprsented by the current object. |
+| **float** [GetSaturation](./getsaturation/)() | Returns the Hue-Saturation-Brightness (HSB) saturation for the color reprsented by the current object. |
 | **bool** [IsNull](./isnull/)() const | Always returns false. |
 | **bool** [operator!=](./operator_not_equal/)(const std::nullptr_t\&) const | Always returns true. |
 | **bool** [operator!=](./operator_not_equal/)(const [Color](./)\&) const | Determines if the current and the specified [Color](./) objects represent distinct colors. |

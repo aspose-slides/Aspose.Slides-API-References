@@ -3,7 +3,7 @@ title: GradientShape
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the shape of gradient fill.
 type: docs
-weight: 5617
+weight: 5656
 url: /aspose.slides/gradientshape/
 ---
 ## GradientShape enum

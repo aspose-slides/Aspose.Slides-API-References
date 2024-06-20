@@ -3,7 +3,7 @@ title: get_Snow()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFFFFAFA.
 type: docs
-weight: 1899
+weight: 1925
 url: /system.drawing/color/get_snow/
 ---
 ## Color::get_Snow() method

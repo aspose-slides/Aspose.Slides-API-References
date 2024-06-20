@@ -3,7 +3,7 @@ title: IPictureEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective picture properties.
 type: docs
-weight: 3056
+weight: 3069
 url: /aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData class

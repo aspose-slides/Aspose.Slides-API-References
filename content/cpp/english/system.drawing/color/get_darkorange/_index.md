@@ -3,7 +3,7 @@ title: get_DarkOrange()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFFF8C00.
 type: docs
-weight: 638
+weight: 664
 url: /system.drawing/color/get_darkorange/
 ---
 ## Color::get_DarkOrange() method

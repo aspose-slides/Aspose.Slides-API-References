@@ -3,7 +3,7 @@ title: IImageCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents collection of PPImage.
 type: docs
-weight: 2445
+weight: 2458
 url: /aspose.slides/iimagecollection/
 ---
 ## IImageCollection class

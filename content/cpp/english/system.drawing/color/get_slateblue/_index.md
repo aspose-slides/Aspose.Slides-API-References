@@ -3,7 +3,7 @@ title: get_SlateBlue()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF6A5ACD.
 type: docs
-weight: 1873
+weight: 1899
 url: /system.drawing/color/get_slateblue/
 ---
 ## Color::get_SlateBlue() method

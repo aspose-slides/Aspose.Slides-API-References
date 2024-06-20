@@ -3,7 +3,7 @@ title: IPortionCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of a portions.
 type: docs
-weight: 3147
+weight: 3160
 url: /aspose.slides/iportioncollection/
 ---
 ## IPortionCollection class

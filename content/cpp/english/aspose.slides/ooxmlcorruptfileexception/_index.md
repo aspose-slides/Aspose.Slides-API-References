@@ -3,7 +3,7 @@ title: OOXMLCorruptFileException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 6501
+weight: 6553
 url: /aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException typedef

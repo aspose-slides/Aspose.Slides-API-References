@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: Always returns true.
 type: docs
-weight: 183
+weight: 209
 url: /system.drawing/color/operator_not_equal/
 ---
 ## Color::operator!=(const std::nullptr_t\&) const method

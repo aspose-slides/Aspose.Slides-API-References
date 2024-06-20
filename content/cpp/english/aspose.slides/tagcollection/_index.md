@@ -3,7 +3,7 @@ title: TagCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the collection of tags (user defined pairs of strings)
 type: docs
-weight: 5201
+weight: 5227
 url: /aspose.slides/tagcollection/
 ---
 ## TagCollection class

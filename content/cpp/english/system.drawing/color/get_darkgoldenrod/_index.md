@@ -3,7 +3,7 @@ title: get_DarkGoldenrod()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFB8860B.
 type: docs
-weight: 560
+weight: 586
 url: /system.drawing/color/get_darkgoldenrod/
 ---
 ## Color::get_DarkGoldenrod() method

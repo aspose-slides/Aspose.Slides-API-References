@@ -3,7 +3,7 @@ title: operator==()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 5357
+weight: 5396
 url: /aspose.slides/operator_equal_equal/
 ---
 ## Aspose::Slides::operator==(System::SharedPtr\<FieldType\>, System::SharedPtr\<FieldType\>) function

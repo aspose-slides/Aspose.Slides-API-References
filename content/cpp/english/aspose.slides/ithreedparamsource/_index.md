@@ -3,7 +3,7 @@ title: IThreeDParamSource
 second_title: Aspose.Slides for C++ API Reference
 description: 3D properties source auxiliary interface
 type: docs
-weight: 3992
+weight: 4018
 url: /aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource class

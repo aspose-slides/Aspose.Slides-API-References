@@ -3,7 +3,7 @@ title: ILineParamSource
 second_title: Aspose.Slides for C++ API Reference
 description: Auxiliary line parameters interface.
 type: docs
-weight: 2627
+weight: 2640
 url: /aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource class

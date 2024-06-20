@@ -3,7 +3,7 @@ title: get_DarkSlateGray()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FF2F4F4F.
 type: docs
-weight: 716
+weight: 742
 url: /system.drawing/color/get_darkslategray/
 ---
 ## Color::get_DarkSlateGray() method

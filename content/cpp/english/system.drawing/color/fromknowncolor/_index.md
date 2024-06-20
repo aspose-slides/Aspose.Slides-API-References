@@ -3,7 +3,7 @@ title: FromKnownColor()
 second_title: Aspose.Slides for C++ API Reference
 description: Constructs an instance of Color class that represents the specified known color.
 type: docs
-weight: 235
+weight: 261
 url: /system.drawing/color/fromknowncolor/
 ---
 ## Color::FromKnownColor(KnownColor) method

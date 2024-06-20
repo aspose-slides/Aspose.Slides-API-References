@@ -3,7 +3,7 @@ title: FromName()
 second_title: Aspose.Slides for C++ API Reference
 description: Constructs an instance of Color class that represents a color with the specified name.
 type: docs
-weight: 222
+weight: 248
 url: /system.drawing/color/fromname/
 ---
 ## Color::FromName(const String\&) method

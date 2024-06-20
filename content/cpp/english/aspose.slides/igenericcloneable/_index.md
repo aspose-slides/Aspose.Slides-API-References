@@ -3,7 +3,7 @@ title: IGenericCloneable
 second_title: Aspose.Slides for C++ API Reference
 description: Represents generic version of ICloneable
 type: docs
-weight: 2185
+weight: 2198
 url: /aspose.slides/igenericcloneable/
 ---
 ## IGenericCloneable class

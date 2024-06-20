@@ -3,7 +3,7 @@ title: TextAutofitType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents text autofit mode.
 type: docs
-weight: 6228
+weight: 6280
 url: /aspose.slides/textautofittype/
 ---
 ## TextAutofitType enum

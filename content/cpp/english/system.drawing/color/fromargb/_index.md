@@ -3,7 +3,7 @@ title: FromArgb()
 second_title: Aspose.Slides for C++ API Reference
 description: Constructs an instance of Color class that reprsents the specfied color.
 type: docs
-weight: 209
+weight: 235
 url: /system.drawing/color/fromargb/
 ---
 ## Color::FromArgb(int) method

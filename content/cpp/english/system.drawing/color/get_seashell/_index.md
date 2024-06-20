@@ -3,7 +3,7 @@ title: get_SeaShell()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFFFF5EE.
 type: docs
-weight: 1821
+weight: 1847
 url: /system.drawing/color/get_seashell/
 ---
 ## Color::get_SeaShell() method

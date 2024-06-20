@@ -3,7 +3,7 @@ title: get_LightSteelBlue()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFB0C4DE.
 type: docs
-weight: 1223
+weight: 1249
 url: /system.drawing/color/get_lightsteelblue/
 ---
 ## Color::get_LightSteelBlue() method

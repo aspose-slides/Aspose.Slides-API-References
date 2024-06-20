@@ -28,6 +28,7 @@ class ISwfOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | virtual **bool** [get_Compressed](./get_compressed/)() | Specifies whether the generated SWF document should be compressed or not. Default is **true**. |
 | virtual [System::String](../../system/string/) [get_DefaultRegularFont](../isaveoptions/get_defaultregularfont/)() | Returns font used in case source font is not found. Reads [System::String](../../system/string/). |
 | virtual **bool** [get_EnableContextMenu](./get_enablecontextmenu/)() | Enable/disable context menu. Default is true. |
+| virtual [Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/) [get_GradientStyle](../isaveoptions/get_gradientstyle/)() | Returns the visual style of the gradient. Read [GradientStyle](../../aspose.slides/gradientstyle/). |
 | virtual **int32_t** [get_JpegQuality](./get_jpegquality/)() | Specifies the quality of JPEG images. 
 
  Default is 95. |
@@ -66,6 +67,7 @@ class ISwfOptions : public virtual Aspose::Slides::Export::ISaveOptions
 | virtual void [set_Compressed](./set_compressed/)(**bool**) | Specifies whether the generated SWF document should be compressed or not. Default is **true**. |
 | virtual void [set_DefaultRegularFont](../isaveoptions/set_defaultregularfont/)([System::String](../../system/string/)) | Sets font used in case source font is not found. Writes [System::String](../../system/string/). |
 | virtual void [set_EnableContextMenu](./set_enablecontextmenu/)(**bool**) | Enable/disable context menu. Default is true. |
+| virtual void [set_GradientStyle](../isaveoptions/set_gradientstyle/)([Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/)) | Sets the visual style of the gradient. Write [GradientStyle](../../aspose.slides/gradientstyle/). |
 | virtual void [set_JpegQuality](./set_jpegquality/)(**int32_t**) | Specifies the quality of JPEG images. 
 
  Default is 95. |

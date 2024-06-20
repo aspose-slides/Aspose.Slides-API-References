@@ -29,6 +29,7 @@ class SwfOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [get_Compressed](./get_compressed/)() override | Specifies whether the generated SWF document should be compressed or not. Default is **true**. |
 | [System::String](../../system/string/) [get_DefaultRegularFont](../saveoptions/get_defaultregularfont/)() override | Returns font used in case source font is not found. Reads [System::String](../../system/string/). |
 | **bool** [get_EnableContextMenu](./get_enablecontextmenu/)() override | Enable/disable context menu. Default is true. |
+| [Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/) [get_GradientStyle](../saveoptions/get_gradientstyle/)() override | Returns the visual style of the gradient. Read [GradientStyle](../../aspose.slides/gradientstyle/). |
 | **int32_t** [get_JpegQuality](./get_jpegquality/)() override | Specifies the quality of JPEG images. Default is 95. |
 | [System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\> [get_LogoImageBytes](./get_logoimagebytes/)() override | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
 | [System::String](../../system/string/) [get_LogoLink](./get_logolink/)() override | Gets the full hyperlink address for a logo. Has an effect only if a [set_LogoImageBytes()](./set_logoimagebytes/) is specified. |
@@ -60,9 +61,11 @@ class SwfOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
+|  [SaveOptions](../saveoptions/saveoptions/)() |  |
 | void [set_Compressed](./set_compressed/)(**bool**) override | Specifies whether the generated SWF document should be compressed or not. Default is **true**. |
 | void [set_DefaultRegularFont](../saveoptions/set_defaultregularfont/)([System::String](../../system/string/)) override | Sets font used in case source font is not found. Writes [System::String](../../system/string/). |
 | void [set_EnableContextMenu](./set_enablecontextmenu/)(**bool**) override | Enable/disable context menu. Default is true. |
+| void [set_GradientStyle](../saveoptions/set_gradientstyle/)([Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/)) override | Sets the visual style of the gradient. Write [GradientStyle](../../aspose.slides/gradientstyle/). |
 | void [set_JpegQuality](./set_jpegquality/)(**int32_t**) override | Specifies the quality of JPEG images. Default is 95. |
 | void [set_LogoImageBytes](./set_logoimagebytes/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>) override | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
 | void [set_LogoLink](./set_logolink/)([System::String](../../system/string/)) override | Sets the full hyperlink address for a logo. Has an effect only if a [set_LogoImageBytes()](./set_logoimagebytes/) is specified. |

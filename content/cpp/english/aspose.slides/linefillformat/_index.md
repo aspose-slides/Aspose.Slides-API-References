@@ -3,7 +3,7 @@ title: LineFillFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents properties for lines filling.
 type: docs
-weight: 4161
+weight: 4187
 url: /aspose.slides/linefillformat/
 ---
 ## LineFillFormat class

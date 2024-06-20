@@ -3,7 +3,7 @@ title: get_Ivory()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFFFFFF0.
 type: docs
-weight: 1002
+weight: 1028
 url: /system.drawing/color/get_ivory/
 ---
 ## Color::get_Ivory() method

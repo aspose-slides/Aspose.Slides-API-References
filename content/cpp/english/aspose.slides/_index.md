@@ -169,6 +169,7 @@ url: /aspose.slides/
 | [IFillFormat](./ifillformat/) | Represents a fill formatting options. |
 | [IFillFormatEffectiveData](./ifillformateffectivedata/) | Immutable object which contains effective fill formatting properties. |
 | [IFillParamSource](./ifillparamsource/) | Auxiliary fill parameters interface. |
+| [IFindResultCallback](./ifindresultcallback/) | Callback interface used to getting search text result. |
 | [IFontData](./ifontdata/) | Represents a font definition. |
 | [IFontDataFactory](./ifontdatafactory/) | [FontData](./fontdata/) factory interface |
 | [IFontFallBackRule](./ifontfallbackrule/) | Represents font fallback rule |
@@ -316,6 +317,7 @@ url: /aspose.slides/
 | [ITextFrameFormat](./itextframeformat/) | Contains the [TextFrame](./textframe/)'s formatting properties. |
 | [ITextFrameFormatEffectiveData](./itextframeformateffectivedata/) | Immutable object which contains effective text frame formatting properties. |
 | [ITextHighlightingOptions](./itexthighlightingoptions/) | Represents options which can be used to highlight text in text frame. |
+| [ITextSearchOptions](./itextsearchoptions/) | Represents options that can be used to search for text in a [Presentation](./presentation/), [Slide](./slide/) or [TextFrame](./textframe/). |
 | [ITextStyle](./itextstyle/) | Text style formatting properties. |
 | [ITextStyleEffectiveData](./itextstyleeffectivedata/) | Immutable object which contains effective text style properties. |
 | [IThreeDFormat](./ithreedformat/) | Represents 3-D properties. |
@@ -417,6 +419,7 @@ url: /aspose.slides/
 | [TextFrame](./textframe/) | Represents a [TextFrame](./textframe/). |
 | [TextFrameFormat](./textframeformat/) | Contains the [TextFrame](./textframe/)'s formatTextFrameFormatting properties. |
 | [TextHighlightingOptions](./texthighlightingoptions/) | Represents options which can be used to highlight text in text frame. |
+| [TextSearchOptions](./textsearchoptions/) | Represents options that can be used to search for text in a [Presentation](./presentation/), [Slide](./slide/) or [TextFrame](./textframe/). |
 | [TextStyle](./textstyle/) | This class contains the text style formatting properties. |
 | [ThreeDFormat](./threedformat/) | Represents 3-D properties. |
 | [Video](./video/) | Represents an image embedded into a presentation. |
@@ -456,6 +459,7 @@ url: /aspose.slides/
 | [FontSubstCondition](./fontsubstcondition/) | Represents a rule fot font substitution |
 | [GradientDirection](./gradientdirection/) | Represents the gradient style. |
 | [GradientShape](./gradientshape/) | Represents the shape of gradient fill. |
+| [GradientStyle](./gradientstyle/) | Represents the available gradient styles. |
 | [HyperlinkActionType](./hyperlinkactiontype/) | Represents a type of hyperlink action. |
 | [HyperlinkColorSource](./hyperlinkcolorsource/) | Represents source of hyperlink color. |
 | [LightingDirection](./lightingdirection/) | Constants which define light directions. |

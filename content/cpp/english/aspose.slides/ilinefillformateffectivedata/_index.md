@@ -3,7 +3,7 @@ title: ILineFillFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective line filling properties.
 type: docs
-weight: 2588
+weight: 2601
 url: /aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData class

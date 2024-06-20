@@ -3,7 +3,7 @@ title: ZoomFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Slide Zoom object in a slide.
 type: docs
-weight: 5331
+weight: 5370
 url: /aspose.slides/zoomframe/
 ---
 ## ZoomFrame class

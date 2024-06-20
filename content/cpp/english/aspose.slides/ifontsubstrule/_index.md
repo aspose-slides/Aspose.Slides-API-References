@@ -3,7 +3,7 @@ title: IFontSubstRule
 second_title: Aspose.Slides for C++ API Reference
 description: Represents font subtituition information
 type: docs
-weight: 2146
+weight: 2159
 url: /aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule class

@@ -3,7 +3,7 @@ title: get_Firebrick()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFB22222.
 type: docs
-weight: 807
+weight: 833
 url: /system.drawing/color/get_firebrick/
 ---
 ## Color::get_Firebrick() method

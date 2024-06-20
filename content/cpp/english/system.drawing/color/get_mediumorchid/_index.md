@@ -3,7 +3,7 @@ title: get_MediumOrchid()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a color whose ARGB value in hexadecimal notation is #FFBA55D3.
 type: docs
-weight: 1340
+weight: 1366
 url: /system.drawing/color/get_mediumorchid/
 ---
 ## Color::get_MediumOrchid() method
