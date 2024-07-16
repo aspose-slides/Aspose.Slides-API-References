@@ -3,7 +3,7 @@ title: ForEach.ForEachShapeCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7560
+weight: 7580
 url: /aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
 

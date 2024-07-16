@@ -3,7 +3,7 @@ title: IPictureEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective picture properties.
 type: docs
-weight: 6320
+weight: 6330
 url: /aspose.slides/ipictureeffectivedata/
 ---
 

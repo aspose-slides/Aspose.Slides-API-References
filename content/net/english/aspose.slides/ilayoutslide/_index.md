@@ -3,7 +3,7 @@ title: ILayoutSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a layout slide.
 type: docs
-weight: 5900
+weight: 5910
 url: /aspose.slides/ilayoutslide/
 ---
 
@@ -25,6 +25,7 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Returns HeaderFooter manager of the layout slide. Read-only [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Returns layout type of this layout slide. Read-only [`SlideLayoutType`](../slidelayouttype). |
 | [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Returns or sets the master slide for a layout. Read/write [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Returns the placeholder manager of the layout slide. Read-only [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Methods
 

@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets format of a presentation to load. Read/write LoadFormataspose.slides/loadformat.
 type: docs
-weight: 80
+weight: 90
 url: /aspose.slides/iloadoptions/loadformat/
 ---
 

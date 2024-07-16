@@ -3,7 +3,7 @@ title: FirstRow
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the first row of a table has to be drawn with a special formatting. Read/write Boolean.
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides/table/firstrow/
 ---
 

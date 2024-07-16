@@ -27,7 +27,7 @@ public class XpsOptions : SaveOptions, IXpsOptions
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True to draw black frame around each slide. Read/write Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../saveoptions/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True to convert all metafiles used in a presentation to the PNG images. Read/write Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |

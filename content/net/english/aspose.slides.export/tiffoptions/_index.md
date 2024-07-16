@@ -30,7 +30,7 @@ public class TiffOptions : SaveOptions, ITiffOptions
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | Specifies the horizontal resolution in dots per inch. Read/write UInt32. |
 | [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | Specifies the vertical resolution in dots per inch. Read/write UInt32. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../saveoptions/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write Size. |
 | [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
 | [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Specifies the pixel format for the generated images. Read/write [`ImagePixelFormat`](../imagepixelformat). |

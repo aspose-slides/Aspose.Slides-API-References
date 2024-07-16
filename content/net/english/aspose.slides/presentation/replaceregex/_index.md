@@ -29,7 +29,7 @@ The following code sample shows how to replace text using regular expression wit
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	Regex regex = Regex(@"\b[^\s]{10,}\b");
+	Regex regex = new Regex(@"\b[^\s]{10,}\b");
 	// Replace all words with 10 or more characters with '***'
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);

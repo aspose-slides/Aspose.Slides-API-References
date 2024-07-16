@@ -29,7 +29,7 @@ public class GifOptions : SaveOptions, IGifOptions
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Determines whether hidden slides will be exported. The default value is false. |
 | [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Gets or sets frame size. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../saveoptions/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Gets or sets transition FPS [frames/sec] The default value is 25. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |

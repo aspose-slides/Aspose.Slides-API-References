@@ -3,7 +3,7 @@ title: RectangleAlignment
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines 2-dimension allignment.
 type: docs
-weight: 9270
+weight: 9290
 url: /aspose.slides/rectanglealignment/
 ---
 

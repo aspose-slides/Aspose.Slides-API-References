@@ -3,7 +3,7 @@ title: TransitionCornerAndCenterDirectionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies a direction restricted to the corners and center.
 type: docs
-weight: 9870
+weight: 9890
 url: /aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
 

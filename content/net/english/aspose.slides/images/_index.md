@@ -3,7 +3,7 @@ title: Images
 second_title: Aspose.Sildes for .NET API Reference
 description: Methods to instantiate and work with IImage./iimage.
 type: docs
-weight: 7120
+weight: 7130
 url: /aspose.slides/images/
 ---
 

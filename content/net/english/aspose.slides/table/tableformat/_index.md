@@ -3,7 +3,7 @@ title: TableFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the TableFormat object that contains formatting properties for this table. Read-only ITableFormataspose.slides/itableformat.
 type: docs
-weight: 110
+weight: 120
 url: /aspose.slides/table/tableformat/
 ---
 

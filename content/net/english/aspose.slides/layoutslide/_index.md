@@ -3,7 +3,7 @@ title: LayoutSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a layout slide.
 type: docs
-weight: 7250
+weight: 7270
 url: /aspose.slides/layoutslide/
 ---
 
@@ -28,6 +28,7 @@ public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 | [LayoutType](../../aspose.slides/layoutslide/layouttype) { get; } | Returns layout type of this layout slide. Read-only [`SlideLayoutType`](../slidelayouttype). |
 | [MasterSlide](../../aspose.slides/layoutslide/masterslide) { get; set; } | Returns or sets the master slide for a layout. Read/write [`IMasterSlide`](../imasterslide). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Returns or sets the name of a slide. Read/write String. |
+| [PlaceholderManager](../../aspose.slides/layoutslide/placeholdermanager) { get; } | Returns the placeholder manager of the layout slide. Read-only [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Returns IPresentation interface. Read-only [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Returns the shapes of a slide. Read-only [`IShapeCollection`](../ishapecollection). |
 | override [ShowMasterShapes](../../aspose.slides/layoutslide/showmastershapes) { get; set; } | Specifies if shapes on the master slide should be shown on slides or not. Read/write Boolean. |

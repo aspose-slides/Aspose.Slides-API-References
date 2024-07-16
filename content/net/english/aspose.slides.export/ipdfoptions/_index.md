@@ -29,6 +29,7 @@ public interface IPdfOptions : ISaveOptions
 | [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | Determines if all characters of font should be embedded or only used subset. Read/write Boolean. |
 | [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | True to embed true type fonts for ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Read/write Boolean. |
 | [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | Gets or sets the image transparent color. |
+| [IncludeOleData](../../aspose.slides.export/ipdfoptions/includeoledata) { get; set; } | True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write Boolean. |
 | [InkOptions](../../aspose.slides.export/ipdfoptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | Returns or sets a value determining the quality of the JPEG images inside PDF document. Read/write Byte. |
 | [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | Setting user password to protect the PDF document. Read/write String. |

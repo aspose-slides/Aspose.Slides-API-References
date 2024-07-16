@@ -1,7 +1,7 @@
 ---
 title: GradientStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns or sets the visual style of the gradient. Read/write GradientStyleaspose.slides.export/isaveoptions/gradientstyle.
+description: Returns or sets the visual style of the gradient. Read/write GradientStyleaspose.slides/gradientstyle.
 type: docs
 weight: 20
 url: /aspose.slides.export/isaveoptions/gradientstyle/
@@ -9,7 +9,7 @@ url: /aspose.slides.export/isaveoptions/gradientstyle/
 
 ## ISaveOptions.GradientStyle property
 
-Returns or sets the visual style of the gradient. Read/write `GradientStyle`.
+Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../../aspose.slides/gradientstyle).
 
 ```csharp
 public GradientStyle GradientStyle { get; set; }

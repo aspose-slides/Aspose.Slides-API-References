@@ -20,7 +20,7 @@ public interface ISaveOptions
 | Name | Description |
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](./gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 

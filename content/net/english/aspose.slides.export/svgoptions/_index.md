@@ -35,7 +35,7 @@ public sealed class SVGOptions : SaveOptions, ISVGOptions
 | [DisableGradientSplit](../../aspose.slides.export/svgoptions/disablegradientsplit) { get; set; } | Disables splitting FromCornerX and FromCenter gradients. Read/write Boolean. |
 | [DisableLineEndCropping](../../aspose.slides.export/svgoptions/disablelineendcropping) { get; set; } | SVG 1.1 lacks ability to define insets for markers. Aspose.Slides SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read/write Boolean. |
 | [ExternalFontsHandling](../../aspose.slides.export/svgoptions/externalfontshandling) { get; set; } | Determines a way of handling externally loaded fonts. Read/write [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../saveoptions/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [InkOptions](../../aspose.slides.export/svgoptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. Read-only [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/svgoptions/jpegquality) { get; set; } | Determines JPEG encoding quality. Read/write Int32. |
 | [MetafileRasterizationDpi](../../aspose.slides.export/svgoptions/metafilerasterizationdpi) { get; set; } | Returns or sets the lower resolution limit for metafile rasterization. Read/write Int32. |

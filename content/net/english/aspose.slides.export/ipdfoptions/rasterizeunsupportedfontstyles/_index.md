@@ -3,7 +3,7 @@ title: RasterizeUnsupportedFontStyles
 second_title: Aspose.Sildes for .NET API Reference
 description: Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. This approach can enhance the quality of text in the resulting PDF for certain fonts. Read/write Boolean.
 type: docs
-weight: 140
+weight: 150
 url: /aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles/
 ---
 

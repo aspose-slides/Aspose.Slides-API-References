@@ -3,7 +3,7 @@ title: SlideUtil
 second_title: Aspose.Sildes for .NET API Reference
 description: Offer methods which help to search shapes and text in a presentation.
 type: docs
-weight: 11050
+weight: 11070
 url: /aspose.slides.util/slideutil/
 ---
 

@@ -3,7 +3,7 @@ title: SetTextFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Sets defined portion format properties to all table cells portions.
 type: docs
-weight: 140
+weight: 150
 url: /aspose.slides/table/settextformat/
 ---
 

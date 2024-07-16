@@ -3,7 +3,7 @@ title: ThreeDFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents 3-D properties.
 type: docs
-weight: 11020
+weight: 11040
 url: /aspose.slides/threedformat/
 ---
 

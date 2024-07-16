@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
-weight: 7450
+weight: 7470
 url: /aspose.slides/loadoptions/
 ---
 
@@ -31,6 +31,7 @@ public class LoadOptions : ILoadOptions
 | [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | Returns or sets Regular font used in case source font is not found. Read/write String. |
 | [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | Returns or sets Symbol font used in case source font is not found. Read/write String. |
 | [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | Returns or sets the default language for presentation text. Read/write String. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | Determines if Aspose.Slides will delete all embedded binary objects while presentation loading. |
 | [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
 | [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | The token to monitor for interruption requests.  This token manages the whole [`IPresentation`](../ipresentation) instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the [`Interrupt`](../interruptiontokensource/interrupt) method of the [`InterruptionTokenSource`](../interruptiontokensource). |
 | [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | Returns or sets format of a presentation to load. Read/write [`LoadFormat`](../loadformat). |
