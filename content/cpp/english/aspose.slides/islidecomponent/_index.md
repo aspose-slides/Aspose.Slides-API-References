@@ -3,7 +3,7 @@ title: ISlideComponent
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a component of a slide.
 type: docs
-weight: 3615
+weight: 3628
 url: /aspose.slides/islidecomponent/
 ---
 ## ISlideComponent class

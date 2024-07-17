@@ -3,7 +3,7 @@ title: ITabCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of tabs.
 type: docs
-weight: 3810
+weight: 3823
 url: /aspose.slides/itabcollection/
 ---
 ## ITabCollection class

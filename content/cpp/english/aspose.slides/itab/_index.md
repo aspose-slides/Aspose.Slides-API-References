@@ -3,7 +3,7 @@ title: ITab
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a tabulation for a text.
 type: docs
-weight: 3797
+weight: 3810
 url: /aspose.slides/itab/
 ---
 ## ITab class

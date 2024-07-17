@@ -3,7 +3,7 @@ title: ShapeBevel
 second_title: Aspose.Slides for C++ API Reference
 description: Contains the properties of shape's main face relief.
 type: docs
-weight: 4889
+weight: 4915
 url: /aspose.slides/shapebevel/
 ---
 ## ShapeBevel class

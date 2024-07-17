@@ -3,7 +3,7 @@ title: MasterNotesSlide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents master slide for notes.
 type: docs
-weight: 4265
+weight: 4291
 url: /aspose.slides/masternotesslide/
 ---
 ## MasterNotesSlide class

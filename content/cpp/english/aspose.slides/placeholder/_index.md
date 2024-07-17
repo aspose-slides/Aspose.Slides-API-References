@@ -3,7 +3,7 @@ title: Placeholder
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a placeholder on a slide.
 type: docs
-weight: 4577
+weight: 4603
 url: /aspose.slides/placeholder/
 ---
 ## Placeholder class

@@ -3,7 +3,7 @@ title: ITextHighlightingOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options which can be used to highlight text in text frame.
 type: docs
-weight: 3940
+weight: 3953
 url: /aspose.slides/itexthighlightingoptions/
 ---
 ## ITextHighlightingOptions class

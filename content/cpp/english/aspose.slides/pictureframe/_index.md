@@ -3,7 +3,7 @@ title: PictureFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a frame with a picture inside.
 type: docs
-weight: 4551
+weight: 4577
 url: /aspose.slides/pictureframe/
 ---
 ## PictureFrame class

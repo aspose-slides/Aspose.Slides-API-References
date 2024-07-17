@@ -3,7 +3,7 @@ title: LoadOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates new default load options.
 type: docs
-weight: 339
+weight: 365
 url: /aspose.slides/loadoptions/loadoptions/
 ---
 ## LoadOptions::LoadOptions() constructor

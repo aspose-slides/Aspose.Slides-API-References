@@ -3,7 +3,7 @@ title: ISlide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a slide in a presentation.
 type: docs
-weight: 3589
+weight: 3602
 url: /aspose.slides/islide/
 ---
 ## ISlide class

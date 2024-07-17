@@ -3,7 +3,7 @@ title: TabCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of tabs.
 type: docs
-weight: 5175
+weight: 5201
 url: /aspose.slides/tabcollection/
 ---
 ## TabCollection class

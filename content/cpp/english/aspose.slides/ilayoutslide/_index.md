@@ -3,7 +3,7 @@ title: ILayoutSlide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a layout slide.
 type: docs
-weight: 2497
+weight: 2510
 url: /aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide class
@@ -38,6 +38,7 @@ class ILayoutSlide : public virtual Aspose::Slides::IBaseSlide,
 | virtual [SlideLayoutType](../slidelayouttype/) [get_LayoutType](./get_layouttype/)() | Returns layout type of this layout slide. Read-only [SlideLayoutType](../slidelayouttype/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IMasterSlide](../imasterslide/)\> [get_MasterSlide](./get_masterslide/)() | Returns the master slide for a layout. Read [IMasterSlide](../imasterslide/). |
 | virtual [System::String](../../system/string/) [get_Name](../ibaseslide/get_name/)() | Returns the name of a slide. Read [System::String](../../system/string/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ILayoutPlaceholderManager](../ilayoutplaceholdermanager/)\> [get_PlaceholderManager](./get_placeholdermanager/)() | Returns the placeholder manager of the layout slide. Read-only [ILayoutPlaceholderManager](../ilayoutplaceholdermanager/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPresentation](../ipresentation/)\> [get_Presentation](../ipresentationcomponent/get_presentation/)() | Returns the presentation. Read-only [IPresentation](../ipresentation/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IShape](../ishape/)\> [get_Shape](../ibaseslide/get_shape/)(**int32_t**) | Returns the shape at the specified index. Read-only [Aspose::Slides::IShape](../ishape/) |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IShapeCollection](../ishapecollection/)\> [get_Shapes](../ibaseslide/get_shapes/)() | Returns the shapes of a slide. Read-only [IShapeCollection](../ishapecollection/). |

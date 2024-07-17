@@ -3,7 +3,7 @@ title: LayoutSlide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a layout slide.
 type: docs
-weight: 4109
+weight: 4135
 url: /aspose.slides/layoutslide/
 ---
 ## LayoutSlide class
@@ -38,6 +38,7 @@ class LayoutSlide : public Aspose::Slides::BaseSlide,
 | [SlideLayoutType](../slidelayouttype/) [get_LayoutType](./get_layouttype/)() override | Returns layout type of this layout slide. Read-only [SlideLayoutType](../slidelayouttype/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IMasterSlide](../imasterslide/)\> [get_MasterSlide](./get_masterslide/)() override | Returns the master slide for a layout. Read [IMasterSlide](../imasterslide/). |
 | [System::String](../../system/string/) [get_Name](../baseslide/get_name/)() override | Returns the name of a slide. Read [System::String](../../system/string/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[ILayoutPlaceholderManager](../ilayoutplaceholdermanager/)\> [get_PlaceholderManager](./get_placeholdermanager/)() override | Returns the placeholder manager of the layout slide. Read-only [ILayoutPlaceholderManager](../ilayoutplaceholdermanager/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IPresentation](../ipresentation/)\> [get_Presentation](../baseslide/get_presentation/)() override | Returns [IPresentation](../ipresentation/) interface. Read-only [IPresentation](../ipresentation/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IShape](../ishape/)\> [get_Shape](../baseslide/get_shape/)(**int32_t**) override | Returns the shape at the specified index. Read-only [Aspose::Slides::IShape](../ishape/) |
 | [System::SharedPtr](../../system/sharedptr/)\<[IShapeCollection](../ishapecollection/)\> [get_Shapes](../baseslide/get_shapes/)() override | Returns the shapes of a slide. Read-only [IShapeCollection](../ishapecollection/). |

@@ -3,7 +3,7 @@ title: NormalViewProperties
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region."
 type: docs
-weight: 4343
+weight: 4369
 url: /aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties class

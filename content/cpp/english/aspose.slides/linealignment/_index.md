@@ -3,7 +3,7 @@ title: LineAlignment
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the lines alignment type.
 type: docs
-weight: 5734
+weight: 5760
 url: /aspose.slides/linealignment/
 ---
 ## LineAlignment enum
