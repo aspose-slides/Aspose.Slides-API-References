@@ -30,6 +30,7 @@ The ILoadOptions type exposes the following members:
 | [`resource_loading_callback`](/slides/python-net/aspose.slides/iloadoptions/resource_loading_callback/) | Returns or sets callback interface which manages external resources loading.<br/>            Read/write [`IResourceLoadingCallback`](/slides/python-net/aspose.slides/iresourceloadingcallback). |
 | [`spreadsheet_options`](/slides/python-net/aspose.slides/iloadoptions/spreadsheet_options/) | Represents options which can be used to specify additional spreadsheets behavior. |
 | [`default_text_language`](/slides/python-net/aspose.slides/iloadoptions/default_text_language/) | Returns or sets the default language for presentation text.<br/>             Read/write **str**. |
+| [`delete_embedded_binary_objects`](/slides/python-net/aspose.slides/iloadoptions/delete_embedded_binary_objects/) | Determines if Aspose.Slides will delete all embedded binary objects while presentation loading.<br/>            <br/>The types of the embedded binary objects:<br/><br/>\|<br/>\|<br/>\|<br/>\|<br/>\|<br/><br/><br/>            Read/write **bool**. |
 
 
 ### See Also

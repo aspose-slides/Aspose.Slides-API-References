@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iloadoptions/document_level_font_sources/
-weight: 60
+weight: 70
 ---
 
 

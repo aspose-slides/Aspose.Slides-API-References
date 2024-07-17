@@ -185,6 +185,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`IImageWrapperFactory`](/slides/python-net/aspose.slides/iimagewrapperfactory/) | This interface allows to initialize IBitmapWrapper. |
 | [`IInterruptionToken`](/slides/python-net/aspose.slides/iinterruptiontoken/) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [`IInterruptionTokenSource`](/slides/python-net/aspose.slides/iinterruptiontokensource/) | Represents the source of [`IInterruptionToken`](/slides/python-net/aspose.slides/iinterruptiontoken). |
+| [`ILayoutPlaceholderManager`](/slides/python-net/aspose.slides/ilayoutplaceholdermanager/) | Represents manager that allows you to add placeholders to the layout slide. |
 | [`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide/) | Represents a layout slide. |
 | [`ILayoutSlideCollection`](/slides/python-net/aspose.slides/ilayoutslidecollection/) | Represents a base class for collection of a layout slides. |
 | [`ILayoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/ilayoutslideheaderfootermanager/) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders.<br/>            Child placeholders mean placeholders are contained on depending slides.<br/>            Depending slides use and depend on layout slide. |
@@ -311,6 +312,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`InterruptionToken`](/slides/python-net/aspose.slides/interruptiontoken/) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [`InterruptionTokenSource`](/slides/python-net/aspose.slides/interruptiontokensource/) | Represents the source of [`InterruptionToken`](/slides/python-net/aspose.slides/interruptiontoken). |
 | [`InvalidPasswordException`](/slides/python-net/aspose.slides/invalidpasswordexception/) | Exception which thrown when presentation file format is unsupported. |
+| [`LayoutPlaceholderManager`](/slides/python-net/aspose.slides/layoutplaceholdermanager/) | Represents manager that allows you to add placeholders to the layout slide. |
 | [`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide/) | Represents a layout slide. |
 | [`LayoutSlideCollection`](/slides/python-net/aspose.slides/layoutslidecollection/) | Represents a base class for collection of a layout slides. |
 | [`LayoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/layoutslideheaderfootermanager/) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders.<br/>            Child placeholders mean placeholders are contained on depending slides.<br/>            Depending slides use and depend on layout slide. |
