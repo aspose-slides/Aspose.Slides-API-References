@@ -10,7 +10,7 @@ weight: 70
 
 ## system_image property
 Returns the copy of an image of the System.Drawing.Image type.
-            Read-only [`IPPImage.image`](/slides/python-net/aspose.slides/ippimage#image).
+            Read-only [`IPPImage.image`](/slides/python-net/aspose.slides/ippimage/image).
 
 ### Definition:
 ```python

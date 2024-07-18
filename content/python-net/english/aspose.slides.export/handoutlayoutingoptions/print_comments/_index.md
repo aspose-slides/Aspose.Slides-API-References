@@ -14,7 +14,7 @@ Specifies whether or not to display comments on slides
 
 ### Remarks
 
-Default value is  **false** .
+Default value is **false** .
 
 ### Definition:
 ```python

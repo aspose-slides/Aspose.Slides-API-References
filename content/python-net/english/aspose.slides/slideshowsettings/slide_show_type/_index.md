@@ -9,7 +9,7 @@ weight: 60
 
 
 ## slide_show_type property
-Gets or sets the slide show type. Represented by the following [`SlideShowSettings.slide_show_type`](/slides/python-net/aspose.slides/slideshowsettings#slide_show_type) ancestors: [`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk), [`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker) and [`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual)
+Gets or sets the slide show type. Represented by the following [`SlideShowSettings.slide_show_type`](/slides/python-net/aspose.slides/slideshowsettings/slide_show_type) ancestors: [`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk), [`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker) and [`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual)
 
 ### Definition:
 ```python

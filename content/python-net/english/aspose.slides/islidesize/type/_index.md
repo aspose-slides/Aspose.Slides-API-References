@@ -10,8 +10,8 @@ weight: 40
 
 ## type property
 Returns or sets the type of slide size.
-            Assigning any value except [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype#CUSTOM) will change [`ISlideSize.size`](/slides/python-net/aspose.slides/islidesize#size) accordingly, but will keep [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize#orientation) intact.
-            Read/write [`SlideSizeType`](/slides/python-net/aspose.slides/slidesizetype).
+Assigning any value except [`SlideSizeType.CUSTOM`](/slides/python-net/aspose.slides/slidesizetype/CUSTOM) will change [`ISlideSize.size`](/slides/python-net/aspose.slides/islidesize/size) accordingly, but will keep [`ISlideSize.orientation`](/slides/python-net/aspose.slides/islidesize/orientation) intact.
+Read/write [`SlideSizeType`](/slides/python-net/aspose.slides/slidesizetype).
 
 ### Definition:
 ```python

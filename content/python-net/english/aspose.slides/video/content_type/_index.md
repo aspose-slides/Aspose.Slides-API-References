@@ -9,7 +9,7 @@ weight: 30
 
 
 ## content_type property
-Returns a MIME type of an video, encoded in [`Video.binary_data`](/slides/python-net/aspose.slides/video#binary_data).
+Returns a MIME type of an video, encoded in [`Video.binary_data`](/slides/python-net/aspose.slides/video/binary_data).
             Read-only **str**.
 
 ### Definition:

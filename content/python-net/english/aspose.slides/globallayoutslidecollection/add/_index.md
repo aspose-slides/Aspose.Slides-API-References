@@ -33,10 +33,10 @@ def add(self, master, layout_type, layout_name):
 
 1) Added layout for value SlideLayoutType.Custom of `
 layout_type`
- 
-            contains no placeholders and no shapes.
+
+contains no placeholders and no shapes.
             2) Analogue of this method is method **Aspose.Slides.IMasterLayoutSlideCollection.Add(Aspose.Slides.SlideLayoutType,Syste**
-            accessed with [`IMasterSlide.layout_slides`](/slides/python-net/aspose.slides/imasterslide#layout_slides) property.
+accessed with [`IMasterSlide.layout_slides`](/slides/python-net/aspose.slides/imasterslide/layout_slides) property.
 
 ### Exceptions
 

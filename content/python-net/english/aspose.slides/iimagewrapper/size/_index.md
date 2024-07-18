@@ -10,7 +10,7 @@ weight: 50
 
 ## size property
 Gets the width and height, in pixels, of the Image
-            Read-only [`IImageWrapper.size`](/slides/python-net/aspose.slides/iimagewrapper#size).
+            Read-only [`IImageWrapper.size`](/slides/python-net/aspose.slides/iimagewrapper/size).
 
 ### Definition:
 ```python

@@ -10,7 +10,7 @@ weight: 50
 
 ## image property
 Returns the copy of an image.
-            Read-only [`IPPImage.image`](/slides/python-net/aspose.slides/ippimage#image).
+            Read-only [`IPPImage.image`](/slides/python-net/aspose.slides/ippimage/image).
 
 ### Definition:
 ```python

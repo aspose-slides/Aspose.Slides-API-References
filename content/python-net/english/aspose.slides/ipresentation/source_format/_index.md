@@ -10,7 +10,7 @@ weight: 370
 
 ## source_format property
 Returns information about from which format presentation was loaded.
-            Read-only [`IPresentation.source_format`](/slides/python-net/aspose.slides/ipresentation#source_format).
+            Read-only [`IPresentation.source_format`](/slides/python-net/aspose.slides/ipresentation/source_format).
 
 ### Definition:
 ```python

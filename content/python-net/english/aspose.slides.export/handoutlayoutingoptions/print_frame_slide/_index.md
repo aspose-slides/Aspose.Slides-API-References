@@ -14,7 +14,7 @@ Specifies whether to draw frames around the displayed slides or not.
 
 ### Remarks
 
-Default value is  **true** .
+Default value is **true** .
 
 ### Definition:
 ```python

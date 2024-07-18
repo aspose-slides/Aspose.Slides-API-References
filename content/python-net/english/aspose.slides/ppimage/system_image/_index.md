@@ -10,7 +10,7 @@ weight: 70
 
 ## system_image property
 Returns the copy of an image.
-            Read-only [`PPImage.image`](/slides/python-net/aspose.slides/ppimage#image).
+            Read-only [`PPImage.image`](/slides/python-net/aspose.slides/ppimage/image).
 
 ### Definition:
 ```python

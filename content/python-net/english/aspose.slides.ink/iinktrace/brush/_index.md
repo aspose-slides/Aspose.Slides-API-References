@@ -10,7 +10,7 @@ weight: 10
 
 ## brush property
 Gets Brush for the IInkLine [`IInkBrush`](/slides/python-net/aspose.slides.ink/iinkbrush)
-            Read-only.
+Read-only.
 
 ### Definition:
 ```python

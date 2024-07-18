@@ -10,7 +10,7 @@ weight: 220
 
 ## trendline_type property
 Gets or sets type of trend line. 
-            Read/write [`ITrendline.trendline_type`](/slides/python-net/aspose.slides.charts/itrendline#trendline_type).
+            Read/write [`ITrendline.trendline_type`](/slides/python-net/aspose.slides.charts/itrendline/trendline_type).
 
 ### Definition:
 ```python

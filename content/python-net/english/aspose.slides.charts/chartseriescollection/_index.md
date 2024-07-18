@@ -9,7 +9,7 @@ url: /aspose.slides.charts/chartseriescollection/
 
 ## ChartSeriesCollection class
 
-Represents collection of  [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
+Represents collection of [`ChartSeries`](/slides/python-net/aspose.slides.charts/chartseries)
 
 The ChartSeriesCollection type exposes the following members:
 

@@ -10,7 +10,7 @@ weight: 210
 
 ## spacing property
 Returns or sets the intercharacter spacing increment.
-            **float.NaN**  means value is undefined and should be inherited from the Master.
+**float.NaN**  means value is undefined and should be inherited from the Master.
             Read/write **float**.
 
 ### Definition:

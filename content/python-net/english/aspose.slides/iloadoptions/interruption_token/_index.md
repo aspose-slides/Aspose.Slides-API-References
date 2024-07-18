@@ -10,8 +10,8 @@ weight: 80
 
 ## interruption_token property
 The token to monitor for interruption requests.
-            
-            This token manages the whole [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) instance lifetime. Any long-running operation, such as presentaion 
+
+This token manages the whole [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) instance lifetime. Any long-running operation, such as presentaion 
             loading or saving, will be interrupted via calling of the [`IInterruptionTokenSource.interrupt`](/slides/python-net/aspose.slides/iinterruptiontokensource/interrupt) method of 
             the [`IInterruptionTokenSource`](/slides/python-net/aspose.slides/iinterruptiontokensource).
 

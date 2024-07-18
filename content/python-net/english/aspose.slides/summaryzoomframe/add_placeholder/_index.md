@@ -13,7 +13,7 @@ Adds a new placeholder if there is no and sets placeholder properties to a speci
 
 ### Returns
 
-New [`Shape.placeholder`](/slides/python-net/aspose.slides/shape#placeholder).
+New [`Shape.placeholder`](/slides/python-net/aspose.slides/shape/placeholder).
 
 
 

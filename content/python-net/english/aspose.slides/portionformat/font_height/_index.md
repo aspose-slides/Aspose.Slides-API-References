@@ -10,7 +10,7 @@ weight: 140
 
 ## font_height property
 Returns or sets the font height of a portion.
-            **float.NaN**  means height is undefined and should be inherited from the Master.
+**float.NaN**  means height is undefined and should be inherited from the Master.
             Read/write **float**.
 
 ### Definition:

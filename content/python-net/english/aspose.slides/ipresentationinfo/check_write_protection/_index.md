@@ -29,7 +29,7 @@ def check_write_protection(self, password):
 
 ### Remarks
 
-1. You should check the [`IPresentationInfo.is_write_protected`](/slides/python-net/aspose.slides/ipresentationinfo#is_write_protected) property before calling this method.
+1. You should check the [`IPresentationInfo.is_write_protected`](/slides/python-net/aspose.slides/ipresentationinfo/is_write_protected) property before calling this method.
             2. When password is null or empty, this method returns false.
 
 ### Exceptions

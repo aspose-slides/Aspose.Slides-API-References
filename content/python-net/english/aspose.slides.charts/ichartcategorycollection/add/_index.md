@@ -9,8 +9,8 @@ weight: 10
 
 
 ## add {#ichartdatacell}
-If category exists in collection, return it. Else creates new chart category from 
-            [`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection.
+If category exists in collection, return it. Else creates new chart category from
+[`IChartDataCell`](/slides/python-net/aspose.slides.charts/ichartdatacell) and adds it to the collection.
 
 ### Returns
 

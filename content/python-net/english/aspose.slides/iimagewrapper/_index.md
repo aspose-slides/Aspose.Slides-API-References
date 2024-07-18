@@ -17,9 +17,9 @@ The IImageWrapper type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`image`](/slides/python-net/aspose.slides/iimagewrapper/image/) | Gets the Syste.Drawing.Image<br/>            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper#image). |
-| [`image_source`](/slides/python-net/aspose.slides/iimagewrapper/image_source/) | Gets the image<br/>            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper#image). |
-| [`size`](/slides/python-net/aspose.slides/iimagewrapper/size/) | Gets the width and height, in pixels, of the Image<br/>            Read-only [`IImageWrapper.size`](/slides/python-net/aspose.slides/iimagewrapper#size). |
+| [`image`](/slides/python-net/aspose.slides/iimagewrapper/image/) | Gets the Syste.Drawing.Image<br/>            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper/image). |
+| [`image_source`](/slides/python-net/aspose.slides/iimagewrapper/image_source/) | Gets the image<br/>            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper/image). |
+| [`size`](/slides/python-net/aspose.slides/iimagewrapper/size/) | Gets the width and height, in pixels, of the Image<br/>            Read-only [`IImageWrapper.size`](/slides/python-net/aspose.slides/iimagewrapper/size). |
 
 ## Methods
 

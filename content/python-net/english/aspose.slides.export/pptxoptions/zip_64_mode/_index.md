@@ -10,7 +10,7 @@ weight: 80
 
 ## zip_64_mode property
 Specifies whether the ZIP64 format is used for the Presentation document. 
-            The default value is [`Zip64Mode.IF_NECESSARY`](/slides/python-net/aspose.slides.export/zip64mode#IF_NECESSARY)
+            The default value is [`Zip64Mode.IF_NECESSARY`](/slides/python-net/aspose.slides.export/zip64mode/IF_NECESSARY)
 
 ### Definition:
 ```python

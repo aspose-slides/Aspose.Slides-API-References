@@ -42,7 +42,7 @@ The SwfOptions type exposes the following members:
 | [`start_open_left_pane`](/slides/python-net/aspose.slides.export/swfoptions/start_open_left_pane/) | Start with opened left pane. Can be overridden in flashvars. Default is false. |
 | [`enable_context_menu`](/slides/python-net/aspose.slides.export/swfoptions/enable_context_menu/) | Enable/disable context menu. Default is true. |
 | [`logo_image_bytes`](/slides/python-net/aspose.slides.export/swfoptions/logo_image_bytes/) | Image that will be displayed as logo in the top right corner of the viewer.<br/>            Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
-| [`logo_link`](/slides/python-net/aspose.slides.export/swfoptions/logo_link/) | Gets or sets the full hyperlink address for a logo.<br/>            Has an effect only if a [`SwfOptions.logo_image_bytes`](/slides/python-net/aspose.slides.export/swfoptions#logo_image_bytes) is specified. |
+| [`logo_link`](/slides/python-net/aspose.slides.export/swfoptions/logo_link/) | Gets or sets the full hyperlink address for a logo.<br/>            Has an effect only if a [`SwfOptions.logo_image_bytes`](/slides/python-net/aspose.slides.export/swfoptions/logo_image_bytes) is specified. |
 | [`jpeg_quality`](/slides/python-net/aspose.slides.export/swfoptions/jpeg_quality/) | Specifies the quality of JPEG images.<br/>            Default is 95. |
 | [`notes_comments_layouting`](/slides/python-net/aspose.slides.export/swfoptions/notes_comments_layouting/) | Provides options that control how notes and comments is placed in exported document. |
 

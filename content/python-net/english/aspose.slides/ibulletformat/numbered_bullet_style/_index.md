@@ -10,7 +10,7 @@ weight: 100
 
 ## numbered_bullet_style property
 Returns or sets the style of a numbered bullet with no inheritance.
-            Read/write [`IBulletFormat.numbered_bullet_style`](/slides/python-net/aspose.slides/ibulletformat#numbered_bullet_style).
+            Read/write [`IBulletFormat.numbered_bullet_style`](/slides/python-net/aspose.slides/ibulletformat/numbered_bullet_style).
 
 ### Definition:
 ```python

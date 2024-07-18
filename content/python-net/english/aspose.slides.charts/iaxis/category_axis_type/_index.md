@@ -10,7 +10,7 @@ weight: 160
 
 ## category_axis_type property
 Specifies the type of the category axis.
-            Read/write [`IAxis.category_axis_type`](/slides/python-net/aspose.slides.charts/iaxis#category_axis_type).
+            Read/write [`IAxis.category_axis_type`](/slides/python-net/aspose.slides.charts/iaxis/category_axis_type).
 
 ### Definition:
 ```python

@@ -14,7 +14,7 @@ Specifies how many slides and in what sequence will be placed on the page [`Hand
 
 ### Remarks
 
-Default value is  **HandoutType.Handouts6Horizontal** .
+Default value is **HandoutType.Handouts6Horizontal** .
 
 ### Definition:
 ```python

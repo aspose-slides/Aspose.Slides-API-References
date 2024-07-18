@@ -13,7 +13,7 @@ Returns the notes slide for the current slide, creating one if there isn't.
 
 ### Returns
 
-[`NotesSlideManager.notes_slide`](/slides/python-net/aspose.slides/notesslidemanager#notes_slide) for this slide.
+[`NotesSlideManager.notes_slide`](/slides/python-net/aspose.slides/notesslidemanager/notes_slide) for this slide.
 
 
 

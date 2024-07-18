@@ -15,7 +15,7 @@ Determines whether the shape is grouped.
 
 ### Remarks
 
-Property [`IShape.parent_group`](/slides/python-net/aspose.slides/ishape#parent_group) returns parent GroupShape object if shape is grouped.
+Property [`IShape.parent_group`](/slides/python-net/aspose.slides/ishape/parent_group) returns parent GroupShape object if shape is grouped.
 
 ### Definition:
 ```python

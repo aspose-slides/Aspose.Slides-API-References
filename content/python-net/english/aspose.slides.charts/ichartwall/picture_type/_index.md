@@ -10,7 +10,7 @@ weight: 20
 
 ## picture_type property
 Return or sets the picture type.
-            Read/write [`IChartWall.picture_type`](/slides/python-net/aspose.slides.charts/ichartwall#picture_type).
+            Read/write [`IChartWall.picture_type`](/slides/python-net/aspose.slides.charts/ichartwall/picture_type).
 
 ### Definition:
 ```python

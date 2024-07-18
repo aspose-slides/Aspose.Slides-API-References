@@ -10,7 +10,7 @@ weight: 40
 
 ## image_source property
 Gets the image
-            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper#image).
+            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper/image).
 
 ### Definition:
 ```python

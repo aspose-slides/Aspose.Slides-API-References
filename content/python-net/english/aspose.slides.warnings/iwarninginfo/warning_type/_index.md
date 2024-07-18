@@ -10,7 +10,7 @@ weight: 30
 
 ## warning_type property
 Returns a type of warning.
-            Read-only [`IWarningInfo.warning_type`](/slides/python-net/aspose.slides.warnings/iwarninginfo#warning_type).
+            Read-only [`IWarningInfo.warning_type`](/slides/python-net/aspose.slides.warnings/iwarninginfo/warning_type).
 
 ### Definition:
 ```python

@@ -17,7 +17,7 @@ The InterruptionToken type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`none`](/slides/python-net/aspose.slides/interruptiontoken/none/) | Represents an empty interruption token.<br/>            Long-running operations will never be interrupted via [`InterruptionTokenSource.interrupt`](/slides/python-net/aspose.slides/interruptiontokensource/interrupt)<br/>            when using this token. |
+| [`none`](/slides/python-net/aspose.slides/interruptiontoken/none/) | Represents an empty interruption token.<br/>Long-running operations will never be interrupted via [`InterruptionTokenSource.interrupt`](/slides/python-net/aspose.slides/interruptiontokensource/interrupt)<br/>when using this token. |
 | [`is_interruption_requested`](/slides/python-net/aspose.slides/interruptiontoken/is_interruption_requested/) | Returns **bool**.true if interruption was requested. |
 
 ## Methods

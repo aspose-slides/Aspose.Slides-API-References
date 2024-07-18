@@ -10,7 +10,7 @@ weight: 30
 
 ## get_base_placeholder {#}
 Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).
-            A null is returned if the current shape is not inherited.
+A null is returned if the current shape is not inherited.
 
 
 ```python

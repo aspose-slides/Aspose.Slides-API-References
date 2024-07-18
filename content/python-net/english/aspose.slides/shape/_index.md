@@ -38,8 +38,8 @@ The Shape type exposes the following members:
 | [`width`](/slides/python-net/aspose.slides/shape/width/) | Returns or sets the width of the shape.<br/>            Read/write **float**. |
 | [`height`](/slides/python-net/aspose.slides/shape/height/) | Returns or sets the height of the shape.<br/>            Read/write **float**. |
 | [`black_white_mode`](/slides/python-net/aspose.slides/shape/black_white_mode/) | Property specifies how a shape will render in black-and-white display mode..<br/>            Read/write [`BlackWhiteMode`](/slides/python-net/aspose.slides/blackwhitemode). |
-| [`unique_id`](/slides/python-net/aspose.slides/shape/unique_id/) | Gets unique shape identifier in presentation scope.<br/>            Read-only **int**.<br/>            See also [`Shape.office_interop_shape_id`](/slides/python-net/aspose.slides/shape#office_interop_shape_id) for getting unique shape identifier in slide scope. |
-| [`office_interop_shape_id`](/slides/python-net/aspose.slides/shape/office_interop_shape_id/) | Gets unique shape identifier in slide scope.<br/>            Read-only **int**.<br/>            See also [`Shape.unique_id`](/slides/python-net/aspose.slides/shape#unique_id) for getting unique shape identifier in presentation scope. |
+| [`unique_id`](/slides/python-net/aspose.slides/shape/unique_id/) | Gets unique shape identifier in presentation scope.<br/>            Read-only **int**.<br/>            See also [`Shape.office_interop_shape_id`](/slides/python-net/aspose.slides/shape/office_interop_shape_id) for getting unique shape identifier in slide scope. |
+| [`office_interop_shape_id`](/slides/python-net/aspose.slides/shape/office_interop_shape_id/) | Gets unique shape identifier in slide scope.<br/>            Read-only **int**.<br/>            See also [`Shape.unique_id`](/slides/python-net/aspose.slides/shape/unique_id) for getting unique shape identifier in presentation scope. |
 | [`alternative_text`](/slides/python-net/aspose.slides/shape/alternative_text/) | Returns or sets the alternative text associated with a shape.<br/>            Read/write **str**. |
 | [`alternative_text_title`](/slides/python-net/aspose.slides/shape/alternative_text_title/) | Returns or sets the title of alternative text associated with a shape.<br/>            Read/write **str**. |
 | [`name`](/slides/python-net/aspose.slides/shape/name/) | Returns or sets the name of a shape.<br/>            Must be not null. Use empty string value if needed.<br/>            Read/write **str**. |
@@ -62,7 +62,7 @@ The Shape type exposes the following members:
 | [`write_as_svg`](/slides/python-net/aspose.slides/shape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/shape/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`add_placeholder`](/slides/python-net/aspose.slides/shape/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
-| [`get_base_placeholder`](/slides/python-net/aspose.slides/shape/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
+| [`get_base_placeholder`](/slides/python-net/aspose.slides/shape/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>A null is returned if the current shape is not inherited. |
 
 
 ### See Also

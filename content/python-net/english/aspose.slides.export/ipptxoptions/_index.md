@@ -17,8 +17,8 @@ The IPptxOptions type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`conformance`](/slides/python-net/aspose.slides.export/ipptxoptions/conformance/) | Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is [`Conformance.ECMA_376_2006`](/slides/python-net/aspose.slides.export/conformance#ECMA_376_2006) |
-| [`zip_64_mode`](/slides/python-net/aspose.slides.export/ipptxoptions/zip_64_mode/) | Specifies whether the ZIP64 format is used for the Presentation document. <br/>            The default value is [`Zip64Mode.IF_NECESSARY`](/slides/python-net/aspose.slides.export/zip64mode#IF_NECESSARY) |
+| [`conformance`](/slides/python-net/aspose.slides.export/ipptxoptions/conformance/) | Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is [`Conformance.ECMA_376_2006`](/slides/python-net/aspose.slides.export/conformance/ECMA_376_2006) |
+| [`zip_64_mode`](/slides/python-net/aspose.slides.export/ipptxoptions/zip_64_mode/) | Specifies whether the ZIP64 format is used for the Presentation document. <br/>            The default value is [`Zip64Mode.IF_NECESSARY`](/slides/python-net/aspose.slides.export/zip64mode/IF_NECESSARY) |
 | [`warning_callback`](/slides/python-net/aspose.slides.export/ipptxoptions/warning_callback/) |  |
 | [`progress_callback`](/slides/python-net/aspose.slides.export/ipptxoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/ipptxoptions/default_regular_font/) |  |

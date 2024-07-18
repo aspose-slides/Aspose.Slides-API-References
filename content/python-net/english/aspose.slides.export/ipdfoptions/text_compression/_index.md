@@ -15,7 +15,7 @@ Specifies compression type to be used for all textual content in the document.
 
 ### Remarks
 
-Default is [`PdfTextCompression.FLATE`](/slides/python-net/aspose.slides.export/pdftextcompression#FLATE).
+Default is [`PdfTextCompression.FLATE`](/slides/python-net/aspose.slides.export/pdftextcompression/FLATE).
 
 ### Definition:
 ```python
