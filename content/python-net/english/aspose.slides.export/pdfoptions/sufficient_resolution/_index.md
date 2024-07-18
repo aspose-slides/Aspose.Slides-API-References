@@ -10,14 +10,14 @@ weight: 240
 
 ## sufficient_resolution property
 Returns or sets a value determining resolution of images inside PDF document.
-
+            
 Property affects on file size, time of export and image quality.
 
 
 The default value is **96** .
 
 
-Read/write **float**.
+            Read/write **float**.
 
 ### Definition:
 ```python

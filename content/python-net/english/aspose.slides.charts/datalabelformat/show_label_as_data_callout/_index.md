@@ -10,8 +10,8 @@ weight: 140
 
 ## show_label_as_data_callout property
 Determines either specified chart's data label will be displayed as data callout or as data label.
-
-If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this
+            
+            If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this
             property gets or sets the default value of the ShowLabelAsDataCallout property for the new data 
             labels in the DataLabelCollection collection.
             Set this property with value also sets this value to the ShowLabelAsDataCallout property 

@@ -9,7 +9,7 @@ url: /aspose.slides.charts/ichartseriesreadonlycollection/
 
 ## IChartSeriesReadonlyCollection class
 
-Represents a readonly collection of [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
+Represents a readonly collection of  [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 
 The IChartSeriesReadonlyCollection type exposes the following members:
 

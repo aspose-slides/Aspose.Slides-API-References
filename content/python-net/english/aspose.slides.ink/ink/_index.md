@@ -66,7 +66,7 @@ The Ink type exposes the following members:
 | [`write_as_svg`](/slides/python-net/aspose.slides.ink/ink/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides.ink/ink/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`add_placeholder`](/slides/python-net/aspose.slides.ink/ink/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
-| [`get_base_placeholder`](/slides/python-net/aspose.slides.ink/ink/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>A null is returned if the current shape is not inherited. |
+| [`get_base_placeholder`](/slides/python-net/aspose.slides.ink/ink/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A null is returned if the current shape is not inherited. |
 
 
 ### See Also

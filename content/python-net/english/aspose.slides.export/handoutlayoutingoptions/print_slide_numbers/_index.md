@@ -14,7 +14,7 @@ Specifies whether or not to print the displayed slide numbers.
 
 ### Remarks
 
-Default value is **true** .
+Default value is  **true** .
 
 ### Definition:
 ```python

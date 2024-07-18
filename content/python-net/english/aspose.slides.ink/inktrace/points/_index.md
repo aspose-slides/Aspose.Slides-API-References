@@ -10,7 +10,7 @@ weight: 20
 
 ## points property
 Gets points for the IInkLine **aspose.pydrawing.PointF**
-Read-only.
+            Read-only.
 
 ### Definition:
 ```python

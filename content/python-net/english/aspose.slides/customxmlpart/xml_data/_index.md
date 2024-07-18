@@ -11,7 +11,7 @@ weight: 50
 ## xml_data property
 Returns or sets xml data.
             Read/write **int**[].
-value is `null`.value is empty or xml-data is invalid.
+            value is `null`.value is empty or xml-data is invalid.
 
 ### Definition:
 ```python

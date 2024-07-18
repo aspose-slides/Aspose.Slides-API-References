@@ -18,7 +18,7 @@ The IVideo type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`content_type`](/slides/python-net/aspose.slides/ivideo/content_type/) | Returns a MIME type of an video, encoded in [`IVideo.binary_data`](/slides/python-net/aspose.slides/ivideo/binary_data).<br/>            Read-only **str**. |
-| [`binary_data`](/slides/python-net/aspose.slides/ivideo/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider using of<br/>[`IVideo.get_stream`](/slides/python-net/aspose.slides/ivideo/get_stream) method to prevent unnecessary loading of video's data into memory <br/>            or even OutOfMemoryException.<br/>            Read-only **int**[]. |
+| [`binary_data`](/slides/python-net/aspose.slides/ivideo/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider using of <br/>            [`IVideo.get_stream`](/slides/python-net/aspose.slides/ivideo/get_stream) method to prevent unnecessary loading of video's data into memory <br/>            or even OutOfMemoryException.<br/>            Read-only **int**[]. |
 
 ## Methods
 

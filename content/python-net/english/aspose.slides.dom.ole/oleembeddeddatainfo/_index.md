@@ -18,7 +18,7 @@ The OleEmbeddedDataInfo type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [`__init__`](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/__init__/#) | Creates new embedded data info for OLE object. |
-| [`__init__`](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/__init__/#bytes-str) | Creates a new instance of an embedded data info for OLE object.<br/>File data of an embedded OLE object **int**[].File extension for the current embedded OLE object **str**. |
+| [`__init__`](/slides/python-net/aspose.slides.dom.ole/oleembeddeddatainfo/__init__/#bytes-str) | Creates a new instance of an embedded data info for OLE object.<br/>            File data of an embedded OLE object **int**[].File extension for the current embedded OLE object **str**. |
 
 ## Properties
 

@@ -9,7 +9,7 @@ url: /aspose.slides.charts/ichartseriescollection/
 
 ## IChartSeriesCollection class
 
-Represents collection of [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
+Represents collection of  [`IChartSeries`](/slides/python-net/aspose.slides.charts/ichartseries)
 
 The IChartSeriesCollection type exposes the following members:
 

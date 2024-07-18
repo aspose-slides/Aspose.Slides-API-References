@@ -35,7 +35,7 @@ def add_field(self, internal_string):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| internal_string | **str** | Internal name of FieldTypeEx **str** |
+| internal_string | **str** | Internal name of FieldTypeEx  **str** |
 
 
 

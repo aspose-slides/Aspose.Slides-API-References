@@ -10,8 +10,8 @@ weight: 30
 
 ## none property
 Represents an empty interruption token.
-Long-running operations will never be interrupted via [`InterruptionTokenSource.interrupt`](/slides/python-net/aspose.slides/interruptiontokensource/interrupt)
-when using this token.
+            Long-running operations will never be interrupted via [`InterruptionTokenSource.interrupt`](/slides/python-net/aspose.slides/interruptiontokensource/interrupt)
+            when using this token.
 
 ### Definition:
 ```python

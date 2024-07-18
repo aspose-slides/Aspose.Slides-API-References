@@ -33,8 +33,8 @@ def insert(self, index, layout_type, layout_name):
 
 Inserted layout for value SlideLayoutType.Custom of `
 layout_type`
-
-contains no placeholders and no shapes.
+ 
+            contains no placeholders and no shapes.
 
 ### Exceptions
 
