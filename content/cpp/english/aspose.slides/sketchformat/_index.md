@@ -3,7 +3,7 @@ title: SketchFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents properties for lines sketch format.
 type: docs
-weight: 4954
+weight: 4980
 url: /aspose.slides/sketchformat/
 ---
 ## SketchFormat class

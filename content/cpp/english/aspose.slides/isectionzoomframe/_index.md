@@ -3,7 +3,7 @@ title: ISectionZoomFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Section Zoom object in a slide.
 type: docs
-weight: 3459
+weight: 3472
 url: /aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame class

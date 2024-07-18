@@ -3,7 +3,7 @@ title: IRow
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a row in a table.
 type: docs
-weight: 3368
+weight: 3381
 url: /aspose.slides/irow/
 ---
 ## IRow class

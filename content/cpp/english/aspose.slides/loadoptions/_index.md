@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to specify additional options (such as format or default font) when loading a presentation.
 type: docs
-weight: 4213
+weight: 4239
 url: /aspose.slides/loadoptions/
 ---
 ## LoadOptions class
@@ -30,6 +30,7 @@ class LoadOptions : public Aspose::Slides::ILoadOptions
 | [System::String](../../system/string/) [get_DefaultRegularFont](./get_defaultregularfont/)() override | Returns Regular font used in case source font is not found. Read [System::String](../../system/string/). |
 | [System::String](../../system/string/) [get_DefaultSymbolFont](./get_defaultsymbolfont/)() override | Returns Symbol font used in case source font is not found. Read [System::String](../../system/string/). |
 | [System::String](../../system/string/) [get_DefaultTextLanguage](./get_defaulttextlanguage/)() override | Returns the default language for presentation text. Read [System::String](../../system/string/). |
+| **bool** [get_DeleteEmbeddedBinaryObjects](./get_deleteembeddedbinaryobjects/)() override | Determines if [Aspose.Slides](../) will delete all embedded binary objects while presentation loading. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IFontSources](../ifontsources/)\> [get_DocumentLevelFontSources](./get_documentlevelfontsources/)() override | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
 | [System::SharedPtr](../../system/sharedptr/)\<[IInterruptionToken](../iinterruptiontoken/)\> [get_InterruptionToken](./get_interruptiontoken/)() override | The token to monitor for interruption requests. |
 | [Aspose::Slides::LoadFormat](../loadformat/) [get_LoadFormat](./get_loadformat/)() override | Returns format of a presentation to load. Read [Slides::LoadFormat](../loadformat/). |
@@ -60,6 +61,7 @@ class LoadOptions : public Aspose::Slides::ILoadOptions
 | void [set_DefaultRegularFont](./set_defaultregularfont/)([System::String](../../system/string/)) override | Sets Regular font used in case source font is not found. Write [System::String](../../system/string/). |
 | void [set_DefaultSymbolFont](./set_defaultsymbolfont/)([System::String](../../system/string/)) override | Sets Symbol font used in case source font is not found. Write [System::String](../../system/string/). |
 | void [set_DefaultTextLanguage](./set_defaulttextlanguage/)([System::String](../../system/string/)) override | Sets the default language for presentation text. Write [System::String](../../system/string/). |
+| void [set_DeleteEmbeddedBinaryObjects](./set_deleteembeddedbinaryobjects/)(**bool**) override | Determines if [Aspose.Slides](../) will delete all embedded binary objects while presentation loading. |
 | void [set_DocumentLevelFontSources](./set_documentlevelfontsources/)([System::SharedPtr](../../system/sharedptr/)\<[IFontSources](../ifontsources/)\>) override | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
 | void [set_InterruptionToken](./set_interruptiontoken/)([System::SharedPtr](../../system/sharedptr/)\<[IInterruptionToken](../iinterruptiontoken/)\>) override | The token to monitor for interruption requests. |
 | void [set_LoadFormat](./set_loadformat/)([Aspose::Slides::LoadFormat](../loadformat/)) override | Sets format of a presentation to load. Write [Slides::LoadFormat](../loadformat/). |

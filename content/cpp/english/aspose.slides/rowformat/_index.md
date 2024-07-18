@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents format of a table row.
 type: docs
-weight: 4811
+weight: 4837
 url: /aspose.slides/rowformat/
 ---
 ## RowFormat class

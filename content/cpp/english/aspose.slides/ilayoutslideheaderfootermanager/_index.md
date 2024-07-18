@@ -3,7 +3,7 @@ title: ILayoutSlideHeaderFooterManager
 second_title: Aspose.Slides for C++ API Reference
 description: Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.
 type: docs
-weight: 2523
+weight: 2536
 url: /aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager class

@@ -3,7 +3,7 @@ title: BulletType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the type of the extended bullets.
 type: docs
-weight: 5487
+weight: 5513
 url: /aspose.slides/bullettype/
 ---
 ## BulletType enum

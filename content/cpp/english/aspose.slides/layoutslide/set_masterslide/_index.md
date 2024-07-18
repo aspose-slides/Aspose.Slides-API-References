@@ -3,7 +3,7 @@ title: set_MasterSlide()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets the master slide for a layout. Write IMasterSlide.
 type: docs
-weight: 27
+weight: 40
 url: /aspose.slides/layoutslide/set_masterslide/
 ---
 ## LayoutSlide::set_MasterSlide(System::SharedPtr\<IMasterSlide\>) method

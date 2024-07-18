@@ -3,7 +3,7 @@ title: IRowFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents format of a table row.
 type: docs
-weight: 3394
+weight: 3407
 url: /aspose.slides/irowformat/
 ---
 ## IRowFormat class

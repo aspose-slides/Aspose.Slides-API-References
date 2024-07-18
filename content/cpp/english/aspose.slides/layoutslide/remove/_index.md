@@ -3,7 +3,7 @@ title: Remove()
 second_title: Aspose.Slides for C++ API Reference
 description: Removes layout from presentation.
 type: docs
-weight: 105
+weight: 118
 url: /aspose.slides/layoutslide/remove/
 ---
 ## LayoutSlide::Remove() method

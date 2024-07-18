@@ -3,7 +3,7 @@ title: get_HasDependingSlides()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns true if there exists at least one slide that depends on this layout slide. Read-only bool.
 type: docs
-weight: 53
+weight: 66
 url: /aspose.slides/ilayoutslide/get_hasdependingslides/
 ---
 ## ILayoutSlide::get_HasDependingSlides() method

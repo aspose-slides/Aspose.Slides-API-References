@@ -3,7 +3,7 @@ title: ISectionCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of sections.
 type: docs
-weight: 3433
+weight: 3446
 url: /aspose.slides/isectioncollection/
 ---
 ## ISectionCollection class

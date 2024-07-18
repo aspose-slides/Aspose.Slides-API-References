@@ -34,7 +34,7 @@ class PathGradientBrush : public System::Drawing::Brush
 | [SharedPtr](../../system/sharedptr/)\<[ColorBlend](../colorblend/)\> [get_InterpolationColors](./get_interpolationcolors/)() const | Returns a value the defines a multicolor linear gradient. |
 | [RectangleF](../../system.drawing/rectanglef/) [get_Rectangle](./get_rectangle/)() | NOT IMPLEMENTED. |
 | [ArrayPtr](../../system/arrayptr/)\<[Color](../../system.drawing/color/)\> [get_SurroundColors](./get_surroundcolors/)() const | Returns colors that correspond to the points in the path this [PathGradientBrush](./) fills. |
-| [SharedPtr](../../system/sharedptr/)\<[Matrix](../matrix/)\> [get_Transform](./get_transform/)() const | Returns a copy of a [Matrix](../matrix/) object that specifies the geometrical transformations for the brush represneted by the current object. |
+| [SharedPtr](../../system/sharedptr/)\<[Matrix](../matrix/)\> [get_Transform](./get_transform/)() const | Returns a copy of a [Matrix](../matrix/) object that specifies the geometrical transformations for the brush represented by the current object. |
 | [WrapMode](../wrapmode/) [get_WrapMode](./get_wrapmode/)() const | Returns the wrap mode. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
@@ -64,7 +64,7 @@ class PathGradientBrush : public System::Drawing::Brush
 | void [set_FocusScales](./set_focusscales/)(const [PointF](../../system.drawing/pointf/)\&) | Sets the focus point for the gradient falloff. |
 | void [set_InterpolationColors](./set_interpolationcolors/)(const [SharedPtr](../../system/sharedptr/)\<[ColorBlend](../colorblend/)\>\&) | Sets a value the defines a multicolor linear gradient. |
 | void [set_SurroundColors](./set_surroundcolors/)(const [ArrayPtr](../../system/arrayptr/)\<[Color](../../system.drawing/color/)\>\&) | Sets colors that correspond to the points in the path this [PathGradientBrush](./) fills. |
-| void [set_Transform](./set_transform/)(const [SharedPtr](../../system/sharedptr/)\<[Matrix](../matrix/)\>\&) | Sets a [Matrix](../matrix/) object that specifies the geometrical transformations for the brush represneted by the current object. |
+| void [set_Transform](./set_transform/)(const [SharedPtr](../../system/sharedptr/)\<[Matrix](../matrix/)\>\&) | Sets a [Matrix](../matrix/) object that specifies the geometrical transformations for the brush represented by the current object. |
 | void [set_WrapMode](./set_wrapmode/)([WrapMode](../wrapmode/)) | Sets the wrap mode. |
 | void [SetBlendTriangularShape](./setblendtriangularshape/)(**float**, **float**) | NOT IMPLEMENTED. |
 | void [SetSigmaBellShape](./setsigmabellshape/)(**float**, **float**) | NOT IMPLEMENTED. |

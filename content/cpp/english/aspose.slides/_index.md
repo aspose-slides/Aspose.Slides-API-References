@@ -205,6 +205,7 @@ url: /aspose.slides/
 | [IImageCollection](./iimagecollection/) | Represents collection of [PPImage](./ppimage/). |
 | [IInterruptionToken](./iinterruptiontoken/) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [IInterruptionTokenSource](./iinterruptiontokensource/) | Represents the source of [IInterruptionToken](./iinterruptiontoken/). |
+| [ILayoutPlaceholderManager](./ilayoutplaceholdermanager/) | Represents manager that allows you to add placeholders to the layout slide. |
 | [ILayoutSlide](./ilayoutslide/) | Represents a layout slide. |
 | [ILayoutSlideCollection](./ilayoutslidecollection/) | Represents a base class for collection of a layout slides. |
 | [ILayoutSlideHeaderFooterManager](./ilayoutslideheaderfootermanager/) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
@@ -329,6 +330,7 @@ url: /aspose.slides/
 | [IViewProperties](./iviewproperties/) | [Presentation](./presentation/) wide view properties. |
 | [IZoomFrame](./izoomframe/) | Represents a [Slide](./slide/) Zoom object in a slide. |
 | [IZoomObject](./izoomobject/) | Represents a Zoom object in a slide. |
+| [LayoutPlaceholderManager](./layoutplaceholdermanager/) | Represents manager that allows you to add placeholders to the layout slide. |
 | [LayoutSlide](./layoutslide/) | Represents a layout slide. |
 | [LayoutSlideCollection](./layoutslidecollection/) | Represents a base class for collection of a layout slides. |
 | [LayoutSlideHeaderFooterManager](./layoutslideheaderfootermanager/) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |

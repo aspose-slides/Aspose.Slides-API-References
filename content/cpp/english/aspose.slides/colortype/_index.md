@@ -3,7 +3,7 @@ title: ColorType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents different color modes.
 type: docs
-weight: 5552
+weight: 5578
 url: /aspose.slides/colortype/
 ---
 ## ColorType enum
