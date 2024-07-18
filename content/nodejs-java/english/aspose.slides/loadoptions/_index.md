@@ -108,6 +108,19 @@ String
 ---
 
 
+### getDeleteEmbeddedBinaryObjects {#getDeleteEmbeddedBinaryObjects}
+
+| Name | Description |
+| --- | --- |
+| getDeleteEmbeddedBinaryObjects () | Determines if Aspose.Slides will delete all embedded binary objects while presentation loading. The types of the embedded binary objects: Read/write boolean. Default is false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getDocumentLevelFontSources {#getDocumentLevelFontSources}
 
 | Name | Description |
@@ -257,6 +270,16 @@ IWarningCallback
 | Name | Description |
 | --- | --- |
 | setDefaultTextLanguage (String) | Returns or sets the default language for presentation text. Read/write String. |
+
+
+---
+
+
+### setDeleteEmbeddedBinaryObjects {#setDeleteEmbeddedBinaryObjects}
+
+| Name | Description |
+| --- | --- |
+| setDeleteEmbeddedBinaryObjects (boolean) | Determines if Aspose.Slides will delete all embedded binary objects while presentation loading. The types of the embedded binary objects: Read/write boolean. Default is false. |
 
 
 ---

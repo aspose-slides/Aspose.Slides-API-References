@@ -141,6 +141,19 @@ Color
 ---
 
 
+### getIncludeOleData {#getIncludeOleData}
+
+| Name | Description |
+| --- | --- |
+| getIncludeOleData () | True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write boolean. Default is false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getInkOptions {#getInkOptions}
 
 | Name | Description |
@@ -356,6 +369,16 @@ int
 | Name | Description |
 | --- | --- |
 | setImageTransparentColor (Color) | Gets or sets the image transparent color. Value: The color of the image transparent. |
+
+
+---
+
+
+### setIncludeOleData {#setIncludeOleData}
+
+| Name | Description |
+| --- | --- |
+| setIncludeOleData (boolean) | True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write boolean. Default is false. |
 
 
 ---

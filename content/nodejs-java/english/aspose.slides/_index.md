@@ -235,7 +235,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [GradientStopCollection](gradientstopcollection) | Represnts a collection of gradient stops. |
 | [GradientStopCollectionEffectiveData](gradientstopcollectioneffectivedata) | Represents a collection of GradientStopData objects. |
 | [GradientStopEffectiveData](gradientstopeffectivedata) | Immutable object which represents a gradient stop. |
-| [GradientStyle](gradientstyle) | Represents the styles available for a gradient. This determines the visual gradient effect applied to graphical elements. |
+| [GradientStyle](gradientstyle) | Represents the available gradient styles. |
 | [GraphicalObject](graphicalobject) | Represents abstract graphical object. |
 | [GraphicalObjectLock](graphicalobjectlock) | Determines which operations are disabled on the parent GraphicalObject. |
 | [GrayScale](grayscale) | Represents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected. |
@@ -273,6 +273,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [InterruptionToken](interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [InterruptionTokenSource](interruptiontokensource) | Represents the source of InterruptionToken. |
 | [InvalidPasswordException](invalidpasswordexception) | Exception which thrown when presentation file format is unsupported. |
+| [LayoutPlaceholderManager](layoutplaceholdermanager) | Represents manager that allows you to add placeholders to the layout slide. |
 | [LayoutSlide](layoutslide) | Represents a layout slide. |
 | [LayoutSlideCollection](layoutslidecollection) | Represents a base class for collection of a layout slides. |
 | [LayoutSlideHeaderFooterManager](layoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
@@ -584,7 +585,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [TextFrameFormat](textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
 | [TextHighlightingOptions](texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
 | [TextInheritanceLimit](textinheritancelimit) | Controls the depth of the text properties inheritance. |
-| [TextSearchOptions](textsearchoptions) | Represents options which can be used to find text in Presentation, Slide or TextFrame. |
+| [TextSearchOptions](textsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [TextShapeType](textshapetype) | Represents text wrapping shape. |
 | [TextStrikethroughType](textstrikethroughtype) | Represents the type of text strikethrough. |
 | [TextStyle](textstyle) | This class contains the text style formatting properties. |
