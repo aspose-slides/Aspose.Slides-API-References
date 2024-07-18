@@ -26,11 +26,11 @@ Represents a TextFrame.
 | [getTextFrameFormat()](#getTextFrameFormat--) | Returns the formatting object for this TextFrame object. |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | Provides easy access to contained hyperlinks. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Joins runs with same formatting in all paragraphs. |
-| [highlightText(String text, Integer highlightColor)](#highlightText-java.lang.String-java.lang.Integer-) | Highlight all matches of sample in text frame text using specified color. |
-| [highlightText(String text, Integer highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextHighlightingOptions-) | Highlight all matches of sample in text frame text using specified color. |
-| [highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Highlight all matches of sample in text frame text using specified color. |
-| [highlightRegex(String regex, Integer highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.lang.Integer-com.aspose.slides.ITextHighlightingOptions-) | Highlight all matches of regular expression in text frame text using specified color. |
-| [highlightRegex(Pattern regex, Integer highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.lang.Integer-com.aspose.slides.IFindResultCallback-) | Highlight all matches of regular expression in text frame text using specified color. |
+| [highlightText(String text, Integer highlightColor)](#highlightText-java.lang.String-java.lang.Integer-) | Highlights all matches of the sample text with the specified color. |
+| [highlightText(String text, Integer highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextHighlightingOptions-) | Highlights all matches of the sample text with the specified color. |
+| [highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the sample text with the specified color. |
+| [highlightRegex(String regex, Integer highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.lang.Integer-com.aspose.slides.ITextHighlightingOptions-) | Highlights all matches of the regular expression with the specified color. |
+| [highlightRegex(Pattern regex, Integer highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.lang.Integer-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the regular expression with the specified color. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Replaces all occurrences of the specified text with another specified text. |
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Replaces all matches of regular expression with specified string. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a TextFrame. |
@@ -116,13 +116,13 @@ public final void highlightText(String text, Integer highlightColor)
 ```
 
 
-Highlight all matches of sample in text frame text using specified color.
+Highlights all matches of the sample text with the specified color.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | Text sample to highlight. |
-| highlightColor | java.lang.Integer | Highlighting color. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
 
 ### highlightText(String text, Integer highlightColor, ITextHighlightingOptions options) {#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextHighlightingOptions-}
 ```
@@ -130,7 +130,7 @@ public final void highlightText(String text, Integer highlightColor, ITextHighli
 ```
 
 
-Highlight all matches of sample in text frame text using specified color.
+Highlights all matches of the sample text with the specified color.
 
 --------------------
 
@@ -153,8 +153,8 @@ Highlight all matches of sample in text frame text using specified color.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | Text sample to highlight. |
-| highlightColor | java.lang.Integer | Highlighting color. |
+| text | java.lang.String | The text to highlight. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Highlighting options. |
 
 ### highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
@@ -163,12 +163,12 @@ public final void highlightText(String text, Integer highlightColor, ITextSearch
 ```
 
 
-Highlight all matches of sample in text frame text using specified color.
+Highlights all matches of the sample text with the specified color.
 
 --------------------
 
 > ```
-> The following sample code shows how to Highlight Text in a PowerPoint Presentation.
+> The following code sample shows how to highlight text in a TextFrame.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
@@ -187,10 +187,10 @@ Highlight all matches of sample in text frame text using specified color.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | Text sample to highlight. |
-| highlightColor | java.lang.Integer | Highlighting color. |
+| text | java.lang.String | The text to highlight. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text search options [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback object for saving replacement operation result [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(String regex, Integer highlightColor, ITextHighlightingOptions options) {#highlightRegex-java.lang.String-java.lang.Integer-com.aspose.slides.ITextHighlightingOptions-}
 ```
@@ -198,12 +198,12 @@ public final void highlightRegex(String regex, Integer highlightColor, ITextHigh
 ```
 
 
-Highlight all matches of regular expression in text frame text using specified color.
+Highlights all matches of the regular expression with the specified color.
 
 --------------------
 
 > ```
-> The following sample code shows how to Highlight Text using regular expression in a PowerPoint Presentation.
+> The following code sample shows how to highlight text in a TextFrame using a regular expression.
 >  
 >  Presentation pres = new Presentation("SomePresentation.pptx");
 >  try {
@@ -220,7 +220,7 @@ Highlight all matches of regular expression in text frame text using specified c
 | Parameter | Type | Description |
 | --- | --- | --- |
 | regex | java.lang.String | Text of regular expression to get text to highlight. |
-| highlightColor | java.lang.Integer | Highlighting color. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Highlighting options. |
 
 ### highlightRegex(Pattern regex, Integer highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.lang.Integer-com.aspose.slides.IFindResultCallback-}
@@ -229,12 +229,12 @@ public final void highlightRegex(Pattern regex, Integer highlightColor, IFindRes
 ```
 
 
-Highlight all matches of regular expression in text frame text using specified color.
+Highlights all matches of the regular expression with the specified color.
 
 --------------------
 
 > ```
-> The following sample code shows how to Highlight Text using regular expression in a TextFrame.
+> The following code sample shows how to highlight text in a TextFrame using a regular expression.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
@@ -250,9 +250,9 @@ Highlight all matches of regular expression in text frame text using specified c
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to be replaced. |
-| highlightColor | java.lang.Integer | Highlighting color. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback object for saving replacement operation result [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to highlight. |
+| highlightColor | java.lang.Integer | The color to highlight the text. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```

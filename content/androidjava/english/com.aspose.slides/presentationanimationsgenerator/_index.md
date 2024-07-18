@@ -72,8 +72,6 @@ Represents a generator of the animations in the [Presentation](../../com.aspose.
 | [getIncludeHiddenSlides()](#getIncludeHiddenSlides--) | Get or sets if hidden slides should be included. |
 | [setIncludeHiddenSlides(boolean value)](#setIncludeHiddenSlides-boolean-) | Get or sets if hidden slides should be included. |
 | [getExportedSlides()](#getExportedSlides--) | Get the number of the exported slides count. |
-| [getGradientStyle()](#getGradientStyle--) | Gets or sets the gradient style to be used for a gradient. |
-| [setGradientStyle(int value)](#setGradientStyle-int-) | Gets or sets the gradient style to be used for a gradient. |
 | [setNewAnimation(PresentationAnimationsGenerator.NewAnimation anim)](#setNewAnimation-com.aspose.slides.PresentationAnimationsGenerator.NewAnimation-) | Set a new animation event. |
 | [run(System.Collections.Generic.IGenericEnumerable<ISlide> slides)](#run-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.slides.ISlide--) | Run the animation events generation for each slide. |
 | [run(System.Collections.Generic.IGenericEnumerable<ISlide> slides, int fps, PresentationPlayer.FrameTick onFrame)](#run-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.slides.ISlide--int-com.aspose.slides.PresentationPlayer.FrameTick-) | Run the animation events generation for each slide. |
@@ -88,7 +86,7 @@ Creates a new instance of the [PresentationAnimationsGenerator](../../com.aspose
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| presentation | [Presentation](../../com.aspose.slides/presentation) | The frame size will be set with accordance to the ([Presentation.getSlideSize](../../com.aspose.slides/presentation\#getSlideSize)) |
+| presentation | [Presentation](../../com.aspose.slides/presentation) | The frame size will be set with accordance to the [Presentation.getSlideSize](../../com.aspose.slides/presentation\#getSlideSize) |
 
 ### PresentationAnimationsGenerator(Size frameSize) {#PresentationAnimationsGenerator-com.aspose.slides.android.Size-}
 ```
@@ -262,29 +260,6 @@ Get the number of the exported slides count.
 
 **Returns:**
 int
-### getGradientStyle() {#getGradientStyle--}
-```
-public final int getGradientStyle()
-```
-
-
-Gets or sets the gradient style to be used for a gradient. This property allows the selection of predefined gradient styles which can affect the appearance of graphical elements.
-
-**Returns:**
-int
-### setGradientStyle(int value) {#setGradientStyle-int-}
-```
-public final void setGradientStyle(int value)
-```
-
-
-Gets or sets the gradient style to be used for a gradient. This property allows the selection of predefined gradient styles which can affect the appearance of graphical elements.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### setNewAnimation(PresentationAnimationsGenerator.NewAnimation anim) {#setNewAnimation-com.aspose.slides.PresentationAnimationsGenerator.NewAnimation-}
 ```
 public void setNewAnimation(PresentationAnimationsGenerator.NewAnimation anim)

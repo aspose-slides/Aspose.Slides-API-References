@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
 second_title: Aspose.Slides for Android via Java API Reference
-description: Represents options which can be used to find text in Presentation Slide or TextFrame.
+description: Represents options that can be used to search for text in a Presentation Slide or TextFrame.
 type: docs
 url: /com.aspose.slides/itextsearchoptions/
 ---```
 public interface ITextSearchOptions
 ```
 
-Represents options which can be used to find text in Presentation, Slide or TextFrame.
+Represents options that can be used to search for text in a Presentation, Slide or TextFrame.
 ## Methods
 
 | Method | Description |

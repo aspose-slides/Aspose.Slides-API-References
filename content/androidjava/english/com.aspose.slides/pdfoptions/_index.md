@@ -136,6 +136,8 @@ Provides options that control how a presentation is saved in Pdf format.
 | [setImageTransparentColor(Integer value)](#setImageTransparentColor-java.lang.Integer-) | Gets or sets the image transparent color. |
 | [getApplyImageTransparent()](#getApplyImageTransparent--) | Applies the specified transparent color to an image if true. |
 | [setApplyImageTransparent(boolean value)](#setApplyImageTransparent-boolean-) | Applies the specified transparent color to an image if true. |
+| [getIncludeOleData()](#getIncludeOleData--) | True to convert all OLE data from the presentation to embedded files in the resulting PDF. |
+| [setIncludeOleData(boolean value)](#setIncludeOleData-boolean-) | True to convert all OLE data from the presentation to embedded files in the resulting PDF. |
 ### PdfOptions() {#PdfOptions--}
 ```
 public PdfOptions()
@@ -723,6 +725,67 @@ public final void setApplyImageTransparent(boolean value)
 
 
 Applies the specified transparent color to an image if true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getIncludeOleData() {#getIncludeOleData--}
+```
+public final boolean getIncludeOleData()
+```
+
+
+True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write  boolean .
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      PdfOptions options = new PdfOptions();
+>      options.setIncludeOleData(true);
+>      pres.save("pres.pdf", SaveFormat.Pdf, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Default is  **false** .
+
+**Returns:**
+boolean
+### setIncludeOleData(boolean value) {#setIncludeOleData-boolean-}
+```
+public final void setIncludeOleData(boolean value)
+```
+
+
+True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write  boolean .
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      PdfOptions options = new PdfOptions();
+>      options.setIncludeOleData(true);
+>      pres.save("pres.pdf", SaveFormat.Pdf, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Default is  **false** .
 
 **Parameters:**
 | Parameter | Type | Description |

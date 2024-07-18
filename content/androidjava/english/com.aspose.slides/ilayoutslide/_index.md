@@ -17,6 +17,7 @@ Represents a layout slide.
 | Method | Description |
 | --- | --- |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Returns HeaderFooter manager of the layout slide. |
+| [getPlaceholderManager()](#getPlaceholderManager--) | Returns the placeholder manager of the layout slide. |
 | [getMasterSlide()](#getMasterSlide--) | Returns or sets the master slide for a layout. |
 | [setMasterSlide(IMasterSlide value)](#setMasterSlide-com.aspose.slides.IMasterSlide-) | Returns or sets the master slide for a layout. |
 | [getLayoutType()](#getLayoutType--) | Returns layout type of this layout slide. |
@@ -33,6 +34,16 @@ Returns HeaderFooter manager of the layout slide. Read-only [ILayoutSlideHeaderF
 
 **Returns:**
 [ILayoutSlideHeaderFooterManager](../../com.aspose.slides/ilayoutslideheaderfootermanager)
+### getPlaceholderManager() {#getPlaceholderManager--}
+```
+public abstract ILayoutPlaceholderManager getPlaceholderManager()
+```
+
+
+Returns the placeholder manager of the layout slide. Read-only [ILayoutPlaceholderManager](../../com.aspose.slides/ilayoutplaceholdermanager).
+
+**Returns:**
+[ILayoutPlaceholderManager](../../com.aspose.slides/ilayoutplaceholdermanager)
 ### getMasterSlide() {#getMasterSlide--}
 ```
 public abstract IMasterSlide getMasterSlide()

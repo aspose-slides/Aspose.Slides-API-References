@@ -236,7 +236,7 @@ url: /com.aspose.slides/
 | [GradientStopCollection](../com.aspose.slides/gradientstopcollection) | Represnts a collection of gradient stops. |
 | [GradientStopCollectionEffectiveData](../com.aspose.slides/gradientstopcollectioneffectivedata) | Represents a collection of GradientStopData objects. |
 | [GradientStopEffectiveData](../com.aspose.slides/gradientstopeffectivedata) | Immutable object which represents a gradient stop. |
-| [GradientStyle](../com.aspose.slides/gradientstyle) | Represents the styles available for a gradient. |
+| [GradientStyle](../com.aspose.slides/gradientstyle) | Represents the available gradient styles. |
 | [GraphicalObject](../com.aspose.slides/graphicalobject) | Represents abstract graphical object. |
 | [GraphicalObjectLock](../com.aspose.slides/graphicalobjectlock) | Determines which operations are disabled on the parent GraphicalObject. |
 | [GrayScale](../com.aspose.slides/grayscale) | Represents a Gray Scale effect. |
@@ -273,6 +273,7 @@ url: /com.aspose.slides/
 | [InterruptionToken](../com.aspose.slides/interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [InterruptionTokenSource](../com.aspose.slides/interruptiontokensource) | Represents the source of [InterruptionToken](../com.aspose.slides/interruptiontoken). |
 | [InvalidPasswordException](../com.aspose.slides/invalidpasswordexception) | Exception which thrown when presentation file format is unsupported. |
+| [LayoutPlaceholderManager](../com.aspose.slides/layoutplaceholdermanager) | Represents manager that allows you to add placeholders to the layout slide. |
 | [LayoutSlide](../com.aspose.slides/layoutslide) | Represents a layout slide. |
 | [LayoutSlideCollection](../com.aspose.slides/layoutslidecollection) | Represents a base class for collection of a layout slides. |
 | [LayoutSlideHeaderFooterManager](../com.aspose.slides/layoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. |
@@ -581,7 +582,7 @@ url: /com.aspose.slides/
 | [TextFrameFormat](../com.aspose.slides/textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
 | [TextHighlightingOptions](../com.aspose.slides/texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
 | [TextInheritanceLimit](../com.aspose.slides/textinheritancelimit) | Controls the depth of the text properties inheritance. |
-| [TextSearchOptions](../com.aspose.slides/textsearchoptions) | Represents options which can be used to find text in Presentation, Slide or TextFrame. |
+| [TextSearchOptions](../com.aspose.slides/textsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [TextShapeType](../com.aspose.slides/textshapetype) | Represents text wrapping shape. |
 | [TextStrikethroughType](../com.aspose.slides/textstrikethroughtype) | Represents the type of text strikethrough. |
 | [TextStyle](../com.aspose.slides/textstyle) | This class contains the text style formatting properties. |
@@ -872,6 +873,7 @@ url: /com.aspose.slides/
 | [IInterruptionToken](../com.aspose.slides/iinterruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [IInterruptionTokenSource](../com.aspose.slides/iinterruptiontokensource) | Represents the source of [IInterruptionToken](../com.aspose.slides/iinterruptiontoken). |
 | [IKnownIssueWarningInfo](../com.aspose.slides/iknownissuewarninginfo) | Represents a warning about known issue which won't be fixed in the near future. |
+| [ILayoutPlaceholderManager](../com.aspose.slides/ilayoutplaceholdermanager) | Represents manager that allows you to add placeholders to the layout slide. |
 | [ILayoutSlide](../com.aspose.slides/ilayoutslide) | Represents a layout slide. |
 | [ILayoutSlideCollection](../com.aspose.slides/ilayoutslidecollection) | Represents a base class for collection of a layout slides. |
 | [ILayoutSlideHeaderFooterManager](../com.aspose.slides/ilayoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. |
@@ -1102,7 +1104,7 @@ url: /com.aspose.slides/
 | [ITextFrameFormat](../com.aspose.slides/itextframeformat) | Contains the TextFrame's formatting properties. |
 | [ITextFrameFormatEffectiveData](../com.aspose.slides/itextframeformateffectivedata) | Immutable object which contains effective text frame formatting properties. |
 | [ITextHighlightingOptions](../com.aspose.slides/itexthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
-| [ITextSearchOptions](../com.aspose.slides/itextsearchoptions) | Represents options which can be used to find text in Presentation, Slide or TextFrame. |
+| [ITextSearchOptions](../com.aspose.slides/itextsearchoptions) | Represents options that can be used to search for text in a Presentation, Slide or TextFrame. |
 | [ITextStyle](../com.aspose.slides/itextstyle) | Text style formatting properties. |
 | [ITextStyleEffectiveData](../com.aspose.slides/itextstyleeffectivedata) | Immutable object which contains effective text style properties. |
 | [ITextToHtmlConversionOptions](../com.aspose.slides/itexttohtmlconversionoptions) | Options for extracting HTML from the Pptx text. |
