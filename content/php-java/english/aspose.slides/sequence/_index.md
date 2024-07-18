@@ -59,13 +59,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([Shape](../shape), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([Table](../table), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Shape](../shape) | Shape object IShape for adding an effect |
+| shape | [Table](../table) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -103,13 +103,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([Table](../table), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([Shape](../shape), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Table](../table) | Shape object IShape for adding an effect |
+| shape | [Shape](../shape) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -147,13 +147,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([GeometryShape](../geometryshape), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([SummaryZoomFrame](../summaryzoomframe), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [GeometryShape](../geometryshape) | Shape object IShape for adding an effect |
+| shape | [SummaryZoomFrame](../summaryzoomframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -169,13 +169,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([SummaryZoomFrame](../summaryzoomframe), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([GeometryShape](../geometryshape), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SummaryZoomFrame](../summaryzoomframe) | Shape object IShape for adding an effect |
+| shape | [GeometryShape](../geometryshape) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -235,13 +235,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([OleObjectFrame](../oleobjectframe), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([VideoFrame](../videoframe), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../oleobjectframe) | Shape object IShape for adding an effect |
+| shape | [VideoFrame](../videoframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -257,13 +257,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([VideoFrame](../videoframe), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([OleObjectFrame](../oleobjectframe), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [VideoFrame](../videoframe) | Shape object IShape for adding an effect |
+| shape | [OleObjectFrame](../oleobjectframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -345,13 +345,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([PictureFrame](../pictureframe), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([SectionZoomFrame](../sectionzoomframe), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [PictureFrame](../pictureframe) | Shape object IShape for adding an effect |
+| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -367,13 +367,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([SectionZoomFrame](../sectionzoomframe), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([PictureFrame](../pictureframe), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
+| shape | [PictureFrame](../pictureframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -600,7 +600,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([Shape](../shape)) | Returns count of effects for the specified shape. |
+| getCount ([Table](../table)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -626,7 +626,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([Table](../table)) | Returns count of effects for the specified shape. |
+| getCount ([Shape](../shape)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -652,7 +652,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([GeometryShape](../geometryshape)) | Returns count of effects for the specified shape. |
+| getCount ([SummaryZoomFrame](../summaryzoomframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -665,7 +665,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([SummaryZoomFrame](../summaryzoomframe)) | Returns count of effects for the specified shape. |
+| getCount ([GeometryShape](../geometryshape)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -704,7 +704,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([OleObjectFrame](../oleobjectframe)) | Returns count of effects for the specified shape. |
+| getCount ([VideoFrame](../videoframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -717,7 +717,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([VideoFrame](../videoframe)) | Returns count of effects for the specified shape. |
+| getCount ([OleObjectFrame](../oleobjectframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -769,7 +769,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([PictureFrame](../pictureframe)) | Returns count of effects for the specified shape. |
+| getCount ([SectionZoomFrame](../sectionzoomframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -782,7 +782,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([SectionZoomFrame](../sectionzoomframe)) | Returns count of effects for the specified shape. |
+| getCount ([PictureFrame](../pictureframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -886,7 +886,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([Shape](../shape)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([Table](../table)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -912,7 +912,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([Table](../table)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([Shape](../shape)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -938,7 +938,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([GeometryShape](../geometryshape)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([SummaryZoomFrame](../summaryzoomframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -951,7 +951,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([SummaryZoomFrame](../summaryzoomframe)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([GeometryShape](../geometryshape)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -990,7 +990,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([OleObjectFrame](../oleobjectframe)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([VideoFrame](../videoframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1003,7 +1003,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([VideoFrame](../videoframe)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([OleObjectFrame](../oleobjectframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1055,7 +1055,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([PictureFrame](../pictureframe)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([SectionZoomFrame](../sectionzoomframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1068,7 +1068,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([SectionZoomFrame](../sectionzoomframe)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([PictureFrame](../pictureframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1136,7 +1136,7 @@ int
 | getTriggerShape () | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [SmartArtShape](../smartartshape), [Table](../table), [Ink](../ink), [GeometryShape](../geometryshape), [SummaryZoomFrame](../summaryzoomframe), [SummaryZoomSection](../summaryzoomsection), [ZoomFrame](../zoomframe), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
+[Connector](../connector), [GraphicalObject](../graphicalobject), [Table](../table), [SmartArtShape](../smartartshape), [Shape](../shape), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [SummaryZoomSection](../summaryzoomsection), [ZoomFrame](../zoomframe), [VideoFrame](../videoframe), [OleObjectFrame](../oleobjectframe), [SmartArt](../smartart), [GroupShape](../groupshape), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [Chart](../chart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [ZoomObject](../zoomobject)
 
 
 ---
@@ -1255,7 +1255,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([Shape](../shape)) | Remove effect for the specified shape. |
+| removeByShape ([Table](../table)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1281,7 +1281,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([Table](../table)) | Remove effect for the specified shape. |
+| removeByShape ([Shape](../shape)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1307,7 +1307,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([GeometryShape](../geometryshape)) | Remove effect for the specified shape. |
+| removeByShape ([SummaryZoomFrame](../summaryzoomframe)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1320,7 +1320,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([SummaryZoomFrame](../summaryzoomframe)) | Remove effect for the specified shape. |
+| removeByShape ([GeometryShape](../geometryshape)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1359,7 +1359,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([OleObjectFrame](../oleobjectframe)) | Remove effect for the specified shape. |
+| removeByShape ([VideoFrame](../videoframe)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1372,7 +1372,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([VideoFrame](../videoframe)) | Remove effect for the specified shape. |
+| removeByShape ([OleObjectFrame](../oleobjectframe)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1424,7 +1424,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([PictureFrame](../pictureframe)) | Remove effect for the specified shape. |
+| removeByShape ([SectionZoomFrame](../sectionzoomframe)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1437,7 +1437,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([SectionZoomFrame](../sectionzoomframe)) | Remove effect for the specified shape. |
+| removeByShape ([PictureFrame](../pictureframe)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1528,7 +1528,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([Shape](../shape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([Table](../table)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
@@ -1554,7 +1554,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([Table](../table)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([Shape](../shape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
@@ -1580,7 +1580,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([GeometryShape](../geometryshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
@@ -1593,7 +1593,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([GeometryShape](../geometryshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
@@ -1632,7 +1632,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([OleObjectFrame](../oleobjectframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([VideoFrame](../videoframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
@@ -1645,7 +1645,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([VideoFrame](../videoframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([OleObjectFrame](../oleobjectframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
@@ -1697,7 +1697,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([PictureFrame](../pictureframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
@@ -1710,7 +1710,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([PictureFrame](../pictureframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void

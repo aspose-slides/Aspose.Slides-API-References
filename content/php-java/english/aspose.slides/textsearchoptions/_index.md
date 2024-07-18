@@ -9,7 +9,7 @@ url: /aspose.slides/textsearchoptions/
 
 ## TextSearchOptions class
 
- Represents options which can be used to find text in Presentation, Slide or TextFrame.
+ Represents options that can be used to search for text in a Presentation, Slide or TextFrame.
  
 ### TextSearchOptions {#TextSearchOptions}
 

@@ -168,13 +168,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathNaryOperator](../mathnaryoperator)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction ([MathAccent](../mathaccent)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| functionName | [MathNaryOperator](../mathnaryoperator) | Function name |
+| functionName | [MathAccent](../mathaccent) | Function name |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -187,13 +187,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathAccent](../mathaccent)) | Takes specified function using this instance as the argument |
+| asArgumentOfFunction ([MathNaryOperator](../mathnaryoperator)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| functionName | [MathAccent](../mathaccent) | Function name |
+| functionName | [MathNaryOperator](../mathnaryoperator) | Function name |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -263,6 +263,25 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| asArgumentOfFunction ([MathFunction](../mathfunction)) | Takes specified function using this instance as the argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| functionName | [MathFunction](../mathfunction) | Function name |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### asArgumentOfFunction {#asArgumentOfFunction}
+
+| Name | Description |
+| --- | --- |
 | asArgumentOfFunction ([MathSubscriptElement](../mathsubscriptelement)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
@@ -301,44 +320,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction ([MathFunction](../mathfunction)) | Takes specified function using this instance as the argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| functionName | [MathFunction](../mathfunction) | Function name |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### asArgumentOfFunction {#asArgumentOfFunction}
-
-| Name | Description |
-| --- | --- |
-| asArgumentOfFunction ([MathFraction](../mathfraction)) | Takes specified function using this instance as the argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| functionName | [MathFraction](../mathfraction) | Function name |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### asArgumentOfFunction {#asArgumentOfFunction}
-
-| Name | Description |
-| --- | --- |
 | asArgumentOfFunction ([MathematicalText](../mathematicaltext)) | Takes specified function using this instance as the argument |
 
  **Parameters:**
@@ -365,6 +346,25 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | functionName | [BaseScript](../basescript) | Function name |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### asArgumentOfFunction {#asArgumentOfFunction}
+
+| Name | Description |
+| --- | --- |
+| asArgumentOfFunction ([MathFraction](../mathfraction)) | Takes specified function using this instance as the argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| functionName | [MathFraction](../mathfraction) | Function name |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -612,14 +612,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathNaryOperator](../mathnaryoperator)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction (int, [MathAccent](../mathaccent)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | functionType | int | One of the common function type of two arguments: Log, Lim, Min, Max |
-| additionalArgument | [MathNaryOperator](../mathnaryoperator) | Additional argument depending on the type of function |
+| additionalArgument | [MathAccent](../mathaccent) | Additional argument depending on the type of function |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -632,14 +632,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathAccent](../mathaccent)) | Takes specified function using this instance as the argument and specified additional argument |
+| asArgumentOfFunction (int, [MathNaryOperator](../mathnaryoperator)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | functionType | int | One of the common function type of two arguments: Log, Lim, Min, Max |
-| additionalArgument | [MathAccent](../mathaccent) | Additional argument depending on the type of function |
+| additionalArgument | [MathNaryOperator](../mathnaryoperator) | Additional argument depending on the type of function |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -712,6 +712,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| asArgumentOfFunction (int, [MathFunction](../mathfunction)) | Takes specified function using this instance as the argument and specified additional argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| functionType | int | One of the common function type of two arguments: Log, Lim, Min, Max |
+| additionalArgument | [MathFunction](../mathfunction) | Additional argument depending on the type of function |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### asArgumentOfFunction {#asArgumentOfFunction}
+
+| Name | Description |
+| --- | --- |
 | asArgumentOfFunction (int, [MathSubscriptElement](../mathsubscriptelement)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
@@ -752,46 +772,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| asArgumentOfFunction (int, [MathFunction](../mathfunction)) | Takes specified function using this instance as the argument and specified additional argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| functionType | int | One of the common function type of two arguments: Log, Lim, Min, Max |
-| additionalArgument | [MathFunction](../mathfunction) | Additional argument depending on the type of function |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### asArgumentOfFunction {#asArgumentOfFunction}
-
-| Name | Description |
-| --- | --- |
-| asArgumentOfFunction (int, [MathFraction](../mathfraction)) | Takes specified function using this instance as the argument and specified additional argument |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| functionType | int | One of the common function type of two arguments: Log, Lim, Min, Max |
-| additionalArgument | [MathFraction](../mathfraction) | Additional argument depending on the type of function |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### asArgumentOfFunction {#asArgumentOfFunction}
-
-| Name | Description |
-| --- | --- |
 | asArgumentOfFunction (int, [MathematicalText](../mathematicaltext)) | Takes specified function using this instance as the argument and specified additional argument |
 
  **Parameters:**
@@ -820,6 +800,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | functionType | int | One of the common function type of two arguments: Log, Lim, Min, Max |
 | additionalArgument | [BaseScript](../basescript) | Additional argument depending on the type of function |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### asArgumentOfFunction {#asArgumentOfFunction}
+
+| Name | Description |
+| --- | --- |
+| asArgumentOfFunction (int, [MathFraction](../mathfraction)) | Takes specified function using this instance as the argument and specified additional argument |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| functionType | int | One of the common function type of two arguments: Log, Lim, Min, Max |
+| additionalArgument | [MathFraction](../mathfraction) | Additional argument depending on the type of function |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1045,13 +1045,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| divide ([MathNaryOperator](../mathnaryoperator)) | Creates a fraction with this numerator and specified denominator |
+| divide ([MathAccent](../mathaccent)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 
  **Returns:**
 [MathFraction](../mathfraction)
@@ -1064,13 +1064,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| divide ([MathAccent](../mathaccent)) | Creates a fraction with this numerator and specified denominator |
+| divide ([MathNaryOperator](../mathnaryoperator)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| denominator | [MathAccent](../mathaccent) | Denominator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
 
  **Returns:**
 [MathFraction](../mathfraction)
@@ -1140,6 +1140,25 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| divide ([MathFunction](../mathfunction)) | Creates a fraction with this numerator and specified denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+
+ **Returns:**
+[MathFraction](../mathfraction)
+
+
+---
+
+
+### divide {#divide}
+
+| Name | Description |
+| --- | --- |
 | divide ([MathSubscriptElement](../mathsubscriptelement)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
@@ -1178,44 +1197,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| divide ([MathFunction](../mathfunction)) | Creates a fraction with this numerator and specified denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-
- **Returns:**
-[MathFraction](../mathfraction)
-
-
----
-
-
-### divide {#divide}
-
-| Name | Description |
-| --- | --- |
-| divide ([MathFraction](../mathfraction)) | Creates a fraction with this numerator and specified denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-
- **Returns:**
-[MathFraction](../mathfraction)
-
-
----
-
-
-### divide {#divide}
-
-| Name | Description |
-| --- | --- |
 | divide ([MathematicalText](../mathematicaltext)) | Creates a fraction with this numerator and specified denominator |
 
  **Parameters:**
@@ -1242,6 +1223,25 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | denominator | [BaseScript](../basescript) | Denominator |
+
+ **Returns:**
+[MathFraction](../mathfraction)
+
+
+---
+
+
+### divide {#divide}
+
+| Name | Description |
+| --- | --- |
+| divide ([MathFraction](../mathfraction)) | Creates a fraction with this numerator and specified denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 
  **Returns:**
 [MathFraction](../mathfraction)
@@ -1470,13 +1470,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| divide ([MathNaryOperator](../mathnaryoperator), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide ([MathAccent](../mathaccent), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type: Bar, NoBar, Skewed, Linear |
 
  **Returns:**
@@ -1490,13 +1490,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| divide ([MathAccent](../mathaccent), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+| divide ([MathNaryOperator](../mathnaryoperator), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| denominator | [MathAccent](../mathaccent) | Denominator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
 | fractionType | int | Fraction type: Bar, NoBar, Skewed, Linear |
 
  **Returns:**
@@ -1570,6 +1570,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| divide ([MathFunction](../mathfunction), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type: Bar, NoBar, Skewed, Linear |
+
+ **Returns:**
+[MathFraction](../mathfraction)
+
+
+---
+
+
+### divide {#divide}
+
+| Name | Description |
+| --- | --- |
 | divide ([MathSubscriptElement](../mathsubscriptelement), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
@@ -1610,46 +1630,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| divide ([MathFunction](../mathfunction), int) | Creates a fraction of the specified type with this numerator and specified denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type: Bar, NoBar, Skewed, Linear |
-
- **Returns:**
-[MathFraction](../mathfraction)
-
-
----
-
-
-### divide {#divide}
-
-| Name | Description |
-| --- | --- |
-| divide ([MathFraction](../mathfraction), int) | Creates a fraction of the specified type with this numerator and specified denominator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type: Bar, NoBar, Skewed, Linear |
-
- **Returns:**
-[MathFraction](../mathfraction)
-
-
----
-
-
-### divide {#divide}
-
-| Name | Description |
-| --- | --- |
 | divide ([MathematicalText](../mathematicaltext), int) | Creates a fraction of the specified type with this numerator and specified denominator |
 
  **Parameters:**
@@ -1677,6 +1657,26 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | denominator | [BaseScript](../basescript) | Denominator |
+| fractionType | int | Fraction type: Bar, NoBar, Skewed, Linear |
+
+ **Returns:**
+[MathFraction](../mathfraction)
+
+
+---
+
+
+### divide {#divide}
+
+| Name | Description |
+| --- | --- |
+| divide ([MathFraction](../mathfraction), int) | Creates a fraction of the specified type with this numerator and specified denominator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| denominator | [MathFraction](../mathfraction) | Denominator |
 | fractionType | int | Fraction type: Bar, NoBar, Skewed, Linear |
 
  **Returns:**
@@ -1936,13 +1936,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| function ([MathNaryOperator](../mathnaryoperator)) | Takes a function of an argument using this instance as the function name |
+| function ([MathAccent](../mathaccent)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| functionArgument | [MathNaryOperator](../mathnaryoperator) | An argument of the function |
+| functionArgument | [MathAccent](../mathaccent) | An argument of the function |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -1955,13 +1955,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| function ([MathAccent](../mathaccent)) | Takes a function of an argument using this instance as the function name |
+| function ([MathNaryOperator](../mathnaryoperator)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| functionArgument | [MathAccent](../mathaccent) | An argument of the function |
+| functionArgument | [MathNaryOperator](../mathnaryoperator) | An argument of the function |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2031,6 +2031,25 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| function ([MathFunction](../mathfunction)) | Takes a function of an argument using this instance as the function name |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| functionArgument | [MathFunction](../mathfunction) | An argument of the function |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### function {#function}
+
+| Name | Description |
+| --- | --- |
 | function ([MathSubscriptElement](../mathsubscriptelement)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
@@ -2069,44 +2088,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| function ([MathFunction](../mathfunction)) | Takes a function of an argument using this instance as the function name |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| functionArgument | [MathFunction](../mathfunction) | An argument of the function |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### function {#function}
-
-| Name | Description |
-| --- | --- |
-| function ([MathFraction](../mathfraction)) | Takes a function of an argument using this instance as the function name |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| functionArgument | [MathFraction](../mathfraction) | An argument of the function |
-
- **Returns:**
-[MathFunction](../mathfunction)
-
-
----
-
-
-### function {#function}
-
-| Name | Description |
-| --- | --- |
 | function ([MathematicalText](../mathematicaltext)) | Takes a function of an argument using this instance as the function name |
 
  **Parameters:**
@@ -2133,6 +2114,25 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | functionArgument | [BaseScript](../basescript) | An argument of the function |
+
+ **Returns:**
+[MathFunction](../mathfunction)
+
+
+---
+
+
+### function {#function}
+
+| Name | Description |
+| --- | --- |
+| function ([MathFraction](../mathfraction)) | Takes a function of an argument using this instance as the function name |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| functionArgument | [MathFraction](../mathfraction) | An argument of the function |
 
  **Returns:**
 [MathFunction](../mathfunction)
@@ -2224,7 +2224,7 @@ url: /aspose.slides/mathelementbase/
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathRadical](../mathradical), [MathArray](../matharray), [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathFraction](../mathfraction), [MathBox](../mathbox), [MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
 
 
 ---
@@ -2422,7 +2422,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -2430,7 +2430,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -2444,7 +2444,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -2452,7 +2452,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -2532,6 +2532,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -2576,50 +2598,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -2651,6 +2629,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -2884,7 +2884,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -2892,7 +2892,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -2906,7 +2906,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -2914,7 +2914,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -2994,6 +2994,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -3038,50 +3060,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -3113,6 +3091,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -3346,7 +3346,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathLimit](../mathlimit), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -3354,7 +3354,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -3368,7 +3368,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -3376,7 +3376,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -3456,6 +3456,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathLimit](../mathlimit), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -3500,50 +3522,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathLimit](../mathlimit), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -3575,6 +3553,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathLimit](../mathlimit), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -3808,7 +3808,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathBlock](../mathblock), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -3816,7 +3816,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -3830,7 +3830,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -3838,7 +3838,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -3918,6 +3918,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathBlock](../mathblock), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -3962,50 +3984,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathBlock](../mathblock), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -4037,6 +4015,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathBlock](../mathblock), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -4270,7 +4270,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathRadical](../mathradical), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -4278,7 +4278,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -4292,7 +4292,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -4300,7 +4300,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -4380,6 +4380,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathRadical](../mathradical), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -4424,50 +4446,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathRadical](../mathradical), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -4499,6 +4477,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathRadical](../mathradical), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -4732,7 +4732,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathArray](../matharray), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -4740,7 +4740,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathArray](../matharray) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -4754,7 +4754,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -4762,7 +4762,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathArray](../matharray) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -4842,6 +4842,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathArray](../matharray), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathArray](../matharray) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -4886,50 +4908,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathArray](../matharray) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathArray](../matharray), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathArray](../matharray) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathArray](../matharray), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -4961,6 +4939,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathArray](../matharray) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathArray](../matharray), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathArray](../matharray) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -5194,7 +5194,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -5202,7 +5202,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -5216,7 +5216,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -5224,7 +5224,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -5304,6 +5304,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -5348,50 +5370,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -5423,6 +5401,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -5488,468 +5488,6 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
-| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathArray](../matharray) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
@@ -6118,7 +5656,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathAccent](../mathaccent), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6126,7 +5664,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -6140,7 +5678,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6148,7 +5686,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -6228,6 +5766,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathAccent](../mathaccent), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -6272,50 +5832,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -6347,6 +5863,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathAccent](../mathaccent), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -6412,6 +5950,468 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
+| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathArray](../matharray) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
@@ -6580,7 +6580,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6588,7 +6588,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -6602,7 +6602,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -6610,7 +6610,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -6690,6 +6690,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -6734,50 +6756,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -6809,6 +6787,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -7042,7 +7042,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7050,7 +7050,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -7064,7 +7064,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7072,7 +7072,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -7152,6 +7152,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -7196,50 +7218,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -7271,6 +7249,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -7504,7 +7504,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathBar](../mathbar), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7512,7 +7512,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -7526,7 +7526,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7534,7 +7534,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -7614,6 +7614,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathBar](../mathbar), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -7658,50 +7680,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathBar](../mathbar), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathBar](../mathbar), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -7733,6 +7711,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathBar](../mathbar), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -7798,6 +7798,468 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
+| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathLimit](../mathlimit), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathBlock](../mathblock), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathRadical](../mathradical), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathArray](../matharray), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathArray](../matharray) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathAccent](../mathaccent), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathBar](../mathbar), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [BaseScript](../basescript), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathBox](../mathbox), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathElementBase](../mathelementbase), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
@@ -7966,7 +8428,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7974,7 +8436,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -7988,7 +8450,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -7996,7 +8458,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -8076,6 +8538,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -8120,50 +8604,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -8195,6 +8635,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -8428,7 +8890,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8436,7 +8898,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -8450,7 +8912,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -8458,7 +8920,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -8538,6 +9000,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -8582,50 +9066,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -8657,6 +9097,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -8722,930 +9184,6 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathLimit](../mathlimit), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBlock](../mathblock), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathRadical](../mathradical), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathArray](../matharray), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathArray](../matharray) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathAccent](../mathaccent), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBar](../mathbar), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [BaseScript](../basescript), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBox](../mathbox), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathElementBase](../mathelementbase), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathLimit](../mathlimit), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBlock](../mathblock), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathRadical](../mathradical), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathArray](../matharray), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathArray](../matharray) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathAccent](../mathaccent), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBar](../mathbar), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [BaseScript](../basescript), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBox](../mathbox), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
@@ -9814,7 +9352,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9822,7 +9360,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -9836,7 +9374,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -9844,7 +9382,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -9924,6 +9462,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -9968,50 +9528,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -10043,6 +9559,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -10276,7 +9814,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [BaseScript](../basescript), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10284,7 +9822,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -10298,7 +9836,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [BaseScript](../basescript), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10306,7 +9844,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -10386,6 +9924,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [BaseScript](../basescript), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -10430,50 +9990,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [BaseScript](../basescript), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [BaseScript](../basescript), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [BaseScript](../basescript), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -10505,6 +10021,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [BaseScript](../basescript), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -10570,6 +10108,468 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
+| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathLimit](../mathlimit), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathBlock](../mathblock), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathRadical](../mathradical), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathArray](../matharray), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathArray](../matharray) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathAccent](../mathaccent), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathBar](../mathbar), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [BaseScript](../basescript), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathBox](../mathbox), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
@@ -10738,7 +10738,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathBox](../mathbox), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10746,7 +10746,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -10760,7 +10760,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -10768,7 +10768,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -10848,6 +10848,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathBox](../mathbox), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -10892,50 +10914,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathBox](../mathbox), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathBox](../mathbox), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -10967,6 +10945,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathBox](../mathbox), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -11200,7 +11200,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathElementBase](../mathelementbase), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11208,7 +11208,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -11222,7 +11222,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathElementBase](../mathelementbase), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11230,7 +11230,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -11310,6 +11310,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathElementBase](../mathelementbase), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -11354,50 +11376,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathElementBase](../mathelementbase), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathElementBase](../mathelementbase), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -11429,6 +11407,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathElementBase](../mathelementbase), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -11662,7 +11662,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
+| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11670,7 +11670,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -11684,7 +11684,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), int) | Takes the integral |
+| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Takes the integral |
 
  **Parameters:**
 
@@ -11692,7 +11692,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -11772,6 +11772,28 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Takes the integral |
 
  **Parameters:**
@@ -11816,50 +11838,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-| limitLocations | int | location of limits |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext), int) | Takes the integral |
 
  **Parameters:**
@@ -11891,6 +11869,28 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+| limitLocations | int | location of limits |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), int) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 | limitLocations | int | location of limits |
 
  **Returns:**
@@ -12117,7 +12117,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -12125,7 +12125,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -12138,7 +12138,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -12146,7 +12146,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -12222,6 +12222,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -12264,48 +12285,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -12336,6 +12315,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -12558,7 +12558,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -12566,7 +12566,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -12579,7 +12579,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -12587,7 +12587,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -12663,6 +12663,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -12705,48 +12726,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -12777,6 +12756,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathMatrix](../mathmatrix) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -12999,7 +12999,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -13007,7 +13007,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -13020,7 +13020,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -13028,7 +13028,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -13104,6 +13104,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -13146,48 +13167,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -13218,6 +13197,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathLimit](../mathlimit) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -13440,7 +13440,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathBlock](../mathblock), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -13448,7 +13448,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -13461,7 +13461,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -13469,7 +13469,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -13545,6 +13545,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathBlock](../mathblock), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -13587,48 +13608,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathBlock](../mathblock), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -13659,6 +13638,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathBlock](../mathblock), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBlock](../mathblock) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -13881,7 +13881,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathRadical](../mathradical), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -13889,7 +13889,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -13902,7 +13902,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -13910,7 +13910,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -13986,6 +13986,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathRadical](../mathradical), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -14028,48 +14049,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathRadical](../mathradical), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -14100,6 +14079,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathRadical](../mathradical), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathRadical](../mathradical) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -14322,7 +14322,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathArray](../matharray), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -14330,7 +14330,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathArray](../matharray) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -14343,7 +14343,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -14351,7 +14351,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathArray](../matharray) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -14427,6 +14427,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathArray](../matharray), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathArray](../matharray) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -14469,48 +14490,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathArray](../matharray), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathArray](../matharray) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathArray](../matharray), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathArray](../matharray) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -14541,6 +14520,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathArray](../matharray) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathArray](../matharray), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathArray](../matharray) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -14763,7 +14763,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -14771,7 +14771,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -14784,7 +14784,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -14792,7 +14792,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -14868,6 +14868,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -14910,48 +14931,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -14982,6 +14961,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -15044,447 +15044,6 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | Lower limit of integral |
-| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathArray](../matharray) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
-| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
 
  **Returns:**
@@ -15645,7 +15204,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -15653,7 +15212,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -15666,7 +15225,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -15674,7 +15233,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -15750,6 +15309,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -15792,48 +15372,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -15864,6 +15402,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -15926,6 +15485,447 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathAccent](../mathaccent) | Lower limit of integral |
+| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathArray](../matharray) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
+| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | Lower limit of integral |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
 
  **Returns:**
@@ -16086,7 +16086,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -16094,7 +16094,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -16107,7 +16107,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -16115,7 +16115,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -16191,6 +16191,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -16233,48 +16254,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -16305,6 +16284,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBorderBox](../mathborderbox) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -16527,7 +16527,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -16535,7 +16535,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -16548,7 +16548,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -16556,7 +16556,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -16632,6 +16632,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -16674,48 +16695,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -16746,6 +16725,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -16968,7 +16968,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathBar](../mathbar), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -16976,7 +16976,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -16989,7 +16989,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -16997,7 +16997,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -17073,6 +17073,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathBar](../mathbar), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -17115,48 +17136,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBar](../mathbar), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathBar](../mathbar), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -17187,6 +17166,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathBar](../mathbar), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -17249,6 +17249,447 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBar](../mathbar) | Lower limit of integral |
+| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathBlock](../mathblock)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathRadical](../mathradical)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathArray](../matharray)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathArray](../matharray) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathBar](../mathbar)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [BaseScript](../basescript)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathBox](../mathbox)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
+| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
 
  **Returns:**
@@ -17409,7 +17850,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -17417,7 +17858,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -17430,7 +17871,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -17438,7 +17879,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -17514,6 +17955,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -17556,48 +18018,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -17628,6 +18048,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -17850,7 +18291,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -17858,7 +18299,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -17871,7 +18312,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -17879,7 +18320,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -17955,6 +18396,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -17997,48 +18459,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -18069,6 +18489,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -18131,888 +18572,6 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBlock](../mathblock)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathRadical](../mathradical)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathArray](../matharray)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathArray](../matharray) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBar](../mathbar)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [BaseScript](../basescript)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathBox](../mathbox)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFunction](../mathfunction) | Lower limit of integral |
-| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBlock](../mathblock)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathRadical](../mathradical)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathArray](../matharray)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathArray](../matharray) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBar](../mathbar)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [BaseScript](../basescript)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathBox](../mathbox)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
-| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
 
  **Returns:**
@@ -19173,7 +18732,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -19181,7 +18740,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -19194,7 +18753,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -19202,7 +18761,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -19278,6 +18837,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -19320,48 +18900,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -19392,6 +18930,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathematicalText](../mathematicaltext) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -19614,7 +19173,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [BaseScript](../basescript), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -19622,7 +19181,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -19635,7 +19194,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [BaseScript](../basescript), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -19643,7 +19202,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -19719,6 +19278,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [BaseScript](../basescript), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -19761,48 +19341,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [BaseScript](../basescript), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [BaseScript](../basescript), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -19833,6 +19371,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [BaseScript](../basescript), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -19895,6 +19454,447 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [BaseScript](../basescript) | Lower limit of integral |
+| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathMatrix](../mathmatrix) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathLimit](../mathlimit) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathBlock](../mathblock)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathBlock](../mathblock) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathRadical](../mathradical)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathRadical](../mathradical) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathArray](../matharray)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathArray](../matharray) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathDelimiter](../mathdelimiter) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathBorderBox](../mathborderbox) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathBar](../mathbar)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathBar](../mathbar) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathematicalText](../mathematicaltext) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [BaseScript](../basescript)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathBox](../mathbox)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathBox](../mathbox) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
+| upperLimit | [MathElementBase](../mathelementbase) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathFraction](../mathfraction) | Lower limit of integral |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Upper limit of integral |
 
  **Returns:**
@@ -20055,7 +20055,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathBox](../mathbox), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -20063,7 +20063,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -20076,7 +20076,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -20084,7 +20084,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -20160,6 +20160,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathBox](../mathbox), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -20202,48 +20223,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathBox](../mathbox), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathBox](../mathbox), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -20274,6 +20253,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathBox](../mathbox), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathBox](../mathbox) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -20496,7 +20496,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -20504,7 +20504,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -20517,7 +20517,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -20525,7 +20525,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -20601,6 +20601,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -20643,48 +20664,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -20715,6 +20694,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathElementBase](../mathelementbase) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -20937,7 +20937,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
+| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
 
  **Parameters:**
 
@@ -20945,7 +20945,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
+| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -20958,7 +20958,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Takes the integral |
+| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Takes the integral |
 
  **Parameters:**
 
@@ -20966,7 +20966,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | integralType | int | Integral type |
 | lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathAccent](../mathaccent) | Upper limit of integral |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -21042,6 +21042,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
 | integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Takes the integral |
 
  **Parameters:**
@@ -21084,48 +21105,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFunction](../mathfunction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
-| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| integralType | int | Integral type |
-| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
-| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### integral {#integral}
-
-| Name | Description |
-| --- | --- |
 | integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Takes the integral |
 
  **Parameters:**
@@ -21156,6 +21135,27 @@ url: /aspose.slides/mathelementbase/
 | integralType | int | Integral type |
 | lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
 | upperLimit | [BaseScript](../basescript) | Upper limit of integral |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### integral {#integral}
+
+| Name | Description |
+| --- | --- |
+| integral (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Takes the integral |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| integralType | int | Integral type |
+| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Lower limit of integral |
+| upperLimit | [MathFraction](../mathfraction) | Upper limit of integral |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -21426,13 +21426,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| join ([MathNaryOperator](../mathnaryoperator)) | Joins a mathematical element and forms a mathematical block |
+| join ([MathAccent](../mathaccent)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathNaryOperator](../mathnaryoperator) | The element to be joined |
+| mathElement | [MathAccent](../mathaccent) | The element to be joined |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -21445,13 +21445,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| join ([MathAccent](../mathaccent)) | Joins a mathematical element and forms a mathematical block |
+| join ([MathNaryOperator](../mathnaryoperator)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathAccent](../mathaccent) | The element to be joined |
+| mathElement | [MathNaryOperator](../mathnaryoperator) | The element to be joined |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -21521,6 +21521,25 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| join ([MathFunction](../mathfunction)) | Joins a mathematical element and forms a mathematical block |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFunction](../mathfunction) | The element to be joined |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### join {#join}
+
+| Name | Description |
+| --- | --- |
 | join ([MathSubscriptElement](../mathsubscriptelement)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
@@ -21559,44 +21578,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| join ([MathFunction](../mathfunction)) | Joins a mathematical element and forms a mathematical block |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../mathfunction) | The element to be joined |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### join {#join}
-
-| Name | Description |
-| --- | --- |
-| join ([MathFraction](../mathfraction)) | Joins a mathematical element and forms a mathematical block |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFraction](../mathfraction) | The element to be joined |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### join {#join}
-
-| Name | Description |
-| --- | --- |
 | join ([MathematicalText](../mathematicaltext)) | Joins a mathematical element and forms a mathematical block |
 
  **Parameters:**
@@ -21623,6 +21604,25 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [BaseScript](../basescript) | The element to be joined |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### join {#join}
+
+| Name | Description |
+| --- | --- |
+| join ([MathFraction](../mathfraction)) | Joins a mathematical element and forms a mathematical block |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFraction](../mathfraction) | The element to be joined |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -21858,7 +21858,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -21866,7 +21866,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -21879,7 +21879,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -21887,7 +21887,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -21963,6 +21963,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -22005,48 +22026,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -22077,6 +22056,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -22299,7 +22299,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22307,7 +22307,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathMatrix](../mathmatrix) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -22320,7 +22320,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22328,7 +22328,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathMatrix](../mathmatrix) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -22404,6 +22404,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathMatrix](../mathmatrix) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -22446,48 +22467,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathMatrix](../mathmatrix) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathMatrix](../mathmatrix) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -22518,6 +22497,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathMatrix](../mathmatrix) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathMatrix](../mathmatrix) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -22740,7 +22740,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22748,7 +22748,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathLimit](../mathlimit) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -22761,7 +22761,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -22769,7 +22769,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathLimit](../mathlimit) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -22845,6 +22845,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathLimit](../mathlimit) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -22887,48 +22908,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathLimit](../mathlimit) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathLimit](../mathlimit) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -22959,6 +22938,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathLimit](../mathlimit) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathLimit](../mathlimit) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -23181,7 +23181,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23189,7 +23189,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBlock](../mathblock) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -23202,7 +23202,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23210,7 +23210,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBlock](../mathblock) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -23286,6 +23286,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathBlock](../mathblock) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -23328,48 +23349,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathBlock](../mathblock) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathBlock](../mathblock) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -23400,6 +23379,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBlock](../mathblock) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathBlock](../mathblock) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -23622,7 +23622,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23630,7 +23630,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathRadical](../mathradical) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -23643,7 +23643,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -23651,7 +23651,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathRadical](../mathradical) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -23727,6 +23727,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathRadical](../mathradical) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -23769,48 +23790,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathRadical](../mathradical) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathRadical](../mathradical) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -23841,6 +23820,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathRadical](../mathradical) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathRadical](../mathradical) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -24063,7 +24063,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathArray](../matharray), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24071,7 +24071,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathArray](../matharray) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -24084,7 +24084,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24092,7 +24092,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathArray](../matharray) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -24168,6 +24168,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathArray](../matharray), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathArray](../matharray) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -24210,48 +24231,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathArray](../matharray), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathArray](../matharray) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathArray](../matharray), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathArray](../matharray) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -24282,6 +24261,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathArray](../matharray) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathArray](../matharray), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathArray](../matharray) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -24504,7 +24504,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24512,7 +24512,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -24525,7 +24525,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -24533,7 +24533,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -24609,6 +24609,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathDelimiter](../mathdelimiter) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -24651,48 +24672,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathDelimiter](../mathdelimiter) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathDelimiter](../mathdelimiter) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -24723,6 +24702,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathDelimiter](../mathdelimiter) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -24785,447 +24785,6 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathDelimiter](../mathdelimiter) | The lower limit |
-| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathMatrix](../mathmatrix) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathLimit](../mathlimit) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathBlock](../mathblock) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathRadical](../mathradical) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathArray](../matharray) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathDelimiter](../mathdelimiter) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathBorderBox](../mathborderbox) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathBar](../mathbar) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathematicalText](../mathematicaltext) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [BaseScript](../basescript) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathBox](../mathbox) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
-| upperLimit | [MathElementBase](../mathelementbase) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
 
  **Returns:**
@@ -25386,7 +24945,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25394,7 +24953,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathAccent](../mathaccent) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -25407,7 +24966,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25415,7 +24974,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathAccent](../mathaccent) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -25491,6 +25050,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathAccent](../mathaccent) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -25533,48 +25113,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathAccent](../mathaccent) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathAccent](../mathaccent) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -25605,6 +25143,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathAccent](../mathaccent) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathAccent](../mathaccent) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -25667,6 +25226,447 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathAccent](../mathaccent) | The lower limit |
+| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathMatrix](../mathmatrix) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathLimit](../mathlimit) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathBlock](../mathblock) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathRadical](../mathradical) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathArray](../matharray) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathDelimiter](../mathdelimiter) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathBorderBox](../mathborderbox) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathBar](../mathbar) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathematicalText](../mathematicaltext) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathBox](../mathbox) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
+| upperLimit | [MathElementBase](../mathelementbase) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathNaryOperator](../mathnaryoperator) | The lower limit |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
 
  **Returns:**
@@ -25827,7 +25827,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25835,7 +25835,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBorderBox](../mathborderbox) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -25848,7 +25848,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -25856,7 +25856,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBorderBox](../mathborderbox) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -25932,6 +25932,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathBorderBox](../mathborderbox) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -25974,48 +25995,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathBorderBox](../mathborderbox) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathBorderBox](../mathborderbox) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -26046,6 +26025,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBorderBox](../mathborderbox) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathBorderBox](../mathborderbox) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -26268,7 +26268,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26276,7 +26276,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -26289,7 +26289,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26297,7 +26297,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -26373,6 +26373,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -26415,48 +26436,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -26487,6 +26466,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -26709,7 +26709,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26717,7 +26717,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBar](../mathbar) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -26730,7 +26730,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -26738,7 +26738,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBar](../mathbar) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -26814,6 +26814,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathBar](../mathbar) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -26856,48 +26877,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathBar](../mathbar) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathBar](../mathbar) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -26928,6 +26907,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBar](../mathbar) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathBar](../mathbar) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -26990,6 +26990,447 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBar](../mathbar) | The lower limit |
+| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathMatrix](../mathmatrix) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathLimit](../mathlimit) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathBlock](../mathblock) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathRadical](../mathradical) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathArray](../matharray)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathArray](../matharray) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathDelimiter](../mathdelimiter) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathBorderBox](../mathborderbox) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathBar](../mathbar) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathematicalText](../mathematicaltext) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [BaseScript](../basescript)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathBox](../mathbox) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
+| upperLimit | [MathElementBase](../mathelementbase) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
 
  **Returns:**
@@ -27150,7 +27591,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27158,7 +27599,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -27171,7 +27612,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27179,7 +27620,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -27255,6 +27696,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -27297,48 +27759,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -27369,6 +27789,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathSubscriptElement](../mathsubscriptelement) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -27591,7 +28032,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27599,7 +28040,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -27612,7 +28053,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -27620,7 +28061,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -27696,6 +28137,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -27738,48 +28200,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -27810,6 +28230,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -27872,888 +28313,6 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The lower limit |
-| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathMatrix](../mathmatrix) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathLimit](../mathlimit) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathBlock](../mathblock) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathRadical](../mathradical) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathArray](../matharray)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathArray](../matharray) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathDelimiter](../mathdelimiter) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathBorderBox](../mathborderbox) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathBar](../mathbar) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathematicalText](../mathematicaltext) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [BaseScript](../basescript)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [BaseScript](../basescript) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathBox](../mathbox) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathElementBase](../mathelementbase) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFunction](../mathfunction) | The lower limit |
-| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathMatrix](../mathmatrix) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathLimit](../mathlimit) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathBlock](../mathblock) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathRadical](../mathradical) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathArray](../matharray)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathArray](../matharray) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathDelimiter](../mathdelimiter) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathBorderBox](../mathborderbox) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathBar](../mathbar) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathematicalText](../mathematicaltext) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [BaseScript](../basescript)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [BaseScript](../basescript) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathBox](../mathbox) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
-| upperLimit | [MathElementBase](../mathelementbase) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
 
  **Returns:**
@@ -28914,7 +28473,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28922,7 +28481,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathematicalText](../mathematicaltext) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -28935,7 +28494,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -28943,7 +28502,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathematicalText](../mathematicaltext) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -29019,6 +28578,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathematicalText](../mathematicaltext) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -29061,48 +28641,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathematicalText](../mathematicaltext) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathematicalText](../mathematicaltext) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -29133,6 +28671,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathematicalText](../mathematicaltext) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathematicalText](../mathematicaltext) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -29355,7 +28914,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [BaseScript](../basescript), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29363,7 +28922,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [BaseScript](../basescript) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -29376,7 +28935,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [BaseScript](../basescript), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29384,7 +28943,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [BaseScript](../basescript) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -29460,6 +29019,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [BaseScript](../basescript), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [BaseScript](../basescript) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -29502,48 +29082,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [BaseScript](../basescript), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [BaseScript](../basescript) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [BaseScript](../basescript), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [BaseScript](../basescript) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -29574,6 +29112,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [BaseScript](../basescript) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [BaseScript](../basescript), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [BaseScript](../basescript) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -29636,6 +29195,447 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [BaseScript](../basescript) | The lower limit |
+| upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathMatrix](../mathmatrix) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathLimit](../mathlimit) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathBlock](../mathblock) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathRadical](../mathradical) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathArray](../matharray)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathArray](../matharray) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathDelimiter](../mathdelimiter) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathBorderBox](../mathborderbox) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathGroupingCharacter](../mathgroupingcharacter) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathBar](../mathbar) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathSubscriptElement](../mathsubscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathSuperscriptElement](../mathsuperscriptelement) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathematicalText](../mathematicaltext) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [BaseScript](../basescript)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathBox](../mathbox) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
+| upperLimit | [MathElementBase](../mathelementbase) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathFraction](../mathfraction) | The lower limit |
 | upperLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The upper limit |
 
  **Returns:**
@@ -29796,7 +29796,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29804,7 +29804,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBox](../mathbox) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -29817,7 +29817,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -29825,7 +29825,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBox](../mathbox) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -29901,6 +29901,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathBox](../mathbox) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -29943,48 +29964,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathBox](../mathbox) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathBox](../mathbox) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -30015,6 +29994,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathBox](../mathbox) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathBox](../mathbox) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -30237,7 +30237,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30245,7 +30245,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathElementBase](../mathelementbase) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -30258,7 +30258,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30266,7 +30266,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathElementBase](../mathelementbase) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -30342,6 +30342,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathElementBase](../mathelementbase) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -30384,48 +30405,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathElementBase](../mathelementbase) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathElementBase](../mathelementbase) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -30456,6 +30435,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathElementBase](../mathelementbase) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathElementBase](../mathelementbase) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -30678,7 +30678,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
+| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30686,7 +30686,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The lower limit |
-| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
+| upperLimit | [MathAccent](../mathaccent) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -30699,7 +30699,7 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates a N-ary operator |
+| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a N-ary operator |
 
  **Parameters:**
 
@@ -30707,7 +30707,7 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | type | int | The N-ary operator type |
 | lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The lower limit |
-| upperLimit | [MathAccent](../mathaccent) | The upper limit |
+| upperLimit | [MathNaryOperator](../mathnaryoperator) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -30783,6 +30783,27 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The lower limit |
+| upperLimit | [MathFunction](../mathfunction) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
 | nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -30825,48 +30846,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The lower limit |
-| upperLimit | [MathFunction](../mathfunction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
-| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| type | int | The N-ary operator type |
-| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The lower limit |
-| upperLimit | [MathFraction](../mathfraction) | The upper limit |
-
- **Returns:**
-[MathNaryOperator](../mathnaryoperator)
-
-
----
-
-
-### nary {#nary}
-
-| Name | Description |
-| --- | --- |
 | nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a N-ary operator |
 
  **Parameters:**
@@ -30897,6 +30876,27 @@ url: /aspose.slides/mathelementbase/
 | type | int | The N-ary operator type |
 | lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The lower limit |
 | upperLimit | [BaseScript](../basescript) | The upper limit |
+
+ **Returns:**
+[MathNaryOperator](../mathnaryoperator)
+
+
+---
+
+
+### nary {#nary}
+
+| Name | Description |
+| --- | --- |
+| nary (int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a N-ary operator |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | The N-ary operator type |
+| lowerLimit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The lower limit |
+| upperLimit | [MathFraction](../mathfraction) | The upper limit |
 
  **Returns:**
 [MathNaryOperator](../mathnaryoperator)
@@ -31139,13 +31139,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| radical ([MathNaryOperator](../mathnaryoperator)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical ([MathAccent](../mathaccent)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| degree | [MathNaryOperator](../mathnaryoperator) | Argument of Radical |
+| degree | [MathAccent](../mathaccent) | Argument of Radical |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -31158,13 +31158,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| radical ([MathAccent](../mathaccent)) | Specifies the mathematical root of the given degree from the specified argument. |
+| radical ([MathNaryOperator](../mathnaryoperator)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| degree | [MathAccent](../mathaccent) | Argument of Radical |
+| degree | [MathNaryOperator](../mathnaryoperator) | Argument of Radical |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -31234,6 +31234,25 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| radical ([MathFunction](../mathfunction)) | Specifies the mathematical root of the given degree from the specified argument. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| degree | [MathFunction](../mathfunction) | Argument of Radical |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### radical {#radical}
+
+| Name | Description |
+| --- | --- |
 | radical ([MathSubscriptElement](../mathsubscriptelement)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
@@ -31272,44 +31291,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| radical ([MathFunction](../mathfunction)) | Specifies the mathematical root of the given degree from the specified argument. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| degree | [MathFunction](../mathfunction) | Argument of Radical |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### radical {#radical}
-
-| Name | Description |
-| --- | --- |
-| radical ([MathFraction](../mathfraction)) | Specifies the mathematical root of the given degree from the specified argument. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| degree | [MathFraction](../mathfraction) | Argument of Radical |
-
- **Returns:**
-[MathRadical](../mathradical)
-
-
----
-
-
-### radical {#radical}
-
-| Name | Description |
-| --- | --- |
 | radical ([MathematicalText](../mathematicaltext)) | Specifies the mathematical root of the given degree from the specified argument. |
 
  **Parameters:**
@@ -31336,6 +31317,25 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | degree | [BaseScript](../basescript) | Argument of Radical |
+
+ **Returns:**
+[MathRadical](../mathradical)
+
+
+---
+
+
+### radical {#radical}
+
+| Name | Description |
+| --- | --- |
+| radical ([MathFraction](../mathfraction)) | Specifies the mathematical root of the given degree from the specified argument. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| degree | [MathFraction](../mathfraction) | Argument of Radical |
 
  **Returns:**
 [MathRadical](../mathradical)
@@ -31557,13 +31557,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathNaryOperator](../mathnaryoperator)) | Takes lower limit |
+| setLowerLimit ([MathAccent](../mathaccent)) | Takes lower limit |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| limit | [MathNaryOperator](../mathnaryoperator) | limit |
+| limit | [MathAccent](../mathaccent) | limit |
 
  **Returns:**
 [MathLimit](../mathlimit)
@@ -31576,13 +31576,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathAccent](../mathaccent)) | Takes lower limit |
+| setLowerLimit ([MathNaryOperator](../mathnaryoperator)) | Takes lower limit |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| limit | [MathAccent](../mathaccent) | limit |
+| limit | [MathNaryOperator](../mathnaryoperator) | limit |
 
  **Returns:**
 [MathLimit](../mathlimit)
@@ -31652,6 +31652,25 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setLowerLimit ([MathFunction](../mathfunction)) | Takes lower limit |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| limit | [MathFunction](../mathfunction) | limit |
+
+ **Returns:**
+[MathLimit](../mathlimit)
+
+
+---
+
+
+### setLowerLimit {#setLowerLimit}
+
+| Name | Description |
+| --- | --- |
 | setLowerLimit ([MathSubscriptElement](../mathsubscriptelement)) | Takes lower limit |
 
  **Parameters:**
@@ -31690,44 +31709,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setLowerLimit ([MathFunction](../mathfunction)) | Takes lower limit |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| limit | [MathFunction](../mathfunction) | limit |
-
- **Returns:**
-[MathLimit](../mathlimit)
-
-
----
-
-
-### setLowerLimit {#setLowerLimit}
-
-| Name | Description |
-| --- | --- |
-| setLowerLimit ([MathFraction](../mathfraction)) | Takes lower limit |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| limit | [MathFraction](../mathfraction) | limit |
-
- **Returns:**
-[MathLimit](../mathlimit)
-
-
----
-
-
-### setLowerLimit {#setLowerLimit}
-
-| Name | Description |
-| --- | --- |
 | setLowerLimit ([MathematicalText](../mathematicaltext)) | Takes lower limit |
 
  **Parameters:**
@@ -31754,6 +31735,25 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | limit | [BaseScript](../basescript) | limit |
+
+ **Returns:**
+[MathLimit](../mathlimit)
+
+
+---
+
+
+### setLowerLimit {#setLowerLimit}
+
+| Name | Description |
+| --- | --- |
+| setLowerLimit ([MathFraction](../mathfraction)) | Takes lower limit |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| limit | [MathFraction](../mathfraction) | limit |
 
  **Returns:**
 [MathLimit](../mathlimit)
@@ -31982,14 +31982,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -32002,14 +32002,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -32082,6 +32082,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -32122,46 +32142,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -32190,6 +32170,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -32402,14 +32402,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -32422,14 +32422,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -32502,6 +32502,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -32542,46 +32562,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -32610,6 +32590,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -32822,14 +32822,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathLimit](../mathlimit) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -32842,14 +32842,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathLimit](../mathlimit) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -32922,6 +32922,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathLimit](../mathlimit) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -32962,46 +32982,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathLimit](../mathlimit) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathLimit](../mathlimit) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -33030,6 +33010,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathLimit](../mathlimit) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathLimit](../mathlimit) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -33242,14 +33242,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBlock](../mathblock) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -33262,14 +33262,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBlock](../mathblock) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -33342,6 +33342,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBlock](../mathblock) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -33382,46 +33402,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBlock](../mathblock) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBlock](../mathblock) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -33450,6 +33430,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathBlock](../mathblock) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBlock](../mathblock) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -33662,14 +33662,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathRadical](../mathradical) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -33682,14 +33682,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathRadical](../mathradical) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -33762,6 +33762,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathRadical](../mathradical) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -33802,46 +33822,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathRadical](../mathradical) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathRadical](../mathradical) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -33870,6 +33850,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathRadical](../mathradical) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathRadical](../mathradical) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -34082,14 +34082,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathArray](../matharray) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -34102,14 +34102,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathArray](../matharray) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -34182,6 +34182,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathArray](../matharray) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -34222,46 +34242,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathArray](../matharray) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathArray](../matharray) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -34290,6 +34270,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathArray](../matharray) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathArray](../matharray) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -34502,14 +34502,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -34522,14 +34522,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -34602,6 +34602,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -34642,46 +34662,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -34710,6 +34690,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -34769,426 +34769,6 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the left) |
-| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathBlock](../mathblock) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathRadical](../mathradical) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathArray](../matharray) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathBar](../mathbar) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathBox](../mathbox) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
-| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
 | superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
 
  **Returns:**
@@ -35342,14 +34922,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathAccent](../mathaccent) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -35362,14 +34942,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathAccent](../mathaccent) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -35442,6 +35022,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathAccent](../mathaccent) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -35482,46 +35082,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathAccent](../mathaccent) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathAccent](../mathaccent) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -35550,6 +35110,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathAccent](../mathaccent) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathAccent](../mathaccent) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -35609,6 +35189,426 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathAccent](../mathaccent) | Subscript (lower index on the left) |
+| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathBlock](../mathblock) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathRadical](../mathradical) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathArray](../matharray) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathBar](../mathbar) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathBox](../mathbox) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
+| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the left) |
 | superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
 
  **Returns:**
@@ -35762,14 +35762,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -35782,14 +35782,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -35862,6 +35862,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -35902,46 +35922,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -35970,6 +35950,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -36182,14 +36182,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -36202,14 +36202,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -36282,6 +36282,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -36322,46 +36342,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -36390,6 +36370,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -36602,14 +36602,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBar](../mathbar) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -36622,14 +36622,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBar](../mathbar) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -36702,6 +36702,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBar](../mathbar) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -36742,46 +36762,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBar](../mathbar) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBar](../mathbar) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -36810,6 +36790,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathBar](../mathbar) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBar](../mathbar) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -36869,6 +36869,426 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBar](../mathbar) | Subscript (lower index on the left) |
+| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathBlock](../mathblock) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathRadical](../mathradical) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathArray](../matharray) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathBar](../mathbar) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [BaseScript](../basescript)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathBox](../mathbox) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
+| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
 | superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
 
  **Returns:**
@@ -37022,14 +37442,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -37042,14 +37462,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -37122,6 +37542,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -37162,46 +37602,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -37230,6 +37630,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -37442,14 +37862,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -37462,14 +37882,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -37542,6 +37962,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -37582,46 +38022,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -37650,6 +38050,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -37709,846 +38129,6 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathBlock](../mathblock) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathRadical](../mathradical) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathArray](../matharray) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathBar](../mathbar) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [BaseScript](../basescript)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathBox](../mathbox) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the left) |
-| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathBlock](../mathblock) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathRadical](../mathradical) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathArray](../matharray) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathBar](../mathbar) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [BaseScript](../basescript)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathBox](../mathbox) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
-| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
 | superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
 
  **Returns:**
@@ -38702,14 +38282,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -38722,14 +38302,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -38802,6 +38382,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -38842,46 +38442,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -38910,6 +38470,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -39122,14 +38702,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([BaseScript](../basescript), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [BaseScript](../basescript) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -39142,14 +38722,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([BaseScript](../basescript), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [BaseScript](../basescript) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -39222,6 +38802,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([BaseScript](../basescript), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [BaseScript](../basescript) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -39262,46 +38862,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([BaseScript](../basescript), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [BaseScript](../basescript) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([BaseScript](../basescript), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [BaseScript](../basescript) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -39330,6 +38890,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [BaseScript](../basescript) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([BaseScript](../basescript), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [BaseScript](../basescript) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -39389,6 +38969,426 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [BaseScript](../basescript) | Subscript (lower index on the left) |
+| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathBlock](../mathblock) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathRadical](../mathradical) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathArray](../matharray) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathBar](../mathbar) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [BaseScript](../basescript)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathBox](../mathbox) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
+| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the left) |
 | superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the left) |
 
  **Returns:**
@@ -39542,14 +39542,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBox](../mathbox) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -39562,14 +39562,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBox](../mathbox) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -39642,6 +39642,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBox](../mathbox) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -39682,46 +39702,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBox](../mathbox) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBox](../mathbox) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -39750,6 +39730,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathBox](../mathbox) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBox](../mathbox) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -39962,14 +39962,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -39982,14 +39982,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -40062,6 +40062,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -40102,46 +40122,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -40170,6 +40150,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -40382,14 +40382,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -40402,14 +40402,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the left |
+| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the left |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the left) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -40482,6 +40482,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the left) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -40522,46 +40542,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the left) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
-
- **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the left |
 
  **Parameters:**
@@ -40590,6 +40570,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the left) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the left) |
+
+ **Returns:**
+[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheLeft {#setSubSuperscriptOnTheLeft}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheLeft ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the left |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the left) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the left) |
 
  **Returns:**
 [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
@@ -40822,14 +40822,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -40842,14 +40842,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -40922,6 +40922,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -40962,46 +40982,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -41030,6 +41010,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -41242,14 +41242,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -41262,14 +41262,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -41342,6 +41342,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -41382,46 +41402,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -41450,6 +41430,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathMatrix](../mathmatrix) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -41662,14 +41662,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathLimit](../mathlimit) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -41682,14 +41682,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathLimit](../mathlimit) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -41762,6 +41762,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathLimit](../mathlimit) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -41802,46 +41822,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathLimit](../mathlimit) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathLimit](../mathlimit) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -41870,6 +41850,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathLimit](../mathlimit) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathLimit](../mathlimit) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -42082,14 +42082,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBlock](../mathblock) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -42102,14 +42102,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBlock](../mathblock) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -42182,6 +42182,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBlock](../mathblock) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -42222,46 +42242,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBlock](../mathblock) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBlock](../mathblock) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -42290,6 +42270,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathBlock](../mathblock) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBlock](../mathblock) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -42502,14 +42502,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathRadical](../mathradical) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -42522,14 +42522,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathRadical](../mathradical) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -42602,6 +42602,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathRadical](../mathradical) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -42642,46 +42662,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathRadical](../mathradical) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathRadical](../mathradical) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -42710,6 +42690,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathRadical](../mathradical) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathRadical](../mathradical) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -42922,14 +42922,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathArray](../matharray) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -42942,14 +42942,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathArray](../matharray) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -43022,6 +43022,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathArray](../matharray) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -43062,46 +43082,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathArray](../matharray) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathArray](../matharray) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -43130,6 +43110,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathArray](../matharray) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathArray](../matharray) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -43342,14 +43342,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -43362,14 +43362,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -43442,6 +43442,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -43482,46 +43502,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -43550,6 +43530,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -43609,426 +43609,6 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathDelimiter](../mathdelimiter) | Subscript (lower index on the right) |
-| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathBlock](../mathblock) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathRadical](../mathradical) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathArray](../matharray) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathBar](../mathbar) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathBox](../mathbox) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
-| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
 | superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
 
  **Returns:**
@@ -44182,14 +43762,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathAccent](../mathaccent) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -44202,14 +43782,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathAccent](../mathaccent) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -44282,6 +43862,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathAccent](../mathaccent) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -44322,46 +43922,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathAccent](../mathaccent) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathAccent](../mathaccent) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -44390,6 +43950,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathAccent](../mathaccent) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathAccent](../mathaccent) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -44449,6 +44029,426 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathAccent](../mathaccent) | Subscript (lower index on the right) |
+| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathBlock](../mathblock) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathRadical](../mathradical) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathArray](../matharray) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathBar](../mathbar) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathBox](../mathbox) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
 | superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
 
  **Returns:**
@@ -44602,14 +44602,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -44622,14 +44622,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -44702,6 +44702,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -44742,46 +44762,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -44810,6 +44790,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBorderBox](../mathborderbox) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -45022,14 +45022,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -45042,14 +45042,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -45122,6 +45122,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -45162,46 +45182,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -45230,6 +45210,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathGroupingCharacter](../mathgroupingcharacter) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -45442,14 +45442,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBar](../mathbar) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -45462,14 +45462,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBar](../mathbar) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -45542,6 +45542,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBar](../mathbar) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -45582,46 +45602,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBar](../mathbar) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBar](../mathbar) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -45650,6 +45630,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathBar](../mathbar) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBar](../mathbar) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -45709,6 +45709,426 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBar](../mathbar) | Subscript (lower index on the right) |
+| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathBlock](../mathblock) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathRadical](../mathradical) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathArray](../matharray) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathBar](../mathbar) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [BaseScript](../basescript)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathBox](../mathbox) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
 | superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
 
  **Returns:**
@@ -45862,14 +46282,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -45882,14 +46302,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -45962,6 +46382,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -46002,46 +46442,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -46070,6 +46470,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathSubscriptElement](../mathsubscriptelement) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -46282,14 +46702,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -46302,14 +46722,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -46382,6 +46802,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -46422,46 +46862,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -46490,6 +46890,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -46549,846 +46969,6 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathSuperscriptElement](../mathsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathBlock](../mathblock) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathRadical](../mathradical) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathArray](../matharray) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathBar](../mathbar) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [BaseScript](../basescript)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathBox](../mathbox) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathBlock](../mathblock) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathRadical](../mathradical) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathArray](../matharray) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathBar](../mathbar) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [BaseScript](../basescript)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathBox](../mathbox) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
 | superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
 
  **Returns:**
@@ -47542,14 +47122,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -47562,14 +47142,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -47642,6 +47222,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -47682,46 +47282,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -47750,6 +47310,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathematicalText](../mathematicaltext) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -47962,14 +47542,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([BaseScript](../basescript), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [BaseScript](../basescript) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -47982,14 +47562,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([BaseScript](../basescript), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [BaseScript](../basescript) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -48062,6 +47642,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([BaseScript](../basescript), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [BaseScript](../basescript) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -48102,46 +47702,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([BaseScript](../basescript), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [BaseScript](../basescript) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([BaseScript](../basescript), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [BaseScript](../basescript) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -48170,6 +47730,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [BaseScript](../basescript) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([BaseScript](../basescript), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [BaseScript](../basescript) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -48229,6 +47809,426 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [BaseScript](../basescript) | Subscript (lower index on the right) |
+| superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathMatrix](../mathmatrix) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathLimit](../mathlimit) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathBlock](../mathblock) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathRadical](../mathradical) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathArray](../matharray) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathDelimiter](../mathdelimiter) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathBorderBox](../mathborderbox) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathGroupingCharacter](../mathgroupingcharacter) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathBar](../mathbar) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathSubscriptElement](../mathsubscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathSuperscriptElement](../mathsuperscriptelement) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathematicalText](../mathematicaltext) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [BaseScript](../basescript)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathBox](../mathbox) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
+| superscript | [MathElementBase](../mathelementbase) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
 | superscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Superscript (upper index on the right) |
 
  **Returns:**
@@ -48382,14 +48382,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBox](../mathbox) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -48402,14 +48402,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathBox](../mathbox) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -48482,6 +48482,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBox](../mathbox) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -48522,46 +48542,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBox](../mathbox) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathBox](../mathbox) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -48590,6 +48570,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathBox](../mathbox) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathBox](../mathbox) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -48802,14 +48802,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -48822,14 +48822,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -48902,6 +48902,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -48942,46 +48962,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -49010,6 +48990,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathElementBase](../mathelementbase) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -49222,14 +49222,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -49242,14 +49242,14 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates subscript and superscript on the right |
+| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates subscript and superscript on the right |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -49322,6 +49322,26 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the right) |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
 | setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -49362,46 +49382,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
-| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the right) |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
-
-
----
-
-
-### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
-
-| Name | Description |
-| --- | --- |
 | setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates subscript and superscript on the right |
 
  **Parameters:**
@@ -49430,6 +49410,26 @@ url: /aspose.slides/mathelementbase/
 | --- | --- | --- |
 | subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the right) |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
+
+
+---
+
+
+### setSubSuperscriptOnTheRight {#setSubSuperscriptOnTheRight}
+
+| Name | Description |
+| --- | --- |
+| setSubSuperscriptOnTheRight ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates subscript and superscript on the right |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Subscript (lower index on the right) |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)
@@ -49655,13 +49655,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathNaryOperator](../mathnaryoperator)) | Creates subscript |
+| setSubscript ([MathAccent](../mathaccent)) | Creates subscript |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
+| subscript | [MathAccent](../mathaccent) | Subscript (lower index on the right) |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -49674,13 +49674,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathAccent](../mathaccent)) | Creates subscript |
+| setSubscript ([MathNaryOperator](../mathnaryoperator)) | Creates subscript |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| subscript | [MathAccent](../mathaccent) | Subscript (lower index on the right) |
+| subscript | [MathNaryOperator](../mathnaryoperator) | Subscript (lower index on the right) |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -49750,6 +49750,25 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSubscript ([MathFunction](../mathfunction)) | Creates subscript |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### setSubscript {#setSubscript}
+
+| Name | Description |
+| --- | --- |
 | setSubscript ([MathSubscriptElement](../mathsubscriptelement)) | Creates subscript |
 
  **Parameters:**
@@ -49788,44 +49807,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSubscript ([MathFunction](../mathfunction)) | Creates subscript |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFunction](../mathfunction) | Subscript (lower index on the right) |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### setSubscript {#setSubscript}
-
-| Name | Description |
-| --- | --- |
-| setSubscript ([MathFraction](../mathfraction)) | Creates subscript |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
-
- **Returns:**
-[MathSubscriptElement](../mathsubscriptelement)
-
-
----
-
-
-### setSubscript {#setSubscript}
-
-| Name | Description |
-| --- | --- |
 | setSubscript ([MathematicalText](../mathematicaltext)) | Creates subscript |
 
  **Parameters:**
@@ -49852,6 +49833,25 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | subscript | [BaseScript](../basescript) | Subscript (lower index on the right) |
+
+ **Returns:**
+[MathSubscriptElement](../mathsubscriptelement)
+
+
+---
+
+
+### setSubscript {#setSubscript}
+
+| Name | Description |
+| --- | --- |
+| setSubscript ([MathFraction](../mathfraction)) | Creates subscript |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| subscript | [MathFraction](../mathfraction) | Subscript (lower index on the right) |
 
  **Returns:**
 [MathSubscriptElement](../mathsubscriptelement)
@@ -50073,13 +50073,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathNaryOperator](../mathnaryoperator)) | Creates superscript |
+| setSuperscript ([MathAccent](../mathaccent)) | Creates superscript |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
+| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathSuperscriptElement](../mathsuperscriptelement)
@@ -50092,13 +50092,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathAccent](../mathaccent)) | Creates superscript |
+| setSuperscript ([MathNaryOperator](../mathnaryoperator)) | Creates superscript |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| superscript | [MathAccent](../mathaccent) | Superscript (upper index on the right) |
+| superscript | [MathNaryOperator](../mathnaryoperator) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathSuperscriptElement](../mathsuperscriptelement)
@@ -50168,6 +50168,25 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setSuperscript ([MathFunction](../mathfunction)) | Creates superscript |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathSuperscriptElement](../mathsuperscriptelement)
+
+
+---
+
+
+### setSuperscript {#setSuperscript}
+
+| Name | Description |
+| --- | --- |
 | setSuperscript ([MathSubscriptElement](../mathsubscriptelement)) | Creates superscript |
 
  **Parameters:**
@@ -50206,44 +50225,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setSuperscript ([MathFunction](../mathfunction)) | Creates superscript |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| superscript | [MathFunction](../mathfunction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathSuperscriptElement](../mathsuperscriptelement)
-
-
----
-
-
-### setSuperscript {#setSuperscript}
-
-| Name | Description |
-| --- | --- |
-| setSuperscript ([MathFraction](../mathfraction)) | Creates superscript |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
-
- **Returns:**
-[MathSuperscriptElement](../mathsuperscriptelement)
-
-
----
-
-
-### setSuperscript {#setSuperscript}
-
-| Name | Description |
-| --- | --- |
 | setSuperscript ([MathematicalText](../mathematicaltext)) | Creates superscript |
 
  **Parameters:**
@@ -50270,6 +50251,25 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | superscript | [BaseScript](../basescript) | Superscript (upper index on the right) |
+
+ **Returns:**
+[MathSuperscriptElement](../mathsuperscriptelement)
+
+
+---
+
+
+### setSuperscript {#setSuperscript}
+
+| Name | Description |
+| --- | --- |
+| setSuperscript ([MathFraction](../mathfraction)) | Creates superscript |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| superscript | [MathFraction](../mathfraction) | Superscript (upper index on the right) |
 
  **Returns:**
 [MathSuperscriptElement](../mathsuperscriptelement)
@@ -50491,13 +50491,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathNaryOperator](../mathnaryoperator)) | Takes upper limit |
+| setUpperLimit ([MathAccent](../mathaccent)) | Takes upper limit |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| limit | [MathNaryOperator](../mathnaryoperator) | limit |
+| limit | [MathAccent](../mathaccent) | limit |
 
  **Returns:**
 [MathLimit](../mathlimit)
@@ -50510,13 +50510,13 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathAccent](../mathaccent)) | Takes upper limit |
+| setUpperLimit ([MathNaryOperator](../mathnaryoperator)) | Takes upper limit |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| limit | [MathAccent](../mathaccent) | limit |
+| limit | [MathNaryOperator](../mathnaryoperator) | limit |
 
  **Returns:**
 [MathLimit](../mathlimit)
@@ -50586,6 +50586,25 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
+| setUpperLimit ([MathFunction](../mathfunction)) | Takes upper limit |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| limit | [MathFunction](../mathfunction) | limit |
+
+ **Returns:**
+[MathLimit](../mathlimit)
+
+
+---
+
+
+### setUpperLimit {#setUpperLimit}
+
+| Name | Description |
+| --- | --- |
 | setUpperLimit ([MathSubscriptElement](../mathsubscriptelement)) | Takes upper limit |
 
  **Parameters:**
@@ -50624,44 +50643,6 @@ url: /aspose.slides/mathelementbase/
 
 | Name | Description |
 | --- | --- |
-| setUpperLimit ([MathFunction](../mathfunction)) | Takes upper limit |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| limit | [MathFunction](../mathfunction) | limit |
-
- **Returns:**
-[MathLimit](../mathlimit)
-
-
----
-
-
-### setUpperLimit {#setUpperLimit}
-
-| Name | Description |
-| --- | --- |
-| setUpperLimit ([MathFraction](../mathfraction)) | Takes upper limit |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| limit | [MathFraction](../mathfraction) | limit |
-
- **Returns:**
-[MathLimit](../mathlimit)
-
-
----
-
-
-### setUpperLimit {#setUpperLimit}
-
-| Name | Description |
-| --- | --- |
 | setUpperLimit ([MathematicalText](../mathematicaltext)) | Takes upper limit |
 
  **Parameters:**
@@ -50688,6 +50669,25 @@ url: /aspose.slides/mathelementbase/
 | Name | Type | Description |
 | --- | --- | --- |
 | limit | [BaseScript](../basescript) | limit |
+
+ **Returns:**
+[MathLimit](../mathlimit)
+
+
+---
+
+
+### setUpperLimit {#setUpperLimit}
+
+| Name | Description |
+| --- | --- |
+| setUpperLimit ([MathFraction](../mathfraction)) | Takes upper limit |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| limit | [MathFraction](../mathfraction) | limit |
 
  **Returns:**
 [MathLimit](../mathlimit)

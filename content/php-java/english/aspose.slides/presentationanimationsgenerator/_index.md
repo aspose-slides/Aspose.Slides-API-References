@@ -21,7 +21,7 @@ url: /aspose.slides/presentationanimationsgenerator/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| presentation | [Presentation](../presentation) | The frame size will be set with accordance to the ( Presentation#getSlideSize) |
+| presentation | [Presentation](../presentation) | The frame size will be set with accordance to the Presentation#getSlideSize |
 
  **Returns:**
 PresentationAnimationsGenerator
@@ -120,19 +120,6 @@ Dimension
 ---
 
 
-### getGradientStyle {#getGradientStyle}
-
-| Name | Description |
-| --- | --- |
-| getGradientStyle () | Gets or sets the gradient style to be used for a gradient. This property allows the selection of predefined gradient styles which can affect the appearance of graphical elements. |
-
- **Returns:**
-int
-
-
----
-
-
 ### getIncludeHiddenSlides {#getIncludeHiddenSlides}
 
 | Name | Description |
@@ -177,19 +164,6 @@ void
 | Name | Description |
 | --- | --- |
 | setDefaultDelay (int) | Gets or sets default delay time [ms]. |
-
- **Returns:**
-void
-
-
----
-
-
-### setGradientStyle {#setGradientStyle}
-
-| Name | Description |
-| --- | --- |
-| setGradientStyle (int) | Gets or sets the gradient style to be used for a gradient. This property allows the selection of predefined gradient styles which can affect the appearance of graphical elements. |
 
  **Returns:**
 void

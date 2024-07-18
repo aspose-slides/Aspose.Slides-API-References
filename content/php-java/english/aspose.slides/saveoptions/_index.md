@@ -41,7 +41,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getGradientStyle () | Gets or sets the gradient style to be used for a gradient. This property allows the selection of predefined gradient styles which can affect the appearance of graphical elements. |
+| getGradientStyle () | Returns or sets the visual style of the gradient. Read/write GradientStyle. |
 
  **Returns:**
 int
@@ -93,7 +93,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setGradientStyle (int) | Gets or sets the gradient style to be used for a gradient. This property allows the selection of predefined gradient styles which can affect the appearance of graphical elements. |
+| setGradientStyle (int) | Returns or sets the visual style of the gradient. Read/write GradientStyle. |
 
  **Returns:**
 void

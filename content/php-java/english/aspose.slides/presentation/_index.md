@@ -792,15 +792,15 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| highlightRegex (Pattern, Color, [IFindResultCallback](../ifindresultcallback)) | Highlight all matches of regular expression in presentation using specified color. |
+| highlightRegex (Pattern, Color, [IFindResultCallback](../ifindresultcallback)) | Highlights all matches of the regular expression with the specified color. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to be replaced. |
-| highlightColor | Color | Highlighting color. |
-| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to highlight. |
+| highlightColor | Color | The color to highlight the text. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
 
  **Returns:**
 void
@@ -813,14 +813,14 @@ void
 
 | Name | Description |
 | --- | --- |
-| highlightText (String, Color) | Highlight all matches of sample in text frame text using specified color. |
+| highlightText (String, Color) | Highlights all matches of the sample text with the specified color. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | String | Text sample to highlight. |
-| highlightColor | Color | Highlighting color. |
+| text | String | The text to highlight. |
+| highlightColor | Color | The color to highlight the text. |
 
  **Returns:**
 void
@@ -833,16 +833,16 @@ void
 
 | Name | Description |
 | --- | --- |
-| highlightText (String, Color, [TextSearchOptions](../textsearchoptions), [IFindResultCallback](../ifindresultcallback)) | Highlight all matches of sample text in presentation using specified color. |
+| highlightText (String, Color, [TextSearchOptions](../textsearchoptions), [IFindResultCallback](../ifindresultcallback)) | Highlights all matches of the sample text with the specified color. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | String | Text sample to highlight. |
-| highlightColor | Color | Highlighting color. |
+| text | String | The text to highlight. |
+| highlightColor | Color | The color to highlight the text. |
 | options | [TextSearchOptions](../textsearchoptions) | Text search options ITextSearchOptions. |
-| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
 
  **Returns:**
 void
@@ -868,15 +868,15 @@ void
 
 | Name | Description |
 | --- | --- |
-| replaceRegex (Pattern, String, [IFindResultCallback](../ifindresultcallback)) | Replaces all matches of regular expression in presentation with specified string. |
+| replaceRegex (Pattern, String, [IFindResultCallback](../ifindresultcallback)) | Replaces all matches of the regular expression with the specified string. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to be replaced. |
-| newText | String | The string to replace all occurrences of strings to be replaced. |
-| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to replace. |
+| newText | String | The string to replace all occurrences of the strings to be replaced. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
 
  **Returns:**
 void
@@ -898,7 +898,7 @@ void
 | oldText | String | The string to be replaced. |
 | newText | String | The string to replace all occurrences of oldText. |
 | options | [TextSearchOptions](../textsearchoptions) | Text search options ITextSearchOptions. |
-| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
 
  **Returns:**
 void
@@ -1119,7 +1119,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| save (String, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1127,7 +1127,7 @@ void
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | [TiffOptions](../tiffoptions) | Additional format options. |
+| options | [Html5Options](../html5options) | Additional format options. |
 
  **Returns:**
 void
@@ -1140,7 +1140,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| save (String, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1148,7 +1148,7 @@ void
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
+| options | [TiffOptions](../tiffoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1461,7 +1461,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| save (OutputStream, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1469,7 +1469,7 @@ void
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | [TiffOptions](../tiffoptions) | Additional format options. |
+| options | [Html5Options](../html5options) | Additional format options. |
 
  **Returns:**
 void
@@ -1488,7 +1488,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| save (OutputStream, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1496,7 +1496,7 @@ void
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
+| options | [TiffOptions](../tiffoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1845,7 +1845,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save (String, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1854,7 +1854,7 @@ void
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [TiffOptions](../tiffoptions) | Additional format options. |
+| options | [Html5Options](../html5options) | Additional format options. |
 
  **Returns:**
 void
@@ -1867,7 +1867,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save (String, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1876,7 +1876,7 @@ void
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
+| options | [TiffOptions](../tiffoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -2222,7 +2222,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| save (OutputStream, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -2231,7 +2231,7 @@ void
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [TiffOptions](../tiffoptions) | Additional format options. |
+| options | [Html5Options](../html5options) | Additional format options. |
 
  **Returns:**
 void
@@ -2250,7 +2250,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| save (OutputStream, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -2259,7 +2259,7 @@ void
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [Html5Options](../html5options) | Additional format options. |
+| options | [TiffOptions](../tiffoptions) | Additional format options. |
 
  **Returns:**
 void
