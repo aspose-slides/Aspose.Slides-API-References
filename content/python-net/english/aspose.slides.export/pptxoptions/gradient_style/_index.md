@@ -10,7 +10,7 @@ weight: 50
 
 ## gradient_style property
 Returns or sets the visual style of the gradient.
-            Read/write [`GradientStyle`](/slides/python-net/aspose.slides/gradientstyle/).
+            Read/write [`GradientStyle`](/slides/python-net/aspose.slides/gradientstyle).
 
 ### Definition:
 ```python
@@ -25,6 +25,7 @@ def gradient_style(self, value):
 
 
 ### See Also
+* enumeration [`GradientStyle`](/slides/python-net/aspose.slides/gradientstyle)
 * class [`PptxOptions`](/slides/python-net/aspose.slides.export/pptxoptions)
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

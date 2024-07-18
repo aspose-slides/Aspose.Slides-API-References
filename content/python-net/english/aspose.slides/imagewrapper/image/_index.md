@@ -10,7 +10,7 @@ weight: 30
 
 ## image property
 Gets Image.
-            Read-only [`ImageWrapper.image`](/slides/python-net/aspose.slides/imagewrapper#image).
+            Read-only [`ImageWrapper.image`](/slides/python-net/aspose.slides/imagewrapper/image).
 
 ### Definition:
 ```python

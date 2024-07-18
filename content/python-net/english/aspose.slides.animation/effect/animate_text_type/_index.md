@@ -11,7 +11,7 @@ weight: 30
 ## animate_text_type property
 Defines an animate text type for effect. 
             The shape text can be animated by letter, by word or all at once.
-            Read/write [`Effect.animate_text_type`](/slides/python-net/aspose.slides.animation/effect#animate_text_type).
+            Read/write [`Effect.animate_text_type`](/slides/python-net/aspose.slides.animation/effect/animate_text_type).
 
 ### Definition:
 ```python

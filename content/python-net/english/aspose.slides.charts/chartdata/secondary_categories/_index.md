@@ -9,18 +9,18 @@ weight: 90
 
 
 ## secondary_categories property
-Gets the secondary categories if [`ChartData.use_secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata#use_secondary_categories) property is true.
+Gets the secondary categories if [`ChartData.use_secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata/use_secondary_categories) property is true.
             Read-only [`IChartCategoryCollection`](/slides/python-net/aspose.slides.charts/ichartcategorycollection).
 
 
 ### Remarks
 
-If [`ChartData.use_secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata#use_secondary_categories) property is false then this [`ChartData.secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata#secondary_categories) 
-            property return null and data in [`ChartData.categories`](/slides/python-net/aspose.slides.charts/chartdata#categories) property is used both for primary 
+If [`ChartData.use_secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata/use_secondary_categories) property is false then this [`ChartData.secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata/secondary_categories) 
+            property return null and data in [`ChartData.categories`](/slides/python-net/aspose.slides.charts/chartdata/categories) property is used both for primary 
             and secondary series.
-            If [`ChartData.use_secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata#use_secondary_categories) property is true then data in 
-            this [`ChartData.secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata#secondary_categories) property is used for secondary series and data 
-            in [`ChartData.categories`](/slides/python-net/aspose.slides.charts/chartdata#categories) property is used for primary series.
+            If [`ChartData.use_secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata/use_secondary_categories) property is true then data in 
+            this [`ChartData.secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata/secondary_categories) property is used for secondary series and data 
+            in [`ChartData.categories`](/slides/python-net/aspose.slides.charts/chartdata/categories) property is used for primary series.
 
 ### Definition:
 ```python

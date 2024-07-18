@@ -10,7 +10,7 @@ weight: 300
 
 ## slide_number property
 Returns a number of slide.
-            Index of slide in [`IPresentation.slides`](/slides/python-net/aspose.slides/ipresentation#slides) collection is always equal to SlideNumber - 1.
+            Index of slide in [`IPresentation.slides`](/slides/python-net/aspose.slides/ipresentation/slides) collection is always equal to SlideNumber - 1.
             Read/write **int**.
 
 ### Definition:

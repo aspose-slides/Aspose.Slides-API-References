@@ -49,7 +49,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [`DataTable`](/slides/python-net/aspose.slides.charts/datatable/) | Represents data table properties. |
 | [`DoubleChartValue`](/slides/python-net/aspose.slides.charts/doublechartvalue/) | Represent double value which can be stored in pptx presentation document in two ways:<br/>            1) in cell/cells of workbook related to chart;<br/>            2) as literal value. |
 | [`ErrorBarsCustomValues`](/slides/python-net/aspose.slides.charts/errorbarscustomvalues/) | Specifies the errors bar values. It shall be used only when the Error bars value type is Custom. |
-| [`ErrorBarsFormat`](/slides/python-net/aspose.slides.charts/errorbarsformat/) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection<br/>            (in [`IChartDataPoint.error_bars_custom_values`](/slides/python-net/aspose.slides.charts/ichartdatapoint#error_bars_custom_values) property). |
+| [`ErrorBarsFormat`](/slides/python-net/aspose.slides.charts/errorbarsformat/) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection<br/>            (in [`IChartDataPoint.error_bars_custom_values`](/slides/python-net/aspose.slides.charts/ichartdatapoint/error_bars_custom_values) property). |
 | [`Format`](/slides/python-net/aspose.slides.charts/format/) | Represents chart format properties. |
 | [`IActualLayout`](/slides/python-net/aspose.slides.charts/iactuallayout/) | Specifies actual position of a chart element. |
 | [`IAxesManager`](/slides/python-net/aspose.slides.charts/iaxesmanager/) | Provides access to chart axes. |
@@ -91,7 +91,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [`IDataTable`](/slides/python-net/aspose.slides.charts/idatatable/) | Represents data table properties. |
 | [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue/) | Represent double value which can be stored in pptx presentation document in two ways:<br/>            1) in cell/cells of workbook related to chart;<br/>            2) as literal value. |
 | [`IErrorBarsCustomValues`](/slides/python-net/aspose.slides.charts/ierrorbarscustomvalues/) | Specifies the errors bar values. It shall be used only when the Error bars value type is Custom. |
-| [`IErrorBarsFormat`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection<br/>            (in [`IChartDataPoint.error_bars_custom_values`](/slides/python-net/aspose.slides.charts/ichartdatapoint#error_bars_custom_values) property). |
+| [`IErrorBarsFormat`](/slides/python-net/aspose.slides.charts/ierrorbarsformat/) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection<br/>            (in [`IChartDataPoint.error_bars_custom_values`](/slides/python-net/aspose.slides.charts/ichartdatapoint/error_bars_custom_values) property). |
 | [`IFormat`](/slides/python-net/aspose.slides.charts/iformat/) | Represents chart format properties. |
 | [`IFormattedTextContainer`](/slides/python-net/aspose.slides.charts/iformattedtextcontainer/) | Represents chart text format. |
 | [`ILayoutable`](/slides/python-net/aspose.slides.charts/ilayoutable/) | Specifies the exact position of a chart element. |

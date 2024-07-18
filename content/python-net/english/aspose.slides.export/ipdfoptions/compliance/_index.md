@@ -15,7 +15,7 @@ Desired conformance level for generated PDF document.
 
 ### Remarks
 
-Default is [`PdfCompliance.PDF17`](/slides/python-net/aspose.slides.export/pdfcompliance#PDF17).
+Default is [`PdfCompliance.PDF17`](/slides/python-net/aspose.slides.export/pdfcompliance/PDF17).
 
 ### Definition:
 ```python

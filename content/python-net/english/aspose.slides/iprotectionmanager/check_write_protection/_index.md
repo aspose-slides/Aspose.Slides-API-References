@@ -29,7 +29,7 @@ def check_write_protection(self, password):
 
 ### Remarks
 
-1. You should check the [`IProtectionManager.is_write_protected`](/slides/python-net/aspose.slides/iprotectionmanager#is_write_protected) property before calling this method.
+1. You should check the [`IProtectionManager.is_write_protected`](/slides/python-net/aspose.slides/iprotectionmanager/is_write_protected) property before calling this method.
             2. When the password is null or empty, this method returns false.
 
 

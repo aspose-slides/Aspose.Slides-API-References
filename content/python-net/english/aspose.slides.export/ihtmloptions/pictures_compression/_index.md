@@ -10,7 +10,7 @@ weight: 90
 
 ## pictures_compression property
 Represents the pictures compression level
-            Read/write [`IHtmlOptions.pictures_compression`](/slides/python-net/aspose.slides.export/ihtmloptions#pictures_compression).
+            Read/write [`IHtmlOptions.pictures_compression`](/slides/python-net/aspose.slides.export/ihtmloptions/pictures_compression).
 
 ### Definition:
 ```python

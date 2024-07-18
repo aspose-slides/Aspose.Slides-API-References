@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iloadoptions/spreadsheet_options/
-weight: 120
+weight: 130
 ---
 
 

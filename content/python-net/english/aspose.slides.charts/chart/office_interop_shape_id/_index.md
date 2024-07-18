@@ -11,7 +11,7 @@ weight: 490
 ## office_interop_shape_id property
 Gets unique shape identifier in slide scope.
             Read-only **int**.
-            See also [`Shape.unique_id`](/slides/python-net/aspose.slides/shape#unique_id) for getting unique shape identifier in presentation scope.
+            See also [`Shape.unique_id`](/slides/python-net/aspose.slides/shape/unique_id) for getting unique shape identifier in presentation scope.
 
 ### Definition:
 ```python

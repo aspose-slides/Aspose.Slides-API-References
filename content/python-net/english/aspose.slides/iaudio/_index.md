@@ -17,7 +17,7 @@ The IAudio type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`content_type`](/slides/python-net/aspose.slides/iaudio/content_type/) | Returns a MIME type of an audio, encoded in [`IAudio.binary_data`](/slides/python-net/aspose.slides/iaudio#binary_data).<br/>            Read-only **str**. |
+| [`content_type`](/slides/python-net/aspose.slides/iaudio/content_type/) | Returns a MIME type of an audio, encoded in [`IAudio.binary_data`](/slides/python-net/aspose.slides/iaudio/binary_data).<br/>            Read-only **str**. |
 | [`binary_data`](/slides/python-net/aspose.slides/iaudio/binary_data/) | Returns the copy of an audio's data. In case of large amount of data consider <br/>            using of [`IAudio.get_stream`](/slides/python-net/aspose.slides/iaudio/get_stream) method to prevent unnecessary  loading of audio's<br/>            data into memory or even OutOfMemoryException.<br/>            Read-only **int**[]. |
 
 ## Methods

@@ -10,7 +10,7 @@ weight: 20
 
 ## after_animation_type property
 Defines an after animation type for effect.
-            Read/write [`Effect.after_animation_type`](/slides/python-net/aspose.slides.animation/effect#after_animation_type).
+            Read/write [`Effect.after_animation_type`](/slides/python-net/aspose.slides.animation/effect/after_animation_type).
 
 ### Definition:
 ```python

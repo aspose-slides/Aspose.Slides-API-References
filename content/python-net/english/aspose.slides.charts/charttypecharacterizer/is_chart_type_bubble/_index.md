@@ -11,8 +11,8 @@ weight: 70
 ## is_chart_type_bubble {#charttype}
 Return true if chartType is one of Bubble subtypes.
             Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
-            [`ChartType.BUBBLE`](/slides/python-net/aspose.slides.charts/charttype#BUBBLE),
-            [`ChartType.BUBBLE_WITH_3D`](/slides/python-net/aspose.slides.charts/charttype#BUBBLE_WITH_3D).
+            [`ChartType.BUBBLE`](/slides/python-net/aspose.slides.charts/charttype/BUBBLE),
+            [`ChartType.BUBBLE_WITH_3D`](/slides/python-net/aspose.slides.charts/charttype/BUBBLE_WITH_3D).
 
 
 ```python

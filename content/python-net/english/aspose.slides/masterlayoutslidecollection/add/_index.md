@@ -36,7 +36,7 @@ layout_type`
             contains no placeholders and no shapes.
             2) Analogue of this method is 
             method **Aspose.Slides.IGlobalLayoutSlideCollection.Add(Aspose.Slides.IMasterSlide,Aspose.Slides.SlideLayoutType,Syste**
-            accessed with [`IPresentation.layout_slides`](/slides/python-net/aspose.slides/ipresentation#layout_slides) property.
+            accessed with [`IPresentation.layout_slides`](/slides/python-net/aspose.slides/ipresentation/layout_slides) property.
 
 ### Exceptions
 

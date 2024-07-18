@@ -12,7 +12,7 @@ weight: 140
 If layout of the plot area defined manually this property specifies whether 
              to layout the plot area by its inside (not including axis and axis labels) or outside
              (including axis and axis labels).
-             Read/write [`IChartPlotArea.layout_target_type`](/slides/python-net/aspose.slides.charts/ichartplotarea#layout_target_type).
+             Read/write [`IChartPlotArea.layout_target_type`](/slides/python-net/aspose.slides.charts/ichartplotarea/layout_target_type).
 
 ### Definition:
 ```python

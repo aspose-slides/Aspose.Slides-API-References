@@ -10,7 +10,7 @@ weight: 40
 
 ## output property
 Returns collection of output elements of the document.
-             Read-only [`WebDocument.output`](/slides/python-net/aspose.slides.export.web/webdocument#output).
+             Read-only [`WebDocument.output`](/slides/python-net/aspose.slides.export.web/webdocument/output).
 
 ### Definition:
 ```python

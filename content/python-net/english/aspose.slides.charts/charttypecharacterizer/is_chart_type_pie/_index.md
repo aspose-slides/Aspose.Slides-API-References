@@ -11,12 +11,12 @@ weight: 110
 ## is_chart_type_pie {#charttype}
 Return true if chartType is one of Pie subtypes.
             Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
-            [`ChartType.BAR_OF_PIE`](/slides/python-net/aspose.slides.charts/charttype#BAR_OF_PIE),
-            [`ChartType.EXPLODED_PIE`](/slides/python-net/aspose.slides.charts/charttype#EXPLODED_PIE),
-            [`ChartType.EXPLODED_PIE_3D`](/slides/python-net/aspose.slides.charts/charttype#EXPLODED_PIE_3D),
-            [`ChartType.PIE`](/slides/python-net/aspose.slides.charts/charttype#PIE),
-            [`ChartType.PIE_3D`](/slides/python-net/aspose.slides.charts/charttype#PIE_3D),
-            [`ChartType.PIE_OF_PIE`](/slides/python-net/aspose.slides.charts/charttype#PIE_OF_PIE).
+            [`ChartType.BAR_OF_PIE`](/slides/python-net/aspose.slides.charts/charttype/BAR_OF_PIE),
+            [`ChartType.EXPLODED_PIE`](/slides/python-net/aspose.slides.charts/charttype/EXPLODED_PIE),
+            [`ChartType.EXPLODED_PIE_3D`](/slides/python-net/aspose.slides.charts/charttype/EXPLODED_PIE_3D),
+            [`ChartType.PIE`](/slides/python-net/aspose.slides.charts/charttype/PIE),
+            [`ChartType.PIE_3D`](/slides/python-net/aspose.slides.charts/charttype/PIE_3D),
+            [`ChartType.PIE_OF_PIE`](/slides/python-net/aspose.slides.charts/charttype/PIE_OF_PIE).
 
 
 ```python

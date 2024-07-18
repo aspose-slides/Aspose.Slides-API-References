@@ -16,7 +16,7 @@ Returns the collection of child layout slides for this master slide.
 ### Remarks
 
 You can access to alternative API for adding/inserting/removing/cloning layout slides 
-            by using [`IPresentation.layout_slides`](/slides/python-net/aspose.slides/ipresentation#layout_slides) property.
+            by using [`IPresentation.layout_slides`](/slides/python-net/aspose.slides/ipresentation/layout_slides) property.
 
 ### Definition:
 ```python

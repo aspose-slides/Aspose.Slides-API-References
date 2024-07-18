@@ -10,7 +10,7 @@ weight: 120
 
 ## pictures_compression property
 Represents the pictures compression level
-            Read/write [`ISVGOptions.pictures_compression`](/slides/python-net/aspose.slides.export/isvgoptions#pictures_compression).
+            Read/write [`ISVGOptions.pictures_compression`](/slides/python-net/aspose.slides.export/isvgoptions/pictures_compression).
 
 ### Definition:
 ```python

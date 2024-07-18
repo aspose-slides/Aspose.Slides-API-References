@@ -19,7 +19,7 @@ The IChartWall type exposes the following members:
 | :- | :- |
 | [`thickness`](/slides/python-net/aspose.slides.charts/ichartwall/thickness/) | Returns or sets the walls thickness as a percentage of the largest <br/>            dimension of the plot volume.<br/>            Read/write **int**. |
 | [`format`](/slides/python-net/aspose.slides.charts/ichartwall/format/) | Returns the wall fill, line, effect, 3d styles.<br/>            Read-only [`IFormat`](/slides/python-net/aspose.slides.charts/iformat). |
-| [`picture_type`](/slides/python-net/aspose.slides.charts/ichartwall/picture_type/) | Return or sets the picture type.<br/>            Read/write [`IChartWall.picture_type`](/slides/python-net/aspose.slides.charts/ichartwall#picture_type). |
+| [`picture_type`](/slides/python-net/aspose.slides.charts/ichartwall/picture_type/) | Return or sets the picture type.<br/>            Read/write [`IChartWall.picture_type`](/slides/python-net/aspose.slides.charts/ichartwall/picture_type). |
 
 
 ### See Also

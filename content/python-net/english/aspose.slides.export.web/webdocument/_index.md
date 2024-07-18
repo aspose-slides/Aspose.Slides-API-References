@@ -24,7 +24,7 @@ The WebDocument type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`input`](/slides/python-net/aspose.slides.export.web/webdocument/input/) |  |
-| [`output`](/slides/python-net/aspose.slides.export.web/webdocument/output/) | Returns collection of output elements of the document.<br/>             Read-only [`WebDocument.output`](/slides/python-net/aspose.slides.export.web/webdocument#output). |
+| [`output`](/slides/python-net/aspose.slides.export.web/webdocument/output/) | Returns collection of output elements of the document.<br/>             Read-only [`WebDocument.output`](/slides/python-net/aspose.slides.export.web/webdocument/output). |
 
 ## Methods
 

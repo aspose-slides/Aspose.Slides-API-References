@@ -9,7 +9,7 @@ weight: 30
 
 
 ## content_type property
-Returns a MIME type of an audio, encoded in [`IAudio.binary_data`](/slides/python-net/aspose.slides/iaudio#binary_data).
+Returns a MIME type of an audio, encoded in [`IAudio.binary_data`](/slides/python-net/aspose.slides/iaudio/binary_data).
             Read-only **str**.
 
 ### Definition:

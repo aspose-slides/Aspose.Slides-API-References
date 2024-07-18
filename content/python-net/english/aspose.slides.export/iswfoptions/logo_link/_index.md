@@ -10,7 +10,7 @@ weight: 80
 
 ## logo_link property
 Gets or sets the full hyperlink address for a logo.
-            Has an effect only if a [`ISwfOptions.logo_image_bytes`](/slides/python-net/aspose.slides.export/iswfoptions#logo_image_bytes) is specified.
+            Has an effect only if a [`ISwfOptions.logo_image_bytes`](/slides/python-net/aspose.slides.export/iswfoptions/logo_image_bytes) is specified.
 
 ### Definition:
 ```python

@@ -10,7 +10,7 @@ weight: 50
 
 ## color_space property
 Represent color space of behavior.
-            Read/write [`IColorEffect.color_space`](/slides/python-net/aspose.slides.animation/icoloreffect#color_space).
+            Read/write [`IColorEffect.color_space`](/slides/python-net/aspose.slides.animation/icoloreffect/color_space).
 
 ### Definition:
 ```python
