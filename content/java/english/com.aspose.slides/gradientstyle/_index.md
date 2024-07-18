@@ -1,7 +1,7 @@
 ---
 title: GradientStyle
 second_title: Aspose.Slides for Java API Reference
-description: Represents the styles available for a gradient.
+description: Represents the available gradient styles.
 type: docs
 url: /com.aspose.slides/gradientstyle/
 ---
@@ -11,20 +11,20 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class GradientStyle extends System.Enum
 ```
 
-Represents the styles available for a gradient. This determines the visual gradient effect applied to graphical elements.
+Represents the available gradient styles.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Default](#Default) | The default gradient style |
-| [PowerPointUI](#PowerPointUI) | A gradient style as it appears in the PowerPoint UI |
+| [Default](#Default) | The default gradient style. |
+| [PowerPointUI](#PowerPointUI) | The gradient style as it appears in the PowerPoint user interface. |
 ### Default {#Default}
 ```
 public static final int Default
 ```
 
 
-The default gradient style
+The default gradient style.
 
 ### PowerPointUI {#PowerPointUI}
 ```
@@ -32,5 +32,5 @@ public static final int PowerPointUI
 ```
 
 
-A gradient style as it appears in the PowerPoint UI
+The gradient style as it appears in the PowerPoint user interface.
 

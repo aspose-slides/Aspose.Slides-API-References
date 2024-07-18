@@ -43,6 +43,7 @@ Represents a table on a slide.
 | [setTextFormat(IPortionFormat source)](#setTextFormat-com.aspose.slides.IPortionFormat-) | Sets defined portion format properties to all table cells' portions. |
 | [setTextFormat(IParagraphFormat source)](#setTextFormat-com.aspose.slides.IParagraphFormat-) | Sets defined paragraph format properties to all table cells' paragraphs. |
 | [setTextFormat(ITextFrameFormat source)](#setTextFormat-com.aspose.slides.ITextFrameFormat-) | Sets defined text frame format properties to all table cells' text frames. |
+| [getFillFormat()](#getFillFormat--) | Returns a TableFormat.FillFormat object containing the fill formatting for the Table. |
 ### get_Item(int columnIndex, int rowIndex) {#get-Item-int-int-}
 ```
 public final ICell get_Item(int columnIndex, int rowIndex)
@@ -135,7 +136,7 @@ public final boolean getRightToLeft()
 ```
 
 
-Determines whether the table has right to left reading order. Read-write boolean.
+Determines whether the table has right to left reading order. Read-write  boolean .
 
 **Returns:**
 boolean
@@ -145,7 +146,7 @@ public final void setRightToLeft(boolean value)
 ```
 
 
-Determines whether the table has right to left reading order. Read-write boolean.
+Determines whether the table has right to left reading order. Read-write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +159,7 @@ public final boolean getFirstRow()
 ```
 
 
-Determines whether the first row of a table has to be drawn with a special formatting. Read/write boolean.
+Determines whether the first row of a table has to be drawn with a special formatting. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -168,7 +169,7 @@ public final void setFirstRow(boolean value)
 ```
 
 
-Determines whether the first row of a table has to be drawn with a special formatting. Read/write boolean.
+Determines whether the first row of a table has to be drawn with a special formatting. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,7 +182,7 @@ public final boolean getFirstCol()
 ```
 
 
-Determines whether the first column of a table has to be drawn with a special formatting. Read/write boolean.
+Determines whether the first column of a table has to be drawn with a special formatting. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -191,7 +192,7 @@ public final void setFirstCol(boolean value)
 ```
 
 
-Determines whether the first column of a table has to be drawn with a special formatting. Read/write boolean.
+Determines whether the first column of a table has to be drawn with a special formatting. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -204,7 +205,7 @@ public final boolean getLastRow()
 ```
 
 
-Determines whether the last row of a table has to be drawn with a special formatting. Read/write boolean.
+Determines whether the last row of a table has to be drawn with a special formatting. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -214,7 +215,7 @@ public final void setLastRow(boolean value)
 ```
 
 
-Determines whether the last row of a table has to be drawn with a special formatting. Read/write boolean.
+Determines whether the last row of a table has to be drawn with a special formatting. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -227,7 +228,7 @@ public final boolean getLastCol()
 ```
 
 
-Determines whether the last column of a table has to be drawn with a special formatting. Read/write boolean.
+Determines whether the last column of a table has to be drawn with a special formatting. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -237,7 +238,7 @@ public final void setLastCol(boolean value)
 ```
 
 
-Determines whether the last column of a table has to be drawn with a special formatting. Read/write boolean.
+Determines whether the last column of a table has to be drawn with a special formatting. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -250,7 +251,7 @@ public final boolean getHorizontalBanding()
 ```
 
 
-Determines whether the even rows has to be drawn with a different formatting. Read/write boolean.
+Determines whether the even rows has to be drawn with a different formatting. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -260,7 +261,7 @@ public final void setHorizontalBanding(boolean value)
 ```
 
 
-Determines whether the even rows has to be drawn with a different formatting. Read/write boolean.
+Determines whether the even rows has to be drawn with a different formatting. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -273,7 +274,7 @@ public final boolean getVerticalBanding()
 ```
 
 
-Determines whether the even columns has to be drawn with a different formatting. Read/write boolean.
+Determines whether the even columns has to be drawn with a different formatting. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -283,7 +284,7 @@ public final void setVerticalBanding(boolean value)
 ```
 
 
-Determines whether the even columns has to be drawn with a different formatting. Read/write boolean.
+Determines whether the even columns has to be drawn with a different formatting. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -329,3 +330,13 @@ Sets defined text frame format properties to all table cells' text frames.
 | --- | --- | --- |
 | source | [ITextFrameFormat](../../com.aspose.slides/itextframeformat) | ITextFrameFormat object with necessary properties set. |
 
+### getFillFormat() {#getFillFormat--}
+```
+public IFillFormat getFillFormat()
+```
+
+
+Returns a TableFormat.FillFormat object containing the fill formatting for the Table. Read-only [IFillFormat](../../com.aspose.slides/ifillformat).
+
+**Returns:**
+[IFillFormat](../../com.aspose.slides/ifillformat)

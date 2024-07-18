@@ -30,8 +30,8 @@ Abstract class with options that control how a presentation is saved.
 | [setProgressCallback(IProgressCallback value)](#setProgressCallback-com.aspose.slides.IProgressCallback-) | Represents a callback object for saving progress updates in percentage. |
 | [getDefaultRegularFont()](#getDefaultRegularFont--) | Returns or sets font used in case source font is not found. |
 | [setDefaultRegularFont(String value)](#setDefaultRegularFont-java.lang.String-) | Returns or sets font used in case source font is not found. |
-| [getGradientStyle()](#getGradientStyle--) | Gets or sets the gradient style to be used for a gradient. |
-| [setGradientStyle(int value)](#setGradientStyle-int-) | Gets or sets the gradient style to be used for a gradient. |
+| [getGradientStyle()](#getGradientStyle--) | Returns or sets the visual style of the gradient. |
+| [setGradientStyle(int value)](#setGradientStyle-int-) | Returns or sets the visual style of the gradient. |
 ### SaveOptions() {#SaveOptions--}
 ```
 public SaveOptions()
@@ -151,7 +151,7 @@ public final int getGradientStyle()
 ```
 
 
-Gets or sets the gradient style to be used for a gradient. This property allows the selection of predefined gradient styles which can affect the appearance of graphical elements.
+Returns or sets the visual style of the gradient. Read/write [GradientStyle](../../com.aspose.slides/gradientstyle).
 
 **Returns:**
 int
@@ -161,7 +161,7 @@ public final void setGradientStyle(int value)
 ```
 
 
-Gets or sets the gradient style to be used for a gradient. This property allows the selection of predefined gradient styles which can affect the appearance of graphical elements.
+Returns or sets the visual style of the gradient. Read/write [GradientStyle](../../com.aspose.slides/gradientstyle).
 
 **Parameters:**
 | Parameter | Type | Description |

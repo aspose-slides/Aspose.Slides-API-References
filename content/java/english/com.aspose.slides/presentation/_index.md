@@ -116,11 +116,11 @@ Represents a Microsoft PowerPoint presentation.
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
 | [dispose()](#dispose--) | Releases all resources used by this Presentation object. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a text. |
-| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Highlight all matches of sample in text frame text using specified color. |
-| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Highlight all matches of sample text in presentation using specified color. |
-| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Highlight all matches of regular expression in presentation using specified color. |
+| [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Highlights all matches of the sample text with the specified color. |
+| [highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the sample text with the specified color. |
+| [highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the regular expression with the specified color. |
 | [replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback)](#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Replaces all occurrences of the specified text with another specified text. |
-| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Replaces all matches of regular expression in presentation with specified string. |
+| [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Replaces all matches of the regular expression with the specified string. |
 ### Presentation() {#Presentation--}
 ```
 public Presentation()
@@ -1656,12 +1656,12 @@ public final void highlightText(String text, Color highlightColor)
 ```
 
 
-Highlight all matches of sample in text frame text using specified color.
+Highlights all matches of the sample text with the specified color.
 
 --------------------
 
 > ```
-> The following sample code shows how to Highlight Text in a PowerPoint Presentation.
+> The following code sample shows how to highlight text in a PowerPoint presentation.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
@@ -1676,8 +1676,8 @@ Highlight all matches of sample in text frame text using specified color.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | Text sample to highlight. |
-| highlightColor | java.awt.Color | Highlighting color. |
+| text | java.lang.String | The text to highlight. |
+| highlightColor | java.awt.Color | The color to highlight the text. |
 
 ### highlightText(String text, Color highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
@@ -1685,12 +1685,12 @@ public final void highlightText(String text, Color highlightColor, ITextSearchOp
 ```
 
 
-Highlight all matches of sample text in presentation using specified color.
+Highlights all matches of the sample text with the specified color.
 
 --------------------
 
 > ```
-> The following sample code shows how to Highlight Text in a PowerPoint Presentation.
+> The following code sample shows how to highlight text in a PowerPoint presentation.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
@@ -1707,10 +1707,10 @@ Highlight all matches of sample text in presentation using specified color.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | Text sample to highlight. |
-| highlightColor | java.awt.Color | Highlighting color. |
+| text | java.lang.String | The text to highlight. |
+| highlightColor | java.awt.Color | The color to highlight the text. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text search options [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback object for saving replacement operation result [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### highlightRegex(Pattern regex, Color highlightColor, IFindResultCallback callback) {#highlightRegex-java.util.regex.Pattern-java.awt.Color-com.aspose.slides.IFindResultCallback-}
 ```
@@ -1718,12 +1718,12 @@ public final void highlightRegex(Pattern regex, Color highlightColor, IFindResul
 ```
 
 
-Highlight all matches of regular expression in presentation using specified color.
+Highlights all matches of the regular expression with the specified color.
 
 --------------------
 
 > ```
-> The following sample code shows how to Highlight Text using regular expression in a PowerPoint Presentation.
+> The following code sample shows how to highlight text in a PowerPoint Presentation using a regular expression.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
@@ -1739,9 +1739,9 @@ Highlight all matches of regular expression in presentation using specified colo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to be replaced. |
-| highlightColor | java.awt.Color | Highlighting color. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback object for saving replacement operation result [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to highlight. |
+| highlightColor | java.awt.Color | The color to highlight the text. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceText(String oldText, String newText, ITextSearchOptions options, IFindResultCallback callback) {#replaceText-java.lang.String-java.lang.String-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
@@ -1754,7 +1754,7 @@ Replaces all occurrences of the specified text with another specified text.
 --------------------
 
 > ```
-> The following sample code shows how to replace one speified string with another speified string.
+> The following sample code shows how to replace one specified string with another specified string.
 >  
 >  Presentation presentation = new Presentation("SomePresentation.pptx")
 >  try {
@@ -1774,7 +1774,7 @@ Replaces all occurrences of the specified text with another specified text.
 | oldText | java.lang.String | The string to be replaced. |
 | newText | java.lang.String | The string to replace all occurrences of oldText. |
 | options | [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions) | Text search options [ITextSearchOptions](../../com.aspose.slides/itextsearchoptions). |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback object for saving replacement operation result [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
 ### replaceRegex(Pattern regex, String newText, IFindResultCallback callback) {#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-}
 ```
@@ -1782,13 +1782,12 @@ public final void replaceRegex(Pattern regex, String newText, IFindResultCallbac
 ```
 
 
-Replaces all matches of regular expression in presentation with specified string.
+Replaces all matches of the regular expression with the specified string.
 
 --------------------
 
 > ```
-> The following sample code shows how to replace text using regular expression with specified string.
->  
+> The following code sample shows how to replace text using regular expression with the specified string.
 >  Presentation presentation = new Presentation("SomePresentation.pptx");
 >  try {
 >      Pattern regex = Pattern.compile("\\b[^\\s]{10,}\\b");
@@ -1803,7 +1802,7 @@ Replaces all matches of regular expression in presentation with specified string
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to be replaced. |
-| newText | java.lang.String | The string to replace all occurrences of strings to be replaced. |
-| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | Callback object for saving replacement operation result [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
+| regex | java.util.regex.Pattern | The regular expression java.util.regex.Pattern to get strings to replace. |
+| newText | java.lang.String | The string to replace all occurrences of the strings to be replaced. |
+| callback | [IFindResultCallback](../../com.aspose.slides/ifindresultcallback) | The callback object for receiving search results [IFindResultCallback](../../com.aspose.slides/ifindresultcallback). |
 
