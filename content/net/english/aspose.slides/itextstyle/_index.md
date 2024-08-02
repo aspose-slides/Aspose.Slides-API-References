@@ -3,7 +3,7 @@ title: ITextStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Text style formatting properties.
 type: docs
-weight: 6980
+weight: 6990
 url: /aspose.slides/itextstyle/
 ---
 

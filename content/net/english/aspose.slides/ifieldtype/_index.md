@@ -3,7 +3,7 @@ title: IFieldType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a type of field. This value determines which text will be set to the field portion when it will be updated.
 type: docs
-weight: 5480
+weight: 5490
 url: /aspose.slides/ifieldtype/
 ---
 

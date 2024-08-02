@@ -3,7 +3,7 @@ title: DeletePictureCroppedAreas
 second_title: Aspose.Sildes for .NET API Reference
 description: Delete cropped areas of the fill Picture.
 type: docs
-weight: 130
+weight: 190
 url: /aspose.slides/ipicturefillformat/deletepicturecroppedareas/
 ---
 

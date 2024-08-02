@@ -3,7 +3,7 @@ title: IMathFunction
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies a function of an argument.
 type: docs
-weight: 7890
+weight: 7900
 url: /aspose.slides.mathtext/imathfunction/
 ---
 

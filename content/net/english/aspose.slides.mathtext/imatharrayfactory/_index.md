@@ -3,7 +3,7 @@ title: IMathArrayFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math array
 type: docs
-weight: 7730
+weight: 7740
 url: /aspose.slides.mathtext/imatharrayfactory/
 ---
 

@@ -3,7 +3,7 @@ title: MarkdownExportType
 second_title: Aspose.Sildes for .NET API Reference
 description: Type of rendering document.
 type: docs
-weight: 4020
+weight: 4030
 url: /aspose.slides.export/markdownexporttype/
 ---
 

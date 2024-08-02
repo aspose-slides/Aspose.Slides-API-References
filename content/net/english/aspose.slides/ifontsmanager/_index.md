@@ -3,7 +3,7 @@ title: IFontsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Manages fonts across the presentation.
 type: docs
-weight: 5630
+weight: 5640
 url: /aspose.slides/ifontsmanager/
 ---
 
@@ -29,6 +29,8 @@ public interface IFontsManager
 | [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Adds the embedded font Keep in mind when adding any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded |
 | [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Adds the embedded font. Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded |
 | [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Returns the fonts embedded in the presentation |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyle) | Retrieves the byte array representing the font data for a specified font style and font data. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Determines the embedding level of a font from the given byte array and font name. |
 | [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Returns the fonts used in the presentation |
 | [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions)() | Gets the information about fonts that will be replaced on the presentation's rendering. |
 | [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Removes the embedded font |

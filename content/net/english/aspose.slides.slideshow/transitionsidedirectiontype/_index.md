@@ -3,7 +3,7 @@ title: TransitionSideDirectionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent side direction transition types.
 type: docs
-weight: 9970
+weight: 9980
 url: /aspose.slides.slideshow/transitionsidedirectiontype/
 ---
 

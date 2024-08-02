@@ -3,7 +3,7 @@ title: IPortion
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a portion of text inside a text paragraph.
 type: docs
-weight: 6390
+weight: 6400
 url: /aspose.slides/iportion/
 ---
 

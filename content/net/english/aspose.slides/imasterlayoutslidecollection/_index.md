@@ -3,7 +3,7 @@ title: IMasterLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collections of all layout slides of defined master slide. Extends ILayoutSlideCollection interface with methods for adding/inserting/removing/cloning layout slides in context of the individual collections of masters layout slides.
 type: docs
-weight: 6070
+weight: 6080
 url: /aspose.slides/imasterlayoutslidecollection/
 ---
 

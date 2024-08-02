@@ -3,7 +3,7 @@ title: RenderingOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation/slide is rendered.
 type: docs
-weight: 4170
+weight: 4180
 url: /aspose.slides.export/renderingoptions/
 ---
 

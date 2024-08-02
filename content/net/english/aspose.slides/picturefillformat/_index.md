@@ -3,7 +3,7 @@ title: PictureFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a picture fill style.
 type: docs
-weight: 8990
+weight: 9000
 url: /aspose.slides/picturefillformat/
 ---
 
@@ -31,6 +31,12 @@ public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
 | [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write Single. |
 | [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write Single. |
 | [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write Single. |
+| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | Returns or sets how the texture is aligned within the shape. This setting controls the starting point of the texture pattern and how it repeats across the shape. Read/write [`RectangleAlignment`](../rectanglealignment). |
+| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | Flips the texture tile around its horizontal, vertical or both axis. Read/write [`TileFlip`](./tileflip). |
+| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | Returns or sets the horizontal offset of the texture from the shape's origin in points. A positive value moves the texture to the right, while a negative value moves it to the left. Read/write Single. |
+| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | Returns or sets the vertical offset of the texture from the shape's origin in points. A positive value moves the texture down, while a negative value moves it up. Read/write Single. |
+| [TileScaleX](../../aspose.slides/picturefillformat/tilescalex) { get; set; } | Returns or sets the horizontal scale for the texture fill as a percentage. Read/write Single. |
+| [TileScaleY](../../aspose.slides/picturefillformat/tilescaley) { get; set; } | Returns or sets the vertical scale for the texture fill as a percentage. Read/write Single. |
 
 ## Methods
 

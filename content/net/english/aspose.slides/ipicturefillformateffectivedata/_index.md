@@ -3,7 +3,7 @@ title: IPictureFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains the properties of picture fill.
 type: docs
-weight: 6350
+weight: 6360
 url: /aspose.slides/ipicturefillformateffectivedata/
 ---
 

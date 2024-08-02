@@ -3,7 +3,7 @@ title: RemoveEmbeddedFont
 second_title: Aspose.Sildes for .NET API Reference
 description: Removes the embedded font
 type: docs
-weight: 70
+weight: 90
 url: /aspose.slides/ifontsmanager/removeembeddedfont/
 ---
 

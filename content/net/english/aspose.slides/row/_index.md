@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a row in a table.
 type: docs
-weight: 9310
+weight: 9320
 url: /aspose.slides/row/
 ---
 

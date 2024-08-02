@@ -3,7 +3,7 @@ title: MarkdownSaveOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents options that control how presentation should be saved to markdown.
 type: docs
-weight: 4030
+weight: 4040
 url: /aspose.slides.export/markdownsaveoptions/
 ---
 

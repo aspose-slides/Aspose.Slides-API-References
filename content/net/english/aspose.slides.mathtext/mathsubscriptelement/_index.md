@@ -3,7 +3,7 @@ title: MathSubscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the subscript object which consists of a base and a reduced-size subscript placed below and to the right.
 type: docs
-weight: 8600
+weight: 8610
 url: /aspose.slides.mathtext/mathsubscriptelement/
 ---
 

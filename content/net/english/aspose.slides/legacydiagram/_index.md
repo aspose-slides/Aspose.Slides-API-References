@@ -3,7 +3,7 @@ title: LegacyDiagram
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a legacy diagram object.
 type: docs
-weight: 7300
+weight: 7310
 url: /aspose.slides/legacydiagram/
 ---
 

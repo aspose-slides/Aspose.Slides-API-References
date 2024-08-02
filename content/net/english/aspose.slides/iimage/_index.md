@@ -3,7 +3,7 @@ title: IImage
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the raster or vector image.
 type: docs
-weight: 5840
+weight: 5850
 url: /aspose.slides/iimage/
 ---
 

@@ -445,6 +445,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [ColorTransformOperation](./colortransformoperation) | Defines color transform operation. |
 | [ColorType](./colortype) | Represents different color modes. |
 | [ControlType](./controltype) | Defines a control type which should be embedded by [`AddControl`](../aspose.slides/icontrolcollection/addcontrol). |
+| [EmbeddingLevel](./embeddinglevel) | Represents the licensing rights for embedding the font. |
 | [FillBlendMode](./fillblendmode) | Determines blend mode. |
 | [FillType](./filltype) | Specifies the interior fill type of various visual objects. |
 | [FontAlignment](./fontalignment) | Represents vertical font alignment. |
