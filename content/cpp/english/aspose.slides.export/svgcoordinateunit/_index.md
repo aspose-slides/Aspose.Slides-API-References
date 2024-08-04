@@ -3,7 +3,7 @@ title: SvgCoordinateUnit
 second_title: Aspose.Slides for C++ API Reference
 description: Represents CSS2 coordinate units used to define SVG coordinates.
 type: docs
-weight: 1054
+weight: 1041
 url: /aspose.slides.export/svgcoordinateunit/
 ---
 ## SvgCoordinateUnit enum

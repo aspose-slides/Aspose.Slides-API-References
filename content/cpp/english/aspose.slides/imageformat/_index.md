@@ -3,7 +3,7 @@ title: ImageFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the file format of the image.
 type: docs
-weight: 6462
+weight: 6475
 url: /aspose.slides/imageformat/
 ---
 ## ImageFormat enum

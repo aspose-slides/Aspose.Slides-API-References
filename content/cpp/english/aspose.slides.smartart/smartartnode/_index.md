@@ -35,7 +35,7 @@ class SmartArtNode : public Aspose::Slides::SmartArt::ISmartArtNode
 | **int32_t** [get_Position](./get_position/)() override | Returns zero-based position of node among sibling nodes. Read **int32_t**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[ISmartArtShape](../ismartartshape/)\> [get_Shape](./get_shape/)(**int32_t**) override | Returns a shape associated with this node at the specified index. Read-only [Aspose::Slides::SmartArt::ISmartArtShape](../ismartartshape/) |
 | [System::SharedPtr](../../system/sharedptr/)\<[ISmartArtShapeCollection](../ismartartshapecollection/)\> [get_Shapes](./get_shapes/)() override | Returns collections of all shapes associated with the node. Read-only [ISmartArtShapeCollection](../ismartartshapecollection/). |
-| [System::SharedPtr](../../system/sharedptr/)\<[ITextFrame](../../aspose.slides/itextframe/)\> [get_TextFrame](./get_textframe/)() override | Returns text of the node. Read-only [ITextFrame](../../aspose.slides/itextframe/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[ITextFrame](../../aspose.slides/itextframe/)\> [get_TextFrame](./get_textframe/)() override | Returns text frame of the node. Read-only [ITextFrame](../../aspose.slides/itextframe/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |

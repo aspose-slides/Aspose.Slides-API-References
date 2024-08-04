@@ -3,7 +3,7 @@ title: DeletePictureCroppedAreas()
 second_title: Aspose.Slides for C++ API Reference
 description: Delete cropped areas of the fill Picture.
 type: docs
-weight: 274
+weight: 430
 url: /aspose.slides/ipicturefillformat/deletepicturecroppedareas/
 ---
 ## IPictureFillFormat::DeletePictureCroppedAreas() method
