@@ -33,6 +33,8 @@ The IFontsManager type exposes the following members:
 | [`get_substitutions`](/slides/python-net/aspose.slides/ifontsmanager/get_substitutions/#) | Gets the information about fonts that will be replaced on the presentation's rendering. |
 | [`get_embedded_fonts`](/slides/python-net/aspose.slides/ifontsmanager/get_embedded_fonts/#) | Returns the fonts embedded in the presentation |
 | [`remove_embedded_font`](/slides/python-net/aspose.slides/ifontsmanager/remove_embedded_font/#ifontdata) | Removes the embedded font |
+| [`get_font_bytes`](/slides/python-net/aspose.slides/ifontsmanager/get_font_bytes/#ifontdata-asposepydrawingfontstyle) | Retrieves the byte array representing the font data for a specified font style and font data. |
+| [`get_font_embedding_level`](/slides/python-net/aspose.slides/ifontsmanager/get_font_embedding_level/#bytes-str) | Determines the embedding level of a font from the given byte array and font name. |
 
 
 ### See Also
