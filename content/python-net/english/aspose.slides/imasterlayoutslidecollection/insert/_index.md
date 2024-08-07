@@ -31,17 +31,15 @@ def insert(self, index, layout_type, layout_name):
 
 ### Remarks
 
-Inserted layout for value SlideLayoutType.Custom of `
-layout_type`
- 
+Inserted layout for value SlideLayoutType.Custom of `layout_type` 
             contains no placeholders and no shapes.
 
 ### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(NotImplementedException))** | Thrown if unsupported value of parameter `<br/>layout_type`<br/> is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| **RuntimeError(Proxy error(ArgumentException))** | Thrown if layout name value `<br/>layout_name`<br/> is already in use in <br/>            this collection of the layouts. |
+| **RuntimeError(Proxy error(NotImplementedException))** | Thrown if unsupported value of parameter `layout_type` is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown if layout name value `layout_name` is already in use in <br/>            this collection of the layouts. |
 
 
 

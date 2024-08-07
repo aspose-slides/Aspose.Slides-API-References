@@ -13,9 +13,7 @@ Determines whether the collection contains a specific value.
 
 ### Returns
 
-true if `
-math_block`
- is found in the collection; otherwise, false.
+true if `math_block` is found in the collection; otherwise, false.
 
 
 

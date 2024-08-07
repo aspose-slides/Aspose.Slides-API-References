@@ -26,7 +26,7 @@ def __init__(self, element):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Throws then `<br/>element`<br/> is a container for another elements, such as MathBlock. In this case, you need to call a different constructor with IEnumerable argument. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Throws then `element` is a container for another elements, such as MathBlock. In this case, you need to call a different constructor with IEnumerable argument. |
 
 
 

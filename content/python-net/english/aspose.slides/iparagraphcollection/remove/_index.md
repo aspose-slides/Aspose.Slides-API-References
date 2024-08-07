@@ -13,9 +13,7 @@ Removes the first occurrence of a specific paragraph.
 
 ### Returns
 
-true if `
-item`
- was successfully removed; otherwise, false.
+true if `item` was successfully removed; otherwise, false.
 
 
 

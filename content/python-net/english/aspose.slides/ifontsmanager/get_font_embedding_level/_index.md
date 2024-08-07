@@ -32,7 +32,7 @@ def get_font_embedding_level(self, font_bytes, font_name):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown when `<br/>font_bytes`<br/> is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown when `font_bytes` is null. |
 
 
 

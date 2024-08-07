@@ -13,9 +13,7 @@ Determines the index of a specific item in the **System.Collections.Generic.ILis
 
 ### Returns
 
-The index of `
-item`
- if found in the list; otherwise, -1.
+The index of `item` if found in the list; otherwise, -1.
 
 
 

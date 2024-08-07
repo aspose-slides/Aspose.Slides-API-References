@@ -10,9 +10,7 @@ weight: 60
 
 ## add_clone {#ishape}
 Adds a copy of a specified shape to the end of the collection.
-            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the `
-source_shape`
-.
+            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the `source_shape`.
 
 ### Returns
 
@@ -33,9 +31,7 @@ def add_clone(self, source_shape):
 
 ## add_clone {#ishape-float-float}
 Adds a copy of a specified shape to the end of the collection.
-            Width and Height of the new shape are equal to Width and Height of the `
-source_shape`
-.
+            Width and Height of the new shape are equal to Width and Height of the `source_shape`.
 
 ### Returns
 

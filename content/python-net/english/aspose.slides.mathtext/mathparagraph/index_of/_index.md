@@ -13,9 +13,7 @@ Determines the index of a specific IMathBlock in collection.
 
 ### Returns
 
-The index of `
-math_block`
- if found in the collection; otherwise, -1.
+The index of `math_block` if found in the collection; otherwise, -1.
 
 
 

@@ -13,9 +13,7 @@ Determines the index of a specific math element in collection.
 
 ### Returns
 
-The index of `
-item`
- if found in the collection; otherwise, -1.
+The index of `item` if found in the collection; otherwise, -1.
 
 
 
