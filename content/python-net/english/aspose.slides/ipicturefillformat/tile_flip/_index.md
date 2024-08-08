@@ -10,7 +10,7 @@ weight: 150
 
 ## tile_flip property
 Flips the texture tile around its horizontal, vertical or both axis.
-             Read/write [`IPictureFillFormat.tile_flip`](/slides/python-net/aspose.slides/ipicturefillformat/tile_flip).
+             Read/write [`TileFlip`](/slides/python-net/aspose.slides/tileflip).
 
 
 ### Remarks
