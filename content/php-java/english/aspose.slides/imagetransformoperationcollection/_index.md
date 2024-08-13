@@ -515,13 +515,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaCeiling](../alphaceiling)) | Adds the new image effect to the end of a collection. |
+| addItem ([AlphaInverse](../alphainverse)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [AlphaCeiling](../alphaceiling) | The image effect to add to the end of a collection. |
+| operation | [AlphaInverse](../alphainverse) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -534,13 +534,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([AlphaInverse](../alphainverse)) | Adds the new image effect to the end of a collection. |
+| addItem ([AlphaCeiling](../alphaceiling)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [AlphaInverse](../alphainverse) | The image effect to add to the end of a collection. |
+| operation | [AlphaCeiling](../alphaceiling) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -1024,13 +1024,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaCeiling](../alphaceiling)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([AlphaInverse](../alphainverse)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaCeiling](../alphaceiling) | The object to locate in the IGenericCollection. |
+| item | [AlphaInverse](../alphainverse) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1043,13 +1043,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([AlphaInverse](../alphainverse)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([AlphaCeiling](../alphaceiling)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaInverse](../alphainverse) | The object to locate in the IGenericCollection. |
+| item | [AlphaCeiling](../alphaceiling) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1262,7 +1262,7 @@ long
 | index | int | Index of element. |
 
  **Returns:**
-[ImageTransformOperation](../imagetransformoperation), [SoftEdge](../softedge), [HSL](../hsl), [AlphaBiLevel](../alphabilevel), [InnerShadow](../innershadow), [ColorChange](../colorchange), [AlphaModulate](../alphamodulate), [Reflection](../reflection), [Glow](../glow), [AlphaFloor](../alphafloor), [AlphaModulateFixed](../alphamodulatefixed), [GrayScale](../grayscale), [Duotone](../duotone), [Luminance](../luminance), [AlphaCeiling](../alphaceiling), [AlphaInverse](../alphainverse), [OuterShadow](../outershadow), [Blur](../blur), [PresetShadow](../presetshadow), [AlphaReplace](../alphareplace), [BiLevel](../bilevel), [ColorReplace](../colorreplace), [Tint](../tint), [FillOverlay](../filloverlay)
+[ImageTransformOperation](../imagetransformoperation), [SoftEdge](../softedge), [HSL](../hsl), [AlphaBiLevel](../alphabilevel), [InnerShadow](../innershadow), [ColorChange](../colorchange), [AlphaModulate](../alphamodulate), [Reflection](../reflection), [Glow](../glow), [AlphaFloor](../alphafloor), [AlphaModulateFixed](../alphamodulatefixed), [GrayScale](../grayscale), [Duotone](../duotone), [Luminance](../luminance), [AlphaInverse](../alphainverse), [AlphaCeiling](../alphaceiling), [OuterShadow](../outershadow), [Blur](../blur), [PresetShadow](../presetshadow), [AlphaReplace](../alphareplace), [BiLevel](../bilevel), [ColorReplace](../colorreplace), [Tint](../tint), [FillOverlay](../filloverlay)
 
 
 ---
@@ -1680,13 +1680,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaCeiling](../alphaceiling)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([AlphaInverse](../alphainverse)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaCeiling](../alphaceiling) | The object to remove from the IGenericCollection. |
+| item | [AlphaInverse](../alphainverse) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1705,13 +1705,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([AlphaInverse](../alphainverse)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([AlphaCeiling](../alphaceiling)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaInverse](../alphainverse) | The object to remove from the IGenericCollection. |
+| item | [AlphaCeiling](../alphaceiling) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean

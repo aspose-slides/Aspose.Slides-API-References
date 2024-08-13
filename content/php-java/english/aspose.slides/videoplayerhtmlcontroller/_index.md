@@ -62,19 +62,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [Table](../table)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
 | formatShape ([SvgShape](../svgshape), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
@@ -89,6 +76,19 @@ void
 | Name | Description |
 | --- | --- |
 | formatShape ([SvgShape](../svgshape), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [Table](../table)) |  |
 
  **Returns:**
 void
@@ -140,7 +140,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [SummaryZoomSection](../summaryzoomsection)) |  |
+| formatShape ([SvgShape](../svgshape), [ZoomFrame](../zoomframe)) |  |
 
  **Returns:**
 void
@@ -153,7 +153,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [ZoomFrame](../zoomframe)) |  |
+| formatShape ([SvgShape](../svgshape), [SummaryZoomSection](../summaryzoomsection)) |  |
 
  **Returns:**
 void
@@ -231,7 +231,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [SectionZoomFrame](../sectionzoomframe)) |  |
+| formatShape ([SvgShape](../svgshape), [PictureFrame](../pictureframe)) |  |
 
  **Returns:**
 void
@@ -244,7 +244,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [PictureFrame](../pictureframe)) |  |
+| formatShape ([SvgShape](../svgshape), [SectionZoomFrame](../sectionzoomframe)) |  |
 
  **Returns:**
 void
@@ -400,19 +400,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
@@ -427,6 +414,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
 
  **Returns:**
 void
@@ -478,7 +478,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
 
  **Returns:**
 void
@@ -491,7 +491,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
 
  **Returns:**
 void
@@ -569,7 +569,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
 
  **Returns:**
 void
@@ -582,7 +582,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
  **Returns:**
 void
@@ -673,19 +673,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
@@ -700,6 +687,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
 
  **Returns:**
 void
@@ -751,7 +751,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
 
  **Returns:**
 void
@@ -764,7 +764,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
 
  **Returns:**
 void
@@ -842,7 +842,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
 
  **Returns:**
 void
@@ -855,7 +855,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
  **Returns:**
 void
