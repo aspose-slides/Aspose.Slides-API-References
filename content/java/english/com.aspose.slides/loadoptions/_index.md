@@ -561,10 +561,6 @@ Determines if Aspose.Slides will delete all embedded binary objects while presen
 
 The types of the embedded binary objects:
 
- *  
- *  
- *  
-
 Read/write  boolean .
 
 --------------------
@@ -597,10 +593,6 @@ public final void setDeleteEmbeddedBinaryObjects(boolean value)
 Determines if Aspose.Slides will delete all embedded binary objects while presentation loading.
 
 The types of the embedded binary objects:
-
- *  
- *  
- *  
 
 Read/write  boolean .
 

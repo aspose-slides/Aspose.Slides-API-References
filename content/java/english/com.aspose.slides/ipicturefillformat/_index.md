@@ -38,6 +38,18 @@ Represents a picture fill style.
 | [getStretchOffsetBottom()](#getStretchOffsetBottom--) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
 | [setStretchOffsetBottom(float value)](#setStretchOffsetBottom-float-) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
 | [deletePictureCroppedAreas()](#deletePictureCroppedAreas--) | Delete cropped areas of the fill Picture. |
+| [getTileOffsetX()](#getTileOffsetX--) | Returns or sets the horizontal offset of the texture from the shape's origin in points. |
+| [setTileOffsetX(float value)](#setTileOffsetX-float-) | Returns or sets the horizontal offset of the texture from the shape's origin in points. |
+| [getTileOffsetY()](#getTileOffsetY--) | Returns or sets the vertical offset of the texture from the shape's origin in points. |
+| [setTileOffsetY(float value)](#setTileOffsetY-float-) | Returns or sets the vertical offset of the texture from the shape's origin in points. |
+| [getTileScaleX()](#getTileScaleX--) | Returns or sets the horizontal scale for the texture fill as a percentage. |
+| [setTileScaleX(float value)](#setTileScaleX-float-) | Returns or sets the horizontal scale for the texture fill as a percentage. |
+| [getTileScaleY()](#getTileScaleY--) | Returns or sets the vertical scale for the texture fill as a percentage. |
+| [setTileScaleY(float value)](#setTileScaleY-float-) | Returns or sets the vertical scale for the texture fill as a percentage. |
+| [getTileAlignment()](#getTileAlignment--) | Returns or sets how the texture is aligned within the shape. |
+| [setTileAlignment(byte value)](#setTileAlignment-byte-) | Returns or sets how the texture is aligned within the shape. |
+| [getTileFlip()](#getTileFlip--) | Flips the texture tile around its horizontal, vertical or both axis. |
+| [setTileFlip(int value)](#setTileFlip-int-) | Flips the texture tile around its horizontal, vertical or both axis. |
 ### getDpi() {#getDpi--}
 ```
 public abstract int getDpi()
@@ -307,3 +319,361 @@ Delete cropped areas of the fill Picture.
 --------------------
 
 This method converts WMF/EMF metafiles to raster PNG image while cropping.
+### getTileOffsetX() {#getTileOffsetX--}
+```
+public abstract float getTileOffsetX()
+```
+
+
+Returns or sets the horizontal offset of the texture from the shape's origin in points. A positive value moves the texture to the right, while a negative value moves it to the left. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Sets the horizontal offset of the texture to 20 points
+>      pictureFillFormat.setTileOffsetX(20f);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setTileOffsetX(float value) {#setTileOffsetX-float-}
+```
+public abstract void setTileOffsetX(float value)
+```
+
+
+Returns or sets the horizontal offset of the texture from the shape's origin in points. A positive value moves the texture to the right, while a negative value moves it to the left. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Sets the horizontal offset of the texture to 20 points
+>      pictureFillFormat.setTileOffsetX(20f);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getTileOffsetY() {#getTileOffsetY--}
+```
+public abstract float getTileOffsetY()
+```
+
+
+Returns or sets the vertical offset of the texture from the shape's origin in points. A positive value moves the texture down, while a negative value moves it up. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Sets the vertical offset of the texture to -50 points
+>      pictureFillFormat.setTileOffsetY(-50);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setTileOffsetY(float value) {#setTileOffsetY-float-}
+```
+public abstract void setTileOffsetY(float value)
+```
+
+
+Returns or sets the vertical offset of the texture from the shape's origin in points. A positive value moves the texture down, while a negative value moves it up. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Sets the vertical offset of the texture to -50 points
+>      pictureFillFormat.setTileOffsetY(-50);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getTileScaleX() {#getTileScaleX--}
+```
+public abstract float getTileScaleX()
+```
+
+
+Returns or sets the horizontal scale for the texture fill as a percentage. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Sets the horizontal scale for the texture to 120 percents
+>      pictureFillFormat.setTileScaleX(120);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setTileScaleX(float value) {#setTileScaleX-float-}
+```
+public abstract void setTileScaleX(float value)
+```
+
+
+Returns or sets the horizontal scale for the texture fill as a percentage. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Sets the horizontal scale for the texture to 120 percents
+>      pictureFillFormat.setTileScaleX(120);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getTileScaleY() {#getTileScaleY--}
+```
+public abstract float getTileScaleY()
+```
+
+
+Returns or sets the vertical scale for the texture fill as a percentage. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Sets the vertical scale for the texture to 120 percents
+>      pictureFillFormat.setTileScaleY(120);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setTileScaleY(float value) {#setTileScaleY-float-}
+```
+public abstract void setTileScaleY(float value)
+```
+
+
+Returns or sets the vertical scale for the texture fill as a percentage. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Sets the vertical scale for the texture to 120 percents
+>      pictureFillFormat.setTileScaleY(120);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getTileAlignment() {#getTileAlignment--}
+```
+public abstract byte getTileAlignment()
+```
+
+
+Returns or sets how the texture is aligned within the shape. This setting controls the starting point of the texture pattern and how it repeats across the shape. Read/write [RectangleAlignment](../../com.aspose.slides/rectanglealignment).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Sets the alignment for the tiling to the right bottom
+>      pictureFillFormat.setTileAlignment(RectangleAlignment.BottomRight);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+--------------------
+
+Default is [RectangleAlignment.TopLeft](../../com.aspose.slides/rectanglealignment\#TopLeft).
+
+**Returns:**
+byte
+### setTileAlignment(byte value) {#setTileAlignment-byte-}
+```
+public abstract void setTileAlignment(byte value)
+```
+
+
+Returns or sets how the texture is aligned within the shape. This setting controls the starting point of the texture pattern and how it repeats across the shape. Read/write [RectangleAlignment](../../com.aspose.slides/rectanglealignment).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Sets the alignment for the tiling to the right bottom
+>      pictureFillFormat.setTileAlignment(RectangleAlignment.BottomRight);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+--------------------
+
+Default is [RectangleAlignment.TopLeft](../../com.aspose.slides/rectanglealignment\#TopLeft).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | byte |  |
+
+### getTileFlip() {#getTileFlip--}
+```
+public abstract int getTileFlip()
+```
+
+
+Flips the texture tile around its horizontal, vertical or both axis. Read/write  TileFlip (\#getTileFlip.getTileFlip/\#setTileFlip(int).setTileFlip(int)).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Flips the texture tile around its vertical axis.
+>      pictureFillFormat.setTileFlip(TileFlip.FlipY);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+--------------------
+
+Default is [TileFlip.NoFlip](../../com.aspose.slides/tileflip\#NoFlip).
+
+**Returns:**
+int
+### setTileFlip(int value) {#setTileFlip-int-}
+```
+public abstract void setTileFlip(int value)
+```
+
+
+Flips the texture tile around its horizontal, vertical or both axis. Read/write  TileFlip (\#getTileFlip.getTileFlip/\#setTileFlip(int).setTileFlip(int)).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the picture fill format of the shape
+>      IPictureFillFormat pictureFillFormat = slide.getShapes().get_Item(0).getFillFormat().getPictureFillFormat();
+>      // Sets the picture fill mode to Tile
+>      pictureFillFormat.setPictureFillMode(PictureFillMode.Tile);
+>      // Flips the texture tile around its vertical axis.
+>      pictureFillFormat.setTileFlip(TileFlip.FlipY);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+--------------------
+
+Default is [TileFlip.NoFlip](../../com.aspose.slides/tileflip\#NoFlip).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
