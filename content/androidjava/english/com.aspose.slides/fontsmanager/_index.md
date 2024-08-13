@@ -66,6 +66,8 @@ Manages fonts across the presentation.
 | [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Replace font in presentation |
 | [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Replace font in presentation using information provided in [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
 | [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Replace font in presentation using information provided in collection of [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
+| [getFontBytes(IFontData fontData, int fontStyle)](#getFontBytes-com.aspose.slides.IFontData-int-) | Retrieves the byte array representing the font data for a specified font style and font data. |
+| [getFontEmbeddingLevel(byte[] fontBytes, String fontName)](#getFontEmbeddingLevel-byte---java.lang.String-) | Determines the embedding level of a font from the given byte array and font name. |
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()
@@ -283,3 +285,65 @@ Replace font in presentation using information provided in collection of [FontSu
 | --- | --- | --- |
 | substRules | [IFontSubstRuleCollection](../../com.aspose.slides/ifontsubstrulecollection) | Font substitution rules collection |
 
+### getFontBytes(IFontData fontData, int fontStyle) {#getFontBytes-com.aspose.slides.IFontData-int-}
+```
+public final byte[] getFontBytes(IFontData fontData, int fontStyle)
+```
+
+
+Retrieves the byte array representing the font data for a specified font style and font data.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation ("Presentation.pptx");
+>  try {
+>      // Retrieve all fonts used in the presentation
+>      IFontData[] fonts = pres.getFontsManager().getFonts();
+>      // Get the byte array representing the regular style of the first font in the presentation
+>      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyle.Regular);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | The font data object containing the information about the font [FontData](../../com.aspose.slides/fontdata). |
+| fontStyle | int | The style of the font for which the data is to be retrieved [FontStyle](../../com.aspose.slides/fontstyle). |
+
+**Returns:**
+byte[] - A byte array containing the font data for the specified font style. If the font data or style is not found, returns null.
+### getFontEmbeddingLevel(byte[] fontBytes, String fontName) {#getFontEmbeddingLevel-byte---java.lang.String-}
+```
+public final int getFontEmbeddingLevel(byte[] fontBytes, String fontName)
+```
+
+
+Determines the embedding level of a font from the given byte array and font name.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation(pptxFileName);
+>  try {
+>      // Retrieve all fonts used in the presentation
+>      IFontData[] fontDatas = pres.getFontsManager().getFonts();
+>      // Get the byte array representing the regular style of the first font in the presentation
+>      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyle.Regular);
+>      // Determine the embedding level of the font
+>      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontBytes | byte[] | The byte array containing the font data. |
+| fontName | java.lang.String | The name of the font. |
+
+**Returns:**
+int - The embedding level of the specified font.

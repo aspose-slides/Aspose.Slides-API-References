@@ -182,6 +182,7 @@ url: /com.aspose.slides/
 | [EmbedFontCharacters](../com.aspose.slides/embedfontcharacters) | Represents the rule to use for adding new embedding font into [IPresentation](../com.aspose.slides/ipresentation) |
 | [EmbeddedEotFontsHtmlController](../com.aspose.slides/embeddedeotfontshtmlcontroller) | The formatting controller class to use for fonts embedding in EOT format |
 | [EmbeddedWoffFontsHtmlController](../com.aspose.slides/embeddedwofffontshtmlcontroller) | The formatting controller class to use for fonts embedding in WOFF format |
+| [EmbeddingLevel](../com.aspose.slides/embeddinglevel) | Represents the licensing rights for embedding the font. |
 | [EmptyTransition](../com.aspose.slides/emptytransition) | Empty slide transition effect. |
 | [ErrorBarType](../com.aspose.slides/errorbartype) | Represents type of error bar |
 | [ErrorBarValueType](../com.aspose.slides/errorbarvaluetype) | Represents type of error bar value |
@@ -211,6 +212,7 @@ url: /com.aspose.slides/
 | [FontFallBackRulesCollection](../com.aspose.slides/fontfallbackrulescollection) | Represents a collection of FontFallBack rules, defined by user |
 | [FontScheme](../com.aspose.slides/fontscheme) | Stores theme-defined fonts. |
 | [FontSources](../com.aspose.slides/fontsources) | Provides file and memory sources for external fonts. |
+| [FontStyle](../com.aspose.slides/fontstyle) | Font style enumeration |
 | [FontSubstCondition](../com.aspose.slides/fontsubstcondition) | Represents a rule fot font substitution |
 | [FontSubstRule](../com.aspose.slides/fontsubstrule) | Represents font subtituition information |
 | [FontSubstRuleCollection](../com.aspose.slides/fontsubstrulecollection) | Represents collection of fonts substitution. |
