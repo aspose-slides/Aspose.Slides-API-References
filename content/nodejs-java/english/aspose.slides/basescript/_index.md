@@ -18,7 +18,7 @@ url: /aspose.slides/basescript/
 | getBase () | Base argument |
 
  **Returns:**
-[MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar), [MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathBlock](../mathblock), [MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), [BaseScript](../basescript), [MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical), [MathArray](../matharray)
+[MathAccent](../mathaccent), [MathFraction](../mathfraction), [BaseScript](../basescript), [MathDelimiter](../mathdelimiter), [MathBox](../mathbox), [MathFunction](../mathfunction), [MathRadical](../mathradical), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), [MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathElementBase](../mathelementbase), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), [MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)
 
 
 ---

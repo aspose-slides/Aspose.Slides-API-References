@@ -181,6 +181,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [EmbedFontCharacters](embedfontcharacters) | Represents the rule to use for adding new embedding font into IPresentation |
 | [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller) | The formatting controller class to use for fonts embedding in EOT format |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller) | The formatting controller class to use for fonts embedding in WOFF format |
+| [EmbeddingLevel](embeddinglevel) | Represents the licensing rights for embedding the font. |
 | [EmptyTransition](emptytransition) | Empty slide transition effect. |
 | [ErrorBarType](errorbartype) | Represents type of error bar |
 | [ErrorBarValueType](errorbarvaluetype) | Represents type of error bar value |
@@ -210,6 +211,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [FontFallBackRulesCollection](fontfallbackrulescollection) | Represents a collection of FontFallBack rules, defined by user |
 | [FontScheme](fontscheme) | Stores theme-defined fonts. |
 | [FontSources](fontsources) | Provides file and memory sources for external fonts. |
+| [FontStyle](fontstyle) | Font style enumeration |
 | [FontSubstCondition](fontsubstcondition) | Represents a rule fot font substitution |
 | [FontSubstRule](fontsubstrule) | Represents font subtituition information |
 | [FontSubstRuleCollection](fontsubstrulecollection) | Represents collection of fonts substitution. |
