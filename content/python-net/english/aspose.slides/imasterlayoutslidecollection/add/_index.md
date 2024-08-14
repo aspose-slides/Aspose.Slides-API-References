@@ -30,9 +30,7 @@ def add(self, layout_type, layout_name):
 
 ### Remarks
 
-1) Added layout for value SlideLayoutType.Custom of `
-layout_type`
- 
+1) Added layout for value SlideLayoutType.Custom of `layout_type` 
             contains no placeholders and no shapes.
             2) Analogue of this method is 
             method **Aspose.Slides.IGlobalLayoutSlideCollection.Add(Aspose.Slides.IMasterSlide,Aspose.Slides.SlideLayoutType,Syste**
@@ -42,8 +40,8 @@ layout_type`
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(NotImplementedException))** | Thrown if unsupported value of parameter `<br/>layout_type`<br/> is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| **RuntimeError(Proxy error(ArgumentException))** | Thrown if layout name value `<br/>layout_name`<br/> is already in use in <br/>            this collection of the layouts. |
+| **RuntimeError(Proxy error(NotImplementedException))** | Thrown if unsupported value of parameter `layout_type` is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| **RuntimeError(Proxy error(ArgumentException))** | Thrown if layout name value `layout_name` is already in use in <br/>            this collection of the layouts. |
 
 
 

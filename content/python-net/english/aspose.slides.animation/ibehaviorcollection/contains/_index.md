@@ -13,9 +13,7 @@ Determines whether the **System.Collections.Generic.ICollection`1** contains a s
 
 ### Returns
 
-true if `
-item`
- is found in the **System.Collections.Generic.ICollection`1**; otherwise, false.
+true if `item` is found in the **System.Collections.Generic.ICollection`1**; otherwise, false.
 
 
 

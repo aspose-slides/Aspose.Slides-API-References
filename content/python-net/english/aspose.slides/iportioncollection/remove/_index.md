@@ -13,11 +13,7 @@ Removes the first occurrence of a specific object from the **System.Collections.
 
 ### Returns
 
-true if `
-item`
- was successfully removed from the **System.Collections.Generic.ICollection`1**; otherwise, false. This method also returns false if `
-item`
- is not found in the original **System.Collections.Generic.ICollection`1**.
+true if `item` was successfully removed from the **System.Collections.Generic.ICollection`1**; otherwise, false. This method also returns false if `item` is not found in the original **System.Collections.Generic.ICollection`1**.
 
 
 

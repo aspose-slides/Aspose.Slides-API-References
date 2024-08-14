@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ifontsmanager/font_fall_back_rules_collection/
-weight: 70
+weight: 90
 ---
 
 

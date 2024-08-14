@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/fontsmanager/get_fonts/
-weight: 30
+weight: 50
 ---
 
 

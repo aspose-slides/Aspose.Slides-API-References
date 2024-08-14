@@ -13,9 +13,7 @@ Determines whether the collection contains a specific value.
 
 ### Returns
 
-true if `
-item`
- is found in the collection; otherwise, false.
+true if `item` is found in the collection; otherwise, false.
 
 
 

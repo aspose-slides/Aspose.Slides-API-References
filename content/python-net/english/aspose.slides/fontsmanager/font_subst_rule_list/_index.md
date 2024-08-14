@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/fontsmanager/font_subst_rule_list/
-weight: 80
+weight: 100
 ---
 
 

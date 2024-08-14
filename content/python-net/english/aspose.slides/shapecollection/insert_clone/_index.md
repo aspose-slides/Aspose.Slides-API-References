@@ -10,9 +10,7 @@ weight: 250
 
 ## insert_clone {#int-ishape}
 Inserts a copy of a specified shape to specified position of the collection.
-            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the `
-source_shape`
-.
+            X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the `source_shape`.
 
 ### Returns
 
@@ -34,9 +32,7 @@ def insert_clone(self, index, source_shape):
 
 ## insert_clone {#int-ishape-float-float}
 Inserts a copy of a specified shape to specified position of the collection.
-            Width and Height of the new shape are equal to Width and Height of the `
-source_shape`
-.
+            Width and Height of the new shape are equal to Width and Height of the `source_shape`.
 
 ### Returns
 

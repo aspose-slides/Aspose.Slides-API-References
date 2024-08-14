@@ -9,7 +9,7 @@ weight: 100
 
 
 ## text_frame property
-Returns or sets text of the node.
+Returns text frame of the node.
             Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe).
 
 ### Definition:
