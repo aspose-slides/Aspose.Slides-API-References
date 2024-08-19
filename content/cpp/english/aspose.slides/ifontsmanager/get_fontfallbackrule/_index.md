@@ -3,7 +3,7 @@ title: get_FontFallBackRule()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns rule at the specified index for proper substitutions by fallback functionality. Read-only Aspose::Slides::IFontFallBackRule."
 type: docs
-weight: 144
+weight: 170
 url: /aspose.slides/ifontsmanager/get_fontfallbackrule/
 ---
 ## IFontsManager::get_FontFallBackRule(int32_t) method

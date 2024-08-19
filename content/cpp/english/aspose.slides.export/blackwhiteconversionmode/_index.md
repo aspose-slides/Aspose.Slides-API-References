@@ -3,7 +3,7 @@ title: BlackWhiteConversionMode
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how slides' images will be converted to bitonal images.
 type: docs
-weight: 846
+weight: 833
 url: /aspose.slides.export/blackwhiteconversionmode/
 ---
 ## BlackWhiteConversionMode enum

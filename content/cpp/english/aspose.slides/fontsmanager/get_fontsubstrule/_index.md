@@ -3,7 +3,7 @@ title: get_FontSubstRule()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns font substitution rule at the specified index to use when rendering.
 type: docs
-weight: 131
+weight: 157
 url: /aspose.slides/fontsmanager/get_fontsubstrule/
 ---
 ## FontsManager::get_FontSubstRule(int32_t) method

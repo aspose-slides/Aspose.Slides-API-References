@@ -3,7 +3,7 @@ title: FontSubstCondition
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a rule fot font substitution
 type: docs
-weight: 5656
+weight: 5669
 url: /aspose.slides/fontsubstcondition/
 ---
 ## FontSubstCondition enum

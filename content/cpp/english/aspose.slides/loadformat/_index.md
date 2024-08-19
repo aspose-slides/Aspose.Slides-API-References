@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Indicates the format of the document that is to be loaded.
 type: docs
-weight: 6475
+weight: 6488
 url: /aspose.slides/loadformat/
 ---
 ## LoadFormat enum

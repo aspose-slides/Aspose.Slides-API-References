@@ -77,11 +77,6 @@ url: /aspose.slides.export/
 | [VideoPlayerHtmlController](./videoplayerhtmlcontroller/) | This class allows export of video and audio files into a HTML |
 | [VideoPlayerHtmlControllerFactory](./videoplayerhtmlcontrollerfactory/) | Allows to create [VideoPlayerHtmlController](./videoplayerhtmlcontroller/). |
 | [XpsOptions](./xpsoptions/) | Provides options that control how a presentation is saved in XPS format. |
-## Functions
-
-| Function | Description |
-| --- | --- |
-|  [DECLARE_ENUM_OPERATORS](./declare_enum_operators/)([Aspose::Slides::Export::PdfAccessPermissions](./pdfaccesspermissions/)) |  |
 ## Enums
 
 | Enum | Description |

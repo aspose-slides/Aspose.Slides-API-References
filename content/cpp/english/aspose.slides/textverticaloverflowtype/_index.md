@@ -3,7 +3,7 @@ title: TextVerticalOverflowType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents text vertical overflow type.
 type: docs
-weight: 6384
+weight: 6397
 url: /aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType enum

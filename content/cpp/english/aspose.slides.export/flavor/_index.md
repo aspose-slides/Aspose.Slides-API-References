@@ -3,7 +3,7 @@ title: Flavor
 second_title: Aspose.Slides for C++ API Reference
 description: All markdown specifications used in program.
 type: docs
-weight: 937
+weight: 924
 url: /aspose.slides.export/flavor/
 ---
 ## Flavor enum
