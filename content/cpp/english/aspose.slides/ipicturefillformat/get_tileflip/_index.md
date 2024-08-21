@@ -1,7 +1,7 @@
 ---
 title: get_TileFlip()
 second_title: Aspose.Slides for C++ API Reference
-description: Flips the texture tile around its horizontal, vertical or both axis. Read TileFlip.
+description: "Flips the texture tile around its horizontal, vertical or both axis. Read Slides::TileFlip."
 type: docs
 weight: 404
 url: /aspose.slides/ipicturefillformat/get_tileflip/
@@ -9,7 +9,7 @@ url: /aspose.slides/ipicturefillformat/get_tileflip/
 ## IPictureFillFormat::get_TileFlip() method
 
 
-Flips the texture tile around its horizontal, vertical or both axis. Read [TileFlip](../../tileflip/).
+Flips the texture tile around its horizontal, vertical or both axis. Read [Slides::TileFlip](../../tileflip/).
 
 ```cpp
 virtual Aspose::Slides::TileFlip Aspose::Slides::IPictureFillFormat::get_TileFlip()=0

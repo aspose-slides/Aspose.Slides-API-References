@@ -1,7 +1,7 @@
 ---
 title: set_TileFlip()
 second_title: Aspose.Slides for C++ API Reference
-description: Flips the texture tile around its horizontal, vertical or both axis. Write TileFlip.
+description: "Flips the texture tile around its horizontal, vertical or both axis. Write Slides::TileFlip."
 type: docs
 weight: 417
 url: /aspose.slides/picturefillformat/set_tileflip/
@@ -9,7 +9,7 @@ url: /aspose.slides/picturefillformat/set_tileflip/
 ## PictureFillFormat::set_TileFlip(Aspose::Slides::TileFlip) method
 
 
-Flips the texture tile around its horizontal, vertical or both axis. Write [TileFlip](../../tileflip/).
+Flips the texture tile around its horizontal, vertical or both axis. Write [Slides::TileFlip](../../tileflip/).
 
 ```cpp
 void Aspose::Slides::PictureFillFormat::set_TileFlip(Aspose::Slides::TileFlip value) override
