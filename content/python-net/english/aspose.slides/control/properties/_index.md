@@ -10,7 +10,7 @@ weight: 90
 
 ## properties property
 Returns a collection of ActiveX properties.
-            Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return null.
+            Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return None.
             Read-only [`IControlPropertiesCollection`](/slides/python-net/aspose.slides/icontrolpropertiescollection).
 
 ### Definition:

@@ -9,7 +9,7 @@ weight: 80
 
 
 ## external_workbook_path property
-Represents external workbook path if data source is external, null otherwise
+Represents external workbook path if data source is external, None otherwise
 
 ### Definition:
 ```python

@@ -10,7 +10,7 @@ weight: 280
 
 ## line_format property
 Returns the LineFormat object that contains line formatting properties for a shape.
-            Note: Returns null for GroupShape objects because they don't have line properties.
+            Note: Returns None for GroupShape objects because they don't have line properties.
             Read-only [`ILineFormat`](/slides/python-net/aspose.slides/ilineformat).
 
 ### Definition:

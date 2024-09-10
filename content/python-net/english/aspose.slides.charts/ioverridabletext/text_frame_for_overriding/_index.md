@@ -9,7 +9,7 @@ weight: 100
 
 
 ## text_frame_for_overriding property
-Can contain a rich formatted text. If this property is not null then this 
+Can contain a rich formatted text. If this property is not None then this 
             formatted text value overrides auto-generated text.
             Auto-generated text is an implicit property of the data label, the display 
             unit label of the value axis, the axis title, the chart title, the label of the trendline.

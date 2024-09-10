@@ -44,6 +44,7 @@ The PictureFillFormat type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [`delete_picture_cropped_areas`](/slides/python-net/aspose.slides/picturefillformat/delete_picture_cropped_areas/#) | Delete cropped areas of the fill Picture. |
+| [`compress_image`](/slides/python-net/aspose.slides/picturefillformat/compress_image/#bool-float) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
 
 
 ### See Also

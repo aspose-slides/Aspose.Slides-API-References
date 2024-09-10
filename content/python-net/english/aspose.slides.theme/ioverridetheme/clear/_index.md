@@ -9,7 +9,7 @@ weight: 10
 
 
 ## clear {#}
-Set ColorScheme, FontScheme, FormatScheme to null to disable any overriding with this theme object.
+Set ColorScheme, FontScheme, FormatScheme to None to disable any overriding with this theme object.
 
 
 ```python

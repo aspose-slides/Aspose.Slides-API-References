@@ -9,7 +9,7 @@ weight: 170
 
 
 ## is_empty property
-True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled.
+True value means that ColorScheme, FontScheme, FormatScheme is None and any overriding with this theme object are disabled.
             Read-only **bool**.
 
 ### Definition:

@@ -10,7 +10,7 @@ weight: 150
 
 ## insert_row_before {#int}
 Insert a new row before the specified one
-            Initially all elements in the new row are null.
+            Initially all elements in the new row are None.
 
 
 ```python

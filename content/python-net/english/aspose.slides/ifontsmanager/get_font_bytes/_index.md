@@ -13,7 +13,7 @@ Retrieves the byte array representing the font data for a specified font style a
 
 ### Returns
 
-A byte array containing the font data for the specified font style. If the font data or style is not found, returns null.
+A byte array containing the font data for the specified font style. If the font data or style is not found, returns None.
 
 
 
@@ -25,7 +25,7 @@ def get_font_bytes(self, font_data, font_style):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_data | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | The font data object containing the information about the font **FontData**. |
+| font_data | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | The font data object containing the information about the font [`IFontData`](/slides/python-net/aspose.slides/ifontdata). |
 | font_style | **aspose.pydrawing.FontStyle** | The style of the font for which the data is to be retrieved **aspose.pydrawing.FontStyle**. |
 
 

@@ -17,7 +17,7 @@ The IMasterNotesSlideManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`master_notes_slide`](/slides/python-net/aspose.slides/imasternotesslidemanager/master_notes_slide/) | Returns a master for all notes slides of this presentation if there is one, otherwise returns null.<br/>            Read-only [`IMasterNotesSlide`](/slides/python-net/aspose.slides/imasternotesslide). |
+| [`master_notes_slide`](/slides/python-net/aspose.slides/imasternotesslidemanager/master_notes_slide/) | Returns a master for all notes slides of this presentation if there is one, otherwise returns None.<br/>            Read-only [`IMasterNotesSlide`](/slides/python-net/aspose.slides/imasternotesslide). |
 
 ## Methods
 

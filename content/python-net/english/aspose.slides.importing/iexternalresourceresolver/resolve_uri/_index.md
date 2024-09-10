@@ -13,7 +13,7 @@ Resolves the absolute URI from the base and relative URIs.
 
 ### Returns
 
-Absolute URI or null if the relative URI cannot be resolved.
+Absolute URI or None if the relative URI cannot be resolved.
 
 
 

@@ -20,7 +20,7 @@ def __init__(self, element):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The base element to which the delimiter is applied. Can be None. |
 
 ### Exceptions
 

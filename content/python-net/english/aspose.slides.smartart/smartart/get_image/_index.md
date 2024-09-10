@@ -30,7 +30,7 @@ Returns shape thumbnail.
 
 ### Returns
 
-Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
+Shape thumbnail or None in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
 
 
 

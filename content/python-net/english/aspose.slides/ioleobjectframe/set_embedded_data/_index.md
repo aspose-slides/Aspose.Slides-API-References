@@ -31,7 +31,7 @@ This method changes the properties of the object to reflect the new data and
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | When embeddedData parameter is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | When embeddedData parameter is None. |
 
 
 

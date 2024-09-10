@@ -10,7 +10,7 @@ weight: 440
 
 ## three_d_format property
 Returns the ThreeDFormat object that 3d effect properties for a shape.
-            Note: can return null for certain types of shapes which don't have 3d properties.
+            Note: can return None for certain types of shapes which don't have 3d properties.
             Read-only [`IThreeDFormat`](/slides/python-net/aspose.slides/ithreedformat).
 
 ### Definition:

@@ -77,11 +77,11 @@ The IMathMatrix type exposes the following members:
 | [`get_column_alignment`](/slides/python-net/aspose.slides.mathtext/imathmatrix/get_column_alignment/#int) | Get the horizontal alignment of the specified column |
 | [`set_column_alignment`](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_column_alignment/#int-mathhorizontalalignment) | Set the horizontal alignment of the specified column |
 | [`set_columns_alignment`](/slides/python-net/aspose.slides.mathtext/imathmatrix/set_columns_alignment/#int-int-mathhorizontalalignment) | Set the horizontal alignment of the specified columns |
-| [`insert_row_before`](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_row_before/#int) | Insert a new row before the specified one<br/>            Initially all elements in the new row are null. |
-| [`insert_row_after`](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_row_after/#int) | Insert a new row after the specified one<br/>            Initially all elements in the new row are null. |
+| [`insert_row_before`](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_row_before/#int) | Insert a new row before the specified one<br/>            Initially all elements in the new row are None. |
+| [`insert_row_after`](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_row_after/#int) | Insert a new row after the specified one<br/>            Initially all elements in the new row are None. |
 | [`delete_row`](/slides/python-net/aspose.slides.mathtext/imathmatrix/delete_row/#int) | Deletes the specified row |
-| [`insert_column_before`](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_column_before/#int) | Insert a new column before the specified one<br/>            Initially all elements in the new column are null. |
-| [`insert_column_after`](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_column_after/#int) | Insert a new column after the specified one<br/>            Initially all elements in the new column are null. |
+| [`insert_column_before`](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_column_before/#int) | Insert a new column before the specified one<br/>            Initially all elements in the new column are None. |
+| [`insert_column_after`](/slides/python-net/aspose.slides.mathtext/imathmatrix/insert_column_after/#int) | Insert a new column after the specified one<br/>            Initially all elements in the new column are None. |
 | [`delete_column`](/slides/python-net/aspose.slides.mathtext/imathmatrix/delete_column/#int) | Deletes the specified column |
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/imathmatrix/get_children/#) |  |
 | [`to_math_array`](/slides/python-net/aspose.slides.mathtext/imathmatrix/to_math_array/#) |  |

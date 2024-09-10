@@ -17,7 +17,7 @@ The IMasterHandoutSlideManager type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`master_handout_slide`](/slides/python-net/aspose.slides/imasterhandoutslidemanager/master_handout_slide/) | Returns a master for all notes slides of this presentation if there is one, otherwise returns null.<br/>            Read-only [`IMasterHandoutSlide`](/slides/python-net/aspose.slides/imasterhandoutslide). |
+| [`master_handout_slide`](/slides/python-net/aspose.slides/imasterhandoutslidemanager/master_handout_slide/) | Returns a master for all notes slides of this presentation if there is one, otherwise returns None.<br/>            Read-only [`IMasterHandoutSlide`](/slides/python-net/aspose.slides/imasterhandoutslide). |
 
 ## Methods
 

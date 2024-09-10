@@ -27,7 +27,7 @@ def copy_to(self, array, array_index):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | `array` is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | `array` is None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | `array_index` is less than 0. |
 | **RuntimeError(Proxy error(ArgumentException))** | The number of elements in the source **System.Collections.Generic.ICollection`1** is greater than the available space from `array_index` to the end of the destination `array`. |
 

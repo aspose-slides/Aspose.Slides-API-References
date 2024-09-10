@@ -13,7 +13,7 @@ Find shape by alternative text in a PPTX presentation.
 
 ### Returns
 
-Shape or null.
+Shape or None.
 
 
 
@@ -35,7 +35,7 @@ Find shape by alternative text on a slide in a PPTX presentation.
 
 ### Returns
 
-Shape or null.
+Shape or None.
 
 
 

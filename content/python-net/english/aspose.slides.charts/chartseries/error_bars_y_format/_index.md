@@ -12,7 +12,7 @@ weight: 120
 Represents ErrorBars of series with derection Y.
             
             ErrorBars with Y direction are avalible for series of type area, bar, line, scatter and bubble. 
-            For any other types of chart this property returns null (including 3D charts). 
+            For any other types of chart this property returns None (including 3D charts). 
             In case of custom values use DataPoints collection to specify value
             (with [`IChartDataPoint.error_bars_custom_values`](/slides/python-net/aspose.slides.charts/ichartdatapoint/error_bars_custom_values) property).
             

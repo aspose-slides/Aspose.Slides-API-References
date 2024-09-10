@@ -27,7 +27,7 @@ The TextStyle type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_level`](/slides/python-net/aspose.slides/textstyle/get_level/#int) | If level of style exist returns it, otherwise returns null. |
+| [`get_level`](/slides/python-net/aspose.slides/textstyle/get_level/#int) | If level of style exist returns it, otherwise returns None. |
 | [`get_effective`](/slides/python-net/aspose.slides/textstyle/get_effective/#) | Gets effective text style formatting data with the inheritance applied. |
 
 

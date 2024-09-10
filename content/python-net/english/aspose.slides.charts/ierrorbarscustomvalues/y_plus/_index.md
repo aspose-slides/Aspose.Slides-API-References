@@ -11,7 +11,7 @@ weight: 40
 ## y_plus property
 Specifies the error bar value in the positive direction. 
             Avalible if error bars value type is Custom and ErrorBarsYFormat is allowed.
-            In any other case this property returns null. 
+            In any other case this property returns None. 
             Read-only [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue).
 
 ### Definition:

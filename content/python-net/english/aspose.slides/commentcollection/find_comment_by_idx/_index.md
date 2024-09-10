@@ -13,7 +13,7 @@ Finds a comment in the collection by index.
 
 ### Returns
 
-Found comment or null [`IComment`](/slides/python-net/aspose.slides/icomment).
+Found comment or None [`IComment`](/slides/python-net/aspose.slides/icomment).
 
 
 

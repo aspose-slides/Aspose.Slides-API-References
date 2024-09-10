@@ -27,7 +27,7 @@ def add(self, master, layout_type, layout_name):
 | :- | :- | :- |
 | master | [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide) | Master slide for a new layout. |
 | layout_type | [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype) | Layout type for a new layout.<br/><br/>            Supported layout types: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom.<br/><br/>            Other layout types are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| layout_name | **str** | Name for a new layout. If passed name is already in use the ArgumentException will be thrown.<br/><br/>            If null parameter is passed then name genarated atomatically in regards to passed layout type <br/><br/>            (for example "Title Slide" or "1_Title Slide", "2_..", etc.). |
+| layout_name | **str** | Name for a new layout. If passed name is already in use the ArgumentException will be thrown.<br/><br/>            If None parameter is passed then name genarated atomatically in regards to passed layout type <br/><br/>            (for example "Title Slide" or "1_Title Slide", "2_..", etc.). |
 
 ### Remarks
 
@@ -41,7 +41,7 @@ def add(self, master, layout_type, layout_name):
 | Exception | Description |
 | :- | :- |
 | **RuntimeError(Proxy error(NotImplementedException))** | Thrown if unsupported value of parameter `layout_type` is passed. Layout types that are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown if `master` is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown if `master` is None. |
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown if `master` belongs to the other presentation. |
 | **RuntimeError(Proxy error(ArgumentException))** | Thrown if layout name value `layout_name` is already in use in <br/>            collection of the layouts of `master`. |
 

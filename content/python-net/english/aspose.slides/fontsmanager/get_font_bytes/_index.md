@@ -13,7 +13,7 @@ Retrieves the byte array representing the font data for a specified font style a
 
 ### Returns
 
-A byte array containing the font data for the specified font style. If the font data or style is not found, returns null.
+A byte array containing the font data for the specified font style. If the font data or style is not found, returns None.
 
 
 

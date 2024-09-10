@@ -10,7 +10,7 @@ weight: 110
 
 ## insert_column_after {#int}
 Insert a new column after the specified one
-            Initially all elements in the new column are null.
+            Initially all elements in the new column are None.
 
 
 ```python

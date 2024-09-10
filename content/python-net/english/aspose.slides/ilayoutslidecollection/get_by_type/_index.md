@@ -13,7 +13,7 @@ Returns the first layout slide of specified type.
 
 ### Returns
 
-[`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) with specified type or null if no layouts found.
+[`ILayoutSlide`](/slides/python-net/aspose.slides/ilayoutslide) with specified type or None if no layouts found.
 
 
 

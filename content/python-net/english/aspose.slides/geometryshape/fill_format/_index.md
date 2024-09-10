@@ -10,7 +10,7 @@ weight: 220
 
 ## fill_format property
 Returns the FillFormat object that contains fill formatting properties for a shape.
-            Note: can return null for certain types of shapes which don't have fill properties.
+            Note: can return None for certain types of shapes which don't have fill properties.
             Read-only [`IFillFormat`](/slides/python-net/aspose.slides/ifillformat).
 
 ### Definition:

@@ -9,7 +9,7 @@ weight: 120
 
 
 ## use_secondary_categories property
-If false then [`ChartData.secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata/secondary_categories) property return null and data 
+If false then [`ChartData.secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata/secondary_categories) property return None and data 
             in [`ChartData.categories`](/slides/python-net/aspose.slides.charts/chartdata/categories) property is used both for primary and secondary series.
             If true then data in [`ChartData.secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata/secondary_categories) property is used for secondary series and data 
             in [`ChartData.categories`](/slides/python-net/aspose.slides.charts/chartdata/categories) property is used for primary series.

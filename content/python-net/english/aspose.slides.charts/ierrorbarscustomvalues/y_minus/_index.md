@@ -11,7 +11,7 @@ weight: 30
 ## y_minus property
 Specifies the error bar value in the negative direction. 
              Avalible if error bars value type is Custom and ErrorBarsYFormat is allowed. 
-            In any other case this property returns null. 
+            In any other case this property returns None. 
             Read-only [`IDoubleChartValue`](/slides/python-net/aspose.slides.charts/idoublechartvalue).
 
 ### Definition:

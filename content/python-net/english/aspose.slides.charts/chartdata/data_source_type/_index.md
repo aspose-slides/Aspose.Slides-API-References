@@ -9,7 +9,7 @@ weight: 70
 
 
 ## data_source_type property
-Represents external workbook path if external data source, null otherwise
+Represents external workbook path if external data source, None otherwise
 
 ### Definition:
 ```python

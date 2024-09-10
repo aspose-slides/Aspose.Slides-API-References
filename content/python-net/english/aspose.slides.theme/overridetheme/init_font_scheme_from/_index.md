@@ -26,8 +26,8 @@ def init_font_scheme_from(self, font_scheme):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the FontScheme is already initialized (not null). |
-| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown if the fontScheme parameter is null. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the FontScheme is already initialized (not None). |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown if the fontScheme parameter is None. |
 
 
 

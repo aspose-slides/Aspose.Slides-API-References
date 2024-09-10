@@ -10,7 +10,7 @@ weight: 130
 
 ## insert_row_after {#int}
 Insert a new row after the specified one
-            Initially all elements in the new row are null.
+            Initially all elements in the new row are None.
 
 
 ```python

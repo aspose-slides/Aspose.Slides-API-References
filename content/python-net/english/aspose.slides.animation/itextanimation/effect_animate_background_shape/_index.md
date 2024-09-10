@@ -9,7 +9,7 @@ weight: 30
 
 
 ## effect_animate_background_shape property
-Linked shape effect with group or not (null)
+Linked shape effect with group or not (None)
             Read/write [`IEffect`](/slides/python-net/aspose.slides.animation/ieffect).
 
 ### Definition:

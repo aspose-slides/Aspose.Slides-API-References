@@ -20,6 +20,7 @@ The EffectType type exposes the following members:
 | APPEAR | Appear effect. Class **Entrance**  or **Exit** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
 | CURVE_UP_DOWN | CurveUpDown effect. Class **Entrance**  or **Exit** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
 | ASCEND | Ascend effect. Class **Entrance**  or **Exit** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
+| FLOAT_UP | Float effect with direction Up. This is the alias for Ascend type.<br/>            Class **Entrance**  or **Exit** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
 | BLAST | Blast effect. Class **Emphasis** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
 | BLINDS | Blinds effect. Class **Entrance**  or **Exit** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.HorizontalEffectSubtype.Vertical<br/><br/>* EffectSubtype.HorizontalEffectSubtype.Vertical |
 | BLINK | Blink effect. Class **Emphasis** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
@@ -52,6 +53,7 @@ The EffectType type exposes the following members:
 | DARKEN | Darken effect. Class **Emphasis** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
 | DESATURATE | Desaturate effect. Class **Emphasis** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
 | DESCEND | Descend effect. Class **Entrance**  or **Exit** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
+| FLOAT_DOWN | Float effect with direction Down. This is the alias for Descend type.<br/>            Class **Entrance**  or **Exit** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
 | DIAMOND | Diamond effect. Class **Entrance**  or **Exit** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.InEffectSubtype.Out<br/><br/>* EffectSubtype.InEffectSubtype.Out |
 | DISSOLVE | Dissolve effect. Class **Entrance**  or **Exit** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |
 | EASE_IN_OUT | Dissolve effect. Class **Entrance**  or **Exit** .<br/><br/><br/>Valid subtypes:<br/><br/><br/>* EffectSubtype.None |

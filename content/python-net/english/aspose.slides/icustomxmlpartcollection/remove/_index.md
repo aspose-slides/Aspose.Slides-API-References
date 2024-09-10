@@ -31,7 +31,7 @@ def remove(self, item):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | item is `null`. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | item is `None`. |
 
 
 

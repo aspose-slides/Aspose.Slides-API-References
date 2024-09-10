@@ -9,7 +9,7 @@ weight: 320
 
 
 ## parent_group property
-Returns parent GroupShape object if shape is grouped. Otherwise returns null.
+Returns parent GroupShape object if shape is grouped. Otherwise returns None.
             Read-only [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape).
 
 

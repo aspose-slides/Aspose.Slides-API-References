@@ -13,7 +13,7 @@ Find author in a collection by name and initials.
 
 ### Returns
 
-Author or null.
+Author or None.
 
 
 

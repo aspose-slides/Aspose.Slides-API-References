@@ -31,7 +31,7 @@ def add(self, xml_data):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | xmlData is `null`. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | xmlData is `None`. |
 | **RuntimeError(Proxy error(ArgumentException))** | xmlData is empty or invalid. |
 
 
@@ -58,7 +58,7 @@ def add(self, xml_string):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | xmlString is `null`. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | xmlString is `None`. |
 | **RuntimeError(Proxy error(ArgumentException))** | xmlString is empty or xml-data is invalid. |
 
 
@@ -85,7 +85,7 @@ def add(self, input_stream):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | inputStream is `null`. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | inputStream is `None`. |
 | **RuntimeError(Proxy error(ArgumentException))** | Data in inputStream is empty or Sinvalid. |
 
 

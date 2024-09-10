@@ -22,7 +22,7 @@ def init_format_scheme(self):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the FormatScheme is already initialized (not null). |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the FormatScheme is already initialized (not None). |
 
 
 
