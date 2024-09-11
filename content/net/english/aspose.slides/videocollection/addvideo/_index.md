@@ -32,32 +32,7 @@ Added video.
 
 ---
 
-## AddVideo(Stream) {#addvideo_2}
-
-Creates and adds a video to a presentation from stream.
-
-```csharp
-public IVideo AddVideo(Stream stream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Stream to add video file from. |
-
-### Return Value
-
-Added [`Video`](../../video).
-
-### See Also
-
-* interface [IVideo](../../ivideo)
-* class [VideoCollection](../../videocollection)
-* namespace [Aspose.Slides](../../videocollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_3}
+## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_2}
 
 Creates and adds a video to a presentation from stream.
 

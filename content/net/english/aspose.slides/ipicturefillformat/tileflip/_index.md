@@ -1,7 +1,7 @@
 ---
 title: TileFlip
 second_title: Aspose.Sildes for .NET API Reference
-description: Flips the texture tile around its horizontal vertical or both axis. Read/write TileFlipaspose.slides/ipicturefillformat/tileflip.
+description: Flips the texture tile around its horizontal vertical or both axis. Read/write TileFlipaspose.slides/tileflip.
 type: docs
 weight: 140
 url: /aspose.slides/ipicturefillformat/tileflip/
@@ -9,7 +9,7 @@ url: /aspose.slides/ipicturefillformat/tileflip/
 
 ## IPictureFillFormat.TileFlip property
 
-Flips the texture tile around its horizontal, vertical or both axis. Read/write `TileFlip`.
+Flips the texture tile around its horizontal, vertical or both axis. Read/write [`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; set; }

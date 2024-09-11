@@ -19,6 +19,7 @@ public interface ISlideText
 
 | Name | Description |
 | --- | --- |
+| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | The text of the slide comments |
 | [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | The text on the layout page's shapes for this slide |
 | [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | The text on the master page's shapes for this slide |
 | [NotesText](../../aspose.slides/islidetext/notestext) { get; } | The text on the notes page's shapes for this slide |

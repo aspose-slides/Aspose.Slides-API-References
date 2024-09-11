@@ -27,7 +27,7 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 | --- | --- |
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Creates and adds a video to a presentation from byte array. |
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Adds a copy of an video file from an another presentation. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_3)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
 
 ### See Also
 

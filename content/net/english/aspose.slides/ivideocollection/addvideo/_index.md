@@ -32,7 +32,7 @@ Added video.
 
 ---
 
-## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_3}
+## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_2}
 
 Creates and adds a video to a presentation from stream.
 

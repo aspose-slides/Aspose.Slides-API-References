@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
     // Get the byte array representing the regular style of the first font in the presentation
-    bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyle.Regular);
+    byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyle.Regular);
 }
 ```
 
