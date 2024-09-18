@@ -23,7 +23,7 @@ enum class CookieVariant
 | Plain | 1 | The plain cookie specification. |
 | Rfc2109 | 2 | The 'RFC 2109' cookie specification. |
 | Rfc2965 | 3 | The 'RFC 2965' cookie specification. |
-| Default | n/a | The default value equal to 'Rfc2109'. |
+| Default | 2 | The default value equal to 'Rfc2109'. |
 
 ## See Also
 

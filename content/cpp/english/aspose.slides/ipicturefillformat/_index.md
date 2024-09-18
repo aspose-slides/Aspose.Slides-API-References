@@ -19,6 +19,7 @@ class IPictureFillFormat : public Aspose::Slides::IFillParamSource
 
 | Method | Description |
 | --- | --- |
+| virtual **bool** [CompressImage](./compressimage/)(**bool**, **float**) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [DeletePictureCroppedAreas](./deletepicturecroppedareas/)() | Delete cropped areas of the fill [Picture](../picture/). |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
 | static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |
@@ -38,7 +39,7 @@ class IPictureFillFormat : public Aspose::Slides::IFillParamSource
 | virtual **float** [get_StretchOffsetRight](./get_stretchoffsetright/)() | Returns right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read **float**. |
 | virtual **float** [get_StretchOffsetTop](./get_stretchoffsettop/)() | Returns top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read **float**. |
 | virtual [RectangleAlignment](../rectanglealignment/) [get_TileAlignment](./get_tilealignment/)() | Returns how the texture is aligned within the shape. This setting controls the starting point of the texture pattern and how it repeats across the shape. Read [RectangleAlignment](../rectanglealignment/). |
-| virtual [Aspose::Slides::TileFlip](../tileflip/) [get_TileFlip](./get_tileflip/)() | Flips the texture tile around its horizontal, vertical or both axis. Read [TileFlip](../tileflip/). |
+| virtual [Aspose::Slides::TileFlip](../tileflip/) [get_TileFlip](./get_tileflip/)() | Flips the texture tile around its horizontal, vertical or both axis. Read [Slides::TileFlip](../tileflip/). |
 | virtual **float** [get_TileOffsetX](./get_tileoffsetx/)() | Returns the horizontal offset of the texture from the shape's origin in points. A positive value moves the texture to the right, while a negative value moves it to the left. Read **float**. |
 | virtual **float** [get_TileOffsetY](./get_tileoffsety/)() | Returns the vertical offset of the texture from the shape's origin in points. A positive value moves the texture down, while a negative value moves it up. Read **float**. |
 | virtual **float** [get_TileScaleX](./get_tilescalex/)() | Returns the horizontal scale for the texture fill as a percentage. Read **float**. |
@@ -69,7 +70,7 @@ class IPictureFillFormat : public Aspose::Slides::IFillParamSource
 | virtual void [set_StretchOffsetRight](./set_stretchoffsetright/)(**float**) | Sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Write **float**. |
 | virtual void [set_StretchOffsetTop](./set_stretchoffsettop/)(**float**) | Sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Write **float**. |
 | virtual void [set_TileAlignment](./set_tilealignment/)([RectangleAlignment](../rectanglealignment/)) | Sets how the texture is aligned within the shape. This setting controls the starting point of the texture pattern and how it repeats across the shape. Write [RectangleAlignment](../rectanglealignment/). |
-| virtual void [set_TileFlip](./set_tileflip/)([Aspose::Slides::TileFlip](../tileflip/)) | Flips the texture tile around its horizontal, vertical or both axis. Write [TileFlip](../tileflip/). |
+| virtual void [set_TileFlip](./set_tileflip/)([Aspose::Slides::TileFlip](../tileflip/)) | Flips the texture tile around its horizontal, vertical or both axis. Write [Slides::TileFlip](../tileflip/). |
 | virtual void [set_TileOffsetX](./set_tileoffsetx/)(**float**) | Sets the horizontal offset of the texture from the shape's origin in points. A positive value moves the texture to the right, while a negative value moves it to the left. Write **float**. |
 | virtual void [set_TileOffsetY](./set_tileoffsety/)(**float**) | Sets the vertical offset of the texture from the shape's origin in points. A positive value moves the texture down, while a negative value moves it up. Write **float**. |
 | virtual void [set_TileScaleX](./set_tilescalex/)(**float**) | Sets the horizontal scale for the texture fill as a percentage. Write **float**. |

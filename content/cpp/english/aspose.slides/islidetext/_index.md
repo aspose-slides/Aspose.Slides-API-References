@@ -25,6 +25,7 @@ class ISlideText : public virtual System::Object
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
+| virtual [System::String](../../system/string/) [get_CommentsText](./get_commentstext/)() | The text of the slide comments |
 | virtual [System::String](../../system/string/) [get_LayoutText](./get_layouttext/)() | The text on the layout page's shapes for this slide |
 | virtual [System::String](../../system/string/) [get_MasterText](./get_mastertext/)() | The text on the master page's shapes for this slide |
 | virtual [System::String](../../system/string/) [get_NotesText](./get_notestext/)() | The text on the notes page's shapes for this slide |

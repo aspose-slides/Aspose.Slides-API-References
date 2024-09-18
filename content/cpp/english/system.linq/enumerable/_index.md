@@ -20,6 +20,7 @@ class Enumerable
 | Method | Description |
 | --- | --- |
 | static [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../system.collections.generic/ienumerable/)\<T\>\> [Empty](./empty/)() | Returns an empty IEnumerable object. |
+| static [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../system.collections.generic/ienumerable/)\<**int32_t**\>\> [Range](./range/)(**int32_t**, **int32_t**) | Generates a sequence of integral numbers within a specified range. |
 ## See Also
 
 * Namespace [System::Linq](../)

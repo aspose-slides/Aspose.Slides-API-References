@@ -22,6 +22,7 @@ enum class EffectType
 | Appear | 0 |  |
 | CurveUpDown | 1 |  |
 | Ascend | 2 |  |
+| FloatUp | 2 |  |
 | Blast | 3 |  |
 | Blinds | 4 |  |
 | Blink | 5 |  |
@@ -54,6 +55,7 @@ enum class EffectType
 | Darken | 32 |  |
 | Desaturate | 33 |  |
 | Descend | 34 |  |
+| FloatDown | 34 |  |
 | Diamond | 35 |  |
 | Dissolve | 36 |  |
 | EaseInOut | 37 |  |
