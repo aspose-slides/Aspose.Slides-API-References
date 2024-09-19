@@ -39,17 +39,14 @@ if the image was resized or cropped, otherwise ****false****
 
 The following example demonstrates how to use the **CompressImage** method to reduce the size of an image in a presentation by setting a target resolution and removing cropped areas: 
 ```cpp
-[C#]
-using (Presentation presentation = new Presentation("demo.pptx"))
-{
-    ISlide slide = presentation.Slides[0];
+System::SharedPtr<Presentation> presentation = System::MakeObject<Presentation>(u"demo.pptx");
+System::SharedPtr<ISlide> slide = presentation->get_Slide(0);
 
-    // Gets the PictureFrame
-    IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
+// Gets the PictureFrame
+System::SharedPtr<IPictureFrame> picFrame = System::AsCast<IPictureFrame>(slide->get_Shape(0));
 
-    // Compress the image with a target resolution of 150 DPI (Web resolution) and remove cropped areas
-    bool result=picFrame.PictureFormat.CompressImage(true, 150f); // Web resolution
-}
+// Compress the image with a target resolution of 150 DPI (Web resolution) and remove cropped areas
+bool result = picFrame->get_PictureFormat()->CompressImage(true, 150.0f); // Web resolution
 ```
 
 ## See Also
