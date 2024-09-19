@@ -26,29 +26,6 @@ virtual System::SharedPtr<IVideo> Aspose::Slides::IVideoCollection::AddVideo(Sys
 
 Added video.
 
-## IVideoCollection::AddVideo(System::SharedPtr\<System::IO::Stream\>) method
-
-
-Creates and adds a video to a presentation from stream.
-
-```cpp
-virtual System::SharedPtr<IVideo> Aspose::Slides::IVideoCollection::AddVideo(System::SharedPtr<System::IO::Stream> stream)=0
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | Stream to add video file from. |
-
-### Return Value
-
-Added [IVideo](../../ivideo/).
-
-Deprecated
-:   Use AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavior). The method will be removed in version 17.10.
-
 ## IVideoCollection::AddVideo(System::SharedPtr\<System::IO::Stream\>, LoadingStreamBehavior) method
 
 

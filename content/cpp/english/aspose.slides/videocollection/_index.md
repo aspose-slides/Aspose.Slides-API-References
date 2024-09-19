@@ -21,7 +21,6 @@ class VideoCollection : public Aspose::Slides::DomObject<System::SharedPtr<Aspos
 | Method | Description |
 | --- | --- |
 | [System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\> [AddVideo](./addvideo/)([System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\>) override | Adds a copy of an video file from an another presentation. |
-| [System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\> [AddVideo](./addvideo/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>) override | Creates and adds a video to a presentation from stream. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\> [AddVideo](./addvideo/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>, [LoadingStreamBehavior](../loadingstreambehavior/)) override | Creates and adds a video to a presentation from stream. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\> [AddVideo](./addvideo/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>) override | Creates and adds a video to a presentation from byte array. |
 | [iterator](./iterator/) [begin](./begin/)() | Gets iterator pointing to the first element (if any) of the collection. |

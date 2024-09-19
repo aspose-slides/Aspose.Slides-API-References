@@ -20,7 +20,6 @@ class IVideoCollection : public Aspose::Slides::IGenericCollection<System::Share
 | Method | Description |
 | --- | --- |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\> [AddVideo](./addvideo/)([System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\>) | Adds a copy of an video file from an another presentation. |
-| virtual [System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\> [AddVideo](./addvideo/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>) | Creates and adds a video to a presentation from stream. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\> [AddVideo](./addvideo/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>, [LoadingStreamBehavior](../loadingstreambehavior/)) | Creates and adds a video to a presentation from stream. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IVideo](../ivideo/)\> [AddVideo](./addvideo/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>) | Creates and adds a video to a presentation from byte array. |
 | [iterator](../../system.collections.generic/ienumerable/iterator/) [begin](../../system.collections.generic/ienumerable/begin/)() | Gets iterator pointing to the first element (if any) of the collection. This iterator can't be used to change a referenced object because [GetEnumerator()](../../system.collections.generic/ienumerable/getenumerator/) returns a copy-object of T. |
