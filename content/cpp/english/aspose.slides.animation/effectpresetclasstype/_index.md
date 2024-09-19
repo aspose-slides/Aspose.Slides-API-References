@@ -19,12 +19,12 @@ enum class EffectPresetClassType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Entrance | 0 |  |
-| Exit | 1 |  |
-| Emphasis | 2 |  |
-| Path | 3 |  |
-| MediaCall | 4 |  |
-| OLEActionVerbs | 5 |  |
+| Entrance | 0 | Entrance effects class.<br>Target shape types: All |
+| Exit | 1 | Exit effects class.<br>Target shape types: All |
+| Emphasis | 2 | Emphasis effects class.<br>Target shape types: All |
+| Path | 3 | Motion Paths class.<br>Target shape types: All |
+| MediaCall | 4 | Media effects class.<br>Target shape types: [IVideoFrame](../../aspose.slides/ivideoframe/), [IAudioFrame](../../aspose.slides/iaudioframe/) |
+| OLEActionVerbs | 5 | OLE Action Verbs class.<br>Target shape types: [IOleObjectFrame](../../aspose.slides/ioleobjectframe/) |
 
 ## See Also
 
