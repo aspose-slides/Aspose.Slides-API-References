@@ -30,7 +30,7 @@ def compress_image(self, delete_cropped_areas_of_image, resolution):
 
 ### Remarks
 
-This method changes the image's size and resolution similar to PowerPoint's "Picture Format -> Compress Pictures" feature.
+This method changes the image's size and resolution similar to PowerPoint's "Picture Format -\> Compress Pictures" feature.
 
 ### Exceptions
 
