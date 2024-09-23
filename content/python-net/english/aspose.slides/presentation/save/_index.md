@@ -115,7 +115,7 @@ def save(self, fname, slides, format):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | When stream or slides parameter is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | When stream or slides parameter is None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | When slides parameter contains wrong page numbers. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
@@ -176,7 +176,7 @@ def save(self, stream, slides, format, options):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | When stream or slides parameter is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | When stream or slides parameter is None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | When slides parameter contains wrong page numbers. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 

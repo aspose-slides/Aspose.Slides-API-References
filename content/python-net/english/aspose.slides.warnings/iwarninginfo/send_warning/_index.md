@@ -9,7 +9,7 @@ weight: 10
 
 
 ## send_warning {#iwarningcallback}
-If receiver is not null ends warning to a specified receiver and throws the 
+If receiver is not None ends warning to a specified receiver and throws the 
             AbortRequestedException if receiver decided to abort a operation.
 
 

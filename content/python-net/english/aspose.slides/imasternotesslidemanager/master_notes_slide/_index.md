@@ -9,7 +9,7 @@ weight: 30
 
 
 ## master_notes_slide property
-Returns a master for all notes slides of this presentation if there is one, otherwise returns null.
+Returns a master for all notes slides of this presentation if there is one, otherwise returns None.
             Read-only [`IMasterNotesSlide`](/slides/python-net/aspose.slides/imasternotesslide).
 
 ### Definition:

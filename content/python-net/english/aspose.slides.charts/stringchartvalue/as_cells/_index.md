@@ -10,7 +10,7 @@ weight: 30
 
 ## as_cells property
 Null value assigning is not allowed.
-            Returning value always is not null.
+            Returning value always is not None.
             Read/write [`IChartCellCollection`](/slides/python-net/aspose.slides.charts/ichartcellcollection).
 
 ### Definition:

@@ -143,7 +143,7 @@ def add_image(self, svg_image):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown when svgImage parameter is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown when svgImage parameter is None. |
 
 
 ## add_image {#iorawiobase-loadingstreambehavior}

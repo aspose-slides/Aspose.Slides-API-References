@@ -15,7 +15,7 @@ Returns an URL to an external object.
 
 ### Returns
 
-Url of external object or null if this object should be ignored.
+Url of external object or None if this object should be ignored.
 
 
 

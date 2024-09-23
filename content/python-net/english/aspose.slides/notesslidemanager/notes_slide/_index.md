@@ -9,7 +9,7 @@ weight: 30
 
 
 ## notes_slide property
-Returns the notes slide for the current slide. Returns null if slide doesn't have notes slide.
+Returns the notes slide for the current slide. Returns None if slide doesn't have notes slide.
             Read-only [`INotesSlide`](/slides/python-net/aspose.slides/inotesslide).
 
 ### Definition:

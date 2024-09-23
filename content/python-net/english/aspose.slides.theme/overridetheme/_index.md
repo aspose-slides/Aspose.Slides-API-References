@@ -23,7 +23,7 @@ The OverrideTheme type exposes the following members:
 | [`font_scheme`](/slides/python-net/aspose.slides.theme/overridetheme/font_scheme/) | Returns the font scheme.<br/>            Read-only [`IFontScheme`](/slides/python-net/aspose.slides.theme/ifontscheme). |
 | [`format_scheme`](/slides/python-net/aspose.slides.theme/overridetheme/format_scheme/) | Returns the shape format scheme.<br/>            Read-only [`IFormatScheme`](/slides/python-net/aspose.slides.theme/iformatscheme). |
 | [`presentation`](/slides/python-net/aspose.slides.theme/overridetheme/presentation/) | Returns the parent presentation.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
-| [`is_empty`](/slides/python-net/aspose.slides.theme/overridetheme/is_empty/) | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled.<br/>            Read-only **bool**. |
+| [`is_empty`](/slides/python-net/aspose.slides.theme/overridetheme/is_empty/) | True value means that ColorScheme, FontScheme, FormatScheme is None and any overriding with this theme object are disabled.<br/>            Read-only **bool**. |
 
 ## Methods
 
@@ -39,7 +39,7 @@ The OverrideTheme type exposes the following members:
 | [`init_format_scheme`](/slides/python-net/aspose.slides.theme/overridetheme/init_format_scheme/#) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
 | [`init_format_scheme_from`](/slides/python-net/aspose.slides.theme/overridetheme/init_format_scheme_from/#iformatscheme) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
 | [`init_format_scheme_from_inherited`](/slides/python-net/aspose.slides.theme/overridetheme/init_format_scheme_from_inherited/#) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. And initialize data of this new object with data of the FormatScheme of InheritedTheme. |
-| [`clear`](/slides/python-net/aspose.slides.theme/overridetheme/clear/#) | Set ColorScheme, FontScheme, FormatScheme to null to disable any overriding with this theme object. |
+| [`clear`](/slides/python-net/aspose.slides.theme/overridetheme/clear/#) | Set ColorScheme, FontScheme, FormatScheme to None to disable any overriding with this theme object. |
 
 
 ### See Also

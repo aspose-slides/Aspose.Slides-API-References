@@ -9,7 +9,7 @@ weight: 10
 
 
 ## get_any_hyperlinks {#}
-Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver.
+Get all IHyperlinkContainer subobjects that contain not None HyperlinkMouseOver.
             With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface.
 
 

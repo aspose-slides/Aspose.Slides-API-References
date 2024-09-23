@@ -26,8 +26,8 @@ def init_color_scheme_from(self, color_scheme):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the ColorScheme is already initialized (not null). |
-| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown if the colorScheme parameter is null. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the ColorScheme is already initialized (not None). |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Thrown if the colorScheme parameter is None. |
 
 
 

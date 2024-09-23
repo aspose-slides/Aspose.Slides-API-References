@@ -21,6 +21,7 @@ The ISlideText type exposes the following members:
 | [`master_text`](/slides/python-net/aspose.slides/islidetext/master_text/) | The text on the master page's shapes for this slide |
 | [`layout_text`](/slides/python-net/aspose.slides/islidetext/layout_text/) | The text on the layout page's shapes for this slide |
 | [`notes_text`](/slides/python-net/aspose.slides/islidetext/notes_text/) | The text on the notes page's shapes for this slide |
+| [`comments_text`](/slides/python-net/aspose.slides/islidetext/comments_text/) | The text of the slide comments |
 
 
 ### See Also

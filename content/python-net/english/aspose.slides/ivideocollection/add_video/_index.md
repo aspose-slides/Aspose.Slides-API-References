@@ -28,26 +28,6 @@ def add_video(self, video):
 | video | [`IVideo`](/slides/python-net/aspose.slides/ivideo) | Source video. |
 
 
-## add_video {#iorawiobase}
-Creates and adds a video to a presentation from stream.
-
-### Returns
-
-Added [`IVideo`](/slides/python-net/aspose.slides/ivideo).
-
-
-
-```python
-def add_video(self, stream):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| stream | **io.RawIOBase** | Stream to add video file from. |
-
-
 ## add_video {#bytes}
 Creates and adds a video to a presentation from byte array.
 

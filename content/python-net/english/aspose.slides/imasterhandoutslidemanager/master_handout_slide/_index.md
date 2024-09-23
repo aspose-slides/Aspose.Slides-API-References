@@ -9,7 +9,7 @@ weight: 30
 
 
 ## master_handout_slide property
-Returns a master for all notes slides of this presentation if there is one, otherwise returns null.
+Returns a master for all notes slides of this presentation if there is one, otherwise returns None.
             Read-only [`IMasterHandoutSlide`](/slides/python-net/aspose.slides/imasterhandoutslide).
 
 ### Definition:

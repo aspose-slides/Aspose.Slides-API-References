@@ -13,7 +13,7 @@ Returns Summary Zoom Section element for the given section.
 
 ### Returns
 
-[`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection) or null if collection does not contains element for the section.
+[`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection) or None if collection does not contains element for the section.
 
 
 

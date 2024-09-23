@@ -9,7 +9,7 @@ weight: 240
 
 
 ## text_frame_for_overriding property
-Can contain a rich formatted text. If this property is not null then this 
+Can contain a rich formatted text. If this property is not None then this 
             formatted text value overrides auto-generated text of data label.
             Auto-generated text of data label means text that is managed by ShowSeriesName, 
             ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property.

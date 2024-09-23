@@ -10,7 +10,7 @@ weight: 130
 
 ## insert_column_before {#int}
 Insert a new column before the specified one
-            Initially all elements in the new column are null.
+            Initially all elements in the new column are None.
 
 
 ```python

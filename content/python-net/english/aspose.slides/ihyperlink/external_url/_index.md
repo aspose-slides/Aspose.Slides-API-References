@@ -10,7 +10,7 @@ weight: 40
 
 ## external_url property
 Specifies the external URL
-            If this property become not null then property TargetSlide become null.
+            If this property become not None then property TargetSlide become None.
             Read-only **str**.
 
 ### Definition:

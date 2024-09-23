@@ -28,7 +28,7 @@ def set_range(self, formula):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | formula is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | formula is None. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | Unsupported chart type |
 | **RuntimeError(Proxy error(ArgumentException))** | formula has incorrect format. |
 

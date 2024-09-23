@@ -9,7 +9,7 @@ weight: 440
 
 
 ## placeholder property
-Returns the placeholder for a shape. Returns null if the shape has no placeholder.
+Returns the placeholder for a shape. Returns None if the shape has no placeholder.
             Read-only [`IPlaceholder`](/slides/python-net/aspose.slides/iplaceholder).
 
 ### Definition:

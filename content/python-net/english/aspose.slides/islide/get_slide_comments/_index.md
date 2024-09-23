@@ -25,7 +25,7 @@ def get_slide_comments(self, author):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| author | [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor) | Author of comments to find or null to return all comments. |
+| author | [`ICommentAuthor`](/slides/python-net/aspose.slides/icommentauthor) | Author of comments to find or None to return all comments. |
 
 
 

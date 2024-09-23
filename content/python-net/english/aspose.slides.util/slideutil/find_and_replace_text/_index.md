@@ -25,7 +25,7 @@ def find_and_replace_text(presentation, with_masters, find, replace, format):
 | with_masters | **bool** | Determines whether master slides should be scanned. |
 | find | **str** | String value to find. |
 | replace | **str** | String value to replace. |
-| format | [`PortionFormat`](/slides/python-net/aspose.slides/portionformat) | Format for replacing text portion. If null then will be used format of the first <br/><br/>            character of the found string |
+| format | [`PortionFormat`](/slides/python-net/aspose.slides/portionformat) | Format for replacing text portion. If None then will be used format of the first <br/><br/>            character of the found string |
 
 
 

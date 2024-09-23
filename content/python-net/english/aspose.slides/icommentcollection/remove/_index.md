@@ -26,7 +26,7 @@ def remove(self, comment):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | If comment is `null` |
+| **RuntimeError(Proxy error(ArgumentNullException))** | If comment is `None` |
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | Thrown if comment is already removed. |
 
 

@@ -22,7 +22,7 @@ def init_color_scheme_from_inherited(self):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the ColorScheme is already initialized (not null). |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown if the ColorScheme is already initialized (not None). |
 
 
 

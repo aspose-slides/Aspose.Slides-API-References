@@ -9,12 +9,12 @@ weight: 20
 
 
 ## get_hyperlink_clicks {#}
-Get all IHyperlinkContainer subobjects that contain not null HyperlinkClick.
+Get all IHyperlinkContainer subobjects that contain not None HyperlinkClick.
             With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface.
 
 ### Returns
 
-All IHyperlinkContainer subobjects that contain not null HyperlinkClick
+All IHyperlinkContainer subobjects that contain not None HyperlinkClick
 
 
 

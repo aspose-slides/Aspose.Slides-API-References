@@ -22,7 +22,7 @@ def write_font(self, generator, original_font, substituted_font, font_style, fon
 | :- | :- | :- |
 | generator | [`IHtmlGenerator`](/slides/python-net/aspose.slides.export/ihtmlgenerator) | HTML generator |
 | original_font | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | Font to be serialized |
-| substituted_font | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | Substituted font (if font substitution occured), null otherwise |
+| substituted_font | [`IFontData`](/slides/python-net/aspose.slides/ifontdata) | Substituted font (if font substitution occured), None otherwise |
 | font_style | **str** | Font style |
 | font_weight | **str** | Font weight |
 | font_data | **bytes** | Font data |

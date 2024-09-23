@@ -13,7 +13,7 @@ Maps a URI to an object containing the actual resource.
 
 ### Returns
 
-A **io.RawIOBase** object or null if resource cannot be streamed.
+A **io.RawIOBase** object or None if resource cannot be streamed.
 
 
 

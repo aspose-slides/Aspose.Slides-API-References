@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/picturefillformat/tile_flip/
-weight: 180
+weight: 190
 ---
 
 
@@ -31,6 +31,7 @@ def tile_flip(self, value):
 
 ### See Also
 * class [`PictureFillFormat`](/slides/python-net/aspose.slides/picturefillformat)
+* enumeration [`TileFlip`](/slides/python-net/aspose.slides/tileflip)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -29,7 +29,7 @@ def set_embedded_data(self, embedded_data):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | When embeddedData parameter is null. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | When embeddedData parameter is None. |
 
 
 

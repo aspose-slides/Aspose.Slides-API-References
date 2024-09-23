@@ -10,7 +10,7 @@ weight: 120
 
 ## trigger_shape property
 Returns or sets shape target for INTERACTIVE sequence.
-            If sequence is not interactive then returns null.
+            If sequence is not interactive then returns None.
             Read/write [`IShape`](/slides/python-net/aspose.slides/ishape).
 
 ### Definition:

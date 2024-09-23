@@ -29,7 +29,7 @@ Encloses a math element in specified characters such as parenthesis or another c
 
 ### Returns
 
-If `beginning_character` and `ending_character` are null, 
+If `beginning_character` and `ending_character` are None, 
             corresponding properties are assigned values only and no new object is created (returns this instance).
             Otherwise, returns new math element of type Delimiter which includes specified characters as framing 
             and this instance of [`MathDelimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiter) framed inside.

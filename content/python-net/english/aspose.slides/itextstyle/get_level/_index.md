@@ -9,7 +9,7 @@ weight: 20
 
 
 ## get_level {#int}
-If level of style exist returns it, otherwise returns null.
+If level of style exist returns it, otherwise returns None.
 
 ### Returns
 

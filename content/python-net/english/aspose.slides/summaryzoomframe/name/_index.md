@@ -10,7 +10,7 @@ weight: 310
 
 ## name property
 Returns or sets the name of a shape.
-            Must be not null. Use empty string value if needed.
+            Must be not None. Use empty string value if needed.
             Read/write **str**.
 
 ### Definition:

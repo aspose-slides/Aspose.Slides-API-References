@@ -17,7 +17,7 @@ Gets the primary categories (or both primary and secondary categories
 ### Remarks
 
 If [`IChartData.use_secondary_categories`](/slides/python-net/aspose.slides.charts/ichartdata/use_secondary_categories) property is false then [`IChartData.secondary_categories`](/slides/python-net/aspose.slides.charts/ichartdata/secondary_categories) 
-            property return null and data in this [`IChartData.categories`](/slides/python-net/aspose.slides.charts/ichartdata/categories) property is used both for primary 
+            property return None and data in this [`IChartData.categories`](/slides/python-net/aspose.slides.charts/ichartdata/categories) property is used both for primary 
             and secondary series.
             If [`IChartData.use_secondary_categories`](/slides/python-net/aspose.slides.charts/ichartdata/use_secondary_categories) property is true then data in [`IChartData.secondary_categories`](/slides/python-net/aspose.slides.charts/ichartdata/secondary_categories) 
             property is used for secondary series and data in this [`IChartData.categories`](/slides/python-net/aspose.slides.charts/ichartdata/categories) property is used 

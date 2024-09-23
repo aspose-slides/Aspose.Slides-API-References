@@ -27,7 +27,7 @@ The MasterLayoutSlideCollection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_by_type`](/slides/python-net/aspose.slides/masterlayoutslidecollection/get_by_type/#slidelayouttype) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or null if no layouts found. |
+| [`get_by_type`](/slides/python-net/aspose.slides/masterlayoutslidecollection/get_by_type/#slidelayouttype) | Returns the first layout slide of specified type.<br/>            A type of layout slide to find.[`LayoutSlide`](/slides/python-net/aspose.slides/layoutslide) with specified type or None if no layouts found. |
 | [`remove`](/slides/python-net/aspose.slides/masterlayoutslidecollection/remove/#ilayoutslide) | Removes a layout from the collection. |
 | [`remove_unused`](/slides/python-net/aspose.slides/masterlayoutslidecollection/remove_unused/#) | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 | [`add_clone`](/slides/python-net/aspose.slides/masterlayoutslidecollection/add_clone/#ilayoutslide) | Adds a copy of a specified layout slide to the end of the collection. |

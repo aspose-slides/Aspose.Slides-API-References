@@ -13,7 +13,7 @@ Finds first occurrence of a shape with the specified alternative text.
 
 ### Returns
 
-Shape object or null.
+Shape object or None.
 
 
 

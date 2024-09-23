@@ -28,7 +28,7 @@ def get_object_storing_location(self, id, entity_data, semantic_name, content_ty
 | Parameter | Type | Description |
 | :- | :- | :- |
 | id | **int** | Object id. This id is saving operation-wide unique. |
-| entity_data | **bytes** | Object binary data. This parameter can be null, if object binary data is not generated yet. |
+| entity_data | **bytes** | Object binary data. This parameter can be None, if object binary data is not generated yet. |
 | semantic_name | **str** | Some short text, describing meaning of object. Controller may use this as a part of external object name, but it is up to dispatcher to ensure that names will be unique and contain only allowed characters. |
 | content_type | **str** | MIME type of object. |
 | recomended_extension | **str** | File name extension, recommended for this MIME type. |

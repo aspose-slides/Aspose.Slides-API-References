@@ -26,7 +26,7 @@ def remove(self, author):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | Author is `null` |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Author is `None` |
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception) | Thrown if author is already removed. |
 
 

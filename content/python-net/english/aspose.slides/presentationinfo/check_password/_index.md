@@ -29,7 +29,7 @@ def check_password(self, password):
 
 ### Remarks
 
-When the password is null or empty, this method returns false.
+When the password is None or empty, this method returns false.
 
 ### Exceptions
 
