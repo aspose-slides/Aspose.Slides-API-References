@@ -14,7 +14,7 @@ Gets or sets frame size.
 
 ### Remarks
 
-If the size is empty then the value will be taken from [`IPresentation.slide_size`](/slides/python-net/aspose.slides/ipresentation/slide_size)>
+If the size is empty then the value will be taken from [`IPresentation.slide_size`](/slides/python-net/aspose.slides/ipresentation/slide_size)\>
 
 ### Definition:
 ```python

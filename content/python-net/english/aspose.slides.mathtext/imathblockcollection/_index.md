@@ -34,7 +34,7 @@ Gets the item at the specified index.
 | :- | :- |
 | [`add`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/add/#imathblock) | Adds IMathBlock to the end of collection. |
 | [`insert`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/insert/#int-imathblock) | Inserts IMathBlock into the collection at the specified index. |
-| [`remove`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/remove/#imathblock) | Removes the first occurrence of a specific object from the collection/>. |
+| [`remove`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/remove/#imathblock) | Removes the first occurrence of a specific object from the collection/\>. |
 | [`remove_at`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/remove_at/#int) | Removes an item at the specified index of the collection. |
 | [`contains`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/contains/#imathblock) | Determines whether the collection contains a specific value. |
 | [`index_of`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/index_of/#imathblock) | Determines the index of a specific IMathBlock in collection. |

@@ -9,12 +9,12 @@ weight: 60
 
 
 ## remove {#imathblock}
-Removes the first occurrence of a specific object from the collection/>.
+Removes the first occurrence of a specific object from the collection/\>.
 
 ### Returns
 
 true if `item` was successfully removed from the collection; otherwise, false. 
-            This method also returns false if `item` is not found in the original collection/>.
+            This method also returns false if `item` is not found in the original collection/\>.
 
 
 
