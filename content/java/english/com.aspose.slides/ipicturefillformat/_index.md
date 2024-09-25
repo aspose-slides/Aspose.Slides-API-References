@@ -38,6 +38,7 @@ Represents a picture fill style.
 | [getStretchOffsetBottom()](#getStretchOffsetBottom--) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
 | [setStretchOffsetBottom(float value)](#setStretchOffsetBottom-float-) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
 | [deletePictureCroppedAreas()](#deletePictureCroppedAreas--) | Delete cropped areas of the fill Picture. |
+| [compressImage(boolean deleteCroppedAreasOfImage, float resolution)](#compressImage-boolean-float-) | Compresses the image by reducing its size based on the shape size and specified resolution. |
 | [getTileOffsetX()](#getTileOffsetX--) | Returns or sets the horizontal offset of the texture from the shape's origin in points. |
 | [setTileOffsetX(float value)](#setTileOffsetX-float-) | Returns or sets the horizontal offset of the texture from the shape's origin in points. |
 | [getTileOffsetY()](#getTileOffsetY--) | Returns or sets the vertical offset of the texture from the shape's origin in points. |
@@ -319,6 +320,45 @@ Delete cropped areas of the fill Picture.
 --------------------
 
 This method converts WMF/EMF metafiles to raster PNG image while cropping.
+### compressImage(boolean deleteCroppedAreasOfImage, float resolution) {#compressImage-boolean-float-}
+```
+public abstract boolean compressImage(boolean deleteCroppedAreasOfImage, float resolution)
+```
+
+
+Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas.
+
+--------------------
+
+> ```
+> The following example demonstrates how to use the ```
+> CompressImage
+> ``` method to reduce the size of an image in a presentation by setting a target resolution and removing cropped areas:
+>   
+>  Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Gets the PictureFrame
+>      IPictureFrame picFrame = (IPictureFrame)slide.getShapes().get_Item(0);
+>      // Compress the image with a target resolution of 150 DPI (Web resolution) and remove cropped areas
+>      boolean result = picFrame.getPictureFormat().compressImage(true, 150f); // Web resolution
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| deleteCroppedAreasOfImage | boolean | If true, the method will remove the cropped areas of the image, potentially further reducing its size. |
+| resolution | float | The target resolution in DPI. This value must be positive and defines how the image will be resized.
+
+--------------------
+
+This method changes the image's size and resolution similar to PowerPoint's "Picture Format -> Compress Pictures" feature. |
+
+**Returns:**
+boolean - A boolean indicating whether the image was successfully compressed. Returns true if the image was resized or cropped, otherwise false.
 ### getTileOffsetX() {#getTileOffsetX--}
 ```
 public abstract float getTileOffsetX()
@@ -618,7 +658,7 @@ public abstract int getTileFlip()
 ```
 
 
-Flips the texture tile around its horizontal, vertical or both axis. Read/write  TileFlip (\#getTileFlip.getTileFlip/\#setTileFlip(int).setTileFlip(int)).
+Flips the texture tile around its horizontal, vertical or both axis. Read/write [TileFlip](../../com.aspose.slides/tileflip).
 
 --------------------
 
@@ -649,7 +689,7 @@ public abstract void setTileFlip(int value)
 ```
 
 
-Flips the texture tile around its horizontal, vertical or both axis. Read/write  TileFlip (\#getTileFlip.getTileFlip/\#setTileFlip(int).setTileFlip(int)).
+Flips the texture tile around its horizontal, vertical or both axis. Read/write [TileFlip](../../com.aspose.slides/tileflip).
 
 --------------------
 

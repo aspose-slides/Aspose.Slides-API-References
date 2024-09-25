@@ -278,7 +278,7 @@ Retrieves the byte array representing the font data for a specified font style a
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | The font data object containing the information about the font [FontData](../../com.aspose.slides/fontdata). |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | The font data object containing the information about the font [IFontData](../../com.aspose.slides/ifontdata). |
 | fontStyle | int | The style of the font for which the data is to be retrieved [FontStyle](../../com.aspose.slides/fontstyle). |
 
 **Returns:**
