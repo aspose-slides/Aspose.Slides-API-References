@@ -11,6 +11,32 @@ url: /aspose.slides/picturefillformat/
 
  Represents a picture fill style.
  
+### compressImage {#compressImage}
+
+| Name | Description |
+| --- | --- |
+| compressImage (boolean, float) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| deleteCroppedAreasOfImage | boolean | If true, the function will remove the cropped areas of the image, potentially further reducing its size. |
+| resolution | float | The target resolution in DPI. This value must be positive and defines how the image will be resized. This function changes the image's size and resolution similar to PowerPoint's "Picture Format -> Compress Pictures" feature. |
+
+ **Returns:**
+boolean
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when the resolution is not a positive value. |
+
+
+---
+
+
 ### deletePictureCroppedAreas {#deletePictureCroppedAreas}
 
 | Name | Description |
@@ -184,7 +210,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getTileFlip () | Flips the texture tile around its horizontal, vertical or both axis. Read/write TileFlip( #getTileFlip/ #setTileFlip(int)). Default is TileFlip#NoFlip. |
+| getTileFlip () | Flips the texture tile around its horizontal, vertical or both axis. Read/write TileFlip. Default is TileFlip#NoFlip. |
 
  **Returns:**
 int
@@ -372,7 +398,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| setTileFlip (int) | Flips the texture tile around its horizontal, vertical or both axis. Read/write TileFlip( #getTileFlip/ #setTileFlip(int)). Default is TileFlip#NoFlip. |
+| setTileFlip (int) | Flips the texture tile around its horizontal, vertical or both axis. Read/write TileFlip. Default is TileFlip#NoFlip. |
 
 
 ---

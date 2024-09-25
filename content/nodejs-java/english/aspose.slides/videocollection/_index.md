@@ -34,27 +34,6 @@ url: /aspose.slides/videocollection/
 
 | Name | Description |
 | --- | --- |
-| addVideoFromStream  (VideoCollection, ReadStream, Function) | Creates and adds a video to a presentation from stream. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| videocollection | VideoCollection  | link to self |
-| stream | ReadStream | Stream to add video file from. |
-| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
-
- **Returns:**
-[Video](../video)
-
-
----
-
-
-### addVideoFromStream  {#addVideoFromStream }
-
-| Name | Description |
-| --- | --- |
 | addVideoFromStream  (VideoCollection, ReadStream, int, Function) | Creates and adds a video to a presentation from stream. |
 
  **Parameters:**

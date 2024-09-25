@@ -163,7 +163,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ignorePreserveField | boolean | Determines, whether this function should remove unused master even if its ( MasterSlide#getPreserve/ MasterSlide#setPreserve(boolean)) property is set to true. |
+| ignorePreserveField | boolean | Determines, whether this function should remove unused master even if its MasterSlide#getPreserve/ MasterSlide#setPreserve(boolean) property is set to true. |
 
 
 ---
