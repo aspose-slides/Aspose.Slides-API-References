@@ -17,7 +17,7 @@ public Size FrameSize { get; set; }
 
 ### Remarks
 
-If the size is empty then the value will be taken from [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)&gt;
+If the size is empty then the value will be taken from [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)
 
 ### See Also
 
