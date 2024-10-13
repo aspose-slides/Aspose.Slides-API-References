@@ -23,6 +23,8 @@ The EffectSubtype type exposes the following members:
 | BOTTOM_LEFT |  |
 | BOTTOM_RIGHT |  |
 | CENTER |  |
+| OBJECT_CENTER |  |
+| SLIDE_CENTER |  |
 | CLOCKWISE |  |
 | COUNTER_CLOCKWISE |  |
 | GRADUAL_AND_CYCLE_CLOCKWISE |  |
