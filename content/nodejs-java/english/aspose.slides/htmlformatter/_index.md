@@ -15,13 +15,13 @@ url: /aspose.slides/htmlformatter/
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | [EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
 
  **Returns:**
 HtmlFormatter
@@ -91,13 +91,13 @@ HtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller) | Callback interface which controls html file generation. |
 
  **Returns:**
 HtmlFormatter
