@@ -3,7 +3,7 @@ title: ShredTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Shred slide transition effect.
 type: docs
-weight: 9860
+weight: 9900
 url: /aspose.slides.slideshow/shredtransition/
 ---
 

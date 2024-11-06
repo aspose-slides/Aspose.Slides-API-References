@@ -3,7 +3,7 @@ title: PersistenceType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the method used to store properties of the ActiveX control.
 type: docs
-weight: 8980
+weight: 9020
 url: /aspose.slides/persistencetype/
 ---
 

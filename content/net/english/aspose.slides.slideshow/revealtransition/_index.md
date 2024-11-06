@@ -3,7 +3,7 @@ title: RevealTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Reveal slide transition effect.
 type: docs
-weight: 9840
+weight: 9880
 url: /aspose.slides.slideshow/revealtransition/
 ---
 

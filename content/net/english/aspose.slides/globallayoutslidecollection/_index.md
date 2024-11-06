@@ -3,7 +3,7 @@ title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of masters layout slides.
 type: docs
-weight: 4740
+weight: 4760
 url: /aspose.slides/globallayoutslidecollection/
 ---
 

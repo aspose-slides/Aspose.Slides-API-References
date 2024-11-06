@@ -3,7 +3,7 @@ title: HandoutType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies how many slides and in what sequence will be placed on the page.
 type: docs
-weight: 3630
+weight: 3650
 url: /aspose.slides.export/handouttype/
 ---
 

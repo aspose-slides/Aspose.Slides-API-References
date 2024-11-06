@@ -3,7 +3,7 @@ title: Blur
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Blur effect that is applied to the entire shape including its fill. All color channels including alpha are affected.
 type: docs
-weight: 2790
+weight: 2810
 url: /aspose.slides.effects/blur/
 ---
 

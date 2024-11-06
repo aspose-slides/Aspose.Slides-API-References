@@ -3,7 +3,7 @@ title: IRowCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents table row collection.
 type: docs
-weight: 6560
+weight: 6600
 url: /aspose.slides/irowcollection/
 ---
 

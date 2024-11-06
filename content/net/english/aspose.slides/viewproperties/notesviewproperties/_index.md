@@ -3,7 +3,7 @@ title: NotesViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies common view properties associated with the notes view mode. Read-only ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides/viewproperties/notesviewproperties/
 ---
 

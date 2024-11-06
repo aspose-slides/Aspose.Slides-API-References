@@ -3,7 +3,7 @@ title: MathSuperscriptElementFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create IMathSuperscriptElement
 type: docs
-weight: 8640
+weight: 8680
 url: /aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
 

@@ -3,7 +3,7 @@ title: IGenericCollectionT
 second_title: Aspose.Sildes for .NET API Reference
 description: Auxiliary generic collection interface.
 type: docs
-weight: 5670
+weight: 5710
 url: /aspose.slides/igenericcollection-1/
 ---
 

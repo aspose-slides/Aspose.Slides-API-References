@@ -3,7 +3,7 @@ title: TextInheritanceLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: Controls the depth of the text properties inheritance.
 type: docs
-weight: 4310
+weight: 4330
 url: /aspose.slides.export/textinheritancelimit/
 ---
 
@@ -20,7 +20,7 @@ public enum TextInheritanceLimit
 | Name | Value | Description |
 | --- | --- | --- |
 | All | `0` | Inherit all text properties. |
-| TextBox | `1` | Inherit only from TextFrameEx's style. |
+| TextBox | `1` | Inherit only from TextFrame's style. |
 | ParagraphOnly | `2` | Use only properties defined for paragraph. |
 
 ### See Also

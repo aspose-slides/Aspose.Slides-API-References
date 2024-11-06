@@ -3,7 +3,7 @@ title: TextFrameFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains the TextFrames formatTextFrameFormatting properties.
 type: docs
-weight: 10520
+weight: 10560
 url: /aspose.slides/textframeformat/
 ---
 
@@ -25,7 +25,7 @@ public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFra
 
 | Name | Description |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | Returns or sets vertical anchor text in a TextFrameEx. Read/write [`TextAnchorType`](../textanchortype). |
+| [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | Returns or sets vertical anchor text in a TextFrame. Read/write [`TextAnchorType`](../textanchortype). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
 | [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | Returns or sets text's autofit mode. Read/write [`TextAutofitType`](../textautofittype). |
 | [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | If NullableBool.True then text should be centered in box horizontally. Read/write [`NullableBool`](../nullablebool). |

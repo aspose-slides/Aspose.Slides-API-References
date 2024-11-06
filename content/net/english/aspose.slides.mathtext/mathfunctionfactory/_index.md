@@ -3,7 +3,7 @@ title: MathFunctionFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math function
 type: docs
-weight: 8350
+weight: 8390
 url: /aspose.slides.mathtext/mathfunctionfactory/
 ---
 

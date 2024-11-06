@@ -3,7 +3,7 @@ title: BlackWhiteConversionMode
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how slides images will be converted to bitonal images.
 type: docs
-weight: 3520
+weight: 3540
 url: /aspose.slides.export/blackwhiteconversionmode/
 ---
 

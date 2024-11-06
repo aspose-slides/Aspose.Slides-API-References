@@ -3,7 +3,7 @@ title: CellUnsupportedDataException
 second_title: Aspose.Sildes for .NET API Reference
 description: The exception that is thrown when an unsupported data is encountered in a spreadsheet cell.
 type: docs
-weight: 10290
+weight: 10330
 url: /aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 

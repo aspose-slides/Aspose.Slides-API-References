@@ -3,7 +3,7 @@ title: ImagePixelFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the pixel format for the generated images.
 type: docs
-weight: 4000
+weight: 4020
 url: /aspose.slides.export/imagepixelformat/
 ---
 

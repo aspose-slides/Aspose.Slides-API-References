@@ -3,7 +3,7 @@ title: TransitionSoundMode
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent sound mode of transition.
 type: docs
-weight: 9990
+weight: 10030
 url: /aspose.slides.slideshow/transitionsoundmode/
 ---
 

@@ -3,7 +3,7 @@ title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Sildes for .NET API Reference
 description: Embedded Eot fonts HTML controller.
 type: docs
-weight: 3680
+weight: 3700
 url: /aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 

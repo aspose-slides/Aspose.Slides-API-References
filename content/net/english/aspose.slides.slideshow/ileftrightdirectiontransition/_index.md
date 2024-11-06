@@ -3,7 +3,7 @@ title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Left-right direction slide transition effect.
 type: docs
-weight: 9680
+weight: 9720
 url: /aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 

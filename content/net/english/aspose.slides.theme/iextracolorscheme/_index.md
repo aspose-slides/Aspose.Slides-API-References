@@ -3,7 +3,7 @@ title: IExtraColorScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an additional color scheme which can be assigned to a slide.
 type: docs
-weight: 10770
+weight: 10810
 url: /aspose.slides.theme/iextracolorscheme/
 ---
 

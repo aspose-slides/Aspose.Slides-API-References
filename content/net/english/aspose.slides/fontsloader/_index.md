@@ -3,7 +3,7 @@ title: FontsLoader
 second_title: Aspose.Sildes for .NET API Reference
 description: Class for loading custom fonts defined by user. Should be used before creating any presentation objects.
 type: docs
-weight: 4690
+weight: 4710
 url: /aspose.slides/fontsloader/
 ---
 

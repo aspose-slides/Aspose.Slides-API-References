@@ -3,7 +3,7 @@ title: AlphaModulate
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an Alpha Modulate effect. Effect alpha opacity values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate.
 type: docs
-weight: 2750
+weight: 2770
 url: /aspose.slides.effects/alphamodulate/
 ---
 

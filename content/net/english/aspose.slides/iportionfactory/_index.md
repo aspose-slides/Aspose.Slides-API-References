@@ -3,7 +3,7 @@ title: IPortionFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create test portions
 type: docs
-weight: 6420
+weight: 6460
 url: /aspose.slides/iportionfactory/
 ---
 

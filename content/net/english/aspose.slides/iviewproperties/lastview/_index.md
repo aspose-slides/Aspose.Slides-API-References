@@ -3,7 +3,7 @@ title: LastView
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the view mode that was used when the presentation document was last saved. Read/write ViewTypeaspose.slides/viewtype.
 type: docs
-weight: 10
+weight: 20
 url: /aspose.slides/iviewproperties/lastview/
 ---
 

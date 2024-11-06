@@ -3,7 +3,7 @@ title: IEffectFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents effect properties of shape.
 type: docs
-weight: 5450
+weight: 5490
 url: /aspose.slides/ieffectformat/
 ---
 

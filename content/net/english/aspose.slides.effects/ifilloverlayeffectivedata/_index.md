@@ -3,7 +3,7 @@ title: IFillOverlayEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
 type: docs
-weight: 3150
+weight: 3170
 url: /aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 

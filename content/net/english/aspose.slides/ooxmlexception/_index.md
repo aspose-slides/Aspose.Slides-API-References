@@ -3,7 +3,7 @@ title: OOXMLException
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a standard internal exception type related to Office Open XML file format.
 type: docs
-weight: 8810
+weight: 8850
 url: /aspose.slides/ooxmlexception/
 ---
 
