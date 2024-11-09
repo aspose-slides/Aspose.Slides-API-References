@@ -9,7 +9,7 @@ weight: 480
 
 
 ## text_frame property
-Returns TextFrameEx object for the AutoShapeEx.
+Returns TextFrame object for the AutoShape.
             Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe).
 
 ### Definition:

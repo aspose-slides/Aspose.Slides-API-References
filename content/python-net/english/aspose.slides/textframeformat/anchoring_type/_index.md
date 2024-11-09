@@ -9,7 +9,7 @@ weight: 30
 
 
 ## anchoring_type property
-Returns or sets vertical anchor text in a TextFrameEx.
+Returns or sets vertical anchor text in a TextFrame.
             Read/write [`TextAnchorType`](/slides/python-net/aspose.slides/textanchortype).
 
 ### Definition:

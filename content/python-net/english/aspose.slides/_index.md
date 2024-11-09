@@ -58,6 +58,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`DigitalSignature`](/slides/python-net/aspose.slides/digitalsignature/) | Digital signature in signed file. |
 | [`DigitalSignatureCollection`](/slides/python-net/aspose.slides/digitalsignaturecollection/) | Represents a collection of digital signatures attached to a document. |
 | [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties/) | Represents properties of a presentation. |
+| [`DrawingGuide`](/slides/python-net/aspose.slides/drawingguide/) | Represents an adjustable drawing guide. |
+| [`DrawingGuidesCollection`](/slides/python-net/aspose.slides/drawingguidescollection/) | Represents a collection of the adjustable drawing guides. |
 | [`EffectFormat`](/slides/python-net/aspose.slides/effectformat/) | Represents effect properties of shape. |
 | [`Field`](/slides/python-net/aspose.slides/field/) | Represents a field. |
 | [`FieldType`](/slides/python-net/aspose.slides/fieldtype/) | Represents a type of field. <br/>            This value determines which text will be set to the field portion when it will be updated. |
@@ -141,6 +143,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`IDigitalSignature`](/slides/python-net/aspose.slides/idigitalsignature/) | Digital signature in signed file. |
 | [`IDigitalSignatureCollection`](/slides/python-net/aspose.slides/idigitalsignaturecollection/) | Represents a collection of digital signatures attached to a document. |
 | [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties/) | Represents properties of a presentation. |
+| [`IDrawingGuide`](/slides/python-net/aspose.slides/idrawingguide/) | Represents an adjustable drawing guide. |
+| [`IDrawingGuidesCollection`](/slides/python-net/aspose.slides/idrawingguidescollection/) | Represents a collection of the adjustable drawing guides. |
 | [`IEffectFormat`](/slides/python-net/aspose.slides/ieffectformat/) | Represents effect properties of shape. |
 | [`IEffectFormatEffectiveData`](/slides/python-net/aspose.slides/ieffectformateffectivedata/) | Imutable object which contains effective effect formatting properties. |
 | [`IEffectParamSource`](/slides/python-net/aspose.slides/ieffectparamsource/) | Auxiliary effect parameters interface. |

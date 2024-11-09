@@ -19,7 +19,7 @@ The IAutoShape type exposes the following members:
 | :- | :- |
 | [`shape_lock`](/slides/python-net/aspose.slides/iautoshape/shape_lock/) | Returns shape's locks.<br/>            Read-only [`IAutoShapeLock`](/slides/python-net/aspose.slides/iautoshapelock). |
 | [`auto_shape_lock`](/slides/python-net/aspose.slides/iautoshape/auto_shape_lock/) | Returns AutoShape's locks.<br/>            Read-only [`IAutoShapeLock`](/slides/python-net/aspose.slides/iautoshapelock). |
-| [`text_frame`](/slides/python-net/aspose.slides/iautoshape/text_frame/) | Returns TextFrameEx object for the AutoShapeEx.<br/>            Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
+| [`text_frame`](/slides/python-net/aspose.slides/iautoshape/text_frame/) | Returns TextFrame object for the AutoShape.<br/>            Read-only [`ITextFrame`](/slides/python-net/aspose.slides/itextframe). |
 | [`use_background_fill`](/slides/python-net/aspose.slides/iautoshape/use_background_fill/) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format.<br/>            Read/write **bool**. |
 | [`is_text_box`](/slides/python-net/aspose.slides/iautoshape/is_text_box/) | Specifies if the shape is a text box. |
 | [`shape_style`](/slides/python-net/aspose.slides/iautoshape/shape_style/) |  |
@@ -67,7 +67,7 @@ The IAutoShape type exposes the following members:
 | [`get_image`](/slides/python-net/aspose.slides/iautoshape/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#iorawiobase) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) |  |
-| [`add_text_frame`](/slides/python-net/aspose.slides/iautoshape/add_text_frame/#str) | Adds a new TextFrameEx to a shape.<br/>            If shape already has TextFrameEx then simply changes its text. |
+| [`add_text_frame`](/slides/python-net/aspose.slides/iautoshape/add_text_frame/#str) | Adds a new TextFrame to a shape.<br/>            If shape already has TextFrame then simply changes its text. |
 | [`get_geometry_paths`](/slides/python-net/aspose.slides/iautoshape/get_geometry_paths/#) |  |
 | [`set_geometry_path`](/slides/python-net/aspose.slides/iautoshape/set_geometry_path/#igeometrypath) |  |
 | [`set_geometry_paths`](/slides/python-net/aspose.slides/iautoshape/set_geometry_paths/#listigeometrypath) |  |
