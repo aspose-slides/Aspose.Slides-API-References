@@ -1,0 +1,32 @@
+﻿---
+title: orientation property
+second_title: Aspose.Slides for Python via .NET API Reference
+description: 
+type: docs
+url: /aspose.slides/drawingguide/orientation/
+weight: 10
+---
+
+
+## orientation property
+Returns or sets orientation of the drawing guide.
+            Read/write [`Orientation`](/slides/python-net/aspose.slides/orientation).
+
+### Definition:
+```python
+@property
+def orientation(self):
+    ...
+
+@orientation.setter
+def orientation(self, value):
+    ...
+```
+
+
+### See Also
+* class [`DrawingGuide`](/slides/python-net/aspose.slides/drawingguide)
+* enumeration [`Orientation`](/slides/python-net/aspose.slides/orientation)
+* module [`aspose.slides`](/slides/python-net/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)
+

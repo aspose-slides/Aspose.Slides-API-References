@@ -22,6 +22,7 @@ The ViewProperties type exposes the following members:
 | [`normal_view_properties`](/slides/python-net/aspose.slides/viewproperties/normal_view_properties/) | Represents normal view properties. The normal view consists of<br/>            three content regions: the slide itself, a side content region, and a bottom content region.<br/>            Read-only [`INormalViewProperties`](/slides/python-net/aspose.slides/inormalviewproperties). |
 | [`slide_view_properties`](/slides/python-net/aspose.slides/viewproperties/slide_view_properties/) | Specifies common view properties associated with the slide view mode.<br/>            Read-only [`ICommonSlideViewProperties`](/slides/python-net/aspose.slides/icommonslideviewproperties). |
 | [`notes_view_properties`](/slides/python-net/aspose.slides/viewproperties/notes_view_properties/) | Specifies common view properties associated with the notes view mode.<br/>            Read-only [`ICommonSlideViewProperties`](/slides/python-net/aspose.slides/icommonslideviewproperties). |
+| [`grid_spacing`](/slides/python-net/aspose.slides/viewproperties/grid_spacing/) | Returns or sets the grid spacing that should be used for the grid underlying the presentation document, in points. <br/>            Read/write **float**. |
 
 
 ### See Also

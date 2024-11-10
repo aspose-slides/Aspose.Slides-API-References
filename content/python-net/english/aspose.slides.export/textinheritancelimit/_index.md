@@ -18,7 +18,7 @@ The TextInheritanceLimit type exposes the following members:
 | Field | Description |
 | :- | :- |
 | ALL | Inherit all text properties. |
-| TEXT_BOX | Inherit only from TextFrameEx's style. |
+| TEXT_BOX | Inherit only from TextFrame's style. |
 | PARAGRAPH_ONLY | Use only properties defined for paragraph. |
 
 
