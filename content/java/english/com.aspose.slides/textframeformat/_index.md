@@ -37,8 +37,8 @@ Contains the TextFrame's formatTextFrameFormatting properties.
 | [setMarginBottom(double value)](#setMarginBottom-double-) | Returns or sets the bottom margin (points) in a TextFrame. |
 | [getWrapText()](#getWrapText--) | True if text is wrapped at TextFrame's margins. |
 | [setWrapText(byte value)](#setWrapText-byte-) | True if text is wrapped at TextFrame's margins. |
-| [getAnchoringType()](#getAnchoringType--) | Returns or sets vertical anchor text in a TextFrameEx. |
-| [setAnchoringType(byte value)](#setAnchoringType-byte-) | Returns or sets vertical anchor text in a TextFrameEx. |
+| [getAnchoringType()](#getAnchoringType--) | Returns or sets vertical anchor text in a TextFrame. |
+| [setAnchoringType(byte value)](#setAnchoringType-byte-) | Returns or sets vertical anchor text in a TextFrame. |
 | [getCenterText()](#getCenterText--) | If NullableBool.True then text should be centered in box horizontally. |
 | [setCenterText(byte value)](#setCenterText-byte-) | If NullableBool.True then text should be centered in box horizontally. |
 | [getTextVerticalType()](#getTextVerticalType--) | Determines text orientation. |
@@ -288,7 +288,7 @@ public final byte getAnchoringType()
 ```
 
 
-Returns or sets vertical anchor text in a TextFrameEx. Read/write [TextAnchorType](../../com.aspose.slides/textanchortype).
+Returns or sets vertical anchor text in a TextFrame. Read/write [TextAnchorType](../../com.aspose.slides/textanchortype).
 
 **Returns:**
 byte
@@ -298,7 +298,7 @@ public final void setAnchoringType(byte value)
 ```
 
 
-Returns or sets vertical anchor text in a TextFrameEx. Read/write [TextAnchorType](../../com.aspose.slides/textanchortype).
+Returns or sets vertical anchor text in a TextFrame. Read/write [TextAnchorType](../../com.aspose.slides/textanchortype).
 
 **Parameters:**
 | Parameter | Type | Description |
