@@ -98,7 +98,7 @@ int
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix), [BaseScript](../basescript), [MathRadical](../mathradical), [MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), [MathFunction](../mathfunction), [MathArray](../matharray), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathBar](../mathbar), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)
+[MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase), [BaseScript](../basescript), [MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar), [MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit), [MathAccent](../mathaccent), [MathFunction](../mathfunction)
 
 
 ---
@@ -241,7 +241,7 @@ int
 | column | int | The zero-based index of the column to get item |
 
  **Returns:**
-[MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix), [BaseScript](../basescript), [MathRadical](../mathradical), [MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), [MathFunction](../mathfunction), [MathArray](../matharray), [MathElementBase](../mathelementbase), [MathBox](../mathbox), [MathBar](../mathbar), [MathLimit](../mathlimit), [MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)
+[MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase), [BaseScript](../basescript), [MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar), [MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit), [MathAccent](../mathaccent), [MathFunction](../mathfunction)
 
 
 ---
@@ -437,7 +437,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Element of matrix |
+| set_Item (int, int, [MathRadical](../mathradical)) | Element of matrix |
 
  **Parameters:**
 
@@ -471,7 +471,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, [MathDelimiter](../mathdelimiter)) | Element of matrix |
+| set_Item (int, int, [MathBlock](../mathblock)) | Element of matrix |
 
  **Parameters:**
 
@@ -505,7 +505,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, [BaseScript](../basescript)) | Element of matrix |
+| set_Item (int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
 
  **Parameters:**
 
@@ -522,7 +522,41 @@ int
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, [MathRadical](../mathradical)) | Element of matrix |
+| set_Item (int, int, [MathArray](../matharray)) | Element of matrix |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
+| set_Item (int, int, [MathFraction](../mathfraction)) | Element of matrix |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
+| set_Item (int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
 
  **Parameters:**
 
@@ -573,75 +607,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, [MathAccent](../mathaccent)) | Element of matrix |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, int, [MathFraction](../mathfraction)) | Element of matrix |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, int, [MathFunction](../mathfunction)) | Element of matrix |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, int, [MathArray](../matharray)) | Element of matrix |
+| set_Item (int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
 
  **Parameters:**
 
@@ -675,7 +641,41 @@ int
 
 | Name | Description |
 | --- | --- |
+| set_Item (int, int, [BaseScript](../basescript)) | Element of matrix |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
 | set_Item (int, int, [MathBox](../mathbox)) | Element of matrix |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
+| set_Item (int, int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Element of matrix |
 
  **Parameters:**
 
@@ -709,6 +709,23 @@ int
 
 | Name | Description |
 | --- | --- |
+| set_Item (int, int, [MathDelimiter](../mathdelimiter)) | Element of matrix |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
 | set_Item (int, int, [MathLimit](../mathlimit)) | Element of matrix |
 
  **Parameters:**
@@ -726,7 +743,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, [MathBlock](../mathblock)) | Element of matrix |
+| set_Item (int, int, [MathAccent](../mathaccent)) | Element of matrix |
 
  **Parameters:**
 
@@ -743,24 +760,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
+| set_Item (int, int, [MathFunction](../mathfunction)) | Element of matrix |
 
  **Parameters:**
 

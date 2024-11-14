@@ -11,6 +11,19 @@ url: /aspose.slides/viewproperties/
 
  Presentation wide view properties.
  
+### getGridSpacing {#getGridSpacing}
+
+| Name | Description |
+| --- | --- |
+| getGridSpacing () | Returns or sets the grid spacing that should be used for the grid underlying the presentation document, in points. Read/write float. The grid spacing value must be a positive number . The typical value range is from 1 mm (2.8349607 points) to 2 inches (144 points). |
+
+ **Returns:**
+float
+
+
+---
+
+
 ### getLastView {#getLastView}
 
 | Name | Description |
@@ -71,6 +84,16 @@ byte
 
  **Returns:**
 [CommonSlideViewProperties](../commonslideviewproperties)
+
+
+---
+
+
+### setGridSpacing {#setGridSpacing}
+
+| Name | Description |
+| --- | --- |
+| setGridSpacing (float) | Returns or sets the grid spacing that should be used for the grid underlying the presentation document, in points. Read/write float. The grid spacing value must be a positive number . The typical value range is from 1 mm (2.8349607 points) to 2 inches (144 points). |
 
 
 ---
