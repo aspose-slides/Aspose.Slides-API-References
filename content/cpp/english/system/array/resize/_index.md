@@ -3,7 +3,7 @@ title: Resize()
 second_title: Aspose.Slides for C++ API Reference
 description: Changes the size of the specified array to the specified value or crates new array with specified size.
 type: docs
-weight: 729
+weight: 742
 url: /system/array/resize/
 ---
 ## Array::Resize(ArrayPtr\<Type\>\&, int) method

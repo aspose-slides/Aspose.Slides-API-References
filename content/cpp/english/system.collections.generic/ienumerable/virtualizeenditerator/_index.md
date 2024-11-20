@@ -3,7 +3,7 @@ title: virtualizeEndIterator()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets the implementation of end iterator for the current container.
 type: docs
-weight: 339
+weight: 417
 url: /system.collections.generic/ienumerable/virtualizeenditerator/
 ---
 ## IEnumerable::virtualizeEndIterator() method

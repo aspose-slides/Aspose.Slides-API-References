@@ -3,7 +3,7 @@ title: IControl
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an ActiveX control.
 type: docs
-weight: 1782
+weight: 1808
 url: /aspose.slides/icontrol/
 ---
 ## IControl class

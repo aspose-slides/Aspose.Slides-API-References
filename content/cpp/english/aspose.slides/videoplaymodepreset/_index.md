@@ -3,7 +3,7 @@ title: VideoPlayModePreset
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define how a video is played.
 type: docs
-weight: 6436
+weight: 6488
 url: /aspose.slides/videoplaymodepreset/
 ---
 ## VideoPlayModePreset enum

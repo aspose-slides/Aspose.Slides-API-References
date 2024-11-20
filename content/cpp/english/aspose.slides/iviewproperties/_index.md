@@ -3,7 +3,7 @@ title: IViewProperties
 second_title: Aspose.Slides for C++ API Reference
 description: Presentation wide view properties.
 type: docs
-weight: 4083
+weight: 4135
 url: /aspose.slides/iviewproperties/
 ---
 ## IViewProperties class
@@ -25,6 +25,7 @@ class IViewProperties : public virtual System::Object
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
+| virtual **float** [get_GridSpacing](./get_gridspacing/)() | Returns the grid spacing that should be used for the grid underlying the presentation document, in points. Read **float**. |
 | virtual [ViewType](../viewtype/) [get_LastView](./get_lastview/)() | Specifies the view mode that was used when the presentation document was last saved. Read [ViewType](../viewtype/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[INormalViewProperties](../inormalviewproperties/)\> [get_NormalViewProperties](./get_normalviewproperties/)() | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only [INormalViewProperties](../inormalviewproperties/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[ICommonSlideViewProperties](../icommonslideviewproperties/)\> [get_NotesViewProperties](./get_notesviewproperties/)() | Specifies common view properties associated with the notes view mode. Read-only [ICommonSlideViewProperties](../icommonslideviewproperties/). |
@@ -45,6 +46,7 @@ class IViewProperties : public virtual System::Object
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
+| virtual void [set_GridSpacing](./set_gridspacing/)(**float**) | Sets the grid spacing that should be used for the grid underlying the presentation document, in points. Write **float**. |
 | virtual void [set_LastView](./set_lastview/)([ViewType](../viewtype/)) | Specifies the view mode that was used when the presentation document was last saved. Write [ViewType](../viewtype/). |
 | virtual void [set_ShowComments](./set_showcomments/)([NullableBool](../nullablebool/)) | Specifies whether the slide comments should be shown. Write [NullableBool](../nullablebool/). |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |

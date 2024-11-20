@@ -3,7 +3,7 @@ title: IMasterHandoutSlideManager
 second_title: Aspose.Slides for C++ API Reference
 description: Master handout slide manager.
 type: docs
-weight: 2731
+weight: 2783
 url: /aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager class

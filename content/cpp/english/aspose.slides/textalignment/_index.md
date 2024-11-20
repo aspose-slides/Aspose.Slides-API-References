@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.Slides for C++ API Reference
 description: Represents different text alignment styles.
 type: docs
-weight: 6293
+weight: 6345
 url: /aspose.slides/textalignment/
 ---
 ## TextAlignment enum

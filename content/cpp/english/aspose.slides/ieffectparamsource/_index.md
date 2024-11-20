@@ -3,7 +3,7 @@ title: IEffectParamSource
 second_title: Aspose.Slides for C++ API Reference
 description: Auxiliary effect parameters interface.
 type: docs
-weight: 1951
+weight: 2003
 url: /aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource class

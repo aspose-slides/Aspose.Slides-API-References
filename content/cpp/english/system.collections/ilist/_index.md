@@ -3,7 +3,7 @@ title: IList
 second_title: Aspose.Slides for C++ API Reference
 description: IList Represents a non-generic collection of objects that can be individually accessed by index.
 type: docs
-weight: 105
+weight: 118
 url: /system.collections/ilist/
 ---
 ## IList class

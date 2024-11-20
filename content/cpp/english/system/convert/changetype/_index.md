@@ -16,11 +16,21 @@ static SharedPtr<Object> System::Convert::ChangeType(const SharedPtr<Object> &va
 ```
 
 
+## Convert::ChangeType(const SharedPtr\<Object\>\&, const TypeInfo\&, const SharedPtr\<IFormatProvider\>\&) method
+
+
+
+
+```cpp
+static SharedPtr<Object> System::Convert::ChangeType(const SharedPtr<Object> &value, const TypeInfo &conversion_type, const SharedPtr<IFormatProvider> &provider)
+```
+
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
 * Class [Object](../../object/)
 * Class [TypeInfo](../../typeinfo/)
+* Class [IFormatProvider](../../iformatprovider/)
 * Struct [Convert](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: HashSetPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Pointer to keep HashSet references. This type is a pointer to manage other object's deletion. It should be allocated on stack and passed to functions either by value or by const reference.
 type: docs
-weight: 222
+weight: 235
 url: /system.collections.generic/hashsetptr/
 ---
 ## HashSetPtr class

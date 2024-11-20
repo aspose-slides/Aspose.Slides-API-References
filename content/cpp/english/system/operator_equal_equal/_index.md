@@ -3,7 +3,7 @@ title: operator==()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1886
+weight: 1912
 url: /system/operator_equal_equal/
 ---
 ## System::operator==(ArraySegment\<T\>, ArraySegment\<T\>) function

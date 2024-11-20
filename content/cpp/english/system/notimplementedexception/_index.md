@@ -3,7 +3,7 @@ title: NotImplementedException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3329
+weight: 3394
 url: /system/notimplementedexception/
 ---
 ## NotImplementedException typedef

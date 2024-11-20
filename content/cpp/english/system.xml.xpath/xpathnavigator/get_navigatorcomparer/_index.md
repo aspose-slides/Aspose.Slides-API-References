@@ -9,7 +9,7 @@ url: /system.xml.xpath/xpathnavigator/get_navigatorcomparer/
 ## XPathNavigator::get_NavigatorComparer() method
 
 
-Returns an Collections::IEqualityComparer used for equality comparison of [XPathNavigator](../) objects.
+Returns an [Collections::IEqualityComparer](../../../system.collections/iequalitycomparer/) used for equality comparison of [XPathNavigator](../) objects.
 
 ```cpp
 static SharedPtr<Collections::Generic::IEqualityComparer<SharedPtr<XPathNavigator>>> System::Xml::XPath::XPathNavigator::get_NavigatorComparer()
@@ -18,7 +18,7 @@ static SharedPtr<Collections::Generic::IEqualityComparer<SharedPtr<XPathNavigato
 
 ### Return Value
 
-An Collections::IEqualityComparer used for equality comparison of [XPathNavigator](../) objects.
+An [Collections::IEqualityComparer](../../../system.collections/iequalitycomparer/) used for equality comparison of [XPathNavigator](../) objects.
 
 ## See Also
 

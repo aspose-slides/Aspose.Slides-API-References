@@ -3,7 +3,7 @@ title: PictureFillMode
 second_title: Aspose.Slides for C++ API Reference
 description: Determines how picture will fill area.
 type: docs
-weight: 6007
+weight: 6059
 url: /aspose.slides/picturefillmode/
 ---
 ## PictureFillMode enum

@@ -3,7 +3,7 @@ title: GradientStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the available gradient styles.
 type: docs
-weight: 5708
+weight: 5760
 url: /aspose.slides/gradientstyle/
 ---
 ## GradientStyle enum

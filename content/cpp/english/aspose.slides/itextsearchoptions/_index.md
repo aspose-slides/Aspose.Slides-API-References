@@ -3,7 +3,7 @@ title: ITextSearchOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options that can be used to search for text in a Presentation, Slide or TextFrame.
 type: docs
-weight: 3966
+weight: 4018
 url: /aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions class

@@ -3,7 +3,7 @@ title: TextFrameFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Contains the TextFrame's formatTextFrameFormatting properties.
 type: docs
-weight: 5279
+weight: 5331
 url: /aspose.slides/textframeformat/
 ---
 ## TextFrameFormat class
@@ -27,7 +27,7 @@ class TextFrameFormat : public Aspose::Slides::PVIObject,
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
-| [TextAnchorType](../textanchortype/) [get_AnchoringType](./get_anchoringtype/)() override | Returns vertical anchor text in a TextFrameEx. Read [TextAnchorType](../textanchortype/). |
+| [TextAnchorType](../textanchortype/) [get_AnchoringType](./get_anchoringtype/)() override | Returns vertical anchor text in a [TextFrame](../textframe/). Read [TextAnchorType](../textanchortype/). |
 | [TextAutofitType](../textautofittype/) [get_AutofitType](./get_autofittype/)() override | Returns text's autofit mode. Read [TextAutofitType](../textautofittype/). |
 | [NullableBool](../nullablebool/) [get_CenterText](./get_centertext/)() override | If [NullableBool::True](../nullablebool/) then text should be centered in box horizontally. Read [NullableBool](../nullablebool/). |
 | **int32_t** [get_ColumnCount](./get_columncount/)() override | Returns number of columns in the text area. This value must be a positive number. Otherwise, the value will be set to zero. Value 0 means undefined value. Read **int32_t**. |
@@ -60,7 +60,7 @@ class TextFrameFormat : public Aspose::Slides::PVIObject,
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
-| void [set_AnchoringType](./set_anchoringtype/)([TextAnchorType](../textanchortype/)) override | Sets vertical anchor text in a TextFrameEx. Write [TextAnchorType](../textanchortype/). |
+| void [set_AnchoringType](./set_anchoringtype/)([TextAnchorType](../textanchortype/)) override | Sets vertical anchor text in a [TextFrame](../textframe/). Write [TextAnchorType](../textanchortype/). |
 | void [set_AutofitType](./set_autofittype/)([TextAutofitType](../textautofittype/)) override | Sets text's autofit mode. Write [TextAutofitType](../textautofittype/). |
 | void [set_CenterText](./set_centertext/)([NullableBool](../nullablebool/)) override | If [NullableBool::True](../nullablebool/) then text should be centered in box horizontally. Write [NullableBool](../nullablebool/). |
 | void [set_ColumnCount](./set_columncount/)(**int32_t**) override | Sets number of columns in the text area. This value must be a positive number. Otherwise, the value will be set to zero. Value 0 means undefined value. Write **int32_t**. |

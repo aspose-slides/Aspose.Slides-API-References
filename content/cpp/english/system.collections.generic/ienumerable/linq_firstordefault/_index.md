@@ -3,7 +3,7 @@ title: LINQ_FirstOrDefault()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the first element of a sequence, or a default value if the sequence is empty.
 type: docs
-weight: 40
+weight: 66
 url: /system.collections.generic/ienumerable/linq_firstordefault/
 ---
 ## IEnumerable::LINQ_FirstOrDefault() method

@@ -3,7 +3,7 @@ title: GetFields()
 second_title: Aspose.Slides for C++ API Reference
 description: Searches for the fields defined for the current Type, using the specified binding constraints.
 type: docs
-weight: 521
+weight: 547
 url: /system/typeinfo/getfields/
 ---
 ## TypeInfo::GetFields(System::Reflection::BindingFlags) const method

@@ -3,7 +3,7 @@ title: GetConstructor()
 second_title: Aspose.Slides for C++ API Reference
 description: Searches for a public instance constructor whose parameters match the types in the specified array.
 type: docs
-weight: 365
+weight: 378
 url: /system/typeinfo/getconstructor/
 ---
 ## TypeInfo::GetConstructor(const ArrayPtr\<TypeInfo\>\&) const method

@@ -3,7 +3,7 @@ title: IFindResultCallback
 second_title: Aspose.Slides for C++ API Reference
 description: Callback interface used to getting search text result.
 type: docs
-weight: 2029
+weight: 2081
 url: /aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback class

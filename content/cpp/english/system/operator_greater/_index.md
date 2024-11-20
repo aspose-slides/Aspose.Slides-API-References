@@ -3,7 +3,7 @@ title: operator>()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1964
+weight: 1990
 url: /system/operator_greater/
 ---
 ## System::operator>(std::nullptr_t, DateTime) function

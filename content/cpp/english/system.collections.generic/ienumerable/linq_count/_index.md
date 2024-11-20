@@ -3,7 +3,7 @@ title: LINQ_Count()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the number of elements in the sequence (calculated via direct counting).
 type: docs
-weight: 92
+weight: 118
 url: /system.collections.generic/ienumerable/linq_count/
 ---
 ## IEnumerable::LINQ_Count() method

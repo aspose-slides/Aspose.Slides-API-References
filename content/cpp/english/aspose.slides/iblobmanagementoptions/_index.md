@@ -3,7 +3,7 @@ title: IBlobManagementOptions
 second_title: Aspose.Slides for C++ API Reference
 description: A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. A number of techniques are used to optimize memory consumption while working with BLOBs - which was already stored in the presentation or be added later programmatically. Using IBlobManagementOptions you can change a different behavior aspects regarding BLOBs handling for the IPresentation instance lifetime.
 type: docs
-weight: 1470
+weight: 1496
 url: /aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions class

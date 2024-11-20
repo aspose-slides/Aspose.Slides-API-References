@@ -18,7 +18,7 @@ System::Drawing::Size Aspose::Slides::Export::GifOptions::get_FrameSize() overri
 ## Remarks
 
 
-If the size is empty then the value will be taken from [IPresentation::get_SlideSize](../../../aspose.slides/ipresentation/get_slidesize/)>
+If the size is empty then the value will be taken from [IPresentation::get_SlideSize](../../../aspose.slides/ipresentation/get_slidesize/)
 ## See Also
 
 * Class [Size](../../../system.drawing/size/)

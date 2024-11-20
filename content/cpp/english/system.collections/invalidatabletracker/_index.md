@@ -3,7 +3,7 @@ title: InvalidatableTracker
 second_title: Aspose.Slides for C++ API Reference
 description: Class that implements trackers of Invalidatable objects.
 type: docs
-weight: 170
+weight: 183
 url: /system.collections/invalidatabletracker/
 ---
 ## InvalidatableTracker class

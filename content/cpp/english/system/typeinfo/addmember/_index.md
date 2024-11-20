@@ -3,7 +3,7 @@ title: AddMember()
 second_title: Aspose.Slides for C++ API Reference
 description: Adds the specified member to the list of type's members.
 type: docs
-weight: 456
+weight: 482
 url: /system/typeinfo/addmember/
 ---
 ## TypeInfo::AddMember(const SharedPtr\<System::Reflection::MemberInfo\>\&) method

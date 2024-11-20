@@ -3,7 +3,7 @@ title: FontSources
 second_title: Aspose.Slides for C++ API Reference
 description: Provides file and memory sources for external fonts.
 type: docs
-weight: 950
+weight: 976
 url: /aspose.slides/fontsources/
 ---
 ## FontSources class

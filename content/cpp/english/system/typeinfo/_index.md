@@ -3,7 +3,7 @@ title: TypeInfo
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a particular type and provides information about it.
 type: docs
-weight: 1262
+weight: 1288
 url: /system/typeinfo/
 ---
 ## TypeInfo class
@@ -24,6 +24,7 @@ class TypeInfo
 | void [AddDefaultConstructor](./adddefaultconstructor/)([DefaultConstructor](./defaultconstructor/)) | Sets default constructor by the functor that creates class instanse. |
 | void [AddMember](./addmember/)(const [SharedPtr](../sharedptr/)\<[System::Reflection::MemberInfo](../../system.reflection/memberinfo/)\>\&) | Adds the specified member to the list of type's members. |
 | static const [TypeInfo](./)\& [BoxedValueType](./boxedvaluetype/)() | Provides unique [TypeInfo](./) structure for **BoxedValue** type to be shared by multiple Boxed* classes. |
+| **bool** [Equals](./equals/)(const [TypeInfo](./)\&) const |  |
 | [System::SharedPtr](../sharedptr/)\<[System::Reflection::Assembly](../../system.reflection/assembly/)\> [get_Assembly](./get_assembly/)() const | NOT IMPLEMENTED. Returns a pointer to the assembly in which the type represented by the current object is declared. |
 | [String](../string/) [get_AssemblyQualifiedName](./get_assemblyqualifiedname/)() const | NOT IMPLEMENTED. Returns the fully qualified name including the assembly name of the type represented by the current object. |
 | [TypeInfo](./) [get_BaseType](./get_basetype/)() const | Returns base type descritor. |
@@ -50,6 +51,7 @@ class TypeInfo
 | [ArrayPtr](../arrayptr/)\<[ObjectPtr](../smartptr/)\> [GetCustomAttributes](./getcustomattributes/)() const | Returns an array containing objects that represent all custom attributes applied to the type. |
 | [ArrayPtr](../arrayptr/)\<[ObjectPtr](../smartptr/)\> [GetCustomAttributes](./getcustomattributes/)(const [TypeInfo](./)\&, **bool**) const | Returns an array containing objects that represent specific attributes applied to the type. |
 | [TypeInfo](./) [GetElementType](./getelementtype/)() const | NOT IMPLEMENTED. |
+| [SharedPtr](../sharedptr/)\<[System::Reflection::FieldInfo](../../system.reflection/fieldinfo/)\> [GetField](./getfield/)(const [System::String](../string/)\&, [System::Reflection::BindingFlags](../../system.reflection/bindingflags/)) const | Searches for the specified field, using the specified binding constraints. |
 | [ArrayPtr](../arrayptr/)\<[SharedPtr](../sharedptr/)\<[System::Reflection::FieldInfo](../../system.reflection/fieldinfo/)\>\> [GetFields](./getfields/)([System::Reflection::BindingFlags](../../system.reflection/bindingflags/)) const | Searches for the fields defined for the current Type, using the specified binding constraints. |
 | [ArrayPtr](../arrayptr/)\<[TypeInfo](./)\> [GetGenericArguments](./getgenericarguments/)() const | Gets an array of the generic type arguments for this type. |
 | int [GetHashCode](./gethashcode/)() const | Returns a hash code associated with this instance. |
@@ -61,6 +63,7 @@ class TypeInfo
 | [TypeInfo](./) [GetTemplParamType](./gettemplparamtype/)() const | Gets template parameter type descritor. |
 | **uint32_t** [Hash](./hash/)() const | Returns a hash value associated with the type represented by the current object. |
 | **bool** [IsAssignableFrom](./isassignablefrom/)(const [TypeInfo](./)\&) const | Determines whether an instance of a specified type can be assigned to a variable of the current type. |
+| **bool** [IsDefined](./isdefined/)(const [TypeInfo](./)\&, **bool**) const | NOT IMPLEMENTED. Indicates whether one or more attributes of the specified type or of its derived types is applied to this member. |
 | **bool** [IsInstanceOfType](./isinstanceoftype/)(const [SharedPtr](../sharedptr/)\<[Object](../object/)\>\&) const | Determines whether the specified object is an instance of the current type. |
 | **bool** [IsSubclassOf](./issubclassof/)(const [TypeInfo](./)\&) const | Determines whether the type represented by the current object is a subclass of the specified class. |
 | **bool** [operator!=](./operator_not_equal/)(const [TypeInfo](./)\&) const | Determines if the current and the specified [TypeInfo](./) objects are not equal. |
@@ -83,6 +86,7 @@ class TypeInfo
 
 | Field | Description |
 | --- | --- |
+| static [EmptyType](./emptytype/) | Constant representing empty list of [TypeInfo](./). |
 | static [EmptyTypes](./emptytypes/) | Constant representing empty list of [TypeInfo](./). |
 ## Typedefs
 

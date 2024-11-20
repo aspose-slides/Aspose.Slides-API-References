@@ -3,7 +3,7 @@ title: IBaseTableFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Base interface for immutable objects which contain effective table formatting properties.
 type: docs
-weight: 1457
+weight: 1483
 url: /aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData class

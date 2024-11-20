@@ -3,7 +3,7 @@ title: IFonts
 second_title: Aspose.Slides for C++ API Reference
 description: Represents fonts collection.
 type: docs
-weight: 2094
+weight: 2146
 url: /aspose.slides/ifonts/
 ---
 ## IFonts class

@@ -3,7 +3,7 @@ title: ITextFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a TextFrame.
 type: docs
-weight: 3914
+weight: 3966
 url: /aspose.slides/itextframe/
 ---
 ## ITextFrame class

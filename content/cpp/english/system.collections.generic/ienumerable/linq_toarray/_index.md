@@ -3,7 +3,7 @@ title: LINQ_ToArray()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates an array from a sequence.
 type: docs
-weight: 105
+weight: 131
 url: /system.collections.generic/ienumerable/linq_toarray/
 ---
 ## IEnumerable::LINQ_ToArray() method

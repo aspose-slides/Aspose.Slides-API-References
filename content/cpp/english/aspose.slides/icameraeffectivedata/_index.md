@@ -3,7 +3,7 @@ title: ICameraEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective camera properties.
 type: docs
-weight: 1535
+weight: 1561
 url: /aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData class

@@ -3,7 +3,7 @@ title: GetCustomAttribute()
 second_title: Aspose.Slides for C++ API Reference
 description: Searches for the custom attribute applied having the specified type and applied to the type reprsented by the current object.
 type: docs
-weight: 534
+weight: 573
 url: /system/typeinfo/getcustomattribute/
 ---
 ## TypeInfo::GetCustomAttribute(const TypeInfo\&) const method

@@ -3,7 +3,7 @@ title: DictionaryHashSelector
 second_title: Aspose.Slides for C++ API Reference
 description: Hash function selector for Dictionary class. This implementation uses STL hashing given no alternative is provided.
 type: docs
-weight: 638
+weight: 651
 url: /system.collections.generic/dictionaryhashselector/
 ---
 ## DictionaryHashSelector struct

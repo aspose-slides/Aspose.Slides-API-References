@@ -3,7 +3,7 @@ title: IGradientFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represent a gradient format.
 type: docs
-weight: 2263
+weight: 2315
 url: /aspose.slides/igradientformat/
 ---
 ## IGradientFormat class

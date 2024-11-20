@@ -3,7 +3,7 @@ title: IDOMObject
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1899
+weight: 1925
 url: /aspose.slides/idomobject/
 ---
 ## IDOMObject class

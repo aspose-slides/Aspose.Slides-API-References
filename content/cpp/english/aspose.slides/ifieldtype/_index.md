@@ -3,7 +3,7 @@ title: IFieldType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a type of field. This value determines which text will be set to the field portion when it will be updated.
 type: docs
-weight: 1977
+weight: 2029
 url: /aspose.slides/ifieldtype/
 ---
 ## IFieldType class

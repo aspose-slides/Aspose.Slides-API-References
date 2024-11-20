@@ -41,7 +41,7 @@ int System::Collections::Generic::List<T>::BinarySearch(const T &item, const Sha
 | Parameter | Type | Description |
 | --- | --- | --- |
 | item | const T\& | Item to look for. |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\& | Comparer to use. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\& | [Comparer](../../comparer/) to use. |
 
 ### Return Value
 
@@ -64,7 +64,7 @@ int System::Collections::Generic::List<T>::BinarySearch(int index, int count, co
 | index | int | Range beginning. |
 | count | int | Range size. |
 | item | const T\& | Item to look for. |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\& | Comparer to use. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\& | [Comparer](../../comparer/) to use. |
 
 ### Return Value
 

@@ -3,7 +3,7 @@ title: SortedListHelper
 second_title: Aspose.Slides for C++ API Reference
 description: This helper class is used to mask virtual functions get_Keys get_Values that come from IDictionary interface and substitute these to the functions with different return type.
 type: docs
-weight: 547
+weight: 560
 url: /system.collections.generic/sortedlisthelper/
 ---
 ## SortedListHelper class

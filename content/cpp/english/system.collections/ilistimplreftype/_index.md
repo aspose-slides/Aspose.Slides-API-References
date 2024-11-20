@@ -3,7 +3,7 @@ title: IListImplRefType
 second_title: Aspose.Slides for C++ API Reference
 description: "Stub that implements System::Collections::IList interface on System::Collections::Generic::List object Implementation for reference types."
 type: docs
-weight: 118
+weight: 131
 url: /system.collections/ilistimplreftype/
 ---
 ## IListImplRefType class

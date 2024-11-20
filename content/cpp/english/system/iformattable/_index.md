@@ -3,7 +3,7 @@ title: IFormattable
 second_title: Aspose.Slides for C++ API Reference
 description: Defines a method that formats the value of the current object using the specified format string and format provider.
 type: docs
-weight: 950
+weight: 963
 url: /system/iformattable/
 ---
 ## IFormattable class

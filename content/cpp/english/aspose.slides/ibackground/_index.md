@@ -3,7 +3,7 @@ title: IBackground
 second_title: Aspose.Slides for C++ API Reference
 description: Represents background of a slide.
 type: docs
-weight: 1340
+weight: 1366
 url: /aspose.slides/ibackground/
 ---
 ## IBackground class

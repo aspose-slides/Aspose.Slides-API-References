@@ -3,7 +3,7 @@ title: LINQ_ToList()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a List<T> from a sequence.
 type: docs
-weight: 79
+weight: 105
 url: /system.collections.generic/ienumerable/linq_tolist/
 ---
 ## IEnumerable::LINQ_ToList() method

@@ -3,7 +3,7 @@ title: DictionaryPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Dictionary pointer class with operator overloads. This type is a pointer to manage other object's deletion. It should be allocated on stack and passed to functions either by value or by const reference.
 type: docs
-weight: 157
+weight: 170
 url: /system.collections.generic/dictionaryptr/
 ---
 ## DictionaryPtr class

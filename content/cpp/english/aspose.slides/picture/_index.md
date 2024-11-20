@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a picture in a presentation.
 type: docs
-weight: 4551
+weight: 4603
 url: /aspose.slides/picture/
 ---
 ## Picture class

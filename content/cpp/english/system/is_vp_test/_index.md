@@ -3,7 +3,7 @@ title: is_vp_test()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 2627
+weight: 2692
 url: /system/is_vp_test/
 ---
 ## System::is_vp_test(const ::testing::TestInfo *) function

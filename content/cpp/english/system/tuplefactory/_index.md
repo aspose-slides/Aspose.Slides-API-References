@@ -3,7 +3,7 @@ title: TupleFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Provides static methods for creating tuple objects.
 type: docs
-weight: 1249
+weight: 1275
 url: /system/tuplefactory/
 ---
 ## TupleFactory class

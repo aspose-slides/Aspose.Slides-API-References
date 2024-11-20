@@ -74,6 +74,8 @@ url: /aspose.slides/
 | [DigitalSignatureCollection](./digitalsignaturecollection/) | Represents a collection of digital signatures attached to a document. |
 | [DocumentProperties](./documentproperties/) | Represents properties of a presentation. |
 | [DomObject](./domobject/) | Base [DOM](../aspose.slides.dom/) object |
+| [DrawingGuide](./drawingguide/) | Represents an adjustable drawing guide. |
+| [DrawingGuidesCollection](./drawingguidescollection/) | Represents a collection of the adjustable drawing guides. |
 | [EffectFormat](./effectformat/) | Represents effect properties of shape. |
 | [Field](./field/) | Represents a field. |
 | [FieldType](./fieldtype/) | Represents a type of field. This value determines which text will be set to the field portion when it will be updated. |
@@ -160,6 +162,8 @@ url: /aspose.slides/
 | [IDigitalSignatureCollection](./idigitalsignaturecollection/) | Represents a collection of digital signatures attached to a document. |
 | [IDocumentProperties](./idocumentproperties/) | Represents properties of a presentation. |
 | [IDOMObject](./idomobject/) |  |
+| [IDrawingGuide](./idrawingguide/) | Represents an adjustable drawing guide. |
+| [IDrawingGuidesCollection](./idrawingguidescollection/) | Represents a collection of the adjustable drawing guides. |
 | [IEffectFormat](./ieffectformat/) | Represents effect properties of shape. |
 | [IEffectFormatEffectiveData](./ieffectformateffectivedata/) | Imutable object which contains effective effect formatting properties. |
 | [IEffectiveData](./ieffectivedata/) | Represents immutable object which contains effective data. |

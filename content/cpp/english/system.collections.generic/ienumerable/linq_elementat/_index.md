@@ -3,7 +3,7 @@ title: LINQ_ElementAt()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the element at a specified index in a sequence.
 type: docs
-weight: 14
+weight: 27
 url: /system.collections.generic/ienumerable/linq_elementat/
 ---
 ## IEnumerable::LINQ_ElementAt(int) method
@@ -24,7 +24,7 @@ T System::Collections::Generic::IEnumerable<T>::LINQ_ElementAt(int index)
 
 ### Return Value
 
-Element at specified index or default-constructed value if not found.
+Element at specified index.
 
 ## See Also
 

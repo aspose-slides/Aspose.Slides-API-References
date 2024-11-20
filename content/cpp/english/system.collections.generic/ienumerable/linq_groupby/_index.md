@@ -3,7 +3,7 @@ title: LINQ_GroupBy()
 second_title: Aspose.Slides for C++ API Reference
 description: Groups the elements of a sequence.
 type: docs
-weight: 248
+weight: 287
 url: /system.collections.generic/ienumerable/linq_groupby/
 ---
 ## IEnumerable::LINQ_GroupBy(System::Func\<T, Key\>) method

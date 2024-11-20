@@ -3,7 +3,7 @@ title: LINQ_Where()
 second_title: Aspose.Slides for C++ API Reference
 description: Filters a sequence based on the specified predicate.
 type: docs
-weight: 144
+weight: 170
 url: /system.collections.generic/ienumerable/linq_where/
 ---
 ## IEnumerable::LINQ_Where(std::function\<bool(T)>) method

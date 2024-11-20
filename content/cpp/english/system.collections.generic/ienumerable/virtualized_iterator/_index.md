@@ -3,7 +3,7 @@ title: virtualized_iterator
 second_title: Aspose.Slides for C++ API Reference
 description: Inner iterator base type.
 type: docs
-weight: 430
+weight: 508
 url: /system.collections.generic/ienumerable/virtualized_iterator/
 ---
 ## virtualized_iterator typedef

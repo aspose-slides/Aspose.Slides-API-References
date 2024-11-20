@@ -3,7 +3,7 @@ title: IHyperlinkManager
 second_title: Aspose.Slides for C++ API Reference
 description: Provide hyperlinks management (adding, removing).
 type: docs
-weight: 2419
+weight: 2471
 url: /aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager class

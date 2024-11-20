@@ -3,7 +3,7 @@ title: get_IsArray()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets a value that indicates whether the type is an array.
 type: docs
-weight: 209
+weight: 222
 url: /system/typeinfo/get_isarray/
 ---
 ## TypeInfo::get_IsArray() const method

@@ -3,7 +3,7 @@ title: QueuePtr
 second_title: Aspose.Slides for C++ API Reference
 description: Queue pointer. This type is a pointer to manage other object's deletion. It should be allocated on stack and passed to functions either by value or by const reference.
 type: docs
-weight: 469
+weight: 482
 url: /system.collections.generic/queueptr/
 ---
 ## QueuePtr class

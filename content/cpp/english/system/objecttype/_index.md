@@ -3,7 +3,7 @@ title: ObjectType
 second_title: Aspose.Slides for C++ API Reference
 description: Provides static methods that implement object type getters. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 1080
+weight: 1106
 url: /system/objecttype/
 ---
 ## ObjectType class

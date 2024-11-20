@@ -35,7 +35,7 @@ template<class T>class BoxedValue : public System::BoxedValueBase
 | int [GetHashCode](./gethashcode/)() const override | Returns a hash code for the current object. |
 | const [System::TypeInfo](../typeinfo/)\& [GetType](./gettype/)() const override | Gets actual type of object. |
 | [TypeCode](../typecode/) [GetTypeCode](./gettypecode/)() const override | Returns the value representing the type of the boxed value represented by the current object. |
-| **uint64_t** [GetUnsignedLongLongValue](./getunsignedlonglongvalue/)() override | Always returns 0. |
+| **uint64_t** [GetUnsignedLongLongValue](./getunsignedlonglongvalue/)() const override | Returns numeric value of boxed object if it can be cast too, zero otherwise. |
 | virtual **bool** [Is](../object/is/)(const [TypeInfo](../typeinfo/)\&) const | Check if object represents an instance of type described by targetType. Analog of C# 'is' operator. |
 | **bool** [is](./is/)() const | Determines if the type of the boxed value represented by the current object is **V**. |
 | **bool** [IsBoxedEnum](./isboxedenum/)() override | Determines if current object represents a boxed value of enum type. |
@@ -57,6 +57,7 @@ template<class T>class BoxedValue : public System::BoxedValueBase
 | [Object](../object/) * [SharedRefAdded](../object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | int [SharedRefRemovedSafe](../object/sharedrefremovedsafe/)() | Decrements and returns shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | [String](../string/) [ToString](./tostring/)() const override | Converts boxed value represented by current object to string. |
+| [System::String](../string/) [ToString](../boxedvaluebase/tostring/)(const [System::String](../string/)\&) const | Converts boxed object to string using specified format string. |
 | static const [TypeInfo](../typeinfo/)\& [Type](../object/type/)() | Implements C# typeof([System.Object](../object/)) construct. |
 | const T\& [unbox](./unbox/)() const | Unboxes the value represented by the current object. |
 | void [Unlock](../object/unlock/)() | Implements C# lock() statement unlocking. Call directly or use [LockContext](../lockcontext/) sentry object. |

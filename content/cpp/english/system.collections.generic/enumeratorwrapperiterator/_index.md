@@ -3,7 +3,7 @@ title: EnumeratorWrapperIterator
 second_title: Aspose.Slides for C++ API Reference
 description: Iterator that wraps the pre-created enumerator and redirects all calls into it.
 type: docs
-weight: 183
+weight: 196
 url: /system.collections.generic/enumeratorwrapperiterator/
 ---
 ## EnumeratorWrapperIterator class

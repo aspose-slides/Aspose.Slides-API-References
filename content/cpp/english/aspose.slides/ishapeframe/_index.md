@@ -3,7 +3,7 @@ title: IShapeFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents shape frame's properties.
 type: docs
-weight: 3550
+weight: 3602
 url: /aspose.slides/ishapeframe/
 ---
 ## IShapeFrame class

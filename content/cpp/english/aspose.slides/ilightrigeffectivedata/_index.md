@@ -3,7 +3,7 @@ title: ILightRigEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective light rig properties.
 type: docs
-weight: 2588
+weight: 2640
 url: /aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData class

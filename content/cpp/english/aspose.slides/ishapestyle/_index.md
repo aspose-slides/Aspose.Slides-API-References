@@ -3,7 +3,7 @@ title: IShapeStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represent shape's style reference.
 type: docs
-weight: 3563
+weight: 3615
 url: /aspose.slides/ishapestyle/
 ---
 ## IShapeStyle class

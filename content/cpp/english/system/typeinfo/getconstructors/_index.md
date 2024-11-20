@@ -3,7 +3,7 @@ title: GetConstructors()
 second_title: Aspose.Slides for C++ API Reference
 description: searches for the constructors defined for the current Type, using the specified BindingFlags.
 type: docs
-weight: 352
+weight: 365
 url: /system/typeinfo/getconstructors/
 ---
 ## TypeInfo::GetConstructors(System::Reflection::BindingFlags) const method

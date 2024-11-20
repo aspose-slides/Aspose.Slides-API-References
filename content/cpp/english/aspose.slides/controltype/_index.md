@@ -3,7 +3,7 @@ title: ControlType
 second_title: Aspose.Slides for C++ API Reference
 description: "Defines a control type which should be embedded by IControlCollection::AddControl(ControlType, float, float, float, float)."
 type: docs
-weight: 5591
+weight: 5643
 url: /aspose.slides/controltype/
 ---
 ## ControlType enum

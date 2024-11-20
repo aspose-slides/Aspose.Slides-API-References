@@ -3,7 +3,7 @@ title: LINQ_First()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the first element of a sequence.
 type: docs
-weight: 27
+weight: 53
 url: /system.collections.generic/ienumerable/linq_first/
 ---
 ## IEnumerable::LINQ_First() method

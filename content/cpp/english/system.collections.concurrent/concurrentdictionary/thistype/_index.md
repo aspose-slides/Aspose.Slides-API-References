@@ -3,7 +3,7 @@ title: ThisType
 second_title: Aspose.Slides for C++ API Reference
 description: This type.
 type: docs
-weight: 79
+weight: 92
 url: /system.collections.concurrent/concurrentdictionary/thistype/
 ---
 ## ThisType typedef

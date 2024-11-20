@@ -3,7 +3,7 @@ title: ReverseEnumerator
 second_title: Aspose.Slides for C++ API Reference
 description: "Enumerator that reverse-iterates through container. Objects of this class should only be allocated using System::MakeObject() function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into System::SmartPtr pointer and use this pointer to pass it to functions as argument."
 type: docs
-weight: 482
+weight: 495
 url: /system.collections.generic/reverseenumerator/
 ---
 ## ReverseEnumerator class

@@ -3,7 +3,7 @@ title: HyperlinkActionType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a type of hyperlink action.
 type: docs
-weight: 5721
+weight: 5773
 url: /aspose.slides/hyperlinkactiontype/
 ---
 ## HyperlinkActionType enum

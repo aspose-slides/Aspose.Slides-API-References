@@ -3,7 +3,7 @@ title: EnumeratorPtr
 second_title: Aspose.Slides for C++ API Reference
 description: An alias for shared pointer type pointing to IEnumerator object containing elements of type T.
 type: docs
-weight: 794
+weight: 807
 url: /system/array/enumeratorptr/
 ---
 ## EnumeratorPtr typedef
