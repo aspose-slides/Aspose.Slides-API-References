@@ -3,7 +3,7 @@ title: LINQ_Any()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether a sequence contains any elements.
 type: docs
-weight: 131
+weight: 157
 url: /system.collections.generic/ienumerable/linq_any/
 ---
 ## IEnumerable::LINQ_Any() method

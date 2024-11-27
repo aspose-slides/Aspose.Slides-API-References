@@ -20,7 +20,7 @@ enum class TextInheritanceLimit
 | Name | Value | Description |
 | --- | --- | --- |
 | All | 0 | Inherit all text properties. |
-| TextBox | 1 | Inherit only from TextFrameEx's style. |
+| TextBox | 1 | Inherit only from [TextFrame](../../aspose.slides/textframe/)'s style. |
 | ParagraphOnly | 2 | Use only properties defined for paragraph. |
 
 ## See Also

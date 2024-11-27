@@ -1,7 +1,7 @@
 ---
 title: get_AnchoringType()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns vertical anchor text in a TextFrameEx. Read TextAnchorType.
+description: Returns vertical anchor text in a TextFrame. Read TextAnchorType.
 type: docs
 weight: 144
 url: /aspose.slides/textframeformat/get_anchoringtype/
@@ -9,7 +9,7 @@ url: /aspose.slides/textframeformat/get_anchoringtype/
 ## TextFrameFormat::get_AnchoringType() method
 
 
-Returns vertical anchor text in a TextFrameEx. Read [TextAnchorType](../../textanchortype/).
+Returns vertical anchor text in a [TextFrame](../../textframe/). Read [TextAnchorType](../../textanchortype/).
 
 ```cpp
 TextAnchorType Aspose::Slides::TextFrameFormat::get_AnchoringType() override

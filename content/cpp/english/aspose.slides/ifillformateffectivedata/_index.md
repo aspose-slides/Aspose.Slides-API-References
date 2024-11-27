@@ -3,7 +3,7 @@ title: IFillFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective fill formatting properties.
 type: docs
-weight: 2003
+weight: 2055
 url: /aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData class

@@ -3,7 +3,7 @@ title: ToString()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a string containing the name of the type represented by the current object.
 type: docs
-weight: 378
+weight: 391
 url: /system/typeinfo/tostring/
 ---
 ## TypeInfo::ToString() const method

@@ -3,7 +3,7 @@ title: IFontData
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a font definition.
 type: docs
-weight: 2042
+weight: 2094
 url: /aspose.slides/ifontdata/
 ---
 ## IFontData class

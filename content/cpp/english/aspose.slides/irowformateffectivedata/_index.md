@@ -3,7 +3,7 @@ title: IRowFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective table row formatting properties.
 type: docs
-weight: 3420
+weight: 3472
 url: /aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData class

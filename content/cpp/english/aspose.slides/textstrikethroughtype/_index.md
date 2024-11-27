@@ -3,7 +3,7 @@ title: TextStrikethroughType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the type of text strikethrough.
 type: docs
-weight: 6371
+weight: 6423
 url: /aspose.slides/textstrikethroughtype/
 ---
 ## TextStrikethroughType enum

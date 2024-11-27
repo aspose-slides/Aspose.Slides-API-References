@@ -3,7 +3,7 @@ title: BaseType
 second_title: Aspose.Slides for C++ API Reference
 description: Implementation type.
 type: docs
-weight: 92
+weight: 105
 url: /system.collections.concurrent/concurrentdictionary/basetype/
 ---
 ## BaseType typedef

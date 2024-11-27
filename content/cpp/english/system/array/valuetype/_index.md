@@ -3,7 +3,7 @@ title: ValueType
 second_title: Aspose.Slides for C++ API Reference
 description: Alias for the type of the elements of the array.
 type: docs
-weight: 755
+weight: 768
 url: /system/array/valuetype/
 ---
 ## ValueType typedef

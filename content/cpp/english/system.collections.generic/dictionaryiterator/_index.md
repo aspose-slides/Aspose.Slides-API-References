@@ -3,7 +3,7 @@ title: DictionaryIterator
 second_title: Aspose.Slides for C++ API Reference
 description: Dictionary iterator that provides KeyValuePair notation.
 type: docs
-weight: 144
+weight: 157
 url: /system.collections.generic/dictionaryiterator/
 ---
 ## DictionaryIterator class

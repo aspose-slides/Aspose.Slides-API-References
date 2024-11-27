@@ -3,7 +3,7 @@ title: IEffectFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Imutable object which contains effective effect formatting properties.
 type: docs
-weight: 1925
+weight: 1977
 url: /aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData class

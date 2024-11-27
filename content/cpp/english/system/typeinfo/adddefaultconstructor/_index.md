@@ -3,7 +3,7 @@ title: AddDefaultConstructor()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets default constructor for the type T.
 type: docs
-weight: 625
+weight: 664
 url: /system/typeinfo/adddefaultconstructor/
 ---
 ## TypeInfo::AddDefaultConstructor() method

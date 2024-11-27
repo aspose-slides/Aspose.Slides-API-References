@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the current and the specified TypeInfo objects are not equal.
 type: docs
-weight: 430
+weight: 456
 url: /system/typeinfo/operator_not_equal/
 ---
 ## TypeInfo::operator!=(const TypeInfo\&) const method

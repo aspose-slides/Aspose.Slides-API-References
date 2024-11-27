@@ -3,7 +3,7 @@ title: Video
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an image embedded into a presentation.
 type: docs
-weight: 5344
+weight: 5396
 url: /aspose.slides/video/
 ---
 ## Video class

@@ -3,7 +3,7 @@ title: IListWrapper
 second_title: Aspose.Slides for C++ API Reference
 description: Intrerface to support casting from generic to non-generic collection.
 type: docs
-weight: 144
+weight: 157
 url: /system.collections/ilistwrapper/
 ---
 ## IListWrapper class

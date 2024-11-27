@@ -3,7 +3,7 @@ title: MakeConstRef
 second_title: Aspose.Slides for C++ API Reference
 description: Trait to make generic type \"const reference\" if it is String or a SmartPtr<> type.
 type: docs
-weight: 1639
+weight: 1665
 url: /system/makeconstref/
 ---
 ## MakeConstRef struct

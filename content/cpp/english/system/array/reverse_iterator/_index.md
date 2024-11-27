@@ -3,7 +3,7 @@ title: reverse_iterator
 second_title: Aspose.Slides for C++ API Reference
 description: Reverse iterator type.
 type: docs
-weight: 833
+weight: 846
 url: /system/array/reverse_iterator/
 ---
 ## reverse_iterator typedef

@@ -3,7 +3,7 @@ title: PortionFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create test portions
 type: docs
-weight: 4642
+weight: 4694
 url: /aspose.slides/portionfactory/
 ---
 ## PortionFactory class

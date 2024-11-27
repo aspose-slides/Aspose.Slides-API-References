@@ -38,7 +38,7 @@ System::Collections::Generic::SortedSet<T>::SortedSet(const SharedPtr<IComparer<
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<T\>\>\& | Comparer object to associate with [SortedSet](../). |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<T\>\>\& | [Comparer](../../comparer/) object to associate with [SortedSet](../). |
 
 ## SortedSet::SortedSet(const SharedPtr\<IEnumerable\<T\>\>\&) constructor
 

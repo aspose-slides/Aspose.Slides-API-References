@@ -3,7 +3,7 @@ title: IEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Represents immutable object which contains effective data.
 type: docs
-weight: 1938
+weight: 1990
 url: /aspose.slides/ieffectivedata/
 ---
 ## IEffectiveData class

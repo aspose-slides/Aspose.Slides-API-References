@@ -3,7 +3,7 @@ title: FontSubstitutionInfo
 second_title: Aspose.Slides for C++ API Reference
 description: This structure represents the information about the font replacement when it will be rendered.
 type: docs
-weight: 963
+weight: 989
 url: /aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo class

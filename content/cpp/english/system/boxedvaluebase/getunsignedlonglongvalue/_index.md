@@ -6,13 +6,13 @@ type: docs
 weight: 14
 url: /system/boxedvaluebase/getunsignedlonglongvalue/
 ---
-## BoxedValueBase::GetUnsignedLongLongValue() method
+## BoxedValueBase::GetUnsignedLongLongValue() const method
 
 
 Converts the boxed represented by the current object to 64-bit integer value.
 
 ```cpp
-virtual uint64_t System::BoxedValueBase::GetUnsignedLongLongValue()=0
+virtual uint64_t System::BoxedValueBase::GetUnsignedLongLongValue() const =0
 ```
 
 

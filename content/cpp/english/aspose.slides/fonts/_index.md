@@ -3,7 +3,7 @@ title: Fonts
 second_title: Aspose.Slides for C++ API Reference
 description: Fonts collection.
 type: docs
-weight: 911
+weight: 937
 url: /aspose.slides/fonts/
 ---
 ## Fonts class

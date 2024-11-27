@@ -3,7 +3,7 @@ title: IParagraph
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a paragraph of a text.
 type: docs
-weight: 2978
+weight: 3030
 url: /aspose.slides/iparagraph/
 ---
 ## IParagraph class

@@ -3,7 +3,7 @@ title: LinkedListNode
 second_title: Aspose.Slides for C++ API Reference
 description: "Node of linked list. Implements a wrapper over an iterator of std::list that is wrapped in linked list. Objects of this class should only be allocated using System::MakeObject() function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into System::SmartPtr pointer and use this pointer to pass it to functions as argument."
 type: docs
-weight: 404
+weight: 417
 url: /system.collections.generic/linkedlistnode/
 ---
 ## LinkedListNode class

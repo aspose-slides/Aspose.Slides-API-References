@@ -3,7 +3,7 @@ title: get_ContainsGenericParameters()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets a value indicating whether the current Type object has type parameters that have not been replaced by specific types.
 type: docs
-weight: 261
+weight: 274
 url: /system/typeinfo/get_containsgenericparameters/
 ---
 ## TypeInfo::get_ContainsGenericParameters() const method

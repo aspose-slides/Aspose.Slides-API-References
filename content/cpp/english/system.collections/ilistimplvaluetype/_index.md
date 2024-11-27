@@ -3,7 +3,7 @@ title: IListImplValueType
 second_title: Aspose.Slides for C++ API Reference
 description: "Stub that implements System::Collections::IList interface on System::Collections::Generic::List object Implementation for value types."
 type: docs
-weight: 131
+weight: 144
 url: /system.collections/ilistimplvaluetype/
 ---
 ## IListImplValueType class

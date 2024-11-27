@@ -42,7 +42,7 @@ System::Collections::Generic::HashSet<T>::HashSet(const SharedPtr<IEqualityCompa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>\& | Comparer object to associate with hashset. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>\& | [Comparer](../../comparer/) object to associate with hashset. |
 
 ## HashSet::HashSet(const SharedPtr\<IEnumerable\<T\>\>\&) constructor
 

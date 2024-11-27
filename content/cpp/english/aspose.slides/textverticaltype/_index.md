@@ -3,7 +3,7 @@ title: TextVerticalType
 second_title: Aspose.Slides for C++ API Reference
 description: Determines vertical writing mode for a text.
 type: docs
-weight: 6410
+weight: 6462
 url: /aspose.slides/textverticaltype/
 ---
 ## TextVerticalType enum

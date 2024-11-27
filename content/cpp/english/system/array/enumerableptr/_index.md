@@ -3,7 +3,7 @@ title: EnumerablePtr
 second_title: Aspose.Slides for C++ API Reference
 description: An alias for shared pointer type pointing to IEnumerable object containing elements of type T.
 type: docs
-weight: 781
+weight: 794
 url: /system/array/enumerableptr/
 ---
 ## EnumerablePtr typedef

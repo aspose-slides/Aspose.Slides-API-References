@@ -3,7 +3,7 @@ title: IAutoShape
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an AutoShape.
 type: docs
-weight: 1301
+weight: 1327
 url: /aspose.slides/iautoshape/
 ---
 ## IAutoShape class
@@ -20,7 +20,7 @@ class IAutoShape : public virtual Aspose::Slides::IGeometryShape
 | Method | Description |
 | --- | --- |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../iplaceholder/)\> [AddPlaceholder](../ishape/addplaceholder/)([System::SharedPtr](../../system/sharedptr/)\<[IPlaceholder](../iplaceholder/)\>) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
-| virtual [System::SharedPtr](../../system/sharedptr/)\<[ITextFrame](../itextframe/)\> [AddTextFrame](./addtextframe/)([System::String](../../system/string/)) | Adds a new TextFrameEx to a shape. If shape already has TextFrameEx then simply changes its text. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ITextFrame](../itextframe/)\> [AddTextFrame](./addtextframe/)([System::String](../../system/string/)) | Adds a new [TextFrame](../textframe/) to a shape. If shape already has [TextFrame](../textframe/) then simply changes its text. |
 | virtual [System::ArrayPtr](../../system/arrayptr/)\<[System::SharedPtr](../../system/sharedptr/)\<[IShapeElement](../ishapeelement/)\>\> [CreateShapeElements](../igeometryshape/createshapeelements/)() | Creates and returns array of shape's elements. |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
 | static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |
@@ -60,7 +60,7 @@ class IAutoShape : public virtual Aspose::Slides::IGeometryShape
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IShapeStyle](../ishapestyle/)\> [get_ShapeStyle](../igeometryshape/get_shapestyle/)() | Returns shape's style object. Read-only [IShapeStyle](../ishapestyle/). |
 | virtual [Aspose::Slides::ShapeType](../shapetype/) [get_ShapeType](../igeometryshape/get_shapetype/)() | Returns the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read [Slides::ShapeType](../shapetype/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IBaseSlide](../ibaseslide/)\> [get_Slide](../islidecomponent/get_slide/)() | Returns the base slide. Read-only [IBaseSlide](../ibaseslide/). |
-| virtual [System::SharedPtr](../../system/sharedptr/)\<[ITextFrame](../itextframe/)\> [get_TextFrame](./get_textframe/)() | Returns TextFrameEx object for the AutoShapeEx. Read-only [ITextFrame](../itextframe/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ITextFrame](../itextframe/)\> [get_TextFrame](./get_textframe/)() | Returns [TextFrame](../textframe/) object for the [AutoShape](../autoshape/). Read-only [ITextFrame](../itextframe/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../ithreedformat/)\> [get_ThreeDFormat](../ishape/get_threedformat/)() | Returns the [ThreeDFormat](../threedformat/) object that contains line formatting properties for a shape. Read-only [IThreeDFormat](../ithreedformat/). |
 | virtual **uint32_t** [get_UniqueId](../ishape/get_uniqueid/)() | Gets unique shape identifier in presentation scope. Read-only **uint32_t**. See also [IShape::get_OfficeInteropShapeId](../ishape/get_officeinteropshapeid/) for getting unique shape identifier in slide scope. |
 | virtual **bool** [get_UseBackgroundFill](./get_usebackgroundfill/)() | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read **bool**. |

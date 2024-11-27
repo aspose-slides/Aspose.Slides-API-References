@@ -3,7 +3,7 @@ title: LINQ_OrderBy()
 second_title: Aspose.Slides for C++ API Reference
 description: Sorts the elements of a sequence in ascending order according to the key values selected by keySelector.
 type: docs
-weight: 183
+weight: 209
 url: /system.collections.generic/ienumerable/linq_orderby/
 ---
 ## IEnumerable::LINQ_OrderBy(const Func\<T, Key\>\&) method
@@ -12,7 +12,7 @@ url: /system.collections.generic/ienumerable/linq_orderby/
 Sorts the elements of a sequence in ascending order according to the key values selected by keySelector.
 
 ```cpp
-template<typename Key> SharedPtr<IEnumerable<T>> System::Collections::Generic::IEnumerable<T>::LINQ_OrderBy(const Func<T, Key> &keySelector)
+template<typename Key> SharedPtr<Linq::IOrderedEnumerable<T>> System::Collections::Generic::IEnumerable<T>::LINQ_OrderBy(const Func<T, Key> &keySelector)
 ```
 
 
@@ -24,7 +24,7 @@ template<typename Key> SharedPtr<IEnumerable<T>> System::Collections::Generic::I
 
 ### Return Value
 
-An [IEnumerable](../) whose elements are sorted according to a key
+An IOrderedEnumerable whose elements are sorted according to a key
 
 ## IEnumerable::LINQ_OrderBy(const Func\<Source, Key\>\&) method
 
@@ -32,13 +32,14 @@ An [IEnumerable](../) whose elements are sorted according to a key
 
 
 ```cpp
-template<typename Key> SharedPtr<IEnumerable<Source>> System::Collections::Generic::IEnumerable<T>::LINQ_OrderBy(const Func<Source, Key> &keySelector)
+template<typename Key> SharedPtr<Linq::IOrderedEnumerable<Source>> System::Collections::Generic::IEnumerable<T>::LINQ_OrderBy(const Func<Source, Key> &keySelector)
 ```
 
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../)
+* Class [IOrderedEnumerable](../../../system.linq/iorderedenumerable/)
 * Class [Func](../../../system/func/)
+* Class [IEnumerable](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

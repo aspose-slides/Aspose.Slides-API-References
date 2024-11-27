@@ -3,7 +3,7 @@ title: IModernComment
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a comment on a slide.
 type: docs
-weight: 2835
+weight: 2887
 url: /aspose.slides/imoderncomment/
 ---
 ## IModernComment class

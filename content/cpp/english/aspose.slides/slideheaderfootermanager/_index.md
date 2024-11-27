@@ -3,7 +3,7 @@ title: SlideHeaderFooterManager
 second_title: Aspose.Slides for C++ API Reference
 description: Represents manager which holds behavior of the slide footer, date-time, page number placeholders.
 type: docs
-weight: 5019
+weight: 5071
 url: /aspose.slides/slideheaderfootermanager/
 ---
 ## SlideHeaderFooterManager class

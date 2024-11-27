@@ -3,7 +3,7 @@ title: LINQ_Last()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the last element of a sequence.
 type: docs
-weight: 53
+weight: 79
 url: /system.collections.generic/ienumerable/linq_last/
 ---
 ## IEnumerable::LINQ_Last() method

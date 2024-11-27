@@ -3,7 +3,7 @@ title: IMasterNotesSlideManager
 second_title: Aspose.Slides for C++ API Reference
 description: Master notes slide manager.
 type: docs
-weight: 2783
+weight: 2835
 url: /aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager class

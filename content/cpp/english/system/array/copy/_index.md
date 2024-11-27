@@ -3,7 +3,7 @@ title: Copy()
 second_title: Aspose.Slides for C++ API Reference
 description: Copies the specified number of elements from the source array to the destination array.
 type: docs
-weight: 690
+weight: 703
 url: /system/array/copy/
 ---
 ## Array::Copy(const ArrayPtr\<SrcType\>\&, const ArrayPtr\<DstType\>\&, int64_t) method

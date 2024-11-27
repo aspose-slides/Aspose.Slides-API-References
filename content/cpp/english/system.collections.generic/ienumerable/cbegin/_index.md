@@ -3,7 +3,7 @@ title: cbegin()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets iterator pointing to the first const-qualified element (if any) of the collection.
 type: docs
-weight: 300
+weight: 378
 url: /system.collections.generic/ienumerable/cbegin/
 ---
 ## IEnumerable::cbegin() const method

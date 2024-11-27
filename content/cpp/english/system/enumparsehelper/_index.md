@@ -3,7 +3,7 @@ title: EnumParseHelper
 second_title: Aspose.Slides for C++ API Reference
 description: Helper class that provides functionality of converting a string representation of enum consnant into equivalent enum value.
 type: docs
-weight: 1483
+weight: 1509
 url: /system/enumparsehelper/
 ---
 ## EnumParseHelper struct

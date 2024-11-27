@@ -3,7 +3,7 @@ title: IEnumeratorType
 second_title: Aspose.Slides for C++ API Reference
 description: Enumerator type.
 type: docs
-weight: 378
+weight: 456
 url: /system.collections.generic/ienumerable/ienumeratortype/
 ---
 ## IEnumeratorType typedef

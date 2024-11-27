@@ -3,7 +3,7 @@ title: IFillParamSource
 second_title: Aspose.Slides for C++ API Reference
 description: Auxiliary fill parameters interface.
 type: docs
-weight: 2016
+weight: 2068
 url: /aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource class

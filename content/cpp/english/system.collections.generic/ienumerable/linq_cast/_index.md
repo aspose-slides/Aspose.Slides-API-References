@@ -3,7 +3,7 @@ title: LINQ_Cast()
 second_title: Aspose.Slides for C++ API Reference
 description: Casts the elements to the specified type.
 type: docs
-weight: 170
+weight: 196
 url: /system.collections.generic/ienumerable/linq_cast/
 ---
 ## IEnumerable::LINQ_Cast() method

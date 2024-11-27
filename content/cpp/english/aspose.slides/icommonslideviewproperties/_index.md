@@ -3,7 +3,7 @@ title: ICommonSlideViewProperties
 second_title: Aspose.Slides for C++ API Reference
 description: Represents common slide view properties.
 type: docs
-weight: 1743
+weight: 1769
 url: /aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties class
@@ -25,6 +25,8 @@ class ICommonSlideViewProperties : public virtual System::Object
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IDrawingGuide](../idrawingguide/)\> [get_DrawingGuide](./get_drawingguide/)(**int32_t**) | Returns drawing guide at the specified index. Read-only [Aspose::Slides::IDrawingGuide](../idrawingguide/) |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[IDrawingGuidesCollection](../idrawingguidescollection/)\> [get_DrawingGuides](./get_drawingguides/)() | Returns the collection of the drawing guides. Read-only [IDrawingGuidesCollection](../idrawingguidescollection/) |
 | virtual **int32_t** [get_Scale](./get_scale/)() | Specifies the view scaling ratio in percentages. Read **int32_t**. |
 | virtual **bool** [get_VariableScale](./get_variablescale/)() | Specifies that the view content should automatically scale to best fit the current window size. Read **bool**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |

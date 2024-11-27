@@ -3,7 +3,7 @@ title: IPresentation
 second_title: Aspose.Slides for C++ API Reference
 description: Presentation document
 type: docs
-weight: 3238
+weight: 3290
 url: /aspose.slides/ipresentation/
 ---
 ## IPresentation class

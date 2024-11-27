@@ -3,7 +3,7 @@ title: UnderlyingType
 second_title: Aspose.Slides for C++ API Reference
 description: Alias for the type used to represent each element of the array.
 type: docs
-weight: 768
+weight: 781
 url: /system/array/underlyingtype/
 ---
 ## UnderlyingType typedef

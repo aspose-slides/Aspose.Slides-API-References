@@ -3,7 +3,7 @@ title: SortedSetPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Pointer to keep SortedSet references. This type is a pointer to manage other object's deletion. It should be allocated on stack and passed to functions either by value or by const reference.
 type: docs
-weight: 573
+weight: 586
 url: /system.collections.generic/sortedsetptr/
 ---
 ## SortedSetPtr class

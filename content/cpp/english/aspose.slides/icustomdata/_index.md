@@ -3,7 +3,7 @@ title: ICustomData
 second_title: Aspose.Slides for C++ API Reference
 description: Represents container for custom data.
 type: docs
-weight: 1821
+weight: 1847
 url: /aspose.slides/icustomdata/
 ---
 ## ICustomData class

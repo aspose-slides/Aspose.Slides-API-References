@@ -3,7 +3,7 @@ title: ICustomXmlPart
 second_title: Aspose.Slides for C++ API Reference
 description: Represents custom xml part.
 type: docs
-weight: 1834
+weight: 1860
 url: /aspose.slides/icustomxmlpart/
 ---
 ## ICustomXmlPart class

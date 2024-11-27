@@ -3,7 +3,7 @@ title: Convert
 second_title: Aspose.Slides for C++ API Reference
 description: "The structure that contains methods performing conversion of values of one type to the values of another type. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 1431
+weight: 1457
 url: /system/convert/
 ---
 ## Convert struct
@@ -20,6 +20,7 @@ class Convert
 | Method | Description |
 | --- | --- |
 | static [SharedPtr](../sharedptr/)\<[Object](../object/)\> [ChangeType](./changetype/)(const [SharedPtr](../sharedptr/)\<[Object](../object/)\>\&, const [TypeInfo](../typeinfo/)\&) | NOT IMPLEMENTED. |
+| static [SharedPtr](../sharedptr/)\<[Object](../object/)\> [ChangeType](./changetype/)(const [SharedPtr](../sharedptr/)\<[Object](../object/)\>\&, const [TypeInfo](../typeinfo/)\&, const [SharedPtr](../sharedptr/)\<[IFormatProvider](../iformatprovider/)\>\&) |  |
 | static [ArrayPtr](../arrayptr/)\<**uint8_t**\> [FromBase64CharArray](./frombase64chararray/)(const [ArrayPtr](../arrayptr/)\<char_t\>\&, int, int) | Decodes base-64 encoded data represented as a range in the array of Unicode characters. |
 | static [ArrayPtr](../arrayptr/)\<**uint8_t**\> [FromBase64String](./frombase64string/)(const [String](../string/)\&) | Decodes base-64 encoded data represented as a string. |
 | static [TypeCode](../typecode/) [GetTypeCode](./gettypecode/)(const [SharedPtr](../sharedptr/)\<[Object](../object/)\>\&) | Returns a TypeCode value representing the type of the specified boxed value. |

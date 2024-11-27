@@ -3,7 +3,7 @@ title: TabFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create ITab instances
 type: docs
-weight: 5214
+weight: 5266
 url: /aspose.slides/tabfactory/
 ---
 ## TabFactory class

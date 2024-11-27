@@ -3,7 +3,7 @@ title: Sort()
 second_title: Aspose.Slides for C++ API Reference
 description: Sorts elements in the specified array using default comparer.
 type: docs
-weight: 703
+weight: 716
 url: /system/array/sort/
 ---
 ## Array::Sort(const ArrayPtr\<Type\>\&) method

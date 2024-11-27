@@ -3,7 +3,7 @@ title: IDocumentProperties
 second_title: Aspose.Slides for C++ API Reference
 description: Represents properties of a presentation.
 type: docs
-weight: 1886
+weight: 1912
 url: /aspose.slides/idocumentproperties/
 ---
 ## IDocumentProperties class

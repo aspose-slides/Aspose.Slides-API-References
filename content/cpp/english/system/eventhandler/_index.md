@@ -3,7 +3,7 @@ title: EventHandler
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a method that reacts to and processes an event. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 3199
+weight: 3264
 url: /system/eventhandler/
 ---
 ## EventHandler typedef

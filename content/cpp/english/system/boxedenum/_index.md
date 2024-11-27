@@ -37,7 +37,7 @@ template<typename E,typename UT>class BoxedEnum : public System::BoxedValue<type
 | virtual **int32_t** [GetHashCode](../object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../object/gethashcode/) method. Enables hashing of custom objects. |
 | virtual const [TypeInfo](../typeinfo/)\& [GetType](../object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../object/gettype/) call. |
 | virtual [TypeCode](../typecode/) [GetTypeCode](../boxedvaluebase/gettypecode/)() const | Returns the value representing the type of the boxed value represented by the current object. |
-| **uint64_t** [GetUnsignedLongLongValue](./getunsignedlonglongvalue/)() override | Converts the value of the boxed enumeration constant to 64-bit integer value. |
+| **uint64_t** [GetUnsignedLongLongValue](./getunsignedlonglongvalue/)() const override | Converts the value of the boxed enumeration constant to 64-bit integer value. |
 | virtual **bool** [Is](../object/is/)(const [TypeInfo](../typeinfo/)\&) const | Check if object represents an instance of type described by targetType. Analog of C# 'is' operator. |
 | **bool** [IsBoxedEnum](./isboxedenum/)() override | Determines whether the current object represents a boxed value of enum type. |
 | void [Lock](../object/lock/)() | Implements C# lock() statement locking. Call directly or use [LockContext](../lockcontext/) sentry object. |
@@ -58,6 +58,7 @@ template<typename E,typename UT>class BoxedEnum : public System::BoxedValue<type
 | [Object](../object/) * [SharedRefAdded](../object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | int [SharedRefRemovedSafe](../object/sharedrefremovedsafe/)() | Decrements and returns shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | [System::String](../string/) [ToString](./tostring/)() const override | Converts boxed value represented by the current object to string. |
+| [System::String](../string/) [ToString](../boxedvaluebase/tostring/)(const [System::String](../string/)\&) const | Converts boxed object to string using specified format string. |
 | static const [TypeInfo](../typeinfo/)\& [Type](../object/type/)() | Implements C# typeof([System.Object](../object/)) construct. |
 | void [Unlock](../object/unlock/)() | Implements C# lock() statement unlocking. Call directly or use [LockContext](../lockcontext/) sentry object. |
 | Detail::SmartPtrCounter * [WeakRefAdded](../object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |

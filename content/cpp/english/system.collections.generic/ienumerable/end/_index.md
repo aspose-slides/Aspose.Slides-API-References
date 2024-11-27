@@ -3,7 +3,7 @@ title: end()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets iterator pointing right after the last element (if any) of the collection. This iterator can't be used to change a referenced object because GetEnumerator() returns a copy-object of T.
 type: docs
-weight: 287
+weight: 365
 url: /system.collections.generic/ienumerable/end/
 ---
 ## IEnumerable::end() method

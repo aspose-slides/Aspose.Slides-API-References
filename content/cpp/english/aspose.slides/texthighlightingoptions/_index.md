@@ -3,7 +3,7 @@ title: TextHighlightingOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options which can be used to highlight text in text frame.
 type: docs
-weight: 5292
+weight: 5344
 url: /aspose.slides/texthighlightingoptions/
 ---
 ## TextHighlightingOptions class

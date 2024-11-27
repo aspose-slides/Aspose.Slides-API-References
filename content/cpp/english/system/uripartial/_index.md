@@ -3,7 +3,7 @@ title: UriPartial
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the parts of a URI for the Uri.GetLeftPart method.
 type: docs
-weight: 2835
+weight: 2900
 url: /system/uripartial/
 ---
 ## UriPartial enum

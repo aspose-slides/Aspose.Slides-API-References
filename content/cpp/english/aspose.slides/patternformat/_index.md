@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a pattern to fill a shape.
 type: docs
-weight: 4538
+weight: 4590
 url: /aspose.slides/patternformat/
 ---
 ## PatternFormat class

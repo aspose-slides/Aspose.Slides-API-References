@@ -3,7 +3,7 @@ title: get_IsSealed()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets a value indicating whether the Type is declared sealed.
 type: docs
-weight: 157
+weight: 170
 url: /system/typeinfo/get_issealed/
 ---
 ## TypeInfo::get_IsSealed() const method

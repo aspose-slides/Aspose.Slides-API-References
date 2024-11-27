@@ -29,7 +29,7 @@ System::Collections::Generic::SortedDictionary<TKey, TValue>::SortedDictionary(c
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>\& | Comparer to use. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>\& | [Comparer](../../comparer/) to use. |
 
 ## SortedDictionary::SortedDictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&) constructor
 
@@ -62,7 +62,7 @@ System::Collections::Generic::SortedDictionary<TKey, TValue>::SortedDictionary(c
 | Parameter | Type | Description |
 | --- | --- | --- |
 | src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\& | Source dictionary to copy data from. |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>\& | Comparer to use. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>\& | [Comparer](../../comparer/) to use. |
 
 ## See Also
 

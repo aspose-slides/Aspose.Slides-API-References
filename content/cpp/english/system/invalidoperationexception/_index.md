@@ -3,7 +3,7 @@ title: InvalidOperationException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3264
+weight: 3329
 url: /system/invalidoperationexception/
 ---
 ## InvalidOperationException typedef

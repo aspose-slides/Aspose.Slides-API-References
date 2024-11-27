@@ -3,7 +3,7 @@ title: GraphicalObject
 second_title: Aspose.Slides for C++ API Reference
 description: Represents abstract graphical object.
 type: docs
-weight: 1119
+weight: 1145
 url: /aspose.slides/graphicalobject/
 ---
 ## GraphicalObject class

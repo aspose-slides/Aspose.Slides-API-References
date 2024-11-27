@@ -3,7 +3,7 @@ title: LINQ_Select()
 second_title: Aspose.Slides for C++ API Reference
 description: Transforms elements of a sequence.
 type: docs
-weight: 222
+weight: 248
 url: /system.collections.generic/ienumerable/linq_select/
 ---
 ## IEnumerable::LINQ_Select(const Func\<T, ResultType\>\&) method

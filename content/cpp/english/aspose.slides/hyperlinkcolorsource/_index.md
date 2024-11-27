@@ -3,7 +3,7 @@ title: HyperlinkColorSource
 second_title: Aspose.Slides for C++ API Reference
 description: Represents source of hyperlink color.
 type: docs
-weight: 5734
+weight: 5786
 url: /aspose.slides/hyperlinkcolorsource/
 ---
 ## HyperlinkColorSource enum

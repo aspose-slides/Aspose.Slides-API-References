@@ -3,7 +3,7 @@ title: Parse()
 second_title: Aspose.Slides for C++ API Reference
 description: Boxes the value of enumeration constant of the specified enumeration with the specified name. A parameter specifies if the case should be ignored when interpreting the string specifying the name of the enumeration constant.
 type: docs
-weight: 40
+weight: 53
 url: /system/boxedvaluebase/parse/
 ---
 ## BoxedValueBase::Parse(const TypeInfo\&, const String\&, bool) method

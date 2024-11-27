@@ -3,7 +3,7 @@ title: IAdjustValue
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a geometry shape's adjustment value. These values affect shape's form.
 type: docs
-weight: 1223
+weight: 1249
 url: /aspose.slides/iadjustvalue/
 ---
 ## IAdjustValue class

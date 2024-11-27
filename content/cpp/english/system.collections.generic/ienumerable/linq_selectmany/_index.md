@@ -3,7 +3,7 @@ title: LINQ_SelectMany()
 second_title: Aspose.Slides for C++ API Reference
 description: Projects each element of a sequence and combines the resulting sequences into one sequence.
 type: docs
-weight: 261
+weight: 300
 url: /system.collections.generic/ienumerable/linq_selectmany/
 ---
 ## IEnumerable::LINQ_SelectMany(const Func\<T, SharedPtr\<IEnumerable\<ResultType\>\>\>\&) method

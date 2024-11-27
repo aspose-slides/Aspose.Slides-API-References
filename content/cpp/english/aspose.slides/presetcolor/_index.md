@@ -3,7 +3,7 @@ title: PresetColor
 second_title: Aspose.Slides for C++ API Reference
 description: Represents predefined color presets.
 type: docs
-weight: 6046
+weight: 6098
 url: /aspose.slides/presetcolor/
 ---
 ## PresetColor enum

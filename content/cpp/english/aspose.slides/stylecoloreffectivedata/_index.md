@@ -3,7 +3,7 @@ title: StyleColorEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 5123
+weight: 5175
 url: /aspose.slides/stylecoloreffectivedata/
 ---
 ## StyleColorEffectiveData class

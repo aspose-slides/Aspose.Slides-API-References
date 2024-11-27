@@ -3,7 +3,7 @@ title: LINQ_Contains()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if a sequence contains a specified value.
 type: docs
-weight: 157
+weight: 183
 url: /system.collections.generic/ienumerable/linq_contains/
 ---
 ## IEnumerable::LINQ_Contains(T) method

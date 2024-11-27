@@ -1,18 +1,18 @@
 ---
 title: GetUnsignedLongLongValue()
 second_title: Aspose.Slides for C++ API Reference
-description: Always returns 0.
+description: Returns numeric value of boxed object if it can be cast too, zero otherwise.
 type: docs
 weight: 105
 url: /system/boxedvalue/getunsignedlonglongvalue/
 ---
-## BoxedValue::GetUnsignedLongLongValue() method
+## BoxedValue::GetUnsignedLongLongValue() const method
 
 
-Always returns 0.
+Returns numeric value of boxed object if it can be cast too, zero otherwise.
 
 ```cpp
-uint64_t System::BoxedValue<T>::GetUnsignedLongLongValue() override
+uint64_t System::BoxedValue<T>::GetUnsignedLongLongValue() const override
 ```
 
 ## See Also

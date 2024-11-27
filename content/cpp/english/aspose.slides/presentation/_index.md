@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Microsoft PowerPoint presentation.
 type: docs
-weight: 4681
+weight: 4733
 url: /aspose.slides/presentation/
 ---
 ## Presentation class

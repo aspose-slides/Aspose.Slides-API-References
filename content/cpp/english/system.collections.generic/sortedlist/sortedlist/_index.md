@@ -29,7 +29,7 @@ System::Collections::Generic::SortedList<TKey, TValue>::SortedList(const SharedP
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<TKey\>\>\& | Comparer to use. |
+| comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<TKey\>\>\& | [Comparer](../../comparer/) to use. |
 
 ## SortedList::SortedList(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&) constructor
 
