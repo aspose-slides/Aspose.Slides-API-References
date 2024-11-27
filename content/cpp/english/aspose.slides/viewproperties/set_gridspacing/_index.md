@@ -22,12 +22,9 @@ The grid spacing value must be a positive number . The typical value range is fr
 
 The following sample code shows how to change the grid spacing in a PowerPoint presentation. 
 ```cpp
-[C#]
-using (Presentation pres = new Presentation())
-{
-    pres.ViewProperties.GridSpacing = 72f;
-    pres.Save("GridSpacing_out.pptx", SaveFormat.Pptx);
-}
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>();
+pres->get_ViewProperties()->set_GridSpacing(72.0f);
+pres->Save(u"GridSpacing_out.pptx", SaveFormat::Pptx);
 ```
 
 ## See Also
