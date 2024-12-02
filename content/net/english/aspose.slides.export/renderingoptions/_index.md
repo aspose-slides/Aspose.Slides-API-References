@@ -39,7 +39,7 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 using (Presentation pres = new Presentation("pres.pptx"))
   {
   IRenderingOptions renderingOpts = new RenderingOptions();
-  renderingOpts.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
+  renderingOpts.SlidesLayoutOptions = new NotesCommentsLayoutingOptions() { NotesPosition = NotesPositions.BottomTruncated };
   
   pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-Original.png", ImageFormat.Png);
   

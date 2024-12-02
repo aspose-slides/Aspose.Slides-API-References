@@ -182,7 +182,7 @@ Image object.
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
+| InvalidOperationException | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull. |
 
 ### See Also
 
@@ -257,20 +257,24 @@ The following example shows how to converting slides With notes and comments to 
 ```csharp
 using (Presentation pres = new Presentation("PresentationNotesComments.pptx"))
 {
-    // Creates the rendering options
+    // Create the rendering options
     IRenderingOptions options = new RenderingOptions();
+    // Create notes and comments layouting options
+    NotesCommentsLayoutingOptions notesCommentsLayouting = new NotesCommentsLayoutingOptions();
     // Sets the position of the notes on the page
-    options.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
+    notesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
     // Sets the position of the comments on the page
-    options.NotesCommentsLayouting.CommentsPosition = CommentsPositions.Right;
+    notesCommentsLayouting.CommentsPosition = CommentsPositions.Right;
     // Sets the width of the comment output area
-    options.NotesCommentsLayouting.CommentsAreaWidth = 500;
+    notesCommentsLayouting.CommentsAreaWidth = 500;
     // Sets the color for the comments area
-    options.NotesCommentsLayouting.CommentsAreaColor = Color.AntiqueWhite;
-    // Converts the first slide of the presentation to a Bitmap object
-    IImage bmp = pres.Slides[0].GetImage(options, 2f, 2f);
+    notesCommentsLayouting.CommentsAreaColor = Color.AntiqueWhite;
+    // Set layout options for rendering
+    options.SlidesLayoutOptions = notesCommentsLayouting;
+    // Converts the first slide of the presentation to a IImage object
+    IImage image = pres.Slides[0].GetImage(options, 2f, 2f);
     // Saves the image in the GIF format
-    bmp.Save("Slide_Notes_Comments_0.gif", ImageFormat.Gif);
+    image.Save("Slide_Notes_Comments_0.gif", ImageFormat.Gif);
 }
 ```
 
@@ -305,7 +309,7 @@ Image object.
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| InvalidOperationException | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull. |
 
 ### See Also
 

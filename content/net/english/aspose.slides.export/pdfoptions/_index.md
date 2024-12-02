@@ -120,7 +120,7 @@ using (Presentation presentation = new Presentation("SelectedSlides.pptx"))
 		//auxPresentation.SlideSize.SetSize(presentation.SlideSize.Size.Width, presentation.SlideSize.Size.Height,SlideSizeScaleType.EnsureFit);
 		auxPresentation.SlideSize.SetSize(612F, 792F, SlideSizeScaleType.EnsureFit);
 		PdfOptions pdfOptions = new PdfOptions();
-		pdfOptions.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomFull;
+		pdfOptions.SlidesLayoutOptions = new NotesCommentsLayoutingOptions() { NotesPosition = NotesPositions.BottomFull };
 		auxPresentation.Save("PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
 	}
 }
