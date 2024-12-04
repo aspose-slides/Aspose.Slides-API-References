@@ -62,7 +62,7 @@ def get_image(self, options):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull. |
 
 
 ## get_image {#asposeslidesexportirenderingoptions}
@@ -136,7 +136,7 @@ def get_image(self, options, image_size):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull. |
 
 
 ## get_image {#asposeslidesexportirenderingoptions-float-float}

@@ -27,7 +27,7 @@ def render_to_graphics(self, options, graphics):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull |
 
 
 ## render_to_graphics {#asposeslidesexportirenderingoptions-asposepydrawinggraphics-asposepydrawingsize}
@@ -50,7 +50,7 @@ def render_to_graphics(self, options, graphics, rendering_size):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull |
 
 
 ## render_to_graphics {#asposeslidesexportirenderingoptions-asposepydrawinggraphics-float-float}
@@ -74,7 +74,7 @@ def render_to_graphics(self, options, graphics, scale_x, scale_y):
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Thrown when options.SlideLayoutOption is NotesCommentsLayoutingOptions and its property NotesPosition takes the value NotesPositions.BottomFull |
 
 
 

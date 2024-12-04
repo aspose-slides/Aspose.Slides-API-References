@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/itiffoptions/pixel_format/
-weight: 110
+weight: 100
 ---
 
 
