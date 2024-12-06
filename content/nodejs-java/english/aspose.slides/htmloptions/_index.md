@@ -95,19 +95,6 @@ byte
 ---
 
 
-### getNotesCommentsLayouting {#getNotesCommentsLayouting}
-
-| Name | Description |
-| --- | --- |
-| getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
-
- **Returns:**
-[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
-
-
----
-
-
 ### getPicturesCompression {#getPicturesCompression}
 
 | Name | Description |
