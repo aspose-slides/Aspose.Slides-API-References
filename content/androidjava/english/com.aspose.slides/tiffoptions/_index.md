@@ -39,8 +39,9 @@ Provides options that control how a presentation is saved in TIFF format.
 >      TiffOptions opts = new TiffOptions();
 >      // Setting compression type
 >      opts.setCompressionType(TiffCompressionTypes.Default);
->      INotesCommentsLayoutingOptions notesOptions = opts.getNotesCommentsLayouting();
+>      NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
 >      notesOptions.setNotesPosition(NotesPositions.BottomFull);
+>      opts.setSlidesLayoutOptions(notesOptions);
 >      // Compression Types
 >      // Default - Specifies the default compression scheme (LZW).
 >      // None - Specifies no compression.
@@ -92,7 +93,6 @@ Provides options that control how a presentation is saved in TIFF format.
 | Method | Description |
 | --- | --- |
 | [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
 | [getShowHiddenSlides()](#getShowHiddenSlides--) | Specifies whether the generated document should include hidden slides or not. |
 | [setShowHiddenSlides(boolean value)](#setShowHiddenSlides-boolean-) | Specifies whether the generated document should include hidden slides or not. |
 | [getImageSize()](#getImageSize--) | Specifies size of a generated TIFF image. |
@@ -127,16 +127,6 @@ Provides options that control the look of Ink objects in exported document. Read
 
 **Returns:**
 [IInkOptions](../../com.aspose.slides/iinkoptions)
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
-```
-public final INotesCommentsLayoutingOptions getNotesCommentsLayouting()
-```
-
-
-Provides options that control how notes and comments is placed in exported document.
-
-**Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
 ### getShowHiddenSlides() {#getShowHiddenSlides--}
 ```
 public final boolean getShowHiddenSlides()

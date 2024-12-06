@@ -163,6 +163,8 @@ url: /com.aspose.slides/
 | [DocumentProperties](../com.aspose.slides/documentproperties) | Represents properties of a presentation. |
 | [DomObject<TParent>](../com.aspose.slides/domobject) | Base DOM object |
 | [DoubleChartValue](../com.aspose.slides/doublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
+| [DrawingGuide](../com.aspose.slides/drawingguide) | Represents an adjustable drawing guide. |
+| [DrawingGuidesCollection](../com.aspose.slides/drawingguidescollection) | Represents a collection of the adjustable drawing guides. |
 | [Duotone](../com.aspose.slides/duotone) | Represents a Duotone effect. |
 | [Effect](../com.aspose.slides/effect) | Represents animation effect. |
 | [EffectChartMajorGroupingType](../com.aspose.slides/effectchartmajorgroupingtype) | Represents the type of an animation effect for chart's element. |
@@ -775,6 +777,8 @@ url: /com.aspose.slides/
 | [IDigitalSignatureCollection](../com.aspose.slides/idigitalsignaturecollection) | Represents a collection of digital signatures attached to a document. |
 | [IDocumentProperties](../com.aspose.slides/idocumentproperties) | Represents properties of a presentation. |
 | [IDoubleChartValue](../com.aspose.slides/idoublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
+| [IDrawingGuide](../com.aspose.slides/idrawingguide) | Represents an adjustable drawing guide. |
+| [IDrawingGuidesCollection](../com.aspose.slides/idrawingguidescollection) | Represents a collection of the adjustable drawing guides. |
 | [IDuotone](../com.aspose.slides/iduotone) | Represents a Duotone effect. |
 | [IDuotoneEffectiveData](../com.aspose.slides/iduotoneeffectivedata) | Immutable object which represents a Duotone effect. |
 | [IEffect](../com.aspose.slides/ieffect) | Represents animation effect. |

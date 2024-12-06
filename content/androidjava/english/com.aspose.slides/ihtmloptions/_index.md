@@ -30,7 +30,6 @@ Represents a HTML exporting options.
 | [setDeletePicturesCroppedAreas(boolean value)](#setDeletePicturesCroppedAreas-boolean-) | A boolean flag indicates if the cropped parts remain as part of the document. |
 | [getSvgResponsiveLayout()](#getSvgResponsiveLayout--) | True to exclude width and height attributes from SVG container - that will make layout responsive. |
 | [setSvgResponsiveLayout(boolean value)](#setSvgResponsiveLayout-boolean-) | True to exclude width and height attributes from SVG container - that will make layout responsive. |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
@@ -211,16 +210,6 @@ True to exclude width and height attributes from SVG container - that will make 
 | --- | --- | --- |
 | value | boolean |  |
 
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
-```
-public abstract INotesCommentsLayoutingOptions getNotesCommentsLayouting()
-```
-
-
-Provides options that control how notes and comments is placed in exported document.
-
-**Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
 ### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
 ```
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()

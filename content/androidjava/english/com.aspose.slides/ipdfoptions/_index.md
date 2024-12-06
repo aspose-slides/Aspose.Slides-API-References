@@ -44,7 +44,6 @@ Provides options that control how a presentation is saved in Pdf format.
 | [setSufficientResolution(float value)](#setSufficientResolution-float-) | Returns or sets a value determining resolution of images inside PDF document. |
 | [getDrawSlidesFrame()](#getDrawSlidesFrame--) | True to draw black frame around each slide. |
 | [setDrawSlidesFrame(boolean value)](#setDrawSlidesFrame-boolean-) | True to draw black frame around each slide. |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [getImageTransparentColor()](#getImageTransparentColor--) | Gets or sets the image transparent color. |
@@ -510,16 +509,6 @@ Default is **false**.
 | --- | --- | --- |
 | value | boolean |  |
 
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
-```
-public abstract INotesCommentsLayoutingOptions getNotesCommentsLayouting()
-```
-
-
-Provides options that control how notes and comments is placed in exported document.
-
-**Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
 ### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
 ```
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()

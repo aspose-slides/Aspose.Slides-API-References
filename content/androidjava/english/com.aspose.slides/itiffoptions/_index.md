@@ -28,7 +28,6 @@ Provides options that control how a presentation is saved in TIFF format.
 | [setCompressionType(int value)](#setCompressionType-int-) | Specifies the compression type. |
 | [getPixelFormat()](#getPixelFormat--) | Specifies the pixel format for the generated images. |
 | [setPixelFormat(int value)](#setPixelFormat-int-) | Specifies the pixel format for the generated images. |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [getBwConversionMode()](#getBwConversionMode--) | Specifies the algorithm for converting a color image into a black and white image. |
@@ -172,16 +171,6 @@ Specifies the pixel format for the generated images. Read/write [ImagePixelForma
 | --- | --- | --- |
 | value | int |  |
 
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
-```
-public abstract INotesCommentsLayoutingOptions getNotesCommentsLayouting()
-```
-
-
-Provides options that control how notes and comments is placed in exported document.
-
-**Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
 ### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
 ```
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()

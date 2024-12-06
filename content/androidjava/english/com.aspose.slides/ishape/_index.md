@@ -786,7 +786,7 @@ Returns a basic placeholder shape (shape from the layout and/or master slide tha
 >  try {
 >      ISlide slide = pres.getSlides().get_Item(0);
 >      IShape shape = slide.getShapes().get_Item(0);
->      IEffect[] shapeEffects = slide.getLayoutSlide().getTimeline().getMainSequence().getEffectsByShape(shape);
+>      IEffect[] shapeEffects = slide.getTimeline().getMainSequence().getEffectsByShape(shape);
 >      IShape layoutShape = shape.getBasePlaceholder();
 >      IEffect[] layoutShapeEffects = slide.getLayoutSlide().getTimeline().getMainSequence().getEffectsByShape(layoutShape);
 >      IShape masterShape = layoutShape.getBasePlaceholder();

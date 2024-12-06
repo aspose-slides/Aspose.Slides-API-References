@@ -22,6 +22,8 @@ Represents subtypes of animation effect.
 | [BottomLeft](#BottomLeft) |  |
 | [BottomRight](#BottomRight) |  |
 | [Center](#Center) |  |
+| [ObjectCenter](#ObjectCenter) |  |
+| [SlideCenter](#SlideCenter) |  |
 | [Clockwise](#Clockwise) |  |
 | [CounterClockwise](#CounterClockwise) |  |
 | [GradualAndCycleClockwise](#GradualAndCycleClockwise) |  |
@@ -109,6 +111,22 @@ public static final int BottomRight
 ### Center {#Center}
 ```
 public static final int Center
+```
+
+
+
+
+### ObjectCenter {#ObjectCenter}
+```
+public static final int ObjectCenter
+```
+
+
+
+
+### SlideCenter {#SlideCenter}
+```
+public static final int SlideCenter
 ```
 
 

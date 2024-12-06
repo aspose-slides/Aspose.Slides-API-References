@@ -28,7 +28,6 @@ Represents a HTML exporting options.
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
 | [getShowHiddenSlides()](#getShowHiddenSlides--) | Specifies whether the generated document should include hidden slides or not. |
 | [setShowHiddenSlides(boolean value)](#setShowHiddenSlides-boolean-) | Specifies whether the generated document should include hidden slides or not. |
 | [getHtmlFormatter()](#getHtmlFormatter--) | Returns or sets HTML template. |
@@ -133,16 +132,6 @@ Provides options that control the look of Ink objects in exported document. Read
 
 **Returns:**
 [IInkOptions](../../com.aspose.slides/iinkoptions)
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
-```
-public final INotesCommentsLayoutingOptions getNotesCommentsLayouting()
-```
-
-
-Provides options that control how notes and comments is placed in exported document.
-
-**Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
 ### getShowHiddenSlides() {#getShowHiddenSlides--}
 ```
 public final boolean getShowHiddenSlides()

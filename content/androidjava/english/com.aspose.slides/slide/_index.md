@@ -505,17 +505,21 @@ Returns a Thumbnail android.graphics.Bitmap object with custom scaling.
 >  
 >  Presentation pres = new Presentation("PresentationNotesComments.pptx");
 >  try {
->      // Creates the rendering options
+>      // Create the rendering options
 >      IRenderingOptions options = new RenderingOptions();
+>      // Create notes and comments layouting options
+>      NotesCommentsLayoutingOptions notesCommentsLayouting = new NotesCommentsLayoutingOptions();
 >      // Sets the position of the notes on the page
->      options.getNotesCommentsLayouting().setNotesPosition(NotesPositions.BottomTruncated);
+>      notesCommentsLayouting.setNotesPosition(NotesPositions.BottomTruncated);
 >      // Sets the position of the comments on the page
->      options.getNotesCommentsLayouting().setCommentsPosition(CommentsPositions.Right);
+>      notesCommentsLayouting.setCommentsPosition(CommentsPositions.Right);
 >      // Sets the width of the comment output area
->      options.getNotesCommentsLayouting().setCommentsAreaWidth(500);
+>      notesCommentsLayouting.setCommentsAreaWidth(500);
 >      // Sets the color for the comments area
->      options.getNotesCommentsLayouting().setCommentsAreaColor(Color.WHITE);
->      // Converts the first slide of the presentation to a Bitmap object
+>      notesCommentsLayouting.setCommentsAreaColor(Color.WHITE);
+>      // Set layout options for rendering
+>      options.setSlidesLayoutOptions(notesCommentsLayouting);
+>      // Converts the first slide of the presentation to a android.graphics.Bitmap object
 >      android.graphics.Bitmap bmp = pres.getSlides().get_Item(0).getThumbnail(options, 2f, 2f);
 >      // Saves the image in the PNG format
 >      FileOutputStream fos = null;
@@ -525,7 +529,6 @@ Returns a Thumbnail android.graphics.Bitmap object with custom scaling.
 >      } finally {
 >          if (fos != null) fos.close();
 >      }
->  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -569,16 +572,10 @@ Returns a Thumbnail Image object with custom scaling.
 >      notesOption.setCommentsAreaColor(Color.WHITE);
 >      // Sets the notes options for rendering options
 >      options.setSlidesLayoutOptions(notesOption);
->      // Converts the first slide of the presentation to a Bitmap object
->      IImage bmp = pres.getSlides().get_Item(0).getImage(options, 2f, 2f);
+>      // Converts the first slide of the presentation to a IImage object
+>      IImage image = pres.getSlides().get_Item(0).getImage(options, 2f, 2f);
 >      // Saves the image in the PNG format
->      FileOutputStream fos = null;
->      try {
->          fos = new FileOutputStream("Slide_Notes_Comments_0.png");
->          bmp.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
->      } finally {
->          if (fos != null) fos.close();
->      }
+>      image.save("Slide_Notes_Comments_0.png", ImageFormat.Png);
 >  } finally {
 >      pres.dispose();
 >  }
