@@ -181,25 +181,6 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([SummaryZoomFrame](../summaryzoomframe)) | Returns all elements |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomFrame](../summaryzoomframe) | IShape to remove. |
-
- **Returns:**
-[TextAnimation](../textanimation)
-
-
----
-
-
-### get_Item {#get_Item}
-
-| Name | Description |
-| --- | --- |
 | get_Item ([GeometryShape](../geometryshape)) | Returns all elements |
 
  **Parameters:**
@@ -219,13 +200,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([ZoomFrame](../zoomframe)) | Returns all elements |
+| get_Item ([SummaryZoomFrame](../summaryzoomframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomFrame](../zoomframe) | IShape to remove. |
+| shape | [SummaryZoomFrame](../summaryzoomframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -257,13 +238,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([VideoFrame](../videoframe)) | Returns all elements |
+| get_Item ([ZoomFrame](../zoomframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [VideoFrame](../videoframe) | IShape to remove. |
+| shape | [ZoomFrame](../zoomframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -283,6 +264,25 @@ Object
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [OleObjectFrame](../oleobjectframe) | IShape to remove. |
+
+ **Returns:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([VideoFrame](../videoframe)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [VideoFrame](../videoframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -390,13 +390,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Chart](../chart)) | Returns all elements |
+| get_Item ([AudioFrame](../audioframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Chart](../chart) | IShape to remove. |
+| shape | [AudioFrame](../audioframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -409,13 +409,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([AudioFrame](../audioframe)) | Returns all elements |
+| get_Item ([Chart](../chart)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [AudioFrame](../audioframe) | IShape to remove. |
+| shape | [Chart](../chart) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)

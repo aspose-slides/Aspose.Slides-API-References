@@ -162,6 +162,8 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [DocumentProperties](documentproperties) | Represents properties of a presentation. |
 | [DomObject](domobject) | Base DOM object TParent: Type of parent DOM object |
 | [DoubleChartValue](doublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
+| [DrawingGuide](drawingguide) | Represents an adjustable drawing guide. |
+| [DrawingGuidesCollection](drawingguidescollection) | Represents a collection of the adjustable drawing guides. |
 | [Duotone](duotone) | Represents a Duotone effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel. |
 | [Effect](effect) | Represents animation effect. |
 | [EffectChartMajorGroupingType](effectchartmajorgroupingtype) | Represents the type of an animation effect for chart's element. |

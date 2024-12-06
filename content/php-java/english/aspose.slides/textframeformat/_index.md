@@ -28,7 +28,7 @@ TextFrameFormat
 
 | Name | Description |
 | --- | --- |
-| getAnchoringType () | Returns or sets vertical anchor text in a TextFrameEx. Read/write TextAnchorType. |
+| getAnchoringType () | Returns or sets vertical anchor text in a TextFrame. Read/write TextAnchorType. |
 
  **Returns:**
 byte
@@ -262,7 +262,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| setAnchoringType (byte) | Returns or sets vertical anchor text in a TextFrameEx. Read/write TextAnchorType. |
+| setAnchoringType (byte) | Returns or sets vertical anchor text in a TextFrame. Read/write TextAnchorType. |
 
  **Returns:**
 void
