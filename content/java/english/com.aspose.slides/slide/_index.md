@@ -475,21 +475,24 @@ Returns a Thumbnail BufferedImage object with custom scaling.
 >  
 >  Presentation pres = new Presentation("PresentationNotesComments.pptx");
 >  try {
->      // Creates the rendering options
+>      // Create the rendering options
 >      IRenderingOptions options = new RenderingOptions();
+>      // Create notes and comments layouting options
+>      NotesCommentsLayoutingOptions notesCommentsLayouting = new NotesCommentsLayoutingOptions();
 >      // Sets the position of the notes on the page
->      options.getNotesCommentsLayouting().setNotesPosition(NotesPositions.BottomTruncated);
+>      notesCommentsLayouting.setNotesPosition(NotesPositions.BottomTruncated);
 >      // Sets the position of the comments on the page
->      options.getNotesCommentsLayouting().setCommentsPosition(CommentsPositions.Right);
+>      notesCommentsLayouting.setCommentsPosition(CommentsPositions.Right);
 >      // Sets the width of the comment output area
->      options.getNotesCommentsLayouting().setCommentsAreaWidth(500);
+>      notesCommentsLayouting.setCommentsAreaWidth(500);
 >      // Sets the color for the comments area
->      options.getNotesCommentsLayouting().setCommentsAreaColor(Color.WHITE);
->      // Converts the first slide of the presentation to a Bitmap object
+>      notesCommentsLayouting.setCommentsAreaColor(Color.WHITE);
+>      // Set layout options for rendering
+>      options.setSlidesLayoutOptions(notesCommentsLayouting);
+>      // Converts the first slide of the presentation to a BufferedImage object
 >      BufferedImage bmp = pres.getSlides().get_Item(0).getThumbnail(options, 2f, 2f);
 >      // Saves the image in the GIF format
 >      ImageIO.write(bmp, "GIF", new File("Slide_Notes_Comments_0.gif"));
->  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -533,10 +536,10 @@ Returns a Thumbnail Image object with custom scaling.
 >      notesOption.setCommentsAreaColor(Color.WHITE);
 >      // Sets the notes options for rendering options
 >      options.setSlidesLayoutOptions(notesOption);
->      // Converts the first slide of the presentation to a Bitmap object
->      IImage bmp = pres.getSlides().get_Item(0).getImage(options, 2f, 2f);
+>      // Converts the first slide of the presentation to a IImage object
+>      IImage image = pres.getSlides().get_Item(0).getImage(options, 2f, 2f);
 >      // Saves the image in the GIF format
->      bmp.save("Slide_Notes_Comments_0.gif", ImageFormat.Gif);
+>      image.save("Slide_Notes_Comments_0.gif", ImageFormat.Gif);
 >  } finally {
 >      pres.dispose();
 >  }

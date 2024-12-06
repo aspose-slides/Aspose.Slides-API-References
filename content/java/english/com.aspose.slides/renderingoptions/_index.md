@@ -45,7 +45,6 @@ Provides options that control how a presentation/slide is rendered.
 
 | Method | Description |
 | --- | --- |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
@@ -57,16 +56,6 @@ public RenderingOptions()
 
 Default constructor.
 
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
-```
-public final INotesCommentsLayoutingOptions getNotesCommentsLayouting()
-```
-
-
-Provides options that control how notes and comments is placed in exported document.
-
-**Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
 ### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
 ```
 public final ISlidesLayoutOptions getSlidesLayoutOptions()
