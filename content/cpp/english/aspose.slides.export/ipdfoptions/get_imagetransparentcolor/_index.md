@@ -3,7 +3,7 @@ title: get_ImageTransparentColor()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets the image transparent color.
 type: docs
-weight: 404
+weight: 391
 url: /aspose.slides.export/ipdfoptions/get_imagetransparentcolor/
 ---
 ## IPdfOptions::get_ImageTransparentColor() method

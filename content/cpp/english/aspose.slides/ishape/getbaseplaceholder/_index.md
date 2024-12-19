@@ -23,19 +23,17 @@ A null is returned if the current shape is not inherited.
 
 ```cpp
 // get all (master/layout/slide) animated effects of the placeholder shape
-auto pres = System::MakeObject<Presentation>(u"sample.pptx");
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"sample.pptx");
 
-auto slide = pres->get_Slides()->idx_get(0);
-auto shape = slide->get_Shapes()->idx_get(0);
-auto sequence = slide->get_LayoutSlide()->get_Timeline()->get_MainSequence();
-
-auto shapeEffects = sequence->GetEffectsByShape(shape);
+System::SharedPtr<ISlide> slide = pres->get_Slide(0);
+System::SharedPtr<IShape> shape = slide->get_Shape(0);
+System::ArrayPtr<System::SharedPtr<IEffect>> shapeEffects = slide->get_Timeline()->get_MainSequence()->GetEffectsByShape(shape);
 
 System::SharedPtr<IShape> layoutShape = shape->GetBasePlaceholder();
-auto layoutShapeEffects = sequence->GetEffectsByShape(layoutShape);
+System::ArrayPtr<System::SharedPtr<IEffect>> layoutShapeEffects = slide->get_LayoutSlide()->get_Timeline()->get_MainSequence()->GetEffectsByShape(layoutShape);
 
 System::SharedPtr<IShape> masterShape = layoutShape->GetBasePlaceholder();
-auto masterShapeEffects = slide->get_LayoutSlide()->get_MasterSlide()->get_Timeline()->get_MainSequence()->GetEffectsByShape(masterShape);
+System::ArrayPtr<System::SharedPtr<IEffect>> masterShapeEffects = slide->get_LayoutSlide()->get_MasterSlide()->get_Timeline()->get_MainSequence()->GetEffectsByShape(masterShape);
 ```
 
 

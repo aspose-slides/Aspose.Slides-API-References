@@ -3,7 +3,7 @@ title: set_BwConversionMode()
 second_title: Aspose.Slides for C++ API Reference
 description: "Specifies the algorithm for converting a color image into a black and white image. This option will applied only if ITiffOptions::get_CompressionType() is set to TiffCompressionTypes::CCITT4 or TiffCompressionTypes::CCITT3 Write BlackWhiteConversionMode. Default is BlackWhiteConversionMode::Default."
 type: docs
-weight: 222
+weight: 209
 url: /aspose.slides.export/tiffoptions/set_bwconversionmode/
 ---
 ## TiffOptions::set_BwConversionMode(BlackWhiteConversionMode) method

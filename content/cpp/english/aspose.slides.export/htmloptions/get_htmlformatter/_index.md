@@ -3,7 +3,7 @@ title: get_HtmlFormatter()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns HTML template. Read IHtmlFormatter.
 type: docs
-weight: 79
+weight: 66
 url: /aspose.slides.export/htmloptions/get_htmlformatter/
 ---
 ## HtmlOptions::get_HtmlFormatter() method

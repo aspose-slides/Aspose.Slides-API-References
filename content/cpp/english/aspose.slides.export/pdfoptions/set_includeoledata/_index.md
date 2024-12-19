@@ -3,7 +3,7 @@ title: set_IncludeOleData()
 second_title: Aspose.Slides for C++ API Reference
 description: True to convert all OLE data from the presentation to embedded files in the resulting PDF. Write bool.
 type: docs
-weight: 482
+weight: 469
 url: /aspose.slides.export/pdfoptions/set_includeoledata/
 ---
 ## PdfOptions::set_IncludeOleData(bool) method

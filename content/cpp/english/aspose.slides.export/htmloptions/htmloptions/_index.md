@@ -3,7 +3,7 @@ title: HtmlOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a new HtmlOptions object specifiing callback.
 type: docs
-weight: 235
+weight: 222
 url: /aspose.slides.export/htmloptions/htmloptions/
 ---
 ## HtmlOptions::HtmlOptions(System::SharedPtr\<ILinkEmbedController\>) constructor

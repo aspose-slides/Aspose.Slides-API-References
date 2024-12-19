@@ -3,7 +3,7 @@ title: get_AdditionalCommonFontFamilies()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns an array of user-defined names of font families which Aspose.Slides should consider common. Read System::String[]."
 type: docs
-weight: 157
+weight: 144
 url: /aspose.slides.export/pdfoptions/get_additionalcommonfontfamilies/
 ---
 ## PdfOptions::get_AdditionalCommonFontFamilies() method

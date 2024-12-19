@@ -3,7 +3,7 @@ title: get_InkOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control the look of Ink objects in exported document. Read-only IInkOptions
 type: docs
-weight: 40
+weight: 27
 url: /aspose.slides.export/renderingoptions/get_inkoptions/
 ---
 ## RenderingOptions::get_InkOptions() method

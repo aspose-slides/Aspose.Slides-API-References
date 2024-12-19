@@ -3,7 +3,7 @@ title: set_TextCompression()
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies compression type to be used for all textual content in the document. Write PdfTextCompression.
 type: docs
-weight: 92
+weight: 79
 url: /aspose.slides.export/pdfoptions/set_textcompression/
 ---
 ## PdfOptions::set_TextCompression(PdfTextCompression) method
