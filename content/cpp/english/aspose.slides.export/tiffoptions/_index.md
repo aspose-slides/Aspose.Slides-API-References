@@ -34,7 +34,6 @@ class TiffOptions : public Aspose::Slides::Export::SaveOptions,
 | [Aspose::Slides::GradientStyle](../../aspose.slides/gradientstyle/) [get_GradientStyle](../saveoptions/get_gradientstyle/)() override | Returns the visual style of the gradient. Read [GradientStyle](../../aspose.slides/gradientstyle/). |
 | [System::Drawing::Size](../../system.drawing/size/) [get_ImageSize](./get_imagesize/)() override | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read [System::Drawing::Size](../../system.drawing/size/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IInkOptions](../iinkoptions/)\> [get_InkOptions](./get_inkoptions/)() override | Provides options that control the look of [Ink](../../aspose.slides.ink/) objects in exported document. Read-only [IInkOptions](../iinkoptions/) |
-| [System::SharedPtr](../../system/sharedptr/)\<[INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/)\> [get_NotesCommentsLayouting](./get_notescommentslayouting/)() override | Provides options that control how notes and comments is placed in exported document. |
 | [ImagePixelFormat](../imagepixelformat/) [get_PixelFormat](./get_pixelformat/)() override | Specifies the pixel format for the generated images. Read [ImagePixelFormat](../imagepixelformat/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../saveoptions/get_progresscallback/)() override | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | **bool** [get_ShowHiddenSlides](./get_showhiddenslides/)() override | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
@@ -99,8 +98,11 @@ auto pres = System::MakeObject<Presentation>(u"Convert_Tiff_Custom.pptx");
 System::SharedPtr<TiffOptions> opts = System::MakeObject<TiffOptions>();
 // Setting compression type
 opts->set_CompressionType(TiffCompressionTypes::Default);
-auto notesOptions = opts->get_NotesCommentsLayouting();
-notesOptions->set_NotesPosition(NotesPositions::BottomFull);
+
+System::SharedPtr<NotesCommentsLayoutingOptions> slidesLayoutOptions = System::MakeObject<NotesCommentsLayoutingOptions>();
+slidesLayoutOptions->set_NotesPosition(NotesPositions::BottomFull);
+opts->set_SlidesLayoutOptions(slidesLayoutOptions);
+
 // Compression Types
 // Default - Specifies the default compression scheme (LZW).
 // None - Specifies no compression.

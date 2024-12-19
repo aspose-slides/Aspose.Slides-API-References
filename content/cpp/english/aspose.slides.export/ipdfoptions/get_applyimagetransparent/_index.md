@@ -3,7 +3,7 @@ title: get_ApplyImageTransparent()
 second_title: Aspose.Slides for C++ API Reference
 description: Applies the specified transparent color to an image if true.
 type: docs
-weight: 430
+weight: 417
 url: /aspose.slides.export/ipdfoptions/get_applyimagetransparent/
 ---
 ## IPdfOptions::get_ApplyImageTransparent() method

@@ -75,7 +75,7 @@ Deprecated
 The following example shows how to convert the first slide to the framed image with the RenderToGraphics method. 
 ```cpp
 auto pres = System::MakeObject<Presentation>(u"Presentation.pptx");
-auto slide = pres->get_Slides()->idx_get(0);
+auto slide = pres->get_Slide(0);
 
 System::Drawing::Size slideSize(1820, 1040);
 // Creates a Bitmap with the specified size (slide size + fields)
@@ -102,7 +102,9 @@ System::Drawing::Size notesSize = pres->get_NotesSize()->get_Size().ToSize();
 // Creates the rendering options
 System::SharedPtr<IRenderingOptions> options = System::MakeObject<RenderingOptions>();
 // Sets the position of the notes
-options->get_NotesCommentsLayouting()->set_NotesPosition(NotesPositions::BottomTruncated);
+System::SharedPtr<NotesCommentsLayoutingOptions> notesCommentsLayouting = System::MakeObject<NotesCommentsLayoutingOptions>();
+notesCommentsLayouting->set_NotesPosition(NotesPositions::BottomTruncated);
+options->set_SlidesLayoutOptions(notesCommentsLayouting);
 // Creates a Bitmap with the notes' size
 System::SharedPtr<System::Drawing::Bitmap> slideImage = System::MakeObject<System::Drawing::Bitmap>(notesSize.get_Width(), notesSize.get_Height());
 

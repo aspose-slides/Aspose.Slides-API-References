@@ -67,8 +67,9 @@ The following example shows how to convert PowerPoint to HTML using C++.
 auto presentation = System::MakeObject<Presentation>(u"Convert_HTML.pptx");
 
 System::SharedPtr<HtmlOptions> htmlOpt = System::MakeObject<HtmlOptions>();
-System::SharedPtr<INotesCommentsLayoutingOptions> options = htmlOpt->get_NotesCommentsLayouting();
+System::SharedPtr<NotesCommentsLayoutingOptions> options = System::MakeObject<NotesCommentsLayoutingOptions>();
 options->set_NotesPosition(NotesPositions::BottomFull);
+htmlOpt->set_SlidesLayoutOptions(options);
 htmlOpt->set_HtmlFormatter(HtmlFormatter::CreateDocumentFormatter(u"", false));
 
 // Saves the presentation to HTML
@@ -91,8 +92,9 @@ presentation->Save(u"ConvertPresentationToResponsiveHTML_out.html", SaveFormat::
 auto pres = System::MakeObject<Presentation>(u"Presentation.pptx");
 
 auto opt = System::MakeObject<HtmlOptions>();
-System::SharedPtr<INotesCommentsLayoutingOptions> options = opt->get_NotesCommentsLayouting();
+System::SharedPtr<NotesCommentsLayoutingOptions> options = System::MakeObject<NotesCommentsLayoutingOptions>();
 options->set_NotesPosition(NotesPositions::BottomFull);
+opt->set_SlidesLayoutOptions(options);
 
 // Saves notes pages
 pres->Save(u"Output.html", SaveFormat::Html, opt);

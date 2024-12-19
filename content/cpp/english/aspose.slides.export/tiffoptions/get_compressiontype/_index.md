@@ -3,7 +3,7 @@ title: get_CompressionType()
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the compression type. Read TiffCompressionTypes.
 type: docs
-weight: 131
+weight: 118
 url: /aspose.slides.export/tiffoptions/get_compressiontype/
 ---
 ## TiffOptions::get_CompressionType() method

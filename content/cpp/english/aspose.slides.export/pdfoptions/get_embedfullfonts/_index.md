@@ -3,7 +3,7 @@ title: get_EmbedFullFonts()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if all characters of font should be embedded or only used subset. Read bool.
 type: docs
-weight: 183
+weight: 170
 url: /aspose.slides.export/pdfoptions/get_embedfullfonts/
 ---
 ## PdfOptions::get_EmbedFullFonts() method

@@ -3,7 +3,7 @@ title: get_TextCompression()
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies compression type to be used for all textual content in the document. Read PdfTextCompression.
 type: docs
-weight: 79
+weight: 66
 url: /aspose.slides.export/pdfoptions/get_textcompression/
 ---
 ## PdfOptions::get_TextCompression() method

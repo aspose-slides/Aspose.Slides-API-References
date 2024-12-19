@@ -215,20 +215,24 @@ Deprecated
 
 The following example shows how to converting slides With notes and comments to [Images](../../images/) using C#. 
 ```cpp
-auto pres = System::MakeObject<Presentation>(u"PresentationNotesComments.pptx");
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"PresentationNotesComments.pptx");
 
-// Creates the rendering options
+// Create the rendering options
 System::SharedPtr<IRenderingOptions> options = System::MakeObject<RenderingOptions>();
+// Create notes and comments layouting options
+System::SharedPtr<NotesCommentsLayoutingOptions> notesCommentsLayouting = System::MakeObject<NotesCommentsLayoutingOptions>();
 // Sets the position of the notes on the page
-options->get_NotesCommentsLayouting()->set_NotesPosition(NotesPositions::BottomTruncated);
+notesCommentsLayouting->set_NotesPosition(NotesPositions::BottomTruncated);
 // Sets the position of the comments on the page
-options->get_NotesCommentsLayouting()->set_CommentsPosition(CommentsPositions::Right);
+notesCommentsLayouting->set_CommentsPosition(CommentsPositions::Right);
 // Sets the width of the comment output area
-options->get_NotesCommentsLayouting()->set_CommentsAreaWidth(500);
+notesCommentsLayouting->set_CommentsAreaWidth(500);
 // Sets the color for the comments area
-options->get_NotesCommentsLayouting()->set_CommentsAreaColor(System::Drawing::Color::get_AntiqueWhite());
+notesCommentsLayouting->set_CommentsAreaColor(System::Drawing::Color::get_AntiqueWhite());
+// Set layout options for rendering
+options->set_SlidesLayoutOptions(notesCommentsLayouting);
 // Converts the first slide of the presentation to a Bitmap object
-System::SharedPtr<System::Drawing::Bitmap> bmp = pres->get_Slides()->idx_get(0)->GetThumbnail(options, 2.0f, 2.0f);
+System::SharedPtr<System::Drawing::Bitmap> bmp = pres->get_Slide(0)->GetThumbnail(options, 2.0f, 2.0f);
 // Saves the image in the GIF format
 bmp->Save(u"Slide_Notes_Comments_0.gif", System::Drawing::Imaging::ImageFormat::get_Gif());
 ```

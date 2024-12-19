@@ -3,7 +3,7 @@ title: get_PixelFormat()
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the pixel format for the generated images. Read ImagePixelFormat.
 type: docs
-weight: 157
+weight: 144
 url: /aspose.slides.export/tiffoptions/get_pixelformat/
 ---
 ## TiffOptions::get_PixelFormat() method

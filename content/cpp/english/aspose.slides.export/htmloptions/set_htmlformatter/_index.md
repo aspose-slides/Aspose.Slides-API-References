@@ -3,7 +3,7 @@ title: set_HtmlFormatter()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets HTML template. Write IHtmlFormatter.
 type: docs
-weight: 92
+weight: 79
 url: /aspose.slides.export/htmloptions/set_htmlformatter/
 ---
 ## HtmlOptions::set_HtmlFormatter(System::SharedPtr\<IHtmlFormatter\>) method

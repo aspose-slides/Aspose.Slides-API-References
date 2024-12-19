@@ -3,7 +3,7 @@ title: set_DpiX()
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the horizontal resolution in dots per inch. Write uint32_t.
 type: docs
-weight: 92
+weight: 79
 url: /aspose.slides.export/tiffoptions/set_dpix/
 ---
 ## TiffOptions::set_DpiX(uint32_t) method

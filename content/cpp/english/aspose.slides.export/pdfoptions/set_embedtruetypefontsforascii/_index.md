@@ -3,7 +3,7 @@ title: set_EmbedTrueTypeFontsForASCII()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if Aspose.Slides will embed common fonts for ASCII (33..127 code range) text. Fonts for character codes greater than 127 are always embedded. Common fonts list includes PDF's base 14 fonts and additional user specified fonts. Write bool.
 type: docs
-weight: 144
+weight: 131
 url: /aspose.slides.export/pdfoptions/set_embedtruetypefontsforascii/
 ---
 ## PdfOptions::set_EmbedTrueTypeFontsForASCII(bool) method

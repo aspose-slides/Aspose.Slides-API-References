@@ -197,20 +197,24 @@ The following example shows how to converting slides With notes and comments to 
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"PresentationNotesComments.pptx");
 
-// Creates the rendering options
+// Create the rendering options
 System::SharedPtr<IRenderingOptions> options = System::MakeObject<RenderingOptions>();
+// Create notes and comments layouting options
+System::SharedPtr<NotesCommentsLayoutingOptions> notesCommentsLayouting = System::MakeObject<NotesCommentsLayoutingOptions>();
 // Sets the position of the notes on the page
-options->get_NotesCommentsLayouting()->set_NotesPosition(NotesPositions::BottomTruncated);
+notesCommentsLayouting->set_NotesPosition(NotesPositions::BottomTruncated);
 // Sets the position of the comments on the page
-options->get_NotesCommentsLayouting()->set_CommentsPosition(CommentsPositions::Right);
+notesCommentsLayouting->set_CommentsPosition(CommentsPositions::Right);
 // Sets the width of the comment output area
-options->get_NotesCommentsLayouting()->set_CommentsAreaWidth(500);
+notesCommentsLayouting->set_CommentsAreaWidth(500);
 // Sets the color for the comments area
-options->get_NotesCommentsLayouting()->set_CommentsAreaColor(System::Drawing::Color::get_AntiqueWhite());
-// Converts the first slide of the presentation to a Bitmap object
-System::SharedPtr<IImage> bmp = pres->get_Slide(0)->GetImage(options, 2.0f, 2.0f);
+notesCommentsLayouting->set_CommentsAreaColor(System::Drawing::Color::get_AntiqueWhite());
+// Set layout options for rendering
+options->set_SlidesLayoutOptions(notesCommentsLayouting);
+// Converts the first slide of the presentation to a IImage object
+System::SharedPtr<IImage> image = pres->get_Slide(0)->GetImage(options, 2.0f, 2.0f);
 // Saves the image in the GIF format
-bmp->Save(u"Slide_Notes_Comments_0.gif", Aspose::Slides::ImageFormat::Gif);
+image->Save(u"Slide_Notes_Comments_0.gif", ImageFormat::Gif);
 ```
 
 ## Slide::GetImage(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) method
