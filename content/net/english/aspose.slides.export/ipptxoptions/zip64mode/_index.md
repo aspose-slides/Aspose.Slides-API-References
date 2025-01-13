@@ -3,7 +3,7 @@ title: Zip64Mode
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies whether the ZIP64 format is used for the Presentation document. The default value is IfNecessary
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides.export/ipptxoptions/zip64mode/
 ---
 

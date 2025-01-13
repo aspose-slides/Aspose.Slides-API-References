@@ -3,7 +3,7 @@ title: TileFlip
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines tile flipping mode.
 type: docs
-weight: 11100
+weight: 11120
 url: /aspose.slides/tileflip/
 ---
 

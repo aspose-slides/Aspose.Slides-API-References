@@ -3,7 +3,7 @@ title: ClearCustomProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Removes all custom properties.
 type: docs
-weight: 270
+weight: 380
 url: /aspose.slides/documentproperties/clearcustomproperties/
 ---
 

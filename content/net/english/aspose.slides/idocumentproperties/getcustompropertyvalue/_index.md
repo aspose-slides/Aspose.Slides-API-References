@@ -3,7 +3,7 @@ title: GetCustomPropertyValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets a named boolean value from the custom properties.
 type: docs
-weight: 290
+weight: 400
 url: /aspose.slides/idocumentproperties/getcustompropertyvalue/
 ---
 

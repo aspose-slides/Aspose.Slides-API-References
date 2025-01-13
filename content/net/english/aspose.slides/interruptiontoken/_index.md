@@ -3,7 +3,7 @@ title: InterruptionToken
 second_title: Aspose.Sildes for .NET API Reference
 description: This class represents the token to use for signaling long running tasks whether the interruption was requested.
 type: docs
-weight: 7280
+weight: 7300
 url: /aspose.slides/interruptiontoken/
 ---
 

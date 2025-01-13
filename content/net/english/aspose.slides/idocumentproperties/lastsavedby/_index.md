@@ -3,7 +3,7 @@ title: LastSavedBy
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the name of a last person who modified a presentation. Read/write String.
 type: docs
-weight: 150
+weight: 180
 url: /aspose.slides/idocumentproperties/lastsavedby/
 ---
 

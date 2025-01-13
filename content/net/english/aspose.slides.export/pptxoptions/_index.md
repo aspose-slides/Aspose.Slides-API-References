@@ -29,6 +29,7 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Specifies whether the presentation thumbnail will be refreshed. Read/write Boolean. Default value is **true**. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 | [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Specifies whether the ZIP64 format is used for the Presentation document. The default value is IfNecessary |
 

@@ -1,7 +1,7 @@
 ---
 title: Overlap
 second_title: Aspose.Sildes for .NET API Reference
-description: Specifies how much bars and columns shall overlap on 2-D charts from -100 to 100. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.Overlap read/write property for change value. Read-only SByte.
+description: Specifies how much bars and columns overlap on 2-D charts as a percentage from -100 to 100. This is the property not only of this series but of all series of parent series group. It is a projection of the appropriate property in the parent series group and so this property is read-only. To change the value use the ParentSeriesGroup.Overlap read/write property. Read-only SByte.
 type: docs
 weight: 270
 url: /aspose.slides.charts/chartseries/overlap/
@@ -9,7 +9,7 @@ url: /aspose.slides.charts/chartseries/overlap/
 
 ## ChartSeries.Overlap property
 
-Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.Overlap read/write property for change value. Read-only SByte.
+Specifies how much bars and columns overlap on 2-D charts, as a percentage (from -100% to 100%). This is the property not only of this series but of all series of parent series group. It is a projection of the appropriate property in the parent series group, and so this property is read-only. To change the value, use the !:ParentSeriesGroup.Overlap read/write property. Read-only SByte.
 
 ```csharp
 public sbyte Overlap { get; }
@@ -17,7 +17,7 @@ public sbyte Overlap { get; }
 
 ### Remarks
 
-This is the projection of the property ParentSeriesGroup.Overlap.
+Overlap specifies the degree of overlap or spacing between bars and columns as a percentage of their width: - -100%: Maximum spacing (bars are completely separated). - 0%: Bars are placed side by side without overlap or spacing. - 100%: Maximum overlap (bars completely overlap each other). This is a projection of the property !:ParentSeriesGroup.Overlap.
 
 ### See Also
 

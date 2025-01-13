@@ -3,7 +3,7 @@ title: ISlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a slide in a presentation.
 type: docs
-weight: 6760
+weight: 6780
 url: /aspose.slides/islide/
 ---
 
@@ -41,8 +41,9 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Returns all slide comments added by specific author. |
 | [Remove](../../aspose.slides/islide/remove)() | Removes slide from presentation. |
 | [Reset](../../aspose.slides/islide/reset)() | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Saves content of slide as SVG file. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Saves content of slide as SVG file. |
+| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Saves the slide content as an EMF file. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Saves the slide content as an SVG file. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Saves the slide content as an SVG file. |
 
 ### See Also
 

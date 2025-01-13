@@ -3,7 +3,7 @@ title: PictureFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a picture fill style.
 type: docs
-weight: 9040
+weight: 9060
 url: /aspose.slides/picturefillformat/
 ---
 
@@ -42,7 +42,8 @@ public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
 
 | Name | Description |
 | --- | --- |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage)(bool, float) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
 | [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | Delete cropped areas of the fill Picture. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |

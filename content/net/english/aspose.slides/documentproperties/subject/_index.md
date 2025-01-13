@@ -3,7 +3,7 @@ title: Subject
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the subject of a presentation. Read/write String.
 type: docs
-weight: 230
+weight: 320
 url: /aspose.slides/documentproperties/subject/
 ---
 

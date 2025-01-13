@@ -3,7 +3,7 @@ title: SmartArtColorType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents color scheme of a SmartArt diagram.
 type: docs
-weight: 10210
+weight: 10230
 url: /aspose.slides.smartart/smartartcolortype/
 ---
 
