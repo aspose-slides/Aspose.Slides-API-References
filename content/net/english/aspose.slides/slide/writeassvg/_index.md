@@ -1,15 +1,15 @@
 ---
 title: WriteAsSvg
 second_title: Aspose.Sildes for .NET API Reference
-description: Saves content of slide as SVG file.
+description: Saves the slide content as an SVG file.
 type: docs
-weight: 130
+weight: 140
 url: /aspose.slides/slide/writeassvg/
 ---
 
 ## WriteAsSvg(Stream) {#writeassvg}
 
-Saves content of slide as SVG file.
+Saves the slide content as an SVG file.
 
 ```csharp
 public void WriteAsSvg(Stream stream)
@@ -21,20 +21,16 @@ public void WriteAsSvg(Stream stream)
 
 ### Examples
 
-The following example shows how to convert PowerPoint to PDF with custom options.
+The following code example demonstrates how to convert the first slide from a PowerPoint presentation into an SVG file.
 
 ```csharp
 [C#]
-// Presentation object can load PowerPoint formats like PPT, PPTX, ODP etc.
 using (Presentation pres = new Presentation("pres.pptx"))
 {
-    for (var index = 0; index < pres.Slides.Count; index++)
+    using (Stream fileStream = System.IO.File.Create("slide_1.svg"))
     {
-        ISlide slide = pres.Slides[index];
-        using (FileStream fileStream = new FileStream($"slide-{index}.svg", FileMode.Create, FileAccess.Write))
-        {
-            slide.WriteAsSvg(fileStream);
-        }
+        // Saves the first slide as an SVG file
+        pres.Slides[0].WriteAsSvg(fileStream);
     }
 }
 ```
@@ -49,7 +45,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## WriteAsSvg(Stream, ISVGOptions) {#writeassvg_1}
 
-Saves content of slide as SVG file.
+Saves the slide content as an SVG file.
 
 ```csharp
 public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
@@ -62,30 +58,18 @@ public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 
 ### Examples
 
-The following example code shows how to generate SVG image with Custom Shape IDS from PowerPoint Presentation.
+The following code example demonstrates how to convert the first slide from a PowerPoint presentation into an SVG file with options.
 
 ```csharp
-// Instantiate a Presentation class that represents the presentation file
-using (Presentation pres = new Presentation("CreateSlidesSVGImage.pptx"))
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
 {
-    // Access the first slide
-    ISlide sld = pres.Slides[0];
-    // Create a memory stream object
-    MemoryStream SvgStream = new MemoryStream();
-    // Generate SVG image of slide and save in memory stream
-    sld.WriteAsSvg(SvgStream);
-    SvgStream.Position = 0;
-    // Save memory stream to file
-    using (Stream fileStream = System.IO.File.OpenWrite("Aspose_out.svg"))
+    using (Stream fileStream = System.IO.File.Create("slide_1.svg"))
     {
-        byte[] buffer = new byte[8 * 1024];
-        int len;
-        while ((len = SvgStream.Read(buffer, 0, buffer.Length)) > 0)
-        {
-            fileStream.Write(buffer, 0, len);
-        }
+        var options = new SVGOptions() { VectorizeText = true };
+        // Saves the first slide as an SVG file
+        pres.Slides[0].WriteAsSvg(fileStream, options);
     }
-    SvgStream.Close();
 }
 ```
 

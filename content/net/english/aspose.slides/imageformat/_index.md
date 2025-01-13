@@ -3,7 +3,7 @@ title: ImageFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the file format of the image.
 type: docs
-weight: 7150
+weight: 7170
 url: /aspose.slides/imageformat/
 ---
 

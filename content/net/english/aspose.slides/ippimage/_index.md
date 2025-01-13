@@ -3,7 +3,7 @@ title: IPPImage
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an image in a presentation.
 type: docs
-weight: 6290
+weight: 6310
 url: /aspose.slides/ippimage/
 ---
 

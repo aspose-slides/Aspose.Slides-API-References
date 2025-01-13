@@ -3,7 +3,7 @@ title: ImageWrapper
 second_title: Aspose.Sildes for .NET API Reference
 description: System.Drawing.Image wrapper for COM interface.
 type: docs
-weight: 7160
+weight: 7180
 url: /aspose.slides/imagewrapper/
 ---
 

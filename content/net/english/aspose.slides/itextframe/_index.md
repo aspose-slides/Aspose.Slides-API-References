@@ -3,7 +3,7 @@ title: ITextFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a TextFrame.
 type: docs
-weight: 6990
+weight: 7010
 url: /aspose.slides/itextframe/
 ---
 

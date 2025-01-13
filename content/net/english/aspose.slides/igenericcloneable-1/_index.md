@@ -3,7 +3,7 @@ title: IGenericCloneableT
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents generic version of ICloneable
 type: docs
-weight: 5700
+weight: 5710
 url: /aspose.slides/igenericcloneable-1/
 ---
 

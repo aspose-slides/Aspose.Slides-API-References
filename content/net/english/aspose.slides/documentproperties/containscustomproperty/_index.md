@@ -3,7 +3,7 @@ title: ContainsCustomProperty
 second_title: Aspose.Sildes for .NET API Reference
 description: Check presents of a custom property with a specified name.
 type: docs
-weight: 300
+weight: 410
 url: /aspose.slides/documentproperties/containscustomproperty/
 ---
 
@@ -21,7 +21,7 @@ public bool ContainsCustomProperty(string name)
 
 ### Return Value
 
-Return true if property exists, false overwise.
+Return true if property exists, false otherwise.
 
 ### See Also
 

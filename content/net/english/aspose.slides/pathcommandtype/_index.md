@@ -3,7 +3,7 @@ title: PathCommandType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents graphics path commands
 type: docs
-weight: 8970
+weight: 8990
 url: /aspose.slides/pathcommandtype/
 ---
 

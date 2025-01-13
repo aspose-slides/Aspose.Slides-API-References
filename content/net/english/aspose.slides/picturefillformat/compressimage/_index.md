@@ -7,7 +7,57 @@ weight: 180
 url: /aspose.slides/picturefillformat/compressimage/
 ---
 
-## PictureFillFormat.CompressImage method
+## CompressImage(bool, PicturesCompression) {#compressimage}
+
+Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas.
+
+```csharp
+public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression resolution)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| deleteCroppedAreasOfImage | Boolean | If true, the method will remove the cropped areas of the image, potentially further reducing its size. |
+| resolution | PicturesCompression | The target resolution for compression, specified as a value of the [`PicturesCompression`](../../../aspose.slides.export/picturescompression) enum. |
+
+### Return Value
+
+A Boolean indicating whether the image was successfully compressed. Returns `true` if the image was resized or cropped, otherwise `false`.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Thrown when the resolution is not a valid value. |
+
+### Remarks
+
+This method changes the image's size and resolution similar to PowerPoint's "Picture Format -&gt; Compress Pictures" feature.
+
+### Examples
+
+The following example demonstrates how to use the `CompressImage` method to reduce the size of an image in a presentation by setting a target resolution and removing cropped areas:
+
+```csharp
+using (Presentation presentation = new Presentation("demo.pptx"))
+{
+    ISlide slide = presentation.Slides[0];
+    IPictureFrame picFrame = slide.Shapes[0] as IPictureFrame;
+    // Compress the image with a target resolution of 150 DPI (Web resolution) and remove cropped areas
+    bool result = picFrame.PictureFormat.CompressImage(true, PicturesCompression.Dpi150);
+}
+```
+
+### See Also
+
+* enum [PicturesCompression](../../../aspose.slides.export/picturescompression)
+* class [PictureFillFormat](../../picturefillformat)
+* namespace [Aspose.Slides](../../picturefillformat)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## CompressImage(bool, float) {#compressimage_1}
 
 Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas.
 

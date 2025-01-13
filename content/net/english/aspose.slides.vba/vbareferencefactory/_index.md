@@ -3,7 +3,7 @@ title: VbaReferenceFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create VBA project references via COM interface
 type: docs
-weight: 11280
+weight: 11300
 url: /aspose.slides.vba/vbareferencefactory/
 ---
 

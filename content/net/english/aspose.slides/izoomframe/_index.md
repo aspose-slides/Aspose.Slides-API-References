@@ -3,7 +3,7 @@ title: IZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Slide Zoom object in a slide.
 type: docs
-weight: 7120
+weight: 7140
 url: /aspose.slides/izoomframe/
 ---
 

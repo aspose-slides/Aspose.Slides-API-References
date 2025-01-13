@@ -3,7 +3,7 @@ title: LastPrinted
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the date when a presentation was printed last time. Read/write DateTime.
 type: docs
-weight: 150
+weight: 180
 url: /aspose.slides/documentproperties/lastprinted/
 ---
 

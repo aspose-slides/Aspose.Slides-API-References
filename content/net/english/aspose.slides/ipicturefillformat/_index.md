@@ -3,7 +3,7 @@ title: IPictureFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a picture fill style.
 type: docs
-weight: 6390
+weight: 6410
 url: /aspose.slides/ipicturefillformat/
 ---
 
@@ -42,7 +42,8 @@ public interface IPictureFillFormat : IFillParamSource
 
 | Name | Description |
 | --- | --- |
-| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage)(bool, float) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
+| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage_1)(bool, float) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
+| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage)(bool, PicturesCompression) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
 | [DeletePictureCroppedAreas](../../aspose.slides/ipicturefillformat/deletepicturecroppedareas)() | Delete cropped areas of the fill Picture. |
 
 ### See Also
