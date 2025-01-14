@@ -39,8 +39,9 @@ The IPictureFillFormat type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`delete_picture_cropped_areas`](/slides/python-net/aspose.slides/ipicturefillformat/delete_picture_cropped_areas/#) | Delete cropped areas of the fill Picture. |
+| [`compress_image`](/slides/python-net/aspose.slides/ipicturefillformat/compress_image/#bool-asposeslidesexportpicturescompression) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
 | [`compress_image`](/slides/python-net/aspose.slides/ipicturefillformat/compress_image/#bool-float) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
+| [`delete_picture_cropped_areas`](/slides/python-net/aspose.slides/ipicturefillformat/delete_picture_cropped_areas/#) | Delete cropped areas of the fill Picture. |
 
 
 ### See Also

@@ -33,6 +33,12 @@ The SvgImage type exposes the following members:
 | [`base_uri`](/slides/python-net/aspose.slides/svgimage/base_uri/) | Returns base URI of the specified Svg. Used to resolve relative links.<br/>            Read-only **str**. |
 | [`svg_content`](/slides/python-net/aspose.slides/svgimage/svg_content/) | Returns SVG content.<br/>            Read-only **str**. |
 
+## Methods
+
+| Method | Description |
+| :- | :- |
+| [`write_as_emf`](/slides/python-net/aspose.slides/svgimage/write_as_emf/#iorawiobase) | Saves the SVG image as an EMF file. |
+
 
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

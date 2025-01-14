@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/isvgimage/external_resource_resolver/
-weight: 20
+weight: 30
 ---
 
 

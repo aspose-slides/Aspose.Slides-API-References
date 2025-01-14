@@ -4,12 +4,12 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/slide/write_as_svg/
-weight: 110
+weight: 120
 ---
 
 
 ## write_as_svg {#iorawiobase}
-Saves content of slide as SVG file.
+Saves the slide content as an SVG file.
 
 
 ```python
@@ -24,7 +24,7 @@ def write_as_svg(self, stream):
 
 
 ## write_as_svg {#iorawiobase-asposeslidesexportisvgoptions}
-Saves content of slide as SVG file.
+Saves the slide content as an SVG file.
 
 
 ```python

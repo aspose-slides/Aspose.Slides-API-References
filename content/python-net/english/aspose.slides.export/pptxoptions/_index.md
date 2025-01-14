@@ -31,6 +31,7 @@ The PptxOptions type exposes the following members:
 | [`gradient_style`](/slides/python-net/aspose.slides.export/pptxoptions/gradient_style/) | Returns or sets the visual style of the gradient.<br/>            Read/write [`GradientStyle`](/slides/python-net/aspose.slides/gradientstyle). |
 | [`conformance`](/slides/python-net/aspose.slides.export/pptxoptions/conformance/) | Specifies the conformance class to which the Presentation document conforms.<br/>            Default value is [`Conformance.ECMA_376_2006`](/slides/python-net/aspose.slides.export/conformance/ECMA_376_2006) |
 | [`zip_64_mode`](/slides/python-net/aspose.slides.export/pptxoptions/zip_64_mode/) | Specifies whether the ZIP64 format is used for the Presentation document. <br/>            The default value is [`Zip64Mode.IF_NECESSARY`](/slides/python-net/aspose.slides.export/zip64mode/IF_NECESSARY) |
+| [`refresh_thumbnail`](/slides/python-net/aspose.slides.export/pptxoptions/refresh_thumbnail/) | Specifies whether the presentation thumbnail will be refreshed. <br/>            Read/write **bool**.<br/>            Default value is **true** . |
 
 
 ### See Also
