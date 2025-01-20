@@ -46,6 +46,17 @@ The DocumentProperties type exposes the following members:
 | [`content_type`](/slides/python-net/aspose.slides/documentproperties/content_type/) | Returns or sets the content type of a presentation.<br/>            Read/write **str**. |
 | [`hyperlink_base`](/slides/python-net/aspose.slides/documentproperties/hyperlink_base/) | Returns or sets the HyperlinkBase document property.<br/>            Read/write **str**. |
 | [`count_of_custom_properties`](/slides/python-net/aspose.slides/documentproperties/count_of_custom_properties/) | Returns the number of custom properties actually contained in a collection.<br/>            Read-only **int**. |
+| [`scale_crop`](/slides/python-net/aspose.slides/documentproperties/scale_crop/) | Indicates the display mode of the document thumbnail. <br/>            Set this element to **true**  to enable scaling of the document thumbnail to the display. <br/>            Set this element to **false**  to enable cropping of the document thumbnail to show only sections that fits the display.<br/>            Read/write **bool**. |
+| [`links_up_to_date`](/slides/python-net/aspose.slides/documentproperties/links_up_to_date/) | Indicates whether hyperlinks in a document are up-to-date. <br/>            Set this element to **true**  to indicate that hyperlinks are updated. <br/>            Set this element to **false**  to indicate that hyperlinks are outdated.<br/>            Read/write **bool**. |
+| [`hyperlinks_changed`](/slides/python-net/aspose.slides/documentproperties/hyperlinks_changed/) | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. <br/>            The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part.<br/>            Read/write **bool**. |
+| [`slides`](/slides/python-net/aspose.slides/documentproperties/slides/) | Returns the total number of slides in a presentation document.<br/>            Read-only **int**. |
+| [`hidden_slides`](/slides/python-net/aspose.slides/documentproperties/hidden_slides/) | Returns the number of hidden slides in a presentation document.<br/>            Read-only **int**. |
+| [`notes`](/slides/python-net/aspose.slides/documentproperties/notes/) | Returns the number of slides in a presentation containing notes.<br/>            Read-only **int**. |
+| [`paragraphs`](/slides/python-net/aspose.slides/documentproperties/paragraphs/) | Returns the total number of paragraphs found in a document if applicable.<br/>            Read-only **int**. |
+| [`words`](/slides/python-net/aspose.slides/documentproperties/words/) | Returns the total number of words contained in a document.<br/>            Read-only **int**. |
+| [`multimedia_clips`](/slides/python-net/aspose.slides/documentproperties/multimedia_clips/) | Returns the total number of sound or video clips that are present in the document.<br/>            Read-only **int**. |
+| [`titles_of_parts`](/slides/python-net/aspose.slides/documentproperties/titles_of_parts/) | Specifies the title of each document part. <br/>            These parts are not document parts but conceptual representations of document sections.<br/>            Read-only **int**. |
+| [`heading_pairs`](/slides/python-net/aspose.slides/documentproperties/heading_pairs/) | Indicates the grouping of document parts and the number of parts in each group.<br/>            Read-only **List[IHeadingPair]**. |
 
 ## Methods
 

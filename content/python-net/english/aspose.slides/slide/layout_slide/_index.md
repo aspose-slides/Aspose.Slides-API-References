@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/slide/layout_slide/
-weight: 220
+weight: 230
 ---
 
 

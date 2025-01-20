@@ -13,7 +13,7 @@ Remove a custom property associated with a specified name.
 
 ### Returns
 
-Return true if a property was removed, false overwise.
+Return true if a property was removed, false otherwise.
 
 
 

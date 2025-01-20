@@ -9,8 +9,11 @@ weight: 150
 
 
 ## overlap property
-Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100).
-            Read/write **int**.
+Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%).
+             - -100%: Maximum spacing (bars are completely separated).
+             - 0%: Bars are placed side by side without overlap or spacing.
+             - 100%: Maximum overlap (bars completely overlap each other).
+             This property is read/write **int**.
 
 ### Definition:
 ```python

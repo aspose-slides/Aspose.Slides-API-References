@@ -13,7 +13,7 @@ Check presents of a custom property with a specified name.
 
 ### Returns
 
-Return true if property exists, false overwise.
+Return true if property exists, false otherwise.
 
 
 

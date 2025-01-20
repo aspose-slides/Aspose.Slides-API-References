@@ -88,6 +88,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`GraphicalObjectLock`](/slides/python-net/aspose.slides/graphicalobjectlock/) | Determines which operations are disabled on the parent GraphicalObject. |
 | [`GroupShape`](/slides/python-net/aspose.slides/groupshape/) | Represents a group of shapes on a slide. |
 | [`GroupShapeLock`](/slides/python-net/aspose.slides/groupshapelock/) | Determines which operations are disabled on the parent GroupShape. |
+| [`HeadingPair`](/slides/python-net/aspose.slides/headingpair/) | Represents a 'Heading pair' property of the document. <br/>            It indicates the group name of document parts and the number of parts in group. |
 | [`Hyperlink`](/slides/python-net/aspose.slides/hyperlink/) | Represents a hyperlink. |
 | [`HyperlinkManager`](/slides/python-net/aspose.slides/hyperlinkmanager/) | Provide hyperlinks management (adding, removing). |
 | [`HyperlinkQueries`](/slides/python-net/aspose.slides/hyperlinkqueries/) | Provide easy access to contained hyperlinks. |
@@ -179,6 +180,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`IGraphicalObjectLock`](/slides/python-net/aspose.slides/igraphicalobjectlock/) | Determines which operations are disabled on the parent GraphicalObjectEx. |
 | [`IGroupShape`](/slides/python-net/aspose.slides/igroupshape/) | Represents a group of shapes on a slide. |
 | [`IGroupShapeLock`](/slides/python-net/aspose.slides/igroupshapelock/) | Determines which operations are disabled on the parent GroupShape. |
+| [`IHeadingPair`](/slides/python-net/aspose.slides/iheadingpair/) | Represents a 'Heading pair' property of the document. <br/>            It indicates the group name of document parts and the number of parts in group. |
 | [`IHyperlink`](/slides/python-net/aspose.slides/ihyperlink/) | Represents a hyperlink. |
 | [`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer/) | Represents hyperlink object. |
 | [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager/) | Provide hyperlinks management (adding, removing). |
