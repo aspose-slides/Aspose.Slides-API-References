@@ -15,6 +15,32 @@ url: /aspose.slides/picturefillformat/
 
 | Name | Description |
 | --- | --- |
+| compressImage (boolean, int) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| deleteCroppedAreasOfImage | boolean | If true, the function will remove the cropped areas of the image, potentially further reducing its size. |
+| resolution | int | The target resolution for compression, specified as a value of the PicturesCompression enum. This function changes the image's size and resolution similar to PowerPoint's "Picture Format -> Compress Pictures" feature. |
+
+ **Returns:**
+boolean
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when the resolution is not a valid value. |
+
+
+---
+
+
+### compressImage {#compressImage}
+
+| Name | Description |
+| --- | --- |
 | compressImage (boolean, float) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
 
  **Parameters:**

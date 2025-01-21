@@ -125,10 +125,16 @@ int
 
 | Name | Description |
 | --- | --- |
-| getOverlap () | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
+| getOverlap () | Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). - -100%: Maximum spacing (bars are completely separated). - 0%: Bars are placed side by side without overlap or spacing. - 100%: Maximum overlap (bars completely overlap each other). This property is read/write byte. |
 
  **Returns:**
 byte
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentOutOfRangeException | Thrown when the value is set outside the valid range of -100 to 100. |
 
 
 ---
@@ -232,7 +238,7 @@ ChartSeriesReadonlyCollection
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
  **Returns:**
-[Slide](../slide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide)
+[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide)
 
 
 ---
@@ -377,7 +383,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setOverlap (byte) | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
+| setOverlap (byte) | Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). - -100%: Maximum spacing (bars are completely separated). - 0%: Bars are placed side by side without overlap or spacing. - 100%: Maximum overlap (bars completely overlap each other). This property is read/write byte. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentOutOfRangeException | Thrown when the value is set outside the valid range of -100 to 100. |
 
 
 ---

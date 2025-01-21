@@ -244,7 +244,7 @@ boolean
 | author | [CommentAuthor](../commentauthor) | Author of comments to find or null to return all comments. |
 
  **Returns:**
-[Comment](../comment), [ModernComment](../moderncomment)
+[ModernComment](../moderncomment), [Comment](../comment)
 
 
 ---
@@ -270,7 +270,7 @@ int
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Returns:**
-[BaseOverrideThemeManager](../baseoverridethememanager), [SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [NotesSlideThemeManager](../notesslidethememanager), [ChartThemeManager](../chartthememanager)
+[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [NotesSlideThemeManager](../notesslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager)
 
 
 ---
@@ -579,11 +579,34 @@ BufferedImage
 ---
 
 
+### writeAsEmfToStream  {#writeAsEmfToStream }
+
+| Name | Description |
+| --- | --- |
+| writeAsEmfToStream  (Slide, WriteStream) | Saves the slide content as an EMF file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | Slide  | link to self |
+| stream | WriteStream | Target stream |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentNullException | Target stream is {@code null} |
+
+
+---
+
+
 ### writeAsSvgToStream  {#writeAsSvgToStream }
 
 | Name | Description |
 | --- | --- |
-| writeAsSvgToStream  (Slide, WriteStream) | Saves content of slide as SVG file. |
+| writeAsSvgToStream  (Slide, WriteStream) | Saves the slide content as an SVG file. |
 
  **Parameters:**
 
@@ -600,7 +623,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| writeAsSvgToStream  (Slide, WriteStream, [SVGOptions](../svgoptions)) | Saves content of slide as SVG file. |
+| writeAsSvgToStream  (Slide, WriteStream, [SVGOptions](../svgoptions)) | Saves the slide content as an SVG file. |
 
  **Parameters:**
 

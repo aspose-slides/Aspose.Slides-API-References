@@ -15,13 +15,13 @@ url: /aspose.slides/htmlformatter/
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | [ResponsiveHtmlController](../responsivehtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
 
  **Returns:**
 HtmlFormatter
@@ -53,13 +53,13 @@ HtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| createCustomFormatter ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [ResponsiveHtmlController](../responsivehtmlcontroller) | Callback interface which controls html file generation. |
 
  **Returns:**
 HtmlFormatter
