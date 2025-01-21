@@ -28,6 +28,8 @@ Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPS
 | [setConformance(int value)](#setConformance-int-) | Specifies the conformance class to which the Presentation document conforms. |
 | [getZip64Mode()](#getZip64Mode--) | Specifies whether the ZIP64 format is used for the Presentation document. |
 | [setZip64Mode(int value)](#setZip64Mode-int-) | Specifies whether the ZIP64 format is used for the Presentation document. |
+| [getRefreshThumbnail()](#getRefreshThumbnail--) | Specifies whether the presentation thumbnail will be refreshed. |
+| [setRefreshThumbnail(boolean value)](#setRefreshThumbnail-boolean-) | Specifies whether the presentation thumbnail will be refreshed. |
 ### PptxOptions() {#PptxOptions--}
 ```
 public PptxOptions()
@@ -111,4 +113,69 @@ Specifies whether the ZIP64 format is used for the Presentation document. The de
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getRefreshThumbnail() {#getRefreshThumbnail--}
+```
+public final boolean getRefreshThumbnail()
+```
+
+
+Specifies whether the presentation thumbnail will be refreshed. Read/write boolean. Default value is **true**.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      PptxOptions pptxOptions = new PptxOptions();
+>      pptxOptions.setRefreshThumbnail(false);
+>      pres.save("result_with_old_thumbnail.pptx", SaveFormat.Pptx, pptxOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+When the option value is **true**, the new thumbnail will be generated.
+
+When the option value is **false**, the current thumbnail will be saved as is.
+
+**Returns:**
+boolean
+### setRefreshThumbnail(boolean value) {#setRefreshThumbnail-boolean-}
+```
+public final void setRefreshThumbnail(boolean value)
+```
+
+
+Specifies whether the presentation thumbnail will be refreshed. Read/write boolean. Default value is **true**.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      PptxOptions pptxOptions = new PptxOptions();
+>      pptxOptions.setRefreshThumbnail(false);
+>      pres.save("result_with_old_thumbnail.pptx", SaveFormat.Pptx, pptxOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+When the option value is **true**, the new thumbnail will be generated.
+
+When the option value is **false**, the current thumbnail will be saved as is.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

@@ -249,6 +249,7 @@ url: /com.aspose.slides/
 | [HSL](../com.aspose.slides/hsl) | Represents a Hue/Saturation/Luminance effect. |
 | [HandoutLayoutingOptions](../com.aspose.slides/handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
 | [HandoutType](../com.aspose.slides/handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
+| [HeadingPair](../com.aspose.slides/headingpair) | Represents a 'Heading pair' property of the document. |
 | [Html5Options](../com.aspose.slides/html5options) | Represents a HTML5 exporting options. |
 | [HtmlExternalResolver](../com.aspose.slides/htmlexternalresolver) | Callback object used by HTML import routine to obtain referrenced objects such as images. |
 | [HtmlFormatter](../com.aspose.slides/htmlformatter) | Represents HTML file template. |
@@ -853,6 +854,7 @@ url: /com.aspose.slides/
 | [IGroupShapeLock](../com.aspose.slides/igroupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [IHSL](../com.aspose.slides/ihsl) | Represents a Hue/Saturation/Luminance effect. |
 | [IHSLEffectiveData](../com.aspose.slides/ihsleffectivedata) | Represents a Hue/Saturation/Luminance effect. |
+| [IHeadingPair](../com.aspose.slides/iheadingpair) | Represents a 'Heading pair' property of the document. |
 | [IHtml5Options](../com.aspose.slides/ihtml5options) | Represents a HTML5 exporting options. |
 | [IHtmlExternalResolver](../com.aspose.slides/ihtmlexternalresolver) | Callback interface used by HTML import routine to obtain referrenced objects such as images. |
 | [IHtmlFormatter](../com.aspose.slides/ihtmlformatter) | Represents HTML file template. |
