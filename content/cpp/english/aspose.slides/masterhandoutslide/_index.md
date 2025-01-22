@@ -3,7 +3,7 @@ title: MasterHandoutSlide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents master slide for handouts.
 type: docs
-weight: 4304
+weight: 4330
 url: /aspose.slides/masterhandoutslide/
 ---
 ## MasterHandoutSlide class

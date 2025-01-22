@@ -3,7 +3,7 @@ title: IViewProperties
 second_title: Aspose.Slides for C++ API Reference
 description: Presentation wide view properties.
 type: docs
-weight: 4135
+weight: 4161
 url: /aspose.slides/iviewproperties/
 ---
 ## IViewProperties class

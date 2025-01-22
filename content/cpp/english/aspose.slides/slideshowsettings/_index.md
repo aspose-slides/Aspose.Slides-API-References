@@ -3,7 +3,7 @@ title: SlideShowSettings
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the slide show settings for the presentation.
 type: docs
-weight: 5084
+weight: 5110
 url: /aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings class

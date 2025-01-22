@@ -3,7 +3,7 @@ title: ITableFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents format of a table.
 type: docs
-weight: 3927
+weight: 3953
 url: /aspose.slides/itableformat/
 ---
 ## ITableFormat class

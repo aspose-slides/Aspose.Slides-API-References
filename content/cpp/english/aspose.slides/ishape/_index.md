@@ -3,7 +3,7 @@ title: IShape
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a shape on a slide.
 type: docs
-weight: 3537
+weight: 3563
 url: /aspose.slides/ishape/
 ---
 ## IShape class

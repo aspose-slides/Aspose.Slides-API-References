@@ -3,7 +3,7 @@ title: GradientDirection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the gradient style.
 type: docs
-weight: 5734
+weight: 5760
 url: /aspose.slides/gradientdirection/
 ---
 ## GradientDirection enum

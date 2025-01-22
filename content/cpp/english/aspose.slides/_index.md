@@ -105,6 +105,7 @@ url: /aspose.slides/
 | [GraphicalObjectLock](./graphicalobjectlock/) | Determines which operations are disabled on the parent [GraphicalObject](./graphicalobject/). |
 | [GroupShape](./groupshape/) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](./groupshapelock/) | Determines which operations are disabled on the parent [GroupShape](./groupshape/). |
+| [HeadingPair](./headingpair/) | Represents a 'Heading pair' property of the document. It indicates the group name of document parts and the number of parts in group. |
 | [Hyperlink](./hyperlink/) | Represents a hyperlink. |
 | [HyperlinkManager](./hyperlinkmanager/) | Provide hyperlinks management (adding, removing). |
 | [HyperlinkQueries](./hyperlinkqueries/) | Provide easy access to contained hyperlinks. |
@@ -201,6 +202,7 @@ url: /aspose.slides/
 | [IGraphicalObjectLock](./igraphicalobjectlock/) | Determines which operations are disabled on the parent GraphicalObjectEx. |
 | [IGroupShape](./igroupshape/) | Represents a group of shapes on a slide. |
 | [IGroupShapeLock](./igroupshapelock/) | Determines which operations are disabled on the parent [GroupShape](./groupshape/). |
+| [IHeadingPair](./iheadingpair/) | Represents a 'Heading pair' property of the document. It indicates the group name of document parts and the number of parts in group. |
 | [IHyperlink](./ihyperlink/) | Represents a hyperlink. |
 | [IHyperlinkContainer](./ihyperlinkcontainer/) | Represents hyperlink object. |
 | [IHyperlinkManager](./ihyperlinkmanager/) | Provide hyperlinks management (adding, removing). |

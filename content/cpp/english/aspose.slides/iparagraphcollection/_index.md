@@ -3,7 +3,7 @@ title: IParagraphCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of a paragraphs.
 type: docs
-weight: 3043
+weight: 3069
 url: /aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection class

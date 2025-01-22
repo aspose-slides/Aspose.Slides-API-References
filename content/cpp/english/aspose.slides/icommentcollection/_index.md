@@ -3,7 +3,7 @@ title: ICommentCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of comments of one author.
 type: docs
-weight: 1756
+weight: 1769
 url: /aspose.slides/icommentcollection/
 ---
 ## ICommentCollection class

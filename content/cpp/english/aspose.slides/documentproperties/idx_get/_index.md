@@ -3,7 +3,7 @@ title: idx_get()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns the custom property associated with a specified name. Read System::Object."
 type: docs
-weight: 612
+weight: 794
 url: /aspose.slides/documentproperties/idx_get/
 ---
 ## DocumentProperties::idx_get(System::String) method

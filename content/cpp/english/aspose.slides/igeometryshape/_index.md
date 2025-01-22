@@ -3,7 +3,7 @@ title: IGeometryShape
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the parent class for all geometric shapes.
 type: docs
-weight: 2289
+weight: 2302
 url: /aspose.slides/igeometryshape/
 ---
 ## IGeometryShape class

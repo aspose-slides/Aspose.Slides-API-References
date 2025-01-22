@@ -3,7 +3,7 @@ title: SetCustomPropertyValue()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets a named boolean custom property.
 type: docs
-weight: 651
+weight: 833
 url: /aspose.slides/documentproperties/setcustompropertyvalue/
 ---
 ## DocumentProperties::SetCustomPropertyValue(System::String, bool) method

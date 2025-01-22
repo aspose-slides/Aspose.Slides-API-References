@@ -3,7 +3,7 @@ title: ITextFrameFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Contains the TextFrame's formatting properties.
 type: docs
-weight: 3979
+weight: 4005
 url: /aspose.slides/itextframeformat/
 ---
 ## ITextFrameFormat class

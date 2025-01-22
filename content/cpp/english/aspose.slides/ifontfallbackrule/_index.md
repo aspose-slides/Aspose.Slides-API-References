@@ -3,7 +3,7 @@ title: IFontFallBackRule
 second_title: Aspose.Slides for C++ API Reference
 description: Represents font fallback rule
 type: docs
-weight: 2120
+weight: 2133
 url: /aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule class

@@ -1,7 +1,7 @@
 ---
 title: WriteAsSvg()
 second_title: Aspose.Slides for C++ API Reference
-description: Saves content of slide as SVG file.
+description: Saves the slide content as an SVG file.
 type: docs
 weight: 183
 url: /aspose.slides/slide/writeassvg/
@@ -9,7 +9,7 @@ url: /aspose.slides/slide/writeassvg/
 ## Slide::WriteAsSvg(System::SharedPtr\<System::IO::Stream\>) method
 
 
-Saves content of slide as SVG file.
+Saves the slide content as an SVG file.
 
 ```cpp
 void Aspose::Slides::Slide::WriteAsSvg(System::SharedPtr<System::IO::Stream> stream) override
@@ -25,26 +25,20 @@ void Aspose::Slides::Slide::WriteAsSvg(System::SharedPtr<System::IO::Stream> str
 
 
 
-The following example shows how to convert PowerPoint to PDF with custom options. 
+The following code example demonstrates how to convert the first slide from a PowerPoint presentation into an SVG file. 
 ```cpp
-// Presentation object can load PowerPoint formats like PPT, PPTX, ODP etc.
-auto pres = System::MakeObject<Presentation>(u"pres.pptx");
-auto slides = pres->get_Slides();
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
 
-for (int32_t index = 0; index < slides->get_Count(); index++)
-{
-    auto slide = slides->idx_get(index);
-    auto fileStream = System::MakeObject<System::IO::FileStream>(System::String::Format(u"slide-{0}.svg", index),
-                                                                 System::IO::FileMode::Create,
-                                                                 System::IO::FileAccess::Write);
-    slide->WriteAsSvg(fileStream);
-}
+System::SharedPtr<System::IO::Stream> fileStream = System::IO::File::Create(u"slide_1.svg");
+
+// Saves the first slide as an SVG file
+pres->get_Slide(0)->WriteAsSvg(fileStream);
 ```
 
 ## Slide::WriteAsSvg(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Export::ISVGOptions\>) method
 
 
-Saves content of slide as SVG file.
+Saves the slide content as an SVG file.
 
 ```cpp
 void Aspose::Slides::Slide::WriteAsSvg(System::SharedPtr<System::IO::Stream> stream, System::SharedPtr<Export::ISVGOptions> svgOptions) override
@@ -61,29 +55,17 @@ void Aspose::Slides::Slide::WriteAsSvg(System::SharedPtr<System::IO::Stream> str
 
 
 
-The following example code shows how to generate SVG image with Custom [Shape](../../shape/) IDS from PowerPoint [Presentation](../../presentation/). 
+The following code example demonstrates how to convert the first slide from a PowerPoint presentation into an SVG file with options. 
 ```cpp
-// Instantiate a Presentation class that represents the presentation file
-auto pres = System::MakeObject<Presentation>(u"CreateSlidesSVGImage.pptx");
+System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
 
-// Access the first slide
-auto slide = pres->get_Slides()->idx_get(0);
-// Create a memory stream object
-auto svgStream = System::MakeObject<System::IO::MemoryStream>();
-// Generate SVG image of slide and save in memory stream
-slide->WriteAsSvg(svgStream);
-svgStream->set_Position(0);
-// Save memory stream to file
-auto fileStream = System::IO::File::OpenWrite(u"Aspose_out.svg");
+System::SharedPtr<System::IO::Stream> fileStream = System::IO::File::Create(u"slide_1.svg");
 
-System::ArrayPtr<uint8_t> buffer = System::MakeArray<uint8_t>(8 * 1024, 0);
-int32_t len;
-while ((len = svgStream->Read(buffer, 0, buffer->get_Length())) > 0)
-{
-    fileStream->Write(buffer, 0, len);
-}
+auto options = System::MakeObject<SVGOptions>();
+options->set_VectorizeText(true);
 
-svgStream->Close();
+// Saves the first slide as an SVG file
+pres->get_Slide(0)->WriteAsSvg(fileStream, options);
 ```
 
 ## See Also

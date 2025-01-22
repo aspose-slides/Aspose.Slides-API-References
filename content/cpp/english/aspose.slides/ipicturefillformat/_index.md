@@ -3,7 +3,7 @@ title: IPictureFillFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a picture fill style.
 type: docs
-weight: 3147
+weight: 3173
 url: /aspose.slides/ipicturefillformat/
 ---
 ## IPictureFillFormat class
@@ -19,6 +19,7 @@ class IPictureFillFormat : public Aspose::Slides::IFillParamSource
 
 | Method | Description |
 | --- | --- |
+| virtual **bool** [CompressImage](./compressimage/)(**bool**, [Export::PicturesCompression](../../aspose.slides.export/picturescompression/)) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
 | virtual **bool** [CompressImage](./compressimage/)(**bool**, **float**) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [DeletePictureCroppedAreas](./deletepicturecroppedareas/)() | Delete cropped areas of the fill [Picture](../picture/). |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |

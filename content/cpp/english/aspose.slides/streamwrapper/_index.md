@@ -3,7 +3,7 @@ title: StreamWrapper
 second_title: Aspose.Slides for C++ API Reference
 description: Aspose.IO.Stream wrapper for COM interface.
 type: docs
-weight: 5149
+weight: 5175
 url: /aspose.slides/streamwrapper/
 ---
 ## StreamWrapper class

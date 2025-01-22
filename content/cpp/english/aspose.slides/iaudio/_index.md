@@ -3,7 +3,7 @@ title: IAudio
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an embedded audio file.
 type: docs
-weight: 1288
+weight: 1301
 url: /aspose.slides/iaudio/
 ---
 ## IAudio class

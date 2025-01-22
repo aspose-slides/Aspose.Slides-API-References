@@ -3,7 +3,7 @@ title: PresentationText
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the text extracted from the presentation
 type: docs
-weight: 4785
+weight: 4811
 url: /aspose.slides/presentationtext/
 ---
 ## PresentationText class

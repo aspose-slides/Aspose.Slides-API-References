@@ -3,7 +3,7 @@ title: SlidesRange
 second_title: Aspose.Slides for C++ API Reference
 description: Slides range
 type: docs
-weight: 5123
+weight: 5149
 url: /aspose.slides/slidesrange/
 ---
 ## SlidesRange class

@@ -3,7 +3,7 @@ title: RectangleAlignment
 second_title: Aspose.Slides for C++ API Reference
 description: Defines 2-dimension allignment.
 type: docs
-weight: 6137
+weight: 6163
 url: /aspose.slides/rectanglealignment/
 ---
 ## RectangleAlignment enum

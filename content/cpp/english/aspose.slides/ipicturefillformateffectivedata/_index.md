@@ -3,7 +3,7 @@ title: IPictureFillFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains the properties of picture fill.
 type: docs
-weight: 3160
+weight: 3186
 url: /aspose.slides/ipicturefillformateffectivedata/
 ---
 ## IPictureFillFormatEffectiveData class

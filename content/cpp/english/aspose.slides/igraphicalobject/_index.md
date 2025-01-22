@@ -3,7 +3,7 @@ title: IGraphicalObject
 second_title: Aspose.Slides for C++ API Reference
 description: Represents abstract graphical object.
 type: docs
-weight: 2393
+weight: 2406
 url: /aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject class

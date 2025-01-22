@@ -3,7 +3,7 @@ title: IProgressCallback
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a callback object for saving progress updates in percentage.
 type: docs
-weight: 3368
+weight: 3394
 url: /aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback class

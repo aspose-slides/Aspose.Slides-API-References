@@ -3,7 +3,7 @@ title: IGroupShape
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a group of shapes on a slide.
 type: docs
-weight: 2419
+weight: 2432
 url: /aspose.slides/igroupshape/
 ---
 ## IGroupShape class

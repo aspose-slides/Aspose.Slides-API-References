@@ -3,7 +3,7 @@ title: IHyperlinkContainer
 second_title: Aspose.Slides for C++ API Reference
 description: Represents hyperlink object.
 type: docs
-weight: 2458
+weight: 2484
 url: /aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer class

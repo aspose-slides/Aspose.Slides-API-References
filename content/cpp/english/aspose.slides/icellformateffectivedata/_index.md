@@ -3,7 +3,7 @@ title: ICellFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective table cell formatting properties.
 type: docs
-weight: 1613
+weight: 1626
 url: /aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData class

@@ -3,7 +3,7 @@ title: ColorTransformOperation
 second_title: Aspose.Slides for C++ API Reference
 description: Defines color transform operation.
 type: docs
-weight: 5617
+weight: 5643
 url: /aspose.slides/colortransformoperation/
 ---
 ## ColorTransformOperation enum

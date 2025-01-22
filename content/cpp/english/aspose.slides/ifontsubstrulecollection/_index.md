@@ -3,7 +3,7 @@ title: IFontSubstRuleCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents collection of fonts substitution.
 type: docs
-weight: 2224
+weight: 2237
 url: /aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection class

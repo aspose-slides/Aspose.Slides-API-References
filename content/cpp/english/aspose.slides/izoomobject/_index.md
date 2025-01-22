@@ -3,7 +3,7 @@ title: IZoomObject
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Zoom object in a slide.
 type: docs
-weight: 4161
+weight: 4187
 url: /aspose.slides/izoomobject/
 ---
 ## IZoomObject class

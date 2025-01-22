@@ -3,7 +3,7 @@ title: IOleEmbeddedDataInfo
 second_title: Aspose.Slides for C++ API Reference
 description: Represents embedded data info for OLE object.
 type: docs
-weight: 3004
+weight: 3030
 url: /aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo class
