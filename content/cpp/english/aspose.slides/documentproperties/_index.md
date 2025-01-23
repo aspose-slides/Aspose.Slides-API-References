@@ -63,7 +63,7 @@ class DocumentProperties : public Aspose::Slides::IDocumentProperties,
 | **int32_t** [get_Slides](./get_slides/)() override | Returns the total number of slides in a presentation document. Read-only **int32_t**. |
 | [System::String](../../system/string/) [get_Subject](./get_subject/)() override | Returns the subject of a presentation. Read [System::String](../../system/string/). |
 | [System::String](../../system/string/) [get_Title](./get_title/)() override | Returns the title of a presentation. Read [System::String](../../system/string/). |
-| [System::ArrayPtr](../../system/arrayptr/)\<[System::String](../../system/string/)\> [get_TitlesOfParts](./get_titlesofparts/)() override | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only **int32_t**. |
+| [System::ArrayPtr](../../system/arrayptr/)\<[System::String](../../system/string/)\> [get_TitlesOfParts](./get_titlesofparts/)() override | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only [System::ArrayPtr<System::String>](../../system/arrayptr/). |
 | [System::TimeSpan](../../system/timespan/) [get_TotalEditingTime](./get_totaleditingtime/)() override | Total editing time of a presentation. Read [System::TimeSpan](../../system/timespan/). |
 | **int32_t** [get_Words](./get_words/)() override | Returns the total number of words contained in a document. Read-only **int32_t**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |

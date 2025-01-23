@@ -59,7 +59,7 @@ class IDocumentProperties : public virtual System::Object
 | virtual **int32_t** [get_Slides](./get_slides/)() | Specifies the total number of slides in a presentation document. Read-only **int32_t**. |
 | virtual [System::String](../../system/string/) [get_Subject](./get_subject/)() | Returns the subject of a presentation. Read [System::String](../../system/string/). |
 | virtual [System::String](../../system/string/) [get_Title](./get_title/)() | Returns the title of a presentation. Read [System::String](../../system/string/). |
-| virtual [System::ArrayPtr](../../system/arrayptr/)\<[System::String](../../system/string/)\> [get_TitlesOfParts](./get_titlesofparts/)() | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only **int32_t**. |
+| virtual [System::ArrayPtr](../../system/arrayptr/)\<[System::String](../../system/string/)\> [get_TitlesOfParts](./get_titlesofparts/)() | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only [System::ArrayPtr<System::String>](../../system/arrayptr/). |
 | virtual [System::TimeSpan](../../system/timespan/) [get_TotalEditingTime](./get_totaleditingtime/)() | Total editing time of a presentation. Read [System::TimeSpan](../../system/timespan/). |
 | virtual **int32_t** [get_Words](./get_words/)() | Specifies the total number of words contained in a document. Read-only **int32_t**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
