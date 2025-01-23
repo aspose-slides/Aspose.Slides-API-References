@@ -3,7 +3,7 @@ title: IFormatFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create formats via COM interface.
 type: docs
-weight: 2237
+weight: 2250
 url: /aspose.slides/iformatfactory/
 ---
 ## IFormatFactory class

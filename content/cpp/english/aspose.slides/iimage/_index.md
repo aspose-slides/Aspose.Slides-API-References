@@ -3,7 +3,7 @@ title: IImage
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the raster or vector image.
 type: docs
-weight: 2497
+weight: 2523
 url: /aspose.slides/iimage/
 ---
 ## IImage class

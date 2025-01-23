@@ -3,7 +3,7 @@ title: IColorFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a color used in a presentation.
 type: docs
-weight: 1626
+weight: 1639
 url: /aspose.slides/icolorformat/
 ---
 ## IColorFormat class

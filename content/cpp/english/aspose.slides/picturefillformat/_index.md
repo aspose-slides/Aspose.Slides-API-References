@@ -3,7 +3,7 @@ title: PictureFillFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a picture fill style.
 type: docs
-weight: 4616
+weight: 4642
 url: /aspose.slides/picturefillformat/
 ---
 ## PictureFillFormat class
@@ -20,6 +20,7 @@ class PictureFillFormat : public Aspose::Slides::PVIObject,
 
 | Method | Description |
 | --- | --- |
+| **bool** [CompressImage](./compressimage/)(**bool**, [Export::PicturesCompression](../../aspose.slides.export/picturescompression/)) override | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
 | **bool** [CompressImage](./compressimage/)(**bool**, **float**) override | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IPPImage](../ippimage/)\> [DeletePictureCroppedAreas](./deletepicturecroppedareas/)() override | Delete cropped areas of the fill [Picture](../picture/). |
 | **bool** [Equals](../pviobject/equals/)([System::SharedPtr](../../system/sharedptr/)\<[System::Object](../../system/object/)\>) override | Compares with specified object. |

@@ -3,7 +3,7 @@ title: VideoFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a video clip on a slide.
 type: docs
-weight: 5422
+weight: 5448
 url: /aspose.slides/videoframe/
 ---
 ## VideoFrame class

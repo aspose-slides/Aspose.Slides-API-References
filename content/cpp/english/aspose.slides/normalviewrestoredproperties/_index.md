@@ -3,7 +3,7 @@ title: NormalViewRestoredProperties
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized).
 type: docs
-weight: 4434
+weight: 4460
 url: /aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties class

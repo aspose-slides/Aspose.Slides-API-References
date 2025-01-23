@@ -3,7 +3,7 @@ title: IBaseShapeLock
 second_title: Aspose.Slides for C++ API Reference
 description: Represents Shape lock (disabled operation).
 type: docs
-weight: 1444
+weight: 1457
 url: /aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock class

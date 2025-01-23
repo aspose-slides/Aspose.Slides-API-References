@@ -3,7 +3,7 @@ title: ITextStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Text style formatting properties.
 type: docs
-weight: 4031
+weight: 4057
 url: /aspose.slides/itextstyle/
 ---
 ## ITextStyle class

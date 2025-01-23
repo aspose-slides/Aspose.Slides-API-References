@@ -3,7 +3,7 @@ title: IBackdrop3DScene
 second_title: Aspose.Slides for C++ API Reference
 description: Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to.
 type: docs
-weight: 1353
+weight: 1366
 url: /aspose.slides/ibackdrop3dscene/
 ---
 ## IBackdrop3DScene class

@@ -3,7 +3,7 @@ title: GetCustomPropertyValue()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets a named boolean value from the custom properties.
 type: docs
-weight: 664
+weight: 846
 url: /aspose.slides/idocumentproperties/getcustompropertyvalue/
 ---
 ## IDocumentProperties::GetCustomPropertyValue(System::String, bool\&) method

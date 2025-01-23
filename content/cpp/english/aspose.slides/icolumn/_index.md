@@ -3,7 +3,7 @@ title: IColumn
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a column in a table.
 type: docs
-weight: 1665
+weight: 1678
 url: /aspose.slides/icolumn/
 ---
 ## IColumn class

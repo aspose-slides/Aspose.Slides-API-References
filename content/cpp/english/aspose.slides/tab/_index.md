@@ -3,7 +3,7 @@ title: Tab
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a tabulation for a text.
 type: docs
-weight: 5240
+weight: 5266
 url: /aspose.slides/tab/
 ---
 ## Tab class

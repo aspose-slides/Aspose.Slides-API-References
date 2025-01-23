@@ -3,7 +3,7 @@ title: PptxOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates new instance of PptxOptions
 type: docs
-weight: 53
+weight: 79
 url: /aspose.slides.export/pptxoptions/pptxoptions/
 ---
 ## PptxOptions::PptxOptions() constructor

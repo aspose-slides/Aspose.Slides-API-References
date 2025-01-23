@@ -3,7 +3,7 @@ title: IConnector
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a connector.
 type: docs
-weight: 1782
+weight: 1795
 url: /aspose.slides/iconnector/
 ---
 ## IConnector class

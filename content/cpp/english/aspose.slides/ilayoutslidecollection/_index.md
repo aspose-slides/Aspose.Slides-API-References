@@ -3,7 +3,7 @@ title: ILayoutSlideCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a base class for collection of a layout slides.
 type: docs
-weight: 2575
+weight: 2601
 url: /aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection class

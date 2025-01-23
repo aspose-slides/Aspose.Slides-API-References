@@ -3,7 +3,7 @@ title: ICell
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a cell in a table.
 type: docs
-weight: 1574
+weight: 1587
 url: /aspose.slides/icell/
 ---
 ## ICell class

@@ -3,7 +3,7 @@ title: Orientation
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the orientation of a shape.
 type: docs
-weight: 5994
+weight: 6020
 url: /aspose.slides/orientation/
 ---
 ## Orientation enum

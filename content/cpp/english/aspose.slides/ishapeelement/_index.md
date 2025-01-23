@@ -3,7 +3,7 @@ title: IShapeElement
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a part of shape with same outline and fill properties.
 type: docs
-weight: 3589
+weight: 3615
 url: /aspose.slides/ishapeelement/
 ---
 ## IShapeElement class

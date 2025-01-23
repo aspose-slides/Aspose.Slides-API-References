@@ -3,7 +3,7 @@ title: ModernComment
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a comment on a slide.
 type: docs
-weight: 4408
+weight: 4434
 url: /aspose.slides/moderncomment/
 ---
 ## ModernComment class

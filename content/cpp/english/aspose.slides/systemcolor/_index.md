@@ -3,7 +3,7 @@ title: SystemColor
 second_title: Aspose.Slides for C++ API Reference
 description: Represents predefined system colors.
 type: docs
-weight: 6306
+weight: 6332
 url: /aspose.slides/systemcolor/
 ---
 ## SystemColor enum

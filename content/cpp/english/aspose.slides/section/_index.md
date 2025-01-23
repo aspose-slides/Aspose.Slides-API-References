@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Slides for C++ API Reference
 description: Represents section of slides.
 type: docs
-weight: 4902
+weight: 4928
 url: /aspose.slides/section/
 ---
 ## Section class

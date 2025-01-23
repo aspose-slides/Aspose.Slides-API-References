@@ -3,7 +3,7 @@ title: CloneT()
 second_title: Aspose.Slides for C++ API Reference
 description: Clones current object
 type: docs
-weight: 716
+weight: 898
 url: /aspose.slides/documentproperties/clonet/
 ---
 ## DocumentProperties::CloneT() method

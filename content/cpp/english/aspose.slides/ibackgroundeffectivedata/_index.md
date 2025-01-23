@@ -3,7 +3,7 @@ title: IBackgroundEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective background properties.
 type: docs
-weight: 1379
+weight: 1392
 url: /aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData class

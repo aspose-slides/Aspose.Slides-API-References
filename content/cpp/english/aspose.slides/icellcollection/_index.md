@@ -3,7 +3,7 @@ title: ICellCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of cells.
 type: docs
-weight: 1587
+weight: 1600
 url: /aspose.slides/icellcollection/
 ---
 ## ICellCollection class

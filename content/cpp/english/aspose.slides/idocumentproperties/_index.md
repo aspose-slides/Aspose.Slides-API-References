@@ -3,7 +3,7 @@ title: IDocumentProperties
 second_title: Aspose.Slides for C++ API Reference
 description: Represents properties of a presentation.
 type: docs
-weight: 1912
+weight: 1925
 url: /aspose.slides/idocumentproperties/
 ---
 ## IDocumentProperties class
@@ -38,19 +38,30 @@ class IDocumentProperties : public virtual System::Object
 | virtual [System::String](../../system/string/) [get_ContentType](./get_contenttype/)() | Returns the content type of a presentation. Read [System::String](../../system/string/). |
 | virtual **int32_t** [get_CountOfCustomProperties](./get_countofcustomproperties/)() | Returns the number of custom properties actually contained in a collection. Read-only **int32_t**. |
 | virtual [System::DateTime](../../system/datetime/) [get_CreatedTime](./get_createdtime/)() | Returns the date a presentation was created. Values are in UTC. Read [System::DateTime](../../system/datetime/). |
+| virtual [System::ArrayPtr](../../system/arrayptr/)\<[System::SharedPtr](../../system/sharedptr/)\<[IHeadingPair](../iheadingpair/)\>\> [get_HeadingPairs](./get_headingpairs/)() | Indicates the grouping of document parts and the number of parts in each group. Read-only [T:IHeadingPair[]](../). |
+| virtual **int32_t** [get_HiddenSlides](./get_hiddenslides/)() | Specifies the number of hidden slides in a presentation document. Read-only **int32_t**. |
 | virtual [System::String](../../system/string/) [get_HyperlinkBase](./get_hyperlinkbase/)() | Returns the HyperlinkBase document property. Read [System::String](../../system/string/). |
+| virtual **bool** [get_HyperlinksChanged](./get_hyperlinkschanged/)() | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read **bool**. |
 | virtual [System::String](../../system/string/) [get_Keywords](./get_keywords/)() | Returns the keywords of a presentation. Read [System::String](../../system/string/). |
 | virtual [System::DateTime](../../system/datetime/) [get_LastPrinted](./get_lastprinted/)() | Returns the date when a presentation was printed last time. Read [System::DateTime](../../system/datetime/). |
 | virtual [System::String](../../system/string/) [get_LastSavedBy](./get_lastsavedby/)() | Returns the name of a last person who modified a presentation. Read [System::String](../../system/string/). |
 | virtual [System::DateTime](../../system/datetime/) [get_LastSavedTime](./get_lastsavedtime/)() | Returns the date a presentation was last modified. Values are in UTC.P Read-only in case of Presentation.DocumentProperties (because it will be updated internally while [IPresentation](../ipresentation/) object saving process). Can be changed via [DocumentProperties](../documentproperties/) instance returning by method [IPresentationInfo::ReadDocumentProperties](../ipresentationinfo/readdocumentproperties/) Please see the example in [IPresentationInfo::UpdateDocumentProperties](../ipresentationinfo/updatedocumentproperties/) method summary. |
+| virtual **bool** [get_LinksUpToDate](./get_linksuptodate/)() | Indicates whether hyperlinks in a document are up-to-date. Set this element to **true** to indicate that hyperlinks are updated. Set this element to **false** to indicate that hyperlinks are outdated. Read **bool**. |
 | virtual [System::String](../../system/string/) [get_Manager](./get_manager/)() | Returns the manager property. Read [System::String](../../system/string/). |
+| virtual **int32_t** [get_MultimediaClips](./get_multimediaclips/)() | Specifies the total number of sound or video clips that are present in the document. Read-only **int32_t**. |
 | virtual [System::String](../../system/string/) [get_NameOfApplication](./get_nameofapplication/)() | Returns the name of the application. Read [System::String](../../system/string/). |
+| virtual **int32_t** [get_Notes](./get_notes/)() | Specifies the number of slides in a presentation containing notes. Read-only **int32_t**. |
+| virtual **int32_t** [get_Paragraphs](./get_paragraphs/)() | Specifies the total number of paragraphs found in a document if applicable. Read-only **int32_t**. |
 | virtual [System::String](../../system/string/) [get_PresentationFormat](./get_presentationformat/)() | Returns the intended format of a presentation. Read [System::String](../../system/string/). |
 | virtual **int32_t** [get_RevisionNumber](./get_revisionnumber/)() | Returns the presentation revision number. Read **int32_t**. |
+| virtual **bool** [get_ScaleCrop](./get_scalecrop/)() | Indicates the display mode of the document thumbnail. Set this element to **true** to enable scaling of the document thumbnail to the display. Set this element to **false** to enable cropping of the document thumbnail to show only sections that fits the display. Read **bool**. |
 | virtual **bool** [get_SharedDoc](./get_shareddoc/)() | Determines whether the presentation is shared between multiple people. Read **bool**. |
+| virtual **int32_t** [get_Slides](./get_slides/)() | Specifies the total number of slides in a presentation document. Read-only **int32_t**. |
 | virtual [System::String](../../system/string/) [get_Subject](./get_subject/)() | Returns the subject of a presentation. Read [System::String](../../system/string/). |
 | virtual [System::String](../../system/string/) [get_Title](./get_title/)() | Returns the title of a presentation. Read [System::String](../../system/string/). |
+| virtual [System::ArrayPtr](../../system/arrayptr/)\<[System::String](../../system/string/)\> [get_TitlesOfParts](./get_titlesofparts/)() | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only [System::ArrayPtr<System::String>](../../system/arrayptr/). |
 | virtual [System::TimeSpan](../../system/timespan/) [get_TotalEditingTime](./get_totaleditingtime/)() | Total editing time of a presentation. Read [System::TimeSpan](../../system/timespan/). |
+| virtual **int32_t** [get_Words](./get_words/)() | Specifies the total number of words contained in a document. Read-only **int32_t**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual [System::String](../../system/string/) [GetCustomPropertyName](./getcustompropertyname/)(**int32_t**) | Return a custom property name at the specified index. |
 | virtual void [GetCustomPropertyValue](./getcustompropertyvalue/)([System::String](../../system/string/), **bool**\&) | Gets a named boolean value from the custom properties. |
@@ -85,14 +96,17 @@ class IDocumentProperties : public virtual System::Object
 | virtual void [set_ContentType](./set_contenttype/)([System::String](../../system/string/)) | Sets the content type of a presentation. Write [System::String](../../system/string/). |
 | virtual void [set_CreatedTime](./set_createdtime/)([System::DateTime](../../system/datetime/)) | Returns the date a presentation was created. Values are in UTC. Write [System::DateTime](../../system/datetime/). |
 | virtual void [set_HyperlinkBase](./set_hyperlinkbase/)([System::String](../../system/string/)) | Sets the HyperlinkBase document property. Write [System::String](../../system/string/). |
+| virtual void [set_HyperlinksChanged](./set_hyperlinkschanged/)(**bool**) | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Write **bool**. |
 | virtual void [set_Keywords](./set_keywords/)([System::String](../../system/string/)) | Sets the keywords of a presentation. Write [System::String](../../system/string/). |
 | virtual void [set_LastPrinted](./set_lastprinted/)([System::DateTime](../../system/datetime/)) | Returns the date when a presentation was printed last time. Write [System::DateTime](../../system/datetime/). |
 | virtual void [set_LastSavedBy](./set_lastsavedby/)([System::String](../../system/string/)) | Sets the name of a last person who modified a presentation. Write [System::String](../../system/string/). |
 | virtual void [set_LastSavedTime](./set_lastsavedtime/)([System::DateTime](../../system/datetime/)) | Returns the date a presentation was last modified. Values are in UTC.P Read-only in case of Presentation.DocumentProperties (because it will be updated internally while [IPresentation](../ipresentation/) object saving process). Can be changed via [DocumentProperties](../documentproperties/) instance returning by method [IPresentationInfo::ReadDocumentProperties](../ipresentationinfo/readdocumentproperties/) Please see the example in [IPresentationInfo::UpdateDocumentProperties](../ipresentationinfo/updatedocumentproperties/) method summary. |
+| virtual void [set_LinksUpToDate](./set_linksuptodate/)(**bool**) | Indicates whether hyperlinks in a document are up-to-date. Set this element to **true** to indicate that hyperlinks are updated. Set this element to **false** to indicate that hyperlinks are outdated. Write **bool**. |
 | virtual void [set_Manager](./set_manager/)([System::String](../../system/string/)) | Sets the manager property. Write [System::String](../../system/string/). |
 | virtual void [set_NameOfApplication](./set_nameofapplication/)([System::String](../../system/string/)) | Sets the name of the application. Write [System::String](../../system/string/). |
 | virtual void [set_PresentationFormat](./set_presentationformat/)([System::String](../../system/string/)) | Sets the intended format of a presentation. Write [System::String](../../system/string/). |
 | virtual void [set_RevisionNumber](./set_revisionnumber/)(**int32_t**) | Sets the presentation revision number. Write **int32_t**. |
+| virtual void [set_ScaleCrop](./set_scalecrop/)(**bool**) | Indicates the display mode of the document thumbnail. Set this element to **true** to enable scaling of the document thumbnail to the display. Set this element to **false** to enable cropping of the document thumbnail to show only sections that fits the display. Write **bool**. |
 | virtual void [set_SharedDoc](./set_shareddoc/)(**bool**) | Determines whether the presentation is shared between multiple people. Write **bool**. |
 | virtual void [set_Subject](./set_subject/)([System::String](../../system/string/)) | Sets the subject of a presentation. Write [System::String](../../system/string/). |
 | virtual void [set_Title](./set_title/)([System::String](../../system/string/)) | Sets the title of a presentation. Write [System::String](../../system/string/). |

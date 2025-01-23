@@ -3,7 +3,7 @@ title: IAutoShape
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an AutoShape.
 type: docs
-weight: 1327
+weight: 1340
 url: /aspose.slides/iautoshape/
 ---
 ## IAutoShape class

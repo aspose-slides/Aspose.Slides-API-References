@@ -3,7 +3,7 @@ title: IAdjustValueCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Reprasents a collection of shape's adjustments.
 type: docs
-weight: 1262
+weight: 1275
 url: /aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection class

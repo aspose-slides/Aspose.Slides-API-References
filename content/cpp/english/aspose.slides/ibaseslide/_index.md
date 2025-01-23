@@ -3,7 +3,7 @@ title: IBaseSlide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents common data for all slide types.
 type: docs
-weight: 1457
+weight: 1470
 url: /aspose.slides/ibaseslide/
 ---
 ## IBaseSlide class

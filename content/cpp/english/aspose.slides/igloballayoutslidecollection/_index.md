@@ -3,7 +3,7 @@ title: IGlobalLayoutSlideCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of all layout slides in presentation. Extends ILayoutSlideCollection interface with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides.
 type: docs
-weight: 2302
+weight: 2315
 url: /aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection class

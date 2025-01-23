@@ -3,7 +3,7 @@ title: LayoutPlaceholderManager
 second_title: Aspose.Slides for C++ API Reference
 description: Represents manager that allows you to add placeholders to the layout slide.
 type: docs
-weight: 4174
+weight: 4200
 url: /aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager class

@@ -3,7 +3,7 @@ title: LineStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the style of a line.
 type: docs
-weight: 5929
+weight: 5955
 url: /aspose.slides/linestyle/
 ---
 ## LineStyle enum

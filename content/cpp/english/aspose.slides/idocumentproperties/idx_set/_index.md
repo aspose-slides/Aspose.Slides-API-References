@@ -3,7 +3,7 @@ title: idx_set()
 second_title: Aspose.Slides for C++ API Reference
 description: "Sets the custom property associated with a specified name. Write System::Object."
 type: docs
-weight: 625
+weight: 807
 url: /aspose.slides/idocumentproperties/idx_set/
 ---
 ## IDocumentProperties::idx_set(System::String, System::SharedPtr\<System::Object\>) method

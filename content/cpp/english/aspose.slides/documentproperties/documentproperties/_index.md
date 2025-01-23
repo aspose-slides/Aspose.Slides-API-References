@@ -3,7 +3,7 @@ title: DocumentProperties()
 second_title: Aspose.Slides for C++ API Reference
 description: Initializes new instance of class DocumentProperties.
 type: docs
-weight: 690
+weight: 872
 url: /aspose.slides/documentproperties/documentproperties/
 ---
 ## DocumentProperties::DocumentProperties() constructor

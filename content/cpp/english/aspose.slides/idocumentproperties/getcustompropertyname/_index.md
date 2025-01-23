@@ -3,7 +3,7 @@ title: GetCustomPropertyName()
 second_title: Aspose.Slides for C++ API Reference
 description: Return a custom property name at the specified index.
 type: docs
-weight: 573
+weight: 755
 url: /aspose.slides/idocumentproperties/getcustompropertyname/
 ---
 ## IDocumentProperties::GetCustomPropertyName(int32_t) method
