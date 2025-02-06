@@ -21,6 +21,8 @@ public sealed class TextFrame : ITextFrame
 | --- | --- |
 | [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Returns the list of all paragraphs in a frame. Read-only [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Returns the parent cell or null if the parent object does not implement the ICell interface. Read-only [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [`IShape`](../ishape). |
 | [Presentation](../../aspose.slides/textframe/presentation) { get; } | Returns the parent presentation of a TextFrame. Read-only [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/textframe/slide) { get; } | Returns the parent slide of a TextFrame. Read-only [`IBaseSlide`](../ibaseslide). |
 | [Text](../../aspose.slides/textframe/text) { get; set; } | Gets or sets the plain text for a TextFrame. Read/write String. |

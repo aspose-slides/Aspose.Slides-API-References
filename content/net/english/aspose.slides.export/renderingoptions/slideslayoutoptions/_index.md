@@ -3,7 +3,7 @@ title: SlidesLayoutOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides.export/renderingoptions/slideslayoutoptions/
 ---
 

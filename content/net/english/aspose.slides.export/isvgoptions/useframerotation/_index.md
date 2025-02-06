@@ -3,7 +3,7 @@ title: UseFrameRotation
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether to perform the specified rotation of the shape when rendering or not. Read/write Boolean. Default value is true.
 type: docs
-weight: 120
+weight: 130
 url: /aspose.slides.export/isvgoptions/useframerotation/
 ---
 

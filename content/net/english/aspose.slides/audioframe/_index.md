@@ -32,6 +32,8 @@ public class AudioFrame : PictureFrame, IAudioFrame
 | virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Returns the EffectFormat object which contains pixel effects applied to a shape. Note: can return null for certain types of shapes which don't have effect properties. Read-only [`IEffectFormat`](../ieffectformat). |
 | [Embedded](../../aspose.slides/audioframe/embedded) { get; } | Determines whether a sound is embedded to a presentation. Read-only Boolean. |
 | [EmbeddedAudio](../../aspose.slides/audioframe/embeddedaudio) { get; set; } | Returns or sets embedded audio object. Read/write [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/audioframe/fadeinduration) { get; set; } | Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write Single. |
+| [FadeOutDuration](../../aspose.slides/audioframe/fadeoutduration) { get; set; } | Specifies the time duration for the ending fade-out of the media in milliseconds. Read/write Single. |
 | virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only [`IFillFormat`](../ifillformat). |
 | [Frame](../../aspose.slides/shape/frame) { get; set; } | Returns or sets the shape frame's properties. Read/write [`IShapeFrame`](../ishapeframe). |
 | [Height](../../aspose.slides/shape/height) { get; set; } | Returns or sets the height of the shape. Read/write Single. |
@@ -65,8 +67,11 @@ public class AudioFrame : PictureFrame, IAudioFrame
 | override [ShapeType](../../aspose.slides/pictureframe/shapetype) { get; set; } | Returns or sets the AutoShape type for a PictureFrame. There are allowable all items of the set [`ShapeType`](../shapetype), except all sorts of lines: |
 | [Slide](../../aspose.slides/shape/slide) { get; } | Returns the parent slide of a shape. Read-only [`IBaseSlide`](../ibaseslide). |
 | virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Returns the ThreeDFormat object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only [`IThreeDFormat`](../ithreedformat). |
+| [TrimFromEnd](../../aspose.slides/audioframe/trimfromend) { get; set; } | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read/write Single. |
+| [TrimFromStart](../../aspose.slides/audioframe/trimfromstart) { get; set; } | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read/write Single. |
 | [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Gets unique shape identifier in presentation scope. Read-only UInt32. See also [`OfficeInteropShapeId`](../shape/officeinteropshapeid) for getting unique shape identifier in slide scope. |
 | [Volume](../../aspose.slides/audioframe/volume) { get; set; } | Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/audioframe/volumevalue) { get; set; } | Returns or sets the audio volume in percents. Read/write Single. |
 | [Width](../../aspose.slides/shape/width) { get; set; } | Returns or sets the width of the shape. Read/write Single. |
 | [X](../../aspose.slides/shape/x) { get; set; } | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write Single. |
 | [Y](../../aspose.slides/shape/y) { get; set; } | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write Single. |

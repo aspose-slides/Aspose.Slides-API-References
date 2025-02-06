@@ -3,7 +3,7 @@ title: SlideImageFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets slide image format options. Read/write ISlideImageFormataspose.slides.export/islideimageformat.
 type: docs
-weight: 80
+weight: 90
 url: /aspose.slides.export/htmloptions/slideimageformat/
 ---
 

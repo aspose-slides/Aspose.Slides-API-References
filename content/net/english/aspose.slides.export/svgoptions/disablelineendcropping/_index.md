@@ -3,7 +3,7 @@ title: DisableLineEndCropping
 second_title: Aspose.Sildes for .NET API Reference
 description: SVG 1.1 lacks ability to define insets for markers. Aspose.Slides SVG writing engine has workaround for that problem it crops end of line with arrow so line doesnt overlap markers. This option switches off such behavior. Read/write Boolean.
 type: docs
-weight: 80
+weight: 90
 url: /aspose.slides.export/svgoptions/disablelineendcropping/
 ---
 

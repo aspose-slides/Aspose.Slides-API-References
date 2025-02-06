@@ -3,7 +3,7 @@ title: DisableGradientSplit
 second_title: Aspose.Sildes for .NET API Reference
 description: Disables splitting FromCornerX and FromCenter gradients. Read/write Boolean.
 type: docs
-weight: 70
+weight: 80
 url: /aspose.slides.export/svgoptions/disablegradientsplit/
 ---
 

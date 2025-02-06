@@ -3,7 +3,7 @@ title: PlayLoopMode
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether an audio is looped. Read/write Boolean.
 type: docs
-weight: 110
+weight: 130
 url: /aspose.slides/iaudioframe/playloopmode/
 ---
 

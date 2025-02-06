@@ -3,7 +3,7 @@ title: ShapeFormattingController
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
 type: docs
-weight: 140
+weight: 150
 url: /aspose.slides.export/svgoptions/shapeformattingcontroller/
 ---
 

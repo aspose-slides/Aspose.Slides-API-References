@@ -3,7 +3,7 @@ title: ExternalFontsHandling
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines a way of handling externally loaded fonts. Read/write SvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling.
 type: docs
-weight: 90
+weight: 100
 url: /aspose.slides.export/svgoptions/externalfontshandling/
 ---
 

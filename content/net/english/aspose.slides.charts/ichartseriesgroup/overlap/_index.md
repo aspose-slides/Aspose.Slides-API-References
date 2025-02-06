@@ -32,9 +32,8 @@ using (Presentation pres = new Presentation())
     IChartSeriesCollection series = chart.ChartData.Series;
     series[0].ParentSeriesGroup.Overlap = 55; // Set overlap to 55%
 
-    Bitmap bmp = pres.Slides[0].GetThumbnail(1, 1);
-
-    pnlCanvas.CreateGraphics().DrawImage(bmp, 0, 0); // Render chart on panel
+    var image=pres.Slides[0].GetImage(1, 1);
+    image.Save("image.png",ImageFormat.Png);
 }
 ```
 

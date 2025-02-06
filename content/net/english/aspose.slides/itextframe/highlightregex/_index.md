@@ -3,7 +3,7 @@ title: HighlightRegex
 second_title: Aspose.Sildes for .NET API Reference
 description: Highlights all matches of the regular expression with the specified color.
 type: docs
-weight: 60
+weight: 80
 url: /aspose.slides/itextframe/highlightregex/
 ---
 

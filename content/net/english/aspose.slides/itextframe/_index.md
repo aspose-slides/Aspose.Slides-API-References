@@ -22,6 +22,8 @@ public interface ITextFrame : ISlideComponent
 | [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
 | [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Returns the list of all paragraphs in a frame. Read-only [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Returns the parent cell or null if the parent object does not implement the ICell interface. Read-only [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [`IShape`](../ishape). |
 | [Text](../../aspose.slides/itextframe/text) { get; set; } | Gets or sets the plain text for a TextFrame. Read/write String. |
 | [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Returns the formatting object for this TextFrame object. Read-only [`ITextFrameFormat`](../itextframeformat). |
 

@@ -3,7 +3,7 @@ title: RewindAudio
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether audio is automatically rewinded to start after playing. Read/write Boolean.
 type: docs
-weight: 120
+weight: 140
 url: /aspose.slides/audioframe/rewindaudio/
 ---
 

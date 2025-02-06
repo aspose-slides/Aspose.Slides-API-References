@@ -26,13 +26,18 @@ public interface IAudioFrame : IPictureFrame
 | [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Returns or sets a start track time. Read/write Int32. |
 | [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Determines whether a sound is embedded to a presentation. Read-only Boolean. |
 | [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Returns or sets embedded audio object. Read/write [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Specifies the time duration for the ending fade-out of the media in milliseconds. Read/write Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Determines whether an AudioFrame is hidden. Read/write Boolean. |
 | [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Returns or sets the name of an audio file which is linked to an AudioFrame. Read/write String. |
 | [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Determines whether an audio is playing across the slides. Read/write Boolean. |
 | [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Determines whether an audio is looped. Read/write Boolean. |
 | [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Returns or sets the audio play mode. Read/write [`AudioPlayModePreset`](../audioplaymodepreset). |
 | [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Determines whether an audio is automatically rewinded to start after playing. Read/write Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read/write Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read/write Single. |
 | [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Returns or sets the audio volume in percents. Read/write Single. |
 
 ### See Also
 

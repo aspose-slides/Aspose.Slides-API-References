@@ -51,7 +51,7 @@ public interface IDocumentProperties
 | [Slides](../../aspose.slides/idocumentproperties/slides) { get; } | Specifies the total number of slides in a presentation document. Read-only Int32. |
 | [Subject](../../aspose.slides/idocumentproperties/subject) { get; set; } | Returns or sets the subject of a presentation. Read/write String. |
 | [Title](../../aspose.slides/idocumentproperties/title) { get; set; } | Returns or sets the title of a presentation. Read/write String. |
-| [TitlesOfParts](../../aspose.slides/idocumentproperties/titlesofparts) { get; } | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only Int32. |
+| [TitlesOfParts](../../aspose.slides/idocumentproperties/titlesofparts) { get; } | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only string[]. |
 | [TotalEditingTime](../../aspose.slides/idocumentproperties/totaleditingtime) { get; set; } | Total editing time of a presentation. Read/write TimeSpan. |
 | [Words](../../aspose.slides/idocumentproperties/words) { get; } | Specifies the total number of words contained in a document. Read-only Int32. |
 

@@ -57,7 +57,7 @@ public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocume
 | [Slides](../../aspose.slides/documentproperties/slides) { get; } | Returns the total number of slides in a presentation document. Read-only Int32. |
 | [Subject](../../aspose.slides/documentproperties/subject) { get; set; } | Returns or sets the subject of a presentation. Read/write String. |
 | [Title](../../aspose.slides/documentproperties/title) { get; set; } | Returns or sets the title of a presentation. Read/write String. |
-| [TitlesOfParts](../../aspose.slides/documentproperties/titlesofparts) { get; } | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only Int32. |
+| [TitlesOfParts](../../aspose.slides/documentproperties/titlesofparts) { get; } | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only string[]. |
 | [TotalEditingTime](../../aspose.slides/documentproperties/totaleditingtime) { get; set; } | Total editing time of a presentation. Read/write TimeSpan. |
 | [Words](../../aspose.slides/documentproperties/words) { get; } | Returns the total number of words contained in a document. Read-only Int32. |
 

@@ -3,7 +3,7 @@ title: MetafileRasterizationDpi
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the lower resolution limit for metafile rasterization. Read/write Int32.
 type: docs
-weight: 90
+weight: 100
 url: /aspose.slides.export/isvgoptions/metafilerasterizationdpi/
 ---
 

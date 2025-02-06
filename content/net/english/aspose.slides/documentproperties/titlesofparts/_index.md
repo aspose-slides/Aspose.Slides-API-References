@@ -1,7 +1,7 @@
 ---
 title: TitlesOfParts
 second_title: Aspose.Sildes for .NET API Reference
-description: Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only Int32.
+description: Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only string.
 type: docs
 weight: 340
 url: /aspose.slides/documentproperties/titlesofparts/
@@ -9,7 +9,7 @@ url: /aspose.slides/documentproperties/titlesofparts/
 
 ## DocumentProperties.TitlesOfParts property
 
-Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only Int32.
+Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only string[].
 
 ```csharp
 public string[] TitlesOfParts { get; }
