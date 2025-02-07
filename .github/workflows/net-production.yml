@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@main
         with:
           repository: Aspose/api-theme
-          token: ${{ secrets.REPO_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
           fetch-depth: 0
           path: themes/api-theme      
       # Step 2 - Sets up the latest version of Hugo
