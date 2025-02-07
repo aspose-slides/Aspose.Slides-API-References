@@ -2,8 +2,6 @@
 
 name: reference.aspose.com(slides)(net)(Production)
 
-permissions:
-  contents: read
 
 # Controls when the action will run. 
 on:
@@ -25,8 +23,6 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: self-hosted
-    permissions:
-      packages: write
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -43,7 +39,6 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           fetch-depth: 0
           path: themes/api-theme
-          ref: main
       # Step 2 - Sets up the latest version of Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
