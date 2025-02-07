@@ -2,6 +2,9 @@
 
 name: reference.aspose.com(slides)(net)(Production)
 
+permissions:
+  contents: read
+
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
@@ -22,6 +25,8 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: self-hosted
+    permissions:
+      packages: write
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
