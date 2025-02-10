@@ -21,6 +21,8 @@ Represents a TextFrame.
 | [setText(String value)](#setText-java.lang.String-) | Gets or sets the plain text for a TextFrame. |
 | [getTextFrameFormat()](#getTextFrameFormat--) | Returns the formatting object for this TextFrame object. |
 | [getHyperlinkQueries()](#getHyperlinkQueries--) | Provides easy access to contained hyperlinks. |
+| [getParentShape()](#getParentShape--) | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [IShape](../../com.aspose.slides/ishape). |
+| [getParentCell()](#getParentCell--) | Returns the parent cell or null if the parent object does not implement the ICell interface. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Joins runs with same formatting in all paragraphs. |
 | [highlightText(String text, Color highlightColor)](#highlightText-java.lang.String-java.awt.Color-) | Highlights all matches of the sample text with the specified color. |
 | [highlightText(String text, Color highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Highlights all matches of the sample text with the specified color. |
@@ -86,6 +88,62 @@ Provides easy access to contained hyperlinks. Read-only [IHyperlinkQueries](../.
 
 **Returns:**
 [IHyperlinkQueries](../../com.aspose.slides/ihyperlinkqueries)
+### getParentShape() {#getParentShape--}
+```
+public abstract IShape getParentShape()
+```
+
+
+Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [IShape](../../com.aspose.slides/ishape).
+
+--------------------
+
+> ```
+> The following code sample shows 
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      if(autoShape.getTextFrame().getParentShape() == autoShape)
+>      {
+>          // ...
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[IShape](../../com.aspose.slides/ishape)
+### getParentCell() {#getParentCell--}
+```
+public abstract ICell getParentCell()
+```
+
+
+Returns the parent cell or null if the parent object does not implement the ICell interface. Read-only [ICell](../../com.aspose.slides/icell).
+
+--------------------
+
+> ```
+> The following code sample shows 
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      if(autoShape.getTextFrame().getParentShape() == autoShape)
+>      {
+>          // ...
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICell](../../com.aspose.slides/icell)
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public abstract void joinPortionsWithSameFormatting()

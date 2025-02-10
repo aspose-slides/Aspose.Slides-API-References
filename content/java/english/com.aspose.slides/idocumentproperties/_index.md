@@ -722,7 +722,7 @@ public abstract String[] getTitlesOfParts()
 ```
 
 
-Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only int.
+Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only String[].
 
 **Returns:**
 java.lang.String[]

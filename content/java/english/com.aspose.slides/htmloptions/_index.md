@@ -32,6 +32,8 @@ Represents a HTML exporting options.
 | [setShowHiddenSlides(boolean value)](#setShowHiddenSlides-boolean-) | Specifies whether the generated document should include hidden slides or not. |
 | [getHtmlFormatter()](#getHtmlFormatter--) | Returns or sets HTML template. |
 | [setHtmlFormatter(IHtmlFormatter value)](#setHtmlFormatter-com.aspose.slides.IHtmlFormatter-) | Returns or sets HTML template. |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
 | [getSlideImageFormat()](#getSlideImageFormat--) | Returns or sets slide image format options. |
 | [setSlideImageFormat(ISlideImageFormat value)](#setSlideImageFormat-com.aspose.slides.ISlideImageFormat-) | Returns or sets slide image format options. |
 | [getJpegQuality()](#getJpegQuality--) | Returns or sets a value determining the quality of the JPEG images inside PDF document. |
@@ -177,6 +179,59 @@ Returns or sets HTML template. Read/write [IHtmlFormatter](../../com.aspose.slid
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IHtmlFormatter](../../com.aspose.slides/ihtmlformatter) |  |
+
+### getDisableFontLigatures() {#getDisableFontLigatures--}
+```
+public final boolean getDisableFontLigatures()
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      options.setDisableFontLigatures(true);
+>      pres.save("presentation.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
+```
+public final void setDisableFontLigatures(boolean value)
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      options.setDisableFontLigatures(true);
+>      pres.save("presentation.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### getSlideImageFormat() {#getSlideImageFormat--}
 ```

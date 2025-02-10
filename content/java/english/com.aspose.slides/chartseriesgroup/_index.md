@@ -224,7 +224,7 @@ Specifies how much bars and columns shall overlap on 2-D charts, as a percentage
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
 >      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Set overlap to 55%
->      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png");
+>      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -251,7 +251,7 @@ Specifies how much bars and columns shall overlap on 2-D charts, as a percentage
 >      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
 >      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Set overlap to 55%
->      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png");
+>      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

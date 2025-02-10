@@ -30,6 +30,8 @@ Represents a HTML exporting options.
 | [setDeletePicturesCroppedAreas(boolean value)](#setDeletePicturesCroppedAreas-boolean-) | A boolean flag indicates if the cropped parts remain as part of the document. |
 | [getSvgResponsiveLayout()](#getSvgResponsiveLayout--) | True to exclude width and height attributes from SVG container - that will make layout responsive. |
 | [setSvgResponsiveLayout(boolean value)](#setSvgResponsiveLayout-boolean-) | True to exclude width and height attributes from SVG container - that will make layout responsive. |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
@@ -204,6 +206,59 @@ public abstract void setSvgResponsiveLayout(boolean value)
 
 
 True to exclude width and height attributes from SVG container - that will make layout responsive. False - otherwise. Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getDisableFontLigatures() {#getDisableFontLigatures--}
+```
+public abstract boolean getDisableFontLigatures()
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      options.setDisableFontLigatures(true);
+>      pres.save("presentation.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
+```
+public abstract void setDisableFontLigatures(boolean value)
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      HtmlOptions options = new HtmlOptions();
+>      options.setDisableFontLigatures(true);
+>      pres.save("presentation.html", SaveFormat.Html, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

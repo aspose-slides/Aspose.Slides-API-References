@@ -48,6 +48,8 @@ Provides options that control how a presentation/slide is rendered.
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [getInkOptions()](#getInkOptions--) | Provides options that control the look of Ink objects in exported document. |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
 ### RenderingOptions() {#RenderingOptions--}
 ```
 public RenderingOptions()
@@ -139,3 +141,68 @@ Provides options that control the look of Ink objects in exported document. Read
 
 **Returns:**
 [IInkOptions](../../com.aspose.slides/iinkoptions)
+### getDisableFontLigatures() {#getDisableFontLigatures--}
+```
+public final boolean getDisableFontLigatures()
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      RenderingOptions options = new RenderingOptions();
+>      options.setDisableFontLigatures(true);
+> 
+>      IImage[] renderedSlides = pres.getImages(options);
+>      for (int index = 0; index < renderedSlides.length; index++)
+>      {
+>          IImage slideImage = renderedSlides[index];
+>          slideImage.save("slide-" + index + ".png");
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
+```
+public final void setDisableFontLigatures(boolean value)
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      RenderingOptions options = new RenderingOptions();
+>      options.setDisableFontLigatures(true);
+> 
+>      IImage[] renderedSlides = pres.getImages(options);
+>      for (int index = 0; index < renderedSlides.length; index++)
+>      {
+>          IImage slideImage = renderedSlides[index];
+>          slideImage.save("slide-" + index + ".png");
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+

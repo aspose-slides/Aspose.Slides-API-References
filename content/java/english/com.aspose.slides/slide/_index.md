@@ -32,12 +32,12 @@ Represents a slide in a presentation.
 | [getThumbnail()](#getThumbnail--) | Returns a Thumbnail Image object (20% of real size). |
 | [getImage()](#getImage--) | Returns a Thumbnail Image object (20% of real size). |
 | [getThumbnail(IRenderingOptions options)](#getThumbnail-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Bitmap object. |
-| [getThumbnail(Dimension imageSize)](#getThumbnail-java.awt.Dimension-) | Returns a Thumbnail Bitmap object with specified size. |
+| [getThumbnail(Dimension imageSize)](#getThumbnail-java.awt.Dimension-) | Returns a Thumbnail Image object with specified size. |
 | [getImage(Dimension imageSize)](#getImage-java.awt.Dimension-) | Returns a Thumbnail Image object with specified size. |
 | [getThumbnail(ITiffOptions options)](#getThumbnail-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff image object with specified parameters. |
 | [getImage(ITiffOptions options)](#getImage-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff image object with specified parameters. |
 | [getImage(IRenderingOptions options)](#getImage-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Image object. |
-| [getThumbnail(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail BufferedImage object with custom scaling. |
+| [getThumbnail(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Image object with custom scaling. |
 | [getImage(IRenderingOptions options, float scaleX, float scaleY)](#getImage-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Image object with custom scaling. |
 | [getThumbnail(IRenderingOptions options, Dimension imageSize)](#getThumbnail-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Returns a Thumbnail BufferedImage object with specified size. |
 | [getImage(IRenderingOptions options, Dimension imageSize)](#getImage-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Returns a Thumbnail Image object with specified size. |
@@ -80,7 +80,7 @@ public final int getSlideNumber()
 ```
 
 
-Returns a number of slide. Index of slide in ([Presentation.getSlides](../../com.aspose.slides/presentation\#getSlides)) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int.
+Returns a number of slide. Index of slide in [Presentation.getSlides](../../com.aspose.slides/presentation\#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int.
 
 **Returns:**
 int
@@ -90,7 +90,7 @@ public final void setSlideNumber(int value)
 ```
 
 
-Returns a number of slide. Index of slide in ([Presentation.getSlides](../../com.aspose.slides/presentation\#getSlides)) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int.
+Returns a number of slide. Index of slide in [Presentation.getSlides](../../com.aspose.slides/presentation\#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -359,7 +359,7 @@ public final BufferedImage getThumbnail(Dimension imageSize)
 ```
 
 
-Returns a Thumbnail Bitmap object with specified size.
+Returns a Thumbnail Image object with specified size.
 
 --------------------
 
@@ -369,10 +369,9 @@ Returns a Thumbnail Bitmap object with specified size.
 >  Presentation pres = new Presentation("Presentation.pptx");
 >  try {
 >      // Converts the first slide in the presentation to a Bitmap with the specified size
->      BufferedImage bmp = pres.getSlides().get_Item(0).getThumbnail(new Dimension(1820, 1040));
+>      IImage image = pres.getSlides().get_Item(0).getImage(new Dimension(1820, 1040));
 >      // Saves the image in the JPEG format
->      ImageIO.write(bmp, "JPG", new File("Slide_0.jpg"));
->  } catch(IOException e) {
+>      image.save("Slide_0.jpg", ImageFormat.Jpeg);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -467,7 +466,7 @@ public final BufferedImage getThumbnail(IRenderingOptions options, float scaleX,
 ```
 
 
-Returns a Thumbnail BufferedImage object with custom scaling.
+Returns a Thumbnail Image object with custom scaling.
 
 --------------------
 
@@ -491,9 +490,9 @@ Returns a Thumbnail BufferedImage object with custom scaling.
 >      // Set layout options for rendering
 >      options.setSlidesLayoutOptions(notesCommentsLayouting);
 >      // Converts the first slide of the presentation to a BufferedImage object
->      BufferedImage bmp = pres.getSlides().get_Item(0).getThumbnail(options, 2f, 2f);
+>      IImage image = pres.getSlides().get_Item(0).getImage(options, 2f, 2f);
 >      // Saves the image in the GIF format
->      ImageIO.write(bmp, "GIF", new File("Slide_Notes_Comments_0.gif"));
+>      image.save("Slide_Notes_Comments_0.gif", ImageFormat.Gif);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

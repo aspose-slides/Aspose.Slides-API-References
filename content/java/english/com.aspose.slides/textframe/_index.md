@@ -35,6 +35,8 @@ Represents a TextFrame.
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Replaces all matches of regular expression with specified string. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a TextFrame. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a TextFrame. |
+| [getParentShape()](#getParentShape--) | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [IShape](../../com.aspose.slides/ishape). |
+| [getParentCell()](#getParentCell--) | Returns the parent cell or null if the parent object does not implement the ICell interface. |
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -338,3 +340,59 @@ Returns the parent presentation of a TextFrame. Read-only [IPresentation](../../
 
 **Returns:**
 [IPresentation](../../com.aspose.slides/ipresentation)
+### getParentShape() {#getParentShape--}
+```
+public final IShape getParentShape()
+```
+
+
+Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [IShape](../../com.aspose.slides/ishape).
+
+--------------------
+
+> ```
+> The following code sample shows 
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      if(autoShape.getTextFrame().getParentShape() == autoShape)
+>      {
+>          // ...
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[IShape](../../com.aspose.slides/ishape)
+### getParentCell() {#getParentCell--}
+```
+public final ICell getParentCell()
+```
+
+
+Returns the parent cell or null if the parent object does not implement the ICell interface. Read-only [ICell](../../com.aspose.slides/icell).
+
+--------------------
+
+> ```
+> The following code sample shows 
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+> 
+>      if(autoShape.getTextFrame().getParentShape() == autoShape)
+>      {
+>          // ...
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICell](../../com.aspose.slides/icell)
