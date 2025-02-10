@@ -56,6 +56,19 @@ boolean
 ---
 
 
+### getDisableFontLigatures {#getDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| getDisableFontLigatures () | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getHtmlFormatter {#getHtmlFormatter}
 
 | Name | Description |
@@ -141,7 +154,7 @@ boolean
 | getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
  **Returns:**
-[HandoutLayoutingOptions](../handoutlayoutingoptions), [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 
 ---
@@ -165,6 +178,16 @@ boolean
 | Name | Description |
 | --- | --- |
 | setDeletePicturesCroppedAreas (boolean) | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
+
+
+---
+
+
+### setDisableFontLigatures {#setDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| setDisableFontLigatures (boolean) | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
 
 
 ---
@@ -224,7 +247,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+| setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
 
 ---
@@ -234,7 +257,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
 
 ---

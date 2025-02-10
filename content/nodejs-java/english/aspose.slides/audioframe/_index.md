@@ -89,6 +89,32 @@ boolean
 ---
 
 
+### getFadeInDuration {#getFadeInDuration}
+
+| Name | Description |
+| --- | --- |
+| getFadeInDuration () | Specifies the time duration for the starting fade of the media in milliseconds. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getFadeOutDuration {#getFadeOutDuration}
+
+| Name | Description |
+| --- | --- |
+| getFadeOutDuration () | Specifies the time duration for the ending fade of the media in milliseconds. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
 ### getHideAtShowing {#getHideAtShowing}
 
 | Name | Description |
@@ -167,6 +193,32 @@ boolean
 ---
 
 
+### getTrimFromEnd {#getTrimFromEnd}
+
+| Name | Description |
+| --- | --- |
+| getTrimFromEnd () | Specifies a duration of time to be removed from the end of the media during playback, in milliseconds. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
+### getTrimFromStart {#getTrimFromStart}
+
+| Name | Description |
+| --- | --- |
+| getTrimFromStart () | Specifies a duration of time to be removed from the start of the media during playback, in milliseconds. Read/write float. |
+
+ **Returns:**
+float
+
+
+---
+
+
 ### getVolume {#getVolume}
 
 | Name | Description |
@@ -175,6 +227,19 @@ boolean
 
  **Returns:**
 int
+
+
+---
+
+
+### getVolumeValue {#getVolumeValue}
+
+| Name | Description |
+| --- | --- |
+| getVolumeValue () | Returns or sets the audio volume in percents. Read/write float. |
+
+ **Returns:**
+float
 
 
 ---
@@ -225,6 +290,26 @@ int
 | Name | Description |
 | --- | --- |
 | setEmbeddedAudio ([Audio](../audio)) | Returns or sets embedded audio object. Read/write IAudio. |
+
+
+---
+
+
+### setFadeInDuration {#setFadeInDuration}
+
+| Name | Description |
+| --- | --- |
+| setFadeInDuration (float) | Specifies the time duration for the starting fade of the media in milliseconds. Read/write float. |
+
+
+---
+
+
+### setFadeOutDuration {#setFadeOutDuration}
+
+| Name | Description |
+| --- | --- |
+| setFadeOutDuration (float) | Specifies the time duration for the ending fade of the media in milliseconds. Read/write float. |
 
 
 ---
@@ -290,11 +375,41 @@ int
 ---
 
 
+### setTrimFromEnd {#setTrimFromEnd}
+
+| Name | Description |
+| --- | --- |
+| setTrimFromEnd (float) | Specifies a duration of time to be removed from the end of the media during playback, in milliseconds. Read/write float. |
+
+
+---
+
+
+### setTrimFromStart {#setTrimFromStart}
+
+| Name | Description |
+| --- | --- |
+| setTrimFromStart (float) | Specifies a duration of time to be removed from the start of the media during playback, in milliseconds. Read/write float. |
+
+
+---
+
+
 ### setVolume {#setVolume}
 
 | Name | Description |
 | --- | --- |
 | setVolume (int) | Returns or sets the audio volume. Read/write AudioVolumeMode. |
+
+
+---
+
+
+### setVolumeValue {#setVolumeValue}
+
+| Name | Description |
+| --- | --- |
+| setVolumeValue (float) | Returns or sets the audio volume in percents. Read/write float. |
 
 
 ---

@@ -24,6 +24,19 @@ RenderingOptions
 ---
 
 
+### getDisableFontLigatures {#getDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| getDisableFontLigatures () | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getInkOptions {#getInkOptions}
 
 | Name | Description |
@@ -44,17 +57,17 @@ RenderingOptions
 | getSlidesLayoutOptions () | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
  **Returns:**
-[HandoutLayoutingOptions](../handoutlayoutingoptions), [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 
 ---
 
 
-### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+### setDisableFontLigatures {#setDisableFontLigatures}
 
 | Name | Description |
 | --- | --- |
-| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+| setDisableFontLigatures (boolean) | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
 
 
 ---
@@ -65,6 +78,16 @@ RenderingOptions
 | Name | Description |
 | --- | --- |
 | setSlidesLayoutOptions ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions ([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
 
 ---

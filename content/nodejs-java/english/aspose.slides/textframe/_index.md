@@ -37,6 +37,32 @@ url: /aspose.slides/textframe/
 ---
 
 
+### getParentCell {#getParentCell}
+
+| Name | Description |
+| --- | --- |
+| getParentCell () | Returns the parent cell or null if the parent object does not implement the ICell interface. Read-only ICell. |
+
+ **Returns:**
+[Cell](../cell)
+
+
+---
+
+
+### getParentShape {#getParentShape}
+
+| Name | Description |
+| --- | --- |
+| getParentShape () | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only IShape. |
+
+ **Returns:**
+[Chart](../chart), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [GroupShape](../groupshape), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [SummaryZoomFrame](../summaryzoomframe), [LegacyDiagram](../legacydiagram), [Shape](../shape), [GeometryShape](../geometryshape), [Ink](../ink), [SectionZoomFrame](../sectionzoomframe), [ZoomObject](../zoomobject), [SummaryZoomSection](../summaryzoomsection), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Connector](../connector), [GraphicalObject](../graphicalobject), [OleObjectFrame](../oleobjectframe), [Table](../table), [VideoFrame](../videoframe)
+
+
+---
+
+
 ### getPresentation {#getPresentation}
 
 | Name | Description |
@@ -57,7 +83,7 @@ url: /aspose.slides/textframe/
 | getSlide () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
  **Returns:**
-[MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide)
+[BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide)
 
 
 ---

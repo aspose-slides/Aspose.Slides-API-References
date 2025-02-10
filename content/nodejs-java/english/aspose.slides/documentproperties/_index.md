@@ -623,7 +623,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getTitlesOfParts () | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only int. |
+| getTitlesOfParts () | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only String[]. |
 
  **Returns:**
 String

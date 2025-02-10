@@ -30,6 +30,177 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
+| createMathBar ([BaseScript](../basescript)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [BaseScript](../basescript) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathBox](../mathbox)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../mathbox) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathSubscriptElement](../mathsubscriptelement)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathDelimiter](../mathdelimiter)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathDelimiter](../mathdelimiter) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathBar](../mathbar)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBar](../mathbar) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathArray](../matharray)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathArray](../matharray) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathBorderBox](../mathborderbox)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
 | createMathBar ([MathBlock](../mathblock)) | Create a math bar by applying to the element |
 
  **Parameters:**
@@ -37,6 +208,101 @@ MathBarFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBlock](../mathblock) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathElementBase](../mathelementbase)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathElementBase](../mathelementbase) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathMatrix](../mathmatrix)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../mathmatrix) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathFunction](../mathfunction)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathRadical](../mathradical)) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRadical](../mathradical) | math element to apply bar |
 
  **Returns:**
 [MathBar](../mathbar)
@@ -87,165 +353,13 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([BaseScript](../basescript)) | Create a math bar by applying to the element |
+| createMathBar ([MathFraction](../mathfraction)) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [BaseScript](../basescript) | math element to apply bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathMatrix](../mathmatrix)) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | math element to apply bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathArray](../matharray)) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathArray](../matharray) | math element to apply bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathBar](../mathbar)) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBar](../mathbar) | math element to apply bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathematicalText](../mathematicaltext)) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathElementBase](../mathelementbase)) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathElementBase](../mathelementbase) | math element to apply bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathAccent](../mathaccent)) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | math element to apply bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathRadical](../mathradical)) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathRadical](../mathradical) | math element to apply bar |
+| element | [MathFraction](../mathfraction) | math element to apply bar |
 
  **Returns:**
 [MathBar](../mathbar)
@@ -277,13 +391,13 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([MathBorderBox](../mathborderbox)) | Create a math bar by applying to the element |
+| createMathBar ([MathAccent](../mathaccent)) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to apply bar |
+| element | [MathAccent](../mathaccent) | math element to apply bar |
 
  **Returns:**
 [MathBar](../mathbar)
@@ -296,13 +410,13 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([MathFraction](../mathfraction)) | Create a math bar by applying to the element |
+| createMathBar ([MathematicalText](../mathematicaltext)) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to apply bar |
+| element | [MathematicalText](../mathematicaltext) | math element to apply bar |
 
  **Returns:**
 [MathBar](../mathbar)
@@ -315,13 +429,14 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([MathBox](../mathbox)) | Create a math bar by applying to the element |
+| createMathBar ([BaseScript](../basescript), int) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../mathbox) | math element to apply bar |
+| element | [BaseScript](../basescript) | Math element to apply bar |
+| position | int | Position of the bar |
 
  **Returns:**
 [MathBar](../mathbar)
@@ -334,13 +449,14 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math bar by applying to the element |
+| createMathBar ([MathBox](../mathbox), int) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply bar |
+| element | [MathBox](../mathbox) | Math element to apply bar |
+| position | int | Position of the bar |
 
  **Returns:**
 [MathBar](../mathbar)
@@ -353,13 +469,14 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([MathFunction](../mathfunction)) | Create a math bar by applying to the element |
+| createMathBar ([MathSubscriptElement](../mathsubscriptelement), int) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | math element to apply bar |
+| element | [MathSubscriptElement](../mathsubscriptelement) | Math element to apply bar |
+| position | int | Position of the bar |
 
  **Returns:**
 [MathBar](../mathbar)
@@ -372,13 +489,14 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Create a math bar by applying to the element |
+| createMathBar ([MathDelimiter](../mathdelimiter), int) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | math element to apply bar |
+| element | [MathDelimiter](../mathdelimiter) | Math element to apply bar |
+| position | int | Position of the bar |
 
  **Returns:**
 [MathBar](../mathbar)
@@ -391,13 +509,14 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([MathDelimiter](../mathdelimiter)) | Create a math bar by applying to the element |
+| createMathBar ([MathBar](../mathbar), int) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter](../mathdelimiter) | math element to apply bar |
+| element | [MathBar](../mathbar) | Math element to apply bar |
+| position | int | Position of the bar |
 
  **Returns:**
 [MathBar](../mathbar)
@@ -410,13 +529,74 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([MathSubscriptElement](../mathsubscriptelement)) | Create a math bar by applying to the element |
+| createMathBar ([MathArray](../matharray), int) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply bar |
+| element | [MathArray](../matharray) | Math element to apply bar |
+| position | int | Position of the bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Math element to apply bar |
+| position | int | Position of the bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathBorderBox](../mathborderbox), int) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | Math element to apply bar |
+| position | int | Position of the bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathGroupingCharacter](../mathgroupingcharacter), int) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | Math element to apply bar |
+| position | int | Position of the bar |
 
  **Returns:**
 [MathBar](../mathbar)
@@ -436,6 +616,106 @@ MathBarFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBlock](../mathblock) | Math element to apply bar |
+| position | int | Position of the bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathElementBase](../mathelementbase), int) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathElementBase](../mathelementbase) | Math element to apply bar |
+| position | int | Position of the bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathMatrix](../mathmatrix), int) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../mathmatrix) | Math element to apply bar |
+| position | int | Position of the bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathFunction](../mathfunction), int) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | Math element to apply bar |
+| position | int | Position of the bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathSuperscriptElement](../mathsuperscriptelement), int) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | Math element to apply bar |
+| position | int | Position of the bar |
+
+ **Returns:**
+[MathBar](../mathbar)
+
+
+---
+
+
+### createMathBar {#createMathBar}
+
+| Name | Description |
+| --- | --- |
+| createMathBar ([MathRadical](../mathradical), int) | Create a math bar by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRadical](../mathradical) | Math element to apply bar |
 | position | int | Position of the bar |
 
  **Returns:**
@@ -489,173 +769,13 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([BaseScript](../basescript), int) | Create a math bar by applying to the element |
+| createMathBar ([MathFraction](../mathfraction), int) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [BaseScript](../basescript) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathMatrix](../mathmatrix), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathArray](../matharray), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathArray](../matharray) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathGroupingCharacter](../mathgroupingcharacter), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathBar](../mathbar), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBar](../mathbar) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathematicalText](../mathematicaltext), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathElementBase](../mathelementbase), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathElementBase](../mathelementbase) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathAccent](../mathaccent), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathRadical](../mathradical), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathRadical](../mathradical) | Math element to apply bar |
+| element | [MathFraction](../mathfraction) | Math element to apply bar |
 | position | int | Position of the bar |
 
  **Returns:**
@@ -689,13 +809,13 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([MathBorderBox](../mathborderbox), int) | Create a math bar by applying to the element |
+| createMathBar ([MathAccent](../mathaccent), int) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | Math element to apply bar |
+| element | [MathAccent](../mathaccent) | Math element to apply bar |
 | position | int | Position of the bar |
 
  **Returns:**
@@ -709,133 +829,13 @@ MathBarFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBar ([MathFraction](../mathfraction), int) | Create a math bar by applying to the element |
+| createMathBar ([MathematicalText](../mathematicaltext), int) | Create a math bar by applying to the element |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../mathfraction) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathBox](../mathbox), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBox](../mathbox) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathSuperscriptElement](../mathsuperscriptelement), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathFunction](../mathfunction), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../mathfunction) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathDelimiter](../mathdelimiter), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathDelimiter](../mathdelimiter) | Math element to apply bar |
-| position | int | Position of the bar |
-
- **Returns:**
-[MathBar](../mathbar)
-
-
----
-
-
-### createMathBar {#createMathBar}
-
-| Name | Description |
-| --- | --- |
-| createMathBar ([MathSubscriptElement](../mathsubscriptelement), int) | Create a math bar by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | Math element to apply bar |
+| element | [MathematicalText](../mathematicaltext) | Math element to apply bar |
 | position | int | Position of the bar |
 
  **Returns:**

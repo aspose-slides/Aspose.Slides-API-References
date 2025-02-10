@@ -44,7 +44,7 @@ Date
 | getParentComment () | Gets or sets parent comment. Read/write IComment. |
 
  **Returns:**
-[ModernComment](../moderncomment), [Comment](../comment)
+[Comment](../comment), [ModernComment](../moderncomment)
 
  **Error**
 
@@ -125,7 +125,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| setParentComment ([ModernComment](../moderncomment)) | Gets or sets parent comment. Read/write IComment. |
+| setParentComment ([Comment](../comment)) | Gets or sets parent comment. Read/write IComment. |
 
  **Error**
 
@@ -141,7 +141,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| setParentComment ([Comment](../comment)) | Gets or sets parent comment. Read/write IComment. |
+| setParentComment ([ModernComment](../moderncomment)) | Gets or sets parent comment. Read/write IComment. |
 
  **Error**
 

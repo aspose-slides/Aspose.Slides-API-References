@@ -244,7 +244,7 @@ boolean
 | author | [CommentAuthor](../commentauthor) | Author of comments to find or null to return all comments. |
 
  **Returns:**
-[ModernComment](../moderncomment), [Comment](../comment)
+[Comment](../comment), [ModernComment](../moderncomment)
 
 
 ---
@@ -254,7 +254,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getSlideNumber () | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+| getSlideNumber () | Returns a number of slide. Index of slide in Presentation#getSlides collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
  **Returns:**
 int
@@ -270,7 +270,7 @@ int
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Returns:**
-[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [NotesSlideThemeManager](../notesslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager)
+[ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [NotesSlideThemeManager](../notesslidethememanager), [SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager)
 
 
 ---
@@ -338,7 +338,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail (Dimension) | Returns a Thumbnail Bitmap object with specified size. |
+| getThumbnail (Dimension) | Returns a Thumbnail Image object with specified size. |
 
  **Parameters:**
 
@@ -382,7 +382,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
+| getThumbnail ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail Image object with custom scaling. |
 
  **Parameters:**
 
@@ -573,7 +573,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| setSlideNumber (int) | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+| setSlideNumber (int) | Returns a number of slide. Index of slide in Presentation#getSlides collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
 
 ---
