@@ -31,6 +31,7 @@ The RenderingOptions type exposes the following members:
 | [`gradient_style`](/slides/python-net/aspose.slides.export/renderingoptions/gradient_style/) | Returns or sets the visual style of the gradient.<br/>            Read/write [`GradientStyle`](/slides/python-net/aspose.slides/gradientstyle). |
 | [`slides_layout_options`](/slides/python-net/aspose.slides.export/renderingoptions/slides_layout_options/) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](/slides/python-net/aspose.slides.export/islideslayoutoptions). |
 | [`ink_options`](/slides/python-net/aspose.slides.export/renderingoptions/ink_options/) | Provides options that control the look of Ink objects in exported document.<br/>            Read-only [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions) |
+| [`disable_font_ligatures`](/slides/python-net/aspose.slides.export/renderingoptions/disable_font_ligatures/) | Gets or sets a value indicating whether text is rendered without using ligatures.<br/>            When set to `true`, ligatures will be disabled in the rendered output. By default, this property is set to `false`. |
 
 
 ### See Also

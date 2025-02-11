@@ -11,7 +11,7 @@ weight: 390
 ## titles_of_parts property
 Specifies the title of each document part. 
             These parts are not document parts but conceptual representations of document sections.
-            Read-only **int**.
+            Read-only **List[str]**.
 
 ### Definition:
 ```python

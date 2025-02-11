@@ -46,6 +46,7 @@ The SVGOptions type exposes the following members:
 | [`pictures_compression`](/slides/python-net/aspose.slides.export/svgoptions/pictures_compression/) | Represents the pictures compression level |
 | [`delete_pictures_cropped_areas`](/slides/python-net/aspose.slides.export/svgoptions/delete_pictures_cropped_areas/) | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped <br/>            parts will removed, if false they will be serialized in the document (which can possible lead to a <br/>            larger file) |
 | [`external_fonts_handling`](/slides/python-net/aspose.slides.export/svgoptions/external_fonts_handling/) | Determines a way of handling externally loaded fonts.<br/>            Read/write [`SvgExternalFontsHandling`](/slides/python-net/aspose.slides.export/svgexternalfontshandling). |
+| [`disable_font_ligatures`](/slides/python-net/aspose.slides.export/svgoptions/disable_font_ligatures/) | Gets or sets a value indicating whether text is rendered without using ligatures.<br/>            When set to `true`, ligatures will be disabled in the rendered output. By default, this property is set to `false`. |
 
 
 ### See Also

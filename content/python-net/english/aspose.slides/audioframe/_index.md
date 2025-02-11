@@ -71,6 +71,11 @@ The AudioFrame type exposes the following members:
 | [`embedded`](/slides/python-net/aspose.slides/audioframe/embedded/) | Determines whether a sound is embedded to a presentation.<br/>            Read-only **bool**. |
 | [`link_path_long`](/slides/python-net/aspose.slides/audioframe/link_path_long/) | Returns or sets the name of an audio file which is linked to an AudioFrame.<br/>            Read/write **str**. |
 | [`embedded_audio`](/slides/python-net/aspose.slides/audioframe/embedded_audio/) | Returns or sets embedded audio object.<br/>            Read/write [`IAudio`](/slides/python-net/aspose.slides/iaudio). |
+| [`fade_in_duration`](/slides/python-net/aspose.slides/audioframe/fade_in_duration/) | Specifies the time duration for the initial fade-in of the media in milliseconds.<br/>             Read/write **float**. |
+| [`fade_out_duration`](/slides/python-net/aspose.slides/audioframe/fade_out_duration/) | Specifies the time duration for the ending fade-out of the media in milliseconds.<br/>             Read/write **float**. |
+| [`volume_value`](/slides/python-net/aspose.slides/audioframe/volume_value/) | Returns or sets the audio volume in percents.<br/>             Read/write **float**. |
+| [`trim_from_start`](/slides/python-net/aspose.slides/audioframe/trim_from_start/) | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds.<br/>            Read/write **float**. |
+| [`trim_from_end`](/slides/python-net/aspose.slides/audioframe/trim_from_end/) | Specifies the time duration to be removed from the end of the media during playback, in milliseconds.<br/>            Read/write **float**. |
 
 ## Methods
 
