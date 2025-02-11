@@ -23,6 +23,8 @@ The TextFrame type exposes the following members:
 | [`hyperlink_queries`](/slides/python-net/aspose.slides/textframe/hyperlink_queries/) | Provides easy access to contained hyperlinks.<br/>            Read-only [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
 | [`slide`](/slides/python-net/aspose.slides/textframe/slide/) | Returns the parent slide of a TextFrame.<br/>            Read-only [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide). |
 | [`presentation`](/slides/python-net/aspose.slides/textframe/presentation/) | Returns the parent presentation of a TextFrame.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+| [`parent_shape`](/slides/python-net/aspose.slides/textframe/parent_shape/) | Returns the parent shape or None if the parent object does not implement the IShape interface<br/>            Read-only [`IShape`](/slides/python-net/aspose.slides/ishape). |
+| [`parent_cell`](/slides/python-net/aspose.slides/textframe/parent_cell/) | Returns the parent cell or None if the parent object does not implement the ICell interface.<br/>            Read-only [`ICell`](/slides/python-net/aspose.slides/icell). |
 
 ## Methods
 

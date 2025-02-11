@@ -55,7 +55,7 @@ The DocumentProperties type exposes the following members:
 | [`paragraphs`](/slides/python-net/aspose.slides/documentproperties/paragraphs/) | Returns the total number of paragraphs found in a document if applicable.<br/>            Read-only **int**. |
 | [`words`](/slides/python-net/aspose.slides/documentproperties/words/) | Returns the total number of words contained in a document.<br/>            Read-only **int**. |
 | [`multimedia_clips`](/slides/python-net/aspose.slides/documentproperties/multimedia_clips/) | Returns the total number of sound or video clips that are present in the document.<br/>            Read-only **int**. |
-| [`titles_of_parts`](/slides/python-net/aspose.slides/documentproperties/titles_of_parts/) | Specifies the title of each document part. <br/>            These parts are not document parts but conceptual representations of document sections.<br/>            Read-only **int**. |
+| [`titles_of_parts`](/slides/python-net/aspose.slides/documentproperties/titles_of_parts/) | Specifies the title of each document part. <br/>            These parts are not document parts but conceptual representations of document sections.<br/>            Read-only **List[str]**. |
 | [`heading_pairs`](/slides/python-net/aspose.slides/documentproperties/heading_pairs/) | Indicates the grouping of document parts and the number of parts in each group.<br/>            Read-only **List[IHeadingPair]**. |
 
 ## Methods

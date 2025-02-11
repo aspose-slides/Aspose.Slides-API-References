@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iaudioframe/hidden/
-weight: 330
+weight: 350
 ---
 
 
