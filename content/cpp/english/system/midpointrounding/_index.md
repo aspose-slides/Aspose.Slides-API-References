@@ -3,7 +3,7 @@ title: MidpointRounding
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the behavior of rounding functions.
 type: docs
-weight: 2770
+weight: 2783
 url: /system/midpointrounding/
 ---
 ## MidpointRounding enum

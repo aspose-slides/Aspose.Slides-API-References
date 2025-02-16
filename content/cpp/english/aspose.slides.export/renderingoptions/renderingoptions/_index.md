@@ -3,7 +3,7 @@ title: RenderingOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Default constructor.
 type: docs
-weight: 40
+weight: 66
 url: /aspose.slides.export/renderingoptions/renderingoptions/
 ---
 ## RenderingOptions::RenderingOptions() constructor

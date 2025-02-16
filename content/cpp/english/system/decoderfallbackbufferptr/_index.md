@@ -3,7 +3,7 @@ title: DecoderFallbackBufferPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::Text::DecoderFallbackBuffer class."
 type: docs
-weight: 2939
+weight: 2952
 url: /system/decoderfallbackbufferptr/
 ---
 ## DecoderFallbackBufferPtr typedef

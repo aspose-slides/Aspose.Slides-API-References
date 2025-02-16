@@ -3,7 +3,7 @@ title: MemoryStreamPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::IO::MemoryStream class."
 type: docs
-weight: 3095
+weight: 3108
 url: /system/memorystreamptr/
 ---
 ## MemoryStreamPtr typedef

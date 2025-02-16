@@ -3,7 +3,7 @@ title: get_SlideImageFormat()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns slide image format options. Read ISlideImageFormat.
 type: docs
-weight: 92
+weight: 118
 url: /aspose.slides.export/htmloptions/get_slideimageformat/
 ---
 ## HtmlOptions::get_SlideImageFormat() method

@@ -401,6 +401,7 @@ url: /system/
 | std::istream\& [operator>>](./operator_greater_greater/)(std::istream\&, [String](./string/)\&) | Gets a string from the input streamusing UTF-8 encoding. |
 | std::wistream\& [operator>>](./operator_greater_greater/)(std::wistream\&, [String](./string/)\&) | Gets a string from the input stream. |
 | **bool** [is_vp_test](./is_vp_test/)(const ::testing::TestInfo *) |  |
+| **bool** [is_parametrized_test](./is_parametrized_test/)(const ::testing::TestInfo *) |  |
 | std::string [ForEachMemberGVName](./foreachmembergvname/)() |  |
 ## Enums
 

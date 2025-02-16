@@ -31,7 +31,7 @@ System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.p
 
 System::SharedPtr<System::IO::Stream> fileStream = System::IO::File::Create(u"slide_1.emf");
 
-// Saves the first slide as a metafille
+// Saves the first slide as a metafile
 pres->get_Slide(0)->WriteAsEmf(fileStream);
 ```
 
