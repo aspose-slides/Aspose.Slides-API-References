@@ -3,7 +3,7 @@ title: ByteArrayPtr
 second_title: Aspose.Slides for C++ API Reference
 description: An alias for a smart pointer object that points to an array of unsigned 8-bit integers.
 type: docs
-weight: 3186
+weight: 3199
 url: /system/bytearrayptr/
 ---
 ## ByteArrayPtr typedef

@@ -33,7 +33,7 @@ audioFrame->set_PlayAcrossSlides(true);
 // Set Audio to automatically rewind to start after playing
 audioFrame->set_RewindAudio(true);
 
-pres->Save(u"AudioFrame_out.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
+pres->Save(u"AudioFrame_out.pptx", SaveFormat::Pptx);
 ```
 
 

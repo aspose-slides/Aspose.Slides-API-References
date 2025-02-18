@@ -3,7 +3,7 @@ title: ArgumentException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3433
+weight: 3446
 url: /system/argumentexception/
 ---
 ## ArgumentException typedef

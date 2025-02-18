@@ -3,7 +3,7 @@ title: ReplaceRegex()
 second_title: Aspose.Slides for C++ API Reference
 description: Replaces all matches of the regular expression with the specified string.
 type: docs
-weight: 118
+weight: 144
 url: /aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame::ReplaceRegex(System::SharedPtr\<System::Text::RegularExpressions::Regex\>, System::String, System::SharedPtr\<IFindResultCallback\>) method

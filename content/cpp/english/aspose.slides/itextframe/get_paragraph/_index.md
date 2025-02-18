@@ -3,7 +3,7 @@ title: get_Paragraph()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a paragraph in a frame at the specified index.
 type: docs
-weight: 131
+weight: 157
 url: /aspose.slides/itextframe/get_paragraph/
 ---
 ## ITextFrame::get_Paragraph(int32_t) method

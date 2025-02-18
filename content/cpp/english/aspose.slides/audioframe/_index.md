@@ -42,6 +42,8 @@ class AudioFrame : public Aspose::Slides::PictureFrame,
 | [System::SharedPtr](../../system/sharedptr/)\<[IEffectFormat](../ieffectformat/)\> [get_EffectFormat](../shape/get_effectformat/)() override | Returns the [EffectFormat](../effectformat/) object which contains pixel effects applied to a shape. Note: can return null for certain types of shapes which don't have effect properties. Read-only [IEffectFormat](../ieffectformat/). |
 | **bool** [get_Embedded](./get_embedded/)() override | Determines whether a sound is embedded to a presentation. Read-only **bool**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IAudio](../iaudio/)\> [get_EmbeddedAudio](./get_embeddedaudio/)() override | Returns embedded audio object. Read [IAudio](../iaudio/). |
+| **float** [get_FadeInDuration](./get_fadeinduration/)() override | Specifies the time duration for the initial fade-in of the media in milliseconds. Read **float**. |
+| **float** [get_FadeOutDuration](./get_fadeoutduration/)() override | Specifies the time duration for the ending fade-out of the media in milliseconds. Read **float**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IFillFormat](../ifillformat/)\> [get_FillFormat](../shape/get_fillformat/)() override | Returns the [FillFormat](../fillformat/) object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only [IFillFormat](../ifillformat/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\> [get_Frame](../shape/get_frame/)() override | Returns the shape frame's properties. Read [IShapeFrame](../ishapeframe/). |
 | **float** [get_Height](../shape/get_height/)() override | Returns the height of the shape. Read **float**. |
@@ -75,8 +77,11 @@ class AudioFrame : public Aspose::Slides::PictureFrame,
 | [Aspose::Slides::ShapeType](../shapetype/) [get_ShapeType](../pictureframe/get_shapetype/)() override |  |
 | [System::SharedPtr](../../system/sharedptr/)\<[IBaseSlide](../ibaseslide/)\> [get_Slide](../shape/get_slide/)() override | Returns the parent slide of a shape. Read-only [IBaseSlide](../ibaseslide/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../ithreedformat/)\> [get_ThreeDFormat](../shape/get_threedformat/)() override | Returns the [ThreeDFormat](../threedformat/) object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only [IThreeDFormat](../ithreedformat/). |
+| **float** [get_TrimFromEnd](./get_trimfromend/)() override | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read **float**. |
+| **float** [get_TrimFromStart](./get_trimfromstart/)() override | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read **float**. |
 | **uint32_t** [get_UniqueId](../shape/get_uniqueid/)() override | Gets unique shape identifier in presentation scope. Read-only **uint32_t**. See also [Shape::get_OfficeInteropShapeId](../shape/get_officeinteropshapeid/) for getting unique shape identifier in slide scope. |
 | [AudioVolumeMode](../audiovolumemode/) [get_Volume](./get_volume/)() override | Returns the audio volume. Read [AudioVolumeMode](../audiovolumemode/). |
+| **float** [get_VolumeValue](./get_volumevalue/)() override | Returns the audio volume in percents. Read **float**. |
 | **float** [get_Width](../shape/get_width/)() override | Returns the width of the shape. Read **float**. |
 | **float** [get_X](../shape/get_x/)() override | Returns the x-coordinate of the upper-left corner of the shape. Read **float**. |
 | **float** [get_Y](../shape/get_y/)() override | Returns the y-coordinate of the upper-left corner of the shape. Read **float**. |
@@ -111,6 +116,8 @@ class AudioFrame : public Aspose::Slides::PictureFrame,
 | void [set_AudioCdStartTrackTime](./set_audiocdstarttracktime/)(**int32_t**) override | Sets a start track time. Write **int32_t**. |
 | void [set_BlackWhiteMode](../shape/set_blackwhitemode/)([Aspose::Slides::BlackWhiteMode](../blackwhitemode/)) override | Property specifies how a shape will render in black-and-white display mode.. Write [Slides::BlackWhiteMode](../blackwhitemode/). |
 | void [set_EmbeddedAudio](./set_embeddedaudio/)([System::SharedPtr](../../system/sharedptr/)\<[IAudio](../iaudio/)\>) override | Sets embedded audio object. Write [IAudio](../iaudio/). |
+| void [set_FadeInDuration](./set_fadeinduration/)(**float**) override | Specifies the time duration for the initial fade-in of the media in milliseconds. Write **float**. |
+| void [set_FadeOutDuration](./set_fadeoutduration/)(**float**) override | Specifies the time duration for the ending fade-out of the media in milliseconds. Write **float**. |
 | void [set_Frame](../shape/set_frame/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\>) override | Sets the shape frame's properties. Write [IShapeFrame](../ishapeframe/). |
 | void [set_Height](../shape/set_height/)(**float**) override | Sets the height of the shape. Write **float**. |
 | void [set_Hidden](../shape/set_hidden/)(**bool**) override | Determines whether the shape is hidden. Write **bool**. |
@@ -129,7 +136,10 @@ class AudioFrame : public Aspose::Slides::PictureFrame,
 | void [set_RewindAudio](./set_rewindaudio/)(**bool**) override | Determines whether audio is automatically rewinded to start after playing. Write **bool**. |
 | void [set_Rotation](../shape/set_rotation/)(**float**) override | Sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Write **float**. |
 | void [set_ShapeType](../pictureframe/set_shapetype/)([Aspose::Slides::ShapeType](../shapetype/)) override |  |
+| void [set_TrimFromEnd](./set_trimfromend/)(**float**) override | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Write **float**. |
+| void [set_TrimFromStart](./set_trimfromstart/)(**float**) override | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Write **float**. |
 | void [set_Volume](./set_volume/)([AudioVolumeMode](../audiovolumemode/)) override | Sets the audio volume. Write [AudioVolumeMode](../audiovolumemode/). |
+| void [set_VolumeValue](./set_volumevalue/)(**float**) override | Sets the audio volume in percents. Write **float**. |
 | void [set_Width](../shape/set_width/)(**float**) override | Sets the width of the shape. Write **float**. |
 | void [set_X](../shape/set_x/)(**float**) override | Sets the x-coordinate of the upper-left corner of the shape. Write **float**. |
 | void [set_Y](../shape/set_y/)(**float**) override | Sets the y-coordinate of the upper-left corner of the shape. Write **float**. |

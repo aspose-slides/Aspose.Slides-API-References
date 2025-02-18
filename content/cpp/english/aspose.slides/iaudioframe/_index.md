@@ -41,6 +41,8 @@ class IAudioFrame : public virtual Aspose::Slides::IPictureFrame
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IEffectFormat](../ieffectformat/)\> [get_EffectFormat](../ishape/get_effectformat/)() | Returns the [EffectFormat](../effectformat/) object which contains pixel effects applied to a shape. Read-only [IEffectFormat](../ieffectformat/). |
 | virtual **bool** [get_Embedded](./get_embedded/)() | Determines whether a sound is embedded to a presentation. Read-only **bool**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IAudio](../iaudio/)\> [get_EmbeddedAudio](./get_embeddedaudio/)() | Returns embedded audio object. Read [IAudio](../iaudio/). |
+| virtual **float** [get_FadeInDuration](./get_fadeinduration/)() | Specifies the time duration for the initial fade-in of the media in milliseconds. Read **float**. |
+| virtual **float** [get_FadeOutDuration](./get_fadeoutduration/)() | Specifies the time duration for the ending fade-out of the media in milliseconds. Read **float**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IFillFormat](../ifillformat/)\> [get_FillFormat](../ishape/get_fillformat/)() | Returns the [FillFormat](../fillformat/) object that contains fill formatting properties for a shape. Read-only [IFillFormat](../ifillformat/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\> [get_Frame](../ishape/get_frame/)() | Returns the shape frame's properties. Read [IShapeFrame](../ishapeframe/). |
 | virtual **float** [get_Height](../ishape/get_height/)() | Returns the height of the shape. Read **float**. |
@@ -74,8 +76,11 @@ class IAudioFrame : public virtual Aspose::Slides::IPictureFrame
 | virtual [Aspose::Slides::ShapeType](../shapetype/) [get_ShapeType](../igeometryshape/get_shapetype/)() | Returns the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read [Slides::ShapeType](../shapetype/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IBaseSlide](../ibaseslide/)\> [get_Slide](../islidecomponent/get_slide/)() | Returns the base slide. Read-only [IBaseSlide](../ibaseslide/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../ithreedformat/)\> [get_ThreeDFormat](../ishape/get_threedformat/)() | Returns the [ThreeDFormat](../threedformat/) object that contains line formatting properties for a shape. Read-only [IThreeDFormat](../ithreedformat/). |
+| virtual **float** [get_TrimFromEnd](./get_trimfromend/)() | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read **float**. |
+| virtual **float** [get_TrimFromStart](./get_trimfromstart/)() | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read **float**. |
 | virtual **uint32_t** [get_UniqueId](../ishape/get_uniqueid/)() | Gets unique shape identifier in presentation scope. Read-only **uint32_t**. See also [IShape::get_OfficeInteropShapeId](../ishape/get_officeinteropshapeid/) for getting unique shape identifier in slide scope. |
 | virtual [AudioVolumeMode](../audiovolumemode/) [get_Volume](./get_volume/)() | Returns the audio volume. Read [AudioVolumeMode](../audiovolumemode/). |
+| virtual **float** [get_VolumeValue](./get_volumevalue/)() | Returns the audio volume in percents. Read **float**. |
 | virtual **float** [get_Width](../ishape/get_width/)() | Returns the width of the shape. Read **float**. |
 | virtual **float** [get_X](../ishape/get_x/)() | Returns the x-coordinate of the upper-left corner of the shape. Read **float**. |
 | virtual **float** [get_Y](../ishape/get_y/)() | Returns the y-coordinate of the upper-left corner of the shape. Read **float**. |
@@ -110,6 +115,8 @@ class IAudioFrame : public virtual Aspose::Slides::IPictureFrame
 | virtual void [set_AudioCdStartTrackTime](./set_audiocdstarttracktime/)(**int32_t**) | Sets a start track time. Write **int32_t**. |
 | virtual void [set_BlackWhiteMode](../ishape/set_blackwhitemode/)([Aspose::Slides::BlackWhiteMode](../blackwhitemode/)) | Property specifies how a shape will render in black-and-white display mode.. Write [Slides::BlackWhiteMode](../blackwhitemode/). |
 | virtual void [set_EmbeddedAudio](./set_embeddedaudio/)([System::SharedPtr](../../system/sharedptr/)\<[IAudio](../iaudio/)\>) | Sets embedded audio object. Write [IAudio](../iaudio/). |
+| virtual void [set_FadeInDuration](./set_fadeinduration/)(**float**) | Specifies the time duration for the initial fade-in of the media in milliseconds. Write **float**. |
+| virtual void [set_FadeOutDuration](./set_fadeoutduration/)(**float**) | Specifies the time duration for the ending fade-out of the media in milliseconds. Write **float**. |
 | virtual void [set_Frame](../ishape/set_frame/)([System::SharedPtr](../../system/sharedptr/)\<[IShapeFrame](../ishapeframe/)\>) | Sets the shape frame's properties. Write [IShapeFrame](../ishapeframe/). |
 | virtual void [set_Height](../ishape/set_height/)(**float**) | Sets the height of the shape. Write **float**. |
 | virtual void [set_Hidden](../ishape/set_hidden/)(**bool**) | Determines whether the shape is hidden. Write **bool**. |
@@ -128,7 +135,10 @@ class IAudioFrame : public virtual Aspose::Slides::IPictureFrame
 | virtual void [set_RewindAudio](./set_rewindaudio/)(**bool**) | Determines whether an audio is automatically rewinded to start after playing. Write **bool**. |
 | virtual void [set_Rotation](../ishape/set_rotation/)(**float**) | Sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Write **float**. |
 | virtual void [set_ShapeType](../igeometryshape/set_shapetype/)([Aspose::Slides::ShapeType](../shapetype/)) | Sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Write [Slides::ShapeType](../shapetype/). |
+| virtual void [set_TrimFromEnd](./set_trimfromend/)(**float**) | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Write **float**. |
+| virtual void [set_TrimFromStart](./set_trimfromstart/)(**float**) | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Write **float**. |
 | virtual void [set_Volume](./set_volume/)([AudioVolumeMode](../audiovolumemode/)) | Sets the audio volume. Write [AudioVolumeMode](../audiovolumemode/). |
+| virtual void [set_VolumeValue](./set_volumevalue/)(**float**) | Sets the audio volume in percents. Write **float**. |
 | virtual void [set_Width](../ishape/set_width/)(**float**) | Sets the width of the shape. Write **float**. |
 | virtual void [set_X](../ishape/set_x/)(**float**) | Sets the x-coordinate of the upper-left corner of the shape. Write **float**. |
 | virtual void [set_Y](../ishape/set_y/)(**float**) | Sets the y-coordinate of the upper-left corner of the shape. Write **float**. |

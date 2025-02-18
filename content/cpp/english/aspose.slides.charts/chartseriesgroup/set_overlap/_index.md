@@ -27,11 +27,14 @@ void Aspose::Slides::Charts::ChartSeriesGroup::set_Overlap(int8_t value) overrid
 The following example demonstrates how to set the overlap for a chart series group and render the resulting chart on a form: 
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>();
-System::SharedPtr<IChart> chart = pres->get_Slide(0)->get_Shapes()->AddChart(ChartType::ClusteredColumn, 10.0f, 10.0f, 600.0f, 300.0f);
+System::SharedPtr<ISlide> slide = pres->get_Slide(0);
+
+System::SharedPtr<IChart> chart = slide->get_Shapes()->AddChart(ChartType::ClusteredColumn, 10.0f, 10.0f, 600.0f, 300.0f);
 System::SharedPtr<IChartSeriesCollection> series = chart->get_ChartData()->get_Series();
 series->idx_get(0)->get_ParentSeriesGroup()->set_Overlap(55); // Set overlap to 55%
 
-auto image = pres->get_Slide(0)->GetImage(1.0f, 1.0f);
+auto image = slide->GetImage(1.0f, 1.0f);
+image->Save(u"image.png", ImageFormat::Png);
 ```
 
 
