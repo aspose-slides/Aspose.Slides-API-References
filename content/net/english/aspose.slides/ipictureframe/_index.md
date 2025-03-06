@@ -3,7 +3,7 @@ title: IPictureFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a frame with a picture inside.
 type: docs
-weight: 6430
+weight: 6470
 url: /aspose.slides/ipictureframe/
 ---
 

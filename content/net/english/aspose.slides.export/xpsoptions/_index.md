@@ -3,7 +3,7 @@ title: XpsOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in XPS format.
 type: docs
-weight: 4520
+weight: 4540
 url: /aspose.slides.export/xpsoptions/
 ---
 
@@ -31,6 +31,7 @@ public class XpsOptions : SaveOptions, IXpsOptions
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True to convert all metafiles used in a presentation to the PNG images. Read/write Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write Boolean. The default value is **false**. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Examples

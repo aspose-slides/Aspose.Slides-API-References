@@ -3,7 +3,7 @@ title: SwfOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in Swf format.
 type: docs
-weight: 4320
+weight: 4340
 url: /aspose.slides.export/swfoptions/
 ---
 
@@ -42,6 +42,7 @@ public class SwfOptions : SaveOptions, ISwfOptions
 | [ShowPageStepper](../../aspose.slides.export/swfoptions/showpagestepper) { get; set; } | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
 | [ShowSearch](../../aspose.slides.export/swfoptions/showsearch) { get; set; } | Show/hide search section. Can be overridden in flashvars. Default is true. |
 | [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write Boolean. The default value is **false**. |
 | [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | Start with opened left pane. Can be overridden in flashvars. Default is false. |
 | [ViewerIncluded](../../aspose.slides.export/swfoptions/viewerincluded) { get; set; } | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is `true`. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |

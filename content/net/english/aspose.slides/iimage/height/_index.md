@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Sildes for .NET API Reference
-description: Gets the height of the image.
+description: Gets the height of the image in pixels.
 type: docs
 weight: 10
 url: /aspose.slides/iimage/height/
@@ -9,7 +9,7 @@ url: /aspose.slides/iimage/height/
 
 ## IImage.Height property
 
-Gets the height of the image.
+Gets the height of the image in pixels.
 
 ```csharp
 public int Height { get; }

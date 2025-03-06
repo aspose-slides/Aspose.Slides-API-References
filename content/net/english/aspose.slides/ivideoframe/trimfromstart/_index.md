@@ -3,7 +3,7 @@ title: TrimFromStart
 second_title: Aspose.Sildes for .NET API Reference
 description: Trim start ms
 type: docs
-weight: 100
+weight: 110
 url: /aspose.slides/ivideoframe/trimfromstart/
 ---
 

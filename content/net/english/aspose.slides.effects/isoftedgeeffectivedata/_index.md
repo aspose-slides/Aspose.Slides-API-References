@@ -3,7 +3,7 @@ title: ISoftEdgeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents a soft edge effect. The edges of the shape are blurred while the fill is not affected.
 type: docs
-weight: 3390
+weight: 3410
 url: /aspose.slides.effects/isoftedgeeffectivedata/
 ---
 

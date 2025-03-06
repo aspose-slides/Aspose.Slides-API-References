@@ -3,7 +3,7 @@ title: CombinableSeriesTypesGroup
 second_title: Aspose.Sildes for .NET API Reference
 description: Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup. For example ChartType.PercentsStackedArea series cannot be simultaneously with ChartType.StackedArea series in one ChartSeriesGroup. But two or more ChartType.PercentsStackedArea can be in one ChartSeriesGroup simultaneously CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. And ChartType.Line series can be with ChartType.LineWithMarkers series simultaneously in one CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
 type: docs
-weight: 1430
+weight: 1450
 url: /aspose.slides.charts/combinableseriestypesgroup/
 ---
 

@@ -3,7 +3,7 @@ title: IImageTransformOperationFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create image effects instances
 type: docs
-weight: 3270
+weight: 3290
 url: /aspose.slides.effects/iimagetransformoperationfactory/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Sildes for .NET API Reference
-description: Gets an image size.
+description: Gets the size of the image.
 type: docs
 weight: 20
 url: /aspose.slides/iimage/size/
@@ -9,7 +9,7 @@ url: /aspose.slides/iimage/size/
 
 ## IImage.Size property
 
-Gets an image size.
+Gets the size of the image.
 
 ```csharp
 public Size Size { get; }

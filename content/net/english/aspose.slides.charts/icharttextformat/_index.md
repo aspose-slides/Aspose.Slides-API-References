@@ -3,7 +3,7 @@ title: IChartTextFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Chart operate with restricted set of text format properties. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat interfaces describe this restricted set.
 type: docs
-weight: 1890
+weight: 1910
 url: /aspose.slides.charts/icharttextformat/
 ---
 

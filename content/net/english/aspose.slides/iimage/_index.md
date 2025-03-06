@@ -1,15 +1,15 @@
 ---
 title: IImage
 second_title: Aspose.Sildes for .NET API Reference
-description: Represents the raster or vector image.
+description: Represents a raster or vector image.
 type: docs
-weight: 5910
+weight: 5950
 url: /aspose.slides/iimage/
 ---
 
 ## IImage interface
 
-Represents the raster or vector image.
+Represents a raster or vector image.
 
 ```csharp
 public interface IImage : IDisposable
@@ -19,17 +19,23 @@ public interface IImage : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Height](../../aspose.slides/iimage/height) { get; } | Gets the height of the image. |
-| [Size](../../aspose.slides/iimage/size) { get; } | Gets an image size. |
-| [Width](../../aspose.slides/iimage/width) { get; } | Gets the width of the image. |
+| [Height](../../aspose.slides/iimage/height) { get; } | Gets the height of the image in pixels. |
+| [Size](../../aspose.slides/iimage/size) { get; } | Gets the size of the image. |
+| [Width](../../aspose.slides/iimage/width) { get; } | Gets the width of the image in pixels. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Save](../../aspose.slides/iimage/save#save_1)(string) | Save the image to the file. |
-| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Save the image to the stream. |
-| [Save](../../aspose.slides/iimage/save#save_2)(string, ImageFormat) | Save the image to the file. |
+| [Save](../../aspose.slides/iimage/save#save_2)(string) | Saves the image to a file. |
+| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Saves the image to a stream in the specified format. |
+| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | Saves the image to a file in the specified format. |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Saves the image to a stream in the specified format and quality. |
+| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Saves the image to a file in the specified format and quality. |
+
+### Remarks
+
+This interface provides a common abstraction for handling both raster and vector images. Implementations may vary depending on the underlying image type.
 
 ### See Also
 

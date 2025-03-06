@@ -3,7 +3,7 @@ title: ChartDataCell
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents cell for chart data.
 type: docs
-weight: 1220
+weight: 1240
 url: /aspose.slides.charts/chartdatacell/
 ---
 

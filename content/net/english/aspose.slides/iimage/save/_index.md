@@ -1,19 +1,23 @@
 ---
 title: Save
 second_title: Aspose.Sildes for .NET API Reference
-description: Save the image to the file.
+description: Saves the image to a file.
 type: docs
 weight: 40
 url: /aspose.slides/iimage/save/
 ---
 
-## Save(string) {#save_1}
+## Save(string) {#save_2}
 
-Save the image to the file.
+Saves the image to a file.
 
 ```csharp
 public void Save(string filename)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filename | String | The path to the file where the image will be saved. |
 
 ### See Also
 
@@ -23,13 +27,18 @@ public void Save(string filename)
 
 ---
 
-## Save(string, ImageFormat) {#save_2}
+## Save(string, ImageFormat) {#save_3}
 
-Save the image to the file.
+Saves the image to a file in the specified format.
 
 ```csharp
 public void Save(string filename, ImageFormat format)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filename | String | The path to the file where the image will be saved. |
+| format | ImageFormat | The image format. |
 
 ### See Also
 
@@ -42,11 +51,62 @@ public void Save(string filename, ImageFormat format)
 
 ## Save(Stream, ImageFormat) {#save}
 
-Save the image to the stream.
+Saves the image to a stream in the specified format.
 
 ```csharp
 public void Save(Stream stream, ImageFormat format)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream where the image will be saved. |
+| format | ImageFormat | The image format. |
+
+### See Also
+
+* enum [ImageFormat](../../imageformat)
+* interface [IImage](../../iimage)
+* namespace [Aspose.Slides](../../iimage)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Save(string, ImageFormat, int) {#save_4}
+
+Saves the image to a file in the specified format and quality.
+
+```csharp
+public void Save(string filename, ImageFormat format, int quality)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filename | String | The path to the file where the image will be saved. |
+| format | ImageFormat | The image format. |
+| quality | Int32 | The quality of the saved image (0 to 100). This parameter only affects saving in Jpeg; for all other formats, it is ignored. |
+
+### See Also
+
+* enum [ImageFormat](../../imageformat)
+* interface [IImage](../../iimage)
+* namespace [Aspose.Slides](../../iimage)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Save(Stream, ImageFormat, int) {#save_1}
+
+Saves the image to a stream in the specified format and quality.
+
+```csharp
+public void Save(Stream stream, ImageFormat format, int quality)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream where the image will be saved. |
+| format | ImageFormat | The image format. |
+| quality | Int32 | The quality of the saved image (0 to 100). This parameter only affects saving in Jpeg; for all other formats, it is ignored. |
 
 ### See Also
 

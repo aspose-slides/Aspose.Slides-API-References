@@ -3,7 +3,7 @@ title: FrameTickEventArgs
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents arguments of the FrameTick./presentationplayer/frametick event.
 type: docs
-weight: 3620
+weight: 3640
 url: /aspose.slides.export/frametickeventargs/
 ---
 

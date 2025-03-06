@@ -3,7 +3,7 @@ title: BiLevel
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Bi-Level black/white effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect.
 type: docs
-weight: 2800
+weight: 2820
 url: /aspose.slides.effects/bilevel/
 ---
 

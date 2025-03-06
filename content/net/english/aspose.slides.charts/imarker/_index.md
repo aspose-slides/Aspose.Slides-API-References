@@ -3,7 +3,7 @@ title: IMarker
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents marker of a chert.
 type: docs
-weight: 2060
+weight: 2080
 url: /aspose.slides.charts/imarker/
 ---
 

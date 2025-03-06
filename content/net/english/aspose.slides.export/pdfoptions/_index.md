@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 4120
+weight: 4140
 url: /aspose.slides.export/pdfoptions/
 ---
 
@@ -44,6 +44,7 @@ public class PdfOptions : SaveOptions, IPdfOptions
 | [RasterizeUnsupportedFontStyles](../../aspose.slides.export/pdfoptions/rasterizeunsupportedfontstyles) { get; set; } | Indicates whether text should be rasterized as a bitmap and saved to PDF when the font does not support bold styling. This approach can enhance the quality of text in the resulting PDF for certain fonts. Read/write Boolean. |
 | [SaveMetafilesAsPng](../../aspose.slides.export/pdfoptions/savemetafilesaspng) { get; set; } | True to convert all metafiles used in a presentation to the PNG images. Read/write Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/pdfoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write Boolean. The default value is **false**. |
 | [SlidesLayoutOptions](../../aspose.slides.export/pdfoptions/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 | [SufficientResolution](../../aspose.slides.export/pdfoptions/sufficientresolution) { get; set; } | Returns or sets a value determining resolution of images inside PDF document. |
 | [TextCompression](../../aspose.slides.export/pdfoptions/textcompression) { get; set; } | Specifies compression type to be used for all textual content in the document. Read/write [`PdfTextCompression`](../pdftextcompression). |

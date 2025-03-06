@@ -3,7 +3,7 @@ title: LineArrowheadStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the style of an arrowhead.
 type: docs
-weight: 7440
+weight: 7500
 url: /aspose.slides/linearrowheadstyle/
 ---
 

@@ -3,7 +3,7 @@ title: MarkdownSaveOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents options that control how presentation should be saved to markdown.
 type: docs
-weight: 4060
+weight: 4080
 url: /aspose.slides.export/markdownsaveoptions/
 ---
 
@@ -36,6 +36,7 @@ public class MarkdownSaveOptions : SaveOptions
 | [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Specifies whether the generated document should show comments or not. Default is `false`. |
 | [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
 | [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Specifies whether the generated document should show number of each slide or not. Default is `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write Boolean. The default value is **false**. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Examples

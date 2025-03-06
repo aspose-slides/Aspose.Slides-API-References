@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in TIFF format.
 type: docs
-weight: 4360
+weight: 4380
 url: /aspose.slides.export/tiffoptions/
 ---
 
@@ -36,6 +36,7 @@ public class TiffOptions : SaveOptions, ITiffOptions
 | [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Specifies the pixel format for the generated images. Read/write [`ImagePixelFormat`](../imagepixelformat). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write Boolean. The default value is **false**. |
 | [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 

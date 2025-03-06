@@ -3,7 +3,7 @@ title: ChartWall
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents walls on 3d charts.
 type: docs
-weight: 1420
+weight: 1440
 url: /aspose.slides.charts/chartwall/
 ---
 

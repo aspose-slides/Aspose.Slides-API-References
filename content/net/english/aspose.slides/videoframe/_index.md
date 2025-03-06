@@ -3,7 +3,7 @@ title: VideoFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a video clip on a slide.
 type: docs
-weight: 11340
+weight: 11400
 url: /aspose.slides/videoframe/
 ---
 
@@ -23,6 +23,7 @@ public class VideoFrame : PictureFrame, IVideoFrame
 | [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Returns or sets the alternative text associated with a shape. Read/write String. |
 | [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Returns or sets the title of alternative text associated with a shape. Read/write String. |
 | [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | Property specifies how a shape will render in black-and-white display mode.. Read/write [`BlackWhiteMode`](../blackwhitemode). |
+| [CaptionTracks](../../aspose.slides/videoframe/captiontracks) { get; } | Returns the closed captions collection of the video. Read-only [`ICaptionsCollection`](../icaptionscollection). |
 | [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Returns the number of connection sites on the shape. Read-only Int32. |
 | [CustomData](../../aspose.slides/shape/customdata) { get; } | Returns the shape's custom data. Read-only [`ICustomData`](../icustomdata). |
 | virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Returns the EffectFormat object which contains pixel effects applied to a shape. Note: can return null for certain types of shapes which don't have effect properties. Read-only [`IEffectFormat`](../ieffectformat). |

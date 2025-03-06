@@ -3,7 +3,7 @@ title: ILegendEntryProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents legend properties of a chart.
 type: docs
-weight: 2050
+weight: 2070
 url: /aspose.slides.charts/ilegendentryproperties/
 ---
 

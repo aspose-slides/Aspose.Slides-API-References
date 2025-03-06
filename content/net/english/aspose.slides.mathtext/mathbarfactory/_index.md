@@ -3,7 +3,7 @@ title: MathBarFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math bar
 type: docs
-weight: 8260
+weight: 8320
 url: /aspose.slides.mathtext/mathbarfactory/
 ---
 

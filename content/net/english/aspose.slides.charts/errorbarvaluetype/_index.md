@@ -3,7 +3,7 @@ title: ErrorBarValueType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents type of error bar value
 type: docs
-weight: 1550
+weight: 1570
 url: /aspose.slides.charts/errorbarvaluetype/
 ---
 

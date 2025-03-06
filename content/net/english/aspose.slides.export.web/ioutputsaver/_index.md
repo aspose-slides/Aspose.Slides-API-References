@@ -3,7 +3,7 @@ title: IOutputSaver
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an output saving service.
 type: docs
-weight: 4400
+weight: 4420
 url: /aspose.slides.export.web/ioutputsaver/
 ---
 

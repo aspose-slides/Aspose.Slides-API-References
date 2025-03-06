@@ -3,7 +3,7 @@ title: HtmlOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a HTML exporting options.
 type: docs
-weight: 3690
+weight: 3710
 url: /aspose.slides.export/htmloptions/
 ---
 
@@ -36,6 +36,7 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 | [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Represents the pictures compression level |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write Boolean. The default value is **false**. |
 | [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Returns or sets slide image format options. Read/write [`ISlideImageFormat`](../islideimageformat). |
 | [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 | [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True to exclude width and height attributes from svg container - that will make layout responsive. False - otherwise. Read/write Boolean. |

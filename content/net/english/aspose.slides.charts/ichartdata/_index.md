@@ -3,7 +3,7 @@ title: IChartData
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents data used for a chart plotting.
 type: docs
-weight: 1700
+weight: 1720
 url: /aspose.slides.charts/ichartdata/
 ---
 

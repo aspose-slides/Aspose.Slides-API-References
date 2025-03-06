@@ -3,7 +3,7 @@ title: IShapeBevel
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents properties of shapes main face relief.
 type: docs
-weight: 6700
+weight: 6740
 url: /aspose.slides/ishapebevel/
 ---
 

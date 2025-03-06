@@ -3,7 +3,7 @@ title: MathematicalText
 second_title: Aspose.Sildes for .NET API Reference
 description: Mathematical text
 type: docs
-weight: 8730
+weight: 8790
 url: /aspose.slides.mathtext/mathematicaltext/
 ---
 

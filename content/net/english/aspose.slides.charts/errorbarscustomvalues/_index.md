@@ -3,7 +3,7 @@ title: ErrorBarsCustomValues
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the errors bar values. It shall be used only when the Error bars value type is Custom.
 type: docs
-weight: 1560
+weight: 1580
 url: /aspose.slides.charts/errorbarscustomvalues/
 ---
 

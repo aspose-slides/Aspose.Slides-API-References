@@ -3,7 +3,7 @@ title: Collect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a group of methods intended to collect model objects of different types from Presentation../aspose.slides/presentation.
 type: docs
-weight: 7560
+weight: 7620
 url: /aspose.slides.lowcode/collect/
 ---
 

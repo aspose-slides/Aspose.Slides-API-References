@@ -3,7 +3,7 @@ title: Comment
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a comment on a slide.
 type: docs
-weight: 2510
+weight: 2530
 url: /aspose.slides/comment/
 ---
 

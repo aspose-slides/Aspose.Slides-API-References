@@ -3,7 +3,7 @@ title: ITextFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a TextFrame.
 type: docs
-weight: 7010
+weight: 7050
 url: /aspose.slides/itextframe/
 ---
 
@@ -37,6 +37,7 @@ public interface ITextFrame : ISlideComponent
 | [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs. |
 | [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Replaces all matches of the regular expression with the specified string. |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Replaces all occurrences of the specified text with another specified text. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Splits the text content of the [`ITextFrame`](../itextframe) into an array of strings, where each element corresponds to a separate text column within the frame. |
 
 ### See Also
 

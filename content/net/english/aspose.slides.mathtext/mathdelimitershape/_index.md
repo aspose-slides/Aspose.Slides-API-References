@@ -3,7 +3,7 @@ title: MathDelimiterShape
 second_title: Aspose.Sildes for .NET API Reference
 description: The location and size of the delimiters relative to the content of the operands
 type: docs
-weight: 8350
+weight: 8410
 url: /aspose.slides.mathtext/mathdelimitershape/
 ---
 

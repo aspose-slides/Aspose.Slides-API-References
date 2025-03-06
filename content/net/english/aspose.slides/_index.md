@@ -34,6 +34,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [BuildVersionInfo](./buildversioninfo) | Contains information about version of Aspose.Slides. |
 | [BulletFormat](./bulletformat) | Represents paragraph bullet formatting properties. |
 | [Camera](./camera) | Represents Camera. |
+| [Captions](./captions) | Represents the WebVTT closed captions. |
+| [CaptionsCollection](./captionscollection) | Represents a collection of the closed captions. |
 | [Cell](./cell) | Represents a cell of a table. |
 | [CellCollection](./cellcollection) | Represents a collection of cells. |
 | [CellFormat](./cellformat) | Represents format of a table cell. |
@@ -240,6 +242,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IBulletFormatEffectiveData](./ibulletformateffectivedata) | Immutable object which contains effective paragraph bullet formatting properties. |
 | [ICamera](./icamera) | Represents Camera. |
 | [ICameraEffectiveData](./icameraeffectivedata) | Immutable object which contains effective camera properties. |
+| [ICaptions](./icaptions) | Represents the WebVTT closed captions. |
+| [ICaptionsCollection](./icaptionscollection) | Represents a collection of the closed captions. |
 | [ICell](./icell) | Represents a cell in a table. |
 | [ICellCollection](./icellcollection) | Represents a collection of cells. |
 | [ICellFormat](./icellformat) | Represents format of a table cell. |
@@ -310,7 +314,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IHyperlinkContainer](./ihyperlinkcontainer) | Represents hyperlink object. |
 | [IHyperlinkManager](./ihyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [IHyperlinkQueries](./ihyperlinkqueries) | Provide easy access to contained hyperlinks. |
-| [IImage](./iimage) | Represents the raster or vector image. |
+| [IImage](./iimage) | Represents a raster or vector image. |
 | [IImageCollection](./iimagecollection) | Represents collection of PPImage. |
 | [IImageWrapper](./iimagewrapper) | System.Drawing.Image wrapper for COM interface. |
 | [IImageWrapperFactory](./iimagewrapperfactory) | This interface allows to initialize IBitmapWrapper. |

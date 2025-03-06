@@ -3,7 +3,7 @@ title: OleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 8900
+weight: 8960
 url: /aspose.slides/oleobjectframe/
 ---
 

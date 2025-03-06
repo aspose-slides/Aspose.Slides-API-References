@@ -3,7 +3,7 @@ title: ChartTextFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies default text formatting for chart text elements.
 type: docs
-weight: 1380
+weight: 1400
 url: /aspose.slides.charts/charttextformat/
 ---
 

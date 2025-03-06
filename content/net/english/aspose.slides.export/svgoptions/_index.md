@@ -3,7 +3,7 @@ title: SVGOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an SVG options.
 type: docs
-weight: 4220
+weight: 4240
 url: /aspose.slides.export/svgoptions/
 ---
 
@@ -43,6 +43,7 @@ public sealed class SVGOptions : SaveOptions, ISVGOptions
 | [PicturesCompression](../../aspose.slides.export/svgoptions/picturescompression) { get; set; } | Represents the pictures compression level |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShapeFormattingController](../../aspose.slides.export/svgoptions/shapeformattingcontroller) { get; set; } | Returns and sets a callback interface which allows user to control shape conversion. Read/write [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write Boolean. The default value is **false**. |
 | [UseFrameRotation](../../aspose.slides.export/svgoptions/useframerotation) { get; set; } | Determines whether to perform the specified rotation of the shape when rendering or not. Read/write Boolean. Default value is true. |
 | [UseFrameSize](../../aspose.slides.export/svgoptions/useframesize) { get; set; } | Determines whether the text frame will be included in a rendering area or not. Read/write Boolean. Default value is false. |
 | [VectorizeText](../../aspose.slides.export/svgoptions/vectorizetext) { get; set; } | Determines whether the text on a slide will be saved as graphics. Read/write Boolean. |

@@ -3,7 +3,7 @@ title: IChartPortionFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the chart portion formatting properties used in charts.
 type: docs
-weight: 1820
+weight: 1840
 url: /aspose.slides.charts/ichartportionformat/
 ---
 

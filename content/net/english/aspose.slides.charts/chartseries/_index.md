@@ -3,7 +3,7 @@ title: ChartSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a chart series.
 type: docs
-weight: 1340
+weight: 1360
 url: /aspose.slides.charts/chartseries/
 ---
 
