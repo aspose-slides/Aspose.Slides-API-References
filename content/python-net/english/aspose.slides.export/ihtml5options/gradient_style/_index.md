@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/ihtml5options/gradient_style/
-weight: 60
+weight: 70
 ---
 
 

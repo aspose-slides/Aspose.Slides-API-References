@@ -29,6 +29,7 @@ The XamlOptions type exposes the following members:
 | [`progress_callback`](/slides/python-net/aspose.slides.export.xaml/xamloptions/progress_callback/) | Represents a callback object for saving progress updates in percentage.<br/>            See [`IProgressCallback`](/slides/python-net/aspose.slides/iprogresscallback). |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export.xaml/xamloptions/default_regular_font/) | Returns or sets font used in case source font is not found.<br/>            Read-write **str**. |
 | [`gradient_style`](/slides/python-net/aspose.slides.export.xaml/xamloptions/gradient_style/) | Returns or sets the visual style of the gradient.<br/>            Read/write [`GradientStyle`](/slides/python-net/aspose.slides/gradientstyle). |
+| [`skip_java_script_links`](/slides/python-net/aspose.slides.export.xaml/xamloptions/skip_java_script_links/) | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. <br/>            Read/write **bool**. The default value is **false** . |
 | [`export_hidden_slides`](/slides/python-net/aspose.slides.export.xaml/xamloptions/export_hidden_slides/) | Determines whether hidden slides will be exported. |
 | [`output_saver`](/slides/python-net/aspose.slides.export.xaml/xamloptions/output_saver/) | Represents an implementation of IOutputSaver interface. |
 

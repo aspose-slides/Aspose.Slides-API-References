@@ -9,7 +9,7 @@ weight: 30
 
 
 ## size property
-Gets an image size.
+Gets the size of the image.
 
 ### Definition:
 ```python

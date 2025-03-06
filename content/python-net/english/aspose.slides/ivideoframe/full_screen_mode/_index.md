@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ivideoframe/full_screen_mode/
-weight: 270
+weight: 280
 ---
 
 

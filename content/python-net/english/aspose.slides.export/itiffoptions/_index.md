@@ -30,6 +30,7 @@ The ITiffOptions type exposes the following members:
 | [`progress_callback`](/slides/python-net/aspose.slides.export/itiffoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/itiffoptions/default_regular_font/) |  |
 | [`gradient_style`](/slides/python-net/aspose.slides.export/itiffoptions/gradient_style/) |  |
+| [`skip_java_script_links`](/slides/python-net/aspose.slides.export/itiffoptions/skip_java_script_links/) |  |
 
 
 ### See Also

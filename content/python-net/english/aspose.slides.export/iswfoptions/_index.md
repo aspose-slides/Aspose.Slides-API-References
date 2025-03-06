@@ -37,6 +37,7 @@ The ISwfOptions type exposes the following members:
 | [`progress_callback`](/slides/python-net/aspose.slides.export/iswfoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/iswfoptions/default_regular_font/) |  |
 | [`gradient_style`](/slides/python-net/aspose.slides.export/iswfoptions/gradient_style/) |  |
+| [`skip_java_script_links`](/slides/python-net/aspose.slides.export/iswfoptions/skip_java_script_links/) |  |
 
 
 ### See Also
