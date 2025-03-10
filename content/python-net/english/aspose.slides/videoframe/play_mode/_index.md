@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/videoframe/play_mode/
-weight: 460
+weight: 470
 ---
 
 

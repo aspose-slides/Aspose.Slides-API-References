@@ -9,7 +9,7 @@ weight: 20
 
 
 ## height property
-Gets the height of the image.
+Gets the height of the image in pixels.
 
 ### Definition:
 ```python

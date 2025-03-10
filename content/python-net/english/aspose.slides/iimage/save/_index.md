@@ -9,7 +9,7 @@ weight: 10
 
 
 ## save {#str}
-Save the image to the file.
+Saves the image to a file.
 
 
 ```python
@@ -20,11 +20,11 @@ def save(self, filename):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| filename | **str** |  |
+| filename | **str** | The path to the file where the image will be saved. |
 
 
 ## save {#str-imageformat}
-Save the image to the file.
+Saves the image to a file in the specified format.
 
 
 ```python
@@ -35,12 +35,12 @@ def save(self, filename, format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| filename | **str** |  |
-| format | [`ImageFormat`](/slides/python-net/aspose.slides/imageformat) |  |
+| filename | **str** | The path to the file where the image will be saved. |
+| format | [`ImageFormat`](/slides/python-net/aspose.slides/imageformat) | The image format. |
 
 
 ## save {#iorawiobase-imageformat}
-Save the image to the stream.
+Saves the image to a stream in the specified format.
 
 
 ```python
@@ -51,8 +51,42 @@ def save(self, stream, format):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | **io.RawIOBase** |  |
-| format | [`ImageFormat`](/slides/python-net/aspose.slides/imageformat) |  |
+| stream | **io.RawIOBase** | The stream where the image will be saved. |
+| format | [`ImageFormat`](/slides/python-net/aspose.slides/imageformat) | The image format. |
+
+
+## save {#str-imageformat-int}
+Saves the image to a file in the specified format and quality.
+
+
+```python
+def save(self, filename, format, quality):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| filename | **str** | The path to the file where the image will be saved. |
+| format | [`ImageFormat`](/slides/python-net/aspose.slides/imageformat) | The image format. |
+| quality | **int** | The quality of the saved image (0 to 100).  <br/><br/>            This parameter only affects saving in [`ImageFormat.JPEG`](/slides/python-net/aspose.slides/imageformat/JPEG); for all other formats, it is ignored. |
+
+
+## save {#iorawiobase-imageformat-int}
+Saves the image to a stream in the specified format and quality.
+
+
+```python
+def save(self, stream, format, quality):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| stream | **io.RawIOBase** | The stream where the image will be saved. |
+| format | [`ImageFormat`](/slides/python-net/aspose.slides/imageformat) | The image format. |
+| quality | **int** | The quality of the saved image (0 to 100).  <br/><br/>            This parameter only affects saving in [`ImageFormat.JPEG`](/slides/python-net/aspose.slides/imageformat/JPEG); for all other formats, it is ignored. |
 
 
 

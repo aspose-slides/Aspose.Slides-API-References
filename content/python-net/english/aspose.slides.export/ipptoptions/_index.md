@@ -22,6 +22,7 @@ The IPptOptions type exposes the following members:
 | [`progress_callback`](/slides/python-net/aspose.slides.export/ipptoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/ipptoptions/default_regular_font/) |  |
 | [`gradient_style`](/slides/python-net/aspose.slides.export/ipptoptions/gradient_style/) |  |
+| [`skip_java_script_links`](/slides/python-net/aspose.slides.export/ipptoptions/skip_java_script_links/) |  |
 
 
 ### See Also

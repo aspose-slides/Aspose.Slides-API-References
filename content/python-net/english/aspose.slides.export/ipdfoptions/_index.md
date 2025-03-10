@@ -40,6 +40,7 @@ The IPdfOptions type exposes the following members:
 | [`progress_callback`](/slides/python-net/aspose.slides.export/ipdfoptions/progress_callback/) |  |
 | [`default_regular_font`](/slides/python-net/aspose.slides.export/ipdfoptions/default_regular_font/) |  |
 | [`gradient_style`](/slides/python-net/aspose.slides.export/ipdfoptions/gradient_style/) |  |
+| [`skip_java_script_links`](/slides/python-net/aspose.slides.export/ipdfoptions/skip_java_script_links/) |  |
 
 
 ### See Also

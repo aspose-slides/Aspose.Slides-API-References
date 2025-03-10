@@ -68,6 +68,7 @@ The VideoFrame type exposes the following members:
 | [`embedded_video`](/slides/python-net/aspose.slides/videoframe/embedded_video/) | Returns or sets embedded video object.<br/>            Read/write [`IVideo`](/slides/python-net/aspose.slides/ivideo). |
 | [`trim_from_start`](/slides/python-net/aspose.slides/videoframe/trim_from_start/) | Trim start [ms] |
 | [`trim_from_end`](/slides/python-net/aspose.slides/videoframe/trim_from_end/) | Trim end [ms] |
+| [`caption_tracks`](/slides/python-net/aspose.slides/videoframe/caption_tracks/) | Returns the closed captions collection of the video.<br/>             Read-only [`ICaptionsCollection`](/slides/python-net/aspose.slides/icaptionscollection). |
 
 ## Methods
 

@@ -9,7 +9,7 @@ weight: 40
 
 
 ## width property
-Gets the width of the image.
+Gets the width of the image in pixels.
 
 ### Definition:
 ```python

@@ -27,6 +27,7 @@ The IVideoFrame type exposes the following members:
 | [`embedded_video`](/slides/python-net/aspose.slides/ivideoframe/embedded_video/) | Returns or sets embedded video object.<br/>            Read/write [`IVideo`](/slides/python-net/aspose.slides/ivideo). |
 | [`trim_from_start`](/slides/python-net/aspose.slides/ivideoframe/trim_from_start/) | Trim start [ms] |
 | [`trim_from_end`](/slides/python-net/aspose.slides/ivideoframe/trim_from_end/) | Trim end [ms] |
+| [`caption_tracks`](/slides/python-net/aspose.slides/ivideoframe/caption_tracks/) | Returns the closed captions collection of the video.<br/>             Read-only [`ICaptionsCollection`](/slides/python-net/aspose.slides/icaptionscollection). |
 | [`shape_lock`](/slides/python-net/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/aspose.slides/ivideoframe/picture_format/) |  |

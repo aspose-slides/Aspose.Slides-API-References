@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/iswfoptions/start_open_left_pane/
-weight: 190
+weight: 200
 ---
 
 

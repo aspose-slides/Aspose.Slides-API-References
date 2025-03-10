@@ -33,6 +33,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`BuildVersionInfo`](/slides/python-net/aspose.slides/buildversioninfo/) | Contains information about version of Aspose.Slides. |
 | [`BulletFormat`](/slides/python-net/aspose.slides/bulletformat/) | Represents paragraph bullet formatting properties. |
 | [`Camera`](/slides/python-net/aspose.slides/camera/) | Represents Camera. |
+| [`Captions`](/slides/python-net/aspose.slides/captions/) | Represents the WebVTT closed captions. |
+| [`CaptionsCollection`](/slides/python-net/aspose.slides/captionscollection/) | Represents a collection of the closed captions. |
 | [`Cell`](/slides/python-net/aspose.slides/cell/) | Represents a cell of a table. |
 | [`CellCollection`](/slides/python-net/aspose.slides/cellcollection/) | Represents a collection of cells. |
 | [`CellFormat`](/slides/python-net/aspose.slides/cellformat/) | Represents format of a table cell. |
@@ -117,6 +119,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`IBulletFormatEffectiveData`](/slides/python-net/aspose.slides/ibulletformateffectivedata/) | Immutable object which contains effective paragraph bullet formatting properties. |
 | [`ICamera`](/slides/python-net/aspose.slides/icamera/) | Represents Camera. |
 | [`ICameraEffectiveData`](/slides/python-net/aspose.slides/icameraeffectivedata/) | Immutable object which contains effective camera properties. |
+| [`ICaptions`](/slides/python-net/aspose.slides/icaptions/) | Represents the WebVTT closed captions. |
+| [`ICaptionsCollection`](/slides/python-net/aspose.slides/icaptionscollection/) | Represents a collection of the closed captions. |
 | [`ICell`](/slides/python-net/aspose.slides/icell/) | Represents a cell in a table. |
 | [`ICellCollection`](/slides/python-net/aspose.slides/icellcollection/) | Represents a collection of cells. |
 | [`ICellFormat`](/slides/python-net/aspose.slides/icellformat/) | Represents format of a table cell. |
@@ -185,7 +189,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`IHyperlinkContainer`](/slides/python-net/aspose.slides/ihyperlinkcontainer/) | Represents hyperlink object. |
 | [`IHyperlinkManager`](/slides/python-net/aspose.slides/ihyperlinkmanager/) | Provide hyperlinks management (adding, removing). |
 | [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries/) | Provide easy access to contained hyperlinks. |
-| [`IImage`](/slides/python-net/aspose.slides/iimage/) | Represents the raster or vector image. |
+| [`IImage`](/slides/python-net/aspose.slides/iimage/) | Represents a raster or vector image. |
 | [`IImageCollection`](/slides/python-net/aspose.slides/iimagecollection/) | Represents collection of PPImage. |
 | [`IImageWrapper`](/slides/python-net/aspose.slides/iimagewrapper/) | System.Drawing.Image wrapper for COM interface. |
 | [`IImageWrapperFactory`](/slides/python-net/aspose.slides/iimagewrapperfactory/) | This interface allows to initialize IBitmapWrapper. |
