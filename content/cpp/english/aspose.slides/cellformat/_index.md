@@ -3,7 +3,7 @@ title: CellFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents format of a table cell.
 type: docs
-weight: 300
+weight: 326
 url: /aspose.slides/cellformat/
 ---
 ## CellFormat class

@@ -3,7 +3,7 @@ title: IColorOperationCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of color transform operations.
 type: docs
-weight: 1665
+weight: 1717
 url: /aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection class

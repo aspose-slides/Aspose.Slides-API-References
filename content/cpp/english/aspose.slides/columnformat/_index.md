@@ -3,7 +3,7 @@ title: ColumnFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents format of a table column.
 type: docs
-weight: 378
+weight: 404
 url: /aspose.slides/columnformat/
 ---
 ## ColumnFormat class

@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a row in a table.
 type: docs
-weight: 4889
+weight: 4941
 url: /aspose.slides/row/
 ---
 ## Row class

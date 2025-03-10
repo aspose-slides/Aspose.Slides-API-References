@@ -3,7 +3,7 @@ title: IAnimationTimeLine
 second_title: Aspose.Slides for C++ API Reference
 description: Represents timeline of animation.
 type: docs
-weight: 1288
+weight: 1314
 url: /aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine class

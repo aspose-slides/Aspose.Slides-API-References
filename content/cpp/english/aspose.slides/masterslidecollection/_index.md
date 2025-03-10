@@ -3,7 +3,7 @@ title: MasterSlideCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of master slides.
 type: docs
-weight: 4408
+weight: 4460
 url: /aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection class

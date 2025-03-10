@@ -3,7 +3,7 @@ title: LineSketchType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents which sketch type or effect a shape has been assigned.
 type: docs
-weight: 5942
+weight: 5994
 url: /aspose.slides/linesketchtype/
 ---
 ## LineSketchType enum

@@ -3,7 +3,7 @@ title: Details_OOXMLException
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a standard internal exception type related to Office Open XML file format.
 type: docs
-weight: 612
+weight: 638
 url: /aspose.slides/details_ooxmlexception/
 ---
 ## Details_OOXMLException class

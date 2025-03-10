@@ -3,7 +3,7 @@ title: IBulkTextFormattable
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an object with possibility of bulk setting child text elements' formats.
 type: docs
-weight: 1522
+weight: 1548
 url: /aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable class

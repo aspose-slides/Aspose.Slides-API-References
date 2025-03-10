@@ -3,7 +3,7 @@ title: IHeadingPair
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a 'Heading pair' property of the document. It indicates the group name of document parts and the number of parts in group.
 type: docs
-weight: 2458
+weight: 2510
 url: /aspose.slides/iheadingpair/
 ---
 ## IHeadingPair class

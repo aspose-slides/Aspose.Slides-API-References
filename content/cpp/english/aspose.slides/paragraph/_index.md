@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a paragraph of text.
 type: docs
-weight: 4538
+weight: 4590
 url: /aspose.slides/paragraph/
 ---
 ## Paragraph class

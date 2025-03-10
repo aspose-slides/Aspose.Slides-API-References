@@ -3,7 +3,7 @@ title: PropertyChangedEventHandler
 second_title: Aspose.Slides for C++ API Reference
 description: Handler type to handle PropertyChanged event.
 type: docs
-weight: 222
+weight: 235
 url: /system.componentmodel/propertychangedeventhandler/
 ---
 ## PropertyChangedEventHandler typedef

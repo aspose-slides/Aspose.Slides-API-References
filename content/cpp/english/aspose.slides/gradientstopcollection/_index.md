@@ -3,7 +3,7 @@ title: GradientStopCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represnts a collection of gradient stops.
 type: docs
-weight: 1106
+weight: 1132
 url: /aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection class

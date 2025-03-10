@@ -3,7 +3,7 @@ title: Details_OOXMLCorruptFileException
 second_title: Aspose.Slides for C++ API Reference
 description: Exception which thrown when Office Open XML file format is corrupted.
 type: docs
-weight: 599
+weight: 625
 url: /aspose.slides/details_ooxmlcorruptfileexception/
 ---
 ## Details_OOXMLCorruptFileException class

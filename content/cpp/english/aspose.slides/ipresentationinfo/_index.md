@@ -3,7 +3,7 @@ title: IPresentationInfo
 second_title: Aspose.Slides for C++ API Reference
 description: Information about presentation file
 type: docs
-weight: 3368
+weight: 3420
 url: /aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo class

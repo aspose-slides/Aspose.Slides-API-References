@@ -34,6 +34,8 @@ url: /aspose.slides/
 | [BuildVersionInfo](./buildversioninfo/) | Contains information about version of [Aspose.Slides](./). |
 | [BulletFormat](./bulletformat/) | Represents paragraph bullet formatting properties. |
 | [Camera](./camera/) | Represents [Camera](./camera/). |
+| [Captions](./captions/) | Represents the WebVTT closed captions. |
+| [CaptionsCollection](./captionscollection/) | Represents a collection of the closed captions. |
 | [Cell](./cell/) | Represents a cell of a table. |
 | [CellCollection](./cellcollection/) | Represents a collection of cells. |
 | [CellFormat](./cellformat/) | Represents format of a table cell. |
@@ -135,6 +137,8 @@ url: /aspose.slides/
 | [IBulletFormatEffectiveData](./ibulletformateffectivedata/) | Immutable object which contains effective paragraph bullet formatting properties. |
 | [ICamera](./icamera/) | Represents [Camera](./camera/). |
 | [ICameraEffectiveData](./icameraeffectivedata/) | Immutable object which contains effective camera properties. |
+| [ICaptions](./icaptions/) | Represents the WebVTT closed captions. |
+| [ICaptionsCollection](./icaptionscollection/) | Represents a collection of the closed captions. |
 | [ICell](./icell/) | Represents a cell in a table. |
 | [ICellCollection](./icellcollection/) | Represents a collection of cells. |
 | [ICellFormat](./icellformat/) | Represents format of a table cell. |
@@ -207,7 +211,7 @@ url: /aspose.slides/
 | [IHyperlinkContainer](./ihyperlinkcontainer/) | Represents hyperlink object. |
 | [IHyperlinkManager](./ihyperlinkmanager/) | Provide hyperlinks management (adding, removing). |
 | [IHyperlinkQueries](./ihyperlinkqueries/) | Provide easy access to contained hyperlinks. |
-| [IImage](./iimage/) | Represents the raster or vector image. |
+| [IImage](./iimage/) | Represents a raster or vector image. |
 | [IImageCollection](./iimagecollection/) | Represents collection of [PPImage](./ppimage/). |
 | [IInterruptionToken](./iinterruptiontoken/) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [IInterruptionTokenSource](./iinterruptiontokensource/) | Represents the source of [IInterruptionToken](./iinterruptiontoken/). |

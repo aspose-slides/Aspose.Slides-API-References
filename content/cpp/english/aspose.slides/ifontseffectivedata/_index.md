@@ -3,7 +3,7 @@ title: IFontsEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective fonts set.
 type: docs
-weight: 2172
+weight: 2224
 url: /aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData class

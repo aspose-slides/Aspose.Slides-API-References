@@ -3,7 +3,7 @@ title: FontData
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a font definition. Immutable.
 type: docs
-weight: 885
+weight: 911
 url: /aspose.slides/fontdata/
 ---
 ## FontData class

@@ -3,7 +3,7 @@ title: GeometryShape
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the parent class for all geometric shapes.
 type: docs
-weight: 1054
+weight: 1080
 url: /aspose.slides/geometryshape/
 ---
 ## GeometryShape class

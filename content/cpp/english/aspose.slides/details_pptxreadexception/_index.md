@@ -3,7 +3,7 @@ title: Details_PptxReadException
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an exception which thrown on presentation reading errors.
 type: docs
-weight: 716
+weight: 742
 url: /aspose.slides/details_pptxreadexception/
 ---
 ## Details_PptxReadException class

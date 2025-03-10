@@ -3,7 +3,7 @@ title: IInkBrush
 second_title: Aspose.Slides for C++ API Reference
 description: Represents trace brush.
 type: docs
-weight: 14
+weight: 27
 url: /aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush class

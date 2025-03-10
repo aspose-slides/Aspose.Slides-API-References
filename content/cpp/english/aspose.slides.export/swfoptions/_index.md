@@ -43,6 +43,7 @@ class SwfOptions : public Aspose::Slides::Export::SaveOptions,
 | **bool** [get_ShowPageStepper](./get_showpagestepper/)() override | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
 | **bool** [get_ShowSearch](./get_showsearch/)() override | Show/hide search section. Can be overridden in flashvars. Default is true. |
 | **bool** [get_ShowTopPane](./get_showtoppane/)() override | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
+| **bool** [get_SkipJavaScriptLinks](../saveoptions/get_skipjavascriptlinks/)() override | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read **bool**. The default value is **false**. |
 | **bool** [get_StartOpenLeftPane](./get_startopenleftpane/)() override | Start with opened left pane. Can be overridden in flashvars. Default is false. |
 | **bool** [get_ViewerIncluded](./get_viewerincluded/)() override | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is **true**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\> [get_WarningCallback](../saveoptions/get_warningcallback/)() override | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
@@ -78,6 +79,7 @@ class SwfOptions : public Aspose::Slides::Export::SaveOptions,
 | void [set_ShowPageStepper](./set_showpagestepper/)(**bool**) override | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
 | void [set_ShowSearch](./set_showsearch/)(**bool**) override | Show/hide search section. Can be overridden in flashvars. Default is true. |
 | void [set_ShowTopPane](./set_showtoppane/)(**bool**) override | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
+| void [set_SkipJavaScriptLinks](../saveoptions/set_skipjavascriptlinks/)(**bool**) override | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Write **bool**. The default value is **false**. |
 | void [set_StartOpenLeftPane](./set_startopenleftpane/)(**bool**) override | Start with opened left pane. Can be overridden in flashvars. Default is false. |
 | void [set_ViewerIncluded](./set_viewerincluded/)(**bool**) override | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is **true**. |
 | void [set_WarningCallback](../saveoptions/set_warningcallback/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\>) override | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Write [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |

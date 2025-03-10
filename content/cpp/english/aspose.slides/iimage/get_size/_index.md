@@ -1,7 +1,7 @@
 ---
 title: get_Size()
 second_title: Aspose.Slides for C++ API Reference
-description: Gets an image size.
+description: Gets the size of the image.
 type: docs
 weight: 1
 url: /aspose.slides/iimage/get_size/
@@ -9,7 +9,7 @@ url: /aspose.slides/iimage/get_size/
 ## IImage::get_Size() method
 
 
-Gets an image size.
+Gets the size of the image.
 
 ```cpp
 virtual System::Drawing::Size Aspose::Slides::IImage::get_Size()=0

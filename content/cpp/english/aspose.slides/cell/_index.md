@@ -3,7 +3,7 @@ title: Cell
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a cell of a table.
 type: docs
-weight: 274
+weight: 300
 url: /aspose.slides/cell/
 ---
 ## Cell class

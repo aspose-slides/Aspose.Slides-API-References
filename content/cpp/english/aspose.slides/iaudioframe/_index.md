@@ -3,7 +3,7 @@ title: IAudioFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an audio clip on a slide.
 type: docs
-weight: 1327
+weight: 1353
 url: /aspose.slides/iaudioframe/
 ---
 ## IAudioFrame class

@@ -3,7 +3,7 @@ title: INotesSize
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a size of notes slide.
 type: docs
-weight: 2952
+weight: 3004
 url: /aspose.slides/inotessize/
 ---
 ## INotesSize class

@@ -3,7 +3,7 @@ title: Ink
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an ink object on a slide.
 type: docs
-weight: 40
+weight: 53
 url: /aspose.slides.ink/ink/
 ---
 ## Ink class

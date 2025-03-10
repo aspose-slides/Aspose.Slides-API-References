@@ -3,7 +3,7 @@ title: GradientStopCollectionEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of GradientStopData objects.
 type: docs
-weight: 1119
+weight: 1145
 url: /aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData class

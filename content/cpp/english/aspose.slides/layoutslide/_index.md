@@ -3,7 +3,7 @@ title: LayoutSlide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a layout slide.
 type: docs
-weight: 4213
+weight: 4265
 url: /aspose.slides/layoutslide/
 ---
 ## LayoutSlide class

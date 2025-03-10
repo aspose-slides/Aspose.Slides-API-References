@@ -3,7 +3,7 @@ title: Details_InvalidPasswordException
 second_title: Aspose.Slides for C++ API Reference
 description: Exception which thrown when presentation file format is unsupported.
 type: docs
-weight: 560
+weight: 586
 url: /aspose.slides/details_invalidpasswordexception/
 ---
 ## Details_InvalidPasswordException class

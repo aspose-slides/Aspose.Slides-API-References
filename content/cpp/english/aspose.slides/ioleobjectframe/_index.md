@@ -3,7 +3,7 @@ title: IOleObjectFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 3043
+weight: 3095
 url: /aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame class

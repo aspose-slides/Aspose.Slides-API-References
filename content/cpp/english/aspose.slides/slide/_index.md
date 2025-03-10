@@ -3,7 +3,7 @@ title: Slide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a slide in a presentation.
 type: docs
-weight: 5071
+weight: 5123
 url: /aspose.slides/slide/
 ---
 ## Slide class

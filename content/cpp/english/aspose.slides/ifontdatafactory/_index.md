@@ -3,7 +3,7 @@ title: IFontDataFactory
 second_title: Aspose.Slides for C++ API Reference
 description: FontData factory interface
 type: docs
-weight: 2120
+weight: 2172
 url: /aspose.slides/ifontdatafactory/
 ---
 ## IFontDataFactory class

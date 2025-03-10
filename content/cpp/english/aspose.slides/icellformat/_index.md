@@ -3,7 +3,7 @@ title: ICellFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents format of a table cell.
 type: docs
-weight: 1613
+weight: 1665
 url: /aspose.slides/icellformat/
 ---
 ## ICellFormat class

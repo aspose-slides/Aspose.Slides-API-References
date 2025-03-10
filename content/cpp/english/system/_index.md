@@ -358,7 +358,8 @@ url: /system/
 | std::enable_if_t\<Details::CastType\<Source, Result\>::Null, typename [CastResult](./castresult/)\<Result\>::type\> [AsCast](./ascast/)(const Source\&) | Casts the source type to the result type using 'as' operator cast. Used for nullptr casing. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>**::Array**, typename [CastResult](./castresult/)\<Result\>::type\> [AsCast](./ascast/)(const Source\&) | Casts the source type to the result type using 'as' operator cast. Used to cast between arrays. |
 | static auto [SafeInvoke](./safeinvoke/)(T0, T1) | Implementation of '?.' operator translation. |
-| static **bool** [IsPattern](./ispattern/)(const ExpressionT\&, ResultT\&) | Implements 'is' pattern translation. |
+| **bool** [IsDeclaration](./isdeclaration/)(const ExpressionT\&, ResultT\&) | Implements 'is' declaration pattern translation. |
+| **bool** [IsConstant](./isconstant/)(const ExpressionT\&, const ConstantT\&) | Implements 'is' constant pattern translation. |
 | const [System::TypeInfo](./typeinfo/)\& [ObjectType::GetType< System::String >](./objecttype_dcolon_gettype_less_system_dcolon_string__greater/)() | Implements typeof() translation. Overload for [String](./string/). |
 | const [System::TypeInfo](./typeinfo/)\& [ObjectType::GetType< System::DateTime >](./objecttype_dcolon_gettype_less_system_dcolon_datetime__greater/)() | Implements typeof() translation. Overload for [DateTime](./datetime/). |
 | **bool** [Equals](./equals/)(const TA\&, const TB\&) | Determines the equality of two values applying [operator==()](./operator_equal_equal/) to them. |

@@ -3,7 +3,7 @@ title: ILayoutPlaceholderManager
 second_title: Aspose.Slides for C++ API Reference
 description: Represents manager that allows you to add placeholders to the layout slide.
 type: docs
-weight: 2575
+weight: 2627
 url: /aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager class

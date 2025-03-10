@@ -3,7 +3,7 @@ title: IGraphicalObjectLock
 second_title: Aspose.Slides for C++ API Reference
 description: Determines which operations are disabled on the parent GraphicalObjectEx.
 type: docs
-weight: 2419
+weight: 2471
 url: /aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock class

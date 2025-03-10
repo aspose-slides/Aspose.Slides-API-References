@@ -3,7 +3,7 @@ title: HyperlinkQueries
 second_title: Aspose.Slides for C++ API Reference
 description: Provide easy access to contained hyperlinks.
 type: docs
-weight: 1236
+weight: 1262
 url: /aspose.slides/hyperlinkqueries/
 ---
 ## HyperlinkQueries class

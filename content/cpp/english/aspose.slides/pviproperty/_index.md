@@ -3,7 +3,7 @@ title: PVIProperty
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 4863
+weight: 4915
 url: /aspose.slides/pviproperty/
 ---
 ## PVIProperty class

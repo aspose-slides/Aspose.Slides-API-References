@@ -3,7 +3,7 @@ title: CommentAuthorCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of comment authors.
 type: docs
-weight: 417
+weight: 443
 url: /aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection class

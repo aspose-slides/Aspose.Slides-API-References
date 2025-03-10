@@ -3,7 +3,7 @@ title: IBasePortionFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Base interface for immutable objects which contain effective text portion formatting properties.
 type: docs
-weight: 1444
+weight: 1470
 url: /aspose.slides/ibaseportionformateffectivedata/
 ---
 ## IBasePortionFormatEffectiveData class

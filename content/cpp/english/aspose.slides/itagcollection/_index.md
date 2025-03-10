@@ -3,7 +3,7 @@ title: ITagCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the collection of tags (user defined pairs of strings)
 type: docs
-weight: 3979
+weight: 4031
 url: /aspose.slides/itagcollection/
 ---
 ## ITagCollection class

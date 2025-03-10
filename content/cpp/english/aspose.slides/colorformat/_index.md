@@ -3,7 +3,7 @@ title: ColorFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a color used in a presentation.
 type: docs
-weight: 313
+weight: 339
 url: /aspose.slides/colorformat/
 ---
 ## ColorFormat class

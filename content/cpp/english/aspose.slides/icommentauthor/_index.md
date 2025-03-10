@@ -3,7 +3,7 @@ title: ICommentAuthor
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an author of comments.
 type: docs
-weight: 1743
+weight: 1795
 url: /aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor class

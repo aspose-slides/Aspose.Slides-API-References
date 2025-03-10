@@ -3,7 +3,7 @@ title: Details_PptxEditException
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an exception thrown when edit presentation error is detected.
 type: docs
-weight: 690
+weight: 716
 url: /aspose.slides/details_pptxeditexception/
 ---
 ## Details_PptxEditException class

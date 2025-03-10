@@ -3,7 +3,7 @@ title: Connector
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a connector.
 type: docs
-weight: 456
+weight: 482
 url: /aspose.slides/connector/
 ---
 ## Connector class

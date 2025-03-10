@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 5513
+weight: 5565
 url: /aspose.slides/operator_not_equal/
 ---
 ## Aspose::Slides::operator!=(System::SharedPtr\<FieldType\>, System::SharedPtr\<FieldType\>) function

@@ -3,7 +3,7 @@ title: Column
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a column in a table.
 type: docs
-weight: 352
+weight: 378
 url: /aspose.slides/column/
 ---
 ## Column class

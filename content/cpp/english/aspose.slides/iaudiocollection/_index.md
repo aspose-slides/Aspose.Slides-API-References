@@ -3,7 +3,7 @@ title: IAudioCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of embedded audio files.
 type: docs
-weight: 1314
+weight: 1340
 url: /aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection class

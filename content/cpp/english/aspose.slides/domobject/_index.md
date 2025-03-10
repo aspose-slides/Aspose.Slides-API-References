@@ -3,7 +3,7 @@ title: DomObject
 second_title: Aspose.Slides for C++ API Reference
 description: Base DOM object
 type: docs
-weight: 781
+weight: 807
 url: /aspose.slides/domobject/
 ---
 ## DomObject class

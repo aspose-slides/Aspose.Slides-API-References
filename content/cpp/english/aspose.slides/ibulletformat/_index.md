@@ -3,7 +3,7 @@ title: IBulletFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents paragraph bullet formatting properties.
 type: docs
-weight: 1535
+weight: 1561
 url: /aspose.slides/ibulletformat/
 ---
 ## IBulletFormat class

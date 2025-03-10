@@ -3,7 +3,7 @@ title: ProtectionManager
 second_title: Aspose.Slides for C++ API Reference
 description: Presentation password protection management.
 type: docs
-weight: 4837
+weight: 4889
 url: /aspose.slides/protectionmanager/
 ---
 ## ProtectionManager class

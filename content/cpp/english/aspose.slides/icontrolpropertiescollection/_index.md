@@ -3,7 +3,7 @@ title: IControlPropertiesCollection
 second_title: Aspose.Slides for C++ API Reference
 description: A collection of ActiveX controls.
 type: docs
-weight: 1847
+weight: 1899
 url: /aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection class

@@ -3,7 +3,7 @@ title: IShapeCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of a shapes.
 type: docs
-weight: 3602
+weight: 3654
 url: /aspose.slides/ishapecollection/
 ---
 ## IShapeCollection class

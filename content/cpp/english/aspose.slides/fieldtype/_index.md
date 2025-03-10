@@ -3,7 +3,7 @@ title: FieldType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a type of field. This value determines which text will be set to the field portion when it will be updated.
 type: docs
-weight: 846
+weight: 872
 url: /aspose.slides/fieldtype/
 ---
 ## FieldType class

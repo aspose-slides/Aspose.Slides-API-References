@@ -3,7 +3,7 @@ title: TextExtractionArrangingMode
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the mode to use during text extraction
 type: docs
-weight: 6423
+weight: 6475
 url: /aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode enum

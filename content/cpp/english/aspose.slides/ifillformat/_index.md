@@ -3,7 +3,7 @@ title: IFillFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a fill formatting options.
 type: docs
-weight: 2055
+weight: 2107
 url: /aspose.slides/ifillformat/
 ---
 ## IFillFormat class

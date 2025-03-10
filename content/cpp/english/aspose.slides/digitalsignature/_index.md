@@ -3,7 +3,7 @@ title: DigitalSignature
 second_title: Aspose.Slides for C++ API Reference
 description: Digital signature in signed file.
 type: docs
-weight: 742
+weight: 768
 url: /aspose.slides/digitalsignature/
 ---
 ## DigitalSignature class

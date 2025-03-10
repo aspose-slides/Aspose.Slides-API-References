@@ -3,7 +3,7 @@ title: Control
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an ActiveX control.
 type: docs
-weight: 482
+weight: 508
 url: /aspose.slides/control/
 ---
 ## Control class
