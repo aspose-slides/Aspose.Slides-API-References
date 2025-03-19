@@ -3,7 +3,7 @@ title: Details_OdpException
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a standard internal exception type.
 type: docs
-weight: 573
+weight: 599
 url: /aspose.slides/details_odpexception/
 ---
 ## Details_OdpException class

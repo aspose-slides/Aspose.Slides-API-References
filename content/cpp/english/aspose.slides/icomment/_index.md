@@ -3,7 +3,7 @@ title: IComment
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a comment on a slide.
 type: docs
-weight: 1730
+weight: 1782
 url: /aspose.slides/icomment/
 ---
 ## IComment class

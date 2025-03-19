@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of digital signatures attached to a document.
 type: docs
-weight: 755
+weight: 781
 url: /aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class

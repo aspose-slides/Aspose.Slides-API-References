@@ -3,7 +3,7 @@ title: LineFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents format of a line.
 type: docs
-weight: 4304
+weight: 4356
 url: /aspose.slides/lineformat/
 ---
 ## LineFormat class

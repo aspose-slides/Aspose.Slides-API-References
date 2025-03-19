@@ -3,7 +3,7 @@ title: IVideoFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a video clip on a slide.
 type: docs
-weight: 4148
+weight: 4200
 url: /aspose.slides/ivideoframe/
 ---
 ## IVideoFrame class
@@ -32,6 +32,7 @@ class IVideoFrame : public virtual Aspose::Slides::IPictureFrame
 | virtual [System::String](../../system/string/) [get_AlternativeText](../ishape/get_alternativetext/)() | Returns the alternative text associated with a shape. Read [System::String](../../system/string/). |
 | virtual [System::String](../../system/string/) [get_AlternativeTextTitle](../ishape/get_alternativetexttitle/)() | Returns the title of alternative text associated with a shape. Read [System::String](../../system/string/). |
 | virtual [Aspose::Slides::BlackWhiteMode](../blackwhitemode/) [get_BlackWhiteMode](../ishape/get_blackwhitemode/)() | Property specifies how a shape will render in black-and-white display mode.. Read [Slides::BlackWhiteMode](../blackwhitemode/). |
+| virtual [System::SharedPtr](../../system/sharedptr/)\<[ICaptionsCollection](../icaptionscollection/)\> [get_CaptionTracks](./get_captiontracks/)() | Returns the closed captions collection of the video. Read-only [ICaptionsCollection](../icaptionscollection/). |
 | virtual **int32_t** [get_ConnectionSiteCount](../ishape/get_connectionsitecount/)() | Returns the number of connection sites on the shape. Read-only **int32_t**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[ICustomData](../icustomdata/)\> [get_CustomData](../ishape/get_customdata/)() | Returns the shape's custom data. Read-only [ICustomData](../icustomdata/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IEffectFormat](../ieffectformat/)\> [get_EffectFormat](../ishape/get_effectformat/)() | Returns the [EffectFormat](../effectformat/) object which contains pixel effects applied to a shape. Read-only [IEffectFormat](../ieffectformat/). |

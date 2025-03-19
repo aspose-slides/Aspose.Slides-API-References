@@ -3,7 +3,7 @@ title: ICommonSlideViewProperties
 second_title: Aspose.Slides for C++ API Reference
 description: Represents common slide view properties.
 type: docs
-weight: 1782
+weight: 1834
 url: /aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties class

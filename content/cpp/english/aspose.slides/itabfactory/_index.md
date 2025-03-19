@@ -3,7 +3,7 @@ title: ITabFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allow to create ITab instances
 type: docs
-weight: 3927
+weight: 3979
 url: /aspose.slides/itabfactory/
 ---
 ## ITabFactory class

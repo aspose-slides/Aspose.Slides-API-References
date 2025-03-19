@@ -3,7 +3,7 @@ title: PptReadException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 6735
+weight: 6787
 url: /aspose.slides/pptreadexception/
 ---
 ## PptReadException typedef

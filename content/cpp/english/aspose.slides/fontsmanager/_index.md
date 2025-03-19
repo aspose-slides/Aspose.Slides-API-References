@@ -3,7 +3,7 @@ title: FontsManager
 second_title: Aspose.Slides for C++ API Reference
 description: Manages fonts across the presentation.
 type: docs
-weight: 963
+weight: 989
 url: /aspose.slides/fontsmanager/
 ---
 ## FontsManager class

@@ -1,15 +1,15 @@
 ---
 title: IImage
 second_title: Aspose.Slides for C++ API Reference
-description: Represents the raster or vector image.
+description: Represents a raster or vector image.
 type: docs
-weight: 2523
+weight: 2575
 url: /aspose.slides/iimage/
 ---
 ## IImage class
 
 
-Represents the raster or vector image.
+Represents a raster or vector image.
 
 ```cpp
 class IImage : public System::IDisposable
@@ -26,9 +26,9 @@ class IImage : public System::IDisposable
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
-| virtual **int32_t** [get_Height](./get_height/)() | Gets the height of the image. |
-| virtual [System::Drawing::Size](../../system.drawing/size/) [get_Size](./get_size/)() | Gets an image size. |
-| virtual **int32_t** [get_Width](./get_width/)() | Gets the width of the image. |
+| virtual **int32_t** [get_Height](./get_height/)() | Gets the height of the image in pixels. |
+| virtual [System::Drawing::Size](../../system.drawing/size/) [get_Size](./get_size/)() | Gets the size of the image. |
+| virtual **int32_t** [get_Width](./get_width/)() | Gets the width of the image in pixels. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
@@ -44,9 +44,11 @@ class IImage : public System::IDisposable
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
-| virtual void [Save](./save/)([System::String](../../system/string/)) | Save the image to the file. |
-| virtual void [Save](./save/)([System::String](../../system/string/), [ImageFormat](../imageformat/)) | Save the image to the file. |
-| virtual void [Save](./save/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>, [ImageFormat](../imageformat/)) | Save the image to the stream. |
+| virtual void [Save](./save/)([System::String](../../system/string/)) | Saves the image to a file. |
+| virtual void [Save](./save/)([System::String](../../system/string/), [ImageFormat](../imageformat/)) | Saves the image to a file in the specified format. |
+| virtual void [Save](./save/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>, [ImageFormat](../imageformat/)) | Saves the image to a stream in the specified format. |
+| virtual void [Save](./save/)([System::String](../../system/string/), [ImageFormat](../imageformat/), **int32_t**) | Saves the image to a file in the specified format and quality. |
+| virtual void [Save](./save/)([System::SharedPtr](../../system/sharedptr/)\<[System::IO::Stream](../../system.io/stream/)\>, [ImageFormat](../imageformat/), **int32_t**) | Saves the image to a stream in the specified format and quality. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
@@ -57,6 +59,12 @@ class IImage : public System::IDisposable
 | Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |
+## Remarks
+
+
+This interface provides a common abstraction for handling both raster and vector images. 
+
+ Implementations may vary depending on the underlying image type. 
 ## See Also
 
 * Class [IDisposable](../../system/idisposable/)

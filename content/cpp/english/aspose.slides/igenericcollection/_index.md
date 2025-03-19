@@ -3,7 +3,7 @@ title: IGenericCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Auxiliary generic collection interface.
 type: docs
-weight: 2276
+weight: 2328
 url: /aspose.slides/igenericcollection/
 ---
 ## IGenericCollection class

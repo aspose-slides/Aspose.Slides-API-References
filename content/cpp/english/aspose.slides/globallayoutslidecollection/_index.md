@@ -3,7 +3,7 @@ title: GlobalLayoutSlideCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides.
 type: docs
-weight: 1067
+weight: 1093
 url: /aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection class

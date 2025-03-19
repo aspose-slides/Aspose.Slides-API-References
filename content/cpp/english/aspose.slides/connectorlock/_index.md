@@ -3,7 +3,7 @@ title: ConnectorLock
 second_title: Aspose.Slides for C++ API Reference
 description: Determines which operations are disabled on the parent Connector.
 type: docs
-weight: 469
+weight: 495
 url: /aspose.slides/connectorlock/
 ---
 ## ConnectorLock class

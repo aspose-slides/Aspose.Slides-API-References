@@ -3,7 +3,7 @@ title: Images
 second_title: Aspose.Slides for C++ API Reference
 description: Methods to instantiate and work with IImage.
 type: docs
-weight: 2770
+weight: 2822
 url: /aspose.slides/images/
 ---
 ## Images class

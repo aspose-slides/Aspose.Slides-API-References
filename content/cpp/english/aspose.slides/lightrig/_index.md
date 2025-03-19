@@ -3,7 +3,7 @@ title: LightRig
 second_title: Aspose.Slides for C++ API Reference
 description: Represents LightRig.
 type: docs
-weight: 4278
+weight: 4330
 url: /aspose.slides/lightrig/
 ---
 ## LightRig class

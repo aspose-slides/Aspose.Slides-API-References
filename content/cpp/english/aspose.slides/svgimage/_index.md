@@ -3,7 +3,7 @@ title: SvgImage
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an SVG image.
 type: docs
-weight: 5253
+weight: 5305
 url: /aspose.slides/svgimage/
 ---
 ## SvgImage class

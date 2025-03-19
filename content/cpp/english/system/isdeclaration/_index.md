@@ -1,18 +1,18 @@
 ---
-title: IsPattern()
+title: IsDeclaration()
 second_title: Aspose.Slides for C++ API Reference
-description: Implements 'is' pattern translation.
+description: Implements 'is' declaration pattern translation.
 type: docs
 weight: 2328
-url: /system/ispattern/
+url: /system/isdeclaration/
 ---
-## System::IsPattern(const ExpressionT\&, ResultT\&) function
+## System::IsDeclaration(const ExpressionT\&, ResultT\&) function
 
 
-Implements 'is' pattern translation.
+Implements 'is' declaration pattern translation.
 
 ```cpp
-template<class PatternT,class ExpressionT,class ResultT> static bool System::IsPattern(const ExpressionT &left, ResultT &result)
+template<class PatternT,class ExpressionT,class ResultT> bool System::IsDeclaration(const ExpressionT &left, ResultT &result)
 ```
 
 

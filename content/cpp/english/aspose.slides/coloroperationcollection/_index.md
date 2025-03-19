@@ -3,7 +3,7 @@ title: ColorOperationCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of color transform operations.
 type: docs
-weight: 339
+weight: 365
 url: /aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection class

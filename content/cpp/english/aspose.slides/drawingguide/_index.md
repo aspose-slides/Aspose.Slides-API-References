@@ -3,7 +3,7 @@ title: DrawingGuide
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an adjustable drawing guide.
 type: docs
-weight: 794
+weight: 820
 url: /aspose.slides/drawingguide/
 ---
 ## DrawingGuide class

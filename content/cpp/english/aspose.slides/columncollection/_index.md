@@ -3,7 +3,7 @@ title: ColumnCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents collection of columns in a table.
 type: docs
-weight: 365
+weight: 391
 url: /aspose.slides/columncollection/
 ---
 ## ColumnCollection class

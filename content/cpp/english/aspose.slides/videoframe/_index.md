@@ -3,7 +3,7 @@ title: VideoFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a video clip on a slide.
 type: docs
-weight: 5448
+weight: 5500
 url: /aspose.slides/videoframe/
 ---
 ## VideoFrame class
@@ -33,6 +33,7 @@ class VideoFrame : public Aspose::Slides::PictureFrame,
 | [System::String](../../system/string/) [get_AlternativeText](../shape/get_alternativetext/)() override | Returns the alternative text associated with a shape. Read [System::String](../../system/string/). |
 | [System::String](../../system/string/) [get_AlternativeTextTitle](../shape/get_alternativetexttitle/)() override | Returns the title of alternative text associated with a shape. Read [System::String](../../system/string/). |
 | [Aspose::Slides::BlackWhiteMode](../blackwhitemode/) [get_BlackWhiteMode](../shape/get_blackwhitemode/)() override | Property specifies how a shape will render in black-and-white display mode.. Read [Slides::BlackWhiteMode](../blackwhitemode/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[ICaptionsCollection](../icaptionscollection/)\> [get_CaptionTracks](./get_captiontracks/)() override | Returns the closed captions collection of the video. Read-only [ICaptionsCollection](../icaptionscollection/). |
 | **int32_t** [get_ConnectionSiteCount](../shape/get_connectionsitecount/)() override | Returns the number of connection sites on the shape. Read-only **int32_t**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[ICustomData](../icustomdata/)\> [get_CustomData](../shape/get_customdata/)() override | Returns the shape's custom data. Read-only [ICustomData](../icustomdata/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IEffectFormat](../ieffectformat/)\> [get_EffectFormat](../shape/get_effectformat/)() override | Returns the [EffectFormat](../effectformat/) object which contains pixel effects applied to a shape. Note: can return null for certain types of shapes which don't have effect properties. Read-only [IEffectFormat](../ieffectformat/). |

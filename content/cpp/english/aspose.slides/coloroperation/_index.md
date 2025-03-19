@@ -3,7 +3,7 @@ title: ColorOperation
 second_title: Aspose.Slides for C++ API Reference
 description: Represents different color operations used for color transformations. Immutable object.
 type: docs
-weight: 326
+weight: 352
 url: /aspose.slides/coloroperation/
 ---
 ## ColorOperation class

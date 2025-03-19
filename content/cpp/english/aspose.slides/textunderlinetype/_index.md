@@ -3,7 +3,7 @@ title: TextUnderlineType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the type of text underline.
 type: docs
-weight: 6462
+weight: 6514
 url: /aspose.slides/textunderlinetype/
 ---
 ## TextUnderlineType enum

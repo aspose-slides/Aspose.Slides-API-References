@@ -3,7 +3,7 @@ title: IEffectFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents effect properties of shape.
 type: docs
-weight: 1977
+weight: 2029
 url: /aspose.slides/ieffectformat/
 ---
 ## IEffectFormat class

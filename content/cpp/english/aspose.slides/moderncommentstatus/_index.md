@@ -3,7 +3,7 @@ title: ModernCommentStatus
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the status of a modern comment.
 type: docs
-weight: 5981
+weight: 6033
 url: /aspose.slides/moderncommentstatus/
 ---
 ## ModernCommentStatus enum

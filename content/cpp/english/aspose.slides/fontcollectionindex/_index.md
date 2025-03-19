@@ -3,7 +3,7 @@ title: FontCollectionIndex
 second_title: Aspose.Slides for C++ API Reference
 description: Represents font's index in a collection.
 type: docs
-weight: 5734
+weight: 5786
 url: /aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex enum

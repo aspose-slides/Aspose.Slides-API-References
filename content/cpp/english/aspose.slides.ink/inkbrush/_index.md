@@ -3,7 +3,7 @@ title: InkBrush
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an inkBrush object.
 type: docs
-weight: 53
+weight: 79
 url: /aspose.slides.ink/inkbrush/
 ---
 ## InkBrush class

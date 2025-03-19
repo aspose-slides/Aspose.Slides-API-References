@@ -3,7 +3,7 @@ title: Details_PptCorruptFileException
 second_title: Aspose.Slides for C++ API Reference
 description: Exception which thrown when presentation file is probably corrupt.
 type: docs
-weight: 625
+weight: 651
 url: /aspose.slides/details_pptcorruptfileexception/
 ---
 ## Details_PptCorruptFileException class

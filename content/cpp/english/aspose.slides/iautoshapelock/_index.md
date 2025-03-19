@@ -3,7 +3,7 @@ title: IAutoShapeLock
 second_title: Aspose.Slides for C++ API Reference
 description: Determines which operations are disabled on the parent AutoshapeEx.
 type: docs
-weight: 1353
+weight: 1379
 url: /aspose.slides/iautoshapelock/
 ---
 ## IAutoShapeLock class

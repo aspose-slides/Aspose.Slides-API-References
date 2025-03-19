@@ -3,7 +3,7 @@ title: CellCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of cells.
 type: docs
-weight: 287
+weight: 313
 url: /aspose.slides/cellcollection/
 ---
 ## CellCollection class

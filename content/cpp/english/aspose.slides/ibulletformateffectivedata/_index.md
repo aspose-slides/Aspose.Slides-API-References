@@ -3,7 +3,7 @@ title: IBulletFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective paragraph bullet formatting properties.
 type: docs
-weight: 1548
+weight: 1574
 url: /aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData class

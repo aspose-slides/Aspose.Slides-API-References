@@ -3,7 +3,7 @@ title: IRowCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents table row collection.
 type: docs
-weight: 3472
+weight: 3524
 url: /aspose.slides/irowcollection/
 ---
 ## IRowCollection class

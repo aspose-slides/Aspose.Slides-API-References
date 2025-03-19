@@ -3,7 +3,7 @@ title: PersistenceType
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the method used to store properties of the ActiveX control.
 type: docs
-weight: 6072
+weight: 6124
 url: /aspose.slides/persistencetype/
 ---
 ## PersistenceType enum

@@ -3,7 +3,7 @@ title: PresentedBySpeaker
 second_title: Aspose.Slides for C++ API Reference
 description: Presented by a speaker (full screen)
 type: docs
-weight: 4824
+weight: 4876
 url: /aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker class

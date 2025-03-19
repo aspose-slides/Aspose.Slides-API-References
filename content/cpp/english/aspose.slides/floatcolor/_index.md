@@ -3,7 +3,7 @@ title: FloatColor
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 872
+weight: 898
 url: /aspose.slides/floatcolor/
 ---
 ## FloatColor class

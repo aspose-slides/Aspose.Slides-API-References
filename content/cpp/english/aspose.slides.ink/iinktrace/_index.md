@@ -3,7 +3,7 @@ title: IInkTrace
 second_title: Aspose.Slides for C++ API Reference
 description: Represents handwritten line in an Ink object.
 type: docs
-weight: 27
+weight: 40
 url: /aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace class

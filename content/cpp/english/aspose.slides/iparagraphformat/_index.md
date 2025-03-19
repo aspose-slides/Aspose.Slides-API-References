@@ -3,7 +3,7 @@ title: IParagraphFormat
 second_title: Aspose.Slides for C++ API Reference
 description: This class contains the paragraph formatting properties. Unlike IParagraphFormatEffectiveData, all properties of this class are writeable.
 type: docs
-weight: 3095
+weight: 3147
 url: /aspose.slides/iparagraphformat/
 ---
 ## IParagraphFormat class

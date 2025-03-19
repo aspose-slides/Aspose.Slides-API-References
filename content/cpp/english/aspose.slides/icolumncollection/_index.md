@@ -3,7 +3,7 @@ title: IColumnCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents collection of columns in a table.
 type: docs
-weight: 1691
+weight: 1743
 url: /aspose.slides/icolumncollection/
 ---
 ## IColumnCollection class

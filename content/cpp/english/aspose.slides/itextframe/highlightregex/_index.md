@@ -3,7 +3,7 @@ title: HighlightRegex()
 second_title: Aspose.Slides for C++ API Reference
 description: Highlights all matches of the regular expression with the specified color.
 type: docs
-weight: 118
+weight: 131
 url: /aspose.slides/itextframe/highlightregex/
 ---
 ## ITextFrame::HighlightRegex(System::SharedPtr\<System::Text::RegularExpressions::Regex\>, System::Drawing::Color, System::SharedPtr\<IFindResultCallback\>) method

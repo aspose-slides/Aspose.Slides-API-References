@@ -3,7 +3,7 @@ title: Details_OdpReadException
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an exception which thrown on presentation reading errors.
 type: docs
-weight: 586
+weight: 612
 url: /aspose.slides/details_odpreadexception/
 ---
 ## Details_OdpReadException class

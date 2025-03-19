@@ -3,7 +3,7 @@ title: Details_PptException
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a standard internal exception type.
 type: docs
-weight: 651
+weight: 677
 url: /aspose.slides/details_pptexception/
 ---
 ## Details_PptException class

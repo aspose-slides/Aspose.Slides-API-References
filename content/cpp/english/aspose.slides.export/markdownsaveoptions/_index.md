@@ -36,6 +36,7 @@ class MarkdownSaveOptions : public Aspose::Slides::Export::SaveOptions
 | **bool** [get_ShowComments](./get_showcomments/)() const | Specifies whether the generated document should show comments or not. Default is **false**. |
 | **bool** [get_ShowHiddenSlides](./get_showhiddenslides/)() const | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
 | **bool** [get_ShowSlideNumber](./get_showslidenumber/)() const | Specifies whether the generated document should show number of each slide or not. Default is **false**. |
+| **bool** [get_SkipJavaScriptLinks](../saveoptions/get_skipjavascriptlinks/)() override | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read **bool**. The default value is **false**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\> [get_WarningCallback](../saveoptions/get_warningcallback/)() override | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
@@ -65,6 +66,7 @@ class MarkdownSaveOptions : public Aspose::Slides::Export::SaveOptions
 | void [set_ShowComments](./set_showcomments/)(**bool**) | Specifies whether the generated document should show comments or not. Default is **false**. |
 | void [set_ShowHiddenSlides](./set_showhiddenslides/)(**bool**) | Specifies whether the generated document should include hidden slides or not. Default is **false**. |
 | void [set_ShowSlideNumber](./set_showslidenumber/)(**bool**) | Specifies whether the generated document should show number of each slide or not. Default is **false**. |
+| void [set_SkipJavaScriptLinks](../saveoptions/set_skipjavascriptlinks/)(**bool**) override | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Write **bool**. The default value is **false**. |
 | void [set_WarningCallback](../saveoptions/set_warningcallback/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/)\>) override | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Write [Aspose::Slides::Warnings::IWarningCallback](../../aspose.slides.warnings/iwarningcallback/). |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |

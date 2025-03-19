@@ -3,7 +3,7 @@ title: Details_PptxUnsupportedFormatException
 second_title: Aspose.Slides for C++ API Reference
 description: Exception which thrown when presentation file format is unsupported.
 type: docs
-weight: 729
+weight: 755
 url: /aspose.slides/details_pptxunsupportedformatexception/
 ---
 ## Details_PptxUnsupportedFormatException class

@@ -3,7 +3,7 @@ title: Comment
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a comment on a slide.
 type: docs
-weight: 391
+weight: 417
 url: /aspose.slides/comment/
 ---
 ## Comment class

@@ -3,7 +3,7 @@ title: DrawingGuidesCollection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a collection of the adjustable drawing guides.
 type: docs
-weight: 807
+weight: 833
 url: /aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection class

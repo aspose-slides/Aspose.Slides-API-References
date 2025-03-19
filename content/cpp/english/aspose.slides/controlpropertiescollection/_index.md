@@ -3,7 +3,7 @@ title: ControlPropertiesCollection
 second_title: Aspose.Slides for C++ API Reference
 description: A collection of AcitveX properties.
 type: docs
-weight: 508
+weight: 534
 url: /aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection class

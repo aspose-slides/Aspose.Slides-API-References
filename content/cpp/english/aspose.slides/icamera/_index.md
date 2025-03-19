@@ -3,7 +3,7 @@ title: ICamera
 second_title: Aspose.Slides for C++ API Reference
 description: Represents Camera.
 type: docs
-weight: 1561
+weight: 1587
 url: /aspose.slides/icamera/
 ---
 ## ICamera class

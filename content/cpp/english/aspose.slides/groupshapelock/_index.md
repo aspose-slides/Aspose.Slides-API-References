@@ -3,7 +3,7 @@ title: GroupShapeLock
 second_title: Aspose.Slides for C++ API Reference
 description: Determines which operations are disabled on the parent GroupShape.
 type: docs
-weight: 1184
+weight: 1210
 url: /aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock class

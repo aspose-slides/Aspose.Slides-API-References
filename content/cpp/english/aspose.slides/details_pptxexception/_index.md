@@ -3,7 +3,7 @@ title: Details_PptxException
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a standard internal exception type.
 type: docs
-weight: 703
+weight: 729
 url: /aspose.slides/details_pptxexception/
 ---
 ## Details_PptxException class

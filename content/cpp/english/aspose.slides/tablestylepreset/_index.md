@@ -3,7 +3,7 @@ title: TableStylePreset
 second_title: Aspose.Slides for C++ API Reference
 description: Represents builtin table styles.
 type: docs
-weight: 6358
+weight: 6410
 url: /aspose.slides/tablestylepreset/
 ---
 ## TableStylePreset enum

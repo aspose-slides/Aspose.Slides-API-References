@@ -3,7 +3,7 @@ title: ControlCollection
 second_title: Aspose.Slides for C++ API Reference
 description: A collection of ActiveX controls.
 type: docs
-weight: 495
+weight: 521
 url: /aspose.slides/controlcollection/
 ---
 ## ControlCollection class

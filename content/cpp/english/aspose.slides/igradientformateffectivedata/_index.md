@@ -3,7 +3,7 @@ title: IGradientFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Imutable object which contains effective gradient filling properties.
 type: docs
-weight: 2341
+weight: 2393
 url: /aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData class
