@@ -104,7 +104,7 @@ public abstract boolean getRefreshThumbnail()
 ```
 
 
-Specifies whether the presentation thumbnail will be refreshed. Read/write  boolean . Default value is  **true** .
+Specifies whether the presentation thumbnail will be refreshed. Read/write boolean. Default value is **true**.
 
 --------------------
 
@@ -123,9 +123,9 @@ Specifies whether the presentation thumbnail will be refreshed. Read/write  bool
 
 --------------------
 
-When the option value is  **true** , the new thumbnail will be generated.
+When the option value is **true**, the new thumbnail will be generated.
 
-When the option value is  **false** , the current thumbnail will be saved as is.
+When the option value is **false**, the current thumbnail will be saved as is.
 
 **Returns:**
 boolean
@@ -135,7 +135,7 @@ public abstract void setRefreshThumbnail(boolean value)
 ```
 
 
-Specifies whether the presentation thumbnail will be refreshed. Read/write  boolean . Default value is  **true** .
+Specifies whether the presentation thumbnail will be refreshed. Read/write boolean. Default value is **true**.
 
 --------------------
 
@@ -154,9 +154,9 @@ Specifies whether the presentation thumbnail will be refreshed. Read/write  bool
 
 --------------------
 
-When the option value is  **true** , the new thumbnail will be generated.
+When the option value is **true**, the new thumbnail will be generated.
 
-When the option value is  **false** , the current thumbnail will be saved as is.
+When the option value is **false**, the current thumbnail will be saved as is.
 
 **Parameters:**
 | Parameter | Type | Description |

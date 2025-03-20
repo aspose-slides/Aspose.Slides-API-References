@@ -40,7 +40,7 @@ In this example, an attempt will be made to find a license file named MyLicense.
 | [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licenses the component. |
 | [setLicense(String namePath)](#setLicense-java.lang.String-) | Licenses the component. |
 | [getVersion()](#getVersion--) | Returns version of Aspose.Slides for Java. |
-| [resetLicense()](#resetLicense--) | Reset the license Use this method to reset license in component |
+| [resetLicense()](#resetLicense--) | Reset the license. |
 | [isLicensed()](#isLicensed--) |  |
 ### License() {#License--}
 ```
@@ -131,12 +131,14 @@ public final void resetLicense()
 ```
 
 
-Reset the license Use this method to reset license in component
+Reset the license. Use this method to reset license in component.
 
-```
-License license = new License();
- license.resetLicense();
-```
+--------------------
+
+> ```
+> License license = new License();
+>  license.resetLicense();
+> ```
 
 ### isLicensed() {#isLicensed--}
 ```

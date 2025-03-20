@@ -39,6 +39,7 @@ Represents a video clip on a slide.
 | [setTrimFromStart(float value)](#setTrimFromStart-float-) | Trim start [ms] |
 | [getTrimFromEnd()](#getTrimFromEnd--) | Trim end [ms] |
 | [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Trim end [ms] |
+| [getCaptionTracks()](#getCaptionTracks--) | Returns the closed captions collection of the video. |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
@@ -307,3 +308,38 @@ Trim end [ms]
 | --- | --- | --- |
 | value | float |  |
 
+### getCaptionTracks() {#getCaptionTracks--}
+```
+public final ICaptionsCollection getCaptionTracks()
+```
+
+
+Returns the closed captions collection of the video. Read-only [ICaptionsCollection](../../com.aspose.slides/icaptionscollection).
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("video with captions.pptx");
+>  try {
+>      for (IShape shape : pres.getSlides().get_Item(0).getShapes())
+>      {
+>          if (!(shape instanceof IVideoFrame))
+>              continue;
+>          IVideoFrame videoFrame = (IVideoFrame) shape;
+>          for (ICaptions captionTrack : videoFrame.getCaptionTracks())
+>          {
+>              // Extracts the captions binary data and saves them to the file
+>              FileOutputStream fos = new FileOutputStream(captionTrack.getCaptionId() + ".vtt");
+>              fos.write(captionTrack.getBinaryData());
+>              fos.close();
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICaptionsCollection](../../com.aspose.slides/icaptionscollection)

@@ -358,7 +358,7 @@ Compresses the image by reducing its size based on the shape size and specified 
 This method changes the image's size and resolution similar to PowerPoint's "Picture Format -> Compress Pictures" feature. |
 
 **Returns:**
-boolean - A boolean indicating whether the image was successfully compressed. Returns   if the image was resized or cropped, otherwise  .
+boolean - A boolean indicating whether the image was successfully compressed. Returns true if the image was resized or cropped, otherwise false.
 ### compressImage(boolean deleteCroppedAreasOfImage, float resolution) {#compressImage-boolean-float-}
 ```
 public abstract boolean compressImage(boolean deleteCroppedAreasOfImage, float resolution)

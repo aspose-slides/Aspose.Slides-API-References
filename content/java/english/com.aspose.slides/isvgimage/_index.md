@@ -84,7 +84,7 @@ Saves the SVG image as an EMF file.
 >      // Creates the new SVG image
 >      ISvgImage svgImage = new SvgImage(new FileInputStream("content.svg"));
 >      ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
->      // Saves the SVG image as a metafille
+>      // Saves the SVG image as a metafile
 >      svgImage.writeAsEmf(byteStream);
 >      // Adds metafile to the image collection
 >      pres.getImages().addImage(byteStream.toByteArray());

@@ -72,16 +72,16 @@ Represents an audio clip on a slide.
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Returns or sets the name of an audio file which is linked to an AudioFrame. |
 | [getEmbeddedAudio()](#getEmbeddedAudio--) | Returns or sets embedded audio object. |
 | [setEmbeddedAudio(IAudio value)](#setEmbeddedAudio-com.aspose.slides.IAudio-) | Returns or sets embedded audio object. |
-| [getFadeInDuration()](#getFadeInDuration--) | Specifies the time duration for the starting fade of the media in milliseconds. |
-| [setFadeInDuration(float value)](#setFadeInDuration-float-) | Specifies the time duration for the starting fade of the media in milliseconds. |
-| [getFadeOutDuration()](#getFadeOutDuration--) | Specifies the time duration for the ending fade of the media in milliseconds. |
-| [setFadeOutDuration(float value)](#setFadeOutDuration-float-) | Specifies the time duration for the ending fade of the media in milliseconds. |
+| [getFadeInDuration()](#getFadeInDuration--) | Specifies the time duration for the initial fade-in of the media in milliseconds. |
+| [setFadeInDuration(float value)](#setFadeInDuration-float-) | Specifies the time duration for the initial fade-in of the media in milliseconds. |
+| [getFadeOutDuration()](#getFadeOutDuration--) | Specifies the time duration for the ending fade-out of the media in milliseconds. |
+| [setFadeOutDuration(float value)](#setFadeOutDuration-float-) | Specifies the time duration for the ending fade-out of the media in milliseconds. |
 | [getVolumeValue()](#getVolumeValue--) | Returns or sets the audio volume in percents. |
 | [setVolumeValue(float value)](#setVolumeValue-float-) | Returns or sets the audio volume in percents. |
-| [getTrimFromStart()](#getTrimFromStart--) | Specifies a duration of time to be removed from the start of the media during playback, in milliseconds. |
-| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Specifies a duration of time to be removed from the start of the media during playback, in milliseconds. |
-| [getTrimFromEnd()](#getTrimFromEnd--) | Specifies a duration of time to be removed from the end of the media during playback, in milliseconds. |
-| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Specifies a duration of time to be removed from the end of the media during playback, in milliseconds. |
+| [getTrimFromStart()](#getTrimFromStart--) | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. |
 ### getAudioCdStartTrack() {#getAudioCdStartTrack--}
 ```
 public final int getAudioCdStartTrack()
@@ -446,7 +446,7 @@ public final float getFadeInDuration()
 ```
 
 
-Specifies the time duration for the starting fade of the media in milliseconds. Read/write float.
+Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write float.
 
 --------------------
 
@@ -474,7 +474,7 @@ public final void setFadeInDuration(float value)
 ```
 
 
-Specifies the time duration for the starting fade of the media in milliseconds. Read/write float.
+Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write float.
 
 --------------------
 
@@ -505,7 +505,7 @@ public final float getFadeOutDuration()
 ```
 
 
-Specifies the time duration for the ending fade of the media in milliseconds. Read/write float.
+Specifies the time duration for the ending fade-out of the media in milliseconds. Read/write float.
 
 --------------------
 
@@ -533,7 +533,7 @@ public final void setFadeOutDuration(float value)
 ```
 
 
-Specifies the time duration for the ending fade of the media in milliseconds. Read/write float.
+Specifies the time duration for the ending fade-out of the media in milliseconds. Read/write float.
 
 --------------------
 
@@ -623,7 +623,7 @@ public final float getTrimFromStart()
 ```
 
 
-Specifies a duration of time to be removed from the start of the media during playback, in milliseconds. Read/write float.
+Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read/write float.
 
 --------------------
 
@@ -650,7 +650,7 @@ public final void setTrimFromStart(float value)
 ```
 
 
-Specifies a duration of time to be removed from the start of the media during playback, in milliseconds. Read/write float.
+Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read/write float.
 
 --------------------
 
@@ -680,7 +680,7 @@ public final float getTrimFromEnd()
 ```
 
 
-Specifies a duration of time to be removed from the end of the media during playback, in milliseconds. Read/write float.
+Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read/write float.
 
 --------------------
 
@@ -707,7 +707,7 @@ public final void setTrimFromEnd(float value)
 ```
 
 
-Specifies a duration of time to be removed from the end of the media during playback, in milliseconds. Read/write float.
+Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read/write float.
 
 --------------------
 
