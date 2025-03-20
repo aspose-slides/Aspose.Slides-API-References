@@ -38,6 +38,7 @@ Represents a picture fill style.
 | [getStretchOffsetBottom()](#getStretchOffsetBottom--) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
 | [setStretchOffsetBottom(float value)](#setStretchOffsetBottom-float-) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
 | [deletePictureCroppedAreas()](#deletePictureCroppedAreas--) | Delete cropped areas of the fill Picture. |
+| [compressImage(boolean deleteCroppedAreasOfImage, int resolution)](#compressImage-boolean-int-) | Compresses the image by reducing its size based on the shape size and specified resolution. |
 | [compressImage(boolean deleteCroppedAreasOfImage, float resolution)](#compressImage-boolean-float-) | Compresses the image by reducing its size based on the shape size and specified resolution. |
 | [getTileOffsetX()](#getTileOffsetX--) | Returns or sets the horizontal offset of the texture from the shape's origin in points. |
 | [setTileOffsetX(float value)](#setTileOffsetX-float-) | Returns or sets the horizontal offset of the texture from the shape's origin in points. |
@@ -320,6 +321,44 @@ Delete cropped areas of the fill Picture.
 --------------------
 
 This method converts WMF/EMF metafiles to raster PNG image while cropping.
+### compressImage(boolean deleteCroppedAreasOfImage, int resolution) {#compressImage-boolean-int-}
+```
+public abstract boolean compressImage(boolean deleteCroppedAreasOfImage, int resolution)
+```
+
+
+Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas.
+
+--------------------
+
+> ```
+> The following example demonstrates how to use the ```
+> CompressImage
+> ``` method to reduce the size of an image in a presentation by setting a target resolution and removing cropped areas:
+>  
+>  Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      IPictureFrame picFrame = (IPictureFrame)slide.getShapes().get_Item(0);
+>      // Compress the image with a target resolution of 150 DPI (Web resolution) and remove cropped areas
+>      boolean result = picFrame.getPictureFormat().compressImage(true, PicturesCompression.Dpi150);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| deleteCroppedAreasOfImage | boolean | If true, the method will remove the cropped areas of the image, potentially further reducing its size. |
+| resolution | int | The target resolution for compression, specified as a value of the [PicturesCompression](../../com.aspose.slides/picturescompression) enum.
+
+--------------------
+
+This method changes the image's size and resolution similar to PowerPoint's "Picture Format -> Compress Pictures" feature. |
+
+**Returns:**
+boolean - A boolean indicating whether the image was successfully compressed. Returns true if the image was resized or cropped, otherwise false.
 ### compressImage(boolean deleteCroppedAreasOfImage, float resolution) {#compressImage-boolean-float-}
 ```
 public abstract boolean compressImage(boolean deleteCroppedAreasOfImage, float resolution)

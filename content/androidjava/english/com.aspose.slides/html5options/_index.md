@@ -51,6 +51,8 @@ Represents a HTML5 exporting options.
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
 | [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
 | [setNotesCommentsLayouting(INotesCommentsLayoutingOptions value)](#setNotesCommentsLayouting-com.aspose.slides.INotesCommentsLayoutingOptions-) | Provides options that control how notes and comments is placed in exported document. |
+| [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
+| [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
@@ -339,4 +341,59 @@ Provides options that control how notes and comments is placed in exported docum
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) |  |
+
+### getDisableFontLigatures() {#getDisableFontLigatures--}
+```
+public final boolean getDisableFontLigatures()
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      Html5Options options = new Html5Options();
+>      options.setDisableFontLigatures(true); // Disable ligatures in text rendering
+> 
+>      pres.save("output.html", SaveFormat.Html5, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setDisableFontLigatures(boolean value) {#setDisableFontLigatures-boolean-}
+```
+public final void setDisableFontLigatures(boolean value)
+```
+
+
+Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      Html5Options options = new Html5Options();
+>      options.setDisableFontLigatures(true); // Disable ligatures in text rendering
+> 
+>      pres.save("output.html", SaveFormat.Html5, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

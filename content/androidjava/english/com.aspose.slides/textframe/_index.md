@@ -28,6 +28,7 @@ Represents a TextFrame.
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Joins runs with same formatting in all paragraphs. |
 | [highlightText(String text, Integer highlightColor)](#highlightText-java.lang.String-java.lang.Integer-) | Highlights all matches of the sample text with the specified color. |
 | [highlightText(String text, Integer highlightColor, ITextHighlightingOptions options)](#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextHighlightingOptions-) | Highlights all matches of the sample text with the specified color. |
+| [splitTextByColumns()](#splitTextByColumns--) | Splits the text content of the [ITextFrame](../../com.aspose.slides/itextframe) into an array of strings, where each element corresponds to a separate text column within the frame. |
 | [highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback)](#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the sample text with the specified color. |
 | [highlightRegex(String regex, Integer highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.lang.Integer-com.aspose.slides.ITextHighlightingOptions-) | Highlights all matches of the regular expression with the specified color. |
 | [highlightRegex(Pattern regex, Integer highlightColor, IFindResultCallback callback)](#highlightRegex-java.util.regex.Pattern-java.lang.Integer-com.aspose.slides.IFindResultCallback-) | Highlights all matches of the regular expression with the specified color. |
@@ -35,6 +36,8 @@ Represents a TextFrame.
 | [replaceRegex(Pattern regex, String newText, IFindResultCallback callback)](#replaceRegex-java.util.regex.Pattern-java.lang.String-com.aspose.slides.IFindResultCallback-) | Replaces all matches of regular expression with specified string. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a TextFrame. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a TextFrame. |
+| [getParentShape()](#getParentShape--) | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [IShape](../../com.aspose.slides/ishape). |
+| [getParentCell()](#getParentCell--) | Returns the parent cell or null if the parent object does not implement the ICell interface. |
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -157,6 +160,39 @@ Highlights all matches of the sample text with the specified color.
 | highlightColor | java.lang.Integer | The color to highlight the text. |
 | options | [ITextHighlightingOptions](../../com.aspose.slides/itexthighlightingoptions) | Highlighting options. |
 
+### splitTextByColumns() {#splitTextByColumns--}
+```
+public final String[] splitTextByColumns()
+```
+
+
+Splits the text content of the [ITextFrame](../../com.aspose.slides/itextframe) into an array of strings, where each element corresponds to a separate text column within the frame.
+
+--------------------
+
+> ```
+> The following example demonstrates how to use #splitTextByColumns.splitTextByColumns:
+>  
+>  Presentation pres = new Presentation("example.pptx");
+>  try {
+>      // Get the first shape on the slide and cast it to ITextFrame
+>      ITextFrame textFrame = (ITextFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      // Split the text frame content into columns
+>      String[] columnsText = textFrame.splitTextByColumns();
+>      // Print each column's text to the console
+>      for (String column : columnsText)
+>          System.out.println(column);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+java.lang.String[] - An array of strings, where each string represents the text content of a specific column in the [ITextFrame](../../com.aspose.slides/itextframe).
+
+--------------------
+
+If the text frame does not contain multiple columns, the returned array will have a single element containing the full text. Empty columns will be represented as empty strings in the array.
 ### highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback) {#highlightText-java.lang.String-java.lang.Integer-com.aspose.slides.ITextSearchOptions-com.aspose.slides.IFindResultCallback-}
 ```
 public final void highlightText(String text, Integer highlightColor, ITextSearchOptions options, IFindResultCallback callback)
@@ -338,3 +374,59 @@ Returns the parent presentation of a TextFrame. Read-only [IPresentation](../../
 
 **Returns:**
 [IPresentation](../../com.aspose.slides/ipresentation)
+### getParentShape() {#getParentShape--}
+```
+public final IShape getParentShape()
+```
+
+
+Returns the parent shape or null if the parent object does not implement the IShape interface Read-only [IShape](../../com.aspose.slides/ishape).
+
+--------------------
+
+> ```
+> The following code sample shows 
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
+> 
+>      // These assertions are always true
+>      Assert.assertTrue(autoShape.getTextFrame().getParentShape() == autoShape);
+>      Assert.assertTrue((table.get_Item(0,0).getTextFrame()).getParentShape() == null);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[IShape](../../com.aspose.slides/ishape)
+### getParentCell() {#getParentCell--}
+```
+public final ICell getParentCell()
+```
+
+
+Returns the parent cell or null if the parent object does not implement the ICell interface. Read-only [ICell](../../com.aspose.slides/icell).
+
+--------------------
+
+> ```
+> The following code sample shows 
+>  
+>  Presentation presentation = new Presentation("SomePresentation.pptx");
+>  try {
+>      AutoShape autoShape = (AutoShape)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      Table table = (Table)presentation.getSlides().get_Item(0).getShapes().get_Item(1);
+> 
+>      // These assertions are always true
+>      Assert.assertTrue(table.get_Item(0,0).getTextFrame().getParentCell() == table.get_Item(0,0));
+>      Assert.assertTrue(autoShape.getTextFrame().getParentCell() == null);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[ICell](../../com.aspose.slides/icell)

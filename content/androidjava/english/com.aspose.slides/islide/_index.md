@@ -42,8 +42,9 @@ Represents a slide in a presentation.
 | [setLayoutSlide(ILayoutSlide value)](#setLayoutSlide-com.aspose.slides.ILayoutSlide-) | Returns or sets the layout slide for the current slide. |
 | [getNotesSlideManager()](#getNotesSlideManager--) | Allow to access notes slide, add and remove it. |
 | [getSlideComments(ICommentAuthor author)](#getSlideComments-com.aspose.slides.ICommentAuthor-) | Returns all slide comments added by specific author. |
-| [writeAsSvg(OutputStream stream)](#writeAsSvg-java.io.OutputStream-) | Saves content of slide as SVG file. |
-| [writeAsSvg(OutputStream stream, ISVGOptions svgOptions)](#writeAsSvg-java.io.OutputStream-com.aspose.slides.ISVGOptions-) | Saves content of slide as SVG file. |
+| [writeAsSvg(OutputStream stream)](#writeAsSvg-java.io.OutputStream-) | Saves the slide content as an SVG file. |
+| [writeAsSvg(OutputStream stream, ISVGOptions svgOptions)](#writeAsSvg-java.io.OutputStream-com.aspose.slides.ISVGOptions-) | Saves the slide content as an SVG file. |
+| [writeAsEmf(OutputStream stream)](#writeAsEmf-java.io.OutputStream-) | Saves the slide content as an EMF file. |
 | [remove()](#remove--) | Removes slide from presentation. |
 | [reset()](#reset--) | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
@@ -409,7 +410,7 @@ public abstract void writeAsSvg(OutputStream stream)
 ```
 
 
-Saves content of slide as SVG file.
+Saves the slide content as an SVG file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -422,13 +423,26 @@ public abstract void writeAsSvg(OutputStream stream, ISVGOptions svgOptions)
 ```
 
 
-Saves content of slide as SVG file.
+Saves the slide content as an SVG file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | Target stream |
 | svgOptions | [ISVGOptions](../../com.aspose.slides/isvgoptions) | SVG generation options |
+
+### writeAsEmf(OutputStream stream) {#writeAsEmf-java.io.OutputStream-}
+```
+public abstract void writeAsEmf(OutputStream stream)
+```
+
+
+Saves the slide content as an EMF file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | Target stream |
 
 ### remove() {#remove--}
 ```

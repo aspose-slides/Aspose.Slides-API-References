@@ -125,6 +125,20 @@ Represents properties of a presentation.
 | [setCustomPropertyValue(String name, double value)](#setCustomPropertyValue-java.lang.String-double-) | Sets a named double custom property. |
 | [clearCustomProperties()](#clearCustomProperties--) | Removes all custom properties. |
 | [clearBuiltInProperties()](#clearBuiltInProperties--) | Clears and sets default values for all builtIn properties. |
+| [getScaleCrop()](#getScaleCrop--) | Indicates the display mode of the document thumbnail. |
+| [setScaleCrop(boolean value)](#setScaleCrop-boolean-) | Indicates the display mode of the document thumbnail. |
+| [getLinksUpToDate()](#getLinksUpToDate--) | Indicates whether hyperlinks in a document are up-to-date. |
+| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | Indicates whether hyperlinks in a document are up-to-date. |
+| [getHyperlinksChanged()](#getHyperlinksChanged--) | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. |
+| [setHyperlinksChanged(boolean value)](#setHyperlinksChanged-boolean-) | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. |
+| [getSlides()](#getSlides--) | Returns the total number of slides in a presentation document. |
+| [getHiddenSlides()](#getHiddenSlides--) | Returns the number of hidden slides in a presentation document. |
+| [getNotes()](#getNotes--) | Returns the number of slides in a presentation containing notes. |
+| [getParagraphs()](#getParagraphs--) | Returns the total number of paragraphs found in a document if applicable. |
+| [getWords()](#getWords--) | Returns the total number of words contained in a document. |
+| [getMultimediaClips()](#getMultimediaClips--) | Returns the total number of sound or video clips that are present in the document. |
+| [getTitlesOfParts()](#getTitlesOfParts--) | Specifies the title of each document part. |
+| [getHeadingPairs()](#getHeadingPairs--) | Indicates the grouping of document parts and the number of parts in each group. |
 | [deepClone()](#deepClone--) | Clones current object |
 | [cloneT()](#cloneT--) | Clones current object |
 ### DocumentProperties() {#DocumentProperties--}
@@ -667,7 +681,7 @@ Remove a custom property associated with a specified name.
 | name | java.lang.String | Name of a custom property to remove. |
 
 **Returns:**
-boolean - Return true if a property was removed, false overwise.
+boolean - Return true if a property was removed, false otherwise.
 ### containsCustomProperty(String name) {#containsCustomProperty-java.lang.String-}
 ```
 public final boolean containsCustomProperty(String name)
@@ -682,7 +696,7 @@ Check presents of a custom property with a specified name.
 | name | java.lang.String | Name of a custom property to check. |
 
 **Returns:**
-boolean - Return true if property exists, false overwise.
+boolean - Return true if property exists, false otherwise.
 ### get_Item(String name) {#get-Item-java.lang.String-}
 ```
 public final Object get_Item(String name)
@@ -904,6 +918,155 @@ public final void clearBuiltInProperties()
 
 Clears and sets default values for all builtIn properties.
 
+### getScaleCrop() {#getScaleCrop--}
+```
+public final boolean getScaleCrop()
+```
+
+
+Indicates the display mode of the document thumbnail. Set this element to **true** to enable scaling of the document thumbnail to the display. Set this element to **false** to enable cropping of the document thumbnail to show only sections that fits the display. Read/write boolean.
+
+**Returns:**
+boolean
+### setScaleCrop(boolean value) {#setScaleCrop-boolean-}
+```
+public final void setScaleCrop(boolean value)
+```
+
+
+Indicates the display mode of the document thumbnail. Set this element to **true** to enable scaling of the document thumbnail to the display. Set this element to **false** to enable cropping of the document thumbnail to show only sections that fits the display. Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getLinksUpToDate() {#getLinksUpToDate--}
+```
+public final boolean getLinksUpToDate()
+```
+
+
+Indicates whether hyperlinks in a document are up-to-date. Set this element to **true** to indicate that hyperlinks are updated. Set this element to **false** to indicate that hyperlinks are outdated. Read/write boolean.
+
+**Returns:**
+boolean
+### setLinksUpToDate(boolean value) {#setLinksUpToDate-boolean-}
+```
+public final void setLinksUpToDate(boolean value)
+```
+
+
+Indicates whether hyperlinks in a document are up-to-date. Set this element to **true** to indicate that hyperlinks are updated. Set this element to **false** to indicate that hyperlinks are outdated. Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getHyperlinksChanged() {#getHyperlinksChanged--}
+```
+public final boolean getHyperlinksChanged()
+```
+
+
+Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write boolean.
+
+**Returns:**
+boolean
+### setHyperlinksChanged(boolean value) {#setHyperlinksChanged-boolean-}
+```
+public final void setHyperlinksChanged(boolean value)
+```
+
+
+Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getSlides() {#getSlides--}
+```
+public final int getSlides()
+```
+
+
+Returns the total number of slides in a presentation document. Read-only int.
+
+**Returns:**
+int
+### getHiddenSlides() {#getHiddenSlides--}
+```
+public final int getHiddenSlides()
+```
+
+
+Returns the number of hidden slides in a presentation document. Read-only int.
+
+**Returns:**
+int
+### getNotes() {#getNotes--}
+```
+public final int getNotes()
+```
+
+
+Returns the number of slides in a presentation containing notes. Read-only int.
+
+**Returns:**
+int
+### getParagraphs() {#getParagraphs--}
+```
+public final int getParagraphs()
+```
+
+
+Returns the total number of paragraphs found in a document if applicable. Read-only int.
+
+**Returns:**
+int
+### getWords() {#getWords--}
+```
+public final int getWords()
+```
+
+
+Returns the total number of words contained in a document. Read-only int.
+
+**Returns:**
+int
+### getMultimediaClips() {#getMultimediaClips--}
+```
+public final int getMultimediaClips()
+```
+
+
+Returns the total number of sound or video clips that are present in the document. Read-only int.
+
+**Returns:**
+int
+### getTitlesOfParts() {#getTitlesOfParts--}
+```
+public final String[] getTitlesOfParts()
+```
+
+
+Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only String[].
+
+**Returns:**
+java.lang.String[]
+### getHeadingPairs() {#getHeadingPairs--}
+```
+public final IHeadingPair[] getHeadingPairs()
+```
+
+
+Indicates the grouping of document parts and the number of parts in each group. Read-only IHeadingPair[].
+
+**Returns:**
+com.aspose.slides.IHeadingPair[]
 ### deepClone() {#deepClone--}
 ```
 public final Object deepClone()

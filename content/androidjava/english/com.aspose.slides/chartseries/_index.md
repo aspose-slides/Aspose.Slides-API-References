@@ -74,7 +74,7 @@ Represents a chart series.
 | [getGapDepth()](#getGapDepth--) | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. |
 | [getFirstSliceAngle()](#getFirstSliceAngle--) | Specifies the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). |
 | [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents of the size of the plot area.). |
-| [getOverlap()](#getOverlap--) | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). |
+| [getOverlap()](#getOverlap--) | Specifies how much bars and columns overlap on 2-D charts, as a percentage (from -100% to 100%). |
 | [getSecondPieSize()](#getSecondPieSize--) | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). |
 | [hasSeriesLines()](#hasSeriesLines--) | Determines whether there are series lines for this series and kindred series. |
 | [getBubbleSizeRepresentation()](#getBubbleSizeRepresentation--) | Specifies how the bubble size values are represented on the bubble chart. |
@@ -727,11 +727,11 @@ public final byte getOverlap()
 ```
 
 
-Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.Overlap read/write property for change value. Read-only byte.
+Specifies how much bars and columns overlap on 2-D charts, as a percentage (from -100% to 100%). This is the property not only of this series but of all series of parent series group. It is a projection of the appropriate property in the parent series group, and so this property is read-only. To change the value, use the ParentSeriesGroup.Overlap read/write property. Read-only byte.
 
 --------------------
 
-This is the projection of the property ParentSeriesGroup.Overlap.
+Overlap specifies the degree of overlap or spacing between bars and columns as a percentage of their width: - -100%: Maximum spacing (bars are completely separated). - 0%: Bars are placed side by side without overlap or spacing. - 100%: Maximum overlap (bars completely overlap each other). This is a projection of the property ParentSeriesGroup.Overlap.
 
 **Returns:**
 byte

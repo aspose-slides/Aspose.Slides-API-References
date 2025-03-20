@@ -32,20 +32,21 @@ Represents a slide in a presentation.
 | [getThumbnail()](#getThumbnail--) | Returns a Thumbnail Image object (20% of real size). |
 | [getImage()](#getImage--) | Returns a Thumbnail Image object (20% of real size). |
 | [getThumbnail(IRenderingOptions options)](#getThumbnail-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Bitmap object. |
-| [getThumbnail(Size imageSize)](#getThumbnail-com.aspose.slides.android.Size-) | Returns a Thumbnail Bitmap object with specified size. |
+| [getThumbnail(Size imageSize)](#getThumbnail-com.aspose.slides.android.Size-) | Returns a Thumbnail Image object with specified size. |
 | [getImage(Size imageSize)](#getImage-com.aspose.slides.android.Size-) | Returns a Thumbnail Image object with specified size. |
 | [getThumbnail(ITiffOptions options)](#getThumbnail-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff image object with specified parameters. |
 | [getImage(ITiffOptions options)](#getImage-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff image object with specified parameters. |
 | [getImage(IRenderingOptions options)](#getImage-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Image object. |
-| [getThumbnail(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail android.graphics.Bitmap object with custom scaling. |
+| [getThumbnail(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Image object with custom scaling. |
 | [getImage(IRenderingOptions options, float scaleX, float scaleY)](#getImage-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Image object with custom scaling. |
 | [getThumbnail(IRenderingOptions options, Size imageSize)](#getThumbnail-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap object with specified size. |
 | [getImage(IRenderingOptions options, Size imageSize)](#getImage-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail Image object with specified size. |
 | [renderToGraphics(IRenderingOptions options, Canvas graphics)](#renderToGraphics-com.aspose.slides.IRenderingOptions-android.graphics.Canvas-) | Renders certain slide to a Graphics object. |
 | [renderToGraphics(IRenderingOptions options, Canvas graphics, float scaleX, float scaleY)](#renderToGraphics-com.aspose.slides.IRenderingOptions-android.graphics.Canvas-float-float-) | Renders certain slide to a Graphics object with custom scaling. |
 | [renderToGraphics(IRenderingOptions options, Canvas graphics, Size renderingSize)](#renderToGraphics-com.aspose.slides.IRenderingOptions-android.graphics.Canvas-com.aspose.slides.android.Size-) | Renders certain slide to a Graphics object using specified size. |
-| [writeAsSvg(OutputStream stream)](#writeAsSvg-java.io.OutputStream-) | Saves content of slide as SVG file. |
-| [writeAsSvg(OutputStream stream, ISVGOptions svgOptions)](#writeAsSvg-java.io.OutputStream-com.aspose.slides.ISVGOptions-) | Saves content of slide as SVG file. |
+| [writeAsSvg(OutputStream stream)](#writeAsSvg-java.io.OutputStream-) | Saves the slide content as an SVG file. |
+| [writeAsSvg(OutputStream stream, ISVGOptions svgOptions)](#writeAsSvg-java.io.OutputStream-com.aspose.slides.ISVGOptions-) | Saves the slide content as an SVG file. |
+| [writeAsEmf(OutputStream stream)](#writeAsEmf-java.io.OutputStream-) | Saves the slide content as an EMF file. |
 | [remove()](#remove--) | Removes slide from presentation. |
 | [getLayoutSlide()](#getLayoutSlide--) | Returns or sets the layout slide for the current slide. |
 | [setLayoutSlide(ILayoutSlide value)](#setLayoutSlide-com.aspose.slides.ILayoutSlide-) | Returns or sets the layout slide for the current slide. |
@@ -79,7 +80,7 @@ public final int getSlideNumber()
 ```
 
 
-Returns a number of slide. Index of slide in ([Presentation.getSlides](../../com.aspose.slides/presentation\#getSlides)) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int.
+Returns a number of slide. Index of slide in [Presentation.getSlides](../../com.aspose.slides/presentation\#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int.
 
 **Returns:**
 int
@@ -89,7 +90,7 @@ public final void setSlideNumber(int value)
 ```
 
 
-Returns a number of slide. Index of slide in ([Presentation.getSlides](../../com.aspose.slides/presentation\#getSlides)) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int.
+Returns a number of slide. Index of slide in [Presentation.getSlides](../../com.aspose.slides/presentation\#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -382,7 +383,7 @@ public final Bitmap getThumbnail(Size imageSize)
 ```
 
 
-Returns a Thumbnail Bitmap object with specified size.
+Returns a Thumbnail Image object with specified size.
 
 --------------------
 
@@ -392,16 +393,9 @@ Returns a Thumbnail Bitmap object with specified size.
 >  Presentation pres = new Presentation("Presentation.pptx");
 >  try {
 >      // Converts the first slide in the presentation to a Bitmap with the specified size
->      android.graphics.Bitmap bmp = pres.getSlides().get_Item(0).getThumbnail(new com.aspose.slides.android.Size(1820, 1040));
+>      IImage image = pres.getSlides().get_Item(0).getImage(new com.aspose.slides.android.Size(1820, 1040));
 >      // Saves the image in the JPEG format
->      FileOutputStream fos = null;
->      try {
->          fos = new FileOutputStream("Slide_0.jpg");
->          bmp.compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, fos);
->      } finally {
->          if (fos != null) fos.close();
->      }
->  } catch(IOException e) {
+>      image.save("Slide_0.jpg", ImageFormat.Jpeg);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -496,7 +490,7 @@ public final Bitmap getThumbnail(IRenderingOptions options, float scaleX, float 
 ```
 
 
-Returns a Thumbnail android.graphics.Bitmap object with custom scaling.
+Returns a Thumbnail Image object with custom scaling.
 
 --------------------
 
@@ -520,15 +514,9 @@ Returns a Thumbnail android.graphics.Bitmap object with custom scaling.
 >      // Set layout options for rendering
 >      options.setSlidesLayoutOptions(notesCommentsLayouting);
 >      // Converts the first slide of the presentation to a android.graphics.Bitmap object
->      android.graphics.Bitmap bmp = pres.getSlides().get_Item(0).getThumbnail(options, 2f, 2f);
->      // Saves the image in the PNG format
->      FileOutputStream fos = null;
->      try {
->          fos = new FileOutputStream("Slide_Notes_Comments_0.png");
->          bmp.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
->      } finally {
->          if (fos != null) fos.close();
->      }
+>      IImage image = pres.getSlides().get_Item(0).getImage(options, 2f, 2f);
+>      // Saves the image in the GIF format
+>      image.save("Slide_Notes_Comments_0.gif", ImageFormat.Gif);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -558,26 +546,26 @@ Returns a Thumbnail Image object with custom scaling.
 >  
 >  Presentation pres = new Presentation("PresentationNotesComments.pptx");
 >  try {
->      // Creates the rendering options
+>      // Create the rendering options
 >      IRenderingOptions options = new RenderingOptions();
->      // Creates the notes comments options
->      NotesCommentsLayoutingOptions notesOption = new NotesCommentsLayoutingOptions();
+>      // Create notes and comments layouting options
+>      NotesCommentsLayoutingOptions notesCommentsLayouting = new NotesCommentsLayoutingOptions();
 >      // Sets the position of the notes on the page
->      notesOption.setNotesPosition(NotesPositions.BottomTruncated);
+>      notesCommentsLayouting.setNotesPosition(NotesPositions.BottomTruncated);
 >      // Sets the position of the comments on the page
->      notesOption.setCommentsPosition(CommentsPositions.Right);
+>      notesCommentsLayouting.setCommentsPosition(CommentsPositions.Right);
 >      // Sets the width of the comment output area
->      notesOption.setCommentsAreaWidth(500);
+>      notesCommentsLayouting.setCommentsAreaWidth(500);
 >      // Sets the color for the comments area
->      notesOption.setCommentsAreaColor(Color.WHITE);
->      // Sets the notes options for rendering options
->      options.setSlidesLayoutOptions(notesOption);
+>      notesCommentsLayouting.setCommentsAreaColor(Color.WHITE);
+>      // Set layout options for rendering
+>      options.setSlidesLayoutOptions(notesCommentsLayouting);
 >      // Converts the first slide of the presentation to a IImage object
 >      IImage image = pres.getSlides().get_Item(0).getImage(options, 2f, 2f);
->      // Saves the image in the PNG format
->      image.save("Slide_Notes_Comments_0.png", ImageFormat.Png);
+>      // Saves the image in the GIF format
+>      image.save("Slide_Notes_Comments_0.gif", ImageFormat.Gif);
 >  } finally {
->      pres.dispose();
+>      if (pres != null) pres.dispose();
 >  }
 > ```
 
@@ -734,27 +722,20 @@ public final void writeAsSvg(OutputStream stream)
 ```
 
 
-Saves content of slide as SVG file.
+Saves the slide content as an SVG file.
 
 --------------------
 
 > ```
-> The following example shows how to convert PowerPoint to PDF with custom options.
+> The following code example demonstrates how to convert the first slide from a PowerPoint presentation into an SVG file.
 >  
->  // Presentation object can load PowerPoint formats like PPT, PPTX, ODP etc.
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
->      for (int index = 0; index < pres.getSlides().size(); index++)
+>      FileOutputStream fileStream = new FileOutputStream("slide_1.svg");
 >      {
->          ISlide slide = pres.getSlides().get_Item(index);
->          FileOutputStream fileStream = new FileOutputStream("slide-" + index + ".svg");
->          try {
->              slide.writeAsSvg(fileStream);
->          } finally {
->              if (fileStream != null) fileStream.close();
->          }
+>          // Saves the first slide as an SVG file
+>          pres.getSlides().get_Item(0).writeAsSvg(fileStream);
 >      }
->  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -771,33 +752,21 @@ public final void writeAsSvg(OutputStream stream, ISVGOptions svgOptions)
 ```
 
 
-Saves content of slide as SVG file.
+Saves the slide content as an SVG file.
 
 --------------------
 
 > ```
-> The following example code shows how to generate SVG image with Custom Shape IDS from PowerPoint Presentation.
+> The following code example demonstrates how to convert the first slide from a PowerPoint presentation into an SVG file with options.
 >  
->  // Instantiate a Presentation class that represents the presentation file
->  Presentation pres = new Presentation("CreateSlidesSVGImage.pptx");
+>  Presentation pres = new Presentation("pres.pptx");
 >  try {
->      // Access the first slide
->      ISlide sld = pres.getSlides().get_Item(0);
->      // Create a memory stream object
->      ByteArrayOutputStream svgStream = new ByteArrayOutputStream();
->      // Generate SVG image of slide and save in memory stream
->      sld.writeAsSvg(svgStream);
->      // Save memory stream to file
->      FileOutputStream fileStream = new FileOutputStream("Aspose_out.svg");
->      try {
->          svgStream.writeTo(fileStream);
->      } finally {
->          if (fileStream != null) fileStream.close();
->      }
->      svgStream.close();
->  } catch(IOException e) { }
->  finally
->  {
+>      FileOutputStream fileStream = new FileOutputStream("slide1.svg");
+>      SVGOptions options = new SVGOptions();
+>      options.setVectorizeText(true);
+>      // Saves the first slide as an SVG file
+>      pres.getSlides().get_Item(0).writeAsSvg(fileStream, options);
+>  } finally {
 >      if (pres != null) pres.dispose();
 >  }
 > ```
@@ -807,6 +776,36 @@ Saves content of slide as SVG file.
 | --- | --- | --- |
 | stream | java.io.OutputStream | Target stream |
 | svgOptions | [ISVGOptions](../../com.aspose.slides/isvgoptions) | SVG generation options |
+
+### writeAsEmf(OutputStream stream) {#writeAsEmf-java.io.OutputStream-}
+```
+public final void writeAsEmf(OutputStream stream)
+```
+
+
+Saves the slide content as an EMF file.
+
+--------------------
+
+> ```
+> The following code example demonstrates how to convert the first slide from a PowerPoint presentation into a metafile.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      FileOutputStream fileStream = new FileOutputStream("slide_1.emf");
+>      {
+>          // Saves the first slide as a metafille
+>          pres.getSlides().get_Item(0).writeAsEmf(fileStream);
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | Target stream |
 
 ### remove() {#remove--}
 ```

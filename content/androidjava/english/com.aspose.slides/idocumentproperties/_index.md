@@ -56,6 +56,20 @@ Represents properties of a presentation.
 | [setContentType(String value)](#setContentType-java.lang.String-) | Returns or sets the content type of a presentation. |
 | [getHyperlinkBase()](#getHyperlinkBase--) | Returns or sets the HyperlinkBase document property. |
 | [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | Returns or sets the HyperlinkBase document property. |
+| [getScaleCrop()](#getScaleCrop--) | Indicates the display mode of the document thumbnail. |
+| [setScaleCrop(boolean value)](#setScaleCrop-boolean-) | Indicates the display mode of the document thumbnail. |
+| [getLinksUpToDate()](#getLinksUpToDate--) | Indicates whether hyperlinks in a document are up-to-date. |
+| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | Indicates whether hyperlinks in a document are up-to-date. |
+| [getHyperlinksChanged()](#getHyperlinksChanged--) | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. |
+| [setHyperlinksChanged(boolean value)](#setHyperlinksChanged-boolean-) | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. |
+| [getSlides()](#getSlides--) | Specifies the total number of slides in a presentation document. |
+| [getHiddenSlides()](#getHiddenSlides--) | Specifies the number of hidden slides in a presentation document. |
+| [getNotes()](#getNotes--) | Specifies the number of slides in a presentation containing notes. |
+| [getParagraphs()](#getParagraphs--) | Specifies the total number of paragraphs found in a document if applicable. |
+| [getWords()](#getWords--) | Specifies the total number of words contained in a document. |
+| [getMultimediaClips()](#getMultimediaClips--) | Specifies the total number of sound or video clips that are present in the document. |
+| [getTitlesOfParts()](#getTitlesOfParts--) | Specifies the title of each document part. |
+| [getHeadingPairs()](#getHeadingPairs--) | Indicates the grouping of document parts and the number of parts in each group. |
 | [getCountOfCustomProperties()](#getCountOfCustomProperties--) | Returns the number of custom properties actually contained in a collection. |
 | [getCustomPropertyName(int index)](#getCustomPropertyName-int-) | Return a custom property name at the specified index. |
 | [removeCustomProperty(String name)](#removeCustomProperty-java.lang.String-) | Remove a custom property associated with a specified name. |
@@ -573,6 +587,155 @@ Returns or sets the HyperlinkBase document property. Read/write String.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getScaleCrop() {#getScaleCrop--}
+```
+public abstract boolean getScaleCrop()
+```
+
+
+Indicates the display mode of the document thumbnail. Set this element to **true** to enable scaling of the document thumbnail to the display. Set this element to **false** to enable cropping of the document thumbnail to show only sections that fits the display. Read/write boolean.
+
+**Returns:**
+boolean
+### setScaleCrop(boolean value) {#setScaleCrop-boolean-}
+```
+public abstract void setScaleCrop(boolean value)
+```
+
+
+Indicates the display mode of the document thumbnail. Set this element to **true** to enable scaling of the document thumbnail to the display. Set this element to **false** to enable cropping of the document thumbnail to show only sections that fits the display. Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getLinksUpToDate() {#getLinksUpToDate--}
+```
+public abstract boolean getLinksUpToDate()
+```
+
+
+Indicates whether hyperlinks in a document are up-to-date. Set this element to **true** to indicate that hyperlinks are updated. Set this element to **false** to indicate that hyperlinks are outdated. Read/write boolean.
+
+**Returns:**
+boolean
+### setLinksUpToDate(boolean value) {#setLinksUpToDate-boolean-}
+```
+public abstract void setLinksUpToDate(boolean value)
+```
+
+
+Indicates whether hyperlinks in a document are up-to-date. Set this element to **true** to indicate that hyperlinks are updated. Set this element to **false** to indicate that hyperlinks are outdated. Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getHyperlinksChanged() {#getHyperlinksChanged--}
+```
+public abstract boolean getHyperlinksChanged()
+```
+
+
+Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write boolean.
+
+**Returns:**
+boolean
+### setHyperlinksChanged(boolean value) {#setHyperlinksChanged-boolean-}
+```
+public abstract void setHyperlinksChanged(boolean value)
+```
+
+
+Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getSlides() {#getSlides--}
+```
+public abstract int getSlides()
+```
+
+
+Specifies the total number of slides in a presentation document. Read-only int.
+
+**Returns:**
+int
+### getHiddenSlides() {#getHiddenSlides--}
+```
+public abstract int getHiddenSlides()
+```
+
+
+Specifies the number of hidden slides in a presentation document. Read-only int.
+
+**Returns:**
+int
+### getNotes() {#getNotes--}
+```
+public abstract int getNotes()
+```
+
+
+Specifies the number of slides in a presentation containing notes. Read-only int.
+
+**Returns:**
+int
+### getParagraphs() {#getParagraphs--}
+```
+public abstract int getParagraphs()
+```
+
+
+Specifies the total number of paragraphs found in a document if applicable. Read-only int.
+
+**Returns:**
+int
+### getWords() {#getWords--}
+```
+public abstract int getWords()
+```
+
+
+Specifies the total number of words contained in a document. Read-only int.
+
+**Returns:**
+int
+### getMultimediaClips() {#getMultimediaClips--}
+```
+public abstract int getMultimediaClips()
+```
+
+
+Specifies the total number of sound or video clips that are present in the document. Read-only int.
+
+**Returns:**
+int
+### getTitlesOfParts() {#getTitlesOfParts--}
+```
+public abstract String[] getTitlesOfParts()
+```
+
+
+Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only String[].
+
+**Returns:**
+java.lang.String[]
+### getHeadingPairs() {#getHeadingPairs--}
+```
+public abstract IHeadingPair[] getHeadingPairs()
+```
+
+
+Indicates the grouping of document parts and the number of parts in each group. Read-only IHeadingPair[].
+
+**Returns:**
+com.aspose.slides.IHeadingPair[]
 ### getCountOfCustomProperties() {#getCountOfCustomProperties--}
 ```
 public abstract int getCountOfCustomProperties()
@@ -612,7 +775,7 @@ Remove a custom property associated with a specified name.
 | name | java.lang.String | Name of a custom property to remove. |
 
 **Returns:**
-boolean - Return true if a property was removed, false overwise.
+boolean - Return true if a property was removed, false otherwise.
 ### containsCustomProperty(String name) {#containsCustomProperty-java.lang.String-}
 ```
 public abstract boolean containsCustomProperty(String name)
@@ -627,7 +790,7 @@ Check presents of a custom property with a specified name.
 | name | java.lang.String | Name of a custom property to check. |
 
 **Returns:**
-boolean - Return true if property exists, false overwise.
+boolean - Return true if property exists, false otherwise.
 ### get_Item(String name) {#get-Item-java.lang.String-}
 ```
 public abstract Object get_Item(String name)

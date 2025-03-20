@@ -72,6 +72,8 @@ url: /com.aspose.slides/
 | [Camera](../com.aspose.slides/camera) | Represents Camera. |
 | [CameraPresetType](../com.aspose.slides/camerapresettype) | Constants which define camera preset type. |
 | [CannotCombine2DAnd3DChartsException](../com.aspose.slides/cannotcombine2dand3dchartsexception) | Exception which thrown when trying to combine 2D and 3D chart types. |
+| [Captions](../com.aspose.slides/captions) | Represents the WebVTT closed captions. |
+| [CaptionsCollection](../com.aspose.slides/captionscollection) | Represents a collection of the closed captions. |
 | [CategoryAxisType](../com.aspose.slides/categoryaxistype) | Represents a type of a category axis. |
 | [Cell](../com.aspose.slides/cell) | Represents a cell of a table. |
 | [CellCircularReferenceException](../com.aspose.slides/cellcircularreferenceexception) | The exception that is thrown when one or more circular references are detected where a formula refers to its own cell either directly or indirectly. |
@@ -249,6 +251,7 @@ url: /com.aspose.slides/
 | [HSL](../com.aspose.slides/hsl) | Represents a Hue/Saturation/Luminance effect. |
 | [HandoutLayoutingOptions](../com.aspose.slides/handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
 | [HandoutType](../com.aspose.slides/handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
+| [HeadingPair](../com.aspose.slides/headingpair) | Represents a 'Heading pair' property of the document. |
 | [Html5Options](../com.aspose.slides/html5options) | Represents a HTML5 exporting options. |
 | [HtmlExternalResolver](../com.aspose.slides/htmlexternalresolver) | Callback object used by HTML import routine to obtain referrenced objects such as images. |
 | [HtmlFormatter](../com.aspose.slides/htmlformatter) | Represents HTML file template. |
@@ -269,6 +272,7 @@ url: /com.aspose.slides/
 | [Images](../com.aspose.slides/images) | Methods to instantiate and work with [IImage](../com.aspose.slides/iimage). |
 | [InOutTransition](../com.aspose.slides/inouttransition) | In-Out slide transition effect. |
 | [Ink](../com.aspose.slides/ink) | Represents an ink object on a slide. |
+| [InkActions](../com.aspose.slides/inkactions) | Represents the root of ink actions. |
 | [InkBrush](../com.aspose.slides/inkbrush) | Represents an inkBrush object. |
 | [InkOptions](../com.aspose.slides/inkoptions) | Provides options that control the look of Ink objects in exported document. |
 | [InkTrace](../com.aspose.slides/inktrace) | Represents an Trace object. |
@@ -706,6 +710,8 @@ url: /com.aspose.slides/
 | [IBulletFormatEffectiveData](../com.aspose.slides/ibulletformateffectivedata) | Immutable object which contains effective paragraph bullet formatting properties. |
 | [ICamera](../com.aspose.slides/icamera) | Represents Camera. |
 | [ICameraEffectiveData](../com.aspose.slides/icameraeffectivedata) | Immutable object which contains effective camera properties. |
+| [ICaptions](../com.aspose.slides/icaptions) | Represents the WebVTT closed captions. |
+| [ICaptionsCollection](../com.aspose.slides/icaptionscollection) | Represents a collection of the closed captions. |
 | [ICell](../com.aspose.slides/icell) | Represents a cell in a table. |
 | [ICellCollection](../com.aspose.slides/icellcollection) | Represents a collection of cells. |
 | [ICellFormat](../com.aspose.slides/icellformat) | Represents format of a table cell. |
@@ -853,6 +859,7 @@ url: /com.aspose.slides/
 | [IGroupShapeLock](../com.aspose.slides/igroupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [IHSL](../com.aspose.slides/ihsl) | Represents a Hue/Saturation/Luminance effect. |
 | [IHSLEffectiveData](../com.aspose.slides/ihsleffectivedata) | Represents a Hue/Saturation/Luminance effect. |
+| [IHeadingPair](../com.aspose.slides/iheadingpair) | Represents a 'Heading pair' property of the document. |
 | [IHtml5Options](../com.aspose.slides/ihtml5options) | Represents a HTML5 exporting options. |
 | [IHtmlExternalResolver](../com.aspose.slides/ihtmlexternalresolver) | Callback interface used by HTML import routine to obtain referrenced objects such as images. |
 | [IHtmlFormatter](../com.aspose.slides/ihtmlformatter) | Represents HTML file template. |
@@ -871,6 +878,7 @@ url: /com.aspose.slides/
 | [IImageTransformOperationFactory](../com.aspose.slides/iimagetransformoperationfactory) | Allows to create image effects' instances |
 | [IInOutTransition](../com.aspose.slides/iinouttransition) | In-Out slide transition effect. |
 | [IInk](../com.aspose.slides/iink) | Represents an ink object on a slide. |
+| [IInkActions](../com.aspose.slides/iinkactions) | Represents an ink object on a slide. |
 | [IInkBrush](../com.aspose.slides/iinkbrush) | Represents trace brush. |
 | [IInkOptions](../com.aspose.slides/iinkoptions) | Provides options that control the look of Ink objects in exported document. |
 | [IInkTrace](../com.aspose.slides/iinktrace) | Represents handwritten line in an Ink object. |

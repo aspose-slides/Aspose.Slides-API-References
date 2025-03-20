@@ -35,8 +35,8 @@ Represents group of series.
 | [setColorVaried(boolean value)](#setColorVaried-boolean-) | Specifies that each data marker in the series has a different color. |
 | [hasSeriesLines()](#hasSeriesLines--) | True if chart has series lines. |
 | [setSeriesLines(boolean value)](#setSeriesLines-boolean-) | True if chart has series lines. |
-| [getOverlap()](#getOverlap--) | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). |
-| [setOverlap(byte value)](#setOverlap-byte-) | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). |
+| [getOverlap()](#getOverlap--) | Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). |
+| [setOverlap(byte value)](#setOverlap-byte-) | Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). |
 | [getSecondPieSize()](#getSecondPieSize--) | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). |
 | [setSecondPieSize(int value)](#setSecondPieSize-int-) | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). |
 | [getPieSplitPosition()](#getPieSplitPosition--) | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. |
@@ -227,7 +227,24 @@ public abstract byte getOverlap()
 ```
 
 
-Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte.
+Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). - -100%: Maximum spacing (bars are completely separated). - 0%: Bars are placed side by side without overlap or spacing. - 100%: Maximum overlap (bars completely overlap each other). This property is read/write byte.
+
+--------------------
+
+> ```
+> The following example demonstrates how to set the overlap for a chart series group 
+>   and render the resulting chart on a form:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
+>      IChartSeriesCollection series = chart.getChartData().getSeries();
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Set overlap to 55%
+>      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png");
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Returns:**
 byte
@@ -237,7 +254,24 @@ public abstract void setOverlap(byte value)
 ```
 
 
-Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte.
+Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). - -100%: Maximum spacing (bars are completely separated). - 0%: Bars are placed side by side without overlap or spacing. - 100%: Maximum overlap (bars completely overlap each other). This property is read/write byte.
+
+--------------------
+
+> ```
+> The following example demonstrates how to set the overlap for a chart series group 
+>   and render the resulting chart on a form:
+>   
+>  Presentation pres = new Presentation();
+>  try {
+>      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
+>      IChartSeriesCollection series = chart.getChartData().getSeries();
+>      series.get_Item(0).getParentSeriesGroup().setOverlap((byte)55); // Set overlap to 55%
+>      pres.getSlides().get_Item(0).getImage(1, 1).save("chart.png", ImageFormat.Png);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -32,6 +32,8 @@ Abstract class with options that control how a presentation is saved.
 | [setDefaultRegularFont(String value)](#setDefaultRegularFont-java.lang.String-) | Returns or sets font used in case source font is not found. |
 | [getGradientStyle()](#getGradientStyle--) | Returns or sets the visual style of the gradient. |
 | [setGradientStyle(int value)](#setGradientStyle-int-) | Returns or sets the visual style of the gradient. |
+| [getSkipJavaScriptLinks()](#getSkipJavaScriptLinks--) | Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. |
+| [setSkipJavaScriptLinks(boolean value)](#setSkipJavaScriptLinks-boolean-) | Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. |
 ### SaveOptions() {#SaveOptions--}
 ```
 public SaveOptions()
@@ -167,4 +169,69 @@ Returns or sets the visual style of the gradient. Read/write [GradientStyle](../
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getSkipJavaScriptLinks() {#getSkipJavaScriptLinks--}
+```
+public final boolean getSkipJavaScriptLinks()
+```
+
+
+Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. Read/write boolean. Default value is false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      HtmlOptions htmlOptions = new HtmlOptions();
+>      htmlOptions.setSkipJavaScriptLinks(true);
+>      pres.save("result_without_JavaScript_links.html", SaveFormat.Html, htmlOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+When the option value is true, the Hyperlinks with JavaScript calls will be ignored.
+
+When the option value is false, the all Hyperlinks will be saved.
+
+**Returns:**
+boolean
+### setSkipJavaScriptLinks(boolean value) {#setSkipJavaScriptLinks-boolean-}
+```
+public final void setSkipJavaScriptLinks(boolean value)
+```
+
+
+Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. Read/write boolean. Default value is false.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      HtmlOptions htmlOptions = new HtmlOptions();
+>      htmlOptions.setSkipJavaScriptLinks(true);
+>      pres.save("result_without_JavaScript_links.html", SaveFormat.Html, htmlOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+When the option value is true, the Hyperlinks with JavaScript calls will be ignored.
+
+When the option value is false, the all Hyperlinks will be saved.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
