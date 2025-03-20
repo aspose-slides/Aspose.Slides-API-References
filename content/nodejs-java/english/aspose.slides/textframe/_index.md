@@ -57,7 +57,7 @@ url: /aspose.slides/textframe/
 | getParentShape () | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only IShape. |
 
  **Returns:**
-[Chart](../chart), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [GroupShape](../groupshape), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [SummaryZoomFrame](../summaryzoomframe), [LegacyDiagram](../legacydiagram), [Shape](../shape), [GeometryShape](../geometryshape), [Ink](../ink), [SectionZoomFrame](../sectionzoomframe), [ZoomObject](../zoomobject), [SummaryZoomSection](../summaryzoomsection), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Connector](../connector), [GraphicalObject](../graphicalobject), [OleObjectFrame](../oleobjectframe), [Table](../table), [VideoFrame](../videoframe)
+[PictureFrame](../pictureframe), [GeometryShape](../geometryshape), [Chart](../chart), [AudioFrame](../audioframe), [OleObjectFrame](../oleobjectframe), [InkActions](../inkactions), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [Table](../table), [LegacyDiagram](../legacydiagram), [SummaryZoomFrame](../summaryzoomframe), [SectionZoomFrame](../sectionzoomframe), [Connector](../connector), [Shape](../shape), [GraphicalObject](../graphicalobject), [Ink](../ink), [SmartArt](../smartart), [AutoShape](../autoshape), [ZoomObject](../zoomobject), [ZoomFrame](../zoomframe), [GroupShape](../groupshape), [VideoFrame](../videoframe)
 
 
 ---
@@ -83,7 +83,7 @@ url: /aspose.slides/textframe/
 | getSlide () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
  **Returns:**
-[BaseSlide](../baseslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide)
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [Slide](../slide), [NotesSlide](../notesslide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide)
 
 
 ---
@@ -257,6 +257,19 @@ String
 | Name | Description |
 | --- | --- |
 | setText (String) | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
+
+
+---
+
+
+### splitTextByColumns {#splitTextByColumns}
+
+| Name | Description |
+| --- | --- |
+| splitTextByColumns () | Splits the text content of the ITextFrame into an array of strings, where each element corresponds to a separate text column within the frame. |
+
+ **Returns:**
+String
 
 
 ---

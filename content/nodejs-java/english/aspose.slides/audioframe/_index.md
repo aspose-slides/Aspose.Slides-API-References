@@ -93,7 +93,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getFadeInDuration () | Specifies the time duration for the starting fade of the media in milliseconds. Read/write float. |
+| getFadeInDuration () | Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write float. |
 
  **Returns:**
 float
@@ -106,7 +106,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getFadeOutDuration () | Specifies the time duration for the ending fade of the media in milliseconds. Read/write float. |
+| getFadeOutDuration () | Specifies the time duration for the ending fade-out of the media in milliseconds. Read/write float. |
 
  **Returns:**
 float
@@ -197,7 +197,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getTrimFromEnd () | Specifies a duration of time to be removed from the end of the media during playback, in milliseconds. Read/write float. |
+| getTrimFromEnd () | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read/write float. |
 
  **Returns:**
 float
@@ -210,7 +210,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getTrimFromStart () | Specifies a duration of time to be removed from the start of the media during playback, in milliseconds. Read/write float. |
+| getTrimFromStart () | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read/write float. |
 
  **Returns:**
 float
@@ -299,7 +299,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| setFadeInDuration (float) | Specifies the time duration for the starting fade of the media in milliseconds. Read/write float. |
+| setFadeInDuration (float) | Specifies the time duration for the initial fade-in of the media in milliseconds. Read/write float. |
 
 
 ---
@@ -309,7 +309,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| setFadeOutDuration (float) | Specifies the time duration for the ending fade of the media in milliseconds. Read/write float. |
+| setFadeOutDuration (float) | Specifies the time duration for the ending fade-out of the media in milliseconds. Read/write float. |
 
 
 ---
@@ -379,7 +379,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| setTrimFromEnd (float) | Specifies a duration of time to be removed from the end of the media during playback, in milliseconds. Read/write float. |
+| setTrimFromEnd (float) | Specifies the time duration to be removed from the end of the media during playback, in milliseconds. Read/write float. |
 
 
 ---
@@ -389,7 +389,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| setTrimFromStart (float) | Specifies a duration of time to be removed from the start of the media during playback, in milliseconds. Read/write float. |
+| setTrimFromStart (float) | Specifies the time duration to be removed from the beginning of the media during playback, in milliseconds. Read/write float. |
 
 
 ---

@@ -58,7 +58,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| resetLicense () | Reset the license Use this function to reset license in component License license = new License(); license.resetLicense(); |
+| resetLicense () | Reset the license. Use this function to reset license in component. |
 
 
 ---
