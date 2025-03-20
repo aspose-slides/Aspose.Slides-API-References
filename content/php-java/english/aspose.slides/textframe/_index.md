@@ -37,6 +37,32 @@ url: /aspose.slides/textframe/
 ---
 
 
+### getParentCell {#getParentCell}
+
+| Name | Description |
+| --- | --- |
+| getParentCell () | Returns the parent cell or null if the parent object does not implement the ICell interface. Read-only ICell. |
+
+ **Returns:**
+[Cell](../cell)
+
+
+---
+
+
+### getParentShape {#getParentShape}
+
+| Name | Description |
+| --- | --- |
+| getParentShape () | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only IShape. |
+
+ **Returns:**
+[GraphicalObject](../graphicalobject), [Connector](../connector), [SmartArtShape](../smartartshape), [Shape](../shape), [Table](../table), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [InkActions](../inkactions), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+
+
+---
+
+
 ### getPresentation {#getPresentation}
 
 | Name | Description |
@@ -258,6 +284,19 @@ void
 
  **Returns:**
 void
+
+
+---
+
+
+### splitTextByColumns {#splitTextByColumns}
+
+| Name | Description |
+| --- | --- |
+| splitTextByColumns () | Splits the text content of the ITextFrame into an array of strings, where each element corresponds to a separate text column within the frame. |
+
+ **Returns:**
+String
 
 
 ---

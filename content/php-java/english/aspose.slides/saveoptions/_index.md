@@ -63,6 +63,19 @@ IProgressCallback
 ---
 
 
+### getSkipJavaScriptLinks {#getSkipJavaScriptLinks}
+
+| Name | Description |
+| --- | --- |
+| getSkipJavaScriptLinks () | Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. Read/write boolean. Default value is false. When the option value is true, the Hyperlinks with JavaScript calls will be ignored. When the option value is false, the all Hyperlinks will be saved. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getWarningCallback {#getWarningCallback}
 
 | Name | Description |
@@ -107,6 +120,19 @@ void
 | Name | Description |
 | --- | --- |
 | setProgressCallback ([IProgressCallback](../iprogresscallback)) | Represents a callback object for saving progress updates in percentage. See IProgressCallback. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setSkipJavaScriptLinks {#setSkipJavaScriptLinks}
+
+| Name | Description |
+| --- | --- |
+| setSkipJavaScriptLinks (boolean) | Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. Read/write boolean. Default value is false. When the option value is true, the Hyperlinks with JavaScript calls will be ignored. When the option value is false, the all Hyperlinks will be saved. |
 
  **Returns:**
 void

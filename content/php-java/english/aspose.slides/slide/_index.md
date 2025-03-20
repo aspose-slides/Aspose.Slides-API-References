@@ -254,7 +254,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getSlideNumber () | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+| getSlideNumber () | Returns a number of slide. Index of slide in Presentation#getSlides collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
  **Returns:**
 int
@@ -270,7 +270,7 @@ int
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Returns:**
-[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [NotesSlideThemeManager](../notesslidethememanager)
+[SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [ChartThemeManager](../chartthememanager), [NotesSlideThemeManager](../notesslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager)
 
 
 ---
@@ -338,7 +338,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail (Dimension) | Returns a Thumbnail Bitmap object with specified size. |
+| getThumbnail (Dimension) | Returns a Thumbnail Image object with specified size. |
 
  **Parameters:**
 
@@ -382,7 +382,7 @@ BufferedImage
 
 | Name | Description |
 | --- | --- |
-| getThumbnail ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
+| getThumbnail ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail Image object with custom scaling. |
 
  **Parameters:**
 
@@ -600,10 +600,35 @@ void
 
 | Name | Description |
 | --- | --- |
-| setSlideNumber (int) | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+| setSlideNumber (int) | Returns a number of slide. Index of slide in Presentation#getSlides collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
  **Returns:**
 void
+
+
+---
+
+
+### writeAsEmf {#writeAsEmf}
+
+| Name | Description |
+| --- | --- |
+| writeAsEmf (OutputStream) | Saves the slide content as an EMF file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Target stream |
+
+ **Returns:**
+void
+
+ **Exception**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentNullException | Target stream is {@code null} |
 
 
 ---
@@ -613,7 +638,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeAsSvg (OutputStream) | Saves content of slide as SVG file. |
+| writeAsSvg (OutputStream) | Saves the slide content as an SVG file. |
 
  **Parameters:**
 
@@ -632,7 +657,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeAsSvg (OutputStream, [SVGOptions](../svgoptions)) | Saves content of slide as SVG file. |
+| writeAsSvg (OutputStream, [SVGOptions](../svgoptions)) | Saves the slide content as an SVG file. |
 
  **Parameters:**
 

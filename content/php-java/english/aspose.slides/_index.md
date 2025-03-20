@@ -71,6 +71,8 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [Camera](camera) | Represents Camera. |
 | [CameraPresetType](camerapresettype) | Constants which define camera preset type. |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception) | Exception which thrown when trying to combine 2D and 3D chart types. |
+| [Captions](captions) | Represents the WebVTT closed captions. |
+| [CaptionsCollection](captionscollection) | Represents a collection of the closed captions. |
 | [CategoryAxisType](categoryaxistype) | Represents a type of a category axis. |
 | [Cell](cell) | Represents a cell of a table. |
 | [CellCircularReferenceException](cellcircularreferenceexception) | The exception that is thrown when one or more circular references are detected where a formula refers to its own cell either directly or indirectly. |
@@ -248,6 +250,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [HSL](hsl) | Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value. |
 | [HandoutLayoutingOptions](handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
 | [HandoutType](handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
+| [HeadingPair](headingpair) | Represents a 'Heading pair' property of the document. It indicates the group name of document parts and the number of parts in group. |
 | [Html5Options](html5options) | Represents a HTML5 exporting options. |
 | [HtmlExternalResolver](htmlexternalresolver) | Callback object used by HTML import routine to obtain referrenced objects such as images. Using this resolver could create a vulnurability when client provided HTML file will make server software to obtain local or network file. Use with caution. It is recommended not to specify HtmlExternalResolver at all (only embedded objects will be read) or create some subclass which checks if specified uri is valid. |
 | [HtmlFormatter](htmlformatter) | Represents HTML file template. |
@@ -269,6 +272,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [Images](images) | Methods to instantiate and work with IImage. |
 | [InOutTransition](inouttransition) | In-Out slide transition effect. |
 | [Ink](ink) | Represents an ink object on a slide. |
+| [InkActions](inkactions) | Represents the root of ink actions. |
 | [InkBrush](inkbrush) | Represents an inkBrush object. |
 | [InkOptions](inkoptions) | Provides options that control the look of Ink objects in exported document. |
 | [InkTrace](inktrace) | Represents an Trace object. A Trace element is used to record the data captured by the digitizer. It contains a sequence of points encoded according to the specification given by the InkTraceFormat object. |

@@ -67,13 +67,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([Connector](../connector)) | Returns all elements |
+| get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Connector](../connector) | IShape to remove. |
+| shape | [GraphicalObject](../graphicalobject) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -86,13 +86,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([GraphicalObject](../graphicalobject)) | Returns all elements |
+| get_Item ([Connector](../connector)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [GraphicalObject](../graphicalobject) | IShape to remove. |
+| shape | [Connector](../connector) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -181,25 +181,6 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([GeometryShape](../geometryshape)) | Returns all elements |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GeometryShape](../geometryshape) | IShape to remove. |
-
- **Returns:**
-[TextAnimation](../textanimation)
-
-
----
-
-
-### get_Item {#get_Item}
-
-| Name | Description |
-| --- | --- |
 | get_Item ([SummaryZoomFrame](../summaryzoomframe)) | Returns all elements |
 
  **Parameters:**
@@ -219,13 +200,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([SummaryZoomSection](../summaryzoomsection)) | Returns all elements |
+| get_Item ([GeometryShape](../geometryshape)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SummaryZoomSection](../summaryzoomsection) | IShape to remove. |
+| shape | [GeometryShape](../geometryshape) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -245,6 +226,25 @@ Object
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomFrame](../zoomframe) | IShape to remove. |
+
+ **Returns:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([SummaryZoomSection](../summaryzoomsection)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomSection](../summaryzoomsection) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -333,6 +333,25 @@ Object
 
 | Name | Description |
 | --- | --- |
+| get_Item ([InkActions](../inkactions)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [InkActions](../inkactions) | IShape to remove. |
+
+ **Returns:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
 | get_Item ([AutoShape](../autoshape)) | Returns all elements |
 
  **Parameters:**
@@ -390,25 +409,6 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([AudioFrame](../audioframe)) | Returns all elements |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [AudioFrame](../audioframe) | IShape to remove. |
-
- **Returns:**
-[TextAnimation](../textanimation)
-
-
----
-
-
-### get_Item {#get_Item}
-
-| Name | Description |
-| --- | --- |
 | get_Item ([Chart](../chart)) | Returns all elements |
 
  **Parameters:**
@@ -428,13 +428,13 @@ Object
 
 | Name | Description |
 | --- | --- |
-| get_Item ([LegacyDiagram](../legacydiagram)) | Returns all elements |
+| get_Item ([AudioFrame](../audioframe)) | Returns all elements |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [LegacyDiagram](../legacydiagram) | IShape to remove. |
+| shape | [AudioFrame](../audioframe) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)
@@ -454,6 +454,25 @@ Object
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomObject](../zoomobject) | IShape to remove. |
+
+ **Returns:**
+[TextAnimation](../textanimation)
+
+
+---
+
+
+### get_Item {#get_Item}
+
+| Name | Description |
+| --- | --- |
+| get_Item ([LegacyDiagram](../legacydiagram)) | Returns all elements |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [LegacyDiagram](../legacydiagram) | IShape to remove. |
 
  **Returns:**
 [TextAnimation](../textanimation)

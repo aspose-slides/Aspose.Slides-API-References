@@ -244,7 +244,7 @@ String
 
 | Error | Condition |
 | --- | --- |
- | com.aspose.ms.System.ArgumentOutOfRangeException | Index is less than zero. Index is equal to or greater than Count. |
+ | ArgumentOutOfRangeException | Index is less than zero. Index is equal to or greater than Count. |
 
 
 ---
@@ -370,6 +370,32 @@ void
 ---
 
 
+### getHeadingPairs {#getHeadingPairs}
+
+| Name | Description |
+| --- | --- |
+| getHeadingPairs () | Indicates the grouping of document parts and the number of parts in each group. Read-only IHeadingPair[]. |
+
+ **Returns:**
+[HeadingPair](../headingpair)
+
+
+---
+
+
+### getHiddenSlides {#getHiddenSlides}
+
+| Name | Description |
+| --- | --- |
+| getHiddenSlides () | Returns the number of hidden slides in a presentation document. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getHyperlinkBase {#getHyperlinkBase}
 
 | Name | Description |
@@ -378,6 +404,19 @@ void
 
  **Returns:**
 String
+
+
+---
+
+
+### getHyperlinksChanged {#getHyperlinksChanged}
+
+| Name | Description |
+| --- | --- |
+| getHyperlinksChanged () | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write boolean. |
+
+ **Returns:**
+boolean
 
 
 ---
@@ -435,6 +474,19 @@ Date
 ---
 
 
+### getLinksUpToDate {#getLinksUpToDate}
+
+| Name | Description |
+| --- | --- |
+| getLinksUpToDate () | Indicates whether hyperlinks in a document are up-to-date. Set this element to true to indicate that hyperlinks are updated. Set this element to false to indicate that hyperlinks are outdated. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getManager {#getManager}
 
 | Name | Description |
@@ -448,6 +500,19 @@ String
 ---
 
 
+### getMultimediaClips {#getMultimediaClips}
+
+| Name | Description |
+| --- | --- |
+| getMultimediaClips () | Returns the total number of sound or video clips that are present in the document. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getNameOfApplication {#getNameOfApplication}
 
 | Name | Description |
@@ -456,6 +521,32 @@ String
 
  **Returns:**
 String
+
+
+---
+
+
+### getNotes {#getNotes}
+
+| Name | Description |
+| --- | --- |
+| getNotes () | Returns the number of slides in a presentation containing notes. Read-only int. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getParagraphs {#getParagraphs}
+
+| Name | Description |
+| --- | --- |
+| getParagraphs () | Returns the total number of paragraphs found in a document if applicable. Read-only int. |
+
+ **Returns:**
+int
 
 
 ---
@@ -487,6 +578,19 @@ int
 ---
 
 
+### getScaleCrop {#getScaleCrop}
+
+| Name | Description |
+| --- | --- |
+| getScaleCrop () | Indicates the display mode of the document thumbnail. Set this element to true to enable scaling of the document thumbnail to the display. Set this element to false to enable cropping of the document thumbnail to show only sections that fits the display. Read/write boolean. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getSharedDoc {#getSharedDoc}
 
 | Name | Description |
@@ -495,6 +599,19 @@ int
 
  **Returns:**
 boolean
+
+
+---
+
+
+### getSlides {#getSlides}
+
+| Name | Description |
+| --- | --- |
+| getSlides () | Returns the total number of slides in a presentation document. Read-only int. |
+
+ **Returns:**
+int
 
 
 ---
@@ -526,6 +643,19 @@ String
 ---
 
 
+### getTitlesOfParts {#getTitlesOfParts}
+
+| Name | Description |
+| --- | --- |
+| getTitlesOfParts () | Specifies the title of each document part. These parts are not document parts but conceptual representations of document sections. Read-only String[]. |
+
+ **Returns:**
+String
+
+
+---
+
+
 ### getTotalEditingTime {#getTotalEditingTime}
 
 | Name | Description |
@@ -534,6 +664,19 @@ String
 
  **Returns:**
 double
+
+
+---
+
+
+### getWords {#getWords}
+
+| Name | Description |
+| --- | --- |
+| getWords () | Returns the total number of words contained in a document. Read-only int. |
+
+ **Returns:**
+int
 
 
 ---
@@ -808,6 +951,19 @@ void
 ---
 
 
+### setHyperlinksChanged {#setHyperlinksChanged}
+
+| Name | Description |
+| --- | --- |
+| setHyperlinksChanged (boolean) | Specifies that one or more hyperlinks in this part were updated exclusively in this part by a producer. The next producer to open this document shall update the hyperlink relationships with the new hyperlinks specified in this part. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
 ### setKeywords {#setKeywords}
 
 | Name | Description |
@@ -860,6 +1016,19 @@ void
 ---
 
 
+### setLinksUpToDate {#setLinksUpToDate}
+
+| Name | Description |
+| --- | --- |
+| setLinksUpToDate (boolean) | Indicates whether hyperlinks in a document are up-to-date. Set this element to true to indicate that hyperlinks are updated. Set this element to false to indicate that hyperlinks are outdated. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
 ### setManager {#setManager}
 
 | Name | Description |
@@ -904,6 +1073,19 @@ void
 | Name | Description |
 | --- | --- |
 | setRevisionNumber (int) | Returns or sets the presentation revision number. Read/write int. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setScaleCrop {#setScaleCrop}
+
+| Name | Description |
+| --- | --- |
+| setScaleCrop (boolean) | Indicates the display mode of the document thumbnail. Set this element to true to enable scaling of the document thumbnail to the display. Set this element to false to enable cropping of the document thumbnail to show only sections that fits the display. Read/write boolean. |
 
  **Returns:**
 void

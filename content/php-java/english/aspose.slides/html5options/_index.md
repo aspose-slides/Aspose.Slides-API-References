@@ -50,6 +50,19 @@ boolean
 ---
 
 
+### getDisableFontLigatures {#getDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| getDisableFontLigatures () | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getEmbedImages {#getEmbedImages}
 
 | Name | Description |
@@ -107,6 +120,19 @@ void
 | Name | Description |
 | --- | --- |
 | setAnimateTransitions (boolean) | Returns or sets transitions animation option. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setDisableFontLigatures {#setDisableFontLigatures}
+
+| Name | Description |
+| --- | --- |
+| setDisableFontLigatures (boolean) | Gets or sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false. |
 
  **Returns:**
 void

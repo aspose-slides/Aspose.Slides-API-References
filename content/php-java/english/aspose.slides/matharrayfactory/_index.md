@@ -277,25 +277,6 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math array and places the specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to place in array |
-
- **Returns:**
-[MathArray](../matharray)
-
-
----
-
-
-### createMathArray {#createMathArray}
-
-| Name | Description |
-| --- | --- |
 | createMathArray ([MathSubscriptElement](../mathsubscriptelement)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
@@ -315,32 +296,13 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([BaseScript](../basescript)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [BaseScript](../basescript) | math element to place in array |
-
- **Returns:**
-[MathArray](../matharray)
-
-
----
-
-
-### createMathArray {#createMathArray}
-
-| Name | Description |
-| --- | --- |
-| createMathArray ([MathematicalText](../mathematicaltext)) | Creates a math array and places the specified element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to place in array |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -372,13 +334,32 @@ MathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| createMathArray ([MathElementBase](../mathelementbase)) | Creates a math array and places the specified element in it |
+| createMathArray ([MathematicalText](../mathematicaltext)) | Creates a math array and places the specified element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathElementBase](../mathelementbase) | math element to place in array |
+| element | [MathematicalText](../mathematicaltext) | math element to place in array |
+
+ **Returns:**
+[MathArray](../matharray)
+
+
+---
+
+
+### createMathArray {#createMathArray}
+
+| Name | Description |
+| --- | --- |
+| createMathArray ([BaseScript](../basescript)) | Creates a math array and places the specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [BaseScript](../basescript) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)
@@ -398,6 +379,25 @@ MathArrayFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBox](../mathbox) | math element to place in array |
+
+ **Returns:**
+[MathArray](../matharray)
+
+
+---
+
+
+### createMathArray {#createMathArray}
+
+| Name | Description |
+| --- | --- |
+| createMathArray ([MathElementBase](../mathelementbase)) | Creates a math array and places the specified element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathElementBase](../mathelementbase) | math element to place in array |
 
  **Returns:**
 [MathArray](../matharray)

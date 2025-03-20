@@ -290,25 +290,6 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathSuperscriptElement](../mathsuperscriptelement) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
 | createMathBlock ([MathSubscriptElement](../mathsubscriptelement)) | Create a math block and place the element in it |
 
  **Parameters:**
@@ -328,32 +309,13 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([BaseScript](../basescript)) | Create a math block and place the element in it |
+| createMathBlock ([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [BaseScript](../basescript) | A math element |
-
- **Returns:**
-[MathBlock](../mathblock)
-
-
----
-
-
-### createMathBlock {#createMathBlock}
-
-| Name | Description |
-| --- | --- |
-| createMathBlock ([MathematicalText](../mathematicaltext)) | Create a math block and place the element in it |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathematicalText](../mathematicaltext) | A math element |
+| mathElement | [MathSuperscriptElement](../mathsuperscriptelement) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -385,13 +347,32 @@ MathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBlock ([MathElementBase](../mathelementbase)) | Create a math block and place the element in it |
+| createMathBlock ([MathematicalText](../mathematicaltext)) | Create a math block and place the element in it |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathElementBase](../mathelementbase) | A math element |
+| mathElement | [MathematicalText](../mathematicaltext) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
+| createMathBlock ([BaseScript](../basescript)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [BaseScript](../basescript) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
@@ -411,6 +392,25 @@ MathBlockFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathBox](../mathbox) | A math element |
+
+ **Returns:**
+[MathBlock](../mathblock)
+
+
+---
+
+
+### createMathBlock {#createMathBlock}
+
+| Name | Description |
+| --- | --- |
+| createMathBlock ([MathElementBase](../mathelementbase)) | Create a math block and place the element in it |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathElementBase](../mathelementbase) | A math element |
 
  **Returns:**
 [MathBlock](../mathblock)
