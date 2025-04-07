@@ -3,7 +3,7 @@ title: ViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Presentation wide view properties.
 type: docs
-weight: 11420
+weight: 11430
 url: /aspose.slides/viewproperties/
 ---
 

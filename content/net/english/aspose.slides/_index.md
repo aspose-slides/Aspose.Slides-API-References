@@ -499,6 +499,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [RectangleAlignment](./rectanglealignment) | Defines 2-dimension allignment. |
 | [ResourceLoadingAction](./resourceloadingaction) | Specifies the mode of external resource loading. |
 | [SchemeColor](./schemecolor) | Represents colors in a color scheme. |
+| [ShapeAdjustmentType](./shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeElementFillSource](./shapeelementfillsource) | Represents how shape element should be filled. |
 | [ShapeElementStrokeSource](./shapeelementstrokesource) | Represents how shape element should be drawn. |
 | [ShapesAlignmentType](./shapesalignmenttype) | Defines a way to change the placement of selected shapes on the slide. |

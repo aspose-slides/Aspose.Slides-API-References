@@ -3,7 +3,7 @@ title: IKnownIssueWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a warning about known issue which wont be fixed in the near future.
 type: docs
-weight: 11440
+weight: 11450
 url: /aspose.slides.warnings/iknownissuewarninginfo/
 ---
 

@@ -22,6 +22,7 @@ public interface IAdjustValue
 | [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Returns or sets value, interpreting it as angle in degrees. Read/write Single. |
 | [Name](../../aspose.slides/iadjustvalue/name) { get; } | Returns a name of this adjustment value. Read-only String. |
 | [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Returns or sets ajustment value "as is". Read/write Int64. |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Returns the type of the shape adjustment. Read-only [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### See Also
 
