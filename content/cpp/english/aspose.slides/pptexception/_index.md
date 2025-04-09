@@ -3,7 +3,7 @@ title: PptException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 6774
+weight: 6787
 url: /aspose.slides/pptexception/
 ---
 ## PptException typedef

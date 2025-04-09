@@ -3,7 +3,7 @@ title: ShapeElementStrokeSource
 second_title: Aspose.Slides for C++ API Reference
 description: Represents how shape element should be drawn.
 type: docs
-weight: 6254
+weight: 6267
 url: /aspose.slides/shapeelementstrokesource/
 ---
 ## ShapeElementStrokeSource enum

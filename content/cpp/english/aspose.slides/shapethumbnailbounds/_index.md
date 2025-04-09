@@ -3,7 +3,7 @@ title: ShapeThumbnailBounds
 second_title: Aspose.Slides for C++ API Reference
 description: Enumeration of types of shape thumbnail bounds.
 type: docs
-weight: 6280
+weight: 6293
 url: /aspose.slides/shapethumbnailbounds/
 ---
 ## ShapeThumbnailBounds enum
