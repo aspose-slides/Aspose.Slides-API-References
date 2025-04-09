@@ -494,6 +494,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`RectangleAlignment`](/slides/python-net/aspose.slides/rectanglealignment/) | Defines 2-dimension allignment. |
 | [`ResourceLoadingAction`](/slides/python-net/aspose.slides/resourceloadingaction/) | Specifies the mode of external resource loading. |
 | [`SchemeColor`](/slides/python-net/aspose.slides/schemecolor/) | Represents colors in a color scheme. |
+| [`ShapeAdjustmentType`](/slides/python-net/aspose.slides/shapeadjustmenttype/) | Specifies different types of shape adjustment values. |
 | [`ShapeElementFillSource`](/slides/python-net/aspose.slides/shapeelementfillsource/) | Represents how shape element should be filled. |
 | [`ShapeElementStrokeSource`](/slides/python-net/aspose.slides/shapeelementstrokesource/) | Represents how shape element should be drawn. |
 | [`ShapeThumbnailBounds`](/slides/python-net/aspose.slides/shapethumbnailbounds/) | Enumeration of types of shape thumbnail bounds. |
