@@ -261,7 +261,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [HyperlinkColorSource](hyperlinkcolorsource) | Represents source of hyperlink color. |
 | [HyperlinkManager](hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [HyperlinkQueries](hyperlinkqueries) | Provide easy access to contained hyperlinks. |
-| [IImage](iimage) | Represents the raster or vector image. |
+| [IImage](iimage) | Represents a raster or vector image. This interface provides a common abstraction for handling both raster and vector images. Implementations may vary depending on the underlying image type. |
 | [ImageCollection](imagecollection) | Represents collection of PPImage. |
 | [ImageFormat](imageformat) | Represents the file format of the image. |
 | [ImagePixelFormat](imagepixelformat) | Specifies the pixel format for the generated images. |
@@ -515,6 +515,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [SequenceCollection](sequencecollection) | Represents collection of interactive sequences. |
 | [SetEffect](seteffect) | Represents a set effect for an animation behavior. |
 | [Shape](shape) | Represents a shape on a slide. |
+| [ShapeAdjustmentType](shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeBevel](shapebevel) | Contains the properties of shape's main face relief. |
 | [ShapeCollection](shapecollection) | Represents a collection of a shapes. |
 | [ShapeElement](shapeelement) | Represents a part of shape with same outline and fill properties. |

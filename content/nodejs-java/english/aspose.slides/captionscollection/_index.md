@@ -15,14 +15,14 @@ url: /aspose.slides/captionscollection/
 
 | Name | Description |
 | --- | --- |
-| add (String, String) | Adds WebVTT closed captions at the end of the collection. |
+| add (String, String) | Adds WebVTT closed captions to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| label | String | Label of the closed captions. |
-| filePath | String | Path to the file in WebVTT format. |
+| label | String | The label of the closed captions. |
+| filePath | String | The path to the WebVTT file. |
 
  **Returns:**
 [Captions](../captions)
@@ -31,7 +31,7 @@ url: /aspose.slides/captionscollection/
 
 | Error | Condition |
 | --- | --- |
- | ArgumentException | File path is empty. |
+ | ArgumentException | Thrown if filePath is empty. |
 
 
 ---
@@ -41,15 +41,15 @@ url: /aspose.slides/captionscollection/
 
 | Name | Description |
 | --- | --- |
-| addFromStream  (CaptionsCollection, String, ReadStream, Function) | Adds WebVTT closed captions at the end of the collection. |
+| addFromStream  (CaptionsCollection, String, ReadStream, Function) | Adds WebVTT closed captions to the end of the collection from a stream. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | captionscollection | CaptionsCollection  | link to self |
-| label | String | Label of the closed captions. |
-| stream | ReadStream | Input stream with data in WebVTT format. |
+| label | String | The label of the closed captions. |
+| stream | ReadStream | The input stream containing data in WebVTT format. |
 | callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
  **Returns:**
@@ -59,7 +59,7 @@ url: /aspose.slides/captionscollection/
 
 | Error | Condition |
 | --- | --- |
- | ArgumentException | Input data is not in the WebVTT format. |
+ | ArgumentException | Thrown if the input data is not in WebVTT format. |
 
 
 ---
@@ -69,7 +69,7 @@ url: /aspose.slides/captionscollection/
 
 | Name | Description |
 | --- | --- |
-| clear () | Removes all elements from the collection. |
+| clear () | Removes all closed captions from the collection. |
 
 
 ---
@@ -92,7 +92,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| get_Item (int) | Returns the closed captions by index. Read-only ICaptions. |
+| get_Item (int) | Returns the closed captions at the specified index. Read-only ICaptions. |
 
  **Returns:**
 [Captions](../captions)
@@ -118,13 +118,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| remove ([Captions](../captions)) | Removes the closed captions from the collection. |
+| remove ([Captions](../captions)) | Removes the specified closed captions from the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| captions | [Captions](../captions) | Captions object that should be deleted. |
+| captions | [Captions](../captions) | The closed captions to remove. |
 
 
 ---
@@ -140,7 +140,7 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | Index of the closed captions that should be deleted. |
+| index | int | The index of the closed captions to remove. |
 
 
 ---

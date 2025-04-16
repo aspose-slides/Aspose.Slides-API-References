@@ -41,7 +41,7 @@ UUID
 
 | Name | Description |
 | --- | --- |
-| getDataAsString () | Returns the closed captions data as UTF-8 string Read-only String. |
+| getDataAsString () | Returns the closed captions data as UTF-8 encoded string Read-only String. |
 
  **Returns:**
 String

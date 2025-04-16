@@ -67,7 +67,7 @@ IProgressCallback
 
 | Name | Description |
 | --- | --- |
-| getSkipJavaScriptLinks () | Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. Read/write boolean. Default value is false. When the option value is true, the Hyperlinks with JavaScript calls will be ignored. When the option value is false, the all Hyperlinks will be saved. |
+| getSkipJavaScriptLinks () | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write boolean. The default value is false. When this property is set to true, hyperlinks with JavaScript calls will be ignored while saving. When this property is set to false, all hyperlinks will be saved. |
 
  **Returns:**
 boolean
@@ -123,7 +123,7 @@ IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| setSkipJavaScriptLinks (boolean) | Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. Read/write boolean. Default value is false. When the option value is true, the Hyperlinks with JavaScript calls will be ignored. When the option value is false, the all Hyperlinks will be saved. |
+| setSkipJavaScriptLinks (boolean) | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write boolean. The default value is false. When this property is set to true, hyperlinks with JavaScript calls will be ignored while saving. When this property is set to false, all hyperlinks will be saved. |
 
 
 ---

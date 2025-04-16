@@ -51,6 +51,19 @@ long
 ---
 
 
+### getType {#getType}
+
+| Name | Description |
+| --- | --- |
+| getType () | Returns the type of the shape adjustment. Read-only ShapeAdjustmentType. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### setAngleValue {#setAngleValue}
 
 | Name | Description |

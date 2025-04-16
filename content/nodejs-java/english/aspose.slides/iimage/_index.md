@@ -9,7 +9,10 @@ url: /aspose.slides/iimage/
 
 ## IImage class
 
- Represents the raster or vector image.
+ Represents a raster or vector image.
+ 
+ This interface provides a common abstraction for handling both raster and vector images.  
+ Implementations may vary depending on the underlying image type.
  
 ### IImage {#IImage}
 
@@ -28,7 +31,7 @@ IImage
 
 | Name | Description |
 | --- | --- |
-| getHeight () | Gets the height of the image. |
+| getHeight () | Gets the height of the image in pixels. |
 
  **Returns:**
 int
@@ -41,7 +44,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getSize () | Gets an image size. |
+| getSize () | Gets the size of the image. |
 
  **Returns:**
 Dimension
@@ -54,7 +57,7 @@ Dimension
 
 | Name | Description |
 | --- | --- |
-| getWidth () | Gets the width of the image. |
+| getWidth () | Gets the width of the image in pixels. |
 
  **Returns:**
 int
@@ -67,7 +70,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| save (String) | Save the image to the file. |
+| save (String) | Saves the image to a file. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| filename | String | The path to the file where the image will be saved. |
 
 
 ---
@@ -77,7 +86,14 @@ int
 
 | Name | Description |
 | --- | --- |
-| save (String, int) | Save the image to the file. |
+| save (String, int) | Saves the image to a file in the specified format. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| filename | String | The path to the file where the image will be saved. |
+| format | int | The image format. |
 
 
 ---
@@ -87,7 +103,15 @@ int
 
 | Name | Description |
 | --- | --- |
-| saveToStream  (IImage, WriteStream, int) | Save the image to the stream. |
+| saveToStream  (IImage, WriteStream, int) | Saves the image to a stream in the specified format. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| iimage | IImage  | link to self |
+| stream | WriteStream | The stream where the image will be saved. |
+| format | int | The image format. |
 
 
 ---
@@ -97,7 +121,15 @@ int
 
 | Name | Description |
 | --- | --- |
-| save (String, int, int) | Save the image to the file in the specified format and quality. The quality parameter can take values from 0 to 100 and only affects saving in ImageFormat.Jpeg. For all other formats, this parameter is ignored. |
+| save (String, int, int) | Saves the image to a file in the specified format and quality. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| filename | String | The path to the file where the image will be saved. |
+| format | int | The image format. |
+| quality | int | The quality of the saved image (0 to 100). This parameter only affects saving in ImageFormat#Jpeg; for all other formats, it is ignored. |
 
 
 ---
@@ -107,7 +139,16 @@ int
 
 | Name | Description |
 | --- | --- |
-| saveToStream  (IImage, WriteStream, int, int) | Save the image to the stream in the specified format and quality. The quality parameter can take values from 0 to 100 and only affects saving in ImageFormat.Jpeg. For all other formats, this parameter is ignored. |
+| saveToStream  (IImage, WriteStream, int, int) | Saves the image to a stream in the specified format and quality. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| iimage | IImage  | link to self |
+| stream | WriteStream | The stream where the image will be saved. |
+| format | int | The image format. |
+| quality | int | The quality of the saved image (0 to 100). This parameter only affects saving in ImageFormat#Jpeg; for all other formats, it is ignored. |
 
 
 ---
