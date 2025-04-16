@@ -323,7 +323,7 @@ public abstract int getAfterAnimationType()
 ```
 
 
-Defined an after animation type for effect. Read/write  AfterAnimationType ([.getAfterAnimationType](../../null/\#getAfterAnimationType)/[.setAfterAnimationType(int)](../../null/\#setAfterAnimationType-int-)).
+Defined an after animation type for effect. Read/write  AfterAnimationType (\#getAfterAnimationType.getAfterAnimationType/\#setAfterAnimationType(int).setAfterAnimationType(int)).
 
 --------------------
 
@@ -348,7 +348,7 @@ public abstract void setAfterAnimationType(int value)
 ```
 
 
-Defined an after animation type for effect. Read/write  AfterAnimationType ([.getAfterAnimationType](../../null/\#getAfterAnimationType)/[.setAfterAnimationType(int)](../../null/\#setAfterAnimationType-int-)).
+Defined an after animation type for effect. Read/write  AfterAnimationType (\#getAfterAnimationType.getAfterAnimationType/\#setAfterAnimationType(int).setAfterAnimationType(int)).
 
 --------------------
 
@@ -435,7 +435,7 @@ public abstract int getAnimateTextType()
 ```
 
 
-Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType ([.getAnimateTextType](../../null/\#getAnimateTextType)/[.setAnimateTextType(int)](../../null/\#setAnimateTextType-int-)).
+Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType (\#getAnimateTextType.getAnimateTextType/\#setAnimateTextType(int).setAnimateTextType(int)).
 
 --------------------
 
@@ -460,7 +460,7 @@ public abstract void setAnimateTextType(int value)
 ```
 
 
-Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType ([.getAnimateTextType](../../null/\#getAnimateTextType)/[.setAnimateTextType(int)](../../null/\#setAnimateTextType-int-)).
+Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType (\#getAnimateTextType.getAnimateTextType/\#setAnimateTextType(int).setAnimateTextType(int)).
 
 --------------------
 

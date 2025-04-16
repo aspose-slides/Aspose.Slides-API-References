@@ -295,7 +295,7 @@ public abstract String getSoundName()
 ```
 
 
-Specifies a human readable name for the sound of the transition. The ([.getSound](../../null/\#getSound)/[.setSound(IAudio)](../../null/\#setSound-IAudio-)) property must be assigned to get or set the sound name. Read-write String.
+Specifies a human readable name for the sound of the transition. The (\#getSound.getSound/\#setSound(IAudio).setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
 
 **Returns:**
 java.lang.String
@@ -305,7 +305,7 @@ public abstract void setSoundName(String value)
 ```
 
 
-Specifies a human readable name for the sound of the transition. The ([.getSound](../../null/\#getSound)/[.setSound(IAudio)](../../null/\#setSound-IAudio-)) property must be assigned to get or set the sound name. Read-write String.
+Specifies a human readable name for the sound of the transition. The (\#getSound.getSound/\#setSound(IAudio).setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
 
 **Parameters:**
 | Parameter | Type | Description |

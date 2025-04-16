@@ -143,7 +143,7 @@ Represent property types for animation behavior. Follows the list of properties 
 | [getExtrusionRotationCenterZ()](#getExtrusionRotationCenterZ--) | Represents 'extrusion.rotationcenter.z' property |
 | [getExtrusionColorMode()](#getExtrusionColorMode--) | Represents 'extrusion.colormode' property |
 | [equals(Object obj)](#equals-java.lang.Object-) | Checks if this object is equal to another. |
-| [hashCode()](#hashCode--) | Calculates and returns hach code based on the ([.getValue](../../null/\#getValue)) property |
+| [hashCode()](#hashCode--) | Calculates and returns hach code based on the (\#getValue.getValue) property |
 | [getOrCreateByValue(String propertyValue)](#getOrCreateByValue-java.lang.String-) | Looks for existing behavior property by value or creates new custom one with the specified value |
 ### getValue() {#getValue--}
 ```
@@ -1396,7 +1396,7 @@ public int hashCode()
 ```
 
 
-Calculates and returns hach code based on the ([.getValue](../../null/\#getValue)) property
+Calculates and returns hach code based on the (\#getValue.getValue) property
 
 **Returns:**
 int - Returns hash code for this object

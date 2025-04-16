@@ -27,7 +27,7 @@ Represents an image in a presentation.
 | [replaceImage(byte[] newImageData)](#replaceImage-byte---) | Replaces image data. |
 | [replaceImage(IImage newImage)](#replaceImage-com.aspose.slides.IImage-) | Replaces image data. |
 | [replaceImage(IPPImage newImage)](#replaceImage-com.aspose.slides.IPPImage-) | Replaces image data. |
-| [getContentType()](#getContentType--) | Returns a MIME type of an image, encoded in  BinaryData ([.getBinaryData](../../null/\#getBinaryData)). |
+| [getContentType()](#getContentType--) | Returns a MIME type of an image, encoded in  BinaryData (\#getBinaryData.getBinaryData). |
 | [getWidth()](#getWidth--) | Returns a width of an image. |
 | [getHeight()](#getHeight--) | Returns a height of an image. |
 | [getX()](#getX--) | Returns a X-offset of an image. |
@@ -140,7 +140,7 @@ public final String getContentType()
 ```
 
 
-Returns a MIME type of an image, encoded in  BinaryData ([.getBinaryData](../../null/\#getBinaryData)). Read-only String.
+Returns a MIME type of an image, encoded in  BinaryData (\#getBinaryData.getBinaryData). Read-only String.
 
 **Returns:**
 java.lang.String

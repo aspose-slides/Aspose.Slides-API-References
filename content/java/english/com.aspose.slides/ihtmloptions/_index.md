@@ -24,8 +24,8 @@ Represents a HTML exporting options.
 | [setShowHiddenSlides(boolean value)](#setShowHiddenSlides-boolean-) | Specifies whether the generated document should include hidden slides or not. |
 | [getJpegQuality()](#getJpegQuality--) | Returns or sets a value determining the quality of the JPEG images inside PDF document. |
 | [setJpegQuality(byte value)](#setJpegQuality-byte-) | Returns or sets a value determining the quality of the JPEG images inside PDF document. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write [PicturesCompression](../../com.aspose.slides/picturescompression)([.getPicturesCompression](../../null/\#getPicturesCompression)/[.setPicturesCompression(int)](../../null/\#setPicturesCompression-int-)). |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write [PicturesCompression](../../com.aspose.slides/picturescompression)([.getPicturesCompression](../../null/\#getPicturesCompression)/[.setPicturesCompression(int)](../../null/\#setPicturesCompression-int-)). |
+| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write [PicturesCompression](../../com.aspose.slides/picturescompression)(\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write [PicturesCompression](../../com.aspose.slides/picturescompression)(\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)). |
 | [getDeletePicturesCroppedAreas()](#getDeletePicturesCroppedAreas--) | A boolean flag indicates if the cropped parts remain as part of the document. |
 | [setDeletePicturesCroppedAreas(boolean value)](#setDeletePicturesCroppedAreas-boolean-) | A boolean flag indicates if the cropped parts remain as part of the document. |
 | [getSvgResponsiveLayout()](#getSvgResponsiveLayout--) | True to exclude width and height attributes from SVG container - that will make layout responsive. |
@@ -149,7 +149,7 @@ public abstract int getPicturesCompression()
 ```
 
 
-Represents the pictures compression level Read/write [PicturesCompression](../../com.aspose.slides/picturescompression)([.getPicturesCompression](../../null/\#getPicturesCompression)/[.setPicturesCompression(int)](../../null/\#setPicturesCompression-int-)).
+Represents the pictures compression level Read/write [PicturesCompression](../../com.aspose.slides/picturescompression)(\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
 
 **Returns:**
 int
@@ -159,7 +159,7 @@ public abstract void setPicturesCompression(int value)
 ```
 
 
-Represents the pictures compression level Read/write [PicturesCompression](../../com.aspose.slides/picturescompression)([.getPicturesCompression](../../null/\#getPicturesCompression)/[.setPicturesCompression(int)](../../null/\#setPicturesCompression-int-)).
+Represents the pictures compression level Read/write [PicturesCompression](../../com.aspose.slides/picturescompression)(\#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int)).
 
 **Parameters:**
 | Parameter | Type | Description |

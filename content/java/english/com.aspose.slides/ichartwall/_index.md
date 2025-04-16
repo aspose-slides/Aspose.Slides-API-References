@@ -57,7 +57,7 @@ public abstract int getPictureType()
 ```
 
 
-Return or sets the picture type. Read/write [PictureType](../../com.aspose.slides/picturetype)([.getPictureType](../../null/\#getPictureType)/[.setPictureType(int)](../../null/\#setPictureType-int-)).
+Return or sets the picture type. Read/write [PictureType](../../com.aspose.slides/picturetype)(\#getPictureType.getPictureType/\#setPictureType(int).setPictureType(int)).
 
 **Returns:**
 int
@@ -67,7 +67,7 @@ public abstract void setPictureType(int value)
 ```
 
 
-Return or sets the picture type. Read/write [PictureType](../../com.aspose.slides/picturetype)([.getPictureType](../../null/\#getPictureType)/[.setPictureType(int)](../../null/\#setPictureType-int-)).
+Return or sets the picture type. Read/write [PictureType](../../com.aspose.slides/picturetype)(\#getPictureType.getPictureType/\#setPictureType(int).setPictureType(int)).
 
 **Parameters:**
 | Parameter | Type | Description |

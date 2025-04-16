@@ -330,7 +330,7 @@ public final int getAfterAnimationType()
 ```
 
 
-Defines an after animation type for effect. Read/write [AfterAnimationType](../../com.aspose.slides/afteranimationtype)([.getAfterAnimationType](../../null/\#getAfterAnimationType)/[.setAfterAnimationType(int)](../../null/\#setAfterAnimationType-int-)).
+Defines an after animation type for effect. Read/write [AfterAnimationType](../../com.aspose.slides/afteranimationtype)(\#getAfterAnimationType.getAfterAnimationType/\#setAfterAnimationType(int).setAfterAnimationType(int)).
 
 --------------------
 
@@ -355,7 +355,7 @@ public final void setAfterAnimationType(int value)
 ```
 
 
-Defines an after animation type for effect. Read/write [AfterAnimationType](../../com.aspose.slides/afteranimationtype)([.getAfterAnimationType](../../null/\#getAfterAnimationType)/[.setAfterAnimationType(int)](../../null/\#setAfterAnimationType-int-)).
+Defines an after animation type for effect. Read/write [AfterAnimationType](../../com.aspose.slides/afteranimationtype)(\#getAfterAnimationType.getAfterAnimationType/\#setAfterAnimationType(int).setAfterAnimationType(int)).
 
 --------------------
 
@@ -442,7 +442,7 @@ public final int getAnimateTextType()
 ```
 
 
-Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType ([.getAnimateTextType](../../null/\#getAnimateTextType)/[.setAnimateTextType(int)](../../null/\#setAnimateTextType-int-)).
+Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType (\#getAnimateTextType.getAnimateTextType/\#setAnimateTextType(int).setAnimateTextType(int)).
 
 --------------------
 
@@ -467,7 +467,7 @@ public final void setAnimateTextType(int value)
 ```
 
 
-Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType ([.getAnimateTextType](../../null/\#getAnimateTextType)/[.setAnimateTextType(int)](../../null/\#setAnimateTextType-int-)).
+Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType (\#getAnimateTextType.getAnimateTextType/\#setAnimateTextType(int).setAnimateTextType(int)).
 
 --------------------
 

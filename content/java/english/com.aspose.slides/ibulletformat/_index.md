@@ -174,7 +174,7 @@ public abstract byte getNumberedBulletStyle()
 ```
 
 
-Returns or sets the style of a numbered bullet with no inheritance. Read/write [NumberedBulletStyle](../../com.aspose.slides/numberedbulletstyle)([.getNumberedBulletStyle](../../null/\#getNumberedBulletStyle)/[.setNumberedBulletStyle(byte)](../../null/\#setNumberedBulletStyle-byte-)).
+Returns or sets the style of a numbered bullet with no inheritance. Read/write [NumberedBulletStyle](../../com.aspose.slides/numberedbulletstyle)(\#getNumberedBulletStyle.getNumberedBulletStyle/\#setNumberedBulletStyle(byte).setNumberedBulletStyle(byte)).
 
 **Returns:**
 byte
@@ -184,7 +184,7 @@ public abstract void setNumberedBulletStyle(byte value)
 ```
 
 
-Returns or sets the style of a numbered bullet with no inheritance. Read/write [NumberedBulletStyle](../../com.aspose.slides/numberedbulletstyle)([.getNumberedBulletStyle](../../null/\#getNumberedBulletStyle)/[.setNumberedBulletStyle(byte)](../../null/\#setNumberedBulletStyle-byte-)).
+Returns or sets the style of a numbered bullet with no inheritance. Read/write [NumberedBulletStyle](../../com.aspose.slides/numberedbulletstyle)(\#getNumberedBulletStyle.getNumberedBulletStyle/\#setNumberedBulletStyle(byte).setNumberedBulletStyle(byte)).
 
 **Parameters:**
 | Parameter | Type | Description |

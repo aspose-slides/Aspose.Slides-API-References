@@ -54,7 +54,7 @@ public static Shape geometryPathToGraphicsPath(IGeometryPath geometryPath)
 ```
 
 
-Converts [IGeometryPath](../../com.aspose.slides/igeometrypath) to java.awt.Shape. GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the [IGeometryPath](../../com.aspose.slides/igeometrypath) to use in [GeometryShape](../../com.aspose.slides/geometryshape) via [.graphicsPathToGeometryPath(java.awt.Shape)](../../null/\#graphicsPathToGeometryPath-java.awt.Shape-) method.
+Converts [IGeometryPath](../../com.aspose.slides/igeometrypath) to java.awt.Shape. GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the [IGeometryPath](../../com.aspose.slides/igeometrypath) to use in [GeometryShape](../../com.aspose.slides/geometryshape) via \#graphicsPathToGeometryPath(java.awt.Shape).graphicsPathToGeometryPath(java.awt.Shape) method.
 
 **Parameters:**
 | Parameter | Type | Description |

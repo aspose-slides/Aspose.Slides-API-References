@@ -169,7 +169,7 @@ Adds a new placeholder if there is no and sets placeholder properties to a speci
 | placeholderToCopyFrom | [IPlaceholder](../../com.aspose.slides/iplaceholder) | Placeholder to copy content from. |
 
 **Returns:**
-[IPlaceholder](../../com.aspose.slides/iplaceholder) - New [.getPlaceholder](../../null/\#getPlaceholder).
+[IPlaceholder](../../com.aspose.slides/iplaceholder) - New \#getPlaceholder.getPlaceholder.
 ### getBasePlaceholder() {#getBasePlaceholder--}
 ```
 public final IShape getBasePlaceholder()
@@ -811,7 +811,7 @@ public final long getUniqueId()
 ```
 
 
-Gets unique shape identifier in presentation scope. Read-only long. See also [.getOfficeInteropShapeId](../../null/\#getOfficeInteropShapeId) for getting unique shape identifier in slide scope.
+Gets unique shape identifier in presentation scope. Read-only long. See also \#getOfficeInteropShapeId.getOfficeInteropShapeId for getting unique shape identifier in slide scope.
 
 **Returns:**
 long
@@ -821,7 +821,7 @@ public final long getOfficeInteropShapeId()
 ```
 
 
-Gets unique shape identifier in slide scope. Read-only long. See also [.getUniqueId](../../null/\#getUniqueId) for getting unique shape identifier in presentation scope.
+Gets unique shape identifier in slide scope. Read-only long. See also \#getUniqueId.getUniqueId for getting unique shape identifier in presentation scope.
 
 **Returns:**
 long
@@ -959,7 +959,7 @@ Determines whether the shape is grouped. Read-only boolean.
 
 --------------------
 
-Property [.getParentGroup](../../null/\#getParentGroup) returns parent GroupShape object if shape is grouped.
+Property \#getParentGroup.getParentGroup returns parent GroupShape object if shape is grouped.
 
 **Returns:**
 boolean
@@ -973,7 +973,7 @@ Returns parent GroupShape object if shape is grouped. Otherwise returns null. Re
 
 --------------------
 
-Property [.isGrouped](../../null/\#isGrouped) determines whether the shape is grouped.
+Property \#isGrouped.isGrouped determines whether the shape is grouped.
 
 **Returns:**
 [IGroupShape](../../com.aspose.slides/igroupshape)

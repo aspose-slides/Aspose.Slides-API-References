@@ -41,7 +41,7 @@ public abstract int getBuildType()
 ```
 
 
-List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write [.getBuildType](../../null/\#getBuildType)/[.setBuildType(int)](../../null/\#setBuildType-int-).
+List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write \#getBuildType.getBuildType/\#setBuildType(int).setBuildType(int).
 
 **Returns:**
 int
@@ -51,7 +51,7 @@ public abstract void setBuildType(int value)
 ```
 
 
-List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write [.getBuildType](../../null/\#getBuildType)/[.setBuildType(int)](../../null/\#setBuildType-int-).
+List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write \#getBuildType.getBuildType/\#setBuildType(int).setBuildType(int).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -127,7 +127,7 @@ Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memo
 
 --------------------
 
-This property will be ignored if  IsTemporaryFilesAllowed ([.isTemporaryFilesAllowed](../../null/\#isTemporaryFilesAllowed)/[.setTemporaryFilesAllowed(boolean)](../../null/\#setTemporaryFilesAllowed-boolean-)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if  IsTemporaryFilesAllowed ([.isTemporaryFilesAllowed](../../null/\#isTemporaryFilesAllowed)/[.setTemporaryFilesAllowed(boolean)](../../null/\#setTemporaryFilesAllowed-boolean-)) is set to false, the memory is the only place where BLOBs can be stored.
+This property will be ignored if  IsTemporaryFilesAllowed (\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if  IsTemporaryFilesAllowed (\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false, the memory is the only place where BLOBs can be stored.
 
 --------------------
 
@@ -145,7 +145,7 @@ Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memo
 
 --------------------
 
-This property will be ignored if  IsTemporaryFilesAllowed ([.isTemporaryFilesAllowed](../../null/\#isTemporaryFilesAllowed)/[.setTemporaryFilesAllowed(boolean)](../../null/\#setTemporaryFilesAllowed-boolean-)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if  IsTemporaryFilesAllowed ([.isTemporaryFilesAllowed](../../null/\#isTemporaryFilesAllowed)/[.setTemporaryFilesAllowed(boolean)](../../null/\#setTemporaryFilesAllowed-boolean-)) is set to false, the memory is the only place where BLOBs can be stored.
+This property will be ignored if  IsTemporaryFilesAllowed (\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if  IsTemporaryFilesAllowed (\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false, the memory is the only place where BLOBs can be stored.
 
 --------------------
 

@@ -35,7 +35,7 @@ public abstract int getLayoutTargetType()
 ```
 
 
-If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). Read/write [LayoutTargetType](../../com.aspose.slides/layouttargettype)([.getLayoutTargetType](../../null/\#getLayoutTargetType)/[.setLayoutTargetType(int)](../../null/\#setLayoutTargetType-int-)).
+If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). Read/write [LayoutTargetType](../../com.aspose.slides/layouttargettype)(\#getLayoutTargetType.getLayoutTargetType/\#setLayoutTargetType(int).setLayoutTargetType(int)).
 
 --------------------
 
@@ -63,7 +63,7 @@ public abstract void setLayoutTargetType(int value)
 ```
 
 
-If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). Read/write [LayoutTargetType](../../com.aspose.slides/layouttargettype)([.getLayoutTargetType](../../null/\#getLayoutTargetType)/[.setLayoutTargetType(int)](../../null/\#setLayoutTargetType-int-)).
+If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). Read/write [LayoutTargetType](../../com.aspose.slides/layouttargettype)(\#getLayoutTargetType.getLayoutTargetType/\#setLayoutTargetType(int).setLayoutTargetType(int)).
 
 --------------------
 

@@ -30,8 +30,8 @@ Represents an SVG options.
 | [setJpegQuality(int value)](#setJpegQuality-int-) | Determines JPEG encoding quality. |
 | [getShapeFormattingController()](#getShapeFormattingController--) | Returns and sets a callback interface which allows user to control shape conversion. |
 | [setShapeFormattingController(ISvgShapeFormattingController value)](#setShapeFormattingController-com.aspose.slides.ISvgShapeFormattingController-) | Returns and sets a callback interface which allows user to control shape conversion. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write [.getPicturesCompression](../../null/\#getPicturesCompression)/[.setPicturesCompression(int)](../../null/\#setPicturesCompression-int-). |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write [.getPicturesCompression](../../null/\#getPicturesCompression)/[.setPicturesCompression(int)](../../null/\#setPicturesCompression-int-). |
+| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write \#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write \#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int). |
 | [getDeletePicturesCroppedAreas()](#getDeletePicturesCroppedAreas--) | A boolean flag indicates if the cropped parts remain as part of the document. |
 | [setDeletePicturesCroppedAreas(boolean value)](#setDeletePicturesCroppedAreas-boolean-) | A boolean flag indicates if the cropped parts remain as part of the document. |
 | [getUseFrameSize()](#getUseFrameSize--) | Determines whether the text frame will be included in a rendering area or not. |
@@ -210,7 +210,7 @@ public abstract int getPicturesCompression()
 ```
 
 
-Represents the pictures compression level Read/write [.getPicturesCompression](../../null/\#getPicturesCompression)/[.setPicturesCompression(int)](../../null/\#setPicturesCompression-int-).
+Represents the pictures compression level Read/write \#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int).
 
 **Returns:**
 int
@@ -220,7 +220,7 @@ public abstract void setPicturesCompression(int value)
 ```
 
 
-Represents the pictures compression level Read/write [.getPicturesCompression](../../null/\#getPicturesCompression)/[.setPicturesCompression(int)](../../null/\#setPicturesCompression-int-).
+Represents the pictures compression level Read/write \#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int).
 
 **Parameters:**
 | Parameter | Type | Description |

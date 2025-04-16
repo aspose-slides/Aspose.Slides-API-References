@@ -975,7 +975,7 @@ public abstract int getCategoryAxisType()
 ```
 
 
-Specifies the type of the category axis. Read/write [CategoryAxisType](../../com.aspose.slides/categoryaxistype)([.getCategoryAxisType](../../null/\#getCategoryAxisType)/[.setCategoryAxisType(int)](../../null/\#setCategoryAxisType-int-)).
+Specifies the type of the category axis. Read/write [CategoryAxisType](../../com.aspose.slides/categoryaxistype)(\#getCategoryAxisType.getCategoryAxisType/\#setCategoryAxisType(int).setCategoryAxisType(int)).
 
 **Returns:**
 int
@@ -985,7 +985,7 @@ public abstract void setCategoryAxisType(int value)
 ```
 
 
-Specifies the type of the category axis. Read/write [CategoryAxisType](../../com.aspose.slides/categoryaxistype)([.getCategoryAxisType](../../null/\#getCategoryAxisType)/[.setCategoryAxisType(int)](../../null/\#setCategoryAxisType-int-)).
+Specifies the type of the category axis. Read/write [CategoryAxisType](../../com.aspose.slides/categoryaxistype)(\#getCategoryAxisType.getCategoryAxisType/\#setCategoryAxisType(int).setCategoryAxisType(int)).
 
 **Parameters:**
 | Parameter | Type | Description |
