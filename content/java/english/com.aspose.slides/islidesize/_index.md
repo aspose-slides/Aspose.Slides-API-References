@@ -29,7 +29,7 @@ Returns or sets the size in points. Read/write java.awt.geom.Dimension2D.
 
 --------------------
 
-Assigning any value will reset (\#getType.getType) property to [SlideSizeType.Custom](../../com.aspose.slides/slidesizetype\#Custom) and set ([getOrientation](../../com.aspose.slides/islidesize\#getOrientation)/[setOrientation(int)](../../com.aspose.slides/islidesize\#setOrientation-int-)).
+Assigning any value will reset ([.getType](../../null/\#getType)) property to [SlideSizeType.Custom](../../com.aspose.slides/slidesizetype\#Custom) and set ([getOrientation](../../com.aspose.slides/islidesize\#getOrientation)/[setOrientation(int)](../../com.aspose.slides/islidesize\#setOrientation-int-)).
 
 **Returns:**
 java.awt.geom.Dimension2D
@@ -113,5 +113,5 @@ Sets the size in points and scales content using scale type.
 
 --------------------
 
-Assigning any value will reset (\#getType.getType) property to [SlideSizeType.Custom](../../com.aspose.slides/slidesizetype\#Custom) and set ([getOrientation](../../com.aspose.slides/islidesize\#getOrientation)/[setOrientation(int)](../../com.aspose.slides/islidesize\#setOrientation-int-)). |
+Assigning any value will reset ([.getType](../../null/\#getType)) property to [SlideSizeType.Custom](../../com.aspose.slides/slidesizetype\#Custom) and set ([getOrientation](../../com.aspose.slides/islidesize\#getOrientation)/[setOrientation(int)](../../com.aspose.slides/islidesize\#setOrientation-int-)). |
 

@@ -50,7 +50,7 @@ public abstract int getTextInheritanceLimit()
 ```
 
 
-Returns or sets inhering depth for text properties. Read/write [TextInheritanceLimit](../../com.aspose.slides/textinheritancelimit)(\#getTextInheritanceLimit.getTextInheritanceLimit/\#setTextInheritanceLimit(int).setTextInheritanceLimit(int)).
+Returns or sets inhering depth for text properties. Read/write [TextInheritanceLimit](../../com.aspose.slides/textinheritancelimit)([.getTextInheritanceLimit](../../null/\#getTextInheritanceLimit)/[.setTextInheritanceLimit(int)](../../null/\#setTextInheritanceLimit-int-)).
 
 **Returns:**
 int
@@ -60,7 +60,7 @@ public abstract void setTextInheritanceLimit(int value)
 ```
 
 
-Returns or sets inhering depth for text properties. Read/write [TextInheritanceLimit](../../com.aspose.slides/textinheritancelimit)(\#getTextInheritanceLimit.getTextInheritanceLimit/\#setTextInheritanceLimit(int).setTextInheritanceLimit(int)).
+Returns or sets inhering depth for text properties. Read/write [TextInheritanceLimit](../../com.aspose.slides/textinheritancelimit)([.getTextInheritanceLimit](../../null/\#getTextInheritanceLimit)/[.setTextInheritanceLimit(int)](../../null/\#setTextInheritanceLimit-int-)).
 
 **Parameters:**
 | Parameter | Type | Description |

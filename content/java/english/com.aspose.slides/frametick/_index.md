@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTick
 second_title: Aspose.Slides for Java API Reference
-description: Represents the frame tick handler of FrameTickDelegate.FrameTickDelegate event.
+description: Represents the frame tick handler of  event.
 type: docs
 url: /com.aspose.slides/presentationplayer.frametick/
 ---```
 public static interface PresentationPlayer.FrameTick
 ```
 
-Represents the frame tick handler of \#FrameTickDelegate.FrameTickDelegate event.
+Represents the frame tick handler of [.FrameTickDelegate](../../null/\#FrameTickDelegate) event.
 ## Methods
 
 | Method | Description |

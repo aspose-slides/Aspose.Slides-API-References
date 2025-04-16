@@ -178,7 +178,7 @@ Splits the text content of the [ITextFrame](../../com.aspose.slides/itextframe) 
 --------------------
 
 > ```
-> The following example demonstrates how to use #splitTextByColumns.splitTextByColumns:
+> The following example demonstrates how to use [.splitTextByColumns](../../null/#splitTextByColumns):
 >  
 >  Presentation pres = new Presentation("example.pptx");
 >  try {

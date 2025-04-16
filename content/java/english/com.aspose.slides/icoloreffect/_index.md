@@ -101,7 +101,7 @@ public abstract int getColorSpace()
 ```
 
 
-Represent color space of behavior. Read/write [ColorSpace](../../com.aspose.slides/colorspace)(\#getColorSpace.getColorSpace/\#setColorSpace(int).setColorSpace(int)).
+Represent color space of behavior. Read/write [ColorSpace](../../com.aspose.slides/colorspace)([.getColorSpace](../../null/\#getColorSpace)/[.setColorSpace(int)](../../null/\#setColorSpace-int-)).
 
 **Returns:**
 int
@@ -111,7 +111,7 @@ public abstract void setColorSpace(int value)
 ```
 
 
-Represent color space of behavior. Read/write [ColorSpace](../../com.aspose.slides/colorspace)(\#getColorSpace.getColorSpace/\#setColorSpace(int).setColorSpace(int)).
+Represent color space of behavior. Read/write [ColorSpace](../../com.aspose.slides/colorspace)([.getColorSpace](../../null/\#getColorSpace)/[.setColorSpace(int)](../../null/\#setColorSpace-int-)).
 
 **Parameters:**
 | Parameter | Type | Description |

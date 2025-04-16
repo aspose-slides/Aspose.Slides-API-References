@@ -18,6 +18,7 @@ Represents a geometry shape's adjustment value. These values affect shape's form
 | [getAngleValue()](#getAngleValue--) | Returns or sets value, interpreting it as angle in degrees. |
 | [setAngleValue(float value)](#setAngleValue-float-) | Returns or sets value, interpreting it as angle in degrees. |
 | [getName()](#getName--) | Returns a name of this adjustment value. |
+| [getType()](#getType--) | Returns the type of the shape adjustment. |
 ### getRawValue() {#getRawValue--}
 ```
 public abstract long getRawValue()
@@ -74,3 +75,13 @@ Returns a name of this adjustment value. Read-only String.
 
 **Returns:**
 java.lang.String
+### getType() {#getType--}
+```
+public abstract int getType()
+```
+
+
+Returns the type of the shape adjustment. Read-only [ShapeAdjustmentType](../../com.aspose.slides/shapeadjustmenttype).
+
+**Returns:**
+int

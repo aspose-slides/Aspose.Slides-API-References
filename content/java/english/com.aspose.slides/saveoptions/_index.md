@@ -32,8 +32,8 @@ Abstract class with options that control how a presentation is saved.
 | [setDefaultRegularFont(String value)](#setDefaultRegularFont-java.lang.String-) | Returns or sets font used in case source font is not found. |
 | [getGradientStyle()](#getGradientStyle--) | Returns or sets the visual style of the gradient. |
 | [setGradientStyle(int value)](#setGradientStyle-int-) | Returns or sets the visual style of the gradient. |
-| [getSkipJavaScriptLinks()](#getSkipJavaScriptLinks--) | Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. |
-| [setSkipJavaScriptLinks(boolean value)](#setSkipJavaScriptLinks-boolean-) | Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. |
+| [getSkipJavaScriptLinks()](#getSkipJavaScriptLinks--) | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. |
+| [setSkipJavaScriptLinks(boolean value)](#setSkipJavaScriptLinks-boolean-) | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. |
 ### SaveOptions() {#SaveOptions--}
 ```
 public SaveOptions()
@@ -176,7 +176,7 @@ public final boolean getSkipJavaScriptLinks()
 ```
 
 
-Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. Read/write boolean. Default value is false.
+Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write boolean. The default value is false.
 
 --------------------
 
@@ -195,9 +195,9 @@ Specifies whether the presentation Hyperlinks with JavaScript calls will be skip
 
 --------------------
 
-When the option value is true, the Hyperlinks with JavaScript calls will be ignored.
+When this property is set to true, hyperlinks with JavaScript calls will be ignored while saving.
 
-When the option value is false, the all Hyperlinks will be saved.
+When this property is set to false, all hyperlinks will be saved.
 
 **Returns:**
 boolean
@@ -207,7 +207,7 @@ public final void setSkipJavaScriptLinks(boolean value)
 ```
 
 
-Specifies whether the presentation Hyperlinks with JavaScript calls will be skipped while saving. Read/write boolean. Default value is false.
+Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write boolean. The default value is false.
 
 --------------------
 
@@ -226,9 +226,9 @@ Specifies whether the presentation Hyperlinks with JavaScript calls will be skip
 
 --------------------
 
-When the option value is true, the Hyperlinks with JavaScript calls will be ignored.
+When this property is set to true, hyperlinks with JavaScript calls will be ignored while saving.
 
-When the option value is false, the all Hyperlinks will be saved.
+When this property is set to false, all hyperlinks will be saved.
 
 **Parameters:**
 | Parameter | Type | Description |

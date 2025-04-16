@@ -35,7 +35,7 @@ public abstract int getWarningType()
 ```
 
 
-Returns a type of warning. Read-only [WarningType](../../com.aspose.slides/warningtype)(\#getWarningType.getWarningType).
+Returns a type of warning. Read-only [WarningType](../../com.aspose.slides/warningtype)([.getWarningType](../../null/\#getWarningType)).
 
 **Returns:**
 int

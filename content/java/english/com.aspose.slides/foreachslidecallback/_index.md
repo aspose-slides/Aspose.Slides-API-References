@@ -11,14 +11,14 @@ public static interface ForEach.ForEachSlideCallback
 
 | Method | Description |
 | --- | --- |
-| [invoke(Slide slide, int index)](#invoke-com.aspose.slides.Slide-int-) | Callback that will be invoked for each \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
+| [invoke(Slide slide, int index)](#invoke-com.aspose.slides.Slide-int-) | Callback that will be invoked for each [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-) in the [Presentation](../../com.aspose.slides/presentation). |
 ### invoke(Slide slide, int index) {#invoke-com.aspose.slides.Slide-int-}
 ```
 public abstract void invoke(Slide slide, int index)
 ```
 
 
-Callback that will be invoked for each \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Callback that will be invoked for each [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-) in the [Presentation](../../com.aspose.slides/presentation).
 
 **Parameters:**
 | Parameter | Type | Description |

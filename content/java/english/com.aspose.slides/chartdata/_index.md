@@ -22,10 +22,10 @@ Represents data used for a chart plotting.
 | [getChartDataWorkbook()](#getChartDataWorkbook--) | Gets the cells factory to create cells used for chart series or categories. |
 | [getSeries()](#getSeries--) | Gets the series. |
 | [getSeriesGroups()](#getSeriesGroups--) | Gets the groups of series. |
-| [getCategories()](#getCategories--) | Gets the primary categories (or both primary and secondary categories if \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) property is false). |
-| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | If false then \#getSecondaryCategories.getSecondaryCategories property return null and data in \#getCategories.getCategories property is used both for primary and secondary series. |
-| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | If false then \#getSecondaryCategories.getSecondaryCategories property return null and data in \#getCategories.getCategories property is used both for primary and secondary series. |
-| [getSecondaryCategories()](#getSecondaryCategories--) | Gets the secondary categories if \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) property is true. |
+| [getCategories()](#getCategories--) | Gets the primary categories (or both primary and secondary categories if [.getUseSecondaryCategories](../../null/\#getUseSecondaryCategories)/[.setUseSecondaryCategories(boolean)](../../null/\#setUseSecondaryCategories-boolean-) property is false). |
+| [getUseSecondaryCategories()](#getUseSecondaryCategories--) | If false then [.getSecondaryCategories](../../null/\#getSecondaryCategories) property return null and data in [.getCategories](../../null/\#getCategories) property is used both for primary and secondary series. |
+| [setUseSecondaryCategories(boolean value)](#setUseSecondaryCategories-boolean-) | If false then [.getSecondaryCategories](../../null/\#getSecondaryCategories) property return null and data in [.getCategories](../../null/\#getCategories) property is used both for primary and secondary series. |
+| [getSecondaryCategories()](#getSecondaryCategories--) | Gets the secondary categories if [.getUseSecondaryCategories](../../null/\#getUseSecondaryCategories)/[.setUseSecondaryCategories(boolean)](../../null/\#setUseSecondaryCategories-boolean-) property is true. |
 | [readWorkbookStream()](#readWorkbookStream--) | Writes the internally contained Excel workbook it into an in-memory stream. |
 | [writeWorkbookStream(byte[] ms)](#writeWorkbookStream-byte---) | Initializes the internally contained Excel workbook with user-specified value. |
 | [getDataSourceType()](#getDataSourceType--) | Represents external workbook path if external data source, null otherwise |
@@ -75,7 +75,7 @@ public final IChartCategoryCollection getCategories()
 ```
 
 
-Gets the primary categories (or both primary and secondary categories if \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) property is false). Read-only [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+Gets the primary categories (or both primary and secondary categories if [.getUseSecondaryCategories](../../null/\#getUseSecondaryCategories)/[.setUseSecondaryCategories(boolean)](../../null/\#setUseSecondaryCategories-boolean-) property is false). Read-only [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -94,7 +94,7 @@ Gets the primary categories (or both primary and secondary categories if \#getUs
 
 --------------------
 
-If \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) property is false then (\#getSecondaryCategories.getSecondaryCategories) property return null and data in this \#getCategories.getCategories property is used both for primary and secondary series. If \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) property is true then data in (\#getSecondaryCategories.getSecondaryCategories) property is used for secondary series and data in this \#getCategories.getCategories property is used for primary series.
+If [.getUseSecondaryCategories](../../null/\#getUseSecondaryCategories)/[.setUseSecondaryCategories(boolean)](../../null/\#setUseSecondaryCategories-boolean-) property is false then ([.getSecondaryCategories](../../null/\#getSecondaryCategories)) property return null and data in this [.getCategories](../../null/\#getCategories) property is used both for primary and secondary series. If [.getUseSecondaryCategories](../../null/\#getUseSecondaryCategories)/[.setUseSecondaryCategories(boolean)](../../null/\#setUseSecondaryCategories-boolean-) property is true then data in ([.getSecondaryCategories](../../null/\#getSecondaryCategories)) property is used for secondary series and data in this [.getCategories](../../null/\#getCategories) property is used for primary series.
 
 **Returns:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)
@@ -104,7 +104,7 @@ public final boolean getUseSecondaryCategories()
 ```
 
 
-If false then \#getSecondaryCategories.getSecondaryCategories property return null and data in \#getCategories.getCategories property is used both for primary and secondary series. If true then data in \#getSecondaryCategories.getSecondaryCategories property is used for secondary series and data in \#getCategories.getCategories property is used for primary series. Read/write boolean.
+If false then [.getSecondaryCategories](../../null/\#getSecondaryCategories) property return null and data in [.getCategories](../../null/\#getCategories) property is used both for primary and secondary series. If true then data in [.getSecondaryCategories](../../null/\#getSecondaryCategories) property is used for secondary series and data in [.getCategories](../../null/\#getCategories) property is used for primary series. Read/write boolean.
 
 --------------------
 
@@ -129,7 +129,7 @@ public final void setUseSecondaryCategories(boolean value)
 ```
 
 
-If false then \#getSecondaryCategories.getSecondaryCategories property return null and data in \#getCategories.getCategories property is used both for primary and secondary series. If true then data in \#getSecondaryCategories.getSecondaryCategories property is used for secondary series and data in \#getCategories.getCategories property is used for primary series. Read/write boolean.
+If false then [.getSecondaryCategories](../../null/\#getSecondaryCategories) property return null and data in [.getCategories](../../null/\#getCategories) property is used both for primary and secondary series. If true then data in [.getSecondaryCategories](../../null/\#getSecondaryCategories) property is used for secondary series and data in [.getCategories](../../null/\#getCategories) property is used for primary series. Read/write boolean.
 
 --------------------
 
@@ -157,7 +157,7 @@ public final IChartCategoryCollection getSecondaryCategories()
 ```
 
 
-Gets the secondary categories if \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) property is true. Read-only [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
+Gets the secondary categories if [.getUseSecondaryCategories](../../null/\#getUseSecondaryCategories)/[.setUseSecondaryCategories(boolean)](../../null/\#setUseSecondaryCategories-boolean-) property is true. Read-only [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection).
 
 --------------------
 
@@ -176,7 +176,7 @@ Gets the secondary categories if \#getUseSecondaryCategories.getUseSecondaryCate
 
 --------------------
 
-If \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) property is false then this (\#getSecondaryCategories.getSecondaryCategories) property return null and data in \#getCategories.getCategories property is used both for primary and secondary series. If \#getUseSecondaryCategories.getUseSecondaryCategories/\#setUseSecondaryCategories(boolean).setUseSecondaryCategories(boolean) property is true then data in this \#getSecondaryCategories.getSecondaryCategories property is used for secondary series and data in \#getCategories.getCategories property is used for primary series.
+If [.getUseSecondaryCategories](../../null/\#getUseSecondaryCategories)/[.setUseSecondaryCategories(boolean)](../../null/\#setUseSecondaryCategories-boolean-) property is false then this ([.getSecondaryCategories](../../null/\#getSecondaryCategories)) property return null and data in [.getCategories](../../null/\#getCategories) property is used both for primary and secondary series. If [.getUseSecondaryCategories](../../null/\#getUseSecondaryCategories)/[.setUseSecondaryCategories(boolean)](../../null/\#setUseSecondaryCategories-boolean-) property is true then data in this [.getSecondaryCategories](../../null/\#getSecondaryCategories) property is used for secondary series and data in [.getCategories](../../null/\#getCategories) property is used for primary series.
 
 **Returns:**
 [IChartCategoryCollection](../../com.aspose.slides/ichartcategorycollection)

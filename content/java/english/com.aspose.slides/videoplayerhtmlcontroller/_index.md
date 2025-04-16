@@ -172,7 +172,7 @@ public final String getUrl(int id, int referrer)
 ```
 
 
-Returns an URL to an external object. This method always called if \#getObjectStoringLocation(int,byte[],String,String,String).getObjectStoringLocation(int,byte[],String,String,String) returned [LinkEmbedDecision.Link](../../com.aspose.slides/linkembeddecision\#Link) and may be called if \#getObjectStoringLocation(int,byte[],String,String,String).getObjectStoringLocation(int,byte[],String,String,String) returned [LinkEmbedDecision.Embed](../../com.aspose.slides/linkembeddecision\#Embed) but embedding is impossible. Can be called multiple time for same object id.
+Returns an URL to an external object. This method always called if [.getObjectStoringLocation(int,byte[],String,String,String)](../../null/\#getObjectStoringLocation-int-byte---String-String-String-) returned [LinkEmbedDecision.Link](../../com.aspose.slides/linkembeddecision\#Link) and may be called if [.getObjectStoringLocation(int,byte[],String,String,String)](../../null/\#getObjectStoringLocation-int-byte---String-String-String-) returned [LinkEmbedDecision.Embed](../../com.aspose.slides/linkembeddecision\#Embed) but embedding is impossible. Can be called multiple time for same object id.
 
 **Parameters:**
 | Parameter | Type | Description |

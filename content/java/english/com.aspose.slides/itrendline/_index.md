@@ -66,7 +66,7 @@ public abstract int getTrendlineType()
 ```
 
 
-Gets or sets type of trend line. Read/write [TrendlineType](../../com.aspose.slides/trendlinetype)(\#getTrendlineType.getTrendlineType/\#setTrendlineType(int).setTrendlineType(int)).
+Gets or sets type of trend line. Read/write [TrendlineType](../../com.aspose.slides/trendlinetype)([.getTrendlineType](../../null/\#getTrendlineType)/[.setTrendlineType(int)](../../null/\#setTrendlineType-int-)).
 
 **Returns:**
 int
@@ -76,7 +76,7 @@ public abstract void setTrendlineType(int value)
 ```
 
 
-Gets or sets type of trend line. Read/write [TrendlineType](../../com.aspose.slides/trendlinetype)(\#getTrendlineType.getTrendlineType/\#setTrendlineType(int).setTrendlineType(int)).
+Gets or sets type of trend line. Read/write [TrendlineType](../../com.aspose.slides/trendlinetype)([.getTrendlineType](../../null/\#getTrendlineType)/[.setTrendlineType(int)](../../null/\#setTrendlineType-int-)).
 
 **Parameters:**
 | Parameter | Type | Description |

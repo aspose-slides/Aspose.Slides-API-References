@@ -352,7 +352,7 @@ public abstract String getLogoLink()
 ```
 
 
-Gets or sets the full hyperlink address for a logo. Has an effect only if a (\#getLogoImageBytes.getLogoImageBytes/\#setLogoImageBytes(byte[]).setLogoImageBytes(byte[])) is specified.
+Gets or sets the full hyperlink address for a logo. Has an effect only if a ([.getLogoImageBytes](../../null/\#getLogoImageBytes)/[.setLogoImageBytes(byte[])](../../null/\#setLogoImageBytes-byte---)) is specified.
 
 **Returns:**
 java.lang.String
@@ -362,7 +362,7 @@ public abstract void setLogoLink(String value)
 ```
 
 
-Gets or sets the full hyperlink address for a logo. Has an effect only if a (\#getLogoImageBytes.getLogoImageBytes/\#setLogoImageBytes(byte[]).setLogoImageBytes(byte[])) is specified.
+Gets or sets the full hyperlink address for a logo. Has an effect only if a ([.getLogoImageBytes](../../null/\#getLogoImageBytes)/[.setLogoImageBytes(byte[])](../../null/\#setLogoImageBytes-byte---)) is specified.
 
 **Parameters:**
 | Parameter | Type | Description |

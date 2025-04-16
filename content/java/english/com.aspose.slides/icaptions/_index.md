@@ -17,7 +17,7 @@ Represents the WebVTT closed captions.
 | [getLabel()](#getLabel--) | Returns or sets the label of the closed captions. |
 | [setLabel(String value)](#setLabel-java.lang.String-) | Returns or sets the label of the closed captions. |
 | [getBinaryData()](#getBinaryData--) | Returns the binary data of the closed captions. |
-| [getDataAsString()](#getDataAsString--) | Returns the closed captions data as UTF-8 string Read-only String. |
+| [getDataAsString()](#getDataAsString--) | Returns the closed captions data as UTF-8 encoded string Read-only String. |
 ### getCaptionId() {#getCaptionId--}
 ```
 public abstract UUID getCaptionId()
@@ -67,7 +67,7 @@ public abstract String getDataAsString()
 ```
 
 
-Returns the closed captions data as UTF-8 string Read-only String.
+Returns the closed captions data as UTF-8 encoded string Read-only String.
 
 **Returns:**
 java.lang.String

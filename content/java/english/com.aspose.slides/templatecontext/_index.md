@@ -52,7 +52,7 @@ public final Output getOutput()
 ```
 
 
-Returns collection of output elements of the host document. Read-only [Output](../../com.aspose.slides/output)(\#getOutput.getOutput).
+Returns collection of output elements of the host document. Read-only [Output](../../com.aspose.slides/output)([.getOutput](../../null/\#getOutput)).
 
 **Returns:**
 [Output](../../com.aspose.slides/output)

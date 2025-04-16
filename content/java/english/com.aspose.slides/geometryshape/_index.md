@@ -59,7 +59,7 @@ public final void setGeometryPath(IGeometryPath geometryPath)
 ```
 
 
-Updates shape geometry from [IGeometryPath](../../com.aspose.slides/igeometrypath) object. Coordinates must be relative to the left top corner of the shape. Changes the type of the shape (ShapeType(\#getShapeType.getShapeType/\#setShapeType(int).setShapeType(int))) to [ShapeType.Custom](../../com.aspose.slides/shapetype\#Custom).
+Updates shape geometry from [IGeometryPath](../../com.aspose.slides/igeometrypath) object. Coordinates must be relative to the left top corner of the shape. Changes the type of the shape (ShapeType([.getShapeType](../../null/\#getShapeType)/[.setShapeType(int)](../../null/\#setShapeType-int-))) to [ShapeType.Custom](../../com.aspose.slides/shapetype\#Custom).
 
 --------------------
 
@@ -97,7 +97,7 @@ public final void setGeometryPaths(IGeometryPath[] geometryPaths)
 ```
 
 
-Updates shape geometry from array of [IGeometryPath](../../com.aspose.slides/igeometrypath). Coordinates must be relative to the left top corner of the shape. Changes the type of the shape (ShapeType(\#getShapeType.getShapeType/\#setShapeType(int).setShapeType(int))) to [ShapeType.Custom](../../com.aspose.slides/shapetype\#Custom).
+Updates shape geometry from array of [IGeometryPath](../../com.aspose.slides/igeometrypath). Coordinates must be relative to the left top corner of the shape. Changes the type of the shape (ShapeType([.getShapeType](../../null/\#getShapeType)/[.setShapeType(int)](../../null/\#setShapeType-int-))) to [ShapeType.Custom](../../com.aspose.slides/shapetype\#Custom).
 
 --------------------
 

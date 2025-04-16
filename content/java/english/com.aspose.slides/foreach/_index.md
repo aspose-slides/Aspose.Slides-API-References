@@ -34,9 +34,9 @@ Represents a group of methods intended to iterate over different [Presentation](
 
 | Method | Description |
 | --- | --- |
-| [slide(Presentation pres, ForEach.ForEachSlideCallback forEachSlide)](#slide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachSlideCallback-) | Iterate each \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
-| [masterSlide(Presentation pres, ForEach.ForEachMasterSlideCallback forEachMasterSlide)](#masterSlide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachMasterSlideCallback-) | Iterate each \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
-| [layoutSlide(Presentation pres, ForEach.ForEachLayoutSlideCallback forEachLayoutSlide)](#layoutSlide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachLayoutSlideCallback-) | Iterate each \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
+| [slide(Presentation pres, ForEach.ForEachSlideCallback forEachSlide)](#slide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachSlideCallback-) | Iterate each [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-) in the [Presentation](../../com.aspose.slides/presentation). |
+| [masterSlide(Presentation pres, ForEach.ForEachMasterSlideCallback forEachMasterSlide)](#masterSlide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachMasterSlideCallback-) | Iterate each [.masterSlide(Presentation,ForEachMasterSlideCallback)](../../null/\#masterSlide-Presentation-ForEachMasterSlideCallback-) in the [Presentation](../../com.aspose.slides/presentation). |
+| [layoutSlide(Presentation pres, ForEach.ForEachLayoutSlideCallback forEachLayoutSlide)](#layoutSlide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachLayoutSlideCallback-) | Iterate each [.layoutSlide(Presentation,ForEachLayoutSlideCallback)](../../null/\#layoutSlide-Presentation-ForEachLayoutSlideCallback-) in the [Presentation](../../com.aspose.slides/presentation). |
 | [shape(Presentation pres, ForEach.ForEachShapeCallback forEachShape)](#shape-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachShapeCallback-) | Iterate each [Shape](../../com.aspose.slides/shape) in the [Presentation](../../com.aspose.slides/presentation). |
 | [shape(Presentation pres, boolean includeNotes, ForEach.ForEachShapeCallback forEachShape)](#shape-com.aspose.slides.Presentation-boolean-com.aspose.slides.ForEach.ForEachShapeCallback-) | Iterate each  Shape  in the [Presentation](../../com.aspose.slides/presentation). |
 | [shape(BaseSlide baseSlide, ForEach.ForEachShapeCallback forEachShape)](#shape-com.aspose.slides.BaseSlide-com.aspose.slides.ForEach.ForEachShapeCallback-) | Iterate each [Shape](../../com.aspose.slides/shape) in the [BaseSlide](../../com.aspose.slides/baseslide). |
@@ -56,7 +56,7 @@ public static void slide(Presentation pres, ForEach.ForEachSlideCallback forEach
 ```
 
 
-Iterate each \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Iterate each [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-) in the [Presentation](../../com.aspose.slides/presentation).
 
 --------------------
 
@@ -82,7 +82,7 @@ public static void masterSlide(Presentation pres, ForEach.ForEachMasterSlideCall
 ```
 
 
-Iterate each \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Iterate each [.masterSlide(Presentation,ForEachMasterSlideCallback)](../../null/\#masterSlide-Presentation-ForEachMasterSlideCallback-) in the [Presentation](../../com.aspose.slides/presentation).
 
 --------------------
 
@@ -108,7 +108,7 @@ public static void layoutSlide(Presentation pres, ForEach.ForEachLayoutSlideCall
 ```
 
 
-Iterate each \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Iterate each [.layoutSlide(Presentation,ForEachLayoutSlideCallback)](../../null/\#layoutSlide-Presentation-ForEachLayoutSlideCallback-) in the [Presentation](../../com.aspose.slides/presentation).
 
 --------------------
 
@@ -156,7 +156,7 @@ Iterate each [Shape](../../com.aspose.slides/shape) in the [Presentation](../../
 
 --------------------
 
-Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+Shapes will be iterated in all type of slides - [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-), [.masterSlide(Presentation,ForEachMasterSlideCallback)](../../null/\#masterSlide-Presentation-ForEachMasterSlideCallback-) and [.layoutSlide(Presentation,ForEachLayoutSlideCallback)](../../null/\#layoutSlide-Presentation-ForEachLayoutSlideCallback-) |
 
 ### shape(Presentation pres, boolean includeNotes, ForEach.ForEachShapeCallback forEachShape) {#shape-com.aspose.slides.Presentation-boolean-com.aspose.slides.ForEach.ForEachShapeCallback-}
 ```
@@ -187,7 +187,7 @@ Iterate each  Shape  in the [Presentation](../../com.aspose.slides/presentation)
 
 --------------------
 
-Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback), \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) and [NotesSlide](../../com.aspose.slides/notesslide) if needed. |
+Shapes will be iterated in all type of slides - [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-), [.masterSlide(Presentation,ForEachMasterSlideCallback)](../../null/\#masterSlide-Presentation-ForEachMasterSlideCallback-), [.layoutSlide(Presentation,ForEachLayoutSlideCallback)](../../null/\#layoutSlide-Presentation-ForEachLayoutSlideCallback-) and [NotesSlide](../../com.aspose.slides/notesslide) if needed. |
 
 ### shape(BaseSlide baseSlide, ForEach.ForEachShapeCallback forEachShape) {#shape-com.aspose.slides.BaseSlide-com.aspose.slides.ForEach.ForEachShapeCallback-}
 ```
@@ -218,7 +218,7 @@ Iterate each [Shape](../../com.aspose.slides/shape) in the [BaseSlide](../../com
 
 --------------------
 
-[BaseSlide](../../com.aspose.slides/baseslide) is the base type for \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+[BaseSlide](../../com.aspose.slides/baseslide) is the base type for [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-), [.masterSlide(Presentation,ForEachMasterSlideCallback)](../../null/\#masterSlide-Presentation-ForEachMasterSlideCallback-) and [.layoutSlide(Presentation,ForEachLayoutSlideCallback)](../../null/\#layoutSlide-Presentation-ForEachLayoutSlideCallback-) |
 
 ### paragraph(Presentation pres, ForEach.ForEachParagraphCallback forEachParagraph) {#paragraph-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachParagraphCallback-}
 ```
@@ -248,7 +248,7 @@ Iterate each [Paragraph](../../com.aspose.slides/paragraph) in the [Presentation
 
 --------------------
 
-Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+Shapes will be iterated in all type of slides - [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-), [.masterSlide(Presentation,ForEachMasterSlideCallback)](../../null/\#masterSlide-Presentation-ForEachMasterSlideCallback-) and [.layoutSlide(Presentation,ForEachLayoutSlideCallback)](../../null/\#layoutSlide-Presentation-ForEachLayoutSlideCallback-) |
 
 ### paragraph(Presentation pres, boolean includeNotes, ForEach.ForEachParagraphCallback forEachParagraph) {#paragraph-com.aspose.slides.Presentation-boolean-com.aspose.slides.ForEach.ForEachParagraphCallback-}
 ```
@@ -279,7 +279,7 @@ Iterate each [Paragraph](../../com.aspose.slides/paragraph) in the [Presentation
 
 --------------------
 
-Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback), \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) and [NotesSlide](../../com.aspose.slides/notesslide) |
+Shapes will be iterated in all type of slides - [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-), [.masterSlide(Presentation,ForEachMasterSlideCallback)](../../null/\#masterSlide-Presentation-ForEachMasterSlideCallback-), [.layoutSlide(Presentation,ForEachLayoutSlideCallback)](../../null/\#layoutSlide-Presentation-ForEachLayoutSlideCallback-) and [NotesSlide](../../com.aspose.slides/notesslide) |
 
 ### portion(Presentation pres, ForEach.ForEachPortionCallback forEachPortion) {#portion-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachPortionCallback-}
 ```
@@ -309,7 +309,7 @@ Iterate each [Portion](../../com.aspose.slides/portion) in the [Presentation](..
 
 --------------------
 
-Portions will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+Portions will be iterated in all type of slides - [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-), [.masterSlide(Presentation,ForEachMasterSlideCallback)](../../null/\#masterSlide-Presentation-ForEachMasterSlideCallback-) and [.layoutSlide(Presentation,ForEachLayoutSlideCallback)](../../null/\#layoutSlide-Presentation-ForEachLayoutSlideCallback-) |
 
 ### portion(Presentation pres, boolean includeNotes, ForEach.ForEachPortionCallback forEachPortion) {#portion-com.aspose.slides.Presentation-boolean-com.aspose.slides.ForEach.ForEachPortionCallback-}
 ```
@@ -340,5 +340,5 @@ Iterate each [Portion](../../com.aspose.slides/portion) in the [Presentation](..
 
 --------------------
 
-Portions will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback), \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) and [NotesSlide](../../com.aspose.slides/notesslide) |
+Portions will be iterated in all type of slides - [.slide(Presentation,ForEachSlideCallback)](../../null/\#slide-Presentation-ForEachSlideCallback-), [.masterSlide(Presentation,ForEachMasterSlideCallback)](../../null/\#masterSlide-Presentation-ForEachMasterSlideCallback-), [.layoutSlide(Presentation,ForEachLayoutSlideCallback)](../../null/\#layoutSlide-Presentation-ForEachLayoutSlideCallback-) and [NotesSlide](../../com.aspose.slides/notesslide) |
 

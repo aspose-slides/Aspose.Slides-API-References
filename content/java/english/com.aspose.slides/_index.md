@@ -513,6 +513,7 @@ url: /com.aspose.slides/
 | [SequenceCollection](../com.aspose.slides/sequencecollection) | Represents collection of interactive sequences. |
 | [SetEffect](../com.aspose.slides/seteffect) | Represents a set effect for an animation behavior. |
 | [Shape](../com.aspose.slides/shape) | Represents a shape on a slide. |
+| [ShapeAdjustmentType](../com.aspose.slides/shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeBevel](../com.aspose.slides/shapebevel) | Contains the properties of shape's main face relief. |
 | [ShapeCollection](../com.aspose.slides/shapecollection) | Represents a collection of a shapes. |
 | [ShapeElement](../com.aspose.slides/shapeelement) | Represents a part of shape with same outline and fill properties. |
@@ -870,7 +871,7 @@ url: /com.aspose.slides/
 | [IHyperlinkContainer](../com.aspose.slides/ihyperlinkcontainer) | Represents hyperlink object. |
 | [IHyperlinkManager](../com.aspose.slides/ihyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | [IHyperlinkQueries](../com.aspose.slides/ihyperlinkqueries) | Provide easy access to contained hyperlinks. |
-| [IImage](../com.aspose.slides/iimage) | Represents the raster or vector image. |
+| [IImage](../com.aspose.slides/iimage) | Represents a raster or vector image. |
 | [IImageCollection](../com.aspose.slides/iimagecollection) | Represents collection of PPImage. |
 | [IImageTransformOCollectionEffectiveData](../com.aspose.slides/iimagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
 | [IImageTransformOperation](../com.aspose.slides/iimagetransformoperation) | Represents abstract image transformation effect. |

@@ -310,7 +310,7 @@ public abstract int getSourceFormat()
 ```
 
 
-Returns information about from which format presentation was loaded. Read-only \#getSourceFormat.getSourceFormat.
+Returns information about from which format presentation was loaded. Read-only [SourceFormat](../../com.aspose.slides/sourceformat).
 
 **Returns:**
 int
@@ -589,7 +589,7 @@ Returns a Thumbnail Image objects for all slides of a presentation.
 | options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
 
 **Returns:**
-com.aspose.slides.IImage[] - Image objects.
+com.aspose.slides.IImage[] - IImage objects.
 ### getThumbnails(IRenderingOptions options, int[] slides) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---}
 ```
 public abstract BufferedImage[] getThumbnails(IRenderingOptions options, int[] slides)
@@ -723,7 +723,7 @@ Returns a Thumbnail Image objects for all slides of a presentation with specifie
 | imageSize | java.awt.Dimension | Size of the image to create. |
 
 **Returns:**
-com.aspose.slides.IImage[] - Image objects.
+com.aspose.slides.IImage[] - IImage objects.
 ### getThumbnails(IRenderingOptions options, int[] slides, Dimension imageSize) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public abstract BufferedImage[] getThumbnails(IRenderingOptions options, int[] slides, Dimension imageSize)
@@ -757,7 +757,7 @@ Returns a Thumbnail Image objects for specified slides of a presentation with sp
 | imageSize | java.awt.Dimension | Size of the image to create. |
 
 **Returns:**
-com.aspose.slides.IImage[] - Image objects.
+com.aspose.slides.IImage[] - IImage objects.
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public abstract IBaseSlide getSlideById(long id)

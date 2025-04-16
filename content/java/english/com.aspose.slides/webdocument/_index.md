@@ -52,7 +52,7 @@ public final Input getInput()
 ```
 
 
-Returns collection of input elements (templates) of the document. Read-only [Input](../../com.aspose.slides/input)(\#getInput.getInput).
+Returns collection of input elements (templates) of the document. Read-only [Input](../../com.aspose.slides/input)([.getInput](../../null/\#getInput)).
 
 **Returns:**
 [Input](../../com.aspose.slides/input)
@@ -62,7 +62,7 @@ public final Output getOutput()
 ```
 
 
-Returns collection of output elements of the document. Read-only [Output](../../com.aspose.slides/output)(\#getOutput.getOutput).
+Returns collection of output elements of the document. Read-only [Output](../../com.aspose.slides/output)([.getOutput](../../null/\#getOutput)).
 
 --------------------
 
@@ -91,7 +91,7 @@ Returns global storage of the document. Read-only [Storage](../../com.aspose.sli
 --------------------
 
 > ```
-> Using this (#getGlobal.getGlobal) property (implementation of [Storage](../../com.aspose.slides/storage) interface) a
+> Using this ([.getGlobal](../../null/#getGlobal)) property (implementation of [Storage](../../com.aspose.slides/storage) interface) a
 >   property can be put to use it later in the template:
 >   
 >   WebDocumentOptions options = new WebDocumentOptions();

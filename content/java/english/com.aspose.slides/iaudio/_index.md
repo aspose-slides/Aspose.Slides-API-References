@@ -13,7 +13,7 @@ Represents an embedded audio file.
 
 | Method | Description |
 | --- | --- |
-| [getContentType()](#getContentType--) | Returns a MIME type of an audio, encoded in (\#getBinaryData.getBinaryData). |
+| [getContentType()](#getContentType--) | Returns a MIME type of an audio, encoded in ([.getBinaryData](../../null/\#getBinaryData)). |
 | [getBinaryData()](#getBinaryData--) | Returns the copy of an audio's data. |
 | [getStream()](#getStream--) | Returns Stream stream for reading. |
 ### getContentType() {#getContentType--}
@@ -22,7 +22,7 @@ public abstract String getContentType()
 ```
 
 
-Returns a MIME type of an audio, encoded in (\#getBinaryData.getBinaryData). Read-only String.
+Returns a MIME type of an audio, encoded in ([.getBinaryData](../../null/\#getBinaryData)). Read-only String.
 
 **Returns:**
 java.lang.String
@@ -32,7 +32,7 @@ public abstract byte[] getBinaryData()
 ```
 
 
-Returns the copy of an audio's data. In case of large amount of data consider using of \#getStream.getStream method to prevent unnecessary loading of audio's data into memory or even OutOfMemoryException. Read-only byte[].
+Returns the copy of an audio's data. In case of large amount of data consider using of [.getStream](../../null/\#getStream) method to prevent unnecessary loading of audio's data into memory or even OutOfMemoryException. Read-only byte[].
 
 **Returns:**
 byte[]
