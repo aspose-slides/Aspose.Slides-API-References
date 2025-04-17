@@ -27,7 +27,7 @@ class IAdjustValue : public virtual System::Object
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | virtual **float** [get_AngleValue](./get_anglevalue/)() | Returns value, interpreting it as angle in degrees. Read **float**. |
 | virtual [System::String](../../system/string/) [get_Name](./get_name/)() | Returns a name of this adjustment value. Read-only [System::String](../../system/string/). |
-| virtual **int64_t** [get_RawValue](./get_rawvalue/)() | Returns ajustment value \"as is\". Read **int64_t**. |
+| virtual **int64_t** [get_RawValue](./get_rawvalue/)() | Returns adjustment value \"as is\". Read **int64_t**. |
 | virtual [ShapeAdjustmentType](../shapeadjustmenttype/) [get_Type](./get_type/)() | Returns the type of the shape adjustment. Read-only [ShapeAdjustmentType](../shapeadjustmenttype/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
@@ -45,7 +45,7 @@ class IAdjustValue : public virtual System::Object
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | virtual void [set_AngleValue](./set_anglevalue/)(**float**) | Sets value, interpreting it as angle in degrees. Write **float**. |
-| virtual void [set_RawValue](./set_rawvalue/)(**int64_t**) | Sets ajustment value \"as is\". Write **int64_t**. |
+| virtual void [set_RawValue](./set_rawvalue/)(**int64_t**) | Sets adjustment value \"as is\". Write **int64_t**. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
