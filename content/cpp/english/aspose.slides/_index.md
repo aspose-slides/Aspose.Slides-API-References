@@ -503,6 +503,7 @@ url: /aspose.slides/
 | [PVICachingMode](./pvicachingmode/) | Represents different levels of caching for PVI effective objects. |
 | [RectangleAlignment](./rectanglealignment/) | Defines 2-dimension allignment. |
 | [SchemeColor](./schemecolor/) | Represents colors in a color scheme. |
+| [ShapeAdjustmentType](./shapeadjustmenttype/) | Specifies different types of shape adjustment values. |
 | [ShapeElementFillSource](./shapeelementfillsource/) | Represents how shape element should be filled. |
 | [ShapeElementStrokeSource](./shapeelementstrokesource/) | Represents how shape element should be drawn. |
 | [ShapesAlignmentType](./shapesalignmenttype/) | Defines a way to change the placement of selected shapes on the slide. |

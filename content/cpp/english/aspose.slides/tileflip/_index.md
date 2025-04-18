@@ -3,7 +3,7 @@ title: TileFlip
 second_title: Aspose.Slides for C++ API Reference
 description: Defines tile flipping mode.
 type: docs
-weight: 6553
+weight: 6566
 url: /aspose.slides/tileflip/
 ---
 ## TileFlip enum

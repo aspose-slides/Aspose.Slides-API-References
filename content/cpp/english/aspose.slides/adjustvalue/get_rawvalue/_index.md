@@ -1,7 +1,7 @@
 ---
 title: get_RawValue()
 second_title: Aspose.Slides for C++ API Reference
-description: Returns ajustment value \"as is\". Read int64_t.
+description: Returns adjustment value \"as is\". Read int64_t.
 type: docs
 weight: 1
 url: /aspose.slides/adjustvalue/get_rawvalue/
@@ -9,7 +9,7 @@ url: /aspose.slides/adjustvalue/get_rawvalue/
 ## AdjustValue::get_RawValue() method
 
 
-Returns ajustment value \"as is\". Read **int64_t**.
+Returns adjustment value \"as is\". Read **int64_t**.
 
 ```cpp
 int64_t Aspose::Slides::AdjustValue::get_RawValue() override

@@ -27,7 +27,8 @@ class AdjustValue : public Aspose::Slides::IAdjustValue
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | **float** [get_AngleValue](./get_anglevalue/)() override | Returns value, interpreting it as angle in degrees. Read **float**. |
 | [System::String](../../system/string/) [get_Name](./get_name/)() override | Returns a name of this adjustment value. Read-only [System::String](../../system/string/). |
-| **int64_t** [get_RawValue](./get_rawvalue/)() override | Returns ajustment value \"as is\". Read **int64_t**. |
+| **int64_t** [get_RawValue](./get_rawvalue/)() override | Returns adjustment value \"as is\". Read **int64_t**. |
+| [ShapeAdjustmentType](../shapeadjustmenttype/) [get_Type](./get_type/)() override | Returns the type of the shape adjustment. Read-only [ShapeAdjustmentType](../shapeadjustmenttype/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
@@ -44,7 +45,7 @@ class AdjustValue : public Aspose::Slides::IAdjustValue
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | void [set_AngleValue](./set_anglevalue/)(**float**) override | Sets value, interpreting it as angle in degrees. Write **float**. |
-| void [set_RawValue](./set_rawvalue/)(**int64_t**) override | Sets ajustment value \"as is\". Write **int64_t**. |
+| void [set_RawValue](./set_rawvalue/)(**int64_t**) override | Sets adjustment value \"as is\". Write **int64_t**. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
