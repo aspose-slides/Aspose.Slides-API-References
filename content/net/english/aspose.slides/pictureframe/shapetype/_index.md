@@ -3,7 +3,7 @@ title: ShapeType
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the AutoShape type for a PictureFrame. There are allowable all items of the set ShapeTypeaspose.slides/shapetype except all sorts of lines
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides/pictureframe/shapetype/
 ---
 

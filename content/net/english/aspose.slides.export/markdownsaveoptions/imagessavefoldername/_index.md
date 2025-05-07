@@ -3,7 +3,7 @@ title: ImagesSaveFolderName
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies folder name to save images. Default is Images.
 type: docs
-weight: 50
+weight: 60
 url: /aspose.slides.export/markdownsaveoptions/imagessavefoldername/
 ---
 

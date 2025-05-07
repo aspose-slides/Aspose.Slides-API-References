@@ -7,7 +7,7 @@ weight: 380
 url: /aspose.slides/presentation/save/
 ---
 
-## Save(string, int[], SaveFormat) {#save_9}
+## Save(string, int[], SaveFormat) {#save_7}
 
 Saves specified slides of a presentation to a file with the specified format with page number keeping.
 
@@ -38,7 +38,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ---
 
-## Save(string, int[], SaveFormat, ISaveOptions) {#save_10}
+## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
 Saves specified slides of a presentation to a file with the specified format with page number keeping.
 

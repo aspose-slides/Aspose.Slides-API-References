@@ -3,7 +3,7 @@ title: ShowFullScreen
 second_title: Aspose.Sildes for .NET API Reference
 description: Show/hide fullscreen button. Can be overridden in flashvars. Default is true.
 type: docs
-weight: 90
+weight: 80
 url: /aspose.slides.export/iswfoptions/showfullscreen/
 ---
 

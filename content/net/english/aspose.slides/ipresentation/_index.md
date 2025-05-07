@@ -71,10 +71,10 @@ public interface IPresentation : IDisposable, IPresentationComponent
 | [Save](../../aspose.slides/ipresentation/save#save_5)(string, SaveFormat) | Saves all slides of a presentation to a file with the specified format. |
 | [Save](../../aspose.slides/ipresentation/save#save_3)(Stream, int[], SaveFormat) | Saves specified slides of a presentation to a stream in the specified format. |
 | [Save](../../aspose.slides/ipresentation/save#save_2)(Stream, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-| [Save](../../aspose.slides/ipresentation/save#save_9)(string, int[], SaveFormat) | Saves specified slides of a presentation to a file with the specified format. |
+| [Save](../../aspose.slides/ipresentation/save#save_7)(string, int[], SaveFormat) | Saves specified slides of a presentation to a file with the specified format. |
 | [Save](../../aspose.slides/ipresentation/save#save_6)(string, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 | [Save](../../aspose.slides/ipresentation/save#save_4)(Stream, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a stream in the specified format. |
-| [Save](../../aspose.slides/ipresentation/save#save_10)(string, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a file with the specified format. |
+| [Save](../../aspose.slides/ipresentation/save#save_8)(string, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a file with the specified format. |
 
 ### See Also
 

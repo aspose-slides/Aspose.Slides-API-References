@@ -45,9 +45,9 @@ public enum ShapeAdjustmentType
 | ConnectorBendPositionY | `23` | Controls the vertical position of the bend in the connector. |
 | AttachY | `24` | Controls the vertical attachment point of the figure. |
 | AttachX | `25` | Controls the horizontal attachment point of the figure. |
-| CalloutHeight | `26` | Controls the vertical size of the callaut. |
-| CalloutWidth | `27` | Controls the horizont size of the callaut. |
-| CalloutSize | `28` | Controls the size of the callaut. |
+| CalloutHeight | `26` | Controls the vertical size of the callout. |
+| CalloutWidth | `27` | Controls the horizontal size of the callout. |
+| CalloutSize | `28` | Controls the size of the callout. |
 | Curvature | `29` | Curvature of a bent, braces, curved arrow or shape. |
 | HorizontalThickness | `30` | Controls the horizontal thickness of the corner shape. |
 | VerticalThickness | `31` | Controls the vertical thickness of the corner shape. |

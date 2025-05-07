@@ -3,7 +3,7 @@ title: Html5Options
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a HTML5 exporting options.
 type: docs
-weight: 3680
+weight: 3690
 url: /aspose.slides.export/html5options/
 ---
 
@@ -31,10 +31,10 @@ public class Html5Options : SaveOptions, IHtml5Options
 | [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Gets or sets a value indicating whether text is rendered without using ligatures. When set to `true`, ligatures will be disabled in the rendered output. By default, this property is set to `false`. |
 | [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Returns or sets images embedding option. Read/write Boolean. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [NotesCommentsLayouting](../../aspose.slides.export/html5options/notescommentslayouting) { get; set; } | Provides options that control how notes and comments is placed in exported document. Read/write [`INotesCommentsLayoutingOptions`](../inotescommentslayoutingoptions). |
 | [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Determines where external resources should be stored. Read/write String. |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. Read/write Boolean. The default value is **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Examples

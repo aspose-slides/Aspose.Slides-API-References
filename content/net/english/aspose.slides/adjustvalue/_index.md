@@ -21,7 +21,7 @@ public class AdjustValue : IAdjustValue
 | --- | --- |
 | [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Returns or sets value, interpreting it as angle in degrees. Read/write Single. |
 | [Name](../../aspose.slides/adjustvalue/name) { get; } | Returns a name of this adjustment value. Read-only String. |
-| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Returns or sets ajustment value "as is". Read/write Int64. |
+| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Returns or sets adjustment value "as is". Read/write Int64. |
 | [Type](../../aspose.slides/adjustvalue/type) { get; } | Returns the type of the shape adjustment. Read-only [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### See Also

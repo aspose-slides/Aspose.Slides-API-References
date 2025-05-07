@@ -3,7 +3,7 @@ title: ShapeLock
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns shapes locks. Read-only IPictureFrameLockaspose.slides/ipictureframelock.
 type: docs
-weight: 50
+weight: 60
 url: /aspose.slides/pictureframe/shapelock/
 ---
 

@@ -3,7 +3,7 @@ title: ShowLeftPane
 second_title: Aspose.Sildes for .NET API Reference
 description: Show/hide left pane. Can be overridden in flashvars. Default is true.
 type: docs
-weight: 110
+weight: 100
 url: /aspose.slides.export/iswfoptions/showleftpane/
 ---
 

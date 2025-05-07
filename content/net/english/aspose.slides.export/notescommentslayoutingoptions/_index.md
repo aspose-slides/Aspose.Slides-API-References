@@ -33,7 +33,6 @@ public class NotesCommentsLayoutingOptions : INotesCommentsLayoutingOptions
 
 ### See Also
 
-* interface [INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)
 

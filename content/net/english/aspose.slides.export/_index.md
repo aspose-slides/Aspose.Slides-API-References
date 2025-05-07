@@ -59,7 +59,6 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [IHtmlOptions](./ihtmloptions) | Represents a HTML exporting options. |
 | [IInkOptions](./iinkoptions) | Provides options that control the look of Ink objects in exported document. |
 | [ILinkEmbedController](./ilinkembedcontroller) | Callback interface used to determine how object should be processed during saving. |
-| [INotesCommentsLayoutingOptions](./inotescommentslayoutingoptions) | Provides options that control the look of layouting of notes and comments in exported document. |
 | [IPdfOptions](./ipdfoptions) | Provides options that control how a presentation is saved in Pdf format. |
 | [IPptOptions](./ipptoptions) | Provides options that control how a presentation is saved in PPT format. |
 | [IPptxOptions](./ipptxoptions) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
@@ -90,6 +89,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [Conformance](./conformance) | Specifies the conformance class to which the PresentationML document conforms. |
 | [EmbedFontCharacters](./embedfontcharacters) | Represents the rule to use for adding new embedding font into [`IPresentation`](../aspose.slides/ipresentation) |
 | [Flavor](./flavor) | All markdown specifications used in program. |
+| [HandleRepeatedSpaces](./handlerepeatedspaces) | Specifies how repeated regular space characters should be handled during Markdown export. |
 | [HandoutType](./handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
 | [ImagePixelFormat](./imagepixelformat) | Specifies the pixel format for the generated images. |
 | [LinkEmbedDecision](./linkembeddecision) | Determines how object will be processed during saving. |

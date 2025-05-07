@@ -82,10 +82,10 @@ public sealed class Presentation : IPresentation
 | [Save](../../aspose.slides/presentation/save#save_5)(string, SaveFormat) | Saves all slides of a presentation to a file with the specified format. |
 | [Save](../../aspose.slides/presentation/save#save_3)(Stream, int[], SaveFormat) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 | [Save](../../aspose.slides/presentation/save#save_2)(Stream, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-| [Save](../../aspose.slides/presentation/save#save_9)(string, int[], SaveFormat) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [Save](../../aspose.slides/presentation/save#save_7)(string, int[], SaveFormat) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 | [Save](../../aspose.slides/presentation/save#save_6)(string, SaveFormat, ISaveOptions) |  |
 | [Save](../../aspose.slides/presentation/save#save_4)(Stream, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-| [Save](../../aspose.slides/presentation/save#save_10)(string, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [Save](../../aspose.slides/presentation/save#save_8)(string, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Examples
 
