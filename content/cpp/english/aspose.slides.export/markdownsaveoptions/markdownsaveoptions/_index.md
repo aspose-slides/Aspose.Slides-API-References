@@ -3,7 +3,7 @@ title: MarkdownSaveOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Ctor.
 type: docs
-weight: 209
+weight: 287
 url: /aspose.slides.export/markdownsaveoptions/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions::MarkdownSaveOptions() constructor

@@ -27,7 +27,7 @@ class ColorOperation : public Aspose::Slides::IColorOperation
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
-| [ColorTransformOperation](../colortransformoperation/) [get_OperationType](./get_operationtype/)() override | Returns the type of an operation. Read-only [ColorTransformOperation](../colortransformoperation/). |
+| [ColorTransformOperation](../colortransformoperation/) [get_OperationType](./get_operationtype/)() const override | Returns the type of an operation. Read-only [ColorTransformOperation](../colortransformoperation/). |
 | **float** [get_Parameter](./get_parameter/)() override | Returns a parameter of an operation. Read-only **float**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | **int32_t** [GetHashCode](./gethashcode/)() const override | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |

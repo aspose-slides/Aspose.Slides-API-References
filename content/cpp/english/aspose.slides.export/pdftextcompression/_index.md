@@ -3,7 +3,7 @@ title: PdfTextCompression
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define the type of a compression applied to all content in the PDF file except images.
 type: docs
-weight: 1002
+weight: 1015
 url: /aspose.slides.export/pdftextcompression/
 ---
 ## PdfTextCompression enum

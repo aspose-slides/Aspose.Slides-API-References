@@ -6,13 +6,13 @@ type: docs
 weight: 1
 url: /aspose.slides/icoloroperation/get_operationtype/
 ---
-## IColorOperation::get_OperationType() method
+## IColorOperation::get_OperationType() const method
 
 
 Returns the type of an operation. Read-only [ColorTransformOperation](../../colortransformoperation/).
 
 ```cpp
-virtual ColorTransformOperation Aspose::Slides::IColorOperation::get_OperationType()=0
+virtual ColorTransformOperation Aspose::Slides::IColorOperation::get_OperationType() const =0
 ```
 
 ## See Also

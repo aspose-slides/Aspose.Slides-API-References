@@ -18,6 +18,10 @@ virtual void Aspose::Slides::Export::IHtml5Options::set_NotesCommentsLayouting(S
 ## Remarks
 
 
+Deprecated
+:   Use SlidesLayoutOptions property. The property NotesCommentsLayouting will be removed after release of version 25.8.
+
+
 Example: 
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"test.pptx");

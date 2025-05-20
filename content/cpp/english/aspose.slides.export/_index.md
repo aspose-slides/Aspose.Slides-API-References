@@ -89,6 +89,7 @@ url: /aspose.slides.export/
 | [ImagePixelFormat](./imagepixelformat/) | Specifies the pixel format for the generated images. |
 | [LinkEmbedDecision](./linkembeddecision/) | Determines how object will be processed during saving. |
 | [Flavor](./flavor/) | All markdown specifications used in program. |
+| [HandleRepeatedSpaces](./handlerepeatedspaces/) | Specifies how repeated regular space characters should be handled during Markdown export. |
 | [MarkdownExportType](./markdownexporttype/) | Type of rendering document. |
 | [NewLineType](./newlinetype/) | Type of new line that will be used in generated document. |
 | [NotesPositions](./notespositions/) | Represents the rule to render notes into exported document |
