@@ -34,32 +34,13 @@ MathGroupingCharacter
 
 | Name | Description |
 | --- | --- |
-| MathGroupingCharacter([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+| MathGroupingCharacter([MathRadical](../mathradical)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base element to which the bar is applied |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathBox](../mathbox)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBox](../mathbox) | The base element to which the bar is applied |
+| element | [MathRadical](../mathradical) | The base element to which the bar is applied |
 
  **Returns:**
 MathGroupingCharacter
@@ -110,108 +91,13 @@ MathGroupingCharacter
 
 | Name | Description |
 | --- | --- |
-| MathGroupingCharacter([MathArray](../matharray)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+| MathGroupingCharacter([BaseScript](../basescript)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray](../matharray) | The base element to which the bar is applied |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathLimit](../mathlimit)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../mathlimit) | The base element to which the bar is applied |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathFraction](../mathfraction)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathElementBase](../mathelementbase)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathElementBase](../mathelementbase) | The base element to which the bar is applied |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the bar is applied |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the bar is applied |
+| element | [BaseScript](../basescript) | The base element to which the bar is applied |
 
  **Returns:**
 MathGroupingCharacter
@@ -243,89 +129,13 @@ MathGroupingCharacter
 
 | Name | Description |
 | --- | --- |
-| MathGroupingCharacter([BaseScript](../basescript)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+| MathGroupingCharacter([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [BaseScript](../basescript) | The base element to which the bar is applied |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathAccent](../mathaccent)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathMatrix](../mathmatrix)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | The base element to which the bar is applied |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathBlock](../mathblock)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBlock](../mathblock) | The base element to which the bar is applied |
+| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the bar is applied |
 
  **Returns:**
 MathGroupingCharacter
@@ -357,13 +167,184 @@ MathGroupingCharacter
 
 | Name | Description |
 | --- | --- |
-| MathGroupingCharacter([MathRadical](../mathradical)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+| MathGroupingCharacter([MathElementBase](../mathelementbase)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical](../mathradical) | The base element to which the bar is applied |
+| element | [MathElementBase](../mathelementbase) | The base element to which the bar is applied |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathMatrix](../mathmatrix)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../mathmatrix) | The base element to which the bar is applied |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathLimit](../mathlimit)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../mathlimit) | The base element to which the bar is applied |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the bar is applied |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathArray](../matharray)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathArray](../matharray) | The base element to which the bar is applied |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathAccent](../mathaccent)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathFraction](../mathfraction)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathFunction](../mathfunction)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base element to which the bar is applied |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathBox](../mathbox)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../mathbox) | The base element to which the bar is applied |
 
  **Returns:**
 MathGroupingCharacter
@@ -395,13 +376,32 @@ MathGroupingCharacter
 
 | Name | Description |
 | --- | --- |
-| MathGroupingCharacter([MathFunction](../mathfunction)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+| MathGroupingCharacter([MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathBlock](../mathblock)) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBlock](../mathblock) | The base element to which the bar is applied |
 
  **Returns:**
 MathGroupingCharacter
@@ -436,35 +436,13 @@ MathGroupingCharacter
 
 | Name | Description |
 | --- | --- |
-| MathGroupingCharacter([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+| MathGroupingCharacter([MathRadical](../mathradical), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathBox](../mathbox), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBox](../mathbox) | The base element to which the bar is applied |
+| element | [MathRadical](../mathradical) | The base element to which the bar is applied |
 | character | char | Grouping Character |
 | position | int | Position of grouping character |
 | verticalJustification | int | Vertical justification of group character |
@@ -524,123 +502,13 @@ MathGroupingCharacter
 
 | Name | Description |
 | --- | --- |
-| MathGroupingCharacter([MathArray](../matharray), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+| MathGroupingCharacter([BaseScript](../basescript), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray](../matharray) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathLimit](../mathlimit), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../mathlimit) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathFraction](../mathfraction), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathElementBase](../mathelementbase), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathElementBase](../mathelementbase) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathGroupingCharacter](../mathgroupingcharacter), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the bar is applied |
+| element | [BaseScript](../basescript) | The base element to which the bar is applied |
 | character | char | Grouping Character |
 | position | int | Position of grouping character |
 | verticalJustification | int | Vertical justification of group character |
@@ -678,101 +546,13 @@ MathGroupingCharacter
 
 | Name | Description |
 | --- | --- |
-| MathGroupingCharacter([BaseScript](../basescript), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+| MathGroupingCharacter([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [BaseScript](../basescript) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathSubscriptElement](../mathsubscriptelement), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathAccent](../mathaccent), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathMatrix](../mathmatrix), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
- **Returns:**
-MathGroupingCharacter
-
-
----
-
-
-### MathGroupingCharacter {#MathGroupingCharacter}
-
-| Name | Description |
-| --- | --- |
-| MathGroupingCharacter([MathBlock](../mathblock), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBlock](../mathblock) | The base element to which the bar is applied |
+| element | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | The base element to which the bar is applied |
 | character | char | Grouping Character |
 | position | int | Position of grouping character |
 | verticalJustification | int | Vertical justification of group character |
@@ -810,13 +590,211 @@ MathGroupingCharacter
 
 | Name | Description |
 | --- | --- |
-| MathGroupingCharacter([MathRadical](../mathradical), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+| MathGroupingCharacter([MathElementBase](../mathelementbase), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical](../mathradical) | The base element to which the bar is applied |
+| element | [MathElementBase](../mathelementbase) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathMatrix](../mathmatrix), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../mathmatrix) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathLimit](../mathlimit), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../mathlimit) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathGroupingCharacter](../mathgroupingcharacter), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathArray](../matharray), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathArray](../matharray) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathAccent](../mathaccent), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathFraction](../mathfraction), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathFunction](../mathfunction), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathBox](../mathbox), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../mathbox) | The base element to which the bar is applied |
 | character | char | Grouping Character |
 | position | int | Position of grouping character |
 | verticalJustification | int | Vertical justification of group character |
@@ -854,13 +832,35 @@ MathGroupingCharacter
 
 | Name | Description |
 | --- | --- |
-| MathGroupingCharacter([MathFunction](../mathfunction), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+| MathGroupingCharacter([MathSubscriptElement](../mathsubscriptelement), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+ **Returns:**
+MathGroupingCharacter
+
+
+---
+
+
+### MathGroupingCharacter {#MathGroupingCharacter}
+
+| Name | Description |
+| --- | --- |
+| MathGroupingCharacter([MathBlock](../mathblock), char, int, int) | Initializes a new instance of the MathGroupingCharacter class. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBlock](../mathblock) | The base element to which the bar is applied |
 | character | char | Grouping Character |
 | position | int | Position of grouping character |
 | verticalJustification | int | Vertical justification of group character |
@@ -879,7 +879,7 @@ MathGroupingCharacter
 | getBase () | Base argument |
 
  **Returns:**
-[MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathBar](../mathbar), [MathBorderBox](../mathborderbox), [MathArray](../matharray), [MathLimit](../mathlimit), [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathDelimiter](../mathdelimiter), [MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)
+[MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), [MathBar](../mathbar), [MathBorderBox](../mathborderbox), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathAccent](../mathaccent), [MathFraction](../mathfraction), [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)
 
 
 ---
@@ -905,7 +905,7 @@ char
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathBar](../mathbar), [MathBorderBox](../mathborderbox), [MathArray](../matharray), [MathLimit](../mathlimit), [MathFraction](../mathfraction), [MathElementBase](../mathelementbase), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), [MathMatrix](../mathmatrix), [MathBlock](../mathblock), [MathDelimiter](../mathdelimiter), [MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)
+[MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), [MathBar](../mathbar), [MathBorderBox](../mathborderbox), [BaseScript](../basescript), [MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix), [MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathAccent](../mathaccent), [MathFraction](../mathfraction), [MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)
 
 
 ---

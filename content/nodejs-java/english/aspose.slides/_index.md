@@ -248,6 +248,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [GroupShape](groupshape) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [HSL](hsl) | Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value. |
+| [HandleRepeatedSpaces](handlerepeatedspaces) | Specifies how repeated regular space characters should be handled during Markdown export. |
 | [HandoutLayoutingOptions](handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
 | [HandoutType](handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
 | [HeadingPair](headingpair) | Represents a 'Heading pair' property of the document. It indicates the group name of document parts and the number of parts in group. |

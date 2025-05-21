@@ -42,7 +42,7 @@ String
 
 | Name | Description |
 | --- | --- |
-| getRawValue () | Returns or sets ajustment value "as is". Read/write long. |
+| getRawValue () | Returns or sets adjustment value "as is". Read/write long. |
 
  **Returns:**
 long
@@ -78,7 +78,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setRawValue (long) | Returns or sets ajustment value "as is". Read/write long. |
+| setRawValue (long) | Returns or sets adjustment value "as is". Read/write long. |
 
 
 ---

@@ -42,9 +42,9 @@ url: /aspose.slides/shapeadjustmenttype/
 [ConnectorBendPositionY](#ConnectorBendPositionY) | 23 | Controls the vertical position of the bend in the connector. |
 [AttachY](#AttachY) | 24 | Controls the vertical attachment point of the figure. |
 [AttachX](#AttachX) | 25 | Controls the horizontal attachment point of the figure. |
-[CalloutHeight](#CalloutHeight) | 26 | Controls the vertical size of the callaut. |
-[CalloutWidth](#CalloutWidth) | 27 | Controls the horizont size of the callaut. |
-[CalloutSize](#CalloutSize) | 28 | Controls the size of the callaut. |
+[CalloutHeight](#CalloutHeight) | 26 | Controls the vertical size of the callout. |
+[CalloutWidth](#CalloutWidth) | 27 | Controls the horizontal size of the callout. |
+[CalloutSize](#CalloutSize) | 28 | Controls the size of the callout. |
 [Curvature](#Curvature) | 29 | Curvature of a bent, braces, curved arrow or shape. |
 [HorizontalThickness](#HorizontalThickness) | 30 | Controls the horizontal thickness of the corner shape. |
 [VerticalThickness](#VerticalThickness) | 31 | Controls the vertical thickness of the corner shape. |
@@ -187,17 +187,17 @@ Controls the horizontal attachment point of the figure.
 ---
 
 ### CalloutHeight {#CalloutHeight}
-Controls the vertical size of the callaut.
+Controls the vertical size of the callout.
 
 ---
 
 ### CalloutWidth {#CalloutWidth}
-Controls the horizont size of the callaut.
+Controls the horizontal size of the callout.
 
 ---
 
 ### CalloutSize {#CalloutSize}
-Controls the size of the callaut.
+Controls the size of the callout.
 
 ---
 

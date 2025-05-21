@@ -514,6 +514,52 @@ int
 
 | Name | Description |
 | --- | --- |
+| insertFromHtml (int, String, [ExternalResourceResolver](../externalresourceresolver), String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlText | String | Html to add. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtml {#insertFromHtml}
+
+| Name | Description |
+| --- | --- |
+| insertFromHtml (int, String, [HtmlExternalResolver](../htmlexternalresolver), String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlText | String | Html to add. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtml {#insertFromHtml}
+
+| Name | Description |
+| --- | --- |
 | insertFromHtml (int, String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
  **Parameters:**
@@ -522,6 +568,27 @@ int
 | --- | --- | --- |
 | index | int | Position to insert. |
 | htmlText | String | Html to add. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtml {#insertFromHtml}
+
+| Name | Description |
+| --- | --- |
+| insertFromHtml (int, String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlText | String | Html to add. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
 
  **Returns:**
 [Slide](../slide)
@@ -582,6 +649,56 @@ int
 
 | Name | Description |
 | --- | --- |
+| insertFromHtmlFromStream  (SlideCollection, int, ReadStream,  [ExternalResourceResolver](../externalresourceresolver), String, boolean, Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slidecollection | SlideCollection  | link to self |
+| index | int | Position to insert. |
+| htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtmlFromStream  {#insertFromHtmlFromStream }
+
+| Name | Description |
+| --- | --- |
+| insertFromHtmlFromStream  (SlideCollection, int, ReadStream, [HtmlExternalResolver](../htmlexternalresolver),  String, boolean, Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slidecollection | SlideCollection  | link to self |
+| index | int | Position to insert. |
+| htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtmlFromStream  {#insertFromHtmlFromStream }
+
+| Name | Description |
+| --- | --- |
 | insertFromHtmlFromStream  (SlideCollection, int, ReadStream, Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
  **Parameters:**
@@ -591,6 +708,29 @@ int
 | slidecollection | SlideCollection  | link to self |
 | index | int | Position to insert. |
 | htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtmlFromStream  {#insertFromHtmlFromStream }
+
+| Name | Description |
+| --- | --- |
+| insertFromHtmlFromStream  (SlideCollection, int, ReadStream, boolean, Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slidecollection | SlideCollection  | link to self |
+| index | int | Position to insert. |
+| htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
 | callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
 
  **Returns:**
