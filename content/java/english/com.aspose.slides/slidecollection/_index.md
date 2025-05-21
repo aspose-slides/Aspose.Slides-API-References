@@ -48,9 +48,13 @@ Represents a collection of a slides.
 | [addFromHtml(InputStream htmlStream, IExternalResourceResolver resolver, String uri)](#addFromHtml-java.io.InputStream-com.aspose.slides.IExternalResourceResolver-java.lang.String-) | Creates slides from HTML text and adds them to the end of the collection. |
 | [addFromHtml(InputStream htmlStream)](#addFromHtml-java.io.InputStream-) | Creates slides from HTML text and adds them to the end of the collection. |
 | [insertFromHtml(int index, String htmlText, IExternalResourceResolver resolver, String uri)](#insertFromHtml-int-java.lang.String-com.aspose.slides.IExternalResourceResolver-java.lang.String-) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtml(int index, String htmlText, IExternalResourceResolver resolver, String uri, boolean useSlideWithIndexAsStart)](#insertFromHtml-int-java.lang.String-com.aspose.slides.IExternalResourceResolver-java.lang.String-boolean-) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [insertFromHtml(int index, String htmlText)](#insertFromHtml-int-java.lang.String-) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtml(int index, String htmlText, boolean useSlideWithIndexAsStart)](#insertFromHtml-int-java.lang.String-boolean-) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [insertFromHtml(int index, InputStream htmlStream, IExternalResourceResolver resolver, String uri)](#insertFromHtml-int-java.io.InputStream-com.aspose.slides.IExternalResourceResolver-java.lang.String-) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtml(int index, InputStream htmlStream, IExternalResourceResolver resolver, String uri, boolean useSlideWithIndexAsStart)](#insertFromHtml-int-java.io.InputStream-com.aspose.slides.IExternalResourceResolver-java.lang.String-boolean-) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [insertFromHtml(int index, InputStream htmlStream)](#insertFromHtml-int-java.io.InputStream-) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtml(int index, InputStream htmlStream, boolean useSlideWithIndexAsStart)](#insertFromHtml-int-java.io.InputStream-boolean-) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
@@ -634,6 +638,25 @@ Creates slides from HTML text and inserts them to the collection at the specifie
 
 **Returns:**
 com.aspose.slides.ISlide[] - Added slides.
+### insertFromHtml(int index, String htmlText, IExternalResourceResolver resolver, String uri, boolean useSlideWithIndexAsStart) {#insertFromHtml-int-java.lang.String-com.aspose.slides.IExternalResourceResolver-java.lang.String-boolean-}
+```
+public final ISlide[] insertFromHtml(int index, String htmlText, IExternalResourceResolver resolver, String uri, boolean useSlideWithIndexAsStart)
+```
+
+
+Creates slides from HTML text and inserts them to the collection at the specified position.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlText | java.lang.String | Html to add. |
+| resolver | [IExternalResourceResolver](../../com.aspose.slides/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | java.lang.String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If **true**, then data insertion will start from an empty space on the slide with the specified index. If **false**, then data will be added to the created slides. |
+
+**Returns:**
+com.aspose.slides.ISlide[] - Added slides.
 ### insertFromHtml(int index, String htmlText) {#insertFromHtml-int-java.lang.String-}
 ```
 public final ISlide[] insertFromHtml(int index, String htmlText)
@@ -647,6 +670,23 @@ Creates slides from HTML text and inserts them to the collection at the specifie
 | --- | --- | --- |
 | index | int | Position to insert. |
 | htmlText | java.lang.String | Html to add. |
+
+**Returns:**
+com.aspose.slides.ISlide[] - Added slides
+### insertFromHtml(int index, String htmlText, boolean useSlideWithIndexAsStart) {#insertFromHtml-int-java.lang.String-boolean-}
+```
+public final ISlide[] insertFromHtml(int index, String htmlText, boolean useSlideWithIndexAsStart)
+```
+
+
+Creates slides from HTML text and inserts them to the collection at the specified position.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlText | java.lang.String | Html to add. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If **true**, then data insertion will start from an empty space on the slide with the specified index. If **false**, then data will be added to the created slides. |
 
 **Returns:**
 com.aspose.slides.ISlide[] - Added slides
@@ -668,6 +708,25 @@ Creates slides from HTML text and inserts them to the collection at the specifie
 
 **Returns:**
 com.aspose.slides.ISlide[] - Added slides.
+### insertFromHtml(int index, InputStream htmlStream, IExternalResourceResolver resolver, String uri, boolean useSlideWithIndexAsStart) {#insertFromHtml-int-java.io.InputStream-com.aspose.slides.IExternalResourceResolver-java.lang.String-boolean-}
+```
+public final ISlide[] insertFromHtml(int index, InputStream htmlStream, IExternalResourceResolver resolver, String uri, boolean useSlideWithIndexAsStart)
+```
+
+
+Creates slides from HTML text and inserts them to the collection at the specified position.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlStream | java.io.InputStream | A Stream object which will be used as a source of a HTML file. |
+| resolver | [IExternalResourceResolver](../../com.aspose.slides/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | java.lang.String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If **true**, then data insertion will start from an empty space on the slide with the specified index. If **false**, then data will be added to the created slides. |
+
+**Returns:**
+com.aspose.slides.ISlide[] - Added slides.
 ### insertFromHtml(int index, InputStream htmlStream) {#insertFromHtml-int-java.io.InputStream-}
 ```
 public final ISlide[] insertFromHtml(int index, InputStream htmlStream)
@@ -681,6 +740,23 @@ Creates slides from HTML text and inserts them to the collection at the specifie
 | --- | --- | --- |
 | index | int | Position to insert. |
 | htmlStream | java.io.InputStream | A Stream object which will be used as a source of a HTML file. |
+
+**Returns:**
+com.aspose.slides.ISlide[] - Added slides
+### insertFromHtml(int index, InputStream htmlStream, boolean useSlideWithIndexAsStart) {#insertFromHtml-int-java.io.InputStream-boolean-}
+```
+public final ISlide[] insertFromHtml(int index, InputStream htmlStream, boolean useSlideWithIndexAsStart)
+```
+
+
+Creates slides from HTML text and inserts them to the collection at the specified position.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlStream | java.io.InputStream | A Stream object which will be used as a source of a HTML file. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If **true**, then data insertion will start from an empty space on the slide with the specified index. If **false**, then data will be added to the created slides. |
 
 **Returns:**
 com.aspose.slides.ISlide[] - Added slides

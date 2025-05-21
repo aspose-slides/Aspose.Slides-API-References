@@ -64,6 +64,12 @@ Represents options that control how presentation should be saved to markdown.
 | [setShowSlideNumber(boolean value)](#setShowSlideNumber-boolean-) | Specifies whether the generated document should show number of each slide or not. |
 | [getFlavor()](#getFlavor--) | Specifies markdown specification to convert presentation. |
 | [setFlavor(int value)](#setFlavor-int-) | Specifies markdown specification to convert presentation. |
+| [getSlideNumberFormat()](#getSlideNumberFormat--) | Gets or sets the format string used for slide number headers in Markdown output. |
+| [setSlideNumberFormat(String value)](#setSlideNumberFormat-java.lang.String-) | Gets or sets the format string used for slide number headers in Markdown output. |
+| [getHandleRepeatedSpaces()](#getHandleRepeatedSpaces--) | Specifies how repeated regular space characters should be handled during Markdown export. |
+| [setHandleRepeatedSpaces(int value)](#setHandleRepeatedSpaces-int-) | Specifies how repeated regular space characters should be handled during Markdown export. |
+| [getRemoveEmptyLines()](#getRemoveEmptyLines--) | If set to true, removes empty or whitespace-only lines from the final Markdown output. |
+| [setRemoveEmptyLines(boolean value)](#setRemoveEmptyLines-boolean-) | If set to true, removes empty or whitespace-only lines from the final Markdown output. |
 ### MarkdownSaveOptions() {#MarkdownSaveOptions--}
 ```
 public MarkdownSaveOptions()
@@ -170,7 +176,7 @@ public final boolean getShowComments()
 ```
 
 
-Specifies whether the generated document should show comments or not. Default is  false .
+Specifies whether the generated document should show comments or not. Default is false.
 
 **Returns:**
 boolean
@@ -180,7 +186,7 @@ public final void setShowComments(boolean value)
 ```
 
 
-Specifies whether the generated document should show comments or not. Default is  false .
+Specifies whether the generated document should show comments or not. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,7 +199,7 @@ public final boolean getShowHiddenSlides()
 ```
 
 
-Specifies whether the generated document should include hidden slides or not. Default is  false .
+Specifies whether the generated document should include hidden slides or not. Default is false.
 
 **Returns:**
 boolean
@@ -203,7 +209,7 @@ public final void setShowHiddenSlides(boolean value)
 ```
 
 
-Specifies whether the generated document should include hidden slides or not. Default is  false .
+Specifies whether the generated document should include hidden slides or not. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +222,7 @@ public final boolean getShowSlideNumber()
 ```
 
 
-Specifies whether the generated document should show number of each slide or not. Default is  false .
+Specifies whether the generated document should show number of each slide or not. Default is false.
 
 **Returns:**
 boolean
@@ -226,7 +232,7 @@ public final void setShowSlideNumber(boolean value)
 ```
 
 
-Specifies whether the generated document should show number of each slide or not. Default is  false .
+Specifies whether the generated document should show number of each slide or not. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,4 +261,73 @@ Specifies markdown specification to convert presentation. Default is  Multi-mark
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getSlideNumberFormat() {#getSlideNumberFormat--}
+```
+public final String getSlideNumberFormat()
+```
+
+
+Gets or sets the format string used for slide number headers in Markdown output. The format must include the "\{0\}" placeholder, which will be replaced with the slide index during export. Example: "\# Slide \{0\}" will produce "\# Slide 1", "\# Slide 2", etc.
+
+**Returns:**
+java.lang.String
+### setSlideNumberFormat(String value) {#setSlideNumberFormat-java.lang.String-}
+```
+public final void setSlideNumberFormat(String value)
+```
+
+
+Gets or sets the format string used for slide number headers in Markdown output. The format must include the "\{0\}" placeholder, which will be replaced with the slide index during export. Example: "\# Slide \{0\}" will produce "\# Slide 1", "\# Slide 2", etc.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### getHandleRepeatedSpaces() {#getHandleRepeatedSpaces--}
+```
+public final int getHandleRepeatedSpaces()
+```
+
+
+Specifies how repeated regular space characters should be handled during Markdown export. This property defines whether consecutive spaces are: - preserved as regular space characters, - alternated between regular spaces and non-breaking space entities ( ), - or fully replaced (after the first) with a non-breaking space to preserve visual alignment in Markdown output. The default value is [HandleRepeatedSpaces.AlternateSpacesToNbsp](../../com.aspose.slides/handlerepeatedspaces\#AlternateSpacesToNbsp).
+
+**Returns:**
+int
+### setHandleRepeatedSpaces(int value) {#setHandleRepeatedSpaces-int-}
+```
+public final void setHandleRepeatedSpaces(int value)
+```
+
+
+Specifies how repeated regular space characters should be handled during Markdown export. This property defines whether consecutive spaces are: - preserved as regular space characters, - alternated between regular spaces and non-breaking space entities ( ), - or fully replaced (after the first) with a non-breaking space to preserve visual alignment in Markdown output. The default value is [HandleRepeatedSpaces.AlternateSpacesToNbsp](../../com.aspose.slides/handlerepeatedspaces\#AlternateSpacesToNbsp).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getRemoveEmptyLines() {#getRemoveEmptyLines--}
+```
+public final boolean getRemoveEmptyLines()
+```
+
+
+If set to true, removes empty or whitespace-only lines from the final Markdown output. Default is false.
+
+**Returns:**
+boolean
+### setRemoveEmptyLines(boolean value) {#setRemoveEmptyLines-boolean-}
+```
+public final void setRemoveEmptyLines(boolean value)
+```
+
+
+If set to true, removes empty or whitespace-only lines from the final Markdown output. Default is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

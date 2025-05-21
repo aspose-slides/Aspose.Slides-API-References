@@ -42,9 +42,9 @@ Specifies different types of shape adjustment values.
 | [ConnectorBendPositionY](#ConnectorBendPositionY) | Controls the vertical position of the bend in the connector. |
 | [AttachY](#AttachY) | Controls the vertical attachment point of the figure. |
 | [AttachX](#AttachX) | Controls the horizontal attachment point of the figure. |
-| [CalloutHeight](#CalloutHeight) | Controls the vertical size of the callaut. |
-| [CalloutWidth](#CalloutWidth) | Controls the horizont size of the callaut. |
-| [CalloutSize](#CalloutSize) | Controls the size of the callaut. |
+| [CalloutHeight](#CalloutHeight) | Controls the vertical size of the callout. |
+| [CalloutWidth](#CalloutWidth) | Controls the horizontal size of the callout. |
+| [CalloutSize](#CalloutSize) | Controls the size of the callout. |
 | [Curvature](#Curvature) | Curvature of a bent, braces, curved arrow or shape. |
 | [HorizontalThickness](#HorizontalThickness) | Controls the horizontal thickness of the corner shape. |
 | [VerticalThickness](#VerticalThickness) | Controls the vertical thickness of the corner shape. |
@@ -265,7 +265,7 @@ public static final int CalloutHeight
 ```
 
 
-Controls the vertical size of the callaut.
+Controls the vertical size of the callout.
 
 ### CalloutWidth {#CalloutWidth}
 ```
@@ -273,7 +273,7 @@ public static final int CalloutWidth
 ```
 
 
-Controls the horizont size of the callaut.
+Controls the horizontal size of the callout.
 
 ### CalloutSize {#CalloutSize}
 ```
@@ -281,7 +281,7 @@ public static final int CalloutSize
 ```
 
 
-Controls the size of the callaut.
+Controls the size of the callout.
 
 ### Curvature {#Curvature}
 ```

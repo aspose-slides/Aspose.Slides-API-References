@@ -249,6 +249,7 @@ url: /com.aspose.slides/
 | [GroupShape](../com.aspose.slides/groupshape) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](../com.aspose.slides/groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [HSL](../com.aspose.slides/hsl) | Represents a Hue/Saturation/Luminance effect. |
+| [HandleRepeatedSpaces](../com.aspose.slides/handlerepeatedspaces) | Specifies how repeated regular space characters should be handled during Markdown export. |
 | [HandoutLayoutingOptions](../com.aspose.slides/handoutlayoutingoptions) | Represents the handout presentation layout mode for export. |
 | [HandoutType](../com.aspose.slides/handouttype) | Specifies how many slides and in what sequence will be placed on the page. |
 | [HeadingPair](../com.aspose.slides/headingpair) | Represents a 'Heading pair' property of the document. |
