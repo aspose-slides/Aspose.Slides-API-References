@@ -11,11 +11,6 @@ weight: 20
 ## create_video_player_html_controller {#str-str-str}
 Creates new `VideoPlayerHtmlController`.
 
-### Returns
-
-
-
-
 
 ```python
 def create_video_player_html_controller(self, path, file_name, base_uri):

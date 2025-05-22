@@ -22,6 +22,10 @@ def add(self, item):
 | :- | :- | :- |
 | item | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | A mathematical block that will be added to the end of the collection |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

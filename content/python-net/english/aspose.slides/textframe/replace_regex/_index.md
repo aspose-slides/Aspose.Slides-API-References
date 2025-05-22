@@ -23,6 +23,10 @@ def replace_regex(self, regex, new_text):
 | regex | **str** | The string contains regular expression to get strings to be replaced. |
 | new_text | **str** | The string to replace all occurrences of strings to be replaced. |
 
+### Examples
+
+The following sample code shows how to replace text using regular expression with specified string.
+
 
 
 ### See Also

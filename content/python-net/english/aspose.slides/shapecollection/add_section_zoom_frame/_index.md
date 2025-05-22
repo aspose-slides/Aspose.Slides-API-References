@@ -31,6 +31,11 @@ def add_section_zoom_frame(self, x, y, width, height, section):
 | height | **float** | Height of a new Section Zoom frame **float**. |
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | The section object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
 
+### Examples
+
+This example demonstrates adding a Section Zoom object to the end of a collection
+            (assume that there are at least two sections in the "Presentation.pptx" presentation):
+
 ### Exceptions
 
 | Exception | Description |
@@ -61,6 +66,11 @@ def add_section_zoom_frame(self, x, y, width, height, section, image):
 | height | **float** | Height of a new Section Zoom frame **float**. |
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | The section object referenced by the Section Zoom frame [`ISection`](/slides/python-net/aspose.slides/isection). |
 | image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage) |
+
+### Examples
+
+This example demonstrates adding a Section Zoom object to the end of a collection
+            (assume that there are at least two sections in the "Presentation.pptx" presentation):
 
 ### Exceptions
 

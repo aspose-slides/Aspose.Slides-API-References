@@ -23,6 +23,10 @@ def get_effective(self):
 ```
 
 
+### Examples
+
+This example demonstrates getting some of shape's effective effect properties.
+
 
 
 ### See Also

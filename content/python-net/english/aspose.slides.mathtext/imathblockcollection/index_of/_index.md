@@ -27,6 +27,10 @@ def index_of(self, item):
 | :- | :- | :- |
 | item | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | The item to locate in the collection. |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

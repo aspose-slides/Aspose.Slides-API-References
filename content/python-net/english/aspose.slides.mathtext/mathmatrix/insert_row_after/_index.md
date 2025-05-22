@@ -23,6 +23,10 @@ def insert_row_after(self, row_index):
 | :- | :- | :- |
 | row_index | **int** | Index of the row after which to insert a new one |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

@@ -22,6 +22,10 @@ def write_as_emf(self, stream):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Target stream |
 
+### Examples
+
+The following code example demonstrates how to convert the first slide from a PowerPoint presentation into a metafile.
+
 ### Exceptions
 
 | Exception | Description |

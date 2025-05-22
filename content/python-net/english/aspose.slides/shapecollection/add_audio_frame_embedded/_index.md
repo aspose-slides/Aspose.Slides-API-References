@@ -33,6 +33,10 @@ def add_audio_frame_embedded(self, x, y, width, height, audio_stream):
 | height | **float** | Height of a new audio frame. |
 | audio_stream | **io.RawIOBase** | Inout stream with audio data. |
 
+### Examples
+
+The following examples shows how to create Audio Frame.
+
 
 ## add_audio_frame_embedded {#float-float-float-float-iaudio}
 Adds a new audio frame with embedded audio file to the end of a collection.

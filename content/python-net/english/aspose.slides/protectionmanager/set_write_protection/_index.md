@@ -22,6 +22,10 @@ def set_write_protection(self, password):
 | :- | :- | :- |
 | password | **str** | The password. |
 
+### Examples
+
+The following sample code shows you how to set a write protection to a presentation.
+
 
 
 ### See Also

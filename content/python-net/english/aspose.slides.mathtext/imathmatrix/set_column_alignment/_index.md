@@ -23,6 +23,10 @@ def set_column_alignment(self, column_index, val):
 | column_index | **int** | Zero-based column index |
 | val | [`MathHorizontalAlignment`](/slides/python-net/aspose.slides.mathtext/mathhorizontalalignment) | New value of horizontal alignment of specified column |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

@@ -22,6 +22,10 @@ def __init__(self, element):
 | :- | :- | :- |
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | a math element to apply accent |
 
+### Examples
+
+Example:
+
 
 ## __init__ {#imathelement-char}
 Creates a math accent applying to a specified math element
@@ -37,6 +41,10 @@ def __init__(self, element, accent_character):
 | :- | :- | :- |
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | math element to apply accent |
 | accent_character | **char** | accent character |
+
+### Examples
+
+Example:
 
 
 

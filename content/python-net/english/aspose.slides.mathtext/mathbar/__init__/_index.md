@@ -22,6 +22,10 @@ def __init__(self, element):
 | :- | :- | :- |
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The base element to which the bar is applied |
 
+### Examples
+
+Example:
+
 
 ## __init__ {#imathelement-mathtopbotpositions}
 Initializes MathBar with specified position
@@ -37,6 +41,10 @@ def __init__(self, element, position):
 | :- | :- | :- |
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The base element to which the bar is applied |
 | position | [`MathTopBotPositions`](/slides/python-net/aspose.slides.mathtext/mathtopbotpositions) | Position of the bar line. |
+
+### Examples
+
+Example:
 
 
 

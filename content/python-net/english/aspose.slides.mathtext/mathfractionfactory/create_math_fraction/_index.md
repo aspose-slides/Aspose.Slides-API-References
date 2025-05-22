@@ -11,11 +11,6 @@ weight: 20
 ## create_math_fraction {#imathelement-imathelement}
 Creates a math fraction
 
-### Returns
-
-
-
-
 
 ```python
 def create_math_fraction(self, numerator, denominator):
@@ -31,11 +26,6 @@ def create_math_fraction(self, numerator, denominator):
 
 ## create_math_fraction {#imathelement-imathelement-mathfractiontypes}
 Creates a math fraction
-
-### Returns
-
-
-
 
 
 ```python

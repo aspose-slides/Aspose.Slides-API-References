@@ -96,6 +96,13 @@ The Presentation type exposes the following members:
 | [`replace_regex`](/slides/python-net/aspose.slides/presentation/replace_regex/#str-str) | Replaces all matches of the regular expression with the specified string. |
 
 
+### Examples
+
+The following example shows how to create PowerPoint Presentation.
+
+             The following example shows how to open and save Presentation.
+
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

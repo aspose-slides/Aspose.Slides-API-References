@@ -19,6 +19,10 @@ def get_rect(self):
 ```
 
 
+### Examples
+
+Example:
+
 
 
 ### See Also

@@ -49,6 +49,10 @@ Gets the element at the specified index.
 | [`insert_from_html`](/slides/python-net/aspose.slides/islidecollection/insert_from_html/#int-str) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [`insert_from_html`](/slides/python-net/aspose.slides/islidecollection/insert_from_html/#int-iorawiobase-asposeslidesimportingiexternalresourceresolver-str) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [`insert_from_html`](/slides/python-net/aspose.slides/islidecollection/insert_from_html/#int-iorawiobase) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [`insert_from_html`](/slides/python-net/aspose.slides/islidecollection/insert_from_html/#int-str-bool) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [`insert_from_html`](/slides/python-net/aspose.slides/islidecollection/insert_from_html/#int-str-asposeslidesimportingiexternalresourceresolver-str-bool) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [`insert_from_html`](/slides/python-net/aspose.slides/islidecollection/insert_from_html/#int-iorawiobase-bool) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [`insert_from_html`](/slides/python-net/aspose.slides/islidecollection/insert_from_html/#int-iorawiobase-asposeslidesimportingiexternalresourceresolver-str-bool) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [`add_empty_slide`](/slides/python-net/aspose.slides/islidecollection/add_empty_slide/#ilayoutslide) | Adds a new empty slide to the end of the collection. |
 | [`insert_empty_slide`](/slides/python-net/aspose.slides/islidecollection/insert_empty_slide/#int-ilayoutslide) | Inserts a copy of a specified slide to specified position of the collection. |
 | [`remove`](/slides/python-net/aspose.slides/islidecollection/remove/#islide) | Removes the first occurrence of a specific object from the collection. |

@@ -22,6 +22,10 @@ def add(self, item):
 | :- | :- | :- |
 | item | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The IMathElement to be added to the end of the collection. |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

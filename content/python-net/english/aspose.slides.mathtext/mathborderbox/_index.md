@@ -88,6 +88,11 @@ The MathBorderBox type exposes the following members:
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathborderbox/get_children/#) | Get children elements |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * class [`MathBorderBox`](/slides/python-net/aspose.slides.mathtext/mathborderbox)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)

@@ -10,7 +10,7 @@ weight: 20
 
 ## orientation property
 Returns or sets the slide orientation.
-            Changing this value will swap slide's dimensions.
+Changing this value will swap slide's dimensions.
             Read/write [`SlideOrientation`](/slides/python-net/aspose.slides/slideorientation).
 
 ### Definition:

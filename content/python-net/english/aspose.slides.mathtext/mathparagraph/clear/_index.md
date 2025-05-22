@@ -18,6 +18,10 @@ def clear(self):
 ```
 
 
+### Examples
+
+Example:
+
 
 
 ### See Also

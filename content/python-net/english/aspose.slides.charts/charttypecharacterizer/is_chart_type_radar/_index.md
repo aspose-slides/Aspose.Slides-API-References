@@ -11,9 +11,9 @@ weight: 120
 ## is_chart_type_radar {#charttype}
 Return true if chartType is one of Radar subtypes.
             Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
-            [`ChartType.FILLED_RADAR`](/slides/python-net/aspose.slides.charts/charttype/FILLED_RADAR),
-            [`ChartType.RADAR`](/slides/python-net/aspose.slides.charts/charttype/RADAR),
-            [`ChartType.RADAR_WITH_MARKERS`](/slides/python-net/aspose.slides.charts/charttype/RADAR_WITH_MARKERS).
+[`ChartType.FILLED_RADAR`](/slides/python-net/aspose.slides.charts/charttype/FILLED_RADAR),
+[`ChartType.RADAR`](/slides/python-net/aspose.slides.charts/charttype/RADAR),
+[`ChartType.RADAR_WITH_MARKERS`](/slides/python-net/aspose.slides.charts/charttype/RADAR_WITH_MARKERS).
 
 
 ```python

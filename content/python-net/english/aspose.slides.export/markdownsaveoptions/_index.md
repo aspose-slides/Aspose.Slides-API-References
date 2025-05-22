@@ -38,6 +38,14 @@ The MarkdownSaveOptions type exposes the following members:
 | [`show_hidden_slides`](/slides/python-net/aspose.slides.export/markdownsaveoptions/show_hidden_slides/) | Specifies whether the generated document should include hidden slides or not.<br/>            Default is `false`. |
 | [`show_slide_number`](/slides/python-net/aspose.slides.export/markdownsaveoptions/show_slide_number/) | Specifies whether the generated document should show number of each slide or not.<br/>            Default is `false`. |
 | [`flavor`](/slides/python-net/aspose.slides.export/markdownsaveoptions/flavor/) | Specifies markdown specification to convert presentation.<br/>            Default is `Multi-markdown`. |
+| [`slide_number_format`](/slides/python-net/aspose.slides.export/markdownsaveoptions/slide_number_format/) | Gets or sets the format string used for slide number headers in Markdown output.<br/>            The format must include the "{0}" placeholder, which will be replaced with the slide index during export.<br/>            Example: "# Slide {0}" will produce "# Slide 1", "# Slide 2", etc. |
+| [`handle_repeated_spaces`](/slides/python-net/aspose.slides.export/markdownsaveoptions/handle_repeated_spaces/) |  |
+| [`remove_empty_lines`](/slides/python-net/aspose.slides.export/markdownsaveoptions/remove_empty_lines/) | If set to `true`, removes empty or whitespace-only lines from the final Markdown output.<br/>            Default is `false`. |
+
+
+### Examples
+
+Example:
 
 
 ### See Also

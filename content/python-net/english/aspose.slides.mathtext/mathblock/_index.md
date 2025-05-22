@@ -103,6 +103,11 @@ Gets or sets IMathElement at the specified index.
 | [`write_as_math_ml`](/slides/python-net/aspose.slides.mathtext/mathblock/write_as_math_ml/#iorawiobase) | Saves content of this [`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock) as MathML |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * class [`MathBlock`](/slides/python-net/aspose.slides.mathtext/mathblock)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)

@@ -79,6 +79,11 @@ The IMathBox type exposes the following members:
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/imathbox/to_box/#) |  |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -23,6 +23,10 @@ def save(self, path, output_file):
 | path | **str** | Path to save the file to. |
 | output_file | [`IOutputFile`](/slides/python-net/aspose.slides.export.web/ioutputfile) | Output file. |
 
+### Examples
+
+Saving into the **System.IO.FileStream** implementation example:
+
 
 
 ### See Also

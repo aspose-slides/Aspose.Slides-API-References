@@ -66,6 +66,11 @@ The IMathElement type exposes the following members:
 | [`to_box`](/slides/python-net/aspose.slides.mathtext/imathelement/to_box/#) | Places this element in a non-visual box (logical grouping) <br/>            which is used to group components of an equation or other instance of mathematical text.<br/>            A boxed object can (for example) serve as an operator emulator with or without an alignment point, <br/>            serve as a line break point, or be grouped such as not to allow line breaks within. |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

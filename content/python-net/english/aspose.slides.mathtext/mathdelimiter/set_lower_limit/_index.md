@@ -27,6 +27,10 @@ def set_lower_limit(self, limit):
 | :- | :- | :- |
 | limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | limit |
 
+### Examples
+
+Example:
+
 
 ## set_lower_limit {#str}
 Takes lower limit
@@ -46,6 +50,10 @@ def set_lower_limit(self, limit):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | limit | **str** | limit |
+
+### Examples
+
+Example:
 
 
 

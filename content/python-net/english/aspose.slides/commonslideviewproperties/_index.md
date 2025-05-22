@@ -22,6 +22,11 @@ The CommonSlideViewProperties type exposes the following members:
 | [`drawing_guides`](/slides/python-net/aspose.slides/commonslideviewproperties/drawing_guides/) | Returns the collection of the drawing guides.<br/>            Read-only [`IDrawingGuidesCollection`](/slides/python-net/aspose.slides/idrawingguidescollection) |
 
 
+### Examples
+
+The following example shows how to set the zoom value for slide of PowerPoint Presentation.
+
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

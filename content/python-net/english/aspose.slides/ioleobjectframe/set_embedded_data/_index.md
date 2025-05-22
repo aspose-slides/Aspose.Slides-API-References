@@ -22,6 +22,11 @@ def set_embedded_data(self, embedded_data):
 | :- | :- | :- |
 | embedded_data | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | Embedded data [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) |
 
+### Examples
+
+Following example demonstrates how to change OLE embedded data
+            and its type for existing [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe) object
+
 ### Remarks
 
 This method changes the properties of the object to reflect the new data and 

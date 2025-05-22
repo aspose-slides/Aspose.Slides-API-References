@@ -22,6 +22,10 @@ def delete_row(self, row_index):
 | :- | :- | :- |
 | row_index | **int** | The zero-based index of the row to delete. |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

@@ -11,11 +11,6 @@ weight: 30
 ## create_slide_show_formatter {#str-bool}
 Creates and returns HTML formatter for a simple slide show html which shows slides one after another.
 
-### Returns
-
-
-
-
 
 ```python
 @staticmethod

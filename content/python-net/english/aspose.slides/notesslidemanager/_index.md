@@ -27,6 +27,13 @@ The NotesSlideManager type exposes the following members:
 | [`remove_notes_slide`](/slides/python-net/aspose.slides/notesslidemanager/remove_notes_slide/#) | Removes notes slide of the current slide. |
 
 
+### Examples
+
+The following example shows how to Add Notes to specific ProwerPoint Presentation slide.
+
+            The following examples shows how to remove Notes from PowerPoint Presentation's specific slide.
+
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

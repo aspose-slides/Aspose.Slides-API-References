@@ -43,6 +43,11 @@ The MathPortion type exposes the following members:
 | [`get_coordinates`](/slides/python-net/aspose.slides.mathtext/mathportion/get_coordinates/#) | Get coordinates of the beginning of the portion. The X coordinate of point represents the <br/>            portion beginning from the first character including left side bearing. The Y coordinate <br/>            includes top side bearing. |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * class [`MathPortion`](/slides/python-net/aspose.slides.mathtext/mathportion)
 * class [`Portion`](/slides/python-net/aspose.slides/portion)

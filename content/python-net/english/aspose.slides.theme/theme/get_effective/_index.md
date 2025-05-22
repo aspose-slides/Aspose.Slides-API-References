@@ -23,6 +23,10 @@ def get_effective(self):
 ```
 
 
+### Examples
+
+This example demonstrates getting effective theme properties.
+
 
 
 ### See Also

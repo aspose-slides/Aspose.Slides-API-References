@@ -27,6 +27,10 @@ def get_summary_section(self, section):
 | :- | :- | :- |
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | Section to find [`ISection`](/slides/python-net/aspose.slides/isection) |
 
+### Examples
+
+The example demonstrates getting Summary Zoom Section element by index:
+
 
 
 ### See Also

@@ -83,6 +83,11 @@ The MathGroupingCharacter type exposes the following members:
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter/get_children/#) | Get children elements |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * class [`MathGroupingCharacter`](/slides/python-net/aspose.slides.mathtext/mathgroupingcharacter)

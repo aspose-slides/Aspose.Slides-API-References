@@ -46,6 +46,12 @@ def render_to_graphics(self, options, graphics, rendering_size):
 | graphics | **aspose.pydrawing.Graphics** | The object where to render to. |
 | rendering_size | **aspose.pydrawing.Size** | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
 
+### Examples
+
+The following example shows how to convert the first slide to the framed image with the RenderToGraphics method.
+
+            The following example shows how to conversion process for a slide with notes using the RenderToGraphics.
+
 ### Exceptions
 
 | Exception | Description |

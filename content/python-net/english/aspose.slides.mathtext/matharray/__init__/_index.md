@@ -22,6 +22,10 @@ def __init__(self, element):
 | :- | :- | :- |
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The element to place in the array |
 
+### Examples
+
+Example:
+
 
 ## __init__ {#iterableimathelement}
 

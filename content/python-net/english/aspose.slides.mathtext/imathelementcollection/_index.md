@@ -42,6 +42,11 @@ Gets the element at the specified index.
 | [`copy_to`](/slides/python-net/aspose.slides.mathtext/imathelementcollection/copy_to/#listimathelement-int) | Copy to specified array. |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * class [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

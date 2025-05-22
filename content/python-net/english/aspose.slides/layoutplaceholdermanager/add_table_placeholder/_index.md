@@ -30,6 +30,10 @@ def add_table_placeholder(self, x, y, width, height):
 | width | **float** | The width of the new placeholder shape. |
 | height | **float** | The height of the new placeholder shape. |
 
+### Examples
+
+The following example shows how to add the Table placeholder shape to the layout slide.
+
 
 
 ### See Also

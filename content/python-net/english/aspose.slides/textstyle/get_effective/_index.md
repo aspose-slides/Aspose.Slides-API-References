@@ -23,6 +23,10 @@ def get_effective(self):
 ```
 
 
+### Examples
+
+This example demonstrates getting some of effective text style properties.
+
 
 
 ### See Also

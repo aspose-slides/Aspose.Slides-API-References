@@ -23,6 +23,10 @@ def highlight_text(self, text, highlight_color):
 | text | **str** | The text to highlight. |
 | highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
 
+### Examples
+
+The following code sample shows how to highlight text in a PowerPoint presentation.
+
 
 ## highlight_text {#str-asposepydrawingcolor-itextsearchoptions-ifindresultcallback}
 Highlights all matches of the sample text with the specified color.
@@ -40,6 +44,10 @@ def highlight_text(self, text, highlight_color, options, callback):
 | highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
 | options | [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions) | Text search options [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback) | The callback object for receiving search results [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback). |
+
+### Examples
+
+The following code sample shows how to highlight text in a PowerPoint presentation.
 
 
 

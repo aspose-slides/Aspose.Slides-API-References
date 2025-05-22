@@ -22,6 +22,10 @@ def remove_summary_zoom_section(self, section):
 | :- | :- | :- |
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | Section for which the Summary Zoom Section element is to be removed [`ISection`](/slides/python-net/aspose.slides/isection). |
 
+### Examples
+
+The example demonstrates getting Summary Zoom Section element by index:
+
 
 
 ### See Also

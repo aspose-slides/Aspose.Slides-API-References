@@ -28,6 +28,10 @@ def compress_image(self, delete_cropped_areas_of_image, resolution):
 | delete_cropped_areas_of_image | **bool** | If true, the method will remove the cropped areas of the image, potentially further reducing its size. |
 | resolution | [`PicturesCompression`](/slides/python-net/aspose.slides.export/picturescompression) | The target resolution for compression, specified as a value of the [`PicturesCompression`](/slides/python-net/aspose.slides.export/picturescompression) enum. |
 
+### Examples
+
+The following example demonstrates how to use the `CompressImage` method to reduce the size of an image in a presentation by setting a target resolution and removing cropped areas:
+
 ### Remarks
 
 This method changes the image's size and resolution similar to PowerPoint's "Picture Format -\> Compress Pictures" feature.
@@ -58,6 +62,10 @@ def compress_image(self, delete_cropped_areas_of_image, resolution):
 | :- | :- | :- |
 | delete_cropped_areas_of_image | **bool** | If true, the method will remove the cropped areas of the image, potentially further reducing its size. |
 | resolution | **float** | The target resolution in DPI. This value must be positive and defines how the image will be resized. |
+
+### Examples
+
+The following example demonstrates how to use the `CompressImage` method to reduce the size of an image in a presentation by setting a target resolution and removing cropped areas:
 
 ### Remarks
 

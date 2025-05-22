@@ -23,6 +23,10 @@ def __init__(self, base_argument, degree_argument):
 | base_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Base |
 | degree_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Degree |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/audioframe/relative_scale_width/
-weight: 570
+weight: 580
 ---
 
 

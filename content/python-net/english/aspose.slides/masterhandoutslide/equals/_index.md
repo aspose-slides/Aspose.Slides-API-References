@@ -30,6 +30,10 @@ def equals(self, slide):
 | :- | :- | :- |
 | slide | [`IBaseSlide`](/slides/python-net/aspose.slides/ibaseslide) | The IBaseSlide to compare with the current IBaseSlide. |
 
+### Examples
+
+The following example shows how to compare two slides.
+
 
 
 ### See Also

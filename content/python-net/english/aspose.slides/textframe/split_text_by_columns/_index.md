@@ -25,6 +25,10 @@ def split_text_by_columns(self):
 ```
 
 
+### Examples
+
+The following example demonstrates how to use [`TextFrame.split_text_by_columns`](/slides/python-net/aspose.slides/textframe/split_text_by_columns):
+
 ### Remarks
 
 If the text frame does not contain multiple columns, the returned array will have a single element  

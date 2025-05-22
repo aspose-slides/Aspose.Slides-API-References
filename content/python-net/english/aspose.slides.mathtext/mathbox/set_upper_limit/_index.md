@@ -27,6 +27,10 @@ def set_upper_limit(self, limit):
 | :- | :- | :- |
 | limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | limit |
 
+### Examples
+
+Example:
+
 
 ## set_upper_limit {#str}
 Takes upper limit
@@ -46,6 +50,10 @@ def set_upper_limit(self, limit):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | limit | **str** | limit |
+
+### Examples
+
+Example:
 
 
 

@@ -22,6 +22,10 @@ def encrypt(self, encryption_password):
 | :- | :- | :- |
 | encryption_password | **str** | The password. |
 
+### Examples
+
+The following sample code shows you how to encrypt a PowerPoint Presentation.
+
 
 
 ### See Also

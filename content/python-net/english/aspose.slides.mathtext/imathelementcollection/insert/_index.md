@@ -23,6 +23,10 @@ def insert(self, index, item):
 | index | **int** | The zero-based index at which IMathElement should be inserted. |
 | item | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The IMathElement to insert. |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

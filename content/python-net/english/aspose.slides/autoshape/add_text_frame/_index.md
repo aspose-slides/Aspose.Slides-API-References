@@ -23,6 +23,14 @@ def add_text_frame(self, text):
 | :- | :- | :- |
 | text | **str** | Default text for a new TextFrame. |
 
+### Examples
+
+The following sample code shows how to add watermark text in PowerPoint Presentation.
+
+            The following example shows how to create Text Box on Slide.
+
+            The following example shows how to add column in Text Box.
+
 
 
 ### See Also
