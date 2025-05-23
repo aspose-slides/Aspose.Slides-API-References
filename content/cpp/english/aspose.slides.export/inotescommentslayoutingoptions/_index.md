@@ -60,6 +60,10 @@ class INotesCommentsLayoutingOptions : public Aspose::Slides::Export::ISlidesLay
 | Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |
+
+Deprecated
+:   Use the interface [ISlidesLayoutOptions](../islideslayoutoptions/). The interface [INotesCommentsLayoutingOptions](./) will be removed after release of version 25.8.
+
 ## See Also
 
 * Class [ISlidesLayoutOptions](../islideslayoutoptions/)

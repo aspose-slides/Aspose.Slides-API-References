@@ -25,7 +25,7 @@ class IColorOperation : public virtual System::Object
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
-| virtual [ColorTransformOperation](../colortransformoperation/) [get_OperationType](./get_operationtype/)() | Returns the type of an operation. Read-only [ColorTransformOperation](../colortransformoperation/). |
+| virtual [ColorTransformOperation](../colortransformoperation/) [get_OperationType](./get_operationtype/)() const | Returns the type of an operation. Read-only [ColorTransformOperation](../colortransformoperation/). |
 | virtual **float** [get_Parameter](./get_parameter/)() | Returns a parameter of an operation. Read-only **float**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |

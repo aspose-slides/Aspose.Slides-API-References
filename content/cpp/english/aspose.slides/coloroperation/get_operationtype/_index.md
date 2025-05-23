@@ -6,13 +6,13 @@ type: docs
 weight: 1
 url: /aspose.slides/coloroperation/get_operationtype/
 ---
-## ColorOperation::get_OperationType() method
+## ColorOperation::get_OperationType() const method
 
 
 Returns the type of an operation. Read-only [ColorTransformOperation](../../colortransformoperation/).
 
 ```cpp
-ColorTransformOperation Aspose::Slides::ColorOperation::get_OperationType() override
+ColorTransformOperation Aspose::Slides::ColorOperation::get_OperationType() const override
 ```
 
 ## See Also
