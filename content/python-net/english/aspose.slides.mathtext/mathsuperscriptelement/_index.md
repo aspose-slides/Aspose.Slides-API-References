@@ -81,6 +81,11 @@ The MathSuperscriptElement type exposes the following members:
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathsuperscriptelement/get_children/#) | Get children elements |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * class [`BaseScript`](/slides/python-net/aspose.slides.mathtext/basescript)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)

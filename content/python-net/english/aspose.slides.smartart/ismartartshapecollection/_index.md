@@ -15,7 +15,7 @@ The ISmartArtShapeCollection type exposes the following members:
 
 Gets the element at the specified index.
             Read-only [`ISmartArtShape`](/slides/python-net/aspose.slides.smartart/ismartartshape).
-            Zero-based index of the element
+Zero-based index of the element
 
 ## Indexer
 

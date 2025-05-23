@@ -43,6 +43,11 @@ The Flavor type exposes the following members:
 | DEFAULT | Default markdown flavor. |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

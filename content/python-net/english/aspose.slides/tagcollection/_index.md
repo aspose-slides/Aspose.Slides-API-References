@@ -27,6 +27,11 @@ The TagCollection type exposes the following members:
 | [`get_names_of_tags`](/slides/python-net/aspose.slides/tagcollection/get_names_of_tags/#) | Returns names of tags. |
 
 
+### Examples
+
+The following example shows how to add a tag to a PowerPoint Presentation.
+
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

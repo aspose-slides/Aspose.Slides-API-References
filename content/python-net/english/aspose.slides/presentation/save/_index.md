@@ -172,6 +172,14 @@ def save(self, stream, slides, format, options):
 | format | [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat) | Format of the exported data. |
 | options | [`ISaveOptions`](/slides/python-net/aspose.slides.export/isaveoptions) | Additional format options. |
 
+### Examples
+
+The following example shows how to convert PowerPoint to PNG.
+
+            The following example shows how to convert PowerPoint to PNG with custom dimensions.
+
+            The following example shows how to convert PowerPoint to PNG with custom size.
+
 ### Exceptions
 
 | Exception | Description |

@@ -44,6 +44,15 @@ The PresentationFactory type exposes the following members:
 | [`get_presentation_text`](/slides/python-net/aspose.slides/presentationfactory/get_presentation_text/#iorawiobase-textextractionarrangingmode-iloadoptions) | Retrieves the raw text from the slides |
 
 
+### Examples
+
+The following example shows how to checking a Presentation Format.
+
+            The following example shows how to getting the properties of a Presentation.
+
+            The following example shows how to updating the properties of a Presentation.
+
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

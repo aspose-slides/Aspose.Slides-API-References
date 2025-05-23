@@ -46,6 +46,12 @@ The SwfOptions type exposes the following members:
 | [`logo_link`](/slides/python-net/aspose.slides.export/swfoptions/logo_link/) | Gets or sets the full hyperlink address for a logo.<br/>            Has an effect only if a [`SwfOptions.logo_image_bytes`](/slides/python-net/aspose.slides.export/swfoptions/logo_image_bytes) is specified. |
 | [`jpeg_quality`](/slides/python-net/aspose.slides.export/swfoptions/jpeg_quality/) | Specifies the quality of JPEG images.<br/>            Default is 95. |
 | [`notes_comments_layouting`](/slides/python-net/aspose.slides.export/swfoptions/notes_comments_layouting/) | Provides options that control how notes and comments is placed in exported document. |
+| [`slides_layout_options`](/slides/python-net/aspose.slides.export/swfoptions/slides_layout_options/) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](/slides/python-net/aspose.slides.export/islideslayoutoptions). <br/>            This property doesn't support assigning objects of type [`HandoutLayoutingOptions`](/slides/python-net/aspose.slides.export/handoutlayoutingoptions) |
+
+
+### Examples
+
+The following example shows how to convert PowerPoint to SWF Flash.
 
 
 ### See Also

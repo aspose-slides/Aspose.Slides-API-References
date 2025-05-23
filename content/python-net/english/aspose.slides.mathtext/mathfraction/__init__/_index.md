@@ -23,6 +23,10 @@ def __init__(self, numerator, denominator):
 | numerator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Numerator |
 | denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
 
+### Examples
+
+Example:
+
 
 ## __init__ {#imathelement-imathelement-mathfractiontypes}
 Initializes MathFraction with the specified numerator, denominator and type
@@ -39,6 +43,10 @@ def __init__(self, numerator, denominator, fraction_type):
 | numerator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Numerator |
 | denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
 | fraction_type | [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes) | Fraction type |
+
+### Examples
+
+Example:
 
 
 

@@ -9,7 +9,7 @@ weight: 30
 
 
 ## raw_value property
-Returns or sets ajustment value "as is".
+Returns or sets adjustment value "as is".
             Read/write **int**.
 
 ### Definition:

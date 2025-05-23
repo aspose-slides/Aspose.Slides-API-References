@@ -23,6 +23,10 @@ def get_geometry_paths(self):
 ```
 
 
+### Examples
+
+Example:
+
 
 
 ### See Also

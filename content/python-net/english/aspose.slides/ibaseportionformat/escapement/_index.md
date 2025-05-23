@@ -11,7 +11,7 @@ weight: 50
 ## escapement property
 Returns or sets the superscript or subscript text.
             Value from -100% (subscript) to 100% (superscript).
-            **float.NaN**  means value is undefined and should be inherited from the Master.
+**float.NaN**  means value is undefined and should be inherited from the Master.
             Read/write **float**.
 
 ### Definition:

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/markdownsaveoptions/images_save_folder_name/
-weight: 70
+weight: 80
 ---
 
 

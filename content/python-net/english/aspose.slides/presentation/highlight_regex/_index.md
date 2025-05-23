@@ -23,6 +23,10 @@ def highlight_regex(self, regex, highlight_color):
 | regex | **str** | The string contains regular expression to get strings to highlight. |
 | highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
 
+### Examples
+
+The following code sample shows how to highlight text in a PowerPoint Presentation using a regular expression.
+
 
 
 ### See Also

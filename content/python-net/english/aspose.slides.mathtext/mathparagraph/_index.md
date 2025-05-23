@@ -51,6 +51,11 @@ Gets the item at the specified index.
 | [`to_latex`](/slides/python-net/aspose.slides.mathtext/mathparagraph/to_latex/#) | Gets mathematical equation in LaTeX format |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)

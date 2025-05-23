@@ -11,8 +11,8 @@ weight: 90
 ## is_chart_type_doughnut {#charttype}
 Return true if chartType is one of Doughnut subtypes.
             Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
-            [`ChartType.DOUGHNUT`](/slides/python-net/aspose.slides.charts/charttype/DOUGHNUT),
-            [`ChartType.EXPLODED_DOUGHNUT`](/slides/python-net/aspose.slides.charts/charttype/EXPLODED_DOUGHNUT).
+[`ChartType.DOUGHNUT`](/slides/python-net/aspose.slides.charts/charttype/DOUGHNUT),
+[`ChartType.EXPLODED_DOUGHNUT`](/slides/python-net/aspose.slides.charts/charttype/EXPLODED_DOUGHNUT).
 
 
 ```python

@@ -21,6 +21,11 @@ The ISvgShapeAndTextFormattingController type exposes the following members:
 | [`format_shape`](/slides/python-net/aspose.slides.export/isvgshapeandtextformattingcontroller/format_shape/#isvgshape-ishape) |  |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * module [`aspose.slides.export`](/slides/python-net/aspose.slides.export)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -25,6 +25,10 @@ def replace_text(self, old_text, new_text, options, callback):
 | options | [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions) | Text search options [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback) | Callback object for saving replacement operation result [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback). |
 
+### Examples
+
+The following sample code shows how to replace one speified string with another speified string.
+
 
 
 ### See Also

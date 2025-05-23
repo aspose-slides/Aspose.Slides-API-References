@@ -27,6 +27,10 @@ def index_of(self, summary_zoom_section):
 | :- | :- | :- |
 | summary_zoom_section | [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection) | SummaryZoomSection object to find [`ISummaryZoomSection`](/slides/python-net/aspose.slides/isummaryzoomsection). |
 
+### Examples
+
+The example demonstrates getting Summary Zoom Section element by index:
+
 
 
 ### See Also

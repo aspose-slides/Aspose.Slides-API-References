@@ -23,6 +23,10 @@ def get_effective(self):
 ```
 
 
+### Examples
+
+This example demonstrates getting some effective paragraph format properties.
+
 
 
 ### See Also

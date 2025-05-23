@@ -64,6 +64,10 @@ def get_thumbnail(self, image_size):
 | :- | :- | :- |
 | image_size | **aspose.pydrawing.Size** | Size of the image to create. |
 
+### Examples
+
+The following example shows how to converting slides to images with custom sizes using C#.
+
 
 ## get_thumbnail {#asposeslidesexportitiffoptions}
 Returns a Thumbnail tiff bitmap object with specified parameters.
@@ -110,6 +114,16 @@ def get_thumbnail(self, scale_x, scale_y):
 | :- | :- | :- |
 | scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
 | scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
+
+### Examples
+
+The following example shows how to generate thumbnails from PowerPoint Presentation.
+
+            The following example shows how to converting slides to bitmap and saving the images in PNG.
+
+            The following example shows how to convert PowerPoint PPT/PPTX to JPG.
+
+            The following example shows how to convert PowerPoint PPT/PPTX to JPG with customized dimensions.
 
 
 ## get_thumbnail {#asposeslidesexportirenderingoptions-asposepydrawingsize}
@@ -159,6 +173,10 @@ def get_thumbnail(self, options, scale_x, scale_y):
 | options | [`IRenderingOptions`](/slides/python-net/aspose.slides.export/irenderingoptions) | Rendering options. |
 | scale_x | **float** | The value by which to scale this Thumbnail in the x-axis direction. |
 | scale_y | **float** | The value by which to scale this Thumbnail in the y-axis direction. |
+
+### Examples
+
+The following example shows how to converting slides With notes and comments to Images using C#.
 
 ### Exceptions
 

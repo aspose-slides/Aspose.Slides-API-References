@@ -23,6 +23,10 @@ def insert_column_after(self, column_index):
 | :- | :- | :- |
 | column_index | **int** | Index of the column after which to insert a new one |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

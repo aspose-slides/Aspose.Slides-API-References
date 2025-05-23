@@ -405,7 +405,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection/) | Represents a collection of a slides. |
 | [`SlideHeaderFooterManager`](/slides/python-net/aspose.slides/slideheaderfootermanager/) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | [`SlideShowSettings`](/slides/python-net/aspose.slides/slideshowsettings/) | Represents the slide show settings for the presentation. |
-| [`SlideShowType`](/slides/python-net/aspose.slides/slideshowtype/) | Base slide show settings. Ancestors represent types of the slide show:<br/>             [`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker) Presented by a speaker (full screen)<br/>             [`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual) Browsed by individual (window)<br/>             [`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk) Browsed at a kiosk (full screen) |
+| [`SlideShowType`](/slides/python-net/aspose.slides/slideshowtype/) | Base slide show settings. Ancestors represent types of the slide show:<br/>[`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker) Presented by a speaker (full screen)<br/>[`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual) Browsed by individual (window)<br/>[`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk) Browsed at a kiosk (full screen) |
 | [`SlideSize`](/slides/python-net/aspose.slides/slidesize/) | Represents a size of slide. |
 | [`SlidesRange`](/slides/python-net/aspose.slides/slidesrange/) | Slides range |
 | [`SpreadsheetOptions`](/slides/python-net/aspose.slides/spreadsheetoptions/) | Represents options which can be used to specify additional spreadsheets behavior. |
@@ -474,7 +474,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`LineSketchType`](/slides/python-net/aspose.slides/linesketchtype/) | Represents which sketch type or effect a shape has been assigned. |
 | [`LineStyle`](/slides/python-net/aspose.slides/linestyle/) | Represents the style of a line. |
 | [`LoadFormat`](/slides/python-net/aspose.slides/loadformat/) | Indicates the format of the document that is to be loaded. |
-| [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior/) | The **io.RawIOBase** passed to a method is considered as a Binary Large Object (BLOB) (see <br/>            [`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how <br/>            the **io.RawIOBase** should be treated when it passed to the method. Depending on the <br/>            requirements, different decisions could be made to provide the most efficient behavior. |
+| [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior/) | The **io.RawIOBase** passed to a method is considered as a Binary Large Object (BLOB) (see <br/>[`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how <br/>            the **io.RawIOBase** should be treated when it passed to the method. Depending on the <br/>            requirements, different decisions could be made to provide the most efficient behavior. |
 | [`MaterialPresetType`](/slides/python-net/aspose.slides/materialpresettype/) | Constants which define material of shape. |
 | [`ModernCommentStatus`](/slides/python-net/aspose.slides/moderncommentstatus/) | Represents the status of a modern comment. |
 | [`NullableBool`](/slides/python-net/aspose.slides/nullablebool/) | Represents triple boolean values. |
@@ -488,7 +488,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`PictureFillMode`](/slides/python-net/aspose.slides/picturefillmode/) | Determines how picture will fill area. |
 | [`PlaceholderSize`](/slides/python-net/aspose.slides/placeholdersize/) | Represents the size of a placeholder. |
 | [`PlaceholderType`](/slides/python-net/aspose.slides/placeholdertype/) | Represents the type of a placeholder. |
-| [`PresentationLockingBehavior`](/slides/python-net/aspose.slides/presentationlockingbehavior/) | Represents the behavior regarding treating the [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) source (file or <br/>            **io.RawIOBase**) while loading and working with an instance of [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+| [`PresentationLockingBehavior`](/slides/python-net/aspose.slides/presentationlockingbehavior/) | Represents the behavior regarding treating the [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) source (file or <br/>**io.RawIOBase**) while loading and working with an instance of [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 | [`PresetColor`](/slides/python-net/aspose.slides/presetcolor/) | Represents predefined color presets. |
 | [`PresetShadowType`](/slides/python-net/aspose.slides/presetshadowtype/) | Represents a preset for a shadow effect. |
 | [`RectangleAlignment`](/slides/python-net/aspose.slides/rectanglealignment/) | Defines 2-dimension allignment. |

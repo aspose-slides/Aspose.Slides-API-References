@@ -23,6 +23,10 @@ def get_range(self):
 ```
 
 
+### Examples
+
+Example C#
+
 ### Exceptions
 
 | Exception | Description |

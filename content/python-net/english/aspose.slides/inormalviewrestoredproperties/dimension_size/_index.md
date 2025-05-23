@@ -12,7 +12,7 @@ weight: 20
 Specifies the size of the slide region (width when a child of RestoredTop, height when a
             child of RestoredLeft).
             Read/write **float**.
-            Throws when value less than 0 ar greater than 100.
+Throws when value less than 0 ar greater than 100.
 
 ### Definition:
 ```python

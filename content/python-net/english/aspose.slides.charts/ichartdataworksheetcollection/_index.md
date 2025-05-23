@@ -22,6 +22,11 @@ Returns the worksheet by index.
 | [`[index]`](/slides/python-net/aspose.slides.charts/ichartdataworksheetcollection/__getitem__/) | Index of the worksheet in the collection. |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * module [`aspose.slides.charts`](/slides/python-net/aspose.slides.charts)
 * library [`Aspose.Slides`](/slides/python-net)

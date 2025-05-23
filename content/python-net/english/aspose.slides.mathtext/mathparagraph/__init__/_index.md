@@ -18,6 +18,10 @@ def __init__(self):
 ```
 
 
+### Examples
+
+Example:
+
 
 ## __init__ {#imathblock}
 Initializes a new instance of the MathParagraph class.
@@ -32,6 +36,10 @@ def __init__(self, math_block):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | math_block | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) |  |
+
+### Examples
+
+Example:
 
 
 

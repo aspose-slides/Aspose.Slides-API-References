@@ -29,6 +29,10 @@ def nary(self, type, lower_limit, upper_limit):
 | lower_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The lower limit |
 | upper_limit | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The upper limit |
 
+### Examples
+
+Example:
+
 
 ## nary {#mathnaryoperatortypes-str-str}
 Creates a N-ary operator
@@ -50,6 +54,10 @@ def nary(self, type, lower_limit, upper_limit):
 | type | [`MathNaryOperatorTypes`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatortypes) | The N-ary operator type |
 | lower_limit | **str** | The lower limit |
 | upper_limit | **str** | The upper limit |
+
+### Examples
+
+Example:
 
 
 

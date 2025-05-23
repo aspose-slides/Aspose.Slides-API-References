@@ -27,6 +27,10 @@ def set_superscript(self, superscript):
 | :- | :- | :- |
 | superscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Superscript (upper index on the right) |
 
+### Examples
+
+Example:
+
 
 ## set_superscript {#str}
 Creates superscript
@@ -46,6 +50,10 @@ def set_superscript(self, superscript):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | superscript | **str** | Superscript (upper index on the right) |
+
+### Examples
+
+Example:
 
 
 

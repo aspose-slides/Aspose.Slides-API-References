@@ -27,6 +27,11 @@ The NormalViewProperties type exposes the following members:
 | [`restored_top`](/slides/python-net/aspose.slides/normalviewproperties/restored_top/) | This element specifies the sizing of the top slide region of the normal view, when the region is of a variable<br/>            restored size(neither minimized nor maximized).<br/>            Read only [`INormalViewRestoredProperties`](/slides/python-net/aspose.slides/inormalviewrestoredproperties). |
 
 
+### Examples
+
+The following example shows how to configure ViewProperties.NormalViewProperties properties of a PowerPoint Presentation.
+
+
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

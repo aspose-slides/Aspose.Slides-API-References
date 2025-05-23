@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.export/markdownsaveoptions/new_line_type/
-weight: 80
+weight: 90
 ---
 
 

@@ -18,6 +18,10 @@ def print(self):
 ```
 
 
+### Examples
+
+The following example shows how to set print options Dynamically for a PowerPoint Presentation.
+
 
 ## print {#asposepydrawingprintingprintersettings}
 Prints the presentation according to the specified printer settings,

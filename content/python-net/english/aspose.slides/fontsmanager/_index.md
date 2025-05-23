@@ -24,8 +24,8 @@ The FontsManager type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`add_embedded_font`](/slides/python-net/aspose.slides/fontsmanager/add_embedded_font/#ifontdata-asposeslidesexportembedfontcharacters) | Adds the embedded font<br/>            Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of <br/>            a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is None or this font is already embedded |
-| [`add_embedded_font`](/slides/python-net/aspose.slides/fontsmanager/add_embedded_font/#bytes-asposeslidesexportembedfontcharacters) | Adds the embedded font<br/>            Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of <br/>            a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is None or this font is already embedded |
+| [`add_embedded_font`](/slides/python-net/aspose.slides/fontsmanager/add_embedded_font/#ifontdata-asposeslidesexportembedfontcharacters) | Adds the embedded font<br/>Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of <br/>            a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is None or this font is already embedded |
+| [`add_embedded_font`](/slides/python-net/aspose.slides/fontsmanager/add_embedded_font/#bytes-asposeslidesexportembedfontcharacters) | Adds the embedded font<br/>Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of <br/>            a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is None or this font is already embedded |
 | [`replace_font`](/slides/python-net/aspose.slides/fontsmanager/replace_font/#ifontdata-ifontdata) | Replace font in presentation |
 | [`replace_font`](/slides/python-net/aspose.slides/fontsmanager/replace_font/#ifontsubstrule) | Replace font in presentation using information provided in [`FontSubstRule`](/slides/python-net/aspose.slides/fontsubstrule) |
 | [`replace_font`](/slides/python-net/aspose.slides/fontsmanager/replace_font/#ifontsubstrulecollection) | Replace font in presentation using information provided in collection of [`FontSubstRule`](/slides/python-net/aspose.slides/fontsubstrule) |
@@ -35,6 +35,11 @@ The FontsManager type exposes the following members:
 | [`remove_embedded_font`](/slides/python-net/aspose.slides/fontsmanager/remove_embedded_font/#ifontdata) | Removes the embedded font |
 | [`get_font_bytes`](/slides/python-net/aspose.slides/fontsmanager/get_font_bytes/#ifontdata-asposepydrawingfontstyle) | Retrieves the byte array representing the font data for a specified font style and font data. |
 | [`get_font_embedding_level`](/slides/python-net/aspose.slides/fontsmanager/get_font_embedding_level/#bytes-str) | Determines the embedding level of a font from the given byte array and font name. |
+
+
+### Examples
+
+The following example shows how to add embedded fonts to PowerPoint Presentation.
 
 
 ### See Also

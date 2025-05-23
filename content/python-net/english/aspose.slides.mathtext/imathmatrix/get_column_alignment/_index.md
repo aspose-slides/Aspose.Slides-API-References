@@ -27,6 +27,10 @@ def get_column_alignment(self, column_index):
 | :- | :- | :- |
 | column_index | **int** | Zero-based column index |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

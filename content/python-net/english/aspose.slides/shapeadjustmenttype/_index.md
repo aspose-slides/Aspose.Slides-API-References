@@ -43,9 +43,9 @@ The ShapeAdjustmentType type exposes the following members:
 | CONNECTOR_BEND_POSITION_Y | Controls the vertical position of the bend in the connector. |
 | ATTACH_Y | Controls the vertical attachment point of the figure. |
 | ATTACH_X | Controls the horizontal attachment point of the figure. |
-| CALLOUT_HEIGHT | Controls the vertical size of the callaut. |
-| CALLOUT_WIDTH | Controls the horizont size of the callaut. |
-| CALLOUT_SIZE | Controls the size of the callaut. |
+| CALLOUT_HEIGHT | Controls the vertical size of the callout. |
+| CALLOUT_WIDTH | Controls the horizontal size of the callout. |
+| CALLOUT_SIZE | Controls the size of the callout. |
 | CURVATURE | Curvature of a bent, braces, curved arrow or shape. |
 | HORIZONTAL_THICKNESS | Controls the horizontal thickness of the corner shape. |
 | VERTICAL_THICKNESS | Controls the vertical thickness of the corner shape. |

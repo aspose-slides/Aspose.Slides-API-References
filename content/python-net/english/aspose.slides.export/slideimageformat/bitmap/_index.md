@@ -11,11 +11,6 @@ weight: 20
 ## bitmap {#float-asposepydrawingimagingimageformat}
 Slides should be converted to a raster image.
 
-### Returns
-
-
-
-
 
 ```python
 @staticmethod

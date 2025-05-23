@@ -24,6 +24,10 @@ def set_geometry_path(self, geometry_path):
 | :- | :- | :- |
 | geometry_path | [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) | Geometry path |
 
+### Examples
+
+Example:
+
 ### Exceptions
 
 | Exception | Description |

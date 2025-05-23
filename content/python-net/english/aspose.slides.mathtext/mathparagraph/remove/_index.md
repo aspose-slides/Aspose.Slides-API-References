@@ -28,6 +28,10 @@ def remove(self, math_block):
 | :- | :- | :- |
 | math_block | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | The object to remove from the collection. |
 
+### Examples
+
+Example:
+
 
 
 ### See Also

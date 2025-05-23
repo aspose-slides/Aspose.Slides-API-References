@@ -11,11 +11,6 @@ weight: 10
 ## get_automatic_series_color {#}
 Returns an automatic color of series based on series index and chart style. This color is used by default if FillType equals NotDefined.
 
-### Returns
-
-
-
-
 
 ```python
 def get_automatic_series_color(self):

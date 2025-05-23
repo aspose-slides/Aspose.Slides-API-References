@@ -84,6 +84,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [`Conformance`](/slides/python-net/aspose.slides.export/conformance/) | Specifies the conformance class to which the PresentationML document conforms. |
 | [`EmbedFontCharacters`](/slides/python-net/aspose.slides.export/embedfontcharacters/) | Represents the rule to use for adding new embedding font into [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) |
 | [`Flavor`](/slides/python-net/aspose.slides.export/flavor/) | All markdown specifications used in program. |
+| [`HandleRepeatedSpaces`](/slides/python-net/aspose.slides.export/handlerepeatedspaces/) | Specifies how repeated regular space characters should be handled<br/>            during Markdown export. |
 | [`HandoutType`](/slides/python-net/aspose.slides.export/handouttype/) | Specifies how many slides and in what sequence will be placed on the page. |
 | [`ImagePixelFormat`](/slides/python-net/aspose.slides.export/imagepixelformat/) | Specifies the pixel format for the generated images. |
 | [`LinkEmbedDecision`](/slides/python-net/aspose.slides.export/linkembeddecision/) | Determines how object will be processed during saving. |

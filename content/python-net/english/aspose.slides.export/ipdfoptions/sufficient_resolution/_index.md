@@ -10,7 +10,7 @@ weight: 230
 
 ## sufficient_resolution property
 Returns or sets a value determining resolution of images inside PDF document.
-            
+
 Property affects on file size, time of export and image quality.
 
 

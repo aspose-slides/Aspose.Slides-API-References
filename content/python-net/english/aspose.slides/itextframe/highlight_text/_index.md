@@ -58,6 +58,10 @@ def highlight_text(self, text, highlight_color, options, callback):
 | options | [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions) | Text search options [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback) | The callback object for receiving search results [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback). |
 
+### Examples
+
+The following code sample shows how to highlight text in a TextFrame.
+
 
 
 ### See Also

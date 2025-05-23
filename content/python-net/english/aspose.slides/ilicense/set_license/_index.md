@@ -22,6 +22,12 @@ def set_license(self, license_name):
 | :- | :- | :- |
 | license_name | **str** | Can be a full or short file name or name of an embedded resource.<br/><br/>            Use an empty string to switch to evaluation mode. |
 
+### Examples
+
+In this example, an attempt will be made to find a license file named MyLicense.lic
+            in the folder that contains the component, in the folder that contains the calling assembly,
+            in the folder of the entry assembly and then in the embedded resources of the calling assembly.
+
 ### Remarks
 
 Tries to find the license in the following locations:

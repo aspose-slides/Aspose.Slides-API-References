@@ -28,6 +28,10 @@ def set_sub_superscript_on_the_left(self, subscript, superscript):
 | subscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Subscript (lower index on the left) |
 | superscript | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Superscript (upper index on the left) |
 
+### Examples
+
+Example:
+
 
 ## set_sub_superscript_on_the_left {#str-str}
 Creates subscript and superscript on the left
@@ -48,6 +52,10 @@ def set_sub_superscript_on_the_left(self, subscript, superscript):
 | :- | :- | :- |
 | subscript | **str** | Subscript (lower index on the left) |
 | superscript | **str** | Superscript (upper index on the left) |
+
+### Examples
+
+Example:
 
 
 

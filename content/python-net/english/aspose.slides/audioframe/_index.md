@@ -58,6 +58,7 @@ The AudioFrame type exposes the following members:
 | [`picture_format`](/slides/python-net/aspose.slides/audioframe/picture_format/) | Returns the PictureFillFormat object for a picture frame.<br/>            Read-only [`IPictureFillFormat`](/slides/python-net/aspose.slides/ipicturefillformat). |
 | [`relative_scale_height`](/slides/python-net/aspose.slides/audioframe/relative_scale_height/) | Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.<br/>            Read/write **float**. |
 | [`relative_scale_width`](/slides/python-net/aspose.slides/audioframe/relative_scale_width/) | Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.<br/>            Read/write **float**. |
+| [`is_cameo`](/slides/python-net/aspose.slides/audioframe/is_cameo/) | Determines whether the PictureFrame is Cameo object or not.<br/>            Read only **bool**. |
 | [`audio_cd_start_track`](/slides/python-net/aspose.slides/audioframe/audio_cd_start_track/) | Returns or sets a start track index.<br/>            Read/write **int**. |
 | [`audio_cd_start_track_time`](/slides/python-net/aspose.slides/audioframe/audio_cd_start_track_time/) | Returns or sets a start track time.<br/>            Read/write **int**. |
 | [`audio_cd_end_track`](/slides/python-net/aspose.slides/audioframe/audio_cd_end_track/) | Returns or sets a last track index<br/>            Read/write **int**. |
@@ -89,11 +90,16 @@ The AudioFrame type exposes the following members:
 | [`write_as_svg`](/slides/python-net/aspose.slides/audioframe/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves content of Shape as SVG file. |
 | [`remove_placeholder`](/slides/python-net/aspose.slides/audioframe/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`add_placeholder`](/slides/python-net/aspose.slides/audioframe/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
-| [`get_base_placeholder`](/slides/python-net/aspose.slides/audioframe/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A None is returned if the current shape is not inherited. |
+| [`get_base_placeholder`](/slides/python-net/aspose.slides/audioframe/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>A None is returned if the current shape is not inherited. |
 | [`get_geometry_paths`](/slides/python-net/aspose.slides/audioframe/get_geometry_paths/#) | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |
 | [`set_geometry_path`](/slides/python-net/aspose.slides/audioframe/set_geometry_path/#igeometrypath) | Updates shape geometry from [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath) object. Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([`GeometryShape.shape_type`](/slides/python-net/aspose.slides/geometryshape/shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype/CUSTOM). |
 | [`set_geometry_paths`](/slides/python-net/aspose.slides/audioframe/set_geometry_paths/#listigeometrypath) | Updates shape geometry from array of [`IGeometryPath`](/slides/python-net/aspose.slides/igeometrypath). Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([`GeometryShape.shape_type`](/slides/python-net/aspose.slides/geometryshape/shape_type)) to [`ShapeType.CUSTOM`](/slides/python-net/aspose.slides/shapetype/CUSTOM). |
 | [`create_shape_elements`](/slides/python-net/aspose.slides/audioframe/create_shape_elements/#) | Creates and returns array of shape's elements. |
+
+
+### Examples
+
+The following examples shows how to change Audio Play Options.
 
 
 ### See Also

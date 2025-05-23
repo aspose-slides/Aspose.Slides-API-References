@@ -23,6 +23,10 @@ def enclose(self):
 ```
 
 
+### Examples
+
+Example:
+
 
 ## enclose {#char-char}
 Encloses a math element in specified characters such as parenthesis or another characters as framing
@@ -43,6 +47,10 @@ def enclose(self, beginning_character, ending_character):
 | :- | :- | :- |
 | beginning_character | **char** | Beginning character (usually left bracket) |
 | ending_character | **char** | Ending character (usually right bracket) |
+
+### Examples
+
+Example:
 
 
 

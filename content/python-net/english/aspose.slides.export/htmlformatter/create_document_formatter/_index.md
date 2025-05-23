@@ -11,11 +11,6 @@ weight: 20
 ## create_document_formatter {#str-bool}
 Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another.
 
-### Returns
-
-
-
-
 
 ```python
 @staticmethod

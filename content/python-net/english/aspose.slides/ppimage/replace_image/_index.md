@@ -10,7 +10,7 @@ weight: 10
 
 ## replace_image {#bytes}
 Replaces image data.
-            The new image's data.When newImageData parameter is None.
+The new image's data.When newImageData parameter is None.
 
 
 ```python
@@ -26,7 +26,7 @@ def replace_image(self, new_image_data):
 
 ## replace_image {#asposepydrawingimage}
 Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead
-            The new image.When newImage parameter is None.
+The new image.When newImage parameter is None.
 
 
 ```python
@@ -42,7 +42,7 @@ def replace_image(self, new_image):
 
 ## replace_image {#iimage}
 Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead
-            The new image.When newImage parameter is None.
+The new image.When newImage parameter is None.
 
 
 ```python
@@ -58,7 +58,7 @@ def replace_image(self, new_image):
 
 ## replace_image {#ippimage}
 Replaces image data.
-            The new IPPImage.When newImage parameter is None.
+The new IPPImage.When newImage parameter is None.
 
 
 ```python

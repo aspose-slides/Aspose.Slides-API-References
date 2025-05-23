@@ -31,6 +31,10 @@ def add_ole_object_frame(self, x, y, width, height, data_info):
 | height | **float** | Height of a new OLE frame. |
 | data_info | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | Embedded data info [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo). |
 
+### Examples
+
+The following examples shows how to adding OLE Object Frames to Slides of PowerPoint Presentation.
+
 
 ## add_ole_object_frame {#float-float-float-float-str-str}
 Adds a new OLE object to the end of a collection.

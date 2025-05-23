@@ -83,6 +83,13 @@ The DocumentProperties type exposes the following members:
 | [`clone_t`](/slides/python-net/aspose.slides/documentproperties/clone_t/#) | Clones current object |
 
 
+### Examples
+
+The following example shows how to access built-in Properties of PowerPoint Presentation.
+
+            The following example shows how to modify built-in Properties of PowerPoint Presentation.
+
+
 ### See Also
 * class [`DocumentProperties`](/slides/python-net/aspose.slides/documentproperties)
 * module [`aspose.slides`](/slides/python-net/aspose.slides)

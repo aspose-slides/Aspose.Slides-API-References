@@ -11,11 +11,6 @@ weight: 10
 ## create_custom_formatter {#ihtmlformattingcontroller}
 Creates and returns HTML formatter for custom callback-driven html generation.
 
-### Returns
-
-
-
-
 
 ```python
 @staticmethod

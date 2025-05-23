@@ -41,6 +41,11 @@ Gets the item at the specified index.
 | [`clear`](/slides/python-net/aspose.slides.mathtext/imathblockcollection/clear/#) | Removes all elements from the collection. |
 
 
+### Examples
+
+Example:
+
+
 ### See Also
 * class [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock)
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
