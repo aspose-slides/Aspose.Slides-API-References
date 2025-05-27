@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Slides для .NET API Справочник
-description: Указывает определенный атрибут эффекта после анимационного эффекта. Представляет собой точечное значение. Только: bool, ColorFormat, float, int, string. Чтение/запись Object.
+description: Указывает определенный атрибут эффекта после анимационного эффекта. Представляет собой точечное значение. Только bool, ColorFormat, float, int, string. Чтение/запись Object.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/iseteffect/to/

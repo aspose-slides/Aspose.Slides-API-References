@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
 second_title: Aspose.Slides для .NET API Reference
-description: Когда значение true, этот эмулятор оператора служит точкой выравнивания; то есть, назначенные точки выравнивания в других уравнениях могут быть выровнены с ней. По умолчанию: false
+description: Когда значение true, этот эмулятор оператора служит точкой выравнивания; то есть, назначенные точки выравнивания в других уравнениях могут быть выровнены с ней. По умолчанию false
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathbox/alignmentpoint/

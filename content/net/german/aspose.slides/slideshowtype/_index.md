@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Slides für .NET API Referenz
-description: Basiseinstellungen für Diashows. Vorfahren repräsentieren Typen der Diashow: PresentedBySpeaker../presentedbyspeaker Vorgestellt von einem Sprecher Vollbild BrowsedByIndividual../browsedbyindividual Durchgesehen von einer Einzelperson Fenster BrowsedAtKiosk../browsedatkiosk Durchgesehen an einem Kiosk Vollbild
+description: Basiseinstellungen für Diashows. Vorfahren repräsentieren Typen der Diashow PresentedBySpeaker../presentedbyspeaker Vorgestellt von einem Sprecher Vollbild BrowsedByIndividual../browsedbyindividual Durchgesehen von einer Einzelperson Fenster BrowsedAtKiosk../browsedatkiosk Durchgesehen an einem Kiosk Vollbild
 type: docs
 weight: 10180
 url: /de/aspose.slides/slideshowtype/

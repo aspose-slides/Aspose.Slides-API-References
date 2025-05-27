@@ -1,7 +1,7 @@
 ---
 title: RowSpacing
 second_title: Справка по API Aspose.Slides для .NET
-description: Интервал между строками массива. Используется только в том случае, если RowSpacingRule установлен на 3. В этом случае единица измерения - пункты, или Multiple, в этом случае единица измерения - полустроки. По умолчанию: 0
+description: Интервал между строками массива. Используется только в том случае, если RowSpacingRule установлен на 3. В этом случае единица измерения - пункты, или Multiple, в этом случае единица измерения - полустроки. По умолчанию 0
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/matharray/rowspacing/

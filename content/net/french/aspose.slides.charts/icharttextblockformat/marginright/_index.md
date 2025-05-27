@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit les points de marge droite dans un TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement pour ces parties de graphique : DataLabel et DataLabelFormat support complet dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet pour le rendu. Lecture/écriture Double.
+description: Renvoie ou définit les points de marge droite dans un TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement pour ces parties de graphique  DataLabel et DataLabelFormat support complet dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet pour le rendu. Lecture/écriture Double.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/icharttextblockformat/marginright/

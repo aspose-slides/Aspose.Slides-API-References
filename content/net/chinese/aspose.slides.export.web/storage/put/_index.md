@@ -1,7 +1,7 @@
 ---
 title: 放置
 second_title: Aspose.Slides for .NET API 参考
-description: type: docs
+description: type docs
 weight: 40
 url: /zh/aspose.slides.export.web/storage/put/
 ---

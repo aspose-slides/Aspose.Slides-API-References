@@ -1,7 +1,7 @@
 ---
 title: RowSpacing
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Espaciado entre filas de un arreglo. Se utiliza solo cuando RowSpacingRule se establece en 3. Exactamente en cuyo caso la unidad de medida son puntos o Múltiple en cuyo caso la unidad de medida son medias líneas. Predeterminado: 0
+description: Espaciado entre filas de un arreglo. Se utiliza solo cuando RowSpacingRule se establece en 3. Exactamente en cuyo caso la unidad de medida son puntos o Múltiple en cuyo caso la unidad de medida son medias líneas. Predeterminado 0
 type: docs
 weight: 60
 url: /es/aspose.slides.mathtext/imatharray/rowspacing/

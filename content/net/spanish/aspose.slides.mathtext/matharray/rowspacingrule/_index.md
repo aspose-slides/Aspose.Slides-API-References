@@ -1,7 +1,7 @@
 ---
 title: RowSpacingRule
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: El tipo de espaciado vertical entre elementos de la matriz. Predeterminado: SingleLineGap
+description: El tipo de espaciado vertical entre elementos de la matriz. Predeterminado SingleLineGap
 type: docs
 weight: 70
 url: /es/aspose.slides.mathtext/matharray/rowspacingrule/

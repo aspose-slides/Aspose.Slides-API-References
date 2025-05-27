@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
 second_title: Referencia de la API Aspose.Slides para .NET
-description: El tipo de espaciado horizontal entre columnas de una matriz. Las unidades de espaciado horizontal pueden ser ems o puntos almacenados como twips. Predeterminado: SingleSpacingGap 0
+description: El tipo de espaciado horizontal entre columnas de una matriz. Las unidades de espaciado horizontal pueden ser ems o puntos almacenados como twips. Predeterminado SingleSpacingGap 0
 type: docs
 weight: 50
 url: /es/aspose.slides.mathtext/mathmatrix/columngaprule/

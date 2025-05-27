@@ -1,7 +1,7 @@
 ---
 title: ColumnGap
 second_title: Aspose.Slides für .NET API-Referenz
-description: Der Wert des horizontalen Abstands zwischen Spalten einer Matrix. Wenn die ColumnGapRule auf 3 "Genau" gesetzt ist, wird die Einheit als Twips 1/20 eines Punkts interpretiert. Wenn die ColumnGapRule auf 4 "Multiplikation" gesetzt ist, wird die Einheit als Anzahl der 0,5 em-Inkremente interpretiert. In anderen Fällen wird sie ignoriert. Standard: 0
+description: Der Wert des horizontalen Abstands zwischen Spalten einer Matrix. Wenn die ColumnGapRule auf 3 "Genau" gesetzt ist, wird die Einheit als Twips 1/20 eines Punkts interpretiert. Wenn die ColumnGapRule auf 4 "Multiplikation" gesetzt ist, wird die Einheit als Anzahl der 0,5 em-Inkremente interpretiert. In anderen Fällen wird sie ignoriert. Standard 0
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/mathmatrix/columngap/

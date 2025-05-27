@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: Aspose.Slides para Referencia de API de .NET
-description: Obtiene o establece el tipo de imagen de un objeto de zoom. Lectura/escritura ZoomImageTypeaspose.slides/zoomimagetype. Valor predeterminado: Previsualización
+description: Obtiene o establece el tipo de imagen de un objeto de zoom. Lectura/escritura ZoomImageTypeaspose.slides/zoomimagetype. Valor predeterminado Previsualización
 type: docs
 weight: 20
 url: /es/aspose.slides/izoomobject/imagetype/

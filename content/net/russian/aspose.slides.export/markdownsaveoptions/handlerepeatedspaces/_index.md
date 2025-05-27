@@ -1,7 +1,7 @@
 ---
 title: HandleRepeatedSpaces
 second_title: Aspose.Slides для .NET справочник по API
-description: type: docs
+description: type docs
 weight: 50
 url: /ru/aspose.slides.export/markdownsaveoptions/handlerepeatedspaces/
 ---

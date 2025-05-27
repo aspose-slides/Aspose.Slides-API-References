@@ -1,7 +1,7 @@
 ---
 title: Eigenschaften
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Sammlung von ActiveX-Eigenschaften zurück. Hinweis: Aspose.Slides unterstützt nur auf XML basierende ActiveX-Eigenschaften. Wenn Eigenschaften im Binärformat gespeichert sind, gibt diese Eigenschaft null zurück. Nur-Lese IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
+description: Gibt eine Sammlung von ActiveX-Eigenschaften zurück. Hinweis Aspose.Slides unterstützt nur auf XML basierende ActiveX-Eigenschaften. Wenn Eigenschaften im Binärformat gespeichert sind, gibt diese Eigenschaft null zurück. Nur-Lese IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
 type: docs
 weight: 60
 url: /de/aspose.slides/control/properties/

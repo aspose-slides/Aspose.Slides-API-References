@@ -1,7 +1,7 @@
 ---
 title: ColumnGap
 second_title: Référence API Aspose.Slides pour .NET
-description: La valeur de l'espacement horizontal entre les colonnes d'une matrice. Si le ColumnGapRule est défini sur 3 Exactement, l'unité est interprétée comme des twips 1/20 d'un point. Si le ColumnGapRule est défini sur 4 Multiple, l'unité est interprétée comme le nombre d'incréments de 0,5 em. Dans d'autres cas, elle est ignorée. Par défaut : 0
+description: La valeur de l'espacement horizontal entre les colonnes d'une matrice. Si le ColumnGapRule est défini sur 3 Exactement, l'unité est interprétée comme des twips 1/20 d'un point. Si le ColumnGapRule est défini sur 4 Multiple, l'unité est interprétée comme le nombre d'incréments de 0,5 em. Dans d'autres cas, elle est ignorée. Par défaut  0
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/imathmatrix/columngap/

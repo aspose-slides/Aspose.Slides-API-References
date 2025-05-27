@@ -1,7 +1,7 @@
 ---
 title: Differential
 second_title: Aspose.Slides für .NET API Referenz
-description: Differential. Wenn wahr, fungiert die Box als Differential, z.B. in einem Integranden, und erhält den entsprechenden horizontalen Abstand für das mathematische Differential. Standard: falsch
+description: Differential. Wenn wahr, fungiert die Box als Differential, z.B. in einem Integranden, und erhält den entsprechenden horizontalen Abstand für das mathematische Differential. Standard falsch
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/imathbox/differential/

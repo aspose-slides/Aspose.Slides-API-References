@@ -1,7 +1,7 @@
 ---
 title: ReturnToParent
 second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit le comportement de navigation dans le diaporama. Lecture/écriture booléen. Valeur par défaut : false
+description: Obtient ou définit le comportement de navigation dans le diaporama. Lecture/écriture booléen. Valeur par défaut  false
 type: docs
 weight: 20
 url: /fr/aspose.slides/zoomobject/returntoparent/

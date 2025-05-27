@@ -1,7 +1,7 @@
 ---
 title: OperatorEmulator
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Émulateur d'opérateur. Lorsque c'est vrai, la boîte et son contenu se comportent comme un seul opérateur et héritent des propriétés d'un opérateur. Cela signifie, par exemple, que le caractère peut servir de point pour un saut de ligne et peut être aligné avec d'autres opérateurs. Les émulateurs d'opérateurs sont souvent utilisés lorsqu'un ou plusieurs glyphes se combinent pour former un opérateur tel que '=='. Valeur par défaut : false
+description: Émulateur d'opérateur. Lorsque c'est vrai, la boîte et son contenu se comportent comme un seul opérateur et héritent des propriétés d'un opérateur. Cela signifie, par exemple, que le caractère peut servir de point pour un saut de ligne et peut être aligné avec d'autres opérateurs. Les émulateurs d'opérateurs sont souvent utilisés lorsqu'un ou plusieurs glyphes se combinent pour former un opérateur tel que '=='. Valeur par défaut  false
 type: docs
 weight: 70
 url: /fr/aspose.slides.mathtext/mathbox/operatoremulator/

@@ -1,7 +1,7 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Alpha Floor-Effekt dar. Alpha-Opazitätswerte unter 100 werden auf null geändert. Mit anderen Worten: Alles, was teilweise transparent ist, wird vollständig transparent.
+description: Stellt einen Alpha Floor-Effekt dar. Alpha-Opazitätswerte unter 100 werden auf null geändert. Mit anderen Worten Alles, was teilweise transparent ist, wird vollständig transparent.
 type: docs
 weight: 2960
 url: /de/aspose.slides.effects/ialphafloor/

@@ -1,7 +1,7 @@
 ---
 title: ReturnToParent
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Obtient ou définit le comportement de navigation dans le diaporama. Lisible/écrivable Boolean. Valeur par défaut : false
+description: Obtient ou définit le comportement de navigation dans le diaporama. Lisible/écrivable Boolean. Valeur par défaut  false
 type: docs
 weight: 30
 url: /fr/aspose.slides/izoomobject/returntoparent/

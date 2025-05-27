@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Slides для .NET API Справочник
-description: Получает или задает тип слайд-шоу. Представлен следующими предками SlideShowType: BrowsedAtKioskaspose.slides/browsedatkiosk, PresentedBySpeakeraspose.slides/presentedbyspeaker и BrowsedByIndividualaspose.slides/browsedbyindividual
+description: Получает или задает тип слайд-шоу. Представлен следующими предками SlideShowType BrowsedAtKioskaspose.slides/browsedatkiosk, PresentedBySpeakeraspose.slides/presentedbyspeaker и BrowsedByIndividualaspose.slides/browsedbyindividual
 type: docs
 weight: 70
 url: /ru/aspose.slides/slideshowsettings/slideshowtype/

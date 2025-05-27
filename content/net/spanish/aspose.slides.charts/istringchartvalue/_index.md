@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa un valor de cadena que se puede almacenar en un documento de presentación pptx de dos maneras: 1 en una celda/celdas de una hoja de cálculo relacionada con el gráfico; 2 como un valor literal.
+description: Representa un valor de cadena que se puede almacenar en un documento de presentación pptx de dos maneras 1 en una celda/celdas de una hoja de cálculo relacionada con el gráfico; 2 como un valor literal.
 type: docs
 weight: 2140
 url: /es/aspose.slides.charts/istringchartvalue/

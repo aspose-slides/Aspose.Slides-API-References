@@ -1,7 +1,7 @@
 ---
 title: Igual
 second_title: Referencia de API de Aspose.Slides para .NET
-description: type: docs
+description: type docs
 weight: 50
 url: /es/aspose.slides/shapebevel/equals/
 ---

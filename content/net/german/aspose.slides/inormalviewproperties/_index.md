@@ -1,7 +1,7 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Eigenschaften der Normalansicht dar. Die Normalansicht besteht aus drei Inhaltsbereichen: der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich.
+description: Stellt die Eigenschaften der Normalansicht dar. Die Normalansicht besteht aus drei Inhaltsbereichen der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich.
 type: docs
 weight: 6270
 url: /de/aspose.slides/inormalviewproperties/

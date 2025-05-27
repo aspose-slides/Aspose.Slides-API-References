@@ -1,7 +1,7 @@
 ---
 title: IMathNaryOperator
 second_title: Aspose.Slides für .NET API Referenz
-description: Spezifiziert ein N-ären mathematischen Objekt wie Summation und Integral. Es besteht aus einem Operator, einer Basis oder Operand und optionalen oberen und unteren Grenzen. Beispiele für N-äre Operatoren sind: Summation, Vereinigung, Schnittmenge, Integral
+description: Spezifiziert ein N-ären mathematischen Objekt wie Summation und Integral. Es besteht aus einem Operator, einer Basis oder Operand und optionalen oberen und unteren Grenzen. Beispiele für N-äre Operatoren sind Summation, Vereinigung, Schnittmenge, Integral
 type: docs
 weight: 8110
 url: /de/aspose.slides.mathtext/imathnaryoperator/

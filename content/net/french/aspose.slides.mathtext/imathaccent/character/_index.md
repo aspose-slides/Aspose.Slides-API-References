@@ -1,7 +1,7 @@
 ---
 title: Caractère
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Caractère d'accent La valeur doit être comprise entre U0300U036F ou U20D0U20EF Valeur par défaut : Accent circonflexe combinant U0302
+description: Caractère d'accent La valeur doit être comprise entre U0300U036F ou U20D0U20EF Valeur par défaut  Accent circonflexe combinant U0302
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathaccent/character/

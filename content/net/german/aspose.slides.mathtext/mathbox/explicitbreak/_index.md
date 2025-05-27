@@ -1,7 +1,7 @@
 ---
 title: ExplicitBreak
 second_title: Aspose.Slides für .NET API Referenz
-description: Der explizite Umbruch gibt an, ob es einen Zeilenumbruch zu Beginn des Box-Objekts gibt, sodass die Zeile am Anfang des Box-Objekts umbricht. Gibt die Nummer des Operators in der vorherigen Zeile des mathematischen Textes an, die als Ausrichtungspunkt für die aktuelle Zeile des mathematischen Textes verwendet werden soll. Mögliche Werte: 1..255. Standard: 0 kein expliziter Umbruch
+description: Der explizite Umbruch gibt an, ob es einen Zeilenumbruch zu Beginn des Box-Objekts gibt, sodass die Zeile am Anfang des Box-Objekts umbricht. Gibt die Nummer des Operators in der vorherigen Zeile des mathematischen Textes an, die als Ausrichtungspunkt für die aktuelle Zeile des mathematischen Textes verwendet werden soll. Mögliche Werte 1..255. Standard 0 kein expliziter Umbruch
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/mathbox/explicitbreak/

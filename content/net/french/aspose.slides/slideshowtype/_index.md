@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Référence API Aspose.Slides pour .NET
-description: Paramètres de diaporama de base. Les ancêtres représentent les types de diaporama : PresentedBySpeaker../presentedbyspeaker Présenté par un intervenant plein écran BrowsedByIndividual../browsedbyindividual Consulté par un individu fenêtre BrowsedAtKiosk../browsedatkiosk Consulté dans un kiosque plein écran
+description: Paramètres de diaporama de base. Les ancêtres représentent les types de diaporama  PresentedBySpeaker../presentedbyspeaker Présenté par un intervenant plein écran BrowsedByIndividual../browsedbyindividual Consulté par un individu fenêtre BrowsedAtKiosk../browsedatkiosk Consulté dans un kiosque plein écran
 type: docs
 weight: 10180
 url: /fr/aspose.slides/slideshowtype/

@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Position du caractère de groupement. Par défaut : Bas
+description: Position du caractère de groupement. Par défaut  Bas
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/mathgroupingcharacter/position/

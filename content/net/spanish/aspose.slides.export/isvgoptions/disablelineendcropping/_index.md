@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: SVG 1.1 carece de la capacidad de definir márgenes para los marcadores. El motor de escritura SVG de Aspose.Slides tiene una solución para ese problema: recorta el final de la línea con una flecha, por lo que la línea no se superpone a los marcadores. Esta opción desactiva tal comportamiento. Lectura/escritura Booleana.
+description: SVG 1.1 carece de la capacidad de definir márgenes para los marcadores. El motor de escritura SVG de Aspose.Slides tiene una solución para ese problema recorta el final de la línea con una flecha, por lo que la línea no se superpone a los marcadores. Esta opción desactiva tal comportamiento. Lectura/escritura Booleana.
 type: docs
 weight: 60
 url: /es/aspose.slides.export/isvgoptions/disablelineendcropping/

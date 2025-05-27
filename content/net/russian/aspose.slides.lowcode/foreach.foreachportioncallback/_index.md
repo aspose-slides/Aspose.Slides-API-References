@@ -1,7 +1,7 @@
 ---
 title: ForEach.ForEachPortionCallback
 second_title: Aspose.Sildes для .NET API Справочник
-description: type: docs
+description: type docs
 weight: 7700
 url: /ru/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---

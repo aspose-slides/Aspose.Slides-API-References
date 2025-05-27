@@ -1,7 +1,7 @@
 ---
 title: GetOrCreateDataPointByIdx
 second_title: Aspose.Sildes pour la référence API .NET
-description: Si la collection contient déjà un point de données avec l'index *index*, alors retourne ce point de données. Si la collection ne contient pas de point de données avec l'index *index*==N lorsque le nombre de points de données dans cette collection est inférieur ou égal à N, alors ajoute les points de données manquants et retourne le dernier qui a l'index demandé. Par exemple, les index de la collection sont {0, 1, 2}, et l'index demandé est 5. Ensuite, la méthode ajoute les points de données manquants : {0, 1, 2, 3, 4, 5}. Et retourne le point de données avec l'index 5.
+description: Si la collection contient déjà un point de données avec l'index *index*, alors retourne ce point de données. Si la collection ne contient pas de point de données avec l'index *index*==N lorsque le nombre de points de données dans cette collection est inférieur ou égal à N, alors ajoute les points de données manquants et retourne le dernier qui a l'index demandé. Par exemple, les index de la collection sont {0, 1, 2}, et l'index demandé est 5. Ensuite, la méthode ajoute les points de données manquants  {0, 1, 2, 3, 4, 5}. Et retourne le point de données avec l'index 5.
 type: docs
 weight: 300
 url: /fr/aspose.slides.charts/chartdatapointcollection/getorcreatedatapointbyidx/

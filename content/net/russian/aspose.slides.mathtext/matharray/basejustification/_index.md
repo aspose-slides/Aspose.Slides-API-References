@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Slides для .NET API Reference
-description: Указывает выравнивание массива относительно окружающего текста. Текст за пределами массива может быть выровнен по нижней, верхней части или центру объекта массива. Значение по умолчанию: Center
+description: Указывает выравнивание массива относительно окружающего текста. Текст за пределами массива может быть выровнен по нижней, верхней части или центру объекта массива. Значение по умолчанию Center
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/matharray/basejustification/

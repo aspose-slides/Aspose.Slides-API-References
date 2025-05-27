@@ -1,7 +1,7 @@
 ---
 title: Posición
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Posición de la línea de barra. Predeterminado: Superior
+description: Posición de la línea de barra. Predeterminado Superior
 type: docs
 weight: 30
 url: /es/aspose.slides.mathtext/mathbar/position/

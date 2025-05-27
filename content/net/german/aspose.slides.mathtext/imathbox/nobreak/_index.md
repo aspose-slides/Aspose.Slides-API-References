@@ -1,7 +1,7 @@
 ---
 title: NoBreak
 second_title: Aspose.Slides für .NET API Referenz
-description: Kein Umbruch. Diese Eigenschaft gibt die unbrechbare Eigenschaft des Objektfelds an. Wenn wahr, können innerhalb des Felds keine Zeilenumbrüche erfolgen. Dies kann wichtig für Operator-Emulatoren sein, die aus mehr als einem binären Operator bestehen. Wenn dieses Element nicht angegeben ist, können Umbrüche im Feld auftreten. Standard: wahr
+description: Kein Umbruch. Diese Eigenschaft gibt die unbrechbare Eigenschaft des Objektfelds an. Wenn wahr, können innerhalb des Felds keine Zeilenumbrüche erfolgen. Dies kann wichtig für Operator-Emulatoren sein, die aus mehr als einem binären Operator bestehen. Wenn dieses Element nicht angegeben ist, können Umbrüche im Feld auftreten. Standard wahr
 type: docs
 weight: 60
 url: /de/aspose.slides.mathtext/imathbox/nobreak/

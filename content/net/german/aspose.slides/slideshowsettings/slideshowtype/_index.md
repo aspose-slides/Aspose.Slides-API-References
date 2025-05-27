@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den Typ der Diashow ab oder legt ihn fest. Dargestellt durch die folgenden SlideShowType aspose.slides/slideshowsettings/slideshowtype Vorfahren: BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker und BrowsedByIndividual aspose.slides/browsedbyindividual
+description: Ruft den Typ der Diashow ab oder legt ihn fest. Dargestellt durch die folgenden SlideShowType aspose.slides/slideshowsettings/slideshowtype Vorfahren BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker und BrowsedByIndividual aspose.slides/browsedbyindividual
 type: docs
 weight: 70
 url: /de/aspose.slides/slideshowsettings/slideshowtype/

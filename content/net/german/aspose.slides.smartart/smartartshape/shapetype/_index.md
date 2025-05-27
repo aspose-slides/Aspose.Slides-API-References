@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den geometriemäßigen Voreinstellungstyp zurück oder setzt ihn. Hinweis: Bei Änderungen des Wertes werden alle Anpassungswerte auf ihre Standardwerte zurückgesetzt. Lesen/Schreiben von ShapeTypeaspose.slides/shapetype.
+description: Gibt den geometriemäßigen Voreinstellungstyp zurück oder setzt ihn. Hinweis Bei Änderungen des Wertes werden alle Anpassungswerte auf ihre Standardwerte zurückgesetzt. Lesen/Schreiben von ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 10
 url: /de/aspose.slides.smartart/smartartshape/shapetype/

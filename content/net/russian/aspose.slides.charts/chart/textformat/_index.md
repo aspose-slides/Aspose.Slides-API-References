@@ -1,7 +1,7 @@
 ---
 title: TextFormat
 second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает формат текста на графиках. Свойство не применяется для следующих типов: Treemap, Sunburst, Waterfall, Histogram, Funnel, BoxAndWhisker. Только для чтения IChartTextFormataspose.slides/icharttextformat.
+description: Возвращает формат текста на графиках. Свойство не применяется для следующих типов Treemap, Sunburst, Waterfall, Histogram, Funnel, BoxAndWhisker. Только для чтения IChartTextFormataspose.slides/icharttextformat.
 type: docs
 weight: 210
 url: /ru/aspose.slides.charts/chart/textformat/

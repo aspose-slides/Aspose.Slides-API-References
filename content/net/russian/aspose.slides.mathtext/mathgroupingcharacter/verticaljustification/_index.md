@@ -1,7 +1,7 @@
 ---
 title: VerticalJustification
 second_title: Aspose.Sildes для справки по API .NET
-description: Вертикальное выравнивание группы символов. Указывает выравнивание объекта относительно базовой линии. Например, когда группа символов находится над объектом, VerticalJustification, равный Top, обозначает, что верхняя часть объекта совпадает с базовой линией; когда VerticalJustification установлен на Bottom, нижняя часть объекта находится на базовой линии. Значение по умолчанию: Bottom для Position=Top и Top для Position=Bottom.
+description: Вертикальное выравнивание группы символов. Указывает выравнивание объекта относительно базовой линии. Например, когда группа символов находится над объектом, VerticalJustification, равный Top, обозначает, что верхняя часть объекта совпадает с базовой линией; когда VerticalJustification установлен на Bottom, нижняя часть объекта находится на базовой линии. Значение по умолчанию Bottom для Position=Top и Top для Position=Bottom.
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/

@@ -1,7 +1,7 @@
 ---
 title: WrapText
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Vrai si le texte est enveloppé aux marges des TextFrames. Le changement de cette propriété peut produire une certaine influence uniquement pour ces parties de graphique : DataLabel et DataLabelFormat plein support dans PowerPoint 2007/2013. Lire/écrire NullableBoolaspose.slides/../aspose.slides/nullablebool.
+description: Vrai si le texte est enveloppé aux marges des TextFrames. Le changement de cette propriété peut produire une certaine influence uniquement pour ces parties de graphique  DataLabel et DataLabelFormat plein support dans PowerPoint 2007/2013. Lire/écrire NullableBoolaspose.slides/../aspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /fr/aspose.slides.charts/icharttextblockformat/wraptext/

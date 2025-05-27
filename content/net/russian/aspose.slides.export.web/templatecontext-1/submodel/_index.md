@@ -1,7 +1,7 @@
 ---
 title: SubModel
 second_title: Aspose.Sildes для .NET API Reference
-description: type: docs
+description: type docs
 weight: 50
 url: /ru/aspose.slides.export.web/templatecontext-1/submodel/
 ---

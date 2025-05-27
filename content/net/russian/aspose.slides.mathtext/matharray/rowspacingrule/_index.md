@@ -1,7 +1,7 @@
 ---
 title: RowSpacingRule
 second_title: Aspose.Slides для .NET API Справочник
-description: Тип вертикального расстояния между элементами массива По умолчанию: SingleLineGap
+description: Тип вертикального расстояния между элементами массива По умолчанию SingleLineGap
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/matharray/rowspacingrule/

@@ -1,7 +1,7 @@
 ---
 title: BeginningCharacter
 second_title: Aspose.Slides für .NET API Referenz
-description: Der Delimiter Beginning Character gibt das Anfangs- oder öffnende Delimiter-Zeichen an. Mathematische Delimiter sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert ist: ''.
+description: Der Delimiter Beginning Character gibt das Anfangs- oder öffnende Delimiter-Zeichen an. Mathematische Delimiter sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert ist ''.
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/mathdelimiter/beginningcharacter/

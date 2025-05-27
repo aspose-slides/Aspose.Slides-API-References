@@ -1,7 +1,7 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
 second_title: Aspose.Slides für .NET API Referenz
-description: type: docs
+description: type docs
 weight: 7680
 url: /de/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---

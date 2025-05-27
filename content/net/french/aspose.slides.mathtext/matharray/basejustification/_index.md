@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Slides pour .NET Référence API
-description: Spécifie l'alignement du tableau par rapport au texte environnant. Le texte en dehors du tableau peut être aligné avec le bas, le haut ou le centre d'un objet tableau. Valeur par défaut : Centre
+description: Spécifie l'alignement du tableau par rapport au texte environnant. Le texte en dehors du tableau peut être aligné avec le bas, le haut ou le centre d'un objet tableau. Valeur par défaut  Centre
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/matharray/basejustification/

@@ -1,7 +1,7 @@
 ---
 title: DateTime11
 second_title: Aspose.Slides для справки по API .NET
-description: Текущая дата и время в одиннадцатом предопределённом формате hh:mm:ss для английского языка. Поле только для чтения FieldType aspose.slides/fieldtype.
+description: Текущая дата и время в одиннадцатом предопределённом формате hhmmss для английского языка. Поле только для чтения FieldType aspose.slides/fieldtype.
 type: docs
 weight: 50
 url: /ru/aspose.slides/fieldtype/datetime11/

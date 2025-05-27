@@ -1,7 +1,7 @@
 ---
 title: MinColumnWidth
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Largeur minimale de colonne en twips 1/20 d'un point L'espacement des colonnes, également appelé "écart de colonne" ou "largeur d'écart", est ajouté à la MinColumnWidth pour déterminer la distance totale de l'espacement des colonnes de la matrice distance entre les mêmes bords de différentes colonnes. Par défaut : 0.
+description: Largeur minimale de colonne en twips 1/20 d'un point L'espacement des colonnes, également appelé "écart de colonne" ou "largeur d'écart", est ajouté à la MinColumnWidth pour déterminer la distance totale de l'espacement des colonnes de la matrice distance entre les mêmes bords de différentes colonnes. Par défaut  0.
 type: docs
 weight: 80
 url: /fr/aspose.slides.mathtext/mathmatrix/mincolumnwidth/

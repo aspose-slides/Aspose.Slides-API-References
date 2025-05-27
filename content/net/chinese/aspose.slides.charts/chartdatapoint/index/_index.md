@@ -1,7 +1,7 @@
 ---
 title: 索引
 second_title: Aspose.Slides for .NET API 参考
-description: type: docs
+description: type docs
 weight: 110
 url: /zh/aspose.slides.charts/chartdatapoint/index/
 ---

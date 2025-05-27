@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает true, если chartType является одним из подпараметров Pie. Набор подпараметров соответствует соответствующему набору в PowerPoint см. диалоговое окно "Изменить тип диаграммы" в PowerPoint: BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
+description: Возвращает true, если chartType является одним из подпараметров Pie. Набор подпараметров соответствует соответствующему набору в PowerPoint см. диалоговое окно "Изменить тип диаграммы" в PowerPoint BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypepie/

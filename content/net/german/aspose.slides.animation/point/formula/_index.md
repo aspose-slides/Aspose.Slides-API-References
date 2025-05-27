@@ -1,7 +1,7 @@
 ---
 title: Formel
 second_title: Aspose.Slides für .NET API Referenz
-description: Formeln innerhalb von Werten, von, zu, durch Attribute können aus diesen bestehen: Standardarithmetikoperatoren - / mod Konstanten pi e Bedingte Operatoren abs min max if Vergleichsoperatoren gt Trigonometrische Operatoren sin cos tan asin acos atan natürliche Logarithmus ln Eigenschaftenverweise vom Host unterstützte Eigenschaften z.B. ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Lese-/Schreib-String.
+description: Formeln innerhalb von Werten, von, zu, durch Attribute können aus diesen bestehen Standardarithmetikoperatoren - / mod Konstanten pi e Bedingte Operatoren abs min max if Vergleichsoperatoren gt Trigonometrische Operatoren sin cos tan asin acos atan natürliche Logarithmus ln Eigenschaftenverweise vom Host unterstützte Eigenschaften z.B. ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Lese-/Schreib-String.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/point/formula/

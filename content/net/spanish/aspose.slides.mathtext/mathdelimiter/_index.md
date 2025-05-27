@@ -1,7 +1,7 @@
 ---
 title: MathDelimiter
 second_title: Aspose.Slides para .NET Referencia de API
-description: Especifica el objeto delimitador que consiste en caracteres de apertura y cierre, como paréntesis, llaves, corchetes y barras verticales, y uno o más elementos matemáticos dentro, separados por un carácter especificado. Ejemplos: 2 2x7C2
+description: Especifica el objeto delimitador que consiste en caracteres de apertura y cierre, como paréntesis, llaves, corchetes y barras verticales, y uno o más elementos matemáticos dentro, separados por un carácter especificado. Ejemplos 2 2x7C2
 type: docs
 weight: 8390
 url: /es/aspose.slides.mathtext/mathdelimiter/

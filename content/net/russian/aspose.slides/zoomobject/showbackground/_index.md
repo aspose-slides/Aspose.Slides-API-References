@@ -1,7 +1,7 @@
 ---
 title: ShowBackground
 second_title: Aspose.Slides для .NET API Reference
-description: Получает или задает значение, указывающее, будет ли Зум использовать фон целевого слайда. Читаемое/Записываемое логическое значение. Значение по умолчанию: true
+description: Получает или задает значение, указывающее, будет ли Зум использовать фон целевого слайда. Читаемое/Записываемое логическое значение. Значение по умолчанию true
 type: docs
 weight: 30
 url: /ru/aspose.slides/zoomobject/showbackground/

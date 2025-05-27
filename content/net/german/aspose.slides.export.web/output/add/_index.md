@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen
 second_title: Aspose.Slides für .NET API Referenz
-description: type: docs
+description: type docs
 weight: 10
 url: /de/aspose.slides.export.web/output/add/
 ---

@@ -1,7 +1,7 @@
 ---
 title: RowGap
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: La valeur de l'espacement vertical entre les lignes d'une matrice. Si la RowGapRule est définie sur 3 "Exactement", alors l'unité est interprétée comme des twips 1/20ème d'un point. Si la RowGapRule est définie sur 4 "Multiple", alors l'unité est interprétée comme des demi-lignes. Par défaut : 0
+description: La valeur de l'espacement vertical entre les lignes d'une matrice. Si la RowGapRule est définie sur 3 "Exactement", alors l'unité est interprétée comme des twips 1/20ème d'un point. Si la RowGapRule est définie sur 4 "Multiple", alors l'unité est interprétée comme des demi-lignes. Par défaut  0
 type: docs
 weight: 100
 url: /fr/aspose.slides.mathtext/mathmatrix/rowgap/

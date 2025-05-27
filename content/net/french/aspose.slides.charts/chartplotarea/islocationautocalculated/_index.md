@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Référence API Aspose.Slides pour .NET
-description: Définit comment l'emplacement doit être calculé : vrai – calculé automatiquement ; défini par les propriétés X, Y, Largeur, Hauteur. Booléen en lecture seule.
+description: Définit comment l'emplacement doit être calculé  vrai – calculé automatiquement ; défini par les propriétés X, Y, Largeur, Hauteur. Booléen en lecture seule.
 type: docs
 weight: 90
 url: /fr/aspose.slides.charts/chartplotarea/islocationautocalculated/

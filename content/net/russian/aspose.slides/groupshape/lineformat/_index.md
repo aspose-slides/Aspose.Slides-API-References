@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает объект LineFormat, который содержит свойства форматирования линии для фигуры. Примечание: Возвращает null для объектов GroupShape, так как они не имеют свойств линии. Только для чтения ILineFormataspose.slides/ilineformat.
+description: Возвращает объект LineFormat, который содержит свойства форматирования линии для фигуры. Примечание Возвращает null для объектов GroupShape, так как они не имеют свойств линии. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides/groupshape/lineformat/

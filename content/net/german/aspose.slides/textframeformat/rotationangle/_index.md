@@ -1,7 +1,7 @@
 ---
 title: RotationAngle
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die benutzerdefinierte Drehung an, die auf den Text innerhalb des Begrenzungsrahmens angewendet wird. Wenn sie nicht angegeben ist, wird die Drehung der begleitenden Form verwendet. Wenn sie angegeben ist, wird sie unabhängig von der Form angewendet. Das bedeutet, dass die Form eine Drehung haben kann, zusätzlich zu der Anwendung einer Drehung auf den Text selbst. Der resultierende Wert der visuellen Textdrehung wird aus dieser Eigenschaft und dem vordefinierten vertikalen Typ in der Eigenschaft TextVerticalType zusammengefasst. Lese-/Schreibzugriff: Single.
+description: Gibt die benutzerdefinierte Drehung an, die auf den Text innerhalb des Begrenzungsrahmens angewendet wird. Wenn sie nicht angegeben ist, wird die Drehung der begleitenden Form verwendet. Wenn sie angegeben ist, wird sie unabhängig von der Form angewendet. Das bedeutet, dass die Form eine Drehung haben kann, zusätzlich zu der Anwendung einer Drehung auf den Text selbst. Der resultierende Wert der visuellen Textdrehung wird aus dieser Eigenschaft und dem vordefinierten vertikalen Typ in der Eigenschaft TextVerticalType zusammengefasst. Lese-/Schreibzugriff Single.
 type: docs
 weight: 120
 url: /de/aspose.slides/textframeformat/rotationangle/

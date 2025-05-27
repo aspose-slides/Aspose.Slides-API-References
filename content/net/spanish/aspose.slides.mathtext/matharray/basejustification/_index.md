@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Especifica la alineación de la matriz en relación con el texto circundante. El texto fuera de la matriz puede alinearse con la parte inferior, superior o centro de un objeto de matriz. Valor predeterminado: Centro
+description: Especifica la alineación de la matriz en relación con el texto circundante. El texto fuera de la matriz puede alinearse con la parte inferior, superior o centro de un objeto de matriz. Valor predeterminado Centro
 type: docs
 weight: 30
 url: /es/aspose.slides.mathtext/matharray/basejustification/

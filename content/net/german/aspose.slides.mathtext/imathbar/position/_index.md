@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Slides für .NET API Referenz
-description: Position der Linien des Balkens. Standard: Oben
+description: Position der Linien des Balkens. Standard Oben
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathbar/position/

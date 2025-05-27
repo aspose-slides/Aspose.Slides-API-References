@@ -1,7 +1,7 @@
 ---
 title: CharacteredeDébut
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Le caractère de début de délimiteur spécifie le caractère délimiteur de début ou d'ouverture. Les délimiteurs mathématiques sont des caractères d'encadrement tels que des parenthèses, des crochets et des accolades. Par défaut : ''.
+description: Le caractère de début de délimiteur spécifie le caractère délimiteur de début ou d'ouverture. Les délimiteurs mathématiques sont des caractères d'encadrement tels que des parenthèses, des crochets et des accolades. Par défaut  ''.
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathdelimiter/beginningcharacter/

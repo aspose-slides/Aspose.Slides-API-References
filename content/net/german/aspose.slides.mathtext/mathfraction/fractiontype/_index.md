@@ -1,7 +1,7 @@
 ---
 title: FractionType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bruchtyp Standard: Bar
+description: Bruchtyp Standard Bar
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/mathfraction/fractiontype/

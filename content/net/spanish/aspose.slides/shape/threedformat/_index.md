@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el objeto ThreeDFormat que contiene propiedades de efecto 3d para una forma. Nota: puede devolver null para ciertos tipos de formas que no tienen propiedades 3d. Solo lectura IThreeDFormataspose.slides/ithreedformat.
+description: Devuelve el objeto ThreeDFormat que contiene propiedades de efecto 3d para una forma. Nota puede devolver null para ciertos tipos de formas que no tienen propiedades 3d. Solo lectura IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 270
 url: /es/aspose.slides/shape/threedformat/

@@ -1,7 +1,7 @@
 ---
 title: 处理重复空格
 second_title: Aspose.Slides for .NET API 参考
-description: type: docs
+description: type docs
 weight: 50
 url: /zh/aspose.slides.export/markdownsaveoptions/handlerepeatedspaces/
 ---

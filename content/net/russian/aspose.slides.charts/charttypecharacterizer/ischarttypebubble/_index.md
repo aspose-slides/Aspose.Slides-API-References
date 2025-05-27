@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает true, если chartType является одним из подтипов Bubble. Набор подтипов соответствует соответствующему набору в PowerPoint, см. диалоговое окно "Изменить тип диаграммы" в PowerPoint: Bubble, BubbleWith3D.
+description: Возвращает true, если chartType является одним из подтипов Bubble. Набор подтипов соответствует соответствующему набору в PowerPoint, см. диалоговое окно "Изменить тип диаграммы" в PowerPoint Bubble, BubbleWith3D.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

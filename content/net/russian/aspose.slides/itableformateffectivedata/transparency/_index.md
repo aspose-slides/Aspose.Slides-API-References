@@ -1,7 +1,7 @@
 ---
 title: Прозрачность
 second_title: Справочная информация по Aspose.Slides для .NET
-description: Получает прозрачность заливочного цвета. Чтение: Single.
+description: Получает прозрачность заливочного цвета. Чтение Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides/itableformateffectivedata/transparency/

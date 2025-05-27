@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Référence API Aspose.Slides pour .NET
-description: Représente une valeur de chaîne ou de double qui peut être stockée dans un document de présentation pptx de deux manières : 1 dans une cellule / cellules du classeur liées au graphique ; 2 en tant que valeur littérale.
+description: Représente une valeur de chaîne ou de double qui peut être stockée dans un document de présentation pptx de deux manières  1 dans une cellule / cellules du classeur liées au graphique ; 2 en tant que valeur littérale.
 type: docs
 weight: 2150
 url: /fr/aspose.slides.charts/istringordoublechartvalue/

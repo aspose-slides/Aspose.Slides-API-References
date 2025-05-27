@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Eigenschaften der Normalansicht dar. Die Normalansicht besteht aus drei Inhaltsbereichen: der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich.
+description: Stellt die Eigenschaften der Normalansicht dar. Die Normalansicht besteht aus drei Inhaltsbereichen der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich.
 type: docs
 weight: 8840
 url: /de/aspose.slides/normalviewproperties/

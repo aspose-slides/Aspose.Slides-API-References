@@ -1,7 +1,7 @@
 ---
 title: TextFormat
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el formato de texto del gráfico. La propiedad no es aplicable para los siguientes tipos: Treemap, Sunburst, Waterfall, Histogram, Funnel, BoxAndWhisker. Solo lectura IChartTextFormataspose.slides.charts/icharttextformat.
+description: Devuelve el formato de texto del gráfico. La propiedad no es aplicable para los siguientes tipos Treemap, Sunburst, Waterfall, Histogram, Funnel, BoxAndWhisker. Solo lectura IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 210
 url: /es/aspose.slides.charts/chart/textformat/

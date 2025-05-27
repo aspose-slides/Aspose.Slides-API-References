@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die unteren Randpunkte in einem TextFrame zurück oder setzt sie. Eine Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile ausüben: DataLabel und DataLabelFormat volle Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat dies keinen Einfluss auf das Rendering. Lese-/Schreibzugriff Double.
+description: Gibt die unteren Randpunkte in einem TextFrame zurück oder setzt sie. Eine Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile ausüben DataLabel und DataLabelFormat volle Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat dies keinen Einfluss auf das Rendering. Lese-/Schreibzugriff Double.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/icharttextblockformat/marginbottom/

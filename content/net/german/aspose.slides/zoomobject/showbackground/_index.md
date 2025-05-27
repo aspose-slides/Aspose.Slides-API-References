@@ -1,7 +1,7 @@
 ---
 title: ShowBackground
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält oder setzt den Wert, der angibt, ob der Zoom den Hintergrund der Zielfolie verwenden soll. Lese-/schreibbare Boolesche Werte. Standardwert: true
+description: Erhält oder setzt den Wert, der angibt, ob der Zoom den Hintergrund der Zielfolie verwenden soll. Lese-/schreibbare Boolesche Werte. Standardwert true
 type: docs
 weight: 30
 url: /de/aspose.slides/zoomobject/showbackground/

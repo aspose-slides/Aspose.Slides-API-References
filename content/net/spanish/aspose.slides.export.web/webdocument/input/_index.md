@@ -1,7 +1,7 @@
 ---
 title: Entrada
 second_title: Referencia de API de Aspose.Slides para .NET
-description: type: docs
+description: type docs
 weight: 30
 url: /es/aspose.slides.export.web/webdocument/input/
 ---

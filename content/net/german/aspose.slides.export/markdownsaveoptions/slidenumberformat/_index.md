@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Aspose.Slide für .NET API Referenz
-description: Erhält oder setzt den Formatstring, der für die Foliennummernüberschriften im Markdown-Ausgabeformat verwendet wird. Das Format muss den Platzhalter 0 enthalten, der während des Exports durch den Folienindex ersetzt wird. Beispiel: Folie 0 erzeugt Folie 1, Folie 2 usw.
+description: Erhält oder setzt den Formatstring, der für die Foliennummernüberschriften im Markdown-Ausgabeformat verwendet wird. Das Format muss den Platzhalter 0 enthalten, der während des Exports durch den Folienindex ersetzt wird. Beispiel Folie 0 erzeugt Folie 1, Folie 2 usw.
 type: docs
 weight: 120
 url: /de/aspose.slides.export/markdownsaveoptions/slidenumberformat/

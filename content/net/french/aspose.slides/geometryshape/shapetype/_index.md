@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le type de préréglage de géométrie. Remarque : lors du changement de valeur, tous les paramètres d'ajustement seront réinitialisés à leurs valeurs par défaut. Lecture/écriture ShapeTypeaspose.slides/shapetype.
+description: Renvoie ou définit le type de préréglage de géométrie. Remarque  lors du changement de valeur, tous les paramètres d'ajustement seront réinitialisés à leurs valeurs par défaut. Lecture/écriture ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 30
 url: /fr/aspose.slides/geometryshape/shapetype/

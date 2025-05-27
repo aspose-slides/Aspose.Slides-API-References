@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBar
 second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает true, если chartType является одним из подтипов Bar. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно "Изменить тип диаграммы" в PowerPoint: ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
+description: Возвращает true, если chartType является одним из подтипов Bar. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно "Изменить тип диаграммы" в PowerPoint ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypebar/

@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
 second_title: Aspose.Sildes for .NET API Reference
-description: 矩阵行之间的垂直间距类型；垂直间距单位可以是行或点（以 twips 存储）。默认值: SingleSpacingGap 0
+description: 矩阵行之间的垂直间距类型；垂直间距单位可以是行或点（以 twips 存储）。默认值 SingleSpacingGap 0
 type: docs
 weight: 110
 url: /zh/aspose.slides.mathtext/imathmatrix/rowgaprule/

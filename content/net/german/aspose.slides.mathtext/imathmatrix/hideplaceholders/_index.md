@@ -1,7 +1,7 @@
 ---
 title: HidePlaceholders
 second_title: Aspose.Slides for .NET API Referenz
-description: Verstecken der Platzhalter für leere Matrixelemente Standard: false
+description: Verstecken der Platzhalter für leere Matrixelemente Standard false
 type: docs
 weight: 60
 url: /de/aspose.slides.mathtext/imathmatrix/hideplaceholders/

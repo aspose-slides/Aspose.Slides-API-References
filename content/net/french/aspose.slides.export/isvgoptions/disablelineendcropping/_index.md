@@ -1,7 +1,7 @@
 ---
 title: DésactiverLeRognageDesBoutsDeLigne
 second_title: Référence API Aspose.Slides pour .NET
-description: SVG 1.1 n'a pas la capacité de définir des marges pour les marqueurs. Le moteur d'écriture SVG d'Aspose.Slides a une solution de contournement pour ce problème : il rogne la fin de la ligne avec une flèche, de sorte que la ligne ne chevauche pas les marqueurs. Cette option désactive ce comportement. Lecture/écriture booléen.
+description: SVG 1.1 n'a pas la capacité de définir des marges pour les marqueurs. Le moteur d'écriture SVG d'Aspose.Slides a une solution de contournement pour ce problème  il rogne la fin de la ligne avec une flèche, de sorte que la ligne ne chevauche pas les marqueurs. Cette option désactive ce comportement. Lecture/écriture booléen.
 type: docs
 weight: 60
 url: /fr/aspose.slides.export/isvgoptions/disablelineendcropping/

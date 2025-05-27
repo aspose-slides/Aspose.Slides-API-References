@@ -1,7 +1,7 @@
 ---
 title: MathDelimiter
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie l'objet délimiteur composé de caractères d'ouverture et de fermeture tels que parenthèses, accolades, crochets et barres verticales, et un ou plusieurs éléments mathématiques à l'intérieur, séparés par un caractère spécifié. Exemples : 2 2x7C2
+description: Spécifie l'objet délimiteur composé de caractères d'ouverture et de fermeture tels que parenthèses, accolades, crochets et barres verticales, et un ou plusieurs éléments mathématiques à l'intérieur, séparés par un caractère spécifié. Exemples  2 2x7C2
 type: docs
 weight: 8390
 url: /fr/aspose.slides.mathtext/mathdelimiter/

@@ -1,7 +1,7 @@
 ---
 title: MinColumnWidth
 second_title: Aspose.Slides für .NET API-Referenz
-description: Minimale Spaltenbreite in Twips 1/20 eines Punktes. Der Abstand auch als "Column Gap" oder "Gap Width" bezeichnet wird zur MinColumnWidth hinzugefügt, um den gesamten Spaltenabstand der Matrix Abstand zwischen den gleichen Kanten verschiedener Spalten zu bestimmen. Standard: 0.
+description: Minimale Spaltenbreite in Twips 1/20 eines Punktes. Der Abstand auch als "Column Gap" oder "Gap Width" bezeichnet wird zur MinColumnWidth hinzugefügt, um den gesamten Spaltenabstand der Matrix Abstand zwischen den gleichen Kanten verschiedener Spalten zu bestimmen. Standard 0.
 type: docs
 weight: 80
 url: /de/aspose.slides.mathtext/mathmatrix/mincolumnwidth/

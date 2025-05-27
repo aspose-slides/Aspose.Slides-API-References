@@ -1,7 +1,7 @@
 ---
 title: Égal
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: type: docs
+description: type docs
 weight: 180
 url: /fr/aspose.slides/lineformat/equals/
 ---

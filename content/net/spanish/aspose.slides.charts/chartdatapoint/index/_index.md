@@ -1,7 +1,7 @@
 ---
 title: Índice
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: type: docs
+description: type docs
 weight: 110
 url: /es/aspose.slides.charts/chartdatapoint/index/
 ---

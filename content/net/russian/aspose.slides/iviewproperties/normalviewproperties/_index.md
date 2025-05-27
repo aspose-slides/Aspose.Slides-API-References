@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Slides для .NET API Справочник
-description: Представляет свойства нормального режима просмотра. Нормальный режим просмотра состоит из трех областей контента: сам слайд, боковая область контента и нижняя область контента. Доступ только для чтения INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: Представляет свойства нормального режима просмотра. Нормальный режим просмотра состоит из трех областей контента сам слайд, боковая область контента и нижняя область контента. Доступ только для чтения INormalViewPropertiesaspose.slides/inormalviewproperties.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iviewproperties/normalviewproperties/

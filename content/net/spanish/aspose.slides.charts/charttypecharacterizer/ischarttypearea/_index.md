@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve verdadero si chartType es uno de los subtipos de Área. El conjunto de subtipos corresponde al conjunto apropiado en PowerPoint ver el diálogo "Cambiar tipo de gráfico" en PowerPoint: Área, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+description: Devuelve verdadero si chartType es uno de los subtipos de Área. El conjunto de subtipos corresponde al conjunto apropiado en PowerPoint ver el diálogo "Cambiar tipo de gráfico" en PowerPoint Área, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

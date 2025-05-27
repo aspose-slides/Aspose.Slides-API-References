@@ -1,7 +1,7 @@
 ---
 title: WrapText
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Verdadero si el texto está ajustado a los márgenes de TextFrames. El cambio de esta propiedad puede tener cierta influencia solo en estas partes del gráfico: DataLabel y DataLabelFormat soporte completo en PowerPoint 2007/2013. Leer/escribir NullableBoolaspose.slides/../aspose.slides/nullablebool.
+description: Verdadero si el texto está ajustado a los márgenes de TextFrames. El cambio de esta propiedad puede tener cierta influencia solo en estas partes del gráfico DataLabel y DataLabelFormat soporte completo en PowerPoint 2007/2013. Leer/escribir NullableBoolaspose.slides/../aspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /es/aspose.slides.charts/icharttextblockformat/wraptext/

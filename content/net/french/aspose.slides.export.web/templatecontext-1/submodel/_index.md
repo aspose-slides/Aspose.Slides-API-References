@@ -1,7 +1,7 @@
 ---
 title: SubModel
 second_title: Référence API Aspose.Slides pour .NET
-description: type: docs
+description: type docs
 weight: 50
 url: /fr/aspose.slides.export.web/templatecontext-1/submodel/
 ---

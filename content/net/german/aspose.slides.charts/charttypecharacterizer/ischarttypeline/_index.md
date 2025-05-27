@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeLine
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt true zurück, wenn chartType einer der Linienuntertypen ist. Die Untertypensätze entsprechen dem entsprechenden Satz in PowerPoint siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint: Linie, LinieMitMarkierungen, ProzentsatzGestapeltenLinie, ProzentsatzGestapeltenLinieMitMarkierungen, GestapelteLinie, GestapelteLinieMitMarkierungen, Linie3D.
+description: Gibt true zurück, wenn chartType einer der Linienuntertypen ist. Die Untertypensätze entsprechen dem entsprechenden Satz in PowerPoint siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint Linie, LinieMitMarkierungen, ProzentsatzGestapeltenLinie, ProzentsatzGestapeltenLinieMitMarkierungen, GestapelteLinie, GestapelteLinieMitMarkierungen, Linie3D.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/charttypecharacterizer/ischarttypeline/

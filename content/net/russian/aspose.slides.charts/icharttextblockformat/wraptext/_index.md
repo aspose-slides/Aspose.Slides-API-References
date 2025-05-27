@@ -1,7 +1,7 @@
 ---
 title: WrapText
 second_title: Aspose.Slildes для .NET API Справка
-description: True, если текст обернут по краям TextFrames. Изменение этого свойства может оказать определенное влияние только на эти части графика: DataLabel и DataLabelFormat полная поддержка в PowerPoint 2007/2013. Чтение/запись NullableBoolaspose.slides/../aspose.slides/nullablebool.
+description: True, если текст обернут по краям TextFrames. Изменение этого свойства может оказать определенное влияние только на эти части графика DataLabel и DataLabelFormat полная поддержка в PowerPoint 2007/2013. Чтение/запись NullableBoolaspose.slides/../aspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/icharttextblockformat/wraptext/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve verdadero si chartType es uno de los subtipos de Dispersión. El conjunto de subtipos corresponde al conjunto apropiado en PowerPoint ver el diálogo "Cambiar tipo de gráfico" en PowerPoint: ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
+description: Devuelve verdadero si chartType es uno de los subtipos de Dispersión. El conjunto de subtipos corresponde al conjunto apropiado en PowerPoint ver el diálogo "Cambiar tipo de gráfico" en PowerPoint ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
 type: docs
 weight: 130
 url: /es/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

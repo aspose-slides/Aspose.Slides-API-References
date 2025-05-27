@@ -1,7 +1,7 @@
 ---
 title: Добавить
 second_title: Справочник API Aspose.Slides для .NET
-description: type: docs
+description: type docs
 weight: 10
 url: /ru/aspose.slides.export.web/output/add/
 ---

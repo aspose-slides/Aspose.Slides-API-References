@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
 second_title: Référence API Aspose.Sildes pour .NET
-description: Lorsqu'il est vrai, cet émulateur d'opérateur sert de point d'alignement, c'est-à-dire que les points d'alignement désignés dans d'autres équations peuvent être alignés avec lui. Par défaut : faux
+description: Lorsqu'il est vrai, cet émulateur d'opérateur sert de point d'alignement, c'est-à-dire que les points d'alignement désignés dans d'autres équations peuvent être alignés avec lui. Par défaut  faux
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/mathbox/alignmentpoint/

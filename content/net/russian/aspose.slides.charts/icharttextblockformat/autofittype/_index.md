@@ -1,7 +1,7 @@
 ---
 title: AutofitType
 second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает или устанавливает режим автоматической подгонки текста. Изменение этого свойства может оказать определенное влияние только на следующие элементы диаграммы: DataLabel и DataLabelFormat полная поддержка в PowerPoint 2013; в PowerPoint 2007 эффект рендеринга отсутствует. Чтение/запись TextAutofitTypeaspose.slides/../aspose.slides/textautofittype.
+description: Возвращает или устанавливает режим автоматической подгонки текста. Изменение этого свойства может оказать определенное влияние только на следующие элементы диаграммы DataLabel и DataLabelFormat полная поддержка в PowerPoint 2013; в PowerPoint 2007 эффект рендеринга отсутствует. Чтение/запись TextAutofitTypeaspose.slides/../aspose.slides/textautofittype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/icharttextblockformat/autofittype/

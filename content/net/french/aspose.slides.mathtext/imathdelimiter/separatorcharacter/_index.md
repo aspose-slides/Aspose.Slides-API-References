@@ -1,7 +1,7 @@
 ---
 title: SeparatorCharacter
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Le caractère de séparation du délimiteur spécifie le caractère qui sépare les arguments dans l'objet délimiteur. Par défaut : x7C.
+description: Le caractère de séparation du délimiteur spécifie le caractère qui sépare les arguments dans l'objet délimiteur. Par défaut  x7C.
 type: docs
 weight: 70
 url: /fr/aspose.slides.mathtext/imathdelimiter/separatorcharacter/

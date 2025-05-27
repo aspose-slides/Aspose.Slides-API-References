@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
 second_title: Справочник по API Aspose.Slides для .NET
-description: Тип горизонтального расстояния между столбцами матрицы. Единицы измерения горизонтального расстояния могут быть в em или поинтах, хранящихся как twips. По умолчанию: SingleSpacingGap 0
+description: Тип горизонтального расстояния между столбцами матрицы. Единицы измерения горизонтального расстояния могут быть в em или поинтах, хранящихся как twips. По умолчанию SingleSpacingGap 0
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/mathmatrix/columngaprule/

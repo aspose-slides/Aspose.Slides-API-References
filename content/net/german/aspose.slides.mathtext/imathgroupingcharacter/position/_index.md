@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Slides für .NET API Referenz
-description: Position des Gruppierungszeichens. Standard: Unten
+description: Position des Gruppierungszeichens. Standard Unten
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/imathgroupingcharacter/position/

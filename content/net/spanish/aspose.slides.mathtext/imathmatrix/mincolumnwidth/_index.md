@@ -1,7 +1,7 @@
 ---
 title: MinColumnWidth
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Ancho mínimo de columna en twips 1/20 de un punto. El espaciado entre columnas, también conocido como "Espacio entre Columnas" o "Ancho del Espacio", se suma al MinColumnWidth para determinar la distancia total de Espaciado de Columnas de la Matriz distancia entre los mismos bordes de diferentes columnas. Predeterminado: 0.
+description: Ancho mínimo de columna en twips 1/20 de un punto. El espaciado entre columnas, también conocido como "Espacio entre Columnas" o "Ancho del Espacio", se suma al MinColumnWidth para determinar la distancia total de Espaciado de Columnas de la Matriz distancia entre los mismos bordes de diferentes columnas. Predeterminado 0.
 type: docs
 weight: 80
 url: /es/aspose.slides.mathtext/imathmatrix/mincolumnwidth/

@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Slides для .NET API Референс
-description: Представляет строковое или двойное значение, которое может быть сохранено в документе pptx в двух формах: 1 в ячейке/ячейках рабочей книги, связанных с графиком; 2 как литерал.
+description: Представляет строковое или двойное значение, которое может быть сохранено в документе pptx в двух формах 1 в ячейке/ячейках рабочей книги, связанных с графиком; 2 как литерал.
 type: docs
 weight: 2150
 url: /ru/aspose.slides.charts/istringordoublechartvalue/

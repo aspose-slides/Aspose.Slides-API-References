@@ -1,7 +1,7 @@
 ---
 title: Элемент
 second_title: Ссылка на API Aspose.Slides для .NET
-description: Получает свойства записи легенды, соответствующей Chart.ChartData.Series0.DataPointsindex в случае типа графика из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующей Chart.ChartData.Seriesindex для других типов графиков.
+description: Получает свойства записи легенды, соответствующей Chart.ChartData.Series0.DataPointsindex в случае типа графика из этого списка ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующей Chart.ChartData.Seriesindex для других типов графиков.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/legendentrycollection/item/

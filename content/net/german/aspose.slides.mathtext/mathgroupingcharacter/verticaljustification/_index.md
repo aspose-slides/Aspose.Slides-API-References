@@ -1,7 +1,7 @@
 ---
 title: VertikaleBegründung
 second_title: Aspose.Slides für .NET API Referenz
-description: Vertikale Begründung des Gruppenzeichens. Gibt die Ausrichtung des Objekts im Hinblick auf die Grundlinie an. Wenn das Gruppenzeichen beispielsweise über dem Objekt liegt, bedeutet eine VertikaleBegründung von Oben, dass die Oberseite des Objekts auf der Grundlinie liegt; wenn die VertikaleBegründung auf Unten eingestellt ist, liegt die Unterseite des Objekts auf der Grundlinie. Standard: Unten für Position=Oben und Oben für Position=Unten
+description: Vertikale Begründung des Gruppenzeichens. Gibt die Ausrichtung des Objekts im Hinblick auf die Grundlinie an. Wenn das Gruppenzeichen beispielsweise über dem Objekt liegt, bedeutet eine VertikaleBegründung von Oben, dass die Oberseite des Objekts auf der Grundlinie liegt; wenn die VertikaleBegründung auf Unten eingestellt ist, liegt die Unterseite des Objekts auf der Grundlinie. Standard Unten für Position=Oben und Oben für Position=Unten
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/

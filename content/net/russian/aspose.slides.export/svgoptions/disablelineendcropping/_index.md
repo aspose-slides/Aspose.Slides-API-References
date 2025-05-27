@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Slides для .NET API Reference
-description: SVG 1.1 не имеет возможности определения отступов для маркеров. В движке записи SVG Aspose.Slides есть обход этого проблемы: он обрезает конец линии с стрелкой, чтобы линия не перекрывала маркеры. Эта опция отключает такое поведение. Чтение/запись Boolean.
+description: SVG 1.1 не имеет возможности определения отступов для маркеров. В движке записи SVG Aspose.Slides есть обход этого проблемы он обрезает конец линии с стрелкой, чтобы линия не перекрывала маркеры. Эта опция отключает такое поведение. Чтение/запись Boolean.
 type: docs
 weight: 90
 url: /ru/aspose.slides.export/svgoptions/disablelineendcropping/

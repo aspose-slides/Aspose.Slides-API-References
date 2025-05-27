@@ -1,7 +1,7 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une valeur de chaîne ou de double qui peut être stockée dans un document de présentation pptx de deux manières : 1 dans une ou plusieurs cellules du classeur liées au graphique ; 2 en tant que valeur littérale.
+description: Représente une valeur de chaîne ou de double qui peut être stockée dans un document de présentation pptx de deux manières  1 dans une ou plusieurs cellules du classeur liées au graphique ; 2 en tant que valeur littérale.
 type: docs
 weight: 2340
 url: /fr/aspose.slides.charts/stringordoublechartvalue/

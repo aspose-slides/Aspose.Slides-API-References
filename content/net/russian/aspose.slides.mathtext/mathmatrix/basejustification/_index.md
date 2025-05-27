@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Slides для .NET API Справочник
-description: Указывает вертикальное выравнивание относительно окружающего текста. Возможные значения: верх, низ и центр. По умолчанию: Центр
+description: Указывает вертикальное выравнивание относительно окружающего текста. Возможные значения верх, низ и центр. По умолчанию Центр
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathmatrix/basejustification/

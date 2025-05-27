@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Slides для .NET API Reference
-description: Основные настройки слайд-шоу. Предки представляют типы слайд-шоу: PresentedBySpeaker./presentedbyspeaker Представлено докладчиком на полный экран BrowsedByIndividual./browsedbyindividual Просмотрено индивидуально в окне BrowsedAtKiosk./browsedatkiosk Просмотрено на киоске на полный экран
+description: Основные настройки слайд-шоу. Предки представляют типы слайд-шоу PresentedBySpeaker./presentedbyspeaker Представлено докладчиком на полный экран BrowsedByIndividual./browsedbyindividual Просмотрено индивидуально в окне BrowsedAtKiosk./browsedatkiosk Просмотрено на киоске на полный экран
 type: docs
 weight: 10180
 url: /ru/aspose.slides/slideshowtype/

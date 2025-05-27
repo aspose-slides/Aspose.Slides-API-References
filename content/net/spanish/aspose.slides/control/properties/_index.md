@@ -1,7 +1,7 @@
 ---
 title: Propiedades
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve una colección de propiedades ActiveX. Nota: Aspose.Slides solo admite propiedades ActiveX basadas en XML. Si las propiedades se almacenan en formato binario, esta propiedad devolverá null. Solo lectura IControlPropertiesCollection aspose.slides/icontrolpropertiescollection.
+description: Devuelve una colección de propiedades ActiveX. Nota Aspose.Slides solo admite propiedades ActiveX basadas en XML. Si las propiedades se almacenan en formato binario, esta propiedad devolverá null. Solo lectura IControlPropertiesCollection aspose.slides/icontrolpropertiescollection.
 type: docs
 weight: 60
 url: /es/aspose.slides/control/properties/

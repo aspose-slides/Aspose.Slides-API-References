@@ -1,7 +1,7 @@
 ---
 title: DateTime10
 second_title: Aspose.Slides für .NET API-Referenz
-description: Aktuelles Datum und Uhrzeit in einem zehnten vordefinierten Format hh:mm für Englisch. Nur lesbarer FieldTypeaspose.slides/fieldtype.
+description: Aktuelles Datum und Uhrzeit in einem zehnten vordefinierten Format hhmm für Englisch. Nur lesbarer FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 40
 url: /de/aspose.slides/fieldtype/datetime10/

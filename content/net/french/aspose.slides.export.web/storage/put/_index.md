@@ -1,7 +1,7 @@
 ---
 title: Mettre
 second_title: Référence API Aspose.Slides pour .NET
-description: type: docs
+description: type docs
 weight: 40
 url: /fr/aspose.slides.export.web/storage/put/
 ---

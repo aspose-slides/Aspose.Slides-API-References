@@ -1,7 +1,7 @@
 ---
 title: ForEach.ForEachShapeCallback
 second_title: Aspose.Slides для .NET API Справочник
-description: type: docs
+description: type docs
 weight: 7710
 url: /ru/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---

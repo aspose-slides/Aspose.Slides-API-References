@@ -1,7 +1,7 @@
 ---
 title: ReturnToParent
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft das Navigationsverhalten in der Diashow ab oder legt es fest. Lese-/Schreib-Boolean. Standardwert: false
+description: Ruft das Navigationsverhalten in der Diashow ab oder legt es fest. Lese-/Schreib-Boolean. Standardwert false
 type: docs
 weight: 20
 url: /de/aspose.slides/zoomobject/returntoparent/

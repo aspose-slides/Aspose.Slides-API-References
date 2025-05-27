@@ -1,7 +1,7 @@
 ---
 title: MarginTop
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die oberen Margenpunkte in einem TextFrame zurück oder legt sie fest. Eine Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile haben: DataLabel und DataLabelFormat vollständige Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat es keinen Effekt auf das Rendering. Lese-/Schreibzugriff Double.
+description: Gibt die oberen Margenpunkte in einem TextFrame zurück oder legt sie fest. Eine Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile haben DataLabel und DataLabelFormat vollständige Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat es keinen Effekt auf das Rendering. Lese-/Schreibzugriff Double.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/icharttextblockformat/margintop/

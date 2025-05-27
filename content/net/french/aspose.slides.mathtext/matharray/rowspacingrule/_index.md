@@ -1,7 +1,7 @@
 ---
 title: RowSpacingRule
 second_title: Référence API Aspose.Slides pour .NET
-description: Le type d'espacement vertical entre les éléments du tableau Par défaut : SingleLineGap
+description: Le type d'espacement vertical entre les éléments du tableau Par défaut  SingleLineGap
 type: docs
 weight: 70
 url: /fr/aspose.slides.mathtext/matharray/rowspacingrule/

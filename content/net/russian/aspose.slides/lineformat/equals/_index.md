@@ -1,7 +1,7 @@
 ---
 title: Равно
 second_title: Aspose.Sildes для .NET API Reference
-description: type: docs
+description: type docs
 weight: 180
 url: /ru/aspose.slides/lineformat/equals/
 ---

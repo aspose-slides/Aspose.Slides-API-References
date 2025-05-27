@@ -1,7 +1,7 @@
 ---
 title: IsCustom
 second_title: Aspose.Slides für .NET API-Referenz
-description: Zeigt an, ob diese Eigenschaft nicht zur Liste der vordefinierten Eigenschaften in der Spezifikation gehört: https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx
+description: Zeigt an, ob diese Eigenschaft nicht zur Liste der vordefinierten Eigenschaften in der Spezifikation gehört https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/ibehaviorproperty/iscustom/

@@ -1,7 +1,7 @@
 ---
 title: ReturnToParent
 second_title: Aspose.Sildes para .NET API Referencia
-description: Obtiene o establece el comportamiento de navegación en la presentación. Booleano de lectura/escritura. Valor predeterminado: falso
+description: Obtiene o establece el comportamiento de navegación en la presentación. Booleano de lectura/escritura. Valor predeterminado falso
 type: docs
 weight: 20
 url: /es/aspose.slides/zoomobject/returntoparent/

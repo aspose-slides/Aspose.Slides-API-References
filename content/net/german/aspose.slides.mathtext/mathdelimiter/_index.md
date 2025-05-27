@@ -1,7 +1,7 @@
 ---
 title: MathDelimiter
 second_title: Aspose.Slides für .NET API-Referenz
-description: Spezifiziert das Delimiter-Objekt, das aus öffnenden und schließenden Zeichen wie Klammern, geschweiften Klammern, eckigen Klammern und senkrechten Strichen besteht und ein oder mehrere mathematische Elemente enthält, die durch ein bestimmtes Zeichen getrennt sind. Beispiele: 2 2x7C2
+description: Spezifiziert das Delimiter-Objekt, das aus öffnenden und schließenden Zeichen wie Klammern, geschweiften Klammern, eckigen Klammern und senkrechten Strichen besteht und ein oder mehrere mathematische Elemente enthält, die durch ein bestimmtes Zeichen getrennt sind. Beispiele 2 2x7C2
 type: docs
 weight: 8390
 url: /de/aspose.slides.mathtext/mathdelimiter/

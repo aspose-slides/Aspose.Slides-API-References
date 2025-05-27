@@ -1,7 +1,7 @@
 ---
 title: Obtenir
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: type: docs
+description: type docs
 weight: 30
 url: /fr/aspose.slides.export.web/storage/get/
 ---

@@ -1,7 +1,7 @@
 ---
 title: Posición
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Posición del carácter de agrupación. Predeterminado: Inferior
+description: Posición del carácter de agrupación. Predeterminado Inferior
 type: docs
 weight: 40
 url: /es/aspose.slides.mathtext/imathgroupingcharacter/position/

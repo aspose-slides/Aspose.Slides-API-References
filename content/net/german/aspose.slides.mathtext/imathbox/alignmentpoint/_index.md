@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
 second_title: Aspose.Slides für .NET API-Referenz
-description: Wenn wahr, dient dieser Operator-Emulator als Ausrichtungspunkt; das heißt, bezeichnete Ausrichtungspunkte in anderen Gleichungen können mit ihm ausgerichtet werden. Standardwert: falsch
+description: Wenn wahr, dient dieser Operator-Emulator als Ausrichtungspunkt; das heißt, bezeichnete Ausrichtungspunkte in anderen Gleichungen können mit ihm ausgerichtet werden. Standardwert falsch
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/imathbox/alignmentpoint/

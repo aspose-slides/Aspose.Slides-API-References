@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene o establece la cadena de formato utilizada para los encabezados de número de diapositiva en la salida Markdown. El formato debe incluir el marcador de posición 0 que será reemplazado por el índice de la diapositiva durante la exportación. Ejemplo: Diapositiva 0 producirá Diapositiva 1, Diapositiva 2, etc.
+description: Obtiene o establece la cadena de formato utilizada para los encabezados de número de diapositiva en la salida Markdown. El formato debe incluir el marcador de posición 0 que será reemplazado por el índice de la diapositiva durante la exportación. Ejemplo Diapositiva 0 producirá Diapositiva 1, Diapositiva 2, etc.
 type: docs
 weight: 120
 url: /es/aspose.slides.export/markdownsaveoptions/slidenumberformat/

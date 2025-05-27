@@ -1,7 +1,7 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Slides für .NET API-Referenz
-description: Eigenschaften des entsprechenden Legendenbereichs im Fall des Diagrammtyps aus dieser Liste: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Nur-lesbare ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: Eigenschaften des entsprechenden Legendenbereichs im Fall des Diagrammtyps aus dieser Liste ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Nur-lesbare ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/ichartdatapoint/relatedlegendentry/

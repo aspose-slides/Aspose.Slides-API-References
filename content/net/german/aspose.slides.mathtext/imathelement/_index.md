@@ -1,7 +1,7 @@
 ---
 title: IMathElement
 second_title: Aspose.Slides für .NET API-Referenz
-description: Basisinterface für jedes mathematische Element: Bruch, mathematischer Text, Funktion, Ausdruck mit mehreren Elementen usw.
+description: Basisinterface für jedes mathematische Element Bruch, mathematischer Text, Funktion, Ausdruck mit mehreren Elementen usw.
 type: docs
 weight: 7980
 url: /de/aspose.slides.mathtext/imathelement/

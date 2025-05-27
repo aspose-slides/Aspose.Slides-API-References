@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die vertikale Ausrichtung im Verhältnis zum umgebenden Text an. Mögliche Werte sind oben, unten und zentriert. Standard: Zentriert
+description: Gibt die vertikale Ausrichtung im Verhältnis zum umgebenden Text an. Mögliche Werte sind oben, unten und zentriert. Standard Zentriert
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/imathmatrix/basejustification/

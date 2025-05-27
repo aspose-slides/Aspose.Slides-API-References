@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Configuraciones básicas de presentación de diapositivas. Los ancestros representan tipos de la presentación: PresentadoPorOrador./presentedbyspeaker Presentado por un orador pantalla completa NavegadoPorIndividuo./browsedbyindividual Navegado por un individuo ventana NavegadoEnKiosco./browsedatkiosk Navegado en un kiosco pantalla completa
+description: Configuraciones básicas de presentación de diapositivas. Los ancestros representan tipos de la presentación PresentadoPorOrador./presentedbyspeaker Presentado por un orador pantalla completa NavegadoPorIndividuo./browsedbyindividual Navegado por un individuo ventana NavegadoEnKiosco./browsedatkiosk Navegado en un kiosco pantalla completa
 type: docs
 weight: 10180
 url: /es/aspose.slides/slideshowtype/

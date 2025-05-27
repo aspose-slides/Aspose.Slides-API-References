@@ -1,7 +1,7 @@
 ---
 title: BehaviorProperty
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示动画行为的属性类型。遵循 https://msdn.microsoft.com/en-us/library/dd949052v=office.15.aspx 和 https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamev=office.15.aspx 中的属性列表
+description: 表示动画行为的属性类型。遵循 https//msdn.microsoft.com/en-us/library/dd949052v=office.15.aspx 和 https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamev=office.15.aspx 中的属性列表
 type: docs
 weight: 110
 url: /zh/aspose.slides.animation/behaviorproperty/

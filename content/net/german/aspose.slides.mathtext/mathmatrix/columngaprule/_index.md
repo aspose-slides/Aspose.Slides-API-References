@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
 second_title: Aspose.Slides für .NET API Referenz
-description: Die Art des horizontalen Abstands zwischen den Spalten einer Matrix. Horizontale Abstandseinheiten können ems oder Punkte sein, die als twips gespeichert sind. Standard: SingleSpacingGap 0
+description: Die Art des horizontalen Abstands zwischen den Spalten einer Matrix. Horizontale Abstandseinheiten können ems oder Punkte sein, die als twips gespeichert sind. Standard SingleSpacingGap 0
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/mathmatrix/columngaprule/

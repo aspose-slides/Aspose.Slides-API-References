@@ -1,7 +1,7 @@
 ---
 title: FractionType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Тип дроби По умолчанию: Чертёж
+description: Тип дроби По умолчанию Чертёж
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathfraction/fractiontype/

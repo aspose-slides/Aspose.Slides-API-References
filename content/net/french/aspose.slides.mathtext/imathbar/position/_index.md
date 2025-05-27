@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Position de la ligne de barre. Par défaut : Haut
+description: Position de la ligne de barre. Par défaut  Haut
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathbar/position/

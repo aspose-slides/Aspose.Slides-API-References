@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Cuando es verdadero, este emulador de operador sirve como un punto de alineación; es decir, los puntos de alineación designados en otras ecuaciones pueden alinearse con él. Predeterminado: falso
+description: Cuando es verdadero, este emulador de operador sirve como un punto de alineación; es decir, los puntos de alineación designados en otras ecuaciones pueden alinearse con él. Predeterminado falso
 type: docs
 weight: 10
 url: /es/aspose.slides.mathtext/imathbox/alignmentpoint/

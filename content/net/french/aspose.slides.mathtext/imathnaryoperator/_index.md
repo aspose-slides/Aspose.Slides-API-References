@@ -1,7 +1,7 @@
 ---
 title: IMathNaryOperator
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie un objet mathématique N-aire tel que Somme et Intégrale. Il se compose d'un opérateur d'une base ou d'un opérande et de limites supérieures et inférieures optionnelles. Des exemples d'opérateurs N-aires sont : Somme, Union, Intersection, Intégrale
+description: Spécifie un objet mathématique N-aire tel que Somme et Intégrale. Il se compose d'un opérateur d'une base ou d'un opérande et de limites supérieures et inférieures optionnelles. Des exemples d'opérateurs N-aires sont  Somme, Union, Intersection, Intégrale
 type: docs
 weight: 8110
 url: /fr/aspose.slides.mathtext/imathnaryoperator/

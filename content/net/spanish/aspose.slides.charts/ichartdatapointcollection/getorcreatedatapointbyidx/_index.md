@@ -1,7 +1,7 @@
 ---
 title: GetOrCreateDataPointByIdx
 second_title: Aspose.Slides para .NET Referencia de API
-description: Si la colección ya contiene un punto de datos con el índice *index*, entonces devuelve este punto de datos. Si la colección no contiene un punto de datos con el índice *index*==N cuando el número de puntos de datos en esta colección es menor o igual a N, entonces añade puntos de datos deficientes y devuelve el último que tiene el índice solicitado. Por ejemplo, los índices de la colección son {0, 1, 2} y el índice solicitado es 5. Entonces el método añade puntos de datos deficientes: {0, 1, 2, 3, 4, 5}. Y devuelve el punto de datos con el índice 5.
+description: Si la colección ya contiene un punto de datos con el índice *index*, entonces devuelve este punto de datos. Si la colección no contiene un punto de datos con el índice *index*==N cuando el número de puntos de datos en esta colección es menor o igual a N, entonces añade puntos de datos deficientes y devuelve el último que tiene el índice solicitado. Por ejemplo, los índices de la colección son {0, 1, 2} y el índice solicitado es 5. Entonces el método añade puntos de datos deficientes {0, 1, 2, 3, 4, 5}. Y devuelve el punto de datos con el índice 5.
 type: docs
 weight: 250
 url: /es/aspose.slides.charts/ichartdatapointcollection/getorcreatedatapointbyidx/

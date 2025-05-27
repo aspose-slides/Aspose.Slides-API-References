@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das EffectFormat-Objekt zurück, das Pixel-Effekte enthält, die auf eine Form angewendet werden. Hinweis: kann null für bestimmte Typen von Formen zurückgeben, die keine Effekt-Eigenschaften haben. Nur lesendes IEffectFormataspose.slides/ieffectformat.
+description: Gibt das EffectFormat-Objekt zurück, das Pixel-Effekte enthält, die auf eine Form angewendet werden. Hinweis kann null für bestimmte Typen von Formen zurückgeben, die keine Effekt-Eigenschaften haben. Nur lesendes IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 60
 url: /de/aspose.slides/shape/effectformat/

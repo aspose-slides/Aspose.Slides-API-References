@@ -1,7 +1,7 @@
 ---
 title: RowSpacing
 second_title: Aspose.Sildes для .NET API Reference
-description: Промежуток между строками массива. Используется только когда RowSpacingRule установлен в 3. В точности в этом случае единица измерения - пункты или Multiple, в этом случае единица измерения - половины строк. По умолчанию: 0
+description: Промежуток между строками массива. Используется только когда RowSpacingRule установлен в 3. В точности в этом случае единица измерения - пункты или Multiple, в этом случае единица измерения - половины строк. По умолчанию 0
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/imatharray/rowspacing/

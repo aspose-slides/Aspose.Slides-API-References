@@ -1,7 +1,7 @@
 ---
 title: AutofitType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le mode d'ajustement automatique du texte. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique : DataLabel et DataLabelFormat prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet pour le rendu. Lecture/écriture TextAutofitTypeaspose.slides/../aspose.slides/textautofittype.
+description: Renvoie ou définit le mode d'ajustement automatique du texte. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique  DataLabel et DataLabelFormat prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet pour le rendu. Lecture/écriture TextAutofitTypeaspose.slides/../aspose.slides/textautofittype.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/icharttextblockformat/autofittype/

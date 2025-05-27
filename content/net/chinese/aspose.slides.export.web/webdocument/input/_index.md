@@ -1,7 +1,7 @@
 ---
 title: 输入
 second_title: Aspose.Slides for .NET API 参考
-description: type: docs
+description: type docs
 weight: 30
 url: /zh/aspose.slides.export.web/webdocument/input/
 ---

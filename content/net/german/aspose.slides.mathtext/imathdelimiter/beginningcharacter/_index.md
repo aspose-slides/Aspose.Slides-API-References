@@ -1,7 +1,7 @@
 ---
 title: BeginningCharacter
 second_title: Aspose.Slides für .NET API Referenz
-description: Der Anfangszeichen-Delimiter gibt das Anfangs- oder Eröffnungs-Delimiter-Zeichen an. Mathematische Delimiter sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert: .
+description: Der Anfangszeichen-Delimiter gibt das Anfangs- oder Eröffnungs-Delimiter-Zeichen an. Mathematische Delimiter sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert .
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathdelimiter/beginningcharacter/

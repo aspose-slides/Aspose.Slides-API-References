@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Aspose.Slides pour .NET Référence API
-description: Renvoie ou définit les points de la marge gauche dans un TextFrame. La modification de cette propriété peut avoir une certaine influence uniquement sur ces parties du graphique : DataLabel et DataLabelFormat prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet pour le rendu. Lecture/écriture Double.
+description: Renvoie ou définit les points de la marge gauche dans un TextFrame. La modification de cette propriété peut avoir une certaine influence uniquement sur ces parties du graphique  DataLabel et DataLabelFormat prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet pour le rendu. Lecture/écriture Double.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/icharttextblockformat/marginleft/

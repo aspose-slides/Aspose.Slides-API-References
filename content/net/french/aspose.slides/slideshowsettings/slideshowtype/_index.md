@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit le type de diaporama. Représenté par les ancêtres suivants : SlideShowTypeaspose.slides/slideshowsettings/slideshowtype BrowsedAtKioskaspose.slides/browsedatkiosk PresentedBySpeakeraspose.slides/presentedbyspeaker et BrowsedByIndividualaspose.slides/browsedbyindividual
+description: Obtient ou définit le type de diaporama. Représenté par les ancêtres suivants  SlideShowTypeaspose.slides/slideshowsettings/slideshowtype BrowsedAtKioskaspose.slides/browsedatkiosk PresentedBySpeakeraspose.slides/presentedbyspeaker et BrowsedByIndividualaspose.slides/browsedbyindividual
 type: docs
 weight: 70
 url: /fr/aspose.slides/slideshowsettings/slideshowtype/

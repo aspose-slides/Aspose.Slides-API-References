@@ -1,7 +1,7 @@
 ---
 title: ForEach.ForEachParagraphCallback
 second_title: Справочник по API Aspose.Slidеs для .NET
-description: type: docs
+description: type docs
 weight: 7690
 url: /ru/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---

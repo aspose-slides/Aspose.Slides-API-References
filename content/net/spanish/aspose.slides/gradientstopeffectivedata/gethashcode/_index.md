@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Slides para .NET Referencia de API
-description: type: docs
+description: type docs
 weight: 40
 url: /es/aspose.slides/gradientstopeffectivedata/gethashcode/
 ---

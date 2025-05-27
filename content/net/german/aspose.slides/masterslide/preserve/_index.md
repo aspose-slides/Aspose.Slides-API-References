@@ -1,7 +1,7 @@
 ---
 title: Beibehalten
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der entsprechende Master gelöscht wird, wenn alle Folien, die diesem Master folgen, gelöscht werden. Hinweis: Aspose.Slides wird niemals selbst ungenutzte Master entfernen; um ungenutzte Master tatsächlich zu entfernen, rufen Sie RemoveUnusedaspose.slides/masterslidecollection/removeunused auf. Lese-/Schreibbooleans.
+description: Bestimmt, ob der entsprechende Master gelöscht wird, wenn alle Folien, die diesem Master folgen, gelöscht werden. Hinweis Aspose.Slides wird niemals selbst ungenutzte Master entfernen; um ungenutzte Master tatsächlich zu entfernen, rufen Sie RemoveUnusedaspose.slides/masterslidecollection/removeunused auf. Lese-/Schreibbooleans.
 type: docs
 weight: 70
 url: /de/aspose.slides/masterslide/preserve/

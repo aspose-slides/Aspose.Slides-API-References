@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Slides für .NET API-Referenz
-description: Definiert, wie der Standort berechnet werden soll: true – automatisch berechnet; definiert durch die Eigenschaften X, Y, Width, Height. Nur-lesbare Boolesche.
+description: Definiert, wie der Standort berechnet werden soll true – automatisch berechnet; definiert durch die Eigenschaften X, Y, Width, Height. Nur-lesbare Boolesche.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/chartplotarea/islocationautocalculated/

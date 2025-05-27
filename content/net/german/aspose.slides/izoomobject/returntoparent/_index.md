@@ -1,7 +1,7 @@
 ---
 title: ReturnToParent
 second_title: Aspose.Slides für .NET API Referenz
-description: Legt das Navigationsverhalten in der Diashow fest. Lese-/Schreib-Boolescher Wert. Standardwert: false
+description: Legt das Navigationsverhalten in der Diashow fest. Lese-/Schreib-Boolescher Wert. Standardwert false
 type: docs
 weight: 30
 url: /de/aspose.slides/izoomobject/returntoparent/

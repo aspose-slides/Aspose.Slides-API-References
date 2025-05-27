@@ -1,7 +1,7 @@
 ---  
 title: ShowBackground  
 second_title: Référence de l'API Aspose.Slides pour .NET  
-description: Obtient ou définit la valeur qui spécifie si le Zoom utilisera l'arrière-plan de la diapositive de destination. Valeur booléenne en lecture/écriture. Valeur par défaut : true
+description: Obtient ou définit la valeur qui spécifie si le Zoom utilisera l'arrière-plan de la diapositive de destination. Valeur booléenne en lecture/écriture. Valeur par défaut  true
 type: docs  
 weight: 40  
 url: /fr/aspose.slides/izoomobject/showbackground/

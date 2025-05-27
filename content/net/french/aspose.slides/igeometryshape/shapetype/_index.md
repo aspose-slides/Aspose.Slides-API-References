@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Référence API Aspose.Slides pour .NET
-description: Retourne ou définit le type de modèle géométrique. Remarque : lors du changement de valeur, tous les ajustements reviendront à leurs valeurs par défaut. Lecture/écriture ShapeTypeaspose.slides/shapetype.
+description: Retourne ou définit le type de modèle géométrique. Remarque  lors du changement de valeur, tous les ajustements reviendront à leurs valeurs par défaut. Lecture/écriture ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 40
 url: /fr/aspose.slides/igeometryshape/shapetype/

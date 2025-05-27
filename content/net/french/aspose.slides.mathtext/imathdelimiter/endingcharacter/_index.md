@@ -1,7 +1,7 @@
 ---
 title: EndingCharacter
 second_title: Référence API Aspose.Slides pour .NET
-description: Le caractère délimitant de fin spécifie le caractère délimitant de fin ou de fermeture. Les délimiteurs mathématiques sont des caractères d'encadrement tels que les parenthèses, les crochets et les accolades. La valeur par défaut : '  '.
+description: Le caractère délimitant de fin spécifie le caractère délimitant de fin ou de fermeture. Les délimiteurs mathématiques sont des caractères d'encadrement tels que les parenthèses, les crochets et les accolades. La valeur par défaut  '  '.
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/imathdelimiter/endingcharacter/

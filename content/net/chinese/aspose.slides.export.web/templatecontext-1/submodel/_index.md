@@ -1,7 +1,7 @@
 ---
 title: 子模型
 second_title: Aspose.Slides for .NET API 参考
-description: type: docs
+description: type docs
 weight: 50
 url: /zh/aspose.slides.export.web/templatecontext-1/submodel/
 ---

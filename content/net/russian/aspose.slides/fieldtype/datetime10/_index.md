@@ -1,7 +1,7 @@
 ---
 title: DateTime10
 second_title: Aspose.Slides для .NET API Справочник
-description: Текущая дата и время в десятом предопределённом формате hh:mm для английского. Поле только для чтения FieldType aspose.slides/fieldtype.
+description: Текущая дата и время в десятом предопределённом формате hhmm для английского. Поле только для чтения FieldType aspose.slides/fieldtype.
 type: docs
 weight: 40
 url: /ru/aspose.slides/fieldtype/datetime10/

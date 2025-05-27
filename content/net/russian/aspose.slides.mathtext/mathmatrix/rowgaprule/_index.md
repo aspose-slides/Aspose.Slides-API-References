@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
 second_title: Aspose.Sildes для .NET API Справочник
-description: Тип вертикального расстояния между строками матрицы. Единицы вертикального расстояния могут быть линиями или пунктами, хранящимися в твипах. По умолчанию: SingleSpacingGap 0
+description: Тип вертикального расстояния между строками матрицы. Единицы вертикального расстояния могут быть линиями или пунктами, хранящимися в твипах. По умолчанию SingleSpacingGap 0
 type: docs
 weight: 110
 url: /ru/aspose.slides.mathtext/mathmatrix/rowgaprule/

@@ -1,7 +1,7 @@
 ---
 title: Позиция
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позиция группирующего символа. Значение по умолчанию: Низ
+description: Позиция группирующего символа. Значение по умолчанию Низ
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathgroupingcharacter/position/

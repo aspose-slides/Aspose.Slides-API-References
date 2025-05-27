@@ -1,7 +1,7 @@
 ---
 title: IMathElement
 second_title: Aspose.Sildes для .NET API Reference
-description: Базовый интерфейс любого математического элемента: дробь, математический текст, функция, выражение с несколькими элементами и т.д.
+description: Базовый интерфейс любого математического элемента дробь, математический текст, функция, выражение с несколькими элементами и т.д.
 type: docs
 weight: 7980
 url: /ru/aspose.slides.mathtext/imathelement/

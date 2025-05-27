@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Slides для .NET API Reference
-description: Возвращает объект FillFormat, который содержит свойства форматирования заполнения для пули узла. Обратите внимание: может вернуть null для определенных типов макета SmartArt, которые не предоставляют пули для узлов. Только для чтения IFillFormataspose.slides/ifillformat.
+description: Возвращает объект FillFormat, который содержит свойства форматирования заполнения для пули узла. Обратите внимание может вернуть null для определенных типов макета SmartArt, которые не предоставляют пули для узлов. Только для чтения IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.smartart/ismartartnode/bulletfillformat/

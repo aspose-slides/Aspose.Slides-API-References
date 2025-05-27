@@ -1,7 +1,7 @@
 ---
 title: Выравнивание
 second_title: Справочник по API Aspose.Slides для .NET
-description: Выравнивание абзаца Значение по умолчанию: CenteredAsGroup
+description: Выравнивание абзаца Значение по умолчанию CenteredAsGroup
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathparagraph/justification/

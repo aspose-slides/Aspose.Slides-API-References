@@ -1,7 +1,7 @@
 ---  
 title: BulletFillFormat  
 second_title: Référence de l'API Aspose.Slides pour .NET  
-description: Renvoie l'objet FillFormat qui contient les propriétés de formatage de remplissage pour un point de nœud. Remarque : peut renvoyer null pour certains types de mise en page SmartArt qui ne fournissent pas de points pour les nœuds. Lecture seule IFillFormataspose.slides/ifillformat.
+description: Renvoie l'objet FillFormat qui contient les propriétés de formatage de remplissage pour un point de nœud. Remarque  peut renvoyer null pour certains types de mise en page SmartArt qui ne fournissent pas de points pour les nœuds. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs  
 weight: 10  
 url: /fr/aspose.slides.smartart/ismartartnode/bulletfillformat/

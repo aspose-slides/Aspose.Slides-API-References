@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el tipo de configuración geométrica. Nota: al cambiar el valor, todos los valores de ajuste se restablecerán a sus valores predeterminados. Lectura/escritura ShapeTypeaspose.slides/shapetype.
+description: Devuelve o establece el tipo de configuración geométrica. Nota al cambiar el valor, todos los valores de ajuste se restablecerán a sus valores predeterminados. Lectura/escritura ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 30
 url: /es/aspose.slides/geometryshape/shapetype/

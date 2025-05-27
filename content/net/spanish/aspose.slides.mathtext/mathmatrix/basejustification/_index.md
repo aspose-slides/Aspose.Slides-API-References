@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes para .NET Referencia de la API
-description: Especifica la justificación vertical respecto al texto circundante. Los valores posibles son superior, inferior y centrado. Por defecto: Centrado
+description: Especifica la justificación vertical respecto al texto circundante. Los valores posibles son superior, inferior y centrado. Por defecto Centrado
 type: docs
 weight: 20
 url: /es/aspose.slides.mathtext/mathmatrix/basejustification/

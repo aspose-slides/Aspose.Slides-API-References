@@ -1,7 +1,7 @@
 ---
 title: НумерованныйСтильМаркировки
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает стиль нумерованной маркировки без наследования. Чтение/запись: NumberedBulletStyleaspose.slides/ibulletformat/numberedbulletstyle.
+description: Возвращает или устанавливает стиль нумерованной маркировки без наследования. Чтение/запись NumberedBulletStyleaspose.slides/ibulletformat/numberedbulletstyle.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ibulletformat/numberedbulletstyle/

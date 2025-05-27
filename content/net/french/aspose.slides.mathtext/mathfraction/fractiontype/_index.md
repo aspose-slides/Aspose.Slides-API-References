@@ -1,7 +1,7 @@
 ---
 title: FractionType
 second_title: Référence API Aspose.Slides pour .NET
-description: Type de fraction Par défaut : Bar
+description: Type de fraction Par défaut  Bar
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathfraction/fractiontype/

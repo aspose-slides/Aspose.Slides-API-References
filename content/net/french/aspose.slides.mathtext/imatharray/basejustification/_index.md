@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Slides pour .NET Référence de l'API
-description: Spécifie l'alignement de l'array par rapport au texte environnant. Le texte en dehors de l'array peut être aligné avec le bas, le haut ou le centre d'un objet array. Valeur par défaut : Centre
+description: Spécifie l'alignement de l'array par rapport au texte environnant. Le texte en dehors de l'array peut être aligné avec le bas, le haut ou le centre d'un objet array. Valeur par défaut  Centre
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imatharray/basejustification/

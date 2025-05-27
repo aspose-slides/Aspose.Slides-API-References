@@ -1,7 +1,7 @@
 ---
 title: Justification
 second_title: Référence API Aspose.Slides pour .NET
-description: Justification de paragraphe Valeur par défaut : CenteredAsGroup
+description: Justification de paragraphe Valeur par défaut  CenteredAsGroup
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/imathparagraph/justification/

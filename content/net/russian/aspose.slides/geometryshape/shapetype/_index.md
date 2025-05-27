@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает тип геометрического пресета. Примечание: при изменении значения все значения настроек будут сброшены к их значениям по умолчанию. Чтение/запись ShapeTypeaspose.slides/shapetype.
+description: Возвращает или устанавливает тип геометрического пресета. Примечание при изменении значения все значения настроек будут сброшены к их значениям по умолчанию. Чтение/запись ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 30
 url: /ru/aspose.slides/geometryshape/shapetype/

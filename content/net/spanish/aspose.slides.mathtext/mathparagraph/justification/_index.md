@@ -1,7 +1,7 @@
 ---
 title: Justificación
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Justificación de párrafo Valor predeterminado: CentradoComoGrupo
+description: Justificación de párrafo Valor predeterminado CentradoComoGrupo
 type: docs
 weight: 40
 url: /es/aspose.slides.mathtext/mathparagraph/justification/

@@ -1,7 +1,7 @@
 ---
 title: Равно
 second_title: Справочник по API Aspose.Slides для .NET
-description: type: docs
+description: type docs
 weight: 50
 url: /ru/aspose.slides/shapebevel/equals/
 ---

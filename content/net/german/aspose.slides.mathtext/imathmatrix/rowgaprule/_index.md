@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
 second_title: Aspose.Slides für .NET API Referenz
-description: Die Art des vertikalen Abstands zwischen Zeilen einer Matrix. Vertikale Abstandseinheiten können Linien oder Punkte als Twips gespeichert sein. Standard: SingleSpacingGap 0
+description: Die Art des vertikalen Abstands zwischen Zeilen einer Matrix. Vertikale Abstandseinheiten können Linien oder Punkte als Twips gespeichert sein. Standard SingleSpacingGap 0
 type: docs
 weight: 110
 url: /de/aspose.slides.mathtext/imathmatrix/rowgaprule/

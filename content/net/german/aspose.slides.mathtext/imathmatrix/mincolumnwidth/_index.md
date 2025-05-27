@@ -1,7 +1,7 @@
 ---
 title: MinColumnWidth
 second_title: Aspose.Slides für .NET API-Referenz
-description: Minimale Spaltenbreite in Twips 1/20 eines Punktes Der Abstand zwischen den Spalten, auch als "Spaltenabstand" oder "Abstand zwischen Spalten" bezeichnet, wird zur MinColumnWidth hinzugefügt, um die gesamte Matrix-Spaltenabstandsdistanz Abstand zwischen den gleichen Kanten verschiedener Spalten zu bestimmen. Standard: 0.
+description: Minimale Spaltenbreite in Twips 1/20 eines Punktes Der Abstand zwischen den Spalten, auch als "Spaltenabstand" oder "Abstand zwischen Spalten" bezeichnet, wird zur MinColumnWidth hinzugefügt, um die gesamte Matrix-Spaltenabstandsdistanz Abstand zwischen den gleichen Kanten verschiedener Spalten zu bestimmen. Standard 0.
 type: docs
 weight: 80
 url: /de/aspose.slides.mathtext/imathmatrix/mincolumnwidth/

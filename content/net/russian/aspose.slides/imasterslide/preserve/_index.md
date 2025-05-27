@@ -1,7 +1,7 @@
 ---
 title: Сохранить
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, будет ли соответствующий слайд-мастер удален, когда все слайды, следующие за этим мастером, будут удалены. Обратите внимание: Aspose.Slides никогда не удалит неиспользуемый мастер самостоятельно; для фактического удаления неиспользуемых мастеров вызовите RemoveUnusedaspose.slides/imasterslidecollection/removeunused Запись/чтение Логическое.
+description: Определяет, будет ли соответствующий слайд-мастер удален, когда все слайды, следующие за этим мастером, будут удалены. Обратите внимание Aspose.Slides никогда не удалит неиспользуемый мастер самостоятельно; для фактического удаления неиспользуемых мастеров вызовите RemoveUnusedaspose.slides/imasterslidecollection/removeunused Запись/чтение Логическое.
 type: docs
 weight: 80
 url: /ru/aspose.slides/imasterslide/preserve/
