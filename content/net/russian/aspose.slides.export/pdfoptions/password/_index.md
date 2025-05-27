@@ -1,22 +1,23 @@
 ---
-title: Password
+title: Пароль
 second_title: Справочник по API Aspose.Slides для .NET
-description: Установка пароля пользователя для защиты документа PDF. Чтение/записьString.
+description: Установка пользовательского пароля для защиты PDF-документа. Чтение/запись строка.
 type: docs
-weight: 130
+weight: 140
 url: /ru/aspose.slides.export/pdfoptions/password/
 ---
-## PdfOptions.Password property
 
-Установка пароля пользователя для защиты документа PDF. Чтение/записьString.
+## Свойство PdfOptions.Password
+
+Установка пользовательского пароля для защиты PDF-документа. Чтение/запись строка.
 
 ```csharp
 public string Password { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [PdfOptions](../../pdfoptions)
+* класс [PdfOptions](../../pdfoptions)
 * пространство имен [Aspose.Slides.Export](../../pdfoptions)
 * сборка [Aspose.Slides](../../../)
 

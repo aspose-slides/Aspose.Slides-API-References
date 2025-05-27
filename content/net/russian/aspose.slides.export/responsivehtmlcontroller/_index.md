@@ -1,14 +1,15 @@
 ---
 title: ResponsiveHtmlController
-second_title: Справочник по API Aspose.Slides для .NET
-description: Адаптивный HTML-контроллер
+second_title: Aspose.Slides для .NET API Справочник
+description: Управляющий адаптивным HTML
 type: docs
-weight: 3990
+weight: 4230
 url: /ru/aspose.slides.export/responsivehtmlcontroller/
 ---
-## ResponsiveHtmlController class
 
-Адаптивный HTML-контроллер
+## Класс ResponsiveHtmlController
+
+Управляющий адаптивным HTML
 
 ```csharp
 public class ResponsiveHtmlController : IResponsiveHtmlController
@@ -21,9 +22,9 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 | [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | Создает новый экземпляр |
 | [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | Создает новый экземпляр |
 
-### Смотрите также
+### См. также
 
-* interface [IResponsiveHtmlController](../iresponsivehtmlcontroller)
+* интерфейс [IResponsiveHtmlController](../iresponsivehtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

@@ -1,22 +1,23 @@
 ---
 title: MarginRight
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает правое поле в абзаце без наследования. Чтение/записьSingle.
+description: Возвращает или устанавливает правый отступ в абзаце без наследования. Чтение/запись Single.
 type: docs
 weight: 120
 url: /ru/aspose.slides/iparagraphformat/marginright/
 ---
-## IParagraphFormat.MarginRight property
 
-Возвращает или устанавливает правое поле в абзаце без наследования. Чтение/записьSingle.
+## Свойство IParagraphFormat.MarginRight
+
+Возвращает или устанавливает правый отступ в абзаце без наследования. Чтение/запись Single.
 
 ```csharp
 public float MarginRight { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IParagraphFormat](../../iparagraphformat)
+* интерфейс [IParagraphFormat](../../iparagraphformat)
 * пространство имен [Aspose.Slides](../../iparagraphformat)
 * сборка [Aspose.Slides](../../../)
 

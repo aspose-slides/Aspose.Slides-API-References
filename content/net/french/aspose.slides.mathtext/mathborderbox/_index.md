@@ -1,14 +1,15 @@
 ---
 title: MathBorderBox
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Dessine un rectangle ou une autre bordure autour de IMathElement.
+second_title: Référence de l’API Aspose.Slides pour .NET
+description: Trace un bord rectangulaire ou un autre autour de l'IMathElement.
 type: docs
-weight: 7920
+weight: 8350
 url: /fr/aspose.slides.mathtext/mathborderbox/
 ---
-## MathBorderBox class
 
-Dessine un rectangle ou une autre bordure autour de IMathElement.
+## Classe MathBorderBox
+
+Trace un bord rectangulaire ou un autre autour de l'IMathElement.
 
 ```csharp
 public sealed class MathBorderBox : MathElementBase, IMathBorderBox
@@ -16,46 +17,46 @@ public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [MathBorderBox](mathborderbox#constructor)(IMathElement) | Crée un élément MathBorderBox avec une bordure rectangulaire |
+| [MathBorderBox](mathborderbox#constructor)(IMathElement) | Crée un élément MathBorderBox avec un bord rectangulaire |
 | [MathBorderBox](mathborderbox#constructor_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crée un élément MathBorderBox |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [Base](../../aspose.slides.mathtext/mathborderbox/base) { get; } | Argument de base |
-| [HideBottom](../../aspose.slides.mathtext/mathborderbox/hidebottom) { get; set; } | Hide Bottom Edge (la valeur par défaut est false) - spécifie l'état masqué ou affiché du bord inférieur de la zone de bordure. |
-| [HideLeft](../../aspose.slides.mathtext/mathborderbox/hideleft) { get; set; } | Hide Left Edge (la valeur par défaut est false) - spécifie l'état caché ou affiché du bord gauche de la bordure. |
-| [HideRight](../../aspose.slides.mathtext/mathborderbox/hideright) { get; set; } | Hide Right Edge (la valeur par défaut est false) - spécifie l'état masqué ou affiché du bord droit de la zone de bordure. |
-| [HideTop](../../aspose.slides.mathtext/mathborderbox/hidetop) { get; set; } | Hide Top Edge (la valeur par défaut est false) - spécifie l'état masqué ou affiché du bord supérieur de la zone de bordure. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/mathborderbox/strikethroughbottomlefttotopright) { get; set; } | Barré de bas à gauche à haut à droite (la valeur par défaut est false). Spécifie l'état masqué ou affiché d'une ligne diagonale barrée du coin inférieur gauche au coin supérieur droit de la zone de bordure. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/mathborderbox/strikethroughhorizontal) { get; set; } | Horizontal barré (la valeur par défaut est false) - spécifie l'état masqué ou affiché d'une ligne horizontale barrée. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/mathborderbox/strikethroughtoplefttobottomright) { get; set; } | Strikethrough Top-Left to Bottom-Right (la valeur par défaut est false). Spécifie l'état masqué ou affiché d'une ligne diagonale barrée du coin supérieur gauche au coin inférieur droit de la zone de bordure. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/mathborderbox/strikethroughvertical) { get; set; } | Strikethrough Vertical (la valeur par défaut est false) - spécifie l'état masqué ou affiché d'une ligne verticale barrée. |
+| [HideBottom](../../aspose.slides.mathtext/mathborderbox/hidebottom) { get; set; } | Cacher le bord inférieur (la valeur par défaut est false) - spécifie l'état caché ou affiché du bord inférieur de la boîte de bordure. |
+| [HideLeft](../../aspose.slides.mathtext/mathborderbox/hideleft) { get; set; } | Cacher le bord gauche (la valeur par défaut est false) - spécifie l'état caché ou affiché du bord gauche de la boîte de bordure. |
+| [HideRight](../../aspose.slides.mathtext/mathborderbox/hideright) { get; set; } | Cacher le bord droit (la valeur par défaut est false) - spécifie l'état caché ou affiché du bord droit de la boîte de bordure. |
+| [HideTop](../../aspose.slides.mathtext/mathborderbox/hidetop) { get; set; } | Cacher le bord supérieur (la valeur par défaut est false) - spécifie l'état caché ou affiché du bord supérieur de la boîte de bordure. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/mathborderbox/strikethroughbottomlefttotopright) { get; set; } | Barrer en diagonale du bas gauche vers le haut droit (la valeur par défaut est false). Spécifie l'état caché ou affiché d'une ligne de barré diagonale allant du coin inférieur gauche au coin supérieur droit de la boîte de bordure. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/mathborderbox/strikethroughhorizontal) { get; set; } | Barrer horizontalement (la valeur par défaut est false) - spécifie l'état caché ou affiché d'une ligne barrée horizontale. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/mathborderbox/strikethroughtoplefttobottomright) { get; set; } | Barrer en diagonale du haut gauche vers le bas droit (la valeur par défaut est false). Spécifie l'état caché ou affiché d'une ligne de barré diagonale allant du coin supérieur gauche au coin inférieur droit de la boîte de bordure. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/mathborderbox/strikethroughvertical) { get; set; } | Barrer verticalement (la valeur par défaut est false) - spécifie l'état caché ou affiché d'une ligne barrée verticale. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Définit une marque d'accent (un caractère en haut de cet élément) |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Définit un accent (un caractère en haut de cet élément) |
 | [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Prend la fonction spécifiée en utilisant cette instance comme argument |
 | [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Prend la fonction spécifiée en utilisant cette instance comme argument |
 | [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Prend la fonction spécifiée en utilisant cette instance comme argument |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Prend la fonction spécifiée en utilisant cette instance comme argument et un argument supplémentaire spécifié |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Prend la fonction spécifiée en utilisant cette instance comme argument et un argument supplémentaire spécifié |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Prend la fonction spécifiée en utilisant cette instance comme argument et l'argument supplémentaire spécifié |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Prend la fonction spécifiée en utilisant cette instance comme argument et l'argument supplémentaire spécifié |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Crée une fraction avec ce numérateur et le dénominateur spécifié |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Crée une fraction avec ce numérateur et le dénominateur spécifié |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Crée une fraction du type spécifié avec ce numérateur et le dénominateur spécifié |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Crée une fraction du type spécifié avec ce numérateur et le dénominateur spécifié |
-| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Encadre un élément mathématique entre parenthèses |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Encadre un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme framing |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Prend une fonction d'un argument en utilisant cette instance comme fonction name |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Prend une fonction d'un argument en utilisant cette instance comme fonction name |
-| [GetChildren](../../aspose.slides.mathtext/mathborderbox/getchildren)() | Obtenir les éléments enfants |
+| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Enclôt un élément mathématique dans des parenthèses |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Enclôt un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Prend une fonction d'un argument en utilisant cette instance comme nom de la fonction |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Prend une fonction d'un argument en utilisant cette instance comme nom de la fonction |
+| [GetChildren](../../aspose.slides.mathtext/mathborderbox/getchildren)() | Obtient les éléments enfants |
 | [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Place cet élément dans un groupe à l'aide d'une accolade inférieure |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Place cet élément dans un groupe à l'aide d'un caractère de regroupement tel qu'une accolade inférieure ou un autre |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Place cet élément dans un groupe à l'aide d'un caractère de groupe tel qu'une accolade inférieure ou un autre |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Prend l'intégrale sans limites |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Prend l'intégrale |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Prend l'intégrale |
@@ -80,11 +81,11 @@ public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 | [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | Crée un exposant |
 | [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Prend la limite supérieure |
 | [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Prend la limite supérieure |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Place cet élément dans une border-box |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Place cet élément dans une border-box |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Place cet élément dans une boîte non visuelle (groupement logique) qui est utilisée pour regrouper les composants d'une équation ou d'une autre instance de texte mathématique. Un objet encadré peut (par exemple) servir d'émulateur d'opérateur avec ou sans alignement point, servir de point de rupture de ligne, ou être regroupés de manière à ne pas autoriser les sauts de ligne à l'intérieur. |
-| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Place dans un tableau vertical |
-| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Définit une barre au bas de cet élément |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Place cet élément dans une boîte de bordure |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Place cet élément dans une boîte de bordure |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Place cet élément dans une boîte non visuelle (groupement logique) utilisée pour regrouper les composants d’une équation ou une autre instance de texte mathématique. Un objet encadré peut (par exemple) servir d'émulateur d'opérateur avec ou sans point d'alignement, servir de point de saut de ligne, ou être regroupé de manière à ne pas permettre les sauts de ligne à l'intérieur. |
+| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Met dans un tableau vertical |
+| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Définit une barre en bas de cet élément |
 
 ### Exemples
 
@@ -97,9 +98,9 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 
 ### Voir également
 
-* class [MathElementBase](../mathelementbase)
+* classe [MathElementBase](../mathelementbase)
 * interface [IMathBorderBox](../imathborderbox)
 * espace de noms [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* Assemblée [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

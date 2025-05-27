@@ -1,12 +1,13 @@
 ---
 title: ImageTransformOperationFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/imagetransformoperationfactory/
 ---
-## ImageTransformOperationFactory constructor
+
+## Конструктор ImageTransformOperationFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.effects/imagetransformoperationfactory/imagetransformoper
 public ImageTransformOperationFactory()
 ```
 
-### Смотрите также
+### См. также
 
-* class [ImageTransformOperationFactory](../../imagetransformoperationfactory)
+* класс [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,24 @@
 ---
-title: Direction
+title: Направление
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает в каком направлении циклически перемещать оттенок по цветовому кругу. Чтение/записьColorDirectionaspose.slides.animation/colordirection.
+description: Определяет, в каком направлении следует изменять оттенок вокруг цветового колеса. Чтение/запись ColorDirectionaspose.slides.animation/colordirection.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/icoloreffect/direction/
 ---
-## IColorEffect.Direction property
 
-Указывает, в каком направлении циклически перемещать оттенок по цветовому кругу. Чтение/запись[`ColorDirection`](../../colordirection).
+## Свойство IColorEffect.Direction
+
+Определяет, в каком направлении следует изменять оттенок вокруг цветового колеса. Чтение/запись [`ColorDirection`](../../colordirection).
 
 ```csharp
 public ColorDirection Direction { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* enum [ColorDirection](../../colordirection)
-* interface [IColorEffect](../../icoloreffect)
+* перечисление [ColorDirection](../../colordirection)
+* интерфейс [IColorEffect](../../icoloreffect)
 * пространство имен [Aspose.Slides.Animation](../../icoloreffect)
 * сборка [Aspose.Slides](../../../)
 

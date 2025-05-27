@@ -1,11 +1,12 @@
 ---
 title: CreateFileStreamWrapper
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Создает FileStream с указанным путем и режимом создания.
 type: docs
 weight: 10
 url: /ru/aspose.slides/istreamwrapperfactory/createfilestreamwrapper/
 ---
+
 ## CreateFileStreamWrapper(string, FileMode) {#createfilestreamwrapper}
 
 Создает FileStream с указанным путем и режимом создания.
@@ -16,17 +17,17 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файлаString |
-| fileMode | FileMode | Файловый режимFileMode |
+| fileName | String | Имя файла String |
+| fileMode | FileMode | Режим файла FileMode |
 
 ### Возвращаемое значение
 
-Потоковая оболочка для COM-интерфейса[`IStreamWrapper`](../../istreamwrapper)
+Обертка потока для интерфейса COM [`IStreamWrapper`](../../istreamwrapper)
 
-### Смотрите также
+### См. также
 
-* interface [IStreamWrapper](../../istreamwrapper)
-* interface [IStreamWrapperFactory](../../istreamwrapperfactory)
+* интерфейс [IStreamWrapper](../../istreamwrapper)
+* интерфейс [IStreamWrapperFactory](../../istreamwrapperfactory)
 * пространство имен [Aspose.Slides](../../istreamwrapperfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -43,18 +44,18 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файлаString |
-| fileMode | FileMode | Режим файлаFileMode |
-| fileAccess | FileAccess | Доступ к файлуFileAccess |
+| fileName | String | Имя файла String |
+| fileMode | FileMode | Режим файла FileMode |
+| fileAccess | FileAccess | Доступ к файлу FileAccess |
 
 ### Возвращаемое значение
 
-Потоковая оболочка для COM-интерфейса[`IStreamWrapper`](../../istreamwrapper)
+Обертка потока для интерфейса COM [`IStreamWrapper`](../../istreamwrapper)
 
-### Смотрите также
+### См. также
 
-* interface [IStreamWrapper](../../istreamwrapper)
-* interface [IStreamWrapperFactory](../../istreamwrapperfactory)
+* интерфейс [IStreamWrapper](../../istreamwrapper)
+* интерфейс [IStreamWrapperFactory](../../istreamwrapperfactory)
 * пространство имен [Aspose.Slides](../../istreamwrapperfactory)
 * сборка [Aspose.Slides](../../../)
 

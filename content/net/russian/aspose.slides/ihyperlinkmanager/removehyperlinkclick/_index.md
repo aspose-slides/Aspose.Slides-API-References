@@ -1,14 +1,15 @@
 ---
 title: RemoveHyperlinkClick
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет гиперссылку при клике.
+second_title: Справка по API Aspose.Slides для .NET
+description: Удаляет гиперссылку при нажатии.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ihyperlinkmanager/removehyperlinkclick/
 ---
-## IHyperlinkManager.RemoveHyperlinkClick method
 
-Удаляет гиперссылку при клике.
+## Метод IHyperlinkManager.RemoveHyperlinkClick
+
+Удаляет гиперссылку при нажатии.
 
 ```csharp
 public void RemoveHyperlinkClick()
@@ -16,7 +17,7 @@ public void RemoveHyperlinkClick()
 
 ### Смотрите также
 
-* interface [IHyperlinkManager](../../ihyperlinkmanager)
+* интерфейс [IHyperlinkManager](../../ihyperlinkmanager)
 * пространство имен [Aspose.Slides](../../ihyperlinkmanager)
 * сборка [Aspose.Slides](../../../)
 

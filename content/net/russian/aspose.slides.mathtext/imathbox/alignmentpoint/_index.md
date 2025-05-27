@@ -1,14 +1,15 @@
 ---
 title: AlignmentPoint
-second_title: Справочник по API Aspose.Slides для .NET
-description: При значении true этот эмулятор оператора служит точкой выравнивания то есть назначенные точки выравнивания в других уравнениях могут быть выровнены с ним. По умолчаниюfalse
+second_title: Aspose.Slides для .NET API Reference
+description: Когда значение true, этот эмулятор оператора служит точкой выравнивания; то есть, назначенные точки выравнивания в других уравнениях могут быть выровнены с ней. По умолчанию: false
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathbox/alignmentpoint/
 ---
-## IMathBox.AlignmentPoint property
 
-При значении true этот эмулятор оператора служит точкой выравнивания; то есть, назначенные точки выравнивания в других уравнениях могут быть выровнены с ним. По умолчанию:false
+## IMathBox.AlignmentPoint свойство
+
+Когда значение true, этот эмулятор оператора служит точкой выравнивания; то есть, назначенные точки выравнивания в других уравнениях могут быть выровнены с ней. По умолчанию: false
 
 ```csharp
 public bool AlignmentPoint { get; set; }
@@ -24,9 +25,9 @@ IMathBox box = new MathematicalText("==").ToBox();
 box.AlignmentPoint = true;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathBox](../../imathbox)
+* интерфейс [IMathBox](../../imathbox)
 * пространство имен [Aspose.Slides.MathText](../../imathbox)
 * сборка [Aspose.Slides](../../../)
 

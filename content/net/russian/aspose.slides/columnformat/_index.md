@@ -1,30 +1,31 @@
 ---
 title: ColumnFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API справочник
 description: Представляет формат столбца таблицы.
 type: docs
-weight: 2460
+weight: 2520
 url: /ru/aspose.slides/columnformat/
 ---
-## ColumnFormat class
+
+## Класс ColumnFormat
 
 Представляет формат столбца таблицы.
 
 ```csharp
-public class ColumnFormat : DomObject<Column>, IColumnFormat
+public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 ```
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Получает эффективные свойства форматирования столбцов таблицы с применением стилей наследования и таблиц. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Получает эффективные свойства форматирования столбца таблицы с применением наследования и стилей таблицы. |
 
-### Смотрите также
+### См. Также
 
-* class [DomObject&lt;TParent&gt;](../domobject-1)
-* class [Column](../column)
-* interface [IColumnFormat](../icolumnformat)
+* класс [DomObject&lt;TParent&gt;](../domobject-1)
+* класс [Column](../column)
+* интерфейс [IColumnFormat](../icolumnformat)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

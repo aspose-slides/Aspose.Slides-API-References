@@ -1,21 +1,22 @@
 ---
-title: Integral
+title: 积分
 second_title: Aspose.Slides for .NET API 参考
-description: 取整数
+description: 获取积分
 type: docs
 weight: 80
 url: /zh/aspose.slides.mathtext/imathelement/integral/
 ---
-## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
-取整数
+## 积分(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
+
+获取积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
     IMathElement upperLimit, MathLimitLocations limitLocations)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | integralType | MathIntegralTypes | 积分类型 |
 | lowerLimit | IMathElement | 积分下限 |
@@ -24,11 +25,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 ### 返回值
 
-类型的新实例[`IMathNaryOperator`](../../imathnaryoperator)
+返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
 
-### 例子
+### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -38,27 +39,27 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### 也可以看看
+### 参见
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* enum [MathLimitLocations](../../mathlimitlocations)
-* interface [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 部件 [Aspose.Slides](../../../)
+* 接口 [IMathNaryOperator](../../imathnaryoperator)
+* 枚举 [MathIntegralTypes](../../mathintegraltypes)
+* 枚举 [MathLimitLocations](../../mathlimitlocations)
+* 接口 [IMathElement](../../imathelement)
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
+## 积分(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
 
-取整数
+获取积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
     IMathElement upperLimit)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | integralType | MathIntegralTypes | 积分类型 |
 | lowerLimit | IMathElement | 积分下限 |
@@ -66,11 +67,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 ### 返回值
 
-类型的新实例[`IMathNaryOperator`](../../imathnaryoperator)
+返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
 
-### 例子
+### 示例
 
-示例::::47::
+示例：
 
 ```csharp
 [C#]
@@ -80,35 +81,35 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### 也可以看看
+### 参见
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* interface [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 部件 [Aspose.Slides](../../../)
+* 接口 [IMathNaryOperator](../../imathnaryoperator)
+* 枚举 [MathIntegralTypes](../../mathintegraltypes)
+* 接口 [IMathElement](../../imathelement)
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes) {#integral}
+## 积分(MathIntegralTypes) {#integral}
 
-无限制地取积分
+获取没有限制的积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | integralType | MathIntegralTypes | 积分类型 |
 
 ### 返回值
 
-类型的新实例[`IMathNaryOperator`](../../imathnaryoperator)
+返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
 
-### 例子
+### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -116,26 +117,26 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 ```
 
-### 也可以看看
+### 参见
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* interface [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 部件 [Aspose.Slides](../../../)
+* 接口 [IMathNaryOperator](../../imathnaryoperator)
+* 枚举 [MathIntegralTypes](../../mathintegraltypes)
+* 接口 [IMathElement](../../imathelement)
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
+## 积分(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
 
-取整数
+获取积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
     string upperLimit, MathLimitLocations limitLocations)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | integralType | MathIntegralTypes | 积分类型 |
 | lowerLimit | String | 积分下限 |
@@ -144,11 +145,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 ### 返回值
 
-类型的新实例[`IMathNaryOperator`](../../imathnaryoperator)
+返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
 
-### 例子
+### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -156,27 +157,27 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5", MathLimitLocations.UnderOver);
 ```
 
-### 也可以看看
+### 参见
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* enum [MathLimitLocations](../../mathlimitlocations)
-* interface [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 部件 [Aspose.Slides](../../../)
+* 接口 [IMathNaryOperator](../../imathnaryoperator)
+* 枚举 [MathIntegralTypes](../../mathintegraltypes)
+* 枚举 [MathLimitLocations](../../mathlimitlocations)
+* 接口 [IMathElement](../../imathelement)
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, string, string) {#integral_3}
+## 积分(MathIntegralTypes, string, string) {#integral_3}
 
-取整数
+获取积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
     string upperLimit)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | integralType | MathIntegralTypes | 积分类型 |
 | lowerLimit | String | 积分下限 |
@@ -184,11 +185,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 ### 返回值
 
-类型的新实例[`IMathNaryOperator`](../../imathnaryoperator)
+返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
 
-### 例子
+### 示例
 
-示例::::47::
+示例：
 
 ```csharp
 [C#]
@@ -196,12 +197,12 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5");
 ```
 
-### 也可以看看
+### 参见
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* interface [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 部件 [Aspose.Slides](../../../)
+* 接口 [IMathNaryOperator](../../imathnaryoperator)
+* 枚举 [MathIntegralTypes](../../mathintegraltypes)
+* 接口 [IMathElement](../../imathelement)
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)
+* 程序集 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

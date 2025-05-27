@@ -1,23 +1,24 @@
 ---
-title: Sequence
+title: Последовательность
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает последовательность для эффекта. Только для чтенияISequenceaspose.slides.animation/isequence.
+description: Возвращает последовательность для эффекта. Только для чтения ISequenceaspose.slides.animation/isequence.
 type: docs
-weight: 30
+weight: 70
 url: /ru/aspose.slides.animation/effect/sequence/
 ---
-## Effect.Sequence property
 
-Возвращает последовательность для эффекта. Только для чтения[`ISequence`](../../isequence).
+## Свойство Effect.Sequence
+
+Возвращает последовательность для эффекта. Только для чтения [`ISequence`](../../isequence).
 
 ```csharp
 public ISequence Sequence { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [ISequence](../../isequence)
-* class [Effect](../../effect)
+* интерфейс [ISequence](../../isequence)
+* класс [Effect](../../effect)
 * пространство имен [Aspose.Slides.Animation](../../effect)
 * сборка [Aspose.Slides](../../../)
 

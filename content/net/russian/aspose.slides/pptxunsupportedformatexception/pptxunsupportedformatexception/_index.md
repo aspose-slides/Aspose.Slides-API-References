@@ -1,11 +1,12 @@
 ---
 title: PptxUnsupportedFormatException
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/pptxunsupportedformatexception/pptxunsupportedformatexception/
 ---
+
 ## PptxUnsupportedFormatException() {#constructor}
 
 Конструктор по умолчанию.
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/pptxunsupportedformatexception/pptxunsupportedformatexcep
 public PptxUnsupportedFormatException()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [PptxUnsupportedFormatException](../../pptxunsupportedformatexception)
+* класс [PptxUnsupportedFormatException](../../pptxunsupportedformatexception)
 * пространство имен [Aspose.Slides](../../pptxunsupportedformatexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -32,11 +33,11 @@ public PptxUnsupportedFormatException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
+| message | String | сообщение |
 
-### Смотрите также
+### См. Также
 
-* class [PptxUnsupportedFormatException](../../pptxunsupportedformatexception)
+* класс [PptxUnsupportedFormatException](../../pptxunsupportedformatexception)
 * пространство имен [Aspose.Slides](../../pptxunsupportedformatexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,7 +45,7 @@ public PptxUnsupportedFormatException(string message)
 
 ## PptxUnsupportedFormatException(string, Exception) {#constructor_2}
 
-Конструктор исключения, содержащего сообщение и встроенное исключение.
+Конструктор для исключения, содержащего сообщение и вложенное исключение.
 
 ```csharp
 public PptxUnsupportedFormatException(string message, Exception exception)
@@ -52,12 +53,12 @@ public PptxUnsupportedFormatException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
-| исключение | Exception | исходное исключение |
+| message | String | сообщение |
+| exception | Exception | оригинальное исключение |
 
-### Смотрите также
+### См. Также
 
-* class [PptxUnsupportedFormatException](../../pptxunsupportedformatexception)
+* класс [PptxUnsupportedFormatException](../../pptxunsupportedformatexception)
 * пространство имен [Aspose.Slides](../../pptxunsupportedformatexception)
 * сборка [Aspose.Slides](../../../)
 

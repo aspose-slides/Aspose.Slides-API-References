@@ -1,27 +1,28 @@
 ---
 title: CreateAlphaFloor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает эффект альфа-пола.
+second_title: Aspose.Sildes для справки по API .NET
+description: Создает эффект Alpha floor.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createalphafloor/
 ---
-## IImageTransformOperationFactory.CreateAlphaFloor method
 
-Создает эффект альфа-пола.
+## IImageTransformOperationFactory.CreateAlphaFloor метод
+
+Создает эффект Alpha floor.
 
 ```csharp
 public IAlphaFloor CreateAlphaFloor()
 ```
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
-Альфа-эффект пола.
+Эффект Alpha floor.
 
-### Смотрите также
+### См. также
 
-* interface [IAlphaFloor](../../ialphafloor)
-* interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
+* интерфейс [IAlphaFloor](../../ialphafloor)
+* интерфейс [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

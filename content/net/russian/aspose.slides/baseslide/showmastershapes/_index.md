@@ -1,14 +1,15 @@
 ---
 title: ShowMasterShapes
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает false . Чтение/записьBoolean.
+second_title: Aspose.Sildes для .NET API Справка
+description: Указывает, должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает false. Чтение/запись Boolean.
 type: docs
 weight: 80
 url: /ru/aspose.slides/baseslide/showmastershapes/
 ---
-## BaseSlide.ShowMasterShapes property
 
-Указывает, должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает` false` . Чтение/записьBoolean.
+## BaseSlide.ShowMasterShapes свойство
+
+Указывает, должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает `false`. Чтение/запись Boolean.
 
 ```csharp
 public abstract bool ShowMasterShapes { get; set; }
@@ -18,11 +19,11 @@ public abstract bool ShowMasterShapes { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | Выбрасывается, если установлено` true` для мастер-слайд. |
+| NotSupportedException | Вызывается, если установить `true` для мастер-слайда. |
 
-### Смотрите также
+### См. также
 
-* class [BaseSlide](../../baseslide)
+* класс [BaseSlide](../../baseslide)
 * пространство имен [Aspose.Slides](../../baseslide)
 * сборка [Aspose.Slides](../../../)
 

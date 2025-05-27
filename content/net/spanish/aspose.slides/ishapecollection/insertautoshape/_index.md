@@ -1,72 +1,73 @@
 ---
 title: InsertAutoShape
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea una nueva autoforma la ajusta a partir de la plantilla predeterminada y la inserta en la colección en el índice especificado. Nota el tipo de forma estará determinado por el parámetro shapeType.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Crea una nueva AutoShape, la ajusta a partir de la plantilla predeterminada y la inserta en la colección en el índice especificado. Tenga en cuenta que el tipo de la forma se determinará por el parámetro shapeType.
 type: docs
 weight: 250
 url: /es/aspose.slides/ishapecollection/insertautoshape/
 ---
+
 ## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
-Crea una nueva autoforma, la ajusta a partir de la plantilla predeterminada y la inserta en la colección en el índice especificado. Nota: el tipo de forma estará determinado por el parámetro shapeType.
+Crea una nueva AutoShape, la ajusta a partir de la plantilla predeterminada y la inserta en la colección en el índice especificado. Nota: el tipo de la forma se determinará por el parámetro shapeType.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
     float height)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | El índice de base cero en el que se debe insertar el valor. |
-| shapeType | ShapeType | Un[`ShapeType`](../../shapetype) de forma |
-| x | Single | La coordenada X del lado izquierdo del marco de la forma. |
-| y | Single | La coordenada Y para un lado superior del marco de la forma. |
+| index | Int32 | El índice basado en cero en el que se debe insertar el valor. |
+| shapeType | ShapeType | Un [`ShapeType`](../../shapetype) de forma. |
+| x | Single | La coordenada X para el lado izquierdo del marco de la forma. |
+| y | Single | La coordenada Y para el lado superior del marco de la forma. |
 | width | Single | El ancho del marco de la forma. |
 | height | Single | La altura del marco de la forma. |
 
-### Valor_devuelto
+### Valor de Retorno
 
-Objeto de autoforma creado.
+Objeto AutoShape creado.
 
-### Ver también
+### Véase También
 
-* interface [IAutoShape](../../iautoshape)
+* interfaz [IAutoShape](../../iautoshape)
 * enum [ShapeType](../../shapetype)
-* interface [IShapeCollection](../../ishapecollection)
-* espacio de nombres [Aspose.Slides](../../ishapecollection)
-* asamblea [Aspose.Slides](../../../)
+* interfaz [IShapeCollection](../../ishapecollection)
+* namespace [Aspose.Slides](../../ishapecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
 
-Crea una nueva autoforma y la inserta en la colección en el índice especificado. Nota: el tipo de forma estará determinado por el parámetro shapeType.
+Crea una nueva AutoShape y la inserta en la colección en el índice especificado. Nota: el tipo de la forma se determinará por el parámetro shapeType.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
     float height, bool createFromTemplate)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | El índice de base cero en el que se debe insertar el valor. |
-| shapeType | ShapeType | Un[`ShapeType`](../../shapetype) de forma |
-| x | Single | La coordenada X del lado izquierdo del marco de la forma. |
-| y | Single | La coordenada Y para un lado superior del marco de la forma. |
+| index | Int32 | El índice basado en cero en el que se debe insertar el valor. |
+| shapeType | ShapeType | Un [`ShapeType`](../../shapetype) de forma. |
+| x | Single | La coordenada X para el lado izquierdo del marco de la forma. |
+| y | Single | La coordenada Y para el lado superior del marco de la forma. |
 | width | Single | El ancho del marco de la forma. |
 | height | Single | La altura del marco de la forma. |
-| createFromTemplate | Boolean | Si es verdadero, la nueva forma se ajustará a partir de la plantilla predeterminada. Nombre no vacío, estilo simple, el texto centrado se asignará a la nueva forma. Si es falso, todos los valores de las propiedades de la nueva forma tendrán valores predeterminados. |
+| createFromTemplate | Boolean | Si es verdadero, entonces la nueva forma se ajustará a partir de la plantilla predeterminada. Se asignará un nombre no vacío, estilo simple y texto centrado a la nueva forma. Si es falso, entonces todos los valores de las propiedades de la nueva forma tendrán valores predeterminados. |
 
-### Valor_devuelto
+### Valor de Retorno
 
-Objeto de autoforma creado.
+Objeto AutoShape creado.
 
-### Ver también
+### Véase También
 
-* interface [IAutoShape](../../iautoshape)
+* interfaz [IAutoShape](../../iautoshape)
 * enum [ShapeType](../../shapetype)
-* interface [IShapeCollection](../../ishapecollection)
-* espacio de nombres [Aspose.Slides](../../ishapecollection)
-* asamblea [Aspose.Slides](../../../)
+* interfaz [IShapeCollection](../../ishapecollection)
+* namespace [Aspose.Slides](../../ishapecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

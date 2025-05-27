@@ -1,14 +1,15 @@
 ---
-title: Hide
+title: Скрыть
 second_title: Справочник по API Aspose.Slides для .NET
-description: Сделать метку данных скрытой установив все флаги Show ShowValue ... в ложное состояние. IsVisible после этого будет false.
+description: Сделайте метку данных скрытой, установив все флаги Show ShowValue, ... в состояние false. IsVisible будет равен false после этого.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/idatalabel/hide/
 ---
-## IDataLabel.Hide method
 
-Сделать метку данных скрытой, установив все флаги Show* (ShowValue, ...) в ложное состояние. IsVisible после этого будет false.
+## Метод IDataLabel.Hide
+
+Сделайте метку данных скрытой, установив все флаги Show* (ShowValue, ...) в состояние false. IsVisible будет равен false после этого.
 
 ```csharp
 public void Hide()
@@ -16,11 +17,11 @@ public void Hide()
 
 ### Примечания
 
-Если метка данных не видна (IsVisible имеет значение false), вы можете сделать метку данных видимой с помощью установка флагов Show* (ShowValue, ...) в истинное состояние.
+Если метка данных не видна (IsVisible равно false), вы можете сделать метку данных видимой, установив флаги Show* (ShowValue, ...) в состояние true.
 
-### Смотрите также
+### См. также
 
-* interface [IDataLabel](../../idatalabel)
+* интерфейс [IDataLabel](../../idatalabel)
 * пространство имен [Aspose.Slides.Charts](../../idatalabel)
 * сборка [Aspose.Slides](../../../)
 

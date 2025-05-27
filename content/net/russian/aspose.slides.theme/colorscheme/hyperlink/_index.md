@@ -1,23 +1,24 @@
 ---
-title: Hyperlink
+title: Гиперссылка
 second_title: Справочник по API Aspose.Slides для .NET
-description: Цвет гиперссылок. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Цвет для гиперссылок. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 100
 url: /ru/aspose.slides.theme/colorscheme/hyperlink/
 ---
-## ColorScheme.Hyperlink property
 
-Цвет гиперссылок. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+## Свойство ColorScheme.Hyperlink
+
+Цвет для гиперссылок. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Hyperlink { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IColorFormat](../../../aspose.slides/icolorformat)
-* class [ColorScheme](../../colorscheme)
+* интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
+* класс [ColorScheme](../../colorscheme)
 * пространство имен [Aspose.Slides.Theme](../../colorscheme)
 * сборка [Aspose.Slides](../../../)
 

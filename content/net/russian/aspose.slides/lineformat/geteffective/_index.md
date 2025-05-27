@@ -1,14 +1,15 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает действующие данные форматирования строки с примененным наследованием.
+second_title: Aspose.Sildes для .NET API справочник
+description: Получает эффективные данные форматирования линий с применением наследования.
 type: docs
 weight: 190
 url: /ru/aspose.slides/lineformat/geteffective/
 ---
-## LineFormat.GetEffective method
 
-Получает действующие данные форматирования строки с примененным наследованием.
+## Метод LineFormat.GetEffective
+
+Получает эффективные данные форматирования линий с применением наследования.
 
 ```csharp
 public ILineFormatEffectiveData GetEffective()
@@ -16,11 +17,11 @@ public ILineFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-AILLineFormatEffectiveData.
+[`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение эффективных свойств формата линии формы.
+Этот пример демонстрирует получение свойств эффективного формата линий фигуры.
 
 ```csharp
 [C#]
@@ -28,16 +29,16 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 {
 	ILineFormatEffectiveData effectiveLineFormat = pres.Slides[0].Shapes[0].LineFormat.GetEffective();
 
-	Console.WriteLine("Style: " + effectiveLineFormat.Style);
-	Console.WriteLine("Width: " + effectiveLineFormat.Width);
-	Console.WriteLine("Fill type: " + effectiveLineFormat.FillFormat.FillType);
+	Console.WriteLine("Стиль: " + effectiveLineFormat.Style);
+	Console.WriteLine("Ширина: " + effectiveLineFormat.Width);
+	Console.WriteLine("Тип заливки: " + effectiveLineFormat.FillFormat.FillType);
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
-* class [LineFormat](../../lineformat)
+* интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* класс [LineFormat](../../lineformat)
 * пространство имен [Aspose.Slides](../../lineformat)
 * сборка [Aspose.Slides](../../../)
 

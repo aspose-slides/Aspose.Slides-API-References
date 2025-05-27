@@ -1,23 +1,24 @@
 ---
-title: Slide
+title: Слайд
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительский слайд. Только для чтенияIBaseSlideaspose.slides/ibaseslide.
+description: Возвращает родительский слайд. Только для чтения IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 60
 url: /ru/aspose.slides.theme/formatscheme/slide/
 ---
-## FormatScheme.Slide property
 
-Возвращает родительский слайд. Только для чтения[`IBaseSlide`](../../../aspose.slides/ibaseslide).
+## Свойство FormatScheme.Slide
+
+Возвращает родительский слайд. Только для чтения [`IBaseSlide`](../../../aspose.slides/ibaseslide).
 
 ```csharp
 public IBaseSlide Slide { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBaseSlide](../../../aspose.slides/ibaseslide)
-* class [FormatScheme](../../formatscheme)
+* интерфейс [IBaseSlide](../../../aspose.slides/ibaseslide)
+* класс [FormatScheme](../../formatscheme)
 * пространство имен [Aspose.Slides.Theme](../../formatscheme)
 * сборка [Aspose.Slides](../../../)
 

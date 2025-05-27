@@ -1,22 +1,23 @@
 ---
 title: LastSavedTime
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает дату последнего изменения презентации. Только для чтения в случае Presentation.DocumentProperties поскольку он будет обновляться внутри во время процесса сохранения объекта IPresentation. Можно изменить с помощью экземпляра DocumentProperties возвращаемого методомReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties См. пример вUpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentpropertiesсводка методов.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает дату последнего изменения презентации. Значения в UTC. Только для чтения в случае Presentation.DocumentProperties, поскольку оно будет обновлено внутренне во время процесса сохранения объекта IPresentation. Может быть изменено через экземпляр DocumentProperties, возвращаемый методом ReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties. Пожалуйста, смотрите пример в методе резюме UpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentproperties.
 type: docs
-weight: 170
+weight: 200
 url: /ru/aspose.slides/documentproperties/lastsavedtime/
 ---
-## DocumentProperties.LastSavedTime property
 
-Возвращает дату последнего изменения презентации. Только для чтения в случае Presentation.DocumentProperties (поскольку он будет обновляться внутри во время процесса сохранения объекта IPresentation). Можно изменить с помощью экземпляра DocumentProperties, возвращаемого методом[`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties) См. пример в[`UpdateDocumentProperties`](../../ipresentationinfo/updatedocumentproperties)сводка методов.
+## Свойство DocumentProperties.LastSavedTime
+
+Возвращает дату последнего изменения презентации. Значения в UTC. Только для чтения в случае Presentation.DocumentProperties (поскольку оно будет обновлено внутренне во время процесса сохранения объекта IPresentation). Может быть изменено через экземпляр DocumentProperties, возвращаемый методом [`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties). Пожалуйста, смотрите пример в резюме метода [`UpdateDocumentProperties`](../../ipresentationinfo/updatedocumentproperties).
 
 ```csharp
 public DateTime LastSavedTime { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [DocumentProperties](../../documentproperties)
+* класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

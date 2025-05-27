@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Получает метку данных для точки данных с указанным индексом.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/idatalabelcollection/item/
 ---
-## IDataLabelCollection indexer
+
+## Индексатор IDataLabelCollection
 
 Получает метку данных для точки данных с указанным индексом.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides.charts/idatalabelcollection/item/
 public IDataLabel this[int index] { get; }
 ```
 
-### Примечания
+### Заметки
 
-Альтернативный способ доступа к метке данных: - SeriesEx.DataPoints[ i].Label - управление свойствами метки.
+Альтернативный способ доступа к метке данных: - SeriesEx.DataPoints[i].Label - управление свойствами метки.
 
-### Смотрите также
+### См. также
 
-* interface [IDataLabel](../../idatalabel)
-* interface [IDataLabelCollection](../../idatalabelcollection)
+* интерфейс [IDataLabel](../../idatalabel)
+* интерфейс [IDataLabelCollection](../../idatalabelcollection)
 * пространство имен [Aspose.Slides.Charts](../../idatalabelcollection)
 * сборка [Aspose.Slides](../../../)
 

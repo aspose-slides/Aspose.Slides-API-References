@@ -1,14 +1,15 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает данные об эффективном предустановленном эффекте тени с применением наследования.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Получает эффективные данные эффекта теней пресета с применением наследования.
 type: docs
 weight: 60
 url: /ru/aspose.slides.effects/presetshadow/geteffective/
 ---
-## PresetShadow.GetEffective method
 
-Получает данные об эффективном предустановленном эффекте тени с применением наследования.
+## Метод PresetShadow.GetEffective
+
+Получает эффективные данные эффекта теней пресета с применением наследования.
 
 ```csharp
 public IPresetShadowEffectiveData GetEffective()
@@ -16,12 +17,12 @@ public IPresetShadowEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IPresetShadowEffectiveData`](../../ipresetshadoweffectivedata).
+[`IPresetShadowEffectiveData`](../../ipresetshadoweffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [IPresetShadowEffectiveData](../../ipresetshadoweffectivedata)
-* class [PresetShadow](../../presetshadow)
+* интерфейс [IPresetShadowEffectiveData](../../ipresetshadoweffectivedata)
+* класс [PresetShadow](../../presetshadow)
 * пространство имен [Aspose.Slides.Effects](../../presetshadow)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: NotesText
-second_title: Справочник по API Aspose.Slides для .NET
-description: Текст на фигурах страницы заметок для этого слайда
+second_title: Aspose.Sildes для справки по API .NET
+description: Текст на страницах заметок для этого слайда
 type: docs
-weight: 30
+weight: 40
 url: /ru/aspose.slides/islidetext/notestext/
 ---
-## ISlideText.NotesText property
 
-Текст на фигурах страницы заметок для этого слайда
+## ISlideText.NotesText свойство
+
+Текст на страницах заметок для этого слайда
 
 ```csharp
 public string NotesText { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISlideText](../../islidetext)
+* интерфейс [ISlideText](../../islidetext)
 * пространство имен [Aspose.Slides](../../islidetext)
 * сборка [Aspose.Slides](../../../)
 

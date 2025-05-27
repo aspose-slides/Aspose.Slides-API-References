@@ -1,11 +1,12 @@
 ---
-title: Add
-second_title: Справочник по API Aspose.Slides для .NET
+title: Добавить
+second_title: Справка по API Aspose.Slides для .NET
 description: Добавить новую ячейку в коллекцию.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/chartcellcollection/add/
 ---
+
 ## Add(IChartDataCell) {#add}
 
 Добавить новую ячейку в коллекцию.
@@ -18,10 +19,10 @@ public void Add(IChartDataCell cell)
 | --- | --- | --- |
 | cell | IChartDataCell | Новая ячейка для добавления. |
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataCell](../../ichartdatacell)
-* class [ChartCellCollection](../../chartcellcollection)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* класс [ChartCellCollection](../../chartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcellcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -29,7 +30,7 @@ public void Add(IChartDataCell cell)
 
 ## Add(object) {#add_1}
 
-Создает[`ChartDataCell`](../../chartdatacell)из указанного значения и добавляет его в коллекцию.
+Создает [`ChartDataCell`](../../chartdatacell) из указанного значения и добавляет его в коллекцию.
 
 ```csharp
 public void Add(object value)
@@ -43,15 +44,15 @@ public void Add(object value)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | при превышении лимита |
+| InvalidOperationException | если превышен предел |
 
 ### Примечания
 
-Этот метод добавляет рабочий лист с именем AUTO_DATA и добавляет туда все значения. Если вы используете[`ChartDataWorkbook`](../../chartdataworkbook)для добавления или редактирования значений ячеек, убедитесь, что вы не используете этот рабочий лист Максимальное количество значений, добавляемых с помощью этого метод не должен превышать 16711680
+Этот метод добавляет рабочий лист с именем AUTO_DATA и добавляет все значения туда. Если вы используете [`ChartDataWorkbook`](../../chartdataworkbook) для добавления или редактирования значений ячеек, убедитесь, что вы не используете этот рабочий лист. Максимальное количество значений, добавленных с помощью этого метода, не должно превышать 16711680.
 
-### Смотрите также
+### См. также
 
-* class [ChartCellCollection](../../chartcellcollection)
+* класс [ChartCellCollection](../../chartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcellcollection)
 * сборка [Aspose.Slides](../../../)
 

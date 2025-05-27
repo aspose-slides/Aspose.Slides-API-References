@@ -1,14 +1,15 @@
 ---
 title: MathematicalTextFactory
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создать элемент MathematicalText
+second_title: Ссылка на API Aspose.Sildes для .NET
+description: Позволяет создавать элемент MathematicalText
 type: docs
-weight: 8340
+weight: 8800
 url: /ru/aspose.slides.mathtext/mathematicaltextfactory/
 ---
-## MathematicalTextFactory class
 
-Позволяет создать элемент MathematicalText
+## Класс MathematicalTextFactory
+
+Позволяет создавать элемент MathematicalText
 
 ```csharp
 public class MathematicalTextFactory : IMathematicalTextFactory
@@ -16,13 +17,13 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [MathematicalTextFactory](mathematicaltextfactory)() | Конструктор по умолчанию. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Создать пустой элемент математического текста |
 | [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Создать элемент математического текста с указанным значением |
@@ -31,11 +32,11 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 ### Примечания
 
-Для COM-совместимости
+Для совместимости с COM
 
-### Смотрите также
+### См. также
 
-* interface [IMathematicalTextFactory](../imathematicaltextfactory)
+* интерфейс [IMathematicalTextFactory](../imathematicaltextfactory)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

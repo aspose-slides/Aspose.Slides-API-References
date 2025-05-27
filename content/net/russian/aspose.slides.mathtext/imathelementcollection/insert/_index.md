@@ -1,14 +1,15 @@
 ---
-title: Insert
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вставляет математический элемент в коллекцию по указанному индексу.
+title: Вставка
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Вставляет математический элемент в коллекцию по заданному индексу.
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/imathelementcollection/insert/
 ---
-## IMathElementCollection.Insert method
 
-Вставляет математический элемент в коллекцию по указанному индексу.
+## Метод IMathElementCollection.Insert
+
+Вставляет математический элемент в коллекцию по заданному индексу.
 
 ```csharp
 public void Insert(int index, IMathElement item)
@@ -16,8 +17,8 @@ public void Insert(int index, IMathElement item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить IMathElement. |
-| item | IMathElement | IMathElement для вставки. |
+| index | Int32 | Индекс с нуля, по которому должен быть вставлен IMathElement. |
+| item | IMathElement | IMathElement, который необходимо вставить. |
 
 ### Примеры
 
@@ -31,10 +32,10 @@ collection.Add(plusElement);
 collection.Insert(0, new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathElementCollection](../../imathelementcollection)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathElementCollection](../../imathelementcollection)
 * пространство имен [Aspose.Slides.MathText](../../imathelementcollection)
 * сборка [Aspose.Slides](../../../)
 

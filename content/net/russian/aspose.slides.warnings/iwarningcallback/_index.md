@@ -1,12 +1,13 @@
 ---
 title: IWarningCallback
-second_title: Справочник по API Aspose.Slides для .NET
-description: Интерфейс для классов которые получают предупреждения
+second_title: Aspose.Sildes для .NET API Справочник
+description: Интерфейс для классов, которые получают предупреждения
 type: docs
-weight: 10990
+weight: 11490
 url: /ru/aspose.slides.warnings/iwarningcallback/
 ---
-## IWarningCallback interface
+
+## Интерфейс IWarningCallback
 
 Интерфейс для классов, которые получают предупреждения
 
@@ -16,11 +17,11 @@ public interface IWarningCallback
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Метод обратного вызова, который получает предупреждение и решает, следует ли прервать операцию. |
+| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Метод обратного вызова, который получает предупреждение и решает, следует ли прерывать операцию. |
 
-### Смотрите также
+### Также см.
 
 * пространство имен [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * сборка [Aspose.Slides](../../)

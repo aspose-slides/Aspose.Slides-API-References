@@ -1,23 +1,24 @@
 ---
 title: CellFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект CellFormat который содержит свойства форматирования для этой ячейки. Только для чтенияICellFormataspose.slides/icellformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает объект CellFormat, который содержит свойства форматирования для этой ячейки. Только для чтения ICellFormataspose.slides/icellformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides/icell/cellformat/
 ---
-## ICell.CellFormat property
 
-Возвращает объект CellFormat, который содержит свойства форматирования для этой ячейки. Только для чтения[`ICellFormat`](../../icellformat).
+## Свойство ICell.CellFormat
+
+Возвращает объект CellFormat, который содержит свойства форматирования для этой ячейки. Только для чтения [`ICellFormat`](../../icellformat).
 
 ```csharp
 public ICellFormat CellFormat { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ICellFormat](../../icellformat)
-* interface [ICell](../../icell)
+* интерфейс [ICellFormat](../../icellformat)
+* интерфейс [ICell](../../icell)
 * пространство имен [Aspose.Slides](../../icell)
 * сборка [Aspose.Slides](../../../)
 

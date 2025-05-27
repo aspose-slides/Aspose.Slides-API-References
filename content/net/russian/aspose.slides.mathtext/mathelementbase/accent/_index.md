@@ -1,14 +1,15 @@
 ---
-title: Accent
+title: Акцент
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает знак ударения символ над этим элементом
+description: Устанавливает акцентный знак символ на верхней части этого элемента
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathelementbase/accent/
 ---
-## MathElementBase.Accent method
 
-Устанавливает знак ударения (символ над этим элементом)
+## Метод MathElementBase.Accent
+
+Устанавливает акцентный знак (символ на верхней части этого элемента)
 
 ```csharp
 public IMathAccent Accent(char accentCharacter)
@@ -16,11 +17,11 @@ public IMathAccent Accent(char accentCharacter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| accentCharacter | Char | Символ ударения. Значение должно находиться в диапазоне (U+0300–U+036F) или (U+20D0–U+20EF) |
+| accentCharacter | Char | Акцентный символ. Значение должно находиться в пределах (U+0300–U+036F) или (U+20D0–U+20EF) |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathAccent`](../../imathaccent)
+Новый экземпляр типа [`IMathAccent`](../../imathaccent)
 
 ### Примеры
 
@@ -31,10 +32,10 @@ public IMathAccent Accent(char accentCharacter)
 IMathAccent accent = new MathematicalText("x").Accent('~');
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IMathAccent](../../imathaccent)
-* class [MathElementBase](../../mathelementbase)
+* интерфейс [IMathAccent](../../imathaccent)
+* класс [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 

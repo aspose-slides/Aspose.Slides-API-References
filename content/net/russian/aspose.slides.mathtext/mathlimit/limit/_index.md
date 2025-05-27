@@ -1,14 +1,15 @@
 ---
-title: Limit
-second_title: Справочник по API Aspose.Slides для .NET
-description: Предельный аргумент
+title: Предел
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Аргумент предела
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathlimit/limit/
 ---
-## MathLimit.Limit property
 
-Предельный аргумент
+## MathLimit.Limit свойство
+
+Аргумент предела
 
 ```csharp
 public IMathElement Limit { get; }
@@ -24,10 +25,10 @@ MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathemat
 IMathElement limitArg = limitElement.Limit;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathLimit](../../mathlimit)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathLimit](../../mathlimit)
 * пространство имен [Aspose.Slides.MathText](../../mathlimit)
 * сборка [Aspose.Slides](../../../)
 

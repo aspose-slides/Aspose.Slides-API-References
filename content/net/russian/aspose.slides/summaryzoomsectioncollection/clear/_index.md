@@ -1,12 +1,13 @@
 ---
-title: Clear
-second_title: Справочник по API Aspose.Slides для .NET
+title: Очистить
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Удаляет все объекты SummaryZoomSection из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/summaryzoomsectioncollection/clear/
 ---
-## SummaryZoomSectionCollection.Clear method
+
+## Метод SummaryZoomSectionCollection.Clear
 
 Удаляет все объекты SummaryZoomSection из коллекции.
 
@@ -30,7 +31,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### Смотрите также
 
-* class [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
+* класс [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * пространство имен [Aspose.Slides](../../summaryzoomsectioncollection)
 * сборка [Aspose.Slides](../../../)
 

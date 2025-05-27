@@ -1,43 +1,44 @@
 ---
 title: ColumnCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор столбцов в таблице.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет коллекцию столбцов в таблице.
 type: docs
-weight: 2450
+weight: 2510
 url: /ru/aspose.slides/columncollection/
 ---
-## ColumnCollection class
 
-Представляет набор столбцов в таблице.
+## Класс ColumnCollection
+
+Представляет коллекцию столбцов в таблице.
 
 ```csharp
 public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollection
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/columncollection/count) { get; } | Возвращает количество столбцов в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/columncollection/item) { get; } | Возвращает столбец по указанному индексу. Только чтение[`Column`](../column). |
-| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/columncollection/count) { get; } | Возвращает количество столбцов в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потоко-безопасный). Только для чтения Boolean. |
+| [Item](../../aspose.slides/columncollection/item) { get; } | Возвращает столбец по указанному индексу. Только для чтения [`Column`](../column). |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Создает копию указанной строки шаблона и вставляет ее внизу таблицы. |
-| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Создает копию указанного столбца шаблона и вставляет его в указанную позицию в таблице. |
-| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Удаляет столбец в указанной позиции из таблицы. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Создает копию указанной шаблонной строки и вставляет ее в конец таблицы. |
+| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанной массив. |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Возвращает перечислитель, который проходит через коллекцию. |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Создает копию указанного шаблонного столбца и вставляет его в указанное положение в таблице. |
+| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Удаляет столбец по указанному положению из таблицы. |
 
-### Смотрите также
+### См. Также
 
-* class [DomObject&lt;TParent&gt;](../domobject-1)
-* class [RowCollection](../rowcollection)
-* interface [IColumnCollection](../icolumncollection)
+* класс [DomObject&lt;TParent&gt;](../domobject-1)
+* класс [RowCollection](../rowcollection)
+* интерфейс [IColumnCollection](../icolumncollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

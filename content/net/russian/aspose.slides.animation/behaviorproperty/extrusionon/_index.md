@@ -6,7 +6,8 @@ type: docs
 weight: 70
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionon/
 ---
-## BehaviorProperty.ExtrusionOn property
+
+## Свойство BehaviorProperty.ExtrusionOn
 
 Представляет свойство 'extrusion.on'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionon/
 public static BehaviorProperty ExtrusionOn { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

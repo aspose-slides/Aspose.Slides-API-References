@@ -1,14 +1,15 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает данные об эффективном эффекте Tint с применением наследования.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает эффективные данные эффекта Tint с применением наследования.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/tint/geteffective/
 ---
-## Tint.GetEffective method
 
-Получает данные об эффективном эффекте Tint с применением наследования.
+## Tint.GetEffective метод
+
+Получает эффективные данные эффекта Tint с применением наследования.
 
 ```csharp
 public ITintEffectiveData GetEffective()
@@ -16,12 +17,12 @@ public ITintEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`ITintEffectiveData`](../../itinteffectivedata).
+[`ITintEffectiveData`](../../itinteffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [ITintEffectiveData](../../itinteffectivedata)
-* class [Tint](../../tint)
+* интерфейс [ITintEffectiveData](../../itinteffectivedata)
+* класс [Tint](../../tint)
 * пространство имен [Aspose.Slides.Effects](../../tint)
 * сборка [Aspose.Slides](../../../)
 

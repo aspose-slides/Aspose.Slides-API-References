@@ -1,22 +1,23 @@
 ---
-title: NamesOfProperties
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию имен свойств. Только для чтенияICollection.
+title: ИменаСвойств
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает коллекцию имен свойств. Только для чтения ICollection.
 type: docs
 weight: 30
 url: /ru/aspose.slides/controlpropertiescollection/namesofproperties/
 ---
-## ControlPropertiesCollection.NamesOfProperties property
 
-Возвращает коллекцию имен свойств. Только для чтенияICollection.
+## ControlPropertiesCollection.NamesOfProperties свойство
+
+Возвращает коллекцию имен свойств. Только для чтения ICollection.
 
 ```csharp
 public ICollection NamesOfProperties { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [ControlPropertiesCollection](../../controlpropertiescollection)
+* класс [ControlPropertiesCollection](../../controlpropertiescollection)
 * пространство имен [Aspose.Slides](../../controlpropertiescollection)
 * сборка [Aspose.Slides](../../../)
 

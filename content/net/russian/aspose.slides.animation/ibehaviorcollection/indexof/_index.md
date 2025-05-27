@@ -1,14 +1,15 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет индекс конкретного элемента вIList.
+second_title: Aspose.Slides для .NET API Reference
+description: Определяет индекс конкретного элемента в IList.
 type: docs
 weight: 70
 url: /ru/aspose.slides.animation/ibehaviorcollection/indexof/
 ---
-## IBehaviorCollection.IndexOf method
 
-Определяет индекс конкретного элемента вIList.
+## IBehaviorCollection.IndexOf метод
+
+Определяет индекс конкретного элемента в IList.
 
 ```csharp
 public int IndexOf(IBehavior item)
@@ -16,16 +17,16 @@ public int IndexOf(IBehavior item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IBehavior | Объект для размещения вIList. |
+| item | IBehavior | Объект, который нужно найти в IList. |
 
 ### Возвращаемое значение
 
-Индекс*item*если он найден в списке; иначе -1.
+Индекс *item*, если он найден в списке; в противном случае -1.
 
-### Смотрите также
+### См. Также
 
-* interface [IBehavior](../../ibehavior)
-* interface [IBehaviorCollection](../../ibehaviorcollection)
+* интерфейс [IBehavior](../../ibehavior)
+* интерфейс [IBehaviorCollection](../../ibehaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorcollection)
 * сборка [Aspose.Slides](../../../)
 

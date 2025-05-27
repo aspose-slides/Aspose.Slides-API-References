@@ -1,14 +1,15 @@
 ---
 title: DataLabelCollection
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa una serie de etiquetas.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa las etiquetas de una serie.
 type: docs
-weight: 1420
+weight: 1480
 url: /es/aspose.slides.charts/datalabelcollection/
 ---
-## DataLabelCollection class
 
-Representa una serie de etiquetas.
+## Clase DataLabelCollection
+
+Representa las etiquetas de una serie.
 
 ```csharp
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
@@ -18,28 +19,29 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Devuelve el gráfico principal. Solo lectura[`IChart`](../ichart) . |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Obtiene el número de todas las etiquetas de datos de la colección. Solo lecturaInt32 . |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Obtiene el número de etiquetas de datos visibles en la colección. Solo lecturaInt32 . |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Obtiene el formato de etiqueta de datos predeterminado. Solo lectura[`IDataLabelFormat`](../idatalabelformat) . |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | Falso significa que la etiqueta de datos no está visible de forma predeterminada (por lo que todos los indicadores Show* (ShowValue, ...) de la propiedad DefaultDataLabelFormat son falsos). Solo lecturaBoolean . |
+| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Devuelve el gráfico padre. Solo lectura [`IChart`](../ichart). |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Obtiene el número total de etiquetas de datos en la colección. Solo lectura Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Obtiene el número de etiquetas de datos visibles en la colección. Solo lectura Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Obtiene el formato de etiqueta de datos predeterminado. Solo lectura [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | Falso significa que la etiqueta de datos no es visible por defecto (y por lo tanto todas las banderas Show*- (ShowValue, ...) de la propiedad DefaultDataLabelFormat son falsas). Solo lectura Boolean. |
 | [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Obtiene la etiqueta de datos para el punto de datos con el índice especificado. |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Obtiene la serie principal. Solo lectura[`IChartSeries`](../ichartseries) . |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Representa el formato de las líneas líderes de las etiquetas de datos. Solo lectura [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Obtiene la serie padre. Solo lectura [`IChartSeries`](../ichartseries). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Oculte la etiqueta de datos de forma predeterminada configurando todos los indicadores Mostrar* (ShowValue, ...) de la propiedad DefaultDataLabelFormat en estado falso. IsVisible será falso después de esto. |
-| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Devuelve un índice del DataLabel especificado en la colección. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Hace que la etiqueta de datos esté oculta por defecto configurando todas las banderas Show*- (ShowValue, ...) de la propiedad DefaultDataLabelFormat a estado falso. IsVisible será falso después de esto. |
+| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Devuelve un índice de la DataLabel especificada en la colección. |
 
-### Ver también
+### Ver También
 
-* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* class [ChartSeries](../chartseries)
-* interface [IDataLabelCollection](../idatalabelcollection)
+* clase [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* clase [ChartSeries](../chartseries)
+* interfaz [IDataLabelCollection](../idatalabelcollection)
 * espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
-* asamblea [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

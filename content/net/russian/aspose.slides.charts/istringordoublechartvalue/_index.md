@@ -1,26 +1,27 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет строку или двойное значение которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги связанной с диаграммой  2 как буквальное значение.
+second_title: Aspose.Slides для .NET API Референс
+description: Представляет строковое или двойное значение, которое может быть сохранено в документе pptx в двух формах: 1 в ячейке/ячейках рабочей книги, связанных с графиком; 2 как литерал.
 type: docs
-weight: 2090
+weight: 2150
 url: /ru/aspose.slides.charts/istringordoublechartvalue/
 ---
-## IStringOrDoubleChartValue interface
 
-Представляет строку или двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой ; 2) как буквальное значение.
+## Интерфейс IStringOrDoubleChartValue
+
+Представляет строковое или двойное значение, которое может быть сохранено в документе pptx в двух формах: 1) в ячейке/ячейках рабочей книги, связанных с графиком; 2) как литерал.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения[`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Возвращает или задает литерал double, если свойство DataSourceType имеет значение DataSourceType.DoubleLiterals. Чтение/записьDouble. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Возвращает или задает литеральную строку, если свойство DataSourceType имеет значение DataSourceType.StringLiterals. Чтение/записьString. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Возвращает или устанавливает литерал двойного значения, если свойство DataSourceType имеет значение DataSourceType.DoubleLiterals. Чтение/запись Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Возвращает или устанавливает литерал строкового значения, если свойство DataSourceType имеет значение DataSourceType.StringLiterals. Чтение/запись String. |
 
 ## Методы
 
@@ -28,9 +29,9 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Преобразует значение в двойное. |
 
-### Смотрите также
+### См. также
 
-* interface [ISingleCellChartValue](../isinglecellchartvalue)
+* интерфейс [ISingleCellChartValue](../isinglecellchartvalue)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

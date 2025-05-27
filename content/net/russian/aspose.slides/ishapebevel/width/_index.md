@@ -1,22 +1,23 @@
 ---
-title: Width
+title: Ширина
 second_title: Справочник по API Aspose.Slides для .NET
-description: Ширина фаски. Чтение/записьDouble.
+description: Ширина скошенной грани. Читаемое/Записываемое значение Double.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ishapebevel/width/
 ---
-## IShapeBevel.Width property
 
-Ширина фаски. Чтение/записьDouble.
+## Свойство IShapeBevel.Width
+
+Ширина скошенной грани. Читаемое/Записываемое значение Double.
 
 ```csharp
 public double Width { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IShapeBevel](../../ishapebevel)
+* интерфейс [IShapeBevel](../../ishapebevel)
 * пространство имен [Aspose.Slides](../../ishapebevel)
 * сборка [Aspose.Slides](../../../)
 

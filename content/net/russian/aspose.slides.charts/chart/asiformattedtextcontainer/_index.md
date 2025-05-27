@@ -1,23 +1,24 @@
 ---
 title: AsIFormattedTextContainer
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтенияIFormattedTextContaineraspose.slides.charts/iformattedtextcontainer.
+second_title: Справка по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения IFormattedTextContaineraspose.slides.charts/iformattedtextcontainer.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chart/asiformattedtextcontainer/
 ---
-## Chart.AsIFormattedTextContainer property
 
-Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../../iformattedtextcontainer).
+## Свойство Chart.AsIFormattedTextContainer
+
+Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения [`IFormattedTextContainer`](../../iformattedtextcontainer).
 
 ```csharp
 public IFormattedTextContainer AsIFormattedTextContainer { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFormattedTextContainer](../../iformattedtextcontainer)
-* class [Chart](../../chart)
+* интерфейс [IFormattedTextContainer](../../iformattedtextcontainer)
+* класс [Chart](../../chart)
 * пространство имен [Aspose.Slides.Charts](../../chart)
 * сборка [Aspose.Slides](../../../)
 

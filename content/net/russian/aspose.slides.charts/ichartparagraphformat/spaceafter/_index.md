@@ -1,22 +1,23 @@
 ---
 title: SpaceAfter
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает количество места после последней строки в абзаце. Чтение/записьSingle.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает количество пространства после последней строки в абзаце. Чтение/запись Single.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/ichartparagraphformat/spaceafter/
 ---
-## IChartParagraphFormat.SpaceAfter property
 
-Возвращает или задает количество места после последней строки в абзаце. Чтение/записьSingle.
+## Свойство IChartParagraphFormat.SpaceAfter
+
+Возвращает или задает количество пространства после последней строки в абзаце. Чтение/запись Single.
 
 ```csharp
 public float SpaceAfter { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartParagraphFormat](../../ichartparagraphformat)
+* интерфейс [IChartParagraphFormat](../../ichartparagraphformat)
 * пространство имен [Aspose.Slides.Charts](../../ichartparagraphformat)
 * сборка [Aspose.Slides](../../../)
 

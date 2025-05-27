@@ -1,12 +1,13 @@
 ---
 title: RenderingOptions
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/renderingoptions/renderingoptions/
 ---
-## RenderingOptions constructor
+
+## Конструктор RenderingOptions
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.export/renderingoptions/renderingoptions/
 public RenderingOptions()
 ```
 
-### Смотрите также
+### Также смотрите
 
-* class [RenderingOptions](../../renderingoptions)
+* класс [RenderingOptions](../../renderingoptions)
 * пространство имен [Aspose.Slides.Export](../../renderingoptions)
 * сборка [Aspose.Slides](../../../)
 

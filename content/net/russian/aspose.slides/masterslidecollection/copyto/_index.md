@@ -1,12 +1,13 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 60
 url: /ru/aspose.slides/masterslidecollection/copyto/
 ---
-## MasterSlideCollection.CopyTo method
+
+## Метод MasterSlideCollection.CopyTo
 
 Копирует все элементы из коллекции в указанный массив.
 
@@ -21,7 +22,7 @@ public void CopyTo(Array array, int index)
 
 ### Смотрите также
 
-* class [MasterSlideCollection](../../masterslidecollection)
+* класс [MasterSlideCollection](../../masterslidecollection)
 * пространство имен [Aspose.Slides](../../masterslidecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
-title: Count
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
+title: Количество
+second_title: Справка по API Aspose.Slides для .NET
+description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/commentcollection/count/
 ---
-## CommentCollection.Count property
 
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
+## Свойство CommentCollection.Count
+
+Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [CommentCollection](../../commentcollection)
+* класс [CommentCollection](../../commentcollection)
 * пространство имен [Aspose.Slides](../../commentcollection)
 * сборка [Aspose.Slides](../../../)
 

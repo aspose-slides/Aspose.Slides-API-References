@@ -1,14 +1,15 @@
 ---
 title: ToBorderBox
-second_title: Справочник по API Aspose.Slides для .NET
-description: Помещает этот элемент в рамку
+second_title: Aspose.Slides для .NET API Справочник
+description: Размещает этот элемент в границах
 type: docs
 weight: 190
 url: /ru/aspose.slides.mathtext/imathelement/toborderbox/
 ---
+
 ## ToBorderBox() {#toborderbox}
 
-Помещает этот элемент в рамку
+Размещает этот элемент в границах
 
 ```csharp
 public IMathBorderBox ToBorderBox()
@@ -16,7 +17,7 @@ public IMathBorderBox ToBorderBox()
 
 ### Возвращаемое значение
 
-Рамка с этот элемент помещен внутри
+Границы с этим элементом внутри
 
 ### Примеры
 
@@ -27,10 +28,10 @@ public IMathBorderBox ToBorderBox()
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathBorderBox](../../imathborderbox)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathBorderBox](../../imathborderbox)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
@@ -38,7 +39,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 
 ## ToBorderBox(bool, bool, bool, bool, bool, bool, bool, bool) {#toborderbox_1}
 
-Помещает этот элемент в рамку
+Размещает этот элемент в границах
 
 ```csharp
 public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, bool hideRight, 
@@ -48,18 +49,18 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hideTop | Boolean | Hide Top Край |
+| hideTop | Boolean | Скрыть верхний край |
 | hideBottom | Boolean | Скрыть нижний край |
 | hideLeft | Boolean | Скрыть левый край |
 | hideRight | Boolean | Скрыть правый край |
-| strikethroughHorizontal | Boolean | Border Box Strikethrough Horizontal |
-| strikethroughVertical | Boolean | Рамка, перечеркнутая по вертикали |
-| strikethroughBottomLeftToTopRight | Boolean | Border Box, перечеркнутая снизу слева вверх-справа |
-| strikethroughTopLeftToBottomRight | Boolean | Пограничный блок, перечеркнутый сверху слева и снизу справа |
+| strikethroughHorizontal | Boolean | Перечеркивание горизонтальной границы |
+| strikethroughVertical | Boolean | Перечеркивание вертикальной границы |
+| strikethroughBottomLeftToTopRight | Boolean | Перечеркивание границы снизу слева до верхнего справа |
+| strikethroughTopLeftToBottomRight | Boolean | Перечеркивание границы сверху слева до нижнего справа |
 
 ### Возвращаемое значение
 
-Пограничный блок с этим элементом, размещенным внутри
+Границы с этим элементом внутри
 
 ### Примеры
 
@@ -70,10 +71,10 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox(false, false, true, true, false, false, false, false);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathBorderBox](../../imathborderbox)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathBorderBox](../../imathborderbox)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

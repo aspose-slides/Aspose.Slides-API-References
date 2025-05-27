@@ -1,11 +1,12 @@
 ---
 title: CreateMathBlock
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создать математический блок
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathblockfactory/createmathblock/
 ---
+
 ## CreateMathBlock() {#createmathblock}
 
 Создать математический блок
@@ -18,10 +19,10 @@ public IMathBlock CreateMathBlock()
 
 новый математический блок
 
-### Смотрите также
+### См. также
 
-* interface [IMathBlock](../../imathblock)
-* class [MathBlockFactory](../../mathblockfactory)
+* интерфейс [IMathBlock](../../imathblock)
+* класс [MathBlockFactory](../../mathblockfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathblockfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -29,7 +30,7 @@ public IMathBlock CreateMathBlock()
 
 ## CreateMathBlock(IMathElement) {#createmathblock_1}
 
-Создайте математический блок и поместите в него элемент
+Создать математический блок и поместить элемент в него
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElement mathElement)
@@ -43,11 +44,11 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 
 новый математический блок
 
-### Смотрите также
+### См. также
 
-* interface [IMathBlock](../../imathblock)
-* interface [IMathElement](../../imathelement)
-* class [MathBlockFactory](../../mathblockfactory)
+* интерфейс [IMathBlock](../../imathblock)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathBlockFactory](../../mathblockfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathblockfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -55,7 +56,7 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 
 ## CreateMathBlock(IMathElementCollection) {#createmathblock_2}
 
-Создать математический блок и поместить в него элементы
+Создать математический блок и поместить элементы в него
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
@@ -63,17 +64,17 @@ public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElements | IMathElementCollection | math элементы |
+| mathElements | IMathElementCollection | математические элементы |
 
 ### Возвращаемое значение
 
 новый математический блок
 
-### Смотрите также
+### См. также
 
-* interface [IMathBlock](../../imathblock)
-* interface [IMathElementCollection](../../imathelementcollection)
-* class [MathBlockFactory](../../mathblockfactory)
+* интерфейс [IMathBlock](../../imathblock)
+* интерфейс [IMathElementCollection](../../imathelementcollection)
+* класс [MathBlockFactory](../../mathblockfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathblockfactory)
 * сборка [Aspose.Slides](../../../)
 

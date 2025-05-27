@@ -1,22 +1,23 @@
 ---
 title: EncryptionPassword
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает пароль который используется для шифрования презентации. Только чтениеString.
+second_title: Aspose.Slides для .NET Справочник API
+description: Получает пароль, который используется для шифрования презентации. Только для чтения строка.
 type: docs
 weight: 20
 url: /ru/aspose.slides/protectionmanager/encryptionpassword/
 ---
-## ProtectionManager.EncryptionPassword property
 
-Получает пароль, который используется для шифрования презентации. Только чтениеString.
+## Свойство ProtectionManager.EncryptionPassword
+
+Получает пароль, который используется для шифрования презентации. Только для чтения строка.
 
 ```csharp
 public string EncryptionPassword { get; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
-* class [ProtectionManager](../../protectionmanager)
+* класс [ProtectionManager](../../protectionmanager)
 * пространство имен [Aspose.Slides](../../protectionmanager)
 * сборка [Aspose.Slides](../../../)
 

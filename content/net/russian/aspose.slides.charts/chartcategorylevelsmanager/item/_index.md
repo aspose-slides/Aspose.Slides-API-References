@@ -1,14 +1,15 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект IChartDataCell для заданного уровня.
+title: Элемент
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает объект IChartDataCell для определенного уровня.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartcategorylevelsmanager/item/
 ---
-## ChartCategoryLevelsManager indexer
 
-Возвращает объект IChartDataCell для заданного уровня.
+## Индексатор ChartCategoryLevelsManager
+
+Возвращает объект IChartDataCell для определенного уровня.
 
 ```csharp
 public IChartDataCell this[int level] { get; }
@@ -16,8 +17,8 @@ public IChartDataCell this[int level] { get; }
 
 ### Смотрите также
 
-* interface [IChartDataCell](../../ichartdatacell)
-* class [ChartCategoryLevelsManager](../../chartcategorylevelsmanager)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* класс [ChartCategoryLevelsManager](../../chartcategorylevelsmanager)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorylevelsmanager)
 * сборка [Aspose.Slides](../../../)
 

@@ -3,10 +3,11 @@ title: IRow
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет строку в таблице.
 type: docs
-weight: 6290
+weight: 6650
 url: /ru/aspose.slides/irow/
 ---
-## IRow interface
+
+## Интерфейс IRow
 
 Представляет строку в таблице.
 
@@ -14,20 +15,20 @@ url: /ru/aspose.slides/irow/
 public interface IRow : IBulkTextFormattable, ICellCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения[`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Позволяет получить базовый интерфейс ICellCollection. Только для чтения[`ICellCollection`](../icellcollection). |
-| [Height](../../aspose.slides/irow/height) { get; } | Возвращает высоту строки. Только для чтенияDouble. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Возвращает или задает минимально возможную высоту строки. Чтение/записьDouble. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Возвращает объект RowFormat, который содержит свойства форматирования для этой строки. Только для чтения[`IRowFormat`](../irowformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Позволяет получить базовый интерфейс ICellCollection. Только для чтения [`ICellCollection`](../icellcollection). |
+| [Height](../../aspose.slides/irow/height) { get; } | Возвращает высоту строки. Только для чтения Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Возвращает или устанавливает минимально возможную высоту строки. Чтение/запись Double. |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Возвращает объект RowFormat, который содержит свойства форматирования для этой строки. Только для чтения [`IRowFormat`](../irowformat). |
 
-### Смотрите также
+### См. Также
 
-* interface [IBulkTextFormattable](../ibulktextformattable)
-* interface [ICellCollection](../icellcollection)
+* интерфейс [IBulkTextFormattable](../ibulktextformattable)
+* интерфейс [ICellCollection](../icellcollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

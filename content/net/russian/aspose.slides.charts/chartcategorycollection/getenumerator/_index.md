@@ -1,27 +1,28 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает перечислитель, который проходит по коллекции.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/chartcategorycollection/getenumerator/
 ---
-## ChartCategoryCollection.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+## Метод ChartCategoryCollection.GetEnumerator
+
+Возвращает перечислитель, который проходит по коллекции.
 
 ```csharp
 public IEnumerator<IChartCategory> GetEnumerator()
 ```
 
-### Возвращаемое значение
+### Значение, возвращаемое методом
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для перебора коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IChartCategory](../../ichartcategory)
-* class [ChartCategoryCollection](../../chartcategorycollection)
+* интерфейс [IChartCategory](../../ichartcategory)
+* класс [ChartCategoryCollection](../../chartcategorycollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorycollection)
 * сборка [Aspose.Slides](../../../)
 

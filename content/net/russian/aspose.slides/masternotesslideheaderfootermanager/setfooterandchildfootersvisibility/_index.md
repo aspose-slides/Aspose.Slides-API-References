@@ -1,14 +1,15 @@
 ---
 title: SetFooterAndChildFootersVisibility
 second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет видимость заполнителей нижнего колонтитула мастер-слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+description: Изменяет видимость элемента-заголовка нижнего колонтитула слайда и всех дочерних элементов-заголовков нижнего колонтитула. Дочерние элементы-заголовки означают, что элементы содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 type: docs
 weight: 40
 url: /ru/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
-## MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersVisibility method
 
-Изменяет видимость заполнителей нижнего колонтитула мастер-слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+## Метод MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersVisibility
+
+Изменяет видимость элемента-заголовка нижнего колонтитула слайда и всех дочерних элементов-заголовков нижнего колонтитула. Дочерние элементы-заголовки означают, что элементы содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -16,11 +17,11 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнители нижнего колонтитула видимыми, иначе - скрывает их. |
+| isVisible | Boolean | true - делает элементы-заголовки нижнего колонтитула видимыми, в противном случае - скрывает их. |
 
-### Смотрите также
+### См. также
 
-* class [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
+* класс [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masternotesslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

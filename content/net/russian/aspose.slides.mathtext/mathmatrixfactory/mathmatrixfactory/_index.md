@@ -1,12 +1,13 @@
 ---
 title: MathMatrixFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathmatrixfactory/mathmatrixfactory/
 ---
-## MathMatrixFactory constructor
+
+## Конструктор MathMatrixFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.mathtext/mathmatrixfactory/mathmatrixfactory/
 public MathMatrixFactory()
 ```
 
-### Смотрите также
+### Также смотрите
 
-* class [MathMatrixFactory](../../mathmatrixfactory)
+* класс [MathMatrixFactory](../../mathmatrixfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrixfactory)
 * сборка [Aspose.Slides](../../../)
 

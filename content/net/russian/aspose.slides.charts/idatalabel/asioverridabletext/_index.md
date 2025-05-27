@@ -1,27 +1,28 @@
 ---
 title: AsIOverridableText
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IOverridableText. Только для чтенияIOverridableTextaspose.slides.charts/ioverridabletext.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает интерфейс IOverridableText. Только для чтения IOverridableTextaspose.slides.charts/ioverridabletext.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/idatalabel/asioverridabletext/
 ---
-## IDataLabel.AsIOverridableText property
 
-Возвращает интерфейс IOverridableText. Только для чтения[`IOverridableText`](../../ioverridabletext).
+## IDataLabel.AsIOverridableText свойство
+
+Возвращает интерфейс IOverridableText. Только для чтения [`IOverridableText`](../../ioverridabletext).
 
 ```csharp
 public IOverridableText AsIOverridableText { get; }
 ```
 
-### Примечания
+### Замечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IOverridableText](../../ioverridabletext)
-* interface [IDataLabel](../../idatalabel)
+* интерфейс [IOverridableText](../../ioverridabletext)
+* интерфейс [IDataLabel](../../idatalabel)
 * пространство имен [Aspose.Slides.Charts](../../idatalabel)
 * сборка [Aspose.Slides](../../../)
 

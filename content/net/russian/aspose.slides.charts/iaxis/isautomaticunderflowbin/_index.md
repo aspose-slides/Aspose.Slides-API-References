@@ -1,22 +1,23 @@
 ---
 title: IsAutomaticUnderflowBin
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет значение корзины для автоматического недополнения. Если falseиспользовать свойство UnderflowBin.
+second_title: Справка по API Aspose.Slides для .NET
+description: Указывает значение автоматического подбора диапазона. Если false, используйте свойство UnderflowBin.
 type: docs
 weight: 250
 url: /ru/aspose.slides.charts/iaxis/isautomaticunderflowbin/
 ---
-## IAxis.IsAutomaticUnderflowBin property
 
-Определяет значение корзины для автоматического недополнения. Если false:использовать свойство UnderflowBin.
+## IAxis.IsAutomaticUnderflowBin свойство
+
+Указывает значение автоматического подбора диапазона. Если false: используйте свойство UnderflowBin.
 
 ```csharp
 public bool IsAutomaticUnderflowBin { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IAxis](../../iaxis)
+* интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

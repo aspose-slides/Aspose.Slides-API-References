@@ -1,12 +1,13 @@
 ---
 title: GradientFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет формат градиента.
 type: docs
-weight: 4540
+weight: 4800
 url: /ru/aspose.slides/gradientformat/
 ---
-## GradientFormat class
+
+## Класс GradientFormat
 
 Представляет формат градиента.
 
@@ -14,29 +15,29 @@ url: /ru/aspose.slides/gradientformat/
 public sealed class GradientFormat : PVIObject, IGradientFormat
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Возвращает или задает стиль градиента. Чтение/запись[`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Возвращает или задает форму градиента. Чтение/запись[`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Возвращает набор остановок градиента. Только для чтения[`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Возвращает или задает угол градиента. Чтение/записьSingle. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Определяет, масштабируется ли градиент. Чтение/запись[`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Возвращает или устанавливает режим отражения для градиента. Чтение/запись[`TileFlip`](../tileflip). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базский интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Возвращает или устанавливает стиль градиента. Чтение/запись [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Возвращает или устанавливает форму градиента. Чтение/запись [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Возвращает коллекцию градиентных остановок. Только для чтения [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Возвращает или устанавливает угол градиента. Чтение/запись Single. |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Определяет, масштабируется ли градиент. Чтение/запись [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Возвращает или устанавливает режим переворота для градиента. Чтение/запись [`TileFlip`](../tileflip). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с заданным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### Смотрите также
+### См. также
 
-* class [PVIObject](../pviobject)
-* interface [IGradientFormat](../igradientformat)
+* класс [PVIObject](../pviobject)
+* интерфейс [IGradientFormat](../igradientformat)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

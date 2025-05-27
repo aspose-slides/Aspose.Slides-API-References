@@ -1,14 +1,15 @@
 ---
 title: PieSplitCustomPoints
-second_title: Справочник по API Aspose.Slides для .NET
-description: Пользовательская информация о разделении для круговой или столбчатой диаграммы с пользовательским разделением. Содержит точки данных которые должны быть отображены во второй круговой диаграмме или столбце в круговой или столбчатой диаграмме. Только для чтенияPieSplitCustomPointCollectionaspose.slides.charts/piesplitcustompointcollection.
+second_title: Aspose.Sildes для .NET API Reference
+description: Информация о пользовательском разбиении для диаграммы "пирог из пирога" или "бар из пирога" с пользовательским разбиением. Содержит точки данных, которые будут отображены во втором пироге или баре на диаграмме "пирог из пирога" или "бар из пирога". Только для чтения PieSplitCustomPointCollectionaspose.slides/piesplitcustompointcollection.
 type: docs
 weight: 140
 url: /ru/aspose.slides.charts/chartseriesgroup/piesplitcustompoints/
 ---
-## ChartSeriesGroup.PieSplitCustomPoints property
 
-Пользовательская информация о разделении для круговой или столбчатой диаграммы с пользовательским разделением. Содержит точки данных, которые должны быть отображены во второй круговой диаграмме или столбце в круговой или столбчатой диаграмме. Только для чтения[`PieSplitCustomPointCollection`](../../piesplitcustompointcollection).
+## Свойство ChartSeriesGroup.PieSplitCustomPoints
+
+Информация о пользовательском разбиении для диаграммы "пирог из пирога" или "бар из пирога" с пользовательским разбиением. Содержит точки данных, которые будут отображены во втором пироге или баре на диаграмме "пирог из пирога" или "бар из пирога". Только для чтения [`PieSplitCustomPointCollection`](../../piesplitcustompointcollection).
 
 ```csharp
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }
@@ -16,8 +17,8 @@ public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }
 
 ### Смотрите также
 
-* interface [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
-* class [ChartSeriesGroup](../../chartseriesgroup)
+* интерфейс [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
+* класс [ChartSeriesGroup](../../chartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../chartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

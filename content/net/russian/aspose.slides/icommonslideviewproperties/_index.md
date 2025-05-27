@@ -1,27 +1,29 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет общие свойства просмотра слайдов.
+second_title: Aspose.Slides для .NET API Reference
+description: Представляет общие свойства представления слайдов.
 type: docs
-weight: 5100
+weight: 5400
 url: /ru/aspose.slides/icommonslideviewproperties/
 ---
-## ICommonSlideViewProperties interface
 
-Представляет общие свойства просмотра слайдов.
+## Интерфейс ICommonSlideViewProperties
+
+Представляет общие свойства представления слайдов.
 
 ```csharp
 public interface ICommonSlideViewProperties
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Задает коэффициент масштабирования представления в процентах. Чтение/записьInt32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Указывает, что содержимое представления должно автоматически масштабироваться для наилучшего соответствия текущему размеру окна. Чтение/записьBoolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Возвращает коллекцию направляющих рисования. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Указывает коэффициент масштабирования представления в процентах. Чтение/запись Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Указывает, что содержимое представления должно автоматически масштабироваться, чтобы наилучшим образом вписываться в текущий размер окна. Чтение/запись Boolean. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

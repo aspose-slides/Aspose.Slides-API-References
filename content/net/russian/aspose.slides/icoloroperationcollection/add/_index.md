@@ -1,11 +1,12 @@
 ---
-title: Add
+title: Добавить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет новую операцию в конец коллекции.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icoloroperationcollection/add/
 ---
+
 ## Add(ColorTransformOperation, float) {#add_1}
 
 Добавляет новую операцию в конец коллекции.
@@ -16,18 +17,18 @@ public IColorOperation Add(ColorTransformOperation operation, float parameter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| операция | ColorTransformOperation | Тип операции. |
+| operation | ColorTransformOperation | Тип операции. |
 | parameter | Single | Параметр операции. |
 
 ### Возвращаемое значение
 
-Добавлена операция.
+Добавленная операция.
 
-### Смотрите также
+### См. также
 
-* interface [IColorOperation](../../icoloroperation)
-* enum [ColorTransformOperation](../../colortransformoperation)
-* interface [IColorOperationCollection](../../icoloroperationcollection)
+* интерфейс [IColorOperation](../../icoloroperation)
+* перечисление [ColorTransformOperation](../../colortransformoperation)
+* интерфейс [IColorOperationCollection](../../icoloroperationcollection)
 * пространство имен [Aspose.Slides](../../icoloroperationcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -43,17 +44,17 @@ public IColorOperation Add(ColorTransformOperation operation)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| операция | ColorTransformOperation | Тип операции. |
+| operation | ColorTransformOperation | Тип операции. |
 
 ### Возвращаемое значение
 
-Добавлена операция.
+Добавленная операция.
 
-### Смотрите также
+### См. также
 
-* interface [IColorOperation](../../icoloroperation)
-* enum [ColorTransformOperation](../../colortransformoperation)
-* interface [IColorOperationCollection](../../icoloroperationcollection)
+* интерфейс [IColorOperation](../../icoloroperation)
+* перечисление [ColorTransformOperation](../../colortransformoperation)
+* интерфейс [IColorOperationCollection](../../icoloroperationcollection)
 * пространство имен [Aspose.Slides](../../icoloroperationcollection)
 * сборка [Aspose.Slides](../../../)
 

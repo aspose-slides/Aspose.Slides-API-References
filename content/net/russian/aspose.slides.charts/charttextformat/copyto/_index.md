@@ -1,14 +1,15 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Копирует текстовый формат в указанный текстовый фрейм.
+second_title: Ссылка на API Aspose.Sildes для .NET
+description: Копирует формат текста в указанную текстовую рамку.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/charttextformat/copyto/
 ---
-## ChartTextFormat.CopyTo method
 
-Копирует текстовый формат в указанный текстовый фрейм.
+## Метод ChartTextFormat.CopyTo
+
+Копирует формат текста в указанную текстовую рамку.
 
 ```csharp
 public void CopyTo(ITextFrame destTextFrame)
@@ -16,12 +17,12 @@ public void CopyTo(ITextFrame destTextFrame)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destTextFrame | ITextFrame | Текстовый фрейм, в который копируется текстовый формат. |
+| destTextFrame | ITextFrame | Текстовая рамка, в которую нужно скопировать формат текста. |
 
-### Смотрите также
+### Также смотрите
 
-* interface [ITextFrame](../../../aspose.slides/itextframe)
-* class [ChartTextFormat](../../charttextformat)
+* интерфейс [ITextFrame](../../../aspose.slides/itextframe)
+* класс [ChartTextFormat](../../charttextformat)
 * пространство имен [Aspose.Slides.Charts](../../charttextformat)
 * сборка [Aspose.Slides](../../../)
 

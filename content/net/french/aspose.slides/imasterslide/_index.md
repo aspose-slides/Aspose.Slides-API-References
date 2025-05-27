@@ -1,14 +1,15 @@
 ---
 title: IMasterSlide
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une diapositive principale dans une présentation.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente une diapositive maître dans une présentation.
 type: docs
-weight: 5890
+weight: 6220
 url: /fr/aspose.slides/imasterslide/
 ---
-## IMasterSlide interface
 
-Représente une diapositive principale dans une présentation.
+## Interface IMasterSlide
+
+Représente une diapositive maître dans une présentation.
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -16,30 +17,30 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Permet d'obtenir l'interface IBaseSlide de base. Lecture seule[`IBaseSlide`](../ibaseslide) . |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Renvoie l'interface IMasterThemeable. Lecture seule[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable) . |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Renvoie le style d'un corps de texte. Lecture seule[`ITextStyle`](../itextstyle) . |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Renvoie vrai s'il existe au moins une diapositive qui dépend de cette diapositive principale. Lecture seuleBoolean . |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Renvoie le gestionnaire HeaderFooter de la diapositive principale. Lecture seule[`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager) . |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Renvoie la collection de diapositives de mise en page enfant pour cette diapositive principale. En lecture seule[`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection) . |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Renvoie le style d'un autre texte. Lecture seule[`ITextStyle`](../itextstyle) . |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Détermine si le masque correspondant est supprimé lorsque toutes les diapositives qui suivent ce masque sont supprimées. Remarque : Aspose.Slides ne supprimera jamais aucun masque inutilisé par lui-même, pour réellement supprimer les masques inutilisés.[`RemoveUnused`](../imasterslidecollection/removeunused) Lecture/écritureBoolean . |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Renvoie le style d'un texte de titre. Lecture seule[`ITextStyle`](../itextstyle) . |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Permet d'obtenir l'interface de base IBaseSlide. Lecture seule [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Retourne l'interface IMasterThemeable. Lecture seule [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Retourne le style d'un texte de corps. Lecture seule [`ITextStyle`](../itextstyle). |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Retourne true s'il existe au moins une diapositive qui dépend de cette diapositive maître. Lecture seule Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Retourne le gestionnaire d'en-tête/pied de page de la diapositive maître. Lecture seule [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Retourne la collection des diapositives de mise en page enfants pour cette diapositive maître. Lecture seule [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Retourne le style d'un autre texte. Lecture seule [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Détermine si le maître correspondant est supprimé lorsque toutes les diapositives qui suivent ce maître sont supprimées. Remarque : Aspose.Slides ne supprimera jamais de maître inutilisé par lui-même, pour réellement supprimer des maîtres inutilisés, appelez [`RemoveUnused`](../imasterslidecollection/removeunused) Lecture/écriture Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Retourne le style d'un texte de titre. Lecture seule [`ITextStyle`](../itextstyle). |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Crée une nouvelle diapositive principale basée sur la diapositive actuelle, en lui appliquant un thème externe et applique la diapositive principale créée à toutes les diapositives dépendantes. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Renvoie un tableau avec toutes les diapositives, qui dépendent de cette diapositive principale. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Crée une nouvelle diapositive maître basée sur la diapositive actuelle, y appliquant un thème externe et applique la diapositive maître créée à toutes les diapositives dépendantes. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Retourne un tableau avec toutes les diapositives qui dépendent de cette diapositive maître. |
 
-### Voir également
+### Voir Aussi
 
 * interface [IBaseSlide](../ibaseslide)
 * interface [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* Assemblée [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

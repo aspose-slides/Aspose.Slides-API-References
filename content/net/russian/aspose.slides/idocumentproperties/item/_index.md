@@ -1,14 +1,15 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает пользовательское свойство связанное с указанным именем. Чтение/записьObject.
+title: Элемент
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает или устанавливает настраиваемое свойство, связанное с указанным именем. Чтение/запись Object.
 type: docs
-weight: 120
+weight: 150
 url: /ru/aspose.slides/idocumentproperties/item/
 ---
-## IDocumentProperties indexer
 
-Возвращает или задает пользовательское свойство, связанное с указанным именем. Чтение/записьObject.
+## Индексатор IDocumentProperties
+
+Возвращает или устанавливает настраиваемое свойство, связанное с указанным именем. Чтение/запись Object.
 
 ```csharp
 public object this[string name] { get; set; }
@@ -16,11 +17,11 @@ public object this[string name] { get; set; }
 
 ### Примечания
 
-Значение может быть **int** , **float** , **double** , **строка** , **bool** или **DateTime** .
+Значение может быть **int**, **float**, **double**, **string**, **bool** или **DateTime**.
 
-### Смотрите также
+### Также См.
 
-* interface [IDocumentProperties](../../idocumentproperties)
+* интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 

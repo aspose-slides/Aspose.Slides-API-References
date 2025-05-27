@@ -1,23 +1,24 @@
 ---
 title: DefaultParagraphFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает действующие свойства абзаца по умолчанию. Только для чтенияIParagraphFormatEffectiveDataaspose.slides/iparagraphformateffectivedata.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает эффективные свойства абзаца по умолчанию. Только для чтения IParagraphFormatEffectiveDataaspose.slides/iparagraphformateffectivedata.
 type: docs
 weight: 10
 url: /ru/aspose.slides/itextstyleeffectivedata/defaultparagraphformat/
 ---
-## ITextStyleEffectiveData.DefaultParagraphFormat property
 
-Возвращает действующие свойства абзаца по умолчанию. Только для чтения[`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
+## ITextStyleEffectiveData.DefaultParagraphFormat свойство
+
+Возвращает эффективные свойства абзаца по умолчанию. Только для чтения [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 
 ```csharp
 public IParagraphFormatEffectiveData DefaultParagraphFormat { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
-* interface [ITextStyleEffectiveData](../../itextstyleeffectivedata)
+* интерфейс [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
+* интерфейс [ITextStyleEffectiveData](../../itextstyleeffectivedata)
 * пространство имен [Aspose.Slides](../../itextstyleeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

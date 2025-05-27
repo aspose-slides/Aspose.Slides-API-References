@@ -1,29 +1,30 @@
 ---
 title: IColorReplaceEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий эффект замены цвета. Все цвета эффектов изменены на фиксированный цвет. Значения альфа-канала не изменяются.
+second_title: Aspose.Slides для .NET API Reference
+description: Неизменяемый объект, представляющий эффект замены цвета. Все цвета эффекта заменяются на фиксированный цвет. Альфа-значения не затрагиваются.
 type: docs
-weight: 3050
+weight: 3130
 url: /ru/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
-## IColorReplaceEffectiveData interface
 
-Неизменяемый объект, представляющий эффект замены цвета. Все цвета эффектов изменены на фиксированный цвет. Значения альфа-канала не изменяются.
+## Интерфейс IColorReplaceEffectiveData
+
+Неизменяемый объект, представляющий эффект замены цвета. Все цвета эффекта заменяются на фиксированный цвет. Альфа-значения не затрагиваются.
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Возвращает формат цвета, который заменит цвет каждого пикселя. Только для чтенияColor. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Возвращает цветовой формат, который заменит цвет каждого пикселя. Только для чтения Color. |
 
-### Смотрите также
+### См. также
 
-* interface [IEffectEffectiveData](../ieffecteffectivedata)
+* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

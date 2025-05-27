@@ -1,22 +1,23 @@
 ---
 title: PreferredCulture
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает предпочтительные сведения о культуре для вычисления некоторых функций предназначенных для использования с языками  использующими двухбайтовый набор символов DBCS.
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает или задает предпочитаемую информацию о культуре для вычисления некоторых функций, предназначенных для использования с языками, которые используют двубайтовый набор символов DBCS.
 type: docs
 weight: 20
 url: /ru/aspose.slides/spreadsheetoptions/preferredculture/
 ---
-## SpreadsheetOptions.PreferredCulture property
 
-Получает или задает предпочтительные сведения о культуре для вычисления некоторых функций, предназначенных для использования с языками , использующими двухбайтовый набор символов (DBCS).
+## Свойство SpreadsheetOptions.PreferredCulture
+
+Получает или задает предпочитаемую информацию о культуре для вычисления некоторых функций, предназначенных для использования с языками, которые используют двубайтовый набор символов (DBCS).
 
 ```csharp
 public CultureInfo PreferredCulture { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [SpreadsheetOptions](../../spreadsheetoptions)
+* класс [SpreadsheetOptions](../../spreadsheetoptions)
 * пространство имен [Aspose.Slides](../../spreadsheetoptions)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: ColumnCount
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Количество столбцов в матрице
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathmatrix/columncount/
 ---
-## IMathMatrix.ColumnCount property
+
+## Свойство IMathMatrix.ColumnCount
 
 Количество столбцов в матрице
 
@@ -24,9 +25,9 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 int columnCount = matrix.ColumnCount;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathMatrix](../../imathmatrix)
+* интерфейс [IMathMatrix](../../imathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../imathmatrix)
 * сборка [Aspose.Slides](../../../)
 

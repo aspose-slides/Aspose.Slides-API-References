@@ -1,107 +1,108 @@
----
-title: AddZoomFrame
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Fügt ein neues ZoomObjekt am Ende einer Sammlung hinzu.
-type: docs
-weight: 220
+---  
+title: AddZoomFrame  
+second_title: Aspose.Sildes für .NET API-Referenz  
+description: Fügt ein neues Zoom-Objekt am Ende einer Sammlung hinzu.
+type: docs  
+weight: 220  
 url: /de/aspose.slides/shapecollection/addzoomframe/
----
-## AddZoomFrame(float, float, float, float, ISlide) {#addzoomframe}
+---  
 
-Fügt ein neues Zoom-Objekt am Ende einer Sammlung hinzu.
+## AddZoomFrame(float, float, float, float, ISlide) {#addzoomframe}  
 
-```csharp
-public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISlide slide)
-```
+Fügt ein neues Zoom-Objekt am Ende einer Sammlung hinzu.  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| x | Single | X-Koordinate eines neuen ZoomrahmensSingle. |
-| y | Single | Y-Koordinate eines neuen ZoomrahmensSingle. |
-| width | Single | Breite eines neuen ZoomrahmensSingle. |
-| height | Single | Höhe eines neuen ZoomrahmensSingle. |
-| slide | ISlide | Das vom Zoomrahmen referenzierte Folienobjekt[`ISlide`](../../islide). |
+```csharp  
+public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISlide slide)  
+```  
 
-### Rückgabewert
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| x | Single | X-Koordinate eines neuen Zoomrahmens Single. |  
+| y | Single | Y-Koordinate eines neuen Zoomrahmens Single. |  
+| width | Single | Breite eines neuen Zoomrahmens Single. |  
+| height | Single | Höhe eines neuen Zoomrahmens Single. |  
+| slide | ISlide | Das Folienobjekt, das vom Zoomrahmen [`ISlide`](../../islide) referenziert wird. |  
 
-Zoom-Objekt erstellt[`IZoomFrame`](../../izoomframe).
+### Rückgabewert  
 
-### Ausnahmen
+Erstelltes Zoom-Objekt [`IZoomFrame`](../../izoomframe).  
 
-| Ausnahme | Bedingung |
-| --- | --- |
-| ArgumentException | Die referenzierte Folie gehört nicht zur aktuellen Präsentation. |
+### Ausnahmen  
 
-### Beispiele
+| Ausnahme | Bedingung |  
+| --- | --- |  
+| ArgumentException | Referenzierte Folie gehört nicht zur aktuellen Präsentation. |  
 
-Dieses Beispiel zeigt das Hinzufügen eines Zoom-Objekts am Ende einer Sammlung (vorausgesetzt, es gibt mindestens zwei Folien in der Präsentation „Präsentation.pptx“):
+### Beispiele  
 
-```csharp
-[C#]
-using (Presentation pres = new Presentation("Presentation.pptx"))
-{
-    IZoomFrame zoomFrame = pres.Slides[0].Shapes.AddZoomFrame(150, 20, 50, 50, pres.Slides[1]);
-}
-```
+Dieses Beispiel demonstriert das Hinzufügen eines Zoom-Objekts am Ende einer Sammlung (angenommen, es gibt mindestens zwei Folien in der Präsentation "Presentation.pptx"):  
 
-### Siehe auch
+```csharp  
+[C#]  
+using (Presentation pres = new Presentation("Presentation.pptx"))  
+{  
+    IZoomFrame zoomFrame = pres.Slides[0].Shapes.AddZoomFrame(150, 20, 50, 50, pres.Slides[1]);  
+}  
+```  
 
-* interface [IZoomFrame](../../izoomframe)
-* interface [ISlide](../../islide)
-* class [ShapeCollection](../../shapecollection)
-* namensraum [Aspose.Slides](../../shapecollection)
-* Montage [Aspose.Slides](../../../)
+### Siehe auch  
 
----
+* interface [IZoomFrame](../../izoomframe)  
+* interface [ISlide](../../islide)  
+* class [ShapeCollection](../../shapecollection)  
+* namespace [Aspose.Slides](../../shapecollection)  
+* assembly [Aspose.Slides](../../../)  
 
-## AddZoomFrame(float, float, float, float, ISlide, IPPImage) {#addzoomframe_1}
+---  
 
-Fügt ein neues Zoom-Objekt am Ende einer Sammlung hinzu.
+## AddZoomFrame(float, float, float, float, ISlide, IPPImage) {#addzoomframe_1}  
 
-```csharp
-public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISlide slide, 
-    IPPImage image)
-```
+Fügt ein neues Zoom-Objekt am Ende einer Sammlung hinzu.  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| x | Single | X-Koordinate eines neuen ZoomrahmensSingle. |
-| y | Single | Y-Koordinate eines neuen ZoomrahmensSingle. |
-| width | Single | Breite eines neuen ZoomrahmensSingle. |
-| height | Single | Höhe eines neuen ZoomrahmensSingle. |
-| slide | ISlide | Das vom Zoomrahmen referenzierte Folienobjekt[`ISlide`](../../islide). |
-| image | IPPImage | Das Bild für die referenzierte Folie[`IPPImage`](../../ippimage) |
+```csharp  
+public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISlide slide,  
+    IPPImage image)  
+```  
 
-### Rückgabewert
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| x | Single | X-Koordinate eines neuen Zoomrahmens Single. |  
+| y | Single | Y-Koordinate eines neuen Zoomrahmens Single. |  
+| width | Single | Breite eines neuen Zoomrahmen Single. |  
+| height | Single | Höhe eines neuen Zoomrahmens Single. |  
+| slide | ISlide | Das Folienobjekt, das vom Zoomrahmen [`ISlide`](../../islide) referenziert wird. |  
+| image | IPPImage | Das Bild für die referenzierte Folie [`IPPImage`](../../ippimage) |  
 
-Zoom-Objekt erstellt[`IZoomFrame`](../../izoomframe).
+### Rückgabewert  
 
-### Ausnahmen
+Erstelltes Zoom-Objekt [`IZoomFrame`](../../izoomframe).  
 
-| Ausnahme | Bedingung |
-| --- | --- |
-| ArgumentException | Die referenzierte Folie gehört nicht zur aktuellen Präsentation. |
+### Ausnahmen  
 
-### Beispiele
+| Ausnahme | Bedingung |  
+| --- | --- |  
+| ArgumentException | Referenzierte Folie gehört nicht zur aktuellen Präsentation. |  
 
-Dieses Beispiel zeigt das Hinzufügen eines Zoom-Objekts am Ende einer Sammlung (vorausgesetzt, es gibt mindestens zwei Folien in der Präsentation „Präsentation.pptx“):
+### Beispiele  
 
-```csharp
-[C#]
-using (Presentation pres = new Presentation("Presentation.pptx"))
-{
-    IPPImage image = pres.Images.AddImage(Image.FromFile("image.png"));
-    IZoomFrame zoomFrame = pres.Slides[0].Shapes.AddZoomFrame(150, 20, 50, 50, pres.Slides[1], image);
-}
-```
+Dieses Beispiel demonstriert das Hinzufügen eines Zoom-Objekts am Ende einer Sammlung (angenommen, es gibt mindestens zwei Folien in der Präsentation "Presentation.pptx"):  
 
-### Siehe auch
+```csharp  
+[C#]  
+using (Presentation pres = new Presentation("Presentation.pptx"))  
+{  
+    IPPImage image = pres.Images.AddImage(Image.FromFile("image.png"));  
+    IZoomFrame zoomFrame = pres.Slides[0].Shapes.AddZoomFrame(150, 20, 50, 50, pres.Slides[1], image);  
+}  
+```  
 
-* interface [IZoomFrame](../../izoomframe)
-* interface [ISlide](../../islide)
-* interface [IPPImage](../../ippimage)
-* class [ShapeCollection](../../shapecollection)
-* namensraum [Aspose.Slides](../../shapecollection)
-* Montage [Aspose.Slides](../../../)
+### Siehe auch  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+* interface [IZoomFrame](../../izoomframe)  
+* interface [ISlide](../../islide)  
+* interface [IPPImage](../../ippimage)  
+* class [ShapeCollection](../../shapecollection)  
+* namespace [Aspose.Slides](../../shapecollection)  
+* assembly [Aspose.Slides](../../../)  
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

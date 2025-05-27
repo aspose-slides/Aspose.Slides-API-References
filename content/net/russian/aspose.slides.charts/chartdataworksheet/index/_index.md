@@ -1,22 +1,23 @@
 ---
-title: Index
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает индекс листа. Только для чтенияInt32.
+title: Индекс
+second_title: Справочник по API Aspose.Slidess для .NET
+description: Получает индекс рабочего листа. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartdataworksheet/index/
 ---
-## ChartDataWorksheet.Index property
 
-Получает индекс листа. Только для чтенияInt32.
+## Свойство ChartDataWorksheet.Index
+
+Получает индекс рабочего листа. Только для чтения Int32.
 
 ```csharp
 public int Index { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartDataWorksheet](../../chartdataworksheet)
+* класс [ChartDataWorksheet](../../chartdataworksheet)
 * пространство имен [Aspose.Slides.Charts](../../chartdataworksheet)
 * сборка [Aspose.Slides](../../../)
 

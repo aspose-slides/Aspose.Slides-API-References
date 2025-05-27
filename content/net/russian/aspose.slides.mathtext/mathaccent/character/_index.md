@@ -1,14 +1,15 @@
 ---
-title: Character
+title: Символ
 second_title: Справочник по API Aspose.Slides для .NET
-description: Символ ударения Значение должно быть в диапазоне U0300U036F или U20D0U20EF  Значение по умолчаниюОбъединение акцента циркумфлекса U0302
+description: Символ с акцентом Значение должно находиться в диапазоне U0300U036F илиU20D0U20EF Значение по умолчанию Объединенный акцент ^ U0302
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathaccent/character/
 ---
-## MathAccent.Character property
 
-Символ ударения Значение должно быть в диапазоне (U+0300–U+036F) или (U+20D0–U+20EF ) Значение по умолчанию:Объединение акцента циркумфлекса (U+0302)
+## Свойство MathAccent.Character
+
+Символ с акцентом Значение должно находиться в диапазоне (U+0300–U+036F) или(U+20D0–U+20EF) Значение по умолчанию: Объединенный акцент (U+0302)
 
 ```csharp
 public char Character { get; set; }
@@ -24,9 +25,9 @@ IMathAccent accent = new MathematicalText("x").Accent('~');
 char ch = accent.Character;
 ```
 
-### Смотрите также
+### См. также
 
-* class [MathAccent](../../mathaccent)
+* класс [MathAccent](../../mathaccent)
 * пространство имен [Aspose.Slides.MathText](../../mathaccent)
 * сборка [Aspose.Slides](../../../)
 

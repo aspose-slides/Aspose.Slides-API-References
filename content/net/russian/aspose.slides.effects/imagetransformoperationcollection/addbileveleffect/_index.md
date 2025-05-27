@@ -1,14 +1,15 @@
 ---
 title: AddBiLevelEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый двухуровневый эффект черный/белый в конец коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет новый двухуровневый черно-белый эффект в конец коллекции.
 type: docs
 weight: 120
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addbileveleffect/
 ---
-## ImageTransformOperationCollection.AddBiLevelEffect method
 
-Добавляет новый двухуровневый эффект (черный/белый) в конец коллекции.
+## ImageTransformOperationCollection.AddBiLevelEffect метод
+
+Добавляет новый двухуровневый (черно-белый) эффект в конец коллекции.
 
 ```csharp
 public IBiLevel AddBiLevelEffect(float threshold)
@@ -16,16 +17,16 @@ public IBiLevel AddBiLevelEffect(float threshold)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| threshold | Single | порог яркости для эффекта Bi-Level. Значения больше или равные порогу устанавливаются белыми. Значения меньше порогового значения устанавливаются черными. |
+| threshold | Single | пороговая яркость для двухуровневого эффекта. Значения, которые больше или равны порогу, устанавливаются в белый. Значения, меньшие порога, устанавливаются в черный. |
 
 ### Возвращаемое значение
 
 Индекс нового эффекта изображения в коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IBiLevel](../../ibilevel)
-* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* интерфейс [IBiLevel](../../ibilevel)
+* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

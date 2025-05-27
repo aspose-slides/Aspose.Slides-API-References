@@ -1,22 +1,23 @@
 ---
-title: Hide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет скрыта ли запись легенды. Чтение/записьBoolean.
+title: Скрыть
+second_title: Справочник API Aspose.Slides для .NET
+description: Определяет, скрыт ли элемент легенды. Чтение/запись логического.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/legendentryproperties/hide/
 ---
-## LegendEntryProperties.Hide property
 
-Определяет, скрыта ли запись легенды. Чтение/записьBoolean.
+## Свойство LegendEntryProperties.Hide
+
+Определяет, скрыт ли элемент легенды. Чтение/запись логического.
 
 ```csharp
 public bool Hide { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [LegendEntryProperties](../../legendentryproperties)
+* класс [LegendEntryProperties](../../legendentryproperties)
 * пространство имен [Aspose.Slides.Charts](../../legendentryproperties)
 * сборка [Aspose.Slides](../../../)
 

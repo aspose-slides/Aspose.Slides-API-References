@@ -1,14 +1,15 @@
 ---
 title: WriteByte
 second_title: Справочник по API Aspose.Slides для .NET
-description: Записывает байт в текущую позицию в потоке и перемещает позицию в потоке на один байт.
+description: Записывает байт в текущую позицию в потоке и перемещает позицию в потоке на один байт вперед.
 type: docs
 weight: 150
 url: /ru/aspose.slides/streamwrapper/writebyte/
 ---
-## StreamWrapper.WriteByte method
 
-Записывает байт в текущую позицию в потоке и перемещает позицию в потоке на один байт.
+## Метод StreamWrapper.WriteByte
+
+Записывает байт в текущую позицию в потоке и перемещает позицию в потоке на один байт вперед.
 
 ```csharp
 public void WriteByte(byte value)
@@ -16,11 +17,11 @@ public void WriteByte(byte value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Byte |  |
+| value | Byte |  |
 
-### Смотрите также
+### См. также
 
-* class [StreamWrapper](../../streamwrapper)
+* класс [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

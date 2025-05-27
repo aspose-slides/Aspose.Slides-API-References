@@ -1,27 +1,28 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные данные эффекта Duotone с применением наследования.
+description: Получает эффективные данные эффекта Дуотон с примененным наследованием.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/duotone/geteffective/
 ---
-## Duotone.GetEffective method
 
-Получает эффективные данные эффекта Duotone с применением наследования.
+## Метод Duotone.GetEffective
+
+Получает эффективные данные эффекта Дуотон с примененным наследованием.
 
 ```csharp
 public IDuotoneEffectiveData GetEffective()
 ```
 
-### Возвращаемое значение
+### Значение возврата
 
-A[`IDuotoneEffectiveData`](../../iduotoneeffectivedata).
+[`IDuotoneEffectiveData`](../../iduotoneeffectivedata).
 
-### Смотрите также
+### Также смотрите
 
-* interface [IDuotoneEffectiveData](../../iduotoneeffectivedata)
-* class [Duotone](../../duotone)
+* интерфейс [IDuotoneEffectiveData](../../iduotoneeffectivedata)
+* класс [Duotone](../../duotone)
 * пространство имен [Aspose.Slides.Effects](../../duotone)
 * сборка [Aspose.Slides](../../../)
 

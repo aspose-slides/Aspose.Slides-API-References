@@ -1,32 +1,33 @@
 ---
 title: IColumn
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет столбец в таблице.
+second_title: Aspose.Slide для .NET API Справка
+description: Представляет собой столбец в таблице.
 type: docs
-weight: 5020
+weight: 5320
 url: /ru/aspose.slides/icolumn/
 ---
-## IColumn interface
 
-Представляет столбец в таблице.
+## Интерфейс IColumn
+
+Представляет собой столбец в таблице.
 
 ```csharp
 public interface IColumn : IBulkTextFormattable, ICellCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения[`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Позволяет получить базовый интерфейс ICellCollection. Только для чтения[`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Возвращает объект ColumnFormat, содержащий свойства форматирования для этого столбца. Только для чтения[`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Возвращает или задает ширину столбца. Чтение/записьDouble. |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Позволяет получить базовый интерфейс ICellCollection. Только для чтения [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Возвращает объект ColumnFormat, который содержит свойства форматирования для этого столбца. Только для чтения [`IColumnFormat`](../icolumnformat). |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Возвращает или задает ширину столбца. Чтение/запись Double. |
 
 ### Смотрите также
 
-* interface [IBulkTextFormattable](../ibulktextformattable)
-* interface [ICellCollection](../icellcollection)
+* интерфейс [IBulkTextFormattable](../ibulktextformattable)
+* интерфейс [ICellCollection](../icellcollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

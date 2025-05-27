@@ -6,7 +6,8 @@ type: docs
 weight: 30
 url: /ru/aspose.slides.vba/vbaprojectfactory/createvbaproject/
 ---
-## VbaProjectFactory.CreateVbaProject method
+
+## Метод VbaProjectFactory.CreateVbaProject
 
 Создает новый проект VBA.
 
@@ -18,10 +19,10 @@ public IVbaProject CreateVbaProject()
 
 Новый проект VBA
 
-### Смотрите также
+### См. также
 
-* interface [IVbaProject](../../ivbaproject)
-* class [VbaProjectFactory](../../vbaprojectfactory)
+* интерфейс [IVbaProject](../../ivbaproject)
+* класс [VbaProjectFactory](../../vbaprojectfactory)
 * пространство имен [Aspose.Slides.Vba](../../vbaprojectfactory)
 * сборка [Aspose.Slides](../../../)
 

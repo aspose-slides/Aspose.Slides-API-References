@@ -1,22 +1,45 @@
 ---
 title: DefaultRegularFont
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает обычный шрифт используемый в случае если исходный шрифт не найден. Чтение/записьString.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает Регулярный шрифт, используемый в случае, если исходный шрифт не найден. Чтение/запись Строка.
 type: docs
 weight: 40
 url: /ru/aspose.slides/loadoptions/defaultregularfont/
 ---
-## LoadOptions.DefaultRegularFont property
 
-Возвращает или устанавливает обычный шрифт, используемый в случае, если исходный шрифт не найден. Чтение/записьString.
+## Свойство LoadOptions.DefaultRegularFont
+
+Возвращает или устанавливает Регулярный шрифт, используемый в случае, если исходный шрифт не найден. Чтение/запись Строка.
 
 ```csharp
 public string DefaultRegularFont { get; set; }
 ```
 
-### Смотрите также
+### Примеры
 
-* class [LoadOptions](../../loadoptions)
+Следующий пример показывает, как установить шрифты по умолчанию для рендеринга презентации PowerPoint.
+
+```csharp
+[C#]
+// Используйте параметры загрузки, чтобы определить шрифты по умолчанию для регулярного и азиатского
+LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
+loadOptions.DefaultRegularFont = "Wingdings";
+loadOptions.DefaultAsianFont = "Wingdings";
+// Загрузить презентацию
+using (Presentation pptx = new Presentation("DefaultFonts.pptx", loadOptions))
+{
+    // Создать миниатюру слайда
+    pptx.Slides[0].GetThumbnail(1, 1).Save("output_out.png", ImageFormat.Png);
+    // Создать PDF
+    pptx.Save("output_out.pdf", SaveFormat.Pdf);
+    // Создать XPS
+    pptx.Save("output_out.xps", SaveFormat.Xps);
+}
+```
+
+### См. также
+
+* класс [LoadOptions](../../loadoptions)
 * пространство имен [Aspose.Slides](../../loadoptions)
 * сборка [Aspose.Slides](../../../)
 

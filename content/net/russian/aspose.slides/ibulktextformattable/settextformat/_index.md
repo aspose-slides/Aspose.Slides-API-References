@@ -1,14 +1,15 @@
 ---
 title: SetTextFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает определенные свойства формата части для всех частей элемента.
+description: Устанавливает свойства форматирования выделенной части ко всем элементам частей.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ibulktextformattable/settextformat/
 ---
+
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-Устанавливает определенные свойства формата части для всех частей элемента.
+Устанавливает свойства форматирования выделенной части ко всем частям элемента.
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -16,12 +17,12 @@ public void SetTextFormat(IPortionFormat source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | IPortionFormat | Объект IPortionFormat с необходимым набором свойств. |
+| source | IPortionFormat | Объект IPortionFormat с установленными необходимыми свойствами. |
 
-### Смотрите также
+### См. также
 
-* interface [IPortionFormat](../../iportionformat)
-* interface [IBulkTextFormattable](../../ibulktextformattable)
+* интерфейс [IPortionFormat](../../iportionformat)
+* интерфейс [IBulkTextFormattable](../../ibulktextformattable)
 * пространство имен [Aspose.Slides](../../ibulktextformattable)
 * сборка [Aspose.Slides](../../../)
 
@@ -29,7 +30,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ## SetTextFormat(IParagraphFormat) {#settextformat}
 
-Устанавливает определенные свойства формата абзаца для всех абзацев элемента.
+Устанавливает свойства форматирования абзаца ко всем абзацам элемента.
 
 ```csharp
 public void SetTextFormat(IParagraphFormat source)
@@ -39,10 +40,10 @@ public void SetTextFormat(IParagraphFormat source)
 | --- | --- | --- |
 | source | IParagraphFormat | Объект IParagraphFormat с установленными необходимыми свойствами. |
 
-### Смотрите также
+### См. также
 
-* interface [IParagraphFormat](../../iparagraphformat)
-* interface [IBulkTextFormattable](../../ibulktextformattable)
+* интерфейс [IParagraphFormat](../../iparagraphformat)
+* интерфейс [IBulkTextFormattable](../../ibulktextformattable)
 * пространство имен [Aspose.Slides](../../ibulktextformattable)
 * сборка [Aspose.Slides](../../../)
 
@@ -50,7 +51,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-Устанавливает определенные свойства формата текстового фрейма для всех текстовых фреймов элемента.
+Устанавливает свойства форматирования текстового фрейма ко всем текстовым фреймам элемента.
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -58,12 +59,12 @@ public void SetTextFormat(ITextFrameFormat source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | ITextFrameFormat | Объект ITextFrameFormat с необходимым набором свойств. |
+| source | ITextFrameFormat | Объект ITextFrameFormat с установленными необходимыми свойствами. |
 
-### Смотрите также
+### См. также
 
-* interface [ITextFrameFormat](../../itextframeformat)
-* interface [IBulkTextFormattable](../../ibulktextformattable)
+* интерфейс [ITextFrameFormat](../../itextframeformat)
+* интерфейс [IBulkTextFormattable](../../ibulktextformattable)
 * пространство имен [Aspose.Slides](../../ibulktextformattable)
 * сборка [Aspose.Slides](../../../)
 

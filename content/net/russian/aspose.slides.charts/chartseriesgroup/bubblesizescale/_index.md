@@ -1,22 +1,23 @@
 ---
 title: BubbleSizeScale
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет коэффициент масштабирования для пузырьковой диаграммы может быть от 0 до 300 процентов размера по умолчанию. Чтение/записьInt32.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает коэффициент масштаба для диаграммы с пузырьками, который может находиться в пределах от 0 до 300 процентов от размера по умолчанию. Чтение/запись Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartseriesgroup/bubblesizescale/
 ---
-## ChartSeriesGroup.BubbleSizeScale property
 
-Определяет коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 до 300 процентов размера по умолчанию). Чтение/записьInt32.
+## Свойство ChartSeriesGroup.BubbleSizeScale
+
+Указывает коэффициент масштаба для диаграммы с пузырьками (может находиться в пределах от 0 до 300 процентов от размера по умолчанию). Чтение/запись Int32.
 
 ```csharp
 public int BubbleSizeScale { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartSeriesGroup](../../chartseriesgroup)
+* класс [ChartSeriesGroup](../../chartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../chartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

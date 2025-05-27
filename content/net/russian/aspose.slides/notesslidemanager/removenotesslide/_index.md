@@ -1,22 +1,23 @@
 ---
 title: RemoveNotesSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет слайд заметок текущего слайда.
+description: Удаляет заметки с текущего слайда.
 type: docs
 weight: 30
 url: /ru/aspose.slides/notesslidemanager/removenotesslide/
 ---
-## NotesSlideManager.RemoveNotesSlide method
 
-Удаляет слайд заметок текущего слайда.
+## NotesSlideManager.RemoveNotesSlide метод
+
+Удаляет заметки с текущего слайда.
 
 ```csharp
 public void RemoveNotesSlide()
 ```
 
-### Смотрите также
+### См. также
 
-* class [NotesSlideManager](../../notesslidemanager)
+* класс [NotesSlideManager](../../notesslidemanager)
 * пространство имен [Aspose.Slides](../../notesslidemanager)
 * сборка [Aspose.Slides](../../../)
 

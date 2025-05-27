@@ -1,23 +1,24 @@
 ---
 title: EffectColor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цвет эффекта фигуры. Только для чтенияIColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает цвет эффекта формы. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ishapestyle/effectcolor/
 ---
-## IShapeStyle.EffectColor property
 
-Возвращает цвет эффекта фигуры. Только для чтения[`IColorFormat`](../../icolorformat).
+## Свойство IShapeStyle.EffectColor
+
+Возвращает цвет эффекта формы. Только для чтения [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat EffectColor { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IColorFormat](../../icolorformat)
-* interface [IShapeStyle](../../ishapestyle)
+* интерфейс [IColorFormat](../../icolorformat)
+* интерфейс [IShapeStyle](../../ishapestyle)
 * пространство имен [Aspose.Slides](../../ishapestyle)
 * сборка [Aspose.Slides](../../../)
 

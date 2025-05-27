@@ -1,14 +1,15 @@
 ---
 title: PptxException
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет стандартный тип внутреннего исключения.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет стандартный внутренний тип исключения.
 type: docs
-weight: 8840
+weight: 9290
 url: /ru/aspose.slides/pptxexception/
 ---
-## PptxException class
 
-Представляет стандартный тип внутреннего исключения.
+## Класс PptxException
+
+Представляет стандартный внутренний тип исключения.
 
 ```csharp
 public class PptxException : OOXMLException
@@ -20,11 +21,11 @@ public class PptxException : OOXMLException
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | Конструктор по умолчанию. |
 | [PptxException](pptxexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащее сообщение и встроенное исключение. |
 
-### Смотрите также
+### Смотрите Также
 
-* class [OOXMLException](../ooxmlexception)
+* класс [OOXMLException](../ooxmlexception)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

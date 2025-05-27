@@ -1,12 +1,13 @@
 ---
 title: IAlphaReplace
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет базовый интерфейс IImageTransformOperation.
 type: docs
-weight: 2960
+weight: 3040
 url: /ru/aspose.slides.effects/ialphareplace/
 ---
-## IAlphaReplace interface
+
+## Интерфейс IAlphaReplace
 
 Представляет базовый интерфейс IImageTransformOperation.
 
@@ -15,18 +16,18 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
     IImageTransformOperation
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Смотрите также
+### Смотрите Также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* interface [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)
-* interface [IImageTransformOperation](../iimagetransformoperation)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)
+* интерфейс [IImageTransformOperation](../iimagetransformoperation)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

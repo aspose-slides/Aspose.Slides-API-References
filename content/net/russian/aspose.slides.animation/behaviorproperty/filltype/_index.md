@@ -1,22 +1,23 @@
 ---
 title: FillType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство fill.type
 type: docs
 weight: 390
 url: /ru/aspose.slides.animation/behaviorproperty/filltype/
 ---
-## BehaviorProperty.FillType property
 
-Представляет свойство fill.type
+## Свойство BehaviorProperty.FillType
+
+Представляет свойство 'fill.type'
 
 ```csharp
 public static BehaviorProperty FillType { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

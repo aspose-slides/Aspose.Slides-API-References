@@ -1,26 +1,27 @@
 ---
 title: IsEncrypted
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение указывающее зашифрован ли этот экземпляр. Только чтениеBoolean.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Получает значение, указывающее, зашифрован ли этот экземпляр. Только для чтения. Boolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides/protectionmanager/isencrypted/
 ---
-## ProtectionManager.IsEncrypted property
 
-Получает значение, указывающее, зашифрован ли этот экземпляр. Только чтениеBoolean.
+## Свойство ProtectionManager.IsEncrypted
+
+Получает значение, указывающее, зашифрован ли этот экземпляр. Только для чтения. Boolean.
 
 ```csharp
 public bool IsEncrypted { get; }
 ```
 
-### Стоимость имущества
+### Значение Свойства
 
-` true` если презентация загружена из зашифрованного файла или[`Encrypt`](../encrypt) был вызван метод ; в противном случае` false` .
+`true`, если презентация была загружена из зашифрованного файла или была вызвана метод [`Encrypt`](../encrypt); в противном случае `false`.
 
-### Смотрите также
+### См. Также
 
-* class [ProtectionManager](../../protectionmanager)
+* класс [ProtectionManager](../../protectionmanager)
 * пространство имен [Aspose.Slides](../../protectionmanager)
 * сборка [Aspose.Slides](../../../)
 

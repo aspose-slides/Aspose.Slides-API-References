@@ -1,12 +1,13 @@
 ---
 title: PointCollection
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/pointcollection/pointcollection/
 ---
-## PointCollection constructor
+
+## Конструктор PointCollection
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/pointcollection/pointcollection/
 public PointCollection()
 ```
 
-### Смотрите также
+### См. также
 
-* class [PointCollection](../../pointcollection)
+* класс [PointCollection](../../pointcollection)
 * пространство имен [Aspose.Slides.Animation](../../pointcollection)
 * сборка [Aspose.Slides](../../../)
 

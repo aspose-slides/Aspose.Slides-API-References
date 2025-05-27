@@ -1,22 +1,23 @@
 ---
 title: IsOverflowBin
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает применяется ли бункер переполнения. Используйте IsAutomaticOverflowBin и OverflowBin для настройки значения ячейки переполнения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, применяется ли переполнение бина. Используйте IsAutomaticOverflowBin и OverflowBin для настройки значения переполнения бина.
 type: docs
 weight: 280
 url: /ru/aspose.slides.charts/axis/isoverflowbin/
 ---
-## Axis.IsOverflowBin property
 
-Указывает, применяется ли бункер переполнения. Используйте IsAutomaticOverflowBin и OverflowBin для настройки значения ячейки переполнения.
+## Свойство Axis.IsOverflowBin
+
+Определяет, применяется ли переполнение бина. Используйте IsAutomaticOverflowBin и OverflowBin для настройки значения переполнения бина.
 
 ```csharp
 public bool IsOverflowBin { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Axis](../../axis)
+* класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,39 +1,40 @@
 ---
 title: IMasterSlideCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор мастер-слайдов.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Представляет коллекцию мастер-слайдов.
 type: docs
-weight: 5870
+weight: 6230
 url: /ru/aspose.slides/imasterslidecollection/
 ---
-## IMasterSlideCollection interface
 
-Представляет набор мастер-слайдов.
+## Интерфейс IMasterSlideCollection
+
+Представляет коллекцию мастер-слайдов.
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Возвращает элемент по указанному индексу. Только для чтения [`IMasterSlide`](../imasterslide). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного мастер-слайда в конец коллекции. Связанные слайды макета также будут скопированы. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного мастер-слайда в указанную позицию коллекции. Связанные слайды макета также будут скопированы. |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Удаляет первое вхождение определенного объекта из коллекции. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного мастер-слайда в конец коллекции. Связанные слайды оформления также будут скопированы. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного мастер-слайда в указанную позицию коллекции. Связанные слайды оформления также будут скопированы. |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Удаляет первое вхождение указанного объекта из коллекции. |
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
 | [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Удаляет неиспользуемые мастер-слайды. |
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* interface [IMasterSlide](../imasterslide)
+* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* интерфейс [IMasterSlide](../imasterslide)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

@@ -1,14 +1,15 @@
 ---
 title: MasterNotesSlideHeaderFooterManager
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa el administrador que mantiene el comportamiento del pie de página de la diapositiva de notas maestras fecha y hora marcadores de posición de número de página y todos los marcadores de posición secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes usan y dependen de la diapositiva de notas maestras.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa el administrador que mantiene el comportamiento de los marcadores de posición de la fecha y hora del pie de página de la diapositiva de notas maestras y todos los marcadores de posición secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva de notas maestra.
 type: docs
-weight: 7310
+weight: 7770
 url: /es/aspose.slides/masternotesslideheaderfootermanager/
 ---
-## MasterNotesSlideHeaderFooterManager class
 
-Representa el administrador que mantiene el comportamiento del pie de página de la diapositiva de notas maestras, fecha y hora, marcadores de posición de número de página y todos los marcadores de posición secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes usan y dependen de la diapositiva de notas maestras.
+## Clase MasterNotesSlideHeaderFooterManager
+
+Representa el administrador que mantiene el comportamiento del pie de página de la diapositiva de notas maestra, los marcadores de posición de la fecha y hora, el número de página y todos los marcadores de posición secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva de notas maestra.
 
 ```csharp
 public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -19,35 +20,35 @@ public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideH
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtiene el valor que indica que hay un marcador de posición de fecha y hora. LeerBoolean . |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtiene el valor que indica que hay un marcador de posición de pie de página. LeerBoolean . |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Obtiene el valor que indica que hay un marcador de posición de encabezado. LeerBoolean . |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtiene el valor que indica que hay un marcador de posición de número de página presente. LeerBoolean . |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtiene el valor que indica que un marcador de posición de fecha y hora está presente. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtiene el valor que indica que un marcador de posición de pie de página está presente. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Obtiene el valor que indica que un marcador de posición de encabezado está presente. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtiene el valor que indica que un marcador de posición de número de página está presente. ReadBoolean. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Establece el texto para el marcador de posición de fecha y hora de la diapositiva maestra y todos los marcadores de posición de fecha y hora secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes usan y dependen de la diapositiva de notas maestras. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Cambia el marcador de posición de fecha y hora de la diapositiva maestra y la visibilidad de todos los marcadores de posición de fecha y hora secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes usan y dependen de la diapositiva de notas maestras. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Establece el texto para el marcador de posición de fecha y hora de la diapositiva. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Establece texto para el marcador de posición de fecha y hora de la diapositiva maestra y todos los marcadores de posición de fecha y hora secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva de notas maestra. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Cambia la visibilidad del marcador de posición de fecha y hora de la diapositiva maestra y todos los marcadores de posición de fecha y hora secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva de notas maestra. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Establece texto para el marcador de posición de fecha y hora de la diapositiva. |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Cambia la visibilidad del marcador de posición de fecha y hora de la diapositiva. |
-| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Establece el texto para el marcador de posición del pie de página de la diapositiva maestra y todos los marcadores de posición del pie de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes usan y dependen de la diapositiva de notas maestras. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Cambia el marcador de posición del pie de página de la diapositiva maestra y la visibilidad de todos los marcadores de posición del pie de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en diapositivas de notas dependientes. Las diapositivas de notas dependientes usan y dependen de la diapositiva de notas maestras. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Establece el texto en el marcador de posición del pie de página de la diapositiva. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Cambia la visibilidad del marcador de posición del pie de página de la diapositiva. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Establece el texto para el marcador de posición del encabezado de la diapositiva de notas maestras y todos los marcadores de posición del encabezado secundario. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes usan y dependen de la diapositiva de notas maestras. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Cambia el marcador de posición del encabezado de la diapositiva de las notas maestras y la visibilidad de todos los marcadores de posición del encabezado secundario. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes usan y dependen de la diapositiva de notas maestras. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Establece el texto para el marcador de posición del encabezado de la diapositiva. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Cambia la visibilidad del marcador de posición del encabezado de la diapositiva. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Cambia el marcador de posición de número de página de la diapositiva maestra y la visibilidad de todos los marcadores de posición de número de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes usan y dependen de la diapositiva de notas maestras. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Cambia la visibilidad del marcador de posición del número de página de la diapositiva. |
+| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Establece texto para el marcador de posición de pie de página de la diapositiva maestra y todos los marcadores de posición de pie de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva de notas maestra. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Cambia la visibilidad del marcador de posición de pie de página de la diapositiva maestra y todos los marcadores de posición de pie de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva de notas maestra. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Establece texto para el marcador de posición de pie de página de la diapositiva. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Cambia la visibilidad del marcador de posición de pie de página de la diapositiva. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Establece texto para el marcador de posición de encabezado de la diapositiva de notas maestra y todos los marcadores de posición de encabezado secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva de notas maestra. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Cambia la visibilidad del marcador de posición de encabezado de la diapositiva de notas maestra y todos los marcadores de posición de encabezado secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva de notas maestra. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Establece texto para el marcador de posición de encabezado de la diapositiva. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Cambia la visibilidad del marcador de posición de encabezado de la diapositiva. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Cambia la visibilidad del marcador de posición de número de página de la diapositiva maestra y todos los marcadores de posición de número de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva de notas maestra. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Cambia la visibilidad del marcador de posición de número de página de la diapositiva. |
 
-### Ver también
+### Véase también
 
-* class [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
-* interface [IMasterNotesSlideHeaderFooterManager](../imasternotesslideheaderfootermanager)
+* clase [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
+* interfaz [IMasterNotesSlideHeaderFooterManager](../imasternotesslideheaderfootermanager)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* asamblea [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

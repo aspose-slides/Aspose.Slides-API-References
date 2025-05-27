@@ -1,22 +1,23 @@
 ---
 title: ArrowheadsLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещена ли смена наконечников стрелок. Чтение/записьBoolean.
+second_title: Справочник API Aspose.Slides для .NET
+description: Определяет, запрещено ли изменение графических объектов. Читаемое/изменяемое логическое значение.
 type: docs
 weight: 20
 url: /ru/aspose.slides/autoshapelock/arrowheadslocked/
 ---
-## AutoShapeLock.ArrowheadsLocked property
 
-Определяет, запрещена ли смена наконечников стрелок. Чтение/записьBoolean.
+## AutoShapeLock.ArrowheadsLocked свойство
+
+Определяет, запрещено ли изменение графических объектов. Читаемое/изменяемое логическое значение.
 
 ```csharp
 public bool ArrowheadsLocked { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [AutoShapeLock](../../autoshapelock)
+* класс [AutoShapeLock](../../autoshapelock)
 * пространство имен [Aspose.Slides](../../autoshapelock)
 * сборка [Aspose.Slides](../../../)
 

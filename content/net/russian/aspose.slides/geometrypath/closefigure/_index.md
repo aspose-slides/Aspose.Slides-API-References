@@ -1,12 +1,13 @@
 ---
 title: CloseFigure
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочная информация по Aspose.Sildes для .NET
 description: Закрывает текущую фигуру этого пути
 type: docs
 weight: 60
 url: /ru/aspose.slides/geometrypath/closefigure/
 ---
-## GeometryPath.CloseFigure method
+
+## Метод GeometryPath.CloseFigure
 
 Закрывает текущую фигуру этого пути
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/geometrypath/closefigure/
 public void CloseFigure()
 ```
 
-### Смотрите также
+### См. также
 
-* class [GeometryPath](../../geometrypath)
+* класс [GeometryPath](../../geometrypath)
 * пространство имен [Aspose.Slides](../../geometrypath)
 * сборка [Aspose.Slides](../../../)
 

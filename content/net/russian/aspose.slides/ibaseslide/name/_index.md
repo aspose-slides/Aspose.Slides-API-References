@@ -1,14 +1,15 @@
 ---
-title: Name
+title: Имя
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает имя слайда. Чтение/записьString.
+description: Возвращает или устанавливает имя слайда. Читаемая/записываемая строка.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ibaseslide/name/
 ---
-## IBaseSlide.Name property
 
-Возвращает или задает имя слайда. Чтение/записьString.
+## Свойство IBaseSlide.Name
+
+Возвращает или устанавливает имя слайда. Читаемая/записываемая строка.
 
 ```csharp
 public string Name { get; set; }
@@ -16,7 +17,7 @@ public string Name { get; set; }
 
 ### Смотрите также
 
-* interface [IBaseSlide](../../ibaseslide)
+* интерфейс [IBaseSlide](../../ibaseslide)
 * пространство имен [Aspose.Slides](../../ibaseslide)
 * сборка [Aspose.Slides](../../../)
 

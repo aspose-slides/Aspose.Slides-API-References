@@ -1,14 +1,15 @@
 ---
 title: XValue
-second_title: Справочник по API Aspose.Slides для .NET
-description: XValue. Только для чтенияIStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+second_title: Aspose.Sildes для справки по API .NET
+description: XValue. Только для чтения IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 190
+weight: 200
 url: /ru/aspose.slides.charts/chartdatapoint/xvalue/
 ---
-## ChartDataPoint.XValue property
 
-XValue. Только для чтения[`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+## Свойство ChartDataPoint.XValue
+
+XValue. Только для чтения [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }
@@ -16,8 +17,8 @@ public IStringOrDoubleChartValue XValue { get; }
 
 ### Смотрите также
 
-* interface [IStringOrDoubleChartValue](../../istringordoublechartvalue)
-* class [ChartDataPoint](../../chartdatapoint)
+* интерфейс [IStringOrDoubleChartValue](../../istringordoublechartvalue)
+* класс [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

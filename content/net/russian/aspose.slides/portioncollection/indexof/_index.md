@@ -1,14 +1,15 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет индекс конкретного элемента вIList.
+second_title: Aspose.Sildes для справки по API .NET
+description: Определяет индекс конкретного элемента в IList.
 type: docs
 weight: 90
 url: /ru/aspose.slides/portioncollection/indexof/
 ---
-## PortionCollection.IndexOf method
 
-Определяет индекс конкретного элемента вIList.
+## Метод PortionCollection.IndexOf
+
+Определяет индекс конкретного элемента в IList.
 
 ```csharp
 public int IndexOf(IPortion item)
@@ -16,16 +17,16 @@ public int IndexOf(IPortion item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IPortion | Объект для размещения вIList. |
+| item | IPortion | Объект, который нужно найти в IList. |
 
 ### Возвращаемое значение
 
-Индекс*item*если он найден в списке; иначе -1.
+Индекс *item*, если он найден в списке; в противном случае -1.
 
-### Смотрите также
+### См. также
 
-* interface [IPortion](../../iportion)
-* class [PortionCollection](../../portioncollection)
+* интерфейс [IPortion](../../iportion)
+* класс [PortionCollection](../../portioncollection)
 * пространство имен [Aspose.Slides](../../portioncollection)
 * сборка [Aspose.Slides](../../../)
 

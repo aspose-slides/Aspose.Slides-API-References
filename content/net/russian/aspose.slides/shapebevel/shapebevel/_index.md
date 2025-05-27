@@ -1,12 +1,13 @@
 ---
 title: ShapeBevel
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Создает новый экземпляр.
 type: docs
 weight: 10
 url: /ru/aspose.slides/shapebevel/shapebevel/
 ---
-## ShapeBevel constructor
+
+## Конструктор ShapeBevel
 
 Создает новый экземпляр.
 
@@ -16,11 +17,11 @@ public ShapeBevel(bool bIsTopBevel)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bIsTopBevel | Boolean | Верхний скос. |
+| bIsTopBevel | Boolean | Является ли верхним скошением. |
 
 ### Смотрите также
 
-* class [ShapeBevel](../../shapebevel)
+* класс [ShapeBevel](../../shapebevel)
 * пространство имен [Aspose.Slides](../../shapebevel)
 * сборка [Aspose.Slides](../../../)
 

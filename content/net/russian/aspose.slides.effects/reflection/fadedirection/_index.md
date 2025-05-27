@@ -1,22 +1,23 @@
 ---
 title: FadeDirection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает направление смещения отражения. угол. Чтение/записьSingle.
+description: Указывает направление для смещения отражения. угол. Чтение/запись Single.
 type: docs
 weight: 60
 url: /ru/aspose.slides.effects/reflection/fadedirection/
 ---
-## Reflection.FadeDirection property
 
-Задает направление смещения отражения. (угол). Чтение/записьSingle.
+## Свойство Reflection.FadeDirection
+
+Указывает направление для смещения отражения. (угол). Чтение/запись Single.
 
 ```csharp
 public float FadeDirection { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [Reflection](../../reflection)
+* класс [Reflection](../../reflection)
 * пространство имен [Aspose.Slides.Effects](../../reflection)
 * сборка [Aspose.Slides](../../../)
 

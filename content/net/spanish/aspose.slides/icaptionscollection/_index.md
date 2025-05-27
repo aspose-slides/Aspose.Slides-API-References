@@ -1,0 +1,41 @@
+---
+title: ICaptionsCollection
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Representa una colección de los subtítulos cerrados.
+type: docs
+weight: 5240
+url: /es/aspose.slides/icaptionscollection/
+---
+
+## Interfaz ICaptionsCollection
+
+Representa una colección de los subtítulos cerrados.
+
+```csharp
+public interface ICaptionsCollection : IEnumerable<ICaptions>
+```
+
+## Propiedades
+
+| Nombre | Descripción |
+| --- | --- |
+| [Count](../../aspose.slides/icaptionscollection/count) { get; } | Devuelve el número de elementos en la colección. Solo lectura Int32. |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Devuelve los subtítulos cerrados en el índice especificado. Solo lectura [`ICaptions`](../icaptions). |
+
+## Métodos
+
+| Nombre | Descripción |
+| --- | --- |
+| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Agrega subtítulos cerrados WebVTT al final de la colección desde un flujo. |
+| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Agrega subtítulos cerrados WebVTT al final de la colección. |
+| [Clear](../../aspose.slides/icaptionscollection/clear)() | Elimina todos los subtítulos cerrados de la colección. |
+| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Elimina los subtítulos cerrados especificados de la colección. |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Elimina los subtítulos cerrados en el índice especificado. |
+
+### Ver También
+
+* interfaz [ICaptions](../icaptions)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
+
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

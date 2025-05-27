@@ -1,22 +1,23 @@
 ---
 title: NameOfApplication
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает имя приложения. Чтение/записьString.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает имя приложения. Читаемая/записываемая строка.
 type: docs
-weight: 190
+weight: 240
 url: /ru/aspose.slides/documentproperties/nameofapplication/
 ---
-## DocumentProperties.NameOfApplication property
 
-Возвращает или задает имя приложения. Чтение/записьString.
+## DocumentProperties.NameOfApplication свойство
+
+Возвращает или устанавливает имя приложения. Читаемая/записываемая строка.
 
 ```csharp
 public string NameOfApplication { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [DocumentProperties](../../documentproperties)
+* класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

@@ -3,10 +3,11 @@ title: ColorStringFormat
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет тип действия гиперссылки.
 type: docs
-weight: 2410
+weight: 2470
 url: /ru/aspose.slides/colorstringformat/
 ---
-## ColorStringFormat enumeration
+
+## Перечисление ColorStringFormat
 
 Представляет тип действия гиперссылки.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/colorstringformat/
 public enum ColorStringFormat
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Vml | `0` | Формат цветовой строки VML. |
 

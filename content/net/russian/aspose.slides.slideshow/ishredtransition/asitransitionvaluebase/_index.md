@@ -1,14 +1,15 @@
 ---
 title: AsITransitionValueBase
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтенияITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /ru/aspose.slides.slideshow/ishredtransition/asitransitionvaluebase/
 ---
-## IShredTransition.AsITransitionValueBase property
 
-Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../../itransitionvaluebase).
+## IShredTransition.AsITransitionValueBase свойство
+
+Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../../itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase AsITransitionValueBase { get; }
@@ -16,8 +17,8 @@ public ITransitionValueBase AsITransitionValueBase { get; }
 
 ### Смотрите также
 
-* interface [ITransitionValueBase](../../itransitionvaluebase)
-* interface [IShredTransition](../../ishredtransition)
+* интерфейс [ITransitionValueBase](../../itransitionvaluebase)
+* интерфейс [IShredTransition](../../ishredtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../ishredtransition)
 * сборка [Aspose.Slides](../../../)
 

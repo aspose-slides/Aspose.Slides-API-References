@@ -1,12 +1,13 @@
 ---
 title: ResetLicense
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Сбросить лицензию
 type: docs
-weight: 10
+weight: 20
 url: /ru/aspose.slides/ilicense/resetlicense/
 ---
-## ILicense.ResetLicense method
+
+## Метод ILicense.ResetLicense
 
 Сбросить лицензию
 
@@ -33,9 +34,9 @@ Dim license as License = new License
 license.ResetLicense()
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILicense](../../ilicense)
+* интерфейс [ILicense](../../ilicense)
 * пространство имен [Aspose.Slides](../../ilicense)
 * сборка [Aspose.Slides](../../../)
 

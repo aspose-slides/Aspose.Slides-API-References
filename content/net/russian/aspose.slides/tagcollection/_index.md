@@ -1,47 +1,61 @@
 ---
 title: TagCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор тегов определяемые пользователем пары строк
+second_title: Aspose.Slides для .NET Справочник API
+description: Представляет коллекцию тегов, определенных пользователем, в виде пар строк
 type: docs
-weight: 10080
+weight: 10580
 url: /ru/aspose.slides/tagcollection/
 ---
-## TagCollection class
 
-Представляет набор тегов (определяемые пользователем пары строк)
+## Класс TagCollection
+
+Представляет коллекцию тегов (пары строк, определенные пользователем)
 
 ```csharp
 public sealed class TagCollection : ITagCollection
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | Возвращает количество тегов в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Возвращает или задает пару ключ-значение тега. |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | Возвращает количество тегов в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean. |
+| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Возвращает или задает пару ключа и значения тэга. |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Add](../../aspose.slides/tagcollection/add)(string, string) | Добавляет новый тег в коллекцию. |
 | [Clear](../../aspose.slides/tagcollection/clear)() | Удаляет все теги из коллекции. |
-| [Contains](../../aspose.slides/tagcollection/contains)(string) | Определяет, содержит ли коллекция определенное имя. |
+| [Contains](../../aspose.slides/tagcollection/contains)(string) | Определяет, содержит ли коллекция конкретное имя. |
 | [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 | [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Возвращает ключ тега по указанному индексу. |
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Возвращает имена тегов. |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Возвращает значение тега по указанному индексу. |
-| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Возвращает отсчитываемый от нуля индекс указанного ключа в коллекции. |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Возвращает индекс (начиная с нуля) указанного ключа в коллекции. |
 | [Remove](../../aspose.slides/tagcollection/remove)(string) | Удаляет тег с указанным именем из коллекции. |
 | [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Удаляет тег по указанному индексу. |
 
-### Смотрите также
+### Примеры
 
-* interface [ITagCollection](../itagcollection)
+Следующий пример показывает, как добавить тег в презентацию PowerPoint.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   ITagCollection tags = pres.CustomData.Tags;
+   pres.CustomData.Tags["MyTag"] = "My Tag Value";
+}
+```
+
+### См. Также
+
+* интерфейс [ITagCollection](../itagcollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

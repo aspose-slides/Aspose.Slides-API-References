@@ -1,14 +1,15 @@
 ---
 title: AddDataPointForFunnelSeries
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям с типом диаграммы Воронка.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых - Воронка.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforfunnelseries/
 ---
-## IChartDataPointCollection.AddDataPointForFunnelSeries method
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям с типом диаграммы "Воронка".
+## IChartDataPointCollection.AddDataPointForFunnelSeries метод
+
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых - Воронка.
 
 ```csharp
 public IChartDataPoint AddDataPointForFunnelSeries(IChartDataCell value)
@@ -22,11 +23,11 @@ public IChartDataPoint AddDataPointForFunnelSeries(IChartDataCell value)
 
 Новая точка данных.
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataPoint](../../ichartdatapoint)
-* interface [IChartDataCell](../../ichartdatacell)
-* interface [IChartDataPointCollection](../../ichartdatapointcollection)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

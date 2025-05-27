@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager/
 ---
-## IPresentationHeaderFooterManager.AsIBaseHeaderFooterManager property
+
+## IPresentationHeaderFooterManager.AsIBaseHeaderFooterManager свойство
 
 Возвращает интерфейс IBaseHeaderFooterManager.
 
@@ -16,12 +17,12 @@ public IBaseHeaderFooterManager AsIBaseHeaderFooterManager { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IBaseHeaderFooterManager](../../ibaseheaderfootermanager)
-* interface [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
+* интерфейс [IBaseHeaderFooterManager](../../ibaseheaderfootermanager)
+* интерфейс [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ipresentationheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: GetSummarySection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает элемент Summary Zoom Section для данного раздела.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает элемент раздела Summary Zoom для указанного раздела.
 type: docs
 weight: 40
 url: /ru/aspose.slides/isummaryzoomsectioncollection/getsummarysection/
 ---
-## ISummaryZoomSectionCollection.GetSummarySection method
 
-Возвращает элемент Summary Zoom Section для данного раздела.
+## ISummaryZoomSectionCollection.GetSummarySection метод
+
+Возвращает элемент раздела Summary Zoom для указанного раздела.
 
 ```csharp
 public ISummaryZoomSection GetSummarySection(ISection section)
@@ -16,15 +17,15 @@ public ISummaryZoomSection GetSummarySection(ISection section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | ISection | Раздел для поиска[`ISection`](../../isection) |
+| section | ISection | Раздел для поиска [`ISection`](../../isection) |
 
 ### Возвращаемое значение
 
-[`ISummaryZoomSection`](../../isummaryzoomsection)или null, если коллекция не содержит элементов для раздела.
+[`ISummaryZoomSection`](../../isummaryzoomsection) или null, если коллекция не содержит элемента для раздела.
 
 ### Примеры
 
-Пример демонстрирует получение элемента Summary Zoom Section по индексу:
+Пример демонстрирует получение элемента раздела Summary Zoom по индексу:
 
 ```csharp
 [C#]
@@ -36,11 +37,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISummaryZoomSection](../../isummaryzoomsection)
-* interface [ISection](../../isection)
-* interface [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
+* интерфейс [ISummaryZoomSection](../../isummaryzoomsection)
+* интерфейс [ISection](../../isection)
+* интерфейс [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
 * пространство имен [Aspose.Slides](../../isummaryzoomsectioncollection)
 * сборка [Aspose.Slides](../../../)
 

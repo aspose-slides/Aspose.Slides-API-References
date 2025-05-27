@@ -1,22 +1,23 @@
 ---
 title: LanguageId
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает идентификатор языка. Только чтениеString.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает Id языка. Только для чтения строка.
 type: docs
 weight: 160
 url: /ru/aspose.slides/ibaseportionformateffectivedata/languageid/
 ---
-## IBasePortionFormatEffectiveData.LanguageId property
 
-Возвращает идентификатор языка. Только чтениеString.
+## IBasePortionFormatEffectiveData.LanguageId свойство
+
+Возвращает Id языка. Только для чтения строка.
 
 ```csharp
 public string LanguageId { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibaseportionformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

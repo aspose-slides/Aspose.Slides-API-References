@@ -1,11 +1,12 @@
 ---
 title: OOXMLException
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ooxmlexception/ooxmlexception/
 ---
+
 ## OOXMLException() {#constructor}
 
 Конструктор по умолчанию.
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/ooxmlexception/ooxmlexception/
 public OOXMLException()
 ```
 
-### Смотрите также
+### См. также
 
-* class [OOXMLException](../../ooxmlexception)
+* класс [OOXMLException](../../ooxmlexception)
 * пространство имен [Aspose.Slides](../../ooxmlexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -32,11 +33,11 @@ public OOXMLException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
+| message | String | сообщение |
 
-### Смотрите также
+### См. также
 
-* class [OOXMLException](../../ooxmlexception)
+* класс [OOXMLException](../../ooxmlexception)
 * пространство имен [Aspose.Slides](../../ooxmlexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,7 +45,7 @@ public OOXMLException(string message)
 
 ## OOXMLException(string, Exception) {#constructor_2}
 
-Конструктор исключения, содержащего сообщение и встроенное исключение.
+Конструктор для исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public OOXMLException(string message, Exception exception)
@@ -52,12 +53,12 @@ public OOXMLException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
-| исключение | Exception | исходное исключение |
+| message | String | сообщение |
+| exception | Exception | исходное исключение |
 
-### Смотрите также
+### См. также
 
-* class [OOXMLException](../../ooxmlexception)
+* класс [OOXMLException](../../ooxmlexception)
 * пространство имен [Aspose.Slides](../../ooxmlexception)
 * сборка [Aspose.Slides](../../../)
 

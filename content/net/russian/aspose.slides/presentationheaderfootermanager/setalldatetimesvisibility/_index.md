@@ -1,14 +1,15 @@
 ---
 title: SetAllDateTimesVisibility
 second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет видимость всех заполнителей даты и времени включая мастер-слайды макеты слайдов слайды мастер заметок слайды заметок и мастер раздаточных материалов.
+description: Изменяет видимость всех заполнителей даты и времени, включая слайды мастер, слайды макетов, слайды, заметки мастер, заметки слайдов и мастер раздаточных материалов.
 type: docs
 weight: 20
 url: /ru/aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility/
 ---
-## PresentationHeaderFooterManager.SetAllDateTimesVisibility method
 
-Изменяет видимость всех заполнителей даты и времени, включая мастер-слайды, макеты слайдов, слайды, мастер заметок, слайды заметок и мастер раздаточных материалов.
+## PresentationHeaderFooterManager.SetAllDateTimesVisibility метод
+
+Изменяет видимость всех заполнителей даты и времени, включая слайды мастер, слайды макетов, слайды, заметки мастер, заметки слайдов и мастер раздаточных материалов.
 
 ```csharp
 public void SetAllDateTimesVisibility(bool isVisible)
@@ -16,11 +17,11 @@ public void SetAllDateTimesVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает видимыми заполнители даты и времени, иначе - скрывает их. |
+| isVisible | Boolean | true - делает заполнители даты и времени видимыми, в противном случае - скрывает их. |
 
-### Смотрите также
+### См. также
 
-* class [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
+* класс [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * пространство имен [Aspose.Slides](../../presentationheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

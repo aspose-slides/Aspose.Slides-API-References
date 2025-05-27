@@ -3,10 +3,11 @@ title: EffectStyle
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет стиль эффекта.
 type: docs
-weight: 10270
+weight: 10770
 url: /ru/aspose.slides.theme/effectstyle/
 ---
-## EffectStyle class
+
+## Класс EffectStyle
 
 Представляет стиль эффекта.
 
@@ -14,18 +15,18 @@ url: /ru/aspose.slides.theme/effectstyle/
 public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | Возвращает формат эффекта. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | Возвращает формат 3D. Только для чтения[`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | Возвращает формат эффекта. Только для чтения [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | Возвращает 3D формат. Только для чтения [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
-### Смотрите также
+### См. также
 
-* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* class [EffectStyleCollection](../effectstylecollection)
-* interface [IEffectStyle](../ieffectstyle)
+* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* класс [EffectStyleCollection](../effectstylecollection)
+* интерфейс [IEffectStyle](../ieffectstyle)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

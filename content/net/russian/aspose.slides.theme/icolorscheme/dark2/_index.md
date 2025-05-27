@@ -1,23 +1,24 @@
 ---
 title: Dark2
 second_title: Справочник по API Aspose.Slides для .NET
-description: Второй темный цвет в схеме. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Второй темный цвет в схеме. Режим только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 90
 url: /ru/aspose.slides.theme/icolorscheme/dark2/
 ---
-## IColorScheme.Dark2 property
 
-Второй темный цвет в схеме. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+## Свойство IColorScheme.Dark2
+
+Второй темный цвет в схеме. Режим только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Dark2 { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IColorFormat](../../../aspose.slides/icolorformat)
-* interface [IColorScheme](../../icolorscheme)
+* интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
+* интерфейс [IColorScheme](../../icolorscheme)
 * пространство имен [Aspose.Slides.Theme](../../icolorscheme)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,24 @@
 ---
 title: AsCell
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает объект IChartDataCell. Если категория многоуровневая то используется объект IChartDataCell для уровня 0. Чтение/записьIChartDataCellaspose.slides.charts/ichartdatacell.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает или устанавливает объект IChartDataCell. Если категория многоуровневая, то используется объект IChartDataCell для уровня "0". Чтение/запись IChartDataCell aspose.slides.charts/ichartdatacell.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ichartcategory/ascell/
 ---
-## IChartCategory.AsCell property
 
-Возвращает или задает объект IChartDataCell. Если категория многоуровневая, то используется объект IChartDataCell для уровня "0". Чтение/запись[`IChartDataCell`](../../ichartdatacell).
+## Свойство IChartCategory.AsCell
+
+Возвращает или устанавливает объект IChartDataCell. Если категория многоуровневая, то используется объект IChartDataCell для уровня "0". Чтение/запись [`IChartDataCell`](../../ichartdatacell).
 
 ```csharp
 public IChartDataCell AsCell { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataCell](../../ichartdatacell)
-* interface [IChartCategory](../../ichartcategory)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartCategory](../../ichartcategory)
 * пространство имен [Aspose.Slides.Charts](../../ichartcategory)
 * сборка [Aspose.Slides](../../../)
 

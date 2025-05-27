@@ -1,22 +1,23 @@
 ---
 title: MaxValue
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет максимальное значение на оси значений. Чтение/записьDouble.
+second_title: Aspose.Slides для .NET API Reference
+description: Представляет максимальное значение по оси значений. Чтение/запись Double.
 type: docs
 weight: 380
 url: /ru/aspose.slides.charts/iaxis/maxvalue/
 ---
-## IAxis.MaxValue property
 
-Представляет максимальное значение на оси значений. Чтение/записьDouble.
+## IAxis.MaxValue свойство
+
+Представляет максимальное значение по оси значений. Чтение/запись Double.
 
 ```csharp
 public double MaxValue { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAxis](../../iaxis)
+* интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

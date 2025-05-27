@@ -1,14 +1,15 @@
 ---
 title: MathGroupingCharacter
-second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует новый экземпляр класса MathGroupingCharacter с символом группировки по умолчанию U23DF НИЖНЯЯ КРЮЧНАЯ СКОБКА
+second_title: Справочная информация по API Aspose.Slides для .NET
+description: Инициализирует новый экземпляр класса MathGroupingCharacter со стандартным символом группировки U23DF нижняя фигурная скобка
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
 ---
+
 ## MathGroupingCharacter(IMathElement) {#constructor}
 
-Инициализирует новый экземпляр класса MathGroupingCharacter с символом группировки по умолчанию U+23DF (НИЖНЯЯ КРЮЧНАЯ СКОБКА)
+Инициализирует новый экземпляр класса MathGroupingCharacter со стандартным символом группировки U+23DF (нижняя фигурная скобка)
 
 ```csharp
 public MathGroupingCharacter(IMathElement element)
@@ -16,7 +17,7 @@ public MathGroupingCharacter(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Базовый элемент, к которому применяется панель |
+| element | IMathElement | Основной элемент, к которому применяется символ группировки |
 
 ### Примеры
 
@@ -27,10 +28,10 @@ public MathGroupingCharacter(IMathElement element)
 MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new MathematicalText("abc"));
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathGroupingCharacter](../../mathgroupingcharacter)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathGroupingCharacter](../../mathgroupingcharacter)
 * пространство имен [Aspose.Slides.MathText](../../mathgroupingcharacter)
 * сборка [Aspose.Slides](../../../)
 
@@ -47,10 +48,10 @@ public MathGroupingCharacter(IMathElement element, char character, MathTopBotPos
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Базовый элемент, к которому применяется полоса |
-| character | Char | Группирующий символ |
-| position | MathTopBotPositions | Позиция группирующего символа |
-| verticalJustification | MathTopBotPositions | Вертикальное выравнивание группового символа |
+| element | IMathElement | Основной элемент, к которому применяется символ группировки |
+| character | Char | Символ группировки |
+| position | MathTopBotPositions | Положение символа группировки |
+| verticalJustification | MathTopBotPositions | Вертикальное выравнивание символа группировки |
 
 ### Примеры
 
@@ -61,11 +62,11 @@ public MathGroupingCharacter(IMathElement element, char character, MathTopBotPos
 MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new MathematicalText("abc"), '_', MathTopBotPositions.Top, MathTopBotPositions.Bottom);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* enum [MathTopBotPositions](../../mathtopbotpositions)
-* class [MathGroupingCharacter](../../mathgroupingcharacter)
+* интерфейс [IMathElement](../../imathelement)
+* перечисление [MathTopBotPositions](../../mathtopbotpositions)
+* класс [MathGroupingCharacter](../../mathgroupingcharacter)
 * пространство имен [Aspose.Slides.MathText](../../mathgroupingcharacter)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
-title: ExtrusionPlane
+title: ЭкструзияПлоскость
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство extrusion.plane
 type: docs
 weight: 120
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionplane/
 ---
-## BehaviorProperty.ExtrusionPlane property
+
+## Свойство BehaviorProperty.ExtrusionPlane
 
 Представляет свойство 'extrusion.plane'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionplane/
 public static BehaviorProperty ExtrusionPlane { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

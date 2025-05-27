@@ -1,22 +1,23 @@
 ---
 title: CustomDashPattern
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает пользовательский шаблон тире. Только для чтенияSingle.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает пользовательский шаблон штриховки. Только для чтения Single.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ilineformateffectivedata/customdashpattern/
 ---
-## ILineFormatEffectiveData.CustomDashPattern property
 
-Возвращает пользовательский шаблон тире. Только для чтенияSingle[].
+## Свойство ILineFormatEffectiveData.CustomDashPattern
+
+Возвращает пользовательский шаблон штриховки. Только для чтения Single[].
 
 ```csharp
 public float[] CustomDashPattern { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * пространство имен [Aspose.Slides](../../ilineformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

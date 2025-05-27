@@ -1,31 +1,32 @@
 ---
 title: ICellCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор ячеек.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет собой коллекцию ячеек.
 type: docs
-weight: 4960
+weight: 5260
 url: /ru/aspose.slides/icellcollection/
 ---
-## ICellCollection interface
 
-Представляет набор ячеек.
+## Интерфейс ICellCollection
+
+Представляет собой коллекцию ячеек.
 
 ```csharp
 public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent). |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | Возвращает ячейку по ее положению. Только для чтения[`ICell`](../icell). |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../islidecomponent). |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | Возвращает ячейку по её позиции. Только для чтения [`ICell`](../icell). |
 
 ### Смотрите также
 
-* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* interface [ICell](../icell)
-* interface [ISlideComponent](../islidecomponent)
+* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* интерфейс [ICell](../icell)
+* интерфейс [ISlideComponent](../islidecomponent)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

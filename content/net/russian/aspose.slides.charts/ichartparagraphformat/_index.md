@@ -1,39 +1,40 @@
 ---
 title: IChartParagraphFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет свойства форматирования абзаца диаграммы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет свойства форматирования параграфа графика.
 type: docs
-weight: 1760
+weight: 1820
 url: /ru/aspose.slides.charts/ichartparagraphformat/
 ---
-## IChartParagraphFormat interface
 
-Представляет свойства форматирования абзаца диаграммы.
+## Интерфейс IChartParagraphFormat
+
+Представляет свойства форматирования параграфа графика.
 
 ```csharp
 public interface IChartParagraphFormat
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Возвращает или задает выравнивание текста в абзаце. Чтение/запись[`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Возвращает или устанавливает размер табуляции по умолчанию. Чтение/записьSingle. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Определяет, используется ли восточноазиатский разрыв строки в абзаце. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Возвращает или задает выравнивание шрифта в абзаце. Чтение/запись[`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Определяет, используются ли в абзаце висячие знаки препинания. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Возвращает или устанавливает отступ первой строки абзаца/выступающий отступ. Висячий отступ может быть определен отрицательными значениями. Чтение/записьSingle. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Определяет, используется ли в абзаце разрыв строки на латинице. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Возвращает или устанавливает левое поле в абзаце. Чтение/записьSingle. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Возвращает или устанавливает правое поле в абзаце. Чтение/записьSingle. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Определяет, используется ли в абзаце написание справа налево. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Возвращает или задает количество места после последней строки в абзаце. Чтение/записьSingle. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Возвращает или задает количество места перед первой строкой в абзаце. Чтение/записьSingle. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Возвращает или задает расстояние между базовыми строками в абзаце. Чтение/записьSingle. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Возвращает таблицы абзаца. Только для чтения[`ITabCollection`](../../aspose.slides/itabcollection). |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Возвращает или устанавливает выравнивание текста в параграфе. Чтение/запись [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Возвращает или устанавливает размер табуляции по умолчанию. Чтение/запись Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Определяет, используется ли разрыв строки восточноазиатского языка в параграфе. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Возвращает или устанавливает выравнивание шрифта в параграфе. Чтение/запись [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Определяет, используется ли висячая пунктуация в параграфе. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Возвращает или устанавливает отступ первой строки/висячий отступ параграфа. Висячий отступ может быть задан отрицательными значениями. Чтение/запись Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Определяет, используется ли разрыв строки латинского языка в параграфе. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Возвращает или устанавливает левый отступ в параграфе. Чтение/запись Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Возвращает или устанавливает правый отступ в параграфе. Чтение/запись Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Определяет, используется ли написание справа налево в параграфе. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Возвращает или устанавливает количество пространства после последней строки в параграфе. Чтение/запись Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Возвращает или устанавливает количество пространства перед первой строкой в параграфе. Чтение/запись Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Возвращает или устанавливает количество пространства между базовыми линиями в параграфе. Чтение/запись Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Возвращает табуляции параграфа. Только для чтения [`ITabCollection`](../../aspose.slides/itabcollection). |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides/pptxexception/pptxexception/
 ---
+
 ## PptxException() {#constructor}
 
 Конструктор по умолчанию.
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/pptxexception/pptxexception/
 public PptxException()
 ```
 
-### Смотрите также
+### См. также
 
-* class [PptxException](../../pptxexception)
+* класс [PptxException](../../pptxexception)
 * пространство имен [Aspose.Slides](../../pptxexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -32,11 +33,11 @@ public PptxException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
+| message | String | сообщение |
 
-### Смотрите также
+### См. также
 
-* class [PptxException](../../pptxexception)
+* класс [PptxException](../../pptxexception)
 * пространство имен [Aspose.Slides](../../pptxexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,7 +45,7 @@ public PptxException(string message)
 
 ## PptxException(string, Exception) {#constructor_2}
 
-Конструктор исключения, содержащего сообщение и встроенное исключение.
+Конструктор для исключения, содержащего сообщение и вложенное исключение.
 
 ```csharp
 public PptxException(string message, Exception exception)
@@ -52,12 +53,12 @@ public PptxException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
-| исключение | Exception | исходное исключение |
+| message | String | сообщение |
+| exception | Exception | оригинальное исключение |
 
-### Смотрите также
+### См. также
 
-* class [PptxException](../../pptxexception)
+* класс [PptxException](../../pptxexception)
 * пространство имен [Aspose.Slides](../../pptxexception)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,27 +1,28 @@
 ---
 title: IMathLimit
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет объект Limit состоящий из текста на базовой линии и текста уменьшенного размера непосредственно над или под ним.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Указывает объект Limit, состоящий из текста на базовой линии и текста уменьшенного размера, расположенного непосредственно выше или ниже его.
 type: docs
-weight: 7610
+weight: 8070
 url: /ru/aspose.slides.mathtext/imathlimit/
 ---
-## IMathLimit interface
 
-Определяет объект Limit, состоящий из текста на базовой линии и текста уменьшенного размера непосредственно над или под ним.
+## Интерфейс IMathLimit
+
+Указывает объект Limit, состоящий из текста на базовой линии и текста уменьшенного размера, расположенного непосредственно выше или ниже его.
 
 ```csharp
 public interface IMathLimit : IMathElement
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Базовый аргумент |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Предельный аргумент |
-| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Задает верхний или нижний предел |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Аргумент лимита |
+| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Указывает верхний или нижний предел |
 
 ### Примеры
 
@@ -32,9 +33,9 @@ public interface IMathLimit : IMathElement
 IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### Смотрите также
+### Смотрите Также
 
-* interface [IMathElement](../imathelement)
+* интерфейс [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

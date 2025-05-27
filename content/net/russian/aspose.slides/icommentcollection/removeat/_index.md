@@ -1,12 +1,13 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Sildes для .NET
 description: Удаляет элемент по указанному индексу в коллекции.
 type: docs
 weight: 80
 url: /ru/aspose.slides/icommentcollection/removeat/
 ---
-## ICommentCollection.RemoveAt method
+
+## ICommentCollection.RemoveAt метод
 
 Удаляет элемент по указанному индексу в коллекции.
 
@@ -16,18 +17,18 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
+| index | Int32 | Нулевой индекс элемента, который нужно удалить. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс меньше 0 или равен или больше Count |
-| [PptxEditException](../../pptxeditexception) | Выдается, если комментарий уже удален. |
+| ArgumentOutOfRangeException | Индекс меньше 0 или индекс равен или больше Count |
+| [PptxEditException](../../pptxeditexception) | Выбрасывается, если комментарий уже удален. |
 
-### Смотрите также
+### См. Также
 
-* interface [ICommentCollection](../../icommentcollection)
+* интерфейс [ICommentCollection](../../icommentcollection)
 * пространство имен [Aspose.Slides](../../icommentcollection)
 * сборка [Aspose.Slides](../../../)
 

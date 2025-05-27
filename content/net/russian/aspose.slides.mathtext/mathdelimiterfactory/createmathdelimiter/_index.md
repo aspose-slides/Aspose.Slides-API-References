@@ -1,11 +1,12 @@
 ---
 title: CreateMathDelimiter
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создать математический разделитель применив его к элементу
+second_title: Aspose.Slides для .NET API Справочник
+description: Создать математический разделитель, применив его к элементу
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter/
 ---
+
 ## CreateMathDelimiter(IMathElement) {#createmathdelimiter}
 
 Создать математический разделитель, применив его к элементу
@@ -16,17 +17,17 @@ public IMathDelimiter CreateMathDelimiter(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | math элемент для применения разделителя |
+| element | IMathElement | математический элемент для применения разделителя |
 
 ### Возвращаемое значение
 
 новый математический разделитель
 
-### Смотрите также
+### См. также
 
-* interface [IMathDelimiter](../../imathdelimiter)
-* interface [IMathElement](../../imathelement)
-* class [MathDelimiterFactory](../../mathdelimiterfactory)
+* интерфейс [IMathDelimiter](../../imathdelimiter)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathDelimiterFactory](../../mathdelimiterfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathdelimiterfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -34,7 +35,7 @@ public IMathDelimiter CreateMathDelimiter(IMathElement element)
 
 ## CreateMathDelimiter(IMathElementCollection) {#createmathdelimiter_1}
 
-Создать математический разделитель, применив к элементу
+Создать математический разделитель, применив его к элементу
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
@@ -42,17 +43,17 @@ public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElements | IMathElementCollection | math элементы для применения разделителя |
+| mathElements | IMathElementCollection | математические элементы для применения разделителя |
 
 ### Возвращаемое значение
 
 новый математический разделитель
 
-### Смотрите также
+### См. также
 
-* interface [IMathDelimiter](../../imathdelimiter)
-* interface [IMathElementCollection](../../imathelementcollection)
-* class [MathDelimiterFactory](../../mathdelimiterfactory)
+* интерфейс [IMathDelimiter](../../imathdelimiter)
+* интерфейс [IMathElementCollection](../../imathelementcollection)
+* класс [MathDelimiterFactory](../../mathdelimiterfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathdelimiterfactory)
 * сборка [Aspose.Slides](../../../)
 

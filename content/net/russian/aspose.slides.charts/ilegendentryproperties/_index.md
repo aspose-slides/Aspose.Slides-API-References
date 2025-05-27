@@ -1,29 +1,30 @@
 ---
 title: ILegendEntryProperties
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет свойства легенды диаграммы.
+second_title: Aspose.Slides для .NET API Reference
+description: Представляет свойства легенды графика.
 type: docs
-weight: 2010
+weight: 2070
 url: /ru/aspose.slides.charts/ilegendentryproperties/
 ---
-## ILegendEntryProperties interface
 
-Представляет свойства легенды диаграммы.
+## Интерфейс ILegendEntryProperties
+
+Представляет свойства легенды графика.
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Возвращает или устанавливает флаг скрытия записи легенды. Чтение/записьBoolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Возвращает или устанавливает флаг скрытия элемента легенды. Читаемый/записываемый булевый тип. |
 
-### Смотрите также
+### Также см.
 
-* interface [IFormattedTextContainer](../iformattedtextcontainer)
+* интерфейс [IFormattedTextContainer](../iformattedtextcontainer)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

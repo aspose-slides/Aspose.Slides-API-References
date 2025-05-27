@@ -1,22 +1,23 @@
 ---
-title: Count
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество элементов в коллекции. Только для чтенияInt32.
+title: Количество
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает количество элементов в коллекции. Только для чтения Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/textanimationcollection/count/
 ---
-## TextAnimationCollection.Count property
 
-Возвращает количество элементов в коллекции. Только для чтенияInt32.
+## Свойство TextAnimationCollection.Count
+
+Возвращает количество элементов в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### Также смотрите
 
-* class [TextAnimationCollection](../../textanimationcollection)
+* класс [TextAnimationCollection](../../textanimationcollection)
 * пространство имен [Aspose.Slides.Animation](../../textanimationcollection)
 * сборка [Aspose.Slides](../../../)
 

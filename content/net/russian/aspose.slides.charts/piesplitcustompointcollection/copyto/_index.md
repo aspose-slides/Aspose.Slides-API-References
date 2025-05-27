@@ -1,14 +1,15 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Копирует элементыICollectionвArray начиная с определенногоArrayindex.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Копирует элементы ICollection в массив, начиная с определенного индекса массива.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/piesplitcustompointcollection/copyto/
 ---
-## PieSplitCustomPointCollection.CopyTo method
 
-Копирует элементыICollectionвArray, начиная с определенногоArrayindex.
+## Метод PieSplitCustomPointCollection.CopyTo
+
+Копирует элементы ICollection в массив, начиная с определенного индекса массива.
 
 ```csharp
 public void CopyTo(IChartDataPoint[] array, int arrayIndex)
@@ -16,21 +17,21 @@ public void CopyTo(IChartDataPoint[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IChartDataPoint[] | ОдномерныйArrayкуда копируются элементы fromICollection.Arrayдолжен иметь индексацию с отсчетом от нуля. |
-| arrayIndex | Int32 | Отсчитываемый от нуля индекс в*array*с которого начинается копирование. |
+| array | IChartDataPoint[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь нулевую индексацию. |
+| arrayIndex | Int32 | Индекс с нулевой индексацией в *array*, с которого начинается копирование. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *array*равно нулю. |
-| ArgumentOutOfRangeException | *arrayIndex*меньше 0. |
-| ArgumentException | Количество элементов в источникеICollectionбольше, чем доступное пространство из*arrayIndex*до конца адресата*array*. |
+| ArgumentNullException | *array* равно null. |
+| ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
+| ArgumentException | Количество элементов в исходном ICollection больше доступного пространства от *arrayIndex* до конца целевого *array*. |
 
-### Смотрите также
+### См. Также
 
-* interface [IChartDataPoint](../../ichartdatapoint)
-* class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* класс [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * пространство имен [Aspose.Slides.Charts](../../piesplitcustompointcollection)
 * сборка [Aspose.Slides](../../../)
 

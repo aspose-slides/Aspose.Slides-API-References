@@ -1,12 +1,13 @@
 ---
-title: Clear
+title: Очистить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides/iparagraphcollection/clear/
 ---
-## IParagraphCollection.Clear method
+
+## Метод IParagraphCollection.Clear
 
 Удаляет все элементы из коллекции.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/iparagraphcollection/clear/
 public void Clear()
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IParagraphCollection](../../iparagraphcollection)
+* интерфейс [IParagraphCollection](../../iparagraphcollection)
 * пространство имен [Aspose.Slides](../../iparagraphcollection)
 * сборка [Aspose.Slides](../../../)
 

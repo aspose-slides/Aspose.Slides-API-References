@@ -1,199 +1,201 @@
 ---
 title: AddImage
-second_title: Aspose.Slides for .NET API 参考
-description: 将图像添加到演示文稿
+second_title: Aspose.Sildes for .NET API 参考
+description: 向演示文稿添加图像。
 type: docs
 weight: 20
 url: /zh/aspose.slides/iimagecollection/addimage/
 ---
-## AddImage(Image) {#addimage_3}
 
-将图像添加到演示文稿。
+## AddImage(IImage) {#addimage}
+
+向演示文稿添加图像。
 
 ```csharp
-public IPPImage AddImage(Image image)
+public IPPImage AddImage(IImage image)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | Image | 要添加的图像。 |
+| image | IImage | 要添加的图像。 |
 
 ### 返回值
 
-添加图像。
+添加的图像。
 
-### 评论
+### 备注
 
-此方法在插入演示文稿之前将 WMF/EMF 图元文件转换为光栅 PNG 图像。
+此方法将 WMF/EMF 元文件转换为光栅 PNG 图像，然后插入到演示文稿中。
 
-### 也可以看看
+### 另请参见
 
-* interface [IPPImage](../../ippimage)
-* interface [IImageCollection](../../iimagecollection)
+* 接口 [IPPImage](../../ippimage)
+* 接口 [IImage](../../iimage)
+* 接口 [IImageCollection](../../iimagecollection)
 * 命名空间 [Aspose.Slides](../../iimagecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(MemoryStream) {#addimage_4}
+## AddImage(MemoryStream) {#addimage_5}
 
-从内存流中添加图像。
+从内存流添加图像。
 
 ```csharp
 public IPPImage AddImage(MemoryStream stream)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | MemoryStream | 内存流。 |
 
 ### 返回值
 
-添加图像。
+添加的图像。
 
-### 也可以看看
+### 另请参见
 
-* interface [IPPImage](../../ippimage)
-* interface [IImageCollection](../../iimagecollection)
+* 接口 [IPPImage](../../ippimage)
+* 接口 [IImageCollection](../../iimagecollection)
 * 命名空间 [Aspose.Slides](../../iimagecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(Stream) {#addimage_5}
+## AddImage(Stream) {#addimage_6}
 
-将图像从流中添加到演示文稿。
+从流向演示文稿添加图像。
 
 ```csharp
 public IPPImage AddImage(Stream stream)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要从中添加图像的流。 |
+| stream | Stream | 要添加图像的流。 |
 
 ### 返回值
 
-添加图像。
+添加的图像。
 
-### 评论
+### 备注
 
-此方法可以将 WMF/EMF 图元文件添加到演示文稿中，而无需将它们转换为光栅 PNG 图像。
+此方法可以将 WMF/EMF 元文件添加到演示文稿，而无需将其转换为光栅 PNG 图像。
 
-### 也可以看看
+### 另请参见
 
-* interface [IPPImage](../../ippimage)
-* interface [IImageCollection](../../iimagecollection)
+* 接口 [IPPImage](../../ippimage)
+* 接口 [IImageCollection](../../iimagecollection)
 * 命名空间 [Aspose.Slides](../../iimagecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(Stream, LoadingStreamBehavior) {#addimage_6}
+## AddImage(Stream, LoadingStreamBehavior) {#addimage_7}
 
-从流中创建图像并将其添加到演示文稿。
+从流创建并添加图像到演示文稿。
 
 ```csharp
 public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要从中添加图像文件的流。 |
+| stream | Stream | 要添加图像文件的流。 |
 | loadingStreamBehavior | LoadingStreamBehavior | 将应用于流的行为。 |
 
 ### 返回值
 
-添加[`IPPImage`](../../ippimage)。
+添加的 [`IPPImage`](../../ippimage)。
 
-### 也可以看看
+### 另请参见
 
-* interface [IPPImage](../../ippimage)
-* enum [LoadingStreamBehavior](../../loadingstreambehavior)
-* interface [IImageCollection](../../iimagecollection)
+* 接口 [IPPImage](../../ippimage)
+* 枚举 [LoadingStreamBehavior](../../loadingstreambehavior)
+* 接口 [IImageCollection](../../iimagecollection)
 * 命名空间 [Aspose.Slides](../../iimagecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(byte[]) {#addimage_2}
+## AddImage(byte[]) {#addimage_3}
 
-将图像从指定缓冲区添加到演示文稿。
+从指定缓冲区向演示文稿添加图像。
 
 ```csharp
 public IPPImage AddImage(byte[] buffer)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | buffer | Byte[] | 缓冲区。 |
 
 ### 返回值
 
-添加图像。
+添加的图像。
 
-### 也可以看看
+### 另请参见
 
-* interface [IPPImage](../../ippimage)
-* interface [IImageCollection](../../iimagecollection)
+* 接口 [IPPImage](../../ippimage)
+* 接口 [IImageCollection](../../iimagecollection)
 * 命名空间 [Aspose.Slides](../../iimagecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(IPPImage) {#addimage}
+## AddImage(IPPImage) {#addimage_1}
 
-添加来自另一个演示文稿的图像的副本。
+从另一个演示文稿添加图像的副本。
 
 ```csharp
 public IPPImage AddImage(IPPImage imageSource)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | imageSource | IPPImage | 源图像。 |
 
 ### 返回值
 
-添加图像。
+添加的图像。
 
-### 也可以看看
+### 另请参见
 
-* interface [IPPImage](../../ippimage)
-* interface [IImageCollection](../../iimagecollection)
+* 接口 [IPPImage](../../ippimage)
+* 接口 [IImageCollection](../../iimagecollection)
 * 命名空间 [Aspose.Slides](../../iimagecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(ISvgImage) {#addimage_1}
+## AddImage(ISvgImage) {#addimage_2}
 
-将图像从 SVG 对象添加到演示文稿。
+从 SVG 对象向演示文稿添加图像。
 
 ```csharp
 public IPPImage AddImage(ISvgImage svgImage)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| svgImage | ISvgImage | SVG 图像对象[`ISvgImage`](../../isvgimage) |
+| svgImage | ISvgImage | SVG 图像对象 [`ISvgImage`](../../isvgimage) |
 
 ### 返回值
 
-添加图像。
+添加的图像。
 
-### 例外
+### 异常
 
-| 例外 | （健康）状况 |
+| 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | 当 svgImage 参数为空时抛出。 |
+| ArgumentNullException | 当 svgImage 参数为 null 时引发。 |
 
-### 也可以看看
+### 另请参见
 
-* interface [IPPImage](../../ippimage)
-* interface [ISvgImage](../../isvgimage)
-* interface [IImageCollection](../../iimagecollection)
+* 接口 [IPPImage](../../ippimage)
+* 接口 [ISvgImage](../../isvgimage)
+* 接口 [IImageCollection](../../iimagecollection)
 * 命名空间 [Aspose.Slides](../../iimagecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

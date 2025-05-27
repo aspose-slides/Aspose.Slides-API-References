@@ -1,14 +1,15 @@
 ---
 title: ISVGOptions
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa una opción de SVG.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa opciones SVG.
 type: docs
-weight: 3730
+weight: 3890
 url: /es/aspose.slides.export/isvgoptions/
 ---
-## ISVGOptions interface
 
-Representa una opción de SVG.
+## Interfaz ISVGOptions
+
+Representa opciones SVG.
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -18,22 +19,26 @@ public interface ISVGOptions : ISaveOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Devuelve la interfaz ISaveOptions. Solo lectura[`ISaveOptions`](../isaveoptions) . |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Un indicador booleano indica si las partes recortadas permanecen como parte del documento. Si es verdadero, las partes recortadas se eliminarán, si es falso, se serializarán en el documento (lo que puede generar un archivo más grande) Lectura/escrituraBoolean . |
-| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Determina si el texto 3D está deshabilitado en SVG. Lectura/escrituraBoolean . |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Desactiva la división de gradientes FromCornerX y FromCenter. Lectura/escrituraBoolean . |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 no tiene la capacidad de definir inserciones para marcadores. El motor de escritura Aspose.Slides SVG tiene una solución para ese problema: recorta el final de la línea con la flecha, por lo que la línea no se superpone a los marcadores. Esta opción desactiva dicho comportamiento. Lectura/escrituraBoolean . |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Determina una forma de manejar las fuentes cargadas externamente. Lectura/escritura[`SvgExternalFontsHandling`](../svgexternalfontshandling) . |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Determina la calidad de la codificación JPEG. Lectura/escrituraInt32 . |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Devuelve o establece el límite de resolución inferior para la rasterización de metarchivos. Lectura/escrituraInt32 . |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Representa el nivel de compresión de las imágenes Lectura/escritura[`PicturesCompression`](./picturescompression) . |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Devuelve y establece una interfaz de devolución de llamada que permite al usuario controlar la conversión de formas. Lectura/escritura[`ISvgShapeFormattingController`](../isvgshapeformattingcontroller) . |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Determina si el texto de una diapositiva se guardará como gráficos. Lectura/escrituraBoolean . |
+| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Devuelve la interfaz ISaveOptions. Solo lectura [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Un indicador booleano que indica si las partes recortadas permanecen como parte del documento. Si es verdadero, las partes recortadas se eliminarán; si es falso, se serializarán en el documento (lo que puede llevar a un archivo más grande). Lectura/escritura Booleano. |
+| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Determina si el texto 3D está desactivado en SVG. Lectura/escritura Booleano. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Obtiene o establece un valor que indica si el texto se renderiza sin usar ligaduras. Cuando se establece en `true`, las ligaduras estarán desactivadas en la salida renderizada. Por defecto, esta propiedad se establece en `false`. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Desactiva la división de gradientes FromCornerX y FromCenter. Lectura/escritura Booleano. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 carece de la capacidad de definir márgenes para los marcadores. El motor de escritura SVG de Aspose.Slides tiene una solución para ese problema: recorta el extremo de la línea con una flecha, de modo que la línea no se superponga a los marcadores. Esta opción desactiva tal comportamiento. Lectura/escritura Booleano. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Determina una forma de manejar las fuentes cargadas externamente. Lectura/escritura [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Proporciona opciones que controlan la apariencia de los objetos de tinta en el documento exportado. Solo lectura [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Determina la calidad de codificación JPEG. Lectura/escritura Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Devuelve o establece el límite de resolución más bajo para la rasterización de metarchivo. Lectura/escritura Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Representa el nivel de compresión de imágenes. Lectura/escritura [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Devuelve y establece una interfaz de callback que permite al usuario controlar la conversión de formas. Lectura/escritura [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Determina si se debe realizar la rotación específica de la forma al renderizar o no. Lectura/escritura Booleano. El valor por defecto es verdadero. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Determina si el marco de texto se incluirá en un área de renderizado o no. Lectura/escritura Booleano. El valor por defecto es falso. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Determina si el texto en una diapositiva se guardará como gráficos. Lectura/escritura Booleano. |
 
-### Ver también
+### Véase también
 
-* interface [ISaveOptions](../isaveoptions)
+* interfaz [ISaveOptions](../isaveoptions)
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
-* asamblea [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

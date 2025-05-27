@@ -1,22 +1,23 @@
 ---
-title: Bottom
+title: Нижний
 second_title: Справочник по API Aspose.Slides для .NET
-description: Снизу. Только для чтенияSingle.
+description: Нижний. Только для чтения Single.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/charttitle/bottom/
 ---
-## ChartTitle.Bottom property
 
-Снизу. Только для чтенияSingle.
+## Свойство ChartTitle.Bottom
+
+Нижний. Только для чтения Single.
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartTitle](../../charttitle)
+* класс [ChartTitle](../../charttitle)
 * пространство имен [Aspose.Slides.Charts](../../charttitle)
 * сборка [Aspose.Slides](../../../)
 

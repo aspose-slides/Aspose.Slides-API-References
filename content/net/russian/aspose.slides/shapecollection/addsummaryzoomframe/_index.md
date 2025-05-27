@@ -1,14 +1,15 @@
 ---
 title: AddSummaryZoomFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый объект Суммарное масштабирование в конец коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет новый объект Summary Zoom в конец коллекции.
 type: docs
 weight: 190
 url: /ru/aspose.slides/shapecollection/addsummaryzoomframe/
 ---
-## ShapeCollection.AddSummaryZoomFrame method
 
-Добавляет новый объект Суммарное масштабирование в конец коллекции.
+## ShapeCollection.AddSummaryZoomFrame метод
+
+Добавляет новый объект Summary Zoom в конец коллекции.
 
 ```csharp
 public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, float height)
@@ -16,28 +17,28 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового Раздел Кадр масштабированияSingle. |
-| y | Single | Координата Y нового кадра увеличения сеченияSingle. |
-| width | Single | Ширина нового кадра масштабирования разделаSingle. |
-| height | Single | Высота нового кадра масштабирования разделаSingle. |
+| x | Single | X-координата нового фрейма Section Zoom Single. |
+| y | Single | Y-координата нового фрейма Section Zoom Single. |
+| width | Single | Ширина нового фрейма Section Zoom Single. |
+| height | Single | Высота нового фрейма Section Zoom Single. |
 
 ### Возвращаемое значение
 
-Создан объект сводного масштабирования[`ISummaryZoomFrame`](../../isummaryzoomframe).
+Созданный объект Summary Zoom [`ISummaryZoomFrame`](../../isummaryzoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | В презентации нет разделов, или целевой слайд не принадлежит ни к одному из разделов. |
+| [PptxEditException](../../pptxeditexception) | В презентации нет разделов, или целевой слайд не принадлежит ни одному разделу. |
 
-### Примечания
+### Замечания
 
-Этот метод создает новый Суммарный масштаб и помещает в него коллекцию объектов для всех разделов в эта презентация.
+Этот метод создает новый Summary Zoom и помещает в него коллекцию объектов для всех разделов в этой презентации.
 
 ### Примеры
 
-В этом примере показано добавление объекта Summary Zoom в конец коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
+Этот пример демонстрирует добавление объекта Summary Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два раздела):
 
 ```csharp
 [C#]
@@ -47,10 +48,10 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISummaryZoomFrame](../../isummaryzoomframe)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [ISummaryZoomFrame](../../isummaryzoomframe)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
-title: Count
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
+title: Количество
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Получает количество элементов, действительно содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartdatapointcollection/count/
 ---
-## ChartDataPointCollection.Count property
 
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
+## Свойство ChartDataPointCollection.Count
+
+Получает количество элементов, действительно содержащихся в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartDataPointCollection](../../chartdatapointcollection)
+* класс [ChartDataPointCollection](../../chartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

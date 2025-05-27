@@ -1,22 +1,23 @@
 ---
-title: Name
+title: Имя
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает имя автора. Чтение/записьString.
+description: Возвращает или задает имя автора. Читаемое/записываемое Строка.
 type: docs
 weight: 30
 url: /ru/aspose.slides/icommentauthor/name/
 ---
-## ICommentAuthor.Name property
 
-Возвращает или устанавливает имя автора. Чтение/записьString.
+## Свойство ICommentAuthor.Name
+
+Возвращает или задает имя автора. Читаемое/записываемое Строка.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [ICommentAuthor](../../icommentauthor)
+* интерфейс [ICommentAuthor](../../icommentauthor)
 * пространство имен [Aspose.Slides](../../icommentauthor)
 * сборка [Aspose.Slides](../../../)
 

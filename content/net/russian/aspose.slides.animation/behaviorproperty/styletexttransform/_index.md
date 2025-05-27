@@ -1,12 +1,13 @@
 ---
 title: StyleTextTransform
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство style.textTransform
 type: docs
 weight: 1180
 url: /ru/aspose.slides.animation/behaviorproperty/styletexttransform/
 ---
-## BehaviorProperty.StyleTextTransform property
+
+## Свойство BehaviorProperty.StyleTextTransform
 
 Представляет свойство 'style.textTransform'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/styletexttransform/
 public static BehaviorProperty StyleTextTransform { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

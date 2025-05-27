@@ -1,12 +1,13 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает эффективные данные эффекта Fill Overlay с применением наследования.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/filloverlay/geteffective/
 ---
-## FillOverlay.GetEffective method
+
+## Метод FillOverlay.GetEffective
 
 Получает эффективные данные эффекта Fill Overlay с применением наследования.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides.effects/filloverlay/geteffective/
 public IFillOverlayEffectiveData GetEffective()
 ```
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
-A[`IFillOverlayEffectiveData`](../../ifilloverlayeffectivedata).
+[`IFillOverlayEffectiveData`](../../ifilloverlayeffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [IFillOverlayEffectiveData](../../ifilloverlayeffectivedata)
-* class [FillOverlay](../../filloverlay)
+* интерфейс [IFillOverlayEffectiveData](../../ifilloverlayeffectivedata)
+* класс [FillOverlay](../../filloverlay)
 * пространство имен [Aspose.Slides.Effects](../../filloverlay)
 * сборка [Aspose.Slides](../../../)
 

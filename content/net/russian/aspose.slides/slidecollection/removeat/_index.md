@@ -1,12 +1,13 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет элемент по указанному индексу коллекции.
 type: docs
 weight: 160
 url: /ru/aspose.slides/slidecollection/removeat/
 ---
-## SlideCollection.RemoveAt method
+
+## Метод SlideCollection.RemoveAt
 
 Удаляет элемент по указанному индексу коллекции.
 
@@ -16,11 +17,17 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
+| index | Int32 | Нулевой индекс элемента, который нужно удалить. |
 
-### Смотрите также
+### Исключения
 
-* class [SlideCollection](../../slidecollection)
+| исключение | условие |
+| --- | --- |
+| ArgumentOutOfRangeException |  |
+
+### См. Также
+
+* класс [SlideCollection](../../slidecollection)
 * пространство имен [Aspose.Slides](../../slidecollection)
 * сборка [Aspose.Slides](../../../)
 

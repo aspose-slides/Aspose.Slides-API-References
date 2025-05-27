@@ -1,14 +1,15 @@
 ---
 title: GetLevel
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает уровень эффективного стиля.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает уровень действующего стиля.
 type: docs
 weight: 20
 url: /ru/aspose.slides/itextstyleeffectivedata/getlevel/
 ---
-## ITextStyleEffectiveData.GetLevel method
 
-Возвращает уровень эффективного стиля.
+## ITextStyleEffectiveData.GetLevel метод
+
+Возвращает уровень действующего стиля.
 
 ```csharp
 public IParagraphFormatEffectiveData GetLevel(int index)
@@ -16,16 +17,16 @@ public IParagraphFormatEffectiveData GetLevel(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс уровня. Должен лежать в интервале 0..8. |
+| index | Int32 | Индекс уровня с нуля. Должен находиться в интервале 0..8. |
 
 ### Возвращаемое значение
 
-Эффективное форматирование уровня[`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
+Эффективное форматирование уровня [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
-* interface [ITextStyleEffectiveData](../../itextstyleeffectivedata)
+* интерфейс [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
+* интерфейс [ITextStyleEffectiveData](../../itextstyleeffectivedata)
 * пространство имен [Aspose.Slides](../../itextstyleeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

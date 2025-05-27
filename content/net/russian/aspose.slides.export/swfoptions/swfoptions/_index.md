@@ -1,12 +1,13 @@
 ---
 title: SwfOptions
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/swfoptions/swfoptions/
 ---
-## SwfOptions constructor
+
+## Конструктор SwfOptions
 
 Конструктор по умолчанию.
 
@@ -16,7 +17,7 @@ public SwfOptions()
 
 ### Смотрите также
 
-* class [SwfOptions](../../swfoptions)
+* класс [SwfOptions](../../swfoptions)
 * пространство имен [Aspose.Slides.Export](../../swfoptions)
 * сборка [Aspose.Slides](../../../)
 

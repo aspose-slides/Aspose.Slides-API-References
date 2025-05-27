@@ -1,14 +1,15 @@
 ---
-title: Equals
+title: Равно
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйTintaspose.slides.effects/tintтекущемуОттенок.
+description: Определяет, равен ли указанный Tintaspose.slides.effects/tint текущему Tintaspose.slides.effects/tint.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/tint/equals/
 ---
-## Tint.Equals method
 
-Определяет, равен ли указанный[`Tint`](../../tint)текущемуОттенок.
+## Метод Tint.Equals
+
+Определяет, равен ли указанный [`Tint`](../../tint) текущему [`Tint`](../../tint).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`Tint`](../../tint)для сравнения. |
+| obj | Object | [`Tint`](../../tint), который нужно сравнить. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае ложно.
+true, если объекты равны; в противном случае false.
 
-### Смотрите также
+### См. также
 
-* class [Tint](../../tint)
+* класс [Tint](../../tint)
 * пространство имен [Aspose.Slides.Effects](../../tint)
 * сборка [Aspose.Slides](../../../)
 

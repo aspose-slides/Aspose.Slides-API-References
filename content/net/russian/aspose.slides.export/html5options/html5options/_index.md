@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.export/html5options/html5options/
 ---
-## Html5Options constructor
+
+## Конструктор Html5Options
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.export/html5options/html5options/
 public Html5Options()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [Html5Options](../../html5options)
+* класс [Html5Options](../../html5options)
 * пространство имен [Aspose.Slides.Export](../../html5options)
 * сборка [Aspose.Slides](../../../)
 

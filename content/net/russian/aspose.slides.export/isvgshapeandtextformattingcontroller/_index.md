@@ -1,30 +1,31 @@
 ---
 title: ISvgShapeAndTextFormattingController
-second_title: Справочник по API Aspose.Slides для .NET
-description: Управляет формой SVG и генерацией текста.
+second_title: Aspose.Slides для .NET API Справочник
+description: Управляет генерацией SVG-форм и текста.
 type: docs
-weight: 3780
+weight: 3950
 url: /ru/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
-## ISvgShapeAndTextFormattingController interface
 
-Управляет формой SVG и генерацией текста.
+## Интерфейс ISvgShapeAndTextFormattingController
+
+Управляет генерацией SVG-форм и текста.
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | Возвращает интерфейс ISvgShapeFormattingController. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Эта функция вызывается перед рендерингом текстовой части в SVG, чтобы пользователь мог управлять результирующим SVG. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Эта функция вызывается перед рендерингом текстовой части в SVG, чтобы дать пользователю возможность контролировать результирующий SVG. |
 
 ### Примеры
 
@@ -48,7 +49,7 @@ class CustomSvgShapeFormattingController : ISvgShapeAndTextFormattingController
 	public void FormatText(Aspose.Slides.Export.ISvgTSpan svgTSpan, IPortion portion, ITextFrame textFrame)
 	{
 		int paragraphIndex = 0; int portionIndex = 0;
-		for (int i = 0; i < textFrame.Paragraphs.Count; i++)
+		for (int i = 0; i &lt; textFrame.Paragraphs.Count; i++)
 		{
 			portionIndex = textFrame.Paragraphs[i].Portions.IndexOf(portion);
 			if (portionIndex > -1) { paragraphIndex = i; break; }
@@ -63,9 +64,9 @@ class CustomSvgShapeFormattingController : ISvgShapeAndTextFormattingController
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISvgShapeFormattingController](../isvgshapeformattingcontroller)
+* интерфейс [ISvgShapeFormattingController](../isvgshapeformattingcontroller)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

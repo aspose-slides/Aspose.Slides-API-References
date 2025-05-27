@@ -1,12 +1,13 @@
 ---
 title: CreateMathNaryOperator
-second_title: Aspose.Slides für .NET-API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Erstellt IMathNaryOperator
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/mathnaryoperatorfactory/createmathnaryoperator/
 ---
-## CreateMathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#createmathnaryoperator_2}
+
+## CreateMathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#createmathnaryoperator_2}
 
 Erstellt IMathNaryOperator
 
@@ -15,28 +16,28 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
     IMathElement lowerLimit, IMathElement upperLimit)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| operatorSymbol | Char | Das Operatorzeichen |
-| baseArgument | IMathElement | Basisargument zum Anwenden des Operators |
-| lowerLimit | IMathElement | Untere Grenze |
-| upperLimit | IMathElement | Obergrenze |
+| Parameter      | Typ            | Beschreibung                |
+|----------------|----------------|-----------------------------|
+| operatorSymbol | Char           | Das Operatorsymbol          |
+| baseArgument   | IMathElement   | Basisargument für Operator  |
+| lowerLimit     | IMathElement   | Untere Grenze               |
+| upperLimit     | IMathElement   | Obere Grenze                |
 
 ### Rückgabewert
 
-neuer IMathNaryOperator
+new IMathNaryOperator
 
-### Siehe auch
+### Siehe Auch
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* interface [IMathElement](../../imathelement)
-* class [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
-* namensraum [Aspose.Slides.MathText](../../mathnaryoperatorfactory)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IMathNaryOperator](../../imathnaryoperator)
+* Schnittstelle [IMathElement](../../imathelement)
+* Klasse [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
+* Namespace [Aspose.Slides.MathText](../../mathnaryoperatorfactory)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
-## CreateMathNaryOperator(char, IMathElement, IMathElement) {#createmathnaryoperator_1}
+## CreateMathNaryOperator(char, IMathElement, IMathElement) {#createmathnaryoperator_1}
 
 Erstellt IMathNaryOperator
 
@@ -45,27 +46,27 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
     IMathElement lowerLimit)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| operatorSymbol | Char | Das Operatorzeichen |
-| baseArgument | IMathElement | Basisargument zum Anwenden des Operators |
-| lowerLimit | IMathElement | Untere Grenze |
+| Parameter      | Typ            | Beschreibung                |
+|----------------|----------------|-----------------------------|
+| operatorSymbol | Char           | Das Operatorsymbol          |
+| baseArgument   | IMathElement   | Basisargument für Operator  |
+| lowerLimit     | IMathElement   | Untere Grenze               |
 
 ### Rückgabewert
 
-neuer IMathNaryOperator
+new IMathNaryOperator
 
-### Siehe auch
+### Siehe Auch
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* interface [IMathElement](../../imathelement)
-* class [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
-* namensraum [Aspose.Slides.MathText](../../mathnaryoperatorfactory)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IMathNaryOperator](../../imathnaryoperator)
+* Schnittstelle [IMathElement](../../imathelement)
+* Klasse [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
+* Namespace [Aspose.Slides.MathText](../../mathnaryoperatorfactory)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
-## CreateMathNaryOperator(char, IMathElement) {#createmathnaryoperator}
+## CreateMathNaryOperator(char, IMathElement) {#createmathnaryoperator}
 
 Erstellt IMathNaryOperator
 
@@ -73,21 +74,21 @@ Erstellt IMathNaryOperator
 public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| operatorSymbol | Char | Das Operatorzeichen |
-| baseArgument | IMathElement | Basisargument zum Anwenden des Operators |
+| Parameter      | Typ            | Beschreibung                |
+|----------------|----------------|-----------------------------|
+| operatorSymbol | Char           | Das Operatorsymbol          |
+| baseArgument   | IMathElement   | Basisargument für Operator  |
 
 ### Rückgabewert
 
-neuer IMathNaryOperator
+new IMathNaryOperator
 
-### Siehe auch
+### Siehe Auch
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* interface [IMathElement](../../imathelement)
-* class [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
-* namensraum [Aspose.Slides.MathText](../../mathnaryoperatorfactory)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IMathNaryOperator](../../imathnaryoperator)
+* Schnittstelle [IMathElement](../../imathelement)
+* Klasse [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
+* Namespace [Aspose.Slides.MathText](../../mathnaryoperatorfactory)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

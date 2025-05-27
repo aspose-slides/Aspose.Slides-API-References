@@ -1,14 +1,15 @@
 ---
 title: LastRow
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет должна ли последняя строка таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, нужно ли рисовать последнюю строку таблицы с особым форматированием. Читаемый/записываемый логический.
 type: docs
 weight: 90
 url: /ru/aspose.slides/itable/lastrow/
 ---
-## ITable.LastRow property
 
-Определяет, должна ли последняя строка таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
+## ITable.LastRow свойство
+
+Определяет, нужно ли рисовать последнюю строку таблицы с особым форматированием. Читаемый/записываемый логический.
 
 ```csharp
 public bool LastRow { get; set; }
@@ -16,7 +17,7 @@ public bool LastRow { get; set; }
 
 ### Смотрите также
 
-* interface [ITable](../../itable)
+* интерфейс [ITable](../../itable)
 * пространство имен [Aspose.Slides](../../itable)
 * сборка [Aspose.Slides](../../../)
 

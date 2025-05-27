@@ -1,12 +1,13 @@
 ---
 title: AsIMathBlockCollection
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник API Aspose.Slides для .NET
 description: Позволяет получить базовый интерфейс IMathBlockCollection IMathBlockCollectionaspose.slides.mathtext/imathblockcollection
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathparagraph/asimathblockcollection/
 ---
-## IMathParagraph.AsIMathBlockCollection property
+
+## Свойство IMathParagraph.AsIMathBlockCollection
 
 Позволяет получить базовый интерфейс IMathBlockCollection [`IMathBlockCollection`](../../imathblockcollection)
 
@@ -14,10 +15,10 @@ url: /ru/aspose.slides.mathtext/imathparagraph/asimathblockcollection/
 public IMathBlockCollection AsIMathBlockCollection { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathBlockCollection](../../imathblockcollection)
-* interface [IMathParagraph](../../imathparagraph)
+* интерфейс [IMathBlockCollection](../../imathblockcollection)
+* интерфейс [IMathParagraph](../../imathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../imathparagraph)
 * сборка [Aspose.Slides](../../../)
 

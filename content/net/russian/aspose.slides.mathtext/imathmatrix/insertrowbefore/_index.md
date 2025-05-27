@@ -1,14 +1,15 @@
 ---
 title: InsertRowBefore
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вставить новую строку перед указанной Изначально все элементы в новой строке нулевые.
+second_title: Aspose.Slides для .NET API Справочник
+description: Вставить новую строку перед указанной. Изначально все элементы в новой строке равны null.
 type: docs
 weight: 180
 url: /ru/aspose.slides.mathtext/imathmatrix/insertrowbefore/
 ---
-## IMathMatrix.InsertRowBefore method
 
-Вставить новую строку перед указанной Изначально все элементы в новой строке нулевые.
+## Метод IMathMatrix.InsertRowBefore
+
+Вставить новую строку перед указанной. Изначально все элементы в новой строке равны null.
 
 ```csharp
 public void InsertRowBefore(int rowIndex)
@@ -16,7 +17,7 @@ public void InsertRowBefore(int rowIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rowIndex | Int32 | Индекс строки, перед которой вставить новую |
+| rowIndex | Int32 | Индекс строки, перед которой нужно вставить новую |
 
 ### Примеры
 
@@ -30,7 +31,7 @@ matrix.InsertRowBefore(1);
 
 ### Смотрите также
 
-* interface [IMathMatrix](../../imathmatrix)
+* интерфейс [IMathMatrix](../../imathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../imathmatrix)
 * сборка [Aspose.Slides](../../../)
 

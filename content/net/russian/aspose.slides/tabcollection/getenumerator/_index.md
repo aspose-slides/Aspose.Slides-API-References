@@ -1,12 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 90
 url: /ru/aspose.slides/tabcollection/getenumerator/
 ---
-## TabCollection.GetEnumerator method
+
+## Метод TabCollection.GetEnumerator
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -16,12 +17,12 @@ public IEnumerator<ITab> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для перебора коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [ITab](../../itab)
-* class [TabCollection](../../tabcollection)
+* интерфейс [ITab](../../itab)
+* класс [TabCollection](../../tabcollection)
 * пространство имен [Aspose.Slides](../../tabcollection)
 * сборка [Aspose.Slides](../../../)
 

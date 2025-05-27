@@ -1,12 +1,13 @@
 ---
 title: CreateOleTypeLibReference
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает новую ссылку на библиотеку типов OLE Automation.
 type: docs
 weight: 10
 url: /ru/aspose.slides.vba/ivbareferencefactory/createoletypelibreference/
 ---
-## IVbaReferenceFactory.CreateOleTypeLibReference method
+
+## IVbaReferenceFactory.CreateOleTypeLibReference метод
 
 Создает новую ссылку на библиотеку типов OLE Automation.
 
@@ -16,17 +17,17 @@ public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string lib
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя ссылки на проект VBAString |
-| libid | String | Идентификатор библиотеки типов автоматизацииString |
+| name | String | Имя ссылки на проект VBA строка |
+| libid | String | Идентификатор библиотеки типов Automation строка |
 
 ### Возвращаемое значение
 
-Новая автоматизация OLE ссылка на библиотеку типов[`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
+Новая ссылка на библиотеку типов OLE Automation [`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
 
 ### Смотрите также
 
-* interface [IVbaReferenceOleTypeLib](../../ivbareferenceoletypelib)
-* interface [IVbaReferenceFactory](../../ivbareferencefactory)
+* интерфейс [IVbaReferenceOleTypeLib](../../ivbareferenceoletypelib)
+* интерфейс [IVbaReferenceFactory](../../ivbareferencefactory)
 * пространство имен [Aspose.Slides.Vba](../../ivbareferencefactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: TextInheritanceLimit
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Управляет глубиной наследования свойств текста.
 type: docs
-weight: 4110
+weight: 4350
 url: /ru/aspose.slides.export/textinheritancelimit/
 ---
-## TextInheritanceLimit enumeration
+
+## Перечисление TextInheritanceLimit
 
 Управляет глубиной наследования свойств текста.
 
@@ -14,15 +15,15 @@ url: /ru/aspose.slides.export/textinheritancelimit/
 public enum TextInheritanceLimit
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| All | `0` | Наследовать все свойства текста. |
-| TextBox | `1` | Наследовать только от стиля TextFrameEx. |
+| All | `0` | Унаследовать все свойства текста. |
+| TextBox | `1` | Унаследовать только стиль из TextFrame. |
 | ParagraphOnly | `2` | Использовать только свойства, определенные для абзаца. |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

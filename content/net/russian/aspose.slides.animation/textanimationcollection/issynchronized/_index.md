@@ -1,22 +1,23 @@
 ---
 title: IsSynchronized
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
+description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным и безопасным для потоков. Только для чтения Boolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/textanimationcollection/issynchronized/
 ---
-## TextAnimationCollection.IsSynchronized property
 
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
+## Свойство TextAnimationCollection.IsSynchronized
+
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (безопасным для потоков). Только для чтения Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Смотрите также
+### Также смотрите
 
-* class [TextAnimationCollection](../../textanimationcollection)
+* класс [TextAnimationCollection](../../textanimationcollection)
 * пространство имен [Aspose.Slides.Animation](../../textanimationcollection)
 * сборка [Aspose.Slides](../../../)
 

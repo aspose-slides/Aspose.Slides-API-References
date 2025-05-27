@@ -1,22 +1,23 @@
 ---
 title: RawValue
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает значение настройки как есть. Чтение/записьInt64.
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает или устанавливает значение корректировки как есть. Чтение/запись Int64.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iadjustvalue/rawvalue/
 ---
-## IAdjustValue.RawValue property
 
-Возвращает или устанавливает значение настройки "как есть". Чтение/записьInt64.
+## Свойство IAdjustValue.RawValue
+
+Возвращает или устанавливает значение корректировки "как есть". Чтение/запись Int64.
 
 ```csharp
 public long RawValue { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAdjustValue](../../iadjustvalue)
+* интерфейс [IAdjustValue](../../iadjustvalue)
 * пространство имен [Aspose.Slides](../../iadjustvalue)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: MathAccentFactory
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создать математический акцент
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет создавать математический акцент
 type: docs
-weight: 7820
+weight: 8280
 url: /ru/aspose.slides.mathtext/mathaccentfactory/
 ---
-## MathAccentFactory class
 
-Позволяет создать математический акцент
+## Класс MathAccentFactory
+
+Позволяет создавать математический акцент
 
 ```csharp
 public class MathAccentFactory : IMathAccentFactory
@@ -24,16 +25,16 @@ public class MathAccentFactory : IMathAccentFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Создает математический акцент, применяемый к указанному математическому элементу со значением символа акцента по умолчанию |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Создает математический акцент, применяемый к указанному математическому элементу |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Создает математический акцент, применяя его к указанному математическому элементу с значением символа акцента по умолчанию |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Создает математический акцент, применяя его к указанному математическому элементу |
 
 ### Примечания
 
-Для COM-совместимости
+Для совместимости с COM
 
-### Смотрите также
+### См. Также
 
-* interface [IMathAccentFactory](../imathaccentfactory)
+* интерфейс [IMathAccentFactory](../imathaccentfactory)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

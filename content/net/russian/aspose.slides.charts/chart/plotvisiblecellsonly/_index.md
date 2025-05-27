@@ -1,22 +1,23 @@
 ---
 title: PlotVisibleCellsOnly
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет отображаются ли на графике только видимые ячейки. False для отображения как видимых так и скрытых ячеек. Чтение/записьBoolean.
+second_title: Справка по API Aspose.Slides для .NET
+description: Определяет, будут ли отображаться только видимые ячейки. False для отображения как видимых, так и скрытых ячеек. Читаемое/записываемое логическое значение.
 type: docs
 weight: 160
 url: /ru/aspose.slides.charts/chart/plotvisiblecellsonly/
 ---
-## Chart.PlotVisibleCellsOnly property
 
-Определяет, отображаются ли на графике только видимые ячейки. False для отображения как видимых, так и скрытых ячеек. Чтение/записьBoolean.
+## Свойство Chart.PlotVisibleCellsOnly
+
+Определяет, будут ли отображаться только видимые ячейки. False для отображения как видимых, так и скрытых ячеек. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool PlotVisibleCellsOnly { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Chart](../../chart)
+* класс [Chart](../../chart)
 * пространство имен [Aspose.Slides.Charts](../../chart)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
-title: Width
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает ширину столбца. Чтение/записьDouble.
+title: Ширина
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Возвращает или задает ширину столбца. Читаемый/записываемый Double.
 type: docs
 weight: 20
 url: /ru/aspose.slides/column/width/
 ---
-## Column.Width property
 
-Возвращает или задает ширину столбца. Чтение/записьDouble.
+## Свойство Column.Width
+
+Возвращает или задает ширину столбца. Читаемый/записываемый Double.
 
 ```csharp
 public double Width { get; set; }
@@ -16,7 +17,7 @@ public double Width { get; set; }
 
 ### Смотрите также
 
-* class [Column](../../column)
+* класс [Column](../../column)
 * пространство имен [Aspose.Slides](../../column)
 * сборка [Aspose.Slides](../../../)
 

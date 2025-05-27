@@ -1,11 +1,12 @@
 ---
 title: ReadPresentation
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для справки по API .NET
 description: Читает существующую презентацию из массива
 type: docs
 weight: 40
 url: /ru/aspose.slides/ipresentationfactory/readpresentation/
 ---
+
 ## ReadPresentation(byte[]) {#readpresentation}
 
 Читает существующую презентацию из массива
@@ -20,12 +21,12 @@ public IPresentation ReadPresentation(byte[] data)
 
 ### Возвращаемое значение
 
-Читать презентацию
+Прочитанная презентация
 
-### Смотрите также
+### См. также
 
-* interface [IPresentation](../../ipresentation)
-* interface [IPresentationFactory](../../ipresentationfactory)
+* интерфейс [IPresentation](../../ipresentation)
+* интерфейс [IPresentationFactory](../../ipresentationfactory)
 * пространство имен [Aspose.Slides](../../ipresentationfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -42,17 +43,17 @@ public IPresentation ReadPresentation(byte[] data, ILoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | data | Byte[] | Массив для чтения |
-| options | ILoadOptions | Опции загрузки |
+| options | ILoadOptions | Параметры загрузки |
 
 ### Возвращаемое значение
 
-Читать презентацию
+Прочитанная презентация
 
-### Смотрите также
+### См. также
 
-* interface [IPresentation](../../ipresentation)
-* interface [ILoadOptions](../../iloadoptions)
-* interface [IPresentationFactory](../../ipresentationfactory)
+* интерфейс [IPresentation](../../ipresentation)
+* интерфейс [ILoadOptions](../../iloadoptions)
+* интерфейс [IPresentationFactory](../../ipresentationfactory)
 * пространство имен [Aspose.Slides](../../ipresentationfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -72,12 +73,12 @@ public IPresentation ReadPresentation(Stream stream)
 
 ### Возвращаемое значение
 
-Читать презентацию
+Прочитанная презентация
 
-### Смотрите также
+### См. также
 
-* interface [IPresentation](../../ipresentation)
-* interface [IPresentationFactory](../../ipresentationfactory)
+* интерфейс [IPresentation](../../ipresentation)
+* интерфейс [IPresentationFactory](../../ipresentationfactory)
 * пространство имен [Aspose.Slides](../../ipresentationfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -94,17 +95,17 @@ public IPresentation ReadPresentation(Stream stream, ILoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Входной поток для чтения |
-| options | ILoadOptions | Загрузить параметры |
+| options | ILoadOptions | Параметры загрузки |
 
 ### Возвращаемое значение
 
-Читать презентацию
+Прочитанная презентация
 
-### Смотрите также
+### См. также
 
-* interface [IPresentation](../../ipresentation)
-* interface [ILoadOptions](../../iloadoptions)
-* interface [IPresentationFactory](../../ipresentationfactory)
+* интерфейс [IPresentation](../../ipresentation)
+* интерфейс [ILoadOptions](../../iloadoptions)
+* интерфейс [IPresentationFactory](../../ipresentationfactory)
 * пространство имен [Aspose.Slides](../../ipresentationfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -124,12 +125,12 @@ public IPresentation ReadPresentation(string file)
 
 ### Возвращаемое значение
 
-Читать презентацию
+Прочитанная презентация
 
-### Смотрите также
+### См. также
 
-* interface [IPresentation](../../ipresentation)
-* interface [IPresentationFactory](../../ipresentationfactory)
+* интерфейс [IPresentation](../../ipresentation)
+* интерфейс [IPresentationFactory](../../ipresentationfactory)
 * пространство имен [Aspose.Slides](../../ipresentationfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -137,7 +138,7 @@ public IPresentation ReadPresentation(string file)
 
 ## ReadPresentation(string, ILoadOptions) {#readpresentation_5}
 
-Читает существующую презентацию из потока с дополнительными параметрами загрузки
+Читает существующую презентацию из файла с дополнительными параметрами загрузки
 
 ```csharp
 public IPresentation ReadPresentation(string file, ILoadOptions options)
@@ -146,17 +147,17 @@ public IPresentation ReadPresentation(string file, ILoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | file | String | Имя файла |
-| options | ILoadOptions | Опции загрузки |
+| options | ILoadOptions | Параметры загрузки |
 
 ### Возвращаемое значение
 
-Прочитать презентацию
+Прочитанная презентация
 
-### Смотрите также
+### См. также
 
-* interface [IPresentation](../../ipresentation)
-* interface [ILoadOptions](../../iloadoptions)
-* interface [IPresentationFactory](../../ipresentationfactory)
+* интерфейс [IPresentation](../../ipresentation)
+* интерфейс [ILoadOptions](../../iloadoptions)
+* интерфейс [IPresentationFactory](../../ipresentationfactory)
 * пространство имен [Aspose.Slides](../../ipresentationfactory)
 * сборка [Aspose.Slides](../../../)
 

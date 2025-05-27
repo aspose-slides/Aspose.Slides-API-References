@@ -6,7 +6,8 @@ type: docs
 weight: 60
 url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/copyto/
 ---
-## ImageTransformOCollectionEffectiveData.CopyTo method
+
+## Метод ImageTransformOCollectionEffectiveData.CopyTo
 
 Копирует все элементы из коллекции в указанный массив.
 
@@ -21,7 +22,7 @@ public void CopyTo(Array array, int index)
 
 ### Смотрите также
 
-* class [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
+* класс [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

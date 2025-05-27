@@ -1,14 +1,15 @@
 ---
 title: InsertColumnAfter
 second_title: Справочник по API Aspose.Slides для .NET
-description: Вставить новый столбец после указанного Изначально все элементы в новом столбце пустые.
+description: Вставьте новый столбец после указанного. Изначально все элементы в новом столбце равны null.
 type: docs
 weight: 160
 url: /ru/aspose.slides.mathtext/mathmatrix/insertcolumnafter/
 ---
-## MathMatrix.InsertColumnAfter method
 
-Вставить новый столбец после указанного Изначально все элементы в новом столбце пустые.
+## Метод MathMatrix.InsertColumnAfter
+
+Вставьте новый столбец после указанного. Изначально все элементы в новом столбце равны null.
 
 ```csharp
 public void InsertColumnAfter(int columnIndex)
@@ -16,7 +17,7 @@ public void InsertColumnAfter(int columnIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnIndex | Int32 | Индекс столбца, после которого вставить новый |
+| columnIndex | Int32 | Индекс столбца, после которого нужно вставить новый |
 
 ### Примеры
 
@@ -28,9 +29,9 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.InsertColumnAfter(0);
 ```
 
-### Смотрите также
+### См. также
 
-* class [MathMatrix](../../mathmatrix)
+* класс [MathMatrix](../../mathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrix)
 * сборка [Aspose.Slides](../../../)
 

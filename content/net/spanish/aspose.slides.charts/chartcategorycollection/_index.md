@@ -1,14 +1,15 @@
 ---
 title: ChartCategoryCollection
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa la colección deChartCategory./chartcategory
+second_title: Referencia API de Aspose.Slides para .NET
+description: Representa la colección de ChartCategory./chartcategory
 type: docs
-weight: 1140
+weight: 1200
 url: /es/aspose.slides.charts/chartcategorycollection/
 ---
-## ChartCategoryCollection class
 
-Representa la colección de[`ChartCategory`](../chartcategory)
+## Clase ChartCategoryCollection
+
+Representa la colección de [`ChartCategory`](../chartcategory)
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
@@ -18,32 +19,32 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Devuelve una cantidad de elementos de la colección. Solo lecturaInt32 . |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Devuelve el recuento de niveles de agrupación de categorías utilizados. Es más de uno para categorías multinivel. Solo lecturaInt32 . |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la Lista está sincronizado (thread safe). Solo lecturaBoolean . |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Devuelve el número de elementos en la colección. Solo lectura Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Devuelve el conteo de niveles de agrupación de categorías utilizados. Es más de uno para categorías de múltiples niveles. Solo lectura Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la lista está sincronizado (seguro para múltiples hilos). Solo lectura Boolean. |
 | [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Obtiene el elemento en el índice especificado. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Devuelve un objeto que se puede usar para sincronizar el acceso a la colección. Solo lecturaObject . |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Si es verdadero, la hoja de trabajo se usa para almacenar categorías (este caso admite categorías de niveles múltiples). Si es falso, la hoja de trabajo NO se usa para almacenar valores (y este caso no admite categorías de niveles múltiples ). Leer /escribeBoolean . |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Devuelve un objeto que se puede utilizar para sincronizar el acceso a la colección. Solo lectura Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Si es verdadero, se utiliza la hoja de cálculo para almacenar categorías (este caso admite categorías de múltiples niveles). Si es falso, la hoja de cálculo NO se utiliza para almacenar valores (y este caso no admite categorías de múltiples niveles). Lectura/escritura Boolean. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Si la categoría existe en la colección, devuélvela. De lo contrario, crea una nueva categoría de gráfico a partir de [`IChartDataCell`](../ichartdatacell) y lo agrega a la colección. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Crea nuevo[`ChartCategory`](../chartcategory) from value y lo agrega a la colección. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Si la categoría existe en la colección, la devuelve. De lo contrario, crea una nueva categoría de gráfico a partir de [`IChartDataCell`](../ichartdatacell) y la agrega a la colección. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Crea una nueva [`ChartCategory`](../chartcategory) a partir del valor y la agrega a la colección. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Elimina todos los elementos de la colección. |
-| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Copia todos los elementos de la colección a la matriz especificada. |
+| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
 | [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Busca el especificado[`ChartCategory`](../chartcategory) y devuelve el índice de base cero de la primera aparición dentro de toda la Colección. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Busca el [`ChartCategory`](../chartcategory) especificado y devuelve el índice basado en cero de la primera ocurrencia dentro de toda la colección. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | Elimina el valor especificado. |
 | [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Elimina el elemento en el índice dado. |
 
-### Ver también
+### Véase También
 
-* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* class [ChartData](../chartdata)
+* clase [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* clase [ChartData](../chartdata)
 * interface [IChartCategoryCollection](../ichartcategorycollection)
-* espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
-* asamblea [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

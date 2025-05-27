@@ -1,24 +1,25 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Справочник API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/igrayscale/asiaccessiblepviobject/
 ---
-## IGrayScale.AsIAccessiblePVIObject property
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+## Свойство IGrayScale.AsIAccessiblePVIObject
+
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IGrayScaleEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* interface [IGrayScaleEffectiveData](../../igrayscaleeffectivedata)
-* interface [IGrayScale](../../igrayscale)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IGrayScaleEffectiveData](../../igrayscaleeffectivedata)
+* интерфейс [IGrayScale](../../igrayscale)
 * пространство имен [Aspose.Slides.Effects](../../igrayscale)
 * сборка [Aspose.Slides](../../../)
 

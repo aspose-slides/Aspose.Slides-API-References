@@ -1,14 +1,15 @@
 ---
-title: Add
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новую линию тренда в конец коллекции и возвращает ее.
+title: Добавить
+second_title: Справочная информация по API Aspose.Slides для .NET
+description: Добавляет новую Trendline в конец коллекции и возвращает её.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/itrendlinecollection/add/
 ---
-## ITrendlineCollection.Add method
 
-Добавляет новую линию тренда в конец коллекции и возвращает ее.
+## Метод ITrendlineCollection.Add
+
+Добавляет новую Trendline в конец коллекции и возвращает её.
 
 ```csharp
 public ITrendline Add(TrendlineType trendlineType)
@@ -16,17 +17,17 @@ public ITrendline Add(TrendlineType trendlineType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| trendlineType | TrendlineType | Тип линии тренда[`TrendlineType`](../../trendlinetype) |
+| trendlineType | TrendlineType | Тип Trendline [`TrendlineType`](../../trendlinetype) |
 
 ### Возвращаемое значение
 
-Новая линия тренда[`ITrendline`](../../itrendline)
+Новая Trendline [`ITrendline`](../../itrendline)
 
-### Смотрите также
+### См. также
 
-* interface [ITrendline](../../itrendline)
-* enum [TrendlineType](../../trendlinetype)
-* interface [ITrendlineCollection](../../itrendlinecollection)
+* интерфейс [ITrendline](../../itrendline)
+* перечисление [TrendlineType](../../trendlinetype)
+* интерфейс [ITrendlineCollection](../../itrendlinecollection)
 * пространство имен [Aspose.Slides.Charts](../../itrendlinecollection)
 * сборка [Aspose.Slides](../../../)
 

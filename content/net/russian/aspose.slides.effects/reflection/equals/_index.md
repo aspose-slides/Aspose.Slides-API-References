@@ -1,14 +1,15 @@
 ---
-title: Equals
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйReflectionaspose.slides.effects/reflectionтекущемуОтражение.
+title: Равенство
+second_title: Справка по API Aspose.Slides для .NET
+description: Определяет, равен ли указанный Reflectionaspose.slides.effects/reflection текущему Reflectionaspose.slides.effects/reflection.
 type: docs
 weight: 150
 url: /ru/aspose.slides.effects/reflection/equals/
 ---
-## Reflection.Equals method
 
-Определяет, равен ли указанный[`Reflection`](../../reflection)текущемуОтражение.
+## Метод Reflection.Equals
+
+Определяет, равен ли указанный [`Reflection`](../../reflection) текущему [`Reflection`](../../reflection).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`Reflection`](../../reflection)для сравнения. |
+| obj | Object | [`Reflection`](../../reflection), который нужно сравнить. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае ложно.
+true, если объекты равны; в противном случае false.
 
 ### Смотрите также
 
-* class [Reflection](../../reflection)
+* класс [Reflection](../../reflection)
 * пространство имен [Aspose.Slides.Effects](../../reflection)
 * сборка [Aspose.Slides](../../../)
 

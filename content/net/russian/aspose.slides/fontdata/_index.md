@@ -1,14 +1,15 @@
 ---
 title: FontData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет определение шрифта. Неизменный.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет определение шрифта. Незапись.
 type: docs
-weight: 4380
+weight: 4630
 url: /ru/aspose.slides/fontdata/
 ---
-## FontData class
 
-Представляет определение шрифта. Неизменный.
+## Класс FontData
+
+Представляет определение шрифта. Незапись.
 
 ```csharp
 public sealed class FontData : IFontData
@@ -16,28 +17,28 @@ public sealed class FontData : IFontData
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [FontData](fontdata)(string) | Создает новый объект FontData с указанным именем шрифта. |
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Возвращает имя шрифта. Чтение/записьString. |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Возвращает имя шрифта. Читаемое/записываемое значение String. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | Определяет, равны ли два экземпляра FontData. |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Возвращает имя шрифта, заменяя ссылку на тему фактически используемым шрифтом. |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Возвращает имя шрифта, заменяя ссылку на тему на фактический используемый шрифт. |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Служит хэш-функцией для конкретного типа, подходящей для использования в хэш-алгоритмах и структурах данных, подобных хэш-таблицам. |
 | override [ToString](../../aspose.slides/fontdata/tostring)() | Возвращает строковое представление. |
 
 ### Смотрите также
 
-* interface [IFontData](../ifontdata)
+* интерфейс [IFontData](../ifontdata)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

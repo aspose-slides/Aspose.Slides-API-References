@@ -1,23 +1,24 @@
 ---
 title: AsIGraphicalObject
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IGraphicalObject. Только для чтенияIGraphicalObjectaspose.slides/igraphicalobject.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения IGraphicalObject aspose.slides/igraphicalobject.
 type: docs
 weight: 10
 url: /ru/aspose.slides/oleobjectframe/asigraphicalobject/
 ---
-## OleObjectFrame.AsIGraphicalObject property
 
-Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения[`IGraphicalObject`](../../igraphicalobject).
+## OleObjectFrame.AsIGraphicalObject свойство
+
+Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../../igraphicalobject).
 
 ```csharp
 public IGraphicalObject AsIGraphicalObject { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IGraphicalObject](../../igraphicalobject)
-* class [OleObjectFrame](../../oleobjectframe)
+* интерфейс [IGraphicalObject](../../igraphicalobject)
+* класс [OleObjectFrame](../../oleobjectframe)
 * пространство имен [Aspose.Slides](../../oleobjectframe)
 * сборка [Aspose.Slides](../../../)
 

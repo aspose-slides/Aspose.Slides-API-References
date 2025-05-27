@@ -1,27 +1,28 @@
 ---
 title: IFontSources
 second_title: Справочник по API Aspose.Slides для .NET
-description: Предоставляет файлы и источники памяти для внешних шрифтов.
+description: Предоставляет источники файлов и памяти для внешних шрифтов.
 type: docs
-weight: 5340
+weight: 5670
 url: /ru/aspose.slides/ifontsources/
 ---
-## IFontSources interface
 
-Предоставляет файлы и источники памяти для внешних шрифтов.
+## Интерфейс IFontSources
+
+Предоставляет источники файлов и памяти для внешних шрифтов.
 
 ```csharp
 public interface IFontSources
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Папки, содержащие файлы шрифтов. Все файлы шрифтов, расположенные в этих папках, включены в коллекцию. Папки, в которых выполняется рекурсивный поиск. |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Коллекция шрифтов, представленных в виде байтовых массивов. |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Папки, содержащие файлы шрифтов. Все файлы шрифтов, находящиеся в этих папках, включены в коллекцию. Папки, в которых выполняется рекурсивный поиск. |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Коллекция шрифтов, представленных в виде массивов байтов. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

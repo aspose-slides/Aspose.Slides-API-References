@@ -1,11 +1,12 @@
 ---
 title: SvgImage
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справочника API .NET
 description: Создает новый объект SvgImage.
 type: docs
 weight: 10
 url: /ru/aspose.slides/svgimage/svgimage/
 ---
+
 ## SvgImage(byte[]) {#constructor}
 
 Создает новый объект SvgImage.
@@ -16,11 +17,11 @@ public SvgImage(byte[] data)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| data | Byte[] | Svg-данные. |
+| data | Byte[] | Svg данные. |
 
-### Смотрите также
+### См. также
 
-* class [SvgImage](../../svgimage)
+* класс [SvgImage](../../svgimage)
 * пространство имен [Aspose.Slides](../../svgimage)
 * сборка [Aspose.Slides](../../../)
 
@@ -36,11 +37,11 @@ public SvgImage(string svgContent)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| svgContent | String | Svg-контент. |
+| svgContent | String | Svg содержимое. |
 
-### Смотрите также
+### См. также
 
-* class [SvgImage](../../svgimage)
+* класс [SvgImage](../../svgimage)
 * пространство имен [Aspose.Slides](../../svgimage)
 * сборка [Aspose.Slides](../../../)
 
@@ -56,11 +57,11 @@ public SvgImage(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток SVG. |
+| stream | Stream | Svg поток. |
 
-### Смотрите также
+### См. также
 
-* class [SvgImage](../../svgimage)
+* класс [SvgImage](../../svgimage)
 * пространство имен [Aspose.Slides](../../svgimage)
 * сборка [Aspose.Slides](../../../)
 
@@ -76,14 +77,14 @@ public SvgImage(byte[] data, IExternalResourceResolver externalResResolver, stri
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| data | Byte[] | Svg-данные. |
-| externalResResolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен нулю, все внешние объекты будут игнорироваться. |
+| data | Byte[] | Svg данные. |
+| externalResResolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | baseUri | String | Базовый URI указанного Svg. Используется для разрешения относительных ссылок. |
 
-### Смотрите также
+### См. также
 
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SvgImage](../../svgimage)
+* интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* класс [SvgImage](../../svgimage)
 * пространство имен [Aspose.Slides](../../svgimage)
 * сборка [Aspose.Slides](../../../)
 
@@ -99,14 +100,14 @@ public SvgImage(string svgContent, IExternalResourceResolver externalResResolver
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| svgContent | String | Svg-контент. |
-| externalResResolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен нулю, все внешние объекты будут игнорироваться. |
+| svgContent | String | Svg содержимое. |
+| externalResResolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | baseUri | String | Базовый URI указанного Svg. Используется для разрешения относительных ссылок. |
 
-### Смотрите также
+### См. также
 
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SvgImage](../../svgimage)
+* интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* класс [SvgImage](../../svgimage)
 * пространство имен [Aspose.Slides](../../svgimage)
 * сборка [Aspose.Slides](../../../)
 
@@ -122,14 +123,14 @@ public SvgImage(Stream stream, IExternalResourceResolver externalResResolver, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток SVG. |
-| externalResResolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен нулю, все внешние объекты будут игнорироваться. |
+| stream | Stream | Svg поток. |
+| externalResResolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | baseUri | String | Базовый URI указанного Svg. Используется для разрешения относительных ссылок. |
 
-### Смотрите также
+### См. также
 
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SvgImage](../../svgimage)
+* интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* класс [SvgImage](../../svgimage)
 * пространство имен [Aspose.Slides](../../svgimage)
 * сборка [Aspose.Slides](../../../)
 

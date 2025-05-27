@@ -1,12 +1,13 @@
 ---
 title: CreateMathNaryOperator
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Создает IMathNaryOperator
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator/
 ---
-## CreateMathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#createmathnaryoperator_2}
+
+## CreateMathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#createmathnaryoperator_2}
 
 Создает IMathNaryOperator
 
@@ -18,7 +19,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | operatorSymbol | Char | Знак оператора |
-| baseArgument | IMathElement | Базовый аргумент для применения оператора |
+| baseArgument | IMathElement | Основание аргумента для применения оператора |
 | lowerLimit | IMathElement | Нижний предел |
 | upperLimit | IMathElement | Верхний предел |
 
@@ -26,17 +27,17 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 
 новый IMathNaryOperator
 
-### Смотрите также
+### См. также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* interface [IMathElement](../../imathelement)
-* interface [IMathNaryOperatorFactory](../../imathnaryoperatorfactory)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathNaryOperatorFactory](../../imathnaryoperatorfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathnaryoperatorfactory)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## CreateMathNaryOperator(char, IMathElement, IMathElement) {#createmathnaryoperator_1}
+## CreateMathNaryOperator(char, IMathElement, IMathElement) {#createmathnaryoperator_1}
 
 Создает IMathNaryOperator
 
@@ -48,24 +49,24 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | operatorSymbol | Char | Знак оператора |
-| baseArgument | IMathElement | Базовый аргумент для применения оператора |
+| baseArgument | IMathElement | Основание аргумента для применения оператора |
 | lowerLimit | IMathElement | Нижний предел |
 
 ### Возвращаемое значение
 
 новый IMathNaryOperator
 
-### Смотрите также
+### См. также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* interface [IMathElement](../../imathelement)
-* interface [IMathNaryOperatorFactory](../../imathnaryoperatorfactory)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathNaryOperatorFactory](../../imathnaryoperatorfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathnaryoperatorfactory)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## CreateMathNaryOperator(char, IMathElement) {#createmathnaryoperator}
+## CreateMathNaryOperator(char, IMathElement) {#createmathnaryoperator}
 
 Создает IMathNaryOperator
 
@@ -76,17 +77,17 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | operatorSymbol | Char | Знак оператора |
-| baseArgument | IMathElement | Базовый аргумент для применения оператора |
+| baseArgument | IMathElement | Основание аргумента для применения оператора |
 
 ### Возвращаемое значение
 
 новый IMathNaryOperator
 
-### Смотрите также
+### См. также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* interface [IMathElement](../../imathelement)
-* interface [IMathNaryOperatorFactory](../../imathnaryoperatorfactory)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathNaryOperatorFactory](../../imathnaryoperatorfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathnaryoperatorfactory)
 * сборка [Aspose.Slides](../../../)
 

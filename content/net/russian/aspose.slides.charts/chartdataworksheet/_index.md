@@ -1,31 +1,32 @@
 ---
 title: ChartDataWorksheet
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет рабочий лист связанный сIChartDataCell./ichartdatacell
+description: Представляет рабочий лист, связанный с IChartDataCell./ichartdatacell
 type: docs
-weight: 1250
+weight: 1310
 url: /ru/aspose.slides.charts/chartdataworksheet/
 ---
-## ChartDataWorksheet class
 
-Представляет рабочий лист, связанный с[`IChartDataCell`](../ichartdatacell)
+## Класс ChartDataWorksheet
+
+Представляет рабочий лист, связанный с [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Получает индекс листа. Только для чтенияInt32. |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Возвращает имя листа. Только чтениеString. |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Получает индекс рабочего листа. Только для чтения Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Возвращает имя рабочего листа. Только для чтения String. |
 
-### Смотрите также
+### См. также
 
-* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* class [ChartDataWorksheetCollection](../chartdataworksheetcollection)
-* interface [IChartDataWorksheet](../ichartdataworksheet)
+* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* класс [ChartDataWorksheetCollection](../chartdataworksheetcollection)
+* интерфейс [IChartDataWorksheet](../ichartdataworksheet)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

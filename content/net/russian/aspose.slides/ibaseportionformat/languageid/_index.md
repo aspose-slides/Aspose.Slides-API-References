@@ -1,22 +1,23 @@
 ---
 title: LanguageId
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает идентификатор языка проверки правописания. Используется для проверки орфографии и грамматики. Чтение/записьString.
+description: Возвращает или устанавливает Id языка проверки. Используется для проверки правописания и грамматики. Чтение/запись String.
 type: docs
 weight: 160
 url: /ru/aspose.slides/ibaseportionformat/languageid/
 ---
-## IBasePortionFormat.LanguageId property
 
-Возвращает или задает идентификатор языка проверки правописания. Используется для проверки орфографии и грамматики. Чтение/записьString.
+## Свойство IBasePortionFormat.LanguageId
+
+Возвращает или устанавливает Id языка проверки. Используется для проверки правописания и грамматики. Чтение/запись String.
 
 ```csharp
 public string LanguageId { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBasePortionFormat](../../ibaseportionformat)
+* интерфейс [IBasePortionFormat](../../ibaseportionformat)
 * пространство имен [Aspose.Slides](../../ibaseportionformat)
 * сборка [Aspose.Slides](../../../)
 

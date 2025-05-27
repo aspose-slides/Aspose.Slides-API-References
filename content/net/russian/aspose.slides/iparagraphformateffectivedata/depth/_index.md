@@ -1,22 +1,23 @@
 ---
-title: Depth
+title: Глубина
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает глубину абзаца. Только чтениеInt16.
+description: Возвращает глубину абзаца. Только для чтения Int16.
 type: docs
 weight: 50
 url: /ru/aspose.slides/iparagraphformateffectivedata/depth/
 ---
-## IParagraphFormatEffectiveData.Depth property
 
-Возвращает глубину абзаца. Только чтениеInt16.
+## Свойство IParagraphFormatEffectiveData.Depth
+
+Возвращает глубину абзаца. Только для чтения Int16.
 
 ```csharp
 public short Depth { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
+* интерфейс [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * пространство имен [Aspose.Slides](../../iparagraphformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

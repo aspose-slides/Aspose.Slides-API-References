@@ -1,12 +1,13 @@
 ---
 title: ClearBuiltInProperties
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Очищает и устанавливает значения по умолчанию для всех встроенных свойств.
 type: docs
-weight: 250
+weight: 360
 url: /ru/aspose.slides/idocumentproperties/clearbuiltinproperties/
 ---
-## IDocumentProperties.ClearBuiltInProperties method
+
+## Метод IDocumentProperties.ClearBuiltInProperties
 
 Очищает и устанавливает значения по умолчанию для всех встроенных свойств.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/idocumentproperties/clearbuiltinproperties/
 public void ClearBuiltInProperties()
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IDocumentProperties](../../idocumentproperties)
+* интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 

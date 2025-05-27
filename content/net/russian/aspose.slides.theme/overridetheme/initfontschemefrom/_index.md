@@ -1,14 +1,15 @@
 ---
 title: InitFontSchemeFrom
-second_title: Справочник по API Aspose.Slides для .NET
-description: Инициировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme.
+second_title: Aspose.Sildes для .NET API Reference
+description: Инициализация FontScheme с новым объектом для переопределения FontScheme у унаследованной темы.
 type: docs
 weight: 100
 url: /ru/aspose.slides.theme/overridetheme/initfontschemefrom/
 ---
-## OverrideTheme.InitFontSchemeFrom method
 
-Инициировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme.
+## Метод OverrideTheme.InitFontSchemeFrom
+
+Инициализация FontScheme с новым объектом для переопределения FontScheme у унаследованной темы.
 
 ```csharp
 public void InitFontSchemeFrom(IFontScheme fontScheme)
@@ -16,19 +17,19 @@ public void InitFontSchemeFrom(IFontScheme fontScheme)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontScheme | IFontScheme | Данные для инициализации. |
+| fontScheme | IFontScheme | Данные, от которых нужно инициализировать. |
 
 ### Исключения
 
-| исключение | условие |
+| Исключение | Условие |
 | --- | --- |
-| InvalidOperationException | Генерируется, если FontScheme уже инициализирована (не нуль). |
-| ArgumentNullException | Вызывается, если параметр fontScheme имеет значение null. |
+| InvalidOperationException | Выбрасывается, если FontScheme уже инициализирован (не null). |
+| ArgumentNullException | Выбрасывается, если параметр fontScheme равен null. |
 
-### Смотрите также
+### См. также
 
-* interface [IFontScheme](../../ifontscheme)
-* class [OverrideTheme](../../overridetheme)
+* интерфейс [IFontScheme](../../ifontscheme)
+* класс [OverrideTheme](../../overridetheme)
 * пространство имен [Aspose.Slides.Theme](../../overridetheme)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,33 +1,34 @@
 ---
 title: ILineFormatCollectionEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий доступную только для чтения коллекцию эффективных форматов строк.
+description: Непередаваемый объект, который представляет собой только для чтения коллекцию эффективных форматов линий.
 type: docs
-weight: 10490
+weight: 10990
 url: /ru/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
-## ILineFormatCollectionEffectiveData interface
 
-Неизменяемый объект, представляющий доступную только для чтения коллекцию эффективных форматов строк.
+## Интерфейс ILineFormatCollectionEffectiveData
+
+Непередаваемый объект, который представляет собой только для чтения коллекцию эффективных форматов линий.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
+Этот интерфейс используется как часть [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* interface [ILineFormatEffectiveData](../../aspose.slides/ilineformateffectivedata)
+* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* интерфейс [ILineFormatEffectiveData](../../aspose.slides/ilineformateffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

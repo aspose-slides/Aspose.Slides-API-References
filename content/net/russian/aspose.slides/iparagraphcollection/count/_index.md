@@ -1,22 +1,23 @@
 ---
-title: Count
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
+title: Количество
+second_title: Справочник API Aspose.Slides для .NET
+description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iparagraphcollection/count/
 ---
-## IParagraphCollection.Count property
 
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
+## Свойство IParagraphCollection.Count
+
+Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IParagraphCollection](../../iparagraphcollection)
+* интерфейс [IParagraphCollection](../../iparagraphcollection)
 * пространство имен [Aspose.Slides](../../iparagraphcollection)
 * сборка [Aspose.Slides](../../../)
 

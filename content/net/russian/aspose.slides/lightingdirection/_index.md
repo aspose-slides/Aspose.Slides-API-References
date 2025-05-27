@@ -1,12 +1,13 @@
 ---
-title: LightingDirection
+title: Направление света
 second_title: Справочник по API Aspose.Slides для .NET
-description: Константы определяющие направления света.
+description: Константы, определяющие направления света.
 type: docs
-weight: 7010
+weight: 7470
 url: /ru/aspose.slides/lightingdirection/
 ---
-## LightingDirection enumeration
+
+## Перечисление LightingDirection
 
 Константы, определяющие направления света.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/lightingdirection/
 public enum LightingDirection
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | TopLeft | `0` |  |
@@ -28,7 +29,7 @@ public enum LightingDirection
 | BottomLeft | `6` |  |
 | Left | `7` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

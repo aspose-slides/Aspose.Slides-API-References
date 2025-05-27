@@ -1,14 +1,15 @@
 ---
 title: QuadraticBezierTo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет квадратичную кривую Безье в конце пути
+second_title: Aspose.Slides для .NET API Справочник
+description: Добавляет квадратическую кривую Безье в конец пути
 type: docs
 weight: 90
 url: /ru/aspose.slides/igeometrypath/quadraticbezierto/
 ---
-## QuadraticBezierTo(PointF, PointF) {#quadraticbezierto_2}
 
-Добавляет квадратичную кривую Безье в конце пути
+## QuadraticBezierTo(PointF, PointF) {#quadraticbezierto_2}
+
+Добавляет квадратическую кривую Безье в конец пути
 
 ```csharp
 public void QuadraticBezierTo(PointF point1, PointF point2)
@@ -16,20 +17,20 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | PointF | Направление точка |
+| point1 | PointF | Точка направления |
 | point2 | PointF | Конечная точка |
 
-### Смотрите также
+### См. также
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## QuadraticBezierTo(float, float, float, float) {#quadraticbezierto}
+## QuadraticBezierTo(float, float, float, float) {#quadraticbezierto}
 
-Добавляет квадратичную кривую Безье в конце пути
+Добавляет квадратическую кривую Безье в конец пути
 
 ```csharp
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
@@ -40,19 +41,19 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 | x1 | Single | X координата точки направления |
 | y1 | Single | Y координата точки направления |
 | x2 | Single | X координата конечной точки |
-| y2 | Single | Координата Y конечной точки |
+| y2 | Single | Y координата конечной точки |
 
-### Смотрите также
+### См. также
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## QuadraticBezierTo(PointF, PointF, uint) {#quadraticbezierto_3}
+## QuadraticBezierTo(PointF, PointF, uint) {#quadraticbezierto_3}
 
-Добавляет квадратичную кривую Безье в указанное место пути
+Добавляет квадратическую кривую Безье в указанное место пути
 
 ```csharp
 public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
@@ -70,17 +71,17 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 | --- | --- |
 | ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
 
-### Смотрите также
+### См. также
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## QuadraticBezierTo(float, float, float, float, uint) {#quadraticbezierto_1}
+## QuadraticBezierTo(float, float, float, float, uint) {#quadraticbezierto_1}
 
-Добавляет квадратичную кривую Безье в указанное место пути
+Добавляет квадратическую кривую Безье в указанное место пути
 
 ```csharp
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index)
@@ -90,8 +91,8 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 | --- | --- | --- |
 | x1 | Single | X координата точки направления |
 | y1 | Single | Y координата точки направления |
-| x2 | Single | X координата конечная точка |
-| y2 | Single | Координата Y конечной точки |
+| x2 | Single | X координата конечной точки |
+| y2 | Single | Y координата конечной точки |
 | index | UInt32 | Индекс сегмента в PathData |
 
 ### Исключения
@@ -100,9 +101,9 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 | --- | --- |
 | ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
 
-### Смотрите также
+### См. также
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: ImageDataCropLeft
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Представляет свойство imageData.cropLeft
 type: docs
 weight: 450
 url: /ru/aspose.slides.animation/behaviorproperty/imagedatacropleft/
 ---
-## BehaviorProperty.ImageDataCropLeft property
+
+## BehaviorProperty.ImageDataCropLeft свойство
 
 Представляет свойство 'imageData.cropLeft'
 
@@ -16,7 +17,7 @@ public static BehaviorProperty ImageDataCropLeft { get; }
 
 ### Смотрите также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

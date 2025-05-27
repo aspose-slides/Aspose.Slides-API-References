@@ -1,22 +1,23 @@
 ---
-title: Count
+title: Количество
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество ячеек в коллекции. Только для чтенияInt32.
+description: Получает количество ячеек в коллекции. Только для чтения Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ichartcellcollection/count/
 ---
-## IChartCellCollection.Count property
 
-Получает количество ячеек в коллекции. Только для чтенияInt32.
+## Свойство IChartCellCollection.Count
+
+Получает количество ячеек в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartCellCollection](../../ichartcellcollection)
+* интерфейс [IChartCellCollection](../../ichartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartcellcollection)
 * сборка [Aspose.Slides](../../../)
 

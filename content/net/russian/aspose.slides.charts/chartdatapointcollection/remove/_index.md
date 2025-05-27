@@ -1,12 +1,13 @@
 ---
-title: Remove
+title: Удалить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет указанное значение.
 type: docs
 weight: 310
 url: /ru/aspose.slides.charts/chartdatapointcollection/remove/
 ---
-## ChartDataPointCollection.Remove method
+
+## Метод ChartDataPointCollection.Remove
 
 Удаляет указанное значение.
 
@@ -16,18 +17,12 @@ public void Remove(IChartDataPoint value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IChartDataPoint | Значение. |
+| value | IChartDataPoint | Указанное значение. |
 
-### Исключения
+### См. также
 
-| исключение | условие |
-| --- | --- |
-| ArgumentException | Параметр value не найден в коллекции. |
-
-### Смотрите также
-
-* interface [IChartDataPoint](../../ichartdatapoint)
-* class [ChartDataPointCollection](../../chartdatapointcollection)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* класс [ChartDataPointCollection](../../chartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
-weight: 80
+weight: 90
 url: /ru/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
-## DataLabelCollection.GetEnumerator method
+
+## Метод DataLabelCollection.GetEnumerator
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -16,12 +17,12 @@ public IEnumerator<IDataLabel> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для перебора коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IDataLabel](../../idatalabel)
-* class [DataLabelCollection](../../datalabelcollection)
+* интерфейс [IDataLabel](../../idatalabel)
+* класс [DataLabelCollection](../../datalabelcollection)
 * пространство имен [Aspose.Slides.Charts](../../datalabelcollection)
 * сборка [Aspose.Slides](../../../)
 

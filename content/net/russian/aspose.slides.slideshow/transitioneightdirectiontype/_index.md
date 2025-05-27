@@ -1,22 +1,23 @@
 ---
 title: TransitionEightDirectionType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют восемь типов перехода направления.
+second_title: Справочная информация по Aspose.Slides для .NET
+description: Представляет восемь типов переходов в направлениях.
 type: docs
-weight: 9580
+weight: 10050
 url: /ru/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
-## TransitionEightDirectionType enumeration
 
-Представляют восемь типов перехода направления.
+## Перечисление TransitionEightDirectionType
+
+Представляет восемь типов переходов в направлениях.
 
 ```csharp
 public enum TransitionEightDirectionType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | LeftDown | `0` |  |
 | LeftUp | `1` |  |
@@ -27,7 +28,7 @@ public enum TransitionEightDirectionType
 | Down | `6` |  |
 | Right | `7` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)

@@ -1,22 +1,23 @@
 ---
 title: IsSynchronized
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает значение, указывающее, синхронизирован ли доступ к коллекции потоко-безопасный. Только для чтения Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/gradientstopcollectioneffectivedata/issynchronized/
 ---
-## GradientStopCollectionEffectiveData.IsSynchronized property
 
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
+## Свойство GradientStopCollectionEffectiveData.IsSynchronized
+
+Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потоко-безопасный). Только для чтения Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)
+* класс [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)
 * пространство имен [Aspose.Slides](../../gradientstopcollectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

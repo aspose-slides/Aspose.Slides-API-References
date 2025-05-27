@@ -1,23 +1,24 @@
 ---
 title: DestFont
-second_title: Справочник по API Aspose.Slides для .NET
-description: Шрифт для замены Только для чтенияIFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides для справки по API .NET
+description: Шрифт для использования при замене Только для чтения IFontData aspose.slides/ifontdata.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ifontsubstrule/destfont/
 ---
-## IFontSubstRule.DestFont property
 
-Шрифт для замены Только для чтения[`IFontData`](../../ifontdata).
+## Свойство IFontSubstRule.DestFont
+
+Шрифт для использования при замене Только для чтения [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData DestFont { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFontData](../../ifontdata)
-* interface [IFontSubstRule](../../ifontsubstrule)
+* интерфейс [IFontData](../../ifontdata)
+* интерфейс [IFontSubstRule](../../ifontsubstrule)
 * пространство имен [Aspose.Slides](../../ifontsubstrule)
 * сборка [Aspose.Slides](../../../)
 

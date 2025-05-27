@@ -6,7 +6,8 @@ type: docs
 weight: 60
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionlockrotationcenter/
 ---
-## BehaviorProperty.ExtrusionLockRotationCenter property
+
+## Свойство BehaviorProperty.ExtrusionLockRotationCenter
 
 Представляет свойство 'extrusion.lockrotationcenter'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionlockrotationcenter/
 public static BehaviorProperty ExtrusionLockRotationCenter { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

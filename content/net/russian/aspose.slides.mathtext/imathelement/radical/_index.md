@@ -1,14 +1,15 @@
 ---
-title: Radical
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает математический корень данной степени из указанного аргумента.
+title: Радикал
+second_title: Справочник API Aspose.Slides для .NET
+description: Указывает математический корень заданной степени от указанного аргумента.
 type: docs
 weight: 120
 url: /ru/aspose.slides.mathtext/imathelement/radical/
 ---
-## Radical(IMathElement) {#radical}
 
-Задает математический корень данной степени из указанного аргумента.
+## Радикал(IMathElement) {#radical}
+
+Указывает математический корень заданной степени от указанного аргумента.
 
 ```csharp
 public IMathRadical Radical(IMathElement degree)
@@ -16,11 +17,11 @@ public IMathRadical Radical(IMathElement degree)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| степень | IMathElement | Аргумент радикала |
+| degree | IMathElement | Аргумент Радикала |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathRadical`](../../imathradical)
+Новый экземпляр типа [`IMathRadical`](../../imathradical)
 
 ### Примеры
 
@@ -33,18 +34,18 @@ IMathElement degree = new MathematicalText("y");
 var radical = baseElement.Radical(degree);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathRadical](../../imathradical)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathRadical](../../imathradical)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Radical(string) {#radical_1}
+## Радикал(string) {#radical_1}
 
-Задает математический корень данной степени из указанного аргумента.
+Указывает математический корень заданной степени от указанного аргумента.
 
 ```csharp
 public IMathRadical Radical(string degree)
@@ -52,11 +53,11 @@ public IMathRadical Radical(string degree)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| степень | String | Аргумент радикала |
+| degree | String | Аргумент Радикала |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathRadical`](../../imathradical)
+Новый экземпляр типа [`IMathRadical`](../../imathradical)
 
 ### Примеры
 
@@ -68,10 +69,10 @@ IMathElement baseElement = new MathematicalText("2px");
 var radical = baseElement.Radical("3");
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathRadical](../../imathradical)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathRadical](../../imathradical)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

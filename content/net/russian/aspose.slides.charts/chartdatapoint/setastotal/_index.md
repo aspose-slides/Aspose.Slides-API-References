@@ -1,14 +1,15 @@
 ---
 title: SetAsTotal
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает точку данных как общую. Применяется только для серии Waterfall.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Устанавливает точку данных в качестве итога. Применяется только для серии типа Waterfall.
 type: docs
-weight: 160
+weight: 170
 url: /ru/aspose.slides.charts/chartdatapoint/setastotal/
 ---
-## ChartDataPoint.SetAsTotal property
 
-Устанавливает точку данных как общую. Применяется только для серии Waterfall.
+## Свойство ChartDataPoint.SetAsTotal
+
+Устанавливает точку данных в качестве итога. Применяется только для серии типа Waterfall.
 
 ```csharp
 public bool SetAsTotal { get; set; }
@@ -16,7 +17,7 @@ public bool SetAsTotal { get; set; }
 
 ### Смотрите также
 
-* class [ChartDataPoint](../../chartdatapoint)
+* класс [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

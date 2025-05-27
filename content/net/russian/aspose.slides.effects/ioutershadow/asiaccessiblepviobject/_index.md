@@ -1,24 +1,25 @@
 ---
 title: AsIAccessiblePVIObject
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/ioutershadow/asiaccessiblepviobject/
 ---
-## IOuterShadow.AsIAccessiblePVIObject property
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+## Свойство IOuterShadow.AsIAccessiblePVIObject
+
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IOuterShadowEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* interface [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
-* interface [IOuterShadow](../../ioutershadow)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
+* интерфейс [IOuterShadow](../../ioutershadow)
 * пространство имен [Aspose.Slides.Effects](../../ioutershadow)
 * сборка [Aspose.Slides](../../../)
 

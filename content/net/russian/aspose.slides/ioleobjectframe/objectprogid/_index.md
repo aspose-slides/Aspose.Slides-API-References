@@ -1,22 +1,23 @@
 ---
 title: ObjectProgId
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ProgID объекта. Только чтениеString.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает ProgID объекта. Только для чтения String.
 type: docs
-weight: 100
+weight: 110
 url: /ru/aspose.slides/ioleobjectframe/objectprogid/
 ---
-## IOleObjectFrame.ObjectProgId property
 
-Возвращает ProgID объекта. Только чтениеString.
+## Свойство IOleObjectFrame.ObjectProgId
+
+Возвращает ProgID объекта. Только для чтения String.
 
 ```csharp
 public string ObjectProgId { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IOleObjectFrame](../../ioleobjectframe)
+* интерфейс [IOleObjectFrame](../../ioleobjectframe)
 * пространство имен [Aspose.Slides](../../ioleobjectframe)
 * сборка [Aspose.Slides](../../../)
 

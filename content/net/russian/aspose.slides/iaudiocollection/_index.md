@@ -1,37 +1,38 @@
 ---
 title: IAudioCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор встроенных аудиофайлов.
+description: Представляет собой коллекцию встроенных аудиофайлов.
 type: docs
-weight: 4740
+weight: 5020
 url: /ru/aspose.slides/iaudiocollection/
 ---
-## IAudioCollection interface
 
-Представляет набор встроенных аудиофайлов.
+## Интерфейс IAudioCollection
+
+Представляет собой коллекцию встроенных аудиофайлов.
 
 ```csharp
 public interface IAudioCollection : IGenericCollection<IAudio>
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IAudio`](../iaudio). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Создает и добавляет звук к презентации из массива байтов. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Создает и добавляет аудио в презентацию из массива байтов. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Добавляет копию аудиофайла из другой презентации. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Создает и добавляет звук к презентации из потока. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Создает и добавляет аудио в презентацию из потока. |
 
-### Смотрите также
+### См. Также
 
-* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* interface [IAudio](../iaudio)
+* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* интерфейс [IAudio](../iaudio)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

@@ -1,12 +1,13 @@
 ---
 title: ChartThemeManager
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Ссылка
 description: Предоставляет доступ к переопределенной теме диаграммы.
 type: docs
-weight: 10250
+weight: 10750
 url: /ru/aspose.slides.theme/chartthememanager/
 ---
-## ChartThemeManager class
+
+## Класс ChartThemeManager
 
 Предоставляет доступ к переопределенной теме диаграммы.
 
@@ -14,23 +15,23 @@ url: /ru/aspose.slides.theme/chartthememanager/
 public class ChartThemeManager : BaseOverrideThemeManager
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную действующую тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только чтениеBoolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает основной объект темы. Чтение/запись[`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, включает ли OverrideTheme переопределение унаследованной эффективной темы или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только для чтения Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает объект переопределенной темы. Чтение/запись [`IOverrideTheme`](../ioverridetheme). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Применяет к слайду дополнительную цветовую схему. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Применяет дополнительную цветовую схему к слайду. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Возвращает объект темы. |
 
-### Смотрите также
+### См. Также
 
-* class [BaseOverrideThemeManager](../baseoverridethememanager)
+* класс [BaseOverrideThemeManager](../baseoverridethememanager)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

@@ -1,71 +1,72 @@
 ---
 title: Aspose.Slides.SlideShow
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Contient des classes pour gérer les diaporamas et les transitions de diapositives
 type: docs
 weight: 130
 url: /fr/aspose.slides.slideshow/
 ---
+
 Contient des classes pour gérer les diaporamas et les transitions de diapositives
 
-## Des classes
+## Classes
 
-| Classer | La description |
+| Classe | Description |
 | --- | --- |
-| [CornerDirectionTransition](./cornerdirectiontransition) | Effet de transition de diapositive dans le sens des coins. |
-| [EightDirectionTransition](./eightdirectiontransition) | Effet de transition de diapositive à huit directions. |
+| [CornerDirectionTransition](./cornerdirectiontransition) | Effet de transition de diapositive en direction de coin. |
+| [EightDirectionTransition](./eightdirectiontransition) | Effet de transition de diapositive dans huit directions. |
 | [EmptyTransition](./emptytransition) | Effet de transition de diapositive vide. |
-| [FlyThroughTransition](./flythroughtransition) | Effet de transition de diapositive de survol. |
-| [GlitterTransition](./glittertransition) | Effet de transition de diapositive scintillante. |
-| [InOutTransition](./inouttransition) | Effet de transition de diapositive In-Out. |
-| [LeftRightDirectionTransition](./leftrightdirectiontransition) | Effet de transition de diapositive de direction gauche-droite. |
-| [MorphTransition](./morphtransition) | Effet de transition de diapositive d'ondulation. |
-| [OptionalBlackTransition](./optionalblacktransition) | Effet de transition de diapositive noire en option. |
+| [FlyThroughTransition](./flythroughtransition) | Effet de transition de diapositive de vol à travers. |
+| [GlitterTransition](./glittertransition) | Effet de transition de diapositive scintillant. |
+| [InOutTransition](./inouttransition) | Effet de transition de diapositive Entrée-Sortie. |
+| [LeftRightDirectionTransition](./leftrightdirectiontransition) | Effet de transition de diapositive en direction gauche-droite. |
+| [MorphTransition](./morphtransition) | Effet de transition de diapositive en ondulation. |
+| [OptionalBlackTransition](./optionalblacktransition) | Effet de transition de diapositive noire optionnelle. |
 | [OrientationTransition](./orientationtransition) | Effet de transition de diapositive d'orientation. |
-| [RevealTransition](./revealtransition) | Révéler l'effet de transition de diapositive. |
-| [RippleTransition](./rippletransition) | Effet de transition de diapositive d'ondulation. |
-| [ShredTransition](./shredtransition) | Déchiqueter l'effet de transition de diapositive. |
-| [SideDirectionTransition](./sidedirectiontransition) | Effet de transition de diapositive de direction latérale. |
-| [SlideShowTransition](./slideshowtransition) | Représente la transition du diaporama. |
-| [SplitTransition](./splittransition) | Effet de transition de diapositive fractionnée. |
+| [RevealTransition](./revealtransition) | Effet de transition de diapositive Révéler. |
+| [RippleTransition](./rippletransition) | Effet de transition de diapositive en ondulation. |
+| [ShredTransition](./shredtransition) | Effet de transition de diapositive déchiqueté. |
+| [SideDirectionTransition](./sidedirectiontransition) | Effet de transition de diapositive en direction latérale. |
+| [SlideShowTransition](./slideshowtransition) | Représente la transition de diaporama. |
+| [SplitTransition](./splittransition) | Effet de transition de diapositive séparée. |
 | [TransitionValueBase](./transitionvaluebase) | Classe de base pour les effets de transition de diapositive. |
-| [WheelTransition](./wheeltransition) | Effet de transition de glissement de roue. |
+| [WheelTransition](./wheeltransition) | Effet de transition de diapositive roue. |
 ## Interfaces
 
-| Interface | La description |
+| Interface | Description |
 | --- | --- |
-| [ICornerDirectionTransition](./icornerdirectiontransition) | Effet de transition de diapositive dans le sens des coins. |
-| [IEightDirectionTransition](./ieightdirectiontransition) | Effet de transition de diapositive à huit directions. |
+| [ICornerDirectionTransition](./icornerdirectiontransition) | Effet de transition de diapositive en direction de coin. |
+| [IEightDirectionTransition](./ieightdirectiontransition) | Effet de transition de diapositive dans huit directions. |
 | [IEmptyTransition](./iemptytransition) | Effet de transition de diapositive vide. |
-| [IFlyThroughTransition](./iflythroughtransition) | Effet de transition de diapositive de survol. |
-| [IGlitterTransition](./iglittertransition) | Effet de transition de diapositive scintillante. |
-| [IInOutTransition](./iinouttransition) | Effet de transition de diapositive In-Out. |
-| [ILeftRightDirectionTransition](./ileftrightdirectiontransition) | Effet de transition de diapositive de direction gauche-droite. |
-| [IMorphTransition](./imorphtransition) | Effet de transition de diapositive d'ondulation. |
-| [IOptionalBlackTransition](./ioptionalblacktransition) | Effet de transition de diapositive noire en option. |
+| [IFlyThroughTransition](./iflythroughtransition) | Effet de transition de diapositive de vol à travers. |
+| [IGlitterTransition](./iglittertransition) | Effet de transition de diapositive scintillant. |
+| [IInOutTransition](./iinouttransition) | Effet de transition de diapositive Entrée-Sortie. |
+| [ILeftRightDirectionTransition](./ileftrightdirectiontransition) | Effet de transition de diapositive en direction gauche-droite. |
+| [IMorphTransition](./imorphtransition) | Effet de transition de diapositive en ondulation. |
+| [IOptionalBlackTransition](./ioptionalblacktransition) | Effet de transition de diapositive noire optionnelle. |
 | [IOrientationTransition](./iorientationtransition) | Effet de transition de diapositive d'orientation. |
-| [IRevealTransition](./irevealtransition) | Révéler l'effet de transition de diapositive. |
-| [IRippleTransition](./irippletransition) | Effet de transition de diapositive d'ondulation. |
-| [IShredTransition](./ishredtransition) | Déchiqueter l'effet de transition de diapositive. |
-| [ISideDirectionTransition](./isidedirectiontransition) | Effet de transition de diapositive de direction latérale. |
-| [ISplitTransition](./isplittransition) | Effet de transition de diapositive fractionnée. |
+| [IRevealTransition](./irevealtransition) | Effet de transition de diapositive Révéler. |
+| [IRippleTransition](./irippletransition) | Effet de transition de diapositive en ondulation. |
+| [IShredTransition](./ishredtransition) | Effet de transition de diapositive déchiqueté. |
+| [ISideDirectionTransition](./isidedirectiontransition) | Effet de transition de diapositive en direction latérale. |
+| [ISplitTransition](./isplittransition) | Effet de transition de diapositive séparée. |
 | [ITransitionValueBase](./itransitionvaluebase) | Représente la classe de base pour les effets de transition de diapositive. |
-| [IWheelTransition](./iwheeltransition) | Effet de transition de glissement de roue. |
+| [IWheelTransition](./iwheeltransition) | Effet de transition de diapositive roue. |
 ## Énumération
 
-| Énumération | La description |
+| Énumération | Description |
 | --- | --- |
 | [TransitionCornerAndCenterDirectionType](./transitioncornerandcenterdirectiontype) | Spécifie une direction limitée aux coins et au centre. |
-| [TransitionCornerDirectionType](./transitioncornerdirectiontype) | Représente les types de transition de direction d'angle. |
-| [TransitionEightDirectionType](./transitioneightdirectiontype) | Représente huit types de transition de direction. |
-| [TransitionInOutDirectionType](./transitioninoutdirectiontype) | Représente les types de transition de direction d'entrée ou de sortie. |
-| [TransitionLeftRightDirectionType](./transitionleftrightdirectiontype) | Spécifie une direction limitée aux valeurs de gauche et de droite. |
+| [TransitionCornerDirectionType](./transitioncornerdirectiontype) | Représente les types de transition en direction de coin. |
+| [TransitionEightDirectionType](./transitioneightdirectiontype) | Représente les types de transition dans huit directions. |
+| [TransitionInOutDirectionType](./transitioninoutdirectiontype) | Représente les types de transition en direction entrée ou sortie. |
+| [TransitionLeftRightDirectionType](./transitionleftrightdirectiontype) | Spécifie une direction limitée aux valeurs gauche et droite. |
 | [TransitionMorphType](./transitionmorphtype) | Représente un type de transition morph. |
-| [TransitionPattern](./transitionpattern) | Spécifie un motif géométrique qui s'assemble pour remplir une plus grande surface. |
-| [TransitionShredPattern](./transitionshredpattern) | Spécifie une forme géométrique qui s'assemble pour remplir une plus grande surface. |
-| [TransitionSideDirectionType](./transitionsidedirectiontype) | Représentent les types de transition de direction latérale. |
+| [TransitionPattern](./transitionpattern) | Spécifie un motif géométrique qui se répète pour remplir une zone plus grande. |
+| [TransitionShredPattern](./transitionshredpattern) | Spécifie une forme géométrique qui se répète pour remplir une zone plus grande. |
+| [TransitionSideDirectionType](./transitionsidedirectiontype) | Représente les types de transition en direction latérale. |
 | [TransitionSoundMode](./transitionsoundmode) | Représente le mode sonore de la transition. |
 | [TransitionSpeed](./transitionspeed) | Représente les types de vitesse de transition. |
-| [TransitionType](./transitiontype) | Représente le type de transition du diaporama. |
+| [TransitionType](./transitiontype) | Représente le type de transition de diaporama. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

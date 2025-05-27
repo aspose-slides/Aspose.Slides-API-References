@@ -1,14 +1,15 @@
 ---
 title: EmptyTransition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода пустого слайда.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Пустой эффект перехода слайда.
 type: docs
-weight: 9250
+weight: 9720
 url: /ru/aspose.slides.slideshow/emptytransition/
 ---
-## EmptyTransition class
 
-Эффект перехода пустого слайда.
+## Класс EmptyTransition
+
+Пустой эффект перехода слайда.
 
 ```csharp
 public class EmptyTransition : TransitionValueBase, IEmptyTransition
@@ -18,13 +19,13 @@ public class EmptyTransition : TransitionValueBase, IEmptyTransition
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли две экземпляра TransitionValueBase. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
 
-### Смотрите также
+### См. также
 
-* class [TransitionValueBase](../transitionvaluebase)
-* interface [IEmptyTransition](../iemptytransition)
+* класс [TransitionValueBase](../transitionvaluebase)
+* интерфейс [IEmptyTransition](../iemptytransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

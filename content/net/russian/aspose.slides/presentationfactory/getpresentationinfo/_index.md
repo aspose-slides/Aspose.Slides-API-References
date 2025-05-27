@@ -1,14 +1,15 @@
 ---
 title: GetPresentationInfo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый объект PresentationInfo из файла и привязывает к нему презентацию.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает новый объект PresentationInfo из файла и связывает его с презентацией.
 type: docs
 weight: 40
 url: /ru/aspose.slides/presentationfactory/getpresentationinfo/
 ---
+
 ## GetPresentationInfo(string) {#getpresentationinfo_1}
 
-Создает новый объект PresentationInfo из файла и привязывает к нему презентацию.
+Создает новый объект PresentationInfo из файла и связывает его с презентацией.
 
 ```csharp
 public IPresentationInfo GetPresentationInfo(string file)
@@ -20,12 +21,12 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 ### Возвращаемое значение
 
-Информация о презентации привязана к презентации.
+Информация о презентации, связанная с презентацией.
 
-### Смотрите также
+### См. Также
 
-* interface [IPresentationInfo](../../ipresentationinfo)
-* class [PresentationFactory](../../presentationfactory)
+* интерфейс [IPresentationInfo](../../ipresentationinfo)
+* класс [PresentationFactory](../../presentationfactory)
 * пространство имен [Aspose.Slides](../../presentationfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -33,7 +34,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 ## GetPresentationInfo(Stream) {#getpresentationinfo}
 
-Создает из потока новый объект PresentationInfo и привязывает к нему презентацию. Получает информацию о презентации в указанном потоке.
+Создает новый объект PresentationInfo из потока и связывает его с презентацией. Получает информацию о презентации в указанном потоке.
 
 ```csharp
 public IPresentationInfo GetPresentationInfo(Stream stream)
@@ -41,16 +42,16 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток представления. |
+| stream | Stream | Поток презентации. |
 
 ### Возвращаемое значение
 
-Информация о презентации привязана к презентации.
+Информация о презентации, связанная с презентацией.
 
-### Смотрите также
+### См. Также
 
-* interface [IPresentationInfo](../../ipresentationinfo)
-* class [PresentationFactory](../../presentationfactory)
+* интерфейс [IPresentationInfo](../../ipresentationinfo)
+* класс [PresentationFactory](../../presentationfactory)
 * пространство имен [Aspose.Slides](../../presentationfactory)
 * сборка [Aspose.Slides](../../../)
 

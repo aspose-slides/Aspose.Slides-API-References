@@ -1,14 +1,15 @@
 ---
-title: Remove
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет первое вхождение определенного объекта изICollection.
+title: Удалить
+second_title: Справка по API Aspose.Sildes для .NET
+description: Удаляет первое вхождение определенного объекта из ICollection.
 type: docs
 weight: 130
 url: /ru/aspose.slides/paragraphcollection/remove/
 ---
-## ParagraphCollection.Remove method
 
-Удаляет первое вхождение определенного объекта изICollection.
+## Метод ParagraphCollection.Remove
+
+Удаляет первое вхождение определенного объекта из ICollection.
 
 ```csharp
 public bool Remove(IParagraph item)
@@ -16,22 +17,22 @@ public bool Remove(IParagraph item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IParagraph | Объект для удаления изICollection. |
+| item | IParagraph | Объект, который нужно удалить из ICollection. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-true, если*item*был успешно удален изICollection; в противном случае ложно. Этот метод также возвращает false, если*item*не найден в исходномICollection.
+true, если *item* был успешно удален из ICollection; в противном случае - false. Этот метод также возвращает false, если *item* не найден в оригинальном ICollection.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | КоллекцияICollectionдоступна только для чтения. |
+| NotSupportedException | ICollection является доступным только для чтения. |
 
-### Смотрите также
+### См. также
 
-* interface [IParagraph](../../iparagraph)
-* class [ParagraphCollection](../../paragraphcollection)
+* интерфейс [IParagraph](../../iparagraph)
+* класс [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 

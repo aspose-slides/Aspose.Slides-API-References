@@ -1,26 +1,27 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает хэш-код.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает хеш-код.
 type: docs
 weight: 180
 url: /ru/aspose.slides/colorformat/gethashcode/
 ---
-## ColorFormat.GetHashCode method
 
-Возвращает хэш-код.
+## Метод ColorFormat.GetHashCode
+
+Возвращает хеш-код.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Возвращаемое значение
+### Значение возвращаемого типа
 
-Хэш-код.
+Хеш-код.
 
-### Смотрите также
+### См. также
 
-* class [ColorFormat](../../colorformat)
+* класс [ColorFormat](../../colorformat)
 * пространство имен [Aspose.Slides](../../colorformat)
 * сборка [Aspose.Slides](../../../)
 

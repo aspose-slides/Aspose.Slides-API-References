@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает элемент по индексу.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/itextanimationcollection/item/
 ---
-## ITextAnimationCollection indexer (1 of 2)
+
+## Индексатор ITextAnimationCollection (1 из 2)
 
 Возвращает элемент по индексу.
 
@@ -14,16 +15,16 @@ url: /ru/aspose.slides.animation/itextanimationcollection/item/
 public ITextAnimation this[int index] { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITextAnimation](../../itextanimation)
-* interface [ITextAnimationCollection](../../itextanimationcollection)
+* интерфейс [ITextAnimation](../../itextanimation)
+* интерфейс [ITextAnimationCollection](../../itextanimationcollection)
 * пространство имен [Aspose.Slides.Animation](../../itextanimationcollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## ITextAnimationCollection indexer (2 of 2)
+## Индексатор ITextAnimationCollection (2 из 2)
 
 Возвращает все элементы
 
@@ -35,11 +36,11 @@ public ITextAnimation[] this[IShape shape] { get; }
 | --- | --- |
 | shape |  |
 
-### Смотрите также
+### См. также
 
-* interface [ITextAnimation](../../itextanimation)
-* interface [IShape](../../../aspose.slides/ishape)
-* interface [ITextAnimationCollection](../../itextanimationcollection)
+* интерфейс [ITextAnimation](../../itextanimation)
+* интерфейс [IShape](../../../aspose.slides/ishape)
+* интерфейс [ITextAnimationCollection](../../itextanimationcollection)
 * пространство имен [Aspose.Slides.Animation](../../itextanimationcollection)
 * сборка [Aspose.Slides](../../../)
 

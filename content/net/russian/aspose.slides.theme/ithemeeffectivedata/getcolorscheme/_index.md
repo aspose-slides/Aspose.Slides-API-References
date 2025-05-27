@@ -1,12 +1,13 @@
 ---
 title: GetColorScheme
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Возвращает цветовую схему.
 type: docs
 weight: 30
 url: /ru/aspose.slides.theme/ithemeeffectivedata/getcolorscheme/
 ---
-## IThemeEffectiveData.GetColorScheme method
+
+## IThemeEffectiveData.GetColorScheme метод
 
 Возвращает цветовую схему.
 
@@ -16,16 +17,16 @@ public IColorSchemeEffectiveData GetColorScheme(Color styleColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| styleColor | Color | ColorColor |
+| styleColor | Color | Цвет Цвета |
 
 ### Возвращаемое значение
 
-Цветовая схема[`IColorSchemeEffectiveData`](../../icolorschemeeffectivedata)
+Цветовая схема [`IColorSchemeEffectiveData`](../../icolorschemeeffectivedata)
 
-### Смотрите также
+### См. также
 
-* interface [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
-* interface [IThemeEffectiveData](../../ithemeeffectivedata)
+* интерфейс [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
+* интерфейс [IThemeEffectiveData](../../ithemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../ithemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

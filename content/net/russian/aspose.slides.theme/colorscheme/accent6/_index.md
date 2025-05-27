@@ -1,23 +1,24 @@
 ---
 title: Accent6
-second_title: Справочник по API Aspose.Slides для .NET
-description: Шестой акцентный цвет в схеме. Только для чтенияIColorFormataspose.slides/icolorformat.
+second_title: Справочник API Aspose.Slides для .NET
+description: Шестой акцентный цвет в схеме. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /ru/aspose.slides.theme/colorscheme/accent6/
 ---
-## ColorScheme.Accent6 property
 
-Шестой акцентный цвет в схеме. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+## ColorScheme.Accent6 свойство
+
+Шестой акцентный цвет в схеме. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent6 { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IColorFormat](../../../aspose.slides/icolorformat)
-* class [ColorScheme](../../colorscheme)
+* интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
+* класс [ColorScheme](../../colorscheme)
 * пространство имен [Aspose.Slides.Theme](../../colorscheme)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: DpiX
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет горизонтальное разрешение в точках на дюйм. Чтение/записьUInt32.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Указывает горизонтальное разрешение в точках на дюйм. Чтение/запись UInt32.
 type: docs
-weight: 30
+weight: 40
 url: /ru/aspose.slides.export/itiffoptions/dpix/
 ---
-## ITiffOptions.DpiX property
 
-Определяет горизонтальное разрешение в точках на дюйм. Чтение/записьUInt32.
+## Свойство ITiffOptions.DpiX
+
+Указывает горизонтальное разрешение в точках на дюйм. Чтение/запись UInt32.
 
 ```csharp
 public uint DpiX { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITiffOptions](../../itiffoptions)
+* интерфейс [ITiffOptions](../../itiffoptions)
 * пространство имен [Aspose.Slides.Export](../../itiffoptions)
 * сборка [Aspose.Slides](../../../)
 

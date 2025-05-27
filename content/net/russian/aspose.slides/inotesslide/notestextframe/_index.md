@@ -1,14 +1,15 @@
 ---
 title: NotesTextFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает TextFrame с текстом заметок если он есть. Только для чтенияITextFrameaspose.slides/itextframe.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает TextFrame с текстом заметок, если он есть. Только для чтения ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 40
 url: /ru/aspose.slides/inotesslide/notestextframe/
 ---
-## INotesSlide.NotesTextFrame property
 
-Возвращает TextFrame с текстом заметок, если он есть. Только для чтения[`ITextFrame`](../../itextframe).
+## Свойство INotesSlide.NotesTextFrame
+
+Возвращает TextFrame с текстом заметок, если он есть. Только для чтения [`ITextFrame`](../../itextframe).
 
 ```csharp
 public ITextFrame NotesTextFrame { get; }
@@ -16,8 +17,8 @@ public ITextFrame NotesTextFrame { get; }
 
 ### Смотрите также
 
-* interface [ITextFrame](../../itextframe)
-* interface [INotesSlide](../../inotesslide)
+* интерфейс [ITextFrame](../../itextframe)
+* интерфейс [INotesSlide](../../inotesslide)
 * пространство имен [Aspose.Slides](../../inotesslide)
 * сборка [Aspose.Slides](../../../)
 

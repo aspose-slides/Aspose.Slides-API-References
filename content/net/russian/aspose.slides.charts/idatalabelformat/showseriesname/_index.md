@@ -1,14 +1,15 @@
 ---
 title: ShowSeriesName
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает логическое значение указывающее поведение отображения имени ряда для меток данных на диаграмме. True чтобы показать название серии. Ложь скрывать. Чтение/записьBoolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает логическое значение, указывающее поведение отображения имени серии для меток данных на графике. True для отображения имени серии. False для скрытия. Читаемое/записываемое логическое значение.
 type: docs
 weight: 140
 url: /ru/aspose.slides.charts/idatalabelformat/showseriesname/
 ---
-## IDataLabelFormat.ShowSeriesName property
 
-Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных на диаграмме. True, чтобы показать название серии. Ложь скрывать. Чтение/записьBoolean.
+## IDataLabelFormat.ShowSeriesName свойство
+
+Возвращает или устанавливает логическое значение, указывающее поведение отображения имени серии для меток данных на графике. True для отображения имени серии. False для скрытия. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -16,11 +17,11 @@ public bool ShowSeriesName { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства ShowSeriesName для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство ShowSeriesName для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowSeriesName = val;" приводит к all DataLabels[i].ShowSeriesName равно val).
+Если родительским объектом этого DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или устанавливает значение по умолчанию для свойства ShowSeriesName для новых меток данных в коллекции DataLabelCollection. Установка этого свойства с указанным значением также устанавливает это значение для свойства ShowSeriesName для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowSeriesName = val;" приводит к тому, что все DataLabels[i].ShowSeriesName равны val).
 
-### Смотрите также
+### См. также
 
-* interface [IDataLabelFormat](../../idatalabelformat)
+* интерфейс [IDataLabelFormat](../../idatalabelformat)
 * пространство имен [Aspose.Slides.Charts](../../idatalabelformat)
 * сборка [Aspose.Slides](../../../)
 

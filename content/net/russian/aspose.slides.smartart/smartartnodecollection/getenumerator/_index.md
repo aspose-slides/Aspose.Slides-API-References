@@ -1,14 +1,15 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+description: ВозвращаетEnumerator, который перебирает коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides.smartart/smartartnodecollection/getenumerator/
 ---
-## SmartArtNodeCollection.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+## Метод SmartArtNodeCollection.GetEnumerator
+
+ВозвращаетEnumerator, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<ISmartArtNode> GetEnumerator()
@@ -16,12 +17,12 @@ public IEnumerator<ISmartArtNode> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для перебора коллекции.
 
 ### Смотрите также
 
-* interface [ISmartArtNode](../../ismartartnode)
-* class [SmartArtNodeCollection](../../smartartnodecollection)
+* интерфейс [ISmartArtNode](../../ismartartnode)
+* класс [SmartArtNodeCollection](../../smartartnodecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartnodecollection)
 * сборка [Aspose.Slides](../../../)
 

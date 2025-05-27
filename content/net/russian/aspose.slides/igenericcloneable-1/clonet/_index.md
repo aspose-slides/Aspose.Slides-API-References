@@ -1,14 +1,15 @@
 ---
 title: CloneT
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый объект являющийся копией текущего экземпляра.
+description: Создает новый объект, который является копией текущего экземпляра.
 type: docs
 weight: 20
 url: /ru/aspose.slides/igenericcloneable-1/clonet/
 ---
-## IGenericCloneable&lt;T&gt;.CloneT method
 
-Создает новый объект, являющийся копией текущего экземпляра.
+## IGenericCloneable&lt;T&gt;.CloneT метод
+
+Создает новый объект, который является копией текущего экземпляра.
 
 ```csharp
 public T CloneT()
@@ -18,9 +19,9 @@ public T CloneT()
 
 Новый объект, который является копией этого экземпляра.
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCloneable&lt;T&gt;](../../igenericcloneable-1)
+* интерфейс [IGenericCloneable&lt;T&gt;](../../igenericcloneable-1)
 * пространство имен [Aspose.Slides](../../igenericcloneable-1)
 * сборка [Aspose.Slides](../../../)
 

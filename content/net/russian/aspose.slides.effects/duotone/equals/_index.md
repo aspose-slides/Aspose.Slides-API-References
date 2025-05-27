@@ -1,14 +1,15 @@
 ---
-title: Equals
+title: Равно
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйDuotoneaspose.slides.effects/duotoneтекущемуDuotone.
+description: Определяет, равен ли указанный Duotoneaspose.slides.effects/duotone текущему Duotoneaspose.slides.effects/duotone.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/duotone/equals/
 ---
-## Duotone.Equals method
 
-Определяет, равен ли указанный[`Duotone`](../../duotone)текущемуDuotone.
+## Метод Duotone.Equals
+
+Определяет, равен ли указанный [`Duotone`](../../duotone) текущему [`Duotone`](../../duotone).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | The[`Duotone`](../../duotone)для сравнения. |
+| obj | Object | [`Duotone`](../../duotone), который нужно сравнить. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае ложно.
+true, если объекты равны; в противном случае, false.
 
-### Смотрите также
+### См. также
 
-* class [Duotone](../../duotone)
+* класс [Duotone](../../duotone)
 * пространство имен [Aspose.Slides.Effects](../../duotone)
 * сборка [Aspose.Slides](../../../)
 

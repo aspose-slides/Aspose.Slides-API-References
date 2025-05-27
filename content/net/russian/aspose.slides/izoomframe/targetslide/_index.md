@@ -1,14 +1,15 @@
 ---
 title: TargetSlide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает объект слайда на который ссылается объект Масштаб слайда. Чтение/записьISlideaspose.slides/islide.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Получает или задает объект слайда, на который ссылается объект Slide Zoom. Чтение/запись ISlide aspose.slides/islide.
 type: docs
 weight: 20
 url: /ru/aspose.slides/izoomframe/targetslide/
 ---
-## IZoomFrame.TargetSlide property
 
-Получает или задает объект слайда, на который ссылается объект «Масштаб слайда». Чтение/запись[`ISlide`](../../islide).
+## Свойство IZoomFrame.TargetSlide
+
+Получает или задает объект слайда, на который ссылается объект Slide Zoom. Чтение/запись [`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; set; }
@@ -16,7 +17,7 @@ public ISlide TargetSlide { get; set; }
 
 ### Примеры
 
-В следующем примере демонстрируется изменение целевого слайда и создание нового изображения для объекта Slide Zoom:
+Следующий пример демонстрирует изменение целевого слайда и создание нового изображения для объекта Slide Zoom:
 
 ```csharp
 [C#]
@@ -24,10 +25,10 @@ IZoomFrame zoomFrame = pres.Slides[0].Shapes.AddZoomFrame(150, 20, 50, 50, pres.
 zoomFrame.TargetSlide = pres.Slides[2];
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISlide](../../islide)
-* interface [IZoomFrame](../../izoomframe)
+* интерфейс [ISlide](../../islide)
+* интерфейс [IZoomFrame](../../izoomframe)
 * пространство имен [Aspose.Slides](../../izoomframe)
 * сборка [Aspose.Slides](../../../)
 

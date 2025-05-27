@@ -1,12 +1,13 @@
 ---
 title: SetEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/seteffect/seteffect/
 ---
-## SetEffect constructor
+
+## Конструктор SetEffect
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/seteffect/seteffect/
 public SetEffect()
 ```
 
-### Смотрите также
+### См. также
 
-* class [SetEffect](../../seteffect)
+* класс [SetEffect](../../seteffect)
 * пространство имен [Aspose.Slides.Animation](../../seteffect)
 * сборка [Aspose.Slides](../../../)
 

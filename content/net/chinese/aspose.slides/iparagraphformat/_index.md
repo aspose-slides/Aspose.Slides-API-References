@@ -1,56 +1,57 @@
 ---
 title: IParagraphFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 此类包含段落格式属性与IParagraphFormatEffectiveData./iparagraphformateffectivedata不同此类的所有属性都是可写的
+second_title: Aspose.Sildes for .NET API 参考
+description: 该类包含段落格式化属性。与 IParagraphFormatEffectiveData../iparagraphformateffectivedata 不同的是，该类的所有属性都是可写的。
 type: docs
-weight: 6030
+weight: 6390
 url: /zh/aspose.slides/iparagraphformat/
 ---
-## IParagraphFormat interface
 
-此类包含段落格式属性。与[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)不同，此类的所有属性都是可写的。
+## IParagraphFormat 接口
+
+该类包含段落格式化属性。与 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 不同的是，该类的所有属性都是可写的。
 
 ```csharp
 public interface IParagraphFormat
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformat/alignment) { get; set; } | 返回或设置没有继承的段落中的文本对齐方式。 读/写[`TextAlignment`](../textalignment)。 |
-| [Bullet](../../aspose.slides/iparagraphformat/bullet) { get; } | 返回段落的项目符号格式。 只读[`IBulletFormat`](../ibulletformat)。 |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformat/defaultportionformat) { get; } | 返回段落的默认部分格式。未应用继承。 只读[`IPortionFormat`](../iportionformat)。 |
-| [DefaultTabSize](../../aspose.slides/iparagraphformat/defaulttabsize) { get; set; } | 返回或设置不继承的默认制表大小。 读/写Single。 |
-| [Depth](../../aspose.slides/iparagraphformat/depth) { get; set; } | 返回或设置段落的深度。 值 0 表示未定义的值。 读/写Int16。 |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformat/eastasianlinebreak) { get; set; } | 确定段落中是否使用东亚换行符。未应用继承。 读/写[`NullableBool`](../nullablebool)。 |
-| [FontAlignment](../../aspose.slides/iparagraphformat/fontalignment) { get; set; } | 在没有继承的段落中返回或设置字体对齐方式。 读/写[`FontAlignment`](../fontalignment)。 |
-| [HangingPunctuation](../../aspose.slides/iparagraphformat/hangingpunctuation) { get; set; } | 确定段落中是否使用悬挂标点。未应用继承。 读/写[`NullableBool`](../nullablebool)。 |
-| [Indent](../../aspose.slides/iparagraphformat/indent) { get; set; } | 返回或设置段落首行缩进/悬挂缩进，无继承。悬挂缩进可以用负值定义。 读/写Single。 |
-| [LatinLineBreak](../../aspose.slides/iparagraphformat/latinlinebreak) { get; set; } | 确定段落中是否使用拉丁换行符。未应用继承。 读/写[`NullableBool`](../nullablebool)。 |
-| [MarginLeft](../../aspose.slides/iparagraphformat/marginleft) { get; set; } | 返回或设置没有继承的段落的左边距。 读/写Single。 |
-| [MarginRight](../../aspose.slides/iparagraphformat/marginright) { get; set; } | 返回或设置没有继承的段落的右边距。 读/写Single。 |
-| [RightToLeft](../../aspose.slides/iparagraphformat/righttoleft) { get; set; } | 确定段落中是否使用从右到左书写。未应用继承。 读/写[`NullableBool`](../nullablebool)。 |
-| [SpaceAfter](../../aspose.slides/iparagraphformat/spaceafter) { get; set; } | 返回或设置没有继承的段落中最后一行之后的空格量。 正值指定空白应该是字体大小的百分比。 负值以磅为单位指定空白的大小。 读/写Single。 |
-| [SpaceBefore](../../aspose.slides/iparagraphformat/spacebefore) { get; set; } | 返回或设置没有继承的段落中第一行之前的空格量。 正值指定空白应该是字体大小的百分比。 负值以磅为单位指定空白的大小。 读/写Single。 |
-| [SpaceWithin](../../aspose.slides/iparagraphformat/spacewithin) { get; set; } | 返回或设置段落中基线之间的空间量。正值表示百分比，负值表示以点为单位的大小。未应用继承。 读/写Single。 |
-| [Tabs](../../aspose.slides/iparagraphformat/tabs) { get; } | 返回段落的列表。未应用继承。 只读[`ITabCollection`](../itabcollection)。 |
+| [Alignment](../../aspose.slides/iparagraphformat/alignment) { get; set; } | 返回或设置段落中的文本对齐方式，且不继承。读写 [`TextAlignment`](../textalignment)。 |
+| [Bullet](../../aspose.slides/iparagraphformat/bullet) { get; } | 返回段落的项目符号格式。只读 [`IBulletFormat`](../ibulletformat)。 |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformat/defaultportionformat) { get; } | 返回段落的默认部分格式。没有应用继承。只读 [`IPortionFormat`](../iportionformat)。 |
+| [DefaultTabSize](../../aspose.slides/iparagraphformat/defaulttabsize) { get; set; } | 返回或设置无继承的默认制表位大小。读写 Single。 |
+| [Depth](../../aspose.slides/iparagraphformat/depth) { get; set; } | 返回或设置段落的深度。值为0表示未定义值。读写 Int16。 |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformat/eastasianlinebreak) { get; set; } | 确定段落中是否使用东亚换行符。没有应用继承。读写 [`NullableBool`](../nullablebool)。 |
+| [FontAlignment](../../aspose.slides/iparagraphformat/fontalignment) { get; set; } | 返回或设置段落中的字体对齐方式，且不继承。读写 [`FontAlignment`](../fontalignment)。 |
+| [HangingPunctuation](../../aspose.slides/iparagraphformat/hangingpunctuation) { get; set; } | 确定段落中是否使用悬挂标点。没有应用继承。读写 [`NullableBool`](../nullablebool)。 |
+| [Indent](../../aspose.slides/iparagraphformat/indent) { get; set; } | 返回或设置段落的首行缩进/悬挂缩进，且不继承。悬挂缩进可以用负值定义。读写 Single。 |
+| [LatinLineBreak](../../aspose.slides/iparagraphformat/latinlinebreak) { get; set; } | 确定段落中是否使用拉丁换行符。没有应用继承。读写 [`NullableBool`](../nullablebool)。 |
+| [MarginLeft](../../aspose.slides/iparagraphformat/marginleft) { get; set; } | 返回或设置段落中的左边距，且不继承。读写 Single。 |
+| [MarginRight](../../aspose.slides/iparagraphformat/marginright) { get; set; } | 返回或设置段落中的右边距，且不继承。读写 Single。 |
+| [RightToLeft](../../aspose.slides/iparagraphformat/righttoleft) { get; set; } | 确定段落中是否使用从右到左的书写方式。没有应用继承。读写 [`NullableBool`](../nullablebool)。 |
+| [SpaceAfter](../../aspose.slides/iparagraphformat/spaceafter) { get; set; } | 返回或设置段落最后一行之后的空白量，且不继承。正值指定空白应为字体大小的百分比。负值指定空白的大小为点数大小。读写 Single。 |
+| [SpaceBefore](../../aspose.slides/iparagraphformat/spacebefore) { get; set; } | 返回或设置段落第一行之前的空白量，且不继承。正值指定空白应为字体大小的百分比。负值指定空白的大小为点数大小。读写 Single。 |
+| [SpaceWithin](../../aspose.slides/iparagraphformat/spacewithin) { get; set; } | 返回或设置段落中基线之间的空白量。正值表示百分比，负值表示点数大小。没有应用继承。读写 Single。 |
+| [Tabs](../../aspose.slides/iparagraphformat/tabs) { get; } | 返回段落的制表符。没有应用继承。只读 [`ITabCollection`](../itabcollection)。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
 | [GetEffective](../../aspose.slides/iparagraphformat/geteffective)() | 获取应用了继承的有效段落格式数据。 |
 
-### 评论
+### 备注
 
-此类用于返回和操作为特定段落定义的段落格式属性。这意味着 在获取值时不应用继承，因此在大多数情况下，您将获得意味着“未定义”的值。
+该类用于返回和操作特定段落定义的段落格式属性。这意味着在获取值时不应用继承，因此在大多数情况下你将得到表示“未定义”的值。
 
-为了获得包括继承在内的有效格式化参数值，您需要使用[`GetEffective`](./geteffective)方法 返回一个[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)实例。
+为了获取包括继承在内的有效格式参数值，需要使用 [`GetEffective`](./geteffective) 方法，该方法返回一个 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 实例。
 
-### 也可以看看
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
-* 部件 [Aspose.Slides](../../)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,15 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные данные эффекта Alpha Ceiling с применением наследования.
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает данные эффективного эффекта Alpha Ceiling с применением наследования.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/alphaceiling/geteffective/
 ---
-## AlphaCeiling.GetEffective method
 
-Получает эффективные данные эффекта Alpha Ceiling с применением наследования.
+## AlphaCeiling.GetEffective метод
+
+Получает данные эффективного эффекта Alpha Ceiling с применением наследования.
 
 ```csharp
 public IAlphaCeilingEffectiveData GetEffective()
@@ -16,12 +17,12 @@ public IAlphaCeilingEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IAlphaCeilingEffectiveData`](../../ialphaceilingeffectivedata).
+[`IAlphaCeilingEffectiveData`](../../ialphaceilingeffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [IAlphaCeilingEffectiveData](../../ialphaceilingeffectivedata)
-* class [AlphaCeiling](../../alphaceiling)
+* интерфейс [IAlphaCeilingEffectiveData](../../ialphaceilingeffectivedata)
+* класс [AlphaCeiling](../../alphaceiling)
 * пространство имен [Aspose.Slides.Effects](../../alphaceiling)
 * сборка [Aspose.Slides](../../../)
 

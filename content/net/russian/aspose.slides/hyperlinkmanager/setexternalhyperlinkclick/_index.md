@@ -1,14 +1,15 @@
 ---
 title: SetExternalHyperlinkClick
-second_title: Справочник по API Aspose.Slides для .NET
-description: Установить внешнюю гиперссылку по клику.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Установить внешнюю гиперссылку при клике.
 type: docs
 weight: 30
 url: /ru/aspose.slides/hyperlinkmanager/setexternalhyperlinkclick/
 ---
-## HyperlinkManager.SetExternalHyperlinkClick method
 
-Установить внешнюю гиперссылку по клику.
+## HyperlinkManager.SetExternalHyperlinkClick метод
+
+Установить внешнюю гиперссылку при клике.
 
 ```csharp
 public IHyperlink SetExternalHyperlinkClick(string url)
@@ -18,10 +19,37 @@ public IHyperlink SetExternalHyperlinkClick(string url)
 | --- | --- | --- |
 | url | String | URL гиперссылки. |
 
-### Смотрите также
+### Примеры
 
-* interface [IHyperlink](../../ihyperlink)
-* class [HyperlinkManager](../../hyperlinkmanager)
+Следующий пример кода показывает, как добавить текстовый блок с гиперссылкой.
+
+```csharp
+[C#]
+// Создает экземпляр класса Presentation, представляющего PPTX
+using(Presentation pptxPresentation = new Presentation()) {
+  // Получает первый слайд в презентации
+  ISlide slide = pptxPresentation.Slides[0];
+  // Добавляет объект AutoShape с типом, установленным как Прямоугольник
+  IShape pptxShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 150, 150, 50);
+  // Приводит форму к AutoShape
+  IAutoShape pptxAutoShape = (IAutoShape) pptxShape;
+  // Получает свойство ITextFrame, связанное с AutoShape
+  pptxAutoShape.AddTextFrame("");
+  ITextFrame textFrame = pptxAutoShape.TextFrame;
+  // Добавляет текст в рамку
+  textFrame.Paragraphs[0].Portions[0].Text = "Aspose.Slides";
+  // Устанавливает гиперссылку для текстовой порции
+  IHyperlinkManager HypMan = textFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkManager;
+  HypMan.SetExternalHyperlinkClick("http://www.aspose.com");
+  // Сохраняет PPTX-презентацию
+  pptxPresentation.Save("hLinkPPTX_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+}
+```
+
+### См. также
+
+* интерфейс [IHyperlink](../../ihyperlink)
+* класс [HyperlinkManager](../../hyperlinkmanager)
 * пространство имен [Aspose.Slides](../../hyperlinkmanager)
 * сборка [Aspose.Slides](../../../)
 

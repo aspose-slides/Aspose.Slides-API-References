@@ -1,14 +1,15 @@
 ---
 title: WriteSlideEnd
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вызывается для записи нижнего колонтитула слайда в формате html. Вызывается один раз для каждого из слайдов.
+second_title: Aspose.Slides для .NET API Справочник
+description: Вызывается для записи нижнего колонтитула HTML слайда. Вызывается один раз для каждого из слайдов.
 type: docs
 weight: 50
 url: /ru/aspose.slides.export/ihtmlformattingcontroller/writeslideend/
 ---
-## IHtmlFormattingController.WriteSlideEnd method
 
-Вызывается для записи нижнего колонтитула слайда в формате html. Вызывается один раз для каждого из слайдов.
+## IHtmlFormattingController.WriteSlideEnd метод
+
+Вызывается для записи нижнего колонтитула HTML слайда. Вызывается один раз для каждого из слайдов.
 
 ```csharp
 public void WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
@@ -16,14 +17,14 @@ public void WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| генератор | IHtmlGenerator | Выходной объект. |
-| слайд | ISlide | Слайд, который в данный момент рендерится. |
+| generator | IHtmlGenerator | Объект вывода. |
+| slide | ISlide | Слайд, который в данный момент отображается. |
 
-### Смотрите также
+### См. также
 
-* interface [IHtmlGenerator](../../ihtmlgenerator)
-* interface [ISlide](../../../aspose.slides/islide)
-* interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
+* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
+* интерфейс [ISlide](../../../aspose.slides/islide)
+* интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * пространство имен [Aspose.Slides.Export](../../ihtmlformattingcontroller)
 * сборка [Aspose.Slides](../../../)
 

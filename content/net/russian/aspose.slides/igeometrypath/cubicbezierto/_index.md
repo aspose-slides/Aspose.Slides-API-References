@@ -1,14 +1,15 @@
 ---
 title: CubicBezierTo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет кубическую кривую Безье в конце пути
+second_title: Aspose.Slides для .NET API Reference
+description: Добавляет кубическую bezier кривую в конце пути
 type: docs
 weight: 60
 url: /ru/aspose.slides/igeometrypath/cubicbezierto/
 ---
+
 ## CubicBezierTo(PointF, PointF, PointF) {#cubicbezierto_2}
 
-Добавляет кубическую кривую Безье в конце пути
+Добавляет кубическую bezier кривую в конце пути
 
 ```csharp
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
@@ -16,13 +17,13 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | PointF | Первый точка направления |
-| point2 | PointF | Вторая точка направления |
+| point1 | PointF | Первая контрольная точка |
+| point2 | PointF | Вторая контрольная точка |
 | point3 | PointF | Конечная точка |
 
-### Смотрите также
+### См. также
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -30,7 +31,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 ## CubicBezierTo(float, float, float, float, float, float) {#cubicbezierto}
 
-Добавляет кубическую кривую Безье в конце пути
+Добавляет кубическую bezier кривую в конце пути
 
 ```csharp
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3)
@@ -38,16 +39,16 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x1 | Single | X координата первой точки направления |
-| y1 | Single | Y координата первой точки направления |
-| x2 | Single | X координата точка второго направления |
-| y2 | Single | Y-координата второй точки направления |
-| x3 | Single | X-координата конечной точки |
-| y3 | Single | Координата Y конечной точки |
+| x1 | Single | X координата первой контрольной точки |
+| y1 | Single | Y координата первой контрольной точки |
+| x2 | Single | X координата второй контрольной точки |
+| y2 | Single | Y координата второй контрольной точки |
+| x3 | Single | X координата конечной точки |
+| y3 | Single | Y координата конечной точки |
 
-### Смотрите также
+### См. также
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -55,7 +56,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 ## CubicBezierTo(PointF, PointF, PointF, uint) {#cubicbezierto_3}
 
-Добавляет кубическую кривую Безье в указанное место пути
+Добавляет кубическую bezier кривую в указанное место пути
 
 ```csharp
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint index)
@@ -63,8 +64,8 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | PointF | Первая точка направления |
-| point2 | PointF | Вторая точка направления |
+| point1 | PointF | Первая контрольная точка |
+| point2 | PointF | Вторая контрольная точка |
 | point3 | PointF | Конечная точка |
 | index | UInt32 | Индекс сегмента в PathData |
 
@@ -72,11 +73,11 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента находится вне диапазона PathData |
 
-### Смотрите также
+### См. также
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -84,7 +85,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 ## CubicBezierTo(float, float, float, float, float, float, uint) {#cubicbezierto_1}
 
-Добавляет кубическую кривую Безье в указанное место пути
+Добавляет кубическую bezier кривую в указанное место пути
 
 ```csharp
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3, uint index)
@@ -92,23 +93,23 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x1 | Single | Координата X первой точки направления |
-| y1 | Single | Координата Y первой точки направления |
-| x2 | Single | X координата точки второго направления |
-| y2 | Single | Y координата точки второго направления |
-| x3 | Single | X координата конечная точка |
-| y3 | Single | Координата Y конечной точки |
+| x1 | Single | X координата первой контрольной точки |
+| y1 | Single | Y координата первой контрольной точки |
+| x2 | Single | X координата второй контрольной точки |
+| y2 | Single | Y координата второй контрольной точки |
+| x3 | Single | X координата конечной точки |
+| y3 | Single | Y координата конечной точки |
 | index | UInt32 | Индекс сегмента в PathData |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента находится вне диапазона PathData |
 
-### Смотрите также
+### См. также
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 

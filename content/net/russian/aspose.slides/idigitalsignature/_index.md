@@ -1,12 +1,13 @@
 ---
 title: IDigitalSignature
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Цифровая подпись в подписанном файле.
 type: docs
-weight: 5190
+weight: 5490
 url: /ru/aspose.slides/idigitalsignature/
 ---
-## IDigitalSignature interface
+
+## Интерфейс IDigitalSignature
 
 Цифровая подпись в подписанном файле.
 
@@ -14,16 +15,16 @@ url: /ru/aspose.slides/idigitalsignature/
 public interface IDigitalSignature
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Объект сертификата, который использовался для подписи документа. Только для чтенияX509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Цель подписи. Чтение/записьString. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был подделан, это значение будет истинным. Только чтениеBoolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Время подписания документа. Только для чтенияDateTime. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Объект сертификата, который использовался для подписи документа. Только для чтения X509Certificate2. |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Цель подписи. Читаемая/записываемая строка. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был подделан, это значение будет истинным. Только для чтения Boolean. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Время, когда документ был подписан. Только для чтения DateTime. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,12 +1,13 @@
 ---
-title: Remove
-second_title: Справочник по API Aspose.Slides для .NET
+title: Удалить
+second_title: Справка по API Aspose.Slides для .NET
 description: Удаляет тег с указанным именем из коллекции.
 type: docs
 weight: 90
 url: /ru/aspose.slides/itagcollection/remove/
 ---
-## ITagCollection.Remove method
+
+## Метод ITagCollection.Remove
 
 Удаляет тег с указанным именем из коллекции.
 
@@ -16,11 +17,11 @@ public void Remove(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя удаляемого тега. |
+| name | String | Имя тега для удаления. |
 
-### Смотрите также
+### См. также
 
-* interface [ITagCollection](../../itagcollection)
+* интерфейс [ITagCollection](../../itagcollection)
 * пространство имен [Aspose.Slides](../../itagcollection)
 * сборка [Aspose.Slides](../../../)
 

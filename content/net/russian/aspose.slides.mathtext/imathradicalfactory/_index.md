@@ -1,12 +1,13 @@
 ---
 title: IMathRadicalFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Позволяет создавать математический радикал
 type: docs
-weight: 7720
+weight: 8180
 url: /ru/aspose.slides.mathtext/imathradicalfactory/
 ---
-## IMathRadicalFactory interface
+
+## Интерфейс IMathRadicalFactory
 
 Позволяет создавать математический радикал
 
@@ -20,11 +21,11 @@ public interface IMathRadicalFactory
 | --- | --- |
 | [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Создает математический радикал |
 
-### Примечания
+### Заметки
 
-Для COM-совместимости
+Для совместимости с COM
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

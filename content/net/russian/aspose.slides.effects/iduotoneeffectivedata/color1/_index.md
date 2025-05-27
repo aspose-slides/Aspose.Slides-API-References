@@ -1,22 +1,23 @@
 ---
 title: Color1
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат целевого цвета для темных пикселей. Только для чтенияColor.
+description: Возвращает целевой цветовой формат для темных пикселей. Только для чтения Color.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/iduotoneeffectivedata/color1/
 ---
-## IDuotoneEffectiveData.Color1 property
 
-Возвращает формат целевого цвета для темных пикселей. Только для чтенияColor.
+## Свойство IDuotoneEffectiveData.Color1
+
+Возвращает целевой цветовой формат для темных пикселей. Только для чтения Color.
 
 ```csharp
 public Color Color1 { get; }
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [IDuotoneEffectiveData](../../iduotoneeffectivedata)
+* интерфейс [IDuotoneEffectiveData](../../iduotoneeffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../iduotoneeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

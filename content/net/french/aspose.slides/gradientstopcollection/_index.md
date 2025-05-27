@@ -1,14 +1,15 @@
 ---
 title: GradientStopCollection
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une collection darrêts de dégradé.
+description: Représente une collection d'arrêts de gradient.
 type: docs
-weight: 4600
+weight: 4830
 url: /fr/aspose.slides/gradientstopcollection/
 ---
-## GradientStopCollection class
 
-Représente une collection d'arrêts de dégradé.
+## Classe GradientStopCollection
+
+Représente une collection d'arrêts de gradient.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -16,36 +17,36 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface IPresentationComponent de base. Lecture seule[`IPresentationComponent`](../ipresentationcomponent) . |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Renvoie le nombre d'arrêts de dégradé dans une collection. Lecture seuleInt32 . |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seuleBoolean . |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Renvoie l'arrêt du dégradé par index. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seuleObject . |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Retourne le nombre d'arrêts de gradient dans une collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Retourne une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecture seule Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Retourne l'arrêt de gradient par index. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Retourne une racine de synchronisation. Lecture seule Object. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Crée le nouvel arrêt de dégradé et l'ajoute à la fin de la collection. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Crée le nouvel arrêt de dégradé et l'ajoute à la fin de la collection. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Crée le nouvel arrêt de dégradé et l'ajoute à la fin de la collection. |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Supprime tous les arrêts de dégradé d'une collection. |
-| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Crée le nouvel arrêt de gradient et l'ajoute à la fin de la collection. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Crée le nouvel arrêt de gradient et l'ajoute à la fin de la collection. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Crée le nouvel arrêt de gradient et l'ajoute à la fin de la collection. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Supprime tous les arrêts de gradient d'une collection. |
+| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Copie tous les éléments de la collection vers le tableau spécifié. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Crée le nouveau point de dégradé et l'insère à l'index spécifié de la collection. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Crée le nouveau point de dégradé et l'insère à l'index spécifié de la collection. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crée le nouveau point de dégradé et l'insère à l'index spécifié de la collection. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Supprime un arrêt de dégradé à l'index spécifié. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Retourne un énumérateur qui itère à travers la collection. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourne le code de hachage. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Crée le nouvel arrêt de gradient et l'insère à l'index spécifié dans la collection. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Crée le nouvel arrêt de gradient et l'insère à l'index spécifié dans la collection. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crée le nouvel arrêt de gradient et l'insère à l'index spécifié dans la collection. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Supprime un arrêt de gradient à l'index spécifié. |
 
-### Voir également
+### Voir aussi
 
-* class [PVIObject](../pviobject)
+* classe [PVIObject](../pviobject)
 * interface [IGradientStopCollection](../igradientstopcollection)
 * espace de noms [Aspose.Slides](../../aspose.slides)
-* Assemblée [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

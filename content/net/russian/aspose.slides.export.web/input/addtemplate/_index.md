@@ -1,20 +1,20 @@
 ---
 title: AddTemplate
-second_title: Справочник по API Aspose.Slides для .NET
-description: 
-type: docs
+second_title: Справка по API Aspose.Slides для .NET
+description: type: docs
 weight: 10
 url: /ru/aspose.slides.export.web/input/addtemplate/
 ---
-## Input.AddTemplate&lt;TContextObject&gt; method
+
+## Метод Input.AddTemplate&lt;TContextObject&gt;
 
 ```csharp
 public void AddTemplate<TContextObject>(string key, string path)
 ```
 
-### Смотрите также
+### См. также
 
-* class [Input](../../input)
+* класс [Input](../../input)
 * пространство имен [Aspose.Slides.Export.Web](../../input)
 * сборка [Aspose.Slides](../../../)
 

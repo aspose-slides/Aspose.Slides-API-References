@@ -1,22 +1,23 @@
 ---
-title: Product
+title: Продукт
 second_title: Справочник по API Aspose.Slides для .NET
 description: Название продукта Aspose.Slides
 type: docs
 weight: 30
 url: /ru/aspose.slides/buildversioninfo/product/
 ---
-## BuildVersionInfo.Product field
+
+## Поле BuildVersionInfo.Product
 
 Название продукта Aspose.Slides
 
 ```csharp
-public static readonly string Product;
+public const string Product;
 ```
 
-### Смотрите также
+### См. также
 
-* class [BuildVersionInfo](../../buildversioninfo)
+* класс [BuildVersionInfo](../../buildversioninfo)
 * пространство имен [Aspose.Slides](../../buildversioninfo)
 * сборка [Aspose.Slides](../../../)
 

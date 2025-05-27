@@ -1,22 +1,23 @@
 ---
 title: CanSeek
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение указывающее поддерживает ли текущий поток поиск. Только чтениеBoolean.
+second_title: Aspose.Sildes для .NET API Ссылка
+description: Получает значение, указывающее, поддерживает ли текущий поток перемещение по нему. Только для чтения Boolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides/istreamwrapper/canseek/
 ---
-## IStreamWrapper.CanSeek property
 
-Получает значение, указывающее, поддерживает ли текущий поток поиск. Только чтениеBoolean.
+## IStreamWrapper.CanSeek свойство
+
+Получает значение, указывающее, поддерживает ли текущий поток перемещение по нему. Только для чтения Boolean.
 
 ```csharp
 public bool CanSeek { get; }
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [IStreamWrapper](../../istreamwrapper)
+* интерфейс [IStreamWrapper](../../istreamwrapper)
 * пространство имен [Aspose.Slides](../../istreamwrapper)
 * сборка [Aspose.Slides](../../../)
 

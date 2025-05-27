@@ -1,22 +1,23 @@
 ---
-title: Char
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает маркер абзаца без наследования. Чтение/записьChar.
+title: Символ
+second_title: Ссылки на API Aspose.Slides для .NET
+description: Возвращает или устанавливает символ маркера абзаца без наследования. Чтение/запись Char.
 type: docs
 weight: 10
 url: /ru/aspose.slides/bulletformat/char/
 ---
-## BulletFormat.Char property
 
-Возвращает или устанавливает маркер абзаца без наследования. Чтение/записьChar.
+## Свойство BulletFormat.Char
+
+Возвращает или устанавливает символ маркера абзаца без наследования. Чтение/запись Char.
 
 ```csharp
 public char Char { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BulletFormat](../../bulletformat)
+* класс [BulletFormat](../../bulletformat)
 * пространство имен [Aspose.Slides](../../bulletformat)
 * сборка [Aspose.Slides](../../../)
 

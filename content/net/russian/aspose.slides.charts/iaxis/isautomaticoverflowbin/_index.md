@@ -1,22 +1,23 @@
 ---
 title: IsAutomaticOverflowBin
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет значение корзины автоматического переполнения. Если falseиспользуйте свойство OverflowBin.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает значение автоматического переполнения корзины. Если ложь, используйте свойство OverflowBin.
 type: docs
 weight: 220
 url: /ru/aspose.slides.charts/iaxis/isautomaticoverflowbin/
 ---
-## IAxis.IsAutomaticOverflowBin property
 
-Определяет значение корзины автоматического переполнения. Если false:используйте свойство OverflowBin.
+## Свойство IAxis.IsAutomaticOverflowBin
+
+Указывает значение автоматического переполнения корзины. Если ложь: используйте свойство OverflowBin.
 
 ```csharp
 public bool IsAutomaticOverflowBin { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IAxis](../../iaxis)
+* интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

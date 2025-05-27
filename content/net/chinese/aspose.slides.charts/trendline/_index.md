@@ -1,12 +1,13 @@
 ---
-title: Trendline
+title: 趋势线
 second_title: Aspose.Slides for .NET API 参考
 description: 类表示图表系列的趋势线
 type: docs
-weight: 2330
+weight: 2390
 url: /zh/aspose.slides.charts/trendline/
 ---
-## Trendline class
+
+## Trendline 类
 
 类表示图表系列的趋势线
 
@@ -14,37 +15,37 @@ url: /zh/aspose.slides.charts/trendline/
 public class Trendline : DomObject<TrendlineCollection>, ITrendline
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | 指定趋势线在 正在趋势的系列数据之前延伸的类别数（或散点图上的单位） .在散点图和非散点图上，该值应为任何非负 值。 读/写Double。 |
-| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | 返回父图表。 只读[`IChart`](../ichart)。 |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | 指定趋势线的方程显示在图表上（与 Rsquaredvalue 在同一标签中）。 读/写Boolean。 |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | 指定趋势线的 R 平方值显示在图表上（在与等式相同的标签中）。 读/写Boolean。 |
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | 表示趋势线的格式。 读/写[`IFormat`](../iformat)。 |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | 指定趋势线在被趋势化的系列的 数据之后延伸的类别数（或散点图上的单位）。在散点图和非散点图上，该值应为任何非负 值。 读/写Double。 |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | 指定趋势线应与 y 轴相交的值。只有当趋势线类型为 exp、linear 或 poly 时，才支持该属性 。 读/写Double。 |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | 指定多项式趋势线的顺序。对于其他趋势线类型，它会被忽略。值必须介于 2 和 6 之间。 读/写Byte。 |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | 指定移动平均趋势线的趋势线周期。其他趋势 线变体将被忽略。值必须介于 2 和 255 之间。 读/写Byte。 |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | 表示与此趋势线相关的图例条目 只读[`ILegendEntryProperties`](../ilegendentryproperties)。 |
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | 返回文本格式。 只读[`IChartTextFormat`](../icharttextformat)。 |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | 可以包含格式丰富的文本。如果此属性不为空，则此 格式化文本值将覆盖自动生成的数据标签文本。 数据标签的自动生成文本是指由 ShowSeriesName, ShowValue, ... 属性管理并使用 TextFormatManager.TextFormat 属性格式化的文本。 只读[`ITextFrame`](../../aspose.slides/itextframe)。 |
-| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | 获取或设置趋势线的名称。 读/写String。 |
-| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | 获取或设置趋势线的类型。 读/写[`TrendlineType`](../trendlinetype)。 |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | 指定趋势线在被趋势的数据之前延伸的类别数（或散点图上的单位）。在散点图和非散点图中，该值应为任何非负值。可读写 Double。 |
+| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | 返回父图表。只读 [`IChart`](../ichart)。 |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | 指定趋势线的方程在图表上显示（与 Rsquaredvalue 在同一标签中）。可读写 Boolean。 |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | 指定趋势线的 R 平方值在图表上显示（与方程在同一标签中）。可读写 Boolean。 |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | 表示趋势线的格式。可读写 [`IFormat`](../iformat)。 |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | 指定趋势线在被趋势的数据之后延伸的类别数（或散点图上的单位）。在散点图和非散点图中，该值应为任何非负值。可读写 Double。 |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | 指定趋势线与 y 轴交叉的值。此属性仅在趋势线类型为 exp、线性或多项式时受支持。可读写 Double。 |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | 指定多项式趋势线的阶数。对于其他趋势线类型，此值会被忽略。值必须在 2 到 6 之间。可读写 Byte。 |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | 指定移动平均趋势线的周期。对于其他趋势线变体，此值会被忽略。值必须在 2 到 255 之间。可读写 Byte。 |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | 表示与此趋势线相关的图例条目。只读 [`ILegendEntryProperties`](../ilegendentryproperties)。 |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | 返回文本格式。只读 [`IChartTextFormat`](../icharttextformat)。 |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | 可以包含富格式文本。如果此属性不为 null，则该格式化文本值会覆盖数据标签的自动生成文本。数据标签的自动生成文本是由 ShowSeriesName、ShowValue 等属性管理的文本，并采用 TextFormatManager.TextFormat 属性格式化。只读 [`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | 获取或设置趋势线的名称。可读写 String。 |
+| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | 获取或设置趋势线的类型。可读写 [`TrendlineType`](../trendlinetype)。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | 使用参数“text”中的文本初始化 TextFrameForOverriding。 如果 TextFrameForOverriding 已经初始化，则只需更改其文本。 |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | 用参数 "text" 中的文本初始化 TextFrameForOverriding。如果 TextFrameForOverriding 已经初始化，则只需更改其文本。 |
 
-### 也可以看看
+### 另见
 
-* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* class [TrendlineCollection](../trendlinecollection)
-* interface [ITrendline](../itrendline)
+* 类 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* 类 [TrendlineCollection](../trendlinecollection)
+* 接口 [ITrendline](../itrendline)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
-* 部件 [Aspose.Slides](../../)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

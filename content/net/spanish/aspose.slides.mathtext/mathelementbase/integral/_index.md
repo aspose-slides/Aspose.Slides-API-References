@@ -6,7 +6,8 @@ type: docs
 weight: 70
 url: /es/aspose.slides.mathtext/mathelementbase/integral/
 ---
-## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
+
+## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
 Toma la integral
 
@@ -15,16 +16,16 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
     IMathElement upperLimit, MathLimitLocations limitLocations)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | tipo integral |
-| lowerLimit | IMathElement | Límite inferior de integral |
-| upperLimit | IMathElement | Límite superior de integral |
+| integralType | MathIntegralTypes | Tipo de integral |
+| lowerLimit | IMathElement | Límite inferior de la integral |
+| upperLimit | IMathElement | Límite superior de la integral |
 | limitLocations | MathLimitLocations | ubicación de los límites |
 
-### Valor_devuelto
+### Valor de retorno
 
-Nueva instancia de tipo[`IMathNaryOperator`](../../imathnaryoperator)
+Nueva instancia del tipo [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Ejemplos
 
@@ -38,19 +39,19 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### Ver también
+### Ver También
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
+* interfaz [IMathNaryOperator](../../imathnaryoperator)
 * enum [MathIntegralTypes](../../mathintegraltypes)
-* interface [IMathElement](../../imathelement)
+* interfaz [IMathElement](../../imathelement)
 * enum [MathLimitLocations](../../mathlimitlocations)
-* class [MathElementBase](../../mathelementbase)
+* clase [MathElementBase](../../mathelementbase)
 * espacio de nombres [Aspose.Slides.MathText](../../mathelementbase)
-* asamblea [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
+## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
 
 Toma la integral
 
@@ -59,15 +60,15 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
     IMathElement upperLimit)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | tipo integral |
-| lowerLimit | IMathElement | Límite inferior de integral |
-| upperLimit | IMathElement | Límite superior de integral |
+| integralType | MathIntegralTypes | Tipo de integral |
+| lowerLimit | IMathElement | Límite inferior de la integral |
+| upperLimit | IMathElement | Límite superior de la integral |
 
-### Valor_devuelto
+### Valor de retorno
 
-Nueva instancia de tipo[`IMathNaryOperator`](../../imathnaryoperator)
+Nueva instancia del tipo [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Ejemplos
 
@@ -81,14 +82,14 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### Ver también
+### Ver También
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
+* interfaz [IMathNaryOperator](../../imathnaryoperator)
 * enum [MathIntegralTypes](../../mathintegraltypes)
-* interface [IMathElement](../../imathelement)
-* class [MathElementBase](../../mathelementbase)
+* interfaz [IMathElement](../../imathelement)
+* clase [MathElementBase](../../mathelementbase)
 * espacio de nombres [Aspose.Slides.MathText](../../mathelementbase)
-* asamblea [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 ---
 
@@ -100,13 +101,13 @@ Toma la integral sin límites
 public IMathNaryOperator Integral(MathIntegralTypes integralType)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | tipo integral |
+| integralType | MathIntegralTypes | Tipo de integral |
 
-### Valor_devuelto
+### Valor de retorno
 
-Nueva instancia de tipo[`IMathNaryOperator`](../../imathnaryoperator)
+Nueva instancia del tipo [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Ejemplos
 
@@ -118,17 +119,17 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 ```
 
-### Ver también
+### Ver También
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
+* interfaz [IMathNaryOperator](../../imathnaryoperator)
 * enum [MathIntegralTypes](../../mathintegraltypes)
-* class [MathElementBase](../../mathelementbase)
+* clase [MathElementBase](../../mathelementbase)
 * espacio de nombres [Aspose.Slides.MathText](../../mathelementbase)
-* asamblea [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
+## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
 
 Toma la integral
 
@@ -137,16 +138,16 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
     string upperLimit, MathLimitLocations limitLocations)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | tipo integral |
-| lowerLimit | String | Límite inferior de integral |
-| upperLimit | String | Límite superior de integral |
+| integralType | MathIntegralTypes | Tipo de integral |
+| lowerLimit | String | Límite inferior de la integral |
+| upperLimit | String | Límite superior de la integral |
 | limitLocations | MathLimitLocations | ubicación de los límites |
 
-### Valor_devuelto
+### Valor de retorno
 
-Nueva instancia de tipo[`IMathNaryOperator`](../../imathnaryoperator)
+Nueva instancia del tipo [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Ejemplos
 
@@ -158,18 +159,18 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5", MathLimitLocations.UnderOver);
 ```
 
-### Ver también
+### Ver También
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
+* interfaz [IMathNaryOperator](../../imathnaryoperator)
 * enum [MathIntegralTypes](../../mathintegraltypes)
 * enum [MathLimitLocations](../../mathlimitlocations)
-* class [MathElementBase](../../mathelementbase)
+* clase [MathElementBase](../../mathelementbase)
 * espacio de nombres [Aspose.Slides.MathText](../../mathelementbase)
-* asamblea [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, string, string) {#integral_3}
+## Integral(MathIntegralTypes, string, string) {#integral_3}
 
 Toma la integral
 
@@ -178,15 +179,15 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
     string upperLimit)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | tipo integral |
-| lowerLimit | String | Límite inferior de integral |
-| upperLimit | String | Límite superior de integral |
+| integralType | MathIntegralTypes | Tipo de integral |
+| lowerLimit | String | Límite inferior de la integral |
+| upperLimit | String | Límite superior de la integral |
 
-### Valor_devuelto
+### Valor de retorno
 
-Nueva instancia de tipo[`IMathNaryOperator`](../../imathnaryoperator)
+Nueva instancia del tipo [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Ejemplos
 
@@ -198,12 +199,12 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5");
 ```
 
-### Ver también
+### Ver También
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
+* interfaz [IMathNaryOperator](../../imathnaryoperator)
 * enum [MathIntegralTypes](../../mathintegraltypes)
-* class [MathElementBase](../../mathelementbase)
+* clase [MathElementBase](../../mathelementbase)
 * espacio de nombres [Aspose.Slides.MathText](../../mathelementbase)
-* asamblea [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

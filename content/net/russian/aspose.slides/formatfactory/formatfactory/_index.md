@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides/formatfactory/formatfactory/
 ---
-## FormatFactory constructor
+
+## Конструктор FormatFactory
 
 Конструктор по умолчанию.
 
@@ -16,7 +17,7 @@ public FormatFactory()
 
 ### Смотрите также
 
-* class [FormatFactory](../../formatfactory)
+* класс [FormatFactory](../../formatfactory)
 * пространство имен [Aspose.Slides](../../formatfactory)
 * сборка [Aspose.Slides](../../../)
 

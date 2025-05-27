@@ -1,12 +1,13 @@
 ---
 title: ImageDataGamma
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство imageData.gamma
 type: docs
 weight: 490
 url: /ru/aspose.slides.animation/behaviorproperty/imagedatagamma/
 ---
-## BehaviorProperty.ImageDataGamma property
+
+## Свойство BehaviorProperty.ImageDataGamma
 
 Представляет свойство 'imageData.gamma'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/imagedatagamma/
 public static BehaviorProperty ImageDataGamma { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

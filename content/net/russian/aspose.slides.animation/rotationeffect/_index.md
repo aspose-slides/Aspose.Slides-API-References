@@ -1,14 +1,15 @@
 ---
 title: RotationEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение эффекта вращения.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Представляет поведение вращения эффекта.
 type: docs
-weight: 670
+weight: 690
 url: /ru/aspose.slides.animation/rotationeffect/
 ---
-## RotationEffect class
 
-Представляет поведение эффекта вращения.
+## Класс RotationEffect
+
+Представляет поведение вращения эффекта.
 
 ```csharp
 public class RotationEffect : Behavior, IRotationEffect
@@ -16,26 +17,26 @@ public class RotationEffect : Behavior, IRotationEffect
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [RotationEffect](rotationeffect)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Указывает, сочетается ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Описывает значение относительного смещения для анимации. Чтение/записьSingle. |
-| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Описывает начальное значение анимации. Чтение/записьSingle. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет свойства синхронизации для поведения эффекта. Чтение/запись[`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Описывает конечное значение анимации. Чтение/записьSingle. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Представляет, накапливаются ли анимационные поведения. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Представляет, объединяется ли текущее анимационное поведение с другими запущенными анимациями. Чтение/запись [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Описывает относительное смещение для анимации. Чтение/запись Single. |
+| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Описывает начальное значение для анимации. Чтение/запись Single. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет временные свойства для поведения эффекта. Чтение/запись [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Описывает конечное значение для анимации. Чтение/запись Single. |
 
-### Смотрите также
+### См. также
 
-* class [Behavior](../behavior)
-* interface [IRotationEffect](../irotationeffect)
+* класс [Behavior](../behavior)
+* интерфейс [IRotationEffect](../irotationeffect)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

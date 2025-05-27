@@ -1,23 +1,65 @@
 ---
-title: SlideSize
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект размера слайда. Только для чтенияISlideSizeaspose.slides/islidesize.
+title: РазмерСлайда
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает объект размера слайда. Только для чтения ISlideSize aspose.slides/islidesize.
 type: docs
-weight: 240
+weight: 250
 url: /ru/aspose.slides/presentation/slidesize/
 ---
-## Presentation.SlideSize property
 
-Возвращает объект размера слайда. Только для чтения[`ISlideSize`](../../islidesize).
+## Свойство Presentation.SlideSize
+
+Возвращает объект размера слайда. Только для чтения [`ISlideSize`](../../islidesize).
 
 ```csharp
 public ISlideSize SlideSize { get; }
 ```
 
+### Примеры
+
+Следующий пример показывает, как изменить размер слайда в презентации PowerPoint.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres-4x3-aspect-ratio.pptx"))
+{
+    pres.SlideSize.SetSize(SlideSizeType.OnScreen16x9, SlideSizeScaleType.DoNotScale);
+    pres.Save("pres-4x3-aspect-ratio.pptx", SaveFormat.Pptx);
+}
+```
+
+Следующий пример показывает, как установить размер слайда с учетом масштабирования содержимого для презентации PowerPoint.
+
+```csharp
+[C#]
+// Создаем объект Presentation, представляющий файл презентации
+using(Presentation presentation = new Presentation("AccessSlides.pptx")) {
+  using(Presentation auxPresentation = new Presentation()) {
+    ISlide slide = presentation.Slides[0];
+    // Установите размер слайда сгенерированных презентаций в соответствии с исходным
+    presentation.SlideSize.SetSize(540, 720, SlideSizeScaleType.EnsureFit); // Метод SetSize используется для установки размера слайда с масштабом для обеспечения соответствия
+    presentation.SlideSize.SetSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // Метод SetSize используется для установки размера слайда с максимизацией размера содержимого
+    // Сохраните презентацию на диск
+    auxPresentation.Save("Set_Size&Type_out.pptx", SaveFormat.Pptx);
+  }
+}
+```
+
+Следующий пример показывает, как задать пользовательские размеры слайдов в презентации PowerPoint.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    pres.SlideSize.SetSize(780, 540, SlideSizeScaleType.DoNotScale); // Размер бумаги A4
+    pres.Save("pres-a4-slide-size.pptx", SaveFormat.Pptx);
+}
+```
+
 ### Смотрите также
 
-* interface [ISlideSize](../../islidesize)
-* class [Presentation](../../presentation)
+* интерфейс [ISlideSize](../../islidesize)
+* класс [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
-title: Remove
+title: Удалить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет указанные команды из коллекции.
 type: docs
 weight: 80
 url: /ru/aspose.slides.animation/motionpath/remove/
 ---
-## MotionPath.Remove method
+
+## Метод MotionPath.Remove
 
 Удаляет указанные команды из коллекции.
 
@@ -18,10 +19,10 @@ public void Remove(IMotionCmdPath item)
 | --- | --- | --- |
 | item | IMotionCmdPath | Путь движения для удаления. |
 
-### Смотрите также
+### См. также
 
-* interface [IMotionCmdPath](../../imotioncmdpath)
-* class [MotionPath](../../motionpath)
+* интерфейс [IMotionCmdPath](../../imotioncmdpath)
+* класс [MotionPath](../../motionpath)
 * пространство имен [Aspose.Slides.Animation](../../motionpath)
 * сборка [Aspose.Slides](../../../)
 

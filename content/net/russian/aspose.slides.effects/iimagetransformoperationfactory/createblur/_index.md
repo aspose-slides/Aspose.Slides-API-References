@@ -1,12 +1,13 @@
 ---
 title: CreateBlur
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает эффект размытия.
 type: docs
 weight: 90
 url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createblur/
 ---
-## IImageTransformOperationFactory.CreateBlur method
+
+## IImageTransformOperationFactory.CreateBlur метод
 
 Создает эффект размытия.
 
@@ -17,7 +18,7 @@ public IBlur CreateBlur(double radius, bool grow)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | radius | Double | Радиус. |
-| grow | Boolean | Рост. |
+| grow | Boolean | Увеличить. |
 
 ### Возвращаемое значение
 
@@ -25,8 +26,8 @@ public IBlur CreateBlur(double radius, bool grow)
 
 ### Смотрите также
 
-* interface [IBlur](../../iblur)
-* interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
+* интерфейс [IBlur](../../iblur)
+* интерфейс [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

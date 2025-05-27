@@ -1,31 +1,32 @@
 ---
 title: IHSLEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект оттенка/насыщенности/яркости. Оттенок насыщенность и яркость можно настроить относительно текущего значения.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет эффект Оттенка/Насыщенности/Яркости. Оттенок, насыщенность и яркость могут быть отрегулированы относительно их текущего значения.
 type: docs
-weight: 3170
+weight: 3250
 url: /ru/aspose.slides.effects/ihsleffectivedata/
 ---
-## IHSLEffectiveData interface
 
-Представляет эффект оттенка/насыщенности/яркости. Оттенок, насыщенность и яркость можно настроить относительно текущего значения.
+## Интерфейс IHSLEffectiveData
+
+Представляет эффект Оттенка/Насыщенности/Яркости. Оттенок, насыщенность и яркость могут быть отрегулированы относительно их текущего значения.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Возвращает процент оттенка. Только для чтенияSingle. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Возвращает яркость в процентах. Только для чтенияSingle. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Возвращает процент насыщения. Только для чтенияSingle. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Возвращает процент оттенка. Только для чтения Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Возвращает процент яркости. Только для чтения Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Возвращает процент насыщенности. Только для чтения Single. |
 
-### Смотрите также
+### См. также
 
-* interface [IEffectEffectiveData](../ieffecteffectivedata)
+* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

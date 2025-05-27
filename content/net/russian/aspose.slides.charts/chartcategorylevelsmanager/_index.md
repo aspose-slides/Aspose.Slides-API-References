@@ -3,10 +3,11 @@ title: ChartCategoryLevelsManager
 second_title: Справочник по API Aspose.Slides для .NET
 description: Управляемый контейнер значений уровней категорий графика.
 type: docs
-weight: 1150
+weight: 1210
 url: /ru/aspose.slides.charts/chartcategorylevelsmanager/
 ---
-## ChartCategoryLevelsManager class
+
+## Класс ChartCategoryLevelsManager
 
 Управляемый контейнер значений уровней категорий графика.
 
@@ -14,7 +15,7 @@ url: /ru/aspose.slides.charts/chartcategorylevelsmanager/
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
@@ -24,12 +25,12 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | Имя | Описание |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Удалить элемент группировки для определенного уровня. |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Устанавливает элемент группировки для определенного уровня. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Удаляет элемент группировки для заданного уровня. |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Устанавливает элемент группировки для заданного уровня. |
 
-### Смотрите также
+### См. также
 
-* interface [IChartCategoryLevelsManager](../ichartcategorylevelsmanager)
+* интерфейс [IChartCategoryLevelsManager](../ichartcategorylevelsmanager)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

@@ -1,14 +1,15 @@
 ---
 title: AsIImageTransformOperation
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IImageTransformOperation. Только для чтенияIImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает интерфейс IImageTransformOperation. Только для чтения IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/ihsl/asiimagetransformoperation/
 ---
-## IHSL.AsIImageTransformOperation property
 
-Возвращает интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../../iimagetransformoperation).
+## IHSL.AsIImageTransformOperation свойство
+
+Возвращает интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
@@ -16,12 +17,12 @@ public IImageTransformOperation AsIImageTransformOperation { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IImageTransformOperation](../../iimagetransformoperation)
-* interface [IHSL](../../ihsl)
+* интерфейс [IImageTransformOperation](../../iimagetransformoperation)
+* интерфейс [IHSL](../../ihsl)
 * пространство имен [Aspose.Slides.Effects](../../ihsl)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 70
 url: /ru/aspose.slides.vba/vbareferencecollection/getenumerator/
 ---
-## VbaReferenceCollection.GetEnumerator method
+
+## VbaReferenceCollection.GetEnumerator метод
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides.vba/vbareferencecollection/getenumerator/
 public IEnumerator<IVbaReference> GetEnumerator()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для перебора коллекции.
 
-### Смотрите также
+### См. Также
 
-* interface [IVbaReference](../../ivbareference)
-* class [VbaReferenceCollection](../../vbareferencecollection)
+* интерфейс [IVbaReference](../../ivbareference)
+* класс [VbaReferenceCollection](../../vbareferencecollection)
 * пространство имен [Aspose.Slides.Vba](../../vbareferencecollection)
 * сборка [Aspose.Slides](../../../)
 

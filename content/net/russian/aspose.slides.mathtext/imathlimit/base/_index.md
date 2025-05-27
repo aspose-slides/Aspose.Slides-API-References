@@ -1,12 +1,13 @@
 ---
-title: Base
+title: Базовый
 second_title: Справочник по API Aspose.Slides для .NET
 description: Базовый аргумент
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathlimit/base/
 ---
-## IMathLimit.Base property
+
+## Свойство IMathLimit.Base
 
 Базовый аргумент
 
@@ -24,10 +25,10 @@ IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathema
 IMathElement baseArg = limitElement.Base;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathLimit](../../imathlimit)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathLimit](../../imathlimit)
 * пространство имен [Aspose.Slides.MathText](../../imathlimit)
 * сборка [Aspose.Slides](../../../)
 

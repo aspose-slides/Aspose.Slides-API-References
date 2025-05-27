@@ -1,23 +1,24 @@
 ---
 title: ComplexScriptFont
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает шрифт сложного сценария. Только для чтенияIFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает шрифт сложного скрипта. Только для чтения IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ifontseffectivedata/complexscriptfont/
 ---
-## IFontsEffectiveData.ComplexScriptFont property
 
-Возвращает шрифт сложного сценария. Только для чтения[`IFontData`](../../ifontdata).
+## IFontsEffectiveData.ComplexScriptFont свойство
+
+Возвращает шрифт сложного скрипта. Только для чтения [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData ComplexScriptFont { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IFontData](../../ifontdata)
-* interface [IFontsEffectiveData](../../ifontseffectivedata)
+* интерфейс [IFontData](../../ifontdata)
+* интерфейс [IFontsEffectiveData](../../ifontseffectivedata)
 * пространство имен [Aspose.Slides](../../ifontseffectivedata)
 * сборка [Aspose.Slides](../../../)
 

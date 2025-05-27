@@ -1,14 +1,15 @@
 ---
 title: InsertClone
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает копию указанного столбца шаблона и вставляет его в указанную позицию в таблице.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает копию указанной столбцов шаблона и вставляет ее в указанное место в таблице.
 type: docs
 weight: 80
 url: /ru/aspose.slides/columncollection/insertclone/
 ---
-## ColumnCollection.InsertClone method
 
-Создает копию указанного столбца шаблона и вставляет его в указанную позицию в таблице.
+## Метод ColumnCollection.InsertClone
+
+Создает копию указанной столбцов шаблона и вставляет ее в указанное место в таблице.
 
 ```csharp
 public IColumn[] InsertClone(int index, IColumn templ, bool withAttachedColumns)
@@ -18,16 +19,16 @@ public IColumn[] InsertClone(int index, IColumn templ, bool withAttachedColumns)
 | --- | --- | --- |
 | index | Int32 | Индекс нового столбца. |
 | templ | IColumn | Столбец, который используется в качестве шаблона. |
-| withAttachedColumns | Boolean | Значение true, чтобы также копировать все столбцы, прикрепленные к столбцу шаблона. |
+| withAttachedColumns | Boolean | True для копирования также всех столбцов, прикрепленных к столбцу шаблона. |
 
 ### Возвращаемое значение
 
 Вставленные столбцы.
 
-### Смотрите также
+### См. также
 
-* interface [IColumn](../../icolumn)
-* class [ColumnCollection](../../columncollection)
+* интерфейс [IColumn](../../icolumn)
+* класс [ColumnCollection](../../columncollection)
 * пространство имен [Aspose.Slides](../../columncollection)
 * сборка [Aspose.Slides](../../../)
 

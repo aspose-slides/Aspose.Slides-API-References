@@ -1,22 +1,23 @@
 ---
-title: Brightness
-second_title: Справочник по API Aspose.Slides для .NET
-description: Яркость. Только для чтенияSingle.
+title: Яркость
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Яркость. Только для чтения Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/iluminanceeffectivedata/brightness/
 ---
-## ILuminanceEffectiveData.Brightness property
 
-Яркость. Только для чтенияSingle.
+## ILuminanceEffectiveData.Brightness свойство
+
+Яркость. Только для чтения Single.
 
 ```csharp
 public float Brightness { get; }
 ```
 
-### Смотрите также
-
-* interface [ILuminanceEffectiveData](../../iluminanceeffectivedata)
+### Также см.
+ 
+* интерфейс [ILuminanceEffectiveData](../../iluminanceeffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../iluminanceeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

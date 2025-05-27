@@ -1,14 +1,15 @@
 ---
 title: MathematicalText
-second_title: Справочник по API Aspose.Slides для .NET
-description: Конструктор по умолчанию создать String.Empty Value
+second_title: Aspose.Sildes для .NET API Reference
+description: Конструктор по умолчанию создает значение String.Empty
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathematicaltext/mathematicaltext/
 ---
+
 ## MathematicalText() {#constructor}
 
-Конструктор по умолчанию (создать String.Empty Value)
+Конструктор по умолчанию (создает значение String.Empty)
 
 ```csharp
 public MathematicalText()
@@ -23,9 +24,9 @@ public MathematicalText()
 MathematicalText mathText = new MathematicalText();
 ```
 
-### Смотрите также
+### См. Также
 
-* class [MathematicalText](../../mathematicaltext)
+* класс [MathematicalText](../../mathematicaltext)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltext)
 * сборка [Aspose.Slides](../../../)
 
@@ -33,7 +34,7 @@ MathematicalText mathText = new MathematicalText();
 
 ## MathematicalText(char) {#constructor_1}
 
-Создать MathText с одиночным символом
+Создать MathText с одним символом
 
 ```csharp
 public MathematicalText(char mathSymbol)
@@ -41,7 +42,7 @@ public MathematicalText(char mathSymbol)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathSymbol | Char | одиночный символ |
+| mathSymbol | Char | один символ |
 
 ### Примеры
 
@@ -52,9 +53,9 @@ public MathematicalText(char mathSymbol)
 MathematicalText mathText = new MathematicalText('$');
 ```
 
-### Смотрите также
+### См. Также
 
-* class [MathematicalText](../../mathematicaltext)
+* класс [MathematicalText](../../mathematicaltext)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltext)
 * сборка [Aspose.Slides](../../../)
 
@@ -81,9 +82,9 @@ public MathematicalText(string mathText)
 MathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### Смотрите также
+### См. Также
 
-* class [MathematicalText](../../mathematicaltext)
+* класс [MathematicalText](../../mathematicaltext)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltext)
 * сборка [Aspose.Slides](../../../)
 
@@ -99,8 +100,8 @@ public MathematicalText(string mathText, IPortionFormat portionFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathText | String | text value |
-| partionFormat | IPortionFormat | настройки формата текста |
+| mathText | String | текстовое значение |
+| portionFormat | IPortionFormat | настройки формата текста |
 
 ### Примеры
 
@@ -112,10 +113,10 @@ IPortionFormat format = new PortionFormat() { FontHeight = 12 };
 MathematicalText mathText = new MathematicalText("x+y", format);
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IPortionFormat](../../../aspose.slides/iportionformat)
-* class [MathematicalText](../../mathematicaltext)
+* интерфейс [IPortionFormat](../../../aspose.slides/iportionformat)
+* класс [MathematicalText](../../mathematicaltext)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltext)
 * сборка [Aspose.Slides](../../../)
 

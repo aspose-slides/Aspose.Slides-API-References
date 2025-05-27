@@ -1,14 +1,15 @@
 ---
 title: AddAudioFrameEmbedded
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Fügt am Ende einer Sammlung einen neuen Audioframe mit eingebetteter Audiodatei hinzu. Eingebettete Audiodatei kann nur eine WAVDatei sein. Fügt neues Audio zur Presentation.AudiosListe hinzu.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügt am Ende einer Sammlung einen neuen Audio-Frame mit eingebetteter Audiodatei hinzu. Die eingebettete Audiodatei kann nur eine WAV-Datei sein. Sie fügt neue Audiodateien zur Liste Presentation.Audios hinzu.
 type: docs
 weight: 70
 url: /de/aspose.slides/shapecollection/addaudioframeembedded/
 ---
-## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
-Fügt am Ende einer Sammlung einen neuen Audioframe mit eingebetteter Audiodatei hinzu. Eingebettete Audiodatei kann nur eine WAV-Datei sein. Fügt neues Audio zur Presentation.Audios-Liste hinzu.
+## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
+
+Fügt am Ende einer Sammlung einen neuen Audio-Frame mit eingebetteter Audiodatei hinzu. Die eingebettete Audiodatei kann nur eine WAV-Datei sein. Sie fügt neue Audiodateien zur Liste Presentation.Audios hinzu.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, 
@@ -17,28 +18,51 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Single | X-Koordinate eines neuen Audioframes. |
-| y | Single | Y-Koordinate eines neuen Audiorahmens. |
-| width | Single | Breite eines neuen Audioframes. |
-| height | Single | Höhe eines neuen Audioframes. |
-| audio_stream | Stream | Inout-Stream mit Audiodaten. |
+| x | Einzel | X-Koordinate eines neuen Audio-Frames. |
+| y | Einzel | Y-Koordinate eines neuen Audio-Frames. |
+| width | Einzel | Breite eines neuen Audio-Frames. |
+| height | Einzel | Höhe eines neuen Audio-Frames. |
+| audio_stream | Stream | Eingabestream mit Audiodaten. |
 
 ### Rückgabewert
 
 Erstelltes AudioFrame-Objekt.
 
-### Siehe auch
+### Beispiele
 
-* interface [IAudioFrame](../../iaudioframe)
-* class [ShapeCollection](../../shapecollection)
-* namensraum [Aspose.Slides](../../shapecollection)
-* Montage [Aspose.Slides](../../../)
+Die folgenden Beispiele zeigen, wie man einen Audio-Frame erstellt.
+
+```csharp
+[C#]
+// Erstellt eine Präsentationsklasse, die eine Präsentationsdatei repräsentiert
+using (Presentation pres = new Presentation())
+{
+    // Erhält die erste Folie
+    ISlide sld = pres.Slides[0];
+    // Lädt die wav-Audiodatei in den Stream
+    FileStream fstr = new FileStream("sampleaudio.wav", FileMode.Open, FileAccess.Read);
+    // Fügt den Audio-Frame hinzu
+    IAudioFrame audioFrame = sld.Shapes.AddAudioFrameEmbedded(50, 150, 100, 100, fstr);
+    // Setzt den Abspielmodus und die Lautstärke des Audios
+    audioFrame.PlayMode = AudioPlayModePreset.Auto;
+    audioFrame.Volume = AudioVolumeMode.Loud;
+    // Speichert die PowerPoint-Datei auf der Festplatte
+    pres.Save("AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
+}
+```
+
+### Siehe Auch
+
+* Schnittstelle [IAudioFrame](../../iaudioframe)
+* Klasse [ShapeCollection](../../shapecollection)
+* Namespace [Aspose.Slides](../../shapecollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
+## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
 
-Fügt einen neuen Audioframe mit eingebetteter Audiodatei am Ende einer Sammlung hinzu. Es verwendet eine Audiodatei aus der Presentation.Audios-Liste.
+Fügt am Ende einer Sammlung einen neuen Audio-Frame mit eingebetteter Audiodatei hinzu. Es verwendet die Audiodatei aus der Liste Presentation.Audios.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)
@@ -46,22 +70,22 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Single | X-Koordinate eines neuen Audioframes. |
-| y | Single | Y-Koordinate eines neuen Audiorahmens. |
-| width | Single | Breite eines neuen Audioframes. |
-| height | Single | Höhe eines neuen Audioframes. |
-| audio | IAudio | Audio aus der Presentation.Audios-Liste. |
+| x | Einzel | X-Koordinate eines neuen Audio-Frames. |
+| y | Einzel | Y-Koordinate eines neuen Audio-Frames. |
+| width | Einzel | Breite eines neuen Audio-Frames. |
+| height | Einzel | Höhe eines neuen Audio-Frames. |
+| audio | IAudio | Audio aus der Liste Presentation.Audios. |
 
 ### Rückgabewert
 
 Erstelltes AudioFrame-Objekt.
 
-### Siehe auch
+### Siehe Auch
 
-* interface [IAudioFrame](../../iaudioframe)
-* interface [IAudio](../../iaudio)
-* class [ShapeCollection](../../shapecollection)
-* namensraum [Aspose.Slides](../../shapecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IAudioFrame](../../iaudioframe)
+* Schnittstelle [IAudio](../../iaudio)
+* Klasse [ShapeCollection](../../shapecollection)
+* Namespace [Aspose.Slides](../../shapecollection)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

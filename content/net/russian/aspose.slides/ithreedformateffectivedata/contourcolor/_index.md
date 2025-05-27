@@ -1,22 +1,23 @@
 ---
 title: ContourColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цвет контура. Только для чтенияColor.
+description: Возвращает цвет контура. Только для чтения Color.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ithreedformateffectivedata/contourcolor/
 ---
-## IThreeDFormatEffectiveData.ContourColor property
 
-Возвращает цвет контура. Только для чтенияColor.
+## Свойство IThreeDFormatEffectiveData.ContourColor
+
+Возвращает цвет контура. Только для чтения Color.
 
 ```csharp
 public Color ContourColor { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
+* интерфейс [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * пространство имен [Aspose.Slides](../../ithreedformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

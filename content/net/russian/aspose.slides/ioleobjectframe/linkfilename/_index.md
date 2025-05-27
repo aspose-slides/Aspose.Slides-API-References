@@ -1,14 +1,15 @@
 ---
 title: LinkFileName
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает полный путь к связанному файлу. Будет использоваться короткое имя файла. Только чтениеString.
+description: Возвращает полный путь к связанному файлу. Будет использовано короткое имя файла. Свойство только для чтения типа String.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ioleobjectframe/linkfilename/
 ---
-## IOleObjectFrame.LinkFileName property
 
-Возвращает полный путь к связанному файлу. Будет использоваться короткое имя файла. Только чтениеString.
+## Свойство IOleObjectFrame.LinkFileName
+
+Возвращает полный путь к связанному файлу. Будет использовано короткое имя файла. Свойство только для чтения типа String.
 
 ```csharp
 public string LinkFileName { get; }
@@ -16,7 +17,7 @@ public string LinkFileName { get; }
 
 ### Смотрите также
 
-* interface [IOleObjectFrame](../../ioleobjectframe)
+* интерфейс [IOleObjectFrame](../../ioleobjectframe)
 * пространство имен [Aspose.Slides](../../ioleobjectframe)
 * сборка [Aspose.Slides](../../../)
 

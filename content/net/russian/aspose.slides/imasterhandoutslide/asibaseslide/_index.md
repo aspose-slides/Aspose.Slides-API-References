@@ -1,23 +1,24 @@
 ---
 title: AsIBaseSlide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IBaseSlide. Только для чтенияIBaseSlideaspose.slides/ibaseslide.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IBaseSlide. Только для чтения IBaseSlide aspose.slides/ibaseslide.
 type: docs
 weight: 10
 url: /ru/aspose.slides/imasterhandoutslide/asibaseslide/
 ---
-## IMasterHandoutSlide.AsIBaseSlide property
 
-Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../../ibaseslide).
+## IMasterHandoutSlide.AsIBaseSlide свойство
+
+Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../../ibaseslide).
 
 ```csharp
 public IBaseSlide AsIBaseSlide { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBaseSlide](../../ibaseslide)
-* interface [IMasterHandoutSlide](../../imasterhandoutslide)
+* интерфейс [IBaseSlide](../../ibaseslide)
+* интерфейс [IMasterHandoutSlide](../../imasterhandoutslide)
 * пространство имен [Aspose.Slides](../../imasterhandoutslide)
 * сборка [Aspose.Slides](../../../)
 

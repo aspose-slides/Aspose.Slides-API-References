@@ -1,14 +1,15 @@
 ---
 title: SetFooterAndChildFootersText
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает текст в заполнитель нижнего колонтитула слайда макета и все дочерние заполнители нижнего колонтитула. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда.
+second_title: Aspose.Slides для .NET API Reference
+description: Устанавливает текст для заполнителя нижнего колонтитула слайда макета и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда макета.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext/
 ---
-## ILayoutSlideHeaderFooterManager.SetFooterAndChildFootersText method
 
-Устанавливает текст в заполнитель нижнего колонтитула слайда макета и все дочерние заполнители нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда.
+## ILayoutSlideHeaderFooterManager.SetFooterAndChildFootersText метод
+
+Устанавливает текст для заполнителя нижнего колонтитула слайда макета и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда макета.
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)
@@ -18,9 +19,9 @@ public void SetFooterAndChildFootersText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### Смотрите также
+### См. также
 
-* interface [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
+* интерфейс [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ilayoutslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

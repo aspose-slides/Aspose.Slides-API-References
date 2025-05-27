@@ -1,27 +1,28 @@
 ---
-title: Add
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет в коллекцию новую текстовую анимацию.
+title: Добавить
+second_title: Справочная документация по Aspose.Slides для .NET
+description: Добавляет новую анимацию текста в коллекцию.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/textanimationcollection/add/
 ---
-## TextAnimationCollection.Add method
 
-Добавляет в коллекцию новую текстовую анимацию.
+## Метод TextAnimationCollection.Add
+
+Добавляет новую анимацию текста в коллекцию.
 
 ```csharp
 public TextAnimation Add()
 ```
 
-### Возвращаемое значение
+### Значение, возвращаемое методом
 
-Добавлено` TextAnimation`
+Добавленная `TextAnimation`
 
-### Смотрите также
+### См. также
 
-* class [TextAnimation](../../textanimation)
-* class [TextAnimationCollection](../../textanimationcollection)
+* класс [TextAnimation](../../textanimation)
+* класс [TextAnimationCollection](../../textanimationcollection)
 * пространство имен [Aspose.Slides.Animation](../../textanimationcollection)
 * сборка [Aspose.Slides](../../../)
 

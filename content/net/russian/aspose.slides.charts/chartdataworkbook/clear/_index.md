@@ -1,12 +1,13 @@
 ---
-title: Clear
+title: Очистить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Очистить все значения ячеек на листе
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/chartdataworkbook/clear/
 ---
-## ChartDataWorkbook.Clear method
+
+## Метод ChartDataWorkbook.Clear
 
 Очистить все значения ячеек на листе
 
@@ -18,9 +19,9 @@ public void Clear(int sheetIndex)
 | --- | --- | --- |
 | sheetIndex | Int32 | Индекс листа |
 
-### Смотрите также
+### См. также
 
-* class [ChartDataWorkbook](../../chartdataworkbook)
+* класс [ChartDataWorkbook](../../chartdataworkbook)
 * пространство имен [Aspose.Slides.Charts](../../chartdataworkbook)
 * сборка [Aspose.Slides](../../../)
 

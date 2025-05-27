@@ -1,28 +1,29 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Это предупреждение указывает на то что читаемая презентация имеет подпись и эта подпись будет удалена при обработке.
+second_title: Aspose.Slides для .NET API Reference
+description: Это предупреждение указывает на то, что читаемая презентация имеет подпись, и эта подпись будет удалена во время обработки.
 type: docs
-weight: 10980
+weight: 11480
 url: /ru/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
-## IPresentationSignedWarningInfo interface
 
-Это предупреждение указывает на то, что читаемая презентация имеет подпись и эта подпись будет удалена при обработке.
+## Интерфейс IPresentationSignedWarningInfo
+
+Это предупреждение указывает на то, что читаемая презентация имеет подпись, и эта подпись будет удалена во время обработки.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения [`IWarningInfo`](../iwarninginfo). |
 
 ### Смотрите также
 
-* interface [IWarningInfo](../iwarninginfo)
+* интерфейс [IWarningInfo](../iwarninginfo)
 * пространство имен [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * сборка [Aspose.Slides](../../)
 

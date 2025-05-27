@@ -1,12 +1,13 @@
 ---
-title: Clear
+title: Очистить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все фигуры из коллекции.
 type: docs
 weight: 230
 url: /ru/aspose.slides/shapecollection/clear/
 ---
-## ShapeCollection.Clear method
+
+## Метод ShapeCollection.Clear
 
 Удаляет все фигуры из коллекции.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/shapecollection/clear/
 public void Clear()
 ```
 
-### Смотрите также
+### Также см. 
 
-* class [ShapeCollection](../../shapecollection)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

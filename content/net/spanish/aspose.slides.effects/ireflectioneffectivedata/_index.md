@@ -1,14 +1,15 @@
 ---
 title: IReflectionEffectiveData
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Objeto inmutable que representa un efecto de Reflejo.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Objeto inmutable que representa un efecto de reflexión.
 type: docs
-weight: 3310
+weight: 3390
 url: /es/aspose.slides.effects/ireflectioneffectivedata/
 ---
-## IReflectionEffectiveData interface
 
-Objeto inmutable que representa un efecto de Reflejo.
+## Interfaz IReflectionEffectiveData
+
+Objeto inmutable que representa un efecto de reflexión.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -18,26 +19,26 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData. Solo lectura[`IEffectEffectiveData`](../ieffecteffectivedata) . |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Radio de desenfoque. Solo lecturaDouble . |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Dirección de reflexión. Solo lecturaSingle . |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Distancia de reflexión. Solo lecturaDouble . |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Especifica la posición final (a lo largo de la rampa de gradiente alfa) del valor alfa final (porcentajes). Solo lecturaSingle . |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Fin de la opacidad del reflejo. (porcentajes). Solo lecturaSingle . |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Especifica la dirección para compensar el reflejo. (ángulo). Solo lecturaSingle . |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Alineación de rectángulos. Solo lectura[`RectangleAlignment`](../../aspose.slides/rectanglealignment) . |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Especifica si el reflejo debe girar con la forma si se gira la forma. Solo lecturaBoolean . |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Especifica el factor de escala horizontal, la escala negativa provoca un giro. (porcentajes) Solo lecturaDouble . |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Especifica el factor de escala vertical, la escala negativa provoca un giro. (porcentajes) Solo lecturaDouble . |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Especifica el ángulo de inclinación horizontal. Solo lecturaDouble . |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Especifica el ángulo de inclinación vertical. Solo lecturaDouble . |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Especifica la posición inicial (a lo largo de la rampa de gradiente alfa) del valor alfa inicial (porcentajes). Solo lecturaSingle . |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Opacidad de reflexión inicial. (porcentajes). Solo lecturaSingle . |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData. Solo lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Radio de desenfoque. Solo lectura Double. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Dirección de reflexión. Solo lectura Single. |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Distancia de reflexión. Solo lectura Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Especifica la posición final (a lo largo de la rampa de gradiente alfa) del valor alfa final (porcientos). Solo lectura Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Opacidad de reflexión final. (porcientos). Solo lectura Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Especifica la dirección para desplazar la reflexión. (ángulo). Solo lectura Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Alineación del rectángulo. Solo lectura [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Especifica si la reflexión debe rotar con la forma si la forma es rotada. Solo lectura Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Especifica el factor de escala horizontal, la escala negativa causa un volteo. (porcientos) Solo lectura Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Especifica el factor de escala vertical, la escala negativa causa un volteo. (porcientos) Solo lectura Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Especifica el ángulo de sesgo horizontal. Solo lectura Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Especifica el ángulo de sesgo vertical. Solo lectura Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Especifica la posición inicial (a lo largo de la rampa de gradiente alfa) del valor alfa inicial (porcientos). Solo lectura Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Opacidad de reflexión inicial. (porcientos). Solo lectura Single. |
 
-### Ver también
+### Véase También
 
-* interface [IEffectEffectiveData](../ieffecteffectivedata)
+* interfaz [IEffectEffectiveData](../ieffecteffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
-* asamblea [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

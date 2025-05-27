@@ -1,14 +1,15 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет операцию цвета из коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Удаляет цветовую операцию из коллекции.
 type: docs
 weight: 120
 url: /ru/aspose.slides/coloroperationcollection/removeat/
 ---
-## ColorOperationCollection.RemoveAt method
 
-Удаляет операцию цвета из коллекции.
+## ColorOperationCollection.RemoveAt метод
+
+Удаляет цветовую операцию из коллекции.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,11 +17,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс удаляемой операции цвета. |
+| index | Int32 | Индекс цветовой операции для удаления. |
 
 ### Смотрите также
 
-* class [ColorOperationCollection](../../coloroperationcollection)
+* класс [ColorOperationCollection](../../coloroperationcollection)
 * пространство имен [Aspose.Slides](../../coloroperationcollection)
 * сборка [Aspose.Slides](../../../)
 

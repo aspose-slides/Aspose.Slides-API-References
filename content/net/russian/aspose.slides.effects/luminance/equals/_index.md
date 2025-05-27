@@ -1,14 +1,15 @@
 ---
-title: Equals
+title: Равенство
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйLuminanceaspose.slides.effects/luminanceтекущемуЯркость.
+description: Определяет, равен ли указанный Luminanceaspose.slides.effects/luminance текущему Luminanceaspose.slides.effects/luminance.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/luminance/equals/
 ---
-## Luminance.Equals method
 
-Определяет, равен ли указанный[`Luminance`](../../luminance)текущемуЯркость.
+## Метод Luminance.Equals
+
+Определяет, равен ли указанный [`Luminance`](../../luminance) текущему [`Luminance`](../../luminance).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`Luminance`](../../luminance)для сравнения. |
+| obj | Object | [`Luminance`](../../luminance) для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае ложно.
+true, если объекты равны; в противном случае false.
 
 ### Смотрите также
 
-* class [Luminance](../../luminance)
+* класс [Luminance](../../luminance)
 * пространство имен [Aspose.Slides.Effects](../../luminance)
 * сборка [Aspose.Slides](../../../)
 

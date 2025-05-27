@@ -1,14 +1,15 @@
 ---
-title: Saturation
+title: Насыщенность
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает компонент насыщенности цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/записьSingle.
+description: Возвращает или задает компонент насыщенности цвета в представлении HSL. Все цветовые преобразования игнорируются. Читаемый/записываемый тип Single.
 type: docs
 weight: 130
 url: /ru/aspose.slides/colorformat/saturation/
 ---
-## ColorFormat.Saturation property
 
-Возвращает или устанавливает компонент насыщенности цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/записьSingle.
+## Св Property ColorFormat.Saturation
+
+Возвращает или задает компонент насыщенности цвета в представлении HSL. Все цветовые преобразования игнорируются. Читаемый/записываемый тип Single.
 
 ```csharp
 public float Saturation { get; set; }
@@ -16,7 +17,7 @@ public float Saturation { get; set; }
 
 ### Смотрите также
 
-* class [ColorFormat](../../colorformat)
+* класс [ColorFormat](../../colorformat)
 * пространство имен [Aspose.Slides](../../colorformat)
 * сборка [Aspose.Slides](../../../)
 

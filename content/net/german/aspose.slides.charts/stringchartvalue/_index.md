@@ -1,14 +1,15 @@
 ---
 title: StringChartValue
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Stellt einen Zeichenfolgenwert dar der auf zwei Arten im PPTXPräsentationsdokument gespeichert werden kann 1 in Zelle/Zellen der Arbeitsmappe die sich auf das Diagramm bezieht 2 als Literalwert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt einen Zeichenfolgenwert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann: 1 in Zelle/Zellen der Arbeitsmappe, die mit dem Diagramm verbunden sind; 2 als Literalwert.
 type: docs
-weight: 2290
+weight: 2330
 url: /de/aspose.slides.charts/stringchartvalue/
 ---
-## StringChartValue class
 
-Stellt einen Zeichenfolgenwert dar, der auf zwei Arten im PPTX-Präsentationsdokument gespeichert werden kann: 1) in Zelle/Zellen der Arbeitsmappe, die sich auf das Diagramm bezieht; 2) als Literalwert.
+## StringChartValue-Klasse
+
+Stellt einen Zeichenfolgenwert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen der Arbeitsmappe, die mit dem Diagramm verbunden sind; 2) als Literalwert.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -18,24 +19,24 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Das Zuweisen von Nullwerten ist nicht zulässig. Der Rückgabewert ist immer nicht null. Lesen/Schreiben[`IChartCellCollection`](../ichartcellcollection) . |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Gibt den Wert als Literalzeichenfolge zurück oder legt ihn fest. Lesen/SchreibenString . |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Gibt das Datenobjekt zurück oder setzt es. Lesen/SchreibenObject . |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Gibt an, ob die AsCell-, AsCells-, AsLiteralString- oder AsLiteralDouble-Eigenschaft tatsächlich in Nachkommen vorhanden ist. Mit anderen Worten, es gibt den Typ des Wertes der Data-Eigenschaft an. Lesen/Schreiben[`DataSourceType`](../datasourcetype) . |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Das Zuweisen eines Nullwerts ist nicht erlaubt. Der zurückgegebene Wert ist immer nicht null. Lese-/Schreibzugriff [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Gibt den Wert als Literalzeichenfolge zurück oder setzt ihn. Lese-/Schreibzugriff String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Gibt das Data-Objekt zurück oder setzt es. Lese-/Schreibzugriff Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Gibt an, ob die Eigenschaften AsCell, AsCells, AsLiteralString oder AsLiteralDouble in den Nachfahren aktuell sind. Mit anderen Worten, es spezifiziert den Typ des Wertes der Data-Eigenschaft. Lese-/Schreibzugriff [`DataSourceType`](../datasourcetype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Wenn die DataSourceType-Eigenschaft DataSourceType.Worksheet ist, gibt diese Methode address der Zellen in der Arbeitsmappe zurück, die die Zeichenfolgendaten darstellen. Andernfalls return leere Zeichenfolge. |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Legt den Wert aus der angegebenen Zelle fest. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Gibt Zeichenfolgenwertdaten zurück. Null zurückgeben, wenn DataSourceType falsch ist und kein Zeichenfolgenwert zugewiesen wurde. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Wenn die DataSourceType-Eigenschaft DataSourceType.Worksheet ist, gibt diese Methode die Adresse der Zellen in der Arbeitsmappe zurück, die die Zeichendaten darstellen. Andernfalls wird eine leere Zeichenfolge zurückgegeben. |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Setzt den Wert aus der angegebenen Zelle. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Gibt die Daten des Zeichenfolgenwerts zurück. Gibt null zurück, wenn DataSourceType falsch ist und kein Zeichenfolgenwert zugewiesen wurde. |
 
 ### Siehe auch
 
-* class [BaseChartValue](../basechartvalue)
-* interface [IStringChartValue](../istringchartvalue)
-* namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Montage [Aspose.Slides](../../)
+* Klasse [BaseChartValue](../basechartvalue)
+* Schnittstelle [IStringChartValue](../istringchartvalue)
+* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

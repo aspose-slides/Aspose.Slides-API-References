@@ -1,12 +1,13 @@
 ---
 title: GetOrCreateByValue
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Ищет существующее свойство поведения по значению или создает новое пользовательское с указанным значением
 type: docs
 weight: 1220
 url: /ru/aspose.slides.animation/behaviorproperty/getorcreatebyvalue/
 ---
-## BehaviorProperty.GetOrCreateByValue method
+
+## BehaviorProperty.GetOrCreateByValue метод
 
 Ищет существующее свойство поведения по значению или создает новое пользовательское с указанным значением
 
@@ -22,9 +23,9 @@ public static BehaviorProperty GetOrCreateByValue(string propertyValue)
 
 экземпляр BehaviorProperty
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: AddAudioFrameCD
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет AudioFrame с компакт-диском в конец коллекции.
+second_title: Справочник API Aspose.Slides для .NET
+description: Добавляет AudioFrame с CD в конец коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/shapecollection/addaudioframecd/
 ---
-## ShapeCollection.AddAudioFrameCD method
 
-Добавляет AudioFrame с компакт-диском в конец коллекции.
+## Метод ShapeCollection.AddAudioFrameCD
+
+Добавляет AudioFrame с CD в конец коллекции.
 
 ```csharp
 public IAudioFrame AddAudioFrameCD(float x, float y, float width, float height)
@@ -16,19 +17,19 @@ public IAudioFrame AddAudioFrameCD(float x, float y, float width, float height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового звукового кадра. |
-| y | Single | Координата Y нового звукового кадра. |
-| width | Single | Ширина нового звукового кадра. |
-| height | Single | Высота нового звукового кадра. |
+| x | Single | X-координата нового аудиокадра. |
+| y | Single | Y-координата нового аудиокадра. |
+| width | Single | Ширина нового аудиокадра. |
+| height | Single | Высота нового аудиокадра. |
 
 ### Возвращаемое значение
 
-Создан объект AudioFrame.
+Созданный объект AudioFrame.
 
 ### Смотрите также
 
-* interface [IAudioFrame](../../iaudioframe)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IAudioFrame](../../iaudioframe)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

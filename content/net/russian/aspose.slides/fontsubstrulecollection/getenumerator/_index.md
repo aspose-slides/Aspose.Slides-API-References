@@ -1,12 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides/fontsubstrulecollection/getenumerator/
 ---
-## FontSubstRuleCollection.GetEnumerator method
+
+## FontSubstRuleCollection.GetEnumerator метод
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -16,12 +17,12 @@ public IEnumerator<IFontSubstRule> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для перебора коллекции.
 
-### Смотрите также
+### См. Также
 
-* interface [IFontSubstRule](../../ifontsubstrule)
-* class [FontSubstRuleCollection](../../fontsubstrulecollection)
+* интерфейс [IFontSubstRule](../../ifontsubstrule)
+* класс [FontSubstRuleCollection](../../fontsubstrulecollection)
 * пространство имен [Aspose.Slides](../../fontsubstrulecollection)
 * сборка [Aspose.Slides](../../../)
 

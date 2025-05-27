@@ -1,23 +1,24 @@
 ---
 title: ShapeLock
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает блокировки фигуры. Только для чтенияIBaseShapeLockaspose.slides/ibaseshapelock.
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает блокировки фигур. Только для чтения IBaseShapeLock aspose.slides/ibaseshapelock.
 type: docs
-weight: 240
+weight: 250
 url: /ru/aspose.slides/shape/shapelock/
 ---
-## Shape.ShapeLock property
 
-Возвращает блокировки фигуры. Только для чтения[`IBaseShapeLock`](../../ibaseshapelock).
+## Свойство Shape.ShapeLock
+
+Возвращает блокировки фигуры. Только для чтения [`IBaseShapeLock`](../../ibaseshapelock).
 
 ```csharp
 public IBaseShapeLock ShapeLock { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBaseShapeLock](../../ibaseshapelock)
-* class [Shape](../../shape)
+* интерфейс [IBaseShapeLock](../../ibaseshapelock)
+* класс [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
-title: Equals
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равны ли два экземпляра ColorOperation.
+title: Равенство
+second_title: Aspose.Slides для .NET Справочник по API
+description: Определяет, равны ли два экземпляра ColorOperation.
 type: docs
 weight: 40
 url: /ru/aspose.slides/coloroperation/equals/
 ---
-## ColorOperation.Equals method
+
+## Метод ColorOperation.Equals
 
 Определяет, равны ли два экземпляра ColorOperation.
 
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | ColorOperation для сравнения с текущей ColorOperation. |
+| obj | Object | ColorOperation для сравнения с текущим экземпляром ColorOperation. |
 
 ### Возвращаемое значение
 
-**true** если указанная ColorOperation равна текущей ColorOperation; иначе, **false** .
+**true**, если указанный ColorOperation равен текущему ColorOperation; в противном случае **false**.
 
-### Смотрите также
+### Также смотрите
 
-* class [ColorOperation](../../coloroperation)
+* класс [ColorOperation](../../coloroperation)
 * пространство имен [Aspose.Slides](../../coloroperation)
 * сборка [Aspose.Slides](../../../)
 

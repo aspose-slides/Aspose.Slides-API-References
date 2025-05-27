@@ -1,14 +1,15 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет пользовательскую часть xml по указанному индексу.
+second_title: Ссылка по API Aspose.Slides для .NET
+description: Удаляет пользовательскую часть xml по заданному индексу.
 type: docs
 weight: 100
 url: /ru/aspose.slides/customxmlpartcollection/removeat/
 ---
-## CustomXmlPartCollection.RemoveAt method
 
-Удаляет пользовательскую часть xml по указанному индексу.
+## Метод CustomXmlPartCollection.RemoveAt
+
+Удаляет пользовательскую часть xml по заданному индексу.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,17 +17,17 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
+| index | Int32 | Нулевой индекс элемента, который необходимо удалить. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | index меньше 0.-или-index равен или больше Count |
+| ArgumentOutOfRangeException | индекс меньше 0 или индекс равен или больше Count |
 
-### Смотрите также
+### См. Также
 
-* class [CustomXmlPartCollection](../../customxmlpartcollection)
+* класс [CustomXmlPartCollection](../../customxmlpartcollection)
 * пространство имен [Aspose.Slides](../../customxmlpartcollection)
 * сборка [Aspose.Slides](../../../)
 

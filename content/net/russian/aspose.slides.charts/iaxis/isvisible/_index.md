@@ -1,22 +1,23 @@
 ---
 title: IsVisible
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает видна ли ось. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет, видима ли ось. Читаемое/Записываемое логическое значение.
 type: docs
 weight: 310
 url: /ru/aspose.slides.charts/iaxis/isvisible/
 ---
-## IAxis.IsVisible property
 
-Указывает, видна ли ось. Чтение/записьBoolean.
+## IAxis.IsVisible свойство
+
+Представляет, видима ли ось. Читаемое/Записываемое логическое значение.
 
 ```csharp
 public bool IsVisible { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAxis](../../iaxis)
+* интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

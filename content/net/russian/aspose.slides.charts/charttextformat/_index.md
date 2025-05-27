@@ -1,37 +1,38 @@
 ---
 title: ChartTextFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает форматирование текста по умолчанию для текстовых элементов диаграммы.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает форматирование текста по умолчанию для текстовых элементов диаграммы.
 type: docs
-weight: 1340
+weight: 1400
 url: /ru/aspose.slides.charts/charttextformat/
 ---
-## ChartTextFormat class
 
-Задает форматирование текста по умолчанию для текстовых элементов диаграммы.
+## Класс ChartTextFormat
+
+Указывает форматирование текста по умолчанию для текстовых элементов диаграммы.
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | Формат абзаца. Только для чтения[`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | Формат порции. Только для чтения[`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Только для чтения[`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | Формат абзаца. Только для чтения [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | Формат части. Только для чтения [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | Формат текстового блока. Только для чтения [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Копирует текстовый формат из указанного текстового фрейма. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Копирует текстовый формат в указанный текстовый фрейм. |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Копирует формат текста из указанного текстового фрейма. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Копирует формат текста в указанный текстовый фрейм. |
 
 ### Смотрите также
 
-* interface [IChartTextFormat](../icharttextformat)
+* интерфейс [IChartTextFormat](../icharttextformat)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

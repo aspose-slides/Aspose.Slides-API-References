@@ -1,22 +1,23 @@
 ---
 title: IsNoEffects
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true если все эффекты отключены как только что созданный объект EffectFormat по умолчанию. Только чтениеBoolean.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает true, если все эффекты отключены, как только создан объект EffectFormat по умолчанию. Только для чтения булевый.
 type: docs
 weight: 50
 url: /ru/aspose.slides/effectformat/isnoeffects/
 ---
-## EffectFormat.IsNoEffects property
 
-Возвращает true, если все эффекты отключены (как только что созданный объект EffectFormat по умолчанию). Только чтениеBoolean.
+## Свойство EffectFormat.IsNoEffects
+
+Возвращает true, если все эффекты отключены (как только создан, объект EffectFormat по умолчанию). Только для чтения булевый.
 
 ```csharp
 public bool IsNoEffects { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [EffectFormat](../../effectformat)
+* класс [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

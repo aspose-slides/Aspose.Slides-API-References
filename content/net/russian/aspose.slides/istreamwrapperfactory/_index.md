@@ -1,14 +1,15 @@
 ---
 title: IStreamWrapperFactory
-second_title: Справочник по API Aspose.Slides для .NET
-description: Фабрика StreamWrappers. Для COM-интерфейса.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Фабрика StreamWrappers. Для COM интерфейса.
 type: docs
-weight: 6560
+weight: 6920
 url: /ru/aspose.slides/istreamwrapperfactory/
 ---
-## IStreamWrapperFactory interface
 
-Фабрика StreamWrappers. Для COM-интерфейса.
+## Интерфейс IStreamWrapperFactory
+
+Фабрика StreamWrappers. Для COM интерфейса.
 
 ```csharp
 public interface IStreamWrapperFactory
@@ -16,14 +17,14 @@ public interface IStreamWrapperFactory
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Создает FileStream с указанным путем и режимом создания. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Создает FileStream с указанным путем, режимом создания и разрешением на чтение/запись. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Создает оболочку MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Создает оболочку MemoryStream на основе указанного массива байтов. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Создает FileStream с указанным путем, режимом создания и правами на чтение/запись. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Создает обертку MemoryStream. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Создает обертку MemoryStream на основе указанного массива байтов. |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

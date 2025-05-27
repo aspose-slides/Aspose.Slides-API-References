@@ -1,14 +1,15 @@
 ---
 title: TransitionFps
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или устанавливает FPS перехода кадры/сек Значение по умолчанию равно 25.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает или устанавливает переход FPS кадры/сек. Значение по умолчанию - 25.
 type: docs
 weight: 50
 url: /ru/aspose.slides.export/gifoptions/transitionfps/
 ---
-## GifOptions.TransitionFps property
 
-Получает или устанавливает FPS перехода [кадры/сек] Значение по умолчанию равно 25.
+## Свойство GifOptions.TransitionFps
+
+Получает или устанавливает переход FPS [кадры/сек]. Значение по умолчанию - 25.
 
 ```csharp
 public int TransitionFps { get; set; }
@@ -24,9 +25,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* class [GifOptions](../../gifoptions)
+* класс [GifOptions](../../gifoptions)
 * пространство имен [Aspose.Slides.Export](../../gifoptions)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
-title: Compress
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет группу методов предназначенных для сжатияPresentation../aspose.slides/presentation.
+title: Сжатие
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет собой группу методов, предназначенных для сжатия Presentation../aspose.slides/presentation.
 type: docs
-weight: 7170
+weight: 7630
 url: /ru/aspose.slides.lowcode/compress/
 ---
-## Compress class
 
-Представляет группу методов, предназначенных для сжатия[`Presentation`](../../aspose.slides/presentation).
+## Класс Compress
+
+Представляет собой группу методов, предназначенных для сжатия [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Compress
@@ -16,10 +17,11 @@ public static class Compress
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Выполняет сжатие[`Presentation`](../../aspose.slides/presentation)путем удаления неиспользуемых слайдов макета. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Выполняет сжатие[`Presentation`](../../aspose.slides/presentation)путем удаления неиспользуемых мастер-слайдов. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Выполняет сжатие [`Presentation`](../../aspose.slides/presentation) путем удаления неиспользуемых символов из встроенных шрифтов. |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Выполняет сжатие [`Presentation`](../../aspose.slides/presentation) путем удаления неиспользуемых макетов слайдов. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Выполняет сжатие [`Presentation`](../../aspose.slides/presentation) путем удаления неиспользуемых мастер-слайдов. |
 
 ### Примеры
 
@@ -32,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * сборка [Aspose.Slides](../../)

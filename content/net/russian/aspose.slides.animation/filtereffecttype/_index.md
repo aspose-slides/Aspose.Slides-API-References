@@ -1,12 +1,13 @@
 ---
 title: FilterEffectType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет типы эффектов фильтра.
 type: docs
-weight: 300
+weight: 320
 url: /ru/aspose.slides.animation/filtereffecttype/
 ---
-## FilterEffectType enumeration
+
+## Перечисление FilterEffectType
 
 Представляет типы эффектов фильтра.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/filtereffecttype/
 public enum FilterEffectType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | None | `0` |  |
 | Barn | `1` |  |
@@ -38,7 +39,7 @@ public enum FilterEffectType
 | Wheel | `17` |  |
 | Wipe | `18` |  |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

@@ -1,12 +1,13 @@
 ---
 title: IColorScheme
-second_title: Aspose.Slides für .NET-API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Speichert themendefinierte Farben.
 type: docs
-weight: 10400
+weight: 10840
 url: /de/aspose.slides.theme/icolorscheme/
 ---
-## IColorScheme interface
+
+## IColorScheme-Schnittstelle
 
 Speichert themendefinierte Farben.
 
@@ -18,25 +19,25 @@ public interface IColorScheme : ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Erste Akzentfarbe im Schema. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Zweite Akzentfarbe im Schema. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Dritte Akzentfarbe im Schema. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Vierte Akzentfarbe im Schema. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Fünfte Akzentfarbe im Schema. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Sechste Akzentfarbe im Schema. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Gibt die ISlideComponent-Schnittstelle zurück. Schreibgeschützt[`ISlideComponent`](../../aspose.slides/islidecomponent) . |
-| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Erste dunkle Farbe im Schema. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Zweite dunkle Farbe im Schema. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Farbe für die besuchten Hyperlinks. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Farbe für die Hyperlinks. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Ruft das Element am angegebenen Index ab. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Erste Lichtfarbe im Schema. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Zweite Lichtfarbe im Schema. Read-only[`IColorFormat`](../../aspose.slides/icolorformat) . |
+| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Erste Akzentfarbe im Schema. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Zweite Akzentfarbe im Schema. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Dritte Akzentfarbe im Schema. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Vierte Akzentfarbe im Schema. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Fünfte Akzentfarbe im Schema. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Sechste Akzentfarbe im Schema. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Gibt die ISlideComponent-Schnittstelle zurück. Schreibgeschützt [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Erste dunkle Farbe im Schema. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Zweite dunkle Farbe im Schema. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Farbe für besuchte Hyperlinks. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Farbe für Hyperlinks. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Gibt das Element am angegebenen Index zurück. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Erste helle Farbe im Schema. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Zweite helle Farbe im Schema. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Siehe auch
 
-* interface [ISlideComponent](../../aspose.slides/islidecomponent)
-* namensraum [Aspose.Slides.Theme](../../aspose.slides.theme)
-* Montage [Aspose.Slides](../../)
+* Schnittstelle [ISlideComponent](../../aspose.slides/islidecomponent)
+* Namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

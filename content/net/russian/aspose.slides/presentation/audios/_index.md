@@ -1,23 +1,40 @@
 ---
-title: Audios
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только чтениеIAudioCollectionaspose.slides/iaudiocollection.
+title: Аудио
+second_title: Справочник API Aspose.Sildes для .NET
+description: Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только для чтения IAudioCollection aspose.slides/iaudiocollection.
 type: docs
 weight: 30
 url: /ru/aspose.slides/presentation/audios/
 ---
-## Presentation.Audios property
 
-Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только чтение[`IAudioCollection`](../../iaudiocollection).
+## Свойство Presentation.Audios
+
+Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только для чтения [`IAudioCollection`](../../iaudiocollection).
 
 ```csharp
 public IAudioCollection Audios { get; }
 ```
 
+### Примеры
+
+В следующих примерах показано, как добавить гиперссылку к аудиофайлу.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("audio.mp3"));
+    IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(10, 10, 100, 100, audio);
+    audioFrame.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+    audioFrame.HyperlinkClick.Tooltip = "Более 70% компаний из списка Fortune 100 доверяют API Aspose";
+    pres.Save("pres-out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### Смотрите также
 
-* interface [IAudioCollection](../../iaudiocollection)
-* class [Presentation](../../presentation)
+* интерфейс [IAudioCollection](../../iaudiocollection)
+* класс [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

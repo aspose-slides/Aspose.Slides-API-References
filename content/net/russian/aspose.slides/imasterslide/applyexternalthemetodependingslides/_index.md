@@ -1,14 +1,15 @@
 ---
 title: ApplyExternalThemeToDependingSlides
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый мастер-слайд на основе текущего применяя к нему внешнюю тему и применяет созданный мастер-слайд ко всем зависимым слайдам.
+second_title: Aspose.Slildes для .NET API Справочник
+description: Создает новый основной слайд на основе текущего, применяя к нему внешний шаблон, и применяет созданный основной слайд ко всем зависимым слайдам.
 type: docs
 weight: 100
 url: /ru/aspose.slides/imasterslide/applyexternalthemetodependingslides/
 ---
-## IMasterSlide.ApplyExternalThemeToDependingSlides method
 
-Создает новый мастер-слайд на основе текущего, применяя к нему внешнюю тему и применяет созданный мастер-слайд ко всем зависимым слайдам.
+## IMasterSlide.ApplyExternalThemeToDependingSlides метод
+
+Создает новый основной слайд на основе текущего, применяя к нему внешний шаблон, и применяет созданный основной слайд ко всем зависимым слайдам.
 
 ```csharp
 public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
@@ -16,21 +17,21 @@ public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fname | String | Путь к файлу внешней темы (.thmx). |
+| fname | String | Путь к файлу внешнего шаблона (.thmx). |
 
 ### Возвращаемое значение
 
-Новый тематический MasterSlide.
+Новый основной слайд с темой.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [PptxReadException](../../pptxreadexception) | Когда нельзя применить внешнюю тему. |
+| [PptxReadException](../../pptxreadexception) | Когда внешний шаблон не может быть применен. |
 
-### Смотрите также
+### См. также
 
-* interface [IMasterSlide](../../imasterslide)
+* интерфейс [IMasterSlide](../../imasterslide)
 * пространство имен [Aspose.Slides](../../imasterslide)
 * сборка [Aspose.Slides](../../../)
 

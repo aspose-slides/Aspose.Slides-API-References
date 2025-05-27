@@ -1,22 +1,23 @@
 ---
 title: LineArrowheadStyle
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет стиль наконечника стрелки.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет стиль наконечника стрелы.
 type: docs
-weight: 7040
+weight: 7500
 url: /ru/aspose.slides/linearrowheadstyle/
 ---
-## LineArrowheadStyle enumeration
 
-Представляет стиль наконечника стрелки.
+## Перечисление LineArrowheadStyle
+
+Представляет стиль наконечника стрелы.
 
 ```csharp
 public enum LineArrowheadStyle : sbyte
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

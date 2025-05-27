@@ -1,22 +1,23 @@
 ---
-title: Bottom
+title: Нижний
 second_title: Справочник по API Aspose.Slides для .NET
-description: Снизу. Только для чтенияSingle.
+description: Нижний. Свойство только для чтения типа Single.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/legend/bottom/
 ---
-## Legend.Bottom property
 
-Снизу. Только для чтенияSingle.
+## Свойство Legend.Bottom
+
+Нижний. Свойство только для чтения типа Single.
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### Смотрите также
+### Также см.  
 
-* class [Legend](../../legend)
+* класс [Legend](../../legend)
 * пространство имен [Aspose.Slides.Charts](../../legend)
 * сборка [Aspose.Slides](../../../)
 

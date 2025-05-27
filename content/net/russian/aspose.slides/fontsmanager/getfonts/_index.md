@@ -1,27 +1,28 @@
 ---
 title: GetFonts
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает шрифты использованные в презентации
+description: Возвращает шрифты, используемые в презентации
 type: docs
-weight: 50
+weight: 70
 url: /ru/aspose.slides/fontsmanager/getfonts/
 ---
-## FontsManager.GetFonts method
 
-Возвращает шрифты, использованные в презентации
+## FontsManager.GetFonts метод
+
+Возвращает шрифты, используемые в презентации
 
 ```csharp
 public IFontData[] GetFonts()
 ```
 
-### Возвращаемое значение
+### Возвращаемое Значение
 
 Массив шрифтов
 
-### Смотрите также
+### См. Также
 
-* interface [IFontData](../../ifontdata)
-* class [FontsManager](../../fontsmanager)
+* интерфейс [IFontData](../../ifontdata)
+* класс [FontsManager](../../fontsmanager)
 * пространство имен [Aspose.Slides](../../fontsmanager)
 * сборка [Aspose.Slides](../../../)
 

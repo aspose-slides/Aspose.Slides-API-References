@@ -1,14 +1,15 @@
 ---
 title: NormalViewProperties
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les propriétés de vue normales. La vue normale se compose de trois zones de contenu  la diapositive ellemême une zone de contenu latérale et une zone de contenu inférieure.
+second_title: Aspose.Slides pour la référence API .NET
+description: Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu : la diapositive elle-même, une région de contenu latérale et une région de contenu inférieure.
 type: docs
-weight: 8410
+weight: 8840
 url: /fr/aspose.slides/normalviewproperties/
 ---
-## NormalViewProperties class
 
-Représente les propriétés de vue normales. La vue normale se compose de trois zones de contenu : la diapositive elle-même, une zone de contenu latérale et une zone de contenu inférieure.
+## Classe NormalViewProperties
+
+Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu : la diapositive elle-même, une région de contenu latérale et une région de contenu inférieure.
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -16,20 +17,38 @@ public class NormalViewProperties : INormalViewProperties
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Spécifie l'état dans lequel la barre de séparation horizontale doit être affichée. Une barre de séparation horizontale sépare la diapositive de la zone de contenu sous la diapositive. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Spécifie si l'utilisateur préfère voir une zone de contenu unique pleine fenêtre plutôt que la vue normale standard avec trois zones de contenu. Si cette option est activée, l'application peut choisir d'afficher l'une des zones de contenu dans toute la fenêtre. Lecture/écritureBoolean . |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Cet élément spécifie le dimensionnement de la région de contenu latérale de la vue normale, lorsque la région est d'une taille restaurée variable (ni minimisée ni maximisée). Lecture seule[`INormalViewRestoredProperties`](../inormalviewrestoredproperties) . |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Cet élément spécifie le dimensionnement de la région supérieure de la diapositive de la vue normale, lorsque la région est d'une taille restaurée variable (ni minimisée ni maximisée). Lecture seule[`INormalViewRestoredProperties`](../inormalviewrestoredproperties) . |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Spécifie si l'application doit afficher des icônes si le contenu du plan est affiché dans n'importe laquelle des régions de contenu du mode d'affichage normal. Lecture/écritureBoolean . |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Spécifie si le séparateur vertical doit s'aligner sur un état réduit lorsque la région side est suffisamment petite. Lecture/écritureBoolean . |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Spécifie l'état dans lequel la barre de séparation verticale doit être affichée. Une barre de séparation verticale sépare la diapositive de la zone de contenu latérale. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Spécifie l'état dans lequel la barre de séparation horizontale doit être affichée. Une barre de séparation horizontale sépare la diapositive de la région de contenu en dessous de la diapositive. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Spécifie si l'utilisateur préfère voir une région de contenu unique en plein écran plutôt que la vue normale standard avec trois régions de contenu. Si activé, l'application peut choisir d'afficher l'une des régions de contenu dans l'ensemble de la fenêtre. Booléen en lecture/écriture. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Cet élément spécifie la taille de la région de contenu latérale de la vue normale, lorsque la région a une taille restaurée variable (ni minimisée ni maximisée). Lecture seule [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Cet élément spécifie la taille de la région supérieure de la diapositive de la vue normale, lorsque la région a une taille restaurée variable (ni minimisée ni maximisée). Lecture seule [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Spécifie si l'application doit afficher des icônes lors de l'affichage de contenu d'outline dans l'une des régions de contenu du mode de vue normale. Booléen en lecture/écriture. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Spécifie si le séparateur vertical doit s'accrocher à un état minimisé lorsque la région latérale est suffisamment petite. Booléen en lecture/écriture. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Spécifie l'état dans lequel la barre de séparation verticale doit être affichée. Une barre de séparation verticale sépare la diapositive de la région de contenu latérale. |
 
-### Voir également
+### Exemples
+
+L'exemple suivant montre comment configurer les propriétés ViewProperties.NormalViewProperties d'une présentation PowerPoint.
+
+```csharp
+[C#]
+//Instancier un objet de présentation représentant un fichier de présentation
+using (Presentation pres = new Presentation("demo.pptx"))
+{
+    pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;
+    pres.ViewProperties.NormalViewProperties.VerticalBarState = SplitterBarStateType.Maximized;
+    pres.ViewProperties.NormalViewProperties.RestoredTop.AutoAdjust = true;
+    pres.ViewProperties.NormalViewProperties.RestoredTop.DimensionSize = 80;
+    pres.ViewProperties.NormalViewProperties.ShowOutlineIcons = true;
+    pres.Save("presentation_normal_view_state.pptx", SaveFormat.Pptx);
+}
+```
+
+### Voir aussi
 
 * interface [INormalViewProperties](../inormalviewproperties)
 * espace de noms [Aspose.Slides](../../aspose.slides)
-* Assemblée [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

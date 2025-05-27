@@ -1,23 +1,24 @@
 ---
-title: Format
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат легенды. Только для чтенияIFormataspose.slides.charts/iformat.
+title: Формат
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает формат легенды. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/legend/format/
 ---
-## Legend.Format property
 
-Возвращает формат легенды. Только для чтения[`IFormat`](../../iformat).
+## Свойство Legend.Format
+
+Возвращает формат легенды. Только для чтения [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFormat](../../iformat)
-* class [Legend](../../legend)
+* интерфейс [IFormat](../../iformat)
+* класс [Legend](../../legend)
 * пространство имен [Aspose.Slides.Charts](../../legend)
 * сборка [Aspose.Slides](../../../)
 

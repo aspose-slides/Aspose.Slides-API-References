@@ -1,23 +1,24 @@
 ---
-title: Value
-second_title: Справочник по API Aspose.Slides для .NET
-description: Значение перехода слайд-шоу. Только для чтенияITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
+title: Значение
+second_title: Справка по API Aspose.Sldes для .NET
+description: Значение перехода слайд-шоу. Только для чтения ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
 type: docs
-weight: 100
+weight: 110
 url: /ru/aspose.slides/islideshowtransition/value/
 ---
-## ISlideShowTransition.Value property
 
-Значение перехода слайд-шоу. Только для чтения[`ITransitionValueBase`](../../../aspose.slides.slideshow/itransitionvaluebase).
+## Свойство ISlideShowTransition.Value
+
+Значение перехода слайд-шоу. Только для чтения [`ITransitionValueBase`](../../../aspose.slides.slideshow/itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase Value { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITransitionValueBase](../../../aspose.slides.slideshow/itransitionvaluebase)
-* interface [ISlideShowTransition](../../islideshowtransition)
+* интерфейс [ITransitionValueBase](../../../aspose.slides.slideshow/itransitionvaluebase)
+* интерфейс [ISlideShowTransition](../../islideshowtransition)
 * пространство имен [Aspose.Slides](../../islideshowtransition)
 * сборка [Aspose.Slides](../../../)
 

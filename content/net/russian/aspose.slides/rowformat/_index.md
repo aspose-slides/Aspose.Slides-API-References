@@ -1,30 +1,31 @@
 ---
 title: RowFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Представляет формат строки таблицы.
 type: docs
-weight: 9000
+weight: 9460
 url: /ru/aspose.slides/rowformat/
 ---
-## RowFormat class
+
+## Класс RowFormat
 
 Представляет формат строки таблицы.
 
 ```csharp
-public class RowFormat : DomObject<Row>, IRowFormat
+public sealed class RowFormat : DomObject<Row>, IRowFormat
 ```
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Получает эффективные свойства форматирования строк таблицы с применением стилей наследования и таблиц. |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Получает эффективные свойства форматирования строки таблицы с применением наследования и стилей таблицы. |
 
-### Смотрите также
+### См. также
 
-* class [DomObject&lt;TParent&gt;](../domobject-1)
-* class [Row](../row)
-* interface [IRowFormat](../irowformat)
+* класс [DomObject&lt;TParent&gt;](../domobject-1)
+* класс [Row](../row)
+* интерфейс [IRowFormat](../irowformat)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

@@ -1,14 +1,15 @@
 ---
 title: VbaProjectFactory
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создать проект VBA через COM-интерфейс
+second_title: Aspose.Slildes для .NET API Справочник
+description: Позволяет создавать VBA проект через COM интерфейс
 type: docs
-weight: 10850
+weight: 11350
 url: /ru/aspose.slides.vba/vbaprojectfactory/
 ---
-## VbaProjectFactory class
 
-Позволяет создать проект VBA через COM-интерфейс
+## Класс VbaProjectFactory
+
+Позволяет создавать VBA проект через COM интерфейс
 
 ```csharp
 public class VbaProjectFactory : IVbaProjectFactory
@@ -16,26 +17,26 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [VbaProjectFactory](vbaprojectfactory)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Статический экземпляр фабрики проектов VBA. Только для чтения[`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Статический экземпляр фабрики VBA проектов. Только для чтения [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Создает новый проект VBA. |
-| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Читает проект VBA из контейнера OLE. |
+| [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Создает новый VBA проект. |
+| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Читает VBA проект из OLE контейнера. |
 
-### Смотрите также
+### См. также
 
-* interface [IVbaProjectFactory](../ivbaprojectfactory)
+* интерфейс [IVbaProjectFactory](../ivbaprojectfactory)
 * пространство имен [Aspose.Slides.Vba](../../aspose.slides.vba)
 * сборка [Aspose.Slides](../../)
 

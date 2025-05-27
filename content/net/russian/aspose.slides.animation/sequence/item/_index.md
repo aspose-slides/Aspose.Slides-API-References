@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает эффект по указанному индексу.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/sequence/item/
 ---
-## Sequence indexer
+
+## Индексатор последовательности
 
 Возвращает эффект по указанному индексу.
 
@@ -18,10 +19,10 @@ public IEffect this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Смотрите также
+### См. также
 
-* interface [IEffect](../../ieffect)
-* class [Sequence](../../sequence)
+* интерфейс [IEffect](../../ieffect)
+* класс [Sequence](../../sequence)
 * пространство имен [Aspose.Slides.Animation](../../sequence)
 * сборка [Aspose.Slides](../../../)
 

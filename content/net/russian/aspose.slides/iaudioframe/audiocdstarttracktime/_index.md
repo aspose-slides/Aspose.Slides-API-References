@@ -1,22 +1,23 @@
 ---
 title: AudioCdStartTrackTime
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает время начала трека. Чтение/записьInt32.
+description: Возвращает или задает время начала трека. Доступ на чтение/запись Int32.
 type: docs
 weight: 50
 url: /ru/aspose.slides/iaudioframe/audiocdstarttracktime/
 ---
-## IAudioFrame.AudioCdStartTrackTime property
 
-Возвращает или устанавливает время начала трека. Чтение/записьInt32.
+## Свойство IAudioFrame.AudioCdStartTrackTime
+
+Возвращает или задает время начала трека. Доступ на чтение/запись Int32.
 
 ```csharp
 public int AudioCdStartTrackTime { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAudioFrame](../../iaudioframe)
+* интерфейс [IAudioFrame](../../iaudioframe)
 * пространство имен [Aspose.Slides](../../iaudioframe)
 * сборка [Aspose.Slides](../../../)
 

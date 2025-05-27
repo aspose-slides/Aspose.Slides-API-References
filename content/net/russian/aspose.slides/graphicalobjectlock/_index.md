@@ -1,35 +1,36 @@
 ---
 title: GraphicalObjectLock
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет какие операции отключены для родительского объекта GraphicalObject.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, какие операции запрещены для родительского GraphicalObject.
 type: docs
-weight: 4610
+weight: 4880
 url: /ru/aspose.slides/graphicalobjectlock/
 ---
-## GraphicalObjectLock class
 
-Определяет, какие операции отключены для родительского объекта GraphicalObject.
+## Класс GraphicalObjectLock
+
+Определяет, какие операции запрещены для родительского GraphicalObject.
 
 ```csharp
 public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean. |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Определяет, запрещен ли выбор подформ этого объекта. Чтение/записьBoolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой формы в группу. Чтение/записьBoolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Только чтениеBoolean. |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean. |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Определяет, запрещен ли выбор этой фигуры. Чтение/записьBoolean. |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение/записьBoolean. |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Определяет, должен ли объект сохранять соотношение сторон при изменении размера. Читаемое/записываемое логическое значение. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Определяет, запрещено ли выбирать подсхемы этого объекта. Читаемое/записываемое логическое значение. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этого объекта в группу. Читаемое/записываемое логическое значение. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Только для чтения логическое значение. |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этого объекта. Читаемое/записываемое логическое значение. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Определяет, запрещено ли выбирать этот объект. Читаемое/записываемое логическое значение. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Определяет, запрещено ли изменять размер этого объекта. Читаемое/записываемое логическое значение. |
 
-### Смотрите также
+### См. также
 
-* class [BaseShapeLock](../baseshapelock)
-* interface [IGraphicalObjectLock](../igraphicalobjectlock)
+* класс [BaseShapeLock](../baseshapelock)
+* интерфейс [IGraphicalObjectLock](../igraphicalobjectlock)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

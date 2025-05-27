@@ -1,23 +1,24 @@
 ---
 title: AsIEffectEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтенияIEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
+description: Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata/
 ---
-## IHSLEffectiveData.AsIEffectEffectiveData property
 
-Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../../ieffecteffectivedata).
+## IHSLEffectiveData.AsIEffectEffectiveData свойство
+
+Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../../ieffecteffectivedata).
 
 ```csharp
 public IEffectEffectiveData AsIEffectEffectiveData { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IEffectEffectiveData](../../ieffecteffectivedata)
-* interface [IHSLEffectiveData](../../ihsleffectivedata)
+* интерфейс [IEffectEffectiveData](../../ieffecteffectivedata)
+* интерфейс [IHSLEffectiveData](../../ihsleffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ihsleffectivedata)
 * сборка [Aspose.Slides](../../../)
 

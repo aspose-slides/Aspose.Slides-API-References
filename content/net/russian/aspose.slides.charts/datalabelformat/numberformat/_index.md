@@ -1,26 +1,36 @@
 ---
 title: NumberFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет строку формата для объекта DataLabels. Чтение/записьString.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет строку формата для объекта DataLabels. Читаемая/записываемая строка.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/datalabelformat/numberformat/
 ---
-## DataLabelFormat.NumberFormat property
 
-Представляет строку формата для объекта DataLabels. Чтение/записьString.
+## DataLabelFormat.NumberFormat свойство
+
+Представляет строку формата для объекта DataLabels. Читаемая/записываемая строка.
 
 ```csharp
 public string NumberFormat { get; set; }
 ```
 
-### Примечания
+### Замечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства NumberFormat для новых меток данных в коллекции DataLabelCollection. Представляет строку формата для объектов DataLabel. Установка этого свойства со значением также устанавливает это значение в свойство NumberFormat для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" приводит к all DataLabels[i].NumberFormat равен val).
+Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства NumberFormat для новых меток данных в коллекции DataLabelCollection. Когда это свойство устанавливается со значением, это значение также устанавливается для свойства NumberFormat для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" приводит к тому, что все DataLabels[i].NumberFormat равны val).
 
-### Смотрите также
+### Примеры
 
-* class [DataLabelFormat](../../datalabelformat)
+```csharp
+[C#]
+series.Labels.DefaultDataLabelFormat.ShowValue = true;
+series.Labels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = false;
+series.Labels.DefaultDataLabelFormat.NumberFormat = "0.0%";
+```
+
+### См. также
+
+* класс [DataLabelFormat](../../datalabelformat)
 * пространство имен [Aspose.Slides.Charts](../../datalabelformat)
 * сборка [Aspose.Slides](../../../)
 

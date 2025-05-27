@@ -1,22 +1,23 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую встроенную информацию о данных для объекта OLE.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Создает новую информацию о встроенных данных для OLE-объекта.
 type: docs
 weight: 10
 url: /ru/aspose.slides.dom.ole/oleembeddeddatainfo/oleembeddeddatainfo/
 ---
+
 ## OleEmbeddedDataInfo() {#constructor}
 
-Создает новую встроенную информацию о данных для объекта OLE.
+Создает новую информацию о встроенных данных для OLE-объекта.
 
 ```csharp
 public OleEmbeddedDataInfo()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [OleEmbeddedDataInfo](../../oleembeddeddatainfo)
+* класс [OleEmbeddedDataInfo](../../oleembeddeddatainfo)
 * пространство имен [Aspose.Slides.DOM.Ole](../../oleembeddeddatainfo)
 * сборка [Aspose.Slides](../../../)
 
@@ -24,15 +25,15 @@ public OleEmbeddedDataInfo()
 
 ## OleEmbeddedDataInfo(byte[], string) {#constructor_1}
 
-Создает новый экземпляр информации о встроенных данных для объекта OLE.  Данные файла встроенного объекта OLEByte[]. Расширение файла для текущего встроенного объекта OLEString.
+Создает новый экземпляр информации о встроенных данных для OLE-объекта. Данные файла встроенного OLE-объекта Byte[]. Расширение файла для текущего встроенного OLE-объекта String.
 
 ```csharp
 public OleEmbeddedDataInfo(byte[] embeddedFileData, string embeddedFileExtension)
 ```
 
-### Смотрите также
+### См. Также
 
-* class [OleEmbeddedDataInfo](../../oleembeddeddatainfo)
+* класс [OleEmbeddedDataInfo](../../oleembeddeddatainfo)
 * пространство имен [Aspose.Slides.DOM.Ole](../../oleembeddeddatainfo)
 * сборка [Aspose.Slides](../../../)
 

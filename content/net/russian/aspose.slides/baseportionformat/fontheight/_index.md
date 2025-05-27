@@ -1,22 +1,23 @@
 ---
 title: FontHeight
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает высоту шрифта части.  float.NaN означает что высота не определена и должна быть унаследована от Мастера. Чтение/записьSingle.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает высоту шрифта части. float.NaN означает, что высота не определена и должна быть унаследована от Master. Чтение/запись Single.
 type: docs
 weight: 80
 url: /ru/aspose.slides/baseportionformat/fontheight/
 ---
-## BasePortionFormat.FontHeight property
 
-Возвращает или устанавливает высоту шрифта части.  **float.NaN** означает, что высота не определена и должна быть унаследована от Мастера. Чтение/записьSingle.
+## BasePortionFormat.FontHeight свойство
+
+Возвращает или устанавливает высоту шрифта части. **float.NaN** означает, что высота не определена и должна быть унаследована от Master. Чтение/запись Single.
 
 ```csharp
 public float FontHeight { get; set; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* class [BasePortionFormat](../../baseportionformat)
+* класс [BasePortionFormat](../../baseportionformat)
 * пространство имен [Aspose.Slides](../../baseportionformat)
 * сборка [Aspose.Slides](../../../)
 

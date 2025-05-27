@@ -1,22 +1,23 @@
 ---
 title: ActualX
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает фактическое положение x слева элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout перед тем как получить фактические значения. ЧитатьSingle.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает действительное положение по оси X слева от элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout перед получением действительных значений. Читайте Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/chartplotarea/actualx/
 ---
-## ChartPlotArea.ActualX property
 
-Задает фактическое положение x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle.
+## Свойство ChartPlotArea.ActualX
+
+Указывает действительное положение по оси X (слева) элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением действительных значений. Читайте Single.
 
 ```csharp
 public float ActualX { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [ChartPlotArea](../../chartplotarea)
+* класс [ChartPlotArea](../../chartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../chartplotarea)
 * сборка [Aspose.Slides](../../../)
 

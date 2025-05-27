@@ -1,12 +1,13 @@
 ---
 title: IThreeDFormat
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Stellt 3DEigenschaften dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt 3D-Eigenschaften dar.
 type: docs
-weight: 6780
+weight: 7110
 url: /de/aspose.slides/ithreedformat/
 ---
-## IThreeDFormat interface
+
+## IThreeDFormat-Schnittstelle
 
 Stellt 3D-Eigenschaften dar.
 
@@ -18,28 +19,28 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Ermöglicht das Abrufen der Basis-IThreeDParamSource-Schnittstelle. Schreibgeschützt[`IThreeDParamSource`](../ithreedparamsource) . |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Gibt den Typ einer unteren 3D-Fase zurück oder legt ihn fest. Schreibgeschützt[`IShapeBevel`](../ishapebevel) . |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Gibt den Typ einer oberen 3D-Abschrägung zurück oder legt ihn fest. Schreibgeschützt[`IShapeBevel`](../ishapebevel) . |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Gibt die Einstellungen einer Kamera zurück oder legt sie fest. Schreibgeschützt[`ICamera`](../icamera) . |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Gibt die Farbe einer Kontur zurück oder legt sie fest. Schreibgeschützt[`IColorFormat`](../icolorformat) . |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Gibt die Breite einer 3D-Kontur zurück oder legt sie fest. Lesen/SchreibenDouble . |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Gibt die Tiefe einer 3D-Form zurück oder legt sie fest. Lesen/SchreibenDouble . |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Gibt die Farbe einer Extrusion zurück oder legt sie fest. Schreibgeschützt[`IColorFormat`](../icolorformat) . |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Gibt die Höhe eines Extrusionseffekts zurück oder legt sie fest. Lesen/SchreibenDouble . |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Gibt den Lichttyp zurück oder legt ihn fest. Schreibgeschützt[`ILightRig`](../ilightrig) . |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Gibt den Typ eines Materials zurück oder legt ihn fest. Lesen/Schreiben[`MaterialPresetType`](../materialpresettype) . |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IThreeDParamSource. Nur-Lese [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Gibt den Typ eines unteren 3D-Fase zurück oder legt ihn fest. Nur-Lese [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Gibt den Typ einer oberen 3D-Fase zurück oder legt ihn fest. Nur-Lese [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Gibt die Einstellungen einer Kamera zurück oder legt sie fest. Nur-Lese [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Gibt die Farbe eines Konturs zurück oder legt sie fest. Nur-Lese [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Gibt die Breite eines 3D-Konturs zurück oder legt sie fest. Lese/Schreibe Double. |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Gibt die Tiefe einer 3D-Form zurück oder legt sie fest. Lese/Schreibe Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Gibt die Farbe einer Extrusion zurück oder legt sie fest. Nur-Lese [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Gibt die Höhe eines Extrusionseffekts zurück oder legt sie fest. Lese/Schreibe Double. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Gibt den Typ eines Lichts zurück oder legt ihn fest. Nur-Lese [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Gibt den Typ eines Materials zurück oder legt ihn fest. Lese/Schreibe [`MaterialPresetType`](../materialpresettype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Ruft effektive 3D-Formatierungsdaten mit angewendeter Vererbung ab. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Erhält effektive 3D-Formatierungsdaten mit der angewendeten Vererbung. |
 
 ### Siehe auch
 
-* interface [IThreeDParamSource](../ithreedparamsource)
-* namensraum [Aspose.Slides](../../aspose.slides)
-* Montage [Aspose.Slides](../../)
+* Schnittstelle [IThreeDParamSource](../ithreedparamsource)
+* Namespace [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

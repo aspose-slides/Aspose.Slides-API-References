@@ -1,14 +1,15 @@
 ---
 title: AddFromHtml
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет в коллекцию текст из указанной строки html.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Добавляет текст из указанной html-строки в коллекцию.
 type: docs
 weight: 50
 url: /ru/aspose.slides/paragraphcollection/addfromhtml/
 ---
+
 ## AddFromHtml(string) {#addfromhtml}
 
-Добавляет в коллекцию текст из указанной строки html.
+Добавляет текст из указанной html-строки в коллекцию.
 
 ```csharp
 public void AddFromHtml(string text)
@@ -16,11 +17,11 @@ public void AddFromHtml(string text)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст HTML. |
+| text | String | HTML текст. |
 
-### Смотрите также
+### См. также
 
-* class [ParagraphCollection](../../paragraphcollection)
+* класс [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -28,7 +29,7 @@ public void AddFromHtml(string text)
 
 ## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_1}
 
-Добавляет в коллекцию текст из указанной строки html.
+Добавляет текст из указанной html-строки в коллекцию.
 
 ```csharp
 public void AddFromHtml(string text, IExternalResourceResolver resolver, string uri)
@@ -36,18 +37,18 @@ public void AddFromHtml(string text, IExternalResourceResolver resolver, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст HTML. |
-| resolver | IExternalResourceResolver | Объект обратного вызова Resolver, который разрешает URI и извлекает объекты, на которые ссылаются. |
-| uri | String | URI для добавления документа HTML. Используется для разрешения относительных ссылок. |
+| text | String | HTML текст. |
+| resolver | IExternalResourceResolver | Объект обратного вызова разрешателя, который разрешает URI и извлекает упомянутые объекты. |
+| uri | String | URI для добавления HTML документа. Используется для разрешения относительных ссылок. |
 
 ### Примечания
 
-Указание резолвера потенциально может привести к уязвимости. Используйте с осторожностью.
+Указание разрешателя может потенциально создать уязвимость. Используйте с осторожностью.
 
-### Смотрите также
+### См. также
 
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [ParagraphCollection](../../paragraphcollection)
+* интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* класс [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 

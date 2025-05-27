@@ -1,14 +1,15 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет столбец в указанной позиции из таблицы.
+second_title: Aspose.Sildes для справки по API .NET
+description: Удаляет столбец по указанной позиции из таблицы.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icolumncollection/removeat/
 ---
-## IColumnCollection.RemoveAt method
 
-Удаляет столбец в указанной позиции из таблицы.
+## Метод IColumnCollection.RemoveAt
+
+Удаляет столбец по указанной позиции из таблицы.
 
 ```csharp
 public void RemoveAt(int firstColumnIndex, bool withAttachedRows)
@@ -16,12 +17,12 @@ public void RemoveAt(int firstColumnIndex, bool withAttachedRows)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstColumnIndex | Int32 | Индекс удаляемого столбца. |
-| withAttachedRows | Boolean | Истинно, чтобы также удалить все прикрепленные столбцы. |
+| firstColumnIndex | Int32 | Индекс столбца для удаления. |
+| withAttachedRows | Boolean | Если true, также удалить все прикрепленные столбцы. |
 
 ### Смотрите также
 
-* interface [IColumnCollection](../../icolumncollection)
+* интерфейс [IColumnCollection](../../icolumncollection)
 * пространство имен [Aspose.Slides](../../icolumncollection)
 * сборка [Aspose.Slides](../../../)
 

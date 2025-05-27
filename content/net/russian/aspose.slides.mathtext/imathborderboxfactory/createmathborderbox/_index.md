@@ -1,14 +1,15 @@
 ---
 title: CreateMathBorderBox
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создайте математическую рамку применив к элементу
+second_title: Aspose.Slides для .NET API Справочник
+description: Создайте математическую рамку, применив ее к элементу
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathborderboxfactory/createmathborderbox/
 ---
+
 ## CreateMathBorderBox(IMathElement) {#createmathborderbox}
 
-Создайте математическую рамку, применив к элементу
+Создайте математическую рамку, применив ее к элементу
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element)
@@ -16,17 +17,17 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для применения рамки |
+| element | IMathElement | математический элемент, к которому применяется рамка |
 
 ### Возвращаемое значение
 
 новый элемент рамки
 
-### Смотрите также
+### См. также
 
-* interface [IMathBorderBox](../../imathborderbox)
-* interface [IMathElement](../../imathelement)
-* interface [IMathBorderBoxFactory](../../imathborderboxfactory)
+* интерфейс [IMathBorderBox](../../imathborderbox)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathBorderBoxFactory](../../imathborderboxfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathborderboxfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -34,7 +35,7 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 ## CreateMathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#createmathborderbox_1}
 
-Создайте математическую рамку, применив к элементу
+Создайте математическую рамку, применив ее к элементу
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bool hideBottom, 
@@ -44,25 +45,25 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для применения рамки |
-| hideTop | Boolean | Скрыть верхний край |
-| hideBottom | Boolean | Скрыть нижний край |
-| hideLeft | Boolean | Скрыть левый край |
-| hideRight | Boolean | Скрыть правый край |
-| strikethroughHorizontal | Boolean | Пограничная рамка, перечеркнутая по горизонтали |
-| strikethroughVertical | Boolean | Пограничная рамка, перечеркнутая по вертикали |
-| strikethroughBottomLeftToTopRight | Boolean | Пограничная рамка, перечеркнутая снизу слева вверху справа |
-| strikethroughTopLeftToBottomRight | Boolean | Пограничная рамка, перечеркнутая сверху слева и снизу справа |
+| element | IMathElement | математический элемент, к которому применяется рамка |
+| hideTop | Boolean | Скрыть верхнюю границу |
+| hideBottom | Boolean | Скрыть нижнюю границу |
+| hideLeft | Boolean | Скрыть левую границу |
+| hideRight | Boolean | Скрыть правую границу |
+| strikethroughHorizontal | Boolean | Перечеркнутая горизонтальная рамка |
+| strikethroughVertical | Boolean | Перечеркнутая вертикальная рамка |
+| strikethroughBottomLeftToTopRight | Boolean | Перечеркнутая рамка снизу-слева до верха-справа |
+| strikethroughTopLeftToBottomRight | Boolean | Перечеркнутая рамка сверху-слева до низа-справа |
 
 ### Возвращаемое значение
 
 новый элемент рамки
 
-### Смотрите также
+### См. также
 
-* interface [IMathBorderBox](../../imathborderbox)
-* interface [IMathElement](../../imathelement)
-* interface [IMathBorderBoxFactory](../../imathborderboxfactory)
+* интерфейс [IMathBorderBox](../../imathborderbox)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathBorderBoxFactory](../../imathborderboxfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathborderboxfactory)
 * сборка [Aspose.Slides](../../../)
 

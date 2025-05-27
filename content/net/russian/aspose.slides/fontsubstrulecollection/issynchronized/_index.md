@@ -1,22 +1,23 @@
 ---
 title: IsSynchronized
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным потокобезопасным. Только для чтения Boolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides/fontsubstrulecollection/issynchronized/
 ---
-## FontSubstRuleCollection.IsSynchronized property
 
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
+## FontSubstRuleCollection.IsSynchronized свойство
+
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтения Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [FontSubstRuleCollection](../../fontsubstrulecollection)
+* класс [FontSubstRuleCollection](../../fontsubstrulecollection)
 * пространство имен [Aspose.Slides](../../fontsubstrulecollection)
 * сборка [Aspose.Slides](../../../)
 

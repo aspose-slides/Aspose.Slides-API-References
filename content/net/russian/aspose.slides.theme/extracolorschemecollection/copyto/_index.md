@@ -1,12 +1,13 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Документация
 description: Копирует все элементы коллекции в указанный массив.
 type: docs
 weight: 50
 url: /ru/aspose.slides.theme/extracolorschemecollection/copyto/
 ---
-## ExtraColorSchemeCollection.CopyTo method
+
+## ExtraColorSchemeCollection.CopyTo метод
 
 Копирует все элементы коллекции в указанный массив.
 
@@ -19,9 +20,9 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в массиве. |
 
-### Смотрите также
+### Также см. 
 
-* class [ExtraColorSchemeCollection](../../extracolorschemecollection)
+* класс [ExtraColorSchemeCollection](../../extracolorschemecollection)
 * пространство имен [Aspose.Slides.Theme](../../extracolorschemecollection)
 * сборка [Aspose.Slides](../../../)
 

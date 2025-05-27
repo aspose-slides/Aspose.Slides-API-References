@@ -1,12 +1,13 @@
 ---
 title: ExtrusionForeDepth
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство extrusion.foredepth
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionforedepth/
 ---
-## BehaviorProperty.ExtrusionForeDepth property
+
+## Свойство BehaviorProperty.ExtrusionForeDepth
 
 Представляет свойство 'extrusion.foredepth'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionforedepth/
 public static BehaviorProperty ExtrusionForeDepth { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

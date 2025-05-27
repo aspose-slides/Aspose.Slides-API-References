@@ -1,14 +1,15 @@
 ---
 title: UpdateDocumentProperties
-second_title: Справочник по API Aspose.Slides для .NET
-description: Обновляет свойства привязанной презентации.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Обновляет свойства связанных презентаций.
 type: docs
 weight: 80
 url: /ru/aspose.slides/presentationinfo/updatedocumentproperties/
 ---
-## PresentationInfo.UpdateDocumentProperties method
 
-Обновляет свойства привязанной презентации.
+## PresentationInfo.UpdateDocumentProperties метод
+
+Обновляет свойства связанных презентаций.
 
 ```csharp
 public void UpdateDocumentProperties(IDocumentProperties documentProperties)
@@ -16,21 +17,21 @@ public void UpdateDocumentProperties(IDocumentProperties documentProperties)
 
 ### Примеры
 
-В этом примере показано, как вызывать`UpdateDocumentProperties`метод для обновления свойств документа, возвращаемых вызовом метода[`ReadDocumentProperties`](../readdocumentproperties).
+Этот пример показывает, как вызвать метод `UpdateDocumentProperties`, чтобы обновить свойства документа, возвращаемые при вызове метода [`ReadDocumentProperties`](../readdocumentproperties).
 
 ```csharp
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
 IDocumentProperties props = info.ReadDocumentProperties();
-props.Subject = "New subject";
+props.Subject = "Новая тема";
 props.LastSavedTime = DateTime.UtcNow;
 info.UpdateDocumentProperties(props);
 info.WriteBindedPresentation("new_pres.pptx");
 ```
 
-### Смотрите также
-
-* interface [IDocumentProperties](../../idocumentproperties)
-* class [PresentationInfo](../../presentationinfo)
+### Также см.
+ 
+* интерфейс [IDocumentProperties](../../idocumentproperties)
+* класс [PresentationInfo](../../presentationinfo)
 * пространство имен [Aspose.Slides](../../presentationinfo)
 * сборка [Aspose.Slides](../../../)
 

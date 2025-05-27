@@ -1,14 +1,15 @@
 ---
 title: SetGeometryPaths
-second_title: Справочник по API Aspose.Slides для .NET
-description: Обновляет геометрию формы из массиваIGeometryPathaspose.slides/igeometrypath. Координаты должны быть относительно левого верхнего угла фигуры. Изменяет тип фигуры ShapeTypeaspose.slides/geometryshape/shapetype наCustom.
+second_title: Aspose.Slides для .NET API Справочник
+description: Обновляет геометрию фигуры из массива IGeometryPathaspose.slides/igeometrypath. Координаты должны быть относительными к левому верхнему углу фигуры. Изменяет тип фигуры ShapeTypeaspose.slides/geometryshape/shapetype на Custom.
 type: docs
 weight: 70
 url: /ru/aspose.slides/geometryshape/setgeometrypaths/
 ---
-## GeometryShape.SetGeometryPaths method
 
-Обновляет геометрию формы из массива[`IGeometryPath`](../../igeometrypath). Координаты должны быть относительно левого верхнего угла фигуры. Изменяет тип фигуры ([`ShapeType`](../shapetype)) наCustom.
+## GeometryShape.SetGeometryPaths метод
+
+Обновляет геометрию фигуры из массива [`IGeometryPath`](../../igeometrypath). Координаты должны быть относительными к левому верхнему углу фигуры. Изменяет тип фигуры ([`ShapeType`](../shapetype)) на Custom.
 
 ```csharp
 public void SetGeometryPaths(IGeometryPath[] geometryPaths)
@@ -16,14 +17,14 @@ public void SetGeometryPaths(IGeometryPath[] geometryPaths)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| geometryPaths | IGeometryPath[] | Геометрические пути массива |
+| geometryPaths | IGeometryPath[] | Массив геометрических путей |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | ArgumentException | Путь не найден |
-| ArgumentException | Пустой путь |
+| ArgumentException | Путь пустой |
 
 ### Примеры
 
@@ -46,10 +47,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IGeometryPath](../../igeometrypath)
-* class [GeometryShape](../../geometryshape)
+* интерфейс [IGeometryPath](../../igeometrypath)
+* класс [GeometryShape](../../geometryshape)
 * пространство имен [Aspose.Slides](../../geometryshape)
 * сборка [Aspose.Slides](../../../)
 

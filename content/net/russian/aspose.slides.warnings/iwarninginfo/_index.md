@@ -1,12 +1,13 @@
 ---
 title: IWarningInfo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет базовый интерфейс для всех предупреждений.
 type: docs
-weight: 11000
+weight: 11500
 url: /ru/aspose.slides.warnings/iwarninginfo/
 ---
-## IWarningInfo interface
+
+## Интерфейс IWarningInfo
 
 Представляет базовый интерфейс для всех предупреждений.
 
@@ -14,18 +15,18 @@ url: /ru/aspose.slides.warnings/iwarninginfo/
 public interface IWarningInfo
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Возвращает удобочитаемое описание этого предупреждения. Только чтениеString. |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Возвращает тип предупреждения. Только чтение[`WarningType`](./warningtype). |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Возвращает человекочитаемое описание этого предупреждения. Только для чтения String. |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Возвращает тип предупреждения. Только для чтения [`WarningType`](./warningtype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Если получатель не нулевой, завершает предупреждение указанному получателю и генерирует исключение AbortRequestedException, если получатель решил прервать операцию. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Если получатель не равен null, отправляет предупреждение указанному получателю и выбрасывает исключение AbortRequestedException, если получатель решил прервать операцию. |
 
 ### Смотрите также
 

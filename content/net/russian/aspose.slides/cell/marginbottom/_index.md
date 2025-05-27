@@ -1,14 +1,15 @@
 ---
 title: MarginBottom
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает нижнее поле в TextFrame. Чтение/записьDouble.
+second_title: Aspose.Sildes для справочника API .NET
+description: Возвращает или устанавливает нижний отступ в TextFrame. Читаемое/записываемое значение Double.
 type: docs
 weight: 100
 url: /ru/aspose.slides/cell/marginbottom/
 ---
-## Cell.MarginBottom property
 
-Возвращает или задает нижнее поле в TextFrame. Чтение/записьDouble.
+## Свойство Cell.MarginBottom
+
+Возвращает или устанавливает нижний отступ в TextFrame. Читаемое/записываемое значение Double.
 
 ```csharp
 public double MarginBottom { get; set; }
@@ -16,7 +17,7 @@ public double MarginBottom { get; set; }
 
 ### Смотрите также
 
-* class [Cell](../../cell)
+* класс [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)
 * сборка [Aspose.Slides](../../../)
 

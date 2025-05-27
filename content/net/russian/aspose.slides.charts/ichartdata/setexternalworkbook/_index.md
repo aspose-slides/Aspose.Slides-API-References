@@ -1,14 +1,15 @@
 ---
 title: SetExternalWorkbook
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает внешнюю книгу в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевой книги.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Устанавливает внешний рабочий файл в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевого рабочего файла.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/ichartdata/setexternalworkbook/
 ---
+
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Устанавливает внешнюю книгу в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевой книги.
+Устанавливает внешний рабочий файл в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевого рабочего файла.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -16,13 +17,13 @@ public void SetExternalWorkbook(string workbookPath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| workbookPath | String | Путь к целевой книге |
+| workbookPath | String | Путь к целевому рабочему файлу |
 
 ### Исключения
 
-| исключение | условие |
+| exception | condition |
 | --- | --- |
-| InvalidOperationException | Внешняя рабочая книга недоступна или не может быть загружена. |
+| InvalidOperationException | Внешний рабочий файл недоступен или не может быть загружен. |
 
 ### Примеры
 
@@ -36,9 +37,9 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartData](../../ichartdata)
+* интерфейс [IChartData](../../ichartdata)
 * пространство имен [Aspose.Slides.Charts](../../ichartdata)
 * сборка [Aspose.Slides](../../../)
 
@@ -46,7 +47,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-Устанавливает внешнюю книгу в качестве источника данных для диаграммы.
+Устанавливает внешний рабочий файл в качестве источника данных для диаграммы.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -54,14 +55,14 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| workbookPath | String | Путь к целевой книге |
-| updateChartData | Boolean | Если значение имеет значение false, будет обновлен только путь к книге. Данные диаграммы не будут загружаться и обновляться из целевой книги. Может использоваться, когда целевая книга не существует или недоступна. Если значение равно true, данные диаграммы будут обновлены из целевой книги. |
+| workbookPath | String | Путь к целевому рабочему файлу |
+| updateChartData | Boolean | Если значение false, будет обновлен только путь к рабочему файлу. Данные диаграммы не будут загружены и обновлены из целевого рабочего файла. Может использоваться, когда целевой рабочий файл не существует или недоступен. Если значение true, данные диаграммы будут обновлены из целевого рабочего файла. |
 
 ### Исключения
 
-| исключение | условие |
+| exception | condition |
 | --- | --- |
-| InvalidOperationException | Внешняя рабочая книга недоступна или не может быть загружена. |
+| InvalidOperationException | Внешний рабочий файл недоступен или не может быть загружен. |
 
 ### Примеры
 
@@ -71,14 +72,14 @@ using (Presentation pres = new Presentation())
    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 50, 50, 400, 600, true);
    IChartData chartData = chart.ChartData;
 
-   (chartData as ChartData).SetExternalWorkbook("http: //путь/не существует/не существует", false);
+   (chartData as ChartData).SetExternalWorkbook("http://path/doesnt/exists", false);
 
 
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartData](../../ichartdata)
+* интерфейс [IChartData](../../ichartdata)
 * пространство имен [Aspose.Slides.Charts](../../ichartdata)
 * сборка [Aspose.Slides](../../../)
 

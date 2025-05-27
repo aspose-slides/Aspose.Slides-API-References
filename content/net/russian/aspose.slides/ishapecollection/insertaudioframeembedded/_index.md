@@ -1,14 +1,15 @@
 ---
 title: InsertAudioFrameEmbedded
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вставьте AudioFrame со встроенным аудиофайлом. Звук встроенного аудиофайла может быть только в формате WAV. Добавляет новый звук в список Presentation.Audios.
+second_title: Aspose.Sildes для .NET API Reference
+description: Вставить AudioFrame с встроенным аудиофайлом. Встроенный аудиофайл может быть только в формате WAV. Это добавляет новый аудиофайл в список Presentation.Audios.
 type: docs
 weight: 230
 url: /ru/aspose.slides/ishapecollection/insertaudioframeembedded/
 ---
+
 ## InsertAudioFrameEmbedded(int, float, float, float, float, Stream) {#insertaudioframeembedded_1}
 
-Вставьте AudioFrame со встроенным аудиофайлом. Звук встроенного аудиофайла может быть только в формате WAV. Добавляет новый звук в список Presentation.Audios.
+Вставить AudioFrame с встроенным аудиофайлом. Встроенный аудиофайл может быть только в формате WAV. Это добавляет новый аудиофайл в список Presentation.Audios.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -17,21 +18,21 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
-| x | Single | X координата нового звукового кадра. |
-| y | Single | Координата Y нового звукового кадра. |
-| width | Single | Ширина нового звукового кадра. |
-| height | Single | Высота нового звукового кадра. |
+| index | Int32 | Нулевой индекс, по которому должно быть вставлено значение. |
+| x | Single | Координата X нового аудиофрейма. |
+| y | Single | Координата Y нового аудиофрейма. |
+| width | Single | Ширина нового аудиофрейма. |
+| height | Single | Высота нового аудиофрейма. |
 | audio_stream | Stream | Аудиопоток. |
 
 ### Возвращаемое значение
 
-Создан объект AudioFrame.
+Созданный объект AudioFrame.
 
-### Смотрите также
+### См. Также
 
-* interface [IAudioFrame](../../iaudioframe)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IAudioFrame](../../iaudioframe)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -39,7 +40,7 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 ## InsertAudioFrameEmbedded(int, float, float, float, float, IAudio) {#insertaudioframeembedded}
 
-Вставьте AudioFrame со встроенным аудиофайлом. Используется аудиофайл из списка Presentation.Audios.
+Вставить AudioFrame с встроенным аудиофайлом. Использует аудиофайл из списка Presentation.Audios.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -48,22 +49,22 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
-| x | Single | X координата нового звукового кадра. |
-| y | Single | Координата Y нового звукового кадра. |
-| width | Single | Ширина нового звукового кадра. |
-| height | Single | Высота нового звукового кадра. |
+| index | Int32 | Нулевой индекс, по которому должно быть вставлено значение. |
+| x | Single | Координата X нового аудиофрейма. |
+| y | Single | Координата Y нового аудиофрейма. |
+| width | Single | Ширина нового аудиофрейма. |
+| height | Single | Высота нового аудиофрейма. |
 | audio | IAudio | Аудио из списка Presentation.Audios. |
 
 ### Возвращаемое значение
 
-Создан объект AudioFrame.
+Созданный объект AudioFrame.
 
-### Смотрите также
+### См. Также
 
-* interface [IAudioFrame](../../iaudioframe)
-* interface [IAudio](../../iaudio)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IAudioFrame](../../iaudioframe)
+* интерфейс [IAudio](../../iaudio)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

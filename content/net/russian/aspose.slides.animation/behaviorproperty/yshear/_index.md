@@ -6,7 +6,8 @@ type: docs
 weight: 1210
 url: /ru/aspose.slides.animation/behaviorproperty/yshear/
 ---
-## BehaviorProperty.YShear property
+
+## Свойство BehaviorProperty.YShear
 
 Представляет свойство 'yshear'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/yshear/
 public static BehaviorProperty YShear { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

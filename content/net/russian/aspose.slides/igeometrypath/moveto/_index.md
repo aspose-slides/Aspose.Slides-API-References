@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /ru/aspose.slides/igeometrypath/moveto/
 ---
+
 ## MoveTo(PointF) {#moveto_1}
 
 Устанавливает позицию следующей точки.
@@ -16,11 +17,11 @@ public void MoveTo(PointF point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | Положение точки |
+| point | PointF | Позиция точки |
 
-### Смотрите также
+### Также смотрите
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -36,12 +37,12 @@ public void MoveTo(float x, float y)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата точки |
-| y | Single | Y координата точки |
+| x | Single | X-координата точки |
+| y | Single | Y-координата точки |
 
-### Смотрите также
+### Также смотрите
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 

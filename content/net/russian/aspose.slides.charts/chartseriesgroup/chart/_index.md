@@ -1,23 +1,24 @@
 ---
-title: Chart
+title: Диаграмма
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительскую диаграмму. Только для чтенияIChartaspose.slides.charts/ichart.
+description: Возвращает родительскую диаграмму. Только для чтения IChartaspose.slides.charts/ichart.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/chartseriesgroup/chart/
 ---
-## ChartSeriesGroup.Chart property
 
-Возвращает родительскую диаграмму. Только для чтения[`IChart`](../../ichart).
+## Свойство Chart класса ChartSeriesGroup
+
+Возвращает родительскую диаграмму. Только для чтения [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }
 ```
 
-### Смотрите также
+### Также смотрите
 
-* interface [IChart](../../ichart)
-* class [ChartSeriesGroup](../../chartseriesgroup)
+* интерфейс [IChart](../../ichart)
+* класс [ChartSeriesGroup](../../chartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../chartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

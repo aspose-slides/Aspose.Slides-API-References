@@ -1,22 +1,23 @@
 ---
-title: Count
+title: Количество
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество всех меток данных в коллекции. Только для чтенияInt32.
+description: Получает количество всех меток данных в коллекции. Только для чтения Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/datalabelcollection/count/
 ---
-## DataLabelCollection.Count property
 
-Получает количество всех меток данных в коллекции. Только для чтенияInt32.
+## Свойство DataLabelCollection.Count
+
+Получает количество всех меток данных в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* class [DataLabelCollection](../../datalabelcollection)
+* класс [DataLabelCollection](../../datalabelcollection)
 * пространство имен [Aspose.Slides.Charts](../../datalabelcollection)
 * сборка [Aspose.Slides](../../../)
 

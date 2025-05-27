@@ -1,11 +1,12 @@
 ---
 title: SvgImage
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Erstellt ein neues SvgImageObjekt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Erstellt ein neues SvgImage-Objekt.
 type: docs
 weight: 10
 url: /de/aspose.slides/svgimage/svgimage/
 ---
+
 ## SvgImage(byte[]) {#constructor}
 
 Erstellt ein neues SvgImage-Objekt.
@@ -16,13 +17,13 @@ public SvgImage(byte[] data)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| data | Byte[] | SVG-Daten. |
+| data | Byte[] | Svg-Daten. |
 
 ### Siehe auch
 
-* class [SvgImage](../../svgimage)
-* namensraum [Aspose.Slides](../../svgimage)
-* Montage [Aspose.Slides](../../../)
+* Klasse [SvgImage](../../svgimage)
+* Namespace [Aspose.Slides](../../svgimage)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -36,13 +37,13 @@ public SvgImage(string svgContent)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| svgContent | String | SVG-Inhalt. |
+| svgContent | String | Svg-Inhalt. |
 
 ### Siehe auch
 
-* class [SvgImage](../../svgimage)
-* namensraum [Aspose.Slides](../../svgimage)
-* Montage [Aspose.Slides](../../../)
+* Klasse [SvgImage](../../svgimage)
+* Namespace [Aspose.Slides](../../svgimage)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -56,13 +57,13 @@ public SvgImage(Stream stream)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | SVG-Stream. |
+| stream | Stream | Svg-Stream. |
 
 ### Siehe auch
 
-* class [SvgImage](../../svgimage)
-* namensraum [Aspose.Slides](../../svgimage)
-* Montage [Aspose.Slides](../../../)
+* Klasse [SvgImage](../../svgimage)
+* Namespace [Aspose.Slides](../../svgimage)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -76,16 +77,16 @@ public SvgImage(byte[] data, IExternalResourceResolver externalResResolver, stri
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| data | Byte[] | SVG-Daten. |
-| externalResResolver | IExternalResourceResolver | Ein Callback-Objekt, das zum Abrufen externer Objekte verwendet wird. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
-| baseUri | String | Basis-URI des angegebenen SVG. Wird verwendet, um relative Verknüpfungen aufzulösen. |
+| data | Byte[] | Svg-Daten. |
+| externalResResolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| baseUri | String | Basis-URI des angegebenen Svg. Wird verwendet, um relative Links aufzulösen. |
 
 ### Siehe auch
 
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SvgImage](../../svgimage)
-* namensraum [Aspose.Slides](../../svgimage)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* Klasse [SvgImage](../../svgimage)
+* Namespace [Aspose.Slides](../../svgimage)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -99,16 +100,16 @@ public SvgImage(string svgContent, IExternalResourceResolver externalResResolver
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| svgContent | String | SVG-Inhalt. |
-| externalResResolver | IExternalResourceResolver | Ein Callback-Objekt, das zum Abrufen externer Objekte verwendet wird. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
-| baseUri | String | Basis-URI des angegebenen SVG. Wird verwendet, um relative Verknüpfungen aufzulösen. |
+| svgContent | String | Svg-Inhalt. |
+| externalResResolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| baseUri | String | Basis-URI des angegebenen Svg. Wird verwendet, um relative Links aufzulösen. |
 
 ### Siehe auch
 
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SvgImage](../../svgimage)
-* namensraum [Aspose.Slides](../../svgimage)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* Klasse [SvgImage](../../svgimage)
+* Namespace [Aspose.Slides](../../svgimage)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -122,15 +123,15 @@ public SvgImage(Stream stream, IExternalResourceResolver externalResResolver, st
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | SVG-Stream. |
-| externalResResolver | IExternalResourceResolver | Ein Callback-Objekt, das zum Abrufen externer Objekte verwendet wird. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
-| baseUri | String | Basis-URI des angegebenen SVG. Wird verwendet, um relative Verknüpfungen aufzulösen. |
+| stream | Stream | Svg-Stream. |
+| externalResResolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| baseUri | String | Basis-URI des angegebenen Svg. Wird verwendet, um relative Links aufzulösen. |
 
 ### Siehe auch
 
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SvgImage](../../svgimage)
-* namensraum [Aspose.Slides](../../svgimage)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* Klasse [SvgImage](../../svgimage)
+* Namespace [Aspose.Slides](../../svgimage)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

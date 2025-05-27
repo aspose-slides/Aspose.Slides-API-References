@@ -1,14 +1,15 @@
 ---
 title: IBaseSlide
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Stellt gemeinsame Daten für alle Objektträgertypen dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Repräsentiert gemeinsame Daten für alle Folientypen.
 type: docs
-weight: 4890
+weight: 5140
 url: /de/aspose.slides/ibaseslide/
 ---
-## IBaseSlide interface
 
-Stellt gemeinsame Daten für alle Objektträgertypen dar.
+## IBaseSlide-Schnittstelle
+
+Repräsentiert gemeinsame Daten für alle Folientypen.
 
 ```csharp
 public interface IBaseSlide : IThemeable
@@ -18,30 +19,30 @@ public interface IBaseSlide : IThemeable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Ermöglicht das Abrufen der IThemeable-Basisschnittstelle. Schreibgeschützt[`IThemeable`](../../aspose.slides.theme/ithemeable) . |
-| [Background](../../aspose.slides/ibaseslide/background) { get; } | Gibt den Hintergrund der Folie zurück. Schreibgeschützt[`IBackground`](../ibackground) . |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Gibt die Sammlung von ActiveX-Steuerelementen auf einer Folie zurück. Schreibgeschützt[`IControlCollection`](../icontrolcollection) . |
-| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Gibt die benutzerdefinierten Daten der Folie zurück. Schreibgeschützt[`ICustomData`](../icustomdata) . |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Bietet einfachen Zugriff auf enthaltene Hyperlinks. Schreibgeschützt[`IHyperlinkQueries`](../ihyperlinkqueries) . |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Gibt den Namen einer Folie zurück oder legt ihn fest. Lesen/SchreibenString . |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Gibt die Formen einer Folie zurück. Schreibgeschützt[`IShapeCollection`](../ishapecollection) . |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Gibt an, ob Formen auf der Masterfolie auf Folien angezeigt werden sollen oder nicht. Für die Masterfolie selbst gibt diese Eigenschaft immer zurück`FALSCH` . Lesen/SchreibenBoolean . |
-| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Gibt die ID einer Folie zurück. SchreibgeschütztUInt32 . |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Gibt das TransitionEx-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Diashow vorrückt. Schreibgeschützt[`ISlideShowTransition`](../islideshowtransition) . |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Gibt das Animationszeitachsenobjekt zurück. Schreibgeschützt[`IAnimationTimeLine`](../ianimationtimeline) . |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Ermöglicht den Zugriff auf die grundlegende IThemeable-Schnittstelle. Schreibgeschützt [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | Gibt den Hintergrund der Folie zurück. Schreibgeschützt [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Gibt die Sammlung von ActiveX-Steuerelementen auf einer Folie zurück. Schreibgeschützt [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Gibt die benutzerdefinierten Daten der Folie zurück. Schreibgeschützt [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Bietet einfachen Zugriff auf enthaltene Hyperlinks. Schreibgeschützt [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Gibt den Namen einer Folie zurück oder legt ihn fest. Lese-/Schreibzeichenfolge. |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Gibt die Formen einer Folie zurück. Schreibgeschützt [`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Gibt an, ob Formen auf der Masterfolie auf Folien angezeigt werden sollen oder nicht. Für die Masterfolie selbst gibt diese Eigenschaft immer `false` zurück. Lese-/Schreibboolesche Werte. |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Gibt die ID einer Folie zurück. Schreibgeschützt UInt32. |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Gibt das TransitionEx-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Diashow voranschreitet. Schreibgeschützt [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Gibt das Animationszeitlinienobjekt zurück. Schreibgeschützt [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird basierend auf der Struktur und dem statischen Inhalt der Folie berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen gleich sind. usw. sind gleich. Der Vergleich berücksichtigt keine eindeutigen Kennungswerte, z. B. SlideId und dynamische Inhalte, z. B. aktueller Datumswert in Datumsplatzhalter. |
-| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Findet das erste Vorkommen einer Form mit dem angegebenen alternativen Text. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Verbindet Läufe mit derselben Formatierung in allen Absätzen in allen akzeptablen Formen. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird auf Grundlage der Struktur und des statischen Inhalts der Folie berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtig keine eindeutigen Identifikatorwerte, z. B. SlideId und dynamische Inhalte, z. B. den aktuellen Datumswert im Datumsplatzhalter. |
+| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Findet das erste Vorkommen einer Form mit dem angegebenen Alternativtext. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Verbindet Abschnitte mit derselben Formatierung in allen Absätzen in allen akzeptierten Formen. |
 
 ### Siehe auch
 
-* interface [IThemeable](../../aspose.slides.theme/ithemeable)
-* namensraum [Aspose.Slides](../../aspose.slides)
-* Montage [Aspose.Slides](../../)
+* Schnittstelle [IThemeable](../../aspose.slides.theme/ithemeable)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

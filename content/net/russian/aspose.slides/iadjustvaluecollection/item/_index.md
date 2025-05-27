@@ -1,14 +1,15 @@
 ---
-title: Item
+title: Элемент
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает настройку по индексу.
+description: Возвращает значение корректировки по индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iadjustvaluecollection/item/
 ---
-## IAdjustValueCollection indexer
 
-Возвращает настройку по индексу.
+## Индексатор IAdjustValueCollection
+
+Возвращает значение корректировки по индексу.
 
 ```csharp
 public IAdjustValue this[int index] { get; }
@@ -16,16 +17,16 @@ public IAdjustValue this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | индекс настройки. |
+| index | индекс корректировки. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 [`IAdjustValue`](../../iadjustvalue).
 
 ### Смотрите также
 
-* interface [IAdjustValue](../../iadjustvalue)
-* interface [IAdjustValueCollection](../../iadjustvaluecollection)
+* интерфейс [IAdjustValue](../../iadjustvalue)
+* интерфейс [IAdjustValueCollection](../../iadjustvaluecollection)
 * пространство имен [Aspose.Slides](../../iadjustvaluecollection)
 * сборка [Aspose.Slides](../../../)
 

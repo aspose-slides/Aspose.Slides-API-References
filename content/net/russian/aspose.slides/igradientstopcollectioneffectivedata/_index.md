@@ -1,30 +1,31 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет коллекцию объектов GradientStopDataEx.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой коллекцию объектов GradientStopDataEx.
 type: docs
-weight: 5510
+weight: 5840
 url: /ru/aspose.slides/igradientstopcollectioneffectivedata/
 ---
-## IGradientStopCollectionEffectiveData interface
 
-Представляет коллекцию объектов GradientStopDataEx.
+## Интерфейс IGradientStopCollectionEffectiveData
+
+Представляет собой коллекцию объектов GradientStopDataEx.
 
 ```csharp
 public interface IGradientStopCollectionEffectiveData : 
     IGenericCollection<IGradientStopEffectiveData>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Возвращает точку градиента по индексу. |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Возвращает градиентную остановку по индексу. |
 
 ### Смотрите также
 
-* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* interface [IGradientStopEffectiveData](../igradientstopeffectivedata)
+* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* интерфейс [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

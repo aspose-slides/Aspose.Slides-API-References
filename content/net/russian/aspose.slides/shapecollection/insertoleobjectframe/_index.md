@@ -1,14 +1,15 @@
 ---
 title: InsertOleObjectFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый объект OLE и вставляет его в коллекцию по указанному индексу.
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает новый OLE объект и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 350
 url: /ru/aspose.slides/shapecollection/insertoleobjectframe/
 ---
+
 ## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
 
-Создает новый объект OLE и вставляет его в коллекцию по указанному индексу.
+Создает новый OLE объект и вставляет его в коллекцию по указанному индексу.
 
 ```csharp
 public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
@@ -17,20 +18,20 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен объект OLE. |
-| x | Single | X координата нового кадра OLE. |
-| y | Single | Координата Y нового кадра OLE. |
-| width | Single | Ширина нового кадра OLE. |
-| height | Single | Высота нового кадра OLE. |
-| dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| index | Int32 | Индекс, основанный на нуле, по которому должен быть вставлен OLE объект. |
+| x | Single | X координата нового OLE кадра. |
+| y | Single | Y координата нового OLE кадра. |
+| width | Single | Ширина нового OLE кадра. |
+| height | Single | Высота нового OLE кадра. |
+| dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ### Возвращаемое значение
 
-Создан объект OLE.
+Созданный OLE объект.
 
 ### Примеры
 
-Этот пример демонстрирует вставку объекта OLE по второму индексу:
+Этот пример демонстрирует вставку OLE объекта на втором индексе:
 
 ```csharp
 [C#]
@@ -39,11 +40,11 @@ IOleDataInfo dataInfo = new OleDataInfo(fileData, "zip");
 IOleObjectFrame oleObjectFrame = slidees.Shapes.AddOleObjectFrame(2, 150, 20, 50, 50, dataInfo);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IOleObjectFrame](../../ioleobjectframe)
-* interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IOleObjectFrame](../../ioleobjectframe)
+* интерфейс [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -51,7 +52,7 @@ IOleObjectFrame oleObjectFrame = slidees.Shapes.AddOleObjectFrame(2, 150, 20, 50
 
 ## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
 
-Создает новый объект OLE и вставляет его в коллекцию по указанному индексу.
+Создает новый OLE объект и вставляет его в коллекцию по указанному индексу.
 
 ```csharp
 public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
@@ -60,22 +61,22 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен объект OLE. |
-| x | Single | X координата нового кадра OLE. |
-| y | Single | Координата Y нового кадра OLE. |
-| width | Single | Ширина нового кадра OLE. |
-| height | Single | Высота нового кадра OLE. |
+| index | Int32 | Индекс, основанный на нуле, по которому должен быть вставлен OLE объект. |
+| x | Single | X координата нового OLE кадра. |
+| y | Single | Y координата нового OLE кадра. |
+| width | Single | Ширина нового OLE кадра. |
+| height | Single | Высота нового OLE кадра. |
 | className | String | Имя класса OLE. |
 | path | String | Путь к связанному файлу. |
 
 ### Возвращаемое значение
 
-Создан объект OLE.
+Созданный OLE объект.
 
-### Смотрите также
+### См. также
 
-* interface [IOleObjectFrame](../../ioleobjectframe)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IOleObjectFrame](../../ioleobjectframe)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

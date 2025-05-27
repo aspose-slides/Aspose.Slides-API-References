@@ -1,22 +1,23 @@
 ---
-title: Stream
+title: Поток
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает поток. Только чтениеStream.
+description: Получает поток. Поток только для чтения.
 type: docs
 weight: 70
 url: /ru/aspose.slides/streamwrapper/stream/
 ---
-## StreamWrapper.Stream property
 
-Получает поток. Только чтениеStream.
+## Свойство StreamWrapper.Stream
+
+Получает поток. Поток только для чтения.
 
 ```csharp
 public Stream Stream { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* class [StreamWrapper](../../streamwrapper)
+* класс [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

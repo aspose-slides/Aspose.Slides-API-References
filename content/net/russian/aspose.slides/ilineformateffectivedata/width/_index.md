@@ -1,22 +1,23 @@
 ---
-title: Width
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ширину линии. Только для чтенияDouble.
+title: Ширина
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает ширину линии. Только для чтения Double.
 type: docs
 weight: 170
 url: /ru/aspose.slides/ilineformateffectivedata/width/
 ---
-## ILineFormatEffectiveData.Width property
 
-Возвращает ширину линии. Только для чтенияDouble.
+## Свойство ILineFormatEffectiveData.Width
+
+Возвращает ширину линии. Только для чтения Double.
 
 ```csharp
 public double Width { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * пространство имен [Aspose.Slides](../../ilineformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

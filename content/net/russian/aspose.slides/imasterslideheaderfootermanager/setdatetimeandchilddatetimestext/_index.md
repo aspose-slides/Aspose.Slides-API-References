@@ -1,14 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает текст для заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
+second_title: Aspose.Slides для .NET API Справка
+description: Устанавливает текст для заполнитель даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что эти заполнители содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
 type: docs
 weight: 20
 url: /ru/aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext/
 ---
-## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText method
 
-Устанавливает текст для заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
+## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText метод
+
+Устанавливает текст для заполнителей даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что эти заполнители содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -18,9 +19,9 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### Смотрите также
+### См. Также
 
-* interface [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
+* интерфейс [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../imasterslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

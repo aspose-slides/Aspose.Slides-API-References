@@ -1,23 +1,24 @@
 ---
 title: BevelTop
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает тип верхней 3D фаски. Только для чтенияIShapeBevelEffectiveDataaspose.slides/ishapebeveleffectivedata.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает тип верхнего 3D фаски. Только для чтения IShapeBevelEffectiveDataaspose.slides/ishapebeveleffectivedata.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ithreedformateffectivedata/beveltop/
 ---
-## IThreeDFormatEffectiveData.BevelTop property
 
-Возвращает тип верхней 3D фаски. Только для чтения[`IShapeBevelEffectiveData`](../../ishapebeveleffectivedata).
+## Свойство IThreeDFormatEffectiveData.BevelTop
+
+Возвращает тип верхнего 3D фаски. Только для чтения [`IShapeBevelEffectiveData`](../../ishapebeveleffectivedata).
 
 ```csharp
 public IShapeBevelEffectiveData BevelTop { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IShapeBevelEffectiveData](../../ishapebeveleffectivedata)
-* interface [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
+* интерфейс [IShapeBevelEffectiveData](../../ishapebeveleffectivedata)
+* интерфейс [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * пространство имен [Aspose.Slides](../../ithreedformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

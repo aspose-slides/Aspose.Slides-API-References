@@ -1,22 +1,23 @@
 ---
-title: Width
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ширину ячейки. Только для чтенияDouble.
+title: Ширина
+second_title: Справка по API Aspose.Slides для .NET
+description: Возврат ширины ячейки. Только для чтения Double.
 type: docs
 weight: 230
 url: /ru/aspose.slides/icell/width/
 ---
-## ICell.Width property
 
-Возвращает ширину ячейки. Только для чтенияDouble.
+## Свойство ICell.Width
+
+Возврат ширины ячейки. Только для чтения Double.
 
 ```csharp
 public double Width { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [ICell](../../icell)
+* интерфейс [ICell](../../icell)
 * пространство имен [Aspose.Slides](../../icell)
 * сборка [Aspose.Slides](../../../)
 

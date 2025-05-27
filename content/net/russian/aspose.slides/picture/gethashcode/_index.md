@@ -1,14 +1,15 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает хэш.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает хеш.
 type: docs
-weight: 70
+weight: 80
 url: /ru/aspose.slides/picture/gethashcode/
 ---
-## Picture.GetHashCode method
 
-Возвращает хэш.
+## Метод Picture.GetHashCode
+
+Возвращает хеш.
 
 ```csharp
 public override int GetHashCode()
@@ -16,11 +17,11 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Хэш.
+Хеш.
 
-### Смотрите также
+### См. также
 
-* class [Picture](../../picture)
+* класс [Picture](../../picture)
 * пространство имен [Aspose.Slides](../../picture)
 * сборка [Aspose.Slides](../../../)
 

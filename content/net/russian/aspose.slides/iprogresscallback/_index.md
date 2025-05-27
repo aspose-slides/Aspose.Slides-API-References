@@ -1,14 +1,15 @@
 ---
 title: IProgressCallback
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет объект обратного вызова для сохранения обновлений прогресса в процентах.
 type: docs
-weight: 6250
+weight: 6610
 url: /ru/aspose.slides/iprogresscallback/
 ---
-## IProgressCallback interface
 
-Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах.
+## Интерфейс IProgressCallback
+
+Представляет объект обратного вызова для сохранения обновлений прогресса в процентах.
 
 ```csharp
 public interface IProgressCallback
@@ -16,11 +17,11 @@ public interface IProgressCallback
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | Сообщает об обновлении хода выполнения. |
+| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | Сообщает об обновлении прогресса. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

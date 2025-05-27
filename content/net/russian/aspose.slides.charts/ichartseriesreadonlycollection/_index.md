@@ -1,29 +1,30 @@
 ---
 title: IChartSeriesReadonlyCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет доступную только для чтения коллекциюIChartSeries./ichartseries
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой коллекцию только для чтения IChartSeries./ichartseries
 type: docs
-weight: 1830
+weight: 1890
 url: /ru/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
-## IChartSeriesReadonlyCollection interface
 
-Представляет доступную только для чтения коллекцию[`IChartSeries`](../ichartseries)
+## Интерфейс IChartSeriesReadonlyCollection
+
+Представляет собой коллекцию только для чтения [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | Получает элемент по указанному индексу. |
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* interface [IChartSeries](../ichartseries)
+* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* интерфейс [IChartSeries](../ichartseries)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

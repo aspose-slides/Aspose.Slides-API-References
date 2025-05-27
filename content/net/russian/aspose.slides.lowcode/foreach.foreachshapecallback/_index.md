@@ -1,22 +1,22 @@
 ---
 title: ForEach.ForEachShapeCallback
-second_title: Справочник по API Aspose.Slides для .NET
-description: 
-type: docs
-weight: 7250
+second_title: Aspose.Slides для .NET API Справочник
+description: type: docs
+weight: 7710
 url: /ru/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
-## ForEach.ForEachShapeCallback delegate
+
+## Делегат ForEach.ForEachShapeCallback
 
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);
 ```
 
-### Смотрите также
+### См. Также
 
-* class [Shape](../../aspose.slides/shape)
-* class [BaseSlide](../../aspose.slides/baseslide)
-* class [ForEach](../foreach)
+* класс [Shape](../../aspose.slides/shape)
+* класс [BaseSlide](../../aspose.slides/baseslide)
+* класс [ForEach](../foreach)
 * пространство имен [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * сборка [Aspose.Slides](../../)
 

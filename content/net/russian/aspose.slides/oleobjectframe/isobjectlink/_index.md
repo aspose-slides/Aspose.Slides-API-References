@@ -1,22 +1,23 @@
 ---
 title: IsObjectLink
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет связан ли объект с внешним файлом. Только чтениеBoolean.
+second_title: Справка по API Aspose.Slides для .NET
+description: Определяет, связано ли объект с внешним файлом. Только для чтения, тип Boolean.
 type: docs
 weight: 60
 url: /ru/aspose.slides/oleobjectframe/isobjectlink/
 ---
-## OleObjectFrame.IsObjectLink property
 
-Определяет, связан ли объект с внешним файлом. Только чтениеBoolean.
+## Свойство OleObjectFrame.IsObjectLink
+
+Определяет, связано ли объект с внешним файлом. Только для чтения, тип Boolean.
 
 ```csharp
 public bool IsObjectLink { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [OleObjectFrame](../../oleobjectframe)
+* класс [OleObjectFrame](../../oleobjectframe)
 * пространство имен [Aspose.Slides](../../oleobjectframe)
 * сборка [Aspose.Slides](../../../)
 

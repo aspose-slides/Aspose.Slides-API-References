@@ -1,14 +1,15 @@
 ---
-title: Chart
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительскую диаграмму. Только для чтенияIChartaspose.slides.charts/ichart.
+title: График
+second_title: Справка по API Aspose.Sildes для .NET
+description: Возвращает родительский график. Только для чтения IChartaspose.slides.charts/ichart.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/datalabel/chart/
 ---
-## DataLabel.Chart property
 
-Возвращает родительскую диаграмму. Только для чтения[`IChart`](../../ichart).
+## Свойство DataLabel.Chart
+
+Возвращает родительский график. Только для чтения [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }
@@ -16,8 +17,8 @@ public IChart Chart { get; }
 
 ### Смотрите также
 
-* interface [IChart](../../ichart)
-* class [DataLabel](../../datalabel)
+* интерфейс [IChart](../../ichart)
+* класс [DataLabel](../../datalabel)
 * пространство имен [Aspose.Slides.Charts](../../datalabel)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: AsILayoutable
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс ILayoutable. Только для чтенияILayoutableaspose.slides.charts/ilayoutable.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает интерфейс ILayoutable. Только для чтения ILayoutableaspose.slides.charts/ilayoutable.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/idatalabel/asilayoutable/
 ---
-## IDataLabel.AsILayoutable property
 
-Возвращает интерфейс ILayoutable. Только для чтения[`ILayoutable`](../../ilayoutable).
+## IDataLabel.AsILayoutable свойство
+
+Возвращает интерфейс ILayoutable. Только для чтения [`ILayoutable`](../../ilayoutable).
 
 ```csharp
 public ILayoutable AsILayoutable { get; }
@@ -16,12 +17,12 @@ public ILayoutable AsILayoutable { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [ILayoutable](../../ilayoutable)
-* interface [IDataLabel](../../idatalabel)
+* интерфейс [ILayoutable](../../ilayoutable)
+* интерфейс [IDataLabel](../../idatalabel)
 * пространство имен [Aspose.Slides.Charts](../../idatalabel)
 * сборка [Aspose.Slides](../../../)
 

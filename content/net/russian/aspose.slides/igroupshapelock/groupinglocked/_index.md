@@ -1,22 +1,23 @@
 ---
 title: GroupingLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли добавление этой формы в группу. Чтение/записьBoolean.
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет, запрещено ли добавление этой формы в группу. Свойство типа Boolean, доступное для чтения и записи.
 type: docs
 weight: 30
 url: /ru/aspose.slides/igroupshapelock/groupinglocked/
 ---
-## IGroupShapeLock.GroupingLocked property
 
-Определяет, запрещено ли добавление этой формы в группу. Чтение/записьBoolean.
+## IGroupShapeLock.GroupingLocked свойство
+
+Определяет, запрещено ли добавление этой формы в группу. Свойство типа Boolean, доступное для чтения и записи.
 
 ```csharp
 public bool GroupingLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IGroupShapeLock](../../igroupshapelock)
+* интерфейс [IGroupShapeLock](../../igroupshapelock)
 * пространство имен [Aspose.Slides](../../igroupshapelock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: GroupingLevelCount
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество использованных уровней группировки категорий. Более одного для многоуровневых категорий. Только для чтенияInt32.
+second_title: Справочник по Aspose.Slides для .NET
+description: Возвращает количество уровней группировки категорий, используемых. Больше одного для многослойных категорий. Только для чтения Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartcategorycollection/groupinglevelcount/
 ---
-## ChartCategoryCollection.GroupingLevelCount property
 
-Возвращает количество использованных уровней группировки категорий. Более одного для многоуровневых категорий. Только для чтенияInt32.
+## Свойство ChartCategoryCollection.GroupingLevelCount
+
+Возвращает количество уровней группировки категорий, используемых. Больше одного для многослойных категорий. Только для чтения Int32.
 
 ```csharp
 public int GroupingLevelCount { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartCategoryCollection](../../chartcategorycollection)
+* класс [ChartCategoryCollection](../../chartcategorycollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorycollection)
 * сборка [Aspose.Slides](../../../)
 

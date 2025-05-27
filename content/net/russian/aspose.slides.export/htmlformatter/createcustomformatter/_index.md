@@ -1,14 +1,15 @@
 ---
 title: CreateCustomFormatter
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает и возвращает средство форматирования HTML для пользовательской генерации HTML управляемой обратным вызовом.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает и возвращает форматтер HTML для пользовательской генерации HTML на основе обратного вызова.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/htmlformatter/createcustomformatter/
 ---
-## HtmlFormatter.CreateCustomFormatter method
 
-Создает и возвращает средство форматирования HTML для пользовательской генерации HTML, управляемой обратным вызовом.
+## HtmlFormatter.CreateCustomFormatter метод
+
+Создает и возвращает форматтер HTML для пользовательской генерации HTML на основе обратного вызова.
 
 ```csharp
 public static HtmlFormatter CreateCustomFormatter(IHtmlFormattingController formattingController)
@@ -16,12 +17,12 @@ public static HtmlFormatter CreateCustomFormatter(IHtmlFormattingController form
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| formattingController | IHtmlFormattingController | Интерфейс обратного вызова, управляющий генерацией HTML-файла. |
+| formattingController | IHtmlFormattingController | Интерфейс обратного вызова, который управляет генерацией HTML файла. |
 
 ### Смотрите также
 
-* interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
-* class [HtmlFormatter](../../htmlformatter)
+* интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
+* класс [HtmlFormatter](../../htmlformatter)
 * пространство имен [Aspose.Slides.Export](../../htmlformatter)
 * сборка [Aspose.Slides](../../../)
 

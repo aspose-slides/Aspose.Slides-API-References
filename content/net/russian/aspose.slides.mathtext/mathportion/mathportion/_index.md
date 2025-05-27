@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathportion/mathportion/
 ---
-## MathPortion constructor
+
+## Конструктор MathPortion
 
 Инициализирует новый экземпляр класса MathPortion.
 
@@ -29,9 +30,9 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### См. также
 
-* class [MathPortion](../../mathportion)
+* класс [MathPortion](../../mathportion)
 * пространство имен [Aspose.Slides.MathText](../../mathportion)
 * сборка [Aspose.Slides](../../../)
 

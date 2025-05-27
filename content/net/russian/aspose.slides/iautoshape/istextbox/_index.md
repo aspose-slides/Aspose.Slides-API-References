@@ -1,14 +1,15 @@
 ---
 title: IsTextBox
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает является ли фигура текстовым полем.
+description: Указывает, является ли форма текстовым полем.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iautoshape/istextbox/
 ---
-## IAutoShape.IsTextBox property
 
-Указывает, является ли фигура текстовым полем.
+## IAutoShape.IsTextBox свойство
+
+Указывает, является ли форма текстовым полем.
 
 ```csharp
 public bool IsTextBox { get; }
@@ -16,11 +17,11 @@ public bool IsTextBox { get; }
 
 ### Примечания
 
-Если фигура не указана как текстовое поле, это не означает, что к ней нельзя прикрепить текст. Это. Текст box — это просто специальная форма с определенными свойствами.
+Если форма не указана как текстовое поле, это не означает, что к ней не может быть прикреплен текст. Текстовое поле — это всего лишь специализированная форма с определенными свойствами.
 
-### Смотрите также
+### Также см.
 
-* interface [IAutoShape](../../iautoshape)
+* интерфейс [IAutoShape](../../iautoshape)
 * пространство имен [Aspose.Slides](../../iautoshape)
 * сборка [Aspose.Slides](../../../)
 

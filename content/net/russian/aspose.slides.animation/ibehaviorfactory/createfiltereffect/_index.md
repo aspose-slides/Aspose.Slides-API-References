@@ -1,12 +1,13 @@
 ---
 title: CreateFilterEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает эффект фильтра.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/ibehaviorfactory/createfiltereffect/
 ---
-## IBehaviorFactory.CreateFilterEffect method
+
+## IBehaviorFactory.CreateFilterEffect метод
 
 Создает эффект фильтра.
 
@@ -18,10 +19,10 @@ public IFilterEffect CreateFilterEffect()
 
 Эффект фильтра.
 
-### Смотрите также
+### См. также
 
-* interface [IFilterEffect](../../ifiltereffect)
-* interface [IBehaviorFactory](../../ibehaviorfactory)
+* интерфейс [IFilterEffect](../../ifiltereffect)
+* интерфейс [IBehaviorFactory](../../ibehaviorfactory)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorfactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: SetData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает предоставленные пользователем данные ресурса который используется еслиResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading возвращаетUserProvided.
+second_title: Aspose.Slides для .NET API Reference
+description: Устанавливает пользовательские данные ресурса, которые используются, если ResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading возвращает UserProvided.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iresourceloadingargs/setdata/
 ---
-## IResourceLoadingArgs.SetData method
 
-Устанавливает предоставленные пользователем данные ресурса, который используется, если[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) возвращаетUserProvided.
+## IResourceLoadingArgs.SetData метод
+
+Устанавливает пользовательские данные ресурса, которые используются, если [`ResourceLoading`](../../iresourceloadingcallback/resourceloading) возвращает UserProvided.
 
 ```csharp
 public void SetData(byte[] data)
@@ -16,11 +17,11 @@ public void SetData(byte[] data)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| data | Byte[] | Предоставлены данные ресурсаByte[] |
+| data | Byte[] | Предоставленные данные ресурса Byte[] |
 
-### Смотрите также
+### См. также
 
-* interface [IResourceLoadingArgs](../../iresourceloadingargs)
+* интерфейс [IResourceLoadingArgs](../../iresourceloadingargs)
 * пространство имен [Aspose.Slides](../../iresourceloadingargs)
 * сборка [Aspose.Slides](../../../)
 

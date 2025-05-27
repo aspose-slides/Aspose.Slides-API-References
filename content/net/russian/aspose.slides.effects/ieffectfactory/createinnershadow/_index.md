@@ -1,27 +1,28 @@
 ---
 title: CreateInnerShadow
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает эффект внутреннего шафоу.
+second_title: Справка по API Aspose.Slides для .NET
+description: Создает эффект внутренней тени.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/ieffectfactory/createinnershadow/
 ---
-## IEffectFactory.CreateInnerShadow method
 
-Создает эффект внутреннего шафоу.
+## Метод IEffectFactory.CreateInnerShadow
+
+Создает эффект внутренней тени.
 
 ```csharp
 public IInnerShadow CreateInnerShadow()
 ```
 
-### Возвращаемое значение
+### Значение возврата
 
-Внутренний эффект шафоу.
+Эффект внутренней тени.
 
-### Смотрите также
+### См. также
 
-* interface [IInnerShadow](../../iinnershadow)
-* interface [IEffectFactory](../../ieffectfactory)
+* интерфейс [IInnerShadow](../../iinnershadow)
+* интерфейс [IEffectFactory](../../ieffectfactory)
 * пространство имен [Aspose.Slides.Effects](../../ieffectfactory)
 * сборка [Aspose.Slides](../../../)
 

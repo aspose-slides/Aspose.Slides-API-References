@@ -1,11 +1,12 @@
 ---
 title: Nary
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает N-арный оператор
 type: docs
 weight: 100
 url: /ru/aspose.slides.mathtext/imathelement/nary/
 ---
+
 ## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
 
 Создает N-арный оператор
@@ -17,13 +18,13 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MathNaryOperatorTypes | N-арный тип оператора |
+| type | MathNaryOperatorTypes | Тип N-арного оператора |
 | lowerLimit | IMathElement | Нижний предел |
 | upperLimit | IMathElement | Верхний предел |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathNaryOperator`](../../imathnaryoperator)
+Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Примеры
 
@@ -39,9 +40,9 @@ IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summatio
 
 ### Смотрите также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathNaryOperatorTypes](../../mathnaryoperatortypes)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* перечисление [MathNaryOperatorTypes](../../mathnaryoperatortypes)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
@@ -57,13 +58,13 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MathNaryOperatorTypes | N-арный тип оператора |
+| type | MathNaryOperatorTypes | Тип N-арного оператора |
 | lowerLimit | String | Нижний предел |
 | upperLimit | String | Верхний предел |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathNaryOperator`](../../imathnaryoperator)
+Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Примеры
 
@@ -76,9 +77,9 @@ IMathNaryOperator naryOperator = new MathematicalText("i").Nary(MathNaryOperator
 
 ### Смотрите также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathNaryOperatorTypes](../../mathnaryoperatortypes)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* перечисление [MathNaryOperatorTypes](../../mathnaryoperatortypes)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: SaveExternal
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Сохраняет внешний объект.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/ilinkembedcontroller/saveexternal/
 ---
-## ILinkEmbedController.SaveExternal method
+
+## Метод ILinkEmbedController.SaveExternal
 
 Сохраняет внешний объект.
 
@@ -16,12 +17,12 @@ public void SaveExternal(int id, byte[] entityData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | Int32 | Идентификатор объекта. Этот идентификатор сохраняет уникальность для всей операции. |
-| entityData | Byte[] | Двоичные данные объекта. Этот параметр не может быть нулевым. |
+| id | Int32 | Идентификатор объекта. Этот идентификатор уникален для всей операции сохранения. |
+| entityData | Byte[] | Двоичные данные объекта. Этот параметр не может быть null. |
 
-### Смотрите также
+### Также смотрите
 
-* interface [ILinkEmbedController](../../ilinkembedcontroller)
+* интерфейс [ILinkEmbedController](../../ilinkembedcontroller)
 * пространство имен [Aspose.Slides.Export](../../ilinkembedcontroller)
 * сборка [Aspose.Slides](../../../)
 

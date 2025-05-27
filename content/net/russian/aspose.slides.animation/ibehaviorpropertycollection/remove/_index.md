@@ -1,12 +1,13 @@
 ---
-title: Remove
-second_title: Справочник по API Aspose.Slides для .NET
+title: Удалить
+second_title: Справка по API Aspose.Slides для .NET
 description: Удаляет указанное свойство из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/ibehaviorpropertycollection/remove/
 ---
-## IBehaviorPropertyCollection.Remove method
+
+## Метод IBehaviorPropertyCollection.Remove
 
 Удаляет указанное свойство из коллекции.
 
@@ -16,15 +17,15 @@ public bool Remove(string propertyValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| propertyValue | String | Значение удаляемого свойства. |
+| propertyValue | String | Значение свойства для удаления. |
 
 ### Возвращаемое значение
 
-Истинно, если свойство удалено успешноBoolean
+True, если свойство успешно удалено Boolean
 
-### Смотрите также
+### См. также
 
-* interface [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
+* интерфейс [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 

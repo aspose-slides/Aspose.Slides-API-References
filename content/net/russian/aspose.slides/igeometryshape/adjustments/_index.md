@@ -1,23 +1,24 @@
 ---
-title: Adjustments
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор значений настройки формы. Только для чтенияIAdjustValueCollectionaspose.slides/iadjustvaluecollection.
+title: Корректировки
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает коллекцию значений корректировок фигур. Только для чтения IAdjustValueCollectionaspose.slides/iadjustvaluecollection.
 type: docs
 weight: 10
 url: /ru/aspose.slides/igeometryshape/adjustments/
 ---
-## IGeometryShape.Adjustments property
 
-Возвращает набор значений настройки формы. Только для чтения[`IAdjustValueCollection`](../../iadjustvaluecollection).
+## Свойство IGeometryShape.Adjustments
+
+Возвращает коллекцию значений корректировок фигуры. Только для чтения [`IAdjustValueCollection`](../../iadjustvaluecollection).
 
 ```csharp
 public IAdjustValueCollection Adjustments { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IAdjustValueCollection](../../iadjustvaluecollection)
-* interface [IGeometryShape](../../igeometryshape)
+* интерфейс [IAdjustValueCollection](../../iadjustvaluecollection)
+* интерфейс [IGeometryShape](../../igeometryshape)
 * пространство имен [Aspose.Slides](../../igeometryshape)
 * сборка [Aspose.Slides](../../../)
 

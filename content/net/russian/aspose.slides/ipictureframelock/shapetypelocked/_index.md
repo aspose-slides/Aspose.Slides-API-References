@@ -1,22 +1,23 @@
 ---
 title: ShapeTypeLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли изменение типа формы. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, запрещено ли изменение типа фигуры. Записываемый/читаемый логический тип.
 type: docs
 weight: 110
 url: /ru/aspose.slides/ipictureframelock/shapetypelocked/
 ---
-## IPictureFrameLock.ShapeTypeLocked property
 
-Определяет, запрещено ли изменение типа формы. Чтение/записьBoolean.
+## IPictureFrameLock.ShapeTypeLocked свойство
+
+Определяет, запрещено ли изменение типа фигуры. Записываемый/читаемый логический тип.
 
 ```csharp
 public bool ShapeTypeLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPictureFrameLock](../../ipictureframelock)
+* интерфейс [IPictureFrameLock](../../ipictureframelock)
 * пространство имен [Aspose.Slides](../../ipictureframelock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,38 +1,39 @@
 ---
 title: DoubleChartValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет двойное значение которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги связанной с диаграммой 2 как буквальное значение.
+description: Представляет двойное значение, которое может храниться в документе презентации pptx двумя способами: 1 в ячейке/ячейках рабочей книги, связанных с диаграммой; 2 как буквальное значение.
 type: docs
-weight: 1490
+weight: 1550
 url: /ru/aspose.slides.charts/doublechartvalue/
 ---
-## DoubleChartValue class
 
-Представляет двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение.
+## Класс DoubleChartValue
+
+Представляет двойное значение, которое может храниться в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанных с диаграммой; 2) как буквальное значение.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись[`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Возвращает или устанавливает значение как буквальное двойное число. Чтение/записьDouble. |
-| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Возвращает или устанавливает объект данных. Чтение/записьObject. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Возвращает или задает ячейку данных диаграммы. Чтение/запись [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Возвращает или задает значение как буквальное число с плавающей запятой. Чтение/запись Double. |
+| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Возвращает или задает объект Data. Чтение/запись Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в наследниках. Другими словами, оно указывает тип значения свойства Data. Чтение/запись [`DataSourceType`](../datasourcetype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Преобразует вDouble. |
+| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Преобразует в Double. |
 
-### Смотрите также
+### См. также
 
-* class [BaseChartValue](../basechartvalue)
-* interface [IDoubleChartValue](../idoublechartvalue)
+* класс [BaseChartValue](../basechartvalue)
+* интерфейс [IDoubleChartValue](../idoublechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

@@ -1,12 +1,13 @@
 ---
 title: StyleTextDecorationLineThrough
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство style.textDecorationLineThrough
 type: docs
 weight: 1130
 url: /ru/aspose.slides.animation/behaviorproperty/styletextdecorationlinethrough/
 ---
-## BehaviorProperty.StyleTextDecorationLineThrough property
+
+## BehaviorProperty.StyleTextDecorationLineThrough свойство
 
 Представляет свойство 'style.textDecorationLineThrough'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/styletextdecorationlinethrough
 public static BehaviorProperty StyleTextDecorationLineThrough { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,36 @@
 ---
-title: RemoveWriteProtection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Снимает защиту от записи для этой презентации.
+title: УдалитьЗащитуОтЗаписи
+second_title: Справочник API Aspose.Slides для .NET
+description: Удаляет защиту от записи для этой презентации.
 type: docs
 weight: 100
 url: /ru/aspose.slides/protectionmanager/removewriteprotection/
 ---
-## ProtectionManager.RemoveWriteProtection method
 
-Снимает защиту от записи для этой презентации.
+## ProtectionManager.RemoveWriteProtection метод
+
+Удаляет защиту от записи для этой презентации.
 
 ```csharp
 public void RemoveWriteProtection()
 ```
 
-### Смотрите также
+### Примеры
 
-* class [ProtectionManager](../../protectionmanager)
+Этот пример кода показывает, как удалить защиту от записи из презентации PowerPoint.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("pres.pptx"))
+{
+    presentation.ProtectionManager.RemoveWriteProtection();
+    presentation.Save("write-protection-removed.pptx", SaveFormat.Pptx);
+}
+```
+
+### См. также
+
+* класс [ProtectionManager](../../protectionmanager)
 * пространство имен [Aspose.Slides](../../protectionmanager)
 * сборка [Aspose.Slides](../../../)
 

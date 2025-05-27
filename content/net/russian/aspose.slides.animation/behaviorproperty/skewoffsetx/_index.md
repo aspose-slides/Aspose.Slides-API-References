@@ -1,12 +1,13 @@
 ---
 title: SkewOffsetX
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство skew.offset.x
 type: docs
 weight: 830
 url: /ru/aspose.slides.animation/behaviorproperty/skewoffsetx/
 ---
-## BehaviorProperty.SkewOffsetX property
+
+## BehaviorProperty.SkewOffsetX свойство
 
 Представляет свойство 'skew.offset.x'
 
@@ -16,7 +17,7 @@ public static BehaviorProperty SkewOffsetX { get; }
 
 ### Смотрите также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

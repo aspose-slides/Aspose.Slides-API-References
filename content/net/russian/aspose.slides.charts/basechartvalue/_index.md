@@ -1,29 +1,30 @@
 ---
 title: BaseChartValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет значение диаграммы.
+description: Представляет значение графика.
 type: docs
-weight: 1080
+weight: 1140
 url: /ru/aspose.slides.charts/basechartvalue/
 ---
-## BaseChartValue class
 
-Представляет значение диаграммы.
+## Класс BaseChartValue
+
+Представляет значение графика.
 
 ```csharp
 public abstract class BaseChartValue : IBaseChartValue
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Данные. Чтение/записьObject. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
+| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Данные. Чтение/запись Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами, оно указывает тип значения свойства Data. Чтение/запись [`DataSourceType`](../datasourcetype). |
 
-### Смотрите также
-
-* interface [IBaseChartValue](../ibasechartvalue)
+### Также см.
+ 
+* интерфейс [IBaseChartValue](../ibasechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

@@ -1,14 +1,15 @@
 ---
 title: SummaryZoomCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: ПолучаетISummaryZoomSectionCollectionaspose.slides/isummaryzoomsectioncollectionдля объекта Сводная рамка масштабирования.
+second_title: Aspose.Slides для .NET API Reference
+description: Получает ISummaryZoomSectionCollection aspose.slides/isummaryzoomsectioncollection для объекта Summary Zoom Frame.
 type: docs
 weight: 20
 url: /ru/aspose.slides/summaryzoomframe/summaryzoomcollection/
 ---
-## SummaryZoomFrame.SummaryZoomCollection property
 
-Получает[`ISummaryZoomSectionCollection`](../../isummaryzoomsectioncollection)для объекта Сводная рамка масштабирования.
+## Свойство SummaryZoomFrame.SummaryZoomCollection
+
+Получает [`ISummaryZoomSectionCollection`](../../isummaryzoomsectioncollection) для объекта Summary Zoom Frame.
 
 ```csharp
 public ISummaryZoomSectionCollection SummaryZoomCollection { get; }
@@ -27,10 +28,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
-* class [SummaryZoomFrame](../../summaryzoomframe)
+* интерфейс [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
+* класс [SummaryZoomFrame](../../summaryzoomframe)
 * пространство имен [Aspose.Slides](../../summaryzoomframe)
 * сборка [Aspose.Slides](../../../)
 

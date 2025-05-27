@@ -1,12 +1,13 @@
 ---
 title: IResourceLoadingArgs
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Интерфейс для аргументов загрузки внешних ресурсов.
 type: docs
-weight: 6270
+weight: 6630
 url: /ru/aspose.slides/iresourceloadingargs/
 ---
-## IResourceLoadingArgs interface
+
+## Интерфейс IResourceLoadingArgs
 
 Интерфейс для аргументов загрузки внешних ресурсов.
 
@@ -14,20 +15,20 @@ url: /ru/aspose.slides/iresourceloadingargs/
 public interface IResourceLoadingArgs
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Исходный URI ресурса, указанный в импортированной презентации. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI ресурса, который используется для загрузки, если[`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращаетDefault. Первоначально он установлен на исходный URI ресурса, но может быть переопределен на любое значение. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Оригинальный URI ресурса, указанный в импортированном представлении. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI ресурса, который используется для загрузки, если [`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращает Default. Изначально он установлен на оригинальный URI ресурса, но может быть переопределен на любое значение. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Устанавливает предоставленные пользователем данные ресурса, который используется, если[`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращаетUserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Устанавливает данные, предоставленные пользователем, о ресурсе, которые используются, если [`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращает UserProvided. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

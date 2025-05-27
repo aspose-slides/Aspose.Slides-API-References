@@ -1,14 +1,15 @@
 ---
-title: Convert
+title: Convertir
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un groupe de méthodes destinées à convertirPresentation../aspose.slides/presentation .
+description: Représente un groupe de méthodes destinées à convertir Presentationaspose.slides/aspose.slides/presentation.
 type: docs
-weight: 7210
+weight: 7640
 url: /fr/aspose.slides.lowcode/convert/
 ---
-## Convert class
 
-Représente un groupe de méthodes destinées à convertir[`Presentation`](../../aspose.slides/presentation) .
+## Classe Convert
+
+Représente un groupe de méthodes destinées à convertir [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Convert
@@ -16,22 +17,22 @@ public static class Convert
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | convertit[`Presentation`](../../aspose.slides/presentation) en utilisant l'extension de chemin de sortie transmise pour déterminer le format d'exportation requis. |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | convertit[`Presentation`](../../aspose.slides/presentation) au format PDF. |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | convertit[`Presentation`](../../aspose.slides/presentation) au format PDF. |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | convertit[`Presentation`](../../aspose.slides/presentation) au format PDF. |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_3)(string, string, IPdfOptions) | convertit[`Presentation`](../../aspose.slides/presentation) au format PDF. |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_3)(string) | convertit[`Presentation`](../../aspose.slides/presentation) à SVG. |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_1)(Presentation, GetOutPathCallback) | convertit[`Presentation`](../../aspose.slides/presentation) à SVG. |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg)(Presentation, ISVGOptions) | convertit[`Presentation`](../../aspose.slides/presentation) à SVG. |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | convertit[`Presentation`](../../aspose.slides/presentation) à SVG. |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | convertit[`Presentation`](../../aspose.slides/presentation) à SVG. |
+| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Convertit [`Presentation`](../../aspose.slides/presentation) en utilisant l'extension de chemin de sortie passée pour déterminer le format d'exportation requis. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | Convertit [`Presentation`](../../aspose.slides/presentation) en PDF. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | Convertit [`Presentation`](../../aspose.slides/presentation) en PDF. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | Convertit [`Presentation`](../../aspose.slides/presentation) en PDF. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_3)(string, string, IPdfOptions) | Convertit [`Presentation`](../../aspose.slides/presentation) en PDF. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_3)(string) | Convertit [`Presentation`](../../aspose.slides/presentation) en SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_1)(Presentation, GetOutPathCallback) | Convertit [`Presentation`](../../aspose.slides/presentation) en SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg)(Presentation, ISVGOptions) | Convertit [`Presentation`](../../aspose.slides/presentation) en SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | Convertit [`Presentation`](../../aspose.slides/presentation) en SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | Convertit [`Presentation`](../../aspose.slides/presentation) en SVG. |
 
-## Autres membres
+## Autres Membres
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | delegate [GetOutPathCallback](convert.getoutpathcallback) |  |
 
@@ -41,9 +42,9 @@ public static class Convert
 Convert.AutoByExtension("pres.pptx", "pres.pdf");
 ```
 
-### Voir également
+### Voir Aussi
 
-* espace de noms [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
-* Assemblée [Aspose.Slides](../../)
+* namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

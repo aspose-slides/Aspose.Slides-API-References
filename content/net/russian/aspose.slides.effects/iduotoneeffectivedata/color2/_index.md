@@ -1,22 +1,23 @@
 ---
 title: Color2
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат целевого цвета для светлых пикселей. Только для чтенияColor.
+second_title: Aspose.Slides для .NET API Ссылка
+description: Возвращает целевой цветовой формат для светлых пикселей. Только для чтения Color.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/iduotoneeffectivedata/color2/
 ---
-## IDuotoneEffectiveData.Color2 property
 
-Возвращает формат целевого цвета для светлых пикселей. Только для чтенияColor.
+## IDuotoneEffectiveData.Color2 свойство
+
+Возвращает целевой цветовой формат для светлых пикселей. Только для чтения Color.
 
 ```csharp
 public Color Color2 { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IDuotoneEffectiveData](../../iduotoneeffectivedata)
+* интерфейс [IDuotoneEffectiveData](../../iduotoneeffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../iduotoneeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

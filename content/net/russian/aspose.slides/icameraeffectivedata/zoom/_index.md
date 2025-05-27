@@ -1,22 +1,23 @@
 ---
-title: Zoom
-second_title: Справочник по API Aspose.Slides для .NET
-description: Увеличение камеры положительное значение в процентах. Только для чтенияSingle.
+title: Зум
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Зум камеры, положительное значение в процентах. Только для чтения Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides/icameraeffectivedata/zoom/
 ---
-## ICameraEffectiveData.Zoom property
 
-Увеличение камеры (положительное значение в процентах). Только для чтенияSingle.
+## Свойство ICameraEffectiveData.Zoom
+
+Зум камеры (положительное значение в процентах). Только для чтения Single.
 
 ```csharp
 public float Zoom { get; }
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [ICameraEffectiveData](../../icameraeffectivedata)
+* интерфейс [ICameraEffectiveData](../../icameraeffectivedata)
 * пространство имен [Aspose.Slides](../../icameraeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

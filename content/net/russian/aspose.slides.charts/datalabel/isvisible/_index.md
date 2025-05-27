@@ -1,26 +1,27 @@
 ---
 title: IsVisible
-second_title: Справочник по API Aspose.Slides для .NET
-description: False означает что метка данных не видна поэтому все флаги Show ShowValue ... ложны. Только чтениеBoolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Ложь означает, что метка данных не видима и поэтому все флаги показа Show-flags ShowValue и др. ложны. Только для чтения Булево значение.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/datalabel/isvisible/
 ---
-## DataLabel.IsVisible property
 
-False означает, что метка данных не видна (поэтому все флаги Show* (ShowValue, ...) ложны). Только чтениеBoolean.
+## Свойство DataLabel.IsVisible
+
+Ложь означает, что метка данных не видима (и поэтому все флаги показа Show*-флаги (ShowValue и др.) ложны). Только для чтения Булево значение.
 
 ```csharp
 public bool IsVisible { get; }
 ```
 
-### Примечания
+### Замечания
 
-Если метка данных видна, вы можете сделать ее скрытой с помощью метода Hide(). Но если метка данных не видна (IsVisible имеет значение false), вы можете сделать метку данных видимой установив флаги Show* (ShowValue, ...) в истинное состояние.
+Если метка данных видима, вы можете сделать её скрытой с помощью метода Hide(). Но если метка данных не видима (IsVisible равно ложь), вы можете сделать метку данных видимой, установив флаги показа (ShowValue и др.) в состояние истинно.
 
-### Смотрите также
+### См. Также
 
-* class [DataLabel](../../datalabel)
+* класс [DataLabel](../../datalabel)
 * пространство имен [Aspose.Slides.Charts](../../datalabel)
 * сборка [Aspose.Slides](../../../)
 

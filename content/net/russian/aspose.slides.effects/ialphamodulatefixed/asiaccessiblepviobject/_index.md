@@ -1,24 +1,25 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Sildes для .NET API Reference
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObject aspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject/
 ---
-## IAlphaModulateFixed.AsIAccessiblePVIObject property
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+## Свойство IAlphaModulateFixed.AsIAccessiblePVIObject
+
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IAlphaModulateFixedEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Смотрите также
+### Дополнительно
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* interface [IAlphaModulateFixedEffectiveData](../../ialphamodulatefixedeffectivedata)
-* interface [IAlphaModulateFixed](../../ialphamodulatefixed)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IAlphaModulateFixedEffectiveData](../../ialphamodulatefixedeffectivedata)
+* интерфейс [IAlphaModulateFixed](../../ialphamodulatefixed)
 * пространство имен [Aspose.Slides.Effects](../../ialphamodulatefixed)
 * сборка [Aspose.Slides](../../../)
 

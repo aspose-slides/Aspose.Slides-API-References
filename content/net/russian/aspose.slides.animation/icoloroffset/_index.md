@@ -1,28 +1,29 @@
 ---
 title: IColorOffset
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют смещение цвета.
+description: Представляет смещение цвета.
 type: docs
-weight: 370
+weight: 390
 url: /ru/aspose.slides.animation/icoloroffset/
 ---
-## IColorOffset interface
 
-Представляют смещение цвета.
+## Интерфейс IColorOffset
+
+Представляет смещение цвета.
 
 ```csharp
 public interface IColorOffset
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | Определяет первое значение смещения. Чтение/записьSingle. |
-| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | Определяет второе значение смещения. Чтение/записьSingle. |
-| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | Определяет третье значение смещения. Чтение/записьSingle. |
+| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | Определяет первое значение смещения. Чтение/запись Single. |
+| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | Определяет второе значение смещения. Чтение/запись Single. |
+| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | Определяет третье значение смещения. Чтение/запись Single. |
 
-### Смотрите также
+### Также см. 
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

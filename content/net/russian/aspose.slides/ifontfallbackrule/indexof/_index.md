@@ -1,12 +1,13 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает индекс указанного правила в коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ifontfallbackrule/indexof/
 ---
-## IFontFallBackRule.IndexOf method
+
+## IFontFallBackRule.IndexOf метод
 
 Возвращает индекс указанного правила в коллекции.
 
@@ -26,16 +27,16 @@ public int IndexOf(string fontName)
 
 ```csharp
 [C#]
- // Создать правило, содержащее список шрифтов.
+// Создайте правило, содержащее список шрифтов.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
- //Получить индекс Tahoma
+//Получите индекс Tahoma
 int tahomaIndex = newRule.IndexOf("Tahoma");
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IFontFallBackRule](../../ifontfallbackrule)
+* интерфейс [IFontFallBackRule](../../ifontfallbackrule)
 * пространство имен [Aspose.Slides](../../ifontfallbackrule)
 * сборка [Aspose.Slides](../../../)
 

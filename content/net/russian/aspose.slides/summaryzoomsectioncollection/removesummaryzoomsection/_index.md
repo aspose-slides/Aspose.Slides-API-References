@@ -1,14 +1,15 @@
 ---
-title: RemoveSummaryZoomSection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удалить объект Сводная секция масштабирования из коллекции.
+title: УдалитьСекциюРезюмеЗума
+second_title: Справка по API Aspose.Slides для .NET
+description: Удалить объект секции резюме зума из коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection/
 ---
-## SummaryZoomSectionCollection.RemoveSummaryZoomSection method
 
-Удалить объект Сводная секция масштабирования из коллекции.
+## Метод SummaryZoomSectionCollection.RemoveSummaryZoomSection
+
+Удалить объект секции резюме зума из коллекции.
 
 ```csharp
 public void RemoveSummaryZoomSection(ISection section)
@@ -16,11 +17,11 @@ public void RemoveSummaryZoomSection(ISection section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | ISection | Раздел, для которого необходимо удалить элемент Summary Zoom Section[`ISection`](../../isection). |
+| section | ISection | Секция, из которой необходимо удалить элемент секции резюме зума [`ISection`](../../isection). |
 
 ### Примеры
 
-Пример демонстрирует получение элемента Summary Zoom Section по индексу:
+Пример демонстрирует получение элемента секции резюме зума по индексу:
 
 ```csharp
 [C#]
@@ -32,10 +33,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISection](../../isection)
-* class [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
+* интерфейс [ISection](../../isection)
+* класс [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * пространство имен [Aspose.Slides](../../summaryzoomsectioncollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет индекс конкретного элемента по значению свойства вIList.
+second_title: Aspose.Slides для .NET API Reference
+description: Определяет индекс конкретного элемента по значению свойства в IList.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/ibehaviorpropertycollection/indexof/
 ---
-## IBehaviorPropertyCollection.IndexOf method
 
-Определяет индекс конкретного элемента по значению свойства вIList.
+## IBehaviorPropertyCollection.IndexOf метод
+
+Определяет индекс конкретного элемента по значению свойства в IList.
 
 ```csharp
 public int IndexOf(string propertyValue)
@@ -22,9 +23,9 @@ public int IndexOf(string propertyValue)
 
 Индекс свойства с указанным значением
 
-### Смотрите также
+### См. Также
 
-* interface [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
+* интерфейс [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 

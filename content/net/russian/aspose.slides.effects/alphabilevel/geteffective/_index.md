@@ -1,14 +1,15 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные данные эффекта двухуровневого альфа-канала с применением наследования.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает эффективные данные эффекта Alpha Bi-Level с применением наследования.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/alphabilevel/geteffective/
 ---
-## AlphaBiLevel.GetEffective method
 
-Получает эффективные данные эффекта двухуровневого альфа-канала с применением наследования.
+## AlphaBiLevel.GetEffective метод
+
+Получает эффективные данные эффекта Alpha Bi-Level с применением наследования.
 
 ```csharp
 public IAlphaBiLevelEffectiveData GetEffective()
@@ -16,12 +17,12 @@ public IAlphaBiLevelEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IAlphaBiLevelEffectiveData`](../../ialphabileveleffectivedata).
+[`IAlphaBiLevelEffectiveData`](../../ialphabileveleffectivedata).
 
-### Смотрите также
+### Также смотрите
 
-* interface [IAlphaBiLevelEffectiveData](../../ialphabileveleffectivedata)
-* class [AlphaBiLevel](../../alphabilevel)
+* интерфейс [IAlphaBiLevelEffectiveData](../../ialphabileveleffectivedata)
+* класс [AlphaBiLevel](../../alphabilevel)
 * пространство имен [Aspose.Slides.Effects](../../alphabilevel)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
-title: Direction
-second_title: Справочник по API Aspose.Slides для .NET
-description: Направление тени. Чтение/записьSingle.
+title: Направление
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Направление тени. Чтение/запись Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/ipresetshadow/direction/
 ---
-## IPresetShadow.Direction property
 
-Направление тени. Чтение/записьSingle.
+## Свойство IPresetShadow.Direction
+
+Направление тени. Чтение/запись Single.
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPresetShadow](../../ipresetshadow)
+* интерфейс [IPresetShadow](../../ipresetshadow)
 * пространство имен [Aspose.Slides.Effects](../../ipresetshadow)
 * сборка [Aspose.Slides](../../../)
 

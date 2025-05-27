@@ -1,14 +1,15 @@
 ---
 title: IsWriteProtected
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение указывающее защищена ли связанная презентация от записи.
+second_title: Aspose.Slides для .NET API Справка
+description: Получает значение, указывающее, защищена ли привязанная презентация от записи.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ipresentationinfo/iswriteprotected/
 ---
-## IPresentationInfo.IsWriteProtected property
 
-Получает значение, указывающее, защищена ли связанная презентация от записи.
+## Свойство IPresentationInfo.IsWriteProtected
+
+Получает значение, указывающее, защищена ли привязанная презентация от записи.
 
 ```csharp
 public NullableBool IsWriteProtected { get; }
@@ -16,7 +17,7 @@ public NullableBool IsWriteProtected { get; }
 
 ### Примечания
 
-Если презентация защищен паролем для открытия, значение свойства равно NotDefined. См.[`NullableBool`](../../nullablebool)перечисление.
+Если презентация защищена паролем для открытия, значение свойства равно NotDefined. См. перечисление [`NullableBool`](../../nullablebool).
 
 ### Примеры
 
@@ -25,14 +26,14 @@ public NullableBool IsWriteProtected { get; }
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo(presentationFilePath);
 if (info.IsWriteProtected == NullableBool.True)
 {
-    Console.WriteLine("The presentation '" + presentationFilePath + "' is write protected by a password.");
+    Console.WriteLine("Презентация '" + presentationFilePath + "' защищена от записи паролем.");
 }
 ```
 
-### Смотрите также
+### См. также
 
-* enum [NullableBool](../../nullablebool)
-* interface [IPresentationInfo](../../ipresentationinfo)
+* перечисление [NullableBool](../../nullablebool)
+* интерфейс [IPresentationInfo](../../ipresentationinfo)
 * пространство имен [Aspose.Slides](../../ipresentationinfo)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: IsSynchronized
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает значение, указывающее, синхронизирован ли доступ к коллекции потоко-безопасно. Доступен только для чтения Boolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized/
 ---
-## ImageTransformOCollectionEffectiveData.IsSynchronized property
 
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
+## ImageTransformOCollectionEffectiveData.IsSynchronized свойство
+
+Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потоко-безопасно). Доступен только для чтения Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
+* класс [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

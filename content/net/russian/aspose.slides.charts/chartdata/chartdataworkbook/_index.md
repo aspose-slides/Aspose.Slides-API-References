@@ -1,23 +1,24 @@
 ---
 title: ChartDataWorkbook
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает фабрику ячеек для создания ячеек используемых для серий или категорий диаграмм. Только для чтенияIChartDataWorkbookaspose.slides.charts/ichartdataworkbook.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает фабрику ячеек для создания ячеек, используемых для серий или категорий диаграмм. Только для чтения IChartDataWorkbook aspose.slides.charts/ichartdataworkbook.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartdata/chartdataworkbook/
 ---
-## ChartData.ChartDataWorkbook property
 
-Получает фабрику ячеек для создания ячеек, используемых для серий или категорий диаграмм. Только для чтения[`IChartDataWorkbook`](../../ichartdataworkbook).
+## Свойство ChartData.ChartDataWorkbook
+
+Получает фабрику ячеек для создания ячеек, используемых для серий или категорий диаграмм. Только для чтения [`IChartDataWorkbook`](../../ichartdataworkbook).
 
 ```csharp
 public IChartDataWorkbook ChartDataWorkbook { get; }
 ```
 
-### Смотрите также
+### Также Смотрите
 
-* interface [IChartDataWorkbook](../../ichartdataworkbook)
-* class [ChartData](../../chartdata)
+* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
+* класс [ChartData](../../chartdata)
 * пространство имен [Aspose.Slides.Charts](../../chartdata)
 * сборка [Aspose.Slides](../../../)
 

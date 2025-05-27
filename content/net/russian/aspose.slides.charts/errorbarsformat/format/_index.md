@@ -1,14 +1,15 @@
 ---
-title: Format
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет формат полос ошибок. Чтение/записьIFormataspose.slides.charts/iformat.
+title: Формат
+second_title: Справочник по API Aspose.Silides для .NET
+description: Представляет формат погрешностей. Читаемый/записываемый IFormataspose.slides/iformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/errorbarsformat/format/
 ---
-## ErrorBarsFormat.Format property
 
-Представляет формат полос ошибок. Чтение/запись[`IFormat`](../../iformat).
+## Свойство ErrorBarsFormat.Format
+
+Представляет формат погрешностей. Читаемый/записываемый [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }
@@ -16,8 +17,8 @@ public IFormat Format { get; set; }
 
 ### Смотрите также
 
-* interface [IFormat](../../iformat)
-* class [ErrorBarsFormat](../../errorbarsformat)
+* интерфейс [IFormat](../../iformat)
+* класс [ErrorBarsFormat](../../errorbarsformat)
 * пространство имен [Aspose.Slides.Charts](../../errorbarsformat)
 * сборка [Aspose.Slides](../../../)
 

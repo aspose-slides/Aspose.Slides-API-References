@@ -1,30 +1,31 @@
 ---
 title: IMasterThemeManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Предоставляет доступ к основной теме презентации.
+second_title: Справка по API Aspose.Slides для .NET
+description: Предоставляет доступ к основному оформлению презентации.
 type: docs
-weight: 10510
+weight: 11010
 url: /ru/aspose.slides.theme/imasterthememanager/
 ---
-## IMasterThemeManager interface
 
-Предоставляет доступ к основной теме презентации.
+## Интерфейс IMasterThemeManager
+
+Предоставляет доступ к основному оформлению презентации.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Позволяет получить базовый интерфейс IThemeManager. Только для чтения[`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Определяет, переопределяет ли OverrideTheme унаследованную действующую тему (Presentation.MasterTheme) или нет. Чтение/записьBoolean. |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Возвращает основной объект темы. Чтение/запись[`IMasterTheme`](../imastertheme). |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Позволяет получить базовый интерфейс IThemeManager. Только для чтения [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему (Presentation.MasterTheme) или нет. Читаемое и записываемое логическое значение. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Читаемое и записываемое [`IMasterTheme`](../imastertheme). |
 
-### Смотрите также
+### См. Также
 
-* interface [IThemeManager](../ithememanager)
+* интерфейс [IThemeManager](../ithememanager)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

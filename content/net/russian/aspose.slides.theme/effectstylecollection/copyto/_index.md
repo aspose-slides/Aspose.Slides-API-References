@@ -1,14 +1,15 @@
 ---
 title: CopyTo
 second_title: Справочник по API Aspose.Slides для .NET
-description: Копирует все элементы из коллекции в указанный массив.
+description: Копирует все элементы из коллекции в заданный массив.
 type: docs
 weight: 50
 url: /ru/aspose.slides.theme/effectstylecollection/copyto/
 ---
-## EffectStyleCollection.CopyTo method
 
-Копирует все элементы из коллекции в указанный массив.
+## Метод EffectStyleCollection.CopyTo
+
+Копирует все элементы из коллекции в заданный массив.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -19,9 +20,9 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в целевом массиве. |
 
-### Смотрите также
+### См. также
 
-* class [EffectStyleCollection](../../effectstylecollection)
+* класс [EffectStyleCollection](../../effectstylecollection)
 * пространство имен [Aspose.Slides.Theme](../../effectstylecollection)
 * сборка [Aspose.Slides](../../../)
 

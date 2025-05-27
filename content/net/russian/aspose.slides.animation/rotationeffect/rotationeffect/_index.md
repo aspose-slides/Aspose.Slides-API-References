@@ -1,12 +1,13 @@
 ---
 title: RotationEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочная информация по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/rotationeffect/rotationeffect/
 ---
-## RotationEffect constructor
+
+## Конструктор RotationEffect
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/rotationeffect/rotationeffect/
 public RotationEffect()
 ```
 
-### Смотрите также
+### См. также
 
-* class [RotationEffect](../../rotationeffect)
+* класс [RotationEffect](../../rotationeffect)
 * пространство имен [Aspose.Slides.Animation](../../rotationeffect)
 * сборка [Aspose.Slides](../../../)
 

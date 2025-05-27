@@ -1,14 +1,15 @@
 ---
 title: AddAudioFrameEmbedded
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет в конец коллекции новый аудиокадр со встроенным аудиофайлом. Встроенный аудиофайл может быть только в формате WAV. Добавляет новый звук в список Presentation.Audios.
+second_title: Aspose.Slides для .NET API Reference
+description: Добавляет новый аудиофрей с встроенным аудиофайлом в конец коллекции. Встроенный аудиофайл может быть только WAV. Он добавляет новый аудио в список Presentation.Audios.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ishapecollection/addaudioframeembedded/
 ---
+
 ## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
-Добавляет в конец коллекции новый аудиокадр со встроенным аудиофайлом. Встроенный аудиофайл может быть только в формате WAV. Добавляет новый звук в список Presentation.Audios.
+Добавляет новый аудиофрей с встроенным аудиофайлом в конец коллекции. Встроенный аудиофайл может быть только WAV. Он добавляет новый аудио в список Presentation.Audios.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, 
@@ -17,20 +18,20 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового звукового кадра. |
-| y | Single | Координата Y нового звукового кадра. |
-| width | Single | Ширина нового звукового кадра. |
-| height | Single | Высота нового звукового кадра. |
-| audio_stream | Stream | Исходящий поток с аудиоданными. |
+| x | Single | X координата нового аудиофрейма. |
+| y | Single | Y координата нового аудиофрейма. |
+| width | Single | Ширина нового аудиофрейма. |
+| height | Single | Высота нового аудиофрейма. |
+| audio_stream | Stream | Входной поток с аудиоданными. |
 
 ### Возвращаемое значение
 
-Создан объект AudioFrame.
+Созданный объект AudioFrame.
 
 ### Смотрите также
 
-* interface [IAudioFrame](../../iaudioframe)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IAudioFrame](../../iaudioframe)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -38,7 +39,7 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 ## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
 
-Добавляет в конец коллекции новый аудиокадр со встроенным аудиофайлом. Используется аудиофайл из списка Presentation.Audios.
+Добавляет новый аудиофрей с встроенным аудиофайлом в конец коллекции. Он использует аудиофайл из списка Presentation.Audios.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)
@@ -46,21 +47,21 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового звукового кадра. |
-| y | Single | Координата Y нового звукового кадра. |
-| width | Single | Ширина нового звукового кадра. |
-| height | Single | Высота нового звукового кадра. |
+| x | Single | X координата нового аудиофрейма. |
+| y | Single | Y координата нового аудиофрейма. |
+| width | Single | Ширина нового аудиофрейма. |
+| height | Single | Высота нового аудиофрейма. |
 | audio | IAudio | Аудио из списка Presentation.Audios. |
 
 ### Возвращаемое значение
 
-Создан объект AudioFrame.
+Созданный объект AudioFrame.
 
 ### Смотрите также
 
-* interface [IAudioFrame](../../iaudioframe)
-* interface [IAudio](../../iaudio)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IAudioFrame](../../iaudioframe)
+* интерфейс [IAudio](../../iaudio)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

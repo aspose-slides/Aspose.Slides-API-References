@@ -1,23 +1,24 @@
 ---
 title: ParentSeriesGroup
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительскую группу серий. Только для чтенияIChartSeriesGroupaspose.slides.charts/ichartseriesgroup.
+description: Возвращает родительскую группу серий. Только для чтения IChartSeriesGroup aspose.slides.charts/ichartseriesgroup.
 type: docs
 weight: 290
 url: /ru/aspose.slides.charts/ichartseries/parentseriesgroup/
 ---
-## IChartSeries.ParentSeriesGroup property
 
-Возвращает родительскую группу серий. Только для чтения[`IChartSeriesGroup`](../../ichartseriesgroup).
+## Свойство IChartSeries.ParentSeriesGroup
+
+Возвращает родительскую группу серий. Только для чтения [`IChartSeriesGroup`](../../ichartseriesgroup).
 
 ```csharp
 public IChartSeriesGroup ParentSeriesGroup { get; }
 ```
 
-### Смотрите также
+### Также см. 
 
-* interface [IChartSeriesGroup](../../ichartseriesgroup)
-* interface [IChartSeries](../../ichartseries)
+* интерфейс [IChartSeriesGroup](../../ichartseriesgroup)
+* интерфейс [IChartSeries](../../ichartseries)
 * пространство имен [Aspose.Slides.Charts](../../ichartseries)
 * сборка [Aspose.Slides](../../../)
 

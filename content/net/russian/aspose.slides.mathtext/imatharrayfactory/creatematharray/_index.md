@@ -1,11 +1,12 @@
 ---
 title: CreateMathArray
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slildes для справки по API .NET
 description: Создает математический массив и помещает в него указанный элемент
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imatharrayfactory/creatematharray/
 ---
+
 ## CreateMathArray(IMathElement) {#creatematharray}
 
 Создает математический массив и помещает в него указанный элемент
@@ -18,15 +19,15 @@ public IMathArray CreateMathArray(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | математический элемент для размещения в массиве |
 
-### Возвращаемое значение
+### Возврат Значения
 
 новый математический массив
 
-### Смотрите также
+### См. Также
 
-* interface [IMathArray](../../imatharray)
-* interface [IMathElement](../../imathelement)
-* interface [IMathArrayFactory](../../imatharrayfactory)
+* интерфейс [IMathArray](../../imatharray)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathArrayFactory](../../imatharrayfactory)
 * пространство имен [Aspose.Slides.MathText](../../imatharrayfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,15 +45,15 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 | --- | --- | --- |
 | elements | IMathElementCollection | математические элементы для размещения в массиве |
 
-### Возвращаемое значение
+### Возврат Значения
 
 новый математический массив
 
-### Смотрите также
+### См. Также
 
-* interface [IMathArray](../../imatharray)
-* interface [IMathElementCollection](../../imathelementcollection)
-* interface [IMathArrayFactory](../../imatharrayfactory)
+* интерфейс [IMathArray](../../imatharray)
+* интерфейс [IMathElementCollection](../../imathelementcollection)
+* интерфейс [IMathArrayFactory](../../imatharrayfactory)
 * пространство имен [Aspose.Slides.MathText](../../imatharrayfactory)
 * сборка [Aspose.Slides](../../../)
 

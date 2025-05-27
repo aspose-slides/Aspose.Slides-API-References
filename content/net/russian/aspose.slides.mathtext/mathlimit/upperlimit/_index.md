@@ -1,14 +1,15 @@
 ---
 title: UpperLimit
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает верхний или нижний предел
+description: Указывает верхний или нижний предел
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathlimit/upperlimit/
 ---
-## MathLimit.UpperLimit property
 
-Задает верхний или нижний предел
+## Свойство MathLimit.UpperLimit
+
+Указывает верхний или нижний предел
 
 ```csharp
 public bool UpperLimit { get; set; }
@@ -26,7 +27,7 @@ limitElement.UpperLimit = false;
 
 ### Смотрите также
 
-* class [MathLimit](../../mathlimit)
+* класс [MathLimit](../../mathlimit)
 * пространство имен [Aspose.Slides.MathText](../../mathlimit)
 * сборка [Aspose.Slides](../../../)
 

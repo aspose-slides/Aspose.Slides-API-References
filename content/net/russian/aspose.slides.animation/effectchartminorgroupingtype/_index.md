@@ -1,27 +1,28 @@
 ---
 title: EffectChartMinorGroupingType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет тип эффекта анимации для элемента диаграммы в серии или категории.
+description: Представляет тип анимационного эффекта для элемента графика в серии или категории.
 type: docs
-weight: 200
+weight: 220
 url: /ru/aspose.slides.animation/effectchartminorgroupingtype/
 ---
-## EffectChartMinorGroupingType enumeration
 
-Представляет тип эффекта анимации для элемента диаграммы в серии или категории.
+## Перечисление EffectChartMinorGroupingType
+
+Представляет тип анимационного эффекта для элемента графика в серии или категории.
 
 ```csharp
 public enum EffectChartMinorGroupingType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
-| ByElementInSeries | `0` | Анимировать диаграмму по элементам в серии |
-| ByElementInCategory | `1` | Анимировать диаграмму по элементам в категории |
+| ByElementInSeries | `0` | Анимировать график по элементу в серии |
+| ByElementInCategory | `1` | Анимировать график по элементу в категории |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

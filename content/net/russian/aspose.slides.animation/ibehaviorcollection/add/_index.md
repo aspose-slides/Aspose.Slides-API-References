@@ -1,14 +1,15 @@
 ---
-title: Add
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавить новое поведение в коллекцию.
+title: Добавить
+second_title: Справочник API Aspose.Slides для .NET
+description: Добавьте новое поведение в коллекцию.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/ibehaviorcollection/add/
 ---
-## IBehaviorCollection.Add method
 
-Добавить новое поведение в коллекцию.
+## Метод IBehaviorCollection.Add
+
+Добавьте новое поведение в коллекцию.
 
 ```csharp
 public void Add(IBehavior item)
@@ -18,10 +19,10 @@ public void Add(IBehavior item)
 | --- | --- | --- |
 | item | IBehavior | Поведение для добавления. |
 
-### Смотрите также
+### См. также
 
-* interface [IBehavior](../../ibehavior)
-* interface [IBehaviorCollection](../../ibehaviorcollection)
+* интерфейс [IBehavior](../../ibehavior)
+* интерфейс [IBehaviorCollection](../../ibehaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorcollection)
 * сборка [Aspose.Slides](../../../)
 

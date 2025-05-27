@@ -1,22 +1,23 @@
 ---
 title: RemoveMasterHandoutSlide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет основной слайд раздаточных материалов.
+second_title: Aspose.Slides для .NET API Справочник
+description: Удаляет слайд основного раздаточного материала.
 type: docs
 weight: 20
 url: /ru/aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide/
 ---
-## IMasterHandoutSlideManager.RemoveMasterHandoutSlide method
 
-Удаляет основной слайд раздаточных материалов.
+## IMasterHandoutSlideManager.RemoveMasterHandoutSlide метод
+
+Удаляет слайд основного раздаточного материала.
 
 ```csharp
 public void RemoveMasterHandoutSlide()
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IMasterHandoutSlideManager](../../imasterhandoutslidemanager)
+* интерфейс [IMasterHandoutSlideManager](../../imasterhandoutslidemanager)
 * пространство имен [Aspose.Slides](../../imasterhandoutslidemanager)
 * сборка [Aspose.Slides](../../../)
 

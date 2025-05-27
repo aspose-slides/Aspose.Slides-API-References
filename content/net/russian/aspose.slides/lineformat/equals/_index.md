@@ -1,12 +1,26 @@
 ---
-title: Equals
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равны ли два экземпляра LineFormat.
-type: docs
+title: Равно
+second_title: Aspose.Sildes для .NET API Reference
+description: type: docs
 weight: 180
 url: /ru/aspose.slides/lineformat/equals/
 ---
-## LineFormat.Equals method
+
+## Equals(object) {#equals_1}
+
+```csharp
+public override bool Equals(object obj)
+```
+
+### Смотри Также
+
+* класс [LineFormat](../../lineformat)
+* пространство имен [Aspose.Slides](../../lineformat)
+* сборка [Aspose.Slides](../../../)
+
+---
+
+## Equals(ILineFormat) {#equals}
 
 Определяет, равны ли два экземпляра LineFormat.
 
@@ -18,14 +32,14 @@ public bool Equals(ILineFormat lineFormat)
 | --- | --- | --- |
 | lineFormat | ILineFormat | LineFormat для сравнения с текущим LineFormat. |
 
-### Возвращаемое значение
+### Возврат Значения
 
-**true** , если указанный LineFormat равен текущему LineFormat; иначе, **false** .
+**true**, если указанный LineFormat равен текущему LineFormat; в противном случае **false**.
 
-### Смотрите также
+### Смотри Также
 
-* interface [ILineFormat](../../ilineformat)
-* class [LineFormat](../../lineformat)
+* интерфейс [ILineFormat](../../ilineformat)
+* класс [LineFormat](../../lineformat)
 * пространство имен [Aspose.Slides](../../lineformat)
 * сборка [Aspose.Slides](../../../)
 

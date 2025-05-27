@@ -1,35 +1,36 @@
 ---
 title: PVIObject
 second_title: Справочник по API Aspose.Slides для .NET
-description: Инкапсулирует базовую сервисную инфраструктуру для объектов которые могут быть предметом наследования значений свойств.
+description: Инкапсулирует основную сервисную инфраструктуру для объектов, которые могут быть объектом наследования значений свойств.
 type: docs
-weight: 8540
+weight: 9000
 url: /ru/aspose.slides/pviobject/
 ---
-## PVIObject class
 
-Инкапсулирует базовую сервисную инфраструктуру для объектов, которые могут быть предметом наследования значений свойств.
+## Класс PVIObject
+
+Инкапсулирует основную сервисную инфраструктуру для объектов, которые могут быть объектом наследования значений свойств.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хеширования. |
 
 ### Смотрите также
 
-* interface [ISlideComponent](../islidecomponent)
+* интерфейс [ISlideComponent](../islidecomponent)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

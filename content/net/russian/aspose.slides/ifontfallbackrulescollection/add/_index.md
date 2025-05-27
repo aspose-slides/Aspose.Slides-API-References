@@ -1,14 +1,15 @@
 ---
-title: Add
+title: Добавить
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавить новое правило FallBack в конец коллекции.
+description: Добавьте новое правило FallBack в конец коллекции.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ifontfallbackrulescollection/add/
 ---
-## IFontFallBackRulesCollection.Add method
 
-Добавить новое правило FallBack в конец коллекции.
+## Метод IFontFallBackRulesCollection.Add
+
+Добавьте новое правило FallBack в конец коллекции.
 
 ```csharp
 public void Add(IFontFallBackRule sourceRule)
@@ -16,7 +17,7 @@ public void Add(IFontFallBackRule sourceRule)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceRule | IFontFallBackRule | Заданное правило для добавления |
+| sourceRule | IFontFallBackRule | Указанное правило для добавления |
 
 ### Примеры
 
@@ -24,18 +25,18 @@ public void Add(IFontFallBackRule sourceRule)
 [C#]
 using (Presentation pres = new Presentation ())
 {
-     //Получение пустой или предварительно инициализированной коллекции правил из FontsManager
+    //Получение пустой или предварительно инициализированной коллекции правил от FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
-     //Добавление нового правила в collection
+    //Добавление нового правила в коллекцию
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 }
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [IFontFallBackRule](../../ifontfallbackrule)
-* interface [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)
+* интерфейс [IFontFallBackRule](../../ifontfallbackrule)
+* интерфейс [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)
 * пространство имен [Aspose.Slides](../../ifontfallbackrulescollection)
 * сборка [Aspose.Slides](../../../)
 

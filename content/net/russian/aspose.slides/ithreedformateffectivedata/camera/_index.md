@@ -1,23 +1,24 @@
 ---
-title: Camera
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает настройки камеры. Только для чтенияICameraEffectiveDataaspose.slides/icameraeffectivedata.
+title: Камера
+second_title: Ссылка на API Aspose.Slidess для .NET
+description: Возвращает настройки камеры. Только для чтения ICameraEffectiveDataaspose.slides/icameraeffectivedata.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ithreedformateffectivedata/camera/
 ---
-## IThreeDFormatEffectiveData.Camera property
 
-Возвращает настройки камеры. Только для чтения[`ICameraEffectiveData`](../../icameraeffectivedata).
+## Свойство IThreeDFormatEffectiveData.Camera
+
+Возвращает настройки камеры. Только для чтения [`ICameraEffectiveData`](../../icameraeffectivedata).
 
 ```csharp
 public ICameraEffectiveData Camera { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ICameraEffectiveData](../../icameraeffectivedata)
-* interface [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
+* интерфейс [ICameraEffectiveData](../../icameraeffectivedata)
+* интерфейс [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * пространство имен [Aspose.Slides](../../ithreedformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

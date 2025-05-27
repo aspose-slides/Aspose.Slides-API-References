@@ -1,14 +1,15 @@
 ---
-title: SetSlideNumberAndChildSlideNumbersVisibility
-second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет видимость заполнителей номеров страниц мастер-слайда и всех заполнителей номеров дочерних страниц. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
+title: УстановитьВидимостьНомераСлайдаИНомеровДетскихСлайдов
+second_title: Aspose.Slides для .NET Справочник по API
+description: Изменяет видимость заполнителей номера страницы основного слайда и всех заполнителей номера страницы детских слайдов. Детские заполнители означают заполнители, содержащиеся на зависимых макетных слайдах и зависимых слайдах. Зависимые макетные слайды и слайды используют и зависят от основного слайда.
 type: docs
 weight: 50
 url: /ru/aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
-## MasterSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility method
 
-Изменяет видимость заполнителей номеров страниц мастер-слайда и всех заполнителей номеров дочерних страниц. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
+## MasterSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility метод
+
+Изменяет видимость заполнителей номера страницы основного слайда и всех заполнителей номера страницы детских слайдов. Детские заполнители означают заполнители, содержащиеся на зависимых макетных слайдах и зависимых слайдах. Зависимые макетные слайды и слайды используют и зависят от основного слайда.
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
@@ -16,11 +17,11 @@ public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает видимыми заполнители номеров страниц, иначе - скрывает их. |
+| isVisible | Boolean | true - делает заполнители номера страницы видимыми, в противном случае - скрывает их. |
 
 ### Смотрите также
 
-* class [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
+* класс [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masterslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

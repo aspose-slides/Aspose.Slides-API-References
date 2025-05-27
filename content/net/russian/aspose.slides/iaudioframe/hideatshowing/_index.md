@@ -1,22 +1,23 @@
 ---
 title: HideAtShowing
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет скрыт ли AudioFrame. Чтение/записьBoolean.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Определяет, скрыт ли AudioFrame. Читаемое/записываемое логическое значение.
 type: docs
-weight: 80
+weight: 100
 url: /ru/aspose.slides/iaudioframe/hideatshowing/
 ---
-## IAudioFrame.HideAtShowing property
 
-Определяет, скрыт ли AudioFrame. Чтение/записьBoolean.
+## Свойство IAudioFrame.HideAtShowing
+
+Определяет, скрыт ли AudioFrame. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool HideAtShowing { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAudioFrame](../../iaudioframe)
+* интерфейс [IAudioFrame](../../iaudioframe)
 * пространство имен [Aspose.Slides](../../iaudioframe)
 * сборка [Aspose.Slides](../../../)
 

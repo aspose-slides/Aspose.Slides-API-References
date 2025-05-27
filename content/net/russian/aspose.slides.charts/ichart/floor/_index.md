@@ -1,23 +1,24 @@
 ---
-title: Floor
+title: Пол
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект позволяющий изменить формат пола трехмерного графика. Только чтениеIChartWallaspose.slides.charts/ichartwall.
+description: Возвращает объект, который позволяет изменить формат пола 3D графика. Только для чтения IChartWall aspose.slides.charts/ichartwall.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/ichart/floor/
 ---
-## IChart.Floor property
 
-Возвращает объект, позволяющий изменить формат пола трехмерного графика. Только чтение[`IChartWall`](../../ichartwall).
+## Свойство IChart.Floor
+
+Возвращает объект, который позволяет изменить формат пола 3D графика. Только для чтения [`IChartWall`](../../ichartwall).
 
 ```csharp
 public IChartWall Floor { get; }
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [IChartWall](../../ichartwall)
-* interface [IChart](../../ichart)
+* интерфейс [IChartWall](../../ichartwall)
+* интерфейс [IChart](../../ichart)
 * пространство имен [Aspose.Slides.Charts](../../ichart)
 * сборка [Aspose.Slides](../../../)
 

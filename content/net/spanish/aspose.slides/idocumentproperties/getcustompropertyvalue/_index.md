@@ -1,133 +1,134 @@
 ---
 title: GetCustomPropertyValue
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene un valor booleano con nombre de las propiedades personalizadas.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Obtiene un valor booleano nombrado de las propiedades personalizadas.
 type: docs
-weight: 290
+weight: 400
 url: /es/aspose.slides/idocumentproperties/getcustompropertyvalue/
 ---
+
 ## GetCustomPropertyValue(string, out bool) {#getcustompropertyvalue}
 
-Obtiene un valor booleano con nombre de las propiedades personalizadas.
+Obtiene un valor booleano nombrado de las propiedades personalizadas.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out bool value)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de la propiedad personalizada para obtener |
-| value | Boolean& | Valor de propiedad personalizado |
+| name | String | Nombre de la propiedad personalizada a obtener |
+| value | Boolean& | Valor de la propiedad personalizada |
 
-### Ver también
+### Ver También
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out int) {#getcustompropertyvalue_2}
 
-Obtiene un valor entero con nombre de las propiedades personalizadas.
+Obtiene un valor entero nombrado de las propiedades personalizadas.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out int value)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de la propiedad personalizada para obtener |
-| value | Int32& | Valor de propiedad personalizado |
+| name | String | Nombre de la propiedad personalizada a obtener |
+| value | Int32& | Valor de la propiedad personalizada |
 
-### Ver también
+### Ver También
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out DateTime) {#getcustompropertyvalue_4}
 
-Obtiene un valor DateTime con nombre de las propiedades personalizadas.
+Obtiene un valor DateTime nombrado de las propiedades personalizadas.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out DateTime value)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de la propiedad personalizada para obtener |
-| value | DateTime& | Valor de propiedad personalizado |
+| name | String | Nombre de la propiedad personalizada a obtener |
+| value | DateTime& | Valor de la propiedad personalizada |
 
-### Ver también
+### Ver También
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out string) {#getcustompropertyvalue_5}
 
-Obtiene un valor de cadena con nombre de las propiedades personalizadas.
+Obtiene un valor de cadena nombrado de las propiedades personalizadas.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out string value)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de la propiedad personalizada para obtener |
-| value | String& | Valor de propiedad personalizado |
+| name | String | Nombre de la propiedad personalizada a obtener |
+| value | String& | Valor de la propiedad personalizada |
 
-### Ver también
+### Ver También
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out float) {#getcustompropertyvalue_3}
 
-Obtiene un valor flotante con nombre de las propiedades personalizadas.
+Obtiene un valor float nombrado de las propiedades personalizadas.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out float value)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de la propiedad personalizada para obtener |
-| value | Single& | Valor de propiedad personalizado |
+| name | String | Nombre de la propiedad personalizada a obtener |
+| value | Single& | Valor de la propiedad personalizada |
 
-### Ver también
+### Ver También
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out double) {#getcustompropertyvalue_1}
 
-Obtiene un valor doble con nombre de las propiedades personalizadas.
+Obtiene un valor double nombrado de las propiedades personalizadas.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out double value)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de la propiedad personalizada que se va a obtener. |
-| value | Double& | Valor de propiedad personalizado |
+| name | String | Nombre de la propiedad personalizada a obtener. |
+| value | Double& | Valor de la propiedad personalizada |
 
-### Ver también
+### Ver También
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

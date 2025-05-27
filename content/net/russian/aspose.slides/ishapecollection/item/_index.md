@@ -1,23 +1,24 @@
 ---
-title: Item
+title: Элемент
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияIShapeaspose.slides/ishape.
+description: Получает элемент по указанному индексу. Только для чтения IShape aspose.slides/ishape.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ishapecollection/item/
 ---
-## IShapeCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`IShape`](../../ishape).
+## Индексатор IShapeCollection
+
+Получает элемент по указанному индексу. Только для чтения [`IShape`](../../ishape).
 
 ```csharp
 public IShape this[int index] { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IShape](../../ishape)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IShape](../../ishape)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

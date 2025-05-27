@@ -1,11 +1,12 @@
 ---
 title: CreateMathArray
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает математический массив и помещает в него указанный элемент
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/matharrayfactory/creatematharray/
 ---
+
 ## CreateMathArray(IMathElement) {#creatematharray}
 
 Создает математический массив и помещает в него указанный элемент
@@ -16,17 +17,17 @@ public IMathArray CreateMathArray(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для размещения в массиве |
+| element | IMathElement | математический элемент для помещения в массив |
 
 ### Возвращаемое значение
 
 новый математический массив
 
-### Смотрите также
+### См. также
 
-* interface [IMathArray](../../imatharray)
-* interface [IMathElement](../../imathelement)
-* class [MathArrayFactory](../../matharrayfactory)
+* интерфейс [IMathArray](../../imatharray)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathArrayFactory](../../matharrayfactory)
 * пространство имен [Aspose.Slides.MathText](../../matharrayfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -42,17 +43,17 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| elements | IMathElementCollection | математические элементы для размещения в массиве |
+| elements | IMathElementCollection | математические элементы для помещения в массив |
 
 ### Возвращаемое значение
 
 новый математический массив
 
-### Смотрите также
+### См. также
 
-* interface [IMathArray](../../imatharray)
-* interface [IMathElementCollection](../../imathelementcollection)
-* class [MathArrayFactory](../../matharrayfactory)
+* интерфейс [IMathArray](../../imatharray)
+* интерфейс [IMathElementCollection](../../imathelementcollection)
+* класс [MathArrayFactory](../../matharrayfactory)
 * пространство имен [Aspose.Slides.MathText](../../matharrayfactory)
 * сборка [Aspose.Slides](../../../)
 

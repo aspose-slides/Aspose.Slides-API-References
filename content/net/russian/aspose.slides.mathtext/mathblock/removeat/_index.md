@@ -1,12 +1,13 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Справочник API
 description: Удаляет элемент по указанному индексу коллекции.
 type: docs
 weight: 170
 url: /ru/aspose.slides.mathtext/mathblock/removeat/
 ---
-## MathBlock.RemoveAt method
+
+## MathBlock.RemoveAt метод
 
 Удаляет элемент по указанному индексу коллекции.
 
@@ -16,7 +17,7 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
+| index | Int32 | Индекс элемента для удаления, основанный на нуле. |
 
 ### Примеры
 
@@ -31,9 +32,9 @@ mathBlock.Insert(0, new MathRadical(new MathematicalText("x"), new MathematicalT
 mathBlock.RemoveAt(2);
 ```
 
-### Смотрите также
+### См. также
 
-* class [MathBlock](../../mathblock)
+* класс [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

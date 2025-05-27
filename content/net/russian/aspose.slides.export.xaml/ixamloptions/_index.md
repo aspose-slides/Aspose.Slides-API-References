@@ -1,26 +1,27 @@
 ---
 title: IXamlOptions
-second_title: Справочник по API Aspose.Slides для .NET
-description: Параметры управляющие сохранением документа XAML.
+second_title: Справочник API Aspose.Slides для .NET
+description: Опции, которые контролируют, как сохраняется XAML документ.
 type: docs
-weight: 4270
+weight: 4510
 url: /ru/aspose.slides.export.xaml/ixamloptions/
 ---
-## IXamlOptions interface
 
-Параметры, управляющие сохранением документа XAML.
+## Интерфейс IXamlOptions
+
+Опции, которые контролируют, как сохраняется XAML документ.
 
 ```csharp
 public interface IXamlOptions : ISaveOptions
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Определяет, будут ли экспортироваться скрытые слайды. |
-| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Представляет реализацию интерфейса IOutputSaver. |
+| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Представляет собой реализацию интерфейса IOutputSaver. |
 
 ### Примеры
 
@@ -32,9 +33,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISaveOptions](../../aspose.slides.export/isaveoptions)
+* интерфейс [ISaveOptions](../../aspose.slides.export/isaveoptions)
 * пространство имен [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)
 * сборка [Aspose.Slides](../../)
 

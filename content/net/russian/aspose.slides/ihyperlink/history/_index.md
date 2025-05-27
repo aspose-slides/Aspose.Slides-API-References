@@ -1,14 +1,15 @@
 ---
-title: History
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет будет ли цель родительской гиперссылки добавляться в список просматриваемых гиперссылок при ее вызове. Чтение/записьBoolean.
+title: История
+second_title: Справка по API Aspose.Sildes для .NET
+description: Определяет, будет ли целевой элемент родительской гиперссылки добавлен в список просмотренных гиперссылок при ее вызове. Свойство с доступом на чтение и запись типа Boolean.
 type: docs
-weight: 50
+weight: 60
 url: /ru/aspose.slides/ihyperlink/history/
 ---
-## IHyperlink.History property
 
-Определяет, будет ли цель родительской гиперссылки добавляться в список просматриваемых гиперссылок при ее вызове. Чтение/записьBoolean.
+## Свойство IHyperlink.History
+
+Определяет, будет ли целевой элемент родительской гиперссылки добавлен в список просмотренных гиперссылок при ее вызове. Свойство с доступом на чтение и запись типа Boolean.
 
 ```csharp
 public bool History { get; set; }
@@ -16,7 +17,7 @@ public bool History { get; set; }
 
 ### Смотрите также
 
-* interface [IHyperlink](../../ihyperlink)
+* интерфейс [IHyperlink](../../ihyperlink)
 * пространство имен [Aspose.Slides](../../ihyperlink)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: Id
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает идентификатор формы
+description: Получает идентификатор фигуры
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/svgshape/id/
 ---
-## SvgShape.Id property
 
-Получает идентификатор формы
+## Свойство SvgShape.Id
+
+Получает идентификатор фигуры
 
 ```csharp
 public string Id { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [SvgShape](../../svgshape)
+* класс [SvgShape](../../svgshape)
 * пространство имен [Aspose.Slides.Export](../../svgshape)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,24 @@
 ---
-title: Minor
+title: Минор
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию шрифтов для основной части слайда. Только для чтенияIFontsEffectiveDataaspose.slides/ifontseffectivedata.
+description: Возвращает коллекцию шрифтов для части "тела" слайда. Только для чтения IFontsEffectiveDataaspose.slides/ifontseffectivedata.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/ifontschemeeffectivedata/minor/
 ---
-## IFontSchemeEffectiveData.Minor property
 
-Возвращает коллекцию шрифтов для основной части слайда. Только для чтения[`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata).
+## IFontSchemeEffectiveData.Minor свойство
+
+Возвращает коллекцию шрифтов для части "тела" слайда. Только для чтения [`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata).
 
 ```csharp
 public IFontsEffectiveData Minor { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IFontsEffectiveData](../../../aspose.slides/ifontseffectivedata)
-* interface [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)
+* интерфейс [IFontsEffectiveData](../../../aspose.slides/ifontseffectivedata)
+* интерфейс [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../ifontschemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

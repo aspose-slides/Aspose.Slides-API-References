@@ -1,22 +1,23 @@
 ---
 title: Accent1
 second_title: Справочник по API Aspose.Slides для .NET
-description: Первый акцентный цвет в схеме. Только для чтенияColor.
+description: Первый акцентный цвет в схеме. Только для чтения Color.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/accent1/
 ---
-## IColorSchemeEffectiveData.Accent1 property
 
-Первый акцентный цвет в схеме. Только для чтенияColor.
+## IColorSchemeEffectiveData.Accent1 свойство
+
+Первый акцентный цвет в схеме. Только для чтения Color.
 
 ```csharp
 public Color Accent1 { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
+* интерфейс [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../icolorschemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

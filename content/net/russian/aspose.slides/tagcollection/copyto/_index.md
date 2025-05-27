@@ -1,12 +1,13 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 80
 url: /ru/aspose.slides/tagcollection/copyto/
 ---
-## TagCollection.CopyTo method
+
+## Метод TagCollection.CopyTo
 
 Копирует все элементы из коллекции в указанный массив.
 
@@ -19,9 +20,9 @@ public void CopyTo(Array array, int index)
 | array | Array | Массив для заполнения. |
 | index | Int32 | Начальная позиция в целевом массиве. |
 
-### Смотрите также
+### См. также
 
-* class [TagCollection](../../tagcollection)
+* класс [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)
 * сборка [Aspose.Slides](../../../)
 

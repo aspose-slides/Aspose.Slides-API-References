@@ -1,47 +1,48 @@
 ---
 title: MotionEffect
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Stellt das Bewegungseffektverhalten des Effekts dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt das Verhalten des Bewegungseffekts dar.
 type: docs
-weight: 570
+weight: 590
 url: /de/aspose.slides.animation/motioneffect/
 ---
-## MotionEffect class
 
-Stellt das Bewegungseffektverhalten des Effekts dar.
+## MotionEffect-Klasse
+
+Stellt das Verhalten des Bewegungseffekts dar.
 
 ```csharp
 public class MotionEffect : Behavior, IMotionEffect
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [MotionEffect](motioneffect)() | Default_Constructor |
+| [MotionEffect](motioneffect)() | Der Standardkonstruktor. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Stellt dar, ob Animationsverhalten akkumuliert werden. Lesen/Schreiben[`NullableBool`](../../aspose.slides/nullablebool) . |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Stellt dar, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert wird. Lesen/Schreiben[`BehaviorAdditiveType`](../behavioradditivetype) . |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Beschreibt den relativen Winkel des Bewegungspfads. Lesen/SchreibenSingle . |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Beschreibt den relativen Offset-Wert für die Animation (in Prozent). Lesen/SchreibenPointF . |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Gibt eine x/y-Koordinate an, ab der die Animation beginnen soll (in Prozent). Lesen/SchreibenPointF . |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Gibt an, in welchem Verhältnis der Ursprung des Bewegungspfads steht, z. B. zum Layout der Folie, oder der übergeordneten Ebene. Lesen/Schreiben[`MotionOriginType`](../motionorigintype) . |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Gibt das Pfadgrundelement gefolgt von Koordinaten für die Animationsbewegung an. Lesen/Schreiben[`IMotionPath`](../imotionpath) . |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Gibt an, wie sich der Bewegungspfad bewegt, wenn die Form bewegt wird. Lesen/Schreiben[`MotionPathEditMode`](../motionpatheditmode) . |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Repräsentiert Verhaltenseigenschaften. Schreibgeschützt[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection) . |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Beschreibt das Rotationszentrum, das verwendet wird, um einen Bewegungspfad um den X-Winkel zu drehen. Lesen/SchreibenPointF . |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Repräsentiert Timing-Eigenschaften für das Effektverhalten. Lesen/Schreiben[`ITiming`](../itiming) . |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Gibt die Zielposition für einen Animationsbewegungseffekt an (in Prozent). Lesen/SchreibenPointF . |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Stellt dar, ob Animationsverhalten akkumuliert werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Stellt dar, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Beschreibt den relativen Winkel des Bewegungspfads. Lese-/Schreibzugriff Single. |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Beschreibt den relativen Versatzwert für die Animation (in Prozent). Lese-/Schreibzugriff PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Gibt eine x/y-Koordinate an, von der aus die Animation gestartet wird (in Prozent). Lese-/Schreibzugriff PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Gibt an, was der Ursprung des Bewegungspfads in Bezug auf das Layout der Folie oder das übergeordnete Element ist. Lese-/Schreibzugriff [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Gibt die Pfadprimitive an, die von Koordinaten für die Animationsbewegung gefolgt wird. Lese-/Schreibzugriff [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Gibt an, wie sich der Bewegungspfad bewegt, wenn die Form verschoben wird. Lese-/Schreibzugriff [`MotionPathEditMode`](../motionpatheditmode). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stellt die Eigenschaften des Verhaltens dar. Nur-Lesezugriff [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Beschreibt das Zentrum der Drehung, das verwendet wird, um einen Bewegungspfad um den X-Winkel zu drehen. Lese-/Schreibzugriff PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stellt die Zeitparameter für das Effekverhalten dar. Lese-/Schreibzugriff [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Gibt den Zielort für einen Bewegungseffekt der Animation an (in Prozent). Lese-/Schreibzugriff PointF. |
 
 ### Siehe auch
 
-* class [Behavior](../behavior)
-* interface [IMotionEffect](../imotioneffect)
-* namensraum [Aspose.Slides.Animation](../../aspose.slides.animation)
-* Montage [Aspose.Slides](../../)
+* Klasse [Behavior](../behavior)
+* Schnittstelle [IMotionEffect](../imotioneffect)
+* Namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

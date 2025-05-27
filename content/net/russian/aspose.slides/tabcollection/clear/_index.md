@@ -1,12 +1,13 @@
 ---
-title: Clear
+title: Очистить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/tabcollection/clear/
 ---
-## TabCollection.Clear method
+
+## Метод TabCollection.Clear
 
 Удаляет все элементы из коллекции.
 
@@ -16,7 +17,7 @@ public void Clear()
 
 ### Смотрите также
 
-* class [TabCollection](../../tabcollection)
+* класс [TabCollection](../../tabcollection)
 * пространство имен [Aspose.Slides](../../tabcollection)
 * сборка [Aspose.Slides](../../../)
 

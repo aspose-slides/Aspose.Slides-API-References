@@ -1,14 +1,15 @@
 ---
 title: SvgContent
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает содержимое SVG. Только чтениеString.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает содержимое SVG. Только для чтения строка.
 type: docs
 weight: 30
 url: /ru/aspose.slides/isvgimage/svgcontent/
 ---
-## ISvgImage.SvgContent property
 
-Возвращает содержимое SVG. Только чтениеString.
+## Свойство ISvgImage.SvgContent
+
+Возвращает содержимое SVG. Только для чтения строка.
 
 ```csharp
 public string SvgContent { get; }
@@ -16,7 +17,7 @@ public string SvgContent { get; }
 
 ### Смотрите также
 
-* interface [ISvgImage](../../isvgimage)
+* интерфейс [ISvgImage](../../isvgimage)
 * пространство имен [Aspose.Slides](../../isvgimage)
 * сборка [Aspose.Slides](../../../)
 

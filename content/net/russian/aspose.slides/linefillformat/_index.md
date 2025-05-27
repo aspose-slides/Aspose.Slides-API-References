@@ -1,29 +1,30 @@
 ---
 title: LineFillFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет свойства для заполнения строк.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет свойства для заполнения линий.
 type: docs
-weight: 7080
+weight: 7540
 url: /ru/aspose.slides/linefillformat/
 ---
-## LineFillFormat class
 
-Представляет свойства для заполнения строк.
+## Класс LineFillFormat
+
+Представляет свойства для заполнения линий.
 
 ```csharp
-public class LineFillFormat : PVIObject, ILineFillFormat
+public sealed class LineFillFormat : PVIObject, ILineFillFormat
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Возвращает или задает тип заливки. Чтение/запись[`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Возвращает формат градиентной заливки. Только для чтения[`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Возвращает формат заполнения узором. Только для чтения[`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Определяет, должна ли заливка поворачиваться вместе с фигурой. Чтение/запись[`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Возвращает цвет сплошной заливки. Только для чтения[`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Возвращает или устанавливает тип заливки. Чтение/запись [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Возвращает формат градиентной заливки. Только для чтения [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Возвращает формат заливки узором. Только для чтения [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Определяет, следует ли вращать заливку вместе с фигурой. Чтение/запись [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Возвращает цвет сплошной заливки. Только для чтения [`IColorFormat`](../icolorformat). |
 
 ## Методы
 
@@ -32,10 +33,10 @@ public class LineFillFormat : PVIObject, ILineFillFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### Смотрите также
+### Также посмотрите
 
-* class [PVIObject](../pviobject)
-* interface [ILineFillFormat](../ilinefillformat)
+* класс [PVIObject](../pviobject)
+* интерфейс [ILineFillFormat](../ilinefillformat)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

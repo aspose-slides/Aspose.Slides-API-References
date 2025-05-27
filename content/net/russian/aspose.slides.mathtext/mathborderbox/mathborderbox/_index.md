@@ -1,11 +1,12 @@
 ---
 title: MathBorderBox
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Создает элемент MathBorderBox с прямоугольной рамкой
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathborderbox/mathborderbox/
 ---
+
 ## MathBorderBox(IMathElement) {#constructor}
 
 Создает элемент MathBorderBox с прямоугольной рамкой
@@ -16,7 +17,7 @@ public MathBorderBox(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Базовый элемент для к которому применяется рамка. Может быть нулевым. |
+| element | IMathElement | Базовый элемент, к которому применяется рамка. Может быть null. |
 
 ### Примеры
 
@@ -27,10 +28,10 @@ public MathBorderBox(IMathElement element)
 MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IMathElement](../../imathelement)
-* class [MathBorderBox](../../mathborderbox)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathBorderBox](../../mathborderbox)
 * пространство имен [Aspose.Slides.MathText](../../mathborderbox)
 * сборка [Aspose.Slides](../../../)
 
@@ -48,15 +49,15 @@ public MathBorderBox(IMathElement element, bool hideTop, bool hideBottom, bool h
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Базовый элемент, к которому примыкает граница применяется рамка |
+| element | IMathElement | Базовый элемент, к которому применяется рамка |
 | hideTop | Boolean | Скрыть верхний край |
 | hideBottom | Boolean | Скрыть нижний край |
 | hideLeft | Boolean | Скрыть левый край |
 | hideRight | Boolean | Скрыть правый край |
-| ЗачеркиваниеГоризонтальное | Boolean | Зачеркивание Горизонтальное |
-| ЗачеркиваниеВертикальное | Boolean | Зачеркивание Вертикальное |
-| ЗачеркиваниеВнизуСлеваВверхПраво | Boolean | Зачеркивание Снизу-Слева до Сверху-справа |
-| зачеркиваниеTopLeftToBottomRight | Boolean | Зачеркивание слева сверху вниз справа |
+| strikethroughHorizontal | Boolean | Перечеркнуть горизонтально |
+| strikethroughVertical | Boolean | Перечеркнуть вертикально |
+| strikethroughBottomLeftToTopRight | Boolean | Перечеркнуть от нижнего левого угла к верхнему правому |
+| strikethroughTopLeftToBottomRight | Boolean | Перечеркнуть от верхнего левого угла к нижнему правому |
 
 ### Примеры
 
@@ -67,10 +68,10 @@ public MathBorderBox(IMathElement element, bool hideTop, bool hideBottom, bool h
 MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"), true, true, true, false, true, true, true, true)
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IMathElement](../../imathelement)
-* class [MathBorderBox](../../mathborderbox)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathBorderBox](../../mathborderbox)
 * пространство имен [Aspose.Slides.MathText](../../mathborderbox)
 * сборка [Aspose.Slides](../../../)
 

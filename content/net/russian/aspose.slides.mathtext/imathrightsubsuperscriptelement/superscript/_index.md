@@ -1,14 +1,15 @@
 ---
-title: Superscript
+title: Надстрочный текст
 second_title: Справочник по API Aspose.Slides для .NET
-description: Надстрочный аргумент
+description: Аргумент надстрочного текста
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript/
 ---
-## IMathRightSubSuperscriptElement.Superscript property
 
-Надстрочный аргумент
+## IMathRightSubSuperscriptElement.Superscript свойство
+
+Аргумент надстрочного текста
 
 ```csharp
 public IMathElement Superscript { get; }
@@ -27,10 +28,10 @@ MathRightSubSuperscriptElement subsuperscript = new MathRightSubSuperscriptEleme
 IMathElement sup = subsuperscript.Superscript;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
 * пространство имен [Aspose.Slides.MathText](../../imathrightsubsuperscriptelement)
 * сборка [Aspose.Slides](../../../)
 

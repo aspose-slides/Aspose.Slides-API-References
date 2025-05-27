@@ -1,14 +1,15 @@
 ---
 title: ILineFormatEffectiveData
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Unveränderliches Objekt das effektive Zeilenformatierungseigenschaften enthält.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Unveränderliches Objekt, das effektive Eigenschaften der Linienformatierung enthält.
 type: docs
-weight: 5790
+weight: 6120
 url: /de/aspose.slides/ilineformateffectivedata/
 ---
-## ILineFormatEffectiveData interface
 
-Unveränderliches Objekt, das effektive Zeilenformatierungseigenschaften enthält.
+## ILineFormatEffectiveData-Schnittstelle
+
+Unveränderliches Objekt, das effektive Eigenschaften der Linienformatierung enthält.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -18,23 +19,23 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Gibt die Zeilenausrichtung zurück. Schreibgeschützt[`LineAlignment`](../linealignment) . |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Ermöglicht das Abrufen der Basis-ILineParamSource-Schnittstelle. Schreibgeschützt[`ILineParamSource`](../ilineparamsource) . |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Gibt die Pfeilspitzenlänge am Anfang einer Zeile zurück. Schreibgeschützt[`LineArrowheadLength`](../linearrowheadlength) . |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Gibt den Pfeilspitzenstil am Anfang einer Zeile zurück. Schreibgeschützt[`LineArrowheadStyle`](../linearrowheadstyle) . |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Gibt die Pfeilspitzenbreite am Anfang einer Zeile zurück. Schreibgeschützt[`LineArrowheadWidth`](../linearrowheadwidth) . |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Gibt den Zeilenabschlussstil zurück. Schreibgeschützt[`LineCapStyle`](../linecapstyle) . |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Gibt das benutzerdefinierte Strichmuster zurück. SchreibgeschütztSingle []. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Gibt den Strichstil der Linie zurück. Schreibgeschützt[`LineDashStyle`](../linedashstyle) . |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Gibt die Pfeilspitzenlänge am Ende einer Linie zurück. Schreibgeschützt[`LineArrowheadLength`](../linearrowheadlength) . |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Gibt den Pfeilspitzenstil am Ende einer Zeile zurück. Schreibgeschützt[`LineArrowheadStyle`](../linearrowheadstyle) . |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Gibt die Pfeilspitzenbreite am Ende einer Zeile zurück. Schreibgeschützt[`LineArrowheadWidth`](../linearrowheadwidth) . |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Gibt das Füllformat einer Zeile zurück. Schreibgeschützt[`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata) . |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Gibt den Linienverbindungsstil zurück. Schreibgeschützt[`LineJoinStyle`](../linejoinstyle) . |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Gibt die Gehrungsgrenze einer Linie zurück. SchreibgeschütztSingle . |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Gibt das Skizzenformat einer Linie zurück. Schreibgeschützt[`ISketchFormatEffectiveData`](../isketchformateffectivedata) . |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Gibt den Linienstil zurück. Schreibgeschützt[`LineStyle`](../linestyle) . |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Gibt die Breite einer Linie zurück. SchreibgeschütztDouble . |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Gibt die Linienausrichtung zurück. Nur-Lese [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ILineParamSource. Nur-Lese [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Gibt die Länge des Pfeilspitzenbeginns zurück. Nur-Lese [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Gibt den Stil der Pfeilspitze am Beginn einer Linie zurück. Nur-Lese [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Gibt die Breite der Pfeilspitze am Beginn einer Linie zurück. Nur-Lese [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Gibt den Stil des Linienabschlusses zurück. Nur-Lese [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Gibt das benutzerdefinierte Strichmuster zurück. Nur-Lese Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Gibt den gestrichelten Stil der Linie zurück. Nur-Lese [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Gibt die Länge der Pfeilspitze am Ende einer Linie zurück. Nur-Lese [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Gibt den Stil der Pfeilspitze am Ende einer Linie zurück. Nur-Lese [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Gibt die Breite der Pfeilspitze am Ende einer Linie zurück. Nur-Lese [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Gibt das Füllformat einer Linie zurück. Nur-Lese [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Gibt den Stil des Verbindungspunktes der Linien zurück. Nur-Lese [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Gibt die Schrankenlage einer Linie zurück. Nur-Lese Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Gibt das Skizzierungsformat einer Linie zurück. Nur-Lese [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Gibt den Linienstil zurück. Nur-Lese [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Gibt die Breite einer Linie zurück. Nur-Lese Double. |
 
 ## Methoden
 
@@ -44,12 +45,12 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ### Bemerkungen
 
-Diese Schnittstelle wird zusammen mit dem verwendet[`ILineFormat`](../ilineformat) Schnittstelle, um effektive Formatierungswerte mit angewendeter Vererbung zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`ILineFormat`](../ilineformat) Schnittstelle verwendet, um effektive Formatierungswerte mit angewendeter Vererbung zurückzugeben.
 
 ### Siehe auch
 
-* interface [ILineParamSource](../ilineparamsource)
-* namensraum [Aspose.Slides](../../aspose.slides)
-* Montage [Aspose.Slides](../../)
+* Schnittstelle [ILineParamSource](../ilineparamsource)
+* Namespace [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

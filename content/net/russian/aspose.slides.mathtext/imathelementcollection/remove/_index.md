@@ -1,14 +1,15 @@
 ---
-title: Remove
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет первое вхождение определенного объекта из коллекции.
+title: Удалить
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Удаляет первое вхождение конкретного объекта из коллекции.
 type: docs
 weight: 100
 url: /ru/aspose.slides.mathtext/imathelementcollection/remove/
 ---
-## IMathElementCollection.Remove method
 
-Удаляет первое вхождение определенного объекта из коллекции.
+## IMathElementCollection.Remove метод
+
+Удаляет первое вхождение конкретного объекта из коллекции.
 
 ```csharp
 public bool Remove(IMathElement item)
@@ -16,11 +17,11 @@ public bool Remove(IMathElement item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IMathElement | Объект, удаляемый из коллекции. |
+| item | IMathElement | Объект, который необходимо удалить из коллекции. |
 
 ### Возвращаемое значение
 
-true, если*item*был успешно удален из коллекции; в противном случае ложно. Этот метод также возвращает false, если*item*не найден в исходной коллекции.
+true, если *item* был успешно удален из коллекции; в противном случае false. Этот метод также возвращает false, если *item* не найден в исходной коллекции.
 
 ### Примеры
 
@@ -35,10 +36,10 @@ collection.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("
 collection.Remove(plusElement);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathElementCollection](../../imathelementcollection)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathElementCollection](../../imathelementcollection)
 * пространство имен [Aspose.Slides.MathText](../../imathelementcollection)
 * сборка [Aspose.Slides](../../../)
 

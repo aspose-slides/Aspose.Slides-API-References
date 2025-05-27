@@ -1,14 +1,15 @@
 ---
-title: Equals
+title: Равенство
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение указывающее равен ли этот экземпляр указанному объекту.
+description: Возвращает значение, указывающее, равно ли это экземпляр заданному объекту.
 type: docs
 weight: 140
 url: /ru/aspose.slides/shapeframe/equals/
 ---
+
 ## Equals(object) {#equals_1}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту.
+Возвращает значение, указывающее, равно ли это экземпляр заданному объекту.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для сравнения с этим экземпляром. |
+| obj | Object | Объект, который нужно сравнить с этим экземпляром. |
 
-### Возвращаемое значение
+### Значение, возвращаемое методом
 
-**True** если obj является ShapeFrame, имеющим то же значение, что и этот экземпляр; в противном случае **false** .
+**True**, если obj является ShapeFrame, который имеет то же значение, что и этот экземпляр; в противном случае **false**.
 
-### Смотрите также
+### См. также
 
-* class [ShapeFrame](../../shapeframe)
+* класс [ShapeFrame](../../shapeframe)
 * пространство имен [Aspose.Slides](../../shapeframe)
 * сборка [Aspose.Slides](../../../)
 
@@ -32,7 +33,7 @@ public override bool Equals(object obj)
 
 ## Equals(ShapeFrame) {#equals}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту.
+Возвращает значение, указывающее, равно ли это экземпляр заданному объекту.
 
 ```csharp
 public bool Equals(ShapeFrame value)
@@ -40,15 +41,15 @@ public bool Equals(ShapeFrame value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | ShapeFrame | ShapeFRameEx для сравнения с этим экземпляром. |
+| value | ShapeFrame | ShapeFrameEx, который необходимо сравнить с этим экземпляром. |
 
-### Возвращаемое значение
+### Значение, возвращаемое методом
 
-**True** , если значение является ShapeFrame, имеющим то же значение, что и этот экземпляр; в противном случае **false** .
+**True**, если value является ShapeFrame, который имеет то же значение, что и этот экземпляр; в противном случае **false**.
 
-### Смотрите также
+### См. также
 
-* class [ShapeFrame](../../shapeframe)
+* класс [ShapeFrame](../../shapeframe)
 * пространство имен [Aspose.Slides](../../shapeframe)
 * сборка [Aspose.Slides](../../../)
 

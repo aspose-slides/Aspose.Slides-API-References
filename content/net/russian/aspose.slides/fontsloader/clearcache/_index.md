@@ -1,12 +1,13 @@
 ---
 title: ClearCache
-second_title: Справочник по API Aspose.Slides для .NET
-description: Освобождает все пользовательские шрифты определенные пользователем
+second_title: Aspose.Sildes для .NET API Справочник
+description: Освобождает все пользовательские шрифты, определенные пользователем
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontsloader/clearcache/
 ---
-## FontsLoader.ClearCache method
+
+## FontsLoader.ClearCache метод
 
 Освобождает все пользовательские шрифты, определенные пользователем
 
@@ -14,13 +15,13 @@ url: /ru/aspose.slides/fontsloader/clearcache/
 public static void ClearCache()
 ```
 
-### Примечания
+### Замечания
 
-Этот метод необходимо очистить кеш с пользовательскими шрифтами, определенными пользователем.
+Этот метод необходим для очистки кэша с пользовательскими шрифтами, определенными пользователем.
 
-### Смотрите также
+### См. также
 
-* class [FontsLoader](../../fontsloader)
+* класс [FontsLoader](../../fontsloader)
 * пространство имен [Aspose.Slides](../../fontsloader)
 * сборка [Aspose.Slides](../../../)
 

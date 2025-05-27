@@ -1,14 +1,15 @@
 ---
 title: AsIMasterThemeable
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IMasterThemeable. Только для чтенияIMasterThemeableaspose.slides.theme/imasterthemeable.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает интерфейс IMasterThemeable. Только для чтения IMasterThemeable aspose.slides.theme/imasterthemeable.
 type: docs
 weight: 20
 url: /ru/aspose.slides/imasterhandoutslide/asimasterthemeable/
 ---
-## IMasterHandoutSlide.AsIMasterThemeable property
 
-Возвращает интерфейс IMasterThemeable. Только для чтения[`IMasterThemeable`](../../../aspose.slides.theme/imasterthemeable).
+## IMasterHandoutSlide.AsIMasterThemeable свойство
+
+Возвращает интерфейс IMasterThemeable. Только для чтения [`IMasterThemeable`](../../../aspose.slides.theme/imasterthemeable).
 
 ```csharp
 public IMasterThemeable AsIMasterThemeable { get; }
@@ -16,12 +17,12 @@ public IMasterThemeable AsIMasterThemeable { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IMasterThemeable](../../../aspose.slides.theme/imasterthemeable)
-* interface [IMasterHandoutSlide](../../imasterhandoutslide)
+* интерфейс [IMasterThemeable](../../../aspose.slides.theme/imasterthemeable)
+* интерфейс [IMasterHandoutSlide](../../imasterhandoutslide)
 * пространство имен [Aspose.Slides](../../imasterhandoutslide)
 * сборка [Aspose.Slides](../../../)
 

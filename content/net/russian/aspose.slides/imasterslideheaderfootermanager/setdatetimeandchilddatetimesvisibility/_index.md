@@ -1,14 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
-second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет заполнитель даты и времени мастер-слайда и видимость всех дочерних заполнителей даты и времени. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
+second_title: Aspose.Slides для .NET API Справочник
+description: Изменяет видимость заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают заполнители, содержащиеся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
 type: docs
 weight: 30
 url: /ru/aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
-## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility method
 
-Изменяет заполнитель даты и времени мастер-слайда и видимость всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
+## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility метод
+
+Изменяет видимость заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают заполнители, содержащиеся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -16,11 +17,11 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает видимыми заполнители даты и времени, иначе - скрывает их. |
+| isVisible | Boolean | true - делает заполнители даты и времени видимыми, иначе - скрывает их. |
 
-### Смотрите также
+### См. также
 
-* interface [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
+* интерфейс [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../imasterslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

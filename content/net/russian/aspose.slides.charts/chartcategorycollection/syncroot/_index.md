@@ -1,24 +1,25 @@
 ---
 title: SyncRoot
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект который можно использовать для синхронизации доступа к коллекции. Только для чтенияObject.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает объект, который может использоваться для синхронизации доступа к коллекции. Объект только для чтения.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/chartcategorycollection/syncroot/
 ---
-## ChartCategoryCollection.SyncRoot property
 
-Возвращает объект, который можно использовать для синхронизации доступа к коллекции. Только для чтенияObject.
+## Свойство ChartCategoryCollection.SyncRoot
 
-Возвращает корень синхронизации. Только для чтенияObject.
+Возвращает объект, который может использоваться для синхронизации доступа к коллекции. Объект только для чтения.
+
+Возвращает корень синхронизации. Объект только для чтения.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartCategoryCollection](../../chartcategorycollection)
+* класс [ChartCategoryCollection](../../chartcategorycollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorycollection)
 * сборка [Aspose.Slides](../../../)
 

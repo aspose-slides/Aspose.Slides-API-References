@@ -1,12 +1,13 @@
 ---
 title: TextAnchorType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: выравнивание текстового поля внутри текстовой области.
 type: docs
-weight: 10100
+weight: 10600
 url: /ru/aspose.slides/textanchortype/
 ---
-## TextAnchorType enumeration
+
+## Перечисление TextAnchorType
 
 выравнивание текстового поля внутри текстовой области.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/textanchortype/
 public enum TextAnchorType : sbyte
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Top | `0` |  |
@@ -25,7 +26,7 @@ public enum TextAnchorType : sbyte
 | Justified | `3` |  |
 | Distributed | `4` |  |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

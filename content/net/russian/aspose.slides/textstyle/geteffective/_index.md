@@ -1,12 +1,13 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Получает данные форматирования эффективного текстового стиля с применением наследования.
 type: docs
 weight: 20
 url: /ru/aspose.slides/textstyle/geteffective/
 ---
-## TextStyle.GetEffective method
+
+## Метод TextStyle.GetEffective
 
 Получает данные форматирования эффективного текстового стиля с применением наследования.
 
@@ -16,11 +17,11 @@ public ITextStyleEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`ITextStyleEffectiveData`](../../itextstyleeffectivedata).
+[`ITextStyleEffectiveData`](../../itextstyleeffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение некоторых эффективных свойств стиля текста.
+В этом примере показано, как получить некоторые свойства эффективного текстового стиля.
 
 ```csharp
 [C#]
@@ -32,20 +33,20 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
     for (int i = 0; i <= 8; i++)
     {
         IParagraphFormatEffectiveData effectiveStyleLevel = effectiveTextStyle.GetLevel(i);
-        Console.WriteLine("= Effective paragraph formatting for style level #" + i + " =");
+        Console.WriteLine("= Эффективное форматирование абзаца для уровня стиля #" + i + " =");
 
-        Console.WriteLine("Depth: " + effectiveStyleLevel.Depth);
-        Console.WriteLine("Indent: " + effectiveStyleLevel.Indent);
-        Console.WriteLine("Alignment: " + effectiveStyleLevel.Alignment);
-        Console.WriteLine("Font alignment: " + effectiveStyleLevel.FontAlignment);
+        Console.WriteLine("Глубина: " + effectiveStyleLevel.Depth);
+        Console.WriteLine("Отступ: " + effectiveStyleLevel.Indent);
+        Console.WriteLine("Выравнивание: " + effectiveStyleLevel.Alignment);
+        Console.WriteLine("Выравнивание шрифта: " + effectiveStyleLevel.FontAlignment);
     }
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITextStyleEffectiveData](../../itextstyleeffectivedata)
-* class [TextStyle](../../textstyle)
+* интерфейс [ITextStyleEffectiveData](../../itextstyleeffectivedata)
+* класс [TextStyle](../../textstyle)
 * пространство имен [Aspose.Slides](../../textstyle)
 * сборка [Aspose.Slides](../../../)
 

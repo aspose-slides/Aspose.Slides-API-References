@@ -1,12 +1,13 @@
 ---
-title: Base
-second_title: Справочник по API Aspose.Slides для .NET
+title: Базовый
+second_title: Справочник API Aspose.Sildes для .NET
 description: Базовый аргумент
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathnaryoperator/base/
 ---
-## MathNaryOperator.Base property
+
+## Свойство MathNaryOperator.Base
 
 Базовый аргумент
 
@@ -24,10 +25,10 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 IMathElement baseArg = naryOperator.Base;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathNaryOperator](../../mathnaryoperator)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathNaryOperator](../../mathnaryoperator)
 * пространство имен [Aspose.Slides.MathText](../../mathnaryoperator)
 * сборка [Aspose.Slides](../../../)
 

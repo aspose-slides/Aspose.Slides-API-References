@@ -1,22 +1,23 @@
 ---
-title: Object
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект модели. Только для чтенияTObject.
+title: Объект
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает объект модели. Только для чтения TObject.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export.web/templatecontext-1/object/
 ---
-## TemplateContext&lt;TObject&gt;.Object property
 
-Возвращает объект модели. Только для чтения!:TObject.
+## Свойство TemplateContext&lt;TObject&gt;.Object
+
+Возвращает объект модели. Только для чтения !:TObject.
 
 ```csharp
 public TObject Object { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [TemplateContext&lt;TObject&gt;](../../templatecontext-1)
+* класс [TemplateContext&lt;TObject&gt;](../../templatecontext-1)
 * пространство имен [Aspose.Slides.Export.Web](../../templatecontext-1)
 * сборка [Aspose.Slides](../../../)
 

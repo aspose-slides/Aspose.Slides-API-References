@@ -1,22 +1,23 @@
 ---
 title: AdjustHandlesLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли изменение значений настройки. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Reference
+description: Определяет, запрещено ли изменение значений регулировки. Читаемое/записываемое логическое значение.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ipictureframelock/adjusthandleslocked/
 ---
-## IPictureFrameLock.AdjustHandlesLocked property
 
-Определяет, запрещено ли изменение значений настройки. Чтение/записьBoolean.
+## Свойство IPictureFrameLock.AdjustHandlesLocked
+
+Определяет, запрещено ли изменение значений регулировки. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPictureFrameLock](../../ipictureframelock)
+* интерфейс [IPictureFrameLock](../../ipictureframelock)
 * пространство имен [Aspose.Slides](../../ipictureframelock)
 * сборка [Aspose.Slides](../../../)
 

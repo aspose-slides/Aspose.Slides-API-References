@@ -1,14 +1,15 @@
 ---
 title: AddSectionZoomFrame
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Fügt ein neues AbschnittsZoomObjekt am Ende einer Sammlung hinzu.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügt ein neues Section Zoom-Objekt am Ende einer Sammlung hinzu.
 type: docs
 weight: 170
 url: /de/aspose.slides/shapecollection/addsectionzoomframe/
 ---
+
 ## AddSectionZoomFrame(float, float, float, float, ISection) {#addsectionzoomframe}
 
-Fügt ein neues Abschnitts-Zoom-Objekt am Ende einer Sammlung hinzu.
+Fügt ein neues Section Zoom-Objekt am Ende einer Sammlung hinzu.
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -17,25 +18,25 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Single | X-Koordinate eines neuen Schnitt-ZoomrahmensSingle. |
-| y | Single | Y-Koordinate eines neuen Schnitt-ZoomrahmensSingle. |
-| width | Single | Breite eines neuen Schnitt-Zoom-RahmensSingle. |
-| height | Single | Höhe eines neuen Schnitt-ZoomrahmensSingle. |
-| section | ISection | Das Schnittobjekt, auf das der Schnitt-Zoomrahmen verweist[`ISection`](../../isection). |
+| x | Single | X-Koordinate eines neuen Section Zoom-Frames. |
+| y | Single | Y-Koordinate eines neuen Section Zoom-Frames. |
+| width | Single | Breite eines neuen Section Zoom-Frames. |
+| height | Single | Höhe eines neuen Section Zoom-Frames. |
+| section | ISection | Das Abschnittsobjekt, auf das vom Section Zoom-Frame verwiesen wird [`ISection`](../../isection). |
 
 ### Rückgabewert
 
-Schnitt-Zoom-Objekt erstellt[`ISectionZoomFrame`](../../isectionzoomframe).
+Erstellt ein Section Zoom-Objekt [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Der referenzierte Abschnitt gehört nicht zur aktuellen Präsentation oder enthält keine Folien. |
+| ArgumentException | Das referenzierte Abschnitt gehört nicht zur aktuellen Präsentation oder enthält keine Folien. |
 
 ### Beispiele
 
-Dieses Beispiel demonstriert das Hinzufügen eines Abschnitts-Zoom-Objekts am Ende einer Sammlung (vorausgesetzt, es gibt mindestens zwei Abschnitte in der Präsentation „Präsentation.pptx“):
+Dieses Beispiel demonstriert das Hinzufügen eines Section Zoom-Objekts am Ende einer Sammlung (angenommen, dass es mindestens zwei Abschnitte in der "Presentation.pptx" Präsentation gibt):
 
 ```csharp
 [C#]
@@ -45,19 +46,19 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [ISectionZoomFrame](../../isectionzoomframe)
 * interface [ISection](../../isection)
 * class [ShapeCollection](../../shapecollection)
-* namensraum [Aspose.Slides](../../shapecollection)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../shapecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AddSectionZoomFrame(float, float, float, float, ISection, IPPImage) {#addsectionzoomframe_1}
 
-Fügt ein neues Abschnitts-Zoom-Objekt am Ende einer Sammlung mit einem vordefinierten Bild hinzu.
+Fügt ein neues Section Zoom-Objekt am Ende einer Sammlung mit einem vordefinierten Bild hinzu.
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -66,26 +67,26 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Single | X-Koordinate eines neuen Schnitt-ZoomrahmensSingle. |
-| y | Single | Y-Koordinate eines neuen Schnitt-ZoomrahmensSingle. |
-| width | Single | Breite eines neuen Schnitt-Zoom-RahmensSingle. |
-| height | Single | Höhe eines neuen Schnitt-ZoomrahmensSingle. |
-| section | ISection | Das Schnittobjekt, auf das der Schnitt-Zoomrahmen verweist[`ISection`](../../isection). |
-| image | IPPImage | Das Bild für die referenzierte Folie[`IPPImage`](../../ippimage) |
+| x | Single | X-Koordinate eines neuen Section Zoom-Frames. |
+| y | Single | Y-Koordinate eines neuen Section Zoom-Frames. |
+| width | Single | Breite eines neuen Section Zoom-Frames. |
+| height | Single | Höhe eines neuen Section Zoom-Frames. |
+| section | ISection | Das Abschnittsobjekt, auf das vom Section Zoom-Frame verwiesen wird [`ISection`](../../isection). |
+| image | IPPImage | Das Bild für die referenzierte Folie [`IPPImage`](../../ippimage) |
 
 ### Rückgabewert
 
-Schnitt-Zoom-Objekt erstellt[`ISectionZoomFrame`](../../isectionzoomframe).
+Erstellt ein Section Zoom-Objekt [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Der referenzierte Abschnitt gehört nicht zur aktuellen Präsentation oder enthält keine Folien. |
+| ArgumentException | Das referenzierte Abschnitt gehört nicht zur aktuellen Präsentation oder enthält keine Folien. |
 
 ### Beispiele
 
-Dieses Beispiel demonstriert das Hinzufügen eines Abschnitts-Zoom-Objekts am Ende einer Sammlung (vorausgesetzt, es gibt mindestens zwei Abschnitte in der Präsentation „Präsentation.pptx“):
+Dieses Beispiel demonstriert das Hinzufügen eines Section Zoom-Objekts am Ende einer Sammlung (angenommen, dass es mindestens zwei Abschnitte in der "Presentation.pptx" Präsentation gibt):
 
 ```csharp
 [C#]
@@ -96,13 +97,13 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [ISectionZoomFrame](../../isectionzoomframe)
 * interface [ISection](../../isection)
 * interface [IPPImage](../../ippimage)
 * class [ShapeCollection](../../shapecollection)
-* namensraum [Aspose.Slides](../../shapecollection)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../shapecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

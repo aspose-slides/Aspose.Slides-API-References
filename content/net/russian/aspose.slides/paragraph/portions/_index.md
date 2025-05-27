@@ -1,23 +1,24 @@
 ---
-title: Portions
+title: Части
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор текстовых частей. Только для чтенияIPortionCollectionaspose.slides/iportioncollection.
+description: Возвращает коллекцию текстовых частей. Только для чтения IPortionCollectionaspose.slides/iportioncollection.
 type: docs
 weight: 40
 url: /ru/aspose.slides/paragraph/portions/
 ---
-## Paragraph.Portions property
 
-Возвращает набор текстовых частей. Только для чтения[`IPortionCollection`](../../iportioncollection).
+## Свойство Paragraph.Portions
+
+Возвращает коллекцию текстовых частей. Только для чтения [`IPortionCollection`](../../iportioncollection).
 
 ```csharp
 public IPortionCollection Portions { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPortionCollection](../../iportioncollection)
-* class [Paragraph](../../paragraph)
+* интерфейс [IPortionCollection](../../iportioncollection)
+* класс [Paragraph](../../paragraph)
 * пространство имен [Aspose.Slides](../../paragraph)
 * сборка [Aspose.Slides](../../../)
 

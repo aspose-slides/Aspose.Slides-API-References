@@ -1,14 +1,15 @@
 ---
-title: Equals
+title: Равенство
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйColorChangeaspose.slides.effects/colorchangeтекущемуИзменениецвета.
+description: Определяет, равен ли указанный ColorChangeaspose.slides.effects/colorchange текущему ColorChangeaspose.slides.effects/colorchange.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/colorchange/equals/
 ---
-## ColorChange.Equals method
 
-Определяет, равен ли указанный[`ColorChange`](../../colorchange)текущемуИзменениецвета.
+## Метод ColorChange.Equals
+
+Определяет, равен ли указанный [`ColorChange`](../../colorchange) текущему [`ColorChange`](../../colorchange).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`ColorChange`](../../colorchange)для сравнения. |
+| obj | Object | [`ColorChange`](../../colorchange) для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае ложно.
+true, если объекты равны; в противном случае false.
 
-### Смотрите также
+### См. также
 
-* class [ColorChange](../../colorchange)
+* класс [ColorChange](../../colorchange)
 * пространство имен [Aspose.Slides.Effects](../../colorchange)
 * сборка [Aspose.Slides](../../../)
 

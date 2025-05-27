@@ -1,36 +1,38 @@
 ---
 title: TableFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет формат таблицы.
 type: docs
-weight: 10060
+weight: 10560
 url: /ru/aspose.slides/tableformat/
 ---
-## TableFormat class
+
+## Класс TableFormat
 
 Представляет формат таблицы.
 
 ```csharp
-public class TableFormat : DomObject<Table>, ITableFormat
+public sealed class TableFormat : DomObject<Table>, ITableFormat
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Возвращает объект свойств заполнения таблицы. Только для чтения[`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Возвращает объект свойств заполнения таблицы. Только для чтения [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Получает или устанавливает прозрачность цвета заливки. Чтение/запись Single. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Получает эффективные свойства форматирования таблицы с применением стилей наследования и таблиц. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Получает свойства форматирования таблицы с учетом унаследованных стилей и примененных стилей таблицы. |
 
 ### Смотрите также
 
-* class [DomObject&lt;TParent&gt;](../domobject-1)
-* class [Table](../table)
-* interface [ITableFormat](../itableformat)
+* класс [DomObject&lt;TParent&gt;](../domobject-1)
+* класс [Table](../table)
+* интерфейс [ITableFormat](../itableformat)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

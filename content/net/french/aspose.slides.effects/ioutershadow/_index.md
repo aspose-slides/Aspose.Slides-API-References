@@ -1,14 +1,15 @@
 ---
 title: IOuterShadow
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un effet dombre extérieure.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente un effet d'ombre portée.
 type: docs
-weight: 3280
+weight: 3340
 url: /fr/aspose.slides.effects/ioutershadow/
 ---
-## IOuterShadow interface
 
-Représente un effet d'ombre extérieure.
+## Interface IOuterShadow
+
+Représente un effet d'ombre portée.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -17,27 +18,27 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface IAccessiblePVIObject de base. Lecture seule[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface IImageTransformOperation de base. Lecture seule[`IImageTransformOperation`](../iimagetransformoperation) . |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Rayon de flou. Lecture/écritureDouble . |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Direction de l'ombre. Lecture/écritureSingle . |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distance de l'ombre. Lecture/écritureDouble . |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Alignement rectangle. Lecture/écriture[`RectangleAlignment`](../../aspose.slides/rectanglealignment) . |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Spécifie si l'ombre doit tourner avec la forme si la forme est tournée. Lecture/écritureBoolean . |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Spécifie le facteur de mise à l'échelle horizontale, une mise à l'échelle négative provoque un retournement. Lecture/écritureDouble . |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Spécifie le facteur de mise à l'échelle verticale, une mise à l'échelle négative provoque un retournement. Lecture/écritureDouble . |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Spécifie l'angle d'inclinaison horizontale (en degrés). Lecture/écritureDouble . |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Spécifie l'angle d'inclinaison verticale (en degrés). Lecture/écritureDouble . |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Rayon de flou. Lecture/écriture Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Direction de l'ombre. Lecture/écriture Simple. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distance de l'ombre. Lecture/écriture Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Alignement du rectangle. Lecture/écriture [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Indique si l'ombre doit tourner avec la forme si la forme est tournée. Lecture/écriture Booléen. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Spécifie le facteur d'échelle horizontal, une échelle négative entraîne un retournement. Lecture/écriture Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Spécifie le facteur d'échelle vertical, une échelle négative entraîne un retournement. Lecture/écriture Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Spécifie l'angle de déformation horizontal (en degrés). Lecture/écriture Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Spécifie l'angle de déformation vertical (en degrés). Lecture/écriture Double. |
 
-### Voir également
+### Voir aussi
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IOuterShadowEffectiveData](../ioutershadoweffectivedata)
 * interface [IImageTransformOperation](../iimagetransformoperation)
-* espace de noms [Aspose.Slides.Effects](../../aspose.slides.effects)
-* Assemblée [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

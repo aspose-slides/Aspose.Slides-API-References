@@ -1,12 +1,13 @@
 ---
 title: IMasterTheme
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Справочник API
 description: Представляет основную тему.
 type: docs
-weight: 10500
+weight: 11000
 url: /ru/aspose.slides.theme/imastertheme/
 ---
-## IMasterTheme interface
+
+## Интерфейс IMasterTheme
 
 Представляет основную тему.
 
@@ -14,17 +15,17 @@ url: /ru/aspose.slides.theme/imastertheme/
 public interface IMasterTheme : ITheme
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Позволяет получить базовый интерфейс ITheme. Только для чтения[`ITheme`](../itheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Возвращает набор дополнительных цветовых схем. Эти схемы не влияют на внешний вид презентации, их можно выбрать в качестве основной цветовой схемы для слайда. Только для чтения[`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Возвращает имя темы. Чтение/записьString. |
+| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Позволяет получить базовый интерфейс ITheme. Только для чтения [`ITheme`](../itheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Возвращает коллекцию дополнительных цветовых схем. Эти схемы не влияют на внешний вид презентации, их можно выбрать в качестве основной цветовой схемы для слайда. Только для чтения [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Возвращает имя темы. Читаемо/записываемо String. |
 
-### Смотрите также
+### См. также
 
-* interface [ITheme](../itheme)
+* интерфейс [ITheme](../itheme)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

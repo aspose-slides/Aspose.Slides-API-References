@@ -1,12 +1,13 @@
 ---
 title: LineFormatCollection
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Представляет коллекцию стилей линий.
 type: docs
-weight: 10610
+weight: 11110
 url: /ru/aspose.slides.theme/lineformatcollection/
 ---
-## LineFormatCollection class
+
+## Класс LineFormatCollection
 
 Представляет коллекцию стилей линий.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides.theme/lineformatcollection/
 public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean. |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
@@ -32,9 +33,9 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 ### Смотрите также
 
-* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* class [FormatScheme](../formatscheme)
-* interface [ILineFormatCollection](../ilineformatcollection)
+* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* класс [FormatScheme](../formatscheme)
+* интерфейс [ILineFormatCollection](../ilineformatcollection)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

@@ -1,23 +1,24 @@
 ---
 title: HyperlinkManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Диспетчер гиперссылок Только для чтенияIHyperlinkManageraspose.slides/ihyperlinkmanager.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Менеджер гипертекстовых ссылок Только для чтения IHyperlinkManageraspose.slides/ihyperlinkmanager.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ihyperlinkcontainer/hyperlinkmanager/
 ---
-## IHyperlinkContainer.HyperlinkManager property
 
-Диспетчер гиперссылок Только для чтения[`IHyperlinkManager`](../../ihyperlinkmanager).
+## Свойство IHyperlinkContainer.HyperlinkManager
+
+Менеджер гипертекстовых ссылок Только для чтения [`IHyperlinkManager`](../../ihyperlinkmanager).
 
 ```csharp
 public IHyperlinkManager HyperlinkManager { get; }
 ```
 
-### Смотрите также
+### Также посмотрите
 
-* interface [IHyperlinkManager](../../ihyperlinkmanager)
-* interface [IHyperlinkContainer](../../ihyperlinkcontainer)
+* интерфейс [IHyperlinkManager](../../ihyperlinkmanager)
+* интерфейс [IHyperlinkContainer](../../ihyperlinkcontainer)
 * пространство имен [Aspose.Slides](../../ihyperlinkcontainer)
 * сборка [Aspose.Slides](../../../)
 

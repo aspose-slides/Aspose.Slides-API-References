@@ -1,14 +1,15 @@
 ---
 title: AddFillOverlayEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый эффект Fill Overlay в конец коллекции.
+description: Добавляет новый эффект наложения заливки в конец коллекции.
 type: docs
 weight: 170
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addfilloverlayeffect/
 ---
-## ImageTransformOperationCollection.AddFillOverlayEffect method
 
-Добавляет новый эффект Fill Overlay в конец коллекции.
+## Метод ImageTransformOperationCollection.AddFillOverlayEffect
+
+Добавляет новый эффект наложения заливки в конец коллекции.
 
 ```csharp
 public IFillOverlay AddFillOverlayEffect()
@@ -16,12 +17,12 @@ public IFillOverlay AddFillOverlayEffect()
 
 ### Возвращаемое значение
 
-Индекс нового эффекта изображения в коллекции.
+Индекст нового эффекта изображения в коллекции.
 
-### Смотрите также
+### См. Также
 
-* interface [IFillOverlay](../../ifilloverlay)
-* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* интерфейс [IFillOverlay](../../ifilloverlay)
+* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

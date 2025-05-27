@@ -1,14 +1,15 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий коллекцию эффективных эффектов преобразования изображения доступных только для чтения.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Неизменяемый объект, представляющий собой только для чтения коллекцию эффективных эффектов преобразования изображений.
 type: docs
-weight: 3360
+weight: 3440
 url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
-## ImageTransformOCollectionEffectiveData class
 
-Неизменяемый объект, представляющий коллекцию эффективных эффектов преобразования изображения, доступных только для чтения.
+## Класс ImageTransformOCollectionEffectiveData
+
+Неизменяемый объект, представляющий собой только для чтения коллекцию эффективных эффектов преобразования изображений.
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
@@ -16,35 +17,35 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Возвращает количество эффектов изображения в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Возвращает количество эффектов изображения в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасность потоков). Только для чтения Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Возвращает элемент по индексу. |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Возвращает перечислитель, который выполняет обход коллекции. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Служит в качестве функции хеширования для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 
 ### Примечания
 
-Имя IImageTransformOperationCollectionEffectiveData усечено до IImageTransformOCollectionEffectiveData из-за того, что длина COM-имен не может быть больше 39.
+Имя IImageTransformOperationCollectionEffectiveData сокращено до IImageTransformOCollectionEffectiveData, так как длина имен COM не может быть больше 39.
 
-### Смотрите также
+### См. также
 
-* interface [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)
+* интерфейс [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

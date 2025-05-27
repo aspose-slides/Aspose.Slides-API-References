@@ -1,22 +1,23 @@
 ---
-title: Height
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает высоту ограничивающего прямоугольника области графика как часть высоты диаграммы от 0 до 1. Чтение/записьSingle.
+title: Высота
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает или задает высоту границы области построения в долях высоты графика от 0 до 1. Читаемое/записываемое значение Single.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/chartplotarea/height/
 ---
-## ChartPlotArea.Height property
 
-Возвращает или задает высоту ограничивающего прямоугольника области графика как часть высоты диаграммы (от 0 до 1). Чтение/записьSingle.
+## Свойство ChartPlotArea.Height
+
+Возвращает или задает высоту границы области построения в долях высоты графика (от 0 до 1). Читаемое/записываемое значение Single.
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartPlotArea](../../chartplotarea)
+* класс [ChartPlotArea](../../chartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../chartplotarea)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: MarginLeft
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает левое поле в абзаце без наследования. Чтение/записьSingle.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Возвращает или устанавливает левый отступ в абзаце без наследования. Чтение/запись Single.
 type: docs
 weight: 90
 url: /ru/aspose.slides/paragraphformat/marginleft/
 ---
-## ParagraphFormat.MarginLeft property
 
-Возвращает или устанавливает левое поле в абзаце без наследования. Чтение/записьSingle.
+## Свойство ParagraphFormat.MarginLeft
+
+Возвращает или устанавливает левый отступ в абзаце без наследования. Чтение/запись Single.
 
 ```csharp
 public float MarginLeft { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ParagraphFormat](../../paragraphformat)
+* класс [ParagraphFormat](../../paragraphformat)
 * пространство имен [Aspose.Slides](../../paragraphformat)
 * сборка [Aspose.Slides](../../../)
 

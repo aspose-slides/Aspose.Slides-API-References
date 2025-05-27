@@ -1,14 +1,15 @@
 ---
 title: GetSlideById
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает слайд MasterSlide или LayoutSlide по идентификатору.
+second_title: Справочная документация Aspose.Slides для .NET
+description: Возвращает Slide, MasterSlide или LayoutSlide по Id.
 type: docs
-weight: 300
+weight: 310
 url: /ru/aspose.slides/ipresentation/getslidebyid/
 ---
-## IPresentation.GetSlideById method
 
-Возвращает слайд, MasterSlide или LayoutSlide по идентификатору.
+## Метод IPresentation.GetSlideById
+
+Возвращает Slide, MasterSlide или LayoutSlide по Id.
 
 ```csharp
 public IBaseSlide GetSlideById(uint id)
@@ -16,7 +17,7 @@ public IBaseSlide GetSlideById(uint id)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | UInt32 | Идентификатор слайда. |
+| id | UInt32 | Id слайда. |
 
 ### Возвращаемое значение
 
@@ -24,8 +25,8 @@ public IBaseSlide GetSlideById(uint id)
 
 ### Смотрите также
 
-* interface [IBaseSlide](../../ibaseslide)
-* interface [IPresentation](../../ipresentation)
+* интерфейс [IBaseSlide](../../ibaseslide)
+* интерфейс [IPresentation](../../ipresentation)
 * пространство имен [Aspose.Slides](../../ipresentation)
 * сборка [Aspose.Slides](../../../)
 

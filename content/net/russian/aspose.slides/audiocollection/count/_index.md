@@ -1,14 +1,15 @@
 ---
-title: Count
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество аудиофайлов в коллекции. Только для чтенияInt32.
+title: Количество
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает количество аудиофайлов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/audiocollection/count/
 ---
-## AudioCollection.Count property
 
-Возвращает количество аудиофайлов в коллекции. Только для чтенияInt32.
+## Свойство AudioCollection.Count
+
+Возвращает количество аудиофайлов в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
@@ -16,7 +17,7 @@ public int Count { get; }
 
 ### Смотрите также
 
-* class [AudioCollection](../../audiocollection)
+* класс [AudioCollection](../../audiocollection)
 * пространство имен [Aspose.Slides](../../audiocollection)
 * сборка [Aspose.Slides](../../../)
 

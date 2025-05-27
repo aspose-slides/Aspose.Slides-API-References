@@ -1,22 +1,23 @@
 ---
 title: FirstRow
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет должна ли первая строка таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
+second_title: Aspose.Slides для справки по API .NET
+description: Определяет, должен ли первый ряд таблицы отображаться с особым форматированием. Читаемое/записываемое логическое значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides/itable/firstrow/
 ---
-## ITable.FirstRow property
 
-Определяет, должна ли первая строка таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
+## Свойство ITable.FirstRow
+
+Определяет, должен ли первый ряд таблицы отображаться с особым форматированием. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool FirstRow { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITable](../../itable)
+* интерфейс [ITable](../../itable)
 * пространство имен [Aspose.Slides](../../itable)
 * сборка [Aspose.Slides](../../../)
 

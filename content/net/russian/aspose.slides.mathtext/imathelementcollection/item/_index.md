@@ -1,14 +1,15 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияIMathElementaspose.slides.mathtext/imathelement.
+title: Элемент
+second_title: Справочник API Aspose.Slides для .NET
+description: Получает элемент по указанному индексу. Только для чтения IMathElementaspose.slides.mathtext/imathelement.
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathelementcollection/item/
 ---
-## IMathElementCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`IMathElement`](../../imathelement).
+## Индексатор IMathElementCollection
+
+Получает элемент по указанному индексу. Только для чтения [`IMathElement`](../../imathelement).
 
 ```csharp
 public IMathElement this[int index] { get; }
@@ -16,7 +17,7 @@ public IMathElement this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Отсчитываемый от нуля индекс элемента для получения |
+| index | Индекс элемента, который нужно получить (начиная с нуля) |
 
 ### Примеры
 
@@ -28,10 +29,10 @@ IMathElementCollection collection = new MathBlock(new MathematicalText("x"));
 IMathElement firstElem = collection[0];
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathElementCollection](../../imathelementcollection)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathElementCollection](../../imathelementcollection)
 * пространство имен [Aspose.Slides.MathText](../../imathelementcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: JoinPortionsWithSameFormatting
 second_title: Справочник по API Aspose.Slides для .NET
-description: Соединения выполняются с одинаковым форматированием во всех абзацах.
+description: Объединяет части с одинаковым форматированием во всех абзацах.
 type: docs
-weight: 90
+weight: 110
 url: /ru/aspose.slides/textframe/joinportionswithsameformatting/
 ---
-## TextFrame.JoinPortionsWithSameFormatting method
 
-Соединения выполняются с одинаковым форматированием во всех абзацах.
+## Метод TextFrame.JoinPortionsWithSameFormatting
+
+Объединяет части с одинаковым форматированием во всех абзацах.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()
@@ -16,7 +17,7 @@ public void JoinPortionsWithSameFormatting()
 
 ### Смотрите также
 
-* class [TextFrame](../../textframe)
+* класс [TextFrame](../../textframe)
 * пространство имен [Aspose.Slides](../../textframe)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: Bitmap
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Слайды должны быть преобразованы в растровое изображение.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/slideimageformat/bitmap/
 ---
-## SlideImageFormat.Bitmap method
+
+## Метод SlideImageFormat.Bitmap
 
 Слайды должны быть преобразованы в растровое изображение.
 
@@ -16,12 +17,12 @@ public static SlideImageFormat Bitmap(float scale, ImageFormat imgFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| scale | Single | Коэффициент масштабирования изображения. |
+| scale | Single | Коэффициент масштаба изображения. |
 | imgFormat | ImageFormat | Формат изображения. |
 
-### Смотрите также
+### См. также
 
-* class [SlideImageFormat](../../slideimageformat)
+* класс [SlideImageFormat](../../slideimageformat)
 * пространство имен [Aspose.Slides.Export](../../slideimageformat)
 * сборка [Aspose.Slides](../../../)
 

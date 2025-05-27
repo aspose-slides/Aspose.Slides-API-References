@@ -1,11 +1,12 @@
 ---
 title: AddVideo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Добавляет копию видеофайла из другой презентации.
 type: docs
 weight: 50
 url: /ru/aspose.slides/videocollection/addvideo/
 ---
+
 ## AddVideo(IVideo) {#addvideo}
 
 Добавляет копию видеофайла из другой презентации.
@@ -20,43 +21,18 @@ public IVideo AddVideo(IVideo video)
 
 ### Возвращаемое значение
 
-Добавлено видео.
+Добавленное видео.
 
-### Смотрите также
+### См. Также
 
-* interface [IVideo](../../ivideo)
-* class [VideoCollection](../../videocollection)
+* интерфейс [IVideo](../../ivideo)
+* класс [VideoCollection](../../videocollection)
 * пространство имен [Aspose.Slides](../../videocollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## AddVideo(Stream) {#addvideo_2}
-
-Создает и добавляет видео в презентацию из потока.
-
-```csharp
-public IVideo AddVideo(Stream stream)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| stream | Stream | Поток, из которого нужно добавить видеофайл. |
-
-### Возвращаемое значение
-
-Добавлено[`Video`](../../video).
-
-### Смотрите также
-
-* interface [IVideo](../../ivideo)
-* class [VideoCollection](../../videocollection)
-* пространство имен [Aspose.Slides](../../videocollection)
-* сборка [Aspose.Slides](../../../)
-
----
-
-## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_3}
+## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_2}
 
 Создает и добавляет видео в презентацию из потока.
 
@@ -66,18 +42,18 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого нужно добавить видеофайл. |
-| loadingStreamBehavior | LoadingStreamBehavior | Поведение, которое будет применяться к потоку. |
+| stream | Stream | Поток, из которого добавляется видеофайл. |
+| loadingStreamBehavior | LoadingStreamBehavior | Поведение, которое будет применено к потоку. |
 
 ### Возвращаемое значение
 
-Добавлено[`IVideo`](../../ivideo).
+Добавленное [`IVideo`](../../ivideo).
 
-### Смотрите также
+### См. Также
 
-* interface [IVideo](../../ivideo)
-* enum [LoadingStreamBehavior](../../loadingstreambehavior)
-* class [VideoCollection](../../videocollection)
+* интерфейс [IVideo](../../ivideo)
+* перечисление [LoadingStreamBehavior](../../loadingstreambehavior)
+* класс [VideoCollection](../../videocollection)
 * пространство имен [Aspose.Slides](../../videocollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -85,7 +61,7 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 ## AddVideo(byte[]) {#addvideo_1}
 
-Создает и добавляет видео в презентацию из байтового массива.
+Создает и добавляет видео в презентацию из массива байтов.
 
 ```csharp
 public IVideo AddVideo(byte[] videoData)
@@ -93,16 +69,16 @@ public IVideo AddVideo(byte[] videoData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| videoData | Byte[] | Видеобайты. |
+| videoData | Byte[] | Байты видео. |
 
 ### Возвращаемое значение
 
-Добавлено видео.
+Добавленное видео.
 
-### Смотрите также
+### См. Также
 
-* interface [IVideo](../../ivideo)
-* class [VideoCollection](../../videocollection)
+* интерфейс [IVideo](../../ivideo)
+* класс [VideoCollection](../../videocollection)
 * пространство имен [Aspose.Slides](../../videocollection)
 * сборка [Aspose.Slides](../../../)
 

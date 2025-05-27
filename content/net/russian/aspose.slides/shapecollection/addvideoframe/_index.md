@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /ru/aspose.slides/shapecollection/addvideoframe/
 ---
+
 ## AddVideoFrame(float, float, float, float, string) {#addvideoframe_1}
 
 Добавляет новый видеокадр в конец коллекции.
@@ -16,7 +17,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового видеокадра. |
+| x | Single | Координата X нового видеокадра. |
 | y | Single | Координата Y нового видеокадра. |
 | width | Single | Ширина нового видеокадра. |
 | height | Single | Высота нового видеокадра. |
@@ -24,12 +25,12 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 
 ### Возвращаемое значение
 
-Создан объект VideoFrame.
+Созданный объект VideoFrame.
 
-### Смотрите также
+### См. также
 
-* interface [IVideoFrame](../../ivideoframe)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IVideoFrame](../../ivideoframe)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -45,21 +46,21 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового видеокадра. |
+| x | Single | Координата X нового видеокадра. |
 | y | Single | Координата Y нового видеокадра. |
 | width | Single | Ширина нового видеокадра. |
 | height | Single | Высота нового видеокадра. |
-| video | IVideo | Видео для добавления. |
+| video | IVideo | Видеофайл для добавления. |
 
 ### Возвращаемое значение
 
-Создан объект VideoFrame.
+Созданный объект VideoFrame.
 
-### Смотрите также
+### См. также
 
-* interface [IVideoFrame](../../ivideoframe)
-* interface [IVideo](../../ivideo)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IVideoFrame](../../ivideoframe)
+* интерфейс [IVideo](../../ivideo)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

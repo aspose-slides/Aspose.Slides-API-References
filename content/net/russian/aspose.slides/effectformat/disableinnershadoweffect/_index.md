@@ -6,7 +6,8 @@ type: docs
 weight: 130
 url: /ru/aspose.slides/effectformat/disableinnershadoweffect/
 ---
-## EffectFormat.DisableInnerShadowEffect method
+
+## EffectFormat.DisableInnerShadowEffect метод
 
 Отключает эффект внутренней тени.
 
@@ -16,7 +17,7 @@ public void DisableInnerShadowEffect()
 
 ### Смотрите также
 
-* class [EffectFormat](../../effectformat)
+* класс [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

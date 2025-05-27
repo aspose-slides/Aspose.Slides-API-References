@@ -1,42 +1,43 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий эффективные свойства трехмерного форматирования.
+second_title: Aspose.Sildes для справки по API .NET
+description: Неизменяемый объект, который представляет собой эффективные свойства 3-D форматирования.
 type: docs
-weight: 6760
+weight: 7120
 url: /ru/aspose.slides/ithreedformateffectivedata/
 ---
-## IThreeDFormatEffectiveData interface
 
-Неизменяемый объект, представляющий эффективные свойства трехмерного форматирования.
+## Интерфейс IThreeDFormatEffectiveData
+
+Неизменяемый объект, который представляет собой эффективные свойства 3-D форматирования.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Позволяет получить базовый интерфейс IThreeDParamSource. Только для чтения[`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Возвращает тип нижней трехмерной фаски. Только для чтения[`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Возвращает тип верхней 3D фаски. Только для чтения[`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Возвращает настройки камеры. Только для чтения[`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Возвращает цвет контура. Только для чтенияColor. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Возвращает ширину трехмерного контура. Только для чтенияDouble. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Возвращает глубину трехмерной формы. Только для чтенияDouble. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Возвращает цвет экструзии. Только для чтенияColor. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Возвращает высоту эффекта выдавливания. Только для чтенияDouble. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Возвращает тип источника света. Только для чтения[`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Возвращает тип материала. Только для чтения[`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Позволяет получить базовый интерфейс IThreeDParamSource. Только для чтения [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Возвращает тип нижнего 3D фаски. Только для чтения [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Возвращает тип верхнего 3D фаски. Только для чтения [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Возвращает настройки камеры. Только для чтения [`ICameraEffectiveData`](../icameraeffectivedata). |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Возвращает цвет контура. Только для чтения Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Возвращает ширину 3D контура. Только для чтения Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Возвращает глубину 3D фигуры. Только для чтения Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Возвращает цвет экструзии. Только для чтения Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Возвращает высоту эффекта экструзии. Только для чтения Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Возвращает тип света. Только для чтения [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Возвращает тип материала. Только для чтения [`MaterialPresetType`](../materialpresettype). |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`IThreeDFormat`](../ithreedformat)интерфейс для возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с интерфейсом [`IThreeDFormat`](../ithreedformat) для возврата эффективных значений форматирования с применением наследования.
 
-### Смотрите также
+### См. также
 
-* interface [IThreeDParamSource](../ithreedparamsource)
+* интерфейс [IThreeDParamSource](../ithreedparamsource)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

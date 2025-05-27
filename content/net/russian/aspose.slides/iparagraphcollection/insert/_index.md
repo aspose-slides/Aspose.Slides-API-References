@@ -1,14 +1,15 @@
 ---
-title: Insert
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вставляет абзац в коллекцию по указанному индексу.
+title: Вставить
+second_title: Aspose.Sildes для .NET API Справочник
+description: Вставляет Параграф в коллекцию по указанному индексу.
 type: docs
 weight: 90
 url: /ru/aspose.slides/iparagraphcollection/insert/
 ---
-## Insert(int, IParagraph) {#insert}
 
-Вставляет абзац в коллекцию по указанному индексу.
+## Вставить(int, IParagraph) {#insert}
+
+Вставляет Параграф в коллекцию по указанному индексу.
 
 ```csharp
 public void Insert(int index, IParagraph value)
@@ -16,19 +17,19 @@ public void Insert(int index, IParagraph value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен абзац. |
-| value | IParagraph | Абзац для вставки. |
+| index | Int32 | Индекс, основанный на нуле, по которому Параграф должен быть вставлен. |
+| value | IParagraph | Параграф для вставки. |
 
-### Смотрите также
+### См. также
 
-* interface [IParagraph](../../iparagraph)
-* interface [IParagraphCollection](../../iparagraphcollection)
+* интерфейс [IParagraph](../../iparagraph)
+* интерфейс [IParagraphCollection](../../iparagraphcollection)
 * пространство имен [Aspose.Slides](../../iparagraphcollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Insert(int, IParagraphCollection) {#insert_1}
+## Вставить(int, IParagraphCollection) {#insert_1}
 
 Вставляет содержимое ParagraphCollection в коллекцию по указанному индексу.
 
@@ -38,12 +39,12 @@ public void Insert(int index, IParagraphCollection value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, по которому должны быть вставлены абзацы. |
-| value | IParagraphCollection | Абзацы для вставки. |
+| index | Int32 | Индекс, основанный на нуле, по которому параграфы должны быть вставлены. |
+| value | IParagraphCollection | Параграфы для вставки. |
 
-### Смотрите также
+### См. также
 
-* interface [IParagraphCollection](../../iparagraphcollection)
+* интерфейс [IParagraphCollection](../../iparagraphcollection)
 * пространство имен [Aspose.Slides](../../iparagraphcollection)
 * сборка [Aspose.Slides](../../../)
 

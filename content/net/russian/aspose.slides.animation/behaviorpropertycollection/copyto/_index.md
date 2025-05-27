@@ -1,14 +1,15 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Копирует элементыICollectionвArray начиная с определенногоArrayindex.
+second_title: Aspose.Slides для .NET API Справочник
+description: Копирует элементы ICollection в массив, начиная с определенного индекса массива.
 type: docs
 weight: 70
 url: /ru/aspose.slides.animation/behaviorpropertycollection/copyto/
 ---
-## BehaviorPropertyCollection.CopyTo method
 
-Копирует элементыICollectionвArray, начиная с определенногоArrayindex.
+## Метод BehaviorPropertyCollection.CopyTo
+
+Копирует элементы ICollection в массив, начиная с определенного индекса массива.
 
 ```csharp
 public void CopyTo(IBehaviorProperty[] array, int arrayIndex)
@@ -16,21 +17,21 @@ public void CopyTo(IBehaviorProperty[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IBehaviorProperty[] | ОдномерныйArrayкуда копируются элементы fromICollection.Arrayдолжен иметь индексацию с отсчетом от нуля. |
-| arrayIndex | Int32 | Отсчитываемый от нуля индекс в*array*с которого начинается копирование. |
+| array | IBehaviorProperty[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь индексирование с нуля. |
+| arrayIndex | Int32 | Индекс, основанный на нуле, в *array*, с которого начинается копирование. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *array*равно нулю. |
-| ArgumentOutOfRangeException | *arrayIndex*меньше 0. |
-| ArgumentException | Количество элементов в источникеICollectionбольше, чем доступное пространство из*arrayIndex*до конца адресата*array*. |
+| ArgumentNullException | *array* равно null. |
+| ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
+| ArgumentException | Количество элементов в исходном ICollection больше доступного пространства от *arrayIndex* до конца целевого *array*. |
 
 ### Смотрите также
 
-* interface [IBehaviorProperty](../../ibehaviorproperty)
-* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* интерфейс [IBehaviorProperty](../../ibehaviorproperty)
+* класс [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 

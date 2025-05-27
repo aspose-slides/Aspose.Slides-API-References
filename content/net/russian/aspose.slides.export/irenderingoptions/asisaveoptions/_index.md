@@ -1,14 +1,15 @@
 ---
 title: AsISaveOptions
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс ISaveOptions. Только для чтенияISaveOptionsaspose.slides.export/isaveoptions.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает интерфейс ISaveOptions. Только для чтения ISaveOptionsaspose.slides.export/isaveoptions.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/irenderingoptions/asisaveoptions/
 ---
-## IRenderingOptions.AsISaveOptions property
 
-Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../../isaveoptions).
+## IRenderingOptions.AsISaveOptions свойство
+
+Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../../isaveoptions).
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }
@@ -16,12 +17,12 @@ public ISaveOptions AsISaveOptions { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [ISaveOptions](../../isaveoptions)
-* interface [IRenderingOptions](../../irenderingoptions)
+* интерфейс [ISaveOptions](../../isaveoptions)
+* интерфейс [IRenderingOptions](../../irenderingoptions)
 * пространство имен [Aspose.Slides.Export](../../irenderingoptions)
 * сборка [Aspose.Slides](../../../)
 

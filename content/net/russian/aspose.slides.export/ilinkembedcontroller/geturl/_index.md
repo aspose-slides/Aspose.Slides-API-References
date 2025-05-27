@@ -1,14 +1,15 @@
 ---
 title: GetUrl
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает URL внешнего объекта. Этот метод всегда вызывается еслиStringвозвращаетсяLinkи может вызываться еслиGetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocationвозвращеноEmbedно встраивание невозможно. Может вызываться несколько раз для одного и того же идентификатора объекта.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает URL для внешнего объекта. Этот метод всегда вызывается, если GetObjectStoringLocation../getobjectstoringlocation вернул Link и может быть вызван, если GetObjectStoringLocation../getobjectstoringlocation вернул Embed, но внедрение невозможно. Может быть вызван несколько раз для одного и того же идентификатора объекта.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/ilinkembedcontroller/geturl/
 ---
-## ILinkEmbedController.GetUrl method
 
-Возвращает URL внешнего объекта. Этот метод всегда вызывается, еслиStringвозвращаетсяLinkи может вызываться, если[`GetObjectStoringLocation`](../getobjectstoringlocation)возвращеноEmbedно встраивание невозможно. Может вызываться несколько раз для одного и того же идентификатора объекта.
+## ILinkEmbedController.GetUrl метод
+
+Возвращает URL для внешнего объекта. Этот метод всегда вызывается, если [`GetObjectStoringLocation`](../getobjectstoringlocation) вернул Link и может быть вызван, если [`GetObjectStoringLocation`](../getobjectstoringlocation) вернул Embed, но внедрение невозможно. Может быть вызван несколько раз для одного и того же идентификатора объекта.
 
 ```csharp
 public string GetUrl(int id, int referrer)
@@ -16,16 +17,16 @@ public string GetUrl(int id, int referrer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | Int32 | Идентификатор объекта. Этот идентификатор сохраняет уникальность для всей операции. |
-| referrer | Int32 | id ссылающегося объекта или 0, если на объект ссылается корневой документ. Может использоваться для создания относительной ссылки. |
+| id | Int32 | Идентификатор объекта. Этот идентификатор сохраняется как уникальный для всей операции. |
+| referrer | Int32 | идентификатор ссылающегося объекта или 0, если объект ссылается на корневой документ. Может использоваться для генерации относительной ссылки. |
 
 ### Возвращаемое значение
 
-URL-адрес внешнего объекта или null, если этот объект следует игнорировать.
+URL внешнего объекта или null, если этот объект должен быть проигнорирован.
 
 ### Смотрите также
 
-* interface [ILinkEmbedController](../../ilinkembedcontroller)
+* интерфейс [ILinkEmbedController](../../ilinkembedcontroller)
 * пространство имен [Aspose.Slides.Export](../../ilinkembedcontroller)
 * сборка [Aspose.Slides](../../../)
 

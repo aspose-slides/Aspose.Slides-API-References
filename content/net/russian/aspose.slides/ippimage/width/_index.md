@@ -1,22 +1,23 @@
 ---
-title: Width
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ширину изображения. Только для чтенияInt32.
+title: Ширина
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает ширину изображения. Только для чтения Int32.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ippimage/width/
 ---
-## IPPImage.Width property
 
-Возвращает ширину изображения. Только для чтенияInt32.
+## Свойство IPPImage.Width
+
+Возвращает ширину изображения. Только для чтения Int32.
 
 ```csharp
 public int Width { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPPImage](../../ippimage)
+* интерфейс [IPPImage](../../ippimage)
 * пространство имен [Aspose.Slides](../../ippimage)
 * сборка [Aspose.Slides](../../../)
 

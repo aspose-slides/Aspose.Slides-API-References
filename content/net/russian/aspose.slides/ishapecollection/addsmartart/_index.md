@@ -1,12 +1,13 @@
 ---
 title: AddSmartArt
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Добавить диаграмму SmartArt.
 type: docs
 weight: 150
 url: /ru/aspose.slides/ishapecollection/addsmartart/
 ---
-## IShapeCollection.AddSmartArt method
+
+## IShapeCollection.AddSmartArt метод
 
 Добавить диаграмму SmartArt.
 
@@ -29,7 +30,7 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 
 ### Примеры
 
-Пример: &lt;code&gt; [Visual Basic] Private pres As New Presentation() Частный слайд Как слайд = pres.Slides(0) Частный смарт Как SmartArt = слайд.Фигуры.ДобавитьSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList) &lt;/код&gt;
+Пример:
 
 ```csharp
 [C#]
@@ -38,11 +39,18 @@ Slide slide = pres.Slides[0];
 SmartArt smart = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
 ```
 
-### Смотрите также
+```csharp
+[Visual Basic]
+Private pres As New Presentation()
+Private slide As Slide = pres.Slides(0)
+Private smart As SmartArt = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList)
+```
 
-* interface [ISmartArt](../../../aspose.slides.smartart/ismartart)
-* enum [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype)
-* interface [IShapeCollection](../../ishapecollection)
+### См. также
+
+* интерфейс [ISmartArt](../../../aspose.slides.smartart/ismartart)
+* перечисление [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

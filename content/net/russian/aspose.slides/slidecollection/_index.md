@@ -1,27 +1,28 @@
 ---
 title: SlideCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет коллекцию слайдов.
+second_title: Aspose.Slidес для .NET API Reference
+description: Представляет собой коллекцию слайдов.
 type: docs
-weight: 9190
+weight: 9660
 url: /ru/aspose.slides/slidecollection/
 ---
-## SlideCollection class
 
-Представляет коллекцию слайдов.
+## Класс SlideCollection
+
+Представляет собой коллекцию слайдов.
 
 ```csharp
 public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/slidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/slidecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/slidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`Slide`](../slide). |
-| [SyncRoot](../../aspose.slides/slidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/slidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/slidecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасно для потоков). Только для чтения Boolean. |
+| [Item](../../aspose.slides/slidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`Slide`](../slide). |
+| [SyncRoot](../../aspose.slides/slidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
@@ -30,41 +31,47 @@ public sealed class SlideCollection : DomObject<Presentation>, ISlideCollection
 | [AddClone](../../aspose.slides/slidecollection/addclone#addclone)(ISlide) | Добавляет копию указанного слайда в конец коллекции. |
 | [AddClone](../../aspose.slides/slidecollection/addclone#addclone_1)(ISlide, ILayoutSlide) | Добавляет копию указанного слайда в конец коллекции. |
 | [AddClone](../../aspose.slides/slidecollection/addclone#addclone_3)(ISlide, ISection) | Добавляет копию указанного слайда в конец указанного раздела. |
-| [AddClone](../../aspose.slides/slidecollection/addclone#addclone_2)(ISlide, IMasterSlide, bool) | Добавляет копию указанного исходного слайда в конец коллекции. Соответствующий макет будет выбран автоматически из указанного мастера (подходящим макетом является макет с тем же типом или именем, что и макета исходного слайда). ). Если подходящего макета нет, то макет исходного слайда будет клонирован (если значение allowCloneMissingLayout равно true) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout является ложным). |
+| [AddClone](../../aspose.slides/slidecollection/addclone#addclone_2)(ISlide, IMasterSlide, bool) | Добавляет копию указанного исходного слайда в конец коллекции. Подходящий макет будет выбран автоматически из указанного мастера (подходящий макет - это макет с таким же типом или именем, как у макета исходного слайда). Если подходящего макета нет, то макет исходного слайда будет клонирован (если allowCloneMissingLayout истинно) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout ложно). |
 | [AddEmptySlide](../../aspose.slides/slidecollection/addemptyslide)(ILayoutSlide) | Добавляет новый пустой слайд в конец коллекции. |
-| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml)(Stream) | Создает слайды из текста HTML и добавляет их в конец коллекции. |
-| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_4)(string) | Создает слайды из текста HTML и добавляет их в конец коллекции. |
-| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_2)(TextReader) | Создает слайды из текста HTML и добавляет их в конец коллекции. |
-| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_1)(Stream, IExternalResourceResolver, string) | Создает слайды из текста HTML и добавляет их в конец коллекции. |
-| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_5)(string, IExternalResourceResolver, string) | Создает слайды из текста HTML и добавляет их в конец коллекции. |
-| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_3)(TextReader, IExternalResourceResolver, string) | Создает слайды из текста HTML и добавляет их в конец коллекции. |
-| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf)(Stream) | Создает слайды из документа PDF и добавляет их в конец коллекции. |
-| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_1)(string) | Создает слайды из документа PDF и добавляет их в конец коллекции. |
+| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml)(Stream) | Создает слайды из HTML-т текста и добавляет их в конец коллекции. |
+| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_4)(string) | Создает слайды из HTML-т текста и добавляет их в конец коллекции. |
+| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_2)(TextReader) | Создает слайды из HTML-т текста и добавляет их в конец коллекции. |
+| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_1)(Stream, IExternalResourceResolver, string) | Создает слайды из HTML-т текста и добавляет их в конец коллекции. |
+| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_5)(string, IExternalResourceResolver, string) | Создает слайды из HTML-т текста и добавляет их в конец коллекции. |
+| [AddFromHtml](../../aspose.slides/slidecollection/addfromhtml#addfromhtml_3)(TextReader, IExternalResourceResolver, string) | Создает слайды из HTML-т текста и добавляет их в конец коллекции. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf)(Stream) | Создает слайды из PDF-документа и добавляет их в конец коллекции. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_2)(string) | Создает слайды из PDF-документа и добавляет их в конец коллекции. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_1)(Stream, PdfImportOptions) | Создает слайды из PDF-документа и добавляет их в конец коллекции. |
+| [AddFromPdf](../../aspose.slides/slidecollection/addfrompdf#addfrompdf_3)(string, PdfImportOptions) | Создает слайды из PDF-документа и добавляет их в конец коллекции с учетом параметров импорта PDF. |
 | [CopyTo](../../aspose.slides/slidecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/slidecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/slidecollection/getenumerator)() | Возвращает перечислитель, который проходит через коллекцию. |
 | [IndexOf](../../aspose.slides/slidecollection/indexof)(ISlide) | Возвращает индекс указанного слайда в коллекции. |
 | [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone)(int, ISlide) | Вставляет копию указанного слайда в указанную позицию коллекции. |
 | [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone_1)(int, ISlide, ILayoutSlide) | Вставляет копию указанного слайда в указанную позицию коллекции. |
-| [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | Вставляет копию указанного исходного слайда в указанную позицию коллекции. Соответствующий макет будет выбран автоматически из указанного мастера (подходящим макетом является макет с тем же типом или именем, что и макета исходного слайда). ). Если подходящего макета нет, то макет исходного слайда будет клонирован (если значение allowCloneMissingLayout равно true) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout является ложным). |
+| [InsertClone](../../aspose.slides/slidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | Вставляет копию указанного исходного слайда в указанную позицию коллекции. Подходящий макет будет выбран автоматически из указанного мастера (подходящий макет - это макет с таким же типом или именем, как у макета исходного слайда). Если подходящего макета нет, то макет исходного слайда будет клонирован (если allowCloneMissingLayout истинно) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout ложно). |
 | [InsertEmptySlide](../../aspose.slides/slidecollection/insertemptyslide)(int, ILayoutSlide) | Вставляет копию указанного слайда в указанную позицию коллекции. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml)(int, Stream) | Создает слайды из текста HTML и вставляет их в коллекцию в указанной позиции. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_4)(int, string) | Создает слайды из текста HTML и вставляет их в коллекцию в указанной позиции. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_2)(int, TextReader) | Создает слайды из текста HTML и вставляет их в коллекцию в указанной позиции. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_1)(int, Stream, IExternalResourceResolver, string) | Создает слайды из текста HTML и вставляет их в коллекцию в указанной позиции. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_5)(int, string, IExternalResourceResolver, string) | Создает слайды из текста HTML и вставляет их в коллекцию в указанной позиции. |
-| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_3)(int, TextReader, IExternalResourceResolver, string) | Создает слайды из текста HTML и вставляет их в коллекцию в указанной позиции. |
-| [Remove](../../aspose.slides/slidecollection/remove)(ISlide) | Удаляет первое вхождение определенного объекта из коллекции. |
-| [RemoveAt](../../aspose.slides/slidecollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
-| [Reorder](../../aspose.slides/slidecollection/reorder#reorder)(int, ISlide) | Перемещает слайд из коллекции в указанную позицию. |
-| [Reorder](../../aspose.slides/slidecollection/reorder#reorder_1)(int, params ISlide[]) | Перемещает слайды из коллекции в указанную позицию. Слайды будут располагаться, начиная с индекса, в порядке их появления в списке. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml)(int, Stream) | Создает слайды из HTML-т текста и вставляет их в коллекцию по указанной позиции. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_6)(int, string) | Создает слайды из HTML-т текста и вставляет их в коллекцию по указанной позиции. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_4)(int, TextReader) | Создает слайды из HTML-т текста и вставляет их в коллекцию по указанной позиции. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_3)(int, Stream, bool) | Создает слайды из HTML-т текста и вставляет их в коллекцию по указанной позиции. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_9)(int, string, bool) | Создает слайды из HTML-т текста и вставляет их в коллекцию по указанной позиции. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_1)(int, Stream, IExternalResourceResolver, string) | Создает слайды из HTML-т текста и вставляет их в коллекцию по указанной позиции. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_7)(int, string, IExternalResourceResolver, string) | Создает слайды из HTML-т текста и вставляет их в коллекцию по указанной позиции. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_5)(int, TextReader, IExternalResourceResolver, string) | Создает слайды из HTML-т текста и вставляет их в коллекцию по указанной позиции. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_2)(int, Stream, IExternalResourceResolver, string, bool) | Создает слайды из HTML-т текста и вставляет их в коллекцию по указанной позиции. |
+| [InsertFromHtml](../../aspose.slides/slidecollection/insertfromhtml#insertfromhtml_8)(int, string, IExternalResourceResolver, string, bool) | Создает слайды из HTML-т текста и вставляет их в коллекцию по указанной позиции. |
+| [Remove](../../aspose.slides/slidecollection/remove)(ISlide) | Удаляет первое вхождение конкретного объекта из коллекции. |
+| [RemoveAt](../../aspose.slides/slidecollection/removeat)(int) | Удаляет элемент по указанному индексу из коллекции. |
+| [Reorder](../../aspose.slides/slidecollection/reorder#reorder)(int, ISlide) | Перемещает слайд из коллекции в указанное положение. |
+| [Reorder](../../aspose.slides/slidecollection/reorder#reorder_1)(int, params ISlide[]) | Перемещает слайды из коллекции в указанное положение. Слайды будут размещены начиная с индекса в порядке их появления в списке. |
 | [ToArray](../../aspose.slides/slidecollection/toarray#toarray)() | Создает и возвращает массив со всеми слайдами в нем. |
-| [ToArray](../../aspose.slides/slidecollection/toarray#toarray_1)(int, int) | Создает и возвращает массив со всеми слайдами из указанного диапазона в нем.  Индекс первого добавляемого слайда. Количество слайдов для добавления. |
+| [ToArray](../../aspose.slides/slidecollection/toarray#toarray_1)(int, int) | Создает и возвращает массив со всеми слайдами из указанного диапазона в нем. Индекс первого слайда для добавления. Количество слайдов для добавления. |
 
-### Смотрите также
+### Также см.
 
-* class [DomObject&lt;TParent&gt;](../domobject-1)
-* class [Presentation](../presentation)
-* interface [ISlideCollection](../islidecollection)
+* класс [DomObject&lt;TParent&gt;](../domobject-1)
+* класс [Presentation](../presentation)
+* интерфейс [ISlideCollection](../islidecollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

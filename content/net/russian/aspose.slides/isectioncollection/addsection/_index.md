@@ -1,14 +1,15 @@
 ---
 title: AddSection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавить новый раздел начинающийся с определенного слайда.
+second_title: Aspose.Slides для .NET API Ссылка
+description: Добавление нового раздела, начинающегося с конкретного слайда.
 type: docs
 weight: 30
 url: /ru/aspose.slides/isectioncollection/addsection/
 ---
-## ISectionCollection.AddSection method
 
-Добавить новый раздел, начинающийся с определенного слайда.
+## ISectionCollection.AddSection метод
+
+Добавление нового раздела, начинающегося с конкретного слайда.
 
 ```csharp
 public ISection AddSection(string name, ISlide startedFromSlide)
@@ -16,18 +17,18 @@ public ISection AddSection(string name, ISlide startedFromSlide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Название раздела |
-| startedFromSlide | ISlide | Первый слайд раздел |
+| name | String | Имя раздела |
+| startedFromSlide | ISlide | Первый слайд раздела |
 
-### Возвращаемое значение
+### Значение возвращаемое
 
-Добавлен раздел.
+Добавленный раздел.
 
-### Смотрите также
+### См. Так же
 
-* interface [ISection](../../isection)
-* interface [ISlide](../../islide)
-* interface [ISectionCollection](../../isectioncollection)
+* интерфейс [ISection](../../isection)
+* интерфейс [ISlide](../../islide)
+* интерфейс [ISectionCollection](../../isectioncollection)
 * пространство имен [Aspose.Slides](../../isectioncollection)
 * сборка [Aspose.Slides](../../../)
 

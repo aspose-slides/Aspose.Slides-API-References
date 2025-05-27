@@ -1,12 +1,13 @@
 ---
 title: DisableInnerShadowEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Отключает эффект внутренней тени.
 type: docs
 weight: 140
 url: /ru/aspose.slides/ieffectformat/disableinnershadoweffect/
 ---
-## IEffectFormat.DisableInnerShadowEffect method
+
+## IEffectFormat.DisableInnerShadowEffect метод
 
 Отключает эффект внутренней тени.
 
@@ -16,7 +17,7 @@ public void DisableInnerShadowEffect()
 
 ### Смотрите также
 
-* interface [IEffectFormat](../../ieffectformat)
+* интерфейс [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)
 * сборка [Aspose.Slides](../../../)
 

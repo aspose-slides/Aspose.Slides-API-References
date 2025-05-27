@@ -1,22 +1,23 @@
 ---
-title: Count
+title: Количество
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество вариантов поведения в коллекции. Только для чтенияInt32.
+description: Возвращает количество поведений в коллекции. Доступно только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/behaviorcollection/count/
 ---
-## BehaviorCollection.Count property
 
-Возвращает количество вариантов поведения в коллекции. Только для чтенияInt32.
+## Свойство BehaviorCollection.Count
+
+Возвращает количество поведений в коллекции. Доступно только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorCollection](../../behaviorcollection)
+* класс [BehaviorCollection](../../behaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorcollection)
 * сборка [Aspose.Slides](../../../)
 

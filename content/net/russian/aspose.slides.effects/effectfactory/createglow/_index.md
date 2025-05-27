@@ -1,12 +1,13 @@
 ---
 title: CreateGlow
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает эффект свечения.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/effectfactory/createglow/
 ---
-## EffectFactory.CreateGlow method
+
+## EffectFactory.CreateGlow метод
 
 Создает эффект свечения.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides.effects/effectfactory/createglow/
 public IGlow CreateGlow()
 ```
 
-### Возвращаемое значение
+### Значение, возвращаемое методом
 
 Эффект свечения.
 
-### Смотрите также
+### См. также
 
-* interface [IGlow](../../iglow)
-* class [EffectFactory](../../effectfactory)
+* интерфейс [IGlow](../../iglow)
+* класс [EffectFactory](../../effectfactory)
 * пространство имен [Aspose.Slides.Effects](../../effectfactory)
 * сборка [Aspose.Slides](../../../)
 

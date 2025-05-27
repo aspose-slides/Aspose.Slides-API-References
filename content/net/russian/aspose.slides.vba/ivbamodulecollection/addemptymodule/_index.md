@@ -1,12 +1,13 @@
 ---
 title: AddEmptyModule
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочная информация по API Aspose.Slides для .NET
 description: Добавляет новый пустой модуль в проект VBA.
 type: docs
 weight: 20
 url: /ru/aspose.slides.vba/ivbamodulecollection/addemptymodule/
 ---
-## IVbaModuleCollection.AddEmptyModule method
+
+## Метод IVbaModuleCollection.AddEmptyModule
 
 Добавляет новый пустой модуль в проект VBA.
 
@@ -20,12 +21,12 @@ public IVbaModule AddEmptyModule(string name)
 
 ### Возвращаемое значение
 
-Добавлен модуль.
+Добавленный модуль.
 
-### Смотрите также
+### См. также
 
-* interface [IVbaModule](../../ivbamodule)
-* interface [IVbaModuleCollection](../../ivbamodulecollection)
+* интерфейс [IVbaModule](../../ivbamodule)
+* интерфейс [IVbaModuleCollection](../../ivbamodulecollection)
 * пространство имен [Aspose.Slides.Vba](../../ivbamodulecollection)
 * сборка [Aspose.Slides](../../../)
 

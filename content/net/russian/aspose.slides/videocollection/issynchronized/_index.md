@@ -1,22 +1,23 @@
 ---
 title: IsSynchronized
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
+second_title: Ссылка по API Aspose.Slides для .NET
+description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным и безопасным для потоков. Только для чтения логическое значение.
 type: docs
 weight: 20
 url: /ru/aspose.slides/videocollection/issynchronized/
 ---
-## VideoCollection.IsSynchronized property
 
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
+## VideoCollection.IsSynchronized свойство
+
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (безопасным для потоков). Только для чтения логическое значение.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [VideoCollection](../../videocollection)
+* класс [VideoCollection](../../videocollection)
 * пространство имен [Aspose.Slides](../../videocollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: ReadOnlyRecommended
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает рекомендацию только для чтения. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает или задает рекомендацию только для чтения. Читаемое/записываемое логическое значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides/iprotectionmanager/readonlyrecommended/
 ---
-## IProtectionManager.ReadOnlyRecommended property
 
-Получает или задает рекомендацию только для чтения. Чтение/записьBoolean.
+## IProtectionManager.ReadOnlyRecommended свойство
+
+Получает или задает рекомендацию только для чтения. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool ReadOnlyRecommended { get; set; }
@@ -25,7 +26,7 @@ pres.Save("ReadOnlyPresentation.pptx", SaveFormat.Pptx);
 
 ### Смотрите также
 
-* interface [IProtectionManager](../../iprotectionmanager)
+* интерфейс [IProtectionManager](../../iprotectionmanager)
 * пространство имен [Aspose.Slides](../../iprotectionmanager)
 * сборка [Aspose.Slides](../../../)
 

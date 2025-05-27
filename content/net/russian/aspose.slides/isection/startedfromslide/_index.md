@@ -1,23 +1,24 @@
 ---
 title: StartedFromSlide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает первый слайд раздела.
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает первый слайд секции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/isection/startedfromslide/
 ---
-## ISection.StartedFromSlide property
 
-Возвращает первый слайд раздела.
+## ISection.StartedFromSlide свойство
+
+Возвращает первый слайд секции.
 
 ```csharp
 public ISlide StartedFromSlide { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISlide](../../islide)
-* interface [ISection](../../isection)
+* интерфейс [ISlide](../../islide)
+* интерфейс [ISection](../../isection)
 * пространство имен [Aspose.Slides](../../isection)
 * сборка [Aspose.Slides](../../../)
 

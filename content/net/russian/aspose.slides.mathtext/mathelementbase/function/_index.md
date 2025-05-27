@@ -1,11 +1,12 @@
 ---
-title: Function
-second_title: Справочник по API Aspose.Slides для .NET
-description: Принимает функцию аргумента используя этот экземпляр в качестве имени функции
+title: Функция
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/mathelementbase/function/
 ---
+
 ## Function(IMathElement) {#function}
 
 Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
@@ -20,7 +21,7 @@ public IMathFunction Function(IMathElement functionArgument)
 
 ### Возвращаемое значение
 
-Новый математический элемент типа[`IMathFunction`](../../imathfunction)
+Новый математический элемент типа [`IMathFunction`](../../imathfunction)
 
 ### Примеры
 
@@ -35,9 +36,9 @@ IMathFunction func = functionName.Function(functionArg);
 
 ### Смотрите также
 
-* interface [IMathFunction](../../imathfunction)
-* interface [IMathElement](../../imathelement)
-* class [MathElementBase](../../mathelementbase)
+* интерфейс [IMathFunction](../../imathfunction)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 
@@ -57,7 +58,7 @@ public IMathFunction Function(string functionArgument)
 
 ### Возвращаемое значение
 
-Новый математический элемент типа[`IMathFunction`](../../imathfunction)
+Новый математический элемент типа [`IMathFunction`](../../imathfunction)
 
 ### Примеры
 
@@ -71,8 +72,8 @@ IMathFunction func = functionName.Function("x");
 
 ### Смотрите также
 
-* interface [IMathFunction](../../imathfunction)
-* class [MathElementBase](../../mathelementbase)
+* интерфейс [IMathFunction](../../imathfunction)
+* класс [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 

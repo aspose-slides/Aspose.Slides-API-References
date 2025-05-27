@@ -1,14 +1,15 @@
 ---
-title: HideTop
-second_title: Справочник по API Aspose.Slides для .NET
-description: Hide Top Edge по умолчанию false - указывает скрытое или отображаемое состояние верхнего края рамки.
+title: СкрытьВерх
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Скрыть верхний край по умолчанию false - указывает скрытое или показанное состояние верхнего края рамки.
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/mathborderbox/hidetop/
 ---
-## MathBorderBox.HideTop property
 
-Hide Top Edge (по умолчанию false) - указывает скрытое или отображаемое состояние верхнего края рамки.
+## Свойство MathBorderBox.HideTop
+
+Скрыть верхний край (по умолчанию false) - указывает скрытое или показанное состояние верхнего края рамки.
 
 ```csharp
 public bool HideTop { get; set; }
@@ -24,9 +25,9 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 borderBox.HideTop = true;
 ```
 
-### Смотрите также
+### См. также
 
-* class [MathBorderBox](../../mathborderbox)
+* класс [MathBorderBox](../../mathborderbox)
 * пространство имен [Aspose.Slides.MathText](../../mathborderbox)
 * сборка [Aspose.Slides](../../../)
 

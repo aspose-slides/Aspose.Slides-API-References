@@ -1,14 +1,15 @@
 ---
 title: GetAllTextBoxes
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает все текстовые фреймы на слайде в презентации PPTX.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает все текстовые рамки на слайде в презентации PPTX.
 type: docs
-weight: 30
+weight: 40
 url: /ru/aspose.slides.util/slideutil/getalltextboxes/
 ---
-## SlideUtil.GetAllTextBoxes method
 
-Возвращает все текстовые фреймы на слайде в презентации PPTX.
+## SlideUtil.GetAllTextBoxes метод
+
+Возвращает все текстовые рамки на слайде в презентации PPTX.
 
 ```csharp
 public static ITextFrame[] GetAllTextBoxes(IBaseSlide slide)
@@ -16,17 +17,17 @@ public static ITextFrame[] GetAllTextBoxes(IBaseSlide slide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| слайд | IBaseSlide | Отсканированный слайд. |
+| slide | IBaseSlide | Сканиваемый слайд. |
 
 ### Возвращаемое значение
 
-Массив объектов[`TextFrame`](../../../aspose.slides/textframe).
+Массив объектов [`TextFrame`](../../../aspose.slides/textframe).
 
-### Смотрите также
+### См. также
 
-* interface [ITextFrame](../../../aspose.slides/itextframe)
-* interface [IBaseSlide](../../../aspose.slides/ibaseslide)
-* class [SlideUtil](../../slideutil)
+* интерфейс [ITextFrame](../../../aspose.slides/itextframe)
+* интерфейс [IBaseSlide](../../../aspose.slides/ibaseslide)
+* класс [SlideUtil](../../slideutil)
 * пространство имен [Aspose.Slides.Util](../../slideutil)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,24 @@
 ---
 title: FillStyles
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор стилей заливки определенных темой. Только для чтенияIFillFormatCollectionaspose.slides.theme/ifillformatcollection.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает коллекцию стилей заполнения, определенных темой. Только для чтения IFillFormatCollectionaspose.slides.theme/ifillformatcollection.
 type: docs
 weight: 30
 url: /ru/aspose.slides.theme/formatscheme/fillstyles/
 ---
-## FormatScheme.FillStyles property
 
-Возвращает набор стилей заливки, определенных темой. Только для чтения[`IFillFormatCollection`](../../ifillformatcollection).
+## FormatScheme.FillStyles свойство
+
+Возвращает коллекцию стилей заполнения, определенных темой. Только для чтения [`IFillFormatCollection`](../../ifillformatcollection).
 
 ```csharp
 public IFillFormatCollection FillStyles { get; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
-* interface [IFillFormatCollection](../../ifillformatcollection)
-* class [FormatScheme](../../formatscheme)
+* интерфейс [IFillFormatCollection](../../ifillformatcollection)
+* класс [FormatScheme](../../formatscheme)
 * пространство имен [Aspose.Slides.Theme](../../formatscheme)
 * сборка [Aspose.Slides](../../../)
 

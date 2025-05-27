@@ -1,12 +1,13 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Этот класс позволяет экспортировать видео и аудио файлы в HTML
 type: docs
-weight: 3840
+weight: 4010
 url: /ru/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
-## IVideoPlayerHtmlController interface
+
+## Интерфейс IVideoPlayerHtmlController
 
 Этот класс позволяет экспортировать видео и аудио файлы в HTML
 
@@ -15,19 +16,19 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
     ISvgShapeFormattingController
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Позволяет получить базовый интерфейс IHtmlFormattingController. Только для чтения[`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Позволяет получить базовый интерфейс ILinkEmbedController. Только для чтения[`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Позволяет получить базовый интерфейс ISvgShapeFormattingController. Только для чтения[`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Позволяет получить базовый интерфейс IHtmlFormattingController. Только для чтения [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Позволяет получить базовый интерфейс ILinkEmbedController. Только для чтения [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Позволяет получить базовый интерфейс ISvgShapeFormattingController. Только для чтения [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
-### Смотрите также
+### Также см. 
 
-* interface [IHtmlFormattingController](../ihtmlformattingcontroller)
-* interface [ILinkEmbedController](../ilinkembedcontroller)
-* interface [ISvgShapeFormattingController](../isvgshapeformattingcontroller)
+* интерфейс [IHtmlFormattingController](../ihtmlformattingcontroller)
+* интерфейс [ILinkEmbedController](../ilinkembedcontroller)
+* интерфейс [ISvgShapeFormattingController](../isvgshapeformattingcontroller)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

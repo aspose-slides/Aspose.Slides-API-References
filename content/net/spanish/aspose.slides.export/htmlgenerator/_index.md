@@ -1,12 +1,13 @@
 ---
 title: HtmlGenerator
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Generador de HTML.
 type: docs
-weight: 3560
+weight: 3710
 url: /es/aspose.slides.export/htmlgenerator/
 ---
-## HtmlGenerator class
+
+## Clase HtmlGenerator
 
 Generador de HTML.
 
@@ -18,12 +19,12 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | Nombre | Descripción |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Devuelve el índice de una diapositiva, que se representará después de la diapositiva actual o -1 si actualmente se representa la última diapositiva. Solo lecturaInt32 . |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Devuelve el índice de la diapositiva procesada anteriormente o -1 si se está procesando la primera diapositiva. Solo lecturaInt32 . |
-| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Devuelve el tamaño de la imagen de la diapositiva. Solo lecturaSizeF . |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Devuelve una unidad en la que se especifica el tamaño de la imagen de la diapositiva. Solo lectura[`SvgCoordinateUnit`](../svgcoordinateunit) . |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Devuelve un código CSS de la unidad en la que se especifica el tamaño de la imagen de la diapositiva. Solo lecturaString . |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Devuelve el índice de la diapositiva renderizada actualmente. Solo lecturaInt32 . |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Devuelve el índice de una diapositiva, que se representará después de la diapositiva actual o -1 si actualmente se está representando la última diapositiva. Solo lectura Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Devuelve el índice de la diapositiva previamente renderizada o -1 si se está renderizando la primera diapositiva. Solo lectura Int32. |
+| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Devuelve el tamaño de la imagen de la diapositiva. Solo lectura SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Devuelve una unidad en la que se especifica el tamaño de la imagen de la diapositiva. Solo lectura [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Devuelve un código css de la unidad en la que se especifica el tamaño de la imagen de la diapositiva. Solo lectura String. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Devuelve el índice de la diapositiva que se está renderizando actualmente. Solo lectura Int32. |
 
 ## Métodos
 
@@ -35,14 +36,14 @@ public sealed class HtmlGenerator : IHtmlGenerator
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Agrega texto HTML formateado. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Agrega texto HTML formateado. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Agrega texto HTML formateado. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Agrega texto sin formato a los archivos html, reemplazando los caracteres especiales con entidades html. Los saltos de línea y los espacios en blanco no se reemplazan. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Agrega texto sin formato a los archivos html, reemplazando los caracteres especiales con entidades html. Los saltos de línea y los espacios en blanco no se reemplazan. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Agrega texto sin formato a los archivos html, reemplazando los caracteres especiales con entidades html. Los saltos de línea y los espacios en blanco no se reemplazan. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Agrega texto plano a los archivos html, reemplazando caracteres especiales con entidades html. Los saltos de línea y los espacios en blanco no se reemplazan. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Agrega texto plano a los archivos html, reemplazando caracteres especiales con entidades html. Los saltos de línea y los espacios en blanco no se reemplazan. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Agrega texto plano a los archivos html, reemplazando caracteres especiales con entidades html. Los saltos de línea y los espacios en blanco no se reemplazan. |
 
-### Ver también
+### Ver También
 
-* interface [IHtmlGenerator](../ihtmlgenerator)
+* interfaz [IHtmlGenerator](../ihtmlgenerator)
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
-* asamblea [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

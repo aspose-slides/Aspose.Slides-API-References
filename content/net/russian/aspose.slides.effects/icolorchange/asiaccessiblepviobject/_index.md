@@ -1,24 +1,25 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/icolorchange/asiaccessiblepviobject/
 ---
-## IColorChange.AsIAccessiblePVIObject property
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+## IColorChange.AsIAccessiblePVIObject свойство
+
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IColorChangeEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* interface [IColorChangeEffectiveData](../../icolorchangeeffectivedata)
-* interface [IColorChange](../../icolorchange)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IColorChangeEffectiveData](../../icolorchangeeffectivedata)
+* интерфейс [IColorChange](../../icolorchange)
 * пространство имен [Aspose.Slides.Effects](../../icolorchange)
 * сборка [Aspose.Slides](../../../)
 

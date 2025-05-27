@@ -1,14 +1,15 @@
 ---
-title: SetWriteProtection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Установить защиту от записи для этой презентации с указанным паролем.
+title: УстановитьЗащитуОтЗаписи
+second_title: Справка по API Aspose.Slides для .NET
+description: Установите защиту от записи для этой презентации с указанным паролем.
 type: docs
 weight: 110
 url: /ru/aspose.slides/protectionmanager/setwriteprotection/
 ---
-## ProtectionManager.SetWriteProtection method
 
-Установить защиту от записи для этой презентации с указанным паролем.
+## ProtectionManager.SetWriteProtection метод
+
+Установите защиту от записи для этой презентации с указанным паролем.
 
 ```csharp
 public void SetWriteProtection(string password)
@@ -16,11 +17,24 @@ public void SetWriteProtection(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Пароль. |
+| password | String | Пароль. |
 
-### Смотрите также
+### Примеры
 
-* class [ProtectionManager](../../protectionmanager)
+Следующий пример кода показывает, как установить защиту от записи для презентации.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("pres.pptx"))
+{
+    presentation.ProtectionManager.SetWriteProtection("123123");
+    presentation.Save("write-protected-pres.pptx", SaveFormat.Pptx);
+}
+```
+
+### См. также
+
+* класс [ProtectionManager](../../protectionmanager)
 * пространство имен [Aspose.Slides](../../protectionmanager)
 * сборка [Aspose.Slides](../../../)
 

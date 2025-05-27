@@ -1,26 +1,27 @@
 ---
-title: Divide
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Erzeugt einen Bruch mit diesem Zähler und dem angegebenen Nenner
+title: Teilen
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt einen Bruch mit diesem Zähler und dem angegebenen Nenner
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathelement/divide/
 ---
+
 ## Divide(IMathElement) {#divide}
 
-Erzeugt einen Bruch mit diesem Zähler und dem angegebenen Nenner
+Erstellt einen Bruch mit diesem Zähler und dem angegebenen Nenner
 
 ```csharp
 public IMathFraction Divide(IMathElement denominator)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| denominator | IMathElement | Nenner |
+| Parameter  | Typ          | Beschreibung |
+|------------|--------------|--------------|
+| denominator | IMathElement | Nenner       |
 
 ### Rückgabewert
 
-neue Fraktion
+neuer Bruch
 
 ### Beispiele
 
@@ -35,28 +36,28 @@ IMathFraction fraction = numerator.Divide(denumerator);
 
 ### Siehe auch
 
-* interface [IMathFraction](../../imathfraction)
-* interface [IMathElement](../../imathelement)
-* namensraum [Aspose.Slides.MathText](../../imathelement)
-* Montage [Aspose.Slides](../../../)
+* Interface [IMathFraction](../../imathfraction)
+* Interface [IMathElement](../../imathelement)
+* Namespace [Aspose.Slides.MathText](../../imathelement)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Divide(string) {#divide_2}
 
-Erzeugt einen Bruch mit diesem Zähler und dem angegebenen Nenner
+Erstellt einen Bruch mit diesem Zähler und dem angegebenen Nenner
 
 ```csharp
 public IMathFraction Divide(string denominator)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| denominator | String | Nenner |
+| Parameter   | Typ    | Beschreibung |
+|-------------|--------|--------------|
+| denominator | String | Nenner       |
 
 ### Rückgabewert
 
-neue Fraktion
+neuer Bruch
 
 ### Beispiele
 
@@ -70,29 +71,29 @@ IMathFraction fraction = numerator.Divide("y");
 
 ### Siehe auch
 
-* interface [IMathFraction](../../imathfraction)
-* interface [IMathElement](../../imathelement)
-* namensraum [Aspose.Slides.MathText](../../imathelement)
-* Montage [Aspose.Slides](../../../)
+* Interface [IMathFraction](../../imathfraction)
+* Interface [IMathElement](../../imathelement)
+* Namespace [Aspose.Slides.MathText](../../imathelement)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Divide(IMathElement, MathFractionTypes) {#divide_1}
 
-Erzeugt einen Bruch des angegebenen Typs mit diesem Zähler und angegebenen Nenner
+Erstellt einen Bruch des angegebenen Typs mit diesem Zähler und dem angegebenen Nenner
 
 ```csharp
 public IMathFraction Divide(IMathElement denominator, MathFractionTypes fractionType)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| denominator | IMathElement | Nenner |
-| fractionType | MathFractionTypes | Bruchtyp: Bar, NoBar, Schief, Linear |
+| Parameter   | Typ          | Beschreibung                              |
+|-------------|--------------|------------------------------------------|
+| denominator | IMathElement | Nenner                                   |
+| fractionType | MathFractionTypes | Bruchtyp: Bar, NoBar, Skewed, Linear  |
 
 ### Rückgabewert
 
-neue Fraktion
+neuer Bruch
 
 ### Beispiele
 
@@ -107,30 +108,30 @@ IMathFraction fraction = numerator.Divide(denumerator, MathFractionTypes.Linear)
 
 ### Siehe auch
 
-* interface [IMathFraction](../../imathfraction)
-* enum [MathFractionTypes](../../mathfractiontypes)
-* interface [IMathElement](../../imathelement)
-* namensraum [Aspose.Slides.MathText](../../imathelement)
-* Montage [Aspose.Slides](../../../)
+* Interface [IMathFraction](../../imathfraction)
+* Enum [MathFractionTypes](../../mathfractiontypes)
+* Interface [IMathElement](../../imathelement)
+* Namespace [Aspose.Slides.MathText](../../imathelement)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Divide(string, MathFractionTypes) {#divide_3}
 
-Erzeugt einen Bruch des angegebenen Typs mit diesem Zähler und angegebenen Nenner
+Erstellt einen Bruch des angegebenen Typs mit diesem Zähler und dem angegebenen Nenner
 
 ```csharp
 public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| denominator | String | Nenner |
-| fractionType | MathFractionTypes | Bruchtyp: Bar, NoBar, Schief, Linear |
+| Parameter   | Typ    | Beschreibung                              |
+|-------------|--------|------------------------------------------|
+| denominator | String | Nenner                                   |
+| fractionType | MathFractionTypes | Bruchtyp: Bar, NoBar, Skewed, Linear  |
 
 ### Rückgabewert
 
-neue Fraktion
+neuer Bruch
 
 ### Beispiele
 
@@ -144,10 +145,10 @@ IMathFraction fraction = numerator.Divide("y", MathFractionTypes.Linear);
 
 ### Siehe auch
 
-* interface [IMathFraction](../../imathfraction)
-* enum [MathFractionTypes](../../mathfractiontypes)
-* interface [IMathElement](../../imathelement)
-* namensraum [Aspose.Slides.MathText](../../imathelement)
-* Montage [Aspose.Slides](../../../)
+* Interface [IMathFraction](../../imathfraction)
+* Enum [MathFractionTypes](../../mathfractiontypes)
+* Interface [IMathElement](../../imathelement)
+* Namespace [Aspose.Slides.MathText](../../imathelement)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

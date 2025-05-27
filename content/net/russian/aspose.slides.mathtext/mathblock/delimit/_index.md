@@ -1,14 +1,15 @@
 ---
-title: Delimit
-second_title: Справочник по API Aspose.Slides для .NET
-description: Разграничивает дочерние элементы символом-разделителем без скобок
+title: Ограничить
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Ограничивает дочерние элементы символом-разделителем без скобок
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/mathblock/delimit/
 ---
-## MathBlock.Delimit method
 
-Разграничивает дочерние элементы символом-разделителем (без скобок)
+## Метод MathBlock.Delimit
+
+Ограничивает дочерние элементы символом-разделителем (без скобок)
 
 ```csharp
 public IMathDelimiter Delimit(char separatorCharacter)
@@ -16,11 +17,11 @@ public IMathDelimiter Delimit(char separatorCharacter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| separatorCharacter | Char | Знак-разделитель |
+| separatorCharacter | Char | Символ-разделитель |
 
 ### Возвращаемое значение
 
-Математический элемент типа[`IMathDelimiter`](../../imathdelimiter)
+Элемент математики типа [`IMathDelimiter`](../../imathdelimiter)
 
 ### Примеры
 
@@ -32,10 +33,10 @@ MathBlock mathBlock = new MathematicalText("x").Join("y");
 IMathDelimiter delimiterElement = mathBlock.Delimit('|');
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathDelimiter](../../imathdelimiter)
-* class [MathBlock](../../mathblock)
+* интерфейс [IMathDelimiter](../../imathdelimiter)
+* класс [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

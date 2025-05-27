@@ -1,14 +1,15 @@
 ---
-title: Add
+title: Добавить
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новую пользовательскую часть xml.
+description: Добавляет новую пользовательскую XML-часть.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icustomxmlpartcollection/add/
 ---
+
 ## Add(byte[]) {#add}
 
-Добавляет новую пользовательскую часть xml.
+Добавляет новую пользовательскую XML-часть.
 
 ```csharp
 public ICustomXmlPart Add(byte[] xmlData)
@@ -16,23 +17,23 @@ public ICustomXmlPart Add(byte[] xmlData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xmlData | Byte[] | XML-данные новой добавляемой детали. |
+| xmlData | Byte[] | XML-данные новой части, которая будет добавлена. |
 
 ### Возвращаемое значение
 
-Создана пользовательская часть xml.
+Созданная пользовательская XML-часть.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | xmlData is` null` . |
-| ArgumentException | xmlData пусто или недопустимо. |
+| ArgumentNullException | xmlData равно `null`. |
+| ArgumentException | xmlData пустое или недействительное. |
 
-### Смотрите также
+### См. также
 
-* interface [ICustomXmlPart](../../icustomxmlpart)
-* interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
+* интерфейс [ICustomXmlPart](../../icustomxmlpart)
+* интерфейс [ICustomXmlPartCollection](../../icustomxmlpartcollection)
 * пространство имен [Aspose.Slides](../../icustomxmlpartcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -40,7 +41,7 @@ public ICustomXmlPart Add(byte[] xmlData)
 
 ## Add(string) {#add_2}
 
-Добавляет новую пользовательскую часть xml.
+Добавляет новую пользовательскую XML-часть.
 
 ```csharp
 public ICustomXmlPart Add(string xmlString)
@@ -48,23 +49,23 @@ public ICustomXmlPart Add(string xmlString)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xmlString | String | Строка xml новой части, которая будет добавлена. |
+| xmlString | String | Строка XML новой части, которая будет добавлена. |
 
 ### Возвращаемое значение
 
-Создана пользовательская часть xml.
+Созданная пользовательская XML-часть.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | xmlString is` null` . |
-| ArgumentException | xmlString пуста или xml-данные недействительны. |
+| ArgumentNullException | xmlString равно `null`. |
+| ArgumentException | xmlString пустая или XML-данные недействительны. |
 
-### Смотрите также
+### См. также
 
-* interface [ICustomXmlPart](../../icustomxmlpart)
-* interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
+* интерфейс [ICustomXmlPart](../../icustomxmlpart)
+* интерфейс [ICustomXmlPartCollection](../../icustomxmlpartcollection)
 * пространство имен [Aspose.Slides](../../icustomxmlpartcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -72,7 +73,7 @@ public ICustomXmlPart Add(string xmlString)
 
 ## Add(Stream) {#add_1}
 
-Добавляет новую пользовательскую часть xml.
+Добавляет новую пользовательскую XML-часть.
 
 ```csharp
 public ICustomXmlPart Add(Stream inputStream)
@@ -80,23 +81,23 @@ public ICustomXmlPart Add(Stream inputStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| inputStream | Stream | InputStream с XML-данными новой добавляемой части. |
+| inputStream | Stream | inputStream с XML-данными новой части, которая будет добавлена. |
 
 ### Возвращаемое значение
 
-Создана пользовательская часть xml.
+Созданная пользовательская XML-часть.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | inputStream is` null` . |
-| ArgumentException | Данные во входном потоке пусты или Sinvalid. |
+| ArgumentNullException | inputStream равно `null`. |
+| ArgumentException | Данные в inputStream пустые или недействительные. |
 
-### Смотрите также
+### См. также
 
-* interface [ICustomXmlPart](../../icustomxmlpart)
-* interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
+* интерфейс [ICustomXmlPart](../../icustomxmlpart)
+* интерфейс [ICustomXmlPartCollection](../../icustomxmlpartcollection)
 * пространство имен [Aspose.Slides](../../icustomxmlpartcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,24 @@
 ---
 title: DefaultDataLabelFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает формат метки данных по умолчанию. Только для чтенияIDataLabelFormataspose.slides.charts/idatalabelformat.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает формат метки данных по умолчанию. Только для чтения IDataLabelFormataspose.slides.charts/idatalabelformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/datalabelcollection/defaultdatalabelformat/
 ---
-## DataLabelCollection.DefaultDataLabelFormat property
 
-Получает формат метки данных по умолчанию. Только для чтения[`IDataLabelFormat`](../../idatalabelformat).
+## DataLabelCollection.DefaultDataLabelFormat свойство
+
+Получает формат метки данных по умолчанию. Только для чтения [`IDataLabelFormat`](../../idatalabelformat).
 
 ```csharp
 public IDataLabelFormat DefaultDataLabelFormat { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IDataLabelFormat](../../idatalabelformat)
-* class [DataLabelCollection](../../datalabelcollection)
+* интерфейс [IDataLabelFormat](../../idatalabelformat)
+* класс [DataLabelCollection](../../datalabelcollection)
 * пространство имен [Aspose.Slides.Charts](../../datalabelcollection)
 * сборка [Aspose.Slides](../../../)
 

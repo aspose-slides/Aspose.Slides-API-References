@@ -1,27 +1,28 @@
 ---
 title: CategoryAxisType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет тип оси категорий.
+description: Представляет тип категории оси.
 type: docs
-weight: 1110
+weight: 1170
 url: /ru/aspose.slides.charts/categoryaxistype/
 ---
-## CategoryAxisType enumeration
 
-Представляет тип оси категорий.
+## Перечисление CategoryAxisType
+
+Представляет тип категории оси.
 
 ```csharp
 public enum CategoryAxisType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
-| Text | `0` | Указывает, что ось категорий является текстовой осью. |
-| Date | `1` | Указывает, что ось категорий является осью дат. |
+| Text | `0` | Указывает, что ось категории является текстовой осью. |
+| Date | `1` | Указывает, что ось категории является осью даты. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

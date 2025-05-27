@@ -1,12 +1,13 @@
 ---
 title: StyleType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет стиль диаграммы.
 type: docs
-weight: 2290
+weight: 2350
 url: /ru/aspose.slides.charts/styletype/
 ---
-## StyleType enumeration
+
+## Перечисление StyleType
 
 Представляет стиль диаграммы.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.charts/styletype/
 public enum StyleType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Style1 | `0` | Стиль 1 |
 | Style2 | `1` | Стиль 2 |
@@ -67,7 +68,7 @@ public enum StyleType
 | Style47 | `46` | Стиль 47 |
 | Style48 | `47` | Стиль 48 |
 
-### Смотрите также
+### Смотрите Также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

@@ -1,14 +1,15 @@
 ---
 title: PieSplitCustomPointCollection
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une collection de points pour diviser le point dans un graphique à barres ou à secteurs avec un fractionnement personnalisé.
+description: Représente une collection de points pour le point de séparation dans un graphique bar-of-pie ou pie-of-pie avec une séparation personnalisée.
 type: docs
-weight: 2250
+weight: 2290
 url: /fr/aspose.slides.charts/piesplitcustompointcollection/
 ---
-## PieSplitCustomPointCollection class
 
-Représente une collection de points pour diviser le point dans un graphique à barres ou à secteurs avec un fractionnement personnalisé.
+## Classe PieSplitCustomPointCollection
+
+Représente une collection de points pour le point de séparation dans un graphique bar-of-pie ou pie-of-pie avec une séparation personnalisée.
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -16,31 +17,31 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Renvoie ou définit le nombre de points de données du graphique. Lecture seuleInt32 . |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Obtient une valeur indiquant si leICollection est en lecture seule. Lecture seuleBoolean . |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seuleBoolean . |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Renvoie ou définit le nombre de points de données du graphique. Lecture seule Int32. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Obtient une valeur indiquant si l'ICollection est en lecture seule. Lecture seule Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
 | [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Renvoie le point de données du graphique pour l'index spécifié. |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seuleObject . |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | Ajoute un point de données à la collection. |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Ajoute un point de données par son index dans la collection de points de la série parente. |
-| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Supprime tous les éléments de laICollection . |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Détermine si leICollection contient une valeur spécifique. |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Copie les éléments duICollection à unArray , à partir d'un certainArray index. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Supprime l'élément de la collection. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Supprime l'élément de la collection par son index dans la collection de points de la série parente. |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Supprime tous les éléments de l'ICollection. |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Détermine si l'ICollection contient une valeur spécifique. |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Copie les éléments de l'ICollection dans un tableau, en commençant à un index de tableau particulier. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Supprime un élément de la collection. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Supprime un élément de la collection par son index dans la collection de points de la série parente. |
 
-### Voir également
+### Voir aussi
 
 * interface [IPieSplitCustomPointCollection](../ipiesplitcustompointcollection)
 * espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Assemblée [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

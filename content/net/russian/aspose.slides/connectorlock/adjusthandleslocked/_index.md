@@ -1,22 +1,23 @@
 ---
 title: AdjustHandlesLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли изменение значений настройки. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, запрещено ли изменение значений настроек. Доступно для чтения/записи Boolean.
 type: docs
 weight: 10
 url: /ru/aspose.slides/connectorlock/adjusthandleslocked/
 ---
-## ConnectorLock.AdjustHandlesLocked property
 
-Определяет, запрещено ли изменение значений настройки. Чтение/записьBoolean.
+## ConnectorLock.AdjustHandlesLocked свойство
+
+Определяет, запрещено ли изменение значений настроек. Доступно для чтения/записи Boolean.
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ConnectorLock](../../connectorlock)
+* класс [ConnectorLock](../../connectorlock)
 * пространство имен [Aspose.Slides](../../connectorlock)
 * сборка [Aspose.Slides](../../../)
 

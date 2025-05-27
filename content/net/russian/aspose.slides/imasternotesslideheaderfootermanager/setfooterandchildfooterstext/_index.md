@@ -1,14 +1,15 @@
 ---
 title: SetFooterAndChildFootersText
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает текст для заполнителя нижнего колонтитула слайда основных заметок и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+second_title: Aspose.Slides для .NET API Справочник
+description: Устанавливает текст для места для нижнего колонтитула на основном слайде заметок и всех дочерних местах для нижних колонтитулов. Дочерние места означают, что места содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 type: docs
 weight: 40
 url: /ru/aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext/
 ---
-## IMasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersText method
 
-Устанавливает текст для заполнителя нижнего колонтитула слайда основных заметок и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+## IMasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersText метод
+
+Устанавливает текст для места для нижнего колонтитула на основном слайде заметок и всех дочерних местах для нижних колонтитулов. Дочерние места означают, что места содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)
@@ -18,9 +19,9 @@ public void SetFooterAndChildFootersText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### Смотрите также
+### См. также
 
-* interface [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
+* интерфейс [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../imasternotesslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

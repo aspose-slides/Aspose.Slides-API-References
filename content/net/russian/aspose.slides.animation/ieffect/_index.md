@@ -1,33 +1,40 @@
 ---
 title: IEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект анимации.
+second_title: Aspose.Slidеs для .NET API Reference
+description: Представляет анимационный эффект.
 type: docs
-weight: 390
+weight: 410
 url: /ru/aspose.slides.animation/ieffect/
 ---
-## IEffect interface
 
-Представляет эффект анимации.
+## Интерфейс IEffect
+
+Представляет анимационный эффект.
 
 ```csharp
 public interface IEffect
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Возвращает коллекцию поведения для эффекта. Чтение/запись[`IBehaviorCollection`](../ibehaviorcollection). |
-| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Определяет класс эффекта. Чтение/запись[`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Возвращает последовательность для эффекта. Только для чтения[`ISequence`](../isequence). |
-| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Определяет подтип эффекта. Чтение/запись[`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Возвращает целевую форму для эффекта. Только для чтения[`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Возвращает текстовую анимацию. Только чтение[`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Определяет значение времени для эффекта. Чтение/запись[`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | Определяет тип эффекта. Чтение/запись[`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Определяет цвет после анимации для эффекта. Чтение/запись [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Определяет тип после анимации для эффекта. Чтение/запись [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | Определяет тип анимации текста для эффекта. Текст фигуры может анимироваться по буквам, по словам или все сразу. Чтение/запись [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Возвращает коллекцию поведений для эффекта. Чтение/запись [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | Определяет задержку между анимированными частями текста (словами или буквами). Положительное значение указывает процент от длительности эффекта. Отрицательное значение указывает задержку в секундах. Чтение/запись Single. |
+| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Определяет класс эффекта. Чтение/запись [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Возвращает последовательность для эффекта. Только для чтения [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Определяет встроенный звук для эффекта. Чтение/запись [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | Этот атрибут указывает, остановит ли анимационный эффект предыдущий звук. Чтение/запись Boolean. |
+| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Определяет подтип эффекта. Чтение/запись [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Возвращает целевую фигуру для эффекта. Только для чтения [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Возвращает анимацию текста. Только для чтения [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Определяет значение времени для эффекта. Чтение/запись [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | Определяет тип эффекта. Чтение/запись [`EffectType`](../effecttype). |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

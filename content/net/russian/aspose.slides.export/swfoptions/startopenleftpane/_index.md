@@ -1,22 +1,23 @@
 ---
 title: StartOpenLeftPane
-second_title: Справочник по API Aspose.Slides для .NET
-description: Начните с открытой левой панели. Может быть переопределен в flashvars. Значение по умолчанию  ложь.
+second_title: Aspose.Slides для .NET API Справочник
+description: Начать с открытой левой панели. Может быть переопределено в flashvars. По умолчанию false.
 type: docs
 weight: 160
 url: /ru/aspose.slides.export/swfoptions/startopenleftpane/
 ---
-## SwfOptions.StartOpenLeftPane property
 
-Начните с открытой левой панели. Может быть переопределен в flashvars. Значение по умолчанию — ложь.
+## Свойство SwfOptions.StartOpenLeftPane
+
+Начать с открытой левой панели. Может быть переопределено в flashvars. По умолчанию false.
 
 ```csharp
 public bool StartOpenLeftPane { get; set; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
-* class [SwfOptions](../../swfoptions)
+* класс [SwfOptions](../../swfoptions)
 * пространство имен [Aspose.Slides.Export](../../swfoptions)
 * сборка [Aspose.Slides](../../../)
 

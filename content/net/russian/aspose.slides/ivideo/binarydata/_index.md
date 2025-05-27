@@ -1,22 +1,23 @@
 ---
 title: BinaryData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает копию аудиоданных. В случае большого объема данных рассмотрите возможность использования метода GetStreamaspose.slides/ivideo/getstreamдля предотвращения ненужной загрузки данных видео в память или даже OutOfMemoryException. Только для чтенияByte.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает копию аудиоданных. В случае большого объема данных рекомендуется использовать метод GetStream../getstream, чтобы предотвратить ненужную загрузку данных видео в память или даже OutOfMemoryException. Только для чтения Byte.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ivideo/binarydata/
 ---
-## IVideo.BinaryData property
 
-Возвращает копию аудиоданных. В случае большого объема данных рассмотрите возможность использования метода [`GetStream`](../getstream)для предотвращения ненужной загрузки данных видео в память или даже OutOfMemoryException. Только для чтенияByte[].
+## Свойство IVideo.BinaryData
+
+Возвращает копию аудиоданных. В случае большого объема данных рекомендуется использовать метод [`GetStream`](../getstream), чтобы предотвратить ненужную загрузку данных видео в память или даже OutOfMemoryException. Только для чтения Byte[].
 
 ```csharp
 public byte[] BinaryData { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IVideo](../../ivideo)
+* интерфейс [IVideo](../../ivideo)
 * пространство имен [Aspose.Slides](../../ivideo)
 * сборка [Aspose.Slides](../../../)
 

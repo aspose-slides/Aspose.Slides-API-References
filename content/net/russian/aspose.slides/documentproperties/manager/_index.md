@@ -1,22 +1,23 @@
 ---
-title: Manager
+title: Менеджер
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает свойство менеджера. Чтение/записьString.
+description: Возвращает или устанавливает свойство менеджера. Читаемое/записываемое строковое значение.
 type: docs
-weight: 180
+weight: 220
 url: /ru/aspose.slides/documentproperties/manager/
 ---
-## DocumentProperties.Manager property
 
-Возвращает или устанавливает свойство менеджера. Чтение/записьString.
+## Свойство DocumentProperties.Manager
+
+Возвращает или устанавливает свойство менеджера. Читаемое/записываемое строковое значение.
 
 ```csharp
 public string Manager { get; set; }
 ```
 
-### Смотрите также
+### Также см.
 
-* class [DocumentProperties](../../documentproperties)
+* класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

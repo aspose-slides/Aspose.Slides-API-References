@@ -1,14 +1,15 @@
 ---
 title: InsertClone
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вставляет копию указанной формы в указанную позицию коллекции.
+second_title: Aspose.Slides для .NET API Справочник
+description: Вставляет копию указанной фигуры в заданное положение коллекции.
 type: docs
 weight: 270
 url: /ru/aspose.slides/ishapecollection/insertclone/
 ---
-## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
 
-Вставляет копию указанной формы в указанную позицию коллекции.
+## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
+
+Вставляет копию указанной фигуры в заданное положение коллекции.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape, float x, float y, float width, 
@@ -17,29 +18,29 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс новой формы. |
-| sourceShape | IShape | Форма для клонирования. |
-| x | Single | X координата новой формы. |
-| y | Single | Координата Y новой формы. |
-| width | Single | Ширина новой формы. |
-| height | Single | Высота новой фигуры. |
+| index | Int32 | Индекс новой фигуры. |
+| sourceShape | IShape | Фигура для клонирования. |
+| x | Single | X координата новой FIGUR. |
+| y | Single | Y координата новой FIGUR. |
+| width | Single | Ширина новой FIGUR. |
+| height | Single | Высота новой FIGUR. |
 
 ### Возвращаемое значение
 
 Вставленная фигура.
 
-### Смотрите также
+### См. также
 
-* interface [IShape](../../ishape)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IShape](../../ishape)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## InsertClone(int, IShape, float, float) {#insertclone_1}
+## InsertClone(int, IShape, float, float) {#insertclone_1}
 
-Вставляет копию указанной формы в указанную позицию коллекции. Ширина и высота новой формы равны ширине и высоте*sourceShape*.
+Вставляет копию указанной фигуры в заданное положение коллекции. Ширина и высота новой фигуры равны ширине и высоте *sourceShape*.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape, float x, float y)
@@ -47,27 +48,27 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс новой формы. |
-| sourceShape | IShape | Форма для клонирования. |
-| x | Single | X координата новой формы. |
-| y | Single | Координата Y новой формы. |
+| index | Int32 | Индекс новой фигуры. |
+| sourceShape | IShape | Фигура для клонирования. |
+| x | Single | X координата новой FIGUR. |
+| y | Single | Y координата новой FIGUR. |
 
 ### Возвращаемое значение
 
 Вставленная фигура.
 
-### Смотрите также
+### См. также
 
-* interface [IShape](../../ishape)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IShape](../../ishape)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## InsertClone(int, IShape) {#insertclone}
+## InsertClone(int, IShape) {#insertclone}
 
-Вставляет копию указанной формы в указанную позицию коллекции. X, Y, ширина и высота новой формы равны X, Y, ширине и высоте*sourceShape*.
+Вставляет копию указанной фигуры в заданное положение коллекции. X, Y, ширина и высота новой фигуры равны X, Y, ширине и высоте *sourceShape*.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape)
@@ -75,17 +76,17 @@ public IShape InsertClone(int index, IShape sourceShape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс новой формы. |
-| sourceShape | IShape | Форма для клонирования. |
+| index | Int32 | Индекс новой фигуры. |
+| sourceShape | IShape | Фигура для клонирования. |
 
 ### Возвращаемое значение
 
 Вставленная фигура.
 
-### Смотрите также
+### См. также
 
-* interface [IShape](../../ishape)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IShape](../../ishape)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

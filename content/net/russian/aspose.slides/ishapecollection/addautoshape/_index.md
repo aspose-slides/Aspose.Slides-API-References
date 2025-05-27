@@ -1,14 +1,15 @@
 ---
 title: AddAutoShape
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую автофигуру настраивает ее из шаблона по умолчанию и добавляет в конец коллекции.
+second_title: Aspose.Slides для .NET API Reference
+description: Создает новую AutoShape, настраивает ее по умолчанию и добавляет в конец коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ishapecollection/addautoshape/
 ---
+
 ## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
 
-Создает новую автофигуру, настраивает ее из шаблона по умолчанию и добавляет в конец коллекции.
+Создает новую AutoShape, настраивает ее по умолчанию и добавляет в конец коллекции.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height)
@@ -16,21 +17,21 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| shapeType | ShapeType | Тип [`ShapeType`](../../shapetype) фигуры. |
+| x | Single | X-координата для левой стороны рамки фигуры. |
+| y | Single | Y-координата для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
 
-### Возвращаемое значение
+### Возврат значения
 
-Создан объект AutoShape.
+Созданный объект AutoShape.
 
-### Смотрите также
+### См. также
 
-* interface [IAutoShape](../../iautoshape)
-* enum [ShapeType](../../shapetype)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IAutoShape](../../iautoshape)
+* перечисление [ShapeType](../../shapetype)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -38,7 +39,7 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 ## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
 
-Создает новую автофигуру и добавляет ее в конец коллекции.
+Создает новую AutoShape и добавляет ее в конец коллекции.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height, 
@@ -47,22 +48,22 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| shapeType | ShapeType | Тип [`ShapeType`](../../shapetype) фигуры. |
+| x | Single | X-координата для левой стороны рамки фигуры. |
+| y | Single | Y-координата для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
-| createFromTemplate | Boolean | Если true, то новая форма будет настроена из шаблона по умолчанию. Непустое имя, простой стиль, текст по центру будет присвоен новой форме. Если false, то все значения свойств новой формы будут иметь значения по умолчанию. |
+| createFromTemplate | Boolean | Если true, новая фигура будет настроена по умолчанию. Будет присвоено непустое имя, простой стиль, текст по центру. Если false, то все значения свойств новой фигуры будут иметь значения по умолчанию. |
 
-### Возвращаемое значение
+### Возврат значения
 
-Создан объект AutoShape.
+Созданный объект AutoShape.
 
-### Смотрите также
+### См. также
 
-* interface [IAutoShape](../../iautoshape)
-* enum [ShapeType](../../shapetype)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IAutoShape](../../iautoshape)
+* перечисление [ShapeType](../../shapetype)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

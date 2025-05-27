@@ -1,14 +1,15 @@
 ---
 title: EndShapeConnectedTo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает форму для присоединения конца соединителя. Чтение/записьIShapeaspose.slides/ishape.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает или устанавливает фигуру, к которой присоединяется конец соединителя. Чтение/запись IShapeaspose.slides/ishape.
 type: docs
 weight: 20
 url: /ru/aspose.slides/connector/endshapeconnectedto/
 ---
-## Connector.EndShapeConnectedTo property
 
-Возвращает или задает форму для присоединения конца соединителя. Чтение/запись[`IShape`](../../ishape).
+## Свойство Connector.EndShapeConnectedTo
+
+Возвращает или устанавливает фигуру, к которой присоединяется конец соединителя. Чтение/запись [`IShape`](../../ishape).
 
 ```csharp
 public IShape EndShapeConnectedTo { get; set; }
@@ -18,12 +19,12 @@ public IShape EndShapeConnectedTo { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Вызывается, когда подключенная фигура не имеет сайтов подключения (IShape.ConnectionSiteCount равен нулю) |
+| ArgumentException | Выбрасывается, когда подключенная фигура не имеет никаких точек подключения (IShape.ConnectionSiteCount равно нулю) |
 
-### Смотрите также
+### См. Также
 
-* interface [IShape](../../ishape)
-* class [Connector](../../connector)
+* интерфейс [IShape](../../ishape)
+* класс [Connector](../../connector)
 * пространство имен [Aspose.Slides](../../connector)
 * сборка [Aspose.Slides](../../../)
 

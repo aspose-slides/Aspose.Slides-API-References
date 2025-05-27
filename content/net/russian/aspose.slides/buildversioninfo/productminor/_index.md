@@ -1,22 +1,23 @@
 ---
 title: ProductMinor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Дополнительный номер версии.
+second_title: Aspose.Sildes для .NET API Справка
+description: Номер минимальной версии.
 type: docs
 weight: 50
 url: /ru/aspose.slides/buildversioninfo/productminor/
 ---
-## BuildVersionInfo.ProductMinor field
 
-Дополнительный номер версии.
+## BuildVersionInfo.ProductMinor поле
+
+Номер минимальной версии.
 
 ```csharp
-public static readonly int ProductMinor;
+public const int ProductMinor;
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BuildVersionInfo](../../buildversioninfo)
+* класс [BuildVersionInfo](../../buildversioninfo)
 * пространство имен [Aspose.Slides](../../buildversioninfo)
 * сборка [Aspose.Slides](../../../)
 

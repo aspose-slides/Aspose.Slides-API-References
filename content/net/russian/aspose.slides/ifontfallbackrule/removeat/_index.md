@@ -1,14 +1,15 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет шрифт FallBack по указанному индексу списка.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Удаляет шрифт FallBack по указанному индексу в списке.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ifontfallbackrule/removeat/
 ---
-## IFontFallBackRule.RemoveAt method
 
-Удаляет шрифт FallBack по указанному индексу списка.
+## Метод IFontFallBackRule.RemoveAt
+
+Удаляет шрифт FallBack по указанному индексу в списке.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,22 +17,22 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Начинающийся с нуля индекс шрифта для удалять. |
+| index | Int32 | Нулевой индекс шрифта, который необходимо удалить. |
 
 ### Примеры
 
 ```csharp
 [C#]
- // Создать правило, содержащее список шрифтов.
+// Создание правила, содержащее список шрифтов.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
- //Удаление Tahoma из list
+// Удаление Tahoma из списка
 newRule.Remove (2);
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IFontFallBackRule](../../ifontfallbackrule)
+* интерфейс [IFontFallBackRule](../../ifontfallbackrule)
 * пространство имен [Aspose.Slides](../../ifontfallbackrule)
 * сборка [Aspose.Slides](../../../)
 

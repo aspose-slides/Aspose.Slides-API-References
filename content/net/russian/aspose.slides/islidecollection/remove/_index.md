@@ -1,14 +1,15 @@
 ---
-title: Remove
+title: Удаление
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет первое вхождение определенного объекта из коллекции.
+description: Удаляет первое вхождение конкретного объекта из коллекции.
 type: docs
 weight: 100
 url: /ru/aspose.slides/islidecollection/remove/
 ---
-## ISlideCollection.Remove method
 
-Удаляет первое вхождение определенного объекта из коллекции.
+## ISlideCollection.Remove метод
+
+Удаляет первое вхождение конкретного объекта из коллекции.
 
 ```csharp
 public void Remove(ISlide value)
@@ -18,10 +19,10 @@ public void Remove(ISlide value)
 | --- | --- | --- |
 | value | ISlide | Слайд, который нужно удалить из коллекции. |
 
-### Смотрите также
+### См. Также
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
+* интерфейс [ISlide](../../islide)
+* интерфейс [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 

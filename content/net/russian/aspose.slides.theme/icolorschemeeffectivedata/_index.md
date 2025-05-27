@@ -1,43 +1,43 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект содержащий свойства эффективной цветовой схемы.
+second_title: Aspose.Slides для .NET API Справочник
+description: Невозможно изменяемый объект, который содержит свойства эффективной цветовой схемы.
 type: docs
-weight: 10350
+weight: 10850
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/
 ---
-## IColorSchemeEffectiveData interface
 
-Неизменяемый объект, содержащий свойства эффективной цветовой схемы.
+## Интерфейс IColorSchemeEffectiveData
+
+Невозможно изменяемый объект, который содержит свойства эффективной цветовой схемы.
 
 ```csharp
 public interface IColorSchemeEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | Первый акцентный цвет в схеме. Только для чтенияColor. |
-| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Второй акцентный цвет в схеме. Только для чтенияColor. |
-| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | Третий акцентный цвет в схеме. Только для чтенияColor. |
-| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | Четвертый акцентный цвет в схеме. Только для чтенияColor. |
-| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | Пятый акцентный цвет в схеме. Только для чтенияColor. |
-| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Шестой акцентный цвет в схеме. Только для чтенияColor. |
-| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | Первый тёмный цвет в схеме. Только для чтенияColor. |
-| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Второй темный цвет в схеме. Только для чтенияColor. |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Цвет посещенных гиперссылок. Только для чтенияColor. |
-| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Цвет гиперссылок. Только для чтенияColor. |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтенияColor. |
-| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | Первый светлый цвет в схеме. Только для чтенияColor. |
-| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Второй светлый цвет в схеме. Только для чтенияColor. |
+| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | Первый акцентный цвет в схеме. Только для чтения Color. |
+| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Второй акцентный цвет в схеме. Только для чтения Color. |
+| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | Третий акцентный цвет в схеме. Только для чтения Color. |
+| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | Четвертый акцентный цвет в схеме. Только для чтения Color. |
+| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | Пятый акцентный цвет в схеме. Только для чтения Color. |
+| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Шестой акцентный цвет в схеме. Только для чтения Color. |
+| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | Первый темный цвет в схеме. Только для чтения Color. |
+| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Второй темный цвет в схеме. Только для чтения Color. |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Цвет для посещенных гиперссылок. Только для чтения Color. |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Цвет для гиперссылок. Только для чтения Color. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения Color. |
+| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | Первый светлый цвет в схеме. Только для чтения Color. |
+| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Второй светлый цвет в схеме. Только для чтения Color. |
 
-### Примечания
+### Замечания
 
-Этот класс используется как часть[`IThemeEffectiveData`](../ithemeeffectivedata).
+Этот класс используется как часть [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### Смотрите также
-
+### Также см.
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

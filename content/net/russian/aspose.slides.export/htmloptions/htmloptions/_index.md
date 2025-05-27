@@ -1,14 +1,15 @@
 ---
 title: HtmlOptions
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый объект HtmlOptions определяющий обратный вызов.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает новый объект HtmlOptions, указывая обратный вызов.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/htmloptions/htmloptions/
 ---
+
 ## HtmlOptions(ILinkEmbedController) {#constructor_1}
 
-Создает новый объект HtmlOptions, определяющий обратный вызов.
+Создает новый объект HtmlOptions, указывая обратный вызов.
 
 ```csharp
 public HtmlOptions(ILinkEmbedController linkEmbedController)
@@ -16,12 +17,12 @@ public HtmlOptions(ILinkEmbedController linkEmbedController)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| linkEmbedController | ILinkEmbedController | Объект обратного вызова, управляющий сохранением проекта. |
+| linkEmbedController | ILinkEmbedController | Объект обратного вызова, который управляет сохранением проекта. |
 
-### Смотрите также
+### См. Также
 
-* interface [ILinkEmbedController](../../ilinkembedcontroller)
-* class [HtmlOptions](../../htmloptions)
+* интерфейс [ILinkEmbedController](../../ilinkembedcontroller)
+* класс [HtmlOptions](../../htmloptions)
 * пространство имен [Aspose.Slides.Export](../../htmloptions)
 * сборка [Aspose.Slides](../../../)
 
@@ -29,15 +30,15 @@ public HtmlOptions(ILinkEmbedController linkEmbedController)
 
 ## HtmlOptions() {#constructor}
 
-Создает новый объект HtmlOptions для сохранения в один файл HTML.
+Создает новый объект HtmlOptions для сохранения в одном HTML файле.
 
 ```csharp
 public HtmlOptions()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [HtmlOptions](../../htmloptions)
+* класс [HtmlOptions](../../htmloptions)
 * пространство имен [Aspose.Slides.Export](../../htmloptions)
 * сборка [Aspose.Slides](../../../)
 

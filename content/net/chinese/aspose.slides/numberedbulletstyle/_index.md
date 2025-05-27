@@ -1,12 +1,13 @@
 ---
-title: NumberedBulletStyle
-second_title: Aspose.Slides for .NET API 参考
-description: 表示编号项目符号的样式
+title: 编号项目符号样式
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示编号项目符号的样式。
 type: docs
-weight: 8450
+weight: 8910
 url: /zh/aspose.slides/numberedbulletstyle/
 ---
-## NumberedBulletStyle enumeration
+
+## NumberedBulletStyle 枚举
 
 表示编号项目符号的样式。
 
@@ -14,56 +15,56 @@ url: /zh/aspose.slides/numberedbulletstyle/
 public enum NumberedBulletStyle : sbyte
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 未定义。 |
-| BulletAlphaLCPeriod | `0` | 带句点的小写字母字符。示例:a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | 带句点的大写字母字符。示例:A., B., C., ... |
-| BulletArabicParenRight | `2` | 带右括号的阿拉伯数字。示例:1), 2), 3), ... |
-| BulletArabicPeriod | `3` | 带句点的阿拉伯数字。示例:1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | 带括号的小写罗马数字。示例:(i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | 带右括号的小写罗马数字。示例:i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | 带句点的小写罗马数字。示例:i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | 带句点的大写罗马数字。样本:I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | 带括号的小写字母字符。示例:(a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | 带右括号的小写字母字符。示例:a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | 带两个括号的大写字母字符。示例:(A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | 带有右括号的大写字母字符。示例:A), B), C), ... |
-| BulletArabicParenBoth | `12` | 带括号的阿拉伯数字。示例:(1), (2), (3), ... |
-| BulletArabicPlain | `13` | 阿拉伯数字。示例:1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | 带括号的大写罗马数字。示例:(I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | 带有右括号的大写罗马数字。示例:I), II), III), ... |
-| BulletSimpChinPlain | `16` | 没有句号的简体中文。 |
-| BulletSimpChinPeriod | `17` | 带句点的简体中文。 |
-| BulletCircleNumDBPlain | `18` | 双字节带圆圈的数字，最大为 10，从 11 - 阿拉伯数字。 |
-| BulletCircleNumWDWhitePlain | `19` | 带有相同颜色圆圈的文本彩色数字（Wingdings 白色圆圈数字）。从 11 - 阿拉伯数字。 |
-| BulletCircleNumWDBlackPlain | `20` | 带有普通文本颜色的圆形背景的阴影颜色编号（Wingdings 黑色圆圈编号）。 |
-| BulletTradChinPlain | `21` | 繁体中文没有句号。 |
-| BulletTradChinPeriod | `22` | 繁体中文带句点。 |
-| BulletArabicAlphaDash | `23` | 带有破折号的阿拉伯语字母字符。 |
-| BulletArabicAbjadDash | `24` | 带有破折号的阿拉伯阿布贾德字母。 |
-| BulletHebrewAlphaDash | `25` | 带有破折号的希伯来语字母字符。 |
-| BulletKanjiKoreanPlain | `26` | 没有句点的日文/韩文数字。 |
-| BulletKanjiKoreanPeriod | `27` | 带句点的日文/韩文数字。 |
+| NotDefined | `-1` | 没有定义。 |
+| BulletAlphaLCPeriod | `0` | 带有句点的小写字母字符。示例：a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | 带有句点的大写字母字符。示例：A., B., C., ... |
+| BulletArabicParenRight | `2` | 带有右括号的阿拉伯数字。示例：1), 2), 3), ... |
+| BulletArabicPeriod | `3` | 带有句点的阿拉伯数字。示例：1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | 带有两个括号的小写罗马数字。示例： (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | 带有右括号的小写罗马数字。示例：i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | 带有句点的小写罗马数字。示例：i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | 带有句点的大写罗马数字。示例：I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | 带有两个括号的小写字母字符。示例： (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | 带有右括号的小写字母字符。示例：a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | 带有两个括号的大写字母字符。示例： (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | 带有右括号的大写字母字符。示例：A), B), C), ... |
+| BulletArabicParenBoth | `12` | 带有两个括号的阿拉伯数字。示例： (1), (2), (3), ... |
+| BulletArabicPlain | `13` | 阿拉伯数字。示例：1, 2, 3, ... |
+| BulletRomanUCParenBoth | `14` | 带有两个括号的大写罗马数字。示例： (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | 带有右括号的大写罗马数字。示例：I), II), III), ... |
+| BulletSimpChinPlain | `16` | 不带句点的简体中文。 |
+| BulletSimpChinPeriod | `17` | 带有句点的简体中文。 |
+| BulletCircleNumDBPlain | `18` | 双字节圆形编号，值最多为10，从11开始为阿拉伯数字。 |
+| BulletCircleNumWDWhitePlain | `19` | 周围绘制相同颜色圆圈的彩色文本数字（Wingdings 白色圆圈数字）。从11开始为阿拉伯数字。 |
+| BulletCircleNumWDBlackPlain | `20` | 带有普通文本颜色圆形背景的阴影颜色数字（Wingdings 黑色圆圈数字）。 |
+| BulletTradChinPlain | `21` | 不带句点的繁体中文。 |
+| BulletTradChinPeriod | `22` | 带有句点的繁体中文。 |
+| BulletArabicAlphaDash | `23` | 带有破折号的阿拉伯语言字母字符。 |
+| BulletArabicAbjadDash | `24` | 带有破折号的阿拉伯 Abjad 字母。 |
+| BulletHebrewAlphaDash | `25` | 带有破折号的希伯来语言字母字符。 |
+| BulletKanjiKoreanPlain | `26` | 不带句点的日文/韩文数字。 |
+| BulletKanjiKoreanPeriod | `27` | 带有句点的日文/韩文数字。 |
 | BulletArabicDBPlain | `28` | 双字节阿拉伯编号方案（无标点符号）。 |
-| BulletArabicDBPeriod | `29` | 带双字节句点的双字节阿拉伯编号方案。 |
-| BulletThaiAlphaPeriod | `30` | 泰语字母句号。 |
-| BulletThaiAlphaParenRight | `31` | 泰文字母括号 - 对。 |
-| BulletThaiAlphaParenBoth | `32` | 泰文字母括号 - 两者。 |
-| BulletThaiNumPeriod | `33` | 泰文数字句号。 |
-| BulletThaiNumParenRight | `34` | 泰语数字括号 - 对。 |
-| BulletThaiNumParenBoth | `35` | 泰语数字括号 - 两者。 |
-| BulletHindiAlphaPeriod | `36` | 印地语字母时期 - 元音。 |
-| BulletHindiNumPeriod | `37` | 印地语数字句号。 |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji 简体中文 DBPeriod。 |
-| BulletHindiNumParenRight | `39` | 印地语数字括号 - 对。 |
-| BulletHindiAlpha1Period | `40` | 印地语字母句号 - 辅音。 |
+| BulletArabicDBPeriod | `29` | 带有双字节句点的双字节阿拉伯编号方案。 |
+| BulletThaiAlphaPeriod | `30` | 泰语字母句点。 |
+| BulletThaiAlphaParenRight | `31` | 泰语字母右括号。 |
+| BulletThaiAlphaParenBoth | `32` | 泰语字母双括号。 |
+| BulletThaiNumPeriod | `33` | 泰语数字句点。 |
+| BulletThaiNumParenRight | `34` | 泰语数字右括号。 |
+| BulletThaiNumParenBoth | `35` | 泰语数字双括号。 |
+| BulletHindiAlphaPeriod | `36` | 印地语字母句点 - 元音。 |
+| BulletHindiNumPeriod | `37` | 印地语数字句点。 |
+| BulletKanjiSimpChinDBPeriod | `38` | 汉字简体中文DB句点。 |
+| BulletHindiNumParenRight | `39` | 印地语数字右括号。 |
+| BulletHindiAlpha1Period | `40` | 印地语字母句点 - 辅音。 |
 
-### 也可以看看
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
-* 部件 [Aspose.Slides](../../)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

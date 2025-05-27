@@ -1,14 +1,15 @@
 ---
 title: InsertChart
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую диаграмму инициализирует ее данными и настройками серии образцов и вставляет в указанную позицию в коллекции.
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает новый график, инициализирует его примерами данных и параметрами, а затем вставляет в указанную позицию в коллекции.
 type: docs
 weight: 310
 url: /ru/aspose.slides/shapecollection/insertchart/
 ---
+
 ## InsertChart(ChartType, float, float, float, float, int) {#insertchart}
 
-Создает новую диаграмму, инициализирует ее данными и настройками серии образцов и вставляет в указанную позицию в коллекции.
+Создает новый график, инициализирует его примерами данных и параметрами, а затем вставляет в указанную позицию в коллекции.
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index)
@@ -16,22 +17,22 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ChartType | Тип диаграммы. |
-| x | Single | X координата нового графика. |
+| type | ChartType | Тип графика. |
+| x | Single | Координата X нового графика. |
 | y | Single | Координата Y нового графика. |
-| width | Single | Ширина диаграммы. |
+| width | Single | Ширина графика. |
 | height | Single | Высота графика. |
-| index | Int32 | Позиция диаграммы в коллекции. |
+| index | Int32 | Позиция графика в коллекции. |
 
 ### Возвращаемое значение
 
-Диаграмма создана.
+Созданный график.
 
-### Смотрите также
+### См. также
 
-* interface [IChart](../../../aspose.slides.charts/ichart)
-* enum [ChartType](../../../aspose.slides.charts/charttype)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IChart](../../../aspose.slides.charts/ichart)
+* перечисление [ChartType](../../../aspose.slides.charts/charttype)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -39,7 +40,7 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 
 ## InsertChart(ChartType, float, float, float, float, int, bool) {#insertchart_1}
 
-Создает новую диаграмму и вставляет ее в указанную позицию в коллекции.
+Создает новый график и вставляет его в указанную позицию в коллекции.
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index, 
@@ -48,23 +49,23 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ChartType | Тип диаграммы. |
-| x | Single | X координата нового графика. |
+| type | ChartType | Тип графика. |
+| x | Single | Координата X нового графика. |
 | y | Single | Координата Y нового графика. |
-| width | Single | Ширина диаграммы. |
+| width | Single | Ширина графика. |
 | height | Single | Высота графика. |
-| index | Int32 | Позиция диаграммы в коллекции. |
-| initWithSample | Boolean | Если true, то новая диаграмма будет инициализирована с данными и настройками серии образцов. Если false, то новый график будет без серий и с минимальными настройками. В этом случае построение графика будет более быстрым. |
+| index | Int32 | Позиция графика в коллекции. |
+| initWithSample | Boolean | Если true, новый график будет инициализирован примерами данных и параметрами. Если false, новый график не будет иметь серий и минимальных параметров. В этом случае создание графика будет быстрее. |
 
 ### Возвращаемое значение
 
-Создана диаграмма.
+Созданный график.
 
-### Смотрите также
+### См. также
 
-* interface [IChart](../../../aspose.slides.charts/ichart)
-* enum [ChartType](../../../aspose.slides.charts/charttype)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IChart](../../../aspose.slides.charts/ichart)
+* перечисление [ChartType](../../../aspose.slides.charts/charttype)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

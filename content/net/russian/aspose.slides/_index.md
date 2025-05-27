@@ -1,507 +1,533 @@
 ---
 title: Aspose.Slides
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Содержит классы для работы с презентациями Microsoft PowerPoint без использования Microsoft PowerPoint.
 type: docs
 weight: 10
 url: /ru/aspose.slides/
 ---
+
 Содержит классы для работы с презентациями Microsoft PowerPoint без использования Microsoft PowerPoint.
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
-| [AdjustValue](./adjustvalue) | Представляет значение корректировки геометрической формы. Эти значения влияют на форму фигуры. |
-| [AdjustValueCollection](./adjustvaluecollection) | Представляет набор корректировок формы. |
+| [AdjustValue](./adjustvalue) | Представляет значение настройки геометрической фигуры. Эти значения влияют на форму фигуры. |
+| [AdjustValueCollection](./adjustvaluecollection) | Представляет коллекцию настроек фигуры. |
 | [Audio](./audio) | Представляет встроенный аудиофайл. |
-| [AudioCollection](./audiocollection) | Представляет набор встроенных аудиофайлов. |
+| [AudioCollection](./audiocollection) | Представляет коллекцию встроенных аудиофайлов. |
 | [AudioFrame](./audioframe) | Представляет аудиоклип на слайде. |
-| [AutoShape](./autoshape) | Представляет автофигуру. |
-| [AutoShapeLock](./autoshapelock) | Определяет, какие операции отключены в родительском AutoshapeEx. |
-| [Backdrop3DScene](./backdrop3dscene) | Определяет плоскость, в которой эффекты, такие как свечение и тень, применяются по отношению к фигуре, к которой они применяются. |
+| [AutoShape](./autoshape) | Представляет AutoShape. |
+| [AutoShapeLock](./autoshapelock) | Определяет, какие операции отключены для родительского AutoshapeEx. |
+| [Backdrop3DScene](./backdrop3dscene) | Определяет плоскость, на которую применяются эффекты, такие как свечения и тени, в зависимости от фигуры, к которой они применяются. |
 | [Background](./background) | Представляет фон слайда. |
-| [BaseHandoutNotesSlideHeaderFooterManager](./basehandoutnotesslideheaderfootermanager) | Представляет менеджер, который определяет поведение заполнителей, включая заполнитель заголовка для всех типов слайдов раздаточных материалов и заметок. |
-| [BaseHeaderFooterManager](./baseheaderfootermanager) | Представляет менеджер, который определяет поведение нижнего колонтитула, дату-время, заполнители номеров страниц для всех типов слайдов. |
-| [BasePortionFormat](./baseportionformat) | Общие свойства форматирования текстовой части. |
-| [BaseShapeLock](./baseshapelock) | Представляет базовый класс для блокировок (отключенная операция). |
+| [BaseHandoutNotesSlideHeaderFooterManager](./basehandoutnotesslideheaderfootermanager) | Представляет менеджер, который хранит поведение заполнителей, включая заголовок для всех типов раздаточных и заметочных слайдов. |
+| [BaseHeaderFooterManager](./baseheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов. |
+| [BasePortionFormat](./baseportionformat) | Общие свойства форматирования текстовых порций. |
+| [BaseShapeLock](./baseshapelock) | Представляет базовый класс для блокировок (отключенных операций). |
 | [BaseSlide](./baseslide) | Представляет общие данные для всех типов слайдов. |
-| [BaseSlideHeaderFooterManager](./baseslideheaderfootermanager) | Представляет менеджер, который определяет поведение нижнего колонтитула, дату-время, заполнители номеров страниц для всех типов слайдов. |
-| [BlobManagementOptions](./blobmanagementoptions) | Представляет параметры, которые можно использовать для управления правилами обработки больших двоичных объектов и другими параметрами больших двоичных объектов. |
+| [BaseSlideHeaderFooterManager](./baseslideheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов. |
+| [BlobManagementOptions](./blobmanagementoptions) | Представляет параметры, которые могут быть использованы для управления правилами обработки BLOB и другими настройками BLOB. |
+| [BrowsedAtKiosk](./browsedatkiosk) | Просмотр в киоске (на весь экран) |
+| [BrowsedByIndividual](./browsedbyindividual) | Просмотр индивидуально (в окне) |
 | [BuildVersionInfo](./buildversioninfo) | Содержит информацию о версии Aspose.Slides. |
 | [BulletFormat](./bulletformat) | Представляет свойства форматирования маркеров абзаца. |
-| [Camera](./camera) | Представляет камеру. |
+| [Camera](./camera) | Представляет Камеру. |
+| [Captions](./captions) | Представляет закрытые субтитры WebVTT. |
+| [CaptionsCollection](./captionscollection) | Представляет коллекцию закрытых субтитров. |
 | [Cell](./cell) | Представляет ячейку таблицы. |
-| [CellCollection](./cellcollection) | Представляет набор ячеек. |
+| [CellCollection](./cellcollection) | Представляет коллекцию ячеек. |
 | [CellFormat](./cellformat) | Представляет формат ячейки таблицы. |
 | [ColorFormat](./colorformat) | Представляет цвет, используемый в презентации. |
-| [ColorOperation](./coloroperation) | Представляет различные операции с цветом, используемые для преобразования цвета. Неизменяемый объект. |
-| [ColorOperationCollection](./coloroperationcollection) | Представляет набор операций преобразования цвета. |
+| [ColorOperation](./coloroperation) | Представляет различные цветовые операции, используемые для цветовых преобразований. Невозможно изменить. |
+| [ColorOperationCollection](./coloroperationcollection) | Представляет коллекцию цветовых трансформационных операций. |
 | [Column](./column) | Представляет столбец в таблице. |
-| [ColumnCollection](./columncollection) | Представляет набор столбцов в таблице. |
+| [ColumnCollection](./columncollection) | Представляет коллекцию столбцов в таблице. |
 | [ColumnFormat](./columnformat) | Представляет формат столбца таблицы. |
-| [Comment](./comment) | Представляет комментарий к слайду. |
+| [Comment](./comment) | Представляет комментарий на слайде. |
 | [CommentAuthor](./commentauthor) | Представляет автора комментариев. |
 | [CommentAuthorCollection](./commentauthorcollection) | Представляет коллекцию авторов комментариев. |
-| [CommentCollection](./commentcollection) | Представляет собой коллекцию комментариев одного автора. |
-| [CommonSlideViewProperties](./commonslideviewproperties) | Представляет общие свойства просмотра слайдов. |
+| [CommentCollection](./commentcollection) | Представляет коллекцию комментариев одного автора. |
+| [CommonSlideViewProperties](./commonslideviewproperties) | Представляет общие свойства вида слайда. |
 | [Connector](./connector) | Представляет соединитель. |
-| [ConnectorLock](./connectorlock) | Определяет, какие операции отключены в родительском коннекторе. |
+| [ConnectorLock](./connectorlock) | Определяет, какие операции отключены для родительского Connector. |
 | [Control](./control) | Представляет элемент управления ActiveX. |
-| [ControlCollection](./controlcollection) | Набор элементов управления ActiveX. |
+| [ControlCollection](./controlcollection) | Коллекция элементов управления ActiveX. |
 | [ControlPropertiesCollection](./controlpropertiescollection) | Коллекция свойств AcitveX. |
 | [CustomData](./customdata) | Представляет контейнер для пользовательских данных. |
-| [CustomXmlPart](./customxmlpart) | Представляет пользовательскую часть xml. |
-| [CustomXmlPartCollection](./customxmlpartcollection) | Представляет набор пользовательских частей xml. |
+| [CustomXmlPart](./customxmlpart) | Представляет пользовательскую xml-часть. |
+| [CustomXmlPartCollection](./customxmlpartcollection) | Представляет коллекцию пользовательских xml-частей. |
 | [DigitalSignature](./digitalsignature) | Цифровая подпись в подписанном файле. |
-| [DigitalSignatureCollection](./digitalsignaturecollection) | Представляет набор цифровых подписей, прикрепленных к документу. |
+| [DigitalSignatureCollection](./digitalsignaturecollection) | Представляет коллекцию цифровых подписей, прикрепленных к документу. |
 | [DocumentProperties](./documentproperties) | Представляет свойства презентации. |
 | [DomObject&lt;TParent&gt;](./domobject-1) | Базовый объект DOM |
-| [EffectFormat](./effectformat) | Представляет свойства эффекта формы. |
+| [DrawingGuide](./drawingguide) | Представляет настраиваемую направляющую для рисования. |
+| [DrawingGuidesCollection](./drawingguidescollection) | Представляет коллекцию настраиваемых направляющих для рисования. |
+| [EffectFormat](./effectformat) | Представляет свойства эффекта фигуры. |
 | [Field](./field) | Представляет поле. |
-| [FieldType](./fieldtype) | Представляет тип поля. Это значение определяет, какой текст будет установлен в часть поля при его обновлении. |
+| [FieldType](./fieldtype) | Представляет тип поля. Это значение определяет, какой текст будет установлен в порцию поля, когда оно будет обновлено. |
 | [FillFormat](./fillformat) | Представляет параметры форматирования заливки. |
-| [FontData](./fontdata) | Представляет определение шрифта. Неизменный. |
+| [FontData](./fontdata) | Представляет определение шрифта. Невозможно изменить. |
 | [FontDataFactory](./fontdatafactory) | Фабрика FontData |
-| [FontFallBackRule](./fontfallbackrule) | Представляет резервное правило шрифта |
-| [FontFallBackRulesCollection](./fontfallbackrulescollection) | Представляет набор правил FontFallBack, определенных пользователем |
+| [FontFallBackRule](./fontfallbackrule) | Представляет правило замещения шрифта |
+| [FontFallBackRulesCollection](./fontfallbackrulescollection) | Представляет коллекцию правил замещения шрифтов, определенных пользователем |
 | [Fonts](./fonts) | Коллекция шрифтов. |
-| [FontsLoader](./fontsloader) | Класс для загрузки пользовательских шрифтов, определенных пользователем. Следует использовать перед созданием каких-либо объектов презентации. |
-| [FontsManager](./fontsmanager) | Управляет шрифтами во всей презентации. |
-| [FontSources](./fontsources) | Предоставляет файлы и источники памяти для внешних шрифтов. |
-| [FontSubstRule](./fontsubstrule) | Представляет информацию о подстановке шрифта |
-| [FontSubstRuleCollection](./fontsubstrulecollection) | Представляет набор подстановок шрифтов. |
-| [FormatFactory](./formatfactory) | Позволяет создавать форматы через COM интерфейс. |
-| [GeometryPath](./geometrypath) | Представляет путь геометрии GeometryShape |
+| [FontsLoader](./fontsloader) | Класс для загрузки пользовательских шрифтов, определенных пользователем. Должен использоваться перед созданием любых объектов презентации. |
+| [FontsManager](./fontsmanager) | Упрощает управление шрифтами в презентации. |
+| [FontSources](./fontsources) | Предоставляет источники файлов и памяти для внешних шрифтов. |
+| [FontSubstitutionInfo](./fontsubstitutioninfo) | Эта структура представляет информацию о замене шрифта, когда он будет отображен. |
+| [FontSubstRule](./fontsubstrule) | Представляет информацию о замене шрифта |
+| [FontSubstRuleCollection](./fontsubstrulecollection) | Представляет коллекцию замены шрифтов. |
+| [FormatFactory](./formatfactory) | Позволяет создавать форматы через COM-интерфейс. |
+| [GeometryPath](./geometrypath) | Представляет геометрический путь GeometryShape |
 | [GeometryShape](./geometryshape) | Представляет родительский класс для всех геометрических фигур. |
-| [GlobalLayoutSlideCollection](./globallayoutslidecollection) | Представляет коллекцию всех слайдов макета в презентации. Расширяет класс LayoutSlideCollection методами добавления/клонирования слайдов макета в контексте объединения отдельных коллекций слайдов макета мастера. |
-| [GradientFormat](./gradientformat) | Представляет формат градиента. |
-| [GradientStop](./gradientstop) | Представляет формат градиента. |
-| [GradientStopCollection](./gradientstopcollection) | Представляет набор остановок градиента. |
+| [GlobalLayoutSlideCollection](./globallayoutslidecollection) | Представляет коллекцию всех макетов слайдов в презентации. Расширяет класс LayoutSlideCollection методами для добавления/клонирования макетов слайдов в контексте объединения отдельных коллекций главных макетов слайдов. |
+| [GradientFormat](./gradientformat) | Представляет градиентный формат. |
+| [GradientStop](./gradientstop) | Представляет градиентный формат. |
+| [GradientStopCollection](./gradientstopcollection) | Представляет коллекцию градиентных остановок. |
 | [GradientStopCollectionEffectiveData](./gradientstopcollectioneffectivedata) | Представляет коллекцию объектов GradientStopData. |
-| [GradientStopEffectiveData](./gradientstopeffectivedata) | Неизменяемый объект, представляющий точку остановки градиента. |
+| [GradientStopEffectiveData](./gradientstopeffectivedata) | Невозможный объект, который представляет градиентную остановку. |
 | [GraphicalObject](./graphicalobject) | Представляет абстрактный графический объект. |
-| [GraphicalObjectLock](./graphicalobjectlock) | Определяет, какие операции отключены для родительского объекта GraphicalObject. |
+| [GraphicalObjectLock](./graphicalobjectlock) | Определяет, какие операции отключены для родительского GraphicalObject. |
 | [GroupShape](./groupshape) | Представляет группу фигур на слайде. |
-| [GroupShapeLock](./groupshapelock) | Определяет, какие операции отключены в родительском GroupShape. |
-| [Hyperlink](./hyperlink) | Представляет собой гиперссылку. |
+| [GroupShapeLock](./groupshapelock) | Определяет, какие операции отключены для родительской GroupShape. |
+| [HeadingPair](./headingpair) | Представляет свойство "Heading pair" документа. Оно указывает название группы частей документа и количество частей в группе. |
+| [Hyperlink](./hyperlink) | Представляет гиперссылку. |
 | [HyperlinkManager](./hyperlinkmanager) | Обеспечивает управление гиперссылками (добавление, удаление). |
 | [HyperlinkQueries](./hyperlinkqueries) | Обеспечивает легкий доступ к содержащимся гиперссылкам. |
 | [ImageCollection](./imagecollection) | Представляет коллекцию PPImage. |
-| [ImageWrapper](./imagewrapper) | System.Drawing.Image оболочка для COM-интерфейса. |
+| [Images](./images) | Методы для создания и работы с [`IImage`](../aspose.slides/iimage). |
+| [ImageWrapper](./imagewrapper) | Обертка System.Drawing.Image для COM интерфейса. |
 | [ImageWrapperFactory](./imagewrapperfactory) | Этот класс позволяет инициализировать IBitmapWrapper. |
-| [InterruptionToken](./interruptiontoken) | Этот класс представляет токен, используемый для сигнализации длительных задач о том, было ли запрошено прерывание. |
-| [InterruptionTokenSource](./interruptiontokensource) | Представляет источник[`InterruptionToken`](../aspose.slides/interruptiontoken). |
-| [InvalidPasswordException](./invalidpasswordexception) | Исключение, возникающее, когда формат файла презентации не поддерживается. |
+| [InterruptionToken](./interruptiontoken) | Этот класс представляет токен, который используется для сигнализации длительных задач о том, было ли запрошено прерывание. |
+| [InterruptionTokenSource](./interruptiontokensource) | Представляет источник [`InterruptionToken`](../aspose.slides/interruptiontoken). |
+| [InvalidPasswordException](./invalidpasswordexception) | Исключение, которое выбрасывается, когда формат файла презентации не поддерживается. |
+| [LayoutPlaceholderManager](./layoutplaceholdermanager) | Представляет менеджер, который позволяет вам добавлять заполнители в макет слайда. |
 | [LayoutSlide](./layoutslide) | Представляет макет слайда. |
-| [LayoutSlideCollection](./layoutslidecollection) | Представляет базовый класс для коллекции слайдов макета. |
-| [LayoutSlideHeaderFooterManager](./layoutslideheaderfootermanager) | Представляет менеджер, который содержит поведение нижнего колонтитула слайда макета, дату-время, заполнители номеров страниц и все дочерние заполнители. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда. |
-| [LegacyDiagram](./legacydiagram) | Представляет устаревший объект диаграммы. |
+| [LayoutSlideCollection](./layoutslidecollection) | Представляет базовый класс для коллекции макетов слайдов. |
+| [LayoutSlideHeaderFooterManager](./layoutslideheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула макета слайда, даты и времени, номера страницы и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от макета слайда. |
+| [LegacyDiagram](./legacydiagram) | Представляет объект устаревшей схемы. |
 | [License](./license) | Предоставляет методы для лицензирования компонента. |
 | [LightRig](./lightrig) | Представляет LightRig. |
-| [LineFillFormat](./linefillformat) | Представляет свойства для заполнения строк. |
-| [LineFormat](./lineformat) | Представляет формат строки. |
-| [LoadOptions](./loadoptions) | Позволяет указать дополнительные параметры (например, формат или шрифт по умолчанию) при загрузке презентации. |
+| [LineFillFormat](./linefillformat) | Представляет свойства заполнения линий. |
+| [LineFormat](./lineformat) | Представляет формат линии. |
+| [LoadOptions](./loadoptions) | Позволяет указать дополнительные параметры (такие как формат или шрифт по умолчанию) при загрузке презентации. |
 | [MasterHandoutSlide](./masterhandoutslide) | Представляет мастер-слайд для раздаточных материалов. |
-| [MasterHandoutSlideHeaderFooterManager](./masterhandoutslideheaderfootermanager) | Представляет менеджер, который определяет поведение заполнителей слайдов основного раздаточного материала, включая заполнитель заголовка. |
-| [MasterLayoutSlideCollection](./masterlayoutslidecollection) | Представляет коллекцию всех слайдов макета определенного мастер-слайда. Расширяет класс LayoutSlideCollection методами для добавления/вставки/удаления/клонирования/изменения порядка слайдов макета в контексте отдельных коллекций слайдов макета мастера. |
+| [MasterHandoutSlideHeaderFooterManager](./masterhandoutslideheaderfootermanager) | Представляет менеджер, который хранит поведение заполнителей мастер-слайда раздаточных материалов, включая заголовок. |
+| [MasterLayoutSlideCollection](./masterlayoutslidecollection) | Представляет коллекцию всех макетов слайдов определенного мастер-слайда. Расширяет интерфейс LayoutSlideCollection методами для добавления/вставки/удаления/клонирования/изменения порядка макетов слайдов в контексте отдельных коллекций мастерских макетов слайдов. |
 | [MasterNotesSlide](./masternotesslide) | Представляет мастер-слайд для заметок. |
-| [MasterNotesSlideHeaderFooterManager](./masternotesslideheaderfootermanager) | Представляет менеджер, который содержит поведение нижнего колонтитула слайда основных заметок, даты-времени, заполнителей номеров страниц и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок. |
+| [MasterNotesSlideHeaderFooterManager](./masternotesslideheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула мастер-слайда заметок, даты и времени, номера страницы и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах для заметок. Зависимые слайды для заметок используют и зависят от мастер-слайда заметок. |
 | [MasterSlide](./masterslide) | Представляет мастер-слайд в презентации. |
-| [MasterSlideCollection](./masterslidecollection) | Представляет набор мастер-слайдов. |
-| [MasterSlideHeaderFooterManager](./masterslideheaderfootermanager) | Представляет менеджер, который определяет поведение нижнего колонтитула мастер-слайда, дату-время, заполнители номеров страниц и все дочерние заполнители. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него. |
+| [MasterSlideCollection](./masterslidecollection) | Представляет коллекцию мастер-слайдов. |
+| [MasterSlideHeaderFooterManager](./masterslideheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула мастер-слайда, даты и времени, номера страницы и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от мастер-слайда. |
 | [Metered](./metered) | Предоставляет методы для установки измеренного ключа. |
-| [ModernComment](./moderncomment) | Представляет комментарий к слайду. |
-| [NormalViewProperties](./normalviewproperties) | Представляет свойства обычного вида. Обычный вид состоит из трех областей содержимого:самого слайда, боковой области содержимого и нижней области содержимого. |
-| [NormalViewRestoredProperties](./normalviewrestoredproperties) | Определяет размер области слайда ((ширина, когда дочерний элемент restoreTop, высота, когда дочерний элемент restoreLeft) нормального вида, когда область имеет переменный восстановленный размер (ни минимизирована, ни максимизирована). |
+| [ModernComment](./moderncomment) | Представляет комментарий на слайде. |
+| [NormalViewProperties](./normalviewproperties) | Представляет свойства нормального вида. Нормальный вид состоит из трех регионов: самого слайда, бокового контентного региона и нижнего контентного региона. |
+| [NormalViewRestoredProperties](./normalviewrestoredproperties) | Указывает размеры слайдового региона ((ширина, когда он является потомком restoredTop, высота, когда он является потомком restoredLeft) нормального вида, когда регион имеет переменный восстановленный размер (не минимизированный и не развернутый)). |
 | [NotesSize](./notessize) | Представляет размер слайда заметок. |
 | [NotesSlide](./notesslide) | Представляет слайд заметок в презентации. |
-| [NotesSlideHeaderFooterManager](./notesslideheaderfootermanager) | Представляет менеджер, который определяет поведение заполнителей слайдов заметок, включая заполнитель заголовка. |
-| [NotesSlideManager](./notesslidemanager) | Менеджер слайдов Notes. |
-| [OdpException](./odpexception) | Представляет стандартный тип внутреннего исключения. |
-| [OdpReadException](./odpreadexception) | Представляет исключение, вызываемое ошибками чтения презентации. |
-| [OleObjectFrame](./oleobjectframe) | Представляет объект OLE на слайде. |
-| [OOXMLCorruptFileException](./ooxmlcorruptfileexception) | Исключение, возникающее при повреждении формата файла Office Open XML. |
-| [OOXMLException](./ooxmlexception) | Представляет тип стандартного внутреннего исключения, относящегося к формату файлов Office Open XML. |
+| [NotesSlideHeaderFooterManager](./notesslideheaderfootermanager) | Представляет менеджер, который хранит поведение заполнителей слайда заметок, включая заголовок. |
+| [NotesSlideManager](./notesslidemanager) | Менеджер слайдов заметок. |
+| [OdpException](./odpexception) | Представляет стандартный внутренний тип исключения. |
+| [OdpReadException](./odpreadexception) | Представляет исключение, которое выбрасывается при ошибках чтения презентации. |
+| [OleObjectFrame](./oleobjectframe) | Представляет OLE-объект на слайде. |
+| [OOXMLCorruptFileException](./ooxmlcorruptfileexception) | Исключение, которое выбрасывается, когда формат файла Office Open XML поврежден. |
+| [OOXMLException](./ooxmlexception) | Представляет стандартный внутренний тип исключения, связанный с форматом файла Office Open XML. |
 | [Paragraph](./paragraph) | Представляет абзац текста. |
-| [ParagraphCollection](./paragraphcollection) | Представляет набор абзацев. |
+| [ParagraphCollection](./paragraphcollection) | Представляет коллекцию абзацев. |
 | [ParagraphFactory](./paragraphfactory) | Позволяет создавать абзацы |
-| [ParagraphFormat](./paragraphformat) | Этот класс содержит свойства форматирования абзаца. В отличие от[`IParagraphFormatEffectiveData`](../aspose.slides/iparagraphformateffectivedata)все свойства этого класса доступны для записи. |
+| [ParagraphFormat](./paragraphformat) | Этот класс содержит свойства форматирования абзацев. В отличие от [`IParagraphFormatEffectiveData`](../aspose.slides/iparagraphformateffectivedata), все свойства этого класса доступны для записи. |
 | [PathSegment](./pathsegment) | Представляет сегмент графического пути GeometryShape |
-| [PatternFormat](./patternformat) | Представляет шаблон для заполнения фигуры. |
-| [Picture](./picture) | Представляет изображение в презентации. |
-| [PictureFillFormat](./picturefillformat) | Представляет стиль заливки рисунка. |
-| [PictureFrame](./pictureframe) | Представляет рамку с изображением внутри. |
-| [PictureFrameLock](./pictureframelock) | Определяет, какие операции отключены в родительском PictureFrame. |
+| [PatternFormat](./patternformat) | Представляет узор для заливки фигуры. |
+| [Picture](./picture) | Представляет картинку в презентации. |
+| [PictureFillFormat](./picturefillformat) | Представляет стиль заливки картинки. |
+| [PictureFrame](./pictureframe) | Представляет рамку с картинкой внутри. |
+| [PictureFrameLock](./pictureframelock) | Определяет, какие операции отключены для родительского PictureFrame. |
 | [Placeholder](./placeholder) | Представляет заполнитель на слайде. |
-| [Portion](./portion) | Представляет часть текста внутри текстового абзаца. |
-| [PortionCollection](./portioncollection) | Представляет набор порций. |
-| [PortionFactory](./portionfactory) | Позволяет создавать тестовые участки |
-| [PortionFormat](./portionformat) | Этот класс содержит свойства форматирования текстовой части. В отличие от[`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata)все свойства этого класса доступны для записи. |
+| [Portion](./portion) | Представляет часть текста внутри абзаца текста. |
+| [PortionCollection](./portioncollection) | Представляет коллекцию порций. |
+| [PortionFactory](./portionfactory) | Позволяет создавать тестовые порции |
+| [PortionFormat](./portionformat) | Этот класс содержит свойства форматирования текстовых порций. В отличие от [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata), все свойства этого класса доступны для записи. |
 | [PPImage](./ppimage) | Представляет изображение в презентации. |
-| [PptCorruptFileException](./pptcorruptfileexception) | Исключение, возникающее, когда файл презентации, вероятно, поврежден. |
-| [PptEditException](./ppteditexception) | Представляет исключение, возникающее при обнаружении ошибки редактирования представления. |
-| [PptException](./pptexception) | Представляет стандартный тип внутреннего исключения. |
-| [PptReadException](./pptreadexception) | Представляет исключение, вызываемое ошибками чтения презентации. |
-| [PptUnsupportedFormatException](./pptunsupportedformatexception) | Исключение, возникающее, когда формат файла презентации не поддерживается. |
-| [PptxCorruptFileException](./pptxcorruptfileexception) |  |
-| [PptxEditException](./pptxeditexception) | Представляет исключение, возникающее при обнаружении ошибки редактирования представления. |
-| [PptxException](./pptxexception) | Представляет стандартный тип внутреннего исключения. |
-| [PptxReadException](./pptxreadexception) | Представляет исключение, вызываемое ошибками чтения презентации. |
-| [PptxUnsupportedFormatException](./pptxunsupportedformatexception) | Исключение, возникающее, когда формат файла презентации не поддерживается. |
+| [PptCorruptFileException](./pptcorruptfileexception) | Исключение, которое выбрасывается, когда файл презентации, вероятно, поврежден. |
+| [PptEditException](./ppteditexception) | Представляет исключение, выбрасываемое при обнаружении ошибок редактирования презентации. |
+| [PptException](./pptexception) | Представляет стандартный внутренний тип исключения. |
+| [PptReadException](./pptreadexception) | Представляет исключение, выбрасываемое при ошибках чтения презентации. |
+| [PptUnsupportedFormatException](./pptunsupportedformatexception) | Исключение, которое выбрасывается, когда формат файла презентации не поддерживается. |
+| [PptxEditException](./pptxeditexception) | Представляет исключение, выбрасываемое при обнаружении ошибок редактирования презентации. |
+| [PptxException](./pptxexception) | Представляет стандартный внутренний тип исключения. |
+| [PptxReadException](./pptxreadexception) | Представляет исключение, выбрасываемое при ошибках чтения презентации. |
+| [PptxUnsupportedFormatException](./pptxunsupportedformatexception) | Исключение, которое выбрасывается, когда формат файла презентации не поддерживается. |
 | [Presentation](./presentation) | Представляет презентацию Microsoft PowerPoint. |
-| [PresentationFactory](./presentationfactory) | Позволяет создать презентацию через COM-интерфейс |
-| [PresentationHeaderFooterManager](./presentationheaderfootermanager) | Представляет менеджер, который содержит поведение всех заполнителей нижнего колонтитула, даты-времени и номера страницы презентации. |
+| [PresentationFactory](./presentationfactory) | Позволяет создавать презентацию через COM-интерфейс |
+| [PresentationHeaderFooterManager](./presentationheaderfootermanager) | Представляет менеджер, который хранит поведение всех нижних колонтитулов, даты и времени и номеров страниц презентации. |
 | [PresentationInfo](./presentationinfo) | Информация о файле презентации |
 | [PresentationText](./presentationtext) | Представляет текст, извлеченный из презентации |
-| [ProtectionManager](./protectionmanager) | Управление защитой паролем презентации. |
-| [PVIObject](./pviobject) | Инкапсулирует базовую сервисную инфраструктуру для объектов, которые могут быть предметом наследования значений свойств. |
+| [PresentedBySpeaker](./presentedbyspeaker) | Презентуется оратором (на полный экран) |
+| [ProtectionManager](./protectionmanager) | Менеджмент защиты паролем презентации. |
+| [PVIObject](./pviobject) | Инкапсулирует базовую инфраструктуру службы для объектов, которые могут быть объектом наследования значения свойств. |
 | [Row](./row) | Представляет строку в таблице. |
 | [RowCollection](./rowcollection) | Представляет коллекцию строк таблицы. |
 | [RowFormat](./rowformat) | Представляет формат строки таблицы. |
-| [Section](./section) | Представляет раздел слайдов. |
-| [SectionCollection](./sectioncollection) | Представляет набор разделов. |
-| [SectionSlideCollection](./sectionslidecollection) | Представляет набор слайдов в разделе. |
+| [Section](./section) | Представляет секцию слайдов. |
+| [SectionCollection](./sectioncollection) | Представляет коллекцию секций. |
+| [SectionSlideCollection](./sectionslidecollection) | Представляет коллекцию слайдов в секции. |
 | [SectionZoomFrame](./sectionzoomframe) | Представляет объект Section Zoom на слайде. |
 | [Shape](./shape) | Представляет фигуру на слайде. |
-| [ShapeBevel](./shapebevel) | Содержит свойства рельефа основной грани фигуры. |
-| [ShapeCollection](./shapecollection) | Представляет набор фигур. |
-| [ShapeElement](./shapeelement) | Представляет часть фигуры с одинаковыми свойствами контура и заливки. |
-| [ShapeFrame](./shapeframe) | Представляет свойства фрейма фигуры. |
-| [ShapeStyle](./shapestyle) | Представляет ссылку на стиль фигуры. |
-| [SketchFormat](./sketchformat) | Представляет свойства для формата эскиза линий. |
+| [ShapeBevel](./shapebevel) | Содержит свойства рельефа основной лица фигуры. |
+| [ShapeCollection](./shapecollection) | Представляет коллекцию фигур. |
+| [ShapeElement](./shapeelement) | Представляет часть фигуры с одинаковыми свойствами обводки и заливки. |
+| [ShapeFrame](./shapeframe) | Представляет свойства рамки фигуры. |
+| [ShapeStyle](./shapestyle) | Представляет стиль фигуры. |
+| [SketchFormat](./sketchformat) | Представляет свойства для стиля линий рисования. |
 | [Slide](./slide) | Представляет слайд в презентации. |
 | [SlideCollection](./slidecollection) | Представляет коллекцию слайдов. |
-| [SlideHeaderFooterManager](./slideheaderfootermanager) | Представляет менеджер, который определяет поведение нижнего колонтитула слайда, дату-время, заполнители номеров страниц. |
+| [SlideHeaderFooterManager](./slideheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула слайда, даты, времени, номера страницы. |
+| [SlideShowSettings](./slideshowsettings) | Представляет настройки слайд-шоу для презентации. |
+| [SlideShowType](./slideshowtype) | Базовые настройки слайд-шоу. Предки представляют типы слайд-шоу: [`PresentedBySpeaker`](../aspose.slides/presentedbyspeaker) представлено оратором (на полный экран) [`BrowsedByIndividual`](../aspose.slides/browsedbyindividual) просмотренно индивидуально (в окне) [`BrowsedAtKiosk`](../aspose.slides/browsedatkiosk) просмотрено в киоске (на полный экран) |
 | [SlideSize](./slidesize) | Представляет размер слайда. |
-| [SpreadsheetOptions](./spreadsheetoptions) | Представляет параметры, которые можно использовать для указания дополнительного поведения электронных таблиц. |
+| [SlidesRange](./slidesrange) | Диапазон слайдов |
+| [SpreadsheetOptions](./spreadsheetoptions) | Представляет параметры, которые могут быть использованы для определения дополнительных свойств работы с таблицами. |
 | [StreamWrapper](./streamwrapper) | Оболочка Aspose.IO.Stream для COM-интерфейса. |
 | [StreamWrapperFactory](./streamwrapperfactory) | Фабрика StreamWrappers. Для COM-интерфейса. |
-| [SummaryZoomFrame](./summaryzoomframe) | Представляет объект "Сводное масштабирование" на слайде. |
-| [SummaryZoomSection](./summaryzoomsection) | Представляет объект «Раздел сводного масштаба» в кадре «Сводной масштаб». |
-| [SummaryZoomSectionCollection](./summaryzoomsectioncollection) | Представляет набор объектов Суммарный раздел масштабирования. |
-| [SvgImage](./svgimage) | Представляет изображение SVG. |
-| [Tab](./tab) | Представляет собой таблицу для текста. |
-| [TabCollection](./tabcollection) | Представляет набор вкладок. |
+| [SummaryZoomFrame](./summaryzoomframe) | Представляет объект Summary Zoom на слайде. |
+| [SummaryZoomSection](./summaryzoomsection) | Представляет объект Summary Zoom Section в рамке Summary Zoom. |
+| [SummaryZoomSectionCollection](./summaryzoomsectioncollection) | Представляет коллекцию объектов Summary Zoom Section. |
+| [SvgImage](./svgimage) | Представляет SVG-изображение. |
+| [Tab](./tab) | Представляет табуляцию для текста. |
+| [TabCollection](./tabcollection) | Представляет коллекцию табуляций. |
 | [TabFactory](./tabfactory) | Позволяет создавать экземпляры ITab |
 | [Table](./table) | Представляет таблицу на слайде. |
 | [TableFormat](./tableformat) | Представляет формат таблицы. |
-| [TagCollection](./tagcollection) | Представляет набор тегов (определяемые пользователем пары строк) |
+| [TagCollection](./tagcollection) | Представляет коллекцию тегов (определенные пользователем пары строк) |
 | [TextFrame](./textframe) | Представляет TextFrame. |
-| [TextFrameFormat](./textframeformat) | Содержит свойства formatTextFrameFormatting TextFrame. |
-| [TextHighlightingOptions](./texthighlightingoptions) | Представляет параметры, которые можно использовать для выделения текста в текстовом фрейме. |
-| [TextStyle](./textstyle) | Этот класс содержит свойства форматирования стиля текста. |
-| [ThreeDFormat](./threedformat) | Представляет трехмерные свойства. |
+| [TextFrameFormat](./textframeformat) | Содержит свойства форматирования TextFrame. |
+| [TextSearchOptions](./textsearchoptions) | Представляет опции, которые могут быть использованы для поиска текста в Презентации, Слайде или TextFrame. |
+| [TextStyle](./textstyle) | Этот класс содержит свойства форматирования текстового стиля. |
+| [ThreeDFormat](./threedformat) | Представляет 3D свойства. |
 | [Video](./video) | Представляет изображение, встроенное в презентацию. |
-| [VideoCollection](./videocollection) | Представляет набор объектов Video. |
+| [VideoCollection](./videocollection) | Представляет коллекцию объектов Video. |
 | [VideoFrame](./videoframe) | Представляет видеоклип на слайде. |
-| [ViewProperties](./viewproperties) | Свойства широкого представления презентации. |
+| [ViewProperties](./viewproperties) | Свойства вида всей презентации. |
 | [ZoomFrame](./zoomframe) | Представляет объект Slide Zoom на слайде. |
 | [ZoomObject](./zoomobject) | Представляет объект Zoom на слайде. |
 ## Интерфейсы
 
 | Интерфейс | Описание |
 | --- | --- |
-| [IAccessiblePVIObject&lt;T&gt;](./iaccessiblepviobject-1) | Представляет тип, который может возвращать соответствующие действующие данные с примененным наследованием. |
-| [IAdjustValue](./iadjustvalue) | Представляет значение корректировки геометрической формы. Эти значения влияют на форму фигуры. |
-| [IAdjustValueCollection](./iadjustvaluecollection) | Представляет набор корректировок формы. |
+| [IAccessiblePVIObject&lt;T&gt;](./iaccessiblepviobject-1) | Представляет тип, который может возвращать соответствующие эффективные данные с применением наследования. |
+| [IAdjustValue](./iadjustvalue) | Представляет значение настройки геометрической фигуры. Эти значения влияют на форму фигуры. |
+| [IAdjustValueCollection](./iadjustvaluecollection) | Представляет коллекцию настроек фигуры. |
 | [IAnimationTimeLine](./ianimationtimeline) | Представляет временную шкалу анимации. |
 | [IAudio](./iaudio) | Представляет встроенный аудиофайл. |
-| [IAudioCollection](./iaudiocollection) | Представляет набор встроенных аудиофайлов. |
+| [IAudioCollection](./iaudiocollection) | Представляет коллекцию встроенных аудиофайлов. |
 | [IAudioFrame](./iaudioframe) | Представляет аудиоклип на слайде. |
-| [IAutoShape](./iautoshape) | Представляет автофигуру. |
-| [IAutoShapeLock](./iautoshapelock) | Определяет, какие операции отключены в родительском AutoshapeEx. |
-| [IBackdrop3DScene](./ibackdrop3dscene) | Определяет плоскость, в которой эффекты, такие как свечение и тень, применяются по отношению к фигуре, к которой они применяются. |
+| [IAutoShape](./iautoshape) | Представляет AutoShape. |
+| [IAutoShapeLock](./iautoshapelock) | Определяет, какие операции отключены для родительского AutoshapeEx. |
+| [IBackdrop3DScene](./ibackdrop3dscene) | Определяет плоскость, на которую применяются эффекты, такие как свечения и тени, в зависимости от фигуры, к которой они применяются. |
 | [IBackground](./ibackground) | Представляет фон слайда. |
-| [IBackgroundEffectiveData](./ibackgroundeffectivedata) | Неизменяемый объект, содержащий эффективные свойства фона. |
-| [IBaseHandoutNotesSlideHeaderFooterManag](./ibasehandoutnotesslideheaderfootermanag) | Представляет менеджер, который определяет поведение заполнителей, включая заполнитель заголовка для всех типов слайдов раздаточных материалов и заметок. |
-| [IBaseHeaderFooterManager](./ibaseheaderfootermanager) | Представляет менеджер, который определяет поведение нижнего колонтитула, дату-время, заполнители номеров страниц для всех типов слайдов. |
-| [IBasePortionFormat](./ibaseportionformat) | Этот класс содержит свойства форматирования текстовой части. В отличие от[`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata)все свойства этого класса доступны для записи. |
-| [IBasePortionFormatEffectiveData](./ibaseportionformateffectivedata) | Базовый интерфейс для неизменяемых объектов, которые содержат эффективные свойства форматирования текстовой части. |
-| [IBaseShapeLock](./ibaseshapelock) | Представляет блокировку формы (отключенная операция). |
+| [IBackgroundEffectiveData](./ibackgroundeffectivedata) | Невозможно изменить объект, который содержит эффективные свойства фона. |
+| [IBaseHandoutNotesSlideHeaderFooterManag](./ibasehandoutnotesslideheaderfootermanag) | Представляет менеджер, который хранит поведение заполнителей, включая заголовок для всех типов раздаточных и заметочных слайдов. |
+| [IBaseHeaderFooterManager](./ibaseheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов. |
+| [IBasePortionFormat](./ibaseportionformat) | Этот класс содержит свойства форматирования текстовых порций. В отличие от [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata), все свойства этого класса доступны для записи. |
+| [IBasePortionFormatEffectiveData](./ibaseportionformateffectivedata) | Базовый интерфейс для неизменяемых объектов, содержащих эффективные свойства форматирования текстовых порций. |
+| [IBaseShapeLock](./ibaseshapelock) | Представляет блокировку фигуры (отключенную операцию). |
 | [IBaseSlide](./ibaseslide) | Представляет общие данные для всех типов слайдов. |
-| [IBaseSlideHeaderFooterManager](./ibaseslideheaderfootermanager) | Представляет менеджер, который определяет поведение нижнего колонтитула, дату-время, заполнители номеров страниц для всех типов слайдов. |
-| [IBaseTableFormatEffectiveData](./ibasetableformateffectivedata) | Базовый интерфейс для неизменяемых объектов, которые содержат эффективные свойства форматирования таблицы. |
-| [IBlobManagementOptions](./iblobmanagementoptions) | Большой двоичный объект (BLOB) — это двоичные данные, хранящиеся как единое целое, т. е. BLOB может быть аудио, видео или самой презентацией . Для оптимизации потребления памяти при работе с BLOB-объектами используется ряд методов, которые уже были сохранены в презентации или будут добавлены позже программно. Используя[`IBlobManagementOptions`](../aspose.slides/iblobmanagementoptions)вы можете изменить различные аспекты поведения в отношении больших двоичных объектов обработка для[`IPresentation`](../aspose.slides/ipresentation)время жизни экземпляра. |
-| [IBulkTextFormattable](./ibulktextformattable) | Представляет собой объект с возможностью массовой установки форматов дочерних текстовых элементов. |
+| [IBaseSlideHeaderFooterManager](./ibaseslideheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов. |
+| [IBaseTableFormatEffectiveData](./ibasetableformateffectivedata) | Базовый интерфейс для неизменяемых объектов, содержащих эффективные свойства форматирования таблиц. |
+| [IBlobManagementOptions](./iblobmanagementoptions) | Бинарный большой объект (BLOB) - это двоичные данные, хранящиеся как единое целое - т.е. BLOB может быть аудио, видео или самой презентацией. Используя [`IBlobManagementOptions`](../aspose.slides/iblobmanagementoptions), вы можете изменить различные аспекты обработки BLOB в течение времени жизни экземпляра [`IPresentation`](../aspose.slides/ipresentation). |
+| [IBulkTextFormattable](./ibulktextformattable) | Представляет объект с возможностью массовой установки форматов дочерних текстовых элементов. |
 | [IBulletFormat](./ibulletformat) | Представляет свойства форматирования маркеров абзаца. |
-| [IBulletFormatEffectiveData](./ibulletformateffectivedata) | Неизменяемый объект, который содержит эффективные свойства форматирования маркеров абзаца. |
-| [ICamera](./icamera) | Представляет камеру. |
-| [ICameraEffectiveData](./icameraeffectivedata) | Неизменяемый объект, содержащий эффективные свойства камеры. |
+| [IBulletFormatEffectiveData](./ibulletformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования маркеров абзаца. |
+| [ICamera](./icamera) | Представляет Камеру. |
+| [ICameraEffectiveData](./icameraeffectivedata) | Невозможно изменить объект, который содержит эффективные свойства камеры. |
+| [ICaptions](./icaptions) | Представляет закрытые субтитры WebVTT. |
+| [ICaptionsCollection](./icaptionscollection) | Представляет коллекцию закрытых субтитров. |
 | [ICell](./icell) | Представляет ячейку в таблице. |
-| [ICellCollection](./icellcollection) | Представляет набор ячеек. |
+| [ICellCollection](./icellcollection) | Представляет коллекцию ячеек. |
 | [ICellFormat](./icellformat) | Представляет формат ячейки таблицы. |
-| [ICellFormatEffectiveData](./icellformateffectivedata) | Неизменяемый объект, содержащий эффективные свойства форматирования ячеек таблицы. |
+| [ICellFormatEffectiveData](./icellformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования ячейки таблицы. |
 | [IColorFormat](./icolorformat) | Представляет цвет, используемый в презентации. |
-| [IColorOperation](./icoloroperation) | Представляет различные операции с цветом, используемые для преобразования цвета. |
-| [IColorOperationCollection](./icoloroperationcollection) | Представляет набор операций преобразования цвета. |
+| [IColorOperation](./icoloroperation) | Представляет различные цветовые операции, используемые для цветовых преобразований. |
+| [IColorOperationCollection](./icoloroperationcollection) | Представляет коллекцию цветовых трансформационных операций. |
 | [IColumn](./icolumn) | Представляет столбец в таблице. |
-| [IColumnCollection](./icolumncollection) | Представляет набор столбцов в таблице. |
+| [IColumnCollection](./icolumncollection) | Представляет коллекцию столбцов в таблице. |
 | [IColumnFormat](./icolumnformat) | Представляет формат столбца таблицы. |
-| [IColumnFormatEffectiveData](./icolumnformateffectivedata) | Неизменяемый объект, содержащий эффективные свойства форматирования столбца таблицы. |
-| [IComment](./icomment) | Представляет комментарий к слайду. |
+| [IColumnFormatEffectiveData](./icolumnformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования столбца таблицы. |
+| [IComment](./icomment) | Представляет комментарий на слайде. |
 | [ICommentAuthor](./icommentauthor) | Представляет автора комментариев. |
 | [ICommentAuthorCollection](./icommentauthorcollection) | Представляет коллекцию авторов комментариев. |
-| [ICommentCollection](./icommentcollection) | Представляет собой коллекцию комментариев одного автора. |
-| [ICommonSlideViewProperties](./icommonslideviewproperties) | Представляет общие свойства просмотра слайдов. |
+| [ICommentCollection](./icommentcollection) | Представляет коллекцию комментариев одного автора. |
+| [ICommonSlideViewProperties](./icommonslideviewproperties) | Представляет общие свойства вида слайда. |
 | [IConnector](./iconnector) | Представляет соединитель. |
-| [IConnectorLock](./iconnectorlock) | Определяет, какие операции отключены в родительском коннекторе. |
+| [IConnectorLock](./iconnectorlock) | Определяет, какие операции отключены для родительского Connector. |
 | [IControl](./icontrol) | Представляет элемент управления ActiveX. |
-| [IControlCollection](./icontrolcollection) | Набор элементов управления ActiveX. |
-| [IControlPropertiesCollection](./icontrolpropertiescollection) | Набор элементов управления ActiveX. |
+| [IControlCollection](./icontrolcollection) | Коллекция элементов управления ActiveX. |
+| [IControlPropertiesCollection](./icontrolpropertiescollection) | Коллекция свойств ActiveX. |
 | [ICustomData](./icustomdata) | Представляет контейнер для пользовательских данных. |
-| [ICustomXmlPart](./icustomxmlpart) | Представляет пользовательскую часть xml. |
-| [ICustomXmlPartCollection](./icustomxmlpartcollection) | Представляет набор пользовательских частей xml. |
+| [ICustomXmlPart](./icustomxmlpart) | Представляет пользовательскую xml-часть. |
+| [ICustomXmlPartCollection](./icustomxmlpartcollection) | Представляет коллекцию пользовательских xml-частей. |
 | [IDigitalSignature](./idigitalsignature) | Цифровая подпись в подписанном файле. |
-| [IDigitalSignatureCollection](./idigitalsignaturecollection) | Представляет набор цифровых подписей, прикрепленных к документу. |
+| [IDigitalSignatureCollection](./idigitalsignaturecollection) | Представляет коллекцию цифровых подписей, прикрепленных к документу. |
 | [IDocumentProperties](./idocumentproperties) | Представляет свойства презентации. |
-| [IEffectFormat](./ieffectformat) | Представляет свойства эффекта формы. |
-| [IEffectFormatEffectiveData](./ieffectformateffectivedata) | Неизменяемый объект, который содержит эффективные свойства форматирования эффекта. |
-| [IEffectParamSource](./ieffectparamsource) | Интерфейс параметров вспомогательных эффектов. |
+| [IDrawingGuide](./idrawingguide) | Представляет настраиваемую направляющую для рисования. |
+| [IDrawingGuidesCollection](./idrawingguidescollection) | Представляет коллекцию настраиваемых направляющих для рисования. |
+| [IEffectFormat](./ieffectformat) | Представляет свойства эффекта фигуры. |
+| [IEffectFormatEffectiveData](./ieffectformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования эффекта. |
+| [IEffectParamSource](./ieffectparamsource) | Вспомогательный интерфейс для параметров эффектов. |
 | [IField](./ifield) | Представляет поле. |
-| [IFieldType](./ifieldtype) | Представляет тип поля. Это значение определяет, какой текст будет установлен в часть поля при его обновлении. |
+| [IFieldType](./ifieldtype) | Представляет тип поля. Это значение определяет, какой текст будет установлен в порцию поля, когда оно будет обновлено. |
 | [IFillFormat](./ifillformat) | Представляет параметры форматирования заливки. |
-| [IFillFormatEffectiveData](./ifillformateffectivedata) | Неизменяемый объект, содержащий эффективные свойства форматирования заливки. |
-| [IFillParamSource](./ifillparamsource) | Интерфейс дополнительных параметров заливки. |
+| [IFillFormatEffectiveData](./ifillformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования заливки. |
+| [IFillParamSource](./ifillparamsource) | Вспомогательный интерфейс для параметров заливки. |
+| [IFindResultCallback](./ifindresultcallback) | Интерфейс обратного вызова для получения результатов поиска текста. |
 | [IFontData](./ifontdata) | Представляет определение шрифта. |
 | [IFontDataFactory](./ifontdatafactory) | Интерфейс фабрики FontData |
-| [IFontFallBackRule](./ifontfallbackrule) | Представляет резервное правило шрифта |
-| [IFontFallBackRulesCollection](./ifontfallbackrulescollection) | Представляет набор правил FontFallBack, определенных пользователем |
+| [IFontFallBackRule](./ifontfallbackrule) | Представляет правило замещения шрифта |
+| [IFontFallBackRulesCollection](./ifontfallbackrulescollection) | Представляет коллекцию правил замещения шрифтов, определенных пользователем |
 | [IFonts](./ifonts) | Представляет коллекцию шрифтов. |
-| [IFontsEffectiveData](./ifontseffectivedata) | Неизменяемый объект, содержащий набор эффективных шрифтов. |
-| [IFontsLoader](./ifontsloader) | Класс для загрузки пользовательских шрифтов, определенных пользователем. Следует использовать перед созданием каких-либо объектов презентации. |
-| [IFontsManager](./ifontsmanager) | Управляет шрифтами во всей презентации. |
-| [IFontSources](./ifontsources) | Предоставляет файлы и источники памяти для внешних шрифтов. |
-| [IFontSubstRule](./ifontsubstrule) | Представляет информацию о подстановке шрифта |
-| [IFontSubstRuleCollection](./ifontsubstrulecollection) | Представляет набор подстановок шрифтов. |
-| [IFormatFactory](./iformatfactory) | Позволяет создавать форматы через COM интерфейс. |
-| [IGenericCloneable&lt;T&gt;](./igenericcloneable-1) | Представляет общую версию ICloneable |
-| [IGenericCollection&lt;T&gt;](./igenericcollection-1) | Вспомогательный общий интерфейс коллекции. |
-| [IGeometryPath](./igeometrypath) | Представляет путь геометрии GeometryShape |
+| [IFontsEffectiveData](./ifontseffectivedata) | Невозможно изменить объект, который содержит эффективный набор шрифтов. |
+| [IFontsLoader](./ifontsloader) | Класс для загрузки пользовательских шрифтов, определенных пользователем. Должен использоваться перед созданием любых объектов презентации. |
+| [IFontsManager](./ifontsmanager) | Упрощает управление шрифтами в презентации. |
+| [IFontSources](./ifontsources) | Предоставляет источники файлов и памяти для внешних шрифтов. |
+| [IFontSubstRule](./ifontsubstrule) | Представляет информацию о замене шрифта |
+| [IFontSubstRuleCollection](./ifontsubstrulecollection) | Представляет коллекцию замены шрифтов. |
+| [IFormatFactory](./iformatfactory) | Позволяет создавать форматы через COM-интерфейс. |
+| [IGenericCloneable&lt;T&gt;](./igenericcloneable-1) | Представляет обобщенную версию ICloneable |
+| [IGenericCollection&lt;T&gt;](./igenericcollection-1) | Вспомогательный обобщенный интерфейс коллекции. |
+| [IGeometryPath](./igeometrypath) | Представляет геометрический путь GeometryShape |
 | [IGeometryShape](./igeometryshape) | Представляет родительский класс для всех геометрических фигур. |
-| [IGlobalLayoutSlideCollection](./igloballayoutslidecollection) | Представляет коллекцию всех слайдов макета в презентации. Расширяет интерфейс ILayoutSlideCollection методами добавления/клонирования слайдов макета в контексте объединения отдельных коллекций слайдов макета мастера. |
-| [IGradientFormat](./igradientformat) | Представляет формат градиента. |
-| [IGradientFormatEffectiveData](./igradientformateffectivedata) | Неизменяемый объект, который содержит эффективные свойства градиентной заливки. |
-| [IGradientStop](./igradientstop) | Представляет формат градиента. |
-| [IGradientStopCollection](./igradientstopcollection) | Представляет набор остановок градиента. |
+| [IGlobalLayoutSlideCollection](./igloballayoutslidecollection) | Представляет коллекцию всех макетов слайдов в презентации. Расширяет интерфейс ILayoutSlideCollection методами для добавления/клонирования макетов слайдов в контексте объединения отдельных коллекций мастерских макетов слайдов. |
+| [IGradientFormat](./igradientformat) | Представляет градиентный формат. |
+| [IGradientFormatEffectiveData](./igradientformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства градиентной заливки. |
+| [IGradientStop](./igradientstop) | Представляет градиентный формат. |
+| [IGradientStopCollection](./igradientstopcollection) | Представляет коллекцию градиентных остановок. |
 | [IGradientStopCollectionEffectiveData](./igradientstopcollectioneffectivedata) | Представляет коллекцию объектов GradientStopDataEx. |
-| [IGradientStopEffectiveData](./igradientstopeffectivedata) | неизменяемый объект, представляющий остановку градиента. |
+| [IGradientStopEffectiveData](./igradientstopeffectivedata) | Невозможно изменить объект, который представляет градиентную остановку. |
 | [IGraphicalObject](./igraphicalobject) | Представляет абстрактный графический объект. |
-| [IGraphicalObjectLock](./igraphicalobjectlock) | Определяет, какие операции отключены для родительского объекта GraphicalObjectEx. |
+| [IGraphicalObjectLock](./igraphicalobjectlock) | Определяет, какие операции отключены для родительского GraphicalObjectEx. |
 | [IGroupShape](./igroupshape) | Представляет группу фигур на слайде. |
-| [IGroupShapeLock](./igroupshapelock) | Определяет, какие операции отключены в родительском GroupShape. |
-| [IHyperlink](./ihyperlink) | Представляет собой гиперссылку. |
+| [IGroupShapeLock](./igroupshapelock) | Определяет, какие операции отключены для родительской GroupShape. |
+| [IHeadingPair](./iheadingpair) | Представляет свойство "Heading pair" документа. Оно указывает название группы частей документа и количество частей в группе. |
+| [IHyperlink](./ihyperlink) | Представляет гиперссылку. |
 | [IHyperlinkContainer](./ihyperlinkcontainer) | Представляет объект гиперссылки. |
 | [IHyperlinkManager](./ihyperlinkmanager) | Обеспечивает управление гиперссылками (добавление, удаление). |
 | [IHyperlinkQueries](./ihyperlinkqueries) | Обеспечивает легкий доступ к содержащимся гиперссылкам. |
+| [IImage](./iimage) | Представляет растровое или векторное изображение. |
 | [IImageCollection](./iimagecollection) | Представляет коллекцию PPImage. |
-| [IImageWrapper](./iimagewrapper) | System.Drawing.Image оболочка для COM-интерфейса. |
+| [IImageWrapper](./iimagewrapper) | Обертка System.Drawing.Image для COM-интерфейса. |
 | [IImageWrapperFactory](./iimagewrapperfactory) | Этот интерфейс позволяет инициализировать IBitmapWrapper. |
-| [IInterruptionToken](./iinterruptiontoken) | Этот класс представляет токен, используемый для сигнализации длительных задач о том, было ли запрошено прерывание. |
-| [IInterruptionTokenSource](./iinterruptiontokensource) | Представляет источник[`IInterruptionToken`](../aspose.slides/iinterruptiontoken). |
+| [IInterruptionToken](./iinterruptiontoken) | Этот класс представляет токен, который используется для сигнализации длительных задач о том, было ли запрошено прерывание. |
+| [IInterruptionTokenSource](./iinterruptiontokensource) | Представляет источник [`IInterruptionToken`](../aspose.slides/iinterruptiontoken). |
+| [ILayoutPlaceholderManager](./ilayoutplaceholdermanager) | Представляет менеджер, который позволяет вам добавлять заполнители в макет слайда. |
 | [ILayoutSlide](./ilayoutslide) | Представляет макет слайда. |
-| [ILayoutSlideCollection](./ilayoutslidecollection) | Представляет базовый класс для коллекции слайдов макета. |
-| [ILayoutSlideHeaderFooterManager](./ilayoutslideheaderfootermanager) | Представляет менеджер, который содержит поведение нижнего колонтитула слайда макета, дату-время, заполнители номеров страниц и все дочерние заполнители. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда. |
-| [ILegacyDiagram](./ilegacydiagram) | Представляет устаревший объект диаграммы |
+| [ILayoutSlideCollection](./ilayoutslidecollection) | Представляет базовый класс для коллекции макетов слайдов. |
+| [ILayoutSlideHeaderFooterManager](./ilayoutslideheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула макета слайда, даты и времени, номера страницы и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от макета слайда. |
+| [ILegacyDiagram](./ilegacydiagram) | Представляет объект устаревшей схемы |
 | [ILicense](./ilicense) | Предоставляет методы для лицензирования компонента. |
 | [ILightRig](./ilightrig) | Представляет LightRig. |
-| [ILightRigEffectiveData](./ilightrigeffectivedata) | Неизменяемый объект, содержащий эффективные свойства установки освещения. |
-| [ILineFillFormat](./ilinefillformat) | Представляет свойства для заполнения строк. |
-| [ILineFillFormatEffectiveData](./ilinefillformateffectivedata) | Неизменяемый объект, который содержит эффективные свойства заполнения строки. |
-| [ILineFormat](./ilineformat) | Представляет формат строки. |
-| [ILineFormatEffectiveData](./ilineformateffectivedata) | Неизменяемый объект, содержащий эффективные свойства форматирования строки. |
-| [ILineParamSource](./ilineparamsource) | Интерфейс параметров вспомогательной линии. |
-| [ILoadOptions](./iloadoptions) | Позволяет указать дополнительные параметры (например, формат или шрифт по умолчанию) при загрузке презентации. |
+| [ILightRigEffectiveData](./ilightrigeffectivedata) | Невозможно изменить объект, который содержит эффективные свойства световой установки. |
+| [ILineFillFormat](./ilinefillformat) | Представляет свойства для заполнения линий. |
+| [ILineFillFormatEffectiveData](./ilinefillformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства заполнения линий. |
+| [ILineFormat](./ilineformat) | Представляет формат линии. |
+| [ILineFormatEffectiveData](./ilineformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования линий. |
+| [ILineParamSource](./ilineparamsource) | Вспомогательный интерфейс для параметров линий. |
+| [ILoadOptions](./iloadoptions) | Позволяет указать дополнительные параметры (такие как формат или шрифт по умолчанию) при загрузке презентации. |
 | [IMasterHandoutSlide](./imasterhandoutslide) | Представляет мастер-слайд для раздаточных материалов. |
-| [IMasterHandoutSlideHeaderFooterManager](./imasterhandoutslideheaderfootermanager) | Представляет менеджер, который определяет поведение заполнителей слайдов основного раздаточного материала, включая заполнитель заголовка. |
-| [IMasterHandoutSlideManager](./imasterhandoutslidemanager) | Мастер слайд-менеджера раздаточных материалов. |
-| [IMasterLayoutSlideCollection](./imasterlayoutslidecollection) | Представляет коллекцию всех слайдов макета определенного мастер-слайда. Расширяет интерфейс ILayoutSlideCollection методами добавления/вставки/удаления/клонирования слайдов макета в контексте отдельных коллекций слайдов мастер-макета. |
+| [IMasterHandoutSlideHeaderFooterManager](./imasterhandoutslideheaderfootermanager) | Представляет менеджер, который хранит поведение заполнителей мастер-слайда раздаточных материалов, включая заголовок. |
+| [IMasterHandoutSlideManager](./imasterhandoutslidemanager) | Менеджер мастер-слайда раздаточных материалов. |
+| [IMasterLayoutSlideCollection](./imasterlayoutslidecollection) | Представляет коллекцию всех макетов слайдов определенного мастер-слайда. Расширяет интерфейс ILayoutSlideCollection методами для добавления/вставки/удаления/клонирования/изменения порядка макетов слайдов в контексте отдельных коллекций мастерских макетов слайдов. |
 | [IMasterNotesSlide](./imasternotesslide) | Представляет мастер-слайд для заметок. |
-| [IMasterNotesSlideHeaderFooterManager](./imasternotesslideheaderfootermanager) | Представляет менеджер, который содержит поведение нижнего колонтитула слайда основных заметок, даты-времени, заполнителей номеров страниц и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок. |
-| [IMasterNotesSlideManager](./imasternotesslidemanager) | Менеджер слайдов основных заметок. |
+| [IMasterNotesSlideHeaderFooterManager](./imasternotesslideheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула мастер-слайда заметок, даты и времени, номера страницы и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах для заметок. Зависимые слайды для заметок используют и зависят от мастер-слайда заметок. |
+| [IMasterNotesSlideManager](./imasternotesslidemanager) | Менеджер мастер-слайда заметок. |
 | [IMasterSlide](./imasterslide) | Представляет мастер-слайд в презентации. |
-| [IMasterSlideCollection](./imasterslidecollection) | Представляет набор мастер-слайдов. |
-| [IMasterSlideHeaderFooterManager](./imasterslideheaderfootermanager) | Представляет менеджер, который определяет поведение нижнего колонтитула мастер-слайда, дату-время, заполнители номеров страниц и все дочерние заполнители. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него. |
+| [IMasterSlideCollection](./imasterslidecollection) | Представляет коллекцию мастер-слайдов. |
+| [IMasterSlideHeaderFooterManager](./imasterslideheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула мастер-слайда, даты и времени, номера страницы и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от мастер-слайда. |
 | [IMetered](./imetered) | Предоставляет методы для установки измеренного ключа. |
-| [IModernComment](./imoderncomment) | Представляет комментарий к слайду. |
-| [INormalViewProperties](./inormalviewproperties) | Представляет свойства обычного вида. Обычный вид состоит из трех областей содержимого:самого слайда, боковой области содержимого и нижней области содержимого. |
-| [INormalViewRestoredProperties](./inormalviewrestoredproperties) | Определяет размер области слайда ((ширина, когда дочерний элемент restoreTop, высота, когда дочерний элемент restoreLeft) нормального вида, когда область имеет переменный восстановленный размер (ни минимизирована, ни максимизирована). |
+| [IModernComment](./imoderncomment) | Представляет комментарий на слайде. |
+| [INormalViewProperties](./inormalviewproperties) | Представляет свойства нормального вида. Нормальный вид состоит из трех регионов: самого слайда, бокового контентного региона и нижнего контентного региона. |
+| [INormalViewRestoredProperties](./inormalviewrestoredproperties) | Указывает размеры слайдового региона ((ширина, когда он является потомком restoredTop, высота, когда он является потомком restoredLeft) нормального вида, когда регион имеет переменный восстановленный размер (не минимизированный и не развернутый)). |
 | [INotesSize](./inotessize) | Представляет размер слайда заметок. |
 | [INotesSlide](./inotesslide) | Представляет слайд заметок в презентации. |
-| [INotesSlideHeaderFooterManager](./inotesslideheaderfootermanager) | Представляет менеджер, который определяет поведение заполнителей слайдов заметок, включая заполнитель заголовка. |
-| [INotesSlideManager](./inotesslidemanager) | Менеджер слайдов Notes. |
-| [IOleEmbeddedDataInfo](./ioleembeddeddatainfo) | Представляет информацию о встроенных данных для объекта OLE. |
-| [IOleObjectFrame](./ioleobjectframe) | Представляет объект OLE на слайде. |
+| [INotesSlideHeaderFooterManager](./inotesslideheaderfootermanager) | Представляет менеджер, который хранит поведение заполнителей слайда заметок, включая заголовок. |
+| [INotesSlideManager](./inotesslidemanager) | Менеджер слайдов заметок. |
+| [IOleEmbeddedDataInfo](./ioleembeddeddatainfo) | Представляет информацию о встроенных данных для OLE-объекта. |
+| [IOleObjectFrame](./ioleobjectframe) | Представляет OLE-объект на слайде. |
 | [IParagraph](./iparagraph) | Представляет абзац текста. |
-| [IParagraphCollection](./iparagraphcollection) | Представляет набор абзацев. |
+| [IParagraphCollection](./iparagraphcollection) | Представляет коллекцию абзацев. |
 | [IParagraphFactory](./iparagraphfactory) | Позволяет создавать абзацы |
-| [IParagraphFormat](./iparagraphformat) | Этот класс содержит свойства форматирования абзаца. В отличие от[`IParagraphFormatEffectiveData`](../aspose.slides/iparagraphformateffectivedata)все свойства этого класса доступны для записи. |
-| [IParagraphFormatEffectiveData](./iparagraphformateffectivedata) | Неизменяемый объект, содержащий эффективные свойства форматирования абзаца. |
+| [IParagraphFormat](./iparagraphformat) | Этот класс содержит свойства форматирования абзацев. В отличие от [`IParagraphFormatEffectiveData`](../aspose.slides/iparagraphformateffectivedata), все свойства этого класса доступны для записи. |
+| [IParagraphFormatEffectiveData](./iparagraphformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования абзаца. |
 | [IPathSegment](./ipathsegment) | Представляет сегмент графического пути GeometryShape |
-| [IPatternFormat](./ipatternformat) | Представляет шаблон для заполнения фигуры. |
-| [IPatternFormatEffectiveData](./ipatternformateffectivedata) | Неизменяемый объект, который содержит эффективные свойства заполнения шаблона. |
-| [IPictureEffectiveData](./ipictureeffectivedata) | Неизменяемый объект, содержащий эффективные свойства изображения. |
-| [IPictureFillFormat](./ipicturefillformat) | Представляет стиль заливки рисунка. |
-| [IPictureFillFormatEffectiveData](./ipicturefillformateffectivedata) | Неизменяемый объект, содержащий свойства заливки картинкой. |
-| [IPictureFrame](./ipictureframe) | Представляет рамку с изображением внутри. |
-| [IPictureFrameLock](./ipictureframelock) | Определяет, какие операции отключены в родительском PictureFrameEx. |
+| [IPatternFormat](./ipatternformat) | Представляет узор для заливки фигуры. |
+| [IPatternFormatEffectiveData](./ipatternformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства заливки узором. |
+| [IPictureEffectiveData](./ipictureeffectivedata) | Невозможно изменить объект, который содержит эффективные свойства картинки. |
+| [IPictureFillFormat](./ipicturefillformat) | Представляет стиль заливки картинки. |
+| [IPictureFillFormatEffectiveData](./ipicturefillformateffectivedata) | Невозможно изменить объект, который содержит свойства заливки картинки. |
+| [IPictureFrame](./ipictureframe) | Представляет рамку с картинкой внутри. |
+| [IPictureFrameLock](./ipictureframelock) | Определяет, какие операции отключены для родительского PictureFrameEx. |
 | [IPlaceholder](./iplaceholder) | Представляет заполнитель на слайде. |
-| [IPortion](./iportion) | Представляет часть текста внутри текстового абзаца. |
-| [IPortionCollection](./iportioncollection) | Представляет набор порций. |
-| [IPortionFactory](./iportionfactory) | Позволяет создавать тестовые участки |
-| [IPortionFormat](./iportionformat) | Этот класс содержит свойства форматирования текстовой части. В отличие от[`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata)все свойства этого класса доступны для записи. |
-| [IPortionFormatEffectiveData](./iportionformateffectivedata) | Неизменяемый объект, содержащий эффективные свойства форматирования текстовой части. |
+| [IPortion](./iportion) | Представляет часть текста внутри абзаца текста. |
+| [IPortionCollection](./iportioncollection) | Представляет коллекцию порций. |
+| [IPortionFactory](./iportionfactory) | Позволяет создавать тестовые порции |
+| [IPortionFormat](./iportionformat) | Этот класс содержит свойства форматирования текстовых порций. В отличие от [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata), все свойства этого класса доступны для записи. |
+| [IPortionFormatEffectiveData](./iportionformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования текстовых порций. |
 | [IPPImage](./ippimage) | Представляет изображение в презентации. |
 | [IPresentation](./ipresentation) | Презентационный документ |
 | [IPresentationComponent](./ipresentationcomponent) | Представляет компонент презентации. |
-| [IPresentationFactory](./ipresentationfactory) | Позволяет создать презентацию через COM-интерфейс |
-| [IPresentationHeaderFooterManager](./ipresentationheaderfootermanager) | Представляет менеджер, который содержит поведение всех заполнителей нижнего колонтитула, даты-времени и номера страницы презентации. |
+| [IPresentationFactory](./ipresentationfactory) | Позволяет создавать презентацию через COM-интерфейс |
+| [IPresentationHeaderFooterManager](./ipresentationheaderfootermanager) | Представляет менеджер, который хранит поведение всех нижних колонтитулов, даты и времени и номеров страниц презентации. |
 | [IPresentationInfo](./ipresentationinfo) | Информация о файле презентации |
 | [IPresentationText](./ipresentationtext) | Представляет текст, извлеченный из слайда |
-| [IProgressCallback](./iprogresscallback) | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. |
-| [IProtectionManager](./iprotectionmanager) | Управление защитой паролем презентации. |
-| [IResourceLoadingArgs](./iresourceloadingargs) | Интерфейс для аргументов загрузки внешних ресурсов. |
+| [IProgressCallback](./iprogresscallback) | Представляет объект обратного вызова для сохранения обновлений прогресса в процентах. |
+| [IProtectionManager](./iprotectionmanager) | Менеджмент защиты паролем презентации. |
+| [IResourceLoadingArgs](./iresourceloadingargs) | Интерфейс для аргументов загрузки внешнего ресурса. |
 | [IResourceLoadingCallback](./iresourceloadingcallback) | Интерфейс обратного вызова, используемый для управления загрузкой внешних ресурсов. |
 | [IRow](./irow) | Представляет строку в таблице. |
 | [IRowCollection](./irowcollection) | Представляет коллекцию строк таблицы. |
 | [IRowFormat](./irowformat) | Представляет формат строки таблицы. |
-| [IRowFormatEffectiveData](./irowformateffectivedata) | Неизменяемый объект, содержащий эффективные свойства форматирования строк таблицы. |
-| [ISection](./isection) | Представляет раздел слайдов. |
-| [ISectionCollection](./isectioncollection) | Представляет набор разделов. |
-| [ISectionSlideCollection](./isectionslidecollection) | Представляет набор слайдов в разделе. |
+| [IRowFormatEffectiveData](./irowformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования строки таблицы. |
+| [ISection](./isection) | Представляет секцию слайдов. |
+| [ISectionCollection](./isectioncollection) | Представляет коллекцию секций. |
+| [ISectionSlideCollection](./isectionslidecollection) | Представляет коллекцию слайдов в секции. |
 | [ISectionZoomFrame](./isectionzoomframe) | Представляет объект Section Zoom на слайде. |
 | [IShape](./ishape) | Представляет фигуру на слайде. |
-| [IShapeBevel](./ishapebevel) | Представляет свойства рельефа основной грани фигуры. |
-| [IShapeBevelEffectiveData](./ishapebeveleffectivedata) | Неизменяемый объект, содержащий эффективные свойства рельефа грани фигуры. |
-| [IShapeCollection](./ishapecollection) | Представляет набор фигур. |
-| [IShapeElement](./ishapeelement) | Представляет часть фигуры с одинаковыми свойствами контура и заливки. |
-| [IShapeFrame](./ishapeframe) | Представляет свойства фрейма фигуры. |
-| [IShapeStyle](./ishapestyle) | Представляет ссылку на стиль фигуры. |
-| [ISketchFormat](./isketchformat) | Представляет свойства для формата эскиза линий. |
-| [ISketchFormatEffectiveData](./isketchformateffectivedata) | Неизменяемый объект, который содержит действующие свойства линейного эскиза. |
+| [IShapeBevel](./ishapebevel) | Представляет свойства рельефа основной лица фигуры. |
+| [IShapeBevelEffectiveData](./ishapebeveleffectivedata) | Невозможно изменить объект, который содержит эффективные свойства рельефа фигуры. |
+| [IShapeCollection](./ishapecollection) | Представляет коллекцию фигур. |
+| [IShapeElement](./ishapeelement) | Представляет часть фигуры с одинаковыми свойствами обводки и заливки. |
+| [IShapeFrame](./ishapeframe) | Представляет свойства рамки фигуры. |
+| [IShapeStyle](./ishapestyle) | Представляет стиль фигуры. |
+| [ISketchFormat](./isketchformat) | Представляет свойства для стиля линий рисования. |
+| [ISketchFormatEffectiveData](./isketchformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства рисования линий. |
 | [ISlide](./islide) | Представляет слайд в презентации. |
 | [ISlideCollection](./islidecollection) | Представляет коллекцию слайдов. |
 | [ISlideComponent](./islidecomponent) | Представляет компонент слайда. |
-| [ISlideHeaderFooterManager](./islideheaderfootermanager) | Представляет менеджер, который определяет поведение нижнего колонтитула слайда, дату-время, заполнители номеров страниц. |
+| [ISlideHeaderFooterManager](./islideheaderfootermanager) | Представляет менеджер, который хранит поведение нижнего колонтитула слайда, даты, времени, номера страницы. |
 | [ISlideShowTransition](./islideshowtransition) | Представляет переход слайд-шоу. |
 | [ISlideSize](./islidesize) | Представляет размер слайда. |
-| [ISlidesPicture](./islidespicture) | Представляет изображение в презентации. |
+| [ISlidesPicture](./islidespicture) | Представляет картину в презентации. |
 | [ISlideText](./islidetext) | Представляет текст, извлеченный из слайда |
-| [ISpreadsheetOptions](./ispreadsheetoptions) | Представляет параметры, которые можно использовать для указания дополнительного поведения электронных таблиц. |
+| [ISpreadsheetOptions](./ispreadsheetoptions) | Представляет параметры, которые могут быть использованы для определения дополнительных свойств работы с таблицами. |
 | [IStreamWrapper](./istreamwrapper) | Оболочка Aspose.IO.Stream для COM-интерфейса. |
 | [IStreamWrapperFactory](./istreamwrapperfactory) | Фабрика StreamWrappers. Для COM-интерфейса. |
-| [ISummaryZoomFrame](./isummaryzoomframe) | Представляет кадр сводного масштабирования на слайде. |
-| [ISummaryZoomSection](./isummaryzoomsection) | Представляет объект «Раздел сводного масштаба» в кадре «Сводной масштаб». |
-| [ISummaryZoomSectionCollection](./isummaryzoomsectioncollection) | Представляет набор объектов Суммарный раздел масштабирования. |
-| [ISvgImage](./isvgimage) | Представляет изображение SVG. |
-| [ITab](./itab) | Представляет собой таблицу для текста. |
-| [ITabCollection](./itabcollection) | Представляет набор вкладок. |
-| [ITabEffectiveData](./itabeffectivedata) | Неизменяемый объект, который содержит свойства остановки табуляции действующего текста. |
-| [ITabFactory](./itabfactory) | Разрешить создание экземпляров ITab |
+| [ISummaryZoomFrame](./isummaryzoomframe) | Представляет объект Summary Zoom на слайде. |
+| [ISummaryZoomSection](./isummaryzoomsection) | Представляет объект Summary Zoom Section в рамке Summary Zoom. |
+| [ISummaryZoomSectionCollection](./isummaryzoomsectioncollection) | Представляет коллекцию объектов Summary Zoom Section. |
+| [ISvgImage](./isvgimage) | Представляет SVG-изображение. |
+| [ITab](./itab) | Представляет табуляцию для текста. |
+| [ITabCollection](./itabcollection) | Представляет коллекцию табуляций. |
+| [ITabEffectiveData](./itabeffectivedata) | Невозможно изменить объект, который содержит эффективные свойства табуляции текста. |
+| [ITabFactory](./itabfactory) | Позволяет создавать экземпляры ITab |
 | [ITable](./itable) | Представляет таблицу на слайде. |
 | [ITableFormat](./itableformat) | Представляет формат таблицы. |
-| [ITableFormatEffectiveData](./itableformateffectivedata) | Неизменяемый объект, содержащий эффективные свойства форматирования таблицы. |
-| [ITagCollection](./itagcollection) | Представляет набор тегов (определяемые пользователем пары строк) |
+| [ITableFormatEffectiveData](./itableformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования таблицы. |
+| [ITagCollection](./itagcollection) | Представляет коллекцию тегов (определенные пользователем пары строк) |
 | [ITextFrame](./itextframe) | Представляет TextFrame. |
 | [ITextFrameFormat](./itextframeformat) | Содержит свойства форматирования TextFrame. |
-| [ITextFrameFormatEffectiveData](./itextframeformateffectivedata) | Неизменяемый объект, который содержит эффективные свойства форматирования текстового фрейма. |
-| [ITextHighlightingOptions](./itexthighlightingoptions) | Представляет параметры, которые можно использовать для выделения текста в текстовом фрейме. |
-| [ITextStyle](./itextstyle) | Свойства форматирования стиля текста. |
-| [ITextStyleEffectiveData](./itextstyleeffectivedata) | Неизменяемый объект, содержащий эффективные свойства стиля текста. |
-| [IThreeDFormat](./ithreedformat) | Представляет трехмерные свойства. |
-| [IThreeDFormatEffectiveData](./ithreedformateffectivedata) | Неизменяемый объект, представляющий эффективные свойства трехмерного форматирования. |
-| [IThreeDParamSource](./ithreedparamsource) | Вспомогательный интерфейс источника 3D-свойств |
+| [ITextFrameFormatEffectiveData](./itextframeformateffectivedata) | Невозможно изменить объект, который содержит эффективные свойства форматирования текстового фрейма. |
+| [ITextSearchOptions](./itextsearchoptions) | Представляет опции, которые могут быть использованы для поиска текста в Презентации, Слайде или TextFrame. |
+| [ITextStyle](./itextstyle) | Свойства форматирования текстового стиля. |
+| [ITextStyleEffectiveData](./itextstyleeffectivedata) | Невозможно изменить объект, который содержит эффективные свойства текстового стиля. |
+| [IThreeDFormat](./ithreedformat) | Представляет 3D свойства. |
+| [IThreeDFormatEffectiveData](./ithreedformateffectivedata) | Невозможно изменить объект, который представляет эффективные свойства форматирования 3D. |
+| [IThreeDParamSource](./ithreedparamsource) | Вспомогательный интерфейс для 3D свойств источника |
 | [IVideo](./ivideo) | Представляет видео, встроенное в презентацию. |
-| [IVideoCollection](./ivideocollection) | Представляет набор объектов Video. |
+| [IVideoCollection](./ivideocollection) | Представляет коллекцию объектов Video. |
 | [IVideoFrame](./ivideoframe) | Представляет видеоклип на слайде. |
-| [IViewProperties](./iviewproperties) | Свойства широкого представления презентации. |
+| [IViewProperties](./iviewproperties) | Свойства вида всей презентации. |
 | [IZoomFrame](./izoomframe) | Представляет объект Slide Zoom на слайде. |
 | [IZoomObject](./izoomobject) | Представляет объект Zoom на слайде. |
-## перечисление
+## Перечисления
 
-| перечисление | Описание |
+| Перечисление | Описание |
 | --- | --- |
-| [AudioPlayModePreset](./audioplaymodepreset) | Константы, определяющие способ воспроизведения звука. |
-| [AudioVolumeMode](./audiovolumemode) | Константы, определяющие громкость звука. |
+| [AudioPlayModePreset](./audioplaymodepreset) | Константы, которые определяют, как воспроизводится звук. |
+| [AudioVolumeMode](./audiovolumemode) | Константы, которые определяют громкость аудио. |
 | [BackgroundType](./backgroundtype) | Определяет источник заливки фона слайда. |
-| [BevelPresetType](./bevelpresettype) | Константы, определяющие трехмерный скос формы. |
-| [BlackWhiteMode](./blackwhitemode) | Определяет, как цветная форма должна быть преобразована в черно-белую. |
-| [BulletType](./bullettype) | Представляет тип расширенных пуль. |
-| [CameraPresetType](./camerapresettype) | Константы, определяющие тип пресета камеры. |
+| [BevelPresetType](./bevelpresettype) | Константы, которые определяют 3D-скос фигуры. |
+| [BlackWhiteMode](./blackwhitemode) | Определяет, как цветные фигуры должны быть преобразованы в черно-белые. |
+| [BulletType](./bullettype) | Представляет тип расширенных маркеров. |
+| [CameraPresetType](./camerapresettype) | Константы, которые определяют тип пресета камеры. |
 | [ColorSchemeIndex](./colorschemeindex) | Представляет индекс в цветовой схеме. |
 | [ColorStringFormat](./colorstringformat) | Представляет тип действия гиперссылки. |
 | [ColorTransformOperation](./colortransformoperation) | Определяет операцию преобразования цвета. |
-| [ColorType](./colortype) | Представляет различные цветовые режимы. |
-| [ControlType](./controltype) | Определяет тип элемента управления, который должен быть встроен[`AddControl`](../aspose.slides/icontrolcollection/addcontrol). |
-| [FillBlendMode](./fillblendmode) | Определяет режим наложения. |
-| [FillType](./filltype) | Определяет тип внутренней заливки различных визуальных объектов. |
+| [ColorType](./colortype) | Представляет различные режимы цвета. |
+| [ControlType](./controltype) | Определяет тип элемента управления, который должен быть встроен с помощью [`AddControl`](../aspose.slides/icontrolcollection/addcontrol). |
+| [EmbeddingLevel](./embeddinglevel) | Представляет права лицензирования для встраивания шрифта. |
+| [FillBlendMode](./fillblendmode) | Определяет режим смешивания. |
+| [FillType](./filltype) | Указывает внутренний тип заполнения различных визуальных объектов. |
 | [FontAlignment](./fontalignment) | Представляет вертикальное выравнивание шрифта. |
 | [FontCollectionIndex](./fontcollectionindex) | Представляет индекс шрифта в коллекции. |
-| [FontSubstCondition](./fontsubstcondition) | Представляет правило замены шрифта |
+| [FontSubstCondition](./fontsubstcondition) | Представляет правило замещения шрифта |
 | [GradientDirection](./gradientdirection) | Представляет стиль градиента. |
 | [GradientShape](./gradientshape) | Представляет форму градиентной заливки. |
+| [GradientStyle](./gradientstyle) | Представляет доступные стили градиента. |
 | [HyperlinkActionType](./hyperlinkactiontype) | Представляет тип действия гиперссылки. |
 | [HyperlinkColorSource](./hyperlinkcolorsource) | Представляет источник цвета гиперссылки. |
-| [LightingDirection](./lightingdirection) | Константы, определяющие направления света. |
-| [LightRigPresetType](./lightrigpresettype) | Константы, определяющие типы пресетов освещения. |
+| [ImageFormat](./imageformat) | Представляет формат файла изображения. |
+| [LightingDirection](./lightingdirection) | Константы, которые определяют направления света. |
+| [LightRigPresetType](./lightrigpresettype) | Константы, которые определяют типы пресетов света. |
 | [LineAlignment](./linealignment) | Представляет тип выравнивания линий. |
-| [LineArrowheadLength](./linearrowheadlength) | Представляет длину наконечника стрелки. |
-| [LineArrowheadStyle](./linearrowheadstyle) | Представляет стиль наконечника стрелки. |
-| [LineArrowheadWidth](./linearrowheadwidth) | Представляет ширину наконечника стрелки. |
-| [LineCapStyle](./linecapstyle) | Представляет стиль окончания строки. |
-| [LineDashStyle](./linedashstyle) | Представляет стиль пунктирной линии. |
+| [LineArrowheadLength](./linearrowheadlength) | Представляет длину стрелки. |
+| [LineArrowheadStyle](./linearrowheadstyle) | Представляет стиль стрелки. |
+| [LineArrowheadWidth](./linearrowheadwidth) | Представляет ширину стрелки. |
+| [LineCapStyle](./linecapstyle) | Представляет стиль капюшона линии. |
+| [LineDashStyle](./linedashstyle) | Представляет стиль переменной линий. |
 | [LineJoinStyle](./linejoinstyle) | Представляет стиль соединения линий. |
-| [LineSketchType](./linesketchtype) | Представляет, какой тип эскиза или эффект был назначен фигуре. |
+| [LineSketchType](./linesketchtype) | Представляет, какой тип наброска или эффекта была назначена фигуре. |
 | [LineStyle](./linestyle) | Представляет стиль линии. |
-| [LoadFormat](./loadformat) | Указывает формат загружаемого документа. |
-| [LoadingStreamBehavior](./loadingstreambehavior) | Stream, переданный методу, считается большим двоичным объектом (BLOB) (см. [`IBlobManagementOptions`](../aspose.slides/iblobmanagementoptions)описание). Значения этого перечисления определяют, как следует обрабатыватьStreamпри передаче в метод. В зависимости от требований могут быть приняты различные решения для обеспечения наиболее эффективного поведения. |
-| [MaterialPresetType](./materialpresettype) | Константы, определяющие материал формы. |
+| [LoadFormat](./loadformat) | Указывает формат документа, который нужно загрузить. |
+| [LoadingStreamBehavior](./loadingstreambehavior) | Поток, переданный методу, считается бинарным большим объектом (BLOB) (см. описание [`IBlobManagementOptions`](../aspose.slides/iblobmanagementoptions)). Значения этого перечисления определяют, как поток должен обрабатываться, когда он передается методу. В зависимости от требований могут быть приняты различные решения для обеспечения наиболее эффективного поведения. |
+| [MaterialPresetType](./materialpresettype) | Константы, которые определяют материал фигуры. |
 | [ModernCommentStatus](./moderncommentstatus) | Представляет статус современного комментария. |
-| [NullableBool](./nullablebool) | Представляет три логических значения. |
+| [NullableBool](./nullablebool) | Представляет тройные логические значения. |
 | [NumberedBulletStyle](./numberedbulletstyle) | Представляет стиль пронумерованных маркеров. |
 | [Orientation](./orientation) | Представляет ориентацию фигуры. |
 | [PathCommandType](./pathcommandtype) | Представляет команды графического пути |
-| [PathFillModeType](./pathfillmodetype) | Задает способ заполнения пути |
-| [PatternStyle](./patternstyle) | Представляет стиль шаблона. |
+| [PathFillModeType](./pathfillmodetype) | Указывает, как путь должен быть заполнен |
+| [PatternStyle](./patternstyle) | Представляет стиль узора. |
 | [PersistenceType](./persistencetype) | Указывает метод, используемый для хранения свойств элемента управления ActiveX. |
-| [PictureFillMode](./picturefillmode) | Определяет, как изображение будет заполнять область. |
+| [PictureFillMode](./picturefillmode) | Определяет, как картинка займет область. |
 | [PlaceholderSize](./placeholdersize) | Представляет размер заполнителя. |
 | [PlaceholderType](./placeholdertype) | Представляет тип заполнителя. |
-| [PPImageFormat](./ppimageformat) | Форматы изображений. Это перечисление заменяет класс` System.Drawing.Imaging.ImageFormat` . Это необходимо для COM-совместимости. |
-| [PresentationLockingBehavior](./presentationlockingbehavior) | Представляет поведение в отношении обработки[`IPresentation`](../aspose.slides/ipresentation)источника (файла или Stream) при загрузке и работе с экземпляром[`IPresentation`](../aspose.slides/ipresentation).  Источник — это параметр, передаваемый конструктору[`IPresentation`](../aspose.slides/ipresentation). В приведенном ниже примере источником является файл "pres.pptx":  &lt;code&gt; LoadOptions loadOptions = new LoadOptions { BlobManagementOptions = { PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked } }; using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { } &lt;/code&gt; В этом примере источник (файл "pres.pptx") будет заблокирован на время жизни экземпляра[`IPresentation`](../aspose.slides/ipresentation) , т.е. быть изменены или удалены другим процессом. |
-| [PresetColor](./presetcolor) | Представляет предопределенные предустановки цвета. |
+| [PPImageFormat](./ppimageformat) | Форматы изображений. Этот перечисление является заменой для класса `System.Drawing.Imaging.ImageFormat`. Он необходим для совместимости с COM. |
+| [PresentationLockingBehavior](./presentationlockingbehavior) | Представляет поведение по отношению к источнику [`IPresentation`](../aspose.slides/ipresentation) (файл или поток) во время загрузки и работы с экземпляром [`IPresentation`](../aspose.slides/ipresentation). |
+| [PresetColor](./presetcolor) | Представляет предопределенные цветовые пресеты. |
 | [PresetShadowType](./presetshadowtype) | Представляет пресет для эффекта тени. |
-| [RectangleAlignment](./rectanglealignment) | Определяет двухмерное выравнивание. |
-| [ResourceLoadingAction](./resourceloadingaction) | Задает режим загрузки внешних ресурсов. |
+| [RectangleAlignment](./rectanglealignment) | Определяет 2-мерное выравнивание. |
+| [ResourceLoadingAction](./resourceloadingaction) | Указывает режим загрузки внешнего ресурса. |
 | [SchemeColor](./schemecolor) | Представляет цвета в цветовой схеме. |
-| [ShapeElementFillSource](./shapeelementfillsource) | Представляет, как должен быть заполнен элемент формы. |
-| [ShapeElementStrokeSource](./shapeelementstrokesource) | Представляет, как должен быть нарисован элемент формы. |
-| [ShapesAlignmentType](./shapesalignmenttype) | Определяет способ изменения размещения выбранных фигур на слайде. |
-| [ShapeThumbnailBounds](./shapethumbnailbounds) | Перечисление типов границ миниатюр фигур. |
+| [ShapeAdjustmentType](./shapeadjustmenttype) | Указывает различные типы значений настройки фигуры. |
+| [ShapeElementFillSource](./shapeelementfillsource) | Представляет, как элемент фигуры должен быть заполнен. |
+| [ShapeElementStrokeSource](./shapeelementstrokesource) | Представляет, как элемент фигуры должен быть нарисован. |
+| [ShapesAlignmentType](./shapesalignmenttype) | Определяет способ изменения размещения выделенных фигур на слайде. |
+| [ShapeThumbnailBounds](./shapethumbnailbounds) | Перечисление типов границ миниатюр фигуры. |
 | [ShapeType](./shapetype) | Представляет предустановленную геометрию геометрических фигур. |
 | [SlideLayoutType](./slidelayouttype) | Представляет тип макета слайда. |
 | [SlideOrientation](./slideorientation) | Представляет ориентацию слайда. |
 | [SlideSizeScaleType](./slidesizescaletype) | Представляет тип масштаба содержимого слайда. |
-| [SlideSizeType](./slidesizetype) | Представляет предустановку размера слайда. |
+| [SlideSizeType](./slidesizetype) | Представляет предустановленный размер слайда. |
 | [SourceFormat](./sourceformat) | Представляет формат исходного файла. |
-| [SplitterBarStateType](./splitterbarstatetype) | Определяет состояние, в котором должна отображаться полоса разделения. Полоса разделения разделяет основную и вторичную области в области просмотра. |
-| [SystemColor](./systemcolor) | Представляет предварительно определенные системные цвета. |
+| [SplitterBarStateType](./splitterbarstatetype) | Указывает состояние, в котором должна отображаться разделительная панель. Разделительная панель разделяет основную и вторичную области внутри окна. |
+| [SystemColor](./systemcolor) | Представляет предопределенные системные цвета. |
 | [TabAlignment](./tabalignment) | Представляет выравнивание табуляции. |
 | [TableStylePreset](./tablestylepreset) | Представляет встроенные стили таблиц. |
 | [TextAlignment](./textalignment) | Представляет различные стили выравнивания текста. |
-| [TextAnchorType](./textanchortype) | выравнивание текстового поля внутри текстовой области. |
-| [TextAutofitType](./textautofittype) | Представляет режим автоподбора текста. |
-| [TextCapType](./textcaptype) | Представляет тип капитализации текста. |
-| [TextExtractionArrangingMode](./textextractionarrangingmode) | Представляет режим, используемый при извлечении текста |
-| [TextShapeType](./textshapetype) | Представляет форму переноса текста. |
+| [TextAnchorType](./textanchortype) | Выравнивание текстового блока внутри текстовой области. |
+| [TextAutofitType](./textautofittype) | Представляет режим автозаполнения текста. |
+| [TextCapType](./textcaptype) | Представляет тип заглавных букв текста. |
+| [TextExtractionArrangingMode](./textextractionarrangingmode) | Представляет режим, используемый во время извлечения текста |
+| [TextShapeType](./textshapetype) | Представляет текстовую фигуру, обернутое в текст. |
 | [TextStrikethroughType](./textstrikethroughtype) | Представляет тип зачеркивания текста. |
 | [TextUnderlineType](./textunderlinetype) | Представляет тип подчеркивания текста. |
-| [TextVerticalOverflowType](./textverticaloverflowtype) | Представляет тип вертикального переполнения текста. |
-| [TextVerticalType](./textverticaltype) | Определяет вертикальный режим письма для текста. |
-| [TileFlip](./tileflip) | Определяет режим переворачивания плитки. |
-| [VideoPlayModePreset](./videoplaymodepreset) | Константы, определяющие способ воспроизведения видео. |
-| [ViewType](./viewtype) | Типы представлений |
-| [ZoomImageType](./zoomimagetype) | Определяет, использует ли объект Zoom предварительный просмотр слайда или обложку. |
-| [ZoomLayout](./zoomlayout) | Определяет макет сводного масштаба. |
+| [TextVerticalOverflowType](./textverticaloverflowtype) | Представляет тип переполнения текста по вертикали. |
+| [TextVerticalType](./textverticaltype) | Определяет вертикальный режим написания текста. |
+| [TileFlip](./tileflip) | Определяет режим переворота плитки. |
+| [VideoPlayModePreset](./videoplaymodepreset) | Константы, которые определяют, как воспроизводится видео. |
+| [ViewType](./viewtype) | Типы представлений презентации |
+| [ZoomImageType](./zoomimagetype) | Определяет, использует ли объект Zoom предварительный просмотр слайда или изображение обложки. |
+| [ZoomLayout](./zoomlayout) | Указывает макет резюме увеличения. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

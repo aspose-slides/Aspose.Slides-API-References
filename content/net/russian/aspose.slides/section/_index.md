@@ -1,12 +1,13 @@
 ---
-title: Section
-second_title: Справочник по API Aspose.Slides для .NET
+title: Раздел
+second_title: Справка по API Aspose.Slides для .NET
 description: Представляет раздел слайдов.
 type: docs
-weight: 9020
+weight: 9480
 url: /ru/aspose.slides/section/
 ---
-## Section class
+
+## Класс Section
 
 Представляет раздел слайдов.
 
@@ -14,7 +15,7 @@ url: /ru/aspose.slides/section/
 public class Section : DomObject<SectionCollection>, ISection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
@@ -28,11 +29,11 @@ public class Section : DomObject<SectionCollection>, ISection
 | --- | --- |
 | [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | Возвращает список слайдов в разделе. |
 
-### Смотрите также
+### См. Также
 
-* class [DomObject&lt;TParent&gt;](../domobject-1)
-* class [SectionCollection](../sectioncollection)
-* interface [ISection](../isection)
+* класс [DomObject&lt;TParent&gt;](../domobject-1)
+* класс [SectionCollection](../sectioncollection)
+* интерфейс [ISection](../isection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

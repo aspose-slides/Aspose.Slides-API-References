@@ -1,22 +1,23 @@
 ---
 title: ActualMaxValue
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает фактическое максимальное значение на оси. Вызовите метод IChart.ValidateChartLayout ранее чтобы получить фактическое значение.
+second_title: Aspose.Slides для .NET API Справка
+description: Указывает фактическое максимальное значение на оси. Сначала вызовите метод IChart.ValidateChartLayout, чтобы получить фактическое значение.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/axis/actualmaxvalue/
 ---
-## Axis.ActualMaxValue property
 
-Указывает фактическое максимальное значение на оси. Вызовите метод IChart.ValidateChartLayout() ранее, чтобы получить фактическое значение.
+## Свойство Axis.ActualMaxValue
+
+Указывает фактическое максимальное значение на оси. Сначала вызовите метод IChart.ValidateChartLayout(), чтобы получить фактическое значение.
 
 ```csharp
 public double ActualMaxValue { get; }
 ```
 
-### Смотрите также
+### Также см. 
 
-* class [Axis](../../axis)
+* класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

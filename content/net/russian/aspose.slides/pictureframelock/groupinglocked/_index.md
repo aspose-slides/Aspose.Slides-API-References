@@ -1,22 +1,23 @@
 ---
 title: GroupingLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли добавление этой формы в группу. Чтение/записьBoolean.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Определяет, запрещено ли добавление этой фигуры в группу. Читаемое/записываемое логическое значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides/pictureframelock/groupinglocked/
 ---
-## PictureFrameLock.GroupingLocked property
 
-Определяет, запрещено ли добавление этой формы в группу. Чтение/записьBoolean.
+## PictureFrameLock.GroupingLocked свойство
+
+Определяет, запрещено ли добавление этой фигуры в группу. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool GroupingLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [PictureFrameLock](../../pictureframelock)
+* класс [PictureFrameLock](../../pictureframelock)
 * пространство имен [Aspose.Slides](../../pictureframelock)
 * сборка [Aspose.Slides](../../../)
 
