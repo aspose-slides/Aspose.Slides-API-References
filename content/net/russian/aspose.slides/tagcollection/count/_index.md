@@ -1,15 +1,14 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество тегов в коллекции. Только для чтения Int32.
+description: Возвращает количество тегов в коллекции. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/tagcollection/count/
 ---
+## TagCollection.Count property
 
-## Свойство TagCollection.Count
-
-Возвращает количество тегов в коллекции. Только для чтения Int32.
+Возвращает количество тегов в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
@@ -17,7 +16,7 @@ public int Count { get; }
 
 ### Смотрите также
 
-* класс [TagCollection](../../tagcollection)
+* class [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)
 * сборка [Aspose.Slides](../../../)
 

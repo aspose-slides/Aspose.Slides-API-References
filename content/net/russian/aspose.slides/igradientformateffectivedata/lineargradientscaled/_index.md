@@ -1,23 +1,22 @@
 ---
 title: LinearGradientScaled
-second_title: Aspose.Sildes для .NET Справочник API
-description: Определяет, масштабирован ли градиент. Только для чтения, логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет масштабируется ли градиент. Только чтениеBoolean.
 type: docs
 weight: 60
 url: /ru/aspose.slides/igradientformateffectivedata/lineargradientscaled/
 ---
+## IGradientFormatEffectiveData.LinearGradientScaled property
 
-## IGradientFormatEffectiveData.LinearGradientScaled свойство
-
-Определяет, масштабирован ли градиент. Только для чтения, логическое значение.
+Определяет, масштабируется ли градиент. Только чтениеBoolean.
 
 ```csharp
 public bool LinearGradientScaled { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IGradientFormatEffectiveData](../../igradientformateffectivedata)
+* interface [IGradientFormatEffectiveData](../../igradientformateffectivedata)
 * пространство имен [Aspose.Slides](../../igradientformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Сохранение
-second_title: Aspose.Slides для .NET API Reference
+title: Save
+second_title: Справочник по API Aspose.Slides для .NET
 description: Сохраняет все слайды презентации в файл указанного формата.
 type: docs
-weight: 370
+weight: 340
 url: /ru/aspose.slides/ipresentation/save/
 ---
-
 ## Save(string, SaveFormat) {#save_5}
 
-Сохраняет все слайды презентации в файл с указанным форматом.
+Сохраняет все слайды презентации в файл указанного формата.
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -20,12 +19,12 @@ public void Save(string fname, SaveFormat format)
 | fname | String | Путь к созданному файлу. |
 | format | SaveFormat | Формат экспортируемых данных. |
 
-### См. также
+### Смотрите также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* пространство имен [Aspose.Slides](../../ipresentation)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
@@ -42,18 +41,18 @@ public void Save(Stream stream, SaveFormat format)
 | stream | Stream | Выходной поток. |
 | format | SaveFormat | Формат экспортируемых данных. |
 
-### См. также
+### Смотрите также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* пространство имен [Aspose.Slides](../../ipresentation)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-Сохраняет все слайды презентации в файл с указанным форматом и дополнительными опциями.
+Сохраняет все слайды презентации в файл заданного формата и с дополнительными параметрами.
 
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
@@ -65,19 +64,19 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 | format | SaveFormat | Формат экспортируемых данных. |
 | options | ISaveOptions | Дополнительные параметры формата. |
 
-### См. также
+### Смотрите также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* пространство имен [Aspose.Slides](../../ipresentation)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Сохраняет все слайды презентации в поток в указанном формате и с дополнительными опциями.
+Сохраняет все слайды презентации в поток в указанном формате и с дополнительными параметрами.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -93,15 +92,15 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | Если вы пытаетесь сохранить зашифрованный файл в формате, отличном от Office 2007-2010 |
+| NotSupportedException | Если вы попытаетесь сохранить зашифрованный файл в формате none Office 2007-2010 |
 
-### См. также
+### Смотрите также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* пространство имен [Aspose.Slides](../../ipresentation)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
@@ -116,23 +115,23 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fname | String | Путь к созданному файлу. |
-| slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
-| format | SaveFormat | Формат экспортируемых данных. |
+| slides | Int32[] | Массив позиций слайдов, начиная с 1. |
+| format | SaveFormat | Формат экспортируемых данных . |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Когда параметр stream или slides равен null. |
-| ArgumentOutOfRangeException | Когда параметр slides содержит неверные номера страниц. |
-| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | Когда параметр потока или слайдов имеет значение null. |
+| ArgumentOutOfRangeException | Когда параметр слайдов содержит неверные номера страниц. |
+| InvalidOperationException | Когда используется неподдерживаемый формат сохранения, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### См. также
+### Смотрите также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* пространство имен [Aspose.Slides](../../ipresentation)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
@@ -147,25 +146,25 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fname | String | Путь к созданному файлу. |
-| slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
-| format | SaveFormat | Формат экспортируемых данных. |
+| slides | Int32[] | Массив позиций слайдов, начиная с 1. |
+| format | SaveFormat | Формат экспортируемых данных . |
 | options | ISaveOptions | Дополнительные параметры формата. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Когда параметр stream или slides равен null. |
-| ArgumentOutOfRangeException | Когда параметр slides содержит неверные номера страниц. |
-| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | Когда параметр потока или слайдов имеет значение null. |
+| ArgumentOutOfRangeException | Когда параметр слайдов содержит неверные номера страниц. |
+| InvalidOperationException | Когда используется неподдерживаемый формат сохранения, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### См. также
+### Смотрите также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* пространство имен [Aspose.Slides](../../ipresentation)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
@@ -180,23 +179,23 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Выходной поток. |
-| slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
-| format | SaveFormat | Формат экспортируемых данных. |
+| slides | Int32[] | Массив позиций слайдов, начиная с 1. |
+| format | SaveFormat | Формат экспортируемых данных . |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Когда параметр stream или slides равен null. |
-| ArgumentOutOfRangeException | Когда параметр slides содержит неверные номера страниц. |
-| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | Когда параметр потока или слайдов имеет значение null. |
+| ArgumentOutOfRangeException | Когда параметр слайдов содержит неверные номера страниц. |
+| InvalidOperationException | Когда используется неподдерживаемый формат сохранения, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### См. также
+### Смотрите также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* пространство имен [Aspose.Slides](../../ipresentation)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
@@ -211,31 +210,31 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Выходной поток. |
-| slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
-| format | SaveFormat | Формат экспортируемых данных. |
+| slides | Int32[] | Массив позиций слайдов, начиная с 1. |
+| format | SaveFormat | Формат экспортируемых данных . |
 | options | ISaveOptions | Дополнительные параметры формата. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Когда параметр stream или slides равен null. |
-| ArgumentOutOfRangeException | Когда параметр slides содержит неверные номера страниц. |
-| InvalidOperationException | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | Когда параметр потока или слайдов имеет значение null. |
+| ArgumentOutOfRangeException | Когда параметр слайдов содержит неверные номера страниц. |
+| InvalidOperationException | Когда используется неподдерживаемый формат сохранения, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### См. также
+### Смотрите также
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* пространство имен [Aspose.Slides](../../ipresentation)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-Сохраняет все слайды презентации в набор файлов, представляющих XAML разметку.
+Сохраняет все слайды презентации в набор файлов, представляющих разметку XAML.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -255,11 +254,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
 * interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
 * interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* пространство имен [Aspose.Slides](../../ipresentation)
+* сборка [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

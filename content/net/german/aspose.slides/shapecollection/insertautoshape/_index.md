@@ -1,15 +1,14 @@
 ---
 title: InsertAutoShape
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt ein neues AutoShape, passt es von der Standardvorlage an und fügt es in die Sammlung an dem angegebenen Index ein. Beachten Sie, dass der Typ der Form durch den Parameter shapeType bestimmt wird.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Erstellt eine neue AutoForm stimmt sie aus der Standardvorlage ab und fügt sie in die Sammlung am angegebenen Index ein. Hinweis Der Typ der Form wird durch den Parameter shapeType bestimmt.
 type: docs
 weight: 300
 url: /de/aspose.slides/shapecollection/insertautoshape/
 ---
-
 ## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
-Erstellt ein neues AutoShape, passt es von der Standardvorlage an und fügt es in die Sammlung an dem angegebenen Index ein. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
+Erstellt eine neue AutoForm, stimmt sie aus der Standardvorlage ab und fügt sie in die Sammlung am angegebenen Index ein. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -19,9 +18,9 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index, an dem der Wert eingefügt werden soll. |
-| shapeType | ShapeType | Ein [`ShapeType`](../../shapetype) der Form. |
-| x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
-| y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| shapeType | ShapeType | Ein[`ShapeType`](../../shapetype) von Form. |
+| x | Single | Die X-Koordinate für eine linke Seite des Rahmens der Form. |
+| y | Single | Die Y-Koordinate für eine Oberseite des Rahmens der Form. |
 | width | Single | Die Breite des Rahmens der Form. |
 | height | Single | Die Höhe des Rahmens der Form. |
 
@@ -31,17 +30,17 @@ Erstelltes AutoShape-Objekt.
 
 ### Siehe auch
 
-* Schnittstelle [IAutoShape](../../iautoshape)
-* Aufzählung [ShapeType](../../shapetype)
-* Klasse [ShapeCollection](../../shapecollection)
-* Namespace [Aspose.Slides](../../shapecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IAutoShape](../../iautoshape)
+* enum [ShapeType](../../shapetype)
+* class [ShapeCollection](../../shapecollection)
+* namensraum [Aspose.Slides](../../shapecollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
 
-Erstellt ein neues AutoShape und fügt es in die Sammlung an dem angegebenen Index ein. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
+Erstellt eine neue AutoForm und fügt sie am angegebenen Index in die Sammlung ein. Hinweis: Der Typ der Form wird durch den Parameter shapeType bestimmt.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -51,12 +50,12 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index, an dem der Wert eingefügt werden soll. |
-| shapeType | ShapeType | Ein [`ShapeType`](../../shapetype) der Form. |
-| x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
-| y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| shapeType | ShapeType | Ein[`ShapeType`](../../shapetype) von Form. |
+| x | Single | Die X-Koordinate für eine linke Seite des Rahmens der Form. |
+| y | Single | Die Y-Koordinate für eine Oberseite des Rahmens der Form. |
 | width | Single | Die Breite des Rahmens der Form. |
 | height | Single | Die Höhe des Rahmens der Form. |
-| createFromTemplate | Boolean | Wenn wahr, wird die neue Form von der Standardvorlage angepasst. Ein nicht leerer Name, einfacher Stil, zentrierter Text wird der neuen Form zugewiesen. Wenn falsch, haben alle Werte der Eigenschaften der neuen Form Standardwerte. |
+| createFromTemplate | Boolean | Wenn wahr, dann wird die neue Form von der Standardvorlage angepasst. Nicht leerer Name, einfacher Stil, Text zentriert wird der neuen Form zugewiesen. Wenn falsch, dann haben alle Werte der Eigenschaften der neuen Form Standardwerte. |
 
 ### Rückgabewert
 
@@ -64,10 +63,10 @@ Erstelltes AutoShape-Objekt.
 
 ### Siehe auch
 
-* Schnittstelle [IAutoShape](../../iautoshape)
-* Aufzählung [ShapeType](../../shapetype)
-* Klasse [ShapeCollection](../../shapecollection)
-* Namespace [Aspose.Slides](../../shapecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IAutoShape](../../iautoshape)
+* enum [ShapeType](../../shapetype)
+* class [ShapeCollection](../../shapecollection)
+* namensraum [Aspose.Slides](../../shapecollection)
+* Montage [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

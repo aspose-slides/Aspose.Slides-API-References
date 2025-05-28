@@ -1,13 +1,12 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Aspose.Slides для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Этот класс позволяет экспортировать видео и аудио файлы в HTML
 type: docs
-weight: 4390
+weight: 4150
 url: /ru/aspose.slides.export/videoplayerhtmlcontroller/
 ---
-
-## Класс VideoPlayerHtmlController
+## VideoPlayerHtmlController class
 
 Этот класс позволяет экспортировать видео и аудио файлы в HTML
 
@@ -17,13 +16,13 @@ public class VideoPlayerHtmlController : IVideoPlayerHtmlController
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | Создает новый экземпляр контроллера |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IVideoPlayerHtmlController](../ivideoplayerhtmlcontroller)
+* interface [IVideoPlayerHtmlController](../ivideoplayerhtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

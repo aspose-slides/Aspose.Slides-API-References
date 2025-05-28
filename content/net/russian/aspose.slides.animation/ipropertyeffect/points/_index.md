@@ -1,24 +1,23 @@
 ---
-title: Точки
-second_title: Справочник API Aspose.Slides для .NET
-description: Определяет точки анимации. Чтение/запись IPointCollectionaspose.slides.animation/ipointcollection.
+title: Points
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет точки анимации. Чтение/записьIPointCollectionaspose.slides.animation/ipointcollection.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/ipropertyeffect/points/
 ---
+## IPropertyEffect.Points property
 
-## Свойство IPropertyEffect.Points
-
-Определяет точки анимации. Чтение/запись [`IPointCollection`](../../ipointcollection).
+Определяет точки анимации. Чтение/запись[`IPointCollection`](../../ipointcollection).
 
 ```csharp
 public IPointCollection Points { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPointCollection](../../ipointcollection)
-* интерфейс [IPropertyEffect](../../ipropertyeffect)
+* interface [IPointCollection](../../ipointcollection)
+* interface [IPropertyEffect](../../ipropertyeffect)
 * пространство имен [Aspose.Slides.Animation](../../ipropertyeffect)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: OutputSaver
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет собой реализацию интерфейса IOutputSaver.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет реализацию интерфейса IOutputSaver.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export.xaml/ixamloptions/outputsaver/
 ---
+## IXamlOptions.OutputSaver property
 
-## IXamlOptions.OutputSaver свойство
-
-Представляет собой реализацию интерфейса IOutputSaver.
+Представляет реализацию интерфейса IOutputSaver.
 
 ```csharp
 public IXamlOutputSaver OutputSaver { get; set; }
@@ -17,8 +16,8 @@ public IXamlOutputSaver OutputSaver { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IXamlOutputSaver](../../ixamloutputsaver)
-* интерфейс [IXamlOptions](../../ixamloptions)
+* interface [IXamlOutputSaver](../../ixamloutputsaver)
+* interface [IXamlOptions](../../ixamloptions)
 * пространство имен [Aspose.Slides.Export.Xaml](../../ixamloptions)
 * сборка [Aspose.Slides](../../../)
 

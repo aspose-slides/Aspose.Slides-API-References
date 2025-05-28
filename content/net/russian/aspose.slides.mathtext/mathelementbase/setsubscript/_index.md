@@ -1,15 +1,14 @@
 ---
 title: SetSubscript
-second_title: Aspose.Slildes для справки по API .NET
-description: Создает нижний индекс
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает индекс
 type: docs
 weight: 130
 url: /ru/aspose.slides.mathtext/mathelementbase/setsubscript/
 ---
-
 ## SetSubscript(IMathElement) {#setsubscript}
 
-Создает нижний индекс
+Создает индекс
 
 ```csharp
 public IMathSubscriptElement SetSubscript(IMathElement subscript)
@@ -17,11 +16,11 @@ public IMathSubscriptElement SetSubscript(IMathElement subscript)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| subscript | IMathElement | Нижний индекс (нижний индекс справа) |
+| subscript | IMathElement | Индекс (нижний индекс справа) |
 
 ### Возвращаемое значение
 
-Новый математический элемент типа [`IMathSubscriptElement`](../../imathsubscriptelement)
+Новый математический элемент типа[`IMathSubscriptElement`](../../imathsubscriptelement)
 
 ### Примеры
 
@@ -34,11 +33,11 @@ IMathElement index = new MathematicalText("i");
 IMathSubscriptElement subscript = element.SetSubscript(index);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathSubscriptElement](../../imathsubscriptelement)
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathElementBase](../../mathelementbase)
+* interface [IMathSubscriptElement](../../imathsubscriptelement)
+* interface [IMathElement](../../imathelement)
+* class [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 
@@ -46,7 +45,7 @@ IMathSubscriptElement subscript = element.SetSubscript(index);
 
 ## SetSubscript(string) {#setsubscript_1}
 
-Создает нижний индекс
+Создает индекс
 
 ```csharp
 public IMathSubscriptElement SetSubscript(string subscript)
@@ -54,11 +53,11 @@ public IMathSubscriptElement SetSubscript(string subscript)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| subscript | String | Нижний индекс (нижний индекс справа) |
+| subscript | String | Индекс (нижний индекс справа) |
 
 ### Возвращаемое значение
 
-Новый математический элемент типа [`IMathSubscriptElement`](../../imathsubscriptelement)
+Новый математический элемент типа[`IMathSubscriptElement`](../../imathsubscriptelement)
 
 ### Примеры
 
@@ -70,10 +69,10 @@ IMathElement element = new MathematicalText("N");
 IMathSubscriptElement subscript = element.SetSubscript("i");
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathSubscriptElement](../../imathsubscriptelement)
-* класс [MathElementBase](../../mathelementbase)
+* interface [IMathSubscriptElement](../../imathsubscriptelement)
+* class [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 

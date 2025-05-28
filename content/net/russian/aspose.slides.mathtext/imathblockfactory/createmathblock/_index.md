@@ -1,12 +1,11 @@
 ---
 title: CreateMathBlock
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создать математический блок
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathblockfactory/createmathblock/
 ---
-
 ## CreateMathBlock() {#createmathblock}
 
 Создать математический блок
@@ -15,14 +14,14 @@ url: /ru/aspose.slides.mathtext/imathblockfactory/createmathblock/
 public IMathBlock CreateMathBlock()
 ```
 
-### Return Value
+### Возвращаемое значение
 
 новый математический блок
 
-### See Also
+### Смотрите также
 
-* интерфейс [IMathBlock](../../imathblock)
-* интерфейс [IMathBlockFactory](../../imathblockfactory)
+* interface [IMathBlock](../../imathblock)
+* interface [IMathBlockFactory](../../imathblockfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathblockfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -30,7 +29,7 @@ public IMathBlock CreateMathBlock()
 
 ## CreateMathBlock(IMathElement) {#createmathblock_1}
 
-Создать математический блок и поместить элемент в него
+Создайте математический блок и поместите в него элемент
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElement mathElement)
@@ -40,15 +39,15 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 | --- | --- | --- |
 | mathElement | IMathElement | Математический элемент |
 
-### Return Value
+### Возвращаемое значение
 
 новый математический блок
 
-### See Also
+### Смотрите также
 
-* интерфейс [IMathBlock](../../imathblock)
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathBlockFactory](../../imathblockfactory)
+* interface [IMathBlock](../../imathblock)
+* interface [IMathElement](../../imathelement)
+* interface [IMathBlockFactory](../../imathblockfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathblockfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -56,7 +55,7 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 
 ## CreateMathBlock(IMathElementCollection) {#createmathblock_2}
 
-Создать математический блок и поместить элементы в него
+Создать математический блок и поместить в него элементы
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
@@ -64,17 +63,17 @@ public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElements | IMathElementCollection | математические элементы |
+| mathElements | IMathElementCollection | math элементы |
 
-### Return Value
+### Возвращаемое значение
 
 новый математический блок
 
-### See Also
+### Смотрите также
 
-* интерфейс [IMathBlock](../../imathblock)
-* интерфейс [IMathElementCollection](../../imathelementcollection)
-* интерфейс [IMathBlockFactory](../../imathblockfactory)
+* interface [IMathBlock](../../imathblock)
+* interface [IMathElementCollection](../../imathelementcollection)
+* interface [IMathBlockFactory](../../imathblockfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathblockfactory)
 * сборка [Aspose.Slides](../../../)
 

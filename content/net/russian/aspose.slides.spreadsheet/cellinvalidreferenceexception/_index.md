@@ -1,15 +1,14 @@
 ---
 title: CellInvalidReferenceException
-second_title: Aspose.Sildes для .NET API Справка
-description: Исключение, выбрасываемое при обнаружении недопустимой ссылки на ячейку.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Исключение возникающее при обнаружении недопустимой ссылки на ячейку.
 type: docs
-weight: 10410
+weight: 9910
 url: /ru/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
+## CellInvalidReferenceException class
 
-## Класс CellInvalidReferenceException
-
-Исключение, выбрасываемое при обнаружении недопустимой ссылки на ячейку.
+Исключение, возникающее при обнаружении недопустимой ссылки на ячейку.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
@@ -19,20 +18,20 @@ public class CellInvalidReferenceException : PptxEditException
 
 | Имя | Описание |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Инициализирует новый экземпляр класса [`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Инициализирует новый экземпляр класса [`CellInvalidReferenceException`](../cellinvalidreferenceexception) с заданным сообщением об ошибке. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса [`CellInvalidReferenceException`](../cellinvalidreferenceexception) с заданным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../cellcircularreferenceexception) с заданным сообщением об ошибке и недопустимой ссылкой на ячейку. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Инициализирует новый экземпляр класса[`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`CellInvalidReferenceException`](../cellinvalidreferenceexception)с указанным сообщением об ошибке. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`CellInvalidReferenceException`](../cellinvalidreferenceexception)с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Инициализирует новый экземпляр класса[`CellCircularReferenceException`](../cellcircularreferenceexception)с указанным сообщением об ошибке и недопустимая ссылка на ячейку. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | Получает недопустимую ссылку на ячейку. |
 
-### См. Также
+### Смотрите также
 
-* класс [PptxEditException](../../aspose.slides/pptxeditexception)
+* class [PptxEditException](../../aspose.slides/pptxeditexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)
 * сборка [Aspose.Slides](../../)
 

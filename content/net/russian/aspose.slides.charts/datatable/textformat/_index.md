@@ -1,24 +1,23 @@
 ---
 title: TextFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает формат текста. Только для чтения IChartTextFormataspose.slides.charts/icharttextformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает текстовый формат. Только чтениеIChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/datatable/textformat/
 ---
+## DataTable.TextFormat property
 
-## Свойство DataTable.TextFormat
-
-Возвращает формат текста. Только для чтения [`IChartTextFormat`](../../icharttextformat).
+Возвращает текстовый формат. Только чтение[`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartTextFormat](../../icharttextformat)
-* класс [DataTable](../../datatable)
+* interface [IChartTextFormat](../../icharttextformat)
+* class [DataTable](../../datatable)
 * пространство имен [Aspose.Slides.Charts](../../datatable)
 * сборка [Aspose.Slides](../../../)
 

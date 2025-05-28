@@ -1,23 +1,22 @@
 ---
 title: AspectRatioLocked
-second_title: Aspose.Slides для .NET Справочник API
-description: Определяет, должен ли объект сохранять аспектное соотношение при изменении размера. Свойство для чтения/записи типа Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/igroupshapelock/aspectratiolocked/
 ---
+## IGroupShapeLock.AspectRatioLocked property
 
-## IGroupShapeLock.AspectRatioLocked свойство
-
-Определяет, должен ли объект сохранять аспектное соотношение при изменении размера. Свойство для чтения/записи типа Boolean.
+Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean.
 
 ```csharp
 public bool AspectRatioLocked { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGroupShapeLock](../../igroupshapelock)
+* interface [IGroupShapeLock](../../igroupshapelock)
 * пространство имен [Aspose.Slides](../../igroupshapelock)
 * сборка [Aspose.Slides](../../../)
 

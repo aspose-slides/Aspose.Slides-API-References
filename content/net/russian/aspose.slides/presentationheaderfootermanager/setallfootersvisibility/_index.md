@@ -1,15 +1,14 @@
 ---
 title: SetAllFootersVisibility
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Изменяет видимость всех заполнителей нижних колонтитулов, включая слайды мастер-шаблонов, макеты слайдов, слайды, мастер-заметки, заметки слайдов и мастер-раздаточных материалов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Изменяет видимость всех заполнителей нижнего колонтитула включая мастер-слайды макеты слайдов слайды мастер заметок слайды заметок и мастер раздаточных материалов.
 type: docs
 weight: 40
 url: /ru/aspose.slides/presentationheaderfootermanager/setallfootersvisibility/
 ---
+## PresentationHeaderFooterManager.SetAllFootersVisibility method
 
-## Метод PresentationHeaderFooterManager.SetAllFootersVisibility
-
-Изменяет видимость всех заполнителей нижних колонтитулов, включая слайды мастер-шаблонов, макеты слайдов, слайды, мастер-заметки, заметки слайдов и мастер-раздаточных материалов.
+Изменяет видимость всех заполнителей нижнего колонтитула, включая мастер-слайды, макеты слайдов, слайды, мастер заметок, слайды заметок и мастер раздаточных материалов.
 
 ```csharp
 public void SetAllFootersVisibility(bool isVisible)
@@ -17,11 +16,11 @@ public void SetAllFootersVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнители нижних колонтитулов видимыми, в противном случае - скрывает их. |
+| isVisible | Boolean | true - делает заполнители нижнего колонтитула видимыми, иначе - скрывает их. |
 
-### См. также
+### Смотрите также
 
-* класс [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
+* class [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * пространство имен [Aspose.Slides](../../presentationheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

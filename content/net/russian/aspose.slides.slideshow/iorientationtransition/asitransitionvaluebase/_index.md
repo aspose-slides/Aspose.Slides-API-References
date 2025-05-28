@@ -1,24 +1,23 @@
 ---
 title: AsITransitionValueBase
-second_title: Aspose.Slides для .NET API Справочник
-description: Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтенияITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /ru/aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase/
 ---
+## IOrientationTransition.AsITransitionValueBase property
 
-## IOrientationTransition.AsITransitionValueBase свойство
-
-Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../../itransitionvaluebase).
+Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../../itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase AsITransitionValueBase { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ITransitionValueBase](../../itransitionvaluebase)
-* интерфейс [IOrientationTransition](../../iorientationtransition)
+* interface [ITransitionValueBase](../../itransitionvaluebase)
+* interface [IOrientationTransition](../../iorientationtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../iorientationtransition)
 * сборка [Aspose.Slides](../../../)
 

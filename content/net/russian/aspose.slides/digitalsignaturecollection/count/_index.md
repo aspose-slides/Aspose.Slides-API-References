@@ -1,15 +1,14 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество элементов в коллекции. Только для чтения Int32.
+description: Возвращает количество элементов в коллекции. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/digitalsignaturecollection/count/
 ---
+## DigitalSignatureCollection.Count property
 
-## Свойство DigitalSignatureCollection.Count
-
- Возвращает количество элементов в коллекции. Только для чтения Int32.
+Возвращает количество элементов в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
@@ -17,7 +16,7 @@ public int Count { get; }
 
 ### Смотрите также
 
-* класс [DigitalSignatureCollection](../../digitalsignaturecollection)
+* class [DigitalSignatureCollection](../../digitalsignaturecollection)
 * пространство имен [Aspose.Slides](../../digitalsignaturecollection)
 * сборка [Aspose.Slides](../../../)
 

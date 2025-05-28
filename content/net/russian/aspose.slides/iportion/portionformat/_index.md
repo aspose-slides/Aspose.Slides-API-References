@@ -1,15 +1,14 @@
 ---
 title: PortionFormat
-second_title: Aspose.Slides для справочника API .NET
-description: Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения IPortionFormataspose.slides/iportionformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает объект форматирования который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтенияIPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iportion/portionformat/
 ---
+## IPortion.PortionFormat property
 
-## Свойство IPortion.PortionFormat
-
-Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения [`IPortionFormat`](../../iportionformat).
+Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения[`IPortionFormat`](../../iportionformat).
 
 ```csharp
 public IPortionFormat PortionFormat { get; }
@@ -17,14 +16,14 @@ public IPortionFormat PortionFormat { get; }
 
 ### Примечания
 
-Объект форматирования содержит параметры форматирования, определенные только для текущей части, унаследованные данные не применяются.
+ОФ содержит параметры форматирования, определенные только для текущей части, унаследованные данные не применяются .
 
-Для получения эффективных значений, включая унаследованные, используйте метод [`GetEffective`](../../iportionformat/geteffective).
+Для получения действующих значений, включая унаследованные, используйте метод[`GetEffective`](../../iportionformat/geteffective).
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPortionFormat](../../iportionformat)
-* интерфейс [IPortion](../../iportion)
+* interface [IPortionFormat](../../iportionformat)
+* interface [IPortion](../../iportion)
 * пространство имен [Aspose.Slides](../../iportion)
 * сборка [Aspose.Slides](../../../)
 

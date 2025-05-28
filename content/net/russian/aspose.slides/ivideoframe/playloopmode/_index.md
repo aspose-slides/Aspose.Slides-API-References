@@ -1,23 +1,22 @@
 ---
 title: PlayLoopMode
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, зациклен ли видео. Читаемое/изменяемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет зациклено ли видео. Чтение/записьBoolean.
 type: docs
-weight: 70
+weight: 60
 url: /ru/aspose.slides/ivideoframe/playloopmode/
 ---
+## IVideoFrame.PlayLoopMode property
 
-## Свойство IVideoFrame.PlayLoopMode
-
-Определяет, зациклен ли видео. Читаемое/изменяемое логическое значение.
+Определяет, зациклено ли видео. Чтение/записьBoolean.
 
 ```csharp
 public bool PlayLoopMode { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IVideoFrame](../../ivideoframe)
+* interface [IVideoFrame](../../ivideoframe)
 * пространство имен [Aspose.Slides](../../ivideoframe)
 * сборка [Aspose.Slides](../../../)
 

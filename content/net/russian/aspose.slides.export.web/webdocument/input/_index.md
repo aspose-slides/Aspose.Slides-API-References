@@ -1,21 +1,21 @@
 ---
-title: Ввод
+title: Input
 second_title: Справочник по API Aspose.Slides для .NET
-description: type docs
+description: 
+type: docs
 weight: 30
 url: /ru/aspose.slides.export.web/webdocument/input/
 ---
-
-## Свойство WebDocument.Input
+## WebDocument.Input property
 
 ```csharp
 public Input Input { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Input](../../input)
-* класс [WebDocument](../../webdocument)
+* class [Input](../../input)
+* class [WebDocument](../../webdocument)
 * пространство имен [Aspose.Slides.Export.Web](../../webdocument)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,24 +1,23 @@
 ---
 title: ThreeDFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает 3D-формат. Только для чтения IThreeDFormatEffectiveDataaspose.slides/ithreedformateffectivedata.
+description: Возвращает формат 3D. Только для чтенияIThreeDFormatEffectiveDataaspose.slides/ithreedformateffectivedata.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/ieffectstyleeffectivedata/threedformat/
 ---
+## IEffectStyleEffectiveData.ThreeDFormat property
 
-## Свойство IEffectStyleEffectiveData.ThreeDFormat
-
-Возвращает 3D-формат. Только для чтения [`IThreeDFormatEffectiveData`](../../../aspose.slides/ithreedformateffectivedata).
+Возвращает формат 3D. Только для чтения[`IThreeDFormatEffectiveData`](../../../aspose.slides/ithreedformateffectivedata).
 
 ```csharp
 public IThreeDFormatEffectiveData ThreeDFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IThreeDFormatEffectiveData](../../../aspose.slides/ithreedformateffectivedata)
-* интерфейс [IEffectStyleEffectiveData](../../ieffectstyleeffectivedata)
+* interface [IThreeDFormatEffectiveData](../../../aspose.slides/ithreedformateffectivedata)
+* interface [IEffectStyleEffectiveData](../../ieffectstyleeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../ieffectstyleeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

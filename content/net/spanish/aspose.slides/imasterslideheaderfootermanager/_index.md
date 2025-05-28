@@ -1,15 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: Referencia API de Aspose.Slides para .NET
-description: Representa al gerente que sostiene el comportamiento de los marcadores de posición del pie de página de la diapositiva maestra, la fecha-hora, el número de página y todos los marcadores de posición hijos. Los marcadores de posición hijos significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y en las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas utilizan y dependen de la diapositiva maestra.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Representa el administrador que mantiene el comportamiento del pie de página de la diapositiva maestra fecha y hora marcadores de posición de número de página y todos los marcadores de posición secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas usan y dependen del patrón diapositiva.
 type: docs
-weight: 6240
+weight: 5880
 url: /es/aspose.slides/imasterslideheaderfootermanager/
 ---
+## IMasterSlideHeaderFooterManager interface
 
-## Interfaz IMasterSlideHeaderFooterManager
-
-Representa al gerente que sostiene el comportamiento del pie de página de la diapositiva maestra, la fecha-hora, los marcadores de posición del número de página y todos los marcadores de posición hijos. Los marcadores de posición hijos significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y en las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas utilizan y dependen de la diapositiva maestra.
+Representa el administrador que mantiene el comportamiento del pie de página de la diapositiva maestra, fecha y hora, marcadores de posición de número de página y todos los marcadores de posición secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas usan y dependen del patrón diapositiva.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -25,16 +24,16 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Establece el texto en el marcador de posición de fecha-hora de la diapositiva maestra y en todos los marcadores de posición de fecha-hora hijos. Los marcadores de posición hijos significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y en las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas utilizan y dependen de la diapositiva maestra. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Cambia la visibilidad del marcador de posición de fecha-hora de la diapositiva maestra y de todos los marcadores de posición de fecha-hora hijos. Los marcadores de posición hijos significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y en las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas utilizan y dependen de la diapositiva maestra. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Establece el texto en el marcador de posición del pie de página de la diapositiva maestra y en todos los marcadores de posición del pie de página hijos. Los marcadores de posición hijos significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y en las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas utilizan y dependen de la diapositiva maestra. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Cambia la visibilidad del marcador de posición del pie de página de la diapositiva maestra y de todos los marcadores de posición del pie de página hijos. Los marcadores de posición hijos significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y en las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas utilizan y dependen de la diapositiva maestra. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Cambia la visibilidad del marcador de posición del número de página de la diapositiva maestra y de todos los marcadores de posición del número de página hijos. Los marcadores de posición hijos significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y en las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas utilizan y dependen de la diapositiva maestra. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Establece el texto en el marcador de posición de fecha y hora de la diapositiva maestra y todos los marcadores de posición de fecha y hora secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y en las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas usan y dependen de la diapositiva maestra. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Cambia el marcador de posición de fecha y hora de la diapositiva maestra y la visibilidad de todos los marcadores de posición de fecha y hora secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en diapositivas de diseño dependientes y diapositivas dependientes. Las diapositivas de diseño dependientes y el uso de diapositivas y dependen de la diapositiva maestra. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Establece el texto en el marcador de posición del pie de página de la diapositiva principal y todos los marcadores de posición del pie de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas usan y dependen de la diapositiva maestra. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Cambia el marcador de posición de pie de página de la diapositiva maestra y la visibilidad de todos los marcadores de posición de pie de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en diapositivas de diseño dependientes y diapositivas dependientes. Las diapositivas de diseño dependientes y el uso de diapositivas y dependen de la diapositiva maestra. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Cambia el marcador de posición de número de página de la diapositiva maestra y la visibilidad de todos los marcadores de posición de número de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en diapositivas de diseño dependientes y diapositivas dependientes. Las diapositivas de diseño dependientes y el uso de diapositivas y dependen de la diapositiva maestra. |
 
-### Vea También
+### Ver también
 
-* interfaz [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
+* interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* asamblea [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

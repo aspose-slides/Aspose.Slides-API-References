@@ -1,23 +1,22 @@
 ---
-title: Скрытый
+title: Hidden
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, скрыт ли указанный слайд во время демонстрации слайдов. Доступно для чтения/записи Boolean.
+description: Определяет будет ли указанный слайд скрыт во время показа слайдов. Чтение/записьBoolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/slide/hidden/
 ---
+## Slide.Hidden property
 
-## Свойство Slide.Hidden
-
-Определяет, скрыт ли указанный слайд во время демонстрации слайдов. Доступно для чтения/записи Boolean.
+Определяет, будет ли указанный слайд скрыт во время показа слайдов. Чтение/записьBoolean.
 
 ```csharp
 public bool Hidden { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Slide](../../slide)
+* class [Slide](../../slide)
 * пространство имен [Aspose.Slides](../../slide)
 * сборка [Aspose.Slides](../../../)
 

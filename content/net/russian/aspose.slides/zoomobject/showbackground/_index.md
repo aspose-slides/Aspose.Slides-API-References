@@ -1,15 +1,14 @@
 ---
 title: ShowBackground
-second_title: Aspose.Slides для .NET API Reference
-description: Получает или задает значение, указывающее, будет ли Зум использовать фон целевого слайда. Читаемое/Записываемое логическое значение. Значение по умолчанию true
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает или задает значение указывающее будет ли Zoom использовать фон целевого слайда. Чтение/записьBoolean. Значение по умолчаниюtrue
 type: docs
-weight: 30
+weight: 40
 url: /ru/aspose.slides/zoomobject/showbackground/
 ---
+## ZoomObject.ShowBackground property
 
-## ZoomObject.ShowBackground свойство
-
-Получает или задает значение, указывающее, будет ли Зум использовать фон целевого слайда. Читаемое/Записываемое логическое значение. Значение по умолчанию: true
+Получает или задает значение, указывающее, будет ли Zoom использовать фон целевого слайда. Чтение/записьBoolean. Значение по умолчанию:true
 
 ```csharp
 public bool ShowBackground { get; set; }
@@ -17,7 +16,7 @@ public bool ShowBackground { get; set; }
 
 ### Примеры
 
-пример демонстрирует удаление фона изображения объекта Зума:
+пример демонстрирует удаление фона изображения объекта Zoom:
 
 ```csharp
 [C#]
@@ -28,9 +27,9 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [ZoomObject](../../zoomobject)
+* class [ZoomObject](../../zoomobject)
 * пространство имен [Aspose.Slides](../../zoomobject)
 * сборка [Aspose.Slides](../../../)
 

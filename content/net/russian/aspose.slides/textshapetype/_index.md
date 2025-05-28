@@ -1,64 +1,63 @@
 ---
 title: TextShapeType
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет форму для обертывания текста.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет форму переноса текста.
 type: docs
-weight: 10670
+weight: 10170
 url: /ru/aspose.slides/textshapetype/
 ---
+## TextShapeType enumeration
 
-## Перечисление TextShapeType
-
-Представляет форму для обертывания текста.
+Представляет форму переноса текста.
 
 ```csharp
 public enum TextShapeType : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` | Не определено |
 | None | `0` | Нет формы |
-| Plain | `1` | Простой |
-| Stop | `2` | Знак Стоп |
+| Plain | `1` | Обычная |
+| Stop | `2` | Знак "Стоп" |
 | Triangle | `3` | Треугольник |
 | TriangleInverted | `4` | Перевернутый треугольник |
-| Chevron | `5` | Уголок |
-| ChevronInverted | `6` | Перевернутый уголок |
+| Chevron | `5` | Шеврон |
+| ChevronInverted | `6` | Перевернутый шеврон |
 | RingInside | `7` | Внутреннее кольцо |
 | RingOutside | `8` | Внешнее кольцо |
-| ArchUp | `9` | Восходящая арка |
-| ArchDown | `10` | Нисходящая арка |
+| ArchUp | `9` | Арка вверх |
+| ArchDown | `10` | Арка вниз |
 | Circle | `11` | Круг |
 | Button | `12` | Кнопка |
-| ArchUpPour | `13` | Восходящая арка излияния |
-| ArchDownPour | `14` | Нисходящая арка излияния |
-| CirclePour | `15` | Излияние круга |
-| ButtonPour | `16` | Излияние кнопки |
+| ArchUpPour | `13` | Арка заливки вверх |
+| ArchDownPour | `14` | Арка заливки вниз |
+| CirclePour | `15` | Круговая заливка |
+| ButtonPour | `16` | Кнопка заливки |
 | CurveUp | `17` | Восходящая кривая |
 | CurveDown | `18` | Нисходящая кривая |
-| CanUp | `19` | Восходящая банка |
-| CanDown | `20` | Нисходящая банка |
+| CanUp | `19` | Банка вверх |
+| CanDown | `20` | Банка вниз |
 | Wave1 | `21` | Волна 1 |
 | Wave2 | `22` | Волна 2 |
 | DoubleWave1 | `23` | Двойная волна 1 |
 | Wave4 | `24` | Волна 4 |
-| Inflate | `25` | Надувание |
-| Deflate | `26` | Сдувание |
-| InflateBottom | `27` | Надувание снизу |
-| DeflateBottom | `28` | Сдувание снизу |
-| InflateTop | `29` | Надувание сверху |
-| DeflateTop | `30` | Сдувание сверху |
-| DeflateInflate | `31` | Сдувание-Надувание |
+| Inflate | `25` | Надуть |
+| Deflate | `26` | Выкачать |
+| InflateBottom | `27` | Нижняя накачка |
+| DeflateBottom | `28` | Нижний выпуск |
+| InflateTop | `29` | Верхнее раздувание |
+| DeflateTop | `30` | Верхняя дефляция |
+| DeflateInflate | `31` | Выкачать-Надуть |
 | DeflateInflateDeflate | `32` | Сдувание-Надувание-Сдувание |
-| FadeRight | `33` | Исчезание вправо |
-| FadeLeft | `34` | Исчезание влево |
-| FadeUp | `35` | Восходящее исчезание |
-| FadeDown | `36` | Нисходящее исчезание |
-| SlantUp | `37` | Восходящий наклон |
-| SlantDown | `38` | Нисходящий наклон |
+| FadeRight | `33` | Исчезновение вправо |
+| FadeLeft | `34` | Исчезновение влево |
+| FadeUp | `35` | Исчезновение вверх |
+| FadeDown | `36` | Исчезновение вниз |
+| SlantUp | `37` | Наклон вверх |
+| SlantDown | `38` | Наклон вниз |
 | CascadeUp | `39` | Восходящий каскад |
 | CascadeDown | `40` | Нисходящий каскад |
 | Custom | `41` | Пользовательский |

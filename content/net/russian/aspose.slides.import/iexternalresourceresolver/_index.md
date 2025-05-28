@@ -1,15 +1,14 @@
 ---
 title: IExternalResourceResolver
-second_title: Aspose.Slides для .NET API Справочник
-description: Интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов Html Svg.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Интерфейс обратного вызова используемый для разрешения внешних ресурсов при импорте документов Html Svg.
 type: docs
-weight: 7260
+weight: 6880
 url: /ru/aspose.slides.import/iexternalresourceresolver/
 ---
+## IExternalResourceResolver interface
 
-## Интерфейс IExternalResourceResolver
-
-Интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов Html, Svg.
+Интерфейс обратного вызова, используемый для разрешения внешних ресурсов при импорте документов Html, Svg.
 
 ```csharp
 public interface IExternalResourceResolver
@@ -19,10 +18,10 @@ public interface IExternalResourceResolver
 
 | Имя | Описание |
 | --- | --- |
-| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Связывает URI с объектом, содержащим фактический ресурс. |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Разрешает абсолютный URI на основе базового и относительного URI. |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Сопоставляет URI с объектом, содержащим фактический ресурс. |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Разрешает абсолютный URI из базового и относительного URI. |
 
-### Также см.
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Import](../../aspose.slides.import)
 * сборка [Aspose.Slides](../../)

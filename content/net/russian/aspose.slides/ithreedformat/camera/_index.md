@@ -1,24 +1,23 @@
 ---
-title: Камера
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или задает параметры камеры. Только для чтения ICameraaspose.slides/icamera.
+title: Camera
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает настройки камеры. Только для чтенияICameraaspose.slides/icamera.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ithreedformat/camera/
 ---
+## IThreeDFormat.Camera property
 
-## Свойство IThreeDFormat.Camera
-
-Возвращает или задает параметры камеры. Только для чтения [`ICamera`](../../icamera).
+Возвращает или устанавливает настройки камеры. Только для чтения[`ICamera`](../../icamera).
 
 ```csharp
 public ICamera Camera { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ICamera](../../icamera)
-* интерфейс [IThreeDFormat](../../ithreedformat)
+* interface [ICamera](../../icamera)
+* interface [IThreeDFormat](../../ithreedformat)
 * пространство имен [Aspose.Slides](../../ithreedformat)
 * сборка [Aspose.Slides](../../../)
 

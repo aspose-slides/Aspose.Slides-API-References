@@ -1,13 +1,12 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 50
 url: /ru/aspose.slides.theme/lineformatcollection/copyto/
 ---
-
-## Метод LineFormatCollection.CopyTo
+## LineFormatCollection.CopyTo method
 
 Копирует все элементы из коллекции в указанный массив.
 
@@ -20,9 +19,9 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в целевом массиве. |
 
-### См. также
+### Смотрите также
 
-* класс [LineFormatCollection](../../lineformatcollection)
+* class [LineFormatCollection](../../lineformatcollection)
 * пространство имен [Aspose.Slides.Theme](../../lineformatcollection)
 * сборка [Aspose.Slides](../../../)
 

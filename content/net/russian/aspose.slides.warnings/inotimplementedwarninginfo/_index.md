@@ -1,29 +1,28 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет предупреждение о известных не реализованных функциях, которые не будут реализованы в ближайшем будущем.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет собой предупреждение об известной не реализованной функции которая не будет реализована в ближайшем будущем.
 type: docs
-weight: 11460
+weight: 10960
 url: /ru/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
+## INotImplementedWarningInfo interface
 
-## Интерфейс INotImplementedWarningInfo
-
-Представляет предупреждение о известных не реализованных функциях, которые не будут реализованы в ближайшем будущем.
+Представляет собой предупреждение об известной не реализованной функции, которая не будет реализована в ближайшем будущем.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../iwarninginfo). |
 
 ### Смотрите также
 
-* интерфейс [IWarningInfo](../iwarninginfo)
+* interface [IWarningInfo](../iwarninginfo)
 * пространство имен [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * сборка [Aspose.Slides](../../)
 

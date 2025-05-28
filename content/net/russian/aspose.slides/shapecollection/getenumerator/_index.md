@@ -1,13 +1,12 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель, который перебирает коллекцию.
+description: Возвращает перечислитель который перебирает коллекцию.
 type: docs
 weight: 250
 url: /ru/aspose.slides/shapecollection/getenumerator/
 ---
-
-## Метод ShapeCollection.GetEnumerator
+## ShapeCollection.GetEnumerator method
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -17,12 +16,12 @@ public IEnumerator<IShape> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для перебора коллекции.
+AIEnumeratorкоторые можно использовать для перебора коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShape](../../ishape)
-* класс [ShapeCollection](../../shapecollection)
+* interface [IShape](../../ishape)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

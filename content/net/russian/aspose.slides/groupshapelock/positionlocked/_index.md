@@ -1,23 +1,22 @@
 ---
 title: PositionLocked
-second_title: Aspose.Slides для справки API .NET
-description: Определяет, запрещено ли перемещение этой фигуры. Read/write Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет запрещено ли перемещение этой фигуры. Чтение/записьBoolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides/groupshapelock/positionlocked/
 ---
+## GroupShapeLock.PositionLocked property
 
-## Свойство GroupShapeLock.PositionLocked
-
-Определяет, запрещено ли перемещение этой фигуры. Read/write Boolean.
+Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean.
 
 ```csharp
 public bool PositionLocked { get; set; }
 ```
 
-### Также см.
+### Смотрите также
 
-* класс [GroupShapeLock](../../groupshapelock)
+* class [GroupShapeLock](../../groupshapelock)
 * пространство имен [Aspose.Slides](../../groupshapelock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: ChartSeriesCollection
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente une collection de ChartSeries./chartseries
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente une collection deChartSeries./chartseries
 type: docs
-weight: 1370
+weight: 1330
 url: /fr/aspose.slides.charts/chartseriescollection/
 ---
+## ChartSeriesCollection class
 
-## Classe ChartSeriesCollection
-
-Représente une collection de [`ChartSeries`](../chartseries)
+Représente une collection de[`ChartSeries`](../chartseries)
 
 ```csharp
 public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
@@ -17,35 +16,35 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Renvoie le nombre d'objets dans la collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sûr pour les threads). Lecture seule Boolean. |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Renvoie un certain nombre d'objets dans la collection. Lecture seuleInt32 . |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seuleBoolean . |
 | [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Obtient l'élément à l'index spécifié. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seuleObject . |
 
 ## Méthodes
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Crée une nouvelle série de graphiques et l'ajoute à la collection. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Crée une nouvelle série de graphiques à partir de [`ChartCellCollection`](../chartcellcollection) et l'ajoute à la collection. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Crée une nouvelle série de graphiques à partir de [`ChartDataCell`](../chartdatacell) et l'ajoute à la collection. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Crée une nouvelle série de graphiques à partir de[`ChartCellCollection`](../chartcellcollection) et l'ajoute à la collection. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Crée une nouvelle série de graphiques à partir de[`ChartDataCell`](../chartdatacell) et l'ajoute à la collection. |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Crée une nouvelle série de graphiques à partir de la valeur et l'ajoute à la collection. |
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Supprime tous les contrôles de la collection. |
-| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Copie l'ensemble de la collection dans le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Recherche la [`ChartSeries`](../chartseries) spécifiée et renvoie l'index basé sur zéro de la première occurrence dans l'ensemble de la Collection |
+| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Copie toute la collection dans le tableau spécifié. |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Recherche le spécifié[`ChartSeries`](../chartseries) et renvoie l'index de base zéro de la première occurrence dans toute la Collection |
 | [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Crée une nouvelle série de graphiques et l'insère dans la collection. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Supprime la valeur spécifiée. |
 | [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Supprime un contrôle ActiveX stocké à la position spécifiée de la collection. |
 
-### Voir Aussi
+### Voir également
 
-* classe [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* classe [ChartData](../chartdata)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartData](../chartdata)
 * interface [IChartSeriesCollection](../ichartseriescollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

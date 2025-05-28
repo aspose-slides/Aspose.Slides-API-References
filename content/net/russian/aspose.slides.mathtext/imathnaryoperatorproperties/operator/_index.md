@@ -1,15 +1,14 @@
 ---
-title: Оператор
+title: Operator
 second_title: Справочник по API Aspose.Slides для .NET
-description: Символ N-арного оператора Например
+description: Nary Operator Character Например 
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathnaryoperatorproperties/operator/
 ---
+## IMathNaryOperatorProperties.Operator property
 
-## Свойство IMathNaryOperatorProperties.Operator
-
-Символ N-арного оператора Например: '∑', '∫'
+Nary Operator Character Например:'∑', '∫'
 
 ```csharp
 public char Operator { get; set; }
@@ -27,7 +26,7 @@ char operatorSymbol = naryOperator.Operator;
 
 ### Смотрите также
 
-* интерфейс [IMathNaryOperatorProperties](../../imathnaryoperatorproperties)
+* interface [IMathNaryOperatorProperties](../../imathnaryoperatorproperties)
 * пространство имен [Aspose.Slides.MathText](../../imathnaryoperatorproperties)
 * сборка [Aspose.Slides](../../../)
 

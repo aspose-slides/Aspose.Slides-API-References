@@ -1,49 +1,48 @@
 ---
 title: SectionCollection
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет коллекцию секций.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор разделов.
 type: docs
-weight: 9490
+weight: 9030
 url: /ru/aspose.slides/sectioncollection/
 ---
+## SectionCollection class
 
-## Класс SectionCollection
-
-Представляет коллекцию секций.
+Представляет набор разделов.
 
 ```csharp
 public sealed class SectionCollection : DomObject<Presentation>, ISectionCollection
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ISection`](../isection). |
-| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISection`](../isection). |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Добавляет пустую секцию в указанное положение коллекции. |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Добавляет секцию слайдов, начинающуюся с конкретного слайда. |
-| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Добавляет пустую секцию в конец коллекции. |
-| [Clear](../../aspose.slides/sectioncollection/clear)() | Убирает все секции из коллекции. |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Добавить пустой раздел в указанную позицию коллекции. |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Добавить раздел слайдов, начинающийся с определенного слайда. |
+| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Добавить пустой раздел в конец коллекции. |
+| [Clear](../../aspose.slides/sectioncollection/clear)() | Удаляет все разделы из коллекции. |
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Копирует всю коллекцию в указанный массив. |
 | [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Возвращает индекс указанной секции в коллекции. |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Убирает секцию. Слайды, содержащиеся в секции, будут объединены в предыдущую секцию. |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Убирает секцию и слайды, содержащиеся в секции. |
-| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Перемещает секцию и ее слайды из коллекции в указанное положение. |
+| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Возвращает индекс указанного раздела в коллекции. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Удалить раздел. Слайды, содержащиеся в этом разделе, будут объединены с предыдущим разделом. |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Удалить раздел и слайды, содержащиеся в разделе. |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Перемещает раздел и его слайды из коллекции в указанную позицию. |
 
-### См. также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../domobject-1)
-* класс [Presentation](../presentation)
-* интерфейс [ISectionCollection](../isectioncollection)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
+* interface [ISectionCollection](../isectioncollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

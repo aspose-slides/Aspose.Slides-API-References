@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides/izoomframe/asizoomobject/
 ---
-
-## Свойство IZoomFrame.AsIZoomObject
+## IZoomFrame.AsIZoomObject property
 
 Возвращает интерфейс IZoomObject.
 
@@ -17,12 +16,12 @@ public IZoomObject AsIZoomObject { get; }
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
 ### Смотрите также
 
-* интерфейс [IZoomObject](../../izoomobject)
-* интерфейс [IZoomFrame](../../izoomframe)
+* interface [IZoomObject](../../izoomobject)
+* interface [IZoomFrame](../../izoomframe)
 * пространство имен [Aspose.Slides](../../izoomframe)
 * сборка [Aspose.Slides](../../../)
 

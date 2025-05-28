@@ -1,13 +1,12 @@
 ---
 title: CreateColorReplace
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает эффект замены цвета.
 type: docs
 weight: 120
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/createcolorreplace/
 ---
-
-## ImageTransformOperationFactory.CreateColorReplace метод
+## ImageTransformOperationFactory.CreateColorReplace method
 
 Создает эффект замены цвета.
 
@@ -19,10 +18,10 @@ public IColorReplace CreateColorReplace()
 
 Эффект замены цвета.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IColorReplace](../../icolorreplace)
-* класс [ImageTransformOperationFactory](../../imagetransformoperationfactory)
+* interface [IColorReplace](../../icolorreplace)
+* class [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,24 +1,23 @@
 ---
 title: ParentSeries
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Получает родительскую серию. Только для чтения IChartSeriesaspose.slides.charts/ichartseries.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает родительский ряд. Только для чтенияIChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 80
+weight: 70
 url: /ru/aspose.slides.charts/datalabelcollection/parentseries/
 ---
+## DataLabelCollection.ParentSeries property
 
-## Свойство DataLabelCollection.ParentSeries
-
-Получает родительскую серию. Только для чтения [`IChartSeries`](../../ichartseries).
+Получает родительский ряд. Только для чтения[`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartSeries](../../ichartseries)
-* класс [DataLabelCollection](../../datalabelcollection)
+* interface [IChartSeries](../../ichartseries)
+* class [DataLabelCollection](../../datalabelcollection)
 * пространство имен [Aspose.Slides.Charts](../../datalabelcollection)
 * сборка [Aspose.Slides](../../../)
 

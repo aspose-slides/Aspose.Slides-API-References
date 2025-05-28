@@ -1,15 +1,14 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает данные об эффективном форматировании маркеров с применением наследования.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает эффективные данные форматирования маркеров с применением наследования.
 type: docs
 weight: 120
 url: /ru/aspose.slides/bulletformat/geteffective/
 ---
+## BulletFormat.GetEffective method
 
-## Метод BulletFormat.GetEffective
-
-Получает данные об эффективном форматировании маркеров с применением наследования.
+Получает эффективные данные форматирования маркеров с применением наследования.
 
 ```csharp
 public IBulletFormatEffectiveData GetEffective()
@@ -17,11 +16,11 @@ public IBulletFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
+A[`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение некоторых свойств эффективного форматирования маркеров.
+Этот пример демонстрирует получение некоторых эффективных свойств формата маркера.
 
 ```csharp
 [C#]
@@ -30,19 +29,19 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	IAutoShape shape = pres.Slides[0].Shapes[0] as IAutoShape;
 	IBulletFormatEffectiveData effectiveBulletFormat = shape.TextFrame.Paragraphs[0].ParagraphFormat.Bullet.GetEffective();
 
-	Console.WriteLine("Тип маркера: " + effectiveBulletFormat.Type);
+	Console.WriteLine("Bullet type: " + effectiveBulletFormat.Type);
 	if (effectiveBulletFormat.Type == BulletType.Numbered)
 	{
-	    Console.WriteLine("Номерованная стилистика: " + effectiveBulletFormat.NumberedBulletStyle);
-	    Console.WriteLine("Начальный номер: " + effectiveBulletFormat.NumberedBulletStartWith);
+	    Console.WriteLine("Numbered style: " + effectiveBulletFormat.NumberedBulletStyle);
+	    Console.WriteLine("Starting number: " + effectiveBulletFormat.NumberedBulletStartWith);
 	}
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
-* класс [BulletFormat](../../bulletformat)
+* interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
+* class [BulletFormat](../../bulletformat)
 * пространство имен [Aspose.Slides](../../bulletformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,24 +1,23 @@
 ---
 title: AsIComment
-second_title: Справка по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IComment. Только для чтения IComment aspose.slides/icomment.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IComment. Только для чтенияICommentaspose.slides/icomment.
 type: docs
 weight: 10
 url: /ru/aspose.slides/imoderncomment/asicomment/
 ---
+## IModernComment.AsIComment property
 
-## Свойство IModernComment.AsIComment
-
-Позволяет получить базовый интерфейс IComment. Только для чтения [`IComment`](../../icomment).
+Позволяет получить базовый интерфейс IComment. Только для чтения[`IComment`](../../icomment).
 
 ```csharp
 public IComment AsIComment { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IComment](../../icomment)
-* интерфейс [IModernComment](../../imoderncomment)
+* interface [IComment](../../icomment)
+* interface [IModernComment](../../imoderncomment)
 * пространство имен [Aspose.Slides](../../imoderncomment)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 70
 url: /ru/aspose.slides.animation/textanimationcollection/copyto/
 ---
-
-## Метод TextAnimationCollection.CopyTo
+## TextAnimationCollection.CopyTo method
 
 Копирует все элементы из коллекции в указанный массив.
 
@@ -20,9 +19,9 @@ public void CopyTo(Array array, int index)
 | array | Array | Массив для заполнения. |
 | index | Int32 | Начальная позиция в целевом массиве. |
 
-### См. также
+### Смотрите также
 
-* класс [TextAnimationCollection](../../textanimationcollection)
+* class [TextAnimationCollection](../../textanimationcollection)
 * пространство имен [Aspose.Slides.Animation](../../textanimationcollection)
 * сборка [Aspose.Slides](../../../)
 

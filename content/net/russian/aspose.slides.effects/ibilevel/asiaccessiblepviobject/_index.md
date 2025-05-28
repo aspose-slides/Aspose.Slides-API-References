@@ -1,25 +1,24 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides для .NET Справочник по API
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/ibilevel/asiaccessiblepviobject/
 ---
+## IBiLevel.AsIAccessiblePVIObject property
 
-## Свойство IBiLevel.AsIAccessiblePVIObject
-
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IBiLevelEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* интерфейс [IBiLevelEffectiveData](../../ibileveleffectivedata)
-* интерфейс [IBiLevel](../../ibilevel)
+* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* interface [IBiLevelEffectiveData](../../ibileveleffectivedata)
+* interface [IBiLevel](../../ibilevel)
 * пространство имен [Aspose.Slides.Effects](../../ibilevel)
 * сборка [Aspose.Slides](../../../)
 

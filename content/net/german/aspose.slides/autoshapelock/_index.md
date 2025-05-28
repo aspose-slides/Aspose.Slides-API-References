@@ -1,15 +1,14 @@
 ---
 title: AutoShapeLock
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, welche Operationen auf dem übergeordneten AutoshapeEx deaktiviert sind.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Legt fest welche Operationen auf dem übergeordneten AutoshapeEx deaktiviert sind.
 type: docs
-weight: 830
+weight: 810
 url: /de/aspose.slides/autoshapelock/
 ---
+## AutoShapeLock class
 
-## AutoShapeLock-Klasse
-
-Bestimmt, welche Operationen auf dem übergeordneten AutoshapeEx deaktiviert sind.
+Legt fest, welche Operationen auf dem übergeordneten AutoshapeEx deaktiviert sind.
 
 ```csharp
 public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
@@ -19,24 +18,24 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 | Name | Beschreibung |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Bestimmt, ob eine Änderung der Anpassungswerte verboten ist. Lese-/schreibbare boolesche Variable. |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Bestimmt, ob eine Änderung der Pfeilspitzen verboten ist. Lese-/schreibbare boolesche Variable. |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Bestimmt, ob eine Form ihr Seitenverhältnis beim Ändern der Größe beibehalten muss. Lese-/schreibbare boolesche Variable. |
-| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-/schreibbare boolesche Variable. |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/schreibbare boolesche Variable. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Gibt true zurück, wenn alle Sperrflags deaktiviert sind. Nur lesbare boolesche Variable. |
-| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Bestimmt, ob das Bewegen dieser Form verboten ist. Lese-/schreibbare boolesche Variable. |
-| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Bestimmt, ob eine Änderung des Drehwinkels dieser Form verboten ist. Lese-/schreibbare boolesche Variable. |
-| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/schreibbare boolesche Variable. |
-| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Bestimmt, ob eine Änderung des Formtyps verboten ist. Lese-/schreibbare boolesche Variable. |
-| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lese-/schreibbare boolesche Variable. |
-| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Bestimmt, ob das Bearbeiten von Text verboten ist. Lese-/schreibbare boolesche Variable. |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Legt fest, ob das Ändern von Einstellwerten verboten ist. Lesen/SchreibenBoolean . |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Legt fest, ob das Ändern von Pfeilspitzen verboten ist. Lesen/SchreibenBoolean . |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Legt fest, ob eine Form beim Ändern der Größe das Seitenverhältnis beibehalten muss. Lesen/SchreibenBoolean . |
+| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Legt fest, ob eine direkte Konturänderung dieser Form verboten ist. Lesen/SchreibenBoolean . |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Legt fest, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lesen/SchreibenBoolean . |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Gibt wahr zurück, wenn alle Sperr-Flags deaktiviert sind. SchreibgeschütztBoolean . |
+| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Legt fest, ob ein Verschieben dieser Form verboten ist. Lesen/SchreibenBoolean . |
+| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Legt fest, ob eine Änderung des Drehwinkels dieser Form verboten ist. Lesen/SchreibenBoolean . |
+| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Legt fest, ob eine Auswahl dieser Form verboten ist. Lesen/SchreibenBoolean . |
+| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Legt fest, ob das Ändern eines Formtyps verboten ist. Lesen/SchreibenBoolean . |
+| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Legt fest, ob eine Größenänderung dieser Form verboten ist. Lesen/SchreibenBoolean . |
+| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Legt fest, ob eine Textbearbeitung verboten ist. Lesen/SchreibenBoolean . |
 
 ### Siehe auch
 
-* Klasse [BaseShapeLock](../baseshapelock)
-* Schnittstelle [IAutoShapeLock](../iautoshapelock)
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* class [BaseShapeLock](../baseshapelock)
+* interface [IAutoShapeLock](../iautoshapelock)
+* namensraum [Aspose.Slides](../../aspose.slides)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

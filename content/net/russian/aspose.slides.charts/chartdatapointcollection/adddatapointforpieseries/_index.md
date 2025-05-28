@@ -1,15 +1,14 @@
 ---
 title: AddDataPointForPieSeries
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Pie, см. также метод IsChartTypePie aspose.slides.charts/charttypecharacterizer/ischarttypepie.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий тип диаграммы которых является одним из подтипов круговой диаграммы см. такжеIsChartTypePieaspose.slides.charts/charttypecharacterizer/ischarttypepieметод .
 type: docs
 weight: 190
 url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries/
 ---
-
 ## AddDataPointForPieSeries(IChartDataCell) {#adddatapointforpieseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Pie (см. также метод [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов круговой диаграммы (см. также[`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)метод) .
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
@@ -17,17 +16,17 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IChartDataCell | Значение точки данных |
+| значение | IChartDataCell | Точка данных Значение |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* класс [ChartDataPointCollection](../../chartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -35,7 +34,7 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 
 ## AddDataPointForPieSeries(double) {#adddatapointforpieseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Pie (см. также метод [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов круговой диаграммы (см. также[`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie)метод) .
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(double value)
@@ -43,16 +42,16 @@ public IChartDataPoint AddDataPointForPieSeries(double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | Double | Значение точки данных |
+| значение | Double | Точка данных Значение |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* класс [ChartDataPointCollection](../../chartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

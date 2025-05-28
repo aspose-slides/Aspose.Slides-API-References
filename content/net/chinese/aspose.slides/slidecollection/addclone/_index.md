@@ -1,12 +1,11 @@
 ---
 title: AddClone
-second_title: Aspose.Sildes for .NET API Reference
-description: 将指定幻灯片的副本添加到集合的末尾。
+second_title: Aspose.Slides for .NET API 参考
+description: 将指定幻灯片的副本添加到集合的末尾
 type: docs
 weight: 50
 url: /zh/aspose.slides/slidecollection/addclone/
 ---
-
 ## AddClone(ISlide) {#addclone}
 
 将指定幻灯片的副本添加到集合的末尾。
@@ -15,52 +14,45 @@ url: /zh/aspose.slides/slidecollection/addclone/
 public ISlide AddClone(ISlide sourceSlide)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceSlide | ISlide | 要克隆的幻灯片。 |
+| sourceSlide | ISlide | 滑动克隆。 |
 
 ### 返回值
 
 新幻灯片。
 
-### 备注
+### 评论
 
-在不同演示文稿之间克隆幻灯片时，幻灯片的母版也可以被克隆。内部注册表用于自动跟踪克隆的母版，以防止创建多个相同母版幻灯片的副本。手动克隆母版幻灯片不会被阻止或注册。如果您需要对克隆过程有更多控制，请使用 [`AddClone`](../addclone) 或 [`AddClone`](../addclone) 克隆幻灯片，使用 [`AddClone`](../../igloballayoutslidecollection/addclone) 或 [`AddClone`](../../igloballayoutslidecollection/addclone) 克隆布局，以及使用 [`AddClone`](../../imasterslidecollection/addclone) 克隆母版。
+在不同的演示文稿之间克隆幻灯片时，也可以克隆幻灯片的母版。 内部注册表用于跟踪自动克隆的母版，以防止创建 同一母版幻灯片的多个克隆。 不会阻止或注册手动克隆母版幻灯片。 如果您需要对克隆过程进行更多控制，请使用 [`AddClone`](../addclone)或 [`AddClone`](../addclone)用于克隆幻灯片， [`AddClone`](../../igloballayoutslidecollection/addclone)或 [`AddClone`](../../igloballayoutslidecollection/addclone)用于克隆布局和 [`AddClone`](../../imasterslidecollection/addclone)用于克隆大师。
 
-### 另见
+### 也可以看看
 
-* 接口 [ISlide](../../islide)
-* 类 [SlideCollection](../../slidecollection)
+* interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
 * 命名空间 [Aspose.Slides](../../slidecollection)
-* 程序集 [Aspose.Slides](../../../)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AddClone(ISlide, ISection) {#addclone_3}
 
-将指定幻灯片的副本添加到指定节的末尾。
+将指定幻灯片的副本添加到指定部分的末尾。
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide, ISection section)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceSlide | ISlide | 要克隆的幻灯片。 |
-| section | ISection | 新幻灯片的节。 |
+| sourceSlide | ISlide | 滑动克隆。 |
+| section | ISection | 新幻灯片的部分。 |
 
 ### 返回值
 
 新幻灯片。
 
-### 异常
-
-| 异常 | 条件 |
-| --- | --- |
-| ArgumentNullException |  |
-| [PptxEditException](../../pptxeditexception) |  |
-
-### 示例
+### 例子
 
 ```csharp
 [C#]
@@ -72,17 +64,17 @@ using (IPresentation presentation = new Presentation())
     ISection section2 = presentation.Sections.AppendEmptySection("Section 2");
     presentation.Slides.AddClone(presentation.Slides[0], section2);
     
-    // 现在第二节包含第一张幻灯片的副本。
+     // 现在第二部分包含第一张幻灯片的副本。
 }
 ```
 
-### 另见
+### 也可以看看
 
-* 接口 [ISlide](../../islide)
-* 接口 [ISection](../../isection)
-* 类 [SlideCollection](../../slidecollection)
+* interface [ISlide](../../islide)
+* interface [ISection](../../isection)
+* class [SlideCollection](../../slidecollection)
 * 命名空间 [Aspose.Slides](../../slidecollection)
-* 程序集 [Aspose.Slides](../../../)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
@@ -94,55 +86,55 @@ using (IPresentation presentation = new Presentation())
 public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceSlide | ISlide | 要克隆的幻灯片。 |
+| sourceSlide | ISlide | 滑动克隆。 |
 | destLayout | ILayoutSlide | 新幻灯片的布局幻灯片。 |
 
 ### 返回值
 
 新幻灯片。
 
-### 另见
+### 也可以看看
 
-* 接口 [ISlide](../../islide)
-* 接口 [ILayoutSlide](../../ilayoutslide)
-* 类 [SlideCollection](../../slidecollection)
+* interface [ISlide](../../islide)
+* interface [ILayoutSlide](../../ilayoutslide)
+* class [SlideCollection](../../slidecollection)
 * 命名空间 [Aspose.Slides](../../slidecollection)
-* 程序集 [Aspose.Slides](('../../../)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AddClone(ISlide, IMasterSlide, bool) {#addclone_2}
 
-将指定的源幻灯片的副本添加到集合的末尾。合适的布局将自动从指定的母版中选择（合适的布局是与源幻灯片的布局具有相同类型或名称的布局）。如果没有合适的布局，则幻灯片的布局将被克隆（如果 allowCloneMissingLayout 为 true）或将抛出 PptxEditException（如果 allowCloneMissingLayout 为 false）。
+将指定源幻灯片的副本添加到集合的末尾。 将自动从指定的 master 中选择适当的布局（适当的布局是与源幻灯片布局的 具有相同类型或名称的布局）。如果没有适当的布局，则源幻灯片的 布局将被克隆（如果 allowCloneMissingLayout 为真）或 PptxEditException 将被抛出（如果 allowCloneMissingLayout 是假的）。
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCloneMissingLayout)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceSlide | ISlide | 要克隆的幻灯片。 |
-| destMaster | IMasterSlide | 新幻灯片的母版。 |
-| allowCloneMissingLayout | Boolean | 如果指定的母版中没有合适的布局，则源幻灯片的布局将被克隆（如果 allowCloneMissingLayout 为 true）或将抛出 PptxEditException（如果 allowCloneMissingLayout 为 false）。 |
+| sourceSlide | ISlide | 滑动克隆。 |
+| destMaster | IMasterSlide | 新幻灯片的母版幻灯片。 |
+| allowCloneMissingLayout | Boolean | 如果指定母版中没有适当的布局，则将克隆 源幻灯片的布局（如果 allowCloneMissingLayout 为 true）或 PptxEditException 将被抛出（如果 allowCloneMissingLayout 为 false）。 |
 
 ### 返回值
 
 新幻灯片。
 
-### 异常
+### 例外
 
-| 异常 | 条件 |
+| 例外 | （健康）状况 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果指定的母版中没有合适的布局且 allowCloneMissingLayout 为 false，则抛出。 |
+| [PptxEditException](../../pptxeditexception) | 如果指定母版中没有适当的布局并且 allowCloneMissingLayout 为假。 |
 
-### 另见
+### 也可以看看
 
-* 接口 [ISlide](../../islide)
-* 接口 [IMasterSlide](../../imasterslide)
-* 类 [SlideCollection](../../slidecollection)
+* interface [ISlide](../../islide)
+* interface [IMasterSlide](../../imasterslide)
+* class [SlideCollection](../../slidecollection)
 * 命名空间 [Aspose.Slides](../../slidecollection)
-* 程序集 [Aspose.Slides](../../../)
+* 部件 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,12 +1,11 @@
 ---
 title: MoveTo
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Устанавливает позицию следующей точки.
 type: docs
 weight: 90
 url: /ru/aspose.slides/geometrypath/moveto/
 ---
-
 ## MoveTo(PointF) {#moveto_1}
 
 Устанавливает позицию следующей точки.
@@ -17,11 +16,11 @@ public void MoveTo(PointF point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | Позиция точки |
+| point | PointF | Положение точки |
 
-### См. также
+### Смотрите также
 
-* класс [GeometryPath](../../geometrypath)
+* class [GeometryPath](../../geometrypath)
 * пространство имен [Aspose.Slides](../../geometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -40,9 +39,9 @@ public void MoveTo(float x, float y)
 | x | Single | X координата точки |
 | y | Single | Y координата точки |
 
-### См. также
+### Смотрите также
 
-* класс [GeometryPath](../../geometrypath)
+* class [GeometryPath](../../geometrypath)
 * пространство имен [Aspose.Slides](../../geometrypath)
 * сборка [Aspose.Slides](../../../)
 

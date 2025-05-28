@@ -1,15 +1,14 @@
 ---
 title: HideBottom
-second_title: Aspose.Slides для .NET API Справочник
-description: Скрыть нижний край по умолчанию - ложный - указывает на скрытое или отображаемое состояние нижнего края границы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Hide Bottom Edge по умолчанию false - указывает скрытое или отображаемое состояние нижнего края рамки.
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathborderbox/hidebottom/
 ---
+## IMathBorderBox.HideBottom property
 
-## Свойство IMathBorderBox.HideBottom
-
-Скрыть нижний край (по умолчанию - ложный) - указывает на скрытое или отображаемое состояние нижнего края границы.
+Hide Bottom Edge (по умолчанию false) - указывает скрытое или отображаемое состояние нижнего края рамки.
 
 ```csharp
 public bool HideBottom { get; set; }
@@ -25,9 +24,9 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 borderBox.HideBottom = true;
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathBorderBox](../../imathborderbox)
+* interface [IMathBorderBox](../../imathborderbox)
 * пространство имен [Aspose.Slides.MathText](../../imathborderbox)
 * сборка [Aspose.Slides](../../../)
 

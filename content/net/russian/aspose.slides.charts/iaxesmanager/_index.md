@@ -1,31 +1,30 @@
 ---
 title: IAxesManager
-second_title: Aspose.Slides для .NET API Справочник
-description: Предоставляет доступ к осям графика.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Предоставляет доступ к осям диаграммы.
 type: docs
-weight: 1620
+weight: 1560
 url: /ru/aspose.slides.charts/iaxesmanager/
 ---
+## IAxesManager interface
 
-## Интерфейс IAxesManager
-
-Предоставляет доступ к осям графика.
+Предоставляет доступ к осям диаграммы.
 
 ```csharp
 public interface IAxesManager
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Получает горизонтальную ось графика. Только для чтения [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Получает вторичную горизонтальную ось графика. Только для чтения [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Получает вторичную вертикальную ось графика. Только для чтения [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Получает ось серии графика. Только для чтения [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Получает вертикальную ось графика. Только для чтения [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Получает горизонтальную ось диаграммы. Только для чтения[`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Получает дополнительную горизонтальную ось диаграммы. Только для чтения[`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Получает дополнительную вертикальную ось диаграммы. Только для чтения[`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Получает ось серии диаграммы. Только для чтения[`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Получает вертикальную ось диаграммы. Только для чтения[`IAxis`](../iaxis). |
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

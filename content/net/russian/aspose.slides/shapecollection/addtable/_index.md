@@ -1,15 +1,14 @@
 ---
 title: AddTable
-second_title: Aspose.Sildes для справки по API .NET
-description: Создает новую Таблицу и добавляет ее в конец коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новую таблицу и добавляет ее в конец коллекции.
 type: docs
 weight: 200
 url: /ru/aspose.slides/shapecollection/addtable/
 ---
+## ShapeCollection.AddTable method
 
-## Метод ShapeCollection.AddTable
-
-Создает новую Таблицу и добавляет ее в конец коллекции.
+Создает новую таблицу и добавляет ее в конец коллекции.
 
 ```csharp
 public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeights)
@@ -17,62 +16,19 @@ public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeig
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата для левой стороны рамки фигуры. |
-| y | Single | Y-координата для верхней стороны рамки фигуры. |
-| columnWidths | Double[] | Массив дробных чисел, представляющий ширины столбцов в таблице. |
-| rowHeights | Double[] | Массив дробных чисел, представляющий высоты строк в таблице. |
+| x | Single | Координата X для левой стороны рамки формы. |
+| y | Single | Y-координата верхней стороны рамки фигуры. |
+| columnWidths | Double[] | Массив двойных значений, представляющий ширину столбцов в таблице. |
+| rowHeights | Double[] | Массив двойных значений, представляющий высоту строк в таблице. |
 
 ### Возвращаемое значение
 
-Созданный объект Таблицы.
+Создан объект таблицы.
 
-### Примеры
+### Смотрите также
 
-Следующие примеры показывают, как добавить таблицу в презентацию PowerPoint.
-
-```csharp
-[C#]
-// Создание экземпляра класса Presentation, представляющего файл PPTX
-using (Presentation pres = new Presentation()){
-	// Доступ к первому слайду
-	ISlide sld = pres.Slides[0];
-	// Определяем столбцы с ширинами и строки с высотами
-	double[] dblCols = { 50, 50, 50 };
-	double[] dblRows = { 50, 30, 30, 30, 30 };
-	// Добавляем фигуру таблицы на слайд
-	ITable tbl = sld.Shapes.AddTable(100, 50, dblCols, dblRows);
-	// Устанавливаем формат границы для каждой ячейки
-	for (int row = 0; row < tbl.Rows.Count; row++)
-	{
-		for (int cell = 0; cell < tbl.Rows[row].Count; cell++)
-		{
-			tbl.Rows[row][cell].CellFormat.BorderTop.FillFormat.FillType = FillType.Solid;
-			tbl.Rows[row][cell].CellFormat.BorderTop.FillFormat.SolidFillColor.Color = Color.Red;
-			tbl.Rows[row][cell].CellFormat.BorderTop.Width = 5;
-			tbl.Rows[row][cell].CellFormat.BorderBottom.FillFormat.FillType = (FillType.Solid);
-			tbl.Rows[row][cell].CellFormat.BorderBottom.FillFormat.SolidFillColor.Color= Color.Red;
-			tbl.Rows[row][cell].CellFormat.BorderBottom.Width =5;
-			tbl.Rows[row][cell].CellFormat.BorderLeft.FillFormat.FillType = FillType.Solid;
-			tbl.Rows[row][cell].CellFormat.BorderLeft.FillFormat.SolidFillColor.Color =Color.Red;
-			tbl.Rows[row][cell].CellFormat.BorderLeft.Width = 5;
-			tbl.Rows[row][cell].CellFormat.BorderRight.FillFormat.FillType = FillType.Solid;
-			tbl.Rows[row][cell].CellFormat.BorderRight.FillFormat.SolidFillColor.Color = Color.Red;
-			tbl.Rows[row][cell].CellFormat.BorderRight.Width = 5;
-		}
-	}
-	// Объединяем ячейки 1 и 2 строки 1
-	tbl.MergeCells(tbl.Rows[0][0], tbl.Rows[1][1], false);
-	// Добавляем текст в объединенную ячейку
-	tbl.Rows[0][0].TextFrame.Text = "Объединенные ячейки";
-	// Сохраняем PPTX на диск
-	pres.Save("table.pptx", SaveFormat.Pptx);
-}
-```
-
-### См. также
-
-* интерфейс [ITable](../../itable)
-* класс [ShapeCollection](../../shapecollection)
+* interface [ITable](../../itable)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

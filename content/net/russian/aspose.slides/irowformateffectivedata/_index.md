@@ -1,33 +1,32 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
-description: Неизменяемый объект, который содержит свойства эффективного форматирования строк таблицы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект содержащий эффективные свойства форматирования строк таблицы.
 type: docs
-weight: 6680
+weight: 6320
 url: /ru/aspose.slides/irowformateffectivedata/
 ---
+## IRowFormatEffectiveData interface
 
-## Интерфейс IRowFormatEffectiveData
-
-Неизменяемый объект, который содержит свойства эффективного форматирования строк таблицы.
+Неизменяемый объект, содержащий эффективные свойства форматирования строк таблицы.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Примечания
 
-Этот интерфейс используется вместе с интерфейсом [`IRowFormat`](../irowformat) для возврата эффективных значений форматирования с применением наследования и стилей таблиц.
+Этот интерфейс используется вместе с[`IRowFormat`](../irowformat)Интерфейс для возврата эффективных значений форматирования с примененными стилями наследования и таблиц.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
+* interface [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

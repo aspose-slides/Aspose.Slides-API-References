@@ -1,15 +1,14 @@
 ---
 title: AsILayoutable
-second_title: Aspose.Slides для .NET Справочник по API
-description: Позволяет получить базовый интерфейс ILayoutable. Только для чтения ILayoutable aspose.slides.charts/ilayoutable.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс ILayoutable. Только для чтенияILayoutableaspose.slides.charts/ilayoutable.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ilegend/asilayoutable/
 ---
+## ILegend.AsILayoutable property
 
-## ILegend.AsILayoutable свойство
-
-Позволяет получить базовый интерфейс ILayoutable. Только для чтения [`ILayoutable`](../../ilayoutable).
+Позволяет получить базовый интерфейс ILayoutable. Только для чтения[`ILayoutable`](../../ilayoutable).
 
 ```csharp
 public ILayoutable AsILayoutable { get; }
@@ -17,8 +16,8 @@ public ILayoutable AsILayoutable { get; }
 
 ### Смотрите также
 
-* интерфейс [ILayoutable](../../ilayoutable)
-* интерфейс [ILegend](../../ilegend)
+* interface [ILayoutable](../../ilayoutable)
+* interface [ILegend](../../ilegend)
 * пространство имен [Aspose.Slides.Charts](../../ilegend)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: Id
-second_title: Aspose.Slides для .NET Справочник API
-description: Получает или устанавливает id для элемента tspan
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает или устанавливает идентификатор элемента tspan
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/isvgtspan/id/
 ---
+## ISvgTSpan.Id property
 
-## Свойство ISvgTSpan.Id
-
-Получает или устанавливает id для элемента "tspan"
+Получает или устанавливает идентификатор элемента "tspan"
 
 ```csharp
 public string Id { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISvgTSpan](../../isvgtspan)
+* interface [ISvgTSpan](../../isvgtspan)
 * пространство имен [Aspose.Slides.Export](../../isvgtspan)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: Размер
+title: Size
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает размер в пунктах. Присвоение любого значения сбрасывает свойство Typeaspose.slides/slidesize/type на Custom и устанавливает Orientationaspose.slides/slidesize/orientation. Чтение/запись SizeF.
+description: Возвращает или задает размер в пунктах.  Присвоение любого значения приведет к сбросуTypeaspose.slides/slidesize/type свойствоCustomи установитеOrientationaspose.slides/slidesize/orientation . Чтение/записьSizeF.
 type: docs
 weight: 20
 url: /ru/aspose.slides/slidesize/size/
 ---
+## SlideSize.Size property
 
-## Свойство SlideSize.Size
-
-Возвращает или устанавливает размер в пунктах. Присвоение любого значения сбрасывает свойство [`Type`](../type) на Custom и устанавливает [`Orientation`](../orientation). Чтение/запись SizeF.
+Возвращает или задает размер в пунктах.  Присвоение любого значения приведет к сбросу[`Type`](../type) свойствоCustomи установите[`Orientation`](../orientation) . Чтение/записьSizeF.
 
 ```csharp
 public SizeF Size { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [SlideSize](../../slidesize)
+* class [SlideSize](../../slidesize)
 * пространство имен [Aspose.Slides](../../slidesize)
 * сборка [Aspose.Slides](../../../)
 

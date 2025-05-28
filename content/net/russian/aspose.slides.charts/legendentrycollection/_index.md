@@ -1,13 +1,12 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет коллекцию легенд.
 type: docs
-weight: 2220
+weight: 2160
 url: /ru/aspose.slides.charts/legendentrycollection/
 ---
-
-## Класс LegendEntryCollection
+## LegendEntryCollection class
 
 Представляет коллекцию легенд.
 
@@ -15,16 +14,16 @@ url: /ru/aspose.slides.charts/legendentrycollection/
 public class LegendEntryCollection : ILegendEntryCollection
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Получает количество записей легенды. Только для чтения Int32. |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Получает свойства записи легенды, соответствующей Chart.ChartData.Series[0].DataPoints[index] в случае типов диаграмм из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующей Chart.ChartData.Series[index] для других типов диаграмм. |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Получает количество записей легенды. Только для чтенияInt32. |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Получает свойства записи легенды, соответствующей Chart.ChartData.Series[0].DataPoints[index] в случае типа диаграммы из этого list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующий Chart.ChartData.Series[index] для других типов диаграмм. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ILegendEntryCollection](../ilegendentrycollection)
+* interface [ILegendEntryCollection](../ilegendentrycollection)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

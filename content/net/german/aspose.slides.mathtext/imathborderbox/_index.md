@@ -1,15 +1,14 @@
 ---
 title: IMathBorderBox
-second_title: Aspose.Slides für .NET API-Referenz
-description: Zeichnet einen rechteckigen oder einen anderen Rahmen um das IMathElement.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Zeichnet einen rechteckigen oder anderen Rahmen um das IMathElement.
 type: docs
-weight: 7920
+weight: 7490
 url: /de/aspose.slides.mathtext/imathborderbox/
 ---
+## IMathBorderBox interface
 
-## IMathBorderBox-Schnittstelle
-
-Zeichnet einen rechteckigen oder einen anderen Rahmen um das IMathElement.
+Zeichnet einen rechteckigen oder anderen Rahmen um das IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -19,16 +18,16 @@ public interface IMathBorderBox : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Ermöglicht den Zugriff auf die grundlegende IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Ermöglicht das Abrufen von Basis-IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Basisargument |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Untere Kante ausblenden (Standard ist false) - gibt den versteckten oder angezeigten Status der unteren Kante des Rahmenfelds an. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Linke Kante ausblenden (Standard ist false) - gibt den versteckten oder angezeigten Status der linken Kante des Rahmenfelds an. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Rechte Kante ausblenden (Standard ist false) - gibt den versteckten oder angezeigten Status der rechten Kante des Rahmenfelds an. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Obere Kante ausblenden (Standard ist false) - gibt den versteckten oder angezeigten Status der oberen Kante des Rahmenfelds an. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Durchgestrichen von unten links nach oben rechts (Standard ist false). Gibt den versteckten oder angezeigten Status einer durchgestrichenen diagonalen Linie von der unteren linken Ecke zur oberen rechten Ecke des Rahmenfelds an. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Durchgestrichen horizontal (Standard ist false) - gibt den versteckten oder angezeigten Status einer durchgestrichenen horizontalen Linie an. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Durchgestrichen von oben links nach unten rechts (Standard ist false). Gibt den versteckten oder angezeigten Status einer durchgestrichenen diagonalen Linie von der oberen linken Ecke zur unteren rechten Ecke des Rahmenfelds an. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Durchgestrichen vertikal (Standard ist false) - gibt den versteckten oder angezeigten Status einer durchgestrichenen vertikalen Linie an. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Untere Kante ausblenden (Standard ist „false“) – gibt den ausgeblendeten oder angezeigten Zustand der unteren Kante des Rahmens an. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Hide Left Edge (der Standardwert ist „false“) – gibt den ausgeblendeten oder angezeigten Zustand des linken Rands des Rahmens an. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Rechte Kante ausblenden (Standard ist „false“) – gibt den ausgeblendeten oder angezeigten Zustand der rechten Kante des Rahmens an. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Obere Kante ausblenden (Standard ist „false“) – gibt den ausgeblendeten oder angezeigten Zustand der Oberkante des Rahmens an. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Von unten links nach oben rechts durchgestrichen (Standardwert ist „false“). Gibt den ausgeblendeten oder angezeigten Zustand einer durchgestrichenen diagonalen Linie von der unteren linken Ecke zur oberen rechten Ecke des Rahmenfelds an. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Durchgestrichene horizontale Linie (Standardeinstellung ist „false“) – gibt den ausgeblendeten oder angezeigten Zustand einer durchgestrichenen horizontalen Linie an. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Oben links durchgestrichen nach unten rechts (Standardwert ist „false“). Gibt den ausgeblendeten oder angezeigten Zustand einer durchgestrichenen diagonalen Linie von der oberen linken Ecke zur unteren rechten Ecke des Rahmenfelds an. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Durchgestrichene vertikale Linie (Standardeinstellung ist „false“) – gibt den ausgeblendeten oder angezeigten Zustand einer durchgestrichenen vertikalen Linie an. |
 
 ### Beispiele
 
@@ -41,8 +40,8 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 
 ### Siehe auch
 
-* Schnittstelle [IMathElement](../imathelement)
-* Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* Assembly [Aspose.Slides](../../)
+* interface [IMathElement](../imathelement)
+* namensraum [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

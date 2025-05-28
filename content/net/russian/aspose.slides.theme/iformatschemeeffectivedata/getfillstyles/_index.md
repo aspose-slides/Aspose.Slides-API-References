@@ -1,15 +1,14 @@
 ---
 title: GetFillStyles
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает коллекцию определенных темой стилей заливки.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает набор стилей заливки определенных темой.
 type: docs
 weight: 30
 url: /ru/aspose.slides.theme/iformatschemeeffectivedata/getfillstyles/
 ---
+## IFormatSchemeEffectiveData.GetFillStyles method
 
-## IFormatSchemeEffectiveData.GetFillStyles метод
-
-Возвращает коллекцию определенных темой стилей заливки.
+Возвращает набор стилей заливки, определенных темой.
 
 ```csharp
 public IFillFormatCollectionEffectiveData GetFillStyles(Color styleColor)
@@ -17,16 +16,16 @@ public IFillFormatCollectionEffectiveData GetFillStyles(Color styleColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| styleColor | Color | Цвет |
+| styleColor | Color | ColorColor |
 
 ### Возвращаемое значение
 
-Коллекция эффективных форматов заливки [`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
+Коллекция эффективных форматов заполнения[`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFillFormatCollectionEffectiveData](../../ifillformatcollectioneffectivedata)
-* интерфейс [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)
+* interface [IFillFormatCollectionEffectiveData](../../ifillformatcollectioneffectivedata)
+* interface [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../iformatschemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

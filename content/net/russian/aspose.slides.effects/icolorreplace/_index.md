@@ -1,34 +1,33 @@
 ---
 title: IColorReplace
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет эффект замены цвета.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет собой эффект замены цвета.
 type: docs
-weight: 3120
+weight: 3040
 url: /ru/aspose.slides.effects/icolorreplace/
 ---
+## IColorReplace interface
 
-## Интерфейс IColorReplace
-
-Представляет эффект замены цвета.
+Представляет собой эффект замены цвета.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 
     IImageTransformOperation
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Возвращает цветовой формат, который заменит цвет каждого пикселя. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Возвращает формат цвета, который заменит цвет каждого пикселя. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Смотрите также
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* интерфейс [IColorReplaceEffectiveData](../icolorreplaceeffectivedata)
-* интерфейс [IImageTransformOperation](../iimagetransformoperation)
+* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* interface [IColorReplaceEffectiveData](../icolorreplaceeffectivedata)
+* interface [IImageTransformOperation](../iimagetransformoperation)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

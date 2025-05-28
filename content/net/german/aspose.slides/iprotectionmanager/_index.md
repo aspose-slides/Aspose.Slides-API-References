@@ -1,15 +1,14 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Slides für .NET API-Referenz
-description: Verwaltung des Passwortschutzes für Präsentationen.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Passwortschutzverwaltung für Präsentationen.
 type: docs
-weight: 6620
+weight: 6290
 url: /de/aspose.slides/iprotectionmanager/
 ---
+## IProtectionManager interface
 
-## IProtectionManager-Schnittstelle
-
-Verwaltung des Passwortschutzes für Präsentationen.
+Passwortschutzverwaltung für Präsentationen.
 
 ```csharp
 public interface IProtectionManager
@@ -19,26 +18,26 @@ public interface IProtectionManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Diese Eigenschaft hat Sinn, wenn die Präsentation passwortgeschützt ist. Wenn wahr, werden die Dokumenteigenschaften in der Präsentationsdatei verschlüsselt. Wenn falsch, sind die Dokumenteigenschaften öffentlich, während die Präsentation verschlüsselt ist. Lese-/Schreib-Boolescher Wert. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Gibt das Verschlüsselungs-Passwort zurück. Schreibgeschützte Zeichenfolge. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Gibt einen Wert zurück, der angibt, ob diese Instanz verschlüsselt ist. Schreibgeschützter Boolescher Wert. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Diese Eigenschaft hat Sinn, wenn die Präsentationsdatei passwortgeschützt ist und die Dokumenteigenschaften dieser Datei öffentlich sind. Ein Wert von wahr bedeutet, dass nur die Dokumenteigenschaften aus einer verschlüsselten Präsentationsdatei ohne Verwendung eines Passworts geladen werden. Ein Wert von falsch bedeutet, dass die gesamte verschlüsselte Präsentation mit Verwendung des richtigen Passworts geladen wird, nicht nur die Dokumenteigenschaften. Wenn die Präsentation nicht verschlüsselt ist, ist der Eigenschaftswert immer falsch. Wenn die Dokumenteigenschaften einer verschlüsselten Datei nicht öffentlich sind, ist der Eigenschaftswert immer falsch. Wenn PresentationEx.EncryptDocumentProperties wahr ist, ist der Wert der IsOnlyDocumentPropertiesLoaded-Eigenschaft immer falsch. Schreibgeschützter Boolescher Wert. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Gibt einen Wert zurück, der angibt, ob diese Präsentation schreibgeschützt ist. Schreibgeschützter Boolescher Wert. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Gibt die Empfehlung für den schreibgeschützten Modus zurück oder setzt sie. Lese-/Schreib-Boolescher Wert. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Diese Eigenschaft ist sinnvoll, wenn die Präsentation passwortgeschützt ist. Wenn wahr, dann sind die Dokumenteigenschaften in der Präsentationsdatei verschlüsselt. Wenn falsch, dann sind die Dokumenteigenschaften öffentlich, während die Präsentation verschlüsselt ist. Lesen/SchreibenBoolean . |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Gibt das Verschlüsselungskennwort zurück. SchreibgeschütztString . |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Ruft einen Wert ab, der angibt, ob diese Instanz verschlüsselt ist. SchreibgeschütztBoolean . |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Diese Eigenschaft ist sinnvoll, wenn die Präsentationsdatei passwortgeschützt ist und die Dokumenteigenschaften dieser Datei öffentlich sind. Der Wert true bedeutet, dass nur Dokumenteigenschaften aus einer verschlüsselten Präsentationsdatei ohne Verwendung des Passworts geladen werden. Der Wert false bedeutet, dass die gesamte verschlüsselte Präsentation wird mit dem richtigen Passwort geladen, nicht nur die Dokumenteigenschaften werden geladen. Wenn die Präsentation nicht verschlüsselt ist, ist der Eigenschaftswert immer falsch. Wenn die Dokumenteigenschaften einer verschlüsselten Datei nicht öffentlich sind, dann ist der Eigenschaftswert immer false. Wenn PresentationEx.EncryptDocumentProperties wahr ist, dann ist IsOnlyDocumentPropertiesLoaded Eigenschaftswert immer falsch. SchreibgeschütztBoolean . |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Ruft einen Wert ab, der angibt, ob diese Präsentation schreibgeschützt ist. SchreibgeschütztBoolean . |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Ruft schreibgeschützte Empfehlungen ab oder legt sie fest. Lesen/SchreibenBoolean . |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Bestimmt, ob eine Präsentation mit einem Passwort geschützt ist, um sie zu bearbeiten. |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Legt fest, ob eine Präsentation passwortgeschützt ist und geändert werden kann. |
 | [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Verschlüsselt die Präsentation mit dem angegebenen Passwort. |
 | [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Entfernt die Verschlüsselung. |
-| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Entfernt den Schreibschutz für diese Präsentation. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Setzt den Schreibschutz für diese Präsentation mit dem angegebenen Passwort. |
+| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Hebt den Schreibschutz für diese Präsentation auf. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Schreibschutz für diese Präsentation mit angegebenem Passwort setzen. |
 
 ### Siehe auch
 
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* namensraum [Aspose.Slides](../../aspose.slides)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

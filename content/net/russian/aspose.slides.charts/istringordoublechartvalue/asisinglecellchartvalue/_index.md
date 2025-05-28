@@ -1,15 +1,14 @@
 ---
 title: AsISingleCellChartValue
-second_title: Справочник API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения ISingleCellChartValue aspose.slides.charts/isinglecellchartvalue.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтенияISingleCellChartValueaspose.slides.charts/isinglecellchartvalue.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue/
 ---
+## IStringOrDoubleChartValue.AsISingleCellChartValue property
 
-## IStringOrDoubleChartValue.AsISingleCellChartValue свойство
-
-Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения [`ISingleCellChartValue`](../../isinglecellchartvalue).
+Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения[`ISingleCellChartValue`](../../isinglecellchartvalue).
 
 ```csharp
 public ISingleCellChartValue AsISingleCellChartValue { get; }
@@ -17,8 +16,8 @@ public ISingleCellChartValue AsISingleCellChartValue { get; }
 
 ### Смотрите также
 
-* интерфейс [ISingleCellChartValue](../../isinglecellchartvalue)
-* интерфейс [IStringOrDoubleChartValue](../../istringordoublechartvalue)
+* interface [ISingleCellChartValue](../../isinglecellchartvalue)
+* interface [IStringOrDoubleChartValue](../../istringordoublechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../istringordoublechartvalue)
 * сборка [Aspose.Slides](../../../)
 

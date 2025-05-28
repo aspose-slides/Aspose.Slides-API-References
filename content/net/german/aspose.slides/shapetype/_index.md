@@ -1,15 +1,14 @@
 ---
 title: ShapeType
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt vordefinierte Geometrie von geometrischen Formen dar.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Stellt die voreingestellte Geometrie von Geometrieformen dar.
 type: docs
-weight: 9620
+weight: 9180
 url: /de/aspose.slides/shapetype/
 ---
+## ShapeType enumeration
 
-## ShapeType Aufzählung
-
-Stellt vordefinierte Geometrie von geometrischen Formen dar.
+Stellt die voreingestellte Geometrie von Geometrieformen dar.
 
 ```csharp
 public enum ShapeType
@@ -20,104 +19,104 @@ public enum ShapeType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `-1` | Nicht definiert. |
-| Custom | `0` | Benutzerdefinierte Form. Dies ist ein nur rückgabewert. |
+| Custom | `0` | Benutzerdefinierte Form. Dies ist ein Nur-Rückgabe-Wert. |
 | Line | `1` | Linienform. |
-| LineInverse | `2` | Inverse Linienform. |
+| LineInverse | `2` | Linie inverse Form. |
 | Triangle | `3` | Dreiecksform. |
-| RightTriangle | `4` | Rechtwinklige Dreiecksform. |
-| Rectangle | `5` | Rechtecksform. |
-| Diamond | `6` | Diamantform. |
+| RightTriangle | `4` | rechtwinklige Dreiecksform. |
+| Rectangle | `5` | Rechteckform. |
+| Diamond | `6` | Rautenform. |
 | Parallelogram | `7` | Parallelogrammform. |
 | Trapezoid | `8` | Trapezform. |
-| NonIsoscelesTrapezoid | `9` | Nicht-isosceles Trapezform. |
-| Pentagon | `10` | Fünfecksform. |
-| Hexagon | `11` | Sechsecksform. |
-| Heptagon | `12` | Siebenecksform. |
-| Octagon | `13` | Achtecksform. |
-| Decagon | `14` | Zehnecksform. |
-| Dodecagon | `15` | Zwölferecksform. |
-| FourPointedStar | `16` | Vierzacksternform. |
-| FivePointedStar | `17` | fünfzacksternform. |
-| SixPointedStar | `18` | Sechs-Zack-Sternform. |
-| SevenPointedStar | `19` | Siebenzacksternform. |
-| EightPointedStar | `20` | Achtzacksternform. |
-| TenPointedStar | `21` | Zehnzacksternform. |
-| TwelvePointedStar | `22` | Zwölfzacksternform. |
-| SixteenPointedStar | `23` | Sechzehnzacksternform. |
-| TwentyFourPointedStar | `24` | Vierundzwanzigzacksternform. |
-| ThirtyTwoPointedStar | `25` | Zweiunddreißigzacksternform. |
-| RoundCornerRectangle | `26` | Rechteck mit abgerundeten Ecken. |
-| OneRoundCornerRectangle | `27` | Rechteck mit einer abgerundeten Ecke. |
-| TwoSamesideRoundCornerRectangle | `28` | Rechteck mit zwei abgerundeten Ecken auf derselben Seite. |
-| TwoDiagonalRoundCornerRectangle | `29` | Rechteck mit zwei diagonalen abgerundeten Ecken. |
-| OneSnipOneRoundCornerRectangle | `30` | Rechteck mit einem Schnitt und einer abgerundeten Ecke. |
-| OneSnipCornerRectangle | `31` | Rechteck mit einem Schnitt an der Ecke. |
-| TwoSamesideSnipCornerRectangle | `32` | Rechteck mit zwei Schnitten an derselben Ecke. |
-| TwoDiagonalSnipCornerRectangle | `33` | Rechteck mit zwei diagonalen Schnitten an der Ecke. |
-| Plaque | `34` | Plakette. |
+| NonIsoscelesTrapezoid | `9` | Nicht gleichschenklige Trapezform. |
+| Pentagon | `10` | Pentagon-Form. |
+| Hexagon | `11` | Sechseckform. |
+| Heptagon | `12` | Heptagon-Form. |
+| Octagon | `13` | Achteckige Form. |
+| Decagon | `14` | Zehneckform. |
+| Dodecagon | `15` | Zwölfeckform. |
+| FourPointedStar | `16` | Form eines vierzackigen Sterns. |
+| FivePointedStar | `17` | Form eines fünfzackigen Sterns. |
+| SixPointedStar | `18` | Form eines sechszackigen Sterns. |
+| SevenPointedStar | `19` | Form eines siebenzackigen Sterns. |
+| EightPointedStar | `20` | Form eines achtzackigen Sterns. |
+| TenPointedStar | `21` | Form eines zehnzackigen Sterns. |
+| TwelvePointedStar | `22` | Zwölfzackige Sternform. |
+| SixteenPointedStar | `23` | Form eines sechzehnzackigen Sterns. |
+| TwentyFourPointedStar | `24` | Vierundzwanzigzackige Sternform. |
+| ThirtyTwoPointedStar | `25` | Zweiunddreißigzackige Sternform. |
+| RoundCornerRectangle | `26` | Runde Ecke Rechteckform. |
+| OneRoundCornerRectangle | `27` | Rechteckige Form mit einer runden Ecke. |
+| TwoSamesideRoundCornerRectangle | `28` | Zwei gleichseitige runde Eck-Rechteckform. |
+| TwoDiagonalRoundCornerRectangle | `29` | Rechteckform mit zwei diagonalen runden Ecken. |
+| OneSnipOneRoundCornerRectangle | `30` | Ein Snip One Round Corner Rectangle Shape. |
+| OneSnipCornerRectangle | `31` | Rechteckige Form mit einer Schnittecke. |
+| TwoSamesideSnipCornerRectangle | `32` | Zwei gleichseitige Snip Corner Rectangle Shape. |
+| TwoDiagonalSnipCornerRectangle | `33` | Rechteckige rechteckige Form mit zwei Diagonalschnitten. |
+| Plaque | `34` | Plakettenform. |
 | Ellipse | `35` | Ellipsenform. |
 | Teardrop | `36` | Tropfenform. |
-| HomePlate | `37` | Home-Platte. |
-| Chevron | `38` | Chevronform. |
-| PieWedge | `39` | Kuchenstückform. |
+| HomePlate | `37` | Home-Plate-Form. |
+| Chevron | `38` | Chevron-Form. |
+| PieWedge | `39` | Tortenkeilform. |
 | Pie | `40` | Tortenform. |
 | BlockArc | `41` | Blockbogenform. |
 | Donut | `42` | Donutform. |
-| NoSmoking | `43` | Rauchen verboten Form. |
-| RightArrow | `44` | Rechte Pfeilform. |
-| LeftArrow | `45` | Linker Pfeilform. |
+| NoSmoking | `43` | Nichtraucherform. |
+| RightArrow | `44` | Form des rechten Pfeils. |
+| LeftArrow | `45` | Form des linken Pfeils. |
 | UpArrow | `46` | Aufwärtspfeilform. |
 | DownArrow | `47` | Abwärtspfeilform. |
-| StripedRightArrow | `48` | Gestreifter rechter Pfeilform. |
-| NotchedRightArrow | `49` | Einkerbung rechte Pfeilform. |
-| BentUpArrow | `50` | Gebogener Aufwärtspfeilform. |
-| LeftRightArrow | `51` | Links-rechts Pfeilform. |
-| UpDownArrow | `52` | Auf-Abwärtspfeilform. |
-| LeftUpArrow | `53` | Links aufwärtspfeilform. |
-| LeftRightUpArrow | `54` | Links-rechts aufwärtspfeilform. |
-| QuadArrow | `55` | Quad-Pfeilform. |
-| CalloutLeftArrow | `56` | Callout-Linkspfeilform. |
-| CalloutRightArrow | `57` | Callout-Rechtspfeilform. |
-| CalloutUpArrow | `58` | Callout-Aufwärtspfeilform. |
-| CalloutDownArrow | `59` | Callout-Abwärtspfeilform. |
-| CalloutLeftRightArrow | `60` | Callout-Links-Rechts-Pfeilform. |
-| CalloutUpDownArrow | `61` | Callout-Auf-Abwärts-Pfeilform. |
-| CalloutQuadArrow | `62` | Callout-Quadpfeilform. |
-| BentArrow | `63` | Gebogener Pfeilform. |
+| StripedRightArrow | `48` | Gestreifte rechte Pfeilform. |
+| NotchedRightArrow | `49` | Gekerbte rechte Pfeilform. |
+| BentUpArrow | `50` | Pfeil nach oben gebogen. |
+| LeftRightArrow | `51` | Form des Links-Rechts-Pfeils. |
+| UpDownArrow | `52` | Pfeilform nach oben und unten. |
+| LeftUpArrow | `53` | Form des linken Aufwärtspfeils. |
+| LeftRightUpArrow | `54` | Pfeilform nach links rechts nach oben. |
+| QuadArrow | `55` | Quad-Pfeil-Form. |
+| CalloutLeftArrow | `56` | Callout Form des linken Pfeils. |
+| CalloutRightArrow | `57` | Callout Form des rechten Pfeils. |
+| CalloutUpArrow | `58` | Callout Pfeilform nach oben. |
+| CalloutDownArrow | `59` | Callout Pfeilform nach unten. |
+| CalloutLeftRightArrow | `60` | Callout Form des Links-Rechts-Pfeils. |
+| CalloutUpDownArrow | `61` | Callout Auf-Ab-Pfeilform. |
+| CalloutQuadArrow | `62` | Legende Quad-Pfeilform. |
+| BentArrow | `63` | gebogene Pfeilform. |
 | UTurnArrow | `64` | U-Turn-Pfeilform. |
-| CircularArrow | `65` | Kreisförmiger Pfeil. |
-| LeftCircularArrow | `66` | Linker Kreis-Pfeil. |
-| LeftRightCircularArrow | `67` | Links-rechts Kreis-Pfeilform. |
-| CurvedRightArrow | `68` | Gebogener rechter Pfeilform. |
-| CurvedLeftArrow | `69` | Gebogener linker Pfeilform. |
-| CurvedUpArrow | `70` | Gebogener Aufwärtspfeilform. |
-| CurvedDownArrow | `71` | Gebogener Abwärtspfeilform. |
-| SwooshArrow | `72` | Schwungpfeilform. |
+| CircularArrow | `65` | Kreisförmige Pfeilform. |
+| LeftCircularArrow | `66` | Linke kreisförmige Pfeilform. |
+| LeftRightCircularArrow | `67` | Kreisförmige Pfeilform links rechts. |
+| CurvedRightArrow | `68` | gebogene rechte Pfeilform. |
+| CurvedLeftArrow | `69` | Gebogene linke Pfeilform. |
+| CurvedUpArrow | `70` | Gebogene Pfeilform nach oben. |
+| CurvedDownArrow | `71` | Gebogene Pfeilform nach unten. |
+| SwooshArrow | `72` | Swoosh-Pfeilform. |
 | Cube | `73` | Würfelform. |
-| Can | `74` | Doseform. |
-| LightningBolt | `75` | Blitzform. |
+| Can | `74` | kann formen. |
+| LightningBolt | `75` | Form eines Blitzes. |
 | Heart | `76` | Herzform. |
 | Sun | `77` | Sonnenform. |
 | Moon | `78` | Mondform. |
-| SmileyFace | `79` | Smiley-Gesichtsform. |
-| IrregularSeal1 | `80` | Unregelmäßiger Siegel 1 Form. |
-| IrregularSeal2 | `81` | Unregelmäßiger Siegel 2 Form. |
-| FoldedCorner | `82` | Gefaltete Eckeform. |
-| Bevel | `83` | Fasenform. |
+| SmileyFace | `79` | Form des Smiley-Gesichts. |
+| IrregularSeal1 | `80` | Unregelmäßige Dichtung 1 Form. |
+| IrregularSeal2 | `81` | Unregelmäßige Dichtung 2 Form. |
+| FoldedCorner | `82` | Gefaltete Eckenform. |
+| Bevel | `83` | Abgeschrägte Form. |
 | Frame | `84` | Rahmenform. |
-| HalfFrame | `85` | Halber Rahmenform. |
-| Corner | `86` | Eckeform. |
-| DiagonalStripe | `87` | Diagonalstreifenform. |
-| Chord | `88` | Sehnenform. |
-| CurvedArc | `89` | Gebogener Bogenform. |
-| LeftBracket | `90` | Linke Klammerform. |
-| RightBracket | `91` | Rechte Klammerform. |
-| LeftBrace | `92` | Linke geschweifte Klammerform. |
-| RightBrace | `93` | Rechte geschweifte Klammerform. |
-| BracketPair | `94` | Klammer-Paarform. |
-| BracePair | `95` | Geschweifte Klammer-Paarform. |
+| HalfFrame | `85` | Halbrahmenform. |
+| Corner | `86` | Eckenform. |
+| DiagonalStripe | `87` | Diagonale Streifenform. |
+| Chord | `88` | Akkordform. |
+| CurvedArc | `89` | gebogene Bogenform. |
+| LeftBracket | `90` | Form der linken Klammer. |
+| RightBracket | `91` | Form der rechten Klammer. |
+| LeftBrace | `92` | Form der linken Klammer. |
+| RightBrace | `93` | Form der rechten Strebe. |
+| BracketPair | `94` | Klammerpaarform. |
+| BracePair | `95` | Klammerpaar Form. |
 | StraightConnector1 | `96` | Gerader Verbinder 1 Form. |
-| BentConnector2 | `97` | Gebogener Verbinder 2 Form. |
+| BentConnector2 | `97` | Form des gebogenen Verbinders 2. |
 | BentConnector3 | `98` | Gebogener Verbinder 3 Form. |
 | BentConnector4 | `99` | Gebogener Verbinder 4 Form. |
 | BentConnector5 | `100` | Gebogener Verbinder 5 Form. |
@@ -125,93 +124,93 @@ public enum ShapeType
 | CurvedConnector3 | `102` | Gebogener Verbinder 3 Form. |
 | CurvedConnector4 | `103` | Gebogener Verbinder 4 Form. |
 | CurvedConnector5 | `104` | Gebogener Verbinder 5 Form. |
-| Callout1 | `105` | Callout 1 Form. |
-| Callout2 | `106` | Callout 2 Form. |
-| Callout3 | `107` | Callout 3 Form. |
-| Callout1WithAccent | `108` | Callout 1 mit Akzentform. |
+| Callout1 | `105` | Legende 1 Form. |
+| Callout2 | `106` | Legende 2 Form. |
+| Callout3 | `107` | Legende 3 Form. |
+| Callout1WithAccent | `108` | Legende 1 mit Akzentform. |
 | Callout2WithAccent | `109` | Callout 2 mit Akzentform. |
-| Callout3WithAccent | `110` | Callout 3 mit Akzentform. |
-| Callout1WithBorder | `111` | Callout 1 mit Randform. |
-| Callout2WithBorder | `112` | Callout 2 mit Randform. |
-| Callout3WithBorder | `113` | Callout 3 mit Randform. |
-| Callout1WithBorderAndAccent | `114` | Callout 1 mit Rand und Akzentform. |
-| Callout2WithBorderAndAccent | `115` | Callout 2 mit Rand und Akzentform. |
-| Callout3WithBorderAndAccent | `116` | Callout 3 mit Rand und Akzentform. |
-| CalloutWedgeRectangle | `117` | Callout Wedge Rechteckform. |
-| CalloutWedgeRoundRectangle | `118` | Callout Wedge Rundrechteckform. |
-| CalloutWedgeEllipse | `119` | Callout Wedge Ellipsenform. |
-| CalloutCloud | `120` | Callout Wolkenform. |
+| Callout3WithAccent | `110` | Legende 3 mit Akzentform. |
+| Callout1WithBorder | `111` | Legende 1 mit Randform. |
+| Callout2WithBorder | `112` | Legende 2 mit Randform. |
+| Callout3WithBorder | `113` | Legende 3 mit Rahmenform. |
+| Callout1WithBorderAndAccent | `114` | Legende 1 mit Rahmen und Akzentform. |
+| Callout2WithBorderAndAccent | `115` | Callout 2 mit Rahmen und Akzentform. |
+| Callout3WithBorderAndAccent | `116` | Legende 3 mit Rahmen und Akzentform. |
+| CalloutWedgeRectangle | `117` | Callout-Keil-Rechteckform. |
+| CalloutWedgeRoundRectangle | `118` | Callout-Keil in runder rechteckiger Form. |
+| CalloutWedgeEllipse | `119` | Callout-Keil-Ellipsenform. |
+| CalloutCloud | `120` | Legende Wolkenform. |
 | Cloud | `121` | Wolkenform. |
-| Ribbon | `122` | Bänderform. |
-| Ribbon2 | `123` | Bänder 2 Form. |
+| Ribbon | `122` | Bandform. |
+| Ribbon2 | `123` | Band 2 Form. |
 | EllipseRibbon | `124` | Ellipsenbandform. |
 | EllipseRibbon2 | `125` | Ellipsenband 2 Form. |
-| LeftRightRibbon | `126` | Links-Rechts-Bandform. |
-| VerticalScroll | `127` | Vertikales Scrollenform. |
-| HorizontalScroll | `128` | Horizontales Scrollenform. |
+| LeftRightRibbon | `126` | Links Rechts Bandform. |
+| VerticalScroll | `127` | Vertikale Scrollform. |
+| HorizontalScroll | `128` | Horizontale Scrollform. |
 | Wave | `129` | Wellenform. |
 | DoubleWave | `130` | Doppelte Wellenform. |
 | Plus | `131` | Plusform. |
 | ProcessFlow | `132` | Prozessflussform. |
-| DecisionFlow | `133` | Entscheidungsflussform. |
-| InputOutputFlow | `134` | Eingangs-Ausgangsflussform. |
-| PredefinedProcessFlow | `135` | Vorgegebene Prozessflussform. |
-| InternalStorageFlow | `136` | Interner Speicherflussform. |
-| DocumentFlow | `137` | Dokumentflussform. |
-| MultiDocumentFlow | `138` | Multi-Dokumentenflussform. |
-| TerminatorFlow | `139` | Terminatorflussform. |
+| DecisionFlow | `133` | Form des Entscheidungsflusses. |
+| InputOutputFlow | `134` | Eingangs-Ausgangs-Strömungsform. |
+| PredefinedProcessFlow | `135` | Vordefinierte Prozessflussform. |
+| InternalStorageFlow | `136` | Form des internen Speicherflusses. |
+| DocumentFlow | `137` | Dokumentenflussform. |
+| MultiDocumentFlow | `138` | Flussform für mehrere Dokumente. |
+| TerminatorFlow | `139` | Terminator-Strömungsform. |
 | PreparationFlow | `140` | Vorbereitungsflussform. |
-| ManualInputFlow | `141` | Manuelles Eingangsflussform. |
-| ManualOperationFlow | `142` | Manuelle Betriebsflussform. |
-| ConnectorFlow | `143` | Verbindungsflussform. |
-| PunchedCardFlow | `144` | Gestanzte Kartenflussform. |
-| PunchedTapeFlow | `145` | Gestanztes Bandflussform. |
-| SummingJunctionFlow | `146` | Summierender Knotenflussform. |
-| OrFlow | `147` | Oderflussform. |
-| CollateFlow | `148` | Sammelflussform. |
-| SortFlow | `149` | Sortierflussform. |
-| ExtractFlow | `150` | Extraktionsflussform. |
-| MergeFlow | `151` | Zusammenführungsflussform. |
-| OfflineStorageFlow | `152` | Offline-Speicherflussform. |
-| OnlineStorageFlow | `153` | Online-Speicherflussform. |
-| MagneticTapeFlow | `154` | Magnetbandflussform. |
-| MagneticDiskFlow | `155` | Magnetplattenflussform. |
-| MagneticDrumFlow | `156` | Magnettrommelflussform. |
-| DisplayFlow | `157` | Anzeigeflussform. |
+| ManualInputFlow | `141` | Flussform der manuellen Eingabe. |
+| ManualOperationFlow | `142` | Manueller Betrieb Strömungsform. |
+| ConnectorFlow | `143` | Strömungsform des Konnektors. |
+| PunchedCardFlow | `144` | Lochkarte Fließform. |
+| PunchedTapeFlow | `145` | Lochband-Fließform. |
+| SummingJunctionFlow | `146` | Strömungsform der Summierungsverbindung. |
+| OrFlow | `147` | oder Strömungsform. |
+| CollateFlow | `148` | Flussform sortieren. |
+| SortFlow | `149` | Flussform sortieren. |
+| ExtractFlow | `150` | Flussform extrahieren. |
+| MergeFlow | `151` | Flussform zusammenführen. |
+| OfflineStorageFlow | `152` | Form des Offline-Speicherflusses. |
+| OnlineStorageFlow | `153` | Form des Onlinespeicherflusses. |
+| MagneticTapeFlow | `154` | Magnetband-Strömungsform. |
+| MagneticDiskFlow | `155` | Magnetische Scheibenströmungsform. |
+| MagneticDrumFlow | `156` | Strömungsform der Magnettrommel. |
+| DisplayFlow | `157` | Durchflussform anzeigen. |
 | DelayFlow | `158` | Verzögerungsflussform. |
-| AlternateProcessFlow | `159` | Alternativer Prozessflussform. |
-| OffPageConnectorFlow | `160` | Off-Page-Verbindungsflussform. |
-| BlankButton | `161` | Leerer Buttonform. |
-| HomeButton | `162` | Home-Buttonform. |
-| HelpButton | `163` | Hilfe-Buttonform. |
-| InformationButton | `164` | Informationsbuttonform. |
-| ForwardOrNextButton | `165` | Vorwärts oder Nächster Buttonform. |
-| BackOrPreviousButton | `166` | Zurück oder Vorheriger Buttonform. |
-| EndButton | `167` | End-Buttonform. |
-| BeginningButton | `168` | Anfangs-Buttonform. |
-| ReturnButton | `169` | Rückgabebuttonform. |
-| DocumentButton | `170` | Dokument-Buttonform. |
-| SoundButton | `171` | Lautstärkebuttonform. |
-| MovieButton | `172` | Film-Buttonform. |
+| AlternateProcessFlow | `159` | Alternative Prozessflussform. |
+| OffPageConnectorFlow | `160` | Off-Page-Connector-Flussform. |
+| BlankButton | `161` | Leere Schaltflächenform. |
+| HomeButton | `162` | Form der Home-Schaltfläche. |
+| HelpButton | `163` | Form der Hilfeschaltfläche. |
+| InformationButton | `164` | Form der Informationsschaltfläche. |
+| ForwardOrNextButton | `165` | Form der Vorwärts- oder Weiter-Schaltfläche. |
+| BackOrPreviousButton | `166` | Form der Zurück- oder Zurück-Schaltfläche. |
+| EndButton | `167` | Form der Endschaltfläche. |
+| BeginningButton | `168` | Anfangsschaltflächenform. |
+| ReturnButton | `169` | Form der Eingabetaste. |
+| DocumentButton | `170` | Form der Dokumentschaltfläche. |
+| SoundButton | `171` | Form der Tonschaltfläche. |
+| MovieButton | `172` | Form der Filmschaltfläche. |
 | Gear6 | `173` | Zahnrad 6 Form. |
 | Gear9 | `174` | Zahnrad 9 Form. |
 | Funnel | `175` | Trichterform. |
-| PlusMath | `176` | Plus Mathematikform. |
-| MinusMath | `177` | Minus Mathematikform. |
-| MultiplyMath | `178` | Mal Mathematikform. |
-| DivideMath | `179` | Teilen Mathematikform. |
-| EqualMath | `180` | Gleich Mathematikform. |
-| NotEqualMath | `181` | Nicht gleich Mathematikform. |
-| CornerTabs | `182` | Eck-Tabsform. |
-| SquareTabs | `183` | Quadratische Tabsform. |
-| PlaqueTabs | `184` | Plaketten-Tabsform. |
-| ChartX | `185` | Diagramm X Form. |
+| PlusMath | `176` | Plus mathematische Form. |
+| MinusMath | `177` | Minus mathematische Form. |
+| MultiplyMath | `178` | Matheform multiplizieren. |
+| DivideMath | `179` | Mathematische Form teilen. |
+| EqualMath | `180` | Gleiche mathematische Form. |
+| NotEqualMath | `181` | Ungleiche mathematische Form. |
+| CornerTabs | `182` | Form der Ecklaschen. |
+| SquareTabs | `183` | Quadratische Registerkartenform. |
+| PlaqueTabs | `184` | Plaque Tabs Form. |
+| ChartX | `185` | Diagramm X-Form. |
 | ChartStar | `186` | Diagramm Sternform. |
-| ChartPlus | `187` | Diagramm Plusform. |
+| ChartPlus | `187` | Diagramm plus Form. |
 
-### Siehe Auch
+### Siehe auch
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* namensraum [Aspose.Slides](../../aspose.slides)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

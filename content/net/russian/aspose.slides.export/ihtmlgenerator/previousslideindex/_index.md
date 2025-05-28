@@ -1,15 +1,14 @@
 ---
 title: PreviousSlideIndex
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает индекс ранее отрендеренного слайда или -1, если рендерится первый слайд. Только для чтения Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает индекс ранее отрендеренного слайда или -1 если отрисовывается первый слайд. Только для чтенияInt32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/ihtmlgenerator/previousslideindex/
 ---
+## IHtmlGenerator.PreviousSlideIndex property
 
-## Свойство IHtmlGenerator.PreviousSlideIndex
-
-Возвращает индекс ранее отрендеренного слайда или -1, если рендерится первый слайд. Только для чтения Int32.
+Возвращает индекс ранее отрендеренного слайда или -1, если отрисовывается первый слайд. Только для чтенияInt32.
 
 ```csharp
 public int PreviousSlideIndex { get; }
@@ -17,7 +16,7 @@ public int PreviousSlideIndex { get; }
 
 ### Смотрите также
 
-* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
+* interface [IHtmlGenerator](../../ihtmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../ihtmlgenerator)
 * сборка [Aspose.Slides](../../../)
 

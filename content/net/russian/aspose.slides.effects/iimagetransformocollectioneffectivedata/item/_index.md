@@ -1,13 +1,12 @@
 ---
-title: Элемент
-second_title: Aspose.Slides для .NET API Справочник
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает элемент по индексу.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/iimagetransformocollectioneffectivedata/item/
 ---
-
-## IImageTransformOCollectionEffectiveData индексатор
+## IImageTransformOCollectionEffectiveData indexer
 
 Возвращает элемент по индексу.
 
@@ -19,10 +18,10 @@ public IEffectEffectiveData this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IEffectEffectiveData](../../ieffecteffectivedata)
-* интерфейс [IImageTransformOCollectionEffectiveData](../../iimagetransformocollectioneffectivedata)
+* interface [IEffectEffectiveData](../../ieffecteffectivedata)
+* interface [IImageTransformOCollectionEffectiveData](../../iimagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformocollectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

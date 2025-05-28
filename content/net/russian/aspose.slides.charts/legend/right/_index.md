@@ -1,23 +1,22 @@
 ---
-title: Право
+title: Right
 second_title: Справочник по API Aspose.Slides для .NET
-description: Право. Свойство только для чтения Single.
+description: Верно. Только для чтенияSingle.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/legend/right/
 ---
+## Legend.Right property
 
-## Свойство Legend.Right
-
-Право. Свойство только для чтения Single.
+Верно. Только для чтенияSingle.
 
 ```csharp
 public float Right { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Legend](../../legend)
+* class [Legend](../../legend)
 * пространство имен [Aspose.Slides.Charts](../../legend)
 * сборка [Aspose.Slides](../../../)
 

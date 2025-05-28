@@ -1,13 +1,12 @@
 ---
 title: CloneT
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Клонирует текущий объект
 type: docs
 weight: 80
 url: /ru/aspose.slides/coloroperationcollection/clonet/
 ---
-
-## Метод ColorOperationCollection.CloneT
+## ColorOperationCollection.CloneT method
 
 Клонирует текущий объект
 
@@ -15,14 +14,14 @@ url: /ru/aspose.slides/coloroperationcollection/clonet/
 public IColorOperationCollection CloneT()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
-Клон
+Клонировать
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IColorOperationCollection](../../icoloroperationcollection)
-* класс [ColorOperationCollection](../../coloroperationcollection)
+* interface [IColorOperationCollection](../../icoloroperationcollection)
+* class [ColorOperationCollection](../../coloroperationcollection)
 * пространство имен [Aspose.Slides](../../coloroperationcollection)
 * сборка [Aspose.Slides](../../../)
 

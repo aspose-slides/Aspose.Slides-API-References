@@ -1,45 +1,22 @@
 ---
-title: Перекрытие
+title: Overlap
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, насколько бары и столбцы будут перекрывать друг друга на 2-D диаграммах в процентах от -100 до 100. - -100 Максимальное пространство, бары полностью отделены. - 0 Бары расположены рядом без перекрытия или промежутка. - 100 Максимальное перекрытие, бары полностью перекрывают друг друга. Это свойство имеет возможность чтения/записи SByte.
+description: Указывает сколько полос и столбцов должно перекрываться на двумерных диаграммах от -100 до 100. Чтение/записьSByte.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/chartseriesgroup/overlap/
 ---
+## ChartSeriesGroup.Overlap property
 
-## ChartSeriesGroup.Overlap свойство
-
-Указывает, насколько бары и столбцы будут перекрывать друг друга на 2-D диаграммах в процентах (от -100% до 100%). - -100%: Максимальное пространство (бары полностью отделены). - 0%: Бары расположены рядом без перекрытия или промежутка. - 100%: Максимальное перекрытие (бары полностью перекрывают друг друга). Это свойство имеет возможность чтения/записи SByte.
+Указывает, сколько полос и столбцов должно перекрываться на двумерных диаграммах (от -100 до 100). Чтение/записьSByte.
 
 ```csharp
 public sbyte Overlap { get; set; }
 ```
 
-### Исключения
+### Смотрите также
 
-| исключение | условие |
-| --- | --- |
-| ArgumentOutOfRangeException | Вызывается, когда значение установлено вне допустимого диапазона от -100 до 100. |
-
-### Примеры
-
-Следующий пример демонстрирует, как установить перекрытие для группы серий диаграммы и отобразить результирующую диаграмму на форме:
-
-```csharp
-using (Presentation pres = new Presentation())
-{
-    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
-    IChartSeriesCollection series = chart.ChartData.Series;
-    series[0].ParentSeriesGroup.Overlap = 55; // Установите перекрытие на 55%
-
-    var image=pres.Slides[0].GetImage(1, 1);
-    image.Save("image.png",ImageFormat.Png);
-}
-```
-
-### См. также
-
-* класс [ChartSeriesGroup](../../chartseriesgroup)
+* class [ChartSeriesGroup](../../chartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../chartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

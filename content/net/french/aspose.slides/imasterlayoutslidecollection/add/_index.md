@@ -1,13 +1,12 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajoute une nouvelle diapositive de mise en page à la fin de la collection.
 type: docs
 weight: 20
 url: /fr/aspose.slides/imasterlayoutslidecollection/add/
 ---
-
-## IMasterLayoutSlideCollection.Add méthode
+## IMasterLayoutSlideCollection.Add method
 
 Ajoute une nouvelle diapositive de mise en page à la fin de la collection.
 
@@ -15,12 +14,12 @@ Ajoute une nouvelle diapositive de mise en page à la fin de la collection.
 public ILayoutSlide Add(SlideLayoutType layoutType, string layoutName)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| layoutType | SlideLayoutType | Type de mise en page pour une nouvelle mise en page. Types de mise en page supportés : Titre, TitreUniquement, Vide, TitreEtObjet, TexteVertical, TitreEtTexteVertical, DeuxObjets, En-têteDeSection, DeuxTexteEtDeuxObjets, ObjetTitreEtLégende, ImageEtLégende, Personnalisé. D'autres types de mise en page ne sont pas supportés actuellement : Texte, TexteÀDeuxColonnes, Tableau, TexteEtGraphique, GraphiqueEtTexte, Diagramme, Graphique, TexteEtClipArt, ClipArtEtTexte, TexteEtObjet, ObjetEtTexte, Objet, TexteEtMédia, MédiaEtTexte, ObjetSurTexte, TexteSurObjet, TexteEtDeuxObjets, DeuxObjetsEtTexte, DeuxObjetsSurTexte, QuatreObjets, ClipArtEtTexteVertical, TitreVerticalEtTexteSurGraphique, ObjetEtDeuxObjets, DeuxObjetsEtObjet. |
-| layoutName | String | Nom pour une nouvelle mise en page. Si le nom passé est déjà utilisé, une ArgumentException sera lancée. Si le paramètre null est passé, le nom sera généré automatiquement par rapport au type de mise en page passé (par exemple "Diapositive Titre" ou "1_Diapositve Titre", "2_..", etc.). |
+| layoutType | SlideLayoutType | Type de mise en page pour une nouvelle mise en page. Types de mise en page pris en charge : Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Les autres types de mise en page ne sont plus pris en charge : Text, TwoColumnText, Tableau, TextAndChart, ChartAndText, Diagramme, Graphique, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Objet, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| layoutName | String | Nom d'une nouvelle mise en page. Si le nom passé est déjà utilisé, l'ArgumentException sera lancée. Si le paramètre null est passé, le nom est généré automatiquement en ce qui concerne le type de mise en page passé (par exemple "Title Slide" ou "1_Title Slide", "2_..", etc. .). |
 
-### Valeur de Retour
+### Return_Value
 
 Diapositive ajoutée.
 
@@ -28,19 +27,19 @@ Diapositive ajoutée.
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | Lancée si une valeur non supportée du paramètre *layoutType* est passée. Types de mise en page qui ne sont pas supportés actuellement : Texte, TexteÀDeuxColonnes, Tableau, TexteEtGraphique, GraphiqueEtTexte, Diagramme, Graphique, TexteEtClipArt, ClipArtEtTexte, TexteEtObjet, ObjetEtTexte, Objet, TexteEtMédia, MédiaEtTexte, ObjetSurTexte, TexteSurObjet, TexteEtDeuxObjets, DeuxObjetsEtTexte, DeuxObjetsSurTexte, QuatreObjets, ClipArtEtTexteVertical, TitreVerticalEtTexteSurGraphique, ObjetEtDeuxObjets, DeuxObjetsEtObjet. |
-| ArgumentException | Lancée si la valeur du nom de mise en page *layoutName* est déjà utilisée dans cette collection de mises en page. |
+| NotImplementedException | Levé si la valeur du paramètre n'est pas prise en charge*layoutType* est passé. Types de mise en page qui ne sont pas pris en charge actuellement : Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| ArgumentException | Levé si la valeur du nom de la mise en page*layoutName*est déjà utilisé dans cette collection de mises en page. |
 
 ### Remarques
 
-1) La mise en page ajoutée pour la valeur SlideLayoutType.Custom de *layoutType* ne contient pas de zones réservées ni de formes. 2) L'analogue de cette méthode est la méthode [`Add`](../../igloballayoutslidecollection/add) accessible avec la propriété [`LayoutSlides`](../../ipresentation/layoutslides).
+1) Disposition ajoutée pour la valeur SlideLayoutType.Custom de*layoutType* ne contient ni espaces réservés ni formes. 2) L'analogue de cette méthode est la méthode [`Add`](../../igloballayoutslidecollection/add) accédé avec[`LayoutSlides`](../../ipresentation/layoutslides) propriété.
 
-### Voir aussi
+### Voir également
 
 * interface [ILayoutSlide](../../ilayoutslide)
 * enum [SlideLayoutType](../../slidelayouttype)
 * interface [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
-* namespace [Aspose.Slides](../../imasterlayoutslidecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../imasterlayoutslidecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

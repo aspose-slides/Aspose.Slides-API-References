@@ -1,15 +1,14 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет коллекцию замены шрифтов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор подстановок шрифтов.
 type: docs
-weight: 4700
+weight: 4450
 url: /ru/aspose.slides/fontsubstrulecollection/
 ---
+## FontSubstRuleCollection class
 
-## Класс FontSubstRuleCollection
-
-Представляет коллекцию замены шрифтов.
+Представляет набор подстановок шрифтов.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -17,31 +16,31 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [FontSubstRuleCollection](fontsubstrulecollection)() | Конструктор по умолчанию. |
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасно). Только для чтения Boolean. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Получает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Добавляет новое правило замены шрифта в коллекцию. |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Добавляет новое правило подстановки шрифтов в коллекцию |
 | [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Удаляет первое вхождение конкретного объекта из коллекции. |
+| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Удаляет первое вхождение определенного объекта из коллекции. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontSubstRuleCollection](../ifontsubstrulecollection)
+* interface [IFontSubstRuleCollection](../ifontsubstrulecollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

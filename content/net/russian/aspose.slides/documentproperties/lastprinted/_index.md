@@ -1,23 +1,22 @@
 ---
 title: LastPrinted
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает дату последней печати презентации. Читаемое/Записываемое DateTime.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает дату последней печати презентации. Чтение/записьDateTime.
 type: docs
-weight: 180
+weight: 150
 url: /ru/aspose.slides/documentproperties/lastprinted/
 ---
+## DocumentProperties.LastPrinted property
 
-## Свойство DocumentProperties.LastPrinted
-
-Возвращает дату последней печати презентации. Читаемое/Записываемое DateTime.
+Возвращает дату последней печати презентации. Чтение/записьDateTime.
 
 ```csharp
 public DateTime LastPrinted { get; set; }
 ```
 
-### Также см. 
+### Смотрите также
 
-* класс [DocumentProperties](../../documentproperties)
+* class [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

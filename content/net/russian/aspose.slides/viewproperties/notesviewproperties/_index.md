@@ -1,24 +1,23 @@
 ---
 title: NotesViewProperties
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает общие свойства представления, связанные с режимом просмотра заметок. Только для чтения ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает общие свойства просмотра связанные с режимом просмотра заметок. Только для чтенияICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
 type: docs
-weight: 40
+weight: 30
 url: /ru/aspose.slides/viewproperties/notesviewproperties/
 ---
+## ViewProperties.NotesViewProperties property
 
-## ViewProperties.NotesViewProperties свойство
-
-Указывает общие свойства представления, связанные с режимом просмотра заметок. Только для чтения [`ICommonSlideViewProperties`](../../icommonslideviewproperties).
+Задает общие свойства просмотра, связанные с режимом просмотра заметок. Только для чтения[`ICommonSlideViewProperties`](../../icommonslideviewproperties).
 
 ```csharp
 public ICommonSlideViewProperties NotesViewProperties { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ICommonSlideViewProperties](../../icommonslideviewproperties)
-* класс [ViewProperties](../../viewproperties)
+* interface [ICommonSlideViewProperties](../../icommonslideviewproperties)
+* class [ViewProperties](../../viewproperties)
 * пространство имен [Aspose.Slides](../../viewproperties)
 * сборка [Aspose.Slides](../../../)
 

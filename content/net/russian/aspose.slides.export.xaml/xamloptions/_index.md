@@ -1,15 +1,14 @@
 ---
 title: XamlOptions
-second_title: Справка по API Aspose.Slides для .NET
-description: Параметры, которые контролируют, как сохраняется документ XAML.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Параметры управляющие сохранением документа XAML.
 type: docs
-weight: 4530
+weight: 4290
 url: /ru/aspose.slides.export.xaml/xamloptions/
 ---
+## XamlOptions class
 
-## Класс XamlOptions
-
-Параметры, которые контролируют, как сохраняется документ XAML.
+Параметры, управляющие сохранением документа XAML.
 
 ```csharp
 public class XamlOptions : SaveOptions, IXamlOptions
@@ -21,17 +20,15 @@ public class XamlOptions : SaveOptions, IXamlOptions
 | --- | --- |
 | [XamlOptions](xamloptions)() | Создает экземпляр XamlOptions. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае отсутствия исходного шрифта. Доступ на чтение/запись String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | Определяет, будут ли экспортироваться скрытые слайды. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или устанавливает визуальный стиль градиента. Доступ на чтение/запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Представляет реализацию интерфейса IOutputSaver. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновлений прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, нужно ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Доступ на чтение/запись Boolean. Значение по умолчанию — **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или остановлен. Доступ на чтение/запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Примеры
 
@@ -43,10 +40,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [SaveOptions](../../aspose.slides.export/saveoptions)
-* интерфейс [IXamlOptions](../ixamloptions)
+* class [SaveOptions](../../aspose.slides.export/saveoptions)
+* interface [IXamlOptions](../ixamloptions)
 * пространство имен [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)
 * сборка [Aspose.Slides](../../)
 

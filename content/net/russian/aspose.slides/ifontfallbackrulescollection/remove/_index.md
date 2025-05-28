@@ -1,15 +1,14 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Удаляет первое вхождение конкретного правила FallBack из коллекции.
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет первое вхождение определенного правила FallBack из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ifontfallbackrulescollection/remove/
 ---
+## IFontFallBackRulesCollection.Remove method
 
-## Метод IFontFallBackRulesCollection.Remove
-
-Удаляет первое вхождение конкретного правила FallBack из коллекции.
+Удаляет первое вхождение определенного правила FallBack из коллекции.
 
 ```csharp
 public void Remove(IFontFallBackRule targetRule)
@@ -17,7 +16,7 @@ public void Remove(IFontFallBackRule targetRule)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| targetRule | IFontFallBackRule | Правило, которое нужно удалить из коллекции. |
+| targetRule | IFontFallBackRule | Правило для удаления из коллекции. |
 
 ### Примеры
 
@@ -25,24 +24,24 @@ public void Remove(IFontFallBackRule targetRule)
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    //Получение пустой или предварительно инициализированной коллекции правил из FontsManager
+     //Получение пустой или предварительно инициализированной коллекции правил из FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
-    //Добавление нескольких правил в коллекцию
+     //Добавление нескольких правил в collection
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
     rulesList.Add(new FontFallBackRule(0x3040, 0x309F, "MS Mincho"));
 
-    //Получение объекта первого правила в коллекции
+     //Получение объекта первого правила в collection
     IFontFallBackRule firstRule = rulesList[0];
-    //Удаление 
+     //Удаление 
     rulesList.Remove (firstRule);
 }
 ```
 
 ### Смотрите также
 
-* интерфейс [IFontFallBackRule](../../ifontfallbackrule)
-* интерфейс [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)
+* interface [IFontFallBackRule](../../ifontfallbackrule)
+* interface [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)
 * пространство имен [Aspose.Slides](../../ifontfallbackrulescollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes для .NET API Справка
-description: Удаляет элемент по указанному индексу из коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет элемент по указанному индексу коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides.mathtext/mathparagraph/removeat/
 ---
+## MathParagraph.RemoveAt method
 
-## Метод MathParagraph.RemoveAt
-
-Удаляет элемент по указанному индексу из коллекции.
+Удаляет элемент по указанному индексу коллекции.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,7 +16,7 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс элемента, который нужно удалить, с нулевой основой. |
+| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
 
 ### Примеры
 
@@ -32,9 +31,9 @@ mathParagraph.Add(block);
 mathParagraph.RemoveAt(0);
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathParagraph](../../mathparagraph)
+* class [MathParagraph](../../mathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraph)
 * сборка [Aspose.Slides](../../../)
 

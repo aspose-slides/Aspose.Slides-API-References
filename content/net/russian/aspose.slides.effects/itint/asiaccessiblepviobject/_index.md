@@ -1,25 +1,24 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Справка по API Aspose.Sildes для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/itint/asiaccessiblepviobject/
 ---
+## ITint.AsIAccessiblePVIObject property
 
-## ITint.AsIAccessiblePVIObject свойство
-
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<ITintEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* интерфейс [ITintEffectiveData](../../itinteffectivedata)
-* интерфейс [ITint](../../itint)
+* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* interface [ITintEffectiveData](../../itinteffectivedata)
+* interface [ITint](../../itint)
 * пространство имен [Aspose.Slides.Effects](../../itint)
 * сборка [Aspose.Slides](../../../)
 

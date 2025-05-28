@@ -1,13 +1,12 @@
 ---
-title: Элемент
-second_title: Справочник API Aspose.Slides для .NET
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает объект IChartDataPointLevel для заданного уровня.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartdatapointlevelsmanager/item/
 ---
-
-## Индексатор ChartDataPointLevelsManager
+## ChartDataPointLevelsManager indexer
 
 Возвращает объект IChartDataPointLevel для заданного уровня.
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides.charts/chartdatapointlevelsmanager/item/
 public IChartDataPointLevel this[int level] { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPointLevel](../../ichartdatapointlevel)
-* класс [ChartDataPointLevelsManager](../../chartdatapointlevelsmanager)
+* interface [IChartDataPointLevel](../../ichartdatapointlevel)
+* class [ChartDataPointLevelsManager](../../chartdatapointlevelsmanager)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapointlevelsmanager)
 * сборка [Aspose.Slides](../../../)
 

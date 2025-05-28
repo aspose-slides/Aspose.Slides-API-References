@@ -1,24 +1,23 @@
 ---
-title: Элемент
-second_title: Справочник API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтения IPPImageaspose.slides/ippimage.
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает элемент по указанному индексу. Только для чтенияIPPImageaspose.slides/ippimage.
 type: docs
 weight: 30
 url: /ru/aspose.slides/imagecollection/item/
 ---
+## ImageCollection indexer
 
-## Индексатор ImageCollection
-
-Получает элемент по указанному индексу. Только для чтения [`IPPImage`](../../ippimage).
+Получает элемент по указанному индексу. Только для чтения[`IPPImage`](../../ippimage).
 
 ```csharp
 public IPPImage this[int index] { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
-* класс [ImageCollection](../../imagecollection)
+* interface [IPPImage](../../ippimage)
+* class [ImageCollection](../../imagecollection)
 * пространство имен [Aspose.Slides](../../imagecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,21 +1,21 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes для .NET API Справочник
-description: type docs
-weight: 7670
+second_title: Справочник по API Aspose.Slides для .NET
+description: 
+type: docs
+weight: 7210
 url: /ru/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
-
-## Делегат ForEach.ForEachLayoutSlideCallback
+## ForEach.ForEachLayoutSlideCallback delegate
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
 ```
 
-### См. также
+### Смотрите также
 
-* класс [LayoutSlide](../../aspose.slides/layoutslide)
-* класс [ForEach](../foreach)
+* class [LayoutSlide](../../aspose.slides/layoutslide)
+* class [ForEach](../foreach)
 * пространство имен [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * сборка [Aspose.Slides](../../)
 

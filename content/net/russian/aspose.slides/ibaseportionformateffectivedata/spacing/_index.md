@@ -1,23 +1,22 @@
 ---
-title: Интервал
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает увеличение межсимвольного расстояния. Только для чтения Single.
+title: Spacing
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает приращение межсимвольного интервала. Только для чтенияSingle.
 type: docs
 weight: 220
 url: /ru/aspose.slides/ibaseportionformateffectivedata/spacing/
 ---
+## IBasePortionFormatEffectiveData.Spacing property
 
-## IBasePortionFormatEffectiveData.Spacing свойство
-
-Возвращает увеличение межсимвольного расстояния. Только для чтения Single.
+Возвращает приращение межсимвольного интервала. Только для чтенияSingle.
 
 ```csharp
 public float Spacing { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibaseportionformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

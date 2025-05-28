@@ -1,46 +1,45 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет собой коллекцию основных слайдов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор мастер-слайдов.
 type: docs
-weight: 7790
+weight: 7330
 url: /ru/aspose.slides/masterslidecollection/
 ---
+## MasterSlideCollection class
 
-## Класс MasterSlideCollection
-
-Представляет собой коллекцию основных слайдов.
+Представляет набор мастер-слайдов.
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасно для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Получает элемент по указанному индексу. Только чтение[`MasterSlide`](../masterslide). |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного основного слайда в конец коллекции. Связанные слайды макета также будут скопированы. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного мастер-слайда в конец коллекции. Связанные слайды макета также будут скопированы. |
 | [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного основного слайда в указанную позицию коллекции. Связанные слайды макета также будут скопированы. |
-| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Удаляет первое вхождение конкретного объекта из коллекции. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного мастер-слайда в указанную позицию коллекции. Связанные слайды макета также будут скопированы. |
+| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Удаляет первое вхождение определенного объекта из коллекции. |
 | [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Удаляет неиспользуемые основные слайды. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Удаляет неиспользуемые мастер-слайды. |
 
-### См. также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../domobject-1)
-* класс [Presentation](../presentation)
-* интерфейс [IMasterSlideCollection](../imasterslidecollection)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
+* interface [IMasterSlideCollection](../imasterslidecollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

@@ -1,24 +1,23 @@
 ---
 title: ThemeManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает менеджер тем для переопределения. Только для чтения IOverrideThemeManageraspose.slides.theme/ioverridethememanager.
+description: Возвращает переопределение менеджера тем. Только для чтенияIOverrideThemeManageraspose.slides.theme/ioverridethememanager.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/ioverridethemeable/thememanager/
 ---
+## IOverrideThemeable.ThemeManager property
 
-## Свойство IOverrideThemeable.ThemeManager
-
-Возвращает менеджер тем для переопределения. Только для чтения [`IOverrideThemeManager`](../../ioverridethememanager).
+Возвращает переопределение менеджера тем. Только для чтения[`IOverrideThemeManager`](../../ioverridethememanager).
 
 ```csharp
 public IOverrideThemeManager ThemeManager { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IOverrideThemeManager](../../ioverridethememanager)
-* интерфейс [IOverrideThemeable](../../ioverridethemeable)
+* interface [IOverrideThemeManager](../../ioverridethememanager)
+* interface [IOverrideThemeable](../../ioverridethemeable)
 * пространство имен [Aspose.Slides.Theme](../../ioverridethemeable)
 * сборка [Aspose.Slides](../../../)
 

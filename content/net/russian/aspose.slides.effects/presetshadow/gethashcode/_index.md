@@ -1,15 +1,14 @@
 ---
 title: GetHashCode
-second_title: Справочник API Aspose.Slide для .NET
-description: Является хеш-функцией для данного типа.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Служит хэш-функцией для определенного типа.
 type: docs
 weight: 70
 url: /ru/aspose.slides.effects/presetshadow/gethashcode/
 ---
+## PresetShadow.GetHashCode method
 
-## Метод PresetShadow.GetHashCode
-
-Является хеш-функцией для данного типа.
+Служит хэш-функцией для определенного типа.
 
 ```csharp
 public override int GetHashCode()
@@ -17,11 +16,11 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Хеш-код для текущего объекта.
+Хэш-код текущего объекта.
 
-### См. также
+### Смотрите также
 
-* класс [PresetShadow](../../presetshadow)
+* class [PresetShadow](../../presetshadow)
 * пространство имен [Aspose.Slides.Effects](../../presetshadow)
 * сборка [Aspose.Slides](../../../)
 

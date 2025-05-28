@@ -1,23 +1,22 @@
 ---
 title: MarginTop
-second_title: Aspose.Sildes для справки по API .NET
-description: Возвращает или задает верхний отступ в пунктах в TextFrame. Изменение этого свойства может оказать определенное влияние только на эти части графика DataLabel и DataLabelFormat полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта для отображения. Чтение/запись Double.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает верхнее поле в пунктах в TextFrame. Изменение этого свойства может оказать определенное влияние только на следующие части диаграммы DataLabel и DataLabelFormat полная поддержка в PowerPoint 2013 в PowerPoint 2007 нет эффекта для рендеринга. Чтение/записьDouble.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/icharttextblockformat/margintop/
 ---
+## IChartTextBlockFormat.MarginTop property
 
-## IChartTextBlockFormat.MarginTop свойство
-
-Возвращает или задает верхний отступ (пункты) в TextFrame. Изменение этого свойства может оказать определенное влияние только на эти части графика: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта для отображения). Чтение/запись Double.
+Возвращает или задает верхнее поле (в пунктах) в TextFrame. Изменение этого свойства может оказать определенное влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта для рендеринга). Чтение/записьDouble.
 
 ```csharp
 public double MarginTop { get; set; }
 ```
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IChartTextBlockFormat](../../icharttextblockformat)
+* interface [IChartTextBlockFormat](../../icharttextblockformat)
 * пространство имен [Aspose.Slides.Charts](../../icharttextblockformat)
 * сборка [Aspose.Slides](../../../)
 

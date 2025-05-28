@@ -1,13 +1,12 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает перечислитель, который перебирает коллекцию.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает перечислитель который перебирает коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides/digitalsignaturecollection/getenumerator/
 ---
-
-## Метод DigitalSignatureCollection.GetEnumerator
+## DigitalSignatureCollection.GetEnumerator method
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -17,12 +16,12 @@ public IEnumerator<IDigitalSignature> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для перебора коллекции.
+AIEnumeratorкоторые можно использовать для перебора коллекции.
 
 ### Смотрите также
 
-* интерфейс [IDigitalSignature](../../idigitalsignature)
-* класс [DigitalSignatureCollection](../../digitalsignaturecollection)
+* interface [IDigitalSignature](../../idigitalsignature)
+* class [DigitalSignatureCollection](../../digitalsignaturecollection)
 * пространство имен [Aspose.Slides](../../digitalsignaturecollection)
 * сборка [Aspose.Slides](../../../)
 

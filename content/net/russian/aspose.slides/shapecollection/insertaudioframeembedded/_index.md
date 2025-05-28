@@ -1,15 +1,14 @@
 ---
 title: InsertAudioFrameEmbedded
-second_title: Aspose.Sildes для .NET API Справочник
-description: Вставить AudioFrame с встраиваемым аудиофайлом. Звук встроенного аудиофайла может быть только в формате WAV.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вставьте AudioFrame со встроенным аудиофайлом. Звук встроенного аудиофайла может быть только в формате WAV.
 type: docs
 weight: 280
 url: /ru/aspose.slides/shapecollection/insertaudioframeembedded/
 ---
-
 ## InsertAudioFrameEmbedded(int, float, float, float, float, Stream) {#insertaudioframeembedded_1}
 
-Вставить AudioFrame с встраиваемым аудиофайлом. Звук встроенного аудиофайла может быть только в формате WAV.
+Вставьте AudioFrame со встроенным аудиофайлом. Звук встроенного аудиофайла может быть только в формате WAV.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -18,21 +17,21 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Нулевой индекс, по которому должно быть вставлено значение. |
-| x | Single | X-координата нового аудиофрейма. |
-| y | Single | Y-координата нового аудиофрейма. |
-| width | Single | Ширина нового аудиофрейма. |
-| height | Single | Высота нового аудиофрейма. |
+| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
+| x | Single | X координата нового звукового кадра. |
+| y | Single | Координата Y нового звукового кадра. |
+| width | Single | Ширина нового звукового кадра. |
+| height | Single | Высота нового звукового кадра. |
 | audio_stream | Stream | Аудиопоток. |
 
 ### Возвращаемое значение
 
-Созданный объект AudioFrame.
+Создан объект AudioFrame.
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IAudioFrame](../../iaudioframe)
-* класс [ShapeCollection](../../shapecollection)
+* interface [IAudioFrame](../../iaudioframe)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -40,7 +39,7 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 ## InsertAudioFrameEmbedded(int, float, float, float, float, IAudio) {#insertaudioframeembedded}
 
-Вставить AudioFrame с встраиваемым аудиофайлом. Он использует аудиофайл из списка Presentation.Audios.
+Вставьте AudioFrame со встроенным аудиофайлом. Используется аудиофайл из списка Presentation.Audios.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -49,22 +48,22 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Нулевой индекс, по которому должно быть вставлено значение. |
-| x | Single | X-координата нового аудиофрейма. |
-| y | Single | Y-координата нового аудиофрейма. |
-| width | Single | Ширина нового аудиофрейма. |
-| height | Single | Высота нового аудиофрейма. |
+| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
+| x | Single | X координата нового звукового кадра. |
+| y | Single | Координата Y нового звукового кадра. |
+| width | Single | Ширина нового звукового кадра. |
+| height | Single | Высота нового звукового кадра. |
 | audio | IAudio | Аудио из списка Presentation.Audios. |
 
 ### Возвращаемое значение
 
-Созданный объект AudioFrame.
+Создан объект AudioFrame.
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IAudioFrame](../../iaudioframe)
-* интерфейс [IAudio](../../iaudio)
-* класс [ShapeCollection](../../shapecollection)
+* interface [IAudioFrame](../../iaudioframe)
+* interface [IAudio](../../iaudio)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

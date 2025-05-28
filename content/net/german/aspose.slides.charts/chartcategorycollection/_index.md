@@ -1,15 +1,14 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Sammlung von ChartCategory dar./chartcategory
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Stellt eine Sammlung von darChartCategory./chartcategory
 type: docs
-weight: 1200
+weight: 1160
 url: /de/aspose.slides.charts/chartcategorycollection/
 ---
+## ChartCategoryCollection class
 
-## ChartCategoryCollection-Klasse
-
-Stellt die Sammlung von [`ChartCategory`](../chartcategory) dar.
+Stellt eine Sammlung von dar[`ChartCategory`](../chartcategory)
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
@@ -19,32 +18,32 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur lese Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Gibt die Anzahl der verwendeten Kategorisierungsstufen zurück. Ist mehr als eins für mehrstufige Kategorien. Nur lese Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Liste synchronisiert (thread-sicher) ist. Nur lese Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Gibt das Element am angegebenen Index zurück. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Gibt ein Objekt zurück, das zur Synchronisierung des Zugriffs auf die Sammlung verwendet werden kann. Nur lese Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Wenn wahr, wird das Arbeitsblatt zum Speichern der Kategorien verwendet (dieser Fall unterstützt mehrstufige Kategorien). Wenn falsch, wird das Arbeitsblatt NICHT zum Speichern von Werten verwendet (und dieser Fall unterstützt keine mehrstufigen Kategorien). Lese-/Schreibe Boolean. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Gibt eine Anzahl von Elementen in der Sammlung zurück. SchreibgeschütztInt32 . |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Gibt die Anzahl der verwendeten Kategoriengruppierungsebenen zurück. Ist mehr als eins für Kategorien mit mehreren Ebenen. SchreibgeschütztInt32 . |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Liste synchronisiert (threadsicher) ist. Nur lesenBoolean . |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Ruft das Element am angegebenen Index ab. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Gibt ein Objekt zurück, das verwendet werden kann, um den Zugriff auf die Sammlung zu synchronisieren. SchreibgeschütztObject . |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Wenn wahr, dann wird das Arbeitsblatt zum Speichern von Kategorien verwendet (dieser Fall unterstützt mehrstufige Kategorien). Wenn falsch, wird das Arbeitsblatt NICHT zum Speichern von Werten verwendet (und dieser Fall unterstützt keine mehrstufigen Kategorien). Lesen /schreibenBoolean . |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Wenn die Kategorie in der Sammlung vorhanden ist, wird sie zurückgegeben. Andernfalls wird eine neue Chart-Kategorie aus [`IChartDataCell`](../ichartdatacell) erstellt und der Sammlung hinzugefügt. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Erstellt eine neue [`ChartCategory`](../chartcategory) aus dem Wert und fügt sie der Sammlung hinzu. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Wenn die Kategorie in der Sammlung vorhanden ist, geben Sie sie zurück. Sonst erstellt eine neue Diagrammkategorie aus [`IChartDataCell`](../ichartdatacell) und fügt es der Sammlung hinzu. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Erstellt neu[`ChartCategory`](../chartcategory) vom Wert und fügt es der Sammlung hinzu. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Entfernt alle Elemente aus der Sammlung. |
-| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Sucht nach der angegebenen [`ChartCategory`](../chartcategory) und gibt den nullbasierten Index des ersten Vorkommens in der gesamten Sammlung zurück. |
+| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Sucht nach dem angegebenen[`ChartCategory`](../chartcategory) und gibt den nullbasierten Index des ersten Vorkommens innerhalb der gesamten Sammlung zurück. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | Entfernt den angegebenen Wert. |
 | [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Entfernt das Element am angegebenen Index. |
 
-### Weitere Informationen
+### Siehe auch
 
-* Klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* Klasse [ChartData](../chartdata)
-* Schnittstelle [IChartCategoryCollection](../ichartcategorycollection)
-* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Assembly [Aspose.Slides](../../)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartData](../chartdata)
+* interface [IChartCategoryCollection](../ichartcategorycollection)
+* namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,23 +1,22 @@
 ---
 title: ActualWidth
-second_title: Aspose.Sildes для .NET API Reference
-description: Указывает фактическую ширину элемента диаграммы. Перед получением фактических значений вызовите метод IChart.ValidateChartLayout. Прочитать Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout перед тем как получить фактические значения. ЧитатьSingle.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartdatapoint/actualwidth/
 ---
+## ChartDataPoint.ActualWidth property
 
-## Свойство ChartDataPoint.ActualWidth
-
-Указывает фактическую ширину элемента диаграммы. Перед получением фактических значений вызовите метод IChart.ValidateChartLayout(). Прочитать Single.
+Задает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle.
 
 ```csharp
 public float ActualWidth { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ChartDataPoint](../../chartdatapoint)
+* class [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

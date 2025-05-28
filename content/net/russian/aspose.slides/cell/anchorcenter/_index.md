@@ -1,23 +1,22 @@
 ---
 title: AnchorCenter
-second_title: Aspose.Slides для .NET Документация
-description: Определяет, центрирован ли текстовый блок внутри ячейки. Свойство с доступом на чтение и запись типа Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет центрируется ли текстовое поле внутри ячейки. Чтение/записьBoolean.
 type: docs
 weight: 10
 url: /ru/aspose.slides/cell/anchorcenter/
 ---
+## Cell.AnchorCenter property
 
-## Свойство Cell.AnchorCenter
-
-Определяет, центрирован ли текстовый блок внутри ячейки. Свойство с доступом на чтение и запись типа Boolean.
+Определяет, центрируется ли текстовое поле внутри ячейки. Чтение/записьBoolean.
 
 ```csharp
 public bool AnchorCenter { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Cell](../../cell)
+* class [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,69 +1,37 @@
 ---
 title: NotesSlideManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Менеджер заметок слайдов.
+description: Менеджер слайдов Notes.
 type: docs
-weight: 8890
+weight: 8430
 url: /ru/aspose.slides/notesslidemanager/
 ---
+## NotesSlideManager class
 
-## Класс NotesSlideManager
-
-Менеджер заметок слайдов.
+Менеджер слайдов Notes.
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Возвращает слайд с заметками для текущего слайда. Возвращает null, если у слайда нет слайда с заметками. Только для чтения [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Возвращает слайд заметок для текущего слайда. Возвращает null, если на слайде нет слайда с заметками. Только для чтения[`INotesSlide`](../inotesslide). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Возвращает слайд с заметками для текущего слайда, создавая его, если его нет. |
-| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Удаляет слайд с заметками текущего слайда. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Возвращает слайд заметок для текущего слайда, создавая его, если его нет. |
+| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Удаляет слайд заметок текущего слайда. |
 
-### Примеры
+### Смотрите также
 
-Следующий пример показывает, как добавить заметки к конкретному слайду PowerPoint презентации.
-
-```csharp
-[C#]
-	// Создайте объект Presentation, представляющий файл презентации
-	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Добавьте заметки к первому слайду
-	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
-	  INotesSlide noteSlide = mgr.AddNotesSlide();
-	  noteSlide.NotesTextFrame.Text = "Ваши заметки";
-	  // Сохраните презентацию на диск
-	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
-	}
-```
-
-Следующий пример показывает, как удалить заметки из конкретного слайда PowerPoint презентации.
-
-```csharp
-[C#]
-	// Создайте объект Presentation, представляющий файл презентации
-	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Удаление заметок первого слайда
-	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
-	  mgr.RemoveNotesSlide();
-	  // Сохраните презентацию на диск
-	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
-	}
-```
-
-### См. также
-
-* класс [DomObject&lt;TParent&gt;](../domobject-1)
-* класс [Slide](../slide)
-* интерфейс [INotesSlideManager](../inotesslidemanager)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Slide](../slide)
+* interface [INotesSlideManager](../inotesslidemanager)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

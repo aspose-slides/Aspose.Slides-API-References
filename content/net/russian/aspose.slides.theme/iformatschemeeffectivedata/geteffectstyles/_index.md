@@ -1,15 +1,14 @@
 ---
 title: GetEffectStyles
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает коллекцию стилей эффектов, определённых темой.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает набор стилей эффектов определенных темой.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles/
 ---
+## IFormatSchemeEffectiveData.GetEffectStyles method
 
-## IFormatSchemeEffectiveData.GetEffectStyles метод
-
-Возвращает коллекцию стилей эффектов, определённых темой.
+Возвращает набор стилей эффектов, определенных темой.
 
 ```csharp
 public IEffectStyleCollectionEffectiveData GetEffectStyles(Color styleColor)
@@ -17,16 +16,16 @@ public IEffectStyleCollectionEffectiveData GetEffectStyles(Color styleColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| styleColor | Color | Цвет цвета |
+| styleColor | Color | ColorColor |
 
-### Значение возврата
+### Возвращаемое значение
 
-Коллекция эффективных стилей эффектов [`IEffectStyleCollectionEffectiveData`](../../ieffectstylecollectioneffectivedata)
+Коллекция эффективных стилей эффектов[`IEffectStyleCollectionEffectiveData`](../../ieffectstylecollectioneffectivedata)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectStyleCollectionEffectiveData](../../ieffectstylecollectioneffectivedata)
-* интерфейс [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)
+* interface [IEffectStyleCollectionEffectiveData](../../ieffectstylecollectioneffectivedata)
+* interface [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../iformatschemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

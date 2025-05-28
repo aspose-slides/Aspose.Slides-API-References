@@ -1,13 +1,12 @@
 ---
 title: IVideo
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет видео, встроенное в презентацию.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет видео встроенное в презентацию.
 type: docs
-weight: 7140
+weight: 6780
 url: /ru/aspose.slides/ivideo/
 ---
-
-## Интерфейс IVideo
+## IVideo interface
 
 Представляет видео, встроенное в презентацию.
 
@@ -15,20 +14,20 @@ url: /ru/aspose.slides/ivideo/
 public interface IVideo
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Возвращает копию данных аудио. В случае большого объема данных рассмотрите возможность использования метода [`GetStream`](./getstream), чтобы предотвратить ненужную загрузку данных видео в память или даже OutOfMemoryException. Только для чтения Byte[]. |
-| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Возвращает MIME-тип видео, закодированного в [`BinaryData`](./binarydata). Только для чтения String. |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Возвращает копию аудиоданных. В случае большого объема данных рассмотрите возможность использования метода [`GetStream`](./getstream)для предотвращения ненужной загрузки данных видео в память или даже OutOfMemoryException. Только для чтенияByte[]. |
+| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Возвращает MIME-тип видео, закодированный в[`BinaryData`](./binarydata). Только чтениеString. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [GetStream](../../aspose.slides/ivideo/getstream)() | Возвращает Stream для чтения. Используйте 'using' или закройте поток после использования. |
+| [GetStream](../../aspose.slides/ivideo/getstream)() | Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

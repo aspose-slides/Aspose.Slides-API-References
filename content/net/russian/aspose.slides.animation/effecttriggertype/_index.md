@@ -1,29 +1,28 @@
 ---
 title: EffectTriggerType
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет тип триггера эффекта.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляют триггерный тип эффекта.
 type: docs
-weight: 270
+weight: 250
 url: /ru/aspose.slides.animation/effecttriggertype/
 ---
+## EffectTriggerType enumeration
 
-## Перечисление EffectTriggerType
-
-Представляет тип триггера эффекта.
+Представляют триггерный тип эффекта.
 
 ```csharp
 public enum EffectTriggerType
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | AfterPrevious | `0` |  |
 | OnClick | `1` |  |
 | WithPrevious | `2` |  |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

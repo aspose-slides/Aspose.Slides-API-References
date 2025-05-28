@@ -1,23 +1,22 @@
 ---
 title: ArrowheadsLocked
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, запрещено ли изменение наконечников стрел. Чтение/запись Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет запрещена ли смена наконечников стрелок. Чтение/записьBoolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iconnectorlock/arrowheadslocked/
 ---
+## IConnectorLock.ArrowheadsLocked property
 
-## Свойство IConnectorLock.ArrowheadsLocked
-
-Определяет, запрещено ли изменение наконечников стрел. Чтение/запись Boolean.
+Определяет, запрещена ли смена наконечников стрелок. Чтение/записьBoolean.
 
 ```csharp
 public bool ArrowheadsLocked { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IConnectorLock](../../iconnectorlock)
+* interface [IConnectorLock](../../iconnectorlock)
 * пространство имен [Aspose.Slides](../../iconnectorlock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: ДатаВремя
-second_title: Aspose.Sildes для .NET API Справочник
-description: Текущая дата и время в стандартном формате даты и времени для приложения рендеринга. Поле только для чтения FieldTypeaspose.slides/fieldtype.
+title: DateTime
+second_title: Справочник по API Aspose.Slides для .NET
+description: Текущая дата и время в формате даты и времени по умолчанию для приложения рендеринга. Только для чтенияFieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 20
 url: /ru/aspose.slides/fieldtype/datetime/
 ---
+## FieldType.DateTime property
 
-## Свойство FieldType.DateTime
-
-Текущая дата и время в стандартном формате даты и времени для приложения рендеринга. Поле только для чтения [`FieldType`](../../fieldtype).
+Текущая дата и время в формате даты и времени по умолчанию для приложения рендеринга. Только для чтения[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* класс [FieldType](../../fieldtype)
+* class [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)
 * сборка [Aspose.Slides](../../../)
 

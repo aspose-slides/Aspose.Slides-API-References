@@ -1,15 +1,14 @@
 ---
 title: SetFooterText
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает текст для заполнитель нижнего колонтитула слайда.
+description: Устанавливает текст в качестве заполнителя нижнего колонтитула слайда.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ibaseslideheaderfootermanager/setfootertext/
 ---
+## IBaseSlideHeaderFooterManager.SetFooterText method
 
-## Метод IBaseSlideHeaderFooterManager.SetFooterText
-
-Устанавливает текст для заполнителя нижнего колонтитула слайда.
+Устанавливает текст в качестве заполнителя нижнего колонтитула слайда.
 
 ```csharp
 public void SetFooterText(string text)
@@ -19,9 +18,9 @@ public void SetFooterText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
+* interface [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ibaseslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

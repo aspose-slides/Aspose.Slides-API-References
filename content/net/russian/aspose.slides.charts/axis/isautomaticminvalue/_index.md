@@ -1,23 +1,22 @@
 ---
 title: IsAutomaticMinValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, автоматически ли задано минимальное значение. Читаемое/записываемое логическое значение.
+description: Указывает присваивается ли минимальное значение автоматически. Чтение/записьBoolean.
 type: docs
 weight: 210
 url: /ru/aspose.slides.charts/axis/isautomaticminvalue/
 ---
+## Axis.IsAutomaticMinValue property
 
-## Свойство Axis.IsAutomaticMinValue
-
-Указывает, автоматически ли задано минимальное значение. Читаемое/записываемое логическое значение.
+Указывает, присваивается ли минимальное значение автоматически. Чтение/записьBoolean.
 
 ```csharp
 public bool IsAutomaticMinValue { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Axis](../../axis)
+* class [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

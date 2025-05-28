@@ -1,13 +1,12 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforerrorbarscustomvalues/
 ---
-
-## Конструктор DataSourceTypeForErrorBarsCustomValues
+## DataSourceTypeForErrorBarsCustomValues constructor
 
 Конструктор по умолчанию.
 
@@ -17,7 +16,7 @@ public DataSourceTypeForErrorBarsCustomValues()
 
 ### Смотрите также
 
-* класс [DataSourceTypeForErrorBarsCustomValues](../../datasourcetypeforerrorbarscustomvalues)
+* class [DataSourceTypeForErrorBarsCustomValues](../../datasourcetypeforerrorbarscustomvalues)
 * пространство имен [Aspose.Slides.Charts](../../datasourcetypeforerrorbarscustomvalues)
 * сборка [Aspose.Slides](../../../)
 

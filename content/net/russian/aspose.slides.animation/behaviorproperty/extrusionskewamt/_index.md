@@ -1,13 +1,12 @@
 ---
 title: ExtrusionSkewAmt
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство extrusion.skewamt
 type: docs
 weight: 190
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionskewamt/
 ---
-
-## Свойство BehaviorProperty.ExtrusionSkewAmt
+## BehaviorProperty.ExtrusionSkewAmt property
 
 Представляет свойство 'extrusion.skewamt'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionskewamt/
 public static BehaviorProperty ExtrusionSkewAmt { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

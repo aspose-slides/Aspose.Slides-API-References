@@ -1,15 +1,14 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет собой имя ссылки на проект VBA. Читаемая/записываемая строка.
+description: Представляет имя ссылки на проект VBA. Чтение/записьString.
 type: docs
 weight: 10
 url: /ru/aspose.slides.vba/ivbareference/name/
 ---
+## IVbaReference.Name property
 
-## Свойство IVbaReference.Name
-
-Представляет собой имя ссылки на проект VBA. Читаемая/записываемая строка.
+Представляет имя ссылки на проект VBA. Чтение/записьString.
 
 ```csharp
 public string Name { get; set; }
@@ -17,7 +16,7 @@ public string Name { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IVbaReference](../../ivbareference)
+* interface [IVbaReference](../../ivbareference)
 * пространство имен [Aspose.Slides.Vba](../../ivbareference)
 * сборка [Aspose.Slides](../../../)
 

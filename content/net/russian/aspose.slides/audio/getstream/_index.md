@@ -1,13 +1,12 @@
 ---
 title: GetStream
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает поток Stream для чтения. Используйте using или закройте поток после использования.
 type: docs
 weight: 30
 url: /ru/aspose.slides/audio/getstream/
 ---
-
-## Метод Audio.GetStream
+## Audio.GetStream method
 
 Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования.
 
@@ -19,9 +18,9 @@ public Stream GetStream()
 
 Поток для чтения.
 
-### См. также
+### Смотрите также
 
-* класс [Audio](../../audio)
+* class [Audio](../../audio)
 * пространство имен [Aspose.Slides](../../audio)
 * сборка [Aspose.Slides](../../../)
 

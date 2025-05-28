@@ -1,29 +1,28 @@
 ---
 title: IModernComment
-second_title: Aspose.Sildes для справки по API .NET
-description: Представляет комментарий на слайде.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет комментарий к слайду.
 type: docs
-weight: 6260
+weight: 5900
 url: /ru/aspose.slides/imoderncomment/
 ---
+## IModernComment interface
 
-## Интерфейс IModernComment
-
-Представляет комментарий на слайде.
+Представляет комментарий к слайду.
 
 ```csharp
 public interface IModernComment : IComment
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Позволяет получить базовый интерфейс IComment. Только для чтения [`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Возвращает форму, связанную с комментарием. Только для чтения [`IShape`](../ishape). |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Возвращает или устанавливает статус комментария. Чтение/запись [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Возвращает или устанавливает длину выделенного текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/запись Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Возвращает или устанавливает стартовую позицию выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/запись Int32. |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Позволяет получить базовый интерфейс IComment. Только для чтения[`IComment`](../icomment). |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Возвращает фигуру, связанную с комментарием. Только для чтения[`IShape`](../ishape). |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Возвращает или устанавливает статус комментария. Чтение/запись[`ModernCommentStatus`](../moderncommentstatus). |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Возвращает или задает длину выделения текста в текстовом фрейме, если комментарий связан с автофигурой. Чтение/записьInt32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Возвращает или задает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с автофигурой. Чтение/записьInt32. |
 
 ### Примеры
 
@@ -31,16 +30,16 @@ public interface IModernComment : IComment
 [C#]
 using (Presentation pres = new Presentation())
 {
-    ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Некоторый Автор", "SA");
-    IModernComment modernComment = newAuthor.Comments.AddModernComment("Это современный комментарий", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
+    ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Some Author", "SA");
+    IModernComment modernComment = newAuthor.Comments.AddModernComment("This is modern comment", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
 
     pres.Save(outPptxFileName, SaveFormat.Pptx);
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IComment](../icomment)
+* interface [IComment](../icomment)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

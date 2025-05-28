@@ -1,13 +1,12 @@
 ---
-title: Удалить
+title: Remove
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет автора из родительской коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icommentauthor/remove/
 ---
-
-## Метод ICommentAuthor.Remove
+## ICommentAuthor.Remove method
 
 Удаляет автора из родительской коллекции.
 
@@ -19,11 +18,11 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Вызывается, если автор уже удален. |
+| [PptxEditException](../../pptxeditexception) | Генерируется, если автор уже удален. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ICommentAuthor](../../icommentauthor)
+* interface [ICommentAuthor](../../icommentauthor)
 * пространство имен [Aspose.Slides](../../icommentauthor)
 * сборка [Aspose.Slides](../../../)
 

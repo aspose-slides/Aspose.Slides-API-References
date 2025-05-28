@@ -1,15 +1,14 @@
 ---
-title: Текст
-second_title: Справочник по API Aspose.Slidеs для .NET
-description: Возвращает или устанавливает простой текст комментария к слайду. Чтение/запись String.
+title: Text
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает обычный текст комментария к слайду. Чтение/записьString.
 type: docs
 weight: 60
 url: /ru/aspose.slides/comment/text/
 ---
+## Comment.Text property
 
-## Свойство Comment.Text
-
-Возвращает или устанавливает простой текст комментария к слайду. Чтение/запись String.
+Возвращает или задает обычный текст комментария к слайду. Чтение/записьString.
 
 ```csharp
 public string Text { get; set; }
@@ -17,7 +16,7 @@ public string Text { get; set; }
 
 ### Смотрите также
 
-* класс [Comment](../../comment)
+* class [Comment](../../comment)
 * пространство имен [Aspose.Slides](../../comment)
 * сборка [Aspose.Slides](../../../)
 

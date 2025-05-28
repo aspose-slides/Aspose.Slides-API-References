@@ -1,37 +1,36 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет собой коллекцию точек, которые должны быть нарисованы на втором круге или столбце в диаграмме "круг в круге" или "столбец в круге" с произвольным разделением.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор точек которые должны быть отрисованы во второй круговой диаграмме или столбце на линейчатой или круговой диаграмме с пользовательским разделением.
 type: docs
-weight: 2110
+weight: 2050
 url: /ru/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
+## IPieSplitCustomPointCollection interface
 
-## Интерфейс IPieSplitCustomPointCollection
-
-Представляет собой коллекцию точек, которые должны быть нарисованы на втором круге или столбце в диаграмме "круг в круге" или "столбец в круге" с произвольным разделением.
+Представляет набор точек, которые должны быть отрисованы во второй круговой диаграмме или столбце на линейчатой или круговой диаграмме с пользовательским разделением.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. |
 | [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Возвращает точку данных диаграммы по индексу. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Добавляет точку данных по ее индексу в коллекции точек родительской серии. |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Удаляет элемент из коллекции по его индексу в коллекции точек родительской серии. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Добавляет точку данных по ее индексу в коллекцию точек родительского ряда. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Удаляет элемент из коллекции по его индексу в родительской коллекции точек серии. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../ichartdatapoint)
+* interface [IChartDataPoint](../ichartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

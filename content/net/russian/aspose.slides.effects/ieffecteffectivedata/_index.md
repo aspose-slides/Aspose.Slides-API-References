@@ -1,13 +1,12 @@
 ---
 title: IEffectEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Базовый класс для неизменяемых объектов, представляющих эффект.
+description: Базовый класс для неизменяемых объектов представляющих эффект.
 type: docs
-weight: 3160
+weight: 3080
 url: /ru/aspose.slides.effects/ieffecteffectivedata/
 ---
-
-## Интерфейс IEffectEffectiveData
+## IEffectEffectiveData interface
 
 Базовый класс для неизменяемых объектов, представляющих эффект.
 
@@ -15,7 +14,7 @@ url: /ru/aspose.slides.effects/ieffecteffectivedata/
 public interface IEffectEffectiveData
 ```
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)

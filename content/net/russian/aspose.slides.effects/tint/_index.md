@@ -1,38 +1,37 @@
 ---
-title: Тон
+title: Tint
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект Тона. Сдвигает значения цвета эффекта к оттенку/от оттенка на указанное количество.
+description: Представляет эффект оттенка. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
 type: docs
-weight: 3540
+weight: 3460
 url: /ru/aspose.slides.effects/tint/
 ---
+## Tint class
 
-## Класс Tint
-
-Представляет эффект Тона. Сдвигает значения цвета эффекта к оттенку/от оттенка на указанное количество.
+Представляет эффект оттенка. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
 
 ```csharp
-public sealed class Tint : ImageTransformOperation, ITint
+public class Tint : ImageTransformOperation, ITint
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Определяет, равен ли указанный [`Tint`](../tint) текущему [`Tint`](../tint). |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Получает данные эффективного эффекта Тона с примененным наследованием. |
-| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Используется в качестве хеш-функции для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Определяет, равен ли указанный[`Tint`](../tint)текущемуОттенок. |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Получает данные об эффективном эффекте Tint с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Служит хэш-функцией для определенного типа. |
 
 ### Смотрите также
 
-* класс [ImageTransformOperation](../imagetransformoperation)
-* интерфейс [ITint](../itint)
+* class [ImageTransformOperation](../imagetransformoperation)
+* interface [ITint](../itint)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

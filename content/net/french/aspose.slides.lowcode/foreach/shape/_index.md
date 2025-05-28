@@ -1,23 +1,22 @@
 ---
-title: Forme
+title: Shape
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Itérer chaque Forme aspose.slides.lowcode/foreach/shape dans la Présentation aspose.slides/presentation. Les formes seront itérées dans tous les types de diapositives - Diapositive aspose.slides.lowcode/foreach/slide MasterSlide aspose.slides.lowcode/foreach/masterslide et LayoutSlide aspose.slides.lowcode/foreach/layoutslide
+description: Itérer chaqueShapeaspose.slides.lowcode/foreach/shape dans lePresentationaspose.slides/presentation .  Les formes seront itérées dans tous les types de diapositives Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide etLayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 50
 url: /fr/aspose.slides.lowcode/foreach/shape/
 ---
+## Shape(Presentation, ForEachShapeCallback) {#shape_1}
 
-## Shape(Presentation, ForEachShapeCallback) {#shape_2}
-
-Itérer chaque `Shape` dans la [`Presentation`](../../../aspose.slides/presentation). Les formes seront itérées dans tous les types de diapositives - [`Slide`](../slide), [`MasterSlide`](../masterslide) et [`LayoutSlide`](../layoutslide)
+Itérer chaque`Shape` dans le[`Presentation`](../../../aspose.slides/presentation) .  Les formes seront itérées dans tous les types de diapositives -[`Slide`](../slide) ,[`MasterSlide`](../masterslide) et[`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| pres | Presentation | Présentation à itérer les formes de mise en page |
+| pres | Presentation | Présentation pour itérer les formes de mise en page |
 | forEachShape | ForEachShapeCallback | Callback qui sera invoqué pour chaque forme |
 
 ### Exemples
@@ -32,63 +31,27 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Voir Aussi
+### Voir également
 
-* classe [Presentation](../../../aspose.slides/presentation)
-* délégué [ForEachShapeCallback](../../foreach.foreachshapecallback)
-* classe [ForEach](../../foreach)
+* class [Presentation](../../../aspose.slides/presentation)
+* delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)
+* class [ForEach](../../foreach)
 * espace de noms [Aspose.Slides.LowCode](../../foreach)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Shape(Presentation, bool, ForEachShapeCallback) {#shape_1}
-
-Itérer chaque [`Shape`](../shape) dans la [`Presentation`](../../../aspose.slides/presentation). Les formes seront itérées dans tous les types de diapositives - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) et [`NotesSlide`](../../../aspose.slides/notesslide) si nécessaire.
-
-```csharp
-public static void Shape(Presentation pres, bool includeNotes, ForEachShapeCallback forEachShape)
-```
-
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| pres | Presentation | Présentation à itérer les formes de mise en page |
-| includeNotes | Boolean | Indicateur qui indique si les NotesSlides doivent être inclus dans le traitement. |
-| forEachShape | ForEachShapeCallback | Callback qui sera invoqué pour chaque forme |
-
-### Exemples
-
-```csharp
-using (Presentation pres = new Presentation("pres.pptx"))
-{
-    ForEach.Shape(pres, true, (shape, slide, index) => 
-    {
-        System.Console.WriteLine($"{shape.Name}, index: {index}");
-    });
-} 
-```
-
-### Voir Aussi
-
-* classe [Presentation](../../../aspose.slides/presentation)
-* délégué [ForEachShapeCallback](../../foreach.foreachshapecallback)
-* classe [ForEach](../../foreach)
-* espace de noms [Aspose.Slides.LowCode](../../foreach)
-* assembly [Aspose.Slides](../../../)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
 ## Shape(BaseSlide, ForEachShapeCallback) {#shape}
 
-Itérer chaque [`Shape`](../shape) dans la [`BaseSlide`](../../../aspose.slides/baseslide). [`BaseSlide`](../../../aspose.slides/baseslide) est le type de base pour [`Slide`](../slide), [`MasterSlide`](../masterslide) et [`LayoutSlide`](../layoutslide)
+Itérer chaque[`Shape`](../shape) dans le[`BaseSlide`](../../../aspose.slides/baseslide) . [`BaseSlide`](../../../aspose.slides/baseslide) est le type de base pour[`Slide`](../slide) ,[`MasterSlide`](../masterslide) et[`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| baseSlide | BaseSlide | Diapositive à itérer les formes de mise en page |
+| baseSlide | BaseSlide | Faites glisser pour itérer les formes de mise en page |
 | forEachShape | ForEachShapeCallback | Callback qui sera invoqué pour chaque forme |
 
 ### Exemples
@@ -106,12 +69,12 @@ public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
 } 
 ```
 
-### Voir Aussi
+### Voir également
 
-* classe [BaseSlide](../../../aspose.slides/baseslide)
-* délégué [ForEachShapeCallback](../../foreach.foreachshapecallback)
-* classe [ForEach](../../foreach)
+* class [BaseSlide](../../../aspose.slides/baseslide)
+* delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)
+* class [ForEach](../../foreach)
 * espace de noms [Aspose.Slides.LowCode](../../foreach)
-* assembly [Aspose.Slides](../../../)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

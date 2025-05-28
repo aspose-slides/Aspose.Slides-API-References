@@ -1,23 +1,22 @@
 ---
 title: SmartTagClean
-second_title: Справка по API Aspose.Slides для .NET
-description: Определяет, нужно ли очищать смарт-тег. Наследование не применяется. Boolean для чтения/записи.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет необходимость очистки смарт-тега. Наследование не применяется. Чтение/записьBoolean.
 type: docs
 weight: 60
 url: /ru/aspose.slides/portionformat/smarttagclean/
 ---
+## PortionFormat.SmartTagClean property
 
-## Свойство PortionFormat.SmartTagClean
-
-Определяет, нужно ли очищать смарт-тег. Наследование не применяется. Boolean для чтения/записи.
+Определяет необходимость очистки смарт-тега. Наследование не применяется. Чтение/записьBoolean.
 
 ```csharp
 public bool SmartTagClean { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [PortionFormat](../../portionformat)
+* class [PortionFormat](../../portionformat)
 * пространство имен [Aspose.Slides](../../portionformat)
 * сборка [Aspose.Slides](../../../)
 

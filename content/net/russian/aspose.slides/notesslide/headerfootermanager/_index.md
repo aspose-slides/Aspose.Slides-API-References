@@ -1,24 +1,23 @@
 ---
 title: HeaderFooterManager
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает менеджер заголовков и подвалов слайда заметок. Доступ только для чтения INotesSlideHeaderFooterManageraspose.slides/inotesslideheaderfootermanager.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает менеджер HeaderFooter слайда заметок. Только для чтенияINotesSlideHeaderFooterManageraspose.slides/inotesslideheaderfootermanager.
 type: docs
 weight: 10
 url: /ru/aspose.slides/notesslide/headerfootermanager/
 ---
+## NotesSlide.HeaderFooterManager property
 
-## Свойство NotesSlide.HeaderFooterManager
-
-Возвращает менеджер заголовков и подвалов слайда заметок. Доступ только для чтения [`INotesSlideHeaderFooterManager`](../../inotesslideheaderfootermanager).
+Возвращает менеджер HeaderFooter слайда заметок. Только для чтения[`INotesSlideHeaderFooterManager`](../../inotesslideheaderfootermanager).
 
 ```csharp
 public INotesSlideHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [INotesSlideHeaderFooterManager](../../inotesslideheaderfootermanager)
-* класс [NotesSlide](../../notesslide)
+* interface [INotesSlideHeaderFooterManager](../../inotesslideheaderfootermanager)
+* class [NotesSlide](../../notesslide)
 * пространство имен [Aspose.Slides](../../notesslide)
 * сборка [Aspose.Slides](../../../)
 

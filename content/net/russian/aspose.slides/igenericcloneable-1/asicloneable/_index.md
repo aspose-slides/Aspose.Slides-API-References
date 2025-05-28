@@ -1,13 +1,12 @@
 ---
 title: AsICloneable
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает интерфейс ICloneable.
 type: docs
 weight: 10
 url: /ru/aspose.slides/igenericcloneable-1/asicloneable/
 ---
-
-## IGenericCloneable&lt;T&gt;.AsICloneable свойство
+## IGenericCloneable&lt;T&gt;.AsICloneable property
 
 Возвращает интерфейс ICloneable.
 
@@ -17,11 +16,11 @@ public ICloneable AsICloneable { get; }
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCloneable&lt;T&gt;](../../igenericcloneable-1)
+* interface [IGenericCloneable&lt;T&gt;](../../igenericcloneable-1)
 * пространство имен [Aspose.Slides](../../igenericcloneable-1)
 * сборка [Aspose.Slides](../../../)
 

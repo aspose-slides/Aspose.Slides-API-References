@@ -1,23 +1,22 @@
 ---
 title: GetAutomaticDataPointColor
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает автоматический цвет точки данных на основе индекса серии, индекса точки данных, свойства ParentSeriesGroup.IsColorVaried и стиля графика. Этот цвет используется по умолчанию, если FillType равен NotDefined.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает автоматический цвет точки данных на основе индекса серии индекса точки данных свойства ParentSeriesGroup.IsColorVaried и стиля диаграммы. Этот цвет используется по умолчанию если FillType равен NotDefined.
 type: docs
-weight: 220
+weight: 210
 url: /ru/aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor/
 ---
+## ChartDataPoint.GetAutomaticDataPointColor method
 
-## Метод ChartDataPoint.GetAutomaticDataPointColor
-
-Возвращает автоматический цвет точки данных на основе индекса серии, индекса точки данных, свойства ParentSeriesGroup.IsColorVaried и стиля графика. Этот цвет используется по умолчанию, если FillType равен NotDefined.
+Возвращает автоматический цвет точки данных на основе индекса серии, индекса точки данных, свойства ParentSeriesGroup.IsColorVaried и стиля диаграммы. Этот цвет используется по умолчанию, если FillType равен NotDefined.
 
 ```csharp
 public Color GetAutomaticDataPointColor()
 ```
 
-### Также см.
+### Смотрите также
 
-* класс [ChartDataPoint](../../chartdatapoint)
+* class [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

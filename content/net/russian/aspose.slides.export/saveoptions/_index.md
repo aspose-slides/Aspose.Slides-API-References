@@ -1,33 +1,30 @@
 ---
 title: SaveOptions
-second_title: Aspose.Slides для .NET API Справочник
-description: Абстрактный класс с опциями, которые контролируют, как сохраняется презентация.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Абстрактный класс с параметрами управляющими сохранением презентации.
 type: docs
-weight: 4260
+weight: 4020
 url: /ru/aspose.slides.export/saveoptions/
 ---
+## SaveOptions class
 
-## Класс SaveOptions
-
-Абстрактный класс с опциями, которые контролируют, как сохраняется презентация.
+Абстрактный класс с параметрами, управляющими сохранением презентации.
 
 ```csharp
 public abstract class SaveOptions : ISaveOptions
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задает шрифт, используемый в случае отсутствия исходного шрифта. Читаемый/записываемый String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Читаемый/записываемый [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновлений прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемый/записываемый Boolean. Значение по умолчанию **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Читаемый/записываемый [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISaveOptions](../isaveoptions)
+* interface [ISaveOptions](../isaveoptions)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

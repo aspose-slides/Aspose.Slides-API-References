@@ -1,15 +1,14 @@
 ---
 title: CheckWriteProtection
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, защищена ли презентация паролем от изменений.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет защищена ли презентация паролем для изменения.
 type: docs
 weight: 70
 url: /ru/aspose.slides/iprotectionmanager/checkwriteprotection/
 ---
+## IProtectionManager.CheckWriteProtection method
 
-## Метод IProtectionManager.CheckWriteProtection
-
-Определяет, защищена ли презентация паролем от изменений.
+Определяет, защищена ли презентация паролем для изменения.
 
 ```csharp
 public bool CheckWriteProtection(string password)
@@ -19,13 +18,13 @@ public bool CheckWriteProtection(string password)
 | --- | --- | --- |
 | password | String | Пароль для проверки. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-True, если пароль действителен; в противном случае false.
+Истинно, если пароль действителен; в противном случае ложно.
 
 ### Примечания
 
-1. Вы должны проверить свойство [`IsWriteProtected`](../iswriteprotected) перед вызовом этого метода. 2. Если пароль равен null или пустой строке, этот метод возвращает false.
+1. Вы должны проверить свойство[`IsWriteProtected`](../iswriteprotected)перед вызовом этого метод. 2. Когда пароль нулевой или пустой, этот метод возвращает false.
 
 ### Примеры
 
@@ -37,9 +36,9 @@ using (var presentation = new Presentation(presentationFilePath))
 }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IProtectionManager](../../iprotectionmanager)
+* interface [IProtectionManager](../../iprotectionmanager)
 * пространство имен [Aspose.Slides](../../iprotectionmanager)
 * сборка [Aspose.Slides](../../../)
 

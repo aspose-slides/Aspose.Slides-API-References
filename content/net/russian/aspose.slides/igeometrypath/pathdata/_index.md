@@ -1,24 +1,23 @@
 ---
 title: PathData
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает геометрический путь GeometryShape в виде массива сегментов пути.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает путь геометрии GeometryShape в виде массива сегментов пути.
 type: docs
 weight: 20
 url: /ru/aspose.slides/igeometrypath/pathdata/
 ---
+## IGeometryPath.PathData property
 
-## IGeometryPath.PathData свойство
-
-Возвращает геометрический путь GeometryShape в виде массива сегментов пути.
+Возвращает путь геометрии GeometryShape в виде массива сегментов пути.
 
 ```csharp
 public IPathSegment[] PathData { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPathSegment](../../ipathsegment)
-* интерфейс [IGeometryPath](../../igeometrypath)
+* interface [IPathSegment](../../ipathsegment)
+* interface [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 

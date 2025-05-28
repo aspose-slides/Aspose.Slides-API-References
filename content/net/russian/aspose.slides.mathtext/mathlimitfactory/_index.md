@@ -1,15 +1,14 @@
 ---
 title: MathLimitFactory
-second_title: Aspose.Slidess для .NET API Reference
-description: Позволяет создавать IMathLimit
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет создать IMathLimit
 type: docs
-weight: 8570
+weight: 8110
 url: /ru/aspose.slides.mathtext/mathlimitfactory/
 ---
+## MathLimitFactory class
 
-## Класс MathLimitFactory
-
-Позволяет создавать IMathLimit
+Позволяет создать IMathLimit
 
 ```csharp
 public class MathLimitFactory : IMathLimitFactory
@@ -17,24 +16,24 @@ public class MathLimitFactory : IMathLimitFactory
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [MathLimitFactory](mathlimitfactory)() | Конструктор по умолчанию. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Создает IMathLimit с пределом внизу |
+| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Создает IMathLimit с ограничением внизу |
 | [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Создает IMathLimit |
 
-### Замечания
+### Примечания
 
-Для совместимости с COM
+Для COM-совместимость
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathLimitFactory](../imathlimitfactory)
+* interface [IMathLimitFactory](../imathlimitfactory)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

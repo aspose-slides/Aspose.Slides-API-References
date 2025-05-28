@@ -1,29 +1,28 @@
 ---
 title: IAxisFormat
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет свойства форматирования диаграммы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет свойства формата диаграммы.
 type: docs
-weight: 1640
+weight: 1580
 url: /ru/aspose.slides.charts/iaxisformat/
 ---
+## IAxisFormat interface
 
-## Интерфейс IAxisFormat
-
-Представляет свойства форматирования диаграммы.
+Представляет свойства формата диаграммы.
 
 ```csharp
 public interface IAxisFormat
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Возвращает эффекты, используемые для оси. Только для чтения [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Возвращает свойства стиля заливки оси. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Возвращает свойства стиля линии оси. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Возвращает эффекты, используемые для оси. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Возвращает свойства стиля заливки оси. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Возвращает свойства стиля линии оси. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

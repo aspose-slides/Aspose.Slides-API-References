@@ -1,24 +1,23 @@
 ---
-title: КомментарииАвторы
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает коллекцию авторов комментариев. Только для чтения ICommentAuthorCollection aspose.slides/icommentauthorcollection.
+title: CommentAuthors
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает коллекцию авторов комментариев. Только для чтенияICommentAuthorCollectionaspose.slides/icommentauthorcollection.
 type: docs
 weight: 40
 url: /ru/aspose.slides/presentation/commentauthors/
 ---
+## Presentation.CommentAuthors property
 
-## Свойство Presentation.CommentAuthors
-
-Возвращает коллекцию авторов комментариев. Только для чтения [`ICommentAuthorCollection`](../../icommentauthorcollection).
+Возвращает коллекцию авторов комментариев. Только для чтения[`ICommentAuthorCollection`](../../icommentauthorcollection).
 
 ```csharp
 public ICommentAuthorCollection CommentAuthors { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ICommentAuthorCollection](../../icommentauthorcollection)
-* класс [Presentation](../../presentation)
+* interface [ICommentAuthorCollection](../../icommentauthorcollection)
+* class [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

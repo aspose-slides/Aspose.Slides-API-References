@@ -1,23 +1,22 @@
 ---
 title: RightToLeft
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, имеет ли таблица порядок чтения справа налево. Читаемая и записываемая логическая.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет имеет ли таблица порядок чтения справа налево. Чтение-записьBoolean.
 type: docs
-weight: 90
+weight: 80
 url: /ru/aspose.slides/table/righttoleft/
 ---
+## Table.RightToLeft property
 
-## Свойство Table.RightToLeft
-
-Определяет, имеет ли таблица порядок чтения справа налево. Читаемая и записываемая логическая.
+Определяет, имеет ли таблица порядок чтения справа налево. Чтение-записьBoolean.
 
 ```csharp
 public bool RightToLeft { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Table](../../table)
+* class [Table](../../table)
 * пространство имен [Aspose.Slides](../../table)
 * сборка [Aspose.Slides](../../../)
 

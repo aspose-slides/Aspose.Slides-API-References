@@ -1,24 +1,23 @@
 ---
 title: GetChildren
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Получение дочерних элементов
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получить дочерние элементы
 type: docs
 weight: 80
 url: /ru/aspose.slides.mathtext/matharray/getchildren/
 ---
+## MathArray.GetChildren method
 
-## MathArray.GetChildren метод
-
-Получение дочерних элементов
+Получить дочерние элементы
 
 ```csharp
 public IMathElement[] GetChildren()
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathArray](../../matharray)
+* interface [IMathElement](../../imathelement)
+* class [MathArray](../../matharray)
 * пространство имен [Aspose.Slides.MathText](../../matharray)
 * сборка [Aspose.Slides](../../../)
 

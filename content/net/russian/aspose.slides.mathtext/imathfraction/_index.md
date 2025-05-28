@@ -1,27 +1,26 @@
 ---
 title: IMathFraction
-second_title: Aspose.Slides для справочной информации по API .NET
-description: Определяет объект дроби, состоящий из числителя и знаменателя, разделенных баром дроби. Бар дроби может быть горизонтальным или диагональным в зависимости от свойств дроби. Объект дроби также используется для представления функции стека, которая помещает один элемент над другим без бара дроби.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает объект дроби состоящий из числителя и знаменателя разделенных чертой дроби. Полоса дроби может быть горизонтальной или диагональной в зависимости от свойств дроби. Объект дроби также используется для представления функции стека которая размещает один элемент над другим без дробной черты.
 type: docs
-weight: 8000
+weight: 7540
 url: /ru/aspose.slides.mathtext/imathfraction/
 ---
+## IMathFraction interface
 
-## Интерфейс IMathFraction
-
-Определяет объект дроби, состоящий из числителя и знаменателя, разделенных баром дроби. Бар дроби может быть горизонтальным или диагональным, в зависимости от свойств дроби. Объект дроби также используется для представления функции стека, которая помещает один элемент над другим без бара дроби.
+Задает объект дроби, состоящий из числителя и знаменателя, разделенных чертой дроби. Полоса дроби может быть горизонтальной или диагональной, в зависимости от свойств дроби. Объект дроби также используется для представления функции стека, которая размещает один элемент над другим, без дробной черты.
 
 ```csharp
 public interface IMathFraction : IMathElement
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Знаменатель |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Тип дроби По умолчанию: Bar |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Тип дроби По умолчанию:Бар |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Числитель |
 
 ### Примеры
@@ -34,9 +33,9 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathFraction mathFraction2 = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../imathelement)
+* interface [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

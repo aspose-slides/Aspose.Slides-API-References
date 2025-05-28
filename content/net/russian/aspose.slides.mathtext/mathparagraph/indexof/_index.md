@@ -1,13 +1,12 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет индекс конкретного IMathBlock в коллекции.
 type: docs
 weight: 80
 url: /ru/aspose.slides.mathtext/mathparagraph/indexof/
 ---
-
-## MathParagraph.IndexOf метод
+## MathParagraph.IndexOf method
 
 Определяет индекс конкретного IMathBlock в коллекции.
 
@@ -17,11 +16,11 @@ public int IndexOf(IMathBlock mathBlock)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathBlock | IMathBlock | Элемент, который нужно найти в коллекции. |
+| mathBlock | IMathBlock | Элемент, который необходимо найти в коллекции. |
 
 ### Возвращаемое значение
 
-Индекс *mathBlock*, если он найден в коллекции; в противном случае -1.
+Индекс*mathBlock*, если он найден в коллекции; иначе -1.
 
 ### Примеры
 
@@ -36,10 +35,10 @@ mathParagraph.Add(block);
 int index = mathParagraph.IndexOf(block);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathBlock](../../imathblock)
-* класс [MathParagraph](../../mathparagraph)
+* interface [IMathBlock](../../imathblock)
+* class [MathParagraph](../../mathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraph)
 * сборка [Aspose.Slides](../../../)
 

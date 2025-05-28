@@ -1,13 +1,12 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Slides для справки по API .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Эффект перехода слайда In-Out.
 type: docs
-weight: 9800
+weight: 9330
 url: /ru/aspose.slides.slideshow/iinouttransition/
 ---
-
-## Интерфейс IInOutTransition
+## IInOutTransition interface
 
 Эффект перехода слайда In-Out.
 
@@ -15,16 +14,16 @@ url: /ru/aspose.slides.slideshow/iinouttransition/
 public interface IInOutTransition : ITransitionValueBase
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Направление эффекта перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Направление эффекта перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
-### Также см.
- 
-* интерфейс [ITransitionValueBase](../itransitionvaluebase)
+### Смотрите также
+
+* interface [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

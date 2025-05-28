@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.export.web/webdocumentoptions/webdocumentoptions/
 ---
-
-## Конструктор WebDocumentOptions
+## WebDocumentOptions constructor
 
 Конструктор по умолчанию.
 
@@ -17,7 +16,7 @@ public WebDocumentOptions()
 
 ### Смотрите также
 
-* класс [WebDocumentOptions](../../webdocumentoptions)
+* class [WebDocumentOptions](../../webdocumentoptions)
 * пространство имен [Aspose.Slides.Export.Web](../../webdocumentoptions)
 * сборка [Aspose.Slides](../../../)
 

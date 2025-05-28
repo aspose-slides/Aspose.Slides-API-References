@@ -1,15 +1,14 @@
 ---
-title: Обрамление
-second_title: Aspose.Slides для .NET API Справочник
-description: Обрамляет дочерние элементы этого блока в указанных символах, таких как скобки или другие, как обрамление, и разделяет их с помощью символа-разделителя
+title: Enclose
+second_title: Справочник по API Aspose.Slides для .NET
+description: Заключает дочерние элементы этого блока в указанные символы такие как круглые скобки или другие в качестве обрамления и разделяет символом-разделителем
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathblock/enclose/
 ---
+## IMathBlock.Enclose method
 
-## IMathBlock.Enclose метод
-
-Обрамляет дочерние элементы этого блока в указанных символах, таких как скобки или другие, как обрамление, и разделяет их с помощью символа-разделителя
+Заключает дочерние элементы этого блока в указанные символы, такие как круглые скобки или другие в качестве обрамления и разделяет символом-разделителем
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter, 
@@ -19,12 +18,12 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | beginningCharacter | Char | Начальный символ (обычно левая скобка) |
-| endingCharacter | Char | Конечный символ (обычно правая скобка) |
-| separatorCharacter | Char | Символ-разделитель |
+| endingCharacter | Char | Конечный символ (обычно правая скобка) ) |
+| separatorCharacter | Char | Знак-разделитель |
 
 ### Возвращаемое значение
 
-Элемент математики типа [`IMathDelimiter`](../../imathdelimiter), который включает указанные символы в качестве обрамления и разделителя
+Математический элемент типа[`IMathDelimiter`](../../imathdelimiter)который включает указанные символы в качестве обрамления и разделителя
 
 ### Примеры
 
@@ -36,10 +35,10 @@ IMathBlock mathBlock = new MathematicalText("x").Join("y");
 IMathDelimiter delimiterElement = mathBlock.Enclose('{', '}', '%');
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathDelimiter](../../imathdelimiter)
-* интерфейс [IMathBlock](../../imathblock)
+* interface [IMathDelimiter](../../imathdelimiter)
+* interface [IMathBlock](../../imathblock)
 * пространство имен [Aspose.Slides.MathText](../../imathblock)
 * сборка [Aspose.Slides](../../../)
 

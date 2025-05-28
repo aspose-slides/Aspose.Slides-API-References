@@ -1,15 +1,14 @@
 ---
-title: Порядок
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает порядок серии. Чтение/запись Int32.
+title: Order
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает порядок ряда. Чтение/записьInt32.
 type: docs
 weight: 260
 url: /ru/aspose.slides.charts/chartseries/order/
 ---
+## ChartSeries.Order property
 
-## Свойство ChartSeries.Order
-
-Возвращает порядок серии. Чтение/запись Int32.
+Возвращает порядок ряда. Чтение/записьInt32.
 
 ```csharp
 public int Order { get; set; }
@@ -17,7 +16,7 @@ public int Order { get; set; }
 
 ### Смотрите также
 
-* класс [ChartSeries](../../chartseries)
+* class [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)
 * сборка [Aspose.Slides](../../../)
 

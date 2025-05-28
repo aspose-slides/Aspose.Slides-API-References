@@ -1,34 +1,33 @@
 ---
 title: UpDownBarsManager
-second_title: Справка по API Aspose.Sildes для .NET
-description: Обеспечивает доступ к вверх/вниз полосам линейного или фондового графика.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Обеспечивает доступ к барам вверх/вниз линейного или биржевого графика.
 type: docs
-weight: 2420
+weight: 2360
 url: /ru/aspose.slides.charts/updownbarsmanager/
 ---
+## UpDownBarsManager class
 
-## Класс UpDownBarsManager
-
-Обеспечивает доступ к вверх/вниз полосам линейного или фондового графика.
+Обеспечивает доступ к барам вверх/вниз линейного или биржевого графика.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Возвращает формат DownBars. Только для чтения [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | Ширина промежутка. Читаемое/записываемое значение Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | Наличие UpDownBars. Читаемое/записываемое значение Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | Возвращает формат UpBars. Только для чтения [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Возвращает формат DownBars. Только для чтения[`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | Ширина зазора. Чтение/записьInt32. |
+| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. Чтение/записьBoolean. |
+| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | Возвращает формат UpBars. Только для чтения[`IFormat`](../iformat). |
 
-### См. также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* класс [ChartSeriesGroup](../chartseriesgroup)
-* интерфейс [IUpDownBarsManager](../iupdownbarsmanager)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartSeriesGroup](../chartseriesgroup)
+* interface [IUpDownBarsManager](../iupdownbarsmanager)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

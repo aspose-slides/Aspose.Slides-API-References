@@ -1,23 +1,22 @@
 ---
-title: Имя
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает имя этого значения настройки. Только для чтения строка.
+title: Name
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает имя этого значения настройки. Только чтениеString.
 type: docs
 weight: 20
 url: /ru/aspose.slides/adjustvalue/name/
 ---
+## AdjustValue.Name property
 
-## Свойство AdjustValue.Name
-
-Возвращает имя этого значения настройки. Только для чтения строка.
+Возвращает имя этого значения настройки. Только чтениеString.
 
 ```csharp
 public string Name { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [AdjustValue](../../adjustvalue)
+* class [AdjustValue](../../adjustvalue)
 * пространство имен [Aspose.Slides](../../adjustvalue)
 * сборка [Aspose.Slides](../../../)
 

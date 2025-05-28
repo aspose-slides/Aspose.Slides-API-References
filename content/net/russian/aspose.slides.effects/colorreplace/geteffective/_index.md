@@ -1,15 +1,14 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает эффективные данные эффекта замены цвета с применением наследования.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает данные об эффективном эффекте замены цвета с применением наследования.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/colorreplace/geteffective/
 ---
+## ColorReplace.GetEffective method
 
-## Метод ColorReplace.GetEffective
-
-Получает эффективные данные эффекта замены цвета с применением наследования.
+Получает данные об эффективном эффекте замены цвета с применением наследования.
 
 ```csharp
 public IColorReplaceEffectiveData GetEffective()
@@ -17,12 +16,12 @@ public IColorReplaceEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`IColorReplaceEffectiveData`](../../icolorreplaceeffectivedata).
+A[`IColorReplaceEffectiveData`](../../icolorreplaceeffectivedata).
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColorReplaceEffectiveData](../../icolorreplaceeffectivedata)
-* класс [ColorReplace](../../colorreplace)
+* interface [IColorReplaceEffectiveData](../../icolorreplaceeffectivedata)
+* class [ColorReplace](../../colorreplace)
 * пространство имен [Aspose.Slides.Effects](../../colorreplace)
 * сборка [Aspose.Slides](../../../)
 

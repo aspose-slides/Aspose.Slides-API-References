@@ -1,13 +1,12 @@
 ---
 title: FontSources
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новые параметры шрифта по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontsources/fontsources/
 ---
-
-## Конструктор FontSources
+## FontSources constructor
 
 Создает новые параметры шрифта по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/fontsources/fontsources/
 public FontSources()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [FontSources](../../fontsources)
+* class [FontSources](../../fontsources)
 * пространство имен [Aspose.Slides](../../fontsources)
 * сборка [Aspose.Slides](../../../)
 

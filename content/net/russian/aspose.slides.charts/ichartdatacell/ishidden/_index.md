@@ -1,23 +1,22 @@
 ---
 title: IsHidden
-second_title: Справочник API Aspose.Slides для .NET
-description: Определяет, скрыта ли ячейка. Только для чтения Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет скрыта ли ячейка. Только чтениеBoolean.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ichartdatacell/ishidden/
 ---
+## IChartDataCell.IsHidden property
 
-## Свойство IChartDataCell.IsHidden
-
-Определяет, скрыта ли ячейка. Только для чтения Boolean.
+Определяет, скрыта ли ячейка. Только чтениеBoolean.
 
 ```csharp
 public bool IsHidden { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataCell](../../ichartdatacell)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatacell)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: Расстояние
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Расстояние отражения. Только для чтения Double.
+title: Distance
+second_title: Справочник по API Aspose.Slides для .NET
+description: Расстояние отражения. Только для чтенияDouble.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/ireflectioneffectivedata/distance/
 ---
+## IReflectionEffectiveData.Distance property
 
-## Свойство IReflectionEffectiveData.Distance
-
-Расстояние отражения. Только для чтения Double.
+Расстояние отражения. Только для чтенияDouble.
 
 ```csharp
 public double Distance { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IReflectionEffectiveData](../../ireflectioneffectivedata)
+* interface [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ireflectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

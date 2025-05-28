@@ -1,12 +1,11 @@
 ---
 title: SetSuperscript
-second_title: Aspose.Slides для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает верхний индекс
 type: docs
 weight: 170
 url: /ru/aspose.slides.mathtext/imathelement/setsuperscript/
 ---
-
 ## SetSuperscript(IMathElement) {#setsuperscript}
 
 Создает верхний индекс
@@ -17,11 +16,11 @@ public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| superscript | IMathElement | Верхний индекс (верхний индекс справа) |
+| верхнийиндекс | IMathElement | Верхний индекс (верхний индекс справа) |
 
 ### Возвращаемое значение
 
-Новый математический элемент типа [`IMathSuperscriptElement`](../../imathsuperscriptelement)
+Новый математический элемент типа[`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
 ### Примеры
 
@@ -34,10 +33,10 @@ IMathElement index = new MathematicalText("4");
 IMathSuperscriptElement superscript = element.SetSuperscript(index);
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMathSuperscriptElement](../../imathsuperscriptelement)
-* интерфейс [IMathElement](../../imathelement)
+* interface [IMathSuperscriptElement](../../imathsuperscriptelement)
+* interface [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
@@ -53,11 +52,11 @@ public IMathSuperscriptElement SetSuperscript(string superscript)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| superscript | String | Верхний индекс (верхний индекс справа) |
+| верхнийиндекс | String | Верхний индекс (верхний индекс справа) |
 
 ### Возвращаемое значение
 
-Новый математический элемент типа [`IMathSuperscriptElement`](../../imathsuperscriptelement)
+Новый математический элемент типа[`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
 ### Примеры
 
@@ -69,10 +68,10 @@ IMathElement element = new MathematicalText("N");
 IMathSuperscriptElement superscript = element.SetSuperscript("4");
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMathSuperscriptElement](../../imathsuperscriptelement)
-* интерфейс [IMathElement](../../imathelement)
+* interface [IMathSuperscriptElement](../../imathsuperscriptelement)
+* interface [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

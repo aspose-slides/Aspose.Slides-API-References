@@ -1,23 +1,22 @@
 ---
 title: DeletePicturesCroppedAreas
 second_title: Справочник по API Aspose.Slides для .NET
-description: Булев флаг, указывающий, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе, что может привести к увеличению размера файла.
+description: Логический флаг указывает остаются ли обрезанные части частью документа. Если true обрезанные части будут удалены если false они будут сериализованы в документе что может привести к увеличению файла 
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/htmloptions/deletepicturescroppedareas/
 ---
+## HtmlOptions.DeletePicturesCroppedAreas property
 
-## HtmlOptions.DeletePicturesCroppedAreas свойство
-
-Булев флаг, указывающий, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению размера файла).
+Логический флаг указывает, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению файла )
 
 ```csharp
 public bool DeletePicturesCroppedAreas { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [HtmlOptions](../../htmloptions)
+* class [HtmlOptions](../../htmloptions)
 * пространство имен [Aspose.Slides.Export](../../htmloptions)
 * сборка [Aspose.Slides](../../../)
 

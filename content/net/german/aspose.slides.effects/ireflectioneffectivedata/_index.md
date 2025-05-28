@@ -1,13 +1,12 @@
 ---
 title: IReflectionEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Unveränderliches Objekt, das einen Reflexionseffekt darstellt.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Unveränderliches Objekt das einen Reflexionseffekt darstellt.
 type: docs
-weight: 3390
+weight: 3330
 url: /de/aspose.slides.effects/ireflectioneffectivedata/
 ---
-
-## IReflectionEffectiveData-Schnittstelle
+## IReflectionEffectiveData interface
 
 Unveränderliches Objekt, das einen Reflexionseffekt darstellt.
 
@@ -19,26 +18,26 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IEffectEffectiveData. Nur-Lesen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Unschärferadius. Nur-Lesen Double. |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Richtung der Reflexion. Nur-Lesen Single. |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Abstand der Reflexion. Nur-Lesen Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Gibt die Endposition (entlang der Alpha-Gradientenrampe) des Endalworths (Prozent) an. Nur-Lesen Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Endreflexionsopazität. (Prozent). Nur-Lesen Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Gibt die Richtung an, in der die Reflexion verschoben werden soll. (Winkel). Nur-Lesen Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Rechteckausrichtung. Nur-Lesen [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Gibt an, ob die Reflexion zusammen mit der Form rotiert werden soll, wenn die Form gedreht wird. Nur-Lesen Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Gibt den horizontalen Skalierungsfaktor an, negative Skalierung führt zu einer Umkehrung. (Prozent) Nur-Lesen Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Gibt den vertikalen Skalierungsfaktor an, negative Skalierung führt zu einer Umkehrung. (Prozent) Nur-Lesen Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Gibt den horizontalen Schrägwinkel an. Nur-Lesen Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Gibt den vertikalen Schrägwinkel an. Nur-Lesen Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Gibt die Startposition (entlang der Alpha-Gradientenrampe) des Startalworths (Prozent) an. Nur-Lesen Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Startreflexionsopazität. (Prozent). Nur-Lesen Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Schreibgeschützt[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Unschärferadius. SchreibgeschütztDouble . |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Reflexionsrichtung. Nur lesenSingle . |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Reflexionsabstand. Nur LesenDouble . |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Gibt die Endposition (entlang der Alpha-Gradientenrampe) des Alpha-Endwerts (Prozent) an. SchreibgeschütztSingle . |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Endreflexionsopazität. (Prozent). SchreibgeschütztSingle . |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Gibt die Richtung zum Versetzen der Reflexion an. (Winkel). SchreibgeschütztSingle . |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Rechteckausrichtung. Schreibgeschützt[`RectangleAlignment`](../../aspose.slides/rectanglealignment) . |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Gibt an, ob sich die Reflexion mit der Form drehen soll, wenn die Form gedreht wird. SchreibgeschütztBoolean . |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Gibt den horizontalen Skalierungsfaktor an, negative Skalierung bewirkt einen Flip. (Prozent) SchreibgeschütztDouble . |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Gibt den vertikalen Skalierungsfaktor an, negative Skalierung bewirkt einen Flip. (Prozent) SchreibgeschütztDouble . |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Gibt den horizontalen Neigungswinkel an. SchreibgeschütztDouble . |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Gibt den vertikalen Neigungswinkel an. SchreibgeschütztDouble . |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Gibt die Startposition (entlang der Alpha-Gradientenrampe) des Start-Alpha-Werts (Prozent) an. SchreibgeschütztSingle . |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Anfangsreflexionsopazität. (Prozent). SchreibgeschütztSingle . |
 
 ### Siehe auch
 
-* Schnittstelle [IEffectEffectiveData](../ieffecteffectivedata)
-* Namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
-* Assembly [Aspose.Slides](../../)
+* interface [IEffectEffectiveData](../ieffecteffectivedata)
+* namensraum [Aspose.Slides.Effects](../../aspose.slides.effects)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

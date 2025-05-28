@@ -1,13 +1,12 @@
 ---
 title: AddTemplate
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет шаблон в коллекцию шаблонов.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export.web/itemplateengine/addtemplate/
 ---
-
-## Метод ITemplateEngine.AddTemplate
+## ITemplateEngine.AddTemplate method
 
 Добавляет шаблон в коллекцию шаблонов.
 
@@ -21,9 +20,9 @@ public void AddTemplate(string key, string template, Type modelType)
 | template | String | Содержимое шаблона. |
 | modelType | Type | Тип объекта модели для шаблона. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITemplateEngine](../../itemplateengine)
+* interface [ITemplateEngine](../../itemplateengine)
 * пространство имен [Aspose.Slides.Export.Web](../../itemplateengine)
 * сборка [Aspose.Slides](../../../)
 

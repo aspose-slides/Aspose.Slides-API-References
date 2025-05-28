@@ -1,15 +1,14 @@
 ---
 title: ShowHiddenSlides
-second_title: Справка по API Aspose.Slides для .NET
-description: Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию значение - false.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию false .
 type: docs
-weight: 170
+weight: 150
 url: /ru/aspose.slides.export/ipdfoptions/showhiddenslides/
 ---
+## IPdfOptions.ShowHiddenSlides property
 
-## Свойство IPdfOptions.ShowHiddenSlides
-
-Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию значение - `false`.
+Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию:` false` .
 
 ```csharp
 public bool ShowHiddenSlides { get; set; }
@@ -17,7 +16,7 @@ public bool ShowHiddenSlides { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IPdfOptions](../../ipdfoptions)
+* interface [IPdfOptions](../../ipdfoptions)
 * пространство имен [Aspose.Slides.Export](../../ipdfoptions)
 * сборка [Aspose.Slides](../../../)
 

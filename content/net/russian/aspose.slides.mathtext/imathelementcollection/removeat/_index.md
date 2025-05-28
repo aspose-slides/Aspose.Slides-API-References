@@ -1,15 +1,14 @@
 ---
 title: RemoveAt
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет элемент по указанному индексу из коллекции.
+description: Удаляет элемент по указанному индексу коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides.mathtext/imathelementcollection/removeat/
 ---
+## IMathElementCollection.RemoveAt method
 
-## Метод IMathElementCollection.RemoveAt
-
-Удаляет элемент по указанному индексу из коллекции.
+Удаляет элемент по указанному индексу коллекции.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,7 +16,7 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс элемента, который нужно удалить, с нулевым основанием. |
+| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
 
 ### Примеры
 
@@ -32,9 +31,9 @@ collection.Insert(0, new MathRadical(new MathematicalText("x"), new Mathematical
 collection.RemoveAt(2);
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMathElementCollection](../../imathelementcollection)
+* interface [IMathElementCollection](../../imathelementcollection)
 * пространство имен [Aspose.Slides.MathText](../../imathelementcollection)
 * сборка [Aspose.Slides](../../../)
 

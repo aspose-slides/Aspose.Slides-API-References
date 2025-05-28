@@ -6,8 +6,7 @@ type: docs
 weight: 90
 url: /ru/aspose.slides.charts/chartcategorycollection/copyto/
 ---
-
-## Метод ChartCategoryCollection.CopyTo
+## ChartCategoryCollection.CopyTo method
 
 Копирует все элементы коллекции в указанный массив.
 
@@ -20,9 +19,9 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в массиве. |
 
-### См. также
+### Смотрите также
 
-* класс [ChartCategoryCollection](../../chartcategorycollection)
+* class [ChartCategoryCollection](../../chartcategorycollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorycollection)
 * сборка [Aspose.Slides](../../../)
 

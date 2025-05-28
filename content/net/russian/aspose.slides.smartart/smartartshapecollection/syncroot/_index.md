@@ -1,15 +1,14 @@
 ---
 title: SyncRoot
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает корень синхронизации. Объект только для чтения.
+description: Возвращает корень синхронизации. Только для чтенияObject.
 type: docs
 weight: 40
 url: /ru/aspose.slides.smartart/smartartshapecollection/syncroot/
 ---
+## SmartArtShapeCollection.SyncRoot property
 
-## Свойство SmartArtShapeCollection.SyncRoot
-
-Возвращает корень синхронизации. Объект только для чтения.
+Возвращает корень синхронизации. Только для чтенияObject.
 
 ```csharp
 public object SyncRoot { get; }
@@ -17,7 +16,7 @@ public object SyncRoot { get; }
 
 ### Смотрите также
 
-* класс [SmartArtShapeCollection](../../smartartshapecollection)
+* class [SmartArtShapeCollection](../../smartartshapecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartshapecollection)
 * сборка [Aspose.Slides](../../../)
 

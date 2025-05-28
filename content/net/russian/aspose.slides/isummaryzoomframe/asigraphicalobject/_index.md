@@ -1,13 +1,12 @@
 ---
 title: AsIGraphicalObject
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает интерфейс IGraphicalObject.
 type: docs
 weight: 10
 url: /ru/aspose.slides/isummaryzoomframe/asigraphicalobject/
 ---
-
-## ISummaryZoomFrame.AsIGraphicalObject свойство
+## ISummaryZoomFrame.AsIGraphicalObject property
 
 Возвращает интерфейс IGraphicalObject.
 
@@ -15,14 +14,14 @@ url: /ru/aspose.slides/isummaryzoomframe/asigraphicalobject/
 public IGraphicalObject AsIGraphicalObject { get; }
 ```
 
-### Замечания
+### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGraphicalObject](../../igraphicalobject)
-* интерфейс [ISummaryZoomFrame](../../isummaryzoomframe)
+* interface [IGraphicalObject](../../igraphicalobject)
+* interface [ISummaryZoomFrame](../../isummaryzoomframe)
 * пространство имен [Aspose.Slides](../../isummaryzoomframe)
 * сборка [Aspose.Slides](../../../)
 

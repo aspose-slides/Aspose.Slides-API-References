@@ -1,37 +1,36 @@
 ---
 title: WheelTransition
-second_title: Aspose.Slides для .NET API Справочник
-description: Эффект перехода колеса слайда.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода при скольжении колеса.
 type: docs
-weight: 10160
+weight: 9690
 url: /ru/aspose.slides.slideshow/wheeltransition/
 ---
+## WheelTransition class
 
-## WheelTransition класс
-
-Эффект перехода колеса слайда.
+Эффект перехода при скольжении колеса.
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Количество спиц перехода колеса. Чтение/запись UInt32. |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Количество спиц колесного перехода. Чтение/записьUInt32. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Используется в качестве хеш-функции для определенного типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
-### См. также
+### Смотрите также
 
-* класс [TransitionValueBase](../transitionvaluebase)
-* интерфейс [IWheelTransition](../iwheeltransition)
+* class [TransitionValueBase](../transitionvaluebase)
+* interface [IWheelTransition](../iwheeltransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

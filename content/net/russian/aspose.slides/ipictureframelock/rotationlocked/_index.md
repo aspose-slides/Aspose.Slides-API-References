@@ -1,23 +1,22 @@
 ---
 title: RotationLocked
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, запрещено ли изменение угла вращения этой фигуры. Читаемое/Записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет запрещено ли изменение угла поворота этой фигуры. Чтение/записьBoolean.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ipictureframelock/rotationlocked/
 ---
+## IPictureFrameLock.RotationLocked property
 
-## IPictureFrameLock.RotationLocked свойство
-
-Определяет, запрещено ли изменение угла вращения этой фигуры. Читаемое/Записываемое логическое значение.
+Определяет, запрещено ли изменение угла поворота этой фигуры. Чтение/записьBoolean.
 
 ```csharp
 public bool RotationLocked { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPictureFrameLock](../../ipictureframelock)
+* interface [IPictureFrameLock](../../ipictureframelock)
 * пространство имен [Aspose.Slides](../../ipictureframelock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: Радиус
-second_title: Ссылки на API Aspose.Slides для .NET
-description: Радиус. Чтение/запись Double.
+title: Radius
+second_title: Справочник по API Aspose.Slides для .NET
+description: Радиус. Чтение/записьDouble.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/glow/radius/
 ---
+## Glow.Radius property
 
-## Свойство Glow.Radius
-
-Радиус. Чтение/запись Double.
+Радиус. Чтение/записьDouble.
 
 ```csharp
 public double Radius { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Glow](../../glow)
+* class [Glow](../../glow)
 * пространство имен [Aspose.Slides.Effects](../../glow)
 * сборка [Aspose.Slides](../../../)
 

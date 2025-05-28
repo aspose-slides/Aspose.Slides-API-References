@@ -1,23 +1,22 @@
 ---
 title: IsReadOnly
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает false, потому что коллекция дочерних элементов может быть изменена.
+description: Возвращает false поскольку коллекция дочерних элементов может быть изменена.
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathblock/isreadonly/
 ---
+## MathBlock.IsReadOnly property
 
-## MathBlock.IsReadOnly свойство
-
-Возвращает false, потому что коллекция дочерних элементов может быть изменена.
+Возвращает false, поскольку коллекция дочерних элементов может быть изменена.
 
 ```csharp
 public bool IsReadOnly { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [MathBlock](../../mathblock)
+* class [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

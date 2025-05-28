@@ -6,8 +6,7 @@ type: docs
 weight: 380
 url: /ru/aspose.slides/ishapecollection/removeat/
 ---
-
-## Метод IShapeCollection.RemoveAt
+## IShapeCollection.RemoveAt method
 
 Удаляет элемент по указанному индексу коллекции.
 
@@ -17,11 +16,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс элемента, который нужно удалить, с нулевым основанием. |
+| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

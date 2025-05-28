@@ -1,43 +1,42 @@
 ---
 title: IDataLabel
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет метки серий.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет метки серии.
 type: docs
-weight: 1940
+weight: 1880
 url: /ru/aspose.slides.charts/idatalabel/
 ---
+## IDataLabel interface
 
-## Интерфейс IDataLabel
-
-Представляет метки серий.
+Представляет метки серии.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | Возвращает интерфейс IActualLayout. |
-| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Возвращает интерфейс ILayoutable. Только для чтения [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Возвращает интерфейс IOverridableText. Только для чтения [`IOverridableText`](../ioverridabletext). |
-| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Возвращает формат метки данных. Только для чтения [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | Ложь означает, что метка данных не видима (и все флаги Show*-флага (ShowValue, ...) ложные). Только для чтения Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Получает или задает ячейку данных в книге. Применяется, если свойство IDataLabelFormat.ShowLabelValueFromCell равно true. |
+| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Возвращает интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Возвращает интерфейс IOverridableText. Только для чтения[`IOverridableText`](../ioverridabletext). |
+| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Возвращает формат метки данных. Только для чтения[`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False означает, что метка данных не видна (поэтому все флаги Show* (ShowValue, ...) ложны). Только чтениеBoolean. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Получает или задает ячейку данных рабочей книги. Применяется, если свойство IDataLabelFormat.ShowLabelValueFromCell равно true. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Возвращает фактический текст метки на основе настроек DataLabelFormat или значения TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Скрывает метку данных, устанавливая все флаги Show*-флага (ShowValue, ...) в состояние ложь. IsVisible будет ложным после этого. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Сделать метку данных скрытой, установив все флаги Show* (ShowValue, ...) в ложное состояние. IsVisible после этого будет false. |
 
 ### Смотрите также
 
-* интерфейс [IActualLayout](../iactuallayout)
-* интерфейс [ILayoutable](../ilayoutable)
-* интерфейс [IOverridableText](../ioverridabletext)
+* interface [IActualLayout](../iactuallayout)
+* interface [ILayoutable](../ilayoutable)
+* interface [IOverridableText](../ioverridabletext)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

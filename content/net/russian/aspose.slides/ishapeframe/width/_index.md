@@ -1,15 +1,14 @@
 ---
-title: Ширина
+title: Width
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ширину рамки. Только для чтения Single.
+description: Возвращает ширину кадра. Только для чтенияSingle.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ishapeframe/width/
 ---
+## IShapeFrame.Width property
 
-## Свойство IShapeFrame.Width
-
-Возвращает ширину рамки. Только для чтения Single.
+Возвращает ширину кадра. Только для чтенияSingle.
 
 ```csharp
 public float Width { get; }
@@ -17,7 +16,7 @@ public float Width { get; }
 
 ### Смотрите также
 
-* интерфейс [IShapeFrame](../../ishapeframe)
+* interface [IShapeFrame](../../ishapeframe)
 * пространство имен [Aspose.Slides](../../ishapeframe)
 * сборка [Aspose.Slides](../../../)
 

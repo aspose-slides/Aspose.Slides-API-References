@@ -1,15 +1,14 @@
 ---
 title: ITable
-second_title: Aspose.Slides pour la référence API .NET
-description: Représente une table sur une diapositive.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente un tableau sur une diapositive.
 type: docs
-weight: 7010
+weight: 6680
 url: /fr/aspose.slides/itable/
 ---
+## ITable interface
 
-## Interface ITable
-
-Représente une table sur une diapositive.
+Représente un tableau sur une diapositive.
 
 ```csharp
 public interface ITable : IBulkTextFormattable, IGraphicalObject
@@ -17,34 +16,34 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Permet d'obtenir l'interface de base IBulkTextFormattable. En lecture seule [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. En lecture seule [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | Renvoie la collection de colonnes. En lecture seule [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Détermine si la première colonne d'une table doit être dessinée avec un formatage spécial. Lecture/écriture Booléen. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Détermine si la première rangée d'une table doit être dessinée avec un formatage spécial. Lecture/écriture Booléen. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Détermine si les rangées paires doivent être dessinées avec un formatage différent. Lecture/écriture Booléen. |
-| [Item](../../aspose.slides/itable/item) { get; } | Renvoie la cellule aux index de colonne et de rangée spécifiés. En lecture seule [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Détermine si la dernière colonne d'une table doit être dessinée avec un formatage spécial. Lecture/écriture Booléen. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Détermine si la dernière rangée d'une table doit être dessinée avec un formatage spécial. Lecture/écriture Booléen. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Détermine si la table a un ordre de lecture de droite à gauche. Lecture/écriture Booléen. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | Renvoie la collection de rangées. En lecture seule [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Obtient ou définit le style de table intégré. Lecture/écriture [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Renvoie l'objet TableFormat qui contient les propriétés de formatage pour cette table. En lecture seule [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Détermine si les colonnes paires doivent être dessinées avec un formatage différent. Lecture/écriture Booléen. |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Permet d'obtenir l'interface IBulkTextFormattable de base. Lecture seule[`IBulkTextFormattable`](../ibulktextformattable) . |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Permet d'obtenir l'interface IGraphicalObject de base. Lecture seule[`IGraphicalObject`](../igraphicalobject) . |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Renvoie la collection de colonnes. Lecture seule[`IColumnCollection`](../icolumncollection) . |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Détermine si la première colonne d'un tableau doit être dessinée avec une mise en forme spéciale. Lecture/écritureBoolean . |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Détermine si la première ligne d'un tableau doit être dessinée avec une mise en forme spéciale. Lecture/écritureBoolean . |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Détermine si les lignes paires doivent être dessinées avec un formatage différent. Lecture/écritureBoolean . |
+| [Item](../../aspose.slides/itable/item) { get; } | Renvoie la cellule aux index de colonne et de ligne spécifiés. Lecture seule[`ICell`](../icell) . |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Détermine si la dernière colonne d'un tableau doit être dessinée avec une mise en forme spéciale. Lecture/écritureBoolean . |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Détermine si la dernière ligne d'un tableau doit être dessinée avec une mise en forme spéciale. Lecture/écritureBoolean . |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Détermine si la table a un ordre de lecture de droite à gauche. Lecture-écritureBoolean . |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Renvoie la collection de lignes. Lecture seule[`IRowCollection`](../irowcollection) . |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Récupère ou définit le style de tableau intégré. Lecture/écriture[`TableStylePreset`](../tablestylepreset) . |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Renvoie l'objet TableFormat qui contient les propriétés de mise en forme de ce tableau. Lecture seule[`ITableFormat`](../itableformat) . |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Détermine si les colonnes paires doivent être dessinées avec un formatage différent. Lecture/écritureBoolean . |
 
 ## Méthodes
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Fusionne les cellules voisines. |
 
-### Voir aussi
+### Voir également
 
 * interface [IBulkTextFormattable](../ibulktextformattable)
 * interface [IGraphicalObject](../igraphicalobject)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* Assemblée [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

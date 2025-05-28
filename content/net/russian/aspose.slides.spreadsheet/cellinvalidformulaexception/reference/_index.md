@@ -1,13 +1,12 @@
 ---
-title: Справка
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает ссылку на ячейку, содержащую недопустимую формулу.
+title: Reference
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает ссылку на ячейку содержащую недопустимую формулу.
 type: docs
 weight: 20
 url: /ru/aspose.slides.spreadsheet/cellinvalidformulaexception/reference/
 ---
-
-## Свойство CellInvalidFormulaException.Reference
+## CellInvalidFormulaException.Reference property
 
 Получает ссылку на ячейку, содержащую недопустимую формулу.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.spreadsheet/cellinvalidformulaexception/reference/
 public string Reference { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [CellInvalidFormulaException](../../cellinvalidformulaexception)
+* class [CellInvalidFormulaException](../../cellinvalidformulaexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellinvalidformulaexception)
 * сборка [Aspose.Slides](../../../)
 

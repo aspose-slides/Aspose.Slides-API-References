@@ -1,23 +1,22 @@
 ---
 title: HasDependingSlides
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает true, если существует как минимум один слайд, который зависит от этого мастер-слайда. Свойство только для чтения типа Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает true если существует хотя бы один слайд зависящий от этого мастер-слайда. Только чтениеBoolean.
 type: docs
 weight: 40
 url: /ru/aspose.slides/imasterslide/hasdependingslides/
 ---
+## IMasterSlide.HasDependingSlides property
 
-## Свойство IMasterSlide.HasDependingSlides
-
-Возвращает true, если существует как минимум один слайд, который зависит от этого мастер-слайда. Свойство только для чтения типа Boolean.
+Возвращает true, если существует хотя бы один слайд, зависящий от этого мастер-слайда. Только чтениеBoolean.
 
 ```csharp
 public bool HasDependingSlides { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMasterSlide](../../imasterslide)
+* interface [IMasterSlide](../../imasterslide)
 * пространство имен [Aspose.Slides](../../imasterslide)
 * сборка [Aspose.Slides](../../../)
 

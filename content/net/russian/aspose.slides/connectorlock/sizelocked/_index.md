@@ -1,23 +1,22 @@
 ---
 title: SizeLocked
-second_title: Справка по API Aspose.Slides для .NET
-description: Определяет, запрещено ли изменение размера этой формы. Установка/чтение логического значения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет запрещено ли изменение размера этой фигуры. Чтение/записьBoolean.
 type: docs
 weight: 100
 url: /ru/aspose.slides/connectorlock/sizelocked/
 ---
+## ConnectorLock.SizeLocked property
 
-## Свойство ConnectorLock.SizeLocked
-
-Определяет, запрещено ли изменение размера этой формы. Установка/чтение логического значения.
+Определяет, запрещено ли изменение размера этой фигуры. Чтение/записьBoolean.
 
 ```csharp
 public bool SizeLocked { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [ConnectorLock](../../connectorlock)
+* class [ConnectorLock](../../connectorlock)
 * пространство имен [Aspose.Slides](../../connectorlock)
 * сборка [Aspose.Slides](../../../)
 

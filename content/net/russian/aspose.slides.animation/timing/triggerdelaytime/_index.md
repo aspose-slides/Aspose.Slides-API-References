@@ -1,23 +1,22 @@
 ---
 title: TriggerDelayTime
-second_title: Aspose.Slides для .NET API Справочник
-description: Описывает время задержки после триггера. Чтение/запись Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Описывает время задержки после запуска. Чтение/записьSingle.
 type: docs
-weight: 120
+weight: 90
 url: /ru/aspose.slides.animation/timing/triggerdelaytime/
 ---
+## Timing.TriggerDelayTime property
 
-## Свойство Timing.TriggerDelayTime
-
-Описывает время задержки после триггера. Чтение/запись Single.
+Описывает время задержки после запуска. Чтение/записьSingle.
 
 ```csharp
 public float TriggerDelayTime { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Timing](../../timing)
+* class [Timing](../../timing)
 * пространство имен [Aspose.Slides.Animation](../../timing)
 * сборка [Aspose.Slides](../../../)
 

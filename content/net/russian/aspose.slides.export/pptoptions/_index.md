@@ -1,15 +1,14 @@
 ---
 title: PptOptions
-second_title: Aspose.Slides для .NET справочник по API
-description: Предоставляет параметры, которые контролируют, как презентация сохраняется в формате PPT.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Предоставляет параметры управляющие сохранением презентации в формате PPT.
 type: docs
-weight: 4170
+weight: 3960
 url: /ru/aspose.slides.export/pptoptions/
 ---
+## PptOptions class
 
-## Класс PptOptions
-
-Предоставляет параметры, которые контролируют, как презентация сохраняется в формате PPT.
+Предоставляет параметры, управляющие сохранением презентации в формате PPT.
 
 ```csharp
 public class PptOptions : SaveOptions, IPptOptions
@@ -21,21 +20,19 @@ public class PptOptions : SaveOptions, IPptOptions
 | --- | --- |
 | [PptOptions](pptoptions)() | Конструктор по умолчанию. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задает шрифт, используемый в случае отсутствия исходного шрифта. Читаемый/записываемый String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Читаемый/записываемый [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновлений прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Представляет GUID (CLSID) класса объекта, который хранится в записи корневого каталога. Может использоваться для активации приложения документа через COM. Значение по умолчанию - '64818D11-4F9B-11CF-86EA-00AA00B929E8', которое соответствует 'Microsoft Powerpoint.Slide.8'. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гипервlinks с вызовами JavaScript при сохранении презентации. Читаемый/записываемый Boolean. Значение по умолчанию - **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Читаемый/записываемый [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Представляет GUID (CLSID) класса объектов, который хранится в записи корневого каталога. Может использоваться для COM активации приложения документа. Значение по умолчанию — «64818D11-4F9B-11CF-86EA-00AA00B929E8», что соответствует «Microsoft Powerpoint.Slide.8». |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### См. также
+### Смотрите также
 
-* класс [SaveOptions](../saveoptions)
-* интерфейс [IPptOptions](../ipptoptions)
+* class [SaveOptions](../saveoptions)
+* interface [IPptOptions](../ipptoptions)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

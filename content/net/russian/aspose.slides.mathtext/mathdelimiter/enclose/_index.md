@@ -1,15 +1,14 @@
 ---
-title: Обрамление
+title: Enclose
 second_title: Справочник по API Aspose.Slides для .NET
-description: Оборачивает математический элемент в заданные символы, такие как скобки или другие символы для обрамления
+description: Заключает математический элемент в указанные символы такие как круглые скобки или другие символы в качестве обрамления
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/mathdelimiter/enclose/
 ---
+## MathDelimiter.Enclose method
 
-## MathDelimiter.Enclose метод
-
-Оборачивает математический элемент в заданные символы, такие как скобки или другие символы для обрамления
+Заключает математический элемент в указанные символы, такие как круглые скобки или другие символы в качестве обрамления
 
 ```csharp
 public override IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -17,12 +16,12 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| beginningCharacter | Char | Начальный символ (обычно левая скобка) |
+| beginCharacter | Char | Начальный символ (обычно левая скобка) |
 | endingCharacter | Char | Конечный символ (обычно правая скобка) |
 
 ### Возвращаемое значение
 
-Если *beginningCharacter* и *endingCharacter* равны null, соответствующим свойствам присваиваются значения только, и новый объект не создается (возвращается этот экземпляр). В противном случае возвращается новый математический элемент типа Delimiter, который включает указанные символы для обрамления и этот экземпляр [`MathDelimiter`](../../mathdelimiter), обрамленный внутри.
+Если*beginningCharacter*и*endingCharacter*равны null, соответствующим свойствам присваиваются только значения, а не новый объект создается (возвращает этот экземпляр). В противном случае возвращает новый математический элемент типа Delimiter, который включает указанные символы в качестве обрамления и этот экземпляр[`MathDelimiter`](../../mathdelimiter)оформлен внутри.
 
 ### Примеры
 
@@ -34,10 +33,10 @@ IMathDelimiter innerDelimiter = new MathematicalText("x").Join(",y").Enclose('{'
 IMathDelimiter outerDelimiter = innerDelimiter.Enclose('[', ']');
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathDelimiter](../../imathdelimiter)
-* класс [MathDelimiter](../../mathdelimiter)
+* interface [IMathDelimiter](../../imathdelimiter)
+* class [MathDelimiter](../../mathdelimiter)
 * пространство имен [Aspose.Slides.MathText](../../mathdelimiter)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,80 +1,79 @@
 ---
 title: ToSvg
-second_title: Aspose.Sildes for .NET API Reference
-description: 将演示文稿 Presentationaspose.slides/../aspose.slides/presentation 转换为 SVG。
+second_title: Aspose.Slides for .NET API 参考
+description: 将Presentationaspose.slides/presentation转换为 SVG
 type: docs
 weight: 30
 url: /zh/aspose.slides.lowcode/convert/tosvg/
 ---
-
 ## ToSvg(string) {#tosvg_3}
 
-将 [`Presentation`](../../../aspose.slides/presentation) 转换为 SVG。
+将[`Presentation`](../../../aspose.slides/presentation)转换为 SVG。
 
 ```csharp
 public static void ToSvg(string presPath)
 ```
 
-| 参数      | 类型     | 描述                     |
-| --------- | -------- | ------------------------ |
-| presPath  | String   | 输入演示文稿的路径      |
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| presPath | String | 输入表示的路径 |
 
-### 示例
+### 例子
 
 ```csharp
 Convert.ToSvg("pres.pptx");
 ```
 
-### 另请参阅
+### 也可以看看
 
 * class [Convert](../../convert)
-* namespace [Aspose.Slides.LowCode](../../convert)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides.LowCode](../../convert)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## ToSvg(string, GetOutPathCallback) {#tosvg_4}
 
-将 [`Presentation`](../../../aspose.slides/presentation) 转换为 SVG。
+将[`Presentation`](../../../aspose.slides/presentation)转换为 SVG。
 
 ```csharp
 public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
 ```
 
-| 参数      | 类型                      | 描述                                              |
-| --------- | ------------------------- | ------------------------------------------------- |
-| presPath  | String                    | 输入演示文稿的路径                                |
-| getOutPath | GetOutPathCallback      | 返回每个幻灯片 SVG 输出路径的回调               |
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| presPath | String | 输入表示的路径 |
+| getOutPath | GetOutPathCallback | 回调那个返回演示文稿中每张幻灯片的 SVG 输出路径 |
 
-### 示例
+### 例子
 
 ```csharp
 Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");
 ```
 
-### 另请参阅
+### 也可以看看
 
 * delegate [GetOutPathCallback](../../convert.getoutpathcallback)
 * class [Convert](../../convert)
-* namespace [Aspose.Slides.LowCode](../../convert)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides.LowCode](../../convert)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## ToSvg(Presentation, GetOutPathCallback) {#tosvg_1}
 
-将 [`Presentation`](../../../aspose.slides/presentation) 转换为 SVG。
+将[`Presentation`](../../../aspose.slides/presentation)转换为 SVG。
 
 ```csharp
 public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)
 ```
 
-| 参数      | 类型         | 描述                                          |
-| --------- | ------------ | --------------------------------------------- |
-| pres      | Presentation  | 输入的演示文稿                                |
-| getOutPath | GetOutPathCallback | 返回每个幻灯片 SVG 输出路径的回调          |
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| pres | Presentation | 输入表示 |
+| getOutPath | GetOutPathCallback | &gt; 返回的回调演示文稿中每张幻灯片的 SVG 输出路径 |
 
-### 示例
+### 例子
 
 ```csharp
 using (Presentation pres = new Presentation("input.pptx"))    
@@ -83,30 +82,30 @@ using (Presentation pres = new Presentation("input.pptx"))
 } 
 ```
 
-### 另请参阅
+### 也可以看看
 
 * class [Presentation](../../../aspose.slides/presentation)
 * delegate [GetOutPathCallback](../../convert.getoutpathcallback)
 * class [Convert](../../convert)
-* namespace [Aspose.Slides.LowCode](../../convert)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides.LowCode](../../convert)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## ToSvg(Presentation, ISVGOptions) {#tosvg}
 
-将 [`Presentation`](../../../aspose.slides/presentation) 转换为 SVG。
+将[`Presentation`](../../../aspose.slides/presentation)转换为 SVG。
 
 ```csharp
 public static void ToSvg(Presentation pres, ISVGOptions options)
 ```
 
-| 参数      | 类型         | 描述                                         |
-| --------- | ------------ | -------------------------------------------- |
-| pres      | Presentation  | 输入的演示文稿                               |
-| options   | ISVGOptions   | SVG 导出选项                                 |
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| pres | Presentation | 输入表示 |
+| options | ISVGOptions | SVG 导出选项 |
 
-### 示例
+### 例子
 
 ```csharp
 using (Presentation pres = new Presentation("input.pptx"))    
@@ -115,31 +114,31 @@ using (Presentation pres = new Presentation("input.pptx"))
 }  
 ```
 
-### 另请参阅
+### 也可以看看
 
 * class [Presentation](../../../aspose.slides/presentation)
 * interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
 * class [Convert](../../convert)
-* namespace [Aspose.Slides.LowCode](../../convert)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides.LowCode](../../convert)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## ToSvg(Presentation, GetOutPathCallback, ISVGOptions) {#tosvg_2}
 
-将 [`Presentation`](../../../aspose.slides/presentation) 转换为 SVG。
+将[`Presentation`](../../../aspose.slides/presentation)转换为 SVG。
 
 ```csharp
 public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath, ISVGOptions options)
 ```
 
-| 参数      | 类型                      | 描述                                         |
-| --------- | ------------------------- | -------------------------------------------- |
-| pres      | Presentation              | 输入的演示文稿                               |
-| getOutPath | GetOutPathCallback       | 返回每个幻灯片 SVG 输出路径的回调          |
-| options   | ISVGOptions              | SVG 导出选项                                 |
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| pres | Presentation | 输入表示 |
+| getOutPath | GetOutPathCallback | 返回 SVG 的回调演示文稿中每张幻灯片的输出路径 |
+| options | ISVGOptions | SVG 导出选项 |
 
-### 示例
+### 例子
 
 ```csharp
 using (Presentation pres = new Presentation("input.pptx"))    
@@ -148,13 +147,13 @@ using (Presentation pres = new Presentation("input.pptx"))
 } 
 ```
 
-### 另请参阅
+### 也可以看看
 
 * class [Presentation](../../../aspose.slides/presentation)
 * delegate [GetOutPathCallback](../../convert.getoutpathcallback)
 * interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
 * class [Convert](../../convert)
-* namespace [Aspose.Slides.LowCode](../../convert)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides.LowCode](../../convert)
+* 部件 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

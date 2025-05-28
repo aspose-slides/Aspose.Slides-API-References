@@ -1,15 +1,14 @@
 ---
 title: SplitByWidth
-second_title: Aspose.Sildes для .NET API Reference
-description: Делит ячейку по ширине.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Разбивает ячейку по ширине.
 type: docs
 weight: 280
 url: /ru/aspose.slides/cell/splitbywidth/
 ---
+## Cell.SplitByWidth method
 
-## Метод Cell.SplitByWidth
-
-Делит ячейку по ширине.
+Разбивает ячейку по ширине.
 
 ```csharp
 public void SplitByWidth(double width)
@@ -19,9 +18,9 @@ public void SplitByWidth(double width)
 | --- | --- | --- |
 | width | Double | Ширина столбца. |
 
-### Также смотрите
+### Смотрите также
 
-* класс [Cell](../../cell)
+* class [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)
 * сборка [Aspose.Slides](../../../)
 

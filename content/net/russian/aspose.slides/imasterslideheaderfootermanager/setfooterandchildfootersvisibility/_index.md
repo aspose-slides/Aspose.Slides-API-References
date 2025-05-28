@@ -1,15 +1,14 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Aspose.Slides для .NET API Справочник
-description: Изменяет видимость заполнителей нижнего колонтитула главного слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Изменяет видимость заполнителей нижнего колонтитула мастер-слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
 type: docs
 weight: 50
 url: /ru/aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
+## IMasterSlideHeaderFooterManager.SetFooterAndChildFootersVisibility method
 
-## IMasterSlideHeaderFooterManager.SetFooterAndChildFootersVisibility метод
-
-Изменяет видимость заполнителя нижнего колонтитула главного слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
+Изменяет видимость заполнителей нижнего колонтитула мастер-слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -19,9 +18,9 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 | --- | --- | --- |
 | isVisible | Boolean | true - делает заполнители нижнего колонтитула видимыми, иначе - скрывает их. |
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
+* interface [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../imasterslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

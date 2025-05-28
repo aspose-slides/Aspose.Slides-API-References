@@ -1,50 +1,49 @@
 ---
 title: BulletFormat
-second_title: Aspose.Slides pour référence API .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente les propriétés de formatage des puces de paragraphe.
 type: docs
-weight: 990
+weight: 970
 url: /fr/aspose.slides/bulletformat/
 ---
-
-## Classe BulletFormat
+## BulletFormat class
 
 Représente les propriétés de formatage des puces de paragraphe.
 
 ```csharp
-public sealed class BulletFormat : PVIObject, IBulletFormat
+public class BulletFormat : PVIObject, IBulletFormat
 ```
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. En lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Renvoie ou définit le caractère de puce d'un paragraphe sans héritage. En lecture/écriture Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Renvoie le format de couleur d'une puce d'un paragraphe sans héritage. En lecture seule [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Renvoie ou définit la police de puce d'un paragraphe sans héritage. En lecture/écriture [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Renvoie ou définit la hauteur de puce d'un paragraphe sans héritage. La valeur float.NaN détermine que la puce hérite de la hauteur de la première portion dans le paragraphe. En lecture/écriture Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Détermine si la puce a sa propre couleur ou l'hérite de la première portion dans le paragraphe. **NullableBool.True** si la puce a sa propre couleur et **NullableBool.False** si la puce hérite de la couleur de la première portion dans le paragraphe. En lecture/écriture [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Détermine si la puce a sa propre police ou l'hérite de la première portion dans le paragraphe. **NullableBool.True** si la puce a sa propre police et **NullableBool.False** si la puce hérite de la police de la première portion dans le paragraphe. En lecture/écriture [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Renvoie ou définit le premier numéro utilisé pour un groupe de puces numérotées sans héritage. En lecture/écriture Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Renvoie ou définit le style d'une puce numérotée sans héritage. En lecture/écriture [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Renvoie l'image utilisée comme puce dans un paragraphe sans héritage. En lecture seule [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Renvoie ou définit le type de puce d'un paragraphe sans héritage. En lecture/écriture [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface IPresentationComponent de base. Lecture seule[`IPresentationComponent`](../ipresentationcomponent) . |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Renvoie ou définit le caractère de puce d'un paragraphe sans héritage. Lecture/écritureChar . |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Renvoie le format de couleur d'une puce d'un paragraphe sans héritage. Lecture seule[`IColorFormat`](../icolorformat) . |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Renvoie ou définit la police à puces d'un paragraphe sans héritage. Lecture/écriture[`IFontData`](../ifontdata) . |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Renvoie ou définit la hauteur de la puce d'un paragraphe sans héritage. La valeur float.NaN détermine que la puce hérite de la hauteur de la première partie du paragraphe. Lecture/écritureSingle . |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Détermine si la puce a sa propre couleur ou si elle hérite de la première partie du paragraphe.  **NullableBool.True** si la balle a sa propre couleur et **NullableBool.False** si bullet hérite de la couleur de la première partie du paragraphe. Lecture/écriture[`NullableBool`](../nullablebool) . |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Détermine si la puce a sa propre police ou si elle hérite de la première partie du paragraphe.  **NullableBool.True** si la puce a sa propre police et **NullableBool.False**si bullet hérite de la police de la première partie du paragraphe. Lecture/écriture[`NullableBool`](../nullablebool) . |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Renvoie ou définit le premier numéro utilisé pour le groupe de puces numérotées sans héritage. Lecture/écritureInt16 . |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Renvoie ou définit le style d'une puce numérotée sans héritage. Lecture/écriture[`NumberedBulletStyle`](../numberedbulletstyle) . |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Renvoie l'image utilisée comme puce dans un paragraphe sans héritage. Lecture seule[`ISlidesPicture`](../islidespicture) . |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Renvoie ou définit le type de puce d'un paragraphe sans héritage. Lecture/écriture[`BulletType`](../bullettype) . |
 
 ## Méthodes
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Définit les décalages par défaut non nuls pour l'indentation effective du paragraphe et le MarginLeft lorsque les puces sont activées (comme le fait PowerPoint si l'option des puces/numérotation de paragraphe est activée). Si les puces sont désactivées, réinitialise simplement l'indentation du paragraphe et le MarginLeft (comme le fait PowerPoint si l'option des puces/numérotation de paragraphe est désactivée). Les décalages des indentations sont appliqués par rapport au contexte de la puce actuelle - IBulletFormat.Type, .NumberedBulletStyle et FontHeight de la première portion. Des décalages d'indentation non nuls sont appliqués à l'Indentation effective et au MarginLeft du paragraphe actuel (rendant les valeurs résultantes des valeurs locales). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Définit des décalages non nuls par défaut pour le retrait de paragraphe effectif et MarginLeft lorsque les puces sont activées (comme le fait PowerPoint si les puces/numérotations de paragraphe sont activées). Si les puces sont désactivées, réinitialisez simplement le retrait de paragraphe et la marge gauche (comme le fait PowerPoint si vous désactivez les puces/numérotations de paragraphe). Les décalages d'indentation sont appliqués en fonction du contexte actuel de la puce - IBulletFormat.Type, .NumberedBulletStyle et FontHeight de la première partie. Les décalages d'indentation non nuls sont appliqués à l'indentation et à la marge à gauche effectives du paragraphe actuel (faites des valeurs de résultat des valeurs locales). |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Obtient les données de formatage des puces effectives avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Obtient les données de formatage de puce efficaces avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
 
-### Voir aussi
+### Voir également
 
-* classe [PVIObject](../pviobject)
+* class [PVIObject](../pviobject)
 * interface [IBulletFormat](../ibulletformat)
 * espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

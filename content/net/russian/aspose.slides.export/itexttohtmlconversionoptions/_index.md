@@ -1,13 +1,12 @@
 ---
 title: ITextToHtmlConversionOptions
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Опции для извлечения HTML из текста Pptx.
 type: docs
-weight: 3990
+weight: 3820
 url: /ru/aspose.slides.export/itexttohtmlconversionoptions/
 ---
-
-## Интерфейс ITextToHtmlConversionOptions
+## ITextToHtmlConversionOptions interface
 
 Опции для извлечения HTML из текста Pptx.
 
@@ -15,16 +14,16 @@ url: /ru/aspose.slides.export/itexttohtmlconversionoptions/
 public interface ITextToHtmlConversionOptions
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Возвращает или устанавливает значение, указывающее, должны ли быть добавлены заголовки буфера обмена. Читаемое/записываемое булево значение. |
-| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | Возвращает или устанавливает имя HTML-кодирования. Это значение будет сохранено в сгенерированном HTML-файле, но ответственность за сохранение файла в этом кодировании лежит на вызывающей стороне. Читаемая/записываемая строка. |
-| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | Возвращает или устанавливает объект обратного вызова, который контролирует, как будут храниться внешние объекты. Читаемое/записываемое [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | Возвращает или устанавливает глубину наследования для текстовых свойств. Читаемое/записываемое [`TextInheritanceLimit`](./textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Возвращает или устанавливает значение, указывающее, следует ли добавлять заголовки буфера обмена. Чтение/записьBoolean. |
+| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | Возвращает или устанавливает имя кодировки html. Это значение будет сохранено в сгенерированном файле HTML, но вызывающая сторона должна убедиться, что файл будет сохранен в этой кодировке. Чтение/записьString. |
+| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | Возвращает или устанавливает объект обратного вызова, который управляет тем, как будет сохранен внешний объект. Чтение/запись[`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | Возвращает или задает глубину свойств текста. Чтение/запись[`TextInheritanceLimit`](./textinheritancelimit). |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

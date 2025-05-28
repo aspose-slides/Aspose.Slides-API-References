@@ -1,37 +1,36 @@
 ---
 title: RippleTransition
-second_title: Aspose.Sildes для .NET API Справочник
-description: Эффект перехода слайдов Ripple.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода слайда пульсации.
 type: docs
-weight: 9980
+weight: 9510
 url: /ru/aspose.slides.slideshow/rippletransition/
 ---
+## RippleTransition class
 
-## Класс RippleTransition
-
-Эффект перехода слайдов Ripple.
+Эффект перехода слайда пульсации.
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
-### См. также
+### Смотрите также
 
-* класс [TransitionValueBase](../transitionvaluebase)
-* интерфейс [IRippleTransition](../irippletransition)
+* class [TransitionValueBase](../transitionvaluebase)
+* interface [IRippleTransition](../irippletransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

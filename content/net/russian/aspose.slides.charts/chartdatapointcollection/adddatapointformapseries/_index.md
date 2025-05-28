@@ -1,15 +1,14 @@
 ---
 title: AddDataPointForMapSeries
-second_title: Aspose.Slides для .NET API Reference
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых - Карта.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям с типом диаграммы Карта.
 type: docs
 weight: 180
 url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointformapseries/
 ---
+## ChartDataPointCollection.AddDataPointForMapSeries method
 
-## ChartDataPointCollection.AddDataPointForMapSeries метод
-
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых - Карта.
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям с типом диаграммы Карта.
 
 ```csharp
 public IChartDataPoint AddDataPointForMapSeries(IChartDataCell value)
@@ -17,7 +16,7 @@ public IChartDataPoint AddDataPointForMapSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IChartDataCell | Цвет значения точки данных |
+| value | IChartDataCell | Точка данных ColorValue |
 
 ### Возвращаемое значение
 
@@ -39,11 +38,11 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* класс [ChartDataPointCollection](../../chartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

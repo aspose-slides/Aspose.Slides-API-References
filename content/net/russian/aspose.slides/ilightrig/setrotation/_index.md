@@ -1,15 +1,14 @@
 ---
 title: SetRotation
-second_title: Справка по API Aspose.Sildes для .NET
-description: Поворот определяется с использованием координаты широты, координаты долготы и вращения вокруг оси, как координаты широты, так и долготы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вращение определяется с помощью координаты широты координаты долготы и вращения вокруг оси как координаты широты и долготы.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ilightrig/setrotation/
 ---
+## ILightRig.SetRotation method
 
-## ILightRig.SetRotation метод
-
-Поворот определяется с использованием координаты широты, координаты долготы и вращения вокруг оси, как координаты широты, так и долготы.
+Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы.
 
 ```csharp
 public void SetRotation(float latitude, float longitude, float revolution)
@@ -17,13 +16,13 @@ public void SetRotation(float latitude, float longitude, float revolution)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| latitude | Single | Координата широты Single |
-| longitude | Single | Координата долготы Single |
-| revolution | Single | Координата вращения Single |
+| широта | Single | Координата широтыSingle |
+| долгота | Single | Координата долготыSingle |
+| revolution | Single | Координата вращенияОдин |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILightRig](../../ilightrig)
+* interface [ILightRig](../../ilightrig)
 * пространство имен [Aspose.Slides](../../ilightrig)
 * сборка [Aspose.Slides](../../../)
 

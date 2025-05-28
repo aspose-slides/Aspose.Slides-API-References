@@ -1,15 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Slides para .NET Referencia de la API
-description: La clase controlador de formato para usar para incrustar todas las fuentes de presentación en formato WOFF.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: La clase de controlador de formato que se usará para incrustar todas las fuentes de presentación en formato WOFF.
 type: docs
-weight: 3590
+weight: 3490
 url: /es/aspose.slides.export/embedallfontshtmlcontroller/
 ---
+## EmbedAllFontsHtmlController class
 
-## Clase EmbedAllFontsHtmlController
-
-La clase controlador de formato para usar para incrustar todas las fuentes de presentación en formato WOFF.
+La clase de controlador de formato que se usará para incrustar todas las fuentes de presentación en formato WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -19,26 +18,26 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | Nombre | Descripción |
 | --- | --- |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | Crea una nueva instancia |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | Crea una nueva instancia |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | Crea nueva instancia |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | Crea nueva instancia |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Escribe todas las fuentes contenidas en [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Se llama para escribir el pie de página del documento html. Se llama una vez por conversión de presentación. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Se llama para escribir el encabezado del documento html. Se llama una vez por conversión de presentación. |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Escribe datos como base64 en el mismo documento HTML |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Se llama antes del renderizado de la forma. Se llama una vez por cada forma. Si esta función escribe algo en el generador, la generación de imagen de la diapositiva actual se finalizará, se insertará un fragmento html y se comenzará una nueva imagen sobre la anterior. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Se llama antes del renderizado de la forma. Se llama una vez por cada forma. Si esta función escribe algo en el generador, la generación de imagen de la diapositiva actual se finalizará, se insertará un fragmento html y se comenzará una nueva imagen sobre la anterior. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Se llama para escribir el pie de página de la diapositiva html. Se llama una vez por cada diapositiva. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Se llama para escribir el encabezado de la diapositiva html. Se llama una vez por cada diapositiva. |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Escribir todas las fuentes contenidas en[`Presentation`](../../aspose.slides/presentation) . |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Llamado para escribir el pie de página del documento html. Llamado una vez por conversión de presentación. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Llamado para escribir el encabezado del documento html. Llamado una vez por conversión de presentación. |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Escribe datos como base64 en el propio documento HTML |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Llamado antes de la representación de la forma. Llamado una vez por cada forma. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual finalizará, se insertará un fragmento html agregado y se iniciará una nueva imagen encima de la anterior. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Llamado antes de la representación de la forma. Llamado una vez por cada forma. Si esta función escribe algo en el generador, la generación de la imagen de la diapositiva actual finalizará, se insertará un fragmento html agregado y se iniciará una nueva imagen encima de la anterior. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Llamado para escribir el pie de página de la diapositiva html. Llamado una vez por cada una de las diapositivas. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Llamado para escribir encabezado de diapositiva html. Llamado una vez por cada una de las diapositivas. |
 
-### Véase También
+### Ver también
 
-* interfaz [IHtmlFormattingController](../ihtmlformattingcontroller)
+* interface [IHtmlFormattingController](../ihtmlformattingcontroller)
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
-* ensamblado [Aspose.Slides](../../)
+* asamblea [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

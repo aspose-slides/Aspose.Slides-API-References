@@ -1,23 +1,22 @@
 ---
 title: SetCategoryAxisTypeAutomatically
-second_title: Справочник API Aspose.Slides для .NET
-description: Устанавливает свойство IAxis.CategoryAxisType со значением, которое автоматически определяется на основе данных оси.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает для свойства IAxis.CategoryAxisType значение которое определяется автоматически на основе данных оси.
 type: docs
 weight: 570
 url: /ru/aspose.slides.charts/axis/setcategoryaxistypeautomatically/
 ---
+## Axis.SetCategoryAxisTypeAutomatically method
 
-## Метод Axis.SetCategoryAxisTypeAutomatically
-
-Устанавливает свойство IAxis.CategoryAxisType со значением, которое автоматически определяется на основе данных оси.
+Задает для свойства IAxis.CategoryAxisType значение, которое определяется автоматически на основе данных оси.
 
 ```csharp
 public void SetCategoryAxisTypeAutomatically()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Axis](../../axis)
+* class [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,11 @@
 ---
 title: SetUpperLimit
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Принимает верхний предел
 type: docs
 weight: 170
 url: /ru/aspose.slides.mathtext/mathelementbase/setupperlimit/
 ---
-
 ## SetUpperLimit(IMathElement) {#setupperlimit}
 
 Принимает верхний предел
@@ -17,11 +16,11 @@ public IMathLimit SetUpperLimit(IMathElement limit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| limit | IMathElement | предел |
+| limit | IMathElement | limit |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа [`IMathLimit`](../../imathlimit)
+Новый экземпляр типа[`IMathLimit`](../../imathlimit)
 
 ### Примеры
 
@@ -34,11 +33,11 @@ IMathElement limitValue = new MathematicalText("y−>1");
 var limitElement = baseElement.SetUpperLimit(limitValue);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathLimit](../../imathlimit)
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathElementBase](../../mathelementbase)
+* interface [IMathLimit](../../imathlimit)
+* interface [IMathElement](../../imathelement)
+* class [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 
@@ -54,11 +53,11 @@ public IMathLimit SetUpperLimit(string limit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| limit | String | предел |
+| limit | String | limit |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа [`IMathLimit`](../../imathlimit)
+Новый экземпляр типа[`IMathLimit`](../../imathlimit)
 
 ### Примеры
 
@@ -70,10 +69,10 @@ IMathElement baseElement = new MathematicalText("y");
 var limitElement = baseElement.SetUpperLimit("y−>1");
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathLimit](../../imathlimit)
-* класс [MathElementBase](../../mathelementbase)
+* interface [IMathLimit](../../imathlimit)
+* class [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 

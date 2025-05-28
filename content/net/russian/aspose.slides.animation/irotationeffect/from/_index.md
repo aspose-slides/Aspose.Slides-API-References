@@ -1,15 +1,14 @@
 ---
-title: От
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Описывает начальное значение для анимации. Чтение/запись Single.
+title: From
+second_title: Справочник по API Aspose.Slides для .NET
+description: Описывает начальное значение анимации. Чтение/записьSingle.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/irotationeffect/from/
 ---
+## IRotationEffect.From property
 
-## Свойство IRotationEffect.From
-
-Описывает начальное значение для анимации. Чтение/запись Single.
+Описывает начальное значение анимации. Чтение/записьSingle.
 
 ```csharp
 public float From { get; set; }
@@ -17,7 +16,7 @@ public float From { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IRotationEffect](../../irotationeffect)
+* interface [IRotationEffect](../../irotationeffect)
 * пространство имен [Aspose.Slides.Animation](../../irotationeffect)
 * сборка [Aspose.Slides](../../../)
 

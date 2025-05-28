@@ -1,15 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель, который проходит по коллекции.
+description: Возвращает перечислитель который перебирает коллекцию.
 type: docs
 weight: 100
 url: /ru/aspose.slides/commentauthorcollection/getenumerator/
 ---
+## CommentAuthorCollection.GetEnumerator method
 
-## Метод CommentAuthorCollection.GetEnumerator
-
-Возвращает перечислитель, который проходит по коллекции.
+Возвращает перечислитель, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<ICommentAuthor> GetEnumerator()
@@ -17,12 +16,12 @@ public IEnumerator<ICommentAuthor> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для итерации по коллекции.
+AIEnumeratorкоторые можно использовать для перебора коллекции.
 
 ### Смотрите также
 
-* интерфейс [ICommentAuthor](../../icommentauthor)
-* класс [CommentAuthorCollection](../../commentauthorcollection)
+* interface [ICommentAuthor](../../icommentauthor)
+* class [CommentAuthorCollection](../../commentauthorcollection)
 * пространство имен [Aspose.Slides](../../commentauthorcollection)
 * сборка [Aspose.Slides](../../../)
 

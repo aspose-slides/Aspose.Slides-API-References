@@ -1,43 +1,42 @@
 ---
 title: InsertZoomFrame
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Crea un nuevo objeto Zoom e lo inserta en una colección en el índice especificado.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Crea un nuevo objeto Zoom y lo inserta en una colección en el índice especificado.
 type: docs
 weight: 360
 url: /es/aspose.slides/ishapecollection/insertzoomframe/
 ---
-
 ## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
 
-Crea un nuevo objeto Zoom e lo inserta en una colección en el índice especificado.
+Crea un nuevo objeto Zoom y lo inserta en una colección en el índice especificado.
 
 ```csharp
 public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, float height, 
     ISlide slide)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| index | Int32 | El índice basado en cero en el que se debe insertar el marco Zoom. |
-| x | Single | Coordenada X de un nuevo marco Zoom Single. |
-| y | Single | Coordenada Y de un nuevo marco Zoom Single. |
-| width | Single | Ancho de un nuevo marco Zoom Single. |
-| height | Single | Altura de un nuevo marco Zoom Single. |
-| slide | ISlide | El objeto de la diapositiva referenciado por el marco Zoom [`ISlide`](../../islide). |
+| index | Int32 | El índice de base cero en el que se debe insertar el marco de Zoom. |
+| x | Single | Coordenada X de un nuevo marco de ZoomSingle. |
+| y | Single | Coordenada Y de un nuevo marco de ZoomSingle. |
+| width | Single | Ancho de un nuevo marco de ZoomSingle. |
+| height | Single | Altura de un nuevo marco de ZoomSingle. |
+| slide | ISlide | El objeto de diapositiva al que hace referencia el cuadro Zoom[`ISlide`](../../islide). |
 
-### Valor de Retorno
+### Valor_devuelto
 
-Objeto Zoom creado [`IZoomFrame`](../../izoomframe).
+Objeto Zoom creado[`IZoomFrame`](../../izoomframe).
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | La diapositiva referenciada no pertenece a la presentación actual. |
+| ArgumentException | La diapositiva a la que se hace referencia no pertenece a la presentación actual. |
 
 ### Ejemplos
 
-Este ejemplo demuestra la creación e inserción de un objeto Zoom en el índice específico de una colección (suponiendo que hay al menos dos diapositivas en la presentación "Presentation.pptx"):
+Este ejemplo demuestra la creación e inserción de un objeto Zoom en el índice especificado de una colección (suponga que hay al menos dos diapositivas en la presentación "Presentación.pptx"):
 
 ```csharp
 [C#]
@@ -47,48 +46,48 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver También
+### Ver también
 
 * interface [IZoomFrame](../../izoomframe)
 * interface [ISlide](../../islide)
 * interface [IShapeCollection](../../ishapecollection)
-* namespace [Aspose.Slides](../../ishapecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../ishapecollection)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
 ## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
 
-Crea un nuevo objeto Zoom e lo inserta en una colección en el índice especificado.
+Crea un nuevo objeto Zoom y lo inserta en una colección en el índice especificado.
 
 ```csharp
 public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, float height, 
     ISlide slide, IPPImage image)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| index | Int32 | El índice basado en cero en el que se debe insertar el marco Zoom. |
-| x | Single | Coordenada X de un nuevo marco Zoom Single. |
-| y | Single | Coordenada Y de un nuevo marco Zoom Single. |
-| width | Single | Ancho de un nuevo marco Zoom Single. |
-| height | Single | Altura de un nuevo marco Zoom Single. |
-| slide | ISlide | El objeto de la diapositiva referenciado por el marco Zoom [`ISlide`](../../islide). |
-| image | IPPImage | La imagen para la diapositiva referenciada [`IPPImage`](../../ippimage) |
+| index | Int32 | El índice de base cero en el que se debe insertar el marco de Zoom. |
+| x | Single | Coordenada X de un nuevo marco de ZoomSingle. |
+| y | Single | Coordenada Y de un nuevo marco de ZoomSingle. |
+| width | Single | Ancho de un nuevo marco de ZoomSingle. |
+| height | Single | Altura de un nuevo marco de ZoomSingle. |
+| slide | ISlide | El objeto de diapositiva al que hace referencia el cuadro Zoom[`ISlide`](../../islide). |
+| image | IPPImage | La imagen de la diapositiva a la que se hace referencia[`IPPImage`](../../ippimage) |
 
-### Valor de Retorno
+### Valor_devuelto
 
-Objeto Zoom creado [`IZoomFrame`](../../izoomframe).
+Objeto Zoom creado[`IZoomFrame`](../../izoomframe).
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | La diapositiva referenciada no pertenece a la presentación actual. |
+| ArgumentException | La diapositiva a la que se hace referencia no pertenece a la presentación actual. |
 
 ### Ejemplos
 
-Este ejemplo demuestra la creación e inserción de un objeto Zoom en el índice específico de una colección (suponiendo que hay al menos dos diapositivas en la presentación "Presentation.pptx"):
+Este ejemplo demuestra la creación e inserción de un objeto Zoom en el índice especificado de una colección (suponga que hay al menos dos diapositivas en la presentación "Presentación.pptx"):
 
 ```csharp
 [C#]
@@ -99,13 +98,13 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver También
+### Ver también
 
 * interface [IZoomFrame](../../izoomframe)
 * interface [ISlide](../../islide)
 * interface [IPPImage](../../ippimage)
 * interface [IShapeCollection](../../ishapecollection)
-* namespace [Aspose.Slides](../../ishapecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../ishapecollection)
+* asamblea [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

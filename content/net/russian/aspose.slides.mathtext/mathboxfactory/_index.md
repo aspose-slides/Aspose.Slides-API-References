@@ -1,15 +1,14 @@
 ---
 title: MathBoxFactory
-second_title: Aspose.Slides для .NET API справочник
-description: Позволяет создавать математический блок
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет создать математическое поле
 type: docs
-weight: 8380
+weight: 7920
 url: /ru/aspose.slides.mathtext/mathboxfactory/
 ---
+## MathBoxFactory class
 
-## Класс MathBoxFactory
-
-Позволяет создавать математический блок
+Позволяет создать математическое поле
 
 ```csharp
 public class MathBoxFactory : IMathBoxFactory
@@ -25,15 +24,15 @@ public class MathBoxFactory : IMathBoxFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Создает математический блок, применяя его к элементу |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Создать математическое поле, применив к элементу |
 
 ### Примечания
 
-Для совместимости с COM
+Для COM-совместимости
 
 ### Смотрите также
 
-* интерфейс [IMathBoxFactory](../imathboxfactory)
+* interface [IMathBoxFactory](../imathboxfactory)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

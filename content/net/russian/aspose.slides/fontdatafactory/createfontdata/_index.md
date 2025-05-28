@@ -1,13 +1,12 @@
 ---
 title: CreateFontData
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает FontData с указанным именем шрифта.
 type: docs
 weight: 20
 url: /ru/aspose.slides/fontdatafactory/createfontdata/
 ---
-
-## Метод FontDataFactory.CreateFontData
+## FontDataFactory.CreateFontData method
 
 Создает FontData с указанным именем шрифта.
 
@@ -17,16 +16,16 @@ public IFontData CreateFontData(string fontName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontName | String | Имя шрифта |
+| fontName | String | Название шрифта |
 
 ### Возвращаемое значение
 
 FontData
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IFontData](../../ifontdata)
-* класс [FontDataFactory](../../fontdatafactory)
+* interface [IFontData](../../ifontdata)
+* class [FontDataFactory](../../fontdatafactory)
 * пространство имен [Aspose.Slides](../../fontdatafactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,33 +1,32 @@
 ---
 title: AxisFormat
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойства формата диаграммы.
 type: docs
-weight: 1120
+weight: 1060
 url: /ru/aspose.slides.charts/axisformat/
 ---
-
-## Класс AxisFormat
+## AxisFormat class
 
 Представляет свойства формата диаграммы.
 
 ```csharp
-public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
+public class AxisFormat : DomObject<Axis>, IAxisFormat
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Возвращает эффекты, используемые для оси. Только для чтения [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Возвращает свойства стиля заливки для оси. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Возвращает свойства стиля линии для оси. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Возвращает эффекты, используемые для оси. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Возвращает свойства стиля заливки оси. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Возвращает свойства стиля линии оси. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### См. также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* класс [Axis](../axis)
-* интерфейс [IAxisFormat](../iaxisformat)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Axis](../axis)
+* interface [IAxisFormat](../iaxisformat)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

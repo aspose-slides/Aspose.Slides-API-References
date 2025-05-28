@@ -1,15 +1,14 @@
 ---
 title: ILinkEmbedController
-second_title: Aspose.Sildes для .NET API Справка
-description: Интерактивный интерфейс, используемый для определения того, как объект должен обрабатываться во время сохранения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Интерфейс обратного вызова используемый для определения того как объект должен обрабатываться во время сохранения.
 type: docs
-weight: 3820
+weight: 3660
 url: /ru/aspose.slides.export/ilinkembedcontroller/
 ---
+## ILinkEmbedController interface
 
-## Интерфейс ILinkEmbedController
-
-Интерактивный интерфейс, используемый для определения того, как объект должен обрабатываться во время сохранения.
+Интерфейс обратного вызова, используемый для определения того, как объект должен обрабатываться во время сохранения.
 
 ```csharp
 public interface ILinkEmbedController
@@ -19,11 +18,11 @@ public interface ILinkEmbedController
 
 | Имя | Описание |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Определяет, где объект должен быть сохранен. Этот метод вызывается один раз для каждого идентификатора объекта. Не гарантируется отсутствие двух объектов с одинаковыми данными, semanticName и contentType, но с разными идентификаторами. |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Возвращает URL на внешний объект. Этот метод всегда вызывается, если [`GetObjectStoringLocation`](./getobjectstoringlocation) вернул Link и может быть вызван, если [`GetObjectStoringLocation`](./getobjectstoringlocation) вернул Embed, но встраивание невозможно. Может быть вызван несколько раз для одного и того же идентификатора объекта. |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Определяет, где должен храниться объект. Этот метод вызывается один раз для каждого идентификатора объекта. Не гарантируется, что не будет двух объектов с одинаковыми данными, semanticName и contentType, но с разными идентификаторами. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Возвращает URL внешнего объекта. Этот метод всегда вызывается, еслиStringвозвращаетсяLinkи может вызываться, если[`GetObjectStoringLocation`](./getobjectstoringlocation)возвращеноEmbedно встраивание невозможно. Может вызываться несколько раз для одного и того же идентификатора объекта. |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Сохраняет внешний объект. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

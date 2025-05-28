@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.animation/ibehaviorfactory/createcoloreffect/
 ---
-
-## IBehaviorFactory.CreateColorEffect метод
+## IBehaviorFactory.CreateColorEffect method
 
 Создает цветовой эффект.
 
@@ -19,10 +18,10 @@ public IColorEffect CreateColorEffect()
 
 Цветовой эффект.
 
-### Также см. 
+### Смотрите также
 
-* интерфейс [IColorEffect](../../icoloreffect)
-* интерфейс [IBehaviorFactory](../../ibehaviorfactory)
+* interface [IColorEffect](../../icoloreffect)
+* interface [IBehaviorFactory](../../ibehaviorfactory)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorfactory)
 * сборка [Aspose.Slides](../../../)
 

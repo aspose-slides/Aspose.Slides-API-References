@@ -1,13 +1,12 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все команды из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/motionpath/clear/
 ---
-
-## Метод MotionPath.Clear
+## MotionPath.Clear method
 
 Удаляет все команды из коллекции.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/motionpath/clear/
 public void Clear()
 ```
 
-### Также см.
+### Смотрите также
 
-* класс [MotionPath](../../motionpath)
+* class [MotionPath](../../motionpath)
 * пространство имен [Aspose.Slides.Animation](../../motionpath)
 * сборка [Aspose.Slides](../../../)
 

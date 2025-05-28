@@ -1,23 +1,22 @@
 ---
 title: FontFolders
-second_title: Aspose.Slidеs для .NET API Справка
-description: Папки, содержащие файлы шрифтов. Все файлы шрифтов, расположенные в этих папках, включены в коллекцию. Папки, которые рекурсивно ищутся.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Папки содержащие файлы шрифтов. Все файлы шрифтов расположенные в этих папках включены в коллекцию. Папки в которых выполняется рекурсивный поиск.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ifontsources/fontfolders/
 ---
+## IFontSources.FontFolders property
 
-## IFontSources.FontFolders свойство
-
-Папки, содержащие файлы шрифтов. Все файлы шрифтов, расположенные в этих папках, включены в коллекцию. Папки, которые рекурсивно ищутся.
+Папки, содержащие файлы шрифтов. Все файлы шрифтов, расположенные в этих папках, включены в коллекцию. Папки, в которых выполняется рекурсивный поиск.
 
 ```csharp
 public string[] FontFolders { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontSources](../../ifontsources)
+* interface [IFontSources](../../ifontsources)
 * пространство имен [Aspose.Slides](../../ifontsources)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,25 +1,24 @@
 ---
 title: IBehaviorProperty
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет типы свойств для анимационного поведения. Соответствует списку свойств из https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx и https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляют типы свойств для поведения анимации. следует за списком свойств из https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx и https/ /msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
-weight: 360
+weight: 340
 url: /ru/aspose.slides.animation/ibehaviorproperty/
 ---
+## IBehaviorProperty interface
 
-## Интерфейс IBehaviorProperty
-
-Представляет типы свойств для анимационного поведения. Соответствует списку свойств из https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx и https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+Представляют типы свойств для поведения анимации. следует за списком свойств из https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx и https:/ /msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Показывает, принадлежит ли это свойство к заранее определенному списку свойств в спецификации: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Показывает, принадлежит ли данное свойство к списку предопределенных свойств в спецификации: https://msdn.microsoft.com/en- us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | Значение свойства |
 
 ### Смотрите также

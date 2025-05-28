@@ -1,23 +1,22 @@
 ---
-title: Отступ
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает отступ первой строки абзаца / висячий отступ. Висячий отступ может быть определен отрицательными значениями. Только для чтения Single.
+title: Indent
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает абзац Отступ первой строки/Висячий отступ. Висячий отступ может быть определен отрицательными значениями. Только для чтенияSingle.
 type: docs
 weight: 90
 url: /ru/aspose.slides/iparagraphformateffectivedata/indent/
 ---
+## IParagraphFormatEffectiveData.Indent property
 
-## Свойство IParagraphFormatEffectiveData.Indent
-
-Возвращает отступ первой строки абзаца / висячий отступ. Висячий отступ может быть определен отрицательными значениями. Только для чтения Single.
+Возвращает абзац Отступ первой строки/Висячий отступ. Висячий отступ может быть определен отрицательными значениями. Только для чтенияSingle.
 
 ```csharp
 public float Indent { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
+* interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * пространство имен [Aspose.Slides](../../iparagraphformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

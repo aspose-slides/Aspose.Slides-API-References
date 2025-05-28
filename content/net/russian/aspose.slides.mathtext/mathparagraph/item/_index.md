@@ -1,15 +1,14 @@
 ---
-title: Элемент
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает элемент по указанному индексу. Только для чтения IMathBlockaspose.slides.mathtext/imathblock.
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает элемент по указанному индексу. Только для чтенияIMathBlockaspose.slides.mathtext/imathblock.
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathparagraph/item/
 ---
+## MathParagraph indexer
 
-## Индексатор MathParagraph
-
-Получает элемент по указанному индексу. Только для чтения [`IMathBlock`](../../imathblock).
+Получает элемент по указанному индексу. Только для чтения[`IMathBlock`](../../imathblock).
 
 ```csharp
 public IMathBlock this[int index] { get; set; }
@@ -17,7 +16,7 @@ public IMathBlock this[int index] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс элемента с нулевым основанием для получения |
+| index | Отсчитываемый от нуля индекс элемента для получения |
 
 ### Возвращаемое значение
 
@@ -36,10 +35,10 @@ mathParagraph.Add(new MathBlock(new MathematicalText("block2")));
 IMathBlock block = mathParagraph[1];
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathBlock](../../imathblock)
-* класс [MathParagraph](../../mathparagraph)
+* interface [IMathBlock](../../imathblock)
+* class [MathParagraph](../../mathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraph)
 * сборка [Aspose.Slides](../../../)
 

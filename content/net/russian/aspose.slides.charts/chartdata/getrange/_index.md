@@ -1,15 +1,14 @@
 ---
 title: GetRange
-second_title: Aspose.Sildes для .NET API Reference
-description: Получает диапазон данных графика.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает диапазон данных диаграммы.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/chartdata/getrange/
 ---
+## ChartData.GetRange method
 
-## Метод ChartData.GetRange
-
-Получает диапазон данных графика.
+Получает диапазон данных диаграммы.
 
 ```csharp
 public string GetRange()
@@ -17,17 +16,17 @@ public string GetRange()
 
 ### Возвращаемое значение
 
-Формула диапазона данных ячеек. Например: "Sheet1!$A$1:$C$4"
+Формула диапазона данных ячеек. Например:"Sheet1!$A$1:$C$4"
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | График не использует рабочую книгу в качестве источника данных |
+| InvalidOperationException | Диаграмма не использует рабочую книгу в качестве источника данных |
 
 ### Примеры
 
-Пример на C#
+Пример C#
 
 ```csharp
 using (Presentation pres = new Presentation())
@@ -39,7 +38,7 @@ using (Presentation pres = new Presentation())
 
 ### Смотрите также
 
-* класс [ChartData](../../chartdata)
+* class [ChartData](../../chartdata)
 * пространство имен [Aspose.Slides.Charts](../../chartdata)
 * сборка [Aspose.Slides](../../../)
 

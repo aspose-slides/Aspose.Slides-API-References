@@ -1,43 +1,42 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Slides для .NET Справочник API
-description: Представляет коллекцию секций.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор разделов.
 type: docs
-weight: 6700
+weight: 6340
 url: /ru/aspose.slides/isectioncollection/
 ---
+## ISectionCollection interface
 
-## Интерфейс ISectionCollection
-
-Представляет коллекцию секций.
+Представляет набор разделов.
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
 ```
 
-## Свойства
+## Характеристики
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISection`](../isection). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Добавить пустую секцию в указанную позицию коллекции. |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Добавить новую секцию, начинающуюся с конкретного слайда. |
-| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Добавить пустую секцию в конец коллекции. |
-| [Clear](../../aspose.slides/isectioncollection/clear)() | Удаляет все секции из коллекции. |
-| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Возвращает индекс указанной секции в коллекции. |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Удалить секцию. Слайды, содержащиеся в секции, будут объединены с предыдущей секцией. |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Удалить секцию и слайды, содержащиеся в секции. |
-| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Перемещает секцию и её слайды из коллекции в указанную позицию. |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Добавить пустой раздел в указанную позицию коллекции. |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Добавить новый раздел, начинающийся с определенного слайда. |
+| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Добавить пустой раздел в конец коллекции. |
+| [Clear](../../aspose.slides/isectioncollection/clear)() | Удаляет все разделы из коллекции. |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Возвращает индекс указанного раздела в коллекции. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Удалить раздел. Слайды, содержащиеся в этом разделе, будут объединены с предыдущим разделом. |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Удалить раздел и слайды, содержащиеся в разделе. |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Перемещает раздел и его слайды из коллекции в указанную позицию. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* интерфейс [ISection](../isection)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [ISection](../isection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

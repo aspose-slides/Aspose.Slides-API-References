@@ -1,34 +1,33 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет собой коллекцию цифровых подписей, прикрепленных к документу.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор цифровых подписей прикрепленных к документу.
 type: docs
-weight: 2690
+weight: 2630
 url: /ru/aspose.slides/digitalsignaturecollection/
 ---
+## DigitalSignatureCollection class
 
-## Класс DigitalSignatureCollection
-
-Представляет собой коллекцию цифровых подписей, прикрепленных к документу.
+Представляет набор цифровых подписей, прикрепленных к документу.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean. |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Возвращает подпись по индексу. |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Добавляет подпись в конец коллекции. |
+| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Добавляет подпись в конце коллекции. |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Удаляет все подписи из коллекции. |
 | [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
@@ -36,9 +35,9 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 ### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../domobject-1)
-* класс [Presentation](../presentation)
-* интерфейс [IDigitalSignatureCollection](../idigitalsignaturecollection)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
+* interface [IDigitalSignatureCollection](../idigitalsignaturecollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

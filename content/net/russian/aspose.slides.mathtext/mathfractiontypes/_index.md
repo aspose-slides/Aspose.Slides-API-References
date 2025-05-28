@@ -3,11 +3,10 @@ title: MathFractionTypes
 second_title: Справочник по API Aspose.Slides для .NET
 description: Типы дробей
 type: docs
-weight: 8450
+weight: 7990
 url: /ru/aspose.slides.mathtext/mathfractiontypes/
 ---
-
-## Перечисление MathFractionTypes
+## MathFractionTypes enumeration
 
 Типы дробей
 
@@ -15,16 +14,16 @@ url: /ru/aspose.slides.mathtext/mathfractiontypes/
 public enum MathFractionTypes
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
-| Bar | `1` | Дробь с чертой |
-| Skewed | `2` | Уклоненная |
+| Bar | `1` | Bar Fraction |
+| Skewed | `2` | Перекос |
 | Linear | `3` | Линейная дробь |
-| NoBar | `4` | Дробь без черты (Стек) |
+| NoBar | `4` | Дробь без баров (стек) |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

@@ -1,15 +1,14 @@
 ---
-title: Клонировать
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Клонирует
+title: Clone
+second_title: Справочник по API Aspose.Slides для .NET
+description: Клоны
 type: docs
 weight: 120
 url: /ru/aspose.slides/shapeframe/clone/
 ---
+## ShapeFrame.Clone method
 
-## Метод ShapeFrame.Clone
-
-Клонирует
+Клоны
 
 ```csharp
 public object Clone()
@@ -17,11 +16,11 @@ public object Clone()
 
 ### Возвращаемое значение
 
-Клонированный фрейм формы.
+Клонированный кадр формы.
 
-### См. также
+### Смотрите также
 
-* класс [ShapeFrame](../../shapeframe)
+* class [ShapeFrame](../../shapeframe)
 * пространство имен [Aspose.Slides](../../shapeframe)
 * сборка [Aspose.Slides](../../../)
 

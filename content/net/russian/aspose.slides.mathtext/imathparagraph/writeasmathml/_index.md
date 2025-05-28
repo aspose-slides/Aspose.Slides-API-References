@@ -1,15 +1,14 @@
 ---
 title: WriteAsMathMl
-second_title: Aspose.Slides для .NET API Справочник
-description: Сохраняет содержание этого IMathParagraphaspose.slides.mathtext/imathparagraph в формате MathML
+second_title: Справочник по API Aspose.Slides для .NET
+description: Сохраняет содержимое этогоIMathParagraphaspose.slides.mathtext/imathparagraphкак MathML
 type: docs
-weight: 40
+weight: 30
 url: /ru/aspose.slides.mathtext/imathparagraph/writeasmathml/
 ---
+## IMathParagraph.WriteAsMathMl method
 
-## Метод IMathParagraph.WriteAsMathMl
-
-Сохраняет содержание этого [`IMathParagraph`](../../imathparagraph) в формате MathML
+Сохраняет содержимое этого[`IMathParagraph`](../../imathparagraph)как MathML
 
 ```csharp
 public void WriteAsMathMl(Stream stream)
@@ -19,9 +18,9 @@ public void WriteAsMathMl(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Целевой поток |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathParagraph](../../imathparagraph)
+* interface [IMathParagraph](../../imathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../imathparagraph)
 * сборка [Aspose.Slides](../../../)
 

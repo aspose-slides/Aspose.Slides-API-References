@@ -1,23 +1,22 @@
 ---
 title: CenterY
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает координату Y центра рамки. Только для чтения Single.
+description: Возвращает координату Y центра кадра. Только для чтенияSingle.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ishapeframe/centery/
 ---
+## IShapeFrame.CenterY property
 
-## Свойство IShapeFrame.CenterY
-
-Возвращает координату Y центра рамки. Только для чтения Single.
+Возвращает координату Y центра кадра. Только для чтенияSingle.
 
 ```csharp
 public float CenterY { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShapeFrame](../../ishapeframe)
+* interface [IShapeFrame](../../ishapeframe)
 * пространство имен [Aspose.Slides](../../ishapeframe)
 * сборка [Aspose.Slides](../../../)
 

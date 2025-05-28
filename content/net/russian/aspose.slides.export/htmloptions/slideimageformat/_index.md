@@ -1,15 +1,14 @@
 ---
 title: SlideImageFormat
-second_title: Aspose.Sildes для .NET API справочник
-description: Возвращает или задает параметры формата изображения слайда. Чтение/запись ISlideImageFormataspose.slides.export/islideimageformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает параметры формата изображения слайда. Чтение/записьISlideImageFormataspose.slides.export/islideimageformat.
 type: docs
-weight: 90
+weight: 80
 url: /ru/aspose.slides.export/htmloptions/slideimageformat/
 ---
+## HtmlOptions.SlideImageFormat property
 
-## HtmlOptions.SlideImageFormat свойство
-
-Возвращает или задает параметры формата изображения слайда. Чтение/запись [`ISlideImageFormat`](../../islideimageformat).
+Возвращает или задает параметры формата изображения слайда. Чтение/запись[`ISlideImageFormat`](../../islideimageformat).
 
 ```csharp
 public ISlideImageFormat SlideImageFormat { get; set; }
@@ -17,8 +16,8 @@ public ISlideImageFormat SlideImageFormat { get; set; }
 
 ### Смотрите также
 
-* интерфейс [ISlideImageFormat](../../islideimageformat)
-* класс [HtmlOptions](../../htmloptions)
+* interface [ISlideImageFormat](../../islideimageformat)
+* class [HtmlOptions](../../htmloptions)
 * пространство имен [Aspose.Slides.Export](../../htmloptions)
 * сборка [Aspose.Slides](../../../)
 

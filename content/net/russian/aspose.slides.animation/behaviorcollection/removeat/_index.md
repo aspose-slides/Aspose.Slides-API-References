@@ -1,13 +1,12 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет поведение из коллекции по указанному индексу.
 type: docs
 weight: 120
 url: /ru/aspose.slides.animation/behaviorcollection/removeat/
 ---
-
-## Метод BehaviorCollection.RemoveAt
+## BehaviorCollection.RemoveAt method
 
 Удаляет поведение из коллекции по указанному индексу.
 
@@ -17,11 +16,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс поведения для удаления. |
+| index | Int32 | Индекс удаляемого поведения. |
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorCollection](../../behaviorcollection)
+* class [BehaviorCollection](../../behaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorcollection)
 * сборка [Aspose.Slides](../../../)
 

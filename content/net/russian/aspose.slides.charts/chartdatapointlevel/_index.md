@@ -1,13 +1,12 @@
 ---
 title: ChartDataPointLevel
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет уровень точки данных. Применяется для диаграмм Treemap и Sunburst.
 type: docs
-weight: 1270
+weight: 1210
 url: /ru/aspose.slides.charts/chartdatapointlevel/
 ---
-
-## Класс ChartDataPointLevel
+## ChartDataPointLevel class
 
 Представляет уровень точки данных. Применяется для диаграмм Treemap и Sunburst.
 
@@ -15,18 +14,18 @@ url: /ru/aspose.slides.charts/chartdatapointlevel/
 public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChartDataPointLevel
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Представляет свойства форматирования уровня точки данных. Чтение/запись [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Представляет метку данных уровня точки данных. Применяется для типов серий Treemap и Sunburst. Только для чтения [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Представляет свойства форматирования уровня точки данных. Чтение/запись[`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Представляет метку данных уровня точки данных. Применяется для серий Treemap и Sunburst. Только чтение[`IDataLabel`](../idatalabel). |
 
-### См. также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* класс [ChartDataPointLevelsManager](../chartdatapointlevelsmanager)
-* интерфейс [IChartDataPointLevel](../ichartdatapointlevel)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartDataPointLevelsManager](../chartdatapointlevelsmanager)
+* interface [IChartDataPointLevel](../ichartdatapointlevel)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

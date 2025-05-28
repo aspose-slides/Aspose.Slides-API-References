@@ -1,24 +1,23 @@
 ---
 title: GradientStops
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает коллекцию градиентных остановок. Доступ только для чтения IGradientStopCollectionEffectiveDataaspose.slides/igradientstopcollectioneffectivedata.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает набор остановок градиента. Только для чтенияIGradientStopCollectionEffectiveDataaspose.slides/igradientstopcollectioneffectivedata.
 type: docs
 weight: 40
 url: /ru/aspose.slides/igradientformateffectivedata/gradientstops/
 ---
+## IGradientFormatEffectiveData.GradientStops property
 
-## Свойство IGradientFormatEffectiveData.GradientStops
-
-Возвращает коллекцию градиентных остановок. Доступ только для чтения [`IGradientStopCollectionEffectiveData`](../../igradientstopcollectioneffectivedata).
+Возвращает набор остановок градиента. Только для чтения[`IGradientStopCollectionEffectiveData`](../../igradientstopcollectioneffectivedata).
 
 ```csharp
 public IGradientStopCollectionEffectiveData GradientStops { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IGradientStopCollectionEffectiveData](../../igradientstopcollectioneffectivedata)
-* интерфейс [IGradientFormatEffectiveData](../../igradientformateffectivedata)
+* interface [IGradientStopCollectionEffectiveData](../../igradientstopcollectioneffectivedata)
+* interface [IGradientFormatEffectiveData](../../igradientformateffectivedata)
 * пространство имен [Aspose.Slides](../../igradientformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

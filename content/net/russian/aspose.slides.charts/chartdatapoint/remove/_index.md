@@ -1,15 +1,14 @@
 ---
-title: Удалить
+title: Remove
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет DataPoint из серии графиков.
+description: Удаляет DataPoint из серии диаграмм.
 type: docs
-weight: 230
+weight: 220
 url: /ru/aspose.slides.charts/chartdatapoint/remove/
 ---
+## ChartDataPoint.Remove method
 
-## Метод ChartDataPoint.Remove
-
-Удаляет DataPoint из серии графиков.
+Удаляет DataPoint из серии диаграмм.
 
 ```csharp
 public void Remove()
@@ -19,11 +18,11 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Выбрасывается, если точка данных уже удалена из серии графиков. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Генерируется, если точка данных уже удалена из серии диаграмм. |
 
-### См. также
+### Смотрите также
 
-* класс [ChartDataPoint](../../chartdatapoint)
+* class [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

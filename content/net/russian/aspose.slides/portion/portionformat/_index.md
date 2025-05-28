@@ -1,30 +1,29 @@
 ---
 title: PortionFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения IPortionFormataspose.slides/iportionformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает объект форматирования который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтенияIPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides/portion/portionformat/
 ---
+## Portion.PortionFormat property
 
-## Свойство Portion.PortionFormat
-
-Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения [`IPortionFormat`](../../iportionformat).
+Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения[`IPortionFormat`](../../iportionformat).
 
 ```csharp
 public IPortionFormat PortionFormat { get; }
 ```
 
-### Замечания
+### Примечания
 
-Объект форматирования содержит параметры форматирования, определенные только для текущей части, унаследованные данные не применяются.
+ОФ содержит параметры форматирования, определенные только для текущей части, унаследованные данные не применяются .
 
-Для получения эффективных значений, включая унаследованные, используйте метод [`GetEffective`](../../portionformat/geteffective).
+Для получения действующих значений, включая унаследованные, используйте метод[`GetEffective`](../../portionformat/geteffective).
 
 ### Смотрите также
 
-* интерфейс [IPortionFormat](../../iportionformat)
-* класс [Portion](../../portion)
+* interface [IPortionFormat](../../iportionformat)
+* class [Portion](../../portion)
 * пространство имен [Aspose.Slides](../../portion)
 * сборка [Aspose.Slides](../../../)
 

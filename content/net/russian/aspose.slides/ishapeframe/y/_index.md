@@ -1,23 +1,22 @@
 ---
 title: Y
-second_title: Справочник API Aspose.Sildes для .NET
-description: Возвращает координату Y верхнего левого угла рамки. Только для чтения Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает координату Y левого верхнего угла кадра. Только для чтенияSingle.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ishapeframe/y/
 ---
+## IShapeFrame.Y property
 
-## Свойство IShapeFrame.Y
-
-Возвращает координату Y верхнего левого угла рамки. Только для чтения Single.
+Возвращает координату Y левого верхнего угла кадра. Только для чтенияSingle.
 
 ```csharp
 public float Y { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IShapeFrame](../../ishapeframe)
+* interface [IShapeFrame](../../ishapeframe)
 * пространство имен [Aspose.Slides](../../ishapeframe)
 * сборка [Aspose.Slides](../../../)
 

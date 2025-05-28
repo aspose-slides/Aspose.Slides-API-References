@@ -1,23 +1,22 @@
 ---
-title: Данные
+title: Data
 second_title: Справочник по API Aspose.Slides для .NET
-description: Чтение/запись объекта.
+description: Чтение/записьObject.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ibasechartvalue/data/
 ---
+## IBaseChartValue.Data property
 
-## Свойство IBaseChartValue.Data
-
-Чтение/запись объекта.
+Чтение/записьObject.
 
 ```csharp
 public object Data { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBaseChartValue](../../ibasechartvalue)
+* interface [IBaseChartValue](../../ibasechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../ibasechartvalue)
 * сборка [Aspose.Slides](../../../)
 

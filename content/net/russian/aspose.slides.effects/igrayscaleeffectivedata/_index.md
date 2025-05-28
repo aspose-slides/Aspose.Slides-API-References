@@ -1,29 +1,28 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Sildes для .NET API Справочник
-description: Неизменяемый объект, представляющий эффект градации серого. Преобразует все значения цвета эффекта в оттенок серого, соответствующий их яркости. Значения альфа-прозрачности эффекта не затрагиваются.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект представляющий эффект шкалы серого. Преобразует все значения цвета эффекта в оттенок серого соответствующий их яркости. Значения альфа-канала эффекта непрозрачности не изменяются.
 type: docs
-weight: 3230
+weight: 3150
 url: /ru/aspose.slides.effects/igrayscaleeffectivedata/
 ---
+## IGrayScaleEffectiveData interface
 
-## Интерфейс IGrayScaleEffectiveData
-
-Неизменяемый объект, представляющий эффект градации серого. Преобразует все значения цвета эффекта в оттенок серого, соответствующий их яркости. Значения альфа-прозрачности (opacity) эффекта не затрагиваются.
+Неизменяемый объект, представляющий эффект шкалы серого. Преобразует все значения цвета эффекта в оттенок серого, соответствующий их яркости. Значения альфа-канала эффекта (непрозрачности) не изменяются.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
+* interface [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

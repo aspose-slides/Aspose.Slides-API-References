@@ -1,37 +1,36 @@
 ---
 title: ImageTransformOperation
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет абстрактный эффект преобразования изображения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет эффект преобразования абстрактного изображения.
 type: docs
-weight: 3450
+weight: 3370
 url: /ru/aspose.slides.effects/imagetransformoperation/
 ---
+## ImageTransformOperation class
 
-## Класс ImageTransformOperation
-
-Представляет абстрактный эффект преобразования изображения.
+Представляет эффект преобразования абстрактного изображения.
 
 ```csharp
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### См. также
+### Смотрите также
 
-* класс [PVIObject](../../aspose.slides/pviobject)
-* интерфейс [IImageTransformOperation](../iimagetransformoperation)
+* class [PVIObject](../../aspose.slides/pviobject)
+* interface [IImageTransformOperation](../iimagetransformoperation)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

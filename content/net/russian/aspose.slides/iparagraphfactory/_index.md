@@ -3,11 +3,10 @@ title: IParagraphFactory
 second_title: Справочник по API Aspose.Slides для .NET
 description: Позволяет создавать абзацы
 type: docs
-weight: 6380
+weight: 6020
 url: /ru/aspose.slides/iparagraphfactory/
 ---
-
-## Интерфейс IParagraphFactory
+## IParagraphFactory interface
 
 Позволяет создавать абзацы
 
@@ -17,16 +16,16 @@ public interface IParagraphFactory
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Создает новый пустой абзац. |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Создает новый абзац с указанными данными абзаца. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Создает новый абзац с использованием указанных данных абзаца. |
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимость.
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

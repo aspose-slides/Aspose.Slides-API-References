@@ -1,13 +1,12 @@
 ---
-title: База
-second_title: Aspose.Slides для .NET API Справочник
+title: Base
+second_title: Справочник по API Aspose.Slides для .NET
 description: Аргумент функции
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathfunction/base/
 ---
-
-## Свойство MathFunction.Base
+## MathFunction.Base property
 
 Аргумент функции
 
@@ -25,10 +24,10 @@ IMathFunction func = new MathematicalText("sin").Function("x");
 IMathElement base = func.Base;
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathFunction](../../mathfunction)
+* interface [IMathElement](../../imathelement)
+* class [MathFunction](../../mathfunction)
 * пространство имен [Aspose.Slides.MathText](../../mathfunction)
 * сборка [Aspose.Slides](../../../)
 

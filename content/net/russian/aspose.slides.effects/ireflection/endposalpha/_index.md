@@ -1,23 +1,22 @@
 ---
 title: EndPosAlpha
-second_title: Справка по API Aspose.Sildes для .NET
-description: Указывает конечное положение вдоль альфа-градированного градиента конечного значения альфа в процентах. Чтение/запись Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает конечное положение вдоль линейного градиента альфа-канала конечного значения альфа-канала в процентах. Чтение/записьSingle.
 type: docs
 weight: 60
 url: /ru/aspose.slides.effects/ireflection/endposalpha/
 ---
+## IReflection.EndPosAlpha property
 
-## IReflection.EndPosAlpha свойство
-
-Указывает конечное положение (вдоль альфа-градированного градиента) конечного значения альфа (в процентах). Чтение/запись Single.
+Задает конечное положение (вдоль линейного градиента альфа-канала) конечного значения альфа-канала (в процентах). Чтение/записьSingle.
 
 ```csharp
 public float EndPosAlpha { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IReflection](../../ireflection)
+* interface [IReflection](../../ireflection)
 * пространство имен [Aspose.Slides.Effects](../../ireflection)
 * сборка [Aspose.Slides](../../../)
 

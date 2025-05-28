@@ -1,15 +1,14 @@
 ---
-title: Слайд
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает родительский слайд изображения. Только для чтения IBaseSlideaspose.slides/ibaseslide.
+title: Slide
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает родительский слайд изображения. Только для чтенияIBaseSlideaspose.slides/ibaseslide.
 type: docs
-weight: 60
+weight: 50
 url: /ru/aspose.slides/picture/slide/
 ---
+## Picture.Slide property
 
-## Свойство Picture.Slide
-
-Возвращает родительский слайд изображения. Только для чтения [`IBaseSlide`](../../ibaseslide).
+Возвращает родительский слайд изображения. Только для чтения[`IBaseSlide`](../../ibaseslide).
 
 ```csharp
 public IBaseSlide Slide { get; }
@@ -17,8 +16,8 @@ public IBaseSlide Slide { get; }
 
 ### Смотрите также
 
-* интерфейс [IBaseSlide](../../ibaseslide)
-* класс [Picture](../../picture)
+* interface [IBaseSlide](../../ibaseslide)
+* class [Picture](../../picture)
 * пространство имен [Aspose.Slides](../../picture)
 * сборка [Aspose.Slides](../../../)
 

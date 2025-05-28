@@ -1,15 +1,14 @@
 ---
 title: AsIOverrideThemeable
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает интерфейс IOverrideThemeable. Только для чтения IOverrideThemeableaspose.slides.theme/ioverridethemeable.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает интерфейс IOverrideThemeable. Только для чтенияIOverrideThemeableaspose.slides.theme/ioverridethemeable.
 type: docs
 weight: 20
 url: /ru/aspose.slides/islide/asioverridethemeable/
 ---
+## ISlide.AsIOverrideThemeable property
 
-## Свойство ISlide.AsIOverrideThemeable
-
-Возвращает интерфейс IOverrideThemeable. Только для чтения [`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).
+Возвращает интерфейс IOverrideThemeable. Только для чтения[`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).
 
 ```csharp
 public IOverrideThemeable AsIOverrideThemeable { get; }
@@ -17,12 +16,12 @@ public IOverrideThemeable AsIOverrideThemeable { get; }
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IOverrideThemeable](../../../aspose.slides.theme/ioverridethemeable)
-* интерфейс [ISlide](../../islide)
+* interface [IOverrideThemeable](../../../aspose.slides.theme/ioverridethemeable)
+* interface [ISlide](../../islide)
 * пространство имен [Aspose.Slides](../../islide)
 * сборка [Aspose.Slides](../../../)
 

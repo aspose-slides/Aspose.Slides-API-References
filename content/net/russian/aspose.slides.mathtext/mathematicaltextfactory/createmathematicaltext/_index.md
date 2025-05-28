@@ -1,15 +1,14 @@
 ---
 title: CreateMathematicalText
-second_title: Aspose.Slides для .NET API Reference
-description: Создать элемент пустого математического текста
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создать пустой элемент математического текста
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext/
 ---
-
 ## CreateMathematicalText() {#createmathematicaltext}
 
-Создать элемент пустого математического текста
+Создать пустой элемент математического текста
 
 ```csharp
 public IMathematicalText CreateMathematicalText()
@@ -19,10 +18,10 @@ public IMathematicalText CreateMathematicalText()
 
 новый математический текст
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathematicalText](../../imathematicaltext)
-* класс [MathematicalTextFactory](../../mathematicaltextfactory)
+* interface [IMathematicalText](../../imathematicaltext)
+* class [MathematicalTextFactory](../../mathematicaltextfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltextfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -38,16 +37,16 @@ public IMathematicalText CreateMathematicalText(char mathSymbol)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathSymbol | Char | единственный символ для использования в качестве текстового значения |
+| mathSymbol | Char | одиночный символ для использования в качестве текстового значения |
 
 ### Возвращаемое значение
 
 новый математический текст
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathematicalText](../../imathematicaltext)
-* класс [MathematicalTextFactory](../../mathematicaltextfactory)
+* interface [IMathematicalText](../../imathematicaltext)
+* class [MathematicalTextFactory](../../mathematicaltextfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltextfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -55,7 +54,7 @@ public IMathematicalText CreateMathematicalText(char mathSymbol)
 
 ## CreateMathematicalText(string) {#createmathematicaltext_2}
 
-Создать элемент пустого математического текста с указанным значением
+Создать пустой элемент математического текста с указанным значением
 
 ```csharp
 public IMathematicalText CreateMathematicalText(string mathText)
@@ -63,16 +62,16 @@ public IMathematicalText CreateMathematicalText(string mathText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathText | String | текстовое значение |
+| mathText | String | text значение |
 
 ### Возвращаемое значение
 
 новый математический текст
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathematicalText](../../imathematicaltext)
-* класс [MathematicalTextFactory](../../mathematicaltextfactory)
+* interface [IMathematicalText](../../imathematicaltext)
+* class [MathematicalTextFactory](../../mathematicaltextfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltextfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -80,7 +79,7 @@ public IMathematicalText CreateMathematicalText(string mathText)
 
 ## CreateMathematicalText(string, IPortionFormat) {#createmathematicaltext_3}
 
-Создать элемент пустого математического текста с указанным значением и свойствами форматирования
+Создать пустой элемент математического текста с указанным значением и свойствами форматирования
 
 ```csharp
 public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat portionFormat)
@@ -89,17 +88,17 @@ public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | mathText | String | текстовое значение |
-| portionFormat | IPortionFormat | настройки формата текста |
+| partionFormat | IPortionFormat | настройки формата текста |
 
 ### Возвращаемое значение
 
 новый математический текст
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathematicalText](../../imathematicaltext)
-* интерфейс [IPortionFormat](../../../aspose.slides/iportionformat)
-* класс [MathematicalTextFactory](../../mathematicaltextfactory)
+* interface [IMathematicalText](../../imathematicaltext)
+* interface [IPortionFormat](../../../aspose.slides/iportionformat)
+* class [MathematicalTextFactory](../../mathematicaltextfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltextfactory)
 * сборка [Aspose.Slides](../../../)
 

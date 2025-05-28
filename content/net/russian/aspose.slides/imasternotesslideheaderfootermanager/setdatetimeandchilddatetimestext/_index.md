@@ -1,15 +1,14 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Aspose.Slides для .NET API Reference
-description: Устанавливает текст для заполнителя даты и времени основного слайда заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает текст для заполнителя даты и времени слайда основных заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители означают что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
 type: docs
 weight: 20
 url: /ru/aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext/
 ---
+## IMasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText method
 
-## IMasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText метод
-
-Устанавливает текст для заполнителя даты и времени основного слайда заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
+Устанавливает текст для заполнителя даты и времени слайда основных заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -19,9 +18,9 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
+* interface [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../imasternotesslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

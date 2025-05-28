@@ -1,41 +1,40 @@
 ---
 title: CellCollection
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет коллекцию ячеек.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор ячеек.
 type: docs
-weight: 1060
+weight: 1000
 url: /ru/aspose.slides/cellcollection/
 ---
+## CellCollection class
 
-## Класс CellCollection
-
-Представляет коллекцию ячеек.
+Представляет набор ячеек.
 
 ```csharp
 public abstract class CellCollection : ICellCollection
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Возвращает количество ячеек в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасно для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Возвращает ячейку по её позиции. Только для чтения [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Возвращает родительскую презентацию для CellCollection. Только для чтения [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Возвращает родительский слайд для CellCollection. Только для чтения [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Возвращает количество ячеек в коллекции. Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Возвращает ячейку по ее положению. Только для чтения[`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Возвращает родительское представление CellCollection. Только чтение[`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Возвращает родительский слайд CellCollection. Только для чтения[`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
-### Также см. 
+### Смотрите также
 
-* интерфейс [ICellCollection](../icellcollection)
+* interface [ICellCollection](../icellcollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

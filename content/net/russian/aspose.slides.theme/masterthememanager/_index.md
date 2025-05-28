@@ -3,11 +3,10 @@ title: MasterThemeManager
 second_title: Справочник по API Aspose.Slides для .NET
 description: Предоставляет доступ к основной теме презентации.
 type: docs
-weight: 11130
+weight: 10630
 url: /ru/aspose.slides.theme/masterthememanager/
 ---
-
-## Класс MasterThemeManager
+## MasterThemeManager class
 
 Предоставляет доступ к основной теме презентации.
 
@@ -15,24 +14,24 @@ url: /ru/aspose.slides.theme/masterthememanager/
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему (Presentation.MasterTheme) или нет. Чтение/запись Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Чтение/запись [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Определяет, переопределяет ли OverrideTheme унаследованную действующую тему (Presentation.MasterTheme) или нет. Чтение/записьBoolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Возвращает основной объект темы. Чтение/запись[`IMasterTheme`](../imastertheme). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Применяет дополнительную цветовую схему к слайду. |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Применяет к слайду дополнительную цветовую схему. |
 | [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Возвращает объект темы. |
 
 ### Смотрите также
 
-* класс [BaseThemeManager](../basethememanager)
-* интерфейс [IMasterThemeManager](../imasterthememanager)
+* class [BaseThemeManager](../basethememanager)
+* interface [IMasterThemeManager](../imasterthememanager)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

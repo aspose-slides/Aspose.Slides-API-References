@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathbox/mathbox/
 ---
-
-## Конструктор MathBox
+## MathBox constructor
 
 Инициализирует MathBox с указанным элементом в качестве аргумента
 
@@ -17,7 +16,7 @@ public MathBox(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Основной элемент, к которому применяется контейнер. Может быть null. |
+| element | IMathElement | базовый элемент, к которому применяется поле. Может быть нулевым. |
 
 ### Примеры
 
@@ -28,10 +27,10 @@ public MathBox(IMathElement element)
 MathBox box = new MathBox(new MathematicalText("=="));
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathBox](../../mathbox)
+* interface [IMathElement](../../imathelement)
+* class [MathBox](../../mathbox)
 * пространство имен [Aspose.Slides.MathText](../../mathbox)
 * сборка [Aspose.Slides](../../../)
 

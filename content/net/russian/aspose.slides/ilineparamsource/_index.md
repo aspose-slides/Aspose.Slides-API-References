@@ -1,21 +1,20 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Slides для .NET API Reference
-description: Вспомогательный интерфейс параметров линии.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Интерфейс параметров вспомогательной линии.
 type: docs
-weight: 6130
+weight: 5770
 url: /ru/aspose.slides/ilineparamsource/
 ---
+## ILineParamSource interface
 
-## Интерфейс ILineParamSource
-
-Вспомогательный интерфейс параметров линии.
+Интерфейс параметров вспомогательной линии.
 
 ```csharp
 public interface ILineParamSource
 ```
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

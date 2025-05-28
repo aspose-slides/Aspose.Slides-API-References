@@ -1,15 +1,14 @@
 ---
 title: AddDataPointForDoughnutSeries
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Doughnut, см. также метод ChartTypeCharacterizer.IsChartTypeDoughnutChartType.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий чей тип диаграммы является одним из подтипов Пончика см. также метод ChartTypeCharacterizer.IsChartTypeDoughnutChartType.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointfordoughnutseries/
 ---
-
 ## AddDataPointForDoughnutSeries(IChartDataCell) {#adddatapointfordoughnutseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Doughnut (см. также метод ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей тип диаграммы является одним из подтипов Пончика (см. также метод ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
@@ -17,17 +16,17 @@ public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IChartDataCell | Значение точки данных |
+| значение | IChartDataCell | Точка данных Значение |
 
-### Возврат значения
+### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -35,7 +34,7 @@ public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
 
 ## AddDataPointForDoughnutSeries(double) {#adddatapointfordoughnutseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Doughnut (см. также метод ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей тип диаграммы является одним из подтипов Пончика (см. также метод ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(double value)
@@ -43,16 +42,16 @@ public IChartDataPoint AddDataPointForDoughnutSeries(double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | Double | Значение точки данных |
+| значение | Double | Точка данных Значение |
 
-### Возврат значения
+### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,28 +1,27 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Коллекция элементов управления ActiveX.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Набор элементов управления ActiveX.
 type: docs
-weight: 5450
+weight: 5150
 url: /ru/aspose.slides/icontrolpropertiescollection/
 ---
+## IControlPropertiesCollection interface
 
-## Интерфейс IControlPropertiesCollection
-
-Коллекция элементов управления ActiveX.
+Набор элементов управления ActiveX.
 
 ```csharp
 public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string, string>>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Возвращает количество свойств в коллекции. Только для чтения Int32. |
-| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Возвращает или задает свойство. |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Возвращает количество свойств в коллекции. Только для чтения ICollection. |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Возвращает ряд свойств в коллекции. Только для чтенияInt32. |
+| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Возвращает или устанавливает свойство. |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Возвращает ряд свойств в коллекции. Только для чтенияICollection. |
 
 ## Методы
 
@@ -32,7 +31,7 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | Удаляет все свойства. |
 | [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Удаляет свойство с указанным именем. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

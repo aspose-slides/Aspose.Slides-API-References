@@ -1,15 +1,14 @@
 ---
 title: CombinableSeriesTypesGroup
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Enumeración de grupos de tipos de series combinables. Cada elemento se relaciona con un grupo de tipos de series de gráficos que pueden persistir simultáneamente en un ChartSeriesGroup. Por ejemplo, la serie ChartType.PercentsStackedArea no puede estar simultáneamente con la serie ChartType.StackedArea en un ChartSeriesGroup. Pero dos o más ChartType.PercentsStackedArea pueden estar en un ChartSeriesGroup simultáneamente CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. Y la serie ChartType.Line puede estar con la serie ChartType.LineWithMarkers simultáneamente en un CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Enumeración de grupos de tipos de series combinables. Cada elemento se relaciona con un grupo de tipos de series de gráficos que pueden persistir simultáneamente en un ChartSeriesGroup. Por ejemplo la serie ChartType.PercentsStackedArea no puede estar simultáneamente con la serie ChartType.StackedArea en un ChartSeriesGroup. Pero dos o más ChartType.PercentsStackedArea pueden estar en un ChartSeriesGroup simultáneamente CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. Y la serie ChartType.Line puede ser con la serie ChartType.LineWithMarkers simultáneamente en un CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
 type: docs
-weight: 1450
+weight: 1390
 url: /es/aspose.slides.charts/combinableseriestypesgroup/
 ---
+## CombinableSeriesTypesGroup enumeration
 
-## Enumeración CombinableSeriesTypesGroup
-
-Enumeración de grupos de tipos de series combinables. Cada elemento se relaciona con un grupo de tipos de series de gráficos que pueden persistir simultáneamente en un ChartSeriesGroup. Por ejemplo: la serie ChartType.PercentsStackedArea no puede estar simultáneamente con la serie ChartType.StackedArea en un ChartSeriesGroup. Pero dos o más ChartType.PercentsStackedArea pueden estar en un ChartSeriesGroup simultáneamente (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). Y la serie ChartType.Line puede estar con la serie ChartType.LineWithMarkers simultáneamente en un CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
+Enumeración de grupos de tipos de series combinables. Cada elemento se relaciona con un grupo de tipos de series de gráficos que pueden persistir simultáneamente en un ChartSeriesGroup. Por ejemplo: la serie ChartType.PercentsStackedArea no puede estar simultáneamente con la serie ChartType.StackedArea en un ChartSeriesGroup. Pero dos o más ChartType.PercentsStackedArea pueden estar en un ChartSeriesGroup simultáneamente (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). Y la serie ChartType.Line puede ser con la serie ChartType.LineWithMarkers simultáneamente en un CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup.
 
 ```csharp
 public enum CombinableSeriesTypesGroup
@@ -29,17 +28,17 @@ public enum CombinableSeriesTypesGroup
 | LineChart_StackedLine | `14` | Agrupa este conjunto de tipos de series: { ChartType.StackedLine, ChartType.StackedLineWithMarkers } |
 | LineChart_PercentsStackedLine | `15` | Agrupa este conjunto de tipos de series: { ChartType.PercentsStackedLine, ChartType.PercentsStackedLineWithMarkers } |
 | Line3DChart | `27` | Agrupa este conjunto de tipos de series: { ChartType.Line3D } |
-| StockHighLowClose | `18` | Agrupa este conjunto de tipos de series: { ChartType.HighLowClose } |
-| StockOpenHighLowClose | `19` | Agrupa este conjunto de tipos de series: { ChartType.OpenHighLowClose } |
+| StockHighLowClose | `18` | Agrupa este conjunto de tipos de serie: { ChartType.HighLowClose } |
+| StockOpenHighLowClose | `19` | Agrupa este conjunto de tipos de serie: { ChartType.OpenHighLowClose } |
 | StockVolumeHighLowClose | `20` | Agrupa este conjunto de tipos de series: { ChartType.VolumeHighLowClose } |
-| StockVolumeOpenHighLowClose | `21` | Agrupa este conjunto de tipos de series: { ChartType.VolumeOpenHighLowClose } |
-| RadarChart | `16` | Agrupa este conjunto de tipos de series: { ChartType.Radar, ChartType.RadarWithMarkers } |
+| StockVolumeOpenHighLowClose | `21` | Agrupa este conjunto de tipos de serie: { ChartType.VolumeOpenHighLowClose } |
+| RadarChart | `16` | Agrupa este conjunto de tipos de serie: { ChartType.Radar, ChartType.RadarWithMarkers } |
 | FilledRadarChart | `17` | Agrupa este conjunto de tipos de series: { ChartType.FilledRadar } |
 | ScatterStraightMarker | `22` | Agrupa este conjunto de tipos de series: { ChartType.ScatterWithMarkers, ChartType.ScatterWithStraightLines, ChartType.ScatterWithStraightLinesAndMarkers } |
 | ScatterSmoothMarker | `23` | Agrupa este conjunto de tipos de series: { ChartType.ScatterWithSmoothLines, ChartType.ScatterWithSmoothLinesAndMarkers } |
-| PieChart | `3` | Agrupa este conjunto de tipos de series: { ChartType.Pie, ChartType.ExplodedPie } |
-| Pie3DChart | `28` | Agrupa este conjunto de tipos de series: { ChartType.Pie3D, ChartType.ExplodedPie3D } |
-| DoughnutChart | `2` | Agrupa este conjunto de tipos de series: { ChartType.Doughnut, ChartType.ExplodedDoughnut } |
+| PieChart | `3` | Agrupa este conjunto de tipos de serie: { ChartType.Pie, ChartType.ExplodedPie } |
+| Pie3DChart | `28` | Agrupa este conjunto de tipos de serie: { ChartType.Pie3D, ChartType.ExplodedPie3D } |
+| DoughnutChart | `2` | Agrupa este conjunto de tipos de serie: { ChartType.Doughnut, ChartType.ExplodedDoughnut } |
 | BarChart_VertClustered | `10` | Agrupa este conjunto de tipos de series: { ChartType.ClusteredColumn } |
 | BarChart_VertStacked | `11` | Agrupa este conjunto de tipos de series: { ChartType.StackedColumn } |
 | BarChart_VertPercentsStacked | `12` | Agrupa este conjunto de tipos de series: { ChartType.PercentsStackedColumn } |
@@ -53,7 +52,7 @@ public enum CombinableSeriesTypesGroup
 | Bar3DChart_VertPercentsStackedCylinder | `33` | Agrupa este conjunto de tipos de series: { ChartType.PercentsStackedCylinder } |
 | Bar3DChart_VertPercentsStackedPyramid | `34` | Agrupa este conjunto de tipos de series: { ChartType.PercentsStackedPyramid } |
 | Bar3DChart_VertStackedColumn3D | `35` | Agrupa este conjunto de tipos de series: { ChartType.StackedColumn3D } |
-| Bar3DChart_VertStackedCone | `36` | Agrupa este conjunto de tipos de series: { ChartType.StackedCone } |
+| Bar3DChart_VertStackedCone | `36` | Agrupa este conjunto de tipos de serie: { ChartType.StackedCone } |
 | Bar3DChart_VertStackedCylinder | `37` | Agrupa este conjunto de tipos de series: { ChartType.StackedCylinder } |
 | Bar3DChart_VertStackedPyramid | `38` | Agrupa este conjunto de tipos de series: { ChartType.StackedPyramid } |
 | Bar3DChart_HorizClustered | `39` | Agrupa este conjunto de tipos de series: { ChartType.ClusteredBar3D, ChartType.ClusteredHorizontalCone, ChartType.ClusteredHorizontalCylinder, ChartType.ClusteredHorizontalPyramid } |
@@ -65,8 +64,8 @@ public enum CombinableSeriesTypesGroup
 | Bar3DChart_HorizPercentsStackedCone | `45` | Agrupa este conjunto de tipos de series: { ChartType.PercentsStackedHorizontalCone } |
 | Bar3DChart_HorizPercentsStackedCylinder | `46` | Agrupa este conjunto de tipos de series: { ChartType.PercentsStackedHorizontalCylinder } |
 | Bar3DChart_HorizPercentsStackedPyramid | `47` | Agrupa este conjunto de tipos de series: { ChartType.PercentsStackedHorizontalPyramid } |
-| BarOfPieChart | `0` | Agrupa este conjunto de tipos de series: { ChartType.BarOfPie } |
-| PieOfPieChart | `1` | Agrupa este conjunto de tipos de series: { ChartType.PieOfPie } |
+| BarOfPieChart | `0` | Agrupa este conjunto de tipos de serie: { ChartType.BarOfPie } |
+| PieOfPieChart | `1` | Agrupa este conjunto de tipos de serie: { ChartType.PieOfPie } |
 | SurfaceChart_Contour | `48` | Agrupa este conjunto de tipos de series: { ChartType.Contour } |
 | SurfaceChart_WireframeContour | `49` | Agrupa este conjunto de tipos de series: { ChartType.WireframeContour } |
 | SurfaceChart_Surface3D | `50` | Agrupa este conjunto de tipos de series: { ChartType.Surface3D } |
@@ -74,16 +73,16 @@ public enum CombinableSeriesTypesGroup
 | BubbleChart | `52` | Agrupa este conjunto de tipos de series: { ChartType.Bubble, ChartType.BubbleWith3D } |
 | HistogramChart | `53` | Agrupa este conjunto de tipos de series: { ChartType.Histogram } |
 | ParetoLineChart | `54` | Agrupa este conjunto de tipos de series: { ChartType.ParetoLine } |
-| BoxAndWhiskerChart | `55` | Agrupa este conjunto de tipos de series: { ChartType.BoxAndWhisker } |
+| BoxAndWhiskerChart | `55` | Agrupa este conjunto de tipos de serie: { ChartType.BoxAndWhisker } |
 | WaterfallChart | `56` | Agrupa este conjunto de tipos de series: { ChartType.Waterfall } |
 | FunnelChart | `57` | Agrupa este conjunto de tipos de series: { ChartType.Funnel } |
-| TreemapChart | `58` | Agrupa este conjunto de tipos de series: { ChartType.Treemap } |
+| TreemapChart | `58` | Agrupa este conjunto de tipos de serie: { ChartType.Treemap } |
 | MapChart | `59` | Agrupa este conjunto de tipos de series: { ChartType.Map } |
 | SunburstChart | `60` | Agrupa este conjunto de tipos de series: { ChartType.Sunburst } |
 
 ### Ver también
 
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
+* asamblea [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,13 +1,12 @@
 ---
 title: CreateFillOverlay
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает эффект наложения заливки.
 type: docs
 weight: 140
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/createfilloverlay/
 ---
-
-## ImageTransformOperationFactory.CreateFillOverlay метод
+## ImageTransformOperationFactory.CreateFillOverlay method
 
 Создает эффект наложения заливки.
 
@@ -19,10 +18,10 @@ public IFillOverlay CreateFillOverlay()
 
 Эффект наложения заливки.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IFillOverlay](../../ifilloverlay)
-* класс [ImageTransformOperationFactory](../../imagetransformoperationfactory)
+* interface [IFillOverlay](../../ifilloverlay)
+* class [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

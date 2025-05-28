@@ -1,15 +1,14 @@
 ---
 title: SetSubSuperscriptOnTheRight
-second_title: Aspose.Sildes для .NET API Справка
-description: Создает нижний индекс и верхний индекс справа
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает нижний и верхний индексы справа
 type: docs
 weight: 150
 url: /ru/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright/
 ---
-
 ## SetSubSuperscriptOnTheRight(IMathElement, IMathElement) {#setsubsuperscriptontheright}
 
-Создает нижний индекс и верхний индекс справа
+Создает нижний и верхний индексы справа
 
 ```csharp
 public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement subscript, 
@@ -19,11 +18,11 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | subscript | IMathElement | Нижний индекс (нижний индекс справа) |
-| superscript | IMathElement | Верхний индекс (верхний индекс справа) |
+| верхнийиндекс | IMathElement | Верхний индекс (верхний индекс справа) |
 
 ### Возвращаемое значение
 
-Новый математический элемент типа [`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
+Новый математический элемент типа[`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
 
 ### Примеры
 
@@ -37,11 +36,11 @@ IMathElement superscript = new MathematicalText("j");
 IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOnTheRight(subscript, superscript);
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathElementBase](../../mathelementbase)
+* interface [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
+* interface [IMathElement](../../imathelement)
+* class [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 
@@ -49,7 +48,7 @@ IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOn
 
 ## SetSubSuperscriptOnTheRight(string, string) {#setsubsuperscriptontheright_1}
 
-Создает нижний индекс и верхний индекс справа
+Создает нижний и верхний индексы справа
 
 ```csharp
 public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscript, 
@@ -59,11 +58,11 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscr
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | subscript | String | Нижний индекс (нижний индекс справа) |
-| superscript | String | Верхний индекс (верхний индекс справа) |
+| верхнийиндекс | String | Верхний индекс (верхний индекс справа) |
 
 ### Возвращаемое значение
 
-Новый математический элемент типа [`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
+Новый математический элемент типа[`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
 
 ### Примеры
 
@@ -75,10 +74,10 @@ IMathElement baseElement = new MathematicalText("N");
 IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
-* класс [MathElementBase](../../mathelementbase)
+* interface [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
+* class [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 

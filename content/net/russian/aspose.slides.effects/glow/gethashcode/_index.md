@@ -6,8 +6,7 @@ type: docs
 weight: 50
 url: /ru/aspose.slides.effects/glow/gethashcode/
 ---
-
-## Glow.GetHashCode метод
+## Glow.GetHashCode method
 
 Служит хэш-функцией для определенного типа.
 
@@ -15,13 +14,13 @@ url: /ru/aspose.slides.effects/glow/gethashcode/
 public override int GetHashCode()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
-Хэш-код для текущего объекта.
+Хэш-код текущего объекта.
 
-### См. Также
+### Смотрите также
 
-* класс [Glow](../../glow)
+* class [Glow](../../glow)
 * пространство имен [Aspose.Slides.Effects](../../glow)
 * сборка [Aspose.Slides](../../../)
 

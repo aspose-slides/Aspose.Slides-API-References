@@ -1,15 +1,14 @@
 ---
 title: IChartTextBlockFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les propriétés de formatage pour les éléments de texte de graphique.
+description: Représente les propriétés de mise en forme des éléments de texte du graphique.
 type: docs
-weight: 1900
+weight: 1860
 url: /fr/aspose.slides.charts/icharttextblockformat/
 ---
+## IChartTextBlockFormat interface
 
-## Interface IChartTextBlockFormat
-
-Représente les propriétés de formatage pour les éléments de texte de graphique.
+Représente les propriétés de mise en forme des éléments de texte du graphique.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -17,22 +16,22 @@ public interface IChartTextBlockFormat
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Renvoie ou définit l'ancrage vertical du texte dans un TextFrame. Lecture/écriture [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Renvoie ou définit le mode de redimensionnement automatique du texte. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet de rendu). Lecture/écriture [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Si NullableBool.True, le texte doit être centré dans la boîte horizontalement. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Renvoie ou définit la marge inférieure (points) dans un TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet de rendu). Lecture/écriture Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Renvoie ou définit la marge gauche (points) dans un TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet de rendu). Lecture/écriture Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Renvoie ou définit la marge droite (points) dans un TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet de rendu). Lecture/écriture Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Renvoie ou définit la marge supérieure (points) dans un TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a pas d'effet de rendu). Lecture/écriture Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Spécifie la rotation personnalisée appliquée au texte dans la boîte englobante. Si elle n'est pas spécifiée, la rotation de la forme accompagnante est utilisée. Si elle est spécifiée, alors cela est appliqué indépendamment de la forme. C'est-à-dire que la forme peut avoir une rotation appliquée en plus au texte lui-même ayant une rotation appliquée à celui-ci. La valeur résultante de la rotation visuelle du texte est résumée à partir de cette propriété et du type vertical prédéfini dans la propriété TextVerticalType. Lecture/écriture Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Détermine l'orientation du texte. La valeur résultante de la rotation visuelle du texte est résumée à partir de cette propriété et de l'angle personnalisé dans la propriété RotationAngle. Lecture/écriture [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** si le texte est enveloppé aux marges de TextFrame. Le changement de cette propriété peut avoir une certaine influence uniquement sur ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2007/2013). Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Renvoie ou définit un texte d'ancrage vertical dans un TextFrame. Lecture/écriture[`TextAnchorType`](../../aspose.slides/textanchortype) . |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Renvoie ou définit le mode d'ajustement automatique du texte. La modification de cette propriété peut produire une certaine influence uniquement pour ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet pour le rendu). Lecture/écriture[`TextAutofitType`](../../aspose.slides/textautofittype) . |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Si NullableBool.True, le texte doit être centré horizontalement dans la zone. Lecture/écriture[`NullableBool`](../../aspose.slides/nullablebool) . |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Renvoie ou définit la marge inférieure (points) dans un TextFrame. La modification de cette propriété peut produire une certaine influence uniquement pour ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet pour le rendu ). Lecture/écritureDouble . |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Renvoie ou définit la marge gauche (points) dans un TextFrame. La modification de cette propriété peut produire une certaine influence uniquement pour ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet pour le rendu ). Lecture/écritureDouble . |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Renvoie ou définit la marge droite (points) dans un TextFrame. La modification de cette propriété peut produire une certaine influence uniquement pour ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet pour le rendu ). Lecture/écritureDouble . |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Renvoie ou définit la marge supérieure (points) dans un TextFrame. La modification de cette propriété peut produire une certaine influence uniquement pour ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2013 ; dans PowerPoint 2007, il n'y a aucun effet pour le rendu ). Lecture/écritureDouble . |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Spécifie la rotation personnalisée qui est appliquée au texte dans la zone de délimitation. S'il n'est pas spécifié , la rotation de la forme associée est utilisée. S'il est spécifié, alors ceci est appliqué indépendamment de la forme. C'est-à-dire que la forme peut avoir une rotation appliquée in en plus du texte lui-même auquel une rotation est appliquée. La valeur résultante de la rotation du texte visuel résumée à partir de cette propriété et du type vertical prédéfini dans la propriété TextVerticalType. Lecture/écritureSingle . |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Détermine l'orientation du texte. La valeur résultante de la rotation du texte visuel résumée à partir de cette propriété et de l'angle personnalisé dans la propriété RotationAngle. Lecture/écriture[`TextVerticalType`](../../aspose.slides/textverticaltype) . |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **Vrai** si le texte est enveloppé aux marges de TextFrame. La modification de cette propriété peut produire une certaine influence uniquement pour ces parties de graphique : DataLabel et DataLabelFormat (prise en charge complète dans PowerPoint 2007/2013). Lecture/écriture[`NullableBool`](../../aspose.slides/nullablebool) . |
 
-### Voir aussi
+### Voir également
 
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,23 +1,22 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/summaryzoomsectioncollection/count/
 ---
+## SummaryZoomSectionCollection.Count property
 
-## Свойство SummaryZoomSectionCollection.Count
-
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
+* class [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * пространство имен [Aspose.Slides](../../summaryzoomsectioncollection)
 * сборка [Aspose.Slides](../../../)
 

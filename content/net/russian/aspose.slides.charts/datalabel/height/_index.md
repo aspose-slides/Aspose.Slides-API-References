@@ -1,23 +1,22 @@
 ---
-title: Высота
+title: Height
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает высоту заголовка в долях высоты диаграммы. Чтение/запись Single.
+description: Возвращает или задает высоту заголовка как часть высоты диаграммы. Чтение/записьSingle.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/datalabel/height/
 ---
+## DataLabel.Height property
 
-## Свойство DataLabel.Height
-
-Возвращает или устанавливает высоту заголовка в долях высоты диаграммы. Чтение/запись Single.
+Возвращает или задает высоту заголовка как часть высоты диаграммы. Чтение/записьSingle.
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [DataLabel](../../datalabel)
+* class [DataLabel](../../datalabel)
 * пространство имен [Aspose.Slides.Charts](../../datalabel)
 * сборка [Aspose.Slides](../../../)
 

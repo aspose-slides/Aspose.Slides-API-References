@@ -1,23 +1,22 @@
 ---
-title: Расстояние
-second_title: Справочник API Aspose.Sildes для .NET
-description: Расстояние тени. Чтение/запись Double.
+title: Distance
+second_title: Справочник по API Aspose.Slides для .NET
+description: Расстояние тени. Чтение/записьDouble.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/presetshadow/distance/
 ---
+## PresetShadow.Distance property
 
-## Свойство PresetShadow.Distance
-
-Расстояние тени. Чтение/запись Double.
+Расстояние тени. Чтение/записьDouble.
 
 ```csharp
 public double Distance { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [PresetShadow](../../presetshadow)
+* class [PresetShadow](../../presetshadow)
 * пространство имен [Aspose.Slides.Effects](../../presetshadow)
 * сборка [Aspose.Slides](../../../)
 

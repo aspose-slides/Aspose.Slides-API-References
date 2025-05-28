@@ -1,36 +1,35 @@
 ---
 title: IChartTextFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: График работает с ограниченным набором свойств формата текста. Интерфейсы IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat и IChartPortionFormat описывают этот ограниченный набор.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Графики работают с ограниченным набором свойств текстового формата. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat интерфейсы описывают этот ограниченный набор.
 type: docs
-weight: 1910
+weight: 1850
 url: /ru/aspose.slides.charts/icharttextformat/
 ---
+## IChartTextFormat interface
 
-## Интерфейс IChartTextFormat
-
-График работает с ограниченным набором свойств формата текста. Интерфейсы IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat и IChartPortionFormat описывают этот ограниченный набор.
+Графики работают с ограниченным набором свойств текстового формата. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat интерфейсы описывают этот ограниченный набор.
 
 ```csharp
 public interface IChartTextFormat
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Возвращает формат абзаца. Только для чтения [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Возвращает формат части. Только для чтения [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Возвращает формат для текстовых элементов графика. Только для чтения [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Возвращает формат абзаца. Только для чтения[`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Возвращает формат части. Только для чтения[`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Возвращает формат текстовых элементов диаграммы. Только для чтения[`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | Копирует формат текста из указанного текстового фрейма. |
-| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | Копирует формат текста в указанный текстовый фрейм. |
+| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | Копирует текстовый формат из указанного текстового фрейма. |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | Копирует текстовый формат в указанный текстовый фрейм. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

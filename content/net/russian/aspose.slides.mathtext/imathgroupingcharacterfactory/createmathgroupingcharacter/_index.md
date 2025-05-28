@@ -1,15 +1,14 @@
 ---
 title: CreateMathGroupingCharacter
-second_title: Aspose.Slides для .NET API Reference
-description: Создает математический группировочный символ
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает математический символ группировки
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
-
 ## CreateMathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#createmathgroupingcharacter_1}
 
-Создает математический группировочный символ
+Создает математический символ группировки
 
 ```csharp
 public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, char character, 
@@ -18,21 +17,21 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для применения группировочного символа |
-| character | Char | группировочный символ |
-| position | MathTopBotPositions | позиция группировочного символа |
+| element | IMathElement | математический элемент для применения группировки символ |
+| символ | Char | символ группировки |
+| position | MathTopBotPositions | позиция символа группировки |
 | verticalJustification | MathTopBotPositions | вертикальное выравнивание |
 
 ### Возвращаемое значение
 
-новый элемент группировочного символа
+новый группирующий символьный элемент
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathGroupingCharacter](../../imathgroupingcharacter)
-* интерфейс [IMathElement](../../imathelement)
-* перечисление [MathTopBotPositions](../../mathtopbotpositions)
-* интерфейс [IMathGroupingCharacterFactory](../../imathgroupingcharacterfactory)
+* interface [IMathGroupingCharacter](../../imathgroupingcharacter)
+* interface [IMathElement](../../imathelement)
+* enum [MathTopBotPositions](../../mathtopbotpositions)
+* interface [IMathGroupingCharacterFactory](../../imathgroupingcharacterfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathgroupingcharacterfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -40,7 +39,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 
 ## CreateMathGroupingCharacter(IMathElement) {#createmathgroupingcharacter}
 
-Создает математический группировочный символ
+Создает математический символ группировки
 
 ```csharp
 public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
@@ -48,17 +47,17 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для применения группировочного символа |
+| element | IMathElement | математический элемент для применения группировки символ |
 
 ### Возвращаемое значение
 
-новый элемент группировочного символа
+новый группирующий элемент символа
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathGroupingCharacter](../../imathgroupingcharacter)
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathGroupingCharacterFactory](../../imathgroupingcharacterfactory)
+* interface [IMathGroupingCharacter](../../imathgroupingcharacter)
+* interface [IMathElement](../../imathelement)
+* interface [IMathGroupingCharacterFactory](../../imathgroupingcharacterfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathgroupingcharacterfactory)
 * сборка [Aspose.Slides](../../../)
 

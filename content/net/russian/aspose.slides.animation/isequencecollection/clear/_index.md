@@ -1,13 +1,12 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все последовательности из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/isequencecollection/clear/
 ---
-
-## Метод ISequenceCollection.Clear
+## ISequenceCollection.Clear method
 
 Удаляет все последовательности из коллекции.
 
@@ -17,7 +16,7 @@ public void Clear()
 
 ### Смотрите также
 
-* интерфейс [ISequenceCollection](../../isequencecollection)
+* interface [ISequenceCollection](../../isequencecollection)
 * пространство имен [Aspose.Slides.Animation](../../isequencecollection)
 * сборка [Aspose.Slides](../../../)
 

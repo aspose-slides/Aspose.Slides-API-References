@@ -1,15 +1,14 @@
 ---
 title: IBlobManagementOptions
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Un Objeto Binario Grande BLOB es un dato binario almacenado como una sola entidad - es decir, un BLOB puede ser un audio, video o la presentación misma. Se utilizan diversas técnicas para optimizar el consumo de memoria al trabajar con BLOBs, que ya estaban almacenados en la presentación o pueden ser añadidos más tarde de manera programática. Usando IBlobManagementOptions./iblobmanagementoptions puedes cambiar diferentes aspectos del comportamiento respecto al manejo de BLOBs para la duración de la instancia de IPresentation./ipresentation.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Un objeto binario grande BLOB es un dato binario almacenado como una sola entidad es decir BLOB puede ser un audio video o presentación. Se utilizan varias técnicas para optimizar el consumo de memoria mientras se trabaja con BLOB que ya estaba almacenado en la presentación o que se agregará más tarde mediante programación. UsandoIBlobManagementOptions./iblobmanagementoptions puede cambiar diferentes aspectos de comportamiento con respecto al manejo de BLOBs para elIPresentation./ipresentation duración de la instancia.
 type: docs
-weight: 5170
+weight: 4890
 url: /es/aspose.slides/iblobmanagementoptions/
 ---
+## IBlobManagementOptions interface
 
-## Interfaz IBlobManagementOptions
-
-Un Objeto Binario Grande (BLOB) es un dato binario almacenado como una sola entidad - es decir, un BLOB puede ser un audio, video o la presentación misma. Se utilizan diversas técnicas para optimizar el consumo de memoria al trabajar con BLOBs, que ya estaban almacenados en la presentación o pueden ser añadidos más tarde de manera programática. Usando [`IBlobManagementOptions`](../iblobmanagementoptions) puedes cambiar diferentes aspectos del comportamiento respecto al manejo de BLOBs para la duración de la instancia de [`IPresentation`](../ipresentation).
+Un objeto binario grande (BLOB) es un dato binario almacenado como una sola entidad, es decir, BLOB puede ser un audio, video o presentación. Se utilizan varias técnicas para optimizar el consumo de memoria mientras se trabaja con BLOB, que ya estaba almacenado en la presentación o que se agregará más tarde mediante programación. Usando[`IBlobManagementOptions`](../iblobmanagementoptions) puede cambiar diferentes aspectos de comportamiento con respecto al manejo de BLOBs para el[`IPresentation`](../ipresentation) duración de la instancia.
 
 ```csharp
 public interface IBlobManagementOptions
@@ -19,14 +18,14 @@ public interface IBlobManagementOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Esta propiedad define si se pueden crear archivos temporales mientras se trabaja con BLOBs, lo que disminuye enormemente el consumo de memoria pero requiere permisos para crear archivos. Todos los archivos se eliminarán después de que se termine el trabajo con la presentación. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Define la cantidad máxima (en bytes) que todos los BLOBs en total pueden ocupar en memoria. Primero, todos los BLOBs se cargan en memoria como comportamiento por defecto y solo cuando se alcanza el límite definido por esta propiedad, se pueden involucrar otros mecanismos (como archivos temporales). En términos de rendimiento, la forma más eficiente es almacenar BLOBs en memoria, pero desde el otro lado, esto conduce a un alto consumo de memoria, lo que puede ser indeseable. Usando esta propiedad, puedes establecer el comportamiento óptimo para tu entorno u otros requisitos. Esta propiedad se ignorará si [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) se establece en falso. No tiene sentido limitar el máximo de BLOBs en memoria, porque si [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) se establece en falso, la memoria es el único lugar donde se pueden almacenar los BLOBs. El valor por defecto es 629,145,600 bytes (600Mb). |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Esta propiedad define si una instancia de la clase Presentation puede ser propietaria de la fuente - archivo o flujo durante la duración de la instancia. Si la instancia es propietaria, bloquea la fuente. Esto ayuda a mejorar el consumo de memoria y el rendimiento al trabajar con BLOBs, pero la fuente (flujo o archivo) no puede ser cambiada durante la duración de la instancia de la Presentación. Este es un ejemplo: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | La ruta raíz donde se crearán los archivos temporales. El directorio temporal del sistema se utilizará por defecto. El proceso de hosting debe tener permisos para crear archivos y carpetas allí. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Esta propiedad define si se pueden crear archivos temporales mientras se trabaja con BLOBs, lo que disminuye mucho el consumo de memoria pero requiere permisos para crear archivos. Todos los archivos se eliminarán una vez que finalice el trabajo con la presentación. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Define la cantidad máxima (en bytes) que todos los BLOB en total pueden ocupar en la memoria. Primero, todos los BLOB se cargan en la memoria como comportamiento predeterminado y solo cuando alcanza el límite definido por esta propiedad, pueden involucrarse otros mecanismos (como archivos temporales). En términos de rendimiento, la forma más eficiente de es almacenar BLOB en la memoria, pero por otro lado, conduce a un alto consumo de memoria, lo que puede no ser deseable. Con esta propiedad, puede establecer el comportamiento óptimo para su entorno u otros requisitos .  Esta propiedad será ignorada si[`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) is establecido en falso. No tiene sentido limitar el máximo de BLOB en memoria, porque si [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) se establece en falso, la memoria es el único lugar donde se pueden almacenar los BLOB. El valor predeterminado es 629 145 600 bytes (600 Mb). |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Esta propiedad define si una instancia de la clase de presentación puede ser propietaria del archivo de origen o flujo durante la vigencia de la instancia. Si la instancia es un propietario, bloquea la fuente. Esto ayuda a a mejorar el consumo de memoria y el rendimiento al trabajar con BLOB, pero la fuente (secuencia o archivo) no se puede cambiar durante la vigencia de la instancia de Presentation. Este es un ejemplo: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | La ruta raíz donde se crearán los archivos temporales. El proceso de alojamiento debe tener permisos para crear archivos y carpetas allí. |
 
-### Ver También
+### Ver también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* asamblea [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,23 +1,22 @@
 ---
 title: AsLiteralDouble
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает или задает литеральное значение типа double, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/запись Double.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает литеральное двойное значение если DataSourceType  Charts.DataSourceType.DoubleLiterals. Чтение/записьDouble.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/idoublechartvalue/asliteraldouble/
 ---
+## IDoubleChartValue.AsLiteralDouble property
 
-## IDoubleChartValue.AsLiteralDouble свойство
-
-Возвращает или задает литеральное значение типа double, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/запись Double.
+Возвращает или задает литеральное двойное значение, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/записьDouble.
 
 ```csharp
 public double AsLiteralDouble { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IDoubleChartValue](../../idoublechartvalue)
+* interface [IDoubleChartValue](../../idoublechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../idoublechartvalue)
 * сборка [Aspose.Slides](../../../)
 

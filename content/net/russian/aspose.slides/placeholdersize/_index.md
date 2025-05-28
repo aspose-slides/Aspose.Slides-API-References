@@ -1,13 +1,12 @@
 ---
-title: РазмерЗаполнителя
-second_title: Aspose.Slides для .NET API Справочник
+title: PlaceholderSize
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет размер заполнителя.
 type: docs
-weight: 9170
+weight: 8710
 url: /ru/aspose.slides/placeholdersize/
 ---
-
-## Перечисление PlaceholderSize
+## PlaceholderSize enumeration
 
 Представляет размер заполнителя.
 
@@ -15,13 +14,13 @@ url: /ru/aspose.slides/placeholdersize/
 public enum PlaceholderSize : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | Full | `0` | Полный. |
 | Half | `1` | Половина. |
-| Quarter | `2` | Четверть. |
+| Quarter | `2` | Квартал. |
 
 ### Смотрите также
 

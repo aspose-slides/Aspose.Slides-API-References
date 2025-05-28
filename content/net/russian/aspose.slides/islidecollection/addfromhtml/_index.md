@@ -1,15 +1,14 @@
 ---
 title: AddFromHtml
-second_title: Aspose.Slides для .NET API Reference
-description: Создает слайды из HTML текста и добавляет их в конец коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает слайды из текста HTML и добавляет их в конец коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides/islidecollection/addfromhtml/
 ---
-
 ## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
 
-Создает слайды из HTML текста и добавляет их в конец коллекции.
+Создает слайды из текста HTML и добавляет их в конец коллекции.
 
 ```csharp
 public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
@@ -18,18 +17,18 @@ public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlText | String | HTML для добавления. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, который используется для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен нулю, все внешние объекты будут игнорироваться. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
 ### Возвращаемое значение
 
-Добавленные слайды.
+Добавлены слайды.
 
 ### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* интерфейс [ISlideCollection](../../islidecollection)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -37,7 +36,7 @@ public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver,
 
 ## AddFromHtml(string) {#addfromhtml_4}
 
-Создает слайды из HTML текста и добавляет их в конец коллекции.
+Создает слайды из текста HTML и добавляет их в конец коллекции.
 
 ```csharp
 public ISlide[] AddFromHtml(string htmlText)
@@ -49,12 +48,12 @@ public ISlide[] AddFromHtml(string htmlText)
 
 ### Возвращаемое значение
 
-Добавленные слайды
+Добавлены слайды
 
 ### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* интерфейс [ISlideCollection](../../islidecollection)
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -62,7 +61,7 @@ public ISlide[] AddFromHtml(string htmlText)
 
 ## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
 
-Создает слайды из HTML текста и добавляет их в конец коллекции.
+Создает слайды из текста HTML и добавляет их в конец коллекции.
 
 ```csharp
 public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
@@ -70,19 +69,19 @@ public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver res
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlReader | TextReader | Объект TextReader, который будет использоваться в качестве источника HTML файла. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, который используется для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| htmlReader | TextReader | Объект TextReader, который будет использоваться как источник HTML-файла. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен нулю, все внешние объекты будут игнорироваться. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
 ### Возвращаемое значение
 
-Добавленные слайды.
+Добавлены слайды.
 
 ### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* интерфейс [ISlideCollection](../../islidecollection)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -90,7 +89,7 @@ public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver res
 
 ## AddFromHtml(TextReader) {#addfromhtml_2}
 
-Создает слайды из HTML текста и добавляет их в конец коллекции.
+Создает слайды из текста HTML и добавляет их в конец коллекции.
 
 ```csharp
 public ISlide[] AddFromHtml(TextReader htmlReader)
@@ -98,16 +97,16 @@ public ISlide[] AddFromHtml(TextReader htmlReader)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlReader | TextReader | Объект TextReader, который будет использоваться в качестве источника HTML файла. |
+| htmlReader | TextReader | Объект TextReader, который будет использоваться как источник HTML-файла. |
 
 ### Возвращаемое значение
 
-Добавленные слайды
+Добавлены слайды
 
 ### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* интерфейс [ISlideCollection](../../islidecollection)
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -115,7 +114,7 @@ public ISlide[] AddFromHtml(TextReader htmlReader)
 
 ## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
 
-Создает слайды из HTML текста и добавляет их в конец коллекции.
+Создает слайды из текста HTML и добавляет их в конец коллекции.
 
 ```csharp
 public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
@@ -123,19 +122,19 @@ public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolve
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника HTML файла. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, который используется для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| htmlStream | Stream | Объект Stream, который будет использоваться как источник файла HTML. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен нулю, все внешние объекты будут игнорироваться. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
 ### Возвращаемое значение
 
-Добавленные слайды.
+Добавлены слайды.
 
 ### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* интерфейс [ISlideCollection](../../islidecollection)
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -143,7 +142,7 @@ public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolve
 
 ## AddFromHtml(Stream) {#addfromhtml}
 
-Создает слайды из HTML текста и добавляет их в конец коллекции.
+Создает слайды из текста HTML и добавляет их в конец коллекции.
 
 ```csharp
 public ISlide[] AddFromHtml(Stream htmlStream)
@@ -151,16 +150,16 @@ public ISlide[] AddFromHtml(Stream htmlStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника HTML файла. |
+| htmlStream | Stream | Объект Stream, который будет использоваться как источник файла HTML. |
 
 ### Возвращаемое значение
 
-Добавленные слайды
+Добавлены слайды
 
 ### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* интерфейс [ISlideCollection](../../islidecollection)
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: ForeColor
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает цвет переднего плана узора. Только для чтения Color.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает цвет шаблона переднего плана. Только для чтенияColor.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ipatternformateffectivedata/forecolor/
 ---
+## IPatternFormatEffectiveData.ForeColor property
 
-## Свойство IPatternFormatEffectiveData.ForeColor
-
-Возвращает цвет переднего плана узора. Только для чтения Color.
+Возвращает цвет шаблона переднего плана. Только для чтенияColor.
 
 ```csharp
 public Color ForeColor { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
+* interface [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
 * пространство имен [Aspose.Slides](../../ipatternformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

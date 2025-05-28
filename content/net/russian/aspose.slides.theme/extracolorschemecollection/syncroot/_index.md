@@ -1,25 +1,24 @@
 ---
 title: SyncRoot
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает объект, который можно использовать для синхронизации доступа к коллекции. Объект только для чтения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает объект который можно использовать для синхронизации доступа к коллекции. Только для чтенияObject.
 type: docs
 weight: 40
 url: /ru/aspose.slides.theme/extracolorschemecollection/syncroot/
 ---
+## ExtraColorSchemeCollection.SyncRoot property
 
-## Свойство ExtraColorSchemeCollection.SyncRoot
+Возвращает объект, который можно использовать для синхронизации доступа к коллекции. Только для чтенияObject.
 
-Возвращает объект, который можно использовать для синхронизации доступа к коллекции. Объект только для чтения.
-
-Возвращает корень синхронизации. Объект только для чтения.
+Возвращает корень синхронизации. Только для чтенияObject.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ExtraColorSchemeCollection](../../extracolorschemecollection)
+* class [ExtraColorSchemeCollection](../../extracolorschemecollection)
 * пространство имен [Aspose.Slides.Theme](../../extracolorschemecollection)
 * сборка [Aspose.Slides](../../../)
 

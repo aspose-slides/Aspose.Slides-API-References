@@ -1,24 +1,23 @@
 ---
 title: SourceFont
 second_title: Справочник по API Aspose.Slides для .NET
-description: Шрифт для замены Read-only IFontDataaspose.slides/ifontdata.
+description: Шрифт для замены Только для чтенияIFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ifontsubstrule/sourcefont/
 ---
+## IFontSubstRule.SourceFont property
 
-## Свойство IFontSubstRule.SourceFont
-
-Шрифт для замены Read-only [`IFontData`](../../ifontdata).
+Шрифт для замены Только для чтения[`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SourceFont { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontData](../../ifontdata)
-* интерфейс [IFontSubstRule](../../ifontsubstrule)
+* interface [IFontData](../../ifontdata)
+* interface [IFontSubstRule](../../ifontsubstrule)
 * пространство имен [Aspose.Slides](../../ifontsubstrule)
 * сборка [Aspose.Slides](../../../)
 

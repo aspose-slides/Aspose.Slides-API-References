@@ -1,15 +1,14 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает перечислитель, который проходит по коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает перечислитель который перебирает коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides.animation/textanimationcollection/getenumerator/
 ---
+## TextAnimationCollection.GetEnumerator method
 
-## Метод TextAnimationCollection.GetEnumerator
-
-Возвращает перечислитель, который проходит по коллекции.
+Возвращает перечислитель, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<ITextAnimation> GetEnumerator()
@@ -17,12 +16,12 @@ public IEnumerator<ITextAnimation> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для перебора коллекции.
+AIEnumeratorкоторые можно использовать для перебора коллекции.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ITextAnimation](../../itextanimation)
-* класс [TextAnimationCollection](../../textanimationcollection)
+* interface [ITextAnimation](../../itextanimation)
+* class [TextAnimationCollection](../../textanimationcollection)
 * пространство имен [Aspose.Slides.Animation](../../textanimationcollection)
 * сборка [Aspose.Slides](../../../)
 

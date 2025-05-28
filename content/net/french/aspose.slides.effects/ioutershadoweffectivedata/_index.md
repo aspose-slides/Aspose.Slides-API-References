@@ -1,15 +1,14 @@
 ---
 title: IOuterShadowEffectiveData
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immutable qui représente un effet d'ombre externe.
+description: Objet immuable qui représente un effet dombre extérieure.
 type: docs
-weight: 3350
+weight: 3290
 url: /fr/aspose.slides.effects/ioutershadoweffectivedata/
 ---
+## IOuterShadowEffectiveData interface
 
-## Interface IOuterShadowEffectiveData
-
-Objet immutable qui représente un effet d'ombre externe.
+Objet immuable qui représente un effet d'ombre extérieure.
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -17,24 +16,24 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Rayon de flou. Lecture seule Double. |
-| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Direction de l'ombre. Lecture seule Single. |
-| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Distance de l'ombre. Lecture seule Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Alignement du rectangle. Lecture seule [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Indique si l'ombre doit pivoter avec la forme si la forme est pivotée. Lecture seule Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Indique le facteur d'échelle horizontal, un échelonnement négatif provoque un retournement. Lecture seule Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Indique le facteur d'échelle vertical, un échelonnement négatif provoque un retournement. Lecture seule Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Indique l'angle de déformation horizontal (en degrés). Lecture seule Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Indique l'angle de déformation vertical (en degrés). Lecture seule Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Rayon de flou. Lecture seuleDouble . |
+| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Direction de l'ombre. Lecture seuleSingle . |
+| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Distance de l'ombre. Lecture seuleDouble . |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Alignement du rectangle. Lecture seule[`RectangleAlignment`](../../aspose.slides/rectanglealignment) . |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Spécifie si l'ombre doit tourner avec la forme si la forme est tournée. Lecture seuleBoolean . |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Spécifie le facteur de mise à l'échelle horizontale, une mise à l'échelle négative provoque un retournement. Lecture seuleDouble . |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Spécifie le facteur de mise à l'échelle verticale, une mise à l'échelle négative provoque un retournement. Lecture seuleDouble . |
+| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Couleur de l'ombre. Lecture seuleColor . |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Spécifie l'angle d'inclinaison horizontale (en degrés). Lecture seuleDouble . |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Spécifie l'angle d'inclinaison verticale (en degrés). Lecture seuleDouble . |
 
-### Voir aussi
+### Voir également
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * espace de noms [Aspose.Slides.Effects](../../aspose.slides.effects)
-* assembly [Aspose.Slides](../../)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

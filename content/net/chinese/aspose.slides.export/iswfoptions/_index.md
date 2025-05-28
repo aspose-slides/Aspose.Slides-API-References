@@ -1,46 +1,45 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes for .NET API 参考
-description: 提供控制演示文稿如何保存为 SWF 格式的选项。
+second_title: Aspose.Slides for .NET API 参考
+description: 提供控制演示文稿如何以 SWF 格式保存的选项
 type: docs
-weight: 3980
+weight: 3810
 url: /zh/aspose.slides.export/iswfoptions/
 ---
+## ISwfOptions interface
 
-## ISwfOptions 接口
-
-提供控制演示文稿如何保存为 SWF 格式的选项。
+提供控制演示文稿如何以 SWF 格式保存的选项。
 
 ```csharp
 public interface ISwfOptions : ISaveOptions
 ```
 
-## 属性
+## 特性
 
-| 名称 | 描述 |
+| 姓名 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | 指定生成的 SWF 文档是否应被压缩。默认值为 `true`。 |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | 启用/禁用右键菜单。默认值为 true。 |
-| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | 指定 JPEG 图像的质量。默认值为 95。 |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | 在查看器右上角显示为 logo 的图像。图像应为 32x64 像素的 PNG 图像，否则 logo 可能无法正确显示。 |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | 获取或设置 logo 的完整超链接地址。仅在指定 [`LogoImageBytes`](./logoimagebytes) 时生效。 |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | 显示/隐藏底部面板。可以在 flashvars 中重写。默认值为 true。 |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | 显示/隐藏全屏按钮。可以在 flashvars 中重写。默认值为 true。 |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包括隐藏幻灯片。默认值为 `false`。 |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | 显示/隐藏左侧面板。可以在 flashvars 中重写。默认值为 true。 |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | 指定是否应显示页面周围的边框。默认值为 true。 |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | 显示/隐藏页面步进器。可以在 flashvars 中重写。默认值为 true。 |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | 显示/隐藏搜索部分。可以在 flashvars 中重写。默认值为 true。 |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | 显示/隐藏整个顶部面板。可以在 flashvars 中重写。默认值为 true。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | 获取或设置导出演示文稿时幻灯片在页面上的摆放模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。此属性不支持分配 `Aspose.Slides.Export.HandoutLayoutingOptions` 类型的对象 |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | 开始时打开左侧面板。可以在 flashvars 中重写。默认值为 false。 |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | 指定生成的 SWF 文档是否应包含集成文档查看器。默认值为 `true`。 |
+| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions)。 |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | 指定是否应压缩生成的 SWF 文档。 默认为` true` 。 |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | 启用/禁用上下文菜单。默认为真。 |
+| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | 指定 JPEG 图像的质量。 默认为 95。 |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | 将在查看器右上角显示为徽标的图像。 图片应为 32x64 像素的 PNG 图片，否则徽标可能无法正常显示。 |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | 获取或设置徽标的完整超链接地址。 仅在指定[`LogoImageBytes`](./logoimagebytes)时有效。 |
+| [NotesCommentsLayouting](../../aspose.slides.export/iswfoptions/notescommentslayouting) { get; } | 提供控制注释和注释在导出文档中的放置方式的选项。 |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | 显示/隐藏底部窗格。可以在 flashvars 中被覆盖。默认为真。 |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | 显示/隐藏全屏按钮。可以在 flashvars 中被覆盖。默认为真。 |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。 默认为` false` 。 |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | 显示/隐藏左窗格。可以在 flashvars 中被覆盖。默认为真。 |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | 指定是否应显示页面边框。默认为真。 |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | 显示/隐藏页面步进器。可以在 flashvars 中被覆盖。默认为真。 |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | 显示/隐藏搜索部分。可以在 flashvars 中被覆盖。默认为真。 |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | 显示/隐藏整个顶部窗格。可以在 flashvars 中被覆盖。默认为真。 |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | 从打开的左窗格开始。可以在 flashvars 中被覆盖。默认为假。 |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | 指定生成的 SWF 文档是否应包含集成文档查看器。 默认为` true` 。 |
 
-### 另请参阅
+### 也可以看看
 
-* 接口 [ISaveOptions](../isaveoptions)
+* interface [ISaveOptions](../isaveoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
-* 程序集 [Aspose.Slides](../../)
+* 部件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

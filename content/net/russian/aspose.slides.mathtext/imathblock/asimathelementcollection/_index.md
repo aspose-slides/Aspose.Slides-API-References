@@ -1,13 +1,12 @@
 ---
 title: AsIMathElementCollection
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Позволяет получить базовый интерфейс IMathElementCollection IMathElementCollectionaspose.slides.mathtext/imathelementcollection
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathblock/asimathelementcollection/
 ---
-
-## Свойство IMathBlock.AsIMathElementCollection
+## IMathBlock.AsIMathElementCollection property
 
 Позволяет получить базовый интерфейс IMathElementCollection [`IMathElementCollection`](../../imathelementcollection)
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides.mathtext/imathblock/asimathelementcollection/
 public IMathElementCollection AsIMathElementCollection { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IMathElementCollection](../../imathelementcollection)
-* интерфейс [IMathBlock](../../imathblock)
+* interface [IMathElementCollection](../../imathelementcollection)
+* interface [IMathBlock](../../imathblock)
 * пространство имен [Aspose.Slides.MathText](../../imathblock)
 * сборка [Aspose.Slides](../../../)
 

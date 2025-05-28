@@ -1,36 +1,35 @@
 ---
 title: InterruptionToken
-second_title: Aspose.Slides для .NET API Reference
-description: Этот класс представляет токен, который используется для сигнализации долгосрочных задач, была ли запрошена прерывание.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Этот класс представляет токен используемый для сигнализации длительных задач о том было ли запрошено прерывание.
 type: docs
-weight: 7360
+weight: 6910
 url: /ru/aspose.slides/interruptiontoken/
 ---
+## InterruptionToken class
 
-## Класс InterruptionToken
-
-Этот класс представляет токен, который используется для сигнализации долгосрочных задач, была ли запрошена прерывание.
+Этот класс представляет токен, используемый для сигнализации длительных задач о том, было ли запрошено прерывание.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Представляет пустой токен прерывания. Долгосрочные операции никогда не будут прерваны через [`Interrupt`](../interruptiontokensource/interrupt) при использовании этого токена. |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Возвращает Boolean.true, если запрос на прерывание был сделан. |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Представляет пустой маркер прерывания.  Длительные операции никогда не будут прерываться через[`Interrupt`](../interruptiontokensource/interrupt) при использовании этот токен. |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | ВозвращаетBoolean.true, если было запрошено прерывание. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Вызывает OperationCanceledException, если было запрошено прерывание. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Выдает OperationCanceledException , если прерывание было просил. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IInterruptionToken](../iinterruptiontoken)
+* interface [IInterruptionToken](../iinterruptiontoken)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

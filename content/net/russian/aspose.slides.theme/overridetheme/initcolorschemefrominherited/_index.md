@@ -1,15 +1,14 @@
 ---
 title: InitColorSchemeFromInherited
-second_title: Aspose.Slides для .NET API Reference
-description: Инициализация ColorScheme с новым объектом для переопределения ColorScheme у InheritedTheme. И инициализация данных этого нового объекта с данными ColorScheme из InheritedTheme.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Инициировать ColorScheme с новым объектом для переопределения ColorScheme InheritedTheme. И инициализируйте данные этого нового объекта данными ColorScheme InheritedTheme.
 type: docs
 weight: 80
 url: /ru/aspose.slides.theme/overridetheme/initcolorschemefrominherited/
 ---
+## OverrideTheme.InitColorSchemeFromInherited method
 
-## Метод OverrideTheme.InitColorSchemeFromInherited
-
-Инициализация ColorScheme с новым объектом для переопределения ColorScheme у InheritedTheme. И инициализация данных этого нового объекта с данными ColorScheme из InheritedTheme.
+Инициировать ColorScheme с новым объектом для переопределения ColorScheme InheritedTheme. И инициализируйте данные этого нового объекта данными ColorScheme InheritedTheme.
 
 ```csharp
 public void InitColorSchemeFromInherited()
@@ -19,11 +18,11 @@ public void InitColorSchemeFromInherited()
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Выбрасывается, если ColorScheme уже инициализирован (не равен null). |
+| InvalidOperationException | Генерируется, если ColorScheme уже инициализирована (не нуль). |
 
-### См. также
+### Смотрите также
 
-* класс [OverrideTheme](../../overridetheme)
+* class [OverrideTheme](../../overridetheme)
 * пространство имен [Aspose.Slides.Theme](../../overridetheme)
 * сборка [Aspose.Slides](../../../)
 

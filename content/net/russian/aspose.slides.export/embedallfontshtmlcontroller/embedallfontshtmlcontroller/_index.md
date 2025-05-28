@@ -1,12 +1,11 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новый экземпляр
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/embedallfontshtmlcontroller/embedallfontshtmlcontroller/
 ---
-
 ## EmbedAllFontsHtmlController() {#constructor}
 
 Создает новый экземпляр
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.export/embedallfontshtmlcontroller/embedallfontshtmlcontr
 public EmbedAllFontsHtmlController()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
+* class [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embedallfontshtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 
@@ -33,11 +32,11 @@ public EmbedAllFontsHtmlController(string[] fontNameExcludeList)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontNameExcludeList | String[] | Шрифты, которые будут исключены из встраивания |
+| fontNameExcludeList | String[] | Шрифты, которые необходимо исключить из внедрения |
 
-### См. Также
+### Смотрите также
 
-* класс [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
+* class [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embedallfontshtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

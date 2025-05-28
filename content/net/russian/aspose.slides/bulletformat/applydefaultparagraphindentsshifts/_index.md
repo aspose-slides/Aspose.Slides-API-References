@@ -1,15 +1,14 @@
 ---
 title: ApplyDefaultParagraphIndentsShifts
-second_title: Aspose.Slides для .NET API Reference
-description: Устанавливает значения сдвигов по умолчанию, отличные от нуля, для эффективного отступа параграфа и MarginLeft, когда включены маркеры, как делает PowerPoint, если в нем включены маркеры/нумерация параграфов. Если маркеры отключены, просто сбрасывает отступ параграфа и MarginLeft, как делает PowerPoint, если в нем отключены маркеры/нумерация параграфов. Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Сдвиги, отличные от нуля, применяются к эффективному отступу и MarginLeft текущего параграфа, делая результирующие значения локальными значениями.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает ненулевые смещения по умолчанию для эффективного отступа и левого поля абзаца когда маркеры включены как это делает PowerPoint если в нем включены маркеры/нумерация абзаца. Если маркеры отключены просто сбросьте отступ и левое поле абзаца как это делает PowerPoint если отключите в нем маркеры/нумерацию абзаца. Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type .NumberedBulletStyle и FontHeight первой части. Сдвиги ненулевых отступов применяются к действующим Indent и MarginLeft текущего абзаца результирующие значения должны быть локальными значениями.
 type: docs
 weight: 110
 url: /ru/aspose.slides/bulletformat/applydefaultparagraphindentsshifts/
 ---
+## BulletFormat.ApplyDefaultParagraphIndentsShifts method
 
-## BulletFormat.ApplyDefaultParagraphIndentsShifts метод
-
-Устанавливает значения сдвигов по умолчанию, отличные от нуля, для эффективного отступа параграфа и MarginLeft, когда включены маркеры (как делает PowerPoint, если в нем включены маркеры/нумерация параграфов). Если маркеры отключены, просто сбрасывает отступ параграфа и MarginLeft (как делает PowerPoint, если в нем отключены маркеры/нумерация параграфов). Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Сдвиги, отличные от нуля, применяются к эффективному отступу и MarginLeft текущего параграфа (делая результирующие значения локальными значениями).
+Устанавливает ненулевые смещения по умолчанию для эффективного отступа и левого поля абзаца, когда маркеры включены (как это делает PowerPoint, если в нем включены маркеры/нумерация абзаца). Если маркеры отключены, просто сбросьте отступ и левое поле абзаца (как это делает PowerPoint, если отключите в нем маркеры/нумерацию абзаца). Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Сдвиги ненулевых отступов применяются к действующим Indent и MarginLeft текущего абзаца (результирующие значения должны быть локальными значениями).
 
 ```csharp
 public void ApplyDefaultParagraphIndentsShifts()
@@ -19,11 +18,11 @@ public void ApplyDefaultParagraphIndentsShifts()
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызов этого метода не имеет значения и выбрасывает InvalidOperationException в следующих случаях: если родительский отформатированный объект не является параграфом (например, вызов ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() вызовет исключение); или если параграф не был добавлен в коллекцию ITextFrame.Paragraphs (добавьте его сначала); |
+| InvalidOperationException | Вызов этого метода не имеет значения и бросаетInvalidOperationExceptionв следующих случаях: если родительский форматированный объект не является абзацем (например, вызов ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() вызовет исключение); или если абзац не был добавлен ни в одну коллекцию ITextFrame.Paragraphs (добавьте его первым); |
 
-### См. также
+### Смотрите также
 
-* класс [BulletFormat](../../bulletformat)
+* class [BulletFormat](../../bulletformat)
 * пространство имен [Aspose.Slides](../../bulletformat)
 * сборка [Aspose.Slides](../../../)
 

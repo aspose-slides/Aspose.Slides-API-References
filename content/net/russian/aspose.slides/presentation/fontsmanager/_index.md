@@ -1,49 +1,23 @@
 ---
 title: FontsManager
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает менеджер шрифтов. Только для чтения IFontsManager aspose.slides/ifontsmanager.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает диспетчер шрифтов. Только для чтенияIFontsManageraspose.slides/ifontsmanager.
 type: docs
 weight: 110
 url: /ru/aspose.slides/presentation/fontsmanager/
 ---
+## Presentation.FontsManager property
 
-## Свойство Presentation.FontsManager
-
-Возвращает менеджер шрифтов. Только для чтения [`IFontsManager`](../../ifontsmanager).
+Возвращает диспетчер шрифтов. Только для чтения[`IFontsManager`](../../ifontsmanager).
 
 ```csharp
 public IFontsManager FontsManager { get; }
 ```
 
-### Примеры
+### Смотрите также
 
-Ниже приведен пример, показывающий, как добавить встроенные шрифты в презентацию PowerPoint.
-
-```csharp
-[C#]
-// Загрузить презентацию
-using (Presentation presentation = new Presentation("Fonts.pptx"))
-{
-	// Загрузить исходный шрифт для замены
-	IFontData sourceFont = new FontData("Arial");
-	IFontData[] allFonts = presentation.FontsManager.GetFonts();
-	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
-	foreach (IFontData font in allFonts)
-	{
-		if (!embeddedFonts.Contains(font))
-		{
-			presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
-		}
-	}
-	// Сохранить презентацию
-	presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
-}
-```
-
-### См. также
-
-* интерфейс [IFontsManager](../../ifontsmanager)
-* класс [Presentation](../../presentation)
+* interface [IFontsManager](../../ifontsmanager)
+* class [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

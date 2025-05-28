@@ -1,13 +1,12 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все команды из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/imotionpath/clear/
 ---
-
-## Метод IMotionPath.Clear
+## IMotionPath.Clear method
 
 Удаляет все команды из коллекции.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/imotionpath/clear/
 public void Clear()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMotionPath](../../imotionpath)
+* interface [IMotionPath](../../imotionpath)
 * пространство имен [Aspose.Slides.Animation](../../imotionpath)
 * сборка [Aspose.Slides](../../../)
 

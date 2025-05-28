@@ -1,13 +1,12 @@
 ---
 title: CloneT
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Клонирует текущий объект
 type: docs
-weight: 400
+weight: 290
 url: /ru/aspose.slides/documentproperties/clonet/
 ---
-
-## Метод DocumentProperties.CloneT
+## DocumentProperties.CloneT method
 
 Клонирует текущий объект
 
@@ -17,12 +16,12 @@ public IDocumentProperties CloneT()
 
 ### Возвращаемое значение
 
-Клон
+Клонировать
 
-### См. также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
-* класс [DocumentProperties](../../documentproperties)
+* interface [IDocumentProperties](../../idocumentproperties)
+* class [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

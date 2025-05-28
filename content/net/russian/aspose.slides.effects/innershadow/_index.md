@@ -1,40 +1,39 @@
 ---
-title: Внутренняя тень
+title: InnerShadow
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет эффект внутренней тени.
 type: docs
-weight: 3480
+weight: 3400
 url: /ru/aspose.slides.effects/innershadow/
 ---
-
-## Класс InnerShadow
+## InnerShadow class
 
 Представляет эффект внутренней тени.
 
 ```csharp
-public sealed class InnerShadow : IInnerShadow
+public class InnerShadow : IInnerShadow
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Радиус размытия. Чтение/запись Double. |
-| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Направление тени. Чтение/запись Single. |
-| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Расстояние до тени. Чтение/запись Double. |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Цвет тени. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Радиус размытия. Чтение/записьDouble. |
+| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Направление тени. Чтение/записьSingle. |
+| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble. |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Определяет, равен ли указанный [`InnerShadow`](../innershadow) текущему [`InnerShadow`](../innershadow). |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Получает данные эффективного эффекта внутренней тени с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Служит в качестве функции хеширования для определенного типа. |
+| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Определяет, равен ли указанный[`InnerShadow`](../innershadow)текущемуВнутренняяТень. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Получает эффективные данные эффекта внутренней тени с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Служит хэш-функцией для определенного типа. |
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IInnerShadow](../iinnershadow)
+* interface [IInnerShadow](../iinnershadow)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

@@ -1,31 +1,30 @@
 ---
 title: ITabEffectiveData
-second_title: Aspose.Sildes для .NET API Справочник
-description: Неизменяемый объект, который содержит свойства табуляции эффективного текста.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект который содержит свойства остановки табуляции действующего текста.
 type: docs
-weight: 6990
+weight: 6630
 url: /ru/aspose.slides/itabeffectivedata/
 ---
+## ITabEffectiveData interface
 
-## Интерфейс ITabEffectiveData
-
-Неизменяемый объект, который содержит свойства табуляции эффективного текста.
+Неизменяемый объект, который содержит свойства остановки табуляции действующего текста.
 
 ```csharp
 public interface ITabEffectiveData : IComparable
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Возвращает стиль выравнивания табуляции. Только для чтения [`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтения IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Возвращает позицию табуляции. Присвоение этому свойству может изменить индекс табуляции в коллекции и недействительным сделать перечислитель. Только для чтения Double. |
+| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Возвращает стиль выравнивания вкладки. Только чтение[`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтенияIComparable. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Возвращает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недействительным. Только для чтенияDouble. |
 
-### Замечания
+### Примечания
 
-Этот интерфейс используется в качестве части [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
+Этот интерфейс используется как часть[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
 ### Смотрите также
 

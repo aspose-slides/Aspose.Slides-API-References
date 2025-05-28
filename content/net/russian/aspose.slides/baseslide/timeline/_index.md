@@ -1,15 +1,14 @@
 ---
-title: Хронология
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает объект временной шкалы анимации. Только для чтения IAnimationTimeLineaspose.slides/ianimationtimeline.
+title: Timeline
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает объект временной шкалы анимации. Только для чтенияIAnimationTimeLineaspose.slides/ianimationtimeline.
 type: docs
 weight: 110
 url: /ru/aspose.slides/baseslide/timeline/
 ---
+## BaseSlide.Timeline property
 
-## Свойство BaseSlide.Timeline
-
-Возвращает объект временной шкалы анимации. Только для чтения [`IAnimationTimeLine`](../../ianimationtimeline).
+Возвращает объект временной шкалы анимации. Только для чтения[`IAnimationTimeLine`](../../ianimationtimeline).
 
 ```csharp
 public IAnimationTimeLine Timeline { get; }
@@ -17,8 +16,8 @@ public IAnimationTimeLine Timeline { get; }
 
 ### Смотрите также
 
-* интерфейс [IAnimationTimeLine](../../ianimationtimeline)
-* класс [BaseSlide](../../baseslide)
+* interface [IAnimationTimeLine](../../ianimationtimeline)
+* class [BaseSlide](../../baseslide)
 * пространство имен [Aspose.Slides](../../baseslide)
 * сборка [Aspose.Slides](../../../)
 

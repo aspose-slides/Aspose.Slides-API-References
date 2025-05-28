@@ -1,13 +1,12 @@
 ---
 title: ColorType
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет различные цветовые режимы.
 type: docs
-weight: 2490
+weight: 2430
 url: /ru/aspose.slides/colortype/
 ---
-
-## Перечисление ColorType
+## ColorType enumeration
 
 Представляет различные цветовые режимы.
 
@@ -15,19 +14,19 @@ url: /ru/aspose.slides/colortype/
 public enum ColorType
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
-| NotDefined | `-1` | Цвет не определен вообще. |
-| RGB | `0` | Стандартный 24-битный RGB цвет. |
-| RGBPercentage | `1` | Цвет RGB высокого определения. |
-| HSL | `2` | Цвет HSL высокого определения. |
+| NotDefined | `-1` | Цвет вообще не определяется. |
+| RGB | `0` | Стандартный 24-битный цвет RGB. |
+| RGBPercentage | `1` | Цвет RGB высокой четкости. |
+| HSL | `2` | Цвет высокой четкости HSL. |
 | Scheme | `3` | Цвет схемы. |
 | System | `4` | Системный цвет. |
 | Preset | `5` | Предустановленный цвет. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

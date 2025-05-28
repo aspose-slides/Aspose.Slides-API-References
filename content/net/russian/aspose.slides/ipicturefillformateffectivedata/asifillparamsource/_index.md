@@ -1,24 +1,23 @@
 ---
 title: AsIFillParamSource
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IFillParamSource. Тільки для читання IFillParamSource aspose.slides/ifillparamsource.
+description: Позволяет получить базовый интерфейс IFillParamSource. Только для чтенияIFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ipicturefillformateffectivedata/asifillparamsource/
 ---
+## IPictureFillFormatEffectiveData.AsIFillParamSource property
 
-## Свойство IPictureFillFormatEffectiveData.AsIFillParamSource
-
-Позволяет получить базовый интерфейс IFillParamSource. Тільки для читання [`IFillParamSource`](../../ifillparamsource).
+Позволяет получить базовый интерфейс IFillParamSource. Только для чтения[`IFillParamSource`](../../ifillparamsource).
 
 ```csharp
 public IFillParamSource AsIFillParamSource { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFillParamSource](../../ifillparamsource)
-* интерфейс [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
+* interface [IFillParamSource](../../ifillparamsource)
+* interface [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * пространство имен [Aspose.Slides](../../ipicturefillformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

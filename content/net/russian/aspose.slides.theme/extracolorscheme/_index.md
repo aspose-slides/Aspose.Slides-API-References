@@ -1,13 +1,12 @@
 ---
 title: ExtraColorScheme
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет дополнительную цветовую схему, которую можно назначить слайду.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет дополнительную цветовую схему которую можно назначить слайду.
 type: docs
-weight: 10790
+weight: 10290
 url: /ru/aspose.slides.theme/extracolorscheme/
 ---
-
-## Класс ExtraColorScheme
+## ExtraColorScheme class
 
 Представляет дополнительную цветовую схему, которую можно назначить слайду.
 
@@ -15,16 +14,16 @@ url: /ru/aspose.slides.theme/extracolorscheme/
 public class ExtraColorScheme : IExtraColorScheme
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Возвращает название этой схемы. Только для чтения String. |
+| [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения[`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Возвращает имя этой схемы. Только чтениеString. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IExtraColorScheme](../iextracolorscheme)
+* interface [IExtraColorScheme](../iextracolorscheme)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

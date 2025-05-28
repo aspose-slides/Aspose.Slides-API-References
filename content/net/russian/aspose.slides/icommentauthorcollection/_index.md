@@ -1,42 +1,41 @@
 ---
 title: ICommentAuthorCollection
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет собой коллекцию авторов комментариев.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет коллекцию авторов комментариев.
 type: docs
-weight: 5380
+weight: 5080
 url: /ru/aspose.slides/icommentauthorcollection/
 ---
+## ICommentAuthorCollection interface
 
-## Интерфейс ICommentAuthorCollection
-
-Представляет собой коллекцию авторов комментариев.
+Представляет коллекцию авторов комментариев.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ICommentAuthor`](../icommentauthor). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Добавляет нового автора в конец коллекции. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Добавить нового автора в конец коллекции. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Удаляет всех авторов из коллекции. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Находит автора в коллекции по имени. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Находит автора в коллекции по имени и инициалам. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Найти автора в коллекции по имени. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Найти автора в коллекции по имени и инициалам. |
 | [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Удаляет первое вхождение указанного автора в коллекции. |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Удаляет автора по указанному индексу в коллекции. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Удаляет автора по указанному индексу коллекции. |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Создает и возвращает массив со всеми авторами. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* интерфейс [ICommentAuthor](../icommentauthor)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [ICommentAuthor](../icommentauthor)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

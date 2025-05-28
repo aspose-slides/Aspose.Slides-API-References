@@ -1,15 +1,14 @@
 ---
 title: SetDateTimeText
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает текст для заполнителя даты и времени слайда.
+description: Устанавливает текст в качестве заполнителя даты и времени слайда.
 type: docs
 weight: 40
 url: /ru/aspose.slides/baseslideheaderfootermanager/setdatetimetext/
 ---
+## BaseSlideHeaderFooterManager.SetDateTimeText method
 
-## Метод BaseSlideHeaderFooterManager.SetDateTimeText
-
-Устанавливает текст для заполнителя даты и времени слайда.
+Устанавливает текст в качестве заполнителя даты и времени слайда.
 
 ```csharp
 public void SetDateTimeText(string text)
@@ -21,7 +20,7 @@ public void SetDateTimeText(string text)
 
 ### Смотрите также
 
-* класс [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
+* class [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../baseslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

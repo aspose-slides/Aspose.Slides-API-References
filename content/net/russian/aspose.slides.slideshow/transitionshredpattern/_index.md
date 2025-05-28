@@ -1,28 +1,27 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Slides для .NET API Reference
-description: Указывает геометрическую форму, которая соединяется для заполнения большей области.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет геометрическую фигуру которая складывается вместе чтобы заполнить большую область.
 type: docs
-weight: 10100
+weight: 9630
 url: /ru/aspose.slides.slideshow/transitionshredpattern/
 ---
+## TransitionShredPattern enumeration
 
-## Перечисление TransitionShredPattern
-
-Указывает геометрическую форму, которая соединяется для заполнения большей области.
+Определяет геометрическую фигуру, которая складывается вместе, чтобы заполнить большую область.
 
 ```csharp
 public enum TransitionShredPattern
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | Strip | `0` | Вертикальные полосы |
 | Rectangle | `1` | Маленькие прямоугольники |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)

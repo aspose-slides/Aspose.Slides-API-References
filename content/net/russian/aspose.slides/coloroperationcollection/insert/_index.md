@@ -1,13 +1,12 @@
 ---
-title: Вставить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Insert
+second_title: Справочник по API Aspose.Slides для .NET
 description: Вставляет новую операцию в коллекцию.
 type: docs
 weight: 110
 url: /ru/aspose.slides/coloroperationcollection/insert/
 ---
-
-## Вставить(int, ColorTransformOperation, float) {#insert_1}
+## Insert(int, ColorTransformOperation, float) {#insert_1}
 
 Вставляет новую операцию в коллекцию.
 
@@ -18,24 +17,24 @@ public IColorOperation Insert(int position, ColorTransformOperation operation, f
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Int32 | Индекс, по которому будет вставлена операция. |
-| operation | ColorTransformOperation | Тип операции. |
+| операция | ColorTransformOperation | Тип операции. |
 | parameter | Single | Параметр операции. |
 
-### Значение возврата
+### Возвращаемое значение
 
 Вставленная операция.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IColorOperation](../../icoloroperation)
-* перечисление [ColorTransformOperation](../../colortransformoperation)
-* класс [ColorOperationCollection](../../coloroperationcollection)
+* interface [IColorOperation](../../icoloroperation)
+* enum [ColorTransformOperation](../../colortransformoperation)
+* class [ColorOperationCollection](../../coloroperationcollection)
 * пространство имен [Aspose.Slides](../../coloroperationcollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Вставить(int, ColorTransformOperation) {#insert}
+## Insert(int, ColorTransformOperation) {#insert}
 
 Вставляет новую операцию в коллекцию.
 
@@ -46,17 +45,17 @@ public IColorOperation Insert(int position, ColorTransformOperation operation)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Int32 | Индекс, по которому будет вставлена операция. |
-| operation | ColorTransformOperation | Тип операции. |
+| операция | ColorTransformOperation | Тип операции. |
 
-### Значение возврата
+### Возвращаемое значение
 
 Вставленная операция.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IColorOperation](../../icoloroperation)
-* перечисление [ColorTransformOperation](../../colortransformoperation)
-* класс [ColorOperationCollection](../../coloroperationcollection)
+* interface [IColorOperation](../../icoloroperation)
+* enum [ColorTransformOperation](../../colortransformoperation)
+* class [ColorOperationCollection](../../coloroperationcollection)
 * пространство имен [Aspose.Slides](../../coloroperationcollection)
 * сборка [Aspose.Slides](../../../)
 

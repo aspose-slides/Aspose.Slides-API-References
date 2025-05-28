@@ -1,23 +1,22 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.vba/vbamodulecollection/count/
 ---
+## VbaModuleCollection.Count property
 
-## Свойство VbaModuleCollection.Count
-
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [VbaModuleCollection](../../vbamodulecollection)
+* class [VbaModuleCollection](../../vbamodulecollection)
 * пространство имен [Aspose.Slides.Vba](../../vbamodulecollection)
 * сборка [Aspose.Slides](../../../)
 

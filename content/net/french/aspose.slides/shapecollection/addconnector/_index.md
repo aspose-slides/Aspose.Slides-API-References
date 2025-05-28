@@ -1,101 +1,73 @@
 ---
 title: AddConnector
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un nouveau Connector, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
+description: Crée un nouveau connecteur le règle à partir du modèle par défaut et lajoute à la fin de la collection.
 type: docs
 weight: 120
 url: /fr/aspose.slides/shapecollection/addconnector/
 ---
-
 ## AddConnector(ShapeType, float, float, float, float) {#addconnector}
 
-Crée un nouveau Connector, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
+Crée un nouveau connecteur, le règle à partir du modèle par défaut et l'ajoute à la fin de la collection.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| shapeType | ShapeType | Le [`ShapeType`](../../shapetype) de la forme. |
-| x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
-| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
+| shapeType | ShapeType | La[`ShapeType`](../../shapetype) de forme. |
+| x | Single | Coordonnée X d'un côté gauche du cadre de la forme. |
+| y | Single | Coordonnée Y d'un côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
 
-### Valeur de retour
+### Return_Value
 
-L'index basé sur zéro de la forme créée.
+Index de base zéro de la forme créée.
 
-Objet Connector créé.
+Objet connecteur créé.
 
-### Exemples
-
-L'exemple suivant montre comment ajouter un connecteur (un connecteur courbé) entre deux formes (une ellipse et un rectangle) dans une présentation PowerPoint.
-
-```csharp
-[C#]
-// Instancie une classe de présentation qui représente un fichier PPTX
-using (Presentation input = new Presentation())
-{
-    // Accède à la collection de formes pour une diapositive spécifique
-    IShapeCollection shapes = input.Slides[0].Shapes;
-    // Ajoute une forme automatique Ellipse
-    IAutoShape ellipse = shapes.AddAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
-    // Ajoute une forme automatique Rectangle
-    IAutoShape rectangle = shapes.AddAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
-    // Ajoute une forme connecteur à la collection de formes de la diapositive
-    IConnector connector = shapes.AddConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
-    // Connecte les formes à l'aide du connecteur
-    connector.StartShapeConnectedTo = ellipse;
-    connector.EndShapeConnectedTo = rectangle;
-    // Appelle reroute qui définit le chemin automatique le plus court entre les formes
-    connector.Reroute();
-    // Sauvegarde la présentation
-    input.Save("Shapes-connector.pptx", SaveFormat.Pptx);
-}
-```
-
-### Voir Aussi
+### Voir également
 
 * interface [IConnector](../../iconnector)
 * enum [ShapeType](../../shapetype)
 * class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../shapecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
 ## AddConnector(ShapeType, float, float, float, float, bool) {#addconnector_1}
 
-Crée un nouveau Connector et l'ajoute à la fin de la collection.
+Crée un nouveau connecteur et l'ajoute à la fin de la collection.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height, 
     bool createFromTemplate)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| shapeType | ShapeType | Le [`ShapeType`](../../shapetype) de la forme. |
-| x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
-| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
+| shapeType | ShapeType | La[`ShapeType`](../../shapetype) de forme. |
+| x | Single | Coordonnée X d'un côté gauche du cadre de la forme. |
+| y | Single | Coordonnée Y d'un côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
-| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera ajustée à partir du modèle par défaut. Un nom non vide, un style simple, un texte centré seront assignés à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
+| createFromTemplate | Boolean | Si vrai, la nouvelle forme sera ajustée à partir du modèle par défaut. Nom non vide, style simple, le texte centré sera associé à la nouvelle forme. Si false alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
 
-### Valeur de retour
+### Return_Value
 
-L'index basé sur zéro de la forme créée.
+Index de base zéro de la forme créée.
 
-Objet Connector créé.
+Objet connecteur créé.
 
-### Voir Aussi
+### Voir également
 
 * interface [IConnector](../../iconnector)
 * enum [ShapeType](../../shapetype)
 * class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../shapecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

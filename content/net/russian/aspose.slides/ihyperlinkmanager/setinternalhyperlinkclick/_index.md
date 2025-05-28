@@ -1,15 +1,14 @@
 ---
 title: SetInternalHyperlinkClick
-second_title: Aspose.Slides для .NET API Справочная информация
-description: Устанавливает внутреннюю гиперссылку при нажатии.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает внутреннюю гиперссылку по клику.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick/
 ---
+## IHyperlinkManager.SetInternalHyperlinkClick method
 
-## IHyperlinkManager.SetInternalHyperlinkClick метод
-
-Устанавливает внутреннюю гиперссылку при нажатии.
+Устанавливает внутреннюю гиперссылку по клику.
 
 ```csharp
 public IHyperlink SetInternalHyperlinkClick(ISlide targetSlide)
@@ -17,17 +16,17 @@ public IHyperlink SetInternalHyperlinkClick(ISlide targetSlide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| targetSlide | ISlide | Целевая слайд. |
+| targetSlide | ISlide | Целевой слайд. |
 
 ### Возвращаемое значение
 
 Гиперссылка.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IHyperlink](../../ihyperlink)
-* интерфейс [ISlide](../../islide)
-* интерфейс [IHyperlinkManager](../../ihyperlinkmanager)
+* interface [IHyperlink](../../ihyperlink)
+* interface [ISlide](../../islide)
+* interface [IHyperlinkManager](../../ihyperlinkmanager)
 * пространство имен [Aspose.Slides](../../ihyperlinkmanager)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,46 +1,45 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
-second_title: Aspose.Slides для .NET API Справка
-description: Представляет собой менеджер, который содержит поведение заполнителей, включая место для заголовка для всех типов слайдов раздаточных материалов и заметок.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет менеджер который определяет поведение заполнителей включая заполнитель заголовка для всех типов слайдов раздаточных материалов и заметок.
 type: docs
-weight: 870
+weight: 850
 url: /ru/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
+## BaseHandoutNotesSlideHeaderFooterManager class
 
-## Класс BaseHandoutNotesSlideHeaderFooterManager
-
-Представляет собой менеджер, который содержит поведение заполнителей, включая место для заголовка для всех типов слайдов раздаточных материалов и заметок.
+Представляет менеджер, который определяет поведение заполнителей, включая заполнитель заголовка для всех типов слайдов раздаточных материалов и заметок.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
     IBaseHandoutNotesSlideHeaderFooterManag
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Получает значение, указывающее на наличие заполнителя даты и времени. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Получает значение, указывающее на наличие заполнителя нижнего колонтитула. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Получает значение, указывающее на наличие заполнителя заголовка. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее на наличие заполнителя номера страницы. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Получает значение, указывающее на наличие заполнителя даты и времени. ЧтениеBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель нижнего колонтитула. ЧтениеBoolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель заголовка. ЧтениеBoolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель номера страницы. ЧтениеBoolean. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Устанавливает текст для заполнителя даты и времени слайда. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Устанавливает текст в качестве заполнителя даты и времени слайда. |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Изменяет видимость заполнителя даты и времени слайда. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Устанавливает текст для заполнителя нижнего колонтитула слайда. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Устанавливает текст в качестве заполнителя нижнего колонтитула слайда. |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Изменяет видимость заполнителя нижнего колонтитула слайда. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Устанавливает текст для заполнителя заголовка слайда. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Устанавливает текст в качестве заполнителя заголовка слайда. |
 | [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Изменяет видимость заполнителя заголовка слайда. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Изменяет видимость заполнителя номера страницы слайда. |
 
-### Смотреть также
+### Смотрите также
 
-* класс [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
-* интерфейс [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* class [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
+* interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

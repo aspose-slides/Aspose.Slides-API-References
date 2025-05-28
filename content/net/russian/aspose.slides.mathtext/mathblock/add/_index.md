@@ -1,13 +1,12 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет математический элемент в конец коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/mathblock/add/
 ---
-
-## Метод MathBlock.Add
+## MathBlock.Add method
 
 Добавляет математический элемент в конец коллекции.
 
@@ -17,7 +16,7 @@ public void Add(IMathElement item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IMathElement | IMathElement, который будет добавлен в конец коллекции. |
+| item | IMathElement | Элемент IMathElement, добавляемый в конец коллекции. |
 
 ### Примеры
 
@@ -30,10 +29,10 @@ mathBlock.Add(new MathematicalText("+"));
 mathBlock.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathBlock](../../mathblock)
+* interface [IMathElement](../../imathelement)
+* class [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

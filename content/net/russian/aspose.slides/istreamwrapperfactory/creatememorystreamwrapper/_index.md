@@ -1,28 +1,27 @@
 ---
 title: CreateMemoryStreamWrapper
-second_title: Aspose.Slides для .NET API Справка
-description: Создает обертку MemoryStream.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает оболочку MemoryStream.
 type: docs
 weight: 20
 url: /ru/aspose.slides/istreamwrapperfactory/creatememorystreamwrapper/
 ---
-
 ## CreateMemoryStreamWrapper() {#creatememorystreamwrapper}
 
-Создает обертку MemoryStream.
+Создает оболочку MemoryStream.
 
 ```csharp
 public IStreamWrapper CreateMemoryStreamWrapper()
 ```
 
-### Return Value
+### Возвращаемое значение
 
-Обертка потока для интерфейса COM [`IStreamWrapper`](../../istreamwrapper)
+Потоковая оболочка для COM-интерфейса[`IStreamWrapper`](../../istreamwrapper)
 
-### See Also
+### Смотрите также
 
-* интерфейс [IStreamWrapper](../../istreamwrapper)
-* интерфейс [IStreamWrapperFactory](../../istreamwrapperfactory)
+* interface [IStreamWrapper](../../istreamwrapper)
+* interface [IStreamWrapperFactory](../../istreamwrapperfactory)
 * пространство имен [Aspose.Slides](../../istreamwrapperfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -30,7 +29,7 @@ public IStreamWrapper CreateMemoryStreamWrapper()
 
 ## CreateMemoryStreamWrapper(byte[]) {#creatememorystreamwrapper_1}
 
-Создает обертку MemoryStream на основе указанного массива байтов.
+Создает оболочку MemoryStream на основе указанного массива байтов.
 
 ```csharp
 public IStreamWrapper CreateMemoryStreamWrapper(byte[] buffer)
@@ -38,16 +37,16 @@ public IStreamWrapper CreateMemoryStreamWrapper(byte[] buffer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| buffer | Byte[] | Массив байтов Byte[] |
+| buffer | Byte[] | Массив байтовByte[] |
 
-### Return Value
+### Возвращаемое значение
 
-Обертка потока для интерфейса COM [`IStreamWrapper`](../../istreamwrapper)
+Потоковая оболочка для COM-интерфейса[`IStreamWrapper`](../../istreamwrapper)
 
-### See Also
+### Смотрите также
 
-* интерфейс [IStreamWrapper](../../istreamwrapper)
-* интерфейс [IStreamWrapperFactory](../../istreamwrapperfactory)
+* interface [IStreamWrapper](../../istreamwrapper)
+* interface [IStreamWrapperFactory](../../istreamwrapperfactory)
 * пространство имен [Aspose.Slides](../../istreamwrapperfactory)
 * сборка [Aspose.Slides](../../../)
 

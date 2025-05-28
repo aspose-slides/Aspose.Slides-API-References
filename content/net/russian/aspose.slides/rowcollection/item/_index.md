@@ -1,25 +1,23 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает строку по указанному индексу. Только для чтения Rowaspose.slides/row.
+description: Возвращает строку по указанному индексу. Только чтениеRowaspose.slides/row.
 type: docs
 weight: 30
 url: /ru/aspose.slides/rowcollection/item/
 ---
+## RowCollection indexer
 
-## Индексатор RowCollection
-
-Возвращает строку по указанному индексу. Только для чтения [`Row`](../../row).
+Возвращает строку по указанному индексу. Только чтение[`Row`](../../row).
 
 ```csharp
 public IRow this[int index] { get; }
 ```
 
-### Также см.
+### Смотрите также
 
-
-* интерфейс [IRow](../../irow)
-* класс [RowCollection](../../rowcollection)
+* interface [IRow](../../irow)
+* class [RowCollection](../../rowcollection)
 * пространство имен [Aspose.Slides](../../rowcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Присоединить
+title: Join
 second_title: Справочник по API Aspose.Slides для .NET
-description: Присоединяет математический элемент к этому математическому блоку
+description: Соединяет математический элемент с этим математическим блоком
 type: docs
 weight: 140
 url: /ru/aspose.slides.mathtext/mathblock/join/
 ---
+## Join(IMathElement) {#join}
 
-## Присоединить(IMathElement) {#join}
-
-Присоединяет математический элемент к этому математическому блоку
+Соединяет математический элемент с этим математическим блоком
 
 ```csharp
 public override IMathBlock Join(IMathElement mathElement)
@@ -17,7 +16,7 @@ public override IMathBlock Join(IMathElement mathElement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElement | IMathElement | Элемент, который нужно присоединить |
+| mathElement | IMathElement | Элемент для соединения |
 
 ### Возвращаемое значение
 
@@ -34,19 +33,19 @@ IMathElement element2 = new MathematicalText("y");
 IMathBlock block = element1.Join(element2);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathBlock](../../imathblock)
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathBlock](../../mathblock)
+* interface [IMathBlock](../../imathblock)
+* interface [IMathElement](../../imathelement)
+* class [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Присоединить(string) {#join_1}
+## Join(string) {#join_1}
 
-Присоединяет математический текст к этому математическому блоку
+Соединяет математический текст с этим математическим блоком
 
 ```csharp
 public override IMathBlock Join(string mathText)
@@ -54,11 +53,11 @@ public override IMathBlock Join(string mathText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathText | String | Математический текст, который нужно присоединить |
+| mathText | String | Математический текст для соединения |
 
 ### Возвращаемое значение
 
-Новый IMathBlock, содержащий этот экземпляр и указанный аргумент
+Новый блок IMathBlock, содержащий этот экземпляр и указанный аргумент
 
 ### Примеры
 
@@ -70,10 +69,10 @@ IMathElement element = new MathematicalText("x");
 IMathBlock block = element.Join("+y");
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathBlock](../../imathblock)
-* класс [MathBlock](../../mathblock)
+* interface [IMathBlock](../../imathblock)
+* class [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

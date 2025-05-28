@@ -1,15 +1,14 @@
 ---
 title: ToPdf
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Konvertiert Presentationaspose.slides/presentation in PDF.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: konvertiertPresentationaspose.slides/presentation zu PDF.
 type: docs
 weight: 20
 url: /de/aspose.slides.lowcode/convert/topdf/
 ---
-
 ## ToPdf(string, string) {#topdf_2}
 
-Konvertiert [`Presentation`](../../../aspose.slides/presentation) in PDF.
+konvertiert[`Presentation`](../../../aspose.slides/presentation) zu PDF.
 
 ```csharp
 public static void ToPdf(string presPath, string outPath)
@@ -17,8 +16,8 @@ public static void ToPdf(string presPath, string outPath)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| presPath | String | Pfad der Eingabpräsentation |
-| outPath | String | Ausgabepfad |
+| presPath | String | Pfad der Eingabepräsentation |
+| outPath | String | Ausgangspfad |
 
 ### Beispiele
 
@@ -26,17 +25,17 @@ public static void ToPdf(string presPath, string outPath)
 Convert.ToPdf("pres.pptx", "pres.pdf");
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Klasse [Convert](../../convert)
-* Namespace [Aspose.Slides.LowCode](../../convert)
-* Assembly [Aspose.Slides](../../../)
+* class [Convert](../../convert)
+* namensraum [Aspose.Slides.LowCode](../../convert)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## ToPdf(string, string, IPdfOptions) {#topdf_3}
 
-Konvertiert [`Presentation`](../../../aspose.slides/presentation) in PDF.
+konvertiert[`Presentation`](../../../aspose.slides/presentation) zu PDF.
 
 ```csharp
 public static void ToPdf(string presPath, string outPath, IPdfOptions options)
@@ -44,8 +43,8 @@ public static void ToPdf(string presPath, string outPath, IPdfOptions options)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| presPath | String | Pfad der Eingabpräsentation |
-| outPath | String | Ausgabepfad |
+| presPath | String | Pfad der Eingabepräsentation |
+| outPath | String | Ausgangspfad |
 | options | IPdfOptions | PDF-Ausgabeoptionen |
 
 ### Beispiele
@@ -54,18 +53,18 @@ public static void ToPdf(string presPath, string outPath, IPdfOptions options)
 Convert.ToPdf("pres.pptx", "pres.pdf", new PdfOptions{ Compliance = PdfCompliance.PdfUa });
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [IPdfOptions](../../../aspose.slides.export/ipdfoptions)
-* Klasse [Convert](../../convert)
-* Namespace [Aspose.Slides.LowCode](../../convert)
-* Assembly [Aspose.Slides](../../../)
+* interface [IPdfOptions](../../../aspose.slides.export/ipdfoptions)
+* class [Convert](../../convert)
+* namensraum [Aspose.Slides.LowCode](../../convert)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## ToPdf(Presentation, string) {#topdf}
 
-Konvertiert [`Presentation`](../../../aspose.slides/presentation) in PDF.
+konvertiert[`Presentation`](../../../aspose.slides/presentation) zu PDF.
 
 ```csharp
 public static void ToPdf(Presentation pres, string outPath)
@@ -73,8 +72,8 @@ public static void ToPdf(Presentation pres, string outPath)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| pres | Presentation | Eingabpräsentation |
-| outPath | String | Ausgabepfad |
+| pres | Presentation | Input-Präsentation |
+| outPath | String | Ausgangspfad |
 
 ### Beispiele
 
@@ -85,18 +84,18 @@ using (Presentation pres = new Presentation("input.pptx"))
 } 
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Klasse [Presentation](../../../aspose.slides/presentation)
-* Klasse [Convert](../../convert)
-* Namespace [Aspose.Slides.LowCode](../../convert)
-* Assembly [Aspose.Slides](../../../)
+* class [Presentation](../../../aspose.slides/presentation)
+* class [Convert](../../convert)
+* namensraum [Aspose.Slides.LowCode](../../convert)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## ToPdf(Presentation, string, IPdfOptions) {#topdf_1}
 
-Konvertiert [`Presentation`](../../../aspose.slides/presentation) in PDF.
+konvertiert[`Presentation`](../../../aspose.slides/presentation) zu PDF.
 
 ```csharp
 public static void ToPdf(Presentation pres, string outPath, IPdfOptions options)
@@ -104,8 +103,8 @@ public static void ToPdf(Presentation pres, string outPath, IPdfOptions options)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| pres | Presentation | Eingabpräsentation |
-| outPath | String | Ausgabepfad |
+| pres | Presentation | Input-Präsentation |
+| outPath | String | Ausgangspfad |
 | options | IPdfOptions | PDF-Ausgabeoptionen |
 
 ### Beispiele
@@ -117,12 +116,12 @@ using (Presentation pres = new Presentation("input.pptx"))
 } 
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Klasse [Presentation](../../../aspose.slides/presentation)
-* Interface [IPdfOptions](../../../aspose.slides.export/ipdfoptions)
-* Klasse [Convert](../../convert)
-* Namespace [Aspose.Slides.LowCode](../../convert)
-* Assembly [Aspose.Slides](../../../)
+* class [Presentation](../../../aspose.slides/presentation)
+* interface [IPdfOptions](../../../aspose.slides.export/ipdfoptions)
+* class [Convert](../../convert)
+* namensraum [Aspose.Slides.LowCode](../../convert)
+* Montage [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

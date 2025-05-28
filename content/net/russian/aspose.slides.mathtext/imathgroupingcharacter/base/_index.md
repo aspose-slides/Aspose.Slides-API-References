@@ -1,13 +1,12 @@
 ---
-title: Базовый
-second_title: Ссылка на API Aspose.Slides для .NET
+title: Base
+second_title: Справочник по API Aspose.Slides для .NET
 description: Базовый аргумент
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathgroupingcharacter/base/
 ---
-
-## Свойство IMathGroupingCharacter.Base
+## IMathGroupingCharacter.Base property
 
 Базовый аргумент
 
@@ -27,8 +26,8 @@ IMathElement baseArg = groupingCharacter.Base;
 
 ### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathGroupingCharacter](../../imathgroupingcharacter)
+* interface [IMathElement](../../imathelement)
+* interface [IMathGroupingCharacter](../../imathgroupingcharacter)
 * пространство имен [Aspose.Slides.MathText](../../imathgroupingcharacter)
 * сборка [Aspose.Slides](../../../)
 

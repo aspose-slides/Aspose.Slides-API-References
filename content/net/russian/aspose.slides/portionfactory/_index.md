@@ -1,15 +1,14 @@
 ---
 title: PortionFactory
-second_title: Aspose.Sildes для .NET API Справочник
-description: Позволяет создавать тестовые порции
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет создавать тестовые участки
 type: docs
-weight: 9210
+weight: 8750
 url: /ru/aspose.slides/portionfactory/
 ---
+## PortionFactory class
 
-## Класс PortionFactory
-
-Позволяет создавать тестовые порции
+Позволяет создавать тестовые участки
 
 ```csharp
 public class PortionFactory : IPortionFactory
@@ -25,17 +24,17 @@ public class PortionFactory : IPortionFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | Создает пустую текстовую порцию. |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Создает порцию с использованием указанных данных порции. |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | Создает текстовую порцию из указанной строки. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | Создает пустую текстовую часть. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Создает порцию с использованием данных указанной порции. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | Создает текстовую часть из указанной строки. |
 
 ### Примечания
 
-Для совместимости с COM
+Для COM-совместимости
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPortionFactory](../iportionfactory)
+* interface [IPortionFactory](../iportionfactory)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

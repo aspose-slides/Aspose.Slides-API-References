@@ -1,23 +1,22 @@
 ---
 title: SyncRoot
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает корень синхронизации. Объект только для чтения.
+description: Возвращает корень синхронизации. Только для чтенияObject.
 type: docs
 weight: 40
 url: /ru/aspose.slides/videocollection/syncroot/
 ---
+## VideoCollection.SyncRoot property
 
-## VideoCollection.SyncRoot свойство
-
-Возвращает корень синхронизации. Объект только для чтения.
+Возвращает корень синхронизации. Только для чтенияObject.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [VideoCollection](../../videocollection)
+* class [VideoCollection](../../videocollection)
 * пространство имен [Aspose.Slides](../../videocollection)
 * сборка [Aspose.Slides](../../../)
 

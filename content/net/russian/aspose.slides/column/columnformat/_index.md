@@ -1,24 +1,23 @@
 ---
 title: ColumnFormat
-second_title: Aspose.Slides для .NET API Справка
-description: Возвращает объект ColumnFormat, который содержит свойства форматирования для этого столбца. Только для чтения IColumnFormataspose.slides/icolumnformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает объект ColumnFormat содержащий свойства форматирования для этого столбца. Только для чтенияIColumnFormataspose.slides/icolumnformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/column/columnformat/
 ---
+## Column.ColumnFormat property
 
-## Свойство Column.ColumnFormat
-
-Возвращает объект ColumnFormat, который содержит свойства форматирования для этого столбца. Только для чтения [`IColumnFormat`](../../icolumnformat).
+Возвращает объект ColumnFormat, содержащий свойства форматирования для этого столбца. Только для чтения[`IColumnFormat`](../../icolumnformat).
 
 ```csharp
 public IColumnFormat ColumnFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColumnFormat](../../icolumnformat)
-* класс [Column](../../column)
+* interface [IColumnFormat](../../icolumnformat)
+* class [Column](../../column)
 * пространство имен [Aspose.Slides](../../column)
 * сборка [Aspose.Slides](../../../)
 

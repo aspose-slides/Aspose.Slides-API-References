@@ -1,15 +1,14 @@
 ---
 title: CreateAlphaReplace
-second_title: Aspose.Sildes для .NET API Справочник
-description: Создает эффект замены альфа.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает эффект альфа-замены.
 type: docs
 weight: 70
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/createalphareplace/
 ---
+## ImageTransformOperationFactory.CreateAlphaReplace method
 
-## ImageTransformOperationFactory.CreateAlphaReplace метод
-
-Создает эффект замены альфа.
+Создает эффект альфа-замены.
 
 ```csharp
 public IAlphaReplace CreateAlphaReplace(float alpha)
@@ -17,16 +16,16 @@ public IAlphaReplace CreateAlphaReplace(float alpha)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| alpha | Single | Альфа |
+| alpha | Single | Alpha |
 
 ### Возвращаемое значение
 
-Эффект замены альфа.
+Alpha эффект замены.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAlphaReplace](../../ialphareplace)
-* класс [ImageTransformOperationFactory](../../imagetransformoperationfactory)
+* interface [IAlphaReplace](../../ialphareplace)
+* class [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

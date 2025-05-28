@@ -1,23 +1,22 @@
 ---
 title: DocumentProperties
 second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует новый экземпляр класса DocumentPropertiesaspose.slides/documentproperties.
+description: Инициализирует новый экземпляр классаDocumentPropertiesaspose.slides/documentproperties.
 type: docs
 weight: 10
 url: /ru/aspose.slides/documentproperties/documentproperties/
 ---
+## DocumentProperties constructor
 
-## Конструктор DocumentProperties
-
-Инициализирует новый экземпляр класса [`DocumentProperties`](../../documentproperties).
+Инициализирует новый экземпляр класса[`DocumentProperties`](../../documentproperties).
 
 ```csharp
 public DocumentProperties()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [DocumentProperties](../../documentproperties)
+* class [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

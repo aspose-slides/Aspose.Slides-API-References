@@ -1,15 +1,14 @@
 ---
 title: CopyFrom
 second_title: Справочник по API Aspose.Slides для .NET
-description: Копировать цветовой формат из цвета.
+description: Скопировать цветовой формат из color.
 type: docs
 weight: 170
 url: /ru/aspose.slides/icolorformat/copyfrom/
 ---
+## IColorFormat.CopyFrom method
 
-## Метод IColorFormat.CopyFrom
-
-Копировать цветовой формат из "цвета".
+Скопировать цветовой формат из "color".
 
 ```csharp
 public void CopyFrom(IColorFormat color)
@@ -17,11 +16,11 @@ public void CopyFrom(IColorFormat color)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| color | IColorFormat | Цвет [`IColorFormat`](../../icolorformat) |
+| color | IColorFormat | Color[`IColorFormat`](../../icolorformat) |
 
 ### Смотрите также
 
-* интерфейс [IColorFormat](../../icolorformat)
+* interface [IColorFormat](../../icolorformat)
 * пространство имен [Aspose.Slides](../../icolorformat)
 * сборка [Aspose.Slides](../../../)
 

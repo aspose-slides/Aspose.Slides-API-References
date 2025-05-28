@@ -1,13 +1,12 @@
 ---
 title: IMathMatrixFactory
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Позволяет создать математическую матрицу
 type: docs
-weight: 8100
+weight: 7640
 url: /ru/aspose.slides.mathtext/imathmatrixfactory/
 ---
-
-## Интерфейс IMathMatrixFactory
+## IMathMatrixFactory interface
 
 Позволяет создать математическую матрицу
 
@@ -17,15 +16,15 @@ public interface IMathMatrixFactory
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [CreateMathMatrix](../../aspose.slides.mathtext/imathmatrixfactory/createmathmatrix)(int, int) | Создает математическую матрицу |
 
 ### Примечания
 
-Для совместимости с COM
+Для COM-совместимости
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

@@ -1,15 +1,14 @@
 ---
 title: SetGeometryPaths
-second_title: Aspose.Slides для .NET API Reference
-description: Обновляет геометрию формы из массива IGeometryPathaspose.slides/igeometrypath. Координаты должны быть относительными к левому верхнему углу формы. Изменяет тип формы ShapeTypeaspose.slides/igeometryshape/shapetype на Custom.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Обновляет геометрию формы из массиваIGeometryPathaspose.slides/igeometrypath. Координаты должны быть относительно левого верхнего угла фигуры. Изменяет тип фигуры ShapeTypeaspose.slides/igeometryshape/shapetype наCustom.
 type: docs
 weight: 80
 url: /ru/aspose.slides/igeometryshape/setgeometrypaths/
 ---
+## IGeometryShape.SetGeometryPaths method
 
-## IGeometryShape.SetGeometryPaths метод
-
-Обновляет геометрию формы из массива [`IGeometryPath`](../../igeometrypath). Координаты должны быть относительными к левому верхнему углу формы. Изменяет тип формы ([`ShapeType`](../shapetype)) на Custom.
+Обновляет геометрию формы из массива[`IGeometryPath`](../../igeometrypath). Координаты должны быть относительно левого верхнего угла фигуры. Изменяет тип фигуры ([`ShapeType`](../shapetype)) наCustom.
 
 ```csharp
 public void SetGeometryPaths(IGeometryPath[] geometryPaths)
@@ -17,7 +16,7 @@ public void SetGeometryPaths(IGeometryPath[] geometryPaths)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| geometryPaths | IGeometryPath[] | Массив геометрических путей |
+| geometryPaths | IGeometryPath[] | Геометрические пути массива |
 
 ### Исключения
 
@@ -47,10 +46,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IGeometryPath](../../igeometrypath)
-* интерфейс [IGeometryShape](../../igeometryshape)
+* interface [IGeometryPath](../../igeometrypath)
+* interface [IGeometryShape](../../igeometryshape)
 * пространство имен [Aspose.Slides](../../igeometryshape)
 * сборка [Aspose.Slides](../../../)
 

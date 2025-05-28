@@ -1,23 +1,22 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает значение, указывающее, безопасен ли доступ к коллекции синхронизирован для потоков. Только для чтения Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/sectionslidecollection/issynchronized/
 ---
+## SectionSlideCollection.IsSynchronized property
 
-## Свойство SectionSlideCollection.IsSynchronized
-
-Возвращает значение, указывающее, безопасен ли доступ к коллекции (синхронизирован для потоков). Только для чтения Boolean.
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [SectionSlideCollection](../../sectionslidecollection)
+* class [SectionSlideCollection](../../sectionslidecollection)
 * пространство имен [Aspose.Slides](../../sectionslidecollection)
 * сборка [Aspose.Slides](../../../)
 

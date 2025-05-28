@@ -6,8 +6,7 @@ type: docs
 weight: 40
 url: /ru/aspose.slides/isectioncollection/appendemptysection/
 ---
-
-## Метод ISectionCollection.AppendEmptySection
+## ISectionCollection.AppendEmptySection method
 
 Добавить пустой раздел в конец коллекции.
 
@@ -17,16 +16,16 @@ public ISection AppendEmptySection(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя раздела |
+| name | String | Название раздела |
 
 ### Возвращаемое значение
 
-Добавленный раздел.
+Добавлен раздел.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISection](../../isection)
-* интерфейс [ISectionCollection](../../isectioncollection)
+* interface [ISection](../../isection)
+* interface [ISectionCollection](../../isectioncollection)
 * пространство имен [Aspose.Slides](../../isectioncollection)
 * сборка [Aspose.Slides](../../../)
 

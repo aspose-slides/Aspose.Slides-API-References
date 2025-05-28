@@ -1,15 +1,14 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes для .NET API Справочник
-description: Удаляет тег с указанного индекса.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет тег по указанному индексу.
 type: docs
 weight: 150
 url: /ru/aspose.slides/tagcollection/removeat/
 ---
+## TagCollection.RemoveAt method
 
-## TagCollection.RemoveAt метод
-
-Удаляет тег с указанного индекса.
+Удаляет тег по указанному индексу.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,11 +16,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Нулевой индекс тега для удаления. |
+| index | Int32 | Отсчитываемый от нуля индекс удаляемого тега. |
 
-### См. также
+### Смотрите также
 
-* класс [TagCollection](../../tagcollection)
+* class [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)
 * сборка [Aspose.Slides](../../../)
 

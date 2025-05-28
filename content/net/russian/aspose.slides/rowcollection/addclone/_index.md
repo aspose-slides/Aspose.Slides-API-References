@@ -1,15 +1,14 @@
 ---
 title: AddClone
-second_title: Справка по API Aspose.Slides для .NET
-description: Создает копию указанной строки-шаблона и вставляет ее в конец таблицы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает копию указанной строки шаблона и вставляет ее внизу таблицы.
 type: docs
 weight: 50
 url: /ru/aspose.slides/rowcollection/addclone/
 ---
+## RowCollection.AddClone method
 
-## Метод RowCollection.AddClone
-
-Создает копию указанной строки-шаблона и вставляет ее в конец таблицы.
+Создает копию указанной строки шаблона и вставляет ее внизу таблицы.
 
 ```csharp
 public IRow[] AddClone(IRow templ, bool withAttachedRows)
@@ -17,17 +16,17 @@ public IRow[] AddClone(IRow templ, bool withAttachedRows)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| templ | IRow | Строка, которая используется в качестве шаблона. |
-| withAttachedRows | Boolean | true, чтобы также скопировать все строки, прикрепленные к строке-шаблону. |
+| templ | IRow | Строка, используемая в качестве шаблона. |
+| withAttachedRows | Boolean | Значение true, чтобы также копировать все строки, прикрепленные к строке шаблона. |
 
 ### Возвращаемое значение
 
-Добавленные строки.
+Добавлены строки.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IRow](../../irow)
-* класс [RowCollection](../../rowcollection)
+* interface [IRow](../../irow)
+* class [RowCollection](../../rowcollection)
 * пространство имен [Aspose.Slides](../../rowcollection)
 * сборка [Aspose.Slides](../../../)
 

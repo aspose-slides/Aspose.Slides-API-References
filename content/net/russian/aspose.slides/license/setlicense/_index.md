@@ -1,12 +1,11 @@
 ---
 title: SetLicense
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Лицензирует компонент.
 type: docs
 weight: 40
 url: /ru/aspose.slides/license/setlicense/
 ---
-
 ## SetLicense(string) {#setlicense_1}
 
 Лицензирует компонент.
@@ -17,7 +16,7 @@ public void SetLicense(string licenseName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| licenseName | String | Может быть полным или коротким именем файла или именем встроенного ресурса. Используйте пустую строку, чтобы переключиться в режим оценки. |
+| licenseName | String | Может быть полным или кратким именем файла или именем внедренного ресурса. Используйте пустую строку для переключения в режим оценки. |
 
 ### Примечания
 
@@ -31,13 +30,13 @@ public void SetLicense(string licenseName)
 
 4. Папка входной сборки.
 
-5. Встроенный ресурс в вызывающей сборке клиента.
+5. Вложенный ресурс в вызывающую сборку клиента.
 
 **Примечание:** В .NET Compact Framework пытается найти лицензию только в этих местах:
 
 1. Явный путь.
 
-2. Встроенный ресурс в вызывающей сборке клиента.
+2. Вложенный ресурс в вызывающую сборку клиента.
 
 ### Примеры
 
@@ -58,7 +57,7 @@ license.SetLicense("MyLicense.lic")
 
 ### Смотрите также
 
-* класс [License](../../license)
+* class [License](../../license)
 * пространство имен [Aspose.Slides](../../license)
 * сборка [Aspose.Slides](../../../)
 
@@ -97,7 +96,7 @@ license.SetLicense(myStream)
 
 ### Смотрите также
 
-* класс [License](../../license)
+* class [License](../../license)
 * пространство имен [Aspose.Slides](../../license)
 * сборка [Aspose.Slides](../../../)
 

@@ -6,8 +6,7 @@ type: docs
 weight: 110
 url: /ru/aspose.slides.animation/isequence/removeat/
 ---
-
-## Метод ISequence.RemoveAt
+## ISequence.RemoveAt method
 
 Удаляет эффект из коллекции.
 
@@ -17,11 +16,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс эффекта для удаления Int32 |
+| index | Int32 | Индекс удаляемого эффектаInt32 |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISequence](../../isequence)
+* interface [ISequence](../../isequence)
 * пространство имен [Aspose.Slides.Animation](../../isequence)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes для справки по .NET API
-description: GapWidth. Читаемое/записываемое Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Ширина зазора. Чтение/записьInt32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/updownbarsmanager/gapwidth/
 ---
+## UpDownBarsManager.GapWidth property
 
-## UpDownBarsManager.GapWidth свойство
-
-GapWidth. Читаемое/записываемое Int32.
+Ширина зазора. Чтение/записьInt32.
 
 ```csharp
 public int GapWidth { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [UpDownBarsManager](../../updownbarsmanager)
+* class [UpDownBarsManager](../../updownbarsmanager)
 * пространство имен [Aspose.Slides.Charts](../../updownbarsmanager)
 * сборка [Aspose.Slides](../../../)
 

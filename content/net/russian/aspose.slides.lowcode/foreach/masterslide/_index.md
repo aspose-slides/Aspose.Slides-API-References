@@ -1,15 +1,14 @@
 ---
 title: MasterSlide
-second_title: Aspose.Slides для .NET API Reference
-description: Итерация каждого MasterSlideaspose.slides.lowcode/foreach/masterslide в Presentationaspose.slides/presentation.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Итерировать каждыйMasterSlideaspose.slides.lowcode/foreach/masterslideвPresentationaspose.slides/presentation.
 type: docs
 weight: 20
 url: /ru/aspose.slides.lowcode/foreach/masterslide/
 ---
+## ForEach.MasterSlide method
 
-## Метод ForEach.MasterSlide
-
-Итерация каждого `MasterSlide` в [`Presentation`](../../../aspose.slides/presentation).
+Итерировать каждый`MasterSlide`в[`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static void MasterSlide(Presentation pres, ForEachMasterSlideCallback forEachMasterSlide)
@@ -17,8 +16,8 @@ public static void MasterSlide(Presentation pres, ForEachMasterSlideCallback for
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Презентация для итерации мастер-слайдов |
-| forEachMasterSlide | ForEachMasterSlideCallback | Обратный вызов, который будет вызван для каждого мастер-слайда |
+| pres | Presentation | Презентация для повторения мастер-слайдов |
+| forEachMasterSlide | ForEachMasterSlideCallback | Обратный вызов, который будет вызываться для каждого мастер-слайда |
 
 ### Примеры
 
@@ -32,11 +31,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Дополнительно
+### Смотрите также
 
-* класс [Presentation](../../../aspose.slides/presentation)
-* делегат [ForEachMasterSlideCallback](../../foreach.foreachmasterslidecallback)
-* класс [ForEach](../../foreach)
+* class [Presentation](../../../aspose.slides/presentation)
+* delegate [ForEachMasterSlideCallback](../../foreach.foreachmasterslidecallback)
+* class [ForEach](../../foreach)
 * пространство имен [Aspose.Slides.LowCode](../../foreach)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,11 @@
 ---
 title: AddAudio
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет копию аудиофайла из другой презентации.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iaudiocollection/addaudio/
 ---
-
 ## AddAudio(IAudio) {#addaudio}
 
 Добавляет копию аудиофайла из другой презентации.
@@ -17,16 +16,16 @@ public IAudio AddAudio(IAudio audio)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| audio | IAudio | Исходное аудио. |
+| audio | IAudio | Источник аудио. |
 
 ### Возвращаемое значение
 
-Добавленное аудио.
+Добавлен звук.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAudio](../../iaudio)
-* интерфейс [IAudioCollection](../../iaudiocollection)
+* interface [IAudio](../../iaudio)
+* interface [IAudioCollection](../../iaudiocollection)
 * пространство имен [Aspose.Slides](../../iaudiocollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -34,7 +33,7 @@ public IAudio AddAudio(IAudio audio)
 
 ## AddAudio(Stream, LoadingStreamBehavior) {#addaudio_3}
 
-Создает и добавляет аудио в презентацию из потока.
+Создает и добавляет звук к презентации из потока.
 
 ```csharp
 public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
@@ -42,18 +41,18 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого добавляется аудио. |
-| loadingStreamBehavior | LoadingStreamBehavior | Поведение, которое будет применено к потоку. |
+| stream | Stream | Поток, из которого нужно добавить видео-аудио. |
+| loadingStreamBehavior | LoadingStreamBehavior | Поведение, которое будет применяться к потоку. |
 
 ### Возвращаемое значение
 
-Добавленное аудио.
+Добавлен звук.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAudio](../../iaudio)
-* перечисление [LoadingStreamBehavior](../../loadingstreambehavior)
-* интерфейс [IAudioCollection](../../iaudiocollection)
+* interface [IAudio](../../iaudio)
+* enum [LoadingStreamBehavior](../../loadingstreambehavior)
+* interface [IAudioCollection](../../iaudiocollection)
 * пространство имен [Aspose.Slides](../../iaudiocollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -61,7 +60,7 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 ## AddAudio(byte[]) {#addaudio_1}
 
-Создает и добавляет аудио в презентацию из массива байтов.
+Создает и добавляет звук к презентации из массива байтов.
 
 ```csharp
 public IAudio AddAudio(byte[] audioData)
@@ -69,16 +68,16 @@ public IAudio AddAudio(byte[] audioData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| audioData | Byte[] | Байты аудио. |
+| audioData | Byte[] | Аудио байты. |
 
 ### Возвращаемое значение
 
-Добавленное аудио.
+Добавлен звук.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAudio](../../iaudio)
-* интерфейс [IAudioCollection](../../iaudiocollection)
+* interface [IAudio](../../iaudio)
+* interface [IAudioCollection](../../iaudiocollection)
 * пространство имен [Aspose.Slides](../../iaudiocollection)
 * сборка [Aspose.Slides](../../../)
 

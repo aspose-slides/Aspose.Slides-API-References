@@ -1,13 +1,12 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет указанное поведение из коллекции.
 type: docs
 weight: 90
 url: /ru/aspose.slides.animation/ibehaviorcollection/remove/
 ---
-
-## Метод IBehaviorCollection.Remove
+## IBehaviorCollection.Remove method
 
 Удаляет указанное поведение из коллекции.
 
@@ -21,12 +20,12 @@ public bool Remove(IBehavior item)
 
 ### Возвращаемое значение
 
-True, если поведение успешно удалено Boolean
+Истинно, если поведение успешно удаленоBoolean
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBehavior](../../ibehavior)
-* интерфейс [IBehaviorCollection](../../ibehaviorcollection)
+* interface [IBehavior](../../ibehavior)
+* interface [IBehaviorCollection](../../ibehaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Линия
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает свойства стиля линий графика. Только для чтения ILineFormataspose.slides/ilineformat.
+title: Line
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает свойства стиля линии линии диаграммы. Только для чтенияILineFormataspose.slides/ilineformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ichartlinesformat/line/
 ---
+## IChartLinesFormat.Line property
 
-## Свойство IChartLinesFormat.Line
-
-Возвращает свойства стиля линий графика. Только для чтения [`ILineFormat`](../../../aspose.slides/ilineformat).
+Возвращает свойства стиля линии линии диаграммы. Только для чтения[`ILineFormat`](../../../aspose.slides/ilineformat).
 
 ```csharp
 public ILineFormat Line { get; }
@@ -17,8 +16,8 @@ public ILineFormat Line { get; }
 
 ### Смотрите также
 
-* интерфейс [ILineFormat](../../../aspose.slides/ilineformat)
-* интерфейс [IChartLinesFormat](../../ichartlinesformat)
+* interface [ILineFormat](../../../aspose.slides/ilineformat)
+* interface [IChartLinesFormat](../../ichartlinesformat)
 * пространство имен [Aspose.Slides.Charts](../../ichartlinesformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет новый тег в коллекцию.
 type: docs
 weight: 50
 url: /ru/aspose.slides/tagcollection/add/
 ---
-
-## Метод TagCollection.Add
+## TagCollection.Add method
 
 Добавляет новый тег в коллекцию.
 
@@ -20,13 +19,13 @@ public int Add(string name, string value)
 | name | String | Имя тега. |
 | value | String | Значение тега. |
 
-### Значение возврата
+### Возвращаемое значение
 
 Индекс добавленного тега.
 
-### См. также
+### Смотрите также
 
-* класс [TagCollection](../../tagcollection)
+* class [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)
 * сборка [Aspose.Slides](../../../)
 

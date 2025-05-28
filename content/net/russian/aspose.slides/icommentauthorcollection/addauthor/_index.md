@@ -1,13 +1,12 @@
 ---
 title: AddAuthor
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавить нового автора в конец коллекции.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icommentauthorcollection/addauthor/
 ---
-
-## ICommentAuthorCollection.AddAuthor метод
+## ICommentAuthorCollection.AddAuthor method
 
 Добавить нового автора в конец коллекции.
 
@@ -20,20 +19,14 @@ public ICommentAuthor AddAuthor(string name, string initials)
 | name | String | Имя нового автора. |
 | initials | String | Инициалы нового автора. |
 
-### Возврат значения
+### Возвращаемое значение
 
-Новый [`ICommentAuthor`](../../icommentauthor) объект.
+Новый объект[`ICommentAuthor`](../../icommentauthor).
 
-### Исключения
+### Смотрите также
 
-| исключение | условие |
-| --- | --- |
-| [PptxEditException](../../pptxeditexception) | Выбрасывается, если автор с таким же именем и инициалами уже добавлен. |
-
-### См. также
-
-* интерфейс [ICommentAuthor](../../icommentauthor)
-* интерфейс [ICommentAuthorCollection](../../icommentauthorcollection)
+* interface [ICommentAuthor](../../icommentauthor)
+* interface [ICommentAuthorCollection](../../icommentauthorcollection)
 * пространство имен [Aspose.Slides](../../icommentauthorcollection)
 * сборка [Aspose.Slides](../../../)
 

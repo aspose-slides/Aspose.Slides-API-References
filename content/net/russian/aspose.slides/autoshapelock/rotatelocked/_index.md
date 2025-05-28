@@ -1,23 +1,22 @@
 ---
 title: RotateLocked
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, запрещено ли изменение угла поворота этой формы. Читаемое/записываемое логическое значение.
+description: Определяет запрещено ли изменение угла поворота этой фигуры. Чтение/записьBoolean.
 type: docs
 weight: 70
 url: /ru/aspose.slides/autoshapelock/rotatelocked/
 ---
+## AutoShapeLock.RotateLocked property
 
-## AutoShapeLock.RotateLocked свойство
-
-Определяет, запрещено ли изменение угла поворота этой формы. Читаемое/записываемое логическое значение.
+Определяет, запрещено ли изменение угла поворота этой фигуры. Чтение/записьBoolean.
 
 ```csharp
 public bool RotateLocked { get; set; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* класс [AutoShapeLock](../../autoshapelock)
+* class [AutoShapeLock](../../autoshapelock)
 * пространство имен [Aspose.Slides](../../autoshapelock)
 * сборка [Aspose.Slides](../../../)
 

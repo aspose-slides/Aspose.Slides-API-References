@@ -1,23 +1,22 @@
 ---
-title: Индекс
-second_title: Справочник API Aspose.Sildes для .NET
-description: Получает индекс. Только для чтения Int32.
+title: Index
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает индекс. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ichartdataworksheet/index/
 ---
+## IChartDataWorksheet.Index property
 
-## Свойство IChartDataWorksheet.Index
-
-Получает индекс. Только для чтения Int32.
+Получает индекс. Только для чтенияInt32.
 
 ```csharp
 public int Index { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataWorksheet](../../ichartdataworksheet)
+* interface [IChartDataWorksheet](../../ichartdataworksheet)
 * пространство имен [Aspose.Slides.Charts](../../ichartdataworksheet)
 * сборка [Aspose.Slides](../../../)
 

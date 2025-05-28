@@ -1,24 +1,23 @@
 ---
 title: XMinus
-second_title: Aspose.Slides для .NET API Reference
-description: Указывает значение погрешности в отрицательном направлении. Доступно, если тип значения погрешности - пользовательский, и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения IDoubleChartValueaspose.slides/idoublechartvalue.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает значение полосы ошибок в отрицательном направлении. Доступно если тип значения баров погрешностей  Пользовательский и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ierrorbarscustomvalues/xminus/
 ---
+## IErrorBarsCustomValues.XMinus property
 
-## Свойство IErrorBarsCustomValues.XMinus
-
-Указывает значение погрешности в отрицательном направлении. Доступно, если тип значения погрешности - пользовательский, и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../../idoublechartvalue).
+Указывает значение полосы ошибок в отрицательном направлении. Доступно, если тип значения баров погрешностей — Пользовательский и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue XMinus { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IDoubleChartValue](../../idoublechartvalue)
-* интерфейс [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
+* interface [IDoubleChartValue](../../idoublechartvalue)
+* interface [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
 * пространство имен [Aspose.Slides.Charts](../../ierrorbarscustomvalues)
 * сборка [Aspose.Slides](../../../)
 

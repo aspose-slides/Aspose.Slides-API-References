@@ -1,35 +1,34 @@
 ---
 title: IPropertyEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение эффектов свойств.
+description: Представляют поведение эффекта свойства.
 type: docs
-weight: 480
+weight: 460
 url: /ru/aspose.slides.animation/ipropertyeffect/
 ---
+## IPropertyEffect interface
 
-## Интерфейс IPropertyEffect
-
-Представляет поведение эффектов свойств.
+Представляют поведение эффекта свойства.
 
 ```csharp
 public interface IPropertyEffect : IBehavior
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Указывает относительное смещение для анимации относительно её положения до начала анимации. Чтение/запись String. |
-| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Указывает режим интерполяции для анимации. Чтение/запись [`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Указывает начальное значение анимации. Чтение/запись String. |
-| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Указывает точки анимации. Чтение/запись [`IPointCollection`](../ipointcollection). |
-| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Указывает конечное значение для анимации. Чтение/запись String. |
-| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Указывает тип значения свойства. Чтение/запись [`PropertyValueType`](../propertyvaluetype). |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBeavior. Только для чтения[`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Определяет значение относительного смещения для анимации относительно ее положения перед началом анимации. Чтение/записьString. |
+| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Определяет режим интерполяции для анимации Чтение/запись[`PropertyCalcModeType`](../propertycalcmodetype). |
+| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Указывает начальное значение анимации. Чтение/записьString. |
+| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Определяет точки анимации. Чтение/запись[`IPointCollection`](../ipointcollection). |
+| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Указывает конечное значение анимации. Чтение/записьString. |
+| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Указывает тип значения свойства. Чтение/запись[`PropertyValueType`](../propertyvaluetype). |
 
 ### Смотрите также
 
-* интерфейс [IBehavior](../ibehavior)
+* interface [IBehavior](../ibehavior)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

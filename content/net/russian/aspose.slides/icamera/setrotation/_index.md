@@ -1,15 +1,14 @@
 ---
 title: SetRotation
-second_title: Aspose.Slides для .NET API Reference
-description: Вращение определяется с помощью координаты широты, координаты долготы и революции вокруг оси, как координаты широты, так и долготы. Если любое из значений координат равно float.NaN, все вращение неопределено.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вращение определяется с помощью координаты широты координаты долготы и вращения вокруг оси как координаты широты и долготы. Если какое-либо из значений координат имеет значение float.NaN все вращения не определены.
 type: docs
 weight: 50
 url: /ru/aspose.slides/icamera/setrotation/
 ---
+## ICamera.SetRotation method
 
-## ICamera.SetRotation метод
-
-Вращение определяется с помощью координаты широты, координаты долготы и революции вокруг оси, как координаты широты, так и долготы. Если любое из значений координат равно float.NaN, все вращение неопределено.
+Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. Если какое-либо из значений координат имеет значение float.NaN, все вращения не определены.
 
 ```csharp
 public void SetRotation(float latitude, float longitude, float revolution)
@@ -17,13 +16,13 @@ public void SetRotation(float latitude, float longitude, float revolution)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| latitude | Single | Значение широты Single |
-| longitude | Single | Значение долготы Single |
-| revolution | Single | Значение революции Single |
+| широта | Single | Значение широтыSingle |
+| longitude | Single | Значение долготыSingle |
+| revolution | Single | значение оборотаSingle |
 
-### Также см.
+### Смотрите также
 
-* интерфейс [ICamera](../../icamera)
+* interface [ICamera](../../icamera)
 * пространство имен [Aspose.Slides](../../icamera)
 * сборка [Aspose.Slides](../../../)
 

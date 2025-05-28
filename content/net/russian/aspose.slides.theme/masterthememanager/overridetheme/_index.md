@@ -1,15 +1,14 @@
 ---
 title: OverrideTheme
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает объект переопределяющей темы. Чтение/запись IMasterThemeaspose.slides.theme/imastertheme.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает основной объект темы. Чтение/записьIMasterThemeaspose.slides.theme/imastertheme.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/masterthememanager/overridetheme/
 ---
+## MasterThemeManager.OverrideTheme property
 
-## MasterThemeManager.OverrideTheme свойство
-
-Возвращает объект переопределяющей темы. Чтение/запись [`IMasterTheme`](../../imastertheme).
+Возвращает основной объект темы. Чтение/запись[`IMasterTheme`](../../imastertheme).
 
 ```csharp
 public IMasterTheme OverrideTheme { get; set; }
@@ -17,8 +16,8 @@ public IMasterTheme OverrideTheme { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IMasterTheme](../../imastertheme)
-* класс [MasterThemeManager](../../masterthememanager)
+* interface [IMasterTheme](../../imastertheme)
+* class [MasterThemeManager](../../masterthememanager)
 * пространство имен [Aspose.Slides.Theme](../../masterthememanager)
 * сборка [Aspose.Slides](../../../)
 

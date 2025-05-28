@@ -1,23 +1,22 @@
 ---
 title: RelativeScaleHeight
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает масштаб высоты относительно оригинального размера изображения кадра. Значение 1.0 соответствует 100. Чтение/запись Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает масштаб высоты относительно исходного размера изображения рамки изображения. Значение 10 соответствует 100. Чтение/записьSingle.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ipictureframe/relativescaleheight/
 ---
+## IPictureFrame.RelativeScaleHeight property
 
-## Свойство IPictureFrame.RelativeScaleHeight
-
-Возвращает или устанавливает масштаб высоты (относительно оригинального размера изображения) кадра. Значение 1.0 соответствует 100%. Чтение/запись Single.
+Возвращает или устанавливает масштаб высоты (относительно исходного размера изображения) рамки изображения. Значение 1,0 соответствует 100%. Чтение/записьSingle.
 
 ```csharp
 public float RelativeScaleHeight { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPictureFrame](../../ipictureframe)
+* interface [IPictureFrame](../../ipictureframe)
 * пространство имен [Aspose.Slides](../../ipictureframe)
 * сборка [Aspose.Slides](../../../)
 

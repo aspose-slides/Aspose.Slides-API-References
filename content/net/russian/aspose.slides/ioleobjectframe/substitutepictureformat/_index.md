@@ -1,24 +1,23 @@
 ---
 title: SubstitutePictureFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект свойств заливки изображения OleObject. Только для чтения IPictureFillFormataspose.slides/ipicturefillformat.
+description: Возвращает объект свойств заливки изображения OleObject. Только для чтенияIPictureFillFormataspose.slides/ipicturefillformat.
 type: docs
-weight: 120
+weight: 110
 url: /ru/aspose.slides/ioleobjectframe/substitutepictureformat/
 ---
+## IOleObjectFrame.SubstitutePictureFormat property
 
-## Свойство IOleObjectFrame.SubstitutePictureFormat
-
-Возвращает объект свойств заливки изображения OleObject. Только для чтения [`IPictureFillFormat`](../../ipicturefillformat).
+Возвращает объект свойств заливки изображения OleObject. Только для чтения[`IPictureFillFormat`](../../ipicturefillformat).
 
 ```csharp
 public IPictureFillFormat SubstitutePictureFormat { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPictureFillFormat](../../ipicturefillformat)
-* интерфейс [IOleObjectFrame](../../ioleobjectframe)
+* interface [IPictureFillFormat](../../ipicturefillformat)
+* interface [IOleObjectFrame](../../ioleobjectframe)
 * пространство имен [Aspose.Slides](../../ioleobjectframe)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: IsCustom
 second_title: Справочник по API Aspose.Slides для .NET
-description: Показывает, принадлежит ли это свойство к списку предопределенных свойств в спецификации https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx
+description: Показывает принадлежит ли данное свойство к списку предопределенных свойств в спецификации https//msdn.microsoft.com/en- us/library/dd949052voffice.15.aspx
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/ibehaviorproperty/iscustom/
 ---
+## IBehaviorProperty.IsCustom property
 
-## IBehaviorProperty.IsCustom свойство
-
-Показывает, принадлежит ли это свойство к списку предопределенных свойств в спецификации: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx
+Показывает, принадлежит ли данное свойство к списку предопределенных свойств в спецификации: https://msdn.microsoft.com/en- us/library/dd949052(v=office.15).aspx
 
 ```csharp
 public bool IsCustom { get; }
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IBehaviorProperty](../../ibehaviorproperty)
+* interface [IBehaviorProperty](../../ibehaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

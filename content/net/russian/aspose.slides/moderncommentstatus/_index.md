@@ -1,13 +1,12 @@
 ---
 title: ModernCommentStatus
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет статус современного комментария.
 type: docs
-weight: 8830
+weight: 8370
 url: /ru/aspose.slides/moderncommentstatus/
 ---
-
-## Перечисление ModernCommentStatus
+## ModernCommentStatus enumeration
 
 Представляет статус современного комментария.
 
@@ -15,12 +14,12 @@ url: /ru/aspose.slides/moderncommentstatus/
 public enum ModernCommentStatus : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `0` | Не определено. |
-| Active | `1` | Активно. |
+| Active | `1` | Активен. |
 | Resolved | `2` | Решено. |
 | Closed | `3` | Закрыто. |
 

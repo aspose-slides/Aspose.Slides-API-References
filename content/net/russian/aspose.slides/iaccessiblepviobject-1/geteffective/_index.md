@@ -1,27 +1,26 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает эффективные данные с применением наследования.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает действующие данные с применением наследования.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iaccessiblepviobject-1/geteffective/
 ---
+## IAccessiblePVIObject&lt;T&gt;.GetEffective method
 
-## IAccessiblePVIObject&lt;T&gt;.GetEffective метод
-
-Получает эффективные данные с применением наследования.
+Получает действующие данные с применением наследования.
 
 ```csharp
 public T GetEffective()
 ```
 
-### Возврат Значения
+### Возвращаемое значение
 
 Эффективный объект данных.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../iaccessiblepviobject-1)
+* interface [IAccessiblePVIObject&lt;T&gt;](../../iaccessiblepviobject-1)
 * пространство имен [Aspose.Slides](../../iaccessiblepviobject-1)
 * сборка [Aspose.Slides](../../../)
 

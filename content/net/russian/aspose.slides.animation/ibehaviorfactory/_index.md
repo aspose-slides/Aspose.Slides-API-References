@@ -1,15 +1,14 @@
 ---
 title: IBehaviorFactory
-second_title: Aspose.Slides для .NET API Справочник
-description: Позволяет создавать эффекты анимации
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет создавать анимационные эффекты
 type: docs
-weight: 350
+weight: 330
 url: /ru/aspose.slides.animation/ibehaviorfactory/
 ---
+## IBehaviorFactory interface
 
-## Интерфейс IBehaviorFactory
-
-Позволяет создавать эффекты анимации
+Позволяет создавать анимационные эффекты
 
 ```csharp
 public interface IBehaviorFactory
@@ -17,22 +16,22 @@ public interface IBehaviorFactory
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | Создает эффект цвета. |
-| [CreateCommandEffect](../../aspose.slides.animation/ibehaviorfactory/createcommandeffect)() | Создает эффект команды. |
+| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | Создает цветовой эффект. |
+| [CreateCommandEffect](../../aspose.slides.animation/ibehaviorfactory/createcommandeffect)() | Создает командный эффект. |
 | [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | Создает эффект фильтра. |
 | [CreateMotionEffect](../../aspose.slides.animation/ibehaviorfactory/createmotioneffect)() | Создает эффект движения. |
 | [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | Создает эффект свойства. |
 | [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | Создает эффект вращения. |
-| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Создает эффект масштабирования. |
-| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Создает эффект установки. |
+| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Создает эффект масштаба. |
+| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Создает эффект набора. |
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

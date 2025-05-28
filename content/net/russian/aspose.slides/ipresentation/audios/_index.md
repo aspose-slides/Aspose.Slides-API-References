@@ -1,24 +1,23 @@
 ---
-title: Аудио
+title: Audios
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только для чтения IAudioCollectionaspose.slides/iaudiocollection.
+description: Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только чтениеIAudioCollectionaspose.slides/iaudiocollection.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ipresentation/audios/
 ---
+## IPresentation.Audios property
 
-## Свойство IPresentation.Audios
-
-Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только для чтения [`IAudioCollection`](../../iaudiocollection).
+Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только чтение[`IAudioCollection`](../../iaudiocollection).
 
 ```csharp
 public IAudioCollection Audios { get; }
 ```
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IAudioCollection](../../iaudiocollection)
-* интерфейс [IPresentation](../../ipresentation)
+* interface [IAudioCollection](../../iaudiocollection)
+* interface [IPresentation](../../ipresentation)
 * пространство имен [Aspose.Slides](../../ipresentation)
 * сборка [Aspose.Slides](../../../)
 

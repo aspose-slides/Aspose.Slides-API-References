@@ -1,15 +1,14 @@
 ---
 title: RemoveAllHyperlinks
-second_title: Справочник API Aspose.Slides для .NET
-description: Удаляет все содержащиеся гиперссылки HyperlinkClick и HyperlinkMouseOver во всех подкаталогах IHyperlinkContainer.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет все содержащиеся гиперссылки HyperlinkClick и HyperlinkMouseOver во всех подобъектах IHyperlinkContainer.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ihyperlinkqueries/removeallhyperlinks/
 ---
+## IHyperlinkQueries.RemoveAllHyperlinks method
 
-## Метод IHyperlinkQueries.RemoveAllHyperlinks
-
-Удаляет все содержащиеся гиперссылки HyperlinkClick и HyperlinkMouseOver (во всех подкаталогах IHyperlinkContainer).
+Удаляет все содержащиеся гиперссылки HyperlinkClick и HyperlinkMouseOver (во всех подобъектах IHyperlinkContainer).
 
 ```csharp
 public void RemoveAllHyperlinks()
@@ -17,7 +16,7 @@ public void RemoveAllHyperlinks()
 
 ### Смотрите также
 
-* интерфейс [IHyperlinkQueries](../../ihyperlinkqueries)
+* interface [IHyperlinkQueries](../../ihyperlinkqueries)
 * пространство имен [Aspose.Slides](../../ihyperlinkqueries)
 * сборка [Aspose.Slides](../../../)
 

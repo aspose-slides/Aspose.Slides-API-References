@@ -1,15 +1,14 @@
 ---
 title: SetDefaultMasterNotesSlide
-second_title: Aspose.Slides для .NET Справочник API
-description: Устанавливает стандартный слайд для заметок мастера для связанных слайдов заметок.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает основной слайд заметок по умолчанию для слайда связанных заметок.
 type: docs
 weight: 30
 url: /ru/aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide/
 ---
+## IMasterNotesSlideManager.SetDefaultMasterNotesSlide method
 
-## IMasterNotesSlideManager.SetDefaultMasterNotesSlide метод
-
-Устанавливает стандартный слайд для заметок мастера для связанных слайдов заметок.
+Устанавливает основной слайд заметок по умолчанию для слайда связанных заметок.
 
 ```csharp
 public IMasterNotesSlide SetDefaultMasterNotesSlide()
@@ -17,12 +16,12 @@ public IMasterNotesSlide SetDefaultMasterNotesSlide()
 
 ### Возвращаемое значение
 
-Стандартный слайд для заметок мастера [`IMasterNotesSlide`](../../imasternotesslide)
+Слайд основных заметок по умолчанию[`IMasterNotesSlide`](../../imasternotesslide)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMasterNotesSlide](../../imasternotesslide)
-* интерфейс [IMasterNotesSlideManager](../../imasternotesslidemanager)
+* interface [IMasterNotesSlide](../../imasternotesslide)
+* interface [IMasterNotesSlideManager](../../imasternotesslidemanager)
 * пространство имен [Aspose.Slides](../../imasternotesslidemanager)
 * сборка [Aspose.Slides](../../../)
 

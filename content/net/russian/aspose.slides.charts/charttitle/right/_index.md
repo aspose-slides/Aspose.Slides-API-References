@@ -1,15 +1,14 @@
 ---
-title: Право
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Право. Только для чтения Single.
+title: Right
+second_title: Справочник по API Aspose.Slides для .NET
+description: Верно. Только для чтенияSingle.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/charttitle/right/
 ---
+## ChartTitle.Right property
 
-## Свойство ChartTitle.Right
-
-Право. Только для чтения Single.
+Верно. Только для чтенияSingle.
 
 ```csharp
 public float Right { get; }
@@ -17,7 +16,7 @@ public float Right { get; }
 
 ### Смотрите также
 
-* класс [ChartTitle](../../charttitle)
+* class [ChartTitle](../../charttitle)
 * пространство имен [Aspose.Slides.Charts](../../charttitle)
 * сборка [Aspose.Slides](../../../)
 

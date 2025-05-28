@@ -1,15 +1,14 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Sildes для .NET API Справочник
-description: Исключение, которое выбрасывается, когда состав осей серии не совместим с настоящим составом осей на графике.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Исключение возникающее когда состав осей ряда не сочетается с существующими осями состав на диаграмме.
 type: docs
-weight: 1080
+weight: 1020
 url: /ru/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
+## AxesCompositionNotCombinableException class
 
-## AxesCompositionNotCombinableException класс
-
-Исключение, которое выбрасывается, когда состав осей серии не совместим с настоящим составом осей на графике.
+Исключение, возникающее, когда состав осей ряда не сочетается с существующими осями состав на диаграмме.
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
@@ -20,10 +19,10 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 | Имя | Описание |
 | --- | --- |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | Конструктор по умолчанию. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к данному исключению. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и вложенное исключение. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

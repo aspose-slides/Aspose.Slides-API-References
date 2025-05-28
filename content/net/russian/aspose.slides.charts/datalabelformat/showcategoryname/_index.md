@@ -1,27 +1,26 @@
 ---
 title: ShowCategoryName
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет заданное поведение отображения наименования категории метки данных диаграммы. True для отображения наименования категории для меток данных на диаграмме. False для скрытия. Чтение/запись Boolean.
+description: Представляет поведение отображения имени категории метки данных указанной диаграммы. Значение true чтобы отобразить имя категории для меток данных на диаграмме. Ложь скрывать. Чтение/записьBoolean.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/datalabelformat/showcategoryname/
 ---
+## DataLabelFormat.ShowCategoryName property
 
-## DataLabelFormat.ShowCategoryName свойство
-
-Представляет заданное поведение отображения наименования категории меток данных диаграммы. True для отображения наименования категории для меток данных на диаграмме. False для скрытия. Чтение/запись Boolean.
+Представляет поведение отображения имени категории метки данных указанной диаграммы. Значение true, чтобы отобразить имя категории для меток данных на диаграмме. Ложь скрывать. Чтение/записьBoolean.
 
 ```csharp
 public bool ShowCategoryName { get; set; }
 ```
 
-### Заметки
+### Примечания
 
-Если родительским объектом этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства ShowCategoryName для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение для свойства ShowCategoryName для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowCategoryName = val;" приводит к тому, что все DataLabels[i].ShowCategoryName равны val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства ShowCategoryName для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство ShowCategoryName для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowCategoryName = val;" приводит к тому, что все DataLabels[i].ShowCategoryName равно val).
 
-### См. также
+### Смотрите также
 
-* класс [DataLabelFormat](../../datalabelformat)
+* class [DataLabelFormat](../../datalabelformat)
 * пространство имен [Aspose.Slides.Charts](../../datalabelformat)
 * сборка [Aspose.Slides](../../../)
 

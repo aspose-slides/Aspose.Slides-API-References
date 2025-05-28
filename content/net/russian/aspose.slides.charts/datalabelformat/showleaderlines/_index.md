@@ -1,15 +1,14 @@
 ---
 title: ShowLeaderLines
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет поведение отображения линий данных меток чарта. True отображает линии меток. False скрывает. Читаемое/записываемое логическое.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет поведение отображения линий выноски меток данных указанной диаграммы. True отображает линии выноски. Ложь скрывать. Чтение/записьBoolean.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/datalabelformat/showleaderlines/
 ---
+## DataLabelFormat.ShowLeaderLines property
 
-## DataLabelFormat.ShowLeaderLines свойство
-
-Представляет поведение отображения линий данных меток для заданного графика. True отображает линии меток. False скрывает. Читаемое/записываемое логическое.
+Представляет поведение отображения линий выноски меток данных указанной диаграммы. True отображает линии выноски. Ложь скрывать. Чтение/записьBoolean.
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -17,11 +16,11 @@ public bool ShowLeaderLines { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства ShowLeaderLines для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение для свойства ShowLeaderLines для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowLeaderLines = val;" приводит к тому, что все DataLabels[i].ShowLeaderLines равны val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства ShowLeaderLines для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство ShowLeaderLines для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowLeaderLines = val;" приводит к тому, что все DataLabels[i].ShowLeaderLines равно val).
 
-### Также см. 
+### Смотрите также
 
-* класс [DataLabelFormat](../../datalabelformat)
+* class [DataLabelFormat](../../datalabelformat)
 * пространство имен [Aspose.Slides.Charts](../../datalabelformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -3,11 +3,10 @@ title: PathSegment
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет сегмент графического пути GeometryShape
 type: docs
-weight: 9070
+weight: 8610
 url: /ru/aspose.slides/pathsegment/
 ---
-
-## Класс PathSegment
+## PathSegment class
 
 Представляет сегмент графического пути GeometryShape
 
@@ -15,16 +14,16 @@ url: /ru/aspose.slides/pathsegment/
 public sealed class PathSegment : IPathSegment
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | Тип пути сегмента |
 | [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | Данные пути сегмента |
 
 ### Смотрите также
 
-* интерфейс [IPathSegment](../ipathsegment)
+* interface [IPathSegment](../ipathsegment)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

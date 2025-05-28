@@ -1,15 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение, указывающее, является ли ICollection только для чтения. Булево значение только для чтения.
+description: Получает значение указывающее является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/paragraphcollection/isreadonly/
 ---
+## ParagraphCollection.IsReadOnly property
 
-## Свойство ParagraphCollection.IsReadOnly
-
-Получает значение, указывающее, является ли ICollection только для чтения. Булево значение только для чтения.
+Получает значение, указывающее, является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean.
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -17,11 +16,11 @@ public bool IsReadOnly { get; }
 
 ### Возвращаемое значение
 
-true, если ICollection является только для чтения; в противном случае false.
+true, еслиICollectionдоступен только для чтения; в противном случае ложно.
 
-### См. также
+### Смотрите также
 
-* класс [ParagraphCollection](../../paragraphcollection)
+* class [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 

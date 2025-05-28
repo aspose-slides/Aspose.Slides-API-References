@@ -1,13 +1,12 @@
 ---
 title: ExtrusionSkewAngle
-second_title: Aspose.Slides для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство extrusion.skewangle
 type: docs
 weight: 200
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionskewangle/
 ---
-
-## Свойство BehaviorProperty.ExtrusionSkewAngle
+## BehaviorProperty.ExtrusionSkewAngle property
 
 Представляет свойство 'extrusion.skewangle'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionskewangle/
 public static BehaviorProperty ExtrusionSkewAngle { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

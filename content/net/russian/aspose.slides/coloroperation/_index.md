@@ -1,15 +1,14 @@
 ---
 title: ColorOperation
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет различные операции с цветом, используемые для цветовых преобразований. Неизменяемый объект.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет различные операции с цветом используемые для преобразования цвета. Неизменяемый объект.
 type: docs
-weight: 2440
+weight: 2380
 url: /ru/aspose.slides/coloroperation/
 ---
+## ColorOperation class
 
-## Класс ColorOperation
-
-Представляет различные операции с цветом, используемые для цветовых преобразований. Неизменяемый объект.
+Представляет различные операции с цветом, используемые для преобразования цвета. Неизменяемый объект.
 
 ```csharp
 public class ColorOperation : IColorOperation
@@ -17,28 +16,28 @@ public class ColorOperation : IColorOperation
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Создает новую операцию преобразования цвета. |
 | [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Создает новую операцию преобразования цвета. |
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Возвращает или задает тип операции. Только для чтения [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Возвращает параметр операции. Только для чтения Single. |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Возвращает или задает тип операции. Только для чтения[`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Возвращает параметр операции. Только для чтенияSingle. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | Определяет, равны ли два экземпляра ColorOperation. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Служит хэш-функцией для конкретного типа, подходящей для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColorOperation](../icoloroperation)
+* interface [IColorOperation](../icoloroperation)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

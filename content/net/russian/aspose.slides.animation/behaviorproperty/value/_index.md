@@ -1,13 +1,12 @@
 ---
-title: Значение
-second_title: Справка по API Aspose.Slides для .NET
+title: Value
+second_title: Справочник по API Aspose.Slides для .NET
 description: Значение свойства
 type: docs
 weight: 1240
 url: /ru/aspose.slides.animation/behaviorproperty/value/
 ---
-
-## Свойство BehaviorProperty.Value
+## BehaviorProperty.Value property
 
 Значение свойства
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/value/
 public string Value { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

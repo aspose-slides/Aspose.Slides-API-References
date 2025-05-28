@@ -1,15 +1,14 @@
 ---
 title: AddClone
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает копию указанной шаблонной строки и вставляет ее в конце таблицы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает копию указанной строки шаблона и вставляет ее внизу таблицы.
 type: docs
 weight: 50
 url: /ru/aspose.slides/columncollection/addclone/
 ---
+## ColumnCollection.AddClone method
 
-## Метод ColumnCollection.AddClone
-
-Создает копию указанной шаблонной строки и вставляет ее в конце таблицы.
+Создает копию указанной строки шаблона и вставляет ее внизу таблицы.
 
 ```csharp
 public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)
@@ -18,16 +17,16 @@ public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | templ | IColumn | Столбец, который используется в качестве шаблона. |
-| withAttachedColumns | Boolean | True, чтобы также скопировать все столбцы, прикрепленные к шаблонной строке. |
+| withAttachedColumns | Boolean | Значение true, чтобы также копировать все столбцы, прикрепленные к строке шаблона. |
 
 ### Возвращаемое значение
 
-Добавленные столбцы.
+Добавлены столбцы.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColumn](../../icolumn)
-* класс [ColumnCollection](../../columncollection)
+* interface [IColumn](../../icolumn)
+* class [ColumnCollection](../../columncollection)
 * пространство имен [Aspose.Slides](../../columncollection)
 * сборка [Aspose.Slides](../../../)
 

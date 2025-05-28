@@ -1,15 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Unveränderliches Objekt, das effektive Absatz-Aufzählungsformatierungsoptionen enthält.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Unveränderliches Objekt das effektive Formatierungseigenschaften für Absatzaufzählungszeichen enthält.
 type: docs
-weight: 5200
+weight: 4950
 url: /de/aspose.slides/ibulletformateffectivedata/
 ---
+## IBulletFormatEffectiveData interface
 
-## IBulletFormatEffectiveData-Schnittstelle
-
-Unveränderliches Objekt, das effektive Absatz-Aufzählungsformatierungsoptionen enthält.
+Unveränderliches Objekt, das effektive Formatierungseigenschaften für Absatzaufzählungszeichen enthält.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -19,24 +18,24 @@ public interface IBulletFormatEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Gibt den tatsächlichen Aufzählungswert für den übergeordneten Absatz zurück. Nur-Lese-String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Gibt das Aufzählungszeichen eines Absatzes zurück. Nur-Lese-Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Gibt das Aufzählungsfüllformat eines Absatzes zurück. Nur-Lese- [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Gibt die Aufzählungs-Schriftart eines Absatzes zurück. Nur-Lese- [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Gibt die Aufzählungshöhe eines Absatzes zurück. Nur-Lese-Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Bestimmt, ob die Aufzählung eine eigene Farbe hat oder sie von der ersten Portion im Absatz erbt. Gibt **true** zurück, wenn die Aufzählung eine eigene Farbe hat, und **false**, wenn die Aufzählung die Farbe von der ersten Portion im Absatz erbt. Nur-Lese-Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Bestimmt, ob die Aufzählung eine eigene Schriftart hat oder sie von der ersten Portion im Absatz erbt. Gibt **true** zurück, wenn die Aufzählung eine eigene Schriftart hat, und **true**, wenn die Aufzählung die Schriftart von der ersten Portion im Absatz erbt. Nur-Lese-Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Gibt die erste Zahl zurück, die für eine Gruppe von nummerierten Aufzählungen verwendet wird. Nur-Lese-Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Gibt den Stil einer nummerierten Aufzählung zurück. Nur-Lese- [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Gibt den Aufzählungstyp eines Absatzes zurück. Nur-Lese- [`BulletType`](../bullettype). |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Gibt den tatsächlichen Aufzählungswert für den übergeordneten Absatz zurück. SchreibgeschütztString . |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Gibt das Aufzählungszeichen eines Absatzes zurück. SchreibgeschütztChar . |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Gibt das Aufzählungsfüllformat eines Absatzes zurück. Schreibgeschützt[`IFillFormatEffectiveData`](../ifillformateffectivedata) . |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Gibt die Aufzählungsschrift eines Absatzes zurück. Schreibgeschützt[`IFontData`](../ifontdata) . |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Gibt die Aufzählungshöhe eines Absatzes zurück. SchreibgeschütztSingle . |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Legt fest, ob das Aufzählungszeichen eine eigene Farbe hat oder diese vom ersten Abschnitt im Absatz erbt. Gibt zurück **Stimmt** wenn Kugel eigene Farbe hat und **FALSCH** if bullet erbt die Farbe vom ersten Teil des Absatzes. SchreibgeschütztBoolean . |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Bestimmt, ob das Aufzählungszeichen eine eigene Schriftart hat oder diese vom ersten Teil des Absatzes erbt. Gibt zurück **Stimmt** wenn Aufzählungszeichen eigene Schriftart hat und **Stimmt** if bullet erbt die Schriftart vom ersten Teil des Absatzes. SchreibgeschütztBoolean . |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Gibt die erste Zahl zurück, die für eine Gruppe nummerierter Aufzählungszeichen verwendet wird. SchreibgeschütztInt16 . |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Gibt den Stil eines nummerierten Aufzählungszeichens zurück. Schreibgeschützt[`NumberedBulletStyle`](../numberedbulletstyle) . |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Gibt den Aufzählungszeichentyp eines Absatzes zurück. Schreibgeschützt[`BulletType`](../bullettype) . |
 
-### Anmerkungen
+### Bemerkungen
 
-Diese Schnittstelle wird als Teil von [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) verwendet.
+Diese Schnittstelle wird als Teil von verwendet[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) .
 
 ### Siehe auch
 
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* namensraum [Aspose.Slides](../../aspose.slides)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

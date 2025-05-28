@@ -1,18 +1,17 @@
 ---
 title: ShapeBevel
-second_title: Aspose.Slides для .NET API Справочник
-description: Содержит свойства рельефа главной стороны формы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Содержит свойства рельефа основной грани фигуры.
 type: docs
-weight: 9540
+weight: 9070
 url: /ru/aspose.slides/shapebevel/
 ---
+## ShapeBevel class
 
-## Класс ShapeBevel
-
-Содержит свойства рельефа главной стороны формы.
+Содержит свойства рельефа основной грани фигуры.
 
 ```csharp
-public sealed class ShapeBevel : PVIObject, IShapeBevel
+public class ShapeBevel : PVIObject, IShapeBevel
 ```
 
 ## Конструкторы
@@ -21,26 +20,26 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 | --- | --- |
 | [ShapeBevel](shapebevel)(bool) | Создает новый экземпляр. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Тип фаски. Чтение/запись [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Высота фаски. Чтение/запись Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Ширина фаски. Чтение/запись Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Тип скоса. Чтение/запись[`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Высота скоса. Чтение/записьDouble. |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Ширина фаски. Чтение/записьDouble. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хеширования. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### См. также
+### Смотрите также
 
-* класс [PVIObject](../pviobject)
-* интерфейс [IShapeBevel](../ishapebevel)
+* class [PVIObject](../pviobject)
+* interface [IShapeBevel](../ishapebevel)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

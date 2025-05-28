@@ -1,13 +1,12 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает количество уровней точек данных.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ichartdatapointlevelsmanager/count/
 ---
-
-## Свойство IChartDataPointLevelsManager.Count
+## IChartDataPointLevelsManager.Count property
 
 Возвращает количество уровней точек данных.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.charts/ichartdatapointlevelsmanager/count/
 public int Count { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPointLevelsManager](../../ichartdatapointlevelsmanager)
+* interface [IChartDataPointLevelsManager](../../ichartdatapointlevelsmanager)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointlevelsmanager)
 * сборка [Aspose.Slides](../../../)
 

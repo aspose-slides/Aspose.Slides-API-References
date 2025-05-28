@@ -1,23 +1,22 @@
 ---
 title: FillFocus
-second_title: Ссылка на API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство fill.focus
 type: docs
 weight: 300
 url: /ru/aspose.slides.animation/behaviorproperty/fillfocus/
 ---
+## BehaviorProperty.FillFocus property
 
-## Свойство BehaviorProperty.FillFocus
-
-Представляет свойство 'fill.focus'
+Представляет свойство fill.focus
 
 ```csharp
 public static BehaviorProperty FillFocus { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

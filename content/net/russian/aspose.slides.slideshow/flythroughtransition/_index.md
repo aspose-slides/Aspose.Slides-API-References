@@ -1,38 +1,37 @@
 ---
 title: FlyThroughTransition
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Эффект перехода с пролетающим слайдом.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода через слайд.
 type: docs
-weight: 9730
+weight: 9260
 url: /ru/aspose.slides.slideshow/flythroughtransition/
 ---
+## FlyThroughTransition class
 
-## Класс FlyThroughTransition
-
-Эффект перехода с пролетающим слайдом.
+Эффект перехода через слайд.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Указывает, что движение слайдов презентации во время перехода включает отскок. Чтение/запись Boolean. |
+| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Указывает, что движение слайдов презентации во время перехода включает отскок. Чтение/записьBoolean. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит в качестве хеш-функции для конкретного типа, подходящей для использования в хеширующих алгоритмах и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
-### См. также
+### Смотрите также
 
-* класс [TransitionValueBase](../transitionvaluebase)
-* интерфейс [IFlyThroughTransition](../iflythroughtransition)
+* class [TransitionValueBase](../transitionvaluebase)
+* interface [IFlyThroughTransition](../iflythroughtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

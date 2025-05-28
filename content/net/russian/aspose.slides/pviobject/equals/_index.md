@@ -1,13 +1,12 @@
 ---
-title: Равно
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Equals
+second_title: Справочник по API Aspose.Slides для .NET
 description: Сравнивает с указанным объектом.
 type: docs
 weight: 20
 url: /ru/aspose.slides/pviobject/equals/
 ---
-
-## Метод PVIObject.Equals
+## PVIObject.Equals method
 
 Сравнивает с указанным объектом.
 
@@ -21,11 +20,11 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-True, если объекты равны, в противном случае false.
+Истинно, если объекты равны, иначе ложно.
 
-### См. также
+### Смотрите также
 
-* класс [PVIObject](../../pviobject)
+* class [PVIObject](../../pviobject)
 * пространство имен [Aspose.Slides](../../pviobject)
 * сборка [Aspose.Slides](../../../)
 

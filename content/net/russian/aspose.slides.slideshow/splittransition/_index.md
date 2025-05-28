@@ -1,38 +1,37 @@
 ---
 title: SplitTransition
-second_title: Aspose.Slides для .NET API Reference
-description: Эффект перехода с разделением слайдов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода между слайдами.
 type: docs
-weight: 10020
+weight: 9550
 url: /ru/aspose.slides.slideshow/splittransition/
 ---
+## SplitTransition class
 
-## Класс SplitTransition
-
-Эффект перехода с разделением слайдов.
+Эффект перехода между слайдами.
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Направление разделения перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Ориентация разделения перехода. Чтение/запись [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Направление разделения перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Ориентация разделения перехода. Чтение/запись[`Orientation`](../../aspose.slides/orientation). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли две экземпляры TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для конкретного типа, подходящей для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
-### См. также
+### Смотрите также
 
-* класс [TransitionValueBase](../transitionvaluebase)
-* интерфейс [ISplitTransition](../isplittransition)
+* class [TransitionValueBase](../transitionvaluebase)
+* interface [ISplitTransition](../isplittransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

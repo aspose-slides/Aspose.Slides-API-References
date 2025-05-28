@@ -6,8 +6,7 @@ type: docs
 weight: 850
 url: /ru/aspose.slides.animation/behaviorproperty/skewon/
 ---
-
-## Свойство BehaviorProperty.SkewOn
+## BehaviorProperty.SkewOn property
 
 Представляет свойство 'skew.on'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/skewon/
 public static BehaviorProperty SkewOn { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

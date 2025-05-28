@@ -1,23 +1,22 @@
 ---
-title: Тема
+title: Subject
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает тему презентации. Читаемая/записываемая строка.
+description: Возвращает или задает тему презентации. Чтение/записьString.
 type: docs
-weight: 320
+weight: 230
 url: /ru/aspose.slides/documentproperties/subject/
 ---
+## DocumentProperties.Subject property
 
-## DocumentProperties.Subject свойство
-
-Возвращает или устанавливает тему презентации. Читаемая/записываемая строка.
+Возвращает или задает тему презентации. Чтение/записьString.
 
 ```csharp
 public string Subject { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [DocumentProperties](../../documentproperties)
+* class [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

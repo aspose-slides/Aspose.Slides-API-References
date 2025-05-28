@@ -1,15 +1,14 @@
 ---
-title: ПравоНаЛево
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, имеет ли таблица порядок чтения справа налево. Читаемый-записываемый булевый тип.
+title: RightToLeft
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет имеет ли таблица порядок чтения справа налево. Чтение-записьBoolean.
 type: docs
 weight: 100
 url: /ru/aspose.slides/itable/righttoleft/
 ---
+## ITable.RightToLeft property
 
-## ITable.RightToLeft свойство
-
-Определяет, имеет ли таблица порядок чтения справа налево. Читаемый-записываемый булевый тип.
+Определяет, имеет ли таблица порядок чтения справа налево. Чтение-записьBoolean.
 
 ```csharp
 public bool RightToLeft { get; set; }
@@ -17,7 +16,7 @@ public bool RightToLeft { get; set; }
 
 ### Смотрите также
 
-* интерфейс [ITable](../../itable)
+* interface [ITable](../../itable)
 * пространство имен [Aspose.Slides](../../itable)
 * сборка [Aspose.Slides](../../../)
 

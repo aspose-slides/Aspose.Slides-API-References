@@ -1,24 +1,23 @@
 ---
 title: FillFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект свойств заливки ячейки. Только для чтения IFillFormataspose.slides/ifillformat.
+description: Возвращает объект свойств заполнения ячейки. Только для чтенияIFillFormataspose.slides/ifillformat.
 type: docs
 weight: 70
 url: /ru/aspose.slides/cellformat/fillformat/
 ---
+## CellFormat.FillFormat property
 
-## Свойство CellFormat.FillFormat
-
-Возвращает объект свойств заливки ячейки. Только для чтения [`IFillFormat`](../../ifillformat).
+Возвращает объект свойств заполнения ячейки. Только для чтения[`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFillFormat](../../ifillformat)
-* класс [CellFormat](../../cellformat)
+* interface [IFillFormat](../../ifillformat)
+* class [CellFormat](../../cellformat)
 * пространство имен [Aspose.Slides](../../cellformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Делимит
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Делит все дочерние элементы с помощью разделителя без скобок
+title: Delimit
+second_title: Справочник по API Aspose.Slides для .NET
+description: Разделяет все дочерние элементы символом-разделителем без скобок
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathblock/delimit/
 ---
+## IMathBlock.Delimit method
 
-## Метод IMathBlock.Delimit
-
-Делит все дочерние элементы с помощью символа-разделителя (без скобок)
+Разделяет все дочерние элементы символом-разделителем (без скобок)
 
 ```csharp
 public IMathDelimiter Delimit(char separatorCharacter)
@@ -33,10 +32,10 @@ IMathBlock mathBlock = new MathematicalText("x").Join("y");
 IMathDelimiter delimiterElement = mathBlock.Delimit('|');
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathDelimiter](../../imathdelimiter)
-* интерфейс [IMathBlock](../../imathblock)
+* interface [IMathDelimiter](../../imathdelimiter)
+* interface [IMathBlock](../../imathblock)
 * пространство имен [Aspose.Slides.MathText](../../imathblock)
 * сборка [Aspose.Slides](../../../)
 

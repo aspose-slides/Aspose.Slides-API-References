@@ -1,13 +1,12 @@
 ---
 title: AppendEmptySection
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавить пустой раздел в конец коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides/sectioncollection/appendemptysection/
 ---
-
-## Метод SectionCollection.AppendEmptySection
+## SectionCollection.AppendEmptySection method
 
 Добавить пустой раздел в конец коллекции.
 
@@ -17,16 +16,16 @@ public ISection AppendEmptySection(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя раздела |
+| name | String | Название раздела |
 
 ### Возвращаемое значение
 
-Добавленный раздел.
+Добавлен раздел.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISection](../../isection)
-* класс [SectionCollection](../../sectioncollection)
+* interface [ISection](../../isection)
+* class [SectionCollection](../../sectioncollection)
 * пространство имен [Aspose.Slides](../../sectioncollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: BookmarkId
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает идентификатор закладки. Чтение/запись String.
+description: Возвращает или устанавливает идентификатор закладки. Чтение/записьString.
 type: docs
 weight: 20
 url: /ru/aspose.slides/portionformat/bookmarkid/
 ---
+## PortionFormat.BookmarkId property
 
-## Свойство PortionFormat.BookmarkId
-
-Возвращает или задает идентификатор закладки. Чтение/запись String.
+Возвращает или устанавливает идентификатор закладки. Чтение/записьString.
 
 ```csharp
 public string BookmarkId { get; set; }
@@ -17,7 +16,7 @@ public string BookmarkId { get; set; }
 
 ### Смотрите также
 
-* класс [PortionFormat](../../portionformat)
+* class [PortionFormat](../../portionformat)
 * пространство имен [Aspose.Slides](../../portionformat)
 * сборка [Aspose.Slides](../../../)
 

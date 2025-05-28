@@ -1,13 +1,12 @@
 ---
-title: Добавить
-second_title: Справка по API Aspose.Slides для .NET
+title: Add
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавить новую команду в путь
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/imotionpath/add/
 ---
-
-## IMotionPath.Add метод
+## IMotionPath.Add method
 
 Добавить новую команду в путь
 
@@ -18,21 +17,21 @@ public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MotionCommandPathType | Тип команды для поведения эффекта анимации [`MotionCommandPathType`](../../motioncommandpathtype) |
-| pts | PointF[] | Массив точек PointF[] |
-| ptsType | MotionPathPointsType | Тип точек в анимационном пути [`MotionPathPointsType`](../../motionpathpointstype) |
-| bRelativeCoord | Boolean | Указывает, следует ли использовать относительные координаты или нет Boolean |
+| type | MotionCommandPathType | Тип команды для анимации поведение эффекта движения[`MotionCommandPathType`](../../motioncommandpathtype) |
+| pts | PointF[] | Массив точекPointF[] |
+| ptsType | MotionPathPointsType | Тип точек в пути движения анимации[`MotionPathPointsType`](../../motionpathpointstype) |
+| bRelativeCoord | Boolean | Указывает, использовать ли относительные координаты или нетBoolean |
 
 ### Возвращаемое значение
 
-Команда пути [`IMotionCmdPath`](../../imotioncmdpath)
+Команда пути[`IMotionCmdPath`](../../imotioncmdpath)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMotionCmdPath](../../imotioncmdpath)
-* перечисление [MotionCommandPathType](../../motioncommandpathtype)
-* перечисление [MotionPathPointsType](../../motionpathpointstype)
-* интерфейс [IMotionPath](../../imotionpath)
+* interface [IMotionCmdPath](../../imotioncmdpath)
+* enum [MotionCommandPathType](../../motioncommandpathtype)
+* enum [MotionPathPointsType](../../motionpathpointstype)
+* interface [IMotionPath](../../imotionpath)
 * пространство имен [Aspose.Slides.Animation](../../imotionpath)
 * сборка [Aspose.Slides](../../../)
 

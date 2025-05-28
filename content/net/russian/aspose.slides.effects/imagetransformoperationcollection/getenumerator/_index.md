@@ -1,15 +1,14 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает перечислитель, который проходит через коллекцию.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает перечислитель который перебирает коллекцию.
 type: docs
 weight: 250
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/getenumerator/
 ---
+## ImageTransformOperationCollection.GetEnumerator method
 
-## Метод ImageTransformOperationCollection.GetEnumerator
-
-Возвращает перечислитель, который проходит через коллекцию.
+Возвращает перечислитель, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<IImageTransformOperation> GetEnumerator()
@@ -17,12 +16,12 @@ public IEnumerator<IImageTransformOperation> GetEnumerator()
 
 ### Возвращаемое значение
 
-Объект IEnumerator, который может быть использован для перебора коллекции.
+AIEnumeratorкоторые можно использовать для перебора коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IImageTransformOperation](../../iimagetransformoperation)
-* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* interface [IImageTransformOperation](../../iimagetransformoperation)
+* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

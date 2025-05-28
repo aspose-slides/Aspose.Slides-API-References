@@ -1,15 +1,14 @@
 ---
 title: JoinBlock
-second_title: Справка по API Aspose.Sildes для .NET
-description: Объединяет другой математический блок с этим
+second_title: Справочник по API Aspose.Slides для .NET
+description: Соединяет другой математический блок с этим
 type: docs
 weight: 150
 url: /ru/aspose.slides.mathtext/mathblock/joinblock/
 ---
+## MathBlock.JoinBlock method
 
-## MathBlock.JoinBlock метод
-
-Объединяет другой математический блок с этим
+Соединяет другой математический блок с этим
 
 ```csharp
 public IMathBlock JoinBlock(IMathBlock other)
@@ -17,7 +16,7 @@ public IMathBlock JoinBlock(IMathBlock other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | IMathBlock | Объединяемый блок |
+| other | IMathBlock | Соединительный блок |
 
 ### Возвращаемое значение
 
@@ -35,10 +34,10 @@ IMathBlock block2 = new MathSuperscriptElement(new MathematicalText("a"), new Ma
 IMathBlock block3 = block1.JoinBlock(block2);
 ```
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IMathBlock](../../imathblock)
-* класс [MathBlock](../../mathblock)
+* interface [IMathBlock](../../imathblock)
+* class [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

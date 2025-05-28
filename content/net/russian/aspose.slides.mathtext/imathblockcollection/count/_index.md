@@ -1,15 +1,14 @@
 ---
 title: Count
-second_title: Aspose.Sildes для .NET API Reference
-description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathblockcollection/count/
 ---
+## IMathBlockCollection.Count property
 
-## Свойство IMathBlockCollection.Count
-
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
@@ -29,7 +28,7 @@ int blocksCount = blockCollection.Count;
 
 ### Смотрите также
 
-* интерфейс [IMathBlockCollection](../../imathblockcollection)
+* interface [IMathBlockCollection](../../imathblockcollection)
 * пространство имен [Aspose.Slides.MathText](../../imathblockcollection)
 * сборка [Aspose.Slides](../../../)
 

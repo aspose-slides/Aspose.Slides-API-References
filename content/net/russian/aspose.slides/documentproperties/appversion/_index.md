@@ -1,23 +1,22 @@
 ---
 title: AppVersion
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает версию приложения. Тонкий строковый тип.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает версию приложения. Только чтениеString.
 type: docs
 weight: 30
 url: /ru/aspose.slides/documentproperties/appversion/
 ---
+## DocumentProperties.AppVersion property
 
-## DocumentProperties.AppVersion свойство
-
-Возвращает версию приложения. Тонкий строковый тип.
+Возвращает версию приложения. Только чтениеString.
 
 ```csharp
 public string AppVersion { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [DocumentProperties](../../documentproperties)
+* class [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

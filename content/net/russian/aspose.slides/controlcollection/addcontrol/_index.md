@@ -1,15 +1,14 @@
 ---
 title: AddControl
-second_title: Aspose.Sildes для .NET API Справочник
-description: Создает и добавляет новый элемент управления в коллекцию.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает и добавляет в коллекцию новый элемент управления.
 type: docs
 weight: 50
 url: /ru/aspose.slides/controlcollection/addcontrol/
 ---
+## ControlCollection.AddControl method
 
-## ControlCollection.AddControl метод
-
-Создает и добавляет новый элемент управления в коллекцию.
+Создает и добавляет в коллекцию новый элемент управления.
 
 ```csharp
 public IControl AddControl(ControlType controlType, float x, float y, float width, float height)
@@ -17,21 +16,21 @@ public IControl AddControl(ControlType controlType, float x, float y, float widt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| controlType | ControlType | Тип элемента управления для добавления. |
-| x | Single | X-координата для левой стороны рамки фигуры. |
-| y | Single | Y-координата для верхней стороны рамки фигуры. |
+| controlType | ControlType | Тип добавляемого элемента управления. |
+| x | Single | X-координата левой стороны рамки фигуры. |
+| y | Single | Y-координата верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
 
 ### Возвращаемое значение
 
-Созданный элемент управления.
+Создан элемент управления.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IControl](../../icontrol)
-* перечисление [ControlType](../../controltype)
-* класс [ControlCollection](../../controlcollection)
+* interface [IControl](../../icontrol)
+* enum [ControlType](../../controltype)
+* class [ControlCollection](../../controlcollection)
 * пространство имен [Aspose.Slides](../../controlcollection)
 * сборка [Aspose.Slides](../../../)
 

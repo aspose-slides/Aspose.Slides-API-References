@@ -1,27 +1,26 @@
 ---
 title: IsReadOnly
-second_title: Aspose.Slides для .NET API Reference
-description: Получает значение, указывающее, является ли ICollection только для чтения. Логическое значение доступно только для чтения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает значение указывающее является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/behaviorcollection/isreadonly/
 ---
+## BehaviorCollection.IsReadOnly property
 
-## Свойство BehaviorCollection.IsReadOnly
-
-Получает значение, указывающее, является ли ICollection только для чтения. Логическое значение доступно только для чтения.
+Получает значение, указывающее, является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean.
 
 ```csharp
 public bool IsReadOnly { get; }
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
-true, если ICollection только для чтения; в противном случае false.
+true, еслиICollectionдоступен только для чтения; в противном случае ложно.
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorCollection](../../behaviorcollection)
+* class [BehaviorCollection](../../behaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorcollection)
 * сборка [Aspose.Slides](../../../)
 

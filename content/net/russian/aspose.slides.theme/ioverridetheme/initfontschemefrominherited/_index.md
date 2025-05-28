@@ -1,15 +1,14 @@
 ---
 title: InitFontSchemeFromInherited
-second_title: Aspose.Slides для .NET API Справочник
-description: Инициализировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme. И инициализировать данные этого нового объекта данными FontScheme InheritedTheme.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Инициировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme. И инициализируйте данные этого нового объекта данными FontScheme InheritedTheme.
 type: docs
 weight: 90
 url: /ru/aspose.slides.theme/ioverridetheme/initfontschemefrominherited/
 ---
+## IOverrideTheme.InitFontSchemeFromInherited method
 
-## IOverrideTheme.InitFontSchemeFromInherited метод
-
-Инициализировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme. И инициализировать данные этого нового объекта данными FontScheme InheritedTheme.
+Инициировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme. И инициализируйте данные этого нового объекта данными FontScheme InheritedTheme.
 
 ```csharp
 public void InitFontSchemeFromInherited()
@@ -19,11 +18,11 @@ public void InitFontSchemeFromInherited()
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Выбрасывается, если FontScheme уже инициализирован (не null). |
+| InvalidOperationException | Генерируется, если FontScheme уже инициализирован (не нуль). |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IOverrideTheme](../../ioverridetheme)
+* interface [IOverrideTheme](../../ioverridetheme)
 * пространство имен [Aspose.Slides.Theme](../../ioverridetheme)
 * сборка [Aspose.Slides](../../../)
 

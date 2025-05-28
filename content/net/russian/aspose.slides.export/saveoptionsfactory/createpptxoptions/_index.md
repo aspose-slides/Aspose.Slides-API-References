@@ -1,13 +1,12 @@
 ---
 title: CreatePptxOptions
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает параметры сохранения PPTX.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/saveoptionsfactory/createpptxoptions/
 ---
-
-## Метод SaveOptionsFactory.CreatePptxOptions
+## SaveOptionsFactory.CreatePptxOptions method
 
 Создает параметры сохранения PPTX.
 
@@ -15,14 +14,14 @@ url: /ru/aspose.slides.export/saveoptionsfactory/createpptxoptions/
 public IPptxOptions CreatePptxOptions()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
-Параметры сохранения.
+Сохранить параметры.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPptxOptions](../../ipptxoptions)
-* класс [SaveOptionsFactory](../../saveoptionsfactory)
+* interface [IPptxOptions](../../ipptxoptions)
+* class [SaveOptionsFactory](../../saveoptionsfactory)
 * пространство имен [Aspose.Slides.Export](../../saveoptionsfactory)
 * сборка [Aspose.Slides](../../../)
 

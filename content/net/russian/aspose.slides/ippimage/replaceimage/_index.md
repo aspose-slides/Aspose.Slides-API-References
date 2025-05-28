@@ -1,13 +1,12 @@
 ---
-title: ЗаменитьИзображение
-second_title: Справка по API Aspose.Slides для .NET
+title: ReplaceImage
+second_title: Справочник по API Aspose.Slides для .NET
 description: Заменяет данные изображения.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ippimage/replaceimage/
 ---
-
-## ReplaceImage(byte[]) {#replaceimage_2}
+## ReplaceImage(byte[]) {#replaceimage_1}
 
 Заменяет данные изображения.
 
@@ -19,36 +18,35 @@ public void ReplaceImage(byte[] newImageData)
 | --- | --- | --- |
 | newImageData | Byte[] | Данные нового изображения. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
+* interface [IPPImage](../../ippimage)
 * пространство имен [Aspose.Slides](../../ippimage)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## ReplaceImage(IImage) {#replaceimage}
+## ReplaceImage(Image) {#replaceimage_2}
 
 Заменяет изображение.
 
 ```csharp
-public void ReplaceImage(IImage newImage)
+public void ReplaceImage(Image newImage)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newImage | IImage | Новое изображение. |
+| newImage | Image | Новое изображение. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IImage](../../iimage)
-* интерфейс [IPPImage](../../ippimage)
+* interface [IPPImage](../../ippimage)
 * пространство имен [Aspose.Slides](../../ippimage)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## ReplaceImage(IPPImage) {#replaceimage_1}
+## ReplaceImage(IPPImage) {#replaceimage}
 
 Заменяет изображение.
 
@@ -60,9 +58,9 @@ public void ReplaceImage(IPPImage newImage)
 | --- | --- | --- |
 | newImage | IPPImage | Новый IPPImage. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
+* interface [IPPImage](../../ippimage)
 * пространство имен [Aspose.Slides](../../ippimage)
 * сборка [Aspose.Slides](../../../)
 

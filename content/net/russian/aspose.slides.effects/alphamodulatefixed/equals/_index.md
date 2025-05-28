@@ -1,15 +1,14 @@
 ---
-title: Равно
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, равен ли указанный AlphaModulateFixedaspose.slides.effects/alphamodulatefixed текущему AlphaModulateFixedaspose.slides.effects/alphamodulatefixed.
+title: Equals
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет равен ли указанныйAlphaModulateFixedaspose.slides.effects/alphamodulatefixedтекущемуAlphaModulateFixedaspose.slides.effects/alphamodulatefixed.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/alphamodulatefixed/equals/
 ---
+## AlphaModulateFixed.Equals method
 
-## Метод AlphaModulateFixed.Equals
-
-Определяет, равен ли указанный [`AlphaModulateFixed`](../../alphamodulatefixed) текущему [`AlphaModulateFixed`](../../alphamodulatefixed).
+Определяет, равен ли указанный[`AlphaModulateFixed`](../../alphamodulatefixed)текущему[`AlphaModulateFixed`](../../alphamodulatefixed).
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,15 +16,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaModulateFixed`](../../alphamodulatefixed) для сравнения. |
+| obj | Object | [`AlphaModulateFixed`](../../alphamodulatefixed)для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае false.
+true, если объекты равны; в противном случае ложно.
 
-### См. Также
+### Смотрите также
 
-* класс [AlphaModulateFixed](../../alphamodulatefixed)
+* class [AlphaModulateFixed](../../alphamodulatefixed)
 * пространство имен [Aspose.Slides.Effects](../../alphamodulatefixed)
 * сборка [Aspose.Slides](../../../)
 

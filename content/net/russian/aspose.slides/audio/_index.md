@@ -1,13 +1,12 @@
 ---
-title: Аудио
+title: Audio
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет встроенный аудиофайл.
 type: docs
-weight: 770
+weight: 750
 url: /ru/aspose.slides/audio/
 ---
-
-## Класс Audio
+## Audio class
 
 Представляет встроенный аудиофайл.
 
@@ -15,12 +14,12 @@ url: /ru/aspose.slides/audio/
 public class Audio : DomObject<AudioCollection>, IAudio
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Возвращает копию данных аудио. В случае большого объема данных рекомендуется использовать метод [`GetStream`](./getstream), чтобы избежать ненужной загрузки данных аудио в память или даже возникновения исключения OutOfMemoryException. Только для чтения Byte[]. |
-| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Возвращает MIME-тип аудио, закодированный в [`BinaryData`](./binarydata). Только для чтения String. |
+| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Возвращает копию аудиоданных. В случае большого объема данных рассмотрите использование метода[`GetStream`](./getstream)для предотвращения ненужной загрузки аудио данных в memory или даже OutOfMemoryException. Только для чтенияByte[]. |
+| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Возвращает MIME-тип аудио, закодированный в[`BinaryData`](./binarydata). Только чтениеString. |
 
 ## Методы
 
@@ -28,11 +27,11 @@ public class Audio : DomObject<AudioCollection>, IAudio
 | --- | --- |
 | [GetStream](../../aspose.slides/audio/getstream)() | Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования. |
 
-### Также смотрите
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../domobject-1)
-* класс [AudioCollection](../audiocollection)
-* интерфейс [IAudio](../iaudio)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [AudioCollection](../audiocollection)
+* interface [IAudio](../iaudio)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

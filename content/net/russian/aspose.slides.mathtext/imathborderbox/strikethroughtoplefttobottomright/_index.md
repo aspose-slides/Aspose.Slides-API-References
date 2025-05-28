@@ -1,15 +1,14 @@
 ---
-title: ПеречеркнутыйСлеваНаверхуДоПравоВниз
-second_title: Aspose.Slides для .NET API Справочник
-description: Перечеркнутый слева наверху до право вниз по умолчанию false. Указывает на скрытое или видимое состояние пересекательной диагональной линии от верхнего левого угла до нижнего правого угла границы.
+title: StrikethroughTopLeftToBottomRight
+second_title: Справочник по API Aspose.Slides для .NET
+description: Перечеркнутый верхний левый нижний правый по умолчанию false. Определяет скрытое или отображаемое состояние зачеркнутой диагональной линии от верхнего левого угла до нижнего правого угла рамки.
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright/
 ---
+## IMathBorderBox.StrikethroughTopLeftToBottomRight property
 
-## IMathBorderBox.StrikethroughTopLeftToBottomRight свойство
-
-Перечеркнутый слева наверху до право вниз (по умолчанию false). Указывает на скрытое или видимое состояние пересекательной диагональной линии от верхнего левого угла до нижнего правого угла границы.
+Перечеркнутый верхний левый нижний правый (по умолчанию false). Определяет скрытое или отображаемое состояние зачеркнутой диагональной линии от верхнего левого угла до нижнего правого угла рамки.
 
 ```csharp
 public bool StrikethroughTopLeftToBottomRight { get; set; }
@@ -25,9 +24,9 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 borderBox.StrikethroughTopLeftToBottomRight = true;
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IMathBorderBox](../../imathborderbox)
+* interface [IMathBorderBox](../../imathborderbox)
 * пространство имен [Aspose.Slides.MathText](../../imathborderbox)
 * сборка [Aspose.Slides](../../../)
 

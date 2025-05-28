@@ -1,23 +1,22 @@
 ---
 title: AudioCdEndTrack
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает индекс последнего трека. Доступ для чтения/записи Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает индекс последней дорожки Чтение/записьInt32.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iaudioframe/audiocdendtrack/
 ---
+## IAudioFrame.AudioCdEndTrack property
 
-## Свойство IAudioFrame.AudioCdEndTrack
-
-Возвращает или устанавливает индекс последнего трека. Доступ для чтения/записи Int32.
+Возвращает или устанавливает индекс последней дорожки Чтение/записьInt32.
 
 ```csharp
 public int AudioCdEndTrack { get; set; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IAudioFrame](../../iaudioframe)
+* interface [IAudioFrame](../../iaudioframe)
 * пространство имен [Aspose.Slides](../../iaudioframe)
 * сборка [Aspose.Slides](../../../)
 

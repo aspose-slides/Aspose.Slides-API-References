@@ -1,15 +1,14 @@
 ---
-title: Оператор
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Символ Nary Оператор Например
+title: Operator
+second_title: Справочник по API Aspose.Slides для .NET
+description: Nary Operator Character Например 
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/mathnaryoperator/operator/
 ---
+## MathNaryOperator.Operator property
 
-## Свойство MathNaryOperator.Operator
-
-Символ Nary Оператор Например: '∑', '∫'
+Nary Operator Character Например:'∑', '∫'
 
 ```csharp
 public char Operator { get; set; }
@@ -25,9 +24,9 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 char operatorSymbol = naryOperator.Operator;
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathNaryOperator](../../mathnaryoperator)
+* class [MathNaryOperator](../../mathnaryoperator)
 * пространство имен [Aspose.Slides.MathText](../../mathnaryoperator)
 * сборка [Aspose.Slides](../../../)
 

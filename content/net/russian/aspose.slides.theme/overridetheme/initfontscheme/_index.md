@@ -1,15 +1,14 @@
 ---
 title: InitFontScheme
 second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализируйте FontScheme с новым объектом для переопределения FontScheme наследованной темы.
+description: Инициировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme.
 type: docs
 weight: 90
 url: /ru/aspose.slides.theme/overridetheme/initfontscheme/
 ---
+## OverrideTheme.InitFontScheme method
 
-## Метод OverrideTheme.InitFontScheme
-
-Инициализируйте FontScheme с новым объектом для переопределения FontScheme наследованной темы.
+Инициировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme.
 
 ```csharp
 public void InitFontScheme()
@@ -19,11 +18,11 @@ public void InitFontScheme()
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Выбрасывается, если FontScheme уже инициализирован (не null). |
+| InvalidOperationException | Генерируется, если FontScheme уже инициализирован (не нуль). |
 
-### См. также
+### Смотрите также
 
-* класс [OverrideTheme](../../overridetheme)
+* class [OverrideTheme](../../overridetheme)
 * пространство имен [Aspose.Slides.Theme](../../overridetheme)
 * сборка [Aspose.Slides](../../../)
 

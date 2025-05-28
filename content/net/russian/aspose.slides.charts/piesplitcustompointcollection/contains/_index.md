@@ -1,15 +1,14 @@
 ---
-title: Содержит
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, содержит ли ICollection определенное значение.
+title: Contains
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет содержит лиICollectionопределенное значение.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/piesplitcustompointcollection/contains/
 ---
+## PieSplitCustomPointCollection.Contains method
 
-## Метод PieSplitCustomPointCollection.Contains
-
-Определяет, содержит ли ICollection определенное значение.
+Определяет, содержит лиICollectionопределенное значение.
 
 ```csharp
 public bool Contains(IChartDataPoint item)
@@ -17,16 +16,16 @@ public bool Contains(IChartDataPoint item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IChartDataPoint | Объект, который необходимо найти в ICollection. |
+| item | IChartDataPoint | Объект для размещения вICollection. |
 
-### Возврат значения
+### Возвращаемое значение
 
-true, если *item* найден в ICollection; в противном случае false.
+true, если*item*находится вICollection; в противном случае ложно.
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* класс [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * пространство имен [Aspose.Slides.Charts](../../piesplitcustompointcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,11 @@
 ---
 title: ResponsiveHtmlController
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новый экземпляр
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/responsivehtmlcontroller/responsivehtmlcontroller/
 ---
-
 ## ResponsiveHtmlController() {#constructor}
 
 Создает новый экземпляр
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.export/responsivehtmlcontroller/responsivehtmlcontroller/
 public ResponsiveHtmlController()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [ResponsiveHtmlController](../../responsivehtmlcontroller)
+* class [ResponsiveHtmlController](../../responsivehtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../responsivehtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 
@@ -35,10 +34,10 @@ public ResponsiveHtmlController(IHtmlFormattingController controller)
 | --- | --- | --- |
 | controller | IHtmlFormattingController | Контроллер форматирования HTML |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
-* класс [ResponsiveHtmlController](../../responsivehtmlcontroller)
+* interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
+* class [ResponsiveHtmlController](../../responsivehtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../responsivehtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: DisableOuterShadowEffect
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Отключает эффект внешней тени.
 type: docs
 weight: 140
 url: /ru/aspose.slides/effectformat/disableoutershadoweffect/
 ---
-
-## EffectFormat.DisableOuterShadowEffect метод
+## EffectFormat.DisableOuterShadowEffect method
 
 Отключает эффект внешней тени.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/effectformat/disableoutershadoweffect/
 public void DisableOuterShadowEffect()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [EffectFormat](../../effectformat)
+* class [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

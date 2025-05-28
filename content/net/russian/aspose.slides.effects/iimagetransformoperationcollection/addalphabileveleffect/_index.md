@@ -6,8 +6,7 @@ type: docs
 weight: 30
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect/
 ---
-
-## IImageTransformOperationCollection.AddAlphaBiLevelEffect метод
+## IImageTransformOperationCollection.AddAlphaBiLevelEffect method
 
 Добавляет новый эффект Alpha Bi-Level в конец коллекции.
 
@@ -17,16 +16,16 @@ public IAlphaBiLevel AddAlphaBiLevelEffect(float threshold)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| threshold | Single | Значение порога для эффекта alpha bi-level. |
+| threshold | Single | Пороговое значение для эффекта двухуровневого альфа-канала. |
 
 ### Возвращаемое значение
 
 Индекс нового эффекта изображения в коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAlphaBiLevel](../../ialphabilevel)
-* интерфейс [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
+* interface [IAlphaBiLevel](../../ialphabilevel)
+* interface [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

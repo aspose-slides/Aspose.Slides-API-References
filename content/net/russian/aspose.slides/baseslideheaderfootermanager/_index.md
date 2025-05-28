@@ -1,41 +1,40 @@
 ---
 title: BaseSlideHeaderFooterManager
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет менеджера, который содержит поведение заполнителей даты-времени и номера страницы для всех типов слайдов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет менеджер который определяет поведение нижнего колонтитула дату-время заполнители номеров страниц для всех типов слайдов.
 type: docs
-weight: 920
+weight: 900
 url: /ru/aspose.slides/baseslideheaderfootermanager/
 ---
+## BaseSlideHeaderFooterManager class
 
-## Класс BaseSlideHeaderFooterManager
-
-Представляет менеджера, который содержит поведение заполнителей футера, даты-времени и номера страницы для всех типов слайдов.
+Представляет менеджер, который определяет поведение нижнего колонтитула, дату-время, заполнители номеров страниц для всех типов слайдов.
 
 ```csharp
 public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Получает значение, указывающее на наличие заполнителя даты-времени. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Получает значение, указывающее на наличие заполнителя футера. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее на наличие заполнителя номера страницы. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Получает значение, указывающее на наличие заполнителя даты и времени. ЧтениеBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель нижнего колонтитула. ЧтениеBoolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель номера страницы. ЧтениеBoolean. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Устанавливает текст для заполнителя даты-времени слайда. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Меняет видимость заполнителя даты-времени слайда. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Устанавливает текст для заполнителя футера слайда. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Меняет видимость заполнителя футера слайда. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Меняет видимость заполнителя номера страницы слайда. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Устанавливает текст в качестве заполнителя даты и времени слайда. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Изменяет видимость заполнителя даты и времени слайда. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Устанавливает текст в качестве заполнителя нижнего колонтитула слайда. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Изменяет видимость заполнителя нижнего колонтитула слайда. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Изменяет видимость заполнителя номера страницы слайда. |
 
 ### Смотрите также
 
-* класс [BaseHeaderFooterManager](../baseheaderfootermanager)
+* class [BaseHeaderFooterManager](../baseheaderfootermanager)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

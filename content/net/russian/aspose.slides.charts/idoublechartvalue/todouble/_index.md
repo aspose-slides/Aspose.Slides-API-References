@@ -1,15 +1,14 @@
 ---
 title: ToDouble
-second_title: Aspose.Sildes для .NET API Справочник
-description: Преобразует в double.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Преобразование в двойное.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/idoublechartvalue/todouble/
 ---
+## IDoubleChartValue.ToDouble method
 
-## IDoubleChartValue.ToDouble метод
-
-Преобразует в double.
+Преобразование в двойное.
 
 ```csharp
 public double ToDouble()
@@ -17,11 +16,11 @@ public double ToDouble()
 
 ### Возвращаемое значение
 
-Значение типа double.
+Двойное значение.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IDoubleChartValue](../../idoublechartvalue)
+* interface [IDoubleChartValue](../../idoublechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../idoublechartvalue)
 * сборка [Aspose.Slides](../../../)
 

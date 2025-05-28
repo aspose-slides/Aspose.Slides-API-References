@@ -1,23 +1,22 @@
 ---
 title: TextSelectionStart
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Читаемое/записываемое Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает начальную позицию выделения текста в текстовом фрейме если комментарий связан с автофигурой. Чтение/записьInt32.
 type: docs
 weight: 50
 url: /ru/aspose.slides/imoderncomment/textselectionstart/
 ---
+## IModernComment.TextSelectionStart property
 
-## IModernComment.TextSelectionStart свойство
-
-Возвращает или устанавливает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Читаемое/записываемое Int32.
+Возвращает или задает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с автофигурой. Чтение/записьInt32.
 
 ```csharp
 public int TextSelectionStart { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IModernComment](../../imoderncomment)
+* interface [IModernComment](../../imoderncomment)
 * пространство имен [Aspose.Slides](../../imoderncomment)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: SelectLocked
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Определяет, запрещено ли выбирать эту фигуру. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет запрещен ли выбор этой формы. Чтение/записьBoolean.
 type: docs
 weight: 90
 url: /ru/aspose.slides/iconnectorlock/selectlocked/
 ---
+## IConnectorLock.SelectLocked property
 
-## Свойство IConnectorLock.SelectLocked
-
-Определяет, запрещено ли выбирать эту фигуру. Читаемое/записываемое логическое значение.
+Определяет, запрещен ли выбор этой формы. Чтение/записьBoolean.
 
 ```csharp
 public bool SelectLocked { get; set; }
@@ -17,7 +16,7 @@ public bool SelectLocked { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IConnectorLock](../../iconnectorlock)
+* interface [IConnectorLock](../../iconnectorlock)
 * пространство имен [Aspose.Slides](../../iconnectorlock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: ShowPageBorder
-second_title: Aspose.Slides для .NET API Reference
-description: Указывает, следует ли отображать границу вокруг страниц. По умолчанию true.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает следует ли отображать границу вокруг страниц. Значение по умолчанию верно.
 type: docs
-weight: 110
+weight: 120
 url: /ru/aspose.slides.export/iswfoptions/showpageborder/
 ---
+## ISwfOptions.ShowPageBorder property
 
-## Свойство ISwfOptions.ShowPageBorder
-
-Указывает, следует ли отображать границу вокруг страниц. По умолчанию true.
+Указывает, следует ли отображать границу вокруг страниц. Значение по умолчанию верно.
 
 ```csharp
 public bool ShowPageBorder { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISwfOptions](../../iswfoptions)
+* interface [ISwfOptions](../../iswfoptions)
 * пространство имен [Aspose.Slides.Export](../../iswfoptions)
 * сборка [Aspose.Slides](../../../)
 

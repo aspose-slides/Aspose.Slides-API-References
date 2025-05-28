@@ -1,13 +1,12 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все свойства.
 type: docs
 weight: 60
 url: /ru/aspose.slides/icontrolpropertiescollection/clear/
 ---
-
-## Метод IControlPropertiesCollection.Clear
+## IControlPropertiesCollection.Clear method
 
 Удаляет все свойства.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/icontrolpropertiescollection/clear/
 public void Clear()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IControlPropertiesCollection](../../icontrolpropertiescollection)
+* interface [IControlPropertiesCollection](../../icontrolpropertiescollection)
 * пространство имен [Aspose.Slides](../../icontrolpropertiescollection)
 * сборка [Aspose.Slides](../../../)
 

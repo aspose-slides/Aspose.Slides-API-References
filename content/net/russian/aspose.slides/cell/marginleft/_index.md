@@ -1,23 +1,22 @@
 ---
 title: MarginLeft
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает левый отступ в TextFrame. Читаемый/записываемый Double.
+description: Возвращает или устанавливает левое поле в TextFrame. Чтение/записьDouble.
 type: docs
 weight: 110
 url: /ru/aspose.slides/cell/marginleft/
 ---
+## Cell.MarginLeft property
 
-## Свойство Cell.MarginLeft
-
-Возвращает или устанавливает левый отступ в TextFrame. Читаемый/записываемый Double.
+Возвращает или устанавливает левое поле в TextFrame. Чтение/записьDouble.
 
 ```csharp
 public double MarginLeft { get; set; }
 ```
 
-### Дополнительно
+### Смотрите также
 
-* класс [Cell](../../cell)
+* class [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)
 * сборка [Aspose.Slides](../../../)
 

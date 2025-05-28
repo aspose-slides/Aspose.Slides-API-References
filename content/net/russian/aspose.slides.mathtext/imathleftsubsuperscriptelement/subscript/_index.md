@@ -1,13 +1,12 @@
 ---
-title: Нижний индекс
-second_title: Справочная информация по API Aspose.Sildes для .NET
+title: Subscript
+second_title: Справочник по API Aspose.Slides для .NET
 description: Нижний индекс
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript/
 ---
-
-## IMathLeftSubSuperscriptElement.Subscript свойство
+## IMathLeftSubSuperscriptElement.Subscript property
 
 Нижний индекс
 
@@ -28,10 +27,10 @@ MathLeftSubSuperscriptElement leftSubSuperscript = new MathLeftSubSuperscriptEle
 IMathElement sub = leftSubSuperscript.Subscript;
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
+* interface [IMathElement](../../imathelement)
+* interface [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
 * пространство имен [Aspose.Slides.MathText](../../imathleftsubsuperscriptelement)
 * сборка [Aspose.Slides](../../../)
 

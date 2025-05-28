@@ -1,41 +1,40 @@
 ---
 title: SectionSlideCollection
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет собой коллекцию слайдов в секции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор слайдов в разделе.
 type: docs
-weight: 9500
+weight: 9040
 url: /ru/aspose.slides/sectionslidecollection/
 ---
+## SectionSlideCollection class
 
-## Класс SectionSlideCollection
-
-Представляет собой коллекцию слайдов в секции.
+Представляет набор слайдов в разделе.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Копирует всю коллекцию в указанный массив. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
-### См. Также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../domobject-1)
-* класс [Section](../section)
-* интерфейс [ISectionSlideCollection](../isectionslidecollection)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Section](../section)
+* interface [ISectionSlideCollection](../isectionslidecollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

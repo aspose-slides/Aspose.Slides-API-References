@@ -1,38 +1,37 @@
 ---
 title: IVideoCollection
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет коллекцию объектов Video.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор объектов Video.
 type: docs
-weight: 7150
+weight: 6790
 url: /ru/aspose.slides/ivideocollection/
 ---
+## IVideoCollection interface
 
-## Интерфейс IVideoCollection
-
-Представляет коллекцию объектов Video.
+Представляет набор объектов Video.
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IVideo`](../ivideo). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Создает и добавляет видео в презентацию из массива байтов. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Создает и добавляет видео в презентацию из байтового массива. |
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Добавляет копию видеофайла из другой презентации. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Создает и добавляет видео в презентацию из потока. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_3)(Stream, LoadingStreamBehavior) | Создает и добавляет видео в презентацию из потока. |
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* интерфейс [IVideo](../ivideo)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [IVideo](../ivideo)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

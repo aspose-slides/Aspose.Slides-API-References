@@ -1,23 +1,22 @@
 ---
 title: PositionMove
-second_title: Справочник API Aspose.Slides для .NET
-description: Определяет, запрещено ли перемещение этой формы. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет запрещено ли перемещение этой фигуры. Чтение/записьBoolean.
 type: docs
 weight: 60
 url: /ru/aspose.slides/connectorlock/positionmove/
 ---
+## ConnectorLock.PositionMove property
 
-## Свойство ConnectorLock.PositionMove
-
-Определяет, запрещено ли перемещение этой формы. Читаемое/записываемое логическое значение.
+Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean.
 
 ```csharp
 public bool PositionMove { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ConnectorLock](../../connectorlock)
+* class [ConnectorLock](../../connectorlock)
 * пространство имен [Aspose.Slides](../../connectorlock)
 * сборка [Aspose.Slides](../../../)
 

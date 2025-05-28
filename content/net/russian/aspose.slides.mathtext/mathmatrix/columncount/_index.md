@@ -6,8 +6,7 @@ type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathmatrix/columncount/
 ---
-
-## Свойство MathMatrix.ColumnCount
+## MathMatrix.ColumnCount property
 
 Количество столбцов в матрице
 
@@ -27,7 +26,7 @@ int columnCount = matrix.ColumnCount;
 
 ### Смотрите также
 
-* класс [MathMatrix](../../mathmatrix)
+* class [MathMatrix](../../mathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrix)
 * сборка [Aspose.Slides](../../../)
 

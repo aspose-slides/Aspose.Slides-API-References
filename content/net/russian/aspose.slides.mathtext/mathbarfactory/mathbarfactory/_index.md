@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathbarfactory/mathbarfactory/
 ---
-
-## Конструктор MathBarFactory
+## MathBarFactory constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.mathtext/mathbarfactory/mathbarfactory/
 public MathBarFactory()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [MathBarFactory](../../mathbarfactory)
+* class [MathBarFactory](../../mathbarfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathbarfactory)
 * сборка [Aspose.Slides](../../../)
 

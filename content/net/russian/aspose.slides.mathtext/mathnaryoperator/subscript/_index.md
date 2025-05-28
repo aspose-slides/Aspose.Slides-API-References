@@ -1,15 +1,14 @@
 ---
-title: Подстрочный индекс
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Указывает аргумент подстрочного индекса, который, например, в случае интеграла устанавливает нижний предел
+title: Subscript
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает аргумент нижнего индекса который например в случае интеграла устанавливает нижний предел
 type: docs
 weight: 80
 url: /ru/aspose.slides.mathtext/mathnaryoperator/subscript/
 ---
+## MathNaryOperator.Subscript property
 
-## Свойство MathNaryOperator.Subscript
-
-Указывает аргумент подстрочного индекса, который, например, в случае интеграла, устанавливает нижний предел
+Указывает аргумент нижнего индекса, который, например, в случае интеграла устанавливает нижний предел
 
 ```csharp
 public IMathElement Subscript { get; }
@@ -25,10 +24,10 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 IMathElement subscriptArg = naryOperator.Subscript;
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathNaryOperator](../../mathnaryoperator)
+* interface [IMathElement](../../imathelement)
+* class [MathNaryOperator](../../mathnaryoperator)
 * пространство имен [Aspose.Slides.MathText](../../mathnaryoperator)
 * сборка [Aspose.Slides](../../../)
 

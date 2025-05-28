@@ -1,15 +1,14 @@
 ---
-title: Präsentation
-second_title: Aspose.Slides für .NET API Referenz
-description: Dieser Konstruktor erstellt eine neue Präsentation von Grund auf. Die erstellte Präsentation hat eine leere Folie.
+title: Presentation
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Dieser Konstruktor erstellt eine neue Präsentation von Grund auf neu. Die erstellte Präsentation hat eine leere Folie.
 type: docs
 weight: 10
 url: /de/aspose.slides/presentation/presentation/
 ---
-
 ## Presentation() {#constructor}
 
-Dieser Konstruktor erstellt eine neue Präsentation von Grund auf. Die erstellte Präsentation hat eine leere Folie.
+Dieser Konstruktor erstellt eine neue Präsentation von Grund auf neu. Die erstellte Präsentation hat eine leere Folie.
 
 ```csharp
 public Presentation()
@@ -17,15 +16,15 @@ public Presentation()
 
 ### Siehe auch
 
-* Klasse [Presentation](../../presentation)
-* Namespace [Aspose.Slides](../../presentation)
-* Assembly [Aspose.Slides](../../../)
+* class [Presentation](../../presentation)
+* namensraum [Aspose.Slides](../../presentation)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## Presentation(LoadOptions) {#constructor_1}
 
-Dieser Konstruktor erstellt eine neue Präsentation von Grund auf. Die erstellte Präsentation hat eine leere Folie.
+Dieser Konstruktor erstellt eine neue Präsentation von Grund auf neu. Die erstellte Präsentation hat eine leere Folie.
 
 ```csharp
 public Presentation(LoadOptions loadOptions)
@@ -33,20 +32,20 @@ public Presentation(LoadOptions loadOptions)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| loadOptions | LoadOptions | Zusätzliche Ladeoptionen. |
+| loadOptions | LoadOptions | Zusätzliche Lademöglichkeiten. |
 
 ### Siehe auch
 
-* Klasse [LoadOptions](../../loadoptions)
-* Klasse [Presentation](../../presentation)
-* Namespace [Aspose.Slides](../../presentation)
-* Assembly [Aspose.Slides](../../../)
+* class [LoadOptions](../../loadoptions)
+* class [Presentation](../../presentation)
+* namensraum [Aspose.Slides](../../presentation)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## Presentation(Stream) {#constructor_2}
 
-Dieser Konstruktor ist der Hauptmechanismus zum Lesen einer vorhandenen Präsentation.
+Dieser Konstruktor ist der primäre Mechanismus zum Lesen einer vorhandenen Präsentation.
 
 ```csharp
 public Presentation(Stream stream)
@@ -74,15 +73,15 @@ fis.Close()
 
 ### Siehe auch
 
-* Klasse [Presentation](../../presentation)
-* Namespace [Aspose.Slides](../../presentation)
-* Assembly [Aspose.Slides](../../../)
+* class [Presentation](../../presentation)
+* namensraum [Aspose.Slides](../../presentation)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## Presentation(Stream, LoadOptions) {#constructor_3}
 
-Dieser Konstruktor ist der Hauptmechanismus zum Lesen einer vorhandenen Präsentation.
+Dieser Konstruktor ist der primäre Mechanismus zum Lesen einer vorhandenen Präsentation.
 
 ```csharp
 public Presentation(Stream stream, LoadOptions loadOptions)
@@ -91,20 +90,20 @@ public Presentation(Stream stream, LoadOptions loadOptions)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | Stream | Eingabestrom. |
-| loadOptions | LoadOptions | Zusätzliche Ladeoptionen. |
+| loadOptions | LoadOptions | Zusätzliche Lademöglichkeiten. |
 
 ### Siehe auch
 
-* Klasse [LoadOptions](../../loadoptions)
-* Klasse [Presentation](../../presentation)
-* Namespace [Aspose.Slides](../../presentation)
-* Assembly [Aspose.Slides](../../../)
+* class [LoadOptions](../../loadoptions)
+* class [Presentation](../../presentation)
+* namensraum [Aspose.Slides](../../presentation)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## Presentation(string) {#constructor_4}
 
-Dieser Konstruktor erhält einen Quell-Dateipfad, aus dem der Inhalt der Präsentation gelesen wird.
+Dieser Konstruktor erhält einen Quelldateipfad, aus dem der Inhalt der Präsentation gelesen wird.
 
 ```csharp
 public Presentation(string file)
@@ -118,7 +117,7 @@ public Presentation(string file)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Wird ausgelöst, wenn die Eingabedatei eine Länge von null hat |
+| ArgumentException | Wird ausgelöst, wenn die Eingabedatei eine Länge von Null hat |
 
 ### Beispiele
 
@@ -134,15 +133,15 @@ Dim pres As Presentation = New Presentation("demo.pptx")
 
 ### Siehe auch
 
-* Klasse [Presentation](../../presentation)
-* Namespace [Aspose.Slides](../../presentation)
-* Assembly [Aspose.Slides](../../../)
+* class [Presentation](../../presentation)
+* namensraum [Aspose.Slides](../../presentation)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## Presentation(string, LoadOptions) {#constructor_5}
 
-Dieser Konstruktor erhält einen Quell-Dateipfad, aus dem der Inhalt der Präsentation gelesen wird.
+Dieser Konstruktor erhält einen Quelldateipfad, aus dem der Inhalt der Präsentation gelesen wird.
 
 ```csharp
 public Presentation(string file, LoadOptions loadOptions)
@@ -151,19 +150,19 @@ public Presentation(string file, LoadOptions loadOptions)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | file | String | Eingabedatei. |
-| loadOptions | LoadOptions | Zusätzliche Ladeoptionen. |
+| loadOptions | LoadOptions | Zusätzliche Lademöglichkeiten. |
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Wird ausgelöst, wenn die Eingabedatei eine Länge von null hat |
+| ArgumentException | Wird ausgelöst, wenn die Eingabedatei eine Länge von Null hat |
 
 ### Siehe auch
 
-* Klasse [LoadOptions](../../loadoptions)
-* Klasse [Presentation](../../presentation)
-* Namespace [Aspose.Slides](../../presentation)
-* Assembly [Aspose.Slides](../../../)
+* class [LoadOptions](../../loadoptions)
+* class [Presentation](../../presentation)
+* namensraum [Aspose.Slides](../../presentation)
+* Montage [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,31 +1,30 @@
 ---
 title: ISummaryZoomFrame
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет фрейм Summary Zoom на слайде.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет кадр сводного масштабирования на слайде.
 type: docs
-weight: 6930
+weight: 6570
 url: /ru/aspose.slides/isummaryzoomframe/
 ---
+## ISummaryZoomFrame interface
 
-## Интерфейс ISummaryZoomFrame
-
-Представляет фрейм Summary Zoom на слайде.
+Представляет кадр сводного масштабирования на слайде.
 
 ```csharp
 public interface ISummaryZoomFrame : IGraphicalObject
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Возвращает интерфейс IGraphicalObject. |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Получает макет секций Summary Zoom в фрейме. Значение по умолчанию - GridLayout. |
-| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Получает [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) для объекта фрейма Summary Zoom. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Получает расположение разделов сводного масштабирования в кадре. Значение по умолчанию — GridLayout. |
+| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Получает[`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection)для объекта Сводная рамка масштабирования. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGraphicalObject](../igraphicalobject)
+* interface [IGraphicalObject](../igraphicalobject)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

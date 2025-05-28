@@ -1,12 +1,11 @@
 ---
 title: InsertZoomFrame
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новый объект Zoom и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 360
 url: /ru/aspose.slides/ishapecollection/insertzoomframe/
 ---
-
 ## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
 
 Создает новый объект Zoom и вставляет его в коллекцию по указанному индексу.
@@ -18,26 +17,26 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, основанный на нуле, по которому должен быть вставлен Zoom фрейм. |
-| x | Single | X координата нового Zoom фрейма. |
-| y | Single | Y координата нового Zoom фрейма. |
-| width | Single | Ширина нового Zoom фрейма. |
-| height | Single | Высота нового Zoom фрейма. |
-| slide | ISlide | Объект слайда, на который ссылается Zoom фрейм [`ISlide`](../../islide). |
+| index | Int32 | Нуль- на основе индекса, в который следует вставить кадр масштабирования. |
+| x | Single | Координата X нового кадра ZoomSingle. |
+| y | Single | Координата Y нового кадра ZoomSingle. |
+| width | Single | Ширина нового кадра ZoomSingle. |
+| height | Single | Высота нового кадра ZoomSingle. |
+| slide | ISlide | Объект слайда, на который ссылается фрейм Zoom[`ISlide`](../../islide). |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
-Созданный объект Zoom [`IZoomFrame`](../../izoomframe).
+Создан объект Zoom[`IZoomFrame`](../../izoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Указанный слайд не принадлежит текущей презентации. |
+| ArgumentException | Слайд, на который делается ссылка, не принадлежит к текущей презентации. |
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу в коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два слайда):
+Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу коллекции (предположим, что в презентации "Presentation.pptx" не менее двух слайдов):
 
 ```csharp
 [C#]
@@ -47,11 +46,11 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ссылка на Дополнительные Ресурсы
+### Смотрите также
 
-* интерфейс [IZoomFrame](../../izoomframe)
-* интерфейс [ISlide](../../islide)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IZoomFrame](../../izoomframe)
+* interface [ISlide](../../islide)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -68,27 +67,27 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, основанный на нуле, по которому должен быть вставлен Zoom фрейм. |
-| x | Single | X координата нового Zoom фрейма. |
-| y | Single | Y координата нового Zoom фрейма. |
-| width | Single | Ширина нового Zoom фрейма. |
-| height | Single | Высота нового Zoom фрейма. |
-| slide | ISlide | Объект слайда, на который ссылается Zoom фрейм [`ISlide`](../../islide). |
-| image | IPPImage | Изображение для указанного слайда [`IPPImage`](../../ippimage). |
+| index | Int32 | Нуль- на основе индекса, в который следует вставить кадр масштабирования. |
+| x | Single | Координата X нового кадра ZoomSingle. |
+| y | Single | Координата Y нового кадра ZoomSingle. |
+| width | Single | Ширина нового кадра ZoomSingle. |
+| height | Single | Высота нового кадра ZoomSingle. |
+| slide | ISlide | Объект слайда, на который ссылается фрейм Zoom[`ISlide`](../../islide). |
+| image | IPPImage | Изображение для указанного слайда[`IPPImage`](../../ippimage) |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
-Созданный объект Zoom [`IZoomFrame`](../../izoomframe).
+Создан объект Zoom[`IZoomFrame`](../../izoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Указанный слайд не принадлежит текущей презентации. |
+| ArgumentException | Слайд, на который делается ссылка, не принадлежит к текущей презентации. |
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу в коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два слайда):
+Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу коллекции (предположим, что в презентации "Presentation.pptx" не менее двух слайдов):
 
 ```csharp
 [C#]
@@ -99,12 +98,12 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ссылка на Дополнительные Ресурсы
+### Смотрите также
 
-* интерфейс [IZoomFrame](../../izoomframe)
-* интерфейс [ISlide](../../islide)
-* интерфейс [IPPImage](../../ippimage)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IZoomFrame](../../izoomframe)
+* interface [ISlide](../../islide)
+* interface [IPPImage](../../ippimage)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

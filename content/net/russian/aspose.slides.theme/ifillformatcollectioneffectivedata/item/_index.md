@@ -1,24 +1,23 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтения IFillFormatEffectiveData aspose.slides/ifillformateffectivedata.
+description: Получает элемент по указанному индексу. Только для чтенияIFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/ifillformatcollectioneffectivedata/item/
 ---
+## IFillFormatCollectionEffectiveData indexer
 
-## Индексатор IFillFormatCollectionEffectiveData
-
-Получает элемент по указанному индексу. Только для чтения [`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata).
+Получает элемент по указанному индексу. Только для чтения[`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData this[int index] { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFillFormatEffectiveData](../../../aspose.slides/ifillformateffectivedata)
-* интерфейс [IFillFormatCollectionEffectiveData](../../ifillformatcollectioneffectivedata)
+* interface [IFillFormatEffectiveData](../../../aspose.slides/ifillformateffectivedata)
+* interface [IFillFormatCollectionEffectiveData](../../ifillformatcollectioneffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../ifillformatcollectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

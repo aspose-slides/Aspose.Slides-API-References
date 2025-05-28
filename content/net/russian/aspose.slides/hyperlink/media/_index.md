@@ -1,23 +1,22 @@
 ---
-title: Медиа
+title: Media
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает специальную гиперссылку "воспроизвести медиафайл". Используется в AudioFrame и VideoFrame. Только для чтения Hyperlinkaspose.slides/hyperlink.
+description: Возвращает специальную гиперссылку проигрывать медиафайл. Используется в AudioFrame и VideoFrame. Только чтениеHyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 60
 url: /ru/aspose.slides/hyperlink/media/
 ---
+## Hyperlink.Media property
 
-## Свойство Hyperlink.Media
-
-Возвращает специальную гиперссылку "воспроизвести медиафайл". Используется в AudioFrame и VideoFrame. Только для чтения [`Hyperlink`](../../hyperlink).
+Возвращает специальную гиперссылку "проигрывать медиафайл". Используется в AudioFrame и VideoFrame. Только чтение[`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink Media { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Hyperlink](../../hyperlink)
+* class [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 

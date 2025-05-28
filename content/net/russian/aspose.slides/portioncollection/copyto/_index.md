@@ -1,15 +1,14 @@
 ---
 title: CopyTo
 second_title: Справочник по API Aspose.Slides для .NET
-description: Копирует элементы ICollection в массив, начиная с определенного индекса массива.
+description: Копирует элементыICollectionвArray начиная с определенногоArrayindex.
 type: docs
 weight: 70
 url: /ru/aspose.slides/portioncollection/copyto/
 ---
+## PortionCollection.CopyTo method
 
-## Метод PortionCollection.CopyTo
-
-Копирует элементы ICollection в массив, начиная с определенного индекса массива.
+Копирует элементыICollectionвArray, начиная с определенногоArrayindex.
 
 ```csharp
 public void CopyTo(IPortion[] array, int arrayIndex)
@@ -17,21 +16,21 @@ public void CopyTo(IPortion[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IPortion[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь нулевую индексацию. |
-| arrayIndex | Int32 | Индекс в *array*, с которого начинается копирование. |
+| array | IPortion[] | ОдномерныйArrayкуда копируются элементы fromICollection.Arrayдолжен иметь индексацию с отсчетом от нуля. |
+| arrayIndex | Int32 | Отсчитываемый от нуля индекс в*array*с которого начинается копирование. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *array* равно null. |
-| ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
-| ArgumentException | Количество элементов в исходном ICollection больше доступного пространства от *arrayIndex* до конца целевого *array*. |
+| ArgumentNullException | *array*равно нулю. |
+| ArgumentOutOfRangeException | *arrayIndex*меньше 0. |
+| ArgumentException | Количество элементов в источникеICollectionбольше, чем доступное пространство из*arrayIndex*до конца адресата*array*. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPortion](../../iportion)
-* класс [PortionCollection](../../portioncollection)
+* interface [IPortion](../../iportion)
+* class [PortionCollection](../../portioncollection)
 * пространство имен [Aspose.Slides](../../portioncollection)
 * сборка [Aspose.Slides](../../../)
 

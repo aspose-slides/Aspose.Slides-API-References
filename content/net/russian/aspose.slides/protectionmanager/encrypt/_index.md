@@ -1,13 +1,12 @@
 ---
-title: Шифрование
-second_title: Справка по API Aspose.Sildes для .NET
+title: Encrypt
+second_title: Справочник по API Aspose.Slides для .NET
 description: Шифрует презентацию с указанным паролем.
 type: docs
 weight: 80
 url: /ru/aspose.slides/protectionmanager/encrypt/
 ---
-
-## ProtectionManager.Encrypt метод
+## ProtectionManager.Encrypt method
 
 Шифрует презентацию с указанным паролем.
 
@@ -19,22 +18,9 @@ public void Encrypt(string encryptionPassword)
 | --- | --- | --- |
 | encryptionPassword | String | Пароль. |
 
-### Примеры
+### Смотрите также
 
-Следующий образец кода показывает, как зашифровать презентацию PowerPoint.
-
-```csharp
-[C#]
-using (Presentation presentation = new Presentation("pres.pptx"))
-{
-    presentation.ProtectionManager.Encrypt("123123");
-    presentation.Save("encrypted-pres.pptx", SaveFormat.Pptx);
-}
-```
-
-### См. также
-
-* класс [ProtectionManager](../../protectionmanager)
+* class [ProtectionManager](../../protectionmanager)
 * пространство имен [Aspose.Slides](../../protectionmanager)
 * сборка [Aspose.Slides](../../../)
 

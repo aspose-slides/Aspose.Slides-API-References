@@ -1,41 +1,39 @@
 ---
 title: CreateImageWrapper
-second_title: Aspose.Slides для .NET API Reference
-description: Инициализирует новый экземпляр класса ImageWrapper из указанного существующего изображения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Инициализирует новый экземпляр класса BitmapWrapper из указанного существующего изображения.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iimagewrapperfactory/createimagewrapper/
 ---
+## CreateImageWrapper(Image) {#createimagewrapper}
 
-## CreateImageWrapper(IImage) {#createimagewrapper}
-
-Инициализирует новый экземпляр класса ImageWrapper из указанного существующего изображения.
+Инициализирует новый экземпляр класса BitmapWrapper из указанного существующего изображения.
 
 ```csharp
-public IImageWrapper CreateImageWrapper(IImage image)
+public IImageWrapper CreateImageWrapper(Image image)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | IImage | Существующее изображение |
+| image | Image | Существующее изображениеImage |
 
 ### Возвращаемое значение
 
-Новый экземпляр [`IImageWrapper`](../../iimagewrapper)
+Новый экземпляр[`IImageWrapper`](../../iimagewrapper)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IImageWrapper](../../iimagewrapper)
-* интерфейс [IImage](../../iimage)
-* интерфейс [IImageWrapperFactory](../../iimagewrapperfactory)
+* interface [IImageWrapper](../../iimagewrapper)
+* interface [IImageWrapperFactory](../../iimagewrapperfactory)
 * пространство имен [Aspose.Slides](../../iimagewrapperfactory)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## CreateImageWrapper(Stream) {#createimagewrapper_2}
+## CreateImageWrapper(Stream) {#createimagewrapper_1}
 
-Инициализирует новый экземпляр класса ImageWrapper из указанного потока данных.
+Инициализирует новый экземпляр класса BitmapWrapper из указанного потока данных.
 
 ```csharp
 public IImageWrapper CreateImageWrapper(Stream stream)
@@ -43,24 +41,24 @@ public IImageWrapper CreateImageWrapper(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток данных |
+| stream | Stream | Поток данныхStream |
 
 ### Возвращаемое значение
 
-Новый экземпляр [`IImageWrapper`](../../iimagewrapper)
+Новый экземпляр[`IImageWrapper`](../../iimagewrapper)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IImageWrapper](../../iimagewrapper)
-* интерфейс [IImageWrapperFactory](../../iimagewrapperfactory)
+* interface [IImageWrapper](../../iimagewrapper)
+* interface [IImageWrapperFactory](../../iimagewrapperfactory)
 * пространство имен [Aspose.Slides](../../iimagewrapperfactory)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## CreateImageWrapper(string) {#createimagewrapper_3}
+## CreateImageWrapper(string) {#createimagewrapper_2}
 
-Инициализирует новый экземпляр класса ImageWrapper из указанного файла.
+Инициализирует новый экземпляр класса BitmapWrapper из указанного файла.
 
 ```csharp
 public IImageWrapper CreateImageWrapper(string fileName)
@@ -68,16 +66,16 @@ public IImageWrapper CreateImageWrapper(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла |
+| fileName | String | Имя файлаString |
 
 ### Возвращаемое значение
 
-Новый экземпляр [`IImageWrapper`](../../iimagewrapper)
+Новый экземпляр[`IImageWrapper`](../../iimagewrapper)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IImageWrapper](../../iimagewrapper)
-* интерфейс [IImageWrapperFactory](../../iimagewrapperfactory)
+* interface [IImageWrapper](../../iimagewrapper)
+* interface [IImageWrapperFactory](../../iimagewrapperfactory)
 * пространство имен [Aspose.Slides](../../iimagewrapperfactory)
 * сборка [Aspose.Slides](../../../)
 

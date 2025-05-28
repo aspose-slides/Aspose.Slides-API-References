@@ -1,23 +1,22 @@
 ---
 title: SolidFillColor
-second_title: Справочная документация по Aspose.Sildes для .NET
-description: Возвращает цвет заливки. Только для чтения Color.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает цвет сплошной заливки. Только для чтенияColor.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ilinefillformateffectivedata/solidfillcolor/
 ---
+## ILineFillFormatEffectiveData.SolidFillColor property
 
-## ILineFillFormatEffectiveData.SolidFillColor свойство
-
-Возвращает цвет заливки. Только для чтения Color.
+Возвращает цвет сплошной заливки. Только для чтенияColor.
 
 ```csharp
 public Color SolidFillColor { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILineFillFormatEffectiveData](../../ilinefillformateffectivedata)
+* interface [ILineFillFormatEffectiveData](../../ilinefillformateffectivedata)
 * пространство имен [Aspose.Slides](../../ilinefillformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

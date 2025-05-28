@@ -1,23 +1,22 @@
 ---
 title: SlideNumber
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает номер слайда. Индекс слайда в коллекции Slidesaspose.slides/ipresentation/slides всегда равен SlideNumber - 1. Чтение/запись Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает номер слайда. Индекс слайда в коллекцииSlidesaspose.slides/ipresentation/slidesвсегда равен SlideNumber - 1. Чтение/записьInt32.
 type: docs
 weight: 70
 url: /ru/aspose.slides/islide/slidenumber/
 ---
+## ISlide.SlideNumber property
 
-## Свойство ISlide.SlideNumber
-
-Возвращает номер слайда. Индекс слайда в коллекции [`Slides`](../../ipresentation/slides) всегда равен SlideNumber - 1. Чтение/запись Int32.
+Возвращает номер слайда. Индекс слайда в коллекции[`Slides`](../../ipresentation/slides)всегда равен SlideNumber - 1. Чтение/записьInt32.
 
 ```csharp
 public int SlideNumber { get; set; }
 ```
 
-### Также см.
+### Смотрите также
 
-* интерфейс [ISlide](../../islide)
+* interface [ISlide](../../islide)
 * пространство имен [Aspose.Slides](../../islide)
 * сборка [Aspose.Slides](../../../)
 

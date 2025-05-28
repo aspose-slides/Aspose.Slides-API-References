@@ -1,13 +1,12 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/imagetransformocollectioneffectivedata/
 ---
-
-## Конструктор ImageTransformOCollectionEffectiveData
+## ImageTransformOCollectionEffectiveData constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/imagetrans
 public ImageTransformOCollectionEffectiveData()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
+* class [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

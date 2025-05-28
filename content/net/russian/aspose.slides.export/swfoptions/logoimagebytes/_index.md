@@ -1,15 +1,14 @@
 ---
 title: LogoImageBytes
-second_title: Aspose.Slides для .NET API Reference
-description: Изображение, которое будет отображаться в виде логотипа в правом верхнем углу просмотрщика. Изображение должно быть PNG размером 32x64 пикселя, в противном случае логотип может отображаться неправильно.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Изображение которое будет отображаться как логотип в правом верхнем углу окна просмотра. Изображение должно быть PNG-изображением размером 32x64 пикселя иначе логотип может отображаться некорректно.
 type: docs
 weight: 50
 url: /ru/aspose.slides.export/swfoptions/logoimagebytes/
 ---
+## SwfOptions.LogoImageBytes property
 
-## SwfOptions.LogoImageBytes свойство
-
-Изображение, которое будет отображаться в виде логотипа в правом верхнем углу просмотрщика. Изображение должно быть PNG размером 32x64 пикселя, в противном случае логотип может отображаться неправильно.
+Изображение, которое будет отображаться как логотип в правом верхнем углу окна просмотра. Изображение должно быть PNG-изображением размером 32x64 пикселя, иначе логотип может отображаться некорректно.
 
 ```csharp
 public byte[] LogoImageBytes { get; set; }
@@ -17,7 +16,7 @@ public byte[] LogoImageBytes { get; set; }
 
 ### Смотрите также
 
-* класс [SwfOptions](../../swfoptions)
+* class [SwfOptions](../../swfoptions)
 * пространство имен [Aspose.Slides.Export](../../swfoptions)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: TransitionValueBase
-second_title: Aspose.Slides для .NET API Справочник
-description: Базовый класс для эффектов перехода слайдов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Базовый класс для эффектов смены слайдов.
 type: docs
-weight: 10150
+weight: 9680
 url: /ru/aspose.slides.slideshow/transitionvaluebase/
 ---
+## TransitionValueBase class
 
-## Класс TransitionValueBase
-
-Базовый класс для эффектов перехода слайдов.
+Базовый класс для эффектов смены слайдов.
 
 ```csharp
 public class TransitionValueBase : ITransitionValueBase
@@ -17,14 +16,14 @@ public class TransitionValueBase : ITransitionValueBase
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Используется в качестве хэш-функции для определенного типа, подходящей для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблицы. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
 ### Смотрите также
 
-* интерфейс [ITransitionValueBase](../itransitionvaluebase)
+* interface [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

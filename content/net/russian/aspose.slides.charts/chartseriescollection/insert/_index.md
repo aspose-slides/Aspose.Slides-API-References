@@ -1,15 +1,14 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новые серии диаграмм и вставляет их в коллекцию.
+description: Создает новую серию диаграмм и вставляет ее в коллекцию.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/chartseriescollection/insert/
 ---
+## ChartSeriesCollection.Insert method
 
-## Метод ChartSeriesCollection.Insert
-
-Создает новые серии диаграмм и вставляет их в коллекцию.
+Создает новую серию диаграмм и вставляет ее в коллекцию.
 
 ```csharp
 public IChartSeries Insert(int index, ChartType type)
@@ -17,9 +16,9 @@ public IChartSeries Insert(int index, ChartType type)
 
 ### Смотрите также
 
-* интерфейс [IChartSeries](../../ichartseries)
-* перечисление [ChartType](../../charttype)
-* класс [ChartSeriesCollection](../../chartseriescollection)
+* interface [IChartSeries](../../ichartseries)
+* enum [ChartType](../../charttype)
+* class [ChartSeriesCollection](../../chartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../chartseriescollection)
 * сборка [Aspose.Slides](../../../)
 

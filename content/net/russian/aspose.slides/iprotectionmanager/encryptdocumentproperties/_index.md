@@ -1,23 +1,22 @@
 ---
 title: EncryptDocumentProperties
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Это свойство имеет смысл, если презентация защищена паролем. Если true, то свойства документа шифруются в файле презентации. Если false, то свойства документа являются открытыми, в то время как презентация зашифрована. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Это свойство имеет смысл если презентация защищена паролем. Если true то свойства документа шифруются в файле презентации. Если false то свойства документа являются общедоступными а представление зашифровано. Чтение/записьBoolean.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iprotectionmanager/encryptdocumentproperties/
 ---
+## IProtectionManager.EncryptDocumentProperties property
 
-## Свойство IProtectionManager.EncryptDocumentProperties
-
-Это свойство имеет смысл, если презентация защищена паролем. Если true, то свойства документа шифруются в файле презентации. Если false, то свойства документа являются открытыми, в то время как презентация зашифрована. Читаемое/записываемое логическое значение.
+Это свойство имеет смысл, если презентация защищена паролем. Если true, то свойства документа шифруются в файле презентации. Если false, то свойства документа являются общедоступными, а представление зашифровано. Чтение/записьBoolean.
 
 ```csharp
 public bool EncryptDocumentProperties { get; set; }
 ```
 
-### Также см. 
+### Смотрите также
 
-* интерфейс [IProtectionManager](../../iprotectionmanager)
+* interface [IProtectionManager](../../iprotectionmanager)
 * пространство имен [Aspose.Slides](../../iprotectionmanager)
 * сборка [Aspose.Slides](../../../)
 

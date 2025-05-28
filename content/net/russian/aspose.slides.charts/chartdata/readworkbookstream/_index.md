@@ -1,15 +1,14 @@
 ---
 title: ReadWorkbookStream
-second_title: Aspose.Slides для .NET API Справочник
-description: Записывает внутренне содержащуюся книгу Excel в поток в памяти.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Записывает внутреннюю книгу Excel в поток в памяти.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/chartdata/readworkbookstream/
 ---
+## ChartData.ReadWorkbookStream method
 
-## Метод ChartData.ReadWorkbookStream
-
-Записывает внутренне содержащуюся книгу Excel в поток в памяти.
+Записывает внутреннюю книгу Excel в поток в памяти.
 
 ```csharp
 public MemoryStream ReadWorkbookStream()
@@ -17,11 +16,11 @@ public MemoryStream ReadWorkbookStream()
 
 ### Возвращаемое значение
 
-Возвращает экземпляр `MemoryStream`, содержащий копию внутренне содержащейся книги Excel.
+Возвращает экземпляр` MemoryStream` , содержащий копию внутренней рабочей книги Excel.
 
-### См. также
+### Смотрите также
 
-* класс [ChartData](../../chartdata)
+* class [ChartData](../../chartdata)
 * пространство имен [Aspose.Slides.Charts](../../chartdata)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: InsertPictureFrame
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новый PictureFrame и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 360
 url: /ru/aspose.slides/shapecollection/insertpictureframe/
 ---
-
-## Метод ShapeCollection.InsertPictureFrame
+## ShapeCollection.InsertPictureFrame method
 
 Создает новый PictureFrame и вставляет его в коллекцию по указанному индексу.
 
@@ -18,24 +17,24 @@ public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, начиная с нуля, по которому должно быть вставлено значение. |
-| shapeType | ShapeType | Форма, содержащаяся в наборе [`ShapeType`](../../shapetype) форм, за исключением всех видов линий: |
-| x | Single | Координата X для левой стороны рамки фигуры. |
-| y | Single | Координата Y для верхней стороны рамки фигуры. |
+| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
+| shapeType | ShapeType | Форма, содержащаяся в наборе[`ShapeType`](../../shapetype) фигур, кроме всяких линий: |
+| x | Single | Координата X для левой стороны рамки формы. |
+| y | Single | Y-координата верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
-| image | IPPImage | Изображение рамки картины. |
+| image | IPPImage | Изображение рамки изображения. |
 
 ### Возвращаемое значение
 
-Созданный объект PictureFrame.
+Создан объект PictureFrame.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPictureFrame](../../ipictureframe)
-* перечисление [ShapeType](../../shapetype)
-* интерфейс [IPPImage](../../ippimage)
-* класс [ShapeCollection](../../shapecollection)
+* interface [IPictureFrame](../../ipictureframe)
+* enum [ShapeType](../../shapetype)
+* interface [IPPImage](../../ippimage)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

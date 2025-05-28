@@ -1,28 +1,27 @@
 ---
 title: EffectChartMajorGroupingType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет тип анимационного эффекта для элемента графика.
+description: Представляет тип эффекта анимации для элемента диаграммы.
 type: docs
-weight: 210
+weight: 190
 url: /ru/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
+## EffectChartMajorGroupingType enumeration
 
-## Перечисление EffectChartMajorGroupingType
-
-Представляет тип анимационного эффекта для элемента графика.
+Представляет тип эффекта анимации для элемента диаграммы.
 
 ```csharp
 public enum EffectChartMajorGroupingType
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | BySeries | `0` | Анимировать график по сериям |
-| ByCategory | `1` | Анимировать график по категориям |
+| ByCategory | `1` | Анимация диаграммы по категориям |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

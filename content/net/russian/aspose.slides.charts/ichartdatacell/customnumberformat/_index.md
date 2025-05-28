@@ -1,15 +1,14 @@
 ---
 title: CustomNumberFormat
-second_title: Aspose.Slides для .NET API Ссылка
-description: Получает или устанавливает пользовательский формат отображения чисел и дат. Если значение пустое, будет использовано значение PresetNumberFormat. Чтение/запись String.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает или задает настраиваемый формат отображения чисел и дат. Если значение пустое будет использоваться значение PresetNumberFormat. Чтение/записьString.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/ichartdatacell/customnumberformat/
 ---
+## IChartDataCell.CustomNumberFormat property
 
-## IChartDataCell.CustomNumberFormat свойство
-
-Получает или устанавливает пользовательский формат отображения чисел и дат. Если значение пустое, будет использовано значение PresetNumberFormat. Чтение/запись String.
+Получает или задает настраиваемый формат отображения чисел и дат. Если значение пустое, будет использоваться значение PresetNumberFormat. Чтение/записьString.
 
 ```csharp
 public string CustomNumberFormat { get; set; }
@@ -19,11 +18,11 @@ public string CustomNumberFormat { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Вызывается, если значение равно `null`. |
+| ArgumentNullException | Выбрасывается, если значение равно` null` . |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataCell](../../ichartdatacell)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatacell)
 * сборка [Aspose.Slides](../../../)
 

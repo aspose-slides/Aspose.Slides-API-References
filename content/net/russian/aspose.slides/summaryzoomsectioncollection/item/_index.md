@@ -1,15 +1,14 @@
 ---
-title: Элемент
-second_title: Справочник API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтения ISummaryZoomSectionaspose.slides/isummaryzoomsection.
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает элемент по указанному индексу. Только для чтенияISummaryZoomSectionaspose.slides/isummaryzoomsection.
 type: docs
 weight: 30
 url: /ru/aspose.slides/summaryzoomsectioncollection/item/
 ---
+## SummaryZoomSectionCollection indexer
 
-## Индексатор SummaryZoomSectionCollection
-
-Получает элемент по указанному индексу. Только для чтения [`ISummaryZoomSection`](../../isummaryzoomsection).
+Получает элемент по указанному индексу. Только для чтения[`ISummaryZoomSection`](../../isummaryzoomsection).
 
 ```csharp
 public ISummaryZoomSection this[int index] { get; }
@@ -17,7 +16,7 @@ public ISummaryZoomSection this[int index] { get; }
 
 ### Примеры
 
-В примере демонстрируется получение элемента Summary Zoom Section по индексу:
+Пример демонстрирует получение элемента Summary Zoom Section по индексу:
 
 ```csharp
 [C#]
@@ -29,10 +28,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISummaryZoomSection](../../isummaryzoomsection)
-* класс [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
+* interface [ISummaryZoomSection](../../isummaryzoomsection)
+* class [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * пространство имен [Aspose.Slides](../../summaryzoomsectioncollection)
 * сборка [Aspose.Slides](../../../)
 

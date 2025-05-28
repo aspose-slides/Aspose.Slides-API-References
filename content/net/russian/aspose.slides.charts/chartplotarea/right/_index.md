@@ -1,23 +1,22 @@
 ---
-title: Право
-second_title: Справочная информация по API Aspose.Slides для .NET
-description: Право. Только для чтения Single.
+title: Right
+second_title: Справочник по API Aspose.Slides для .NET
+description: Верно. Только для чтенияSingle.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/chartplotarea/right/
 ---
+## ChartPlotArea.Right property
 
-## Свойство ChartPlotArea.Right
-
-Право. Только для чтения Single.
+Верно. Только для чтенияSingle.
 
 ```csharp
 public float Right { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* класс [ChartPlotArea](../../chartplotarea)
+* class [ChartPlotArea](../../chartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../chartplotarea)
 * сборка [Aspose.Slides](../../../)
 

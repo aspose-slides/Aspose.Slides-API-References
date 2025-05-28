@@ -1,13 +1,12 @@
 ---
-title: Делить
-second_title: Справочник API Aspose.Slides для .NET
+title: Divide
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает дробь с этим числителем и указанным знаменателем
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathelementbase/divide/
 ---
-
-## Делить(IMathElement) {#divide}
+## Divide(IMathElement) {#divide}
 
 Создает дробь с этим числителем и указанным знаменателем
 
@@ -17,7 +16,7 @@ public IMathFraction Divide(IMathElement denominator)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| denominator | IMathElement | Знаменатель |
+| знаменатель | IMathElement | Знаменатель |
 
 ### Возвращаемое значение
 
@@ -34,17 +33,17 @@ IMathElement denumerator = new MathematicalText("y");
 IMathFraction fraction = numerator.Divide(denumerator);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathFraction](../../imathfraction)
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathElementBase](../../mathelementbase)
+* interface [IMathFraction](../../imathfraction)
+* interface [IMathElement](../../imathelement)
+* class [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Делить(string) {#divide_2}
+## Divide(string) {#divide_2}
 
 Создает дробь с этим числителем и указанным знаменателем
 
@@ -54,7 +53,7 @@ public IMathFraction Divide(string denominator)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| denominator | String | Знаменатель |
+| знаменатель | String | Знаменатель |
 
 ### Возвращаемое значение
 
@@ -70,16 +69,16 @@ IMathElement numerator = new MathematicalText("x");
 IMathFraction fraction = numerator.Divide("y");
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathFraction](../../imathfraction)
-* класс [MathElementBase](../../mathelementbase)
+* interface [IMathFraction](../../imathfraction)
+* class [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Делить(IMathElement, MathFractionTypes) {#divide_1}
+## Divide(IMathElement, MathFractionTypes) {#divide_1}
 
 Создает дробь указанного типа с этим числителем и указанным знаменателем
 
@@ -89,12 +88,12 @@ public IMathFraction Divide(IMathElement denominator, MathFractionTypes fraction
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| denominator | IMathElement | Знаменатель |
-| fractionType | MathFractionTypes | Тип дроби: Bar, NoBar, Skewed, Linear |
+| знаменатель | IMathElement | Знаменатель |
+| fractionType | MathFractionTypes | Тип дроби:Столбчатая, Безбарьерная, Скошенная, Линейная |
 
 ### Возвращаемое значение
 
-новая дробь
+новая фракция
 
 ### Примеры
 
@@ -107,18 +106,18 @@ IMathElement denumerator = new MathematicalText("y");
 IMathFraction fraction = numerator.Divide(denumerator, MathFractionTypes.Linear);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathFraction](../../imathfraction)
-* интерфейс [IMathElement](../../imathelement)
-* перечисление [MathFractionTypes](../../mathfractiontypes)
-* класс [MathElementBase](../../mathelementbase)
+* interface [IMathFraction](../../imathfraction)
+* interface [IMathElement](../../imathelement)
+* enum [MathFractionTypes](../../mathfractiontypes)
+* class [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Делить(string, MathFractionTypes) {#divide_3}
+## Divide(string, MathFractionTypes) {#divide_3}
 
 Создает дробь указанного типа с этим числителем и указанным знаменателем
 
@@ -128,12 +127,12 @@ public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| denominator | String | Знаменатель |
-| fractionType | MathFractionTypes | Тип дроби: Bar, NoBar, Skewed, Linear |
+| знаменатель | String | Знаменатель |
+| фракцияТип | MathFractionTypes | Тип дроби:Столбчатая, Безбарьерная, Скошенная, Линейная |
 
 ### Возвращаемое значение
 
-новая дробь
+новая фракция
 
 ### Примеры
 
@@ -145,11 +144,11 @@ IMathElement numerator = new MathematicalText("x");
 IMathFraction fraction = numerator.Divide("y", MathFractionTypes.Linear);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathFraction](../../imathfraction)
-* перечисление [MathFractionTypes](../../mathfractiontypes)
-* класс [MathElementBase](../../mathelementbase)
+* interface [IMathFraction](../../imathfraction)
+* enum [MathFractionTypes](../../mathfractiontypes)
+* class [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: TotalEditingTime
-second_title: Aspose.Slides для .NET API Справка
-description: Общее время редактирования презентации. Чтение/запись TimeSpan.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Общее время редактирования презентации. Чтение/записьTimeSpan.
 type: docs
-weight: 350
+weight: 250
 url: /ru/aspose.slides/documentproperties/totaleditingtime/
 ---
+## DocumentProperties.TotalEditingTime property
 
-## DocumentProperties.TotalEditingTime свойство
-
-Общее время редактирования презентации. Чтение/запись TimeSpan.
+Общее время редактирования презентации. Чтение/записьTimeSpan.
 
 ```csharp
 public TimeSpan TotalEditingTime { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [DocumentProperties](../../documentproperties)
+* class [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

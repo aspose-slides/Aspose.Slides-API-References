@@ -1,23 +1,22 @@
 ---
-title: Справка
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает круговую ссылку на ячейку.
+title: Reference
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает циклическую ссылку на ячейку.
 type: docs
 weight: 20
 url: /ru/aspose.slides.spreadsheet/cellcircularreferenceexception/reference/
 ---
+## CellCircularReferenceException.Reference property
 
-## Свойство CellCircularReferenceException.Reference
-
-Получает круговую ссылку на ячейку.
+Получает циклическую ссылку на ячейку.
 
 ```csharp
 public string Reference { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [CellCircularReferenceException](../../cellcircularreferenceexception)
+* class [CellCircularReferenceException](../../cellcircularreferenceexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
 * сборка [Aspose.Slides](../../../)
 

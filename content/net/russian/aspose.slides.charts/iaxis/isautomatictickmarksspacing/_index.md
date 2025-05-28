@@ -1,23 +1,22 @@
 ---
 title: IsAutomaticTickMarksSpacing
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает значение автоматического интервала меток делений. Если ложь, используйте свойство TickMarksSpacing. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает значение интервала автоматических делений. Если falseиспользуйте свойство TickMarksSpacing. Чтение/записьBoolean.
 type: docs
 weight: 240
 url: /ru/aspose.slides.charts/iaxis/isautomatictickmarksspacing/
 ---
+## IAxis.IsAutomaticTickMarksSpacing property
 
-## IAxis.IsAutomaticTickMarksSpacing свойство
-
-Указывает значение автоматического интервала меток делений. Если ложь: используйте свойство TickMarksSpacing. Читаемое/записываемое логическое значение.
+Задает значение интервала автоматических делений. Если false:используйте свойство TickMarksSpacing. Чтение/записьBoolean.
 
 ```csharp
 public bool IsAutomaticTickMarksSpacing { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
+* interface [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

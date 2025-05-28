@@ -1,13 +1,12 @@
 ---
 title: AddModernComment
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавить новый современный комментарий в конец коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/icommentcollection/addmoderncomment/
 ---
-
-## Метод ICommentCollection.AddModernComment
+## ICommentCollection.AddModernComment method
 
 Добавить новый современный комментарий в конец коллекции.
 
@@ -18,15 +17,15 @@ public IModernComment AddModernComment(string text, ISlide slide, IShape shape, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Обычный текст нового современного комментария. |
-| slide | ISlide | Слайд в презентации, на который нужно добавить новый современный комментарий. |
-| shape | IShape | Форма на слайде, к которой будет ассоциирован новый современный комментарий. |
-| position | PointF | Позиция на слайде, где нужно добавить новый современный комментарий. |
+| text | String | Простой текст нового современного комментария. |
+| слайд | ISlide | Слайд в презентации, куда добавить новый современный комментарий. |
+| shape | IShape | Фигура на слайде, с которой связан новый современный комментарий. |
+| position | PointF | Позиция на слайде, куда добавить новый современный комментарий. |
 | creationTime | DateTime | Время создания современного комментария. |
 
 ### Возвращаемое значение
 
-Добавленный современный комментарий.
+Добавлен современный комментарий.
 
 ### Примеры
 
@@ -34,19 +33,19 @@ public IModernComment AddModernComment(string text, ISlide slide, IShape shape, 
 [C#]
 using (Presentation pres = new Presentation())
 {
-    ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Некоторый Автор", "SA");
-    newAuthor.Comments.AddModernComment("Это современный комментарий", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
+    ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Some Author", "SA");
+    newAuthor.Comments.AddModernComment("This is modern comment", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
 
     pres.Save(outPptxFileName, SaveFormat.Pptx);
 }
 ```
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IModernComment](../../imoderncomment)
-* интерфейс [ISlide](../../islide)
-* интерфейс [IShape](../../ishape)
-* интерфейс [ICommentCollection](../../icommentcollection)
+* interface [IModernComment](../../imoderncomment)
+* interface [ISlide](../../islide)
+* interface [IShape](../../ishape)
+* interface [ICommentCollection](../../icommentcollection)
 * пространство имен [Aspose.Slides](../../icommentcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: UpDownBars
-second_title: Aspose.Slides для .NET API Справочник
-description: Предоставляет доступ к верхним/нижним баром графиков линии или акций. Только для чтения IUpDownBarsManageraspose.slides.charts/iupdownbarsmanager.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Предоставляет доступ к барам вверх/вниз линейного или биржевого графика. Только для чтенияIUpDownBarsManageraspose.slides.charts/iupdownbarsmanager.
 type: docs
 weight: 200
 url: /ru/aspose.slides.charts/chartseriesgroup/updownbars/
 ---
+## ChartSeriesGroup.UpDownBars property
 
-## Свойство ChartSeriesGroup.UpDownBars
-
-Предоставляет доступ к верхним/нижним баром графиков линии или акций. Только для чтения [`IUpDownBarsManager`](../../iupdownbarsmanager).
+Предоставляет доступ к барам вверх/вниз линейного или биржевого графика. Только для чтения[`IUpDownBarsManager`](../../iupdownbarsmanager).
 
 ```csharp
 public IUpDownBarsManager UpDownBars { get; }
@@ -17,8 +16,8 @@ public IUpDownBarsManager UpDownBars { get; }
 
 ### Смотрите также
 
-* интерфейс [IUpDownBarsManager](../../iupdownbarsmanager)
-* класс [ChartSeriesGroup](../../chartseriesgroup)
+* interface [IUpDownBarsManager](../../iupdownbarsmanager)
+* class [ChartSeriesGroup](../../chartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../chartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

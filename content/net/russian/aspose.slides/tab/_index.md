@@ -1,15 +1,14 @@
 ---
-title: Вкладка
+title: Tab
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет табуляцию для текста.
+description: Представляет собой таблицу для текста.
 type: docs
-weight: 10510
+weight: 10010
 url: /ru/aspose.slides/tab/
 ---
+## Tab class
 
-## Класс Tab
-
-Представляет табуляцию для текста.
+Представляет собой таблицу для текста.
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
@@ -21,13 +20,13 @@ public sealed class Tab : PVIObject, ITab
 | --- | --- |
 | [Tab](tab)(double, TabAlignment) | Создает новую вкладку |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Возвращает или задает стиль выравнивания вкладки. Чтение/Запись [`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Возвращает или задает позицию вкладки. Присвоение этого свойства может изменить индекс вкладки в коллекции и сделать недействительным Enumerator. Чтение/Запись Double. |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Возвращает или задает стиль выравнивания вкладки. Чтение/запись[`TabAlignment`](../tabalignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Возвращает или устанавливает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недействительным. Чтение/записьDouble. |
 
 ## Методы
 
@@ -37,10 +36,10 @@ public sealed class Tab : PVIObject, ITab
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### См. также
+### Смотрите также
 
-* класс [PVIObject](../pviobject)
-* интерфейс [ITab](../itab)
+* class [PVIObject](../pviobject)
+* interface [ITab](../itab)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

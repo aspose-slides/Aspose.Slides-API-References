@@ -1,13 +1,12 @@
 ---
 title: TrendlineCollection
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет коллекцию Trendline
 type: docs
-weight: 2400
+weight: 2340
 url: /ru/aspose.slides.charts/trendlinecollection/
 ---
-
-## Класс TrendlineCollection
+## TrendlineCollection class
 
 Представляет коллекцию Trendline
 
@@ -15,26 +14,26 @@ url: /ru/aspose.slides.charts/trendlinecollection/
 public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`Trendline`](../trendline). |
+| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
+| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`Trendline`](../trendline). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Добавляет новый Trendline в конец коллекции и возвращает его. |
+| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Добавляет новую линию тренда в конец коллекции и возвращает ее. |
 | [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | Удаляет указанное значение. |
 
-### См. также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* класс [ChartSeries](../chartseries)
-* интерфейс [ITrendlineCollection](../itrendlinecollection)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartSeries](../chartseries)
+* interface [ITrendlineCollection](../itrendlinecollection)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

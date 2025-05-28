@@ -1,13 +1,12 @@
 ---
 title: GetCellCollection
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получает набор ячеек.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/chartdataworkbook/getcellcollection/
 ---
-
-## Метод ChartDataWorkbook.GetCellCollection
+## ChartDataWorkbook.GetCellCollection method
 
 Получает набор ячеек.
 
@@ -17,13 +16,13 @@ public IChartCellCollection GetCellCollection(string formula, bool skipHiddenCel
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| formula | String | Excel формула, например, "Sheet1!$A$2:$A$5". |
-| skipHiddenCells | Boolean | Если true, метод возвращает коллекцию без скрытых ячеек. |
+| formula | String | Формула Excel типа "Лист1!$A$2:$A$5". |
+| skipHiddenCells | Boolean | Если true, то метод возвращает коллекцию без скрытых ячеек. |
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IChartCellCollection](../../ichartcellcollection)
-* класс [ChartDataWorkbook](../../chartdataworkbook)
+* interface [IChartCellCollection](../../ichartcellcollection)
+* class [ChartDataWorkbook](../../chartdataworkbook)
 * пространство имен [Aspose.Slides.Charts](../../chartdataworkbook)
 * сборка [Aspose.Slides](../../../)
 

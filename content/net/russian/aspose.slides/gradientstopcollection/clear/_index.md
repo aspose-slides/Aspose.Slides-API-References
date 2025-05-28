@@ -1,23 +1,22 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет все градиентные точки из коллекции.
+description: Удаляет все остановки градиента из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/gradientstopcollection/clear/
 ---
+## GradientStopCollection.Clear method
 
-## Метод GradientStopCollection.Clear
-
-Удаляет все градиентные точки из коллекции.
+Удаляет все остановки градиента из коллекции.
 
 ```csharp
 public void Clear()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [GradientStopCollection](../../gradientstopcollection)
+* class [GradientStopCollection](../../gradientstopcollection)
 * пространство имен [Aspose.Slides](../../gradientstopcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: IsSynchronized
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение, указывающее, является ли доступ к коллекции потокобезопасным. Только для чтения Boolean.
+description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides.smartart/smartartnodecollection/issynchronized/
 ---
+## SmartArtNodeCollection.IsSynchronized property
 
-## Свойство SmartArtNodeCollection.IsSynchronized
-
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтения Boolean.
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Также см. 
+### Смотрите также
 
-* класс [SmartArtNodeCollection](../../smartartnodecollection)
+* class [SmartArtNodeCollection](../../smartartnodecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartnodecollection)
 * сборка [Aspose.Slides](../../../)
 

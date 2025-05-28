@@ -1,13 +1,12 @@
 ---
-title: Очистить
-second_title: Справка по API Aspose.Sildes для .NET
+title: Clear
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все подписи из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/digitalsignaturecollection/clear/
 ---
-
-## Метод DigitalSignatureCollection.Clear
+## DigitalSignatureCollection.Clear method
 
 Удаляет все подписи из коллекции.
 
@@ -17,7 +16,7 @@ public void Clear()
 
 ### Смотрите также
 
-* класс [DigitalSignatureCollection](../../digitalsignaturecollection)
+* class [DigitalSignatureCollection](../../digitalsignaturecollection)
 * пространство имен [Aspose.Slides](../../digitalsignaturecollection)
 * сборка [Aspose.Slides](../../../)
 

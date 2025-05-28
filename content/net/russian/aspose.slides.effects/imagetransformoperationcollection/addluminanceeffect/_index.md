@@ -1,15 +1,14 @@
 ---
 title: AddLuminanceEffect
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет новый эффект яркости в конец коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет новый эффект Luminance в конец коллекции.
 type: docs
 weight: 200
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect/
 ---
+## ImageTransformOperationCollection.AddLuminanceEffect method
 
-## ImageTransformOperationCollection.AddLuminanceEffect метод
-
-Добавляет новый эффект яркости в конец коллекции.
+Добавляет новый эффект Luminance в конец коллекции.
 
 ```csharp
 public ILuminance AddLuminanceEffect(float brightness, float contrast)
@@ -18,16 +17,16 @@ public ILuminance AddLuminanceEffect(float brightness, float contrast)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | brightness | Single | Процент изменения яркости. |
-| contrast | Single | Процент изменения контраста. |
+| contrast | Single | Процент изменения контрастности. |
 
 ### Возвращаемое значение
 
 Индекс нового эффекта изображения в коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILuminance](../../iluminance)
-* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* interface [ILuminance](../../iluminance)
+* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

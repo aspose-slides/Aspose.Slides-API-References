@@ -1,13 +1,12 @@
 ---
 title: StrokeEndArrowWidth
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство stroke.endArrowWidth
 type: docs
 weight: 930
 url: /ru/aspose.slides.animation/behaviorproperty/strokeendarrowwidth/
 ---
-
-## Свойство BehaviorProperty.StrokeEndArrowWidth
+## BehaviorProperty.StrokeEndArrowWidth property
 
 Представляет свойство 'stroke.endArrowWidth'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokeendarrowwidth/
 public static BehaviorProperty StrokeEndArrowWidth { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,40 +1,39 @@
 ---
 title: ControlPropertiesCollection
-second_title: Aspose.Slides для .NET API Справочник
-description: Коллекция свойств ActiveX.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Коллекция свойств AcitveX.
 type: docs
-weight: 2620
+weight: 2560
 url: /ru/aspose.slides/controlpropertiescollection/
 ---
+## ControlPropertiesCollection class
 
-## Класс ControlPropertiesCollection
-
-Коллекция свойств ActiveX.
+Коллекция свойств AcitveX.
 
 ```csharp
 public class ControlPropertiesCollection : IControlPropertiesCollection
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Возвращает количество свойств в коллекции. Только для чтения Int32. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Возвращает ряд свойств в коллекции. Только для чтенияInt32. |
 | [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Возвращает или устанавливает свойство. |
-| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Возвращает коллекцию имен свойств. Только для чтения ICollection. |
+| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Возвращает коллекцию имен свойств. Только для чтенияICollection. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Добавляет свойство в коллекцию. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Удаляет все свойства. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Возвращает перечислитель, который проходит через коллекцию. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Удаляет свойство с указанным именем. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IControlPropertiesCollection](../icontrolpropertiescollection)
+* interface [IControlPropertiesCollection](../icontrolpropertiescollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

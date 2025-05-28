@@ -1,15 +1,14 @@
 ---
 title: SetVisibilityOnAllTitleSlides
-second_title: Справка по API Aspose.Slides для .NET
-description: Изменяет видимость заполнителей даты времени и номера страницы в нижнем колонтитуле для всех слайдов заголовков и для первого слайда макета. Слайды заголовков – это слайды на основе первого слайда макета независимо от типа этого первого макета.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Изменяет видимость заполнителей нижнего колонтитула даты-времени и номера страницы для всех титульных слайдов и для первого слайда макета. Титульные слайды  слайды на основе первого слайда макета независимо от типа этого первого макета.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides/
 ---
+## IPresentationHeaderFooterManager.SetVisibilityOnAllTitleSlides method
 
-## IPresentationHeaderFooterManager.SetVisibilityOnAllTitleSlides метод
-
-Изменяет видимость заполнителей нижнего колонтитула, даты времени и номера страницы для всех слайдов заголовков и для первого слайда макета. Слайды заголовков – это слайды на основе первого слайда макета (независимо от типа этого первого макета).
+Изменяет видимость заполнителей нижнего колонтитула, даты-времени и номера страницы для всех титульных слайдов и для первого слайда макета. Титульные слайды – слайды на основе первого слайда макета (независимо от типа этого первого макета).
 
 ```csharp
 public void SetVisibilityOnAllTitleSlides(bool isVisible)
@@ -17,11 +16,11 @@ public void SetVisibilityOnAllTitleSlides(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнители видимыми, в противном случае - скрывает их. |
+| isVisible | Boolean | true - делает заполнители видимыми, иначе - скрывает их. |
 
 ### Смотрите также
 
-* интерфейс [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
+* interface [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ipresentationheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

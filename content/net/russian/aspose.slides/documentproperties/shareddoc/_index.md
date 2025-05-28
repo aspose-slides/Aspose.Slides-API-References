@@ -1,15 +1,14 @@
 ---
 title: SharedDoc
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, совместно ли используется презентация несколькими людьми. Свойство типа Boolean для чтения/записи.
+description: Определяет будет ли презентация совместно использоваться несколькими людьми. Чтение/записьBoolean.
 type: docs
-weight: 300
+weight: 220
 url: /ru/aspose.slides/documentproperties/shareddoc/
 ---
+## DocumentProperties.SharedDoc property
 
-## DocumentProperties.SharedDoc свойство
-
-Определяет, совместно ли используется презентация несколькими людьми. Свойство типа Boolean для чтения/записи.
+Определяет, будет ли презентация совместно использоваться несколькими людьми. Чтение/записьBoolean.
 
 ```csharp
 public bool SharedDoc { get; set; }
@@ -17,7 +16,7 @@ public bool SharedDoc { get; set; }
 
 ### Смотрите также
 
-* класс [DocumentProperties](../../documentproperties)
+* class [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

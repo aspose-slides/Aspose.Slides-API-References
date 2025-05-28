@@ -1,15 +1,14 @@
 ---
 title: TextFrame
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt ein TextFrame dar.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Repräsentiert einen TextFrame.
 type: docs
-weight: 10640
+weight: 10200
 url: /de/aspose.slides/textframe/
 ---
+## TextFrame class
 
-## TextFrame-Klasse
-
-Stellt ein TextFrame dar.
+Repräsentiert einen TextFrame.
 
 ```csharp
 public sealed class TextFrame : ITextFrame
@@ -19,31 +18,26 @@ public sealed class TextFrame : ITextFrame
 
 | Name | Beschreibung |
 | --- | --- |
-| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Bietet einfachen Zugriff auf enthaltene Hyperlinks. Nur lesbar [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Gibt die Liste aller Absätze in einem Frame zurück. Nur lesbar [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Gibt die übergeordnete Zelle zurück oder null, wenn das übergeordnete Objekt die ICell-Schnittstelle nicht implementiert. Nur lesbar [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Gibt die übergeordnete Form zurück oder null, wenn das übergeordnete Objekt die IShape-Schnittstelle nicht implementiert. Nur lesbar [`IShape`](../ishape). |
-| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Gibt die übergeordnete Präsentation eines TextFrames zurück. Nur lesbar [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/textframe/slide) { get; } | Gibt die übergeordnete Folie eines TextFrames zurück. Nur lesbar [`IBaseSlide`](../ibaseslide). |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | Holt oder setzt den Klartext für ein TextFrame. Lese-/Schreibzugriff String. |
-| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Gibt das Formatierungsobjekt für dieses TextFrame-Objekt zurück. Nur lesbar [`ITextFrameFormat`](../itextframeformat). |
+| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Bietet einfachen Zugriff auf enthaltene Hyperlinks. Schreibgeschützt[`IHyperlinkQueries`](../ihyperlinkqueries) . |
+| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Gibt die Liste aller Absätze in einem Rahmen zurück. Schreibgeschützt[`IParagraphCollection`](../iparagraphcollection) . |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Gibt die übergeordnete Präsentation eines TextFrame zurück. Schreibgeschützt[`IPresentation`](../ipresentation) . |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | Gibt die übergeordnete Folie eines TextFrame zurück. Schreibgeschützt[`IBaseSlide`](../ibaseslide) . |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | Holt oder setzt den einfachen Text für einen TextFrame. Lesen/SchreibenString . |
+| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Gibt das Formatierungsobjekt für dieses TextFrame-Objekt zurück. Schreibgeschützt[`ITextFrameFormat`](../itextframeformat) . |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Hebt alle Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe hervor. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Hebt alle Übereinstimmungen des Beispieltextes mit der angegebenen Farbe hervor. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Hebt alle Übereinstimmungen des Beispieltextes mit der angegebenen Farbe hervor. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Verbindet Textstellen mit derselben Formatierung in allen Absätzen. |
-| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | Ersetzt alle Übereinstimmungen des regulären Ausdrucks mit dem angegebenen String. |
-| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Ersetzt alle Vorkommen des angegebenen Textes durch einen anderen angegebenen Text. |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Teilt den Textinhalt von [`ITextFrame`](../itextframe) in ein Array von Strings, wobei jedes Element einer separaten Textspalte innerhalb des Frames entspricht. |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex)(string, Color, ITextHighlightingOptions) | Alle Übereinstimmungen mit regulären Ausdrücken im Textrahmentext mit der angegebenen Farbe hervorheben. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Alle Übereinstimmungen des Beispiels im Textrahmentext mit der angegebenen Farbe hervorheben. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_1)(string, Color, ITextHighlightingOptions) | Alle Übereinstimmungen des Beispiels im Textrahmentext mit der angegebenen Farbe hervorheben. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Verbindet Läufe mit derselben Formatierung in allen Absätzen. |
 
 ### Siehe auch
 
-* Schnittstelle [ITextFrame](../itextframe)
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* interface [ITextFrame](../itextframe)
+* namensraum [Aspose.Slides](../../aspose.slides)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

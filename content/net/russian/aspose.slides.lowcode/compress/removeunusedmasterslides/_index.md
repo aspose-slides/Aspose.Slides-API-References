@@ -1,15 +1,14 @@
 ---
 title: RemoveUnusedMasterSlides
-second_title: Aspose.Sildes для .NET API Reference
-description: Выполняет сжатие Presentationaspose.slides/../aspose.slides/presentation путем удаления неиспользуемых мастер-слайдов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Выполняет сжатиеPresentationaspose.slides/presentationпутем удаления неиспользуемых мастер-слайдов.
 type: docs
-weight: 30
+weight: 20
 url: /ru/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
+## Compress.RemoveUnusedMasterSlides method
 
-## Compress.RemoveUnusedMasterSlides метод
-
-Выполняет сжатие [`Presentation`](../../../aspose.slides/presentation) путем удаления неиспользуемых мастер-слайдов.
+Выполняет сжатие[`Presentation`](../../../aspose.slides/presentation)путем удаления неиспользуемых мастер-слайдов.
 
 ```csharp
 public static void RemoveUnusedMasterSlides(Presentation pres)
@@ -30,10 +29,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Presentation](../../../aspose.slides/presentation)
-* класс [Compress](../../compress)
+* class [Presentation](../../../aspose.slides/presentation)
+* class [Compress](../../compress)
 * пространство имен [Aspose.Slides.LowCode](../../compress)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,37 +1,36 @@
 ---
 title: InOutTransition
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Эффект перехода слайдов In-Out.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода слайда In-Out.
 type: docs
-weight: 9920
+weight: 9450
 url: /ru/aspose.slides.slideshow/inouttransition/
 ---
+## InOutTransition class
 
-## Класс InOutTransition
-
-Эффект перехода слайдов In-Out.
+Эффект перехода слайда In-Out.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Направление эффекта перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Направление эффекта перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
-### См. также
+### Смотрите также
 
-* класс [TransitionValueBase](../transitionvaluebase)
-* интерфейс [IInOutTransition](../iinouttransition)
+* class [TransitionValueBase](../transitionvaluebase)
+* interface [IInOutTransition](../iinouttransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

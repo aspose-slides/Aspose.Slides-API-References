@@ -1,23 +1,22 @@
 ---
 title: IsOverrideThemeEnabled
-second_title: Aspose.Sildes для справки по API .NET
-description: Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init. Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear. Только для чтения Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет переопределяет ли OverrideTheme унаследованную действующую тему или нет. Чтобы включить OverrideTheme для переопределения используйте методы OverrideTheme.Init. Чтобы отключить OverrideTheme от переопределения используйте метод OverrideTheme.Clear. Только чтениеBoolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/ioverridethememanager/isoverridethemeenabled/
 ---
+## IOverrideThemeManager.IsOverrideThemeEnabled property
 
-## IOverrideThemeManager.IsOverrideThemeEnabled свойство
-
-Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только для чтения Boolean.
+Определяет, переопределяет ли OverrideTheme унаследованную действующую тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только чтениеBoolean.
 
 ```csharp
 public bool IsOverrideThemeEnabled { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IOverrideThemeManager](../../ioverridethememanager)
+* interface [IOverrideThemeManager](../../ioverridethememanager)
 * пространство имен [Aspose.Slides.Theme](../../ioverridethememanager)
 * сборка [Aspose.Slides](../../../)
 

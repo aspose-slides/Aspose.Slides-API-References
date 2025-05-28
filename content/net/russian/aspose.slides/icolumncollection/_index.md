@@ -1,38 +1,37 @@
 ---
 title: IColumnCollection
-second_title: Aspose.Slides для .NET Справочник по API
-description: Представляет собой коллекцию столбцов в таблице.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор столбцов в таблице.
 type: docs
-weight: 5330
+weight: 5030
 url: /ru/aspose.slides/icolumncollection/
 ---
+## IColumnCollection interface
 
-## Интерфейс IColumnCollection
-
-Представляет собой коллекцию столбцов в таблице.
+Представляет набор столбцов в таблице.
 
 ```csharp
 public interface IColumnCollection : IGenericCollection<IColumn>
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | Возвращает столбец по указанному индексу. Только для чтения [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | Возвращает столбец по указанному индексу. Только для чтения[`IColumn`](../icolumn). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Создает копию указанной строки-шаблона и вставляет ее в конец таблицы. |
-| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Создает копию указанного столбца-шаблона и вставляет его в указанное положение в таблице. |
-| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Удаляет столбец из таблицы по указанной позиции. |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Создает копию указанной строки шаблона и вставляет ее внизу таблицы. |
+| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Создает копию указанного столбца шаблона и вставляет его в указанную позицию в таблице. |
+| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Удаляет столбец в указанной позиции из таблицы. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* интерфейс [IColumn](../icolumn)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [IColumn](../icolumn)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

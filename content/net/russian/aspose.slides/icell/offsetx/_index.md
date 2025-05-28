@@ -1,23 +1,22 @@
 ---
 title: OffsetX
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает расстояние от левой стороны таблицы до левой стороны ячейки. Только для чтения Double.
+description: Возвращает расстояние от левого края таблицы до левого края ячейки. Только для чтенияDouble.
 type: docs
 weight: 160
 url: /ru/aspose.slides/icell/offsetx/
 ---
+## ICell.OffsetX property
 
-## Свойство ICell.OffsetX
-
-Возвращает расстояние от левой стороны таблицы до левой стороны ячейки. Только для чтения Double.
+Возвращает расстояние от левого края таблицы до левого края ячейки. Только для чтенияDouble.
 
 ```csharp
 public double OffsetX { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ICell](../../icell)
+* interface [ICell](../../icell)
 * пространство имен [Aspose.Slides](../../icell)
 * сборка [Aspose.Slides](../../../)
 

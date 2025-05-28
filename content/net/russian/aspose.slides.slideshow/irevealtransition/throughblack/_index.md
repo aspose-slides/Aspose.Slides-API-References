@@ -1,23 +1,22 @@
 ---
 title: ThroughBlack
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, затухает ли переход через черный цвет. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает исчезает ли переход через черный цвет. Чтение/записьBoolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides.slideshow/irevealtransition/throughblack/
 ---
+## IRevealTransition.ThroughBlack property
 
-## IRevealTransition.ThroughBlack свойство
-
-Указывает, затухает ли переход через черный цвет. Читаемое/записываемое логическое значение.
+Указывает, исчезает ли переход через черный цвет. Чтение/записьBoolean.
 
 ```csharp
 public bool ThroughBlack { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IRevealTransition](../../irevealtransition)
+* interface [IRevealTransition](../../irevealtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../irevealtransition)
 * сборка [Aspose.Slides](../../../)
 

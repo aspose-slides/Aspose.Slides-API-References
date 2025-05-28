@@ -1,23 +1,22 @@
 ---
 title: FirstSlide
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает гиперссылку на первый слайд презентации. Только для чтения Hyperlinkaspose.slides/hyperlink.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает гиперссылку на первый слайд презентации. Только чтениеHyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 30
 url: /ru/aspose.slides/hyperlink/firstslide/
 ---
+## Hyperlink.FirstSlide property
 
-## Свойство Hyperlink.FirstSlide
-
-Возвращает гиперссылку на первый слайд презентации. Только для чтения [`Hyperlink`](../../hyperlink).
+Возвращает гиперссылку на первый слайд презентации. Только чтение[`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink FirstSlide { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Hyperlink](../../hyperlink)
+* class [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 

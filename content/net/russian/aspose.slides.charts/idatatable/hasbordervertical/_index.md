@@ -1,15 +1,14 @@
 ---
 title: HasBorderVertical
-second_title: Справка по API Aspose.Slides для .NET
-description: True, если таблица данных диаграммы имеет вертикальные границы ячеек. Число с возможностью чтения/записи.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Истинно если таблица данных диаграммы имеет вертикальные границы ячеек. Чтение/записьBoolean.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/idatatable/hasbordervertical/
 ---
+## IDataTable.HasBorderVertical property
 
-## IDataTable.HasBorderVertical свойство
-
-True, если таблица данных диаграммы имеет вертикальные границы ячеек. Число с возможностью чтения/записи.
+Истинно, если таблица данных диаграммы имеет вертикальные границы ячеек. Чтение/записьBoolean.
 
 ```csharp
 public bool HasBorderVertical { get; set; }
@@ -17,7 +16,7 @@ public bool HasBorderVertical { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IDataTable](../../idatatable)
+* interface [IDataTable](../../idatatable)
 * пространство имен [Aspose.Slides.Charts](../../idatatable)
 * сборка [Aspose.Slides](../../../)
 

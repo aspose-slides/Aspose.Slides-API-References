@@ -1,13 +1,12 @@
 ---
 title: ITableFormat
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет формат таблицы.
 type: docs
-weight: 7020
+weight: 6660
 url: /ru/aspose.slides/itableformat/
 ---
-
-## Интерфейс ITableFormat
+## ITableFormat interface
 
 Представляет формат таблицы.
 
@@ -15,20 +14,19 @@ url: /ru/aspose.slides/itableformat/
 public interface ITableFormat
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Возвращает объект свойств заполнения таблицы. Только для чтения [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Получает или задает прозрачность цвета заливки. Читаемое/записываемое значение типа Single. |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Возвращает объект свойств заполнения таблицы. Только для чтения[`IFillFormat`](../ifillformat). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Получает эффективные свойства форматирования таблицы с применением наследования и стилей таблицы. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Получает эффективные свойства форматирования таблицы с применением стилей наследования и таблиц. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

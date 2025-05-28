@@ -1,15 +1,14 @@
 ---
 title: WebDocumentOptions
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет набор опций для сохранения WebDocument./webdocument.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор параметров для сохраненияWebDocument./webdocument.
 type: docs
-weight: 4500
+weight: 4260
 url: /ru/aspose.slides.export.web/webdocumentoptions/
 ---
+## WebDocumentOptions class
 
-## Класс WebDocumentOptions
-
-Представляет набор опций для сохранения [`WebDocument`](../webdocument).
+Представляет набор параметров для сохранения[`WebDocument`](../webdocument).
 
 ```csharp
 public class WebDocumentOptions
@@ -17,21 +16,21 @@ public class WebDocumentOptions
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [WebDocumentOptions](webdocumentoptions)() | Конструктор по умолчанию. |
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Возвращает или задает опцию анимации фигур. Читаемое/записываемое логическое значение. |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Возвращает или задает опцию анимации переходов. Читаемое/записываемое логическое значение. |
-| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Возвращает или задает опцию встраивания изображений. Читаемое/записываемое логическое значение. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Возвращает или задает сохранитель вывода. Читаемое/записываемое [`IOutputSaver`](../ioutputsaver). |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Возвращает или задает движок шаблонов. Читаемое/записываемое [`ITemplateEngine`](../itemplateengine). |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Возвращает или устанавливает параметры анимации фигур. Чтение/записьBoolean. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Возвращает или устанавливает параметр анимации переходов. Чтение/записьBoolean. |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Возвращает или задает параметр встраивания изображений. Чтение/записьBoolean. |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Возвращает или устанавливает заставку вывода. Чтение/запись[`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Возвращает или устанавливает механизм шаблонов. Чтение/запись[`ITemplateEngine`](../itemplateengine). |
 
-### Также посмотрите
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * сборка [Aspose.Slides](../../)

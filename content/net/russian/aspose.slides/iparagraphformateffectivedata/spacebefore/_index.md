@@ -1,23 +1,22 @@
 ---
 title: SpaceBefore
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает количество пространства перед первой строкой в абзаце. Только для чтения Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает количество места перед первой строкой в абзаце. Только для чтенияSingle.
 type: docs
 weight: 150
 url: /ru/aspose.slides/iparagraphformateffectivedata/spacebefore/
 ---
+## IParagraphFormatEffectiveData.SpaceBefore property
 
-## IParagraphFormatEffectiveData.SpaceBefore свойство
-
-Возвращает количество пространства перед первой строкой в абзаце. Только для чтения Single.
+Возвращает количество места перед первой строкой в абзаце. Только для чтенияSingle.
 
 ```csharp
 public float SpaceBefore { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
+* interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * пространство имен [Aspose.Slides](../../iparagraphformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

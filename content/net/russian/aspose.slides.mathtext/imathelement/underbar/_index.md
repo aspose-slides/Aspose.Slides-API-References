@@ -1,15 +1,14 @@
 ---
-title: Подчеркивание
-second_title: Справка по API Aspose.Slides для .NET
-description: Устанавливает полосу внизу данного элемента
+title: Underbar
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает полосу внизу этого элемента
 type: docs
 weight: 220
 url: /ru/aspose.slides.mathtext/imathelement/underbar/
 ---
+## IMathElement.Underbar method
 
-## Метод IMathElement.Underbar
-
-Устанавливает полосу внизу данного элемента
+Устанавливает полосу внизу этого элемента
 
 ```csharp
 public IMathBar Underbar()
@@ -17,7 +16,7 @@ public IMathBar Underbar()
 
 ### Возвращаемое значение
 
-Новый экземпляр типа [`IMathBar`](../../imathbar)
+Новый экземпляр type[`IMathBar`](../../imathbar)
 
 ### Примеры
 
@@ -30,8 +29,8 @@ IMathBar bar = new MathematicalText("x").Underbar();
 
 ### Смотрите также
 
-* интерфейс [IMathBar](../../imathbar)
-* интерфейс [IMathElement](../../imathelement)
+* interface [IMathBar](../../imathbar)
+* interface [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

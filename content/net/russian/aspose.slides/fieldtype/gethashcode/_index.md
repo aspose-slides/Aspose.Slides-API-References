@@ -1,13 +1,12 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает хэш-код для этого объекта.
 type: docs
 weight: 210
 url: /ru/aspose.slides/fieldtype/gethashcode/
 ---
-
-## Метод FieldType.GetHashCode
+## FieldType.GetHashCode method
 
 Возвращает хэш-код для этого объекта.
 
@@ -15,13 +14,13 @@ url: /ru/aspose.slides/fieldtype/gethashcode/
 public override int GetHashCode()
 ```
 
-### Значение возвращаемого параметра
+### Возвращаемое значение
 
-Хэш-код Int32.
+ХэшкодInt32.
 
-### См. также
+### Смотрите также
 
-* класс [FieldType](../../fieldtype)
+* class [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)
 * сборка [Aspose.Slides](../../../)
 

@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartdatapointlevelsmanager/count/
 ---
-
-## Свойство ChartDataPointLevelsManager.Count
+## ChartDataPointLevelsManager.Count property
 
 Возвращает количество уровней точек данных.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.charts/chartdatapointlevelsmanager/count/
 public int Count { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ChartDataPointLevelsManager](../../chartdatapointlevelsmanager)
+* class [ChartDataPointLevelsManager](../../chartdatapointlevelsmanager)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapointlevelsmanager)
 * сборка [Aspose.Slides](../../../)
 

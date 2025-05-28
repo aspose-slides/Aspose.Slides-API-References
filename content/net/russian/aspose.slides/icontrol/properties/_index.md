@@ -1,24 +1,23 @@
 ---
-title: Свойства
+title: Properties
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию свойств ActiveX. Только для чтения IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
+description: Возвращает набор свойств ActiveX. Только для чтенияIControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
 type: docs
 weight: 70
 url: /ru/aspose.slides/icontrol/properties/
 ---
+## IControl.Properties property
 
-## Свойство IControl.Properties
-
-Возвращает коллекцию свойств ActiveX. Только для чтения [`IControlPropertiesCollection`](../../icontrolpropertiescollection).
+Возвращает набор свойств ActiveX. Только для чтения[`IControlPropertiesCollection`](../../icontrolpropertiescollection).
 
 ```csharp
 public IControlPropertiesCollection Properties { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IControlPropertiesCollection](../../icontrolpropertiescollection)
-* интерфейс [IControl](../../icontrol)
+* interface [IControlPropertiesCollection](../../icontrolpropertiescollection)
+* interface [IControl](../../icontrol)
 * пространство имен [Aspose.Slides](../../icontrol)
 * сборка [Aspose.Slides](../../../)
 

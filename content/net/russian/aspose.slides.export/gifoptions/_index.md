@@ -1,13 +1,12 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет параметры экспорта GIF.
 type: docs
-weight: 3650
+weight: 3530
 url: /ru/aspose.slides.export/gifoptions/
 ---
-
-## Класс GifOptions
+## GifOptions class
 
 Представляет параметры экспорта GIF.
 
@@ -17,45 +16,26 @@ public class GifOptions : SaveOptions, IGifOptions
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [GifOptions](gifoptions)() | Инициализирует новый экземпляр класса GifOptions. |
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Получает или устанавливает время задержки по умолчанию [мс]. Это значение будет использоваться, если [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) не установлено. Значение по умолчанию — 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Читаемое и записываемое значение типа String. |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Получает или устанавливает время задержки по умолчанию [мс]. Это значение будет использоваться, если[`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime)не установлено. Значение по умолчанию 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
 | [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Определяет, будут ли экспортироваться скрытые слайды. Значение по умолчанию — false. |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Получает или устанавливает размер кадра. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или устанавливает визуальный стиль градиента. Читаемое и записываемое значение типа [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления статуса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, нужно ли пропустить гиперссылки с вызовами JavaScript при сохранении презентации. Читаемое и записываемое значение типа Boolean. Значение по умолчанию — **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Получает или устанавливает значение FPS перехода [кадров/сек]. Значение по умолчанию — 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или отменен. Читаемое и записываемое значение типа [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Получает или задает размер кадра. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Получает или устанавливает FPS перехода [кадры/сек] Значение по умолчанию равно 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Примеры
+### Смотрите также
 
-Следующий пример демонстрирует, как конвертировать презентации в анимированный GIF с использованием индивидуальных настроек.
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation("pres.pptx"))
-{
-    pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
-    {
-        FrameSize = new Size(960, 720), // размер полученного GIF
-        DefaultDelay = 2000, // как долго каждый слайд будет отображаться перед сменой на следующий
-        TransitionFps = 35 // увеличьте FPS для лучшего качества анимации переходов
-    });
-}
-```
-
-### См. также
-
-* класс [SaveOptions](../saveoptions)
-* интерфейс [IGifOptions](../igifoptions)
+* class [SaveOptions](../saveoptions)
+* interface [IGifOptions](../igifoptions)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

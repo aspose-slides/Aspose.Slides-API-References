@@ -1,13 +1,12 @@
 ---
 title: ToArray
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает и возвращает массив со всеми авторами.
 type: docs
 weight: 80
 url: /ru/aspose.slides/icommentauthorcollection/toarray/
 ---
-
-## ICommentAuthorCollection.ToArray метод
+## ICommentAuthorCollection.ToArray method
 
 Создает и возвращает массив со всеми авторами.
 
@@ -17,12 +16,12 @@ public ICommentAuthor[] ToArray()
 
 ### Возвращаемое значение
 
-Массив [`ICommentAuthor`](../../icommentauthor)
+Массив[`ICommentAuthor`](../../icommentauthor)
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [ICommentAuthor](../../icommentauthor)
-* интерфейс [ICommentAuthorCollection](../../icommentauthorcollection)
+* interface [ICommentAuthor](../../icommentauthor)
+* interface [ICommentAuthorCollection](../../icommentauthorcollection)
 * пространство имен [Aspose.Slides](../../icommentauthorcollection)
 * сборка [Aspose.Slides](../../../)
 

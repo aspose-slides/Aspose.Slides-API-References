@@ -1,31 +1,30 @@
 ---
 title: VideoPlayModePreset
-second_title: Aspose.Sildes для .NET API Справочник
-description: Константы, определяющие способ воспроизведения видео.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Константы определяющие способ воспроизведения видео.
 type: docs
-weight: 11420
+weight: 10920
 url: /ru/aspose.slides/videoplaymodepreset/
 ---
+## VideoPlayModePreset enumeration
 
-## Перечисление VideoPlayModePreset
-
-Константы, которые определяют, как воспроизводится видео.
+Константы, определяющие способ воспроизведения видео.
 
 ```csharp
 public enum VideoPlayModePreset
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | Воспроизводить автоматически. |
-| OnClick | `1` | Воспроизводить только при клике на видео. |
-| AllSlides | `2` | Воспроизводить на всех слайдах. |
-| InClickSequence | `3` | Воспроизводить автоматически с кликом. |
+| Auto | `0` | Играть автоматически. |
+| OnClick | `1` | Воспроизведение только при нажатии на видеокадр. |
+| AllSlides | `2` | Воспроизведение на всех слайдах. |
+| InClickSequence | `3` | Воспроизведение автоматически одним щелчком мыши. |
 
-### Смотрите Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

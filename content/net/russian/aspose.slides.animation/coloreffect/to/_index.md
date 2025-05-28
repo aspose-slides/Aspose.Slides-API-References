@@ -1,24 +1,23 @@
 ---
-title: Для
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Описывает конечный цвет для изменения цвета анимации. Чтение/запись IColorFormataspose.slides/icolorformat.
+title: To
+second_title: Справочник по API Aspose.Slides для .NET
+description: Описывает результирующий цвет для изменения цвета анимации. Чтение/записьIColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/coloreffect/to/
 ---
+## ColorEffect.To property
 
-## ColorEffect.To свойство
-
-Описывает конечный цвет для изменения цвета анимации. Чтение/запись [`IColorFormat`](../../../aspose.slides/icolorformat).
+Описывает результирующий цвет для изменения цвета анимации. Чтение/запись[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat To { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
-* класс [ColorEffect](../../coloreffect)
+* interface [IColorFormat](../../../aspose.slides/icolorformat)
+* class [ColorEffect](../../coloreffect)
 * пространство имен [Aspose.Slides.Animation](../../coloreffect)
 * сборка [Aspose.Slides](../../../)
 

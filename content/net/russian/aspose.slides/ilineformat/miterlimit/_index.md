@@ -1,23 +1,22 @@
 ---
 title: MiterLimit
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или задает предел митера линии. Чтение/запись Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает предел скоса линии. Чтение/записьSingle.
 type: docs
 weight: 150
 url: /ru/aspose.slides/ilineformat/miterlimit/
 ---
+## ILineFormat.MiterLimit property
 
-## Свойство ILineFormat.MiterLimit
-
-Возвращает или задает предел митера линии. Чтение/запись Single.
+Возвращает или устанавливает предел скоса линии. Чтение/записьSingle.
 
 ```csharp
 public float MiterLimit { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILineFormat](../../ilineformat)
+* interface [ILineFormat](../../ilineformat)
 * пространство имен [Aspose.Slides](../../ilineformat)
 * сборка [Aspose.Slides](../../../)
 

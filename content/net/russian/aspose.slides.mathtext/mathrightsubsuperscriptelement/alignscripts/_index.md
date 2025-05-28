@@ -1,15 +1,14 @@
 ---
 title: AlignScripts
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает выравнивание надстрочных/подстрочных символов. Когда истинно, подстрочные и надстрочные символы выравниваются горизонтально друг к другу. Когда ложно, они подстраиваются под форму основы. Значение по умолчанию - ложь.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает выравнивание нижнего/верхнего индекса. При значении true нижний и верхний индексы выравниваются по горизонтали относительно друг друга. При значении false они привязываются к форме основания. Значение по умолчанию  false.
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathrightsubsuperscriptelement/alignscripts/
 ---
+## MathRightSubSuperscriptElement.AlignScripts property
 
-## MathRightSubSuperscriptElement.AlignScripts свойство
-
-Указывает выравнивание подстрочных/надстрочных символов. Когда истинно, подстрочные и надстрочные символы выравниваются горизонтально друг к другу. Когда ложно, они подстраиваются под форму основы. Значение по умолчанию - ложь.
+Задает выравнивание нижнего/верхнего индекса. При значении true нижний и верхний индексы выравниваются по горизонтали относительно друг друга. При значении false они привязываются к форме основания. Значение по умолчанию — false.
 
 ```csharp
 public bool AlignScripts { get; set; }
@@ -28,9 +27,9 @@ MathRightSubSuperscriptElement subsuperscript = new MathRightSubSuperscriptEleme
 subsuperscript.AlignScripts = true;
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* класс [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)
+* class [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)
 * пространство имен [Aspose.Slides.MathText](../../mathrightsubsuperscriptelement)
 * сборка [Aspose.Slides](../../../)
 

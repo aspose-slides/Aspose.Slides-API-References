@@ -1,15 +1,14 @@
 ---
 title: GetEffective
-second_title: Справочная информация по Aspose.Sildes для .NET
-description: Получает эффективные свойства форматирования ячеек таблицы с учетом наследования и примененных стилей таблицы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает эффективные свойства форматирования ячеек таблицы с применением стилей наследования и таблиц.
 type: docs
-weight: 90
+weight: 80
 url: /ru/aspose.slides/cellformat/geteffective/
 ---
+## CellFormat.GetEffective method
 
-## Метод CellFormat.GetEffective
-
-Получает эффективные свойства форматирования ячеек таблицы с учетом наследования и примененных стилей таблицы.
+Получает эффективные свойства форматирования ячеек таблицы с применением стилей наследования и таблиц.
 
 ```csharp
 public ICellFormatEffectiveData GetEffective()
@@ -17,11 +16,11 @@ public ICellFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`ICellFormatEffectiveData`](../../icellformateffectivedata).
+A[`ICellFormatEffectiveData`](../../icellformateffectivedata).
 
 ### Примеры
 
-В этом примере демонстрируется получение эффективного формата заливки для разных логических частей таблицы. Обратите внимание, что форматирование ячеек всегда имеет более высокий приоритет, чем форматирование строк, форматирование строк - более высокий приоритет, чем форматирование столбцов, форматирование столбцов - более высокий, чем для всей таблицы. Таким образом, в конечном итоге свойства CellFormatEffectiveData всегда используются для отрисовки таблицы. Следующий код является просто примером API.
+Этот пример демонстрирует получение эффективного формата заполнения для различных логических частей таблицы. Обратите внимание, что форматирование ячеек всегда имеет более высокий приоритет, чем форматирование строк, строка - выше столбца, столбец - выше всей таблицы. Итак, наконец, свойства CellFormatEffectiveData всегда используются для рисования таблицы. Следующий код является просто примером API.
 
 ```csharp
 [C#]
@@ -32,14 +31,14 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
     IFillFormatEffectiveData rowFillFormatEffective = tbl.Rows[0].RowFormat.GetEffective().FillFormat;
     IFillFormatEffectiveData columnFillFormatEffective = tbl.Columns[0].ColumnFormat.GetEffective().FillFormat;
     IFillFormatEffectiveData cellFillFormatEffective = tbl[0, 0].CellFormat.GetEffective().FillFormat;
-    /* Вывод и сравнение */
+    /* Output and comparison */
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ICellFormatEffectiveData](../../icellformateffectivedata)
-* класс [CellFormat](../../cellformat)
+* interface [ICellFormatEffectiveData](../../icellformateffectivedata)
+* class [CellFormat](../../cellformat)
 * пространство имен [Aspose.Slides](../../cellformat)
 * сборка [Aspose.Slides](../../../)
 

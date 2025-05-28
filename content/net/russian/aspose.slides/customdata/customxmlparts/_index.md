@@ -1,24 +1,23 @@
 ---
 title: CustomXmlParts
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает коллекцию пользовательских xml-частей. Только для чтения ICustomXmlPartCollectionaspose.slides/icustomxmlpartcollection.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает пользовательскую коллекцию частей xml. Только для чтенияICustomXmlPartCollectionaspose.slides/icustomxmlpartcollection.
 type: docs
 weight: 10
 url: /ru/aspose.slides/customdata/customxmlparts/
 ---
+## CustomData.CustomXmlParts property
 
-## Свойство CustomData.CustomXmlParts
-
-Возвращает коллекцию пользовательских xml-частей. Только для чтения [`ICustomXmlPartCollection`](../../icustomxmlpartcollection).
+Возвращает пользовательскую коллекцию частей xml. Только для чтения[`ICustomXmlPartCollection`](../../icustomxmlpartcollection).
 
 ```csharp
 public ICustomXmlPartCollection CustomXmlParts { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ICustomXmlPartCollection](../../icustomxmlpartcollection)
-* класс [CustomData](../../customdata)
+* interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
+* class [CustomData](../../customdata)
 * пространство имен [Aspose.Slides](../../customdata)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,24 +1,23 @@
 ---
 title: BlurEffect
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Эффект размытия. Чтение/запись IBluraspose.slides.effects/iblur.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект размытия. Чтение/записьIBluraspose.slides.effects/iblur.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ieffectformat/blureffect/
 ---
+## IEffectFormat.BlurEffect property
 
-## Свойство IEffectFormat.BlurEffect
-
-Эффект размытия. Чтение/запись [`IBlur`](../../../aspose.slides.effects/iblur).
+Эффект размытия. Чтение/запись[`IBlur`](../../../aspose.slides.effects/iblur).
 
 ```csharp
 public IBlur BlurEffect { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBlur](../../../aspose.slides.effects/iblur)
-* интерфейс [IEffectFormat](../../ieffectformat)
+* interface [IBlur](../../../aspose.slides.effects/iblur)
+* interface [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)
 * сборка [Aspose.Slides](../../../)
 

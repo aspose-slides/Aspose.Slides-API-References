@@ -1,15 +1,14 @@
 ---
 title: InsertOleObjectFrame
-second_title: Aspose.Slides для .NET API Reference
-description: Создает новый OLE объект и вставляет его в коллекцию по указанному индексу.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новый объект OLE и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 300
 url: /ru/aspose.slides/ishapecollection/insertoleobjectframe/
 ---
+## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
 
-## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
-
-Создает новый OLE объект и вставляет его в коллекцию по указанному индексу.
+Создает новый объект OLE и вставляет его в коллекцию по указанному индексу.
 
 ```csharp
 public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
@@ -18,30 +17,30 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, с нуля, по которому должен быть вставлен OLE объект. |
-| x | Single | Координата X нового OLE фрейма. |
-| y | Single | Координата Y нового OLE фрейма. |
-| width | Single | Ширина нового OLE фрейма. |
-| height | Single | Высота нового OLE фрейма. |
-| dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен объект OLE. |
+| x | Single | X координата нового кадра OLE. |
+| y | Single | Координата Y нового кадра OLE. |
+| width | Single | Ширина нового кадра OLE. |
+| height | Single | Высота нового кадра OLE. |
+| dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ### Возвращаемое значение
 
-Созданный OLE объект.
+Создан объект OLE.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IOleObjectFrame](../../ioleobjectframe)
-* интерфейс [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IOleObjectFrame](../../ioleobjectframe)
+* interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
+## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
 
-Создает новый OLE объект и вставляет его в коллекцию по указанному индексу.
+Создает новый объект OLE и вставляет его в коллекцию по указанному индексу.
 
 ```csharp
 public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
@@ -50,22 +49,22 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, с нуля, по которому должен быть вставлен OLE объект. |
-| x | Single | Координата X нового OLE фрейма. |
-| y | Single | Координата Y нового OLE фрейма. |
-| width | Single | Ширина нового OLE фрейма. |
-| height | Single | Высота нового OLE фрейма. |
-| className | String | Имя OLE класса. |
+| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен объект OLE. |
+| x | Single | X координата нового кадра OLE. |
+| y | Single | Координата Y нового кадра OLE. |
+| width | Single | Ширина нового кадра OLE. |
+| height | Single | Высота нового кадра OLE. |
+| className | String | Имя класса OLE. |
 | path | String | Путь к связанному файлу. |
 
 ### Возвращаемое значение
 
-Созданный OLE объект.
+Создан объект OLE.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IOleObjectFrame](../../ioleobjectframe)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IOleObjectFrame](../../ioleobjectframe)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: InsertAudioFrameCD
-second_title: Aspose.Slides для .NET API Справочник
-description: Вставить AudioFrame с CD.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вставьте AudioFrame с CD.
 type: docs
 weight: 270
 url: /ru/aspose.slides/shapecollection/insertaudioframecd/
 ---
+## ShapeCollection.InsertAudioFrameCD method
 
-## ShapeCollection.InsertAudioFrameCD метод
-
-Вставить AudioFrame с CD.
+Вставьте AudioFrame с CD.
 
 ```csharp
 public IAudioFrame InsertAudioFrameCD(int index, float x, float y, float width, float height)
@@ -17,20 +16,20 @@ public IAudioFrame InsertAudioFrameCD(int index, float x, float y, float width, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, начиная с нуля, по которому должно быть вставлено видео. |
-| x | Single | Координата X новой аудиофрейма. |
-| y | Single | Координата Y новой аудиофрейма. |
-| width | Single | Ширина новой аудиофрейма. |
-| height | Single | Высота новой аудиофрейма. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должен быть вставлен видеокадр. |
+| x | Single | X координата нового звукового кадра. |
+| y | Single | Координата Y нового звукового кадра. |
+| width | Single | Ширина нового звукового кадра. |
+| height | Single | Высота нового звукового кадра. |
 
-### Значение возвращаемого объекта
+### Возвращаемое значение
 
-Созданный объект AudioFrame.
+Создан объект AudioFrame.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAudioFrame](../../iaudioframe)
-* класс [ShapeCollection](../../shapecollection)
+* interface [IAudioFrame](../../iaudioframe)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: GetByType
-second_title: Справочник API Aspose.Sildes для .NET
-description: Возвращает первый слайд макета указанного типа.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает первый макет слайда указанного типа.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ilayoutslidecollection/getbytype/
 ---
+## ILayoutSlideCollection.GetByType method
 
-## ILayoutSlideCollection.GetByType метод
-
-Возвращает первый слайд макета указанного типа.
+Возвращает первый макет слайда указанного типа.
 
 ```csharp
 public ILayoutSlide GetByType(SlideLayoutType type)
@@ -17,17 +16,17 @@ public ILayoutSlide GetByType(SlideLayoutType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | SlideLayoutType | Тип слайда макета, который нужно найти. |
+| type | SlideLayoutType | Тип макета слайда для поиска. |
 
 ### Возвращаемое значение
 
-[`ILayoutSlide`](../../ilayoutslide) с указанным типом или null, если макеты не найдены.
+[`ILayoutSlide`](../../ilayoutslide)с указанным типом или null, если макеты не найдены.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILayoutSlide](../../ilayoutslide)
-* перечисление [SlideLayoutType](../../slidelayouttype)
-* интерфейс [ILayoutSlideCollection](../../ilayoutslidecollection)
+* interface [ILayoutSlide](../../ilayoutslide)
+* enum [SlideLayoutType](../../slidelayouttype)
+* interface [ILayoutSlideCollection](../../ilayoutslidecollection)
 * пространство имен [Aspose.Slides](../../ilayoutslidecollection)
 * сборка [Aspose.Slides](../../../)
 

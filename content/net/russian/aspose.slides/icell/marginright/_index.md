@@ -1,23 +1,22 @@
 ---
 title: MarginRight
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает правый отступ в TextFrame. Читаемое/записываемое Double.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает правое поле в TextFrame. Чтение/записьDouble.
 type: docs
 weight: 130
 url: /ru/aspose.slides/icell/marginright/
 ---
+## ICell.MarginRight property
 
-## Свойство ICell.MarginRight
-
-Возвращает или устанавливает правый отступ в TextFrame. Читаемое/записываемое Double.
+Возвращает или устанавливает правое поле в TextFrame. Чтение/записьDouble.
 
 ```csharp
 public double MarginRight { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ICell](../../icell)
+* interface [ICell](../../icell)
 * пространство имен [Aspose.Slides](../../icell)
 * сборка [Aspose.Slides](../../../)
 

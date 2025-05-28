@@ -1,23 +1,22 @@
 ---
 title: StopSoundOnClick
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, должно ли звуковое сопровождение прекращаться при нажатии на гиперссылку. Доступно для чтения/записи Булево значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет должен ли звук останавливаться при клике по гиперссылке. Чтение/записьBoolean.
 type: docs
-weight: 170
+weight: 150
 url: /ru/aspose.slides/hyperlink/stopsoundonclick/
 ---
+## Hyperlink.StopSoundOnClick property
 
-## Свойство Hyperlink.StopSoundOnClick
-
-Определяет, должно ли звуковое сопровождение прекращаться при нажатии на гиперссылку. Доступно для чтения/записи Булево значение.
+Определяет, должен ли звук останавливаться при клике по гиперссылке. Чтение/записьBoolean.
 
 ```csharp
 public bool StopSoundOnClick { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Hyperlink](../../hyperlink)
+* class [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 

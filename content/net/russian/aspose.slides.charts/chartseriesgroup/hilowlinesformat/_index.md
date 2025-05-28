@@ -1,24 +1,23 @@
 ---
 title: HiLowLinesFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает формат HiLowLines. HiLowLines применяется с типами диаграмм HiLowClose, OpenHiLowClose, VolumeHiLowClose и VolumeOpenHiLowClose.
+description: Задает формат HiLowLines. HiLowLines применяется с типами диаграмм HiLowClose OpenHiLowClose VolumeHiLowClose и VolumeOpenHiLowClose.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/chartseriesgroup/hilowlinesformat/
 ---
+## ChartSeriesGroup.HiLowLinesFormat property
 
-## Свойство ChartSeriesGroup.HiLowLinesFormat
-
-Указывает формат HiLowLines. HiLowLines применяется с типами диаграмм HiLowClose, OpenHiLowClose, VolumeHiLowClose и VolumeOpenHiLowClose.
+Задает формат HiLowLines. HiLowLines применяется с типами диаграмм HiLowClose, OpenHiLowClose, VolumeHiLowClose и VolumeOpenHiLowClose.
 
 ```csharp
 public IChartLinesFormat HiLowLinesFormat { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IChartLinesFormat](../../ichartlinesformat)
-* класс [ChartSeriesGroup](../../chartseriesgroup)
+* interface [IChartLinesFormat](../../ichartlinesformat)
+* class [ChartSeriesGroup](../../chartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../chartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

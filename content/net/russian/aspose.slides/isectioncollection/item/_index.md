@@ -1,24 +1,23 @@
 ---
-title: Элемент
-second_title: Справочник API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтения ISectionaspose.slides/isection.
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает элемент по указанному индексу. Только для чтенияISectionaspose.slides/isection.
 type: docs
 weight: 10
 url: /ru/aspose.slides/isectioncollection/item/
 ---
+## ISectionCollection indexer
 
-## Индексатор ISectionCollection
-
-Получает элемент по указанному индексу. Только для чтения [`ISection`](../../isection).
+Получает элемент по указанному индексу. Только для чтения[`ISection`](../../isection).
 
 ```csharp
 public ISection this[int index] { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISection](../../isection)
-* интерфейс [ISectionCollection](../../isectioncollection)
+* interface [ISection](../../isection)
+* interface [ISectionCollection](../../isectioncollection)
 * пространство имен [Aspose.Slides](../../isectioncollection)
 * сборка [Aspose.Slides](../../../)
 

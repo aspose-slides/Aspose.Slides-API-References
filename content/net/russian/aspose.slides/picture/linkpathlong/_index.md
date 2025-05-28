@@ -1,15 +1,14 @@
 ---
 title: LinkPathLong
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает наборы URL связных изображений. Читаемая/записываемая строка.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает наборы URL связанного изображения. Чтение/записьString.
 type: docs
-weight: 40
+weight: 30
 url: /ru/aspose.slides/picture/linkpathlong/
 ---
+## Picture.LinkPathLong property
 
-## Свойство Picture.LinkPathLong
-
-Возвращает наборы URL связного изображения. Читаемая/записываемая строка.
+Возвращает наборы URL связанного изображения. Чтение/записьString.
 
 ```csharp
 public string LinkPathLong { get; set; }
@@ -17,7 +16,7 @@ public string LinkPathLong { get; set; }
 
 ### Смотрите также
 
-* класс [Picture](../../picture)
+* class [Picture](../../picture)
 * пространство имен [Aspose.Slides](../../picture)
 * сборка [Aspose.Slides](../../../)
 

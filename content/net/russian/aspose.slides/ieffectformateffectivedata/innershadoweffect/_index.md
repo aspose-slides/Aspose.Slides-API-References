@@ -1,15 +1,14 @@
 ---
 title: InnerShadowEffect
-second_title: Aspose.Slides для .NET API Справочник
-description: Внутреннее затенение. Только для чтения IInnerShadowEffectiveDataaspose.slides.effects/iinnershadoweffectivedata.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Внутренняя тень. Только для чтенияIInnerShadowEffectiveDataaspose.slides.effects/iinnershadoweffectivedata.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ieffectformateffectivedata/innershadoweffect/
 ---
+## IEffectFormatEffectiveData.InnerShadowEffect property
 
-## Свойство IEffectFormatEffectiveData.InnerShadowEffect
-
-Внутреннее затенение. Только для чтения [`IInnerShadowEffectiveData`](../../../aspose.slides.effects/iinnershadoweffectivedata).
+Внутренняя тень. Только для чтения[`IInnerShadowEffectiveData`](../../../aspose.slides.effects/iinnershadoweffectivedata).
 
 ```csharp
 public IInnerShadowEffectiveData InnerShadowEffect { get; }
@@ -17,8 +16,8 @@ public IInnerShadowEffectiveData InnerShadowEffect { get; }
 
 ### Смотрите также
 
-* интерфейс [IInnerShadowEffectiveData](../../../aspose.slides.effects/iinnershadoweffectivedata)
-* интерфейс [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
+* interface [IInnerShadowEffectiveData](../../../aspose.slides.effects/iinnershadoweffectivedata)
+* interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * пространство имен [Aspose.Slides](../../ieffectformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

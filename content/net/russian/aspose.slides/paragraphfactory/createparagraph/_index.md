@@ -1,12 +1,11 @@
 ---
 title: CreateParagraph
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новый пустой абзац.
 type: docs
 weight: 20
 url: /ru/aspose.slides/paragraphfactory/createparagraph/
 ---
-
 ## CreateParagraph() {#createparagraph}
 
 Создает новый пустой абзац.
@@ -17,12 +16,12 @@ public IParagraph CreateParagraph()
 
 ### Возвращаемое значение
 
-Абзац.
+Параграф.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IParagraph](../../iparagraph)
-* класс [ParagraphFactory](../../paragraphfactory)
+* interface [IParagraph](../../iparagraph)
+* class [ParagraphFactory](../../paragraphfactory)
 * пространство имен [Aspose.Slides](../../paragraphfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -30,7 +29,7 @@ public IParagraph CreateParagraph()
 
 ## CreateParagraph(IParagraph) {#createparagraph_1}
 
-Создает новый абзац с использованием заданных данных абзаца.
+Создает новый абзац с использованием указанных данных абзаца.
 
 ```csharp
 public IParagraph CreateParagraph(IParagraph paragraph)
@@ -38,16 +37,16 @@ public IParagraph CreateParagraph(IParagraph paragraph)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| paragraph | IParagraph | Абзац для использования данных. |
+| paragraph | IParagraph | Параграф для использования данных. |
 
 ### Возвращаемое значение
 
-Абзац.
+Пункт.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IParagraph](../../iparagraph)
-* класс [ParagraphFactory](../../paragraphfactory)
+* interface [IParagraph](../../iparagraph)
+* class [ParagraphFactory](../../paragraphfactory)
 * пространство имен [Aspose.Slides](../../paragraphfactory)
 * сборка [Aspose.Slides](../../../)
 

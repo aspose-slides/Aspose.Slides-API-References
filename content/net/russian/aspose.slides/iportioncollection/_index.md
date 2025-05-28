@@ -1,26 +1,25 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Slides для .NET API Справка
-description: Представляет коллекцию порций.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор порций.
 type: docs
-weight: 6510
+weight: 6150
 url: /ru/aspose.slides/iportioncollection/
 ---
+## IPortionCollection interface
 
-## Интерфейс IPortionCollection
-
-Представляет коллекцию порций.
+Представляет набор порций.
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | Получает элемент по указанному индексу. |
 
 ## Методы
@@ -29,15 +28,15 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | --- | --- |
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Добавляет порцию в конец коллекции. |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Определяет, содержит ли ICollection конкретное значение. |
-| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Определяет индекс конкретной порции в коллекции. |
+| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Определяет, содержит лиICollectionопределенное значение. |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Определяет индекс определенной части в коллекции. |
 | [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Вставляет порцию в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Удаляет первое вхождение конкретного объекта из ICollection. |
+| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Удаляет первое вхождение определенного объекта изICollection. |
 | [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
 
 ### Смотрите также
 
-* интерфейс [IPortion](../iportion)
+* interface [IPortion](../iportion)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

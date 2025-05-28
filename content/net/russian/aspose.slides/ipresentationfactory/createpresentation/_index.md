@@ -1,12 +1,11 @@
 ---
 title: CreatePresentation
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новую презентацию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ipresentationfactory/createpresentation/
 ---
-
 ## CreatePresentation() {#createpresentation}
 
 Создает новую презентацию.
@@ -19,10 +18,10 @@ public IPresentation CreatePresentation()
 
 Новая презентация
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPresentation](../../ipresentation)
-* интерфейс [IPresentationFactory](../../ipresentationfactory)
+* interface [IPresentation](../../ipresentation)
+* interface [IPresentationFactory](../../ipresentationfactory)
 * пространство имен [Aspose.Slides](../../ipresentationfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -30,7 +29,7 @@ public IPresentation CreatePresentation()
 
 ## CreatePresentation(ILoadOptions) {#createpresentation_1}
 
-Создает новую презентацию с дополнительными параметрами загрузки
+Создает новую презентацию с дополнительными опциями загрузки
 
 ```csharp
 public IPresentation CreatePresentation(ILoadOptions options)
@@ -38,17 +37,17 @@ public IPresentation CreatePresentation(ILoadOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | ILoadOptions | Параметры загрузки |
+| options | ILoadOptions | Опции загрузки |
 
 ### Возвращаемое значение
 
 Новая презентация
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPresentation](../../ipresentation)
-* интерфейс [ILoadOptions](../../iloadoptions)
-* интерфейс [IPresentationFactory](../../ipresentationfactory)
+* interface [IPresentation](../../ipresentation)
+* interface [ILoadOptions](../../iloadoptions)
+* interface [IPresentationFactory](../../ipresentationfactory)
 * пространство имен [Aspose.Slides](../../ipresentationfactory)
 * сборка [Aspose.Slides](../../../)
 

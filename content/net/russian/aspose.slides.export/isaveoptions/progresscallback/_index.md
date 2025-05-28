@@ -1,15 +1,14 @@
 ---
 title: ProgressCallback
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет объект обратного вызова для сохранения обновлений прогресса в процентах. См. IProgressCallbackaspose.slides/iprogresscallback.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.IProgressCallbackaspose.slides/iprogresscallback.
 type: docs
-weight: 30
+weight: 20
 url: /ru/aspose.slides.export/isaveoptions/progresscallback/
 ---
+## ISaveOptions.ProgressCallback property
 
-## Свойство ISaveOptions.ProgressCallback
-
-Представляет объект обратного вызова для сохранения обновлений прогресса в процентах. См. [`IProgressCallback`](../../../aspose.slides/iprogresscallback).
+Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../../aspose.slides/iprogresscallback).
 
 ```csharp
 public IProgressCallback ProgressCallback { get; set; }
@@ -17,8 +16,8 @@ public IProgressCallback ProgressCallback { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IProgressCallback](../../../aspose.slides/iprogresscallback)
-* интерфейс [ISaveOptions](../../isaveoptions)
+* interface [IProgressCallback](../../../aspose.slides/iprogresscallback)
+* interface [ISaveOptions](../../isaveoptions)
 * пространство имен [Aspose.Slides.Export](../../isaveoptions)
 * сборка [Aspose.Slides](../../../)
 

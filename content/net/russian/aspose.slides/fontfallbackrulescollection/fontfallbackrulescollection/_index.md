@@ -1,13 +1,12 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontfallbackrulescollection/fontfallbackrulescollection/
 ---
-
-## Конструктор FontFallBackRulesCollection
+## FontFallBackRulesCollection constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/fontfallbackrulescollection/fontfallbackrulescollection/
 public FontFallBackRulesCollection()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [FontFallBackRulesCollection](../../fontfallbackrulescollection)
+* class [FontFallBackRulesCollection](../../fontfallbackrulescollection)
 * пространство имен [Aspose.Slides](../../fontfallbackrulescollection)
 * сборка [Aspose.Slides](../../../)
 

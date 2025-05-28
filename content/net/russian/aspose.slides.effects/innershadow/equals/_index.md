@@ -1,15 +1,14 @@
 ---
 title: Equals
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, равен ли указанный InnerShadowaspose.slides.effects/innershadow текущему InnerShadowaspose.slides.effects/innershadow.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет равен ли указанныйInnerShadowaspose.slides.effects/innershadowтекущемуВнутренняяТень.
 type: docs
 weight: 50
 url: /ru/aspose.slides.effects/innershadow/equals/
 ---
+## InnerShadow.Equals method
 
-## Метод InnerShadow.Equals
-
-Определяет, равен ли указанный [`InnerShadow`](../../innershadow) текущему [`InnerShadow`](../../innershadow).
+Определяет, равен ли указанный[`InnerShadow`](../../innershadow)текущемуВнутренняяТень.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,15 +16,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`InnerShadow`](../../innershadow) для сравнения. |
+| obj | Object | [`InnerShadow`](../../innershadow)для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае false.
+true, если объекты равны; в противном случае ложно.
 
 ### Смотрите также
 
-* класс [InnerShadow](../../innershadow)
+* class [InnerShadow](../../innershadow)
 * пространство имен [Aspose.Slides.Effects](../../innershadow)
 * сборка [Aspose.Slides](../../../)
 

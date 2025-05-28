@@ -3,11 +3,10 @@ title: BehaviorAdditiveType
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет аддитивный тип для поведения эффекта.
 type: docs
-weight: 80
+weight: 60
 url: /ru/aspose.slides.animation/behavioradditivetype/
 ---
-
-## Перечисление BehaviorAdditiveType
+## BehaviorAdditiveType enumeration
 
 Представляет аддитивный тип для поведения эффекта.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behavioradditivetype/
 public enum BehaviorAdditiveType
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |
@@ -26,7 +25,7 @@ public enum BehaviorAdditiveType
 | Replace | `3` |  |
 | Multiply | `4` |  |
 
-### Также см.
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

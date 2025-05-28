@@ -1,15 +1,14 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает свойство.
+description: Возвращает или устанавливает свойство.
 type: docs
 weight: 20
 url: /ru/aspose.slides/controlpropertiescollection/item/
 ---
+## ControlPropertiesCollection indexer
 
-## Индексатор ControlPropertiesCollection
-
-Возвращает или задает свойство.
+Возвращает или устанавливает свойство.
 
 ```csharp
 public string this[string name] { get; set; }
@@ -19,9 +18,9 @@ public string this[string name] { get; set; }
 | --- | --- |
 | name | Имя свойства. |
 
-### См. также
+### Смотрите также
 
-* класс [ControlPropertiesCollection](../../controlpropertiescollection)
+* class [ControlPropertiesCollection](../../controlpropertiescollection)
 * пространство имен [Aspose.Slides](../../controlpropertiescollection)
 * сборка [Aspose.Slides](../../../)
 

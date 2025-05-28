@@ -1,24 +1,23 @@
 ---
-title: Колонки
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Возвращает коллекцию колонок. Только для чтения IColumnCollection aspose.slides/icolumncollection.
+title: Columns
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает набор столбцов. Только для чтенияIColumnCollectionaspose.slides/icolumncollection.
 type: docs
 weight: 30
 url: /ru/aspose.slides/itable/columns/
 ---
+## ITable.Columns property
 
-## Свойство ITable.Columns
-
-Возвращает коллекцию колонок. Только для чтения [`IColumnCollection`](../../icolumncollection).
+Возвращает набор столбцов. Только для чтения[`IColumnCollection`](../../icolumncollection).
 
 ```csharp
 public IColumnCollection Columns { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IColumnCollection](../../icolumncollection)
-* интерфейс [ITable](../../itable)
+* interface [IColumnCollection](../../icolumncollection)
+* interface [ITable](../../itable)
 * пространство имен [Aspose.Slides](../../itable)
 * сборка [Aspose.Slides](../../../)
 

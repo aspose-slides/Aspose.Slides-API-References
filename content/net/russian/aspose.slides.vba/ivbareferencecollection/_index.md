@@ -1,21 +1,20 @@
 ---
 title: IVbaReferenceCollection
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет собой коллекцию ссылок VBA проекта.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет коллекцию ссылок проекта VBA.
 type: docs
-weight: 11270
+weight: 10770
 url: /ru/aspose.slides.vba/ivbareferencecollection/
 ---
+## IVbaReferenceCollection interface
 
-## Интерфейс IVbaReferenceCollection
-
-Представляет собой коллекцию ссылок VBA проекта.
+Представляет коллекцию ссылок проекта VBA.
 
 ```csharp
 public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
@@ -27,10 +26,10 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 | --- | --- |
 | [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | Добавляет новую ссылку в коллекцию ссылок |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* интерфейс [IVbaReference](../ivbareference)
+* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* interface [IVbaReference](../ivbareference)
 * пространство имен [Aspose.Slides.Vba](../../aspose.slides.vba)
 * сборка [Aspose.Slides](../../)
 

@@ -1,13 +1,12 @@
 ---
-title: Элемент
-second_title: Справочник API Aspose.Slides для .NET
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получает или задает IMathElement по указанному индексу.
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathblock/item/
 ---
-
-## Индексатор MathBlock
+## MathBlock indexer
 
 Получает или задает IMathElement по указанному индексу.
 
@@ -17,11 +16,11 @@ public IMathElement this[int index] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс элемента с нуля |
+| index | Отсчитываемый от нуля индекс элемента |
 
 ### Возвращаемое значение
 
-Математический элемент.
+математический элемент.
 
 ### Примеры
 
@@ -33,10 +32,10 @@ MathBlock mathBlock = new MathBlock(new MathematicalText("x"));
 IMathElement firstElem = mathBlock[0];
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathBlock](../../mathblock)
+* interface [IMathElement](../../imathelement)
+* class [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

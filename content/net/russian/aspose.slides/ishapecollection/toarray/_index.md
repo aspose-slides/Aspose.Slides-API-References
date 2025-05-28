@@ -1,15 +1,14 @@
 ---
 title: ToArray
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает и возвращает массив со всеми фигурами в нем.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает и возвращает массив со всеми формами в нем.
 type: docs
 weight: 400
 url: /ru/aspose.slides/ishapecollection/toarray/
 ---
-
 ## ToArray() {#toarray}
 
-Создает и возвращает массив со всеми фигурами в нем.
+Создает и возвращает массив со всеми формами в нем.
 
 ```csharp
 public IShape[] ToArray()
@@ -17,12 +16,12 @@ public IShape[] ToArray()
 
 ### Возвращаемое значение
 
-Массив из [`IShape`](../../ishape)
+Массив[`IShape`](../../ishape)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShape](../../ishape)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IShape](../../ishape)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -38,17 +37,17 @@ public IShape[] ToArray(int startIndex, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | Int32 | Индекс первой фигуры, которую нужно вернуть. |
-| count | Int32 | Количество фигур, которые нужно вернуть. |
+| startIndex | Int32 | Индекс первой возвращаемой фигуры. |
+| count | Int32 | Количество возвращаемых фигур. |
 
 ### Возвращаемое значение
 
-Массив из [`IShape`](../../ishape)
+Массив[`IShape`](../../ishape)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShape](../../ishape)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IShape](../../ishape)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Компиляция
+title: Compile
 second_title: Справочник по API Aspose.Slides для .NET
-description: Преобразует шаблон с заданным ключом и объектом модели в вывод.
+description: Преобразует шаблон с заданным ключом и объектом модели для вывода.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export.web/itemplateengine/compile/
 ---
+## ITemplateEngine.Compile method
 
-## Метод ITemplateEngine.Compile
-
-Преобразует шаблон с заданным ключом и объектом модели в вывод.
+Преобразует шаблон с заданным ключом и объектом модели для вывода.
 
 ```csharp
 public string Compile(string key, object model)
@@ -20,13 +19,13 @@ public string Compile(string key, object model)
 | key | String | Ключ для шаблона в коллекции шаблонов. |
 | model | Object | Объект модели с данными для преобразования. |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
-Результирующий вывод в виде строки.
+Результирующий вывод в видеString.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITemplateEngine](../../itemplateengine)
+* interface [ITemplateEngine](../../itemplateengine)
 * пространство имен [Aspose.Slides.Export.Web](../../itemplateengine)
 * сборка [Aspose.Slides](../../../)
 

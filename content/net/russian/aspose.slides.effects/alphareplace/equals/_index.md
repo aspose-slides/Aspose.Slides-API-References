@@ -1,15 +1,14 @@
 ---
-title: Равно
+title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, равен ли указанный AlphaReplaceaspose.slides.effects/alphareplace текущему AlphaReplaceaspose.slides.effects/alphareplace.
+description: Определяет равен ли указанныйAlphaReplaceaspose.slides.effects/alphareplaceтекущемуAlphaReplace.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/alphareplace/equals/
 ---
+## AlphaReplace.Equals method
 
-## Метод AlphaReplace.Equals
-
-Определяет, равен ли указанный [`AlphaReplace`](../../alphareplace) текущему [`AlphaReplace`](../../alphareplace).
+Определяет, равен ли указанный[`AlphaReplace`](../../alphareplace)текущемуAlphaReplace.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,15 +16,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaReplace`](../../alphareplace), с которым необходимо сравнить. |
+| obj | Object | [`AlphaReplace`](../../alphareplace)для сравнения. |
 
-### Значение, возвращаемое методом
+### Возвращаемое значение
 
-true, если объекты равны; в противном случае false.
+true, если объекты равны; в противном случае ложно.
 
-### См. также
+### Смотрите также
 
-* класс [AlphaReplace](../../alphareplace)
+* class [AlphaReplace](../../alphareplace)
 * пространство имен [Aspose.Slides.Effects](../../alphareplace)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: AddClone
-second_title: Aspose.Slides для .NET API справочник
-description: Добавляет копию указанного слайда макета в презентацию.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет в презентацию копию указанного макета слайда.
 type: docs
 weight: 30
 url: /ru/aspose.slides/igloballayoutslidecollection/addclone/
 ---
-
 ## AddClone(ILayoutSlide) {#addclone}
 
-Добавляет копию указанного слайда макета в презентацию.
+Добавляет в презентацию копию указанного макета слайда.
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
@@ -21,16 +20,16 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ### Возвращаемое значение
 
-Добавленный слайд.
+Добавлен слайд.
 
 ### Примечания
 
-При клонировании макета между разными презентациями можно также клонировать мастер макета, чтобы сохранить исходное форматирование. Используется внутренний реестр для автоматического отслеживания клонированных мастеров, чтобы предотвратить создание нескольких клонов одного и того же мастер-слайда. Ручное клонирование мастер-слайдов не будет предотвращаться и не будет регистрироваться.
+При клонировании макета между различными презентациями мастер макета также может быть клонирован для сохранения исходного форматирования. Внутренний реестр используется для отслеживания автоматически клонированных мастер-слайдов, чтобы предотвратить создание нескольких клонов одного и того же мастер-слайда. Ручное клонирование мастер-слайдов не будет ни предотвращено, ни зарегистрировано.
 
 ### Смотрите также
 
-* интерфейс [ILayoutSlide](../../ilayoutslide)
-* интерфейс [IGlobalLayoutSlideCollection](../../igloballayoutslidecollection)
+* interface [ILayoutSlide](../../ilayoutslide)
+* interface [IGlobalLayoutSlideCollection](../../igloballayoutslidecollection)
 * пространство имен [Aspose.Slides](../../igloballayoutslidecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -38,7 +37,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ## AddClone(ILayoutSlide, IMasterSlide) {#addclone_1}
 
-Добавляет копию указанного слайда макета в презентацию.
+Добавляет в презентацию копию указанного макета слайда.
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
@@ -51,17 +50,17 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
 
 ### Возвращаемое значение
 
-Добавленный слайд.
+Добавлен слайд.
 
 ### Примечания
 
-Новый макет будет связан с определенным мастером в целевой презентации. Таким образом, это аналогично копированию/вставке с опцией "Использовать тему назначения" в PowerPoint.
+Новый макет будет связан с определенным мастером в целевой презентации. Итак, это аналог копирования/вставки с опцией «Использовать целевую тему» в PowerPoint.
 
 ### Смотрите также
 
-* интерфейс [ILayoutSlide](../../ilayoutslide)
-* интерфейс [IMasterSlide](../../imasterslide)
-* интерфейс [IGlobalLayoutSlideCollection](../../igloballayoutslidecollection)
+* interface [ILayoutSlide](../../ilayoutslide)
+* interface [IMasterSlide](../../imasterslide)
+* interface [IGlobalLayoutSlideCollection](../../igloballayoutslidecollection)
 * пространство имен [Aspose.Slides](../../igloballayoutslidecollection)
 * сборка [Aspose.Slides](../../../)
 

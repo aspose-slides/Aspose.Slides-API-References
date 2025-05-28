@@ -1,13 +1,12 @@
 ---
 title: ISlidesPicture
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет изображение в презентации.
 type: docs
-weight: 6890
+weight: 6530
 url: /ru/aspose.slides/islidespicture/
 ---
-
-## Интерфейс ISlidesPicture
+## ISlidesPicture interface
 
 Представляет изображение в презентации.
 
@@ -15,18 +14,18 @@ url: /ru/aspose.slides/islidespicture/
 public interface ISlidesPicture : ISlideComponent
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Возвращает или устанавливает встроенное изображение. Чтение/запись [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Возвращает коллекцию эффектов преобразования изображения. Только для чтения [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Возвращает или устанавливает URL связанного изображения. Чтение/запись String. |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Возвращает или устанавливает встроенное изображение. Чтение/запись[`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Возвращает набор эффектов преобразования изображения. Только для чтения[`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Возвращает наборы URL связанного изображения. Чтение/записьString. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISlideComponent](../islidecomponent)
+* interface [ISlideComponent](../islidecomponent)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

@@ -1,23 +1,22 @@
 ---
 title: HasTitle
-second_title: Справочная информация по API Aspose.Sildes для .NET
-description: Определяет, имеет ли ось видимый заголовок. Чтение/запись Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет имеет ли ось видимое название. Чтение/записьBoolean.
 type: docs
 weight: 170
 url: /ru/aspose.slides.charts/axis/hastitle/
 ---
+## Axis.HasTitle property
 
-## Свойство Axis.HasTitle
-
-Определяет, имеет ли ось видимый заголовок. Чтение/запись Boolean.
+Определяет, имеет ли ось видимое название. Чтение/записьBoolean.
 
 ```csharp
 public bool HasTitle { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Axis](../../axis)
+* class [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

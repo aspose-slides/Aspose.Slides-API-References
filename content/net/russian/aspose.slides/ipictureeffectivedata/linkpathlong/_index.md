@@ -1,15 +1,14 @@
 ---
 title: LinkPathLong
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает URL связанных изображений. Свойство только для чтения строка.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает URL связанного изображения. Только чтениеString.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ipictureeffectivedata/linkpathlong/
 ---
+## IPictureEffectiveData.LinkPathLong property
 
-## Свойство IPictureEffectiveData.LinkPathLong
-
-Возвращает URL связанного изображения. Свойство только для чтения строка.
+Возвращает URL связанного изображения. Только чтениеString.
 
 ```csharp
 public string LinkPathLong { get; }
@@ -17,7 +16,7 @@ public string LinkPathLong { get; }
 
 ### Смотрите также
 
-* интерфейс [IPictureEffectiveData](../../ipictureeffectivedata)
+* interface [IPictureEffectiveData](../../ipictureeffectivedata)
 * пространство имен [Aspose.Slides](../../ipictureeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
-second_title: Aspose.Slides для .NET API Справочник
-description: Изменяет видимость плейсхолдера даты и времени на главном слайде и всех дочерних плейсхолдеров даты и времени. Дочерние плейсхолдеры обозначают плейсхолдеры, содержащиеся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Изменяет заполнитель даты и времени мастер-слайда и видимость всех дочерних заполнителей даты и времени. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
 type: docs
 weight: 20
 url: /ru/aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
+## MasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility method
 
-## MasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility метод
-
-Изменяет видимость плейсхолдера даты и времени на главном слайде и всех дочерних плейсхолдеров даты и времени. Дочерние плейсхолдеры обозначают плейсхолдеры, содержащиеся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
+Изменяет заполнитель даты и времени мастер-слайда и видимость всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -17,11 +16,11 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает плейсхолдера даты и времени видимым, иначе - скрывает его. |
+| isVisible | Boolean | true - делает видимыми заполнители даты и времени, иначе - скрывает их. |
 
-### См. также
+### Смотрите также
 
-* класс [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
+* class [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masterslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

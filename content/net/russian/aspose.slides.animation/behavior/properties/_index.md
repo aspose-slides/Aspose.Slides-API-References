@@ -1,15 +1,14 @@
 ---
-title: Свойства
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Представляет свойства поведения. Только для чтения IBehaviorPropertyCollectionaspose.slides.animation/ibehaviorpropertycollection.
+title: Properties
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет свойства поведения. Только для чтенияIBehaviorPropertyCollectionaspose.slides.animation/ibehaviorpropertycollection.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/behavior/properties/
 ---
+## Behavior.Properties property
 
-## Свойство Behavior.Properties
-
-Представляет свойства поведения. Только для чтения [`IBehaviorPropertyCollection`](../../ibehaviorpropertycollection).
+Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../../ibehaviorpropertycollection).
 
 ```csharp
 public IBehaviorPropertyCollection Properties { get; }
@@ -17,8 +16,8 @@ public IBehaviorPropertyCollection Properties { get; }
 
 ### Смотрите также
 
-* интерфейс [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
-* класс [Behavior](../../behavior)
+* interface [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
+* class [Behavior](../../behavior)
 * пространство имен [Aspose.Slides.Animation](../../behavior)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет точку данных по её индексу в коллекции точек родительской серии.
+description: Добавляет точку данных по ее индексу в коллекцию точек родительского ряда.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/piesplitcustompointcollection/add/
 ---
-
 ## Add(int) {#add_1}
 
-Добавляет точку данных по её индексу в коллекции точек родительской серии.
+Добавляет точку данных по ее индексу в коллекцию точек родительского ряда.
 
 ```csharp
 public void Add(int dataPointIndex)
@@ -17,17 +16,11 @@ public void Add(int dataPointIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataPointIndex | Int32 | Индекс точки данных в коллекции точек родительской серии. |
+| dataPointIndex | Int32 | Индекс точки данных в коллекции точек родительского ряда. |
 
-### Исключения
+### Смотрите также
 
-| исключение | условие |
-| --- | --- |
-| ArgumentException | Точка с заданным индексом не найдена. |
-
-### См. также
-
-* класс [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
+* class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * пространство имен [Aspose.Slides.Charts](../../piesplitcustompointcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -43,12 +36,12 @@ public void Add(IChartDataPoint dataPoint)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataPoint | IChartDataPoint | Точка данных для добавления. |
+| dataPoint | IChartDataPoint | Добавить точку данных. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* класс [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * пространство имен [Aspose.Slides.Charts](../../piesplitcustompointcollection)
 * сборка [Aspose.Slides](../../../)
 

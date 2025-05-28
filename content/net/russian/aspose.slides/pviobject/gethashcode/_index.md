@@ -1,15 +1,14 @@
 ---
 title: GetHashCode
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает хеш-код.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает хэш-код.
 type: docs
 weight: 30
 url: /ru/aspose.slides/pviobject/gethashcode/
 ---
+## PVIObject.GetHashCode method
 
-## Метод PVIObject.GetHashCode
-
-Возвращает хеш-код.
+Возвращает хэш-код.
 
 ```csharp
 public override int GetHashCode()
@@ -17,11 +16,11 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Хеш-код.
+Хэш-код.
 
-### См. также
+### Смотрите также
 
-* класс [PVIObject](../../pviobject)
+* class [PVIObject](../../pviobject)
 * пространство имен [Aspose.Slides](../../pviobject)
 * сборка [Aspose.Slides](../../../)
 

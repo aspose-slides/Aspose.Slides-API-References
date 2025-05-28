@@ -1,55 +1,40 @@
 ---
 title: IPictureFillFormat
-second_title: Aspose.Sildes for .NET API 参考
-description: 代表图像填充样式。
+second_title: Aspose.Slides for .NET API 参考
+description: 表示图片填充样式
 type: docs
-weight: 6450
+weight: 6090
 url: /zh/aspose.slides/ipicturefillformat/
 ---
+## IPictureFillFormat interface
 
-## IPictureFillFormat 接口
-
-代表图像填充样式。
+表示图片填充样式。
 
 ```csharp
 public interface IPictureFillFormat : IFillParamSource
 ```
 
-## 属性
+## 特性
 
-| 名称 | 描述 |
+| 姓名 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ipicturefillformat/asifillparamsource) { get; } | 允许获取基本 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
-| [CropBottom](../../aspose.slides/ipicturefillformat/cropbottom) { get; set; } | 返回或设置从图片底部裁剪的实际图像高度的百分比。读/写 Single。 |
-| [CropLeft](../../aspose.slides/ipicturefillformat/cropleft) { get; set; } | 返回或设置从图片左侧裁剪的实际图像宽度的百分比。读/写 Single。 |
-| [CropRight](../../aspose.slides/ipicturefillformat/cropright) { get; set; } | 返回或设置从图片右侧裁剪的实际图像宽度的百分比。读/写 Single。 |
-| [CropTop](../../aspose.slides/ipicturefillformat/croptop) { get; set; } | 返回或设置从图片顶部裁剪的实际图像高度的百分比。读/写 Single。 |
-| [Dpi](../../aspose.slides/ipicturefillformat/dpi) { get; set; } | 返回或设置用于填充图像的 dpi。读/写 Int32。 |
-| [Picture](../../aspose.slides/ipicturefillformat/picture) { get; } | 返回图片。只读 [`ISlidesPicture`](../islidespicture)。 |
-| [PictureFillMode](../../aspose.slides/ipicturefillformat/picturefillmode) { get; set; } | 返回或设置图像填充模式。读/写 [`PictureFillMode`](../picturefillmode)。 |
-| [StretchOffsetBottom](../../aspose.slides/ipicturefillformat/stretchoffsetbottom) { get; set; } | 返回或设置填充矩形的底边，该边由相对于形状边界框底边的百分比偏移定义。正百分比表示内缩，负百分比表示外缩。读/写 Single。 |
-| [StretchOffsetLeft](../../aspose.slides/ipicturefillformat/stretchoffsetleft) { get; set; } | 返回或设置填充矩形的左边，该边由相对于形状边界框左边的百分比偏移定义。正百分比表示内缩，负百分比表示外缩。读/写 Single。 |
-| [StretchOffsetRight](../../aspose.slides/ipicturefillformat/stretchoffsetright) { get; set; } | 返回或设置填充矩形的右边，该边由相对于形状边界框右边的百分比偏移定义。正百分比表示内缩，负百分比表示外缩。读/写 Single。 |
-| [StretchOffsetTop](../../aspose.slides/ipicturefillformat/stretchoffsettop) { get; set; } | 返回或设置填充矩形的顶部，该边由相对于形状边界框顶部的百分比偏移定义。正百分比表示内缩，负百分比表示外缩。读/写 Single。 |
-| [TileAlignment](../../aspose.slides/ipicturefillformat/tilealignment) { get; set; } | 返回或设置纹理在形状中的对齐方式。此设置控制纹理图案的起点以及它如何在形状中重复。读/写 [`RectangleAlignment`](../rectanglealignment)。 |
-| [TileFlip](../../aspose.slides/ipicturefillformat/tileflip) { get; set; } | 沿着其水平、垂直或两个轴翻转纹理瓷砖。读/写 [`TileFlip`](../tileflip)。 |
-| [TileOffsetX](../../aspose.slides/ipicturefillformat/tileoffsetx) { get; set; } | 返回或设置纹理从形状原点的水平偏移（以点为单位）。正值将纹理向右移动，负值将其向左移动。读/写 Single。 |
-| [TileOffsetY](../../aspose.slides/ipicturefillformat/tileoffsety) { get; set; } | 返回或设置纹理从形状原点的垂直偏移（以点为单位）。正值将纹理向下移动，负值将其向上移动。读/写 Single。 |
-| [TileScaleX](../../aspose.slides/ipicturefillformat/tilescalex) { get; set; } | 返回或设置纹理填充的水平缩放百分比。读/写 Single。 |
-| [TileScaleY](../../aspose.slides/ipicturefillformat/tilescaley) { get; set; } | 返回或设置纹理填充的垂直缩放百分比。读/写 Single。 |
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformat/asifillparamsource) { get; } | 允许获取基本的 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource)。 |
+| [CropBottom](../../aspose.slides/ipicturefillformat/cropbottom) { get; set; } | 返回或设置从图片底部裁剪掉的真实图像高度的百分比数量 。 读/写Single。 |
+| [CropLeft](../../aspose.slides/ipicturefillformat/cropleft) { get; set; } | 返回或设置被裁剪掉的真实图像宽度的百分比数量 图片左侧。 读/写Single。 |
+| [CropRight](../../aspose.slides/ipicturefillformat/cropright) { get; set; } | 返回或设置被裁剪掉的真实图像宽度的百分比数量 图片右侧。 读/写Single。 |
+| [CropTop](../../aspose.slides/ipicturefillformat/croptop) { get; set; } | 返回或设置从图片顶部裁剪掉的真实图像高度的百分比数量 。 读/写Single。 |
+| [Dpi](../../aspose.slides/ipicturefillformat/dpi) { get; set; } | 返回或设置用于填充图片的 dpi。 读/写Int32。 |
+| [Picture](../../aspose.slides/ipicturefillformat/picture) { get; } | 返回图片。 只读[`ISlidesPicture`](../islidespicture)。 |
+| [PictureFillMode](../../aspose.slides/ipicturefillformat/picturefillmode) { get; set; } | 返回或设置图片填充模式。 读/写[`PictureFillMode`](../picturefillmode)。 |
+| [StretchOffsetBottom](../../aspose.slides/ipicturefillformat/stretchoffsetbottom) { get; set; } | 返回或设置填充矩形的底部边缘，该矩形由距离形状边界框底部边缘的百分比偏移量 定义。 正百分比指定插入，而负百分比指定开始。 读/写Single。 |
+| [StretchOffsetLeft](../../aspose.slides/ipicturefillformat/stretchoffsetleft) { get; set; } | 返回或设置填充矩形的左边缘，该矩形由距离形状边界框左边缘的百分比偏移量 定义。 正百分比指定插入，而负百分比指定开始。 读/写Single。 |
+| [StretchOffsetRight](../../aspose.slides/ipicturefillformat/stretchoffsetright) { get; set; } | 返回或设置填充矩形的右边缘，该矩形由距离形状边界框右边缘的百分比偏移量 定义。 正百分比指定插入，而负百分比指定开始。 读/写Single。 |
+| [StretchOffsetTop](../../aspose.slides/ipicturefillformat/stretchoffsettop) { get; set; } | 返回或设置填充矩形的顶部边缘，该填充矩形由距离形状边界框顶部边缘的百分比偏移 定义。 正百分比指定插入，而负百分比指定开始。 读/写Single。 |
 
-## 方法
+### 也可以看看
 
-| 名称 | 描述 |
-| --- | --- |
-| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage_1)(bool, float) | 通过基于形状大小和指定分辨率减少图像大小来压缩图像。可选地，它还会删除裁剪区域。 |
-| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage)(bool, PicturesCompression) | 通过基于形状大小和指定分辨率减少图像大小来压缩图像。可选地，它还会删除裁剪区域。 |
-| [DeletePictureCroppedAreas](../../aspose.slides/ipicturefillformat/deletepicturecroppedareas)() | 删除填充图像的裁剪区域。 |
-
-### 另请参阅
-
-* 接口 [IFillParamSource](../ifillparamsource)
+* interface [IFillParamSource](../ifillparamsource)
 * 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* 部件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

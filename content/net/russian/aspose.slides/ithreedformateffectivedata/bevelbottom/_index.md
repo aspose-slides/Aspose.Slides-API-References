@@ -1,24 +1,23 @@
 ---
 title: BevelBottom
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает тип нижнего 3D-скоса. Только для чтения IShapeBevelEffectiveDataaspose.slides/ishapebeveleffectivedata.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает тип нижней трехмерной фаски. Только для чтенияIShapeBevelEffectiveDataaspose.slides/ishapebeveleffectivedata.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ithreedformateffectivedata/bevelbottom/
 ---
+## IThreeDFormatEffectiveData.BevelBottom property
 
-## IThreeDFormatEffectiveData.BevelBottom свойство
-
-Возвращает тип нижнего 3D-скоса. Только для чтения [`IShapeBevelEffectiveData`](../../ishapebeveleffectivedata).
+Возвращает тип нижней трехмерной фаски. Только для чтения[`IShapeBevelEffectiveData`](../../ishapebeveleffectivedata).
 
 ```csharp
 public IShapeBevelEffectiveData BevelBottom { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShapeBevelEffectiveData](../../ishapebeveleffectivedata)
-* интерфейс [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
+* interface [IShapeBevelEffectiveData](../../ishapebeveleffectivedata)
+* interface [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * пространство имен [Aspose.Slides](../../ithreedformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

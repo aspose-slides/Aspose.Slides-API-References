@@ -1,23 +1,22 @@
 ---
-title: Сохранить
+title: Preserve
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, будет ли соответствующий слайд-мастер удален, когда все слайды, следующие за этим мастером, будут удалены. Обратите внимание Aspose.Slides никогда не удалит неиспользуемый мастер самостоятельно; для фактического удаления неиспользуемых мастеров вызовите RemoveUnusedaspose.slides/imasterslidecollection/removeunused Запись/чтение Логическое.
+description: Определяет удаляется ли соответствующий мастер когда удаляются все слайды  следующие за этим мастером. ПримечаниеAspose.Slides никогда не удалит неиспользуемый мастер сам по себе для фактического удаления неиспользуемых мастеров вызовитеRemoveUnusedaspose.slides/imasterslidecollection/removeunused Чтение/записьBoolean.
 type: docs
 weight: 80
 url: /ru/aspose.slides/imasterslide/preserve/
 ---
+## IMasterSlide.Preserve property
 
-## IMasterSlide.Preserve свойство
-
-Определяет, будет ли соответствующий мастер удален, когда все слайды, следующие за этим мастером, будут удалены. Обратите внимание: Aspose.Slides никогда не удалит неиспользуемый мастер самостоятельно; для фактического удаления неиспользуемых мастеров вызовите [`RemoveUnused`](../../imasterslidecollection/removeunused) Запись/чтение Логическое.
+Определяет, удаляется ли соответствующий мастер, когда удаляются все слайды , следующие за этим мастером. Примечание:Aspose.Slides никогда не удалит неиспользуемый мастер сам по себе, для фактического удаления неиспользуемых мастеров вызовите[`RemoveUnused`](../../imasterslidecollection/removeunused) Чтение/записьBoolean.
 
 ```csharp
 public bool Preserve { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMasterSlide](../../imasterslide)
+* interface [IMasterSlide](../../imasterslide)
 * пространство имен [Aspose.Slides](../../imasterslide)
 * сборка [Aspose.Slides](../../../)
 

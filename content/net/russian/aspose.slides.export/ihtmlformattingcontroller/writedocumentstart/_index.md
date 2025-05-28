@@ -1,15 +1,14 @@
 ---
 title: WriteDocumentStart
-second_title: Aspose.Slides для .NET API Справочник
-description: Вызывается для записи заголовка html документа. Вызывается один раз при конверсии презентации.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вызывается для записи заголовка html документа. Вызывается один раз при преобразовании презентации.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/ihtmlformattingcontroller/writedocumentstart/
 ---
+## IHtmlFormattingController.WriteDocumentStart method
 
-## IHtmlFormattingController.WriteDocumentStart метод
-
-Вызывается для записи заголовка html документа. Вызывается один раз при конверсии презентации.
+Вызывается для записи заголовка html документа. Вызывается один раз при преобразовании презентации.
 
 ```csharp
 public void WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)
@@ -17,14 +16,14 @@ public void WriteDocumentStart(IHtmlGenerator generator, IPresentation presentat
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| generator | IHtmlGenerator | Объект вывода. |
-| presentation | IPresentation | Презентация, которая в настоящий момент отображается. |
+| генератор | IHtmlGenerator | Выходной объект. |
+| presentation | IPresentation | Презентация, которая отображается в данный момент. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
-* интерфейс [IPresentation](../../../aspose.slides/ipresentation)
-* интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
+* interface [IHtmlGenerator](../../ihtmlgenerator)
+* interface [IPresentation](../../../aspose.slides/ipresentation)
+* interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * пространство имен [Aspose.Slides.Export](../../ihtmlformattingcontroller)
 * сборка [Aspose.Slides](../../../)
 

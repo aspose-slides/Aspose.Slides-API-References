@@ -1,13 +1,12 @@
 ---
 title: IMathRightSubSuperscriptElementFactory
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Позволяет создать IMathRightSubSuperscriptElementFactory
 type: docs
-weight: 8200
+weight: 7740
 url: /ru/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/
 ---
-
-## Интерфейс IMathRightSubSuperscriptElementFactory
+## IMathRightSubSuperscriptElementFactory interface
 
 Позволяет создать IMathRightSubSuperscriptElementFactory
 
@@ -17,15 +16,15 @@ public interface IMathRightSubSuperscriptElementFactory
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [CreateMathRightSubSuperscriptElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | Создает IMathRightSubSuperscriptElementFactory |
 
 ### Примечания
 
-Для совместимости с COM
+Для COM-совместимость
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

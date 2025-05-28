@@ -1,13 +1,12 @@
 ---
 title: CreateRotationEffect
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает эффект вращения.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/ibehaviorfactory/createrotationeffect/
 ---
-
-## Метод IBehaviorFactory.CreateRotationEffect
+## IBehaviorFactory.CreateRotationEffect method
 
 Создает эффект вращения.
 
@@ -19,10 +18,10 @@ public IRotationEffect CreateRotationEffect()
 
 Эффект вращения.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IRotationEffect](../../irotationeffect)
-* интерфейс [IBehaviorFactory](../../ibehaviorfactory)
+* interface [IRotationEffect](../../irotationeffect)
+* interface [IBehaviorFactory](../../ibehaviorfactory)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorfactory)
 * сборка [Aspose.Slides](../../../)
 

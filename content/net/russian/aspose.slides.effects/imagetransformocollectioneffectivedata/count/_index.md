@@ -1,15 +1,14 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает количество эффектов изображения в коллекции. Доступен только для чтения Int32.
+title: Count
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает количество эффектов изображения в коллекции. Только для чтенияInt32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/count/
 ---
+## ImageTransformOCollectionEffectiveData.Count property
 
-## Свойство ImageTransformOCollectionEffectiveData.Count
-
-Возвращает количество эффектов изображения в коллекции. Доступен только для чтения Int32.
+Возвращает количество эффектов изображения в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
@@ -17,7 +16,7 @@ public int Count { get; }
 
 ### Смотрите также
 
-* класс [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
+* class [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

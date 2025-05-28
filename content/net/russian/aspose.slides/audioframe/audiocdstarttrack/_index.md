@@ -1,23 +1,22 @@
 ---
 title: AudioCdStartTrack
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает индекс начального трека. Читаемое/записываемое Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает индекс начальной дорожки. Чтение/записьInt32.
 type: docs
 weight: 30
 url: /ru/aspose.slides/audioframe/audiocdstarttrack/
 ---
+## AudioFrame.AudioCdStartTrack property
 
-## AudioFrame.AudioCdStartTrack свойство
-
-Возвращает или устанавливает индекс начального трека. Читаемое/записываемое Int32.
+Возвращает или устанавливает индекс начальной дорожки. Чтение/записьInt32.
 
 ```csharp
 public int AudioCdStartTrack { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [AudioFrame](../../audioframe)
+* class [AudioFrame](../../audioframe)
 * пространство имен [Aspose.Slides](../../audioframe)
 * сборка [Aspose.Slides](../../../)
 

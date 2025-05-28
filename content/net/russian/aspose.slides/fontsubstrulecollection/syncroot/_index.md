@@ -1,23 +1,22 @@
 ---
 title: SyncRoot
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает корень синхронизации. Объект только для чтения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает корень синхронизации. Только для чтенияObject.
 type: docs
 weight: 50
 url: /ru/aspose.slides/fontsubstrulecollection/syncroot/
 ---
+## FontSubstRuleCollection.SyncRoot property
 
-## Свойство FontSubstRuleCollection.SyncRoot
-
-Возвращает корень синхронизации. Объект только для чтения.
+Возвращает корень синхронизации. Только для чтенияObject.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [FontSubstRuleCollection](../../fontsubstrulecollection)
+* class [FontSubstRuleCollection](../../fontsubstrulecollection)
 * пространство имен [Aspose.Slides](../../fontsubstrulecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Фигуры
-second_title: Справка по API Aspose.Slides для .NET
-description: Собирает все экземпляры Shapeaspose.slides/shape в Presentationaspose.slides/presentation.
+title: Shapes
+second_title: Справочник по API Aspose.Slides для .NET
+description: Собирает все экземплярыShapeaspose.slides/shapeвPresentationaspose.slides/presentation.
 type: docs
 weight: 10
 url: /ru/aspose.slides.lowcode/collect/shapes/
 ---
+## Collect.Shapes method
 
-## Метод Collect.Shapes
-
-Собирает все экземпляры [`Shape`](../../../aspose.slides/shape) в [`Presentation`](../../../aspose.slides/presentation).
+Собирает все экземпляры[`Shape`](../../../aspose.slides/shape)в[`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static IEnumerable<Shape> Shapes(Presentation pres)
@@ -21,7 +20,7 @@ public static IEnumerable<Shape> Shapes(Presentation pres)
 
 ### Возвращаемое значение
 
-Коллекция всех фигур, содержащихся в презентации
+Коллекция всех форм, которые содержать в презентации
 
 ### Примеры
 
@@ -30,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // если фигура является AutoShape, добавьте черную сплошную рамку
+         // если фигура AutoShape, добавьте сплошную черную границу border
         if (shape is AutoShape autoShape)
         {
             autoShape.LineFormat.Style = LineStyle.Single;
@@ -44,11 +43,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Shape](../../../aspose.slides/shape)
-* класс [Presentation](../../../aspose.slides/presentation)
-* класс [Collect](../../collect)
+* class [Shape](../../../aspose.slides/shape)
+* class [Presentation](../../../aspose.slides/presentation)
+* class [Collect](../../collect)
 * пространство имен [Aspose.Slides.LowCode](../../collect)
 * сборка [Aspose.Slides](../../../)
 

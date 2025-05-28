@@ -1,26 +1,25 @@
 ---
 title: IThemeEffectiveData
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Неподвижный объект, содержащий свойства эффективной темы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект содержащий действующие свойства темы.
 type: docs
-weight: 11070
+weight: 10570
 url: /ru/aspose.slides.theme/ithemeeffectivedata/
 ---
+## IThemeEffectiveData interface
 
-## Интерфейс IThemeEffectiveData
-
-Неподвижный объект, содержащий свойства эффективной темы.
+Неизменяемый объект, содержащий действующие свойства темы.
 
 ```csharp
 public interface IThemeEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Возвращает схему шрифта. Только для чтения [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Возвращает схему формата фигур. Только для чтения [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Возвращает схему шрифта. Только чтение[`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Возвращает схему формата фигуры. Только для чтения[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## Методы
 
@@ -30,9 +29,9 @@ public interface IThemeEffectiveData
 
 ### Примечания
 
-Этот интерфейс используется вместе с интерфейсом [`ITheme`](../itheme), чтобы вернуть эффективные значения форматирования с применением наследования.
+Этот интерфейс используется вместе сИнтерфейсIThemeдля возврата эффективных значений форматирования с применением наследования.
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)

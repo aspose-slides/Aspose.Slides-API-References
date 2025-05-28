@@ -1,13 +1,12 @@
 ---
 title: DisableGlowEffect
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Отключить эффект свечения.
 type: docs
 weight: 120
 url: /ru/aspose.slides/effectformat/disablegloweffect/
 ---
-
-## Метод EffectFormat.DisableGlowEffect
+## EffectFormat.DisableGlowEffect method
 
 Отключить эффект свечения.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/effectformat/disablegloweffect/
 public void DisableGlowEffect()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [EffectFormat](../../effectformat)
+* class [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

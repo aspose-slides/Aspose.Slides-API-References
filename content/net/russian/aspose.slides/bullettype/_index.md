@@ -1,31 +1,30 @@
 ---
 title: BulletType
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет тип расширенных маркеров.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет тип расширенных пуль.
 type: docs
-weight: 1000
+weight: 960
 url: /ru/aspose.slides/bullettype/
 ---
+## BulletType enumeration
 
-## Перечисление BulletType
-
-Представляет тип расширенных маркеров.
+Представляет тип расширенных пуль.
 
 ```csharp
 public enum BulletType : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |
-| Symbol | `1` | Символьные маркеры. |
-| Numbered | `2` | Нумерованные маркеры. |
-| Picture | `3` | Маркеры изображениями. |
+| Symbol | `1` | Символ пули. |
+| Numbered | `2` | Нумерованные пули. |
+| Picture | `3` | Картинка пули. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

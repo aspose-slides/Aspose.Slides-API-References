@@ -1,13 +1,12 @@
 ---
-title: Удалить
-second_title: Справочник API Aspose.Slides для .NET
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет категорию из диаграммы.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/chartcategory/remove/
 ---
-
-## Метод ChartCategory.Remove
+## ChartCategory.Remove method
 
 Удаляет категорию из диаграммы.
 
@@ -21,9 +20,9 @@ public void Remove()
 | --- | --- |
 | [PptxEditException](../../../aspose.slides/pptxeditexception) | Выбрасывается, если категория уже удалена из диаграммы. |
 
-### См. также
+### Смотрите также
 
-* класс [ChartCategory](../../chartcategory)
+* class [ChartCategory](../../chartcategory)
 * пространство имен [Aspose.Slides.Charts](../../chartcategory)
 * сборка [Aspose.Slides](../../../)
 

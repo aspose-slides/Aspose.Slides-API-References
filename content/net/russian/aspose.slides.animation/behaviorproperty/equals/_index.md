@@ -1,13 +1,12 @@
 ---
-title: Равенство
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Проверяет, равен ли этот объект другому.
+title: Equals
+second_title: Справочник по API Aspose.Slides для .NET
+description: Проверяет равен ли этот объект другому.
 type: docs
 weight: 1250
 url: /ru/aspose.slides.animation/behaviorproperty/equals/
 ---
-
-## Метод BehaviorProperty.Equals
+## BehaviorProperty.Equals method
 
 Проверяет, равен ли этот объект другому.
 
@@ -21,11 +20,11 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-Истина, если объекты равны.
+Истинно, если объекты равны.
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: SoundLoop
 second_title: Справочник по API Aspose.Slides для .NET
-description: Этот атрибут указывает, будет ли звук повторяться до тех пор, пока не произойдет следующее событие звука в слайд-шоу. Читаемое и записываемое логическое значение.
+description: Этот атрибут указывает будет ли звук повторяться до тех пор пока не произойдет следующее звуковое событие в слайд-шоу . Чтение-записьBoolean.
 type: docs
-weight: 60
+weight: 50
 url: /ru/aspose.slides/islideshowtransition/soundloop/
 ---
+## ISlideShowTransition.SoundLoop property
 
-## Свойство ISlideShowTransition.SoundLoop
-
-Этот атрибут указывает, будет ли звук повторяться до тех пор, пока не произойдет следующее событие звука в слайд-шоу. Читаемое и записываемое логическое значение.
+Этот атрибут указывает, будет ли звук повторяться до тех пор, пока не произойдет следующее звуковое событие в слайд-шоу . Чтение-записьBoolean.
 
 ```csharp
 public bool SoundLoop { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISlideShowTransition](../../islideshowtransition)
+* interface [ISlideShowTransition](../../islideshowtransition)
 * пространство имен [Aspose.Slides](../../islideshowtransition)
 * сборка [Aspose.Slides](../../../)
 

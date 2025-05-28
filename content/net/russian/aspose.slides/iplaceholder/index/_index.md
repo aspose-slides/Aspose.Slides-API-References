@@ -1,23 +1,22 @@
 ---
-title: Индекс
-second_title: Справочный материал по API Aspose.Slides для .NET
-description: Получает индекс заполнителя. Только для чтения UInt32.
+title: Index
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает индекс заполнителя. Только для чтенияUInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iplaceholder/index/
 ---
+## IPlaceholder.Index property
 
-## Свойство IPlaceholder.Index
-
-Получает индекс заполнителя. Только для чтения UInt32.
+Получает индекс заполнителя. Только для чтенияUInt32.
 
 ```csharp
 public uint Index { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPlaceholder](../../iplaceholder)
+* interface [IPlaceholder](../../iplaceholder)
 * пространство имен [Aspose.Slides](../../iplaceholder)
 * сборка [Aspose.Slides](../../../)
 

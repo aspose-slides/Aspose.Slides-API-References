@@ -1,24 +1,23 @@
 ---
-title: Серии
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает доступную только для чтения коллекцию серий диаграмм. Доступная только для чтения IChartSeriesReadonlyCollectionaspose.slides/ichartseriesreadonlycollection.
+title: Series
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает доступную только для чтения коллекцию серий диаграмм. Только для чтенияIChartSeriesReadonlyCollectionaspose.slides.charts/ichartseriesreadonlycollection.
 type: docs
 weight: 180
 url: /ru/aspose.slides.charts/ichartseriesgroup/series/
 ---
+## IChartSeriesGroup.Series property
 
-## Свойство IChartSeriesGroup.Series
-
-Возвращает доступную только для чтения коллекцию серий диаграмм. Доступная только для чтения [`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection).
+Возвращает доступную только для чтения коллекцию серий диаграмм. Только для чтения[`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection).
 
 ```csharp
 public IChartSeriesReadonlyCollection Series { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartSeriesReadonlyCollection](../../ichartseriesreadonlycollection)
-* интерфейс [IChartSeriesGroup](../../ichartseriesgroup)
+* interface [IChartSeriesReadonlyCollection](../../ichartseriesreadonlycollection)
+* interface [IChartSeriesGroup](../../ichartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

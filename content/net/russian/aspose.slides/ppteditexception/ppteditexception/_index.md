@@ -1,12 +1,11 @@
 ---
 title: PptEditException
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ppteditexception/ppteditexception/
 ---
-
 ## PptEditException() {#constructor}
 
 Конструктор по умолчанию.
@@ -17,7 +16,7 @@ public PptEditException()
 
 ### Смотрите также
 
-* класс [PptEditException](../../ppteditexception)
+* class [PptEditException](../../ppteditexception)
 * пространство имен [Aspose.Slides](../../ppteditexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -33,11 +32,11 @@ public PptEditException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | String | сообщение |
+| сообщение | String | сообщение |
 
 ### Смотрите также
 
-* класс [PptEditException](../../ppteditexception)
+* class [PptEditException](../../ppteditexception)
 * пространство имен [Aspose.Slides](../../ppteditexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -45,7 +44,7 @@ public PptEditException(string message)
 
 ## PptEditException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащее сообщение и вложенное исключение.
+Конструктор исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public PptEditException(string message, Exception exception)
@@ -53,12 +52,12 @@ public PptEditException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | String | сообщение |
-| exception | Exception | оригинальное исключение |
+| сообщение | String | сообщение |
+| исключение | Exception | исходное исключение |
 
 ### Смотрите также
 
-* класс [PptEditException](../../ppteditexception)
+* class [PptEditException](../../ppteditexception)
 * пространство имен [Aspose.Slides](../../ppteditexception)
 * сборка [Aspose.Slides](../../../)
 

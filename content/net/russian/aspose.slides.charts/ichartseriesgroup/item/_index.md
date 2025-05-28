@@ -1,13 +1,12 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Slides для .NET
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/ichartseriesgroup/item/
 ---
-
-## IChartSeriesGroup индексатор
+## IChartSeriesGroup indexer
 
 Получает элемент по указанному индексу.
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides.charts/ichartseriesgroup/item/
 public IChartSeries this[int index] { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IChartSeries](../../ichartseries)
-* интерфейс [IChartSeriesGroup](../../ichartseriesgroup)
+* interface [IChartSeries](../../ichartseries)
+* interface [IChartSeriesGroup](../../ichartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

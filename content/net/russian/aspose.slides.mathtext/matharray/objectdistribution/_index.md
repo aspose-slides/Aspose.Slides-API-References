@@ -1,15 +1,14 @@
 ---
 title: ObjectDistribution
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Распределение объектов Когда true содержимое массива распределяется по максимальной ширине объекта массива.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Распределение объектов При значении true содержимое массива размещается на максимальной ширине объекта массива.
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/matharray/objectdistribution/
 ---
+## MathArray.ObjectDistribution property
 
-## MathArray.ObjectDistribution свойство
-
-Распределение объектов Когда true, содержимое массива распределяется по максимальной ширине объекта массива.
+Распределение объектов При значении true содержимое массива размещается на максимальной ширине объекта массива.
 
 ```csharp
 public bool ObjectDistribution { get; set; }
@@ -25,9 +24,9 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.ObjectDistribution = true;
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathArray](../../matharray)
+* class [MathArray](../../matharray)
 * пространство имен [Aspose.Slides.MathText](../../matharray)
 * сборка [Aspose.Slides](../../../)
 

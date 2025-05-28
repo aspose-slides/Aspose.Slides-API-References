@@ -1,13 +1,12 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет индекс шрифтов в коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет индекс шрифта в коллекции.
 type: docs
-weight: 4620
+weight: 4370
 url: /ru/aspose.slides/fontcollectionindex/
 ---
-
-## Перечисление FontCollectionIndex
+## FontCollectionIndex enumeration
 
 Представляет индекс шрифта в коллекции.
 
@@ -15,15 +14,15 @@ url: /ru/aspose.slides/fontcollectionindex/
 public enum FontCollectionIndex : byte
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` |  |
 | Minor | `1` |  |
 | Major | `2` |  |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

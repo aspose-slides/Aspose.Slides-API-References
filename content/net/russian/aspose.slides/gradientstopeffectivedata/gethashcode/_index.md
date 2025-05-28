@@ -1,20 +1,20 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Sildes для .NET
-description: type docs
+second_title: Справочник по API Aspose.Slides для .NET
+description: 
+type: docs
 weight: 40
 url: /ru/aspose.slides/gradientstopeffectivedata/gethashcode/
 ---
-
-## Метод GradientStopEffectiveData.GetHashCode
+## GradientStopEffectiveData.GetHashCode method
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [GradientStopEffectiveData](../../gradientstopeffectivedata)
+* class [GradientStopEffectiveData](../../gradientstopeffectivedata)
 * пространство имен [Aspose.Slides](../../gradientstopeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

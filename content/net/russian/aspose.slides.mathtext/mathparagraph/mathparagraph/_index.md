@@ -1,12 +1,11 @@
 ---
 title: MathParagraph
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр класса MathParagraph.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathparagraph/mathparagraph/
 ---
-
 ## MathParagraph() {#constructor}
 
 Инициализирует новый экземпляр класса MathParagraph.
@@ -24,9 +23,9 @@ public MathParagraph()
 MathParagraph mathParagraph = new MathParagraph();
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathParagraph](../../mathparagraph)
+* class [MathParagraph](../../mathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraph)
 * сборка [Aspose.Slides](../../../)
 
@@ -49,10 +48,10 @@ public MathParagraph(IMathBlock mathBlock)
 MathParagraph mathParagraph = new MathParagraph(new MathBlock());
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathBlock](../../imathblock)
-* класс [MathParagraph](../../mathparagraph)
+* interface [IMathBlock](../../imathblock)
+* class [MathParagraph](../../mathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraph)
 * сборка [Aspose.Slides](../../../)
 

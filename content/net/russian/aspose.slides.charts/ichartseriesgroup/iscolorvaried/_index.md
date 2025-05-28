@@ -1,15 +1,14 @@
 ---
 title: IsColorVaried
-second_title: Aspose.Sildes для справочника API .NET
-description: Указывает, что каждый маркер данных в серии имеет разный цвет. Читаемый/записываемый Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает что каждый маркер данных в серии имеет свой цвет. Чтение/записьBoolean.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/ichartseriesgroup/iscolorvaried/
 ---
+## IChartSeriesGroup.IsColorVaried property
 
-## IChartSeriesGroup.IsColorVaried свойство
-
-Указывает, что каждый маркер данных в серии имеет разный цвет. Читаемый/записываемый Boolean.
+Указывает, что каждый маркер данных в серии имеет свой цвет. Чтение/записьBoolean.
 
 ```csharp
 public bool IsColorVaried { get; set; }
@@ -17,7 +16,7 @@ public bool IsColorVaried { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IChartSeriesGroup](../../ichartseriesgroup)
+* interface [IChartSeriesGroup](../../ichartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

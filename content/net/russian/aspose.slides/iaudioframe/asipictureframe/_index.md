@@ -1,24 +1,23 @@
 ---
 title: AsIPictureFrame
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IPictureFrame. Только для чтения IPictureFrameaspose.slides/ipictureframe.
+description: Позволяет получить базовый интерфейс IPictureFrame. Только для чтенияIPictureFrameaspose.slides/ipictureframe.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iaudioframe/asipictureframe/
 ---
+## IAudioFrame.AsIPictureFrame property
 
-## IAudioFrame.AsIPictureFrame свойство
-
-Позволяет получить базовый интерфейс IPictureFrame. Только для чтения [`IPictureFrame`](../../ipictureframe).
+Позволяет получить базовый интерфейс IPictureFrame. Только для чтения[`IPictureFrame`](../../ipictureframe).
 
 ```csharp
 public IPictureFrame AsIPictureFrame { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPictureFrame](../../ipictureframe)
-* интерфейс [IAudioFrame](../../iaudioframe)
+* interface [IPictureFrame](../../ipictureframe)
+* interface [IAudioFrame](../../iaudioframe)
 * пространство имен [Aspose.Slides](../../iaudioframe)
 * сборка [Aspose.Slides](../../../)
 

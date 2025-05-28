@@ -6,8 +6,7 @@ type: docs
 weight: 250
 url: /ru/aspose.slides/ieffectformat/enablesoftedgeeffect/
 ---
-
-## Метод IEffectFormat.EnableSoftEdgeEffect
+## IEffectFormat.EnableSoftEdgeEffect method
 
 Включает эффект мягкого края.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/ieffectformat/enablesoftedgeeffect/
 public void EnableSoftEdgeEffect()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectFormat](../../ieffectformat)
+* interface [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)
 * сборка [Aspose.Slides](../../../)
 

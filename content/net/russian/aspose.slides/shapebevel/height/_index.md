@@ -1,23 +1,22 @@
 ---
-title: Высота
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Высота скошенного края. Читаемая/записываемая Double.
+title: Height
+second_title: Справочник по API Aspose.Slides для .NET
+description: Высота скоса. Чтение/записьDouble.
 type: docs
 weight: 30
 url: /ru/aspose.slides/shapebevel/height/
 ---
+## ShapeBevel.Height property
 
-## Свойство ShapeBevel.Height
-
-Высота скошенного края. Читаемая/записываемая Double.
+Высота скоса. Чтение/записьDouble.
 
 ```csharp
 public double Height { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ShapeBevel](../../shapebevel)
+* class [ShapeBevel](../../shapebevel)
 * пространство имен [Aspose.Slides](../../shapebevel)
 * сборка [Aspose.Slides](../../../)
 

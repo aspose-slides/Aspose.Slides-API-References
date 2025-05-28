@@ -1,30 +1,29 @@
 ---
 title: IMasterThemeable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет менеджер главной темы.
+description: Представляет главный менеджер тем.
 type: docs
-weight: 11020
+weight: 10520
 url: /ru/aspose.slides.theme/imasterthemeable/
 ---
+## IMasterThemeable interface
 
-## Интерфейс IMasterThemeable
-
-Представляет менеджер главной темы.
+Представляет главный менеджер тем.
 
 ```csharp
 public interface IMasterThemeable : IThemeable
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Возвращает интерфейс IThemeable. Только для чтения [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Возвращает менеджер главной темы. Только для чтения [`IMasterThemeManager`](../imasterthememanager). |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Возвращает интерфейс IThemeable. Только для чтения[`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Возвращает главный менеджер тем. Только для чтения[`IMasterThemeManager`](../imasterthememanager). |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IThemeable](../ithemeable)
+* interface [IThemeable](../ithemeable)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

@@ -1,15 +1,14 @@
 ---
 title: SetEmbeddedData
-second_title: Aspose.Slides для .NET API Reference
-description: Устанавливает информацию об OLE встроенных данных.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает информацию о встроенных данных OLE.
 type: docs
-weight: 150
+weight: 140
 url: /ru/aspose.slides/ioleobjectframe/setembeddeddata/
 ---
+## IOleObjectFrame.SetEmbeddedData method
 
-## IOleObjectFrame.SetEmbeddedData метод
-
-Устанавливает информацию об OLE встроенных данных.
+Устанавливает информацию о встроенных данных OLE.
 
 ```csharp
 public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
@@ -17,21 +16,21 @@ public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| embeddedData | IOleEmbeddedDataInfo | Встроенные данные [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo) |
+| embeddedData | IOleEmbeddedDataInfo | Встроенные данные[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo) |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Когда параметр embeddedData равен null. |
+| ArgumentNullException | Когда параметр embeddedData имеет значение null. |
 
 ### Примечания
 
-Этот метод изменяет свойства объекта, чтобы отразить новые данные и устанавливает флаг IsObjectLink в false, указывая, что OLE объект встроен.
+Этот метод изменяет свойства объекта, чтобы отразить новые данные и устанавливает для флага IsObjectLink значение false, указывая на то, что объект OLE внедрен.
 
 ### Примеры
 
-Следующий пример демонстрирует, как изменить OLE встроенные данные и их тип для существующего [`IOleObjectFrame`](../../ioleobjectframe) объекта
+В следующем примере показано, как изменить встроенные данные OLE и их тип для существующих[`IOleObjectFrame`](../../ioleobjectframe)объект
 
 ```csharp
 [C#]
@@ -46,10 +45,10 @@ using (Presentation pres = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
-* интерфейс [IOleObjectFrame](../../ioleobjectframe)
+* interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
+* interface [IOleObjectFrame](../../ioleobjectframe)
 * пространство имен [Aspose.Slides](../../ioleobjectframe)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,28 +1,27 @@
 ---
 title: AsIOverrideThemeable
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает интерфейс IOverrideThemeable. Только для чтения IOverrideThemeableaspose.slides.theme/ioverridethemeable.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает интерфейс IOverrideThemeable. Только для чтенияIOverrideThemeableaspose.slides.theme/ioverridethemeable.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ilayoutslide/asioverridethemeable/
 ---
+## ILayoutSlide.AsIOverrideThemeable property
 
-## Свойство ILayoutSlide.AsIOverrideThemeable
-
-Возвращает интерфейс IOverrideThemeable. Только для чтения [`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).
+Возвращает интерфейс IOverrideThemeable. Только для чтения[`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).
 
 ```csharp
 public IOverrideThemeable AsIOverrideThemeable { get; }
 ```
 
-### Замечания
+### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IOverrideThemeable](../../../aspose.slides.theme/ioverridethemeable)
-* интерфейс [ILayoutSlide](../../ilayoutslide)
+* interface [IOverrideThemeable](../../../aspose.slides.theme/ioverridethemeable)
+* interface [ILayoutSlide](../../ilayoutslide)
 * пространство имен [Aspose.Slides](../../ilayoutslide)
 * сборка [Aspose.Slides](../../../)
 

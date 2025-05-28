@@ -1,15 +1,14 @@
 ---
 title: SummaryZoomCollection
-second_title: Aspose.Slides для .NET API Reference
-description: Получает ISummaryZoomSectionCollection aspose.slides/isummaryzoomsectioncollection для объекта Summary Zoom Frame.
+second_title: Справочник по API Aspose.Slides для .NET
+description: ПолучаетISummaryZoomSectionCollectionaspose.slides/isummaryzoomsectioncollectionдля объекта Сводная рамка масштабирования.
 type: docs
 weight: 30
 url: /ru/aspose.slides/isummaryzoomframe/summaryzoomcollection/
 ---
+## ISummaryZoomFrame.SummaryZoomCollection property
 
-## ISummaryZoomFrame.SummaryZoomCollection свойство
-
-Получает [`ISummaryZoomSectionCollection`](../../isummaryzoomsectioncollection) для объекта Summary Zoom Frame.
+Получает[`ISummaryZoomSectionCollection`](../../isummaryzoomsectioncollection)для объекта Сводная рамка масштабирования.
 
 ```csharp
 public ISummaryZoomSectionCollection SummaryZoomCollection { get; }
@@ -17,7 +16,7 @@ public ISummaryZoomSectionCollection SummaryZoomCollection { get; }
 
 ### Примеры
 
-Пример демонстрирует получение элемента раздела Summary Zoom по индексу:
+Пример демонстрирует получение элемента Summary Zoom Section по индексу:
 
 ```csharp
 [C#]
@@ -28,10 +27,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
-* интерфейс [ISummaryZoomFrame](../../isummaryzoomframe)
+* interface [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
+* interface [ISummaryZoomFrame](../../isummaryzoomframe)
 * пространство имен [Aspose.Slides](../../isummaryzoomframe)
 * сборка [Aspose.Slides](../../../)
 

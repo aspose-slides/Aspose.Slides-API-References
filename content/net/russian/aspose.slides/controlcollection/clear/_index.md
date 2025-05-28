@@ -1,13 +1,12 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все элементы управления из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/controlcollection/clear/
 ---
-
-## Метод ControlCollection.Clear
+## ControlCollection.Clear method
 
 Удаляет все элементы управления из коллекции.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/controlcollection/clear/
 public void Clear()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [ControlCollection](../../controlcollection)
+* class [ControlCollection](../../controlcollection)
 * пространство имен [Aspose.Slides](../../controlcollection)
 * сборка [Aspose.Slides](../../../)
 

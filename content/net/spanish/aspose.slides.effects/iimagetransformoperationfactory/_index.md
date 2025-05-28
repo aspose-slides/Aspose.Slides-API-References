@@ -1,13 +1,12 @@
 ---
 title: IImageTransformOperationFactory
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Permite crear instancias de efectos de imagen
 type: docs
-weight: 3290
+weight: 3210
 url: /es/aspose.slides.effects/iimagetransformoperationfactory/
 ---
-
-## Interfaz IImageTransformOperationFactory
+## IImageTransformOperationFactory interface
 
 Permite crear instancias de efectos de imagen
 
@@ -20,30 +19,30 @@ public interface IImageTransformOperationFactory
 | Nombre | Descripción |
 | --- | --- |
 | [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | Crea efecto Alpha BiLevel. |
-| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | Crea efecto Alpha floor. |
-| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | Crea efecto Alpha inverse. |
-| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | Crea efecto Alpha modulate. |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | Crea efecto Alpha modulate fixed. |
-| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | Crea efecto Alpha replace. |
-| [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | Crea efecto Alpha Ceiling. |
+| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | Crea un efecto de piso Alpha. |
+| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | Crea efecto alfa inverso. |
+| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | Crea un efecto de modulación alfa. |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | Crea un efecto fijo de modulación alfa. |
+| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | Crea el efecto de reemplazo Alpha. |
+| [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | Crea un efecto de techo alfa. |
 | [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | Crea efecto BiLevel. |
-| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | Crea efecto Blur. |
+| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | Crea un efecto de desenfoque. |
 | [CreateColorChange](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorchange)() | Crea efecto de cambio de color. |
-| [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | Crea efecto de reemplazo de color. |
-| [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | Crea efecto Duotone. |
-| [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | Crea efecto de superposición de relleno. |
-| [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | Crea efecto de escala de grises. |
-| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float, float, float) | Crea efecto de Tono Saturación Luminancia. |
-| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float, float) | Crea efecto de Luminancia. |
-| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float, float) | Crea efecto de Tinte. |
+| [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | Crea un efecto de reemplazo de color. |
+| [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | Crea efecto Duotono. |
+| [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | Crea un efecto de superposición de relleno. |
+| [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | Crea un efecto de escala de grises. |
+| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float, float, float) | Crea el efecto de luminancia de saturación de tono. |
+| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float, float) | Crea el efecto Luminance. |
+| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float, float) | Crea efecto Tinte. |
 
 ### Observaciones
 
-Para la interfaz COM.
+Para interfaz COM.
 
-### Ver También
+### Ver también
 
 * espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
-* ensamblaje [Aspose.Slides](../../)
+* asamblea [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

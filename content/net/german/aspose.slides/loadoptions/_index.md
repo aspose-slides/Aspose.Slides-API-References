@@ -1,50 +1,47 @@
 ---
 title: LoadOptions
-second_title: Aspose.Sildes für .NET API Referenz
-description: Ermöglicht die Angabe zusätzlicher Optionen wie Format oder Standardschriftart beim Laden einer Präsentation.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Ermöglicht das Festlegen zusätzlicher Optionen z. B. Format oder Standardschriftart beim Laden einer Präsentation.
 type: docs
-weight: 7600
+weight: 7170
 url: /de/aspose.slides/loadoptions/
 ---
+## LoadOptions class
 
-## LoadOptions-Klasse
-
-Ermöglicht die Angabe zusätzlicher Optionen (wie Format oder Standardschriftart) beim Laden einer Präsentation.
+Ermöglicht das Festlegen zusätzlicher Optionen (z. B. Format oder Standardschriftart) beim Laden einer Präsentation.
 
 ```csharp
 public class LoadOptions : ILoadOptions
 ```
 
-## Konstruktoren
+## Konstrukteure
 
 | Name | Beschreibung |
 | --- | --- |
-| [LoadOptions](loadoptions#constructor)() | Erstellt neue standardmäßige Ladeoptionen. |
+| [LoadOptions](loadoptions#constructor)() | Erstellt neue Standardladeoptionen. |
 | [LoadOptions](loadoptions#constructor_1)(LoadFormat) | Erstellt neue Ladeoptionen. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | Stellt die Optionen dar, die verwendet werden können, um das Verhalten bei der Verwaltung von Binary Large Objects (BLOBs) zu steuern, wie z. B. die Verwendung von temporären Dateien oder die maximalen BLOB-Bytes im Speicher. Diese Optionen sind darauf ausgelegt, das beste Verhältnis zwischen Leistung und Speicherverbrauch für eine bestimmte Umgebung oder Anforderungen zu erzielen. Ein Binary Large Object (BLOB) ist eine binäre Datenmenge, die als einzelne Einheit gespeichert wird – d. h. ein BLOB kann ein Audio, ein Video oder die Präsentation selbst sein. |
-| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | Gibt die asiatische Schriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellet Schriftart nicht gefunden wird. Lese-/Schreibzugriff auf String. |
-| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | Gibt die reguläre Schriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellet Schriftart nicht gefunden wird. Lese-/Schreibzugriff auf String. |
-| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | Gibt die Symbolschriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellet Schriftart nicht gefunden wird. Lese-/Schreibzugriff auf String. |
-| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | Gibt die Standardsprache für den Präsentationstext zurück oder legt sie fest. Lese-/Schreibzugriff auf String. |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | Bestimmt, ob Aspose.Slides alle eingebetteten binären Objekte beim Laden der Präsentation löschen wird. |
-| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | Gibt die Quellen für externe Schriftarten an, die von der Präsentation verwendet werden. Diese Schriftarten stehen der Präsentation während ihrer gesamten Lebensdauer zur Verfügung und werden nicht mit anderen Präsentationen geteilt. |
-| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | Das Token zur Überwachung von Unterbrechungsanforderungen. Dieses Token verwaltet die gesamte Lebensdauer der [`IPresentation`](../ipresentation)-Instanz. Jede lang laufende Operation, wie das Laden oder Speichern einer Präsentation, wird durch den Aufruf der Methode [`Interrupt`](../interruptiontokensource/interrupt) von [`InterruptionTokenSource`](../interruptiontokensource) unterbrochen. |
-| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | Gibt das Format einer zu ladenden Präsentation zurück oder legt es fest. Lese-/Schreibzugriff auf [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | Diese Eigenschaft macht Sinn, wenn die Präsentationsdatei passwortgeschützt ist. Der Wert von true bedeutet, dass nur die Dokumenten Eigenschaften aus einer verschlüsselten Präsentationsdatei geladen werden müssen und das Passwort ignoriert werden muss. Der Wert von false bedeutet, dass die gesamte verschlüsselte Präsentation mit dem richtigen Passwort geladen werden muss. Wenn die Präsentation nicht verschlüsselt ist, wird der Eigenschaftswert immer ignoriert. Wenn die Dokumenten Eigenschaften einer verschlüsselten Datei nicht öffentlich sind und der Eigenschaftswert true ist, können die Dokumenten Eigenschaften nicht geladen werden und es wird eine Ausnahme ausgelöst. Lese-/Schreibzugriff auf Boolean. |
-| [Password](../../aspose.slides/loadoptions/password) { get; set; } | Gibt das Passwort zurück oder legt es fest. Lese-/Schreibzugriff auf String. |
-| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | Gibt die Callback-Schnittstelle zurück oder legt sie fest, die das Laden externer Ressourcen verwaltet. Lese-/Schreibzugriff auf [`IResourceLoadingCallback`](../iresourceloadingcallback). |
-| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | Gibt die Optionen für Tabellenkalkulationen zurück. Diese Optionen wirken sich beispielsweise auf die Berechnung von Formeln für Diagramme aus. |
-| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder legt es fest, das Warnungen empfängt und entscheidet, ob der Ladeprozess fortgesetzt oder abgebrochen wird. Lese-/Schreibzugriff auf [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | Stellt die Optionen dar, die verwendet werden können, um das Handhabungsverhalten von Binary Large Objects (BLOBs) zu verwalten, wie die Verwendung temporärer Dateien oder die maximale Anzahl von BLOBs im Speicher. Diese Optionen dienen dazu, das beste Leistungs-/Speicherverbrauchsverhältnis für eine bestimmte Umgebung oder Anforderungen festzulegen. Ein Binary Large Object (BLOB) sind binäre Daten, die als einzelne Entität gespeichert werden – dh BLOB kann selbst ein Audio, Video oder eine Präsentation sein. |
+| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | Gibt asiatische Schriftarten zurück oder legt sie fest, falls die Quellschriftart nicht gefunden wird. Lesen/SchreibenString . |
+| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | Gibt zurück oder legt die normale Schriftart fest, die verwendet wird, falls die Quellschriftart nicht gefunden wird. Lesen/SchreibenString . |
+| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | Gibt die verwendete Symbolschrift zurück oder legt sie fest, falls die Quellschrift nicht gefunden wird. Lesen/SchreibenString . |
+| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | Gibt Quellen für externe Schriftarten an, die von der Präsentation verwendet werden sollen. Diese Schriftarten stehen der Präsentation während ihrer gesamten Lebensdauer zur Verfügung und werden nicht mit anderen Präsentationen geteilt |
+| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | Das Token, das auf Unterbrechungsanforderungen überwacht werden soll.  Dieser Token verwaltet das Ganze[`IPresentation`](../ipresentation)Instanzlebensdauer. Alle lang andauernden Operationen, wie das Laden von oder das Speichern einer Präsentation, werden durch Aufrufen von unterbrochen[`Interrupt`](../interruptiontokensource/interrupt) Methode von der[`InterruptionTokenSource`](../interruptiontokensource) . |
+| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | Gibt das Format einer zu ladenden Präsentation zurück oder legt es fest. Lesen/Schreiben[`LoadFormat`](../loadformat) . |
+| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | Diese Eigenschaft ist sinnvoll, wenn die Präsentationsdatei passwortgeschützt ist. Der Wert „true“ bedeutet, dass nur Dokumenteigenschaften aus einer verschlüsselten Präsentationsdatei geladen werden müssen und das Passwort ignoriert werden muss. Der Wert „false“ bedeutet, dass die gesamte verschlüsselte Präsentation geladen werden muss Verwendung des richtigen Passworts. Wenn die Präsentation nicht verschlüsselt ist, wird der Eigenschaftswert immer ignoriert. Wenn die Dokumenteigenschaften einer verschlüsselten Datei nicht öffentlich sind und der Eigenschaftswert wahr ist, dann können die Dokumenteigenschaften nicht geladen werden und es wird eine Ausnahme ausgelöst. Lesen SchreibenBoolean . |
+| [Password](../../aspose.slides/loadoptions/password) { get; set; } | Ruft das Passwort ab oder legt es fest. Lesen/SchreibenString . |
+| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | Gibt die Callback-Schnittstelle zurück oder legt sie fest, die das Laden externer Ressourcen verwaltet. Lesen/Schreiben[`IResourceLoadingCallback`](../iresourceloadingcallback) . |
+| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | Ruft Optionen für Tabellenkalkulationen ab. Diese Optionen wirken sich beispielsweise auf Berechnungsformeln für Diagramme aus. |
+| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder setzt es, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lesen/Schreiben[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
 
 ### Siehe auch
 
-* Schnittstelle [ILoadOptions](../iloadoptions)
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* interface [ILoadOptions](../iloadoptions)
+* namensraum [Aspose.Slides](../../aspose.slides)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

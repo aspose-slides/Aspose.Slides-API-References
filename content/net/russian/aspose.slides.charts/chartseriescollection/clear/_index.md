@@ -1,13 +1,12 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все элементы управления из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/chartseriescollection/clear/
 ---
-
-## Метод ChartSeriesCollection.Clear
+## ChartSeriesCollection.Clear method
 
 Удаляет все элементы управления из коллекции.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.charts/chartseriescollection/clear/
 public void Clear()
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* класс [ChartSeriesCollection](../../chartseriescollection)
+* class [ChartSeriesCollection](../../chartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../chartseriescollection)
 * сборка [Aspose.Slides](../../../)
 

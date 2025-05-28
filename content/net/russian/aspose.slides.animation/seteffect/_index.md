@@ -1,15 +1,14 @@
 ---
 title: SetEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор эффектов для анимационного поведения.
+description: Представляет установленный эффект для поведения анимации.
 type: docs
-weight: 730
+weight: 710
 url: /ru/aspose.slides.animation/seteffect/
 ---
+## SetEffect class
 
-## Класс SetEffect
-
-Представляет набор эффектов для анимационного поведения.
+Представляет установленный эффект для поведения анимации.
 
 ```csharp
 public class SetEffect : Behavior, ISetEffect
@@ -21,20 +20,20 @@ public class SetEffect : Behavior, ISetEffect
 | --- | --- |
 | [SetEffect](seteffect)() | Конструктор по умолчанию. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Представляет, являются ли анимационные поведения накопительными. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Представляет, объединено ли текущее анимационное поведение с другими запущенными анимациями. Чтение/запись [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет временные свойства для поведения эффекта. Чтение/запись [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Указывает определенный атрибут эффекта после анимационного эффекта. Представляет собой точечное значение. Только: bool, ColorFormat, float, int, string. Чтение/запись Object. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Указывает, сочетается ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет свойства синхронизации для поведения эффекта. Чтение/запись[`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Указывает определенный атрибут эффекта после эффекта анимации. Представляет значение в очках. Только:bool, ColorFormat, float, int, string. Чтение/записьObject. |
 
 ### Смотрите также
 
-* класс [Behavior](../behavior)
-* интерфейс [ISetEffect](../iseteffect)
+* class [Behavior](../behavior)
+* interface [ISetEffect](../iseteffect)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Диаграмма
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает родительскую диаграмму. Только для чтения IChartaspose.slides.charts/ichart.
+title: Chart
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает родительскую диаграмму. Только для чтенияIChartaspose.slides.charts/ichart.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/trendline/chart/
 ---
+## Trendline.Chart property
 
-## Свойство Trendline.Chart
-
-Возвращает родительскую диаграмму. Только для чтения [`IChart`](../../ichart).
+Возвращает родительскую диаграмму. Только для чтения[`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }
@@ -17,8 +16,8 @@ public IChart Chart { get; }
 
 ### Смотрите также
 
-* интерфейс [IChart](../../ichart)
-* класс [Trendline](../../trendline)
+* interface [IChart](../../ichart)
+* class [Trendline](../../trendline)
 * пространство имен [Aspose.Slides.Charts](../../trendline)
 * сборка [Aspose.Slides](../../../)
 

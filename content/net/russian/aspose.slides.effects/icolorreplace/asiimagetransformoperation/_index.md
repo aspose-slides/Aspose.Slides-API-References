@@ -1,15 +1,14 @@
 ---
 title: AsIImageTransformOperation
-second_title: Aspose.Sildes для .NET API Справочник
-description: Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтенияIImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/icolorreplace/asiimagetransformoperation/
 ---
+## IColorReplace.AsIImageTransformOperation property
 
-## IColorReplace.AsIImageTransformOperation свойство
-
-Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../../iimagetransformoperation).
+Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
@@ -17,8 +16,8 @@ public IImageTransformOperation AsIImageTransformOperation { get; }
 
 ### Смотрите также
 
-* интерфейс [IImageTransformOperation](../../iimagetransformoperation)
-* интерфейс [IColorReplace](../../icolorreplace)
+* interface [IImageTransformOperation](../../iimagetransformoperation)
+* interface [IColorReplace](../../icolorreplace)
 * пространство имен [Aspose.Slides.Effects](../../icolorreplace)
 * сборка [Aspose.Slides](../../../)
 

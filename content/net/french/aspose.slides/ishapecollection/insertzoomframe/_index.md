@@ -1,13 +1,12 @@
 ---
-title: InsérerZoomFrame
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée un nouvel objet Zoom et l'insère dans une collection à l'index spécifié.
+title: InsertZoomFrame
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée un nouvel objet Zoom et linsère dans une collection à lindex spécifié.
 type: docs
 weight: 360
 url: /fr/aspose.slides/ishapecollection/insertzoomframe/
 ---
-
-## InsérerZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
+## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
 
 Crée un nouvel objet Zoom et l'insère dans une collection à l'index spécifié.
 
@@ -16,18 +15,18 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
     ISlide slide)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro où le cadre Zoom doit être inséré. |
-| x | Single | Coordonnée X d'un nouveau cadre Zoom. |
-| y | Single | Coordonnée Y d'un nouveau cadre Zoom. |
-| width | Single | Largeur d'un nouveau cadre Zoom. |
-| height | Single | Hauteur d'un nouveau cadre Zoom. |
-| slide | ISlide | L'objet diapositive référencé par le cadre Zoom [`ISlide`](../../islide). |
+| index | Int32 | Index de base zéro auquel le cadre Zoom doit être inséré. |
+| x | Single | Coordonnée X d'un nouveau cadre ZoomSingle. |
+| y | Single | Coordonnée Y d'un nouveau cadre ZoomSingle. |
+| width | Single | Largeur d'un nouveau cadre ZoomSingle. |
+| height | Single | Hauteur d'un nouveau cadre ZoomSingle. |
+| slide | ISlide | L'objet de diapositive référencé par le cadre Zoom[`ISlide`](../../islide). |
 
-### Valeur de retour
+### Return_Value
 
-Objet Zoom créé [`IZoomFrame`](../../izoomframe).
+Objet Zoom créé[`IZoomFrame`](../../izoomframe).
 
 ### Exceptions
 
@@ -37,7 +36,7 @@ Objet Zoom créé [`IZoomFrame`](../../izoomframe).
 
 ### Exemples
 
-Cet exemple montre la création et l'insertion d'un objet Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux diapositives dans la présentation "Presentation.pptx"):
+Cet exemple illustre la création et l'insertion d'un objet Zoom à l'index spécifié d'une collection (en supposant qu'il y a au moins deux diapositives dans la présentation "Presentation.pptx") :
 
 ```csharp
 [C#]
@@ -47,17 +46,17 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir également
 
 * interface [IZoomFrame](../../izoomframe)
 * interface [ISlide](../../islide)
 * interface [IShapeCollection](../../ishapecollection)
-* namespace [Aspose.Slides](../../ishapecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../ishapecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## InsérerZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
+## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
 
 Crée un nouvel objet Zoom et l'insère dans une collection à l'index spécifié.
 
@@ -66,19 +65,19 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
     ISlide slide, IPPImage image)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro où le cadre Zoom doit être inséré. |
-| x | Single | Coordonnée X d'un nouveau cadre Zoom. |
-| y | Single | Coordonnée Y d'un nouveau cadre Zoom. |
-| width | Single | Largeur d'un nouveau cadre Zoom. |
-| height | Single | Hauteur d'un nouveau cadre Zoom. |
-| slide | ISlide | L'objet diapositive référencé par le cadre Zoom [`ISlide`](../../islide). |
-| image | IPPImage | L'image pour la diapositive référencée [`IPPImage`](../../ippimage) |
+| index | Int32 | Index de base zéro auquel le cadre Zoom doit être inséré. |
+| x | Single | Coordonnée X d'un nouveau cadre ZoomSingle. |
+| y | Single | Coordonnée Y d'un nouveau cadre ZoomSingle. |
+| width | Single | Largeur d'un nouveau cadre ZoomSingle. |
+| height | Single | Hauteur d'un nouveau cadre ZoomSingle. |
+| slide | ISlide | L'objet de diapositive référencé par le cadre Zoom[`ISlide`](../../islide). |
+| image | IPPImage | L'image de la diapositive référencée[`IPPImage`](../../ippimage) |
 
-### Valeur de retour
+### Return_Value
 
-Objet Zoom créé [`IZoomFrame`](../../izoomframe).
+Objet Zoom créé[`IZoomFrame`](../../izoomframe).
 
 ### Exceptions
 
@@ -88,7 +87,7 @@ Objet Zoom créé [`IZoomFrame`](../../izoomframe).
 
 ### Exemples
 
-Cet exemple montre la création et l'insertion d'un objet Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux diapositives dans la présentation "Presentation.pptx"):
+Cet exemple illustre la création et l'insertion d'un objet Zoom à l'index spécifié d'une collection (en supposant qu'il y a au moins deux diapositives dans la présentation "Presentation.pptx") :
 
 ```csharp
 [C#]
@@ -99,13 +98,13 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir également
 
 * interface [IZoomFrame](../../izoomframe)
 * interface [ISlide](../../islide)
 * interface [IPPImage](../../ippimage)
 * interface [IShapeCollection](../../ishapecollection)
-* namespace [Aspose.Slides](../../ishapecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../ishapecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

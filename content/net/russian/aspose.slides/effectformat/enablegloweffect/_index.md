@@ -1,13 +1,12 @@
 ---
 title: EnableGlowEffect
-second_title: Aspose.Slides для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Включает эффект свечения.
 type: docs
 weight: 190
 url: /ru/aspose.slides/effectformat/enablegloweffect/
 ---
-
-## EffectFormat.EnableGlowEffect метод
+## EffectFormat.EnableGlowEffect method
 
 Включает эффект свечения.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/effectformat/enablegloweffect/
 public void EnableGlowEffect()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [EffectFormat](../../effectformat)
+* class [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

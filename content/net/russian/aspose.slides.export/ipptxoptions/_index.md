@@ -1,32 +1,29 @@
 ---
 title: IPptxOptions
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Представляет параметры для сохранения презентаций OpenXml PPTX PPSX POTX PPTM PPSM POTM.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет варианты сохранения презентаций OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 3850
+weight: 3700
 url: /ru/aspose.slides.export/ipptxoptions/
 ---
+## IPptxOptions interface
 
-## Интерфейс IPptxOptions
-
-Представляет параметры для сохранения презентаций OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
+Представляет варианты сохранения презентаций OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
 ```csharp
 public interface IPptxOptions : ISaveOptions
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Позволяет получить базовый интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Указывает класс соответствия, которому соответствует документ презентации. Значение по умолчанию: Ecma376_2006 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Указывает, будет ли обновлен миниатюра презентации. Читаемое/записываемое логическое значение. Значение по умолчанию: **true**. |
-| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Указывает, используется ли формат ZIP64 для документа презентации. Значение по умолчанию: IfNecessary |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Позволяет получить базовый интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Указывает класс соответствия, которому соответствует документ презентации. Значение по умолчанию:Ecma376_2006 |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISaveOptions](../isaveoptions)
+* interface [ISaveOptions](../isaveoptions)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

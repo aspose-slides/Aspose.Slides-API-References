@@ -1,23 +1,22 @@
 ---
 title: Value0
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет первое значение смещения. Чтение/запись Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет первое значение смещения. Чтение/записьSingle.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/icoloroffset/value0/
 ---
+## IColorOffset.Value0 property
 
-## Свойство IColorOffset.Value0
-
-Определяет первое значение смещения. Чтение/запись Single.
+Определяет первое значение смещения. Чтение/записьSingle.
 
 ```csharp
 public float Value0 { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColorOffset](../../icoloroffset)
+* interface [IColorOffset](../../icoloroffset)
 * пространство имен [Aspose.Slides.Animation](../../icoloroffset)
 * сборка [Aspose.Slides](../../../)
 

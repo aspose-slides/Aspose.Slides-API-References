@@ -1,24 +1,23 @@
 ---
 title: HtmlFormatter
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает HTML-шаблон. Чтение/запись IHtmlFormatteraspose.slides.export/ihtmlformatter.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает шаблон HTML. Чтение/записьIHtmlFormatteraspose.slides.export/ihtmlformatter.
 type: docs
-weight: 40
+weight: 30
 url: /ru/aspose.slides.export/ihtmloptions/htmlformatter/
 ---
+## IHtmlOptions.HtmlFormatter property
 
-## Свойство IHtmlOptions.HtmlFormatter
-
-Возвращает или устанавливает HTML-шаблон. Чтение/запись [`IHtmlFormatter`](../../ihtmlformatter).
+Возвращает или устанавливает шаблон HTML. Чтение/запись[`IHtmlFormatter`](../../ihtmlformatter).
 
 ```csharp
 public IHtmlFormatter HtmlFormatter { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IHtmlFormatter](../../ihtmlformatter)
-* интерфейс [IHtmlOptions](../../ihtmloptions)
+* interface [IHtmlFormatter](../../ihtmlformatter)
+* interface [IHtmlOptions](../../ihtmloptions)
 * пространство имен [Aspose.Slides.Export](../../ihtmloptions)
 * сборка [Aspose.Slides](../../../)
 

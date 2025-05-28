@@ -1,15 +1,14 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Удаляет первое вхождение конкретного объекта из ICollection.
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет первое вхождение определенного объекта изICollection.
 type: docs
 weight: 110
 url: /ru/aspose.slides/portioncollection/remove/
 ---
+## PortionCollection.Remove method
 
-## Метод PortionCollection.Remove
-
-Удаляет первое вхождение конкретного объекта из ICollection.
+Удаляет первое вхождение определенного объекта изICollection.
 
 ```csharp
 public bool Remove(IPortion item)
@@ -17,22 +16,22 @@ public bool Remove(IPortion item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IPortion | Объект, который нужно удалить из ICollection. |
+| item | IPortion | Объект для удаления изICollection. |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
-true, если *item* был успешно удален из ICollection; в противном случае false. Этот метод также возвращает false, если *item* не найден в исходном ICollection.
+true, если*item*был успешно удален изICollection; в противном случае ложно. Этот метод также возвращает false, если*item*не найден в исходномICollection.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | ICollection доступен только для чтения. |
+| NotSupportedException | КоллекцияICollectionдоступна только для чтения. |
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IPortion](../../iportion)
-* класс [PortionCollection](../../portioncollection)
+* interface [IPortion](../../iportion)
+* class [PortionCollection](../../portioncollection)
 * пространство имен [Aspose.Slides](../../portioncollection)
 * сборка [Aspose.Slides](../../../)
 

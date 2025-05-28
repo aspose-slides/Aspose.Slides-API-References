@@ -1,23 +1,22 @@
 ---
-title: Автор
+title: Author
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает автора презентации. Читаемый/записываемый String.
+description: Возвращает или устанавливает автора презентации. Чтение/записьString.
 type: docs
 weight: 40
 url: /ru/aspose.slides/documentproperties/author/
 ---
+## DocumentProperties.Author property
 
-## Свойство DocumentProperties.Author
-
-Возвращает или устанавливает автора презентации. Читаемый/записываемый String.
+Возвращает или устанавливает автора презентации. Чтение/записьString.
 
 ```csharp
 public string Author { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [DocumentProperties](../../documentproperties)
+* class [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

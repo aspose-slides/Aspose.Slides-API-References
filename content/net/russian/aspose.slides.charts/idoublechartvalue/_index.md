@@ -1,36 +1,35 @@
 ---
 title: IDoubleChartValue
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет двойное значение, которое может быть сохранено в документе pptx презентации двумя способами 1 в ячейке/ячейках рабочей книги, связанных с графиком; 2 в виде литерального значения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет двойное значение которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги связанной с диаграммой 2 как буквальное значение.
 type: docs
-weight: 1990
+weight: 1930
 url: /ru/aspose.slides.charts/idoublechartvalue/
 ---
+## IDoubleChartValue interface
 
-## Интерфейс IDoubleChartValue
-
-Представляет двойное значение, которое может быть сохранено в документе pptx презентации двумя способами: 1) в ячейке/ячейках рабочей книги, связанных с графиком; 2) в виде литерального значения.
+Представляет двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение.
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Возвращает или задает литеральное двойное значение, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/запись Double. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения[`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Возвращает или задает литеральное двойное значение, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/записьDouble. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Преобразует в double. |
+| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Преобразование в двойное. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISingleCellChartValue](../isinglecellchartvalue)
+* interface [ISingleCellChartValue](../isinglecellchartvalue)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

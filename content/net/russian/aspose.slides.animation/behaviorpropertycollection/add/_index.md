@@ -1,15 +1,14 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новое свойство в коллекцию.
+description: Добавляет в коллекцию новое свойство.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/behaviorpropertycollection/add/
 ---
-
 ## Add(IBehaviorProperty) {#add}
 
-Добавляет новое свойство в коллекцию.
+Добавляет в коллекцию новое свойство.
 
 ```csharp
 public void Add(IBehaviorProperty item)
@@ -17,12 +16,12 @@ public void Add(IBehaviorProperty item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IBehaviorProperty | Свойство для добавления. |
+| item | IBehaviorProperty | Добавляемое свойство. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBehaviorProperty](../../ibehaviorproperty)
-* класс [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* interface [IBehaviorProperty](../../ibehaviorproperty)
+* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -30,7 +29,7 @@ public void Add(IBehaviorProperty item)
 
 ## Add(string) {#add_1}
 
-Добавляет новое свойство в коллекцию.
+Добавляет в коллекцию новое свойство.
 
 ```csharp
 public void Add(string propertyValue)
@@ -40,9 +39,9 @@ public void Add(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | Значение добавляемого свойства. |
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 

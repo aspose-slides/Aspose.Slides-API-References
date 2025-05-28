@@ -1,30 +1,29 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет типы переходов направления углов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляют типы перехода в направлении угла.
 type: docs
-weight: 10040
+weight: 9570
 url: /ru/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
+## TransitionCornerDirectionType enumeration
 
-## Перечисление TransitionCornerDirectionType
-
-Представляет типы переходов направления углов.
+Представляют типы перехода в направлении угла.
 
 ```csharp
 public enum TransitionCornerDirectionType
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | LeftDown | `0` |  |
 | LeftUp | `1` |  |
 | RightDown | `2` |  |
 | RightUp | `3` |  |
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)

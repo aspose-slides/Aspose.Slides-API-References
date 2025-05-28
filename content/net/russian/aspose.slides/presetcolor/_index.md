@@ -1,25 +1,24 @@
 ---
 title: PresetColor
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет предопределенные цветовые пресеты.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет предопределенные предустановки цвета.
 type: docs
-weight: 9390
+weight: 8930
 url: /ru/aspose.slides/presetcolor/
 ---
+## PresetColor enumeration
 
-## Перечисление PresetColor
-
-Представляет предопределенные цветовые пресеты.
+Представляет предопределенные предустановки цвета.
 
 ```csharp
 public enum PresetColor
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
-| NotDefined | `-1` | Цветовой пресет не определен. |
+| NotDefined | `-1` | Предустановка цвета не определена. |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |
@@ -161,7 +160,7 @@ public enum PresetColor
 | Yellow | `138` |  |
 | YellowGreen | `139` |  |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

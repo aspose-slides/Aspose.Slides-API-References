@@ -1,15 +1,14 @@
 ---
 title: FillOn
-second_title: Ссылка на API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство fill.on
 type: docs
 weight: 360
 url: /ru/aspose.slides.animation/behaviorproperty/fillon/
 ---
+## BehaviorProperty.FillOn property
 
-## Свойство BehaviorProperty.FillOn
-
-Представляет свойство 'fill.on'
+Представляет свойство fill.on
 
 ```csharp
 public static BehaviorProperty FillOn { get; }
@@ -17,7 +16,7 @@ public static BehaviorProperty FillOn { get; }
 
 ### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

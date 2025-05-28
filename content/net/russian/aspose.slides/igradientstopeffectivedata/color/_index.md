@@ -1,23 +1,22 @@
 ---
-title: Цвет
+title: Color
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цвет градиентной остановки. Только для чтения Color.
+description: Возвращает цвет точки градиента. Только для чтенияColor.
 type: docs
 weight: 10
 url: /ru/aspose.slides/igradientstopeffectivedata/color/
 ---
+## IGradientStopEffectiveData.Color property
 
-## Свойство IGradientStopEffectiveData.Color
-
-Возвращает цвет градиентной остановки. Только для чтения Color.
+Возвращает цвет точки градиента. Только для чтенияColor.
 
 ```csharp
 public Color Color { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGradientStopEffectiveData](../../igradientstopeffectivedata)
+* interface [IGradientStopEffectiveData](../../igradientstopeffectivedata)
 * пространство имен [Aspose.Slides](../../igradientstopeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

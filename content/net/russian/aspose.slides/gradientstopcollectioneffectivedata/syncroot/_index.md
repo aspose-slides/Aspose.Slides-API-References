@@ -1,23 +1,22 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает корень синхронизации. Объект только для чтения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает корень синхронизации. Только для чтенияObject.
 type: docs
 weight: 40
 url: /ru/aspose.slides/gradientstopcollectioneffectivedata/syncroot/
 ---
+## GradientStopCollectionEffectiveData.SyncRoot property
 
-## GradientStopCollectionEffectiveData.SyncRoot свойство
-
-Возвращает корень синхронизации. Объект только для чтения.
+Возвращает корень синхронизации. Только для чтенияObject.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* класс [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)
+* class [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)
 * пространство имен [Aspose.Slides](../../gradientstopcollectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

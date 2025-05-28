@@ -1,13 +1,12 @@
 ---
 title: SetGroupingItem
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Устанавливает элемент группировки для определенного уровня.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem/
 ---
-
-## Метод IChartCategoryLevelsManager.SetGroupingItem
+## IChartCategoryLevelsManager.SetGroupingItem method
 
 Устанавливает элемент группировки для определенного уровня.
 
@@ -15,14 +14,14 @@ url: /ru/aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem/
 public void SetGroupingItem(int level, object value)
 ```
 
-| Параметр | Тип   | Описание                         |
-| ---      | ---   | ---                             |
-| level    | Int32 | Уровень категории Int32         |
-| value    | Object| Элемент группировки Object      |
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| level | Int32 | Уровень категорииInt32 |
+| value | Object | Нащупывание элементаObject |
 
 ### Смотрите также
 
-* интерфейс [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
+* interface [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
 * пространство имен [Aspose.Slides.Charts](../../ichartcategorylevelsmanager)
 * сборка [Aspose.Slides](../../../)
 

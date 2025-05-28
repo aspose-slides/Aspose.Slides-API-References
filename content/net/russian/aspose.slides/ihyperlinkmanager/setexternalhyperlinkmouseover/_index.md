@@ -1,15 +1,14 @@
 ---
 title: SetExternalHyperlinkMouseOver
-second_title: Aspose.Slides для .NET API Справочник
-description: Устанавливает внешний гиперссылка при наведении мыши.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Наводит указатель мыши на внешнюю гиперссылку.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover/
 ---
+## IHyperlinkManager.SetExternalHyperlinkMouseOver method
 
-## IHyperlinkManager.SetExternalHyperlinkMouseOver метод
-
-Устанавливает внешний гиперссылка при наведении мыши.
+Наводит указатель мыши на внешнюю гиперссылку.
 
 ```csharp
 public IHyperlink SetExternalHyperlinkMouseOver(string url)
@@ -23,10 +22,10 @@ public IHyperlink SetExternalHyperlinkMouseOver(string url)
 
 Гиперссылка.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IHyperlink](../../ihyperlink)
-* интерфейс [IHyperlinkManager](../../ihyperlinkmanager)
+* interface [IHyperlink](../../ihyperlink)
+* interface [IHyperlinkManager](../../ihyperlinkmanager)
 * пространство имен [Aspose.Slides](../../ihyperlinkmanager)
 * сборка [Aspose.Slides](../../../)
 

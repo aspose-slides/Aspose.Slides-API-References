@@ -1,15 +1,14 @@
 ---
 title: AddAlphaModulateEffect
-second_title: Aspose.Slides для .NET API Справка
-description: Добавляет новый эффект Alpha Modulate в конец коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет новый эффект альфа-модуляции в конец коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect/
 ---
+## IImageTransformOperationCollection.AddAlphaModulateEffect method
 
-## IImageTransformOperationCollection.AddAlphaModulateEffect метод
-
-Добавляет новый эффект Alpha Modulate в конец коллекции.
+Добавляет новый эффект альфа-модуляции в конец коллекции.
 
 ```csharp
 public IAlphaModulate AddAlphaModulateEffect()
@@ -19,10 +18,10 @@ public IAlphaModulate AddAlphaModulateEffect()
 
 Индекс нового эффекта изображения в коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAlphaModulate](../../ialphamodulate)
-* интерфейс [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
+* interface [IAlphaModulate](../../ialphamodulate)
+* interface [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

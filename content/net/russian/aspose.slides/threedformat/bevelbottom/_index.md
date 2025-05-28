@@ -1,15 +1,14 @@
 ---
 title: BevelBottom
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает или задает тип нижнего 3D-фаски. Только для чтения IShapeBevelaspose.slides/ishapebevel.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает тип нижней 3D фаски. Только для чтенияIShapeBevelaspose.slides/ishapebevel.
 type: docs
 weight: 10
 url: /ru/aspose.slides/threedformat/bevelbottom/
 ---
+## ThreeDFormat.BevelBottom property
 
-## Свойство ThreeDFormat.BevelBottom
-
-Возвращает или задает тип нижнего 3D-фаски. Только для чтения [`IShapeBevel`](../../ishapebevel).
+Возвращает или задает тип нижней 3D фаски. Только для чтения[`IShapeBevel`](../../ishapebevel).
 
 ```csharp
 public IShapeBevel BevelBottom { get; }
@@ -17,8 +16,8 @@ public IShapeBevel BevelBottom { get; }
 
 ### Смотрите также
 
-* интерфейс [IShapeBevel](../../ishapebevel)
-* класс [ThreeDFormat](../../threedformat)
+* interface [IShapeBevel](../../ishapebevel)
+* class [ThreeDFormat](../../threedformat)
 * пространство имен [Aspose.Slides](../../threedformat)
 * сборка [Aspose.Slides](../../../)
 

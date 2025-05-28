@@ -3,28 +3,27 @@ title: LineJoinStyle
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет стиль соединения линий.
 type: docs
-weight: 7560
+weight: 7100
 url: /ru/aspose.slides/linejoinstyle/
 ---
+## LineJoinStyle enumeration
 
-## Перечисление LineJoinStyle
-
-Пред Represents стиль соединения линий.
+Представляет стиль соединения линий.
 
 ```csharp
 public enum LineJoinStyle : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Round | `0` |  |
 | Bevel | `1` |  |
 | Miter | `2` |  |
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

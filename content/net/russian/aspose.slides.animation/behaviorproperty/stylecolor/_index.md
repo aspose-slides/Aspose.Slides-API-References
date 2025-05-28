@@ -1,13 +1,12 @@
 ---
 title: StyleColor
-second_title: Ссылка по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство style.color
 type: docs
 weight: 1050
 url: /ru/aspose.slides.animation/behaviorproperty/stylecolor/
 ---
-
-## Свойство BehaviorProperty.StyleColor
+## BehaviorProperty.StyleColor property
 
 Представляет свойство 'style.color'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/stylecolor/
 public static BehaviorProperty StyleColor { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

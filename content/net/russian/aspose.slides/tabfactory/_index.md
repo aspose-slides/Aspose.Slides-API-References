@@ -1,13 +1,12 @@
 ---
 title: TabFactory
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Позволяет создавать экземпляры ITab
 type: docs
-weight: 10540
+weight: 10040
 url: /ru/aspose.slides/tabfactory/
 ---
-
-## Класс TabFactory
+## TabFactory class
 
 Позволяет создавать экземпляры ITab
 
@@ -17,13 +16,13 @@ public class TabFactory : ITabFactory
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [TabFactory](tabfactory)() | Конструктор по умолчанию. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Создает новый экземпляр ITab. |
 
@@ -31,9 +30,9 @@ public class TabFactory : ITabFactory
 
 Для совместимости с COM.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITabFactory](../itabfactory)
+* interface [ITabFactory](../itabfactory)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

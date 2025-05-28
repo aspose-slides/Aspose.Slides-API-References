@@ -1,13 +1,12 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получает эффективные данные форматирования заливки с примененным наследованием.
 type: docs
 weight: 70
 url: /ru/aspose.slides/fillformat/geteffective/
 ---
-
-## Метод FillFormat.GetEffective
+## FillFormat.GetEffective method
 
 Получает эффективные данные форматирования заливки с примененным наследованием.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/fillformat/geteffective/
 public IFillFormatEffectiveData GetEffective()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
-[`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+A[`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ### Примеры
 
@@ -29,33 +28,33 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 {
 	IFillFormatEffectiveData effectiveFillFormat = pres.Slides[0].Shapes[0].FillFormat.GetEffective();
 
-	Console.WriteLine("Тип: " + effectiveFillFormat.FillType);
+	Console.WriteLine("Type: " + effectiveFillFormat.FillType);
 	switch (effectiveFillFormat.FillType)
 	{
 		case FillType.Solid:
-			Console.WriteLine("Цвет заливки: " + effectiveFillFormat.SolidFillColor);
+			Console.WriteLine("Fill color: " + effectiveFillFormat.SolidFillColor);
 			break;
 		case FillType.Pattern:
-			Console.WriteLine("Стиль узора: " + effectiveFillFormat.PatternFormat.PatternStyle);
-			Console.WriteLine("Цвет переднего плана: " + effectiveFillFormat.PatternFormat.ForeColor);
-			Console.WriteLine("Цвет фона: " + effectiveFillFormat.PatternFormat.BackColor);
+			Console.WriteLine("Pattern style: " + effectiveFillFormat.PatternFormat.PatternStyle);
+			Console.WriteLine("Fore color: " + effectiveFillFormat.PatternFormat.ForeColor);
+			Console.WriteLine("Back color: " + effectiveFillFormat.PatternFormat.BackColor);
 			break;
 		case FillType.Gradient:
-			Console.WriteLine("Направление градиента: " + effectiveFillFormat.GradientFormat.GradientDirection);
-			Console.WriteLine("Количество остановок градиента: " + effectiveFillFormat.GradientFormat.GradientStops.Count);
+			Console.WriteLine("Gradient direction: " + effectiveFillFormat.GradientFormat.GradientDirection);
+			Console.WriteLine("Gradient stops count: " + effectiveFillFormat.GradientFormat.GradientStops.Count);
 			break;
 		case FillType.Picture:
-			Console.WriteLine("Ширина изображения: " + effectiveFillFormat.PictureFillFormat.Picture.Image.Width);
-			Console.WriteLine("Высота изображения: " + effectiveFillFormat.PictureFillFormat.Picture.Image.Height);
+			Console.WriteLine("Picture width: " + effectiveFillFormat.PictureFillFormat.Picture.Image.Width);
+			Console.WriteLine("Picture height: " + effectiveFillFormat.PictureFillFormat.Picture.Image.Height);
 			break;
 	}
 }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IFillFormatEffectiveData](../../ifillformateffectivedata)
-* класс [FillFormat](../../fillformat)
+* interface [IFillFormatEffectiveData](../../ifillformateffectivedata)
+* class [FillFormat](../../fillformat)
 * пространство имен [Aspose.Slides](../../fillformat)
 * сборка [Aspose.Slides](../../../)
 

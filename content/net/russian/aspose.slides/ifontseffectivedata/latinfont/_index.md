@@ -1,24 +1,23 @@
 ---
-title: Латинский шрифт
+title: LatinFont
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает латинский шрифт. Только для чтения IFontDataaspose.slides/ifontdata.
+description: Возвращает латинский шрифт. Только для чтенияIFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ifontseffectivedata/latinfont/
 ---
+## IFontsEffectiveData.LatinFont property
 
-## Свойство IFontsEffectiveData.LatinFont
-
-Возвращает латинский шрифт. Только для чтения [`IFontData`](../../ifontdata).
+Возвращает латинский шрифт. Только для чтения[`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData LatinFont { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontData](../../ifontdata)
-* интерфейс [IFontsEffectiveData](../../ifontseffectivedata)
+* interface [IFontData](../../ifontdata)
+* interface [IFontsEffectiveData](../../ifontseffectivedata)
 * пространство имен [Aspose.Slides](../../ifontseffectivedata)
 * сборка [Aspose.Slides](../../../)
 

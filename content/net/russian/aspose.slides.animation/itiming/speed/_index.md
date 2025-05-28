@@ -1,23 +1,22 @@
 ---
-title: Скорость
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает процент, на который следует увеличить или уменьшить время. Чтение/запись Single.
+title: Speed
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает процент на который следует ускорить или замедлить синхронизацию. Чтение/записьSingle.
 type: docs
-weight: 110
+weight: 80
 url: /ru/aspose.slides.animation/itiming/speed/
 ---
+## ITiming.Speed property
 
-## Свойство ITiming.Speed
-
-Указывает процент, на который следует увеличить (или уменьшить) время. Чтение/запись Single.
+Задает процент, на который следует ускорить (или замедлить) синхронизацию. Чтение/записьSingle.
 
 ```csharp
 public float Speed { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITiming](../../itiming)
+* interface [ITiming](../../itiming)
 * пространство имен [Aspose.Slides.Animation](../../itiming)
 * сборка [Aspose.Slides](../../../)
 

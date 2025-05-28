@@ -1,13 +1,12 @@
 ---
 title: CloseFigure
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Закрывает текущую фигуру этого пути
 type: docs
 weight: 50
 url: /ru/aspose.slides/igeometrypath/closefigure/
 ---
-
-## IGeometryPath.CloseFigure метод
+## IGeometryPath.CloseFigure method
 
 Закрывает текущую фигуру этого пути
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/igeometrypath/closefigure/
 public void CloseFigure()
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IGeometryPath](../../igeometrypath)
+* interface [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 

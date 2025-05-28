@@ -1,13 +1,12 @@
 ---
 title: FindCommentByIdx
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Находит комментарий в коллекции по индексу.
 type: docs
 weight: 90
 url: /ru/aspose.slides/commentcollection/findcommentbyidx/
 ---
-
-## CommentCollection.FindCommentByIdx метод
+## CommentCollection.FindCommentByIdx method
 
 Находит комментарий в коллекции по индексу.
 
@@ -17,16 +16,16 @@ public IComment FindCommentByIdx(int idx)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| idx | Int32 | Уникальный индекс комментария для поиска Int32. |
+| idx | Int32 | Уникальный индекс комментария для поискаInt32. |
 
 ### Возвращаемое значение
 
-Найденный комментарий или null [`IComment`](../../icomment).
+Найден комментарий или ноль[`IComment`](../../icomment).
 
-### См. также
+### Смотрите также
 
-* интерфейс [IComment](../../icomment)
-* класс [CommentCollection](../../commentcollection)
+* interface [IComment](../../icomment)
+* class [CommentCollection](../../commentcollection)
 * пространство имен [Aspose.Slides](../../commentcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,27 +1,26 @@
 ---
 title: DrawSlidesFrame
 second_title: Справочник по API Aspose.Slides для .NET
-description: Истина для отрисовки черной рамки вокруг каждого слайда. Читаемое/записываемое логическое значение.
+description: True для рисования черной рамки вокруг каждого слайда. Чтение/записьBoolean.
 type: docs
 weight: 70
 url: /ru/aspose.slides.export/ipdfoptions/drawslidesframe/
 ---
+## IPdfOptions.DrawSlidesFrame property
 
-## Свойство IPdfOptions.DrawSlidesFrame
-
-Истина для отрисовки черной рамки вокруг каждого слайда. Читаемое/записываемое логическое значение.
+True для рисования черной рамки вокруг каждого слайда. Чтение/записьBoolean.
 
 ```csharp
 public bool DrawSlidesFrame { get; set; }
 ```
 
-### Замечания
+### Примечания
 
-По умолчанию **ложь**.
+По умолчанию: **false** .
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPdfOptions](../../ipdfoptions)
+* interface [IPdfOptions](../../ipdfoptions)
 * пространство имен [Aspose.Slides.Export](../../ipdfoptions)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: Ширина
+title: Width
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает ширину столбца. Чтение/запись Double.
+description: Возвращает или задает ширину столбца. Чтение/записьDouble.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icolumn/width/
 ---
+## IColumn.Width property
 
-## Свойство IColumn.Width
-
-Возвращает или задает ширину столбца. Чтение/запись Double.
+Возвращает или задает ширину столбца. Чтение/записьDouble.
 
 ```csharp
 public double Width { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColumn](../../icolumn)
+* interface [IColumn](../../icolumn)
 * пространство имен [Aspose.Slides](../../icolumn)
 * сборка [Aspose.Slides](../../../)
 

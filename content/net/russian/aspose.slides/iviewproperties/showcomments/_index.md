@@ -1,24 +1,23 @@
 ---
 title: ShowComments
-second_title: Справка по API Aspose.Slides для .NET
-description: Указывает, должны ли быть отображены комментарии слайдов. Чтение/запись NullableBoolaspose.slides/nullablebool.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает должны ли отображаться комментарии к слайду. Чтение/записьNullableBoolaspose.slides/nullablebool.
 type: docs
-weight: 50
+weight: 40
 url: /ru/aspose.slides/iviewproperties/showcomments/
 ---
+## IViewProperties.ShowComments property
 
-## IViewProperties.ShowComments свойство
-
-Указывает, должны ли быть отображены комментарии слайдов. Чтение/запись [`NullableBool`](../../nullablebool).
+Указывает, должны ли отображаться комментарии к слайду. Чтение/запись[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool ShowComments { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* перечисление [NullableBool](../../nullablebool)
-* интерфейс [IViewProperties](../../iviewproperties)
+* enum [NullableBool](../../nullablebool)
+* interface [IViewProperties](../../iviewproperties)
 * пространство имен [Aspose.Slides](../../iviewproperties)
 * сборка [Aspose.Slides](../../../)
 

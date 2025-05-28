@@ -1,15 +1,14 @@
 ---
 title: ExportHiddenSlides
-second_title: Aspose.Slildes для .NET API Reference
-description: Определяет, будут ли экспортироваться скрытые слайды. Значение по умолчанию - false.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет будут ли экспортироваться скрытые слайды. Значение по умолчанию  false.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/igifoptions/exporthiddenslides/
 ---
+## IGifOptions.ExportHiddenSlides property
 
-## IGifOptions.ExportHiddenSlides свойство
-
-Определяет, будут ли экспортироваться скрытые слайды. Значение по умолчанию - false.
+Определяет, будут ли экспортироваться скрытые слайды. Значение по умолчанию — false.
 
 ```csharp
 public bool ExportHiddenSlides { get; set; }
@@ -25,9 +24,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGifOptions](../../igifoptions)
+* interface [IGifOptions](../../igifoptions)
 * пространство имен [Aspose.Slides.Export](../../igifoptions)
 * сборка [Aspose.Slides](../../../)
 

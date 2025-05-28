@@ -1,23 +1,22 @@
 ---
 title: FullScreenMode
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, отображается ли видео в полноэкранном режиме. Читаемое/писаемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет отображается ли видео в полноэкранном режиме. Чтение/записьBoolean.
 type: docs
-weight: 40
+weight: 30
 url: /ru/aspose.slides/ivideoframe/fullscreenmode/
 ---
+## IVideoFrame.FullScreenMode property
 
-## IVideoFrame.FullScreenMode свойство
-
-Определяет, отображается ли видео в полноэкранном режиме. Читаемое/писаемое логическое значение.
+Определяет, отображается ли видео в полноэкранном режиме. Чтение/записьBoolean.
 
 ```csharp
 public bool FullScreenMode { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IVideoFrame](../../ivideoframe)
+* interface [IVideoFrame](../../ivideoframe)
 * пространство имен [Aspose.Slides](../../ivideoframe)
 * сборка [Aspose.Slides](../../../)
 

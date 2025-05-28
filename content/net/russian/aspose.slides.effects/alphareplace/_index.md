@@ -1,38 +1,37 @@
 ---
 title: AlphaReplace
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет эффект Alpha Replace. Значения альфа-прозрачности эффекта заменяются фиксированной альфа-прозрачностью.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет эффект альфа-замены. Значения альфа-канала эффекта непрозрачности заменяются фиксированным альфа-каналом.
 type: docs
-weight: 2810
+weight: 2730
 url: /ru/aspose.slides.effects/alphareplace/
 ---
+## AlphaReplace class
 
-## Класс AlphaReplace
-
-Представляет эффект Alpha Replace. Значения альфа-прозрачности (непрозрачности) эффекта заменяются фиксированной альфа-прозрачностью.
+Представляет эффект альфа-замены. Значения альфа-канала эффекта (непрозрачности) заменяются фиксированным альфа-каналом.
 
 ```csharp
-public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
+public class AlphaReplace : ImageTransformOperation, IAlphaReplace
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базичный интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Определяет, равен ли заданный [`AlphaReplace`](../alphareplace) текущему [`AlphaReplace`](../alphareplace). |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Получает данные эффекта Alpha Replace с применённым наследованием. |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Служит хэш-функцией для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Определяет, равен ли указанный[`AlphaReplace`](../alphareplace)текущемуAlphaReplace. |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Получает эффективную альфа-версию Заменить данные эффекта с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Служит хэш-функцией для определенного типа. |
 
-### См. также
+### Смотрите также
 
-* класс [ImageTransformOperation](../imagetransformoperation)
-* интерфейс [IAlphaReplace](../ialphareplace)
+* class [ImageTransformOperation](../imagetransformoperation)
+* interface [IAlphaReplace](../ialphareplace)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

@@ -1,23 +1,22 @@
 ---
-title: Перехват
-second_title: Справка по API Aspose.Sildes для .NET
-description: Указывает значение, в котором линия тренда пересечет ось y. Это свойство будет поддерживаться только в том случае, если тип линии тренда является exp, линейным или полиномиальным. Чтение/запись Double.
+title: Intercept
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает значение при котором линия тренда должна пересекать ось Y. Это свойство должно поддерживаться только когда тип линии тренда exp linear или poly. Чтение/записьDouble.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/itrendline/intercept/
 ---
+## ITrendline.Intercept property
 
-## Свойство ITrendline.Intercept
-
-Указывает значение, в котором линия тренда пересечет ось y. Это свойство будет поддерживаться только в том случае, если тип линии тренда является exp, линейным или полиномиальным. Чтение/запись Double.
+Указывает значение, при котором линия тренда должна пересекать ось Y. Это свойство должно поддерживаться только когда тип линии тренда exp, linear или poly. Чтение/записьDouble.
 
 ```csharp
 public double Intercept { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITrendline](../../itrendline)
+* interface [ITrendline](../../itrendline)
 * пространство имен [Aspose.Slides.Charts](../../itrendline)
 * сборка [Aspose.Slides](../../../)
 

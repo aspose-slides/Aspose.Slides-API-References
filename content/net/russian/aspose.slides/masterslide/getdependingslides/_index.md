@@ -1,24 +1,23 @@
 ---
 title: GetDependingSlides
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает массив со всеми слайдами, которые зависят от этого главного слайда.
+description: Возвращает массив со всеми слайдами которые зависят от этого мастер-слайда.
 type: docs
 weight: 120
 url: /ru/aspose.slides/masterslide/getdependingslides/
 ---
+## MasterSlide.GetDependingSlides method
 
-## Метод MasterSlide.GetDependingSlides
-
-Возвращает массив со всеми слайдами, которые зависят от этого главного слайда.
+Возвращает массив со всеми слайдами, которые зависят от этого мастер-слайда.
 
 ```csharp
 public ISlide[] GetDependingSlides()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* класс [MasterSlide](../../masterslide)
+* interface [ISlide](../../islide)
+* class [MasterSlide](../../masterslide)
 * пространство имен [Aspose.Slides](../../masterslide)
 * сборка [Aspose.Slides](../../../)
 

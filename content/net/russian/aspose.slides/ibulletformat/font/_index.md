@@ -1,24 +1,23 @@
 ---
-title: Шрифт
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает шрифт маркера абзаца без наследования. Чтение/запись IFontDataaspose.slides/ifontdata.
+title: Font
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает шрифт маркера абзаца без наследования. Чтение/записьIFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ibulletformat/font/
 ---
+## IBulletFormat.Font property
 
-## Свойство IBulletFormat.Font
-
-Возвращает или устанавливает шрифт маркера абзаца без наследования. Чтение/запись [`IFontData`](../../ifontdata).
+Возвращает или задает шрифт маркера абзаца без наследования. Чтение/запись[`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData Font { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontData](../../ifontdata)
-* интерфейс [IBulletFormat](../../ibulletformat)
+* interface [IFontData](../../ifontdata)
+* interface [IBulletFormat](../../ibulletformat)
 * пространство имен [Aspose.Slides](../../ibulletformat)
 * сборка [Aspose.Slides](../../../)
 

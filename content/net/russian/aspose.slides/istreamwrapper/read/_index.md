@@ -1,15 +1,14 @@
 ---
-title: Чтение
+title: Read
 second_title: Справочник по API Aspose.Slides для .NET
-description: Читает последовательность байтов из текущего потока и перемещает позицию внутри потока на количество прочитанных байтов.
+description: Считывает последовательность байтов из текущего потока и перемещает позицию в потоке на количество прочитанных байтов.
 type: docs
 weight: 100
 url: /ru/aspose.slides/istreamwrapper/read/
 ---
+## IStreamWrapper.Read method
 
-## Метод IStreamWrapper.Read
-
-Читает последовательность байтов из текущего потока и перемещает позицию внутри потока на количество прочитанных байтов.
+Считывает последовательность байтов из текущего потока и перемещает позицию в потоке на количество прочитанных байтов.
 
 ```csharp
 public void Read(byte[] buffer, int offset, int count)
@@ -17,13 +16,13 @@ public void Read(byte[] buffer, int offset, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| buffer | Byte[] | Последовательность байтов Byte[] |
-| offset | Int32 | Начальная позиция чтения Int32 |
-| count | Int32 | Количество байтов для чтения Int32 |
+| buffer | Byte[] | Последовательность байтовByte[] |
+| offset | Int32 | Позиция начала чтенияInt32 |
+| count | Int32 | Количество байтов для чтенияInt32 |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IStreamWrapper](../../istreamwrapper)
+* interface [IStreamWrapper](../../istreamwrapper)
 * пространство имен [Aspose.Slides](../../istreamwrapper)
 * сборка [Aspose.Slides](../../../)
 

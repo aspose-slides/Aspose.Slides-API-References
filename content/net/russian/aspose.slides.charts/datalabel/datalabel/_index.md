@@ -1,13 +1,12 @@
 ---
 title: DataLabel
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новый экземпляр класса DataLabel.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/datalabel/datalabel/
 ---
-
-## Конструктор DataLabel
+## DataLabel constructor
 
 Создает новый экземпляр класса DataLabel.
 
@@ -17,12 +16,12 @@ public DataLabel(IChartDataPoint parentImmediate)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentImmediate | IChartDataPoint | Родительский ChartDataPoint. |
+| parentImmediate | IChartDataPoint | Parent ChartDataPoint. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* класс [DataLabel](../../datalabel)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* class [DataLabel](../../datalabel)
 * пространство имен [Aspose.Slides.Charts](../../datalabel)
 * сборка [Aspose.Slides](../../../)
 

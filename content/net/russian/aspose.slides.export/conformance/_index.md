@@ -1,13 +1,12 @@
 ---
-title: Соответствие
+title: Conformance
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает класс соответствия, которому соответствует документ PresentationML.
+description: Указывает класс соответствия которому соответствует документ PresentationML.
 type: docs
-weight: 3580
+weight: 3480
 url: /ru/aspose.slides.export/conformance/
 ---
-
-## Перечисление Соответствие
+## Conformance enumeration
 
 Указывает класс соответствия, которому соответствует документ PresentationML.
 
@@ -15,15 +14,15 @@ url: /ru/aspose.slides.export/conformance/
 public enum Conformance
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
-| Ecma376_2006 | `0` | Указывает, что документ соответствует ECMA376:2006. |
-| Iso29500_2008_Transitional | `1` | Указывает, что документ соответствует классу соответствия ISO/IEC 29500:2008 Transitional. |
+| Ecma376_2006 | `0` | Указывает, что документ соответствует стандарту ECMA376:2006. |
+| Iso29500_2008_Transitional | `1` | Указывает, что документ соответствует переходному классу соответствия ISO/IEC 29500:2008. |
 | Iso29500_2008_Strict | `2` | Указывает, что документ соответствует классу соответствия ISO/IEC 29500:2008 Strict. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

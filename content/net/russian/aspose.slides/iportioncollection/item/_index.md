@@ -1,13 +1,12 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iportioncollection/item/
 ---
-
-## Индексатор IPortionCollection
+## IPortionCollection indexer
 
 Получает элемент по указанному индексу.
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides/iportioncollection/item/
 public IPortion this[int index] { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPortion](../../iportion)
-* интерфейс [IPortionCollection](../../iportioncollection)
+* interface [IPortion](../../iportion)
+* interface [IPortionCollection](../../iportioncollection)
 * пространство имен [Aspose.Slides](../../iportioncollection)
 * сборка [Aspose.Slides](../../../)
 

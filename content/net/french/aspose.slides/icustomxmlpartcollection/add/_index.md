@@ -1,104 +1,103 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute une nouvelle partie xml personnalisée.
+description: Ajoute une nouvelle partie XML personnalisée.
 type: docs
 weight: 20
 url: /fr/aspose.slides/icustomxmlpartcollection/add/
 ---
+## Add(byte[]) {#add}
 
-## Ajouter(byte[]) {#add}
-
-Ajoute une nouvelle partie xml personnalisée.
+Ajoute une nouvelle partie XML personnalisée.
 
 ```csharp
 public ICustomXmlPart Add(byte[] xmlData)
 ```
 
-| Paramètre | Type   | Description                                                       |
-| --------- | ------ | ----------------------------------------------------------------- |
-| xmlData   | Byte[] | Les données xml de la nouvelle partie à ajouter.                 |
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| xmlData | Byte[] | Les données xml de la nouvelle partie à ajouter. |
 
-### Valeur de retour
+### Return_Value
 
-Partie xml personnalisée créée.
+Création d'une partie XML personnalisée.
 
 ### Exceptions
 
-| exception             | condition                                |
-|----------------------|------------------------------------------|
-| ArgumentNullException | xmlData est `null`.                     |
-| ArgumentException     | xmlData est vide ou invalide.           |
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | xmlData est`nul`. |
+| ArgumentException | xmlData est vide ou invalide. |
 
-### Voir aussi
+### Voir également
 
 * interface [ICustomXmlPart](../../icustomxmlpart)
 * interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
-* namespace [Aspose.Slides](../../icustomxmlpartcollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../icustomxmlpartcollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## Ajouter(string) {#add_2}
+## Add(string) {#add_2}
 
-Ajoute une nouvelle partie xml personnalisée.
+Ajoute une nouvelle partie XML personnalisée.
 
 ```csharp
 public ICustomXmlPart Add(string xmlString)
 ```
 
-| Paramètre | Type    | Description                                                       |
-| --------- | ------- | ----------------------------------------------------------------- |
-| xmlString | String  | La chaîne xml de la nouvelle partie à ajouter.                   |
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| xmlString | String | La chaîne xml de la nouvelle partie à ajouter. |
 
-### Valeur de retour
+### Return_Value
 
-Partie xml personnalisée créée.
+Création d'une partie XML personnalisée.
 
 ### Exceptions
 
-| exception             | condition                                      |
-|----------------------|------------------------------------------------|
-| ArgumentNullException | xmlString est `null`.                          |
-| ArgumentException     | xmlString est vide ou les données xml sont invalides. |
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | xmlString est`nul`. |
+| ArgumentException | xmlString est vide ou xml-data n'est pas valide. |
 
-### Voir aussi
+### Voir également
 
 * interface [ICustomXmlPart](../../icustomxmlpart)
 * interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
-* namespace [Aspose.Slides](../../icustomxmlpartcollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../icustomxmlpartcollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## Ajouter(Stream) {#add_1}
+## Add(Stream) {#add_1}
 
-Ajoute une nouvelle partie xml personnalisée.
+Ajoute une nouvelle partie XML personnalisée.
 
 ```csharp
 public ICustomXmlPart Add(Stream inputStream)
 ```
 
-| Paramètre  | Type    | Description                                                       |
-|------------|---------|-------------------------------------------------------------------|
-| inputStream| Stream  | Le flux d'entrée contenant les données xml de la nouvelle partie à ajouter. |
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| inputStream | Stream | L'inputStream avec les données xml de la nouvelle partie à ajouter. |
 
-### Valeur de retour
+### Return_Value
 
-Partie xml personnalisée créée.
+Création d'une partie XML personnalisée.
 
 ### Exceptions
 
-| exception             | condition                                 |
-|----------------------|-------------------------------------------|
-| ArgumentNullException | inputStream est `null`.                  |
-| ArgumentException     | Les données dans inputStream sont vides ou invalides. |
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | inputStream est`nul`. |
+| ArgumentException | Les données dans inputStream sont vides ou Sinvalid. |
 
-### Voir aussi
+### Voir également
 
 * interface [ICustomXmlPart](../../icustomxmlpart)
 * interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
-* namespace [Aspose.Slides](../../icustomxmlpartcollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../icustomxmlpartcollection)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

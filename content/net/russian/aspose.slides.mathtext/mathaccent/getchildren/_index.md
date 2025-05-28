@@ -6,8 +6,7 @@ type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathaccent/getchildren/
 ---
-
-## MathAccent.GetChildren метод
+## MathAccent.GetChildren method
 
 Получить дочерние элементы
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides.mathtext/mathaccent/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathAccent](../../mathaccent)
+* interface [IMathElement](../../imathelement)
+* class [MathAccent](../../mathaccent)
 * пространство имен [Aspose.Slides.MathText](../../mathaccent)
 * сборка [Aspose.Slides](../../../)
 

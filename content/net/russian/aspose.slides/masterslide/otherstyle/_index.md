@@ -1,24 +1,23 @@
 ---
 title: OtherStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стиль другого текста. Только для чтения ITextStyleaspose.slides/itextstyle.
+description: Возвращает стиль другого текста. Только для чтенияITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 60
 url: /ru/aspose.slides/masterslide/otherstyle/
 ---
+## MasterSlide.OtherStyle property
 
-## MasterSlide.OtherStyle свойство
-
-Возвращает стиль другого текста. Только для чтения [`ITextStyle`](../../itextstyle).
+Возвращает стиль другого текста. Только для чтения[`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle OtherStyle { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ITextStyle](../../itextstyle)
-* класс [MasterSlide](../../masterslide)
+* interface [ITextStyle](../../itextstyle)
+* class [MasterSlide](../../masterslide)
 * пространство имен [Aspose.Slides](../../masterslide)
 * сборка [Aspose.Slides](../../../)
 

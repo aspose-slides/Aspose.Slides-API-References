@@ -1,23 +1,22 @@
 ---
 title: HasEndCap
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, что конечный колпачок не рисуется на ошибках. Читаемое/записываемое логическое значение.
+description: Указывает что заглушка не рисуется на планках погрешностей. Чтение/записьBoolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/errorbarsformat/hasendcap/
 ---
+## ErrorBarsFormat.HasEndCap property
 
-## ErrorBarsFormat.HasEndCap свойство
-
-Указывает, что конечный колпачок не рисуется на ошибках. Читаемое/записываемое логическое значение.
+Указывает, что заглушка не рисуется на планках погрешностей. Чтение/записьBoolean.
 
 ```csharp
 public bool HasEndCap { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ErrorBarsFormat](../../errorbarsformat)
+* class [ErrorBarsFormat](../../errorbarsformat)
 * пространство имен [Aspose.Slides.Charts](../../errorbarsformat)
 * сборка [Aspose.Slides](../../../)
 

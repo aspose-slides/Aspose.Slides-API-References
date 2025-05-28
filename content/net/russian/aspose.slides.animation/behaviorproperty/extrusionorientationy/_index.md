@@ -1,13 +1,12 @@
 ---
 title: ExtrusionOrientationY
-second_title: Aspose.Slides для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство extrusion.orientation.y
 type: docs
 weight: 100
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionorientationy/
 ---
-
-## Свойство BehaviorProperty.ExtrusionOrientationY
+## BehaviorProperty.ExtrusionOrientationY property
 
 Представляет свойство 'extrusion.orientation.y'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionorientationy/
 public static BehaviorProperty ExtrusionOrientationY { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

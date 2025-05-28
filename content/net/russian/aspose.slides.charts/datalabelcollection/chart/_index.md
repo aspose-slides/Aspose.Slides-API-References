@@ -1,24 +1,23 @@
 ---
-title: График
+title: Chart
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительский график. Только для чтения IChart aspose.slides.charts/ichart.
+description: Возвращает родительскую диаграмму. Только для чтенияIChartaspose.slides.charts/ichart.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/datalabelcollection/chart/
 ---
+## DataLabelCollection.Chart property
 
-## Свойство DataLabelCollection.Chart
-
-Возвращает родительский график. Только для чтения [`IChart`](../../ichart).
+Возвращает родительскую диаграмму. Только для чтения[`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChart](../../ichart)
-* класс [DataLabelCollection](../../datalabelcollection)
+* interface [IChart](../../ichart)
+* class [DataLabelCollection](../../datalabelcollection)
 * пространство имен [Aspose.Slides.Charts](../../datalabelcollection)
 * сборка [Aspose.Slides](../../../)
 

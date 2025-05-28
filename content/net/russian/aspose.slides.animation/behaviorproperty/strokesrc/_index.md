@@ -1,13 +1,12 @@
 ---
 title: StrokeSrc
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство stroke.src
 type: docs
 weight: 1000
 url: /ru/aspose.slides.animation/behaviorproperty/strokesrc/
 ---
-
-## Свойство BehaviorProperty.StrokeSrc
+## BehaviorProperty.StrokeSrc property
 
 Представляет свойство 'stroke.src'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokesrc/
 public static BehaviorProperty StrokeSrc { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

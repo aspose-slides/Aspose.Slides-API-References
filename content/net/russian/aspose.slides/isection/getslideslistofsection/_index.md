@@ -6,8 +6,7 @@ type: docs
 weight: 40
 url: /ru/aspose.slides/isection/getslideslistofsection/
 ---
-
-## Метод ISection.GetSlidesListOfSection
+## ISection.GetSlidesListOfSection method
 
 Возвращает список слайдов в разделе.
 
@@ -17,12 +16,12 @@ public ISectionSlideCollection GetSlidesListOfSection()
 
 ### Возвращаемое значение
 
-Список слайдов [`ISectionSlideCollection`](../../isectionslidecollection)
+Список слайдов[`ISectionSlideCollection`](../../isectionslidecollection)
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISectionSlideCollection](../../isectionslidecollection)
-* интерфейс [ISection](../../isection)
+* interface [ISectionSlideCollection](../../isectionslidecollection)
+* interface [ISection](../../isection)
 * пространство имен [Aspose.Slides](../../isection)
 * сборка [Aspose.Slides](../../../)
 

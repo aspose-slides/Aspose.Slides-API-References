@@ -1,34 +1,33 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
-description: Неизменяемый объект, представляющий собой только для чтения коллекцию эффективных стилей эффектов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект представляющий доступную только для чтения коллекцию эффективных стилей эффектов.
 type: docs
-weight: 10880
+weight: 10380
 url: /ru/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
+## IEffectStyleCollectionEffectiveData interface
 
-## Интерфейс IEffectStyleCollectionEffectiveData
-
-Неизменяемый объект, представляющий собой только для чтения коллекцию эффективных стилей эффектов.
+Неизменяемый объект, представляющий доступную только для чтения коллекцию эффективных стилей эффектов.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
 ### Примечания
 
-Этот интерфейс используется как часть [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
+Этот интерфейс используется как часть[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* интерфейс [IEffectStyleEffectiveData](../ieffectstyleeffectivedata)
+* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* interface [IEffectStyleEffectiveData](../ieffectstyleeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

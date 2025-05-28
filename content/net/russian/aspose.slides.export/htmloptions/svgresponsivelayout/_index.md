@@ -1,15 +1,14 @@
 ---
 title: SvgResponsiveLayout
-second_title: Справка по API Aspose.Slides для .NET
-description: True для исключения атрибутов ширины и высоты из контейнера svg - это сделает макет адаптивным. False - в противном случае. Читаемый/записываемый логический тип.
+second_title: Справочник по API Aspose.Slides для .NET
+description: True чтобы исключить атрибуты ширины и высоты из контейнера svg  это сделает макет отзывчивым. Ложь - иначе. Чтение/записьBoolean.
 type: docs
-weight: 110
+weight: 90
 url: /ru/aspose.slides.export/htmloptions/svgresponsivelayout/
 ---
+## HtmlOptions.SvgResponsiveLayout property
 
-## HtmlOptions.SvgResponsiveLayout свойство
-
-True для исключения атрибутов ширины и высоты из контейнера svg - это сделает макет адаптивным. False - в противном случае. Читаемый/записываемый логический тип.
+True, чтобы исключить атрибуты ширины и высоты из контейнера svg — это сделает макет отзывчивым. Ложь - иначе. Чтение/записьBoolean.
 
 ```csharp
 public bool SvgResponsiveLayout { get; set; }
@@ -17,7 +16,7 @@ public bool SvgResponsiveLayout { get; set; }
 
 ### Смотрите также
 
-* класс [HtmlOptions](../../htmloptions)
+* class [HtmlOptions](../../htmloptions)
 * пространство имен [Aspose.Slides.Export](../../htmloptions)
 * сборка [Aspose.Slides](../../../)
 

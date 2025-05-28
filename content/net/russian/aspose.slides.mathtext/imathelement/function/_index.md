@@ -1,13 +1,12 @@
 ---
-title: Функция
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
+title: Function
+second_title: Справочник по API Aspose.Slides для .NET
+description: Принимает функцию аргумента используя этот экземпляр в качестве имени функции
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathelement/function/
 ---
-
-## Функция(IMathElement) {#function}
+## Function(IMathElement) {#function}
 
 Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
 
@@ -21,7 +20,7 @@ public IMathFunction Function(IMathElement functionArgument)
 
 ### Возвращаемое значение
 
-Новый математический элемент типа [`IMathFunction`](../../imathfunction)
+Новый математический элемент типа[`IMathFunction`](../../imathfunction)
 
 ### Примеры
 
@@ -34,16 +33,16 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionName.Function(functionArg);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathFunction](../../imathfunction)
-* интерфейс [IMathElement](../../imathelement)
+* interface [IMathFunction](../../imathfunction)
+* interface [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Функция(string) {#function_1}
+## Function(string) {#function_1}
 
 Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
 
@@ -57,7 +56,7 @@ public IMathFunction Function(string functionArgument)
 
 ### Возвращаемое значение
 
-Новый математический элемент типа [`IMathFunction`](../../imathfunction)
+Новый математический элемент типа[`IMathFunction`](../../imathfunction)
 
 ### Примеры
 
@@ -69,10 +68,10 @@ IMathElement functionName = new MathematicalText("sin");
 IMathFunction func = functionName.Function("x");
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathFunction](../../imathfunction)
-* интерфейс [IMathElement](../../imathelement)
+* interface [IMathFunction](../../imathfunction)
+* interface [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

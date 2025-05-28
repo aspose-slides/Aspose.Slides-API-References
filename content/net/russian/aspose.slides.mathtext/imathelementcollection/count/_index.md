@@ -1,15 +1,14 @@
 ---
-title: Количество
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+title: Count
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathelementcollection/count/
 ---
+## IMathElementCollection.Count property
 
-## Свойство IMathElementCollection.Count
-
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
@@ -25,9 +24,9 @@ IMathElementCollection collection = new MathBlock(new MathematicalText("x"));
 int count = collection.Count;
 ```
 
-### Дополнительная информация
+### Смотрите также
 
-* интерфейс [IMathElementCollection](../../imathelementcollection)
+* interface [IMathElementCollection](../../imathelementcollection)
 * пространство имен [Aspose.Slides.MathText](../../imathelementcollection)
 * сборка [Aspose.Slides](../../../)
 

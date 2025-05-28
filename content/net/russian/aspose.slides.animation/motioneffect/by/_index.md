@@ -1,23 +1,22 @@
 ---
-title: По
-second_title: Справка по API Aspose.Sildes для .NET
-description: Описывает относительное значение смещения для анимации в процентах. Чтение/запись PointF.
+title: By
+second_title: Справочник по API Aspose.Slides для .NET
+description: Описывает значение относительного смещения для анимации в процентах. Чтение/записьPointF.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/motioneffect/by/
 ---
+## MotionEffect.By property
 
-## Свойство MotionEffect.By
-
-Описывает относительное значение смещения для анимации (в процентах). Чтение/запись PointF.
+Описывает значение относительного смещения для анимации (в процентах). Чтение/записьPointF.
 
 ```csharp
 public PointF By { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MotionEffect](../../motioneffect)
+* class [MotionEffect](../../motioneffect)
 * пространство имен [Aspose.Slides.Animation](../../motioneffect)
 * сборка [Aspose.Slides](../../../)
 

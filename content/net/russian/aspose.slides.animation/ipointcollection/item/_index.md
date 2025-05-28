@@ -1,13 +1,12 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает точку по указанному индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/ipointcollection/item/
 ---
-
-## Индексатор IPointCollection
+## IPointCollection indexer
 
 Возвращает точку по указанному индексу.
 
@@ -19,10 +18,10 @@ public IPoint this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPoint](../../ipoint)
-* интерфейс [IPointCollection](../../ipointcollection)
+* interface [IPoint](../../ipoint)
+* interface [IPointCollection](../../ipointcollection)
 * пространство имен [Aspose.Slides.Animation](../../ipointcollection)
 * сборка [Aspose.Slides](../../../)
 

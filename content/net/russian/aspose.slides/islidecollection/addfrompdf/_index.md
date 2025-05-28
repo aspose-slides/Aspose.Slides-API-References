@@ -1,15 +1,14 @@
 ---
 title: AddFromPdf
-second_title: Aspose.Slides для .NET API Reference
-description: Создает слайды из PDF-документа и добавляет их в конец коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает слайды из документа PDF и добавляет их в конец коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides/islidecollection/addfrompdf/
 ---
+## AddFromPdf(string) {#addfrompdf_1}
 
-## AddFromPdf(string) {#addfrompdf_2}
-
-Создает слайды из PDF-документа и добавляет их в конец коллекции.
+Создает слайды из документа PDF и добавляет их в конец коллекции.
 
 ```csharp
 public ISlide[] AddFromPdf(string path)
@@ -17,11 +16,11 @@ public ISlide[] AddFromPdf(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь к PDF-документу |
+| path | String | Путь к документу PDF |
 
 ### Возвращаемое значение
 
-Добавленные слайды
+Добавлены слайды
 
 ### Примеры
 
@@ -38,92 +37,8 @@ using (Presentation pres = new Presentation())
 
 ### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* интерфейс [ISlideCollection](../../islidecollection)
-* пространство имен [Aspose.Slides](../../islidecollection)
-* сборка [Aspose.Slides](../../../)
-
----
-
-## AddFromPdf(string, PdfImportOptions) {#addfrompdf_3}
-
-Создает слайды из PDF-документа и добавляет их в конец коллекции, учитывая параметры импорта PDF.
-
-```csharp
-public ISlide[] AddFromPdf(string path, PdfImportOptions pdfImportOptions)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| path | String | Путь к PDF-документу |
-| pdfImportOptions | PdfImportOptions | Параметры для импорта PDF |
-
-### Возвращаемое значение
-
-Добавленные слайды
-
-### Примеры
-
-Пример:
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation())
-{
-    pres.Slides.AddFromPdf("document.pdf, new PdfImportOptions { DetectTables = true });
-    pres.Save("fromPdfDocument.pptx", SaveFormat.Pptx);
-}
-```
-
-### Смотрите также
-
-* интерфейс [ISlide](../../islide)
-* класс [PdfImportOptions](../../../aspose.slides.import/pdfimportoptions)
-* интерфейс [ISlideCollection](../../islidecollection)
-* пространство имен [Aspose.Slides](../../islidecollection)
-* сборка [Aspose.Slides](../../../)
-
----
-
-## AddFromPdf(Stream, PdfImportOptions) {#addfrompdf_1}
-
-Создает слайды из PDF-документа и добавляет их в конец коллекции.
-
-```csharp
-public ISlide[] AddFromPdf(Stream pdfStream, PdfImportOptions pdfImportOptions)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| pdfStream | Stream | Поток, который будет использоваться в качестве источника PDF-документа |
-| pdfImportOptions | PdfImportOptions | Параметры для импорта PDF |
-
-### Возвращаемое значение
-
-Добавленные слайды
-
-### Примеры
-
-Пример:
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation())
-{
-    using (Stream stream = new FileStream("document.pdf", FileMode.Open, FileAccess.Read, FileShare.Read))
-    {
-        pres.Slides.AddFromPdf(stream, new PdfImportOptions { DetectTables = true });
-    }
-    
-    pres.Save("fromPdfDocument.pptx", SaveFormat.Pptx);
-}
-```
-
-### Смотрите также
-
-* интерфейс [ISlide](../../islide)
-* класс [PdfImportOptions](../../../aspose.slides.import/pdfimportoptions)
-* интерфейс [ISlideCollection](../../islidecollection)
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -131,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## AddFromPdf(Stream) {#addfrompdf}
 
-Создает слайды из PDF-документа и добавляет их в конец коллекции.
+Создает слайды из документа PDF и добавляет их в конец коллекции.
 
 ```csharp
 public ISlide[] AddFromPdf(Stream pdfStream)
@@ -139,11 +54,11 @@ public ISlide[] AddFromPdf(Stream pdfStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pdfStream | Stream | Поток, который будет использоваться в качестве источника PDF-документа |
+| pdfStream | Stream | Поток, который будет использоваться как источник PDF-документа |
 
 ### Возвращаемое значение
 
-Добавленные слайды
+Добавлены слайды
 
 ### Примеры
 
@@ -164,8 +79,8 @@ using (Presentation pres = new Presentation())
 
 ### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* интерфейс [ISlideCollection](../../islidecollection)
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 

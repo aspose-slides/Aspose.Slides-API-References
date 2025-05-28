@@ -1,24 +1,23 @@
 ---
 title: PresetClassType
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет класс эффекта. Чтение/запись EffectPresetClassTypeaspose.slides.animation/effectpresetclasstype.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет класс эффекта. Чтение/записьEffectPresetClassTypeaspose.slides.animation/effectpresetclasstype.
 type: docs
-weight: 60
+weight: 20
 url: /ru/aspose.slides.animation/effect/presetclasstype/
 ---
+## Effect.PresetClassType property
 
-## Свойство Effect.PresetClassType
-
-Определяет класс эффекта. Чтение/запись [`EffectPresetClassType`](../../effectpresetclasstype).
+Определяет класс эффекта. Чтение/запись[`EffectPresetClassType`](../../effectpresetclasstype).
 
 ```csharp
 public EffectPresetClassType PresetClassType { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* перечисление [EffectPresetClassType](../../effectpresetclasstype)
-* класс [Effect](../../effect)
+* enum [EffectPresetClassType](../../effectpresetclasstype)
+* class [Effect](../../effect)
 * пространство имен [Aspose.Slides.Animation](../../effect)
 * сборка [Aspose.Slides](../../../)
 

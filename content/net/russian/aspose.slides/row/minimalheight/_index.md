@@ -1,23 +1,22 @@
 ---
-title: МинимальнаяВысота
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает или задает минимально возможную высоту строки. Чтение/запись Double.
+title: MinimalHeight
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает минимально возможную высоту строки. Чтение/записьDouble.
 type: docs
 weight: 20
 url: /ru/aspose.slides/row/minimalheight/
 ---
+## Row.MinimalHeight property
 
-## Свойство Row.MinimalHeight
-
-Возвращает или задает минимально возможную высоту строки. Чтение/запись Double.
+Возвращает или задает минимально возможную высоту строки. Чтение/записьDouble.
 
 ```csharp
 public double MinimalHeight { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Row](../../row)
+* class [Row](../../row)
 * пространство имен [Aspose.Slides](../../row)
 * сборка [Aspose.Slides](../../../)
 

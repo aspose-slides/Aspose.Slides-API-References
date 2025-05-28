@@ -1,23 +1,22 @@
 ---
 title: AxisBetweenCategories
-second_title: Aspose.Slides для .NET Справочник API
-description: Представляет, пересекает ли ось значений ось категорий между категориями. Это свойство применяется только к осям категорий и не применяется к 3-D графикам. Чтение/запись Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает пересекает ли ось значений ось категорий между категориями. Это свойство применяется только к осям категорий и не применяется к трехмерным диаграммам. Чтение/записьBoolean.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/iaxis/axisbetweencategories/
 ---
+## IAxis.AxisBetweenCategories property
 
-## IAxis.AxisBetweenCategories свойство
-
-Представляет, пересекает ли ось значений ось категорий между категориями. Это свойство применяется только к осям категорий и не применяется к 3-D графикам. Чтение/запись Boolean.
+Указывает, пересекает ли ось значений ось категорий между категориями. Это свойство применяется только к осям категорий и не применяется к трехмерным диаграммам. Чтение/записьBoolean.
 
 ```csharp
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
+* interface [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

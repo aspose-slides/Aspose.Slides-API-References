@@ -1,13 +1,12 @@
 ---
 title: MathGroupingCharacterFactory
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathgroupingcharacterfactory/mathgroupingcharacterfactory/
 ---
-
-## Конструктор MathGroupingCharacterFactory
+## MathGroupingCharacterFactory constructor
 
 Конструктор по умолчанию.
 
@@ -17,7 +16,7 @@ public MathGroupingCharacterFactory()
 
 ### Смотрите также
 
-* класс [MathGroupingCharacterFactory](../../mathgroupingcharacterfactory)
+* class [MathGroupingCharacterFactory](../../mathgroupingcharacterfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathgroupingcharacterfactory)
 * сборка [Aspose.Slides](../../../)
 

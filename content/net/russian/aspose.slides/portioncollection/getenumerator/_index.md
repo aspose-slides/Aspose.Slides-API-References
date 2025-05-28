@@ -1,13 +1,12 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель, который перебирает коллекцию.
+description: Возвращает перечислитель который перебирает коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides/portioncollection/getenumerator/
 ---
-
-## Метод PortionCollection.GetEnumerator
+## PortionCollection.GetEnumerator method
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -17,12 +16,12 @@ public IEnumerator<IPortion> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для перебора коллекции.
+AIEnumeratorкоторые можно использовать для перебора коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPortion](../../iportion)
-* класс [PortionCollection](../../portioncollection)
+* interface [IPortion](../../iportion)
+* class [PortionCollection](../../portioncollection)
 * пространство имен [Aspose.Slides](../../portioncollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,38 +1,37 @@
 ---
 title: IStringChartValue
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет строковое значение, которое может быть сохранено в документе pptx двумя способами 1 в ячейке/ячейках рабочей книги, относящейся к диаграмме; 2 как буквальное значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет строковое значение которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги связанной с диаграммой 2 как буквальное значение.
 type: docs
-weight: 2140
+weight: 2080
 url: /ru/aspose.slides.charts/istringchartvalue/
 ---
+## IStringChartValue interface
 
-## Интерфейс IStringChartValue
-
-Представляет строковое значение, которое может быть сохранено в документе pptx двумя способами: 1) в ячейке/ячейках рабочей книги, относящейся к диаграмме; 2) как буквальное значение.
+Представляет строковое значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Позволяет получить базовый интерфейс IMultipleCellChartValue. Только для чтения [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Возвращает или устанавливает буквальную строку, если свойство DataSourceType равно DataSourceType.StringLiterals. Чтение/запись строка. |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Позволяет получить базовый интерфейс IMultipleCellChartValue. Только для чтения[`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Возвращает или задает литеральную строку, если свойство DataSourceType имеет значение DataSourceType.StringLiterals. Чтение/записьString. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Если свойство DataSourceType равно DataSourceType.Worksheet, то этот метод возвращает адрес ячеек в рабочей книге, представляющих строковые данные. В противном случае возвращает пустую строку. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Если свойство DataSourceType имеет значение DataSourceType.Worksheet, то этот метод возвращает адрес ячеек в рабочей книге, которые представляют строковые данные. В противном случае вернуть пустую строку. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Устанавливает значение из указанной ячейки. |
 | [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Возвращает строковое представление. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMultipleCellChartValue](../imultiplecellchartvalue)
+* interface [IMultipleCellChartValue](../imultiplecellchartvalue)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

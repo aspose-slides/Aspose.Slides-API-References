@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathlimitfactory/createmathlimit/
 ---
-
-## CreateMathLimit(IMathElement, IMathElement, bool) {#createmathlimit_1}
+## CreateMathLimit(IMathElement, IMathElement, bool) {#createmathlimit_1}
 
 Создает IMathLimit
 
@@ -18,26 +17,26 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | baseArg | IMathElement | Базовый аргумент для применения ограничения |
-| limit | IMathElement | Элемент ограничения |
-| upperLimit | Boolean | Устанавливает размещение ограничения сверху |
+| limit | IMathElement | Элемент лимита |
+| upperLimit | Boolean | Устанавливает размещение лимита сверху |
 
 ### Возвращаемое значение
 
-новое математическое ограничение
+новый математический лимит
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathLimit](../../imathlimit)
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathLimitFactory](../../imathlimitfactory)
+* interface [IMathLimit](../../imathlimit)
+* interface [IMathElement](../../imathelement)
+* interface [IMathLimitFactory](../../imathlimitfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathlimitfactory)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
+## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
 
-Создает IMathLimit с ограничением снизу
+Создает IMathLimit с ограничением внизу
 
 ```csharp
 public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
@@ -45,18 +44,18 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArg | IMathElement | Базовый аргумент для применения ограничения |
+| baseArg | IMathElement | Базовый аргумент для применить ограничение |
 | limit | IMathElement | Элемент ограничения |
 
 ### Возвращаемое значение
 
 новое математическое ограничение
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathLimit](../../imathlimit)
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathLimitFactory](../../imathlimitfactory)
+* interface [IMathLimit](../../imathlimit)
+* interface [IMathElement](../../imathelement)
+* interface [IMathLimitFactory](../../imathlimitfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathlimitfactory)
 * сборка [Aspose.Slides](../../../)
 

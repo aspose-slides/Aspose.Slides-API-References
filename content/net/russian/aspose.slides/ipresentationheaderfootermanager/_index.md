@@ -1,21 +1,20 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет менеджер, который содержит поведение всех заполнителей даты и времени и номеров страниц в презентации.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет менеджер который содержит поведение всех заполнителей нижнего колонтитула даты-времени и номера страницы презентации.
 type: docs
-weight: 6580
+weight: 6220
 url: /ru/aspose.slides/ipresentationheaderfootermanager/
 ---
+## IPresentationHeaderFooterManager interface
 
-## Интерфейс IPresentationHeaderFooterManager
-
-Представляет менеджер, который содержит поведение всех заполнителей подвала, времени и даты и номера страниц в презентации.
+Представляет менеджер, который содержит поведение всех заполнителей нижнего колонтитула, даты-времени и номера страницы презентации.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
@@ -25,19 +24,19 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 | Имя | Описание |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Устанавливает текст для всех заполнителей даты и времени, включая основные слайды, макеты и слайды. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Меняет видимость всех заполнителей даты и времени, включая основные слайды, макеты и слайды. |
-| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Устанавливает текст для всех заполнителей подвала, включая основные слайды, макеты и слайды. |
-| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Меняет видимость всех заполнителей подвала, включая основные слайды, макеты и слайды. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Устанавливает текст для всех заполнителей заголовка, включая мастер заметок, слайды заметок и мастер раздаточного материала. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Меняет видимость всех заполнителей заголовка, включая мастер заметок, слайды заметок и мастер раздаточного материала. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Меняет видимость всех заполнителей номера страниц, включая основные слайды, макеты и слайды. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Меняет видимость заполнителей подвала, даты и времени и номеров страниц для всех титульных слайдов и для первого слайда макета. Титульные слайды – это слайды, основанные на первом слайде макета (независимо от типа этого первого макета). |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Задает текст для всех заполнителей даты и времени, включая мастер-слайды, макеты слайдов и слайды. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Изменяет видимость всех заполнителей даты и времени, включая мастер-слайды, макеты слайдов и слайды. |
+| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Устанавливает текст во все заполнители нижнего колонтитула, включая мастер-слайды, макеты слайдов и слайды. |
+| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Изменяет видимость всех заполнителей нижнего колонтитула, включая мастер-слайды, макеты слайдов и слайды. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Устанавливает текст во все заполнители заголовков, включая образец заметок, слайды заметок и образец раздаточных материалов. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Изменяет видимость всех заполнителей заголовков, включая мастер заметок, слайды заметок и мастер раздаточных материалов. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Изменяет видимость всех заполнителей номеров страниц, включая мастер-слайды, макеты слайдов и слайды. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Изменяет видимость заполнителей нижнего колонтитула, даты-времени и номера страницы для всех титульных слайдов и для первого слайда макета. Титульные слайды – слайды на основе первого слайда макета (независимо от типа этого первого макета). |
 
-### Также см. 
+### Смотрите также
 
-* интерфейс [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
-* пространство имён [Aspose.Slides](../../aspose.slides)
+* interface [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
+* пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

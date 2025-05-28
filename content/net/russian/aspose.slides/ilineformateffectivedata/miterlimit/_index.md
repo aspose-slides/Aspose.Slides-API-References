@@ -1,23 +1,22 @@
 ---
 title: MiterLimit
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает предел наклона линии. Только для чтения, Single.
+description: Возвращает предел скоса линии. Только для чтенияSingle.
 type: docs
 weight: 140
 url: /ru/aspose.slides/ilineformateffectivedata/miterlimit/
 ---
+## ILineFormatEffectiveData.MiterLimit property
 
-## Свойство ILineFormatEffectiveData.MiterLimit
-
-Возвращает предел наклона линии. Только для чтения, Single.
+Возвращает предел скоса линии. Только для чтенияSingle.
 
 ```csharp
 public float MiterLimit { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * пространство имен [Aspose.Slides](../../ilineformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

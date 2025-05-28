@@ -1,23 +1,22 @@
 ---
-title: Количество
+title: Amount
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество эффекта в процентах. Только для чтения Single.
+description: Возвращает количество эффекта в процентах. Только для чтенияSingle.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/ialphamodulatefixedeffectivedata/amount/
 ---
+## IAlphaModulateFixedEffectiveData.Amount property
 
-## Свойство IAlphaModulateFixedEffectiveData.Amount
-
-Возвращает количество эффекта в процентах. Только для чтения Single.
+Возвращает количество эффекта в процентах. Только для чтенияSingle.
 
 ```csharp
 public float Amount { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAlphaModulateFixedEffectiveData](../../ialphamodulatefixedeffectivedata)
+* interface [IAlphaModulateFixedEffectiveData](../../ialphamodulatefixedeffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ialphamodulatefixedeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

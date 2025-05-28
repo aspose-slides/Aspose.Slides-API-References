@@ -1,13 +1,12 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Bietet Optionen, die steuern, wie eine Präsentation im SWF-Format gespeichert wird.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Bietet Optionen die steuern wie eine Präsentation im SWFFormat gespeichert wird.
 type: docs
-weight: 3980
+weight: 3830
 url: /de/aspose.slides.export/iswfoptions/
 ---
-
-## ISwfOptions-Schnittstelle
+## ISwfOptions interface
 
 Bietet Optionen, die steuern, wie eine Präsentation im SWF-Format gespeichert wird.
 
@@ -19,28 +18,28 @@ public interface ISwfOptions : ISaveOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Gibt die ISaveOptions-Schnittstelle zurück. Nur lesbar [`ISaveOptions`](../isaveoptions). |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Gibt an, ob das generierte SWF-Dokument komprimiert werden soll oder nicht. Standard ist `true`. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Kontextmenü aktivieren/deaktivieren. Standard ist true. |
+| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Gibt die ISaveOptions-Schnittstelle zurück. Schreibgeschützt[`ISaveOptions`](../isaveoptions) . |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Gibt an, ob das generierte SWF-Dokument komprimiert werden soll oder nicht. Standard ist`Stimmt` . |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Kontextmenü aktivieren/deaktivieren. Standard ist wahr. |
 | [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Gibt die Qualität von JPEG-Bildern an. Standard ist 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Bild, das als Logo in der oberen rechten Ecke des Viewers angezeigt wird. Bild sollte ein PNG-Bild von 32x64 Pixeln sein, da sonst das Logo möglicherweise nicht korrekt angezeigt wird. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Erhält oder setzt die vollständige Hyperlink-Adresse für ein Logo. Hat nur Auswirkungen, wenn [`LogoImageBytes`](./logoimagebytes) angegeben ist. |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Unteres Paneel zeigen/ausblenden. Kann in flashvars überschrieben werden. Standard ist true. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Vollbildschaltfläche zeigen/ausblenden. Kann in flashvars überschrieben werden. Standard ist true. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht. Standard ist `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Linkes Paneel zeigen/ausblenden. Kann in flashvars überschrieben werden. Standard ist true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Gibt an, ob der Rand um die Seiten angezeigt werden soll. Standard ist true. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Seitenstepper zeigen/ausblenden. Kann in flashvars überschrieben werden. Standard ist true. |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Suchbereich zeigen/ausblenden. Kann in flashvars überschrieben werden. Standard ist true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Ganzes oberes Paneel zeigen/ausblenden. Kann in flashvars überschrieben werden. Standard ist true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Erhält oder setzt den Modus, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird. [`ISlidesLayoutOptions`](../islideslayoutoptions). Diese Eigenschaft unterstützt nicht das Zuweisen von Objekten des Typs `Aspose.Slides.Export.HandoutLayoutingOptions` |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Mit geöffnetem linken Paneel starten. Kann in flashvars überschrieben werden. Standard ist false. |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Gibt an, ob das generierte SWF-Dokument den integrierten Dokumentenbetrachter enthalten soll oder nicht. Standard ist `true`. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Bild, das als Logo in der oberen rechten Ecke des Viewers angezeigt wird. Das Bild sollte ein PNG-Bild mit 32 x 64 Pixeln sein, andernfalls kann das Logo nicht richtig angezeigt werden. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Ermittelt oder setzt die vollständige Hyperlink-Adresse für ein Logo. Hat nur eine Auswirkung, wenn a[`LogoImageBytes`](./logoimagebytes) angegeben. |
+| [NotesCommentsLayouting](../../aspose.slides.export/iswfoptions/notescommentslayouting) { get; } | Bietet Optionen, die steuern, wie Notizen und Kommentare im exportierten Dokument platziert werden. |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Unteres Fenster ein-/ausblenden. Kann in Flashvars überschrieben werden. Standard ist wahr. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Vollbild-Schaltfläche anzeigen/ausblenden. Kann in Flashvars überschrieben werden. Standard ist wahr. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Gibt an, ob das generierte Dokument ausgeblendete Folien enthalten soll oder nicht. Standard ist`FALSCH` . |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Linken Bereich ein-/ausblenden. Kann in Flashvars überschrieben werden. Standard ist wahr. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Gibt an, ob Seitenränder angezeigt werden sollen. Standard ist wahr. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Seitenstepper ein-/ausblenden. Kann in Flashvars überschrieben werden. Standard ist wahr. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Suchbereich ein-/ausblenden. Kann in Flashvars überschrieben werden. Standard ist wahr. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Ganzen oberen Bereich ein-/ausblenden. Kann in Flashvars überschrieben werden. Standard ist wahr. |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Beginnen Sie mit geöffnetem linken Bereich. Kann in Flashvars überschrieben werden. Standard ist falsch. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Gibt an, ob das generierte SWF-Dokument den integrierten Dokumentbetrachter enthalten soll oder nicht. Standard ist`Stimmt` . |
 
 ### Siehe auch
 
-* Schnittstelle [ISaveOptions](../isaveoptions)
-* Namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* Assembly [Aspose.Slides](../../)
+* interface [ISaveOptions](../isaveoptions)
+* namensraum [Aspose.Slides.Export](../../aspose.slides.export)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

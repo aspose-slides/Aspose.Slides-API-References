@@ -1,13 +1,12 @@
 ---
 title: AddComment
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавить новый комментарий в конец коллекции.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icommentcollection/addcomment/
 ---
-
-## Метод ICommentCollection.AddComment
+## ICommentCollection.AddComment method
 
 Добавить новый комментарий в конец коллекции.
 
@@ -17,20 +16,20 @@ public IComment AddComment(string text, ISlide slide, PointF position, DateTime 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Обычный текст нового комментария. |
-| slide | ISlide | Слайд в презентации, на который нужно добавить новый комментарий. |
-| position | PointF | Положение на слайде, где нужно добавить новый комментарий. |
+| text | String | Простой текст нового комментария. |
+| слайд | ISlide | Слайд в презентации, куда добавить новый комментарий. |
+| position | PointF | Позиция на слайде, где добавить новый комментарий. |
 | creationTime | DateTime | Время создания комментария. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-Добавленный комментарий.
+Добавлен комментарий.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IComment](../../icomment)
-* интерфейс [ISlide](../../islide)
-* интерфейс [ICommentCollection](../../icommentcollection)
+* interface [IComment](../../icomment)
+* interface [ISlide](../../islide)
+* interface [ICommentCollection](../../icommentcollection)
 * пространство имен [Aspose.Slides](../../icommentcollection)
 * сборка [Aspose.Slides](../../../)
 

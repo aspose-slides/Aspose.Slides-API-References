@@ -1,15 +1,14 @@
 ---
 title: AsISlideComponent
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает интерфейс ISlideComponent. Только для чтения ISlideComponent aspose.slides/islidecomponent.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает интерфейс ISlideComponent. Только для чтенияISlideComponentaspose.slides/islidecomponent.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/ithemeable/asislidecomponent/
 ---
+## IThemeable.AsISlideComponent property
 
-## Свойство IThemeable.AsISlideComponent
-
-Возвращает интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../../../aspose.slides/islidecomponent).
+Возвращает интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../../aspose.slides/islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }
@@ -17,12 +16,12 @@ public ISlideComponent AsISlideComponent { get; }
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [ISlideComponent](../../../aspose.slides/islidecomponent)
-* интерфейс [IThemeable](../../ithemeable)
+* interface [ISlideComponent](../../../aspose.slides/islidecomponent)
+* interface [IThemeable](../../ithemeable)
 * пространство имен [Aspose.Slides.Theme](../../ithemeable)
 * сборка [Aspose.Slides](../../../)
 

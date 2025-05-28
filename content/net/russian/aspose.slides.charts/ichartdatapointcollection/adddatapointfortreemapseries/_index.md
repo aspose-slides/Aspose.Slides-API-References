@@ -1,15 +1,14 @@
 ---
 title: AddDataPointForTreemapSeries
-second_title: Aspose.Sildes для .NET API Reference
-description: Создает новую точку данных и добавляет её в конец коллекции. Применимо для серий, у которых тип диаграммы - Treemap.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям с типом диаграммы Treemap.
 type: docs
 weight: 220
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointfortreemapseries/
 ---
+## IChartDataPointCollection.AddDataPointForTreemapSeries method
 
-## IChartDataPointCollection.AddDataPointForTreemapSeries метод
-
-Создает новую точку данных и добавляет её в конец коллекции. Применимо для серий, у которых тип диаграммы - Treemap.
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям с типом диаграммы Treemap.
 
 ```csharp
 public IChartDataPoint AddDataPointForTreemapSeries(IChartDataCell sizeValue)
@@ -17,17 +16,17 @@ public IChartDataPoint AddDataPointForTreemapSeries(IChartDataCell sizeValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sizeValue | IChartDataCell | Значение размера точки данных |
+| sizeValue | IChartDataCell | Точка данных SizeValue |
 
-### Значение Возврата
+### Возвращаемое значение
 
 Новая точка данных.
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

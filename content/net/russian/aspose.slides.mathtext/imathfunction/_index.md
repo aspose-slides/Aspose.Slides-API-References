@@ -1,27 +1,26 @@
 ---
 title: IMathFunction
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает на функцию аргумента.
+description: Задает функцию аргумента.
 type: docs
-weight: 8020
+weight: 7560
 url: /ru/aspose.slides.mathtext/imathfunction/
 ---
+## IMathFunction interface
 
-## Интерфейс IMathFunction
-
-Указывает на функцию аргумента.
+Задает функцию аргумента.
 
 ```csharp
 public interface IMathFunction : IMathElement
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Аргумент функции |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Имя функции Например, имена функций: sin и cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Имя функции Например, именами функций являются sin и cos |
 
 ### Примеры
 
@@ -34,7 +33,7 @@ IMathFunction sinX = new MathematicalText("sin").Function("x");
 
 ### Смотрите также
 
-* интерфейс [IMathElement](../imathelement)
+* interface [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

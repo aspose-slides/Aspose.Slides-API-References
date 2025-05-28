@@ -1,15 +1,14 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает эффективные данные эффекта отражения с примененным наследованием.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает данные об эффективном эффекте отражения с применением наследования.
 type: docs
 weight: 160
 url: /ru/aspose.slides.effects/reflection/geteffective/
 ---
+## Reflection.GetEffective method
 
-## Метод Reflection.GetEffective
-
-Получает эффективные данные эффекта отражения с примененным наследованием.
+Получает данные об эффективном эффекте отражения с применением наследования.
 
 ```csharp
 public IReflectionEffectiveData GetEffective()
@@ -17,12 +16,12 @@ public IReflectionEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`IReflectionEffectiveData`](../../ireflectioneffectivedata).
+A[`IReflectionEffectiveData`](../../ireflectioneffectivedata).
 
-### См. также
+### Смотрите также
 
-* интерфейс [IReflectionEffectiveData](../../ireflectioneffectivedata)
-* класс [Reflection](../../reflection)
+* interface [IReflectionEffectiveData](../../ireflectioneffectivedata)
+* class [Reflection](../../reflection)
 * пространство имен [Aspose.Slides.Effects](../../reflection)
 * сборка [Aspose.Slides](../../../)
 

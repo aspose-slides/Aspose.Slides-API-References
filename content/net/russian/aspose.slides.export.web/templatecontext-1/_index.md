@@ -1,28 +1,27 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет интерфейс модели объекта для движка шаблонов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет интерфейс объекта модели для механизма шаблонов.
 type: docs
-weight: 4480
+weight: 4240
 url: /ru/aspose.slides.export.web/templatecontext-1/
 ---
+## TemplateContext&lt;TObject&gt; class
 
-## TemplateContext&lt;TObject&gt; класс
-
-Представляет интерфейс модели объекта для движка шаблонов.
+Представляет интерфейс объекта модели для механизма шаблонов.
 
 ```csharp
 public sealed class TemplateContext<TObject>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Возвращает глобальное хранилище хост-документа. Только для чтения [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Возвращает локальное хранилище текущего контекста шаблона. Только для чтения [`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Возвращает модель объекта. Только для чтения !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Возвращает коллекцию выходных элементов хост-документа. Только для чтения [`Output`](./output). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Возвращает глобальное хранилище основного документа. Только для чтения[`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Возвращает локальное хранилище текущего контекста шаблона. Только для чтения[`Storage`](../storage). |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Возвращает объект модели. Только для чтения!:TObject. |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Возвращает набор выходных элементов основного документа. Только чтение[`Output`](./output). |
 
 ## Методы
 

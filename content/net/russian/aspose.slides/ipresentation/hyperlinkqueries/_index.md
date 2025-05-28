@@ -1,24 +1,23 @@
 ---
-title: ГиперссылкиЗапросы
-second_title: Справочник API Aspose.Slides для .NET
-description: Обеспечивает легкий доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации, исключая мастер-шаблоны и слайды заметок. Только для чтения IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
+title: HyperlinkQueries
+second_title: Справочник по API Aspose.Slides для .NET
+description: Обеспечивает легкий доступ ко всем гиперссылкам содержащимся во всех слайдах презентации кроме мастер-слайдов макетов слайдов с примечаниями. Только для чтенияIHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 140
 url: /ru/aspose.slides/ipresentation/hyperlinkqueries/
 ---
+## IPresentation.HyperlinkQueries property
 
-## Свойство IPresentation.HyperlinkQueries
-
-Обеспечивает легкий доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (исключая мастер-шаблоны, разметки и слайды заметок). Только для чтения [`IHyperlinkQueries`](../../ihyperlinkqueries).
+Обеспечивает легкий доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (кроме мастер-слайдов, макетов, слайдов с примечаниями). Только для чтения[`IHyperlinkQueries`](../../ihyperlinkqueries).
 
 ```csharp
 public IHyperlinkQueries HyperlinkQueries { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IHyperlinkQueries](../../ihyperlinkqueries)
-* интерфейс [IPresentation](../../ipresentation)
+* interface [IHyperlinkQueries](../../ihyperlinkqueries)
+* interface [IPresentation](../../ipresentation)
 * пространство имен [Aspose.Slides](../../ipresentation)
 * сборка [Aspose.Slides](../../../)
 

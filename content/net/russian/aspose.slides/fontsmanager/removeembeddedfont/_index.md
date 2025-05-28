@@ -3,11 +3,10 @@ title: RemoveEmbeddedFont
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет встроенный шрифт
 type: docs
-weight: 90
+weight: 60
 url: /ru/aspose.slides/fontsmanager/removeembeddedfont/
 ---
-
-## FontsManager.RemoveEmbeddedFont метод
+## FontsManager.RemoveEmbeddedFont method
 
 Удаляет встроенный шрифт
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides/fontsmanager/removeembeddedfont/
 public void RemoveEmbeddedFont(IFontData fontData)
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontData](../../ifontdata)
-* класс [FontsManager](../../fontsmanager)
+* interface [IFontData](../../ifontdata)
+* class [FontsManager](../../fontsmanager)
 * пространство имен [Aspose.Slides](../../fontsmanager)
 * сборка [Aspose.Slides](../../../)
 

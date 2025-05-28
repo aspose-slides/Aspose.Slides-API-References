@@ -1,23 +1,22 @@
 ---
-title: Высота
+title: Height
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает высоту рамки. Только для чтения Single.
+description: Возвращает высоту кадра. Только для чтенияSingle.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ishapeframe/height/
 ---
+## IShapeFrame.Height property
 
-## Свойство IShapeFrame.Height
-
-Возвращает высоту рамки. Только для чтения Single.
+Возвращает высоту кадра. Только для чтенияSingle.
 
 ```csharp
 public float Height { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IShapeFrame](../../ishapeframe)
+* interface [IShapeFrame](../../ishapeframe)
 * пространство имен [Aspose.Slides](../../ishapeframe)
 * сборка [Aspose.Slides](../../../)
 

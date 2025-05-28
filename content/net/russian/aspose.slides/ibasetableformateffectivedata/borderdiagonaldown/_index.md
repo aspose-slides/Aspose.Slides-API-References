@@ -1,24 +1,23 @@
 ---
 title: BorderDiagonalDown
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает эффективное значение формата диагональной линии вниз. Только для чтения ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает эффективное значение формата нисходящей диагональной линии. Только для чтенияILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ibasetableformateffectivedata/borderdiagonaldown/
 ---
+## IBaseTableFormatEffectiveData.BorderDiagonalDown property
 
-## IBaseTableFormatEffectiveData.BorderDiagonalDown свойство
-
-Возвращает эффективное значение формата диагональной линии вниз. Только для чтения [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Возвращает эффективное значение формата нисходящей диагональной линии. Только для чтения[`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderDiagonalDown { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
-* интерфейс [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)
+* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* interface [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibasetableformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

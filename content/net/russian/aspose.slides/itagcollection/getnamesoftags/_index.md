@@ -1,13 +1,12 @@
 ---
 title: GetNamesOfTags
-second_title: Aspose.Slides для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает имена тегов.
 type: docs
 weight: 60
 url: /ru/aspose.slides/itagcollection/getnamesoftags/
 ---
-
-## ITagCollection.GetNamesOfTags метод
+## ITagCollection.GetNamesOfTags method
 
 Возвращает имена тегов.
 
@@ -15,13 +14,13 @@ url: /ru/aspose.slides/itagcollection/getnamesoftags/
 public string[] GetNamesOfTags()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
 Имена тегов.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ITagCollection](../../itagcollection)
+* interface [ITagCollection](../../itagcollection)
 * пространство имен [Aspose.Slides](../../itagcollection)
 * сборка [Aspose.Slides](../../../)
 

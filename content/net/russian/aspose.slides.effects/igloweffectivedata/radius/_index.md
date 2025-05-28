@@ -1,23 +1,22 @@
 ---
-title: Радиус
-second_title: Справка по API Aspose.Slides для .NET
-description: Радиус. Только для чтения Double.
+title: Radius
+second_title: Справочник по API Aspose.Slides для .NET
+description: Радиус. Только для чтенияDouble.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/igloweffectivedata/radius/
 ---
+## IGlowEffectiveData.Radius property
 
-## Свойство IGlowEffectiveData.Radius
-
-Радиус. Только для чтения Double.
+Радиус. Только для чтенияDouble.
 
 ```csharp
 public double Radius { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGlowEffectiveData](../../igloweffectivedata)
+* interface [IGlowEffectiveData](../../igloweffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../igloweffectivedata)
 * сборка [Aspose.Slides](../../../)
 

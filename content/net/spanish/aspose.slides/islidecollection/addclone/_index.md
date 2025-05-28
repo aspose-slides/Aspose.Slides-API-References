@@ -1,38 +1,37 @@
 ---
 title: AddClone
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega una copia de una diapositiva especificada al final de la colección.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Agrega una copia de una diapositiva específica al final de la colección.
 type: docs
 weight: 20
 url: /es/aspose.slides/islidecollection/addclone/
 ---
-
 ## AddClone(ISlide) {#addclone}
 
-Agrega una copia de una diapositiva especificada al final de la colección.
+Agrega una copia de una diapositiva específica al final de la colección.
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| sourceSlide | ISlide | Diapositiva a clonar. |
+| sourceSlide | ISlide | Deslice para clonar. |
 
-### Valor de Retorno
+### Valor_devuelto
 
-Nueva diapositiva.
+Nuevo tobogán.
 
 ### Observaciones
 
-Al clonar una diapositiva entre diferentes presentaciones, la maestra de la diapositiva también puede ser clonada. Se utiliza un registro interno para rastrear automáticamente las maestras clonadas y prevenir la creación de múltiples clones de la misma diapositiva maestra. La clonación manual de diapositivas maestras no será ni prevenida ni registrada. Si necesitas más control sobre el proceso de clonación, utiliza [`AddClone`](../addclone) o [`AddClone`](../addclone) para clonar diapositivas, [`AddClone`](../../igloballayoutslidecollection/addclone) o [`AddClone`](../../igloballayoutslidecollection/addclone) para clonar diseños y [`AddClone`](../../imasterslidecollection/addclone) para clonar maestras.
+Al clonar una diapositiva entre diferentes presentaciones, la diapositiva maestra también se puede clonar. El registro interno se utiliza para rastrear automáticamente las diapositivas maestras clonadas para evitar la creación de múltiples clones de la misma diapositiva maestra. La clonación manual de diapositivas maestras no se evitará ni se registrará . Si necesita más control sobre el proceso de clonación use [`AddClone`](../addclone) o [`AddClone`](../addclone) para clonar portaobjetos, [`AddClone`](../../igloballayoutslidecollection/addclone) o [`AddClone`](../../igloballayoutslidecollection/addclone)para clonar diseños y [`AddClone`](../../imasterslidecollection/addclone) para clonar maestros.
 
-### Véase También
+### Ver también
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../islidecollection)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
@@ -44,14 +43,14 @@ Agrega una copia de una diapositiva especificada al final de la sección especif
 public ISlide AddClone(ISlide sourceSlide, ISection section)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| sourceSlide | ISlide | Diapositiva a clonar. |
+| sourceSlide | ISlide | Deslice para clonar. |
 | section | ISection | Sección para una nueva diapositiva. |
 
-### Valor de Retorno
+### Valor_devuelto
 
-Nueva diapositiva.
+Nuevo tobogán.
 
 ### Excepciones
 
@@ -67,82 +66,82 @@ Nueva diapositiva.
 using (IPresentation presentation = new Presentation())
 {
     presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 50, 300, 100);
-    presentation.Sections.AddSection("Sección 1", presentation.Slides[0]);
+    presentation.Sections.AddSection("Section 1", presentation.Slides[0]);
     
-    ISection section2 = presentation.Sections.AppendEmptySection("Sección 2");
+    ISection section2 = presentation.Sections.AppendEmptySection("Section 2");
     presentation.Slides.AddClone(presentation.Slides[0], section2);
     
     // Ahora la segunda sección contiene una copia de la primera diapositiva.
 }
 ```
 
-### Véase También
+### Ver también
 
 * interface [ISlide](../../islide)
 * interface [ISection](../../isection)
 * interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../islidecollection)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
 ## AddClone(ISlide, ILayoutSlide) {#addclone_1}
 
-Agrega una copia de una diapositiva especificada al final de la colección.
+Agrega una copia de una diapositiva específica al final de la colección.
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| sourceSlide | ISlide | Diapositiva a clonar. |
+| sourceSlide | ISlide | Deslice para clonar. |
 | destLayout | ILayoutSlide | Diseño de diapositiva para una nueva diapositiva. |
 
-### Valor de Retorno
+### Valor_devuelto
 
-Nueva diapositiva.
+Nuevo tobogán.
 
-### Véase También
+### Ver también
 
 * interface [ISlide](../../islide)
 * interface [ILayoutSlide](../../ilayoutslide)
 * interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../islidecollection)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
 ## AddClone(ISlide, IMasterSlide, bool) {#addclone_2}
 
-Agrega una copia de una diapositiva fuente especificada al final de la colección. Se seleccionará automáticamente el diseño apropiado de la maestra especificada (el diseño apropiado es el diseño con el mismo Tipo o Nombre que el diseño de la diapositiva fuente). Si no hay un diseño apropiado, entonces se clonará el diseño de la diapositiva fuente (si allowCloneMissingLayout es verdadero) o se lanzará `PptxEditException` (si allowCloneMissingLayout es falso).
+Agrega una copia de una diapositiva de origen especificada al final de la colección. El diseño adecuado se seleccionará automáticamente del patrón especificado (el diseño apropiado es el diseño con el mismo tipo o nombre que del diseño de la diapositiva de origen). Si no hay un diseño adecuado, se clonará el diseño de la diapositiva de origen (si allowCloneMissingLayout es verdadero) o se generará una excepción PptxEditException (si allowCloneMissingLayout es falso).
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCloneMissingLayout)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| sourceSlide | ISlide | Diapositiva a clonar. |
+| sourceSlide | ISlide | Deslice para clonar. |
 | destMaster | IMasterSlide | Diapositiva maestra para una nueva diapositiva. |
-| allowCloneMissingLayout | Boolean | Si no hay un diseño apropiado en la maestra especificada, entonces se clonará el diseño de la diapositiva fuente (si allowCloneMissingLayout es verdadero) o se lanzará `PptxEditException` (si allowCloneMissingLayout es falso). |
+| allowCloneMissingLayout | Boolean | Si no hay un diseño adecuado en el patrón especificado, se clonará el diseño de la diapositiva de origen (si allowCloneMissingLayout es verdadero) o se lanzará PptxEditException (si allowCloneMissingLayout es falso). |
 
-### Valor de Retorno
+### Valor_devuelto
 
-Nueva diapositiva.
+Nuevo tobogán.
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Lanzado si no hay un diseño apropiado en la maestra especificada y allowCloneMissingLayout es falso. |
+| [PptxEditException](../../pptxeditexception) | Lanzado si no hay un diseño apropiado en el maestro especificado y allowCloneMissingLayout es falso. |
 
-### Véase También
+### Ver también
 
 * interface [ISlide](../../islide)
 * interface [IMasterSlide](../../imasterslide)
 * interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../islidecollection)
+* asamblea [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

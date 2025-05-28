@@ -1,15 +1,14 @@
 ---
-title: Удалить по индексу
+title: RemoveAt
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет градиентную остановку по заданному индексу.
+description: Удаляет остановку градиента по указанному индексу.
 type: docs
 weight: 50
 url: /ru/aspose.slides/igradientstopcollection/removeat/
 ---
+## IGradientStopCollection.RemoveAt method
 
-## IGradientStopCollection.RemoveAt метод
-
-Удаляет градиентную остановку по заданному индексу.
+Удаляет остановку градиента по указанному индексу.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,11 +16,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс градиентной остановки, которую следует удалить. |
+| index | Int32 | Индекс остановки градиента, которую необходимо удалить. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGradientStopCollection](../../igradientstopcollection)
+* interface [IGradientStopCollection](../../igradientstopcollection)
 * пространство имен [Aspose.Slides](../../igradientstopcollection)
 * сборка [Aspose.Slides](../../../)
 

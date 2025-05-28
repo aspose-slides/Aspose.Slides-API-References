@@ -1,125 +1,124 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée de nouvelles séries de graphiques et les ajoute à la collection.
+description: Crée une nouvelle série de graphiques et lajoute à la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/chartseriescollection/add/
 ---
+## Add(ChartType) {#add}
 
-## Ajouter(ChartType) {#add}
-
-Crée de nouvelles séries de graphiques et les ajoute à la collection.
+Crée une nouvelle série de graphiques et l'ajoute à la collection.
 
 ```csharp
 public IChartSeries Add(ChartType type)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| type | ChartType | Type de la série |
+| type | ChartType | Type de série |
 
-### Valeur de retour
+### Return_Value
 
-Nouvelle série de graphiques.
+Nouvelle série de cartes.
 
-### Voir aussi
+### Voir également
 
 * interface [IChartSeries](../../ichartseries)
 * enum [ChartType](../../charttype)
 * class [ChartSeriesCollection](../../chartseriescollection)
-* namespace [Aspose.Slides.Charts](../../chartseriescollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../chartseriescollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## Ajouter(IChartDataCell, ChartType) {#add_2}
+## Add(IChartDataCell, ChartType) {#add_2}
 
-Crée de nouvelles séries de graphiques à partir de [`ChartDataCell`](../../chartdatacell) et les ajoute à la collection.
+Crée une nouvelle série de graphiques à partir de[`ChartDataCell`](../../chartdatacell) et l'ajoute à la collection.
 
 ```csharp
 public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | cellWithSeriesName | IChartDataCell | Cellule contenant le nom de la série. |
-| type | ChartType | Type de la série |
+| type | ChartType | Tapez le type de série |
 
-### Valeur de retour
+### Return_Value
 
-Série de graphiques ajoutée ou série qui est déjà dans la collection.
+Ajout d'une série de graphiques ou d'une série qui est déjà dans la collection.
 
 ### Remarques
 
-Si la série de graphiques créée à partir de la même cellule est déjà dans la collection, la méthode n'ajoute rien et retourne son index.
+Si la série de graphiques se situe déjà dans la même cellule de la collection , la méthode n'ajoute rien et renvoie son index.
 
-### Voir aussi
+### Voir également
 
 * interface [IChartSeries](../../ichartseries)
 * interface [IChartDataCell](../../ichartdatacell)
 * enum [ChartType](../../charttype)
 * class [ChartSeriesCollection](../../chartseriescollection)
-* namespace [Aspose.Slides.Charts](../../chartseriescollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../chartseriescollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## Ajouter(IChartCellCollection, ChartType) {#add_1}
+## Add(IChartCellCollection, ChartType) {#add_1}
 
-Crée de nouvelles séries de graphiques à partir de [`ChartCellCollection`](../../chartcellcollection) et les ajoute à la collection.
+Crée une nouvelle série de graphiques à partir de[`ChartCellCollection`](../../chartcellcollection) et l'ajoute à la collection.
 
 ```csharp
 public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | cellsWithSeriesName | IChartCellCollection | Cellules contenant le nom de la série. |
-| type | ChartType | Type de la série |
+| type | ChartType | Tapez le type de série |
 
-### Valeur de retour
+### Return_Value
 
-Série de graphiques ajoutée ou série qui est déjà dans la collection.
+Ajout d'une série de graphiques ou d'une série qui est déjà dans la collection.
 
 ### Remarques
 
-Si la série de graphiques créée à partir de la même cellule est déjà dans la collection, la méthode n'ajoute rien et retourne son index.
+Si la série de graphiques se situe déjà dans la même cellule de la collection , la méthode n'ajoute rien et renvoie son index.
 
-### Voir aussi
+### Voir également
 
 * interface [IChartSeries](../../ichartseries)
 * interface [IChartCellCollection](../../ichartcellcollection)
 * enum [ChartType](../../charttype)
 * class [ChartSeriesCollection](../../chartseriescollection)
-* namespace [Aspose.Slides.Charts](../../chartseriescollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../chartseriescollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## Ajouter(string, ChartType) {#add_3}
+## Add(string, ChartType) {#add_3}
 
-Crée de nouvelles séries de graphiques à partir d'une valeur et les ajoute à la collection.
+Crée une nouvelle série de graphiques à partir de la valeur et l'ajoute à la collection.
 
 ```csharp
 public IChartSeries Add(string name, ChartType type)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | name | String | Nom de la série. |
-| type | ChartType | Type de la série |
+| type | ChartType | Tapez le type de série |
 
-### Valeur de retour
+### Return_Value
 
 Série de graphiques ajoutée.
 
-### Voir aussi
+### Voir également
 
 * interface [IChartSeries](../../ichartseries)
 * enum [ChartType](../../charttype)
 * class [ChartSeriesCollection](../../chartseriescollection)
-* namespace [Aspose.Slides.Charts](../../chartseriescollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../chartseriescollection)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

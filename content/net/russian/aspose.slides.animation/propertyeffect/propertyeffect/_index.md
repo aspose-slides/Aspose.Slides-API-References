@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.animation/propertyeffect/propertyeffect/
 ---
-
-## Конструктор PropertyEffect
+## PropertyEffect constructor
 
 Конструктор по умолчанию.
 
@@ -17,7 +16,7 @@ public PropertyEffect()
 
 ### Смотрите также
 
-* класс [PropertyEffect](../../propertyeffect)
+* class [PropertyEffect](../../propertyeffect)
 * пространство имен [Aspose.Slides.Animation](../../propertyeffect)
 * сборка [Aspose.Slides](../../../)
 

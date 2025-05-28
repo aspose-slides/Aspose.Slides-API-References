@@ -1,21 +1,20 @@
 ---
 title: IThreeDParamSource
-second_title: Aspose.Slides для .NET API Справочник
-description: Вспомогательный интерфейс источника 3D свойств
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вспомогательный интерфейс источника 3D-свойств
 type: docs
-weight: 7130
+weight: 6770
 url: /ru/aspose.slides/ithreedparamsource/
 ---
+## IThreeDParamSource interface
 
-## Интерфейс IThreeDParamSource
-
-Вспомогательный интерфейс источника 3D свойств
+Вспомогательный интерфейс источника 3D-свойств
 
 ```csharp
 public interface IThreeDParamSource
 ```
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

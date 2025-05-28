@@ -1,15 +1,14 @@
 ---
 title: IOverrideTheme
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un thème de remplacement.
+description: Représente un thème prioritaire.
 type: docs
-weight: 11030
+weight: 10590
 url: /fr/aspose.slides.theme/ioverridetheme/
 ---
+## IOverrideTheme interface
 
-## Interface IOverrideTheme
-
-Représente un thème de remplacement.
+Représente un thème prioritaire.
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -17,30 +16,30 @@ public interface IOverrideTheme : ITheme
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Permet d'obtenir l'interface de base ITheme. Lecture seule [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Une valeur vraie signifie que ColorScheme, FontScheme, FormatScheme est nul et toute substitution avec cet objet de thème est désactivée. Booléen en lecture seule. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Permet d'obtenir l'interface ITheme de base. Lecture seule[`ITheme`](../itheme) . |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | La valeur True signifie que ColorScheme, FontScheme, FormatScheme est nul et que tout remplacement avec cet objet de thème est désactivé. Lecture seuleBoolean . |
 
 ## Méthodes
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Définit ColorScheme, FontScheme, FormatScheme à nul pour désactiver toute substitution avec cet objet de thème. |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Initialise ColorScheme avec un nouvel objet pour remplacer ColorScheme d'InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Initialise ColorScheme avec un nouvel objet pour remplacer ColorScheme d'InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Initialise ColorScheme avec un nouvel objet pour remplacer ColorScheme d'InheritedTheme. Et initialise les données de ce nouvel objet avec les données de ColorScheme d'InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Initialise FontScheme avec un nouvel objet pour remplacer FontScheme d'InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Initialise FontScheme avec un nouvel objet pour remplacer FontScheme d'InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Initialise FontScheme avec un nouvel objet pour remplacer FontScheme d'InheritedTheme. Et initialise les données de ce nouvel objet avec les données de FontScheme d'InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Initialise FormatScheme avec un nouvel objet pour remplacer FormatScheme d'InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Initialise FormatScheme avec un nouvel objet pour remplacer FormatScheme d'InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Initialise FormatScheme avec un nouvel objet pour remplacer FormatScheme d'InheritedTheme. Et initialise les données de ce nouvel objet avec les données de FormatScheme d'InheritedTheme. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Définissez ColorScheme, FontScheme, FormatScheme sur null pour désactiver tout remplacement avec cet objet de thème. |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Init ColorScheme avec un nouvel objet pour remplacer ColorScheme de InheritedTheme. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Init ColorScheme avec un nouvel objet pour remplacer ColorScheme de InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Init ColorScheme avec un nouvel objet pour remplacer ColorScheme de InheritedTheme. Et initialisez les données de ce nouvel objet avec les données du ColorScheme de InheritedTheme. |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Init FontScheme avec un nouvel objet pour remplacer FontScheme de InheritedTheme. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Init FontScheme avec un nouvel objet pour remplacer FontScheme de InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Init FontScheme avec un nouvel objet pour remplacer FontScheme de InheritedTheme. Et initialisez les données de ce nouvel objet avec les données du FontScheme de InheritedTheme. |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Init FormatScheme avec un nouvel objet pour remplacer FormatScheme de InheritedTheme. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Init FormatScheme avec un nouvel objet pour remplacer FormatScheme de InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Init FormatScheme avec un nouvel objet pour remplacer FormatScheme de InheritedTheme. Et initialisez les données de ce nouvel objet avec les données du FormatScheme de InheritedTheme. |
 
-### Voir aussi
+### Voir également
 
 * interface [ITheme](../itheme)
-* namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides.Theme](../../aspose.slides.theme)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

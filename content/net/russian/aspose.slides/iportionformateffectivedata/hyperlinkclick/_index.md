@@ -1,24 +1,23 @@
 ---
 title: HyperlinkClick
-second_title: Ссылки Aspose.Slides для .NET
-description: Возвращает гиперссылку, определенную для щелчка мыши. Только для чтения IHyperlinkaspose.slides/ihyperlink.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает гиперссылку определенную для щелчка мыши. Только для чтенияIHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iportionformateffectivedata/hyperlinkclick/
 ---
+## IPortionFormatEffectiveData.HyperlinkClick property
 
-## Свойство IPortionFormatEffectiveData.HyperlinkClick
-
-Возвращает гиперссылку, определенную для щелчка мыши. Только для чтения [`IHyperlink`](../../ihyperlink).
+Возвращает гиперссылку, определенную для щелчка мыши. Только для чтения[`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkClick { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IHyperlink](../../ihyperlink)
-* интерфейс [IPortionFormatEffectiveData](../../iportionformateffectivedata)
+* interface [IHyperlink](../../ihyperlink)
+* interface [IPortionFormatEffectiveData](../../iportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../iportionformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

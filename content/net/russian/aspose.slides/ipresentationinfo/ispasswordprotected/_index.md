@@ -1,13 +1,12 @@
 ---
 title: IsPasswordProtected
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение, указывающее, защищена ли связанная презентация паролем для открытия.
+description: Получает значение указывающее защищена ли связанная презентация паролем для открытия.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ipresentationinfo/ispasswordprotected/
 ---
-
-## Свойство IPresentationInfo.IsPasswordProtected
+## IPresentationInfo.IsPasswordProtected property
 
 Получает значение, указывающее, защищена ли связанная презентация паролем для открытия.
 
@@ -22,13 +21,13 @@ public bool IsPasswordProtected { get; }
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo(presentationFilePath);
 if (info.IsPasswordProtected)
 {
-    Console.WriteLine("Презентация '" + presentationFilePath + "' защищена паролем для открытия.");
+    Console.WriteLine("The presentation '" + presentationFilePath + "' is protected by a password to open.");
 }
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IPresentationInfo](../../ipresentationinfo)
+* interface [IPresentationInfo](../../ipresentationinfo)
 * пространство имен [Aspose.Slides](../../ipresentationinfo)
 * сборка [Aspose.Slides](../../../)
 

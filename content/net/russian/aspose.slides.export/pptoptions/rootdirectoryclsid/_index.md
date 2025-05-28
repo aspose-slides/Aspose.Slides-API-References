@@ -1,15 +1,14 @@
 ---
 title: RootDirectoryClsid
-second_title: Aspose.Sildes для справки по API .NET
-description: Представляет GUID CLSID класса объекта, который хранится в записи корневого каталога. Может быть использован для активации приложения документа через COM. Значение по умолчанию - 64818D11-4F9B-11CF-86EA-00AA00B929E8, которое соответствует Microsoft Powerpoint.Slide.8.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет GUID CLSID класса объектов который хранится в записи корневого каталога. Может использоваться для COM активации приложения документа. Значение по умолчанию  64818D11-4F9B-11CF-86EA-00AA00B929E8 что соответствует Microsoft Powerpoint.Slide.8.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/pptoptions/rootdirectoryclsid/
 ---
+## PptOptions.RootDirectoryClsid property
 
-## Свойство PptOptions.RootDirectoryClsid
-
-Представляет GUID класса объекта (CLSID), который хранится в записи корневого каталога. Может быть использован для активации приложения документа через COM. Значение по умолчанию - '64818D11-4F9B-11CF-86EA-00AA00B929E8', которое соответствует 'Microsoft Powerpoint.Slide.8'.
+Представляет GUID (CLSID) класса объектов, который хранится в записи корневого каталога. Может использоваться для COM активации приложения документа. Значение по умолчанию — «64818D11-4F9B-11CF-86EA-00AA00B929E8», что соответствует «Microsoft Powerpoint.Slide.8».
 
 ```csharp
 public Guid RootDirectoryClsid { get; set; }
@@ -23,16 +22,16 @@ using (Presentation pres = new Presentation())
 {
     PptOptions pptOptions = new PptOptions();
     
-    /// установить CLSID на 'Microsoft Powerpoint.Show.8'
+     /// установите для CLSID значение 'Microsoft Powerpoint.Show.8'
     pptOptions.RootDirectoryClsid = new Guid("64818D10-4F9B-11CF-86EA-00AA00B929E8");
     
     pres.Save("pres.ppt", SaveFormat.Ppt, pptOptions);
 }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [PptOptions](../../pptoptions)
+* class [PptOptions](../../pptoptions)
 * пространство имен [Aspose.Slides.Export](../../pptoptions)
 * сборка [Aspose.Slides](../../../)
 

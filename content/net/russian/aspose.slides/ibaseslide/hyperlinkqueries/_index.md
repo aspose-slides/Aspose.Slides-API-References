@@ -1,15 +1,14 @@
 ---
 title: HyperlinkQueries
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтенияIHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ibaseslide/hyperlinkqueries/
 ---
+## IBaseSlide.HyperlinkQueries property
 
-## Свойство IBaseSlide.HyperlinkQueries
-
-Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения [`IHyperlinkQueries`](../../ihyperlinkqueries).
+Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения[`IHyperlinkQueries`](../../ihyperlinkqueries).
 
 ```csharp
 public IHyperlinkQueries HyperlinkQueries { get; }
@@ -17,8 +16,8 @@ public IHyperlinkQueries HyperlinkQueries { get; }
 
 ### Смотрите также
 
-* интерфейс [IHyperlinkQueries](../../ihyperlinkqueries)
-* интерфейс [IBaseSlide](../../ibaseslide)
+* interface [IHyperlinkQueries](../../ihyperlinkqueries)
+* interface [IBaseSlide](../../ibaseslide)
 * пространство имен [Aspose.Slides](../../ibaseslide)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: CreateMathParagraph
-second_title: Справка по API Aspose.Slides для .NET
-description: Создание пустого математического абзаца
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создать пустой математический абзац
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathparagraphfactory/createmathparagraph/
 ---
-
 ## CreateMathParagraph() {#createmathparagraph}
 
-Создание пустого математического абзаца
+Создать пустой математический абзац
 
 ```csharp
 public IMathParagraph CreateMathParagraph()
@@ -21,8 +20,8 @@ public IMathParagraph CreateMathParagraph()
 
 ### Смотрите также
 
-* интерфейс [IMathParagraph](../../imathparagraph)
-* класс [MathParagraphFactory](../../mathparagraphfactory)
+* interface [IMathParagraph](../../imathparagraph)
+* class [MathParagraphFactory](../../mathparagraphfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraphfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -46,9 +45,9 @@ public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
 
 ### Смотрите также
 
-* интерфейс [IMathParagraph](../../imathparagraph)
-* интерфейс [IMathBlock](../../imathblock)
-* класс [MathParagraphFactory](../../mathparagraphfactory)
+* interface [IMathParagraph](../../imathparagraph)
+* interface [IMathBlock](../../imathblock)
+* class [MathParagraphFactory](../../mathparagraphfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraphfactory)
 * сборка [Aspose.Slides](../../../)
 

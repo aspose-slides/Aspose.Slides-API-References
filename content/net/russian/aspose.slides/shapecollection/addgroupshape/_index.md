@@ -1,15 +1,14 @@
 ---
 title: AddGroupShape
-second_title: Aspose.Slides для .NET Справочник API
-description: Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение рамки GroupShape будут подогнаны по содержимому, когда новая фигура будет добавлена в GroupShape.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение кадра GroupShape будут соответствовать содержимому когда в GroupShape будет добавлена новая фигура.
 type: docs
 weight: 130
 url: /ru/aspose.slides/shapecollection/addgroupshape/
 ---
-
 ## AddGroupShape() {#addgroupshape}
 
-Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение рамки GroupShape будут подогнаны по содержимому, когда новая фигура будет добавлена в GroupShape.
+Создает новый GroupShape и добавляет его в конец коллекции. Размер и положение кадра GroupShape будут соответствовать содержимому, когда в GroupShape будет добавлена новая фигура.
 
 ```csharp
 public IGroupShape AddGroupShape()
@@ -17,39 +16,12 @@ public IGroupShape AddGroupShape()
 
 ### Возвращаемое значение
 
-Созданный объект GroupShape.
+Создан объект GroupShape.
 
-### Примеры
+### Смотрите также
 
-Следующий пример показывает, как добавить групповой объект в слайд презентации PowerPoint.
-
-```csharp
-[C#]
-// Создание экземпляра класса Presentation
-using (Presentation pres = new Presentation())
-{
-    // Получение первого слайда
-    ISlide sld = pres.Slides[0];
-    // Доступ к коллекции фигур слайдов
-    IShapeCollection slideShapes = sld.Shapes;
-    // Добавление групповой фигуры на слайд
-    IGroupShape groupShape = slideShapes.AddGroupShape();
-    // Добавление фигур внутри добавленной групповой фигуры
-    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 100, 100, 100);
-    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);
-    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
-    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
-    // Добавление рамки групповой фигуры
-    groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
-    // Запись файла PPTX на диск
-    pres.Save("GroupShape_out.pptx", SaveFormat.Pptx);
-}
-```
-
-### См. также
-
-* интерфейс [IGroupShape](../../igroupshape)
-* класс [ShapeCollection](../../shapecollection)
+* interface [IGroupShape](../../igroupshape)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -57,7 +29,7 @@ using (Presentation pres = new Presentation())
 
 ## AddGroupShape(ISvgImage, float, float, float, float) {#addgroupshape_1}
 
-Создает новый GroupShape, заполняет его конвертированными фигурами из SVG и добавляет его в конец коллекции.
+Создает новый GroupShape, заполняет его преобразованными фигурами из SVG и добавляет в конец коллекции.
 
 ```csharp
 public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float width, float height)
@@ -65,21 +37,21 @@ public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float wid
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| svgImage | ISvgImage | Объект svg изображения [`ISvgImage`](../../isvgimage) |
-| x | Single | Координата X для левой стороны рамки групповой фигуры. |
-| y | Single | Координата Y для верхней стороны рамки групповой фигуры. |
-| width | Single | Ширина группы рамки групповой фигуры. |
-| height | Single | Высота группы рамки групповой фигуры. |
+| svgImage | ISvgImage | Объект изображения Svg[`ISvgImage`](../../isvgimage) |
+| x | Single | Координата X для левой стороны рамки группы фигур. |
+| y | Single | Координата Y для верхней стороны рамки группы фигур. |
+| width | Single | Ширина группы кадра группы фигур. |
+| height | Single | Высота группы кадра группы фигур. |
 
 ### Возвращаемое значение
 
-Созданный объект GroupShape.
+Создан объект GroupShape.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGroupShape](../../igroupshape)
-* интерфейс [ISvgImage](../../isvgimage)
-* класс [ShapeCollection](../../shapecollection)
+* interface [IGroupShape](../../igroupshape)
+* interface [ISvgImage](../../isvgimage)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

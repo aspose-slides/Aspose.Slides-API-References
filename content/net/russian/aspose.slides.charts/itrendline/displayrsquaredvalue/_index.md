@@ -1,23 +1,22 @@
 ---
 title: DisplayRSquaredValue
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Указывает, что значение R-квадрат отображается на графике в той же метке, что и уравнение. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает что значение R-квадрата линии тренда отображается на диаграмме в той же метке что и уравнение. Чтение/записьBoolean.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/itrendline/displayrsquaredvalue/
 ---
+## ITrendline.DisplayRSquaredValue property
 
-## Свойство ITrendline.DisplayRSquaredValue
-
-Указывает, что значение R-квадрат отображается на графике (в той же метке, что и уравнение). Читаемое/записываемое логическое значение.
+Указывает, что значение R-квадрата линии тренда отображается на диаграмме (в той же метке, что и уравнение). Чтение/записьBoolean.
 
 ```csharp
 public bool DisplayRSquaredValue { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITrendline](../../itrendline)
+* interface [ITrendline](../../itrendline)
 * пространство имен [Aspose.Slides.Charts](../../itrendline)
 * сборка [Aspose.Slides](../../../)
 

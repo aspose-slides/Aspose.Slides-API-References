@@ -1,15 +1,14 @@
 ---
 title: DisplayEquation
-second_title: Справка по API Aspose.Slides для .NET
-description: Указывает, что уравнение для линии тренда отображается на графике в том же ярлыке, что и значение Rsquared. Читаемое/записываемое логическое.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает что уравнение для линии тренда отображается на диаграмме в той же метке что и значение Rsquared. Чтение/записьBoolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/trendline/displayequation/
 ---
+## Trendline.DisplayEquation property
 
-## Свойство Trendline.DisplayEquation
-
-Указывает, что уравнение для линии тренда отображается на графике (в том же ярлыке, что и значение Rsquared). Читаемое/записываемое логическое.
+Указывает, что уравнение для линии тренда отображается на диаграмме (в той же метке, что и значение Rsquared). Чтение/записьBoolean.
 
 ```csharp
 public bool DisplayEquation { get; set; }
@@ -17,7 +16,7 @@ public bool DisplayEquation { get; set; }
 
 ### Смотрите также
 
-* класс [Trendline](../../trendline)
+* class [Trendline](../../trendline)
 * пространство имен [Aspose.Slides.Charts](../../trendline)
 * сборка [Aspose.Slides](../../../)
 

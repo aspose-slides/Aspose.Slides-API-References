@@ -1,24 +1,23 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет элемент легенды, связанный с этой трендовой линией. Только для чтения ILegendEntryPropertiesaspose.slides/ilegendentryproperties.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет запись легенды связанную с этой линией тренда Только для чтенияILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/itrendline/relatedlegendentry/
 ---
+## ITrendline.RelatedLegendEntry property
 
-## Свойство ITrendline.RelatedLegendEntry
-
-Представляет элемент легенды, связанный с этой трендовой линией. Только для чтения [`ILegendEntryProperties`](../../ilegendentryproperties).
+Представляет запись легенды, связанную с этой линией тренда Только для чтения[`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ILegendEntryProperties](../../ilegendentryproperties)
-* интерфейс [ITrendline](../../itrendline)
+* interface [ILegendEntryProperties](../../ilegendentryproperties)
+* interface [ITrendline](../../itrendline)
 * пространство имен [Aspose.Slides.Charts](../../itrendline)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,30 +1,29 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes для .NET API Справочник
-description: Опциональный эффект перехода черного слайда.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Дополнительный эффект перехода черного слайда.
 type: docs
-weight: 9830
+weight: 9360
 url: /ru/aspose.slides.slideshow/ioptionalblacktransition/
 ---
+## IOptionalBlackTransition interface
 
-## Интерфейс IOptionalBlackTransition
-
-Опциональный эффект перехода черного слайда.
+Дополнительный эффект перехода черного слайда.
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, будет ли переход начинаться с черного экрана (а затем переходить на новый слайд через черный). Чтение/запись Логическое значение. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, будет ли переход начинаться с черного экрана (и затем переходить новый слайд поверх черного). Чтение/записьBoolean. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITransitionValueBase](../itransitionvaluebase)
+* interface [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

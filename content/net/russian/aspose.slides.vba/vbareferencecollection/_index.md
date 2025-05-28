@@ -1,40 +1,39 @@
 ---
 title: VbaReferenceCollection
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет собой коллекцию ссылок проекта VBA.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет коллекцию ссылок проекта VBA.
 type: docs
-weight: 11360
+weight: 10860
 url: /ru/aspose.slides.vba/vbareferencecollection/
 ---
+## VbaReferenceCollection class
 
-## Класс VbaReferenceCollection
-
-Представляет собой коллекцию ссылок проекта VBA.
+Представляет коллекцию ссылок проекта VBA.
 
 ```csharp
 public class VbaReferenceCollection : IVbaReferenceCollection
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потоко-безопасно). Только для чтения Boolean. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Получает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Добавляет новую ссылку в коллекцию ссылок. |
+| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Добавляет новую ссылку в коллекцию ссылок |
 | [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IVbaReferenceCollection](../ivbareferencecollection)
+* interface [IVbaReferenceCollection](../ivbareferencecollection)
 * пространство имен [Aspose.Slides.Vba](../../aspose.slides.vba)
 * сборка [Aspose.Slides](../../)
 

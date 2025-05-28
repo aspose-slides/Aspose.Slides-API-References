@@ -1,70 +1,69 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет стиль пронумерованных маркеров.
 type: docs
-weight: 8910
+weight: 8450
 url: /ru/aspose.slides/numberedbulletstyle/
 ---
+## NumberedBulletStyle enumeration
 
-## Перечисление NumberedBulletStyle
-
-Представляет стиль прONUMEROVANNЫХ маркеров.
+Представляет стиль пронумерованных маркеров.
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` | Не определено. |
-| BulletAlphaLCPeriod | `0` | Строчные алфавитные символы с точкой. Пример: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | Заглавные алфавитные символы с точкой. Пример: A., B., C., ... |
-| BulletArabicParenRight | `2` | Арабские цифры с закрывающей скобкой. Пример: 1), 2), 3), ... |
-| BulletArabicPeriod | `3` | Арабские цифры с точкой. Пример: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | Строчные римские цифры с обеими скобками. Пример: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Строчные римские цифры с закрывающей скобкой. Пример: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Строчные римские цифры с точкой. Пример: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Заглавные римские цифры с точкой. Пример: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | Строчные алфавитные символы с обеими скобками. Пример: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Строчные алфавитные символы с закрывающей скобкой. Пример: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | Заглавные алфавитные символы с обеими скобками. Пример: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Заглавные алфавитные символы с закрывающей скобкой. Пример: A), B), C), ... |
-| BulletArabicParenBoth | `12` | Арабские цифры с обеими скобками. Пример: (1), (2), (3), ... |
-| BulletArabicPlain | `13` | Арабские цифры. Пример: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | Заглавные римские цифры с обеими скобками. Пример: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Заглавные римские цифры с закрывающей скобкой. Пример: I), II), III), ... |
+| BulletAlphaLCPeriod | `0` | Строчные буквы алфавита с точкой. Образец:а., б., в., ... |
+| BulletAlphaUCPeriod | `1` | Прописные буквы алфавита с точкой. Пример:A., B., C., ... |
+| BulletArabicParenRight | `2` | Арабские цифры с закрывающей скобкой. Пример:1), 2), 3), ... |
+| BulletArabicPeriod | `3` | Арабские цифры с точкой. Образец:1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | Строчные римские цифры с обеими скобками. Пример:(i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | Строчные римские цифры с закрывающей скобкой. Образец:i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Строчные римские цифры с точкой. Образец:i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Прописные римские цифры с точкой. Образец:I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | Строчные буквы алфавита с обеими круглыми скобками. Образец:(а), (б), (в), ... |
+| BulletAlphaLCParenRight | `9` | Строчные буквы алфавита с закрывающей скобкой. Образец:а), б), в), ... |
+| BulletAlphaUCParenBoth | `10` | Буквы верхнего регистра с обеими круглыми скобками. Образец:(A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | Прописные буквы алфавита с закрывающей скобкой. Образец:А), Б), В), ... |
+| BulletArabicParenBoth | `12` | Арабские цифры с обеими скобками. Образец:(1), (2), (3), ... |
+| BulletArabicPlain | `13` | Арабские цифры. Пример:1, 2, 3, ... |
+| BulletRomanUCParenBoth | `14` | Прописные римские цифры с обеими скобками. Образец:(I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | Прописные римские цифры с закрывающей скобкой. Образец:I), II), III), ... |
 | BulletSimpChinPlain | `16` | Упрощенный китайский без точки. |
 | BulletSimpChinPeriod | `17` | Упрощенный китайский с точкой. |
-| BulletCircleNumDBPlain | `18` | Двубайтовые округленные числа для значений до 10, с 11 - арабские цифры. |
-| BulletCircleNumWDWhitePlain | `19` | Текстовое цветное число с окружностью того же цвета (Wingdings белые круглые числа). С 11 - арабские цифры. |
-| BulletCircleNumWDBlackPlain | `20` | Цветное число с круговым фоном нормального цвета текста (Wingdings черные круглые числа). |
+| BulletCircleNumDBPlain | `18` | Двухбайтовое число в кружке для значений до 10, от 11 - арабские числа. |
+| BulletCircleNumWDWhitePlain | `19` | Число, окрашенное в текст, с кругом того же цвета, нарисованным вокруг него (номера белого круга Wingdings). От 11 - арабские числа. |
+| BulletCircleNumWDBlackPlain | `20` | Номер цвета тени с круглым фоном обычного цвета текста (номера черного круга Wingdings). |
 | BulletTradChinPlain | `21` | Традиционный китайский без точки. |
 | BulletTradChinPeriod | `22` | Традиционный китайский с точкой. |
-| BulletArabicAlphaDash | `23` | Алфавитные символы арабского языка с дефисом. |
-| BulletArabicAbjadDash | `24` | Алфавиты арабского абджада с дефисом. |
-| BulletHebrewAlphaDash | `25` | Алфавитные символы иврита с дефисом. |
-| BulletKanjiKoreanPlain | `26` | Японские/корейские цифры без точки. |
-| BulletKanjiKoreanPeriod | `27` | Японские/корейские цифры с точкой. |
-| BulletArabicDBPlain | `28` | Двубайтовая схема арабских чисел (без пунктуации). |
-| BulletArabicDBPeriod | `29` | Двубайтовая схема арабских чисел с двубайтовой точкой. |
-| BulletThaiAlphaPeriod | `30` | Точка тайского алфавита. |
-| BulletThaiAlphaParenRight | `31` | Скобка тайского алфавита - правая. |
-| BulletThaiAlphaParenBoth | `32` | Скобка тайского алфавита - обе. |
-| BulletThaiNumPeriod | `33` | Период тайских чисел. |
-| BulletThaiNumParenRight | `34` | Скобка тайских чисел - правая. |
-| BulletThaiNumParenBoth | `35` | Скобка тайских чисел - обе. |
-| BulletHindiAlphaPeriod | `36` | Период хинди алфавита - гласные. |
-| BulletHindiNumPeriod | `37` | Период хинди чисел. |
-| BulletKanjiSimpChinDBPeriod | `38` | Канжи Упрощенный китайский DBPeriod. |
-| BulletHindiNumParenRight | `39` | Скобка хинди чисел - правая. |
-| BulletHindiAlpha1Period | `40` | Период хинди алфавита - согласные. |
+| BulletArabicAlphaDash | `23` | Буквы арабского языка с тире. |
+| BulletArabicAbjadDash | `24` | Арабские абджадские алфавиты с тире. |
+| BulletHebrewAlphaDash | `25` | Алфавитные символы иврита с тире. |
+| BulletKanjiKoreanPlain | `26` | Японские/корейские числа без точки. |
+| BulletKanjiKoreanPeriod | `27` | Японские/корейские числа с точкой. |
+| BulletArabicDBPlain | `28` | Двухбайтовая арабская схема нумерации (без пунктуации). |
+| BulletArabicDBPeriod | `29` | Двухбайтовая арабская схема нумерации с двухбайтовой точкой. |
+| BulletThaiAlphaPeriod | `30` | Период тайского алфавита. |
+| BulletThaiAlphaParenRight | `31` | Скобки тайского алфавита - справа. |
+| BulletThaiAlphaParenBoth | `32` | Скобки тайского алфавита - обе. |
+| BulletThaiNumPeriod | `33` | Тайский числовой период. |
+| BulletThaiNumParenRight | `34` | Тайские числовые скобки - правильно. |
+| BulletThaiNumParenBoth | `35` | Тайские числовые скобки - обе. |
+| BulletHindiAlphaPeriod | `36` | Период алфавита хинди - гласные. |
+| BulletHindiNumPeriod | `37` | Числовой период хинди. |
+| BulletKanjiSimpChinDBPeriod | `38` | Кандзи Простой китайский DBPeriod. |
+| BulletHindiNumParenRight | `39` | Числовые скобки на хинди - правильно. |
+| BulletHindiAlpha1Period | `40` | Период алфавита хинди - согласные. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: сгенерировано xmldocmd для Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

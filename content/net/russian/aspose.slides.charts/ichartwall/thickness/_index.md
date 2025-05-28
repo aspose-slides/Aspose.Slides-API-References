@@ -1,23 +1,22 @@
 ---
-title: Толщина
-second_title: Aspose.Slides для .NET Справочник API
-description: Возвращает или устанавливает толщину стен как процент от наибольшего измерения объема графика. Чтение/запись Int32.
+title: Thickness
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает толщину стен в процентах от наибольшего измерения объема графика. Чтение/записьInt32.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/ichartwall/thickness/
 ---
+## IChartWall.Thickness property
 
-## IChartWall.Thickness свойство
-
-Возвращает или устанавливает толщину стен как процент от наибольшего измерения объема графика. Чтение/запись Int32.
+Возвращает или задает толщину стен в процентах от наибольшего измерения объема графика. Чтение/записьInt32.
 
 ```csharp
 public int Thickness { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartWall](../../ichartwall)
+* interface [IChartWall](../../ichartwall)
 * пространство имен [Aspose.Slides.Charts](../../ichartwall)
 * сборка [Aspose.Slides](../../../)
 

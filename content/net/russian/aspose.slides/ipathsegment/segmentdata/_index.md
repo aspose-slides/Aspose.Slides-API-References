@@ -6,8 +6,7 @@ type: docs
 weight: 20
 url: /ru/aspose.slides/ipathsegment/segmentdata/
 ---
-
-## Свойство IPathSegment.SegmentData
+## IPathSegment.SegmentData property
 
 Данные пути сегмента
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/ipathsegment/segmentdata/
 public float[] SegmentData { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IPathSegment](../../ipathsegment)
+* interface [IPathSegment](../../ipathsegment)
 * пространство имен [Aspose.Slides](../../ipathsegment)
 * сборка [Aspose.Slides](../../../)
 

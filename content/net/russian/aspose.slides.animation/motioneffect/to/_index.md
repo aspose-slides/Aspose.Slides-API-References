@@ -1,23 +1,22 @@
 ---
-title: К
+title: To
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает целевое местоположение для анимационного эффекта движения в процентах. Чтение/запись PointF.
+description: Определяет целевое местоположение для эффекта движения анимации в процентах. Чтение/записьPointF.
 type: docs
 weight: 90
 url: /ru/aspose.slides.animation/motioneffect/to/
 ---
+## MotionEffect.To property
 
-## Свойство MotionEffect.To
-
-Указывает целевое местоположение для анимационного эффекта движения (в процентах). Чтение/запись PointF.
+Определяет целевое местоположение для эффекта движения анимации (в процентах). Чтение/записьPointF.
 
 ```csharp
 public PointF To { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MotionEffect](../../motioneffect)
+* class [MotionEffect](../../motioneffect)
 * пространство имен [Aspose.Slides.Animation](../../motioneffect)
 * сборка [Aspose.Slides](../../../)
 

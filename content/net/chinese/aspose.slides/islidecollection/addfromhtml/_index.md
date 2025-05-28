@@ -1,167 +1,166 @@
 ---
 title: AddFromHtml
-second_title: Aspose.Sildes for .NET API Reference
-description: 从 HTML 文本创建幻灯片并将其添加到集合的末尾。
+second_title: Aspose.Slides for .NET API 参考
+description: 从 HTML 文本创建幻灯片并将它们添加到集合的末尾
 type: docs
 weight: 40
 url: /zh/aspose.slides/islidecollection/addfromhtml/
 ---
-
 ## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
 
-从 HTML 文本创建幻灯片并将其添加到集合的末尾。
+从 HTML 文本创建幻灯片并将它们添加到集合的末尾。
 
 ```csharp
 public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlText | String | 要添加的 HTML。 |
-| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象将被忽略。 |
+| htmlText | String | Html 添加。 |
+| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
 | uri | String | 指定 HTML 的 URI。用于解析相对链接。 |
 
 ### 返回值
 
-添加的幻灯片。
+添加了幻灯片。
 
-### 另请参见
+### 也可以看看
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides](../../islidecollection)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AddFromHtml(string) {#addfromhtml_4}
 
-从 HTML 文本创建幻灯片并将其添加到集合的末尾。
+从 HTML 文本创建幻灯片并将它们添加到集合的末尾。
 
 ```csharp
 public ISlide[] AddFromHtml(string htmlText)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlText | String | 要添加的 HTML。 |
+| htmlText | String | Html 添加。 |
 
 ### 返回值
 
-添加的幻灯片
+添加幻灯片
 
-### 另请参见
+### 也可以看看
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides](../../islidecollection)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
 
-从 HTML 文本创建幻灯片并将其添加到集合的末尾。
+从 HTML 文本创建幻灯片并将它们添加到集合的末尾。
 
 ```csharp
 public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlReader | TextReader | 将用作 HTML 文件源的 TextReader 对象。 |
-| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象将被忽略。 |
+| htmlReader | TextReader | TextReader 对象，将用作 HTML 文件的源。 |
+| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
 | uri | String | 指定 HTML 的 URI。用于解析相对链接。 |
 
 ### 返回值
 
-添加的幻灯片。
+添加了幻灯片。
 
-### 另请参见
+### 也可以看看
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides](../../islidecollection)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AddFromHtml(TextReader) {#addfromhtml_2}
 
-从 HTML 文本创建幻灯片并将其添加到集合的末尾。
+从 HTML 文本创建幻灯片并将它们添加到集合的末尾。
 
 ```csharp
 public ISlide[] AddFromHtml(TextReader htmlReader)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlReader | TextReader | 将用作 HTML 文件源的 TextReader 对象。 |
+| htmlReader | TextReader | TextReader 对象，将用作 HTML 文件的源。 |
 
 ### 返回值
 
-添加的幻灯片
+添加幻灯片
 
-### 另请参见
+### 也可以看看
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides](../../islidecollection)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
 
-从 HTML 文本创建幻灯片并将其添加到集合的末尾。
+从 HTML 文本创建幻灯片并将它们添加到集合的末尾。
 
 ```csharp
 public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlStream | Stream | 将用作 HTML 文件源的 Stream 对象。 |
-| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象将被忽略。 |
+| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
 | uri | String | 指定 HTML 的 URI。用于解析相对链接。 |
 
 ### 返回值
 
-添加的幻灯片。
+添加了幻灯片。
 
-### 另请参见
+### 也可以看看
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides](../../islidecollection)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AddFromHtml(Stream) {#addfromhtml}
 
-从 HTML 文本创建幻灯片并将其添加到集合的末尾。
+从 HTML 文本创建幻灯片并将它们添加到集合的末尾。
 
 ```csharp
 public ISlide[] AddFromHtml(Stream htmlStream)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlStream | Stream | 将用作 HTML 文件源的 Stream 对象。 |
 
 ### 返回值
 
-添加的幻灯片
+添加幻灯片
 
-### 另请参见
+### 也可以看看
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
+* 命名空间 [Aspose.Slides](../../islidecollection)
+* 部件 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

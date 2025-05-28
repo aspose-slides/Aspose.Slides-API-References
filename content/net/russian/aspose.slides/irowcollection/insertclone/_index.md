@@ -1,15 +1,14 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает копию указанной строки-шаблона и вставляет ее в указанное место в таблице.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает копию указанной строки шаблона и вставляет ее в указанную позицию в таблице.
 type: docs
 weight: 30
 url: /ru/aspose.slides/irowcollection/insertclone/
 ---
+## IRowCollection.InsertClone method
 
-## Метод IRowCollection.InsertClone
-
-Создает копию указанной строки-шаблона и вставляет ее в указанное место в таблице.
+Создает копию указанной строки шаблона и вставляет ее в указанную позицию в таблице.
 
 ```csharp
 public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
@@ -19,16 +18,16 @@ public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
 | --- | --- | --- |
 | index | Int32 | Индекс новой строки. |
 | templ | IRow | Строка, используемая в качестве шаблона. |
-| withAttachedRows | Boolean | True для копирования также всех строк, прикрепленных к строке-шаблону. |
+| withAttachedRows | Boolean | Значение true, чтобы также копировать все строки, прикрепленные к строке шаблона. |
 
 ### Возвращаемое значение
 
 Вставленные строки.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IRow](../../irow)
-* интерфейс [IRowCollection](../../irowcollection)
+* interface [IRow](../../irow)
+* interface [IRowCollection](../../irowcollection)
 * пространство имен [Aspose.Slides](../../irowcollection)
 * сборка [Aspose.Slides](../../../)
 

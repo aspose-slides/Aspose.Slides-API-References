@@ -1,13 +1,12 @@
 ---
-title: ОтключитьЭффектОтражения
-second_title: Справочник по API Aspose.Sildes для .NET
+title: DisableReflectionEffect
+second_title: Справочник по API Aspose.Slides для .NET
 description: Отключает эффект отражения.
 type: docs
 weight: 160
 url: /ru/aspose.slides/effectformat/disablereflectioneffect/
 ---
-
-## Метод EffectFormat.DisableReflectionEffect
+## EffectFormat.DisableReflectionEffect method
 
 Отключает эффект отражения.
 
@@ -17,7 +16,7 @@ public void DisableReflectionEffect()
 
 ### Смотрите также
 
-* класс [EffectFormat](../../effectformat)
+* class [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

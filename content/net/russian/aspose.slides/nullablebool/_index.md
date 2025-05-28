@@ -1,29 +1,28 @@
 ---
 title: NullableBool
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет тройные логические значения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет три логических значения.
 type: docs
-weight: 8900
+weight: 8440
 url: /ru/aspose.slides/nullablebool/
 ---
+## NullableBool enumeration
 
-## Перечисление NullableBool
-
-Представляет тройные логические значения.
+Представляет три логических значения.
 
 ```csharp
 public enum NullableBool : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` | Логическое значение не определено. |
 | False | `0` | Ложное значение. |
 | True | `1` | Истинное значение. |
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

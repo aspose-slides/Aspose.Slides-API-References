@@ -1,23 +1,22 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество изображений в коллекции. Только для чтения Int32.
+description: Возвращает количество изображений в коллекции. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/imagecollection/count/
 ---
+## ImageCollection.Count property
 
-## Свойство ImageCollection.Count
-
-Возвращает количество изображений в коллекции. Только для чтения Int32.
+Возвращает количество изображений в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ImageCollection](../../imagecollection)
+* class [ImageCollection](../../imagecollection)
 * пространство имен [Aspose.Slides](../../imagecollection)
 * сборка [Aspose.Slides](../../../)
 

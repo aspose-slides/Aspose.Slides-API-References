@@ -1,15 +1,14 @@
 ---
 title: R1C1Formula
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает или устанавливает формулу в стиле R1C1.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает или задает формулу в стиле R1C1.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/chartdatacell/r1c1formula/
 ---
+## ChartDataCell.R1C1Formula property
 
-## Свойство ChartDataCell.R1C1Formula
-
-Получает или устанавливает формулу в стиле R1C1.
+Получает или задает формулу в стиле R1C1.
 
 ```csharp
 public string R1C1Formula { get; set; }
@@ -23,9 +22,9 @@ IChartDataCell cell = workbook.GetCell(0, "C2");
 cell.R1C1Formula = "MAX(R2C6:R5C8) / 3";
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ChartDataCell](../../chartdatacell)
+* class [ChartDataCell](../../chartdatacell)
 * пространство имен [Aspose.Slides.Charts](../../chartdatacell)
 * сборка [Aspose.Slides](../../../)
 

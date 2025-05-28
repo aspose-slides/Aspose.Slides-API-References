@@ -1,13 +1,12 @@
 ---
 title: IDataLabelFormat
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет параметры форматирования для DataLabel.
 type: docs
-weight: 1960
+weight: 1900
 url: /ru/aspose.slides.charts/idatalabelformat/
 ---
-
-## Интерфейс IDataLabelFormat
+## IDataLabelFormat interface
 
 Представляет параметры форматирования для DataLabel.
 
@@ -15,29 +14,29 @@ url: /ru/aspose.slides.charts/idatalabelformat/
 public interface IDataLabelFormat : IFormattedTextContainer
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Толькo для чтения [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Представляет формат метки данных. Толькo для чтения [`IFormat`](../iformat). |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | Читаемый/записываемый логический. |
-| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Представляет строку формата для объекта DataLabels. Читаемый/записываемый Строка. |
-| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Представляет позицию метки данных. Читаемый/записываемый [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Устанавливает или возвращает значение Variant, представляющее разделитель, используемый для меток данных на графике. Читаемый/записываемый Строка. |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Представляет поведение отображения значения размера пузыря метки данных на заданном графике. True отображает значение размера пузыря. False - скрывает. Читаемый/записываемый логический. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Представляет поведение отображения имени категории метки данных на заданном графике. True отображает имя категории для меток данных на графике. False - скрыть. Читаемый/записываемый логический. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Определяет, будет ли заданная метка данных графика отображаться как вызов данных или как метка данных. Если родительским объектом данного объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или устанавливает значение по умолчанию для свойства ShowLabelAsDataCallout для новых меток данных в коллекции DataLabelCollection. Установка этого свойства с указанным значением также устанавливает это значение для свойства ShowLabelAsDataCallout для всех меток данных в коллекции DataLabelCollection (т. е. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" приводит к тому, что все DataLabels[i].ShowLabelAsDataCallout равно val). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Представляет поведение отображения значения ячейки метки данных на заданном графике. True отображает значение ячейки. False - скрывает. Читаемый/записываемый логический. |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Представляет поведение отображения линий ведения метки данных на заданном графике. True отображает линии ведения. False - скрывает. Читаемый/записываемый логический. |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Представляет поведение отображения ключа легенды метки данных на заданном графике. True, если ключ легенды метки данных виден. Читаемый/записываемый логический. |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Представляет поведение отображения значения процента метки данных на заданном графике. True отображает значение процента. False - скрывает. Читаемый/записываемый логический. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Возвращает или устанавливает логическое значение для указания поведения отображения имени серии для меток данных на графике. True - показать имя серии. False - скрыть. Читаемый/записываемый логический. |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Представляет поведение отображения значения метки данных на заданном графике. True отображает значение. False - скрывает. Читаемый/записываемый логический. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Представляет формат метки данных. Только для чтения[`IFormat`](../iformat). |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | Чтение/записьBoolean. |
+| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Представляет строку формата для объекта DataLabels. Чтение/записьString. |
+| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Представляет позицию метки данных. Чтение/запись[`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Задает или возвращает Variant, представляющий разделитель, используемый для меток данных на диаграмме. Чтение/записьString. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Представляет поведение отображения значения размера пузырька метки данных указанной диаграммы. True отображает значение размера пузырька. Ложь скрывать. Чтение/записьBoolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Представляет поведение отображения имени категории метки данных указанной диаграммы. Значение true, чтобы отобразить имя категории для меток данных на диаграмме. Ложь скрывать. Чтение/записьBoolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Определяет, будет ли указанная метка данных диаграммы отображаться как выноска данных или как метка данных.  Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию значение свойства ShowLabelAsDataCallout для новых меток данных в коллекции DataLabelCollection. Присвоение этому свойству значения также устанавливает это значение в свойство ShowLabelAsDataCallout для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" приводит к тому, что все DataLabels[i].ShowLabelAsDataCallout равно val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Представляет поведение отображения значения ячейки метки данных указанной диаграммы. True отображает значение ячейки. Ложь скрывать. Чтение/записьBoolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Представляет поведение отображения линий выноски меток данных указанной диаграммы. True отображает линии выноски. Ложь скрывать. Чтение/записьBoolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Представляет поведение отображения клавиши легенды метки данных указанной диаграммы. True, если ключ легенды метки данных виден. Чтение/записьBoolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. Ложь скрывать. Чтение/записьBoolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных на диаграмме. True, чтобы показать название серии. Ложь скрывать. Чтение/записьBoolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. Ложь скрывать. Чтение/записьBoolean. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFormattedTextContainer](../iformattedtextcontainer)
+* interface [IFormattedTextContainer](../iformattedtextcontainer)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

@@ -1,23 +1,22 @@
 ---
 title: AdvanceAfterTime
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Указывает время в миллисекундах, после которого должно начаться переключение. Эта настройка может использоваться совместно с атрибутом advClick. Если этот атрибут не указан, предполагается, что автоматического переключения не произойдет. Чтение/запись UInt32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает время в миллисекундах после которого должен начаться переход. Этот параметр может использоваться в сочетании с атрибутом advClick. Если этот атрибут не указан  то предполагается что автоперехода не произойдет. Чтение/записьUInt32.
 type: docs
-weight: 20
+weight: 10
 url: /ru/aspose.slides.slideshow/slideshowtransition/advanceaftertime/
 ---
+## SlideShowTransition.AdvanceAfterTime property
 
-## SlideShowTransition.AdvanceAfterTime свойство
-
-Указывает время в миллисекундах, после которого должно начаться переключение. Эта настройка может использоваться совместно с атрибутом advClick. Если этот атрибут не указан, предполагается, что автоматического переключения не произойдет. Чтение/запись UInt32.
+Указывает время в миллисекундах, после которого должен начаться переход. Этот параметр может использоваться в сочетании с атрибутом advClick. Если этот атрибут не указан , то предполагается, что автоперехода не произойдет. Чтение/записьUInt32.
 
 ```csharp
 public uint AdvanceAfterTime { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [SlideShowTransition](../../slideshowtransition)
+* class [SlideShowTransition](../../slideshowtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../slideshowtransition)
 * сборка [Aspose.Slides](../../../)
 

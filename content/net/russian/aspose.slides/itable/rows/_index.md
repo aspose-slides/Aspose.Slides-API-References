@@ -1,24 +1,23 @@
 ---
-title: Строки
+title: Rows
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию строк. Только для чтения IRowCollectionaspose.slides/irowcollection.
+description: Возвращает набор строк. Только для чтенияIRowCollectionaspose.slides/irowcollection.
 type: docs
 weight: 110
 url: /ru/aspose.slides/itable/rows/
 ---
+## ITable.Rows property
 
-## Свойство ITable.Rows
-
-Возвращает коллекцию строк. Только для чтения [`IRowCollection`](../../irowcollection).
+Возвращает набор строк. Только для чтения[`IRowCollection`](../../irowcollection).
 
 ```csharp
 public IRowCollection Rows { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IRowCollection](../../irowcollection)
-* интерфейс [ITable](../../itable)
+* interface [IRowCollection](../../irowcollection)
+* interface [ITable](../../itable)
 * пространство имен [Aspose.Slides](../../itable)
 * сборка [Aspose.Slides](../../../)
 

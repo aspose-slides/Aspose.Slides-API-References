@@ -1,15 +1,14 @@
 ---
-title: Высота
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает или задает высоту фигуры. Чтение/запись Single.
+title: Height
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает высоту фигуры. Чтение/записьSingle.
 type: docs
 weight: 90
 url: /ru/aspose.slides/shape/height/
 ---
+## Shape.Height property
 
-## Свойство Shape.Height
-
-Возвращает или задает высоту фигуры. Чтение/запись Single.
+Возвращает или задает высоту фигуры. Чтение/записьSingle.
 
 ```csharp
 public float Height { get; set; }
@@ -17,11 +16,11 @@ public float Height { get; set; }
 
 ### Примечания
 
-Возвращаемое значение всегда определено (не является float.NaN). Присвоенное значение должно быть определено (не float.NaN). Вы можете устанавливать неопределенные значения для свойств экземпляров RawFrame.
+Возвращаемое значение всегда определено (не является float.NaN). Присваиваемое значение должно быть определено (не float.NaN). Вы можете установить неопределенные значения для свойств экземпляра RawFrame.
 
-### См. Также
+### Смотрите также
 
-* класс [Shape](../../shape)
+* class [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 

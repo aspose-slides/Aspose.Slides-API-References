@@ -1,23 +1,22 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает имя фигуры. Читаемое и записываемое значение String.
+description: Возвращает или задает имя формы. Чтение/записьString.
 type: docs
-weight: 170
+weight: 160
 url: /ru/aspose.slides/ishape/name/
 ---
+## IShape.Name property
 
-## Свойство IShape.Name
-
-Возвращает или устанавливает имя фигуры. Читаемое и записываемое значение String.
+Возвращает или задает имя формы. Чтение/записьString.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShape](../../ishape)
+* interface [IShape](../../ishape)
 * пространство имен [Aspose.Slides](../../ishape)
 * сборка [Aspose.Slides](../../../)
 

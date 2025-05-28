@@ -1,37 +1,36 @@
 ---
-title: ПереходОриентации
+title: OrientationTransition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода слайда ориентации.
+description: Эффект перехода слайдов ориентации.
 type: docs
-weight: 9960
+weight: 9490
 url: /ru/aspose.slides.slideshow/orientationtransition/
 ---
+## OrientationTransition class
 
-## Класс OrientationTransition
-
-Эффект перехода слайда ориентации.
+Эффект перехода слайдов ориентации.
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`Orientation`](../../aspose.slides/orientation). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
-### См. Также
+### Смотрите также
 
-* класс [TransitionValueBase](../transitionvaluebase)
-* интерфейс [IOrientationTransition](../iorientationtransition)
+* class [TransitionValueBase](../transitionvaluebase)
+* interface [IOrientationTransition](../iorientationtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

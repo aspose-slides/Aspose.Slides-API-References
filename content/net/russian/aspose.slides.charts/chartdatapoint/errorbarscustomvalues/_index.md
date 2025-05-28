@@ -1,24 +1,23 @@
 ---
 title: ErrorBarsCustomValues
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет значения ошибок серий в случае типа значения «Пользовательский». Только для чтения IErrorBarsCustomValues aspose.slides.charts/ierrorbarscustomvalues.
+description: Представляет значения баров погрешностей серии в случае пользовательского типа значения. Только для чтенияIErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/chartdatapoint/errorbarscustomvalues/
 ---
+## ChartDataPoint.ErrorBarsCustomValues property
 
-## Свойство ChartDataPoint.ErrorBarsCustomValues
-
-Представляет значения ошибок серий в случае типа значения «Пользовательский». Только для чтения [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+Представляет значения баров погрешностей серии в случае пользовательского типа значения. Только для чтения[`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
-* класс [ChartDataPoint](../../chartdatapoint)
+* interface [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
+* class [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

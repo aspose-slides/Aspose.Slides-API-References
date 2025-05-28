@@ -1,15 +1,14 @@
 ---
 title: AddConnector
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt einen neuen Connector, passt ihn von der Standardvorlage an und fügt ihn am Ende der Sammlung hinzu.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Erstellt einen neuen Connector optimiert ihn anhand der Standardvorlage und fügt ihn am Ende der Sammlung hinzu.
 type: docs
 weight: 120
 url: /de/aspose.slides/shapecollection/addconnector/
 ---
-
 ## AddConnector(ShapeType, float, float, float, float) {#addconnector}
 
-Erstellt einen neuen Connector, passt ihn von der Standardvorlage an und fügt ihn am Ende der Sammlung hinzu.
+Erstellt einen neuen Connector, optimiert ihn anhand der Standardvorlage und fügt ihn am Ende der Sammlung hinzu.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height)
@@ -17,9 +16,9 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| shapeType | ShapeType | Der [`ShapeType`](../../shapetype) der Form. |
-| x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
-| y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| shapeType | ShapeType | Das[`ShapeType`](../../shapetype) von Form. |
+| x | Single | Die X-Koordinate für eine linke Seite des Rahmens der Form. |
+| y | Single | Die Y-Koordinate für eine Oberseite des Rahmens der Form. |
 | width | Single | Die Breite des Rahmens der Form. |
 | height | Single | Die Höhe des Rahmens der Form. |
 
@@ -27,42 +26,15 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 Der nullbasierte Index der erstellten Form.
 
-Erstelltes Connector-Objekt.
-
-### Beispiele
-
-Das folgende Beispiel zeigt, wie man einen Connector (einen gebogenen Connector) zwischen zwei Formen (einer Ellipse und einem Rechteck) in einer PowerPoint-Präsentation hinzufügt.
-
-```csharp
-[C#]
-// Instanziiert eine Präsentationsklasse, die eine PPTX-Datei repräsentiert
-using (Presentation input = new Presentation())
-{
-    // Greift auf die Sammlung von Formen für eine bestimmte Folie zu
-    IShapeCollection shapes = input.Slides[0].Shapes;
-    // Fügt eine Ellipse-Autoshape hinzu
-    IAutoShape ellipse = shapes.AddAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
-    // Fügt eine Rechteck-Autoshape hinzu
-    IAutoShape rectangle = shapes.AddAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
-    // Fügt der Folienformensammlung eine Connector-Form hinzu
-    IConnector connector = shapes.AddConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
-    // Verbindet die Formen mit dem Connector
-    connector.StartShapeConnectedTo = ellipse;
-    connector.EndShapeConnectedTo = rectangle;
-    // Ruft reroute auf, das den automatischen kürzesten Weg zwischen den Formen festlegt
-    connector.Reroute();
-    // Speichert die Präsentation
-    input.Save("Shapes-connector.pptx", SaveFormat.Pptx);
-}
-```
+Connector-Objekt erstellt.
 
 ### Siehe auch
 
 * interface [IConnector](../../iconnector)
 * enum [ShapeType](../../shapetype)
 * class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* namensraum [Aspose.Slides](../../shapecollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
@@ -77,25 +49,25 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| shapeType | ShapeType | Der [`ShapeType`](../../shapetype) der Form. |
-| x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
-| y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| shapeType | ShapeType | Das[`ShapeType`](../../shapetype) von Form. |
+| x | Single | Die X-Koordinate für eine linke Seite des Rahmens der Form. |
+| y | Single | Die Y-Koordinate für eine Oberseite des Rahmens der Form. |
 | width | Single | Die Breite des Rahmens der Form. |
 | height | Single | Die Höhe des Rahmens der Form. |
-| createFromTemplate | Boolean | Wenn true, wird die neue Form von der Standardvorlage angepasst. Ein nicht leerer Name, einfacher Stil und zentrierter Text werden der neuen Form zugewiesen. Wenn false, haben alle Eigenschaften der neuen Form die Standardwerte. |
+| createFromTemplate | Boolean | Wenn wahr, dann wird die neue Form von der Standardvorlage angepasst. Nicht leerer Name, einfacher Stil, Text zentriert wird der neuen Form zugewiesen. Wenn falsch, dann haben alle Werte der Eigenschaften der neuen Form Standardwerte. |
 
 ### Rückgabewert
 
 Der nullbasierte Index der erstellten Form.
 
-Erstelltes Connector-Objekt.
+Connector-Objekt erstellt.
 
 ### Siehe auch
 
 * interface [IConnector](../../iconnector)
 * enum [ShapeType](../../shapetype)
 * class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* namensraum [Aspose.Slides](../../shapecollection)
+* Montage [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

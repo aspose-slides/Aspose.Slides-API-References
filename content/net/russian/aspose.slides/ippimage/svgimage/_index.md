@@ -1,15 +1,14 @@
 ---
 title: SvgImage
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает объект ISvgImage ISvgImageaspose.slides/isvgimage
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает объект ISvgImageISvgImageaspose.slides/isvgimage
 type: docs
-weight: 50
+weight: 40
 url: /ru/aspose.slides/ippimage/svgimage/
 ---
+## IPPImage.SvgImage property
 
-## Свойство IPPImage.SvgImage
-
-Возвращает или устанавливает объект ISvgImage [`ISvgImage`](../../isvgimage)
+Возвращает или устанавливает объект ISvgImage[`ISvgImage`](../../isvgimage)
 
 ```csharp
 public ISvgImage SvgImage { get; set; }
@@ -17,12 +16,12 @@ public ISvgImage SvgImage { get; set; }
 
 ### Примечания
 
-Это значение указывает на то, что это изображение было создано из SVG.
+Это значение указывает, что это изображение было создано из SVG.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISvgImage](../../isvgimage)
-* интерфейс [IPPImage](../../ippimage)
+* interface [ISvgImage](../../isvgimage)
+* interface [IPPImage](../../ippimage)
 * пространство имен [Aspose.Slides](../../ippimage)
 * сборка [Aspose.Slides](../../../)
 

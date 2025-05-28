@@ -1,24 +1,23 @@
 ---
 title: LightRig
-second_title: Aspose.Slides для справки по .NET API
-description: Возвращает тип света. Только для чтения ILightRigEffectiveDataaspose.slides/ilightrigeffectivedata.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает тип источника света. Только для чтенияILightRigEffectiveDataaspose.slides/ilightrigeffectivedata.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ithreedformateffectivedata/lightrig/
 ---
+## IThreeDFormatEffectiveData.LightRig property
 
-## IThreeDFormatEffectiveData.LightRig свойство
-
-Возвращает тип света. Только для чтения [`ILightRigEffectiveData`](../../ilightrigeffectivedata).
+Возвращает тип источника света. Только для чтения[`ILightRigEffectiveData`](../../ilightrigeffectivedata).
 
 ```csharp
 public ILightRigEffectiveData LightRig { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILightRigEffectiveData](../../ilightrigeffectivedata)
-* интерфейс [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
+* interface [ILightRigEffectiveData](../../ilightrigeffectivedata)
+* interface [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * пространство имен [Aspose.Slides](../../ithreedformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

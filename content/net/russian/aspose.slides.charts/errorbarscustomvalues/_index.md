@@ -1,34 +1,33 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Указывает значения ошибочных столбцов. Его следует использовать только в том случае, если тип значения ошибочных столбцов — Это пользовательский.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает значения панели ошибок. Он должен использоваться только в том случае если тип значения Error bar имеет значение Custom.
 type: docs
-weight: 1580
+weight: 1520
 url: /ru/aspose.slides.charts/errorbarscustomvalues/
 ---
+## ErrorBarsCustomValues class
 
-## Класс ErrorBarsCustomValues
-
-Указывает значения ошибочных столбцов. Его следует использовать только в том случае, если тип значения ошибочных столбцов — Это пользовательский.
+Указывает значения панели ошибок. Он должен использоваться только в том случае, если тип значения Error bar имеет значение Custom.
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | Указывает значение ошибочного столбца в отрицательном направлении. Доступно, если тип значения ошибочных столбцов — Это пользовательский и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | Указывает значение ошибочного столбца в положительном направлении. Доступно, если тип значения ошибочных столбцов — Это пользовательский и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | Указывает значение ошибочного столбца в отрицательном направлении. Доступно, если тип значения ошибочных столбцов — Это пользовательский и разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | Указывает значение ошибочного столбца в положительном направлении. Доступно, если тип значения ошибочных столбцов — Это пользовательский и разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | Указывает значение полосы ошибок в отрицательном направлении. Доступно, если тип значения баров погрешностей — Пользовательский и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | Указывает значение полосы ошибок в положительном направлении. Доступно, если тип значения баров погрешностей — Пользовательский и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | Указывает значение полосы ошибок в отрицательном направлении. Доступно, если тип значения баров погрешностей — Пользовательский и разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | Указывает значение полосы ошибок в положительном направлении. Доступно, если тип значения баров погрешностей — Пользовательский и разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
 
-### См. также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* класс [ChartDataPoint](../chartdatapoint)
-* интерфейс [IErrorBarsCustomValues](../ierrorbarscustomvalues)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartDataPoint](../chartdatapoint)
+* interface [IErrorBarsCustomValues](../ierrorbarscustomvalues)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

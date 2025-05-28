@@ -1,23 +1,22 @@
 ---
-title: Радиус
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает или задает радиус размытия. Читаемое/Записываемое Double.
+title: Radius
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает радиус размытия. Чтение/записьDouble.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/iblur/radius/
 ---
+## IBlur.Radius property
 
-## Свойство IBlur.Radius
-
-Возвращает или задает радиус размытия. Читаемое/Записываемое Double.
+Возвращает или задает радиус размытия. Чтение/записьDouble.
 
 ```csharp
 public double Radius { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IBlur](../../iblur)
+* interface [IBlur](../../iblur)
 * пространство имен [Aspose.Slides.Effects](../../iblur)
 * сборка [Aspose.Slides](../../../)
 

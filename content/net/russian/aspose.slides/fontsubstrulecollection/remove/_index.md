@@ -1,15 +1,14 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Удаляет первое вхождение конкретного объекта из коллекции.
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет первое вхождение определенного объекта из коллекции.
 type: docs
 weight: 90
 url: /ru/aspose.slides/fontsubstrulecollection/remove/
 ---
+## FontSubstRuleCollection.Remove method
 
-## Метод FontSubstRuleCollection.Remove
-
-Удаляет первое вхождение конкретного объекта из коллекции.
+Удаляет первое вхождение определенного объекта из коллекции.
 
 ```csharp
 public void Remove(IFontSubstRule value)
@@ -17,12 +16,12 @@ public void Remove(IFontSubstRule value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IFontSubstRule | Правило замены шрифта, которое нужно удалить из коллекции. |
+| value | IFontSubstRule | Правило замены шрифта для удаления из коллекции. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontSubstRule](../../ifontsubstrule)
-* класс [FontSubstRuleCollection](../../fontsubstrulecollection)
+* interface [IFontSubstRule](../../ifontsubstrule)
+* class [FontSubstRuleCollection](../../fontsubstrulecollection)
 * пространство имен [Aspose.Slides](../../fontsubstrulecollection)
 * сборка [Aspose.Slides](../../../)
 

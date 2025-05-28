@@ -1,30 +1,29 @@
 ---
 title: IComment
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет комментарий на слайде.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет комментарий к слайду.
 type: docs
-weight: 5360
+weight: 5060
 url: /ru/aspose.slides/icomment/
 ---
+## IComment interface
 
-## Интерфейс IComment
-
-Представляет комментарий на слайде.
+Представляет комментарий к слайду.
 
 ```csharp
 public interface IComment
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Author](../../aspose.slides/icomment/author) { get; } | Возвращает автора комментария. Только для чтения [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Возвращает или устанавливает время создания комментария. Установка этого свойства в MinValue означает, что время комментария не установлено. Чтение/запись DateTime. |
-| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Получает или устанавливает родительский комментарий. Чтение/запись [`IComment`](../icomment). |
-| [Position](../../aspose.slides/icomment/position) { get; set; } | Возвращает или устанавливает позицию комментария на слайде. Чтение/запись PointF. |
-| [Slide](../../aspose.slides/icomment/slide) { get; } | Возвращает или устанавливает родительский слайд комментария. Только для чтения [`ISlide`](../islide). |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | Возвращает или устанавливает простой текст комментария на слайде. Чтение/запись String. |
+| [Author](../../aspose.slides/icomment/author) { get; } | Возвращает автора комментария. Только для чтения[`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Возвращает или устанавливает время создания комментария. Установка для этого свойства значенияMinValueозначает, что время комментариев не установлено. Чтение/записьDateTime. |
+| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Получает или задает родительский комментарий. Чтение/запись[`IComment`](../icomment). |
+| [Position](../../aspose.slides/icomment/position) { get; set; } | Возвращает или задает положение комментария на слайде. Чтение/записьPointF. |
+| [Slide](../../aspose.slides/icomment/slide) { get; } | Возвращает или устанавливает родительский слайд комментария. Только для чтения[`ISlide`](../islide). |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | Возвращает или задает обычный текст комментария к слайду. Чтение/записьString. |
 
 ## Методы
 
@@ -32,7 +31,7 @@ public interface IComment
 | --- | --- |
 | [Remove](../../aspose.slides/icomment/remove)() | Удаляет комментарий и все его ответы из родительской коллекции. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

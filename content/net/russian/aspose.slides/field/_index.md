@@ -1,13 +1,12 @@
 ---
-title: Поле
-second_title: Aspose.Slides для .NET API Справочник
+title: Field
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет поле.
 type: docs
-weight: 4560
+weight: 4310
 url: /ru/aspose.slides/field/
 ---
-
-## Класс Field
+## Field class
 
 Представляет поле.
 
@@ -15,17 +14,17 @@ url: /ru/aspose.slides/field/
 public sealed class Field : DomObject<Portion>, IField
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | Возвращает или устанавливает тип поля. Чтение/запись [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Возвращает или устанавливает тип поля. Чтение/запись[`IFieldType`](../ifieldtype). |
 
 ### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../domobject-1)
-* класс [Portion](../portion)
-* интерфейс [IField](../ifield)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Portion](../portion)
+* interface [IField](../ifield)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

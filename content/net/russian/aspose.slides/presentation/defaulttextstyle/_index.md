@@ -1,24 +1,23 @@
 ---
 title: DefaultTextStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стиль текста по умолчанию для фигур. Только для чтения ITextStyleaspose.slides/itextstyle.
+description: Возвращает стиль текста по умолчанию для фигур. Только для чтенияITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 70
 url: /ru/aspose.slides/presentation/defaulttextstyle/
 ---
+## Presentation.DefaultTextStyle property
 
-## Свойство Presentation.DefaultTextStyle
-
-Возвращает стиль текста по умолчанию для фигур. Только для чтения [`ITextStyle`](../../itextstyle).
+Возвращает стиль текста по умолчанию для фигур. Только для чтения[`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle DefaultTextStyle { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITextStyle](../../itextstyle)
-* класс [Presentation](../../presentation)
+* interface [ITextStyle](../../itextstyle)
+* class [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

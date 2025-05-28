@@ -1,34 +1,33 @@
 ---
 title: ITextAnimation
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет анимацию текста.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет текстовую анимацию.
 type: docs
-weight: 540
+weight: 520
 url: /ru/aspose.slides.animation/itextanimation/
 ---
+## ITextAnimation interface
 
-## Интерфейс ITextAnimation
-
-Представляет анимацию текста.
+Представляет текстовую анимацию.
 
 ```csharp
 public interface ITextAnimation
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Список типа построения (например, Параграф 1, 2, 3, Все сразу) анимации текста. Чтение/запись [`BuildType`](./buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Связанный эффект формы с группой или без (null). Чтение/запись [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Список типов сборки (для эксп. п.1,2,3, Все сразу) текстовой анимации. Чтение/запись[`BuildType`](./buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Связанный эффект формы с группой или нет (null) Чтение/запись[`IEffect`](../ieffect). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Добавляет новый эффект в конец текущей последовательности в конце групповых текстовых анимаций. Действительно только если количество текстовых параграфов равно или больше количества эффектов этой группы! |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Добавить новый эффект в конец текущей последовательности в конец групповой текстовой анимации. Действителен только в том случае, если количество текстовых абзацев равно или больше количества подсчетов этой группы! |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

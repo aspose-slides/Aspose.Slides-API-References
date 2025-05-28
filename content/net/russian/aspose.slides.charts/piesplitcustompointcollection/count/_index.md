@@ -1,23 +1,22 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает количество точек данных графика. Только для чтения Int32.
+description: Возвращает или задает количество точек данных диаграммы. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/piesplitcustompointcollection/count/
 ---
+## PieSplitCustomPointCollection.Count property
 
-## Свойство PieSplitCustomPointCollection.Count
-
-Возвращает или задает количество точек данных графика. Только для чтения Int32.
+Возвращает или задает количество точек данных диаграммы. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
+* class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * пространство имен [Aspose.Slides.Charts](../../piesplitcustompointcollection)
 * сборка [Aspose.Slides](../../../)
 

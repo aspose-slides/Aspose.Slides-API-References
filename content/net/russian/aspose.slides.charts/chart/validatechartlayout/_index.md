@@ -1,23 +1,22 @@
 ---
 title: ValidateChartLayout
-second_title: Aspose.Slides для .NET API Reference
-description: Вычисляет фактические значения элементов графика. Фактические значения включают положение элементов, реализующих интерфейс IActualLayout IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight и фактические значения осей IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вычисляет фактические значения элементов диаграммы. Фактические значения включают положение элементов которые реализуют интерфейс IActualLayout IActualLayout.ActualX IActualLayout.ActualY IActualLayout.ActualWidth IActualLayout.ActualHeight и фактические значения осей IAxis.ActualMaxValue  IAxis.ActualMinValue IAxis.ActualMajorUnit IAxis.ActualMinorUnit IAxis.ActualMajorUnitScale IAxis.ActualMinorUnitScale
 type: docs
 weight: 260
 url: /ru/aspose.slides.charts/chart/validatechartlayout/
 ---
+## Chart.ValidateChartLayout method
 
-## Метод Chart.ValidateChartLayout
-
-Вычисляет фактические значения элементов графика. Фактические значения включают положение элементов, реализующих интерфейс IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) и фактические значения осей (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
+Вычисляет фактические значения элементов диаграммы. Фактические значения включают положение элементов, которые реализуют интерфейс IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) и фактические значения осей (IAxis.ActualMaxValue , IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
 
 ```csharp
 public void ValidateChartLayout()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Chart](../../chart)
+* class [Chart](../../chart)
 * пространство имен [Aspose.Slides.Charts](../../chart)
 * сборка [Aspose.Slides](../../../)
 

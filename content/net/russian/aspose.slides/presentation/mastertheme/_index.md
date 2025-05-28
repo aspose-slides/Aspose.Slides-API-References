@@ -1,41 +1,23 @@
 ---
 title: MasterTheme
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает основную тему. Только для чтения IMasterThemeaspose.slides/../aspose.slides.theme/imastertheme.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает основную тему. Только для чтенияIMasterThemeaspose.slides.theme/imastertheme.
 type: docs
 weight: 190
 url: /ru/aspose.slides/presentation/mastertheme/
 ---
+## Presentation.MasterTheme property
 
-## Свойство Presentation.MasterTheme
-
-Возвращает основную тему. Только для чтения [`IMasterTheme`](../../../aspose.slides.theme/imastertheme).
+Возвращает основную тему. Только для чтения[`IMasterTheme`](../../../aspose.slides.theme/imastertheme).
 
 ```csharp
 public IMasterTheme MasterTheme { get; }
 ```
 
-### Примеры
+### Смотрите также
 
-Следующие примеры показывают, как изменить эффект темы, изменяя части элементов презентации PowerPoint.
-
-```csharp
-[C#]
-//Создайте объект презентации, который представляет файл презентации
-using (Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx"))
-{
-    pres.MasterTheme.FormatScheme.LineStyles[0].FillFormat.SolidFillColor.Color = Color.Red;
-    pres.MasterTheme.FormatScheme.FillStyles[2].FillType = FillType.Solid;
-    pres.MasterTheme.FormatScheme.FillStyles[2].SolidFillColor.Color = Color.ForestGreen;
-    pres.MasterTheme.FormatScheme.EffectStyles[2].EffectFormat.OuterShadowEffect.Distance = 10f;
-    pres.Save("Design_04_Subtle_Moderate_Intense-out.pptx", SaveFormat.Pptx);
-}
-```
-
-### Смотрите Также
-
-* интерфейс [IMasterTheme](../../../aspose.slides.theme/imastertheme)
-* класс [Presentation](../../presentation)
+* interface [IMasterTheme](../../../aspose.slides.theme/imastertheme)
+* class [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

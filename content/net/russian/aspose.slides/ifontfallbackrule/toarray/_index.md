@@ -1,12 +1,11 @@
 ---
 title: ToArray
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает и возвращает массив со всеми шрифтами FallBack для этого правила.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ifontfallbackrule/toarray/
 ---
-
 ## ToArray() {#toarray}
 
 Создает и возвращает массив со всеми шрифтами FallBack для этого правила.
@@ -15,24 +14,24 @@ url: /ru/aspose.slides/ifontfallbackrule/toarray/
 public string[] ToArray()
 ```
 
-### Return Value
+### Возвращаемое значение
 
-Массив строк
+МассивСтрока
 
-### Examples
+### Примеры
 
 ```csharp
 [C#]
-// Создать правило, содержащее список шрифтов.
+ // Создать правило, содержащее список шрифтов.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-//Получить все имена шрифтов в виде массива
+ //Получить все имена шрифтов как array
 string[] fontNames = newRule.ToArray();
 ```
 
-### See Also
+### Смотрите также
 
-* интерфейс [IFontFallBackRule](../../ifontfallbackrule)
+* interface [IFontFallBackRule](../../ifontfallbackrule)
 * пространство имен [Aspose.Slides](../../ifontfallbackrule)
 * сборка [Aspose.Slides](../../../)
 
@@ -48,27 +47,27 @@ public string[] ToArray(int startIndex, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | Int32 | Индекс первого шрифта для добавления. |
+| startIndex | Int32 | Индекс первого добавляемого шрифта. |
 | count | Int32 | Количество шрифтов для добавления. |
 
-### Return Value
+### Возвращаемое значение
 
-Массив строк
+МассивString
 
-### Examples
+### Примеры
 
 ```csharp
 [C#]
-// Создать правило, содержащее список шрифтов.
+ // Создать правило, содержащее список шрифтов.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-//Получить последние два имени шрифтов в виде массива
+//Получить два последних имени шрифта как array
 string[] fontNames = newRule.ToArray(2,2);
 ```
 
-### See Also
+### Смотрите также
 
-* интерфейс [IFontFallBackRule](../../ifontfallbackrule)
+* interface [IFontFallBackRule](../../ifontfallbackrule)
 * пространство имен [Aspose.Slides](../../ifontfallbackrule)
 * сборка [Aspose.Slides](../../../)
 

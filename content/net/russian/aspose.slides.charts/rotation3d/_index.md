@@ -1,34 +1,33 @@
 ---
 title: Rotation3D
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет 3D вращение графика.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет трехмерное вращение диаграммы.
 type: docs
-weight: 2320
+weight: 2260
 url: /ru/aspose.slides.charts/rotation3d/
 ---
+## Rotation3D class
 
-## Класс Rotation3D
-
-Представляет 3D вращение графика.
+Представляет трехмерное вращение диаграммы.
 
 ```csharp
 public class Rotation3D : IRotation3D
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Возвращает или задает глубину 3D графика в процентном отношении к ширине графика (между 20 и 2000 процентами). Чтение/запись UInt16. |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Указывает высоту 3D графика в процентном отношении к ширине графика (между 5 и 500 процентами). Чтение/запись UInt16. |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Возвращает или задает значение перспективы (угол обзора) для 3D графиков (между 0 и 240). Игнорируется, если значение свойства RightAngleAxes истинно. Чтение/запись Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Определяет, находятся ли оси графика под прямым углом, а не изображены в перспективе. Другими словами, определяет, независимы ли углы осей графика от вращения или подъема графика. Чтение/запись Boolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Возвращает или задает угол вращения вокруг оси X, т.е. в направлении Y для 3D графиков (между -90 и 90 градусами). Свойство соответствует пункту 21.2.2.157 rotX (Вращение по X) в ECMA-376 и опции "Вращение по Y" в PowerPoint 2007+. Чтение/запись SByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Возвращает или задает угол вращения вокруг оси Y, т.е. в направлении X для 3D графиков (между 0 и 360 градусами). Свойство соответствует пункту 21.2.2.158 rotY (Вращение по Y) в ECMA-376 и опции "Вращение по X" в PowerPoint 2007+. Чтение/запись UInt16. |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Возвращает или задает глубину трехмерной диаграммы в процентах от ширины диаграммы (от 20 до 2000 процентов). Чтение/записьUInt16. |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Указывает высоту трехмерной диаграммы в процентах от ширины диаграммы (от 5 до 500 процентов). Чтение/записьUInt16. |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Возвращает или задает значение перспективы (угол поля зрения) для трехмерных диаграмм (от 0 до 240). Игнорируется, если значение свойства RightAngleAxes равно true. Чтение/записьByte. |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Определяет, расположены ли оси диаграммы под прямым углом, а не в перспективе. Другими словами, он определяет, независимы ли углы осей диаграммы от поворота или возвышения диаграммы . Чтение/записьBoolean. |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Возвращает или задает угол поворота вокруг оси X, т.е. в направлении Y для трехмерных диаграмм (от -90 до 90 градусов). Свойство соответствует элементу 21.2.2.157 rotX (X Rotation) в ECMA-376 и параметру Y Rotation в PowerPoint 2007+. Чтение/записьSByte. |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Возвращает или задает угол поворота вокруг оси Y, т.е. в направлении X для трехмерных диаграмм (от 0 до 360 градусов). Свойство соответствует элементу 21.2.2.158 rotY (Y Rotation) в ECMA-376 и параметру X Rotation в PowerPoint 2007+. Чтение/записьUInt16. |
 
 ### Смотрите также
 
-* интерфейс [IRotation3D](../irotation3d)
+* interface [IRotation3D](../irotation3d)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

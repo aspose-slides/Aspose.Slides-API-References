@@ -1,23 +1,22 @@
 ---
 title: RevisionNumber
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает номер ревизии презентации. Чтение/запись Int32.
+description: Возвращает или задает номер версии презентации. Чтение/записьInt32.
 type: docs
-weight: 270
+weight: 200
 url: /ru/aspose.slides/idocumentproperties/revisionnumber/
 ---
+## IDocumentProperties.RevisionNumber property
 
-## Свойство IDocumentProperties.RevisionNumber
-
-Возвращает или устанавливает номер ревизии презентации. Чтение/запись Int32.
+Возвращает или задает номер версии презентации. Чтение/записьInt32.
 
 ```csharp
 public int RevisionNumber { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
+* interface [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 

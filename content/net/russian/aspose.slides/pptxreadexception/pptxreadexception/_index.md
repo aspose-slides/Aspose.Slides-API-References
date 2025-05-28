@@ -1,12 +1,11 @@
 ---
 title: PptxReadException
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/pptxreadexception/pptxreadexception/
 ---
-
 ## PptxReadException() {#constructor}
 
 Конструктор по умолчанию.
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/pptxreadexception/pptxreadexception/
 public PptxReadException()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [PptxReadException](../../pptxreadexception)
+* class [PptxReadException](../../pptxreadexception)
 * пространство имен [Aspose.Slides](../../pptxreadexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -33,11 +32,11 @@ public PptxReadException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | String | сообщение |
+| сообщение | String | сообщение |
 
-### См. также
+### Смотрите также
 
-* класс [PptxReadException](../../pptxreadexception)
+* class [PptxReadException](../../pptxreadexception)
 * пространство имен [Aspose.Slides](../../pptxreadexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -45,7 +44,7 @@ public PptxReadException(string message)
 
 ## PptxReadException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащее сообщение и встроенное исключение.
+Конструктор исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public PptxReadException(string message, Exception exception)
@@ -53,12 +52,12 @@ public PptxReadException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | String | сообщение |
-| exception | Exception | оригинальное исключение |
+| сообщение | String | сообщение |
+| исключение | Exception | исходное исключение |
 
-### См. также
+### Смотрите также
 
-* класс [PptxReadException](../../pptxreadexception)
+* class [PptxReadException](../../pptxreadexception)
 * пространство имен [Aspose.Slides](../../pptxreadexception)
 * сборка [Aspose.Slides](../../../)
 

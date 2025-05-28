@@ -1,13 +1,12 @@
 ---
 title: BackgroundType
-second_title: Справочник по Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет источник заливки фона слайда.
 type: docs
-weight: 860
+weight: 840
 url: /ru/aspose.slides/backgroundtype/
 ---
-
-## Перечисление BackgroundType
+## BackgroundType enumeration
 
 Определяет источник заливки фона слайда.
 
@@ -15,15 +14,15 @@ url: /ru/aspose.slides/backgroundtype/
 public enum BackgroundType : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Themed | `0` |  |
 | OwnBackground | `1` |  |
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

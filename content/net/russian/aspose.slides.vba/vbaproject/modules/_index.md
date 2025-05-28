@@ -1,24 +1,23 @@
 ---
-title: Модули
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Возвращает список всех модулей, содержащихся в проекте VBA. Только для чтения IVbaModuleCollectionaspose.slides/ivbamodulecollection.
+title: Modules
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает список всех модулей содержащихся в проекте VBA. Только для чтенияIVbaModuleCollectionaspose.slides.vba/ivbamodulecollection.
 type: docs
-weight: 30
+weight: 20
 url: /ru/aspose.slides.vba/vbaproject/modules/
 ---
+## VbaProject.Modules property
 
-## Свойство VbaProject.Modules
-
-Возвращает список всех модулей, содержащихся в проекте VBA. Только для чтения [`IVbaModuleCollection`](../../ivbamodulecollection).
+Возвращает список всех модулей, содержащихся в проекте VBA. Только для чтения[`IVbaModuleCollection`](../../ivbamodulecollection).
 
 ```csharp
 public IVbaModuleCollection Modules { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IVbaModuleCollection](../../ivbamodulecollection)
-* класс [VbaProject](../../vbaproject)
+* interface [IVbaModuleCollection](../../ivbamodulecollection)
+* class [VbaProject](../../vbaproject)
 * пространство имен [Aspose.Slides.Vba](../../vbaproject)
 * сборка [Aspose.Slides](../../../)
 

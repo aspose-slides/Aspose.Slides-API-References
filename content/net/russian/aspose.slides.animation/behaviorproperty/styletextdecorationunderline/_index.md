@@ -6,8 +6,7 @@ type: docs
 weight: 1140
 url: /ru/aspose.slides.animation/behaviorproperty/styletextdecorationunderline/
 ---
-
-## Свойство BehaviorProperty.StyleTextDecorationUnderline
+## BehaviorProperty.StyleTextDecorationUnderline property
 
 Представляет свойство 'style.textDecorationUnderline'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/styletextdecorationunderline/
 public static BehaviorProperty StyleTextDecorationUnderline { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

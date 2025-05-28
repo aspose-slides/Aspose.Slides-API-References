@@ -1,24 +1,23 @@
 ---
 title: AutoShapeLock
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает блокировки AutoShapes. Только для чтения IAutoShapeLockaspose.slides/iautoshapelock.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает блокировки AutoShape. Только для чтенияIAutoShapeLockaspose.slides/iautoshapelock.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iautoshape/autoshapelock/
 ---
+## IAutoShape.AutoShapeLock property
 
-## Свойство IAutoShape.AutoShapeLock
-
-Возвращает блокировки AutoShape. Только для чтения [`IAutoShapeLock`](../../iautoshapelock).
+Возвращает блокировки AutoShape. Только для чтения[`IAutoShapeLock`](../../iautoshapelock).
 
 ```csharp
 public IAutoShapeLock AutoShapeLock { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IAutoShapeLock](../../iautoshapelock)
-* интерфейс [IAutoShape](../../iautoshape)
+* interface [IAutoShapeLock](../../iautoshapelock)
+* interface [IAutoShape](../../iautoshape)
 * пространство имен [Aspose.Slides](../../iautoshape)
 * сборка [Aspose.Slides](../../../)
 

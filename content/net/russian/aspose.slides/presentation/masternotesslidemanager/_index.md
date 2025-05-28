@@ -1,24 +1,23 @@
 ---
 title: MasterNotesSlideManager
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает менеджер мастер-заметок. Только для чтения IMasterNotesSlideManageraspose.slides/imasternotesslidemanager.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает мастер-менеджер заметок. Только для чтенияIMasterNotesSlideManageraspose.slides/imasternotesslidemanager.
 type: docs
 weight: 170
 url: /ru/aspose.slides/presentation/masternotesslidemanager/
 ---
+## Presentation.MasterNotesSlideManager property
 
-## Свойство Presentation.MasterNotesSlideManager
-
-Возвращает менеджер мастер-заметок. Только для чтения [`IMasterNotesSlideManager`](../../imasternotesslidemanager).
+Возвращает мастер-менеджер заметок. Только для чтения[`IMasterNotesSlideManager`](../../imasternotesslidemanager).
 
 ```csharp
 public IMasterNotesSlideManager MasterNotesSlideManager { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMasterNotesSlideManager](../../imasternotesslidemanager)
-* класс [Presentation](../../presentation)
+* interface [IMasterNotesSlideManager](../../imasternotesslidemanager)
+* class [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: DataLabelCollection
-second_title: Справочная информация по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет метки серии.
 type: docs
-weight: 1480
+weight: 1420
 url: /ru/aspose.slides.charts/datalabelcollection/
 ---
-
-## Класс DataLabelCollection
+## DataLabelCollection class
 
 Представляет метки серии.
 
@@ -15,32 +14,31 @@ url: /ru/aspose.slides.charts/datalabelcollection/
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Возвращает родительский график. Только для чтения [`IChart`](../ichart). |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Получает общее количество меток данных в коллекции. Только для чтения Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Получает количество видимых меток данных в коллекции. Только для чтения Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Получает формат метки данных по умолчанию. Только для чтения [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | Ложное значение означает, что метка данных по умолчанию не видима (и, следовательно, все флаги Show*- (ShowValue, ...) свойства DefaultDataLabelFormat ложны). Только для чтения Boolean. |
+| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения[`IChart`](../ichart). |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Получает количество всех меток данных в коллекции. Только для чтенияInt32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Получает количество видимых меток данных в коллекции. Только для чтенияInt32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Получает формат метки данных по умолчанию. Только для чтения[`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False означает, что метка данных по умолчанию не видна (и, следовательно, все Show*-флаги (ShowValue, ...) DefaultDataLabelFormat свойство ложно). Только чтениеBoolean. |
 | [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Получает метку данных для точки данных с указанным индексом. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Представляет формат ведущих линий меток данных. Только для чтения [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Получает родительскую серию. Только для чтения [`IChartSeries`](../ichartseries). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Получает родительский ряд. Только для чтения[`IChartSeries`](../ichartseries). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Скрывает метку данных по умолчанию, устанавливая все флаги Show*- (ShowValue, ...) свойства DefaultDataLabelFormat в состояние ложь. IsVisible станет ложным после этого. |
-| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Возвращает индекс указанной метки данных в коллекции. |
+| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Сделать метку данных скрытой по умолчанию, установив все флаги Show* (ShowValue, ...) свойства DefaultDataLabelFormat в состояние false. IsVisible после этого будет false. |
+| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Возвращает индекс указанной метки DataLabel в коллекции. |
 
-### См. также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* класс [ChartSeries](../chartseries)
-* интерфейс [IDataLabelCollection](../idatalabelcollection)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartSeries](../chartseries)
+* interface [IDataLabelCollection](../idatalabelcollection)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

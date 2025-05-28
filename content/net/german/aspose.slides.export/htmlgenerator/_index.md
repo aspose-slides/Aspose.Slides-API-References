@@ -1,13 +1,12 @@
 ---
 title: HtmlGenerator
-second_title: Aspose.Slides für .NET API Referenz
-description: HTML-Generator.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: HTMLGenerator.
 type: docs
-weight: 3710
+weight: 3580
 url: /de/aspose.slides.export/htmlgenerator/
 ---
-
-## HtmlGenerator-Klasse
+## HtmlGenerator class
 
 HTML-Generator.
 
@@ -19,12 +18,12 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | Name | Beschreibung |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Gibt den Index einer Folie zurück, die nach der aktuellen Folie gerendert wird, oder -1, wenn gerade die letzte Folie gerendert wird. Nur lesbares Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Gibt den Index der zuvor gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. Nur lesbares Int32. |
-| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Gibt die Bildgröße der Folie zurück. Nur lesbares SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Gibt eine Einheit zurück, in der die Bildgröße der Folie angegeben ist. Nur lesbares [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Gibt einen CSS-Code der Einheit zurück, in der die Bildgröße der Folie angegeben ist. Nur lesbare String. |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Gibt den Index der gerade gerenderten Folie zurück. Nur lesbares Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Gibt den Index einer Folie zurück, die nach der aktuellen Folie gerendert wird, oder -1, wenn gerade die letzte Folie gerendert wird. SchreibgeschütztInt32 . |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Gibt den Index der zuvor gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. SchreibgeschütztInt32 . |
+| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Gibt die Bildgröße der Folie zurück. SchreibgeschütztSizeF . |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Gibt eine Einheit zurück, in der die Folienbildgröße angegeben ist. Schreibgeschützt[`SvgCoordinateUnit`](../svgcoordinateunit) . |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Gibt einen CSS-Code der Einheit zurück, in der die Bildgröße der Folie angegeben ist. SchreibgeschütztString . |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Gibt den Index der aktuell wiedergegebenen Folie zurück. SchreibgeschütztInt32 . |
 
 ## Methoden
 
@@ -36,14 +35,14 @@ public sealed class HtmlGenerator : IHtmlGenerator
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Fügt formatierten HTML-Text hinzu. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Fügt formatierten HTML-Text hinzu. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Fügt formatierten HTML-Text hinzu. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Fügt den Klartext in die HTML-Dateien ein und ersetzt Sonderzeichen durch HTML-Entities. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Fügt den Klartext in die HTML-Dateien ein und ersetzt Sonderzeichen durch HTML-Entities. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Fügt den Klartext in die HTML-Dateien ein und ersetzt Sonderzeichen durch HTML-Entities. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Elemente. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Elemente. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Elemente. Zeilenumbrüche und Leerzeichen werden nicht ersetzt. |
 
 ### Siehe auch
 
-* Schnittstelle [IHtmlGenerator](../ihtmlgenerator)
-* Namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* Assembly [Aspose.Slides](../../)
+* interface [IHtmlGenerator](../ihtmlgenerator)
+* namensraum [Aspose.Slides.Export](../../aspose.slides.export)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

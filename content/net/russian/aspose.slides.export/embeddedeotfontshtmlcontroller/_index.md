@@ -1,15 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Slides для .NET API Справочник
-description: Контроллер форматирования для встраивания шрифтов в формате EOT
+second_title: Справочник по API Aspose.Slides для .NET
+description: Класс контроллера форматирования используемый для встраивания шрифтов в формат EOT
 type: docs
-weight: 3610
+weight: 3510
 url: /ru/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
+## EmbeddedEotFontsHtmlController class
 
-## Класс EmbeddedEotFontsHtmlController
-
-Контроллер форматирования для встраивания шрифтов в формате EOT
+Класс контроллера форматирования, используемый для встраивания шрифтов в формат EOT
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
@@ -22,9 +21,9 @@ public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
 | [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor)() | Создает новый экземпляр. |
 | [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor_1)(IHtmlFormattingController) | Создает новый экземпляр. |
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IEmbeddedEotFontsHtmlController](../iembeddedeotfontshtmlcontroller)
+* interface [IEmbeddedEotFontsHtmlController](../iembeddedeotfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

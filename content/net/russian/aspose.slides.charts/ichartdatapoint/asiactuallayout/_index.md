@@ -1,13 +1,12 @@
 ---
 title: AsIActualLayout
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает интерфейс IActualLayout.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ichartdatapoint/asiactuallayout/
 ---
-
-## Свойство IChartDataPoint.AsIActualLayout
+## IChartDataPoint.AsIActualLayout property
 
 Возвращает интерфейс IActualLayout.
 
@@ -15,14 +14,14 @@ url: /ru/aspose.slides.charts/ichartdatapoint/asiactuallayout/
 public IActualLayout AsIActualLayout { get; }
 ```
 
-### Замечания
+### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IActualLayout](../../iactuallayout)
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* interface [IActualLayout](../../iactuallayout)
+* interface [IChartDataPoint](../../ichartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

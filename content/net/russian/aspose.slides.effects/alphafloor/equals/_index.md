@@ -1,15 +1,14 @@
 ---
-title: Равно
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, равен ли указанный AlphaFlooraspose.slides.effects/alphafloor текущему AlphaFlooraspose.slides.effects/alphafloor.
+title: Equals
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет равен ли указанныйAlphaFlooraspose.slides.effects/alphafloorтекущемуAlphaFloor.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/alphafloor/equals/
 ---
+## AlphaFloor.Equals method
 
-## Метод AlphaFloor.Equals
-
-Определяет, равен ли указанный [`AlphaFloor`](../../alphafloor) текущему [`AlphaFloor`](../../alphafloor).
+Определяет, равен ли указанный[`AlphaFloor`](../../alphafloor)текущемуAlphaFloor.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,15 +16,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaFloor`](../../alphafloor) для сравнения. |
+| obj | Object | [`AlphaFloor`](../../alphafloor)для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае false.
+true, если объекты равны; в противном случае ложно.
 
-### См. также
+### Смотрите также
 
-* класс [AlphaFloor](../../alphafloor)
+* class [AlphaFloor](../../alphafloor)
 * пространство имен [Aspose.Slides.Effects](../../alphafloor)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,24 +1,23 @@
 ---
-title: Глобальный
+title: Global
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает глобальное хранилище основного документа. Только для чтения Storageaspose.slides.export.web/storage.
+description: Возвращает глобальное хранилище основного документа. Только для чтенияStorageaspose.slides.export.web/storage.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export.web/templatecontext-1/global/
 ---
+## TemplateContext&lt;TObject&gt;.Global property
 
-## TemplateContext&lt;TObject&gt;.Свойство Global
-
-Возвращает глобальное хранилище основного документа. Только для чтения [`Storage`](../../storage).
+Возвращает глобальное хранилище основного документа. Только для чтения[`Storage`](../../storage).
 
 ```csharp
 public Storage Global { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Storage](../../storage)
-* класс [TemplateContext&lt;TObject&gt;](../../templatecontext-1)
+* class [Storage](../../storage)
+* class [TemplateContext&lt;TObject&gt;](../../templatecontext-1)
 * пространство имен [Aspose.Slides.Export.Web](../../templatecontext-1)
 * сборка [Aspose.Slides](../../../)
 

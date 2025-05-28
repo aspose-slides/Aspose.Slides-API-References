@@ -1,23 +1,22 @@
 ---
 title: NumberFormat
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет строку формата для меток осей. Читаемая/записываемая строка.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет строку формата для меток оси. Чтение/записьString.
 type: docs
 weight: 440
 url: /ru/aspose.slides.charts/iaxis/numberformat/
 ---
+## IAxis.NumberFormat property
 
-## Свойство IAxis.NumberFormat
-
-Представляет строку формата для меток осей. Читаемая/записываемая строка.
+Представляет строку формата для меток оси. Чтение/записьString.
 
 ```csharp
 public string NumberFormat { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
+* interface [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

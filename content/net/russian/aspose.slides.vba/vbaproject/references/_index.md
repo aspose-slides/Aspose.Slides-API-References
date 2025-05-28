@@ -1,24 +1,23 @@
 ---
-title: Ссылки
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает список всех ссылок, которые содержатся в проекте VBA. Только для чтения IVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection.
+title: References
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает список всех ссылок содержащихся в проекте VBA. Только для чтенияIVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection.
 type: docs
-weight: 50
+weight: 40
 url: /ru/aspose.slides.vba/vbaproject/references/
 ---
+## VbaProject.References property
 
-## Свойство VbaProject.References
-
-Возвращает список всех ссылок, которые содержатся в проекте VBA. Только для чтения [`IVbaReferenceCollection`](../../ivbareferencecollection).
+Возвращает список всех ссылок, содержащихся в проекте VBA. Только для чтения[`IVbaReferenceCollection`](../../ivbareferencecollection).
 
 ```csharp
 public IVbaReferenceCollection References { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IVbaReferenceCollection](../../ivbareferencecollection)
-* класс [VbaProject](../../vbaproject)
+* interface [IVbaReferenceCollection](../../ivbareferencecollection)
+* class [VbaProject](../../vbaproject)
 * пространство имен [Aspose.Slides.Vba](../../vbaproject)
 * сборка [Aspose.Slides](../../../)
 

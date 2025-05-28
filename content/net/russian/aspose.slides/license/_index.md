@@ -1,13 +1,12 @@
 ---
-title: Лицензия
-second_title: Справочник по API Aspose.Sildes для .NET
+title: License
+second_title: Справочник по API Aspose.Slides для .NET
 description: Предоставляет методы для лицензирования компонента.
 type: docs
-weight: 7440
+weight: 6980
 url: /ru/aspose.slides/license/
 ---
-
-## Класс License
+## License class
 
 Предоставляет методы для лицензирования компонента.
 
@@ -25,14 +24,14 @@ public class License : ILicense
 
 | Имя | Описание |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/license/islicensed)() | Проверяет, применена ли лицензия к компоненту |
-| [ResetLicense](../../aspose.slides/license/resetlicense)() | Сбрасывает лицензию |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | Проверить, применяется ли лицензия к компоненту |
+| [ResetLicense](../../aspose.slides/license/resetlicense)() | Сбросить лицензию |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | Лицензирует компонент. |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | Лицензирует компонент. |
 
 ### Примеры
 
-В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, которая содержит компонент, в папке, которая содержит вызываемую сборку, в папке входной сборки, а затем в встроенных ресурсах вызываемой сборки.
+В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей компонент, в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
 
 ```csharp
 [C#]
@@ -47,9 +46,9 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILicense](../ilicense)
+* interface [ILicense](../ilicense)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

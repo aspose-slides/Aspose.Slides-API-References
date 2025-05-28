@@ -6,8 +6,7 @@ type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imatharray/asimathelement/
 ---
-
-## Свойство IMathArray.AsIMathElement
+## IMathArray.AsIMathElement property
 
 Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../../imathelement)
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides.mathtext/imatharray/asimathelement/
 public IMathElement AsIMathElement { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathArray](../../imatharray)
+* interface [IMathElement](../../imathelement)
+* interface [IMathArray](../../imatharray)
 * пространство имен [Aspose.Slides.MathText](../../imatharray)
 * сборка [Aspose.Slides](../../../)
 

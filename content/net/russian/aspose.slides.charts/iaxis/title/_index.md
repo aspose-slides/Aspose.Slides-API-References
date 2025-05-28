@@ -1,24 +1,23 @@
 ---
-title: Заголовок
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает заголовок оси. Только для чтения IChartTitle aspose.slides.charts/icharttitle.
+title: Title
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает заголовок оси. Только для чтенияIChartTitleaspose.slides.charts/icharttitle.
 type: docs
 weight: 540
 url: /ru/aspose.slides.charts/iaxis/title/
 ---
+## IAxis.Title property
 
-## Свойство IAxis.Title
-
-Получает заголовок оси. Только для чтения [`IChartTitle`](../../icharttitle).
+Получает заголовок оси. Только для чтения[`IChartTitle`](../../icharttitle).
 
 ```csharp
 public IChartTitle Title { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartTitle](../../icharttitle)
-* интерфейс [IAxis](../../iaxis)
+* interface [IChartTitle](../../icharttitle)
+* interface [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

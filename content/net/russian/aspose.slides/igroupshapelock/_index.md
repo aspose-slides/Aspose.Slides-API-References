@@ -1,36 +1,35 @@
 ---
 title: IGroupShapeLock
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, какие операции отключены для родительского объекта GroupShape.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет какие операции отключены в родительском GroupShape.
 type: docs
-weight: 5890
+weight: 5560
 url: /ru/aspose.slides/igroupshapelock/
 ---
+## IGroupShapeLock interface
 
-## Интерфейс IGroupShapeLock
-
-Определяет, какие операции отключены для родительского объекта GroupShape.
+Определяет, какие операции отключены в родительском GroupShape.
 
 ```csharp
 public interface IGroupShapeLock : IBaseShapeLock
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | Определяет, должен ли объект сохранять соотношение сторон при изменении размера. Запись/чтение Boolean. |
-| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этого объекта в группу. Запись/чтение Boolean. |
-| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этого объекта. Запись/чтение Boolean. |
-| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Определяет, запрещено ли изменять угол поворота этого объекта. Запись/чтение Boolean. |
-| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Определяет, запрещено ли выделение этого объекта. Запись/чтение Boolean. |
-| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Определяет, запрещено ли изменять размер этого объекта. Запись/чтение Boolean. |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Определяет, запрещено ли разделение этого объекта GroupShape. Запись/чтение Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения[`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean. |
+| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой формы в группу. Чтение/записьBoolean. |
+| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean. |
+| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой фигуры. Чтение/записьBoolean. |
+| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Определяет, запрещен ли выбор этой фигуры. Чтение/записьBoolean. |
+| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение/записьBoolean. |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Определяет, запрещено ли разделение этой формы группы. Чтение/записьBoolean. |
 
 ### Смотрите также
 
-* интерфейс [IBaseShapeLock](../ibaseshapelock)
+* interface [IBaseShapeLock](../ibaseshapelock)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

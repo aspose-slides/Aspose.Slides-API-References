@@ -1,24 +1,23 @@
 ---
 title: AsIBaseChartValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IBaseChartValue. Только для чтения IBaseChartValueaspose.slides.charts/ibasechartvalue.
+description: Позволяет получить базовый интерфейс IBaseChartValue. Только для чтенияIBaseChartValueaspose.slides.charts/ibasechartvalue.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue/
 ---
+## IMultipleCellChartValue.AsIBaseChartValue property
 
-## IMultipleCellChartValue.AsIBaseChartValue свойство
-
-Позволяет получить базовый интерфейс IBaseChartValue. Только для чтения [`IBaseChartValue`](../../ibasechartvalue).
+Позволяет получить базовый интерфейс IBaseChartValue. Только для чтения[`IBaseChartValue`](../../ibasechartvalue).
 
 ```csharp
 public IBaseChartValue AsIBaseChartValue { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IBaseChartValue](../../ibasechartvalue)
-* интерфейс [IMultipleCellChartValue](../../imultiplecellchartvalue)
+* interface [IBaseChartValue](../../ibasechartvalue)
+* interface [IMultipleCellChartValue](../../imultiplecellchartvalue)
 * пространство имен [Aspose.Slides.Charts](../../imultiplecellchartvalue)
 * сборка [Aspose.Slides](../../../)
 

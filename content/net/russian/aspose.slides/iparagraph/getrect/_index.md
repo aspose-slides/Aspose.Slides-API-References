@@ -1,15 +1,14 @@
 ---
 title: GetRect
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Получите координаты прямоугольника, ограничивающего абзац. Прямоугольник включает все строки текста в абзаце, включая пустые.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получить координаты прямоугольника ограничивающего абзац. Прямоугольник включает в себя все строки текста в абзаце включая пустые.
 type: docs
-weight: 70
+weight: 60
 url: /ru/aspose.slides/iparagraph/getrect/
 ---
+## IParagraph.GetRect method
 
-## Метод IParagraph.GetRect
-
-Получите координаты прямоугольника, ограничивающего абзац. Прямоугольник включает все строки текста в абзаце, включая пустые.
+Получить координаты прямоугольника, ограничивающего абзац. Прямоугольник включает в себя все строки текста в абзаце, включая пустые.
 
 ```csharp
 public RectangleF GetRect()
@@ -17,11 +16,11 @@ public RectangleF GetRect()
 
 ### Возвращаемое значение
 
-Прямоугольник, который ограничивает абзац RectangleF
+Прямоугольник, ограничивающий абзацRectangleF
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IParagraph](../../iparagraph)
+* interface [IParagraph](../../iparagraph)
 * пространство имен [Aspose.Slides](../../iparagraph)
 * сборка [Aspose.Slides](../../../)
 

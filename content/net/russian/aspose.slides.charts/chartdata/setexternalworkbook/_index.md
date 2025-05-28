@@ -1,15 +1,14 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Sildes для .NET API Reference
-description: Устанавливает внешнюю книгу в качестве источника данных для графика. Данные графика будут обновлены из целевой книги.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает внешнюю книгу в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевой книги.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
-
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Устанавливает внешнюю книгу в качестве источника данных для графика. Данные графика будут обновлены из целевой книги.
+Устанавливает внешнюю книгу в качестве источника данных для диаграммы. Данные диаграммы будут обновлены из целевой книги.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -23,7 +22,7 @@ public void SetExternalWorkbook(string workbookPath)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Внешняя книга недоступна или не может быть загружена. |
+| InvalidOperationException | Внешняя рабочая книга недоступна или не может быть загружена. |
 
 ### Примеры
 
@@ -37,9 +36,9 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [ChartData](../../chartdata)
+* class [ChartData](../../chartdata)
 * пространство имен [Aspose.Slides.Charts](../../chartdata)
 * сборка [Aspose.Slides](../../../)
 
@@ -47,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-Устанавливает внешнюю книгу в качестве источника данных для графика.
+Устанавливает внешнюю книгу в качестве источника данных для диаграммы.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -56,13 +55,13 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | workbookPath | String | Путь к целевой книге |
-| updateChartData | Boolean | Если значение равно false, будет обновлен только путь к книге. Данные графика не будут загружены и обновлены из целевой книги. Может использоваться, когда целевая книга не существует или недоступна. Если значение true, данные графика будут обновлены из целевой книги. |
+| updateChartData | Boolean | Если значение имеет значение false, будет обновлен только путь к книге. Данные диаграммы не будут загружаться и обновляться из целевой книги. Может использоваться, когда целевая книга не существует или недоступна. Если значение равно true, данные диаграммы будут обновлены из целевой книги. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Внешняя книга недоступна или не может быть загружена. |
+| InvalidOperationException | Внешняя рабочая книга недоступна или не может быть загружена. |
 
 ### Примеры
 
@@ -73,14 +72,14 @@ using (Presentation pres = new Presentation())
    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 50, 50, 400, 600, true);
    IChartData chartData = chart.ChartData;
 
-   (chartData as ChartData).SetExternalWorkbook("http://path/doesnt/exists", false);
+   (chartData as ChartData).SetExternalWorkbook("http: //путь/не существует/не существует", false);
 
 
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [ChartData](../../chartdata)
+* class [ChartData](../../chartdata)
 * пространство имен [Aspose.Slides.Charts](../../chartdata)
 * сборка [Aspose.Slides](../../../)
 

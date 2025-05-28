@@ -1,15 +1,14 @@
 ---
-title: Встраивание
+title: Embedded
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, встроен ли звук в презентацию. Свойство только для чтения типа Boolean.
+description: Определяет встроен ли звук в презентацию. Только чтениеBoolean.
 type: docs
 weight: 50
 url: /ru/aspose.slides/audioframe/embedded/
 ---
+## AudioFrame.Embedded property
 
-## Свойство AudioFrame.Embedded
-
-Определяет, встроен ли звук в презентацию. Свойство только для чтения типа Boolean.
+Определяет, встроен ли звук в презентацию. Только чтениеBoolean.
 
 ```csharp
 public bool Embedded { get; }
@@ -17,7 +16,7 @@ public bool Embedded { get; }
 
 ### Смотрите также
 
-* класс [AudioFrame](../../audioframe)
+* class [AudioFrame](../../audioframe)
 * пространство имен [Aspose.Slides](../../audioframe)
 * сборка [Aspose.Slides](../../../)
 

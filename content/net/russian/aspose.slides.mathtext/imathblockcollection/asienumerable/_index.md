@@ -1,23 +1,22 @@
 ---
 title: AsIEnumerable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IEnumerable
+description: Позволяет получить базовый интерфейс IEnumerable IEnumerable
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathblockcollection/asienumerable/
 ---
+## IMathBlockCollection.AsIEnumerable property
 
-## IMathBlockCollection.AsIEnumerable свойство
-
-Позволяет получить базовый интерфейс IEnumerable
+Позволяет получить базовый интерфейс IEnumerable IEnumerable
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathBlockCollection](../../imathblockcollection)
+* interface [IMathBlockCollection](../../imathblockcollection)
 * пространство имен [Aspose.Slides.MathText](../../imathblockcollection)
 * сборка [Aspose.Slides](../../../)
 

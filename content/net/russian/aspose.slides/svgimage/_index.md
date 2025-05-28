@@ -1,15 +1,14 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes для справки по API .NET
-description: Представляет SVG изображение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет изображение SVG.
 type: docs
-weight: 10490
+weight: 9990
 url: /ru/aspose.slides/svgimage/
 ---
+## SvgImage class
 
-## Класс SvgImage
-
-Представляет SVG изображение.
+Представляет изображение SVG.
 
 ```csharp
 public class SvgImage : ISvgImage
@@ -17,7 +16,7 @@ public class SvgImage : ISvgImage
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [SvgImage](svgimage#constructor)(byte[]) | Создает новый объект SvgImage. |
 | [SvgImage](svgimage#constructor_2)(Stream) | Создает новый объект SvgImage. |
@@ -26,24 +25,18 @@ public class SvgImage : ISvgImage
 | [SvgImage](svgimage#constructor_3)(Stream, IExternalResourceResolver, string) | Создает новый объект SvgImage. |
 | [SvgImage](svgimage#constructor_5)(string, IExternalResourceResolver, string) | Создает новый объект SvgImage. |
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Возвращает базовый URI указанного Svg. Используется для разрешения относительных ссылок. Только для чтения String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов при импорте документов Svg. Только для чтения [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Возвращает содержимое SVG. Только для чтения String. |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Возвращает данные SVG. Только для чтения Byte[]. |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Возвращает базовый URI указанного Svg. Используется для разрешения относительных ссылок. Только чтениеString. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов Svg. Только для чтения[`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Возвращает содержимое SVG. Только чтениеString. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Возвращает данные SVG. Только для чтенияByte[]. |
 
-## Методы
+### Смотрите также
 
-| Название | Описание |
-| --- | --- |
-| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Сохраняет изображение SVG как файл EMF. |
-
-### Также см. 
-
-* интерфейс [ISvgImage](../isvgimage)
+* interface [ISvgImage](../isvgimage)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

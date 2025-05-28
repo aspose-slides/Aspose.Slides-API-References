@@ -1,13 +1,12 @@
 ---
 title: CreateMathSuperscriptElement
-second_title: Aspose.Slides для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает IMathSuperscriptElement
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
-
-## MathSuperscriptElementFactory.CreateMathSuperscriptElement метод
+## MathSuperscriptElementFactory.CreateMathSuperscriptElement method
 
 Создает IMathSuperscriptElement
 
@@ -18,18 +17,18 @@ public IMathSuperscriptElement CreateMathSuperscriptElement(IMathElement baseArg
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArg | IMathElement | Базовый аргумент для применения верхнего индекса |
+| baseArg | IMathElement | Базовый аргумент для применения надстрочного индекса |
 | superScript | IMathElement | верхний правый индекс |
 
 ### Возвращаемое значение
 
 новый IMathSuperscriptElement
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathSuperscriptElement](../../imathsuperscriptelement)
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathSuperscriptElementFactory](../../mathsuperscriptelementfactory)
+* interface [IMathSuperscriptElement](../../imathsuperscriptelement)
+* interface [IMathElement](../../imathelement)
+* class [MathSuperscriptElementFactory](../../mathsuperscriptelementfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathsuperscriptelementfactory)
 * сборка [Aspose.Slides](../../../)
 

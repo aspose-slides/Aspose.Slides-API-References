@@ -1,15 +1,14 @@
 ---
 title: GetEntity
 second_title: Справочник по API Aspose.Slides для .NET
-description: Соответствует URI объекту, содержащему фактический ресурс.
+description: Сопоставляет URI с объектом содержащим фактический ресурс.
 type: docs
 weight: 10
 url: /ru/aspose.slides.import/iexternalresourceresolver/getentity/
 ---
+## IExternalResourceResolver.GetEntity method
 
-## Метод IExternalResourceResolver.GetEntity
-
-Соответствует URI объекту, содержащему фактический ресурс.
+Сопоставляет URI с объектом, содержащим фактический ресурс.
 
 ```csharp
 public Stream GetEntity(string absoluteUri)
@@ -17,15 +16,15 @@ public Stream GetEntity(string absoluteUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| absoluteUri | String | Абсолютный URI к объекту. |
+| absoluteUri | String | Абсолютный URI объекта. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-Объект Stream или null, если ресурс не может быть передан.
+AStreamобъект или нуль, если ресурс не может передаваться в потоковом режиме.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IExternalResourceResolver](../../iexternalresourceresolver)
+* interface [IExternalResourceResolver](../../iexternalresourceresolver)
 * пространство имен [Aspose.Slides.Import](../../iexternalresourceresolver)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: FirstCol
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Определяет, необходимо ли рисовать первый столбец таблицы с особым форматированием. Boolean для чтения/записи.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет должен ли первый столбец таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
 type: docs
-weight: 30
+weight: 20
 url: /ru/aspose.slides/table/firstcol/
 ---
+## Table.FirstCol property
 
-## Свойство Table.FirstCol
-
-Определяет, необходимо ли рисовать первый столбец таблицы с особым форматированием. Boolean для чтения/записи.
+Определяет, должен ли первый столбец таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
 
 ```csharp
 public bool FirstCol { get; set; }
@@ -17,7 +16,7 @@ public bool FirstCol { get; set; }
 
 ### Смотрите также
 
-* класс [Table](../../table)
+* class [Table](../../table)
 * пространство имен [Aspose.Slides](../../table)
 * сборка [Aspose.Slides](../../../)
 

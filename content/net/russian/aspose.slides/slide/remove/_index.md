@@ -1,13 +1,12 @@
 ---
-title: Удалить
+title: Remove
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет слайд из презентации.
 type: docs
 weight: 110
 url: /ru/aspose.slides/slide/remove/
 ---
-
-## Метод Slide.Remove
+## Slide.Remove method
 
 Удаляет слайд из презентации.
 
@@ -21,9 +20,9 @@ public void Remove()
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | Генерируется, если слайд уже удален из презентации. |
 
-### Также смотри
+### Смотрите также
 
-* класс [Slide](../../slide)
+* class [Slide](../../slide)
 * пространство имен [Aspose.Slides](../../slide)
 * сборка [Aspose.Slides](../../../)
 

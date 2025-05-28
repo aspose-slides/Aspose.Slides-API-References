@@ -1,15 +1,14 @@
 ---
 title: ColorEffect
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Представляет цветовой эффект для анимационного поведения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет цветовой эффект для поведения анимации.
 type: docs
-weight: 150
+weight: 130
 url: /ru/aspose.slides.animation/coloreffect/
 ---
+## ColorEffect class
 
-## Класс ColorEffect
-
-Представляет цветовой эффект для анимационного поведения.
+Представляет цветовой эффект для поведения анимации.
 
 ```csharp
 public class ColorEffect : Behavior, IColorEffect
@@ -21,24 +20,24 @@ public class ColorEffect : Behavior, IColorEffect
 | --- | --- |
 | [ColorEffect](coloreffect)() | Создает новый экземпляр. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Представляет, следует ли накапливать анимационные поведения. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Представляет, объединено ли текущее анимационное поведение с другими запущенными анимациями. Чтение/запись [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Описывает относительное значение смещения для цветной анимации. Чтение/запись [`IColorOffset`](../icoloroffset). |
-| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Представляет цветовое пространство поведения. Чтение/запись [`ColorSpace`](../colorspace). |
-| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Указывает, в каком направлении следует цикл цветового оттенка вокруг цветового круга. Чтение/запись [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Значение используется для указания стартового цвета поведения. Чтение/запись [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет временные свойства для анимационного поведения. Чтение/запись [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Описывает результирующий цвет для изменения цвета анимации. Чтение/запись [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Указывает, сочетается ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Описывает значение относительного смещения для цветовой анимации. Чтение/запись[`IColorOffset`](../icoloroffset). |
+| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Представляют цветовое пространство поведения. Чтение/запись[`ColorSpace`](../colorspace). |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Указывает, в каком направлении циклически перемещать оттенок по цветовому кругу. Чтение/запись[`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Это значение используется для указания начального цвета поведения. Чтение/запись[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет свойства синхронизации для поведения эффекта. Чтение/запись[`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Описывает результирующий цвет для изменения цвета анимации. Чтение/запись[`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### См. также
+### Смотрите также
 
-* класс [Behavior](../behavior)
-* интерфейс [IColorEffect](../icoloreffect)
+* class [Behavior](../behavior)
+* interface [IColorEffect](../icoloreffect)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

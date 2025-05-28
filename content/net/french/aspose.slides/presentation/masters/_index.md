@@ -1,111 +1,24 @@
 ---
-title: Maîtres
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie une liste de toutes les diapositives maîtres définies dans la présentation. Collection IMasterSlideCollection en lecture seule aspose.slides/imasterslidecollection.
+title: Masters
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie une liste de toutes les diapositives principales définies dans la présentation. Lecture seuleIMasterSlideCollectionaspose.slides/imasterslidecollection .
 type: docs
 weight: 180
 url: /fr/aspose.slides/presentation/masters/
 ---
+## Presentation.Masters property
 
-## Propriété Presentation.Masters
-
-Renvoie une liste de toutes les diapositives maîtres définies dans la présentation. Collection [`IMasterSlideCollection`](../../imasterslidecollection) en lecture seule.
+Renvoie une liste de toutes les diapositives principales définies dans la présentation. Lecture seule[`IMasterSlideCollection`](../../imasterslidecollection) .
 
 ```csharp
 public IMasterSlideCollection Masters { get; }
 ```
 
-### Exemples
-
-Les exemples suivants montrent comment ajouter des images aux diapositives maîtres de la présentation PowerPoint.
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation())
-{
-    ISlide slide = pres.Slides[0];
-    IMasterSlide masterSlide = slide.LayoutSlide.MasterSlide;
-    IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image.png"));
-    masterSlide.Shapes.AddPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
-    pres.Save("pres.pptx", SaveFormat.Pptx);
-}
-```
-
-Les exemples suivants montrent comment changer la couleur de fond de la diapositive maître de la présentation PowerPoint.
-
-```csharp
-[C#]
-// Instancier la classe Presentation qui représente le fichier de présentation
-using (Presentation pres = new Presentation())
-{
-    // Définir la couleur de fond de la diapositive maître ISlide sur Vert Forêt
-    pres.Masters[0].Background.Type = BackgroundType.OwnBackground;
-    pres.Masters[0].Background.FillFormat.FillType = FillType.Solid;
-    pres.Masters[0].Background.FillFormat.SolidFillColor.Color = Color.ForestGreen;
-    // Écrire la présentation sur le disque
-    pres.Save("SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
-}
-```
-
-Les exemples suivants montrent comment ajouter une disposition de diapositive à la présentation PowerPoint.
-
-```csharp
-[C#]
-// Instancier la classe Presentation qui représente le fichier de présentation
-using (Presentation presentation = new Presentation("AccessSlides.pptx"))
-{
-    // Essayer de rechercher par type de diapositive de mise en page
-    IMasterLayoutSlideCollection layoutSlides = presentation.Masters[0].LayoutSlides;
-    ILayoutSlide layoutSlide = layoutSlides.GetByType(SlideLayoutType.TitleAndObject) ?? layoutSlides.GetByType(SlideLayoutType.Title);
-    if (layoutSlide == null)
-    {
-        // La situation lorsque la présentation ne contient pas certains types de mises en page.
-        // Le fichier de présentation ne contient que des types de mises en page Vides et Personnalisés.
-        // Mais les diapositives de mise en page avec des types Personnalisés ont des noms de diapositives différents,
-        // comme "Titre", "Titre et Contenu", etc. Et il est possible d'utiliser ces
-        // noms pour la sélection de la diapositive de mise en page.
-        // Il est également possible d'utiliser l'ensemble des types de formes de texte de remplacement. Par exemple,
-        // la diapositive de titre ne devrait avoir que le type de texte de remplacement Titre, etc.
-        foreach (ILayoutSlide titleAndObjectLayoutSlide in layoutSlides)
-        {
-            if (titleAndObjectLayoutSlide.Name == "Titre et Objet")
-            {
-                layoutSlide = titleAndObjectLayoutSlide;
-                break;
-            }
-        }
-        if (layoutSlide == null)
-        {
-            foreach (ILayoutSlide titleLayoutSlide in layoutSlides)
-            {
-                if (titleLayoutSlide.Name == "Titre")
-                {
-                    layoutSlide = titleLayoutSlide;
-                    break;
-                }
-            }
-            if (layoutSlide == null)
-            {
-                layoutSlide = layoutSlides.GetByType(SlideLayoutType.Blank);
-                if (layoutSlide == null)
-                {
-                    layoutSlide = layoutSlides.Add(SlideLayoutType.TitleAndObject, "Titre et Objet");
-                }
-            }
-        }
-    }
-    // Ajouter une diapositive vide avec la diapositive de mise en page ajoutée
-    presentation.Slides.InsertEmptySlide(0, layoutSlide);
-    // Sauvegarder la présentation
-    presentation.Save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
-}
-```
-
-### Voir aussi
+### Voir également
 
 * interface [IMasterSlideCollection](../../imasterslidecollection)
-* classe [Presentation](../../presentation)
+* class [Presentation](../../presentation)
 * espace de noms [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

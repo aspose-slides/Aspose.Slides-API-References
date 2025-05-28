@@ -1,27 +1,26 @@
 ---
-title: Текст
-second_title: Справка по API Aspose.Sildes для .NET
-description: Получает или устанавливает простой текст части. Читаемый/записываемый String.
+title: Text
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает или задает обычный текст части. Чтение/записьString.
 type: docs
 weight: 40
 url: /ru/aspose.slides/portion/text/
 ---
+## Portion.Text property
 
-## Свойство Portion.Text
-
-Получает или устанавливает простой текст части. Читаемый/записываемый String.
+Получает или задает обычный текст части. Чтение/записьString.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### Значение свойства
+### Стоимость имущества
 
 Текст.
 
-### См. также
+### Смотрите также
 
-* класс [Portion](../../portion)
+* class [Portion](../../portion)
 * пространство имен [Aspose.Slides](../../portion)
 * сборка [Aspose.Slides](../../../)
 

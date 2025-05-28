@@ -1,23 +1,22 @@
 ---
 title: OverflowBin
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает на пользовательское значение переполненного резервуара. Применяется, когда свойство IsAutomaticOverflowBin установлено в false и свойство IsOverflowBin равно true.
+description: Определяет пользовательское значение корзины переполнения. Применяется когда свойство IsAutomaticOverflowBin имеет значение false а свойство IsOverflowBin равно true.
 type: docs
 weight: 460
 url: /ru/aspose.slides.charts/iaxis/overflowbin/
 ---
+## IAxis.OverflowBin property
 
-## IAxis.OverflowBin свойство
-
-Указывает на пользовательское значение переполненного резервуара. Применяется, когда свойство IsAutomaticOverflowBin установлено в false и свойство IsOverflowBin равно true.
+Определяет пользовательское значение корзины переполнения. Применяется, когда свойство IsAutomaticOverflowBin имеет значение false, а свойство IsOverflowBin равно true.
 
 ```csharp
 public double OverflowBin { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
+* interface [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

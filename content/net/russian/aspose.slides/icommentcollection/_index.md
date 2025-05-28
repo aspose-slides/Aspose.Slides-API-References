@@ -1,13 +1,12 @@
 ---
 title: ICommentCollection
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет собой коллекцию комментариев одного автора.
 type: docs
-weight: 5390
+weight: 5090
 url: /ru/aspose.slides/icommentcollection/
 ---
-
-## Интерфейс ICommentCollection
+## ICommentCollection interface
 
 Представляет собой коллекцию комментариев одного автора.
 
@@ -15,30 +14,30 @@ url: /ru/aspose.slides/icommentcollection/
 public interface ICommentCollection : IGenericCollection<IComment>
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IComment`](../icomment). |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IComment`](../icomment). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Добавляет новый комментарий в конец коллекции. |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Добавляет новый современный комментарий в конец коллекции. |
+| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Добавить новый комментарий в конец коллекции. |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Добавить новый современный комментарий в конец коллекции. |
 | [Clear](../../aspose.slides/icommentcollection/clear)() | Удаляет все комментарии из коллекции. |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Вставляет новый комментарий в коллекцию по указанному индексу. |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Вставляет новый современный комментарий в коллекцию по указанному индексу. |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Вставить новый комментарий в коллекцию по указанному индексу. |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Вставить новый современный комментарий в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Удаляет первое вхождение указанного комментария в коллекции. |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Создает и возвращает массив со всеми комментариями. |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Создает и возвращает массив со всеми комментариями из указанного диапазона. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* интерфейс [IComment](../icomment)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [IComment](../icomment)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

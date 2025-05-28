@@ -1,15 +1,14 @@
 ---
 title: AddAudioFrameLinked
-second_title: Aspose.Sildes для .NET API Справочник
-description: Добавляет новый аудиофрейм с связанным аудиофайлом в конец коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет новый аудиокадр со связанным аудиофайлом в конец коллекции.
 type: docs
 weight: 80
 url: /ru/aspose.slides/shapecollection/addaudioframelinked/
 ---
+## ShapeCollection.AddAudioFrameLinked method
 
-## ShapeCollection.AddAudioFrameLinked метод
-
-Добавляет новый аудиофрейм с связанным аудиофайлом в конец коллекции.
+Добавляет новый аудиокадр со связанным аудиофайлом в конец коллекции.
 
 ```csharp
 public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float height, string fname)
@@ -17,20 +16,20 @@ public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float heig
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового аудиофрейма. |
-| y | Single | Y координата нового аудиофрейма. |
-| width | Single | Ширина нового аудиофрейма. |
-| height | Single | Высота нового аудиофрейма. |
+| x | Single | X координата нового звукового кадра. |
+| y | Single | Координата Y нового звукового кадра. |
+| width | Single | Ширина нового звукового кадра. |
+| height | Single | Высота нового звукового кадра. |
 | fname | String | Имя аудиофайла. |
 
 ### Возвращаемое значение
 
-Созданный объект AudioFrame.
+Создан объект AudioFrame.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAudioFrame](../../iaudioframe)
-* класс [ShapeCollection](../../shapecollection)
+* interface [IAudioFrame](../../iaudioframe)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

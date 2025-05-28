@@ -1,24 +1,23 @@
 ---
 title: PictureFillFormat
-second_title: Aspose.Slides для справки по API .NET
-description: Возвращает формат заливки изображения. Только для чтения IPictureFillFormataspose.slides/ipicturefillformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает формат заливки изображения. Только для чтенияIPictureFillFormataspose.slides/ipicturefillformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides/fillformat/picturefillformat/
 ---
+## FillFormat.PictureFillFormat property
 
-## Свойство FillFormat.PictureFillFormat
-
-Возвращает формат заливки изображения. Только для чтения [`IPictureFillFormat`](../../ipicturefillformat).
+Возвращает формат заливки изображения. Только для чтения[`IPictureFillFormat`](../../ipicturefillformat).
 
 ```csharp
 public IPictureFillFormat PictureFillFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPictureFillFormat](../../ipicturefillformat)
-* класс [FillFormat](../../fillformat)
+* interface [IPictureFillFormat](../../ipicturefillformat)
+* class [FillFormat](../../fillformat)
 * пространство имен [Aspose.Slides](../../fillformat)
 * сборка [Aspose.Slides](../../../)
 

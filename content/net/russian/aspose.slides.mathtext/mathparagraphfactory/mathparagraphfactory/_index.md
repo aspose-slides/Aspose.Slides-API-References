@@ -1,13 +1,12 @@
 ---
 title: MathParagraphFactory
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathparagraphfactory/mathparagraphfactory/
 ---
-
-## Конструктор MathParagraphFactory
+## MathParagraphFactory constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.mathtext/mathparagraphfactory/mathparagraphfactory/
 public MathParagraphFactory()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathParagraphFactory](../../mathparagraphfactory)
+* class [MathParagraphFactory](../../mathparagraphfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraphfactory)
 * сборка [Aspose.Slides](../../../)
 

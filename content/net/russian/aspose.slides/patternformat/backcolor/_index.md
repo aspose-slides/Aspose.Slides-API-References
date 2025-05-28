@@ -1,24 +1,23 @@
 ---
 title: BackColor
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает цвет фона шаблона. Только для чтения IColorFormataspose.slides/icolorformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает цвет фонового узора. Только для чтенияIColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/patternformat/backcolor/
 ---
+## PatternFormat.BackColor property
 
-## Свойство PatternFormat.BackColor
-
-Возвращает цвет фона шаблона. Только для чтения [`IColorFormat`](../../icolorformat).
+Возвращает цвет фонового узора. Только для чтения[`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat BackColor { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColorFormat](../../icolorformat)
-* класс [PatternFormat](../../patternformat)
+* interface [IColorFormat](../../icolorformat)
+* class [PatternFormat](../../patternformat)
 * пространство имен [Aspose.Slides](../../patternformat)
 * сборка [Aspose.Slides](../../../)
 

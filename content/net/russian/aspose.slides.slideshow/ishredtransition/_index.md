@@ -1,31 +1,30 @@
 ---
 title: IShredTransition
-second_title: Aspose.Slides для .NET API Справочник
-description: Эффект перехода с настройкой Shred.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода между слайдами.
 type: docs
-weight: 9870
+weight: 9400
 url: /ru/aspose.slides.slideshow/ishredtransition/
 ---
+## IShredTransition interface
 
-## Интерфейс IShredTransition
-
-Эффект перехода с настройкой Shred.
+Эффект перехода между слайдами.
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Указывает форму визуальных эффектов, используемых во время перехода. Чтение/запись [`TransitionShredPattern`](../transitionshredpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Задает форму визуальных элементов, используемых во время перехода. Чтение/запись[`TransitionShredPattern`](../transitionshredpattern). |
 
 ### Смотрите также
 
-* интерфейс [ITransitionValueBase](../itransitionvaluebase)
+* interface [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

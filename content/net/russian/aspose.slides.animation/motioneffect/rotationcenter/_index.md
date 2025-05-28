@@ -1,15 +1,14 @@
 ---
 title: RotationCenter
 second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает центр вращения, используемый для вращения пути движения на угол X. Чтение/запись PointF.
+description: Описывает центр вращения используемый для поворота траектории движения на угол X. Чтение/записьPointF.
 type: docs
 weight: 80
 url: /ru/aspose.slides.animation/motioneffect/rotationcenter/
 ---
+## MotionEffect.RotationCenter property
 
-## MotionEffect.RotationCenter свойство
-
-Описывает центр вращения, используемый для вращения пути движения на угол X. Чтение/запись PointF.
+Описывает центр вращения, используемый для поворота траектории движения на угол X. Чтение/записьPointF.
 
 ```csharp
 public PointF RotationCenter { get; set; }
@@ -17,7 +16,7 @@ public PointF RotationCenter { get; set; }
 
 ### Смотрите также
 
-* класс [MotionEffect](../../motioneffect)
+* class [MotionEffect](../../motioneffect)
 * пространство имен [Aspose.Slides.Animation](../../motioneffect)
 * сборка [Aspose.Slides](../../../)
 

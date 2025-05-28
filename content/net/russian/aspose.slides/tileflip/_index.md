@@ -1,23 +1,22 @@
 ---
 title: TileFlip
-second_title: Aspose.Slides для .NET API Reference
-description: Определяет режим переворота плитки.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет режим переворачивания плитки.
 type: docs
-weight: 11190
+weight: 10690
 url: /ru/aspose.slides/tileflip/
 ---
+## TileFlip enumeration
 
-## Перечисление TileFlip
-
-Определяет режим переворота плитки.
+Определяет режим переворачивания плитки.
 
 ```csharp
 public enum TileFlip
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | NoFlip | `0` |  |

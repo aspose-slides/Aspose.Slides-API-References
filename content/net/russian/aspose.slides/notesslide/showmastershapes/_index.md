@@ -1,23 +1,22 @@
 ---
 title: ShowMasterShapes
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, должны ли формы на главном слайде отображаться на слайдах или нет. Читаемый/записываемый булев тип.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Чтение/записьBoolean.
 type: docs
 weight: 40
 url: /ru/aspose.slides/notesslide/showmastershapes/
 ---
+## NotesSlide.ShowMasterShapes property
 
-## NotesSlide.ShowMasterShapes свойство
-
-Указывает, должны ли формы на главном слайде отображаться на слайдах или нет. Читаемый/записываемый булев тип.
+Указывает, должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Чтение/записьBoolean.
 
 ```csharp
 public override bool ShowMasterShapes { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [NotesSlide](../../notesslide)
+* class [NotesSlide](../../notesslide)
 * пространство имен [Aspose.Slides](../../notesslide)
 * сборка [Aspose.Slides](../../../)
 

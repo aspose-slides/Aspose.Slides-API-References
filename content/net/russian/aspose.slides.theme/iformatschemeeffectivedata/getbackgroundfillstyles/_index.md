@@ -1,15 +1,14 @@
 ---
 title: GetBackgroundFillStyles
-second_title: Aspose.Slides для .NET API Справка
-description: Возвращает коллекцию стилей заливки фона, определенных темой.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает набор стилей заливки фона определенных темой.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles/
 ---
+## IFormatSchemeEffectiveData.GetBackgroundFillStyles method
 
-## Метод IFormatSchemeEffectiveData.GetBackgroundFillStyles
-
-Возвращает коллекцию стилей заливки фона, определенных темой.
+Возвращает набор стилей заливки фона, определенных темой.
 
 ```csharp
 public IFillFormatCollectionEffectiveData GetBackgroundFillStyles(Color styleColor)
@@ -17,16 +16,16 @@ public IFillFormatCollectionEffectiveData GetBackgroundFillStyles(Color styleCol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| styleColor | Color | Цвет Color |
+| styleColor | Color | ColorColor |
 
 ### Возвращаемое значение
 
-Коллекция эффективных форматов заливки фона [`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
+Коллекция эффективных форматов заливки фона[`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFillFormatCollectionEffectiveData](../../ifillformatcollectioneffectivedata)
-* интерфейс [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)
+* interface [IFillFormatCollectionEffectiveData](../../ifillformatcollectioneffectivedata)
+* interface [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../iformatschemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

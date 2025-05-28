@@ -1,13 +1,12 @@
 ---
-title: Элемент
-second_title: Справочная документация Aspose.Slides для .NET
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает точку данных диаграммы для указанного индекса.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/piesplitcustompointcollection/item/
 ---
-
-## Индексатор PieSplitCustomPointCollection
+## PieSplitCustomPointCollection indexer
 
 Возвращает точку данных диаграммы для указанного индекса.
 
@@ -23,10 +22,10 @@ public IChartDataPoint this[int index] { get; }
 
 Точка данных диаграммы.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* класс [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * пространство имен [Aspose.Slides.Charts](../../piesplitcustompointcollection)
 * сборка [Aspose.Slides](../../../)
 

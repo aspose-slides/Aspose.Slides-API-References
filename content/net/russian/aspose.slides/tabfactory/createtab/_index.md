@@ -1,13 +1,12 @@
 ---
 title: CreateTab
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новый экземпляр ITab.
 type: docs
 weight: 20
 url: /ru/aspose.slides/tabfactory/createtab/
 ---
-
-## Метод TabFactory.CreateTab
+## TabFactory.CreateTab method
 
 Создает новый экземпляр ITab.
 
@@ -18,17 +17,17 @@ public ITab CreateTab(double position, TabAlignment align)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Double | Позиция табуляции. |
-| align | TabAlignment | Выравнивание. |
+| align | TabAlignment | Выровнять. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-Созданная табуляция.
+Созданная вкладка.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ITab](../../itab)
-* перечисление [TabAlignment](../../tabalignment)
-* класс [TabFactory](../../tabfactory)
+* interface [ITab](../../itab)
+* enum [TabAlignment](../../tabalignment)
+* class [TabFactory](../../tabfactory)
 * пространство имен [Aspose.Slides](../../tabfactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes для справки по .NET API
-description: Возвращает перечислитель, который перебирает коллекцию.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает перечислитель который перебирает коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides/summaryzoomsectioncollection/getenumerator/
 ---
-
-## Метод SummaryZoomSectionCollection.GetEnumerator
+## SummaryZoomSectionCollection.GetEnumerator method
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -17,12 +16,12 @@ public IEnumerator<ISummaryZoomSection> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для перебора коллекции.
+AIEnumeratorкоторые можно использовать для перебора коллекции.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISummaryZoomSection](../../isummaryzoomsection)
-* класс [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
+* interface [ISummaryZoomSection](../../isummaryzoomsection)
+* class [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * пространство имен [Aspose.Slides](../../summaryzoomsectioncollection)
 * сборка [Aspose.Slides](../../../)
 

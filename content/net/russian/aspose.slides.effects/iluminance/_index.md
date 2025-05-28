@@ -1,33 +1,32 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет эффект Люминанса. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так, чтобы они были либо ближе, либо дальше друг от друга.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так чтобы они были либо ближе либо дальше друг от друга.
 type: docs
-weight: 3320
+weight: 3240
 url: /ru/aspose.slides.effects/iluminance/
 ---
+## ILuminance interface
 
-## Интерфейс ILuminance
-
-Представляет эффект Люминанса. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так, чтобы они были либо ближе, либо дальше друг от друга.
+Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так, чтобы они были либо ближе, либо дальше друг от друга.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
     IImageTransformOperation
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* интерфейс [ILuminanceEffectiveData](../iluminanceeffectivedata)
-* интерфейс [IImageTransformOperation](../iimagetransformoperation)
+* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* interface [ILuminanceEffectiveData](../iluminanceeffectivedata)
+* interface [IImageTransformOperation](../iimagetransformoperation)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

@@ -1,13 +1,12 @@
 ---
 title: GetConsumptionCredit
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получает кредит потребления
 type: docs
 weight: 30
 url: /ru/aspose.slides/metered/getconsumptioncredit/
 ---
-
-## Метод Metered.GetConsumptionCredit
+## Metered.GetConsumptionCredit method
 
 Получает кредит потребления
 
@@ -19,9 +18,9 @@ public static decimal GetConsumptionCredit()
 
 количество потребления
 
-### См. также
+### Смотрите также
 
-* класс [Metered](../../metered)
+* class [Metered](../../metered)
 * пространство имен [Aspose.Slides](../../metered)
 * сборка [Aspose.Slides](../../../)
 

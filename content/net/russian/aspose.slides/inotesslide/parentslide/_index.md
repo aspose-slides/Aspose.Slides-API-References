@@ -1,24 +1,23 @@
 ---
 title: ParentSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ParentSlide только для чтения ISlideaspose.slides/islide.
+description: Возвращает ParentSlide Только для чтенияISlideaspose.slides/islide.
 type: docs
 weight: 50
 url: /ru/aspose.slides/inotesslide/parentslide/
 ---
+## INotesSlide.ParentSlide property
 
-## Свойство INotesSlide.ParentSlide
-
-Возвращает ParentSlide только для чтения [`ISlide`](../../islide).
+Возвращает ParentSlide Только для чтения[`ISlide`](../../islide).
 
 ```csharp
 public ISlide ParentSlide { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* интерфейс [INotesSlide](../../inotesslide)
+* interface [ISlide](../../islide)
+* interface [INotesSlide](../../inotesslide)
 * пространство имен [Aspose.Slides](../../inotesslide)
 * сборка [Aspose.Slides](../../../)
 

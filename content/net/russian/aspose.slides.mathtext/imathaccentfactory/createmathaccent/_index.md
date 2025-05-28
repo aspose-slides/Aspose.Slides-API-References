@@ -1,15 +1,14 @@
 ---
 title: CreateMathAccent
-second_title: Aspose.Sildes для .NET API Справочник
-description: Создает математический акцент, применяемый к заданному математическому элементу с значением символа акцента по умолчанию
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает математический акцент применяемый к указанному математическому элементу со значением символа акцента по умолчанию
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathaccentfactory/createmathaccent/
 ---
-
 ## CreateMathAccent(IMathElement) {#createmathaccent}
 
-Создает математический акцент, применяемый к заданному математическому элементу с значением символа акцента по умолчанию
+Создает математический акцент, применяемый к указанному математическому элементу со значением символа акцента по умолчанию
 
 ```csharp
 public IMathAccent CreateMathAccent(IMathElement element)
@@ -17,17 +16,17 @@ public IMathAccent CreateMathAccent(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент, к которому применяется акцент |
+| element | IMathElement | математический элемент для применения акцента |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
 новый математический акцент
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathAccent](../../imathaccent)
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathAccentFactory](../../imathaccentfactory)
+* interface [IMathAccent](../../imathaccent)
+* interface [IMathElement](../../imathelement)
+* interface [IMathAccentFactory](../../imathaccentfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathaccentfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -35,7 +34,7 @@ public IMathAccent CreateMathAccent(IMathElement element)
 
 ## CreateMathAccent(IMathElement, char) {#createmathaccent_1}
 
-Создает математический акцент, применяемый к заданному математическому элементу
+Создает математический акцент, применяемый к указанному математическому элементу
 
 ```csharp
 public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
@@ -43,18 +42,18 @@ public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент, к которому применяется акцент |
+| element | IMathElement | математический элемент для применения акцента |
 | accentCharacter | Char | символ акцента |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
 новый математический акцент
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathAccent](../../imathaccent)
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathAccentFactory](../../imathaccentfactory)
+* interface [IMathAccent](../../imathaccent)
+* interface [IMathElement](../../imathelement)
+* interface [IMathAccentFactory](../../imathaccentfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathaccentfactory)
 * сборка [Aspose.Slides](../../../)
 

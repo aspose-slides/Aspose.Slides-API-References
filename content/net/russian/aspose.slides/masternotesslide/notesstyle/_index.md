@@ -1,15 +1,14 @@
 ---
 title: NotesStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стиль текста заметок. Только для чтения ITextStyleaspose.slides/itextstyle.
+description: Возвращает стиль текста заметки. Только для чтенияITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 20
 url: /ru/aspose.slides/masternotesslide/notesstyle/
 ---
+## MasterNotesSlide.NotesStyle property
 
-## Свойство MasterNotesSlide.NotesStyle
-
-Возвращает стиль текста заметок. Только для чтения [`ITextStyle`](../../itextstyle).
+Возвращает стиль текста заметки. Только для чтения[`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle NotesStyle { get; }
@@ -17,8 +16,8 @@ public ITextStyle NotesStyle { get; }
 
 ### Смотрите также
 
-* интерфейс [ITextStyle](../../itextstyle)
-* класс [MasterNotesSlide](../../masternotesslide)
+* interface [ITextStyle](../../itextstyle)
+* class [MasterNotesSlide](../../masternotesslide)
 * пространство имен [Aspose.Slides](../../masternotesslide)
 * сборка [Aspose.Slides](../../../)
 

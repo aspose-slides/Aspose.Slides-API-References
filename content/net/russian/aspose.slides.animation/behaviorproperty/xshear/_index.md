@@ -6,8 +6,7 @@ type: docs
 weight: 1200
 url: /ru/aspose.slides.animation/behaviorproperty/xshear/
 ---
-
-## Свойство BehaviorProperty.XShear
+## BehaviorProperty.XShear property
 
 Представляет свойство 'xshear'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/xshear/
 public static BehaviorProperty XShear { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

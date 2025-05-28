@@ -1,15 +1,14 @@
 ---
 title: WriteDocumentEnd
-second_title: Aspose.Slides для .NET Справочник по API
-description: Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз на каждую конверсию презентации.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз при преобразовании презентации.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/embedallfontshtmlcontroller/writedocumentend/
 ---
+## EmbedAllFontsHtmlController.WriteDocumentEnd method
 
-## Метод EmbedAllFontsHtmlController.WriteDocumentEnd
-
-Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз на каждую конверсию презентации.
+Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз при преобразовании презентации.
 
 ```csharp
 public virtual void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
@@ -17,14 +16,14 @@ public virtual void WriteDocumentEnd(IHtmlGenerator generator, IPresentation pre
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| generator | IHtmlGenerator | Объект вывода. |
-| presentation | IPresentation | Презентация, которая в данный момент отображается. |
+| генератор | IHtmlGenerator | Выходной объект. |
+| presentation | IPresentation | Презентация, которая отображается в данный момент. |
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
-* интерфейс [IPresentation](../../../aspose.slides/ipresentation)
-* класс [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
+* interface [IHtmlGenerator](../../ihtmlgenerator)
+* interface [IPresentation](../../../aspose.slides/ipresentation)
+* class [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embedallfontshtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

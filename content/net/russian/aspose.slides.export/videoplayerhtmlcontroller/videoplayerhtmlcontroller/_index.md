@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.export/videoplayerhtmlcontroller/videoplayerhtmlcontroller/
 ---
-
-## Конструктор VideoPlayerHtmlController
+## VideoPlayerHtmlController constructor
 
 Создает новый экземпляр контроллера
 
@@ -17,13 +16,13 @@ public VideoPlayerHtmlController(string path, string fileName, string baseUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь, по которому будут создаваться видео- и аудиофайлы |
-| fileName | String | Имя HTML файла |
-| baseUri | String | Базовый URI, который будет использоваться для генерирования ссылок |
+| path | String | Путь, где находится видео и будут сгенерированы аудиофайлы |
+| fileName | String | Имя файла HTML |
+| baseUri | String | База URI, который будет использоваться для генерации ссылок |
 
 ### Смотрите также
 
-* класс [VideoPlayerHtmlController](../../videoplayerhtmlcontroller)
+* class [VideoPlayerHtmlController](../../videoplayerhtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../videoplayerhtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

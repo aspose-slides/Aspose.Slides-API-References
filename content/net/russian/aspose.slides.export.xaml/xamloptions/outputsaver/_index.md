@@ -6,8 +6,7 @@ type: docs
 weight: 30
 url: /ru/aspose.slides.export.xaml/xamloptions/outputsaver/
 ---
-
-## Свойство XamlOptions.OutputSaver
+## XamlOptions.OutputSaver property
 
 Представляет реализацию интерфейса IOutputSaver.
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides.export.xaml/xamloptions/outputsaver/
 public IXamlOutputSaver OutputSaver { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IXamlOutputSaver](../../ixamloutputsaver)
-* класс [XamlOptions](../../xamloptions)
+* interface [IXamlOutputSaver](../../ixamloutputsaver)
+* class [XamlOptions](../../xamloptions)
 * пространство имен [Aspose.Slides.Export.Xaml](../../xamloptions)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,24 +1,23 @@
 ---
 title: AllCustomXmlParts
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает все пользовательские данные в презентации. Только для чтения ICustomXmlPartaspose.slides/icustomxmlpart.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает все пользовательские части данных в презентации. Только для чтенияICustomXmlPartaspose.slides/icustomxmlpart.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ipresentation/allcustomxmlparts/
 ---
+## IPresentation.AllCustomXmlParts property
 
-## Свойство IPresentation.AllCustomXmlParts
-
-Возвращает все пользовательские данные в презентации. Только для чтения [`ICustomXmlPart`](../../icustomxmlpart)[].
+Возвращает все пользовательские части данных в презентации. Только для чтения[`ICustomXmlPart`](../../icustomxmlpart)[].
 
 ```csharp
 public ICustomXmlPart[] AllCustomXmlParts { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ICustomXmlPart](../../icustomxmlpart)
-* интерфейс [IPresentation](../../ipresentation)
+* interface [ICustomXmlPart](../../icustomxmlpart)
+* interface [IPresentation](../../ipresentation)
 * пространство имен [Aspose.Slides](../../ipresentation)
 * сборка [Aspose.Slides](../../../)
 

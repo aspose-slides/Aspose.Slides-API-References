@@ -1,13 +1,12 @@
 ---
 title: MathNaryOperatorFactory
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathnaryoperatorfactory/mathnaryoperatorfactory/
 ---
-
-## Конструктор MathNaryOperatorFactory
+## MathNaryOperatorFactory constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.mathtext/mathnaryoperatorfactory/mathnaryoperatorfactory/
 public MathNaryOperatorFactory()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
+* class [MathNaryOperatorFactory](../../mathnaryoperatorfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathnaryoperatorfactory)
 * сборка [Aspose.Slides](../../../)
 

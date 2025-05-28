@@ -1,23 +1,22 @@
 ---
 title: X
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Возвращает или устанавливает координату x верхнего левого угла ограничивающего прямоугольника области графика в виде доли ширины графика от 0 до 1. Чтение/запись Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает координату x верхнего левого угла ограничивающей рамки области графика как часть ширины диаграммы от 0 до 1. Чтение/записьSingle.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/chartplotarea/x/
 ---
+## ChartPlotArea.X property
 
-## Свойство ChartPlotArea.X
-
-Возвращает или устанавливает координату x верхнего левого угла ограничивающего прямоугольника области графика в виде доли ширины графика (от 0 до 1). Чтение/запись Single.
+Возвращает или задает координату x верхнего левого угла ограничивающей рамки области графика как часть ширины диаграммы (от 0 до 1). Чтение/записьSingle.
 
 ```csharp
 public float X { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ChartPlotArea](../../chartplotarea)
+* class [ChartPlotArea](../../chartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../chartplotarea)
 * сборка [Aspose.Slides](../../../)
 

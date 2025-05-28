@@ -1,13 +1,12 @@
 ---
 title: AsISvgShapeFormattingController
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает интерфейс ISvgShapeFormattingController.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller/
 ---
-
-## ISvgShapeAndTextFormattingController.AsISvgShapeFormattingController свойство
+## ISvgShapeAndTextFormattingController.AsISvgShapeFormattingController property
 
 Возвращает интерфейс ISvgShapeFormattingController.
 
@@ -17,12 +16,12 @@ public ISvgShapeFormattingController AsISvgShapeFormattingController { get; }
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
-* интерфейс [ISvgShapeAndTextFormattingController](../../isvgshapeandtextformattingcontroller)
+* interface [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
+* interface [ISvgShapeAndTextFormattingController](../../isvgshapeandtextformattingcontroller)
 * пространство имен [Aspose.Slides.Export](../../isvgshapeandtextformattingcontroller)
 * сборка [Aspose.Slides](../../../)
 

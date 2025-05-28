@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.export/tiffoptions/tiffoptions/
 ---
-
-## Конструктор TiffOptions
+## TiffOptions constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.export/tiffoptions/tiffoptions/
 public TiffOptions()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [TiffOptions](../../tiffoptions)
+* class [TiffOptions](../../tiffoptions)
 * пространство имен [Aspose.Slides.Export](../../tiffoptions)
 * сборка [Aspose.Slides](../../../)
 

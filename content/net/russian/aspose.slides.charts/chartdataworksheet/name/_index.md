@@ -1,23 +1,22 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает имя рабочего листа. Доступ только для чтения. Строка.
+description: Возвращает имя листа. Только чтениеString.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartdataworksheet/name/
 ---
+## ChartDataWorksheet.Name property
 
-## Свойство ChartDataWorksheet.Name
-
-Возвращает имя рабочего листа. Доступ только для чтения. Строка.
+Возвращает имя листа. Только чтениеString.
 
 ```csharp
 public string Name { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ChartDataWorksheet](../../chartdataworksheet)
+* class [ChartDataWorksheet](../../chartdataworksheet)
 * пространство имен [Aspose.Slides.Charts](../../chartdataworksheet)
 * сборка [Aspose.Slides](../../../)
 

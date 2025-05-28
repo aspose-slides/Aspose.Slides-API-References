@@ -1,23 +1,22 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/portioncollection/count/
 ---
+## PortionCollection.Count property
 
-## Свойство PortionCollection.Count
-
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [PortionCollection](../../portioncollection)
+* class [PortionCollection](../../portioncollection)
 * пространство имен [Aspose.Slides](../../portioncollection)
 * сборка [Aspose.Slides](../../../)
 

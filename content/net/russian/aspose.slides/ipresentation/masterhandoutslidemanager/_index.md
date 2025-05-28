@@ -1,24 +1,23 @@
 ---
 title: MasterHandoutSlideManager
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает менеджер мастер-раздаточных материалов. Только для чтения IMasterHandoutSlideManageraspose.slides/imasterhandoutslidemanager.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает главного менеджера раздаточных материалов. Только чтениеIMasterHandoutSlideManageraspose.slides/imasterhandoutslidemanager.
 type: docs
 weight: 170
 url: /ru/aspose.slides/ipresentation/masterhandoutslidemanager/
 ---
+## IPresentation.MasterHandoutSlideManager property
 
-## IPresentation.MasterHandoutSlideManager свойство
-
-Возвращает менеджер мастер-раздаточных материалов. Только для чтения [`IMasterHandoutSlideManager`](../../imasterhandoutslidemanager).
+Возвращает главного менеджера раздаточных материалов. Только чтение[`IMasterHandoutSlideManager`](../../imasterhandoutslidemanager).
 
 ```csharp
 public IMasterHandoutSlideManager MasterHandoutSlideManager { get; }
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IMasterHandoutSlideManager](../../imasterhandoutslidemanager)
-* интерфейс [IPresentation](../../ipresentation)
+* interface [IMasterHandoutSlideManager](../../imasterhandoutslidemanager)
+* interface [IPresentation](../../ipresentation)
 * пространство имен [Aspose.Slides](../../ipresentation)
 * сборка [Aspose.Slides](../../../)
 

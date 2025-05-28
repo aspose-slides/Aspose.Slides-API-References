@@ -1,37 +1,36 @@
 ---
 title: Aspose.Slides.SmartArt
-second_title: Aspose.Slides for .NET API Reference
-description: 包含处理 SmartArt 对象的类
+second_title: Aspose.Slides for .NET API 参考
+description: 包含用于处理 SmartArt 对象的类
 type: docs
 weight: 140
 url: /zh/aspose.slides.smartart/
 ---
+包含用于处理 SmartArt 对象的类
 
-包含处理 SmartArt 对象的类
+## 课程
 
-## 类
-
-| 类 | 描述 |
+| 班级 | 描述 |
 | --- | --- |
-| [SmartArt](./smartart) | 表示一个 SmartArt 图表 |
+| [SmartArt](./smartart) | 表示 SmartArt 图 |
 | [SmartArtNode](./smartartnode) | 表示 SmartArt 对象的节点 |
 | [SmartArtNodeCollection](./smartartnodecollection) | 表示 SmartArt 节点的集合。 |
 | [SmartArtShape](./smartartshape) | 表示 SmartArt 形状 |
 | [SmartArtShapeCollection](./smartartshapecollection) | 表示 SmartArt 形状的集合 |
 ## 接口
 
-| 接口 | 描述 |
+| 界面 | 描述 |
 | --- | --- |
-| [ISmartArt](./ismartart) | 表示一个 SmartArt 图表。 |
+| [ISmartArt](./ismartart) | 表示 SmartArt 图表。 |
 | [ISmartArtNode](./ismartartnode) | 表示 SmartArt 图表的节点。 |
 | [ISmartArtNodeCollection](./ismartartnodecollection) | 表示 SmartArt 节点的集合。 |
-| [ISmartArtShape](./ismartartshape) | 表示 SmartArt 图表中的形状 |
+| [ISmartArtShape](./ismartartshape) | 表示 SmartArt 图中的形状 |
 | [ISmartArtShapeCollection](./ismartartshapecollection) | 表示 SmartArt 形状的集合 |
 ## 枚举
 
 | 枚举 | 描述 |
 | --- | --- |
-| [OrganizationChartLayoutType](./organizationchartlayouttype) | 表示组织结构图中子节点的格式类型 |
+| [OrganizationChartLayoutType](./organizationchartlayouttype) | 表示组织结构图中子节点的格式化类型 |
 | [SmartArtColorType](./smartartcolortype) | 表示 SmartArt 图表的配色方案。 |
 | [SmartArtLayoutType](./smartartlayouttype) | 表示 SmartArt 图表的布局类型。 |
 | [SmartArtQuickStyleType](./smartartquickstyletype) | 表示 SmartArt 图表的样式方案。 |

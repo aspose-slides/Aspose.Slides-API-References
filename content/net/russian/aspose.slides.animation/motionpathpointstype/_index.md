@@ -1,23 +1,22 @@
 ---
 title: MotionPathPointsType
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет типы точек в анимационном движении пути.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляют типы точек на пути движения анимации.
 type: docs
-weight: 630
+weight: 610
 url: /ru/aspose.slides.animation/motionpathpointstype/
 ---
+## MotionPathPointsType enumeration
 
-## Перечисление MotionPathPointsType
-
-Представляет типы точек в анимационном движении пути.
+Представляют типы точек на пути движения анимации.
 
 ```csharp
 public enum MotionPathPointsType
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` |  |
 | Auto | `1` |  |
@@ -29,7 +28,7 @@ public enum MotionPathPointsType
 | CurveStraight | `7` |  |
 | CurveSmooth | `8` |  |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

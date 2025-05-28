@@ -1,13 +1,12 @@
 ---
-title: Элемент
-second_title: Ссылка на API Aspose.Slides для .NET
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 40
 url: /ru/aspose.slides/fontsubstrulecollection/item/
 ---
-
-## Индексатор FontSubstRuleCollection
+## FontSubstRuleCollection indexer
 
 Получает элемент по указанному индексу.
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides/fontsubstrulecollection/item/
 public IFontSubstRule this[int index] { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontSubstRule](../../ifontsubstrule)
-* класс [FontSubstRuleCollection](../../fontsubstrulecollection)
+* interface [IFontSubstRule](../../ifontsubstrule)
+* class [FontSubstRuleCollection](../../fontsubstrulecollection)
 * пространство имен [Aspose.Slides](../../fontsubstrulecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: К
+title: To
 second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает конечное значение для анимации. Чтение/запись Single.
+description: Описывает конечное значение анимации. Чтение/записьSingle.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/irotationeffect/to/
 ---
+## IRotationEffect.To property
 
-## Свойство IRotationEffect.To
-
-Описывает конечное значение для анимации. Чтение/запись Single.
+Описывает конечное значение анимации. Чтение/записьSingle.
 
 ```csharp
 public float To { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IRotationEffect](../../irotationeffect)
+* interface [IRotationEffect](../../irotationeffect)
 * пространство имен [Aspose.Slides.Animation](../../irotationeffect)
 * сборка [Aspose.Slides](../../../)
 

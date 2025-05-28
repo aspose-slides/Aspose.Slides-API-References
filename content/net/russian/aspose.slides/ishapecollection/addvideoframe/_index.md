@@ -1,12 +1,11 @@
 ---
 title: AddVideoFrame
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет новый видеокадр в конец коллекции.
 type: docs
 weight: 180
 url: /ru/aspose.slides/ishapecollection/addvideoframe/
 ---
-
 ## AddVideoFrame(float, float, float, float, string) {#addvideoframe_1}
 
 Добавляет новый видеокадр в конец коллекции.
@@ -18,19 +17,19 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Single | X координата нового видеокадра. |
-| y | Single | Y координата нового видеокадра. |
+| y | Single | Координата Y нового видеокадра. |
 | width | Single | Ширина нового видеокадра. |
 | height | Single | Высота нового видеокадра. |
 | fname | String | Имя видеофайла. |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
-Созданный объект VideoFrame.
+Создан объект VideoFrame.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IVideoFrame](../../ivideoframe)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IVideoFrame](../../ivideoframe)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -47,20 +46,20 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Single | X координата нового видеокадра. |
-| y | Single | Y координата нового видеокадра. |
+| y | Single | Координата Y нового видеокадра. |
 | width | Single | Ширина нового видеокадра. |
 | height | Single | Высота нового видеокадра. |
 | video | IVideo | Видео. |
 
-### Возвращаемое Значение
+### Возвращаемое значение
 
-Созданный объект VideoFrame.
+Создан объект VideoFrame.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IVideoFrame](../../ivideoframe)
-* интерфейс [IVideo](../../ivideo)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IVideoFrame](../../ivideoframe)
+* interface [IVideo](../../ivideo)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Содержит
-second_title: Справочник API Aspose.Slides для .NET
-description: Определяет, содержит ли ICollection конкретное значение.
+title: Contains
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет содержит лиICollectionопределенное значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides/portioncollection/contains/
 ---
+## PortionCollection.Contains method
 
-## Метод PortionCollection.Contains
-
-Определяет, содержит ли ICollection конкретное значение.
+Определяет, содержит лиICollectionопределенное значение.
 
 ```csharp
 public bool Contains(IPortion item)
@@ -17,16 +16,16 @@ public bool Contains(IPortion item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IPortion | Объект, который необходимо найти в ICollection. |
+| item | IPortion | Объект для размещения вICollection. |
 
 ### Возвращаемое значение
 
-true, если *item* найден в ICollection; в противном случае false.
+true, если*item*находится вICollection; в противном случае ложно.
 
 ### Смотрите также
 
-* интерфейс [IPortion](../../iportion)
-* класс [PortionCollection](../../portioncollection)
+* interface [IPortion](../../iportion)
+* class [PortionCollection](../../portioncollection)
 * пространство имен [Aspose.Slides](../../portioncollection)
 * сборка [Aspose.Slides](../../../)
 

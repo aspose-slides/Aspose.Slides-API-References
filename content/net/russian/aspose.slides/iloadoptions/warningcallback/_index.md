@@ -1,24 +1,23 @@
 ---
 title: WarningCallback
-second_title: Aspose.Sildes для справочника API .NET
-description: Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или отменен. Чтение/запись IWarningCallbackaspose.slides.warnings/iwarningcallback.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает объект который получает предупреждения и решает будет ли процесс загрузки продолжен или прерван. Чтение/записьIWarningCallbackaspose.slides.warnings/iwarningcallback.
 type: docs
-weight: 140
+weight: 120
 url: /ru/aspose.slides/iloadoptions/warningcallback/
 ---
+## ILoadOptions.WarningCallback property
 
-## Свойство ILoadOptions.WarningCallback
-
-Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или отменен. Чтение/запись [`IWarningCallback`](../../../aspose.slides.warnings/iwarningcallback).
+Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Чтение/запись[`IWarningCallback`](../../../aspose.slides.warnings/iwarningcallback).
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IWarningCallback](../../../aspose.slides.warnings/iwarningcallback)
-* интерфейс [ILoadOptions](../../iloadoptions)
+* interface [IWarningCallback](../../../aspose.slides.warnings/iwarningcallback)
+* interface [ILoadOptions](../../iloadoptions)
 * пространство имен [Aspose.Slides](../../iloadoptions)
 * сборка [Aspose.Slides](../../../)
 

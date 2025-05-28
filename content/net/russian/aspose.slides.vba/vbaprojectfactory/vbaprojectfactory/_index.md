@@ -1,13 +1,12 @@
 ---
 title: VbaProjectFactory
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.vba/vbaprojectfactory/vbaprojectfactory/
 ---
-
-## Конструктор VbaProjectFactory
+## VbaProjectFactory constructor
 
 Конструктор по умолчанию.
 
@@ -17,7 +16,7 @@ public VbaProjectFactory()
 
 ### Смотрите также
 
-* класс [VbaProjectFactory](../../vbaprojectfactory)
+* class [VbaProjectFactory](../../vbaprojectfactory)
 * пространство имен [Aspose.Slides.Vba](../../vbaprojectfactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,11 @@
 ---
 title: LineTo
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет линию в конец пути
 type: docs
 weight: 70
 url: /ru/aspose.slides/igeometrypath/lineto/
 ---
-
 ## LineTo(PointF) {#lineto_2}
 
 Добавляет линию в конец пути
@@ -17,11 +16,11 @@ public void LineTo(PointF point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | Конечная точка линии |
+| point | PointF | Конечная точка строки |
 
 ### Смотрите также
 
-* интерфейс [IGeometryPath](../../igeometrypath)
+* interface [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -42,7 +41,7 @@ public void LineTo(float x, float y)
 
 ### Смотрите также
 
-* интерфейс [IGeometryPath](../../igeometrypath)
+* interface [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -50,7 +49,7 @@ public void LineTo(float x, float y)
 
 ## LineTo(PointF, uint) {#lineto_3}
 
-Добавляет линию в указанное место пути
+Добавляет строку в указанное место пути
 
 ```csharp
 public void LineTo(PointF point, uint index)
@@ -58,18 +57,18 @@ public void LineTo(PointF point, uint index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | Конечная точка |
+| point | PointF | End point |
 | index | UInt32 | Индекс сегмента в PathData |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента находится вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента отсутствует диапазона PathData |
 
 ### Смотрите также
 
-* интерфейс [IGeometryPath](../../igeometrypath)
+* interface [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -77,7 +76,7 @@ public void LineTo(PointF point, uint index)
 
 ## LineTo(float, float, uint) {#lineto_1}
 
-Добавляет линию в указанное место пути
+Добавляет строку в указанное место пути
 
 ```csharp
 public void LineTo(float x, float y, uint index)
@@ -85,19 +84,19 @@ public void LineTo(float x, float y, uint index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X точки |
-| y | Single | Координата Y точки |
+| x | Single | X координата точки |
+| y | Single | Y координата точки |
 | index | UInt32 | Индекс сегмента в PathData |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента находится вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
 
 ### Смотрите также
 
-* интерфейс [IGeometryPath](../../igeometrypath)
+* interface [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 

@@ -6,18 +6,17 @@ type: docs
 weight: 400
 url: /ru/aspose.slides.animation/behaviorproperty/fill_color/
 ---
+## BehaviorProperty.Fill_Color property
 
-## Свойство BehaviorProperty.Fill_Color
-
-Представляет свойство 'fill.color'
+Представляет свойство fill.color
 
 ```csharp
 public static BehaviorProperty Fill_Color { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

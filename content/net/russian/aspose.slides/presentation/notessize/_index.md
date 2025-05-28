@@ -1,24 +1,23 @@
 ---
 title: NotesSize
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает объект размера слайда заметок. Только для чтения INotesSizeaspose.slides/inotessize.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает объект размера слайда заметок. Только для чтенияINotesSizeaspose.slides/inotessize.
 type: docs
 weight: 200
 url: /ru/aspose.slides/presentation/notessize/
 ---
+## Presentation.NotesSize property
 
-## Свойство Presentation.NotesSize
-
-Возвращает объект размера слайда заметок. Только для чтения [`INotesSize`](../../inotessize).
+Возвращает объект размера слайда заметок. Только для чтения[`INotesSize`](../../inotessize).
 
 ```csharp
 public INotesSize NotesSize { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [INotesSize](../../inotessize)
-* класс [Presentation](../../presentation)
+* interface [INotesSize](../../inotessize)
+* class [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

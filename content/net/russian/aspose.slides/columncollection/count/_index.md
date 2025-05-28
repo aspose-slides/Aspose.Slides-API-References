@@ -1,23 +1,22 @@
 ---
-title: Количество
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает количество столбцов в коллекции. Только для чтения Int32.
+title: Count
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает количество столбцов в коллекции. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/columncollection/count/
 ---
+## ColumnCollection.Count property
 
-## Свойство ColumnCollection.Count
-
-Возвращает количество столбцов в коллекции. Только для чтения Int32.
+Возвращает количество столбцов в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Также см. 
+### Смотрите также
 
-* класс [ColumnCollection](../../columncollection)
+* class [ColumnCollection](../../columncollection)
 * пространство имен [Aspose.Slides](../../columncollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,37 +1,36 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет эффект предустановленной тени.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет предустановленный эффект тени.
 type: docs
-weight: 3360
+weight: 3280
 url: /ru/aspose.slides.effects/ipresetshadow/
 ---
+## IPresetShadow interface
 
-## Интерфейс IPresetShadow
-
-Представляет эффект предустановленной тени.
+Представляет предустановленный эффект тени.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
     IImageTransformOperation
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Направление тени. Чтение/запись Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Расстояние тени. Чтение/запись Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Предустановленная установка. Чтение/запись [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Цвет тени. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Направление тени. Чтение/записьSingle. |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble. |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Предустановка. Чтение/запись[`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* интерфейс [IPresetShadowEffectiveData](../ipresetshadoweffectivedata)
-* интерфейс [IImageTransformOperation](../iimagetransformoperation)
+* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* interface [IPresetShadowEffectiveData](../ipresetshadoweffectivedata)
+* interface [IImageTransformOperation](../iimagetransformoperation)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

@@ -1,15 +1,14 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Slides pour .NET Référence API
-description: Représente la collection de ChartCategory./chartcategory
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente une collection deChartCategory./chartcategory
 type: docs
-weight: 1200
+weight: 1160
 url: /fr/aspose.slides.charts/chartcategorycollection/
 ---
+## ChartCategoryCollection class
 
-## Classe ChartCategoryCollection
-
-Représente la collection de [`ChartCategory`](../chartcategory)
+Représente une collection de[`ChartCategory`](../chartcategory)
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
@@ -17,34 +16,34 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Renvoie le nombre d'éléments dans la collection. En lecture seule Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Renvoie le nombre de niveaux de regroupement de catégories utilisés. Plus d'un pour les catégories multilevel. En lecture seule Int32. |
-| [IsSynchronized](="../../aspose.slides.charts/chartcategorycollection/issynchronized") { get; } | Renvoie une valeur indiquant si l'accès à la liste est synchronisé (sécurisé pour les threads). En lecture seule Boolean. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Renvoie un certain nombre d'éléments dans la collection. Lecture seuleInt32 . |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Renvoie le nombre de niveaux de regroupement de catégories utilisés. Est supérieur à un pour les catégories à plusieurs niveaux. En lecture seuleInt32 . |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la Liste est synchronisé (thread safe). Lecture seuleBoolean . |
 | [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Obtient l'élément à l'index spécifié. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Renvoie un objet qui peut être utilisé pour synchroniser l'accès à la collection. En lecture seule Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Si vrai, alors la feuille de calcul est utilisée pour stocker les catégories (ce cas prend en charge les catégories multilevel). Si faux, alors la feuille de calcul n'est PAS utilisée pour stocker les valeurs (et ce cas ne prend pas en charge les catégories multilevel). En lecture/écriture Boolean. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Renvoie un objet qui peut être utilisé pour synchroniser l'accès à la collection. Lecture seuleObject . |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Si true, la feuille de calcul est utilisée pour stocker les catégories (ce cas prend en charge les catégories à plusieurs niveaux). Si false, la feuille de calcul n'est PAS utilisée pour stocker les valeurs (et ce cas ne prend pas en charge les catégories à plusieurs niveaux). Lire /écrivezBoolean . |
 
 ## Méthodes
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Si la catégorie existe dans la collection, la renvoie. Sinon, crée une nouvelle catégorie de graphique à partir de [`IChartDataCell`](../ichartdatacell) et l'ajoute à la collection. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Crée une nouvelle [`ChartCategory`](../chartcategory) à partir de la valeur et l'ajoute à la collection. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Si la catégorie existe dans la collection, renvoyez-la. Sinon crée une nouvelle catégorie de graphique à partir de [`IChartDataCell`](../ichartdatacell) et l'ajoute à la collection. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Crée un nouveau[`ChartCategory`](../chartcategory) de la valeur et l'ajoute à la collection. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Supprime tous les éléments de la collection. |
 | [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Recherche la [`ChartCategory`](../chartcategory) spécifiée et renvoie l'index basé sur zéro de la première occurrence dans l'ensemble de la collection. |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Recherche le spécifié[`ChartCategory`](../chartcategory) et renvoie l'index de base zéro de la première occurrence dans toute la collection. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | Supprime la valeur spécifiée. |
 | [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Supprime l'élément à l'index donné. |
 
-### Voir aussi
+### Voir également
 
-* classe [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* classe [ChartData](../chartdata)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartData](../chartdata)
 * interface [IChartCategoryCollection](../ichartcategorycollection)
 * espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

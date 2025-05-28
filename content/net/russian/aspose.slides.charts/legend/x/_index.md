@@ -1,23 +1,22 @@
 ---
 title: X
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает или устанавливает координату x легенды как долю ширины диаграммы. Читаемое/Записываемое значение типа Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает координату x легенды как часть ширины диаграммы. Чтение/записьSingle.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/legend/x/
 ---
+## Legend.X property
 
-## Свойство Legend.X
-
-Возвращает или устанавливает координату x легенды как долю ширины диаграммы. Читаемое/Записываемое значение типа Single.
+Возвращает или задает координату x легенды как часть ширины диаграммы. Чтение/записьSingle.
 
 ```csharp
 public float X { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Legend](../../legend)
+* class [Legend](../../legend)
 * пространство имен [Aspose.Slides.Charts](../../legend)
 * сборка [Aspose.Slides](../../../)
 

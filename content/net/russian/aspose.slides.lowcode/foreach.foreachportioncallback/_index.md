@@ -1,24 +1,24 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Aspose.Sildes для .NET API Справочник
-description: type docs
-weight: 7700
+second_title: Справочник по API Aspose.Slides для .NET
+description: 
+type: docs
+weight: 7240
 url: /ru/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
-
-## Делегат ForEach.ForEachPortionCallback
+## ForEach.ForEachPortionCallback delegate
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
     int index);
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Portion](../../aspose.slides/portion)
-* класс [Paragraph](../../aspose.slides/paragraph)
-* класс [BaseSlide](../../aspose.slides/baseslide)
-* класс [ForEach](../foreach)
+* class [Portion](../../aspose.slides/portion)
+* class [Paragraph](../../aspose.slides/paragraph)
+* class [BaseSlide](../../aspose.slides/baseslide)
+* class [ForEach](../foreach)
 * пространство имен [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * сборка [Aspose.Slides](../../)
 

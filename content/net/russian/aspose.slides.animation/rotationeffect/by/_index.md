@@ -1,23 +1,22 @@
 ---
-title: По
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Описывает относительное значение смещения для анимации. Чтение/запись Single.
+title: By
+second_title: Справочник по API Aspose.Slides для .NET
+description: Описывает значение относительного смещения для анимации. Чтение/записьSingle.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/rotationeffect/by/
 ---
+## RotationEffect.By property
 
-## Свойство RotationEffect.By
-
-Описывает относительное значение смещения для анимации. Чтение/запись Single.
+Описывает значение относительного смещения для анимации. Чтение/записьSingle.
 
 ```csharp
 public float By { get; set; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* класс [RotationEffect](../../rotationeffect)
+* class [RotationEffect](../../rotationeffect)
 * пространство имен [Aspose.Slides.Animation](../../rotationeffect)
 * сборка [Aspose.Slides](../../../)
 

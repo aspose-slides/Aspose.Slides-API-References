@@ -1,15 +1,14 @@
 ---
 title: IndexOf
-second_title: Справка по API Aspose.Sildes для .NET
-description: Ищет указанный ChartCategory aspose.slides.charts/chartcategory и возвращает нулевой индекс первого вхождения в пределах всей коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Ищет указаннуюChartCategoryaspose.slides.charts/chartcategoryи возвращает отсчитываемый от нуля индекс первого вхождения во всей Коллекция.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/chartcategorycollection/indexof/
 ---
+## ChartCategoryCollection.IndexOf method
 
-## Метод ChartCategoryCollection.IndexOf
-
-Ищет указанный [`ChartCategory`](../../chartcategory) и возвращает нулевой индекс первого вхождения в пределах всей коллекции.
+Ищет указанную[`ChartCategory`](../../chartcategory)и возвращает отсчитываемый от нуля индекс первого вхождения во всей Коллекция.
 
 ```csharp
 public int IndexOf(IChartCategory value)
@@ -21,12 +20,12 @@ public int IndexOf(IChartCategory value)
 
 ### Возвращаемое значение
 
-Нулевой индекс первого вхождения значения в пределах всей коллекции CollectionBase, если найдено; в противном случае -1.
+Отсчитываемый от нуля индекс первого вхождения значения во всей CollectionBase, если он найден; иначе -1.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartCategory](../../ichartcategory)
-* класс [ChartCategoryCollection](../../chartcategorycollection)
+* interface [IChartCategory](../../ichartcategory)
+* class [ChartCategoryCollection](../../chartcategorycollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorycollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Разделитель
+title: Separator
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает или возвращает Variant, представляющий разделитель, используемый для меток данных на графике. Читаемый/записываемый String.
+description: Задает или возвращает Variant представляющий разделитель используемый для меток данных на диаграмме. Чтение/записьString.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/datalabelformat/separator/
 ---
+## DataLabelFormat.Separator property
 
-## Свойство DataLabelFormat.Separator
-
-Устанавливает или возвращает Variant, представляющий разделитель, используемый для меток данных на графике. Читаемый/записываемый String.
+Задает или возвращает Variant, представляющий разделитель, используемый для меток данных на диаграмме. Чтение/записьString.
 
 ```csharp
 public string Separator { get; set; }
@@ -17,11 +16,11 @@ public string Separator { get; set; }
 
 ### Примечания
 
-Если родительским объектом этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства Separator для новых меток данных в коллекции DataLabelCollection. Установка этого свойства с значением также устанавливает это значение для свойства Separator для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.Separator = val;" приводит к тому, что все DataLabels[i].Separator равно val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства Separator для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство Separator для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.Separator = val;" приводит к all DataLabels[i].Separator равен val).
 
-### См. также
+### Смотрите также
 
-* класс [DataLabelFormat](../../datalabelformat)
+* class [DataLabelFormat](../../datalabelformat)
 * пространство имен [Aspose.Slides.Charts](../../datalabelformat)
 * сборка [Aspose.Slides](../../../)
 

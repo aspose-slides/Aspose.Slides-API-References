@@ -1,13 +1,12 @@
 ---
 title: RangeEndIndex
-second_title: Aspose.Slides для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получить последний индекс непрерывного диапазона юникода.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ifontfallbackrule/rangeendindex/
 ---
-
-## IFontFallBackRule.RangeEndIndex свойство
+## IFontFallBackRule.RangeEndIndex property
 
 Получить последний индекс непрерывного диапазона юникода.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/ifontfallbackrule/rangeendindex/
 public uint RangeEndIndex { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IFontFallBackRule](../../ifontfallbackrule)
+* interface [IFontFallBackRule](../../ifontfallbackrule)
 * пространство имен [Aspose.Slides](../../ifontfallbackrule)
 * сборка [Aspose.Slides](../../../)
 

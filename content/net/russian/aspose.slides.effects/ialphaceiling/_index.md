@@ -1,33 +1,32 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes для .NET API Справка
-description: Представляет эффект Alpha Ceiling. Значения альфа-прозрачности больше нуля изменяются на 100. Другими словами, все, что частично непрозрачно, становится полностью непрозрачным.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет эффект альфа-потолка. Значения альфа-канала непрозрачности больше нуля изменены на 100. Другими словами все частично непрозрачное становится полностью непрозрачным.
 type: docs
-weight: 2940
+weight: 2860
 url: /ru/aspose.slides.effects/ialphaceiling/
 ---
+## IAlphaCeiling interface
 
-## Интерфейс IAlphaCeiling
-
-Представляет эффект Alpha Ceiling. Значения альфа (прозрачности), большие нуля, изменяются на 100%. Другими словами, все, что частично непрозрачно, становится полностью непрозрачным.
+Представляет эффект альфа-потолка. Значения альфа-канала (непрозрачности) больше нуля изменены на 100%. Другими словами, все частично непрозрачное становится полностью непрозрачным.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
     IImageTransformOperation
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperationEx. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperationEx. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* интерфейс [IAlphaCeilingEffectiveData](../ialphaceilingeffectivedata)
-* интерфейс [IImageTransformOperation](../iimagetransformoperation)
+* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* interface [IAlphaCeilingEffectiveData](../ialphaceilingeffectivedata)
+* interface [IImageTransformOperation](../iimagetransformoperation)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

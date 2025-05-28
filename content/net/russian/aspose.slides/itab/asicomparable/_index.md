@@ -1,15 +1,14 @@
 ---
 title: AsIComparable
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Возвращает интерфейс IComparable. Только для чтения IComparable.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает интерфейс IComparable. Только для чтенияIComparable.
 type: docs
 weight: 20
 url: /ru/aspose.slides/itab/asicomparable/
 ---
+## ITab.AsIComparable property
 
-## ITab.AsIComparable свойство
-
-Возвращает интерфейс IComparable. Только для чтения IComparable.
+Возвращает интерфейс IComparable. Только для чтенияIComparable.
 
 ```csharp
 public IComparable AsIComparable { get; }
@@ -17,11 +16,11 @@ public IComparable AsIComparable { get; }
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITab](../../itab)
+* interface [ITab](../../itab)
 * пространство имен [Aspose.Slides](../../itab)
 * сборка [Aspose.Slides](../../../)
 

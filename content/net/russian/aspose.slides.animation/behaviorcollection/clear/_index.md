@@ -1,23 +1,22 @@
 ---
-title: Очистить
-second_title: Справка по API Aspose.Slides для .NET
-description: Удаляет все поведения из коллекции.
+title: Clear
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет все варианты поведения из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/behaviorcollection/clear/
 ---
+## BehaviorCollection.Clear method
 
-## Метод BehaviorCollection.Clear
-
-Удаляет все поведения из коллекции.
+Удаляет все варианты поведения из коллекции.
 
 ```csharp
 public void Clear()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorCollection](../../behaviorcollection)
+* class [BehaviorCollection](../../behaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorcollection)
 * сборка [Aspose.Slides](../../../)
 

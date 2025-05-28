@@ -1,15 +1,14 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das effektive Eigenschaften der Absatzformatierung enthält.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Unveränderliches Objekt das effektive Absatzformatierungseigenschaften enthält.
 type: docs
-weight: 6400
+weight: 6070
 url: /de/aspose.slides/iparagraphformateffectivedata/
 ---
+## IParagraphFormatEffectiveData interface
 
-## IParagraphFormatEffectiveData Schnittstelle
-
-Unveränderliches Objekt, das effektive Eigenschaften der Absatzformatierung enthält.
+Unveränderliches Objekt, das effektive Absatzformatierungseigenschaften enthält.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -19,31 +18,31 @@ public interface IParagraphFormatEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Gibt die Textausrichtung in einem Absatz zurück. Nur-lesbar [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Gibt ein Aufzählungsformat eines Absatzes zurück. Nur-lesbar [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Gibt das Standardportionenformat eines Absatzes zurück. Nur-lesbar [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Gibt die Standard-Tabulatorgröße zurück. Nur-lesbar Single. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Gibt die Tiefe eines Absatzes zurück. Nur-lesbar Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Bestimmt, ob der Ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Nur-lesbar Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Gibt die Schriftartausrichtung in einem Absatz zurück. Nur-lesbar [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Bestimmt, ob die hängende Interpunktion in einem Absatz verwendet wird. Nur-lesbar Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Gibt den ersten Zeilen-Indent/Hängenden Indent des Absatzes zurück. Hängender Indent kann mit negativen Werten definiert werden. Nur-lesbar Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Bestimmt, ob der Lateinische Zeilenumbruch in einem Absatz verwendet wird. Nur-lesbar Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Gibt den linken Rand in einem Absatz zurück. Nur-lesbar Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Gibt den rechten Rand in einem Absatz zurück. Nur-lesbar Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Bestimmt, ob die Schreibweise von Rechts nach Links in einem Absatz verwendet wird. Nur-lesbar Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Gibt den Betrag an Leerraum nach der letzten Zeile in einem Absatz zurück. Nur-lesbar Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Gibt den Betrag an Leerraum vor der ersten Zeile in einem Absatz zurück. Nur-lesbar Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Gibt den Betrag an Leerraum zwischen Grundlinien in einem Absatz zurück. Nur-lesbar Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Gibt die Tabulatoren eines Absatzes zurück. Nur-lesbar [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Gibt die Textausrichtung in einem Absatz zurück. Schreibgeschützt[`TextAlignment`](../textalignment) . |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Gibt ein Aufzählungszeichenformat eines Absatzes zurück. Schreibgeschützt[`IBulletFormatEffectiveData`](../ibulletformateffectivedata) . |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Gibt das Standardteilformat eines Absatzes zurück. Schreibgeschützt[`IPortionFormatEffectiveData`](../iportionformateffectivedata) . |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Gibt die Standardtabellengröße zurück. SchreibgeschütztSingle . |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Gibt die Tiefe eines Absatzes zurück. SchreibgeschütztInt16 . |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Legt fest, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. SchreibgeschütztBoolean . |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Gibt eine Schriftausrichtung in einem Absatz zurück. Schreibgeschützt[`FontAlignment`](../fontalignment) . |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Legt fest, ob die hängende Interpunktion in einem Absatz verwendet wird. SchreibgeschütztBoolean . |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Gibt Erstzeileneinzug/Hängender Einzug des Absatzes zurück. Hanging Indent kann mit negativen Werten definiert werden. Read-onlySingle . |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Legt fest, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. SchreibgeschütztBoolean . |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Gibt den linken Rand in einem Absatz zurück. SchreibgeschütztSingle . |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Gibt den rechten Rand in einem Absatz zurück. SchreibgeschütztSingle . |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Legt fest, ob in einem Absatz die Schreibweise von rechts nach links verwendet wird. SchreibgeschütztBoolean . |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Gibt den Abstand nach der letzten Zeile in einem Absatz zurück. SchreibgeschütztSingle . |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Gibt den Abstand vor der ersten Zeile in einem Absatz zurück. SchreibgeschütztSingle . |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Gibt den Abstand zwischen Grundlinien in einem Absatz zurück. SchreibgeschütztSingle . |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Gibt Tabellierungen eines Absatzes zurück. Schreibgeschützt[`ITabEffectiveData`](../itabeffectivedata) []. |
 
-### Anmerkungen
+### Bemerkungen
 
-Diese Schnittstelle wird zusammen mit der [`IParagraphFormat`](../iparagraphformat) Schnittstelle verwendet, um effektive Formatierungswerte mit angewendeter Vererbung zurückzugeben.
+Diese Schnittstelle wird zusammen mit dem verwendet[`IParagraphFormat`](../iparagraphformat) Schnittstelle, um effektive Formatierungswerte mit angewendeter Vererbung zurückzugeben.
 
 ### Siehe auch
 
-* Namensraum [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* namensraum [Aspose.Slides](../../aspose.slides)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

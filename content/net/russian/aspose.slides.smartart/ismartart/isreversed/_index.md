@@ -1,23 +1,22 @@
 ---
 title: IsReversed
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает или устанавливает состояние диаграммы SmartArt относительно направления слева направо LTR или справа налево RTL, если диаграмма поддерживает реверсию. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возврат или установка состояния диаграммы SmartArt относительно слева направо LTR или справа налево RTL если диаграмма поддерживает реверсирование . Чтение/записьBoolean.
 type: docs
 weight: 40
 url: /ru/aspose.slides.smartart/ismartart/isreversed/
 ---
+## ISmartArt.IsReversed property
 
-## ISmartArt.IsReversed свойство
-
-Возвращает или устанавливает состояние диаграммы SmartArt относительно (слева направо) LTR или (справа налево) RTL, если диаграмма поддерживает реверсию. Читаемое/записываемое логическое значение.
+Возврат или установка состояния диаграммы SmartArt относительно (слева направо) LTR или (справа налево) RTL, если диаграмма поддерживает реверсирование . Чтение/записьBoolean.
 
 ```csharp
 public bool IsReversed { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISmartArt](../../ismartart)
+* interface [ISmartArt](../../ismartart)
 * пространство имен [Aspose.Slides.SmartArt](../../ismartart)
 * сборка [Aspose.Slides](../../../)
 

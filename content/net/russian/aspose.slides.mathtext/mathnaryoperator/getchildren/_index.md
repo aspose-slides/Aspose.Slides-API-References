@@ -1,13 +1,12 @@
 ---
 title: GetChildren
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получить дочерние элементы
 type: docs
 weight: 100
 url: /ru/aspose.slides.mathtext/mathnaryoperator/getchildren/
 ---
-
-## MathNaryOperator.GetChildren метод
+## MathNaryOperator.GetChildren method
 
 Получить дочерние элементы
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides.mathtext/mathnaryoperator/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathNaryOperator](../../mathnaryoperator)
+* interface [IMathElement](../../imathelement)
+* class [MathNaryOperator](../../mathnaryoperator)
 * пространство имен [Aspose.Slides.MathText](../../mathnaryoperator)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все эффекты изображения из коллекции.
 type: docs
 weight: 220
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/clear/
 ---
-
-## Метод ImageTransformOperationCollection.Clear
+## ImageTransformOperationCollection.Clear method
 
 Удаляет все эффекты изображения из коллекции.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.effects/imagetransformoperationcollection/clear/
 public void Clear()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

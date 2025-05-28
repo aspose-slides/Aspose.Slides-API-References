@@ -1,15 +1,14 @@
 ---
 title: PieSplitCustomPointCollection
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine Sammlung von Punkten zum Splitten eines Punktes in einem Bar-of-Pie- oder Pie-of-Pie-Diagramm mit einem benutzerdefinierten Split dar.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Repräsentiert eine Sammlung von Punkten zum Aufteilen von Punkten in einem Balkendiagramm oder Tortendiagramm mit einer benutzerdefinierten Aufteilung.
 type: docs
-weight: 2290
+weight: 2250
 url: /de/aspose.slides.charts/piesplitcustompointcollection/
 ---
+## PieSplitCustomPointCollection class
 
-## PieSplitCustomPointCollection-Klasse
-
-Stellt eine Sammlung von Punkten zum Splitten eines Punktes in einem Bar-of-Pie- oder Pie-of-Pie-Diagramm mit einem benutzerdefinierten Split dar.
+Repräsentiert eine Sammlung von Punkten zum Aufteilen von Punkten in einem Balkendiagramm oder Tortendiagramm mit einer benutzerdefinierten Aufteilung.
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -19,29 +18,29 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Gibt die Anzahl der Diagrammdatenpunkte zurück oder setzt sie. Nur lesbar Int32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Gibt einen Wert zurück, der angibt, ob die ICollection schreibgeschützt ist. Nur lesbar Boolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
-| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Gibt den Diagrammdatenpunkt für den angegebenen Index zurück. |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Gibt die Anzahl der Diagrammdatenpunkte zurück oder legt sie fest. SchreibgeschütztInt32 . |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Ruft einen Wert ab, der angibt, ob dieICollection ist schreibgeschützt. Nur lesbarBoolean . |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. SchreibgeschütztBoolean . |
+| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Gibt Diagrammdatenpunkte für den angegebenen Index zurück. |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Gibt einen Synchronisationsstamm zurück. SchreibgeschütztObject . |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | Fügt einen Datenpunkt zur Sammlung hinzu. |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Fügt einen Datenpunkt anhand seines Index in der Sammlung der übergeordneten Serienpunkte hinzu. |
-| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Entfernt alle Elemente aus der ICollection. |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Bestimmt, ob die ICollection einen bestimmten Wert enthält. |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Kopiert die Elemente der ICollection in ein Array, beginnend an einem bestimmten Array-Index. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Entfernt ein Element aus der Sammlung. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Entfernt ein Element aus der Sammlung anhand seines Index in der Sammlung der übergeordneten Serienpunkte. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Fügt einen Datenpunkt nach seinem Index in die Punktesammlung der übergeordneten Serie ein. |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Entfernt alle Elemente aus derICollection . |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Bestimmt, ob dieICollection enthält einen bestimmten Wert. |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Kopiert die Elemente derICollection zu einemArray , beginnend bei einem bestimmtenArray index. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Entfernt Artikel aus der Sammlung. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Entfernt Artikel aus der Sammlung nach seinem Index in der Punktesammlung der übergeordneten Serie. |
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IPieSplitCustomPointCollection](../ipiesplitcustompointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

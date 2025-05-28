@@ -1,30 +1,29 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes для .NET API Справочник
-description: Эффект перехода с волной.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода слайда пульсации.
 type: docs
-weight: 9860
+weight: 9390
 url: /ru/aspose.slides.slideshow/irippletransition/
 ---
+## IRippleTransition interface
 
-## Интерфейс IRippleTransition
-
-Эффект перехода с волной.
+Эффект перехода слайда пульсации.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITransitionValueBase](../itransitionvaluebase)
+* interface [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

@@ -1,15 +1,14 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Sammlung von Datenbeschriftungen dar.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Repräsentiert eine Serienbeschriftung.
 type: docs
-weight: 1950
+weight: 1910
 url: /de/aspose.slides.charts/idatalabelcollection/
 ---
+## IDataLabelCollection interface
 
-## IDataLabelCollection-Schnittstelle
-
-Stellt eine Sammlung von Datenbeschriftungen dar.
+Repräsentiert eine Serienbeschriftung.
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -19,28 +18,27 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IChartComponent-Schnittstelle. Nur lesbar [`IChartComponent`](../ichartcomponent). |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Ermöglicht den Zugriff auf die Basis-IEnumerable-Schnittstelle. Nur lesbar IEnumerable. |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Gibt die Anzahl aller Datenbeschriftungen in der Sammlung zurück. Nur lesbar Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Gibt die Anzahl der sichtbaren Datenbeschriftungen in der Sammlung zurück. Nur lesbar Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Gibt das Standardformat aller Datenbeschriftungen in der Sammlung zurück. Nur lesbar [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False bedeutet, dass die Datenbeschriftung standardmäßig nicht sichtbar ist (und somit alle Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft auf false gesetzt sind). Nur lesbar Boolean. |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Gibt die Datenbeschriftung für den Datenpunkt mit dem angegebenen Index zurück. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Stellt das Format der Führungszeichen für Datenbeschriftungen dar. Nur lesbar [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Gibt die übergeordnete Chart-Serie zurück. Nur lesbar [`IChartSeries`](../ichartseries). |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Ermöglicht das Abrufen der Basis-IChartComponent-Schnittstelle. Schreibgeschützt[`IChartComponent`](../ichartcomponent) . |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Ermöglicht das Abrufen der Basis-IEnumerable-Schnittstelle. SchreibgeschütztIEnumerable . |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Ruft die Anzahl aller Datenbeschriftungen in der Sammlung ab. SchreibgeschütztInt32 . |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Ruft die Anzahl der sichtbaren Datenbeschriftungen in der Sammlung ab. SchreibgeschütztInt32 . |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Gibt das Standardformat aller Datenbeschriftungen in der Sammlung zurück. Schreibgeschützt[`IDataLabelFormat`](../idatalabelformat) . |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False bedeutet, dass die Datenbeschriftung standardmäßig nicht sichtbar ist (und daher sind alle Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft falsch). Read-onlyBoolean . |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Ruft das Datenlabel für den Datenpunkt mit dem angegebenen Index ab. |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Gibt übergeordnete Diagrammreihen zurück. Schreibgeschützt[`IChartSeries`](../ichartseries) . |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Macht die Datenbeschriftung standardmäßig unsichtbar, indem alle Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft auf den Zustand false gesetzt werden. IsVisible wird danach false sein. |
-| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Gibt einen Index der angegebenen Datenbeschriftung in der Sammlung zurück. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Datenbeschriftung standardmäßig unsichtbar machen, indem alle Show*-Flags (ShowValue, ...) der Eigenschaft DefaultDataLabelFormat auf false gesetzt werden. IsVisible ist danach false. |
+| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Gibt einen Index des angegebenen DataLabel in der Sammlung zurück. |
 
 ### Siehe auch
 
-* Schnittstelle [IChartComponent](../ichartcomponent)
-* Schnittstelle [IDataLabel](../idatalabel)
-* Namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Assembly [Aspose.Slides](../../)
+* interface [IChartComponent](../ichartcomponent)
+* interface [IDataLabel](../idatalabel)
+* namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

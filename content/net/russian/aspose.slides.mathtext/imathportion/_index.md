@@ -1,21 +1,20 @@
 ---
 title: IMathPortion
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет собой часть с математическим контекстом внутри.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет часть с математическим контекстом внутри.
 type: docs
-weight: 8160
+weight: 7700
 url: /ru/aspose.slides.mathtext/imathportion/
 ---
+## IMathPortion interface
 
-## Интерфейс IMathPortion
-
-Представляет собой часть с математическим контекстом внутри.
+Представляет часть с математическим контекстом внутри.
 
 ```csharp
 public interface IMathPortion
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
@@ -36,7 +35,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

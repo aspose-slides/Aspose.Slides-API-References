@@ -1,24 +1,23 @@
 ---
 title: ErrorBarsXFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет ErrorBars для серий с направлением X. ErrorBars с направлением X доступны для серий типов area, bar, scatter и bubble. Для любых других типов графиков это свойство возвращает null, включая 3D графики. В случае пользовательских значений используйте коллекцию DataPoints для указания значения с помощью свойства ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues. Только для чтения IErrorBarsFormataspose.slides.charts/ierrorbarsformat.
+description: Представляет ErrorBars серии с направлением X.  ErrorBars с направлением X доступно для серий типа площадь полоса разброс и пузырек. Для любых других типов диаграмм это свойство возвращает значение null включая трехмерные диаграммы. В случае пользовательских значений используйте коллекцию DataPoints для указания значения со свойствомErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues.  Только для чтенияIErrorBarsFormataspose.slides.charts/ierrorbarsformat.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/chartseries/errorbarsxformat/
 ---
+## ChartSeries.ErrorBarsXFormat property
 
-## Свойство ChartSeries.ErrorBarsXFormat
-
-Представляет ErrorBars для серий с направлением X. ErrorBars с направлением X доступны для серий типов area, bar, scatter и bubble. Для любых других типов графиков это свойство возвращает null (включая 3D графики). В случае пользовательских значений используйте коллекцию DataPoints для указания значения (с помощью свойства [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)). Только для чтения [`IErrorBarsFormat`](../../ierrorbarsformat).
+Представляет ErrorBars серии с направлением X.  ErrorBars с направлением X доступно для серий типа площадь, полоса, разброс и пузырек. Для любых других типов диаграмм это свойство возвращает значение null (включая трехмерные диаграммы). В случае пользовательских значений используйте коллекцию DataPoints для указания значения (со свойством[`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)).  Только для чтения[`IErrorBarsFormat`](../../ierrorbarsformat).
 
 ```csharp
 public IErrorBarsFormat ErrorBarsXFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IErrorBarsFormat](../../ierrorbarsformat)
-* класс [ChartSeries](../../chartseries)
+* interface [IErrorBarsFormat](../../ierrorbarsformat)
+* class [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)
 * сборка [Aspose.Slides](../../../)
 

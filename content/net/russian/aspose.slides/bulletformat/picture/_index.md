@@ -1,24 +1,23 @@
 ---
-title: Изображение
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает изображение, используемое в качестве маркировки в абзаце без наследования. Только для чтения ISlidesPictureaspose.slides/islidespicture.
+title: Picture
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает изображение используемое в качестве маркера в абзаце без наследования. Только для чтенияISlidesPictureaspose.slides/islidespicture.
 type: docs
 weight: 90
 url: /ru/aspose.slides/bulletformat/picture/
 ---
+## BulletFormat.Picture property
 
-## Свойство BulletFormat.Picture
-
-Возвращает изображение, используемое в качестве маркировки в абзаце без наследования. Только для чтения [`ISlidesPicture`](../../islidespicture).
+Возвращает изображение, используемое в качестве маркера в абзаце, без наследования. Только для чтения[`ISlidesPicture`](../../islidespicture).
 
 ```csharp
 public ISlidesPicture Picture { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISlidesPicture](../../islidespicture)
-* класс [BulletFormat](../../bulletformat)
+* interface [ISlidesPicture](../../islidespicture)
+* class [BulletFormat](../../bulletformat)
 * пространство имен [Aspose.Slides](../../bulletformat)
 * сборка [Aspose.Slides](../../../)
 

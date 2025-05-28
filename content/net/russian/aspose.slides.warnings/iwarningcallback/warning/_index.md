@@ -1,13 +1,12 @@
 ---
-title: Предупреждение
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Метод обратного вызова, который получает предупреждение и решает, следует ли прервать операцию.
+title: Warning
+second_title: Справочник по API Aspose.Slides для .NET
+description: Метод обратного вызова который получает предупреждение и решает следует ли прервать операцию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.warnings/iwarningcallback/warning/
 ---
-
-## Метод IWarningCallback.Warning
+## IWarningCallback.Warning method
 
 Метод обратного вызова, который получает предупреждение и решает, следует ли прервать операцию.
 
@@ -19,15 +18,15 @@ public ReturnAction Warning(IWarningInfo warning)
 | --- | --- | --- |
 | warning | IWarningInfo | Предупреждение для обработки. |
 
-### Возврат значения
+### Возвращаемое значение
 
-Решение о прерывании [`ReturnAction`](../../returnaction).
+Решение об аборте[`ReturnAction`](../../returnaction).
 
-### См. также
+### Смотрите также
 
 * enum [ReturnAction](../../returnaction)
-* интерфейс [IWarningInfo](../../iwarninginfo)
-* интерфейс [IWarningCallback](../../iwarningcallback)
+* interface [IWarningInfo](../../iwarninginfo)
+* interface [IWarningCallback](../../iwarningcallback)
 * пространство имен [Aspose.Slides.Warnings](../../iwarningcallback)
 * сборка [Aspose.Slides](../../../)
 

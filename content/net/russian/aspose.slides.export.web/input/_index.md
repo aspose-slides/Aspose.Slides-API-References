@@ -1,15 +1,14 @@
 ---
-title: Входные данные
-second_title: Справочная информация по API Aspose.Sildes для .NET
-description: Представляет собой коллекцию шаблонов элементов ввода.
+title: Input
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор элементов ввода шаблонов дляIWebDocument.
 type: docs
-weight: 4440
+weight: 4200
 url: /ru/aspose.slides.export.web/input/
 ---
+## Input class
 
-## Класс Input
-
-Представляет собой коллекцию элементов ввода (шаблонов).
+Представляет набор элементов ввода (шаблонов) для!:IWebDocument.
 
 ```csharp
 public sealed class Input
@@ -17,11 +16,11 @@ public sealed class Input
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) |  |
 
-### Также смотрите
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * сборка [Aspose.Slides](../../)

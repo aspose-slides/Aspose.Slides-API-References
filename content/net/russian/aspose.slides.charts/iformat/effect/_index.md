@@ -1,24 +1,23 @@
 ---
-title: Эффект
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает эффекты, используемые для диаграммы. Только для чтения IEffectFormataspose.slides/ieffectformat.
+title: Effect
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает эффекты используемые для диаграммы. Только для чтенияIEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/iformat/effect/
 ---
+## IFormat.Effect property
 
-## Свойство IFormat.Effect
-
-Возвращает эффекты, используемые для диаграммы. Только для чтения [`IEffectFormat`](../../../aspose.slides/ieffectformat).
+Возвращает эффекты, используемые для диаграммы. Только для чтения[`IEffectFormat`](../../../aspose.slides/ieffectformat).
 
 ```csharp
 public IEffectFormat Effect { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectFormat](../../../aspose.slides/ieffectformat)
-* интерфейс [IFormat](../../iformat)
+* interface [IEffectFormat](../../../aspose.slides/ieffectformat)
+* interface [IFormat](../../iformat)
 * пространство имен [Aspose.Slides.Charts](../../iformat)
 * сборка [Aspose.Slides](../../../)
 

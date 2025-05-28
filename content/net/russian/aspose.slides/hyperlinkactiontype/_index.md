@@ -3,11 +3,10 @@ title: HyperlinkActionType
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет тип действия гиперссылки.
 type: docs
-weight: 4930
+weight: 4650
 url: /ru/aspose.slides/hyperlinkactiontype/
 ---
-
-## Перечисление HyperlinkActionType
+## HyperlinkActionType enumeration
 
 Представляет тип действия гиперссылки.
 
@@ -15,28 +14,28 @@ url: /ru/aspose.slides/hyperlinkactiontype/
 public enum HyperlinkActionType
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
-| Unknown | `-1` | Нераспознанный тип действия. |
-| NoAction | `0` | Без действия. |
+| Unknown | `-1` | Неизвестный тип действия. |
+| NoAction | `0` | Нет действий. |
 | Hyperlink | `1` | Обычная гиперссылка. |
 | JumpFirstSlide | `2` | Перейти к первому слайду презентации. |
 | JumpPreviousSlide | `3` | Перейти к предыдущему слайду. |
 | JumpNextSlide | `4` | Перейти к следующему слайду. |
 | JumpLastSlide | `5` | Перейти к последнему слайду презентации. |
-| JumpEndShow | `6` | Перейти к концу слайд-шоу. |
+| JumpEndShow | `6` | Перейти в конец слайд-шоу. |
 | JumpLastViewedSlide | `7` | Перейти к последнему просмотренному слайду. |
-| JumpSpecificSlide | `8` | Перейти к конкретному слайду, указанному в свойстве [`TargetSlide`](../ihyperlink/targetslide). |
-| StartCustomSlideShow | `9` | Начать настраиваемое слайд-шоу. |
+| JumpSpecificSlide | `8` | Перейти к определенному слайду, на который указывает[`TargetSlide`](../ihyperlink/targetslide)свойство. |
+| StartCustomSlideShow | `9` | Запуск пользовательского слайд-шоу. |
 | OpenFile | `10` | Открыть указанный файл. |
 | OpenPresentation | `11` | Открыть указанную презентацию. |
 | StartStopMedia | `12` | Начать/остановить воспроизведение медиафайла. |
-| StartMacro | `13` | Начать выполнение макроса. |
+| StartMacro | `13` | Начать выполнение сценария макроса. |
 | StartProgram | `14` | Запустить программу. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

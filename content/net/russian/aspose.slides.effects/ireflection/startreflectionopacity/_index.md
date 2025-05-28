@@ -1,23 +1,22 @@
 ---
 title: StartReflectionOpacity
-second_title: Справка по API Aspose.Slides для .NET
-description: Начальная непрозрачность отражения. проценты. Чтение/запись Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Начальная непрозрачность отражения. проценты. Чтение/записьSingle.
 type: docs
 weight: 160
 url: /ru/aspose.slides.effects/ireflection/startreflectionopacity/
 ---
+## IReflection.StartReflectionOpacity property
 
-## Свойство IReflection.StartReflectionOpacity
-
-Начальная непрозрачность отражения. (проценты). Чтение/запись Single.
+Начальная непрозрачность отражения. (проценты). Чтение/записьSingle.
 
 ```csharp
 public float StartReflectionOpacity { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IReflection](../../ireflection)
+* interface [IReflection](../../ireflection)
 * пространство имен [Aspose.Slides.Effects](../../ireflection)
 * сборка [Aspose.Slides](../../../)
 

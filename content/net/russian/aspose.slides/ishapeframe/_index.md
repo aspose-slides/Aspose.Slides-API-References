@@ -1,38 +1,37 @@
 ---
 title: IShapeFrame
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет свойства рамки фигуры.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет свойства фрейма фигуры.
 type: docs
-weight: 6780
+weight: 6420
 url: /ru/aspose.slides/ishapeframe/
 ---
+## IShapeFrame interface
 
-## Интерфейс IShapeFrame
-
-Представляет свойства рамки фигуры.
+Представляет свойства фрейма фигуры.
 
 ```csharp
 public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Возвращает координату X центра рамки. Только для чтения Single. |
-| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Возвращает координату Y центра рамки. Только для чтения Single. |
-| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Определяет, перевернута ли рамка по горизонтали. Только для чтения [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Определяет, перевернута ли рамка по вертикали. Только для чтения [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/ishapeframe/height) { get; } | Возвращает высоту рамки. Только для чтения Single. |
-| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Возвращает координаты рамки. Только для чтения RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Возвращает количество градусов, на которое рамка повернута вокруг оси Z. Положительное значение указывает на поворот по часовой стрелке; отрицательное значение указывает на поворот против часовой стрелки. Только для чтения Single. |
-| [Width](../../aspose.slides/ishapeframe/width) { get; } | Возвращает ширину рамки. Только для чтения Single. |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | Возвращает координату X верхнего левого угла рамки. Только для чтения Single. |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | Возвращает координату Y верхнего левого угла рамки. Только для чтения Single. |
+| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Возвращает координату X центра кадра. Только для чтенияSingle. |
+| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Возвращает координату Y центра кадра. Только для чтенияSingle. |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Определяет, переворачивается ли кадр по горизонтали. Только для чтения[`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Определяет, переворачивается ли кадр по вертикали. Только для чтения[`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/ishapeframe/height) { get; } | Возвращает высоту кадра. Только для чтенияSingle. |
+| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Возвращает координаты кадра. Только для чтенияRectangleF. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Возвращает количество градусов, на которое кадр повернут вокруг оси z. Положительное значение указывает на вращение по часовой стрелке; отрицательное значение указывает на вращение против часовой стрелки. Только для чтенияSingle. |
+| [Width](../../aspose.slides/ishapeframe/width) { get; } | Возвращает ширину кадра. Только для чтенияSingle. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | Возвращает координату X левого верхнего угла кадра. Только для чтенияSingle. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | Возвращает координату Y левого верхнего угла кадра. Только для чтенияSingle. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
+* interface [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

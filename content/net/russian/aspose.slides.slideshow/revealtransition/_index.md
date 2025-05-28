@@ -1,38 +1,37 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes для .NET API Справочник
-description: Эффект перехода слайда Reveal.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода между слайдами.
 type: docs
-weight: 9970
+weight: 9500
 url: /ru/aspose.slides.slideshow/revealtransition/
 ---
+## RevealTransition class
 
-## Класс RevealTransition
-
-Эффект перехода слайда Reveal.
+Эффект перехода между слайдами.
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Указывает, заходит ли переход через черный. Чтение/запись Boolean. |
+| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Указывает, исчезает ли переход через черный цвет. Чтение/записьBoolean. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит в качестве хэш-функции для данного типа, подходит для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
-### См. также
+### Смотрите также
 
-* класс [TransitionValueBase](../transitionvaluebase)
-* интерфейс [IRevealTransition](../irevealtransition)
+* class [TransitionValueBase](../transitionvaluebase)
+* interface [IRevealTransition](../irevealtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

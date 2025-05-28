@@ -1,15 +1,14 @@
 ---
-title: УдалитьРаздел
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Удалить раздел. Слайды, содержащиеся в разделе, будут объединены с предыдущим разделом.
+title: RemoveSection
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удалить раздел. Слайды содержащиеся в этом разделе будут объединены с предыдущим разделом.
 type: docs
 weight: 70
 url: /ru/aspose.slides/isectioncollection/removesection/
 ---
+## ISectionCollection.RemoveSection method
 
-## ISectionCollection.RemoveSection метод
-
-Удалить раздел. Слайды, содержащиеся в разделе, будут объединены с предыдущим разделом.
+Удалить раздел. Слайды, содержащиеся в этом разделе, будут объединены с предыдущим разделом.
 
 ```csharp
 public void RemoveSection(ISection section)
@@ -19,10 +18,10 @@ public void RemoveSection(ISection section)
 | --- | --- | --- |
 | section | ISection | Раздел, который необходимо удалить из коллекции. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISection](../../isection)
-* интерфейс [ISectionCollection](../../isectioncollection)
+* interface [ISection](../../isection)
+* interface [ISectionCollection](../../isectioncollection)
 * пространство имен [Aspose.Slides](../../isectioncollection)
 * сборка [Aspose.Slides](../../../)
 

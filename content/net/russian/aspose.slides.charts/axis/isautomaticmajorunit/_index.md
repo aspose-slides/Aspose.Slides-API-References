@@ -1,15 +1,14 @@
 ---
 title: IsAutomaticMajorUnit
-second_title: Aspose.Sildes для .NET - Справочник по API
-description: Указывает, назначена ли основная единица оси автоматически. Читаемое/записываемое Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает назначается ли автоматически основная единица оси. Чтение/записьBoolean.
 type: docs
 weight: 180
 url: /ru/aspose.slides.charts/axis/isautomaticmajorunit/
 ---
+## Axis.IsAutomaticMajorUnit property
 
-## Свойство Axis.IsAutomaticMajorUnit
-
-Указывает, назначена ли основная единица оси автоматически. Читаемое/записываемое Boolean.
+Указывает, назначается ли автоматически основная единица оси. Чтение/записьBoolean.
 
 ```csharp
 public bool IsAutomaticMajorUnit { get; set; }
@@ -17,7 +16,7 @@ public bool IsAutomaticMajorUnit { get; set; }
 
 ### Смотрите также
 
-* класс [Axis](../../axis)
+* class [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

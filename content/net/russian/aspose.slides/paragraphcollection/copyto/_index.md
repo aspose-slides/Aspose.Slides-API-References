@@ -1,15 +1,14 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для .NET API Reference
-description: Копирует элементы ICollection в массив, начиная с определенного индекса массива.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Копирует элементыICollectionвArray начиная с определенногоArrayindex.
 type: docs
 weight: 80
 url: /ru/aspose.slides/paragraphcollection/copyto/
 ---
+## ParagraphCollection.CopyTo method
 
-## Метод ParagraphCollection.CopyTo
-
-Копирует элементы ICollection в массив, начиная с определенного индекса массива.
+Копирует элементыICollectionвArray, начиная с определенногоArrayindex.
 
 ```csharp
 public void CopyTo(IParagraph[] array, int arrayIndex)
@@ -17,21 +16,21 @@ public void CopyTo(IParagraph[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IParagraph[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь основание индексации равное нулю. |
-| arrayIndex | Int32 | Индекс на основе нуля в *array*, с которого начинается копирование. |
+| array | IParagraph[] | ОдномерныйArrayкуда копируются элементы fromICollection.Arrayдолжен иметь индексацию с отсчетом от нуля. |
+| arrayIndex | Int32 | Отсчитываемый от нуля индекс в*array*с которого начинается копирование. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *array* равно null. |
-| ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
-| ArgumentException | Количество элементов в исходном ICollection больше доступного пространства от *arrayIndex* до конца целевого *array*. |
+| ArgumentNullException | *array*равно нулю. |
+| ArgumentOutOfRangeException | *arrayIndex*меньше 0. |
+| ArgumentException | Количество элементов в источникеICollectionбольше, чем доступное пространство из*arrayIndex*до конца адресата*array*. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IParagraph](../../iparagraph)
-* класс [ParagraphCollection](../../paragraphcollection)
+* interface [IParagraph](../../iparagraph)
+* class [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 

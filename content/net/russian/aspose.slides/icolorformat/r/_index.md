@@ -1,23 +1,22 @@
 ---
 title: R
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или задает красный компонент цвета. Все преобразования цвета игнорируются. Чтение/запись Byte.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает красный компонент цвета. Все преобразования цвета игнорируются. Чтение/записьByte.
 type: docs
 weight: 130
 url: /ru/aspose.slides/icolorformat/r/
 ---
+## IColorFormat.R property
 
-## Свойство IColorFormat.R
-
-Возвращает или задает красный компонент цвета. Все преобразования цвета игнорируются. Чтение/запись Byte.
+Возвращает или устанавливает красный компонент цвета. Все преобразования цвета игнорируются. Чтение/записьByte.
 
 ```csharp
 public byte R { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColorFormat](../../icolorformat)
+* interface [IColorFormat](../../icolorformat)
 * пространство имен [Aspose.Slides](../../icolorformat)
 * сборка [Aspose.Slides](../../../)
 

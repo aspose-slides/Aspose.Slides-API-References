@@ -1,23 +1,22 @@
 ---
 title: ShowInnerPoints
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет внутренние точки. Истина, если внутренние точки отображаются на диаграмме BoxAndWhisker. Применяется только к диаграммам BoxAndWhisker. Чтение/запись Булево.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет внутренние точки. Истинно если внутренние точки отображаются на диаграмме BoxAndWhisker. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean.
 type: docs
 weight: 380
 url: /ru/aspose.slides.charts/chartseries/showinnerpoints/
 ---
+## ChartSeries.ShowInnerPoints property
 
-## ChartSeries.ShowInnerPoints свойство
-
-Представляет внутренние точки. Истина, если внутренние точки отображаются на диаграмме BoxAndWhisker. Применяется только к диаграммам BoxAndWhisker. Чтение/запись Булево.
+Представляет внутренние точки. Истинно, если внутренние точки отображаются на диаграмме BoxAndWhisker. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean.
 
 ```csharp
 public bool ShowInnerPoints { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ChartSeries](../../chartseries)
+* class [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)
 * сборка [Aspose.Slides](../../../)
 

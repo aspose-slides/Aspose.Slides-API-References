@@ -1,32 +1,32 @@
 ---
 title: ChartWall
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет стены на 3D графиках.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет стены на трехмерных графиках.
 type: docs
-weight: 1440
+weight: 1380
 url: /ru/aspose.slides.charts/chartwall/
 ---
+## ChartWall class
 
-## Класс ChartWall
-
-Представляет стены на 3D графиках.
+Представляет стены на трехмерных графиках.
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Возвращает заливку стены, линию, эффект, 3D стили. Только для чтения [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Возвращает или задает тип изображения. Чтение/запись [`PictureType`](../picturetype). |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Возвращает или задает толщину стен как процент от наибольшего измерения объема графика. Чтение/запись Int32. |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Возвращает заливку стены, линию, эффект, 3D-стили. Только для чтения[`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Возвращает или устанавливает тип изображения. Чтение/запись[`PictureType`](../picturetype). |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Возвращает или задает толщину стен в процентах от наибольшего измерения объема графика. Чтение/записьInt32. |
 
-### Также см.
-* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* класс [Chart](../chart)
-* интерфейс [IChartWall](../ichartwall)
+### Смотрите также
+
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Chart](../chart)
+* interface [IChartWall](../ichartwall)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

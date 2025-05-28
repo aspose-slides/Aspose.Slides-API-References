@@ -1,13 +1,12 @@
 ---
-title: Закрыть
+title: Close
 second_title: Справочник по API Aspose.Slides для .NET
 description: Закрывает текущий поток и освобождает все ресурсы.
 type: docs
 weight: 80
 url: /ru/aspose.slides/streamwrapper/close/
 ---
-
-## Метод StreamWrapper.Close
+## StreamWrapper.Close method
 
 Закрывает текущий поток и освобождает все ресурсы.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/streamwrapper/close/
 public void Close()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [StreamWrapper](../../streamwrapper)
+* class [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

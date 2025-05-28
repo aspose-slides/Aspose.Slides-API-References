@@ -1,23 +1,22 @@
 ---
 title: SlideId
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Возвращает идентификатор слайда. Только для чтения UInt32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает идентификатор слайда. Только для чтенияUInt32.
 type: docs
 weight: 90
 url: /ru/aspose.slides/baseslide/slideid/
 ---
+## BaseSlide.SlideId property
 
-## Свойство BaseSlide.SlideId
-
-Возвращает идентификатор слайда. Только для чтения UInt32.
+Возвращает идентификатор слайда. Только для чтенияUInt32.
 
 ```csharp
 public uint SlideId { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [BaseSlide](../../baseslide)
+* class [BaseSlide](../../baseslide)
 * пространство имен [Aspose.Slides](../../baseslide)
 * сборка [Aspose.Slides](../../../)
 

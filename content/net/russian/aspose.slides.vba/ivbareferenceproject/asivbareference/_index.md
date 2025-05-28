@@ -1,15 +1,14 @@
 ---
 title: AsIVbaReference
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает интерфейс IVbaReference. Только для чтения IVbaReferenceaspose.slides.vba/ivbareference.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает интерфейс IVbaReference. Только для чтенияIVbaReferenceaspose.slides.vba/ivbareference.
 type: docs
 weight: 10
 url: /ru/aspose.slides.vba/ivbareferenceproject/asivbareference/
 ---
+## IVbaReferenceProject.AsIVbaReference property
 
-## IVbaReferenceProject.AsIVbaReference свойство
-
-Возвращает интерфейс IVbaReference. Только для чтения [`IVbaReference`](../../ivbareference).
+Возвращает интерфейс IVbaReference. Только для чтения[`IVbaReference`](../../ivbareference).
 
 ```csharp
 public IVbaReference AsIVbaReference { get; }
@@ -17,12 +16,12 @@ public IVbaReference AsIVbaReference { get; }
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IVbaReference](../../ivbareference)
-* интерфейс [IVbaReferenceProject](../../ivbareferenceproject)
+* interface [IVbaReference](../../ivbareference)
+* interface [IVbaReferenceProject](../../ivbareferenceproject)
 * пространство имен [Aspose.Slides.Vba](../../ivbareferenceproject)
 * сборка [Aspose.Slides](../../../)
 

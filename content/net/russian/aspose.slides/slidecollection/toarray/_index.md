@@ -1,12 +1,11 @@
 ---
 title: ToArray
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает и возвращает массив со всеми слайдами в нем.
 type: docs
 weight: 180
 url: /ru/aspose.slides/slidecollection/toarray/
 ---
-
 ## ToArray() {#toarray}
 
 Создает и возвращает массив со всеми слайдами в нем.
@@ -17,12 +16,12 @@ public ISlide[] ToArray()
 
 ### Возвращаемое значение
 
-Массив [`Slide`](../../slide)
+Массив[`Slide`](../../slide)
 
 ### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* класс [SlideCollection](../../slidecollection)
+* interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
 * пространство имен [Aspose.Slides](../../slidecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -30,7 +29,7 @@ public ISlide[] ToArray()
 
 ## ToArray(int, int) {#toarray_1}
 
-Создает и возвращает массив со всеми слайдами из указанного диапазона в нем. Индекс первого слайда, который нужно добавить. Количество слайдов для добавления.
+Создает и возвращает массив со всеми слайдами из указанного диапазона в нем.  Индекс первого добавляемого слайда. Количество слайдов для добавления.
 
 ```csharp
 public ISlide[] ToArray(int startIndex, int count)
@@ -38,12 +37,12 @@ public ISlide[] ToArray(int startIndex, int count)
 
 ### Возвращаемое значение
 
-Массив [`Slide`](../../slide)
+Массив[`Slide`](../../slide)
 
 ### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* класс [SlideCollection](../../slidecollection)
+* interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
 * пространство имен [Aspose.Slides](../../slidecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: CommandEffect
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет командный эффект для анимационного поведения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет эффект команды для поведения анимации.
 type: docs
-weight: 180
+weight: 160
 url: /ru/aspose.slides.animation/commandeffect/
 ---
+## CommandEffect class
 
-## Класс CommandEffect
-
-Представляет командный эффект для анимационного поведения.
+Представляет эффект команды для поведения анимации.
 
 ```csharp
 public class CommandEffect : Behavior, ICommandEffect
@@ -17,26 +16,26 @@ public class CommandEffect : Behavior, ICommandEffect
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [CommandEffect](commandeffect)() | Создает новый экземпляр. |
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Представляет, накапливаются ли анимационные поведения. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Представляет, комбинируется ли текущее анимационное поведение с другими активными анимациями. Чтение/запись [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Определяет командную строку. Чтение/запись Строка. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Определяет целевую фигуру командного эффекта. Чтение/запись [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет свойства тайминга для эффекта поведения. Чтение/запись [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Определяет тип командного эффекта поведения. Чтение/запись [`CommandEffectType`](../commandeffecttype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Указывает, сочетается ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../behavioradditivetype). |
+| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Определяет командную строку. Чтение/записьString. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Определяет форму цели командного эффекта. Чтение/запись[`IShape`](../../aspose.slides/ishape). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет свойства синхронизации для поведения эффекта. Чтение/запись[`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Определяет тип поведения командного эффекта. Чтение/запись[`CommandEffectType`](../commandeffecttype). |
 
-### См. также
+### Смотрите также
 
-* класс [Behavior](../behavior)
-* интерфейс [ICommandEffect](../icommandeffect)
+* class [Behavior](../behavior)
+* interface [ICommandEffect](../icommandeffect)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

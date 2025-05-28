@@ -1,15 +1,14 @@
 ---
-title: Данные
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает или устанавливает объект Data. Читаемый/записываемый объект.
+title: Data
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает объект данных. Чтение/записьObject.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/doublechartvalue/data/
 ---
+## DoubleChartValue.Data property
 
-## Свойство DoubleChartValue.Data
-
-Возвращает или устанавливает объект Data. Читаемый/записываемый объект.
+Возвращает или устанавливает объект данных. Чтение/записьObject.
 
 ```csharp
 public override object Data { get; set; }
@@ -17,7 +16,7 @@ public override object Data { get; set; }
 
 ### Смотрите также
 
-* класс [DoubleChartValue](../../doublechartvalue)
+* class [DoubleChartValue](../../doublechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../doublechartvalue)
 * сборка [Aspose.Slides](../../../)
 

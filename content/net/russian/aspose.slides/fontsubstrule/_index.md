@@ -1,13 +1,12 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет информацию о подстановке шрифта
 type: docs
-weight: 4690
+weight: 4440
 url: /ru/aspose.slides/fontsubstrule/
 ---
-
-## Класс FontSubstRule
+## FontSubstRule class
 
 Представляет информацию о подстановке шрифта
 
@@ -22,17 +21,17 @@ public class FontSubstRule : IFontSubstRule
 | [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | Создает новый экземпляр. |
 | [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | Создает новый экземпляр. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Шрифт для подстановки. Только для чтения [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Правило для подстановки. Только для чтения [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Шрифт, который нужно заменить. Только для чтения [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Шрифт для подстановки. Только для чтения[`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Правило применения замены. Только для чтения[`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Шрифт для подстановки. Только для чтения[`IFontData`](../ifontdata). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontSubstRule](../ifontsubstrule)
+* interface [IFontSubstRule](../ifontsubstrule)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

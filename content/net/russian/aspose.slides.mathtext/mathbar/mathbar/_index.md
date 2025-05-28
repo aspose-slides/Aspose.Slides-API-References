@@ -1,15 +1,14 @@
 ---
 title: MathBar
 second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует MathBar с положением надстрочной линии
+description: Инициализирует MathBar с верхней чертой верхнее положение
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathbar/mathbar/
 ---
-
 ## MathBar(IMathElement) {#constructor}
 
-Инициализирует MathBar с надстрочной линией (положение сверху)
+Инициализирует MathBar с верхней чертой (верхнее положение)
 
 ```csharp
 public MathBar(IMathElement element)
@@ -17,7 +16,7 @@ public MathBar(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Базовый элемент, к которому применяется линия |
+| element | IMathElement | База элемент, к которому применяется полоса |
 
 ### Примеры
 
@@ -28,10 +27,10 @@ public MathBar(IMathElement element)
 MathBar mathBar = new MathBar(new MathematicalText("x"));
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathBar](../../mathbar)
+* interface [IMathElement](../../imathelement)
+* class [MathBar](../../mathbar)
 * пространство имен [Aspose.Slides.MathText](../../mathbar)
 * сборка [Aspose.Slides](../../../)
 
@@ -39,7 +38,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"));
 
 ## MathBar(IMathElement, MathTopBotPositions) {#constructor_1}
 
-Инициализирует MathBar с указанным положением
+Инициализирует MathBar с указанной позицией
 
 ```csharp
 public MathBar(IMathElement element, MathTopBotPositions position)
@@ -47,8 +46,8 @@ public MathBar(IMathElement element, MathTopBotPositions position)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Базовый элемент, к которому применяется линия |
-| position | MathTopBotPositions | Положение линии барной строки. |
+| element | IMathElement | Базовый элемент, к которому бар применяется |
+| position | MathTopBotPositions | Позиция линии бара. |
 
 ### Примеры
 
@@ -59,11 +58,11 @@ public MathBar(IMathElement element, MathTopBotPositions position)
 MathBar mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions.Bottom);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* перечисление [MathTopBotPositions](../../mathtopbotpositions)
-* класс [MathBar](../../mathbar)
+* interface [IMathElement](../../imathelement)
+* enum [MathTopBotPositions](../../mathtopbotpositions)
+* class [MathBar](../../mathbar)
 * пространство имен [Aspose.Slides.MathText](../../mathbar)
 * сборка [Aspose.Slides](../../../)
 

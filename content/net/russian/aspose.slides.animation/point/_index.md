@@ -1,15 +1,14 @@
 ---
-title: Точка
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет анимационную точку.
+title: Point
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет точку анимации.
 type: docs
-weight: 640
+weight: 620
 url: /ru/aspose.slides.animation/point/
 ---
+## Point class
 
-## Класс Point
-
-Представляет анимационную точку.
+Представляет точку анимации.
 
 ```csharp
 public class Point : IPoint
@@ -20,19 +19,19 @@ public class Point : IPoint
 | Имя | Описание |
 | --- | --- |
 | [Point](point#constructor)() | Конструктор по умолчанию. |
-| [Point](point#constructor_1)(float, object, string) | Создать анимационную точку с временем, значением и формулой. |
+| [Point](point#constructor_1)(float, object, string) | Создать точку анимации со временем, значением и формулой. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Формулы в атрибутах значений from, to, by могут состоять из следующих: Стандартные арифметические операторы: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Константы: ‘pi’ ‘e’ Условные операторы: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Операторы сравнения: '==', '&gt;=', '', '!=', '!' Тригонометрические операторы: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Натуральный логарифм ‘ln()’ Ссылки на свойства (поддерживаемые хостом), например: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Чтение/запись Строка. |
-| [Time](../../aspose.slides.animation/point/time) { get; set; } | Представляет значение времени. Чтение/запись Одиночное. |
-| [Value](../../aspose.slides.animation/point/value) { get; set; } | Представляет значение точки. Только: bool, ColorFormat, float, int, string. Чтение/запись Объект. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Формулы внутри значений, от, до, по атрибутам могут состоять из следующих: Стандартные арифметические операторы:'+', '-' , '*', '/', '^', '%' (mod) Константы:'pi' 'e' Условные операторы:'abs', 'min ', 'Максимум', '?' (if) Операторы сравнения:'==', '&gt;=', '', '!=', '!' Тригонометрические операторы:'sin()', 'cos()', 'tan()', 'asin()', 'acos()', 'atan()' Натуральный логарифм 'ln()' Ссылки на свойства (свойства, поддерживаемые хостом) например:"#ppt_x+(cos(-2*pi *(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Чтение/записьString. |
+| [Time](../../aspose.slides.animation/point/time) { get; set; } | Представляет значение времени. Чтение/записьSingle. |
+| [Value](../../aspose.slides.animation/point/value) { get; set; } | Представляет значение в очках. Только:bool, ColorFormat, float, int, string. Чтение/записьObject. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPoint](../ipoint)
+* interface [IPoint](../ipoint)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

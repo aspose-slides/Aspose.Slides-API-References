@@ -1,13 +1,12 @@
 ---
 title: MathSubscriptElement
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр класса MathSubscriptElement.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathsubscriptelement/mathsubscriptelement/
 ---
-
-## Конструктор MathSubscriptElement
+## MathSubscriptElement constructor
 
 Инициализирует новый экземпляр класса MathSubscriptElement.
 
@@ -26,10 +25,10 @@ IMathElement subscript = new MathematicalText("i");
 MathSubscriptElement subscriptElement = new MathSubscriptElement(baseElement, subscript);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathSubscriptElement](../../mathsubscriptelement)
+* interface [IMathElement](../../imathelement)
+* class [MathSubscriptElement](../../mathsubscriptelement)
 * пространство имен [Aspose.Slides.MathText](../../mathsubscriptelement)
 * сборка [Aspose.Slides](../../../)
 

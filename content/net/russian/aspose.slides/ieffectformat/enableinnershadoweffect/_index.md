@@ -1,13 +1,12 @@
 ---
 title: EnableInnerShadowEffect
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Включает эффект внутренней тени.
 type: docs
 weight: 210
 url: /ru/aspose.slides/ieffectformat/enableinnershadoweffect/
 ---
-
-## Метод IEffectFormat.EnableInnerShadowEffect
+## IEffectFormat.EnableInnerShadowEffect method
 
 Включает эффект внутренней тени.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/ieffectformat/enableinnershadoweffect/
 public void EnableInnerShadowEffect()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectFormat](../../ieffectformat)
+* interface [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)
 * сборка [Aspose.Slides](../../../)
 

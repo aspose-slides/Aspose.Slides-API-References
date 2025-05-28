@@ -1,23 +1,22 @@
 ---
 title: GapWidth
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает расстояние между группами столбцов или баров в процентах от ширины столбца или бара. Чтение/запись UInt16.
+description: Задает расстояние между кластерами полос или столбцов в процентах от ширины полосы или столбца. Чтение/записьUInt16.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/chartseriesgroup/gapwidth/
 ---
+## ChartSeriesGroup.GapWidth property
 
-## Свойство ChartSeriesGroup.GapWidth
-
-Указывает расстояние между группами столбцов или баров, в процентах от ширины столбца или бара. Чтение/запись UInt16.
+Задает расстояние между кластерами полос или столбцов в процентах от ширины полосы или столбца. Чтение/записьUInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ChartSeriesGroup](../../chartseriesgroup)
+* class [ChartSeriesGroup](../../chartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../chartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

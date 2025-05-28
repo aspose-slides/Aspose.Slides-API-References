@@ -1,24 +1,23 @@
 ---
 title: DefaultParagraphFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Форматирование параграфов по умолчанию. Только для чтения IParagraphFormataspose.slides/iparagraphformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Свойства абзаца по умолчанию. Только для чтенияIParagraphFormataspose.slides/iparagraphformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/itextstyle/defaultparagraphformat/
 ---
+## ITextStyle.DefaultParagraphFormat property
 
-## ITextStyle.DefaultParagraphFormat свойство
-
-Форматирование параграфов по умолчанию. Только для чтения [`IParagraphFormat`](../../iparagraphformat).
+Свойства абзаца по умолчанию. Только для чтения[`IParagraphFormat`](../../iparagraphformat).
 
 ```csharp
 public IParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IParagraphFormat](../../iparagraphformat)
-* интерфейс [ITextStyle](../../itextstyle)
+* interface [IParagraphFormat](../../iparagraphformat)
+* interface [ITextStyle](../../itextstyle)
 * пространство имен [Aspose.Slides](../../itextstyle)
 * сборка [Aspose.Slides](../../../)
 

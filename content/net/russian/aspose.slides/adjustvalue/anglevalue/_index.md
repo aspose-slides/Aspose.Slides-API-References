@@ -1,15 +1,14 @@
 ---
 title: AngleValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает значение, интерпретируя его как угол в градусах. Чтение/запись Single.
+description: Возвращает или устанавливает значение интерпретируя его как угол в градусах. Чтение/записьSingle.
 type: docs
 weight: 10
 url: /ru/aspose.slides/adjustvalue/anglevalue/
 ---
+## AdjustValue.AngleValue property
 
-## Свойство AdjustValue.AngleValue
-
-Возвращает или устанавливает значение, интерпретируя его как угол в градусах. Чтение/запись Single.
+Возвращает или устанавливает значение, интерпретируя его как угол в градусах. Чтение/записьSingle.
 
 ```csharp
 public float AngleValue { get; set; }
@@ -17,7 +16,7 @@ public float AngleValue { get; set; }
 
 ### Смотрите также
 
-* класс [AdjustValue](../../adjustvalue)
+* class [AdjustValue](../../adjustvalue)
 * пространство имен [Aspose.Slides](../../adjustvalue)
 * сборка [Aspose.Slides](../../../)
 

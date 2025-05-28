@@ -1,15 +1,14 @@
 ---
 title: ContainsCustomProperty
 second_title: Справочник по API Aspose.Slides для .NET
-description: Проверьте наличие настраиваемого свойства с указанным именем.
+description: Проверить наличие пользовательского свойства с указанным именем.
 type: docs
-weight: 380
+weight: 270
 url: /ru/aspose.slides/idocumentproperties/containscustomproperty/
 ---
+## IDocumentProperties.ContainsCustomProperty method
 
-## Метод IDocumentProperties.ContainsCustomProperty
-
-Проверьте наличие настраиваемого свойства с указанным именем.
+Проверить наличие пользовательского свойства с указанным именем.
 
 ```csharp
 public bool ContainsCustomProperty(string name)
@@ -17,15 +16,15 @@ public bool ContainsCustomProperty(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя настраиваемого свойства для проверки. |
+| name | String | Имя пользовательского свойства для проверки. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-Возвращает true, если свойство существует, в противном случае - false.
+Возвращает true, если свойство существует, и false в противном случае.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
+* interface [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 

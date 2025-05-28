@@ -1,37 +1,34 @@
 ---
 title: IRenderingOptions
-second_title: Aspose.Sildes для .NET API Reference
-description: Предоставляет параметры, которые контролируют, как представление/слайд отображается.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Предоставляет параметры управляющие визуализацией презентации/слайда.
 type: docs
-weight: 3870
+weight: 3710
 url: /ru/aspose.slides.export/irenderingoptions/
 ---
+## IRenderingOptions interface
 
-## Интерфейс IRenderingOptions
-
-Предоставляет параметры, которые контролируют, как представление/слайд отображается.
+Предоставляет параметры, управляющие визуализацией презентации/слайда.
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, отображается ли текст без использования лигатур. При установке в `true` лигатуры будут отключены в отображаемом выводе. По умолчанию это свойство установлено в `false`. |
-| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Получает или устанавливает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
+| [NotesCommentsLayouting](../../aspose.slides.export/irenderingoptions/notescommentslayouting) { get; } | Предоставляет параметры, управляющие размещением примечаний и комментариев в экспортируемом документе. |
 
 ### Примеры
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation("pres.pptx"))
-{
+  {
   IRenderingOptions renderingOpts = new RenderingOptions();
-  renderingOpts.SlidesLayoutOptions = new NotesCommentsLayoutingOptions { NotesPosition = NotesPositions.BottomTruncated};
+  renderingOpts.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
   
   pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-Original.png", ImageFormat.Png);
   
@@ -45,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### Смотрите также
 
-* интерфейс [ISaveOptions](../isaveoptions)
+* interface [ISaveOptions](../isaveoptions)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

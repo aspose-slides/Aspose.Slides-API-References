@@ -1,15 +1,14 @@
 ---
 title: GetFontFolders
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает папки с шрифтами. Возвращает папки, которые были добавлены с помощью метода LoadExternalFonts, а также системные папки шрифтов
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает папки со шрифтами. Возвращает папки которые были добавлены методом LoadExternalFonts а также папки системных шрифтов
 type: docs
 weight: 20
 url: /ru/aspose.slides/fontsloader/getfontfolders/
 ---
+## FontsLoader.GetFontFolders method
 
-## FontsLoader.GetFontFolders метод
-
-Получает папки с шрифтами. Возвращает папки, которые были добавлены с помощью метода LoadExternalFonts, а также системные папки шрифтов
+Получает папки со шрифтами. Возвращает папки, которые были добавлены методом LoadExternalFonts, а также папки системных шрифтов
 
 ```csharp
 public static string[] GetFontFolders()
@@ -17,11 +16,11 @@ public static string[] GetFontFolders()
 
 ### Возвращаемое значение
 
-массив, содержащий названия папок
+массив, содержащий имена папок
 
-### См. также
+### Смотрите также
 
-* класс [FontsLoader](../../fontsloader)
+* class [FontsLoader](../../fontsloader)
 * пространство имен [Aspose.Slides](../../fontsloader)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: CanWrite
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение, указывающее, поддерживает ли текущий поток запись. Только для чтения логическое значение.
+description: Получает значение указывающее поддерживает ли текущий поток запись. Только чтениеBoolean.
 type: docs
 weight: 40
 url: /ru/aspose.slides/streamwrapper/canwrite/
 ---
+## StreamWrapper.CanWrite property
 
-## Свойство StreamWrapper.CanWrite
-
-Получает значение, указывающее, поддерживает ли текущий поток запись. Только для чтения логическое значение.
+Получает значение, указывающее, поддерживает ли текущий поток запись. Только чтениеBoolean.
 
 ```csharp
 public bool CanWrite { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [StreamWrapper](../../streamwrapper)
+* class [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

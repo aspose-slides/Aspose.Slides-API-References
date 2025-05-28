@@ -1,23 +1,22 @@
 ---
 title: LogBase
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет логарифмическую основу. Значение по умолчанию - 10. Чтение/запись Double.
+description: Представляет основание логарифма. Значение по умолчанию  10. Чтение/записьDouble.
 type: docs
 weight: 330
 url: /ru/aspose.slides.charts/axis/logbase/
 ---
+## Axis.LogBase property
 
-## Свойство Axis.LogBase
-
-Представляет логарифмическую основу. Значение по умолчанию - 10. Чтение/запись Double.
+Представляет основание логарифма. Значение по умолчанию — 10. Чтение/записьDouble.
 
 ```csharp
 public double LogBase { get; set; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* класс [Axis](../../axis)
+* class [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

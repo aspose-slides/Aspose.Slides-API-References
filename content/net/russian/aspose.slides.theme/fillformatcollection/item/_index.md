@@ -1,24 +1,23 @@
 ---
-title: Элемент
-second_title: Aspose.Sildes для .NET API Reference
-description: Получает элемент по указанному индексу. Только для чтения IFillFormataspose.slides/ifillformat.
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает элемент по указанному индексу. Только для чтенияIFillFormataspose.slides/ifillformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides.theme/fillformatcollection/item/
 ---
+## FillFormatCollection indexer
 
-## Индексатор FillFormatCollection
-
-Получает элемент по указанному индексу. Только для чтения [`IFillFormat`](../../../aspose.slides/ifillformat).
+Получает элемент по указанному индексу. Только для чтения[`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat this[int index] { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFillFormat](../../../aspose.slides/ifillformat)
-* класс [FillFormatCollection](../../fillformatcollection)
+* interface [IFillFormat](../../../aspose.slides/ifillformat)
+* class [FillFormatCollection](../../fillformatcollection)
 * пространство имен [Aspose.Slides.Theme](../../fillformatcollection)
 * сборка [Aspose.Slides](../../../)
 

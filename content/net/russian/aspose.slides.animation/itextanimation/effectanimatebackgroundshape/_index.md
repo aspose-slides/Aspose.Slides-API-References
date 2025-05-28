@@ -1,15 +1,14 @@
 ---
 title: EffectAnimateBackgroundShape
-second_title: Aspose.Slides для .NET API Справочник
-description: Связанный эффект фигуры с группой или не нулевой Read/write IEffectaspose.slides.animation/ieffect.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Связанный эффект формы с группой или нет null Чтение/записьIEffectaspose.slides.animation/ieffect.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/itextanimation/effectanimatebackgroundshape/
 ---
+## ITextAnimation.EffectAnimateBackgroundShape property
 
-## ITextAnimation.EffectAnimateBackgroundShape свойство
-
-Связанный эффект фигуры с группой или не (null) Read/write [`IEffect`](../../ieffect).
+Связанный эффект формы с группой или нет (null) Чтение/запись[`IEffect`](../../ieffect).
 
 ```csharp
 public IEffect EffectAnimateBackgroundShape { get; set; }
@@ -17,8 +16,8 @@ public IEffect EffectAnimateBackgroundShape { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IEffect](../../ieffect)
-* интерфейс [ITextAnimation](../../itextanimation)
+* interface [IEffect](../../ieffect)
+* interface [ITextAnimation](../../itextanimation)
 * пространство имен [Aspose.Slides.Animation](../../itextanimation)
 * сборка [Aspose.Slides](../../../)
 

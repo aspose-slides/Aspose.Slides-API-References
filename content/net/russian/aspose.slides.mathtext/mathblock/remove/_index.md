@@ -1,15 +1,14 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Удаляет первое вхождение конкретного объекта из коллекции.
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет первое вхождение определенного объекта из коллекции.
 type: docs
 weight: 160
 url: /ru/aspose.slides.mathtext/mathblock/remove/
 ---
+## MathBlock.Remove method
 
-## Метод MathBlock.Remove
-
-Удаляет первое вхождение конкретного объекта из коллекции.
+Удаляет первое вхождение определенного объекта из коллекции.
 
 ```csharp
 public bool Remove(IMathElement item)
@@ -17,11 +16,11 @@ public bool Remove(IMathElement item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IMathElement | Объект, который необходимо удалить из коллекции. |
+| item | IMathElement | Объект, удаляемый из коллекции. |
 
 ### Возвращаемое значение
 
-true, если *item* успешно удален из коллекции; в противном случае false. Этот метод также возвращает false, если *item* не найден в оригинальной коллекции.
+true, если*item*был успешно удален из коллекции; в противном случае ложно. Этот метод также возвращает false, если*item*не найден в исходной коллекции.
 
 ### Примеры
 
@@ -36,10 +35,10 @@ mathBlock.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3
 mathBlock.Remove(plusElement);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathBlock](../../mathblock)
+* interface [IMathElement](../../imathelement)
+* class [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

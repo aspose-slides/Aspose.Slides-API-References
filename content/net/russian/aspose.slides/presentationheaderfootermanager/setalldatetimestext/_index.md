@@ -1,15 +1,14 @@
 ---
 title: SetAllDateTimesText
-second_title: Aspose.Slides для .NET Справочник по API
-description: Устанавливает текст для всех заполнителей даты и времени, включая основные слайды, макеты слайдов, слайды, основные заметки, заметки слайдов и основные раздаточные материалы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает текст для всех заполнителей даты и времени включая мастер-слайды макеты слайдов слайды мастер заметок слайды заметок и мастер раздаточных материалов.
 type: docs
 weight: 10
 url: /ru/aspose.slides/presentationheaderfootermanager/setalldatetimestext/
 ---
+## PresentationHeaderFooterManager.SetAllDateTimesText method
 
-## PresentationHeaderFooterManager.SetAllDateTimesText метод
-
-Устанавливает текст для всех заполнителей даты и времени, включая основные слайды, макеты слайдов, слайды, основные заметки, заметки слайдов и основные раздаточные материалы.
+Устанавливает текст для всех заполнителей даты и времени, включая мастер-слайды, макеты слайдов, слайды, мастер заметок, слайды заметок и мастер раздаточных материалов.
 
 ```csharp
 public void SetAllDateTimesText(string text)
@@ -19,9 +18,9 @@ public void SetAllDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### Также см. 
+### Смотрите также
 
-* класс [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
+* class [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * пространство имен [Aspose.Slides](../../presentationheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

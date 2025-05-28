@@ -1,23 +1,22 @@
 ---
-title: Ключевые слова
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или задает ключевые слова презентации. Читаемая/записываемая строка.
+title: Keywords
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает ключевые слова презентации. Чтение/записьString.
 type: docs
-weight: 170
+weight: 140
 url: /ru/aspose.slides/documentproperties/keywords/
 ---
+## DocumentProperties.Keywords property
 
-## Свойство DocumentProperties.Keywords
-
-Возвращает или задает ключевые слова презентации. Читаемая/записываемая строка.
+Возвращает или устанавливает ключевые слова презентации. Чтение/записьString.
 
 ```csharp
 public string Keywords { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [DocumentProperties](../../documentproperties)
+* class [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

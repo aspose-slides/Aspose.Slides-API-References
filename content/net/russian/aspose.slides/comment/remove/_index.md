@@ -1,13 +1,12 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет комментарий и все его ответы из родительской коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides/comment/remove/
 ---
-
-## Метод Comment.Remove
+## Comment.Remove method
 
 Удаляет комментарий и все его ответы из родительской коллекции.
 
@@ -19,11 +18,11 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Генерируется, если комментарий уже удален |
+| [PptxEditException](../../pptxeditexception) | Выдается, если комментарий уже удален |
 
-### См. также
+### Смотрите также
 
-* класс [Comment](../../comment)
+* class [Comment](../../comment)
 * пространство имен [Aspose.Slides](../../comment)
 * сборка [Aspose.Slides](../../../)
 

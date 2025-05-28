@@ -1,23 +1,22 @@
 ---
 title: IsTextHolder
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, является ли фигура TextHolder. Свойство только для чтения типа Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет является ли фигура TextHolder. Только чтениеBoolean.
 type: docs
-weight: 150
+weight: 140
 url: /ru/aspose.slides/ishape/istextholder/
 ---
+## IShape.IsTextHolder property
 
-## IShape.IsTextHolder свойство
-
-Определяет, является ли фигура TextHolder. Свойство только для чтения типа Boolean.
+Определяет, является ли фигура TextHolder. Только чтениеBoolean.
 
 ```csharp
 public bool IsTextHolder { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShape](../../ishape)
+* interface [IShape](../../ishape)
 * пространство имен [Aspose.Slides](../../ishape)
 * сборка [Aspose.Slides](../../../)
 

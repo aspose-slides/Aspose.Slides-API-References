@@ -1,21 +1,20 @@
 ---
 title: IEffectParamSource
-second_title: Aspose.Slides для .NET API Справочник
-description: Интерфейс вспомогательных параметров эффекта.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Интерфейс параметров вспомогательных эффектов.
 type: docs
-weight: 5560
+weight: 5240
 url: /ru/aspose.slides/ieffectparamsource/
 ---
+## IEffectParamSource interface
 
-## Интерфейс IEffectParamSource
-
-Интерфейс вспомогательных параметров эффекта.
+Интерфейс параметров вспомогательных эффектов.
 
 ```csharp
 public interface IEffectParamSource
 ```
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

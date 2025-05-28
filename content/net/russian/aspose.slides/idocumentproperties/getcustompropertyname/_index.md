@@ -1,15 +1,14 @@
 ---
 title: GetCustomPropertyName
-second_title: Aspose.Sildes для справочника API .NET
-description: Вернуть имя пользовательского свойства по указанному индексу.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает имя пользовательского свойства по указанному индексу.
 type: docs
-weight: 390
+weight: 280
 url: /ru/aspose.slides/idocumentproperties/getcustompropertyname/
 ---
+## IDocumentProperties.GetCustomPropertyName method
 
-## Метод IDocumentProperties.GetCustomPropertyName
-
-Вернуть имя пользовательского свойства по указанному индексу.
+Возвращает имя пользовательского свойства по указанному индексу.
 
 ```csharp
 public string GetCustomPropertyName(int index)
@@ -17,7 +16,7 @@ public string GetCustomPropertyName(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс с нулевым основанием пользовательского свойства для получения. |
+| index | Int32 | Отсчитываемый от нуля индекс получаемого пользовательского свойства. |
 
 ### Возвращаемое значение
 
@@ -27,11 +26,11 @@ public string GetCustomPropertyName(int index)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс меньше нуля. Индекс равен или больше Count. |
+| ArgumentOutOfRangeException | Индекс меньше нуля. Индекс равен или больше, чем Count. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
+* interface [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: TextCapType
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет тип капитализации текста.
 type: docs
-weight: 10620
+weight: 10120
 url: /ru/aspose.slides/textcaptype/
 ---
-
-## Перечисление TextCapType
+## TextCapType enumeration
 
 Представляет тип капитализации текста.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/textcaptype/
 public enum TextCapType : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

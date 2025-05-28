@@ -1,13 +1,12 @@
 ---
 title: BehaviorFactory
-second_title: Ссылка на API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Позволяет создавать анимационные эффекты
 type: docs
-weight: 100
+weight: 80
 url: /ru/aspose.slides.animation/behaviorfactory/
 ---
-
-## Класс BehaviorFactory
+## BehaviorFactory class
 
 Позволяет создавать анимационные эффекты
 
@@ -27,20 +26,20 @@ public class BehaviorFactory : IBehaviorFactory
 | --- | --- |
 | [CreateColorEffect](../../aspose.slides.animation/behaviorfactory/createcoloreffect)() | Создает цветовой эффект. |
 | [CreateCommandEffect](../../aspose.slides.animation/behaviorfactory/createcommandeffect)() | Создает командный эффект. |
-| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Создает фильтровый эффект. |
+| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Создает эффект фильтра. |
 | [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | Создает эффект движения. |
 | [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Создает эффект свойства. |
 | [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Создает эффект вращения. |
-| [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Создает эффект масштабирования. |
-| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Создает эффект установки. |
+| [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Создает эффект масштаба. |
+| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Создает эффект набора. |
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IBehaviorFactory](../ibehaviorfactory)
+* interface [IBehaviorFactory](../ibehaviorfactory)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

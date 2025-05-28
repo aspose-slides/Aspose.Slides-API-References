@@ -1,45 +1,44 @@
 ---
 title: IThreeDFormat
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет 3-D свойства.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет трехмерные свойства.
 type: docs
-weight: 7110
+weight: 6750
 url: /ru/aspose.slides/ithreedformat/
 ---
+## IThreeDFormat interface
 
-## Интерфейс IThreeDFormat
-
-Представляет 3-D свойства.
+Представляет трехмерные свойства.
 
 ```csharp
 public interface IThreeDFormat : IThreeDParamSource
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Позволяет получить базовый интерфейс IThreeDParamSource. Только для чтения [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Возвращает или задает тип нижнего 3D фаски. Только для чтения [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Возвращает или задает тип верхнего 3D фаски. Только для чтения [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Возвращает или задает настройки камеры. Только для чтения [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Возвращает или задает цвет контура. Только для чтения [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Возвращает или задает ширину 3D контура. Чтение/запись Double. |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Возвращает или задает глубину 3D формы. Чтение/запись Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Возвращает или задает цвет экструзии. Только для чтения [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Возвращает или задает высоту эффекта экструзии. Чтение/запись Double. |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Возвращает или задает тип света. Только для чтения [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Возвращает или задает тип материала. Чтение/запись [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Позволяет получить базовый интерфейс IThreeDParamSource. Только для чтения[`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Возвращает или задает тип нижней 3D фаски. Только для чтения[`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Возвращает или задает тип верхней 3D фаски. Только для чтения[`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Возвращает или устанавливает настройки камеры. Только для чтения[`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Возвращает или устанавливает цвет контура. Только для чтения[`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Возвращает или задает ширину трехмерного контура. Чтение/записьDouble. |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Возвращает или задает глубину трехмерной формы. Чтение/записьDouble. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Возвращает или задает цвет выдавливания. Только для чтения[`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Возвращает или задает высоту эффекта выдавливания. Чтение/записьDouble. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Возвращает или устанавливает тип источника света. Только для чтения[`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Возвращает или задает тип материала. Чтение/запись[`MaterialPresetType`](../materialpresettype). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Получает эффективные данные 3-D форматирования с примененным наследованием. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Получает эффективные данные трехмерного форматирования с применением наследования. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IThreeDParamSource](../ithreedparamsource)
+* interface [IThreeDParamSource](../ithreedparamsource)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

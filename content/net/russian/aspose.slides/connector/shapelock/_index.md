@@ -1,24 +1,23 @@
 ---
 title: ShapeLock
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает блокировки фигур. Только для чтения IConnectorLockaspose.slides/iconnectorlock.
+description: Возвращает блокировки фигуры. Только для чтенияIConnectorLockaspose.slides/iconnectorlock.
 type: docs
 weight: 40
 url: /ru/aspose.slides/connector/shapelock/
 ---
+## Connector.ShapeLock property
 
-## Свойство Connector.ShapeLock
-
-Возвращает блокировки фигуры. Только для чтения [`IConnectorLock`](../../iconnectorlock).
+Возвращает блокировки фигуры. Только для чтения[`IConnectorLock`](../../iconnectorlock).
 
 ```csharp
 public IConnectorLock ShapeLock { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IConnectorLock](../../iconnectorlock)
-* класс [Connector](../../connector)
+* interface [IConnectorLock](../../iconnectorlock)
+* class [Connector](../../connector)
 * пространство имен [Aspose.Slides](../../connector)
 * сборка [Aspose.Slides](../../../)
 

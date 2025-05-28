@@ -1,13 +1,12 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет всех авторов из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/icommentauthorcollection/clear/
 ---
-
-## Метод ICommentAuthorCollection.Clear
+## ICommentAuthorCollection.Clear method
 
 Удаляет всех авторов из коллекции.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/icommentauthorcollection/clear/
 public void Clear()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ICommentAuthorCollection](../../icommentauthorcollection)
+* interface [ICommentAuthorCollection](../../icommentauthorcollection)
 * пространство имен [Aspose.Slides](../../icommentauthorcollection)
 * сборка [Aspose.Slides](../../../)
 

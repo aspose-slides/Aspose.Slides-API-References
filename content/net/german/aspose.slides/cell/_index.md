@@ -1,15 +1,14 @@
 ---
-title: Zelle
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Zelle einer Tabelle dar.
+title: Cell
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Repräsentiert eine Zelle einer Tabelle.
 type: docs
-weight: 1050
+weight: 1010
 url: /de/aspose.slides/cell/
 ---
+## Cell class
 
-## Zelle Klasse
-
-Stellt eine Zelle einer Tabelle dar.
+Repräsentiert eine Zelle einer Tabelle.
 
 ```csharp
 public class Cell : ICell
@@ -19,44 +18,44 @@ public class Cell : ICell
 
 | Name | Beschreibung |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Bestimmt, ob das Textfeld in einer Zelle zentriert ist oder nicht. Lese-/Schreib-Boolescher Wert. |
-| [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Gibt das CellFormat-Objekt zurück, das Formatierungseigenschaften für diese Zelle enthält. Nur-lesbar [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Gibt die Anzahl der Rasterspalten im Tabellenraster der übergeordneten Tabelle zurück, die von der aktuellen Zelle überspannt werden sollen. Diese Eigenschaft ermöglicht es Zellen, den Anschein von Zusammenführungen zu haben, da sie die vertikalen Grenzen anderer Zellen in der Tabelle überschreiten. Nur-lesbar Int32. |
-| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Gibt die erste Spalte der Zelle zurück. Nur-lesbar [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Gibt den Index der ersten Spalte zurück, die von der Zelle abgedeckt wird. Nur-lesbar Int32. |
-| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Gibt die erste Zeile der Zelle zurück. Nur-lesbar [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Gibt den Index der ersten Zeile zurück, die von der Zelle abgedeckt wird. Nur-lesbar Int32. |
-| [Height](../../aspose.slides/cell/height) { get; } | Gibt die Höhe der Zelle zurück. Nur-lesbar Double. |
-| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Gibt true zurück, wenn die Zelle mit einer anderen angepassten Zelle zusammengeführt ist, andernfalls false. Nur-lesbar Boolescher Wert. |
-| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Gibt den unteren Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreib-Double. |
-| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Gibt den linken Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreib-Double. |
-| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Gibt den rechten Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreib-Double. |
-| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Gibt den oberen Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreib-Double. |
-| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Gibt die minimale Höhe einer Zelle zurück. Dies ist die Summe der minimalen Höhen aller Zeilen, die von der Zelle abgedeckt werden. Nur-lesbar Double. |
-| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Gibt den Abstand von der linken Seite einer Tabelle zur linken Seite einer Zelle zurück. Nur-lesbar Double. |
-| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Gibt den Abstand von der oberen Seite einer Tabelle zur oberen Seite einer Zelle zurück. Nur-lesbar Double. |
-| [Presentation](../../aspose.slides/cell/presentation) { get; } | Gibt die übergeordnete Präsentation einer Zelle zurück. Nur-lesbar [`IPresentation`](../ipresentation). |
-| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Gibt die Anzahl der Zeilen zurück, die eine zusammengeführte Zelle überspannt. Dies wird in Kombination mit dem vMerge-Attribut bei anderen Zellen verwendet, um die Anfangszelle einer horizontalen Zusammenführung anzugeben. Nur-lesbar Int32. |
-| [Slide](../../aspose.slides/cell/slide) { get; } | Gibt die übergeordnete Folie einer Zelle zurück. Nur-lesbar [`IBaseSlide`](../ibaseslide). |
-| [Table](../../aspose.slides/cell/table) { get; } | Gibt das übergeordnete Table-Objekt für eine Zelle zurück. Nur-lesbar [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Gibt den Textanker-Typ zurück oder setzt ihn. Lese-/Schreib [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/cell/textframe) { get; } | Gibt den Textrahmen einer Zelle zurück. Nur-lesbar [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Gibt den Typ des vertikalen Textes zurück oder setzt ihn. Lese-/Schreib [`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/cell/width) { get; } | Gibt die Breite der Zelle zurück. Nur-lesbar Double. |
+| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Bestimmt, ob ein Textfeld innerhalb einer Zelle zentriert ist oder nicht. Lesen/SchreibenBoolean . |
+| [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Gibt das CellFormat-Objekt zurück, das Formatierungseigenschaften für diese Zelle enthält. Schreibgeschützt[`ICellFormat`](../icellformat) . |
+| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Gibt die Anzahl der Grid-Spalten in der Tabelle grid der übergeordneten Tabelle zurück, die von der aktuellen Zelle aufgespannt werden sollen. Diese Eigenschaft ermöglicht es, dass cells zusammengeführt erscheint, da sie vertikale Grenzen anderer Zellen in der Tabelle überspannen. SchreibgeschütztInt32 . |
+| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Ruft die erste Spalte der Zelle ab. Schreibgeschützt[`IColumn`](../icolumn) . |
+| [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Gibt einen Index der ersten Spalte zurück, die von der Zelle abgedeckt wird. SchreibgeschütztInt32 . |
+| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Ruft die erste Zeile der Zelle ab. Schreibgeschützt[`IRow`](../irow) . |
+| [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Gibt einen Index der ersten Zeile zurück, die von der Zelle abgedeckt wird. SchreibgeschütztInt32 . |
+| [Height](../../aspose.slides/cell/height) { get; } | Gibt die Höhe der Zelle zurück. SchreibgeschütztDouble . |
+| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Gibt „true“ zurück, wenn die Zelle mit einer angepassten Zelle zusammengeführt wird, andernfalls „false“. SchreibgeschütztBoolean . |
+| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Gibt den unteren Rand in einem TextFrame zurück oder legt ihn fest. Lesen/SchreibenDouble . |
+| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Gibt den linken Rand in einem TextFrame zurück oder legt ihn fest. Lesen/SchreibenDouble . |
+| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Gibt den rechten Rand in einem TextFrame zurück oder legt ihn fest. Lesen/SchreibenDouble . |
+| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Gibt den oberen Rand in einem TextFrame zurück oder legt ihn fest. Lesen/SchreibenDouble . |
+| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Gibt die minimale Höhe einer Zelle zurück. Dies ist eine Summe der minimalen Höhen aller Zeilen, die von der Zelle verdeckt werden. SchreibgeschütztDouble . |
+| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Gibt einen Abstand von der linken Seite einer Tabelle zur linken Seite einer Zelle zurück. SchreibgeschütztDouble . |
+| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Gibt den Abstand von der Oberseite einer Tabelle zur Oberseite einer Zelle zurück. SchreibgeschütztDouble . |
+| [Presentation](../../aspose.slides/cell/presentation) { get; } | Gibt die übergeordnete Darstellung einer Zelle zurück. Schreibgeschützt[`IPresentation`](../ipresentation) . |
+| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Gibt die Anzahl der Zeilen zurück, die eine verbundene Zelle umfasst. Dies wird in Kombination mit dem vMerge-Attribut für andere Zellen verwendet, um den Anfang von cell einer horizontalen Zusammenführung anzugeben. SchreibgeschütztInt32 . |
+| [Slide](../../aspose.slides/cell/slide) { get; } | Gibt die übergeordnete Folie einer Zelle zurück. Schreibgeschützt[`IBaseSlide`](../ibaseslide) . |
+| [Table](../../aspose.slides/cell/table) { get; } | Gibt das übergeordnete Tabellenobjekt für eine Zelle zurück. Schreibgeschützt[`ITable`](../itable) . |
+| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Gibt den Textankertyp zurück oder legt ihn fest. Lesen/Schreiben[`TextAnchorType`](../textanchortype) . |
+| [TextFrame](../../aspose.slides/cell/textframe) { get; } | Gibt den Textrahmen einer Zelle zurück. Schreibgeschützt[`ITextFrame`](../itextframe) . |
+| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Gibt den Typ des vertikalen Textes zurück oder legt ihn fest. Lesen/Schreiben[`TextVerticalType`](../textverticaltype) . |
+| [Width](../../aspose.slides/cell/width) { get; } | Gibt die Breite der Zelle zurück. SchreibgeschütztDouble . |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | Teilt die Zelle in zwei Zellen auf, basierend auf dem Index der Spalte. |
-| [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Teilt die Zelle nach Höhe auf. |
-| [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | Teilt die Zelle in zwei Zellen auf, basierend auf dem Index der Zeile. |
-| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Teilt die Zelle nach Breite auf. |
+| [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | Teilt die Zelle nach Index der Spalte in zwei Zellen auf. |
+| [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Teilt die Zelle nach Höhe. |
+| [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | Teilt die Zelle nach Index der Zeile in zwei Zellen auf. |
+| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Teilt die Zelle nach Breite. |
 
 ### Siehe auch
 
-* Schnittstelle [ICell](../icell)
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* interface [ICell](../icell)
+* namensraum [Aspose.Slides](../../aspose.slides)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

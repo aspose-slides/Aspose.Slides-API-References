@@ -1,15 +1,14 @@
 ---
 title: RowSpacing
-second_title: Справка по API Aspose.Slides для .NET
-description: Интервал между строками массива. Используется только в том случае, если RowSpacingRule установлен на 3. В этом случае единица измерения - пункты, или Multiple, в этом случае единица измерения - полустроки. По умолчанию 0
+second_title: Справочник по API Aspose.Slides для .NET
+description: Расстояние между строками массива Используется только когда RowSpacingRule установлен в 3 Именно в этом случае единицей измерения являются точки или Multiple в этом случае единицей измерения является половина строки. По умолчанию0
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/matharray/rowspacing/
 ---
+## MathArray.RowSpacing property
 
-## Свойство MathArray.RowSpacing
-
-Интервал между строками массива. Используется только в том случае, если RowSpacingRule установлен на 3. В этом случае единица измерения - пункты, или Multiple, в этом случае единица измерения - полустроки. По умолчанию: 0
+Расстояние между строками массива Используется только когда RowSpacingRule установлен в 3 Именно в этом случае единицей измерения являются точки или Multiple, в этом случае единицей измерения является половина строки. По умолчанию:0
 
 ```csharp
 public uint RowSpacing { get; set; }
@@ -26,9 +25,9 @@ mathArray.RowSpacingRule = MathRowSpacingRule.Exactly;
 mathArray.RowSpacing = 10;
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathArray](../../matharray)
+* class [MathArray](../../matharray)
 * пространство имен [Aspose.Slides.MathText](../../matharray)
 * сборка [Aspose.Slides](../../../)
 

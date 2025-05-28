@@ -1,13 +1,12 @@
 ---
 title: OutputFile
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет выходной файл.
 type: docs
-weight: 4460
+weight: 4220
 url: /ru/aspose.slides.export.web/outputfile/
 ---
-
-## Класс OutputFile
+## OutputFile class
 
 Представляет выходной файл.
 
@@ -17,13 +16,13 @@ public abstract class OutputFile : IOutputFile
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | Записывает содержимое файла в поток. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IOutputFile](../ioutputfile)
+* interface [IOutputFile](../ioutputfile)
 * пространство имен [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * сборка [Aspose.Slides](../../)
 

@@ -1,31 +1,26 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Slides для .NET Справочник по API
-description: Представляет параметры экспорта в HTML5.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет параметры экспорта HTML5.
 type: docs
-weight: 3760
+weight: 3610
 url: /ru/aspose.slides.export/ihtml5options/
 ---
+## IHtml5Options interface
 
-## Интерфейс IHtml5Options
-
-Представляет параметры экспорта в HTML5.
+Представляет параметры экспорта HTML5.
 
 ```csharp
 public interface IHtml5Options : ISaveOptions
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Возвращает или устанавливает опцию анимации фигур. Запись/Чтение Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Возвращает или устанавливает опцию анимации переходов. Запись/Чтение Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, будет ли текст отображаться без использования лигатур. Если установлено в `true`, лигатуры будут отключены в выводе. По умолчанию это свойство установлено в `false`. |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Возвращает или устанавливает опцию встраивания изображений. Запись/Чтение Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Определяет, где должны храниться внешние ресурсы. Запись/Чтение String. |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Получает или устанавливает режим размещения слайдов на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Возвращает или устанавливает параметры анимации фигур. Чтение/записьBoolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Возвращает или устанавливает параметр анимации переходов. Чтение/записьBoolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
 
 ### Примеры
 
@@ -43,9 +38,9 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISaveOptions](../isaveoptions)
+* interface [ISaveOptions](../isaveoptions)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

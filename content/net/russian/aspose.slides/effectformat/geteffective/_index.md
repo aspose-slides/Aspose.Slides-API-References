@@ -1,15 +1,14 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает данные эффективного форматирования эффекта с примененной наследственностью.
+description: Получает данные форматирования эффективного эффекта с примененным наследованием.
 type: docs
 weight: 250
 url: /ru/aspose.slides/effectformat/geteffective/
 ---
+## EffectFormat.GetEffective method
 
-## Метод EffectFormat.GetEffective
-
-Получает данные эффективного форматирования эффекта с примененной наследственностью.
+Получает данные форматирования эффективного эффекта с примененным наследованием.
 
 ```csharp
 public IEffectFormatEffectiveData GetEffective()
@@ -17,11 +16,11 @@ public IEffectFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
+A[`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение некоторых эффективных свойств эффекта фигуры.
+Этот пример демонстрирует получение некоторых эффективных свойств эффекта формы.
 
 ```csharp
 [C#]
@@ -31,34 +30,34 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 
 	if (effectiveEffectFormat.IsNoEffects)
 	{
-		Console.WriteLine("На фигуре нет примененных эффектов.");
+		Console.WriteLine("The shape has not effects applied.");
 	}
 	else
 	{
 		if (effectiveEffectFormat.BlurEffect != null)
-			Console.WriteLine("Радиус размытия эффекта: " + effectiveEffectFormat.BlurEffect.Radius);
+			Console.WriteLine("Blur effect radius: " + effectiveEffectFormat.BlurEffect.Radius);
 		if (effectiveEffectFormat.FillOverlayEffect != null)
-			Console.WriteLine("Тип заливки эффекта наложения: " + effectiveEffectFormat.FillOverlayEffect.FillFormat.FillType);
+			Console.WriteLine("Fill overlay effect fill type: " + effectiveEffectFormat.FillOverlayEffect.FillFormat.FillType);
 		if (effectiveEffectFormat.GlowEffect != null)
-			Console.WriteLine("Цвет эффекта свечения: " + effectiveEffectFormat.GlowEffect.Color);
+			Console.WriteLine("Glow effect color: " + effectiveEffectFormat.GlowEffect.Color);
 		if (effectiveEffectFormat.InnerShadowEffect != null)
-			Console.WriteLine("Цвет тени внутреннего эффекта: " + effectiveEffectFormat.InnerShadowEffect.ShadowColor);
+			Console.WriteLine("Inner shadow effect shadow color: " + effectiveEffectFormat.InnerShadowEffect.ShadowColor);
 		if (effectiveEffectFormat.OuterShadowEffect != null)
-			Console.WriteLine("Цвет тени внешнего эффекта: " + effectiveEffectFormat.OuterShadowEffect.ShadowColor);
+			Console.WriteLine("Outer shadow effect shadow color: " + effectiveEffectFormat.OuterShadowEffect.ShadowColor);
 		if (effectiveEffectFormat.PresetShadowEffect != null)
-			Console.WriteLine("Цвет тени предустановленного эффекта: " + effectiveEffectFormat.PresetShadowEffect.ShadowColor);
+			Console.WriteLine("Preset shadow effect shadow color: " + effectiveEffectFormat.PresetShadowEffect.ShadowColor);
 		if (effectiveEffectFormat.ReflectionEffect != null)
-			Console.WriteLine("Расстояние эффекта отражения: " + effectiveEffectFormat.ReflectionEffect.Distance);
+			Console.WriteLine("Reflection effect distance: " + effectiveEffectFormat.ReflectionEffect.Distance);
 		if (effectiveEffectFormat.SoftEdgeEffect != null)
-			Console.WriteLine("Радиус мягкого края эффекта: " + effectiveEffectFormat.SoftEdgeEffect.Radius);
+			Console.WriteLine("Soft edge effect radius: " + effectiveEffectFormat.SoftEdgeEffect.Radius);
 	}
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
-* класс [EffectFormat](../../effectformat)
+* interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
+* class [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

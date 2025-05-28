@@ -1,21 +1,20 @@
 ---
 title: ITagCollection
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет коллекцию тегов, определяемых пользователем, пар строк
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор тегов определяемые пользователем пары строк
 type: docs
-weight: 7040
+weight: 6680
 url: /ru/aspose.slides/itagcollection/
 ---
+## ITagCollection interface
 
-## Интерфейс ITagCollection
-
-Представляет коллекцию тегов (определяемых пользователем пар строк)
+Представляет набор тегов (определяемые пользователем пары строк)
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
@@ -27,17 +26,17 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | --- | --- |
 | [Add](../../aspose.slides/itagcollection/add)(string, string) | Добавляет новый тег в коллекцию. |
 | [Clear](../../aspose.slides/itagcollection/clear)() | Удаляет все теги из коллекции. |
-| [Contains](../../aspose.slides/itagcollection/contains)(string) | Определяет, содержит ли коллекция конкретное имя. |
+| [Contains](../../aspose.slides/itagcollection/contains)(string) | Определяет, содержит ли коллекция определенное имя. |
 | [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Возвращает ключ тега по указанному индексу. |
 | [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Возвращает имена тегов. |
 | [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Возвращает значение тега по указанному индексу. |
-| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Возвращает индекс (начиная с нуля) указанного ключа в коллекции. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Возвращает отсчитываемый от нуля индекс указанного ключа в коллекции. |
 | [Remove](../../aspose.slides/itagcollection/remove)(string) | Удаляет тег с указанным именем из коллекции. |
 | [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Удаляет тег по указанному индексу. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

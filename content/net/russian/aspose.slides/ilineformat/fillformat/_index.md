@@ -1,24 +1,23 @@
 ---
 title: FillFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат заливки линии. Только для чтения ILineFillFormataspose.slides/ilinefillformat.
+description: Возвращает формат заполнения строки. Только для чтенияILineFillFormataspose.slides/ilinefillformat.
 type: docs
 weight: 120
 url: /ru/aspose.slides/ilineformat/fillformat/
 ---
+## ILineFormat.FillFormat property
 
-## Свойство ILineFormat.FillFormat
-
-Возвращает формат заливки линии. Только для чтения [`ILineFillFormat`](../../ilinefillformat).
+Возвращает формат заполнения строки. Только для чтения[`ILineFillFormat`](../../ilinefillformat).
 
 ```csharp
 public ILineFillFormat FillFormat { get; }
 ```
 
-### Дополнительно
+### Смотрите также
 
-* интерфейс [ILineFillFormat](../../ilinefillformat)
-* интерфейс [ILineFormat](../../ilineformat)
+* interface [ILineFillFormat](../../ilinefillformat)
+* interface [ILineFormat](../../ilineformat)
 * пространство имен [Aspose.Slides](../../ilineformat)
 * сборка [Aspose.Slides](../../../)
 

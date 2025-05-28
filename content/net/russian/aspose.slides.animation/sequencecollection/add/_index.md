@@ -1,25 +1,24 @@
 ---
-title: Добавить
-second_title: Справочник API Aspose.Slide для .NET
-description: Добавить новую интерактивную последовательность. Чтение/запись Sequenceaspose.slides.animation/sequence.
+title: Add
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавить новую интерактивную последовательность. Чтение/записьSequenceaspose.slides.animation/sequence.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/sequencecollection/add/
 ---
+## SequenceCollection.Add method
 
-## Метод SequenceCollection.Add
-
-Добавить новую интерактивную последовательность. Чтение/запись [`Sequence`](../../sequence).
+Добавить новую интерактивную последовательность. Чтение/запись[`Sequence`](../../sequence).
 
 ```csharp
 public ISequence Add(IShape shapeTrigger)
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISequence](../../isequence)
-* интерфейс [IShape](../../../aspose.slides/ishape)
-* класс [SequenceCollection](../../sequencecollection)
+* interface [ISequence](../../isequence)
+* interface [IShape](../../../aspose.slides/ishape)
+* class [SequenceCollection](../../sequencecollection)
 * пространство имен [Aspose.Slides.Animation](../../sequencecollection)
 * сборка [Aspose.Slides](../../../)
 

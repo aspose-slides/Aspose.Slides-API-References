@@ -1,24 +1,23 @@
 ---
 title: ShapeTarget
-second_title: Aspose.Slides для .NET API Справка
-description: Определяет целевую фигуру командного эффекта. Чтение/запись IShapeaspose.slides/ishape.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет форму цели командного эффекта. Чтение/записьIShapeaspose.slides/ishape.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/commandeffect/shapetarget/
 ---
+## CommandEffect.ShapeTarget property
 
-## Свойство CommandEffect.ShapeTarget
-
-Определяет целевую фигуру командного эффекта. Чтение/запись [`IShape`](../../../aspose.slides/ishape).
+Определяет форму цели командного эффекта. Чтение/запись[`IShape`](../../../aspose.slides/ishape).
 
 ```csharp
 public IShape ShapeTarget { get; set; }
 ```
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IShape](../../../aspose.slides/ishape)
-* класс [CommandEffect](../../commandeffect)
+* interface [IShape](../../../aspose.slides/ishape)
+* class [CommandEffect](../../commandeffect)
 * пространство имен [Aspose.Slides.Animation](../../commandeffect)
 * сборка [Aspose.Slides](../../../)
 

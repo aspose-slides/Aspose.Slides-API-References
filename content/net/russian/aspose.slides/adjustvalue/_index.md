@@ -1,32 +1,30 @@
 ---
 title: AdjustValue
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет значение настройки геометрических фигур. Эти значения влияют на форму фигур.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет значение корректировки геометрической формы. Эти значения влияют на форму фигуры.
 type: docs
 weight: 10
 url: /ru/aspose.slides/adjustvalue/
 ---
+## AdjustValue class
 
-## Класс AdjustValue
-
-Представляет значение настройки геометрической фигуры. Эти значения влияют на форму фигуры.
+Представляет значение корректировки геометрической формы. Эти значения влияют на форму фигуры.
 
 ```csharp
 public class AdjustValue : IAdjustValue
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Возвращает или задает значение, интерпретируя его как угол в градусах. Чтение/запись Single. |
-| [Name](../../aspose.slides/adjustvalue/name) { get; } | Возвращает имя этого значения настройки. Только для чтения String. |
-| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Возвращает или задает значение настройки “как есть”. Чтение/запись Int64. |
-| [Type](../../aspose.slides/adjustvalue/type) { get; } | Возвращает тип настройки фигуры. Только для чтения [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Возвращает или устанавливает значение, интерпретируя его как угол в градусах. Чтение/записьSingle. |
+| [Name](../../aspose.slides/adjustvalue/name) { get; } | Возвращает имя этого значения настройки. Только чтениеString. |
+| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Возвращает или устанавливает значение настройки "как есть". Чтение/записьInt64. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAdjustValue](../iadjustvalue)
+* interface [IAdjustValue](../iadjustvalue)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

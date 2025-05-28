@@ -1,15 +1,14 @@
 ---
 title: WriteShapeStart
-second_title: Aspose.Slides для .NET API Справочник
-description: Вызывается перед рендерингом фигур. Вызывается один раз для каждой фигуры. Если эта функция записывает что-либо в генератор, генерация текущего изображения слайда будет завершена, добавленный HTML-фрагмент будет вставлен, и новое изображение начнется поверх предыдущего.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вызывается перед рендерингом формы. Вызывается один раз для каждой формы. Если эта функция что-то записывает в генератор генерация текущего изображения слайда будет завершена добавленный html-фрагмент будет вставлен и новое изображение будет запущено поверх предыдущего.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/ihtmlformattingcontroller/writeshapestart/
 ---
+## IHtmlFormattingController.WriteShapeStart method
 
-## IHtmlFormattingController.WriteShapeStart метод
-
-Вызывается перед рендерингом фигуры. Вызывается один раз для каждой фигуры. Если эта функция записывает что-либо в генератор, генерация текущего изображения слайда будет завершена, добавленный HTML-фрагмент будет вставлен, и новое изображение начнется поверх предыдущего.
+Вызывается перед рендерингом формы. Вызывается один раз для каждой формы. Если эта функция что-то записывает в генератор, генерация текущего изображения слайда будет завершена, добавленный html-фрагмент будет вставлен, и новое изображение будет запущено поверх предыдущего.
 
 ```csharp
 public void WriteShapeStart(IHtmlGenerator generator, IShape shape)
@@ -17,14 +16,14 @@ public void WriteShapeStart(IHtmlGenerator generator, IShape shape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| generator | IHtmlGenerator | Объект вывода. |
-| shape | IShape | Фигура, которая собирается рендериться. |
+| генератор | IHtmlGenerator | Выходной объект. |
+| shape | IShape | Форма, которая будет отображаться. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
-* интерфейс [IShape](../../../aspose.slides/ishape)
-* интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
+* interface [IHtmlGenerator](../../ihtmlgenerator)
+* interface [IShape](../../../aspose.slides/ishape)
+* interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * пространство имен [Aspose.Slides.Export](../../ihtmlformattingcontroller)
 * сборка [Aspose.Slides](../../../)
 

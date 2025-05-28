@@ -1,15 +1,14 @@
 ---
 title: SetFooterAndChildFootersText
-second_title: Aspose.Sildes для .NET API Справка
-description: Устанавливает текст в заполнитель нижнего колонтитула основной слайд и все дочерние заполнители нижнего колонтитула. Дочерние заполнители означают заполнители, содержащиеся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от основной слайд.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает текст для основного заполнителя нижнего колонтитула слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
 type: docs
 weight: 30
 url: /ru/aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext/
 ---
+## MasterSlideHeaderFooterManager.SetFooterAndChildFootersText method
 
-## MasterSlideHeaderFooterManager.SetFooterAndChildFootersText метод
-
-Устанавливает текст в заполнитель нижнего колонтитула основной слайд и все дочерние заполнители нижнего колонтитула. Дочерние заполнители означают заполнители, содержащиеся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от основной слайд.
+Устанавливает текст для основного заполнителя нижнего колонтитула слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)
@@ -19,9 +18,9 @@ public void SetFooterAndChildFootersText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### См. также
+### Смотрите также
 
-* класс [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
+* class [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masterslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

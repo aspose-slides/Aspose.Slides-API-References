@@ -1,15 +1,14 @@
 ---
 title: GrowToMatchOperandHeight
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает рост BeginningCharacter SeparatorCharacter EndingCharacter. Когда значение true, разделители растут вертикально, чтобы соответствовать высоте операнда. Значение по умолчанию - true.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет рост BeginningCharacter SeparatorCharacter EndingCharacter При значении true разделители увеличиваются по вертикали чтобы соответствовать высоте операнда. Значение по умолчанию равно true
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/mathdelimiter/growtomatchoperandheight/
 ---
+## MathDelimiter.GrowToMatchOperandHeight property
 
-## MathDelimiter.GrowToMatchOperandHeight свойство
-
-Указывает рост BeginningCharacter, SeparatorCharacter, EndingCharacter. Когда значение true, разделители растут вертикально, чтобы соответствовать высоте операнда. Значение по умолчанию - true.
+Определяет рост BeginningCharacter, SeparatorCharacter, EndingCharacter При значении true разделители увеличиваются по вертикали, чтобы соответствовать высоте операнда. Значение по умолчанию равно true
 
 ```csharp
 public bool GrowToMatchOperandHeight { get; set; }
@@ -25,9 +24,9 @@ IMathDelimiter delimiter = new MathematicalText("x").Divide("y").Enclose();
 delimiter.GrowToMatchOperandHeight = false;
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathDelimiter](../../mathdelimiter)
+* class [MathDelimiter](../../mathdelimiter)
 * пространство имен [Aspose.Slides.MathText](../../mathdelimiter)
 * сборка [Aspose.Slides](../../../)
 

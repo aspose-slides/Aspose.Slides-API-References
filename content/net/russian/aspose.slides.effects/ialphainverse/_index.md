@@ -1,33 +1,32 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет эффект Альфа Инверсии. Значения альфа-прозрачности инвертируются вычитанием из 100.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет эффект обратного альфа-канала. Значения альфа-канала непрозрачности инвертируются путем вычитания из 100.
 type: docs
-weight: 2980
+weight: 2900
 url: /ru/aspose.slides.effects/ialphainverse/
 ---
+## IAlphaInverse interface
 
-## Интерфейс IAlphaInverse
-
-Представляет эффект Альфа Инверсии. Значения альфа (прозрачности) инвертируются вычитанием из 100%.
+Представляет эффект обратного альфа-канала. Значения альфа-канала (непрозрачности) инвертируются путем вычитания из 100%.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
     IImageTransformOperation
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* интерфейс [IAlphaInverseEffectiveData](../ialphainverseeffectivedata)
-* интерфейс [IImageTransformOperation](../iimagetransformoperation)
+* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* interface [IAlphaInverseEffectiveData](../ialphainverseeffectivedata)
+* interface [IImageTransformOperation](../iimagetransformoperation)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

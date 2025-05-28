@@ -1,42 +1,41 @@
 ---
-title: Легенда
-second_title: Справка по API Aspose.Sildes для .NET
-description: Представляет свойства легенды графиков.
+title: Legend
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет свойства легенды диаграммы.
 type: docs
-weight: 2200
+weight: 2140
 url: /ru/aspose.slides.charts/legend/
 ---
+## Legend class
 
-## Класс Legend
-
-Представляет свойства легенды графика.
+Представляет свойства легенды диаграммы.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Низ. Только для чтения Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Возвращает график. Только для чтения [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Получает элементы легенды. Только для чтения [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Возвращает формат легенды. Только для чтения [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Возвращает или устанавливает высоту легенды в виде доли высоты графика. Чтение/запись Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Определяет, могут ли другие элементы графика перекрывать легенду. Чтение/запись Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Указывает положение легенды на графике. Ненулевые значения свойств X, Y, Width, Height переопределяют эффект этого свойства. Чтение/запись [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | Право. Только для чтения Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Формат текста. Только для чтения [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Возвращает или устанавливает ширину легенды в виде доли ширины графика. Чтение/запись Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Возвращает или устанавливает координату x легенды в виде доли ширины графика. Чтение/запись Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Возвращает или устанавливает координату y легенды в виде доли высоты графика. Чтение/запись Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Снизу. Только для чтенияSingle. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Возвращает диаграмму. Только для чтения[`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Получает записи легенды. Только для чтения[`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Возвращает формат легенды. Только для чтения[`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Возвращает или задает высоту легенды как часть высоты диаграммы. Чтение/записьSingle. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Чтение/записьBoolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Указывает положение легенды на диаграмме. Значения свойств X, Y, Width, Heigt, отличные от NaN, переопределяют эффект этого свойства. Чтение/запись[`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Верно. Только для чтенияSingle. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Текстовый формат. Только чтение[`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Возвращает или задает ширину легенды как часть ширины диаграммы. Чтение/записьSingle. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Возвращает или задает координату x легенды как часть ширины диаграммы. Чтение/записьSingle. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Возвращает или задает координату y легенды как часть высоты диаграммы. Чтение/записьSingle. |
 
-### См. также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* класс [Chart](../chart)
-* интерфейс [ILegend](../ilegend)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Chart](../chart)
+* interface [ILegend](../ilegend)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

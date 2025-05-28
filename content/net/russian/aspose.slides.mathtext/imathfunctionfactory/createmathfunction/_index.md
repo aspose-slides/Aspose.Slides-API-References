@@ -1,15 +1,14 @@
 ---
 title: CreateMathFunction
-second_title: Aspose.Slides для .NET API Справочник
-description: Создание математической функции
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает математическую функцию
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathfunctionfactory/createmathfunction/
 ---
+## CreateMathFunction(IMathElement, IMathElement) {#createmathfunction}
 
-## CreateMathFunction(IMathElement, IMathElement) {#createmathfunction}
-
-Создание математической функции
+Создает математическую функцию
 
 ```csharp
 public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement baseArgument)
@@ -17,26 +16,26 @@ public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement base
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| funcName | IMathElement | Элемент, используемый в качестве имени функции |
+| funcName | IMathElement | Элемент, используемый как имя функции |
 | baseArgument | IMathElement | Элемент, используемый в качестве аргумента функции |
 
 ### Возвращаемое значение
 
 новая математическая функция
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathFunction](../../imathfunction)
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathFunctionFactory](../../imathfunctionfactory)
+* interface [IMathFunction](../../imathfunction)
+* interface [IMathElement](../../imathelement)
+* interface [IMathFunctionFactory](../../imathfunctionfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathfunctionfactory)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## CreateMathFunction(string, IMathElement) {#createmathfunction_1}
+## CreateMathFunction(string, IMathElement) {#createmathfunction_1}
 
-Создание математической функции
+Создает математическую функцию
 
 ```csharp
 public IMathFunction CreateMathFunction(string funcName, IMathElement baseArgument)
@@ -51,11 +50,11 @@ public IMathFunction CreateMathFunction(string funcName, IMathElement baseArgume
 
 новая математическая функция
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathFunction](../../imathfunction)
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathFunctionFactory](../../imathfunctionfactory)
+* interface [IMathFunction](../../imathfunction)
+* interface [IMathElement](../../imathelement)
+* interface [IMathFunctionFactory](../../imathfunctionfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathfunctionfactory)
 * сборка [Aspose.Slides](../../../)
 

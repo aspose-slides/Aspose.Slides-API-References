@@ -1,23 +1,22 @@
 ---
 title: ShowMajorGridLines
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет, показываются ли основные сеточные линии. Только для чтения булевое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает показаны ли основные линии сетки. Только чтениеBoolean.
 type: docs
 weight: 480
 url: /ru/aspose.slides.charts/iaxis/showmajorgridlines/
 ---
+## IAxis.ShowMajorGridLines property
 
-## Свойство IAxis.ShowMajorGridLines
-
-Представляет, показываются ли основные сеточные линии. Только для чтения булевое значение.
+Указывает, показаны ли основные линии сетки. Только чтениеBoolean.
 
 ```csharp
 public bool ShowMajorGridLines { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
+* interface [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

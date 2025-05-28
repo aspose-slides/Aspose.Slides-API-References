@@ -1,23 +1,22 @@
 ---
 title: TempFilesRootPath
 second_title: Справочник по API Aspose.Slides для .NET
-description: Корневая директория, в которой будут созданы временные файлы. По умолчанию будет использоваться системная временная директория. Процесс хостинга должен иметь разрешения на создание файлов и папок в этой директории.
+description: Корневой путь по которому будут создаваться временные файлы. Хостинг-процесс должен иметь права создавать там файлы и папки.
 type: docs
 weight: 40
 url: /ru/aspose.slides/iblobmanagementoptions/tempfilesrootpath/
 ---
+## IBlobManagementOptions.TempFilesRootPath property
 
-## Свойство IBlobManagementOptions.TempFilesRootPath
-
-Корневая директория, в которой будут созданы временные файлы. По умолчанию будет использоваться системная временная директория. Процесс хостинга должен иметь разрешения на создание файлов и папок в этой директории.
+Корневой путь, по которому будут создаваться временные файлы. Хостинг-процесс должен иметь права создавать там файлы и папки.
 
 ```csharp
 public string TempFilesRootPath { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBlobManagementOptions](../../iblobmanagementoptions)
+* interface [IBlobManagementOptions](../../iblobmanagementoptions)
 * пространство имен [Aspose.Slides](../../iblobmanagementoptions)
 * сборка [Aspose.Slides](../../../)
 

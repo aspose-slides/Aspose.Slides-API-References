@@ -6,8 +6,7 @@ type: docs
 weight: 80
 url: /ru/aspose.slides.mathtext/mathblock/copyto/
 ---
-
-## Метод MathBlock.CopyTo
+## MathBlock.CopyTo method
 
 Копировать в указанный массив.
 
@@ -17,8 +16,8 @@ public void CopyTo(IMathElement[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IMathElement[] | Массив, в который нужно скопировать. |
-| arrayIndex | Int32 | Индекс, с которого начинать копирование. |
+| array | IMathElement[] | Массив для копирования. |
+| arrayIndex | Int32 | Индекс для начала копирования. |
 
 ### Примеры
 
@@ -34,10 +33,10 @@ IMathElement[] destinationArray = new IMathElement[mathBlock.Count];
 mathBlock.CopyTo(destinationArray, 0);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathBlock](../../mathblock)
+* interface [IMathElement](../../imathelement)
+* class [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

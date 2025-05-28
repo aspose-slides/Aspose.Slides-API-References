@@ -1,15 +1,14 @@
 ---
 title: InsertAudioFrameLinked
-second_title: Aspose.Slides для .NET API Справка
-description: Создает новый аудиофрей с привязанным аудиофайлом и вставляет его в коллекцию по указанному индексу.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новый аудиокадр со связанным аудиофайлом и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 290
 url: /ru/aspose.slides/shapecollection/insertaudioframelinked/
 ---
+## ShapeCollection.InsertAudioFrameLinked method
 
-## ShapeCollection.InsertAudioFrameLinked метод
-
-Создает новый аудиофрей с привязанным аудиофайлом и вставляет его в коллекцию по указанному индексу.
+Создает новый аудиокадр со связанным аудиофайлом и вставляет его в коллекцию по указанному индексу.
 
 ```csharp
 public IAudioFrame InsertAudioFrameLinked(int index, float x, float y, float width, float height, 
@@ -18,21 +17,21 @@ public IAudioFrame InsertAudioFrameLinked(int index, float x, float y, float wid
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Нулевой индекс, по которому должен быть вставлен аудиофрей. |
-| x | Single | X-координата нового аудиофрейма. |
-| y | Single | Y-координата нового аудиофрейма. |
-| width | Single | Ширина нового аудиофрейма. |
-| height | Single | Высота нового аудиофрейма. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должен быть вставлен звуковой кадр. |
+| x | Single | X координата нового звукового кадра. |
+| y | Single | Координата Y нового звукового кадра. |
+| width | Single | Ширина нового звукового кадра. |
+| height | Single | Высота нового звукового кадра. |
 | fname | String | Имя аудиофайла. |
 
 ### Возвращаемое значение
 
-Созданный объект AudioFrame.
+Создан объект AudioFrame.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAudioFrame](../../iaudioframe)
-* класс [ShapeCollection](../../shapecollection)
+* interface [IAudioFrame](../../iaudioframe)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

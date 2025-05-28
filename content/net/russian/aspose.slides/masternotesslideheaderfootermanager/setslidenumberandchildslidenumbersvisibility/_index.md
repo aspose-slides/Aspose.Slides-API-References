@@ -1,15 +1,14 @@
 ---
 title: SetSlideNumberAndChildSlideNumbersVisibility
-second_title: Aspose.Slides для .NET Справочник по API
-description: Изменяет видимость заполнителя номера страницы главного слайда и всех заголовков номеров страниц дочерних слайдов. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Изменяет видимость заполнителей номеров страниц мастер-слайда и всех заполнителей номеров дочерних страниц. Дочерние заполнители означают что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
 type: docs
 weight: 70
 url: /ru/aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
+## MasterNotesSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility method
 
-## MasterNotesSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility метод
-
-Изменяет видимость заполнителя номера страницы главного слайда и всех заполнителей номеров страниц дочерних слайдов. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок.
+Изменяет видимость заполнителей номеров страниц мастер-слайда и всех заполнителей номеров дочерних страниц. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
@@ -17,11 +16,11 @@ public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнители номера страницы видимыми, в противном случае - скрывает их. |
+| isVisible | Boolean | true - делает видимыми заполнители номеров страниц, иначе - скрывает их. |
 
-### См. также
+### Смотрите также
 
-* класс [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
+* class [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masternotesslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

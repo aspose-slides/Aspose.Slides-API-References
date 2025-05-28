@@ -6,8 +6,7 @@ type: docs
 weight: 50
 url: /es/aspose.slides/imagecollection/addimage/
 ---
-
-## AddImage(IPPImage) {#addimage_1}
+## AddImage(IPPImage) {#addimage}
 
 Agrega una copia de una imagen de otra presentación.
 
@@ -15,139 +14,138 @@ Agrega una copia de una imagen de otra presentación.
 public IPPImage AddImage(IPPImage imageSource)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | imageSource | IPPImage | Imagen de origen. |
 
-### Valor de retorno
+### Valor_devuelto
 
-Imagen agregada.
+Imagen añadida.
 
-### Véase también
+### Ver también
 
 * interface [IPPImage](../../ippimage)
 * class [ImageCollection](../../imagecollection)
-* namespace [Aspose.Slides](../../imagecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../imagecollection)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(IImage) {#addimage}
+## AddImage(Image) {#addimage_3}
 
-Agregar una imagen a una presentación.
+Agrega una imagen a una presentación.
 
 ```csharp
-public IPPImage AddImage(IImage image)
+public IPPImage AddImage(Image image)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| image | IImage | Imagen a agregar. |
+| image | Image | Imagen para agregar. |
 
-### Valor de retorno
+### Valor_devuelto
 
-Imagen agregada.
+Imagen añadida.
 
 ### Observaciones
 
-Este método convierte metarchivos WMF/EMF a imágenes PNG rasterizadas antes de insertarlas en una presentación.
+Este método convierte los metarchivos WMF/EMF en una imagen PNG rasterizada antes de insertarlos en una presentación.
 
-### Véase también
+### Ver también
 
 * interface [IPPImage](../../ippimage)
-* interface [IImage](../../iimage)
 * class [ImageCollection](../../imagecollection)
-* namespace [Aspose.Slides](../../imagecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../imagecollection)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(MemoryStream) {#addimage_5}
+## AddImage(MemoryStream) {#addimage_4}
 
-Agregar una imagen a una presentación desde un flujo.
+Agrega una imagen a una presentación desde stream.
 
 ```csharp
 public IPPImage AddImage(MemoryStream stream)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| stream | MemoryStream | Flujo desde el cual agregar la imagen. |
+| stream | MemoryStream | Secuencia para agregar imagen desde. |
 
-### Valor de retorno
+### Valor_devuelto
 
-Imagen agregada.
+Imagen añadida.
 
 ### Observaciones
 
-Este método puede agregar metarchivos WMF/EMF a una presentación sin convertirlos a imágenes PNG rasterizadas.
+Este método puede agregar metarchivos WMF/EMF a una presentación sin convertirlos en una imagen PNG de trama.
 
-### Véase también
+### Ver también
 
 * interface [IPPImage](../../ippimage)
 * class [ImageCollection](../../imagecollection)
-* namespace [Aspose.Slides](../../imagecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../imagecollection)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(Stream) {#addimage_6}
+## AddImage(Stream) {#addimage_5}
 
-Agregar una imagen a una presentación desde un flujo.
+Agrega una imagen a una presentación desde stream.
 
 ```csharp
 public IPPImage AddImage(Stream stream)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| stream | Stream | Flujo desde el cual agregar la imagen. |
+| stream | Stream | Secuencia para agregar imagen desde. |
 
-### Valor de retorno
+### Valor_devuelto
 
-Imagen agregada.
+Imagen añadida.
 
 ### Observaciones
 
-Este método puede agregar metarchivos WMF/EMF a una presentación sin convertirlos a imágenes PNG rasterizadas.
+Este método puede agregar metarchivos WMF/EMF a una presentación sin convertirlos en una imagen PNG de trama.
 
-### Véase también
+### Ver también
 
 * interface [IPPImage](../../ippimage)
 * class [ImageCollection](../../imagecollection)
-* namespace [Aspose.Slides](../../imagecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../imagecollection)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(Stream, LoadingStreamBehavior) {#addimage_7}
+## AddImage(Stream, LoadingStreamBehavior) {#addimage_6}
 
-Crea y agrega una imagen a una presentación desde un flujo.
+Crea y agrega una imagen a una presentación desde stream.
 
 ```csharp
 public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| stream | Stream | Flujo desde el cual agregar el archivo de imagen. |
-| loadingStreamBehavior | LoadingStreamBehavior | El comportamiento que se aplicará al flujo. |
+| stream | Stream | Secuencia desde la que agregar un archivo de imagen. |
+| loadingStreamBehavior | LoadingStreamBehavior | El comportamiento que se aplicará a la secuencia. |
 
-### Valor de retorno
+### Valor_devuelto
 
-Imagen agregada [`IPPImage`](../../ippimage).
+Adicional[`IPPImage`](../../ippimage).
 
-### Véase también
+### Ver también
 
 * interface [IPPImage](../../ippimage)
 * enum [LoadingStreamBehavior](../../loadingstreambehavior)
 * class [ImageCollection](../../imagecollection)
-* namespace [Aspose.Slides](../../imagecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../imagecollection)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(byte[]) {#addimage_3}
+## AddImage(byte[]) {#addimage_2}
 
 Agrega una imagen a una presentación desde el búfer especificado.
 
@@ -155,38 +153,38 @@ Agrega una imagen a una presentación desde el búfer especificado.
 public IPPImage AddImage(byte[] buffer)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| buffer | Byte[] | Búfer. |
+| buffer | Byte[] | Buffer. |
 
-### Valor de retorno
+### Valor_devuelto
 
-Imagen agregada.
+Imagen añadida.
 
-### Véase también
+### Ver también
 
 * interface [IPPImage](../../ippimage)
 * class [ImageCollection](../../imagecollection)
-* namespace [Aspose.Slides](../../imagecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../imagecollection)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(ISvgImage) {#addimage_2}
+## AddImage(ISvgImage) {#addimage_1}
 
-Agregar una imagen a una presentación desde un objeto Svg.
+Agregue una imagen a una presentación desde un objeto Svg.
 
 ```csharp
 public IPPImage AddImage(ISvgImage svgImage)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| svgImage | ISvgImage | Objeto de imagen Svg [`ISvgImage`](../../isvgimage) |
+| svgImage | ISvgImage | Objeto de imagen SVG[`ISvgImage`](../../isvgimage) |
 
-### Valor de retorno
+### Valor_devuelto
 
-Imagen agregada.
+Imagen añadida.
 
 ### Excepciones
 
@@ -194,12 +192,12 @@ Imagen agregada.
 | --- | --- |
 | ArgumentNullException | Cuando el parámetro svgImage es nulo. |
 
-### Véase también
+### Ver también
 
 * interface [IPPImage](../../ippimage)
 * interface [ISvgImage](../../isvgimage)
 * class [ImageCollection](../../imagecollection)
-* namespace [Aspose.Slides](../../imagecollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../imagecollection)
+* asamblea [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

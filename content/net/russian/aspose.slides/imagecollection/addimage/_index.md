@@ -1,13 +1,12 @@
 ---
-title: ДобавитьИзображение
+title: AddImage
 second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет копию изображения из другой презентации.
 type: docs
 weight: 50
 url: /ru/aspose.slides/imagecollection/addimage/
 ---
-
-## AddImage(IPPImage) {#addimage_1}
+## AddImage(IPPImage) {#addimage}
 
 Добавляет копию изображения из другой презентации.
 
@@ -21,48 +20,47 @@ public IPPImage AddImage(IPPImage imageSource)
 
 ### Возвращаемое значение
 
-Добавленное изображение.
+Добавлено изображение.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
-* класс [ImageCollection](../../imagecollection)
+* interface [IPPImage](../../ippimage)
+* class [ImageCollection](../../imagecollection)
 * пространство имен [Aspose.Slides](../../imagecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(IImage) {#addimage}
+## AddImage(Image) {#addimage_3}
 
 Добавить изображение в презентацию.
 
 ```csharp
-public IPPImage AddImage(IImage image)
+public IPPImage AddImage(Image image)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | IImage | Изображение для добавления. |
+| image | Image | Изображение для добавления. |
 
 ### Возвращаемое значение
 
-Добавленное изображение.
+Добавлено изображение.
 
 ### Примечания
 
-Этот метод преобразует метафайлы WMF/EMF в растровое PNG изображение перед вставкой в презентацию.
+Этот метод преобразует метафайлы WMF/EMF в растровое изображение PNG перед вставкой в презентацию.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
-* интерфейс [IImage](../../iimage)
-* класс [ImageCollection](../../imagecollection)
+* interface [IPPImage](../../ippimage)
+* class [ImageCollection](../../imagecollection)
 * пространство имен [Aspose.Slides](../../imagecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(MemoryStream) {#addimage_5}
+## AddImage(MemoryStream) {#addimage_4}
 
 Добавить изображение в презентацию из потока.
 
@@ -72,26 +70,26 @@ public IPPImage AddImage(MemoryStream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | MemoryStream | Поток, из которого добавляется изображение. |
+| stream | MemoryStream | Поток, из которого нужно добавить изображение. |
 
 ### Возвращаемое значение
 
-Добавленное изображение.
+Добавлено изображение.
 
 ### Примечания
 
-Этот метод может добавить метафайлы WMF/EMF в презентацию без их преобразования в растровое PNG изображение.
+Этот метод позволяет добавлять в презентацию метафайлы WMF/EMF без преобразования их в растровое изображение PNG.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
-* класс [ImageCollection](../../imagecollection)
+* interface [IPPImage](../../ippimage)
+* class [ImageCollection](../../imagecollection)
 * пространство имен [Aspose.Slides](../../imagecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(Stream) {#addimage_6}
+## AddImage(Stream) {#addimage_5}
 
 Добавить изображение в презентацию из потока.
 
@@ -101,26 +99,26 @@ public IPPImage AddImage(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого добавляется изображение. |
+| stream | Stream | Поток, из которого нужно добавить изображение. |
 
 ### Возвращаемое значение
 
-Добавленное изображение.
+Добавлено изображение.
 
 ### Примечания
 
-Этот метод может добавить метафайлы WMF/EMF в презентацию без их преобразования в растровое PNG изображение.
+Этот метод позволяет добавлять в презентацию метафайлы WMF/EMF без преобразования их в растровое изображение PNG.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
-* класс [ImageCollection](../../imagecollection)
+* interface [IPPImage](../../ippimage)
+* class [ImageCollection](../../imagecollection)
 * пространство имен [Aspose.Slides](../../imagecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(Stream, LoadingStreamBehavior) {#addimage_7}
+## AddImage(Stream, LoadingStreamBehavior) {#addimage_6}
 
 Создает и добавляет изображение в презентацию из потока.
 
@@ -130,24 +128,24 @@ public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehav
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого добавляется файл изображения. |
-| loadingStreamBehavior | LoadingStreamBehavior | Поведение, которое будет применено к потоку. |
+| stream | Stream | Поток, из которого нужно добавить файл изображения. |
+| loadingStreamBehavior | LoadingStreamBehavior | Поведение, которое будет применяться к потоку. |
 
 ### Возвращаемое значение
 
-Добавленное [`IPPImage`](../../ippimage).
+Добавлен[`IPPImage`](../../ippimage).
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
-* перечисление [LoadingStreamBehavior](../../loadingstreambehavior)
-* класс [ImageCollection](../../imagecollection)
+* interface [IPPImage](../../ippimage)
+* enum [LoadingStreamBehavior](../../loadingstreambehavior)
+* class [ImageCollection](../../imagecollection)
 * пространство имен [Aspose.Slides](../../imagecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(byte[]) {#addimage_3}
+## AddImage(byte[]) {#addimage_2}
 
 Добавляет изображение в презентацию из указанного буфера.
 
@@ -161,18 +159,18 @@ public IPPImage AddImage(byte[] buffer)
 
 ### Возвращаемое значение
 
-Добавленное изображение.
+Добавлено изображение.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
-* класс [ImageCollection](../../imagecollection)
+* interface [IPPImage](../../ippimage)
+* class [ImageCollection](../../imagecollection)
 * пространство имен [Aspose.Slides](../../imagecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## AddImage(ISvgImage) {#addimage_2}
+## AddImage(ISvgImage) {#addimage_1}
 
 Добавить изображение в презентацию из объекта Svg.
 
@@ -182,22 +180,24 @@ public IPPImage AddImage(ISvgImage svgImage)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| svgImage | ISvgImage | Объект изображения Svg [`ISvgImage`](../../isvgimage) |
+| svgImage | ISvgImage | Объект изображения Svg[`ISvgImage`](../../isvgimage) |
 
 ### Возвращаемое значение
 
-Добавленное изображение.
+Добавлено изображение.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Когда параметр svgImage равен null. |
+| ArgumentNullException | Когда параметр svgImage имеет значение null. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
-* интерфейс [ISvgImage](../../isvgimage)
-* класс [ImageCollection](../../imagecollection)
+* interface [IPPImage](../../ippimage)
+* interface [ISvgImage](../../isvgimage)
+* class [ImageCollection](../../imagecollection)
 * пространство имен [Aspose.Slides](../../imagecollection)
 * сборка [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

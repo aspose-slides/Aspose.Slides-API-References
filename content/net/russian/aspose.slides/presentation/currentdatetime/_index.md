@@ -1,23 +1,22 @@
 ---
-title: ТекущаяДатаВремя
+title: CurrentDateTime
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает дату и время, которые будут заменять содержимое полей даты и времени. По умолчанию время создания этого объекта Presentation. Чтение/запись DateTime.
+description: Возвращает или устанавливает дату и время которые заменят содержимое полей даты и времени. Время создания этого объекта Presentation по умолчанию. Чтение/записьDateTime.
 type: docs
 weight: 50
 url: /ru/aspose.slides/presentation/currentdatetime/
 ---
+## Presentation.CurrentDateTime property
 
-## Свойство Presentation.CurrentDateTime
-
-Возвращает или устанавливает дату и время, которые будут заменять содержимое полей даты и времени. По умолчанию время создания этого объекта Presentation. Чтение/запись DateTime.
+Возвращает или устанавливает дату и время, которые заменят содержимое полей даты и времени. Время создания этого объекта Presentation по умолчанию. Чтение/записьDateTime.
 
 ```csharp
 public DateTime CurrentDateTime { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Presentation](../../presentation)
+* class [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

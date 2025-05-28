@@ -1,15 +1,14 @@
 ---
 title: FormatText
-second_title: Aspose.Slides для .NET API Справочник
-description: Эта функция вызывается перед рендерингом текстовой части в SVG, чтобы позволить пользователю контролировать результирующий SVG.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эта функция вызывается перед рендерингом текстовой части в SVG чтобы пользователь мог управлять результирующим SVG.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/isvgshapeandtextformattingcontroller/formattext/
 ---
+## ISvgShapeAndTextFormattingController.FormatText method
 
-## ISvgShapeAndTextFormattingController.FormatText метод
-
-Эта функция вызывается перед рендерингом текстовой части в SVG, чтобы позволить пользователю контролировать результирующий SVG.
+Эта функция вызывается перед рендерингом текстовой части в SVG, чтобы пользователь мог управлять результирующим SVG.
 
 ```csharp
 public void FormatText(ISvgTSpan svgTSpan, IPortion portion, ITextFrame textFrame)
@@ -17,16 +16,16 @@ public void FormatText(ISvgTSpan svgTSpan, IPortion portion, ITextFrame textFram
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| svgTSpan | ISvgTSpan | Объект для управления генерацией SVG tspan. |
-| portion | IPortion | Исходная порция. |
-| textFrame | ITextFrame | Текстовый фрейм исходной порции. |
+| svgTSpan | ISvgTSpan | Объект для управления генерацией tspan SVG. |
+| partion | IPortion | Исходная часть. |
+| textFrame | ITextFrame | Текстовый фрейм исходной части. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISvgTSpan](../../isvgtspan)
-* интерфейс [IPortion](../../../aspose.slides/iportion)
-* интерфейс [ITextFrame](../../../aspose.slides/itextframe)
-* интерфейс [ISvgShapeAndTextFormattingController](../../isvgshapeandtextformattingcontroller)
+* interface [ISvgTSpan](../../isvgtspan)
+* interface [IPortion](../../../aspose.slides/iportion)
+* interface [ITextFrame](../../../aspose.slides/itextframe)
+* interface [ISvgShapeAndTextFormattingController](../../isvgshapeandtextformattingcontroller)
 * пространство имен [Aspose.Slides.Export](../../isvgshapeandtextformattingcontroller)
 * сборка [Aspose.Slides](../../../)
 

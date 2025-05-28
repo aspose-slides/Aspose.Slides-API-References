@@ -1,13 +1,12 @@
 ---
 title: IDocumentProperties
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойства презентации.
 type: docs
-weight: 5510
+weight: 5210
 url: /ru/aspose.slides/idocumentproperties/
 ---
-
-## Интерфейс IDocumentProperties
+## IDocumentProperties interface
 
 Представляет свойства презентации.
 
@@ -15,69 +14,58 @@ url: /ru/aspose.slides/idocumentproperties/
 public interface IDocumentProperties
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ApplicationTemplate](../../aspose.slides/idocumentproperties/applicationtemplate) { get; set; } | Возвращает или устанавливает шаблон приложения. Чтение/запись Строка. |
-| [AppVersion](../../aspose.slides/idocumentproperties/appversion) { get; } | Возвращает версию приложения. Только для чтения Строка. |
-| [Author](../../aspose.slides/idocumentproperties/author) { get; set; } | Возвращает или устанавливает автора презентации. Чтение/запись Строка. |
-| [Category](../../aspose.slides/idocumentproperties/category) { get; set; } | Возвращает или устанавливает категорию презентации. Чтение/запись Строка. |
-| [Comments](../../aspose.slides/idocumentproperties/comments) { get; set; } | Возвращает или устанавливает комментарии к презентации. Чтение/запись Строка. |
-| [Company](../../aspose.slides/idocumentproperties/company) { get; set; } | Возвращает или устанавливает свойство компании. Чтение/запись Строка. |
-| [ContentStatus](../../aspose.slides/idocumentproperties/contentstatus) { get; set; } | Возвращает или устанавливает статус содержимого презентации. Чтение/запись Строка. |
-| [ContentType](../../aspose.slides/idocumentproperties/contenttype) { get; set; } | Возвращает или устанавливает тип контента презентации. Чтение/запись Строка. |
-| [CountOfCustomProperties](../../aspose.slides/idocumentproperties/countofcustomproperties) { get; } | Возвращает количество настраиваемых свойств, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [CreatedTime](../../aspose.slides/idocumentproperties/createdtime) { get; set; } | Возвращает дату создания презентации. Значения в UTC. Чтение/запись DateTime. |
-| [HeadingPairs](../../aspose.slides/idocumentproperties/headingpairs) { get; } | Указывает на группировку частей документа и количество частей в каждой группе. Только для чтения IHeadingPair[]. |
-| [HiddenSlides](../../aspose.slides/idocumentproperties/hiddenslides) { get; } | Указывает количество скрытых слайдов в документе презентации. Только для чтения Int32. |
-| [HyperlinkBase](../../aspose.slides/idocumentproperties/hyperlinkbase) { get; set; } | Возвращает или устанавливает документ-свойство HyperlinkBase. Чтение/запись Строка. |
-| [HyperlinksChanged](../../aspose.slides/idocumentproperties/hyperlinkschanged) { get; set; } | Указывает, что один или несколько гиперссылок в этой части были обновлены исключительно в этой части производителем. Следующий производитель, открывающий этот документ, должен обновить отношения гиперссылок с новыми гиперссылками, указанными в этой части. Чтение/запись Boolean. |
-| [Item](../../aspose.slides/idocumentproperties/item) { get; set; } | Возвращает или устанавливает настраиваемое свойство, связанное с указанным именем. Чтение/запись Object. |
-| [Keywords](../../aspose.slides/idocumentproperties/keywords) { get; set; } | Возвращает или устанавливает ключевые слова презентации. Чтение/запись Строка. |
-| [LastPrinted](../../aspose.slides/idocumentproperties/lastprinted) { get; set; } | Возвращает дату, когда презентация была последний раз напечатана. Чтение/запись DateTime. |
-| [LastSavedBy](../../aspose.slides/idocumentproperties/lastsavedby) { get; set; } | Возвращает или устанавливает имя последнего человека, который изменил презентацию. Чтение/запись Строка. |
-| [LastSavedTime](../../aspose.slides/idocumentproperties/lastsavedtime) { get; set; } | Возвращает дату, когда презентация была последний раз изменена. Значения в UTC. Только для чтения в случае Presentation.DocumentProperties (поскольку она будет обновляться внутренне во время процесса сохранения объекта IPresentation). Может быть изменено через экземпляр DocumentProperties, возвращаемый методом [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties). Пожалуйста, смотрите пример в сводке метода [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties). |
-| [LinksUpToDate](../../aspose.slides/idocumentproperties/linksuptodate) { get; set; } | Указывает, являются ли гиперссылки в документе актуальными. Установите этот элемент в **true**, чтобы указать, что гиперссылки обновлены. Установите этот элемент в **false**, чтобы указать, что гиперссылки устарели. Чтение/запись Boolean. |
-| [Manager](../../aspose.slides/idocumentproperties/manager) { get; set; } | Возвращает или устанавливает свойство менеджера. Чтение/запись Строка. |
-| [MultimediaClips](../../aspose.slides/idocumentproperties/multimediaclips) { get; } | Указывает общее количество аудио или видеофрагментов, присутствующих в документе. Только для чтения Int32. |
-| [NameOfApplication](../../aspose.slides/idocumentproperties/nameofapplication) { get; set; } | Возвращает или устанавливает имя приложения. Чтение/запись Строка. |
-| [Notes](../../aspose.slides/idocumentproperties/notes) { get; } | Указывает количество слайдов в презентации, содержащих заметки. Только для чтения Int32. |
-| [Paragraphs](../../aspose.slides/idocumentproperties/paragraphs) { get; } | Указывает общее количество абзацев, обнаруженных в документе, если это применимо. Только для чтения Int32. |
-| [PresentationFormat](../../aspose.slides/idocumentproperties/presentationformat) { get; set; } | Возвращает или устанавливает предполагаемый формат презентации. Чтение/запись Строка. |
-| [RevisionNumber](../../aspose.slides/idocumentproperties/revisionnumber) { get; set; } | Возвращает или устанавливает номер ревизии презентации. Чтение/запись Int32. |
-| [ScaleCrop](../../aspose.slides/idocumentproperties/scalecrop) { get; set; } | Указывает режим отображения миниатюры документа. Установите этот элемент в **true**, чтобы включить масштабирование миниатюры документа для отображения. Установите этот элемент в **false**, чтобы включить обрезку миниатюры документа, чтобы показывать только области, которые подходят для отображения. Чтение/запись Boolean. |
-| [SharedDoc](../../aspose.slides/idocumentproperties/shareddoc) { get; set; } | Определяет, разделяется ли презентация между несколькими людьми. Чтение/запись Boolean. |
-| [Slides](../../aspose.slides/idocumentproperties/slides) { get; } | Указывает общее количество слайдов в документе презентации. Только для чтения Int32. |
-| [Subject](../../aspose.slides/idocumentproperties/subject) { get; set; } | Возвращает или устанавливает тему презентации. Чтение/запись Строка. |
-| [Title](../../aspose.slides/idocumentproperties/title) { get; set; } | Возвращает или устанавливает заголовок презентации. Чтение/запись Строка. |
-| [TitlesOfParts](../../aspose.slides/idocumentproperties/titlesofparts) { get; } | Указывает заголовок каждой части документа. Эти части не являются частями документа, а концептуальными представлениями разделов документа. Только для чтения string[]. |
-| [TotalEditingTime](../../aspose.slides/idocumentproperties/totaleditingtime) { get; set; } | Общее время редактирования презентации. Чтение/запись TimeSpan. |
-| [Words](../../aspose.slides/idocumentproperties/words) { get; } | Указывает общее количество слов, содержащихся в документе. Только для чтения Int32. |
+| [ApplicationTemplate](../../aspose.slides/idocumentproperties/applicationtemplate) { get; set; } | Возвращает или задает шаблон приложения. Чтение/записьString. |
+| [AppVersion](../../aspose.slides/idocumentproperties/appversion) { get; } | Возвращает версию приложения. Только чтениеString. |
+| [Author](../../aspose.slides/idocumentproperties/author) { get; set; } | Возвращает или устанавливает автора презентации. Чтение/записьString. |
+| [Category](../../aspose.slides/idocumentproperties/category) { get; set; } | Возвращает или задает категорию презентации. Чтение/записьString. |
+| [Comments](../../aspose.slides/idocumentproperties/comments) { get; set; } | Возвращает или задает комментарии презентации. Чтение/записьString. |
+| [Company](../../aspose.slides/idocumentproperties/company) { get; set; } | Возвращает или задает свойство компании. Чтение/записьString. |
+| [ContentStatus](../../aspose.slides/idocumentproperties/contentstatus) { get; set; } | Возвращает или устанавливает статус содержимого презентации. Чтение/записьString. |
+| [ContentType](../../aspose.slides/idocumentproperties/contenttype) { get; set; } | Возвращает или задает тип содержимого презентации. Чтение/записьString. |
+| [CountOfCustomProperties](../../aspose.slides/idocumentproperties/countofcustomproperties) { get; } | Возвращает количество пользовательских свойств, фактически содержащихся в коллекции. Только для чтенияInt32. |
+| [CreatedTime](../../aspose.slides/idocumentproperties/createdtime) { get; set; } | Возвращает дату создания презентации. Чтение/записьDateTime. |
+| [HyperlinkBase](../../aspose.slides/idocumentproperties/hyperlinkbase) { get; set; } | Возвращает или задает свойство документа HyperlinkBase. Чтение/записьString. |
+| [Item](../../aspose.slides/idocumentproperties/item) { get; set; } | Возвращает или задает пользовательское свойство, связанное с указанным именем. Чтение/записьObject. |
+| [Keywords](../../aspose.slides/idocumentproperties/keywords) { get; set; } | Возвращает или устанавливает ключевые слова презентации. Чтение/записьString. |
+| [LastPrinted](../../aspose.slides/idocumentproperties/lastprinted) { get; set; } | Возвращает дату последней печати презентации. Чтение/записьDateTime. |
+| [LastSavedBy](../../aspose.slides/idocumentproperties/lastsavedby) { get; set; } | Возвращает или задает имя последнего человека, изменившего презентацию. Чтение/записьString. |
+| [LastSavedTime](../../aspose.slides/idocumentproperties/lastsavedtime) { get; set; } | Возвращает дату последнего изменения презентации. Только для чтения в случае Presentation.DocumentProperties (поскольку он будет обновляться внутри во время процесса сохранения объекта IPresentation). Можно изменить с помощью экземпляра DocumentProperties, возвращаемого методом[`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties) См. пример в[`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties)сводка методов. |
+| [Manager](../../aspose.slides/idocumentproperties/manager) { get; set; } | Возвращает или устанавливает свойство менеджера. Чтение/записьString. |
+| [NameOfApplication](../../aspose.slides/idocumentproperties/nameofapplication) { get; set; } | Возвращает или задает имя приложения. Чтение/записьString. |
+| [PresentationFormat](../../aspose.slides/idocumentproperties/presentationformat) { get; set; } | Возвращает или задает предполагаемый формат презентации. Чтение/записьString. |
+| [RevisionNumber](../../aspose.slides/idocumentproperties/revisionnumber) { get; set; } | Возвращает или задает номер версии презентации. Чтение/записьInt32. |
+| [SharedDoc](../../aspose.slides/idocumentproperties/shareddoc) { get; set; } | Определяет, будет ли презентация совместно использоваться несколькими людьми. Чтение/записьBoolean. |
+| [Subject](../../aspose.slides/idocumentproperties/subject) { get; set; } | Возвращает или задает тему презентации. Чтение/записьString. |
+| [Title](../../aspose.slides/idocumentproperties/title) { get; set; } | Возвращает или задает заголовок презентации. Чтение/записьString. |
+| [TotalEditingTime](../../aspose.slides/idocumentproperties/totaleditingtime) { get; set; } | Общее время редактирования презентации. Чтение/записьTimeSpan. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [ClearBuiltInProperties](../../aspose.slides/idocumentproperties/clearbuiltinproperties)() | Очищает и устанавливает значения по умолчанию для всех встроенных свойств. |
-| [ClearCustomProperties](../../aspose.slides/idocumentproperties/clearcustomproperties)() | Удаляет все настраиваемые свойства. |
-| [ContainsCustomProperty](../../aspose.slides/idocumentproperties/containscustomproperty)(string) | Проверяет наличие настраиваемого свойства с заданным именем. |
-| [GetCustomPropertyName](../../aspose.slides/idocumentproperties/getcustompropertyname)(int) | Возвращает имя настраиваемого свойства по указанному индексу. |
-| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue)(string, out bool) | Получает именованное булевское значение из настраиваемых свойств. |
-| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_4)(string, out DateTime) | Получает именованное значение DateTime из настраиваемых свойств. |
-| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_1)(string, out double) | Получает именованное значение double из настраиваемых свойств. |
-| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_3)(string, out float) | Получает именованное значение float из настраиваемых свойств. |
-| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_2)(string, out int) | Получает именованное целочисленное значение из настраиваемых свойств. |
-| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_5)(string, out string) | Получает именованное строковое значение из настраиваемых свойств. |
-| [RemoveCustomProperty](../../aspose.slides/idocumentproperties/removecustomproperty)(string) | Удаляет настраиваемое свойство, связанное с заданным именем. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue)(string, bool) | Устанавливает именованное булевское настраиваемое свойство. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_4)(string, DateTime) | Устанавливает именованное настраиваемое свойство DateTime. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_1)(string, double) | Устанавливает именованное настраиваемое свойство double. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_3)(string, float) | Устанавливает именованное настраиваемое свойство float. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_2)(string, int) | Устанавливает именованное настраиваемое свойство integer. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_5)(string, string) | Устанавливает именованное настраиваемое свойство string. |
+| [ClearCustomProperties](../../aspose.slides/idocumentproperties/clearcustomproperties)() | Удаляет все пользовательские свойства. |
+| [ContainsCustomProperty](../../aspose.slides/idocumentproperties/containscustomproperty)(string) | Проверить наличие пользовательского свойства с указанным именем. |
+| [GetCustomPropertyName](../../aspose.slides/idocumentproperties/getcustompropertyname)(int) | Возвращает имя пользовательского свойства по указанному индексу. |
+| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue)(string, out bool) | Получает именованное логическое значение из пользовательских свойств. |
+| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_4)(string, out DateTime) | Получает именованное значение DateTime из пользовательских свойств. |
+| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_1)(string, out double) | Получает именованное двойное значение из пользовательских свойств. |
+| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_3)(string, out float) | Получает именованное значение с плавающей запятой из пользовательских свойств. |
+| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_2)(string, out int) | Получает именованное целочисленное значение из пользовательских свойств. |
+| [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_5)(string, out string) | Получает именованное строковое значение из пользовательских свойств. |
+| [RemoveCustomProperty](../../aspose.slides/idocumentproperties/removecustomproperty)(string) | Удалить пользовательское свойство, связанное с указанным именем. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue)(string, bool) | Задает именованное логическое пользовательское свойство. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_4)(string, DateTime) | Задает именованное пользовательское свойство DateTime. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_1)(string, double) | Устанавливает именованное двойное пользовательское свойство. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_3)(string, float) | Устанавливает именованное пользовательское свойство с плавающей запятой. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_2)(string, int) | Устанавливает именованное целочисленное пользовательское свойство. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_5)(string, string) | Задает пользовательское свойство именованной строки. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

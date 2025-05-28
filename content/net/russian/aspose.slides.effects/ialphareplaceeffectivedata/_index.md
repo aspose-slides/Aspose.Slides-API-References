@@ -1,30 +1,29 @@
 ---
 title: IAlphaReplaceEffectiveData
-second_title: Aspose.Slides для .NET API Reference
-description: Неизменяемый объект, представляющий эффект Alpha Replace. Значения альфа-непрозрачности эффекта заменяются фиксированной альфой.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект который представляет эффект альфа-замены. Значения альфа-канала эффекта непрозрачности заменяются фиксированным альфа-каналом.
 type: docs
-weight: 3050
+weight: 2970
 url: /ru/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
+## IAlphaReplaceEffectiveData interface
 
-## Интерфейс IAlphaReplaceEffectiveData
-
-Неизменяемый объект, представляющий эффект Alpha Replace. Значения альфа (непрозрачности) эффекта заменяются фиксированной альфой.
+Неизменяемый объект, который представляет эффект альфа-замены. Значения альфа-канала эффекта (непрозрачности) заменяются фиксированным альфа-каналом.
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Возвращает новое значение альфа в интервале [0..1]. Только для чтения, тип Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Возвращает новое альфа-значение в интервале [0..1] Только для чтенияSingle. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
+* interface [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

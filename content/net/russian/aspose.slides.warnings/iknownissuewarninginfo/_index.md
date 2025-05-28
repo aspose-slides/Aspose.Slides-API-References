@@ -1,29 +1,28 @@
 ---
 title: IKnownIssueWarningInfo
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет предупреждение о известной проблеме, которая не будет исправлена в ближайшем будущем.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет собой предупреждение об известной проблеме которая не будет исправлена в ближайшем будущем.
 type: docs
-weight: 11450
+weight: 10950
 url: /ru/aspose.slides.warnings/iknownissuewarninginfo/
 ---
+## IKnownIssueWarningInfo interface
 
-## Интерфейс IKnownIssueWarningInfo
-
-Представляет предупреждение о известной проблеме, которая не будет исправлена в ближайшем будущем.
+Представляет собой предупреждение об известной проблеме, которая не будет исправлена в ближайшем будущем.
 
 ```csharp
 public interface IKnownIssueWarningInfo : IWarningInfo
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../iwarninginfo). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IWarningInfo](../iwarninginfo)
+* interface [IWarningInfo](../iwarninginfo)
 * пространство имен [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * сборка [Aspose.Slides](../../)
 

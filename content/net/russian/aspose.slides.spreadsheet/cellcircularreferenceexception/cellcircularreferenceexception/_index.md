@@ -1,23 +1,22 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Slides для .NET API Reference
-description: Инициализирует новый экземпляр класса CellCircularReferenceExceptionaspose.slides.spreadsheet/cellcircularreferenceexception.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Инициализирует новый экземпляр классаCellCircularReferenceExceptionaspose.slides.spreadsheet/cellcircularreferenceexception.
 type: docs
 weight: 10
 url: /ru/aspose.slides.spreadsheet/cellcircularreferenceexception/cellcircularreferenceexception/
 ---
-
 ## CellCircularReferenceException() {#constructor}
 
-Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../../cellcircularreferenceexception).
+Инициализирует новый экземпляр класса[`CellCircularReferenceException`](../../cellcircularreferenceexception).
 
 ```csharp
 public CellCircularReferenceException()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [CellCircularReferenceException](../../cellcircularreferenceexception)
+* class [CellCircularReferenceException](../../cellcircularreferenceexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -25,7 +24,7 @@ public CellCircularReferenceException()
 
 ## CellCircularReferenceException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../../cellcircularreferenceexception) с указанным сообщением об ошибке.
+Инициализирует новый экземпляр класса[`CellCircularReferenceException`](../../cellcircularreferenceexception)с указанным сообщением об ошибке.
 
 ```csharp
 public CellCircularReferenceException(string message)
@@ -35,9 +34,9 @@ public CellCircularReferenceException(string message)
 | --- | --- | --- |
 | message | String | Строка, описывающая ошибку. |
 
-### См. Также
+### Смотрите также
 
-* класс [CellCircularReferenceException](../../cellcircularreferenceexception)
+* class [CellCircularReferenceException](../../cellcircularreferenceexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -45,7 +44,7 @@ public CellCircularReferenceException(string message)
 
 ## CellCircularReferenceException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../../cellcircularreferenceexception) с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр класса[`CellCircularReferenceException`](../../cellcircularreferenceexception)с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public CellCircularReferenceException(string message, Exception innerException)
@@ -54,11 +53,11 @@ public CellCircularReferenceException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Строка, описывающая ошибку. |
-| innerException | Exception | Исключение, которое является причиной текущего исключения. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения. |
 
-### См. Также
+### Смотрите также
 
-* класс [CellCircularReferenceException](../../cellcircularreferenceexception)
+* class [CellCircularReferenceException](../../cellcircularreferenceexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -66,7 +65,7 @@ public CellCircularReferenceException(string message, Exception innerException)
 
 ## CellCircularReferenceException(string, string) {#constructor_3}
 
-Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../../cellcircularreferenceexception) с указанным сообщением об ошибке и циклической ссылкой на ячейку.
+Инициализирует новый экземпляр класса[`CellCircularReferenceException`](../../cellcircularreferenceexception)с указанным сообщением об ошибке и циклическая ссылка на ячейку.
 
 ```csharp
 public CellCircularReferenceException(string message, string reference)
@@ -77,9 +76,9 @@ public CellCircularReferenceException(string message, string reference)
 | message | String | Строка, описывающая ошибку. |
 | reference | String | Циклическая ссылка на ячейку. |
 
-### См. Также
+### Смотрите также
 
-* класс [CellCircularReferenceException](../../cellcircularreferenceexception)
+* class [CellCircularReferenceException](../../cellcircularreferenceexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
 * сборка [Aspose.Slides](../../../)
 

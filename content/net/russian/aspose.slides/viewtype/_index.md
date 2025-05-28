@@ -1,35 +1,34 @@
 ---
 title: ViewType
-second_title: Aspose.Slides для .NET API Справочник
-description: Типы представления презентации
+second_title: Справочник по API Aspose.Slides для .NET
+description: Типы представлений
 type: docs
-weight: 11440
+weight: 10940
 url: /ru/aspose.slides/viewtype/
 ---
+## ViewType enumeration
 
-## Перечисление ViewType
-
-Типы представления презентации
+Типы представлений
 
 ```csharp
 public enum ViewType
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `0` | Значение не определено |
-| SlideView | `1` | Обычное представление слайдов |
-| SlideMasterView | `2` | Представление мастера слайдов |
-| NotesView | `3` | Представление заметок |
-| HandoutView | `4` | Представление раздаточного материала |
-| NotesMasterView | `5` | Представление мастера заметок |
-| OutlineView | `6` | Представление в виде плана |
-| SlideSorterView | `7` | Представление сортировщика слайдов |
-| SlideThumbnailView | `8` | Представление миниатюр слайдов |
+| SlideView | `1` | Обычный вид слайда |
+| SlideMasterView | `2` | Образец слайдов |
+| NotesView | `3` | Просмотр заметок |
+| HandoutView | `4` | Просмотр раздаточных материалов |
+| NotesMasterView | `5` | Основной вид заметок |
+| OutlineView | `6` | Контурный вид |
+| SlideSorterView | `7` | Просмотр сортировщика слайдов |
+| SlideThumbnailView | `8` | Миниатюры слайдов |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

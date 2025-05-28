@@ -1,15 +1,14 @@
 ---
 title: NumberFormatOfValues
-second_title: Aspose.Slides для .NET API Справочник
-description: NumberFormatOfValues. Чтение/запись строка.
+second_title: Справочник по API Aspose.Slides для .NET
+description: NumberFormatOfValues. Чтение/записьString.
 type: docs
 weight: 230
 url: /ru/aspose.slides.charts/chartseries/numberformatofvalues/
 ---
+## ChartSeries.NumberFormatOfValues property
 
-## Свойство ChartSeries.NumberFormatOfValues
-
-NumberFormatOfValues. Чтение/запись строка.
+NumberFormatOfValues. Чтение/записьString.
 
 ```csharp
 public string NumberFormatOfValues { get; set; }
@@ -17,7 +16,7 @@ public string NumberFormatOfValues { get; set; }
 
 ### Смотрите также
 
-* класс [ChartSeries](../../chartseries)
+* class [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)
 * сборка [Aspose.Slides](../../../)
 

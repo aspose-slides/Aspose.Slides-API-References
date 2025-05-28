@@ -1,15 +1,14 @@
 ---
-title: Содержит
-second_title: Справочник по API Aspose.Slidess для .NET
-description: Определяет, содержит ли ICollection определенное значение.
+title: Contains
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет содержит лиICollectionопределенное значение.
 type: docs
 weight: 70
 url: /ru/aspose.slides/paragraphcollection/contains/
 ---
+## ParagraphCollection.Contains method
 
-## Метод ParagraphCollection.Contains
-
-Определяет, содержит ли ICollection определенное значение.
+Определяет, содержит лиICollectionопределенное значение.
 
 ```csharp
 public bool Contains(IParagraph item)
@@ -17,16 +16,16 @@ public bool Contains(IParagraph item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IParagraph | Объект, который нужно найти в ICollection. |
+| item | IParagraph | Объект для размещения вICollection. |
 
 ### Возвращаемое значение
 
-true, если *item* найден в ICollection; в противном случае false.
+true, если*item*находится вICollection; в противном случае ложно.
 
 ### Смотрите также
 
-* интерфейс [IParagraph](../../iparagraph)
-* класс [ParagraphCollection](../../paragraphcollection)
+* interface [IParagraph](../../iparagraph)
+* class [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 

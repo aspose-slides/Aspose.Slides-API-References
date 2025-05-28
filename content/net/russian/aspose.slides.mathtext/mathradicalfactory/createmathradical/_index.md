@@ -1,13 +1,12 @@
 ---
 title: CreateMathRadical
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает математический радикал
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathradicalfactory/createmathradical/
 ---
-
-## MathRadicalFactory.CreateMathRadical метод
+## MathRadicalFactory.CreateMathRadical method
 
 Создает математический радикал
 
@@ -17,18 +16,18 @@ public IMathRadical CreateMathRadical(IMathElement baseArgument, IMathElement de
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArgument | IMathElement | Основной аргумент для применения радикала |
-| degreeArgument | IMathElement | Значение степени |
+| baseArgument | IMathElement | Базовый аргумент для применения радикала |
+| gradeArgument | IMathElement | Значение степени |
 
 ### Возвращаемое значение
 
-новый элемент радикала
+новый радикальный элемент
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IMathRadical](../../imathradical)
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathRadicalFactory](../../mathradicalfactory)
+* interface [IMathRadical](../../imathradical)
+* interface [IMathElement](../../imathelement)
+* class [MathRadicalFactory](../../mathradicalfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathradicalfactory)
 * сборка [Aspose.Slides](../../../)
 

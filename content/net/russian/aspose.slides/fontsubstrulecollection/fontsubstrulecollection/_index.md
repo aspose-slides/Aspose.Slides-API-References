@@ -1,13 +1,12 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontsubstrulecollection/fontsubstrulecollection/
 ---
-
-## Конструктор FontSubstRuleCollection
+## FontSubstRuleCollection constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/fontsubstrulecollection/fontsubstrulecollection/
 public FontSubstRuleCollection()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [FontSubstRuleCollection](../../fontsubstrulecollection)
+* class [FontSubstRuleCollection](../../fontsubstrulecollection)
 * пространство имен [Aspose.Slides](../../fontsubstrulecollection)
 * сборка [Aspose.Slides](../../../)
 

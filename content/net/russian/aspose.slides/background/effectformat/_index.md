@@ -1,15 +1,14 @@
 ---
 title: EffectFormat
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает EffectFormat для заливки BackgroundType.OwnBackground. Только для чтения IEffectFormataspose.slides/ieffectformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает EffectFormat для заливки BackgroundType.OwnBackground. Только для чтенияIEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/background/effectformat/
 ---
+## Background.EffectFormat property
 
-## Свойство Background.EffectFormat
-
-Возвращает EffectFormat для заливки BackgroundType.OwnBackground. Только для чтения [`IEffectFormat`](../../ieffectformat).
+Возвращает EffectFormat для заливки BackgroundType.OwnBackground. Только для чтения[`IEffectFormat`](../../ieffectformat).
 
 ```csharp
 public IEffectFormat EffectFormat { get; }
@@ -17,8 +16,8 @@ public IEffectFormat EffectFormat { get; }
 
 ### Смотрите также
 
-* интерфейс [IEffectFormat](../../ieffectformat)
-* класс [Background](../../background)
+* interface [IEffectFormat](../../ieffectformat)
+* class [Background](../../background)
 * пространство имен [Aspose.Slides](../../background)
 * сборка [Aspose.Slides](../../../)
 

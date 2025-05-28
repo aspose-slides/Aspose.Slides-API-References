@@ -1,24 +1,23 @@
 ---
-title: Поведение
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает коллекцию поведения для эффекта. Чтение/запись IBehaviorCollection aspose.slides.animation/ibehaviorcollection.
+title: Behaviors
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает коллекцию поведения для эффекта. Чтение/записьIBehaviorCollectionaspose.slides.animation/ibehaviorcollection.
 type: docs
-weight: 40
+weight: 10
 url: /ru/aspose.slides.animation/ieffect/behaviors/
 ---
+## IEffect.Behaviors property
 
-## Свойство IEffect.Behaviors
-
-Возвращает коллекцию поведения для эффекта. Чтение/запись [`IBehaviorCollection`](../../ibehaviorcollection).
+Возвращает коллекцию поведения для эффекта. Чтение/запись[`IBehaviorCollection`](../../ibehaviorcollection).
 
 ```csharp
 public IBehaviorCollection Behaviors { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBehaviorCollection](../../ibehaviorcollection)
-* интерфейс [IEffect](../../ieffect)
+* interface [IBehaviorCollection](../../ibehaviorcollection)
+* interface [IEffect](../../ieffect)
 * пространство имен [Aspose.Slides.Animation](../../ieffect)
 * сборка [Aspose.Slides](../../../)
 

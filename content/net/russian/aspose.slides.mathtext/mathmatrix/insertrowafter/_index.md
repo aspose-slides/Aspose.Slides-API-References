@@ -1,15 +1,14 @@
 ---
 title: InsertRowAfter
-second_title: Aspose.Slides для .NET API Reference
-description: Вставить новую строку после указанной. Изначально все элементы в новой строке равны null.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вставить новую строку после указанной Изначально все элементы в новой строке нулевые.
 type: docs
 weight: 180
 url: /ru/aspose.slides.mathtext/mathmatrix/insertrowafter/
 ---
+## MathMatrix.InsertRowAfter method
 
-## MathMatrix.InsertRowAfter метод
-
-Вставить новую строку после указанной. Изначально все элементы в новой строке равны null.
+Вставить новую строку после указанной Изначально все элементы в новой строке нулевые.
 
 ```csharp
 public void InsertRowAfter(int rowIndex)
@@ -17,7 +16,7 @@ public void InsertRowAfter(int rowIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rowIndex | Int32 | Индекс строки, после которой нужно вставить новую |
+| rowIndex | Int32 | Индекс строки, после которой вставить новую |
 
 ### Примеры
 
@@ -29,9 +28,9 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.InsertRowAfter(1);
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [MathMatrix](../../mathmatrix)
+* class [MathMatrix](../../mathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrix)
 * сборка [Aspose.Slides](../../../)
 

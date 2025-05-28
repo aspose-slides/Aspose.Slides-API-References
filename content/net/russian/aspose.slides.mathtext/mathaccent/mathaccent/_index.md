@@ -1,15 +1,14 @@
 ---
 title: MathAccent
-second_title: Aspose.Sildes для .NET API Справочник
-description: Создает математический акцент, применяющийся к указанному математическому элементу с значением символа акцента по умолчанию
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает математический акцент применяемый к указанному математическому элементу со значением символа акцента по умолчанию
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathaccent/mathaccent/
 ---
-
 ## MathAccent(IMathElement) {#constructor}
 
-Создает математический акцент, применяющийся к указанному математическому элементу с значением символа акцента по умолчанию
+Создает математический акцент, применяемый к указанному математическому элементу со значением символа акцента по умолчанию
 
 ```csharp
 public MathAccent(IMathElement element)
@@ -29,10 +28,10 @@ IMathElement baseElement = new MathematicalText("x");
 MathAccent accent = new MathAccent(baseElement);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathAccent](../../mathaccent)
+* interface [IMathElement](../../imathelement)
+* class [MathAccent](../../mathaccent)
 * пространство имен [Aspose.Slides.MathText](../../mathaccent)
 * сборка [Aspose.Slides](../../../)
 
@@ -40,7 +39,7 @@ MathAccent accent = new MathAccent(baseElement);
 
 ## MathAccent(IMathElement, char) {#constructor_1}
 
-Создает математический акцент, применяющийся к указанному математическому элементу
+Создает математический акцент, применяемый к указанному математическому элементу
 
 ```csharp
 public MathAccent(IMathElement element, char accentCharacter)
@@ -61,10 +60,10 @@ IMathElement baseElement = new MathematicalText("x");
 MathAccent accent = new MathAccent(baseElement, '~');
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathAccent](../../mathaccent)
+* interface [IMathElement](../../imathelement)
+* class [MathAccent](../../mathaccent)
 * пространство имен [Aspose.Slides.MathText](../../mathaccent)
 * сборка [Aspose.Slides](../../../)
 

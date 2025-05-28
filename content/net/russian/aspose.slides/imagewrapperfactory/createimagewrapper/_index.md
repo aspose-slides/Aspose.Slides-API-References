@@ -1,31 +1,29 @@
 ---
 title: CreateImageWrapper
-second_title: Aspose.Slides для .NET API Reference
-description: Инициализирует новый экземпляр класса ImageWrapper из указанного существующего изображения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Инициализирует новый экземпляр класса BitmapWrapper из указанного существующего изображения.
 type: docs
 weight: 20
 url: /ru/aspose.slides/imagewrapperfactory/createimagewrapper/
 ---
+## CreateImageWrapper(Image) {#createimagewrapper}
 
-## CreateImageWrapper(IImage) {#createimagewrapper}
-
-Инициализирует новый экземпляр класса ImageWrapper из указанного существующего изображения.
+Инициализирует новый экземпляр класса BitmapWrapper из указанного существующего изображения.
 
 ```csharp
-public IImageWrapper CreateImageWrapper(IImage image)
+public IImageWrapper CreateImageWrapper(Image image)
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IImageWrapper](../../iimagewrapper)
-* интерфейс [IImage](../../iimage)
-* класс [ImageWrapperFactory](../../imagewrapperfactory)
+* interface [IImageWrapper](../../iimagewrapper)
+* class [ImageWrapperFactory](../../imagewrapperfactory)
 * пространство имен [Aspose.Slides](../../imagewrapperfactory)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## CreateImageWrapper(Stream) {#createimagewrapper_2}
+## CreateImageWrapper(Stream) {#createimagewrapper_1}
 
 Инициализирует новый экземпляр класса BitmapWrapper из указанного потока данных.
 
@@ -33,16 +31,16 @@ public IImageWrapper CreateImageWrapper(IImage image)
 public IImageWrapper CreateImageWrapper(Stream stream)
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IImageWrapper](../../iimagewrapper)
-* класс [ImageWrapperFactory](../../imagewrapperfactory)
+* interface [IImageWrapper](../../iimagewrapper)
+* class [ImageWrapperFactory](../../imagewrapperfactory)
 * пространство имен [Aspose.Slides](../../imagewrapperfactory)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## CreateImageWrapper(string) {#createimagewrapper_3}
+## CreateImageWrapper(string) {#createimagewrapper_2}
 
 Инициализирует новый экземпляр класса BitmapWrapper из указанного файла.
 
@@ -50,10 +48,10 @@ public IImageWrapper CreateImageWrapper(Stream stream)
 public IImageWrapper CreateImageWrapper(string fileName)
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IImageWrapper](../../iimagewrapper)
-* класс [ImageWrapperFactory](../../imagewrapperfactory)
+* interface [IImageWrapper](../../iimagewrapper)
+* class [ImageWrapperFactory](../../imagewrapperfactory)
 * пространство имен [Aspose.Slides](../../imagewrapperfactory)
 * сборка [Aspose.Slides](../../../)
 

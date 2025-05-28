@@ -1,38 +1,37 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойства для формата эскиза линий.
 type: docs
-weight: 9640
+weight: 9170
 url: /ru/aspose.slides/sketchformat/
 ---
-
-## Класс SketchFormat
+## SketchFormat class
 
 Представляет свойства для формата эскиза линий.
 
 ```csharp
-public sealed class SketchFormat : PVIObject, ISketchFormat
+public class SketchFormat : PVIObject, ISketchFormat
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Возвращает или задает тип эскиза. Чтение/запись [`LineSketchType`](../linesketchtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Возвращает или задает тип эскиза. Чтение/запись[`LineSketchType`](../linesketchtype). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хеша. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
 ### Смотрите также
 
-* класс [PVIObject](../pviobject)
-* интерфейс [ISketchFormat](../isketchformat)
+* class [PVIObject](../pviobject)
+* interface [ISketchFormat](../isketchformat)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

@@ -1,42 +1,23 @@
 ---
 title: DocumentLevelFontSources
-second_title: Aspose.Slides для .NET API Справка
-description: Указывает источники для внешних шрифтов, которые будут использоваться в презентации. Эти шрифты доступны презентации на протяжении всей ее жизни и не используются другими презентациями
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает источники внешних шрифтов которые будут использоваться презентацией. Эти шрифты доступны для презентации в течение всего времени ее существования и не используются совместно с другими презентациями
 type: docs
-weight: 80
+weight: 60
 url: /ru/aspose.slides/loadoptions/documentlevelfontsources/
 ---
+## LoadOptions.DocumentLevelFontSources property
 
-## Свойство LoadOptions.DocumentLevelFontSources
-
-Указывает источники для внешних шрифтов, которые будут использоваться в презентации. Эти шрифты доступны презентации на протяжении всей ее жизни и не используются другими презентациями
+Указывает источники внешних шрифтов, которые будут использоваться презентацией. Эти шрифты доступны для презентации в течение всего времени ее существования и не используются совместно с другими презентациями
 
 ```csharp
 public IFontSources DocumentLevelFontSources { get; set; }
 ```
 
-### Примеры
+### Смотрите также
 
-Следующий пример показывает, как указать пользовательские шрифты, используемые с презентацией PowerPoint.
-
-```csharp
-[C#]
-byte[] memoryFont1 = File.ReadAllBytes("customfonts\\CustomFont1.ttf");
-byte[] memoryFont2 = File.ReadAllBytes("customfonts\\CustomFont2.ttf");
-LoadOptions loadOptions = new LoadOptions();
-loadOptions.DocumentLevelFontSources.FontFolders = new string[] { "assets\\fonts", "global\\fonts" };
-loadOptions.DocumentLevelFontSources.MemoryFonts = new byte[][] { memoryFont1, memoryFont2 };
-using (IPresentation presentation = new Presentation("MyPresentation.pptx", loadOptions))
-{
-    //работа с презентацией
-    //CustomFont1, CustomFont2, а также шрифты из папок assets\fonts и global\fonts и их подкаталогов доступны для презентации
-}
-```
-
-### См. также
-
-* интерфейс [IFontSources](../../ifontsources)
-* класс [LoadOptions](../../loadoptions)
+* interface [IFontSources](../../ifontsources)
+* class [LoadOptions](../../loadoptions)
 * пространство имен [Aspose.Slides](../../loadoptions)
 * сборка [Aspose.Slides](../../../)
 

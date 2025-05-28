@@ -1,24 +1,23 @@
 ---
-title: Значение
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Возвращает значение точки данных графика. Только для чтения IDoubleChartValueaspose.slides/idoublechartvalue.
+title: Value
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает значение точки данных диаграммы. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 150
 url: /ru/aspose.slides.charts/ichartdatapoint/value/
 ---
+## IChartDataPoint.Value property
 
-## Свойство IChartDataPoint.Value
-
-Возвращает значение точки данных графика. Только для чтения [`IDoubleChartValue`](../../idoublechartvalue).
+Возвращает значение точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IDoubleChartValue](../../idoublechartvalue)
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* interface [IDoubleChartValue](../../idoublechartvalue)
+* interface [IChartDataPoint](../../ichartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

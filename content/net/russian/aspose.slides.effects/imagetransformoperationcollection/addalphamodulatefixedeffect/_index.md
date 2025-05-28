@@ -1,13 +1,12 @@
 ---
 title: AddAlphaModulateFixedEffect
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет новый эффект Alpha Modulate Fixed в конец коллекции.
 type: docs
 weight: 100
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addalphamodulatefixedeffect/
 ---
-
-## ImageTransformOperationCollection.AddAlphaModulateFixedEffect метод
+## ImageTransformOperationCollection.AddAlphaModulateFixedEffect method
 
 Добавляет новый эффект Alpha Modulate Fixed в конец коллекции.
 
@@ -17,16 +16,16 @@ public IAlphaModulateFixed AddAlphaModulateFixedEffect(float amount)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| amount | Single | Процентное значение для масштабирования альфа. |
+| amount | Single | Сумма в процентах для масштабирования альфы. |
 
 ### Возвращаемое значение
 
 Индекс нового эффекта изображения в коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAlphaModulateFixed](../../ialphamodulatefixed)
-* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* interface [IAlphaModulateFixed](../../ialphamodulatefixed)
+* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: TextAnimationCollection
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/textanimationcollection/textanimationcollection/
 ---
-
-## Конструктор TextAnimationCollection
+## TextAnimationCollection constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/textanimationcollection/textanimationcollection
 public TextAnimationCollection()
 ```
 
-### Также см.
+### Смотрите также
 
-* класс [TextAnimationCollection](../../textanimationcollection)
+* class [TextAnimationCollection](../../textanimationcollection)
 * пространство имен [Aspose.Slides.Animation](../../textanimationcollection)
 * сборка [Aspose.Slides](../../../)
 

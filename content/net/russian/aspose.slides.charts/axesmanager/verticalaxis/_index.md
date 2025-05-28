@@ -1,15 +1,14 @@
 ---
 title: VerticalAxis
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает вертикальную ось графика. Только для чтения IAxisaspose.slides.charts/iaxis.
+description: Получает вертикальную ось диаграммы. Только для чтенияIAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/axesmanager/verticalaxis/
 ---
+## AxesManager.VerticalAxis property
 
-## Свойство AxesManager.VerticalAxis
-
-Получает вертикальную ось графика. Только для чтения [`IAxis`](../../iaxis).
+Получает вертикальную ось диаграммы. Только для чтения[`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis VerticalAxis { get; }
@@ -17,8 +16,8 @@ public IAxis VerticalAxis { get; }
 
 ### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
-* класс [AxesManager](../../axesmanager)
+* interface [IAxis](../../iaxis)
+* class [AxesManager](../../axesmanager)
 * пространство имен [Aspose.Slides.Charts](../../axesmanager)
 * сборка [Aspose.Slides](../../../)
 

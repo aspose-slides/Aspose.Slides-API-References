@@ -1,15 +1,14 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides для .NET API Справка
-description: Служит в качестве хеш-функции для определенного типа, подходящего для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Служит хеш-функцией для определенного типа подходящей для использования в алгоритмах хеширования и структурах данных таких как хэш-таблица.
 type: docs
 weight: 90
 url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode/
 ---
+## ImageTransformOCollectionEffectiveData.GetHashCode method
 
-## ImageTransformOCollectionEffectiveData.GetHashCode метод
-
-Служит в качестве хеш-функции для определенного типа, подходящего для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица.
+Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица.
 
 ```csharp
 public override int GetHashCode()
@@ -17,11 +16,11 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Код хеша для текущего объекта.
+Хэш-код текущего объекта.
 
-### См. также
+### Смотрите также
 
-* класс [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
+* class [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

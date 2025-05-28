@@ -1,13 +1,12 @@
 ---
 title: MathematicalTextFactory
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathematicaltextfactory/mathematicaltextfactory/
 ---
-
-## Конструктор MathematicalTextFactory
+## MathematicalTextFactory constructor
 
 Конструктор по умолчанию.
 
@@ -17,7 +16,7 @@ public MathematicalTextFactory()
 
 ### Смотрите также
 
-* класс [MathematicalTextFactory](../../mathematicaltextfactory)
+* class [MathematicalTextFactory](../../mathematicaltextfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltextfactory)
 * сборка [Aspose.Slides](../../../)
 

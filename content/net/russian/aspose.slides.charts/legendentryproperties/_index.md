@@ -1,31 +1,30 @@
 ---
 title: LegendEntryProperties
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет свойства легенды графика.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет свойства легенды диаграммы.
 type: docs
-weight: 2230
+weight: 2170
 url: /ru/aspose.slides.charts/legendentryproperties/
 ---
+## LegendEntryProperties class
 
-## Класс LegendEntryProperties
-
-Представляет свойства легенды графика.
+Представляет свойства легенды диаграммы.
 
 ```csharp
 public class LegendEntryProperties : ILegendEntryProperties
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Возвращает родительский график. Только для чтения [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Определяет, скрыт ли элемент легенды. Чтение/запись Boolean. |
-| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Возвращает текстовый формат. Только для чтения [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения[`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Определяет, скрыта ли запись легенды. Чтение/записьBoolean. |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Возвращает текстовый формат. Только чтение[`IChartTextFormat`](../icharttextformat). |
 
 ### Смотрите также
 
-* интерфейс [ILegendEntryProperties](../ilegendentryproperties)
+* interface [ILegendEntryProperties](../ilegendentryproperties)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

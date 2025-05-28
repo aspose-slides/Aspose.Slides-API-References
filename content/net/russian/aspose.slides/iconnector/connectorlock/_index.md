@@ -1,15 +1,14 @@
 ---
 title: ConnectorLock
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает блокировки Коннекторов. Только для чтения IConnectorLockaspose.slides/iconnectorlock.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает блокировки коннектора. Только для чтенияIConnectorLockaspose.slides/iconnectorlock.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iconnector/connectorlock/
 ---
+## IConnector.ConnectorLock property
 
-## Свойство IConnector.ConnectorLock
-
-Возвращает блокировки Коннектора. Только для чтения [`IConnectorLock`](../../iconnectorlock).
+Возвращает блокировки коннектора. Только для чтения[`IConnectorLock`](../../iconnectorlock).
 
 ```csharp
 public IConnectorLock ConnectorLock { get; }
@@ -17,8 +16,8 @@ public IConnectorLock ConnectorLock { get; }
 
 ### Смотрите также
 
-* интерфейс [IConnectorLock](../../iconnectorlock)
-* интерфейс [IConnector](../../iconnector)
+* interface [IConnectorLock](../../iconnectorlock)
+* interface [IConnector](../../iconnector)
 * пространство имен [Aspose.Slides](../../iconnector)
 * сборка [Aspose.Slides](../../../)
 

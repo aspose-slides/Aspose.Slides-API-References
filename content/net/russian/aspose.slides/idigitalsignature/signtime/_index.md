@@ -1,15 +1,14 @@
 ---
 title: SignTime
-second_title: Aspose.Sildes для .NET API Справочник
-description: Время, когда документ был подписан. Свойство DateTime только для чтения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Время подписания документа. Только для чтенияDateTime.
 type: docs
 weight: 40
 url: /ru/aspose.slides/idigitalsignature/signtime/
 ---
+## IDigitalSignature.SignTime property
 
-## Свойство IDigitalSignature.SignTime
-
-Время, когда документ был подписан. Свойство DateTime только для чтения.
+Время подписания документа. Только для чтенияDateTime.
 
 ```csharp
 public DateTime SignTime { get; }
@@ -22,13 +21,13 @@ public DateTime SignTime { get; }
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     foreach (DigitalSignature signature in pres.DigitalSignatures)
-        Console.WriteLine("Проверка подписи: " + (signature.IsValid ? "ДОБАВЛЕНО" : "НЕДОБАВЛЕНО") + ", Время подписи: " + signature.SignTime);
+        Console.WriteLine("Signature check: " + (signature.IsValid ? "VALID" : "INVALID") + ", Signing time: " + signature.SignTime);
 }
 ```
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IDigitalSignature](../../idigitalsignature)
+* interface [IDigitalSignature](../../idigitalsignature)
 * пространство имен [Aspose.Slides](../../idigitalsignature)
 * сборка [Aspose.Slides](../../../)
 

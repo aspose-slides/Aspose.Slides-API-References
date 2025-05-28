@@ -1,41 +1,40 @@
 ---
 title: StringChartValue
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет строковое значение, которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги, связанных с графиком; 2 как буквальное значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет строковое значение которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги связанной с диаграммой 2 как буквальное значение.
 type: docs
-weight: 2330
+weight: 2270
 url: /ru/aspose.slides.charts/stringchartvalue/
 ---
+## StringChartValue class
 
-## Класс StringChartValue
-
-Представляет строковое значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанных с графиком; 2) как буквальное значение.
+Представляет строковое значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Присвоение значения null не допускается. Возвращаемое значение всегда не равно null. Чтение/запись [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Возвращает или задает значение как буквальную строку. Чтение/запись String. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Возвращает или задает объект Data. Чтение/запись Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами, оно указывает тип значения свойства Data. Чтение/запись [`DataSourceType`](../datasourcetype). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Присвоение нулевого значения не допускается. Возвращаемое значение всегда не равно нулю. Чтение/запись[`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Возвращает или устанавливает значение как литеральную строку. Чтение/записьString. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Возвращает или устанавливает объект данных. Чтение/записьObject. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Если свойство DataSourceType равно DataSourceType.Worksheet, то этот метод возвращает адрес ячеек в рабочей книге, которые представляют строковые данные. В противном случае возвращает пустую строку. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Если свойство DataSourceType имеет значение DataSourceType.Worksheet, то этот метод возвращает адрес ячеек в рабочей книге, которые представляют строковые данные. В противном случае вернуть пустую строку. |
 | [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Устанавливает значение из указанной ячейки. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Возвращает строковое значение данных. Возвращает null, если DataSourceType ложен и строковое значение не было задано. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Возвращает данные строкового значения. Возвращает null, если DataSourceType имеет значение false и строковое значение не было присвоено. |
 
-### См. также
+### Смотрите также
 
-* класс [BaseChartValue](../basechartvalue)
-* интерфейс [IStringChartValue](../istringchartvalue)
+* class [BaseChartValue](../basechartvalue)
+* interface [IStringChartValue](../istringchartvalue)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

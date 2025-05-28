@@ -1,15 +1,14 @@
 ---
 title: IsReadOnly
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает значение, указывающее, является ли ICollection доступным только для чтения. Булевое значение только для чтения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает значение указывающее является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/isreadonly/
 ---
+## ImageTransformOperationCollection.IsReadOnly property
 
-## ImageTransformOperationCollection.IsReadOnly свойство
-
-Получает значение, указывающее, является ли ICollection доступным только для чтения. Булевое значение только для чтения.
+Получает значение, указывающее, является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean.
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -17,11 +16,11 @@ public bool IsReadOnly { get; }
 
 ### Возвращаемое значение
 
-true, если ICollection доступен только для чтения; в противном случае - false.
+true, еслиICollectionдоступен только для чтения; в противном случае ложно.
 
-### Также смотрите
+### Смотрите также
 
-* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

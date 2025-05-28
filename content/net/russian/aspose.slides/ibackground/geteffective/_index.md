@@ -1,15 +1,14 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes для .NET API Справочник
-description: Получает эффективные данные фона с применённым наследованием.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает действующие фоновые данные с применением наследования.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ibackground/geteffective/
 ---
+## IBackground.GetEffective method
 
-## IBackground.GetEffective метод
-
-Получает эффективные данные фона с применённым наследованием.
+Получает действующие фоновые данные с применением наследования.
 
 ```csharp
 public IBackgroundEffectiveData GetEffective()
@@ -17,12 +16,12 @@ public IBackgroundEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
+A[`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBackgroundEffectiveData](../../ibackgroundeffectivedata)
-* интерфейс [IBackground](../../ibackground)
+* interface [IBackgroundEffectiveData](../../ibackgroundeffectivedata)
+* interface [IBackground](../../ibackground)
 * пространство имен [Aspose.Slides](../../ibackground)
 * сборка [Aspose.Slides](../../../)
 

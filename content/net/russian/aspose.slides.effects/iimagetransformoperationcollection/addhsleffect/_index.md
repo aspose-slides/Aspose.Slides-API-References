@@ -1,15 +1,14 @@
 ---
 title: AddHSLEffect
-second_title: Aspose.Slides для .NET API Reference
-description: Добавляет новый эффект Цветовой тон/Насыщенность/Яркость в конец коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет новый эффект оттенка/насыщенности/яркости в конец коллекции.
 type: docs
 weight: 170
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/addhsleffect/
 ---
+## IImageTransformOperationCollection.AddHSLEffect method
 
-## IImageTransformOperationCollection.AddHSLEffect метод
-
-Добавляет новый эффект Цветовой тон/Насыщенность/Яркость в конец коллекции.
+Добавляет новый эффект оттенка/насыщенности/яркости в конец коллекции.
 
 ```csharp
 public IHSL AddHSLEffect(float hue, float saturation, float luminance)
@@ -17,18 +16,18 @@ public IHSL AddHSLEffect(float hue, float saturation, float luminance)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hue | Single | Количество градусов, на которое изменяется цветовой тон. |
-| saturation | Single | Процент, на который изменяется насыщенность. |
-| luminance | Single | Процент, на который изменяется яркость. |
+| hue | Single | Число градусов, на которое регулируется оттенок. |
+| saturation | Single | Процент, на который регулируется насыщенность. |
+| luminance | Single | Процент, на который регулируется яркость. |
 
 ### Возвращаемое значение
 
 Индекс нового эффекта изображения в коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IHSL](../../ihsl)
-* интерфейс [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
+* interface [IHSL](../../ihsl)
+* interface [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: IEmptyTransition
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Эффект перехода пустого слайда.
 type: docs
-weight: 9770
+weight: 9300
 url: /ru/aspose.slides.slideshow/iemptytransition/
 ---
-
-## Интерфейс IEmptyTransition
+## IEmptyTransition interface
 
 Эффект перехода пустого слайда.
 
@@ -15,15 +14,15 @@ url: /ru/aspose.slides.slideshow/iemptytransition/
 public interface IEmptyTransition : ITransitionValueBase
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITransitionValueBase](../itransitionvaluebase)
+* interface [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

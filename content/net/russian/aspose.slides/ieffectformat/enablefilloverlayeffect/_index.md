@@ -1,13 +1,12 @@
 ---
 title: EnableFillOverlayEffect
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Включает эффект наложения заливки.
 type: docs
 weight: 190
 url: /ru/aspose.slides/ieffectformat/enablefilloverlayeffect/
 ---
-
-## Метод IEffectFormat.EnableFillOverlayEffect
+## IEffectFormat.EnableFillOverlayEffect method
 
 Включает эффект наложения заливки.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/ieffectformat/enablefilloverlayeffect/
 public void EnableFillOverlayEffect()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectFormat](../../ieffectformat)
+* interface [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)
 * сборка [Aspose.Slides](../../../)
 

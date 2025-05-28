@@ -1,23 +1,22 @@
 ---
 title: LoadOptions
-second_title: Aspose.Slides для .NET API Reference
-description: Создает новые стандартные параметры загрузки.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новые параметры загрузки по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/loadoptions/loadoptions/
 ---
-
 ## LoadOptions() {#constructor}
 
-Создает новые стандартные параметры загрузки.
+Создает новые параметры загрузки по умолчанию.
 
 ```csharp
 public LoadOptions()
 ```
 
-### Также см.
+### Смотрите также
 
-* класс [LoadOptions](../../loadoptions)
+* class [LoadOptions](../../loadoptions)
 * пространство имен [Aspose.Slides](../../loadoptions)
 * сборка [Aspose.Slides](../../../)
 
@@ -33,12 +32,12 @@ public LoadOptions(LoadFormat loadFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| loadFormat | LoadFormat | Формат презентации для загрузки. |
+| loadFormat | LoadFormat | Формат загружаемой презентации. |
 
-### Также см.
+### Смотрите также
 
-* перечисление [LoadFormat](../../loadformat)
-* класс [LoadOptions](../../loadoptions)
+* enum [LoadFormat](../../loadformat)
+* class [LoadOptions](../../loadoptions)
 * пространство имен [Aspose.Slides](../../loadoptions)
 * сборка [Aspose.Slides](../../../)
 

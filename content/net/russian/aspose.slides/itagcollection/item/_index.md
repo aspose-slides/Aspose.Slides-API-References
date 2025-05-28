@@ -1,15 +1,14 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает ключ и соответствующее значение тега.
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает пару ключ-значение тега.
 type: docs
 weight: 10
 url: /ru/aspose.slides/itagcollection/item/
 ---
+## ITagCollection indexer
 
-## Индексатор ITagCollection
-
-Возвращает или устанавливает ключ и соответствующее значение тега.
+Возвращает или задает пару ключ-значение тега.
 
 ```csharp
 public string this[string name] { get; set; }
@@ -23,9 +22,9 @@ public string this[string name] { get; set; }
 
 Значение тега.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITagCollection](../../itagcollection)
+* interface [ITagCollection](../../itagcollection)
 * пространство имен [Aspose.Slides](../../itagcollection)
 * сборка [Aspose.Slides](../../../)
 

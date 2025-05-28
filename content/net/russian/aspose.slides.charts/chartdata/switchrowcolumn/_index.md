@@ -1,23 +1,22 @@
 ---
 title: SwitchRowColumn
-second_title: Aspose.Slides для .NET API Reference
-description: Обмен данных по оси. Данные, отображаемые по оси X, переместятся на ось Y и наоборот.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Поменять местами данные по оси. Данные нанесенные на диаграмму по оси X будут перемещаться по оси Y и наоборот.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
+## ChartData.SwitchRowColumn method
 
-## Метод ChartData.SwitchRowColumn
-
-Обмен данных по оси. Данные, отображаемые по оси X, переместятся на ось Y и наоборот.
+Поменять местами данные по оси. Данные, нанесенные на диаграмму по оси X, будут перемещаться по оси Y и наоборот.
 
 ```csharp
 public void SwitchRowColumn()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ChartData](../../chartdata)
+* class [ChartData](../../chartdata)
 * пространство имен [Aspose.Slides.Charts](../../chartdata)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,11 @@
 ---
-title: Presentación
+title: Presentation
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Este constructor crea una nueva presentación desde cero. La presentación creada tiene una diapositiva vacía.
 type: docs
 weight: 10
 url: /es/aspose.slides/presentation/presentation/
 ---
-
 ## Presentation() {#constructor}
 
 Este constructor crea una nueva presentación desde cero. La presentación creada tiene una diapositiva vacía.
@@ -15,11 +14,11 @@ Este constructor crea una nueva presentación desde cero. La presentación cread
 public Presentation()
 ```
 
-### Ver También
+### Ver también
 
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../presentation)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
@@ -31,28 +30,28 @@ Este constructor crea una nueva presentación desde cero. La presentación cread
 public Presentation(LoadOptions loadOptions)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | loadOptions | LoadOptions | Opciones de carga adicionales. |
 
-### Ver También
+### Ver también
 
 * class [LoadOptions](../../loadoptions)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../presentation)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
 ## Presentation(Stream) {#constructor_2}
 
-Este constructor es el mecanismo principal para leer una Presentación existente.
+Este constructor es el mecanismo principal para leer una presentación existente.
 
 ```csharp
 public Presentation(Stream stream)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | stream | Stream | Flujo de entrada. |
 
@@ -72,53 +71,53 @@ Dim pres As Presentation = New Presentation(fis)
 fis.Close()
 ```
 
-### Ver También
+### Ver también
 
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../presentation)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
 ## Presentation(Stream, LoadOptions) {#constructor_3}
 
-Este constructor es el mecanismo principal para leer una Presentación existente.
+Este constructor es el mecanismo principal para leer una presentación existente.
 
 ```csharp
 public Presentation(Stream stream, LoadOptions loadOptions)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | stream | Stream | Flujo de entrada. |
 | loadOptions | LoadOptions | Opciones de carga adicionales. |
 
-### Ver También
+### Ver también
 
 * class [LoadOptions](../../loadoptions)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../presentation)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
 ## Presentation(string) {#constructor_4}
 
-Este constructor obtiene una ruta de archivo fuente desde la cual se leen los contenidos de la Presentación.
+Este constructor obtiene una ruta del archivo fuente desde la cual se lee el contenido de la Presentación.
 
 ```csharp
 public Presentation(string file)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| file | String | Archivo de entrada. |
+| file | String | Fichero de entrada. |
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | Lanzado cuando el archivo de entrada tiene longitud cero |
+| ArgumentException | Lanzado cuando el archivo de entrada tiene una longitud cero |
 
 ### Ejemplos
 
@@ -132,38 +131,38 @@ Presentation pres = new Presentation("demo.pptx");
 Dim pres As Presentation = New Presentation("demo.pptx")
 ```
 
-### Ver También
+### Ver también
 
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../presentation)
+* asamblea [Aspose.Slides](../../../)
 
 ---
 
 ## Presentation(string, LoadOptions) {#constructor_5}
 
-Este constructor obtiene una ruta de archivo fuente desde la cual se leen los contenidos de la Presentación.
+Este constructor obtiene una ruta del archivo fuente desde la cual se lee el contenido de la Presentación.
 
 ```csharp
 public Presentation(string file, LoadOptions loadOptions)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| file | String | Archivo de entrada. |
+| file | String | Fichero de entrada. |
 | loadOptions | LoadOptions | Opciones de carga adicionales. |
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | Lanzado cuando el archivo de entrada tiene longitud cero |
+| ArgumentException | Lanzado cuando el archivo de entrada tiene una longitud cero |
 
-### Ver También
+### Ver también
 
 * class [LoadOptions](../../loadoptions)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../presentation)
+* asamblea [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

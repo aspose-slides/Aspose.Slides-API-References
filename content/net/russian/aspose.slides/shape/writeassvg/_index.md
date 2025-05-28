@@ -1,15 +1,14 @@
 ---
 title: WriteAsSvg
 second_title: Справочник по API Aspose.Slides для .NET
-description: Сохраняет содержимое Shape в файл SVG.
+description: Сохраняет содержимое Shape как файл SVG.
 type: docs
-weight: 370
+weight: 350
 url: /ru/aspose.slides/shape/writeassvg/
 ---
-
 ## WriteAsSvg(Stream) {#writeassvg}
 
-Сохраняет содержимое Shape в файл SVG.
+Сохраняет содержимое Shape как файл SVG.
 
 ```csharp
 public void WriteAsSvg(Stream stream)
@@ -19,9 +18,9 @@ public void WriteAsSvg(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Целевой поток |
 
-### См. Также
+### Смотрите также
 
-* класс [Shape](../../shape)
+* class [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 
@@ -29,7 +28,7 @@ public void WriteAsSvg(Stream stream)
 
 ## WriteAsSvg(Stream, ISVGOptions) {#writeassvg_1}
 
-Сохраняет содержимое Shape в файл SVG.
+Сохраняет содержимое Shape как файл SVG.
 
 ```csharp
 public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
@@ -40,10 +39,10 @@ public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 | stream | Stream | Целевой поток |
 | svgOptions | ISVGOptions | Параметры генерации SVG |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISVGOptions](../../../aspose.slides.export/isvgoptions)
-* класс [Shape](../../shape)
+* interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
+* class [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 

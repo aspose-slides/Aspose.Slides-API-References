@@ -1,15 +1,14 @@
 ---
-title: Глобальный
-second_title: Ссылки на API Aspose.Slides для .NET
-description: Возвращает глобальное хранилище документа. Только для чтения Storageaspose.slides.export.web/storage.
+title: Global
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает глобальное хранилище документа. Только для чтенияStorageaspose.slides.export.web/storage.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export.web/webdocument/global/
 ---
+## WebDocument.Global property
 
-## Свойство WebDocument.Global
-
-Возвращает глобальное хранилище документа. Только для чтения [`Storage`](../../storage).
+Возвращает глобальное хранилище документа. Только для чтения[`Storage`](../../storage).
 
 ```csharp
 public Storage Global { get; }
@@ -17,7 +16,7 @@ public Storage Global { get; }
 
 ### Примеры
 
-Используя это свойство `Global` (реализация интерфейса [`Storage`](../../storage)), можно использовать его позже в шаблоне:
+Используя это свойство`Global`(реализация[`Storage`](../../storage)interface) свойство может быть использовано позже в шаблоне:
 
 ```csharp
 [C#]
@@ -30,17 +29,17 @@ var options = new WebDocumentOptions
 
 WebDocument document = new WebDocument(options);
 
-// используем свойство "slideMargin" из шаблонов
+ // поместите свойство "slideMargin" для использования из templates
 document.Global.Put("slideMargin", 10);
 
-// ... настраиваем другие параметры документа, а затем сохраняем документ
+ // ... настраиваем другие параметры документа и затем сохраняем document
 document.Save();
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Storage](../../storage)
-* класс [WebDocument](../../webdocument)
+* class [Storage](../../storage)
+* class [WebDocument](../../webdocument)
 * пространство имен [Aspose.Slides.Export.Web](../../webdocument)
 * сборка [Aspose.Slides](../../../)
 

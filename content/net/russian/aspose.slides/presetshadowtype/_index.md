@@ -1,46 +1,45 @@
 ---
 title: PresetShadowType
-second_title: Aspose.Slildes для .NET API Справка
-description: Представляет предустановку для эффекта тени.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет пресет для эффекта тени.
 type: docs
-weight: 9400
+weight: 8940
 url: /ru/aspose.slides/presetshadowtype/
 ---
+## PresetShadowType enumeration
 
-## Перечисление PresetShadowType
-
-Представляет предустановку для эффекта тени.
+Представляет пресет для эффекта тени.
 
 ```csharp
 public enum PresetShadowType
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | Представляет тень, падающую из верхнего левого угла. |
-| TopLeftLargeDropShadow | `1` | Представляет крупную тень, падающую из верхнего левого угла. |
-| BackLeftLongPerspectiveShadow | `2` | Представляет длинную перспективную тень сзади слева. |
-| BackRightLongPerspectiveShadow | `3` | Представляет длинную перспективную тень сзади справа. |
-| TopLeftDoubleDropShadow | `4` | Представляет двойную тень, падающую из верхнего левого угла. |
-| BottomRightSmallDropShadow | `5` | Представляет небольшую тень, падающую из нижнего правого угла. |
-| FrontLeftLongPerspectiveShadow | `6` | Представляет длинную перспективную тень спереди слева. |
-| FrontRightLongPerspectiveShadow | `7` | Представляет длинную перспективную тень спереди справа. |
-| OuterBoxShadow3D | `8` | Представляет 3D тень внешнего блока. |
-| InnerBoxShadow3D | `9` | Представляет 3D тень внутреннего блока. |
-| BackCenterPerspectiveShadow | `10` | Представляет перспективную тень сзади по центру. |
-| TopRightDropShadow | `11` | Представляет тень, падающую из верхнего правого угла. |
-| FrontBottomShadow | `12` | Представляет тень спереди снизу. |
-| BackLeftPerspectiveShadow | `13` | Представляет перспективную тень сзади слева. |
-| BackRightPerspectiveShadow | `14` | Представляет перспективную тень сзади справа. |
-| BottomLeftDropShadow | `15` | Представляет тень, падающую из нижнего левого угла. |
-| BottomRightDropShadow | `16` | Представляет тень, падающую из нижнего правого угла. |
-| FrontLeftPerspectiveShadow | `17` | Представляет перспективную тень спереди слева. |
-| FrontRightPerspectiveShadow | `18` | Представляет перспективную тень спереди справа. |
-| TopLeftSmallDropShadow | `19` | Представляет небольшую тень, падающую из верхнего левого угла. |
+| TopLeftDropShadow | `0` | Представляет верхнюю левую тень. |
+| TopLeftLargeDropShadow | `1` | Представляет большую левую верхнюю тень. |
+| BackLeftLongPerspectiveShadow | `2` | Представляет длинную тень в перспективе сзади слева |
+| BackRightLongPerspectiveShadow | `3` | Представляет правую заднюю длинную тень перспективы |
+| TopLeftDoubleDropShadow | `4` | Представляет верхнюю левую двойную тень. |
+| BottomRightSmallDropShadow | `5` | Представляет правую нижнюю маленькую тень. |
+| FrontLeftLongPerspectiveShadow | `6` | Представляет переднюю левую длинную тень в перспективе. |
+| FrontRightLongPerspectiveShadow | `7` | Представляет переднюю правую длинную тень в перспективе. |
+| OuterBoxShadow3D | `8` | Представляет трехмерную тень внешнего блока. |
+| InnerBoxShadow3D | `9` | Представляет трехмерную тень внутреннего блока. |
+| BackCenterPerspectiveShadow | `10` | Представляет тень в перспективе сзади по центру. |
+| TopRightDropShadow | `11` | Представляет верхнюю правую тень. |
+| FrontBottomShadow | `12` | Представляет переднюю нижнюю тень. |
+| BackLeftPerspectiveShadow | `13` | Представляет тень в перспективе сзади слева. |
+| BackRightPerspectiveShadow | `14` | Представляет тень в перспективе сзади справа. |
+| BottomLeftDropShadow | `15` | Представляет нижнюю левую тень. |
+| BottomRightDropShadow | `16` | Представляет правую нижнюю тень. |
+| FrontLeftPerspectiveShadow | `17` | Представляет тень в перспективе слева. |
+| FrontRightPerspectiveShadow | `18` | Представляет переднюю правую тень в перспективе. |
+| TopLeftSmallDropShadow | `19` | Представляет маленькую тень сверху слева. |
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

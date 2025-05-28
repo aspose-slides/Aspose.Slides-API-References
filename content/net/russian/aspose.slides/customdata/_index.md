@@ -3,11 +3,10 @@ title: CustomData
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет контейнер для пользовательских данных.
 type: docs
-weight: 2640
+weight: 2580
 url: /ru/aspose.slides/customdata/
 ---
-
-## Класс CustomData
+## CustomData class
 
 Представляет контейнер для пользовательских данных.
 
@@ -15,16 +14,16 @@ url: /ru/aspose.slides/customdata/
 public class CustomData : ICustomData
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Возвращает коллекцию пользовательских XML-частей. Только для чтения [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | Возвращает коллекцию тегов пользовательских данных. Только для чтения [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Возвращает пользовательскую коллекцию частей xml. Только для чтения[`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Возвращает коллекцию тегов данных клиента. Только для чтения[`ITagCollection`](../itagcollection). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ICustomData](../icustomdata)
+* interface [ICustomData](../icustomdata)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

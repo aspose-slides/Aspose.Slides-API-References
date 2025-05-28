@@ -1,15 +1,14 @@
 ---
 title: PptException
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет стандартный внутренний тип исключения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет стандартный тип внутреннего исключения.
 type: docs
-weight: 9250
+weight: 8790
 url: /ru/aspose.slides/pptexception/
 ---
+## PptException class
 
-## Класс PptException
-
-Представляет стандартный внутренний тип исключения.
+Представляет стандартный тип внутреннего исключения.
 
 ```csharp
 public class PptException : Exception
@@ -21,9 +20,9 @@ public class PptException : Exception
 | --- | --- |
 | [PptException](pptexception#constructor)() | Конструктор по умолчанию. |
 | [PptException](pptexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
-| [PptException](pptexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и вложенное исключение. |
+| [PptException](pptexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

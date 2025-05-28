@@ -1,28 +1,27 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает объект Подсуперскрипта, который состоит из основы, подстрочного и надстрочного текста, расположенных слева от основы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет объект Sub-Superscript который состоит из основания и нижнего и верхнего индексов расположенных слева от основания.
 type: docs
-weight: 8060
+weight: 7600
 url: /ru/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
+## IMathLeftSubSuperscriptElement interface
 
-## Интерфейс IMathLeftSubSuperscriptElement
-
-Указывает объект Подсуперскрипта, который состоит из основы, подстрочного и надстрочного текста, расположенных слева от основы.
+Определяет объект Sub-Superscript, который состоит из основания и нижнего и верхнего индексов, расположенных слева от основания.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Аргумент основы |
-| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Подстрочный текст |
-| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Надстрочный текст |
+| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Базовый аргумент |
+| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Нижний индекс |
+| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Верхний индекс |
 
 ### Примеры
 
@@ -33,9 +32,9 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 IMathLeftSubSuperscriptElement leftSubsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IMathElement](../imathelement)
+* interface [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

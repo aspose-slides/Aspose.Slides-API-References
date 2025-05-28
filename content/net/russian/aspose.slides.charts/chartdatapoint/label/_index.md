@@ -1,15 +1,14 @@
 ---
-title: Метка
+title: Label
 second_title: Справочник по API Aspose.Slides для .NET
-description: Метка. Только для чтения IDataLabelaspose.slides.charts/idatalabel.
+description: Метка. Только для чтенияIDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 130
 url: /ru/aspose.slides.charts/chartdatapoint/label/
 ---
+## ChartDataPoint.Label property
 
-## Свойство ChartDataPoint.Label
-
-Метка. Только для чтения [`IDataLabel`](../../idatalabel).
+Метка. Только для чтения[`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }
@@ -17,8 +16,8 @@ public IDataLabel Label { get; }
 
 ### Смотрите также
 
-* интерфейс [IDataLabel](../../idatalabel)
-* класс [ChartDataPoint](../../chartdatapoint)
+* interface [IDataLabel](../../idatalabel)
+* class [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

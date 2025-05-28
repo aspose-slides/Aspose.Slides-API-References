@@ -1,23 +1,22 @@
 ---
 title: X
-second_title: Ссылка по API Aspose.Slides для .NET
-description: Возвращает координату X верхнего левого угла рамки. Только для чтения, тип Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает координату X левого верхнего угла кадра. Только для чтенияSingle.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ishapeframe/x/
 ---
+## IShapeFrame.X property
 
-## IShapeFrame.X свойство
-
-Возвращает координату X верхнего левого угла рамки. Только для чтения, тип Single.
+Возвращает координату X левого верхнего угла кадра. Только для чтенияSingle.
 
 ```csharp
 public float X { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IShapeFrame](../../ishapeframe)
+* interface [IShapeFrame](../../ishapeframe)
 * пространство имен [Aspose.Slides](../../ishapeframe)
 * сборка [Aspose.Slides](../../../)
 

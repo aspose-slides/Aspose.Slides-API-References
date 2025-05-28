@@ -1,24 +1,23 @@
 ---
 title: AsISvgShapeFormattingController
-second_title: Aspose.Slides для .NET API Справочник
-description: Позволяет получить базовый интерфейс ISvgShapeFormattingController. Только для чтения ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс ISvgShapeFormattingController. Только для чтенияISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller/
 ---
+## IVideoPlayerHtmlController.AsISvgShapeFormattingController property
 
-## IVideoPlayerHtmlController.AsISvgShapeFormattingController свойство
-
-Позволяет получить базовый интерфейс ISvgShapeFormattingController. Только для чтения [`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).
+Позволяет получить базовый интерфейс ISvgShapeFormattingController. Только для чтения[`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).
 
 ```csharp
 public ISvgShapeFormattingController AsISvgShapeFormattingController { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
-* интерфейс [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)
+* interface [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
+* interface [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../ivideoplayerhtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

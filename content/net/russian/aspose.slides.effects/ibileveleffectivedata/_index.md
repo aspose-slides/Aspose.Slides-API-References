@@ -1,30 +1,29 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Aspose.Slides для .NET API Reference
-description: Неизменяемый объект, который представляет эффект двухуровневого черно-белого изображения. Входные цвета, яркость которых меньше указанного порогового значения, меняются на черный. Входные цвета, яркость которых больше или равна указанному значению, устанавливаются в белый. Значения альфа-эффекта не подвергаются воздействию этого эффекта.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект представляющий двухуровневый черный/белый эффект. Входные цвета яркость которых меньше указанного порогового значения заменяются черными. Входным цветам яркость которых больше или равна указанному значению присваивается белый цвет. Этот эффект не влияет на значения альфа-эффекта.
 type: docs
-weight: 3070
+weight: 2990
 url: /ru/aspose.slides.effects/ibileveleffectivedata/
 ---
+## IBiLevelEffectiveData interface
 
-## Интерфейс IBiLevelEffectiveData
-
-Неизменяемый объект, который представляет эффект двухуровневого (черно-белого) изображения. Входные цвета, яркость которых меньше указанного порогового значения, меняются на черный. Входные цвета, яркость которых больше или равна указанному значению, устанавливаются в белый. Значения альфа-эффекта не подвергаются воздействию этого эффекта.
+Неизменяемый объект, представляющий двухуровневый (черный/белый) эффект. Входные цвета, яркость которых меньше указанного порогового значения, заменяются черными. Входным цветам, яркость которых больше или равна указанному значению, присваивается белый цвет. Этот эффект не влияет на значения альфа-эффекта.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Возвращает пороговое значение. Только для чтения Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Возвращает пороговое значение. Только для чтенияSingle. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
+* interface [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

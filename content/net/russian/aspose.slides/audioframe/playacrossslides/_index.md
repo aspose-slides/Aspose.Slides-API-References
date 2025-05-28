@@ -1,15 +1,14 @@
 ---
 title: PlayAcrossSlides
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, воспроизводится ли аудио между слайдами. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет воспроизводится ли звук на слайдах. Чтение/записьBoolean.
 type: docs
-weight: 110
+weight: 90
 url: /ru/aspose.slides/audioframe/playacrossslides/
 ---
+## AudioFrame.PlayAcrossSlides property
 
-## AudioFrame.PlayAcrossSlides свойство
-
-Определяет, воспроизводится ли аудио между слайдами. Читаемое/записываемое логическое значение.
+Определяет, воспроизводится ли звук на слайдах. Чтение/записьBoolean.
 
 ```csharp
 public bool PlayAcrossSlides { get; set; }
@@ -23,22 +22,22 @@ using (Presentation pres = new Presentation())
 {
     ISlide slide = pres.Slides[0];
 
-    // Добавить аудиофрейм
+     // Добавить аудио кадр
     IAudioFrame audioFrame = slide.Shapes.AddAudioFrameLinked(50, 50, 100, 100, "sampleaudio.wav");
 
-    // Установить воспроизведение аудио между слайдами
+     // Настраиваем воспроизведение звука на слайдах
     audioFrame.PlayAcrossSlides = true;
 
-    // Установить автоматический возврат аудио в начало после воспроизведения
+     // Установить автоматическую перемотку аудио после воспроизведения
     audioFrame.RewindAudio = true;
 
     pres.Save("AudioFrame_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* класс [AudioFrame](../../audioframe)
+* class [AudioFrame](../../audioframe)
 * пространство имен [Aspose.Slides](../../audioframe)
 * сборка [Aspose.Slides](../../../)
 

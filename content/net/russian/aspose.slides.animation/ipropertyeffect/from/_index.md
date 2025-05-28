@@ -1,23 +1,22 @@
 ---
-title: От
+title: From
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает начальное значение анимации. Читаемая/записываемая строка.
+description: Указывает начальное значение анимации. Чтение/записьString.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/ipropertyeffect/from/
 ---
+## IPropertyEffect.From property
 
-## Свойство IPropertyEffect.From
-
-Указывает начальное значение анимации. Читаемая/записываемая строка.
+Указывает начальное значение анимации. Чтение/записьString.
 
 ```csharp
 public string From { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IPropertyEffect](../../ipropertyeffect)
+* interface [IPropertyEffect](../../ipropertyeffect)
 * пространство имен [Aspose.Slides.Animation](../../ipropertyeffect)
 * сборка [Aspose.Slides](../../../)
 

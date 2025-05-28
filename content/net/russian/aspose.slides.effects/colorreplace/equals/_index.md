@@ -1,15 +1,14 @@
 ---
-title: Равно
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, равен ли указанный ColorReplaceaspose.slides.effects/colorreplace текущему ColorReplaceaspose.slides.effects/colorreplace.
+title: Equals
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет равен ли указанныйColorReplaceaspose.slides.effects/colorreplaceтекущемуЗаменацвета.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/colorreplace/equals/
 ---
+## ColorReplace.Equals method
 
-## Метод ColorReplace.Equals
-
-Определяет, равен ли указанный [`ColorReplace`](../../colorreplace) текущему [`ColorReplace`](../../colorreplace).
+Определяет, равен ли указанный[`ColorReplace`](../../colorreplace)текущемуЗаменацвета.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,15 +16,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`ColorReplace`](../../colorreplace), который нужно сравнить. |
+| obj | Object | [`ColorReplace`](../../colorreplace)для сравнения. |
 
-### Возврат Значения
+### Возвращаемое значение
 
-true, если объекты равны; в противном случае false.
+true, если объекты равны; в противном случае ложно.
 
-### См. Также
+### Смотрите также
 
-* класс [ColorReplace](../../colorreplace)
+* class [ColorReplace](../../colorreplace)
 * пространство имен [Aspose.Slides.Effects](../../colorreplace)
 * сборка [Aspose.Slides](../../../)
 

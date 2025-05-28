@@ -1,23 +1,22 @@
 ---
-title: Значение
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Если UseCell равно true, то это свойство представляет AsCell.Value свойство. Если UseCell равно false, то это свойство представляет AsLiteral свойство. Читаемое/записываемое Объект.
+title: Value
+second_title: Справочник по API Aspose.Slides для .NET
+description: Если UseCell равно true то это свойство представляет свойство AsCell.Value. Если UseCell имеет значение false то это свойство представляет свойство AsLiteral. Чтение/записьObject.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ichartcategory/value/
 ---
+## IChartCategory.Value property
 
-## Свойство IChartCategory.Value
-
-Если UseCell равно true, то это свойство представляет AsCell.Value свойство. Если UseCell равно false, то это свойство представляет AsLiteral свойство. Читаемое/записываемое Объект.
+Если UseCell равно true, то это свойство представляет свойство AsCell.Value. Если UseCell имеет значение false, то это свойство представляет свойство AsLiteral. Чтение/записьObject.
 
 ```csharp
 public object Value { get; set; }
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IChartCategory](../../ichartcategory)
+* interface [IChartCategory](../../ichartcategory)
 * пространство имен [Aspose.Slides.Charts](../../ichartcategory)
 * сборка [Aspose.Slides](../../../)
 

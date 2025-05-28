@@ -1,13 +1,12 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справочник по API Aspose.Slides для .NET
 description: Вставляет IMathBlock в коллекцию по указанному индексу.
 type: docs
 weight: 80
 url: /ru/aspose.slides.mathtext/imathblockcollection/insert/
 ---
-
-## Метод IMathBlockCollection.Insert
+## IMathBlockCollection.Insert method
 
 Вставляет IMathBlock в коллекцию по указанному индексу.
 
@@ -17,7 +16,7 @@ public void Insert(int index, IMathBlock item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс с нуля, по которому элемент должен быть вставлен. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должен быть вставлен элемент. |
 | item | IMathBlock | IMathBlock для вставки. |
 
 ### Примеры
@@ -31,10 +30,10 @@ IMathBlock block = new MathBlock(new MathematicalText("y"));
 blockCollection.Insert(0, block);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathBlock](../../imathblock)
-* интерфейс [IMathBlockCollection](../../imathblockcollection)
+* interface [IMathBlock](../../imathblock)
+* interface [IMathBlockCollection](../../imathblockcollection)
 * пространство имен [Aspose.Slides.MathText](../../imathblockcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: SecondPieSize
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает размер второго сектора или столбца диаграммы "пирог из пирога" или "столбец из пирога" в процентах от размера первого сектора, может быть от 5 до 200 процентов. Чтение/запись UInt16.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает размер второй круговой диаграммы или столбца круговой диаграммы или столбчатой диаграммы в виде процент от размера первого круга может быть от 5 до 200 процентов. Чтение/записьUInt16.
 type: docs
 weight: 170
 url: /ru/aspose.slides.charts/ichartseriesgroup/secondpiesize/
 ---
+## IChartSeriesGroup.SecondPieSize property
 
-## IChartSeriesGroup.SecondPieSize свойство
-
-Указывает размер второго сектора или столбца диаграммы "пирог из пирога" или "столбец из пирога", в процентах от размера первого сектора (может быть от 5 до 200 процентов). Чтение/запись UInt16.
+Задает размер второй круговой диаграммы или столбца круговой диаграммы или столбчатой диаграммы в виде процент от размера первого круга (может быть от 5 до 200 процентов). Чтение/записьUInt16.
 
 ```csharp
 public ushort SecondPieSize { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartSeriesGroup](../../ichartseriesgroup)
+* interface [IChartSeriesGroup](../../ichartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

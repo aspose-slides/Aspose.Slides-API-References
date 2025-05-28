@@ -1,15 +1,14 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Aspose.Slides для .NET API Справочник
-description: Изменяет видимость заполнителей нижнего колонтитула слайда макета и всех заполнителей нижних колонтитулов потомков. Заполнители потомков означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда-матери.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Изменяет заполнитель нижнего колонтитула слайда макета и видимость всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах. Зависящие слайды используют мастер-слайд и зависят от него.
 type: docs
 weight: 40
 url: /ru/aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
+## LayoutSlideHeaderFooterManager.SetFooterAndChildFootersVisibility method
 
-## LayoutSlideHeaderFooterManager.SetFooterAndChildFootersVisibility метод
-
-Изменяет видимость заполнителя нижнего колонтитула слайда макета и всех заполнителей нижних колонтитулов потомков. Заполнители потомков означают, что заполнители содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда-матери.
+Изменяет заполнитель нижнего колонтитула слайда макета и видимость всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависящие слайды используют мастер-слайд и зависят от него.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,11 +16,11 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнители нижнего колонтитула видимыми, в противном случае - скрывает их. |
+| isVisible | Boolean | true - делает заполнители нижнего колонтитула видимыми, иначе - скрывает их. |
 
-### См. также
+### Смотрите также
 
-* класс [LayoutSlideHeaderFooterManager](../../layoutslideheaderfootermanager)
+* class [LayoutSlideHeaderFooterManager](../../layoutslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../layoutslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

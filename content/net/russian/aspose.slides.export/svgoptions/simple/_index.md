@@ -1,15 +1,14 @@
 ---
-title: Простой
-second_title: Справочник API Aspose.Sildes для .NET
-description: Возвращает настройки для самой простой и наименьшей генерации SVG файлов. Только для чтения SVGOptionsaspose.slides.export/svgoptions.
+title: Simple
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает настройки для создания самого простого и наименьшего файла SVG. Только для чтенияSVGOptionsaspose.slides.export/svgoptions.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/svgoptions/simple/
 ---
+## SVGOptions.Simple property
 
-## Свойство SVGOptions.Simple
-
-Возвращает настройки для самой простой и наименьшей генерации SVG файлов. Только для чтения [`SVGOptions`](../../svgoptions).
+Возвращает настройки для создания самого простого и наименьшего файла SVG. Только для чтения[`SVGOptions`](../../svgoptions).
 
 ```csharp
 public static SVGOptions Simple { get; }
@@ -17,7 +16,7 @@ public static SVGOptions Simple { get; }
 
 ### Смотрите также
 
-* класс [SVGOptions](../../svgoptions)
+* class [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)
 * сборка [Aspose.Slides](../../../)
 

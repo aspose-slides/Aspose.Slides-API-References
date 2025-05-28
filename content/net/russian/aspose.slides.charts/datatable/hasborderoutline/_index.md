@@ -1,23 +1,22 @@
 ---
 title: HasBorderOutline
-second_title: Справка по API Aspose.Slides для .NET
-description: Истина, если у таблицы данных диаграммы есть контурные границы. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Истинно если таблица данных диаграммы имеет контурные границы. Чтение/записьBoolean.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/datatable/hasborderoutline/
 ---
+## DataTable.HasBorderOutline property
 
-## DataTable.HasBorderOutline свойство
-
-Истина, если у таблицы данных диаграммы есть контурные границы. Читаемое/записываемое логическое значение.
+Истинно, если таблица данных диаграммы имеет контурные границы. Чтение/записьBoolean.
 
 ```csharp
 public bool HasBorderOutline { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [DataTable](../../datatable)
+* class [DataTable](../../datatable)
 * пространство имен [Aspose.Slides.Charts](../../datatable)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: DimensionSize
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Указывает размер ширины зоны слайда, когда является дочерним элементом RestoredTop, высоту, когда является дочерним элементом RestoredLeft. Чтение/запись типа Single. Вызывает исключение, если значение меньше 0 или больше 100.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет размер области слайда ширина когда является дочерним элементом RestoredTop высота когда является дочерним элементом RestoredLeft. Чтение/записьSingle.  Выдает когда значение меньше 0 или больше 100.
 type: docs
 weight: 20
 url: /ru/aspose.slides/inormalviewrestoredproperties/dimensionsize/
 ---
+## INormalViewRestoredProperties.DimensionSize property
 
-## Свойство INormalViewRestoredProperties.DimensionSize
-
-Указывает размер зоны слайда (ширина, когда является дочерним элементом RestoredTop, высота, когда является дочерним элементом RestoredLeft). Чтение/запись типа Single. Вызывает исключение, если значение меньше 0 или больше 100.
+Определяет размер области слайда (ширина, когда является дочерним элементом RestoredTop, высота, когда является дочерним элементом RestoredLeft). Чтение/записьSingle.  Выдает, когда значение меньше 0 или больше 100.
 
 ```csharp
 public float DimensionSize { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [INormalViewRestoredProperties](../../inormalviewrestoredproperties)
+* interface [INormalViewRestoredProperties](../../inormalviewrestoredproperties)
 * пространство имен [Aspose.Slides](../../inormalviewrestoredproperties)
 * сборка [Aspose.Slides](../../../)
 

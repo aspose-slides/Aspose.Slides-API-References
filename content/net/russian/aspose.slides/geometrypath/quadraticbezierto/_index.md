@@ -1,15 +1,14 @@
 ---
 title: QuadraticBezierTo
-second_title: Aspose.Slides для .NET Справочник по API
-description: Добавляет квадратическую кривую Безье в конец пути
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет квадратичную кривую Безье в конце пути
 type: docs
 weight: 100
 url: /ru/aspose.slides/geometrypath/quadraticbezierto/
 ---
-
 ## QuadraticBezierTo(PointF, PointF) {#quadraticbezierto_2}
 
-Добавляет квадратическую кривую Безье в конец пути
+Добавляет квадратичную кривую Безье в конце пути
 
 ```csharp
 public void QuadraticBezierTo(PointF point1, PointF point2)
@@ -17,12 +16,12 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | PointF | Направляющая точка |
+| point1 | PointF | Направление точка |
 | point2 | PointF | Конечная точка |
 
-### См. также
+### Смотрите также
 
-* класс [GeometryPath](../../geometrypath)
+* class [GeometryPath](../../geometrypath)
 * пространство имен [Aspose.Slides](../../geometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -30,7 +29,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 
 ## QuadraticBezierTo(float, float, float, float) {#quadraticbezierto}
 
-Добавляет квадратическую кривую Безье в конец пути
+Добавляет квадратичную кривую Безье в конце пути
 
 ```csharp
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
@@ -38,14 +37,14 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x1 | Single | X координата направляющей точки |
-| y1 | Single | Y координата направляющей точки |
+| x1 | Single | X координата точки направления |
+| y1 | Single | Y координата точки направления |
 | x2 | Single | X координата конечной точки |
-| y2 | Single | Y координата конечной точки |
+| y2 | Single | Координата Y конечной точки |
 
-### См. также
+### Смотрите также
 
-* класс [GeometryPath](../../geometrypath)
+* class [GeometryPath](../../geometrypath)
 * пространство имен [Aspose.Slides](../../geometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -53,7 +52,7 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 ## QuadraticBezierTo(PointF, PointF, uint) {#quadraticbezierto_3}
 
-Добавляет квадратическую кривую Безье в указанное место пути
+Добавляет квадратичную кривую Безье в указанное место пути
 
 ```csharp
 public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
@@ -61,7 +60,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | PointF | Направляющая точка |
+| point1 | PointF | Точка направления |
 | point2 | PointF | Конечная точка |
 | index | UInt32 | Индекс сегмента в PathData |
 
@@ -69,11 +68,11 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента выходит за пределы PathData |
+| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
 
-### См. также
+### Смотрите также
 
-* класс [GeometryPath](../../geometrypath)
+* class [GeometryPath](../../geometrypath)
 * пространство имен [Aspose.Slides](../../geometrypath)
 * сборка [Aspose.Slides](../../../)
 
@@ -81,7 +80,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 
 ## QuadraticBezierTo(float, float, float, float, uint) {#quadraticbezierto_1}
 
-Добавляет квадратическую кривую Безье в указанное место пути
+Добавляет квадратичную кривую Безье в указанное место пути
 
 ```csharp
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index)
@@ -89,21 +88,21 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x1 | Single | X координата направляющей точки |
-| y1 | Single | Y координата направляющей точки |
-| x2 | Single | X координата конечной точки |
-| y2 | Single | Y координата конечной точки |
+| x1 | Single | X координата точки направления |
+| y1 | Single | Y координата точки направления |
+| x2 | Single | X координата конечная точка |
+| y2 | Single | Координата Y конечной точки |
 | index | UInt32 | Индекс сегмента в PathData |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента выходит за пределы PathData |
+| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
 
-### См. также
+### Смотрите также
 
-* класс [GeometryPath](../../geometrypath)
+* class [GeometryPath](../../geometrypath)
 * пространство имен [Aspose.Slides](../../geometrypath)
 * сборка [Aspose.Slides](../../../)
 

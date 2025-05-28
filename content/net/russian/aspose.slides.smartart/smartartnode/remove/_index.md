@@ -1,13 +1,12 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удалить текущий узел.
 type: docs
 weight: 100
 url: /ru/aspose.slides.smartart/smartartnode/remove/
 ---
-
-## Метод SmartArtNode.Remove
+## SmartArtNode.Remove method
 
 Удалить текущий узел.
 
@@ -17,11 +16,11 @@ public bool Remove()
 
 ### Возвращаемое значение
 
-`True`, если успешно удалено, иначе `false`
+` True` если удаление прошло успешно, иначе` ложь`
 
-### См. также
+### Смотрите также
 
-* класс [SmartArtNode](../../smartartnode)
+* class [SmartArtNode](../../smartartnode)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartnode)
 * сборка [Aspose.Slides](../../../)
 

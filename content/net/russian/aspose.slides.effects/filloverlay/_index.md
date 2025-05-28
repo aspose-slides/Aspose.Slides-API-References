@@ -1,40 +1,39 @@
 ---
 title: FillOverlay
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок.
+description: Представляет эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок вместе.
 type: docs
-weight: 2880
+weight: 2800
 url: /ru/aspose.slides.effects/filloverlay/
 ---
+## FillOverlay class
 
-## Класс FillOverlay
-
-Представляет эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок.
+Представляет эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок вместе.
 
 ```csharp
-public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
+public class FillOverlay : ImageTransformOperation, IFillOverlay
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Чтение/запись [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Формат заливки. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Чтение/запись[`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Формат заполнения. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Определяет, равен ли заданный [`FillOverlay`](../filloverlay) текущему [`FillOverlay`](../filloverlay). |
-| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Получает данные эффективного эффекта наложения заливки с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Служит хеш-функцией для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Определяет, равен ли указанный[`FillOverlay`](../filloverlay)текущемуFillOverlay. |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Получает эффективные данные эффекта Fill Overlay с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Служит хэш-функцией для определенного типа. |
 
-### См. также
+### Смотрите также
 
-* класс [ImageTransformOperation](../imagetransformoperation)
-* интерфейс [IFillOverlay](../ifilloverlay)
+* class [ImageTransformOperation](../imagetransformoperation)
+* interface [IFillOverlay](../ifilloverlay)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

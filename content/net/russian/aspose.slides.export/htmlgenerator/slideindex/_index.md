@@ -1,23 +1,22 @@
 ---
 title: SlideIndex
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает индекс текущего слайда. Только для чтения Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает индекс отображаемого в данный момент слайда. Только для чтенияInt32.
 type: docs
 weight: 60
 url: /ru/aspose.slides.export/htmlgenerator/slideindex/
 ---
+## HtmlGenerator.SlideIndex property
 
-## HtmlGenerator.SlideIndex свойство
-
-Возвращает индекс текущего слайда. Только для чтения Int32.
+Возвращает индекс отображаемого в данный момент слайда. Только для чтенияInt32.
 
 ```csharp
 public int SlideIndex { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [HtmlGenerator](../../htmlgenerator)
+* class [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)
 * сборка [Aspose.Slides](../../../)
 

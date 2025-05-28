@@ -1,28 +1,27 @@
 ---
 title: SeriesGroups
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает группы серий. Только для чтения IChartSeriesGroupCollection aspose.slides.charts/ichartseriesgroupcollection.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает группы серий. Только для чтенияIChartSeriesGroupCollectionaspose.slides.charts/ichartseriesgroupcollection.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/chartdata/seriesgroups/
 ---
+## ChartData.SeriesGroups property
 
-## Свойство ChartData.SeriesGroups
-
-Получает группы серий. Только для чтения [`IChartSeriesGroupCollection`](../../ichartseriesgroupcollection).
+Получает группы серий. Только для чтения[`IChartSeriesGroupCollection`](../../ichartseriesgroupcollection).
 
 ```csharp
 public IChartSeriesGroupCollection SeriesGroups { get; }
 ```
 
-### Заметки
+### Примечания
 
-1) Каждая группа серий содержит серии с комбинируемыми типами. Группы комбинируемых типов серий определены и описаны с помощью перечисления CombinableSeriesTypesGroup. Также каждая группа серий содержит серии, которые откладываются либо на первичных осях, либо на вторичных осях (не в обоих случаях в одной группе). Таким образом, принцип группировки серий заключается в группировке по типам, упомянутым выше, и по типу откладывания на первичных/вторичных осях. 2) Группа серий содержит некоторые свойства серий, которые общие для каждой серии в группе ("свойства группы серий"). "Свойства группы серий" в классе ChartSeriesGroup имеют режим чтения/записи. Каждое из "свойств группы серий" может иметь доступные только для чтения проекции в классе ChartSeries.
+1) Каждая группа серий содержит серии с комбинируемыми типами. Группы комбинируемых серийных типов, определенных и описанных с помощью CombinableSeriesTypesGroup enum. Также каждая группа рядов содержит ряды, нанесенные на график по основным осям или по дополнительным осям (не оба случая в одной группе). Итак, принцип группировки серий - это группировка по группам типов, упомянутым выше, и по основному/второстепенному типу прорисовки. 2) Группа серий содержит некоторые свойства серий, которые являются общими для каждой серии в группе ("свойства группы серий"). "Свойства группы серий" в классе ChartSeriesGroup доступны для чтения/записи. Каждое из "свойств группы серий" может иметь доступную только для чтения проекцию в классе ChartSeries.
 
 ### Смотрите также
 
-* интерфейс [IChartSeriesGroupCollection](../../ichartseriesgroupcollection)
-* класс [ChartData](../../chartdata)
+* interface [IChartSeriesGroupCollection](../../ichartseriesgroupcollection)
+* class [ChartData](../../chartdata)
 * пространство имен [Aspose.Slides.Charts](../../chartdata)
 * сборка [Aspose.Slides](../../../)
 

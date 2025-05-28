@@ -1,23 +1,22 @@
 ---
-title: Параметр
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает параметр операции. Только для чтения Single.
+title: Parameter
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает параметр операции. Только для чтенияSingle.
 type: docs
 weight: 30
 url: /ru/aspose.slides/coloroperation/parameter/
 ---
+## ColorOperation.Parameter property
 
-## ColorOperation.Parameter свойство
-
-Возвращает параметр операции. Только для чтения Single.
+Возвращает параметр операции. Только для чтенияSingle.
 
 ```csharp
 public float Parameter { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ColorOperation](../../coloroperation)
+* class [ColorOperation](../../coloroperation)
 * пространство имен [Aspose.Slides](../../coloroperation)
 * сборка [Aspose.Slides](../../../)
 

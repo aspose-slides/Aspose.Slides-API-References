@@ -1,23 +1,22 @@
 ---
-title: Освобождение
+title: Dispose
 second_title: Справочник по API Aspose.Slides для .NET
-description: Освобождает объект.
+description: Удаляет объект.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ppimage/dispose/
 ---
+## PPImage.Dispose method
 
-## Метод PPImage.Dispose
-
-Освобождает объект.
+Удаляет объект.
 
 ```csharp
 public void Dispose()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [PPImage](../../ppimage)
+* class [PPImage](../../ppimage)
 * пространство имен [Aspose.Slides](../../ppimage)
 * сборка [Aspose.Slides](../../../)
 

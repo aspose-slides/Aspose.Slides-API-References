@@ -1,13 +1,12 @@
 ---
 title: ColorSpace
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет цветовое пространство для поведения цветового эффекта.
 type: docs
-weight: 170
+weight: 150
 url: /ru/aspose.slides.animation/colorspace/
 ---
-
-## Перечисление ColorSpace
+## ColorSpace enumeration
 
 Представляет цветовое пространство для поведения цветового эффекта.
 
@@ -15,15 +14,15 @@ url: /ru/aspose.slides.animation/colorspace/
 public enum ColorSpace
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | RGB | `0` |  |
 | HSL | `1` |  |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

@@ -1,23 +1,22 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает направление, ограниченное значениями "влево" и "вправо".
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает направление ограниченное значениями влево и вправо.
 type: docs
-weight: 10070
+weight: 9600
 url: /ru/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
+## TransitionLeftRightDirectionType enumeration
 
-## Перечисление TransitionLeftRightDirectionType
-
-Указывает направление, ограниченное значениями "влево" и "вправо".
+Указывает направление, ограниченное значениями влево и вправо.
 
 ```csharp
 public enum TransitionLeftRightDirectionType
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | Left | `0` |  |
 | Right | `1` |  |

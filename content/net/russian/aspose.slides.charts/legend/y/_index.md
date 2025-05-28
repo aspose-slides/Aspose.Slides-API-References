@@ -1,23 +1,22 @@
 ---
 title: Y
-second_title: Aspose.Sildes для справки по API .NET
-description: Возвращает или устанавливает координату y легенды как долю высоты диаграммы. Чтение/запись Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает координату y легенды как часть высоты диаграммы. Чтение/записьSingle.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/legend/y/
 ---
+## Legend.Y property
 
-## Свойство Legend.Y
-
-Возвращает или устанавливает координату y легенды как долю высоты диаграммы. Чтение/запись Single.
+Возвращает или задает координату y легенды как часть высоты диаграммы. Чтение/записьSingle.
 
 ```csharp
 public float Y { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Legend](../../legend)
+* class [Legend](../../legend)
 * пространство имен [Aspose.Slides.Charts](../../legend)
 * сборка [Aspose.Slides](../../../)
 

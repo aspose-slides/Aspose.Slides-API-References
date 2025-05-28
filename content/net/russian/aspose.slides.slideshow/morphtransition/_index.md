@@ -1,37 +1,36 @@
 ---
 title: MorphTransition
-second_title: Aspose.Slides для .NET API Справочник
-description: Эффект перехода слид на зыбь.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода слайда пульсации.
 type: docs
-weight: 9940
+weight: 9470
 url: /ru/aspose.slides.slideshow/morphtransition/
 ---
+## MorphTransition class
 
-## Класс MorphTransition
-
-Эффект перехода слид на зыбь.
+Эффект перехода слайда пульсации.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Тип эффекта перехода. Чтение/запись [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Тип перехода морфинга. Чтение/запись[`TransitionMorphType`](../transitionmorphtype). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли две инстанции TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Является хэш-функцией для определенного типа, пригодной для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
-### См. Также
+### Смотрите также
 
-* класс [TransitionValueBase](../transitionvaluebase)
-* интерфейс [IMorphTransition](../imorphtransition)
+* class [TransitionValueBase](../transitionvaluebase)
+* interface [IMorphTransition](../imorphtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

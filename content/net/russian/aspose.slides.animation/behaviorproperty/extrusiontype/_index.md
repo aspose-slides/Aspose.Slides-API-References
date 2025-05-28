@@ -1,13 +1,12 @@
 ---
 title: ExtrusionType
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство extrusion.type
 type: docs
 weight: 210
 url: /ru/aspose.slides.animation/behaviorproperty/extrusiontype/
 ---
-
-## Свойство BehaviorProperty.ExtrusionType
+## BehaviorProperty.ExtrusionType property
 
 Представляет свойство 'extrusion.type'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusiontype/
 public static BehaviorProperty ExtrusionType { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

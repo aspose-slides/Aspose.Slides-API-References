@@ -1,15 +1,14 @@
 ---
 title: RenderingOptions
-second_title: Aspose.Sildes для .NET API Reference
-description: Предоставляет параметры, которые контролируют, как происходит отображение презентации/слайда.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Предоставляет параметры управляющие визуализацией презентации/слайда.
 type: docs
-weight: 4220
+weight: 3980
 url: /ru/aspose.slides.export/renderingoptions/
 ---
+## RenderingOptions class
 
-## Класс RenderingOptions
-
-Предоставляет параметры, которые контролируют, как происходит отображение презентации/слайда.
+Предоставляет параметры, управляющие визуализацией презентации/слайда.
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -17,22 +16,18 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [RenderingOptions](renderingoptions)() | Конструктор по умолчанию. |
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задает шрифт, используемый в случае, если исходный шрифт не найден. Читаемое и записываемое значение типа String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, будет ли текст отображаться без использования лигатур. Если установлено в `true`, лигатуры будут отключены в сгенерированном выводе. По умолчанию это свойство установлено в `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Читаемое и записываемое значение типа [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемое и записываемое значение типа Boolean. Значение по умолчанию **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Получает или устанавливает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, продолжится ли процесс загрузки или будет прерван. Читаемое и записываемое значение типа [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
+| [NotesCommentsLayouting](../../aspose.slides.export/renderingoptions/notescommentslayouting) { get; } | Предоставляет параметры, управляющие размещением примечаний и комментариев в экспортируемом документе. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Примеры
 
@@ -41,7 +36,7 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 using (Presentation pres = new Presentation("pres.pptx"))
   {
   IRenderingOptions renderingOpts = new RenderingOptions();
-  renderingOpts.SlidesLayoutOptions = new NotesCommentsLayoutingOptions() { NotesPosition = NotesPositions.BottomTruncated };
+  renderingOpts.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
   
   pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-Original.png", ImageFormat.Png);
   
@@ -53,10 +48,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [SaveOptions](../saveoptions)
-* интерфейс [IRenderingOptions](../irenderingoptions)
+* class [SaveOptions](../saveoptions)
+* interface [IRenderingOptions](../irenderingoptions)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

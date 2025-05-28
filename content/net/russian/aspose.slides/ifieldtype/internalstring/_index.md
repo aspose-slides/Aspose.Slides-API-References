@@ -1,23 +1,22 @@
 ---
 title: InternalString
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает внутреннее имя этого объекта FieldTypeEx. Читаемая/записываемая строка.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает внутреннее имя этого объекта FieldTypeEx. Чтение/записьString.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ifieldtype/internalstring/
 ---
+## IFieldType.InternalString property
 
-## Свойство IFieldType.InternalString
-
-Возвращает внутреннее имя этого объекта FieldTypeEx. Читаемая/записываемая строка.
+Возвращает внутреннее имя этого объекта FieldTypeEx. Чтение/записьString.
 
 ```csharp
 public string InternalString { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFieldType](../../ifieldtype)
+* interface [IFieldType](../../ifieldtype)
 * пространство имен [Aspose.Slides](../../ifieldtype)
 * сборка [Aspose.Slides](../../../)
 

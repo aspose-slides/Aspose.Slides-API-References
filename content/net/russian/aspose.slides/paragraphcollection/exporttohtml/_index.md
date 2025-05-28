@@ -1,15 +1,14 @@
 ---
 title: ExportToHtml
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Преобразует указанные абзацы в HTML и возвращает его в виде объекта String.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Преобразует заданные абзацы в HTML и возвращает его как объект String.
 type: docs
 weight: 90
 url: /ru/aspose.slides/paragraphcollection/exporttohtml/
 ---
+## ParagraphCollection.ExportToHtml method
 
-## Метод ParagraphCollection.ExportToHtml
-
-Преобразует указанные абзацы в HTML и возвращает его в виде объекта String.
+Преобразует заданные абзацы в HTML и возвращает его как объект String.
 
 ```csharp
 public string ExportToHtml(int firstParagraphIndex, int paragraphsCount, 
@@ -18,18 +17,18 @@ public string ExportToHtml(int firstParagraphIndex, int paragraphsCount,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstParagraphIndex | Int32 | Индекс первого абзаца Int32 |
-| paragraphsCount | Int32 | Количество абзацев Int32 |
-| options | ITextToHtmlConversionOptions | Опции преобразования [`ITextToHtmlConversionOptions`](../../../aspose.slides.export/itexttohtmlconversionoptions) |
+| firstParagraphIndex | Int32 | Индекс первого абзацаInt32 |
+| paragraphsCount | Int32 | Количество абзацевInt32 |
+| options | ITextToHtmlConversionOptions | Параметры преобразования[`ITextToHtmlConversionOptions`](../../../aspose.slides.export/itexttohtmlconversionoptions) |
 
 ### Возвращаемое значение
 
 Сгенерированный HTML.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITextToHtmlConversionOptions](../../../aspose.slides.export/itexttohtmlconversionoptions)
-* класс [ParagraphCollection](../../paragraphcollection)
+* interface [ITextToHtmlConversionOptions](../../../aspose.slides.export/itexttohtmlconversionoptions)
+* class [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
-title: Очистить
-second_title: Справочник API Aspose.Slides для .NET
+title: Clear
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все эффекты из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/isequence/clear/
 ---
-
-## Метод ISequence.Clear
+## ISequence.Clear method
 
 Удаляет все эффекты из коллекции.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/isequence/clear/
 public void Clear()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISequence](../../isequence)
+* interface [ISequence](../../isequence)
 * пространство имен [Aspose.Slides.Animation](../../isequence)
 * сборка [Aspose.Slides](../../../)
 

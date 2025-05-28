@@ -1,15 +1,14 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET Справочник по API
-description: Получает данные форматирования текстового фрейма с применением наследования.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает эффективные данные форматирования текстового фрейма с применением наследования.
 type: docs
 weight: 170
 url: /ru/aspose.slides/textframeformat/geteffective/
 ---
+## TextFrameFormat.GetEffective method
 
-## Метод TextFrameFormat.GetEffective
-
-Получает данные форматирования текстового фрейма с применением наследования.
+Получает эффективные данные форматирования текстового фрейма с применением наследования.
 
 ```csharp
 public ITextFrameFormatEffectiveData GetEffective()
@@ -17,11 +16,11 @@ public ITextFrameFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`ITextFrameFormatEffectiveData`](../../itextframeformateffectivedata).
+A[`ITextFrameFormatEffectiveData`](../../itextframeformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение некоторых свойств эффективного форматирования текстового фрейма.
+Этот пример демонстрирует получение некоторых эффективных свойств форматирования текстового фрейма.
 
 ```csharp
 [C#]
@@ -30,21 +29,21 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
     IAutoShape shape = pres.Slides[0].Shapes[0] as IAutoShape;
     ITextFrameFormatEffectiveData effectiveTextFrameFormat = shape.TextFrame.TextFrameFormat.GetEffective();
    
-    Console.WriteLine("Тип якоря: " + effectiveTextFrameFormat.AnchoringType);
-    Console.WriteLine("Тип автоподгонки: " + effectiveTextFrameFormat.AutofitType);
-    Console.WriteLine("Вертикальный тип текста: " + effectiveTextFrameFormat.TextVerticalType);
-    Console.WriteLine("Полосы");
-    Console.WriteLine("   Слева: " + effectiveTextFrameFormat.MarginLeft);
-    Console.WriteLine("   Сверху: " + effectiveTextFrameFormat.MarginTop);
-    Console.WriteLine("   Справа: " + effectiveTextFrameFormat.MarginRight);
-    Console.WriteLine("   Снизу: " + effectiveTextFrameFormat.MarginBottom);
+    Console.WriteLine("Anchoring type: " + effectiveTextFrameFormat.AnchoringType);
+    Console.WriteLine("Autofit type: " + effectiveTextFrameFormat.AutofitType);
+    Console.WriteLine("Text vertical type: " + effectiveTextFrameFormat.TextVerticalType);
+    Console.WriteLine("Margins");
+    Console.WriteLine("   Left: " + effectiveTextFrameFormat.MarginLeft);
+    Console.WriteLine("   Top: " + effectiveTextFrameFormat.MarginTop);
+    Console.WriteLine("   Right: " + effectiveTextFrameFormat.MarginRight);
+    Console.WriteLine("   Bottom: " + effectiveTextFrameFormat.MarginBottom);
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
-* класс [TextFrameFormat](../../textframeformat)
+* interface [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
+* class [TextFrameFormat](../../textframeformat)
 * пространство имен [Aspose.Slides](../../textframeformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: GetSummarySection
-second_title: Aspose.Sildes для .NET API Reference
-description: Возвращает элемент раздела Summary Zoom для данного раздела.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает элемент Summary Zoom Section для данного раздела.
 type: docs
 weight: 90
 url: /ru/aspose.slides/summaryzoomsectioncollection/getsummarysection/
 ---
+## SummaryZoomSectionCollection.GetSummarySection method
 
-## Метод SummaryZoomSectionCollection.GetSummarySection
-
-Возвращает элемент раздела Summary Zoom для данного раздела.
+Возвращает элемент Summary Zoom Section для данного раздела.
 
 ```csharp
 public ISummaryZoomSection GetSummarySection(ISection section)
@@ -17,15 +16,15 @@ public ISummaryZoomSection GetSummarySection(ISection section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | ISection | Раздел для поиска [`ISection`](../../isection) |
+| section | ISection | Раздел для поиска[`ISection`](../../isection) |
 
 ### Возвращаемое значение
 
-[`ISummaryZoomSection`](../../isummaryzoomsection) или null, если коллекция не содержит элемента для раздела.
+[`ISummaryZoomSection`](../../isummaryzoomsection)или null, если коллекция не содержит элементов для раздела.
 
 ### Примеры
 
-В этом примере демонстрируется получение элемента раздела Summary Zoom по индексу:
+Пример демонстрирует получение элемента Summary Zoom Section по индексу:
 
 ```csharp
 [C#]
@@ -37,11 +36,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISummaryZoomSection](../../isummaryzoomsection)
-* интерфейс [ISection](../../isection)
-* класс [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
+* interface [ISummaryZoomSection](../../isummaryzoomsection)
+* interface [ISection](../../isection)
+* class [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * пространство имен [Aspose.Slides](../../summaryzoomsectioncollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество. Только для чтения Int32.
+description: Возвращает количество. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartdataworksheetcollection/count/
 ---
+## ChartDataWorksheetCollection.Count property
 
-## Свойство ChartDataWorksheetCollection.Count
-
-Возвращает количество. Только для чтения Int32.
+Возвращает количество. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
@@ -17,7 +16,7 @@ public int Count { get; }
 
 ### Смотрите также
 
-* класс [ChartDataWorksheetCollection](../../chartdataworksheetcollection)
+* class [ChartDataWorksheetCollection](../../chartdataworksheetcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdataworksheetcollection)
 * сборка [Aspose.Slides](../../../)
 

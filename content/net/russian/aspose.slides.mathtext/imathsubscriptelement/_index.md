@@ -1,26 +1,25 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes для .NET Справочник API
-description: Указывает объект нижнего индекса, который состоит из основы и уменьшенного по размеру нижнего индекса, расположенного ниже и справа.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет объект нижнего индекса который состоит из базового и нижнего индекса уменьшенного размера расположенного ниже и правее.
 type: docs
-weight: 8210
+weight: 7750
 url: /ru/aspose.slides.mathtext/imathsubscriptelement/
 ---
+## IMathSubscriptElement interface
 
-## Интерфейс IMathSubscriptElement
-
-Указывает объект нижнего индекса, который состоит из основы и уменьшенного по размеру нижнего индекса, расположенного ниже и справа.
+Определяет объект нижнего индекса, который состоит из базового и нижнего индекса уменьшенного размера, расположенного ниже и правее.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Аргумент базы |
+| [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Базовый аргумент |
 | [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Нижний индекс |
 
 ### Примеры
@@ -32,9 +31,9 @@ public interface IMathSubscriptElement : IMathElement
 IMathSubscriptElement subscriptElement = new MathematicalText("N").SetSubscript("i");
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../imathelement)
+* interface [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

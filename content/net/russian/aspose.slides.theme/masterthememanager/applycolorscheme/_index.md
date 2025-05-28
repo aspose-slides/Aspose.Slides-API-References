@@ -1,15 +1,14 @@
 ---
 title: ApplyColorScheme
-second_title: Aspose.Slides для справки по API .NET
-description: Применяет дополнительную цветовую схему к слайду.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Применяет к слайду дополнительную цветовую схему.
 type: docs
 weight: 30
 url: /ru/aspose.slides.theme/masterthememanager/applycolorscheme/
 ---
+## MasterThemeManager.ApplyColorScheme method
 
-## MasterThemeManager.ApplyColorScheme метод
-
-Применяет дополнительную цветовую схему к слайду.
+Применяет к слайду дополнительную цветовую схему.
 
 ```csharp
 public void ApplyColorScheme(IExtraColorScheme scheme)
@@ -17,12 +16,12 @@ public void ApplyColorScheme(IExtraColorScheme scheme)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| scheme | IExtraColorScheme |  |
+| схема | IExtraColorScheme |  |
 
 ### Смотрите также
 
-* интерфейс [IExtraColorScheme](../../iextracolorscheme)
-* класс [MasterThemeManager](../../masterthememanager)
+* interface [IExtraColorScheme](../../iextracolorscheme)
+* class [MasterThemeManager](../../masterthememanager)
 * пространство имен [Aspose.Slides.Theme](../../masterthememanager)
 * сборка [Aspose.Slides](../../../)
 

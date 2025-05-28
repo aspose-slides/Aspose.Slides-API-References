@@ -1,23 +1,22 @@
 ---
 title: IsFooterVisible
-second_title: Aspose.Slides для .NET API Reference
-description: Получает значение, указывающее на наличие заполнителя для нижнего колонтитула. Читаемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает значение указывающее что присутствует заполнитель нижнего колонтитула. ЧтениеBoolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ibaseslideheaderfootermanager/isfootervisible/
 ---
+## IBaseSlideHeaderFooterManager.IsFooterVisible property
 
-## IBaseSlideHeaderFooterManager.IsFooterVisible свойство
-
-Получает значение, указывающее на наличие заполнителя для нижнего колонтитула. Читаемое логическое значение.
+Получает значение, указывающее, что присутствует заполнитель нижнего колонтитула. ЧтениеBoolean.
 
 ```csharp
 public bool IsFooterVisible { get; }
 ```
 
-### Также см.
+### Смотрите также
 
-* интерфейс [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
+* interface [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ibaseslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

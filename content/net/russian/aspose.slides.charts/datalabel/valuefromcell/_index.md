@@ -1,13 +1,12 @@
 ---
 title: ValueFromCell
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Получает или задает ячейку данных рабочей книги. Применяется, если свойство IDataLabelFormat.ShowLabelValueFromCell равно true.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает или задает ячейку данных рабочей книги. Применяется если свойство IDataLabelFormat.ShowLabelValueFromCell равно true.
 type: docs
 weight: 140
 url: /ru/aspose.slides.charts/datalabel/valuefromcell/
 ---
-
-## DataLabel.ValueFromCell свойство
+## DataLabel.ValueFromCell property
 
 Получает или задает ячейку данных рабочей книги. Применяется, если свойство IDataLabelFormat.ShowLabelValueFromCell равно true.
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides.charts/datalabel/valuefromcell/
 public IChartDataCell ValueFromCell { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* класс [DataLabel](../../datalabel)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [DataLabel](../../datalabel)
 * пространство имен [Aspose.Slides.Charts](../../datalabel)
 * сборка [Aspose.Slides](../../../)
 

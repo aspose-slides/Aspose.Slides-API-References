@@ -1,15 +1,14 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные данные эффекта Alpha Inverse с примененным наследованием.
+description: Получает данные об эффективном эффекте Alpha Inverse с применением наследования.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/alphainverse/geteffective/
 ---
+## AlphaInverse.GetEffective method
 
-## AlphaInverse.GetEffective метод
-
-Получает эффективные данные эффекта Alpha Inverse с примененным наследованием.
+Получает данные об эффективном эффекте Alpha Inverse с применением наследования.
 
 ```csharp
 public IAlphaInverseEffectiveData GetEffective()
@@ -17,12 +16,12 @@ public IAlphaInverseEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`IAlphaInverseEffectiveData`](../../ialphainverseeffectivedata).
+A[`IAlphaInverseEffectiveData`](../../ialphainverseeffectivedata).
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAlphaInverseEffectiveData](../../ialphainverseeffectivedata)
-* класс [AlphaInverse](../../alphainverse)
+* interface [IAlphaInverseEffectiveData](../../ialphainverseeffectivedata)
+* class [AlphaInverse](../../alphainverse)
 * пространство имен [Aspose.Slides.Effects](../../alphainverse)
 * сборка [Aspose.Slides](../../../)
 

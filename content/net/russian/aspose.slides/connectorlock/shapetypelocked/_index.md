@@ -1,23 +1,22 @@
 ---
 title: ShapeTypeLocked
-second_title: Aspose.Slides для .NET Справочник API
-description: Определяет, запрещено ли изменение типа фигуры. Читаемый/записываемый Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет запрещено ли изменение типа формы. Чтение/записьBoolean.
 type: docs
 weight: 90
 url: /ru/aspose.slides/connectorlock/shapetypelocked/
 ---
+## ConnectorLock.ShapeTypeLocked property
 
-## Свойство ConnectorLock.ShapeTypeLocked
-
-Определяет, запрещено ли изменение типа фигуры. Читаемый/записываемый Boolean.
+Определяет, запрещено ли изменение типа формы. Чтение/записьBoolean.
 
 ```csharp
 public bool ShapeTypeLocked { get; set; }
 ```
 
-### Также посмотрите
+### Смотрите также
 
-* класс [ConnectorLock](../../connectorlock)
+* class [ConnectorLock](../../connectorlock)
 * пространство имен [Aspose.Slides](../../connectorlock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,24 +1,23 @@
 ---
 title: DataPoints
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает коллекцию точек данных этой серии. Только для чтения IChartDataPointCollection aspose.slides.charts/ichartdatapointcollection.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает набор точек данных этой серии. Только для чтенияIChartDataPointCollectionaspose.slides.charts/ichartdatapointcollection.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/chartseries/datapoints/
 ---
+## ChartSeries.DataPoints property
 
-## Свойство ChartSeries.DataPoints
-
-Возвращает коллекцию точек данных этой серии. Только для чтения [`IChartDataPointCollection`](../../ichartdatapointcollection).
+Возвращает набор точек данных этой серии. Только для чтения[`IChartDataPointCollection`](../../ichartdatapointcollection).
 
 ```csharp
 public IChartDataPointCollection DataPoints { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
-* класс [ChartSeries](../../chartseries)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
+* class [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,41 +1,40 @@
----  
-title: ITrendline  
-second_title: Aspose.Slides pour .NET Référence de l'API  
-description: La classe représente la ligne de tendance des séries de graphiques
-type: docs  
-weight: 2160  
+---
+title: ITrendline
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: La classe représente la ligne de tendance de la série de graphiques
+type: docs
+weight: 2120
 url: /fr/aspose.slides.charts/itrendline/
----  
+---
+## ITrendline interface
 
-## Interface ITrendline  
+La classe représente la ligne de tendance de la série de graphiques
 
-La classe représente la ligne de tendance des séries de graphiques  
+```csharp
+public interface ITrendline : IOverridableText
+```
 
-```csharp  
-public interface ITrendline : IOverridableText  
-```  
+## Propriétés
 
-## Propriétés  
+| Nom | La description |
+| --- | --- |
+| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Renvoie l'interface IOverridableText. Lecture seule[`IOverridableText`](../ioverridabletext) . |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Spécifie le nombre de catégories (ou d'unités sur un graphique en nuage de points) que la ligne de tendance étend avant les données de la série en cours de tendance. Sur les graphiques en nuage de points et non en nuage de points, la valeur doit être toute valeur non négative . Lecture/écritureDouble . |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Spécifie que l'équation de la ligne de tendance est affichée sur le graphique (dans la même étiquette que la valeur Rsquared). Lecture/écritureBoolean . |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Spécifie que la valeur R au carré de la courbe de tendance est affichée sur le graphique (dans la même étiquette que l'équation). Lecture/écritureBoolean . |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Représente le format de la ligne de tendance. Lecture/écriture[`IFormat`](../iformat) . |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Spécifie le nombre de catégories (ou d'unités sur un graphique en nuage de points) que la ligne de tendance s'étend après les données pour la série qui fait l'objet d'une tendance. Sur les graphiques en nuage de points et non en nuage de points, la valeur doit être toute valeur non négative . Lecture/écritureDouble . |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Spécifie la valeur où la ligne de tendance doit croiser l'axe y. Cette propriété doit être prise en charge uniquement lorsque le type de courbe de tendance est exp, linéaire ou poly. Lecture/écritureDouble . |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Spécifie l'ordre de la ligne de tendance polynomiale. Elle est ignorée pour les autres types de courbes de tendance. La valeur doit être comprise entre 2 et 6. Lecture/écritureByte . |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Spécifie la période de la ligne de tendance pour une ligne de tendance moyenne mobile. Il est ignoré pour les autres variantes de ligne trend . La valeur doit être comprise entre 2 et 255. Lecture/écritureByte . |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Représente l'entrée de légende liée à cette ligne de tendance Lecture seule[`ILegendEntryProperties`](../ilegendentryproperties) . |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Obtient ou définit le nom de la courbe de tendance. Lecture/écritureString . |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Obtient ou définit le type de ligne de tendance. Lecture/écriture[`TrendlineType`](./trendlinetype) . |
 
-| Nom | Description |  
-| --- | --- |  
-| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Renvoie l'interface IOverridableText. Lecture seule [`IOverridableText`](../ioverridabletext). |  
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Spécifie le nombre de catégories (ou unités sur un graphique de dispersion) que la ligne de tendance s'étend avant les données de la série qui est en tendance. Sur les graphiques de dispersion et non-dispersion, la valeur doit être toute valeur non négative. Lecture/écriture Double. |  
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Spécifie que l'équation de la ligne de tendance est affichée sur le graphique (dans la même étiquette que la valeur Rsquared). Lecture/écriture Boolean. |  
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Spécifie que la valeur R-carré de la ligne de tendance est affichée sur le graphique (dans la même étiquette que l'équation). Lecture/écriture Boolean. |  
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Représente le format de la ligne de tendance. Lecture/écriture [`IFormat`](../iformat). |  
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Spécifie le nombre de catégories (ou unités sur un graphique de dispersion) que la ligne de tendance s'étend après les données de la série qui est en tendance. Sur les graphiques de dispersion et non-dispersion, la valeur doit être toute valeur non négative. Lecture/écriture Double. |  
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Spécifie la valeur où la ligne de tendance doit croiser l'axe des y. Cette propriété doit être prise en charge uniquement lorsque le type de ligne de tendance est exp, linéaire ou poly. Lecture/écriture Double. |  
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Spécifie l'ordre de la ligne de tendance polynomiale. Elle est ignorée pour d'autres types de lignes de tendance. La valeur doit être comprise entre 2 et 6. Lecture/écriture Byte. |  
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Spécifie la période de la ligne de tendance pour une ligne de tendance de moyenne mobile. Elle est ignorée pour d'autres variantes de lignes de tendance. La valeur doit être comprise entre 2 et 255. Lecture/écriture Byte. |  
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Représente l'entrée de légende liée à cette ligne de tendance Lecture seule [`ILegendEntryProperties`](../ilegendentryproperties). |  
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Obtient ou définit le nom de la ligne de tendance. Lecture/écriture String. |  
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Obtient ou définit le type de ligne de tendance. Lecture/écriture [`TrendlineType`](./trendlinetype). |  
+### Voir également
 
-### Voir Aussi  
+* interface [IOverridableText](../ioverridabletext)
+* espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assemblée [Aspose.Slides](../../)
 
-* interface [IOverridableText](../ioverridabletext)  
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)  
-* assembly [Aspose.Slides](../../)  
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

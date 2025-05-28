@@ -1,15 +1,14 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes для справки API .NET
-description: Получает данные эффективного эффекта Soft Edge с примененной наследственностью.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает эффективные данные эффекта Soft Edge с применением наследования.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/softedge/geteffective/
 ---
+## SoftEdge.GetEffective method
 
-## Метод SoftEdge.GetEffective
-
-Получает данные эффективного эффекта Soft Edge с примененной наследственностью.
+Получает эффективные данные эффекта Soft Edge с применением наследования.
 
 ```csharp
 public ISoftEdgeEffectiveData GetEffective()
@@ -17,12 +16,12 @@ public ISoftEdgeEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`ISoftEdgeEffectiveData`](../../isoftedgeeffectivedata).
+A[`ISoftEdgeEffectiveData`](../../isoftedgeeffectivedata).
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISoftEdgeEffectiveData](../../isoftedgeeffectivedata)
-* класс [SoftEdge](../../softedge)
+* interface [ISoftEdgeEffectiveData](../../isoftedgeeffectivedata)
+* class [SoftEdge](../../softedge)
 * пространство имен [Aspose.Slides.Effects](../../softedge)
 * сборка [Aspose.Slides](../../../)
 

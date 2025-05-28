@@ -1,13 +1,12 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все подписи из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/idigitalsignaturecollection/clear/
 ---
-
-## Метод IDigitalSignatureCollection.Clear
+## IDigitalSignatureCollection.Clear method
 
 Удаляет все подписи из коллекции.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/idigitalsignaturecollection/clear/
 public void Clear()
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IDigitalSignatureCollection](../../idigitalsignaturecollection)
+* interface [IDigitalSignatureCollection](../../idigitalsignaturecollection)
 * пространство имен [Aspose.Slides](../../idigitalsignaturecollection)
 * сборка [Aspose.Slides](../../../)
 

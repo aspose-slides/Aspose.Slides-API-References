@@ -1,13 +1,12 @@
 ---
-title: Очистить
-second_title: Справка по API Aspose.Slides для .NET
+title: Clear
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/itabcollection/clear/
 ---
-
-## Метод ITabCollection.Clear
+## ITabCollection.Clear method
 
 Удаляет все элементы из коллекции.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/itabcollection/clear/
 public void Clear()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITabCollection](../../itabcollection)
+* interface [ITabCollection](../../itabcollection)
 * пространство имен [Aspose.Slides](../../itabcollection)
 * сборка [Aspose.Slides](../../../)
 

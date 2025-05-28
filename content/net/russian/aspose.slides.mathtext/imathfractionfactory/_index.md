@@ -1,15 +1,14 @@
 ---
 title: IMathFractionFactory
-second_title: Aspose.Slides для .NET API Справочник
-description: Позволяет создавать математическую дробь
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет создать математическую дробь
 type: docs
-weight: 8010
+weight: 7550
 url: /ru/aspose.slides.mathtext/imathfractionfactory/
 ---
+## IMathFractionFactory interface
 
-## Интерфейс IMathFractionFactory
-
-Позволяет создавать математическую дробь
+Позволяет создать математическую дробь
 
 ```csharp
 public interface IMathFractionFactory
@@ -17,17 +16,17 @@ public interface IMathFractionFactory
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Создает математическую дробь |
 | [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Создает математическую дробь |
 
 ### Примечания
 
-Для совместимости с COM
+Для COM-совместимости
 
-### Также см.
-  
+### Смотрите также
+
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

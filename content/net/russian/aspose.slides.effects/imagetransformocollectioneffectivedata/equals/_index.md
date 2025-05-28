@@ -1,13 +1,12 @@
 ---
-title: Равенство
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, равен ли указанный объект текущему объекту.
+title: Equals
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет равен ли указанный объект текущему объекту.
 type: docs
 weight: 70
 url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/equals/
 ---
-
-## Метод ImageTransformOCollectionEffectiveData.Equals
+## ImageTransformOCollectionEffectiveData.Equals method
 
 Определяет, равен ли указанный объект текущему объекту.
 
@@ -19,13 +18,13 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | Объект для сравнения с текущим объектом. |
 
-### Значение, которое возвращается
+### Возвращаемое значение
 
-true, если указанный объект равен текущему объекту; в противном случае false.
+true, если указанный объект равен текущему объекту; в противном случае ложно.
 
-### См. также
+### Смотрите также
 
-* класс [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
+* class [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: CommentAuthor
-second_title: Aspose.Slildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет автора комментариев.
 type: docs
-weight: 2540
+weight: 2480
 url: /ru/aspose.slides/commentauthor/
 ---
-
-## Класс CommentAuthor
+## CommentAuthor class
 
 Представляет автора комментариев.
 
@@ -15,13 +14,13 @@ url: /ru/aspose.slides/commentauthor/
 public sealed class CommentAuthor : ICommentAuthor
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Возвращает коллекцию комментариев, сделанных этим автором. Только для чтения [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Возвращает или устанавливает инициалы автора. Чтение/запись String. |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Возвращает или устанавливает имя автора. Чтение/запись String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Возвращает коллекцию комментариев, сделанных этим автором. Только для чтения[`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Возвращает или устанавливает инициалы авторов. Чтение/записьString. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Возвращает или устанавливает имя автора. Чтение/записьString. |
 
 ## Методы
 
@@ -29,9 +28,9 @@ public sealed class CommentAuthor : ICommentAuthor
 | --- | --- |
 | [Remove](../../aspose.slides/commentauthor/remove)() | Удаляет автора из родительской коллекции. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ICommentAuthor](../icommentauthor)
+* interface [ICommentAuthor](../icommentauthor)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

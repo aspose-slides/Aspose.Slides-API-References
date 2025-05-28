@@ -1,13 +1,12 @@
 ---
 title: ITable
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET-API-Referenz
 description: Stellt eine Tabelle auf einer Folie dar.
 type: docs
-weight: 7010
+weight: 6680
 url: /de/aspose.slides/itable/
 ---
-
-## ITable-Schnittstelle
+## ITable interface
 
 Stellt eine Tabelle auf einer Folie dar.
 
@@ -19,32 +18,32 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Ermöglicht den Zugriff auf die Basis-IBulkTextFormattable-Schnittstelle. Nur-lesend [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Ermöglicht den Zugriff auf die Basis-IGraphicalObject-Schnittstelle. Nur-lesend [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | Gibt die Sammlung der Spalten zurück. Nur-lesend [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Bestimmt, ob die erste Spalte einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Schreib-/lesbarer Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Bestimmt, ob die erste Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Schreib-/lesbarer Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Bestimmt, ob die geraden Zeilen mit einer anderen Formatierung gezeichnet werden müssen. Schreib-/lesbarer Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | Gibt die Zelle an den angegebenen Spalten- und Zeilenindizes zurück. Nur-lesend [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Bestimmt, ob die letzte Spalte einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Schreib-/lesbarer Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Bestimmt, ob die letzte Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Schreib-/lesbarer Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Bestimmt, ob die Tabelle eine von rechts nach links lesbare Anordnung hat. Schreib-/lesbarer Boolean. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | Gibt die Sammlung der Zeilen zurück. Nur-lesend [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Get oder set eine integrierte Tabellenstil. Schreib-/lesbar [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Gibt das TableFormat-Objekt zurück, das Formatierungseigenschaften für diese Tabelle enthält. Nur-lesend [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Bestimmt, ob die geraden Spalten mit einer anderen Formatierung gezeichnet werden müssen. Schreib-/lesbarer Boolean. |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Ermöglicht das Abrufen der Basis-IBulkTextFormattable-Schnittstelle. Schreibgeschützt[`IBulkTextFormattable`](../ibulktextformattable) . |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Ermöglicht das Abrufen der IGraphicalObject-Basisschnittstelle. Schreibgeschützt[`IGraphicalObject`](../igraphicalobject) . |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Gibt die Sammlung von Spalten zurück. Schreibgeschützt[`IColumnCollection`](../icolumncollection) . |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Legt fest, ob die erste Spalte einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lesen/SchreibenBoolean . |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Legt fest, ob die erste Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lesen/SchreibenBoolean . |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Legt fest, ob die geraden Zeilen mit einer anderen Formatierung gezeichnet werden müssen. Lesen/SchreibenBoolean . |
+| [Item](../../aspose.slides/itable/item) { get; } | Gibt die Zelle an den angegebenen Spalten- und Zeilenindizes zurück. Schreibgeschützt[`ICell`](../icell) . |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Legt fest, ob die letzte Spalte einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lesen/SchreibenBoolean . |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Legt fest, ob die letzte Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lesen/SchreibenBoolean . |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Bestimmt, ob die Tabelle die Lesereihenfolge von rechts nach links hat. Lesen-SchreibenBoolean . |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Gibt die Sammlung von Zeilen zurück. Schreibgeschützt[`IRowCollection`](../irowcollection) . |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Holt oder setzt eingebauten Tabellenstil. Lesen/Schreiben[`TableStylePreset`](../tablestylepreset) . |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Gibt das TableFormat-Objekt zurück, das Formatierungseigenschaften für diese Tabelle enthält. Schreibgeschützt[`ITableFormat`](../itableformat) . |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Legt fest, ob die geraden Spalten mit einer anderen Formatierung gezeichnet werden müssen. Lesen/SchreibenBoolean . |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Fügt benachbarte Zellen zusammen. |
+| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Verbindet benachbarte Zellen. |
 
 ### Siehe auch
 
-* Schnittstelle [IBulkTextFormattable](../ibulktextformattable)
-* Schnittstelle [IGraphicalObject](../igraphicalobject)
-* Namensraum [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* interface [IBulkTextFormattable](../ibulktextformattable)
+* interface [IGraphicalObject](../igraphicalobject)
+* namensraum [Aspose.Slides](../../aspose.slides)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

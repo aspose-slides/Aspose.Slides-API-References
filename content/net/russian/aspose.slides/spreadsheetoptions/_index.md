@@ -1,15 +1,14 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет параметры, которые могут быть использованы для указания дополнительного поведения таблиц.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет параметры которые можно использовать для указания дополнительного поведения электронных таблиц.
 type: docs
-weight: 10430
+weight: 9930
 url: /ru/aspose.slides/spreadsheetoptions/
 ---
+## SpreadsheetOptions class
 
-## Класс SpreadsheetOptions
-
-Представляет параметры, которые могут быть использованы для указания дополнительного поведения таблиц.
+Представляет параметры, которые можно использовать для указания дополнительного поведения электронных таблиц.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -19,18 +18,18 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Имя | Описание |
 | --- | --- |
-| [SpreadsheetOptions](spreadsheetoptions)() | Инициализирует новый экземпляр класса [`SpreadsheetOptions`](../spreadsheetoptions). |
+| [SpreadsheetOptions](spreadsheetoptions)() | Инициализирует новый экземпляр класса[`SpreadsheetOptions`](../spreadsheetoptions). |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Получает или задает информацию о предпочтительной культуре для расчета некоторых функций, предназначенных для использования с языками, использующими набор символов двойного байта (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Если источник данных для диаграммы - внешний рабочий файл и он недоступен, он будет восстановлен из кэша диаграммы. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Получает или задает предпочтительные сведения о культуре для вычисления некоторых функций, предназначенных для использования с языками , использующими двухбайтовый набор символов (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Если источником данных для диаграммы является внешняя рабочая книга и она недоступна, она будет восстановлена из кэша диаграммы. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISpreadsheetOptions](../ispreadsheetoptions)
+* interface [ISpreadsheetOptions](../ispreadsheetoptions)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

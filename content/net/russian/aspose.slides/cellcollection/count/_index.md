@@ -1,23 +1,22 @@
 ---
-title: Количество
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает количество ячеек в коллекции. Только для чтения Int32.
+title: Count
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает количество ячеек в коллекции. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/cellcollection/count/
 ---
+## CellCollection.Count property
 
-## Свойство CellCollection.Count
-
-Возвращает количество ячеек в коллекции. Только для чтения Int32.
+Возвращает количество ячеек в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [CellCollection](../../cellcollection)
+* class [CellCollection](../../cellcollection)
 * пространство имен [Aspose.Slides](../../cellcollection)
 * сборка [Aspose.Slides](../../../)
 

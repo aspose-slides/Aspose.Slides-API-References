@@ -1,24 +1,23 @@
 ---
-title: Слайд
+title: Slide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает родительский слайд комментария. Только для чтения ISlideaspose.slides/islide.
+description: Возвращает или устанавливает родительский слайд комментария. Только для чтенияISlideaspose.slides/islide.
 type: docs
 weight: 50
 url: /ru/aspose.slides/comment/slide/
 ---
+## Comment.Slide property
 
-## Свойство Comment.Slide
-
-Возвращает или задает родительский слайд комментария. Только для чтения [`ISlide`](../../islide).
+Возвращает или устанавливает родительский слайд комментария. Только для чтения[`ISlide`](../../islide).
 
 ```csharp
 public ISlide Slide { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* класс [Comment](../../comment)
+* interface [ISlide](../../islide)
+* class [Comment](../../comment)
 * пространство имен [Aspose.Slides](../../comment)
 * сборка [Aspose.Slides](../../../)
 

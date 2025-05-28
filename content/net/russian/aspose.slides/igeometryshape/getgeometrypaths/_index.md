@@ -1,23 +1,22 @@
 ---
 title: GetGeometryPaths
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает копию пути геометрической фигуры. Координаты относительны к левому верхнему углу фигуры.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает копию пути геометрической фигуры. Координаты относятся к левому верхнему углу фигуры.
 type: docs
 weight: 60
 url: /ru/aspose.slides/igeometryshape/getgeometrypaths/
 ---
+## IGeometryShape.GetGeometryPaths method
 
-## IGeometryShape.GetGeometryPaths метод
-
-Возвращает копию пути геометрической фигуры. Координаты относительны к левому верхнему углу фигуры.
+Возвращает копию пути геометрической фигуры. Координаты относятся к левому верхнему углу фигуры.
 
 ```csharp
 public IGeometryPath[] GetGeometryPaths()
 ```
 
-### Значение возврата
+### Возвращаемое значение
 
-Массив [`IGeometryPath`](../../igeometrypath)
+Массив[`IGeometryPath`](../../igeometrypath)
 
 ### Примеры
 
@@ -40,10 +39,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IGeometryPath](../../igeometrypath)
-* интерфейс [IGeometryShape](../../igeometryshape)
+* interface [IGeometryPath](../../igeometrypath)
+* interface [IGeometryShape](../../igeometryshape)
 * пространство имен [Aspose.Slides](../../igeometryshape)
 * сборка [Aspose.Slides](../../../)
 

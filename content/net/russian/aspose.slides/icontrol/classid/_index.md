@@ -1,22 +1,22 @@
 ---
 title: ClassId
-second_title: Справочник API Aspose.Slides для .NET
-description: Получает идентификатор класса этого элемента управления. Только для чтения Guid.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает идентификатор класса этого элемента управления. Только чтениеGuid.
 type: docs
 weight: 30
 url: /ru/aspose.slides/icontrol/classid/
 ---
+## IControl.ClassId property
 
-## Свойство IControl.ClassId
-
-Получает идентификатор класса этого элемента управления. Только для чтения Guid.
+Получает идентификатор класса этого элемента управления. Только чтениеGuid.
 
 ```csharp
 public Guid ClassId { get; }
 ```
 
-### Также см.
-* интерфейс [IControl](../../icontrol)
+### Смотрите также
+
+* interface [IControl](../../icontrol)
 * пространство имен [Aspose.Slides](../../icontrol)
 * сборка [Aspose.Slides](../../../)
 

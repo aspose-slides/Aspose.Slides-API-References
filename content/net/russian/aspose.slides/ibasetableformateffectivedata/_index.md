@@ -1,31 +1,30 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
-description: Базовый интерфейс для неизменяемых объектов, содержащих эффективные свойства форматирования таблиц.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Базовый интерфейс для неизменяемых объектов которые содержат эффективные свойства форматирования таблицы.
 type: docs
-weight: 5160
+weight: 4880
 url: /ru/aspose.slides/ibasetableformateffectivedata/
 ---
+## IBaseTableFormatEffectiveData interface
 
-## Интерфейс IBaseTableFormatEffectiveData
-
-Базовый интерфейс для неизменяемых объектов, содержащих эффективные свойства форматирования таблиц.
+Базовый интерфейс для неизменяемых объектов, которые содержат эффективные свойства форматирования таблицы.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Возвращает эффективное значение формата нижней границы. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Возвращает эффективное значение формата нижней диагональной линии. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Возвращает эффективное значение формата верхней диагональной линии. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Возвращает эффективное значение формата левой границы. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Возвращает эффективное значение формата правой границы. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Возвращает эффективное значение формата верхней границы. Только для чтения [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Возвращает эффективное значение формата заливки. Только для чтения [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Возвращает эффективное значение формата линии нижней границы. Только для чтения[`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Возвращает эффективное значение формата нисходящей диагональной линии. Только для чтения[`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Возвращает эффективное значение формата диагональной линии вверх. Только для чтения[`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Возвращает эффективное значение формата левой границы. Только для чтения[`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Возвращает эффективное значение формата правой границы. Только для чтения[`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Возвращает эффективное значение формата верхней границы. Только для чтения[`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Возвращает эффективное значение формата заполнения. Только для чтения[`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Смотрите также
 

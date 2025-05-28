@@ -1,13 +1,12 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Slidess для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/behaviorfactory/behaviorfactory/
 ---
-
-## Конструктор BehaviorFactory
+## BehaviorFactory constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorfactory/behaviorfactory/
 public BehaviorFactory()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorFactory](../../behaviorfactory)
+* class [BehaviorFactory](../../behaviorfactory)
 * пространство имен [Aspose.Slides.Animation](../../behaviorfactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: Скрытый
+title: Hidden
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, скрыта ли фигура. Читаемое/записываемое логическое значение.
+description: Определяет скрыта ли фигура. Чтение/записьBoolean.
 type: docs
 weight: 100
 url: /ru/aspose.slides/shape/hidden/
 ---
+## Shape.Hidden property
 
-## Свойство Shape.Hidden
-
-Определяет, скрыта ли фигура. Читаемое/записываемое логическое значение.
+Определяет, скрыта ли фигура. Чтение/записьBoolean.
 
 ```csharp
 public bool Hidden { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Shape](../../shape)
+* class [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 

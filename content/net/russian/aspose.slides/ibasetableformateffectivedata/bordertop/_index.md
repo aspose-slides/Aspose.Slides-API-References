@@ -1,24 +1,23 @@
 ---
 title: BorderTop
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает эффективное значение формата верхней линии границы. Только для чтения ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает эффективное значение формата верхней границы. Только для чтенияILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ibasetableformateffectivedata/bordertop/
 ---
+## IBaseTableFormatEffectiveData.BorderTop property
 
-## IBaseTableFormatEffectiveData.BorderTop свойство
-
-Возвращает эффективное значение формата верхней линии границы. Только для чтения [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Возвращает эффективное значение формата верхней границы. Только для чтения[`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderTop { get; }
 ```
 
-### Также см. 
+### Смотрите также
 
-* интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
-* интерфейс [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)
+* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* interface [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibasetableformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

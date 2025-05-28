@@ -1,29 +1,28 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает свойства IMathNaryOperator
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает свойства IMathNaryOperator
 type: docs
-weight: 8130
+weight: 7670
 url: /ru/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
+## IMathNaryOperatorProperties interface
 
-## Интерфейс IMathNaryOperatorProperties
-
-Указывает свойства IMathNaryOperator
+Задает свойства IMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorProperties
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Символ оператора растет вертикально, чтобы соответствовать высоте его операнда |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Скрыть нижний индекс |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Символ оператора увеличивается вертикально, чтобы соответствовать высоте операнда |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Скрыть индекс |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Скрыть верхний индекс |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Место расположения пределов (нижний и верхний индексы) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Символ многозначного оператора, например '∑', '∫' |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Расположение пределов (нижний и верхний индекс) |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary Operator Character Например:'∑', '∫' |
 
 ### Смотрите также
 

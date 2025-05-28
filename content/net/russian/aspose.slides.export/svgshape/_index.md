@@ -1,21 +1,20 @@
 ---
 title: SvgShape
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет параметры для SVG формы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет параметры формы SVG.
 type: docs
-weight: 4320
+weight: 4080
 url: /ru/aspose.slides.export/svgshape/
 ---
+## SvgShape class
 
-## Класс SvgShape
-
-Представляет параметры для SVG формы.
+Представляет параметры формы SVG.
 
 ```csharp
 public sealed class SvgShape : ISvgShape
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
@@ -25,11 +24,11 @@ public sealed class SvgShape : ISvgShape
 
 | Имя | Описание |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Устанавливает обработчик событий для формы |
+| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Устанавливает обработчик событий для фигуры |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISvgShape](../isvgshape)
+* interface [ISvgShape](../isvgshape)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

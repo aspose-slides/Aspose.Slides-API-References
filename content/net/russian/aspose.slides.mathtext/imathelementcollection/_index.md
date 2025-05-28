@@ -1,27 +1,26 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Slides для .NET Справочник API
-description: Представляет собой коллекцию математических элементов MathElement.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор математических элементов MathElement.
 type: docs
-weight: 7990
+weight: 7530
 url: /ru/aspose.slides.mathtext/imathelementcollection/
 ---
+## IMathElementCollection interface
 
-## Интерфейс IMathElementCollection
-
-Представляет собой коллекцию математических элементов (MathElement).
+Представляет набор математических элементов (MathElement).
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IMathElement`](../imathelement). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IMathElement`](../imathelement). |
 
 ## Методы
 
@@ -30,10 +29,10 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Добавляет математический элемент в конец коллекции. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Удаляет все элементы из коллекции. |
 | [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Определяет, содержит ли коллекция определенное значение. |
-| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Копирует в указанный массив. |
-| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Определяет индекс конкретного математического элемента в коллекции. |
+| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Копировать в указанный массив. |
+| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Определяет индекс определенного математического элемента в коллекции. |
 | [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Вставляет математический элемент в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Удаляет первое вхождение конкретного объекта из коллекции. |
+| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Удаляет первое вхождение определенного объекта из коллекции. |
 | [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
 
 ### Примеры
@@ -45,8 +44,9 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 IMathElementCollection collection = new MathBlock();
 ```
 
-### Также см.
-* интерфейс [IMathElement](../imathelement)
+### Смотрите также
+
+* interface [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

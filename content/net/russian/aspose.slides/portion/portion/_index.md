@@ -1,12 +1,11 @@
 ---
 title: Portion
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр класса Portion.
 type: docs
 weight: 10
 url: /ru/aspose.slides/portion/portion/
 ---
-
 ## Portion() {#constructor}
 
 Инициализирует новый экземпляр класса Portion.
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/portion/portion/
 public Portion()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Portion](../../portion)
+* class [Portion](../../portion)
 * пространство имен [Aspose.Slides](../../portion)
 * сборка [Aspose.Slides](../../../)
 
@@ -31,9 +30,9 @@ public Portion()
 public Portion(string str)
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Portion](../../portion)
+* class [Portion](../../portion)
 * пространство имен [Aspose.Slides](../../portion)
 * сборка [Aspose.Slides](../../../)
 
@@ -47,9 +46,9 @@ public Portion(string str)
 public Portion(Portion portion)
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Portion](../../portion)
+* class [Portion](../../portion)
 * пространство имен [Aspose.Slides](../../portion)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: VectorizeText
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, будет ли текст на слайде сохранен в виде графики. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет будет ли текст на слайде сохранен как графика. Чтение/записьBoolean.
 type: docs
-weight: 150
+weight: 110
 url: /ru/aspose.slides.export/isvgoptions/vectorizetext/
 ---
+## ISVGOptions.VectorizeText property
 
-## Свойство ISVGOptions.VectorizeText
-
-Определяет, будет ли текст на слайде сохранен в виде графики. Читаемое/записываемое логическое значение.
+Определяет, будет ли текст на слайде сохранен как графика. Чтение/записьBoolean.
 
 ```csharp
 public bool VectorizeText { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISVGOptions](../../isvgoptions)
+* interface [ISVGOptions](../../isvgoptions)
 * пространство имен [Aspose.Slides.Export](../../isvgoptions)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: ActiveXControlBinary
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает на сохранение ActiveX управления, когда метод, используемый для сохранения, - это PersistStream, PersistStreamInit или PersistStorage.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает сохраняемость элемента управления ActiveX когда для сохранения используется метод PersistStream PersistStreamInit или PersistStorage.
 type: docs
 weight: 10
 url: /ru/aspose.slides/control/activexcontrolbinary/
 ---
+## Control.ActiveXControlBinary property
 
-## Свойство Control.ActiveXControlBinary
-
-Указывает на сохранение ActiveX управления, когда метод, используемый для сохранения, - это PersistStream, PersistStreamInit или PersistStorage.
+Задает сохраняемость элемента управления ActiveX, когда для сохранения используется метод PersistStream, PersistStreamInit или PersistStorage.
 
 ```csharp
 public byte[] ActiveXControlBinary { get; }
@@ -17,7 +16,7 @@ public byte[] ActiveXControlBinary { get; }
 
 ### Примеры
 
-Следующий пример показывает использование свойства ActiveXControlBinary для изменения свойств ActiveX:
+В следующем примере показано использование свойства ActiveXControlBinary для изменения свойств ActiveX:
 
 ```csharp
 [C#]
@@ -27,13 +26,13 @@ if (control.Persistence == PersistenceType.PersistPropertyBag)
 }
 else
 {
-    YourMethodHere(control.ActiveXControlBinary); //Используйте свой собственный метод для управления свойствами ActiveX, хранящимися в его двоичном файле
+    YourMethodHere(control.ActiveXControlBinary);  //Используйте свой собственный метод управления свойствами ActiveX, хранящимися в его двоичном файле file
 }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Control](../../control)
+* class [Control](../../control)
 * пространство имен [Aspose.Slides](../../control)
 * сборка [Aspose.Slides](../../../)
 

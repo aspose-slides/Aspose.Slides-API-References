@@ -1,13 +1,12 @@
 ---
-title: Вставить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Insert
+second_title: Справочник по API Aspose.Slides для .NET
 description: Вставляет новое поведение в коллекцию по указанному индексу.
 type: docs
 weight: 80
 url: /ru/aspose.slides.animation/ibehaviorcollection/insert/
 ---
-
-## Метод IBehaviorCollection.Insert
+## IBehaviorCollection.Insert method
 
 Вставляет новое поведение в коллекцию по указанному индексу.
 
@@ -17,13 +16,13 @@ public void Insert(int index, IBehavior item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, по которому должно быть вставлено новое поведение. |
+| index | Int32 | Индекс, в который следует вставить новое поведение. |
 | item | IBehavior | Поведение для вставки. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBehavior](../../ibehavior)
-* интерфейс [IBehaviorCollection](../../ibehaviorcollection)
+* interface [IBehavior](../../ibehavior)
+* interface [IBehaviorCollection](../../ibehaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorcollection)
 * сборка [Aspose.Slides](../../../)
 

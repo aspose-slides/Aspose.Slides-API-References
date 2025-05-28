@@ -1,13 +1,12 @@
 ---
 title: PptH
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство ppt_h
 type: docs
 weight: 520
 url: /ru/aspose.slides.animation/behaviorproperty/ppth/
 ---
-
-## Свойство BehaviorProperty.PptH
+## BehaviorProperty.PptH property
 
 Представляет свойство 'ppt_h'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/ppth/
 public static BehaviorProperty PptH { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

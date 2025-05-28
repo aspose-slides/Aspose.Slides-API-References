@@ -1,23 +1,22 @@
 ---
-title: По
+title: By
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает относительное значение смещения для анимации относительно её положения перед началом анимации. Читаемая/Записываемая строка.
+description: Определяет значение относительного смещения для анимации относительно ее положения перед началом анимации. Чтение/записьString.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/ipropertyeffect/by/
 ---
+## IPropertyEffect.By property
 
-## Свойство IPropertyEffect.By
-
-Указывает относительное значение смещения для анимации относительно её положения перед началом анимации. Читаемая/Записываемая строка.
+Определяет значение относительного смещения для анимации относительно ее положения перед началом анимации. Чтение/записьString.
 
 ```csharp
 public string By { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPropertyEffect](../../ipropertyeffect)
+* interface [IPropertyEffect](../../ipropertyeffect)
 * пространство имен [Aspose.Slides.Animation](../../ipropertyeffect)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,24 +1,23 @@
 ---
 title: LineFormat
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает свойства LineFormat для контурирования текста. Наследование не применимо. Только для чтения ILineFormataspose.slides/ilineformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает свойства LineFormat для обводки текста. Наследование не применяется. Только для чтенияILineFormataspose.slides/ilineformat.
 type: docs
 weight: 180
 url: /ru/aspose.slides/ibaseportionformat/lineformat/
 ---
+## IBasePortionFormat.LineFormat property
 
-## Свойство IBasePortionFormat.LineFormat
-
-Возвращает свойства LineFormat для контурирования текста. Наследование не применимо. Только для чтения [`ILineFormat`](../../ilineformat).
+Возвращает свойства LineFormat для обводки текста. Наследование не применяется. Только для чтения[`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat LineFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILineFormat](../../ilineformat)
-* интерфейс [IBasePortionFormat](../../ibaseportionformat)
+* interface [ILineFormat](../../ilineformat)
+* interface [IBasePortionFormat](../../ibaseportionformat)
 * пространство имен [Aspose.Slides](../../ibaseportionformat)
 * сборка [Aspose.Slides](../../../)
 

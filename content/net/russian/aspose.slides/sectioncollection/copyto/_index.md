@@ -1,13 +1,12 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Копирует всю коллекцию в указанный массив.
 type: docs
 weight: 90
 url: /ru/aspose.slides/sectioncollection/copyto/
 ---
-
-## Метод SectionCollection.CopyTo
+## SectionCollection.CopyTo method
 
 Копирует всю коллекцию в указанный массив.
 
@@ -18,11 +17,11 @@ public void CopyTo(Array array, int index)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | array | Array | Целевой массив |
-| index | Int32 | Индекс в целевом массиве. |
+| index | Int32 | Индекс в целевом массиве . |
 
-### См. также
+### Смотрите также
 
-* класс [SectionCollection](../../sectioncollection)
+* class [SectionCollection](../../sectioncollection)
 * пространство имен [Aspose.Slides](../../sectioncollection)
 * сборка [Aspose.Slides](../../../)
 

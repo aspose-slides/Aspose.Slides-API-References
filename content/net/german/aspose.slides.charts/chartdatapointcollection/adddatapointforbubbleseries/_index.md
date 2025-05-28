@@ -1,15 +1,14 @@
 ---
 title: AddDataPointForBubbleSeries
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist, siehe auch die IsChartTypeBubbleaspose.slides/charttypecharacterizer/ischarttypebubble Methode.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien deren chartType einer der BubbleUntertypen ist siehe auchIsChartTypeBubbleaspose.slides.charts/charttypecharacterizer/ischarttypebubble Methode.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries/
 ---
-
 ## AddDataPointForBubbleSeries(IChartDataCell, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChartDataCell yValue, 
@@ -18,27 +17,27 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | IChartDataCell | Datenpunkt XValue |
-| yValue | IChartDataCell | Datenpunkt YValue |
+| xValue | IChartDataCell | Datenpunkt XWert |
+| yValue | IChartDataCell | Datenpunkt YWert |
 | bubbleSize | IChartDataCell | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(double, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries_4}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell yValue, 
@@ -47,27 +46,27 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | Double | Datenpunkt XValue |
-| yValue | IChartDataCell | Datenpunkt YValue |
+| xValue | Double | Datenpunkt XWert |
+| yValue | IChartDataCell | Datenpunkt YWert |
 | bubbleSize | IChartDataCell | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(string, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries_8}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell yValue, 
@@ -76,27 +75,27 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | String | Datenpunkt XValue |
-| yValue | IChartDataCell | Datenpunkt YValue |
+| xValue | String | Datenpunkt XWert |
+| yValue | IChartDataCell | Datenpunkt YWert |
 | bubbleSize | IChartDataCell | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(IChartDataCell, double, IChartDataCell) {#adddatapointforbubbleseries_2}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double yValue, 
@@ -105,27 +104,27 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | IChartDataCell | Datenpunkt XValue |
-| yValue | Double | Datenpunkt YValue |
+| xValue | IChartDataCell | Datenpunkt XWert |
+| yValue | Double | Datenpunkt YWert |
 | bubbleSize | IChartDataCell | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(double, double, IChartDataCell) {#adddatapointforbubbleseries_6}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue, 
@@ -134,27 +133,27 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | Double | Datenpunkt XValue |
-| yValue | Double | Datenpunkt YValue |
+| xValue | Double | Datenpunkt XWert |
+| yValue | Double | Datenpunkt YWert |
 | bubbleSize | IChartDataCell | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(string, double, IChartDataCell) {#adddatapointforbubbleseries_10}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue, 
@@ -163,27 +162,27 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | String | Datenpunkt XValue |
-| yValue | Double | Datenpunkt YValue |
+| xValue | String | Datenpunkt XWert |
+| yValue | Double | Datenpunkt YWert |
 | bubbleSize | IChartDataCell | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(IChartDataCell, IChartDataCell, double) {#adddatapointforbubbleseries_1}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChartDataCell yValue, 
@@ -192,27 +191,27 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | IChartDataCell | Datenpunkt XValue |
-| yValue | IChartDataCell | Datenpunkt YValue |
+| xValue | IChartDataCell | Datenpunkt XWert |
+| yValue | IChartDataCell | Datenpunkt YWert |
 | bubbleSize | Double | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(double, IChartDataCell, double) {#adddatapointforbubbleseries_5}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell yValue, 
@@ -221,27 +220,27 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | Double | Datenpunkt XValue |
-| yValue | IChartDataCell | Datenpunkt YValue |
+| xValue | Double | Datenpunkt XWert |
+| yValue | IChartDataCell | Datenpunkt YWert |
 | bubbleSize | Double | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(string, IChartDataCell, double) {#adddatapointforbubbleseries_9}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell yValue, 
@@ -250,27 +249,27 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | String | Datenpunkt XValue |
-| yValue | IChartDataCell | Datenpunkt YValue |
+| xValue | String | Datenpunkt XWert |
+| yValue | IChartDataCell | Datenpunkt YWert |
 | bubbleSize | Double | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(IChartDataCell, double, double) {#adddatapointforbubbleseries_3}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double yValue, 
@@ -279,27 +278,27 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | IChartDataCell | Datenpunkt XValue |
-| yValue | Double | Datenpunkt YValue |
+| xValue | IChartDataCell | Datenpunkt XWert |
+| yValue | Double | Datenpunkt YWert |
 | bubbleSize | Double | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(double, double, double) {#adddatapointforbubbleseries_7}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue, double bubbleSize)
@@ -307,26 +306,26 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | Double | Datenpunkt XValue |
-| yValue | Double | Datenpunkt YValue |
+| xValue | Double | Datenpunkt XWert |
+| yValue | Double | Datenpunkt YWert |
 | bubbleSize | Double | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## AddDataPointForBubbleSeries(string, double, double) {#adddatapointforbubbleseries_11}
 
-Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Gültig für Serien, deren chartType einer der Bubble-Subtypen ist (siehe auch die [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren chartType einer der Bubble-Untertypen ist (siehe auch[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue, double bubbleSize)
@@ -334,19 +333,19 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xValue | String | Datenpunkt XValue |
-| yValue | Double | Datenpunkt YValue |
+| xValue | String | Datenpunkt XWert |
+| yValue | Double | Datenpunkt YWert |
 | bubbleSize | Double | Datenpunkt BubbleSize |
 
 ### Rückgabewert
 
 Neuer Datenpunkt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataPoint](../../ichartdatapoint)
-* Klasse [ChartDataPointCollection](../../chartdatapointcollection)
-* Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namensraum [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Montage [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,13 +1,12 @@
 ---
 title: CreateLuminance
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает эффект яркости.
 type: docs
 weight: 160
 url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createluminance/
 ---
-
-## IImageTransformOperationFactory.CreateLuminance метод
+## IImageTransformOperationFactory.CreateLuminance method
 
 Создает эффект яркости.
 
@@ -18,16 +17,16 @@ public ILuminance CreateLuminance(float brightness, float contrast)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | brightness | Single | Яркость. |
-| contrast | Single | Контраст. |
+| контрастность | Single | Контрастность. |
 
 ### Возвращаемое значение
 
 Эффект яркости.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILuminance](../../iluminance)
-* интерфейс [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
+* interface [ILuminance](../../iluminance)
+* interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

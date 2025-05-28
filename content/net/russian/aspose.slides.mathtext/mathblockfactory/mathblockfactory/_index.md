@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathblockfactory/mathblockfactory/
 ---
-
-## Конструктор MathBlockFactory
+## MathBlockFactory constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.mathtext/mathblockfactory/mathblockfactory/
 public MathBlockFactory()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathBlockFactory](../../mathblockfactory)
+* class [MathBlockFactory](../../mathblockfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathblockfactory)
 * сборка [Aspose.Slides](../../../)
 

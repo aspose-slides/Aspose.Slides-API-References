@@ -1,35 +1,34 @@
 ---
 title: IThemeable
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет объекты, которые могут быть оформлены с помощью ITheme./itheme.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет объекты которые могут быть оформлены с помощьюITheme./itheme.
 type: docs
-weight: 11090
+weight: 10590
 url: /ru/aspose.slides.theme/ithemeable/
 ---
+## IThemeable interface
 
-## Интерфейс IThemeable
-
-Представляет объекты, которые могут быть оформлены с помощью [`ITheme`](../itheme).
+Представляет объекты, которые могут быть оформлены с помощью[`ITheme`](../itheme).
 
 ```csharp
 public interface IThemeable : ISlideComponent
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Возвращает интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Возвращает интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Возвращает эффективную тему для этого объекта, который можно оформлять. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Возвращает эффективную тему для этого тематического объекта. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISlideComponent](../../aspose.slides/islidecomponent)
+* interface [ISlideComponent](../../aspose.slides/islidecomponent)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

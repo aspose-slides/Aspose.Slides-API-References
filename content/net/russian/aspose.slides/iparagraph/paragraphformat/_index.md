@@ -1,24 +1,23 @@
 ---
 title: ParagraphFormat
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает объект форматирования для этого абзаца. Только для чтения IParagraphFormataspose.slides/iparagraphformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает объект форматирования для этого абзаца. Только для чтенияIParagraphFormataspose.slides/iparagraphformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iparagraph/paragraphformat/
 ---
+## IParagraph.ParagraphFormat property
 
-## Свойство IParagraph.ParagraphFormat
-
-Возвращает объект форматирования для этого абзаца. Только для чтения [`IParagraphFormat`](../../iparagraphformat).
+Возвращает объект форматирования для этого абзаца. Только для чтения[`IParagraphFormat`](../../iparagraphformat).
 
 ```csharp
 public IParagraphFormat ParagraphFormat { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IParagraphFormat](../../iparagraphformat)
-* интерфейс [IParagraph](../../iparagraph)
+* interface [IParagraphFormat](../../iparagraphformat)
+* interface [IParagraph](../../iparagraph)
 * пространство имен [Aspose.Slides](../../iparagraph)
 * сборка [Aspose.Slides](../../../)
 

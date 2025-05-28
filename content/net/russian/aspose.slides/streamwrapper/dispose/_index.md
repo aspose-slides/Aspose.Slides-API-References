@@ -1,23 +1,22 @@
 ---
-title: Освобождение
+title: Dispose
 second_title: Справочник по API Aspose.Slides для .NET
-description: Освобождает объект.
+description: Удаляет объект.
 type: docs
 weight: 90
 url: /ru/aspose.slides/streamwrapper/dispose/
 ---
+## StreamWrapper.Dispose method
 
-## Метод StreamWrapper.Dispose
-
-Освобождает объект.
+Удаляет объект.
 
 ```csharp
 public void Dispose()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [StreamWrapper](../../streamwrapper)
+* class [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

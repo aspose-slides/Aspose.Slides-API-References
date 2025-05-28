@@ -1,24 +1,23 @@
 ---
-title: Название
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает имя серии. Только для чтения IStringChartValueaspose.slides.charts/istringchartvalue.
+description: Возвращает имя серии. Только для чтенияIStringChartValueaspose.slides.charts/istringchartvalue.
 type: docs
 weight: 210
 url: /ru/aspose.slides.charts/chartseries/name/
 ---
+## ChartSeries.Name property
 
-## Свойство ChartSeries.Name
-
-Возвращает имя серии. Только для чтения [`IStringChartValue`](../../istringchartvalue).
+Возвращает имя серии. Только для чтения[`IStringChartValue`](../../istringchartvalue).
 
 ```csharp
 public IStringChartValue Name { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IStringChartValue](../../istringchartvalue)
-* класс [ChartSeries](../../chartseries)
+* interface [IStringChartValue](../../istringchartvalue)
+* class [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)
 * сборка [Aspose.Slides](../../../)
 

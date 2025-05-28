@@ -1,29 +1,28 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает объект подстрочного и надстрочного текста, который состоит из основы и подстрочного и надстрочного текста, расположенных справа от основы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет объект Sub-Superscript который состоит из основания и нижнего и верхнего индексов расположенных справа от основания.
 type: docs
-weight: 8190
+weight: 7730
 url: /ru/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
+## IMathRightSubSuperscriptElement interface
 
-## Интерфейс IMathRightSubSuperscriptElement
-
-Указывает объект подстрочного и надстрочного текста, который состоит из основы и подстрочного и надстрочного текста, расположенных справа от основы.
+Определяет объект Sub-Superscript, который состоит из основания и нижнего и верхнего индексов, расположенных справа от основания.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Указывает выравнивание подстрочного/надстрочного текста. Если true, подстрочный и надстрочный текст выравниваются по горизонтали относительно друг друга. Если false, они располагаются в соответствии с формой основы. Значение по умолчанию - false. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Задает выравнивание нижнего/верхнего индекса. При значении true нижний и верхний индексы выравниваются по горизонтали относительно друг друга. При значении false они привязываются к форме основания. Значение по умолчанию — false. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Аргумент базы |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Аргумент подстрочного текста |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Аргумент надстрочного текста |
+| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Базовый аргумент |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Нижний индекс |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Надстрочный аргумент |
 
 ### Примеры
 
@@ -34,9 +33,9 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../imathelement)
+* interface [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

@@ -1,27 +1,26 @@
 ---
-title: ВстраиваниеПолныхШрифтов
+title: EmbedFullFonts
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, должны ли быть встроены все символы шрифта или только используемая подсеть. Чтение/запись Boolean.
+description: Определяет должны ли быть внедрены все символы шрифта или используется только подмножество. Чтение/записьBoolean.
 type: docs
 weight: 80
 url: /ru/aspose.slides.export/pdfoptions/embedfullfonts/
 ---
+## PdfOptions.EmbedFullFonts property
 
-## PdfOptions.EmbedFullFonts свойство
-
-Определяет, должны ли быть встроены все символы шрифта или только используемая подсеть. Чтение/запись Boolean.
+Определяет, должны ли быть внедрены все символы шрифта или используется только подмножество. Чтение/записьBoolean.
 
 ```csharp
 public bool EmbedFullFonts { get; set; }
 ```
 
-### Замечания
+### Примечания
 
-По умолчанию **false**.
+По умолчанию: **false** .
 
-### См. также
+### Смотрите также
 
-* класс [PdfOptions](../../pdfoptions)
+* class [PdfOptions](../../pdfoptions)
 * пространство имен [Aspose.Slides.Export](../../pdfoptions)
 * сборка [Aspose.Slides](../../../)
 

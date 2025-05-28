@@ -1,23 +1,22 @@
 ---
 title: IsTemporaryFilesAllowed
-second_title: Aspose.Sildes для .NET API Reference
-description: Это свойство определяет, могут ли быть созданы временные файлы при работе с BLOB-ами, что значительно сокращает потребление памяти, но требует разрешений на создание файлов. Все файлы будут удалены после завершения работы с презентацией.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Установить запрет на использование временных файлов для оптимизации потребления памяти при работе с большими объемами данных во время жизни презентации. Если false может быть выброшено исключение OutOfMemoryException.
 type: docs
 weight: 20
 url: /ru/aspose.slides/blobmanagementoptions/istemporaryfilesallowed/
 ---
+## BlobManagementOptions.IsTemporaryFilesAllowed property
 
-## BlobManagementOptions.IsTemporaryFilesAllowed свойство
-
-Это свойство определяет, могут ли быть созданы временные файлы при работе с BLOB-ами, что значительно сокращает потребление памяти, но требует разрешений на создание файлов. Все файлы будут удалены после завершения работы с презентацией.
+Установить запрет на использование временных файлов для оптимизации потребления памяти при работе с большими объемами данных во время жизни презентации. Если false, может быть выброшено исключение OutOfMemoryException.
 
 ```csharp
 public bool IsTemporaryFilesAllowed { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [BlobManagementOptions](../../blobmanagementoptions)
+* class [BlobManagementOptions](../../blobmanagementoptions)
 * пространство имен [Aspose.Slides](../../blobmanagementoptions)
 * сборка [Aspose.Slides](../../../)
 

@@ -6,8 +6,7 @@ type: docs
 weight: 70
 url: /ru/aspose.slides/itagcollection/getvaluebyindex/
 ---
-
-## ITagCollection.GetValueByIndex метод
+## ITagCollection.GetValueByIndex method
 
 Возвращает значение тега по указанному индексу.
 
@@ -17,15 +16,15 @@ public string GetValueByIndex(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс тега для возврата. |
+| index | Int32 | Индекс возвращаемого тега. |
 
 ### Возвращаемое значение
 
 Значение тега.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITagCollection](../../itagcollection)
+* interface [ITagCollection](../../itagcollection)
 * пространство имен [Aspose.Slides](../../itagcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
-title: Аргументы
+title: Arguments
 second_title: Справочник по API Aspose.Slides для .NET
-description: Один или несколько математических элементов, разделенных символами-разделителями
+description: Один или несколько математических элементов разделенных символами-разделителями
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathdelimiter/arguments/
 ---
-
-## Свойство IMathDelimiter.Arguments
+## IMathDelimiter.Arguments property
 
 Один или несколько математических элементов, разделенных символами-разделителями
 
@@ -25,10 +24,10 @@ IMathDelimiter delimiter = new MathematicalText("x").Join("y").Enclose();
 IMathElementCollection arguments = delimiter.Arguments;
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMathElementCollection](../../imathelementcollection)
-* интерфейс [IMathDelimiter](../../imathdelimiter)
+* interface [IMathElementCollection](../../imathelementcollection)
+* interface [IMathDelimiter](../../imathdelimiter)
 * пространство имен [Aspose.Slides.MathText](../../imathdelimiter)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: UnderflowBin
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает на пользовательское значение бина переполнения. Применяется, когда свойство IsAutomaticUnderflowBin установлено в false, а свойство IsUnderflowBin равно true.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает пользовательское значение корзины для недорасхода. Применяется когда свойство IsAutomaticUnderflowBin имеет значение false а свойство IsUnderflowBin равно true.
 type: docs
 weight: 550
 url: /ru/aspose.slides.charts/iaxis/underflowbin/
 ---
+## IAxis.UnderflowBin property
 
-## Свойство IAxis.UnderflowBin
-
-Указывает на пользовательское значение бина переполнения. Применяется, когда свойство IsAutomaticUnderflowBin установлено в false, а свойство IsUnderflowBin равно true.
+Указывает пользовательское значение корзины для недорасхода. Применяется, когда свойство IsAutomaticUnderflowBin имеет значение false, а свойство IsUnderflowBin равно true.
 
 ```csharp
 public double UnderflowBin { get; set; }
@@ -17,7 +16,7 @@ public double UnderflowBin { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
+* interface [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

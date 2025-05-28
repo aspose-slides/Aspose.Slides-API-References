@@ -1,13 +1,12 @@
 ---
-title: 获取单元格
+title: GetCell
 second_title: Aspose.Slides for .NET API 参考
 description: 获取可用于图表系列或类别的单元格
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/chartdataworkbook/getcell/
 ---
-
-## GetCell(string, int, int) {#getcell_4}
+## GetCell(string, int, int) {#getcell_4}
 
 获取可用于图表系列或类别的单元格
 
@@ -15,26 +14,26 @@ url: /zh/aspose.slides.charts/chartdataworkbook/getcell/
 public IChartDataCell GetCell(string worksheetName, int row, int column)
 ```
 
-| 参数        | 类型     | 描述                   |
-| ----------- | -------- | ---------------------- |
-| worksheetName | String   | 工作表的名称。          |
-| row         | Int32    | 行号。                |
-| column      | Int32    | 列号。                |
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| worksheetName | String | 工作表的名称。 |
+| row | Int32 | 行。 |
+| column | Int32 | 列。 |
 
 ### 返回值
 
-单元格对象
+单元对象
 
-### 另见
+### 也可以看看
 
-* 接口 [IChartDataCell](../../ichartdatacell)
-* 类 [ChartDataWorkbook](../../chartdataworkbook)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataWorkbook](../../chartdataworkbook)
 * 命名空间 [Aspose.Slides.Charts](../../chartdataworkbook)
-* 程序集 [Aspose.Slides](../../../)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, int, int) {#getcell}
+## GetCell(int, int, int) {#getcell}
 
 获取可用于图表系列或类别的单元格
 
@@ -42,26 +41,26 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 ```
 
-| 参数          | 类型     | 描述                   |
-| ------------- | -------- | ---------------------- |
-| worksheetIndex | Int32    | 工作表的索引。          |
-| row           | Int32    | 行号。                |
-| column        | Int32    | 列号。                |
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| worksheetIndex | Int32 | 工作表的索引。 |
+| row | Int32 | 行。 |
+| column | Int32 | 列。 |
 
 ### 返回值
 
-单元格对象
+单元对象
 
-### 另见
+### 也可以看看
 
-* 接口 [IChartDataCell](../../ichartdatacell)
-* 类 [ChartDataWorkbook](../../chartdataworkbook)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataWorkbook](../../chartdataworkbook)
 * 命名空间 [Aspose.Slides.Charts](../../chartdataworkbook)
-* 程序集 [Aspose.Slides](../../../)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, string) {#getcell_2}
+## GetCell(int, string) {#getcell_2}
 
 获取可用于图表系列或类别的单元格
 
@@ -69,25 +68,25 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 public IChartDataCell GetCell(int worksheetIndex, string cellName)
 ```
 
-| 参数          | 类型     | 描述                   |
-| ------------- | -------- | ---------------------- |
-| worksheetIndex | Int32    | 工作表的索引。          |
-| cellName      | String   | 单元格的名称。          |
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| worksheetIndex | Int32 | 工作表的索引。 |
+| cellName | String | 单元的名称。 |
 
 ### 返回值
 
-单元格对象
+单元对象
 
-### 另见
+### 也可以看看
 
-* 接口 [IChartDataCell](../../ichartdatacell)
-* 类 [ChartDataWorkbook](../../chartdataworkbook)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataWorkbook](../../chartdataworkbook)
 * 命名空间 [Aspose.Slides.Charts](../../chartdataworkbook)
-* 程序集 [Aspose.Slides](../../../)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, string, object) {#getcell_3}
+## GetCell(int, string, object) {#getcell_3}
 
 获取可用于图表系列或类别的单元格
 
@@ -95,26 +94,26 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName)
 public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 ```
 
-| 参数          | 类型     | 描述                   |
-| ------------- | -------- | ---------------------- |
-| worksheetIndex | Int32    | 工作表的索引。          |
-| cellName      | String   | 单元格的名称。          |
-| value         | Object   | 值。                  |
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| worksheetIndex | Int32 | 工作表的索引。 |
+| cellName | String | 单元的名称。 |
+| value | Object | 值。 |
 
 ### 返回值
 
-单元格对象
+单元对象
 
-### 另见
+### 也可以看看
 
-* 接口 [IChartDataCell](../../ichartdatacell)
-* 类 [ChartDataWorkbook](../../chartdataworkbook)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataWorkbook](../../chartdataworkbook)
 * 命名空间 [Aspose.Slides.Charts](../../chartdataworkbook)
-* 程序集 [Aspose.Slides](../../../)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, int, int, object) {#getcell_1}
+## GetCell(int, int, int, object) {#getcell_1}
 
 获取可用于图表系列或类别的单元格
 
@@ -122,22 +121,22 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 public IChartDataCell GetCell(int worksheetIndex, int row, int column, object value)
 ```
 
-| 参数          | 类型     | 描述                   |
-| ------------- | -------- | ---------------------- |
-| worksheetIndex | Int32    | 工作表的索引。          |
-| row           | Int32    | 行号。                |
-| column        | Int32    | 列号。                |
-| value         | Object   | 值。                  |
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| worksheetIndex | Int32 | 工作表的索引。 |
+| row | Int32 | 行。 |
+| column | Int32 | 列。 |
+| value | Object | 值。 |
 
 ### 返回值
 
-单元格对象
+单元对象
 
-### 另见
+### 也可以看看
 
-* 接口 [IChartDataCell](../../ichartdatacell)
-* 类 [ChartDataWorkbook](../../chartdataworkbook)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataWorkbook](../../chartdataworkbook)
 * 命名空间 [Aspose.Slides.Charts](../../chartdataworkbook)
-* 程序集 [Aspose.Slides](../../../)
+* 部件 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,23 +1,22 @@
 ---
 title: PreviousSlide
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает гиперссылку на предыдущий слайд. Только для чтения Hyperlinkaspose.slides/hyperlink.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает гиперссылку на предыдущий слайд. Только чтениеHyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 90
 url: /ru/aspose.slides/hyperlink/previousslide/
 ---
+## Hyperlink.PreviousSlide property
 
-## Свойство Hyperlink.PreviousSlide
-
-Возвращает гиперссылку на предыдущий слайд. Только для чтения [`Hyperlink`](../../hyperlink).
+Возвращает гиперссылку на предыдущий слайд. Только чтение[`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink PreviousSlide { get; }
 ```
 
-### Также см.
+### Смотрите также
 
-* класс [Hyperlink](../../hyperlink)
+* class [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 

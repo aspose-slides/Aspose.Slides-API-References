@@ -1,24 +1,23 @@
 ---
-title: Диаграмма
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает родительскую диаграмму. Свойство только для чтения IChartaspose.slides.charts/ichart.
+title: Chart
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает родительскую диаграмму. Только для чтенияIChartaspose.slides.charts/ichart.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/errorbarsformat/chart/
 ---
+## ErrorBarsFormat.Chart property
 
-## Свойство ErrorBarsFormat.Chart
-
-Возвращает родительскую диаграмму. Свойство только для чтения [`IChart`](../../ichart).
+Возвращает родительскую диаграмму. Только для чтения[`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChart](../../ichart)
-* класс [ErrorBarsFormat](../../errorbarsformat)
+* interface [IChart](../../ichart)
+* class [ErrorBarsFormat](../../errorbarsformat)
 * пространство имен [Aspose.Slides.Charts](../../errorbarsformat)
 * сборка [Aspose.Slides](../../../)
 

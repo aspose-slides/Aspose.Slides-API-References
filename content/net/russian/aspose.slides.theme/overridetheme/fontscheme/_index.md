@@ -1,24 +1,23 @@
 ---
 title: FontScheme
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает шрифтовую схему. Только для чтения IFontScheme aspose.slides.theme/ifontscheme.
+description: Возвращает схему шрифта. Только для чтенияIFontSchemeaspose.slides.theme/ifontscheme.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/overridetheme/fontscheme/
 ---
+## OverrideTheme.FontScheme property
 
-## Свойство OverrideTheme.FontScheme
-
-Возвращает шрифтовую схему. Только для чтения [`IFontScheme`](../../ifontscheme).
+Возвращает схему шрифта. Только для чтения[`IFontScheme`](../../ifontscheme).
 
 ```csharp
 public override IFontScheme FontScheme { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontScheme](../../ifontscheme)
-* класс [OverrideTheme](../../overridetheme)
+* interface [IFontScheme](../../ifontscheme)
+* class [OverrideTheme](../../overridetheme)
 * пространство имен [Aspose.Slides.Theme](../../overridetheme)
 * сборка [Aspose.Slides](../../../)
 

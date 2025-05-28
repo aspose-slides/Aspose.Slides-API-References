@@ -1,23 +1,22 @@
 ---
 title: ShowSearch
-second_title: Aspose.Slides для .NET API Справочник
-description: Показать/скрыть раздел поиска. Может быть переопределен в flashvars. По умолчанию true.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Показать/скрыть раздел поиска. Может быть переопределен в flashvars. Значение по умолчанию верно.
 type: docs
-weight: 130
+weight: 140
 url: /ru/aspose.slides.export/swfoptions/showsearch/
 ---
+## SwfOptions.ShowSearch property
 
-## SwfOptions.ShowSearch свойство
-
-Показать/скрыть раздел поиска. Может быть переопределен в flashvars. По умолчанию true.
+Показать/скрыть раздел поиска. Может быть переопределен в flashvars. Значение по умолчанию верно.
 
 ```csharp
 public bool ShowSearch { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [SwfOptions](../../swfoptions)
+* class [SwfOptions](../../swfoptions)
 * пространство имен [Aspose.Slides.Export](../../swfoptions)
 * сборка [Aspose.Slides](../../../)
 

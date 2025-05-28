@@ -1,23 +1,22 @@
 ---
 title: Y
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или задает координату y верхнего левого угла ограничивающего прямоугольника области графика как долю от высоты диаграммы от 0 до 1. Читаемый/записываемый тип Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает координату y верхнего левого угла ограничивающей рамки области графика как часть высоты диаграммы от 0 до 1. Чтение/записьSingle.
 type: docs
 weight: 140
 url: /ru/aspose.slides.charts/chartplotarea/y/
 ---
+## ChartPlotArea.Y property
 
-## ChartPlotArea.Y свойство
-
-Возвращает или задает координату y верхнего левого угла ограничивающего прямоугольника области графика как долю от высоты диаграммы (от 0 до 1). Читаемый/записываемый тип Single.
+Возвращает или задает координату y верхнего левого угла ограничивающей рамки области графика как часть высоты диаграммы (от 0 до 1). Чтение/записьSingle.
 
 ```csharp
 public float Y { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ChartPlotArea](../../chartplotarea)
+* class [ChartPlotArea](../../chartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../chartplotarea)
 * сборка [Aspose.Slides](../../../)
 

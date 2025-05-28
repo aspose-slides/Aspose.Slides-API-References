@@ -1,23 +1,22 @@
 ---
-title: Запись
-second_title: Справка по API Aspose.Slides для .NET
-description: записывает последовательность байтов в текущий поток и продвигает текущее положение в этом потоке на количество записанных байтов.
+title: Write
+second_title: Справочник по API Aspose.Slides для .NET
+description: записывает последовательность байтов в текущий поток и продвигает текущую позицию в этом потоке на количество записанных байтов.
 type: docs
 weight: 140
 url: /ru/aspose.slides/streamwrapper/write/
 ---
+## StreamWrapper.Write method
 
-## Метод StreamWrapper.Write
-
-записывает последовательность байтов в текущий поток и продвигает текущее положение в этом потоке на количество записанных байтов.
+записывает последовательность байтов в текущий поток и продвигает текущую позицию в этом потоке на количество записанных байтов.
 
 ```csharp
 public void Write(byte[] buffer, int offset, int count)
 ```
 
-### См. также
+### Смотрите также
 
-* класс [StreamWrapper](../../streamwrapper)
+* class [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

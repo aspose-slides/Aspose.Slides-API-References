@@ -1,34 +1,33 @@
 ---
 title: ModernComment
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет комментарий на слайде.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет комментарий к слайду.
 type: docs
-weight: 8820
+weight: 8360
 url: /ru/aspose.slides/moderncomment/
 ---
+## ModernComment class
 
-## Класс ModernComment
-
-Представляет комментарий на слайде.
+Представляет комментарий к слайду.
 
 ```csharp
 public sealed class ModernComment : Comment, IModernComment
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Возвращает автора комментария. Только для чтения [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Возвращает или задает время создания комментария. Установка этого свойства в MinValue означает, что время комментария не установлено. Чтение/запись DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Получает или задает родительский комментарий. Чтение/запись [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Возвращает или задает позицию комментария на слайде. Чтение/запись PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Возвращает форму, связанную с комментарием. Только для чтения [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Возвращает или задает родительский слайд комментария. Только для чтения [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Получает или задает статус комментария. Чтение/запись [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Возвращает или задает простой текст комментария на слайде. Чтение/запись String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Получает или задает длину выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/запись Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Получает или задает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/запись Int32. |
+| [Author](../../aspose.slides/comment/author) { get; } | Возвращает автора комментария. Только для чтения[`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Возвращает или устанавливает время создания комментария. Установка для этого свойства значенияMinValueозначает, что время комментариев не установлено. Чтение/записьDateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Получает или задает родительский комментарий. Чтение/запись[`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Возвращает или задает положение комментария на слайде. Чтение/записьPointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Возвращает фигуру, связанную с комментарием. Только для чтения[`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Возвращает или устанавливает родительский слайд комментария. Только для чтения[`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Получает или устанавливает статус комментария. Чтение/запись[`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Возвращает или задает обычный текст комментария к слайду. Чтение/записьString. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Получает или задает длину выделения текста в текстовом фрейме, если комментарий связан с автофигурой. Чтение/записьInt32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Получает или задает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с автофигурой. Чтение/записьInt32. |
 
 ## Методы
 
@@ -42,17 +41,17 @@ public sealed class ModernComment : Comment, IModernComment
 [C#]
 using (Presentation pres = new Presentation())
 {
-    ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Некоторый Автор", "SA");
-    IModernComment modernComment = newAuthor.Comments.AddModernComment("Это современный комментарий", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
+    ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Some Author", "SA");
+    IModernComment modernComment = newAuthor.Comments.AddModernComment("This is modern comment", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
 
     pres.Save(outPptxFileName, SaveFormat.Pptx);
 }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Comment](../comment)
-* интерфейс [IModernComment](../imoderncomment)
+* class [Comment](../comment)
+* interface [IModernComment](../imoderncomment)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

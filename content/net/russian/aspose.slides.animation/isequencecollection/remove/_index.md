@@ -1,13 +1,12 @@
 ---
-title: Удалить
+title: Remove
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет указанную последовательность из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/isequencecollection/remove/
 ---
-
-## Метод ISequenceCollection.Remove
+## ISequenceCollection.Remove method
 
 Удаляет указанную последовательность из коллекции.
 
@@ -19,10 +18,10 @@ public void Remove(ISequence item)
 | --- | --- | --- |
 | item | ISequence | Последовательность для удаления. |
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [ISequence](../../isequence)
-* интерфейс [ISequenceCollection](../../isequencecollection)
+* interface [ISequence](../../isequence)
+* interface [ISequenceCollection](../../isequencecollection)
 * пространство имен [Aspose.Slides.Animation](../../isequencecollection)
 * сборка [Aspose.Slides](../../../)
 

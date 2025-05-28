@@ -1,24 +1,23 @@
 ---
-title: ФорматМинорныхСеток
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Представляет формат минорных сеток на оси диаграммы. Только для чтения IChartLinesFormataspose.slides.charts/ichartlinesformat.
+title: MinorGridLinesFormat
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет второстепенный формат линий сетки на оси диаграммы. Только для чтенияIChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
 weight: 390
 url: /ru/aspose.slides.charts/axis/minorgridlinesformat/
 ---
+## Axis.MinorGridLinesFormat property
 
-## Свойство Axis.MinorGridLinesFormat
-
-Представляет формат минорных сеток на оси диаграммы. Только для чтения [`IChartLinesFormat`](../../ichartlinesformat).
+Представляет второстепенный формат линий сетки на оси диаграммы. Только для чтения[`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat MinorGridLinesFormat { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IChartLinesFormat](../../ichartlinesformat)
-* класс [Axis](../../axis)
+* interface [IChartLinesFormat](../../ichartlinesformat)
+* class [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

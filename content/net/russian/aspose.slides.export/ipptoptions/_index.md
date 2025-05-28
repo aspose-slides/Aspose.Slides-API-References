@@ -1,30 +1,29 @@
 ---
 title: IPptOptions
 second_title: Справочник по API Aspose.Slides для .NET
-description: Предоставляет параметры, которые контролируют, как презентация сохраняется в формате PPT.
+description: Предоставляет параметры управляющие сохранением презентации в формате PPT.
 type: docs
-weight: 3840
+weight: 3690
 url: /ru/aspose.slides.export/ipptoptions/
 ---
+## IPptOptions interface
 
-## Интерфейс IPptOptions
-
-Предоставляет параметры, которые контролируют, как презентация сохраняется в формате PPT.
+Предоставляет параметры, управляющие сохранением презентации в формате PPT.
 
 ```csharp
 public interface IPptOptions : ISaveOptions
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Представляет GUID класса объекта (CLSID), который хранится в записи корневого каталога. Может быть использован для COM-активации приложения документа. Значение по умолчанию '64818D11-4F9B-11CF-86EA-00AA00B929E8', которое соответствует 'Microsoft Powerpoint.Slide.8'. |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Представляет GUID (CLSID) класса объектов, который хранится в записи корневого каталога. Может использоваться для COM активации приложения документа. Значение по умолчанию — «64818D11-4F9B-11CF-86EA-00AA00B929E8», что соответствует «Microsoft Powerpoint.Slide.8». |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISaveOptions](../isaveoptions)
+* interface [ISaveOptions](../isaveoptions)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

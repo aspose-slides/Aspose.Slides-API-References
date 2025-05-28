@@ -1,15 +1,14 @@
 ---
 title: TrendLines
-second_title: Aspose.Slides для .NET API Справочник
-description: Коллекция трендовых линий серий. Коллекция ITrendlineCollectionaspose.slides.charts/itrendlinecollection только для чтения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Коллекция трендовых линий ряда. Только для чтенияITrendlineCollectionaspose.slides.charts/itrendlinecollection.
 type: docs
 weight: 430
 url: /ru/aspose.slides.charts/chartseries/trendlines/
 ---
+## ChartSeries.TrendLines property
 
-## Свойство ChartSeries.TrendLines
-
-Коллекция трендовых линий серий. Коллекция только для чтения [`ITrendlineCollection`](../../itrendlinecollection).
+Коллекция трендовых линий ряда. Только для чтения[`ITrendlineCollection`](../../itrendlinecollection).
 
 ```csharp
 public ITrendlineCollection TrendLines { get; }
@@ -17,12 +16,12 @@ public ITrendlineCollection TrendLines { get; }
 
 ### Примечания
 
-TrendLines доступны (не равны нулю) для серий данных в нефасованных 2-D диаграммах площади, столбчатых, линейных, фондовых, xy (рассеивающих) и пузырьковых диаграммах. Трендовая линия недоступна для серий данных в любом типе диаграммы, который является фасованным или 3-D. Трендовые линии также недоступны для радарных, круговых, поверхностных или пончиковых диаграмм.
+Линии тренда доступны (не нулевые) для рядов данных в несоставленной двумерной области, полосе, столбце , линейный, фондовый, xy (точечный) и пузырьковые диаграммы. Линия тренда недоступна для рядов данных ни в одном типе диаграммы, состоящей из стопки или трехмерной. Линии тренда также недоступны для радарных, круговых, поверхностных или кольцевых диаграмм.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ITrendlineCollection](../../itrendlinecollection)
-* класс [ChartSeries](../../chartseries)
+* interface [ITrendlineCollection](../../itrendlinecollection)
+* class [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)
 * сборка [Aspose.Slides](../../../)
 

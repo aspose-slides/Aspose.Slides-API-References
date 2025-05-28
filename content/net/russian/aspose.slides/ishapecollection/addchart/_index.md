@@ -1,15 +1,14 @@
 ---
 title: AddChart
-second_title: Aspose.Sildes for .NET API Reference
-description: Создает новый график, инициализирует его образцовыми данными и настройками, и добавляет его в конец коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новую диаграмму инициализирует ее данными и настройками серии образцов и добавляет в конец коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ishapecollection/addchart/
 ---
-
 ## AddChart(ChartType, float, float, float, float) {#addchart}
 
-Создает новый график, инициализирует его образцовыми данными и настройками, и добавляет его в конец коллекции.
+Создает новую диаграмму, инициализирует ее данными и настройками серии образцов и добавляет в конец коллекции.
 
 ```csharp
 public IChart AddChart(ChartType type, float x, float y, float width, float height)
@@ -17,21 +16,21 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ChartType | Тип графика. |
-| x | Single | X-координата нового графика. |
-| y | Single | Y-координата нового графика. |
-| width | Single | Ширина графика. |
+| type | ChartType | Тип диаграммы. |
+| x | Single | X координата нового графика. |
+| y | Single | Координата Y нового графика. |
+| width | Single | Ширина диаграммы. |
 | height | Single | Высота графика. |
 
 ### Возвращаемое значение
 
-Созданный график.
+Диаграмма создана.
 
 ### Смотрите также
 
-* интерфейс [IChart](../../../aspose.slides.charts/ichart)
-* перечисление [ChartType](../../../aspose.slides.charts/charttype)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IChart](../../../aspose.slides.charts/ichart)
+* enum [ChartType](../../../aspose.slides.charts/charttype)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -39,7 +38,7 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 
 ## AddChart(ChartType, float, float, float, float, bool) {#addchart_1}
 
-Создает новый график и добавляет его в конец коллекции.
+Создает новую диаграмму и добавляет ее в конец коллекции.
 
 ```csharp
 public IChart AddChart(ChartType type, float x, float y, float width, float height, 
@@ -48,22 +47,22 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ChartType | Тип графика. |
-| x | Single | X-координата нового графика. |
-| y | Single | Y-координата нового графика. |
-| width | Single | Ширина графика. |
+| type | ChartType | Тип диаграммы. |
+| x | Single | X координата нового графика. |
+| y | Single | Координата Y нового графика. |
+| width | Single | Ширина диаграммы. |
 | height | Single | Высота графика. |
-| initWithSample | Boolean | Если true, новый график будет инициализирован образцовыми данными и настройками. Если false, новый график не будет иметь серий и минимальных настроек. В этом случае создание графика будет быстрее. |
+| initWithSample | Boolean | Если true, то новая диаграмма будет инициализирована с данными и настройками серии образцов. Если false, то новый график будет без серий и с минимальными настройками. В этом случае построение графика будет более быстрым. |
 
 ### Возвращаемое значение
 
-Созданный график.
+Создана диаграмма.
 
 ### Смотрите также
 
-* интерфейс [IChart](../../../aspose.slides.charts/ichart)
-* перечисление [ChartType](../../../aspose.slides.charts/charttype)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IChart](../../../aspose.slides.charts/ichart)
+* enum [ChartType](../../../aspose.slides.charts/charttype)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

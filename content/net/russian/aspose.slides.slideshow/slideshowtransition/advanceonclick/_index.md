@@ -1,23 +1,22 @@
 ---
 title: AdvanceOnClick
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает, будет ли щелчок мыши продвигать слайд или нет. Если этот атрибут не указан, предполагается значение true. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает будет ли щелчок мыши перемещать слайд или нет. Если этот атрибут не указан  предполагается значение true. Чтение/записьBoolean.
 type: docs
-weight: 30
+weight: 20
 url: /ru/aspose.slides.slideshow/slideshowtransition/advanceonclick/
 ---
+## SlideShowTransition.AdvanceOnClick property
 
-## SlideShowTransition.AdvanceOnClick свойство
-
-Указывает, будет ли щелчок мыши продвигать слайд или нет. Если этот атрибут не указан, предполагается значение true. Читаемое/записываемое логическое значение.
+Указывает, будет ли щелчок мыши перемещать слайд или нет. Если этот атрибут не указан , предполагается значение true. Чтение/записьBoolean.
 
 ```csharp
 public bool AdvanceOnClick { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [SlideShowTransition](../../slideshowtransition)
+* class [SlideShowTransition](../../slideshowtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../slideshowtransition)
 * сборка [Aspose.Slides](../../../)
 

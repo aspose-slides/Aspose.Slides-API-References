@@ -1,23 +1,22 @@
 ---
 title: ActualMajorUnit
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает фактическую основную единицу оси. Вызовите метод IChart.ValidateChartLayout ранее, чтобы получить фактическое значение.
+description: Задает фактическую основную единицу оси. Вызовите метод IChart.ValidateChartLayout ранее чтобы получить фактическое значение.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/iaxis/actualmajorunit/
 ---
+## IAxis.ActualMajorUnit property
 
-## Свойство IAxis.ActualMajorUnit
-
-Указывает фактическую основную единицу оси. Вызовите метод IChart.ValidateChartLayout() ранее, чтобы получить фактическое значение.
+Задает фактическую основную единицу оси. Вызовите метод IChart.ValidateChartLayout() ранее, чтобы получить фактическое значение.
 
 ```csharp
 public double ActualMajorUnit { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
+* interface [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

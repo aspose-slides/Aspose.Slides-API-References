@@ -1,45 +1,29 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes для .NET API Справочник
-description: Выделяет все совпадения регулярного выражения указанным цветом.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Выделить все совпадения с регулярным выражением в текстовом фрейме указанным цветом.
 type: docs
-weight: 80
+weight: 60
 url: /ru/aspose.slides/itextframe/highlightregex/
 ---
+## ITextFrame.HighlightRegex method
 
-## ITextFrame.HighlightRegex метод
-
-Выделяет все совпадения регулярного выражения указанным цветом.
+Выделить все совпадения с регулярным выражением в текстовом фрейме указанным цветом.
 
 ```csharp
-public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
+public void HighlightRegex(string regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| regex | Regex | Регулярное выражение Regex для получения строк для выделения. |
-| highlightColor | Color | Цвет для выделения текста. |
-| callback | IFindResultCallback | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | String | Текст регулярного выражения для выделения текста. |
+| highlightColor | Color | Цвет подсветки. |
+| options | ITextHighlightingOptions | Подсветка параметров. |
 
-### Примеры
+### Смотрите также
 
-Следующий пример кода показывает, как выделить текст в TextFrame с использованием регулярного выражения.
-
-```csharp
-[C#]
-using (Presentation presentation = new Presentation("SomePresentation.pptx"))
-{
-	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// выделение всех слов длиной 10 или более символов
-	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
-	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
-}
-```
-
-### См. Также
-
-* интерфейс [IFindResultCallback](../../ifindresultcallback)
-* интерфейс [ITextFrame](../../itextframe)
+* interface [ITextHighlightingOptions](../../itexthighlightingoptions)
+* interface [ITextFrame](../../itextframe)
 * пространство имен [Aspose.Slides](../../itextframe)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,11 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/pptunsupportedformatexception/pptunsupportedformatexception/
 ---
-
 ## PptUnsupportedFormatException() {#constructor}
 
 Конструктор по умолчанию.
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/pptunsupportedformatexception/pptunsupportedformatexcepti
 public PptUnsupportedFormatException()
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* класс [PptUnsupportedFormatException](../../pptunsupportedformatexception)
+* class [PptUnsupportedFormatException](../../pptunsupportedformatexception)
 * пространство имен [Aspose.Slides](../../pptunsupportedformatexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -33,11 +32,11 @@ public PptUnsupportedFormatException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | String | сообщение |
+| сообщение | String | сообщение |
 
-### Смотрите Также
+### Смотрите также
 
-* класс [PptUnsupportedFormatException](../../pptunsupportedformatexception)
+* class [PptUnsupportedFormatException](../../pptunsupportedformatexception)
 * пространство имен [Aspose.Slides](../../pptunsupportedformatexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -45,7 +44,7 @@ public PptUnsupportedFormatException(string message)
 
 ## PptUnsupportedFormatException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащего сообщение и вложенное исключение.
+Конструктор исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public PptUnsupportedFormatException(string message, Exception exception)
@@ -53,12 +52,12 @@ public PptUnsupportedFormatException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | String | сообщение |
-| exception | Exception | оригинальное исключение |
+| сообщение | String | сообщение |
+| исключение | Exception | исходное исключение |
 
-### Смотрите Также
+### Смотрите также
 
-* класс [PptUnsupportedFormatException](../../pptunsupportedformatexception)
+* class [PptUnsupportedFormatException](../../pptunsupportedformatexception)
 * пространство имен [Aspose.Slides](../../pptunsupportedformatexception)
 * сборка [Aspose.Slides](../../../)
 

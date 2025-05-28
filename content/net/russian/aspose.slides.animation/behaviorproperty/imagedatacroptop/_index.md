@@ -1,13 +1,12 @@
 ---
 title: ImageDataCropTop
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство imageData.cropTop
 type: docs
 weight: 470
 url: /ru/aspose.slides.animation/behaviorproperty/imagedatacroptop/
 ---
-
-## BehaviorProperty.ImageDataCropTop свойство
+## BehaviorProperty.ImageDataCropTop property
 
 Представляет свойство 'imageData.cropTop'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/imagedatacroptop/
 public static BehaviorProperty ImageDataCropTop { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

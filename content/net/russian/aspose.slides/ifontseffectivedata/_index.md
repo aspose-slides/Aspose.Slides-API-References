@@ -1,33 +1,32 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes для .NET API Справочник
-description: Неперезаписываемый объект, который содержит набор эффективных шрифтов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект содержащий набор эффективных шрифтов.
 type: docs
-weight: 5710
+weight: 5380
 url: /ru/aspose.slides/ifontseffectivedata/
 ---
+## IFontsEffectiveData interface
 
-## Интерфейс IFontsEffectiveData
-
-Неперезаписываемый объект, который содержит набор эффективных шрифтов.
+Неизменяемый объект, содержащий набор эффективных шрифтов.
 
 ```csharp
 public interface IFontsEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Возвращает шрифт для сложного скрипта. Только для чтения [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Возвращает восточноазиатский шрифт. Только для чтения [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Возвращает латинский шрифт. Только для чтения [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Возвращает шрифт сложного сценария. Только для чтения[`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Возвращает восточноазиатский шрифт. Только для чтения[`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Возвращает латинский шрифт. Только для чтения[`IFontData`](../ifontdata). |
 
 ### Примечания
 
-Этот интерфейс используется как часть интерфейсов [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) и [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata).
+Этот интерфейс используется как часть[`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata)и[`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata)интерфейсы.
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

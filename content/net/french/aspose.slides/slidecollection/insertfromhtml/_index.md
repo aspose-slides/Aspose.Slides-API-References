@@ -1,13 +1,12 @@
 ---
 title: InsertFromHtml
-second_title: Référence API Aspose.Slides for .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée des diapositives à partir de texte HTML et les insère dans la collection à la position spécifiée.
 type: docs
 weight: 140
 url: /fr/aspose.slides/slidecollection/insertfromhtml/
 ---
-
-## InsertFromHtml(int, string, IExternalResourceResolver, string) {#insertfromhtml_7}
+## InsertFromHtml(int, string, IExternalResourceResolver, string) {#insertfromhtml_5}
 
 Crée des diapositives à partir de texte HTML et les insère dans la collection à la position spécifiée.
 
@@ -16,59 +15,28 @@ public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceReso
     string uri)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | index | Int32 | Position à insérer. |
-| htmlText | String | HTML à ajouter. |
+| htmlText | String | Html à ajouter. |
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
-| uri | String | Un URI de l'HTML spécifié. Utilisé pour résoudre les liens relatifs. |
+| uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
 
-### Valeur de retour
+### Return_Value
 
 Diapositives ajoutées.
 
-### Voir aussi
+### Voir également
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../slidecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## InsertFromHtml(int, string, IExternalResourceResolver, string, bool) {#insertfromhtml_8}
-
-Crée des diapositives à partir de texte HTML et les insère dans la collection à la position spécifiée.
-
-```csharp
-public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceResolver resolver, 
-    string uri, bool useSlideWithIndexAsStart)
-```
-
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| index | Int32 | Position à insérer. |
-| htmlText | String | HTML à ajouter. |
-| resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
-| uri | String | Un URI de l'HTML spécifié. Utilisé pour résoudre les liens relatifs. |
-| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : à partir d'une nouvelle diapositive ou à partir de la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
-
-### Valeur de retour
-
-Diapositives ajoutées.
-
-### Voir aussi
-
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## InsertFromHtml(int, string) {#insertfromhtml_6}
+## InsertFromHtml(int, string) {#insertfromhtml_4}
 
 Crée des diapositives à partir de texte HTML et les insère dans la collection à la position spécifiée.
 
@@ -76,52 +44,25 @@ Crée des diapositives à partir de texte HTML et les insère dans la collection
 public ISlide[] InsertFromHtml(int index, string htmlText)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | index | Int32 | Position à insérer. |
-| htmlText | String | HTML à ajouter. |
+| htmlText | String | Html à ajouter. |
 
-### Valeur de retour
+### Return_Value
 
 Diapositives ajoutées
 
-### Voir aussi
+### Voir également
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../slidecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## InsertFromHtml(int, string, bool) {#insertfromhtml_9}
-
-Crée des diapositives à partir de texte HTML et les insère dans la collection à la position spécifiée.
-
-```csharp
-public ISlide[] InsertFromHtml(int index, string htmlText, bool useSlideWithIndexAsStart)
-```
-
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| index | Int32 | Position à insérer. |
-| htmlText | String | HTML à ajouter. |
-| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : à partir d'une nouvelle diapositive ou à partir de la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
-
-### Valeur de retour
-
-Diapositives ajoutées
-
-### Voir aussi
-
-* interface [ISlide](../../islide)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## InsertFromHtml(int, TextReader, IExternalResourceResolver, string) {#insertfromhtml_5}
+## InsertFromHtml(int, TextReader, IExternalResourceResolver, string) {#insertfromhtml_3}
 
 Crée des diapositives à partir de texte HTML et les insère dans la collection à la position spécifiée.
 
@@ -130,28 +71,28 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader,
     IExternalResourceResolver resolver, string uri)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | index | Int32 | Position à insérer. |
 | htmlReader | TextReader | Objet TextReader qui sera utilisé comme source d'un fichier HTML. |
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
-| uri | String | Un URI de l'HTML spécifié. Utilisé pour résoudre les liens relatifs. |
+| uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
 
-### Valeur de retour
+### Return_Value
 
 Diapositives ajoutées.
 
-### Voir aussi
+### Voir également
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../slidecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## InsertFromHtml(int, TextReader) {#insertfromhtml_4}
+## InsertFromHtml(int, TextReader) {#insertfromhtml_2}
 
 Crée des diapositives à partir de texte HTML et les insère dans la collection à la position spécifiée.
 
@@ -159,21 +100,21 @@ Crée des diapositives à partir de texte HTML et les insère dans la collection
 public ISlide[] InsertFromHtml(int index, TextReader htmlReader)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | index | Int32 | Position à insérer. |
 | htmlReader | TextReader | Objet TextReader qui sera utilisé comme source d'un fichier HTML. |
 
-### Valeur de retour
+### Return_Value
 
 Diapositives ajoutées
 
-### Voir aussi
+### Voir également
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../slidecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
@@ -186,55 +127,24 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceRe
     string uri)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | index | Int32 | Position à insérer. |
 | htmlStream | Stream | Un objet Stream qui sera utilisé comme source d'un fichier HTML. |
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
-| uri | String | Un URI de l'HTML spécifié. Utilisé pour résoudre les liens relatifs. |
+| uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
 
-### Valeur de retour
+### Return_Value
 
 Diapositives ajoutées.
 
-### Voir aussi
+### Voir également
 
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## InsertFromHtml(int, Stream, IExternalResourceResolver, string, bool) {#insertfromhtml_2}
-
-Crée des diapositives à partir de texte HTML et les insère dans la collection à la position spécifiée.
-
-```csharp
-public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceResolver resolver, 
-    string uri, bool useSlideWithIndexAsStart)
-```
-
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| index | Int32 | Position à insérer. |
-| htmlStream | Stream | Un objet Stream qui sera utilisé comme source d'un fichier HTML. |
-| resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
-| uri | String | Un URI de l'HTML spécifié. Utilisé pour résoudre les liens relatifs. |
-| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : à partir d'une nouvelle diapositive ou à partir de la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
-
-### Valeur de retour
-
-Diapositives ajoutées.
-
-### Voir aussi
-
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../slidecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
@@ -246,47 +156,20 @@ Crée des diapositives à partir de texte HTML et les insère dans la collection
 public ISlide[] InsertFromHtml(int index, Stream htmlStream)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | index | Int32 | Position à insérer. |
 | htmlStream | Stream | Un objet Stream qui sera utilisé comme source d'un fichier HTML. |
 
-### Valeur de retour
+### Return_Value
 
 Diapositives ajoutées
 
-### Voir aussi
+### Voir également
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## InsertFromHtml(int, Stream, bool) {#insertfromhtml_3}
-
-Crée des diapositives à partir de texte HTML et les insère dans la collection à la position spécifiée.
-
-```csharp
-public ISlide[] InsertFromHtml(int index, Stream htmlStream, bool useSlideWithIndexAsStart)
-```
-
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| index | Int32 | Position à insérer. |
-| htmlStream | Stream | Un objet Stream qui sera utilisé comme source d'un fichier HTML. |
-| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : à partir d'une nouvelle diapositive ou à partir de la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
-
-### Valeur de retour
-
-Diapositives ajoutées
-
-### Voir aussi
-
-* interface [ISlide](../../islide)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../slidecollection)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

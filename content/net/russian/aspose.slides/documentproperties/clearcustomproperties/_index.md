@@ -1,13 +1,12 @@
 ---
 title: ClearCustomProperties
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все пользовательские свойства.
 type: docs
-weight: 380
+weight: 270
 url: /ru/aspose.slides/documentproperties/clearcustomproperties/
 ---
-
-## DocumentProperties.ClearCustomProperties метод
+## DocumentProperties.ClearCustomProperties method
 
 Удаляет все пользовательские свойства.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/documentproperties/clearcustomproperties/
 public void ClearCustomProperties()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [DocumentProperties](../../documentproperties)
+* class [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

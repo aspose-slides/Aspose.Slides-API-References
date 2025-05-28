@@ -1,23 +1,22 @@
 ---
-title: Позиция
+title: Position
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или устанавливает позицию в текущем потоке. Только для чтения Int64.
+description: Получает или задает позицию в текущем потоке. Только для чтенияInt64.
 type: docs
 weight: 60
 url: /ru/aspose.slides/streamwrapper/position/
 ---
+## StreamWrapper.Position property
 
-## Свойство StreamWrapper.Position
-
-Получает или устанавливает позицию в текущем потоке. Только для чтения Int64.
+Получает или задает позицию в текущем потоке. Только для чтенияInt64.
 
 ```csharp
 public long Position { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [StreamWrapper](../../streamwrapper)
+* class [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

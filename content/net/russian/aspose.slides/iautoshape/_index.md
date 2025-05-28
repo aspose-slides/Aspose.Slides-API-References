@@ -1,40 +1,39 @@
 ---
 title: IAutoShape
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет AutoShape.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет автофигуру.
 type: docs
-weight: 5040
+weight: 4760
 url: /ru/aspose.slides/iautoshape/
 ---
+## IAutoShape interface
 
-## Интерфейс IAutoShape
-
-Представляет AutoShape.
+Представляет автофигуру.
 
 ```csharp
 public interface IAutoShape : IGeometryShape
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения [`IGeometryShape`](../igeometryshape). |
-| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Возвращает блокировки AutoShape. Только для чтения [`IAutoShapeLock`](../iautoshapelock). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения[`IGeometryShape`](../igeometryshape). |
+| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Возвращает блокировки AutoShape. Только для чтения[`IAutoShapeLock`](../iautoshapelock). |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Указывает, является ли фигура текстовым полем. |
-| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Возвращает блокировки фигуры. Только для чтения [`IAutoShapeLock`](../iautoshapelock). |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Возвращает объект TextFrame для AutoShape. Только для чтения [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Определяет, должно ли это автофигура заполняться фоном слайда вместо заданного по стилю или формату заливки. Чтение/запись Boolean. |
+| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Возвращает блокировки формы. Только для чтения[`IAutoShapeLock`](../iautoshapelock). |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Возвращает объект TextFrameEx для AutoShapeEx. Только для чтения[`ITextFrame`](../itextframe). |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Определяет, следует ли заполнять автофигуру фоновой заливкой слайда, а не заданной стилем или форматом заливки. Чтение/записьBoolean. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Добавляет новый TextFrame к фигуре. Если фигура уже имеет TextFrame, то просто изменяет его текст. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Добавляет к фигуре новый TextFrameEx. Если фигура уже имеет TextFrameEx, то просто меняет ее текст. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGeometryShape](../igeometryshape)
+* interface [IGeometryShape](../igeometryshape)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

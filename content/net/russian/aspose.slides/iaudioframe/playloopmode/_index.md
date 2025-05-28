@@ -1,23 +1,22 @@
 ---
 title: PlayLoopMode
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, зациклена ли аудио. Читаемое/записываемое Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет зациклен ли звук. Чтение/записьBoolean.
 type: docs
-weight: 130
+weight: 110
 url: /ru/aspose.slides/iaudioframe/playloopmode/
 ---
+## IAudioFrame.PlayLoopMode property
 
-## Свойство IAudioFrame.PlayLoopMode
-
-Определяет, зациклена ли аудио. Читаемое/записываемое Boolean.
+Определяет, зациклен ли звук. Чтение/записьBoolean.
 
 ```csharp
 public bool PlayLoopMode { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAudioFrame](../../iaudioframe)
+* interface [IAudioFrame](../../iaudioframe)
 * пространство имен [Aspose.Slides](../../iaudioframe)
 * сборка [Aspose.Slides](../../../)
 

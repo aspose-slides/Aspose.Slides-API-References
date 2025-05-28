@@ -1,23 +1,22 @@
 ---
 title: ShowPageBorder
-second_title: Aspose.Sildes для .NET API Справка
-description: Указывает, должен ли отображаться контур вокруг страниц. По умолчанию true.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает следует ли отображать границу вокруг страниц. Значение по умолчанию верно.
 type: docs
-weight: 110
+weight: 120
 url: /ru/aspose.slides.export/swfoptions/showpageborder/
 ---
+## SwfOptions.ShowPageBorder property
 
-## Свойство SwfOptions.ShowPageBorder
-
-Указывает, должен ли отображаться контур вокруг страниц. По умолчанию true.
+Указывает, следует ли отображать границу вокруг страниц. Значение по умолчанию верно.
 
 ```csharp
 public bool ShowPageBorder { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [SwfOptions](../../swfoptions)
+* class [SwfOptions](../../swfoptions)
 * пространство имен [Aspose.Slides.Export](../../swfoptions)
 * сборка [Aspose.Slides](../../../)
 

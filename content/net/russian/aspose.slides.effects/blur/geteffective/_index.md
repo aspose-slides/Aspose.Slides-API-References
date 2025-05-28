@@ -1,13 +1,12 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получает эффективные данные эффекта размытия с применением наследования.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/blur/geteffective/
 ---
-
-## Blur.GetEffective метод
+## Blur.GetEffective method
 
 Получает эффективные данные эффекта размытия с применением наследования.
 
@@ -17,12 +16,12 @@ public IBlurEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`IBlurEffectiveData`](../../iblureffectivedata).
+A[`IBlurEffectiveData`](../../iblureffectivedata).
 
 ### Смотрите также
 
-* интерфейс [IBlurEffectiveData](../../iblureffectivedata)
-* класс [Blur](../../blur)
+* interface [IBlurEffectiveData](../../iblureffectivedata)
+* class [Blur](../../blur)
 * пространство имен [Aspose.Slides.Effects](../../blur)
 * сборка [Aspose.Slides](../../../)
 

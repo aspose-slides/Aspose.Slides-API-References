@@ -1,13 +1,12 @@
 ---
 title: SmartArtQuickStyleType
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет схему стиля диаграммы SmartArt.
 type: docs
-weight: 10340
+weight: 9840
 url: /ru/aspose.slides.smartart/smartartquickstyletype/
 ---
-
-## перечисление SmartArtQuickStyleType
+## SmartArtQuickStyleType enumeration
 
 Представляет схему стиля диаграммы SmartArt.
 
@@ -15,19 +14,19 @@ url: /ru/aspose.slides.smartart/smartartquickstyletype/
 public enum SmartArtQuickStyleType
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | SimpleFill | `0` | SimpleFill |
 | WhiteOutline | `1` | WhiteOutline |
 | SubtleEffect | `2` | SubtleEffect |
 | ModerateEffect | `3` | ModerateEffect |
 | IntenceEffect | `4` | IntenceEffect |
-| Polished | `5` | Polished |
-| Inset | `6` | Inset |
-| Cartoon | `7` | Cartoon |
-| Powder | `8` | Powder |
+| Polished | `5` | Полированная |
+| Inset | `6` | Вставка |
+| Cartoon | `7` | Мультфильм |
+| Powder | `8` | Порошок |
 | BrickScene | `9` | BrickScene |
 | FlatScene | `10` | FlatScene |
 | MetallicScene | `11` | MetallicScene |

@@ -1,24 +1,23 @@
 ---
-title: Элемент
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтения ICommentAuthor aspose.slides/icommentauthor.
+title: Item
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает элемент по указанному индексу. Только для чтенияICommentAuthoraspose.slides/icommentauthor.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icommentauthorcollection/item/
 ---
+## ICommentAuthorCollection indexer
 
-## Индексатор ICommentAuthorCollection
-
-Получает элемент по указанному индексу. Только для чтения [`ICommentAuthor`](../../icommentauthor).
+Получает элемент по указанному индексу. Только для чтения[`ICommentAuthor`](../../icommentauthor).
 
 ```csharp
 public ICommentAuthor this[int index] { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ICommentAuthor](../../icommentauthor)
-* интерфейс [ICommentAuthorCollection](../../icommentauthorcollection)
+* interface [ICommentAuthor](../../icommentauthor)
+* interface [ICommentAuthorCollection](../../icommentauthorcollection)
 * пространство имен [Aspose.Slides](../../icommentauthorcollection)
 * сборка [Aspose.Slides](../../../)
 

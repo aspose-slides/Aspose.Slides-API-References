@@ -1,23 +1,22 @@
 ---
-title: Длительность
+title: Duration
 second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает длительность эффекта анимации. Читаемое/записываемое значение типа Single.
+description: Описывает продолжительность эффекта анимации. Чтение/записьSingle.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/timing/duration/
 ---
+## Timing.Duration property
 
-## Св property Timing.Duration
-
-Описывает длительность эффекта анимации. Читаемое/записываемое значение типа Single.
+Описывает продолжительность эффекта анимации. Чтение/записьSingle.
 
 ```csharp
 public float Duration { get; set; }
 ```
 
-### Также см.
+### Смотрите также
 
-* класс [Timing](../../timing)
+* class [Timing](../../timing)
 * пространство имен [Aspose.Slides.Animation](../../timing)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,43 +1,40 @@
 ---
 title: IHyperlink
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет гиперссылку.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет собой гиперссылку.
 type: docs
-weight: 5910
+weight: 5570
 url: /ru/aspose.slides/ihyperlink/
 ---
+## IHyperlink interface
 
-## Интерфейс IHyperlink
-
-Представляет гиперссылку.
+Представляет собой гиперссылку.
 
 ```csharp
 public interface IHyperlink
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Возвращает тип действия HyperLinkEx. Только для чтения [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Представляет источник цвета гиперссылки - стили или формат части. Чтение/запись [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Указывает внешние URL. Если это свойство становится ненулевым, то свойство TargetSlide становится нулевым. Только для чтения строка. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Представляет гиперссылку, установленную для этой части, независимо от фактического содержимого части. PowerPoint ведет себя специфическим образом для ссылок и соответствующего текста в части. Это позволяет создать текст для гиперссылки в виде действительного URL, отличного от реального адреса ссылки. В этом случае, когда вы просматриваете ссылку в окне редактирования, она будет изменена, чтобы соответствовать тексту части. Это свойство представляет оригинальное значение гиперссылки. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Определяет, должна ли гиперссылка выделяться при клике. Чтение/запись логическое значение. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Определяет, следует ли добавлять цель родительской гиперссылки в список просмотренных гиперссылок при ее вызове. Чтение/запись логическое значение. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Представляет звук, воспроизводимый гиперссылкой. Чтение/запись [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Определяет, следует ли останавливать звук при клике на гиперссылку. Чтение/запись логическое значение. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Возвращает кадр в родительском HTML фрейме для цели родительской гиперссылки, если таковой существует. Чтение/запись строка. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Если HyperlinkEx нацелен на конкретный слайд, возвращает этот слайд. Если свойство становится ненулевым, то свойство ExternalUrl становится нулевым. Только для чтения [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Возвращает строку, которая может быть показана в пользовательском интерфейсе в качестве ассоциированной с родительской гиперссылкой. Чтение/запись строка. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Возвращает тип действия HyperLinkEx. Только для чтения[`HyperlinkActionType`](../hyperlinkactiontype). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Представляет источник цвета гиперссылки - стили или формат части. Чтение/запись[`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Указывает внешний URL-адрес Если это свойство становится не нулевым, тогда свойство TargetSlide становится нулевым. Только чтениеString. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Определяет, должна ли гиперссылка подсвечиваться при щелчке. Чтение/записьBoolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Определяет, будет ли цель родительской гиперссылки добавляться в список просматриваемых гиперссылок при ее вызове. Чтение/записьBoolean. |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Определяет, должен ли звук останавливаться при клике по гиперссылке. Чтение/записьBoolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Возвращает фрейм в родительском наборе фреймов HTML для цели родительской гиперссылки, если она существует. Чтение/записьString. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Если HyperlinkEx нацелен на определенный слайд, возвращает этот слайд. Если свойство становится не нулевым, тогда свойство ExternalUrl становится нулевым. Только для чтения[`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Возвращает строку, которая может отображаться в пользовательском интерфейсе как связанную с родительской гиперссылкой. Чтение/записьString. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Определяет, равны ли два экземпляра гиперссылки. |
 
-### Смотрите Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

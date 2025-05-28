@@ -1,13 +1,12 @@
 ---
-title: Вычислить
+title: Calculate
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если ячейка содержит формулу, значение будет обновлено на основе этой формулы.
+description: Если ячейка содержит формулу значение будет обновлено на основе этой формулы.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/ichartdatacell/calculate/
 ---
-
-## Метод IChartDataCell.Calculate
+## IChartDataCell.Calculate method
 
 Если ячейка содержит формулу, значение будет обновлено на основе этой формулы.
 
@@ -17,11 +16,11 @@ public void Calculate(bool updateValues)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| updateValues | Boolean | Если false, никаких фактических расчетов не будет выполнено. Используйте true для проверки возможных исключений. |
+| updateValues | Boolean | При значении false фактические вычисления выполняться не будут. Используйте true для проверки возможных исключений. |
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataCell](../../ichartdatacell)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatacell)
 * сборка [Aspose.Slides](../../../)
 

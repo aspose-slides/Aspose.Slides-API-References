@@ -1,37 +1,33 @@
 ---
 title: ITiming
-second_title: Aspose.Slides для .NET Справочник API
-description: Представляет время анимации.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет синхронизацию анимации.
 type: docs
-weight: 560
+weight: 540
 url: /ru/aspose.slides.animation/itiming/
 ---
+## ITiming interface
 
-## Интерфейс ITiming
-
-Представляет время анимации.
+Представляет синхронизацию анимации.
 
 ```csharp
 public interface ITiming
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Описывает процент эффекта ускорения времени длительности. Чтение/запись Single. |
-| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Описывает, следует ли автоматически воспроизводить анимацию в обратном направлении после воспроизведения в прямом направлении. Чтение/запись Boolean. |
-| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Описывает процент эффекта замедления времени длительности. Чтение/запись Single. |
-| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Описывает длительность анимационного эффекта. Чтение/запись Single. |
-| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Описывает количество повторений эффекта. Чтение/запись Single. |
-| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Описывает количество повторений эффекта. Чтение/запись Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Этот атрибут указывает, будет ли эффект повторяться до конца слайда. Чтение/запись Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Этот атрибут указывает, будет ли эффект повторяться до следующего щелчка. Чтение/запись Boolean. |
-| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Указывает, следует ли перезапускать эффект после завершения. Чтение/запись [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Этот атрибут указывает, будет ли эффект перемотан назад после завершения воспроизведения. Чтение/запись Boolean. |
-| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Указывает процент, на который следует увеличить (или уменьшить) время. Чтение/запись Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Описывает время задержки после триггера. Чтение/запись Single. |
-| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Описывает тип триггера. Чтение/запись [`EffectTriggerType`](../effecttriggertype). |
+| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Описывает процент продолжительности эффекта ускорения поведения. Чтение/записьSingle. |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Описывает, следует ли автоматически воспроизводить анимацию в обратном направлении после ее воспроизведения в прямом направлении. Чтение/записьBoolean. |
+| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Описывает процент продолжительности эффекта замедления поведения. Чтение/записьSingle. |
+| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Описывает продолжительность эффекта анимации. Чтение/записьSingle. |
+| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Описывает количество повторений эффекта. Чтение/записьSingle. |
+| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Описывает количество повторений эффекта. Чтение/записьSingle. |
+| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Указывает, должен ли эффект перезапускаться после завершения. Чтение/запись[`EffectRestartType`](../effectrestarttype). |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Задает процент, на который следует ускорить (или замедлить) синхронизацию. Чтение/записьSingle. |
+| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Описывает время задержки после запуска. Чтение/записьSingle. |
+| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Описывает тип триггера. Чтение/запись[`EffectTriggerType`](../effecttriggertype). |
 
 ### Смотрите также
 

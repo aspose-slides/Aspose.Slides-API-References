@@ -1,24 +1,23 @@
 ---
-title: Фон
+title: Background
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает фон слайда. Только для чтения IBackgroundaspose.slides/ibackground.
+description: Возвращает фон слайда. Только чтениеIBackgroundaspose.slides/ibackground.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ibaseslide/background/
 ---
+## IBaseSlide.Background property
 
-## Свойство IBaseSlide.Background
-
-Возвращает фон слайда. Только для чтения [`IBackground`](../../ibackground).
+Возвращает фон слайда. Только чтение[`IBackground`](../../ibackground).
 
 ```csharp
 public IBackground Background { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBackground](../../ibackground)
-* интерфейс [IBaseSlide](../../ibaseslide)
+* interface [IBackground](../../ibackground)
+* interface [IBaseSlide](../../ibaseslide)
 * пространство имен [Aspose.Slides](../../ibaseslide)
 * сборка [Aspose.Slides](../../../)
 

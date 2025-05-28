@@ -1,15 +1,14 @@
 ---
 title: CreateDuotone
-second_title: Справочник API Aspose.Slides для .NET
-description: Создает дуохромный эффект.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает эффект Duotone.
 type: docs
 weight: 130
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/createduotone/
 ---
+## ImageTransformOperationFactory.CreateDuotone method
 
-## ImageTransformOperationFactory.CreateDuotone метод
-
-Создает дуохромный эффект.
+Создает эффект Duotone.
 
 ```csharp
 public IDuotone CreateDuotone()
@@ -17,12 +16,12 @@ public IDuotone CreateDuotone()
 
 ### Возвращаемое значение
 
-Дуохромный эффект.
+Дуотоновый эффект.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IDuotone](../../iduotone)
-* класс [ImageTransformOperationFactory](../../imagetransformoperationfactory)
+* interface [IDuotone](../../iduotone)
+* class [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

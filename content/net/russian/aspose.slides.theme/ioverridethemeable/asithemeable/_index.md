@@ -1,28 +1,27 @@
 ---
 title: AsIThemeable
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает интерфейс IThemeable. Только для чтения IThemeableaspose.slides.theme/ithemeable.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает интерфейс IThemeable. Только для чтенияIThemeableaspose.slides.theme/ithemeable.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/ioverridethemeable/asithemeable/
 ---
+## IOverrideThemeable.AsIThemeable property
 
-## IOverrideThemeable.AsIThemeable свойство
-
-Возвращает интерфейс IThemeable. Только для чтения [`IThemeable`](../../ithemeable).
+Возвращает интерфейс IThemeable. Только для чтения[`IThemeable`](../../ithemeable).
 
 ```csharp
 public IThemeable AsIThemeable { get; }
 ```
 
-### Замечания
+### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IThemeable](../../ithemeable)
-* интерфейс [IOverrideThemeable](../../ioverridethemeable)
+* interface [IThemeable](../../ithemeable)
+* interface [IOverrideThemeable](../../ioverridethemeable)
 * пространство имен [Aspose.Slides.Theme](../../ioverridethemeable)
 * сборка [Aspose.Slides](../../../)
 

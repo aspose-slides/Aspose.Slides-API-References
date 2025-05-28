@@ -1,31 +1,30 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Slides für .NET API Referenz
-description: Initialisiert eine neue Instanz der CellCircularReferenceExceptionaspose.slides.spreadsheet/cellcircularreferenceexception-Klasse.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Initialisiert eine neue Instanz vonCellCircularReferenceExceptionaspose.slides.spreadsheet/cellcircularreferenceexception Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides.spreadsheet/cellcircularreferenceexception/cellcircularreferenceexception/
 ---
-
 ## CellCircularReferenceException() {#constructor}
 
-Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../../cellcircularreferenceexception) Klasse.
+Initialisiert eine neue Instanz von[`CellCircularReferenceException`](../../cellcircularreferenceexception) Klasse.
 
 ```csharp
 public CellCircularReferenceException()
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Klasse [CellCircularReferenceException](../../cellcircularreferenceexception)
-* Namespace [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
-* Assembly [Aspose.Slides](../../../)
+* class [CellCircularReferenceException](../../cellcircularreferenceexception)
+* namensraum [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## CellCircularReferenceException(string) {#constructor_1}
 
-Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung.
+Initialisiert eine neue Instanz von[`CellCircularReferenceException`](../../cellcircularreferenceexception) Klasse mit einer bestimmten Fehlermeldung.
 
 ```csharp
 public CellCircularReferenceException(string message)
@@ -33,19 +32,19 @@ public CellCircularReferenceException(string message)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| message | String | Eine Zeichenkette, die den Fehler beschreibt. |
+| message | String | Eine Zeichenfolge, die den Fehler beschreibt. |
 
-### Siehe Auch
+### Siehe auch
 
-* Klasse [CellCircularReferenceException](../../cellcircularreferenceexception)
-* Namespace [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
-* Assembly [Aspose.Slides](../../../)
+* class [CellCircularReferenceException](../../cellcircularreferenceexception)
+* namensraum [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## CellCircularReferenceException(string, Exception) {#constructor_2}
 
-Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einer Referenz auf die innere Ausnahme, die die Ursache dieser Ausnahme ist.
+Initialisiert eine neue Instanz von[`CellCircularReferenceException`](../../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die die Ursache dieser Ausnahme ist.
 
 ```csharp
 public CellCircularReferenceException(string message, Exception innerException)
@@ -53,20 +52,20 @@ public CellCircularReferenceException(string message, Exception innerException)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| message | String | Eine Zeichenkette, die den Fehler beschreibt. |
+| message | String | Eine Zeichenfolge, die den Fehler beschreibt. |
 | innerException | Exception | Die Ausnahme, die die Ursache der aktuellen Ausnahme ist. |
 
-### Siehe Auch
+### Siehe auch
 
-* Klasse [CellCircularReferenceException](../../cellcircularreferenceexception)
-* Namespace [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
-* Assembly [Aspose.Slides](../../../)
+* class [CellCircularReferenceException](../../cellcircularreferenceexception)
+* namensraum [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## CellCircularReferenceException(string, string) {#constructor_3}
 
-Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einer zirkulären Zellreferenz.
+Initialisiert eine neue Instanz von[`CellCircularReferenceException`](../../cellcircularreferenceexception) Klasse mit angegebener Fehlermeldung und kreisförmigem Zellbezug.
 
 ```csharp
 public CellCircularReferenceException(string message, string reference)
@@ -74,13 +73,13 @@ public CellCircularReferenceException(string message, string reference)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| message | String | Eine Zeichenkette, die den Fehler beschreibt. |
-| reference | String | Eine zirkuläre Zellreferenz. |
+| message | String | Eine Zeichenfolge, die den Fehler beschreibt. |
+| reference | String | Ein kreisförmiger Zellbezug. |
 
-### Siehe Auch
+### Siehe auch
 
-* Klasse [CellCircularReferenceException](../../cellcircularreferenceexception)
-* Namespace [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
-* Assembly [Aspose.Slides](../../../)
+* class [CellCircularReferenceException](../../cellcircularreferenceexception)
+* namensraum [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)
+* Montage [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

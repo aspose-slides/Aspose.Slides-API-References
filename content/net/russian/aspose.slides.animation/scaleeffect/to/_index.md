@@ -1,23 +1,22 @@
 ---
-title: До
-second_title: Справочник API Aspose.Slides для .NET
-description: Указывает целевое местоположение для эффекта масштабирования анимации в процентах. Чтение/запись PointF.
+title: To
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает целевое местоположение для эффекта масштабирования анимации в процентах. Чтение/записьPointF.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/scaleeffect/to/
 ---
+## ScaleEffect.To property
 
-## Свойство ScaleEffect.To
-
-Указывает целевое местоположение для эффекта масштабирования анимации (в процентах). Чтение/запись PointF.
+Указывает целевое местоположение для эффекта масштабирования анимации (в процентах). Чтение/записьPointF.
 
 ```csharp
 public PointF To { get; set; }
 ```
 
-### Также см.
+### Смотрите также
 
-* класс [ScaleEffect](../../scaleeffect)
+* class [ScaleEffect](../../scaleeffect)
 * пространство имен [Aspose.Slides.Animation](../../scaleeffect)
 * сборка [Aspose.Slides](../../../)
 

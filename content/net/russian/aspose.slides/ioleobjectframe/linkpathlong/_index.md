@@ -1,23 +1,22 @@
 ---
 title: LinkPathLong
-second_title: Ссылки на Aspose.Slides для .NET
-description: Возвращает полный путь к связанному файлу. Будет использовано длинное имя файла. Читаемая/записываемая строка.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает полный путь к связанному файлу. Будет использоваться длинное имя файла. Чтение/записьString.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ioleobjectframe/linkpathlong/
 ---
+## IOleObjectFrame.LinkPathLong property
 
-## Свойство IOleObjectFrame.LinkPathLong
-
-Возвращает полный путь к связанному файлу. Будет использовано длинное имя файла. Читаемая/записываемая строка.
+Возвращает полный путь к связанному файлу. Будет использоваться длинное имя файла. Чтение/записьString.
 
 ```csharp
 public string LinkPathLong { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IOleObjectFrame](../../ioleobjectframe)
+* interface [IOleObjectFrame](../../ioleobjectframe)
 * пространство имен [Aspose.Slides](../../ioleobjectframe)
 * сборка [Aspose.Slides](../../../)
 

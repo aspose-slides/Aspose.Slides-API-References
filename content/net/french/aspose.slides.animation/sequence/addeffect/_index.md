@@ -1,12 +1,11 @@
 ---
 title: AddEffect
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajouter un nouvel effet à la fin de la séquence.
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/sequence/addeffect/
 ---
-
 ## AddEffect(IShape, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_3}
 
 Ajouter un nouvel effet à la fin de la séquence.
@@ -16,18 +15,18 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
     EffectTriggerType triggerType)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| shape | IShape | Objet Shape [`IShape`](../../../aspose.slides/ishape) pour ajouter un effet |
-| effectType | EffectType | Type d'effet d'animation [`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Sous-types d'effet d'animation [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Type de déclencheur d'effet [`EffectTriggerType`](../../effecttriggertype) |
+| shape | IShape | Objet forme[`IShape`](../../../aspose.slides/ishape) pour ajouter un effet |
+| effectType | EffectType | Type d'effet d'animation[`EffectType`](../../effecttype) |
+| subtype | EffectSubtype | Sous-types d'effet d'animation[`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Déclencher le type d'effet[`EffectTriggerType`](../../effecttriggertype) |
 
-### Valeur de retour
+### Return_Value
 
-Nouvel objet effet [`IEffect`](../../ieffect)
+Nouvel objet d'effet[`IEffect`](../../ieffect)
 
-### Voir aussi
+### Voir également
 
 * interface [IEffect](../../ieffect)
 * interface [IShape](../../../aspose.slides/ishape)
@@ -35,8 +34,8 @@ Nouvel objet effet [`IEffect`](../../ieffect)
 * enum [EffectSubtype](../../effectsubtype)
 * enum [EffectTriggerType](../../effecttriggertype)
 * class [Sequence](../../sequence)
-* namespace [Aspose.Slides.Animation](../../sequence)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Animation](../../sequence)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
@@ -49,16 +48,16 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
     EffectTriggerType triggerType)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| paragraph | IParagraph | Objet Paragraphe [`IParagraph`](../../../aspose.slides/iparagraph) |
-| effectType | EffectType | Type d'effet d'animation [`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Sous-types d'effet d'animation [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Type de déclencheur d'effet [`EffectTriggerType`](../../effecttriggertype) |
+| paragraph | IParagraph | Objet paragraphe[`IParagraph`](../../../aspose.slides/iparagraph) |
+| effectType | EffectType | Type d'effet d'animation[`EffectType`](../../effecttype) |
+| subtype | EffectSubtype | Sous-types d'effet d'animation[`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Déclencher le type d'effet[`EffectTriggerType`](../../effecttriggertype) |
 
-### Valeur de retour
+### Return_Value
 
-Nouvel objet effet [`IEffect`](../../ieffect)
+Nouvel objet d'effet[`IEffect`](../../ieffect)
 
 ### Exemples
 
@@ -66,17 +65,17 @@ Nouvel objet effet [`IEffect`](../../ieffect)
 [C#]
 using(Presentation presentation = new Presentation(path + "input.pptx"))
 {        
-   // sélectionner le paragraphe pour ajouter un effet
+   // sélectionne le paragraphe pour ajouter un effet
    IAutoShape autoShape = (IAutoShape)presentation.Slides[0].Shapes[0];
    IParagraph paragraph = autoShape.TextFrame.Paragraphs[0];
 
-   // ajouter un effet d'animation Fly au paragraphe sélectionné
+   // ajoute un effet d'animation Fly au paragraphe sélectionné
    IEffect effect = presentation.Slides[0].Timeline.MainSequence.AddEffect(
    paragraph, EffectType.Fly, EffectSubtype.Left, EffectTriggerType.OnClick);
 }
 ```
 
-### Voir aussi
+### Voir également
 
 * interface [IEffect](../../ieffect)
 * interface [IParagraph](../../../aspose.slides/iparagraph)
@@ -84,34 +83,34 @@ using(Presentation presentation = new Presentation(path + "input.pptx"))
 * enum [EffectSubtype](../../effectsubtype)
 * enum [EffectTriggerType](../../effecttriggertype)
 * class [Sequence](../../sequence)
-* namespace [Aspose.Slides.Animation](../../sequence)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Animation](../../sequence)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
 ## AddEffect(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect}
 
-Ajoute le nouvel effet d'animation pour le diagramme de catégorie ou de série à la fin de la séquence.
+Ajoute le nouvel effet d'animation graphique pour la catégorie ou la série à la fin de la séquence.
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int index, 
     EffectType effectType, EffectSubtype subtype, EffectTriggerType triggerType)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| chart | IChart | Objet Diagramme [`IChart`](../../../aspose.slides.charts/ichart) |
-| type | EffectChartMajorGroupingType | Type d'effet d'animation [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
-| index | Int32 | Index Int32 |
-| effectType | EffectType | Type d'effet d'animation [`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Sous-types d'effet d'animation [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Type de déclencheur d'effet [`EffectTriggerType`](../../effecttriggertype) |
+| chart | IChart | Objet graphique[`IChart`](../../../aspose.slides.charts/ichart) |
+| type | EffectChartMajorGroupingType | Type d'effet d'animation[`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
+| index | Int32 | IndiceInt32 |
+| effectType | EffectType | Type d'effet d'animation[`EffectType`](../../effecttype) |
+| subtype | EffectSubtype | Sous-types d'effet d'animation[`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Déclencher le type d'effet[`EffectTriggerType`](../../effecttriggertype) |
 
-### Valeur de retour
+### Return_Value
 
-Nouvel objet effet [`IEffect`](../../ieffect)
+Nouvel objet d'effet[`IEffect`](../../ieffect)
 
-### Voir aussi
+### Voir également
 
 * interface [IEffect](../../ieffect)
 * interface [IChart](../../../aspose.slides.charts/ichart)
@@ -120,14 +119,14 @@ Nouvel objet effet [`IEffect`](../../ieffect)
 * enum [EffectSubtype](../../effectsubtype)
 * enum [EffectTriggerType](../../effecttriggertype)
 * class [Sequence](../../sequence)
-* namespace [Aspose.Slides.Animation](../../sequence)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Animation](../../sequence)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
 ## AddEffect(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_1}
 
-Ajoute le nouvel effet d'animation pour les éléments dans la catégorie ou la série à la fin de la séquence.
+Ajoute le nouvel effet d'animation graphique pour les éléments de catégorie ou de série à la fin de la séquence.
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int seriesIndex, 
@@ -135,21 +134,21 @@ public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int se
     EffectTriggerType triggerType)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| chart | IChart | Objet Diagramme [`IChart`](../../../aspose.slides.charts/ichart) |
-| type | EffectChartMinorGroupingType | Type d'effet d'animation [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
-| seriesIndex | Int32 | Index de la série de diagramme Int32 |
-| categoriesIndex | Int32 | Index de la catégorie Int32 |
-| effectType | EffectType | Type d'effet d'animation [`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Sous-types d'effet d'animation [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Type de déclencheur d'effet [`EffectTriggerType`](../../effecttriggertype) |
+| chart | IChart | Objet graphique[`IChart`](../../../aspose.slides.charts/ichart) |
+| type | EffectChartMinorGroupingType | Type d'effet d'animation[`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
+| seriesIndex | Int32 | Index des séries de graphiquesInt32 |
+| categoriesIndex | Int32 | Index de catégorieInt32 |
+| effectType | EffectType | Type d'effet d'animation[`EffectType`](../../effecttype) |
+| subtype | EffectSubtype | Sous-types d'effet d'animation[`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Déclencher le type d'effet[`EffectTriggerType`](../../effecttriggertype) |
 
-### Valeur de retour
+### Return_Value
 
-Nouvel objet effet [`IEffect`](../../ieffect)
+Nouvel objet d'effet[`IEffect`](../../ieffect)
 
-### Voir aussi
+### Voir également
 
 * interface [IEffect](../../ieffect)
 * interface [IChart](../../../aspose.slides.charts/ichart)
@@ -158,7 +157,7 @@ Nouvel objet effet [`IEffect`](../../ieffect)
 * enum [EffectSubtype](../../effectsubtype)
 * enum [EffectTriggerType](../../effecttriggertype)
 * class [Sequence](../../sequence)
-* namespace [Aspose.Slides.Animation](../../sequence)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Animation](../../sequence)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

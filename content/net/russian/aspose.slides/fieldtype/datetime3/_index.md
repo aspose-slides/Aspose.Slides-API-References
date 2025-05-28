@@ -1,23 +1,22 @@
 ---
 title: DateTime3
-second_title: Aspose.Slides для .NET Справочник по API
-description: Текущая дата и время в третьем предопределенном формате DD Month YYYY для английского. Поле только для чтения FieldType aspose.slides/fieldtype.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Текущая дата и время в третьем предустановленном формате DD Month YYYY для английского. Только для чтенияFieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 90
 url: /ru/aspose.slides/fieldtype/datetime3/
 ---
+## FieldType.DateTime3 property
 
-## Свойство FieldType.DateTime3
-
-Текущая дата и время в третьем предопределенном формате (DD Month YYYY для английского). Поле только для чтения [`FieldType`](../../fieldtype).
+Текущая дата и время в третьем предустановленном формате (DD Month YYYY для английского). Только для чтения[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime3 { get; }
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* класс [FieldType](../../fieldtype)
+* class [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)
 * сборка [Aspose.Slides](../../../)
 

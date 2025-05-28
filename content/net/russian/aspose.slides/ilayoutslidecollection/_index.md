@@ -1,38 +1,37 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes для справочника API .NET
-description: Представляет базовый класс для коллекции макетов слайдов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет базовый класс для коллекции слайдов макета.
 type: docs
-weight: 6030
+weight: 5670
 url: /ru/aspose.slides/ilayoutslidecollection/
 ---
+## ILayoutSlideCollection interface
 
-## Интерфейс ILayoutSlideCollection
-
-Представляет базовый класс для коллекции макетов слайдов.
+Представляет базовый класс для коллекции слайдов макета.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Возвращает макет слайда по индексу. Только для чтения [`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Возвращает макет слайда по индексу. Только для чтения[`ILayoutSlide`](../ilayoutslide). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Возвращает первый макет слайда указанного типа. |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Удаляет макет из коллекции. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Удаляет неиспользуемые макеты слайдов (макеты слайдов, для которых HasDependingSlides равно false). |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Удаляет неиспользуемые слайды макета (слайды макета, HasDependingSlides которых имеет значение false). |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* интерфейс [ILayoutSlide](../ilayoutslide)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [ILayoutSlide](../ilayoutslide)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

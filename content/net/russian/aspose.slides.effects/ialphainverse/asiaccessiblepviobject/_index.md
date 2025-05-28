@@ -1,15 +1,14 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides для .NET API Справочник
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObject aspose.slides/iaccessiblepviobject-1.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/ialphainverse/asiaccessiblepviobject/
 ---
+## IAlphaInverse.AsIAccessiblePVIObject property
 
-## Свойство IAlphaInverse.AsIAccessiblePVIObject
-
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IAlphaInverseEffectiveData> AsIAccessiblePVIObject { get; }
@@ -17,9 +16,9 @@ public IAccessiblePVIObject<IAlphaInverseEffectiveData> AsIAccessiblePVIObject {
 
 ### Смотрите также
 
-* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* интерфейс [IAlphaInverseEffectiveData](../../ialphainverseeffectivedata)
-* интерфейс [IAlphaInverse](../../ialphainverse)
+* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* interface [IAlphaInverseEffectiveData](../../ialphainverseeffectivedata)
+* interface [IAlphaInverse](../../ialphainverse)
 * пространство имен [Aspose.Slides.Effects](../../ialphainverse)
 * сборка [Aspose.Slides](../../../)
 

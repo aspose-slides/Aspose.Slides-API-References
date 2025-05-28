@@ -1,23 +1,22 @@
 ---
 title: SizeLocked
-second_title: Aspose.Slides для .NET Справочник по API
-description: Определяет, запрещено ли изменение размера этой фигуры. Читаемое и записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет запрещено ли изменение размера этой формы. Чтение-записьBoolean.
 type: docs
 weight: 110
 url: /ru/aspose.slides/iautoshapelock/sizelocked/
 ---
+## IAutoShapeLock.SizeLocked property
 
-## IAutoShapeLock.SizeLocked свойство
-
-Определяет, запрещено ли изменение размера этой фигуры. Читаемое и записываемое логическое значение.
+Определяет, запрещено ли изменение размера этой формы. Чтение-записьBoolean.
 
 ```csharp
 public bool SizeLocked { get; set; }
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IAutoShapeLock](../../iautoshapelock)
+* interface [IAutoShapeLock](../../iautoshapelock)
 * пространство имен [Aspose.Slides](../../iautoshapelock)
 * сборка [Aspose.Slides](../../../)
 

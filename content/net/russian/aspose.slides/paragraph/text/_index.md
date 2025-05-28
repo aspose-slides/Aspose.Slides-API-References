@@ -1,27 +1,26 @@
 ---
-title: Текст
+title: Text
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или устанавливает простой текст абзаца. Чтение/запись String.
+description: Получает или задает обычный текст абзаца. Чтение/записьString.
 type: docs
 weight: 50
 url: /ru/aspose.slides/paragraph/text/
 ---
+## Paragraph.Text property
 
-## Свойство Paragraph.Text
-
-Получает или устанавливает простой текст абзаца. Чтение/запись String.
+Получает или задает обычный текст абзаца. Чтение/записьString.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### Значение свойства
+### Стоимость имущества
 
 Текст.
 
-### См. также
+### Смотрите также
 
-* класс [Paragraph](../../paragraph)
+* class [Paragraph](../../paragraph)
 * пространство имен [Aspose.Slides](../../paragraph)
 * сборка [Aspose.Slides](../../../)
 

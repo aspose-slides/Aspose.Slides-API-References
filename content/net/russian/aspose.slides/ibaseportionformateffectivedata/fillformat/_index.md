@@ -1,24 +1,23 @@
 ---
 title: FillFormat
-second_title: Aspose.Slides для .NET API Справка
-description: Возвращает свойства текста FillFormat. Только для чтения IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает свойства FillFormat текста. Только для чтенияIFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ibaseportionformateffectivedata/fillformat/
 ---
+## IBasePortionFormatEffectiveData.FillFormat property
 
-## IBasePortionFormatEffectiveData.FillFormat свойство
-
-Возвращает свойства текста FillFormat. Только для чтения [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Возвращает свойства FillFormat текста. Только для чтения[`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFillFormatEffectiveData](../../ifillformateffectivedata)
-* интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* interface [IFillFormatEffectiveData](../../ifillformateffectivedata)
+* interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibaseportionformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

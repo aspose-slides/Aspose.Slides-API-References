@@ -1,30 +1,29 @@
 ---
 title: IErrorBarsCustomValues
-second_title: Aspose.Slides для справочника API .NET
-description: Указывает значения ошибок баров. Должен использоваться только когда тип значения ошибок баров является пользовательским.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает значения панели ошибок. Он должен использоваться только в том случае если тип значения Error bar имеет значение Custom.
 type: docs
-weight: 2000
+weight: 1940
 url: /ru/aspose.slides.charts/ierrorbarscustomvalues/
 ---
+## IErrorBarsCustomValues interface
 
-## Интерфейс IErrorBarsCustomValues
-
-Указывает значения ошибок баров. Должен использоваться только когда тип значения ошибок баров является пользовательским.
+Указывает значения панели ошибок. Он должен использоваться только в том случае, если тип значения Error bar имеет значение Custom.
 
 ```csharp
 public interface IErrorBarsCustomValues
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Указывает значение ошибки бара в отрицательном направлении. Доступно, если тип значения ошибок баров является пользовательским, и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Указывает значение ошибки бара в положительном направлении. Доступно, если тип значения ошибок баров является пользовательским, и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Указывает значение ошибки бара в отрицательном направлении. Доступно, если тип значения ошибок баров является пользовательским, и разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Указывает значение ошибки бара в положительном направлении. Доступно, если тип значения ошибок баров является пользовательским, и разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Указывает значение полосы ошибок в отрицательном направлении. Доступно, если тип значения баров погрешностей — Пользовательский и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Указывает значение полосы ошибок в положительном направлении. Доступно, если тип значения баров погрешностей — Пользовательский и разрешен ErrorBarsXFormat. В любом другом случае это свойство возвращает null. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Указывает значение полосы ошибок в отрицательном направлении. Доступно, если тип значения баров погрешностей — Пользовательский и разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Указывает значение полосы ошибок в положительном направлении. Доступно, если тип значения баров погрешностей — Пользовательский и разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

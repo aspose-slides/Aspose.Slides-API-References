@@ -1,15 +1,14 @@
 ---
 title: CalculateFormulas
-second_title: Aspose.Sildes для .NET API Справочник
-description: Вычисляет все формулы в рабочей книге и обновляет соответствующие значения ячеек.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Вычисляет все формулы в книге и обновляет значения соответствующих ячеек.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ichartdataworkbook/calculateformulas/
 ---
+## IChartDataWorkbook.CalculateFormulas method
 
-## Метод IChartDataWorkbook.CalculateFormulas
-
-Вычисляет все формулы в рабочей книге и обновляет соответствующие значения ячеек.
+Вычисляет все формулы в книге и обновляет значения соответствующих ячеек.
 
 ```csharp
 public void CalculateFormulas()
@@ -20,11 +19,11 @@ public void CalculateFormulas()
 | исключение | условие |
 | --- | --- |
 | [CellCircularReferenceException](../../../aspose.slides.spreadsheet/cellcircularreferenceexception) | Рабочая книга содержит формулы с циклической ссылкой. |
-| [CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception) | Данные ячейки не поддерживаются. |
+| [CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception) | Данные ячеек не поддерживаются. |
 
 ### Примеры
 
-Пример показывает, как назначить формулу ячейке и вычислить значение. Значение ячейки "B4" устанавливается равным 5.
+Пример показывает, как присвоить ячейке формулу и вычислить значение. Значение ячейки «B4» устанавливается равным 5.
 
 ```csharp
 [C#]
@@ -40,9 +39,9 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
+* interface [IChartDataWorkbook](../../ichartdataworkbook)
 * пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
 * сборка [Aspose.Slides](../../../)
 

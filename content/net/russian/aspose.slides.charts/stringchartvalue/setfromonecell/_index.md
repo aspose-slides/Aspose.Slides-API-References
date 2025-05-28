@@ -1,13 +1,12 @@
 ---
 title: SetFromOneCell
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Устанавливает значение из указанной ячейки.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/stringchartvalue/setfromonecell/
 ---
-
-## Метод StringChartValue.SetFromOneCell
+## StringChartValue.SetFromOneCell method
 
 Устанавливает значение из указанной ячейки.
 
@@ -17,12 +16,12 @@ public void SetFromOneCell(IChartDataCell cell)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cell | IChartDataCell | Ячейка. |
+| ячейка | IChartDataCell | Ячейка. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* класс [StringChartValue](../../stringchartvalue)
+* interface [IChartDataCell](../../ichartdatacell)
+* class [StringChartValue](../../stringchartvalue)
 * пространство имен [Aspose.Slides.Charts](../../stringchartvalue)
 * сборка [Aspose.Slides](../../../)
 

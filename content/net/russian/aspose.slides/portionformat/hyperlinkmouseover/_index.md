@@ -1,24 +1,23 @@
 ---
 title: HyperlinkMouseOver
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает гиперссылку, определенную для наведения мыши. Чтение/запись IHyperlinkaspose.slides/ihyperlink.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает гиперссылку определенную для наведения мыши. Чтение/записьIHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 50
 url: /ru/aspose.slides/portionformat/hyperlinkmouseover/
 ---
+## PortionFormat.HyperlinkMouseOver property
 
-## Свойство PortionFormat.HyperlinkMouseOver
-
-Возвращает или устанавливает гиперссылку, определенную для наведения мыши. Чтение/запись [`IHyperlink`](../../ihyperlink).
+Возвращает или устанавливает гиперссылку, определенную для наведения мыши. Чтение/запись[`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkMouseOver { get; set; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IHyperlink](../../ihyperlink)
-* класс [PortionFormat](../../portionformat)
+* interface [IHyperlink](../../ihyperlink)
+* class [PortionFormat](../../portionformat)
 * пространство имен [Aspose.Slides](../../portionformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: SetFooterVisibility
-second_title: Aspose.Slides для .NET API Reference
-description: Меняет видимость заполнитель подвала слайда.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Изменяет видимость заполнителя нижнего колонтитула слайда.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ibaseslideheaderfootermanager/setfootervisibility/
 ---
+## IBaseSlideHeaderFooterManager.SetFooterVisibility method
 
-## Метод IBaseSlideHeaderFooterManager.SetFooterVisibility
-
-Меняет видимость заполнителя подвала слайда.
+Изменяет видимость заполнителя нижнего колонтитула слайда.
 
 ```csharp
 public void SetFooterVisibility(bool isVisible)
@@ -17,11 +16,11 @@ public void SetFooterVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнитель подвала видимым, в противном случае - скрывает его. |
+| isVisible | Boolean | true - делает заполнитель нижнего колонтитула видимым, иначе - скрывает его. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
+* interface [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ibaseslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

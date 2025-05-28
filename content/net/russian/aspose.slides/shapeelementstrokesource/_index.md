@@ -1,13 +1,12 @@
 ---
 title: ShapeElementStrokeSource
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет, как должен быть нарисован элемент формы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет как должен быть нарисован элемент формы.
 type: docs
-weight: 9580
+weight: 9110
 url: /ru/aspose.slides/shapeelementstrokesource/
 ---
-
-## Перечисление ShapeElementStrokeSource
+## ShapeElementStrokeSource enumeration
 
 Представляет, как должен быть нарисован элемент формы.
 
@@ -15,13 +14,13 @@ url: /ru/aspose.slides/shapeelementstrokesource/
 public enum ShapeElementStrokeSource : byte
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NoStroke | `0` | Не обводить примитив. |
-| Shape | `1` | Использовать LineFormat формы. |
-| OwnStroke | `2` | Использовать собственное обводка. |
+| Shape | `1` | Использовать LineFormat фигуры. |
+| OwnStroke | `2` | Использовать собственный штрих. |
 
 ### Смотрите также
 

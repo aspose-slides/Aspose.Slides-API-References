@@ -1,23 +1,22 @@
 ---
-title: Перспектива
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или устанавливает значение перспективы угол обзора для 3D-диаграмм в диапазоне от 0 до 240. Игнорируется, если значение свойства RightAngleAxes истинно. Чтение/запись Byte.
+title: Perspective
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает значение перспективы угол поля зрения для трехмерных диаграмм от 0 до 240. Игнорируется если значение свойства RightAngleAxes равно true. Чтение/записьByte.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/rotation3d/perspective/
 ---
+## Rotation3D.Perspective property
 
-## Свойство Rotation3D.Perspective
-
-Возвращает или устанавливает значение перспективы (угол обзора) для 3D-диаграмм (в диапазоне от 0 до 240). Игнорируется, если значение свойства RightAngleAxes истинно. Чтение/запись Byte.
+Возвращает или задает значение перспективы (угол поля зрения) для трехмерных диаграмм (от 0 до 240). Игнорируется, если значение свойства RightAngleAxes равно true. Чтение/записьByte.
 
 ```csharp
 public byte Perspective { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Rotation3D](../../rotation3d)
+* class [Rotation3D](../../rotation3d)
 * пространство имен [Aspose.Slides.Charts](../../rotation3d)
 * сборка [Aspose.Slides](../../../)
 

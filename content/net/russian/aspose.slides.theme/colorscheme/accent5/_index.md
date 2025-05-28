@@ -1,24 +1,23 @@
 ---
 title: Accent5
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Пятая акцентная цветовая схема. Доступен только для чтения IColorFormataspose.slides/icolorformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Пятый акцентный цвет в схеме. Только для чтенияIColorFormataspose.slides/icolorformat.
 type: docs
 weight: 50
 url: /ru/aspose.slides.theme/colorscheme/accent5/
 ---
+## ColorScheme.Accent5 property
 
-## ColorScheme.Accent5 свойство
-
-Пятая акцентная цветовая схема. Доступен только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
+Пятый акцентный цвет в схеме. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent5 { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
-* класс [ColorScheme](../../colorscheme)
+* interface [IColorFormat](../../../aspose.slides/icolorformat)
+* class [ColorScheme](../../colorscheme)
 * пространство имен [Aspose.Slides.Theme](../../colorscheme)
 * сборка [Aspose.Slides](../../../)
 

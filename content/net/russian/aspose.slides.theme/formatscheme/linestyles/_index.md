@@ -1,24 +1,23 @@
 ---
-title: СтильЛиний
+title: LineStyles
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию стилей линий, определенных темой. Только для чтения ILineFormatCollection aspose.slides.theme/ilineformatcollection.
+description: Возвращает набор стилей линий определенных темой. Только для чтенияILineFormatCollectionaspose.slides.theme/ilineformatcollection.
 type: docs
 weight: 40
 url: /ru/aspose.slides.theme/formatscheme/linestyles/
 ---
+## FormatScheme.LineStyles property
 
-## FormatScheme.LineStyles свойство
-
-Возвращает коллекцию стилей линий, определенных темой. Только для чтения [`ILineFormatCollection`](../../ilineformatcollection).
+Возвращает набор стилей линий, определенных темой. Только для чтения[`ILineFormatCollection`](../../ilineformatcollection).
 
 ```csharp
 public ILineFormatCollection LineStyles { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILineFormatCollection](../../ilineformatcollection)
-* класс [FormatScheme](../../formatscheme)
+* interface [ILineFormatCollection](../../ilineformatcollection)
+* class [FormatScheme](../../formatscheme)
 * пространство имен [Aspose.Slides.Theme](../../formatscheme)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Очистить
-second_title: Справка по API Aspose.Slides для .NET
-description: Удаляет все элементы, включая стиль диаграммы, из коллекции.
+title: Clear
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет все элементы из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/ichartseriescollection/clear/
 ---
+## IChartSeriesCollection.Clear method
 
-## Метод IChartSeriesCollection.Clear
-
-Удаляет все элементы (включая стиль диаграммы) из коллекции.
+Удаляет все элементы из коллекции.
 
 ```csharp
 public void Clear()
@@ -17,7 +16,7 @@ public void Clear()
 
 ### Смотрите также
 
-* интерфейс [IChartSeriesCollection](../../ichartseriescollection)
+* interface [IChartSeriesCollection](../../ichartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriescollection)
 * сборка [Aspose.Slides](../../../)
 

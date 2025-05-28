@@ -1,23 +1,22 @@
 ---
-title: Перспектива
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает или устанавливает значение перспективы угол обзора для 3D графиков в диапазоне от 0 до 100. Игнорируется, если значение свойства RightAngleAxes истинно. Чтение/запись Byte.
+title: Perspective
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает значение перспективы угол поля обзора для трехмерных диаграмм от 0 до 100. Игнорируется если значение свойства RightAngleAxes равно true. Чтение/записьByte.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/irotation3d/perspective/
 ---
+## IRotation3D.Perspective property
 
-## IRotation3D.Perspective свойство
-
-Возвращает или устанавливает значение перспективы (угол обзора) для 3D графиков (в диапазоне от 0 до 100). Игнорируется, если значение свойства RightAngleAxes истинно. Чтение/запись Byte.
+Возвращает или задает значение перспективы (угол поля обзора) для трехмерных диаграмм (от 0 до 100). Игнорируется, если значение свойства RightAngleAxes равно true. Чтение/записьByte.
 
 ```csharp
 public byte Perspective { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IRotation3D](../../irotation3d)
+* interface [IRotation3D](../../irotation3d)
 * пространство имен [Aspose.Slides.Charts](../../irotation3d)
 * сборка [Aspose.Slides](../../../)
 

@@ -6,8 +6,7 @@ type: docs
 weight: 40
 url: /ru/aspose.slides/fontsloader/loadexternalfonts/
 ---
-
-## FontsLoader.LoadExternalFonts метод
+## FontsLoader.LoadExternalFonts method
 
 Добавляет дополнительные папки для поиска шрифтов.
 
@@ -19,30 +18,9 @@ public static void LoadExternalFonts(string[] directories)
 | --- | --- | --- |
 | directories | String[] | Каталоги для чтения дополнительных шрифтов. |
 
-### Примеры
+### Смотрите также
 
-Следующий пример показывает, как загрузить пользовательские шрифты из .TTF
-
-```csharp
-[C#]
-// Путь к каталогу документов.
-string dataDir = "C:\\";
-// папки для поиска шрифтов
-String[] folders = new String[] { dataDir };
-// Загрузите шрифты из каталога пользовательских шрифтов
-FontsLoader.LoadExternalFonts(folders);
-// Выполните некоторую работу и выполните рендеринг презентации/слайдов
-using (Presentation presentation = new Presentation(dataDir + "DefaultFonts.pptx"))
-{
-    presentation.Save(dataDir + "NewFonts_out.pptx", SaveFormat.Pptx);
-	// Очистить кеш шрифтов
-	FontsLoader.ClearCache();
-}
-```
-
-### См. также
-
-* класс [FontsLoader](../../fontsloader)
+* class [FontsLoader](../../fontsloader)
 * пространство имен [Aspose.Slides](../../fontsloader)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: Высота
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает высоту строки. Только для чтения Double.
+title: Height
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает высоту строки. Только для чтенияDouble.
 type: docs
 weight: 30
 url: /ru/aspose.slides/irow/height/
 ---
+## IRow.Height property
 
-## Свойство IRow.Height
-
-Возвращает высоту строки. Только для чтения Double.
+Возвращает высоту строки. Только для чтенияDouble.
 
 ```csharp
 public double Height { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IRow](../../irow)
+* interface [IRow](../../irow)
 * пространство имен [Aspose.Slides](../../irow)
 * сборка [Aspose.Slides](../../../)
 

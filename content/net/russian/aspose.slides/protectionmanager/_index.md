@@ -1,13 +1,12 @@
 ---
 title: ProtectionManager
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Управление защитой паролем презентации.
 type: docs
-weight: 9410
+weight: 8950
 url: /ru/aspose.slides/protectionmanager/
 ---
-
-## Класс ProtectionManager
+## ProtectionManager class
 
 Управление защитой паролем презентации.
 
@@ -15,30 +14,30 @@ url: /ru/aspose.slides/protectionmanager/
 public sealed class ProtectionManager : IProtectionManager
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Это свойство имеет смысл, если презентация защищена паролем. Если true, то свойства документа зашифрованы в файле презентации. Если false, то свойства документа являются общедоступными, пока презентация зашифрована. Чтение/запись Boolean. |
-| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Получает пароль, используемый для шифрования презентации. Только для чтения String. |
-| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Получает значение, указывающее, зашифрован ли этот экземпляр. Только для чтения Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Это свойство имеет смысл, если файл презентации защищен паролем и свойства документа этого файла являются общедоступными. Значение true означает, что только свойства документа загружаются из зашифрованного файла презентации без использования пароля. Значение false означает, что вся зашифрованная презентация загружается с использованием правильного пароля, а не только свойства документа. Если презентация не зашифрована, тогда значение свойства всегда false. Если свойства документа зашифрованного файла не являются общедоступными, тогда значение свойства всегда false. Если Presentation.EncryptDocumentProperties равно true, то значение свойства IsOnlyDocumentPropertiesLoaded всегда false. Только для чтения Boolean. |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Получает значение, указывающее, защищена ли эта презентация от записи. Только для чтения Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Получает или задает рекомендацию по режиму только для чтения. Чтение/запись Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Это свойство имеет смысл, если презентация защищена паролем. Если true, то свойства документа шифруются в файле презентации. Если false, то свойства документа являются общедоступными, а представление зашифровано. Чтение/записьBoolean. |
+| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Получает пароль, который используется для шифрования презентации. Только чтениеString. |
+| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Получает значение, указывающее, зашифрован ли этот экземпляр. Только чтениеBoolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Это свойство имеет смысл, если файл презентации защищен паролем и документ свойства этого файла общедоступны. Значение true означает, что из зашифрованного файла презентации загружаются только свойства документа без использования пароля. Значение false означает, что вся зашифрованная презентация загружается с использованием правильного пароля, а не только свойства документа. Если представление не зашифровано, то значение свойства всегда равно false. Если свойства документа зашифрованного файла не являются общедоступными, то значение свойства всегда равно false. Если Presentation.EncryptDocumentProperties имеет значение true, то значение свойства IsOnlyDocumentPropertiesLoaded всегда равно false. Только чтениеBoolean. |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Получает значение, указывающее, защищена ли эта презентация от записи. Только чтениеBoolean. |
+| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Получает или задает рекомендацию только для чтения. Чтение/записьBoolean. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | Определяет, защищена ли презентация паролем для изменения. |
 | [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Шифрует презентацию с указанным паролем. |
 | [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | Удаляет шифрование. |
-| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | Удаляет защиту от записи для этой презентации. |
-| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | Устанавливает защиту от записи для этой презентации с указанным паролем. |
+| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | Снимает защиту от записи для этой презентации. |
+| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | Установить защиту от записи для этой презентации с указанным паролем. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IProtectionManager](../iprotectionmanager)
+* interface [IProtectionManager](../iprotectionmanager)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

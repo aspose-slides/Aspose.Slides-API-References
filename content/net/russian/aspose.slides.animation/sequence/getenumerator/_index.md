@@ -1,15 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель, который проходит через коллекцию.
+description: Возвращает перечислитель который перебирает коллекцию.
 type: docs
 weight: 90
 url: /ru/aspose.slides.animation/sequence/getenumerator/
 ---
+## Sequence.GetEnumerator method
 
-## Метод Sequence.GetEnumerator
-
-Возвращает перечислитель, который проходит через коллекцию.
+Возвращает перечислитель, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<IEffect> GetEnumerator()
@@ -17,12 +16,12 @@ public IEnumerator<IEffect> GetEnumerator()
 
 ### Возвращаемое значение
 
-Enumerator, который можно использовать для прохода по коллекции.
+AIEnumeratorкоторые можно использовать для перебора коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffect](../../ieffect)
-* класс [Sequence](../../sequence)
+* interface [IEffect](../../ieffect)
+* class [Sequence](../../sequence)
 * пространство имен [Aspose.Slides.Animation](../../sequence)
 * сборка [Aspose.Slides](../../../)
 

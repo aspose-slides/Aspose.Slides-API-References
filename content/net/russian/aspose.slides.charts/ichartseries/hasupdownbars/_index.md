@@ -1,15 +1,14 @@
 ---
 title: HasUpDownBars
-second_title: Справка по API Aspose.Slides для .NET
-description: Определяет, есть ли у линейного или фондового графика бары вверх/вниз. Это свойство относится не только к этой серии, но и ко всем сериям родительской группы серий - это проекция соответствующего свойства группы. Поэтому это свойство является только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство ParentSeriesGroup.UpDownBars.HasUpDownBars для изменения значения. Используйте свойство ParentSeriesGroup.UpDownBars для форматирования баров вверх/вниз. Только для чтения, Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет имеет ли линейный или фондовый график столбцы вверх/вниз. Это свойство не только этой серии но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство ParentSeriesGroup.UpDownBars.HasUpDownBars для чтения/записи для значения изменения. Используйте свойство ParentSeriesGroup.UpDownBars для форматирования баров вверх/вниз. Только чтениеBoolean.
 type: docs
 weight: 150
 url: /ru/aspose.slides.charts/ichartseries/hasupdownbars/
 ---
+## IChartSeries.HasUpDownBars property
 
-## IChartSeries.HasUpDownBars свойство
-
-Определяет, есть ли у линейного или фондового графика бары вверх/вниз. Это свойство относится не только к этой серии, но и ко всем сериям родительской группы серий - это проекция соответствующего свойства группы. Поэтому это свойство является только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство ParentSeriesGroup.UpDownBars.HasUpDownBars для изменения значения. Используйте свойство ParentSeriesGroup.UpDownBars для форматирования баров вверх/вниз. Только для чтения, Boolean.
+Определяет, имеет ли линейный или фондовый график столбцы вверх/вниз. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство ParentSeriesGroup.UpDownBars.HasUpDownBars для чтения/записи для значения изменения. Используйте свойство ParentSeriesGroup.UpDownBars для форматирования баров вверх/вниз. Только чтениеBoolean.
 
 ```csharp
 public bool HasUpDownBars { get; }
@@ -19,9 +18,9 @@ public bool HasUpDownBars { get; }
 
 Это проекция свойства ParentSeriesGroup.UpDownBars.HasUpDownBars.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IChartSeries](../../ichartseries)
+* interface [IChartSeries](../../ichartseries)
 * пространство имен [Aspose.Slides.Charts](../../ichartseries)
 * сборка [Aspose.Slides](../../../)
 

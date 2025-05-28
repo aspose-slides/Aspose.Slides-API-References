@@ -1,27 +1,26 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные данные 3-D форматирования с примененным наследованием.
+description: Получает эффективные данные трехмерного форматирования с применением наследования.
 type: docs
 weight: 110
 url: /ru/aspose.slides/threedformat/geteffective/
 ---
+## ThreeDFormat.GetEffective method
 
-## Метод ThreeDFormat.GetEffective
-
-Получает эффективные данные 3-D форматирования с примененным наследованием.
+Получает эффективные данные трехмерного форматирования с применением наследования.
 
 ```csharp
 public IThreeDFormatEffectiveData GetEffective()
 ```
 
-### Значение возврата
+### Возвращаемое значение
 
-[`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
+A[`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует, как получить эффективные свойства для камеры, источника света и верхнего фаски формы.
+В этом примере показано, как получить эффективные свойства для камеры, установки освещения и верхнего скоса формы.
 
 ```csharp
 [C#]
@@ -29,26 +28,26 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 {
     IThreeDFormatEffectiveData threeDEffectiveData = pres.Slides[0].Shapes[0].ThreeDFormat.GetEffective();
 
-    Console.WriteLine("= Эффективные свойства камеры =");
-    Console.WriteLine("Тип: " + threeDEffectiveData.Camera.CameraType);
-    Console.WriteLine("Угол обзора: " + threeDEffectiveData.Camera.FieldOfViewAngle);
-    Console.WriteLine("Масштаб: " + threeDEffectiveData.Camera.Zoom);
+    Console.WriteLine("= Effective camera properties =");
+    Console.WriteLine("Type: " + threeDEffectiveData.Camera.CameraType);
+    Console.WriteLine("Field of view: " + threeDEffectiveData.Camera.FieldOfViewAngle);
+    Console.WriteLine("Zoom: " + threeDEffectiveData.Camera.Zoom);
 
-    Console.WriteLine("= Эффективные свойства источника света =");
-    Console.WriteLine("Тип: " + threeDEffectiveData.LightRig.LightType);
-    Console.WriteLine("Направление: " + threeDEffectiveData.LightRig.Direction);
+    Console.WriteLine("= Effective light rig properties =");
+    Console.WriteLine("Type: " + threeDEffectiveData.LightRig.LightType);
+    Console.WriteLine("Direction: " + threeDEffectiveData.LightRig.Direction);
 
-    Console.WriteLine("= Эффективные свойства верхней фаски формы =");
-    Console.WriteLine("Тип: " + threeDEffectiveData.BevelTop.BevelType);
-    Console.WriteLine("Ширина: " + threeDEffectiveData.BevelTop.Width);
-    Console.WriteLine("Высота: " + threeDEffectiveData.BevelTop.Height);
+    Console.WriteLine("= Effective shape's top face relief properties =");
+    Console.WriteLine("Type: " + threeDEffectiveData.BevelTop.BevelType);
+    Console.WriteLine("Width: " + threeDEffectiveData.BevelTop.Width);
+    Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
-* класс [ThreeDFormat](../../threedformat)
+* interface [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
+* class [ThreeDFormat](../../threedformat)
 * пространство имен [Aspose.Slides](../../threedformat)
 * сборка [Aspose.Slides](../../../)
 

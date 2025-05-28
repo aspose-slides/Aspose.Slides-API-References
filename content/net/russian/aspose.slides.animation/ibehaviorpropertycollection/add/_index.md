@@ -1,15 +1,14 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новое свойство в коллекцию.
+description: Добавляет в коллекцию новое свойство.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/ibehaviorpropertycollection/add/
 ---
+## IBehaviorPropertyCollection.Add method
 
-## Метод IBehaviorPropertyCollection.Add
-
-Добавляет новое свойство в коллекцию.
+Добавляет в коллекцию новое свойство.
 
 ```csharp
 public void Add(string propertyValue)
@@ -17,11 +16,11 @@ public void Add(string propertyValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| propertyValue | String | Значение свойства, которое нужно добавить. |
+| propertyValue | String | Значение добавляемого свойства. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
+* interface [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 

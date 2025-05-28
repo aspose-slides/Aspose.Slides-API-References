@@ -1,168 +1,167 @@
 ---
-title: AjouterPointDeDonnéesPourSériesDeDispersion
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion, voir aussi la méthode IsChartTypeScatter aspose.slides.charts/charttypecharacterizer/ischarttypescatter.
+title: AddDataPointForScatterSeries
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée le nouveau point de données et lajoute à la fin de la collection. Applicable pour les séries dont chartType est lun des soustypes Scatter voir aussiIsChartTypeScatteraspose.slides.charts/charttypecharacterizer/ischarttypescatter méthode.
 type: docs
 weight: 210
 url: /fr/aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries/
 ---
+## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
-
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi[`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChartDataCell yValue)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| xValue | IChartDataCell | Valeur X du point de données |
+| xValue | IChartDataCell | Point de données XValue |
 | yValue | IChartDataCell | Valeur Y du point de données |
 
-### Valeur de retour
+### Return_Value
 
 Nouveau point de données.
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(double, IChartDataCell) {#adddatapointforscatterseries_2}
+## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi[`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCell yValue)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| xValue | Double | Valeur X du point de données |
+| xValue | Double | Point de données XValue |
 | yValue | IChartDataCell | Valeur Y du point de données |
 
-### Valeur de retour
+### Return_Value
 
 Nouveau point de données.
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(string, IChartDataCell) {#adddatapointforscatterseries_4}
+## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi[`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCell yValue)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| xValue | String | Valeur X du point de données |
+| xValue | String | Point de données XValue |
 | yValue | IChartDataCell | Valeur Y du point de données |
 
-### Valeur de retour
+### Return_Value
 
 Nouveau point de données.
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(IChartDataCell, double) {#adddatapointforscatterseries_1}
+## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi[`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, double yValue)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| xValue | IChartDataCell | Valeur X du point de données |
+| xValue | IChartDataCell | Point de données XValue |
 | yValue | Double | Valeur Y du point de données |
 
-### Valeur de retour
+### Return_Value
 
 Nouveau point de données.
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(double, double) {#adddatapointforscatterseries_3}
+## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi[`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| xValue | Double | Valeur X du point de données |
+| xValue | Double | Point de données XValue |
 | yValue | Double | Valeur Y du point de données |
 
-### Valeur de retour
+### Return_Value
 
 Nouveau point de données.
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## AjouterPointDeDonnéesPourSériesDeDispersion(string, double) {#adddatapointforscatterseries_5}
+## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est l'un des sous-types de dispersion (voir aussi [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types Scatter (voir aussi[`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| xValue | String | Valeur X du point de données |
+| xValue | String | Point de données XValue |
 | yValue | Double | Valeur Y du point de données |
 
-### Valeur de retour
+### Return_Value
 
 Nouveau point de données.
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../chartdatapointcollection)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

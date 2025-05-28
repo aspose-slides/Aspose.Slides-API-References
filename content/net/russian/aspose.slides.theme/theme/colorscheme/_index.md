@@ -1,24 +1,23 @@
 ---
-title: Цветовая схема
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает цветовую схему. Только для чтения IColorSchemeaspose.slides.theme/icolorscheme.
+title: ColorScheme
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает цветовую схему. Только для чтенияIColorSchemeaspose.slides.theme/icolorscheme.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/theme/colorscheme/
 ---
+## Theme.ColorScheme property
 
-## Свойство Theme.ColorScheme
-
-Возвращает цветовую схему. Только для чтения [`IColorScheme`](../../icolorscheme).
+Возвращает цветовую схему. Только для чтения[`IColorScheme`](../../icolorscheme).
 
 ```csharp
 public abstract IColorScheme ColorScheme { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColorScheme](../../icolorscheme)
-* класс [Theme](../../theme)
+* interface [IColorScheme](../../icolorscheme)
+* class [Theme](../../theme)
 * пространство имен [Aspose.Slides.Theme](../../theme)
 * сборка [Aspose.Slides](../../../)
 

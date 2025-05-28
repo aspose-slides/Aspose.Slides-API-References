@@ -1,15 +1,14 @@
 ---
 title: ShowLegendKey
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет поведение отображения легенды метки данных заданного графика. True, если легенда метки данных видима. Читаемая/записываемая логическая величина.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет поведение отображения клавиши легенды метки данных указанной диаграммы. True если ключ легенды метки данных виден. Чтение/записьBoolean.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/idatalabelformat/showlegendkey/
 ---
+## IDataLabelFormat.ShowLegendKey property
 
-## IDataLabelFormat.ShowLegendKey свойство
-
-Представляет поведение отображения легенды метки данных заданного графика. True, если легенда метки данных видима. Читаемая/записываемая логическая величина.
+Представляет поведение отображения клавиши легенды метки данных указанной диаграммы. True, если ключ легенды метки данных виден. Чтение/записьBoolean.
 
 ```csharp
 public bool ShowLegendKey { get; set; }
@@ -17,11 +16,11 @@ public bool ShowLegendKey { get; set; }
 
 ### Примечания
 
-Если родительским объектом этого DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства ShowLegendKey для новых меток данных в коллекции DataLabelCollection. Установка этого свойства с заданным значением также устанавливает это значение для свойства ShowLegendKey для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowLegendKey = val;" приводит к тому, что все DataLabels[i].ShowLegendKey равняется val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства ShowLegendKey для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство ShowLegendKey для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowLegendKey = val;" приводит к тому, что все DataLabels[i].ShowLegendKey равно val).
 
-### См. также
+### Смотрите также
 
-* интерфейс [IDataLabelFormat](../../idatalabelformat)
+* interface [IDataLabelFormat](../../idatalabelformat)
 * пространство имен [Aspose.Slides.Charts](../../idatalabelformat)
 * сборка [Aspose.Slides](../../../)
 

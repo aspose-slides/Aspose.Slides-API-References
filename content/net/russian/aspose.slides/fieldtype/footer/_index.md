@@ -1,23 +1,22 @@
 ---
-title: Нижний колонтитул
+title: Footer
 second_title: Справочник по API Aspose.Slides для .NET
-description: Нижний колонтитул слайдов. Поле только для чтения FieldType aspose.slides/fieldtype.
+description: Нижний колонтитул слайда. Только для чтенияFieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 160
 url: /ru/aspose.slides/fieldtype/footer/
 ---
+## FieldType.Footer property
 
-## Свойство FieldType.Footer
-
-Нижний колонтитул слайда. Поле только для чтения [`FieldType`](../../fieldtype).
+Нижний колонтитул слайда. Только для чтения[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType Footer { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [FieldType](../../fieldtype)
+* class [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)
 * сборка [Aspose.Slides](../../../)
 

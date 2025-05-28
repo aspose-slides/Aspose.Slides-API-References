@@ -1,13 +1,12 @@
 ---
 title: IColumnFormat
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет формат столбца таблицы.
 type: docs
-weight: 5340
+weight: 5040
 url: /ru/aspose.slides/icolumnformat/
 ---
-
-## Интерфейс IColumnFormat
+## IColumnFormat interface
 
 Представляет формат столбца таблицы.
 
@@ -19,9 +18,9 @@ public interface IColumnFormat
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Получает эффективные свойства форматирования столбца таблицы с учетом наследования и применяемых стилей таблицы. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Получает эффективные свойства форматирования столбцов таблицы с применением стилей наследования и таблиц. |
 
-### Дополнительно
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

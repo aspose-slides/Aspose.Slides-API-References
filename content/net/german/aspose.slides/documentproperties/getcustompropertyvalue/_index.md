@@ -1,15 +1,14 @@
 ---
 title: GetCustomPropertyValue
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holt einen benannten booleschen Wert aus den benutzerdefinierten Eigenschaften.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Ruft einen benannten booleschen Wert aus den benutzerdefinierten Eigenschaften ab.
 type: docs
-weight: 430
+weight: 320
 url: /de/aspose.slides/documentproperties/getcustompropertyvalue/
 ---
-
 ## GetCustomPropertyValue(string, out bool) {#getcustompropertyvalue}
 
-Holt einen benannten booleschen Wert aus den benutzerdefinierten Eigenschaften.
+Ruft einen benannten booleschen Wert aus den benutzerdefinierten Eigenschaften ab.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out bool value)
@@ -17,20 +16,20 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der benutzerdefinierten Eigenschaft, die abgerufen werden soll |
-| value | Boolean& | Wert der benutzerdefinierten Eigenschaft |
+| name | String | Name der abzurufenden benutzerdefinierten Eigenschaft |
+| value | Boolean& | Benutzerdefinierter Eigenschaftswert |
 
-### Siehe Auch
+### Siehe auch
 
 * class [DocumentProperties](../../documentproperties)
-* namespace [Aspose.Slides](../../documentproperties)
-* assembly [Aspose.Slides](../../../)
+* namensraum [Aspose.Slides](../../documentproperties)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out int) {#getcustompropertyvalue_2}
 
-Holt einen benannten ganzzahligen Wert aus den benutzerdefinierten Eigenschaften.
+Ruft einen benannten ganzzahligen Wert aus den benutzerdefinierten Eigenschaften ab.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out int value)
@@ -38,20 +37,20 @@ public void GetCustomPropertyValue(string name, out int value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der benutzerdefinierten Eigenschaft, die abgerufen werden soll |
-| value | Int32& | Wert der benutzerdefinierten Eigenschaft |
+| name | String | Name der abzurufenden benutzerdefinierten Eigenschaft |
+| value | Int32& | Benutzerdefinierter Eigenschaftswert |
 
-### Siehe Auch
+### Siehe auch
 
 * class [DocumentProperties](../../documentproperties)
-* namespace [Aspose.Slides](../../documentproperties)
-* assembly [Aspose.Slides](../../../)
+* namensraum [Aspose.Slides](../../documentproperties)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out DateTime) {#getcustompropertyvalue_4}
 
-Holt einen benannten DateTime-Wert aus den benutzerdefinierten Eigenschaften.
+Ruft einen benannten DateTime-Wert aus den benutzerdefinierten Eigenschaften ab.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out DateTime value)
@@ -59,20 +58,20 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der benutzerdefinierten Eigenschaft, die abgerufen werden soll |
-| value | DateTime& | Wert der benutzerdefinierten Eigenschaft |
+| name | String | Name der abzurufenden benutzerdefinierten Eigenschaft |
+| value | DateTime& | Benutzerdefinierter Eigenschaftswert |
 
-### Siehe Auch
+### Siehe auch
 
 * class [DocumentProperties](../../documentproperties)
-* namespace [Aspose.Slides](../../documentproperties)
-* assembly [Aspose.Slides](../../../)
+* namensraum [Aspose.Slides](../../documentproperties)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out string) {#getcustompropertyvalue_5}
 
-Holt einen benannten String-Wert aus den benutzerdefinierten Eigenschaften.
+Ruft einen benannten Zeichenfolgenwert aus den benutzerdefinierten Eigenschaften ab.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out string value)
@@ -80,20 +79,20 @@ public void GetCustomPropertyValue(string name, out string value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der benutzerdefinierten Eigenschaft, die abgerufen werden soll |
-| value | String& | Wert der benutzerdefinierten Eigenschaft |
+| name | String | Name der abzurufenden benutzerdefinierten Eigenschaft |
+| value | String& | Benutzerdefinierter Eigenschaftswert |
 
-### Siehe Auch
+### Siehe auch
 
 * class [DocumentProperties](../../documentproperties)
-* namespace [Aspose.Slides](../../documentproperties)
-* assembly [Aspose.Slides](../../../)
+* namensraum [Aspose.Slides](../../documentproperties)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out float) {#getcustompropertyvalue_3}
 
-Holt einen benannten Float-Wert aus den benutzerdefinierten Eigenschaften.
+Ruft einen benannten Gleitkommawert aus den benutzerdefinierten Eigenschaften ab.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out float value)
@@ -101,20 +100,20 @@ public void GetCustomPropertyValue(string name, out float value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der benutzerdefinierten Eigenschaft, die abgerufen werden soll |
-| value | Single& | Wert der benutzerdefinierten Eigenschaft |
+| name | String | Name der abzurufenden benutzerdefinierten Eigenschaft |
+| value | Single& | Benutzerdefinierter Eigenschaftswert |
 
-### Siehe Auch
+### Siehe auch
 
 * class [DocumentProperties](../../documentproperties)
-* namespace [Aspose.Slides](../../documentproperties)
-* assembly [Aspose.Slides](../../../)
+* namensraum [Aspose.Slides](../../documentproperties)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## GetCustomPropertyValue(string, out double) {#getcustompropertyvalue_1}
 
-Holt einen benannten Double-Wert aus den benutzerdefinierten Eigenschaften.
+Ruft einen benannten Double-Wert aus den benutzerdefinierten Eigenschaften ab.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out double value)
@@ -122,13 +121,13 @@ public void GetCustomPropertyValue(string name, out double value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der benutzerdefinierten Eigenschaft, die abgerufen werden soll. |
-| value | Double& | Wert der benutzerdefinierten Eigenschaft |
+| name | String | Name der abzurufenden benutzerdefinierten Eigenschaft. |
+| value | Double& | Benutzerdefinierter Eigenschaftswert |
 
-### Siehe Auch
+### Siehe auch
 
 * class [DocumentProperties](../../documentproperties)
-* namespace [Aspose.Slides](../../documentproperties)
-* assembly [Aspose.Slides](../../../)
+* namensraum [Aspose.Slides](../../documentproperties)
+* Montage [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

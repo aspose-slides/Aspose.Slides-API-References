@@ -1,15 +1,14 @@
 ---
 title: RenderingOptions
-second_title: Aspose.Sildes pour .NET API Référence
-description: Fournit des options qui contrôlent comment une présentation/diapositive est rendue.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Fournit des options qui contrôlent le rendu dune présentation/diapositive.
 type: docs
-weight: 4220
+weight: 4000
 url: /fr/aspose.slides.export/renderingoptions/
 ---
+## RenderingOptions class
 
-## Classe RenderingOptions
-
-Fournit des options qui contrôlent comment une présentation/diapositive est rendue.
+Fournit des options qui contrôlent le rendu d'une présentation/diapositive.
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -17,22 +16,18 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 ## Constructeurs
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
 | [RenderingOptions](renderingoptions)() | Constructeur par défaut. |
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retourne ou définit la police utilisée en cas de non-trouvabilité de la police source. Chaîne en lecture-écriture. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur `true`, les ligatures seront désactivées dans le rendu. Par défaut, cette propriété est définie sur `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retourne ou définit le style visuel du dégradé. Lecture/écriture [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Fournit des options qui contrôlent l'apparence des objets Ink dans le document exporté. Lecture seule [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour ce qui est de sauver les mises à jour de progression en pourcentage. Voir [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de la sauvegarde de la présentation. Lecture/écriture Booléen. La valeur par défaut est **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retourne ou définit un objet qui reçoit des avertissements et décide si le processus de chargement doit continuer ou être interrompu. Lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée dans le cas où la police source est introuvable. Lecture-écritureString . |
+| [NotesCommentsLayouting](../../aspose.slides.export/renderingoptions/notescommentslayouting) { get; } | Fournit des options qui contrôlent la façon dont les notes et les commentaires sont placés dans le document exporté. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour enregistrer les mises à jour de progression en pourcentage. Voir[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Renvoie des ensembles d'un objet qui reçoit des avertissements et décide si le processus de chargement va continuer ou sera abandonné. Lecture/écriture[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
 
 ### Exemples
 
@@ -41,7 +36,7 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 using (Presentation pres = new Presentation("pres.pptx"))
   {
   IRenderingOptions renderingOpts = new RenderingOptions();
-  renderingOpts.SlidesLayoutOptions = new NotesCommentsLayoutingOptions() { NotesPosition = NotesPositions.BottomTruncated };
+  renderingOpts.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
   
   pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-Original.png", ImageFormat.Png);
   
@@ -53,11 +48,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir également
 
-* classe [SaveOptions](../saveoptions)
+* class [SaveOptions](../saveoptions)
 * interface [IRenderingOptions](../irenderingoptions)
 * espace de noms [Aspose.Slides.Export](../../aspose.slides.export)
-* assemblage [Aspose.Slides](../../)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

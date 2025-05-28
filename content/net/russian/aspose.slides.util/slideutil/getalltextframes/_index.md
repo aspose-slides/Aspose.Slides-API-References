@@ -1,15 +1,14 @@
 ---
 title: GetAllTextFrames
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает все текстовые блоки в презентации PPTX.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает все текстовые фреймы в презентации PPTX.
 type: docs
-weight: 50
+weight: 40
 url: /ru/aspose.slides.util/slideutil/getalltextframes/
 ---
+## SlideUtil.GetAllTextFrames method
 
-## SlideUtil.GetAllTextFrames метод
-
-Возвращает все текстовые блоки в презентации PPTX.
+Возвращает все текстовые фреймы в презентации PPTX.
 
 ```csharp
 public static ITextFrame[] GetAllTextFrames(IPresentation pres, bool withMasters)
@@ -17,18 +16,18 @@ public static ITextFrame[] GetAllTextFrames(IPresentation pres, bool withMasters
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | IPresentation | Сканируемая презентация. |
+| pres | IPresentation | Отсканированная презентация. |
 | withMasters | Boolean | Определяет, следует ли сканировать мастер-слайды. |
 
 ### Возвращаемое значение
 
-Массив объектов [`TextFrame`](../../../aspose.slides/textframe).
+Массив объектов[`TextFrame`](../../../aspose.slides/textframe).
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITextFrame](../../../aspose.slides/itextframe)
-* интерфейс [IPresentation](../../../aspose.slides/ipresentation)
-* класс [SlideUtil](../../slideutil)
+* interface [ITextFrame](../../../aspose.slides/itextframe)
+* interface [IPresentation](../../../aspose.slides/ipresentation)
+* class [SlideUtil](../../slideutil)
 * пространство имен [Aspose.Slides.Util](../../slideutil)
 * сборка [Aspose.Slides](../../../)
 

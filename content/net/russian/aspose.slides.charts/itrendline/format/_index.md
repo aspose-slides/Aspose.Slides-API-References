@@ -1,24 +1,23 @@
 ---
-title: Формат
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет формат линии тренда. Чтение/запись IFormataspose.slides.charts/iformat.
+title: Format
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет формат линии тренда. Чтение/записьIFormataspose.slides.charts/iformat.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/itrendline/format/
 ---
+## ITrendline.Format property
 
-## Свойство ITrendline.Format
-
-Представляет формат линии тренда. Чтение/запись [`IFormat`](../../iformat).
+Представляет формат линии тренда. Чтение/запись[`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFormat](../../iformat)
-* интерфейс [ITrendline](../../itrendline)
+* interface [IFormat](../../iformat)
+* interface [ITrendline](../../itrendline)
 * пространство имен [Aspose.Slides.Charts](../../itrendline)
 * сборка [Aspose.Slides](../../../)
 

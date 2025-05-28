@@ -1,38 +1,37 @@
 ---
-title: Сияние
+title: Glow
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект Сияния, в котором цветная размытая граница добавляется за пределами краев объекта.
+description: Представляет эффект свечения при котором размытый цвет контура добавляется за края объекта.
 type: docs
-weight: 2890
+weight: 2810
 url: /ru/aspose.slides.effects/glow/
 ---
+## Glow class
 
-## Класс Glow
-
-Представляет эффект Сияния, в котором цветная размытая граница добавляется за пределами краев объекта.
+Представляет эффект свечения, при котором размытый цвет контура добавляется за края объекта.
 
 ```csharp
-public sealed class Glow : IGlow
+public class Glow : IGlow
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.slides.effects/glow/color) { get; } | Формат цвета. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Радиус. Читаемое/записываемое Double. |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | Формат цвета. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Радиус. Чтение/записьDouble. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Определяет, равно ли указанное [`Glow`](../glow) текущему [`Glow`](../glow). |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Получает данные об эффективном эффекте Сияния с примененным наследованием. |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Определяет, равен ли указанный[`Glow`](../glow)текущемуСвечение. |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Получает данные об эффективном эффекте свечения с применением наследования. |
 | override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Служит хэш-функцией для определенного типа. |
 
-### Также см. 
+### Смотрите также
 
-* интерфейс [IGlow](../iglow)
+* interface [IGlow](../iglow)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

@@ -1,30 +1,29 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Неизменяемый объект, представляющий эффект мягкого края. Края формы размыты, в то время как заливка не затрагивается.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект представляющий эффект мягкого края. Края фигуры размыты а заливка не затронута.
 type: docs
-weight: 3410
+weight: 3330
 url: /ru/aspose.slides.effects/isoftedgeeffectivedata/
 ---
+## ISoftEdgeEffectiveData interface
 
-## Интерфейс ISoftEdgeEffectiveData
-
-Неизменяемый объект, представляющий эффект мягкого края. Края формы размыты, в то время как заливка не затрагивается.
+Неизменяемый объект, представляющий эффект мягкого края. Края фигуры размыты, а заливка не затронута.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Указывает радиус размытия, который будет применен к краям. Только для чтения Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Указывает радиус размытия, применяемый к краям. Только для чтенияDouble. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
+* interface [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

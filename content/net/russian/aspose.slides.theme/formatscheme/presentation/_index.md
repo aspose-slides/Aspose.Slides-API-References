@@ -1,24 +1,23 @@
 ---
-title: Презентация
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает родительскую презентацию. Только для чтения IPresentationaspose.slides/ipresentation.
+title: Presentation
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает родительскую презентацию. Только чтениеIPresentationaspose.slides/ipresentation.
 type: docs
 weight: 50
 url: /ru/aspose.slides.theme/formatscheme/presentation/
 ---
+## FormatScheme.Presentation property
 
-## Свойство FormatScheme.Presentation
-
-Возвращает родительскую презентацию. Только для чтения [`IPresentation`](../../../aspose.slides/ipresentation).
+Возвращает родительскую презентацию. Только чтение[`IPresentation`](../../../aspose.slides/ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IPresentation](../../../aspose.slides/ipresentation)
-* класс [FormatScheme](../../formatscheme)
+* interface [IPresentation](../../../aspose.slides/ipresentation)
+* class [FormatScheme](../../formatscheme)
 * пространство имен [Aspose.Slides.Theme](../../formatscheme)
 * сборка [Aspose.Slides](../../../)
 

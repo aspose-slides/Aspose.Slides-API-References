@@ -1,24 +1,23 @@
 ---
 title: SeriesAxis
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает ось серии графиков. Только для чтения IAxisaspose.slides.charts/iaxis.
+description: Получает ось серии диаграммы. Только для чтенияIAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/axesmanager/seriesaxis/
 ---
+## AxesManager.SeriesAxis property
 
-## Свойство AxesManager.SeriesAxis
-
-Получает ось серии графика. Только для чтения [`IAxis`](../../iaxis).
+Получает ось серии диаграммы. Только для чтения[`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis SeriesAxis { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
-* класс [AxesManager](../../axesmanager)
+* interface [IAxis](../../iaxis)
+* class [AxesManager](../../axesmanager)
 * пространство имен [Aspose.Slides.Charts](../../axesmanager)
 * сборка [Aspose.Slides](../../../)
 

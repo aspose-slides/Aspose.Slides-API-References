@@ -1,15 +1,14 @@
 ---
 title: Contains
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, содержит ли ICollection конкретное значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет содержит лиICollectionопределенное значение.
 type: docs
 weight: 230
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/contains/
 ---
+## ImageTransformOperationCollection.Contains method
 
-## Метод ImageTransformOperationCollection.Contains
-
-Определяет, содержит ли ICollection конкретное значение.
+Определяет, содержит лиICollectionопределенное значение.
 
 ```csharp
 public bool Contains(IImageTransformOperation item)
@@ -17,16 +16,16 @@ public bool Contains(IImageTransformOperation item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IImageTransformOperation | Объект, который нужно найти в ICollection. |
+| item | IImageTransformOperation | Объект для размещения вICollection. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-true, если *item* найден в ICollection; в противном случае false.
+true, если*item*находится вICollection; в противном случае ложно.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IImageTransformOperation](../../iimagetransformoperation)
-* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* interface [IImageTransformOperation](../../iimagetransformoperation)
+* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: FillFocusSizeY
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство fill.focussize.y
 type: docs
 weight: 340
 url: /ru/aspose.slides.animation/behaviorproperty/fillfocussizey/
 ---
-
-## Свойство BehaviorProperty.FillFocusSizeY
+## BehaviorProperty.FillFocusSizeY property
 
 Представляет свойство 'fill.focussize.y'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/fillfocussizey/
 public static BehaviorProperty FillFocusSizeY { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

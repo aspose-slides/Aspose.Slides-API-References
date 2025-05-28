@@ -1,13 +1,12 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/chartseriesgroup/item/
 ---
-
-## Индексатор ChartSeriesGroup
+## ChartSeriesGroup indexer
 
 Получает элемент по указанному индексу.
 
@@ -17,8 +16,8 @@ public IChartSeries this[int index] { get; }
 
 ### Смотрите также
 
-* интерфейс [IChartSeries](../../ichartseries)
-* класс [ChartSeriesGroup](../../chartseriesgroup)
+* interface [IChartSeries](../../ichartseries)
+* class [ChartSeriesGroup](../../chartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../chartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

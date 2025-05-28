@@ -1,15 +1,14 @@
 ---
 title: HighlightText
-second_title: Aspose.Slides для .NET API Reference
-description: Подсвечивает все совпадения образца текста с указанным цветом.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Выделить все совпадения образца в текстовом фрейме указанным цветом.
 type: docs
-weight: 90
+weight: 70
 url: /ru/aspose.slides/itextframe/highlighttext/
 ---
-
 ## HighlightText(string, Color) {#highlighttext}
 
-Подсвечивает все совпадения образца текста с указанным цветом.
+Выделить все совпадения образца в текстовом фрейме указанным цветом.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -17,55 +16,35 @@ public void HighlightText(string text, Color highlightColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст для подсветки. |
-| highlightColor | Color | Цвет для подсветки текста. |
+| text | String | Образец текста для выделения. |
+| highlightColor | Color | Цвет подсветки. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITextFrame](../../itextframe)
+* interface [ITextFrame](../../itextframe)
 * пространство имен [Aspose.Slides](../../itextframe)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
+## HighlightText(string, Color, ITextHighlightingOptions) {#highlighttext_1}
 
-Подсвечивает все совпадения образца текста с указанным цветом.
+Выделить все совпадения образца в текстовом фрейме указанным цветом.
 
 ```csharp
-public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
-    IFindResultCallback callback)
+public void HighlightText(string text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст для подсветки. |
-| highlightColor | Color | Цвет для подсветки текста. |
-| options | ITextSearchOptions | Опции поиска текста [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](../../ifindresultcallback). |
+| text | String | Образец текста для выделения. |
+| highlightColor | Color | Цвет подсветки. |
+| options | ITextHighlightingOptions | Подсветка параметров. |
 
-### Примеры
+### Смотрите также
 
-Следующий пример кода демонстрирует, как подсветить текст в TextFrame.
-
-```csharp
-[C#]
-using (Presentation presentation = new Presentation("SomePresentation.pptx"))
-{
-	// подсвечивание всех слов 'важно'
-	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("важно", Color.LightBlue);
-	// подсвечивание всех отдельных вхождений 'the'
-	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
-	{ WholeWordsOnly = true }, null);
-	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
-}
-```
-
-### См. также
-
-* интерфейс [ITextSearchOptions](../../itextsearchoptions)
-* интерфейс [IFindResultCallback](../../ifindresultcallback)
-* интерфейс [ITextFrame](../../itextframe)
+* interface [ITextHighlightingOptions](../../itexthighlightingoptions)
+* interface [ITextFrame](../../itextframe)
 * пространство имен [Aspose.Slides](../../itextframe)
 * сборка [Aspose.Slides](../../../)
 

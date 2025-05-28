@@ -1,23 +1,22 @@
 ---
 title: ShowFullScreen
-second_title: Aspose.Sildes для .NET API Справочник
-description: Показать/скрыть кнопку полноэкранного режима. Может быть переопределено в flashvars. По умолчанию true.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Показать/скрыть полноэкранную кнопку. Может быть переопределен в flashvars. Значение по умолчанию верно.
 type: docs
-weight: 80
+weight: 90
 url: /ru/aspose.slides.export/swfoptions/showfullscreen/
 ---
+## SwfOptions.ShowFullScreen property
 
-## Свойство SwfOptions.ShowFullScreen
-
-Показать/скрыть кнопку полноэкранного режима. Может быть переопределено в flashvars. По умолчанию true.
+Показать/скрыть полноэкранную кнопку. Может быть переопределен в flashvars. Значение по умолчанию верно.
 
 ```csharp
 public bool ShowFullScreen { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [SwfOptions](../../swfoptions)
+* class [SwfOptions](../../swfoptions)
 * пространство имен [Aspose.Slides.Export](../../swfoptions)
 * сборка [Aspose.Slides](../../../)
 

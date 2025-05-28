@@ -1,15 +1,14 @@
 ---
 title: NumberOfBins
-second_title: Aspose.Slides для .NET API Reference
-description: Указывает количество биннов, когда значение свойства AggregationType установлено на AxisAggregationType.ByNumberOfBins. Применяется к категориям осей. Используется только с сериями Histogram или HistogramPareto.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает количество бинов когда для свойства AggregationType установлено значение AxisAggregationType.ByNumberOfBins. Применяется к осям категорий. Используется только с сериями Histogram или HistogramPareto.
 type: docs
 weight: 450
 url: /ru/aspose.slides.charts/axis/numberofbins/
 ---
+## Axis.NumberOfBins property
 
-## Свойство Axis.NumberOfBins
-
-Указывает количество биннов, когда значение свойства AggregationType установлено на AxisAggregationType.ByNumberOfBins. Применяется к категориям осей. Используется только с сериями Histogram или HistogramPareto.
+Указывает количество бинов, когда для свойства AggregationType установлено значение AxisAggregationType.ByNumberOfBins. Применяется к осям категорий. Используется только с сериями Histogram или HistogramPareto.
 
 ```csharp
 public uint NumberOfBins { get; set; }
@@ -17,7 +16,7 @@ public uint NumberOfBins { get; set; }
 
 ### Смотрите также
 
-* класс [Axis](../../axis)
+* class [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

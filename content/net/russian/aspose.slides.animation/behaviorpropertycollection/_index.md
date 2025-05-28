@@ -1,50 +1,49 @@
 ---
 title: BehaviorPropertyCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет временные свойства для поведения эффекта.
+description: Представляет свойства синхронизации для поведения эффекта.
 type: docs
-weight: 120
+weight: 100
 url: /ru/aspose.slides.animation/behaviorpropertycollection/
 ---
+## BehaviorPropertyCollection class
 
-## Класс BehaviorPropertyCollection
-
-Представляет временные свойства для поведения эффекта.
+Представляет свойства синхронизации для поведения эффекта.
 
 ```csharp
 public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Возвращает количество свойств, хранящихся в коллекции. Свойство только для чтения типа Int32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Получает значение, указывающее, является ли ICollection только для чтения. Свойство только для чтения типа Boolean. |
+| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Возвращает количество свойств, хранящихся в коллекции. Только для чтенияInt32. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Получает значение, указывающее, является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean. |
 | [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Возвращает свойство по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Добавляет новое свойство в коллекцию. |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Добавляет новое свойство в коллекцию. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Добавляет в коллекцию новое свойство. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Добавляет в коллекцию новое свойство. |
 | [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Удаляет все свойства из коллекции. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Определяет, содержит ли ICollection определенное значение. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Определяет, содержит ли ICollection определенное значение. |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Копирует элементы ICollection в массив, начиная с указанного индекса массива. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Определяет, содержит лиICollectionопределенное значение. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Определяет, содержит лиICollectionопределенное значение. |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Копирует элементыICollectionвArray, начиная с определенногоArrayindex. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Определяет индекс конкретного элемента в IList. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Определяет индекс конкретного элемента по значению свойства в IList. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Определяет индекс конкретного элемента вIList. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Определяет индекс конкретного элемента по значению свойства вIList. |
 | [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Вставляет новое свойство в коллекцию по указанному индексу. |
 | [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Вставляет новое свойство (с указанным значением свойства) в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | Удаляет указанное свойство из коллекции. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | Удаляет указанное свойство из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Удаляет свойство по указанному индексу. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IBehaviorPropertyCollection](../ibehaviorpropertycollection)
+* interface [IBehaviorPropertyCollection](../ibehaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

@@ -1,33 +1,32 @@
 ---
 title: IFontSchemeEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект, содержащий свойства эффективной схемы шрифтов.
+description: Неизменяемый объект содержащий эффективные свойства схемы шрифта.
 type: docs
-weight: 10950
+weight: 10450
 url: /ru/aspose.slides.theme/ifontschemeeffectivedata/
 ---
+## IFontSchemeEffectiveData interface
 
-## Интерфейс IFontSchemeEffectiveData
-
-Неизменяемый объект, содержащий свойства эффективной схемы шрифтов.
+Неизменяемый объект, содержащий эффективные свойства схемы шрифта.
 
 ```csharp
 public interface IFontSchemeEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Возвращает коллекцию шрифтов для части "заголовка" слайда. Только для чтения [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Возвращает коллекцию шрифтов для части "основного текста" слайда. Только для чтения [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Возвращает имя схемы шрифтов. Только для чтения Строка. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Возвращает коллекцию шрифтов для «заголовка» слайда. Только для чтения[`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Возвращает коллекцию шрифтов для основной части слайда. Только для чтения[`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Возвращает имя схемы шрифта. Только чтениеString. |
 
 ### Примечания
 
-Этот интерфейс используется как часть [`IThemeEffectiveData`](../ithemeeffectivedata).
+Этот интерфейс используется как часть[`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)

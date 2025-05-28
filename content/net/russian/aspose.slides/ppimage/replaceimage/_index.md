@@ -1,15 +1,14 @@
 ---
 title: ReplaceImage
-second_title: Aspose.Sildes для .NET API Reference
-description: Заменяет данные изображения. Данные новых изображений. Когда параметр newImageData равен null.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Заменяет данные изображения.  Данные нового изображения. Когда параметр newImageData имеет значение null.
 type: docs
 weight: 110
 url: /ru/aspose.slides/ppimage/replaceimage/
 ---
+## ReplaceImage(byte[]) {#replaceimage_1}
 
-## ReplaceImage(byte[]) {#replaceimage_2}
-
-Заменяет данные изображения. Данные нового изображения. Когда параметр newImageData равен null.
+Заменяет данные изображения.  Данные нового изображения. Когда параметр newImageData имеет значение null.
 
 ```csharp
 public void ReplaceImage(byte[] newImageData)
@@ -17,32 +16,31 @@ public void ReplaceImage(byte[] newImageData)
 
 ### Смотрите также
 
-* класс [PPImage](../../ppimage)
+* class [PPImage](../../ppimage)
 * пространство имен [Aspose.Slides](../../ppimage)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## ReplaceImage(IImage) {#replaceimage}
+## ReplaceImage(Image) {#replaceimage_2}
 
-Заменяет данные изображения. Внимание: когда изображение является метафайлом - оно будет растеризовано. Используйте ReplaceImage(byte[]) вместо нового изображения. Когда параметр newImage равен null.
+Заменяет данные изображения. Внимание:когда изображение является метафайлом - оно будет растеризовано из-за ограничений GDI+. Вместо этого используйте ReplaceImage(byte[])  Новое изображение. Когда параметр newImage имеет значение null.
 
 ```csharp
-public void ReplaceImage(IImage newImage)
+public void ReplaceImage(Image newImage)
 ```
 
 ### Смотрите также
 
-* интерфейс [IImage](../../iimage)
-* класс [PPImage](../../ppimage)
+* class [PPImage](../../ppimage)
 * пространство имен [Aspose.Slides](../../ppimage)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## ReplaceImage(IPPImage) {#replaceimage_1}
+## ReplaceImage(IPPImage) {#replaceimage}
 
-Заменяет данные изображения. Новый IPPImage. Когда параметр newImage равен null.
+Заменяет данные изображения.  Новый IPPImage. Когда параметр newImage имеет значение null.
 
 ```csharp
 public void ReplaceImage(IPPImage newImage)
@@ -50,8 +48,8 @@ public void ReplaceImage(IPPImage newImage)
 
 ### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
-* класс [PPImage](../../ppimage)
+* interface [IPPImage](../../ippimage)
+* class [PPImage](../../ppimage)
 * пространство имен [Aspose.Slides](../../ppimage)
 * сборка [Aspose.Slides](../../../)
 

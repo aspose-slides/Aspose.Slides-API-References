@@ -1,30 +1,29 @@
 ---
 title: ISideDirectionTransition
-second_title: Aspose.Slidес для .NET API Reference
-description: Эффект перехода слайдов в боковом направлении.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода слайда в боковом направлении.
 type: docs
-weight: 9880
+weight: 9410
 url: /ru/aspose.slides.slideshow/isidedirectiontransition/
 ---
+## ISideDirectionTransition interface
 
-## Интерфейс ISideDirectionTransition
-
-Эффект перехода слайдов в боковом направлении.
+Эффект перехода слайда в боковом направлении.
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Направление перехода. Читаемое/записываемое [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITransitionValueBase](../itransitionvaluebase)
+* interface [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

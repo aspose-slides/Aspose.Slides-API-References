@@ -1,15 +1,14 @@
 ---
 title: WriteBindedPresentation
-second_title: Aspose.Slides для .NET API Reference
-description: Записывает привязанную презентацию в поток.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Записывает связанную презентацию в поток.
 type: docs
 weight: 90
 url: /ru/aspose.slides/presentationinfo/writebindedpresentation/
 ---
-
 ## WriteBindedPresentation(Stream) {#writebindedpresentation}
 
-Записывает привязанную презентацию в поток.
+Записывает связанную презентацию в поток.
 
 ```csharp
 public void WriteBindedPresentation(Stream stream)
@@ -17,11 +16,11 @@ public void WriteBindedPresentation(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток должен быть поддерживающим перемещение и записываемым. |
+| stream | Stream | Поток должен быть доступным для поиска и записи. |
 
-### См. также
+### Смотрите также
 
-* класс [PresentationInfo](../../presentationinfo)
+* class [PresentationInfo](../../presentationinfo)
 * пространство имен [Aspose.Slides](../../presentationinfo)
 * сборка [Aspose.Slides](../../../)
 
@@ -29,7 +28,7 @@ public void WriteBindedPresentation(Stream stream)
 
 ## WriteBindedPresentation(string) {#writebindedpresentation_1}
 
-Записывает привязанную презентацию в файл.
+Записывает связанную презентацию в файл.
 
 ```csharp
 public void WriteBindedPresentation(string file)
@@ -39,9 +38,9 @@ public void WriteBindedPresentation(string file)
 | --- | --- | --- |
 | file | String | Файл презентации. |
 
-### См. также
+### Смотрите также
 
-* класс [PresentationInfo](../../presentationinfo)
+* class [PresentationInfo](../../presentationinfo)
 * пространство имен [Aspose.Slides](../../presentationinfo)
 * сборка [Aspose.Slides](../../../)
 

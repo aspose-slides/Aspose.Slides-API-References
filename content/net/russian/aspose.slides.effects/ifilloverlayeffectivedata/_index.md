@@ -1,31 +1,30 @@
 ---
 title: IFillOverlayEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неразрушимый объект, представляющий эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок.
+description: Неизменяемый объект представляющий эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок вместе.
 type: docs
-weight: 3190
+weight: 3110
 url: /ru/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
+## IFillOverlayEffectiveData interface
 
-## Интерфейс IFillOverlayEffectiveData
-
-Неразрушимый объект, представляющий эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок.
+Неизменяемый объект, представляющий эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок вместе.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Только для чтения [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Формат заливки. Только для чтения [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Только для чтения[`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Формат заполнения. Только для чтения[`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
+* interface [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

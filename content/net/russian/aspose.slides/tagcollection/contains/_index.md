@@ -1,15 +1,14 @@
 ---
-title: Содержит
+title: Contains
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, содержит ли коллекция конкретное имя.
+description: Определяет содержит ли коллекция определенное имя.
 type: docs
 weight: 70
 url: /ru/aspose.slides/tagcollection/contains/
 ---
+## TagCollection.Contains method
 
-## Метод TagCollection.Contains
-
-Определяет, содержит ли коллекция конкретное имя.
+Определяет, содержит ли коллекция определенное имя.
 
 ```csharp
 public bool Contains(string name)
@@ -21,11 +20,11 @@ public bool Contains(string name)
 
 ### Возвращаемое значение
 
-True, если коллекция содержит тег с указанным ключом; в противном случае - false.
+Истина, если коллекция содержит тег с указанным ключом; в противном случае ложно.
 
-### См. также
+### Смотрите также
 
-* класс [TagCollection](../../tagcollection)
+* class [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)
 * сборка [Aspose.Slides](../../../)
 

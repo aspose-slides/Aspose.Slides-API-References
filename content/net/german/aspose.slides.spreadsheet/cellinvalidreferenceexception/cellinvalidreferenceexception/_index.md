@@ -1,15 +1,14 @@
 ---
 title: CellInvalidReferenceException
-second_title: Aspose.Slides für .NET API-Referenz
-description: Initialisiert eine neue Instanz der CellInvalidReferenceExceptionaspose.slides.spreadsheet/cellinvalidreferenceexception-Klasse.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Initialisiert eine neue Instanz vonCellInvalidReferenceExceptionaspose.slides.spreadsheet/cellinvalidreferenceexception Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/
 ---
-
 ## CellInvalidReferenceException() {#constructor}
 
-Initialisiert eine neue Instanz der [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) Klasse.
+Initialisiert eine neue Instanz von[`CellInvalidReferenceException`](../../cellinvalidreferenceexception) Klasse.
 
 ```csharp
 public CellInvalidReferenceException()
@@ -17,15 +16,15 @@ public CellInvalidReferenceException()
 
 ### Siehe auch
 
-* Klasse [CellInvalidReferenceException](../../cellinvalidreferenceexception)
-* Namespace [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
-* Assembly [Aspose.Slides](../../../)
+* class [CellInvalidReferenceException](../../cellinvalidreferenceexception)
+* namensraum [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## CellInvalidReferenceException(string) {#constructor_1}
 
-Initialisiert eine neue Instanz der [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) Klasse mit einer angegebenen Fehlermeldung.
+Initialisiert eine neue Instanz von[`CellInvalidReferenceException`](../../cellinvalidreferenceexception) Klasse mit einer bestimmten Fehlermeldung.
 
 ```csharp
 public CellInvalidReferenceException(string message)
@@ -33,19 +32,19 @@ public CellInvalidReferenceException(string message)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| message | String | Ein String, der den Fehler beschreibt. |
+| message | String | Eine Zeichenfolge, die den Fehler beschreibt. |
 
 ### Siehe auch
 
-* Klasse [CellInvalidReferenceException](../../cellinvalidreferenceexception)
-* Namespace [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
-* Assembly [Aspose.Slides](../../../)
+* class [CellInvalidReferenceException](../../cellinvalidreferenceexception)
+* namensraum [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## CellInvalidReferenceException(string, Exception) {#constructor_2}
 
-Initialisiert eine neue Instanz der [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einer Referenz auf die innere Ausnahme, die die Ursache dieser Ausnahme ist.
+Initialisiert eine neue Instanz von[`CellInvalidReferenceException`](../../cellinvalidreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die die Ursache dieser Ausnahme ist.
 
 ```csharp
 public CellInvalidReferenceException(string message, Exception innerException)
@@ -53,20 +52,20 @@ public CellInvalidReferenceException(string message, Exception innerException)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| message | String | Ein String, der den Fehler beschreibt. |
+| message | String | Eine Zeichenfolge, die den Fehler beschreibt. |
 | innerException | Exception | Die Ausnahme, die die Ursache der aktuellen Ausnahme ist. |
 
 ### Siehe auch
 
-* Klasse [CellInvalidReferenceException](../../cellinvalidreferenceexception)
-* Namespace [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
-* Assembly [Aspose.Slides](../../../)
+* class [CellInvalidReferenceException](../../cellinvalidreferenceexception)
+* namensraum [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## CellInvalidReferenceException(string, string) {#constructor_3}
 
-Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einer ungültigen Zellreferenz.
+Initialisiert eine neue Instanz von[`CellCircularReferenceException`](../../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einem ungültigen Zellbezug.
 
 ```csharp
 public CellInvalidReferenceException(string message, string reference)
@@ -74,13 +73,13 @@ public CellInvalidReferenceException(string message, string reference)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| message | String | Ein String, der den Fehler beschreibt. |
-| reference | String | Eine ungültige Zellreferenz. |
+| message | String | Eine Zeichenfolge, die den Fehler beschreibt. |
+| reference | String | Ein ungültiger Zellbezug. |
 
 ### Siehe auch
 
-* Klasse [CellInvalidReferenceException](../../cellinvalidreferenceexception)
-* Namespace [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
-* Assembly [Aspose.Slides](../../../)
+* class [CellInvalidReferenceException](../../cellinvalidreferenceexception)
+* namensraum [Aspose.Slides.Spreadsheet](../../cellinvalidreferenceexception)
+* Montage [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

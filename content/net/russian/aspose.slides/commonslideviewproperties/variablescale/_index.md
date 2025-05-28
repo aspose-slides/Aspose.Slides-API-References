@@ -1,23 +1,22 @@
 ---
 title: VariableScale
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, что содержимое просмотра должно автоматически масштабироваться для наилучшего соответствия текущему размеру окна. Читаемое/Записываемое логическое значение.
+description: Указывает что содержимое представления должно автоматически масштабироваться для наилучшего соответствия текущему размеру окна. Чтение/записьBoolean.
 type: docs
-weight: 30
+weight: 20
 url: /ru/aspose.slides/commonslideviewproperties/variablescale/
 ---
+## CommonSlideViewProperties.VariableScale property
 
-## Свойство CommonSlideViewProperties.VariableScale
-
-Указывает, что содержимое просмотра должно автоматически масштабироваться для наилучшего соответствия текущему размеру окна. Читаемое/Записываемое логическое значение.
+Указывает, что содержимое представления должно автоматически масштабироваться для наилучшего соответствия текущему размеру окна. Чтение/записьBoolean.
 
 ```csharp
 public bool VariableScale { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [CommonSlideViewProperties](../../commonslideviewproperties)
+* class [CommonSlideViewProperties](../../commonslideviewproperties)
 * пространство имен [Aspose.Slides](../../commonslideviewproperties)
 * сборка [Aspose.Slides](../../../)
 

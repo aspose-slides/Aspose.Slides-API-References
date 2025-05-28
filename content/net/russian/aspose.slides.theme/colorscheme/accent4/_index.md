@@ -1,24 +1,23 @@
 ---
 title: Accent4
 second_title: Справочник по API Aspose.Slides для .NET
-description: Четвертый акцентный цвет в схеме. Только для чтения IColorFormataspose.slides/icolorformat.
+description: Четвертый акцентный цвет в схеме. Только для чтенияIColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides.theme/colorscheme/accent4/
 ---
+## ColorScheme.Accent4 property
 
-## ColorScheme.Accent4 свойство
-
-Четвертый акцентный цвет в схеме. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
+Четвертый акцентный цвет в схеме. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent4 { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
-* класс [ColorScheme](../../colorscheme)
+* interface [IColorFormat](../../../aspose.slides/icolorformat)
+* class [ColorScheme](../../colorscheme)
 * пространство имен [Aspose.Slides.Theme](../../colorscheme)
 * сборка [Aspose.Slides](../../../)
 

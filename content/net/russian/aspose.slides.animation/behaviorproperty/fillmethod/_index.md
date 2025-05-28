@@ -6,18 +6,17 @@ type: docs
 weight: 350
 url: /ru/aspose.slides.animation/behaviorproperty/fillmethod/
 ---
+## BehaviorProperty.FillMethod property
 
-## Свойство BehaviorProperty.FillMethod
-
-Представляет свойство 'fill.method'
+Представляет свойство fill.method
 
 ```csharp
 public static BehaviorProperty FillMethod { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

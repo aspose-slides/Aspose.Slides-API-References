@@ -1,13 +1,12 @@
 ---
 title: CreateMathSubscriptElement
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает IMathSubscriptElement
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement/
 ---
-
-## Метод IMathSubscriptElementFactory.CreateMathSubscriptElement
+## IMathSubscriptElementFactory.CreateMathSubscriptElement method
 
 Создает IMathSubscriptElement
 
@@ -18,18 +17,18 @@ public IMathSubscriptElement CreateMathSubscriptElement(IMathElement baseArg,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArg | IMathElement | Основной аргумент для применения индекса |
-| subScript | IMathElement | Нижний правый индекс |
+| baseArg | IMathElement | Базовый аргумент для применения indexe |
+| subScript | IMathElement | нижний правый индекс |
 
 ### Возвращаемое значение
 
 новый IMathSubscriptElement
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathSubscriptElement](../../imathsubscriptelement)
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathSubscriptElementFactory](../../imathsubscriptelementfactory)
+* interface [IMathSubscriptElement](../../imathsubscriptelement)
+* interface [IMathElement](../../imathelement)
+* interface [IMathSubscriptElementFactory](../../imathsubscriptelementfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathsubscriptelementfactory)
 * сборка [Aspose.Slides](../../../)
 

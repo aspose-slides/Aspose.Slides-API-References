@@ -1,13 +1,12 @@
 ---
-title: ОриентацияСлайда
-second_title: Справочник по Aspose.Sildes для .NET
+title: SlideOrientation
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет ориентацию слайда.
 type: docs
-weight: 9690
+weight: 9220
 url: /ru/aspose.slides/slideorientation/
 ---
-
-## Перечисление ОриентацияСлайда
+## SlideOrientation enumeration
 
 Представляет ориентацию слайда.
 
@@ -15,14 +14,14 @@ url: /ru/aspose.slides/slideorientation/
 public enum SlideOrientation
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
-| Ландшафт | `0` | Ландшафтная ориентация. |
-| Портрет | `1` | Портретная ориентация. |
+| Landscape | `0` | Альбомная ориентация. |
+| Portrait | `1` | Книжная ориентация. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

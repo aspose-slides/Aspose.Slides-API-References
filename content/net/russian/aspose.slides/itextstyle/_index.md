@@ -3,11 +3,10 @@ title: ITextStyle
 second_title: Справочник по API Aspose.Slides для .NET
 description: Свойства форматирования стиля текста.
 type: docs
-weight: 7090
+weight: 6730
 url: /ru/aspose.slides/itextstyle/
 ---
-
-## Интерфейс ITextStyle
+## ITextStyle interface
 
 Свойства форматирования стиля текста.
 
@@ -15,20 +14,20 @@ url: /ru/aspose.slides/itextstyle/
 public interface ITextStyle
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Свойства абзаца по умолчанию. Только для чтения [`IParagraphFormat`](../iparagraphformat). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Свойства абзаца по умолчанию. Только для чтения[`IParagraphFormat`](../iparagraphformat). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Получает данные форматирования стиля текста с применением наследования. |
-| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | Если уровень стиля существует, возвращает его, в противном случае возвращает null. |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Получает данные форматирования эффективного текстового стиля с применением наследования. |
+| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | Если уровень стиля существует, возвращает его, иначе возвращает ноль. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

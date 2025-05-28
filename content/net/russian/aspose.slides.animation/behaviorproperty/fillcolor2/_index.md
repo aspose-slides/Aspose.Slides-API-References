@@ -1,23 +1,22 @@
 ---
 title: FillColor2
-second_title: Ссылка на API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство fill.color2
 type: docs
 weight: 290
 url: /ru/aspose.slides.animation/behaviorproperty/fillcolor2/
 ---
+## BehaviorProperty.FillColor2 property
 
-## Свойство BehaviorProperty.FillColor2
-
-Представляет свойство 'fill.color2'
+Представляет свойство fill.color2
 
 ```csharp
 public static BehaviorProperty FillColor2 { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

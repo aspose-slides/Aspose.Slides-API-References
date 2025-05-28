@@ -1,66 +1,65 @@
 ---
-title: 段落格式
-second_title: Aspose.Sildes for .NET API 参考
-description: 此类包含段落格式属性。与 IParagraphFormatEffectiveData../iparagraphformateffectivedata 不同，本类的所有属性均可写。
+title: ParagraphFormat
+second_title: Aspose.Slides for .NET API 参考
+description: 此类包含段落格式属性与IParagraphFormatEffectiveData./iparagraphformateffectivedata不同此类的所有属性都是可写的
 type: docs
-weight: 9040
+weight: 8580
 url: /zh/aspose.slides/paragraphformat/
 ---
+## ParagraphFormat class
 
-## 段落格式类
-
-此类包含段落格式属性。与 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 不同，本类的所有属性均可写。
+此类包含段落格式属性。与[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)不同，此类的所有属性都是可写的。
 
 ```csharp
-public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphFormat
+public class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphFormat
 ```
 
 ## 构造函数
 
-| 名称 | 描述 |
+| 姓名 | 描述 |
 | --- | --- |
-| [ParagraphFormat](paragraphformat)() | 初始化 [`ParagraphFormat`](../paragraphformat) 类的新实例。 |
+| [ParagraphFormat](paragraphformat)() | 初始化[`ParagraphFormat`](../paragraphformat)类的新实例。 |
 
-## 属性
+## 特性
 
-| 名称 | 描述 |
+| 姓名 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.slides/paragraphformat/alignment) { get; set; } | 返回或设置段落中的文本对齐方式，不继承。可读/可写 [`TextAlignment`](../textalignment)。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础的 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [DefaultTabSize](../../aspose.slides/paragraphformat/defaulttabsize) { get; set; } | 返回或设置无继承的默认制表符大小。可读/可写单精度浮点数。 |
-| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | 确定段落中是否使用东亚换行。无继承适用。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [FontAlignment](../../aspose.slides/paragraphformat/fontalignment) { get; set; } | 返回或设置段落中的字体对齐方式，不继承。可读/可写 [`FontAlignment`](../fontalignment)。 |
-| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | 确定段落中是否使用悬挂标点符号。无继承适用。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | 返回或设置无继承的段落首行缩进/悬挂缩进。悬挂缩进可以定义为负值。可读/可写单精度浮点数。 |
-| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | 确定段落中是否使用拉丁换行。无继承适用。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [MarginLeft](../../aspose.slides/paragraphformat/marginleft) { get; set; } | 返回或设置无继承的段落左边距。可读/可写单精度浮点数。 |
-| [MarginRight](../../aspose.slides/paragraphformat/marginright) { get; set; } | 返回或设置无继承的段落右边距。可读/可写单精度浮点数。 |
-| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | 确定段落中是否使用从右到左的书写。无继承适用。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | 返回或设置无继承的段落最后一行后的空白量。正值指定空白占字体大小的百分比，负值指定空白的点大小。可读/可写单精度浮点数。 |
-| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | 返回或设置无继承的段落第一行前的空白量。正值指定空白占字体大小的百分比，负值指定空白的点大小。可读/可写单精度浮点数。 |
-| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | 返回或设置段落基线之间的空白量。正值表示百分比，负值表示点数。无继承适用。可读/可写单精度浮点数。 |
-| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | 返回段落的制表符。无继承适用。只读 [`ITabCollection`](../itabcollection)。 |
+| [Alignment](../../aspose.slides/paragraphformat/alignment) { get; set; } | 返回或设置没有继承的段落中的文本对齐方式。 读/写[`TextAlignment`](../textalignment)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
+| [DefaultTabSize](../../aspose.slides/paragraphformat/defaulttabsize) { get; set; } | 返回或设置不继承的默认制表大小。 读/写Single。 |
+| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | 确定段落中是否使用东亚换行符。未应用继承。 读/写[`NullableBool`](../nullablebool)。 |
+| [FontAlignment](../../aspose.slides/paragraphformat/fontalignment) { get; set; } | 在没有继承的段落中返回或设置字体对齐方式。 读/写[`FontAlignment`](../fontalignment)。 |
+| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | 确定段落中是否使用悬挂标点。未应用继承。 读/写[`NullableBool`](../nullablebool)。 |
+| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | 返回或设置段落首行缩进/悬挂缩进，无继承。悬挂缩进可以用负值定义。 读/写Single。 |
+| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | 确定段落中是否使用拉丁换行符。未应用继承。 读/写[`NullableBool`](../nullablebool)。 |
+| [MarginLeft](../../aspose.slides/paragraphformat/marginleft) { get; set; } | 返回或设置没有继承的段落的左边距。 读/写Single。 |
+| [MarginRight](../../aspose.slides/paragraphformat/marginright) { get; set; } | 返回或设置没有继承的段落的右边距。 读/写Single。 |
+| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | 确定段落中是否使用从右到左书写。未应用继承。 读/写[`NullableBool`](../nullablebool)。 |
+| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | 返回或设置没有继承的段落中最后一行之后的空格量。 正值指定空白应该是字体大小的百分比。 负值以磅为单位指定空白的大小。 读/写Single。 |
+| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | 返回或设置没有继承的段落中第一行之前的空格量。 正值指定空白应该是字体大小的百分比。 负值以磅为单位指定空白的大小。 读/写Single。 |
+| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | 返回或设置段落中基线之间的空间量。正值表示百分比，负值表示以点为单位的大小。未应用继承。 读/写Single。 |
+| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | 返回段落的列表。未应用继承。 只读[`ITabCollection`](../itabcollection)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
 | [GetEffective](../../aspose.slides/paragraphformat/geteffective)() | 获取应用了继承的有效段落格式数据。 |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希代码。 |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
-### 备注
+### 评论
 
-此类用于返回和操作为特定段落定义的段落格式属性。这意味着在获取值时不应用继承，因此在大多数情况下，您将获得表示“未定义”的值。
+此类用于返回和操作为特定段落定义的段落格式属性。这意味着 在获取值时不应用继承，因此在大多数情况下，您将获得意味着“未定义”的值。
 
-为了获取包括继承的有效格式参数值，您需要使用 [`GetEffective`](./geteffective) 方法，它返回一个 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 实例。
+为了获得包括继承在内的有效格式化参数值，您需要使用[`GetEffective`](./geteffective)方法 返回一个[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)实例。
 
-### 另请参见
+### 也可以看看
 
 * class [PVIObject](../pviobject)
 * interface [IChartParagraphFormat](../../aspose.slides.charts/ichartparagraphformat)
 * interface [IParagraphFormat](../iparagraphformat)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* 命名空间 [Aspose.Slides](../../aspose.slides)
+* 部件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,23 +1,22 @@
 ---
-title: Кумимодзи
-second_title: Aspose.Slides для .NET Справочник API
-description: Определяет, следует ли игнорировать числам вертикальную компоновку текста, специфичную для восточных языков. Только для чтения Boolean.
+title: Kumimoji
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет должны ли числа игнорировать вертикальное расположение текста для восточного языка. Только чтениеBoolean.
 type: docs
 weight: 150
 url: /ru/aspose.slides/ibaseportionformateffectivedata/kumimoji/
 ---
+## IBasePortionFormatEffectiveData.Kumimoji property
 
-## Свойство IBasePortionFormatEffectiveData.Kumimoji
-
-Определяет, следует ли игнорировать числам вертикальную компоновку текста, специфичную для восточных языков. Только для чтения Boolean.
+Определяет, должны ли числа игнорировать вертикальное расположение текста для восточного языка. Только чтениеBoolean.
 
 ```csharp
 public bool Kumimoji { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibaseportionformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

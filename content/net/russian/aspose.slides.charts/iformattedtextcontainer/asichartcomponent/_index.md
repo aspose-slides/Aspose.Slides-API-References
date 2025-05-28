@@ -1,28 +1,27 @@
 ---
 title: AsIChartComponent
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает интерфейс IChartComponent. Только для чтения IChartComponent aspose.slides.charts/ichartcomponent.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает интерфейс IChartComponent. Только для чтенияIChartComponentaspose.slides.charts/ichartcomponent.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/iformattedtextcontainer/asichartcomponent/
 ---
+## IFormattedTextContainer.AsIChartComponent property
 
-## IFormattedTextContainer.AsIChartComponent свойство
-
-Возвращает интерфейс IChartComponent. Только для чтения [`IChartComponent`](../../ichartcomponent).
+Возвращает интерфейс IChartComponent. Только для чтения[`IChartComponent`](../../ichartcomponent).
 
 ```csharp
 public IChartComponent AsIChartComponent { get; }
 ```
 
-### Замечания
+### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### Также См.
+### Смотрите также
 
-* интерфейс [IChartComponent](../../ichartcomponent)
-* интерфейс [IFormattedTextContainer](../../iformattedtextcontainer)
+* interface [IChartComponent](../../ichartcomponent)
+* interface [IFormattedTextContainer](../../iformattedtextcontainer)
 * пространство имен [Aspose.Slides.Charts](../../iformattedtextcontainer)
 * сборка [Aspose.Slides](../../../)
 

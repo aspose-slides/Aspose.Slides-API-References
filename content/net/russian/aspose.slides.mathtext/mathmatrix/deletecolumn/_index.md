@@ -1,15 +1,14 @@
 ---
-title: УдалитьКолонку
+title: DeleteColumn
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет указанную колонку
+description: Удаляет указанный столбец
 type: docs
 weight: 120
 url: /ru/aspose.slides.mathtext/mathmatrix/deletecolumn/
 ---
+## MathMatrix.DeleteColumn method
 
-## MathMatrix.DeleteColumn метод
-
-Удаляет указанную колонку
+Удаляет указанный столбец
 
 ```csharp
 public void DeleteColumn(int columnIndex)
@@ -17,14 +16,14 @@ public void DeleteColumn(int columnIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnIndex | Int32 | Индекс колонки, которую нужно удалить, основанный на нуле. |
+| columnIndex | Int32 | Отсчитываемый от нуля индекс столбец для удаления. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Когда вы пытаетесь удалить последнюю единственную колонку в матрице |
-| ArgumentOutOfRangeException | Если columnIndex меньше нуля или больше или равен ColumnCount |
+| InvalidOperationException | При попытке удалить последний одиночный столбец в матрице |
+| ArgumentOutOfRangeException | Если columnIndex меньше нуля или больше или равно ColumnCount |
 
 ### Примеры
 
@@ -36,9 +35,9 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.DeleteColumn(0);
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathMatrix](../../mathmatrix)
+* class [MathMatrix](../../mathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrix)
 * сборка [Aspose.Slides](../../../)
 

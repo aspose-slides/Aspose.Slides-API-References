@@ -1,23 +1,22 @@
 ---
-title: Значение
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает или устанавливает значение, которое используется с фиксированными процентом и стандартным отклонением для определения длины столбцов ошибок. В любом другом случае вернет NaN. Чтение/запись Single.
+title: Value
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает или задает значение которое используется с типами значений Fixed Percentage и StandardDeviation для определения длины полос ошибок. В любом другом случае вернет NaN. Чтение/записьSingle.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/errorbarsformat/value/
 ---
+## ErrorBarsFormat.Value property
 
-## Свойство ErrorBarsFormat.Value
-
-Получает или устанавливает значение, которое используется с фиксированным значением, процентом и стандартным отклонением для определения длины столбцов ошибок. В любом другом случае вернет NaN. Чтение/запись Single.
+Получает или задает значение, которое используется с типами значений Fixed, Percentage и StandardDeviation для определения длины полос ошибок. В любом другом случае вернет NaN. Чтение/записьSingle.
 
 ```csharp
 public float Value { get; set; }
 ```
 
-### Также посмотрите
+### Смотрите также
 
-* класс [ErrorBarsFormat](../../errorbarsformat)
+* class [ErrorBarsFormat](../../errorbarsformat)
 * пространство имен [Aspose.Slides.Charts](../../errorbarsformat)
 * сборка [Aspose.Slides](../../../)
 

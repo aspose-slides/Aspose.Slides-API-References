@@ -1,13 +1,12 @@
 ---
 title: ISection
-second_title: Aspose.Sildes для справочника API .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет раздел слайдов.
 type: docs
-weight: 6690
+weight: 6330
 url: /ru/aspose.slides/isection/
 ---
-
-## Интерфейс ISection
+## ISection interface
 
 Представляет раздел слайдов.
 
@@ -15,11 +14,11 @@ url: /ru/aspose.slides/isection/
 public interface ISection
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.slides/isection/name) { get; set; } | Название раздела. |
+| [Name](../../aspose.slides/isection/name) { get; set; } | Имя раздела. |
 | [SectionId](../../aspose.slides/isection/sectionid) { get; } | Идентификатор раздела. |
 | [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Возвращает первый слайд раздела. |
 
@@ -29,7 +28,7 @@ public interface ISection
 | --- | --- |
 | [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Возвращает список слайдов в разделе. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

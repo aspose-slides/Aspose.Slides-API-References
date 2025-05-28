@@ -1,24 +1,23 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет запись легенды, связанную с этой серией. Только для чтения ILegendEntryPropertiesaspose.slides/ilegendentryproperties.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет запись легенды связанную с этой серией Только для чтенияILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
 weight: 350
 url: /ru/aspose.slides.charts/ichartseries/relatedlegendentry/
 ---
+## IChartSeries.RelatedLegendEntry property
 
-## Свойство IChartSeries.RelatedLegendEntry
-
-Представляет запись легенды, связанную с этой серией. Только для чтения [`ILegendEntryProperties`](../../ilegendentryproperties).
+Представляет запись легенды, связанную с этой серией Только для чтения[`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ILegendEntryProperties](../../ilegendentryproperties)
-* интерфейс [IChartSeries](../../ichartseries)
+* interface [ILegendEntryProperties](../../ilegendentryproperties)
+* interface [IChartSeries](../../ichartseries)
 * пространство имен [Aspose.Slides.Charts](../../ichartseries)
 * сборка [Aspose.Slides](../../../)
 

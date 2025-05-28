@@ -1,15 +1,14 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для .NET API Справочник
-description: Копирует все элементы из коллекции в заданный массив.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 60
 url: /ru/aspose.slides.vba/vbareferencecollection/copyto/
 ---
+## VbaReferenceCollection.CopyTo method
 
-## Метод VbaReferenceCollection.CopyTo
-
-Копирует все элементы из коллекции в заданный массив.
+Копирует все элементы из коллекции в указанный массив.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -20,9 +19,9 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в целевом массиве. |
 
-### См. Также
+### Смотрите также
 
-* класс [VbaReferenceCollection](../../vbareferencecollection)
+* class [VbaReferenceCollection](../../vbareferencecollection)
 * пространство имен [Aspose.Slides.Vba](../../vbareferencecollection)
 * сборка [Aspose.Slides](../../../)
 

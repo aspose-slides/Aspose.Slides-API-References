@@ -1,13 +1,12 @@
 ---
 title: DisableBlurEffect
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Отключает эффект размытия.
 type: docs
 weight: 100
 url: /ru/aspose.slides/effectformat/disableblureffect/
 ---
-
-## EffectFormat.DisableBlurEffect метод
+## EffectFormat.DisableBlurEffect method
 
 Отключает эффект размытия.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/effectformat/disableblureffect/
 public void DisableBlurEffect()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [EffectFormat](../../effectformat)
+* class [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,11 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/axescompositionnotcombinableexception/axescompositionnotcombinableexception/
 ---
-
 ## AxesCompositionNotCombinableException() {#constructor}
 
 Конструктор по умолчанию.
@@ -17,7 +16,7 @@ public AxesCompositionNotCombinableException()
 
 ### Смотрите также
 
-* класс [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
+* class [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
 * пространство имен [Aspose.Slides.Charts](../../axescompositionnotcombinableexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -33,11 +32,11 @@ public AxesCompositionNotCombinableException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | String | сообщение |
+| сообщение | String | сообщение |
 
 ### Смотрите также
 
-* класс [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
+* class [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
 * пространство имен [Aspose.Slides.Charts](../../axescompositionnotcombinableexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -45,7 +44,7 @@ public AxesCompositionNotCombinableException(string message)
 
 ## AxesCompositionNotCombinableException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащее сообщение и встроенное исключение.
+Конструктор исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public AxesCompositionNotCombinableException(string message, Exception exception)
@@ -53,12 +52,12 @@ public AxesCompositionNotCombinableException(string message, Exception exception
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | String | сообщение |
-| exception | Exception | оригинальное исключение |
+| сообщение | String | сообщение |
+| исключение | Exception | исходное исключение |
 
 ### Смотрите также
 
-* класс [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
+* class [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
 * пространство имен [Aspose.Slides.Charts](../../axescompositionnotcombinableexception)
 * сборка [Aspose.Slides](../../../)
 

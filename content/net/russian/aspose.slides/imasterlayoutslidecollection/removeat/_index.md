@@ -1,15 +1,14 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides для .NET API Reference
-description: Удаляет элемент по указанному индексу в коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет элемент по указанному индексу коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/imasterlayoutslidecollection/removeat/
 ---
+## IMasterLayoutSlideCollection.RemoveAt method
 
-## IMasterLayoutSlideCollection.RemoveAt метод
-
-Удаляет элемент по указанному индексу в коллекции.
+Удаляет элемент по указанному индексу коллекции.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,21 +16,21 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс элемента, который нужно удалить, с нулевым основанием. |
+| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Выбрасывается, если макет используется в презентации (его свойство HasDependingSlides равно true). |
+| [PptxEditException](../../pptxeditexception) | Вызывается, если в презентации используется макет (его свойство HasDependingSlides равно true). |
 
 ### Примечания
 
-1) Чтобы избежать выброса PptxEditException, проверьте свойство HasDependingSlides макета заранее. 2) Вы также можете использовать метод [`Remove`](../../ilayoutslide/remove) для упрощения кода.
+1) Чтобы избежать выбрасывания исключения PptxEditException, предварительно проверьте свойство HasDependingSlides макета. 2) Вы также можете использовать метод[`Remove`](../../ilayoutslide/remove)для упрощения кода.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
+* interface [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
 * пространство имен [Aspose.Slides](../../imasterlayoutslidecollection)
 * сборка [Aspose.Slides](../../../)
 

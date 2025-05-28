@@ -1,15 +1,14 @@
 ---
-title: База
+title: Base
 second_title: Справочник по API Aspose.Slides для .NET
-description: Аргумент, к которому был применен акцент
+description: Аргумент к которому был применен ударение
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathaccent/base/
 ---
+## MathAccent.Base property
 
-## MathAccent.Base свойство
-
-Аргумент, к которому был применен акцент
+Аргумент, к которому был применен ударение
 
 ```csharp
 public IMathElement Base { get; }
@@ -25,10 +24,10 @@ IMathAccent accent = new MathematicalText("x").Accent('~');
 IMathElement base = accent.Base;
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathAccent](../../mathaccent)
+* interface [IMathElement](../../imathelement)
+* class [MathAccent](../../mathaccent)
 * пространство имен [Aspose.Slides.MathText](../../mathaccent)
 * сборка [Aspose.Slides](../../../)
 

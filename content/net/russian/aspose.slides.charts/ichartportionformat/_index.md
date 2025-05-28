@@ -1,29 +1,28 @@
 ---
 title: IChartPortionFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет свойства форматирования частей графиков, используемые в графиках.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет свойства форматирования части диаграммы используемые в диаграммах.
 type: docs
-weight: 1840
+weight: 1780
 url: /ru/aspose.slides.charts/ichartportionformat/
 ---
+## IChartPortionFormat interface
 
-## Интерфейс IChartPortionFormat
-
-Представляет свойства форматирования частей графиков, используемые в графиках.
+Представляет свойства форматирования части диаграммы, используемые в диаграммах.
 
 ```csharp
 public interface IChartPortionFormat : IBasePortionFormat
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | Возвращает интерфейс IBasePortionFormat. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBasePortionFormat](../../aspose.slides/ibaseportionformat)
+* interface [IBasePortionFormat](../../aspose.slides/ibaseportionformat)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

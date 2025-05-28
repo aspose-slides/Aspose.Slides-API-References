@@ -1,15 +1,14 @@
 ---
 title: SetMeteredKey
-second_title: Aspose.Slides для .NET API Справочник
-description: Устанавливает метловой публичный и частный ключ.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает измеренные открытый и закрытый ключи.
 type: docs
 weight: 10
 url: /ru/aspose.slides/imetered/setmeteredkey/
 ---
+## IMetered.SetMeteredKey method
 
-## IMetered.SetMeteredKey метод
-
-Устанавливает метловой публичный и частный ключ.
+Устанавливает измеренные открытый и закрытый ключи.
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
@@ -17,12 +16,12 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| publicKey | String | Метловой публичный ключ. |
-| privateKey | String | Метловой частный ключ. |
+| publicKey | String | Измеренный открытый ключ. |
+| privateKey | String | Измеренный закрытый ключ. |
 
 ### Смотрите также
 
-* интерфейс [IMetered](../../imetered)
+* interface [IMetered](../../imetered)
 * пространство имен [Aspose.Slides](../../imetered)
 * сборка [Aspose.Slides](../../../)
 

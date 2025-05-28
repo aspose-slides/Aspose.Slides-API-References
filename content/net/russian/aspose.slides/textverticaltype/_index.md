@@ -3,11 +3,10 @@ title: TextVerticalType
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет вертикальный режим письма для текста.
 type: docs
-weight: 10720
+weight: 10220
 url: /ru/aspose.slides/textverticaltype/
 ---
-
-## Перечисление TextVerticalType
+## TextVerticalType enumeration
 
 Определяет вертикальный режим письма для текста.
 
@@ -15,18 +14,18 @@ url: /ru/aspose.slides/textverticaltype/
 public enum TextVerticalType : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` | Не определено. |
 | Horizontal | `0` | Горизонтальный текст. |
 | Vertical | `1` | Вертикальный текст. |
-| Vertical270 | `2` | Вертикальный текст под углом 270 градусов. |
+| Vertical270 | `2` | Вертикальный 270-градусный текст. |
 | WordArtVertical | `3` | Вертикальный текст WordArt. |
 | EastAsianVertical | `4` | Восточноазиатский вертикальный текст. |
-| MongolianVertical | `5` | Монгольский вертикальный текст. |
-| WordArtVerticalRightToLeft | `6` | Вертикальный текст WordArt справа налево. |
+| MongolianVertical | `5` | Вертикальный текст на монгольском языке. |
+| WordArtVerticalRightToLeft | `6` | WordArt вертикальный текст справа налево. |
 
 ### Смотрите также
 

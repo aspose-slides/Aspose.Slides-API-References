@@ -1,15 +1,14 @@
 ---
 title: IPresentationFactory
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite crear presentaciones a través de la interfaz COM
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Permite crear una presentación a través de la interfaz COM
 type: docs
-weight: 6570
+weight: 6210
 url: /es/aspose.slides/ipresentationfactory/
 ---
+## IPresentationFactory interface
 
-## Interfaz IPresentationFactory
-
-Permite crear presentaciones a través de la interfaz COM
+Permite crear una presentación a través de la interfaz COM
 
 ```csharp
 public interface IPresentationFactory
@@ -19,23 +18,23 @@ public interface IPresentationFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Crea una nueva presentación. |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Crea una nueva presentación con opciones de carga adicionales. |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Crea nueva presentación. |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Crea una nueva presentación con opciones de carga adicionales |
 | [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Obtiene información sobre la presentación en el flujo especificado. |
 | [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Obtiene información sobre la presentación en el archivo especificado. |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Recupera el texto sin formato de las diapositivas. |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Recupera el texto sin formato de las diapositivas. |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Recupera el texto sin formato de las diapositivas. |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Lee una presentación existente desde un arreglo. |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Lee una presentación existente desde un flujo. |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Lee una presentación existente desde un archivo. |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Lee una presentación existente desde un arreglo con opciones de carga adicionales. |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lee una presentación existente desde un flujo con opciones de carga adicionales. |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lee una presentación existente desde un flujo con opciones de carga adicionales. |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Recupera el texto sin procesar de las diapositivas |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Recupera el texto sin procesar de las diapositivas |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Recupera el texto sin procesar de las diapositivas |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Lee una presentación existente de array |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Lee una presentación existente de stream |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Lee una presentación existente del archivo |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Lee una presentación existente desde una matriz con opciones de carga adicionales |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lee una presentación existente de la secuencia con opciones de carga adicionales |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lee una presentación existente de la secuencia con opciones de carga adicionales |
 
-### Véase También
+### Ver también
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* asamblea [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

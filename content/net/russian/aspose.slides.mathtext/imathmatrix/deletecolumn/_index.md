@@ -1,13 +1,12 @@
 ---
 title: DeleteColumn
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет указанный столбец
 type: docs
 weight: 120
 url: /ru/aspose.slides.mathtext/imathmatrix/deletecolumn/
 ---
-
-## IMathMatrix.DeleteColumn метод
+## IMathMatrix.DeleteColumn method
 
 Удаляет указанный столбец
 
@@ -17,7 +16,7 @@ public void DeleteColumn(int columnIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnIndex | Int32 | Нулевой индекс столбца, который необходимо удалить. |
+| columnIndex | Int32 | Отсчитываемый от нуля индекс столбец для удаления. |
 
 ### Примеры
 
@@ -29,9 +28,9 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.DeleteColumn(0);
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMathMatrix](../../imathmatrix)
+* interface [IMathMatrix](../../imathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../imathmatrix)
 * сборка [Aspose.Slides](../../../)
 

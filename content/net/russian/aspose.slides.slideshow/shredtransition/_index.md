@@ -1,38 +1,37 @@
 ---
 title: ShredTransition
-second_title: Aspose.Sildes для .NET API Reference
-description: Эффект перехода слайдов Shred.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Эффект перехода между слайдами.
 type: docs
-weight: 9990
+weight: 9520
 url: /ru/aspose.slides.slideshow/shredtransition/
 ---
+## ShredTransition class
 
-## Класс ShredTransition
-
-Эффект перехода слайдов Shred.
+Эффект перехода между слайдами.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
 ```
 
-## Свойства
+## Характеристики
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Задает форму визуальных эффектов, используемых во время перехода. Чтение/запись [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Задает форму визуальных элементов, используемых во время перехода. Чтение/запись[`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Используется как хеш-функция для определенного типа, подходящая для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
 
-### См. Также
+### Смотрите также
 
-* класс [TransitionValueBase](../transitionvaluebase)
-* интерфейс [IShredTransition](../ishredtransition)
+* class [TransitionValueBase](../transitionvaluebase)
+* interface [IShredTransition](../ishredtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

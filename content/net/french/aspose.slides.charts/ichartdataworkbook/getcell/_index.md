@@ -6,8 +6,7 @@ type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ichartdataworkbook/getcell/
 ---
-
-## GetCell(string, int, int) {#getcell_4}
+## GetCell(string, int, int) {#getcell_4}
 
 Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 
@@ -15,26 +14,26 @@ Obtient la cellule qui peut être utilisée pour les séries ou catégories de g
 public IChartDataCell GetCell(string worksheetName, int row, int column)
 ```
 
-| Paramètre       | Type    | Description                        |
-|------------------|---------|------------------------------------|
-| worksheetName    | String  | Nom de la feuille de calcul.       |
-| row              | Int32   | La ligne.                          |
-| column           | Int32   | La colonne.                        |
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| worksheetName | String | Nom de la feuille de calcul. |
+| row | Int32 | La ligne. |
+| column | Int32 | La colonne. |
 
-### Valeur de retour
+### Return_Value
 
-Objet Cell
+Objet cellule
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataWorkbook](../../ichartdataworkbook)
-* namespace [Aspose.Slides.Charts](../../ichartdataworkbook)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../ichartdataworkbook)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, int, int) {#getcell}
+## GetCell(int, int, int) {#getcell}
 
 Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 
@@ -42,26 +41,26 @@ Obtient la cellule qui peut être utilisée pour les séries ou catégories de g
 public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 ```
 
-| Paramètre       | Type    | Description                        |
-|------------------|---------|------------------------------------|
-| worksheetIndex   | Int32   | Index de la feuille de calcul.     |
-| row              | Int32   | La ligne.                          |
-| column           | Int32   | La colonne.                        |
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index de la feuille de travail. |
+| row | Int32 | La ligne. |
+| column | Int32 | La colonne. |
 
-### Valeur de retour
+### Return_Value
 
-Objet Cell
+Objet cellule
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataWorkbook](../../ichartdataworkbook)
-* namespace [Aspose.Slides.Charts](../../ichartdataworkbook)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../ichartdataworkbook)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, string) {#getcell_2}
+## GetCell(int, string) {#getcell_2}
 
 Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 
@@ -69,25 +68,25 @@ Obtient la cellule qui peut être utilisée pour les séries ou catégories de g
 public IChartDataCell GetCell(int worksheetIndex, string cellName)
 ```
 
-| Paramètre       | Type    | Description                        |
-|------------------|---------|------------------------------------|
-| worksheetIndex   | Int32   | Index de la feuille de calcul.     |
-| cellName         | String  | Nom de la cellule.                 |
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index de la feuille de travail. |
+| cellName | String | Nom de la cellule. |
 
-### Valeur de retour
+### Return_Value
 
-Objet Cell
+Objet cellule
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataWorkbook](../../ichartdataworkbook)
-* namespace [Aspose.Slides.Charts](../../ichartdataworkbook)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../ichartdataworkbook)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, string, object) {#getcell_3}
+## GetCell(int, string, object) {#getcell_3}
 
 Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 
@@ -95,26 +94,26 @@ Obtient la cellule qui peut être utilisée pour les séries ou catégories de g
 public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 ```
 
-| Paramètre       | Type    | Description                        |
-|------------------|---------|------------------------------------|
-| worksheetIndex   | Int32   | Index de la feuille de calcul.     |
-| cellName         | String  | Nom de la cellule.                 |
-| value            | Object  | La valeur.                         |
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index de la feuille de travail. |
+| cellName | String | Nom de la cellule. |
+| value | Object | La valeur. |
 
-### Valeur de retour
+### Return_Value
 
-Objet Cell
+Objet cellule
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataWorkbook](../../ichartdataworkbook)
-* namespace [Aspose.Slides.Charts](../../ichartdataworkbook)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../ichartdataworkbook)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, int, int, object) {#getcell_1}
+## GetCell(int, int, int, object) {#getcell_1}
 
 Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 
@@ -122,22 +121,22 @@ Obtient la cellule qui peut être utilisée pour les séries ou catégories de g
 public IChartDataCell GetCell(int worksheetIndex, int row, int column, object value)
 ```
 
-| Paramètre       | Type    | Description                        |
-|------------------|---------|------------------------------------|
-| worksheetIndex   | Int32   | Index de la feuille de calcul.     |
-| row              | Int32   | La ligne.                          |
-| column           | Int32   | La colonne.                        |
-| value            | Object  | La valeur.                         |
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index de la feuille de travail. |
+| row | Int32 | La ligne. |
+| column | Int32 | La colonne. |
+| value | Object | La valeur. |
 
-### Valeur de retour
+### Return_Value
 
-Objet Cell
+Objet cellule
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataWorkbook](../../ichartdataworkbook)
-* namespace [Aspose.Slides.Charts](../../ichartdataworkbook)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides.Charts](../../ichartdataworkbook)
+* Assemblée [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

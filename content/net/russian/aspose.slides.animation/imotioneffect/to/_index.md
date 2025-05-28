@@ -1,23 +1,22 @@
 ---
-title: К
+title: To
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает целевое местоположение для эффекта движения анимации в процентах. Чтение/запись PointF.
+description: Определяет целевое местоположение для эффекта движения анимации в процентах. Чтение/записьPointF.
 type: docs
 weight: 90
 url: /ru/aspose.slides.animation/imotioneffect/to/
 ---
+## IMotionEffect.To property
 
-## Свойство IMotionEffect.To
-
-Указывает целевое местоположение для эффекта движения анимации (в процентах). Чтение/запись PointF.
+Определяет целевое местоположение для эффекта движения анимации (в процентах). Чтение/записьPointF.
 
 ```csharp
 public PointF To { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMotionEffect](../../imotioneffect)
+* interface [IMotionEffect](../../imotioneffect)
 * пространство имен [Aspose.Slides.Animation](../../imotioneffect)
 * сборка [Aspose.Slides](../../../)
 

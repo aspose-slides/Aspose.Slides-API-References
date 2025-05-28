@@ -1,13 +1,12 @@
 ---
-title: Добавить
-second_title: Справка по API Aspose.Slides для .NET
+title: Add
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет новую ссылку в коллекцию ссылок
 type: docs
 weight: 20
 url: /ru/aspose.slides.vba/ivbareferencecollection/add/
 ---
-
-## Метод IVbaReferenceCollection.Add
+## IVbaReferenceCollection.Add method
 
 Добавляет новую ссылку в коллекцию ссылок
 
@@ -17,12 +16,12 @@ public void Add(IVbaReference value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IVbaReference | Ссылка проекта VBA [`IVbaReference`](../../ivbareference) |
+| value | IVbaReference | Ссылка на проект VBA[`IVbaReference`](../../ivbareference) |
 
 ### Смотрите также
 
-* интерфейс [IVbaReference](../../ivbareference)
-* интерфейс [IVbaReferenceCollection](../../ivbareferencecollection)
+* interface [IVbaReference](../../ivbareference)
+* interface [IVbaReferenceCollection](../../ivbareferencecollection)
 * пространство имен [Aspose.Slides.Vba](../../ivbareferencecollection)
 * сборка [Aspose.Slides](../../../)
 

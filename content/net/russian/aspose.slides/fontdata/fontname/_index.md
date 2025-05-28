@@ -1,23 +1,22 @@
 ---
 title: FontName
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает имя шрифта. Читаемое/Записываемое String.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает имя шрифта. Чтение/записьString.
 type: docs
 weight: 20
 url: /ru/aspose.slides/fontdata/fontname/
 ---
+## FontData.FontName property
 
-## Свойство FontData.FontName
-
-Возвращает имя шрифта. Читаемое/Записываемое String.
+Возвращает имя шрифта. Чтение/записьString.
 
 ```csharp
 public string FontName { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [FontData](../../fontdata)
+* class [FontData](../../fontdata)
 * пространство имен [Aspose.Slides](../../fontdata)
 * сборка [Aspose.Slides](../../../)
 

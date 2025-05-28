@@ -1,15 +1,14 @@
 ---
 title: PieSplitCustomPoints
-second_title: Aspose.Slides для .NET API Справочник
-description: Информация о пользовательском разбиении для диаграммы, состоящей из пирога из пирога или столбца из пирога с пользовательским разбиением. Содержит данные точек, которые должны быть изображены во втором пироге или столбце в диаграмме пирога из пирога или столбца из пирога. Это свойство не только этой серии, но и всех серий родительской группы серий - это проекция соответствующего группового свойства ТОЛЬКО для чтения IPieSplitCustomPointCollectionaspose.slides/ipiesplitcustompointcollection.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Пользовательская информация о разделении для круговой или столбчатой диаграммы с пользовательским разделением. Содержит точки данных которые должны быть отображены во второй круговой диаграмме или столбце в круговой или столбчатой диаграмме. Это свойство не только этой серии но и всех серий родительской серии группа - это проекция соответствующего группового свойства Только для чтенияIPieSplitCustomPointCollectionaspose.slides.charts/ipiesplitcustompointcollection.
 type: docs
 weight: 310
 url: /ru/aspose.slides.charts/ichartseries/piesplitcustompoints/
 ---
+## IChartSeries.PieSplitCustomPoints property
 
-## IChartSeries.PieSplitCustomPoints свойство
-
-Информация о пользовательском разбиении для диаграммы, состоящей из пирога из пирога или столбца из пирога с пользовательским разбиением. Содержит данные точек, которые должны быть изображены во втором пироге или столбце в диаграмме пирога из пирога или столбца из пирога. Это свойство не только этой серии, но и всех серий родительской группы серий - это проекция соответствующего группового свойства ТОЛЬКО для чтения [`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
+Пользовательская информация о разделении для круговой или столбчатой диаграммы с пользовательским разделением. Содержит точки данных, которые должны быть отображены во второй круговой диаграмме или столбце в круговой или столбчатой диаграмме. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства Только для чтения[`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
 
 ```csharp
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }
@@ -19,10 +18,10 @@ public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }
 
 Это проекция свойства ParentSeriesGroup.PieSplitCustomPoints.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
-* интерфейс [IChartSeries](../../ichartseries)
+* interface [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
+* interface [IChartSeries](../../ichartseries)
 * пространство имен [Aspose.Slides.Charts](../../ichartseries)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает элемент управления по указанной позиции.
+description: Возвращает элемент управления в указанной позиции.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icontrolcollection/item/
 ---
+## IControlCollection indexer
 
-## Индексатор IControlCollection
-
-Возвращает элемент управления по указанной позиции.
+Возвращает элемент управления в указанной позиции.
 
 ```csharp
 public IControl this[int index] { get; }
@@ -19,10 +18,10 @@ public IControl this[int index] { get; }
 | --- | --- |
 | index | Индекс элемента управления. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IControl](../../icontrol)
-* интерфейс [IControlCollection](../../icontrolcollection)
+* interface [IControl](../../icontrol)
+* interface [IControlCollection](../../icontrolcollection)
 * пространство имен [Aspose.Slides](../../icontrolcollection)
 * сборка [Aspose.Slides](../../../)
 

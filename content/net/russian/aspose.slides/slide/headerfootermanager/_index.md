@@ -1,24 +1,23 @@
 ---
 title: HeaderFooterManager
-second_title: Ссылки на API Aspose.Slides для .NET
-description: Возвращает менеджер HeaderFooter слайда. Только для чтения ISlideHeaderFooterManageraspose.slides/islideheaderfootermanager.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает менеджер HeaderFooter слайда. Только для чтенияISlideHeaderFooterManageraspose.slides/islideheaderfootermanager.
 type: docs
 weight: 10
 url: /ru/aspose.slides/slide/headerfootermanager/
 ---
+## Slide.HeaderFooterManager property
 
-## Свойство Slide.HeaderFooterManager
-
-Возвращает менеджер HeaderFooter слайда. Только для чтения [`ISlideHeaderFooterManager`](../../islideheaderfootermanager).
+Возвращает менеджер HeaderFooter слайда. Только для чтения[`ISlideHeaderFooterManager`](../../islideheaderfootermanager).
 
 ```csharp
 public ISlideHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISlideHeaderFooterManager](../../islideheaderfootermanager)
-* класс [Slide](../../slide)
+* interface [ISlideHeaderFooterManager](../../islideheaderfootermanager)
+* class [Slide](../../slide)
 * пространство имен [Aspose.Slides](../../slide)
 * сборка [Aspose.Slides](../../../)
 

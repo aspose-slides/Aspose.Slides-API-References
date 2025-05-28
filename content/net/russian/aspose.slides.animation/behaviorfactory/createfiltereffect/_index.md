@@ -6,8 +6,7 @@ type: docs
 weight: 40
 url: /ru/aspose.slides.animation/behaviorfactory/createfiltereffect/
 ---
-
-## Метод BehaviorFactory.CreateFilterEffect
+## BehaviorFactory.CreateFilterEffect method
 
 Создает эффект фильтра.
 
@@ -19,10 +18,10 @@ public IFilterEffect CreateFilterEffect()
 
 Эффект фильтра.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFilterEffect](../../ifiltereffect)
-* класс [BehaviorFactory](../../behaviorfactory)
+* interface [IFilterEffect](../../ifiltereffect)
+* class [BehaviorFactory](../../behaviorfactory)
 * пространство имен [Aspose.Slides.Animation](../../behaviorfactory)
 * сборка [Aspose.Slides](../../../)
 

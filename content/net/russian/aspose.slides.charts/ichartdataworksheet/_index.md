@@ -1,28 +1,27 @@
 ---
 title: IChartDataWorksheet
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет рабочий лист, связанный с IChartDataCell./ichartdatacell
+description: Представляет рабочий лист связанный сIChartDataCell./ichartdatacell
 type: docs
-weight: 1790
+weight: 1730
 url: /ru/aspose.slides.charts/ichartdataworksheet/
 ---
+## IChartDataWorksheet interface
 
-## Интерфейс IChartDataWorksheet
-
-Представляет рабочий лист, связанный с [`IChartDataCell`](../ichartdatacell)
+Представляет рабочий лист, связанный с[`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public interface IChartDataWorksheet
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Получает индекс. Только для чтения Int32. |
-| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Получает имя. Только для чтения String. |
+| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Получает индекс. Только для чтенияInt32. |
+| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Получает имя. Только чтениеString. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

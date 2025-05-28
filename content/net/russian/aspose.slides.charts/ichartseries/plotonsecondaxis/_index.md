@@ -1,23 +1,22 @@
 ---
 title: PlotOnSecondAxis
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, отображается ли эта серия на втором осевом значении. Доступно для чтения и записи Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает нанесен ли этот ряд на вторую ось значений. Чтение/записьBoolean.
 type: docs
 weight: 330
 url: /ru/aspose.slides.charts/ichartseries/plotonsecondaxis/
 ---
+## IChartSeries.PlotOnSecondAxis property
 
-## Свойство IChartSeries.PlotOnSecondAxis
-
-Указывает, отображается ли эта серия на втором осевом значении. Доступно для чтения и записи Boolean.
+Указывает, нанесен ли этот ряд на вторую ось значений. Чтение/записьBoolean.
 
 ```csharp
 public bool PlotOnSecondAxis { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartSeries](../../ichartseries)
+* interface [IChartSeries](../../ichartseries)
 * пространство имен [Aspose.Slides.Charts](../../ichartseries)
 * сборка [Aspose.Slides](../../../)
 

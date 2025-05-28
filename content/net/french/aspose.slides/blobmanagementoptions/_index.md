@@ -1,15 +1,14 @@
 ---
 title: BlobManagementOptions
-second_title: Aspose.Slides pour .NET Référence API
-description: Représente les options qui peuvent être utilisées pour gérer les règles de gestion des BLOB et d'autres paramètres de BLOB.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente les options qui peuvent être utilisées pour gérer les règles de gestion des BLOB et dautres paramètres BLOB.
 type: docs
-weight: 950
+weight: 930
 url: /fr/aspose.slides/blobmanagementoptions/
 ---
+## BlobManagementOptions class
 
-## Classe BlobManagementOptions
-
-Représente les options qui peuvent être utilisées pour gérer les règles de gestion des BLOB et d'autres paramètres de BLOB.
+Représente les options qui peuvent être utilisées pour gérer les règles de gestion des BLOB et d'autres paramètres BLOB.
 
 ```csharp
 public class BlobManagementOptions : IBlobManagementOptions
@@ -17,23 +16,23 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 ## Constructeurs
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | Crée de nouvelles options de gestion des blobs par défaut. |
+| [BlobManagementOptions](blobmanagementoptions)() | Crée de nouvelles options de gestion de blob par défaut. |
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Cette propriété définit si des fichiers temporaires peuvent être créés lors du travail avec des BLOB, ce qui diminue considérablement la consommation de mémoire mais nécessite des autorisations pour créer des fichiers. Tous les fichiers seront supprimés après la fin du travail avec la présentation. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Définit la quantité maximale (en octets) que tous les BLOB peuvent occuper au total en mémoire. Tout d'abord, tous les BLOBs sont chargés en mémoire par défaut et seulement lorsque cela atteint la limite définie par cette propriété, d'autres mécanismes (tels que des fichiers temporaires) peuvent être impliqués. En termes de performances, le moyen le plus efficace est de stocker les BLOB dans la mémoire, mais d'un autre côté, cela entraîne une forte consommation de mémoire, ce qui peut être indésirable. En utilisant cette propriété, vous pouvez définir le comportement optimal pour votre environnement ou d'autres exigences. Cette propriété sera ignorée si [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) est défini sur false. Il n'est pas logique de limiter le nombre maximum de BLOB en mémoire, car si [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) est défini sur false, la mémoire est le seul endroit où les BLOB peuvent être stockés. La valeur par défaut est de 629 145 600 octets (600 Mo). |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Cette propriété définit si une instance de la classe Presentation peut être le propriétaire de la source - fichier ou flux pendant la durée de vie de l'instance. Si l'instance est un propriétaire, elle verrouille la source. Cela aide à améliorer la consommation de mémoire et les performances lors du travail avec des BLOB, mais la source (flux ou fichier) ne peut pas être changée pendant la durée de vie de l'instance de Presentation. |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Le chemin racine où les fichiers temporaires seront créés. Le répertoire temporaire système sera utilisé par défaut. Le processus d'hébergement doit avoir les autorisations pour créer des fichiers et des dossiers là-bas. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Cette propriété définit si des fichiers temporaires peuvent être créés tout en travaillant avec des BLOBs, ce qui diminue considérablement la consommation de mémoire mais nécessite des autorisations pour créer des fichiers. Tous les fichiers seront supprimés une fois le travail avec la présentation terminé. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Définit la quantité maximale (en octets) que tous les BLOB au total peuvent occuper en mémoire. Tout d'abord, tous les BLOBs se chargent en mémoire comme comportement par défaut et seulement lorsqu'ils atteignent la limite définie par cette propriété, d'autres mécanismes (tels que les fichiers temporaires) peuvent être impliqués. En termes de performances, la méthode la plus efficace consiste à stocker les BLOB en mémoire, mais d'un autre côté, cela entraîne une consommation de mémoire élevée, ce qui peut être indésirable. À l'aide de cette propriété, vous pouvez définir le comportement optimal pour votre environnement ou d'autres exigences.  Cette propriété sera ignorée si[`IsTemporaryFilesAllowed`](./istemporaryfilesallowed)is défini sur faux. Cela n'a aucun sens de limiter le nombre maximal de BLOB en mémoire, car si [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) est défini sur faux, la mémoire est le seul endroit où les BLOB peuvent être stockés. La valeur par défaut est 629 145 600 octets (600 Mo). |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Cette propriété définit si une instance de la classe Presentation peut être propriétaire de la source - fichier ou flux pendant la durée de vie de l'instance. Si l'instance est propriétaire, elle verrouille la source. Cela aide à améliorer la consommation de mémoire et les performances tout en travaillant avec des BLOB, mais la source (flux ou fichier) ne peut pas être modifiée pendant la durée de vie de l'instance de Presentation. |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Le chemin racine où les fichiers temporaires seront créés. Le répertoire temporaire du système sera utilisé par défaut. Le processus d'hébergement doit être autorisé à y créer des fichiers et des dossiers. |
 
-### Voir aussi
+### Voir également
 
 * interface [IBlobManagementOptions](../iblobmanagementoptions)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,13 +1,12 @@
 ---
 title: RowCount
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Количество строк в матрице
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/mathmatrix/rowcount/
 ---
-
-## Свойство MathMatrix.RowCount
+## MathMatrix.RowCount property
 
 Количество строк в матрице
 
@@ -25,9 +24,9 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 int rowCount = matrix.RowCount;
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathMatrix](../../mathmatrix)
+* class [MathMatrix](../../mathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrix)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides для .NET API Справка
-description: Служит в качестве хеш-функции для определенного типа.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Служит хэш-функцией для определенного типа.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/alphamodulate/gethashcode/
 ---
+## AlphaModulate.GetHashCode method
 
-## AlphaModulate.GetHashCode метод
-
-Служит в качестве хеш-функции для определенного типа.
+Служит хэш-функцией для определенного типа.
 
 ```csharp
 public override int GetHashCode()
@@ -17,11 +16,11 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Хеш-код для текущего объекта.
+Хэш-код текущего объекта.
 
-### См. также
+### Смотрите также
 
-* класс [AlphaModulate](../../alphamodulate)
+* class [AlphaModulate](../../alphamodulate)
 * пространство имен [Aspose.Slides.Effects](../../alphamodulate)
 * сборка [Aspose.Slides](../../../)
 

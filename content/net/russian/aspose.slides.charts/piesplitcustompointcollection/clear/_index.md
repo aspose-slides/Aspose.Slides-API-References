@@ -1,15 +1,14 @@
 ---
-title: Очистить
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Удаляет все элементы из ICollection.
+title: Clear
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет все элементы изICollection.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/piesplitcustompointcollection/clear/
 ---
+## PieSplitCustomPointCollection.Clear method
 
-## Метод PieSplitCustomPointCollection.Clear
-
-Удаляет все элементы из ICollection.
+Удаляет все элементы изICollection.
 
 ```csharp
 public void Clear()
@@ -17,7 +16,7 @@ public void Clear()
 
 ### Смотрите также
 
-* класс [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
+* class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * пространство имен [Aspose.Slides.Charts](../../piesplitcustompointcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,33 +1,32 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes для .NET API Справочник
-description: Хранит форматы, определенные темой, для фигур.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Сохраняет определяемые темой форматы для фигур.
 type: docs
-weight: 10960
+weight: 10460
 url: /ru/aspose.slides.theme/iformatscheme/
 ---
+## IFormatScheme interface
 
-## Интерфейс IFormatScheme
-
-Хранит форматы, определенные темой, для фигур.
+Сохраняет определяемые темой форматы для фигур.
 
 ```csharp
 public interface IFormatScheme : ISlideComponent
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Возвращает коллекцию стилей заливки фона, определенных темой. Только для чтения [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Возвращает коллекцию стилей эффектов, определенных темой. Только для чтения [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Возвращает коллекцию стилей заливки, определенных темой. Только для чтения [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Возвращает коллекцию стилей линий, определенных темой. Только для чтения [`ILineFormatCollection`](../ilineformatcollection). |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Возвращает набор стилей заливки фона, определенных темой. Только для чтения[`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Возвращает набор стилей эффектов, определенных темой. Только для чтения[`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Возвращает набор стилей заливки, определенных темой. Только для чтения[`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Возвращает набор стилей линий, определенных темой. Только для чтения[`ILineFormatCollection`](../ilineformatcollection). |
 
-### Также см. 
+### Смотрите также
 
-* интерфейс [ISlideComponent](../../aspose.slides/islidecomponent)
+* interface [ISlideComponent](../../aspose.slides/islidecomponent)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

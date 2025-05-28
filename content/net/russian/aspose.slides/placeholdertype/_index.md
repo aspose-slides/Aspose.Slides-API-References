@@ -1,13 +1,12 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет тип заполнителя.
 type: docs
-weight: 9180
+weight: 8720
 url: /ru/aspose.slides/placeholdertype/
 ---
-
-## Перечисление PlaceholderType
+## PlaceholderType enumeration
 
 Представляет тип заполнителя.
 
@@ -15,28 +14,28 @@ url: /ru/aspose.slides/placeholdertype/
 public enum PlaceholderType : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
-| Title | `0` | Заголовок. |
-| Body | `1` | Тело. |
-| CenteredTitle | `2` | Центрированный заголовок. |
+| Title | `0` | Название. |
+| Body | `1` | Кузов. |
+| CenteredTitle | `2` | Заголовок по центру. |
 | Subtitle | `3` | Подзаголовок. |
 | DateAndTime | `4` | Дата и время. |
 | SlideNumber | `5` | Номер слайда. |
-| Footer | `6` | Колонтитул. |
+| Footer | `6` | Нижний колонтитул. |
 | Header | `7` | Заголовок. |
 | Object | `8` | Объект. |
 | Chart | `9` | Диаграмма. |
 | Table | `10` | Таблица. |
-| ClipArt | `11` | Клиповое изображение. |
+| ClipArt | `11` | Картинки. |
 | Diagram | `12` | Диаграмма. |
 | Media | `13` | Медиа. |
 | SlideImage | `14` | Изображение слайда. |
 | Picture | `15` | Картинка. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,23 +1,22 @@
 ---
-title: Направление
+title: Direction
 second_title: Справочник по API Aspose.Slides для .NET
-description: Направление отражения. Чтение/запись Single.
+description: Направление отражения. Чтение/записьSingle.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/ireflection/direction/
 ---
+## IReflection.Direction property
 
-## Свойство IReflection.Direction
-
-Направление отражения. Чтение/запись Single.
+Направление отражения. Чтение/записьSingle.
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IReflection](../../ireflection)
+* interface [IReflection](../../ireflection)
 * пространство имен [Aspose.Slides.Effects](../../ireflection)
 * сборка [Aspose.Slides](../../../)
 

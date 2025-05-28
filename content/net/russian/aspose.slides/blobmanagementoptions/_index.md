@@ -1,15 +1,14 @@
 ---
 title: BlobManagementOptions
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет параметры, которые могут быть использованы для управления правилами обработки BLOB и другими настройками BLOB.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет параметры которые можно использовать для управления правилами обработки больших двоичных объектов и другими параметрами больших двоичных объектов.
 type: docs
-weight: 950
+weight: 930
 url: /ru/aspose.slides/blobmanagementoptions/
 ---
+## BlobManagementOptions class
 
-## Класс BlobManagementOptions
-
-Представляет параметры, которые могут быть использованы для управления правилами обработки BLOB и другими настройками BLOB.
+Представляет параметры, которые можно использовать для управления правилами обработки больших двоичных объектов и другими параметрами больших двоичных объектов.
 
 ```csharp
 public class BlobManagementOptions : IBlobManagementOptions
@@ -17,22 +16,22 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | Создает новые параметры управления BLOB по умолчанию. |
+| [BlobManagementOptions](blobmanagementoptions)() | Создает новые параметры управления большими двоичными объектами по умолчанию. |
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Это свойство определяет, могут ли быть созданы временные файлы при работе с BLOB, что значительно сокращает потребление памяти, но требует разрешений на создание файлов. Все файлы будут удалены после завершения работы с презентацией. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Определяет максимальное количество (в байтах), которое все BLOB в сумме могут занимать в памяти. Сначала все BLOB загружаются в память по умолчанию, и только когда достигается лимит, определенный этим свойством, могут быть задействованы другие механизмы (такие как временные файлы). С точки зрения производительности наиболее эффективный способ — хранение BLOB в памяти, но с другой стороны, это приводит к высокому потреблению памяти, что может быть нежелательным. С помощью этого свойства вы можете установить оптимальное поведение для вашей среды или других требований. Это свойство будет игнорироваться, если [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) установлено в false. Нет смысла ограничивать максимальное количество BLOB в памяти, потому что если [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) установлено в false, память — единственное место, где BLOB могут храниться. Значение по умолчанию составляет 629,145,600 байт (600Mb). |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока во время жизни экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB, но источник (поток или файл) не может быть изменен в течение жизни экземпляра Presentation. |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Корневой путь, где будут созданы временные файлы. По умолчанию будет использоваться временная директория системы. Процесс хостинга должен иметь разрешения на создание файлов и папок там. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Установить запрет на использование временных файлов для оптимизации потребления памяти при работе с большими объемами данных во время жизни презентации. Если false, может быть выброшено исключение OutOfMemoryException. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Пороговое значение, указывающее максимальное количество байтов, которые BLOB могут занимать в памяти. После того, как этот порог будет достигнут, все новые BLOB будут помещены во временные файлы и не повлияют на общее потребление памяти процессом. [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed)должно быть установлено значение true, чтобы использовать это свойство. |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Представляет поведение блокировки для источника презентации (потока или файла). |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Представляет корневой путь в файловой системе, где будут храниться временные файлы. System временный каталог будет использоваться по умолчанию. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBlobManagementOptions](../iblobmanagementoptions)
+* interface [IBlobManagementOptions](../iblobmanagementoptions)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

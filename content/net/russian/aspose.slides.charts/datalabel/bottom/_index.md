@@ -1,23 +1,22 @@
 ---
-title: Нижний
+title: Bottom
 second_title: Справочник по API Aspose.Slides для .NET
-description: Нижний. Только для чтения Single.
+description: Снизу. Только для чтенияSingle.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/datalabel/bottom/
 ---
+## DataLabel.Bottom property
 
-## Свойство DataLabel.Bottom
-
-Нижний. Только для чтения Single.
+Снизу. Только для чтенияSingle.
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [DataLabel](../../datalabel)
+* class [DataLabel](../../datalabel)
 * пространство имен [Aspose.Slides.Charts](../../datalabel)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество настраиваемых XML частей в коллекции. Только для чтения Int32.
+description: Возвращает количество пользовательских частей xml в коллекции. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/customxmlpartcollection/count/
 ---
+## CustomXmlPartCollection.Count property
 
-## Свойство CustomXmlPartCollection.Count
-
-Возвращает количество настраиваемых XML частей в коллекции. Только для чтения Int32.
+Возвращает количество пользовательских частей xml в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Также см. 
+### Смотрите также
 
-* класс [CustomXmlPartCollection](../../customxmlpartcollection)
+* class [CustomXmlPartCollection](../../customxmlpartcollection)
 * пространство имен [Aspose.Slides](../../customxmlpartcollection)
 * сборка [Aspose.Slides](../../../)
 

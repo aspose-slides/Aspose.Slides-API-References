@@ -1,29 +1,28 @@
 ---
 title: SvgTSpan
-second_title: Aspose.Slides для .NET API Справка
-description: Представляет параметры для части текста SVG "tspan".
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет параметры для текстовой части SVG tspan.
 type: docs
-weight: 4330
+weight: 4090
 url: /ru/aspose.slides.export/svgtspan/
 ---
+## SvgTSpan class
 
-## Класс SvgTSpan
-
-Представляет параметры для части текста SVG ("tspan").
+Представляет параметры для текстовой части SVG ("tspan").
 
 ```csharp
 public sealed class SvgTSpan : ISvgTSpan
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | Получает id элемента "tspan" |
+| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | Получает идентификатор элемента "tspan" |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISvgTSpan](../isvgtspan)
+* interface [ISvgTSpan](../isvgtspan)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)
 

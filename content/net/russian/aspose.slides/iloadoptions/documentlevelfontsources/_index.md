@@ -1,24 +1,23 @@
 ---
 title: DocumentLevelFontSources
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает источники внешних шрифтов, которые будут использоваться в презентации. Эти шрифты доступны для презентации на протяжении всей ее жизни и не делятся с другими презентациями.
+description: Указывает источники внешних шрифтов которые будут использоваться презентацией. Эти шрифты доступны для презентации в течение всего времени ее существования и не используются совместно с другими презентациями
 type: docs
-weight: 70
+weight: 50
 url: /ru/aspose.slides/iloadoptions/documentlevelfontsources/
 ---
+## ILoadOptions.DocumentLevelFontSources property
 
-## Свойство ILoadOptions.DocumentLevelFontSources
-
-Указывает источники внешних шрифтов, которые будут использоваться в презентации. Эти шрифты доступны для презентации на протяжении всей ее жизни и не делятся с другими презентациями.
+Указывает источники внешних шрифтов, которые будут использоваться презентацией. Эти шрифты доступны для презентации в течение всего времени ее существования и не используются совместно с другими презентациями
 
 ```csharp
 public IFontSources DocumentLevelFontSources { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontSources](../../ifontsources)
-* интерфейс [ILoadOptions](../../iloadoptions)
+* interface [IFontSources](../../ifontsources)
+* interface [ILoadOptions](../../iloadoptions)
 * пространство имен [Aspose.Slides](../../iloadoptions)
 * сборка [Aspose.Slides](../../../)
 

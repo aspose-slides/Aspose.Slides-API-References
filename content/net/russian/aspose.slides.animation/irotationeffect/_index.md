@@ -1,32 +1,31 @@
 ---
 title: IRotationEffect
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Представляет поведение вращения эффекта.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет поведение эффекта вращения.
 type: docs
-weight: 490
+weight: 470
 url: /ru/aspose.slides.animation/irotationeffect/
 ---
+## IRotationEffect interface
 
-## Интерфейс IRotationEffect
-
-Представляет поведение вращения эффекта.
+Представляет поведение эффекта вращения.
 
 ```csharp
 public interface IRotationEffect : IBehavior
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Описывает значение относительного смещения для анимации. Чтение/запись Single. |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Описывает начальное значение для анимации. Чтение/запись Single. |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Описывает конечное значение для анимации. Чтение/запись Single. |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBeavior. Только для чтения[`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Описывает значение относительного смещения для анимации. Чтение/записьSingle. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Описывает начальное значение анимации. Чтение/записьSingle. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Описывает конечное значение анимации. Чтение/записьSingle. |
 
-### Смотрите Также
+### Смотрите также
 
-* интерфейс [IBehavior](../ibehavior)
+* interface [IBehavior](../ibehavior)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

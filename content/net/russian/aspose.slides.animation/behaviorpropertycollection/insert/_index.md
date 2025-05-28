@@ -1,13 +1,12 @@
 ---
-title: Вставить
-second_title: Справочная информация по Aspose.Slides для .NET
+title: Insert
+second_title: Справочник по API Aspose.Slides для .NET
 description: Вставляет новое свойство в коллекцию по указанному индексу.
 type: docs
 weight: 100
 url: /ru/aspose.slides.animation/behaviorpropertycollection/insert/
 ---
-
-## Вставить(int, IBehaviorProperty) {#insert}
+## Insert(int, IBehaviorProperty) {#insert}
 
 Вставляет новое свойство в коллекцию по указанному индексу.
 
@@ -17,19 +16,19 @@ public void Insert(int index, IBehaviorProperty item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, по которому должно быть вставлено новое свойство. |
-| item | IBehaviorProperty | Свойство, которое нужно добавить. |
+| index | Int32 | Индекс, в который следует вставить новое свойство. |
+| item | IBehaviorProperty | Добавляемое свойство. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBehaviorProperty](../../ibehaviorproperty)
-* класс [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* interface [IBehaviorProperty](../../ibehaviorproperty)
+* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Вставить(int, string) {#insert_1}
+## Insert(int, string) {#insert_1}
 
 Вставляет новое свойство (с указанным значением свойства) в коллекцию по указанному индексу.
 
@@ -39,12 +38,12 @@ public void Insert(int index, string propertyValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, по которому должно быть вставлено новое свойство. |
-| propertyValue | String | Значение свойства, которое нужно добавить. |
+| index | Int32 | Индекс, в который следует вставить новое свойство. |
+| propertyValue | String | Значение добавляемого свойства. |
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 

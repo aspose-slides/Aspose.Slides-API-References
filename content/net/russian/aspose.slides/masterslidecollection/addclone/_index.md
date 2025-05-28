@@ -1,15 +1,14 @@
 ---
 title: AddClone
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет копию указанного основного слайда в конец коллекции. Связанные макетные слайды также будут скопированы.
+description: Добавляет копию указанного мастер-слайда в конец коллекции. Связанные слайды макета также будут скопированы.
 type: docs
 weight: 50
 url: /ru/aspose.slides/masterslidecollection/addclone/
 ---
+## MasterSlideCollection.AddClone method
 
-## MasterSlideCollection.AddClone метод
-
-Добавляет копию указанного основного слайда в конец коллекции. Связанные макетные слайды также будут скопированы.
+Добавляет копию указанного мастер-слайда в конец коллекции. Связанные слайды макета также будут скопированы.
 
 ```csharp
 public IMasterSlide AddClone(IMasterSlide sourceMaster)
@@ -21,12 +20,12 @@ public IMasterSlide AddClone(IMasterSlide sourceMaster)
 
 ### Возвращаемое значение
 
-Добавленный слайд.
+Добавлен слайд.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMasterSlide](../../imasterslide)
-* класс [MasterSlideCollection](../../masterslidecollection)
+* interface [IMasterSlide](../../imasterslide)
+* class [MasterSlideCollection](../../masterslidecollection)
 * пространство имен [Aspose.Slides](../../masterslidecollection)
 * сборка [Aspose.Slides](../../../)
 

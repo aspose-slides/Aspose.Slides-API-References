@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathnaryoperator/asimathelement/
 ---
-
-## Свойство IMathNaryOperator.AsIMathElement
+## IMathNaryOperator.AsIMathElement property
 
 Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../../imathelement)
 
@@ -15,10 +14,10 @@ url: /ru/aspose.slides.mathtext/imathnaryoperator/asimathelement/
 public IMathElement AsIMathElement { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* interface [IMathElement](../../imathelement)
+* interface [IMathNaryOperator](../../imathnaryoperator)
 * пространство имен [Aspose.Slides.MathText](../../imathnaryoperator)
 * сборка [Aspose.Slides](../../../)
 

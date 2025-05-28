@@ -1,32 +1,31 @@
 ---
-title: Заполнители
+title: Placeholder
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет собой заполнитель на слайде.
+description: Представляет заполнитель на слайде.
 type: docs
-weight: 9160
+weight: 8700
 url: /ru/aspose.slides/placeholder/
 ---
+## Placeholder class
 
-## Класс Placeholder
-
-Представляет собой заполнитель на слайде.
+Представляет заполнитель на слайде.
 
 ```csharp
 public class Placeholder : IPlaceholder
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | Получает или задает индекс заполнителя. Только для чтения UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Получает или задает ориентацию заполнителя. Только для чтения [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | Получает или задает размер заполнителя. Только для чтения [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | Получает или задает тип заполнителя. Только для чтения [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | Получает или задает индекс заполнителя. Только для чтенияUInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Получает или задает ориентацию заполнителя. Только для чтения[`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | Получает или задает размер заполнителя. Только для чтения[`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | Получает или задает тип заполнителя. Только для чтения[`PlaceholderType`](../placeholdertype). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPlaceholder](../iplaceholder)
+* interface [IPlaceholder](../iplaceholder)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

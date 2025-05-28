@@ -6,8 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides/paragraphfactory/paragraphfactory/
 ---
-
-## Конструктор ParagraphFactory
+## ParagraphFactory constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/paragraphfactory/paragraphfactory/
 public ParagraphFactory()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ParagraphFactory](../../paragraphfactory)
+* class [ParagraphFactory](../../paragraphfactory)
 * пространство имен [Aspose.Slides](../../paragraphfactory)
 * сборка [Aspose.Slides](../../../)
 

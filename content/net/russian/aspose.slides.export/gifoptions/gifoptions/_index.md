@@ -1,13 +1,12 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes для .NET Справочник по API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр класса GifOptions.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/gifoptions/gifoptions/
 ---
-
-## Конструктор GifOptions
+## GifOptions constructor
 
 Инициализирует новый экземпляр класса GifOptions.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.export/gifoptions/gifoptions/
 public GifOptions()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [GifOptions](../../gifoptions)
+* class [GifOptions](../../gifoptions)
 * пространство имен [Aspose.Slides.Export](../../gifoptions)
 * сборка [Aspose.Slides](../../../)
 

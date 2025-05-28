@@ -1,15 +1,14 @@
 ---
-title: Равно
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, равен ли указанный GrayScale aspose.slides.effects/grayscale текущему GrayScale aspose.slides.effects/grayscale.
+title: Equals
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет равен ли указанныйGrayScaleaspose.slides.effects/grayscaleтекущемуОттенкисерого.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/grayscale/equals/
 ---
+## GrayScale.Equals method
 
-## Метод GrayScale.Equals
-
-Определяет, равен ли указанный [`GrayScale`](../../grayscale) текущему [`GrayScale`](../../grayscale).
+Определяет, равен ли указанный[`GrayScale`](../../grayscale)текущемуОттенкисерого.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,15 +16,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`GrayScale`](../../grayscale), который нужно сравнить. |
+| obj | Object | [`GrayScale`](../../grayscale)для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае false.
+true, если объекты равны; в противном случае ложно.
 
-### См. также
+### Смотрите также
 
-* класс [GrayScale](../../grayscale)
+* class [GrayScale](../../grayscale)
 * пространство имен [Aspose.Slides.Effects](../../grayscale)
 * сборка [Aspose.Slides](../../../)
 

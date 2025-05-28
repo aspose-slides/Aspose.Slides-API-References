@@ -1,23 +1,22 @@
 ---
 title: SyncRoot
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает корень синхронизации. Объект только для чтения.
+description: Возвращает корень синхронизации. Только для чтенияObject.
 type: docs
 weight: 40
 url: /ru/aspose.slides.vba/vbareferencecollection/syncroot/
 ---
+## VbaReferenceCollection.SyncRoot property
 
-## Свойство VbaReferenceCollection.SyncRoot
-
-Возвращает корень синхронизации. Объект только для чтения.
+Возвращает корень синхронизации. Только для чтенияObject.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [VbaReferenceCollection](../../vbareferencecollection)
+* class [VbaReferenceCollection](../../vbareferencecollection)
 * пространство имен [Aspose.Slides.Vba](../../vbareferencecollection)
 * сборка [Aspose.Slides](../../../)
 

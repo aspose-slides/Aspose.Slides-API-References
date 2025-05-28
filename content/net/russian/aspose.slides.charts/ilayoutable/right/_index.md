@@ -1,23 +1,22 @@
 ---
-title: Право
-second_title: Справка по API Aspose.Sildes для .NET
-description: Получает право элемента диаграммы как дробь от ширины диаграммы. Только для чтения Single.
+title: Right
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает правую часть элемента диаграммы как часть ширины диаграммы. Только для чтенияSingle.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ilayoutable/right/
 ---
+## ILayoutable.Right property
 
-## Свойство ILayoutable.Right
-
-Получает право элемента диаграммы как дробь от ширины диаграммы. Только для чтения Single.
+Получает правую часть элемента диаграммы как часть ширины диаграммы. Только для чтенияSingle.
 
 ```csharp
 public float Right { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ILayoutable](../../ilayoutable)
+* interface [ILayoutable](../../ilayoutable)
 * пространство имен [Aspose.Slides.Charts](../../ilayoutable)
 * сборка [Aspose.Slides](../../../)
 

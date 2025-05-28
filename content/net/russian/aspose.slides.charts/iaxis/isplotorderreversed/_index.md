@@ -1,23 +1,22 @@
 ---
 title: IsPlotOrderReversed
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет, отображает ли MS PowerPoint данные от последних к первым. Чтение/запись логического значения.
+description: Указывает отображает ли MS PowerPoint точки данных от последней к первой. Чтение/записьBoolean.
 type: docs
 weight: 290
 url: /ru/aspose.slides.charts/iaxis/isplotorderreversed/
 ---
+## IAxis.IsPlotOrderReversed property
 
-## IAxis.IsPlotOrderReversed свойство
-
-Представляет, отображает ли MS PowerPoint данные от последних к первым. Чтение/запись логического значения.
+Указывает, отображает ли MS PowerPoint точки данных от последней к первой. Чтение/записьBoolean.
 
 ```csharp
 public bool IsPlotOrderReversed { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
+* interface [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: Число
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ilegendentrycollection/count/
 ---
+## ILegendEntryCollection.Count property
 
-## Свойство ILegendEntryCollection.Count
-
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
+Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ILegendEntryCollection](../../ilegendentrycollection)
+* interface [ILegendEntryCollection](../../ilegendentrycollection)
 * пространство имен [Aspose.Slides.Charts](../../ilegendentrycollection)
 * сборка [Aspose.Slides](../../../)
 

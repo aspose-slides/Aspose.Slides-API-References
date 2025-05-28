@@ -1,35 +1,34 @@
 ---
 title: ILegend
-second_title: Aspose.Sildes для справочника API .NET
-description: Представляет свойства легенды графика.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет свойства легенды диаграммы.
 type: docs
-weight: 2050
+weight: 1990
 url: /ru/aspose.slides.charts/ilegend/
 ---
+## ILegend interface
 
-## Интерфейс ILegend
-
-Представляет свойства легенды графика.
+Представляет свойства легенды диаграммы.
 
 ```csharp
 public interface ILegend : IFormattedTextContainer, ILayoutable
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Получает записи легенды. Только для чтения [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Возвращает формат легенды. Только для чтения [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Определяет, разрешено ли другим элементам графика перекрывать легенду. Читаемое/записываемое логическое значение. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Указывает положение легенды на графике. Ненулевые значения свойств X, Y, Width, Height имеют приоритет над эффектом данного свойства. Читаемое/записываемое [`LegendPositionType`](../legendpositiontype). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Получает записи легенды. Только для чтения[`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Возвращает формат легенды. Только для чтения[`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Чтение/записьBoolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Указывает положение легенды на диаграмме. Значения свойств X, Y, Width, Heigt, отличные от NaN, переопределяют эффект этого свойства. Чтение/запись[`LegendPositionType`](../legendpositiontype). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFormattedTextContainer](../iformattedtextcontainer)
-* интерфейс [ILayoutable](../ilayoutable)
+* interface [IFormattedTextContainer](../iformattedtextcontainer)
+* interface [ILayoutable](../ilayoutable)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

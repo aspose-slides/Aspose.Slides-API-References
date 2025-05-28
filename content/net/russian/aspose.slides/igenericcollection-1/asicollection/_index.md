@@ -1,13 +1,12 @@
 ---
 title: AsICollection
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает интерфейс ICollection.
 type: docs
 weight: 10
 url: /ru/aspose.slides/igenericcollection-1/asicollection/
 ---
-
-## IGenericCollection&lt;T&gt;.AsICollection свойство
+## IGenericCollection&lt;T&gt;.AsICollection property
 
 Возвращает интерфейс ICollection.
 
@@ -17,11 +16,11 @@ public ICollection AsICollection { get; }
 
 ### Примечания
 
-Для совместимости с COM.
+Для COM-совместимости.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../../igenericcollection-1)
+* interface [IGenericCollection&lt;T&gt;](../../igenericcollection-1)
 * пространство имен [Aspose.Slides](../../igenericcollection-1)
 * сборка [Aspose.Slides](../../../)
 

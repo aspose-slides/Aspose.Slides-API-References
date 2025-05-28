@@ -1,28 +1,27 @@
 ---
 title: ISpreadsheetOptions
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет опции, которые можно использовать для указания дополнительного поведения таблиц.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет параметры которые можно использовать для указания дополнительного поведения электронных таблиц.
 type: docs
-weight: 6900
+weight: 6540
 url: /ru/aspose.slides/ispreadsheetoptions/
 ---
+## ISpreadsheetOptions interface
 
-## Интерфейс ISpreadsheetOptions
-
-Представляет опции, которые можно использовать для указания дополнительного поведения таблиц.
+Представляет параметры, которые можно использовать для указания дополнительного поведения электронных таблиц.
 
 ```csharp
 public interface ISpreadsheetOptions
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Получает или задает предпочтительную информацию о культуре для вычисления некоторых функций, предназначенных для использования с языками, которые используют набор символов двойного байта (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Если источник данных для графика - это внешний рабочий файл и он недоступен, он будет восстановлен из кэша графика. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Получает или задает предпочтительные сведения о культуре для вычисления некоторых функций, предназначенных для использования с языками , использующими двухбайтовый набор символов (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Если источником данных для диаграммы является внешняя рабочая книга и она недоступна, она будет восстановлена из кэша диаграммы. |
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

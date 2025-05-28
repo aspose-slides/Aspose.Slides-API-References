@@ -1,15 +1,14 @@
 ---
-title: Насыщенность
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает процент насыщенности. Только для чтения Single.
+title: Saturation
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает процент насыщения. Только для чтенияSingle.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/ihsleffectivedata/saturation/
 ---
+## IHSLEffectiveData.Saturation property
 
-## IHSLEffectiveData.Saturation свойство
-
-Возвращает процент насыщенности. Только для чтения Single.
+Возвращает процент насыщения. Только для чтенияSingle.
 
 ```csharp
 public float Saturation { get; }
@@ -17,7 +16,7 @@ public float Saturation { get; }
 
 ### Смотрите также
 
-* интерфейс [IHSLEffectiveData](../../ihsleffectivedata)
+* interface [IHSLEffectiveData](../../ihsleffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ihsleffectivedata)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: По
-second_title: Справочник API Aspose.Slides для .NET
-description: описывает значение относительного смещения для анимации в процентах. Чтение/запись PointF.
+title: By
+second_title: Справочник по API Aspose.Slides для .NET
+description: описывает значение относительного смещения для анимации в процентах. Чтение/записьPointF.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/iscaleeffect/by/
 ---
+## IScaleEffect.By property
 
-## Свойство IScaleEffect.By
-
-описывает значение относительного смещения для анимации (в процентах). Чтение/запись PointF.
+описывает значение относительного смещения для анимации (в процентах). Чтение/записьPointF.
 
 ```csharp
 public PointF By { get; set; }
@@ -17,7 +16,7 @@ public PointF By { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IScaleEffect](../../iscaleeffect)
+* interface [IScaleEffect](../../iscaleeffect)
 * пространство имен [Aspose.Slides.Animation](../../iscaleeffect)
 * сборка [Aspose.Slides](../../../)
 

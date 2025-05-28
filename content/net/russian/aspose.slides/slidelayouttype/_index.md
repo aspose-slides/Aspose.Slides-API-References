@@ -1,13 +1,12 @@
 ---
 title: SlideLayoutType
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет тип макета слайда.
 type: docs
-weight: 9680
+weight: 9210
 url: /ru/aspose.slides/slidelayouttype/
 ---
-
-## Перечисление SlideLayoutType
+## SlideLayoutType enumeration
 
 Представляет тип макета слайда.
 
@@ -15,48 +14,48 @@ url: /ru/aspose.slides/slidelayouttype/
 public enum SlideLayoutType : sbyte
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | Custom | `-1` | Пользовательский |
-| Title | `0` | Заголовок |
+| Title | `0` | Название |
 | Text | `1` | Текст |
-| TwoColumnText | `2` | Два столбца текста |
+| TwoColumnText | `2` | Текст в два столбца |
 | Table | `3` | Таблица |
 | TextAndChart | `4` | Текст и диаграмма |
 | ChartAndText | `5` | Диаграмма и текст |
 | Diagram | `6` | Диаграмма |
 | Chart | `7` | Диаграмма |
-| TextAndClipArt | `8` | Текст и клипарт |
-| ClipArtAndText | `9` | Клипарт и текст |
+| TextAndClipArt | `8` | Текст и картинки |
+| ClipArtAndText | `9` | Картинки и текст |
 | TitleOnly | `10` | Только заголовок |
 | Blank | `11` | Пусто |
 | TextAndObject | `12` | Текст и объект |
 | ObjectAndText | `13` | Объект и текст |
 | Object | `14` | Объект |
-| TitleAndObject | `15` | Заголовок и объект |
-| TextAndMedia | `16` | Текст и мультимедиа |
-| MediaAndText | `17` | Мультимедиа и текст |
-| ObjectOverText | `18` | Объект над текстом |
-| TextOverObject | `19` | Текст над объектом |
+| TitleAndObject | `15` | Название и объект |
+| TextAndMedia | `16` | Текст и медиа |
+| MediaAndText | `17` | Медиа и текст |
+| ObjectOverText | `18` | Объект поверх текста |
+| TextOverObject | `19` | Текст поверх объекта |
 | TextAndTwoObjects | `20` | Текст и два объекта |
 | TwoObjectsAndText | `21` | Два объекта и текст |
-| TwoObjectsOverText | `22` | Два объекта над текстом |
+| TwoObjectsOverText | `22` | Два объекта поверх текста |
 | FourObjects | `23` | Четыре объекта |
 | VerticalText | `24` | Вертикальный текст |
-| ClipArtAndVerticalText | `25` | Клипарт и вертикальный текст |
-| VerticalTitleAndText | `26` | Вертикальный заголовок и текст |
-| VerticalTitleAndTextOverChart | `27` | Вертикальный заголовок и текст над диаграммой |
+| ClipArtAndVerticalText | `25` | Клип-арт и вертикальный текст |
+| VerticalTitleAndText | `26` | Вертикальное название и текст |
+| VerticalTitleAndTextOverChart | `27` | Вертикальное название и текст поверх диаграммы |
 | TwoObjects | `28` | Два объекта |
 | ObjectAndTwoObject | `29` | Объект и два объекта |
 | TwoObjectsAndObject | `30` | Два объекта и объект |
 | SectionHeader | `31` | Заголовок раздела |
 | TwoTextAndTwoObjects | `32` | Два текста и два объекта |
 | TitleObjectAndCaption | `33` | Заголовок, объект и подпись |
-| PictureAndCaption | `34` | Картинка и подпись |
+| PictureAndCaption | `34` | Изображение и подпись |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

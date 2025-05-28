@@ -1,41 +1,40 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет собой коллекцию стилей эффектов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор стилей эффектов.
 type: docs
-weight: 10780
+weight: 10280
 url: /ru/aspose.slides.theme/effectstylecollection/
 ---
+## EffectStyleCollection class
 
-## Класс EffectStyleCollection
-
-Представляет собой коллекцию стилей эффектов.
+Представляет набор стилей эффектов.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Возвращает элемент по указанной позиции. Только для чтения [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтенияInt32, Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Возвращает элемент в указанной позиции. Только для чтения[`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
-### См. также
+### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* класс [FormatScheme](../formatscheme)
-* интерфейс [IEffectStyleCollection](../ieffectstylecollection)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [FormatScheme](../formatscheme)
+* interface [IEffectStyleCollection](../ieffectstylecollection)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

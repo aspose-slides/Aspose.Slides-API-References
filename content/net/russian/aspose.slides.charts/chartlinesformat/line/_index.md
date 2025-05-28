@@ -1,24 +1,23 @@
 ---
-title: Линия
+title: Line
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает свойства стиля линии графика. Только для чтения ILineFormataspose.slides/ilineformat.
+description: Возвращает свойства стиля линии линии диаграммы. Только для чтенияILineFormataspose.slides/ilineformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartlinesformat/line/
 ---
+## ChartLinesFormat.Line property
 
-## Свойство ChartLinesFormat.Line
-
-Возвращает свойства стиля линии графика. Только для чтения [`ILineFormat`](../../../aspose.slides/ilineformat).
+Возвращает свойства стиля линии линии диаграммы. Только для чтения[`ILineFormat`](../../../aspose.slides/ilineformat).
 
 ```csharp
 public ILineFormat Line { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILineFormat](../../../aspose.slides/ilineformat)
-* класс [ChartLinesFormat](../../chartlinesformat)
+* interface [ILineFormat](../../../aspose.slides/ilineformat)
+* class [ChartLinesFormat](../../chartlinesformat)
 * пространство имен [Aspose.Slides.Charts](../../chartlinesformat)
 * сборка [Aspose.Slides](../../../)
 

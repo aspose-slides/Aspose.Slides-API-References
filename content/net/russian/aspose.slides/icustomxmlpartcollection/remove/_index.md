@@ -1,15 +1,14 @@
 ---
-title: Удалить
-second_title: Aspose.Slides для .NET API Справочник
-description: Удаляет первое вхождение конкретного объекта из коллекции.
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет первое вхождение определенного объекта из коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icustomxmlpartcollection/remove/
 ---
+## ICustomXmlPartCollection.Remove method
 
-## Метод ICustomXmlPartCollection.Remove
-
-Удаляет первое вхождение конкретного объекта из коллекции.
+Удаляет первое вхождение определенного объекта из коллекции.
 
 ```csharp
 public bool Remove(ICustomXmlPart item)
@@ -17,22 +16,22 @@ public bool Remove(ICustomXmlPart item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | ICustomXmlPart | Часть пользовательского XML, которую нужно удалить. |
+| item | ICustomXmlPart | Пользовательская часть xml, которую необходимо удалить. |
 
-### Возврат значения
+### Возвращаемое значение
 
-`true`, если элемент успешно удалён; в противном случае `false`.
+` true` если элемент успешно удален; в противном случае` false` .
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | item равно `null`. |
+| ArgumentNullException | элемент` null` . |
 
-### См. также
+### Смотрите также
 
-* интерфейс [ICustomXmlPart](../../icustomxmlpart)
-* интерфейс [ICustomXmlPartCollection](../../icustomxmlpartcollection)
+* interface [ICustomXmlPart](../../icustomxmlpart)
+* interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
 * пространство имен [Aspose.Slides](../../icustomxmlpartcollection)
 * сборка [Aspose.Slides](../../../)
 

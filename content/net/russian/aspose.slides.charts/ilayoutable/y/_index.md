@@ -1,23 +1,22 @@
 ---
 title: Y
-second_title: Справочник API Aspose.Sildes для .NET
-description: Указывает верхнюю часть элемента диаграммы как долю от высоты диаграммы. Чтение/запись Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет верхнюю часть элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/ilayoutable/y/
 ---
+## ILayoutable.Y property
 
-## Свойство ILayoutable.Y
-
-Указывает верхнюю часть элемента диаграммы как долю от высоты диаграммы. Чтение/запись Single.
+Определяет верхнюю часть элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle.
 
 ```csharp
 public float Y { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILayoutable](../../ilayoutable)
+* interface [ILayoutable](../../ilayoutable)
 * пространство имен [Aspose.Slides.Charts](../../ilayoutable)
 * сборка [Aspose.Slides](../../../)
 

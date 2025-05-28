@@ -1,35 +1,34 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет собой коллекцию листов рабочей книги данных диаграммы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор рабочих листов книги данных диаграммы.
 type: docs
-weight: 1320
+weight: 1260
 url: /ru/aspose.slides.charts/chartdataworksheetcollection/
 ---
+## ChartDataWorksheetCollection class
 
-## Класс ChartDataWorksheetCollection
-
-Представляет собой коллекцию листов рабочей книги данных диаграммы.
+Представляет набор рабочих листов книги данных диаграммы.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Возвращает количество. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Возвращает лист по индексу. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Возвращает количество. Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Возвращает рабочий лист по индексу. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Копирует в указанный массив. |
-| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Копировать в указанный массив. |
+| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
 ### Примеры
 
@@ -48,9 +47,9 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataWorksheetCollection](../ichartdataworksheetcollection)
+* interface [IChartDataWorksheetCollection](../ichartdataworksheetcollection)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

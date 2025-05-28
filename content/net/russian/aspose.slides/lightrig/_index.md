@@ -3,39 +3,38 @@ title: LightRig
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет LightRig.
 type: docs
-weight: 7450
+weight: 6990
 url: /ru/aspose.slides/lightrig/
 ---
-
-## Класс LightRig
+## LightRig class
 
 Представляет LightRig.
 
 ```csharp
-public sealed class LightRig : PVIObject, ILightRig
+public class LightRig : PVIObject, ILightRig
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Направление света. Чтение/запись [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Представляет предустановленный тип света, который может быть применен к фигуре. Light rig представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Чтение/запись [`LightRigPresetType`](../lightrigpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Направление света. Чтение/запись[`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Представляет предустановленное право света, которое можно применить к фигуре. Световая установка представляет собой группу источников света, ориентированных определенным образом относительно трехмерной сцены. Чтение/запись[`LightRigPresetType`](../lightrigpresettype). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Поворот определяется с использованием координаты широты, координаты долготы и революции вокруг оси, как координаты широты и долготы. Первый элемент в возвращаемом массиве - широта, второй - долгота, третий - революция. Возвращает null, если поворот не определен. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Поворот определяется с использованием координаты широты, координаты долготы и революции вокруг оси, как координаты широты и долготы. Если любое из значений координат равно float.NaN, все вращение не определено. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. первый элемент возвращаемого массива - широта, второй - долгота, третий - оборот. Возвращает null, если вращение не определено. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. Если какое-либо из значений координат имеет значение float.NaN, все вращения не определены. |
 
-### См. также
+### Смотрите также
 
-* класс [PVIObject](../pviobject)
-* интерфейс [ILightRig](../ilightrig)
+* class [PVIObject](../pviobject)
+* interface [ILightRig](../ilightrig)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

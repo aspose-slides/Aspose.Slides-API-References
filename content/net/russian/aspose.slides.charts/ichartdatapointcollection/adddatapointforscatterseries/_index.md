@@ -1,15 +1,14 @@
 ---
-title: ДобавитьТочкуДанныхДляГрафикаРазброса
-second_title: Справочник API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых тип графика является одним из подтипов разброса, см. также метод ChartTypeCharacterizer.IsChartTypeScatterChartType.
+title: AddDataPointForScatterSeries
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий ChartType которых является одним из подтипов Scatter см. также метод ChartTypeCharacterizer.IsChartTypeScatterChartType.
 type: docs
 weight: 180
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforscatterseries/
 ---
+## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
 
-## ДобавитьТочкуДанныхДляГрафикаРазброса(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
-
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых тип графика является одним из подтипов разброса (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChartDataCell yValue)
@@ -17,26 +16,26 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChar
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | IChartDataCell | Значение X для точки данных |
-| yValue | IChartDataCell | Значение Y для точки данных |
+| xValue | IChartDataCell | Точка данных XValue |
+| yValue | IChartDataCell | Точка данных YValue |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## ДобавитьТочкуДанныхДляГрафикаРазброса(double, IChartDataCell) {#adddatapointforscatterseries_2}
+## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых тип графика является одним из подтипов разброса (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCell yValue)
@@ -44,26 +43,26 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCel
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | Double | Значение X для точки данных |
-| yValue | IChartDataCell | Значение Y для точки данных |
+| xValue | Double | Точка данных XValue |
+| yValue | IChartDataCell | Точка данных YValue |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## ДобавитьТочкуДанныхДляГрафикаРазброса(string, IChartDataCell) {#adddatapointforscatterseries_4}
+## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых тип графика является одним из подтипов разброса (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCell yValue)
@@ -71,26 +70,26 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCel
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | String | Значение X для точки данных |
-| yValue | IChartDataCell | Значение Y для точки данных |
+| xValue | String | Точка данных XValue |
+| yValue | IChartDataCell | Точка данных YValue |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## ДобавитьТочкуДанныхДляГрафикаРазброса(IChartDataCell, double) {#adddatapointforscatterseries_1}
+## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых тип графика является одним из подтипов разброса (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, double yValue)
@@ -98,26 +97,26 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, doubl
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | IChartDataCell | Значение X для точки данных |
-| yValue | Double | Значение Y для точки данных |
+| xValue | IChartDataCell | Точка данных XValue |
+| yValue | Double | Точка данных YValue |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## ДобавитьТочкуДанныхДляГрафикаРазброса(double, double) {#adddatapointforscatterseries_3}
+## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых тип графика является одним из подтипов разброса (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue)
@@ -125,25 +124,25 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | Double | Значение X для точки данных |
-| yValue | Double | Значение Y для точки данных |
+| xValue | Double | Точка данных XValue |
+| yValue | Double | Точка данных YValue |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## ДобавитьТочкуДанныхДляГрафикаРазброса(string, double) {#adddatapointforscatterseries_5}
+## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых тип графика является одним из подтипов разброса (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue)
@@ -151,17 +150,17 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | String | Значение X для точки данных |
-| yValue | Double | Значение Y для точки данных |
+| xValue | String | Точка данных XValue |
+| yValue | Double | Точка данных YValue |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

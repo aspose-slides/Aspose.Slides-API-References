@@ -1,13 +1,12 @@
 ---
 title: Html5Options
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die HTML5-Exportoptionen dar.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Stellt eine HTML5Exportoption dar.
 type: docs
-weight: 3690
+weight: 3560
 url: /de/aspose.slides.export/html5options/
 ---
-
-## Html5Options-Klasse
+## Html5Options class
 
 Stellt eine HTML5-Exportoption dar.
 
@@ -15,27 +14,21 @@ Stellt eine HTML5-Exportoption dar.
 public class Html5Options : SaveOptions, IHtml5Options
 ```
 
-## Konstruktoren
+## Konstrukteure
 
 | Name | Beschreibung |
 | --- | --- |
-| [Html5Options](html5options)() | Standardkonstruktor. |
+| [Html5Options](html5options)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Gibt die Animationsoption für Formen zurück oder setzt sie. Lese-/Schreib-Boolescher Wert. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Gibt die Animationsoption für Übergänge zurück oder setzt sie. Lese-/Schreib-Boolescher Wert. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die Schriftart zurück oder setzt sie, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Lese-/Schreib-String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Ruft einen Wert ab oder setzt ihn, der angibt, ob der Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Gibt die Einbettungsoption für Bilder zurück oder setzt sie. Lese-/Schreib-Boolescher Wert. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gibt den visuellen Stil des Verläufs zurück oder setzt ihn. Lese-/Schreib- [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lese-/Schreib-String. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stellt ein Callback-Objekt für das Speichern von Fortschrittsaktualisierungen in Prozent dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob Hyperlinks mit JavaScript-Aufrufen beim Speichern der Präsentation übersprungen werden sollen. Lese-/Schreib-Boolescher Wert. Der Standardwert ist **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Ruft den Modus ab oder setzt ihn, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder setzt es, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lese-/Schreib- [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Gibt die Animationsoption für Formen zurück oder legt sie fest. Lesen/SchreibenBoolean . |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Gibt die Animationsoption für Übergänge zurück oder legt sie fest. Lesen/SchreibenBoolean . |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die verwendete Schriftart zurück oder legt sie fest, falls die Quellschriftart nicht gefunden wird. Lesen/SchreibenString . |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Repräsentiert ein Callback-Objekt zum Speichern von Fortschrittsaktualisierungen in Prozent. Siehe[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lesen/Schreiben[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
 
 ### Beispiele
 
@@ -55,9 +48,9 @@ using (Presentation pres = new Presentation("demo.pptx"))
 
 ### Siehe auch
 
-* Klasse [SaveOptions](../saveoptions)
-* Schnittstelle [IHtml5Options](../ihtml5options)
-* Namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* Assembly [Aspose.Slides](../../)
+* class [SaveOptions](../saveoptions)
+* interface [IHtml5Options](../ihtml5options)
+* namensraum [Aspose.Slides.Export](../../aspose.slides.export)
+* Montage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

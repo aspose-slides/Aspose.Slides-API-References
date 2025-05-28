@@ -1,15 +1,14 @@
 ---
-title: Добавить
-second_title: Справка по API Aspose.Slides для .NET
-description: Добавляет Portion в конец коллекции.
+title: Add
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет порцию в конец коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides/portioncollection/add/
 ---
+## PortionCollection.Add method
 
-## Метод PortionCollection.Add
-
-Добавляет Portion в конец коллекции.
+Добавляет порцию в конец коллекции.
 
 ```csharp
 public void Add(IPortion value)
@@ -17,12 +16,12 @@ public void Add(IPortion value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IPortion | Portion, который будет добавлен в конец коллекции. |
+| value | IPortion | Часть, которая будет добавлена в конец коллекции. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPortion](../../iportion)
-* класс [PortionCollection](../../portioncollection)
+* interface [IPortion](../../iportion)
+* class [PortionCollection](../../portioncollection)
 * пространство имен [Aspose.Slides](../../portioncollection)
 * сборка [Aspose.Slides](../../../)
 

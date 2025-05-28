@@ -1,23 +1,22 @@
 ---
 title: ShowTopPane
-second_title: Aspose.Slides для .NET API Справочник
-description: Показать/скрыть всю верхнюю панель. Может быть переопределен в flashvars. По умолчанию равно true.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Показать/скрыть всю верхнюю панель. Может быть переопределен в flashvars. Значение по умолчанию верно.
 type: docs
-weight: 140
+weight: 150
 url: /ru/aspose.slides.export/iswfoptions/showtoppane/
 ---
+## ISwfOptions.ShowTopPane property
 
-## ISwfOptions.ShowTopPane свойство
-
-Показать/скрыть всю верхнюю панель. Может быть переопределен в flashvars. По умолчанию равно true.
+Показать/скрыть всю верхнюю панель. Может быть переопределен в flashvars. Значение по умолчанию верно.
 
 ```csharp
 public bool ShowTopPane { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISwfOptions](../../iswfoptions)
+* interface [ISwfOptions](../../iswfoptions)
 * пространство имен [Aspose.Slides.Export](../../iswfoptions)
 * сборка [Aspose.Slides](../../../)
 

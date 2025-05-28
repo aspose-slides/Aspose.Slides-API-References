@@ -1,24 +1,23 @@
 ---
-title: Буллет
+title: Bullet
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат буллета абзаца. Только для чтения IBulletFormataspose.slides/ibulletformat.
+description: Возвращает маркированный формат абзаца. Только для чтенияIBulletFormataspose.slides/ibulletformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iparagraphformat/bullet/
 ---
+## IParagraphFormat.Bullet property
 
-## Свойство IParagraphFormat.Bullet
-
-Возвращает формат буллета абзаца. Только для чтения [`IBulletFormat`](../../ibulletformat).
+Возвращает маркированный формат абзаца. Только для чтения[`IBulletFormat`](../../ibulletformat).
 
 ```csharp
 public IBulletFormat Bullet { get; }
 ```
 
-### Также см. 
+### Смотрите также
 
-* интерфейс [IBulletFormat](../../ibulletformat)
-* интерфейс [IParagraphFormat](../../iparagraphformat)
+* interface [IBulletFormat](../../ibulletformat)
+* interface [IParagraphFormat](../../iparagraphformat)
 * пространство имен [Aspose.Slides](../../iparagraphformat)
 * сборка [Aspose.Slides](../../../)
 

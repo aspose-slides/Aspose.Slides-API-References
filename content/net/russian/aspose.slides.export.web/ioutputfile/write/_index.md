@@ -1,13 +1,12 @@
 ---
-title: Запись
+title: Write
 second_title: Справочник по API Aspose.Slides для .NET
 description: Записывает содержимое файла в поток.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export.web/ioutputfile/write/
 ---
-
-## Метод IOutputFile.Write
+## IOutputFile.Write method
 
 Записывает содержимое файла в поток.
 
@@ -21,7 +20,7 @@ public void Write(Stream stream)
 
 ### Смотрите также
 
-* интерфейс [IOutputFile](../../ioutputfile)
+* interface [IOutputFile](../../ioutputfile)
 * пространство имен [Aspose.Slides.Export.Web](../../ioutputfile)
 * сборка [Aspose.Slides](../../../)
 

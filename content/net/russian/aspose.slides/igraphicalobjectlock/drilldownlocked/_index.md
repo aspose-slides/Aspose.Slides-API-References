@@ -1,23 +1,22 @@
 ---
 title: DrilldownLocked
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, запрещено ли выбирать подсостояния этого объекта. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет запрещен ли выбор подформ этого объекта. Чтение/записьBoolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides/igraphicalobjectlock/drilldownlocked/
 ---
+## IGraphicalObjectLock.DrilldownLocked property
 
-## IGraphicalObjectLock.DrilldownLocked свойство
-
-Определяет, запрещено ли выбирать подсостояния этого объекта. Читаемое/записываемое логическое значение.
+Определяет, запрещен ли выбор подформ этого объекта. Чтение/записьBoolean.
 
 ```csharp
 public bool DrilldownLocked { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGraphicalObjectLock](../../igraphicalobjectlock)
+* interface [IGraphicalObjectLock](../../igraphicalobjectlock)
 * пространство имен [Aspose.Slides](../../igraphicalobjectlock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
-title: Низ
+title: Bottom
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает верхнюю часть элемента диаграммы как долю высоты диаграммы. Только для чтения Single.
+description: Получает верхнюю часть элемента диаграммы как часть высоты диаграммы. Только для чтенияSingle.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ilayoutable/bottom/
 ---
+## ILayoutable.Bottom property
 
-## Свойство ILayoutable.Bottom
-
-Получает верхнюю часть элемента диаграммы как долю высоты диаграммы. Только для чтения Single.
+Получает верхнюю часть элемента диаграммы как часть высоты диаграммы. Только для чтенияSingle.
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ILayoutable](../../ilayoutable)
+* interface [ILayoutable](../../ilayoutable)
 * пространство имен [Aspose.Slides.Charts](../../ilayoutable)
 * сборка [Aspose.Slides](../../../)
 

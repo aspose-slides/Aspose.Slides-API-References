@@ -6,8 +6,7 @@ type: docs
 weight: 110
 url: /ru/aspose.slides/islidecollection/removeat/
 ---
-
-## Метод ISlideCollection.RemoveAt
+## ISlideCollection.RemoveAt method
 
 Удаляет элемент по указанному индексу коллекции.
 
@@ -17,17 +16,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Нулевой индекс удаляемого элемента. |
+| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
 
-### Исключения
+### Смотрите также
 
-| исключение | условие |
-| --- | --- |
-| ArgumentOutOfRangeException |  |
-
-### См. также
-
-* интерфейс [ISlideCollection](../../islidecollection)
+* interface [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 

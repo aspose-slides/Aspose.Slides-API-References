@@ -1,15 +1,14 @@
 ---
 title: AddDataPointForHistogramSeries
-second_title: Aspose.Sildes для .NET API Справочник
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых - Гистограмма.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям с типом диаграммы Гистограмма.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforhistogramseries/
 ---
+## IChartDataPointCollection.AddDataPointForHistogramSeries method
 
-## IChartDataPointCollection.AddDataPointForHistogramSeries метод
-
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых - Гистограмма.
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям с типом диаграммы "Гистограмма".
 
 ```csharp
 public IChartDataPoint AddDataPointForHistogramSeries(IChartDataCell value)
@@ -19,15 +18,15 @@ public IChartDataPoint AddDataPointForHistogramSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Значение точки данных |
 
-### Значение Возврата
+### Возвращаемое значение
 
 Новая точка данных.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

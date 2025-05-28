@@ -1,31 +1,31 @@
 ---
 title: ShapeElement
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет часть фигуры с одинаковыми свойствами контуров и заливки.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет часть фигуры с одинаковыми свойствами контура и заливки.
 type: docs
-weight: 9560
+weight: 9090
 url: /ru/aspose.slides/shapeelement/
 ---
+## ShapeElement class
 
-## Класс ShapeElement
-
-Представляет часть фигуры с одинаковыми свойствами контуров и заливки.
+Представляет часть фигуры с одинаковыми свойствами контура и заливки.
 
 ```csharp
 public class ShapeElement : IShapeElement
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Возвращает информацию о том, как заполнить элемент. Только для чтения [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Возвращает Shape_PPT, для которого был создан элемент. Только для чтения [`Shape`](../shape). |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Возвращает информацию о том, как обводить элемент. Только для чтения [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Возвращает информацию о том, как заполнить элемент. Только для чтения[`ShapeElementFillSource`](../shapeelementfillsource). |
+| [GraphicsPath](../../aspose.slides/shapeelement/graphicspath) { get; } | Возвращает путь элемента. Только для чтенияGraphicsPath. |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Возвращает Shape_PPT, для которого был создан элемент. Только чтение[`Shape`](../shape). |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Возвращает информацию о том, как обводить элемент. Только для чтения[`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShapeElement](../ishapeelement)
+* interface [IShapeElement](../ishapeelement)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

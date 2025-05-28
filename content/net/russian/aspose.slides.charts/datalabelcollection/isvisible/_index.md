@@ -1,15 +1,14 @@
 ---
 title: IsVisible
-second_title: Aspose.Slides для .NET API Справочник
-description: Ложь означает, что метка данных по умолчанию не видима, и все флаги Show ShowValue и т.д. свойства DefaultDataLabelFormat имеют значение ложь. Только для чтения логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: False означает что метка данных по умолчанию не видна и следовательно все Show-флаги ShowValue ... DefaultDataLabelFormat свойство ложно. Только чтениеBoolean.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/datalabelcollection/isvisible/
 ---
+## DataLabelCollection.IsVisible property
 
-## DataLabelCollection.IsVisible свойство
-
-Ложь означает, что метка данных по умолчанию не видима (и, следовательно, все флаги Show* (ShowValue и т.д.) свойства DefaultDataLabelFormat имеют значение ложь). Только для чтения логическое значение.
+False означает, что метка данных по умолчанию не видна (и, следовательно, все Show*-флаги (ShowValue, ...) DefaultDataLabelFormat свойство ложно). Только чтениеBoolean.
 
 ```csharp
 public bool IsVisible { get; }
@@ -17,11 +16,11 @@ public bool IsVisible { get; }
 
 ### Примечания
 
-Если метка данных видима по умолчанию, вы можете сделать ее скрытой по умолчанию с помощью метода Hide(). Но если метка данных не видима по умолчанию (IsVisible равно ложь), вы можете сделать метку данных "видимой по умолчанию", установив флаги Show* (ShowValue и т.д.) свойства DefaultDataLabelFormat в состояние истинно.
+Если метка данных видна по умолчанию, вы можете сделать ее скрытой по умолчанию с помощью метода Hide(). Но если метка данных не видна по умолчанию (IsVisible имеет значение false), вы можете сделать метку данных "видимой по умолчанию", установив Show*-флаги (ShowValue, ... ) свойства DefaultDataLabelFormat в истинное состояние.
 
-### См. также
+### Смотрите также
 
-* класс [DataLabelCollection](../../datalabelcollection)
+* class [DataLabelCollection](../../datalabelcollection)
 * пространство имен [Aspose.Slides.Charts](../../datalabelcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
-title: Вставить
-second_title: Справка по API Aspose.Sildes для .NET
-description: Создает новые серии графиков и вставляет их в коллекцию.
+title: Insert
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новую серию диаграмм и вставляет ее в коллекцию.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ichartseriescollection/insert/
 ---
+## IChartSeriesCollection.Insert method
 
-## Метод IChartSeriesCollection.Insert
-
-Создает новые серии графиков и вставляет их в коллекцию.
+Создает новую серию диаграмм и вставляет ее в коллекцию.
 
 ```csharp
 public IChartSeries Insert(int index, ChartType type)
@@ -17,18 +16,18 @@ public IChartSeries Insert(int index, ChartType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс для вставки Int32 |
-| type | ChartType | Тип графика [`ChartType`](../../charttype) |
+| index | Int32 | Индекс для вставкиInt32 |
+| type | ChartType | Тип диаграммы[`ChartType`](../../charttype) |
 
 ### Возвращаемое значение
 
-Новая серия графика [`IChartSeries`](../../ichartseries)
+Новая серия диаграмм[`IChartSeries`](../../ichartseries)
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IChartSeries](../../ichartseries)
-* перечисление [ChartType](../../charttype)
-* интерфейс [IChartSeriesCollection](../../ichartseriescollection)
+* interface [IChartSeries](../../ichartseries)
+* enum [ChartType](../../charttype)
+* interface [IChartSeriesCollection](../../ichartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriescollection)
 * сборка [Aspose.Slides](../../../)
 

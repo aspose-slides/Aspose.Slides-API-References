@@ -1,15 +1,14 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
-second_title: Aspose.Sildes для .NET API Справочник
-description: Изменяет видимость заполнителя даты и времени слайда макета и всех дочерних заполнителей даты и времени. Дочерние заполнители - это заполнители, которые содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда макета.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Изменяет заполнитель даты и времени макета слайда и видимость всех дочерних заполнителей даты и времени. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
+## ILayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility method
 
-## ILayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility метод
-
-Изменяет видимость заполнителя даты и времени слайда макета и всех дочерних заполнителей даты и времени. Дочерние заполнители - это заполнители, которые содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда макета.
+Изменяет заполнитель даты и времени макета слайда и видимость всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -17,11 +16,11 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнители даты и времени видимыми, в противном случае - скрывает их. |
+| isVisible | Boolean | true - делает видимыми заполнители даты и времени, иначе - скрывает их. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
+* interface [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ilayoutslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

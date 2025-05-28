@@ -1,23 +1,22 @@
 ---
-title: Уровень
+title: Level
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает уровень вложенности узла. Только для чтения Int32.
+description: Возвращает уровень вложенности узла. Только для чтенияInt32.
 type: docs
 weight: 50
 url: /ru/aspose.slides.smartart/ismartartnode/level/
 ---
+## ISmartArtNode.Level property
 
-## Свойство ISmartArtNode.Level
-
-Возвращает уровень вложенности узла. Только для чтения Int32.
+Возвращает уровень вложенности узла. Только для чтенияInt32.
 
 ```csharp
 public int Level { get; }
 ```
 
-### Также см.
+### Смотрите также
 
-* интерфейс [ISmartArtNode](../../ismartartnode)
+* interface [ISmartArtNode](../../ismartartnode)
 * пространство имен [Aspose.Slides.SmartArt](../../ismartartnode)
 * сборка [Aspose.Slides](../../../)
 

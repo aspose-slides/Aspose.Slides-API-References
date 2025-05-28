@@ -1,13 +1,12 @@
 ---
 title: IFormat
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойства формата диаграммы.
 type: docs
-weight: 2020
+weight: 1960
 url: /ru/aspose.slides.charts/iformat/
 ---
-
-## Интерфейс IFormat
+## IFormat interface
 
 Представляет свойства формата диаграммы.
 
@@ -15,14 +14,14 @@ url: /ru/aspose.slides.charts/iformat/
 public interface IFormat
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Возвращает эффекты, используемые для диаграммы. Только для чтения [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Возвращает 3D формат диаграммы. Только для чтения [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Возвращает свойства стиля заливки диаграммы. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iformat/line) { get; } | Возвращает свойства стиля линии диаграммы. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Возвращает эффекты, используемые для диаграммы. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Возвращает трехмерный формат диаграммы. Только для чтения[`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Возвращает свойства стиля заливки диаграммы. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | Возвращает свойства стиля линии диаграммы. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Смотрите также
 

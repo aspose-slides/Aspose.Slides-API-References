@@ -1,41 +1,40 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет собой коллекцию ячеек с данными.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор ячеек с данными.
 type: docs
-weight: 1700
+weight: 1640
 url: /ru/aspose.slides.charts/ichartcellcollection/
 ---
+## IChartCellCollection interface
 
-## Интерфейс IChartCellCollection
-
-Представляет собой коллекцию ячеек с данными.
+Представляет набор ячеек с данными.
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Возвращает интерфейс ICollection. Только для чтения IEnumerable. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Получает количество ячеек в коллекции. Только для чтения Int32. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Возвращает интерфейс ICollection. Только для чтенияIEnumerable. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Получает количество ячеек в коллекции. Только для чтенияInt32. |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Возвращает ячейку (IChartDataCell) по индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Добавляет новую ячейку в коллекцию. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Создает [`IChartDataCell`](../ichartdatacell) из указанного значения и добавляет его в коллекцию. |
-| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Возвращает адрес набора ячеек в рабочей книге. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Конкатенационная строка из всех строковых значений ячеек. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Добавить новую ячейку в коллекцию. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Создает[`IChartDataCell`](../ichartdatacell)из указанного значения и добавляет его в коллекцию. |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Возвращает адрес набора ячеек в книге. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Строка конкатенации из строковых значений всех ячеек. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Удаляет ячейку из коллекции по индексу. |
 
 ### Смотрите также
 
-* интерфейс [IChartDataCell](../ichartdatacell)
+* interface [IChartDataCell](../ichartdatacell)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

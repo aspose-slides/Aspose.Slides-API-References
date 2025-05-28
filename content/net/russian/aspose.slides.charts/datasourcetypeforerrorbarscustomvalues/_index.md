@@ -1,13 +1,12 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает типы значений в списке свойств ChartDataPoint.ErrorBarsCustomValues
 type: docs
-weight: 1510
+weight: 1450
 url: /ru/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
-
-## DataSourceTypeForErrorBarsCustomValues класс
+## DataSourceTypeForErrorBarsCustomValues class
 
 Указывает типы значений в списке свойств ChartDataPoint.ErrorBarsCustomValues
 
@@ -21,18 +20,18 @@ public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBar
 | --- | --- |
 | [DataSourceTypeForErrorBarsCustomValues](datasourcetypeforerrorbarscustomvalues)() | Конструктор по умолчанию. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства XMinus для точек данных, используемых для пользовательских значений полос ошибок. Иными словами, это указывает тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Чтение/запись [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства XPlus для точек данных, используемых для пользовательских значений полос ошибок. Иными словами, это указывает тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Чтение/запись [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства YMinus для точек данных, используемых для пользовательских значений полос ошибок. Иными словами, это указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/запись [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства YPlus для точек данных, используемых для пользовательских значений полос ошибок. Иными словами, это указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Чтение/запись [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble действительным в объекте свойств точек данных XMinus для пользовательских значений баров ошибок. Другими словами, он указывает тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble действительным в объекте свойств точек данных XPlus для пользовательских значений баров ошибок. Другими словами, он указывает тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Определяет, является ли свойство AsCell или AsLiteralString или AsLiteralDouble действительным в объекте свойств точек данных YMinus для пользовательских значений баров погрешностей. Другими словами, он указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble действительным в объекте свойств точек данных YPlus для пользовательских значений баров ошибок. Другими словами, он указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IDataSourceTypeForErrorBarsCustomValues](../idatasourcetypeforerrorbarscustomvalues)
+* interface [IDataSourceTypeForErrorBarsCustomValues](../idatasourcetypeforerrorbarscustomvalues)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

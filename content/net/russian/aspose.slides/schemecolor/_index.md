@@ -1,13 +1,12 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет цвета в цветовой схеме.
 type: docs
-weight: 9470
+weight: 9010
 url: /ru/aspose.slides/schemecolor/
 ---
-
-## Перечисление SchemeColor
+## SchemeColor enumeration
 
 Представляет цвета в цветовой схеме.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/schemecolor/
 public enum SchemeColor
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` | Цветовая схема не определена. |
 | Background1 | `0` |  |
@@ -38,7 +37,7 @@ public enum SchemeColor
 | Dark2 | `15` |  |
 | Light2 | `16` |  |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

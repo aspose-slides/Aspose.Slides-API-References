@@ -1,15 +1,14 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает перечислитель, который итераирует по коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает перечислитель который перебирает коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides/fontfallbackrulescollection/getenumerator/
 ---
+## FontFallBackRulesCollection.GetEnumerator method
 
-## Метод FontFallBackRulesCollection.GetEnumerator
-
-Возвращает перечислитель, который итераирует по коллекции.
+Возвращает перечислитель, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<IFontFallBackRule> GetEnumerator()
@@ -17,12 +16,12 @@ public IEnumerator<IFontFallBackRule> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который может быть использован для итерации по коллекции.
+AIEnumeratorкоторые можно использовать для перебора коллекции.
 
 ### Смотрите также
 
-* интерфейс [IFontFallBackRule](../../ifontfallbackrule)
-* класс [FontFallBackRulesCollection](../../fontfallbackrulescollection)
+* interface [IFontFallBackRule](../../ifontfallbackrule)
+* class [FontFallBackRulesCollection](../../fontfallbackrulescollection)
 * пространство имен [Aspose.Slides](../../fontfallbackrulescollection)
 * сборка [Aspose.Slides](../../../)
 

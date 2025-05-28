@@ -1,15 +1,14 @@
 ---
 title: GroupShapeLock
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает блокировки форм. Только для чтения IGroupShapeLockaspose.slides/igroupshapelock.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает блокировки фигуры. Только для чтенияIGroupShapeLockaspose.slides/igroupshapelock.
 type: docs
 weight: 20
 url: /ru/aspose.slides/groupshape/groupshapelock/
 ---
+## GroupShape.GroupShapeLock property
 
-## Свойство GroupShape.GroupShapeLock
-
-Возвращает блокировки формы. Только для чтения [`IGroupShapeLock`](../../igroupshapelock).
+Возвращает блокировки фигуры. Только для чтения[`IGroupShapeLock`](../../igroupshapelock).
 
 ```csharp
 public IGroupShapeLock GroupShapeLock { get; }
@@ -17,8 +16,8 @@ public IGroupShapeLock GroupShapeLock { get; }
 
 ### Смотрите также
 
-* интерфейс [IGroupShapeLock](../../igroupshapelock)
-* класс [GroupShape](../../groupshape)
+* interface [IGroupShapeLock](../../igroupshapelock)
+* class [GroupShape](../../groupshape)
 * пространство имен [Aspose.Slides](../../groupshape)
 * сборка [Aspose.Slides](../../../)
 

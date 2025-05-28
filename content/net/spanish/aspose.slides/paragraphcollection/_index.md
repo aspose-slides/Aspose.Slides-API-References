@@ -1,13 +1,12 @@
 ---
-title: Colección de Párrafos
-second_title: Referencia API de Aspose.Slides para .NET
+title: ParagraphCollection
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa una colección de párrafos.
 type: docs
-weight: 9020
+weight: 8560
 url: /es/aspose.slides/paragraphcollection/
 ---
-
-## Clase ParagraphCollection
+## ParagraphCollection class
 
 Representa una colección de párrafos.
 
@@ -19,8 +18,8 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Obtiene un valor que indica si la ICollection es de solo lectura. Solo lectura Boolean. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Obtiene el número de elementos realmente contenidos en la colección. Solo lecturaInt32 . |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Obtiene un valor que indica si elICollection es de solo lectura. Solo lecturaBoolean . |
 | [Item](../../aspose.slides/paragraphcollection/item) { get; } | Obtiene el elemento en el índice especificado. |
 
 ## Métodos
@@ -28,26 +27,26 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 | Nombre | Descripción |
 | --- | --- |
 | [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Agrega un párrafo al final de la colección. |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Agrega el contenido de ParagraphCollection al final de la colección. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Agrega texto desde la cadena html especificada a la colección. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Agrega texto desde la cadena html especificada a la colección. |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Agrega un contenido de ParagraphCollection al final de la colección. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Agrega texto de la cadena html especificada a la colección. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Agrega texto de la cadena html especificada a la colección. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | Elimina todos los elementos de la colección. |
-| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Determina si la ICollection contiene un valor específico. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Copia los elementos de la ICollection a un Array, comenzando en un índice particular de Array. |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Convierte los párrafos especificados a HTML y lo devuelve como objeto String. |
+| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Determina si elICollection contiene un valor específico. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Copia los elementos delICollection a unaArray , a partir de un determinadoArray índice. |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Convierte la especificación de párrafos a HTML y lo devuelve como objeto String. |
 | [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Determina el índice de un elemento específico en la IList. |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Determina el índice de un elemento específico en elIList . |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Inserta un párrafo en la colección en el índice especificado. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Inserta el contenido de ParagraphCollection en la colección en el índice especificado. |
-| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Elimina la primera ocurrencia de un objeto específico de la ICollection. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Inserta un contenido de ParagraphCollection en la colección en el índice especificado. |
+| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Elimina la primera aparición de un objeto específico de laICollection . |
 | [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Elimina el elemento en el índice especificado de la colección. |
 
-### Ver También
+### Ver también
 
-* clase [DomObject&lt;TParent&gt;](../domobject-1)
-* clase [TextFrame](../textframe)
-* interfaz [IParagraphCollection](../iparagraphcollection)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [TextFrame](../textframe)
+* interface [IParagraphCollection](../iparagraphcollection)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* asamblea [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

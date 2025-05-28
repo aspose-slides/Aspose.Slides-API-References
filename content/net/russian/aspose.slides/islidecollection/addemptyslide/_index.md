@@ -1,13 +1,12 @@
 ---
 title: AddEmptySlide
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет новый пустой слайд в конец коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/islidecollection/addemptyslide/
 ---
-
-## ISlideCollection.AddEmptySlide метод
+## ISlideCollection.AddEmptySlide method
 
 Добавляет новый пустой слайд в конец коллекции.
 
@@ -17,17 +16,17 @@ public ISlide AddEmptySlide(ILayoutSlide layout)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| layout | ILayoutSlide | Макет для слайда. |
+| layout | ILayoutSlide | Макет слайда. |
 
-### Возврат значения
+### Возвращаемое значение
 
-Добавленный слайд.
+Добавлен слайд.
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISlide](../../islide)
-* интерфейс [ILayoutSlide](../../ilayoutslide)
-* интерфейс [ISlideCollection](../../islidecollection)
+* interface [ISlide](../../islide)
+* interface [ILayoutSlide](../../ilayoutslide)
+* interface [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 

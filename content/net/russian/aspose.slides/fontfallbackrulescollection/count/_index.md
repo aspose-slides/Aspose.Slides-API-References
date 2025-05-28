@@ -1,23 +1,22 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество правил, фактически содержащихся в коллекции. Только для чтения Int32.
+description: Получает количество правил фактически содержащихся в коллекции. Только для чтенияInt32.
 type: docs
 weight: 20
 url: /ru/aspose.slides/fontfallbackrulescollection/count/
 ---
+## FontFallBackRulesCollection.Count property
 
-## Свойство FontFallBackRulesCollection.Count
-
-Получает количество правил, фактически содержащихся в коллекции. Только для чтения Int32.
+Получает количество правил, фактически содержащихся в коллекции. Только для чтенияInt32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [FontFallBackRulesCollection](../../fontfallbackrulescollection)
+* class [FontFallBackRulesCollection](../../fontfallbackrulescollection)
 * пространство имен [Aspose.Slides](../../fontfallbackrulescollection)
 * сборка [Aspose.Slides](../../../)
 

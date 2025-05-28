@@ -1,23 +1,22 @@
 ---
 title: RemoveMasterNotesSlide
-second_title: Aspose.Slides для .NET API Справочник
-description: Удаляет слайд главных заметок.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет слайд основных заметок.
 type: docs
 weight: 20
 url: /ru/aspose.slides/imasternotesslidemanager/removemasternotesslide/
 ---
+## IMasterNotesSlideManager.RemoveMasterNotesSlide method
 
-## IMasterNotesSlideManager.RemoveMasterNotesSlide метод
-
-Удаляет слайд главных заметок.
+Удаляет слайд основных заметок.
 
 ```csharp
 public void RemoveMasterNotesSlide()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMasterNotesSlideManager](../../imasternotesslidemanager)
+* interface [IMasterNotesSlideManager](../../imasternotesslidemanager)
 * пространство имен [Aspose.Slides](../../imasternotesslidemanager)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: TargetFrame
-second_title: Aspose.Sildes для .NET API Reference
-description: Возвращает фрейм в родительском HTML-фреймсете для цели родительской гиперссылки, если такая существует. Читаемая/записываемая строка.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает фрейм в родительском наборе фреймов HTML для цели родительской гиперссылки если она существует. Чтение/записьString.
 type: docs
-weight: 180
+weight: 160
 url: /ru/aspose.slides/hyperlink/targetframe/
 ---
+## Hyperlink.TargetFrame property
 
-## Свойство Hyperlink.TargetFrame
-
-Возвращает фрейм в родительском HTML-фреймсете для цели родительской гиперссылки, если такая существует. Читаемая/записываемая строка.
+Возвращает фрейм в родительском наборе фреймов HTML для цели родительской гиперссылки, если она существует. Чтение/записьString.
 
 ```csharp
 public string TargetFrame { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Hyperlink](../../hyperlink)
+* class [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 

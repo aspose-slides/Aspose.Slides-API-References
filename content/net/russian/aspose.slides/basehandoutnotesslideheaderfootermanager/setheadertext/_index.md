@@ -1,15 +1,14 @@
 ---
 title: SetHeaderText
-second_title: Aspose.Sildes для .NET API Справочник
-description: Устанавливает текст для заполнителя заголовка слайда.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Устанавливает текст в качестве заполнителя заголовка слайда.
 type: docs
 weight: 20
 url: /ru/aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext/
 ---
+## BaseHandoutNotesSlideHeaderFooterManager.SetHeaderText method
 
-## BaseHandoutNotesSlideHeaderFooterManager.SetHeaderText метод
-
-Устанавливает текст для заполнителя заголовка слайда.
+Устанавливает текст в качестве заполнителя заголовка слайда.
 
 ```csharp
 public void SetHeaderText(string text)
@@ -19,9 +18,9 @@ public void SetHeaderText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### См. также
+### Смотрите также
 
-* класс [BaseHandoutNotesSlideHeaderFooterManager](../../basehandoutnotesslideheaderfootermanager)
+* class [BaseHandoutNotesSlideHeaderFooterManager](../../basehandoutnotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../basehandoutnotesslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

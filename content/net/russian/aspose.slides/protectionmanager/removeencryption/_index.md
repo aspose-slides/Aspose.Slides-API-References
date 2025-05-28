@@ -1,13 +1,12 @@
 ---
-title: УдалитьШифрование
-second_title: Справка по API Aspose.Slides для .NET
+title: RemoveEncryption
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет шифрование.
 type: docs
 weight: 90
 url: /ru/aspose.slides/protectionmanager/removeencryption/
 ---
-
-## Метод ProtectionManager.RemoveEncryption
+## ProtectionManager.RemoveEncryption method
 
 Удаляет шифрование.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/protectionmanager/removeencryption/
 public void RemoveEncryption()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ProtectionManager](../../protectionmanager)
+* class [ProtectionManager](../../protectionmanager)
 * пространство имен [Aspose.Slides](../../protectionmanager)
 * сборка [Aspose.Slides](../../../)
 

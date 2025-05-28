@@ -1,23 +1,22 @@
 ---
-title: Перенаправление
+title: Reroute
 second_title: Справочник по API Aspose.Slides для .NET
-description: Перенаправляет соединитель так, чтобы он принял самый короткий возможный путь между фигурами, которые он соединяет.
+description: Перенаправляет коннектор таким образом чтобы он проходил по кратчайшему пути между фигурами которые он соединяет.
 type: docs
 weight: 80
 url: /ru/aspose.slides/iconnector/reroute/
 ---
+## IConnector.Reroute method
 
-## Метод IConnector.Reroute
-
-Перенаправляет соединитель так, чтобы он принял самый короткий возможный путь между фигурами, которые он соединяет.
+Перенаправляет коннектор таким образом, чтобы он проходил по кратчайшему пути между фигурами, которые он соединяет.
 
 ```csharp
 public void Reroute()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IConnector](../../iconnector)
+* interface [IConnector](../../iconnector)
 * пространство имен [Aspose.Slides](../../iconnector)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: EffectFactory
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/effectfactory/effectfactory/
 ---
-
-## Конструктор EffectFactory
+## EffectFactory constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.effects/effectfactory/effectfactory/
 public EffectFactory()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [EffectFactory](../../effectfactory)
+* class [EffectFactory](../../effectfactory)
 * пространство имен [Aspose.Slides.Effects](../../effectfactory)
 * сборка [Aspose.Slides](../../../)
 

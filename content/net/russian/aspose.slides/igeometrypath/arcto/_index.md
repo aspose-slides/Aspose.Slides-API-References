@@ -1,15 +1,14 @@
 ---
 title: ArcTo
-second_title: Справочная информация по Aspose.Slides для .NET
-description: Добавляет указанный дуговой отрезок к пути.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет указанную дугу к пути.
 type: docs
 weight: 40
 url: /ru/aspose.slides/igeometrypath/arcto/
 ---
+## IGeometryPath.ArcTo method
 
-## Метод IGeometryPath.ArcTo
-
-Добавляет указанный дуговой отрезок к пути.
+Добавляет указанную дугу к пути.
 
 ```csharp
 public void ArcTo(float width, float heigth, float startAngle, float sweepAngle)
@@ -18,13 +17,13 @@ public void ArcTo(float width, float heigth, float startAngle, float sweepAngle)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | width | Single | Ширина прямоугольника |
-| heigth | Single | Высота прямоугольника |
+| heigth | Single | Высота прямоугольника прямоугольник |
 | startAngle | Single | Начальный угол. |
-| sweepAngle | Single | Угол разворота/ |
+| sweepAngle | Single | Угол развертки/ |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGeometryPath](../../igeometrypath)
+* interface [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 

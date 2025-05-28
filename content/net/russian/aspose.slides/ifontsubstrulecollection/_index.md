@@ -1,37 +1,36 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет собой коллекцию замены шрифтов.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор подстановок шрифтов.
 type: docs
-weight: 5690
+weight: 5360
 url: /ru/aspose.slides/ifontsubstrulecollection/
 ---
+## IFontSubstRuleCollection interface
 
-## Интерфейс IFontSubstRuleCollection
-
-Представляет собой коллекцию замены шрифтов.
+Представляет набор подстановок шрифтов.
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Получает элемент по заданному индексу. |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Получает элемент по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Добавляет новое правило замены шрифта в коллекцию |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Удаляет первое вхождение конкретного объекта из коллекции. |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Добавляет новое правило подстановки шрифта в коллекцию |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Удаляет первое вхождение определенного объекта из коллекции. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* интерфейс [IFontSubstRule](../ifontsubstrule)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [IFontSubstRule](../ifontsubstrule)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

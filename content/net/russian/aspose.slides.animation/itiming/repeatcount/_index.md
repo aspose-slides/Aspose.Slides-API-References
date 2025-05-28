@@ -1,23 +1,22 @@
 ---
 title: RepeatCount
-second_title: Справочная информация по API Aspose.Slides для .NET
-description: Описывает количество раз, которое эффект должен повторяться. Чтение/запись, тип Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Описывает количество повторений эффекта. Чтение/записьSingle.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/itiming/repeatcount/
 ---
+## ITiming.RepeatCount property
 
-## Свойство ITiming.RepeatCount
-
-Описывает количество раз, которое эффект должен повторяться. Чтение/запись, тип Single.
+Описывает количество повторений эффекта. Чтение/записьSingle.
 
 ```csharp
 public float RepeatCount { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITiming](../../itiming)
+* interface [ITiming](../../itiming)
 * пространство имен [Aspose.Slides.Animation](../../itiming)
 * сборка [Aspose.Slides](../../../)
 

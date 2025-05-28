@@ -1,13 +1,12 @@
 ---
 title: AddBlurEffect
-second_title: Aspose.Sildes для справочника API .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет новый эффект размытия в конец коллекции.
 type: docs
 weight: 130
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addblureffect/
 ---
-
-## ImageTransformOperationCollection.AddBlurEffect метод
+## ImageTransformOperationCollection.AddBlurEffect method
 
 Добавляет новый эффект размытия в конец коллекции.
 
@@ -18,16 +17,16 @@ public IBlur AddBlurEffect(double radius, bool grow)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | radius | Double | Радиус размытия. |
-| grow | Boolean | Указывает, должны ли границы объекта увеличиваться в результате размытия. True указывает, что границы увеличиваются, в то время как false указывает, что они не увеличиваются. |
+| grow | Boolean | Указывает, должны ли границы объекта увеличиваться в результате размытия. True указывает, что границы увеличиваются, а false указывает, что это не так. |
 
 ### Возвращаемое значение
 
 Индекс нового эффекта изображения в коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBlur](../../iblur)
-* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* interface [IBlur](../../iblur)
+* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

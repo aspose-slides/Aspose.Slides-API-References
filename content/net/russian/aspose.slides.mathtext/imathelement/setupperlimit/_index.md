@@ -1,15 +1,14 @@
 ---
 title: SetUpperLimit
-second_title: Aspose.Sildes для .NET API Справочник
-description: Устанавливает верхний предел
+second_title: Справочник по API Aspose.Slides для .NET
+description: Принимает верхний предел
 type: docs
 weight: 180
 url: /ru/aspose.slides.mathtext/imathelement/setupperlimit/
 ---
-
 ## SetUpperLimit(IMathElement) {#setupperlimit}
 
-Устанавливает верхний предел
+Принимает верхний предел
 
 ```csharp
 public IMathLimit SetUpperLimit(IMathElement limit)
@@ -17,11 +16,11 @@ public IMathLimit SetUpperLimit(IMathElement limit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| limit | IMathElement | предел |
+| limit | IMathElement | limit |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа [`IMathLimit`](../../imathlimit)
+Новый экземпляр типа[`IMathLimit`](../../imathlimit)
 
 ### Примеры
 
@@ -34,10 +33,10 @@ IMathElement limitValue = new MathematicalText("y−>1");
 var limitElement = baseElement.SetUpperLimit(limitValue);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathLimit](../../imathlimit)
-* интерфейс [IMathElement](../../imathelement)
+* interface [IMathLimit](../../imathlimit)
+* interface [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
@@ -45,7 +44,7 @@ var limitElement = baseElement.SetUpperLimit(limitValue);
 
 ## SetUpperLimit(string) {#setupperlimit_1}
 
-Устанавливает верхний предел
+Принимает верхний предел
 
 ```csharp
 public IMathLimit SetUpperLimit(string limit)
@@ -53,11 +52,11 @@ public IMathLimit SetUpperLimit(string limit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| limit | String | предел |
+| limit | String | limit |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа [`IMathLimit`](../../imathlimit)
+Новый экземпляр типа[`IMathLimit`](../../imathlimit)
 
 ### Примеры
 
@@ -69,10 +68,10 @@ IMathElement baseElement = new MathematicalText("y");
 var limitElement = baseElement.SetUpperLimit("y−>1");
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathLimit](../../imathlimit)
-* интерфейс [IMathElement](../../imathelement)
+* interface [IMathLimit](../../imathlimit)
+* interface [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

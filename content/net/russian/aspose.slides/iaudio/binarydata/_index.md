@@ -1,23 +1,22 @@
 ---
 title: BinaryData
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает копию данных аудио. В случае большого объема данных рассмотрите возможность использования метода GetStream../getstream, чтобы предотвратить ненужную загрузку данных аудио в память или даже исключение OutOfMemoryException. Только для чтения Byte.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает копию аудиоданных. В случае большого объема данных рассмотрите использование методаGetStreamaspose.slides/iaudio/getstreamдля предотвращения ненужной загрузки аудио данных в memory или даже OutOfMemoryException. Только для чтенияByte.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iaudio/binarydata/
 ---
+## IAudio.BinaryData property
 
-## IAudio.BinaryData свойство
-
-Возвращает копию данных аудио. В случае большого объема данных рассмотрите возможность использования метода [`GetStream`](../getstream), чтобы предотвратить ненужную загрузку данных аудио в память или даже исключение OutOfMemoryException. Только для чтения Byte[].
+Возвращает копию аудиоданных. В случае большого объема данных рассмотрите использование метода[`GetStream`](../getstream)для предотвращения ненужной загрузки аудио данных в memory или даже OutOfMemoryException. Только для чтенияByte[].
 
 ```csharp
 public byte[] BinaryData { get; }
 ```
 
-### Также см. 
+### Смотрите также
 
-* интерфейс [IAudio](../../iaudio)
+* interface [IAudio](../../iaudio)
 * пространство имен [Aspose.Slides](../../iaudio)
 * сборка [Aspose.Slides](../../../)
 

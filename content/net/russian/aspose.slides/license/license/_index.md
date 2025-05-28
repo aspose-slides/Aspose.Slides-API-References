@@ -1,13 +1,12 @@
 ---
-title: Лицензия
-second_title: Aspose.Slides для .NET API Справочник
+title: License
+second_title: Справочник по API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр этого класса.
 type: docs
 weight: 10
 url: /ru/aspose.slides/license/license/
 ---
-
-## Конструктор License
+## License constructor
 
 Инициализирует новый экземпляр этого класса.
 
@@ -17,7 +16,7 @@ public License()
 
 ### Примеры
 
-В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей компонент, в папке, содержащей вызываемую сборку, в папке входной сборки, а затем в встроенных ресурсах вызываемой сборки.
+В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей компонент, в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
 
 ```csharp
 [C#]
@@ -32,9 +31,9 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### См. также
+### Смотрите также
 
-* класс [License](../../license)
+* class [License](../../license)
 * пространство имен [Aspose.Slides](../../license)
 * сборка [Aspose.Slides](../../../)
 

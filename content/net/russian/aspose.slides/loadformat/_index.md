@@ -1,25 +1,24 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes для справочной информации по API .NET
-description: Указывает формат документа, который должен быть загружен.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает формат загружаемого документа.
 type: docs
-weight: 7590
+weight: 7130
 url: /ru/aspose.slides/loadformat/
 ---
+## LoadFormat enumeration
 
-## Перечисление LoadFormat
-
-Указывает формат документа, который должен быть загружен.
+Указывает формат загружаемого документа.
 
 ```csharp
 public enum LoadFormat
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
-| Auto | `0` | У instructs Aspose.Slides автоматически распознавать формат. |
+| Auto | `0` | Инструктирует Aspose.Slides автоматически распознавать формат. |
 | Ppt | `1` | Презентация Microsoft PowerPoint 97-2003. |
 | Pps | `2` | Слайд-шоу Microsoft PowerPoint 97-2003. |
 | Pptx | `3` | Документ Microsoft Office Open XML PresentationML. |
@@ -27,15 +26,15 @@ public enum LoadFormat
 | Odp | `5` | Презентация OpenOffice ODF. |
 | Potx | `6` | Шаблон Microsoft Office Open XML PresentationML. |
 | Pptm | `7` | Документ Microsoft Office Open XML PresentationML с поддержкой макросов. |
-| Ppsm | `8` | Слайд-шоу Microsoft Office Open XML PresentationML с поддержкой макросов. |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML Слайд-шоу с поддержкой макросов. |
 | Potm | `9` | Шаблон Microsoft Office Open XML PresentationML с поддержкой макросов. |
 | Otp | `10` | Шаблон презентации OpenOffice OTP. |
 | Ppt95 | `11` | Презентация Microsoft PowerPoint 95. |
 | Pot | `12` | Шаблон презентации Microsoft PowerPoint 97-2003. |
-| Fodp | `13` | Плоский XML ODF Презентация. |
+| Fodp | `13` | Представление Flat XML ODF. |
 | Unknown | `255` | Неизвестный формат файла |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

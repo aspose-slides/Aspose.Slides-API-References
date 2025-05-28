@@ -1,23 +1,22 @@
 ---
-title: Порог
+title: Threshold
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает порог эффекта. Чтение/запись Single.
+description: Возвращает порог эффекта. Чтение/записьSingle.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/ialphabilevel/threshold/
 ---
+## IAlphaBiLevel.Threshold property
 
-## Свойство IAlphaBiLevel.Threshold
-
-Возвращает порог эффекта. Чтение/запись Single.
+Возвращает порог эффекта. Чтение/записьSingle.
 
 ```csharp
 public float Threshold { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAlphaBiLevel](../../ialphabilevel)
+* interface [IAlphaBiLevel](../../ialphabilevel)
 * пространство имен [Aspose.Slides.Effects](../../ialphabilevel)
 * сборка [Aspose.Slides](../../../)
 

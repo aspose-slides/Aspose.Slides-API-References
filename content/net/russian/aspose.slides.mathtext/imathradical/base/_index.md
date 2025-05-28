@@ -1,15 +1,14 @@
 ---
-title: База
-second_title: Ссылки на API Aspose.Slides для .NET
-description: Аргумент базы
+title: Base
+second_title: Справочник по API Aspose.Slides для .NET
+description: Базовый аргумент
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathradical/base/
 ---
+## IMathRadical.Base property
 
-## Свойство IMathRadical.Base
-
-Аргумент базы
+Базовый аргумент
 
 ```csharp
 public IMathElement Base { get; }
@@ -21,14 +20,14 @@ public IMathElement Base { get; }
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radical("3"); // кубический корень
+IMathRadical radical = new MathematicalText("x").Radical("3");  // куб root
 IMathElement baseElem = radical.Base;
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathRadical](../../imathradical)
+* interface [IMathElement](../../imathelement)
+* interface [IMathRadical](../../imathradical)
 * пространство имен [Aspose.Slides.MathText](../../imathradical)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides для .NET API Справочник
-description: Служит хеш-функцией для определенного типа.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Служит хэш-функцией для определенного типа.
 type: docs
 weight: 50
 url: /ru/aspose.slides.effects/duotone/gethashcode/
 ---
+## Duotone.GetHashCode method
 
-## Duotone.GetHashCode метод
-
-Служит хеш-функцией для определенного типа.
+Служит хэш-функцией для определенного типа.
 
 ```csharp
 public override int GetHashCode()
@@ -17,11 +16,11 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Хеш-код для текущего объекта.
+Хэш-код текущего объекта.
 
-### См. также
+### Смотрите также
 
-* класс [Duotone](../../duotone)
+* class [Duotone](../../duotone)
 * пространство имен [Aspose.Slides.Effects](../../duotone)
 * сборка [Aspose.Slides](../../../)
 

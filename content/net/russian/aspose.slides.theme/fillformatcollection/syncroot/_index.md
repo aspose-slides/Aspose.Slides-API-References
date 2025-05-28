@@ -1,23 +1,22 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает корень синхронизации. Объект только для чтения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает корень синхронизации. Только для чтенияObject.
 type: docs
 weight: 40
 url: /ru/aspose.slides.theme/fillformatcollection/syncroot/
 ---
+## FillFormatCollection.SyncRoot property
 
-## Свойство FillFormatCollection.SyncRoot
-
-Возвращает корень синхронизации. Объект только для чтения.
+Возвращает корень синхронизации. Только для чтенияObject.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [FillFormatCollection](../../fillformatcollection)
+* class [FillFormatCollection](../../fillformatcollection)
 * пространство имен [Aspose.Slides.Theme](../../fillformatcollection)
 * сборка [Aspose.Slides](../../../)
 

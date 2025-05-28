@@ -1,15 +1,14 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает нулевой индекс первого вхождения фигуры в коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает отсчитываемый от нуля индекс первого вхождения фигуры в коллекцию.
 type: docs
 weight: 210
 url: /ru/aspose.slides/ishapecollection/indexof/
 ---
+## IShapeCollection.IndexOf method
 
-## Метод IShapeCollection.IndexOf
-
-Возвращает нулевой индекс первого вхождения фигуры в коллекции.
+Возвращает отсчитываемый от нуля индекс первого вхождения фигуры в коллекцию.
 
 ```csharp
 public int IndexOf(IShape shape)
@@ -19,14 +18,14 @@ public int IndexOf(IShape shape)
 | --- | --- | --- |
 | shape | IShape | Фигура, которую необходимо найти в коллекции. |
 
-### Возврат Значения
+### Возвращаемое значение
 
-Нулевой индекс первого вхождения фигуры в коллекции, если она найдена; в противном случае -1.
+Отсчитываемый от нуля индекс первого вхождения shape в коллекции , если он найден; иначе -1.
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IShape](../../ishape)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IShape](../../ishape)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

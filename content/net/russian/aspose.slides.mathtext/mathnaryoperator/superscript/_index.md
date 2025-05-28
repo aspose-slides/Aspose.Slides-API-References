@@ -1,15 +1,14 @@
 ---
-title: Надстрочный
+title: Superscript
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает аргумент надстрочного, который, например, в случае интеграла задает верхний предел
+description: Указывает аргумент суперскрипта который например в случае интеграла устанавливает верхний предел
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/mathnaryoperator/superscript/
 ---
+## MathNaryOperator.Superscript property
 
-## MathNaryOperator.Superscript свойство
-
-Указывает аргумент надстрочного, который, например, в случае интеграла, задает верхний предел
+Указывает аргумент суперскрипта, который, например, в случае интеграла устанавливает верхний предел
 
 ```csharp
 public IMathElement Superscript { get; }
@@ -25,10 +24,10 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 IMathElement superscriptArg = naryOperator.Superscript;
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathNaryOperator](../../mathnaryoperator)
+* interface [IMathElement](../../imathelement)
+* class [MathNaryOperator](../../mathnaryoperator)
 * пространство имен [Aspose.Slides.MathText](../../mathnaryoperator)
 * сборка [Aspose.Slides](../../../)
 

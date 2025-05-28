@@ -1,15 +1,14 @@
 ---
 title: SymbolFont
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает информацию о символьном шрифте. Только для чтения IFontDataaspose.slides/ifontdata.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает информацию о символическом шрифте. Только для чтенияIFontDataaspose.slides/ifontdata.
 type: docs
 weight: 240
 url: /ru/aspose.slides/ibaseportionformateffectivedata/symbolfont/
 ---
+## IBasePortionFormatEffectiveData.SymbolFont property
 
-## IBasePortionFormatEffectiveData.SymbolFont свойство
-
-Возвращает информацию о символьном шрифте. Только для чтения [`IFontData`](../../ifontdata).
+Возвращает информацию о символическом шрифте. Только для чтения[`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SymbolFont { get; }
@@ -17,8 +16,8 @@ public IFontData SymbolFont { get; }
 
 ### Смотрите также
 
-* интерфейс [IFontData](../../ifontdata)
-* интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* interface [IFontData](../../ifontdata)
+* interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibaseportionformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

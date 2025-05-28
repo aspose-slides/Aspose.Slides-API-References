@@ -1,23 +1,22 @@
 ---
 title: MasterText
-second_title: Aspose.Slidess для .NET API Справочник
-description: Текст на формах главной страницы для этого слайда
+second_title: Справочник по API Aspose.Slides для .NET
+description: Текст на фигурах главной страницы для этого слайда
 type: docs
-weight: 30
+weight: 20
 url: /ru/aspose.slides/islidetext/mastertext/
 ---
+## ISlideText.MasterText property
 
-## ISlideText.MasterText свойство
-
-Текст на формах главной страницы для этого слайда
+Текст на фигурах главной страницы для этого слайда
 
 ```csharp
 public string MasterText { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISlideText](../../islidetext)
+* interface [ISlideText](../../islidetext)
 * пространство имен [Aspose.Slides](../../islidetext)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,34 +1,33 @@
 ---
 title: ReadPresentation
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Lit une présentation existante à partir d'un tableau
+description: Lit une présentation existante à partir de array
 type: docs
 weight: 60
 url: /fr/aspose.slides/presentationfactory/readpresentation/
 ---
-
 ## ReadPresentation(byte[]) {#readpresentation}
 
-Lit une présentation existante à partir d'un tableau
+Lit une présentation existante à partir de array
 
 ```csharp
 public IPresentation ReadPresentation(byte[] data)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | data | Byte[] | Tableau à lire |
 
-### Valeur de retour
+### Return_Value
 
-Présentation lue
+Lire la présentation
 
-### Voir aussi
+### Voir également
 
 * interface [IPresentation](../../ipresentation)
 * class [PresentationFactory](../../presentationfactory)
-* namespace [Aspose.Slides](../../presentationfactory)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../presentationfactory)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
@@ -40,125 +39,125 @@ Lit une présentation existante à partir d'un tableau avec des options de charg
 public IPresentation ReadPresentation(byte[] data, ILoadOptions options)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | data | Byte[] | Tableau à lire |
 | options | ILoadOptions | Options de chargement |
 
-### Valeur de retour
+### Return_Value
 
-Présentation lue
+Lire la présentation
 
-### Voir aussi
+### Voir également
 
 * interface [IPresentation](../../ipresentation)
 * interface [ILoadOptions](../../iloadoptions)
 * class [PresentationFactory](../../presentationfactory)
-* namespace [Aspose.Slides](../../presentationfactory)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../presentationfactory)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
 ## ReadPresentation(Stream) {#readpresentation_2}
 
-Lit une présentation existante à partir d'un flux
+Lit une présentation existante à partir de stream
 
 ```csharp
 public IPresentation ReadPresentation(Stream stream)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | stream | Stream | Flux d'entrée à lire |
 
-### Valeur de retour
+### Return_Value
 
-Présentation lue
+Lire la présentation
 
-### Voir aussi
+### Voir également
 
 * interface [IPresentation](../../ipresentation)
 * class [PresentationFactory](../../presentationfactory)
-* namespace [Aspose.Slides](../../presentationfactory)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../presentationfactory)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
 ## ReadPresentation(Stream, ILoadOptions) {#readpresentation_3}
 
-Lit une présentation existante à partir d'un flux avec des options de chargement supplémentaires
+Lit une présentation existante à partir du flux avec des options de chargement supplémentaires
 
 ```csharp
 public IPresentation ReadPresentation(Stream stream, ILoadOptions options)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
 | stream | Stream | Flux d'entrée à lire |
 | options | ILoadOptions | Options de chargement |
 
-### Valeur de retour
+### Return_Value
 
-Présentation lue
+Lire la présentation
 
-### Voir aussi
+### Voir également
 
 * interface [IPresentation](../../ipresentation)
 * interface [ILoadOptions](../../iloadoptions)
 * class [PresentationFactory](../../presentationfactory)
-* namespace [Aspose.Slides](../../presentationfactory)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../presentationfactory)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
 ## ReadPresentation(string) {#readpresentation_4}
 
-Lit une présentation existante à partir d'un fichier
+Lit une présentation existante à partir du fichier
 
 ```csharp
 public IPresentation ReadPresentation(string file)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| file | String | Nom du fichier |
+| file | String | Nom de fichier |
 
-### Valeur de retour
+### Return_Value
 
-Présentation lue
+Lire la présentation
 
-### Voir aussi
+### Voir également
 
 * interface [IPresentation](../../ipresentation)
 * class [PresentationFactory](../../presentationfactory)
-* namespace [Aspose.Slides](../../presentationfactory)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../presentationfactory)
+* Assemblée [Aspose.Slides](../../../)
 
 ---
 
 ## ReadPresentation(string, ILoadOptions) {#readpresentation_5}
 
-Lit une présentation existante à partir d'un fichier avec des options de chargement supplémentaires
+Lit une présentation existante à partir du flux avec des options de chargement supplémentaires
 
 ```csharp
 public IPresentation ReadPresentation(string file, ILoadOptions options)
 ```
 
-| Paramètre | Type | Description |
+| Paramètre | Taper | La description |
 | --- | --- | --- |
-| file | String | Nom du fichier |
+| file | String | Nom de fichier |
 | options | ILoadOptions | Options de chargement |
 
-### Valeur de retour
+### Return_Value
 
-Présentation lue
+Lire la présentation
 
-### Voir aussi
+### Voir également
 
 * interface [IPresentation](../../ipresentation)
 * interface [ILoadOptions](../../iloadoptions)
 * class [PresentationFactory](../../presentationfactory)
-* namespace [Aspose.Slides](../../presentationfactory)
-* assembly [Aspose.Slides](../../../)
+* espace de noms [Aspose.Slides](../../presentationfactory)
+* Assemblée [Aspose.Slides](../../../)
 
-<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

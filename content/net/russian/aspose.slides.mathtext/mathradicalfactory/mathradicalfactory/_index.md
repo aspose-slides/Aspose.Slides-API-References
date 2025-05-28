@@ -1,13 +1,12 @@
 ---
 title: MathRadicalFactory
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathradicalfactory/mathradicalfactory/
 ---
-
-## Конструктор MathRadicalFactory
+## MathRadicalFactory constructor
 
 Конструктор по умолчанию.
 
@@ -17,7 +16,7 @@ public MathRadicalFactory()
 
 ### Смотрите также
 
-* класс [MathRadicalFactory](../../mathradicalfactory)
+* class [MathRadicalFactory](../../mathradicalfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathradicalfactory)
 * сборка [Aspose.Slides](../../../)
 

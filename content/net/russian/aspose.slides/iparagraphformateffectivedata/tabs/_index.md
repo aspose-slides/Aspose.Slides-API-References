@@ -1,15 +1,14 @@
 ---
-title: Вкладки
+title: Tabs
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает табуляции абзаца. Только для чтения ITabEffectiveDataaspose.slides/itabeffectivedata.
+description: Возвращает таблицы абзаца. Только для чтенияITabEffectiveDataaspose.slides/itabeffectivedata.
 type: docs
 weight: 170
 url: /ru/aspose.slides/iparagraphformateffectivedata/tabs/
 ---
+## IParagraphFormatEffectiveData.Tabs property
 
-## Свойство IParagraphFormatEffectiveData.Tabs
-
-Возвращает табуляции абзаца. Только для чтения [`ITabEffectiveData`](../../itabeffectivedata)[].
+Возвращает таблицы абзаца. Только для чтения[`ITabEffectiveData`](../../itabeffectivedata)[].
 
 ```csharp
 public ITabEffectiveData[] Tabs { get; }
@@ -17,8 +16,8 @@ public ITabEffectiveData[] Tabs { get; }
 
 ### Смотрите также
 
-* интерфейс [ITabEffectiveData](../../itabeffectivedata)
-* интерфейс [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
+* interface [ITabEffectiveData](../../itabeffectivedata)
+* interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * пространство имен [Aspose.Slides](../../iparagraphformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: DataLabel
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет метки серии.
 type: docs
-weight: 1470
+weight: 1410
 url: /ru/aspose.slides.charts/datalabel/
 ---
-
-## Класс DataLabel
+## DataLabel class
 
 Представляет метки серии.
 
@@ -21,38 +20,38 @@ public class DataLabel : IDataLabel
 | --- | --- |
 | [DataLabel](datalabel)(IChartDataPoint) | Создает новый экземпляр класса DataLabel. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Указывает фактическую высоту элемента графика. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Указывает фактическую ширину элемента графика. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Указывает фактическое x-расположение (слева) элемента графика относительно верхнего левого угла графика. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Указывает фактическую верхнюю часть элемента графика относительно верхнего левого угла графика. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Низ. Только для чтения Single. |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Возвращает родительский график. Только для чтения [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Возвращает формат метки данных. Только для чтения [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Возвращает или задает высоту заголовка как долю от высоты графика. Читайте/пишите Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | Ложь означает, что метка данных невидима (и все флаги Show*- (ShowValue, ...) ложны). Только для чтения Boolean. |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Справа. Только для чтения Single. |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Возвращает формат текста. Только для чтения [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Может содержать текст с богатым форматированием. Если это свойство не равно нулю, то это значение форматированного текста заменяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст, который управляется свойствами ShowSeriesName, ShowValue и т.д. и форматируется с помощью свойства TextFormatManager.TextFormat. Только для чтения [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Определяет фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Задает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Задает фактическое положение x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Указывает фактическую вершину элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Снизу. Только для чтенияSingle. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения[`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Возвращает формат метки данных. Только для чтения[`IDataLabelFormat`](../idatalabelformat). |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Возвращает или задает высоту заголовка как часть высоты диаграммы. Чтение/записьSingle. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False означает, что метка данных не видна (поэтому все флаги Show* (ShowValue, ...) ложны). Только чтениеBoolean. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Верно. Только для чтенияSingle. |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Возвращает текстовый формат. Только чтение[`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Может содержать форматированный текст. Если это свойство не равно null, то это форматированное текстовое значение переопределяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст, управляемый свойствами ShowSeriesName, ShowValue, ... и отформатированный с помощью свойства TextFormatManager.TextFormat. Только для чтения[`ITextFrame`](../../aspose.slides/itextframe). |
 | [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Получает или задает ячейку данных рабочей книги. Применяется, если свойство IDataLabelFormat.ShowLabelValueFromCell равно true. |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Возвращает или задает ширину заголовка как долю от ширины графика. Читайте/пишите Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Возвращает или задает координату x заголовка как долю от ширины графика. Читайте/пишите Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Возвращает или задает координату y заголовка как долю от высоты графика. Читайте/пишите Single. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Возвращает или задает ширину заголовка как часть ширины диаграммы. Чтение/записьSingle. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Возвращает или задает координату x заголовка как часть ширины диаграммы. Чтение/записьSingle. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Возвращает или задает координату y заголовка как часть высоты диаграммы. Чтение/записьSingle. |
 
-## Методи
+## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Инициализирует TextFrameForOverriding с текстом в параметре "text". Если TextFrameForOverriding уже инициализирован, просто изменяет его текст. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Инициализировать TextFrameForOverriding с текстом в параметре "text". Если TextFrameForOverriding уже инициализирован, то просто меняет свой текст. |
 | [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Возвращает фактический текст метки на основе настроек DataLabelFormat или значения TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | Делает метку данных скрытой, устанавливая все флаги Show*- (ShowValue, ...) в состояние ложь. IsVisible будет ложным после этого. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Сделать метку данных скрытой, установив все флаги Show* (ShowValue, ...) в ложное состояние. IsVisible после этого будет false. |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IDataLabel](../idatalabel)
+* interface [IDataLabel](../idatalabel)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

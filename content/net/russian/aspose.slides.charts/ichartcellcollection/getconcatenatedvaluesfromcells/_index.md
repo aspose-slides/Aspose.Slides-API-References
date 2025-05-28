@@ -1,15 +1,14 @@
 ---
 title: GetConcatenatedValuesFromCells
-second_title: Aspose.Slides для .NET API Reference
-description: Конкатенация строки из всех строковых значений ячеек.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Строка конкатенации из строковых значений всех ячеек.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells/
 ---
+## IChartCellCollection.GetConcatenatedValuesFromCells method
 
-## IChartCellCollection.GetConcatenatedValuesFromCells метод
-
-Конкатенация строки из всех строковых значений ячеек.
+Строка конкатенации из строковых значений всех ячеек.
 
 ```csharp
 public string GetConcatenatedValuesFromCells()
@@ -17,11 +16,11 @@ public string GetConcatenatedValuesFromCells()
 
 ### Возвращаемое значение
 
-Результирующая строка String
+Результирующая строкаString
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartCellCollection](../../ichartcellcollection)
+* interface [IChartCellCollection](../../ichartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartcellcollection)
 * сборка [Aspose.Slides](../../../)
 

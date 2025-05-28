@@ -1,15 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le gestionnaire qui maintient le comportement des espaces réservés de pied de page, de date-heure, de numéro de page et tous les espaces réservés enfants de la diapositive maître. Les espaces réservés enfants désignent les espaces réservés contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître.
+description: Représente le gestionnaire qui contient le comportement du pied de page de la diapositive principale la date et lheure les espaces réservés de numéro de page et tous les espaces réservés enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page et les diapositives utilisent et dépendent du maître diapositive.
 type: docs
-weight: 6240
+weight: 5910
 url: /fr/aspose.slides/imasterslideheaderfootermanager/
 ---
+## IMasterSlideHeaderFooterManager interface
 
-## Interface IMasterSlideHeaderFooterManager
-
-Représente le gestionnaire qui maintient le comportement des espaces réservés de pied de page, de date-heure, de numéro de page et tous les espaces réservés enfants de la diapositive maître. Les espaces réservés enfants désignent les espaces réservés contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître.
+Représente le gestionnaire qui contient le comportement du pied de page de la diapositive principale, la date et l'heure, les espaces réservés de numéro de page et tous les espaces réservés enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page et les diapositives utilisent et dépendent du maître diapositive.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -17,24 +16,24 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Renvoie l'interface IBaseSlideHeaderFooterManager. |
 
 ## Méthodes
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Définit le texte pour l'espace réservé de date-heure de la diapositive maître et tous les espaces réservés de date-heure enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Change la visibilité de l'espace réservé de date-heure de la diapositive maître et de tous les espaces réservés de date-heure enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Définit le texte pour l'espace réservé de pied de page de la diapositive maître et tous les espaces réservés de pied de page enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Change la visibilité de l'espace réservé de pied de page de la diapositive maître et de tous les espaces réservés de pied de page enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Change la visibilité de l'espace réservé de numéro de page de la diapositive maître et de tous les espaces réservés de numéro de page enfants. Les espaces réservés enfants désignent les espaces réservés contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Définit le texte sur l'espace réservé de date-heure de la diapositive principale et tous les espaces réservés de date-heure enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page et les diapositives utilisent et dépendent de la diapositive principale. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Modifie l'espace réservé de date-heure de la diapositive principale et la visibilité de tous les espaces réservés de date-heure enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page et les diapositives utilisent et dépendent de la diapositive principale. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Définit le texte sur l'espace réservé du pied de page de la diapositive principale et sur tous les espaces réservés du pied de page enfant. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendent de la diapositive principale. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Modifie la visibilité de l'espace réservé du pied de page de la diapositive principale et de tous les espaces réservés du pied de page enfant. Les espaces réservés enfant signifient que les espaces réservés sont contenus dans les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page et les diapositives utilisent et dépendent de la diapositive principale. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Modifie la visibilité de l'espace réservé du numéro de page de la diapositive principale et de tous les espaces réservés du numéro de page enfant. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page et les diapositives utilisent et dépendent de la diapositive principale. |
 
-### Voir aussi
+### Voir également
 
 * interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

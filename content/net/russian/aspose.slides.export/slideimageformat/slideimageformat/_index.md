@@ -1,13 +1,12 @@
 ---
 title: SlideImageFormat
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/slideimageformat/slideimageformat/
 ---
-
-## Конструктор SlideImageFormat
+## SlideImageFormat constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.export/slideimageformat/slideimageformat/
 public SlideImageFormat()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [SlideImageFormat](../../slideimageformat)
+* class [SlideImageFormat](../../slideimageformat)
 * пространство имен [Aspose.Slides.Export](../../slideimageformat)
 * сборка [Aspose.Slides](../../../)
 

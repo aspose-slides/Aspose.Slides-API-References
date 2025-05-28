@@ -1,15 +1,14 @@
 ---
 title: AddAlphaReplaceEffect
-second_title: Aspose.Slides для .NET API Reference
-description: Добавляет новый эффект Alpha Replace в конец коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет новый эффект альфа-замены в конец коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addalphareplaceeffect/
 ---
+## ImageTransformOperationCollection.AddAlphaReplaceEffect method
 
-## ImageTransformOperationCollection.AddAlphaReplaceEffect метод
-
-Добавляет новый эффект Alpha Replace в конец коллекции.
+Добавляет новый эффект альфа-замены в конец коллекции.
 
 ```csharp
 public IAlphaReplace AddAlphaReplaceEffect(float alpha)
@@ -23,10 +22,10 @@ public IAlphaReplace AddAlphaReplaceEffect(float alpha)
 
 Индекс нового эффекта изображения в коллекции.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAlphaReplace](../../ialphareplace)
-* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* interface [IAlphaReplace](../../ialphareplace)
+* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

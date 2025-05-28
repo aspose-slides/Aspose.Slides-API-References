@@ -1,23 +1,22 @@
 ---
-title: Оттенок
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает процент оттенка. Только для чтения Single.
+title: Hue
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает процент оттенка. Только для чтенияSingle.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/ihsleffectivedata/hue/
 ---
+## IHSLEffectiveData.Hue property
 
-## IHSLEffectiveData.Hue свойство
-
-Возвращает процент оттенка. Только для чтения Single.
+Возвращает процент оттенка. Только для чтенияSingle.
 
 ```csharp
 public float Hue { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IHSLEffectiveData](../../ihsleffectivedata)
+* interface [IHSLEffectiveData](../../ihsleffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ihsleffectivedata)
 * сборка [Aspose.Slides](../../../)
 

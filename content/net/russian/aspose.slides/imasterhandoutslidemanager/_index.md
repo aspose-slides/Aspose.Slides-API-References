@@ -1,34 +1,33 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Slides для .NET API Reference
-description: Менеджер слайдов мастерских раздаток.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Мастер слайд-менеджера раздаточных материалов.
 type: docs
-weight: 6170
+weight: 5810
 url: /ru/aspose.slides/imasterhandoutslidemanager/
 ---
+## IMasterHandoutSlideManager interface
 
-## Интерфейс IMasterHandoutSlideManager
-
-Менеджер слайдов мастерских раздаток.
+Мастер слайд-менеджера раздаточных материалов.
 
 ```csharp
 public interface IMasterHandoutSlideManager
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Возвращает мастер для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает null. Только для чтения [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Возвращает образец для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает ноль. Только для чтения[`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Удаляет мастер-слайд раздатки. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Устанавливает мастер-слайд раздатки по умолчанию для связанного слайда раздатки. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Удаляет основной слайд раздаточных материалов. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Устанавливает основной слайд раздаточного материала по умолчанию в соответствующий слайд раздаточного материала. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

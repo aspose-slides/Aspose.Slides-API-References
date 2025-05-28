@@ -1,15 +1,14 @@
 ---
 title: GetEnumerator
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Возвращает перечислитель, который итерируется по коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает перечислитель который перебирает коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides/controlcollection/getenumerator/
 ---
+## ControlCollection.GetEnumerator method
 
-## Метод ControlCollection.GetEnumerator
-
-Возвращает перечислитель, который итерируется по коллекции.
+Возвращает перечислитель, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<IControl> GetEnumerator()
@@ -17,12 +16,12 @@ public IEnumerator<IControl> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для итерации по коллекции.
+AIEnumeratorкоторые можно использовать для перебора коллекции.
 
-### Также смотрите
+### Смотрите также
 
-* интерфейс [IControl](../../icontrol)
-* класс [ControlCollection](../../controlcollection)
+* interface [IControl](../../icontrol)
+* class [ControlCollection](../../controlcollection)
 * пространство имен [Aspose.Slides](../../controlcollection)
 * сборка [Aspose.Slides](../../../)
 

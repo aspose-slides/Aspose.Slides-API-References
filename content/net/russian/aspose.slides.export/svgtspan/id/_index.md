@@ -1,13 +1,12 @@
 ---
 title: Id
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получает идентификатор элемента tspan
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/svgtspan/id/
 ---
-
-## SvgTSpan.Id свойство
+## SvgTSpan.Id property
 
 Получает идентификатор элемента "tspan"
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.export/svgtspan/id/
 public string Id { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [SvgTSpan](../../svgtspan)
+* class [SvgTSpan](../../svgtspan)
 * пространство имен [Aspose.Slides.Export](../../svgtspan)
 * сборка [Aspose.Slides](../../../)
 

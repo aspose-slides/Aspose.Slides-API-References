@@ -1,24 +1,23 @@
 ---
 title: Accent2
 second_title: Справочник по API Aspose.Slides для .NET
-description: Второй акцентный цвет в схеме. Только для чтения IColorFormataspose.slides/icolorformat.
+description: Второй акцентный цвет в схеме. Только для чтенияIColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/icolorscheme/accent2/
 ---
+## IColorScheme.Accent2 property
 
-## Свойство IColorScheme.Accent2
-
-Второй акцентный цвет в схеме. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
+Второй акцентный цвет в схеме. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent2 { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
-* интерфейс [IColorScheme](../../icolorscheme)
+* interface [IColorFormat](../../../aspose.slides/icolorformat)
+* interface [IColorScheme](../../icolorscheme)
 * пространство имен [Aspose.Slides.Theme](../../icolorscheme)
 * сборка [Aspose.Slides](../../../)
 

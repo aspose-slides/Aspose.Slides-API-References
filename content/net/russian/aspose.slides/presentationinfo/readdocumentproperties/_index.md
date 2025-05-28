@@ -1,24 +1,23 @@
 ---
 title: ReadDocumentProperties
-second_title: Aspose.Slides для .NET API Reference
-description: Получает свойства документа связаннной презентации.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает свойства документа связанной презентации.
 type: docs
 weight: 70
 url: /ru/aspose.slides/presentationinfo/readdocumentproperties/
 ---
+## PresentationInfo.ReadDocumentProperties method
 
-## PresentationInfo.ReadDocumentProperties метод
-
-Получает свойства документа связаннной презентации.
+Получает свойства документа связанной презентации.
 
 ```csharp
 public IDocumentProperties ReadDocumentProperties()
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
-* класс [PresentationInfo](../../presentationinfo)
+* interface [IDocumentProperties](../../idocumentproperties)
+* class [PresentationInfo](../../presentationinfo)
 * пространство имен [Aspose.Slides](../../presentationinfo)
 * сборка [Aspose.Slides](../../../)
 

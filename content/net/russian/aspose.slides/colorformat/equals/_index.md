@@ -1,13 +1,12 @@
 ---
-title: Равенство
+title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
 description: Проверяет равенство с указанным объектом.
 type: docs
 weight: 170
 url: /ru/aspose.slides/colorformat/equals/
 ---
-
-## Метод ColorFormat.Equals
+## ColorFormat.Equals method
 
 Проверяет равенство с указанным объектом.
 
@@ -21,11 +20,11 @@ public override bool Equals(object obj)
 
 ### Возвращаемое значение
 
-True, если объекты равны, в противном случае false.
+Истина, если объекты равны, иначе ложь.
 
-### См. также
+### Смотрите также
 
-* класс [ColorFormat](../../colorformat)
+* class [ColorFormat](../../colorformat)
 * пространство имен [Aspose.Slides](../../colorformat)
 * сборка [Aspose.Slides](../../../)
 

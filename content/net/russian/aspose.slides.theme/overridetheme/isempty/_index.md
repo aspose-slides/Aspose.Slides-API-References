@@ -1,23 +1,22 @@
 ---
 title: IsEmpty
 second_title: Справочник по API Aspose.Slides для .NET
-description: Истинное значение означает, что ColorScheme, FontScheme, FormatScheme равны null и любые переопределения с этим объектом темы отключены. Только для чтения булевое значение.
+description: Значение True означает что ColorScheme FontScheme FormatScheme имеют значение null и любые переопределения с этим объектом темы отключены. Только чтениеBoolean.
 type: docs
 weight: 40
 url: /ru/aspose.slides.theme/overridetheme/isempty/
 ---
+## OverrideTheme.IsEmpty property
 
-## Свойство OverrideTheme.IsEmpty
-
-Истинное значение означает, что ColorScheme, FontScheme, FormatScheme равны null и любые переопределения с этим объектом темы отключены. Только для чтения булевое значение.
+Значение True означает, что ColorScheme, FontScheme, FormatScheme имеют значение null и любые переопределения с этим объектом темы отключены. Только чтениеBoolean.
 
 ```csharp
 public bool IsEmpty { get; }
 ```
 
-### Смотрите Также
+### Смотрите также
 
-* класс [OverrideTheme](../../overridetheme)
+* class [OverrideTheme](../../overridetheme)
 * пространство имен [Aspose.Slides.Theme](../../overridetheme)
 * сборка [Aspose.Slides](../../../)
 

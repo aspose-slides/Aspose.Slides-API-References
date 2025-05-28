@@ -1,15 +1,14 @@
 ---
 title: WriteFont
-second_title: Aspose.Slides для .NET API Справочник
-description: Записывает данные в формате base64 в сам документ HTML
+second_title: Справочник по API Aspose.Slides для .NET
+description: Записывает данные в формате base64 в сам HTML-документ
 type: docs
 weight: 50
 url: /ru/aspose.slides.export/embedallfontshtmlcontroller/writefont/
 ---
+## EmbedAllFontsHtmlController.WriteFont method
 
-## EmbedAllFontsHtmlController.WriteFont метод
-
-Записывает данные в формате base64 в сам документ HTML
+Записывает данные в формате base64 в сам HTML-документ
 
 ```csharp
 public virtual void WriteFont(IHtmlGenerator generator, IFontData originalFont, 
@@ -20,16 +19,16 @@ public virtual void WriteFont(IHtmlGenerator generator, IFontData originalFont,
 | --- | --- | --- |
 | generator | IHtmlGenerator | Генератор HTML |
 | originalFont | IFontData | Шрифт для сериализации |
-| substitutedFont | IFontData | Замененный шрифт (если произошла замена шрифта), null в противном случае |
+| replaceFont | IFontData | Замещенный шрифт (если произошла замена шрифта), null иначе |
 | fontStyle | String | Стиль шрифта |
-| fontWeight | String | Нагрузочное состояние шрифта |
+| fontWeight | String | Вес шрифта |
 | fontData | Byte[] | Данные шрифта |
 
-### Также см.
- 
-* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
-* интерфейс [IFontData](../../../aspose.slides/ifontdata)
-* класс [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
+### Смотрите также
+
+* interface [IHtmlGenerator](../../ihtmlgenerator)
+* interface [IFontData](../../../aspose.slides/ifontdata)
+* class [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embedallfontshtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

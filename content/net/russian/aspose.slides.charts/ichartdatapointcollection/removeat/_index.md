@@ -6,8 +6,7 @@ type: docs
 weight: 270
 url: /ru/aspose.slides.charts/ichartdatapointcollection/removeat/
 ---
-
-## Метод IChartDataPointCollection.RemoveAt
+## IChartDataPointCollection.RemoveAt method
 
 Удаляет элемент по заданному индексу.
 
@@ -17,11 +16,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс точки данных для удаления. |
+| index | Int32 | Индекс удаляемой точки данных. |
 
 ### Смотрите также
 
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

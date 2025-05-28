@@ -1,13 +1,12 @@
 ---
 title: ColorOffset
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/coloroffset/coloroffset/
 ---
-
-## Конструктор ColorOffset
+## ColorOffset constructor
 
 Конструктор по умолчанию.
 
@@ -17,7 +16,7 @@ public ColorOffset()
 
 ### Смотрите также
 
-* класс [ColorOffset](../../coloroffset)
+* class [ColorOffset](../../coloroffset)
 * пространство имен [Aspose.Slides.Animation](../../coloroffset)
 * сборка [Aspose.Slides](../../../)
 

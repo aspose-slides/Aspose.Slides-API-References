@@ -1,24 +1,23 @@
 ---
-title: Цвет
+title: Color
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цветовой формат маркера абзаца без наследования. Только для чтения IColorFormataspose.slides/icolorformat.
+description: Возвращает цветовой формат маркера абзаца без наследования. Только для чтенияIColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides/bulletformat/color/
 ---
+## BulletFormat.Color property
 
-## Свойство BulletFormat.Color
-
-Возвращает цветовой формат маркера абзаца без наследования. Только для чтения [`IColorFormat`](../../icolorformat).
+Возвращает цветовой формат маркера абзаца без наследования. Только для чтения[`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat Color { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColorFormat](../../icolorformat)
-* класс [BulletFormat](../../bulletformat)
+* interface [IColorFormat](../../icolorformat)
+* class [BulletFormat](../../bulletformat)
 * пространство имен [Aspose.Slides](../../bulletformat)
 * сборка [Aspose.Slides](../../../)
 

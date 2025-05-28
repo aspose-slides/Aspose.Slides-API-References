@@ -1,15 +1,14 @@
 ---
 title: GetPresentationText
-second_title: Aspose.Sildes для справочника API .NET
-description: Извлекает необработанный текст из слайдов
+second_title: Справочник по API Aspose.Slides для .NET
+description: Извлекает необработанный текст со слайдов
 type: docs
 weight: 50
 url: /ru/aspose.slides/presentationfactory/getpresentationtext/
 ---
-
 ## GetPresentationText(string, TextExtractionArrangingMode) {#getpresentationtext_2}
 
-Извлекает необработанный текст из слайдов
+Извлекает необработанный текст со слайдов
 
 ```csharp
 public IPresentationText GetPresentationText(string file, TextExtractionArrangingMode mode)
@@ -24,11 +23,11 @@ public IPresentationText GetPresentationText(string file, TextExtractionArrangin
 
 Экземпляр PresentationText, содержащий массив SlideText, представляющий необработанный текст слайдов
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPresentationText](../../ipresentationtext)
-* перечисление [TextExtractionArrangingMode](../../textextractionarrangingmode)
-* класс [PresentationFactory](../../presentationfactory)
+* interface [IPresentationText](../../ipresentationtext)
+* enum [TextExtractionArrangingMode](../../textextractionarrangingmode)
+* class [PresentationFactory](../../presentationfactory)
 * пространство имен [Aspose.Slides](../../presentationfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -36,7 +35,7 @@ public IPresentationText GetPresentationText(string file, TextExtractionArrangin
 
 ## GetPresentationText(Stream, TextExtractionArrangingMode) {#getpresentationtext}
 
-Извлекает необработанный текст из слайдов
+Получает необработанный текст со слайдов
 
 ```csharp
 public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode)
@@ -51,11 +50,11 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 
 Экземпляр PresentationText, содержащий массив SlideText, представляющий необработанный текст слайдов
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPresentationText](../../ipresentationtext)
-* перечисление [TextExtractionArrangingMode](../../textextractionarrangingmode)
-* класс [PresentationFactory](../../presentationfactory)
+* interface [IPresentationText](../../ipresentationtext)
+* enum [TextExtractionArrangingMode](../../textextractionarrangingmode)
+* class [PresentationFactory](../../presentationfactory)
 * пространство имен [Aspose.Slides](../../presentationfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -63,7 +62,7 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 
 ## GetPresentationText(Stream, TextExtractionArrangingMode, ILoadOptions) {#getpresentationtext_1}
 
-Извлекает необработанный текст из слайдов
+Получает необработанный текст со слайдов
 
 ```csharp
 public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode, 
@@ -80,12 +79,12 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 
 Экземпляр PresentationText, содержащий массив SlideText, представляющий необработанный текст слайдов
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPresentationText](../../ipresentationtext)
-* перечисление [TextExtractionArrangingMode](../../textextractionarrangingmode)
-* интерфейс [ILoadOptions](../../iloadoptions)
-* класс [PresentationFactory](../../presentationfactory)
+* interface [IPresentationText](../../ipresentationtext)
+* enum [TextExtractionArrangingMode](../../textextractionarrangingmode)
+* interface [ILoadOptions](../../iloadoptions)
+* class [PresentationFactory](../../presentationfactory)
 * пространство имен [Aspose.Slides](../../presentationfactory)
 * сборка [Aspose.Slides](../../../)
 

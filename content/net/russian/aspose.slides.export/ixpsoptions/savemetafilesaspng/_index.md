@@ -1,15 +1,14 @@
 ---
 title: SaveMetafilesAsPng
-second_title: Справка по API Aspose.Slides для .NET
-description: Истинно для преобразования всех метафайлов, используемых в презентации, в изображения PNG. Чтение/запись логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Значение true чтобы преобразовать все метафайлы используемые в презентации в изображения PNG. Чтение/записьBoolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/ixpsoptions/savemetafilesaspng/
 ---
+## IXpsOptions.SaveMetafilesAsPng property
 
-## IXpsOptions.SaveMetafilesAsPng свойство
-
-Истинно для преобразования всех метафайлов, используемых в презентации, в изображения PNG. Чтение/запись логическое значение.
+Значение true, чтобы преобразовать все метафайлы, используемые в презентации, в изображения PNG. Чтение/записьBoolean.
 
 ```csharp
 public bool SaveMetafilesAsPng { get; set; }
@@ -17,11 +16,11 @@ public bool SaveMetafilesAsPng { get; set; }
 
 ### Примечания
 
-По умолчанию **истина**.
+По умолчанию: **true** .
 
-### См. также
+### Смотрите также
 
-* интерфейс [IXpsOptions](../../ixpsoptions)
+* interface [IXpsOptions](../../ixpsoptions)
 * пространство имен [Aspose.Slides.Export](../../ixpsoptions)
 * сборка [Aspose.Slides](../../../)
 

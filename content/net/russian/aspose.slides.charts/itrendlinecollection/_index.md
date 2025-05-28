@@ -1,38 +1,37 @@
 ---
 title: ITrendlineCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет собой коллекцию TrendlineEx
+description: Представляет коллекцию TrendlineEx
 type: docs
-weight: 2170
+weight: 2110
 url: /ru/aspose.slides.charts/itrendlinecollection/
 ---
+## ITrendlineCollection interface
 
-## Интерфейс ITrendlineCollection
-
-Представляет собой коллекцию TrendlineEx
+Представляет коллекцию TrendlineEx
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable. Только для чтения IEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ITrendline`](../itrendline). |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ITrendline`](../itrendline). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Добавляет новую Trendline в конец коллекции и возвращает её. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Добавляет новую линию тренда в конец коллекции и возвращает ее. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Удаляет указанное значение. |
 
-### Также см. 
+### Смотрите также
 
-* интерфейс [ITrendline](../itrendline)
+* interface [ITrendline](../itrendline)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

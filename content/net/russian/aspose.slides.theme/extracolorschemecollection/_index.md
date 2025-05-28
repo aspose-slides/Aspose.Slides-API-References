@@ -1,39 +1,38 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет собой коллекцию дополнительных цветовых схем.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор дополнительных цветовых схем.
 type: docs
-weight: 10800
+weight: 10300
 url: /ru/aspose.slides.theme/extracolorschemecollection/
 ---
+## ExtraColorSchemeCollection class
 
-## Класс ExtraColorSchemeCollection
-
-Представляет собой коллекцию дополнительных цветовых схем.
+Представляет набор дополнительных цветовых схем.
 
 ```csharp
 public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к ArrayList (потокобезопасный). Только для чтения Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Возвращает цветовую схему по индексу. Только для чтения [`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Возвращает объект, который может быть использован для синхронизации доступа к коллекции. Только для чтения Object. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Возвращает количество элементов коллекции. Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к ArrayList синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Возвращает цветовую схему по индексу. Только для чтения[`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Возвращает объект, который можно использовать для синхронизации доступа к коллекции. Только для чтенияObject. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Возвращает перечислитель, который проходит через коллекцию. |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IExtraColorSchemeCollection](../iextracolorschemecollection)
+* interface [IExtraColorSchemeCollection](../iextracolorschemecollection)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

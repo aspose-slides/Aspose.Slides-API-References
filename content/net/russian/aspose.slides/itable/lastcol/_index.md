@@ -1,23 +1,22 @@
 ---
 title: LastCol
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, должен ли последний столбец таблицы быть отображен с особым форматированием. Свойство для чтения/записи типа Boolean.
+description: Определяет должен ли последний столбец таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
 type: docs
 weight: 80
 url: /ru/aspose.slides/itable/lastcol/
 ---
+## ITable.LastCol property
 
-## Свойство ITable.LastCol
-
-Определяет, должен ли последний столбец таблицы быть отображен с особым форматированием. Свойство для чтения/записи типа Boolean.
+Определяет, должен ли последний столбец таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
 
 ```csharp
 public bool LastCol { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITable](../../itable)
+* interface [ITable](../../itable)
 * пространство имен [Aspose.Slides](../../itable)
 * сборка [Aspose.Slides](../../../)
 

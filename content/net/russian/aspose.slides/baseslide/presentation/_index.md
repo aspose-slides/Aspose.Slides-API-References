@@ -1,24 +1,23 @@
 ---
-title: Презентация
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает интерфейс IPresentation. Только для чтения IPresentationaspose.slides/ipresentation.
+title: Presentation
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает интерфейс IPresentation. Только чтениеIPresentationaspose.slides/ipresentation.
 type: docs
 weight: 60
 url: /ru/aspose.slides/baseslide/presentation/
 ---
+## BaseSlide.Presentation property
 
-## Свойство BaseSlide.Presentation
-
-Возвращает интерфейс IPresentation. Только для чтения [`IPresentation`](../../ipresentation).
+Возвращает интерфейс IPresentation. Только чтение[`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPresentation](../../ipresentation)
-* класс [BaseSlide](../../baseslide)
+* interface [IPresentation](../../ipresentation)
+* class [BaseSlide](../../baseslide)
 * пространство имен [Aspose.Slides](../../baseslide)
 * сборка [Aspose.Slides](../../../)
 

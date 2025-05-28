@@ -1,15 +1,14 @@
 ---
 title: MetafileRasterizationDpi
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает или задает нижний предел разрешения для растеризации метафайла. Чтение/запись Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает нижний предел разрешения для растеризации метафайла. Чтение/записьInt32.
 type: docs
-weight: 130
+weight: 110
 url: /ru/aspose.slides.export/svgoptions/metafilerasterizationdpi/
 ---
+## SVGOptions.MetafileRasterizationDpi property
 
-## SVGOptions.MetafileRasterizationDpi свойство
-
-Возвращает или задает нижний предел разрешения для растеризации метафайла. Чтение/запись Int32.
+Возвращает или задает нижний предел разрешения для растеризации метафайла. Чтение/записьInt32.
 
 ```csharp
 public int MetafileRasterizationDpi { get; set; }
@@ -17,7 +16,7 @@ public int MetafileRasterizationDpi { get; set; }
 
 ### Смотрите также
 
-* класс [SVGOptions](../../svgoptions)
+* class [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)
 * сборка [Aspose.Slides](../../../)
 

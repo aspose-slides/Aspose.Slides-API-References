@@ -1,21 +1,20 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет коллекцию цифровых подписей, прикрепленных к документу.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор цифровых подписей прикрепленных к документу.
 type: docs
-weight: 5500
+weight: 5200
 url: /ru/aspose.slides/idigitalsignaturecollection/
 ---
+## IDigitalSignatureCollection interface
 
-## Интерфейс IDigitalSignatureCollection
-
-Представляет коллекцию цифровых подписей, прикрепленных к документу.
+Представляет набор цифровых подписей, прикрепленных к документу.
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
@@ -25,14 +24,14 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Добавляет подпись в конец коллекции. |
+| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Добавляет подпись в конце коллекции. |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Удаляет все подписи из коллекции. |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Удаляет подпись по указанному индексу. |
 
 ### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* интерфейс [IDigitalSignature](../idigitalsignature)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [IDigitalSignature](../idigitalsignature)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

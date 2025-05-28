@@ -1,15 +1,14 @@
 ---
-title: ПроверкаЗащитыЗаписи
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Проверяет, правильен ли пароль для изменения защищенной от записи презентации.
+title: CheckWriteProtection
+second_title: Справочник по API Aspose.Slides для .NET
+description: Проверяет правильность изменяемого пароля для защищенной от записи презентации.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ipresentationinfo/checkwriteprotection/
 ---
+## IPresentationInfo.CheckWriteProtection method
 
-## Метод IPresentationInfo.CheckWriteProtection
-
-Проверяет, правильен ли пароль для изменения защищенной от записи презентации.
+Проверяет правильность изменяемого пароля для защищенной от записи презентации.
 
 ```csharp
 public bool CheckWriteProtection(string password)
@@ -21,17 +20,11 @@ public bool CheckWriteProtection(string password)
 
 ### Возвращаемое значение
 
-True, если презентация защищена от записи, и пароль правильный. В противном случае - False.
+Истинно, если презентация защищена от записи и пароль правильный. Ложь в противном случае.
 
-### Исключения
+### Примечания
 
-| исключение | условие |
-| --- | --- |
-| InvalidOperationException |  |
-
-### Замечания
-
-1. Вы должны проверить свойство [`IsWriteProtected`](../iswriteprotected) перед вызовом этого метода. 2. Когда пароль равен null или пуст, этот метод возвращает false.
+1. Вы должны проверить[`IsWriteProtected`](../iswriteprotected)перед вызовом этого метода. 2. Когда пароль нулевой или пустой, этот метод возвращает false.
 
 ### Примеры
 
@@ -44,9 +37,9 @@ if (info.IsWriteProtected == NullableBool.True)
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPresentationInfo](../../ipresentationinfo)
+* interface [IPresentationInfo](../../ipresentationinfo)
 * пространство имен [Aspose.Slides](../../ipresentationinfo)
 * сборка [Aspose.Slides](../../../)
 

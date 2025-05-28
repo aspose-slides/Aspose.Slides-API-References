@@ -1,15 +1,14 @@
 ---
 title: CreateMathBar
-second_title: Aspose.Slides для .NET API Reference
-description: Создайте математическую линию, применяя к элементу
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создать математическую полосу применив к элементу
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathbarfactory/createmathbar/
 ---
-
 ## CreateMathBar(IMathElement) {#createmathbar}
 
-Создайте математическую линию, применяя к элементу
+Создать математическую полосу, применив к элементу
 
 ```csharp
 public IMathBar CreateMathBar(IMathElement element)
@@ -17,17 +16,17 @@ public IMathBar CreateMathBar(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для применения линии |
+| element | IMathElement | math элемент для применения bar |
 
 ### Возвращаемое значение
 
-новый элемент математической линии
+новый математический элемент bar
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMathBar](../../imathbar)
-* интерфейс [IMathElement](../../imathelement)
-* интерфейс [IMathBarFactory](../../imathbarfactory)
+* interface [IMathBar](../../imathbar)
+* interface [IMathElement](../../imathelement)
+* interface [IMathBarFactory](../../imathbarfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathbarfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -35,7 +34,7 @@ public IMathBar CreateMathBar(IMathElement element)
 
 ## CreateMathBar(IMathElement, MathTopBotPositions) {#createmathbar_1}
 
-Создайте математическую линию, применяя к элементу
+Создать математическую полосу, применив к элементу
 
 ```csharp
 public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position)
@@ -43,19 +42,19 @@ public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для применения линии |
-| position | MathTopBotPositions | позиция линии |
+| element | IMathElement | Math элемент для применения бара |
+| position | MathTopBotPositions | Позиция бара |
 
 ### Возвращаемое значение
 
-новый элемент математической линии
+новый элемент математического бара
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMathBar](../../imathbar)
-* интерфейс [IMathElement](../../imathelement)
-* перечисление [MathTopBotPositions](../../mathtopbotpositions)
-* интерфейс [IMathBarFactory](../../imathbarfactory)
+* interface [IMathBar](../../imathbar)
+* interface [IMathElement](../../imathelement)
+* enum [MathTopBotPositions](../../mathtopbotpositions)
+* interface [IMathBarFactory](../../imathbarfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathbarfactory)
 * сборка [Aspose.Slides](../../../)
 

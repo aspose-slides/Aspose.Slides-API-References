@@ -1,15 +1,14 @@
 ---
 title: AddDataPointForSunburstSeries
-second_title: Aspose.Sildes для .NET Документация
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям, для которых тип диаграммы – Sunburst.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий с типом диаграммы Sunburst.
 type: docs
 weight: 200
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforsunburstseries/
 ---
+## IChartDataPointCollection.AddDataPointForSunburstSeries method
 
-## Метод IChartDataPointCollection.AddDataPointForSunburstSeries
-
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям, для которых тип диаграммы – Sunburst.
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий с типом диаграммы Sunburst.
 
 ```csharp
 public IChartDataPoint AddDataPointForSunburstSeries(IChartDataCell sizeValue)
@@ -17,17 +16,17 @@ public IChartDataPoint AddDataPointForSunburstSeries(IChartDataCell sizeValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sizeValue | IChartDataCell | Размер точки данных SizeValue |
+| sizeValue | IChartDataCell | Точка данных SizeValue |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartDataPoint](../../ichartdatapoint)
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
+* interface [IChartDataPoint](../../ichartdatapoint)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

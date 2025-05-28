@@ -1,23 +1,22 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным безопасным для потоков. Только для чтения логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides/fontfallbackrulescollection/issynchronized/
 ---
+## FontFallBackRulesCollection.IsSynchronized property
 
-## FontFallBackRulesCollection.IsSynchronized свойство
-
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (безопасным для потоков). Только для чтения логическое значение.
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* класс [FontFallBackRulesCollection](../../fontfallbackrulescollection)
+* class [FontFallBackRulesCollection](../../fontfallbackrulescollection)
 * пространство имен [Aspose.Slides](../../fontfallbackrulescollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,22 @@
 ---
 title: IsAutomaticMinorUnit
-second_title: Aspose.Sildes для .NET API Reference
-description: Указывает, назначается ли малая единица оси автоматически. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает назначаются ли автоматически младшие единицы оси. Чтение/записьBoolean.
 type: docs
 weight: 200
 url: /ru/aspose.slides.charts/iaxis/isautomaticminorunit/
 ---
+## IAxis.IsAutomaticMinorUnit property
 
-## Свойство IAxis.IsAutomaticMinorUnit
-
-Указывает, назначается ли малая единица оси автоматически. Читаемое/записываемое логическое значение.
+Указывает, назначаются ли автоматически младшие единицы оси. Чтение/записьBoolean.
 
 ```csharp
 public bool IsAutomaticMinorUnit { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IAxis](../../iaxis)
+* interface [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

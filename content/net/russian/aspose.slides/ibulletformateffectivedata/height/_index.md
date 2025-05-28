@@ -1,23 +1,22 @@
 ---
-title: Высота
+title: Height
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает высоту маркера абзаца. Только для чтения Single.
+description: Возвращает высоту маркера абзаца. Только для чтенияSingle.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ibulletformateffectivedata/height/
 ---
+## IBulletFormatEffectiveData.Height property
 
-## Свойство IBulletFormatEffectiveData.Height
-
-Возвращает высоту маркера абзаца. Только для чтения Single.
+Возвращает высоту маркера абзаца. Только для чтенияSingle.
 
 ```csharp
 public float Height { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
+* interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibulletformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

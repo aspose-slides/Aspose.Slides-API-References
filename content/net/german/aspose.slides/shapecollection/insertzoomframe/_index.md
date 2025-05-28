@@ -1,15 +1,14 @@
 ---
 title: InsertZoomFrame
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt ein neues Zoom-Objekt und fügt es an der angegebenen Stelle in die Sammlung ein.
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Erstellt ein neues ZoomObjekt und fügt es am angegebenen Index in eine Sammlung ein.
 type: docs
 weight: 410
 url: /de/aspose.slides/shapecollection/insertzoomframe/
 ---
+## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
 
-## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
-
-Erstellt ein neues Zoom-Objekt und fügt es an der angegebenen Stelle in die Sammlung ein.
+Erstellt ein neues Zoom-Objekt und fügt es am angegebenen Index in eine Sammlung ein.
 
 ```csharp
 public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, float height, 
@@ -18,26 +17,26 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem der Zoom-Frame eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen Zoom-Frames. |
-| y | Single | Y-Koordinate eines neuen Zoom-Frames. |
-| width | Single | Breite eines neuen Zoom-Frames. |
-| height | Single | Höhe eines neuen Zoom-Frames. |
-| slide | ISlide | Das Slide-Objekt, auf das vom Zoom-Frame verwiesen wird [`ISlide`](../../islide). |
+| index | Int32 | Der nullbasierte Index, an dem Zoomframe eingefügt werden soll. |
+| x | Single | X-Koordinate eines neuen ZoomrahmensSingle. |
+| y | Single | Y-Koordinate eines neuen ZoomrahmensSingle. |
+| width | Single | Breite eines neuen ZoomrahmensSingle. |
+| height | Single | Höhe eines neuen ZoomrahmensSingle. |
+| slide | ISlide | Das vom Zoomrahmen referenzierte Folienobjekt[`ISlide`](../../islide). |
 
 ### Rückgabewert
 
-Erstelltes Zoom-Objekt [`IZoomFrame`](../../izoomframe).
+Zoom-Objekt erstellt[`IZoomFrame`](../../izoomframe).
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Das referenzierte Slide gehört nicht zur aktuellen Präsentation. |
+| ArgumentException | Die referenzierte Folie gehört nicht zur aktuellen Präsentation. |
 
 ### Beispiele
 
-Dieses Beispiel zeigt die Erstellung und das Einfügen eines Zoom-Objekts an der angegebenen Stelle in der Sammlung (angenommen, dass sich mindestens zwei Folien in der Präsentation "Presentation.pptx" befinden):
+Dieses Beispiel zeigt das Erstellen und Einfügen eines Zoom-Objekts am angegebenen Index einer Sammlung (vorausgesetzt, es gibt mindestens zwei Folien in der Präsentation „Präsentation.pptx“):
 
 ```csharp
 [C#]
@@ -49,17 +48,17 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ### Siehe auch
 
-* Schnittstelle [IZoomFrame](../../izoomframe)
-* Schnittstelle [ISlide](../../islide)
-* Klasse [ShapeCollection](../../shapecollection)
-* Namespace [Aspose.Slides](../../shapecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IZoomFrame](../../izoomframe)
+* interface [ISlide](../../islide)
+* class [ShapeCollection](../../shapecollection)
+* namensraum [Aspose.Slides](../../shapecollection)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
-## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
+## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
 
-Erstellt ein neues Zoom-Objekt und fügt es an der angegebenen Stelle in die Sammlung ein.
+Erstellt ein neues Zoom-Objekt und fügt es am angegebenen Index in eine Sammlung ein.
 
 ```csharp
 public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, float height, 
@@ -68,27 +67,27 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem der Zoom-Frame eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen Zoom-Frames. |
-| y | Single | Y-Koordinate eines neuen Zoom-Frames. |
-| width | Single | Breite eines neuen Zoom-Frames. |
-| height | Single | Höhe eines neuen Zoom-Frames. |
-| slide | ISlide | Das Slide-Objekt, auf das vom Zoom-Frame verwiesen wird [`ISlide`](../../islide). |
-| image | IPPImage | Das Bild für die referenzierte Folie [`IPPImage`](../../ippimage) |
+| index | Int32 | Der nullbasierte Index, an dem Zoomframe eingefügt werden soll. |
+| x | Single | X-Koordinate eines neuen ZoomrahmensSingle. |
+| y | Single | Y-Koordinate eines neuen ZoomrahmensSingle. |
+| width | Single | Breite eines neuen ZoomrahmensSingle. |
+| height | Single | Höhe eines neuen ZoomrahmensSingle. |
+| slide | ISlide | Das vom Zoomrahmen referenzierte Folienobjekt[`ISlide`](../../islide). |
+| image | IPPImage | Das Bild für die referenzierte Folie[`IPPImage`](../../ippimage) |
 
 ### Rückgabewert
 
-Erstelltes Zoom-Objekt [`IZoomFrame`](../../izoomframe).
+Zoom-Objekt erstellt[`IZoomFrame`](../../izoomframe).
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Das referenzierte Slide gehört nicht zur aktuellen Präsentation. |
+| ArgumentException | Die referenzierte Folie gehört nicht zur aktuellen Präsentation. |
 
 ### Beispiele
 
-Dieses Beispiel zeigt die Erstellung und das Einfügen eines Zoom-Objekts an der angegebenen Stelle in der Sammlung (angenommen, dass sich mindestens zwei Folien in der Präsentation "Presentation.pptx" befinden):
+Dieses Beispiel zeigt das Erstellen und Einfügen eines Zoom-Objekts am angegebenen Index einer Sammlung (vorausgesetzt, es gibt mindestens zwei Folien in der Präsentation „Präsentation.pptx“):
 
 ```csharp
 [C#]
@@ -101,11 +100,11 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ### Siehe auch
 
-* Schnittstelle [IZoomFrame](../../izoomframe)
-* Schnittstelle [ISlide](../../islide)
-* Schnittstelle [IPPImage](../../ippimage)
-* Klasse [ShapeCollection](../../shapecollection)
-* Namespace [Aspose.Slides](../../shapecollection)
-* Assembly [Aspose.Slides](../../../)
+* interface [IZoomFrame](../../izoomframe)
+* interface [ISlide](../../islide)
+* interface [IPPImage](../../ippimage)
+* class [ShapeCollection](../../shapecollection)
+* namensraum [Aspose.Slides](../../shapecollection)
+* Montage [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,24 +1,23 @@
 ---
-title: Тип
+title: Type
 second_title: Справочник по API Aspose.Slides для .NET
-description: Тип перехода. Чтение-запись TransitionTypeaspose.slides.slideshow/transitiontype.
+description: Тип перехода. Чтение-записьTransitionTypeaspose.slides.slideshow/transitiontype.
 type: docs
-weight: 100
+weight: 90
 url: /ru/aspose.slides/islideshowtransition/type/
 ---
+## ISlideShowTransition.Type property
 
-## Свойство ISlideShowTransition.Type
-
-Тип перехода. Чтение-запись [`TransitionType`](../../../aspose.slides.slideshow/transitiontype).
+Тип перехода. Чтение-запись[`TransitionType`](../../../aspose.slides.slideshow/transitiontype).
 
 ```csharp
 public TransitionType Type { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* перечисление [TransitionType](../../../aspose.slides.slideshow/transitiontype)
-* интерфейс [ISlideShowTransition](../../islideshowtransition)
+* enum [TransitionType](../../../aspose.slides.slideshow/transitiontype)
+* interface [ISlideShowTransition](../../islideshowtransition)
 * пространство имен [Aspose.Slides](../../islideshowtransition)
 * сборка [Aspose.Slides](../../../)
 

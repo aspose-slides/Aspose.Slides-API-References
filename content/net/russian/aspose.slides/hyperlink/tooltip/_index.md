@@ -1,23 +1,22 @@
 ---
-title: Подсказка
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает строку, которая может отображаться в пользовательском интерфейсе в связи с родительским гиперссылкой. Чтение/Запись строка.
+title: Tooltip
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает строку которая может отображаться в пользовательском интерфейсе как связанную с родительской гиперссылкой. Чтение/записьString.
 type: docs
-weight: 200
+weight: 180
 url: /ru/aspose.slides/hyperlink/tooltip/
 ---
+## Hyperlink.Tooltip property
 
-## Свойство Hyperlink.Tooltip
-
-Возвращает строку, которая может отображаться в пользовательском интерфейсе в связи с родительским гиперссылкой. Чтение/Запись строка.
+Возвращает строку, которая может отображаться в пользовательском интерфейсе как связанную с родительской гиперссылкой. Чтение/записьString.
 
 ```csharp
 public string Tooltip { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Hyperlink](../../hyperlink)
+* class [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 

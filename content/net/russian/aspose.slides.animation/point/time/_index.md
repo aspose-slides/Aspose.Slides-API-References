@@ -1,23 +1,22 @@
 ---
-title: Время
+title: Time
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет значение времени. Чтение/запись Single.
+description: Представляет значение времени. Чтение/записьSingle.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/point/time/
 ---
+## Point.Time property
 
-## Свойство Point.Time
-
-Представляет значение времени. Чтение/запись Single.
+Представляет значение времени. Чтение/записьSingle.
 
 ```csharp
 public float Time { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Point](../../point)
+* class [Point](../../point)
 * пространство имен [Aspose.Slides.Animation](../../point)
 * сборка [Aspose.Slides](../../../)
 

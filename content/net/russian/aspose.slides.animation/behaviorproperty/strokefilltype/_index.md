@@ -1,13 +1,12 @@
 ---
 title: StrokeFillType
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство stroke.filltype
 type: docs
 weight: 940
 url: /ru/aspose.slides.animation/behaviorproperty/strokefilltype/
 ---
-
-## Свойство BehaviorProperty.StrokeFillType
+## BehaviorProperty.StrokeFillType property
 
 Представляет свойство 'stroke.filltype'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokefilltype/
 public static BehaviorProperty StrokeFillType { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

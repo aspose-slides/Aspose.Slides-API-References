@@ -1,24 +1,23 @@
 ---
 title: EffectFormat
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает объект EffectFormat, который содержит пиксельные эффекты, примененные к форме. Обратите внимание, что для определенных типов форм, не имеющих свойств эффекта, может быть возвращено значение null. Только для чтения IEffectFormataspose.slides/ieffectformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает объект EffectFormat содержащий пиксельные эффекты примененные к фигуре. Примечаниеможет возвращать значение null для определенных типов фигур не имеющих свойств эффекта. Только для чтенияIEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 60
 url: /ru/aspose.slides/shape/effectformat/
 ---
+## Shape.EffectFormat property
 
-## Свойство Shape.EffectFormat
-
-Возвращает объект EffectFormat, который содержит пиксельные эффекты, примененные к форме. Обратите внимание: может возвращать null для определенных типов форм, не имеющих свойств эффекта. Только для чтения [`IEffectFormat`](../../ieffectformat).
+Возвращает объект EffectFormat, содержащий пиксельные эффекты, примененные к фигуре. Примечание:может возвращать значение null для определенных типов фигур, не имеющих свойств эффекта. Только для чтения[`IEffectFormat`](../../ieffectformat).
 
 ```csharp
 public virtual IEffectFormat EffectFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectFormat](../../ieffectformat)
-* класс [Shape](../../shape)
+* interface [IEffectFormat](../../ieffectformat)
+* class [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 

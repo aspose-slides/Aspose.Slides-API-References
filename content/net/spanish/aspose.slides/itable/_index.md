@@ -1,13 +1,12 @@
 ---
 title: ITable
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa una tabla en una diapositiva.
 type: docs
-weight: 7010
+weight: 6650
 url: /es/aspose.slides/itable/
 ---
-
-## Interfaz ITable
+## ITable interface
 
 Representa una tabla en una diapositiva.
 
@@ -19,20 +18,20 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Permite obtener la interfaz base IBulkTextFormattable. Solo lectura [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Permite obtener la interfaz base IGraphicalObject. Solo lectura [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | Devuelve la colección de columnas. Solo lectura [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Determina si la primera columna de una tabla debe dibujarse con un formato especial. Lectura/escritura Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Determina si la primera fila de una tabla debe dibujarse con un formato especial. Lectura/escritura Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Determina si las filas pares deben dibujarse con un formato diferente. Lectura/escritura Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | Devuelve la celda en los índices de columna y fila especificados. Solo lectura [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Determina si la última columna de una tabla debe dibujarse con un formato especial. Lectura/escritura Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Determina si la última fila de una tabla debe dibujarse con un formato especial. Lectura/escritura Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Determina si la tabla tiene un orden de lectura de derecha a izquierda. Lectura/escritura Boolean. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | Devuelve la colección de filas. Solo lectura [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Obtiene o establece el estilo de tabla incorporado. Lectura/escritura [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Devuelve el objeto TableFormat que contiene propiedades de formato para esta tabla. Solo lectura [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Determina si las columnas pares deben dibujarse con un formato diferente. Lectura/escritura Boolean. |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Permite obtener la interfaz base IBulkTextFormattable. Solo lectura[`IBulkTextFormattable`](../ibulktextformattable) . |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Permite obtener la interfaz base IGraphicalObject. Solo lectura[`IGraphicalObject`](../igraphicalobject) . |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Devuelve la colección de columnas. Solo lectura[`IColumnCollection`](../icolumncollection) . |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Determina si la primera columna de una tabla debe dibujarse con un formato especial. Lectura/escrituraBoolean . |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Determina si la primera fila de una tabla debe dibujarse con un formato especial. Lectura/escrituraBoolean . |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Determina si las filas pares deben dibujarse con un formato diferente. Lectura/escrituraBoolean . |
+| [Item](../../aspose.slides/itable/item) { get; } | Devuelve la celda en los índices de columna y fila especificados. Solo lectura[`ICell`](../icell) . |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Determina si la última columna de una tabla debe dibujarse con un formato especial. Lectura/escrituraBoolean . |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Determina si la última fila de una tabla debe dibujarse con un formato especial. Lectura/escrituraBoolean . |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Determina si la tabla tiene un orden de lectura de derecha a izquierda. Lectura-escrituraBoolean . |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Devuelve la colección de filas. Solo lectura[`IRowCollection`](../irowcollection) . |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Obtiene o establece el estilo de tabla integrado. Lectura/escritura[`TableStylePreset`](../tablestylepreset) . |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Devuelve el objeto TableFormat que contiene las propiedades de formato de esta tabla. Solo lectura[`ITableFormat`](../itableformat) . |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Determina si las columnas pares deben dibujarse con un formato diferente. Lectura/escrituraBoolean . |
 
 ## Métodos
 
@@ -40,11 +39,11 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Fusiona celdas vecinas. |
 
-### Véase también
+### Ver también
 
-* interfaz [IBulkTextFormattable](../ibulktextformattable)
-* interfaz [IGraphicalObject](../igraphicalobject)
+* interface [IBulkTextFormattable](../ibulktextformattable)
+* interface [IGraphicalObject](../igraphicalobject)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* asamblea [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

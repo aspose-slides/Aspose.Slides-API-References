@@ -1,15 +1,14 @@
 ---
 title: AddSmartArt
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавление диаграммы SmartArt.
+description: Добавить диаграмму SmartArt.
 type: docs
 weight: 180
 url: /ru/aspose.slides/shapecollection/addsmartart/
 ---
+## ShapeCollection.AddSmartArt method
 
-## Метод ShapeCollection.AddSmartArt
-
-Добавление диаграммы SmartArt.
+Добавить диаграмму SmartArt.
 
 ```csharp
 public ISmartArt AddSmartArt(float x, float y, float width, float height, 
@@ -26,26 +25,24 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 
 ### Возвращаемое значение
 
-Создание диаграммы SmartArt
+Создать диаграмму SmartArt
 
 ### Примеры
 
-Следующий пример показывает, как добавить смарт-форму в презентацию PowerPoint.
+Пример: &lt;code&gt; [Visual Basic] Private pres As New Presentation() Частный слайд Как слайд = pres.Slides(0) Частный смарт Как SmartArt = слайд.Фигуры.ДобавитьSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList) &lt;/код&gt;
 
 ```csharp
 [C#]
-using (Presentation pres = new Presentation())
-{
-	Slide slide = pres.Slides[0];
-	SmartArt smart = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
-}
+Presentation pres = new Presentation();
+Slide slide = pres.Slides[0];
+SmartArt smart = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ISmartArt](../../../aspose.slides.smartart/ismartart)
-* перечисление [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype)
-* класс [ShapeCollection](../../shapecollection)
+* interface [ISmartArt](../../../aspose.slides.smartart/ismartart)
+* enum [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

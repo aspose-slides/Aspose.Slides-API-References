@@ -1,15 +1,14 @@
 ---
 title: AlignScripts
-second_title: Aspose.Sildes для .NET API Reference
-description: Указывает выравнивание нижнего/верхнего индекса. Когда значение true, нижний и верхний индексы выравниваются горизонтально друг к другу. Когда значение false, они привязываются к форме основания. Значение по умолчанию - false.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает выравнивание нижнего/верхнего индекса. При значении true нижний и верхний индексы выравниваются по горизонтали относительно друг друга. При значении false они привязываются к форме основания. Значение по умолчанию  false.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts/
 ---
+## IMathRightSubSuperscriptElement.AlignScripts property
 
-## Свойство IMathRightSubSuperscriptElement.AlignScripts
-
-Указывает выравнивание нижнего/верхнего индекса. Когда значение true, нижний и верхний индексы выравниваются горизонтально друг к другу. Когда значение false, они привязываются к форме основания. Значение по умолчанию - false.
+Задает выравнивание нижнего/верхнего индекса. При значении true нижний и верхний индексы выравниваются по горизонтали относительно друг друга. При значении false они привязываются к форме основания. Значение по умолчанию — false.
 
 ```csharp
 public bool AlignScripts { get; set; }
@@ -28,9 +27,9 @@ MathRightSubSuperscriptElement subsuperscript = new MathRightSubSuperscriptEleme
 subsuperscript.AlignScripts = true;
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
+* interface [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
 * пространство имен [Aspose.Slides.MathText](../../imathrightsubsuperscriptelement)
 * сборка [Aspose.Slides](../../../)
 

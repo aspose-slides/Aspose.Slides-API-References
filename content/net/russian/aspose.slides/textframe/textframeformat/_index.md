@@ -1,24 +1,23 @@
 ---
 title: TextFrameFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект форматирования для этого объекта TextFrame. Только для чтения ITextFrameFormataspose.slides/itextframeformat.
+description: Возвращает объект форматирования для этого объекта TextFrame. Только для чтенияITextFrameFormataspose.slides/itextframeformat.
 type: docs
-weight: 80
+weight: 60
 url: /ru/aspose.slides/textframe/textframeformat/
 ---
+## TextFrame.TextFrameFormat property
 
-## Свойство TextFrame.TextFrameFormat
-
-Возвращает объект форматирования для этого объекта TextFrame. Только для чтения [`ITextFrameFormat`](../../itextframeformat).
+Возвращает объект форматирования для этого объекта TextFrame. Только для чтения[`ITextFrameFormat`](../../itextframeformat).
 
 ```csharp
 public ITextFrameFormat TextFrameFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ITextFrameFormat](../../itextframeformat)
-* класс [TextFrame](../../textframe)
+* interface [ITextFrameFormat](../../itextframeformat)
+* class [TextFrame](../../textframe)
 * пространство имен [Aspose.Slides](../../textframe)
 * сборка [Aspose.Slides](../../../)
 

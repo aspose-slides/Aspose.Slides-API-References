@@ -1,24 +1,23 @@
 ---
-title: Формат
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Получает заливку маркера. Только для чтения IFormataspose.slides.charts/iformat.
+title: Format
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает заливку маркера. Только для чтенияIFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/imarker/format/
 ---
+## IMarker.Format property
 
-## Свойство IMarker.Format
-
-Получает заливку маркера. Только для чтения [`IFormat`](../../iformat).
+Получает заливку маркера. Только для чтения[`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFormat](../../iformat)
-* интерфейс [IMarker](../../imarker)
+* interface [IFormat](../../iformat)
+* interface [IMarker](../../imarker)
 * пространство имен [Aspose.Slides.Charts](../../imarker)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,13 +1,12 @@
 ---
 title: InsertVideoFrame
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новый видеокадр и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 400
 url: /ru/aspose.slides/shapecollection/insertvideoframe/
 ---
-
-## Метод ShapeCollection.InsertVideoFrame
+## ShapeCollection.InsertVideoFrame method
 
 Создает новый видеокадр и вставляет его в коллекцию по указанному индексу.
 
@@ -18,21 +17,21 @@ public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, fl
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, основанный на нуле, по которому видеокадр должен быть вставлен. |
-| x | Single | X-координата нового видеокадра. |
-| y | Single | Y-координата нового видеокадра. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должен быть вставлен видеокадр. |
+| x | Single | X координата нового видеокадра. |
+| y | Single | Координата Y нового видеокадра. |
 | width | Single | Ширина нового видеокадра. |
 | height | Single | Высота нового видеокадра. |
 | fname | String | Имя видеофайла. |
 
 ### Возвращаемое значение
 
-Созданный объект VideoFrame.
+Создан объект VideoFrame.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IVideoFrame](../../ivideoframe)
-* класс [ShapeCollection](../../shapecollection)
+* interface [IVideoFrame](../../ivideoframe)
+* class [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

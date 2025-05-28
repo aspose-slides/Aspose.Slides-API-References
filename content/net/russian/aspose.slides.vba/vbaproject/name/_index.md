@@ -1,23 +1,22 @@
 ---
-title: Имя
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает имя проекта VBA. Только для чтения строка.
+title: Name
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает имя проекта VBA. Только чтениеString.
 type: docs
-weight: 40
+weight: 30
 url: /ru/aspose.slides.vba/vbaproject/name/
 ---
+## VbaProject.Name property
 
-## Свойство VbaProject.Name
-
-Возвращает имя проекта VBA. Только для чтения строка.
+Возвращает имя проекта VBA. Только чтениеString.
 
 ```csharp
 public string Name { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [VbaProject](../../vbaproject)
+* class [VbaProject](../../vbaproject)
 * пространство имен [Aspose.Slides.Vba](../../vbaproject)
 * сборка [Aspose.Slides](../../../)
 

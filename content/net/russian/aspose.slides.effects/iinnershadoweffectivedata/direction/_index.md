@@ -1,23 +1,22 @@
 ---
-title: Направление
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Направление тени. Только для чтения Single.
+title: Direction
+second_title: Справочник по API Aspose.Slides для .NET
+description: Направление тени. Только для чтенияSingle.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/iinnershadoweffectivedata/direction/
 ---
+## IInnerShadowEffectiveData.Direction property
 
-## IInnerShadowEffectiveData.Direction свойство
-
-Направление тени. Только для чтения Single.
+Направление тени. Только для чтенияSingle.
 
 ```csharp
 public float Direction { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)
+* interface [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../iinnershadoweffectivedata)
 * сборка [Aspose.Slides](../../../)
 

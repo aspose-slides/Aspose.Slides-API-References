@@ -1,13 +1,12 @@
 ---
-title: Очистить
-second_title: Справка по API Aspose.Slides для .NET
+title: Clear
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/mathparagraph/clear/
 ---
-
-## Метод MathParagraph.Clear
+## MathParagraph.Clear method
 
 Удаляет все элементы из коллекции.
 
@@ -28,9 +27,9 @@ mathParagraph.Add(new MathBlock(new MathematicalText("block2")));
 mathParagraph.Clear();
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathParagraph](../../mathparagraph)
+* class [MathParagraph](../../mathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraph)
 * сборка [Aspose.Slides](../../../)
 

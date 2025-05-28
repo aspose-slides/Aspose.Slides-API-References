@@ -1,23 +1,22 @@
 ---
 title: CameraPresetType
-second_title: Aspose.Sildes для .NET Справочник API
-description: Константы, которые определяют тип предустановки камеры.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Константы определяющие тип пресета камеры.
 type: docs
-weight: 1020
+weight: 980
 url: /ru/aspose.slides/camerapresettype/
 ---
+## CameraPresetType enumeration
 
-## Перечисление CameraPresetType
-
-Константы, которые определяют тип предустановки камеры.
+Константы, определяющие тип пресета камеры.
 
 ```csharp
 public enum CameraPresetType
 ```
 
-### Значения
+### Ценности
 
-| Имя | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | IsometricBottomDown | `0` |  |
@@ -83,7 +82,7 @@ public enum CameraPresetType
 | PerspectiveRelaxedModerately | `60` |  |
 | PerspectiveRight | `61` |  |
 
-### Также смотрите
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

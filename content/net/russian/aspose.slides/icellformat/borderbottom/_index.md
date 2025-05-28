@@ -1,24 +1,23 @@
 ---
 title: BorderBottom
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект свойств нижней границы линии. Только для чтения ILineFormataspose.slides/ilineformat.
+description: Возвращает объект свойств линии нижней границы. Только для чтенияILineFormataspose.slides/ilineformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icellformat/borderbottom/
 ---
+## ICellFormat.BorderBottom property
 
-## Свойство ICellFormat.BorderBottom
-
-Возвращает объект свойств нижней границы линии. Только для чтения [`ILineFormat`](../../ilineformat).
+Возвращает объект свойств линии нижней границы. Только для чтения[`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderBottom { get; }
 ```
 
-### Также см.  
+### Смотрите также
 
-* интерфейс [ILineFormat](../../ilineformat)
-* интерфейс [ICellFormat](../../icellformat)
+* interface [ILineFormat](../../ilineformat)
+* interface [ICellFormat](../../icellformat)
 * пространство имен [Aspose.Slides](../../icellformat)
 * сборка [Aspose.Slides](../../../)
 

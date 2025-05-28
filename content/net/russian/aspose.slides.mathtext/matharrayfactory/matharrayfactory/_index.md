@@ -1,13 +1,12 @@
 ---
 title: MathArrayFactory
-second_title: Справочник по API Aspose.Slidеs для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/matharrayfactory/matharrayfactory/
 ---
-
-## Конструктор MathArrayFactory
+## MathArrayFactory constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.mathtext/matharrayfactory/matharrayfactory/
 public MathArrayFactory()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [MathArrayFactory](../../matharrayfactory)
+* class [MathArrayFactory](../../matharrayfactory)
 * пространство имен [Aspose.Slides.MathText](../../matharrayfactory)
 * сборка [Aspose.Slides](../../../)
 

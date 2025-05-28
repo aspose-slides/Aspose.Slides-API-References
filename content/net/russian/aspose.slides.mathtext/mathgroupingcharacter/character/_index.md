@@ -1,15 +1,14 @@
 ---
-title: Символ
+title: Character
 second_title: Справочник по API Aspose.Slides для .NET
-description: Группировка Символ Значение по умолчанию U23DF НИЖНЯЯ ФИГУРНАЯ СКОБОЧКА
+description: Символ группировки Значение по умолчаниюU23DF НИЖНЯЯ КРУПНАЯ СКОБКА
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathgroupingcharacter/character/
 ---
+## MathGroupingCharacter.Character property
 
-## Свойство MathGroupingCharacter.Character
-
-Символ группы Значение по умолчанию: U+23DF (НИЖНЯЯ ФИГУРНАЯ СКОБОЧКА)
+Символ группировки Значение по умолчанию:U+23DF (НИЖНЯЯ КРУПНАЯ СКОБКА)
 
 ```csharp
 public char Character { get; set; }
@@ -22,12 +21,12 @@ public char Character { get; set; }
 ```csharp
 [C#]
 MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new MathematicalText("abc"));
-groupingCharacter.Character = '\u23DD'; // Нижняя скобка
+groupingCharacter.Character = '\u23DD';  // Нижняя скобка
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [MathGroupingCharacter](../../mathgroupingcharacter)
+* class [MathGroupingCharacter](../../mathgroupingcharacter)
 * пространство имен [Aspose.Slides.MathText](../../mathgroupingcharacter)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: ContainsKey
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, содержит ли хранилище элемент с указанным ключом.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет есть ли в хранилище элемент с указанным ключом.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export.web/storage/containskey/
 ---
+## Storage.ContainsKey method
 
-## Метод Storage.ContainsKey
-
-Определяет, содержит ли хранилище элемент с указанным ключом.
+Определяет, есть ли в хранилище элемент с указанным ключом.
 
 ```csharp
 public bool ContainsKey(string key)
@@ -21,11 +20,11 @@ public bool ContainsKey(string key)
 
 ### Возвращаемое значение
 
-True, если хранилище содержит элемент с указанным ключом, иначе false.
+True, если в хранилище есть элемент с указанным ключом, иначе false.
 
-### См. также
+### Смотрите также
 
-* класс [Storage](../../storage)
+* class [Storage](../../storage)
 * пространство имен [Aspose.Slides.Export.Web](../../storage)
 * сборка [Aspose.Slides](../../../)
 

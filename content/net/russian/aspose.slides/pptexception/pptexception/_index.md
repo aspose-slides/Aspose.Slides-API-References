@@ -1,12 +1,11 @@
 ---
 title: PptException
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/pptexception/pptexception/
 ---
-
 ## PptException() {#constructor}
 
 Конструктор по умолчанию.
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/pptexception/pptexception/
 public PptException()
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [PptException](../../pptexception)
+* class [PptException](../../pptexception)
 * пространство имен [Aspose.Slides](../../pptexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -33,11 +32,11 @@ public PptException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | String | сообщение |
+| сообщение | String | сообщение |
 
-### См. Также
+### Смотрите также
 
-* класс [PptException](../../pptexception)
+* class [PptException](../../pptexception)
 * пространство имен [Aspose.Slides](../../pptexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -53,12 +52,12 @@ public PptException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | String | сообщение |
-| exception | Exception | исходное исключение |
+| сообщение | String | сообщение |
+| исключение | Exception | исходное исключение |
 
-### См. Также
+### Смотрите также
 
-* класс [PptException](../../pptexception)
+* class [PptException](../../pptexception)
 * пространство имен [Aspose.Slides](../../pptexception)
 * сборка [Aspose.Slides](../../../)
 

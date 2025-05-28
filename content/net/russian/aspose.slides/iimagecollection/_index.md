@@ -1,13 +1,12 @@
 ---
 title: IImageCollection
-second_title: Справочник по API Aspose.Silde для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет коллекцию PPImage.
 type: docs
-weight: 5960
+weight: 5610
 url: /ru/aspose.slides/iimagecollection/
 ---
-
-## Интерфейс IImageCollection
+## IImageCollection interface
 
 Представляет коллекцию PPImage.
 
@@ -15,7 +14,7 @@ url: /ru/aspose.slides/iimagecollection/
 public interface IImageCollection : IGenericCollection<IPPImage>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
@@ -25,18 +24,18 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | Имя | Описание |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Добавляет изображение в презентацию из указанного буфера. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Добавляет изображение в презентацию. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Добавляет копию изображения из другой презентации. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Добавляет изображение в презентацию из объекта SVG. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(MemoryStream) | Добавляет изображение из потока памяти. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream) | Добавляет изображение в презентацию из потока. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_7)(Stream, LoadingStreamBehavior) | Создает и добавляет изображение в презентацию из потока. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(byte[]) | Добавляет изображение в презентацию из указанного буфера. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(Image) | Добавить изображение в презентацию. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IPPImage) | Добавляет копию изображения из другой презентации. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(ISvgImage) | Добавить изображение в презентацию из объекта SVG. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Добавляет изображение из потока памяти. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Добавить изображение в презентацию из потока. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Создает и добавляет изображение в презентацию из потока. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* интерфейс [IPPImage](../ippimage)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [IPPImage](../ippimage)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

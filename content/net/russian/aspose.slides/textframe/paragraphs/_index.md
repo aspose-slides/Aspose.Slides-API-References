@@ -1,24 +1,23 @@
 ---
-title: Параграфы
+title: Paragraphs
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает список всех параграфов в рамке. Только для чтения IParagraphCollection aspose.slides/iparagraphcollection.
+description: Возвращает список всех абзацев в кадре. Только для чтенияIParagraphCollectionaspose.slides/iparagraphcollection.
 type: docs
 weight: 20
 url: /ru/aspose.slides/textframe/paragraphs/
 ---
+## TextFrame.Paragraphs property
 
-## Свойство TextFrame.Paragraphs
-
-Возвращает список всех параграфов в рамке. Только для чтения [`IParagraphCollection`](../../iparagraphcollection).
+Возвращает список всех абзацев в кадре. Только для чтения[`IParagraphCollection`](../../iparagraphcollection).
 
 ```csharp
 public IParagraphCollection Paragraphs { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IParagraphCollection](../../iparagraphcollection)
-* класс [TextFrame](../../textframe)
+* interface [IParagraphCollection](../../iparagraphcollection)
+* class [TextFrame](../../textframe)
 * пространство имен [Aspose.Slides](../../textframe)
 * сборка [Aspose.Slides](../../../)
 

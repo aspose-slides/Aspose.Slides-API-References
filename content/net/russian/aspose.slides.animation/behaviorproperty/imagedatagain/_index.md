@@ -6,8 +6,7 @@ type: docs
 weight: 480
 url: /ru/aspose.slides.animation/behaviorproperty/imagedatagain/
 ---
-
-## Свойство BehaviorProperty.ImageDataGain
+## BehaviorProperty.ImageDataGain property
 
 Представляет свойство 'imageData.gain'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/imagedatagain/
 public static BehaviorProperty ImageDataGain { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

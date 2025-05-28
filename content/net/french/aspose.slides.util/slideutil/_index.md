@@ -1,15 +1,14 @@
 ---
 title: SlideUtil
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Offre des méthodes qui aident à rechercher des formes et du texte dans une présentation.
+description: Offrir des méthodes qui aident à rechercher des formes et du texte dans une présentation.
 type: docs
-weight: 11210
+weight: 10770
 url: /fr/aspose.slides.util/slideutil/
 ---
+## SlideUtil class
 
-## Classe SlideUtil
-
-Offre des méthodes qui aident à rechercher des formes et du texte dans une présentation.
+Offrir des méthodes qui aident à rechercher des formes et du texte dans une présentation.
 
 ```csharp
 public static class SlideUtil
@@ -17,21 +16,20 @@ public static class SlideUtil
 
 ## Méthodes
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Change le placement de toutes les formes sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou aligne-les les unes par rapport aux autres. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Change le placement de toutes les formes dans un groupe. Aligne les formes aux marges ou au bord de la diapositive ou aligne-les les unes par rapport aux autres. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Change le placement des formes sélectionnées sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou aligne-les les unes par rapport aux autres. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Change le placement des formes sélectionnées dans un groupe. Aligne les formes aux marges ou au bord de la diapositive ou aligne-les les unes par rapport aux autres. |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Trouve et remplace le texte dans la présentation avec un format donné. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Trouve une forme par texte alternatif sur une diapositive dans une présentation PPTX. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Trouve une forme par texte alternatif dans une présentation PPTX. |
-| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Renvoie toutes les zones de texte sur une diapositive dans une présentation PPTX. |
-| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Renvoie tous les cadres de texte dans une présentation PPTX. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Modifie le placement de toutes les formes sur la diapositive. Aligne les formes sur les marges ou le bord de la diapositive ou les aligne les unes par rapport aux autres. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Modifie le placement de toutes les formes dans la forme du groupe. Aligne les formes sur les marges ou le bord de la diapositive ou les aligne les unes par rapport aux autres. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Modifie l'emplacement des formes sélectionnées sur la diapositive. Aligne les formes sur les marges ou le bord de la diapositive ou les aligne les unes par rapport aux autres. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Modifie le placement des formes sélectionnées dans la forme du groupe. Aligne les formes sur les marges ou le bord de la diapositive ou les aligne les unes par rapport aux autres. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Trouver une forme par un texte alternatif sur une diapositive dans une présentation PPTX. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Trouver une forme par un texte alternatif dans une présentation PPTX. |
+| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Renvoie tous les cadres de texte d'une diapositive dans une présentation PPTX. |
+| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Renvoie tous les blocs de texte d'une présentation PPTX. |
 
-### Voir aussi
+### Voir également
 
 * espace de noms [Aspose.Slides.Util](../../aspose.slides.util)
-* assembly [Aspose.Slides](../../)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

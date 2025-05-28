@@ -1,24 +1,23 @@
 ---
-title: Изображение
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает встроенное изображение. Чтение/запись IPPImageaspose.slides/ippimage.
+title: Image
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает встроенное изображение. Чтение/записьIPPImageaspose.slides/ippimage.
 type: docs
-weight: 20
+weight: 10
 url: /ru/aspose.slides/picture/image/
 ---
+## Picture.Image property
 
-## Свойство Picture.Image
-
-Возвращает или устанавливает встроенное изображение. Чтение/запись [`IPPImage`](../../ippimage).
+Возвращает или устанавливает встроенное изображение. Чтение/запись[`IPPImage`](../../ippimage).
 
 ```csharp
 public IPPImage Image { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IPPImage](../../ippimage)
-* класс [Picture](../../picture)
+* interface [IPPImage](../../ippimage)
+* class [Picture](../../picture)
 * пространство имен [Aspose.Slides](../../picture)
 * сборка [Aspose.Slides](../../../)
 

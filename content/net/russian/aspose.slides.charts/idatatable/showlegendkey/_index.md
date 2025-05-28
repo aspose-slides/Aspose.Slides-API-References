@@ -1,23 +1,22 @@
 ---
 title: ShowLegendKey
 second_title: Справочник по API Aspose.Slides для .NET
-description: Истина, если ключ легенды метки данных виден. Читаемое/записываемое логическое значение.
+description: Истинно если ключ легенды метки данных виден. Чтение/записьBoolean.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/idatatable/showlegendkey/
 ---
+## IDataTable.ShowLegendKey property
 
-## IDataTable.ShowLegendKey свойство
-
-Истина, если ключ легенды метки данных виден. Читаемое/записываемое логическое значение.
+Истинно, если ключ легенды метки данных виден. Чтение/записьBoolean.
 
 ```csharp
 public bool ShowLegendKey { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IDataTable](../../idatatable)
+* interface [IDataTable](../../idatatable)
 * пространство имен [Aspose.Slides.Charts](../../idatatable)
 * сборка [Aspose.Slides](../../../)
 

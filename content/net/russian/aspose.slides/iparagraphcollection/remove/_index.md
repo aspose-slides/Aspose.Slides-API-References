@@ -1,15 +1,14 @@
 ---
-title: Удалить
-second_title: Справка по API Aspose.Slides для .NET
-description: Удаляет первое вхождение конкретного абзаца.
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удаляет первое вхождение определенного абзаца.
 type: docs
 weight: 100
 url: /ru/aspose.slides/iparagraphcollection/remove/
 ---
+## IParagraphCollection.Remove method
 
-## Метод IParagraphCollection.Remove
-
-Удаляет первое вхождение конкретного абзаца.
+Удаляет первое вхождение определенного абзаца.
 
 ```csharp
 public bool Remove(IParagraph item)
@@ -17,16 +16,16 @@ public bool Remove(IParagraph item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IParagraph | Абзац, который нужно удалить из коллекции. |
+| item | IParagraph | Параграф, который необходимо удалить из коллекции. |
 
 ### Возвращаемое значение
 
-true, если *item* был успешно удален; в противном случае - false.
+true, если*item*был успешно удален; в противном случае ложно.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IParagraph](../../iparagraph)
-* интерфейс [IParagraphCollection](../../iparagraphcollection)
+* interface [IParagraph](../../iparagraph)
+* interface [IParagraphCollection](../../iparagraphcollection)
 * пространство имен [Aspose.Slides](../../iparagraphcollection)
 * сборка [Aspose.Slides](../../../)
 

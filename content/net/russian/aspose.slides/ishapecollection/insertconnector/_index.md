@@ -1,15 +1,14 @@
 ---
 title: InsertConnector
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает новый соединитель, настраивает его по умолчанию и вставляет его в коллекцию по указанному индексу.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает новый коннектор настраивает его из шаблона по умолчанию и вставляет в коллекцию по указанному индексу.
 type: docs
 weight: 280
 url: /ru/aspose.slides/ishapecollection/insertconnector/
 ---
-
 ## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
 
-Создает новый соединитель, настраивает его по умолчанию и вставляет его в коллекцию по указанному индексу.
+Создает новый коннектор, настраивает его из шаблона по умолчанию и вставляет в коллекцию по указанному индексу.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -18,22 +17,22 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, начиная с 0, в который должно быть вставлено значение. |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype) формы. |
-| x | Single | X-координата для левой стороны рамки формы. |
-| y | Single | Y-координата для верхней стороны рамки формы. |
-| width | Single | Ширина рамки формы. |
-| height | Single | Высота рамки формы. |
+| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
+| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
+| x | Single | X-координата левой стороны рамки фигуры. |
+| y | Single | Y-координата верхней стороны рамки фигуры. |
+| width | Single | Ширина рамки фигуры. |
+| height | Single | Высота рамки фигуры. |
 
 ### Возвращаемое значение
 
-Созданный объект соединителя.
+Создан объект-коннектор.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IConnector](../../iconnector)
-* перечисление [ShapeType](../../shapetype)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IConnector](../../iconnector)
+* enum [ShapeType](../../shapetype)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -41,7 +40,7 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 ## InsertConnector(int, ShapeType, float, float, float, float, bool) {#insertconnector_1}
 
-Создает новый соединитель и вставляет его в коллекцию по указанному индексу.
+Создает новый коннектор и вставляет его в коллекцию по указанному индексу.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -50,23 +49,23 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, начиная с 0, в который должно быть вставлено значение. |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype) формы. |
-| x | Single | X-координата для левой стороны рамки формы. |
-| y | Single | Y-координата для верхней стороны рамки формы. |
-| width | Single | Ширина рамки формы. |
-| height | Single | Высота рамки формы. |
-| createFromTemplate | Boolean | Если true, то новая форма будет настроена по умолчанию. Новой форме будет присвоено ненулевое имя, простой стиль, выравнивание текста по центру. Если false, то все значения свойств новой формы будут иметь значения по умолчанию. |
+| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
+| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
+| x | Single | X-координата левой стороны рамки фигуры. |
+| y | Single | Y-координата верхней стороны рамки фигуры. |
+| width | Single | Ширина рамки фигуры. |
+| height | Single | Высота рамки фигуры. |
+| createFromTemplate | Boolean | Если true, то новая форма будет настроена из шаблона по умолчанию. Непустое имя, простой стиль, текст по центру будет присвоен новой форме. Если false, то все значения свойств новой формы будут иметь значения по умолчанию. |
 
 ### Возвращаемое значение
 
-Созданный объект соединителя.
+Создан объект-коннектор.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IConnector](../../iconnector)
-* перечисление [ShapeType](../../shapetype)
-* интерфейс [IShapeCollection](../../ishapecollection)
+* interface [IConnector](../../iconnector)
+* enum [ShapeType](../../shapetype)
+* interface [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

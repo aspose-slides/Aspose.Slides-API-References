@@ -1,32 +1,31 @@
 ---
 title: ICommandEffect
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет командный эффект для анимационного поведения.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет эффект команды для поведения анимации.
 type: docs
-weight: 400
+weight: 380
 url: /ru/aspose.slides.animation/icommandeffect/
 ---
+## ICommandEffect interface
 
-## Интерфейс ICommandEffect
-
-Представляет командный эффект для анимационного поведения.
+Представляет эффект команды для поведения анимации.
 
 ```csharp
 public interface ICommandEffect : IBehavior
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения [`IBehavior`](../ibehavior). |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Определяет строку команды. Чтение/запись String. |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Определяет целевую фигуру командного эффекта. Чтение/запись [`IShape`](../../aspose.slides/ishape). |
-| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Определяет тип командного эффекта поведения. Чтение/запись [`CommandEffectType`](../commandeffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBeavior. Только для чтения[`IBehavior`](../ibehavior). |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Определяет командную строку. Чтение/записьString. |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Определяет форму цели командного эффекта. Чтение/запись[`IShape`](../../aspose.slides/ishape). |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Определяет тип поведения командного эффекта. Чтение/запись[`CommandEffectType`](../commandeffecttype). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IBehavior](../ibehavior)
+* interface [IBehavior](../ibehavior)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

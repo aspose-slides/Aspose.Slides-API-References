@@ -1,40 +1,39 @@
 ---
 title: StringOrDoubleChartValue
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет строковое или двойное значение, которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги, связанных с диаграммой; 2 как литеральное значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет строку или двойное значение которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги связанной с диаграммой  2 как буквальное значение.
 type: docs
-weight: 2340
+weight: 2280
 url: /ru/aspose.slides.charts/stringordoublechartvalue/
 ---
+## StringOrDoubleChartValue class
 
-## Класс StringOrDoubleChartValue
-
-Представляет строковое или двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанных с диаграммой; 2) как литеральное значение.
+Представляет строку или двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой ; 2) как буквальное значение.
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Возвращает или устанавливает значение как литеральное двойное. Чтение/запись Double. |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Возвращает или устанавливает значение как литеральную строку. Чтение/запись String. |
-| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Возвращает или устанавливает объект Data. Чтение/запись Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным для потомков. Другими словами, указывает тип значения свойства Data. Чтение/запись [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись[`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Возвращает или устанавливает значение как буквальное двойное число. Чтение/записьDouble. |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Возвращает или устанавливает значение как литеральную строку. Чтение/записьString. |
+| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Возвращает или устанавливает объект данных. Чтение/записьObject. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Преобразует в двойное значение. |
+| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Преобразует в двойной. |
 
 ### Смотрите также
 
-* класс [BaseChartValue](../basechartvalue)
-* интерфейс [IStringOrDoubleChartValue](../istringordoublechartvalue)
+* class [BaseChartValue](../basechartvalue)
+* interface [IStringOrDoubleChartValue](../istringordoublechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

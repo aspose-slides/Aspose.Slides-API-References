@@ -1,24 +1,23 @@
 ---
 title: WarningCallback
-second_title: Aspose.Sildes для .NET API Reference
-description: Возвращает или задает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Чтение/запись IWarningCallbackaspose.slides.warnings/iwarningcallback.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает объект который получает предупреждения и решает будет ли процесс загрузки продолжен или будет прерван. Чтение/записьIWarningCallbackaspose.slides.warnings/iwarningcallback.
 type: docs
-weight: 50
+weight: 30
 url: /ru/aspose.slides.export/isaveoptions/warningcallback/
 ---
+## ISaveOptions.WarningCallback property
 
-## Свойство ISaveOptions.WarningCallback
-
-Возвращает или задает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Чтение/запись [`IWarningCallback`](../../../aspose.slides.warnings/iwarningcallback).
+Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../../aspose.slides.warnings/iwarningcallback).
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IWarningCallback](../../../aspose.slides.warnings/iwarningcallback)
-* интерфейс [ISaveOptions](../../isaveoptions)
+* interface [IWarningCallback](../../../aspose.slides.warnings/iwarningcallback)
+* interface [ISaveOptions](../../isaveoptions)
 * пространство имен [Aspose.Slides.Export](../../isaveoptions)
 * сборка [Aspose.Slides](../../../)
 

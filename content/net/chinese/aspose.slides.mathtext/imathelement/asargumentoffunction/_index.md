@@ -1,31 +1,30 @@
 ---
 title: AsArgumentOfFunction
-second_title: Aspose.Sildes for .NET API 参考
-description: 使用此实例作为参数来获取指定的函数
+second_title: Aspose.Slides for .NET API 参考
+description: 以使用此实例作为参数的指定函数
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/imathelement/asargumentoffunction/
 ---
-
 ## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
 
-使用此实例作为参数来获取指定的函数
+以使用此实例作为参数的指定函数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionName | IMathElement | 函数名称 |
+| functionName | IMathElement | Function名称 |
 
 ### 返回值
 
-新的数学元素，类型为 [`IMathFunction`](../../imathfunction)
+类型的新数学元素[`IMathFunction`](../../imathfunction)
 
-### 示例
+### 例子
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -34,34 +33,34 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 ```
 
-### 另见
+### 也可以看看
 
-* 接口 [IMathFunction](../../imathfunction)
-* 接口 [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 程序集 [Aspose.Slides](../../../)
+* interface [IMathFunction](../../imathfunction)
+* interface [IMathElement](../../imathelement)
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(string) {#asargumentoffunction_4}
 
-使用此实例作为参数来获取指定的函数
+以使用此实例作为参数的指定函数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(string functionName)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionName | String | 函数名称 |
+| functionName | String | Function名称 |
 
 ### 返回值
 
-新的数学元素，类型为 [`IMathFunction`](../../imathfunction)
+类型的新数学元素[`IMathFunction`](../../imathfunction)
 
-### 示例
+### 例子
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -69,34 +68,34 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction("cos");
 ```
 
-### 另见
+### 也可以看看
 
-* 接口 [IMathFunction](../../imathfunction)
-* 接口 [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 程序集 [Aspose.Slides](../../../)
+* interface [IMathFunction](../../imathfunction)
+* interface [IMathElement](../../imathelement)
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
 
-使用此实例作为参数来获取指定的函数
+以使用此实例作为参数的指定函数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionType | MathFunctionsOfOneArgument | 一种单参数的常见函数类型 |
+| functionType | MathFunctionsOfOneArgument | 一一个参数的公共函数类型 |
 
 ### 返回值
 
-新的数学元素，类型为 [`IMathFunction`](../../imathfunction)
+类型的新数学元素[`IMathFunction`](../../imathfunction)
 
-### 示例
+### 例子
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -104,89 +103,89 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfOneArgument.ArcSin);
 ```
 
-### 另见
+### 也可以看看
 
-* 接口 [IMathFunction](../../imathfunction)
-* 枚举 [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument)
-* 接口 [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 程序集 [Aspose.Slides](../../../)
+* interface [IMathFunction](../../imathfunction)
+* enum [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument)
+* interface [IMathElement](../../imathelement)
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, IMathElement) {#asargumentoffunction_2}
 
-使用此实例作为参数来获取指定的函数和指定的附加参数
+将使用此实例的指定函数作为参数并指定附加参数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
     IMathElement additionalArgument)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | 一种双参数的常见函数类型：Log, Lim, Min, Max |
-| additionalArgument | IMathElement | 取决于函数类型的附加参数 |
+| functionType | MathFunctionsOfTwoArguments | 两个参数的常用函数类型之一:Log、Lim、Min、Max |
+| additionalArgument | IMathElement | 附加参数取决于函数的类型 |
 
 ### 返回值
 
-新的数学元素，类型为 [`IMathFunction`](../../imathfunction)
+类型的新数学元素[`IMathFunction`](../../imathfunction)
 
-### 示例
+### 例子
 
-示例：
+示例:
 
 ```csharp
 [C#]
 IMathElement functionArg = new MathematicalText("x");
 IMathElement logarithmBase = new MathematicalText("5");
-IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase); // 返回 'x' 以 '5' 为底的对数
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase);  // 返回 'x' 以 '5' 为底的对数
 ```
 
-### 另见
+### 也可以看看
 
-* 接口 [IMathFunction](../../imathfunction)
-* 枚举 [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
-* 接口 [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 程序集 [Aspose.Slides](../../../)
+* interface [IMathFunction](../../imathfunction)
+* enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
+* interface [IMathElement](../../imathelement)
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)
+* 部件 [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, string) {#asargumentoffunction_3}
 
-使用此实例作为参数来获取指定的函数和指定的附加参数
+将使用此实例的指定函数作为参数并指定附加参数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
     string additionalArgument)
 ```
 
-| 参数 | 类型 | 描述 |
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | 一种双参数的常见函数类型：Log, Lim, Min, Max |
-| additionalArgument | String | 取决于函数类型的附加参数 |
+| functionType | MathFunctionsOfTwoArguments | 两个参数的常用函数类型之一:Log、Lim、Min、Max |
+| additionalArgument | String | 附加参数取决于函数的类型 |
 
 ### 返回值
 
-新的数学元素，类型为 [`IMathFunction`](../../imathfunction)
+类型的新数学元素[`IMathFunction`](../../imathfunction)
 
-### 示例
+### 例子
 
-示例：
+示例:
 
 ```csharp
 [C#]
 IMathElement functionArg = new MathematicalText("x");
-IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5"); // 返回 'x' 以 '5' 为底的对数
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5");  // 返回 'x' 以 '5' 为底的对数
 ```
 
-### 另见
+### 也可以看看
 
-* 接口 [IMathFunction](../../imathfunction)
-* 枚举 [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
-* 接口 [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 程序集 [Aspose.Slides](../../../)
+* interface [IMathFunction](../../imathfunction)
+* enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
+* interface [IMathElement](../../imathelement)
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)
+* 部件 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

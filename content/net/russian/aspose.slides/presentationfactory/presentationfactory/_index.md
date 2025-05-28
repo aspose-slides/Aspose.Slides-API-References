@@ -1,13 +1,12 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/presentationfactory/presentationfactory/
 ---
-
-## Конструктор PresentationFactory
+## PresentationFactory constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/presentationfactory/presentationfactory/
 public PresentationFactory()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [PresentationFactory](../../presentationfactory)
+* class [PresentationFactory](../../presentationfactory)
 * пространство имен [Aspose.Slides](../../presentationfactory)
 * сборка [Aspose.Slides](../../../)
 

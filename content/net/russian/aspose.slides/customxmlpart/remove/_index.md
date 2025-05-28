@@ -1,13 +1,12 @@
 ---
-title: Удалить
-second_title: Справочник по API Aspose.Sildes для .NET
+title: Remove
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет пользовательскую часть xml из презентации.
 type: docs
 weight: 50
 url: /ru/aspose.slides/customxmlpart/remove/
 ---
-
-## Метод CustomXmlPart.Remove
+## CustomXmlPart.Remove method
 
 Удаляет пользовательскую часть xml из презентации.
 
@@ -19,11 +18,11 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Выбрасывается, если часть xml уже удалена. |
+| [PptxEditException](../../pptxeditexception) | Генерируется, если часть xml уже удалена. |
 
-### См. также
+### Смотрите также
 
-* класс [CustomXmlPart](../../customxmlpart)
+* class [CustomXmlPart](../../customxmlpart)
 * пространство имен [Aspose.Slides](../../customxmlpart)
 * сборка [Aspose.Slides](../../../)
 

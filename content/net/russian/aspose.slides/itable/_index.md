@@ -1,50 +1,49 @@
----  
-title: ITable  
-second_title: Aspose.Slides для .NET API Reference  
+---
+title: ITable
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет таблицу на слайде.
-type: docs  
-weight: 7010  
+type: docs
+weight: 6650
 url: /ru/aspose.slides/itable/
----  
+---
+## ITable interface
 
-## Интерфейс ITable  
+Представляет таблицу на слайде.
 
-Представляет таблицу на слайде.  
+```csharp
+public interface ITable : IBulkTextFormattable, IGraphicalObject
+```
 
-```csharp  
-public interface ITable : IBulkTextFormattable, IGraphicalObject  
-```  
+## Характеристики
 
-## Свойства  
+| Имя | Описание |
+| --- | --- |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения[`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения[`IGraphicalObject`](../igraphicalobject). |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Возвращает набор столбцов. Только для чтения[`IColumnCollection`](../icolumncollection). |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Определяет, должен ли первый столбец таблицы отображаться со специальным форматированием. Чтение/записьBoolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Определяет, должна ли первая строка таблицы отображаться со специальным форматированием. Чтение/записьBoolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Определяет, должны ли четные строки отображаться с другим форматированием. Чтение/записьBoolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | Возвращает ячейку с указанными индексами столбца и строки. Только для чтения[`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Определяет, должен ли последний столбец таблицы отображаться со специальным форматированием. Чтение/записьBoolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Определяет, должна ли последняя строка таблицы отображаться со специальным форматированием. Чтение/записьBoolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Определяет, имеет ли таблица порядок чтения справа налево. Чтение-записьBoolean. |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Возвращает набор строк. Только для чтения[`IRowCollection`](../irowcollection). |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Получает или устанавливает встроенный стиль таблицы. Чтение/запись[`TableStylePreset`](../tablestylepreset). |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Возвращает объект TableFormat, содержащий свойства форматирования для этой таблицы. Только для чтения[`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Определяет, должны ли четные столбцы отображаться с другим форматированием. Чтение/записьBoolean. |
 
-| Name | Description |  
-| --- | --- |  
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения [`IBulkTextFormattable`](../ibulktextformattable). |  
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../igraphicalobject). |  
-| [Columns](../../aspose.slides/itable/columns) { get; } | Возвращает коллекцию столбцов. Только для чтения [`IColumnCollection`](../icolumncollection). |  
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Определяет, должен ли первый столбец таблицы отображаться с особым форматированием. Чтение/запись Boolean. |  
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Определяет, должна ли первая строка таблицы отображаться с особым форматированием. Чтение/запись Boolean. |  
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Определяет, должны ли четные строки отображаться с другим форматированием. Чтение/запись Boolean. |  
-| [Item](../../aspose.slides/itable/item) { get; } | Возвращает ячейку по заданным индексам столбца и строки. Только для чтения [`ICell`](../icell). |  
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Определяет, должен ли последний столбец таблицы отображаться с особым форматированием. Чтение/запись Boolean. |  
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Определяет, должна ли последняя строка таблицы отображаться с особым форматированием. Чтение/запись Boolean. |  
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Определяет, должен ли порядок чтения в таблице быть справа налево. Чтение/запись Boolean. |  
-| [Rows](../../aspose.slides/itable/rows) { get; } | Возвращает коллекцию строк. Только для чтения [`IRowCollection`](../irowcollection). |  
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Получает или задает встроенный стиль таблицы. Чтение/запись [`TableStylePreset`](../tablestylepreset). |  
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Возвращает объект TableFormat, который содержит свойства форматирования для этой таблицы. Только для чтения [`ITableFormat`](../itableformat). |  
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Определяет, должны ли четные столбцы отображаться с другим форматированием. Чтение/запись Boolean. |  
+## Методы
 
-## Методы  
+| Имя | Описание |
+| --- | --- |
+| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Объединяет соседние ячейки. |
 
-| Name | Description |  
-| --- | --- |  
-| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Объединяет соседние ячейки. |  
+### Смотрите также
 
-### Дополнительно  
+* interface [IBulkTextFormattable](../ibulktextformattable)
+* interface [IGraphicalObject](../igraphicalobject)
+* пространство имен [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
-* интерфейс [IBulkTextFormattable](../ibulktextformattable)  
-* интерфейс [IGraphicalObject](../igraphicalobject)  
-* пространство имен [Aspose.Slides](../../aspose.slides)  
-* сборка [Aspose.Slides](../../)  
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

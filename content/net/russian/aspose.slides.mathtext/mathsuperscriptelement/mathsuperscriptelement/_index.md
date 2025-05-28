@@ -1,13 +1,12 @@
 ---
 title: MathSuperscriptElement
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр класса MathSuperscriptElement.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathsuperscriptelement/mathsuperscriptelement/
 ---
-
-## Конструктор MathSuperscriptElement
+## MathSuperscriptElement constructor
 
 Инициализирует новый экземпляр класса MathSuperscriptElement.
 
@@ -26,10 +25,10 @@ IMathElement superscript = new MathematicalText("i");
 MathSuperscriptElement superscriptElement = new MathSuperscriptElement(baseElement, superscript);
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathElement](../../imathelement)
-* класс [MathSuperscriptElement](../../mathsuperscriptelement)
+* interface [IMathElement](../../imathelement)
+* class [MathSuperscriptElement](../../mathsuperscriptelement)
 * пространство имен [Aspose.Slides.MathText](../../mathsuperscriptelement)
 * сборка [Aspose.Slides](../../../)
 

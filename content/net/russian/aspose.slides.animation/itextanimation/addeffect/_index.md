@@ -1,15 +1,14 @@
 ---
 title: AddEffect
-second_title: Aspose.Slides для .NET API Reference
-description: Добавить новый эффект в конец текущей последовательности текстовых анимаций группы. Действительно только если количество текстовых абзацев равно или больше количества эффектов этой группы.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавить новый эффект в конец текущей последовательности в конец групповой текстовой анимации. Действителен только в том случае если количество текстовых абзацев равно или больше количества подсчетов этой группы
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/itextanimation/addeffect/
 ---
+## ITextAnimation.AddEffect method
 
-## Метод ITextAnimation.AddEffect
-
-Добавить новый эффект в конец текущей последовательности текстовых анимаций группы. Действительно только если количество текстовых абзацев равно или больше количества эффектов этой группы!
+Добавить новый эффект в конец текущей последовательности в конец групповой текстовой анимации. Действителен только в том случае, если количество текстовых абзацев равно или больше количества подсчетов этой группы!
 
 ```csharp
 public IEffect AddEffect(EffectType effectType, EffectSubtype subtype, 
@@ -18,21 +17,21 @@ public IEffect AddEffect(EffectType effectType, EffectSubtype subtype,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| effectType | EffectType | Тип анимационного эффекта [`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Подтипы анимационного эффекта [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Тип триггера эффекта [`EffectTriggerType`](../../effecttriggertype) |
+| effectType | EffectType | Тип эффекта анимации[`EffectType`](../../effecttype) |
+| subtype | EffectSubtype | Подтипы эффекта анимации[`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Тип эффекта триггера[`EffectTriggerType`](../../effecttriggertype) |
 
 ### Возвращаемое значение
 
-Новый объект эффекта [`IEffect`](../../ieffect)
+Новый объект эффекта[`IEffect`](../../ieffect)
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffect](../../ieffect)
-* перечисление [EffectType](../../effecttype)
-* перечисление [EffectSubtype](../../effectsubtype)
-* перечисление [EffectTriggerType](../../effecttriggertype)
-* интерфейс [ITextAnimation](../../itextanimation)
+* interface [IEffect](../../ieffect)
+* enum [EffectType](../../effecttype)
+* enum [EffectSubtype](../../effectsubtype)
+* enum [EffectTriggerType](../../effecttriggertype)
+* interface [ITextAnimation](../../itextanimation)
 * пространство имен [Aspose.Slides.Animation](../../itextanimation)
 * сборка [Aspose.Slides](../../../)
 

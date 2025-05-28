@@ -1,33 +1,32 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Sildes для .NET API Справочник
-description: Невозможный объект, представляющий эффект внутренней тени.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект представляющий эффект внутренней тени.
 type: docs
-weight: 3310
+weight: 3230
 url: /ru/aspose.slides.effects/iinnershadoweffectivedata/
 ---
+## IInnerShadowEffectiveData interface
 
-## Интерфейс IInnerShadowEffectiveData
-
-Невозможный объект, представляющий эффект внутренней тени.
+Неизменяемый объект, представляющий эффект внутренней тени.
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Радиус размытия. Только для чтения Double. |
-| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Направление тени. Только для чтения Single. |
-| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Расстояние до тени. Только для чтения Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Цвет тени. Только для чтения Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Радиус размытия. Только для чтенияDouble. |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Направление тени. Только для чтенияSingle. |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Расстояние тени. Только для чтенияDouble. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Цвет тени. Только для чтенияColor. |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
+* interface [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

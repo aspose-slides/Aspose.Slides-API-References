@@ -1,15 +1,14 @@
 ---
 title: WebDocument
-second_title: Aspose.Sildes для .NET Справочник API
-description: Представляет переходную форму презентации для сохранения в веб-формате.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет переходную форму презентации для сохранения в веб-формат.
 type: docs
-weight: 4490
+weight: 4250
 url: /ru/aspose.slides.export.web/webdocument/
 ---
+## WebDocument class
 
-## Класс WebDocument
-
-Представляет переходную форму презентации для сохранения в веб-формате.
+Представляет переходную форму презентации для сохранения в веб-формат.
 
 ```csharp
 public class WebDocument
@@ -19,23 +18,23 @@ public class WebDocument
 
 | Имя | Описание |
 | --- | --- |
-| [WebDocument](webdocument)(WebDocumentOptions) | Конструктор [`WebDocument`](../webdocument). |
+| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument)конструктор. |
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Возвращает глобальное хранилище документа. Только для чтения [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Возвращает глобальное хранилище документа. Только для чтения[`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Возвращает коллекцию выходных элементов документа. Только для чтения [`Output`](./output). |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Возвращает набор выходных элементов документа. Только чтение[`Output`](./output). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/webdocument/save)() | Сохраняет выходные данные документа. |
+| [Save](../../aspose.slides.export.web/webdocument/save)() |  |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * сборка [Aspose.Slides](../../)

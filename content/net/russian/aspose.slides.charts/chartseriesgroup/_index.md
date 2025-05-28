@@ -1,13 +1,12 @@
 ---
 title: ChartSeriesGroup
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет группу серий.
 type: docs
-weight: 1380
+weight: 1320
 url: /ru/aspose.slides.charts/chartseriesgroup/
 ---
-
-## Класс ChartSeriesGroup
+## ChartSeriesGroup class
 
 Представляет группу серий.
 
@@ -15,38 +14,38 @@ url: /ru/aspose.slides.charts/chartseriesgroup/
 public class ChartSeriesGroup : IChartSeriesGroup
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [BubbleSizeRepresentation](../../aspose.slides.charts/chartseriesgroup/bubblesizerepresentation) { get; set; } | Определяет, как значения размеров пузырьков представлены на пузырьковом графике. Чтение/запись [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
-| [BubbleSizeScale](../../aspose.slides.charts/chartseriesgroup/bubblesizescale) { get; set; } | Указывает коэффициент масштабирования для пузырькового графика (может быть от 0 до 300 процентов от размера по умолчанию). Чтение/запись Int32. |
-| [Chart](../../aspose.slides.charts/chartseriesgroup/chart) { get; } | Возвращает родительский график. Только для чтения [`IChart`](../ichart). |
-| [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | Указывает размер отверстия в кольцевом графике (может быть от 0 до 90 процентов от размера области построения). Чтение/запись Byte. |
-| [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | Получает или задает угол первого сегмента круговой или кольцевой диаграммы в градусах (по часовой стрелке от вверх, от 0 до 360 градусов). Чтение/запись UInt16. |
-| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | Возвращает или устанавливает расстояние как процент ширины маркера между рядами данных на 3D-графике. Чтение/запись UInt16. |
-| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | Указывает пространство между группами столбцов или баров как процент ширины столбца или бруса. Чтение/запись UInt16. |
-| [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | Истина, если график имеет линии серий. Применяется к сложенным столбцам и диаграммам "Из нескольких частей". Чтение/запись Boolean. |
-| [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | Указывает формат линий HiLow. Линии HiLow применяются с типами графиков HiLowClose, OpenHiLowClose, VolumeHiLowClose и VolumeOpenHiLowClose. |
-| [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | Указывает, что каждый маркер данных в серии имеет разный цвет. Чтение/запись Boolean. |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/chartseriesgroup/bubblesizerepresentation) { get; set; } | Указывает, как значения размера пузырьков представлены на пузырьковой диаграмме. Чтение/запись[`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
+| [BubbleSizeScale](../../aspose.slides.charts/chartseriesgroup/bubblesizescale) { get; set; } | Определяет коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 до 300 процентов размера по умолчанию). Чтение/записьInt32. |
+| [Chart](../../aspose.slides.charts/chartseriesgroup/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения[`IChart`](../ichart). |
+| [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | Задает размер отверстия в кольцевой диаграмме (может составлять от 0 до 90 процентов от размера области графика). Чтение/записьByte. |
+| [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | Получает или задает угол первого фрагмента круговой или кольцевой диаграммы, в градусах (по часовой стрелке сверху, от 0 до 360 градусов). Чтение/записьUInt16. |
+| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | Возвращает или задает расстояние в процентах от ширины маркера между рядами данных на трехмерной диаграмме. Чтение/записьUInt16. |
+| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | Задает расстояние между кластерами полос или столбцов в процентах от ширины полосы или столбца. Чтение/записьUInt16. |
+| [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | Истинно, если на диаграмме есть линии серий. Применяется к линейчатым диаграммам с накоплением и круговым диаграммам. Чтение/записьBoolean. |
+| [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | Задает формат HiLowLines. HiLowLines применяется с типами диаграмм HiLowClose, OpenHiLowClose, VolumeHiLowClose и VolumeOpenHiLowClose. |
+| [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | Указывает, что каждый маркер данных в серии имеет свой цвет. Чтение/записьBoolean. |
 | [Item](../../aspose.slides.charts/chartseriesgroup/item) { get; } | Получает элемент по указанному индексу. |
-| [Overlap](../../aspose.slides.charts/chartseriesgroup/overlap) { get; set; } | Указывает, на сколько столбцы и бары должны перекрываться на 2-D графиках, в процентах (от -100% до 100%). - -100%: Максимальное расстояние (столбцы полностью разнесены). - 0%: Столбцы находятся рядом без пересечения или расстояния. - 100%: Максимальное перекрытие (столбцы полностью перекрывают друг друга). Это свойство является читаемым/записываемым SByte. |
-| [PieSplitBy](../../aspose.slides.charts/chartseriesgroup/piesplitby) { get; set; } | Указывает, как определить, какие точки данных находятся во втором пироге или баре на диаграмме "Круговой из круговой" или "Столбце из столбца". Чтение/запись [`PieSplitType`](../piesplittype). |
-| [PieSplitCustomPoints](../../aspose.slides.charts/chartseriesgroup/piesplitcustompoints) { get; } | Информация о пользовательском разделении для диаграммы "Круговой из круговой" или "Столбце из столбца" с пользовательским разделением. Содержит точки данных, которые должны быть нарисованы во втором пироге или баре на диаграмме "Круговой из круговой" или "Столбце из столбца". Только для чтения [`PieSplitCustomPointCollection`](../piesplitcustompointcollection). |
-| [PieSplitPosition](../../aspose.slides.charts/chartseriesgroup/piesplitposition) { get; set; } | Указывает значение, которое должно быть использовано для определения, какие точки данных находятся во втором пироге или баре на диаграмме "Круговой из круговой" или "Столбце из столбца". Используется вместе со свойством PieSplitBy. Чтение/запись Double. |
-| [PlotOnSecondAxis](../../aspose.slides.charts/chartseriesgroup/plotonsecondaxis) { get; } | Указывает, если серии этой группы нарисованы на вторичной оси. Только для чтения Boolean. |
-| [SecondPieSize](../../aspose.slides.charts/chartseriesgroup/secondpiesize) { get; set; } | Указывает размер второго пирога или бара диаграммы "Круговой из круговой" или "Столбец из столбца" в процентах от размера первого пирога (может быть от 5 до 200 процентов). Чтение/запись UInt16. |
-| [Series](../../aspose.slides.charts/chartseriesgroup/series) { get; } | Возвращает коллекцию серий. Только для чтения [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
-| [Type](../../aspose.slides.charts/chartseriesgroup/type) { get; } | Возвращает тип этой группы серий. Только для чтения [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
-| [UpDownBars](../../aspose.slides.charts/chartseriesgroup/updownbars) { get; } | Предоставляет доступ к барам "вверх/вниз" графика линии или акций. Только для чтения [`IUpDownBarsManager`](../iupdownbarsmanager). |
+| [Overlap](../../aspose.slides.charts/chartseriesgroup/overlap) { get; set; } | Указывает, сколько полос и столбцов должно перекрываться на двумерных диаграммах (от -100 до 100). Чтение/записьSByte. |
+| [PieSplitBy](../../aspose.slides.charts/chartseriesgroup/piesplitby) { get; set; } | Указывает, как определить, какие точки данных находятся во второй круговой диаграмме или столбце на круговой или столбчатой диаграмме . Чтение/запись[`PieSplitType`](../piesplittype). |
+| [PieSplitCustomPoints](../../aspose.slides.charts/chartseriesgroup/piesplitcustompoints) { get; } | Пользовательская информация о разделении для круговой или столбчатой диаграммы с пользовательским разделением. Содержит точки данных, которые должны быть отображены во второй круговой диаграмме или столбце в круговой или столбчатой диаграмме. Только для чтения[`PieSplitCustomPointCollection`](../piesplitcustompointcollection). |
+| [PieSplitPosition](../../aspose.slides.charts/chartseriesgroup/piesplitposition) { get; set; } | Указывает значение, которое должно использоваться для определения того, какие точки данных находятся во втором круге или столбце на круге или столбце круговая диаграмма. Используется вместе со свойством PieSplitBy. Чтение/записьDouble. |
+| [PlotOnSecondAxis](../../aspose.slides.charts/chartseriesgroup/plotonsecondaxis) { get; } | Указывает, нанесен ли ряд этой группы на второстепенную ось. Только чтениеBoolean. |
+| [SecondPieSize](../../aspose.slides.charts/chartseriesgroup/secondpiesize) { get; set; } | Задает размер второй круговой диаграммы или столбца круговой диаграммы или столбчатой диаграммы в виде процент от размера первого круга (может быть от 5 до 200 процентов). Чтение/записьUInt16. |
+| [Series](../../aspose.slides.charts/chartseriesgroup/series) { get; } | Возвращает набор серий. Только для чтения[`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
+| [Type](../../aspose.slides.charts/chartseriesgroup/type) { get; } | Возвращает тип этой группы серий. Только для чтения[`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
+| [UpDownBars](../../aspose.slides.charts/chartseriesgroup/updownbars) { get; } | Предоставляет доступ к барам вверх/вниз линейного или биржевого графика. Только для чтения[`IUpDownBarsManager`](../iupdownbarsmanager). |
 
-### Замечания
+### Примечания
 
-1) См. аннотацию и замечания для класса ChartSeriesGroupCollection и перечисления CombinableSeriesTypesGroup. 2) Группа серий содержит некоторые свойства серий, которые являются общими для каждой серии в группе ("свойства группы серий"). "Свойства группы серий" в классе ChartSeriesGroup имеют возможность чтения/записи. Каждое из "свойств группы серий" может иметь только для чтения проекцию в классе ChartSeries.
+1) См. сводку и примечания для класса ChartSeriesGroupCollection и перечисления CombinableSeriesTypesGroup. 2) Группа серий содержит некоторые свойства серий, которые являются общими для каждой серии в группе ("свойства группы серий"). "Свойства группы серий" в классе ChartSeriesGroup доступны для чтения/записи. Каждое из "свойств группы серий" может иметь доступную только для чтения проекцию в классе ChartSeries.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChartSeriesGroup](../ichartseriesgroup)
+* interface [IChartSeriesGroup](../ichartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

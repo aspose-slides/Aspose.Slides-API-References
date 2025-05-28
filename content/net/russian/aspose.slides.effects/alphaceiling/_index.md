@@ -1,38 +1,37 @@
 ---
 title: AlphaCeiling
-second_title: Aspose.Sildes для справки по API .NET
-description: Представляет эффект Alpha Ceiling. Значения альфа-непрозрачности, большие нуля, изменяются на 100. Другими словами, всё, что частично непрозрачно, становится полностью непрозрачным.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет эффект альфа-потолка. Значения альфа-канала непрозрачности больше нуля изменены на 100. Другими словами все частично непрозрачное становится полностью непрозрачным.
 type: docs
-weight: 2760
+weight: 2680
 url: /ru/aspose.slides.effects/alphaceiling/
 ---
+## AlphaCeiling class
 
-## Класс AlphaCeiling
-
-Представляет эффект Alpha Ceiling. Значения альфа (непрозрачности), большие нуля, изменяются на 100%. Другими словами, всё, что частично непрозрачно, становится полностью непрозрачным.
+Представляет эффект альфа-потолка. Значения альфа-канала (непрозрачности) больше нуля изменены на 100%. Другими словами, все частично непрозрачное становится полностью непрозрачным.
 
 ```csharp
-public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
+public class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Определяет, равен ли указанный [`AlphaCeiling`](../alphaceiling) текущему [`AlphaCeiling`](../alphaceiling). |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Получает данные эффективного эффекта Alpha Ceiling с учетом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Служит хеш-функцией для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Определяет, равен ли указанный[`AlphaCeiling`](../alphaceiling)текущемуАльфаПотолок. |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Получает эффективные данные эффекта Alpha Ceiling с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Служит хэш-функцией для определенного типа. |
 
-### См. также
+### Смотрите также
 
-* класс [ImageTransformOperation](../imagetransformoperation)
-* интерфейс [IAlphaCeiling](../ialphaceiling)
+* class [ImageTransformOperation](../imagetransformoperation)
+* interface [IAlphaCeiling](../ialphaceiling)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

@@ -1,23 +1,22 @@
 ---
 title: HasDataTable
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, имеет ли график таблицу данных. Читаемое/записываемое логическое значение.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет имеет ли диаграмма таблицу данных. Чтение/записьBoolean.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/ichart/hasdatatable/
 ---
+## IChart.HasDataTable property
 
-## IChart.HasDataTable свойство
-
-Определяет, имеет ли график таблицу данных. Читаемое/записываемое логическое значение.
+Определяет, имеет ли диаграмма таблицу данных. Чтение/записьBoolean.
 
 ```csharp
 public bool HasDataTable { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IChart](../../ichart)
+* interface [IChart](../../ichart)
 * пространство имен [Aspose.Slides.Charts](../../ichart)
 * сборка [Aspose.Slides](../../../)
 

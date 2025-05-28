@@ -1,24 +1,23 @@
 ---
 title: BorderDiagonalDown
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает объект свойств диагональной линии от верхнего левого угла к нижнему правому. Только для чтения ILineFormataspose.slides/ilineformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает объект свойств диагональной линии слева направо и сверху вниз. Только для чтенияILineFormataspose.slides/ilineformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icellformat/borderdiagonaldown/
 ---
+## ICellFormat.BorderDiagonalDown property
 
-## Свойство ICellFormat.BorderDiagonalDown
-
-Возвращает объект свойств диагональной линии от верхнего левого угла к нижнему правому. Только для чтения [`ILineFormat`](../../ilineformat).
+Возвращает объект свойств диагональной линии слева направо и сверху вниз. Только для чтения[`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderDiagonalDown { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* интерфейс [ILineFormat](../../ilineformat)
-* интерфейс [ICellFormat](../../icellformat)
+* interface [ILineFormat](../../ilineformat)
+* interface [ICellFormat](../../icellformat)
 * пространство имен [Aspose.Slides](../../icellformat)
 * сборка [Aspose.Slides](../../../)
 

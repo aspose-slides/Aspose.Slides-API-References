@@ -1,15 +1,14 @@
 ---
 title: GetFontName
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает название шрифта, заменяя ссылку на тему фактическим используемым шрифтом.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает имя шрифта заменяя ссылку на тему фактически используемым шрифтом.
 type: docs
 weight: 40
 url: /ru/aspose.slides/fontdata/getfontname/
 ---
+## FontData.GetFontName method
 
-## FontData.GetFontName метод
-
-Возвращает название шрифта, заменяя ссылку на тему фактическим используемым шрифтом.
+Возвращает имя шрифта, заменяя ссылку на тему фактически используемым шрифтом.
 
 ```csharp
 public string GetFontName(IThemeEffectiveData theme)
@@ -17,16 +16,16 @@ public string GetFontName(IThemeEffectiveData theme)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| theme | IThemeEffectiveData | Тема, из которой должно быть извлечено название тематического шрифта. Обязанность caller предоставить правильное значение. Смотрите [`CreateThemeEffective`](../../../aspose.slides.theme/ithemeable/createthemeeffective) |
+| theme | IThemeEffectiveData | Тема, из которой должно быть взято название тематического шрифта. Вызывающий должен указать правильное значение. См.[`CreateThemeEffective`](../../../aspose.slides.theme/ithemeable/createthemeeffective) |
 
 ### Возвращаемое значение
 
-Название шрифта.
+Имя шрифта.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
-* класс [FontData](../../fontdata)
+* interface [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
+* class [FontData](../../fontdata)
 * пространство имен [Aspose.Slides](../../fontdata)
 * сборка [Aspose.Slides](../../../)
 

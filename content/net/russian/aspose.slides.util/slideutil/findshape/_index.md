@@ -1,15 +1,14 @@
 ---
 title: FindShape
-second_title: Aspose.Slides для .NET API Справочник
-description: Найти фигуру по альтернативному тексту в PPTX презентации.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Поиск фигуры по альтернативному тексту в презентации PPTX.
 type: docs
-weight: 30
+weight: 20
 url: /ru/aspose.slides.util/slideutil/findshape/
 ---
-
 ## FindShape(IPresentation, string) {#findshape_1}
 
-Найдите фигуру по альтернативному тексту в PPTX презентации.
+Поиск фигуры по альтернативному тексту в презентации PPTX.
 
 ```csharp
 public static IShape FindShape(IPresentation pres, string altText)
@@ -22,13 +21,13 @@ public static IShape FindShape(IPresentation pres, string altText)
 
 ### Возвращаемое значение
 
-Фигура или null.
+Shape или null.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShape](../../../aspose.slides/ishape)
-* интерфейс [IPresentation](../../../aspose.slides/ipresentation)
-* класс [SlideUtil](../../slideutil)
+* interface [IShape](../../../aspose.slides/ishape)
+* interface [IPresentation](../../../aspose.slides/ipresentation)
+* class [SlideUtil](../../slideutil)
 * пространство имен [Aspose.Slides.Util](../../slideutil)
 * сборка [Aspose.Slides](../../../)
 
@@ -36,7 +35,7 @@ public static IShape FindShape(IPresentation pres, string altText)
 
 ## FindShape(IBaseSlide, string) {#findshape}
 
-Найдите фигуру по альтернативному тексту на слайде в PPTX презентации.
+Поиск фигуры по альтернативному тексту на слайде в презентации PPTX.
 
 ```csharp
 public static IShape FindShape(IBaseSlide slide, string altText)
@@ -44,18 +43,18 @@ public static IShape FindShape(IBaseSlide slide, string altText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| slide | IBaseSlide | Отсканированный слайд. |
+| слайд | IBaseSlide | Отсканированный слайд. |
 | altText | String | Альтернативный текст фигуры. |
 
 ### Возвращаемое значение
 
-Фигура или null.
+Shape или null.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShape](../../../aspose.slides/ishape)
-* интерфейс [IBaseSlide](../../../aspose.slides/ibaseslide)
-* класс [SlideUtil](../../slideutil)
+* interface [IShape](../../../aspose.slides/ishape)
+* interface [IBaseSlide](../../../aspose.slides/ibaseslide)
+* class [SlideUtil](../../slideutil)
 * пространство имен [Aspose.Slides.Util](../../slideutil)
 * сборка [Aspose.Slides](../../../)
 

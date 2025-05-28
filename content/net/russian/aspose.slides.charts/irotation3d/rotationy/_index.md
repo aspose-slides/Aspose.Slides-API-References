@@ -1,23 +1,22 @@
 ---
 title: RotationY
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает угол поворота вокруг оси Y, т.е. в направлении X для 3D графиков между 0 и 360 градусами. Свойство соответствует элементу 21.2.2.158 rotY Y Rotation в ECMA-376 и опции "X Rotation" в PowerPoint 2007. Чтение/запись UInt16.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает угол поворота вокруг оси Y т.е. в направлении X для трехмерных диаграмм от 0 до 360 градусов. Свойство соответствует элементу 21.2.2.158 rotY Y Rotation в ECMA-376 и параметру X Rotation в PowerPoint 2007. Чтение/записьUInt16.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/irotation3d/rotationy/
 ---
+## IRotation3D.RotationY property
 
-## IRotation3D.RotationY свойство
-
-Возвращает или устанавливает угол поворота вокруг оси Y, т.е. в направлении X для 3D графиков (между 0 и 360 градусами). Свойство соответствует элементу 21.2.2.158 rotY (Y Rotation) в ECMA-376 и опции "X Rotation" в PowerPoint 2007+. Чтение/запись UInt16.
+Возвращает или задает угол поворота вокруг оси Y, т.е. в направлении X для трехмерных диаграмм (от 0 до 360 градусов). Свойство соответствует элементу 21.2.2.158 rotY (Y Rotation) в ECMA-376 и параметру X Rotation в PowerPoint 2007+. Чтение/записьUInt16.
 
 ```csharp
 public ushort RotationY { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IRotation3D](../../irotation3d)
+* interface [IRotation3D](../../irotation3d)
 * пространство имен [Aspose.Slides.Charts](../../irotation3d)
 * сборка [Aspose.Slides](../../../)
 

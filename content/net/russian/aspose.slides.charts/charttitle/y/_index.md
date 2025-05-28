@@ -1,15 +1,14 @@
 ---
 title: Y
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или задает координату y заголовка как дробную часть высоты диаграммы. Читаемое/записываемое значение Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает координату y заголовка как часть высоты диаграммы. Чтение/записьSingle.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/charttitle/y/
 ---
+## ChartTitle.Y property
 
-## Свойство ChartTitle.Y
-
-Возвращает или задает координату y заголовка как дробную часть высоты диаграммы. Читаемое/записываемое значение Single.
+Возвращает или задает координату y заголовка как часть высоты диаграммы. Чтение/записьSingle.
 
 ```csharp
 public float Y { get; set; }
@@ -17,7 +16,7 @@ public float Y { get; set; }
 
 ### Смотрите также
 
-* класс [ChartTitle](../../charttitle)
+* class [ChartTitle](../../charttitle)
 * пространство имен [Aspose.Slides.Charts](../../charttitle)
 * сборка [Aspose.Slides](../../../)
 

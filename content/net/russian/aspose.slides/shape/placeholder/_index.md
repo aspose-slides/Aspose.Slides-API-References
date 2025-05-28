@@ -1,74 +1,23 @@
 ---
-title: Заполнитель
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Возвращает заполнитель для фигуры. Возвращает null, если у фигуры нет заполнителя. Только для чтения IPlaceholderaspose.slides/iplaceholder.
+title: Placeholder
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает заполнитель для фигуры. Возвращает null если в фигуре нет заполнителя. Только для чтенияIPlaceholderaspose.slides/iplaceholder.
 type: docs
-weight: 210
+weight: 200
 url: /ru/aspose.slides/shape/placeholder/
 ---
+## Shape.Placeholder property
 
-## Свойство Shape.Placeholder
-
-Возвращает заполнитель для фигуры. Возвращает null, если у фигуры нет заполнителя. Только для чтения [`IPlaceholder`](../../iplaceholder).
+Возвращает заполнитель для фигуры. Возвращает null, если в фигуре нет заполнителя. Только для чтения[`IPlaceholder`](../../iplaceholder).
 
 ```csharp
 public IPlaceholder Placeholder { get; }
 ```
 
-### Примеры
+### Смотрите также
 
-Следующий пример показывает, как изменить текст в заполнитель.
-
-```csharp
-[C#]
-// Создает экземпляр класса Presentation
-using (Presentation pres = new Presentation("ReplacingText.pptx"))
-{
-    // Получает первый слайд
-    ISlide sld = pres.Slides[0];
-    // Перебирает фигуры, чтобы найти заполнитель
-    foreach (IShape shp in sld.Shapes)
-        if (shp.Placeholder != null)
-        {
-            // Изменяет текст в каждом заполнителе
-            ((IAutoShape)shp).TextFrame.Text = "Это заполнитель";
-        }
-    // Сохраняет презентацию на диск
-    pres.Save("output_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
-}
-```
-
-Следующий пример показывает, как установить текст подсказки в заполнитель.
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation("Presentation2.pptx"))
-{
-    ISlide slide = pres.Slides[0];
-    foreach (IShape shape in slide.Slide.Shapes) // Перебирает слайд
-    {
-        if (shape.Placeholder != null && shape is AutoShape)
-        {
-            string text = "";
-            if (shape.Placeholder.Type == PlaceholderType.CenteredTitle) // PowerPoint отображает "Нажмите для добавления заголовка"
-            {
-                text = "Добавить заголовок";
-            }
-            else if (shape.Placeholder.Type == PlaceholderType.Subtitle) // Добавляет подпись
-            {
-                text = "Добавить подпись";
-            }
-            ((IAutoShape)shape).TextFrame.Text = text;
-            Console.WriteLine($"Заполнитель с текстом: {text}");
-        }
-    }
-    pres.Save("Placeholders_PromptText.pptx", SaveFormat.Pptx);
-}
-```
-
-### Также см.
-* интерфейс [IPlaceholder](../../iplaceholder)
-* класс [Shape](../../shape)
+* interface [IPlaceholder](../../iplaceholder)
+* class [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 

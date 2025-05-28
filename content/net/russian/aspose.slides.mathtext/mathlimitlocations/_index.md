@@ -1,29 +1,28 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes для .NET API Справочник
-description: Расположение пределов подстрочного/надстрочного текста в n-ичных операторах.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Расположение пределов индекс/верхний индекс в n-арных операторах.
 type: docs
-weight: 8580
+weight: 8120
 url: /ru/aspose.slides.mathtext/mathlimitlocations/
 ---
+## MathLimitLocations enumeration
 
-## Перечисление MathLimitLocations
-
-Расположение пределов (подстрочный/надстрочный текст) в n-ичных операторах.
+Расположение пределов (индекс/верхний индекс) в n-арных операторах.
 
 ```csharp
 public enum MathLimitLocations
 ```
 
-### Значения
+### Ценности
 
-| Название | Значение | Описание |
+| Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `0` | Не определено |
-| UnderOver | `1` | Пределы рисуются вверху и внизу символа оператора |
-| SubscriptSuperscript | `2` | Пределы рисуются как подстрочный и надстрочный текст |
+| UnderOver | `1` | Ограничивает рисование сверху и снизу символа оператора |
+| SubscriptSuperscript | `2` | Пределы рисуются в виде нижнего и верхнего индекса |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

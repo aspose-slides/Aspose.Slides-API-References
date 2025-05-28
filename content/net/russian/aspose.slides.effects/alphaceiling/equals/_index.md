@@ -1,15 +1,14 @@
 ---
-title: Равно
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, равен ли указанный AlphaCeilingaspose.slides.effects/alphaceiling текущему AlphaCeilingaspose.slides.effects/alphaceiling.
+title: Equals
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет равен ли указанныйAlphaCeilingaspose.slides.effects/alphaceilingтекущемуАльфаПотолок.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/alphaceiling/equals/
 ---
+## AlphaCeiling.Equals method
 
-## Метод AlphaCeiling.Equals
-
-Определяет, равен ли указанный [`AlphaCeiling`](../../alphaceiling) текущему [`AlphaCeiling`](../../alphaceiling).
+Определяет, равен ли указанный[`AlphaCeiling`](../../alphaceiling)текущемуАльфаПотолок.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,15 +16,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaCeiling`](../../alphaceiling), который нужно сравнить. |
+| obj | Object | [`AlphaCeiling`](../../alphaceiling)для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае false.
+true, если объекты равны; в противном случае ложно.
 
-### См. также
+### Смотрите также
 
-* класс [AlphaCeiling](../../alphaceiling)
+* class [AlphaCeiling](../../alphaceiling)
 * пространство имен [Aspose.Slides.Effects](../../alphaceiling)
 * сборка [Aspose.Slides](../../../)
 

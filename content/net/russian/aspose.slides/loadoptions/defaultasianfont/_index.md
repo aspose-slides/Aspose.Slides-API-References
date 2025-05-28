@@ -1,23 +1,22 @@
 ---
 title: DefaultAsianFont
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает или задает азиатский шрифт, используемый в случае, если исходный шрифт не найден. Чтение/запись Строка.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает азиатский шрифт используемый в случае если исходный шрифт не найден. Чтение/записьString.
 type: docs
 weight: 30
 url: /ru/aspose.slides/loadoptions/defaultasianfont/
 ---
+## LoadOptions.DefaultAsianFont property
 
-## Свойство LoadOptions.DefaultAsianFont
-
-Возвращает или задает азиатский шрифт, используемый в случае, если исходный шрифт не найден. Чтение/запись Строка.
+Возвращает или устанавливает азиатский шрифт, используемый в случае, если исходный шрифт не найден. Чтение/записьString.
 
 ```csharp
 public string DefaultAsianFont { get; set; }
 ```
 
-### Также см.
+### Смотрите также
 
-* класс [LoadOptions](../../loadoptions)
+* class [LoadOptions](../../loadoptions)
 * пространство имен [Aspose.Slides](../../loadoptions)
 * сборка [Aspose.Slides](../../../)
 

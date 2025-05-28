@@ -1,23 +1,22 @@
 ---
 title: G
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает зеленый компонент цвета. Все цветовые преобразования игнорируются. Чтение/запись Byte.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает зеленый компонент цвета. Все преобразования цвета игнорируются. Чтение/записьByte.
 type: docs
 weight: 90
 url: /ru/aspose.slides/icolorformat/g/
 ---
+## IColorFormat.G property
 
-## Свойство IColorFormat.G
-
-Возвращает или устанавливает зеленый компонент цвета. Все цветовые преобразования игнорируются. Чтение/запись Byte.
+Возвращает или устанавливает зеленый компонент цвета. Все преобразования цвета игнорируются. Чтение/записьByte.
 
 ```csharp
 public byte G { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IColorFormat](../../icolorformat)
+* interface [IColorFormat](../../icolorformat)
 * пространство имен [Aspose.Slides](../../icolorformat)
 * сборка [Aspose.Slides](../../../)
 

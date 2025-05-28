@@ -1,13 +1,12 @@
 ---
 title: CreateOuterShadow
-second_title: Aspose.Slides для справки по API .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Создает эффект внешней тени.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/ieffectfactory/createoutershadow/
 ---
-
-## IEffectFactory.CreateOuterShadow метод
+## IEffectFactory.CreateOuterShadow method
 
 Создает эффект внешней тени.
 
@@ -19,10 +18,10 @@ public IOuterShadow CreateOuterShadow()
 
 Эффект внешней тени.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IOuterShadow](../../ioutershadow)
-* интерфейс [IEffectFactory](../../ieffectfactory)
+* interface [IOuterShadow](../../ioutershadow)
+* interface [IEffectFactory](../../ieffectfactory)
 * пространство имен [Aspose.Slides.Effects](../../ieffectfactory)
 * сборка [Aspose.Slides](../../../)
 

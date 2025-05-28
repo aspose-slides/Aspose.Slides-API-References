@@ -1,15 +1,14 @@
 ---
 title: AsIDisposable
-second_title: Aspose.Slildes для справки по API .NET
-description: Позволяет получить базовый интерфейс IDisposable. Только для чтения IDisposable.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IDisposable. Только для чтенияIDisposable.
 type: docs
 weight: 10
 url: /ru/aspose.slides/streamwrapper/asidisposable/
 ---
+## StreamWrapper.AsIDisposable property
 
-## StreamWrapper.AsIDisposable свойство
-
-Позволяет получить базовый интерфейс IDisposable. Только для чтения IDisposable.
+Позволяет получить базовый интерфейс IDisposable. Только для чтенияIDisposable.
 
 ```csharp
 public IDisposable AsIDisposable { get; }
@@ -17,7 +16,7 @@ public IDisposable AsIDisposable { get; }
 
 ### Смотрите также
 
-* класс [StreamWrapper](../../streamwrapper)
+* class [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

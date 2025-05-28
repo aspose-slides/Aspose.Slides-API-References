@@ -1,15 +1,14 @@
 ---
-title: Символ закрывающего делимитера
+title: EndingCharacter
 second_title: Справочник по API Aspose.Slides для .NET
-description: Символ закрывающего делимитера указывает символ закрывающего или завершающего делимитера. Математические делимитеры — это заключающие символы, такие как круглые скобки, квадратные скобки и фигурные скобки. По умолчанию ''.
+description: Конечный символ-разделитель определяет конечный или закрывающий символ-разделитель. Математические разделители заключают в себя символы такие как круглые и фигурные скобки. По умолчанию.
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathdelimiter/endingcharacter/
 ---
+## IMathDelimiter.EndingCharacter property
 
-## Свойство IMathDelimiter.EndingCharacter
-
-Символ закрывающего делимитера указывает закрывающий или завершающий символ делимитера. Математические делимитеры — это заключающие символы, такие как круглые скобки, квадратные скобки и фигурные скобки. По умолчанию: ')'.
+Конечный символ-разделитель определяет конечный или закрывающий символ-разделитель. Математические разделители заключают в себя символы, такие как круглые и фигурные скобки. По умолчанию:')'.
 
 ```csharp
 public char EndingCharacter { get; set; }
@@ -25,9 +24,9 @@ IMathDelimiter delimiter = new MathematicalText("x").Join("y").Enclose();
 delimiter.EndingCharacter = ']';
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathDelimiter](../../imathdelimiter)
+* interface [IMathDelimiter](../../imathdelimiter)
 * пространство имен [Aspose.Slides.MathText](../../imathdelimiter)
 * сборка [Aspose.Slides](../../../)
 

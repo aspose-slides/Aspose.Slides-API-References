@@ -1,23 +1,22 @@
 ---
-title: Направление
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Направление тени. Чтение/запись Single.
+title: Direction
+second_title: Справочник по API Aspose.Slides для .NET
+description: Направление тени. Чтение/записьSingle.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/outershadow/direction/
 ---
+## OuterShadow.Direction property
 
-## Свойство OuterShadow.Direction
-
-Направление тени. Чтение/запись Single.
+Направление тени. Чтение/записьSingle.
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### Дополнительно
+### Смотрите также
 
-* класс [OuterShadow](../../outershadow)
+* class [OuterShadow](../../outershadow)
 * пространство имен [Aspose.Slides.Effects](../../outershadow)
 * сборка [Aspose.Slides](../../../)
 

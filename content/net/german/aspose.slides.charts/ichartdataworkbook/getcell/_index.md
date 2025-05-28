@@ -1,15 +1,14 @@
 ---
 title: GetCell
-second_title: Aspose.Slides für .NET API Referenz
-description: Erhält die Zelle, die für Diagrammreihen oder -kategorien verwendet werden kann
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Ruft die Zelle ab die für Diagrammserien oder Kategorien verwendet werden kann
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/ichartdataworkbook/getcell/
 ---
-
 ## GetCell(string, int, int) {#getcell_4}
 
-Erhält die Zelle, die für Diagrammreihen oder -kategorien verwendet werden kann
+Ruft die Zelle ab, die für Diagrammserien oder Kategorien verwendet werden kann
 
 ```csharp
 public IChartDataCell GetCell(string worksheetName, int row, int column)
@@ -18,25 +17,25 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | worksheetName | String | Name des Arbeitsblatts. |
-| row | Int32 | Die Zeile. |
-| column | Int32 | Die Spalte. |
+| row | Int32 | Die Reihe. |
+| column | Int32 | Die Kolumne. |
 
 ### Rückgabewert
 
-Zellenobjekt
+Zellobjekt
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Schnittstelle [IChartDataWorkbook](../../ichartdataworkbook)
-* Namensraum [Aspose.Slides.Charts](../../ichartdataworkbook)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataWorkbook](../../ichartdataworkbook)
+* namensraum [Aspose.Slides.Charts](../../ichartdataworkbook)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## GetCell(int, int, int) {#getcell}
 
-Erhält die Zelle, die für Diagrammreihen oder -kategorien verwendet werden kann
+Ruft die Zelle ab, die für Diagrammserien oder Kategorien verwendet werden kann
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, int row, int column)
@@ -45,25 +44,25 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | worksheetIndex | Int32 | Index des Arbeitsblatts. |
-| row | Int32 | Die Zeile. |
-| column | Int32 | Die Spalte. |
+| row | Int32 | Die Reihe. |
+| column | Int32 | Die Kolumne. |
 
 ### Rückgabewert
 
-Zellenobjekt
+Zellobjekt
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Schnittstelle [IChartDataWorkbook](../../ichartdataworkbook)
-* Namensraum [Aspose.Slides.Charts](../../ichartdataworkbook)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataWorkbook](../../ichartdataworkbook)
+* namensraum [Aspose.Slides.Charts](../../ichartdataworkbook)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## GetCell(int, string) {#getcell_2}
 
-Erhält die Zelle, die für Diagrammreihen oder -kategorien verwendet werden kann
+Ruft die Zelle ab, die für Diagrammserien oder Kategorien verwendet werden kann
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, string cellName)
@@ -76,20 +75,20 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName)
 
 ### Rückgabewert
 
-Zellenobjekt
+Zellobjekt
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Schnittstelle [IChartDataWorkbook](../../ichartdataworkbook)
-* Namensraum [Aspose.Slides.Charts](../../ichartdataworkbook)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataWorkbook](../../ichartdataworkbook)
+* namensraum [Aspose.Slides.Charts](../../ichartdataworkbook)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## GetCell(int, string, object) {#getcell_3}
 
-Erhält die Zelle, die für Diagrammreihen oder -kategorien verwendet werden kann
+Ruft die Zelle ab, die für Diagrammserien oder Kategorien verwendet werden kann
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
@@ -103,20 +102,20 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 
 ### Rückgabewert
 
-Zellenobjekt
+Zellobjekt
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Schnittstelle [IChartDataWorkbook](../../ichartdataworkbook)
-* Namensraum [Aspose.Slides.Charts](../../ichartdataworkbook)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataWorkbook](../../ichartdataworkbook)
+* namensraum [Aspose.Slides.Charts](../../ichartdataworkbook)
+* Montage [Aspose.Slides](../../../)
 
 ---
 
 ## GetCell(int, int, int, object) {#getcell_1}
 
-Erhält die Zelle, die für Diagrammreihen oder -kategorien verwendet werden kann
+Ruft die Zelle ab, die für Diagrammserien oder Kategorien verwendet werden kann
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, int row, int column, object value)
@@ -125,19 +124,19 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column, object va
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | worksheetIndex | Int32 | Index des Arbeitsblatts. |
-| row | Int32 | Die Zeile. |
-| column | Int32 | Die Spalte. |
+| row | Int32 | Die Reihe. |
+| column | Int32 | Die Kolumne. |
 | value | Object | Der Wert. |
 
 ### Rückgabewert
 
-Zellenobjekt
+Zellobjekt
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
-* Schnittstelle [IChartDataWorkbook](../../ichartdataworkbook)
-* Namensraum [Aspose.Slides.Charts](../../ichartdataworkbook)
-* Assembly [Aspose.Slides](../../../)
+* interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataWorkbook](../../ichartdataworkbook)
+* namensraum [Aspose.Slides.Charts](../../ichartdataworkbook)
+* Montage [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

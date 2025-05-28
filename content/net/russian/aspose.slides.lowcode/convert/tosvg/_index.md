@@ -1,15 +1,14 @@
 ---
 title: ToSvg
-second_title: Aspose.Sildes для .NET API Reference
-description: Преобразует Presentationaspose.slides/presentation в SVG.
+second_title: Справочник по API Aspose.Slides для .NET
+description: ПреобразуетPresentationaspose.slides/presentationв SVG.
 type: docs
 weight: 30
 url: /ru/aspose.slides.lowcode/convert/tosvg/
 ---
-
 ## ToSvg(string) {#tosvg_3}
 
-Преобразует [`Presentation`](../../../aspose.slides/presentation) в SVG.
+Преобразует[`Presentation`](../../../aspose.slides/presentation)в SVG.
 
 ```csharp
 public static void ToSvg(string presPath)
@@ -17,7 +16,7 @@ public static void ToSvg(string presPath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| presPath | String | Путь к входной презентации |
+| presPath | String | Путь входного представления |
 
 ### Примеры
 
@@ -25,9 +24,9 @@ public static void ToSvg(string presPath)
 Convert.ToSvg("pres.pptx");
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Convert](../../convert)
+* class [Convert](../../convert)
 * пространство имен [Aspose.Slides.LowCode](../../convert)
 * сборка [Aspose.Slides](../../../)
 
@@ -35,7 +34,7 @@ Convert.ToSvg("pres.pptx");
 
 ## ToSvg(string, GetOutPathCallback) {#tosvg_4}
 
-Преобразует [`Presentation`](../../../aspose.slides/presentation) в SVG.
+Преобразует[`Presentation`](../../../aspose.slides/presentation)в SVG.
 
 ```csharp
 public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
@@ -43,8 +42,8 @@ public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| presPath | String | Путь к входной презентации |
-| getOutPath | GetOutPathCallback | Коллбэк, который возвращает путь выхода SVG для каждого слайда в презентации |
+| presPath | String | Путь представления ввода |
+| getOutPath | GetOutPathCallback | Обратный вызов, который возвращает выходной путь SVG для каждого слайда в презентации |
 
 ### Примеры
 
@@ -52,10 +51,10 @@ public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
 Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");
 ```
 
-### См. также
+### Смотрите также
 
-* делегат [GetOutPathCallback](../../convert.getoutpathcallback)
-* класс [Convert](../../convert)
+* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
+* class [Convert](../../convert)
 * пространство имен [Aspose.Slides.LowCode](../../convert)
 * сборка [Aspose.Slides](../../../)
 
@@ -63,7 +62,7 @@ Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");
 
 ## ToSvg(Presentation, GetOutPathCallback) {#tosvg_1}
 
-Преобразует [`Presentation`](../../../aspose.slides/presentation) в SVG.
+Преобразует[`Presentation`](../../../aspose.slides/presentation)в SVG.
 
 ```csharp
 public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)
@@ -71,8 +70,8 @@ public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Входная презентация |
-| getOutPath | GetOutPathCallback | Коллбэк, который возвращает путь выхода SVG для каждого слайда в презентации |
+| pres | Presentation | Входное представление |
+| getOutPath | GetOutPathCallback | &gt;Обратный вызов, который возвращает выходной путь SVG для каждого слайда в презентации |
 
 ### Примеры
 
@@ -83,11 +82,11 @@ using (Presentation pres = new Presentation("input.pptx"))
 } 
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Presentation](../../../aspose.slides/presentation)
-* делегат [GetOutPathCallback](../../convert.getoutpathcallback)
-* класс [Convert](../../convert)
+* class [Presentation](../../../aspose.slides/presentation)
+* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
+* class [Convert](../../convert)
 * пространство имен [Aspose.Slides.LowCode](../../convert)
 * сборка [Aspose.Slides](../../../)
 
@@ -95,7 +94,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ## ToSvg(Presentation, ISVGOptions) {#tosvg}
 
-Преобразует [`Presentation`](../../../aspose.slides/presentation) в SVG.
+Преобразует[`Presentation`](../../../aspose.slides/presentation)в SVG.
 
 ```csharp
 public static void ToSvg(Presentation pres, ISVGOptions options)
@@ -103,8 +102,8 @@ public static void ToSvg(Presentation pres, ISVGOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Входная презентация |
-| options | ISVGOptions | Опции экспорта в SVG |
+| pres | Presentation | Представление ввода |
+| options | ISVGOptions | Параметры экспорта SVG |
 
 ### Примеры
 
@@ -115,11 +114,11 @@ using (Presentation pres = new Presentation("input.pptx"))
 }  
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Presentation](../../../aspose.slides/presentation)
-* интерфейс [ISVGOptions](../../../aspose.slides.export/isvgoptions)
-* класс [Convert](../../convert)
+* class [Presentation](../../../aspose.slides/presentation)
+* interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
+* class [Convert](../../convert)
 * пространство имен [Aspose.Slides.LowCode](../../convert)
 * сборка [Aspose.Slides](../../../)
 
@@ -127,7 +126,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ## ToSvg(Presentation, GetOutPathCallback, ISVGOptions) {#tosvg_2}
 
-Преобразует [`Presentation`](../../../aspose.slides/presentation) в SVG.
+Преобразует[`Presentation`](../../../aspose.slides/presentation)в SVG.
 
 ```csharp
 public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath, ISVGOptions options)
@@ -135,9 +134,9 @@ public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath, ISVGO
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Входная презентация |
-| getOutPath | GetOutPathCallback | Коллбэк, который возвращает путь выхода SVG для каждого слайда в презентации |
-| options | ISVGOptions | Опции экспорта в SVG |
+| pres | Presentation | Входное представление |
+| getOutPath | GetOutPathCallback | Обратный вызов, который возвращает SVG выходной путь для каждого слайда в презентации |
+| options | ISVGOptions | Параметры экспорта SVG |
 
 ### Примеры
 
@@ -148,12 +147,12 @@ using (Presentation pres = new Presentation("input.pptx"))
 } 
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Presentation](../../../aspose.slides/presentation)
-* делегат [GetOutPathCallback](../../convert.getoutpathcallback)
-* интерфейс [ISVGOptions](../../../aspose.slides.export/isvgoptions)
-* класс [Convert](../../convert)
+* class [Presentation](../../../aspose.slides/presentation)
+* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
+* interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
+* class [Convert](../../convert)
 * пространство имен [Aspose.Slides.LowCode](../../convert)
 * сборка [Aspose.Slides](../../../)
 

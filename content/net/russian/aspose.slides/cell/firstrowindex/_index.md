@@ -1,23 +1,22 @@
 ---
 title: FirstRowIndex
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает индекс первой строки, охваченной ячейкой. Только для чтения Int32.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает индекс первой строки охватываемой ячейкой. Только для чтенияInt32.
 type: docs
 weight: 70
 url: /ru/aspose.slides/cell/firstrowindex/
 ---
+## Cell.FirstRowIndex property
 
-## Свойство Cell.FirstRowIndex
-
-Возвращает индекс первой строки, охваченной ячейкой. Только для чтения Int32.
+Возвращает индекс первой строки, охватываемой ячейкой. Только для чтенияInt32.
 
 ```csharp
 public int FirstRowIndex { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [Cell](../../cell)
+* class [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)
 * сборка [Aspose.Slides](../../../)
 

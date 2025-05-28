@@ -1,13 +1,12 @@
 ---
 title: ReplaceFont
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Заменить шрифт в презентации
 type: docs
-weight: 100
+weight: 70
 url: /ru/aspose.slides/fontsmanager/replacefont/
 ---
-
-## ReplaceFont(IFontData, IFontData) {#replacefont}
+## ReplaceFont(IFontData, IFontData) {#replacefont}
 
 Заменить шрифт в презентации
 
@@ -20,10 +19,10 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 | sourceFont | IFontData | Исходный шрифт |
 | destFont | IFontData | Целевой шрифт |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontData](../../ifontdata)
-* класс [FontsManager](../../fontsmanager)
+* interface [IFontData](../../ifontdata)
+* class [FontsManager](../../fontsmanager)
 * пространство имен [Aspose.Slides](../../fontsmanager)
 * сборка [Aspose.Slides](../../../)
 
@@ -31,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-Заменить шрифт в презентации, используя информацию, предоставленную в [`FontSubstRule`](../../fontsubstrule)
+Заменить шрифт в презентации, используя информацию, предоставленную в[`FontSubstRule`](../../fontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -41,10 +40,10 @@ public void ReplaceFont(IFontSubstRule substRule)
 | --- | --- | --- |
 | substRule | IFontSubstRule | Информация о замене шрифта |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontSubstRule](../../ifontsubstrule)
-* класс [FontsManager](../../fontsmanager)
+* interface [IFontSubstRule](../../ifontsubstrule)
+* class [FontsManager](../../fontsmanager)
 * пространство имен [Aspose.Slides](../../fontsmanager)
 * сборка [Aspose.Slides](../../../)
 
@@ -52,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-Заменить шрифт в презентации, используя информацию, предоставленную в коллекции [`FontSubstRule`](../../fontsubstrule)
+Заменить шрифт в презентации, используя информацию из коллекции[`FontSubstRule`](../../fontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -60,12 +59,12 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| substRules | IFontSubstRuleCollection | Коллекция правил замены шрифтов |
+| substRules | IFontSubstRuleCollection | Коллекция правил подстановки шрифтов |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IFontSubstRuleCollection](../../ifontsubstrulecollection)
-* класс [FontsManager](../../fontsmanager)
+* interface [IFontSubstRuleCollection](../../ifontsubstrulecollection)
+* class [FontsManager](../../fontsmanager)
 * пространство имен [Aspose.Slides](../../fontsmanager)
 * сборка [Aspose.Slides](../../../)
 

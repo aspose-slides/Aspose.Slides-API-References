@@ -1,33 +1,31 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Slides для .NET Справочник по API
-description: Математический абзац, который является контейнером для математических блоков IMathBlock
+second_title: Справочник по API Aspose.Slides для .NET
+description: Математический абзац являющийся контейнером для математических блоков IMathBlock
 type: docs
-weight: 8140
+weight: 7680
 url: /ru/aspose.slides.mathtext/imathparagraph/
 ---
+## IMathParagraph interface
 
-## Интерфейс IMathParagraph
-
-Математический абзац, который является контейнером для математических блоков (IMathBlock)
+Математический абзац, являющийся контейнером для математических блоков (IMathBlock)
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Позволяет получить базовый интерфейс IMathBlockCollection [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Выравнивание абзаца Значение по умолчанию: CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Обоснование абзаца Значение по умолчанию:CenteredAsGroup |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Получает математическое уравнение в формате LaTeX |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Сохраняет содержимое этого [`IMathParagraph`](../imathparagraph) как MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Сохраняет содержимое этого[`IMathParagraph`](../imathparagraph)как MathML |
 
 ### Примеры
 
@@ -40,9 +38,9 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMathBlockCollection](../imathblockcollection)
+* interface [IMathBlockCollection](../imathblockcollection)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

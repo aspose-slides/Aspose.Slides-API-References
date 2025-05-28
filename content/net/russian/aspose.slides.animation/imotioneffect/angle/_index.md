@@ -1,23 +1,22 @@
 ---
-title: Угол
+title: Angle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает относительный угол движения. Читаемое/записываемое значение типа Single.
+description: Описывает относительный угол траектории движения. Чтение/записьSingle.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/imotioneffect/angle/
 ---
+## IMotionEffect.Angle property
 
-## Свойство IMotionEffect.Angle
-
-Описывает относительный угол пути движения. Читаемое/записываемое значение типа Single.
+Описывает относительный угол траектории движения. Чтение/записьSingle.
 
 ```csharp
 public float Angle { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IMotionEffect](../../imotioneffect)
+* interface [IMotionEffect](../../imotioneffect)
 * пространство имен [Aspose.Slides.Animation](../../imotioneffect)
 * сборка [Aspose.Slides](../../../)
 

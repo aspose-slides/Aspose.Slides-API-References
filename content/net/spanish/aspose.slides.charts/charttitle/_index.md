@@ -1,13 +1,12 @@
 ---
 title: ChartTitle
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa las propiedades del título del gráfico.
 type: docs
-weight: 1410
+weight: 1350
 url: /es/aspose.slides.charts/charttitle/
 ---
-
-## Clase ChartTitle
+## ChartTitle class
 
 Representa las propiedades del título del gráfico.
 
@@ -19,28 +18,28 @@ public class ChartTitle : IChartTitle
 
 | Nombre | Descripción |
 | --- | --- |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Inferior. Solo lectura Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Devuelve el gráfico padre. Solo lectura [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Devuelve el estilo de relleno, línea y efecto de un título. Solo lectura [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Devuelve o establece la altura de un título como una fracción de la altura del gráfico. Lectura/escritura Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Determina si se permite que otros elementos del gráfico se superpongan al título. Lectura/escritura Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Derecho. Solo lectura Single. |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Devuelve el formato de texto. Solo lectura [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Puede contener un texto con formato enriquecido. Si esta propiedad no es nula, entonces este valor de texto formateado reemplaza el texto autogenerado. El texto autogenerado es una propiedad implícita de la etiqueta de datos, la etiqueta de unidad de visualización del eje de valores, el título del eje, el título del gráfico, la etiqueta de la línea de tendencia. El texto autogenerado se formatea con la propiedad IFormattedTextContainer.TextFormat. Solo lectura [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Devuelve o establece el ancho de un título como una fracción del ancho del gráfico. Lectura/escritura Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Devuelve o establece la coordenada x de un título como una fracción del ancho del gráfico. Lectura/escritura Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Devuelve o establece la coordenada y de un título como una fracción de la altura del gráfico. Lectura/escritura Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Inferior. Solo lecturaSingle . |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Devuelve el gráfico principal. Solo lectura[`IChart`](../ichart) . |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Devuelve los estilos de relleno, línea y efecto de un título. Solo lectura[`IFormat`](../iformat) . |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Devuelve o establece la altura de un título como una fracción de la altura del gráfico. Lectura/escrituraSingle . |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Determina si se permitirá que otros elementos del gráfico se superpongan al título. Lectura/escrituraBoolean . |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Derecha. Solo lecturaSingle . |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Devuelve formato de texto. Solo lectura[`IChartTextFormat`](../icharttextformat) . |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Puede contener un texto con formato enriquecido. Si esta propiedad no es nula, este valor de texto con formato anula el texto generado automáticamente. El texto generado automáticamente es una propiedad implícita de la etiqueta de datos, la etiqueta de unidad de visualización del eje de valores, el título del eje, el título del gráfico, la etiqueta de la línea de tendencia. El texto generado automáticamente se formatea con la propiedad IFormattedTextContainer.TextFormat. Solo lectura[`ITextFrame`](../../aspose.slides/itextframe) . |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Devuelve o establece el ancho de un título como una fracción del ancho del gráfico. Lectura/escrituraSingle . |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Devuelve o establece la coordenada x de un título como una fracción del ancho del gráfico. Lectura/escrituraSingle . |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Devuelve o establece la coordenada y de un título como una fracción de la altura del gráfico. Lectura/escrituraSingle . |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Inicializa TextFrameForOverriding con el texto en el parámetro "text". Si TextFrameForOverriding ya está inicializado, simplemente cambia su texto. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Inicialice TextFrameForOverriding con el texto en el parámetro "text". Si TextFrameForOverriding ya está inicializado, simplemente cambia su texto. |
 
-### Véase también
+### Ver también
 
-* interfaz [IChartTitle](../icharttitle)
+* interface [IChartTitle](../icharttitle)
 * espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
-* ensamblado [Aspose.Slides](../../)
+* asamblea [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

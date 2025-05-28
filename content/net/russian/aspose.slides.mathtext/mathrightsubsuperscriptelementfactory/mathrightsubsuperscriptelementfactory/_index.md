@@ -1,13 +1,12 @@
 ---
 title: MathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/mathrightsubsuperscriptelementfactory/
 ---
-
-## Конструктор MathRightSubSuperscriptElementFactory
+## MathRightSubSuperscriptElementFactory constructor
 
 Конструктор по умолчанию.
 
@@ -17,7 +16,7 @@ public MathRightSubSuperscriptElementFactory()
 
 ### Смотрите также
 
-* класс [MathRightSubSuperscriptElementFactory](../../mathrightsubsuperscriptelementfactory)
+* class [MathRightSubSuperscriptElementFactory](../../mathrightsubsuperscriptelementfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathrightsubsuperscriptelementfactory)
 * сборка [Aspose.Slides](../../../)
 

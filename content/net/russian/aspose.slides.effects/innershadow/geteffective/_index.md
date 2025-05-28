@@ -1,15 +1,14 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes для .NET API Справочник
-description: Получает эффективные данные эффекта Внутренней Тени с примененным наследованием.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает эффективные данные эффекта внутренней тени с применением наследования.
 type: docs
 weight: 60
 url: /ru/aspose.slides.effects/innershadow/geteffective/
 ---
+## InnerShadow.GetEffective method
 
-## InnerShadow.GetEffective метод
-
-Получает эффективные данные эффекта Внутренней Тени с примененным наследованием.
+Получает эффективные данные эффекта внутренней тени с применением наследования.
 
 ```csharp
 public IInnerShadowEffectiveData GetEffective()
@@ -17,12 +16,12 @@ public IInnerShadowEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`IInnerShadowEffectiveData`](../../iinnershadoweffectivedata).
+A[`IInnerShadowEffectiveData`](../../iinnershadoweffectivedata).
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)
-* класс [InnerShadow](../../innershadow)
+* interface [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)
+* class [InnerShadow](../../innershadow)
 * пространство имен [Aspose.Slides.Effects](../../innershadow)
 * сборка [Aspose.Slides](../../../)
 

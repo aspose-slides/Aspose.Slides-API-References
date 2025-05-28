@@ -1,15 +1,14 @@
 ---
 title: ActualX
-second_title: Aspose.Sildes для .NET API Reference
-description: Указывает фактическое положение x слева от элемента диаграммы по отношению к левому верхнему углу диаграммы. Вызовите метод IChart.ValidateChartLayout перед получением фактических значений. Читайте Single.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Задает фактическое положение x слева элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout перед тем как получить фактические значения. ЧитатьSingle.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/datalabel/actualx/
 ---
+## DataLabel.ActualX property
 
-## Свойство DataLabel.ActualX
-
-Указывает фактическое положение x (слева) элемента диаграммы по отношению к левому верхнему углу диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single.
+Задает фактическое положение x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle.
 
 ```csharp
 public float ActualX { get; }
@@ -17,7 +16,7 @@ public float ActualX { get; }
 
 ### Смотрите также
 
-* класс [DataLabel](../../datalabel)
+* class [DataLabel](../../datalabel)
 * пространство имен [Aspose.Slides.Charts](../../datalabel)
 * сборка [Aspose.Slides](../../../)
 

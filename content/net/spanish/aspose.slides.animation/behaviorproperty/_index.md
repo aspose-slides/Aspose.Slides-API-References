@@ -1,15 +1,14 @@
 ---
 title: BehaviorProperty
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa los tipos de propiedad para el comportamiento de animación. Sigue la lista de propiedades de https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx y https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Representa tipos de propiedades para el comportamiento de la animación. Sigue la lista de propiedades de https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx y https//msdn.microsoft. com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
-weight: 110
+weight: 90
 url: /es/aspose.slides.animation/behaviorproperty/
 ---
+## BehaviorProperty class
 
-## Clase BehaviorProperty
-
-Representa los tipos de propiedad para el comportamiento de animación. Sigue la lista de propiedades de https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx y https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+Representa tipos de propiedades para el comportamiento de la animación. Sigue la lista de propiedades de https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx y https://msdn.microsoft. com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public class BehaviorProperty : IBehaviorProperty
@@ -20,10 +19,10 @@ public class BehaviorProperty : IBehaviorProperty
 | Nombre | Descripción |
 | --- | --- |
 | static [ExtrusionAutoRotationCenter](../../aspose.slides.animation/behaviorproperty/extrusionautorotationcenter) { get; } | Representa la propiedad 'extrusion.autorotationcenter' |
-| static [ExtrusionBackDepth](../../aspose.slides.animation/behaviorproperty/extrusionbackdepth) { get; } | Representa la propiedad 'extrusion.backdepth' |
+| static [ExtrusionBackDepth](../../aspose.slides.animation/behaviorproperty/extrusionbackdepth) { get; } | Representa la propiedad 'extrusion.back depth' |
 | static [ExtrusionColor](../../aspose.slides.animation/behaviorproperty/extrusioncolor) { get; } | Representa la propiedad 'extrusion.color' |
 | static [ExtrusionColorMode](../../aspose.slides.animation/behaviorproperty/extrusioncolormode) { get; } | Representa la propiedad 'extrusion.colormode' |
-| static [ExtrusionForeDepth](../../aspose.slides.animation/behaviorproperty/extrusionforedepth) { get; } | Representa la propiedad 'extrusion.foredepth' |
+| static [ExtrusionForeDepth](../../aspose.slides.animation/behaviorproperty/extrusionforedepth) { get; } | Representa la propiedad 'extrusión.profundidad anterior' |
 | static [ExtrusionLockRotationCenter](../../aspose.slides.animation/behaviorproperty/extrusionlockrotationcenter) { get; } | Representa la propiedad 'extrusion.lockrotationcenter' |
 | static [ExtrusionOn](../../aspose.slides.animation/behaviorproperty/extrusionon) { get; } | Representa la propiedad 'extrusion.on' |
 | static [ExtrusionOrientationAngle](../../aspose.slides.animation/behaviorproperty/extrusionorientationangle) { get; } | Representa la propiedad 'extrusion.orientationangle' |
@@ -46,7 +45,7 @@ public class BehaviorProperty : IBehaviorProperty
 | static [ExtrusionViewPointY](../../aspose.slides.animation/behaviorproperty/extrusionviewpointy) { get; } | Representa la propiedad 'extrusion.viewpoint.y' |
 | static [ExtrusionViewPointZ](../../aspose.slides.animation/behaviorproperty/extrusionviewpointz) { get; } | Representa la propiedad 'extrusion.viewpoint.z' |
 | static [FillAngle](../../aspose.slides.animation/behaviorproperty/fillangle) { get; } | Representa la propiedad 'fill.angle' |
-| static [FillColor](../../aspose.slides.animation/behaviorproperty/fillcolor) { get; } | Representa la propiedad 'fillcolor' |
+| static [FillColor](../../aspose.slides.animation/behaviorproperty/fillcolor) { get; } | Representa la propiedad 'color de relleno' |
 | static [FillColor2](../../aspose.slides.animation/behaviorproperty/fillcolor2) { get; } | Representa la propiedad 'fill.color2' |
 | static [FillFocus](../../aspose.slides.animation/behaviorproperty/fillfocus) { get; } | Representa la propiedad 'fill.focus' |
 | static [FillFocusPositionX](../../aspose.slides.animation/behaviorproperty/fillfocuspositionx) { get; } | Representa la propiedad 'fill.focusposition.x' |
@@ -59,7 +58,7 @@ public class BehaviorProperty : IBehaviorProperty
 | static [FillOpacity2](../../aspose.slides.animation/behaviorproperty/fillopacity2) { get; } | Representa la propiedad 'fill.opacity2' |
 | static [FillType](../../aspose.slides.animation/behaviorproperty/filltype) { get; } | Representa la propiedad 'fill.type' |
 | static [Fill_Color](../../aspose.slides.animation/behaviorproperty/fill_color) { get; } | Representa la propiedad 'fill.color' |
-| static [Image](../../aspose.slides.animation/behaviorproperty/image) { get; } | Representa la propiedad 'image' |
+| static [Image](../../aspose.slides.animation/behaviorproperty/image) { get; } | Representa la propiedad 'imagen' |
 | static [ImageDataBlacklevel](../../aspose.slides.animation/behaviorproperty/imagedatablacklevel) { get; } | Representa la propiedad 'imageData.blacklevel' |
 | static [ImageDataChromakey](../../aspose.slides.animation/behaviorproperty/imagedatachromakey) { get; } | Representa la propiedad 'imageData.chromakey' |
 | static [ImageDataCropBottom](../../aspose.slides.animation/behaviorproperty/imagedatacropbottom) { get; } | Representa la propiedad 'imageData.cropBottom' |
@@ -79,7 +78,7 @@ public class BehaviorProperty : IBehaviorProperty
 | static [ScaleX](../../aspose.slides.animation/behaviorproperty/scalex) { get; } | Representa la propiedad 'ScaleX' |
 | static [ScaleY](../../aspose.slides.animation/behaviorproperty/scaley) { get; } | Representa la propiedad 'ScaleY' |
 | static [ShadowColor](../../aspose.slides.animation/behaviorproperty/shadowcolor) { get; } | Representa la propiedad 'shadow.color' |
-| static [ShadowColor2](../../aspose.slides.animation/behaviorproperty/shadowcolor2) { get; } | Representa la propiedad 'shadow.color2' |
+| static [ShadowColor2](../../aspose.slides.animation/behaviorproperty/shadowcolor2) { get; } | Representa la propiedad 'sombra.color2' |
 | static [ShadowMatrixPerspectiveX](../../aspose.slides.animation/behaviorproperty/shadowmatrixperspectivex) { get; } | Representa la propiedad 'shadow.matrix.perspectiveX' |
 | static [ShadowMatrixPerspectiveY](../../aspose.slides.animation/behaviorproperty/shadowmatrixperspectivey) { get; } | Representa la propiedad 'shadow.matrix.perspectiveY' |
 | static [ShadowMatrixXtoX](../../aspose.slides.animation/behaviorproperty/shadowmatrixxtox) { get; } | Representa la propiedad 'shadow.matrix.xtox' |
@@ -96,7 +95,7 @@ public class BehaviorProperty : IBehaviorProperty
 | static [ShadowOriginY](../../aspose.slides.animation/behaviorproperty/shadoworiginy) { get; } | Representa la propiedad 'shadow.origin.y' |
 | static [ShadowType](../../aspose.slides.animation/behaviorproperty/shadowtype) { get; } | Representa la propiedad 'shadow.type' |
 | static [SkewMatrixPerspectiveX](../../aspose.slides.animation/behaviorproperty/skewmatrixperspectivex) { get; } | Representa la propiedad 'skew.matrix.perspectiveX' |
-| static [SkewMatrixPerspectiveY](../../aspose.slides.animation/behaviorproperty/skewmatrixperspectivey) { get; } | Representa la propiedad 'skew.matrix.perspectiveY' |
+| static [SkewMatrixPerspectiveY](../../aspose.slides.animation/behaviorproperty/skewmatrixperspectivey) { get; } | Representa la propiedad 'sesgo.matriz.perspectivaY' |
 | static [SkewMatrixXtoX](../../aspose.slides.animation/behaviorproperty/skewmatrixxtox) { get; } | Representa la propiedad 'skew.matrix.xtox' |
 | static [SkewMatrixXtoY](../../aspose.slides.animation/behaviorproperty/skewmatrixxtoy) { get; } | Representa la propiedad 'skew.matrix.xtoy' |
 | static [SkewMatrixYtoX](../../aspose.slides.animation/behaviorproperty/skewmatrixytox) { get; } | Representa la propiedad 'skew.matrix.ytox' |
@@ -107,7 +106,7 @@ public class BehaviorProperty : IBehaviorProperty
 | static [SkewOriginX](../../aspose.slides.animation/behaviorproperty/skeworiginx) { get; } | Representa la propiedad 'skew.origin.x' |
 | static [SkewOriginY](../../aspose.slides.animation/behaviorproperty/skeworiginy) { get; } | Representa la propiedad 'skew.origin.y' |
 | static [StrokeColor](../../aspose.slides.animation/behaviorproperty/strokecolor) { get; } | Representa la propiedad 'stroke.color' |
-| static [StrokeColor2](../../aspose.slides.animation/behaviorproperty/strokecolor2) { get; } | Representa la propiedad 'stroke.color2' |
+| static [StrokeColor2](../../aspose.slides.animation/behaviorproperty/strokecolor2) { get; } | Representa la propiedad 'trazo.color2' |
 | static [StrokeDashStyle](../../aspose.slides.animation/behaviorproperty/strokedashstyle) { get; } | Representa la propiedad 'stroke.dashstyle' |
 | static [StrokeEndArrow](../../aspose.slides.animation/behaviorproperty/strokeendarrow) { get; } | Representa la propiedad 'stroke.endArrow' |
 | static [StrokeEndArrowLength](../../aspose.slides.animation/behaviorproperty/strokeendarrowlength) { get; } | Representa la propiedad 'stroke.endArrowLength' |
@@ -123,10 +122,10 @@ public class BehaviorProperty : IBehaviorProperty
 | static [StrokeStartArrowLength](../../aspose.slides.animation/behaviorproperty/strokestartarrowlength) { get; } | Representa la propiedad 'stroke.startArrowLength' |
 | static [StrokeStartArrowWidth](../../aspose.slides.animation/behaviorproperty/strokestartarrowwidth) { get; } | Representa la propiedad 'stroke.startArrowWidth' |
 | static [StrokeWeight](../../aspose.slides.animation/behaviorproperty/strokeweight) { get; } | Representa la propiedad 'stroke.weight' |
-| static [StyleColor](../../aspose.slides.animation/behaviorproperty/stylecolor) { get; } | Representa la propiedad 'style.color' |
+| static [StyleColor](../../aspose.slides.animation/behaviorproperty/stylecolor) { get; } | Representa la propiedad 'estilo.color' |
 | static [StyleFontFamily](../../aspose.slides.animation/behaviorproperty/stylefontfamily) { get; } | Representa la propiedad 'style.fontFamily' |
 | static [StyleFontSize](../../aspose.slides.animation/behaviorproperty/stylefontsize) { get; } | Representa la propiedad 'style.fontSize' |
-| static [StyleFontStyle](../../aspose.slides.animation/behaviorproperty/stylefontstyle) { get; } | Representa la propiedad 'style.fontStyle' |
+| static [StyleFontStyle](../../aspose.slides.animation/behaviorproperty/stylefontstyle) { get; } | Representa la propiedad 'estilo.fontStyle' |
 | static [StyleFontWeight](../../aspose.slides.animation/behaviorproperty/stylefontweight) { get; } | Representa la propiedad 'style.fontWeight' |
 | static [StyleOpacity](../../aspose.slides.animation/behaviorproperty/styleopacity) { get; } | Representa la propiedad 'style.opacity' |
 | static [StyleRotation](../../aspose.slides.animation/behaviorproperty/stylerotation) { get; } | Representa la propiedad 'style.rotation' |
@@ -137,24 +136,24 @@ public class BehaviorProperty : IBehaviorProperty
 | static [StyleTextEffectOutline](../../aspose.slides.animation/behaviorproperty/styletexteffectoutline) { get; } | Representa la propiedad 'style.textEffectOutline' |
 | static [StyleTextShadow](../../aspose.slides.animation/behaviorproperty/styletextshadow) { get; } | Representa la propiedad 'style.textShadow' |
 | static [StyleTextTransform](../../aspose.slides.animation/behaviorproperty/styletexttransform) { get; } | Representa la propiedad 'style.textTransform' |
-| static [StyleVisibility](../../aspose.slides.animation/behaviorproperty/stylevisibility) { get; } | Representa la propiedad 'style.visibility' |
+| static [StyleVisibility](../../aspose.slides.animation/behaviorproperty/stylevisibility) { get; } | Representa la propiedad 'estilo.visibilidad' |
 | static [XShear](../../aspose.slides.animation/behaviorproperty/xshear) { get; } | Representa la propiedad 'xshear' |
 | static [YShear](../../aspose.slides.animation/behaviorproperty/yshear) { get; } | Representa la propiedad 'yshear' |
-| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | Indica si esta propiedad no pertenece a la lista de propiedades predefinidas en la especificación: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | Muestra si esta propiedad no pertenece a la lista de propiedades predefinidas en la especificación: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/behaviorproperty/value) { get; } | Valor de la propiedad |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | Busca propiedad de comportamiento existente por valor o crea una nueva personalizada con el valor especificado |
+| static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | Busca la propiedad de comportamiento existente por valor o crea una nueva personalizada con el valor especificado |
 | override [Equals](../../aspose.slides.animation/behaviorproperty/equals)(object) | Comprueba si este objeto es igual a otro. |
-| override [GetHashCode](../../aspose.slides.animation/behaviorproperty/gethashcode)() | Calcula y retorna el código hash basado en la propiedad [`Value`](./value) |
+| override [GetHashCode](../../aspose.slides.animation/behaviorproperty/gethashcode)() | Calcula y devuelve código hach basado en el[`Value`](./value) propiedad |
 
-### Véase También
+### Ver también
 
 * interface [IBehaviorProperty](../ibehaviorproperty)
-* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
+* asamblea [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

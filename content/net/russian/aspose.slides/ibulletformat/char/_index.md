@@ -1,15 +1,14 @@
 ---
-title: Символ
+title: Char
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает символ маркера абзаца без наследования. Чтение/запись Char.
+description: Возвращает или устанавливает маркер абзаца без наследования. Чтение/записьChar.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ibulletformat/char/
 ---
+## IBulletFormat.Char property
 
-## Свойство IBulletFormat.Char
-
-Возвращает или устанавливает символ маркера абзаца без наследования. Чтение/запись Char.
+Возвращает или устанавливает маркер абзаца без наследования. Чтение/записьChar.
 
 ```csharp
 public char Char { get; set; }
@@ -17,7 +16,7 @@ public char Char { get; set; }
 
 ### Смотрите также
 
-* интерфейс [IBulletFormat](../../ibulletformat)
+* interface [IBulletFormat](../../ibulletformat)
 * пространство имен [Aspose.Slides](../../ibulletformat)
 * сборка [Aspose.Slides](../../../)
 

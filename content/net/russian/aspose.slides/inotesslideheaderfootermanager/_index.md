@@ -1,29 +1,28 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет менеджера, который управляет поведением заполнителей слайдов для заметок, включая заголовок.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет менеджер который определяет поведение заполнителей слайдов заметок включая заполнитель заголовка.
 type: docs
-weight: 6310
+weight: 5950
 url: /ru/aspose.slides/inotesslideheaderfootermanager/
 ---
+## INotesSlideHeaderFooterManager interface
 
-## Интерфейс INotesSlideHeaderFooterManager
-
-Представляет менеджера, который управляет поведением заполнителей слайдов для заметок, включая заголовок.
+Представляет менеджер, который определяет поведение заполнителей слайдов заметок, включая заполнитель заголовка.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Возвращает интерфейс IBaseHandoutNotesSlideHeaderFooterManag. |
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

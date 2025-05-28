@@ -1,15 +1,14 @@
 ---
 title: IMathDelimiter
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie l'objet délimiteur composé de caractères d'ouverture et de fermeture tels que des parenthèses, des accolades, des crochets et des barres verticales, et un ou plusieurs éléments mathématiques à l'intérieur, séparés par un caractère spécifié. Exemples 2 2x7C2
+description: Spécifie lobjet délimiteur composé de caractères douverture et de fermeture tels que des parenthèses accolades crochets et barres verticales et un ou plusieurs éléments mathématiques à lintérieur séparés par un caractère spécifié. Exemples  2  2x7C2
 type: docs
-weight: 7960
+weight: 7530
 url: /fr/aspose.slides.mathtext/imathdelimiter/
 ---
+## IMathDelimiter interface
 
-## Interface IMathDelimiter
-
-Spécifie l'objet délimiteur, composé de caractères d'ouverture et de fermeture (tels que des parenthèses, des accolades, des crochets et des barres verticales), et un ou plusieurs éléments mathématiques à l'intérieur, séparés par un caractère spécifié. Exemples : (𝑥2); [𝑥2&#x7C;𝑦2]
+Spécifie l'objet délimiteur, composé de caractères d'ouverture et de fermeture (tels que des parenthèses, accolades, crochets et barres verticales) et un ou plusieurs éléments mathématiques à l'intérieur, séparés par un caractère spécifié. Exemples : (𝑥2) ; [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -17,21 +16,21 @@ public interface IMathDelimiter : IMathElement
 
 ## Propriétés
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Un ou plusieurs éléments mathématiques séparés par des caractères délimiteurs |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Le caractère d'ouverture du délimiteur spécifie le caractère d'ouverture. Les délimiteurs mathématiques sont des caractères englobants tels que des parenthèses, des crochets et des accolades. La valeur par défaut : '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Spécifie la forme des délimiteurs dans l'objet délimiteur. Lorsqu'il est MathDelimiterShape.Centered, les délimiteurs sont centrés autour de l'axe mathématique du texte mathématique et peuvent être ajustés pour correspondre à la hauteur totale de leur contenu. Lorsqu'il est MathDelimiterShape.Match, leur hauteur et leur forme sont modifiées pour correspondre exactement à leur contenu. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Le caractère de fermeture du délimiteur spécifie le caractère de fermeture. Les délimiteurs mathématiques sont des caractères englobants tels que des parenthèses, des crochets et des accolades. La valeur par défaut : ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Spécifie la croissance de BeginningCharacter, SeparatorCharacter, EndingCharacter Lorsqu'il est vrai, les délimiteurs grandissent verticalement pour correspondre à la hauteur de leur opérande. La valeur par défaut est vraie |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Le caractère séparateur du délimiteur spécifie le caractère qui sépare les arguments dans l'objet délimiteur. La valeur par défaut : '&#x7C;'. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Permet d'obtenir l'interface IMathElement de base [`IMathElement`](../imathelement) |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Caractère de début du délimiteur spécifie le caractère délimiteur de début ou d'ouverture. Les délimiteurs mathématiques sont des caractères encadrants tels que des parenthèses, des crochets et des accolades. La valeur par défaut : '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Spécifie la forme des délimiteurs dans l'objet délimiteur. Quand est MathDelimiterShape.Centered, les délimiteurs sont centrés autour de l'axe mathématique du texte mathématique et doivent toujours s'adapter à toute la hauteur de leur contenu. Quand est MathDelimiterShape.Match, leur hauteur et leur forme sont modifiées pour correspondre exactement à leur contenu . |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Caractère de fin de délimiteur spécifie le caractère délimiteur de fin ou de fermeture. Les délimiteurs mathématiques sont des caractères encadrants tels que des parenthèses, des crochets et des accolades. La valeur par défaut : ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Spécifie la croissance de BeginningCharacter, SeparatorCharacter, EndingCharacter Lorsque vrai, les délimiteurs grandissent verticalement pour correspondre à sa hauteur d'opérande. La valeur par défaut est true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character spécifie le caractère qui sépare les arguments dans l'objet délimiteur. La valeur par défaut : '&#x7C;'. |
 
 ## Méthodes
 
-| Nom | Description |
+| Nom | La description |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Délimite les arguments en utilisant le caractère délimiteur spécifié |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Délimite les arguments à l'aide du caractère délimiteur spécifié |
 
 ### Exemples
 
@@ -43,10 +42,10 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-### Voir aussi
+### Voir également
 
 * interface [IMathElement](../imathelement)
-* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* Assemblée [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

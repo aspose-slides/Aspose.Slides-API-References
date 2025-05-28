@@ -1,15 +1,14 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет индекс конкретного элемента в IList.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет индекс конкретного элемента вIList.
 type: docs
 weight: 110
 url: /ru/aspose.slides/paragraphcollection/indexof/
 ---
+## ParagraphCollection.IndexOf method
 
-## Метод ParagraphCollection.IndexOf
-
-Определяет индекс конкретного элемента в IList.
+Определяет индекс конкретного элемента вIList.
 
 ```csharp
 public int IndexOf(IParagraph item)
@@ -17,16 +16,16 @@ public int IndexOf(IParagraph item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IParagraph | Объект для поиска в IList. |
+| item | IParagraph | Объект для размещения вIList. |
 
 ### Возвращаемое значение
 
-Индекс *item*, если он найден в списке; в противном случае, -1.
+Индекс*item*если он найден в списке; иначе -1.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IParagraph](../../iparagraph)
-* класс [ParagraphCollection](../../paragraphcollection)
+* interface [IParagraph](../../iparagraph)
+* class [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 

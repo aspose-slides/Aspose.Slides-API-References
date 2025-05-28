@@ -1,24 +1,23 @@
 ---
 title: BulletFillFormat
-second_title: Aspose.Slildes для .NET API Reference
-description: Возвращает объект FillFormat, содержащий свойства заполнения для маркера узла. Обратите внимание, что для определенных типов макетов SmartArt, которые не предоставляют маркеры для узлов, может возвращать null. Только для чтения IFillFormataspose.slides/ifillformat.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает объект FillFormat который содержит свойства форматирования заполнения для маркера узла. Примечание. Может возвращать значение null для определенных типов макетов SmartArt которые не содержат маркеры для узлов. Только для чтенияIFillFormataspose.slides/ifillformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.smartart/smartartnode/bulletfillformat/
 ---
+## SmartArtNode.BulletFillFormat property
 
-## Свойство SmartArtNode.BulletFillFormat
-
-Возвращает объект FillFormat, содержащий свойства заполнения для маркера узла. Примечание: может возвращать null для определенных типов макетов SmartArt, которые не предоставляют маркеры для узлов. Только для чтения [`IFillFormat`](../../../aspose.slides/ifillformat).
+Возвращает объект FillFormat, который содержит свойства форматирования заполнения для маркера узла. Примечание. Может возвращать значение null для определенных типов макетов SmartArt, которые не содержат маркеры для узлов. Только для чтения[`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat BulletFillFormat { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
-* интерфейс [IFillFormat](../../../aspose.slides/ifillformat)
-* класс [SmartArtNode](../../smartartnode)
+* interface [IFillFormat](../../../aspose.slides/ifillformat)
+* class [SmartArtNode](../../smartartnode)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartnode)
 * сборка [Aspose.Slides](../../../)
 

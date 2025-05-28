@@ -1,15 +1,14 @@
 ---
 title: LoadOptions
-second_title: Aspose.Sildes for .NET API Reference
-description: 允许在加载演示文稿时指定额外选项，例如格式或默认字体。
+second_title: Aspose.Slides for .NET API 参考
+description: 允许在加载演示文稿时指定其他选项例如格式或默认字体
 type: docs
-weight: 7600
+weight: 7140
 url: /zh/aspose.slides/loadoptions/
 ---
+## LoadOptions class
 
-## LoadOptions 类
-
-允许在加载演示文稿时指定额外选项（例如格式或默认字体）。
+允许在加载演示文稿时指定其他选项（例如格式或默认字体）。
 
 ```csharp
 public class LoadOptions : ILoadOptions
@@ -17,34 +16,32 @@ public class LoadOptions : ILoadOptions
 
 ## 构造函数
 
-| 名称 | 描述 |
+| 姓名 | 描述 |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | 创建新的默认加载选项。 |
 | [LoadOptions](loadoptions#constructor_1)(LoadFormat) | 创建新的加载选项。 |
 
-## 属性
+## 特性
 
-| 名称 | 描述 |
+| 姓名 | 描述 |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | 表示可用于管理二进制大型对象（BLOB）处理行为的选项，例如使用临时文件或最大内存中的 BLOB 字节。这些选项旨在为特定环境或需求设置最佳的性能/内存消耗比。二进制大型对象（BLOB）是作为单一实体存储的二进制数据 - 即 BLOB 可以是音频、视频或演示文稿本身。 |
-| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | 返回或设置在找不到源字体时使用的亚洲字体。可读写字符串。 |
-| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | 返回或设置在找不到源字体时使用的常规字体。可读写字符串。 |
-| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | 返回或设置在找不到源字体时使用的符号字体。可读写字符串。 |
-| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | 返回或设置演示文稿文本的默认语言。可读写字符串。 |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | 确定在加载演示文稿时，Aspose.Slides 是否将删除所有嵌入的二进制对象。 |
-| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | 指定演示文稿使用的外部字体来源。这些字体在演示文稿的整个生命周期内可用，并且不与其他演示文稿共享。 |
-| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | 用于监视中断请求的令牌。此令牌管理整个 [`IPresentation`](../ipresentation) 实例的生命周期。任何长时间运行的操作，例如加载或保存演示文稿，将通过调用 [`InterruptionTokenSource`](../interruptiontokensource) 的 [`Interrupt`](../interruptiontokensource/interrupt) 方法进行中断。 |
-| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | 返回或设置要加载的演示文稿格式。可读写 [`LoadFormat`](../loadformat)。 |
-| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | 如果演示文稿文件受密码保护，则该属性有意义。值为 true 表示仅应从加密的演示文稿文件中加载文档属性，且密码将被忽略。值为 false 表示必须使用正确的密码加载整个加密演示文稿。如果演示文稿没有加密，则属性值始终被忽略。如果加密文件的文档属性不是公开的且属性值为 true，则无法加载文档属性，并将抛出异常。可读写布尔值。 |
-| [Password](../../aspose.slides/loadoptions/password) { get; set; } | 获取或设置密码。可读写字符串。 |
-| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | 返回或设置管理外部资源加载的回调接口。可读写 [`IResourceLoadingCallback`](../iresourceloadingcallback)。 |
-| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | 获取电子表格的选项。例如，这些选项影响图表的公式计算。 |
-| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | 返回或设置接收警告并决定加载过程是否将继续或中止的对象。可读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | 表示可用于管理二进制大对象 (BLOB) 处理行为的选项， 例如使用临时文件或最大 BLOB 字节在记忆中。这些选项旨在为特定环境或要求设置 最佳性能/内存消耗比。  二进制大对象 (BLOB) 是存储为单个实体的二进制数据 - 即 BLOB 可以 是音频、视频或演示文稿本身. |
+| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | 返回或设置在找不到源字体时使用的亚洲字体。 读/写String。 |
+| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的常规字体。 读/写String。 |
+| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | 返回或设置在找不到源字体时使用的符号字体。 读/写String。 |
+| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | 指定演示文稿使用的外部字体的来源。 这些字体在演示文稿的整个生命周期内都可以使用，并且不与其他演示文稿共享 |
+| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | 监视中断请求的令牌。  此令牌管理整个[`IPresentation`](../ipresentation)实例生命周期。任何长时间运行的操作，例如加载 或保存演示文稿，都将通过调用[`Interrupt`](../interruptiontokensource/interrupt)方法中断 [`InterruptionTokenSource`](../interruptiontokensource)。 |
+| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | 返回或设置要加载的演示文稿的格式。 读/写[`LoadFormat`](../loadformat)。 |
+| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | 如果演示文件受密码保护，此属性是有意义的。 值为 true 意味着只有文档属性必须从加密的 演示文件中加载，并且必须忽略密码。 false 值意味着必须使用正确的 密码加载整个加密的演示文稿。 如果演示文稿未加密，则始终忽略属性值。 如果加密文件的文档属性不是公开的且属性值为 true，则 文档属性无法加载，将引发异常。 读/写Boolean。 |
+| [Password](../../aspose.slides/loadoptions/password) { get; set; } | 获取或设置密码。 读/写String。 |
+| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | 返回或设置管理外部资源加载的回调接口。 读/写[`IResourceLoadingCallback`](../iresourceloadingcallback)。 |
+| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | 获取电子表格的选项。例如，这些选项会影响图表的计算公式。 |
+| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | 返回或设置一个对象，该对象接收警告并决定加载 过程是继续还是中止。 读/写[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
-### 另请参见
+### 也可以看看
 
-* 接口 [ILoadOptions](../iloadoptions)
+* interface [ILoadOptions](../iloadoptions)
 * 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* 部件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

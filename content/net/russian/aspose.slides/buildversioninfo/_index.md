@@ -1,13 +1,12 @@
 ---
 title: BuildVersionInfo
-second_title: Справочная информация по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Содержит информацию о версии Aspose.Slides.
 type: docs
-weight: 980
+weight: 940
 url: /ru/aspose.slides/buildversioninfo/
 ---
-
-## Класс BuildVersionInfo
+## BuildVersionInfo class
 
 Содержит информацию о версии Aspose.Slides.
 
@@ -17,13 +16,13 @@ public static class BuildVersionInfo
 
 ## Поля
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Версия сборки Aspose.Slides. |
-| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | Версия файла сборки. |
-| const [Product](../../aspose.slides/buildversioninfo/product) | Название продукта Aspose.Slides |
-| const [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | Основной номер версии. |
-| const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Некоторый номер версии. |
+| static readonly [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Версия сборки Aspose.Slides. |
+| static readonly [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | Версия файла сборки. |
+| static readonly [Product](../../aspose.slides/buildversioninfo/product) | Название продукта Aspose.Slides |
+| static readonly [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | Основной номер версии. |
+| static readonly [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Дополнительный номер версии. |
 | static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | Дата выпуска сборки. |
 
 ### Смотрите также

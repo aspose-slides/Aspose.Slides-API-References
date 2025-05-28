@@ -3,11 +3,10 @@ title: IOverrideThemeManager
 second_title: Справочник по API Aspose.Slides для .NET
 description: Предоставляет доступ к различным типам переопределенных тем.
 type: docs
-weight: 11040
+weight: 10540
 url: /ru/aspose.slides.theme/ioverridethememanager/
 ---
-
-## Интерфейс IOverrideThemeManager
+## IOverrideThemeManager interface
 
 Предоставляет доступ к различным типам переопределенных тем.
 
@@ -15,17 +14,17 @@ url: /ru/aspose.slides.theme/ioverridethememanager/
 public interface IOverrideThemeManager : IThemeManager
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Позволяет получить базовый интерфейс IThemeManager. Только для чтения [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить переопределение OverrideTheme, используйте метод OverrideTheme.Clear(). Только для чтения Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Чтение/запись [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Позволяет получить базовый интерфейс IThemeManager. Только для чтения[`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную действующую тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только чтениеBoolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Возвращает основной объект темы. Чтение/запись[`IOverrideTheme`](../ioverridetheme). |
 
-### См. также
+### Смотрите также
 
-* интерфейс [IThemeManager](../ithememanager)
+* interface [IThemeManager](../ithememanager)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

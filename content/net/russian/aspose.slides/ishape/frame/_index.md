@@ -1,15 +1,14 @@
 ---
-title: Форма
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или устанавливает свойства рамок формы. Чтение/запись IShapeFrameaspose.slides/ishapeframe.
+title: Frame
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или задает свойства фрейма фигуры. Чтение/записьIShapeFrameaspose.slides/ishapeframe.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ishape/frame/
 ---
+## IShape.Frame property
 
-## Свойство IShape.Frame
-
-Возвращает или устанавливает свойства рамки формы. Чтение/запись [`IShapeFrame`](../../ishapeframe).
+Возвращает или задает свойства фрейма фигуры. Чтение/запись[`IShapeFrame`](../../ishapeframe).
 
 ```csharp
 public IShapeFrame Frame { get; set; }
@@ -17,12 +16,12 @@ public IShapeFrame Frame { get; set; }
 
 ### Примечания
 
-Значение каждого свойства возвращаемого экземпляра IShapeFrame не является не определенным (не NaN или NotDefined). Значение каждого свойства назначенного экземпляра IShapeFrame не должно быть не определенным (не должно быть NaN или NotDefined). Вы можете установить неопределенные значения для свойств экземпляра RawFrame.
+Значение каждого свойства возвращаемого экземпляра IShapeFrame не равно undefined ( не является NaN или NotDefined). Значение каждого свойства назначенного экземпляра IShapeFrame не должно быть неопределенным (не должно быть NaN или NotDefined). Вы можете установить неопределенные значения для свойств экземпляра RawFrame.
 
-### См. также
+### Смотрите также
 
-* интерфейс [IShapeFrame](../../ishapeframe)
-* интерфейс [IShape](../../ishape)
+* interface [IShapeFrame](../../ishapeframe)
+* interface [IShape](../../ishape)
 * пространство имен [Aspose.Slides](../../ishape)
 * сборка [Aspose.Slides](../../../)
 

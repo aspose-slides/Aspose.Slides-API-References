@@ -1,23 +1,22 @@
 ---
 title: MinimalHeight
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает минимальную высоту ячейки. Это сумма минимальных высот всех строк, покрываемых ячейкой. Только для чтения Double.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает минимальную высоту ячейки. Это сумма минимальных высот всех строк закрытых ячейкой. Только для чтенияDouble.
 type: docs
 weight: 140
 url: /ru/aspose.slides/cell/minimalheight/
 ---
+## Cell.MinimalHeight property
 
-## Свойство Cell.MinimalHeight
-
-Возвращает минимальную высоту ячейки. Это сумма минимальных высот всех строк, покрываемых ячейкой. Только для чтения Double.
+Возвращает минимальную высоту ячейки. Это сумма минимальных высот всех строк, закрытых ячейкой. Только для чтенияDouble.
 
 ```csharp
 public double MinimalHeight { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [Cell](../../cell)
+* class [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)
 * сборка [Aspose.Slides](../../../)
 

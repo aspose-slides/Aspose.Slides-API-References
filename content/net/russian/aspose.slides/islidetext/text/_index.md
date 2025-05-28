@@ -1,13 +1,12 @@
 ---
-title: Текст
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Текст на фигурах слайдов
+title: Text
+second_title: Справочник по API Aspose.Slides для .NET
+description: Текст на фигурах слайда
 type: docs
-weight: 50
+weight: 40
 url: /ru/aspose.slides/islidetext/text/
 ---
-
-## Свойство ISlideText.Text
+## ISlideText.Text property
 
 Текст на фигурах слайда
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides/islidetext/text/
 public string Text { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [ISlideText](../../islidetext)
+* interface [ISlideText](../../islidetext)
 * пространство имен [Aspose.Slides](../../islidetext)
 * сборка [Aspose.Slides](../../../)
 

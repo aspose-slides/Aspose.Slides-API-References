@@ -1,21 +1,20 @@
 ---
 title: ICustomXmlPartCollection
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет коллекцию пользовательских частей xml.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет набор пользовательских частей xml.
 type: docs
-weight: 5480
+weight: 5180
 url: /ru/aspose.slides/icustomxmlpartcollection/
 ---
+## ICustomXmlPartCollection interface
 
-## Интерфейс ICustomXmlPartCollection
-
-Представляет коллекцию пользовательских частей xml.
+Представляет набор пользовательских частей xml.
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 ```
 
-## Свойства
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
@@ -28,14 +27,14 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Добавляет новую пользовательскую часть xml. |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Добавляет новую пользовательскую часть xml. |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Добавляет новую пользовательскую часть xml. |
-| [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Удаляет все элементы из коллекции. |
+| [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Удаляет все предметы из коллекции. |
 | [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Удаляет первое вхождение определенного объекта из коллекции. |
 | [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Удаляет пользовательскую часть xml по указанному индексу. |
 
 ### Смотрите также
 
-* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* интерфейс [ICustomXmlPart](../icustomxmlpart)
+* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* interface [ICustomXmlPart](../icustomxmlpart)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

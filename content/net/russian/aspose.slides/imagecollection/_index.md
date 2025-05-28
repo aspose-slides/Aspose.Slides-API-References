@@ -1,13 +1,12 @@
 ---
 title: ImageCollection
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет коллекцию PPImage.
 type: docs
-weight: 7200
+weight: 6840
 url: /ru/aspose.slides/imagecollection/
 ---
-
-## Класс ImageCollection
+## ImageCollection class
 
 Представляет коллекцию PPImage.
 
@@ -15,34 +14,34 @@ url: /ru/aspose.slides/imagecollection/
 public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 ```
 
-## Свойства
+## Характеристики
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | Возвращает количество изображений в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | Возвращает количество изображений в коллекции. Только для чтенияInt32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Добавляет изображение в презентацию из указанного буфера. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Добавляет изображение в презентацию. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Добавляет копию изображения из другой презентации. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Добавляет изображение в презентацию из объекта Svg. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(MemoryStream) | Добавляет изображение в презентацию из потока. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream) | Добавляет изображение в презентацию из потока. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_7)(Stream, LoadingStreamBehavior) | Создает и добавляет изображение в презентацию из потока. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(byte[]) | Добавляет изображение в презентацию из указанного буфера. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(Image) | Добавить изображение в презентацию. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IPPImage) | Добавляет копию изображения из другой презентации. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(ISvgImage) | Добавить изображение в презентацию из объекта Svg. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Добавить изображение в презентацию из потока. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Добавить изображение в презентацию из потока. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Создает и добавляет изображение в презентацию из потока. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Возвращает перечислитель, который проходит через коллекцию. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
 ### Смотрите также
 
-* класс [DomObject&lt;TParent&gt;](../domobject-1)
-* класс [Presentation](../presentation)
-* интерфейс [IImageCollection](../iimagecollection)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
+* interface [IImageCollection](../iimagecollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

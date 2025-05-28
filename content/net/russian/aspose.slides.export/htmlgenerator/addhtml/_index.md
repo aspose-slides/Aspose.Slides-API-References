@@ -1,15 +1,14 @@
 ---
 title: AddHtml
-second_title: Ссылки на API Aspose.Slides для .NET
-description: Добавляет отформатированный HTML-текст.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет форматированный HTML-текст.
 type: docs
 weight: 80
 url: /ru/aspose.slides.export/htmlgenerator/addhtml/
 ---
-
 ## AddHtml(string) {#addhtml_2}
 
-Добавляет отформатированный HTML-текст.
+Добавляет форматированный HTML-текст.
 
 ```csharp
 public void AddHtml(string html)
@@ -19,9 +18,9 @@ public void AddHtml(string html)
 | --- | --- | --- |
 | html | String | Текст для добавления. |
 
-### См. также
+### Смотрите также
 
-* класс [HtmlGenerator](../../htmlgenerator)
+* class [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)
 * сборка [Aspose.Slides](../../../)
 
@@ -29,7 +28,7 @@ public void AddHtml(string html)
 
 ## AddHtml(char[]) {#addhtml}
 
-Добавляет отформатированный HTML-текст.
+Добавляет форматированный HTML-текст.
 
 ```csharp
 public void AddHtml(char[] html)
@@ -39,9 +38,9 @@ public void AddHtml(char[] html)
 | --- | --- | --- |
 | html | Char[] | Текст для добавления. |
 
-### См. также
+### Смотрите также
 
-* класс [HtmlGenerator](../../htmlgenerator)
+* class [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)
 * сборка [Aspose.Slides](../../../)
 
@@ -49,7 +48,7 @@ public void AddHtml(char[] html)
 
 ## AddHtml(char[], int, int) {#addhtml_1}
 
-Добавляет отформатированный HTML-текст.
+Добавляет форматированный HTML-текст.
 
 ```csharp
 public void AddHtml(char[] html, int startIndex, int length)
@@ -58,12 +57,12 @@ public void AddHtml(char[] html, int startIndex, int length)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | html | Char[] | Текст для добавления. |
-| startIndex | Int32 | Начальный индекс части для добавления. |
-| length | Int32 | Длина части для добавления. |
+| startIndex | Int32 | Начальный индекс добавляемой части. |
+| length | Int32 | Длина добавляемой части. |
 
-### См. также
+### Смотрите также
 
-* класс [HtmlGenerator](../../htmlgenerator)
+* class [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)
 * сборка [Aspose.Slides](../../../)
 

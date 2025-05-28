@@ -6,8 +6,7 @@ type: docs
 weight: 90
 url: /ru/aspose.slides/coloroperationcollection/copyto/
 ---
-
-## Метод ColorOperationCollection.CopyTo
+## ColorOperationCollection.CopyTo method
 
 Копирует все элементы из коллекции в указанный массив.
 
@@ -22,7 +21,7 @@ public void CopyTo(Array array, int index)
 
 ### Смотрите также
 
-* класс [ColorOperationCollection](../../coloroperationcollection)
+* class [ColorOperationCollection](../../coloroperationcollection)
 * пространство имен [Aspose.Slides](../../coloroperationcollection)
 * сборка [Aspose.Slides](../../../)
 

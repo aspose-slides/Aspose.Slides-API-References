@@ -1,13 +1,12 @@
 ---
 title: ExtrusionViewPointOriginX
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство extrusion.viewpointorigin.x
 type: docs
 weight: 220
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionviewpointoriginx/
 ---
-
-## Свойство BehaviorProperty.ExtrusionViewPointOriginX
+## BehaviorProperty.ExtrusionViewPointOriginX property
 
 Представляет свойство 'extrusion.viewpointorigin.x'
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionviewpointoriginx/
 public static BehaviorProperty ExtrusionViewPointOriginX { get; }
 ```
 
-### См. Также
+### Смотрите также
 
-* класс [BehaviorProperty](../../behaviorproperty)
+* class [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

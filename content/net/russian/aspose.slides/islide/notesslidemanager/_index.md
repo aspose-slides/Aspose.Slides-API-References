@@ -1,24 +1,23 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Slides для справки по .NET API
-description: Позволяет получить доступ к заметкам слайда, добавлять и удалять их. Только для чтения INotesSlideManager aspose.slides/inotesslidemanager.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Разрешить доступ к слайду заметок добавлять и удалять его. Только для чтенияINotesSlideManageraspose.slides/inotesslidemanager.
 type: docs
 weight: 60
 url: /ru/aspose.slides/islide/notesslidemanager/
 ---
+## ISlide.NotesSlideManager property
 
-## Свойство ISlide.NotesSlideManager
-
-Позволяет получить доступ к заметкам слайда, добавлять и удалять их. Только для чтения [`INotesSlideManager`](../../inotesslidemanager).
+Разрешить доступ к слайду заметок, добавлять и удалять его. Только для чтения[`INotesSlideManager`](../../inotesslidemanager).
 
 ```csharp
 public INotesSlideManager NotesSlideManager { get; }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [INotesSlideManager](../../inotesslidemanager)
-* интерфейс [ISlide](../../islide)
+* interface [INotesSlideManager](../../inotesslidemanager)
+* interface [ISlide](../../islide)
 * пространство имен [Aspose.Slides](../../islide)
 * сборка [Aspose.Slides](../../../)
 

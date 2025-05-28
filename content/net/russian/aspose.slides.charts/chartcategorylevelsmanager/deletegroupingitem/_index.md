@@ -1,23 +1,22 @@
 ---
 title: DeleteGroupingItem
-second_title: Справка по API Aspose.Slides для .NET
-description: Удалить групповой элемент для заданного уровня.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Удалить элемент группировки для определенного уровня.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem/
 ---
+## ChartCategoryLevelsManager.DeleteGroupingItem method
 
-## ChartCategoryLevelsManager.DeleteGroupingItem метод
-
-Удалить групповой элемент для заданного уровня.
+Удалить элемент группировки для определенного уровня.
 
 ```csharp
 public void DeleteGroupingItem(int level)
 ```
 
-### См. также
+### Смотрите также
 
-* класс [ChartCategoryLevelsManager](../../chartcategorylevelsmanager)
+* class [ChartCategoryLevelsManager](../../chartcategorylevelsmanager)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorylevelsmanager)
 * сборка [Aspose.Slides](../../../)
 

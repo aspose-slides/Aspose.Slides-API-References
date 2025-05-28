@@ -1,15 +1,14 @@
 ---
 title: GetCustomPropertyValue
-second_title: Справочник API Aspose.Slides для .NET
-description: Получает заданное булево значение из пользовательских свойств.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает именованное логическое значение из пользовательских свойств.
 type: docs
-weight: 400
+weight: 290
 url: /ru/aspose.slides/idocumentproperties/getcustompropertyvalue/
 ---
-
 ## GetCustomPropertyValue(string, out bool) {#getcustompropertyvalue}
 
-Получает заданное булево значение из пользовательских свойств.
+Получает именованное логическое значение из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out bool value)
@@ -17,12 +16,12 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для получения |
+| name | String | Имя получаемого пользовательского свойства |
 | value | Boolean& | Значение пользовательского свойства |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
+* interface [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 
@@ -30,7 +29,7 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 ## GetCustomPropertyValue(string, out int) {#getcustompropertyvalue_2}
 
-Получает заданное целое значение из пользовательских свойств.
+Получает именованное целочисленное значение из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out int value)
@@ -38,12 +37,12 @@ public void GetCustomPropertyValue(string name, out int value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для получения |
+| name | String | Имя получаемого пользовательского свойства |
 | value | Int32& | Значение пользовательского свойства |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
+* interface [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 
@@ -51,7 +50,7 @@ public void GetCustomPropertyValue(string name, out int value)
 
 ## GetCustomPropertyValue(string, out DateTime) {#getcustompropertyvalue_4}
 
-Получает заданное значение DateTime из пользовательских свойств.
+Получает именованное значение DateTime из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out DateTime value)
@@ -59,12 +58,12 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для получения |
+| name | String | Имя получаемого пользовательского свойства |
 | value | DateTime& | Значение пользовательского свойства |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
+* interface [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 
@@ -72,7 +71,7 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 
 ## GetCustomPropertyValue(string, out string) {#getcustompropertyvalue_5}
 
-Получает заданное строковое значение из пользовательских свойств.
+Получает именованное строковое значение из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out string value)
@@ -80,12 +79,12 @@ public void GetCustomPropertyValue(string name, out string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для получения |
+| name | String | Имя получаемого пользовательского свойства |
 | value | String& | Значение пользовательского свойства |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
+* interface [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 
@@ -93,7 +92,7 @@ public void GetCustomPropertyValue(string name, out string value)
 
 ## GetCustomPropertyValue(string, out float) {#getcustompropertyvalue_3}
 
-Получает заданное значение float из пользовательских свойств.
+Получает именованное значение с плавающей запятой из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out float value)
@@ -101,12 +100,12 @@ public void GetCustomPropertyValue(string name, out float value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для получения |
+| name | String | Имя получаемого пользовательского свойства |
 | value | Single& | Значение пользовательского свойства |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
+* interface [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 
@@ -114,7 +113,7 @@ public void GetCustomPropertyValue(string name, out float value)
 
 ## GetCustomPropertyValue(string, out double) {#getcustompropertyvalue_1}
 
-Получает заданное значение double из пользовательских свойств.
+Получает именованное двойное значение из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out double value)
@@ -122,12 +121,12 @@ public void GetCustomPropertyValue(string name, out double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для получения. |
+| name | String | Имя получаемого пользовательского свойства. |
 | value | Double& | Значение пользовательского свойства |
 
-### См. Также
+### Смотрите также
 
-* интерфейс [IDocumentProperties](../../idocumentproperties)
+* interface [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,15 +1,14 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает сведения о форматировании абзаца с применением наследования.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает эффективные данные форматирования абзаца с применением наследования.
 type: docs
 weight: 160
 url: /ru/aspose.slides/paragraphformat/geteffective/
 ---
+## ParagraphFormat.GetEffective method
 
-## Метод ParagraphFormat.GetEffective
-
-Получает сведения о формате абзаца с применением наследования.
+Получает эффективные данные форматирования абзаца с применением наследования.
 
 ```csharp
 public IParagraphFormatEffectiveData GetEffective()
@@ -17,11 +16,11 @@ public IParagraphFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-[`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
+A[`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение некоторых свойств эффективного формата абзаца.
+Этот пример демонстрирует получение некоторых эффективных свойств формата абзаца.
 
 ```csharp
 [C#]
@@ -30,16 +29,16 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	IAutoShape shape = pres.Slides[0].Shapes[0] as IAutoShape;
 	IParagraphFormatEffectiveData effectiveParagraphFormat = shape.TextFrame.Paragraphs[0].ParagraphFormat.GetEffective();
 
-	Console.WriteLine("Выравнивание текста: " + effectiveParagraphFormat.Alignment);
-	Console.WriteLine("Отступ: " + effectiveParagraphFormat.Indent);
-	Console.WriteLine("Тип маркера: " + effectiveParagraphFormat.Bullet.Type);
+	Console.WriteLine("Text alignment: " + effectiveParagraphFormat.Alignment);
+	Console.WriteLine("Indent: " + effectiveParagraphFormat.Indent);
+	Console.WriteLine("Bullet type: " + effectiveParagraphFormat.Bullet.Type);
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
-* класс [ParagraphFormat](../../paragraphformat)
+* interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
+* class [ParagraphFormat](../../paragraphformat)
 * пространство имен [Aspose.Slides](../../paragraphformat)
 * сборка [Aspose.Slides](../../../)
 

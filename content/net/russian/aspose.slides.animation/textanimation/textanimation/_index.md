@@ -1,13 +1,12 @@
 ---
 title: TextAnimation
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/textanimation/textanimation/
 ---
-
-## Конструктор TextAnimation
+## TextAnimation constructor
 
 Конструктор по умолчанию.
 
@@ -15,9 +14,9 @@ url: /ru/aspose.slides.animation/textanimation/textanimation/
 public TextAnimation()
 ```
 
-### См. также
+### Смотрите также
 
-* класс [TextAnimation](../../textanimation)
+* class [TextAnimation](../../textanimation)
 * пространство имен [Aspose.Slides.Animation](../../textanimation)
 * сборка [Aspose.Slides](../../../)
 

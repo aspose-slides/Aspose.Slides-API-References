@@ -1,15 +1,14 @@
 ---
-title: Равно
-second_title: Справочник API Aspose.Sildes для .NET
-description: Определяет, равны ли указанные GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata текущему GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata.
+title: Equals
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет равен ли указанныйGradientStopEffectiveDataaspose.slides/gradientstopeffectivedataтекущемуГрадиентСтопЭффективеДата.
 type: docs
 weight: 30
 url: /ru/aspose.slides/gradientstopeffectivedata/equals/
 ---
+## GradientStopEffectiveData.Equals method
 
-## Метод GradientStopEffectiveData.Equals
-
-Определяет, равен ли указанный [`GradientStopEffectiveData`](../../gradientstopeffectivedata) текущему [`GradientStopEffectiveData`](../../gradientstopeffectivedata).
+Определяет, равен ли указанный[`GradientStopEffectiveData`](../../gradientstopeffectivedata)текущемуГрадиентСтопЭффективеДата.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,15 +16,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`GradientStopEffectiveData`](../../gradientstopeffectivedata) для сравнения. |
+| obj | Object | [`GradientStopEffectiveData`](../../gradientstopeffectivedata)для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае - false.
+true, если объекты равны; в противном случае ложно.
 
-### См. также
+### Смотрите также
 
-* класс [GradientStopEffectiveData](../../gradientstopeffectivedata)
+* class [GradientStopEffectiveData](../../gradientstopeffectivedata)
 * пространство имен [Aspose.Slides](../../gradientstopeffectivedata)
 * сборка [Aspose.Slides](../../../)
 
