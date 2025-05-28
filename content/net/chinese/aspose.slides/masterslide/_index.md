@@ -1,60 +1,61 @@
 ---
-title: MasterSlide
+title: 主幻灯片
 second_title: Aspose.Slides for .NET API 参考
-description: 表示演示文稿中的母版幻灯片
+description: 表示演示文稿中的主幻灯片。
 type: docs
-weight: 7320
+weight: 7780
 url: /zh/aspose.slides/masterslide/
 ---
-## MasterSlide class
 
-表示演示文稿中的母版幻灯片。
+## MasterSlide 类
+
+表示演示文稿中的主幻灯片。
 
 ```csharp
 public class MasterSlide : BaseSlide, IMasterSlide
 ```
 
-## 特性
+## 属性
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | 返回幻灯片的背景。 只读[`IBackground`](../ibackground)。 |
-| [BodyStyle](../../aspose.slides/masterslide/bodystyle) { get; } | 返回正文的样式。 只读[`ITextStyle`](../itextstyle)。 |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | 返回幻灯片上 ActiveX 控件的集合。 只读[`IControlCollection`](../icontrolcollection)。 |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | 返回幻灯片的自定义数据。 只读[`ICustomData`](../icustomdata)。 |
-| [HasDependingSlides](../../aspose.slides/masterslide/hasdependingslides) { get; } | 如果存在至少一张依赖于该母版幻灯片的幻灯片，则返回 true。 只读Boolean。 |
-| [HeaderFooterManager](../../aspose.slides/masterslide/headerfootermanager) { get; } | 返回母版幻灯片的 HeaderFooter 管理器。 只读[`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager)。 |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 提供对包含的超链接的轻松访问。 只读[`IHyperlinkQueries`](../ihyperlinkqueries)。 |
-| [LayoutSlides](../../aspose.slides/masterslide/layoutslides) { get; } | 返回此母版幻灯片的子布局幻灯片的集合。 只读[`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection)。 |
-| override [Name](../../aspose.slides/masterslide/name) { get; set; } | 返回或设置母版幻灯片的名称。 读/写String。 |
-| [OtherStyle](../../aspose.slides/masterslide/otherstyle) { get; } | 返回其他文本的样式。 只读[`ITextStyle`](../itextstyle)。 |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | 返回 IPresentation 接口。 只读[`IPresentation`](../ipresentation)。 |
-| [Preserve](../../aspose.slides/masterslide/preserve) { get; set; } | 确定在删除该母版之后的所有幻灯片时是否删除相应母版。 注意:Aspose.Slides 永远不会自己删除任何未使用的主控，要实际删除未使用的主控调用[`RemoveUnused`](../masterslidecollection/removeunused) 读/写Boolean。 |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 返回幻灯片的形状。 只读[`IShapeCollection`](../ishapecollection)。 |
-| override [ShowMasterShapes](../../aspose.slides/masterslide/showmastershapes) { get; set; } | 指定母版幻灯片上的形状是否应显示在幻灯片上。 对于母版幻灯片本身，此属性始终返回` false` 。 读/写Boolean。 |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | 返回幻灯片的 ID。 只读UInt32。 |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 返回包含有关 指定幻灯片在幻灯片放映期间如何前进的信息的转换对象。 只读[`ISlideShowTransition`](../islideshowtransition)。 |
-| [ThemeManager](../../aspose.slides/masterslide/thememanager) { get; } | 返回主题管理器。 只读[`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager)。 |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | 返回动画时间线对象。 只读[`IAnimationTimeLine`](../ianimationtimeline)。 |
-| [TitleStyle](../../aspose.slides/masterslide/titlestyle) { get; } | 返回标题文本的样式。 只读[`ITextStyle`](../itextstyle)。 |
+| [Background](../../aspose.slides/baseslide/background) { get; } | 返回幻灯片的背景。只读 [`IBackground`](../ibackground)。 |
+| [BodyStyle](../../aspose.slides/masterslide/bodystyle) { get; } | 返回主体文本的样式。只读 [`ITextStyle`](../itextstyle)。 |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | 返回幻灯片上的 ActiveX 控件集合。只读 [`IControlCollection`](../icontrolcollection)。 |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | 返回幻灯片的自定义数据。只读 [`ICustomData`](../icustomdata)。 |
+| [HasDependingSlides](../../aspose.slides/masterslide/hasdependingslides) { get; } | 如果存在至少一个依赖于该主幻灯片的幻灯片，则返回 true。只读 Boolean。 |
+| [HeaderFooterManager](../../aspose.slides/masterslide/headerfootermanager) { get; } | 返回主幻灯片的页眉页脚管理器。只读 [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager)。 |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 提供对包含的超链接的便捷访问。只读 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
+| [LayoutSlides](../../aspose.slides/masterslide/layoutslides) { get; } | 返回该主幻灯片的子布局幻灯片集合。只读 [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection)。 |
+| override [Name](../../aspose.slides/masterslide/name) { get; set; } | 返回或设置主幻灯片的名称。可读写字符串。 |
+| [OtherStyle](../../aspose.slides/masterslide/otherstyle) { get; } | 返回其他文本的样式。只读 [`ITextStyle`](../itextstyle)。 |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | 返回 IPresentation 接口。只读 [`IPresentation`](../ipresentation)。 |
+| [Preserve](../../aspose.slides/masterslide/preserve) { get; set; } | 确定当所有依赖于该主幻灯片的幻灯片被删除时，是否删除相应的主幻灯片。注意：Aspose.Slides 不会自动删除任何未使用的主幻灯片，要实际删除未使用的主幻灯片，请调用 [`RemoveUnused`](../masterslidecollection/removeunused)。可读写 Boolean。 |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 返回幻灯片的形状。只读 [`IShapeCollection`](../ishapecollection)。 |
+| override [ShowMasterShapes](../../aspose.slides/masterslide/showmastershapes) { get; set; } | 指定主幻灯片上的形状是否应在幻灯片上显示。对于主幻灯片本身，此属性始终返回 `false`。可读写 Boolean。 |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | 返回幻灯片的 ID。只读 UInt32。 |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 返回包含有关指定幻灯片在幻灯片放映期间如何前进的信息的过渡对象。只读 [`ISlideShowTransition`](../islideshowtransition)。 |
+| [ThemeManager](../../aspose.slides/masterslide/thememanager) { get; } | 返回主题管理器。只读 [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager)。 |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | 返回动画时间线对象。只读 [`IAnimationTimeLine`](../ianimationtimeline)。 |
+| [TitleStyle](../../aspose.slides/masterslide/titlestyle) { get; } | 返回标题文本的样式。只读 [`ITextStyle`](../itextstyle)。 |
 
 ## 方法
 
-| 姓名 | 描述 |
+| 名称 | 描述 |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/masterslide/applyexternalthemetodependingslides)(string) | 基于当前幻灯片创建新的母版幻灯片，为其应用外部主题 并将创建的母版幻灯片应用于所有相关幻灯片。 |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | 返回此幻灯片的有效主题。 |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 确定两个 IBaseSlide 实例是否相等。 返回值是根据幻灯片的结构和静态内容计算的。 如果所有形状、样式、文本、动画和其他设置，两张幻灯片相等。等是平等的。比较不考虑唯一标识符值，例如 SlideId 和动态内容，例如日期占位符中的当前日期值。 |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 查找具有指定替代文本的形状的第一个匹配项。 |
-| [GetDependingSlides](../../aspose.slides/masterslide/getdependingslides)() | 返回一个包含所有幻灯片的数组，这些幻灯片取决于此母版幻灯片。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | 连接在所有段落中以相同格式运行，所有可接受的形状。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 在所有可接受的形状的所有段落中以相同的格式运行连接。 |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/masterslide/applyexternalthemetodependingslides)(string) | 创建一个基于当前的新的主幻灯片，将外部主题应用于它，并将创建的主幻灯片应用于所有依赖的幻灯片。 |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | 返回该幻灯片的有效主题。 |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 确定两个 IBaseSlide 实例是否相等。返回值基于幻灯片的结构和静态内容计算。如果所有形状、样式、文本、动画和其他设置等都相等，则两个幻灯片相等。比较不考虑唯一标识符值，例如 SlideId 和动态内容，例如日期占位符中的当前日期值。 |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 找到具有指定替代文本的形状的首次出现。 |
+| [GetDependingSlides](../../aspose.slides/masterslide/getdependingslides)() | 返回一个数组，包含所有依赖于该主幻灯片的幻灯片。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | 在所有可接受的形状的所有段落中连接具有相同格式的段落。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 在所有可接受的形状的所有段落中连接具有相同格式的段落。 |
 
-### 也可以看看
+### 请参见
 
-* class [BaseSlide](../baseslide)
-* interface [IMasterSlide](../imasterslide)
+* 类 [BaseSlide](../baseslide)
+* 接口 [IMasterSlide](../imasterslide)
 * 命名空间 [Aspose.Slides](../../aspose.slides)
-* 部件 [Aspose.Slides](../../)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

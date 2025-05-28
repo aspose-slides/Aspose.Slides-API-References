@@ -1,12 +1,13 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет ссылку на библиотеку типов OLE Automation.
 type: docs
-weight: 10880
+weight: 11380
 url: /ru/aspose.slides.vba/vbareferenceoletypelib/
 ---
-## VbaReferenceOleTypeLib class
+
+## Класс VbaReferenceOleTypeLib
 
 Представляет ссылку на библиотеку типов OLE Automation.
 
@@ -20,16 +21,16 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 | --- | --- |
 | [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | Этот конструктор создает новую ссылку на библиотеку типов OLE Automation. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Представляет идентификатор библиотеки типов автоматизации. Чтение/записьString. |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Представляет имя ссылки на проект VBA. Чтение/записьString. |
+| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Представляет идентификатор библиотеки типов Automation. Чтение/запись строка. |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Представляет имя ссылки на проект VBA. Чтение/запись строка. |
 
-### Смотрите также
+### См. также
 
-* interface [IVbaReferenceOleTypeLib](../ivbareferenceoletypelib)
+* интерфейс [IVbaReferenceOleTypeLib](../ivbareferenceoletypelib)
 * пространство имен [Aspose.Slides.Vba](../../aspose.slides.vba)
 * сборка [Aspose.Slides](../../)
 

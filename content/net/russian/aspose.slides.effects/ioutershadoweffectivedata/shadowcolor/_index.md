@@ -1,22 +1,23 @@
 ---
 title: ShadowColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Цвет тени. Только для чтенияColor.
+description: Цвет тени. Только для чтения Color.
 type: docs
 weight: 90
 url: /ru/aspose.slides.effects/ioutershadoweffectivedata/shadowcolor/
 ---
-## IOuterShadowEffectiveData.ShadowColor property
 
-Цвет тени. Только для чтенияColor.
+## IOuterShadowEffectiveData.ShadowColor свойство
+
+Цвет тени. Только для чтения Color.
 
 ```csharp
 public Color ShadowColor { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
+* интерфейс [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ioutershadoweffectivedata)
 * сборка [Aspose.Slides](../../../)
 

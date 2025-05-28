@@ -1,30 +1,31 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект который содержит действующие свойства линейного эскиза.
+second_title: Aspose.Slides для .NET API Справочник
+description: Непередаваемый объект, который содержит свойства эффективного линейного эскиза.
 type: docs
-weight: 6450
+weight: 6810
 url: /ru/aspose.slides/isketchformateffectivedata/
 ---
-## ISketchFormatEffectiveData interface
 
-Неизменяемый объект, который содержит действующие свойства линейного эскиза.
+## Интерфейс ISketchFormatEffectiveData
+
+Непередаваемый объект, который содержит свойства эффективного линейного эскиза.
 
 ```csharp
 public interface ISketchFormatEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Возвращает тип эскиза. Только чтение[`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Возвращает тип эскиза. Только для чтения [`LineSketchType`](../linesketchtype). |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`ILineFormatEffectiveData`](../ilineformateffectivedata).
+Этот интерфейс используется как часть [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

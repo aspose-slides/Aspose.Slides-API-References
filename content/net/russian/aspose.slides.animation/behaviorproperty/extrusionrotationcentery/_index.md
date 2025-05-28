@@ -1,12 +1,13 @@
 ---
 title: ExtrusionRotationCenterY
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник API Aspose.Slides для .NET
 description: Представляет свойство extrusion.rotationcenter.y
 type: docs
 weight: 170
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionrotationcentery/
 ---
-## BehaviorProperty.ExtrusionRotationCenterY property
+
+## Свойство BehaviorProperty.ExtrusionRotationCenterY
 
 Представляет свойство 'extrusion.rotationcenter.y'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionrotationcentery/
 public static BehaviorProperty ExtrusionRotationCenterY { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

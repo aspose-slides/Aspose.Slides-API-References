@@ -1,27 +1,28 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает перечислитель, который проходит через коллекцию.
 type: docs
 weight: 70
 url: /ru/aspose.slides/audiocollection/getenumerator/
 ---
-## AudioCollection.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+## AudioCollection.GetEnumerator метод
+
+Возвращает перечислитель, который проходит через коллекцию.
 
 ```csharp
 public IEnumerator<IAudio> GetEnumerator()
 ```
 
-### Возвращаемое значение
+### Значение возврата
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для итерации по коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IAudio](../../iaudio)
-* class [AudioCollection](../../audiocollection)
+* интерфейс [IAudio](../../iaudio)
+* класс [AudioCollection](../../audiocollection)
 * пространство имен [Aspose.Slides](../../audiocollection)
 * сборка [Aspose.Slides](../../../)
 

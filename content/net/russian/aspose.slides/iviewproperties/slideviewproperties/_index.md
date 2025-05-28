@@ -1,23 +1,24 @@
 ---
 title: SlideViewProperties
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает общие свойства просмотра связанные с режимом просмотра слайдов. Только для чтенияICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает общие свойства просмотра, связанные с режимом просмотра слайдов. Только для чтения ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
 type: docs
-weight: 50
+weight: 60
 url: /ru/aspose.slides/iviewproperties/slideviewproperties/
 ---
-## IViewProperties.SlideViewProperties property
 
-Задает общие свойства просмотра, связанные с режимом просмотра слайдов. Только для чтения[`ICommonSlideViewProperties`](../../icommonslideviewproperties).
+## IViewProperties.SlideViewProperties свойство
+
+Указывает общие свойства просмотра, связанные с режимом просмотра слайдов. Только для чтения [`ICommonSlideViewProperties`](../../icommonslideviewproperties).
 
 ```csharp
 public ICommonSlideViewProperties SlideViewProperties { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [ICommonSlideViewProperties](../../icommonslideviewproperties)
-* interface [IViewProperties](../../iviewproperties)
+* интерфейс [ICommonSlideViewProperties](../../icommonslideviewproperties)
+* интерфейс [IViewProperties](../../iviewproperties)
 * пространство имен [Aspose.Slides](../../iviewproperties)
 * сборка [Aspose.Slides](../../../)
 

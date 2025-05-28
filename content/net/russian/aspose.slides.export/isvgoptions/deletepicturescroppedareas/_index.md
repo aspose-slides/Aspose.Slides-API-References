@@ -1,22 +1,23 @@
 ---
 title: DeletePicturesCroppedAreas
-second_title: Справочник по API Aspose.Slides для .NET
-description: Логический флаг указывает остаются ли обрезанные части частью документа. Если true обрезанные части будут удалены если false они будут сериализованы в документе что может привести к увеличению файла  Read/ записьBoolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Логический флаг указывает, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе, что может привести к большему размеру файла. Чтение/запись Булевый.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/isvgoptions/deletepicturescroppedareas/
 ---
-## ISVGOptions.DeletePicturesCroppedAreas property
 
-Логический флаг указывает, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению файла ) Read/ записьBoolean.
+## ISVGOptions.DeletePicturesCroppedAreas свойство
+
+Логический флаг указывает, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к большему размеру файла). Чтение/запись Булевый.
 
 ```csharp
 public bool DeletePicturesCroppedAreas { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISVGOptions](../../isvgoptions)
+* интерфейс [ISVGOptions](../../isvgoptions)
 * пространство имен [Aspose.Slides.Export](../../isvgoptions)
 * сборка [Aspose.Slides](../../../)
 

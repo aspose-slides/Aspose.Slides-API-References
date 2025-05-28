@@ -1,22 +1,23 @@
 ---
 title: ContentType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает MIME-тип видео закодированный вBinaryDataaspose.slides/video/binarydata. Только чтениеString.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает MIME тип видео, закодированного в BinaryDataaspose.slides/video/binarydata. Только для чтения строка.
 type: docs
 weight: 20
 url: /ru/aspose.slides/video/contenttype/
 ---
-## Video.ContentType property
 
-Возвращает MIME-тип видео, закодированный в[`BinaryData`](../binarydata). Только чтениеString.
+## Video.ContentType свойство
+
+Возвращает MIME тип видео, закодированного в [`BinaryData`](../binarydata). Только для чтения строка.
 
 ```csharp
 public string ContentType { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Video](../../video)
+* класс [Video](../../video)
 * пространство имен [Aspose.Slides](../../video)
 * сборка [Aspose.Slides](../../../)
 

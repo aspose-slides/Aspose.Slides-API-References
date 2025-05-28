@@ -1,11 +1,12 @@
 ---
-title: Hyperlink
+title: Гиперссылка
 second_title: Справочник по API Aspose.Slides для .NET
 description: Создает экземпляр гиперссылки.
 type: docs
 weight: 10
 url: /ru/aspose.slides/hyperlink/hyperlink/
 ---
+
 ## Hyperlink(string) {#constructor_2}
 
 Создает экземпляр гиперссылки.
@@ -18,9 +19,9 @@ public Hyperlink(string url)
 | --- | --- | --- |
 | url | String | URL гиперссылки. |
 
-### Смотрите также
+### См. также
 
-* class [Hyperlink](../../hyperlink)
+* класс [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 
@@ -28,7 +29,7 @@ public Hyperlink(string url)
 
 ## Hyperlink(ISlide) {#constructor_1}
 
-Создает экземпляр гиперссылки, которая указывает на определенный слайд. Примечание:созданная гиперссылка должна быть привязана к какому-либо объекту из той же презентации, иначе ссылка будет сохранена как NoAction.
+Создает экземпляр гиперссылки, которая указывает на конкретный слайд. Примечание: созданная гиперссылка должна быть назначена какому-либо объекту из той же презентации, в противном случае ссылка будет сохранена как NoAction.
 
 ```csharp
 public Hyperlink(ISlide slide)
@@ -36,12 +37,12 @@ public Hyperlink(ISlide slide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| слайд | ISlide | Целевой слайд. |
+| slide | ISlide | Целевой слайд. |
 
-### Смотрите также
+### См. также
 
-* interface [ISlide](../../islide)
-* class [Hyperlink](../../hyperlink)
+* интерфейс [ISlide](../../islide)
+* класс [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 
@@ -58,16 +59,16 @@ public Hyperlink(Hyperlink source, string targetFrame, string tooltip, bool hist
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | Hyperlink | Гиперссылка на источник |
-| targetFrame | String | Целевой кадр |
-| подсказка | String | Текст подсказки |
-| история | Boolean |  |
+| source | Hyperlink | Исходная гиперссылка |
+| targetFrame | String | Целевой фрейм |
+| tooltip | String | Текст подсказки |
+| history | Boolean |  |
 | stopSoundsOnClick | Boolean |  |
 | highlightClick | Boolean |  |
 
-### Смотрите также
+### См. также
 
-* class [Hyperlink](../../hyperlink)
+* класс [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 

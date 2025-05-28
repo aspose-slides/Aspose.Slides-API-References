@@ -1,24 +1,25 @@
 ---
 title: ITabCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор вкладок.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет собой коллекцию вкладок.
 type: docs
-weight: 6620
+weight: 6980
 url: /ru/aspose.slides/itabcollection/
 ---
-## ITabCollection interface
 
-Представляет набор вкладок.
+## Интерфейс ITabCollection
+
+Представляет собой коллекцию вкладок.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ITab`](../itab). |
 
 ## Методы
 
@@ -27,12 +28,12 @@ public interface ITabCollection : IGenericCollection<ITab>
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Добавляет вкладку в коллекцию. |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Добавляет вкладку в коллекцию. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | Удаляет все элементы из коллекции. |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Удаляет элемент по указанному индексу из коллекции. |
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* interface [ITab](../itab)
+* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* интерфейс [ITab](../itab)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

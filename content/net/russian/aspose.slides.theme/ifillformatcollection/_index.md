@@ -1,29 +1,30 @@
 ---
 title: IFillFormatCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор стилей заливки.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет коллекцию стилей заполнения.
 type: docs
-weight: 10420
+weight: 10920
 url: /ru/aspose.slides.theme/ifillformatcollection/
 ---
-## IFillFormatCollection interface
 
-Представляет набор стилей заливки.
+## Интерфейс IFillFormatCollection
+
+Представляет коллекцию стилей заполнения.
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* interface [IFillFormat](../../aspose.slides/ifillformat)
+* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* интерфейс [IFillFormat](../../aspose.slides/ifillformat)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

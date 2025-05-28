@@ -1,22 +1,23 @@
 ---
-title: Count
+title: Подсчет
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество узлов в коллекции Только для чтенияInt32 Только для чтенияInt32.
+description: Возвращает количество узлов в коллекции Только для чтения Int32 Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.smartart/smartartnodecollection/count/
 ---
-## SmartArtNodeCollection.Count property
 
-Возвращает количество узлов в коллекции Только для чтенияInt32 Только для чтенияInt32.
+## Свойство SmartArtNodeCollection.Count
+
+Возвращает количество узлов в коллекции Только для чтения Int32 Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [SmartArtNodeCollection](../../smartartnodecollection)
+* класс [SmartArtNodeCollection](../../smartartnodecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartnodecollection)
 * сборка [Aspose.Slides](../../../)
 

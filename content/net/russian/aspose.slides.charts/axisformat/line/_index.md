@@ -1,23 +1,24 @@
 ---
-title: Line
+title: Линия
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает свойства стиля линии оси. Только для чтенияILineFormataspose.slides/ilineformat.
+description: Возвращает свойства стиля линии оси. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/axisformat/line/
 ---
-## AxisFormat.Line property
 
-Возвращает свойства стиля линии оси. Только для чтения[`ILineFormat`](../../../aspose.slides/ilineformat).
+## Свойство AxisFormat.Line
+
+Возвращает свойства стиля линии оси. Только для чтения [`ILineFormat`](../../../aspose.slides/ilineformat).
 
 ```csharp
 public ILineFormat Line { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILineFormat](../../../aspose.slides/ilineformat)
-* class [AxisFormat](../../axisformat)
+* интерфейс [ILineFormat](../../../aspose.slides/ilineformat)
+* класс [AxisFormat](../../axisformat)
 * пространство имен [Aspose.Slides.Charts](../../axisformat)
 * сборка [Aspose.Slides](../../../)
 

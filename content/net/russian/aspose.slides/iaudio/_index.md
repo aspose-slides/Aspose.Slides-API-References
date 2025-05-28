@@ -1,12 +1,13 @@
 ---
 title: IAudio
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Представляет встроенный аудиофайл.
 type: docs
-weight: 4730
+weight: 5010
 url: /ru/aspose.slides/iaudio/
 ---
-## IAudio interface
+
+## Интерфейс IAudio
 
 Представляет встроенный аудиофайл.
 
@@ -14,20 +15,20 @@ url: /ru/aspose.slides/iaudio/
 public interface IAudio
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Возвращает копию аудиоданных. В случае большого объема данных рассмотрите использование метода[`GetStream`](./getstream)для предотвращения ненужной загрузки аудио данных в memory или даже OutOfMemoryException. Только для чтенияByte[]. |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Возвращает MIME-тип аудио, закодированный в[`BinaryData`](./binarydata). Только чтениеString. |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Возвращает копию данных аудио. В случае большого объема данных рассмотрите возможность использования метода [`GetStream`](./getstream), чтобы предотвратить ненужную загрузку данных аудио в память или даже OutOfMemoryException. Только для чтения Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Возвращает MIME-тип аудио, закодированный в [`BinaryData`](./binarydata). Только для чтения String. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [GetStream](../../aspose.slides/iaudio/getstream)() | Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования. |
 
-### Смотрите также
+### Смотрите Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

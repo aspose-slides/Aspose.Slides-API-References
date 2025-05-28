@@ -1,14 +1,15 @@
 ---
-title: Legend
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Stellt die Legendeneigenschaften des Diagramms dar.
+title: Legende
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Eigenschaften der Legendendarstellung von Diagrammen dar.
 type: docs
-weight: 2160
+weight: 2200
 url: /de/aspose.slides.charts/legend/
 ---
-## Legend class
 
-Stellt die Legendeneigenschaften des Diagramms dar.
+## Legend-Klasse
+
+Stellt die Eigenschaften der Legende eines Diagramms dar.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -18,25 +19,25 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Name | Beschreibung |
 | --- | --- |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Unten. SchreibgeschütztSingle . |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Gibt das Diagramm zurück. Schreibgeschützt[`IChart`](../ichart) . |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Ruft Legendeneinträge ab. Schreibgeschützt[`ILegendEntryCollection`](../ilegendentrycollection) . |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Gibt das Format einer Legende zurück. Schreibgeschützt[`IFormat`](../iformat) . |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Gibt die Höhe einer Legende als Bruchteil der Höhe des Diagramms zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Legt fest, ob andere Diagrammelemente Legende überlappen dürfen. Lesen/SchreibenBoolean . |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Gibt die Position der Legende in einem Diagramm an. Nicht-NaN-Werte der Eigenschaften X, Y, Breite und Höhe überschreiben die Wirkung dieser Eigenschaft. Lesen/Schreiben[`LegendPositionType`](../legendpositiontype) . |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | Richtig. SchreibgeschütztSingle . |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Textformat. Schreibgeschützt[`IChartTextFormat`](../icharttextformat) . |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Gibt die Breite einer Legende als Bruchteil der Breite des Diagramms zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Gibt die x-Koordinate einer Legende als Bruchteil der Diagrammbreite zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Gibt die y-Koordinate einer Legende als Bruchteil der Höhe des Diagramms zurück oder legt sie fest. Lesen/SchreibenSingle . |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Unten. Nur lesbar Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Gibt das Diagramm zurück. Nur lesbar [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Gibt die Legendeneinträge zurück. Nur lesbar [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Gibt das Format einer Legende zurück. Nur lesbar [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Gibt die Höhe einer Legende als Anteil der Höhe des Diagramms zurück oder setzt sie. Lesen/Schreiben Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Bestimmt, ob andere Diagrammelemente die Legende überlappen dürfen. Lesen/Schreiben Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Gibt die Position der Legende auf einem Diagramm an. Nicht-NaN-Werte von X, Y, Breite, Höhe überschreiben die Wirkung dieser Eigenschaft. Lesen/Schreiben [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Rechts. Nur lesbar Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Textformat. Nur lesbar [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Gibt die Breite einer Legende als Anteil der Breite des Diagramms zurück oder setzt sie. Lesen/Schreiben Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Gibt die x-Koordinate einer Legende als Anteil der Breite des Diagramms zurück oder setzt sie. Lesen/Schreiben Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Gibt die y-Koordinate einer Legende als Anteil der Höhe des Diagramms zurück oder setzt sie. Lesen/Schreiben Single. |
 
-### Siehe auch
+### Siehe Auch
 
-* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* class [Chart](../chart)
-* interface [ILegend](../ilegend)
-* namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Montage [Aspose.Slides](../../)
+* Klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* Klasse [Chart](../chart)
+* Schnittstelle [ILegend](../ilegend)
+* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

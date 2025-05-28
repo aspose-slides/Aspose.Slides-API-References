@@ -1,12 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 60
 url: /ru/aspose.slides.theme/effectstylecollection/getenumerator/
 ---
-## EffectStyleCollection.GetEnumerator method
+
+## Метод EffectStyleCollection.GetEnumerator
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides.theme/effectstylecollection/getenumerator/
 public IEnumerator<IEffectStyle> GetEnumerator()
 ```
 
-### Возвращаемое значение
+### Значение, возвращаемое методом
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+Перечислитель IEnumerator, который можно использовать для перебора коллекции.
 
 ### Смотрите также
 
-* interface [IEffectStyle](../../ieffectstyle)
-* class [EffectStyleCollection](../../effectstylecollection)
+* интерфейс [IEffectStyle](../../ieffectstyle)
+* класс [EffectStyleCollection](../../effectstylecollection)
 * пространство имен [Aspose.Slides.Theme](../../effectstylecollection)
 * сборка [Aspose.Slides](../../../)
 

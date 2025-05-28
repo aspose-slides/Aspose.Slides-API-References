@@ -1,14 +1,15 @@
 ---
 title: IsAssistant
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает узел в качестве помощника. Чтение/записьBoolean.
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает или устанавливает узел как помощник. Читаемый/писаный логический.
 type: docs
 weight: 30
 url: /ru/aspose.slides.smartart/smartartnode/isassistant/
 ---
-## SmartArtNode.IsAssistant property
 
-Возвращает или устанавливает узел в качестве помощника. Чтение/записьBoolean.
+## Свойство SmartArtNode.IsAssistant
+
+Возвращает или устанавливает узел как помощник. Читаемый/писаный логический.
 
 ```csharp
 public bool IsAssistant { get; set; }
@@ -16,7 +17,7 @@ public bool IsAssistant { get; set; }
 
 ### Смотрите также
 
-* class [SmartArtNode](../../smartartnode)
+* класс [SmartArtNode](../../smartartnode)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartnode)
 * сборка [Aspose.Slides](../../../)
 

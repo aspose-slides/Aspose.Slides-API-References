@@ -1,14 +1,15 @@
 ---
 title: CommentsAreaWidth
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает ширину области вывода комментариев в пикселях Применяется только если комментарии отображаются справа.
+second_title: Aspose.Slides для справки по .NET API
+description: Получает или задает ширину области вывода комментариев в пикселях. Применяется только если комментарии отображаются справа.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/notescommentslayoutingoptions/commentsareawidth/
 ---
-## NotesCommentsLayoutingOptions.CommentsAreaWidth property
 
-Получает или задает ширину области вывода комментариев в пикселях (Применяется, только если комментарии отображаются справа).
+## Свойство NotesCommentsLayoutingOptions.CommentsAreaWidth
+
+Получает или задает ширину области вывода комментариев в пикселях (применяется только если комментарии отображаются справа).
 
 ```csharp
 public int CommentsAreaWidth { get; set; }
@@ -16,11 +17,11 @@ public int CommentsAreaWidth { get; set; }
 
 ### Примечания
 
-Минимальное значение по умолчанию: **150** .
+Минимальное и значение по умолчанию составляет **150**.
 
 ### Смотрите также
 
-* class [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)
+* класс [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)
 * пространство имен [Aspose.Slides.Export](../../notescommentslayoutingoptions)
 * сборка [Aspose.Slides](../../../)
 

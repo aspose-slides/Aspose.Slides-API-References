@@ -1,22 +1,23 @@
 ---
 title: TrendlineName
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает имя линии тренда. Чтение/записьString.
+description: Получает или задает имя трендовой линии. Читаемая/записываемая строка.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/trendline/trendlinename/
 ---
-## Trendline.TrendlineName property
 
-Получает или задает имя линии тренда. Чтение/записьString.
+## Свойство Trendline.TrendlineName
+
+Получает или задает имя трендовой линии. Читаемая/записываемая строка.
 
 ```csharp
 public string TrendlineName { get; set; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* class [Trendline](../../trendline)
+* класс [Trendline](../../trendline)
 * пространство имен [Aspose.Slides.Charts](../../trendline)
 * сборка [Aspose.Slides](../../../)
 

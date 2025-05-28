@@ -1,14 +1,15 @@
 ---
-title: Width
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает ширину фигуры. Чтение/записьSingle.
+title: Ширина
+second_title: Справка по API Aspose.Sildes для .NET
+description: Возвращает или задает ширину фигуры. Читаемое/записываемое значение типа Single.
 type: docs
-weight: 280
+weight: 290
 url: /ru/aspose.slides/shape/width/
 ---
-## Shape.Width property
 
-Возвращает или задает ширину фигуры. Чтение/записьSingle.
+## Свойство Shape.Width
+
+Возвращает или задает ширину фигуры. Читаемое/записываемое значение типа Single.
 
 ```csharp
 public float Width { get; set; }
@@ -16,11 +17,11 @@ public float Width { get; set; }
 
 ### Примечания
 
-Возвращаемое значение всегда определено (не является float.NaN). Присваиваемое значение должно быть определено (не float.NaN). Вы можете установить неопределенные значения для свойств экземпляра RawFrame.
+Возвращаемое значение всегда определено (не является float.NaN). Присваемое значение должно быть определено (не является float.NaN). Вы можете задавать неопределенные значения для свойств экземпляров RawFrame.
 
-### Смотрите также
+### См. также
 
-* class [Shape](../../shape)
+* класс [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: AxisPositionType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Определяет положение оси.
 type: docs
-weight: 1070
+weight: 1130
 url: /ru/aspose.slides.charts/axispositiontype/
 ---
-## AxisPositionType enumeration
+
+## Перечисление AxisPositionType
 
 Определяет положение оси.
 
@@ -14,16 +15,16 @@ url: /ru/aspose.slides.charts/axispositiontype/
 public enum AxisPositionType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Bottom | `0` | Указывает, что ось должна отображаться внизу области графика. |
 | Left | `1` | Указывает, что ось должна отображаться слева от области графика. |
 | Right | `2` | Указывает, что ось должна отображаться справа от области графика. |
-| Top | `3` | Указывает, что ось должна отображаться в верхней части области графика. |
+| Top | `3` | Указывает, что ось должна отображаться сверху области графика. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

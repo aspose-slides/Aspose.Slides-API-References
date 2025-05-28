@@ -1,100 +1,102 @@
 ---
 title: Aspose.Slides.Effects
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Enthält Klassen zum Arbeiten mit verschiedenen Effekten in Microsoft PowerPointPräsentationen.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Enthält Klassen zur Arbeit mit verschiedenen Effekten in Microsoft PowerPoint-Präsentationen.
 type: docs
 weight: 50
 url: /de/aspose.slides.effects/
 ---
-Enthält Klassen zum Arbeiten mit verschiedenen Effekten in Microsoft PowerPoint-Präsentationen.
+
+Enthält Klassen zur Arbeit mit verschiedenen Effekten in Microsoft PowerPoint-Präsentationen.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [AlphaBiLevel](./alphabilevel) | Stellt einen Alpha-Bi-Level-Effekt dar. Alpha-Werte (Deckkraft) unter dem Schwellenwert werden in 0 (vollständig transparent) geändert und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden in 100 % (vollständig undurchsichtig) geändert. |
-| [AlphaCeiling](./alphaceiling) | Stellt einen Alpha-Decke-Effekt dar. Alpha-Werte (Deckkraft) größer als Null werden auf 100 % geändert. Mit anderen Worten, alles, was teilweise undurchsichtig ist, wird vollständig undurchsichtig. |
-| [AlphaFloor](./alphafloor) | Stellt einen Alpha-Bodeneffekt dar. Alpha-Werte (Deckkraft) von weniger als 100 % werden auf Null geändert. Mit anderen Worten, alles, was teilweise transparent ist, wird vollständig transparent. |
-| [AlphaInverse](./alphainverse) | Repräsentiert einen inversen Alpha-Effekt. Alpha-Werte (Deckkraft) werden invertiert, indem sie von 100 % subtrahiert werden. |
-| [AlphaModulate](./alphamodulate) | Repräsentiert einen Alpha-Modulationseffekt. Alpha-Werte (Deckkraft) von Effekten werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der zu modulierende Alpha-Werte enthält. |
-| [AlphaModulateFixed](./alphamodulatefixed) | Repräsentiert einen festen Alpha-Modulationseffekt. Alpha-Werte (Deckkraft) des Effekts werden mit einem festen Prozentsatz multipliziert. |
-| [AlphaReplace](./alphareplace) | Stellt den Alpha-Ersetzungseffekt dar. Alpha-Werte (Deckkraft) des Effekts werden durch ein festes Alpha ersetzt. |
-| [BiLevel](./bilevel) | Stellt einen Bi-Level-Effekt (Schwarz/Weiß) dar. Eingabefarben, deren Luminanz kleiner als der angegebene Schwellenwert ist, werden in Schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem angegebenen Wert ist, werden auf Weiß gesetzt. Die Alpha-Effektwerte werden von diesem Effekt nicht beeinflusst. |
-| [Blur](./blur) | Stellt einen Unschärfeeffekt dar, der auf die gesamte Form angewendet wird, einschließlich ihrer Füllung. Alle Farbkanäle, einschließlich Alpha, sind betroffen. |
-| [ColorChange](./colorchange) | Repräsentiert einen Farbänderungseffekt. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt. |
-| [ColorReplace](./colorreplace) | Stellt einen Farbersetzungseffekt dar. Alle Effektfarben werden in eine feste Farbe geändert. Alpha-Werte bleiben unberührt. |
-| [Duotone](./duotone) | Stellt einen Duotone-Effekt dar. Kombiniert für jedes Pixel Color1 und Color2 durch eine lineare Interpolation , um die neue Farbe für dieses Pixel zu bestimmen. |
-| [EffectFactory](./effectfactory) | Ermöglicht das Erstellen von Effekten |
-| [FillOverlay](./filloverlay) | Repräsentiert einen Füllüberlagerungseffekt. Eine Füllüberlagerung kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen miteinander zu verschmelzen. |
-| [Glow](./glow) | Stellt einen Leuchteffekt dar, bei dem ein farblich verschwommener Umriss außerhalb der Kanten des Objekts hinzugefügt wird. |
-| [GrayScale](./grayscale) | Repräsentiert einen Graustufeneffekt. Konvertiert alle Effektfarbwerte in einen Grauton , der ihrer Leuchtdichte entspricht. Alpha-Werte (Deckkraft) des Effekts bleiben unberührt. |
-| [HSL](./hsl) | Stellt einen Farbton-/Sättigungs-/Luminanzeffekt dar. Farbton, Sättigung und Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden. |
-| [ImageTransformOCollectionEffectiveData](./imagetransformocollectioneffectivedata) | Unveränderliches Objekt, das eine schreibgeschützte Sammlung effektiver Bildtransformationseffekte darstellt. |
-| [ImageTransformOperation](./imagetransformoperation) | Stellt einen abstrakten Bildtransformationseffekt dar. |
-| [ImageTransformOperationCollection](./imagetransformoperationcollection) | Stellt eine Sammlung von Effekten dar, die auf ein Bild angewendet werden. |
-| [ImageTransformOperationFactory](./imagetransformoperationfactory) | Ermöglicht das Erstellen von Bildtransformationsoperationen |
-| [InnerShadow](./innershadow) | Repräsentiert einen inneren Schatteneffekt. |
-| [Luminance](./luminance) | Stellt einen Luminanzeffekt dar. Helligkeit verschiebt alle Farben linear näher an Weiß oder Schwarz. Kontrast skaliert alle Farben so, dass sie entweder näher oder weiter voneinander entfernt sind. |
-| [OuterShadow](./outershadow) | Stellt einen äußeren Schatteneffekt dar. |
-| [PresetShadow](./presetshadow) | Repräsentiert einen voreingestellten Schatteneffekt. |
-| [Reflection](./reflection) | Stellt einen Reflexionseffekt dar. |
-| [SoftEdge](./softedge) | Repräsentiert einen Soft-Edge-Effekt. Die Kanten der Form sind unscharf, während die Füllung nicht betroffen ist. |
-| [Tint](./tint) | Stellt einen Tönungseffekt dar. Verschiebt die Effektfarbwerte um den angegebenen Betrag zum Farbton hin/weg vom Farbton. |
+| [AlphaBiLevel](./alphabilevel) | Stellt einen Alpha Bi-Level-Effekt dar. Alpha (Opazität) Werte, die kleiner als der Schwellenwert sind, werden auf 0 (vollständig transparent) geändert, und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden auf 100% (vollständig undurchsichtig) geändert. |
+| [AlphaCeiling](./alphaceiling) | Stellt einen Alpha Ceiling-Effekt dar. Alpha (Opazität) Werte, die größer als null sind, werden auf 100% geändert. Mit anderen Worten, alles, was teilweise undurchsichtig ist, wird vollständig undurchsichtig. |
+| [AlphaFloor](./alphafloor) | Stellt einen Alpha Floor-Effekt dar. Alpha (Opazität) Werte, die kleiner als 100% sind, werden auf null geändert. Mit anderen Worten, alles, was teilweise transparent ist, wird vollständig transparent. |
+| [AlphaInverse](./alphainverse) | Stellt einen Alpha Inverse-Effekt dar. Alpha (Opazität) Werte werden invertiert, indem sie von 100% subtrahiert werden. |
+| [AlphaModulate](./alphamodulate) | Stellt einen Alpha Modulate-Effekt dar. Effekt-Alpha (Opazität) Werte werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der Alpha-Werte zur Modulation enthält. |
+| [AlphaModulateFixed](./alphamodulatefixed) | Stellt einen Alpha Modulate Fixed-Effekt dar. Effekt-Alpha (Opazität) Werte werden mit einem festen Prozentsatz multipliziert. |
+| [AlphaReplace](./alphareplace) | Stellt einen Alpha Replace-Effekt dar. Effekt-Alpha (Opazität) Werte werden durch einen festen Alpha-Wert ersetzt. |
+| [BiLevel](./bilevel) | Stellt einen Bi-Level (schwarz/weiß) Effekt dar. Eingabefarben, deren Luminanz kleiner ist als der spezifizierte Schwellenwert, werden auf schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem spezifizierten Wert sind, werden auf weiß gesetzt. Die Alpha-Effektwerte werden von diesem Effekt nicht beeinflusst. |
+| [Blur](./blur) | Stellt einen Blur-Effekt dar, der auf die gesamte Form angewendet wird, einschließlich ihrer Füllung. Alle Farbkkanäle, einschließlich Alpha, sind betroffen. |
+| [ColorChange](./colorchange) | Stellt einen Color Change-Effekt dar. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt. |
+| [ColorReplace](./colorreplace) | Stellt einen Color Replacement-Effekt dar. Alle Effekfarben werden in eine feste Farbe geändert. Alpha-Werte bleiben unbeeinflusst. |
+| [Duotone](./duotone) | Stellt einen Duotone-Effekt dar. Für jedes Pixel kombiniert er Color1 und Color2 durch eine lineare Interpolation, um die neue Farbe für dieses Pixel zu bestimmen. |
+| [EffectFactory](./effectfactory) | Ermöglicht die Erstellung von Effekten |
+| [FillOverlay](./filloverlay) | Stellt einen Fill Overlay-Effekt dar. Ein Fülloverlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen zu mischen. |
+| [Glow](./glow) | Stellt einen Glow-Effekt dar, bei dem eine farbige, verschwommene Kontur außerhalb der Kanten des Objekts hinzugefügt wird. |
+| [GrayScale](./grayscale) | Stellt einen Gray Scale-Effekt dar. Wandelt alle Effekfarbwerte in einen Grauton um, der ihrer Luminanz entspricht. Effekt-Alpha (Opazität) Werte bleiben unbeeinflusst. |
+| [HSL](./hsl) | Stellt einen Hue/Saturation/Luminance-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden. |
+| [ImageTransformOCollectionEffectiveData](./imagetransformocollectioneffectivedata) | Unveränderbares Objekt, das eine schreibgeschützte Sammlung von effektiven Bildtransformations Effekten darstellt. |
+| [ImageTransformOperation](./imagetransformoperation) | Stellt einen abstrakten Bildtransformations-Effekt dar. |
+| [ImageTransformOperationCollection](./imagetransformoperationcollection) | Stellt eine Sammlung von Effekten dar, die auf ein Bild angewendet wurden. |
+| [ImageTransformOperationFactory](./imagetransformoperationfactory) | Ermöglicht die Erstellung von Bildtransformationsoperationen |
+| [InnerShadow](./innershadow) | Stellt einen Inner Shadow-Effekt dar. |
+| [Luminance](./luminance) | Stellt einen Luminance-Effekt dar. Helligkeit verschiebt alle Farben linear näher zu weiß oder schwarz. Der Kontrast skaliert alle Farben, um entweder näher zusammen oder weiter auseinander zu sein. |
+| [OuterShadow](./outershadow) | Stellt einen Outer Shadow-Effekt dar. |
+| [PresetShadow](./presetshadow) | Stellt einen Preset Shadow-Effekt dar. |
+| [Reflection](./reflection) | Stellt einen Reflection-Effekt dar. |
+| [SoftEdge](./softedge) | Stellt einen Soft Edge-Effekt dar. Die Kanten der Form werden unscharf, während die Füllung nicht betroffen ist. |
+| [Tint](./tint) | Stellt einen Tint-Effekt dar. Verschiebt die Farbwerte des Effekts in Richtung/Fern von dem Farbton um den angegebenen Betrag. |
+
 ## Schnittstellen
 
 | Schnittstelle | Beschreibung |
 | --- | --- |
-| [IAlphaBiLevel](./ialphabilevel) | Stellt einen Alpha-Bi-Level-Effekt dar. Alpha-Werte (Deckkraft) unter dem Schwellenwert werden in 0 (vollständig transparent) geändert und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden in 100 % (vollständig undurchsichtig) geändert. |
-| [IAlphaBiLevelEffectiveData](./ialphabileveleffectivedata) | Unveränderliches Objekt, das einen Alpha-Bi-Level-Effekt darstellt. Alpha-Werte (Deckkraft) kleiner als der Schwellenwert werden auf 0 (vollständig transparent) geändert und Alpha-Werte größer oder gleich dem Schwellenwert werden auf 100 % geändert (vollständig deckend). |
-| [IAlphaCeiling](./ialphaceiling) | Stellt einen Alpha-Decke-Effekt dar. Alpha-Werte (Deckkraft) größer als Null werden auf 100 % geändert. Mit anderen Worten, alles, was teilweise undurchsichtig ist, wird vollständig undurchsichtig. |
-| [IAlphaCeilingEffectiveData](./ialphaceilingeffectivedata) | Unveränderliches Objekt, das einen Alpha-Decke-Effekt darstellt. Alpha-Werte (Deckkraft) größer als Null werden auf 100 % geändert. Mit anderen Worten, alles, was teilweise undurchsichtig ist, wird vollständig undurchsichtig. |
-| [IAlphaFloor](./ialphafloor) | Stellt einen Alpha-Bodeneffekt dar. Alpha-Werte (Deckkraft) von weniger als 100 % werden auf Null geändert. Mit anderen Worten, alles, was teilweise transparent ist, wird vollständig transparent. |
-| [IAlphaFloorEffectiveData](./ialphaflooreffectivedata) | Unveränderliches Objekt, das einen Alpha-Bodeneffekt darstellt. Alpha-Werte (Deckkraft) von weniger als 100 % werden auf Null geändert. Mit anderen Worten, alles, was teilweise transparent ist, wird vollständig transparent. |
-| [IAlphaInverse](./ialphainverse) | Repräsentiert einen inversen Alpha-Effekt. Alpha-Werte (Deckkraft) werden invertiert, indem sie von 100 % subtrahiert werden. |
-| [IAlphaInverseEffectiveData](./ialphainverseeffectivedata) | Unveränderliches Objekt, das einen inversen Alpha-Effekt darstellt. Alpha-Werte (Deckkraft) werden durch Subtraktion von 100 % invertiert. |
-| [IAlphaModulate](./ialphamodulate) | Repräsentiert einen Alpha-Modulationseffekt. Alpha-Werte (Deckkraft) von Effekten werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der zu modulierende Alpha-Werte enthält. |
-| [IAlphaModulateEffectiveData](./ialphamodulateeffectivedata) | Unveränderliches Objekt, das einen Alpha-Modulationseffekt darstellt. Alpha-Werte (Deckkraft) von Effekten werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der zu modulierende Alpha-Werte enthält. |
-| [IAlphaModulateFixed](./ialphamodulatefixed) | Repräsentiert einen festen Alpha-Modulationseffekt. Alpha-Werte (Deckkraft) des Effekts werden mit einem festen Prozentsatz multipliziert. |
-| [IAlphaModulateFixedEffectiveData](./ialphamodulatefixedeffectivedata) | Unveränderliches Objekt, das einen festen Alpha-Modulationseffekt darstellt. Alpha-Werte (Deckkraft) des Effekts werden mit einem festen Prozentsatz multipliziert. |
-| [IAlphaReplace](./ialphareplace) | Repräsentiert die IImageTransformOperation-Basisschnittstelle. |
-| [IAlphaReplaceEffectiveData](./ialphareplaceeffectivedata) | Unveränderliches Objekt, das einen Alpha-Ersetzungseffekt darstellt. Alpha-Werte (Deckkraft) des Effekts werden durch ein festes Alpha ersetzt. |
-| [IBiLevel](./ibilevel) | Repräsentiert die IImageTransformOperation-Basisschnittstelle. |
-| [IBiLevelEffectiveData](./ibileveleffectivedata) | Unveränderliches Objekt, das einen Bi-Level-Effekt (Schwarz/Weiß) darstellt. Eingabefarben, deren Luminanz kleiner als der angegebene Schwellenwert ist, werden in Schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem angegebenen Wert ist, werden auf Weiß gesetzt . Die Alpha-Effektwerte werden von diesem Effekt nicht beeinflusst. |
-| [IBlur](./iblur) | Stellt einen Unschärfeeffekt dar, der auf die gesamte Form angewendet wird, einschließlich ihrer Füllung. Alle Farbkanäle, einschließlich Alpha, sind betroffen. |
-| [IBlurEffectiveData](./iblureffectivedata) | Unveränderliches Objekt, das einen Unschärfeeffekt darstellt, der auf die gesamte Form angewendet wird, einschließlich ihrer Füllung. Alle Farbkanäle, einschließlich Alpha, sind betroffen. |
-| [IColorChange](./icolorchange) | Repräsentiert einen Farbänderungseffekt. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt. |
-| [IColorChangeEffectiveData](./icolorchangeeffectivedata) | Unveränderliches Objekt, das einen Farbänderungseffekt darstellt. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt. |
-| [IColorReplace](./icolorreplace) | Stellt einen Farbersetzungseffekt dar. |
-| [IColorReplaceEffectiveData](./icolorreplaceeffectivedata) | Unveränderliches Objekt, das einen Farbersetzungseffekt darstellt. Alle Effektfarben werden in eine feste Farbe geändert. Alphawerte werden nicht beeinflusst. |
+| [IAlphaBiLevel](./ialphabilevel) | Stellt einen Alpha Bi-Level-Effekt dar. Alpha (Opazität) Werte, die kleiner als der Schwellenwert sind, werden auf 0 (vollständig transparent) geändert, und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden auf 100% (vollständig undurchsichtig) geändert. |
+| [IAlphaBiLevelEffectiveData](./ialphabileveleffectivedata) | Unveränderbares Objekt, das einen Alpha Bi-Level-Effekt darstellt. Alpha (Opazität) Werte, die kleiner als der Schwellenwert sind, werden auf 0 (vollständig transparent) geändert, und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden auf 100% (vollständig undurchsichtig) geändert. |
+| [IAlphaCeiling](./ialphaceiling) | Stellt einen Alpha Ceiling-Effekt dar. Alpha (Opazität) Werte, die größer als null sind, werden auf 100% geändert. Mit anderen Worten, alles, was teilweise undurchsichtig ist, wird vollständig undurchsichtig. |
+| [IAlphaCeilingEffectiveData](./ialphaceilingeffectivedata) | Unveränderbares Objekt, das einen Alpha Ceiling-Effekt darstellt. Alpha (Opazität) Werte, die größer als null sind, werden auf 100% geändert. Mit anderen Worten, alles, was teilweise undurchsichtig ist, wird vollständig undurchsichtig. |
+| [IAlphaFloor](./ialphafloor) | Stellt einen Alpha Floor-Effekt dar. Alpha (Opazität) Werte, die kleiner als 100% sind, werden auf null geändert. Mit anderen Worten, alles, was teilweise transparent ist, wird vollständig transparent. |
+| [IAlphaFloorEffectiveData](./ialphaflooreffectivedata) | Unveränderbares Objekt, das einen Alpha Floor-Effekt darstellt. Alpha (Opazität) Werte, die kleiner als 100% sind, werden auf null geändert. Mit anderen Worten, alles, was teilweise transparent ist, wird vollständig transparent. |
+| [IAlphaInverse](./ialphainverse) | Stellt einen Alpha Inverse-Effekt dar. Alpha (Opazität) Werte werden invertiert, indem sie von 100% subtrahiert werden. |
+| [IAlphaInverseEffectiveData](./ialphainverseeffectivedata) | Unveränderbares Objekt, das einen Alpha Inverse-Effekt darstellt. Alpha (Opazität) Werte werden invertiert, indem sie von 100% subtrahiert werden. |
+| [IAlphaModulate](./ialphamodulate) | Stellt einen Alpha Modulate-Effekt dar. Effekt-Alpha (Opazität) Werte werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der Alpha-Werte zur Modulation enthält. |
+| [IAlphaModulateEffectiveData](./ialphamodulateeffectivedata) | Unveränderbares Objekt, das einen Alpha Modulate-Effekt darstellt. Effekt-Alpha (Opazität) Werte werden mit einem festen Prozentsatz multipliziert. Der Effektcontainer gibt einen Effekt an, der Alpha-Werte zur Modulation enthält. |
+| [IAlphaModulateFixed](./ialphamodulatefixed) | Stellt einen Alpha Modulate Fixed-Effekt dar. Effekt-Alpha (Opazität) Werte werden mit einem festen Prozentsatz multipliziert. |
+| [IAlphaModulateFixedEffectiveData](./ialphamodulatefixedeffectivedata) | Unveränderbares Objekt, das einen Alpha Modulate Fixed-Effekt darstellt. Effekt-Alpha (Opazität) Werte werden mit einem festen Prozentsatz multipliziert. |
+| [IAlphaReplace](./ialphareplace) | Stellt die Basis-IImageTransformOperation-Schnittstelle dar. |
+| [IAlphaReplaceEffectiveData](./ialphareplaceeffectivedata) | Unveränderbares Objekt, das einen Alpha Replace-Effekt darstellt. Effekt-Alpha (Opazität) Werte werden durch einen festen Alpha-Wert ersetzt. |
+| [IBiLevel](./ibilevel) | Stellt die Basis-IImageTransformOperation-Schnittstelle dar. |
+| [IBiLevelEffectiveData](./ibileveleffectivedata) | Unveränderbares Objekt, das einen Bi-Level (schwarz/weiß) Effekt darstellt. Eingabefarben, deren Luminanz kleiner ist als der spezifizierte Schwellenwert, werden auf schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem spezifizierten Wert sind, werden auf weiß gesetzt. Die Alpha-Effektwerte werden von diesem Effekt nicht beeinflusst. |
+| [IBlur](./iblur) | Stellt einen Blur-Effekt dar, der auf die gesamte Form angewendet wird, einschließlich ihrer Füllung. Alle Farbkkanäle, einschließlich Alpha, sind betroffen. |
+| [IBlurEffectiveData](./iblureffectivedata) | Unveränderbares Objekt, das einen Blur-Effekt darstellt, der auf die gesamte Form angewendet wird, einschließlich ihrer Füllung. Alle Farbkkanäle, einschließlich Alpha, sind betroffen. |
+| [IColorChange](./icolorchange) | Stellt einen Color Change-Effekt dar. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt. |
+| [IColorChangeEffectiveData](./icolorchangeeffectivedata) | Unveränderbares Objekt, das einen Color Change-Effekt darstellt. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt. |
+| [IColorReplace](./icolorreplace) | Stellt einen Color Replacement-Effekt dar. |
+| [IColorReplaceEffectiveData](./icolorreplaceeffectivedata) | Unveränderbares Objekt, das einen Color Replacement-Effekt darstellt. Alle Effekfarben werden in eine feste Farbe geändert. Alpha-Werte bleiben unbeeinflusst. |
 | [IDuotone](./iduotone) | Stellt einen Duotone-Effekt dar. |
-| [IDuotoneEffectiveData](./iduotoneeffectivedata) | Unveränderliches Objekt, das einen Duotone-Effekt darstellt. Kombiniert für jedes Pixel clr1 und clr2 durch eine lineare Interpolation , um die neue Farbe für dieses Pixel zu bestimmen. |
-| [IEffectEffectiveData](./ieffecteffectivedata) | Basisklasse für unveränderliche Objekte, die Wirkung darstellen. |
-| [IEffectFactory](./ieffectfactory) | Ermöglicht das Erstellen von Effektinstanzen |
-| [IFillOverlay](./ifilloverlay) | Repräsentiert einen Füllüberlagerungseffekt. Eine Füllüberlagerung kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen miteinander zu verschmelzen. |
-| [IFillOverlayEffectiveData](./ifilloverlayeffectivedata) | Unveränderliches Objekt, das einen Füllüberlagerungseffekt darstellt. Eine Füllüberlagerung kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen miteinander zu verschmelzen. |
-| [IGlow](./iglow) | Stellt einen Leuchteffekt dar, bei dem ein farblich verschwommener Umriss außerhalb der Kanten des Objekts hinzugefügt wird. |
-| [IGlowEffectiveData](./igloweffectivedata) | Unveränderliches Objekt, das einen Glow-Effekt darstellt, bei dem eine farblich verschwommene Kontur außerhalb der Kanten des Objekts hinzugefügt wird. |
-| [IGrayScale](./igrayscale) | Repräsentiert die IImageTransformOperation-Schnittstelle. |
-| [IGrayScaleEffectiveData](./igrayscaleeffectivedata) | Unveränderliches Objekt, das einen Graustufeneffekt darstellt. Konvertiert alle Effektfarbwerte in einen Grauton , der ihrer Leuchtdichte entspricht. Alpha-Werte (Deckkraft) des Effekts bleiben unberührt. |
-| [IHSL](./ihsl) | Stellt einen Farbton-/Sättigungs-/Luminanzeffekt dar. Farbton, Sättigung und Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden. |
-| [IHSLEffectiveData](./ihsleffectivedata) | Stellt einen Farbton-/Sättigungs-/Luminanzeffekt dar. Farbton, Sättigung und Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden. |
-| [IImageTransformOCollectionEffectiveData](./iimagetransformocollectioneffectivedata) | Unveränderliches Objekt, das eine schreibgeschützte Sammlung effektiver Bildtransformationseffekte darstellt. |
-| [IImageTransformOperation](./iimagetransformoperation) | Stellt einen abstrakten Bildtransformationseffekt dar. |
-| [IImageTransformOperationCollection](./iimagetransformoperationcollection) | Stellt eine Sammlung von Effekten dar, die auf ein Bild angewendet werden. |
-| [IImageTransformOperationFactory](./iimagetransformoperationfactory) | Ermöglicht das Erstellen von Instanzen von Bildeffekten |
-| [IInnerShadow](./iinnershadow) | Stellt einen inneren Schatteneffekt dar. |
-| [IInnerShadowEffectiveData](./iinnershadoweffectivedata) | Unveränderliches Objekt, das einen inneren Schatteneffekt darstellt. |
-| [ILuminance](./iluminance) | Stellt einen Luminanzeffekt dar. Helligkeit verschiebt alle Farben linear näher an Weiß oder Schwarz. Kontrast skaliert alle Farben so, dass sie entweder näher oder weiter voneinander entfernt sind. |
-| [ILuminanceEffectiveData](./iluminanceeffectivedata) | Stellt einen Luminanzeffekt dar. Helligkeit verschiebt alle Farben linear näher an Weiß oder Schwarz. Kontrast skaliert alle Farben so, dass sie entweder näher oder weiter voneinander entfernt sind. |
-| [IOuterShadow](./ioutershadow) | Stellt einen äußeren Schatteneffekt dar. |
-| [IOuterShadowEffectiveData](./ioutershadoweffectivedata) | Unveränderliches Objekt, das einen äußeren Schatteneffekt darstellt. |
-| [IPresetShadow](./ipresetshadow) | Repräsentiert einen voreingestellten Schatteneffekt. |
-| [IPresetShadowEffectiveData](./ipresetshadoweffectivedata) | Unveränderliches Objekt, das einen voreingestellten Schatteneffekt darstellt. |
-| [IReflection](./ireflection) | Stellt einen Reflexionseffekt dar. |
-| [IReflectionEffectiveData](./ireflectioneffectivedata) | Unveränderliches Objekt, das einen Reflexionseffekt darstellt. |
-| [ISoftEdge](./isoftedge) | Repräsentiert einen Soft Edge-Effekt. Die Kanten der Form sind unscharf, während die Füllung nicht betroffen ist. |
-| [ISoftEdgeEffectiveData](./isoftedgeeffectivedata) | Unveränderliches Objekt, das einen Soft-Edge-Effekt darstellt. Die Kanten der Form sind unscharf, während die Füllung nicht betroffen ist. |
-| [ITint](./itint) | Stellt einen Tönungseffekt dar. Verschiebt die Effektfarbwerte um den angegebenen Betrag zum Farbton hin/weg vom Farbton. |
-| [ITintEffectiveData](./itinteffectivedata) | Unveränderliches Objekt, das einen Tönungseffekt darstellt. Verschiebt die Effektfarbwerte um den angegebenen Betrag zum Farbton hin/weg vom Farbton. |
+| [IDuotoneEffectiveData](./iduotoneeffectivedata) | Unveränderbares Objekt, das einen Duotone-Effekt darstellt. Für jedes Pixel kombiniert er clr1 und clr2 durch eine lineare Interpolation, um die neue Farbe für dieses Pixel zu bestimmen. |
+| [IEffectEffectiveData](./ieffecteffectivedata) | Basisklasse für unveränderbare Objekte, die einen Effekt darstellen. |
+| [IEffectFactory](./ieffectfactory) | Ermöglicht die Erstellung von Instanzen von Effekten |
+| [IFillOverlay](./ifilloverlay) | Stellt einen Fill Overlay-Effekt dar. Ein Fülloverlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen zu mischen. |
+| [IFillOverlayEffectiveData](./ifilloverlayeffectivedata) | Unveränderbares Objekt, das einen Fill Overlay-Effekt darstellt. Ein Fülloverlay kann verwendet werden, um eine zusätzliche Füllung für ein Objekt anzugeben und die beiden Füllungen zu mischen. |
+| [IGlow](./iglow) | Stellt einen Glow-Effekt dar, bei dem eine farbige, verschwommene Kontur außerhalb der Kanten des Objekts hinzugefügt wird. |
+| [IGlowEffectiveData](./igloweffectivedata) | Unveränderbares Objekt, das einen Glow-Effekt darstellt, bei dem eine farbige, verschwommene Kontur außerhalb der Kanten des Objekts hinzugefügt wird. |
+| [IGrayScale](./igrayscale) | Stellt die IImageTransformOperation-Schnittstelle dar. |
+| [IGrayScaleEffectiveData](./igrayscaleeffectivedata) | Unveränderbares Objekt, das einen Gray Scale-Effekt darstellt. Wandelt alle Effekfarbwerte in einen Grauton um, der ihrer Luminanz entspricht. Effekt-Alpha (Opazität) Werte bleiben unbeeinflusst. |
+| [IHSL](./ihsl) | Stellt einen Hue/Saturation/Luminance-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden. |
+| [IHSLEffectiveData](./ihsleffectivedata) | Stellt einen Hue/Saturation/Luminance-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden. |
+| [IImageTransformOCollectionEffectiveData](./iimagetransformocollectioneffectivedata) | Unveränderbares Objekt, das eine schreibgeschützte Sammlung von effektiven Bildtransformations Effekten darstellt. |
+| [IImageTransformOperation](./iimagetransformoperation) | Stellt einen abstrakten Bildtransformations-Effekt dar. |
+| [IImageTransformOperationCollection](./iimagetransformoperationcollection) | Stellt eine Sammlung von Effekten dar, die auf ein Bild angewendet wurden. |
+| [IImageTransformOperationFactory](./iimagetransformoperationfactory) | Ermöglicht die Erstellung von Instanzen von Bildeffekten |
+| [IInnerShadow](./iinnershadow) | Stellt einen Inner Shadow-Effekt dar. |
+| [IInnerShadowEffectiveData](./iinnershadoweffectivedata) | Unveränderbares Objekt, das einen Inner Shadow-Effekt darstellt. |
+| [ILuminance](./iluminance) | Stellt einen Luminance-Effekt dar. Helligkeit verschiebt alle Farben linear näher zu weiß oder schwarz. Der Kontrast skaliert alle Farben, um entweder näher zusammen oder weiter auseinander zu sein. |
+| [ILuminanceEffectiveData](./iluminanceeffectivedata) | Stellt einen Luminance-Effekt dar. Helligkeit verschiebt alle Farben linear näher zu weiß oder schwarz. Der Kontrast skaliert alle Farben, um entweder näher zusammen oder weiter auseinander zu sein. |
+| [IOuterShadow](./ioutershadow) | Stellt einen Outer Shadow-Effekt dar. |
+| [IOuterShadowEffectiveData](./ioutershadoweffectivedata) | Unveränderbares Objekt, das einen Outer Shadow-Effekt darstellt. |
+| [IPresetShadow](./ipresetshadow) | Stellt einen Preset Shadow-Effekt dar. |
+| [IPresetShadowEffectiveData](./ipresetshadoweffectivedata) | Unveränderbares Objekt, das einen Preset Shadow-Effekt darstellt. |
+| [IReflection](./ireflection) | Stellt einen Reflection-Effekt dar. |
+| [IReflectionEffectiveData](./ireflectioneffectivedata) | Unveränderbares Objekt, das einen Reflection-Effekt darstellt. |
+| [ISoftEdge](./isoftedge) | Stellt einen Soft Edge-Effekt dar. Die Kanten der Form werden unscharf, während die Füllung nicht betroffen ist. |
+| [ISoftEdgeEffectiveData](./isoftedgeeffectivedata) | Unveränderbares Objekt, das einen Soft Edge-Effekt darstellt. Die Kanten der Form werden unscharf, während die Füllung nicht betroffen ist. |
+| [ITint](./itint) | Stellt einen Tint-Effekt dar. Verschiebt die Farbwerte des Effekts in Richtung/Fern von dem Farbton um den angegebenen Betrag. |
+| [ITintEffectiveData](./itinteffectivedata) | Unveränderbares Objekt, das einen Tint-Effekt darstellt. Verschiebt die Farbwerte des Effekts in Richtung/Fern von dem Farbton um den angegebenen Betrag. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,23 +1,24 @@
 ---
 title: SlidesText
-second_title: Справочник по API Aspose.Slides для .NET
-description: МассивSlideTextaspose.slides/islidetext содержит текст презентации.
+second_title: Aspose.Slides для .NET API Справочник
+description: Массив SlideText aspose.slides/islidetext содержит текст презентации.
 type: docs
 weight: 10
 url: /ru/aspose.slides/presentationtext/slidestext/
 ---
-## PresentationText.SlidesText property
 
-Массив[`SlideText`](../../islidetext) содержит текст презентации.
+## PresentationText.SlidesText свойство
+
+Массив [`SlideText`](../../islidetext) содержит текст презентации.
 
 ```csharp
 public ISlideText[] SlidesText { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISlideText](../../islidetext)
-* class [PresentationText](../../presentationtext)
+* интерфейс [ISlideText](../../islidetext)
+* класс [PresentationText](../../presentationtext)
 * пространство имен [Aspose.Slides](../../presentationtext)
 * сборка [Aspose.Slides](../../../)
 

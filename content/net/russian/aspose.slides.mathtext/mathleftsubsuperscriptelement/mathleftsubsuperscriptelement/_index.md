@@ -1,12 +1,13 @@
 ---
 title: MathLeftSubSuperscriptElement
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Ссылка
 description: Инициализирует новый экземпляр класса MathLeftSubSuperscriptElement.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathleftsubsuperscriptelement/mathleftsubsuperscriptelement/
 ---
-## MathLeftSubSuperscriptElement constructor
+
+## Конструктор MathLeftSubSuperscriptElement
 
 Инициализирует новый экземпляр класса MathLeftSubSuperscriptElement.
 
@@ -27,10 +28,10 @@ IMathElement superscript = new MathematicalText("j");
 MathLeftSubSuperscriptElement leftSubSuperscript = new MathLeftSubSuperscriptElement(baseElement, subscript, superscript);
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IMathElement](../../imathelement)
-* class [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement)
 * пространство имен [Aspose.Slides.MathText](../../mathleftsubsuperscriptelement)
 * сборка [Aspose.Slides](../../../)
 

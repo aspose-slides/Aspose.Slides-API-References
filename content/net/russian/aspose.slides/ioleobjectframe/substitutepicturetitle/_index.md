@@ -1,26 +1,27 @@
 ---
 title: SubstitutePictureTitle
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает заголовок для значка OleObject. Чтение/записьString.
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает или задает заголовок для иконки OleObject. Читаемая/записываемая строка.
 type: docs
-weight: 120
+weight: 130
 url: /ru/aspose.slides/ioleobjectframe/substitutepicturetitle/
 ---
-## IOleObjectFrame.SubstitutePictureTitle property
 
-Возвращает или задает заголовок для значка OleObject. Чтение/записьString.
+## IOleObjectFrame.SubstitutePictureTitle свойство
+
+Возвращает или задает заголовок для иконки OleObject. Читаемая/записываемая строка.
 
 ```csharp
 public string SubstitutePictureTitle { get; set; }
 ```
 
-### Примечания
+### Замечания
 
-Когда IsObjectIcon == false, это значение игнорируется. Строка может быть усечена в соответствии с размером значка OLE.
+Когда IsObjectIcon == false, это значение игнорируется. Строка может быть усечена в зависимости от размера OLE иконки.
 
 ### Смотрите также
 
-* interface [IOleObjectFrame](../../ioleobjectframe)
+* интерфейс [IOleObjectFrame](../../ioleobjectframe)
 * пространство имен [Aspose.Slides](../../ioleobjectframe)
 * сборка [Aspose.Slides](../../../)
 

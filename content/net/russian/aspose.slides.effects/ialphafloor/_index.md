@@ -1,32 +1,33 @@
 ---
 title: IAlphaFloor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект Alpha Floor. Значения альфа-канала непрозрачности менее 100 заменяются на ноль. Другими словами все частично прозрачное становится полностью прозрачным.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Представляет эффект Alpha Floor. Значения альфа-прозрачности меньше 100 изменяются на ноль. Иными словами, всё частично прозрачное становится полностью прозрачным.
 type: docs
-weight: 2880
+weight: 2960
 url: /ru/aspose.slides.effects/ialphafloor/
 ---
-## IAlphaFloor interface
 
-Представляет эффект Alpha Floor. Значения альфа-канала (непрозрачности) менее 100% заменяются на ноль. Другими словами, все частично прозрачное становится полностью прозрачным.
+## Интерфейс IAlphaFloor
+
+Представляет эффект Alpha Floor. Значения альфа (прозрачности) менее 100% изменяются на ноль. Иными словами, всё частично прозрачное становится полностью прозрачным.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
     IImageTransformOperation
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Смотрите также
+### См. также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* interface [IAlphaFloorEffectiveData](../ialphaflooreffectivedata)
-* interface [IImageTransformOperation](../iimagetransformoperation)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IAlphaFloorEffectiveData](../ialphaflooreffectivedata)
+* интерфейс [IImageTransformOperation](../iimagetransformoperation)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

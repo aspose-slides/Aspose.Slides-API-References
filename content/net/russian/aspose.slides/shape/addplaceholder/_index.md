@@ -1,14 +1,15 @@
 ---
 title: AddPlaceholder
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый заполнитель если его нет и устанавливает свойства заполнителя на указанный.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Добавляет новый заполнитель, если его нет, и устанавливает свойства заполнителя на указанные.
 type: docs
-weight: 320
+weight: 330
 url: /ru/aspose.slides/shape/addplaceholder/
 ---
-## Shape.AddPlaceholder method
 
-Добавляет новый заполнитель, если его нет, и устанавливает свойства заполнителя на указанный.
+## Метод Shape.AddPlaceholder
+
+Добавляет новый заполнитель, если его нет, и устанавливает свойства заполнителя на указанные.
 
 ```csharp
 public IPlaceholder AddPlaceholder(IPlaceholder placeholderToCopyFrom)
@@ -16,16 +17,16 @@ public IPlaceholder AddPlaceholder(IPlaceholder placeholderToCopyFrom)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| placeholderToCopyFrom | IPlaceholder | Заполнитель для копирования содержимого. |
+| placeholderToCopyFrom | IPlaceholder | Заполнитель, из которого нужно скопировать содержимое. |
 
 ### Возвращаемое значение
 
-Новый[`Placeholder`](../placeholder).
+Новый [`Placeholder`](../placeholder).
 
-### Смотрите также
+### См. также
 
-* interface [IPlaceholder](../../iplaceholder)
-* class [Shape](../../shape)
+* интерфейс [IPlaceholder](../../iplaceholder)
+* класс [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 

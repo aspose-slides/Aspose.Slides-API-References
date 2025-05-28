@@ -1,56 +1,57 @@
 ---
 title: LineFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le format dune ligne.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Représente le format d'une ligne.
 type: docs
-weight: 7120
+weight: 7550
 url: /fr/aspose.slides/lineformat/
 ---
-## LineFormat class
+
+## Classe LineFormat
 
 Représente le format d'une ligne.
 
 ```csharp
-public class LineFormat : PVIObject, ILineFormat
+public sealed class LineFormat : PVIObject, ILineFormat
 ```
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Renvoie ou définit l'alignement des lignes. Lecture/écriture[`LineAlignment`](../linealignment) . |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface IPresentationComponent de base. Lecture seule[`IPresentationComponent`](../ipresentationcomponent) . |
-| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Renvoie ou définit la longueur de la pointe de flèche au début d'une ligne. Lecture/écriture[`LineArrowheadLength`](../linearrowheadlength) . |
-| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Renvoie ou définit le style de pointe de flèche au début d'une ligne. Lecture/écriture[`LineArrowheadStyle`](../linearrowheadstyle) . |
-| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Renvoie ou définit la largeur de la pointe de flèche au début d'une ligne. Lecture/écriture[`LineArrowheadWidth`](../linearrowheadwidth) . |
-| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Renvoie ou définit le style de fin de ligne. Lecture/écriture[`LineCapStyle`](../linecapstyle) . |
-| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Renvoie ou définit le modèle de tiret personnalisé. Lecture/écritureSingle []. |
-| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Renvoie ou définit le style de tiret de ligne. Lecture/écriture[`LineDashStyle`](../linedashstyle) . |
-| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Renvoie ou définit la longueur de la pointe de flèche à la fin d'une ligne. Lecture/écriture[`LineArrowheadLength`](../linearrowheadlength) . |
-| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Renvoie ou définit le style de pointe de flèche à la fin d'une ligne. Lecture/écriture[`LineArrowheadStyle`](../linearrowheadstyle) . |
-| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Renvoie ou définit la largeur de la pointe de flèche à la fin d'une ligne. Lecture/écriture[`LineArrowheadWidth`](../linearrowheadwidth) . |
-| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Renvoie le format de remplissage d'une ligne. Lecture seule[`ILineFillFormat`](../ilinefillformat) . |
-| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Renvoie true si le format de ligne n'est pas défini (tel qu'il vient d'être créé, par défaut). Lecture seuleBoolean . |
-| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Renvoie ou définit le style de jointure des lignes. Lecture/écriture[`LineJoinStyle`](../linejoinstyle) . |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Renvoie ou définit la limite d'onglet d'une ligne. Lecture/écritureSingle . |
-| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Renvoie le format d'esquisse d'une ligne. Lecture seule[`ILineFillFormat`](../ilinefillformat) . |
-| [Style](../../aspose.slides/lineformat/style) { get; set; } | Renvoie ou définit le style de ligne. Lecture/écriture[`LineStyle`](../linestyle) . |
-| [Width](../../aspose.slides/lineformat/width) { get; set; } | Renvoie ou définit la largeur d'une ligne. Lecture/écritureDouble . |
+| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Retourne ou définit l'alignement de la ligne. Lecture/écriture [`LineAlignment`](../linealignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
+| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Retourne ou définit la longueur de la pointe de flèche au début d'une ligne. Lecture/écriture [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Retourne ou définit le style de la pointe de flèche au début d'une ligne. Lecture/écriture [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Retourne ou définit la largeur de la pointe de flèche au début d'une ligne. Lecture/écriture [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Retourne ou définit le style de cap de la ligne. Lecture/écriture [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Retourne ou définit le motif de tiret personnalisé. Lecture/écriture Single[]. |
+| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Retourne ou définit le style de tiret de la ligne. Lecture/écriture [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Retourne ou définit la longueur de la pointe de flèche à la fin d'une ligne. Lecture/écriture [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Retourne ou définit le style de la pointe de flèche à la fin d'une ligne. Lecture/écriture [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Retourne ou définit la largeur de la pointe de flèche à la fin d'une ligne. Lecture/écriture [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Retourne le format de remplissage d'une ligne. Lecture seule [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Retourne vrai si le format de la ligne n'est pas défini (tel qu'il vient d'être créé, par défaut). Lecture seule Boolean. |
+| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Retourne ou définit le style de jointure des lignes. Lecture/écriture [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Retourne ou définit la limite de miter d'une ligne. Lecture/écriture Single. |
+| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Retourne le format de croquis d'une ligne. Lecture seule [`ILineFillFormat`](../ilinefillformat). |
+| [Style](../../aspose.slides/lineformat/style) { get; set; } | Retourne ou définit le style de la ligne. Lecture/écriture [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | Retourne ou définit la largeur d'une ligne. Lecture/écriture Double. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Détermine si les deux instances de LineFormat sont égales. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
-| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Obtient les données de mise en forme de ligne effectives avec l'héritage appliqué. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |
+| override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
+| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Obtient les données de formatage de ligne effectives avec l'hérédité appliquée. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourne le code de hachage. |
 
-### Voir également
+### Voir aussi
 
-* class [PVIObject](../pviobject)
+* classe [PVIObject](../pviobject)
 * interface [ILineFormat](../ilineformat)
 * espace de noms [Aspose.Slides](../../aspose.slides)
-* Assemblée [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

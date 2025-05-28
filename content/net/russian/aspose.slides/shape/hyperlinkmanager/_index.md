@@ -1,23 +1,24 @@
 ---
 title: HyperlinkManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает менеджер гиперссылок. Только для чтенияIHyperlinkManageraspose.slides/ihyperlinkmanager.
+description: Возвращает менеджер гиперссылок. Только для чтения IHyperlinkManageraspose.slides/ihyperlinkmanager.
 type: docs
 weight: 120
 url: /ru/aspose.slides/shape/hyperlinkmanager/
 ---
-## Shape.HyperlinkManager property
 
-Возвращает менеджер гиперссылок. Только для чтения[`IHyperlinkManager`](../../ihyperlinkmanager).
+## Свойство Shape.HyperlinkManager
+
+Возвращает менеджер гиперссылок. Только для чтения [`IHyperlinkManager`](../../ihyperlinkmanager).
 
 ```csharp
 public IHyperlinkManager HyperlinkManager { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IHyperlinkManager](../../ihyperlinkmanager)
-* class [Shape](../../shape)
+* интерфейс [IHyperlinkManager](../../ihyperlinkmanager)
+* класс [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,26 +1,27 @@
 ---
 title: IMathSuperscriptElement
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет объект надстрочного индекса который состоит из основания и надстрочного индекса уменьшенного размера расположенного выше и правее
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает объект надстрочного текста, который состоит из основы и уменьшенного надстрочного текста, расположенного выше и справа
 type: docs
-weight: 7770
+weight: 8230
 url: /ru/aspose.slides.mathtext/imathsuperscriptelement/
 ---
-## IMathSuperscriptElement interface
 
-Определяет объект надстрочного индекса, который состоит из основания и надстрочного индекса уменьшенного размера, расположенного выше и правее
+## Интерфейс IMathSuperscriptElement
+
+Указывает объект надстрочного текста, который состоит из основы и уменьшенного надстрочного текста, расположенного выше и справа
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | Базовый аргумент |
-| [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Верхний индекс |
+| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | Основной аргумент |
+| [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Надстрочный текст |
 
 ### Примеры
 
@@ -31,9 +32,9 @@ public interface IMathSuperscriptElement : IMathElement
 IMathSuperscriptElement superscriptElement = new MathematicalText("N").SetSuperscript("i");
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../imathelement)
+* интерфейс [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

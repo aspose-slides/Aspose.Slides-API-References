@@ -1,12 +1,13 @@
 ---
 title: SkewMatrixYtoY
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойство skew.matrix.ytoy
 type: docs
 weight: 820
 url: /ru/aspose.slides.animation/behaviorproperty/skewmatrixytoy/
 ---
-## BehaviorProperty.SkewMatrixYtoY property
+
+## Свойство BehaviorProperty.SkewMatrixYtoY
 
 Представляет свойство 'skew.matrix.ytoy'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/skewmatrixytoy/
 public static BehaviorProperty SkewMatrixYtoY { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

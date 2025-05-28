@@ -1,14 +1,15 @@
 ---
-title: Reset
+title: Сброс
 second_title: Справочник по API Aspose.Slides для .NET
-description: Сбрасывает положение размер и форматирование каждой фигуры имеющей прототип на LayoutSlide.
+description: Сбрасывает размер позиции и форматирование каждой фигуры, у которой есть прототип на LayoutSlide.
 type: docs
-weight: 120
+weight: 110
 url: /ru/aspose.slides/islide/reset/
 ---
-## ISlide.Reset method
 
-Сбрасывает положение, размер и форматирование каждой фигуры, имеющей прототип на LayoutSlide.
+## Метод ISlide.Reset
+
+Сбрасывает позицию, размер и форматирование каждой фигуры, у которой есть прототип на LayoutSlide.
 
 ```csharp
 public void Reset()
@@ -16,7 +17,7 @@ public void Reset()
 
 ### Смотрите также
 
-* interface [ISlide](../../islide)
+* интерфейс [ISlide](../../islide)
 * пространство имен [Aspose.Slides](../../islide)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: AddConnector
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый коннектор настраивает его из шаблона по умолчанию и добавляет в конец коллекции.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Создает новый соединитель, настраивает его по умолчанию и добавляет в конец коллекции.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ishapecollection/addconnector/
 ---
+
 ## AddConnector(ShapeType, float, float, float, float) {#addconnector}
 
-Создает новый коннектор, настраивает его из шаблона по умолчанию и добавляет в конец коллекции.
+Создает новый соединитель, настраивает его по умолчанию и добавляет в конец коллекции.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height)
@@ -16,23 +17,23 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| shapeType | ShapeType | [`ShapeType`](../../shapetype) фигуры. |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Отсчитываемый от нуля индекс созданной фигуры.
+Индекс созданной фигуры, начиная с нуля.
 
-Создан объект-коннектор.
+Созданный объект Connector.
 
-### Смотрите также
+### См. Также
 
-* interface [IConnector](../../iconnector)
-* enum [ShapeType](../../shapetype)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IConnector](../../iconnector)
+* перечисление [ShapeType](../../shapetype)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -40,7 +41,7 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 ## AddConnector(ShapeType, float, float, float, float, bool) {#addconnector_1}
 
-Создает новый коннектор и добавляет его в конец коллекции.
+Создает новый соединитель и добавляет его в конец коллекции.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height, 
@@ -49,24 +50,24 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| shapeType | ShapeType | [`ShapeType`](../../shapetype) фигуры. |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
-| createFromTemplate | Boolean | Если true, то новая форма будет настроена из шаблона по умолчанию. Непустое имя, простой стиль, текст по центру будет присвоен новой форме. Если false, то все значения свойств новой формы будут иметь значения по умолчанию. |
+| createFromTemplate | Boolean | Если true, то новая фигура будет настроена по умолчанию. Не пустое имя, простой стиль, выравнивание текста по центру будут присвоены новой фигуре. Если false, то все значения свойств новой фигуры будут иметь значения по умолчанию. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Отсчитываемый от нуля индекс созданной формы.
+Индекс созданной фигуры, начиная с нуля.
 
-Создан объект-коннектор.
+Созданный объект Connector.
 
-### Смотрите также
+### См. Также
 
-* interface [IConnector](../../iconnector)
-* enum [ShapeType](../../shapetype)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IConnector](../../iconnector)
+* перечисление [ShapeType](../../shapetype)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

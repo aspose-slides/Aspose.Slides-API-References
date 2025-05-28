@@ -1,12 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 60
 url: /ru/aspose.slides.theme/lineformatcollection/getenumerator/
 ---
-## LineFormatCollection.GetEnumerator method
+
+## LineFormatCollection.GetEnumerator метод
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -16,12 +17,12 @@ public IEnumerator<ILineFormat> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для перебора коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [ILineFormat](../../../aspose.slides/ilineformat)
-* class [LineFormatCollection](../../lineformatcollection)
+* интерфейс [ILineFormat](../../../aspose.slides/ilineformat)
+* класс [LineFormatCollection](../../lineformatcollection)
 * пространство имен [Aspose.Slides.Theme](../../lineformatcollection)
 * сборка [Aspose.Slides](../../../)
 

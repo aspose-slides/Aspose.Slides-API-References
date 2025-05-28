@@ -6,7 +6,8 @@ type: docs
 weight: 190
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addhsleffect/
 ---
-## ImageTransformOperationCollection.AddHSLEffect method
+
+## ImageTransformOperationCollection.AddHSLEffect метод
 
 Добавляет новый эффект оттенка/насыщенности/яркости в конец коллекции.
 
@@ -16,18 +17,18 @@ public IHSL AddHSLEffect(float hue, float saturation, float luminance)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hue | Single | Число градусов, на которое регулируется оттенок. |
-| saturation | Single | Процент, на который регулируется насыщенность. |
-| luminance | Single | Процент, на который регулируется яркость. |
+| hue | Single | Количество градусов, на которое изменяется оттенок. |
+| saturation | Single | Процент, на который изменяется насыщенность. |
+| luminance | Single | Процент, на который изменяется яркость. |
 
 ### Возвращаемое значение
 
 Индекс нового эффекта изображения в коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IHSL](../../ihsl)
-* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* интерфейс [IHSL](../../ihsl)
+* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

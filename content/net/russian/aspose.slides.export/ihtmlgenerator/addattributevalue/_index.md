@@ -1,14 +1,15 @@
 ---
 title: AddAttributeValue
-second_title: Справочник по API Aspose.Slides для .NET
-description: Заключает значение атрибута в кавычки и добавляет его в html-файл.
+second_title: Aspose.Slides для .NET API Справочник
+description: Оборачивает значение атрибута в кавычки и добавляет его в html файл.
 type: docs
 weight: 70
 url: /ru/aspose.slides.export/ihtmlgenerator/addattributevalue/
 ---
+
 ## AddAttributeValue(string) {#addattributevalue_2}
 
-Заключает значение атрибута в кавычки и добавляет его в html-файл.
+Оборачивает значение атрибута в кавычки и добавляет его в html файл.
 
 ```csharp
 public void AddAttributeValue(string value)
@@ -18,9 +19,9 @@ public void AddAttributeValue(string value)
 | --- | --- | --- |
 | value | String | Строка значения атрибута. |
 
-### Смотрите также
+### См. также
 
-* interface [IHtmlGenerator](../../ihtmlgenerator)
+* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../ihtmlgenerator)
 * сборка [Aspose.Slides](../../../)
 
@@ -28,7 +29,7 @@ public void AddAttributeValue(string value)
 
 ## AddAttributeValue(char[]) {#addattributevalue}
 
-Заключает значение атрибута в кавычки и добавляет его в html-файл.
+Оборачивает значение атрибута в кавычки и добавляет его в html файл.
 
 ```csharp
 public void AddAttributeValue(char[] value)
@@ -38,9 +39,9 @@ public void AddAttributeValue(char[] value)
 | --- | --- | --- |
 | value | Char[] | Строка значения атрибута. |
 
-### Смотрите также
+### См. также
 
-* interface [IHtmlGenerator](../../ihtmlgenerator)
+* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../ihtmlgenerator)
 * сборка [Aspose.Slides](../../../)
 
@@ -48,7 +49,7 @@ public void AddAttributeValue(char[] value)
 
 ## AddAttributeValue(char[], int, int) {#addattributevalue_1}
 
-Заключает значение атрибута в кавычки и добавляет его в html-файл.
+Оборачивает значение атрибута в кавычки и добавляет его в html файл.
 
 ```csharp
 public void AddAttributeValue(char[] value, int startIndex, int length)
@@ -57,12 +58,12 @@ public void AddAttributeValue(char[] value, int startIndex, int length)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | Char[] | Строка значения атрибута. |
-| startIndex | Int32 | Начальный индекс добавляемой части. |
-| length | Int32 | Длина добавляемой части. |
+| startIndex | Int32 | Начальный индекс части для добавления. |
+| length | Int32 | Длина части для добавления. |
 
-### Смотрите также
+### См. также
 
-* interface [IHtmlGenerator](../../ihtmlgenerator)
+* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../ihtmlgenerator)
 * сборка [Aspose.Slides](../../../)
 

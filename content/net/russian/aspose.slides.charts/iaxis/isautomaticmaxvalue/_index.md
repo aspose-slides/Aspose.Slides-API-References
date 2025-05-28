@@ -1,22 +1,23 @@
 ---
 title: IsAutomaticMaxValue
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает присваивается ли максимальное значение автоматически. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает, автоматически ли назначается максимальное значение. Читаемое/записываемое Логическое.
 type: docs
 weight: 190
 url: /ru/aspose.slides.charts/iaxis/isautomaticmaxvalue/
 ---
-## IAxis.IsAutomaticMaxValue property
 
-Указывает, присваивается ли максимальное значение автоматически. Чтение/записьBoolean.
+## IAxis.IsAutomaticMaxValue свойство
+
+Указывает, автоматически ли назначается максимальное значение. Читаемое/записываемое Логическое.
 
 ```csharp
 public bool IsAutomaticMaxValue { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAxis](../../iaxis)
+* интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

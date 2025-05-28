@@ -1,23 +1,24 @@
 ---
 title: Light2
 second_title: Справочник по API Aspose.Slides для .NET
-description: Второй светлый цвет в схеме. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Второй светлый цвет в схеме. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 140
 url: /ru/aspose.slides.theme/icolorscheme/light2/
 ---
-## IColorScheme.Light2 property
 
-Второй светлый цвет в схеме. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+## Свойство IColorScheme.Light2
+
+Второй светлый цвет в схеме. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Light2 { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IColorFormat](../../../aspose.slides/icolorformat)
-* interface [IColorScheme](../../icolorscheme)
+* интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
+* интерфейс [IColorScheme](../../icolorscheme)
 * пространство имен [Aspose.Slides.Theme](../../icolorscheme)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: IPresentationComponent
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Представляет компонент презентации.
 type: docs
-weight: 6200
+weight: 6560
 url: /ru/aspose.slides/ipresentationcomponent/
 ---
-## IPresentationComponent interface
+
+## Интерфейс IPresentationComponent
 
 Представляет компонент презентации.
 
@@ -14,11 +15,11 @@ url: /ru/aspose.slides/ipresentationcomponent/
 public interface IPresentationComponent
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Возвращает презентацию. Только чтение[`IPresentation`](../ipresentation). |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Возвращает презентацию. Только для чтения [`IPresentation`](../ipresentation). |
 
 ### Смотрите также
 

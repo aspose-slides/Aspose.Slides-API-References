@@ -1,22 +1,23 @@
 ---
-title: Width
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает ширину заголовка как часть ширины диаграммы. Чтение/записьSingle.
+title: Ширина
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает ширину заголовка как долю ширины диаграммы. Читаемый/записываемый тип Single.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/charttitle/width/
 ---
-## ChartTitle.Width property
 
-Возвращает или задает ширину заголовка как часть ширины диаграммы. Чтение/записьSingle.
+## Свойство ChartTitle.Width
+
+Возвращает или устанавливает ширину заголовка как долю ширины диаграммы. Читаемый/записываемый тип Single.
 
 ```csharp
 public float Width { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartTitle](../../charttitle)
+* класс [ChartTitle](../../charttitle)
 * пространство имен [Aspose.Slides.Charts](../../charttitle)
 * сборка [Aspose.Slides](../../../)
 

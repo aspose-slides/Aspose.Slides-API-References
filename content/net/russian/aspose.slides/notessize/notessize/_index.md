@@ -1,12 +1,13 @@
 ---
 title: NotesSize
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/notessize/notessize/
 ---
-## NotesSize constructor
+
+## Конструктор NotesSize
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/notessize/notessize/
 public NotesSize()
 ```
 
-### Смотрите также
+### См. также
 
-* class [NotesSize](../../notessize)
+* класс [NotesSize](../../notessize)
 * пространство имен [Aspose.Slides](../../notessize)
 * сборка [Aspose.Slides](../../../)
 

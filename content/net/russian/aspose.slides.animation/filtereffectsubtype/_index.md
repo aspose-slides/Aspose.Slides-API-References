@@ -1,22 +1,23 @@
 ---
 title: FilterEffectSubtype
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет подтипы эффекта фильтра.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет подтипы эффектов фильтра.
 type: docs
-weight: 290
+weight: 310
 url: /ru/aspose.slides.animation/filtereffectsubtype/
 ---
-## FilterEffectSubtype enumeration
 
-Представляет подтипы эффекта фильтра.
+## Перечисление FilterEffectSubtype
+
+Представляет подтипы эффектов фильтра.
 
 ```csharp
 public enum FilterEffectSubtype
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | None | `0` |  |
 | Across | `1` |  |
@@ -46,7 +47,7 @@ public enum FilterEffectSubtype
 | UpRight | `25` |  |
 | Vertical | `26` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

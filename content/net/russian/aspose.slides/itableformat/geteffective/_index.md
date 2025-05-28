@@ -1,14 +1,15 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные свойства форматирования таблицы с применением стилей наследования и таблиц.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает эффективные свойства форматирования таблицы с применением наследования и стилей таблицы.
 type: docs
-weight: 20
+weight: 30
 url: /ru/aspose.slides/itableformat/geteffective/
 ---
-## ITableFormat.GetEffective method
 
-Получает эффективные свойства форматирования таблицы с применением стилей наследования и таблиц.
+## ITableFormat.GetEffective метод
+
+Получает эффективные свойства форматирования таблицы с применением наследования и стилей таблицы.
 
 ```csharp
 public ITableFormatEffectiveData GetEffective()
@@ -16,12 +17,12 @@ public ITableFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`ITableFormatEffectiveData`](../../itableformateffectivedata).
+[`ITableFormatEffectiveData`](../../itableformateffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [ITableFormatEffectiveData](../../itableformateffectivedata)
-* interface [ITableFormat](../../itableformat)
+* интерфейс [ITableFormatEffectiveData](../../itableformateffectivedata)
+* интерфейс [ITableFormat](../../itableformat)
 * пространство имен [Aspose.Slides](../../itableformat)
 * сборка [Aspose.Slides](../../../)
 

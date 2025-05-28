@@ -6,7 +6,8 @@ type: docs
 weight: 110
 url: /ru/aspose.slides.mathtext/mathblock/getchildren/
 ---
-## MathBlock.GetChildren method
+
+## Метод MathBlock.GetChildren
 
 Получить дочерние элементы
 
@@ -14,10 +15,10 @@ url: /ru/aspose.slides.mathtext/mathblock/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IMathElement](../../imathelement)
-* class [MathBlock](../../mathblock)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

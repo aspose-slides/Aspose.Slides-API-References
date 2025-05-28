@@ -1,22 +1,23 @@
 ---
-title: Height
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает высоту элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle.
+title: Высота
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Указывает высоту элемента графика как долю от высоты графика. Чтение/запись Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/ilayoutable/height/
 ---
-## ILayoutable.Height property
 
-Задает высоту элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle.
+## Свойство ILayoutable.Height
+
+Указывает высоту элемента графика как долю от высоты графика. Чтение/запись Single.
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILayoutable](../../ilayoutable)
+* интерфейс [ILayoutable](../../ilayoutable)
 * пространство имен [Aspose.Slides.Charts](../../ilayoutable)
 * сборка [Aspose.Slides](../../../)
 

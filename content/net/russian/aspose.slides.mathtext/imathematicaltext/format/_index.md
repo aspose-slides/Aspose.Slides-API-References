@@ -1,12 +1,13 @@
 ---
-title: Format
+title: Формат
 second_title: Справочник по API Aspose.Slides для .NET
 description: Свойства форматирования текста
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathematicaltext/format/
 ---
-## IMathematicalText.Format property
+
+## Свойство IMathematicalText.Format
 
 Свойства форматирования текста
 
@@ -24,10 +25,10 @@ IMathematicalText mathText = new MathematicalText("x+y");
 mathText.Format.FontHeight = 28;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPortionFormat](../../../aspose.slides/iportionformat)
-* interface [IMathematicalText](../../imathematicaltext)
+* интерфейс [IPortionFormat](../../../aspose.slides/iportionformat)
+* интерфейс [IMathematicalText](../../imathematicaltext)
 * пространство имен [Aspose.Slides.MathText](../../imathematicaltext)
 * сборка [Aspose.Slides](../../../)
 

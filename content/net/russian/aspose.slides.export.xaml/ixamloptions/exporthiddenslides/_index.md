@@ -1,12 +1,13 @@
 ---
 title: ExportHiddenSlides
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет будут ли экспортироваться скрытые слайды.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Определяет, будут ли экспортироваться скрытые слайды.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export.xaml/ixamloptions/exporthiddenslides/
 ---
-## IXamlOptions.ExportHiddenSlides property
+
+## Свойство IXamlOptions.ExportHiddenSlides
 
 Определяет, будут ли экспортироваться скрытые слайды.
 
@@ -24,9 +25,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IXamlOptions](../../ixamloptions)
+* интерфейс [IXamlOptions](../../ixamloptions)
 * пространство имен [Aspose.Slides.Export.Xaml](../../ixamloptions)
 * сборка [Aspose.Slides](../../../)
 

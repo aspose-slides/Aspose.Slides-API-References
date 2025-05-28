@@ -1,22 +1,23 @@
 ---
-title: Width
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает ширину линии. Чтение/записьDouble.
+title: Ширина
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает или устанавливает ширину линии. Читаемое/записываемое значение типа Double.
 type: docs
 weight: 180
 url: /ru/aspose.slides/ilineformat/width/
 ---
-## ILineFormat.Width property
 
-Возвращает или задает ширину линии. Чтение/записьDouble.
+## Свойство ILineFormat.Width
+
+Возвращает или устанавливает ширину линии. Читаемое/записываемое значение типа Double.
 
 ```csharp
 public double Width { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILineFormat](../../ilineformat)
+* интерфейс [ILineFormat](../../ilineformat)
 * пространство имен [Aspose.Slides](../../ilineformat)
 * сборка [Aspose.Slides](../../../)
 

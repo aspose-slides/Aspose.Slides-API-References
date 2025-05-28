@@ -1,22 +1,23 @@
 ---
 title: CropLeft
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает количество процентов от реальной ширины изображения которые обрезаются слева от изображения. Чтение/записьSingle.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает или задает количество процентов фактической ширины изображения, которое обрезано слева от картинки. Чтение/запись Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ipicturefillformat/cropleft/
 ---
-## IPictureFillFormat.CropLeft property
 
-Возвращает или задает количество процентов от реальной ширины изображения, которые обрезаются слева от изображения. Чтение/записьSingle.
+## Свойство IPictureFillFormat.CropLeft
+
+Возвращает или задает количество процентов фактической ширины изображения, которое обрезано слева от картинки. Чтение/запись Single.
 
 ```csharp
 public float CropLeft { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPictureFillFormat](../../ipicturefillformat)
+* интерфейс [IPictureFillFormat](../../ipicturefillformat)
 * пространство имен [Aspose.Slides](../../ipicturefillformat)
 * сборка [Aspose.Slides](../../../)
 

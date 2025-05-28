@@ -1,22 +1,23 @@
 ---
 title: TransitionSideDirectionType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют типы перехода в боковом направлении.
+second_title: Ссылка по API Aspose.Slides для .NET
+description: Представляет типы переходов в сторону.
 type: docs
-weight: 9640
+weight: 10110
 url: /ru/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
-## TransitionSideDirectionType enumeration
 
-Представляют типы перехода в боковом направлении.
+## Перечисление TransitionSideDirectionType
+
+Представляет типы переходов в сторону.
 
 ```csharp
 public enum TransitionSideDirectionType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Left | `0` |  |
 | Up | `1` |  |

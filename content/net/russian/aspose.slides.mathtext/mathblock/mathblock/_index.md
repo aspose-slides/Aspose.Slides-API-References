@@ -1,11 +1,12 @@
 ---
 title: MathBlock
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр класса MathBlock.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathblock/mathblock/
 ---
+
 ## MathBlock() {#constructor}
 
 Инициализирует новый экземпляр класса MathBlock.
@@ -25,7 +26,7 @@ MathBlock mathBlock = new MathBlock();
 
 ### Смотрите также
 
-* class [MathBlock](../../mathblock)
+* класс [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 
@@ -41,7 +42,7 @@ public MathBlock(IMathElement mathElement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElement | IMathElement | Математический элемент для помещения в блок |
+| mathElement | IMathElement | Математический элемент, который будет помещен в блок |
 
 ### Примеры
 
@@ -54,8 +55,8 @@ MathBlock mathBlock = new MathBlock(new MathematicalText("x"));
 
 ### Смотрите также
 
-* interface [IMathElement](../../imathelement)
-* class [MathBlock](../../mathblock)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 
@@ -71,7 +72,7 @@ public MathBlock(IEnumerable<IMathElement> mathElements)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElements | IEnumerable`1 | Математические элементы для размещения в блоке |
+| mathElements | IEnumerable`1 | Математические элементы, которые будут помещены в блок |
 
 ### Примеры
 
@@ -85,8 +86,8 @@ MathBlock mathBlock = new MathBlock(elems);
 
 ### Смотрите также
 
-* interface [IMathElement](../../imathelement)
-* class [MathBlock](../../mathblock)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)
 * сборка [Aspose.Slides](../../../)
 

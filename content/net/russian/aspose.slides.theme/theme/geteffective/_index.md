@@ -1,12 +1,13 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Получает эффективные данные темы с примененным наследованием.
 type: docs
 weight: 50
 url: /ru/aspose.slides.theme/theme/geteffective/
 ---
-## Theme.GetEffective method
+
+## Метод Theme.GetEffective
 
 Получает эффективные данные темы с примененным наследованием.
 
@@ -16,7 +17,7 @@ public IThemeEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IThemeEffectiveData`](../../ithemeeffectivedata).
+[`IThemeEffectiveData`](../../ithemeeffectivedata).
 
 ### Примеры
 
@@ -28,16 +29,16 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 {
 	IThemeEffectiveData effectiveTheme  = pres.Slides[0].ThemeManager.OverrideTheme.GetEffective();
 
-	Console.WriteLine("Font scheme name: " + effectiveTheme.FontScheme.Name);
-	Console.WriteLine("Major latin font: " + effectiveTheme.FontScheme.Major.LatinFont.FontName);
-	Console.WriteLine("Minor latin font: " + effectiveTheme.FontScheme.Minor.LatinFont.FontName);
+	Console.WriteLine("Имя схемы шрифта: " + effectiveTheme.FontScheme.Name);
+	Console.WriteLine("Основной латинский шрифт: " + effectiveTheme.FontScheme.Major.LatinFont.FontName);
+	Console.WriteLine("Второстепенный латинский шрифт: " + effectiveTheme.FontScheme.Minor.LatinFont.FontName);
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IThemeEffectiveData](../../ithemeeffectivedata)
-* class [Theme](../../theme)
+* интерфейс [IThemeEffectiveData](../../ithemeeffectivedata)
+* класс [Theme](../../theme)
 * пространство имен [Aspose.Slides.Theme](../../theme)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: SetCustomPropertyValue
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Legt eine benannte boolesche benutzerdefinierte Eigenschaft fest.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Setzt eine benannte boolesche benutzerdefinierte Eigenschaft.
 type: docs
-weight: 310
+weight: 420
 url: /de/aspose.slides/idocumentproperties/setcustompropertyvalue/
 ---
+
 ## SetCustomPropertyValue(string, bool) {#setcustompropertyvalue}
 
-Legt eine benannte boolesche benutzerdefinierte Eigenschaft fest.
+Setzt eine benannte boolesche benutzerdefinierte Eigenschaft.
 
 ```csharp
 public void SetCustomPropertyValue(string name, bool value)
@@ -16,20 +17,20 @@ public void SetCustomPropertyValue(string name, bool value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der festzulegenden benutzerdefinierten Eigenschaft |
-| value | Boolean | Benutzerdefinierter Eigenschaftswert |
+| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| value | Boolean | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
 
-* interface [IDocumentProperties](../../idocumentproperties)
-* namensraum [Aspose.Slides](../../idocumentproperties)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IDocumentProperties](../../idocumentproperties)
+* Namespace [Aspose.Slides](../../idocumentproperties)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## SetCustomPropertyValue(string, int) {#setcustompropertyvalue_2}
 
-Legt eine benannte benutzerdefinierte Ganzzahleigenschaft fest.
+Setzt eine benannte ganzzahlige benutzerdefinierte Eigenschaft.
 
 ```csharp
 public void SetCustomPropertyValue(string name, int value)
@@ -37,20 +38,20 @@ public void SetCustomPropertyValue(string name, int value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der festzulegenden benutzerdefinierten Eigenschaft |
-| value | Int32 | Benutzerdefinierter Eigenschaftswert |
+| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| value | Int32 | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
 
-* interface [IDocumentProperties](../../idocumentproperties)
-* namensraum [Aspose.Slides](../../idocumentproperties)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IDocumentProperties](../../idocumentproperties)
+* Namespace [Aspose.Slides](../../idocumentproperties)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## SetCustomPropertyValue(string, DateTime) {#setcustompropertyvalue_4}
 
-Legt eine benannte benutzerdefinierte DateTime-Eigenschaft fest.
+Setzt eine benannte DateTime benutzerdefinierte Eigenschaft.
 
 ```csharp
 public void SetCustomPropertyValue(string name, DateTime value)
@@ -58,20 +59,20 @@ public void SetCustomPropertyValue(string name, DateTime value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der festzulegenden benutzerdefinierten Eigenschaft |
-| value | DateTime | Benutzerdefinierter Eigenschaftswert |
+| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| value | DateTime | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
 
-* interface [IDocumentProperties](../../idocumentproperties)
-* namensraum [Aspose.Slides](../../idocumentproperties)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IDocumentProperties](../../idocumentproperties)
+* Namespace [Aspose.Slides](../../idocumentproperties)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## SetCustomPropertyValue(string, string) {#setcustompropertyvalue_5}
 
-Legt eine benannte benutzerdefinierte Zeichenfolgeneigenschaft fest.
+Setzt eine benannte String benutzerdefinierte Eigenschaft.
 
 ```csharp
 public void SetCustomPropertyValue(string name, string value)
@@ -79,20 +80,20 @@ public void SetCustomPropertyValue(string name, string value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der festzulegenden benutzerdefinierten Eigenschaft |
-| value | String | Benutzerdefinierter Eigenschaftswert |
+| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| value | String | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
 
-* interface [IDocumentProperties](../../idocumentproperties)
-* namensraum [Aspose.Slides](../../idocumentproperties)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IDocumentProperties](../../idocumentproperties)
+* Namespace [Aspose.Slides](../../idocumentproperties)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## SetCustomPropertyValue(string, float) {#setcustompropertyvalue_3}
 
-Legt eine benannte benutzerdefinierte Float-Eigenschaft fest.
+Setzt eine benannte Float benutzerdefinierte Eigenschaft.
 
 ```csharp
 public void SetCustomPropertyValue(string name, float value)
@@ -100,20 +101,20 @@ public void SetCustomPropertyValue(string name, float value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der festzulegenden benutzerdefinierten Eigenschaft |
-| value | Single | Benutzerdefinierter Eigenschaftswert |
+| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| value | Single | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
 
-* interface [IDocumentProperties](../../idocumentproperties)
-* namensraum [Aspose.Slides](../../idocumentproperties)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IDocumentProperties](../../idocumentproperties)
+* Namespace [Aspose.Slides](../../idocumentproperties)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## SetCustomPropertyValue(string, double) {#setcustompropertyvalue_1}
 
-Legt eine benannte benutzerdefinierte Double-Eigenschaft fest.
+Setzt eine benannte Double benutzerdefinierte Eigenschaft.
 
 ```csharp
 public void SetCustomPropertyValue(string name, double value)
@@ -121,13 +122,13 @@ public void SetCustomPropertyValue(string name, double value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der festzulegenden benutzerdefinierten Eigenschaft |
-| value | Double | Benutzerdefinierter Eigenschaftswert |
+| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| value | Double | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
 
-* interface [IDocumentProperties](../../idocumentproperties)
-* namensraum [Aspose.Slides](../../idocumentproperties)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IDocumentProperties](../../idocumentproperties)
+* Namespace [Aspose.Slides](../../idocumentproperties)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

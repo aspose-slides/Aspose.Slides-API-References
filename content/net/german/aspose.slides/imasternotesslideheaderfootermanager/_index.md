@@ -1,14 +1,15 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Stellt den Manager dar der das Verhalten der Fußzeile der MasterNotizenFolie DatumUhrzeit Platzhalter für Seitenzahlen und aller untergeordneten Platzhalter enthält. Untergeordnete Platzhalter bedeuten dass Platzhalter auf abhängigen NotizenFolien enthalten sind. Abhängige NotizenFolien verwenden und hängen von der MasterNotizenFolie ab.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt einen Manager dar, der das Verhalten des Fußbereichs, der Datums-/Uhrzeit- und Seitenzahlen-Platzhalter der Master-Notizenseite sowie aller Kinder-Platzhalter hält. Kinder-Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizenseiten enthalten sind. Abhängige Notizenseiten verwenden und hängen von der Master-Notizenseite ab.
 type: docs
-weight: 5870
+weight: 6200
 url: /de/aspose.slides/imasternotesslideheaderfootermanager/
 ---
-## IMasterNotesSlideHeaderFooterManager interface
 
-Stellt den Manager dar, der das Verhalten der Fußzeile der Master-Notizen-Folie, Datum-Uhrzeit, Platzhalter für Seitenzahlen und aller untergeordneten Platzhalter enthält. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizen-Folien enthalten sind. Abhängige Notizen-Folien verwenden und hängen von der Master-Notizen-Folie ab.
+## IMasterNotesSlideHeaderFooterManager-Schnittstelle
+
+Stellt einen Manager dar, der das Verhalten des Fußbereichs, der Datums-/Uhrzeit- und Seitenzahlen-Platzhalter der Master-Notizenseite sowie aller Kinder-Platzhalter hält. Kinder-Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizenseiten enthalten sind. Abhängige Notizenseiten verwenden und hängen von der Master-Notizenseite ab.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,24 +19,24 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Gibt IBaseHandoutNotesSlideHeaderFooterManag-Schnittstelle zurück. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Gibt die IBaseHandoutNotesSlideHeaderFooterManag-Schnittstelle zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Legt Text für den Datum-Uhrzeit-Platzhalter der Master-Notizenfolie und alle untergeordneten Platzhalter für Datum und Uhrzeit fest. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizfolien enthalten sind. Abhängige Notizfolien verwenden und hängen von der Master-Notizenfolie ab. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändert Datum-Uhrzeit-Platzhalter auf der Master-Notizen-Folie und die Sichtbarkeit aller untergeordneten Datum-Uhrzeit-Platzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizen-Folien enthalten sind. Abhängige Notizen-Folien verwenden und hängen von der Master-Notizen-Folie ab. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Legt Text für den Fußzeilenplatzhalter der Hauptnotizenfolie und alle untergeordneten Fußzeilenplatzhalter fest. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizfolien enthalten sind. Abhängige Notizfolien verwenden und hängen von der Hauptnotizfolie ab. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändert den Fußzeilenplatzhalter der Hauptnotizenfolie und die Sichtbarkeit aller untergeordneten Fußzeilenplatzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizfolien enthalten sind. Abhängige Notizfolien verwenden und hängen von der Hauptnotizfolie ab. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Setzt Text auf den Kopfzeilenplatzhalter der Hauptnotizenfolie und alle untergeordneten Kopfzeilenplatzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizfolien enthalten sind. Abhängige Notizfolien verwenden und hängen von der Hauptnotizfolie ab. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Ändert den Kopfzeilenplatzhalter der Hauptnotizenfolie und die Sichtbarkeit aller untergeordneten Kopfzeilenplatzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizfolien enthalten sind. Abhängige Notizfolien verwenden und hängen von der Hauptnotizfolie ab. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändert den Seitennummer-Platzhalter der Master-Notizenfolie und die Sichtbarkeit aller untergeordneten Platzhalter für die Seitennummer. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizfolien enthalten sind. Abhängige Notizfolien verwenden und hängen von der Master-Notizfolie ab. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Setzt den Text für den Datums-/Uhrzeit-Platzhalter der Master-Notizenseite und alle Kinder-Datums-/Uhrzeit-Platzhalter. Kinder-Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizenseiten enthalten sind. Abhängige Notizenseiten verwenden und hängen von der Master-Notizenseite ab. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändert die Sichtbarkeit des Datums-/Uhrzeit-Platzhalters der Master-Notizenseite und aller Kinder-Datums-/Uhrzeit-Platzhalter. Kinder-Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizenseiten enthalten sind. Abhängige Notizenseiten verwenden und hängen von der Master-Notizenseite ab. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Setzt den Text für den Fußbereich-Platzhalter der Master-Notizenseite und alle Kinder-Fußbereich-Platzhalter. Kinder-Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizenseiten enthalten sind. Abhängige Notizenseiten verwenden und hängen von der Master-Notizenseite ab. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändert die Sichtbarkeit des Fußbereich-Platzhalters der Master-Notizenseite und aller Kinder-Fußbereich-Platzhalter. Kinder-Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizenseiten enthalten sind. Abhängige Notizenseiten verwenden und hängen von der Master-Notizenseite ab. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Setzt den Text für den Kopfbereich-Platzhalter der Master-Notizenseite und alle Kinder-Kopfbereich-Platzhalter. Kinder-Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizenseiten enthalten sind. Abhängige Notizenseiten verwenden und hängen von der Master-Notizenseite ab. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Ändert die Sichtbarkeit des Kopfbereich-Platzhalters der Master-Notizenseite und aller Kinder-Kopfbereich-Platzhalter. Kinder-Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizenseiten enthalten sind. Abhängige Notizenseiten verwenden und hängen von der Master-Notizenseite ab. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändert die Sichtbarkeit des Seitenzahlen-Platzhalters der Master-Notizenseite und aller Kinder-Seitenzahlen-Platzhalter. Kinder-Platzhalter bedeuten, dass Platzhalter auf abhängigen Notizenseiten enthalten sind. Abhängige Notizenseiten verwenden und hängen von der Master-Notizenseite ab. |
 
 ### Siehe auch
 
-* interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
-* namensraum [Aspose.Slides](../../aspose.slides)
-* Montage [Aspose.Slides](../../)
+* Schnittstelle [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* Namespace [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

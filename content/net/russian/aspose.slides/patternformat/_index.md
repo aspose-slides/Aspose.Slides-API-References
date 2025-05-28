@@ -1,41 +1,42 @@
 ---
 title: PatternFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет шаблон для заполнения фигуры.
 type: docs
-weight: 8620
+weight: 9080
 url: /ru/aspose.slides/patternformat/
 ---
-## PatternFormat class
+
+## Класс PatternFormat
 
 Представляет шаблон для заполнения фигуры.
 
 ```csharp
-public class PatternFormat : PVIObject, IPatternFormat
+public sealed class PatternFormat : PVIObject, IPatternFormat
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Возвращает цвет фонового узора. Только для чтения[`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Возвращает цвет шаблона переднего плана. Только для чтения[`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Возвращает или задает стиль узора. Чтение/запись[`PatternStyle`](../patternstyle). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Возвращает цвет фона шаблона. Только для чтения [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Возвращает цвет переднего плана шаблона. Только для чтения [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Возвращает или устанавливает стиль шаблона. Чтение/запись [`PatternStyle`](../patternstyle). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
-| [GetTileImage](../../aspose.slides/patternformat/gettileimage#gettileimage)(Color) | Создает мозаичное изображение для заливки узором. |
-| [GetTileImage](../../aspose.slides/patternformat/gettileimage#gettileimage_1)(Color, Color) | Создает мозаичное изображение для заливки узором указанными цветами. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хеш-код. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Создает изображение плитки для заполнения шаблона. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Создает изображение плитки для заполнения шаблона с указанными цветами. |
 
 ### Смотрите также
 
-* class [PVIObject](../pviobject)
-* interface [IPatternFormat](../ipatternformat)
+* класс [PVIObject](../pviobject)
+* интерфейс [IPatternFormat](../ipatternformat)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

@@ -1,14 +1,15 @@
 ---
 title: AnimateShapes
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает параметры анимации фигур. Чтение/записьBoolean.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает опцию анимации форм. Чтение/запись Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export.web/webdocumentoptions/animateshapes/
 ---
-## WebDocumentOptions.AnimateShapes property
 
-Возвращает или устанавливает параметры анимации фигур. Чтение/записьBoolean.
+## Свойство WebDocumentOptions.AnimateShapes
+
+Возвращает или устанавливает опцию анимации форм. Чтение/запись Boolean.
 
 ```csharp
 public bool AnimateShapes { get; set; }
@@ -16,7 +17,7 @@ public bool AnimateShapes { get; set; }
 
 ### Смотрите также
 
-* class [WebDocumentOptions](../../webdocumentoptions)
+* класс [WebDocumentOptions](../../webdocumentoptions)
 * пространство имен [Aspose.Slides.Export.Web](../../webdocumentoptions)
 * сборка [Aspose.Slides](../../../)
 

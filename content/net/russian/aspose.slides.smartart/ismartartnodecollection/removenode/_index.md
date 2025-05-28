@@ -1,11 +1,12 @@
 ---
-title: RemoveNode
-second_title: Справочник по API Aspose.Slides для .NET
+title: УдалитьУзел
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удалить узел или подузел по индексу.
 type: docs
 weight: 40
 url: /ru/aspose.slides.smartart/ismartartnodecollection/removenode/
 ---
+
 ## RemoveNode(int) {#removenode_1}
 
 Удалить узел или подузел по индексу.
@@ -16,17 +17,17 @@ public void RemoveNode(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс узла с отсчетом от нуля |
+| index | Int32 | Индекс узла, начиная с нуля |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | index меньше 0. -or- index больше или равен числу братьев и сестер. |
+| ArgumentOutOfRangeException | индекс меньше 0. -или- индекс равен или больше количества родственных узлов. |
 
-### Смотрите также
+### См. также
 
-* interface [ISmartArtNodeCollection](../../ismartartnodecollection)
+* интерфейс [ISmartArtNodeCollection](../../ismartartnodecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../ismartartnodecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,10 +45,10 @@ public void RemoveNode(ISmartArtNode nodeObj)
 | --- | --- | --- |
 | nodeObj | ISmartArtNode | Узел для удаления. |
 
-### Смотрите также
+### См. также
 
-* interface [ISmartArtNode](../../ismartartnode)
-* interface [ISmartArtNodeCollection](../../ismartartnodecollection)
+* интерфейс [ISmartArtNode](../../ismartartnode)
+* интерфейс [ISmartArtNodeCollection](../../ismartartnodecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../ismartartnodecollection)
 * сборка [Aspose.Slides](../../../)
 

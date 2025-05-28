@@ -1,22 +1,23 @@
 ---
 title: Seek
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает позицию в текущем потоке
+second_title: Aspose.Sildes для .NET API Справочник
+description: Устанавливает позицию внутри текущего потока
 type: docs
 weight: 130
 url: /ru/aspose.slides/streamwrapper/seek/
 ---
-## StreamWrapper.Seek method
 
-Устанавливает позицию в текущем потоке
+## Метод StreamWrapper.Seek
+
+Устанавливает позицию внутри текущего потока
 
 ```csharp
 public long Seek(long offset, SeekOrigin origin)
 ```
 
-### Смотрите также
+### Также смотри
 
-* class [StreamWrapper](../../streamwrapper)
+* класс [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

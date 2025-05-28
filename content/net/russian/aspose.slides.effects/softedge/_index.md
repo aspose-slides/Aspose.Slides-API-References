@@ -1,36 +1,37 @@
 ---
 title: SoftEdge
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект мягкого края. Края фигуры размыты а заливка не затронута.
+second_title: Aspose.Slides для .NET API Reference
+description: Представляет эффект мягкого края. Края фигуры размыты, в то время как заливка не затрагивается.
 type: docs
-weight: 3450
+weight: 3530
 url: /ru/aspose.slides.effects/softedge/
 ---
-## SoftEdge class
 
-Представляет эффект мягкого края. Края фигуры размыты, а заливка не затронута.
+## Класс SoftEdge
+
+Представляет эффект мягкого края. Края фигуры размыты, в то время как заливка не затрагивается.
 
 ```csharp
-public class SoftEdge : ISoftEdge
+public sealed class SoftEdge : ISoftEdge
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Указывает радиус размытия, применяемый к краям. Чтение/записьDouble. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Указывает радиус размытия, который нужно применить к краям. Чтение/запись Double. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Определяет, равен ли указанный[`SoftEdge`](../softedge)текущемуSoftEdge. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Получает эффективные данные эффекта Soft Edge с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Определяет, равен ли указанный [`SoftEdge`](../softedge) текущему [`SoftEdge`](../softedge). |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Получает данные эффекта Soft Edge с применённым наследованием. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Служит хеш-функцией для конкретного типа. |
 
-### Смотрите также
+### См. также
 
-* interface [ISoftEdge](../isoftedge)
+* интерфейс [ISoftEdge](../isoftedge)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

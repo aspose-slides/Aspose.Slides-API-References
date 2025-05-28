@@ -1,22 +1,23 @@
 ---
 title: CellUnsupportedDataException
-second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует новый экземпляр классаCellUnsupportedDataExceptionaspose.slides.spreadsheet/cellunsupporteddataexception.
+second_title: Aspose.Slides для .NET API Справочник
+description: Инициализирует новый экземпляр класса CellUnsupportedDataExceptionaspose.slides.spreadsheet/cellunsupporteddataexception.
 type: docs
 weight: 10
 url: /ru/aspose.slides.spreadsheet/cellunsupporteddataexception/cellunsupporteddataexception/
 ---
+
 ## CellUnsupportedDataException() {#constructor}
 
-Инициализирует новый экземпляр класса[`CellUnsupportedDataException`](../../cellunsupporteddataexception).
+Инициализирует новый экземпляр класса [`CellUnsupportedDataException`](../../cellunsupporteddataexception).
 
 ```csharp
 public CellUnsupportedDataException()
 ```
 
-### Смотрите также
+### См. также
 
-* class [CellUnsupportedDataException](../../cellunsupporteddataexception)
+* класс [CellUnsupportedDataException](../../cellunsupporteddataexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellunsupporteddataexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -24,7 +25,7 @@ public CellUnsupportedDataException()
 
 ## CellUnsupportedDataException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`CellUnsupportedDataException`](../../cellunsupporteddataexception)с указанной ошибкой сообщение.
+Инициализирует новый экземпляр класса [`CellUnsupportedDataException`](../../cellunsupporteddataexception) с заданным сообщением об ошибке.
 
 ```csharp
 public CellUnsupportedDataException(string message)
@@ -34,9 +35,9 @@ public CellUnsupportedDataException(string message)
 | --- | --- | --- |
 | message | String | Строка, описывающая ошибку. |
 
-### Смотрите также
+### См. также
 
-* class [CellUnsupportedDataException](../../cellunsupporteddataexception)
+* класс [CellUnsupportedDataException](../../cellunsupporteddataexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellunsupporteddataexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,7 +45,7 @@ public CellUnsupportedDataException(string message)
 
 ## CellUnsupportedDataException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`CellUnsupportedDataException`](../../cellunsupporteddataexception)с указанной ошибкой сообщение и ссылку на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр класса [`CellUnsupportedDataException`](../../cellunsupporteddataexception) с заданным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public CellUnsupportedDataException(string message, Exception innerException)
@@ -53,11 +54,11 @@ public CellUnsupportedDataException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Строка, описывающая ошибку. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения. |
+| innerException | Exception | Исключение, которое является причиной текущего исключения. |
 
-### Смотрите также
+### См. также
 
-* class [CellUnsupportedDataException](../../cellunsupporteddataexception)
+* класс [CellUnsupportedDataException](../../cellunsupporteddataexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../cellunsupporteddataexception)
 * сборка [Aspose.Slides](../../../)
 

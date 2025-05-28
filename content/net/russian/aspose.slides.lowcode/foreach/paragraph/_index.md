@@ -1,14 +1,15 @@
 ---
-title: Paragraph
-second_title: Справочник по API Aspose.Slides для .NET
-description: Итерировать каждыйParagraphaspose.slides.lowcode/foreach/paragraphвPresentationaspose.slides/presentation.  Формы будут повторяться во всех типах слайдов -Slideaspose.slides.lowcode/foreach/slideMasterSlideaspose.slides.lowcode/foreach/masterslideиLayoutSlideaspose.slides.lowcode/foreach/layoutslide
+title: Параграф
+second_title: Aspose.Slides для .NET API Справочник
+description: Перебрать каждый Параграфaspose.slides.lowcode/foreach/paragraph в Презентацииaspose.slides/presentation. Фигуры будут перебраны во всех типах слайдов - Слайдaspose.slides.lowcode/foreach/slide МастерСлайдaspose.slides.lowcode/foreach/masterslide и МакетСлайдaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 30
 url: /ru/aspose.slides.lowcode/foreach/paragraph/
 ---
-## ForEach.Paragraph method
 
-Итерировать каждый`Paragraph`в[`Presentation`](../../../aspose.slides/presentation).  Формы будут повторяться во всех типах слайдов -[`Slide`](../slide),[`MasterSlide`](../masterslide)и[`LayoutSlide`](../layoutslide):
+## Параграф(Presentation, ForEachParagraphCallback) {#paragraph_1}
+
+Перебрать каждый `Paragraph` в [`Presentation`](../../../aspose.slides/presentation). Фигуры будут перебраны во всех типах слайдов - [`Slide`](../slide), [`MasterSlide`](../masterslide) и [`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Paragraph(Presentation pres, ForEachParagraphCallback forEachParagraph)
@@ -16,8 +17,8 @@ public static void Paragraph(Presentation pres, ForEachParagraphCallback forEach
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Представление для повторения абзацев |
-| forEachParagraph | ForEachParagraphCallback | Обратный вызов, который будет вызываться для каждого абзаца |
+| pres | Presentation | Презентация для перебора параграфов |
+| forEachParagraph | ForEachParagraphCallback | Колбек, который будет вызван для каждого параграфа |
 
 ### Примеры
 
@@ -31,11 +32,48 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### Смотрите также
+### См. также
 
-* class [Presentation](../../../aspose.slides/presentation)
-* delegate [ForEachParagraphCallback](../../foreach.foreachparagraphcallback)
-* class [ForEach](../../foreach)
+* класс [Presentation](../../../aspose.slides/presentation)
+* делегат [ForEachParagraphCallback](../../foreach.foreachparagraphcallback)
+* класс [ForEach](../../foreach)
+* пространство имен [Aspose.Slides.LowCode](../../foreach)
+* сборка [Aspose.Slides](../../../)
+
+---
+
+## Параграф(Presentation, bool, ForEachParagraphCallback) {#paragraph}
+
+Перебрать каждый [`Paragraph`](../paragraph) в [`Presentation`](../../../aspose.slides/presentation). Фигуры будут перебраны во всех типах слайдов - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) и [`NotesSlide`](../../../aspose.slides/notesslide)
+
+```csharp
+public static void Paragraph(Presentation pres, bool includeNotes, 
+    ForEachParagraphCallback forEachParagraph)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| pres | Presentation | Презентация для перебора параграфов |
+| includeNotes | Boolean | Флаг, указывающий, следует ли включать NotesSlides в обработку. |
+| forEachParagraph | ForEachParagraphCallback | Колбек, который будет вызван для каждого параграфа |
+
+### Примеры
+
+```csharp
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    ForEach.Paragraph(pres, true, (para, slide, index) =>
+    {
+        System.Console.WriteLine($"{para.Text}, index: {index}");
+    });
+}        
+```
+
+### См. также
+
+* класс [Presentation](../../../aspose.slides/presentation)
+* делегат [ForEachParagraphCallback](../../foreach.foreachparagraphcallback)
+* класс [ForEach](../../foreach)
 * пространство имен [Aspose.Slides.LowCode](../../foreach)
 * сборка [Aspose.Slides](../../../)
 

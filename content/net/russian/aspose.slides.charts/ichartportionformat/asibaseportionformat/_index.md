@@ -1,12 +1,13 @@
 ---
 title: AsIBasePortionFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает интерфейс IBasePortionFormat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ichartportionformat/asibaseportionformat/
 ---
-## IChartPortionFormat.AsIBasePortionFormat property
+
+## IChartPortionFormat.AsIBasePortionFormat свойство
 
 Возвращает интерфейс IBasePortionFormat.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides.charts/ichartportionformat/asibaseportionformat/
 public IBasePortionFormat AsIBasePortionFormat { get; }
 ```
 
-### Примечания
+### Замечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IBasePortionFormat](../../../aspose.slides/ibaseportionformat)
-* interface [IChartPortionFormat](../../ichartportionformat)
+* интерфейс [IBasePortionFormat](../../../aspose.slides/ibaseportionformat)
+* интерфейс [IChartPortionFormat](../../ichartportionformat)
 * пространство имен [Aspose.Slides.Charts](../../ichartportionformat)
 * сборка [Aspose.Slides](../../../)
 

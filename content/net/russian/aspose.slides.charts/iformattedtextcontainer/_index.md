@@ -1,12 +1,13 @@
 ---
 title: IFormattedTextContainer
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет формат текста диаграммы.
 type: docs
-weight: 1970
+weight: 2030
 url: /ru/aspose.slides.charts/iformattedtextcontainer/
 ---
-## IFormattedTextContainer interface
+
+## Интерфейс IFormattedTextContainer
 
 Представляет формат текста диаграммы.
 
@@ -14,16 +15,16 @@ url: /ru/aspose.slides.charts/iformattedtextcontainer/
 public interface IFormattedTextContainer : IChartComponent
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Возвращает интерфейс IChartComponent. Только для чтения[`IChartComponent`](../ichartcomponent). |
-| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Возвращает формат текста диаграммы. Только чтение[`IChartTextFormat`](../icharttextformat). |
+| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Возвращает интерфейс IChartComponent. Только для чтения [`IChartComponent`](../ichartcomponent). |
+| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Возвращает формат текста диаграммы. Только для чтения [`IChartTextFormat`](../icharttextformat). |
 
-### Смотрите также
+### Также см.
 
-* interface [IChartComponent](../ichartcomponent)
+* интерфейс [IChartComponent](../ichartcomponent)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

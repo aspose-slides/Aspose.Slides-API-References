@@ -1,14 +1,15 @@
 ---
-title: Add
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет точку данных по ее индексу в коллекцию точек родительского ряда.
+title: Добавить
+second_title: Ссылки на API Aspose.Sildes для .NET
+description: Добавляет точку данных по индексу в коллекции точек родительской серии.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/ipiesplitcustompointcollection/add/
 ---
-## IPieSplitCustomPointCollection.Add method
 
-Добавляет точку данных по ее индексу в коллекцию точек родительского ряда.
+## Метод IPieSplitCustomPointCollection.Add
+
+Добавляет точку данных по индексу в коллекции точек родительской серии.
 
 ```csharp
 public void Add(int dataPointIndex)
@@ -16,11 +17,11 @@ public void Add(int dataPointIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataPointIndex | Int32 | Индекс точки данных в коллекции точек родительского ряда. |
+| dataPointIndex | Int32 | Индекс точки данных в коллекции точек родительской серии. |
 
 ### Смотрите также
 
-* interface [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
+* интерфейс [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ipiesplitcustompointcollection)
 * сборка [Aspose.Slides](../../../)
 

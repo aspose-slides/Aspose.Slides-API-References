@@ -1,14 +1,15 @@
 ---
-title: Output
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор выходных элементов документа. Только чтениеOutputaspose.slides.export.web/webdocument/output.
+title: Выход
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает коллекцию элементов вывода документа. Только для чтения Output aspose.slides.export.web/webdocument/output.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export.web/webdocument/output/
 ---
-## WebDocument.Output property
 
-Возвращает набор выходных элементов документа. Только чтение`Output`.
+## Свойство WebDocument.Output
+
+Возвращает коллекцию элементов вывода документа. Только для чтения `Output`.
 
 ```csharp
 public Output Output { get; }
@@ -29,18 +30,18 @@ using (Presentation pres = new Presentation("pres.pptx"))
     
     WebDocument document = new WebDocument(options);
 
-     // добавить «index.html» в выходные файлы, используя шаблон «index» для его создания и переменную pre как model
+    // добавляем "index.html" в выходные файлы, используя шаблон "index" для его генерации и переменную pres как модель
     document.Output.Add("index.html", "index", pres);
 
-     // ... настраиваем другие параметры документа и затем сохраняем document
+    // ... настраиваем другие параметры документа и затем сохраняем документ
     document.Save();
 }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [Output](../../output)
-* class [WebDocument](../../webdocument)
+* класс [Output](../../output)
+* класс [WebDocument](../../webdocument)
 * пространство имен [Aspose.Slides.Export.Web](../../webdocument)
 * сборка [Aspose.Slides](../../../)
 

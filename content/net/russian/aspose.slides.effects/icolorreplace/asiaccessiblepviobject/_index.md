@@ -1,24 +1,25 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/icolorreplace/asiaccessiblepviobject/
 ---
-## IColorReplace.AsIAccessiblePVIObject property
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+## IColorReplace.AsIAccessiblePVIObject свойство
+
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IColorReplaceEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* interface [IColorReplaceEffectiveData](../../icolorreplaceeffectivedata)
-* interface [IColorReplace](../../icolorreplace)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IColorReplaceEffectiveData](../../icolorreplaceeffectivedata)
+* интерфейс [IColorReplace](../../icolorreplace)
 * пространство имен [Aspose.Slides.Effects](../../icolorreplace)
 * сборка [Aspose.Slides](../../../)
 

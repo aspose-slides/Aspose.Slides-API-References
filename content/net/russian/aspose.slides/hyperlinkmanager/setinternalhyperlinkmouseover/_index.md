@@ -1,14 +1,15 @@
 ---
 title: SetInternalHyperlinkMouseOver
 second_title: Справочник по API Aspose.Slides для .NET
-description: Наводит указатель мыши на внутреннюю гиперссылку.
+description: Устанавливает эффект наведения для внутренней гиперссылки.
 type: docs
 weight: 60
 url: /ru/aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover/
 ---
-## HyperlinkManager.SetInternalHyperlinkMouseOver method
 
-Наводит указатель мыши на внутреннюю гиперссылку.
+## Метод HyperlinkManager.SetInternalHyperlinkMouseOver
+
+Устанавливает эффект наведения для внутренней гиперссылки.
 
 ```csharp
 public IHyperlink SetInternalHyperlinkMouseOver(ISlide targetSlide)
@@ -16,7 +17,7 @@ public IHyperlink SetInternalHyperlinkMouseOver(ISlide targetSlide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| targetSlide | ISlide | Целевой слайд. |
+| targetSlide | ISlide | Целевая слайд. |
 
 ### Возвращаемое значение
 
@@ -24,9 +25,9 @@ public IHyperlink SetInternalHyperlinkMouseOver(ISlide targetSlide)
 
 ### Смотрите также
 
-* interface [IHyperlink](../../ihyperlink)
-* interface [ISlide](../../islide)
-* class [HyperlinkManager](../../hyperlinkmanager)
+* интерфейс [IHyperlink](../../ihyperlink)
+* интерфейс [ISlide](../../islide)
+* класс [HyperlinkManager](../../hyperlinkmanager)
 * пространство имен [Aspose.Slides](../../hyperlinkmanager)
 * сборка [Aspose.Slides](../../../)
 

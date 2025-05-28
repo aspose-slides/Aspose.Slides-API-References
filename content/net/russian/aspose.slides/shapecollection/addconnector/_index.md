@@ -1,14 +1,15 @@
 ---
 title: AddConnector
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый коннектор настраивает его из шаблона по умолчанию и добавляет в конец коллекции.
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает новый соединитель, настраивает его на основе шаблона по умолчанию и добавляет в конец коллекции.
 type: docs
 weight: 120
 url: /ru/aspose.slides/shapecollection/addconnector/
 ---
+
 ## AddConnector(ShapeType, float, float, float, float) {#addconnector}
 
-Создает новый коннектор, настраивает его из шаблона по умолчанию и добавляет в конец коллекции.
+Создает новый соединитель, настраивает его на основе шаблона по умолчанию и добавляет в конец коллекции.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height)
@@ -16,23 +17,50 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| shapeType | ShapeType | [`ShapeType`](../../shapetype) фигуры. |
+| x | Single | X-координата для левой стороны рамки фигуры. |
+| y | Single | Y-координата для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
 
 ### Возвращаемое значение
 
-Отсчитываемый от нуля индекс созданной фигуры.
+Индекс на основе нуля созданной фигуры.
 
-Создан объект-коннектор.
+Созданный объект Connector.
 
-### Смотрите также
+### Примеры
 
-* interface [IConnector](../../iconnector)
-* enum [ShapeType](../../shapetype)
-* class [ShapeCollection](../../shapecollection)
+Следующий пример показывает, как добавить соединитель (изогнутый соединитель) между двумя фигурами (эллипсом и прямоугольником) в презентации PowerPoint.
+
+```csharp
+[C#]
+// Создает экземпляр класса презентации, представляющего файл PPTX
+using (Presentation input = new Presentation())
+{
+    // Доступ к коллекции фигур для конкретного слайда
+    IShapeCollection shapes = input.Slides[0].Shapes;
+    // Добавляет эллипс
+    IAutoShape ellipse = shapes.AddAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
+    // Добавляет прямоугольник
+    IAutoShape rectangle = shapes.AddAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
+    // Добавляет фигуру соединителя в коллекцию фигур слайда
+    IConnector connector = shapes.AddConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
+    // Соединяет фигуры с помощью соединителя
+    connector.StartShapeConnectedTo = ellipse;
+    connector.EndShapeConnectedTo = rectangle;
+    // Вызывает перенациализацию, которая устанавливает автоматический самый короткий путь между фигурами
+    connector.Reroute();
+    // Сохраняет презентацию
+    input.Save("Shapes-connector.pptx", SaveFormat.Pptx);
+}
+```
+
+### Также смотрите
+
+* интерфейс [IConnector](../../iconnector)
+* перечисление [ShapeType](../../shapetype)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -40,7 +68,7 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 ## AddConnector(ShapeType, float, float, float, float, bool) {#addconnector_1}
 
-Создает новый коннектор и добавляет его в конец коллекции.
+Создает новый соединитель и добавляет его в конец коллекции.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height, 
@@ -49,24 +77,24 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| shapeType | ShapeType | [`ShapeType`](../../shapetype) фигуры. |
+| x | Single | X-координата для левой стороны рамки фигуры. |
+| y | Single | Y-координата для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
-| createFromTemplate | Boolean | Если true, то новая форма будет настроена из шаблона по умолчанию. Непустое имя, простой стиль, текст по центру будет присвоен новой форме. Если false, то все значения свойств новой формы будут иметь значения по умолчанию. |
+| createFromTemplate | Boolean | Если true, новая фигура будет настроена на основе шаблона по умолчанию. Имя не пустое, простой стиль, текст по центру будет назначен новой фигуре. Если false, все значения свойств новой фигуры будут иметь значения по умолчанию. |
 
 ### Возвращаемое значение
 
-Отсчитываемый от нуля индекс созданной формы.
+Индекс на основе нуля созданной фигуры.
 
-Создан объект-коннектор.
+Созданный объект Connector.
 
-### Смотрите также
+### Также смотрите
 
-* interface [IConnector](../../iconnector)
-* enum [ShapeType](../../shapetype)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IConnector](../../iconnector)
+* перечисление [ShapeType](../../shapetype)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

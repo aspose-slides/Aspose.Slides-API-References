@@ -1,23 +1,24 @@
 ---
 title: GlowEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект свечения. Только для чтенияIGlowEffectiveDataaspose.slides.effects/igloweffectivedata.
+second_title: Aspose.Sildes для .NET API Reference
+description: Эффект свечения. Только для чтения IGlowEffectiveDataaspose.slides.effects/igloweffectivedata.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ieffectformateffectivedata/gloweffect/
 ---
-## IEffectFormatEffectiveData.GlowEffect property
 
-Эффект свечения. Только для чтения[`IGlowEffectiveData`](../../../aspose.slides.effects/igloweffectivedata).
+## Свойство IEffectFormatEffectiveData.GlowEffect
+
+Эффект свечения. Только для чтения [`IGlowEffectiveData`](../../../aspose.slides.effects/igloweffectivedata).
 
 ```csharp
 public IGlowEffectiveData GlowEffect { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IGlowEffectiveData](../../../aspose.slides.effects/igloweffectivedata)
-* interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
+* интерфейс [IGlowEffectiveData](../../../aspose.slides.effects/igloweffectivedata)
+* интерфейс [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * пространство имен [Aspose.Slides](../../ieffectformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

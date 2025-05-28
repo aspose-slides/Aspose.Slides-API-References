@@ -1,33 +1,34 @@
 ---
 title: IColorEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет цветовой эффект для поведения анимации.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Представляет цветовой эффект для анимационного поведения.
 type: docs
-weight: 360
+weight: 380
 url: /ru/aspose.slides.animation/icoloreffect/
 ---
-## IColorEffect interface
 
-Представляет цветовой эффект для поведения анимации.
+## Интерфейс IColorEffect
+
+Представляет цветовой эффект для анимационного поведения.
 
 ```csharp
 public interface IColorEffect : IBehavior
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBeavior. Только для чтения[`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Описывает значение относительного смещения для цветовой анимации. Чтение/запись[`IColorOffset`](../icoloroffset). |
-| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | Представляют цветовое пространство поведения. Чтение/запись[`ColorSpace`](./colorspace). |
-| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Указывает, в каком направлении циклически перемещать оттенок по цветовому кругу. Чтение/запись[`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | Это значение используется для указания начального цвета поведения. Чтение/запись[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Описывает результирующий цвет для изменения цвета анимации. Чтение/запись[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Описывает относительное значение смещения для цветовой анимации. Чтение/запись [`IColorOffset`](../icoloroffset). |
+| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | Представляет цветовое пространство поведения. Чтение/запись [`ColorSpace`](./colorspace). |
+| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Указывает, в каком направлении изменять оттенок вокруг цветового круга. Чтение/запись [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | Это значение используется для указания начального цвета поведения. Чтение/запись [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Описывает результирующий цвет для изменения цвета анимации. Чтение/запись [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Смотрите также
+### См. также
 
-* interface [IBehavior](../ibehavior)
+* интерфейс [IBehavior](../ibehavior)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

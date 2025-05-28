@@ -1,14 +1,15 @@
 ---
 title: SoftEdgeEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Мягкий край. Только чтениеISoftEdgeEffectiveDataaspose.slides.effects/isoftedgeeffectivedata.
+second_title: Aspose.Slides для .NET API Справочник
+description: Мягкий край. Только для чтения ISoftEdgeEffectiveDataaspose.slides.effects/isoftedgeeffectivedata.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ieffectformateffectivedata/softedgeeffect/
 ---
-## IEffectFormatEffectiveData.SoftEdgeEffect property
 
-Мягкий край. Только чтение[`ISoftEdgeEffectiveData`](../../../aspose.slides.effects/isoftedgeeffectivedata).
+## Свойство IEffectFormatEffectiveData.SoftEdgeEffect
+
+Мягкий край. Только для чтения [`ISoftEdgeEffectiveData`](../../../aspose.slides.effects/isoftedgeeffectivedata).
 
 ```csharp
 public ISoftEdgeEffectiveData SoftEdgeEffect { get; }
@@ -16,8 +17,8 @@ public ISoftEdgeEffectiveData SoftEdgeEffect { get; }
 
 ### Смотрите также
 
-* interface [ISoftEdgeEffectiveData](../../../aspose.slides.effects/isoftedgeeffectivedata)
-* interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
+* интерфейс [ISoftEdgeEffectiveData](../../../aspose.slides.effects/isoftedgeeffectivedata)
+* интерфейс [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * пространство имен [Aspose.Slides](../../ieffectformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

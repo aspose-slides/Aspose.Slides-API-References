@@ -1,14 +1,15 @@
 ---
 title: InterruptionTokenSource
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет источникInterruptionToken./interruptiontoken.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет источник InterruptionToken./interruptiontoken.
 type: docs
-weight: 6920
+weight: 7370
 url: /ru/aspose.slides/interruptiontokensource/
 ---
-## InterruptionTokenSource class
 
-Представляет источник[`InterruptionToken`](../interruptiontoken).
+## Класс InterruptionTokenSource
+
+Представляет источник [`InterruptionToken`](../interruptiontoken).
 
 ```csharp
 public class InterruptionTokenSource : IInterruptionTokenSource
@@ -18,24 +19,24 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 | Имя | Описание |
 | --- | --- |
-| [InterruptionTokenSource](interruptiontokensource)() | Создает новый[`InterruptionTokenSource`](../interruptiontokensource). |
+| [InterruptionTokenSource](interruptiontokensource)() | Создает новый [`InterruptionTokenSource`](../interruptiontokensource). |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | Возвращает true, если запрошено прерывание, иначе false. |
-| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | Возвращает новый токен, привязанный к этому[`InterruptionTokenSource`](../interruptiontokensource). |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | Возвращает true, если запрос на прерывание сделан, иначе false. |
+| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | Возвращает новый токен, связанный с этим [`InterruptionTokenSource`](../interruptiontokensource). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Инициализировать запрос на прерывание. |
+| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Инициализирует запрос на прерывание. |
 
 ### Смотрите также
 
-* interface [IInterruptionTokenSource](../iinterruptiontokensource)
+* интерфейс [IInterruptionTokenSource](../iinterruptiontokensource)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

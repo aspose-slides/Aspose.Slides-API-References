@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.export/embeddedeotfontshtmlcontroller/embeddedeotfontshtmlcontroller/
 ---
+
 ## EmbeddedEotFontsHtmlController() {#constructor}
 
 Создает новый экземпляр.
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.export/embeddedeotfontshtmlcontroller/embeddedeotfontshtm
 public EmbeddedEotFontsHtmlController()
 ```
 
-### Смотрите также
+### См. также
 
-* class [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller)
+* класс [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embeddedeotfontshtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 
@@ -34,10 +35,10 @@ public EmbeddedEotFontsHtmlController(IHtmlFormattingController controller)
 | --- | --- | --- |
 | controller | IHtmlFormattingController | Контроллер форматирования HTML. |
 
-### Смотрите также
+### См. также
 
-* interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
-* class [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller)
+* интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
+* класс [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embeddedeotfontshtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,20 +1,21 @@
 ---
-title: AddChart
+title: 添加图表
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新图表使用示例系列数据和设置对其进行初始化并将 添加到集合的末尾
+description: 创建一个新图表，用示例系列数据和设置初始化，并将其添加到集合末尾。
 type: docs
 weight: 100
 url: /zh/aspose.slides/shapecollection/addchart/
 ---
+
 ## AddChart(ChartType, float, float, float, float) {#addchart}
 
-创建一个新图表，使用示例系列数据和设置对其进行初始化，并将 添加到集合的末尾。
+创建一个新图表，用示例系列数据和设置初始化，并将其添加到集合末尾。
 
 ```csharp
 public IChart AddChart(ChartType type, float x, float y, float width, float height)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | type | ChartType | 图表类型。 |
 | x | Single | 新图表的 X 坐标。 |
@@ -24,46 +25,114 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 
 ### 返回值
 
-创建图表。
+创建的图表。
 
-### 也可以看看
+### 示例
 
-* interface [IChart](../../../aspose.slides.charts/ichart)
-* enum [ChartType](../../../aspose.slides.charts/charttype)
-* class [ShapeCollection](../../shapecollection)
+以下示例展示了如何在 PowerPoint 演示文稿中创建图表。
+
+```csharp
+[C#]
+// 实例化表示 PPTX 文件的 Presentation 类
+using(Presentation pres = new Presentation()) {
+  // 访问第一张幻灯片
+  ISlide sld = pres.Slides[0];
+  // 添加带有默认数据的图表
+  IChart chart = sld.Shapes.AddChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
+  // 设置图表标题
+  chart.ChartTitle.AddTextFrameForOverriding("示例标题");
+  chart.ChartTitle.TextFrameForOverriding.TextFrameFormat.CenterText = NullableBool.True;
+  chart.ChartTitle.Height = 20;
+  chart.HasTitle = true;
+  // 设置第一系列显示值
+  chart.ChartData.Series[0].Labels.DefaultDataLabelFormat.ShowValue = true;
+  // 设置图表数据表的索引
+  int defaultWorksheetIndex = 0;
+  // 获取图表数据工作表
+  IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
+  // 删除默认生成的系列和类别
+  chart.ChartData.Series.Clear();
+  chart.ChartData.Categories.Clear();
+  int s = chart.ChartData.Series.Count;
+  s = chart.ChartData.Categories.Count;
+  // 添加新系列
+  chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 0, 1, "系列 1"), chart.Type);
+  chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 0, 2, "系列 2"), chart.Type);
+  // 添加新类别
+  chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 1, 0, "类别 1"));
+  chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 2, 0, "类别 2"));
+  chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 3, 0, "类别 3"));
+  // 获取第一个图表系列
+  IChartSeries series = chart.ChartData.Series[0];
+  // 填充系列数据
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, 20));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, 50));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, 30));
+  // 设置系列的填充颜色
+  series.Format.Fill.FillType = FillType.Solid;
+  series.Format.Fill.SolidFillColor.Color = Color.Red;
+  // 获取第二个图表系列
+  series = chart.ChartData.Series[1];
+  // 填充系列数据
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 1, 2, 30));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 2, 2, 10));
+  series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 3, 2, 60));
+  // 设置系列的填充颜色
+  series.Format.Fill.FillType = FillType.Solid;
+  series.Format.Fill.SolidFillColor.Color = Color.Green;
+  // 设置第一个标签显示类别名称
+  IDataLabel lbl = series.DataPoints[0].Label;
+  lbl.DataLabelFormat.ShowCategoryName = true;
+  lbl = series.DataPoints[1].Label;
+  lbl.DataLabelFormat.ShowSeriesName = true;
+  // 设置系列显示第三个标签的值
+  lbl = series.DataPoints[2].Label;
+  lbl.DataLabelFormat.ShowValue = true;
+  lbl.DataLabelFormat.ShowSeriesName = true;
+  lbl.DataLabelFormat.Separator = "/";
+  // 将 PPTX 文件保存到磁盘
+  pres.Save("AsposeChart_out.pptx", SaveFormat.Pptx);
+}
+```
+
+### 另请参阅
+
+* 接口 [IChart](../../../aspose.slides.charts/ichart)
+* 枚举 [ChartType](../../../aspose.slides.charts/charttype)
+* 类 [ShapeCollection](../../shapecollection)
 * 命名空间 [Aspose.Slides](../../shapecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
 ## AddChart(ChartType, float, float, float, float, bool) {#addchart_1}
 
-创建一个新图表并将其添加到集合的末尾。
+创建一个新图表并将其添加到集合末尾。
 
 ```csharp
 public IChart AddChart(ChartType type, float x, float y, float width, float height, 
     bool initWithSample)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | type | ChartType | 图表类型。 |
 | x | Single | 新图表的 X 坐标。 |
 | y | Single | 新图表的 Y 坐标。 |
 | width | Single | 图表的宽度。 |
 | height | Single | 图表的高度。 |
-| initWithSample | Boolean | 如果为真，则新图表将使用样本系列数据和设置进行初始化。 如果为假，则新图表将没有系列和最小设置。在这种情况下 图表创建会更快。 |
+| initWithSample | Boolean | 如果为 true，则新图表将以示例系列数据和设置进行初始化。如果为 false，则新图表将没有系列和最少的设置。在这种情况下，图表创建将更快。 |
 
 ### 返回值
 
-创建图表。
+创建的图表。
 
-### 也可以看看
+### 另请参阅
 
-* interface [IChart](../../../aspose.slides.charts/ichart)
-* enum [ChartType](../../../aspose.slides.charts/charttype)
-* class [ShapeCollection](../../shapecollection)
+* 接口 [IChart](../../../aspose.slides.charts/ichart)
+* 枚举 [ChartType](../../../aspose.slides.charts/charttype)
+* 类 [ShapeCollection](../../shapecollection)
 * 命名空间 [Aspose.Slides](../../shapecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,175 +1,292 @@
 ---
 title: InsertFromHtml
-second_title: Aspose.Slides for .NET API 参考
-description: 从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中
+second_title: Aspose.Sildes for .NET API参考
+description: 从HTML文本创建幻灯片并将其插入到指定位置的集合中。
 type: docs
 weight: 90
 url: /zh/aspose.slides/islidecollection/insertfromhtml/
 ---
-## InsertFromHtml(int, string, IExternalResourceResolver, string) {#insertfromhtml_5}
 
-从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。
+## InsertFromHtml(int, string, IExternalResourceResolver, string) {#insertfromhtml_7}
+
+从HTML文本创建幻灯片并将其插入到指定位置的集合中。
 
 ```csharp
 public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceResolver resolver, 
     string uri)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要插入的位置。 |
-| htmlText | String | Html 添加。 |
-| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
-| uri | String | 指定 HTML 的 URI。用于解析相对链接。 |
+| index | Int32 | 插入位置。 |
+| htmlText | String | 要添加的Html。 |
+| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为null，则所有外部对象将被忽略。 |
+| uri | String | 指定HTML的URI。用于解析相对链接。 |
 
 ### 返回值
 
-添加了幻灯片。
+添加的幻灯片。
 
-### 也可以看看
+### 另见
 
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* interface [ISlideCollection](../../islidecollection)
+* 接口 [ISlide](../../islide)
+* 接口 [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* 接口 [ISlideCollection](../../islidecollection)
 * 命名空间 [Aspose.Slides](../../islidecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## InsertFromHtml(int, string) {#insertfromhtml_4}
+## InsertFromHtml(int, string) {#insertfromhtml_6}
 
-从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。
+从HTML文本创建幻灯片并将其插入到指定位置的集合中。
 
 ```csharp
 public ISlide[] InsertFromHtml(int index, string htmlText)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要插入的位置。 |
-| htmlText | String | Html 添加。 |
+| index | Int32 | 插入位置。 |
+| htmlText | String | 要添加的Html。 |
 
 ### 返回值
 
-添加幻灯片
+添加的幻灯片
 
-### 也可以看看
+### 另见
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
+* 接口 [ISlide](../../islide)
+* 接口 [ISlideCollection](../../islidecollection)
 * 命名空间 [Aspose.Slides](../../islidecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## InsertFromHtml(int, TextReader, IExternalResourceResolver, string) {#insertfromhtml_3}
+## InsertFromHtml(int, TextReader, IExternalResourceResolver, string) {#insertfromhtml_5}
 
-从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。
+从HTML文本创建幻灯片并将其插入到指定位置的集合中。
 
 ```csharp
 public ISlide[] InsertFromHtml(int index, TextReader htmlReader, 
     IExternalResourceResolver resolver, string uri)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要插入的位置。 |
-| htmlReader | TextReader | TextReader 对象，将用作 HTML 文件的源。 |
-| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
-| uri | String | 指定 HTML 的 URI。用于解析相对链接。 |
+| index | Int32 | 插入位置。 |
+| htmlReader | TextReader | 将用作HTML文件源的TextReader对象。 |
+| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为null，则所有外部对象将被忽略。 |
+| uri | String | 指定HTML的URI。用于解析相对链接。 |
 
 ### 返回值
 
-添加了幻灯片。
+添加的幻灯片。
 
-### 也可以看看
+### 另见
 
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* interface [ISlideCollection](../../islidecollection)
+* 接口 [ISlide](../../islide)
+* 接口 [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* 接口 [ISlideCollection](../../islidecollection)
 * 命名空间 [Aspose.Slides](../../islidecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## InsertFromHtml(int, TextReader) {#insertfromhtml_2}
+## InsertFromHtml(int, TextReader) {#insertfromhtml_4}
 
-从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。
+从HTML文本创建幻灯片并将其插入到指定位置的集合中。
 
 ```csharp
 public ISlide[] InsertFromHtml(int index, TextReader htmlReader)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要插入的位置。 |
-| htmlReader | TextReader | TextReader 对象，将用作 HTML 文件的源。 |
+| index | Int32 | 插入位置。 |
+| htmlReader | TextReader | 将用作HTML文件源的TextReader对象。 |
 
 ### 返回值
 
-添加幻灯片
+添加的幻灯片
 
-### 也可以看看
+### 另见
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
+* 接口 [ISlide](../../islide)
+* 接口 [ISlideCollection](../../islidecollection)
 * 命名空间 [Aspose.Slides](../../islidecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
 ## InsertFromHtml(int, Stream, IExternalResourceResolver, string) {#insertfromhtml_1}
 
-从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。
+从HTML文本创建幻灯片并将其插入到指定位置的集合中。
 
 ```csharp
 public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceResolver resolver, 
     string uri)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要插入的位置。 |
-| htmlStream | Stream | 将用作 HTML 文件源的 Stream 对象。 |
-| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
-| uri | String | 指定 HTML 的 URI。用于解析相对链接。 |
+| index | Int32 | 插入位置。 |
+| htmlStream | Stream | 将用作HTML文件源的Stream对象。 |
+| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为null，则所有外部对象将被忽略。 |
+| uri | String | 指定HTML的URI。用于解析相对链接。 |
 
 ### 返回值
 
-添加了幻灯片。
+添加的幻灯片。
 
-### 也可以看看
+### 另见
 
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* interface [ISlideCollection](../../islidecollection)
+* 接口 [ISlide](../../islide)
+* 接口 [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* 接口 [ISlideCollection](../../islidecollection)
 * 命名空间 [Aspose.Slides](../../islidecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
 ## InsertFromHtml(int, Stream) {#insertfromhtml}
 
-从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。
+从HTML文本创建幻灯片并将其插入到指定位置的集合中。
 
 ```csharp
 public ISlide[] InsertFromHtml(int index, Stream htmlStream)
 ```
 
-| 范围 | 类型 | 描述 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要插入的位置。 |
-| htmlStream | Stream | 将用作 HTML 文件源的 Stream 对象。 |
+| index | Int32 | 插入位置。 |
+| htmlStream | Stream | 将用作HTML文件源的Stream对象。 |
 
 ### 返回值
 
-添加幻灯片
+添加的幻灯片
 
-### 也可以看看
+### 另见
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
+* 接口 [ISlide](../../islide)
+* 接口 [ISlideCollection](../../islidecollection)
 * 命名空间 [Aspose.Slides](../../islidecollection)
-* 部件 [Aspose.Slides](../../../)
+* 程序集 [Aspose.Slides](../../../)
+
+---
+
+## InsertFromHtml(int, string, bool) {#insertfromhtml_9}
+
+从HTML文本创建幻灯片并将其插入到指定位置的集合中。
+
+```csharp
+public ISlide[] InsertFromHtml(int index, string htmlText, bool useSlideWithIndexAsStart)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| index | Int32 | 插入位置。 |
+| htmlText | String | 要添加的Html。 |
+| useSlideWithIndexAsStart | Boolean | 此标志确定如何开始插入：从新幻灯片或从指定索引的幻灯片。如果**true**，则数据插入将从指定索引的幻灯片上的空白区域开始。如果**false**，则数据将添加到创建的幻灯片。 |
+
+### 返回值
+
+添加的幻灯片
+
+### 另见
+
+* 接口 [ISlide](../../islide)
+* 接口 [ISlideCollection](../../islidecollection)
+* 命名空间 [Aspose.Slides](../../islidecollection)
+* 程序集 [Aspose.Slides](../../../)
+
+---
+
+## InsertFromHtml(int, string, IExternalResourceResolver, string, bool) {#insertfromhtml_8}
+
+从HTML文本创建幻灯片并将其插入到指定位置的集合中。
+
+```csharp
+public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceResolver resolver, 
+    string uri, bool useSlideWithIndexAsStart)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| index | Int32 | 插入位置。 |
+| htmlText | String | 要添加的Html。 |
+| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为null，则所有外部对象将被忽略。 |
+| uri | String | 指定HTML的URI。用于解析相对链接。 |
+| useSlideWithIndexAsStart | Boolean | 此标志确定如何开始插入：从新幻灯片或从指定索引的幻灯片。如果**true**，则数据插入将从指定索引的幻灯片上的空白区域开始。如果**false**，则数据将添加到创建的幻灯片。 |
+
+### 返回值
+
+添加的幻灯片。
+
+### 另见
+
+* 接口 [ISlide](../../islide)
+* 接口 [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* 接口 [ISlideCollection](../../islidecollection)
+* 命名空间 [Aspose.Slides](../../islidecollection)
+* 程序集 [Aspose.Slides](../../../)
+
+---
+
+## InsertFromHtml(int, Stream, bool) {#insertfromhtml_3}
+
+从HTML文本创建幻灯片并将其插入到指定位置的集合中。
+
+```csharp
+public ISlide[] InsertFromHtml(int index, Stream htmlStream, bool useSlideWithIndexAsStart)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| index | Int32 | 插入位置。 |
+| htmlStream | Stream | 将用作HTML文件源的Stream对象。 |
+| useSlideWithIndexAsStart | Boolean | 此标志确定如何开始插入：从新幻灯片或从指定索引的幻灯片。如果**true**，则数据插入将从指定索引的幻灯片上的空白区域开始。如果**false**，则数据将添加到创建的幻灯片。 |
+
+### 返回值
+
+添加的幻灯片
+
+### 另见
+
+* 接口 [ISlide](../../islide)
+* 接口 [ISlideCollection](../../islidecollection)
+* 命名空间 [Aspose.Slides](../../islidecollection)
+* 程序集 [Aspose.Slides](../../../)
+
+---
+
+## InsertFromHtml(int, Stream, IExternalResourceResolver, string, bool) {#insertfromhtml_2}
+
+从HTML文本创建幻灯片并将其插入到指定位置的集合中。
+
+```csharp
+public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceResolver resolver, 
+    string uri, bool useSlideWithIndexAsStart)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| index | Int32 | 插入位置。 |
+| htmlStream | Stream | 将用作HTML文件源的Stream对象。 |
+| resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为null，则所有外部对象将被忽略。 |
+| uri | String | 指定HTML的URI。用于解析相对链接。 |
+| useSlideWithIndexAsStart | Boolean | 此标志确定如何开始插入：从新幻灯片或从指定索引的幻灯片。如果**true**，则数据插入将从指定索引的幻灯片上的空白区域开始。如果**false**，则数据将添加到创建的幻灯片。 |
+
+### 返回值
+
+添加的幻灯片。
+
+### 另见
+
+* 接口 [ISlide](../../islide)
+* 接口 [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* 接口 [ISlideCollection](../../islidecollection)
+* 命名空间 [Aspose.Slides](../../islidecollection)
+* 程序集 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

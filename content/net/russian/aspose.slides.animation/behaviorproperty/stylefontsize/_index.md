@@ -1,12 +1,13 @@
 ---
 title: StyleFontSize
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Sildes для .NET
 description: Представляет свойство style.fontSize
 type: docs
 weight: 1070
 url: /ru/aspose.slides.animation/behaviorproperty/stylefontsize/
 ---
-## BehaviorProperty.StyleFontSize property
+
+## Свойство BehaviorProperty.StyleFontSize
 
 Представляет свойство 'style.fontSize'
 
@@ -16,7 +17,7 @@ public static BehaviorProperty StyleFontSize { get; }
 
 ### Смотрите также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

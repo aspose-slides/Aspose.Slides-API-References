@@ -1,14 +1,15 @@
 ---
 title: SetDateTimeVisibility
-second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет видимость заполнителя даты и времени слайда.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Изменяет видимость временного заполняемого поля слайдов.
 type: docs
 weight: 50
 url: /ru/aspose.slides/baseslideheaderfootermanager/setdatetimevisibility/
 ---
-## BaseSlideHeaderFooterManager.SetDateTimeVisibility method
 
-Изменяет видимость заполнителя даты и времени слайда.
+## BaseSlideHeaderFooterManager.SetDateTimeVisibility метод
+
+Изменяет видимость временного заполняемого поля слайдов.
 
 ```csharp
 public void SetDateTimeVisibility(bool isVisible)
@@ -16,11 +17,11 @@ public void SetDateTimeVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнитель даты и времени видимым, иначе - скрывает его. |
+| isVisible | Boolean | true - делает временное заполняемое поле видимым, в противном случае - скрывает его. |
 
-### Смотрите также
+### Смотрите Также
 
-* class [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
+* класс [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../baseslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

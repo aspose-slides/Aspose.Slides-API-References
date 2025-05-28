@@ -1,23 +1,24 @@
 ---
-title: Frame
+title: Рамка
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает кадр элемента управления. Чтение/записьIShapeFrameaspose.slides/ishapeframe.
+description: Возвращает или задает рамку управления. Чтение/запись IShapeFrame aspose.slides/ishapeframe.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icontrol/frame/
 ---
-## IControl.Frame property
 
-Возвращает или устанавливает кадр элемента управления. Чтение/запись[`IShapeFrame`](../../ishapeframe).
+## Свойство IControl.Frame
+
+Возвращает или задает рамку управления. Чтение/запись [`IShapeFrame`](../../ishapeframe).
 
 ```csharp
 public IShapeFrame Frame { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IShapeFrame](../../ishapeframe)
-* interface [IControl](../../icontrol)
+* интерфейс [IShapeFrame](../../ishapeframe)
+* интерфейс [IControl](../../icontrol)
 * пространство имен [Aspose.Slides](../../icontrol)
 * сборка [Aspose.Slides](../../../)
 

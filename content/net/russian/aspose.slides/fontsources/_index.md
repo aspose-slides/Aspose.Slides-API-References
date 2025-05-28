@@ -1,14 +1,15 @@
 ---
 title: FontSources
-second_title: Справочник по API Aspose.Slides для .NET
-description: Предоставляет файлы и источники памяти для внешних шрифтов.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Предоставляет файловые и память источники для внешних шрифтов.
 type: docs
-weight: 4420
+weight: 4670
 url: /ru/aspose.slides/fontsources/
 ---
-## FontSources class
 
-Предоставляет файлы и источники памяти для внешних шрифтов.
+## Класс FontSources
+
+Предоставляет файловые и память источники для внешних шрифтов.
 
 ```csharp
 public class FontSources : IFontSources
@@ -16,20 +17,20 @@ public class FontSources : IFontSources
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [FontSources](fontsources)() | Создает новые параметры шрифта по умолчанию. |
+| [FontSources](fontsources)() | Создает новые параметры шрифтов по умолчанию. |
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Папки, содержащие файлы шрифтов. Все файлы шрифтов, расположенные в этих папках, включены в коллекцию. Папки, в которых выполняется рекурсивный поиск. |
-| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Коллекция шрифтов, представленных в виде байтовых массивов. |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Папки, содержащие файлы шрифтов. Все файлы шрифтов, расположенные в этих папках, включаются в коллекцию. Папки, которые ищутся рекурсивно. |
+| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Коллекция шрифтов, представленных в виде массивов байтов. |
 
-### Смотрите также
+### Также смотри
 
-* interface [IFontSources](../ifontsources)
+* интерфейс [IFontSources](../ifontsources)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

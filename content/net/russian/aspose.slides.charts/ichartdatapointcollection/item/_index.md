@@ -1,40 +1,41 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает точку данных ряда по индексу.
+title: Элемент
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает точку данных серии по индексу, его порядковому номеру в этой коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/ichartdatapointcollection/item/
 ---
-## IChartDataPointCollection indexer (1 of 2)
 
-Возвращает точку данных ряда по индексу.
+## Индексатор IChartDataPointCollection (1 из 2)
+
+Возвращает точку данных серии по индексу (ее порядковому номеру в этой коллекции).
 
 ```csharp
 public IChartDataPoint this[int index] { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataPoint](../../ichartdatapoint)
-* interface [IChartDataPointCollection](../../ichartdatapointcollection)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## IChartDataPointCollection indexer (2 of 2)
+## Индексатор IChartDataPointCollection (2 из 2)
 
-Возвращает индекс точки данных в этой коллекции.
+Возвращает индекс (порядковый номер в этой коллекции) точки данных в этой коллекции.
 
 ```csharp
 public int this[IChartDataPoint pt] { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataPoint](../../ichartdatapoint)
-* interface [IChartDataPointCollection](../../ichartdatapointcollection)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

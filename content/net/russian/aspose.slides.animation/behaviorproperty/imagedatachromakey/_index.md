@@ -1,12 +1,13 @@
 ---
 title: ImageDataChromakey
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет свойство imageData.chromakey
 type: docs
 weight: 430
 url: /ru/aspose.slides.animation/behaviorproperty/imagedatachromakey/
 ---
-## BehaviorProperty.ImageDataChromakey property
+
+## Свойство BehaviorProperty.ImageDataChromakey
 
 Представляет свойство 'imageData.chromakey'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/imagedatachromakey/
 public static BehaviorProperty ImageDataChromakey { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

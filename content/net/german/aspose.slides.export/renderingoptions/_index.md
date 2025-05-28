@@ -1,58 +1,63 @@
----
-title: RenderingOptions
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Bietet Optionen die steuern wie eine Präsentation/Folie gerendert wird.
-type: docs
-weight: 4000
+---  
+title: RenderingOptions  
+second_title: Aspose.Sildes für .NET API-Referenz  
+description: Bietet Optionen, die steuern, wie eine Präsentation/Folie gerendert wird.
+type: docs  
+weight: 4220  
 url: /de/aspose.slides.export/renderingoptions/
----
-## RenderingOptions class
+---  
 
-Bietet Optionen, die steuern, wie eine Präsentation/Folie gerendert wird.
+## RenderingOptions-Klasse  
 
-```csharp
-public class RenderingOptions : SaveOptions, IRenderingOptions
-```
+Bietet Optionen, die steuern, wie eine Präsentation/Folie gerendert wird.  
 
-## Konstrukteure
+```csharp  
+public class RenderingOptions : SaveOptions, IRenderingOptions  
+```  
 
-| Name | Beschreibung |
-| --- | --- |
-| [RenderingOptions](renderingoptions)() | Standardkonstruktor. |
+## Konstruktoren  
 
-## Eigenschaften
+| Name | Beschreibung |  
+| --- | --- |  
+| [RenderingOptions](renderingoptions)() | Standard-Konstruktor. |  
 
-| Name | Beschreibung |
-| --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die verwendete Schriftart zurück oder legt sie fest, falls die Quellschriftart nicht gefunden wird. Lesen/SchreibenString . |
-| [NotesCommentsLayouting](../../aspose.slides.export/renderingoptions/notescommentslayouting) { get; } | Bietet Optionen, die steuern, wie Notizen und Kommentare im exportierten Dokument platziert werden. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Repräsentiert ein Callback-Objekt zum Speichern von Fortschrittsaktualisierungen in Prozent. Siehe[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lesen/Schreiben[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
+## Eigenschaften  
 
-### Beispiele
+| Name | Beschreibung |  
+| --- | --- |  
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die Schriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Lese- und Schreibzugriff auf String. |  
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Ruft einen Wert ab oder legt ihn fest, der angibt, ob Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen in der gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |  
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gibt den visuellen Stil des Farbverlaufs zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`GradientStyle`](../../aspose.slides/gradientstyle). |  
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Bietet Optionen, die das Aussehen von Tintenobjekten im exportierten Dokument steuern. Nur Lesezugriff auf [`IInkOptions`](../iinkoptions) |  
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stellt ein Callback-Objekt dar, um Fortschrittsaktualisierungen in Prozent zu speichern. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |  
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob Hyperlinks mit JavaScript-Aufrufen beim Speichern der Präsentation übersprungen werden sollen. Lese-/Schreibzugriff auf Boolean. Der Standardwert ist **false**. |  
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Ruft den Modus ab oder legt ihn fest, in dem Folien beim Export einer Präsentation auf der Seite platziert werden [`ISlidesLayoutOptions`](../islideslayoutoptions). |  
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder legt es fest, das Warnungen erhält und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lese-/Schreibzugriff auf [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |  
 
-```csharp
-[C#]
-using (Presentation pres = new Presentation("pres.pptx"))
-  {
-  IRenderingOptions renderingOpts = new RenderingOptions();
-  renderingOpts.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
-  
-  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-Original.png", ImageFormat.Png);
-  
-  renderingOpts.DefaultRegularFont = "Arial Black";
-  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-ArialBlackDefault.png", ImageFormat.Png);
-  
-  renderingOpts.DefaultRegularFont = "Arial Narrow";
-  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-ArialNarrowDefault.png", ImageFormat.Png);
-}
-```
+### Beispiele  
 
-### Siehe auch
+```csharp  
+[C#]  
+using (Presentation pres = new Presentation("pres.pptx"))  
+{  
+  IRenderingOptions renderingOpts = new RenderingOptions();  
+  renderingOpts.SlidesLayoutOptions = new NotesCommentsLayoutingOptions() { NotesPosition = NotesPositions.BottomTruncated };  
+   
+  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-Original.png", ImageFormat.Png);  
+   
+  renderingOpts.DefaultRegularFont = "Arial Black";  
+  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-ArialBlackDefault.png", ImageFormat.Png);  
+   
+  renderingOpts.DefaultRegularFont = "Arial Narrow";  
+  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-ArialNarrowDefault.png", ImageFormat.Png);  
+}  
+```  
 
-* class [SaveOptions](../saveoptions)
-* interface [IRenderingOptions](../irenderingoptions)
-* namensraum [Aspose.Slides.Export](../../aspose.slides.export)
-* Montage [Aspose.Slides](../../)
+### Siehe auch  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+* Klasse [SaveOptions](../saveoptions)  
+* Schnittstelle [IRenderingOptions](../irenderingoptions)  
+* Namespace [Aspose.Slides.Export](../../aspose.slides.export)  
+* Assembly [Aspose.Slides](../../)  
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

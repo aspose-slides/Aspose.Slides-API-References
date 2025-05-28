@@ -1,12 +1,13 @@
 ---
 title: CommandEffectType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет тип эффекта команды для поведения эффекта команды.
 type: docs
-weight: 170
+weight: 190
 url: /ru/aspose.slides.animation/commandeffecttype/
 ---
-## CommandEffectType enumeration
+
+## Перечисление CommandEffectType
 
 Представляет тип эффекта команды для поведения эффекта команды.
 
@@ -14,16 +15,16 @@ url: /ru/aspose.slides.animation/commandeffecttype/
 public enum CommandEffectType : sbyte
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Event | `0` |  |
 | Call | `1` |  |
 | Verb | `2` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

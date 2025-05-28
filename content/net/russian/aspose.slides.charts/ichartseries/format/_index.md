@@ -1,23 +1,24 @@
 ---
-title: Format
+title: Формат
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат серии. Только для чтенияIFormataspose.slides.charts/iformat.
+description: Возвращает формат серии. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/ichartseries/format/
 ---
-## IChartSeries.Format property
 
-Возвращает формат серии. Только для чтения[`IFormat`](../../iformat).
+## Свойство IChartSeries.Format
+
+Возвращает формат серии. Только для чтения [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFormat](../../iformat)
-* interface [IChartSeries](../../ichartseries)
+* интерфейс [IFormat](../../iformat)
+* интерфейс [IChartSeries](../../ichartseries)
 * пространство имен [Aspose.Slides.Charts](../../ichartseries)
 * сборка [Aspose.Slides](../../../)
 

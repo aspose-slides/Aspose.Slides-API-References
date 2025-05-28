@@ -1,22 +1,23 @@
 ---
-title: Count
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
+title: Количество
+second_title: Справка по API Aspose.Slides для .NET
+description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/itrendlinecollection/count/
 ---
-## ITrendlineCollection.Count property
 
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
+## Свойство ITrendlineCollection.Count
+
+Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITrendlineCollection](../../itrendlinecollection)
+* интерфейс [ITrendlineCollection](../../itrendlinecollection)
 * пространство имен [Aspose.Slides.Charts](../../itrendlinecollection)
 * сборка [Aspose.Slides](../../../)
 

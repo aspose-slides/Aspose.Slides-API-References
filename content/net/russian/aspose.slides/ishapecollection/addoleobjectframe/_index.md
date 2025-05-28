@@ -1,14 +1,15 @@
 ---
 title: AddOleObjectFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый объект OLE в конец коллекции.
+second_title: Aspose.Slides для .NET API Справочник
+description: Добавляет новый OLE объект в конец коллекции.
 type: docs
 weight: 120
 url: /ru/aspose.slides/ishapecollection/addoleobjectframe/
 ---
+
 ## AddOleObjectFrame(float, float, float, float, IOleEmbeddedDataInfo) {#addoleobjectframe}
 
-Добавляет новый объект OLE в конец коллекции.
+Добавляет новый OLE объект в конец коллекции.
 
 ```csharp
 public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float height, 
@@ -17,21 +18,21 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового кадра OLE. |
-| y | Single | Координата Y нового кадра OLE. |
-| width | Single | Ширина нового кадра OLE. |
-| height | Single | Высота нового кадра OLE. |
-| dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| x | Single | Координата X нового OLE фрейма. |
+| y | Single | Координата Y нового OLE фрейма. |
+| width | Single | Ширина нового OLE фрейма. |
+| height | Single | Высота нового OLE фрейма. |
+| dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ### Возвращаемое значение
 
-Создан объект OLE.
+Созданный OLE объект.
 
 ### Смотрите также
 
-* interface [IOleObjectFrame](../../ioleobjectframe)
-* interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IOleObjectFrame](../../ioleobjectframe)
+* интерфейс [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -39,7 +40,7 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 ## AddOleObjectFrame(float, float, float, float, string, string) {#addoleobjectframe_1}
 
-Добавляет новый объект OLE в конец коллекции.
+Добавляет новый OLE объект в конец коллекции.
 
 ```csharp
 public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float height, 
@@ -48,21 +49,21 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового кадра OLE. |
-| y | Single | Координата Y нового кадра OLE. |
-| width | Single | Ширина нового кадра OLE. |
-| height | Single | Высота нового кадра OLE. |
-| className | String | Имя класса OLE. |
+| x | Single | Координата X нового OLE фрейма. |
+| y | Single | Координата Y нового OLE фрейма. |
+| width | Single | Ширина нового OLE фрейма. |
+| height | Single | Высота нового OLE фрейма. |
+| className | String | Имя OLE класса. |
 | path | String | путь к связанному файлу. |
 
 ### Возвращаемое значение
 
-Создан объект OLE.
+Созданный OLE объект.
 
 ### Смотрите также
 
-* interface [IOleObjectFrame](../../ioleobjectframe)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IOleObjectFrame](../../ioleobjectframe)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

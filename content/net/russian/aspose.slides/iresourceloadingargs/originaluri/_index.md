@@ -1,22 +1,23 @@
 ---
 title: OriginalUri
-second_title: Справочник по API Aspose.Slides для .NET
-description: Исходный URI ресурса указанный в импортированной презентации.
+second_title: Aspose.Slides для .NET API Справочник
+description: Исходный URI ресурса, как указано в импортированной презентации.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iresourceloadingargs/originaluri/
 ---
-## IResourceLoadingArgs.OriginalUri property
 
-Исходный URI ресурса, указанный в импортированной презентации.
+## IResourceLoadingArgs.OriginalUri свойство
+
+Исходный URI ресурса, как указано в импортированной презентации.
 
 ```csharp
 public string OriginalUri { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IResourceLoadingArgs](../../iresourceloadingargs)
+* интерфейс [IResourceLoadingArgs](../../iresourceloadingargs)
 * пространство имен [Aspose.Slides](../../iresourceloadingargs)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
-title: Comments
-second_title: Справочник по API Aspose.Slides для .NET
-description: Цель подписи. Чтение/записьString.
+title: Комментарии
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Назначение подписи. Чтение/запись строка.
 type: docs
 weight: 20
 url: /ru/aspose.slides/idigitalsignature/comments/
 ---
-## IDigitalSignature.Comments property
 
-Цель подписи. Чтение/записьString.
+## Свойство IDigitalSignature.Comments
+
+Назначение подписи. Чтение/запись строка.
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IDigitalSignature](../../idigitalsignature)
+* интерфейс [IDigitalSignature](../../idigitalsignature)
 * пространство имен [Aspose.Slides](../../idigitalsignature)
 * сборка [Aspose.Slides](../../../)
 

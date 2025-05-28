@@ -1,14 +1,15 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ячейку по ее положению. Только для чтенияICellaspose.slides/icell.
+title: Элемент
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает ячейку по ее позиции. Только для чтения ICellaspose.slides/icell.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icellcollection/item/
 ---
-## ICellCollection indexer
 
-Возвращает ячейку по ее положению. Только для чтения[`ICell`](../../icell).
+## Индексатор ICellCollection
+
+Возвращает ячейку по ее позиции. Только для чтения [`ICell`](../../icell).
 
 ```csharp
 public ICell this[int index] { get; }
@@ -16,12 +17,12 @@ public ICell this[int index] { get; }
 
 ### Примечания
 
-Один объект CellEx может быть возвращен для нескольких индексов в случае объединения ячеек.
+Для нескольких индексов может быть возвращен один объект CellEx, если ячейка объединена.
 
-### Смотрите также
+### См. также
 
-* interface [ICell](../../icell)
-* interface [ICellCollection](../../icellcollection)
+* интерфейс [ICell](../../icell)
+* интерфейс [ICellCollection](../../icellcollection)
 * пространство имен [Aspose.Slides](../../icellcollection)
 * сборка [Aspose.Slides](../../../)
 

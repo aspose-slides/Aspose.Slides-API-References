@@ -1,12 +1,13 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 50
 url: /ru/aspose.slides/adjustvaluecollection/copyto/
 ---
-## AdjustValueCollection.CopyTo method
+
+## AdjustValueCollection.CopyTo метод
 
 Копирует все элементы из коллекции в указанный массив.
 
@@ -19,9 +20,9 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в целевом массиве. |
 
-### Смотрите также
+### Также см. 
 
-* class [AdjustValueCollection](../../adjustvaluecollection)
+* класс [AdjustValueCollection](../../adjustvaluecollection)
 * пространство имен [Aspose.Slides](../../adjustvaluecollection)
 * сборка [Aspose.Slides](../../../)
 

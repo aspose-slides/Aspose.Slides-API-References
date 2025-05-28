@@ -1,12 +1,13 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Копирует всю коллекцию в указанный массив.
 type: docs
 weight: 70
 url: /ru/aspose.slides/controlcollection/copyto/
 ---
-## ControlCollection.CopyTo method
+
+## Метод ControlCollection.CopyTo
 
 Копирует всю коллекцию в указанный массив.
 
@@ -17,11 +18,11 @@ public void CopyTo(Array array, int index)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | array | Array | Целевой массив |
-| index | Int32 | Индекс в целевом массиве . |
+| index | Int32 | Индекс в целевом массиве. |
 
 ### Смотрите также
 
-* class [ControlCollection](../../controlcollection)
+* класс [ControlCollection](../../controlcollection)
 * пространство имен [Aspose.Slides](../../controlcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
-title: Clear
+title: Очистить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides/iportioncollection/clear/
 ---
-## IPortionCollection.Clear method
+
+## Метод IPortionCollection.Clear
 
 Удаляет все элементы из коллекции.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/iportioncollection/clear/
 public void Clear()
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPortionCollection](../../iportioncollection)
+* интерфейс [IPortionCollection](../../iportioncollection)
 * пространство имен [Aspose.Slides](../../iportioncollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: IsUnderflowBin
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает применяется ли корзина нижнего переполнения. Используйте IsAutomaticUnderflowBin и UnderflowBin чтобы настроить значение корзины для недорасхода.
+second_title: Справочник API Aspose.Slides для .NET
+description: Указывает, применяется ли ящик низких значений. Используйте IsAutomaticUnderflowBin и UnderflowBin для настройки значения ящика низких значений.
 type: docs
 weight: 300
 url: /ru/aspose.slides.charts/iaxis/isunderflowbin/
 ---
-## IAxis.IsUnderflowBin property
 
-Указывает, применяется ли корзина нижнего переполнения. Используйте IsAutomaticUnderflowBin и UnderflowBin, чтобы настроить значение корзины для недорасхода.
+## IAxis.IsUnderflowBin свойство
+
+Указывает, применяется ли ящик низких значений. Используйте IsAutomaticUnderflowBin и UnderflowBin для настройки значения ящика низких значений.
 
 ```csharp
 public bool IsUnderflowBin { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAxis](../../iaxis)
+* интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: BehaviorPropertyCollection
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa las propiedades de temporización del comportamiento del efecto.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa las propiedades de tiempo para el comportamiento del efecto.
 type: docs
-weight: 100
+weight: 120
 url: /es/aspose.slides.animation/behaviorpropertycollection/
 ---
-## BehaviorPropertyCollection class
 
-Representa las propiedades de temporización del comportamiento del efecto.
+## Clase BehaviorPropertyCollection
+
+Representa las propiedades de tiempo para el comportamiento del efecto.
 
 ```csharp
 public class BehaviorPropertyCollection : IBehaviorPropertyCollection
@@ -18,8 +19,8 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Devuelve el número de propiedades almacenadas en la colección. Solo lecturaInt32 . |
-| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Obtiene un valor que indica si elICollection es de solo lectura. Solo lecturaBoolean . |
+| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Devuelve el número de propiedades almacenadas en la colección. Solo lectura Int32. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Obtiene un valor que indica si la ICollection es de solo lectura. Solo lectura Boolean. |
 | [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Devuelve una propiedad en el índice especificado. |
 
 ## Métodos
@@ -29,22 +30,22 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 | [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Agrega una nueva propiedad a la colección. |
 | [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Agrega una nueva propiedad a la colección. |
 | [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Elimina todas las propiedades de la colección. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Determina si elICollection contiene un valor específico. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Determina si elICollection contiene un valor específico. |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Copia los elementos delICollection a unaArray , a partir de un determinadoArray índice. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Determina si la ICollection contiene un valor específico. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Determina si la ICollection contiene un valor específico. |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Copia los elementos de la ICollection a un Array, comenzando en un índice de Array particular. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Determina el índice de un elemento específico en elIList . |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Determina el índice de un elemento específico por valor de propiedad en elIList . |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Determina el índice de un ítem específico en el IList. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Determina el índice de un ítem específico por valor de propiedad en el IList. |
 | [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Inserta una nueva propiedad en la colección en el índice especificado. |
 | [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Inserta una nueva propiedad (con el valor de propiedad especificado) en la colección en el índice especificado. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | Elimina la propiedad especificada de la colección. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | Elimina la propiedad especificada de la colección. |
 | [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Elimina la propiedad en el índice especificado. |
 
-### Ver también
+### Véase También
 
-* interface [IBehaviorPropertyCollection](../ibehaviorpropertycollection)
+* interfaz [IBehaviorPropertyCollection](../ibehaviorpropertycollection)
 * espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
-* asamblea [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

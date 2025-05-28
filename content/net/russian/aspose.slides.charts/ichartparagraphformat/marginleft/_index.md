@@ -1,14 +1,15 @@
 ---
 title: MarginLeft
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает левое поле в абзаце. Чтение/записьSingle.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает левый отступ в абзаце. Чтение/запись Одиночное значение.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/ichartparagraphformat/marginleft/
 ---
-## IChartParagraphFormat.MarginLeft property
 
-Возвращает или устанавливает левое поле в абзаце. Чтение/записьSingle.
+## Свойство IChartParagraphFormat.MarginLeft
+
+Возвращает или задает левый отступ в абзаце. Чтение/запись Одиночное значение.
 
 ```csharp
 public float MarginLeft { get; set; }
@@ -16,7 +17,7 @@ public float MarginLeft { get; set; }
 
 ### Смотрите также
 
-* interface [IChartParagraphFormat](../../ichartparagraphformat)
+* интерфейс [IChartParagraphFormat](../../ichartparagraphformat)
 * пространство имен [Aspose.Slides.Charts](../../ichartparagraphformat)
 * сборка [Aspose.Slides](../../../)
 

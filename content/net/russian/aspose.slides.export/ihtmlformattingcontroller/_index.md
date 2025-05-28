@@ -1,14 +1,15 @@
 ---
 title: IHtmlFormattingController
-second_title: Справочник по API Aspose.Slides для .NET
-description: Управляет генерацией HTML-файла.
+second_title: Aspose.Sildes для .NET API Reference
+description: Управляет генерацией html-файла.
 type: docs
-weight: 3630
+weight: 3780
 url: /ru/aspose.slides.export/ihtmlformattingcontroller/
 ---
-## IHtmlFormattingController interface
 
-Управляет генерацией HTML-файла.
+## Интерфейс IHtmlFormattingController
+
+Управляет генерацией html-файла.
 
 ```csharp
 public interface IHtmlFormattingController
@@ -16,16 +17,16 @@ public interface IHtmlFormattingController
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз при преобразовании презентации. |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Вызывается для записи заголовка html документа. Вызывается один раз при преобразовании презентации. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Вызывается перед рендерингом формы. Вызывается один раз для каждой формы. Если эта функция что-то записывает в генератор, генерация текущего изображения слайда будет завершена, добавленный html-фрагмент будет вставлен, и новое изображение будет запущено поверх предыдущего. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Вызывается перед рендерингом формы. Вызывается один раз для каждой формы. Если эта функция что-то записывает в генератор, генерация текущего изображения слайда будет завершена, добавленный html-фрагмент будет вставлен, и новое изображение будет запущено поверх предыдущего. |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Вызывается для записи нижнего колонтитула слайда в формате html. Вызывается один раз для каждого из слайдов. |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Вызывается для записи html заголовка слайда. Вызывается один раз для каждого из слайдов. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз за конвертацию презентации. |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Вызывается для записи верхнего колонтитула html-документа. Вызывается один раз за конвертацию презентации. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Вызывается перед рендерингом фигуры. Вызывается один раз для каждой фигуры. Если эта функция что-то записывает в генератор, генерация текущего изображения слайда будет завершена, добавленный html-фрагмент будет вставлен, и новое изображение начнется поверх предыдущего. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Вызывается перед рендерингом фигуры. Вызывается один раз для каждой фигуры. Если эта функция что-то записывает в генератор, генерация текущего изображения слайда будет завершена, добавленный html-фрагмент будет вставлен, и новое изображение начнется поверх предыдущего. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Вызывается для записи нижнего колонтитула html-слайда. Вызывается один раз для каждого слайда. |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Вызывается для записи верхнего колонтитула html-слайда. Вызывается один раз для каждого слайда. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

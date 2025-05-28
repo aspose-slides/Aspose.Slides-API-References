@@ -1,22 +1,23 @@
 ---
 title: RotateShadowWithShape
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает должно ли отражение вращаться вместе с фигурой если фигура вращается. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Указывает, должна ли отражение вращаться с формой, если форма вращается. Читаемое/записываемое логическое значение.
 type: docs
 weight: 100
 url: /ru/aspose.slides.effects/ireflection/rotateshadowwithshape/
 ---
-## IReflection.RotateShadowWithShape property
 
-Указывает, должно ли отражение вращаться вместе с фигурой, если фигура вращается. Чтение/записьBoolean.
+## Свойство IReflection.RotateShadowWithShape
+
+Указывает, должна ли отражение вращаться с формой, если форма вращается. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool RotateShadowWithShape { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IReflection](../../ireflection)
+* интерфейс [IReflection](../../ireflection)
 * пространство имен [Aspose.Slides.Effects](../../ireflection)
 * сборка [Aspose.Slides](../../../)
 

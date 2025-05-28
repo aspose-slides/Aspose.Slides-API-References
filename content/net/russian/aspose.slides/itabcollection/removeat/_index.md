@@ -1,12 +1,13 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Удаляет элемент по указанному индексу коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides/itabcollection/removeat/
 ---
-## ITabCollection.RemoveAt method
+
+## ITabCollection.RemoveAt метод
 
 Удаляет элемент по указанному индексу коллекции.
 
@@ -16,11 +17,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
+| index | Int32 | Нулевой индекс элемента, который необходимо удалить. |
 
 ### Смотрите также
 
-* interface [ITabCollection](../../itabcollection)
+* интерфейс [ITabCollection](../../itabcollection)
 * пространство имен [Aspose.Slides](../../itabcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.export/isaveoptionsfactory/createpptxoptions/
 ---
-## ISaveOptionsFactory.CreatePptxOptions method
+
+## Метод ISaveOptionsFactory.CreatePptxOptions
 
 Создает параметры сохранения PPTX.
 
@@ -16,12 +17,12 @@ public IPptxOptions CreatePptxOptions()
 
 ### Возвращаемое значение
 
-Сохранить параметры.
+Параметры сохранения.
 
-### Смотрите также
+### См. также
 
-* interface [IPptxOptions](../../ipptxoptions)
-* interface [ISaveOptionsFactory](../../isaveoptionsfactory)
+* интерфейс [IPptxOptions](../../ipptxoptions)
+* интерфейс [ISaveOptionsFactory](../../isaveoptionsfactory)
 * пространство имен [Aspose.Slides.Export](../../isaveoptionsfactory)
 * сборка [Aspose.Slides](../../../)
 

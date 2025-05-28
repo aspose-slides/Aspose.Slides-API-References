@@ -1,14 +1,15 @@
 ---
 title: SetHeaderAndChildHeadersText
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает текст для заполнителя заголовка слайда основных заметок и всех дочерних заполнителей заголовков. Дочерние заполнители означают что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Устанавливает текст для заголовка основного слайда заметок и всех дочерних заголовков-заметок. Дочерние заполнители означают заполнители, которые содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 type: docs
 weight: 60
 url: /ru/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext/
 ---
-## IMasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersText method
 
-Устанавливает текст для заполнителя заголовка слайда основных заметок и всех дочерних заполнителей заголовков. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+## IMasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersText метод
+
+Устанавливает текст для заголовка основного слайда заметок и всех дочерних заголовков-заметок. Дочерние заполнители означают заполнители, которые содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 
 ```csharp
 public void SetHeaderAndChildHeadersText(string text)
@@ -18,9 +19,9 @@ public void SetHeaderAndChildHeadersText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### Смотрите также
+### См. также
 
-* interface [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
+* интерфейс [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../imasternotesslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

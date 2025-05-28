@@ -1,26 +1,27 @@
 ---
-title: Text
+title: Текст
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает обычный текст части. Чтение/записьString.
+description: Получает или задает простой текст части. Читаемый/записываемый String.
 type: docs
 weight: 40
 url: /ru/aspose.slides/iportion/text/
 ---
-## IPortion.Text property
 
-Получает или задает обычный текст части. Чтение/записьString.
+## Свойство IPortion.Text
+
+Получает или задает простой текст части. Читаемый/записываемый String.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### Стоимость имущества
+### Значение свойства
 
 Текст.
 
-### Смотрите также
+### См. также
 
-* interface [IPortion](../../iportion)
+* интерфейс [IPortion](../../iportion)
 * пространство имен [Aspose.Slides](../../iportion)
 * сборка [Aspose.Slides](../../../)
 

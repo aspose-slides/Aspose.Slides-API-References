@@ -1,12 +1,13 @@
 ---
 title: IsInterruptionRequested
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true если запрошено прерывание иначе false.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает true, если запрошено прерывание, иначе false.
 type: docs
 weight: 20
 url: /ru/aspose.slides/interruptiontokensource/isinterruptionrequested/
 ---
-## InterruptionTokenSource.IsInterruptionRequested property
+
+## InterruptionTokenSource.IsInterruptionRequested свойство
 
 Возвращает true, если запрошено прерывание, иначе false.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/interruptiontokensource/isinterruptionrequested/
 public bool IsInterruptionRequested { get; }
 ```
 
-### Смотрите также
-
-* class [InterruptionTokenSource](../../interruptiontokensource)
+### Также см.
+ 
+* класс [InterruptionTokenSource](../../interruptiontokensource)
 * пространство имен [Aspose.Slides](../../interruptiontokensource)
 * сборка [Aspose.Slides](../../../)
 

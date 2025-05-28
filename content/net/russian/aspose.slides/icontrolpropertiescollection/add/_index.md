@@ -1,12 +1,13 @@
 ---
-title: Add
+title: Добавить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет свойство в коллекцию.
 type: docs
 weight: 50
 url: /ru/aspose.slides/icontrolpropertiescollection/add/
 ---
-## IControlPropertiesCollection.Add method
+
+## Метод IControlPropertiesCollection.Add
 
 Добавляет свойство в коллекцию.
 
@@ -19,9 +20,9 @@ public void Add(string name, string value)
 | name | String | Имя свойства. |
 | value | String | Значение свойства. |
 
-### Смотрите также
+### Также смотрите
 
-* interface [IControlPropertiesCollection](../../icontrolpropertiescollection)
+* интерфейс [IControlPropertiesCollection](../../icontrolpropertiescollection)
 * пространство имен [Aspose.Slides](../../icontrolpropertiescollection)
 * сборка [Aspose.Slides](../../../)
 

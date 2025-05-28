@@ -6,7 +6,8 @@ type: docs
 weight: 620
 url: /ru/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivex/
 ---
-## BehaviorProperty.ShadowMatrixPerspectiveX property
+
+## Свойство BehaviorProperty.ShadowMatrixPerspectiveX
 
 Представляет свойство 'shadow.matrix.perspectiveX'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivex/
 public static BehaviorProperty ShadowMatrixPerspectiveX { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

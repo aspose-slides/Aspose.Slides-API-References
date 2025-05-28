@@ -1,12 +1,13 @@
 ---
 title: TextUnderlineType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Представляет тип подчеркивания текста.
 type: docs
-weight: 10200
+weight: 10700
 url: /ru/aspose.slides/textunderlinetype/
 ---
-## TextUnderlineType enumeration
+
+## Перечисление TextUnderlineType
 
 Представляет тип подчеркивания текста.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/textunderlinetype/
 public enum TextUnderlineType : sbyte
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |
@@ -38,7 +39,7 @@ public enum TextUnderlineType : sbyte
 | HeavyWavy | `16` |  |
 | DoubleWavy | `17` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,14 +1,15 @@
 ---
-title: DigitalSignature
+title: ЦифроваяПодпись
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый объект DigitalSignature с указанным сертификатом.
+description: Создает новый объект ЦифроваяПодпись с указанным сертификатом.
 type: docs
 weight: 10
 url: /ru/aspose.slides/digitalsignature/digitalsignature/
 ---
-## DigitalSignature(X509Certificate2) {#constructor}
 
-Создает новый объект DigitalSignature с указанным сертификатом.
+## ЦифроваяПодпись(X509Certificate2) {#constructor}
+
+Создает новый объект ЦифроваяПодпись с указанным сертификатом.
 
 ```csharp
 public DigitalSignature(X509Certificate2 certificate)
@@ -16,19 +17,19 @@ public DigitalSignature(X509Certificate2 certificate)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| certificate | X509Certificate2 | Сертификат, который будет использоваться для подписи презентации. |
+| certificate | X509Certificate2 | Сертификат, который будет использоваться для подписания презентации. |
 
-### Смотрите также
+### См. также
 
-* class [DigitalSignature](../../digitalsignature)
+* класс [DigitalSignature](../../digitalsignature)
 * пространство имен [Aspose.Slides](../../digitalsignature)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## DigitalSignature(string, string) {#constructor_1}
+## ЦифроваяПодпись(string, string) {#constructor_1}
 
-Создает новый объект DigitalSignature с указанным путем к файлу сертификата и паролем.
+Создает новый объект ЦифроваяПодпись с указанным путем к файлу сертификата и паролем.
 
 ```csharp
 public DigitalSignature(string filePath, string password)
@@ -37,11 +38,11 @@ public DigitalSignature(string filePath, string password)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу с сертификатом. |
-| пароль | String | Для доступа к сертификату требуется пароль. |
+| password | String | Пароль, необходимый для доступа к сертификату. |
 
-### Смотрите также
+### См. также
 
-* class [DigitalSignature](../../digitalsignature)
+* класс [DigitalSignature](../../digitalsignature)
 * пространство имен [Aspose.Slides](../../digitalsignature)
 * сборка [Aspose.Slides](../../../)
 

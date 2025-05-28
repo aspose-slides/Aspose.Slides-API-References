@@ -1,22 +1,23 @@
 ---
-title: Count
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество объектов в коллекции. Только для чтенияInt32.
+title: Количество
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает количество объектов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartseriescollection/count/
 ---
-## ChartSeriesCollection.Count property
 
-Возвращает количество объектов в коллекции. Только для чтенияInt32.
+## Свойство ChartSeriesCollection.Count
+
+Возвращает количество объектов в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartSeriesCollection](../../chartseriescollection)
+* класс [ChartSeriesCollection](../../chartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../chartseriescollection)
 * сборка [Aspose.Slides](../../../)
 

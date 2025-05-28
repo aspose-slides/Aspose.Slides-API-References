@@ -1,14 +1,15 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает перечислитель, который итерирует по коллекции.
 type: docs
 weight: 100
 url: /ru/aspose.slides/coloroperationcollection/getenumerator/
 ---
-## ColorOperationCollection.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+## ColorOperationCollection.GetEnumerator метод
+
+Возвращает перечислитель, который итерирует по коллекции.
 
 ```csharp
 public IEnumerator<IColorOperation> GetEnumerator()
@@ -16,12 +17,12 @@ public IEnumerator<IColorOperation> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+Перечислитель IEnumerator, который можно использовать для итерации по коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IColorOperation](../../icoloroperation)
-* class [ColorOperationCollection](../../coloroperationcollection)
+* интерфейс [IColorOperation](../../icoloroperation)
+* класс [ColorOperationCollection](../../coloroperationcollection)
 * пространство имен [Aspose.Slides](../../coloroperationcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: ProductMajor
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Основной номер версии.
 type: docs
 weight: 40
 url: /ru/aspose.slides/buildversioninfo/productmajor/
 ---
-## BuildVersionInfo.ProductMajor field
+
+## Поле BuildVersionInfo.ProductMajor
 
 Основной номер версии.
 
 ```csharp
-public static readonly int ProductMajor;
+public const int ProductMajor;
 ```
 
 ### Смотрите также
 
-* class [BuildVersionInfo](../../buildversioninfo)
+* класс [BuildVersionInfo](../../buildversioninfo)
 * пространство имен [Aspose.Slides](../../buildversioninfo)
 * сборка [Aspose.Slides](../../../)
 

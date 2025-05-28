@@ -1,35 +1,36 @@
 ---
 title: ILegacyDiagram
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет устаревший объект диаграммы
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет объект устаревшей диаграммы
 type: docs
-weight: 5690
+weight: 6050
 url: /ru/aspose.slides/ilegacydiagram/
 ---
-## ILegacyDiagram interface
 
-Представляет устаревший объект диаграммы
+## Интерфейс ILegacyDiagram
+
+Представляет объект устаревшей диаграммы
 
 ```csharp
 public interface ILegacyDiagram : IGraphicalObject
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения[`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../igraphicalobject). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Преобразует устаревшую диграмму в редактируемую форму группы. Созданный объект GroupShape добавляется к фигуре родительской группы в той же позиции. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Преобразует устаревшую диграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется к фигуре родительской группы в той же позиции. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Преобразует устаревшую диаграмму в редактируемую группу объектов. Созданный объект GroupShape добавляется к родительской группе объектов в той же позиции. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Преобразует устаревшую диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется к родительской группе объектов в той же позиции. |
 
-### Смотрите также
+### Смотрите Также
 
-* interface [IGraphicalObject](../igraphicalobject)
+* интерфейс [IGraphicalObject](../igraphicalobject)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

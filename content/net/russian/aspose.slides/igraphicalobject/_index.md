@@ -1,12 +1,13 @@
 ---
 title: IGraphicalObject
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Справочник по API
 description: Представляет абстрактный графический объект.
 type: docs
-weight: 5530
+weight: 5860
 url: /ru/aspose.slides/igraphicalobject/
 ---
-## IGraphicalObject interface
+
+## Интерфейс IGraphicalObject
 
 Представляет абстрактный графический объект.
 
@@ -14,17 +15,17 @@ url: /ru/aspose.slides/igraphicalobject/
 public interface IGraphicalObject : IShape
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Позволяет получить базовый интерфейс IShape. Только для чтения[`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Возвращает блокировки фигуры. Только для чтения[`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Возвращает блокировки фигуры. Только для чтения[`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Позволяет получить базовый интерфейс IShape. Только для чтения [`IShape`](../ishape). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Возвращает блокировки формы. Только для чтения [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Возвращает блокировки формы. Только для чтения [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
-### Смотрите также
+### См. также
 
-* interface [IShape](../ishape)
+* интерфейс [IShape](../ishape)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

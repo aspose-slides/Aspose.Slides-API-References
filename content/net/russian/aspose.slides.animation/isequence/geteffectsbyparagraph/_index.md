@@ -1,12 +1,13 @@
 ---
 title: GetEffectsByParagraph
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Справочник по API
 description: Возвращает массив эффектов для указанного абзаца.
 type: docs
 weight: 80
 url: /ru/aspose.slides.animation/isequence/geteffectsbyparagraph/
 ---
-## ISequence.GetEffectsByParagraph method
+
+## ISequence.GetEffectsByParagraph метод
 
 Возвращает массив эффектов для указанного абзаца.
 
@@ -16,17 +17,17 @@ public IEffect[] GetEffectsByParagraph(IParagraph paragraph)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| paragraph | IParagraph | Объект абзаца[`IParagraph`](../../../aspose.slides/iparagraph) |
+| paragraph | IParagraph | Объект абзаца [`IParagraph`](../../../aspose.slides/iparagraph) |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Массив эффектов[`IEffect`](../../ieffect)
+Массив эффектов [`IEffect`](../../ieffect)
 
-### Смотрите также
+### См. Также
 
-* interface [IEffect](../../ieffect)
-* interface [IParagraph](../../../aspose.slides/iparagraph)
-* interface [ISequence](../../isequence)
+* интерфейс [IEffect](../../ieffect)
+* интерфейс [IParagraph](../../../aspose.slides/iparagraph)
+* интерфейс [ISequence](../../isequence)
 * пространство имен [Aspose.Slides.Animation](../../isequence)
 * сборка [Aspose.Slides](../../../)
 

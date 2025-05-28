@@ -1,14 +1,15 @@
 ---
 title: RemoveAt
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет элемент по указанному индексу коллекции.
+description: Удаляет элемент по заданному индексу в коллекции.
 type: docs
 weight: 100
 url: /ru/aspose.slides/masterslidecollection/removeat/
 ---
-## MasterSlideCollection.RemoveAt method
 
-Удаляет элемент по указанному индексу коллекции.
+## Метод MasterSlideCollection.RemoveAt
+
+Удаляет элемент по заданному индексу в коллекции.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,21 +17,21 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
+| index | Int32 | Индекс элемента, который нужно удалить, начиная с нуля. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Вызывается, если удаляемый мастер используется в презентации (его свойство HasDependingSlides равно true). |
+| [PptxEditException](../../pptxeditexception) | Генерируется, если мастер, который нужно удалить, используется в презентации (его свойство HasDependingSlides равно true). |
 
-### Примечания
+### Заметки
 
-Чтобы избежать создания исключения PptxEditException, предварительно проверьте свойство HasDependingSlides мастера.
+Чтобы избежать выброса PptxEditException, проверьте свойство HasDependingSlides мастера заранее.
 
-### Смотрите также
+### См. Также
 
-* class [MasterSlideCollection](../../masterslidecollection)
+* класс [MasterSlideCollection](../../masterslidecollection)
 * пространство имен [Aspose.Slides](../../masterslidecollection)
 * сборка [Aspose.Slides](../../../)
 

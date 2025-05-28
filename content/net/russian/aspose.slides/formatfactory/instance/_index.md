@@ -1,22 +1,23 @@
 ---
-title: Instance
+title: Экземпляр
 second_title: Справочник по API Aspose.Slides для .NET
-description: Статический экземпляр фабрики форматирования. Только для чтенияFormatFactoryaspose.slides/formatfactory.
+description: Статический экземпляр фабрики форматов. Фабрика форматов только для чтения aspose.slides/formatfactory.
 type: docs
 weight: 20
 url: /ru/aspose.slides/formatfactory/instance/
 ---
-## FormatFactory.Instance property
 
-Статический экземпляр фабрики форматирования. Только для чтения[`FormatFactory`](../../formatfactory).
+## Свойство FormatFactory.Instance
+
+Статический экземпляр фабрики форматов. Только для чтения [`FormatFactory`](../../formatfactory).
 
 ```csharp
 public static FormatFactory Instance { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [FormatFactory](../../formatfactory)
+* класс [FormatFactory](../../formatfactory)
 * пространство имен [Aspose.Slides](../../formatfactory)
 * сборка [Aspose.Slides](../../../)
 

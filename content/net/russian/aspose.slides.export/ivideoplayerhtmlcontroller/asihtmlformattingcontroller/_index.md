@@ -1,23 +1,24 @@
 ---
 title: AsIHtmlFormattingController
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IHtmlFormattingController. Только для чтенияIHtmlFormattingControlleraspose.slides.export/ihtmlformattingcontroller.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс IHtmlFormattingController. Только для чтения IHtmlFormattingController aspose.slides.export/ihtmlformattingcontroller.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller/
 ---
-## IVideoPlayerHtmlController.AsIHtmlFormattingController property
 
-Позволяет получить базовый интерфейс IHtmlFormattingController. Только для чтения[`IHtmlFormattingController`](../../ihtmlformattingcontroller).
+## IVideoPlayerHtmlController.AsIHtmlFormattingController свойство
+
+Позволяет получить базовый интерфейс IHtmlFormattingController. Только для чтения [`IHtmlFormattingController`](../../ihtmlformattingcontroller).
 
 ```csharp
 public IHtmlFormattingController AsIHtmlFormattingController { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
-* interface [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)
+* интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
+* интерфейс [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../ivideoplayerhtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

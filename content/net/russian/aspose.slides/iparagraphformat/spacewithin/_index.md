@@ -1,22 +1,23 @@
 ---
 title: SpaceWithin
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает расстояние между базовыми строками в абзаце. Положительное значение означает процент отрицательное - размер в пунктах. Наследование не применяется. Чтение/записьSingle.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает количество пространства между базовыми линиями в абзаце. Положительное значение означает процент, отрицательное - размер в пунктах. Наследование не применяется. Чтение/запись Single.
 type: docs
 weight: 160
 url: /ru/aspose.slides/iparagraphformat/spacewithin/
 ---
-## IParagraphFormat.SpaceWithin property
 
-Возвращает или задает расстояние между базовыми строками в абзаце. Положительное значение означает процент, отрицательное - размер в пунктах. Наследование не применяется. Чтение/записьSingle.
+## IParagraphFormat.SpaceWithin свойство
+
+Возвращает или задает количество пространства между базовыми линиями в абзаце. Положительное значение означает процент, отрицательное - размер в пунктах. Наследование не применяется. Чтение/запись Single.
 
 ```csharp
 public float SpaceWithin { get; set; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
-* interface [IParagraphFormat](../../iparagraphformat)
+* интерфейс [IParagraphFormat](../../iparagraphformat)
 * пространство имен [Aspose.Slides](../../iparagraphformat)
 * сборка [Aspose.Slides](../../../)
 

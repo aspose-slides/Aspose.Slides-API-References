@@ -1,12 +1,13 @@
 ---
 title: SectionId
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Sildes для .NET
 description: Идентификатор раздела.
 type: docs
 weight: 20
 url: /ru/aspose.slides/section/sectionid/
 ---
-## Section.SectionId property
+
+## Свойство Section.SectionId
 
 Идентификатор раздела.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/section/sectionid/
 public Guid SectionId { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Section](../../section)
+* класс [Section](../../section)
 * пространство имен [Aspose.Slides](../../section)
 * сборка [Aspose.Slides](../../../)
 

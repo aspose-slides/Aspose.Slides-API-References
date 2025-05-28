@@ -1,12 +1,13 @@
 ---
-title: Degree
-second_title: Справочник по API Aspose.Slides для .NET
+title: Степень
+second_title: Справка по API Aspose.Slides для .NET
 description: Аргумент степени
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathradical/degree/
 ---
-## IMathRadical.Degree property
+
+## Свойство IMathRadical.Degree
 
 Аргумент степени
 
@@ -20,14 +21,14 @@ public IMathElement Degree { get; }
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radical("3");  // куб root
+IMathRadical radical = new MathematicalText("x").Radical("3"); // кубический корень
 IMathElement degreeElem = radical.Degree;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathRadical](../../imathradical)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathRadical](../../imathradical)
 * пространство имен [Aspose.Slides.MathText](../../imathradical)
 * сборка [Aspose.Slides](../../../)
 

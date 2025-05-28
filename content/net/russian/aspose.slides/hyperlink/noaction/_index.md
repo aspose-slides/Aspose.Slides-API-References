@@ -1,22 +1,23 @@
 ---
 title: NoAction
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает специальную гиперссылку ничего не делать. Только чтениеHyperlinkaspose.slides/hyperlink.
+description: Возвращает специальную гиперссылку, которая ничего не делает. Только для чтения Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 80
 url: /ru/aspose.slides/hyperlink/noaction/
 ---
-## Hyperlink.NoAction property
 
-Возвращает специальную гиперссылку "ничего не делать". Только чтение[`Hyperlink`](../../hyperlink).
+## Свойство Hyperlink.NoAction
+
+Возвращает специальную гиперссылку "ничего не делать". Только для чтения [`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink NoAction { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Hyperlink](../../hyperlink)
+* класс [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 

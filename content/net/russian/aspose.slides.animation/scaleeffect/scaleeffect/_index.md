@@ -1,12 +1,13 @@
 ---
 title: ScaleEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slidеs для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/scaleeffect/scaleeffect/
 ---
-## ScaleEffect constructor
+
+## Конструктор ScaleEffect
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/scaleeffect/scaleeffect/
 public ScaleEffect()
 ```
 
-### Смотрите также
+### См. также
 
-* class [ScaleEffect](../../scaleeffect)
+* класс [ScaleEffect](../../scaleeffect)
 * пространство имен [Aspose.Slides.Animation](../../scaleeffect)
 * сборка [Aspose.Slides](../../../)
 

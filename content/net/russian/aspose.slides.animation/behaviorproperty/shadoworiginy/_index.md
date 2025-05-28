@@ -1,12 +1,13 @@
 ---
 title: ShadowOriginY
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство shadow.origin.y
 type: docs
 weight: 750
 url: /ru/aspose.slides.animation/behaviorproperty/shadoworiginy/
 ---
-## BehaviorProperty.ShadowOriginY property
+
+## Свойство BehaviorProperty.ShadowOriginY
 
 Представляет свойство 'shadow.origin.y'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/shadoworiginy/
 public static BehaviorProperty ShadowOriginY { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

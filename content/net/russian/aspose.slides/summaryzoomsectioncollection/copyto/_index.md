@@ -1,12 +1,13 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Копирует всю коллекцию в указанный массив.
 type: docs
 weight: 70
 url: /ru/aspose.slides/summaryzoomsectioncollection/copyto/
 ---
-## SummaryZoomSectionCollection.CopyTo method
+
+## Метод SummaryZoomSectionCollection.CopyTo
 
 Копирует всю коллекцию в указанный массив.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides/summaryzoomsectioncollection/copyto/
 public void CopyTo(Array array, int index)
 ```
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| array | Array | Целевой массив |
-| index | Int32 | Индекс в целевом массиве . |
+| Параметр | Тип   | Описание                       |
+| -------- | ----- | ------------------------------ |
+| array    | Array | Целевой массив                |
+| index    | Int32 | Индекс в целевом массиве.     |
 
-### Смотрите также
+### См. также
 
-* class [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
+* класс [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * пространство имен [Aspose.Slides](../../summaryzoomsectioncollection)
 * сборка [Aspose.Slides](../../../)
 

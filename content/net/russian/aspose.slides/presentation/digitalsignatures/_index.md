@@ -1,14 +1,15 @@
 ---
-title: DigitalSignatures
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор подписей использованных для подписания презентации. Только для чтенияIDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
+title: ЦифровыеПодписи
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает коллекцию подписей, используемых для подписания презентации. Только для чтения IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
 type: docs
 weight: 80
 url: /ru/aspose.slides/presentation/digitalsignatures/
 ---
-## Presentation.DigitalSignatures property
 
-Возвращает набор подписей, использованных для подписания презентации. Только для чтения[`IDigitalSignatureCollection`](../../idigitalsignaturecollection).
+## Свойство Presentation.DigitalSignatures
+
+Возвращает коллекцию подписей, используемых для подписания презентации. Только для чтения [`IDigitalSignatureCollection`](../../idigitalsignaturecollection).
 
 ```csharp
 public IDigitalSignatureCollection DigitalSignatures { get; }
@@ -18,32 +19,32 @@ public IDigitalSignatureCollection DigitalSignatures { get; }
 
 ```csharp
 [C#]
-using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
+using (Presentation pres = new Presentation("НекотораяПрезентацияПодписана.pptx"))
 {
     if (pres.DigitalSignatures.Count > 0)
     {
         bool allSignaturesAreValid = true;
 
-        Console.WriteLine("Signatures used to sign the presentation: ");
+        Console.WriteLine("Подписи, использованные для подписания презентации: ");
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "
-                    + signature.SignTime.ToString("yyyy-MM-dd HH:mm") + " -- " + (signature.IsValid ? "VALID" : "INVALID"));
+                    + signature.SignTime.ToString("yyyy-MM-dd HH:mm") + " -- " + (signature.IsValid ? "ДОПУСТИМО" : "НЕДОПУСТИМО"));
             allSignaturesAreValid &= signature.IsValid;
         }
 
         if (allSignaturesAreValid)
-            Console.WriteLine("Presentation is genuine, all signatures are valid.");
+            Console.WriteLine("Презентация подлинная, все подписи действительны.");
         else
-            Console.WriteLine("Presentation has been modified since signing.");
+            Console.WriteLine("Презентация была изменена после подписания.");
     }
 }
 ```
 
 ### Смотрите также
 
-* interface [IDigitalSignatureCollection](../../idigitalsignaturecollection)
-* class [Presentation](../../presentation)
+* интерфейс [IDigitalSignatureCollection](../../idigitalsignaturecollection)
+* класс [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

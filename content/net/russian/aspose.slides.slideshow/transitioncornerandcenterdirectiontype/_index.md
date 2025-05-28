@@ -1,22 +1,23 @@
 ---
 title: TransitionCornerAndCenterDirectionType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает направление ограниченное углами и центром.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает направление, ограниченное углами и центром.
 type: docs
-weight: 9560
+weight: 10030
 url: /ru/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
-## TransitionCornerAndCenterDirectionType enumeration
 
-Задает направление, ограниченное углами и центром.
+## Перечисление TransitionCornerAndCenterDirectionType
+
+Указывает направление, ограниченное углами и центром.
 
 ```csharp
 public enum TransitionCornerAndCenterDirectionType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | LeftDown | `0` |  |
 | LeftUp | `1` |  |
@@ -24,7 +25,7 @@ public enum TransitionCornerAndCenterDirectionType
 | RightUp | `3` |  |
 | Center | `4` |  |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)

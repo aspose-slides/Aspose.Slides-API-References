@@ -1,23 +1,24 @@
 ---
 title: FillFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект свойств заполнения таблицы. Только для чтенияIFillFormataspose.slides/ifillformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает объект свойств заполнения таблицы. Только для чтения IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/tableformat/fillformat/
 ---
-## TableFormat.FillFormat property
 
-Возвращает объект свойств заполнения таблицы. Только для чтения[`IFillFormat`](../../ifillformat).
+## Свойство TableFormat.FillFormat
+
+Возвращает объект свойств заполнения таблицы. Только для чтения [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFillFormat](../../ifillformat)
-* class [TableFormat](../../tableformat)
+* интерфейс [IFillFormat](../../ifillformat)
+* класс [TableFormat](../../tableformat)
 * пространство имен [Aspose.Slides](../../tableformat)
 * сборка [Aspose.Slides](../../../)
 

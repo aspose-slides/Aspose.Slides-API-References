@@ -1,22 +1,23 @@
 ---
 title: BlobManagementOptions
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новые параметры управления большими двоичными объектами по умолчанию.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает новые параметры управления блобами по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/blobmanagementoptions/blobmanagementoptions/
 ---
-## BlobManagementOptions constructor
 
-Создает новые параметры управления большими двоичными объектами по умолчанию.
+## Конструктор BlobManagementOptions
+
+Создает новые параметры управления блобами по умолчанию.
 
 ```csharp
 public BlobManagementOptions()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BlobManagementOptions](../../blobmanagementoptions)
+* класс [BlobManagementOptions](../../blobmanagementoptions)
 * пространство имен [Aspose.Slides](../../blobmanagementoptions)
 * сборка [Aspose.Slides](../../../)
 

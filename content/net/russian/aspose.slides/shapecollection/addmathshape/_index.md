@@ -1,14 +1,15 @@
 ---
 title: AddMathShape
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую автофигуру настроенную из шаблона по умолчанию на математический контент и добавляет ее в конец коллекции.
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает новую автофигуру, настроенную из шаблона по умолчанию для математического содержимого, и добавляет ее в конец коллекции.
 type: docs
 weight: 140
 url: /ru/aspose.slides/shapecollection/addmathshape/
 ---
-## ShapeCollection.AddMathShape method
 
-Создает новую автофигуру, настроенную из шаблона по умолчанию на математический контент, и добавляет ее в конец коллекции.
+## ShapeCollection.AddMathShape метод
+
+Создает новую автофигуру, настроенную из шаблона по умолчанию для математического содержимого, и добавляет ее в конец коллекции.
 
 ```csharp
 public IAutoShape AddMathShape(float x, float y, float width, float height)
@@ -16,19 +17,42 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X для левой стороны рамки формы. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
 
 ### Возвращаемое значение
 
-Создан объект AutoShape.
+Созданный объект AutoShape.
 
-### Смотрите также
+### Примеры
 
-* interface [IAutoShape](../../iautoshape)
-* class [ShapeCollection](../../shapecollection)
+Следующий пример показывает, как добавить математическое уравнение в презентацию PowerPoint.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+   IAutoShape mathShape = pres.Slides[0].Shapes.AddMathShape(0, 0, 720, 150);
+   var mathParagraph = (mathShape.TextFrame.Paragraphs[0].Portions[0] as MathPortion).MathParagraph;
+   var fraction = new MathematicalText("x").Divide("y");
+   mathParagraph.Add(new MathBlock(fraction));
+   var mathBlock = new MathematicalText("c")
+        .SetSuperscript("2")
+        .Join("=")
+        .Join(new MathematicalText("a").SetSuperscript("2"))
+        .Join("+")
+        .Join(new MathematicalText("b").SetSuperscript("2"));
+    mathParagraph.Add(mathBlock);
+    pres.Save("math.pptx", SaveFormat.Pptx);
+}
+```
+
+### См. также
+
+* интерфейс [IAutoShape](../../iautoshape)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

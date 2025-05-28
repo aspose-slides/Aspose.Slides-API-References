@@ -1,22 +1,23 @@
 ---
 title: DoughnutHoleSize
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает размер отверстия в кольцевой диаграмме может составлять от 10 до 90 процентов от размера области графика. Чтение/записьByte.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает размер отверстия в круговой диаграмме, который может быть от 10 до 90 процентов от размера области построения. Чтение/запись Byte.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ichartseriesgroup/doughnutholesize/
 ---
-## IChartSeriesGroup.DoughnutHoleSize property
 
-Задает размер отверстия в кольцевой диаграмме (может составлять от 10 до 90 процентов от размера области графика). Чтение/записьByte.
+## IChartSeriesGroup.DoughnutHoleSize свойство
+
+Указывает размер отверстия в круговой диаграмме (может быть от 10 до 90 процентов от размера области построения). Чтение/запись Byte.
 
 ```csharp
 public byte DoughnutHoleSize { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IChartSeriesGroup](../../ichartseriesgroup)
+* интерфейс [IChartSeriesGroup](../../ichartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

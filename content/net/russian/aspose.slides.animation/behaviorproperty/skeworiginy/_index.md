@@ -1,12 +1,13 @@
 ---
 title: SkewOriginY
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство skew.origin.y
 type: docs
 weight: 870
 url: /ru/aspose.slides.animation/behaviorproperty/skeworiginy/
 ---
-## BehaviorProperty.SkewOriginY property
+
+## Свойство BehaviorProperty.SkewOriginY
 
 Представляет свойство 'skew.origin.y'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/skeworiginy/
 public static BehaviorProperty SkewOriginY { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

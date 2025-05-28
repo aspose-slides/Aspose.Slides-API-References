@@ -1,14 +1,15 @@
 ---
-title: Save
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Speichert bestimmte Folien einer Präsentation in einer Datei mit dem angegebenen Format unter Beibehaltung der Seitenzahl.
+title: Speichern
+second_title: Aspose.Slides für .NET API-Referenz
+description: Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format unter Beibehaltung der Seitenzahl.
 type: docs
-weight: 350
+weight: 380
 url: /de/aspose.slides/presentation/save/
 ---
-## Save(string, int[], SaveFormat) {#save_9}
 
-Speichert bestimmte Folien einer Präsentation in einer Datei mit dem angegebenen Format unter Beibehaltung der Seitenzahl.
+## Save(string, int[], SaveFormat) {#save_7}
+
+Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format unter Beibehaltung der Seitenzahl.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -17,29 +18,29 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fname | String | Pfad zur erstellten Datei. |
-| slides | Int32[] | Array mit Objektträgerpositionen, beginnend bei 1. |
+| slides | Int32[] | Array mit Folienpositionen, beginnend bei 1. |
 | format | SaveFormat | Format der exportierten Daten. |
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wenn der Stream- oder Folienparameter null ist. |
-| ArgumentOutOfRangeException | Wenn der Folienparameter falsche Seitenzahlen enthält. |
-| InvalidOperationException | Wenn ein nicht unterstütztes SaveFormat verwendet wird, z. B. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | Wenn der Stream oder der slides-Parameter null ist. |
+| ArgumentOutOfRangeException | Wenn der slides-Parameter falsche Seitenzahlen enthält. |
+| InvalidOperationException | Wenn ein nicht unterstütztes SaveFormat verwendet wird, z.B. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Siehe auch
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Save(string, int[], SaveFormat, ISaveOptions) {#save_10}
+## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Speichert bestimmte Folien einer Präsentation in einer Datei mit dem angegebenen Format unter Beibehaltung der Seitenzahl.
+Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format unter Beibehaltung der Seitenzahl.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -48,7 +49,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fname | String | Pfad zur erstellten Datei. |
-| slides | Int32[] | Array mit Objektträgerpositionen, beginnend bei 1. |
+| slides | Int32[] | Array mit Folienpositionen, beginnend bei 1. |
 | format | SaveFormat | Format der exportierten Daten. |
 | options | ISaveOptions | Zusätzliche Formatoptionen. |
 
@@ -57,8 +58,8 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -72,16 +73,16 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | Ausgabestrom. |
-| slides | Int32[] | Array mit Objektträgerpositionen, beginnend bei 1. |
+| stream | Stream | Ausgabestream. |
+| slides | Int32[] | Array mit Folienpositionen, beginnend bei 1. |
 | format | SaveFormat | Format der exportierten Daten. |
 
 ### Siehe auch
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -95,8 +96,8 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | Ausgabestrom. |
-| slides | Int32[] | Array mit Objektträgerpositionen, beginnend bei 1. |
+| stream | Stream | Ausgabestream. |
+| slides | Int32[] | Array mit Folienpositionen, beginnend bei 1. |
 | format | SaveFormat | Format der exportierten Daten. |
 | options | ISaveOptions | Zusätzliche Formatoptionen. |
 
@@ -104,74 +105,70 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wenn der Stream- oder Folienparameter null ist. |
-| ArgumentOutOfRangeException | Wenn der Folienparameter falsche Seitenzahlen enthält. |
-| InvalidOperationException | Wenn ein nicht unterstütztes SaveFormat verwendet wird, z. B. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | Wenn der Stream oder der slides-Parameter null ist. |
+| ArgumentOutOfRangeException | Wenn der slides-Parameter falsche Seitenzahlen enthält. |
+| InvalidOperationException | Wenn ein nicht unterstütztes SaveFormat verwendet wird, z.B. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+### Beispiele
+
+Das folgende Beispiel zeigt, wie man PowerPoint in PNG konvertiert.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    for (var index = 0; index < pres.Slides.Count; index++)
+    {
+        ISlide slide = pres.Slides[index];
+        slide.GetThumbnail().Save($"slide_{index}.png", ImageFormat.Png);
+    }
+}
+```
+
+Das folgende Beispiel zeigt, wie man PowerPoint in PNG mit benutzerdefinierten Dimensionen konvertiert.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    float scaleX = 2f;
+    float scaleY = 2f;
+    for (var index = 0; index < pres.Slides.Count; index++)
+    {
+        ISlide slide = pres.Slides[index];
+        slide.GetThumbnail(scaleX, scaleY).Save($"slide_{index}.png", ImageFormat.Png);
+    }
+}
+```
+
+Das folgende Beispiel zeigt, wie man PowerPoint in PNG mit benutzerdefinierter Größe konvertiert.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    Size size = new Size(960, 720);
+    for (var index = 0; index < pres.Slides.Count; index++)
+    {
+        ISlide slide = pres.Slides[index];
+        slide.GetThumbnail(size).Save($"slide_{index}.png", ImageFormat.Png);
+    }
+}
+```
 
 ### Siehe auch
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
-
----
-
-## Save(string, SaveFormat, HttpResponse, bool) {#save_8}
-
-Sendet die Präsentation an den Client-Browser. Diese Methode fehlt in ClientProfile-Versionen von Aspose.Slide.
-
-```csharp
-public void Save(string fname, SaveFormat format, HttpResponse response, bool showInline)
-```
-
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| fname | String | Der Name für die Präsentation, der im Clientbrowser angezeigt wird. Der Name sollte keinen Pfad enthalten. |
-| format | SaveFormat | Format der exportierten Daten. |
-| response | HttpResponse | Antwortobjekt, in dem das Dokument gespeichert werden soll. |
-| showInline | Boolean | True, um eine Option zum Öffnen der Präsentation im Browser anzuzeigen. |
-
-### Siehe auch
-
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
-
----
-
-## Save(string, SaveFormat, ISaveOptions, HttpResponse, bool) {#save_7}
-
-Sendet die Präsentation an den Client-Browser. Diese Methode fehlt in ClientProfile-Versionen von Aspose.Slide.
-
-```csharp
-public void Save(string fname, SaveFormat format, ISaveOptions options, HttpResponse response, 
-    bool showInline)
-```
-
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| fname | String | Der Name für die Präsentation, der im Clientbrowser angezeigt wird. Der Name sollte keinen Pfad enthalten. |
-| format | SaveFormat | Format der exportierten Daten. |
-| options | ISaveOptions | Zusätzliche Formatoptionen. |
-| response | HttpResponse | Antwortobjekt, in dem das Dokument gespeichert werden soll. |
-| showInline | Boolean | True, um eine Option zum Öffnen der Präsentation im Browser anzuzeigen. |
-
-### Siehe auch
-
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, SaveFormat) {#save_5}
 
-Speichert alle Folien einer Präsentation in eine Datei mit dem angegebenen Format.
+Speichert alle Folien einer Präsentation in einer Datei im angegebenen Format.
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -186,8 +183,8 @@ public void Save(string fname, SaveFormat format)
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -201,39 +198,31 @@ public void Save(Stream stream, SaveFormat format)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | Ausgabestrom. |
+| stream | Stream | Ausgabestream. |
 | format | SaveFormat | Format der exportierten Daten. |
 
 ### Siehe auch
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-Speichert alle Folien einer Präsentation in eine Datei mit dem angegebenen Format und mit zusätzlichen Optionen.
-
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
 ```
-
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| fname | String | Pfad zur erstellten Datei. |
-| format | SaveFormat | Format der exportierten Daten. |
-| options | ISaveOptions | Zusätzliche Formatoptionen. |
 
 ### Siehe auch
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -247,7 +236,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | Ausgabestrom. |
+| stream | Stream | Ausgabestream. |
 | format | SaveFormat | Format der exportierten Daten. |
 | options | ISaveOptions | Zusätzliche Formatoptionen. |
 
@@ -255,21 +244,21 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| NotSupportedException | Wenn Sie versuchen, eine verschlüsselte Datei im -Format zu speichern, kein Office 2007-2010-Format |
+| NotSupportedException | Wenn Sie versuchen, eine verschlüsselte Datei im nicht Office 2007-2010-Format zu speichern. |
 
 ### Siehe auch
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-Speichert alle Folien einer Präsentation in einem Satz von Dateien, die XAML-Markup darstellen.
+Speichert alle Folien einer Präsentation in einer Reihe von Dateien, die XAML-Markup darstellen.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -293,7 +282,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 * interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
 * class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

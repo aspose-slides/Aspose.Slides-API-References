@@ -3,10 +3,11 @@ title: ISlideComponent
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет компонент слайда.
 type: docs
-weight: 6480
+weight: 6840
 url: /ru/aspose.slides/islidecomponent/
 ---
-## ISlideComponent interface
+
+## Интерфейс ISlideComponent
 
 Представляет компонент слайда.
 
@@ -14,16 +15,16 @@ url: /ru/aspose.slides/islidecomponent/
 public interface ISlideComponent : IPresentationComponent
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Возвращает базовый слайд. Только для чтения[`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
+| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Возвращает базовый слайд. Только для чтения [`IBaseSlide`](../ibaseslide). |
 
-### Смотрите также
+### См. также
 
-* interface [IPresentationComponent](../ipresentationcomponent)
+* интерфейс [IPresentationComponent](../ipresentationcomponent)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

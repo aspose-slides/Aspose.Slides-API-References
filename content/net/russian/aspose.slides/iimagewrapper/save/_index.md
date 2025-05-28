@@ -1,11 +1,12 @@
 ---
-title: Save
+title: Сохранить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Сохраняет изображение в указанный файл
 type: docs
 weight: 40
 url: /ru/aspose.slides/iimagewrapper/save/
 ---
+
 ## Save(string) {#save_1}
 
 Сохраняет изображение в указанный файл
@@ -16,11 +17,11 @@ public void Save(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файлаString |
+| fileName | String | Строка с именем файла |
 
-### Смотрите также
+### См. также
 
-* interface [IImageWrapper](../../iimagewrapper)
+* интерфейс [IImageWrapper](../../iimagewrapper)
 * пространство имен [Aspose.Slides](../../iimagewrapper)
 * сборка [Aspose.Slides](../../../)
 
@@ -36,13 +37,13 @@ public void Save(Stream stream, PPImageFormat imageFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для сохранения образаStream |
-| imageFormat | PPImageFormat | Формат изображения[`PPImageFormat`](../../ppimageformat) |
+| stream | Stream | Поток для сохранения изображения |
+| imageFormat | PPImageFormat | Формат изображения [`PPImageFormat`](../../ppimageformat) |
 
-### Смотрите также
+### См. также
 
-* enum [PPImageFormat](../../ppimageformat)
-* interface [IImageWrapper](../../iimagewrapper)
+* перечисление [PPImageFormat](../../ppimageformat)
+* интерфейс [IImageWrapper](../../iimagewrapper)
 * пространство имен [Aspose.Slides](../../iimagewrapper)
 * сборка [Aspose.Slides](../../../)
 
@@ -58,13 +59,13 @@ public void Save(string fileName, PPImageFormat imageFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файлаString |
-| imageFormat | PPImageFormat | Формат изображения[`PPImageFormat`](../../ppimageformat) |
+| fileName | String | Строка с именем файла |
+| imageFormat | PPImageFormat | Формат изображения [`PPImageFormat`](../../ppimageformat) |
 
-### Смотрите также
+### См. также
 
-* enum [PPImageFormat](../../ppimageformat)
-* interface [IImageWrapper](../../iimagewrapper)
+* перечисление [PPImageFormat](../../ppimageformat)
+* интерфейс [IImageWrapper](../../iimagewrapper)
 * пространство имен [Aspose.Slides](../../iimagewrapper)
 * сборка [Aspose.Slides](../../../)
 

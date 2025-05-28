@@ -1,12 +1,13 @@
 ---
 title: AsIBasePortionFormatEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает интерфейс IBasePortionFormatEffectiveData.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata/
 ---
-## IPortionFormatEffectiveData.AsIBasePortionFormatEffectiveData property
+
+## IPortionFormatEffectiveData.AsIBasePortionFormatEffectiveData свойство
 
 Возвращает интерфейс IBasePortionFormatEffectiveData.
 
@@ -16,12 +17,12 @@ public IBasePortionFormatEffectiveData AsIBasePortionFormatEffectiveData { get; 
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. Также
 
-* interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
-* interface [IPortionFormatEffectiveData](../../iportionformateffectivedata)
+* интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* интерфейс [IPortionFormatEffectiveData](../../iportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../iportionformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

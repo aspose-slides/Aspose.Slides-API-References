@@ -1,14 +1,15 @@
 ---
-title: Equals
+title: Равно
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равны ли два экземпляра гиперссылки.
+description: Определяет, равны ли два экземпляра Hyperlink.
 type: docs
-weight: 190
+weight: 210
 url: /ru/aspose.slides/hyperlink/equals/
 ---
+
 ## Equals(object) {#equals_1}
 
-Определяет, равны ли два экземпляра гиперссылки.
+Определяет, равны ли два экземпляра Hyperlink.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Гиперссылка для сравнения с текущей гиперссылкой. |
+| obj | Object | Hyperlink для сравнения с текущим Hyperlink. |
 
 ### Возвращаемое значение
 
-**true** , если указанная Гиперссылка равна текущей Гиперссылке; в противном случае **false** .
+**true**, если указанный Hyperlink равен текущему Hyperlink; в противном случае **false**.
 
 ### Смотрите также
 
-* class [Hyperlink](../../hyperlink)
+* класс [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 
@@ -32,7 +33,7 @@ public override bool Equals(object obj)
 
 ## Equals(IHyperlink) {#equals}
 
-Определяет, равны ли два экземпляра гиперссылки.
+Определяет, равны ли два экземпляра Hyperlink.
 
 ```csharp
 public bool Equals(IHyperlink hlink)
@@ -40,16 +41,16 @@ public bool Equals(IHyperlink hlink)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hlink | IHyperlink | Гиперссылка для сравнения с текущей гиперссылкой. |
+| hlink | IHyperlink | Hyperlink для сравнения с текущим Hyperlink. |
 
 ### Возвращаемое значение
 
-**true** , если указанная Гиперссылка равна текущей Гиперссылке; в противном случае **false** .
+**true**, если указанный Hyperlink равен текущему Hyperlink; в противном случае **false**.
 
 ### Смотрите также
 
-* interface [IHyperlink](../../ihyperlink)
-* class [Hyperlink](../../hyperlink)
+* интерфейс [IHyperlink](../../ihyperlink)
+* класс [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 

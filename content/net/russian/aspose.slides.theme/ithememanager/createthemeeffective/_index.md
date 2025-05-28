@@ -1,12 +1,13 @@
 ---
 title: CreateThemeEffective
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Возвращает объект темы.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/ithememanager/createthemeeffective/
 ---
-## IThemeManager.CreateThemeEffective method
+
+## IThemeManager.CreateThemeEffective метод
 
 Возвращает объект темы.
 
@@ -16,12 +17,12 @@ public IThemeEffectiveData CreateThemeEffective()
 
 ### Возвращаемое значение
 
-Объект темы[`IThemeEffectiveData`](../../ithemeeffectivedata)
+Объект темы [`IThemeEffectiveData`](../../ithemeeffectivedata)
 
-### Смотрите также
+### См. Также
 
-* interface [IThemeEffectiveData](../../ithemeeffectivedata)
-* interface [IThemeManager](../../ithememanager)
+* интерфейс [IThemeEffectiveData](../../ithemeeffectivedata)
+* интерфейс [IThemeManager](../../ithememanager)
 * пространство имен [Aspose.Slides.Theme](../../ithememanager)
 * сборка [Aspose.Slides](../../../)
 

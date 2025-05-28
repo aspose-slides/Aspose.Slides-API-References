@@ -1,22 +1,23 @@
 ---
 title: NumberFormatOfBubbleSizes
-second_title: Справочник по API Aspose.Slides для .NET
-description: NumberFormatOfBubbleSizes. Чтение/записьString.
+second_title: Aspose.Slides для .NET API Справочник
+description: NumberFormatOfBubbleSizes. Чтение/запись строка.
 type: docs
 weight: 220
 url: /ru/aspose.slides.charts/chartseries/numberformatofbubblesizes/
 ---
-## ChartSeries.NumberFormatOfBubbleSizes property
 
-NumberFormatOfBubbleSizes. Чтение/записьString.
+## Свойство ChartSeries.NumberFormatOfBubbleSizes
+
+NumberFormatOfBubbleSizes. Чтение/запись строка.
 
 ```csharp
 public string NumberFormatOfBubbleSizes { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartSeries](../../chartseries)
+* класс [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)
 * сборка [Aspose.Slides](../../../)
 

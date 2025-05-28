@@ -1,14 +1,15 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Fügt eine Kopie einer angegebenen Folie an der angegebenen Position der Sammlung ein.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Fügt eine Kopie einer angegebenen Folie an einer angegebenen Position der Sammlung ein.
 type: docs
 weight: 70
 url: /de/aspose.slides/islidecollection/insertclone/
 ---
-## InsertClone(int, ISlide) {#insertclone}
 
-Fügt eine Kopie einer angegebenen Folie an der angegebenen Position der Sammlung ein.
+## InsertClone(int, ISlide) {#insertclone}
+
+Fügt eine Kopie einer angegebenen Folie an einer angegebenen Position der Sammlung ein.
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide)
@@ -17,28 +18,28 @@ public ISlide InsertClone(int index, ISlide sourceSlide)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Index der neuen Folie. |
-| sourceSlide | ISlide | Zum Klonen schieben. |
+| sourceSlide | ISlide | Folie zu klonen. |
 
 ### Rückgabewert
 
-Folie eingefügt.
+Eingefügte Folie.
 
-### Bemerkungen
+### Anmerkungen
 
-Beim Klonen einer Folie zwischen verschiedenen Präsentationen kann auch der Master der Folie geklont werden. Die interne Registrierung wird verwendet, um automatisch geklonte Master zu verfolgen, um zu verhindern, dass mehrere Klone derselben Masterfolie erstellt werden. Das manuelle Klonen von Masterfolien wird weder verhindert noch registriert. Wenn Sie mehr Kontrolle über den Klonprozess benötigen, verwenden Sie [`InsertClone`](../insertclone) oder [`InsertClone`](../insertclone) zum Klonen von Objektträgern und [`AddClone`](../../imasterslidecollection/addclone) für Klonmeister.
+Beim Klonen einer Folie zwischen verschiedenen Präsentationen kann auch der Master der Folie geklont werden. Ein internes Register wird verwendet, um automatisch geklonte Master zu verfolgen, um die Erstellung mehrerer Klone derselben Masterfolie zu verhindern. Das manuelle Klonen von Masterfolien wird weder verhindert noch registriert. Wenn Sie mehr Kontrolle über den Klonprozess benötigen, verwenden Sie [`InsertClone`](../insertclone) oder [`InsertClone`](../insertclone) zum Klonen von Folien und [`AddClone`](../../imasterslidecollection/addclone) zum Klonen von Masterfolien.
 
 ### Siehe auch
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
-* namensraum [Aspose.Slides](../../islidecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
-## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
 
-Fügt eine Kopie einer angegebenen Folie an der angegebenen Position der Sammlung ein.
+Fügt eine Kopie einer angegebenen Folie an einer angegebenen Position der Sammlung ein.
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
@@ -47,26 +48,26 @@ public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Index der neuen Folie. |
-| sourceSlide | ISlide | Zum Klonen schieben. |
+| sourceSlide | ISlide | Folie zu klonen. |
 | destLayout | ILayoutSlide | Layoutfolie für eine neue Folie. |
 
 ### Rückgabewert
 
-Folie eingefügt.
+Eingefügte Folie.
 
 ### Siehe auch
 
-* interface [ISlide](../../islide)
-* interface [ILayoutSlide](../../ilayoutslide)
-* interface [ISlideCollection](../../islidecollection)
-* namensraum [Aspose.Slides](../../islidecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [ILayoutSlide](../../ilayoutslide)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
-## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
 
-Fügt eine Kopie einer angegebenen Quellfolie an der angegebenen Position der Sammlung ein. Das geeignete Layout wird automatisch aus dem angegebenen -Master ausgewählt (das geeignete Layout ist das Layout mit demselben Typ oder Namen wie des Layouts der Quellfolie). Wenn es kein geeignetes Layout gibt, wird das Layout der Quellfolie geklont (wenn allowCloneMissingLayout wahr ist) oder PptxEditException ausgelöst (wenn allowCloneMissingLayout falsch ist).
+Fügt eine Kopie einer angegebenen Quellfolie an einer angegebenen Position der Sammlung ein. Das geeignete Layout wird automatisch aus dem angegebenen Master ausgewählt (das geeignete Layout ist das Layout mit dem gleichen Typ oder Namen wie das Layout der Quellfolie). Wenn es kein geeignetes Layout gibt, wird das Layout der Quellfolie geklont (wenn allowCloneMissingLayout true ist) oder eine PptxEditException wird ausgelöst (wenn allowCloneMissingLayout false ist).
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
@@ -76,26 +77,26 @@ public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Index der neuen Folie. |
-| sourceSlide | ISlide | Zum Klonen schieben. |
+| sourceSlide | ISlide | Folie zu klonen. |
 | destMaster | IMasterSlide | Masterfolie für eine neue Folie. |
-| allowCloneMissingLayout | Boolean | Wenn es im angegebenen Master kein geeignetes Layout gibt, wird das Layout der Quellfolie geklont (wenn allowCloneMissingLayout wahr ist) oder PptxEditException wird ausgelöst (wenn allowCloneMissingLayout falsch ist). |
+| allowCloneMissingLayout | Boolean | Wenn es im angegebenen Master kein geeignetes Layout gibt, wird das Layout der Quellfolie geklont (wenn allowCloneMissingLayout true ist) oder eine PptxEditException wird ausgelöst (wenn allowCloneMissingLayout false ist). |
 
 ### Rückgabewert
 
-Folie eingefügt.
+Eingefügte Folie.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn es im angegebenen Master kein geeignetes Layout gibt und allowCloneMissingLayout falsch ist. |
+| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn es im angegebenen Master kein geeignetes Layout gibt und allowCloneMissingLayout false ist. |
 
 ### Siehe auch
 
-* interface [ISlide](../../islide)
-* interface [IMasterSlide](../../imasterslide)
-* interface [ISlideCollection](../../islidecollection)
-* namensraum [Aspose.Slides](../../islidecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [IMasterSlide](../../imasterslide)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

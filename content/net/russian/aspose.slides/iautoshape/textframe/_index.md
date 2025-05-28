@@ -1,23 +1,24 @@
 ---
 title: TextFrame
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект TextFrameEx для AutoShapeEx. Только для чтенияITextFrameaspose.slides/itextframe.
+description: Возвращает объект TextFrame для AutoShape. Только для чтения ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 50
 url: /ru/aspose.slides/iautoshape/textframe/
 ---
-## IAutoShape.TextFrame property
 
-Возвращает объект TextFrameEx для AutoShapeEx. Только для чтения[`ITextFrame`](../../itextframe).
+## Свойство IAutoShape.TextFrame
+
+Возвращает объект TextFrame для AutoShape. Только для чтения [`ITextFrame`](../../itextframe).
 
 ```csharp
 public ITextFrame TextFrame { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [ITextFrame](../../itextframe)
-* interface [IAutoShape](../../iautoshape)
+* интерфейс [ITextFrame](../../itextframe)
+* интерфейс [IAutoShape](../../iautoshape)
 * пространство имен [Aspose.Slides](../../iautoshape)
 * сборка [Aspose.Slides](../../../)
 

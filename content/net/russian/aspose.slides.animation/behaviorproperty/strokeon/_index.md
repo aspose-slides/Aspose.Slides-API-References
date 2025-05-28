@@ -6,7 +6,8 @@ type: docs
 weight: 980
 url: /ru/aspose.slides.animation/behaviorproperty/strokeon/
 ---
-## BehaviorProperty.StrokeOn property
+
+## Свойство BehaviorProperty.StrokeOn
 
 Представляет свойство 'stroke.on'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokeon/
 public static BehaviorProperty StrokeOn { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

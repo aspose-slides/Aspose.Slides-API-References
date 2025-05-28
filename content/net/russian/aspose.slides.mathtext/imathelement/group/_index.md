@@ -1,14 +1,15 @@
 ---
-title: Group
+title: Группа
 second_title: Справочник по API Aspose.Slides для .NET
-description: Помещает этот элемент в группу с помощью нижней фигурной скобки
+description: Размещает этот элемент в группе, используя нижние фигурные скобки
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/imathelement/group/
 ---
+
 ## Group() {#group}
 
-Помещает этот элемент в группу с помощью нижней фигурной скобки
+Размещает этот элемент в группе, используя нижние фигурные скобки
 
 ```csharp
 public IMathGroupingCharacter Group()
@@ -16,7 +17,7 @@ public IMathGroupingCharacter Group()
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathGroupingCharacter`](../../imathgroupingcharacter)
+Новый экземпляр типа [`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
 ### Примеры
 
@@ -27,10 +28,10 @@ public IMathGroupingCharacter Group()
 IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathGroupingCharacter](../../imathgroupingcharacter)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathGroupingCharacter](../../imathgroupingcharacter)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
@@ -38,7 +39,7 @@ IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 
 ## Group(char, MathTopBotPositions, MathTopBotPositions) {#group_1}
 
-Помещает этот элемент в группу, используя символ группировки, такой как нижняя фигурная скобка или другой
+Размещает этот элемент в группе, используя символ группировки, такой как нижняя фигурная скобка или другой
 
 ```csharp
 public IMathGroupingCharacter Group(char character, MathTopBotPositions position, 
@@ -47,13 +48,13 @@ public IMathGroupingCharacter Group(char character, MathTopBotPositions position
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| character | Char | Символ группировки, такой как НИЖНЯЯ КРЮЧКА (U+23DF) или любой другой |
-| position | MathTopBotPositions | Позиция символа группировки |
-| verticalJustification | MathTopBotPositions | Вертикальное выравнивание группового символа. Задает выравнивание объекта относительно базовой линии. Например, когда символ группы находится над объектом, Вертикальное выравнивание по верху означает, что верх объекта падает на базовую линию; когда для параметра VerticalJustification установлено значение Bottom, нижняя часть объекта находится на базовой линии |
+| character | Char | Символ группировки, такой как НИЖНЯЯ ФИГУРНАЯ СКОБКА (U+23DF) или любой другой |
+| position | MathTopBotPositions | Положение символа группировки |
+| verticalJustification | MathTopBotPositions | Вертикальное выравнивание символа группы. Указывает выравнивание объекта относительно базовой линии. Например, когда символ группы находится над объектом, VerticalJustification равное Top означает, что верхняя часть объекта попадает на базовую линию; когда VerticalJustification установлено на Bottom, нижняя часть объекта находится на базовой линии |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathGroupingCharacter`](../../imathgroupingcharacter)
+Новый экземпляр типа [`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
 ### Примеры
 
@@ -64,11 +65,11 @@ public IMathGroupingCharacter Group(char character, MathTopBotPositions position
 IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group('\u23E1', MathTopBotPositions.Bottom, MathTopBotPositions.Top);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathGroupingCharacter](../../imathgroupingcharacter)
-* enum [MathTopBotPositions](../../mathtopbotpositions)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathGroupingCharacter](../../imathgroupingcharacter)
+* перечисление [MathTopBotPositions](../../mathtopbotpositions)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

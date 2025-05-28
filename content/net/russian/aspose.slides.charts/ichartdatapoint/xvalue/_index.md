@@ -1,23 +1,24 @@
 ---
 title: XValue
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение x точки данных диаграммы. Только для чтенияIStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает x-значение элемента данных диаграммы. Только для чтения IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 160
+weight: 170
 url: /ru/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
-## IChartDataPoint.XValue property
 
-Возвращает значение x точки данных диаграммы. Только для чтения[`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+## Свойство IChartDataPoint.XValue
+
+Возвращает x-значение элемента данных диаграммы. Только для чтения [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IStringOrDoubleChartValue](../../istringordoublechartvalue)
-* interface [IChartDataPoint](../../ichartdatapoint)
+* интерфейс [IStringOrDoubleChartValue](../../istringordoublechartvalue)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

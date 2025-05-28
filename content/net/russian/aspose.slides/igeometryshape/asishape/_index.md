@@ -1,23 +1,24 @@
 ---
 title: AsIShape
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IShape. Только для чтенияIShapeaspose.slides/ishape.
+second_title: Aspose.Slides для .NET API Справка
+description: Позволяет получить базовый интерфейс IShape. Только для чтения IShapeaspose.slides/ishape.
 type: docs
 weight: 20
 url: /ru/aspose.slides/igeometryshape/asishape/
 ---
-## IGeometryShape.AsIShape property
 
-Позволяет получить базовый интерфейс IShape. Только для чтения[`IShape`](../../ishape).
+## Свойство IGeometryShape.AsIShape
+
+Позволяет получить базовый интерфейс IShape. Только для чтения [`IShape`](../../ishape).
 
 ```csharp
 public IShape AsIShape { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IShape](../../ishape)
-* interface [IGeometryShape](../../igeometryshape)
+* интерфейс [IShape](../../ishape)
+* интерфейс [IGeometryShape](../../igeometryshape)
 * пространство имен [Aspose.Slides](../../igeometryshape)
 * сборка [Aspose.Slides](../../../)
 

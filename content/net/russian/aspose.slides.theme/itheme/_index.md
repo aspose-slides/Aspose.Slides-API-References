@@ -1,37 +1,38 @@
 ---
 title: ITheme
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет тему.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Является темой.
 type: docs
-weight: 10560
+weight: 11060
 url: /ru/aspose.slides.theme/itheme/
 ---
-## ITheme interface
 
-Представляет тему.
+## Интерфейс ITheme
+
+Является темой.
 
 ```csharp
 public interface ITheme : IPresentationComponent
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения[`IColorScheme`](../icolorscheme). |
-| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Возвращает схему шрифта. Только для чтения[`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Возвращает схему формата формы. Только для чтения[`IFormatScheme`](../iformatscheme). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения [`IColorScheme`](../icolorscheme). |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Возвращает шрифтовую схему. Только для чтения [`IFontScheme`](../ifontscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Возвращает схему формата формы. Только для чтения [`IFormatScheme`](../iformatscheme). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Получает эффективные данные темы с примененным наследованием. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Получает эффективные данные темы с применением наследования. |
 
-### Смотрите также
+### См. также
 
-* interface [IPresentationComponent](../../aspose.slides/ipresentationcomponent)
+* интерфейс [IPresentationComponent](../../aspose.slides/ipresentationcomponent)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

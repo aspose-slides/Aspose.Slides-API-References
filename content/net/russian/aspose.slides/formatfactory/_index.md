@@ -1,12 +1,13 @@
 ---
 title: FormatFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Позволяет создавать форматы через COM интерфейс.
 type: docs
-weight: 4490
+weight: 4750
 url: /ru/aspose.slides/formatfactory/
 ---
-## FormatFactory class
+
+## Класс FormatFactory
 
 Позволяет создавать форматы через COM интерфейс.
 
@@ -20,23 +21,23 @@ public class FormatFactory : IFormatFactory
 | --- | --- |
 | [FormatFactory](formatfactory)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Статический экземпляр фабрики форматирования. Только для чтения[`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Статический экземпляр фабрики форматов. Только для чтения [`FormatFactory`](../formatfactory). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Создает новый[`IParagraphFormat`](../iparagraphformat). |
-| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Создает новый[`IPortionFormat`](../iportionformat). |
-| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Создает новый[`ITextFrameFormat`](../itextframeformat). |
+| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Создает новый [`IParagraphFormat`](../iparagraphformat). |
+| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Создает новый [`IPortionFormat`](../iportionformat). |
+| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Создает новый [`ITextFrameFormat`](../itextframeformat). |
 
-### Смотрите также
+### См. также
 
-* interface [IFormatFactory](../iformatfactory)
+* интерфейс [IFormatFactory](../iformatfactory)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

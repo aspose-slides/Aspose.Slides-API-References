@@ -1,14 +1,15 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет строку в указанной позиции из таблицы.
+second_title: Aspose.Sildes для справочника API .NET
+description: Удаляет строку по указанной позиции из таблицы.
 type: docs
 weight: 90
 url: /ru/aspose.slides/rowcollection/removeat/
 ---
-## RowCollection.RemoveAt method
 
-Удаляет строку в указанной позиции из таблицы.
+## Метод RowCollection.RemoveAt
+
+Удаляет строку по указанной позиции из таблицы.
 
 ```csharp
 public void RemoveAt(int firstRowIndex, bool withAttachedRows)
@@ -16,12 +17,12 @@ public void RemoveAt(int firstRowIndex, bool withAttachedRows)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRowIndex | Int32 | Индекс удаляемой строки. |
-| withAttachedRows | Boolean | Истинно, чтобы также удалить все прикрепленные строки. |
+| firstRowIndex | Int32 | Индекс строки для удаления. |
+| withAttachedRows | Boolean | True для удаления также всех прикрепленных строк. |
 
-### Смотрите также
+### См. также
 
-* class [RowCollection](../../rowcollection)
+* класс [RowCollection](../../rowcollection)
 * пространство имен [Aspose.Slides](../../rowcollection)
 * сборка [Aspose.Slides](../../../)
 

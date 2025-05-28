@@ -1,14 +1,15 @@
 ---
 title: IsNumberFormatLinkedToSource
-second_title: Справочник по API Aspose.Slides для .NET
-description: Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Чтение/запись логического значения.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource/
 ---
-## IDataLabelFormat.IsNumberFormatLinkedToSource property
 
-Чтение/записьBoolean.
+## IDataLabelFormat.IsNumberFormatLinkedToSource свойство
+
+Чтение/запись логического значения.
 
 ```csharp
 public bool IsNumberFormatLinkedToSource { get; set; }
@@ -16,11 +17,11 @@ public bool IsNumberFormatLinkedToSource { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства IsNumberFormatLinkedToSource для новых меток данных в коллекции DataLabelCollection. Присвоение этому свойству значения также устанавливает это значение в свойство IsNumberFormatLinkedToSource для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" приводит к тому, что все DataLabels[i].IsNumberFormatLinkedToSource равно val).
+Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection, то это свойство получает или устанавливает значение по умолчанию для свойства IsNumberFormatLinkedToSource для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение для свойства IsNumberFormatLinkedToSource для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" приводит к тому, что все DataLabels[i].IsNumberFormatLinkedToSource равны val).
 
-### Смотрите также
+### Также см.
 
-* interface [IDataLabelFormat](../../idatalabelformat)
+* интерфейс [IDataLabelFormat](../../idatalabelformat)
 * пространство имен [Aspose.Slides.Charts](../../idatalabelformat)
 * сборка [Aspose.Slides](../../../)
 

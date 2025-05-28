@@ -1,12 +1,13 @@
 ---
 title: IGrayScale
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет интерфейс IImageTransformOperation.
 type: docs
-weight: 3140
+weight: 3220
 url: /ru/aspose.slides.effects/igrayscale/
 ---
-## IGrayScale interface
+
+## Интерфейс IGrayScale
 
 Представляет интерфейс IImageTransformOperation.
 
@@ -15,18 +16,18 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
     IImageTransformOperation
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | Возвращает интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | Возвращает интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Смотрите также
+### См. также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* interface [IGrayScaleEffectiveData](../igrayscaleeffectivedata)
-* interface [IImageTransformOperation](../iimagetransformoperation)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IGrayScaleEffectiveData](../igrayscaleeffectivedata)
+* интерфейс [IImageTransformOperation](../iimagetransformoperation)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

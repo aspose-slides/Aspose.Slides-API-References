@@ -1,23 +1,24 @@
 ---
-title: Item
+title: Элемент
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цветовую схему по индексу. Только для чтенияExtraColorSchemeaspose.slides.theme/extracolorscheme.
+description: Возвращает цветовую схему по индексу. Только для чтения ExtraColorSchemeaspose.slides.theme/extracolorscheme.
 type: docs
 weight: 30
 url: /ru/aspose.slides.theme/extracolorschemecollection/item/
 ---
-## ExtraColorSchemeCollection indexer
 
-Возвращает цветовую схему по индексу. Только для чтения[`ExtraColorScheme`](../../extracolorscheme).
+## Индексатор ExtraColorSchemeCollection
+
+Возвращает цветовую схему по индексу. Только для чтения [`ExtraColorScheme`](../../extracolorscheme).
 
 ```csharp
 public IExtraColorScheme this[int index] { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IExtraColorScheme](../../iextracolorscheme)
-* class [ExtraColorSchemeCollection](../../extracolorschemecollection)
+* интерфейс [IExtraColorScheme](../../iextracolorscheme)
+* класс [ExtraColorSchemeCollection](../../extracolorschemecollection)
 * пространство имен [Aspose.Slides.Theme](../../extracolorschemecollection)
 * сборка [Aspose.Slides](../../../)
 

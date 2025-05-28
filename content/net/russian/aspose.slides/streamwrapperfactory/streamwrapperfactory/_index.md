@@ -1,12 +1,13 @@
 ---
 title: StreamWrapperFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/streamwrapperfactory/streamwrapperfactory/
 ---
-## StreamWrapperFactory constructor
+
+## Конструктор StreamWrapperFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/streamwrapperfactory/streamwrapperfactory/
 public StreamWrapperFactory()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [StreamWrapperFactory](../../streamwrapperfactory)
+* класс [StreamWrapperFactory](../../streamwrapperfactory)
 * пространство имен [Aspose.Slides](../../streamwrapperfactory)
 * сборка [Aspose.Slides](../../../)
 

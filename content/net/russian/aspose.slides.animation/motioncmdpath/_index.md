@@ -1,31 +1,32 @@
 ---
 title: MotionCmdPath
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют одну команду пути.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет одну команду пути.
 type: docs
-weight: 550
+weight: 570
 url: /ru/aspose.slides.animation/motioncmdpath/
 ---
-## MotionCmdPath class
 
-Представляют одну команду пути.
+## Класс MotionCmdPath
+
+Представляет одну команду пути.
 
 ```csharp
 public class MotionCmdPath : IMotionCmdPath
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Указывает тип команды. Чтение/запись[`MotionCommandPathType`](../motioncommandpathtype). |
-| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Определить координаты команды относительные или нет. Чтение/записьBoolean. |
-| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Определяет точки командования. Чтение/записьPointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Определяет тип командных точек Чтение/запись[`MotionPathPointsType`](../motionpathpointstype). |
+| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Указывает тип команды. Для чтения/записи [`MotionCommandPathType`](../motioncommandpathtype). |
+| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Определяет, относительные ли координаты команды или нет. Для чтения/записи Boolean. |
+| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Указывает точки команды. Для чтения/записи PointF[]. |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Указывает тип точек команды. Для чтения/записи [`MotionPathPointsType`](../motionpathpointstype). |
 
-### Смотрите также
-
-* interface [IMotionCmdPath](../imotioncmdpath)
+### Также см.
+ 
+* интерфейс [IMotionCmdPath](../imotioncmdpath)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

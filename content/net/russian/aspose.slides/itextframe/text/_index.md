@@ -1,26 +1,27 @@
 ---
-title: Text
+title: Текст
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает обычный текст для TextFrame. Чтение/записьString.
+description: Получает или устанавливает простой текст для TextFrame. Чтение/запись String.
 type: docs
-weight: 40
+weight: 60
 url: /ru/aspose.slides/itextframe/text/
 ---
-## ITextFrame.Text property
 
-Получает или задает обычный текст для TextFrame. Чтение/записьString.
+## ITextFrame.Text свойство
+
+Получает или устанавливает простой текст для TextFrame. Чтение/запись String.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### Стоимость имущества
+### Значение свойства
 
 Текст.
 
-### Смотрите также
+### См. Также
 
-* interface [ITextFrame](../../itextframe)
+* интерфейс [ITextFrame](../../itextframe)
 * пространство имен [Aspose.Slides](../../itextframe)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: ActualHeight
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout перед тем как получить фактические значения. ЧитатьSingle.
+description: Указывает фактическую высоту элемента графика. Вызовите метод IChart.ValidateChartLayout перед получением фактических значений. Читайте Single.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartplotarea/actualheight/
 ---
-## ChartPlotArea.ActualHeight property
 
-Определяет фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle.
+## Свойство ChartPlotArea.ActualHeight
+
+Указывает фактическую высоту элемента графика. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single.
 
 ```csharp
 public float ActualHeight { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartPlotArea](../../chartplotarea)
+* класс [ChartPlotArea](../../chartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../chartplotarea)
 * сборка [Aspose.Slides](../../../)
 

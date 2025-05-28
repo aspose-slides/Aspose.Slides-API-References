@@ -1,12 +1,13 @@
 ---
 title: INotesSize
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет размер слайда заметок.
 type: docs
-weight: 5930
+weight: 6290
 url: /ru/aspose.slides/inotessize/
 ---
-## INotesSize interface
+
+## Интерфейс INotesSize
 
 Представляет размер слайда заметок.
 
@@ -14,13 +15,13 @@ url: /ru/aspose.slides/inotessize/
 public interface INotesSize
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | Возвращает или задает размер в пунктах. Чтение/записьSizeF. |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | Возвращает или устанавливает размер в пунктах. Чтение/запись SizeF. |
 
-### Смотрите также
+### Также смотрите
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

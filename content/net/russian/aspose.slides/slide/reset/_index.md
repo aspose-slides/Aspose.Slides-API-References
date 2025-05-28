@@ -1,22 +1,23 @@
 ---
-title: Reset
-second_title: Справочник по API Aspose.Slides для .NET
-description: Сбрасывает положение размер и форматирование каждой фигуры имеющей прототип на LayoutSlide.
+title: Сброс
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Сбрасывает размер позиции и форматирование каждой фигуры, которая имеет прототип на LayoutSlide.
 type: docs
-weight: 130
+weight: 120
 url: /ru/aspose.slides/slide/reset/
 ---
-## Slide.Reset method
 
-Сбрасывает положение, размер и форматирование каждой фигуры, имеющей прототип на LayoutSlide.
+## Метод Slide.Reset
+
+Сбрасывает позицию, размер и форматирование каждой фигуры, которая имеет прототип на LayoutSlide.
 
 ```csharp
 public void Reset()
 ```
 
-### Смотрите также
+### См. также
 
-* class [Slide](../../slide)
+* класс [Slide](../../slide)
 * пространство имен [Aspose.Slides](../../slide)
 * сборка [Aspose.Slides](../../../)
 

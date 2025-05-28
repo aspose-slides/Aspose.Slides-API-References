@@ -1,14 +1,15 @@
 ---
-title: Subscript
+title: Подстрочный текст
 second_title: Справочник по API Aspose.Slides для .NET
-description: Нижний индекс
+description: Аргумент подстрочного текста
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript/
 ---
-## IMathRightSubSuperscriptElement.Subscript property
 
-Нижний индекс
+## Свойство IMathRightSubSuperscriptElement.Subscript
+
+Аргумент подстрочного текста
 
 ```csharp
 public IMathElement Subscript { get; }
@@ -27,10 +28,10 @@ MathRightSubSuperscriptElement subsuperscript = new MathRightSubSuperscriptEleme
 IMathElement sub = subsuperscript.Subscript;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
 * пространство имен [Aspose.Slides.MathText](../../imathrightsubsuperscriptelement)
 * сборка [Aspose.Slides](../../../)
 

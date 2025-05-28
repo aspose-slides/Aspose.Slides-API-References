@@ -1,14 +1,15 @@
 ---
-title: Equals
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйFillOverlayaspose.slides.effects/filloverlayтекущемуFillOverlay.
+title: Равно
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, равен ли указанный FillOverlayaspose.slides.effects/filloverlay текущему FillOverlayaspose.slides.effects/filloverlay.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/filloverlay/equals/
 ---
-## FillOverlay.Equals method
 
-Определяет, равен ли указанный[`FillOverlay`](../../filloverlay)текущемуFillOverlay.
+## Метод FillOverlay.Equals
+
+Определяет, равен ли указанный [`FillOverlay`](../../filloverlay) текущему [`FillOverlay`](../../filloverlay).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`FillOverlay`](../../filloverlay)для сравнения. |
+| obj | Object | [`FillOverlay`](../../filloverlay) для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае ложно.
+true, если объекты равны; в противном случае false.
 
-### Смотрите также
+### См. также
 
-* class [FillOverlay](../../filloverlay)
+* класс [FillOverlay](../../filloverlay)
 * пространство имен [Aspose.Slides.Effects](../../filloverlay)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: PositionLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли перемещение этой фигуры. Чтение/записьBoolean.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Определяет, запрещено ли движение этой фигуры. Читаемое/записываемое логическое значение.
 type: docs
 weight: 70
 url: /ru/aspose.slides/pictureframelock/positionlocked/
 ---
-## PictureFrameLock.PositionLocked property
 
-Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean.
+## Свойство PictureFrameLock.PositionLocked
+
+Определяет, запрещено ли движение этой фигуры. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool PositionLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [PictureFrameLock](../../pictureframelock)
+* класс [PictureFrameLock](../../pictureframelock)
 * пространство имен [Aspose.Slides](../../pictureframelock)
 * сборка [Aspose.Slides](../../../)
 

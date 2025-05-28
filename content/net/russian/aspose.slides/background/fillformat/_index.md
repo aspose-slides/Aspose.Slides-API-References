@@ -1,23 +1,24 @@
 ---
 title: FillFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает FillFormat для заливки BackgroundType.OwnBackground. Только для чтенияIFillFormataspose.slides/ifillformat.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает FillFormat для заполнения типа BackgroundType.OwnBackground. Только для чтения IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides/background/fillformat/
 ---
-## Background.FillFormat property
 
-Возвращает FillFormat для заливки BackgroundType.OwnBackground. Только для чтения[`IFillFormat`](../../ifillformat).
+## Свойство Background.FillFormat
+
+Возвращает FillFormat для заполнения типа BackgroundType.OwnBackground. Только для чтения [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFillFormat](../../ifillformat)
-* class [Background](../../background)
+* интерфейс [IFillFormat](../../ifillformat)
+* класс [Background](../../background)
 * пространство имен [Aspose.Slides](../../background)
 * сборка [Aspose.Slides](../../../)
 

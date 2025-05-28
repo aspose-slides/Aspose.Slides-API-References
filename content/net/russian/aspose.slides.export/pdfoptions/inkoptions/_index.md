@@ -1,0 +1,25 @@
+---
+title: InkOptions
+second_title: Aspose.Sildes для .NET API Справочник
+description: Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения IInkOptionsaspose.slides.export/iinkoptions
+type: docs
+weight: 120
+url: /ru/aspose.slides.export/pdfoptions/inkoptions/
+---
+
+## PdfOptions.InkOptions свойство
+
+Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../../iinkoptions)
+
+```csharp
+public IInkOptions InkOptions { get; }
+```
+
+### См. также
+
+* интерфейс [IInkOptions](../../iinkoptions)
+* класс [PdfOptions](../../pdfoptions)
+* пространство имен [Aspose.Slides.Export](../../pdfoptions)
+* сборка [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: сгенерировано xmldocmd для Aspose.Slides.dll -->

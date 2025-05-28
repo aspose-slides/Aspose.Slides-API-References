@@ -1,14 +1,15 @@
 ---
 title: Delimit
-second_title: Справочник по API Aspose.Slides для .NET
-description: Разделяет аргументы используя указанный символ-разделитель
+second_title: Aspose.Slides для .NET Справочник по API
+description: Делит аргументы с использованием указанного символа-разделителя
 type: docs
 weight: 80
 url: /ru/aspose.slides.mathtext/imathdelimiter/delimit/
 ---
-## IMathDelimiter.Delimit method
 
-Разделяет аргументы, используя указанный символ-разделитель
+## IMathDelimiter.Delimit метод
+
+Делит аргументы с использованием указанного символа-разделителя
 
 ```csharp
 public IMathDelimiter Delimit(char separatorCharacter)
@@ -16,7 +17,7 @@ public IMathDelimiter Delimit(char separatorCharacter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| SeparatorCharacter | Char | символ-разделитель |
+| separatorCharacter | Char | символ-разделитель |
 
 ### Возвращаемое значение
 
@@ -32,9 +33,9 @@ IMathDelimiter delimiter = new MathematicalText("x").Join("y").Enclose();
 delimiter.Delimit('|');
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathDelimiter](../../imathdelimiter)
+* интерфейс [IMathDelimiter](../../imathdelimiter)
 * пространство имен [Aspose.Slides.MathText](../../imathdelimiter)
 * сборка [Aspose.Slides](../../../)
 

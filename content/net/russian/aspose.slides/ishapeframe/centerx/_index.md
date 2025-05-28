@@ -1,22 +1,23 @@
 ---
 title: CenterX
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает координату X центра кадра. Только для чтенияSingle.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает X координату центра рамки. Только для чтения Single.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ishapeframe/centerx/
 ---
-## IShapeFrame.CenterX property
 
-Возвращает координату X центра кадра. Только для чтенияSingle.
+## Свойство IShapeFrame.CenterX
+
+Возвращает X координату центра рамки. Только для чтения Single.
 
 ```csharp
 public float CenterX { get; }
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [IShapeFrame](../../ishapeframe)
+* интерфейс [IShapeFrame](../../ishapeframe)
 * пространство имен [Aspose.Slides](../../ishapeframe)
 * сборка [Aspose.Slides](../../../)
 

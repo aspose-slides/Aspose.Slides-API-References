@@ -1,44 +1,45 @@
 ---
 title: CustomXmlPartCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор пользовательских частей xml.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет коллекцию пользовательских xml-частей.
 type: docs
-weight: 2600
+weight: 2660
 url: /ru/aspose.slides/customxmlpartcollection/
 ---
-## CustomXmlPartCollection class
 
-Представляет набор пользовательских частей xml.
+## Класс CustomXmlPartCollection
+
+Представляет коллекцию пользовательских xml-частей.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Возвращает количество пользовательских частей xml в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Возвращает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Возвращает количество пользовательских xml-частей в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (пот安全но). Только для чтения Boolean. |
+| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Возвращает элемент по заданному индексу. |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | Добавляет новую пользовательскую часть xml. |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Добавляет новую пользовательскую часть xml. |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Добавляет новую пользовательскую часть xml. |
-| [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Удаляет все предметы из коллекции. |
-| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Копировать в указанный массив. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | Добавляет новую пользовательскую xml-часть. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Добавляет новую пользовательскую xml-часть. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Добавляет новую пользовательскую xml-часть. |
+| [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Удаляет все элементы из коллекции. |
+| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Копирует в указанный массив. |
 | [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Удаляет первое вхождение определенного объекта из коллекции. |
-| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Удаляет пользовательскую часть xml по указанному индексу. |
+| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Удаляет первое вхождение конкретного объекта из коллекции. |
+| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Удаляет пользовательскую xml-часть по заданному индексу. |
 
-### Смотрите также
+### См. также
 
-* interface [ICustomXmlPartCollection](../icustomxmlpartcollection)
+* интерфейс [ICustomXmlPartCollection](../icustomxmlpartcollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

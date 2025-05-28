@@ -1,14 +1,15 @@
 ---
 title: CreatedTime
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает время создания комментария. Установка для этого свойства значенияMinValueозначает что время комментариев не установлено. Чтение/записьDateTime.
+description: Возвращает или устанавливает время создания комментария. Установка этого свойства в MinValue означает, что время комментария не установлено. Читаемое/записываемое DateTime.
 type: docs
 weight: 20
 url: /ru/aspose.slides/comment/createdtime/
 ---
-## Comment.CreatedTime property
 
-Возвращает или устанавливает время создания комментария. Установка для этого свойства значенияMinValueозначает, что время комментариев не установлено. Чтение/записьDateTime.
+## Свойство Comment.CreatedTime
+
+Возвращает или устанавливает время создания комментария. Установка этого свойства в MinValue означает, что время комментария не установлено. Читаемое/записываемое DateTime.
 
 ```csharp
 public DateTime CreatedTime { get; set; }
@@ -20,7 +21,7 @@ public DateTime CreatedTime { get; set; }
 
 ### Смотрите также
 
-* class [Comment](../../comment)
+* класс [Comment](../../comment)
 * пространство имен [Aspose.Slides](../../comment)
 * сборка [Aspose.Slides](../../../)
 

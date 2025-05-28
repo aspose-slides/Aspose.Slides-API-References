@@ -1,27 +1,28 @@
 ---
 title: ColorOperationCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор операций преобразования цвета.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой коллекцию операций преобразования цвета.
 type: docs
-weight: 2390
+weight: 2450
 url: /ru/aspose.slides/coloroperationcollection/
 ---
-## ColorOperationCollection class
 
-Представляет набор операций преобразования цвета.
+## Класс ColorOperationCollection
+
+Представляет собой коллекцию операций преобразования цвета.
 
 ```csharp
 public sealed class ColorOperationCollection : IColorOperationCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Возвращает количество операций в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Возвращает или задает операцию по указанному индексу. Чтение/запись[`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Возвращает количество операций в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасно). Только для чтения Boolean. |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Возвращает или устанавливает операцию по указанному индексу. Чтение/запись [`ColorOperation`](../coloroperation). |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
@@ -29,7 +30,7 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | --- | --- |
 | [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | Добавляет новую операцию в конец коллекции. |
 | [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Добавляет новую операцию в конец коллекции. |
-| [Clear](../../aspose.slides/coloroperationcollection/clear)() | Удаляет все операции с цветом. |
+| [Clear](../../aspose.slides/coloroperationcollection/clear)() | Удаляет все операции цвета. |
 | [Clone](../../aspose.slides/coloroperationcollection/clone)() | Создает копию коллекции ColorOperationCollection. |
 | [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Клонирует текущий объект |
 | [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
@@ -38,9 +39,9 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Вставляет новую операцию в коллекцию. |
 | [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | Удаляет операцию цвета из коллекции. |
 
-### Смотрите также
+### См. также
 
-* interface [IColorOperationCollection](../icoloroperationcollection)
+* интерфейс [IColorOperationCollection](../icoloroperationcollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

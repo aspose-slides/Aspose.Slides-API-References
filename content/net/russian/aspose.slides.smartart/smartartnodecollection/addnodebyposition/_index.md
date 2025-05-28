@@ -1,14 +1,15 @@
 ---
 title: AddNodeByPosition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавить новый узел в выбранную позицию коллекции узлов
+second_title: Aspose.Slides для справки по API .NET
+description: Добавить новый узел в выбранной позиции коллекции узлов
 type: docs
 weight: 60
 url: /ru/aspose.slides.smartart/smartartnodecollection/addnodebyposition/
 ---
-## SmartArtNodeCollection.AddNodeByPosition method
 
-Добавить новый узел в выбранную позицию коллекции узлов
+## Метод SmartArtNodeCollection.AddNodeByPosition
+
+Добавить новый узел в выбранной позиции коллекции узлов
 
 ```csharp
 public ISmartArtNode AddNodeByPosition(int position)
@@ -16,22 +17,22 @@ public ISmartArtNode AddNodeByPosition(int position)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Int32 | Позиция узла с нулевой базой |
+| position | Int32 | Позиция узла с нулевым индексом |
 
 ### Возвращаемое значение
 
-Добавлен узел
+Добавленный узел
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | позиция меньше 0 |
+| ArgumentOutOfRangeException | position меньше 0 |
 
-### Смотрите также
+### См. также
 
-* interface [ISmartArtNode](../../ismartartnode)
-* class [SmartArtNodeCollection](../../smartartnodecollection)
+* интерфейс [ISmartArtNode](../../ismartartnode)
+* класс [SmartArtNodeCollection](../../smartartnodecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartnodecollection)
 * сборка [Aspose.Slides](../../../)
 

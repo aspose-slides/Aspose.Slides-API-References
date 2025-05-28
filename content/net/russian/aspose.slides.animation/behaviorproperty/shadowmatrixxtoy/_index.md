@@ -1,12 +1,13 @@
 ---
 title: ShadowMatrixXtoY
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство shadow.matrix.xtoy
 type: docs
 weight: 650
 url: /ru/aspose.slides.animation/behaviorproperty/shadowmatrixxtoy/
 ---
-## BehaviorProperty.ShadowMatrixXtoY property
+
+## BehaviorProperty.ShadowMatrixXtoY свойство
 
 Представляет свойство 'shadow.matrix.xtoy'
 
@@ -16,7 +17,7 @@ public static BehaviorProperty ShadowMatrixXtoY { get; }
 
 ### Смотрите также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

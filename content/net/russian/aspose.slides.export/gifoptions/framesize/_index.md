@@ -1,14 +1,15 @@
 ---
 title: FrameSize
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает размер кадра.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Получает или устанавливает размер рамки.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/gifoptions/framesize/
 ---
-## GifOptions.FrameSize property
 
-Получает или задает размер кадра.
+## Свойство GifOptions.FrameSize
+
+Получает или устанавливает размер рамки.
 
 ```csharp
 public Size FrameSize { get; set; }
@@ -16,11 +17,11 @@ public Size FrameSize { get; set; }
 
 ### Примечания
 
-Если размер пуст, то значение будет взято из[`SlideSize`](../../../aspose.slides/ipresentation/slidesize)&gt;
+Если размер пустой, то значение будет взято из [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)
 
-### Смотрите также
+### См. также
 
-* class [GifOptions](../../gifoptions)
+* класс [GifOptions](../../gifoptions)
 * пространство имен [Aspose.Slides.Export](../../gifoptions)
 * сборка [Aspose.Slides](../../../)
 

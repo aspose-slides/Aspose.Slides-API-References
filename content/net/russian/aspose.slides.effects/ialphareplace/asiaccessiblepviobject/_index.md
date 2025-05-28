@@ -1,24 +1,25 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/ialphareplace/asiaccessiblepviobject/
 ---
-## IAlphaReplace.AsIAccessiblePVIObject property
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+## Свойство IAlphaReplace.AsIAccessiblePVIObject
+
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IAlphaReplaceEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* interface [IAlphaReplaceEffectiveData](../../ialphareplaceeffectivedata)
-* interface [IAlphaReplace](../../ialphareplace)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IAlphaReplaceEffectiveData](../../ialphareplaceeffectivedata)
+* интерфейс [IAlphaReplace](../../ialphareplace)
 * пространство имен [Aspose.Slides.Effects](../../ialphareplace)
 * сборка [Aspose.Slides](../../../)
 

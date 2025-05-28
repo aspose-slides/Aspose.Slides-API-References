@@ -1,12 +1,13 @@
 ---
-title: Denominator
-second_title: Справочник по API Aspose.Slides для .NET
+title: Знаменатель
+second_title: Справочная информация по API Aspose.Slides для .NET
 description: Знаменатель
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathfraction/denominator/
 ---
-## MathFraction.Denominator property
+
+## Свойство MathFraction.Denominator
 
 Знаменатель
 
@@ -24,10 +25,10 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathElement denominator = mathFraction.Denominator;
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IMathElement](../../imathelement)
-* class [MathFraction](../../mathfraction)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathFraction](../../mathfraction)
 * пространство имен [Aspose.Slides.MathText](../../mathfraction)
 * сборка [Aspose.Slides](../../../)
 

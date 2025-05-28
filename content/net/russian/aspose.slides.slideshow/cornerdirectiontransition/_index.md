@@ -1,36 +1,37 @@
 ---
 title: CornerDirectionTransition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода слайда в угловом направлении.
+second_title: Aspose.Slides для справочника API .NET
+description: Эффект перехода слайдов в угловом направлении.
 type: docs
-weight: 9230
+weight: 9700
 url: /ru/aspose.slides.slideshow/cornerdirectiontransition/
 ---
-## CornerDirectionTransition class
 
-Эффект перехода слайда в угловом направлении.
+## Класс CornerDirectionTransition
+
+Эффект перехода слайдов в угловом направлении.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
 
-### Смотрите также
+### См. Также
 
-* class [TransitionValueBase](../transitionvaluebase)
-* interface [ICornerDirectionTransition](../icornerdirectiontransition)
+* класс [TransitionValueBase](../transitionvaluebase)
+* интерфейс [ICornerDirectionTransition](../icornerdirectiontransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

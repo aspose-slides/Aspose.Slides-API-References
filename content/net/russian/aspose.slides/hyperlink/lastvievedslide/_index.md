@@ -1,22 +1,23 @@
 ---
 title: LastVievedSlide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает гиперссылку на последний просмотренный слайд. Только чтениеHyperlinkaspose.slides/hyperlink.
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает гиперссылку на последний просмотренный слайд. Только для чтения Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 50
 url: /ru/aspose.slides/hyperlink/lastvievedslide/
 ---
-## Hyperlink.LastVievedSlide property
 
-Возвращает гиперссылку на последний просмотренный слайд. Только чтение[`Hyperlink`](../../hyperlink).
+## Свойство Hyperlink.LastVievedSlide
+
+Возвращает гиперссылку на последний просмотренный слайд. Только для чтения [`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink LastVievedSlide { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Hyperlink](../../hyperlink)
+* класс [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)
 * сборка [Aspose.Slides](../../../)
 

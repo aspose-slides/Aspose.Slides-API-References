@@ -1,22 +1,23 @@
 ---
 title: ActualY
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает фактическую вершину элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout перед тем как получить фактические значения. ЧитатьSingle.
+description: Указывает фактическое верхнее положение элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout, чтобы получить фактические значения. Читайте Single.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/chartplotarea/actualy/
 ---
-## ChartPlotArea.ActualY property
 
-Указывает фактическую вершину элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle.
+## Свойство ChartPlotArea.ActualY
+
+Указывает фактическое верхнее положение элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. Читайте Single.
 
 ```csharp
 public float ActualY { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartPlotArea](../../chartplotarea)
+* класс [ChartPlotArea](../../chartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../chartplotarea)
 * сборка [Aspose.Slides](../../../)
 

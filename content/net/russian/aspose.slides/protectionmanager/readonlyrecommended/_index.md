@@ -1,14 +1,15 @@
 ---
 title: ReadOnlyRecommended
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает рекомендацию только для чтения. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает или задает рекомендацию только для чтения. Чтение/запись Boolean.
 type: docs
 weight: 60
 url: /ru/aspose.slides/protectionmanager/readonlyrecommended/
 ---
-## ProtectionManager.ReadOnlyRecommended property
 
-Получает или задает рекомендацию только для чтения. Чтение/записьBoolean.
+## ProtectionManager.ReadOnlyRecommended свойство
+
+Получает или задает рекомендацию только для чтения. Чтение/запись Boolean.
 
 ```csharp
 public bool ReadOnlyRecommended { get; set; }
@@ -16,16 +17,20 @@ public bool ReadOnlyRecommended { get; set; }
 
 ### Примеры
 
+Следующий пример кода показывает, как установить презентацию PowerPoint в режим «Только для чтения» на C# с использованием Aspose.Slides.
+
 ```csharp
 [C#]
-Presentation pres = new Presentation();
-pres.ProtectionManager.ReadOnlyRecommended = true;
-pres.Save("ReadOnlyPresentation.pptx", SaveFormat.Pptx);
+using (Presentation pres = new Presentation())
+{
+	pres.ProtectionManager.ReadOnlyRecommended = true;
+	pres.Save("ReadOnlyPresentation.pptx", SaveFormat.Pptx);
+}
 ```
 
-### Смотрите также
+### См. также
 
-* class [ProtectionManager](../../protectionmanager)
+* класс [ProtectionManager](../../protectionmanager)
 * пространство имен [Aspose.Slides](../../protectionmanager)
 * сборка [Aspose.Slides](../../../)
 

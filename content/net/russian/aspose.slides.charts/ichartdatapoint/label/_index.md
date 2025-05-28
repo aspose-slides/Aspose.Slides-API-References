@@ -1,23 +1,24 @@
 ---
-title: Label
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет метку точки данных диаграммы. Только чтениеIDataLabelaspose.slides.charts/idatalabel.
+title: Метка
+second_title: Справочник API Aspose.Slides для .NET
+description: Представляет метку точки данных диаграммы. Только для чтения IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 100
+weight: 110
 url: /ru/aspose.slides.charts/ichartdatapoint/label/
 ---
-## IChartDataPoint.Label property
 
-Представляет метку точки данных диаграммы. Только чтение[`IDataLabel`](../../idatalabel).
+## Свойство IChartDataPoint.Label
+
+Представляет метку точки данных диаграммы. Только для чтения [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IDataLabel](../../idatalabel)
-* interface [IChartDataPoint](../../ichartdatapoint)
+* интерфейс [IDataLabel](../../idatalabel)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

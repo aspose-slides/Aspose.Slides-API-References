@@ -1,22 +1,23 @@
 ---
 title: EnablePresetShadowEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Включает предустановленный эффект теней.
+second_title: Справочная информация по API Aspose.Slides для .NET
+description: Включает эффект заранее заданных теней.
 type: docs
 weight: 220
 url: /ru/aspose.slides/effectformat/enablepresetshadoweffect/
 ---
-## EffectFormat.EnablePresetShadowEffect method
 
-Включает предустановленный эффект теней.
+## Метод EffectFormat.EnablePresetShadowEffect
+
+Включает эффект заранее заданных теней.
 
 ```csharp
 public void EnablePresetShadowEffect()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [EffectFormat](../../effectformat)
+* класс [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

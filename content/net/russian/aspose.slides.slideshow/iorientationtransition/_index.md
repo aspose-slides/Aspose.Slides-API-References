@@ -1,12 +1,13 @@
 ---
 title: IOrientationTransition
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Эффект перехода слайдов ориентации.
 type: docs
-weight: 9370
+weight: 9840
 url: /ru/aspose.slides.slideshow/iorientationtransition/
 ---
-## IOrientationTransition interface
+
+## Интерфейс IOrientationTransition
 
 Эффект перехода слайдов ориентации.
 
@@ -14,16 +15,16 @@ url: /ru/aspose.slides.slideshow/iorientationtransition/
 public interface IOrientationTransition : ITransitionValueBase
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`Orientation`](../../aspose.slides/orientation). |
 
-### Смотрите также
+### Также смотрите
 
-* interface [ITransitionValueBase](../itransitionvaluebase)
+* интерфейс [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

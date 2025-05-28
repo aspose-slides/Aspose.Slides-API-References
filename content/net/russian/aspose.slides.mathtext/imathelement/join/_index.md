@@ -1,11 +1,12 @@
 ---
-title: Join
-second_title: Справочник по API Aspose.Slides для .NET
+title: Соединить
+second_title: Справочник API Aspose.Slides для .NET
 description: Соединяет математический элемент и формирует математический блок
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/imathelement/join/
 ---
+
 ## Join(IMathElement) {#join}
 
 Соединяет математический элемент и формирует математический блок
@@ -16,11 +17,11 @@ public IMathBlock Join(IMathElement mathElement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElement | IMathElement | присоединяемый элемент |
+| mathElement | IMathElement | Элемент, который нужно соединить |
 
 ### Возвращаемое значение
 
-Новый блок IMathBlock, содержащий этот экземпляр и указанный аргумент
+Новый IMathBlock, содержащий этот экземпляр и указанный аргумент
 
 ### Примеры
 
@@ -33,10 +34,10 @@ IMathElement element2 = new MathematicalText("y");
 IMathBlock block = element1.Join(element2);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathBlock](../../imathblock)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathBlock](../../imathblock)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
@@ -52,11 +53,11 @@ public IMathBlock Join(string mathText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathText | String | Математический соединяемый текст |
+| mathText | String | Математический текст, который нужно соединить |
 
 ### Возвращаемое значение
 
-Новый блок IMathBlock, содержащий этот экземпляр и указанный аргумент
+Новый IMathBlock, содержащий этот экземпляр и указанный аргумент
 
 ### Примеры
 
@@ -68,10 +69,10 @@ IMathElement element = new MathematicalText("x");
 IMathBlock block = element.Join("+y");
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathBlock](../../imathblock)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathBlock](../../imathblock)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

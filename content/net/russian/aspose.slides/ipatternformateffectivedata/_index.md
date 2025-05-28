@@ -1,38 +1,39 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект который содержит эффективные свойства заполнения шаблона.
+second_title: Aspose.Slides для .NET API Reference
+description: Неподвижный объект, который содержит эффективные свойства заливки паттернов.
 type: docs
-weight: 6070
+weight: 6430
 url: /ru/aspose.slides/ipatternformateffectivedata/
 ---
-## IPatternFormatEffectiveData interface
 
-Неизменяемый объект, который содержит эффективные свойства заполнения шаблона.
+## Интерфейс IPatternFormatEffectiveData
+
+Неподвижный объект, который содержит эффективные свойства заливки паттернов.
 
 ```csharp
 public interface IPatternFormatEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Возвращает цвет фонового узора. Только для чтенияColor. |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Возвращает цвет шаблона переднего плана. Только для чтенияColor. |
-| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Возвращает стиль шаблона. Только для чтения[`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Возвращает цвет фона паттерна. Только для чтения Color. |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Возвращает цвет переднего плана паттерна. Только для чтения Color. |
+| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Возвращает стиль паттерна. Только для чтения [`PatternStyle`](../patternstyle). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetTileImage](../../aspose.slides/ipatternformateffectivedata/gettileimage)(Color, Color) | Создает мозаичное изображение для заливки узором указанными цветами. |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Создает изображение плитки для заливки паттерна с заданными цветами. |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IFillFormatEffectiveData`](../ifillformateffectivedata)и[`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
+Этот интерфейс используется как часть [`IFillFormatEffectiveData`](../ifillformateffectivedata) и [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

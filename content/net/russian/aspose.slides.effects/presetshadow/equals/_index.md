@@ -1,14 +1,15 @@
 ---
-title: Equals
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйPresetShadowaspose.slides.effects/presetshadowтекущемуPresetShadow.
+title: Равно
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Определяет, равен ли указанный PresetShadowaspose.slides.effects/presetshadow текущему PresetShadowaspose.slides.effects/presetshadow.
 type: docs
 weight: 50
 url: /ru/aspose.slides.effects/presetshadow/equals/
 ---
-## PresetShadow.Equals method
 
-Определяет, равен ли указанный[`PresetShadow`](../../presetshadow)текущемуPresetShadow.
+## Метод PresetShadow.Equals
+
+Определяет, равен ли указанный [`PresetShadow`](../../presetshadow) текущему [`PresetShadow`](../../presetshadow).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`PresetShadow`](../../presetshadow)для сравнения. |
+| obj | Object | [`PresetShadow`](../../presetshadow) для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае ложно.
+true, если объекты равны; в противном случае false.
 
-### Смотрите также
+### См. также
 
-* class [PresetShadow](../../presetshadow)
+* класс [PresetShadow](../../presetshadow)
 * пространство имен [Aspose.Slides.Effects](../../presetshadow)
 * сборка [Aspose.Slides](../../../)
 

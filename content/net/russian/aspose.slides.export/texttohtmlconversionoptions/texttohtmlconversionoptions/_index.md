@@ -1,12 +1,13 @@
 ---
 title: TextToHtmlConversionOptions
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/texttohtmlconversionoptions/texttohtmlconversionoptions/
 ---
-## TextToHtmlConversionOptions constructor
+
+## Конструктор TextToHtmlConversionOptions
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.export/texttohtmlconversionoptions/texttohtmlconversionop
 public TextToHtmlConversionOptions()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [TextToHtmlConversionOptions](../../texttohtmlconversionoptions)
+* класс [TextToHtmlConversionOptions](../../texttohtmlconversionoptions)
 * пространство имен [Aspose.Slides.Export](../../texttohtmlconversionoptions)
 * сборка [Aspose.Slides](../../../)
 

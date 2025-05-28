@@ -1,46 +1,47 @@
 ---
-title: OuterShadow
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un effet dombre extérieure.
+title: OmbreExtérieure
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Représente un effet d'Ombre Extérieure.
 type: docs
-weight: 3440
+weight: 3500
 url: /fr/aspose.slides.effects/outershadow/
 ---
-## OuterShadow class
 
-Représente un effet d'ombre extérieure.
+## Classe OmbreExtérieure
+
+Représente un effet d'Ombre Extérieure.
 
 ```csharp
-public class OuterShadow : IOuterShadow
+public sealed class OuterShadow : IOuterShadow
 ```
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Rayon de flou. Lecture/écritureDouble . |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direction de l'ombre. Lecture/écritureSingle . |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distance de l'ombre. Lecture/écritureDouble . |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Alignement rectangle. Lecture/écriture[`RectangleAlignment`](../../aspose.slides/rectanglealignment) . |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Spécifie si l'ombre doit tourner avec la forme si la forme est tournée. Lecture/écritureBoolean . |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Spécifie le facteur de mise à l'échelle horizontale, une mise à l'échelle négative provoque un retournement. Lecture/écritureDouble . |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Spécifie le facteur de mise à l'échelle verticale, une mise à l'échelle négative provoque un retournement. Lecture/écritureDouble . |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Spécifie l'angle d'inclinaison horizontale (en degrés). Lecture/écritureDouble . |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Spécifie l'angle d'inclinaison verticale (en degrés). Lecture/écritureDouble . |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Rayon de flou. Lecture/écriture Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direction de l'ombre. Lecture/écriture Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distance de l'ombre. Lecture/écriture Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Alignement de rectangle. Lecture/écriture [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Spécifie si l'ombre doit tourner avec la forme si celle-ci est tournée. Lecture/écriture Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Spécifie le facteur de mise à l'échelle horizontal, la mise à l'échelle négative entraîne un retournement. Lecture/écriture Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Spécifie le facteur de mise à l'échelle vertical, la mise à l'échelle négative entraîne un retournement. Lecture/écriture Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Spécifie l'angle de déformation horizontal (en degrés). Lecture/écriture Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Spécifie l'angle de déformation vertical (en degrés). Lecture/écriture Double. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Détermine si la valeur spécifiée[`OuterShadow`](../outershadow) est égal au courant[`OuterShadow`](../outershadow) . |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Obtient des données d'effet d'ombre extérieure efficaces avec l'héritage appliqué. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Détermine si l'[`OuterShadow`](../outershadow) spécifié est égal à l'[`OuterShadow`](../outershadow) actuel. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Obtient les données effectives de l'effet d'Ombre Extérieure avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
-### Voir également
+### Voir aussi
 
 * interface [IOuterShadow](../ioutershadow)
-* espace de noms [Aspose.Slides.Effects](../../aspose.slides.effects)
-* Assemblée [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

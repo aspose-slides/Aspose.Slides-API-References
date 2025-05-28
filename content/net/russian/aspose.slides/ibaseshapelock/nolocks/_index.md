@@ -1,22 +1,23 @@
 ---
 title: NoLocks
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true если все флаги блокировки отключены. Только чтениеBoolean.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает true, если все флаги блокировки отключены. Только для чтения Boolean.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ibaseshapelock/nolocks/
 ---
-## IBaseShapeLock.NoLocks property
 
-Возвращает true, если все флаги блокировки отключены. Только чтениеBoolean.
+## Свойство IBaseShapeLock.NoLocks
+
+Возвращает true, если все флаги блокировки отключены. Только для чтения Boolean.
 
 ```csharp
 public bool NoLocks { get; }
 ```
 
-### Смотрите также
+### Также смотрите
 
-* interface [IBaseShapeLock](../../ibaseshapelock)
+* интерфейс [IBaseShapeLock](../../ibaseshapelock)
 * пространство имен [Aspose.Slides](../../ibaseshapelock)
 * сборка [Aspose.Slides](../../../)
 

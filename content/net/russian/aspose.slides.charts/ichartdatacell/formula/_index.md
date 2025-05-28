@@ -1,12 +1,13 @@
 ---
-title: Formula
+title: Формула
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает или задает формулу в стиле A1.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ichartdatacell/formula/
 ---
-## IChartDataCell.Formula property
+
+## Свойство IChartDataCell.Formula
 
 Получает или задает формулу в стиле A1.
 
@@ -22,9 +23,9 @@ IChartDataCell cell = workbook.GetCell(0, "B2");
 cell.Formula = "1 + SUM(F2:H5)";
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartDataCell](../../ichartdatacell)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatacell)
 * сборка [Aspose.Slides](../../../)
 

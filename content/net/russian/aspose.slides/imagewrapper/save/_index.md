@@ -1,11 +1,12 @@
 ---
-title: Save
-second_title: Справочник по API Aspose.Slides для .NET
+title: Сохранить
+second_title: Справочная информация по API Aspose.Sildes для .NET
 description: Сохраняет изображение в указанный файл
 type: docs
 weight: 40
 url: /ru/aspose.slides/imagewrapper/save/
 ---
+
 ## Save(string) {#save_1}
 
 Сохраняет изображение в указанный файл
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/imagewrapper/save/
 public void Save(string fileName)
 ```
 
-### Смотрите также
+### См. также
 
-* class [ImageWrapper](../../imagewrapper)
+* класс [ImageWrapper](../../imagewrapper)
 * пространство имен [Aspose.Slides](../../imagewrapper)
 * сборка [Aspose.Slides](../../../)
 
@@ -30,10 +31,10 @@ public void Save(string fileName)
 public void Save(Stream stream, PPImageFormat imageFormat)
 ```
 
-### Смотрите также
+### См. также
 
-* enum [PPImageFormat](../../ppimageformat)
-* class [ImageWrapper](../../imagewrapper)
+* перечисление [PPImageFormat](../../ppimageformat)
+* класс [ImageWrapper](../../imagewrapper)
 * пространство имен [Aspose.Slides](../../imagewrapper)
 * сборка [Aspose.Slides](../../../)
 
@@ -47,10 +48,10 @@ public void Save(Stream stream, PPImageFormat imageFormat)
 public void Save(string fileName, PPImageFormat imageFormat)
 ```
 
-### Смотрите также
+### См. также
 
-* enum [PPImageFormat](../../ppimageformat)
-* class [ImageWrapper](../../imagewrapper)
+* перечисление [PPImageFormat](../../ppimageformat)
+* класс [ImageWrapper](../../imagewrapper)
 * пространство имен [Aspose.Slides](../../imagewrapper)
 * сборка [Aspose.Slides](../../../)
 

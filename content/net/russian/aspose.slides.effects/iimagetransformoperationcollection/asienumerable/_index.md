@@ -1,14 +1,15 @@
 ---
 title: AsIEnumerable
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает интерфейс IEnumerable. Только для чтения IEnumerable.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/asienumerable/
 ---
-## IImageTransformOperationCollection.AsIEnumerable property
 
-Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable.
+## IImageTransformOperationCollection.AsIEnumerable свойство
+
+Возвращает интерфейс IEnumerable. Только для чтения IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
@@ -16,11 +17,11 @@ public IEnumerable AsIEnumerable { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. Также
 
-* interface [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
+* интерфейс [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

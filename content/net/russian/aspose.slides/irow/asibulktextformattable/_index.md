@@ -1,23 +1,24 @@
 ---
 title: AsIBulkTextFormattable
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтенияIBulkTextFormattableaspose.slides/ibulktextformattable.
+second_title: Aspose.Slide для .NET API Справочник
+description: Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения IBulkTextFormattableaspose.slides/ibulktextformattable.
 type: docs
 weight: 10
 url: /ru/aspose.slides/irow/asibulktextformattable/
 ---
-## IRow.AsIBulkTextFormattable property
 
-Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения[`IBulkTextFormattable`](../../ibulktextformattable).
+## IRow.AsIBulkTextFormattable свойство
+
+Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения [`IBulkTextFormattable`](../../ibulktextformattable).
 
 ```csharp
 public IBulkTextFormattable AsIBulkTextFormattable { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBulkTextFormattable](../../ibulktextformattable)
-* interface [IRow](../../irow)
+* интерфейс [IBulkTextFormattable](../../ibulktextformattable)
+* интерфейс [IRow](../../irow)
 * пространство имен [Aspose.Slides](../../irow)
 * сборка [Aspose.Slides](../../../)
 

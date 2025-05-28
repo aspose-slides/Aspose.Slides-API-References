@@ -1,12 +1,13 @@
 ---
-title: GetChildren
-second_title: Справочник по API Aspose.Slides для .NET
+title: ПолучитьДочерниеЭлементы
+second_title: Aspose.Slides для .NET Справочник по API
 description: Получить дочерние элементы
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/mathgroupingcharacter/getchildren/
 ---
-## MathGroupingCharacter.GetChildren method
+
+## MathGroupingCharacter.GetChildren метод
 
 Получить дочерние элементы
 
@@ -14,10 +15,10 @@ url: /ru/aspose.slides.mathtext/mathgroupingcharacter/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IMathElement](../../imathelement)
-* class [MathGroupingCharacter](../../mathgroupingcharacter)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathGroupingCharacter](../../mathgroupingcharacter)
 * пространство имен [Aspose.Slides.MathText](../../mathgroupingcharacter)
 * сборка [Aspose.Slides](../../../)
 

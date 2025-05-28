@@ -1,22 +1,23 @@
 ---
 title: Dpi
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает разрешение которое используется для заливки изображения. Только для чтенияInt32.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает dpi, который используется для заполнения изображения. Только для чтения Int32.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ipicturefillformateffectivedata/dpi/
 ---
-## IPictureFillFormatEffectiveData.Dpi property
 
-Возвращает разрешение, которое используется для заливки изображения. Только для чтенияInt32.
+## Свойство IPictureFillFormatEffectiveData.Dpi
+
+Возвращает dpi, который используется для заполнения изображения. Только для чтения Int32.
 
 ```csharp
 public int Dpi { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
+* интерфейс [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * пространство имен [Aspose.Slides](../../ipicturefillformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

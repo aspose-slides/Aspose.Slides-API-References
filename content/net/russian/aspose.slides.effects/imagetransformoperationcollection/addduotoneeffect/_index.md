@@ -1,12 +1,13 @@
 ---
 title: AddDuotoneEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Добавляет новый эффект Duotone в конец коллекции.
 type: docs
 weight: 160
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addduotoneeffect/
 ---
-## ImageTransformOperationCollection.AddDuotoneEffect method
+
+## ImageTransformOperationCollection.AddDuotoneEffect метод
 
 Добавляет новый эффект Duotone в конец коллекции.
 
@@ -18,10 +19,10 @@ public IDuotone AddDuotoneEffect()
 
 Индекс нового эффекта изображения в коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IDuotone](../../iduotone)
-* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* интерфейс [IDuotone](../../iduotone)
+* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

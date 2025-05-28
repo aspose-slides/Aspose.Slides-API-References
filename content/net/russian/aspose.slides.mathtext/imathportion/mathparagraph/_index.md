@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathportion/mathparagraph/
 ---
-## IMathPortion.MathParagraph property
+
+## Свойство IMathPortion.MathParagraph
 
 Математический параграф
 
@@ -30,8 +31,8 @@ using (Presentation pres = new Presentation())
 
 ### Смотрите также
 
-* interface [IMathParagraph](../../imathparagraph)
-* interface [IMathPortion](../../imathportion)
+* интерфейс [IMathParagraph](../../imathparagraph)
+* интерфейс [IMathPortion](../../imathportion)
 * пространство имен [Aspose.Slides.MathText](../../imathportion)
 * сборка [Aspose.Slides](../../../)
 

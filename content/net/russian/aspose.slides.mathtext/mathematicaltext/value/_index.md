@@ -1,12 +1,13 @@
 ---
-title: Value
-second_title: Справочник по API Aspose.Slides для .NET
+title: Значение
+second_title: Справочник API Aspose.Slides для .NET
 description: Текстовое значение
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathematicaltext/value/
 ---
-## MathematicalText.Value property
+
+## Свойство MathematicalText.Value
 
 Текстовое значение
 
@@ -24,9 +25,9 @@ IMathematicalText mathText = new MathematicalText("x+y");
 string textValue = mathText.Value;
 ```
 
-### Смотрите также
+### См. также
 
-* class [MathematicalText](../../mathematicaltext)
+* класс [MathematicalText](../../mathematicaltext)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltext)
 * сборка [Aspose.Slides](../../../)
 

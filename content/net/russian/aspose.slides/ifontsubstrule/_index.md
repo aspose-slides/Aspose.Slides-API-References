@@ -1,26 +1,27 @@
 ---
 title: IFontSubstRule
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет информацию о подстановке шрифта
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет информацию о замене шрифтов
 type: docs
-weight: 5350
+weight: 5680
 url: /ru/aspose.slides/ifontsubstrule/
 ---
-## IFontSubstRule interface
 
-Представляет информацию о подстановке шрифта
+## Интерфейс IFontSubstRule
+
+Представляет информацию о замене шрифтов
 
 ```csharp
 public interface IFontSubstRule
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Шрифт для замены Только для чтения[`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Правило для замены Только для чтения[`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Шрифт для замены Только для чтения[`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Шрифт, который нужно использовать для замены. Только для чтения [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Правило, применяемое для замены. Только для чтения [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Шрифт для замены. Только для чтения [`IFontData`](../ifontdata). |
 
 ### Смотрите также
 

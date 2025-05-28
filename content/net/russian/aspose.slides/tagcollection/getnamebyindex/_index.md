@@ -6,7 +6,8 @@ type: docs
 weight: 100
 url: /ru/aspose.slides/tagcollection/getnamebyindex/
 ---
-## TagCollection.GetNameByIndex method
+
+## Метод TagCollection.GetNameByIndex
 
 Возвращает ключ тега по указанному индексу.
 
@@ -16,7 +17,7 @@ public string GetNameByIndex(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс возвращаемого тега. |
+| index | Int32 | Индекс тега для возврата. |
 
 ### Возвращаемое значение
 
@@ -24,7 +25,7 @@ public string GetNameByIndex(int index)
 
 ### Смотрите также
 
-* class [TagCollection](../../tagcollection)
+* класс [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: WriteDocumentEnd
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз при преобразовании презентации.
+second_title: Aspose.Slides для .NET API Reference
+description: Вызывается для записи нижнего колонтитула html документа. Вызывается один раз за преобразование презентации.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/ihtmlformattingcontroller/writedocumentend/
 ---
-## IHtmlFormattingController.WriteDocumentEnd method
 
-Вызывается для записи нижнего колонтитула html-документа. Вызывается один раз при преобразовании презентации.
+## IHtmlFormattingController.WriteDocumentEnd метод
+
+Вызывается для записи нижнего колонтитула html документа. Вызывается один раз за преобразование презентации.
 
 ```csharp
 public void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
@@ -16,14 +17,14 @@ public void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentatio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| генератор | IHtmlGenerator | Выходной объект. |
-| presentation | IPresentation | Презентация, которая отображается в данный момент. |
+| generator | IHtmlGenerator | Объект вывода. |
+| presentation | IPresentation | Презентация, которая в данный момент рендерится. |
 
-### Смотрите также
+### См. также
 
-* interface [IHtmlGenerator](../../ihtmlgenerator)
-* interface [IPresentation](../../../aspose.slides/ipresentation)
-* interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
+* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
+* интерфейс [IPresentation](../../../aspose.slides/ipresentation)
+* интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * пространство имен [Aspose.Slides.Export](../../ihtmlformattingcontroller)
 * сборка [Aspose.Slides](../../../)
 

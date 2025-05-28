@@ -1,14 +1,15 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет элемент управления ActiveX хранящийся в указанной позиции из коллекции.
+second_title: Aspose.Slides для .NET API Справочник
+description: Удаляет ActiveX контрол, хранящийся в указанной позиции в коллекции.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/chartseriescollection/removeat/
 ---
-## ChartSeriesCollection.RemoveAt method
 
-Удаляет элемент управления ActiveX, хранящийся в указанной позиции, из коллекции.
+## Метод ChartSeriesCollection.RemoveAt
+
+Удаляет ActiveX контрол, хранящийся в указанной позиции в коллекции.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,11 +17,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс удаляемого элемента управления. |
+| index | Int32 | Индекс удаляемого контрола. |
 
-### Смотрите также
-
-* class [ChartSeriesCollection](../../chartseriescollection)
+### Также см.
+ 
+* класс [ChartSeriesCollection](../../chartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../chartseriescollection)
 * сборка [Aspose.Slides](../../../)
 

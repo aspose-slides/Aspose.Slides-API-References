@@ -6,7 +6,8 @@ type: docs
 weight: 70
 url: /ru/aspose.slides/islidecollection/insertclone/
 ---
-## InsertClone(int, ISlide) {#insertclone}
+
+## InsertClone(int, ISlide) {#insertclone}
 
 Вставляет копию указанного слайда в указанную позицию коллекции.
 
@@ -21,22 +22,22 @@ public ISlide InsertClone(int index, ISlide sourceSlide)
 
 ### Возвращаемое значение
 
-Вставлен слайд.
+Вставленный слайд.
 
 ### Примечания
 
-При клонировании слайда между разными презентациями мастер слайда также может быть клонирован. Внутренний реестр используется для отслеживания автоматически клонируемых мастер-слайдов, чтобы предотвратить создание нескольких клонов одного и того же мастер-слайда. Ручное клонирование мастер-слайдов не будет ни предотвращено, ни зарегистрировано. Если вам нужно больше контроля над процессом клонирования, используйте [`InsertClone`](../insertclone)или [`InsertClone`](../insertclone)для клонирования слайдов и [`AddClone`](../../imasterslidecollection/addclone)для клонирования мастеров.
+При клонировании слайда между различными презентациями может также быть клонирован мастер слайда. Внутренний реестр используется для автоматического отслеживания клонированных мастеров, чтобы предотвратить создание нескольких клонов одного и того же мастер слайда. Ручное клонирование мастер слайдов не будет предотвращено и не будет зарегистрировано. Если вам нужен больший контроль над процессом клонирования, используйте [`InsertClone`](../insertclone) или [`InsertClone`](../insertclone) для клонирования слайдов и [`AddClone`](../../imasterslidecollection/addclone) для клонирования мастеров.
 
-### Смотрите также
+### См. Также
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
+* интерфейс [ISlide](../../islide)
+* интерфейс [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
 
 Вставляет копию указанного слайда в указанную позицию коллекции.
 
@@ -52,21 +53,21 @@ public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout
 
 ### Возвращаемое значение
 
-Вставлен слайд.
+Вставленный слайд.
 
-### Смотрите также
+### См. Также
 
-* interface [ISlide](../../islide)
-* interface [ILayoutSlide](../../ilayoutslide)
-* interface [ISlideCollection](../../islidecollection)
+* интерфейс [ISlide](../../islide)
+* интерфейс [ILayoutSlide](../../ilayoutslide)
+* интерфейс [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
 
-Вставляет копию указанного исходного слайда в указанную позицию коллекции. Соответствующий макет будет выбран автоматически из указанного мастера (подходящим макетом является макет с тем же типом или именем, что и макета исходного слайда). ). Если подходящего макета нет, то макет исходного слайда будет клонирован (если значение allowCloneMissingLayout равно true) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout является ложным).
+Вставляет копию указанного исходного слайда в указанную позицию коллекции. Подходящий макет будет выбран автоматически из указанного мастера (подходящий макет — это макет с тем же типом или именем, что и у макета исходного слайда). Если подходящего макета нет, то макет исходного слайда будет клонирован (если allowCloneMissingLayout равно true) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout равно false).
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
@@ -77,24 +78,24 @@ public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster
 | --- | --- | --- |
 | index | Int32 | Индекс нового слайда. |
 | sourceSlide | ISlide | Слайд для клонирования. |
-| destMaster | IMasterSlide | Мастер-слайд для нового слайда. |
-| allowCloneMissingLayout | Boolean | Если в указанном мастере нет подходящего макета, то будет клонирован макет исходного слайда (если значение allowCloneMissingLayout равно true) или PptxEditException будет сгенерировано (если значение allowCloneMissingLayout равно false). |
+| destMaster | IMasterSlide | Мастер слайда для нового слайда. |
+| allowCloneMissingLayout | Boolean | Если в указанном мастере нет подходящего макета, то макет исходного слайда будет клонирован (если allowCloneMissingLayout равно true) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout равно false). |
 
 ### Возвращаемое значение
 
-Вставлен слайд.
+Вставленный слайд.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Вызывается, если в указанном мастере нет подходящего макета и allowCloneMissingLayout имеет значение false. |
+| [PptxEditException](../../pptxeditexception) | Выбрасывается, если в указанном мастере нет подходящего макета, и allowCloneMissingLayout равно false. |
 
-### Смотрите также
+### См. Также
 
-* interface [ISlide](../../islide)
-* interface [IMasterSlide](../../imasterslide)
-* interface [ISlideCollection](../../islidecollection)
+* интерфейс [ISlide](../../islide)
+* интерфейс [IMasterSlide](../../imasterslide)
+* интерфейс [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 

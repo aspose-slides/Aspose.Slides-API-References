@@ -1,24 +1,25 @@
 ---
 title: IVbaModuleCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор модулей проекта VBA.
+second_title: Справочник API Aspose.Slides для .NET
+description: Представляет собой коллекцию модулей проекта VBA.
 type: docs
-weight: 10730
+weight: 11230
 url: /ru/aspose.slides.vba/ivbamodulecollection/
 ---
-## IVbaModuleCollection interface
 
-Представляет набор модулей проекта VBA.
+## Интерфейс IVbaModuleCollection
+
+Представляет собой коллекцию модулей проекта VBA.
 
 ```csharp
 public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Получает элемент по указанному индексу. |
+| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Получает элемент по заданному индексу. |
 
 ## Методы
 
@@ -29,8 +30,8 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 ### Смотрите также
 
-* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* interface [IVbaModule](../ivbamodule)
+* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* интерфейс [IVbaModule](../ivbamodule)
 * пространство имен [Aspose.Slides.Vba](../../aspose.slides.vba)
 * сборка [Aspose.Slides](../../)
 

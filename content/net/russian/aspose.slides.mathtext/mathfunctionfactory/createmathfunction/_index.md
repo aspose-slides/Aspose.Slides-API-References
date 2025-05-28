@@ -1,12 +1,13 @@
 ---
 title: CreateMathFunction
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает математическую функцию
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathfunctionfactory/createmathfunction/
 ---
-## CreateMathFunction(IMathElement, IMathElement) {#createmathfunction}
+
+## CreateMathFunction(IMathElement, IMathElement) {#createmathfunction}
 
 Создает математическую функцию
 
@@ -16,24 +17,24 @@ public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement base
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| funcName | IMathElement | Элемент, используемый как имя функции |
+| funcName | IMathElement | Элемент, используемый в качестве имени функции |
 | baseArgument | IMathElement | Элемент, используемый в качестве аргумента функции |
 
 ### Возвращаемое значение
 
 новая математическая функция
 
-### Смотрите также
+### См. также
 
-* interface [IMathFunction](../../imathfunction)
-* interface [IMathElement](../../imathelement)
-* class [MathFunctionFactory](../../mathfunctionfactory)
+* интерфейс [IMathFunction](../../imathfunction)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathFunctionFactory](../../mathfunctionfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathfunctionfactory)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## CreateMathFunction(string, IMathElement) {#createmathfunction_1}
+## CreateMathFunction(string, IMathElement) {#createmathfunction_1}
 
 Создает математическую функцию
 
@@ -50,11 +51,11 @@ public IMathFunction CreateMathFunction(string funcName, IMathElement baseArgume
 
 новая математическая функция
 
-### Смотрите также
+### См. также
 
-* interface [IMathFunction](../../imathfunction)
-* interface [IMathElement](../../imathelement)
-* class [MathFunctionFactory](../../mathfunctionfactory)
+* интерфейс [IMathFunction](../../imathfunction)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathFunctionFactory](../../mathfunctionfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathfunctionfactory)
 * сборка [Aspose.Slides](../../../)
 

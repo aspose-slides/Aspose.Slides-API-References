@@ -1,12 +1,13 @@
 ---
-title: ImageTransformOperationCollection
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: ColecciónDeOperacionesDeTransformaciónDeImagen
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa una colección de efectos aplicados a una imagen.
 type: docs
-weight: 3380
+weight: 3460
 url: /es/aspose.slides.effects/imagetransformoperationcollection/
 ---
-## ImageTransformOperationCollection class
+
+## Clase ColecciónDeOperacionesDeTransformaciónDeImagen
 
 Representa una colección de efectos aplicados a una imagen.
 
@@ -19,10 +20,10 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPPresentationComponent. Solo lectura[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
-| [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | Devuelve el número de efectos de imagen en una colección. Solo lecturaInt32 . |
-| [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | Obtiene un valor que indica si elICollection es de solo lectura. Solo lecturaBoolean . |
-| [Item](../../aspose.slides.effects/imagetransformoperationcollection/item) { get; } | Devuelve un[`ImageTransformOperation`](../imagetransformoperation) de la colección por su index. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | Devuelve el número de efectos de imagen en una colección. Solo lectura Int32. |
+| [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | Obtiene un valor que indica si el ICollection es de solo lectura. Solo lectura Boolean. |
+| [Item](../../aspose.slides.effects/imagetransformoperationcollection/item) { get; } | Devuelve una [`ImageTransformOperation`](../imagetransformoperation) de la colección por su índice. |
 
 ## Métodos
 
@@ -37,29 +38,29 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddAlphaModulateFixedEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Agrega el nuevo efecto Alpha Modulate Fixed al final de una colección. |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphareplaceeffect)(float) | Agrega el nuevo efecto Alpha Replace al final de una colección. |
 | [AddBiLevelEffect](../../aspose.slides.effects/imagetransformoperationcollection/addbileveleffect)(float) | Agrega el nuevo efecto Bi-Level (blanco/negro) al final de una colección. |
-| [AddBlurEffect](../../aspose.slides.effects/imagetransformoperationcollection/addblureffect)(double, bool) | Agrega el nuevo efecto Desenfoque al final de una colección. |
-| [AddColorChangeEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorchangeeffect)() | Agrega el nuevo efecto Cambio de color al final de una colección. |
-| [AddColorReplaceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorreplaceeffect)() | Agrega el nuevo efecto Reemplazo de color al final de una colección. |
-| [AddDuotoneEffect](../../aspose.slides.effects/imagetransformoperationcollection/addduotoneeffect)() | Agrega el nuevo efecto Duotono al final de una colección. |
-| [AddFillOverlayEffect](../../aspose.slides.effects/imagetransformoperationcollection/addfilloverlayeffect)() | Agrega el nuevo efecto Superposición de relleno al final de una colección. |
-| [AddGrayScaleEffect](../../aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect)() | Agrega el nuevo efecto Escala de grises al final de una colección. |
-| [AddHSLEffect](../../aspose.slides.effects/imagetransformoperationcollection/addhsleffect)(float, float, float) | Agrega el nuevo efecto Tono/Saturación/Luminancia al final de una colección. |
+| [AddBlurEffect](../../aspose.slides.effects/imagetransformoperationcollection/addblureffect)(double, bool) | Agrega el nuevo efecto Blur al final de una colección. |
+| [AddColorChangeEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorchangeeffect)() | Agrega el nuevo efecto de Cambio de Color al final de una colección. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorreplaceeffect)() | Agrega el nuevo efecto de Reemplazo de Color al final de una colección. |
+| [AddDuotoneEffect](../../aspose.slides.effects/imagetransformoperationcollection/addduotoneeffect)() | Agrega el nuevo efecto Duotone al final de una colección. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/imagetransformoperationcollection/addfilloverlayeffect)() | Agrega el nuevo efecto de Relleno Superpuesto al final de una colección. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect)() | Agrega el nuevo efecto de Escala de Grises al final de una colección. |
+| [AddHSLEffect](../../aspose.slides.effects/imagetransformoperationcollection/addhsleffect)(float, float, float) | Agrega el nuevo efecto de Matiz/Saturación/Luminancia al final de una colección. |
 | [AddLuminanceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect)(float, float) | Agrega el nuevo efecto de Luminancia al final de una colección. |
-| [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | Agrega el nuevo efecto Matiz al final de una colección. |
+| [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | Agrega el nuevo efecto de Tinte al final de una colección. |
 | [Clear](../../aspose.slides.effects/imagetransformoperationcollection/clear)() | Elimina todos los efectos de imagen de una colección. |
-| [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Determina si elICollection contiene un valor específico. |
-| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copia los elementos delICollection a unaArray , a partir de un determinadoArray índice. |
+| [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Determina si el ICollection contiene un valor específico. |
+| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copia los elementos del ICollection a un Array, comenzando en un índice particular de Array. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara con el objeto especificado. |
 | [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Devuelve el código hash. |
-| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Elimina la primera aparición de un objeto específico de laICollection . |
+| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Elimina la primera ocurrencia de un objeto específico del ICollection. |
 | [RemoveAt](../../aspose.slides.effects/imagetransformoperationcollection/removeat)(int) | Elimina un efecto de imagen de una colección en el índice especificado. |
 
 ### Ver también
 
-* class [PVIObject](../../aspose.slides/pviobject)
-* interface [IImageTransformOperationCollection](../iimagetransformoperationcollection)
+* clase [PVIObject](../../aspose.slides/pviobject)
+* interfaz [IImageTransformOperationCollection](../iimagetransformoperationcollection)
 * espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
-* asamblea [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

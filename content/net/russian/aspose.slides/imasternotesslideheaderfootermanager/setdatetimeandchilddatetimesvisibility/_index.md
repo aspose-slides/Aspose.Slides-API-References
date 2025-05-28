@@ -1,14 +1,15 @@
 ---
-title: SetDateTimeAndChildDateTimesVisibility
+title: УстановитьВидимостьДатаВремениИДочернихДатаВремени
 second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет видимость заполнителей даты и времени слайда основных заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители означают что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+description: Изменяет видимость заполнителя даты и времени главного слайда заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители обозначают заполнители, которые содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок.
 type: docs
 weight: 30
 url: /ru/aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
-## IMasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility method
 
-Изменяет видимость заполнителей даты и времени слайда основных заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+## IMasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility метод
+
+Изменяет видимость заполнителя даты и времени главного слайда заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители обозначают заполнители, которые содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -16,11 +17,11 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает видимыми заполнители даты и времени, иначе - скрывает их. |
+| isVisible | Boolean | true - делает заполнители даты и времени видимыми, в противном случае - скрывает их. |
 
-### Смотрите также
+### См. также
 
-* interface [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
+* интерфейс [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../imasternotesslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
-title: DeleteRow
-second_title: Справочник по API Aspose.Slides для .NET
+title: УдалитьСтроку
+second_title: Aspose.Slides для .NET API Reference
 description: Удаляет указанную строку
 type: docs
 weight: 130
 url: /ru/aspose.slides.mathtext/mathmatrix/deleterow/
 ---
-## MathMatrix.DeleteRow method
+
+## MathMatrix.DeleteRow метод
 
 Удаляет указанную строку
 
@@ -16,13 +17,13 @@ public void DeleteRow(int rowIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rowIndex | Int32 | Отсчитываемый от нуля индекс строку для удаления. |
+| rowIndex | Int32 | Нулевой индекс строки для удаления. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | При попытке удалить последнюю одиночную строку в матрице |
+| InvalidOperationException | Когда вы пытаетесь удалить последнюю единственную строку в матрице |
 | ArgumentOutOfRangeException | Если rowIndex меньше нуля или больше или равен RowCount |
 
 ### Примеры
@@ -35,9 +36,9 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.DeleteRow(0);
 ```
 
-### Смотрите также
+### См. Также
 
-* class [MathMatrix](../../mathmatrix)
+* класс [MathMatrix](../../mathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrix)
 * сборка [Aspose.Slides](../../../)
 

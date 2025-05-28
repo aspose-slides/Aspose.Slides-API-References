@@ -1,14 +1,15 @@
 ---
 title: IMathNaryOperatorFactory
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создать IMathNaryOperator
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет создавать IMathNaryOperator
 type: docs
-weight: 7660
+weight: 8120
 url: /ru/aspose.slides.mathtext/imathnaryoperatorfactory/
 ---
-## IMathNaryOperatorFactory interface
 
-Позволяет создать IMathNaryOperator
+## Интерфейс IMathNaryOperatorFactory
+
+Позволяет создавать IMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorFactory
@@ -24,9 +25,9 @@ public interface IMathNaryOperatorFactory
 
 ### Примечания
 
-Для COM-совместимость
+Для совместимости с COM
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

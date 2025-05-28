@@ -1,12 +1,13 @@
 ---
 title: AddAlphaInverseEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Добавляет новый эффект Alpha Inverse в конец коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect/
 ---
-## IImageTransformOperationCollection.AddAlphaInverseEffect method
+
+## IImageTransformOperationCollection.AddAlphaInverseEffect метод
 
 Добавляет новый эффект Alpha Inverse в конец коллекции.
 
@@ -18,10 +19,10 @@ public IAlphaInverse AddAlphaInverseEffect()
 
 Индекс нового эффекта изображения в коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IAlphaInverse](../../ialphainverse)
-* interface [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
+* интерфейс [IAlphaInverse](../../ialphainverse)
+* интерфейс [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

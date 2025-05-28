@@ -1,37 +1,38 @@
 ---
 title: BiLevel
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет двухуровневый черный/белый эффект. Входные цвета яркость которых меньше указанного порогового значения заменяются черными. Входным цветам яркость которых больше или равна указанному значению присваивается белый цвет. Этот эффект не влияет на значения альфа-эффекта.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект двухуровневого черно-белого изображения. Входные цвета, яркость которых меньше заданного порогового значения, изменяются на черный цвет. Входные цвета, яркость которых больше или равна заданному значению, устанавливаются на белый цвет. Значения альфа-эффекта на этот эффект не влияют.
 type: docs
-weight: 2740
+weight: 2820
 url: /ru/aspose.slides.effects/bilevel/
 ---
-## BiLevel class
 
-Представляет двухуровневый (черный/белый) эффект. Входные цвета, яркость которых меньше указанного порогового значения, заменяются черными. Входным цветам, яркость которых больше или равна указанному значению, присваивается белый цвет. Этот эффект не влияет на значения альфа-эффекта.
+## Класс BiLevel
+
+Представляет эффект двухуровневого (черно-белого) изображения. Входные цвета, яркость которых меньше заданного порогового значения, изменяются на черный цвет. Входные цвета, яркость которых больше или равна заданному значению, устанавливаются на белый цвет. Значения альфа-эффекта на этот эффект не влияют.
 
 ```csharp
-public class BiLevel : ImageTransformOperation, IBiLevel
+public sealed class BiLevel : ImageTransformOperation, IBiLevel
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Определяет, равен ли указанный[`BiLevel`](../bilevel)текущемуБиУровень. |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Получает данные эффективного двухуровневого эффекта с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Определяет, равен ли указанный [`BiLevel`](../bilevel) текущему [`BiLevel`](../bilevel). |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Получает данные эффективного эффекта Bi-Level с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Служит в качестве хэш-функции для определенного типа. |
 
-### Смотрите также
+### См. также
 
-* class [ImageTransformOperation](../imagetransformoperation)
-* interface [IBiLevel](../ibilevel)
+* класс [ImageTransformOperation](../imagetransformoperation)
+* интерфейс [IBiLevel](../ibilevel)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

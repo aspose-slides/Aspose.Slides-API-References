@@ -1,29 +1,30 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий фиксированный эффект альфа-модуляции. Значения альфа-канала эффекта непрозрачности умножаются на фиксированный процент.
+second_title: Aspose.Slides для .NET API Reference
+description: Неизменяемый объект, представляющий эффект Alpha Modulate Fixed. Значения альфа-прозрачности эффекта умножаются на фиксированный процент.
 type: docs
-weight: 2950
+weight: 3030
 url: /ru/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
-## IAlphaModulateFixedEffectiveData interface
 
-Неизменяемый объект, представляющий фиксированный эффект альфа-модуляции. Значения альфа-канала эффекта (непрозрачности) умножаются на фиксированный процент.
+## Интерфейс IAlphaModulateFixedEffectiveData
+
+Неизменяемый объект, представляющий эффект Alpha Modulate Fixed. Значения альфа (прозрачности) эффекта умножаются на фиксированный процент.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Возвращает количество эффекта в процентах. Только для чтенияSingle. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Возвращает величину эффекта в процентах. Только для чтения Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Смотрите также
+### См. также
 
-* interface [IEffectEffectiveData](../ieffecteffectivedata)
+* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

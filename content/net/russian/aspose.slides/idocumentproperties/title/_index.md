@@ -1,22 +1,23 @@
 ---
-title: Title
+title: Заголовок
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает заголовок презентации. Чтение/записьString.
+description: Возвращает или устанавливает заголовок презентации. Чтение/запись строка.
 type: docs
-weight: 230
+weight: 320
 url: /ru/aspose.slides/idocumentproperties/title/
 ---
-## IDocumentProperties.Title property
 
-Возвращает или задает заголовок презентации. Чтение/записьString.
+## Свойство IDocumentProperties.Title
+
+Возвращает или устанавливает заголовок презентации. Чтение/запись строка.
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IDocumentProperties](../../idocumentproperties)
+* интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 

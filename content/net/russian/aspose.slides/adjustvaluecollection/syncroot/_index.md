@@ -1,22 +1,23 @@
 ---
 title: SyncRoot
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает корень синхронизации. Только для чтенияObject.
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает корень синхронизации. Объект только для чтения.
 type: docs
 weight: 40
 url: /ru/aspose.slides/adjustvaluecollection/syncroot/
 ---
-## AdjustValueCollection.SyncRoot property
 
-Возвращает корень синхронизации. Только для чтенияObject.
+## AdjustValueCollection.SyncRoot свойство
+
+Возвращает корень синхронизации. Объект только для чтения.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [AdjustValueCollection](../../adjustvaluecollection)
+* класс [AdjustValueCollection](../../adjustvaluecollection)
 * пространство имен [Aspose.Slides](../../adjustvaluecollection)
 * сборка [Aspose.Slides](../../../)
 

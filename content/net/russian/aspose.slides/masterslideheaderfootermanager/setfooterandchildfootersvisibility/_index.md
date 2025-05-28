@@ -1,14 +1,15 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет видимость заполнителей нижнего колонтитула мастер-слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
+second_title: Aspose.Slides для .NET API Справочник
+description: Изменяет видимость плейсхолдера нижнего колонтитула главного слайда и всех дочерних плейсхолдеров нижнего колонтитула. Дочерние плейсхолдеры означают, что плейсхолдеры содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
 type: docs
 weight: 40
 url: /ru/aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
-## MasterSlideHeaderFooterManager.SetFooterAndChildFootersVisibility method
 
-Изменяет видимость заполнителей нижнего колонтитула мастер-слайда и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах макета и зависимых слайдах. В зависимости от макета слайды и слайды используют мастер-слайд и зависят от него.
+## MasterSlideHeaderFooterManager.SetFooterAndChildFootersVisibility метод
+
+Изменяет видимость плейсхолдера нижнего колонтитула главного слайда и всех дочерних плейсхолдеров нижнего колонтитула. Дочерние плейсхолдеры означают, что плейсхолдеры содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -16,11 +17,11 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнители нижнего колонтитула видимыми, иначе - скрывает их. |
+| isVisible | Boolean | true - делает плейсхолдеры нижнего колонтитула видимыми, иначе - скрывает их. |
 
-### Смотрите также
+### См. также
 
-* class [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
+* класс [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masterslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

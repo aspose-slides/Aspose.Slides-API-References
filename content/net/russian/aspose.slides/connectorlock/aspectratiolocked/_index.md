@@ -1,14 +1,15 @@
 ---
 title: AspectRatioLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, должен ли объект сохранять пропорции при изменении размера. Читаемая/записываемая булева переменная.
 type: docs
 weight: 30
 url: /ru/aspose.slides/connectorlock/aspectratiolocked/
 ---
-## ConnectorLock.AspectRatioLocked property
 
-Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean.
+## ConnectorLock.AspectRatioLocked свойство
+
+Определяет, должен ли объект сохранять пропорции при изменении размера. Читаемая/записываемая булева переменная.
 
 ```csharp
 public bool AspectRatioLocked { get; set; }
@@ -16,7 +17,7 @@ public bool AspectRatioLocked { get; set; }
 
 ### Смотрите также
 
-* class [ConnectorLock](../../connectorlock)
+* класс [ConnectorLock](../../connectorlock)
 * пространство имен [Aspose.Slides](../../connectorlock)
 * сборка [Aspose.Slides](../../../)
 

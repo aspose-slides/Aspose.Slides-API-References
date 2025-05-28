@@ -1,14 +1,15 @@
 ---
-title: Comments
+title: Комментарии
 second_title: Справочник по API Aspose.Slides для .NET
-description: Цель подписи. Чтение/записьString.
+description: Цель подписи. Чтение/запись String.
 type: docs
 weight: 30
 url: /ru/aspose.slides/digitalsignature/comments/
 ---
-## DigitalSignature.Comments property
 
-Цель подписи. Чтение/записьString.
+## DigitalSignature.Comments свойство
+
+Цель подписи. Чтение/запись String.
 
 ```csharp
 public string Comments { get; set; }
@@ -16,7 +17,7 @@ public string Comments { get; set; }
 
 ### Смотрите также
 
-* class [DigitalSignature](../../digitalsignature)
+* класс [DigitalSignature](../../digitalsignature)
 * пространство имен [Aspose.Slides](../../digitalsignature)
 * сборка [Aspose.Slides](../../../)
 

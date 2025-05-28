@@ -1,12 +1,13 @@
 ---
 title: IMathSubscriptElementFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Позволяет создавать IMathSubscriptElement
 type: docs
-weight: 7760
+weight: 8220
 url: /ru/aspose.slides.mathtext/imathsubscriptelementfactory/
 ---
-## IMathSubscriptElementFactory interface
+
+## Интерфейс IMathSubscriptElementFactory
 
 Позволяет создавать IMathSubscriptElement
 
@@ -16,15 +17,15 @@ public interface IMathSubscriptElementFactory
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CreateMathSubscriptElement](../../aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | Создает IMathSubscriptElement |
 
 ### Примечания
 
-Для COM-совместимость
+Для совместимости с COM
 
-### Смотрите также
+### Также см. 
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

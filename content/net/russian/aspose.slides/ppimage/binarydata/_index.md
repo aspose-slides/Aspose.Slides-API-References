@@ -1,22 +1,23 @@
 ---
 title: BinaryData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает копию данных изображения. Только для чтенияByte.
+description: Возвращает копию данных изображения. Только для чтения Byte.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ppimage/binarydata/
 ---
-## PPImage.BinaryData property
 
-Возвращает копию данных изображения. Только для чтенияByte[].
+## Свойство PPImage.BinaryData
+
+Возвращает копию данных изображения. Только для чтения Byte[].
 
 ```csharp
 public byte[] BinaryData { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [PPImage](../../ppimage)
+* класс [PPImage](../../ppimage)
 * пространство имен [Aspose.Slides](../../ppimage)
 * сборка [Aspose.Slides](../../../)
 

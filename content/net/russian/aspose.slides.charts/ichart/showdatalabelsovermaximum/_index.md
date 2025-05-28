@@ -1,22 +1,23 @@
 ---
 title: ShowDataLabelsOverMaximum
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает что должны отображаться метки данных превышающие максимум диаграммы. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает, что метки данных выше максимума графика должны отображаться. Чтение/запись логическое значение.
 type: docs
 weight: 190
 url: /ru/aspose.slides.charts/ichart/showdatalabelsovermaximum/
 ---
-## IChart.ShowDataLabelsOverMaximum property
 
-Указывает, что должны отображаться метки данных, превышающие максимум диаграммы. Чтение/записьBoolean.
+## IChart.ShowDataLabelsOverMaximum свойство
+
+Указывает, что метки данных выше максимума графика должны отображаться. Чтение/запись логическое значение.
 
 ```csharp
 public bool ShowDataLabelsOverMaximum { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChart](../../ichart)
+* интерфейс [IChart](../../ichart)
 * пространство имен [Aspose.Slides.Charts](../../ichart)
 * сборка [Aspose.Slides](../../../)
 

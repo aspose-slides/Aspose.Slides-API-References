@@ -1,29 +1,30 @@
 ---
 title: IActualLayout
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет фактическое положение элемента диаграммы.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Указывает фактическое положение элемента диаграммы.
 type: docs
-weight: 1550
+weight: 1610
 url: /ru/aspose.slides.charts/iactuallayout/
 ---
-## IActualLayout interface
 
-Определяет фактическое положение элемента диаграммы.
+## Интерфейс IActualLayout
+
+Указывает фактическое положение элемента диаграммы.
 
 ```csharp
 public interface IActualLayout
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Определяет фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Задает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Задает фактическое положение x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Указывает фактическую вершину элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Указывает фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Указывает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Указывает фактическое положение по оси x (слева) элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Указывает фактическое положение сверху элемента диаграммы относительно верхнего левого угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. Читайте Single. |
 
-### Смотрите также
+### Также смотрите
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

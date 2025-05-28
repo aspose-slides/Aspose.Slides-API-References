@@ -1,23 +1,24 @@
 ---
 title: TextFrameForOverriding
-second_title: Справочник по API Aspose.Slides для .NET
-description: Может содержать форматированный текст. Если это свойство не равно null то это значение форматированного текста переопределяет автоматически сгенерированный текст. Автоматически генерируемый текст является неявным свойством метки данных отображения метки единицы измерения оси значений заголовка оси заголовка диаграммы метки линии тренда. Автоматически сгенерированный текст форматируется с помощью свойства IFormattedTextContainer.TextFormat. Только для чтенияITextFrameaspose.slides/itextframe.
+second_title: Aspose.Sildes для .NET API Reference
+description: Может содержать текст с богатым форматированием. Если это свойство не равно null, то значение этого форматированного текста отменяет автоматически сгенерированный текст. Автоматически сгенерированный текст является неявным свойством метки данных, метки отображаемого единицы значения оси, заголовка оси, заголовка графика, метки трендовой линии. Автоматически сгенерированный текст форматируется с помощью свойства IFormattedTextContainer.TextFormat. Только для чтения ITextFrameaspose.slides/../aspose.slides/itextframe.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ioverridabletext/textframeforoverriding/
 ---
-## IOverridableText.TextFrameForOverriding property
 
-Может содержать форматированный текст. Если это свойство не равно null, то это значение форматированного текста переопределяет автоматически сгенерированный текст. Автоматически генерируемый текст является неявным свойством метки данных, отображения метки единицы измерения оси значений, заголовка оси, заголовка диаграммы, метки линии тренда. Автоматически сгенерированный текст форматируется с помощью свойства IFormattedTextContainer.TextFormat. Только для чтения[`ITextFrame`](../../../aspose.slides/itextframe).
+## IOverridableText.TextFrameForOverriding свойство
+
+Может содержать текст с богатым форматированием. Если это свойство не равно null, то значение этого форматированного текста отменяет автоматически сгенерированный текст. Автоматически сгенерированный текст является неявным свойством метки данных, метки отображаемого единицы значения оси, заголовка оси, заголовка графика, метки трендовой линии. Автоматически сгенерированный текст форматируется с помощью свойства IFormattedTextContainer.TextFormat. Только для чтения [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITextFrame](../../../aspose.slides/itextframe)
-* interface [IOverridableText](../../ioverridabletext)
+* интерфейс [ITextFrame](../../../aspose.slides/itextframe)
+* интерфейс [IOverridableText](../../ioverridabletext)
 * пространство имен [Aspose.Slides.Charts](../../ioverridabletext)
 * сборка [Aspose.Slides](../../../)
 

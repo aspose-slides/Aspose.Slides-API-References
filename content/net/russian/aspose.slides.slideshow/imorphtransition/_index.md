@@ -1,29 +1,30 @@
 ---
 title: IMorphTransition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода слайда пульсации.
+second_title: Aspose.Slides для справки по API .NET
+description: Эффект перехода с анимацией «Рябь».
 type: docs
-weight: 9350
+weight: 9820
 url: /ru/aspose.slides.slideshow/imorphtransition/
 ---
-## IMorphTransition interface
 
-Эффект перехода слайда пульсации.
+## Интерфейс IMorphTransition
+
+Эффект перехода с анимацией «Рябь».
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Тип перехода морфинга. Чтение/запись[`TransitionMorphType`](../transitionmorphtype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Тип перехода с анимацией. Чтение/запись [`TransitionMorphType`](../transitionmorphtype). |
 
-### Смотрите также
+### См. также
 
-* interface [ITransitionValueBase](../itransitionvaluebase)
+* интерфейс [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

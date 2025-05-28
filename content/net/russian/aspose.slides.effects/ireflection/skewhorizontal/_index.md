@@ -1,22 +1,23 @@
 ---
 title: SkewHorizontal
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает угол наклона по горизонтали. Чтение/записьDouble.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает угол горизонтального искажения. Читаемое/записываемое Double.
 type: docs
 weight: 130
 url: /ru/aspose.slides.effects/ireflection/skewhorizontal/
 ---
-## IReflection.SkewHorizontal property
 
-Задает угол наклона по горизонтали. Чтение/записьDouble.
+## IReflection.SkewHorizontal свойство
+
+Указывает угол горизонтального искажения. Читаемое/записываемое Double.
 
 ```csharp
 public double SkewHorizontal { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IReflection](../../ireflection)
+* интерфейс [IReflection](../../ireflection)
 * пространство имен [Aspose.Slides.Effects](../../ireflection)
 * сборка [Aspose.Slides](../../../)
 

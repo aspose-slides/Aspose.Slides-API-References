@@ -1,29 +1,30 @@
 ---
 title: ISmartArtShapeCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет коллекцию фигур SmartArt
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет собой коллекцию фигур SmartArt
 type: docs
-weight: 9770
+weight: 10270
 url: /ru/aspose.slides.smartart/ismartartshapecollection/
 ---
-## ISmartArtShapeCollection interface
 
-Представляет коллекцию фигур SmartArt
+## Интерфейс ISmartArtShapeCollection
+
+Представляет собой коллекцию фигур SmartArt
 
 ```csharp
 public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISmartArtShape`](../ismartartshape).  Отсчитываемый от нуля индекс элемента |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ISmartArtShape`](../ismartartshape). Индекс элемента с нуля |
 
-### Смотрите также
+### Также посмотрите
 
-* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* interface [ISmartArtShape](../ismartartshape)
+* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* интерфейс [ISmartArtShape](../ismartartshape)
 * пространство имен [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * сборка [Aspose.Slides](../../)
 

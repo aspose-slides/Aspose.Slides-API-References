@@ -1,14 +1,15 @@
 ---
-title: Add
+title: Добавить
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если категория существует в коллекции вернуть ее. Else создает новую категорию диаграммы из IChartDataCellaspose.slides.charts/ichartdatacellи добавляет ее в коллекцию.
+description: Если категория существует в коллекции, верните ее. В противном случае создайте новую категорию графика из IChartDataCellaspose.slides.charts/ichartdatacell и добавьте ее в коллекцию.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/chartcategorycollection/add/
 ---
-## Add(IChartDataCell) {#add}
 
-Если категория существует в коллекции, вернуть ее. Else создает новую категорию диаграммы из [`IChartDataCell`](../../ichartdatacell)и добавляет ее в коллекцию.
+## Добавить(IChartDataCell) {#add}
+
+Если категория существует в коллекции, верните ее. В противном случае создайте новую категорию графика из [`IChartDataCell`](../../ichartdatacell) и добавьте ее в коллекцию.
 
 ```csharp
 public IChartCategory Add(IChartDataCell chartDataCell)
@@ -16,25 +17,25 @@ public IChartCategory Add(IChartDataCell chartDataCell)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| chartDataCell | IChartDataCell | Ячейка, используемая для создания категории диаграммы. |
+| chartDataCell | IChartDataCell | Ячейка, используемая для создания категории графика. |
 
 ### Возвращаемое значение
 
 Добавленная или существующая категория.
 
-### Смотрите также
+### См. также
 
-* interface [IChartCategory](../../ichartcategory)
-* interface [IChartDataCell](../../ichartdatacell)
-* class [ChartCategoryCollection](../../chartcategorycollection)
+* интерфейс [IChartCategory](../../ichartcategory)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* класс [ChartCategoryCollection](../../chartcategorycollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorycollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Add(object) {#add_1}
+## Добавить(object) {#add_1}
 
-Создает новый[`ChartCategory`](../../chartcategory)из значения и добавляет его в коллекцию.
+Создает новую [`ChartCategory`](../../chartcategory) из значения и добавляет ее в коллекцию.
 
 ```csharp
 public IChartCategory Add(object value)
@@ -46,22 +47,22 @@ public IChartCategory Add(object value)
 
 ### Возвращаемое значение
 
-Добавлено[`IChartCategory`](../../ichartcategory).
+Добавленная [`IChartCategory`](../../ichartcategory).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | при превышении лимита |
+| InvalidOperationException | если превышен лимит |
 
 ### Примечания
 
-Этот метод добавляет рабочий лист с именем AUTO_DATA и добавляет туда все значения. Если вы используете[`ChartDataWorkbook`](../../chartdataworkbook)для добавления или редактирования значений ячеек, убедитесь, что вы не используете этот рабочий лист Максимальное количество значений, добавляемых с помощью этого метод не должен превышать 16711680
+Этот метод добавляет рабочий лист с именем AUTO_DATA и добавляет все значения туда. Если вы используете [`ChartDataWorkbook`](../../chartdataworkbook) для добавления или редактирования значений ячеек, убедитесь, что вы не используете этот рабочий лист. Максимальное количество значений, добавленных с помощью этого метода, не должно превышать 16711680.
 
-### Смотрите также
+### См. также
 
-* interface [IChartCategory](../../ichartcategory)
-* class [ChartCategoryCollection](../../chartcategorycollection)
+* интерфейс [IChartCategory](../../ichartcategory)
+* класс [ChartCategoryCollection](../../chartcategorycollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorycollection)
 * сборка [Aspose.Slides](../../../)
 

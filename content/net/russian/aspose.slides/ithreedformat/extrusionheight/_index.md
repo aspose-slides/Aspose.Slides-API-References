@@ -1,22 +1,23 @@
 ---
 title: ExtrusionHeight
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает высоту эффекта выдавливания. Чтение/записьDouble.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает высоту эффекта экструзии. Читаемое/записываемое значение типа Double.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ithreedformat/extrusionheight/
 ---
-## IThreeDFormat.ExtrusionHeight property
 
-Возвращает или задает высоту эффекта выдавливания. Чтение/записьDouble.
+## Свойство IThreeDFormat.ExtrusionHeight
+
+Возвращает или задает высоту эффекта экструзии. Читаемое/записываемое значение типа Double.
 
 ```csharp
 public double ExtrusionHeight { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IThreeDFormat](../../ithreedformat)
+* интерфейс [IThreeDFormat](../../ithreedformat)
 * пространство имен [Aspose.Slides](../../ithreedformat)
 * сборка [Aspose.Slides](../../../)
 

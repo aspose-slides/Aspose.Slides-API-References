@@ -1,11 +1,12 @@
 ---
 title: AddZoomFrame
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет новый объект Zoom в конец коллекции.
 type: docs
 weight: 190
 url: /ru/aspose.slides/ishapecollection/addzoomframe/
 ---
+
 ## AddZoomFrame(float, float, float, float, ISlide) {#addzoomframe}
 
 Добавляет новый объект Zoom в конец коллекции.
@@ -16,25 +17,25 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового Zoom кадрSingle. |
-| y | Single | Координата Y нового кадра ZoomSingle. |
-| width | Single | Ширина нового кадра ZoomSingle. |
-| height | Single | Высота нового кадра ZoomSingle. |
-| slide | ISlide | Объект слайда, на который ссылается фрейм Zoom[`ISlide`](../../islide). |
+| x | Single | Координата X нового рамки Zoom Single. |
+| y | Single | Координата Y нового рамки Zoom Single. |
+| width | Single | Ширина нового рамки Zoom Single. |
+| height | Single | Высота нового рамки Zoom Single. |
+| slide | ISlide | Объект слайда, на который ссылается рамка Zoom [`ISlide`](../../islide). |
 
 ### Возвращаемое значение
 
-Создан объект Zoom[`IZoomFrame`](../../izoomframe).
+Созданный объект Zoom [`IZoomFrame`](../../izoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Слайд, на который делается ссылка, не принадлежит к текущей презентации. |
+| ArgumentException | Указанный слайд не принадлежит текущей презентации. |
 
 ### Примеры
 
-В этом примере показано добавление объекта Zoom в конец коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два слайда):
+Этот пример демонстрирует добавление объекта Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два слайда):
 
 ```csharp
 [C#]
@@ -44,11 +45,11 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IZoomFrame](../../izoomframe)
-* interface [ISlide](../../islide)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IZoomFrame](../../izoomframe)
+* интерфейс [ISlide](../../islide)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -65,26 +66,26 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового Zoom кадрSingle. |
-| y | Single | Координата Y нового кадра ZoomSingle. |
-| width | Single | Ширина нового кадра ZoomSingle. |
-| height | Single | Высота нового кадра ZoomSingle. |
-| slide | ISlide | Объект слайда, на который ссылается фрейм Zoom[`ISlide`](../../islide). |
-| image | IPPImage | Изображение для указанного слайда[`IPPImage`](../../ippimage) |
+| x | Single | Координата X нового рамки Zoom Single. |
+| y | Single | Координата Y нового рамки Zoom Single. |
+| width | Single | Ширина нового рамки Zoom Single. |
+| height | Single | Высота нового рамки Zoom Single. |
+| slide | ISlide | Объект слайда, на который ссылается рамка Zoom [`ISlide`](../../islide). |
+| image | IPPImage | Изображение для указанного слайда [`IPPImage`](../../ippimage) |
 
 ### Возвращаемое значение
 
-Создан объект Zoom[`IZoomFrame`](../../izoomframe).
+Созданный объект Zoom [`IZoomFrame`](../../izoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Слайд, на который делается ссылка, не принадлежит к текущей презентации. |
+| ArgumentException | Указанный слайд не принадлежит текущей презентации. |
 
 ### Примеры
 
-В этом примере показано добавление объекта Zoom в конец коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два слайда):
+Этот пример демонстрирует добавление объекта Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два слайда):
 
 ```csharp
 [C#]
@@ -95,12 +96,12 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IZoomFrame](../../izoomframe)
-* interface [ISlide](../../islide)
-* interface [IPPImage](../../ippimage)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IZoomFrame](../../izoomframe)
+* интерфейс [ISlide](../../islide)
+* интерфейс [IPPImage](../../ippimage)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

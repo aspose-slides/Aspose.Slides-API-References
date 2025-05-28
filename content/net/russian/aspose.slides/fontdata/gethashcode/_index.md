@@ -1,14 +1,15 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Slides для .NET
-description: Служит хэш-функцией для определенного типа подходящей для использования в алгоритмах хеширования и структурах данных таких как хэш-таблица.
+second_title: Aspose.Slides для .NET Справочник API
+description: Служит в качестве хеш-функции для определенного типа, подходящего для использования в хеширующих алгоритмах и структурах данных, таких как хеш-таблица.
 type: docs
 weight: 50
 url: /ru/aspose.slides/fontdata/gethashcode/
 ---
-## FontData.GetHashCode method
 
-Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица.
+## Метод FontData.GetHashCode
+
+Служит в качестве хеш-функции для определенного типа, подходящего для использования в хеширующих алгоритмах и структурах данных, таких как хеш-таблица.
 
 ```csharp
 public override int GetHashCode()
@@ -16,11 +17,11 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Хэш-код FontData.
+Хеш-код FontData.
 
-### Смотрите также
+### См. также
 
-* class [FontData](../../fontdata)
+* класс [FontData](../../fontdata)
 * пространство имен [Aspose.Slides](../../fontdata)
 * сборка [Aspose.Slides](../../../)
 

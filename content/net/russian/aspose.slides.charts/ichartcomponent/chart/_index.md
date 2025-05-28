@@ -1,23 +1,24 @@
 ---
-title: Chart
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает диаграмму. Только для чтенияIChartaspose.slides.charts/ichart.
+title: Диаграмма
+second_title: Справка по API Aspose.Sildes для .NET
+description: Возвращает диаграмму. Только для чтения IChartaspose.slides.charts/ichart.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ichartcomponent/chart/
 ---
-## IChartComponent.Chart property
 
-Возвращает диаграмму. Только для чтения[`IChart`](../../ichart).
+## Свойство IChartComponent.Chart
+
+Возвращает диаграмму. Только для чтения [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChart](../../ichart)
-* interface [IChartComponent](../../ichartcomponent)
+* интерфейс [IChart](../../ichart)
+* интерфейс [IChartComponent](../../ichartcomponent)
 * пространство имен [Aspose.Slides.Charts](../../ichartcomponent)
 * сборка [Aspose.Slides](../../../)
 

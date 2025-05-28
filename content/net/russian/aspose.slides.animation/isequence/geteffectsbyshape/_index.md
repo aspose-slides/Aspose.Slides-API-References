@@ -1,14 +1,15 @@
 ---
 title: GetEffectsByShape
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает массив эффектов для указанной формы.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает массив эффектов для указанной фигуры.
 type: docs
 weight: 90
 url: /ru/aspose.slides.animation/isequence/geteffectsbyshape/
 ---
-## ISequence.GetEffectsByShape method
 
-Возвращает массив эффектов для указанной формы.
+## Метод ISequence.GetEffectsByShape
+
+Возвращает массив эффектов для указанной фигуры.
 
 ```csharp
 public IEffect[] GetEffectsByShape(IShape shape)
@@ -16,17 +17,17 @@ public IEffect[] GetEffectsByShape(IShape shape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | IShape | Shape object[`IShape`](../../../aspose.slides/ishape) |
+| shape | IShape | Объект фигуры [`IShape`](../../../aspose.slides/ishape) |
 
 ### Возвращаемое значение
 
-Массив эффектов[`IEffect`](../../ieffect)
+Массив эффектов [`IEffect`](../../ieffect)
 
-### Смотрите также
+### См. также
 
-* interface [IEffect](../../ieffect)
-* interface [IShape](../../../aspose.slides/ishape)
-* interface [ISequence](../../isequence)
+* интерфейс [IEffect](../../ieffect)
+* интерфейс [IShape](../../../aspose.slides/ishape)
+* интерфейс [ISequence](../../isequence)
 * пространство имен [Aspose.Slides.Animation](../../isequence)
 * сборка [Aspose.Slides](../../../)
 

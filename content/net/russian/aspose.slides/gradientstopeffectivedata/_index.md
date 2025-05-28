@@ -1,36 +1,37 @@
 ---
 title: GradientStopEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий точку остановки градиента.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Непеременная объект, представляющий градиентную остановку.
 type: docs
-weight: 4590
+weight: 4850
 url: /ru/aspose.slides/gradientstopeffectivedata/
 ---
-## GradientStopEffectiveData class
 
-Неизменяемый объект, представляющий точку остановки градиента.
+## Класс GradientStopEffectiveData
+
+Непеременная объект, представляющий градиентную остановку.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Возвращает цвет точки градиента. Только для чтенияColor. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Возвращает положение (0..1) точки градиента. Только для чтенияSingle. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Возвращает цвет градиентной остановки. Только для чтения Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Возвращает позицию (0..1) градиентной остановки. Только для чтения Single. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Определяет, равен ли указанный[`GradientStopEffectiveData`](../gradientstopeffectivedata)текущемуГрадиентСтопЭффективеДата. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Определяет, равен ли указанный [`GradientStopEffectiveData`](../gradientstopeffectivedata) текущему [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### Смотрите также
+### Также см. 
 
-* interface [IGradientStopEffectiveData](../igradientstopeffectivedata)
+* интерфейс [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

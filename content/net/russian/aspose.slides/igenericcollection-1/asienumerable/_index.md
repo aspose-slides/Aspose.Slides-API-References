@@ -1,14 +1,15 @@
 ---
 title: AsIEnumerable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable.
+description: Возвращает интерфейс IEnumerable. Только для чтения IEnumerable.
 type: docs
 weight: 20
 url: /ru/aspose.slides/igenericcollection-1/asienumerable/
 ---
-## IGenericCollection&lt;T&gt;.AsIEnumerable property
 
-Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable.
+## IGenericCollection&lt;T&gt;.AsIEnumerable свойство
+
+Возвращает интерфейс IEnumerable. Только для чтения IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
@@ -16,11 +17,11 @@ public IEnumerable AsIEnumerable { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCollection&lt;T&gt;](../../igenericcollection-1)
+* интерфейс [IGenericCollection&lt;T&gt;](../../igenericcollection-1)
 * пространство имен [Aspose.Slides](../../igenericcollection-1)
 * сборка [Aspose.Slides](../../../)
 

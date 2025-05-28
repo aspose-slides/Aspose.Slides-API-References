@@ -1,14 +1,15 @@
 ---
 title: XpsOptions
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit des options qui contrôlent la manière dont une présentation est enregistrée au format XPS.
+second_title: Aspose.Slides pour l'API .NET Référence
+description: Fournit des options qui contrôlent comment une présentation est enregistrée au format XPS.
 type: docs
-weight: 4320
+weight: 4540
 url: /fr/aspose.slides.export/xpsoptions/
 ---
-## XpsOptions class
 
-Fournit des options qui contrôlent la manière dont une présentation est enregistrée au format XPS.
+## Classe XpsOptions
+
+Fournit des options qui contrôlent comment une présentation est enregistrée au format XPS.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
@@ -16,26 +17,58 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [XpsOptions](xpsoptions)() | Constructeur par défaut. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée dans le cas où la police source est introuvable. Lecture-écritureString . |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True pour dessiner un cadre noir autour de chaque diapositive. Lecture/écritureBoolean . |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour enregistrer les mises à jour de progression en pourcentage. Voir[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True pour convertir tous les métafichiers utilisés dans une présentation en images PNG. Lecture/écritureBoolean . |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Spécifie si le document généré doit inclure ou non des diapositives masquées. La valeur par défaut est`faux` . |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Renvoie des ensembles d'un objet qui reçoit des avertissements et décide si le processus de chargement va continuer ou sera abandonné. Lecture/écriture[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée en cas de non disponibilité de la police source. Chaîne en lecture-écriture. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True pour dessiner un cadre noir autour de chaque diapositive. Booléen en lecture/écriture. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Renvoie ou définit le style visuel du dégradé. En lecture/écriture [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour les mises à jour de progression de sauvegarde en pourcentage. Voir [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True pour convertir tous les mét fichiers utilisés dans une présentation en images PNG. Booléen en lecture/écriture. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Spécifie si le document généré doit inclure ou non des diapositives cachées. La valeur par défaut est `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de l'enregistrement de la présentation. Booléen en lecture/écriture. La valeur par défaut est **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Renvoie ou définit un objet qui reçoit des avertissements et décide si le processus de chargement doit continuer ou être abandonné. En lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Voir également
+### Exemples
 
-* class [SaveOptions](../saveoptions)
+L'exemple suivant montre comment convertir des présentations en XPS en utilisant des paramètres par défaut.
+
+```csharp
+[C#]
+// Instancier un objet Presentation qui représente un fichier de présentation
+using (Presentation pres = new Presentation("Convert_XPS.pptx"))
+{
+    // Enregistrer la présentation au format de document XPS
+    pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
+}
+```
+
+L'exemple suivant montre comment convertir des présentations en XPS en utilisant des paramètres personnalisés.
+
+```csharp
+[C#]
+// Instancier un objet Presentation qui représente un fichier de présentation
+using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
+{
+    // Instancier la classe TiffOptions
+    XpsOptions options = new XpsOptions();
+    // Enregistrer les mét fichiers en tant que PNG
+    options.SaveMetafilesAsPng = true;
+    // Enregistrer la présentation au format de document XPS
+    pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
+}
+```
+
+### Voir Aussi
+
+* classe [SaveOptions](../saveoptions)
 * interface [IXpsOptions](../ixpsoptions)
-* espace de noms [Aspose.Slides.Export](../../aspose.slides.export)
-* Assemblée [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

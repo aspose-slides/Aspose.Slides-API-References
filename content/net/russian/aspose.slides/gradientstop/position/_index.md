@@ -1,22 +1,23 @@
 ---
-title: Position
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает положение 0..1 точки градиента. Чтение/записьSingle.
+title: Позиция
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает или устанавливает позицию 0..1 градиентной остановки. Чтение/запись Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides/gradientstop/position/
 ---
-## GradientStop.Position property
 
-Возвращает или задает положение (0..1) точки градиента. Чтение/записьSingle.
+## Свойство GradientStop.Position
+
+Возвращает или устанавливает позицию (0..1) градиентной остановки. Чтение/запись Single.
 
 ```csharp
 public float Position { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [GradientStop](../../gradientstop)
+* класс [GradientStop](../../gradientstop)
 * пространство имен [Aspose.Slides](../../gradientstop)
 * сборка [Aspose.Slides](../../../)
 

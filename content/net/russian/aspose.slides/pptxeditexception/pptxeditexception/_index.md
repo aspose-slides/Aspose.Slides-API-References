@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides/pptxeditexception/pptxeditexception/
 ---
+
 ## PptxEditException() {#constructor}
 
 Конструктор по умолчанию.
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/pptxeditexception/pptxeditexception/
 public PptxEditException()
 ```
 
-### Смотрите также
+### См. также
 
-* class [PptxEditException](../../pptxeditexception)
+* класс [PptxEditException](../../pptxeditexception)
 * пространство имен [Aspose.Slides](../../pptxeditexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -32,11 +33,11 @@ public PptxEditException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
+| message | String | сообщение |
 
-### Смотрите также
+### См. также
 
-* class [PptxEditException](../../pptxeditexception)
+* класс [PptxEditException](../../pptxeditexception)
 * пространство имен [Aspose.Slides](../../pptxeditexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,7 +45,7 @@ public PptxEditException(string message)
 
 ## PptxEditException(string, Exception) {#constructor_2}
 
-Конструктор исключения, содержащего сообщение и встроенное исключение.
+Конструктор для исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public PptxEditException(string message, Exception exception)
@@ -52,12 +53,12 @@ public PptxEditException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
-| исключение | Exception | исходное исключение |
+| message | String | сообщение |
+| exception | Exception | исходное исключение |
 
-### Смотрите также
+### См. также
 
-* class [PptxEditException](../../pptxeditexception)
+* класс [PptxEditException](../../pptxeditexception)
 * пространство имен [Aspose.Slides](../../pptxeditexception)
 * сборка [Aspose.Slides](../../../)
 

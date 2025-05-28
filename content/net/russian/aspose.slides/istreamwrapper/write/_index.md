@@ -1,14 +1,15 @@
 ---
-title: Write
-second_title: Справочник по API Aspose.Slides для .NET
-description: записывает последовательность байтов в текущий поток и продвигает текущую позицию в этом потоке на количество записанных байтов.
+title: Запись
+second_title: Справка по API Aspose.Sildes для .NET
+description: записывает последовательность байтов в текущий поток и продвигает текущее положение в этом потоке на количество записанных байтов.
 type: docs
 weight: 130
 url: /ru/aspose.slides/istreamwrapper/write/
 ---
-## IStreamWrapper.Write method
 
-записывает последовательность байтов в текущий поток и продвигает текущую позицию в этом потоке на количество записанных байтов.
+## Метод IStreamWrapper.Write
+
+записывает последовательность байтов в текущий поток и продвигает текущее положение в этом потоке на количество записанных байтов.
 
 ```csharp
 public void Write(byte[] buffer, int offset, int count)
@@ -16,13 +17,13 @@ public void Write(byte[] buffer, int offset, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| buffer | Byte[] | Массив байтовByte[] |
-| offset | Int32 | Отсчитываемое от нуля байтовое смещение в буфере, с которого начинается копирование байтов в текущий потокInt32 |
-| count | Int32 | Количество байтов для записи в текущий потокInt32 |
+| buffer | Byte[] | Массив байтов Byte[] |
+| offset | Int32 | Смещение байта в массиве buffer, с которого начинается копирование байтов в текущий поток Int32 |
+| count | Int32 | Количество байтов, которые будут записаны в текущий поток Int32 |
 
-### Смотрите также
+### См. Также
 
-* interface [IStreamWrapper](../../istreamwrapper)
+* интерфейс [IStreamWrapper](../../istreamwrapper)
 * пространство имен [Aspose.Slides](../../istreamwrapper)
 * сборка [Aspose.Slides](../../../)
 

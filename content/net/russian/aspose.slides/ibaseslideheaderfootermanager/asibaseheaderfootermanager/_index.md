@@ -1,12 +1,13 @@
 ---
 title: AsIBaseHeaderFooterManager
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slidеs для .NET API Справочник
 description: Возвращает интерфейс IBaseHeaderFooterManager.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager/
 ---
-## IBaseSlideHeaderFooterManager.AsIBaseHeaderFooterManager property
+
+## IBaseSlideHeaderFooterManager.AsIBaseHeaderFooterManager свойство
 
 Возвращает интерфейс IBaseHeaderFooterManager.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager/
 public IBaseHeaderFooterManager AsIBaseHeaderFooterManager { get; }
 ```
 
-### Примечания
+### Замечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IBaseHeaderFooterManager](../../ibaseheaderfootermanager)
-* interface [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
+* интерфейс [IBaseHeaderFooterManager](../../ibaseheaderfootermanager)
+* интерфейс [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ibaseslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

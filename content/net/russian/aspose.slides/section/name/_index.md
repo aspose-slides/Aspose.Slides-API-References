@@ -1,12 +1,13 @@
 ---
-title: Name
+title: Имя
 second_title: Справочник по API Aspose.Slides для .NET
 description: Имя раздела.
 type: docs
 weight: 10
 url: /ru/aspose.slides/section/name/
 ---
-## Section.Name property
+
+## Свойство Section.Name
 
 Имя раздела.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/section/name/
 public string Name { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Section](../../section)
+* класс [Section](../../section)
 * пространство имен [Aspose.Slides](../../section)
 * сборка [Aspose.Slides](../../../)
 

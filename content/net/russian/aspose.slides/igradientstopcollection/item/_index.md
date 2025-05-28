@@ -1,23 +1,24 @@
 ---
-title: Item
+title: Элемент
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает точку градиента по индексу.
+description: Возвращает градиентную остановку по индексу.
 type: docs
 weight: 10
 url: /ru/aspose.slides/igradientstopcollection/item/
 ---
-## IGradientStopCollection indexer
 
-Возвращает точку градиента по индексу.
+## IGradientStopCollection индексатор
+
+Возвращает градиентную остановку по индексу.
 
 ```csharp
 public IGradientStop this[int index] { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IGradientStop](../../igradientstop)
-* interface [IGradientStopCollection](../../igradientstopcollection)
+* интерфейс [IGradientStop](../../igradientstop)
+* интерфейс [IGradientStopCollection](../../igradientstopcollection)
 * пространство имен [Aspose.Slides](../../igradientstopcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: InsertClone
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вставляет копию указанного мастер-слайда в указанную позицию коллекции. Связанные слайды макета также будут скопированы.
+second_title: Aspose.Slides для .NET API Справочник
+description: Вставляет копию указанного мастер-слайда в указанное положение коллекции. Связанные слайды макета также будут скопированы.
 type: docs
 weight: 30
 url: /ru/aspose.slides/imasterslidecollection/insertclone/
 ---
-## IMasterSlideCollection.InsertClone method
 
-Вставляет копию указанного мастер-слайда в указанную позицию коллекции. Связанные слайды макета также будут скопированы.
+## IMasterSlideCollection.InsertClone метод
+
+Вставляет копию указанного мастер-слайда в указанное положение коллекции. Связанные слайды макета также будут скопированы.
 
 ```csharp
 public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
@@ -19,14 +20,14 @@ public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
 | index | Int32 | Индекс нового слайда. |
 | sourceMaster | IMasterSlide | Слайд для клонирования. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Вставлен мастер-слайд.
+Вставленный мастер-слайд.
 
-### Смотрите также
+### См. Также
 
-* interface [IMasterSlide](../../imasterslide)
-* interface [IMasterSlideCollection](../../imasterslidecollection)
+* интерфейс [IMasterSlide](../../imasterslide)
+* интерфейс [IMasterSlideCollection](../../imasterslidecollection)
 * пространство имен [Aspose.Slides](../../imasterslidecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: ScaleHorizontal
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает коэффициент масштабирования по горизонтали отрицательное масштабирование приводит к перевороту. проценты Чтение/записьDouble.
+second_title: Справка по API Aspose.Slides для .NET
+description: Указывает фактор горизонтального масштабирования, отрицательное масштабирование приводит к об inverted. проценты Чтение/запись Double.
 type: docs
 weight: 110
 url: /ru/aspose.slides.effects/ireflection/scalehorizontal/
 ---
-## IReflection.ScaleHorizontal property
 
-Задает коэффициент масштабирования по горизонтали, отрицательное масштабирование приводит к перевороту. (проценты) Чтение/записьDouble.
+## Свойство IReflection.ScaleHorizontal
+
+Указывает фактор горизонтального масштабирования, отрицательное масштабирование приводит к инверсии. (проценты) Чтение/запись Double.
 
 ```csharp
 public double ScaleHorizontal { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IReflection](../../ireflection)
+* интерфейс [IReflection](../../ireflection)
 * пространство имен [Aspose.Slides.Effects](../../ireflection)
 * сборка [Aspose.Slides](../../../)
 

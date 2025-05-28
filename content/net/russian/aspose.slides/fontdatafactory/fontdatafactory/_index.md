@@ -1,12 +1,13 @@
 ---
 title: FontDataFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontdatafactory/fontdatafactory/
 ---
-## FontDataFactory constructor
+
+## Конструктор FontDataFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/fontdatafactory/fontdatafactory/
 public FontDataFactory()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [FontDataFactory](../../fontdatafactory)
+* класс [FontDataFactory](../../fontdatafactory)
 * пространство имен [Aspose.Slides](../../fontdatafactory)
 * сборка [Aspose.Slides](../../../)
 

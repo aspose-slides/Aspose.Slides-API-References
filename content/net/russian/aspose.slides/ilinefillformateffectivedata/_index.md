@@ -1,37 +1,38 @@
 ---
 title: ILineFillFormatEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект который содержит эффективные свойства заполнения строки.
+second_title: Aspose.Slides для .NET API Справочник
+description: Неподвижный объект, который содержит эффективные свойства заполнения линий.
 type: docs
-weight: 5740
+weight: 6100
 url: /ru/aspose.slides/ilinefillformateffectivedata/
 ---
-## ILineFillFormatEffectiveData interface
 
-Неизменяемый объект, который содержит эффективные свойства заполнения строки.
+## Интерфейс ILineFillFormatEffectiveData
+
+Неподвижный объект, который содержит эффективные свойства заполнения линий.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Возвращает интерфейс IFillParamSource. Только для чтения[`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Возвращает тип заливки. Только для чтения[`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Возвращает формат градиентной заливки. Только для чтения[`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Возвращает формат заполнения узором. Только для чтения[`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Определяет, должна ли заливка поворачиваться вместе с фигурой. Только чтениеBoolean. |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Возвращает цвет сплошной заливки. Только для чтенияColor. |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Возвращает интерфейс IFillParamSource. Только для чтения [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Возвращает тип заполнения. Только для чтения [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Возвращает формат градиентного заполнения. Только для чтения [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Возвращает формат текстурного заполнения. Только для чтения [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Определяет, должно ли заполнение поворачиваться вместе с фигурой. Только для чтения Boolean. |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Возвращает цвет сплошного заполнения. Только для чтения Color. |
 
-### Примечания
+### Замечания
 
-Этот интерфейс используется как часть[`ILineFormatEffectiveData`](../ilineformateffectivedata).
+Этот интерфейс используется как часть [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [IFillParamSource](../ifillparamsource)
+* интерфейс [IFillParamSource](../ifillparamsource)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

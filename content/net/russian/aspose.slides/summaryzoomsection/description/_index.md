@@ -1,14 +1,15 @@
 ---
-title: Description
+title: Описание
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает текстовое описание объекта Суммарный раздел масштабирования.
+description: Возвращает текстовое описание объекта раздела сводного зума.
 type: docs
 weight: 10
 url: /ru/aspose.slides/summaryzoomsection/description/
 ---
-## SummaryZoomSection.Description property
 
-Возвращает текстовое описание объекта Суммарный раздел масштабирования.
+## Свойство SummaryZoomSection.Description
+
+Возвращает текстовое описание объекта раздела сводного зума.
 
 ```csharp
 public string Description { get; set; }
@@ -27,9 +28,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* class [SummaryZoomSection](../../summaryzoomsection)
+* класс [SummaryZoomSection](../../summaryzoomsection)
 * пространство имен [Aspose.Slides](../../summaryzoomsection)
 * сборка [Aspose.Slides](../../../)
 

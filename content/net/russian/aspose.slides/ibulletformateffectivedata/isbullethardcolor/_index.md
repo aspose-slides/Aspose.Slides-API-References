@@ -1,22 +1,23 @@
 ---
 title: IsBulletHardColor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет имеет ли маркер собственный цвет или наследует его от первой части абзаца. Возвращает true если пуля имеет свой цвет и false если пуля наследует цвет от первой части абзаца. Только чтениеBoolean.
+second_title: Справочник API Aspose.Slides для .NET
+description: Определяет, имеет ли маркировка свой цвет или наследует его от первой части в абзаце. Возвращает true, если маркировка имеет собственный цвет, и false, если маркировка наследует цвет от первой части в абзаце. Только для чтения Boolean.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ibulletformateffectivedata/isbullethardcolor/
 ---
-## IBulletFormatEffectiveData.IsBulletHardColor property
 
-Определяет, имеет ли маркер собственный цвет или наследует его от первой части абзаца. Возвращает **true** если пуля имеет свой цвет и **false** если пуля наследует цвет от первой части абзаца. Только чтениеBoolean.
+## IBulletFormatEffectiveData.IsBulletHardColor свойство
+
+Определяет, имеет ли маркировка свой цвет или наследует его от первой части в абзаце. Возвращает **true**, если маркировка имеет собственный цвет, и **false**, если маркировка наследует цвет от первой части в абзаце. Только для чтения Boolean.
 
 ```csharp
 public bool IsBulletHardColor { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
+* интерфейс [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibulletformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

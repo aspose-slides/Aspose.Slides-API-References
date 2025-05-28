@@ -3,10 +3,11 @@ title: ISmartArt
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет диаграмму SmartArt.
 type: docs
-weight: 9730
+weight: 10230
 url: /ru/aspose.slides.smartart/ismartart/
 ---
-## ISmartArt interface
+
+## Интерфейс ISmartArt
 
 Представляет диаграмму SmartArt.
 
@@ -14,21 +15,21 @@ url: /ru/aspose.slides.smartart/ismartart/
 public interface ISmartArt : IGraphicalObject
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Возвращает коллекции всех узлов в объекте SmartArt. Только для чтения[`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения[`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Возвращает или устанавливает цветовой стиль объекта SmartArt. Чтение/запись[`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Возврат или установка состояния диаграммы SmartArt относительно (слева направо) LTR или (справа налево) RTL, если диаграмма поддерживает реверсирование . Чтение/записьBoolean. |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Возвращает или устанавливает макет объекта SmartArt. Чтение/запись[`SmartArtLayoutType`](../smartartlayouttype). |
-| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Возвращает коллекции корневых узлов в объекте SmartArt. Только для чтения[`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Возвращает или устанавливает быстрый стиль объекта SmartArt. Чтение/запись[`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Возвращает коллекции всех узлов в объекте SmartArt. Только для чтения [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Возвращает или устанавливает цветовой стиль объекта SmartArt. Чтение/запись [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Возвращает или устанавливает состояние диаграммы SmartArt относительно (слева направо) LTR или (справа налево) RTL, если диаграмма поддерживает реверс. Чтение/запись Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Возвращает или устанавливает макет объекта SmartArt. Чтение/запись [`SmartArtLayoutType`](../smartartlayouttype). |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Возвращает коллекции корневых узлов в объекте SmartArt. Только для чтения [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Возвращает или устанавливает быстрый стиль объекта SmartArt. Чтение/запись [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
-### Смотрите также
+### См. также
 
-* interface [IGraphicalObject](../../aspose.slides/igraphicalobject)
+* интерфейс [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * пространство имен [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * сборка [Aspose.Slides](../../)
 

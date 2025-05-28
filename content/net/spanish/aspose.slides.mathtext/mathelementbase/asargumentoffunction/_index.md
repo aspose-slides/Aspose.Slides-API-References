@@ -1,26 +1,27 @@
 ---
 title: AsArgumentOfFunction
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Toma la función especificada utilizando esta instancia como argumento
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Toma una función específica usando esta instancia como argumento
 type: docs
 weight: 20
 url: /es/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
 ---
+
 ## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
 
-Toma la función especificada utilizando esta instancia como argumento
+Toma una función específica usando esta instancia como argumento
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 ```
 
-| Parámetro | Escribe | Descripción |
-| --- | --- | --- |
-| functionName | IMathElement | Nombre de la función |
+| Parámetro    | Tipo        | Descripción     |
+|--------------|-------------|------------------|
+| functionName | IMathElement| Nombre de la función |
 
-### Valor_devuelto
+### Valor de retorno
 
-Nuevo elemento matemático de tipo[`IMathFunction`](../../imathfunction)
+Nuevo elemento matemático del tipo [`IMathFunction`](../../imathfunction)
 
 ### Ejemplos
 
@@ -33,31 +34,31 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 ```
 
-### Ver también
+### Véase también
 
-* interface [IMathFunction](../../imathfunction)
-* interface [IMathElement](../../imathelement)
-* class [MathElementBase](../../mathelementbase)
+* interfaz [IMathFunction](../../imathfunction)
+* interfaz [IMathElement](../../imathelement)
+* clase [MathElementBase](../../mathelementbase)
 * espacio de nombres [Aspose.Slides.MathText](../../mathelementbase)
-* asamblea [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(string) {#asargumentoffunction_4}
 
-Toma la función especificada utilizando esta instancia como argumento
+Toma una función específica usando esta instancia como argumento
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(string functionName)
 ```
 
-| Parámetro | Escribe | Descripción |
-| --- | --- | --- |
-| functionName | String | Nombre de la función |
+| Parámetro    | Tipo    | Descripción     |
+|--------------|---------|------------------|
+| functionName | String  | Nombre de la función |
 
-### Valor_devuelto
+### Valor de retorno
 
-Nuevo elemento matemático de tipo[`IMathFunction`](../../imathfunction)
+Nuevo elemento matemático del tipo [`IMathFunction`](../../imathfunction)
 
 ### Ejemplos
 
@@ -69,30 +70,30 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction("cos");
 ```
 
-### Ver también
+### Véase también
 
-* interface [IMathFunction](../../imathfunction)
-* class [MathElementBase](../../mathelementbase)
+* interfaz [IMathFunction](../../imathfunction)
+* clase [MathElementBase](../../mathelementbase)
 * espacio de nombres [Aspose.Slides.MathText](../../mathelementbase)
-* asamblea [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
 
-Toma la función especificada utilizando esta instancia como argumento
+Toma una función específica usando esta instancia como argumento
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
 ```
 
-| Parámetro | Escribe | Descripción |
-| --- | --- | --- |
-| functionType | MathFunctionsOfOneArgument | Uno de los tipos de funciones comunes de un argumento. |
+| Parámetro    | Tipo                      | Descripción                                                  |
+|--------------|---------------------------|-------------------------------------------------------------|
+| functionType | MathFunctionsOfOneArgument| Uno de los tipos de función comunes de un argumento         |
 
-### Valor_devuelto
+### Valor de retorno
 
-Nuevo elemento matemático de tipo[`IMathFunction`](../../imathfunction)
+Nuevo elemento matemático del tipo [`IMathFunction`](../../imathfunction)
 
 ### Ejemplos
 
@@ -105,33 +106,33 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 ```
 
-### Ver también
+### Véase también
 
-* interface [IMathFunction](../../imathfunction)
+* interfaz [IMathFunction](../../imathfunction)
 * enum [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument)
-* class [MathElementBase](../../mathelementbase)
+* clase [MathElementBase](../../mathelementbase)
 * espacio de nombres [Aspose.Slides.MathText](../../mathelementbase)
-* asamblea [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, IMathElement) {#asargumentoffunction_2}
 
-Toma la función especificada utilizando esta instancia como argumento y el argumento adicional especificado
+Toma una función específica usando esta instancia como argumento y un argumento adicional específico
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
     IMathElement additionalArgument)
 ```
 
-| Parámetro | Escribe | Descripción |
-| --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | Uno de los tipos de funciones comunes de dos argumentos: Log, Lim, Min, Max |
-| additionalArgument | IMathElement | Argumento adicional dependiendo del tipo de función |
+| Parámetro          | Tipo                           | Descripción                                                     |
+|--------------------|--------------------------------|----------------------------------------------------------------|
+| functionType       | MathFunctionsOfTwoArguments    | Uno de los tipos de función comunes de dos argumentos: Log, Lim, Min, Max |
+| additionalArgument  | IMathElement                   | Argumento adicional dependiendo del tipo de función            |
 
-### Valor_devuelto
+### Valor de retorno
 
-Nuevo elemento matemático de tipo[`IMathFunction`](../../imathfunction)
+Nuevo elemento matemático del tipo [`IMathFunction`](../../imathfunction)
 
 ### Ejemplos
 
@@ -144,34 +145,34 @@ IMathElement logarithmBase = new MathematicalText("5");
 IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase); // Devuelve el logaritmo de 'x' en base '5'
 ```
 
-### Ver también
+### Véase también
 
-* interface [IMathFunction](../../imathfunction)
+* interfaz [IMathFunction](../../imathfunction)
 * enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
-* interface [IMathElement](../../imathelement)
-* class [MathElementBase](../../mathelementbase)
+* interfaz [IMathElement](../../imathelement)
+* clase [MathElementBase](../../mathelementbase)
 * espacio de nombres [Aspose.Slides.MathText](../../mathelementbase)
-* asamblea [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, string) {#asargumentoffunction_3}
 
-Toma la función especificada utilizando esta instancia como argumento y el argumento adicional especificado
+Toma una función específica usando esta instancia como argumento y un argumento adicional específico
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
     string additionalArgument)
 ```
 
-| Parámetro | Escribe | Descripción |
-| --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | Uno de los tipos de funciones comunes de dos argumentos: Log, Lim, Min, Max |
-| additionalArgument | String | Argumento adicional dependiendo del tipo de función |
+| Parámetro          | Tipo                           | Descripción                                                      |
+|--------------------|--------------------------------|-----------------------------------------------------------------|
+| functionType       | MathFunctionsOfTwoArguments    | Uno de los tipos de función comunes de dos argumentos: Log, Lim, Min, Max |
+| additionalArgument  | String                         | Argumento adicional dependiendo del tipo de función             |
 
-### Valor_devuelto
+### Valor de retorno
 
-Nuevo elemento matemático de tipo[`IMathFunction`](../../imathfunction)
+Nuevo elemento matemático del tipo [`IMathFunction`](../../imathfunction)
 
 ### Ejemplos
 
@@ -183,12 +184,12 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5"); // Devuelve el logaritmo de 'x' en base '5'
 ```
 
-### Ver también
+### Véase también
 
-* interface [IMathFunction](../../imathfunction)
+* interfaz [IMathFunction](../../imathfunction)
 * enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
-* class [MathElementBase](../../mathelementbase)
+* clase [MathElementBase](../../mathelementbase)
 * espacio de nombres [Aspose.Slides.MathText](../../mathelementbase)
-* asamblea [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

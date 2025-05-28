@@ -1,22 +1,23 @@
 ---
 title: IsSynchronized
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным потокобезопасным. Только для чтения булев тип.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/fillformatcollection/issynchronized/
 ---
-## FillFormatCollection.IsSynchronized property
 
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
+## Свойство FillFormatCollection.IsSynchronized
+
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтения булев тип.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Смотрите также
+### Также смотрите
 
-* class [FillFormatCollection](../../fillformatcollection)
+* класс [FillFormatCollection](../../fillformatcollection)
 * пространство имен [Aspose.Slides.Theme](../../fillformatcollection)
 * сборка [Aspose.Slides](../../../)
 

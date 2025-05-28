@@ -1,14 +1,15 @@
 ---
 title: ToBinary
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает двоичное представление проекта VBA в виде контейнера OLE
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает бинарное представление проекта VBA в виде контейнера OLE
 type: docs
-weight: 50
+weight: 60
 url: /ru/aspose.slides.vba/vbaproject/tobinary/
 ---
-## VbaProject.ToBinary method
 
-Возвращает двоичное представление проекта VBA в виде контейнера OLE
+## VbaProject.ToBinary метод
+
+Возвращает бинарное представление проекта VBA в виде контейнера OLE
 
 ```csharp
 public byte[] ToBinary()
@@ -16,11 +17,11 @@ public byte[] ToBinary()
 
 ### Возвращаемое значение
 
-Двоичный представление проекта VBA в виде контейнера OLE
+Бинарное представление проекта VBA в виде контейнера OLE
 
-### Смотрите также
+### См. также
 
-* class [VbaProject](../../vbaproject)
+* класс [VbaProject](../../vbaproject)
 * пространство имен [Aspose.Slides.Vba](../../vbaproject)
 * сборка [Aspose.Slides](../../../)
 

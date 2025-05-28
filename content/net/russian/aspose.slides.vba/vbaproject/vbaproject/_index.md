@@ -1,22 +1,23 @@
 ---
 title: VbaProject
 second_title: Справочник по API Aspose.Slides для .NET
-description: Этот конструктор создает новый проект VBA с нуля. Проект будет создан в кодовой странице 1252 Windows Latin 1 ANSI
+description: Этот конструктор создает новый проект VBA с нуля. Проект будет создан в кодировке 1252 Windows Latin 1 ANSI
 type: docs
 weight: 10
 url: /ru/aspose.slides.vba/vbaproject/vbaproject/
 ---
+
 ## VbaProject() {#constructor}
 
-Этот конструктор создает новый проект VBA с нуля. Проект будет создан в кодовой странице 1252 Windows Latin 1 (ANSI)
+Этот конструктор создает новый проект VBA с нуля. Проект будет создан в кодировке 1252 Windows Latin 1 (ANSI)
 
 ```csharp
 public VbaProject()
 ```
 
-### Смотрите также
+### Смотрите Также
 
-* class [VbaProject](../../vbaproject)
+* класс [VbaProject](../../vbaproject)
 * пространство имен [Aspose.Slides.Vba](../../vbaproject)
 * сборка [Aspose.Slides](../../../)
 
@@ -24,15 +25,15 @@ public VbaProject()
 
 ## VbaProject(byte[]) {#constructor_1}
 
-Этот конструктор загружает проект VBA из бинарного представления контейнера OLE.
+Этот конструктор загружает проект VBA из бинарного представления OLE контейнера.
 
 ```csharp
 public VbaProject(byte[] data)
 ```
 
-### Смотрите также
+### Смотрите Также
 
-* class [VbaProject](../../vbaproject)
+* класс [VbaProject](../../vbaproject)
 * пространство имен [Aspose.Slides.Vba](../../vbaproject)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: GetChildren
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Получить дочерние элементы
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/mathradical/getchildren/
 ---
-## MathRadical.GetChildren method
+
+## MathRadical.GetChildren метод
 
 Получить дочерние элементы
 
@@ -14,10 +15,10 @@ url: /ru/aspose.slides.mathtext/mathradical/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathRadical](../../mathradical)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathRadical](../../mathradical)
 * пространство имен [Aspose.Slides.MathText](../../mathradical)
 * сборка [Aspose.Slides](../../../)
 

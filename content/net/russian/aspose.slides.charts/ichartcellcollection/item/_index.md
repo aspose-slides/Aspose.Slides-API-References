@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает ячейку IChartDataCell по индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/ichartcellcollection/item/
 ---
-## IChartCellCollection indexer
+
+## Индексатор IChartCellCollection
 
 Возвращает ячейку (IChartDataCell) по индексу.
 
@@ -22,10 +23,10 @@ public IChartDataCell this[int index] { get; }
 
 Ячейка с данными.
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataCell](../../ichartdatacell)
-* interface [IChartCellCollection](../../ichartcellcollection)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartCellCollection](../../ichartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartcellcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,11 +1,12 @@
 ---
 title: ToArray
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает и возвращает массив со всеми комментариями.
 type: docs
 weight: 150
 url: /ru/aspose.slides/commentcollection/toarray/
 ---
+
 ## ToArray() {#toarray}
 
 Создает и возвращает массив со всеми комментариями.
@@ -16,12 +17,12 @@ public IComment[] ToArray()
 
 ### Возвращаемое значение
 
-Массив[`Comment`](../../comment).
+Массив [`Comment`](../../comment).
 
 ### Смотрите также
 
-* interface [IComment](../../icomment)
-* class [CommentCollection](../../commentcollection)
+* интерфейс [IComment](../../icomment)
+* класс [CommentCollection](../../commentcollection)
 * пространство имен [Aspose.Slides](../../commentcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -37,17 +38,17 @@ public IComment[] ToArray(int startIndex, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | Int32 | Индекс первого возвращаемого комментария. |
-| count | Int32 | Количество возвращаемых комментариев. |
+| startIndex | Int32 | Индекс первого комментария, который нужно вернуть. |
+| count | Int32 | Количество комментариев для возврата. |
 
 ### Возвращаемое значение
 
-Массив[`Comment`](../../comment).
+Массив [`Comment`](../../comment).
 
 ### Смотрите также
 
-* interface [IComment](../../icomment)
-* class [CommentCollection](../../commentcollection)
+* интерфейс [IComment](../../icomment)
+* класс [CommentCollection](../../commentcollection)
 * пространство имен [Aspose.Slides](../../commentcollection)
 * сборка [Aspose.Slides](../../../)
 

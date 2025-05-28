@@ -1,14 +1,15 @@
 ---
 title: HeaderFooterManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает менеджер HeaderFooter макета слайда. Только для чтенияILayoutSlideHeaderFooterManageraspose.slides/ilayoutslideheaderfootermanager.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает менеджер HeaderFooter для слайд-макета. Только для чтения ILayoutSlideHeaderFooterManageraspose.slides/ilayoutslideheaderfootermanager.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ilayoutslide/headerfootermanager/
 ---
-## ILayoutSlide.HeaderFooterManager property
 
-Возвращает менеджер HeaderFooter макета слайда. Только для чтения[`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager).
+## Свойство ILayoutSlide.HeaderFooterManager
+
+Возвращает менеджер HeaderFooter для слайд-макета. Только для чтения [`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager).
 
 ```csharp
 public ILayoutSlideHeaderFooterManager HeaderFooterManager { get; }
@@ -16,8 +17,8 @@ public ILayoutSlideHeaderFooterManager HeaderFooterManager { get; }
 
 ### Смотрите также
 
-* interface [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
-* interface [ILayoutSlide](../../ilayoutslide)
+* интерфейс [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
+* интерфейс [ILayoutSlide](../../ilayoutslide)
 * пространство имен [Aspose.Slides](../../ilayoutslide)
 * сборка [Aspose.Slides](../../../)
 

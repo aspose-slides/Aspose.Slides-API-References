@@ -1,14 +1,15 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные свойства форматирования столбцов таблицы с применением стилей наследования и таблиц.
+second_title: Aspose.Slides для .NET API Reference
+description: Получает эффективные свойства форматирования столбцов таблицы с применением наследования и стилей таблицы.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icolumnformat/geteffective/
 ---
-## IColumnFormat.GetEffective method
 
-Получает эффективные свойства форматирования столбцов таблицы с применением стилей наследования и таблиц.
+## IColumnFormat.GetEffective метод
+
+Получает эффективные свойства форматирования столбцов таблицы с применением наследования и стилей таблицы.
 
 ```csharp
 public IColumnFormatEffectiveData GetEffective()
@@ -16,12 +17,12 @@ public IColumnFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IColumnFormatEffectiveData`](../../icolumnformateffectivedata).
+[`IColumnFormatEffectiveData`](../../icolumnformateffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [IColumnFormatEffectiveData](../../icolumnformateffectivedata)
-* interface [IColumnFormat](../../icolumnformat)
+* интерфейс [IColumnFormatEffectiveData](../../icolumnformateffectivedata)
+* интерфейс [IColumnFormat](../../icolumnformat)
 * пространство имен [Aspose.Slides](../../icolumnformat)
 * сборка [Aspose.Slides](../../../)
 

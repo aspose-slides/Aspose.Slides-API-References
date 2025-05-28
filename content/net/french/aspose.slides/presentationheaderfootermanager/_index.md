@@ -1,14 +1,15 @@
 ---
 title: PresentationHeaderFooterManager
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le gestionnaire qui contient le comportement de tous les espaces réservés de pied de page de dateheure et de numéro de page de la présentation.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente le gestionnaire qui contient le comportement de tous les espaces réservés de date-heure et de numéro de page dans la présentation.
 type: docs
-weight: 8910
+weight: 9340
 url: /fr/aspose.slides/presentationheaderfootermanager/
 ---
-## PresentationHeaderFooterManager class
 
-Représente le gestionnaire qui contient le comportement de tous les espaces réservés de pied de page, de date-heure et de numéro de page de la présentation.
+## Classe PresentationHeaderFooterManager
+
+Représente le gestionnaire qui contient le comportement de tous les pieds de page, des espaces réservés de date-heure et de numéro de page dans la présentation.
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -17,22 +18,22 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Définit le texte sur tous les espaces réservés de date-heure, y compris les diapositives principales, les diapositives de mise en page, les diapositives, le masque de notes, les diapositives de notes et le masque de document. |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Modifie la visibilité de tous les espaces réservés de date et d'heure, y compris les diapositives principales, les diapositives de mise en page, les diapositives, le masque de notes , les diapositives de notes et le masque de document. |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Définit le texte de tous les espaces réservés de pied de page, y compris les diapositives principales, les diapositives de mise en page, les diapositives, le masque de notes, les diapositives de notes et le masque de document. |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Modifie la visibilité de tous les espaces réservés de pied de page, y compris les diapositives principales, les diapositives de mise en page, les diapositives, le masque de notes, les diapositives de notes et le masque de document. |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Définit le texte de tous les espaces réservés d'en-tête, y compris le masque de notes, les diapositives de notes et le masque de document. |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Modifie la visibilité de tous les espaces réservés d'en-tête, y compris le masque de notes, les diapositives de notes et le masque de document. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Modifie la visibilité de tous les espaces réservés de numéro de page, y compris les diapositives principales, les diapositives de mise en page, les diapositives, le masque de notes, les diapositives de notes et le masque de document. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Modifie la visibilité des espaces réservés du pied de page, de la date, de l'heure et du numéro de page pour toutes les diapositives de titre et pour la première diapositive de mise en page. Diapositives de titre - diapositives basées sur la première diapositive de mise en page (quel que soit le type de cette première mise en page). |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Définit le texte pour tous les espaces réservés de date-heure, y compris les diapositives maîtresses, les diapositives de mise en page, les diapositives, le maître des notes, les diapositives de notes et le maître des impressions. |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Change la visibilité de tous les espaces réservés de date-heure, y compris les diapositives maîtresses, les diapositives de mise en page, les diapositives, le maître des notes, les diapositives de notes et le maître des impressions. |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Définit le texte pour tous les espaces réservés de pied de page, y compris les diapositives maîtresses, les diapositives de mise en page, les diapositives, le maître des notes, les diapositives de notes et le maître des impressions. |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Change la visibilité de tous les espaces réservés de pied de page, y compris les diapositives maîtresses, les diapositives de mise en page, les diapositives, le maître des notes, les diapositives de notes et le maître des impressions. |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Définit le texte pour tous les espaces réservés d'en-tête, y compris le maître des notes, les diapositives de notes et le maître des impressions. |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Change la visibilité de tous les espaces réservés d'en-tête, y compris le maître des notes, les diapositives de notes et le maître des impressions. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Change la visibilité de tous les espaces réservés de numéro de page, y compris les diapositives maîtresses, les diapositives de mise en page, les diapositives, le maître des notes, les diapositives de notes et le maître des impressions. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Change la visibilité des espaces réservés de pied de page, de date-heure et de numéro de page pour toutes les diapositives de titre et pour la première diapositive de mise en page. Les diapositives de titre – diapositives basées sur la première diapositive de mise en page (quel que soit le type de cette première mise en page). |
 
-### Voir également
+### Voir aussi
 
-* class [BaseHeaderFooterManager](../baseheaderfootermanager)
+* classe [BaseHeaderFooterManager](../baseheaderfootermanager)
 * interface [IPresentationHeaderFooterManager](../ipresentationheaderfootermanager)
 * espace de noms [Aspose.Slides](../../aspose.slides)
-* Assemblée [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

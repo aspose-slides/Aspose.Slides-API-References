@@ -1,20 +1,21 @@
 ---
 title: BehaviorProperty
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют типы свойств для поведения анимации. следует за списком свойств из https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx и https/ /msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет типы свойств для анимационного поведения. Следует списку свойств из https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx и https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
-weight: 90
+weight: 110
 url: /ru/aspose.slides.animation/behaviorproperty/
 ---
-## BehaviorProperty class
 
-Представляют типы свойств для поведения анимации. следует за списком свойств из https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx и https:/ /msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+## Класс BehaviorProperty
+
+Представляет типы свойств для анимационного поведения. Следует списку свойств из https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx и https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public class BehaviorProperty : IBehaviorProperty
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
@@ -26,7 +27,7 @@ public class BehaviorProperty : IBehaviorProperty
 | static [ExtrusionLockRotationCenter](../../aspose.slides.animation/behaviorproperty/extrusionlockrotationcenter) { get; } | Представляет свойство 'extrusion.lockrotationcenter' |
 | static [ExtrusionOn](../../aspose.slides.animation/behaviorproperty/extrusionon) { get; } | Представляет свойство 'extrusion.on' |
 | static [ExtrusionOrientationAngle](../../aspose.slides.animation/behaviorproperty/extrusionorientationangle) { get; } | Представляет свойство 'extrusion.orientationangle' |
-| static [ExtrusionOrientationX](../../aspose.slides.animation/behaviorproperty/extrusionorientationx) { get; } | Представляет свойство 'выдавливания.ориентация.x' |
+| static [ExtrusionOrientationX](../../aspose.slides.animation/behaviorproperty/extrusionorientationx) { get; } | Представляет свойство 'extrusion.orientation.x' |
 | static [ExtrusionOrientationY](../../aspose.slides.animation/behaviorproperty/extrusionorientationy) { get; } | Представляет свойство 'extrusion.orientation.y' |
 | static [ExtrusionOrientationZ](../../aspose.slides.animation/behaviorproperty/extrusionorientationz) { get; } | Представляет свойство 'extrusion.orientation.z' |
 | static [ExtrusionPlane](../../aspose.slides.animation/behaviorproperty/extrusionplane) { get; } | Представляет свойство 'extrusion.plane' |
@@ -46,18 +47,18 @@ public class BehaviorProperty : IBehaviorProperty
 | static [ExtrusionViewPointZ](../../aspose.slides.animation/behaviorproperty/extrusionviewpointz) { get; } | Представляет свойство 'extrusion.viewpoint.z' |
 | static [FillAngle](../../aspose.slides.animation/behaviorproperty/fillangle) { get; } | Представляет свойство 'fill.angle' |
 | static [FillColor](../../aspose.slides.animation/behaviorproperty/fillcolor) { get; } | Представляет свойство 'fillcolor' |
-| static [FillColor2](../../aspose.slides.animation/behaviorproperty/fillcolor2) { get; } | Представляет свойство fill.color2 |
-| static [FillFocus](../../aspose.slides.animation/behaviorproperty/fillfocus) { get; } | Представляет свойство fill.focus |
+| static [FillColor2](../../aspose.slides.animation/behaviorproperty/fillcolor2) { get; } | Представляет свойство 'fill.color2' |
+| static [FillFocus](../../aspose.slides.animation/behaviorproperty/fillfocus) { get; } | Представляет свойство 'fill.focus' |
 | static [FillFocusPositionX](../../aspose.slides.animation/behaviorproperty/fillfocuspositionx) { get; } | Представляет свойство 'fill.focusposition.x' |
 | static [FillFocusPositionY](../../aspose.slides.animation/behaviorproperty/fillfocuspositiony) { get; } | Представляет свойство 'fill.focusposition.y' |
 | static [FillFocusSizeX](../../aspose.slides.animation/behaviorproperty/fillfocussizex) { get; } | Представляет свойство 'fill.focussize.x' |
 | static [FillFocusSizeY](../../aspose.slides.animation/behaviorproperty/fillfocussizey) { get; } | Представляет свойство 'fill.focussize.y' |
-| static [FillMethod](../../aspose.slides.animation/behaviorproperty/fillmethod) { get; } | Представляет свойство fill.method |
-| static [FillOn](../../aspose.slides.animation/behaviorproperty/fillon) { get; } | Представляет свойство fill.on |
-| static [FillOpacity](../../aspose.slides.animation/behaviorproperty/fillopacity) { get; } | Представляет свойство fill.opacity |
+| static [FillMethod](../../aspose.slides.animation/behaviorproperty/fillmethod) { get; } | Представляет свойство 'fill.method' |
+| static [FillOn](../../aspose.slides.animation/behaviorproperty/fillon) { get; } | Представляет свойство 'fill.on' |
+| static [FillOpacity](../../aspose.slides.animation/behaviorproperty/fillopacity) { get; } | Представляет свойство 'fill.opacity' |
 | static [FillOpacity2](../../aspose.slides.animation/behaviorproperty/fillopacity2) { get; } | Представляет свойство 'fill.opacity2' |
-| static [FillType](../../aspose.slides.animation/behaviorproperty/filltype) { get; } | Представляет свойство fill.type |
-| static [Fill_Color](../../aspose.slides.animation/behaviorproperty/fill_color) { get; } | Представляет свойство fill.color |
+| static [FillType](../../aspose.slides.animation/behaviorproperty/filltype) { get; } | Представляет свойство 'fill.type' |
+| static [Fill_Color](../../aspose.slides.animation/behaviorproperty/fill_color) { get; } | Представляет свойство 'fill.color' |
 | static [Image](../../aspose.slides.animation/behaviorproperty/image) { get; } | Представляет свойство 'image' |
 | static [ImageDataBlacklevel](../../aspose.slides.animation/behaviorproperty/imagedatablacklevel) { get; } | Представляет свойство 'imageData.blacklevel' |
 | static [ImageDataChromakey](../../aspose.slides.animation/behaviorproperty/imagedatachromakey) { get; } | Представляет свойство 'imageData.chromakey' |
@@ -139,7 +140,7 @@ public class BehaviorProperty : IBehaviorProperty
 | static [StyleVisibility](../../aspose.slides.animation/behaviorproperty/stylevisibility) { get; } | Представляет свойство 'style.visibility' |
 | static [XShear](../../aspose.slides.animation/behaviorproperty/xshear) { get; } | Представляет свойство 'xshear' |
 | static [YShear](../../aspose.slides.animation/behaviorproperty/yshear) { get; } | Представляет свойство 'yshear' |
-| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | Показывает, принадлежит ли данное свойство к списку предопределенных свойств в спецификации: https://msdn.microsoft.com/en- us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | Показывает, принадлежит ли это свойство к предопределенному списку свойств в спецификации: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/behaviorproperty/value) { get; } | Значение свойства |
 
 ## Методы
@@ -147,13 +148,13 @@ public class BehaviorProperty : IBehaviorProperty
 | Имя | Описание |
 | --- | --- |
 | static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | Ищет существующее свойство поведения по значению или создает новое пользовательское с указанным значением |
-| override [Equals](../../aspose.slides.animation/behaviorproperty/equals)(object) | Проверяет, равен ли этот объект другому. |
-| override [GetHashCode](../../aspose.slides.animation/behaviorproperty/gethashcode)() | Вычисляет и возвращает код hach на основе свойства[`Value`](./value) |
+| override [Equals](../../aspose.slides.animation/behaviorproperty/equals)(object) | Проверяет, равно ли это объект другому. |
+| override [GetHashCode](../../aspose.slides.animation/behaviorproperty/gethashcode)() | Вычисляет и возвращает хэш-код на основе свойства [`Value`](./value) |
 
-### Смотрите также
+### См. также
 
 * interface [IBehaviorProperty](../ibehaviorproperty)
-* пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
-* сборка [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

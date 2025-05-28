@@ -1,14 +1,15 @@
 ---
-title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет элемент по указанному индексу коллекции.
+title: УдалитьПоИндексу
+second_title: Aspose.Slides для .NET Справочник по API
+description: Удаляет элемент по указанному индексу из коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides/tabcollection/removeat/
 ---
-## TabCollection.RemoveAt method
 
-Удаляет элемент по указанному индексу коллекции.
+## Метод TabCollection.RemoveAt
+
+Удаляет элемент по указанному индексу из коллекции.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,11 +17,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
+| index | Int32 | Нулевой индекс элемента для удаления. |
 
-### Смотрите также
+### Также смотри
 
-* class [TabCollection](../../tabcollection)
+* класс [TabCollection](../../tabcollection)
 * пространство имен [Aspose.Slides](../../tabcollection)
 * сборка [Aspose.Slides](../../../)
 

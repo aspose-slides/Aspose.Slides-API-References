@@ -1,12 +1,13 @@
 ---
 title: MathBorderBoxFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathborderboxfactory/mathborderboxfactory/
 ---
-## MathBorderBoxFactory constructor
+
+## Конструктор MathBorderBoxFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.mathtext/mathborderboxfactory/mathborderboxfactory/
 public MathBorderBoxFactory()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [MathBorderBoxFactory](../../mathborderboxfactory)
+* класс [MathBorderBoxFactory](../../mathborderboxfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathborderboxfactory)
 * сборка [Aspose.Slides](../../../)
 

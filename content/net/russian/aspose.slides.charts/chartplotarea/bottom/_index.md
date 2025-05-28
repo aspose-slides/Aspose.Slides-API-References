@@ -1,22 +1,23 @@
 ---
-title: Bottom
+title: Нижняя
 second_title: Справочник по API Aspose.Slides для .NET
-description: Снизу. Только для чтенияSingle.
+description: Нижняя. Только для чтения, тип Single.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/chartplotarea/bottom/
 ---
-## ChartPlotArea.Bottom property
 
-Снизу. Только для чтенияSingle.
+## Свойство ChartPlotArea.Bottom
+
+Нижняя. Только для чтения, тип Single.
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartPlotArea](../../chartplotarea)
+* класс [ChartPlotArea](../../chartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../chartplotarea)
 * сборка [Aspose.Slides](../../../)
 

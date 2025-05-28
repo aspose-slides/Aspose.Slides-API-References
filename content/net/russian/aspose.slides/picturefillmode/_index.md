@@ -1,12 +1,13 @@
 ---
 title: PictureFillMode
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет как изображение будет заполнять область.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, как изображение будет заполнять область.
 type: docs
-weight: 8670
+weight: 9130
 url: /ru/aspose.slides/picturefillmode/
 ---
-## PictureFillMode enumeration
+
+## Перечисление PictureFillMode
 
 Определяет, как изображение будет заполнять область.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/picturefillmode/
 public enum PictureFillMode
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Tile | `0` |  |
 | Stretch | `1` |  |

@@ -1,12 +1,13 @@
 ---
 title: InsertTable
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Создает новую таблицу и вставляет ее в коллекцию по указанному индексу.
 type: docs
 weight: 340
 url: /ru/aspose.slides/ishapecollection/inserttable/
 ---
-## IShapeCollection.InsertTable method
+
+## IShapeCollection.InsertTable метод
 
 Создает новую таблицу и вставляет ее в коллекцию по указанному индексу.
 
@@ -16,20 +17,20 @@ public ITable InsertTable(int index, float x, float y, double[] columnWidths, do
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
-| columnWidths | Double[] | Массив двойных значений, представляющий ширину столбцов в таблице. |
-| rowHeights | Double[] | Массив двойных значений, представляющий высоту строк в таблице. |
+| index | Int32 | Индекс с нулевой основой, по которому должно быть вставлено значение. |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y для верхней стороны рамки фигуры. |
+| columnWidths | Double[] | Массив дробных чисел, представляющих ширину столбцов в таблице. |
+| rowHeights | Double[] | Массив дробных чисел, представляющих высоту строк в таблице. |
 
 ### Возвращаемое значение
 
-Создан объект таблицы.
+Созданный объект таблицы.
 
-### Смотрите также
+### См. также
 
-* interface [ITable](../../itable)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [ITable](../../itable)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

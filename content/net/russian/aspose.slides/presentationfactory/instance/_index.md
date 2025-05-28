@@ -1,22 +1,23 @@
 ---
-title: Instance
-second_title: Справочник по API Aspose.Slides для .NET
-description: Статический экземпляр фабрики презентаций. Только для чтенияPresentationFactoryaspose.slides/presentationfactory.
+title: Экземпляр
+second_title: Справка по API Aspose.Slides для .NET
+description: Статический экземпляр фабрики презентаций. Только для чтения PresentationFactoryaspose.slides/presentationfactory.
 type: docs
 weight: 20
 url: /ru/aspose.slides/presentationfactory/instance/
 ---
-## PresentationFactory.Instance property
 
-Статический экземпляр фабрики презентаций. Только для чтения[`PresentationFactory`](../../presentationfactory).
+## Свойство PresentationFactory.Instance
+
+Статический экземпляр фабрики презентаций. Только для чтения [`PresentationFactory`](../../presentationfactory).
 
 ```csharp
 public static PresentationFactory Instance { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [PresentationFactory](../../presentationfactory)
+* класс [PresentationFactory](../../presentationfactory)
 * пространство имен [Aspose.Slides](../../presentationfactory)
 * сборка [Aspose.Slides](../../../)
 

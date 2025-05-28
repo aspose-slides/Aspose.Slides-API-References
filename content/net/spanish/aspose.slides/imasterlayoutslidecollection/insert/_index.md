@@ -1,12 +1,13 @@
 ---
-title: Insert
-second_title: Referencia de la API de Aspose.Slides para .NET
+title: Insertar
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Inserta una nueva diapositiva de diseño en la posición especificada de la colección.
 type: docs
 weight: 40
 url: /es/aspose.slides/imasterlayoutslidecollection/insert/
 ---
-## IMasterLayoutSlideCollection.Insert method
+
+## Método IMasterLayoutSlideCollection.Insert
 
 Inserta una nueva diapositiva de diseño en la posición especificada de la colección.
 
@@ -14,13 +15,13 @@ Inserta una nueva diapositiva de diseño en la posición especificada de la cole
 public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutName)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | index | Int32 | Índice de la nueva diapositiva. |
-| layoutType | SlideLayoutType | Tipo de diseño para un nuevo diseño. Tipos de diseño admitidos: Título, Solo título, En blanco, Título y objeto, Texto vertical, Título y texto vertical, Dos objetos, Encabezado de sección, Dos textos y dos objetos, Objeto de título y Título, Imagen y Título, Personalizado. Ahora no se admiten otros tipos de diseño: Texto, Texto de dos columnas, Tabla, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject_xObject. |
-| layoutName | String | Nombre para un nuevo diseño. Si el nombre pasado ya está en uso, se lanzará ArgumentException. Si se pasa un parámetro nulo, el nombre se generará automáticamente con respecto al tipo de diseño pasado (por ejemplo, "Título de diapositiva" o "1_Título de diapositiva", "2_...", etc. .). |
+| layoutType | SlideLayoutType | Tipo de diseño para un nuevo diseño. Tipos de diseño soportados: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Otros tipos de diseño no son soportados actualmente: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| layoutName | String | Nombre para un nuevo diseño. Si el nombre proporcionado ya está en uso, se lanzará una ArgumentException. Si se pasa un parámetro null, el nombre se generará automáticamente en relación con el tipo de diseño pasado (por ejemplo, "Title Slide" o "1_Title Slide", "2_..", etc.). |
 
-### Valor_devuelto
+### Valor de retorno
 
 Diapositiva insertada.
 
@@ -28,19 +29,19 @@ Diapositiva insertada.
 
 | excepción | condición |
 | --- | --- |
-| NotImplementedException | Lanzado si el valor del parámetro no es compatible*layoutType* esta pasado. Tipos de diseño que no son compatibles ahora: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| ArgumentException | Lanzado si el valor del nombre del diseño*layoutName*ya está en uso en esta colección de diseños. |
+| NotImplementedException | Lanzada si se pasa un valor no soportado del parámetro *layoutType*. Tipos de diseño que no son soportados actualmente: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| ArgumentException | Lanzada si el valor del nombre de diseño *layoutName* ya está en uso en esta colección de diseños. |
 
 ### Observaciones
 
-Diseño insertado para el valor SlideLayoutType.Custom de*layoutType* no contiene marcadores de posición ni formas.
+El diseño insertado para el valor SlideLayoutType.Custom de *layoutType* no contiene marcadores de posición ni formas.
 
-### Ver también
+### Véase también
 
-* interface [ILayoutSlide](../../ilayoutslide)
+* interfaz [ILayoutSlide](../../ilayoutslide)
 * enum [SlideLayoutType](../../slidelayouttype)
-* interface [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
+* interfaz [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
 * espacio de nombres [Aspose.Slides](../../imasterlayoutslidecollection)
-* asamblea [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

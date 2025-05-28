@@ -1,23 +1,24 @@
 ---
 title: ShapeStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект стиля фигуры. Только для чтенияIShapeStyleaspose.slides/ishapestyle.
+description: Возвращает объект стиля для фигур. Только для чтения IShapeStyleaspose.slides/ishapestyle.
 type: docs
 weight: 30
 url: /ru/aspose.slides/igeometryshape/shapestyle/
 ---
-## IGeometryShape.ShapeStyle property
 
-Возвращает объект стиля фигуры. Только для чтения[`IShapeStyle`](../../ishapestyle).
+## Свойство IGeometryShape.ShapeStyle
+
+Возвращает объект стиля фигуры. Только для чтения [`IShapeStyle`](../../ishapestyle).
 
 ```csharp
 public IShapeStyle ShapeStyle { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IShapeStyle](../../ishapestyle)
-* interface [IGeometryShape](../../igeometryshape)
+* интерфейс [IShapeStyle](../../ishapestyle)
+* интерфейс [IGeometryShape](../../igeometryshape)
 * пространство имен [Aspose.Slides](../../igeometryshape)
 * сборка [Aspose.Slides](../../../)
 

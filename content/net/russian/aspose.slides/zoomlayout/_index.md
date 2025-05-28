@@ -1,27 +1,28 @@
 ---
 title: ZoomLayout
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет макет сводного масштаба.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Указывает расположение сводного зума.
 type: docs
-weight: 11050
+weight: 11550
 url: /ru/aspose.slides/zoomlayout/
 ---
-## ZoomLayout enumeration
 
-Определяет макет сводного масштаба.
+## Перечисление ZoomLayout
+
+Указывает расположение сводного зума.
 
 ```csharp
 public enum ZoomLayout
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| GridLayout | `0` | Задает макет как сетку для списка объектов. |
-| FixedLayout | `1` | Задает макет с заданным пользователем позиционированием Zoom. |
+| GridLayout | `0` | Указывает расположение как сетку для списка объектов. |
+| FixedLayout | `1` | Указывает расположение с заданным пользователем позиционированием зума. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

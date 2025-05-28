@@ -1,22 +1,23 @@
 ---
-title: Size
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет размер маркера на линейной диаграмме точечной диаграмме или лепестковой диаграмме. Чтение/записьInt32.
+title: Размер
+second_title: Справка по API Aspose.Slides для .NET
+description: Представляет размер маркера в линейном графике, графике рассеяния илиRadar chart. Чтение/запись Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/imarker/size/
 ---
-## IMarker.Size property
 
-Представляет размер маркера на линейной диаграмме, точечной диаграмме или лепестковой диаграмме. Чтение/записьInt32.
+## Свойство IMarker.Size
+
+Представляет размер маркера в линейном графике, графике рассеяния или Radar chart. Чтение/запись Int32.
 
 ```csharp
 public int Size { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMarker](../../imarker)
+* интерфейс [IMarker](../../imarker)
 * пространство имен [Aspose.Slides.Charts](../../imarker)
 * сборка [Aspose.Slides](../../../)
 

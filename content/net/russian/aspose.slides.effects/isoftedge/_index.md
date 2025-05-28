@@ -1,32 +1,33 @@
 ---
 title: ISoftEdge
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект мягкого края. Края фигуры размыты а заливка не затронута.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Представляет эффект мягкой границы. Края формы размыты, в то время как заливка не затрагивается.
 type: docs
-weight: 3320
+weight: 3400
 url: /ru/aspose.slides.effects/isoftedge/
 ---
-## ISoftEdge interface
 
-Представляет эффект мягкого края. Края фигуры размыты, а заливка не затронута.
+## Интерфейс ISoftEdge
+
+Представляет эффект мягкой границы. Края формы размыты, в то время как заливка не затрагивается.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Указывает радиус размытия, применяемый к краям. Чтение/записьDouble. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Указывает радиус размытия, который следует применить к краям. Читаемое/записываемое значение Double. |
 
-### Смотрите также
+### См. также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* interface [ISoftEdgeEffectiveData](../isoftedgeeffectivedata)
-* interface [IImageTransformOperation](../iimagetransformoperation)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [ISoftEdgeEffectiveData](../isoftedgeeffectivedata)
+* интерфейс [IImageTransformOperation](../iimagetransformoperation)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

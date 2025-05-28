@@ -1,38 +1,39 @@
 ---
 title: IControlCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Набор элементов управления ActiveX.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Коллекция элементов управления ActiveX.
 type: docs
-weight: 5140
+weight: 5440
 url: /ru/aspose.slides/icontrolcollection/
 ---
-## IControlCollection interface
 
-Набор элементов управления ActiveX.
+## Интерфейс IControlCollection
+
+Коллекция элементов управления ActiveX.
 
 ```csharp
 public interface IControlCollection : IGenericCollection<IControl>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/icontrolcollection/item) { get; } | Возвращает элемент управления в указанной позиции. |
+| [Item](../../aspose.slides/icontrolcollection/item) { get; } | Возвращает элемент управления по указанной позиции. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Создает и добавляет в коллекцию новый элемент управления. |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Создает и добавляет новый элемент управления в коллекцию. |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | Удаляет все элементы управления из коллекции. |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Удаляет элемент управления ActiveX из коллекции. |
-| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Удаляет элемент управления ActiveX, хранящийся в указанной позиции, из коллекции. |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Удаляет элемент управления ActiveX, хранящийся по указанной позиции, из коллекции. |
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* interface [IControl](../icontrol)
+* интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* интерфейс [IControl](../icontrol)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

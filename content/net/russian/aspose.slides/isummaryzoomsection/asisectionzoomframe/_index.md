@@ -1,12 +1,13 @@
 ---
 title: AsISectionZoomFrame
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает интерфейс ISectionZoomFrame.
 type: docs
 weight: 10
 url: /ru/aspose.slides/isummaryzoomsection/asisectionzoomframe/
 ---
-## ISummaryZoomSection.AsISectionZoomFrame property
+
+## ISummaryZoomSection.AsISectionZoomFrame свойство
 
 Возвращает интерфейс ISectionZoomFrame.
 
@@ -16,12 +17,12 @@ public ISectionZoomFrame AsISectionZoomFrame { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [ISectionZoomFrame](../../isectionzoomframe)
-* interface [ISummaryZoomSection](../../isummaryzoomsection)
+* интерфейс [ISectionZoomFrame](../../isectionzoomframe)
+* интерфейс [ISummaryZoomSection](../../isummaryzoomsection)
 * пространство имен [Aspose.Slides](../../isummaryzoomsection)
 * сборка [Aspose.Slides](../../../)
 

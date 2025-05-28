@@ -1,22 +1,23 @@
 ---
 title: SpreadsheetOptions
-second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует новый экземпляр классаSpreadsheetOptionsaspose.slides/spreadsheetoptions.
+second_title: Aspose.Slides для .NET API Справочник
+description: Инициализирует новый экземпляр класса SpreadsheetOptionsaspose.slides/spreadsheetoptions.
 type: docs
 weight: 10
 url: /ru/aspose.slides/spreadsheetoptions/spreadsheetoptions/
 ---
-## SpreadsheetOptions constructor
 
-Инициализирует новый экземпляр класса[`SpreadsheetOptions`](../../spreadsheetoptions).
+## Конструктор SpreadsheetOptions
+
+Инициализирует новый экземпляр класса [`SpreadsheetOptions`](../../spreadsheetoptions).
 
 ```csharp
 public SpreadsheetOptions()
 ```
 
-### Смотрите также
+### См. также
 
-* class [SpreadsheetOptions](../../spreadsheetoptions)
+* класс [SpreadsheetOptions](../../spreadsheetoptions)
 * пространство имен [Aspose.Slides](../../spreadsheetoptions)
 * сборка [Aspose.Slides](../../../)
 

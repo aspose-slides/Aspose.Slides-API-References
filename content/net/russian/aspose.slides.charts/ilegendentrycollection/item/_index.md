@@ -1,23 +1,24 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает свойства записи легенды соответствующей Chart.ChartData.Series0.DataPointsindex в случае типа диаграммы из этого list ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie или соответствующий Chart.ChartData.Seriesindex для других типов диаграмм.
+title: Элемент
+second_title: Aspose.Slides для .NET API Справка
+description: Получает свойства элемента легенды, соответствующего Chart.ChartData.Series0.DataPointsindex в случае типов графиков из этого списка ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующего Chart.ChartData.Seriesindex для других типов графиков.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ilegendentrycollection/item/
 ---
-## ILegendEntryCollection indexer
 
-Получает свойства записи легенды, соответствующей Chart.ChartData.Series[0].DataPoints[index] в случае типа диаграммы из этого list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующий Chart.ChartData.Series[index] для других типов диаграмм.
+## Индексатор ILegendEntryCollection
+
+Получает свойства элемента легенды, соответствующего Chart.ChartData.Series[0].DataPoints[index] в случае типов графиков из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующего Chart.ChartData.Series[index] для других типов графиков.
 
 ```csharp
 public ILegendEntryProperties this[int index] { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILegendEntryProperties](../../ilegendentryproperties)
-* interface [ILegendEntryCollection](../../ilegendentrycollection)
+* интерфейс [ILegendEntryProperties](../../ilegendentryproperties)
+* интерфейс [ILegendEntryCollection](../../ilegendentrycollection)
 * пространство имен [Aspose.Slides.Charts](../../ilegendentrycollection)
 * сборка [Aspose.Slides](../../../)
 

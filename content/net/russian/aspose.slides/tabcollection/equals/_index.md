@@ -1,12 +1,13 @@
 ---
-title: Equals
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равны ли два экземпляра TabsEx.
+title: Равно
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Определяет, равны ли два экземпляра TabsEx.
 type: docs
 weight: 80
 url: /ru/aspose.slides/tabcollection/equals/
 ---
-## TabCollection.Equals method
+
+## Метод TabCollection.Equals
 
 Определяет, равны ли два экземпляра TabsEx.
 
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | TabsEx для сравнения с текущим TabsEx. |
+| obj | Object | TabsEx, с которым нужно сравнить текущий TabsEx. |
 
 ### Возвращаемое значение
 
-**true** если указанный TabsEx равен текущему TabsEx; в противном случае **false** .
+**true**, если указанный TabsEx равен текущему TabsEx; в противном случае **false**.
 
-### Смотрите также
+### См. также
 
-* class [TabCollection](../../tabcollection)
+* класс [TabCollection](../../tabcollection)
 * пространство имен [Aspose.Slides](../../tabcollection)
 * сборка [Aspose.Slides](../../../)
 

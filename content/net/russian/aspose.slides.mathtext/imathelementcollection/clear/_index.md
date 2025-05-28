@@ -1,12 +1,13 @@
 ---
-title: Clear
-second_title: Справочник по API Aspose.Slides для .NET
+title: Очистить
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathelementcollection/clear/
 ---
-## IMathElementCollection.Clear method
+
+## Метод IMathElementCollection.Clear
 
 Удаляет все элементы из коллекции.
 
@@ -24,9 +25,9 @@ IMathElementCollection collection = new MathBlock(new MathematicalText("x"));
 collection.Clear();
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElementCollection](../../imathelementcollection)
+* интерфейс [IMathElementCollection](../../imathelementcollection)
 * пространство имен [Aspose.Slides.MathText](../../imathelementcollection)
 * сборка [Aspose.Slides](../../../)
 

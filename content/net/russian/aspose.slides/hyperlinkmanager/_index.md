@@ -1,14 +1,15 @@
 ---
 title: HyperlinkManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Обеспечивает управление гиперссылками добавление удаление.
+second_title: Aspose.Sildes для .NET API Ссылка
+description: Управление гиперссылками добавление, удаление.
 type: docs
-weight: 4670
+weight: 4950
 url: /ru/aspose.slides/hyperlinkmanager/
 ---
-## HyperlinkManager class
 
-Обеспечивает управление гиперссылками (добавление, удаление).
+## Класс HyperlinkManager
+
+Управление гиперссылками (добавление, удаление).
 
 ```csharp
 public sealed class HyperlinkManager : IHyperlinkManager
@@ -18,17 +19,17 @@ public sealed class HyperlinkManager : IHyperlinkManager
 
 | Имя | Описание |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Удаляет гиперссылку при клике. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Удаляет гиперссылку, наведенную мышью. |
-| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Установить внешнюю гиперссылку по клику. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Наводит указатель мыши на внешнюю гиперссылку. |
-| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Устанавливает внутреннюю гиперссылку по клику. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Наводит указатель мыши на внутреннюю гиперссылку. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Установить гиперссылку макроса по клику. |
+| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Удаляет гиперссылку при нажатии. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Удаляет гиперссылку при наведении мыши. |
+| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Устанавливает внешнюю гиперссылку при нажатии. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Устанавливает внешнюю гиперссылку при наведении мыши. |
+| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Устанавливает внутреннюю гиперссылку при нажатии. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Устанавливает внутреннюю гиперссылку при наведении мыши. |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Устанавливает макро гиперссылку при нажатии. |
 
-### Смотрите также
+### См. также
 
-* interface [IHyperlinkManager](../ihyperlinkmanager)
+* интерфейс [IHyperlinkManager](../ihyperlinkmanager)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

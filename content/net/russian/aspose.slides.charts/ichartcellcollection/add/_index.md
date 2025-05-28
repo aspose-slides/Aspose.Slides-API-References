@@ -1,11 +1,12 @@
 ---
-title: Add
-second_title: Справочник по API Aspose.Slides для .NET
+title: Добавить
+second_title: Справка по API Aspose.Slides для .NET
 description: Добавить новую ячейку в коллекцию.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ichartcellcollection/add/
 ---
+
 ## Add(IChartDataCell) {#add}
 
 Добавить новую ячейку в коллекцию.
@@ -18,10 +19,10 @@ public void Add(IChartDataCell chartDataCell)
 | --- | --- | --- |
 | chartDataCell | IChartDataCell | Новая ячейка для добавления. |
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataCell](../../ichartdatacell)
-* interface [IChartCellCollection](../../ichartcellcollection)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartCellCollection](../../ichartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartcellcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -29,7 +30,7 @@ public void Add(IChartDataCell chartDataCell)
 
 ## Add(object) {#add_1}
 
-Создает[`IChartDataCell`](../../ichartdatacell)из указанного значения и добавляет его в коллекцию.
+Создает [`IChartDataCell`](../../ichartdatacell) из указанного значения и добавляет его в коллекцию.
 
 ```csharp
 public void Add(object value)
@@ -43,15 +44,15 @@ public void Add(object value)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | при превышении лимита |
+| InvalidOperationException | если превышен лимит |
 
 ### Примечания
 
-Этот метод добавляет рабочий лист с именем AUTO_DATA и добавляет туда все значения. Если вы используете[`IChartDataWorkbook`](../../ichartdataworkbook)для добавления или редактирования значений ячеек, убедитесь, что вы не используете этот рабочий лист Максимальное количество значений, добавляемых с помощью этого метод не должен превышать 16711680
+Этот метод добавляет рабочий лист с именем AUTO_DATA и добавляет все значения туда. Если вы используете [`IChartDataWorkbook`](../../ichartdataworkbook) для добавления или редактирования значений ячеек, убедитесь, что вы не используете этот рабочий лист Максимальное количество значений, добавленных с помощью этого метода, не должно превышать 16711680
 
-### Смотрите также
+### См. также
 
-* interface [IChartCellCollection](../../ichartcellcollection)
+* интерфейс [IChartCellCollection](../../ichartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartcellcollection)
 * сборка [Aspose.Slides](../../../)
 

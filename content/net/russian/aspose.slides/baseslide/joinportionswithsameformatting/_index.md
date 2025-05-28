@@ -1,22 +1,23 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Справочник по API Aspose.Slides для .NET
-description: Соединения выполняются с одинаковым форматированием во всех абзацах всех допустимых форм.
+second_title: Aspose.Slides для .NET API Справочник
+description: Объединяет части с одинаковым форматированием во всех параграфах всех допустимых фигур.
 type: docs
 weight: 150
 url: /ru/aspose.slides/baseslide/joinportionswithsameformatting/
 ---
+
 ## JoinPortionsWithSameFormatting() {#joinportionswithsameformatting}
 
-Соединения выполняются с одинаковым форматированием во всех абзацах всех допустимых форм.
+Объединяет части с одинаковым форматированием во всех параграфах всех допустимых фигур.
 
 ```csharp
 public virtual void JoinPortionsWithSameFormatting()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BaseSlide](../../baseslide)
+* класс [BaseSlide](../../baseslide)
 * пространство имен [Aspose.Slides](../../baseslide)
 * сборка [Aspose.Slides](../../../)
 
@@ -24,16 +25,16 @@ public virtual void JoinPortionsWithSameFormatting()
 
 ## JoinPortionsWithSameFormatting(IShapeCollection) {#joinportionswithsameformatting_1}
 
-Соединения выполняются с одинаковым форматированием во всех абзацах во всех допустимых формах.
+Объединяет части с одинаковым форматированием во всех параграфах во всех допустимых фигурах.
 
 ```csharp
 public virtual void JoinPortionsWithSameFormatting(IShapeCollection collection)
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IShapeCollection](../../ishapecollection)
-* class [BaseSlide](../../baseslide)
+* интерфейс [IShapeCollection](../../ishapecollection)
+* класс [BaseSlide](../../baseslide)
 * пространство имен [Aspose.Slides](../../baseslide)
 * сборка [Aspose.Slides](../../../)
 

@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides/fieldtype/fieldtype/
 ---
-## FieldType constructor
+
+## Конструктор FieldType
 
 Инициализирует новый экземпляр класса FieldType.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/fieldtype/fieldtype/
 public FieldType(string str)
 ```
 
-### Смотрите также
+### См. также
 
-* class [FieldType](../../fieldtype)
+* класс [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)
 * сборка [Aspose.Slides](../../../)
 

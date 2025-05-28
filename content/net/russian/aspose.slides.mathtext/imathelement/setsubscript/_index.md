@@ -1,14 +1,15 @@
 ---
 title: SetSubscript
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает индекс
+second_title: Справочная информация по API Aspose.Slides для .NET
+description: Создает подстрочный индекс
 type: docs
 weight: 140
 url: /ru/aspose.slides.mathtext/imathelement/setsubscript/
 ---
+
 ## SetSubscript(IMathElement) {#setsubscript}
 
-Создает индекс
+Создает подстрочный индекс
 
 ```csharp
 public IMathSubscriptElement SetSubscript(IMathElement subscript)
@@ -16,11 +17,11 @@ public IMathSubscriptElement SetSubscript(IMathElement subscript)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| subscript | IMathElement | Индекс (нижний индекс справа) |
+| subscript | IMathElement | Подстрочный индекс (нижний индекс справа) |
 
 ### Возвращаемое значение
 
-Новый математический элемент типа[`IMathSubscriptElement`](../../imathsubscriptelement)
+Новый математический элемент типа [`IMathSubscriptElement`](../../imathsubscriptelement)
 
 ### Примеры
 
@@ -33,10 +34,10 @@ IMathElement index = new MathematicalText("i");
 IMathSubscriptElement subscript = element.SetSubscript(index);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathSubscriptElement](../../imathsubscriptelement)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathSubscriptElement](../../imathsubscriptelement)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,7 +45,7 @@ IMathSubscriptElement subscript = element.SetSubscript(index);
 
 ## SetSubscript(string) {#setsubscript_1}
 
-Создает индекс
+Создает подстрочный индекс
 
 ```csharp
 public IMathSubscriptElement SetSubscript(string subscript)
@@ -52,11 +53,11 @@ public IMathSubscriptElement SetSubscript(string subscript)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| subscript | String | Индекс (нижний индекс справа) |
+| subscript | String | Подстрочный индекс (нижний индекс справа) |
 
 ### Возвращаемое значение
 
-Новый математический элемент типа[`IMathSubscriptElement`](../../imathsubscriptelement)
+Новый математический элемент типа [`IMathSubscriptElement`](../../imathsubscriptelement)
 
 ### Примеры
 
@@ -68,10 +69,10 @@ IMathElement element = new MathematicalText("N");
 IMathSubscriptElement subscript = element.SetSubscript("i");
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathSubscriptElement](../../imathsubscriptelement)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathSubscriptElement](../../imathsubscriptelement)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

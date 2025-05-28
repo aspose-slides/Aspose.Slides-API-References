@@ -1,12 +1,13 @@
 ---
 title: AsIZoomObject
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает интерфейс IZoomObject.
 type: docs
 weight: 10
 url: /ru/aspose.slides/isectionzoomframe/asizoomobject/
 ---
-## ISectionZoomFrame.AsIZoomObject property
+
+## Свойство ISectionZoomFrame.AsIZoomObject
 
 Возвращает интерфейс IZoomObject.
 
@@ -16,12 +17,12 @@ public IZoomObject AsIZoomObject { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IZoomObject](../../izoomobject)
-* interface [ISectionZoomFrame](../../isectionzoomframe)
+* интерфейс [IZoomObject](../../izoomobject)
+* интерфейс [ISectionZoomFrame](../../isectionzoomframe)
 * пространство имен [Aspose.Slides](../../isectionzoomframe)
 * сборка [Aspose.Slides](../../../)
 

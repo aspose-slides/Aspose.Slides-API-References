@@ -1,11 +1,12 @@
 ---
-title: Point
+title: Точка
 second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/point/point/
 ---
+
 ## Point() {#constructor}
 
 Конструктор по умолчанию.
@@ -16,7 +17,7 @@ public Point()
 
 ### Смотрите также
 
-* class [Point](../../point)
+* класс [Point](../../point)
 * пространство имен [Aspose.Slides.Animation](../../point)
 * сборка [Aspose.Slides](../../../)
 
@@ -24,7 +25,7 @@ public Point()
 
 ## Point(float, object, string) {#constructor_1}
 
-Создать точку анимации со временем, значением и формулой.
+Создать анимационную точку с временем, значением и формулой.
 
 ```csharp
 public Point(float time, object value, string formula)
@@ -32,13 +33,13 @@ public Point(float time, object value, string formula)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| время | Single |  |
-| значение | Object |  |
-| формула | String |  |
+| time | Single |  |
+| value | Object |  |
+| formula | String |  |
 
 ### Смотрите также
 
-* class [Point](../../point)
+* класс [Point](../../point)
 * пространство имен [Aspose.Slides.Animation](../../point)
 * сборка [Aspose.Slides](../../../)
 

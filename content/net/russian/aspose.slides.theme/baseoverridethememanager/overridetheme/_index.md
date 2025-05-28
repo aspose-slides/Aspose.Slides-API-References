@@ -1,23 +1,24 @@
 ---
 title: OverrideTheme
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает основной объект темы. Чтение/записьIOverrideThemeaspose.slides.theme/ioverridetheme.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает объект переопределяющей темы. Чтение/запись IOverrideThemeaspose.slides.theme/ioverridetheme.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/baseoverridethememanager/overridetheme/
 ---
-## BaseOverrideThemeManager.OverrideTheme property
 
-Возвращает основной объект темы. Чтение/запись[`IOverrideTheme`](../../ioverridetheme).
+## Свойство BaseOverrideThemeManager.OverrideTheme
+
+Возвращает объект переопределяющей темы. Чтение/запись [`IOverrideTheme`](../../ioverridetheme).
 
 ```csharp
 public IOverrideTheme OverrideTheme { get; set; }
 ```
 
-### Смотрите также
+### Дополнительные материалы
 
-* interface [IOverrideTheme](../../ioverridetheme)
-* class [BaseOverrideThemeManager](../../baseoverridethememanager)
+* интерфейс [IOverrideTheme](../../ioverridetheme)
+* класс [BaseOverrideThemeManager](../../baseoverridethememanager)
 * пространство имен [Aspose.Slides.Theme](../../baseoverridethememanager)
 * сборка [Aspose.Slides](../../../)
 

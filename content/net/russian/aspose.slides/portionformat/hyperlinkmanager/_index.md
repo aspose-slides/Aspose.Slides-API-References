@@ -1,23 +1,24 @@
 ---
 title: HyperlinkManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Менеджер гиперссылок. Только для чтенияIHyperlinkManageraspose.slides/ihyperlinkmanager.
+second_title: Справочная информация по API Aspose.Sildes для .NET
+description: Менеджер гиперссылок. Только для чтения IHyperlinkManageraspose.slides/ihyperlinkmanager.
 type: docs
 weight: 40
 url: /ru/aspose.slides/portionformat/hyperlinkmanager/
 ---
-## PortionFormat.HyperlinkManager property
 
-Менеджер гиперссылок. Только для чтения[`IHyperlinkManager`](../../ihyperlinkmanager).
+## Свойство PortionFormat.HyperlinkManager
+
+Менеджер гиперссылок. Только для чтения [`IHyperlinkManager`](../../ihyperlinkmanager).
 
 ```csharp
 public IHyperlinkManager HyperlinkManager { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IHyperlinkManager](../../ihyperlinkmanager)
-* class [PortionFormat](../../portionformat)
+* интерфейс [IHyperlinkManager](../../ihyperlinkmanager)
+* класс [PortionFormat](../../portionformat)
 * пространство имен [Aspose.Slides](../../portionformat)
 * сборка [Aspose.Slides](../../../)
 

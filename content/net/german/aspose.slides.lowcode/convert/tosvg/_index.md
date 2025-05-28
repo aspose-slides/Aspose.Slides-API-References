@@ -1,159 +1,160 @@
----
-title: ToSvg
-second_title: Aspose.Slides für .NET-API-Referenz
-description: konvertiertPresentationaspose.slides/presentation zu SVG.
-type: docs
-weight: 30
+---  
+title: ToSvg  
+second_title: Aspose.Sildes für .NET API-Referenz  
+description: Konvertiert Presentationaspose.slides/presentation in SVG.
+type: docs  
+weight: 30  
 url: /de/aspose.slides.lowcode/convert/tosvg/
----
-## ToSvg(string) {#tosvg_3}
+---  
 
-konvertiert[`Presentation`](../../../aspose.slides/presentation) zu SVG.
+## ToSvg(string) {#tosvg_3}  
 
-```csharp
-public static void ToSvg(string presPath)
-```
+Konvertiert [`Presentation`](../../../aspose.slides/presentation) in SVG.  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| presPath | String | Pfad der Eingabepräsentation |
+```csharp  
+public static void ToSvg(string presPath)  
+```  
 
-### Beispiele
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| presPath | String | Pfad der Eingabpräsentation |  
 
-```csharp
-Convert.ToSvg("pres.pptx");
-```
+### Beispiele  
 
-### Siehe auch
+```csharp  
+Convert.ToSvg("pres.pptx");  
+```  
 
-* class [Convert](../../convert)
-* namensraum [Aspose.Slides.LowCode](../../convert)
-* Montage [Aspose.Slides](../../../)
+### Siehe auch  
 
----
+* Klasse [Convert](../../convert)  
+* Namespace [Aspose.Slides.LowCode](../../convert)  
+* Assembly [Aspose.Slides](../../../)  
 
-## ToSvg(string, GetOutPathCallback) {#tosvg_4}
+---  
 
-konvertiert[`Presentation`](../../../aspose.slides/presentation) zu SVG.
+## ToSvg(string, GetOutPathCallback) {#tosvg_4}  
 
-```csharp
-public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
-```
+Konvertiert [`Presentation`](../../../aspose.slides/presentation) in SVG.  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| presPath | String | Pfad der Eingabepräsentation |
-| getOutPath | GetOutPathCallback | Rückruf, der den SVG-Ausgabepfad für jede Folie in der Präsentation zurückgibt |
+```csharp  
+public static void ToSvg(string presPath, GetOutPathCallback getOutPath)  
+```  
 
-### Beispiele
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| presPath | String | Pfad der Eingabpräsentation |  
+| getOutPath | GetOutPathCallback | Callback, der den SVG-Ausgabe-Pfad für jede Folie in der Präsentation zurückgibt |  
 
-```csharp
-Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");
-```
+### Beispiele  
 
-### Siehe auch
+```csharp  
+Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");  
+```  
 
-* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
-* class [Convert](../../convert)
-* namensraum [Aspose.Slides.LowCode](../../convert)
-* Montage [Aspose.Slides](../../../)
+### Siehe auch  
 
----
+* Delegat [GetOutPathCallback](../../convert.getoutpathcallback)  
+* Klasse [Convert](../../convert)  
+* Namespace [Aspose.Slides.LowCode](../../convert)  
+* Assembly [Aspose.Slides](../../../)  
 
-## ToSvg(Presentation, GetOutPathCallback) {#tosvg_1}
+---  
 
-konvertiert[`Presentation`](../../../aspose.slides/presentation) zu SVG.
+## ToSvg(Presentation, GetOutPathCallback) {#tosvg_1}  
 
-```csharp
-public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)
-```
+Konvertiert [`Presentation`](../../../aspose.slides/presentation) in SVG.  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| pres | Presentation | Input-Präsentation |
-| getOutPath | GetOutPathCallback | &gt;Callback, der den SVG-Ausgabepfad für jede Folie in der Präsentation zurückgibt |
+```csharp  
+public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)  
+```  
 
-### Beispiele
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| pres | Presentation | Eingabpräsentation |  
+| getOutPath | GetOutPathCallback | Callback, der den SVG-Ausgabe-Pfad für jede Folie in der Präsentation zurückgibt |  
 
-```csharp
+### Beispiele  
+
+```csharp  
 using (Presentation pres = new Presentation("input.pptx"))    
-{
-    Convert.ToSvg(pres, (slide, index) => $"pres_{index}-out.svg");
-} 
-```
-
-### Siehe auch
-
-* class [Presentation](../../../aspose.slides/presentation)
-* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
-* class [Convert](../../convert)
-* namensraum [Aspose.Slides.LowCode](../../convert)
-* Montage [Aspose.Slides](../../../)
-
----
-
-## ToSvg(Presentation, ISVGOptions) {#tosvg}
-
-konvertiert[`Presentation`](../../../aspose.slides/presentation) zu SVG.
-
-```csharp
-public static void ToSvg(Presentation pres, ISVGOptions options)
-```
-
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| pres | Presentation | Input-Präsentation |
-| options | ISVGOptions | SVG-Exportoptionen |
-
-### Beispiele
-
-```csharp
-using (Presentation pres = new Presentation("input.pptx"))    
-{
-    Convert.ToSvg(pres, new SVGOptions { VectorizeText = true });
+{  
+    Convert.ToSvg(pres, (slide, index) => $"pres_{index}-out.svg");  
 }  
-```
+```  
 
-### Siehe auch
+### Siehe auch  
 
-* class [Presentation](../../../aspose.slides/presentation)
-* interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
-* class [Convert](../../convert)
-* namensraum [Aspose.Slides.LowCode](../../convert)
-* Montage [Aspose.Slides](../../../)
+* Klasse [Presentation](../../../aspose.slides/presentation)  
+* Delegat [GetOutPathCallback](../../convert.getoutpathcallback)  
+* Klasse [Convert](../../convert)  
+* Namespace [Aspose.Slides.LowCode](../../convert)  
+* Assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## ToSvg(Presentation, GetOutPathCallback, ISVGOptions) {#tosvg_2}
+## ToSvg(Presentation, ISVGOptions) {#tosvg}  
 
-konvertiert[`Presentation`](../../../aspose.slides/presentation) zu SVG.
+Konvertiert [`Presentation`](../../../aspose.slides/presentation) in SVG.  
 
-```csharp
-public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath, ISVGOptions options)
-```
+```csharp  
+public static void ToSvg(Presentation pres, ISVGOptions options)  
+```  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| pres | Presentation | Input-Präsentation |
-| getOutPath | GetOutPathCallback | Rückruf, der den SVG-Ausgabepfad für jede Folie in der Präsentation zurückgibt |
-| options | ISVGOptions | SVG-Exportoptionen |
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| pres | Presentation | Eingabpräsentation |  
+| options | ISVGOptions | SVG-Exportoptionen |  
 
-### Beispiele
+### Beispiele  
 
-```csharp
+```csharp  
 using (Presentation pres = new Presentation("input.pptx"))    
-{
-    Convert.ToSvg(pres, (slide, index) => $"pres_{index}-out.svg", new SVGOptions { VectorizeText = true });
-} 
-```
+{  
+    Convert.ToSvg(pres, new SVGOptions { VectorizeText = true });  
+}  
+```  
 
-### Siehe auch
+### Siehe auch  
 
-* class [Presentation](../../../aspose.slides/presentation)
-* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
-* interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
-* class [Convert](../../convert)
-* namensraum [Aspose.Slides.LowCode](../../convert)
-* Montage [Aspose.Slides](../../../)
+* Klasse [Presentation](../../../aspose.slides/presentation)  
+* Schnittstelle [ISVGOptions](../../../aspose.slides.export/isvgoptions)  
+* Klasse [Convert](../../convert)  
+* Namespace [Aspose.Slides.LowCode](../../convert)  
+* Assembly [Aspose.Slides](../../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+---  
+
+## ToSvg(Presentation, GetOutPathCallback, ISVGOptions) {#tosvg_2}  
+
+Konvertiert [`Presentation`](../../../aspose.slides/presentation) in SVG.  
+
+```csharp  
+public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath, ISVGOptions options)  
+```  
+
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| pres | Presentation | Eingabpräsentation |  
+| getOutPath | GetOutPathCallback | Callback, der den SVG-Ausgabe-Pfad für jede Folie in der Präsentation zurückgibt |  
+| options | ISVGOptions | SVG-Exportoptionen |  
+
+### Beispiele  
+
+```csharp  
+using (Presentation pres = new Presentation("input.pptx"))    
+{  
+    Convert.ToSvg(pres, (slide, index) => $"pres_{index}-out.svg", new SVGOptions { VectorizeText = true });  
+}  
+```  
+
+### Siehe auch  
+
+* Klasse [Presentation](../../../aspose.slides/presentation)  
+* Delegat [GetOutPathCallback](../../convert.getoutpathcallback)  
+* Schnittstelle [ISVGOptions](../../../aspose.slides.export/isvgoptions)  
+* Klasse [Convert](../../convert)  
+* Namespace [Aspose.Slides.LowCode](../../convert)  
+* Assembly [Aspose.Slides](../../../)  
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

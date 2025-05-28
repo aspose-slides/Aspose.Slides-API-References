@@ -1,14 +1,15 @@
 ---
-title: Position
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает отсчитываемую от нуля позицию узла среди одноуровневых узлов. Чтение/записьInt32.
+title: Позиция
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает или устанавливает нулевой индекс позиции узла среди узлов-соседей. Читаемое/записываемое значение Int32.
 type: docs
 weight: 70
 url: /ru/aspose.slides.smartart/ismartartnode/position/
 ---
-## ISmartArtNode.Position property
 
-Возвращает или задает отсчитываемую от нуля позицию узла среди одноуровневых узлов. Чтение/записьInt32.
+## Свойство ISmartArtNode.Position
+
+Возвращает или устанавливает нулевой индекс позиции узла среди узлов-соседей. Читаемое/записываемое значение Int32.
 
 ```csharp
 public int Position { get; set; }
@@ -18,11 +19,11 @@ public int Position { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Значение меньше 0. -или-значение равно или больше, чем число братьев и сестер. |
+| ArgumentOutOfRangeException | Значение меньше 0. -или- значение равно или больше количества соседей. |
 
-### Смотрите также
+### См. Также
 
-* interface [ISmartArtNode](../../ismartartnode)
+* интерфейс [ISmartArtNode](../../ismartartnode)
 * пространство имен [Aspose.Slides.SmartArt](../../ismartartnode)
 * сборка [Aspose.Slides](../../../)
 

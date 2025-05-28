@@ -1,12 +1,13 @@
 ---
 title: SmartArtColorType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет цветовую схему диаграммы SmartArt.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Представляет цветовую схемы диаграммы SmartArt.
 type: docs
-weight: 9800
+weight: 10300
 url: /ru/aspose.slides.smartart/smartartcolortype/
 ---
-## SmartArtColorType enumeration
+
+## Перечисление SmartArtColorType
 
 Представляет цветовую схему диаграммы SmartArt.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.smartart/smartartcolortype/
 public enum SmartArtColorType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Dark1Outline | `0` | Dark1Outline |
 | Dark2Outline | `1` | Dark2Outline |

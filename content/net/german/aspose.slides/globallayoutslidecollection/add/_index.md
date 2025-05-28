@@ -1,14 +1,15 @@
 ---
-title: Add
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Fügt der Präsentation eine neue Layoutfolie hinzu.
+title: Hinzufügen
+second_title: Aspose.Slides für .NET API-Referenz
+description: Fügt der Präsentation eine neue Layout-Folie hinzu.
 type: docs
 weight: 10
 url: /de/aspose.slides/globallayoutslidecollection/add/
 ---
-## GlobalLayoutSlideCollection.Add method
 
-Fügt der Präsentation eine neue Layoutfolie hinzu.
+## GlobalLayoutSlideCollection.Add-Methode
+
+Fügt der Präsentation eine neue Layout-Folie hinzu.
 
 ```csharp
 public ILayoutSlide Add(IMasterSlide master, SlideLayoutType layoutType, string layoutName)
@@ -16,34 +17,34 @@ public ILayoutSlide Add(IMasterSlide master, SlideLayoutType layoutType, string 
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| master | IMasterSlide | Masterfolie für ein neues Layout. |
-| layoutType | SlideLayoutType | Layouttyp für ein neues Layout. Unterstützte Layouttypen: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Andere Layouttypen werden jetzt nicht unterstützt: Text, TwoColumnText, Tabelle, TextAndChart, ChartAndText, Diagramm, Diagramm, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| layoutName | String | Name für ein neues Layout. Wenn der übergebene Name bereits verwendet wird, wird die ArgumentException geworfen. Wenn der Null-Parameter übergeben wird, wird der Name automatisch in Bezug auf den übergebenen Layouttyp generiert (z. B. "Titelfolie" oder "1_Titelfolie", "2_.." usw .). |
+| master | IMasterSlide | Master-Folie für ein neues Layout. |
+| layoutType | SlideLayoutType | Layout-Typ für ein neues Layout. Unterstützte Layout-Typen: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Andere Layout-Typen werden momentan nicht unterstützt: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| layoutName | String | Name für ein neues Layout. Wenn der übergebene Name bereits in Benutzung ist, wird eine ArgumentException ausgelöst. Wenn der Parameter null übergeben wird, wird der Name automatisch in Bezug auf den übergebenen Layout-Typ generiert (zum Beispiel "Titel-Folie" oder "1_Titel-Folie", "2_..", usw.). |
 
 ### Rückgabewert
 
-Folie hinzugefügt.
+Hinzugefügte Folie.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| NotImplementedException | Wird ausgelöst, wenn der Wert des Parameters nicht unterstützt wird*layoutType* ist bestanden. Derzeit nicht unterstützte Layouttypen: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| ArgumentNullException | Wird geworfen, wenn*master* ist null. |
-| ArgumentException | Wird geworfen, wenn*master* gehört zur anderen Präsentation. |
-| ArgumentException | Wird ausgelöst, wenn der Wert des Layoutnamens*layoutName* wird bereits in Sammlung der Layouts von verwendet*master* . |
+| NotImplementedException | Wird ausgelöst, wenn ein nicht unterstützter Wert für den Parameter *layoutType* übergeben wird. Layout-Typen, die momentan nicht unterstützt werden: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| ArgumentNullException | Wird ausgelöst, wenn *master* null ist. |
+| ArgumentException | Wird ausgelöst, wenn *master* zu einer anderen Präsentation gehört. |
+| ArgumentException | Wird ausgelöst, wenn der Wert des Layoutnamens *layoutName* bereits in der Sammlung der Layouts von *master* verwendet wird. |
 
-### Bemerkungen
+### Anmerkungen
 
-1) Layout für den Wert SlideLayoutType.Custom von hinzugefügt*layoutType* enthält keine Platzhalter und keine Formen. 2) Analog zu dieser Methode ist Methode[`Add`](../../imasterlayoutslidecollection/add) aufgerufen mit[`LayoutSlides`](../../imasterslide/layoutslides) Eigentum.
+1) Das hinzugefügte Layout für den Wert SlideLayoutType.Custom von *layoutType* enthält keine Platzhalter und keine Formen. 2) Das Pendant zu dieser Methode ist die Methode [`Add`](../../imasterlayoutslidecollection/add), die über die [`LayoutSlides`](../../imasterslide/layoutslides) -Eigenschaft aufgerufen wird.
 
 ### Siehe auch
 
-* interface [ILayoutSlide](../../ilayoutslide)
-* interface [IMasterSlide](../../imasterslide)
-* enum [SlideLayoutType](../../slidelayouttype)
-* class [GlobalLayoutSlideCollection](../../globallayoutslidecollection)
-* namensraum [Aspose.Slides](../../globallayoutslidecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [ILayoutSlide](../../ilayoutslide)
+* Schnittstelle [IMasterSlide](../../imasterslide)
+* Aufzählung [SlideLayoutType](../../slidelayouttype)
+* Klasse [GlobalLayoutSlideCollection](../../globallayoutslidecollection)
+* Namensraum [Aspose.Slides](../../globallayoutslidecollection)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

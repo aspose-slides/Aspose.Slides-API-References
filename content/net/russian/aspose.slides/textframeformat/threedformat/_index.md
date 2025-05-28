@@ -1,14 +1,15 @@
 ---
 title: ThreeDFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект ThreeDFormat который представляет свойства 3D-эффекта для текста. Только для чтенияIThreeDFormataspose.slides/ithreedformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает объект ThreeDFormat, который представляет свойства 3D-эффекта для текста. Только для чтения IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 140
 url: /ru/aspose.slides/textframeformat/threedformat/
 ---
-## TextFrameFormat.ThreeDFormat property
 
-Возвращает объект ThreeDFormat, который представляет свойства 3D-эффекта для текста. Только для чтения[`IThreeDFormat`](../../ithreedformat).
+## Свойство TextFrameFormat.ThreeDFormat
+
+Возвращает объект ThreeDFormat, который представляет свойства 3D-эффекта для текста. Только для чтения [`IThreeDFormat`](../../ithreedformat).
 
 ```csharp
 public IThreeDFormat ThreeDFormat { get; }
@@ -24,39 +25,39 @@ using (Presentation pres = new Presentation())
 
     ITextFrame textFrame = autoShape.TextFrame;
 
-    textFrame.Text = "Aspose.Slide Test Text";
+    textFrame.Text = "Aspose.Slide Тестовый текст";
 
-     // Установить текст transform
+    // Установить трансформацию текста
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUpPour;
 
-    // Установить Extrusion
+    // Установить экструзию
     textFrame.TextFrameFormat.ThreeDFormat.ExtrusionColor.Color = Color.Orange;
     textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 6;
 
-     // Установить Contour
+    // Установить контур
     textFrame.TextFrameFormat.ThreeDFormat.ContourColor.Color = Color.DarkRed;
     textFrame.TextFrameFormat.ThreeDFormat.ContourWidth = 1.5;
 
-     // Установить глубину
+    // Установить глубину
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
 
-     // Установить Материал
+    // Установить материал
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;
 
-     // Установить освещение
+    // Установить освещение
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.Direction = LightingDirection.Top;
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.LightType = LightRigPresetType.Balanced;
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.SetRotation(0, 0, 40);
 
-     // Установить тип камеры
+    // Установить тип камеры
     textFrame.TextFrameFormat.ThreeDFormat.Camera.CameraType = CameraPresetType.PerspectiveContrastingRightFacing;
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IThreeDFormat](../../ithreedformat)
-* class [TextFrameFormat](../../textframeformat)
+* интерфейс [IThreeDFormat](../../ithreedformat)
+* класс [TextFrameFormat](../../textframeformat)
 * пространство имен [Aspose.Slides](../../textframeformat)
 * сборка [Aspose.Slides](../../../)
 

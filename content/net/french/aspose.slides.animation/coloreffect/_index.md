@@ -1,12 +1,13 @@
 ---
 title: ColorEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un effet de couleur pour un comportement danimation.
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente un effet de couleur pour un comportement d'animation.
 type: docs
-weight: 130
+weight: 150
 url: /fr/aspose.slides.animation/coloreffect/
 ---
-## ColorEffect class
+
+## Classe ColorEffect
 
 Représente un effet de couleur pour un comportement d'animation.
 
@@ -16,29 +17,29 @@ public class ColorEffect : Behavior, IColorEffect
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [ColorEffect](coloreffect)() | Crée une nouvelle instance. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Représente si les comportements d'animation sont accumulés. Lecture/écriture[`NullableBool`](../../aspose.slides/nullablebool) . |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Représente si le comportement d'animation actuel est combiné avec d'autres animations en cours d'exécution. Lecture/écriture[`BehaviorAdditiveType`](../behavioradditivetype) . |
-| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Décrit la valeur de décalage relative pour l'animation couleur. Lecture/écriture[`IColorOffset`](../icoloroffset) . |
-| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Représente l'espace colorimétrique du comportement. Lecture/écriture[`ColorSpace`](../colorspace) . |
-| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Spécifie dans quelle direction faire défiler la teinte autour de la roue chromatique. Lecture/écriture[`ColorDirection`](../colordirection) . |
-| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Cette valeur est utilisée pour spécifier la couleur de départ du comportement. Lecture/écriture[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Représente les propriétés du comportement. Lecture seule[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection) . |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Représente les propriétés de synchronisation pour le comportement de l'effet. Lecture/écriture[`ITiming`](../itiming) . |
-| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Décrit la couleur résultante pour le changement de couleur de l'animation. Lecture/écriture[`IColorFormat`](../../aspose.slides/icolorformat) . |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Représente si les comportements d'animation sont accumulés. Écriture/lecture [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Représente si le comportement d'animation actuel est combiné avec d'autres animations en cours. Écriture/lecture [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Décrit la valeur d'offset relative pour l'animation de couleur. Écriture/lecture [`IColorOffset`](../icoloroffset). |
+| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Représente l'espace de couleur du comportement. Écriture/lecture [`ColorSpace`](../colorspace). |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Spécifie dans quelle direction faire tourner la teinte autour du cercle coloré. Écriture/lecture [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Cette valeur est utilisée pour spécifier la couleur de départ du comportement. Écriture/lecture [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Représente les propriétés du comportement. Lecture seule [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Représente les propriétés de timing pour le comportement d'effet. Écriture/lecture [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Décrit la couleur résultante pour le changement de couleur de l'animation. Écriture/lecture [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Voir également
+### Voir Aussi
 
-* class [Behavior](../behavior)
+* classe [Behavior](../behavior)
 * interface [IColorEffect](../icoloreffect)
-* espace de noms [Aspose.Slides.Animation](../../aspose.slides.animation)
-* Assemblée [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

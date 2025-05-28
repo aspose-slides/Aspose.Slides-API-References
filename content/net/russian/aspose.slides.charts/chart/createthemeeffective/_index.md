@@ -1,23 +1,24 @@
 ---
 title: CreateThemeEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает эффективную тему для этой диаграммы.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает эффективную тему для этого графика.
 type: docs
 weight: 250
 url: /ru/aspose.slides.charts/chart/createthemeeffective/
 ---
-## Chart.CreateThemeEffective method
 
-Возвращает эффективную тему для этой диаграммы.
+## Метод Chart.CreateThemeEffective
+
+Возвращает эффективную тему для этого графика.
 
 ```csharp
 public IThemeEffectiveData CreateThemeEffective()
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
-* class [Chart](../../chart)
+* интерфейс [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
+* класс [Chart](../../chart)
 * пространство имен [Aspose.Slides.Charts](../../chart)
 * сборка [Aspose.Slides](../../../)
 

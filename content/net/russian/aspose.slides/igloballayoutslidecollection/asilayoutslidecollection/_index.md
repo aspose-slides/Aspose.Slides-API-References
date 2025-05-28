@@ -1,14 +1,15 @@
 ---
 title: AsILayoutSlideCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс ILayoutSlideCollection. Только для чтенияILayoutSlideCollectionaspose.slides/ilayoutslidecollection.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Возвращает интерфейс ILayoutSlideCollection. Только для чтения ILayoutSlideCollectionaspose.slides/ilayoutslidecollection.
 type: docs
 weight: 10
 url: /ru/aspose.slides/igloballayoutslidecollection/asilayoutslidecollection/
 ---
-## IGlobalLayoutSlideCollection.AsILayoutSlideCollection property
 
-Возвращает интерфейс ILayoutSlideCollection. Только для чтения[`ILayoutSlideCollection`](../../ilayoutslidecollection).
+## IGlobalLayoutSlideCollection.AsILayoutSlideCollection свойство
+
+Возвращает интерфейс ILayoutSlideCollection. Только для чтения [`ILayoutSlideCollection`](../../ilayoutslidecollection).
 
 ```csharp
 public ILayoutSlideCollection AsILayoutSlideCollection { get; }
@@ -16,12 +17,12 @@ public ILayoutSlideCollection AsILayoutSlideCollection { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. Также
 
-* interface [ILayoutSlideCollection](../../ilayoutslidecollection)
-* interface [IGlobalLayoutSlideCollection](../../igloballayoutslidecollection)
+* интерфейс [ILayoutSlideCollection](../../ilayoutslidecollection)
+* интерфейс [IGlobalLayoutSlideCollection](../../igloballayoutslidecollection)
 * пространство имен [Aspose.Slides](../../igloballayoutslidecollection)
 * сборка [Aspose.Slides](../../../)
 

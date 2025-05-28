@@ -1,23 +1,24 @@
 ---
 title: YPlus
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает значение полосы ошибок в положительном направлении. Доступно если тип значения баров погрешностей  Пользовательский и разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает значение столбца ошибки в положительном направлении. Доступно в случае, если тип значения столбца ошибки - пользовательский, и если разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/errorbarscustomvalues/yplus/
 ---
-## ErrorBarsCustomValues.YPlus property
 
-Указывает значение полосы ошибок в положительном направлении. Доступно, если тип значения баров погрешностей — Пользовательский и разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue).
+## ErrorBarsCustomValues.YPlus свойство
+
+Указывает значение столбца ошибки в положительном направлении. Доступно в случае, если тип значения столбца ошибки - пользовательский, и если разрешен ErrorBarsYFormat. В любом другом случае это свойство возвращает null. Только для чтения [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YPlus { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IDoubleChartValue](../../idoublechartvalue)
-* class [ErrorBarsCustomValues](../../errorbarscustomvalues)
+* интерфейс [IDoubleChartValue](../../idoublechartvalue)
+* класс [ErrorBarsCustomValues](../../errorbarscustomvalues)
 * пространство имен [Aspose.Slides.Charts](../../errorbarscustomvalues)
 * сборка [Aspose.Slides](../../../)
 

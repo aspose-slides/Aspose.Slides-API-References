@@ -1,11 +1,12 @@
 ---
 title: FontFallBackRule
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает новый экземпляр.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontfallbackrule/fontfallbackrule/
 ---
+
 ## FontFallBackRule(uint, uint, string) {#constructor}
 
 Создает новый экземпляр.
@@ -16,24 +17,24 @@ public FontFallBackRule(uint startIndex, uint endIndex, string fontNames)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | UInt32 | Начальный индекс диапазона юникода |
-| endIndex | UInt32 | Конечный индекс диапазона юникода |
-| fontNames | String | Имя или имена шрифтов (разделенные запятой) для FallBack |
+| startIndex | UInt32 | Начальный индекс диапазона unicode |
+| endIndex | UInt32 | Конечный индекс диапазона unicode |
+| fontNames | String | Имя шрифта или имена (разделенные запятой) для FallBack |
 
 ### Примеры
 
 ```csharp
 [C#]
- // Создаем новый экземпляр FantFallBackRule с одним шрифтом.
+// Создание нового экземпляра FontFallBackRule с одним шрифтом.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
- // Создаем новый экземпляр FantFallBackRule с несколькими шрифтами.
+// Создание нового экземпляра FontFallBackRule с несколькими шрифтами.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma");
 ```
 
-### Смотрите также
+### См. также
 
-* class [FontFallBackRule](../../fontfallbackrule)
+* класс [FontFallBackRule](../../fontfallbackrule)
 * пространство имен [Aspose.Slides](../../fontfallbackrule)
 * сборка [Aspose.Slides](../../../)
 
@@ -49,24 +50,24 @@ public FontFallBackRule(uint startIndex, uint endIndex, string[] fontNames)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | UInt32 | Начальный индекс диапазона юникода |
-| endIndex | UInt32 | Конечный индекс диапазона юникода |
-| fontNames | String[] | Имя или имена шрифтов (разделенные запятой) для FallBack |
+| startIndex | UInt32 | Начальный индекс диапазона unicode |
+| endIndex | UInt32 | Конечный индекс диапазона unicode |
+| fontNames | String[] | Имя шрифта или имена (разделенные запятой) для FallBack |
 
 ### Примеры
 
 ```csharp
 [C#]
- // Создаем новый экземпляр FantFallBackRule с двумя fonts
+// Создание нового экземпляра FontFallBackRule с двумя шрифтами
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Mincho", "MS Gothic"});
 
- // Создаем новый экземпляр FantFallBackRule с несколькими шрифтами.
+// Создание нового экземпляра FontFallBackRule с несколькими шрифтами.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Gothic", "Tahoma, Times New Roman" });
 ```
 
-### Смотрите также
+### См. также
 
-* class [FontFallBackRule](../../fontfallbackrule)
+* класс [FontFallBackRule](../../fontfallbackrule)
 * пространство имен [Aspose.Slides](../../fontfallbackrule)
 * сборка [Aspose.Slides](../../../)
 

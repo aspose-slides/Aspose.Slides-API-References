@@ -1,22 +1,23 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает хеш-код для этого объекта.
+second_title: Aspose.Slides для .NET Справочник API
+description: Возвращает хэш-код для этого объекта.
 type: docs
 weight: 100
 url: /ru/aspose.slides/tabcollection/gethashcode/
 ---
-## TabCollection.GetHashCode method
 
-Возвращает хеш-код для этого объекта.
+## Метод TabCollection.GetHashCode
+
+Возвращает хэш-код для этого объекта.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [TabCollection](../../tabcollection)
+* класс [TabCollection](../../tabcollection)
 * пространство имен [Aspose.Slides](../../tabcollection)
 * сборка [Aspose.Slides](../../../)
 

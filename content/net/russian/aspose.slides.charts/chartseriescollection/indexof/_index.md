@@ -1,14 +1,15 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Slides для .NET
-description: Ищет указанныйChartSeriesaspose.slides.charts/chartseriesи возвращает отсчитываемый от нуля индекс первого вхождения во всем Коллекция
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Ищет указанный ChartSeriesaspose.slides.charts/chartseries и возвращает индекс, основанный на нуле, первого вхождения в всей коллекции
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/chartseriescollection/indexof/
 ---
-## ChartSeriesCollection.IndexOf method
 
-Ищет указанный[`ChartSeries`](../../chartseries)и возвращает отсчитываемый от нуля индекс первого вхождения во всем Коллекция
+## Метод ChartSeriesCollection.IndexOf
+
+Ищет указанный [`ChartSeries`](../../chartseries) и возвращает индекс, основанный на нуле, первого вхождения в всей коллекции
 
 ```csharp
 public int IndexOf(IChartSeries value)
@@ -16,16 +17,16 @@ public int IndexOf(IChartSeries value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IChartSeries | Значение серии диаграммы. |
+| value | IChartSeries | Значение серии графиков. |
 
 ### Возвращаемое значение
 
-Отсчитываемый от нуля индекс первого вхождения значения во всей CollectionBase, если он найден; иначе -1.
+Индекс, основанный на нуле, первого вхождения значения в всей коллекции, если найден; в противном случае -1.
 
-### Смотрите также
+### См. также
 
-* interface [IChartSeries](../../ichartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
+* интерфейс [IChartSeries](../../ichartseries)
+* класс [ChartSeriesCollection](../../chartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../chartseriescollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: InsertAudioFrameLinked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый аудиокадр со связанным аудиофайлом и вставляет его в коллекцию по указанному индексу.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает новый аудиокадр с привязанным аудиофайлом и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 240
 url: /ru/aspose.slides/ishapecollection/insertaudioframelinked/
 ---
-## IShapeCollection.InsertAudioFrameLinked method
 
-Создает новый аудиокадр со связанным аудиофайлом и вставляет его в коллекцию по указанному индексу.
+## IShapeCollection.InsertAudioFrameLinked метод
+
+Создает новый аудиокадр с привязанным аудиофайлом и вставляет его в коллекцию по указанному индексу.
 
 ```csharp
 public IAudioFrame InsertAudioFrameLinked(int index, float x, float y, float width, float height, 
@@ -17,21 +18,21 @@ public IAudioFrame InsertAudioFrameLinked(int index, float x, float y, float wid
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, по которому должен быть вставлен звуковой кадр. |
-| x | Single | X координата нового звукового кадра. |
-| y | Single | Координата Y нового звукового кадра. |
-| width | Single | Ширина нового звукового кадра. |
-| height | Single | Высота нового звукового кадра. |
-| fname | String | Имя аудиофайла. |
+| index | Int32 | Индекс с нуля, по которому должен быть вставлен аудиокадр. |
+| x | Single | Координата X нового аудиокадра. |
+| y | Single | Координата Y нового аудиокадра. |
+| width | Single | Ширина нового аудиокадра. |
+| height | Single | Высота нового аудиокадра. |
+| fname | String | Название аудиофайла. |
 
 ### Возвращаемое значение
 
-Создан объект AudioFrame.
+Созданный объект AudioFrame.
 
-### Смотрите также
+### Также смотрите
 
-* interface [IAudioFrame](../../iaudioframe)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IAudioFrame](../../iaudioframe)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

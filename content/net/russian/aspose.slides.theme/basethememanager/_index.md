@@ -1,20 +1,21 @@
 ---
 title: BaseThemeManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Базовый класс для классов предоставляющих доступ к разным типам тем.
+second_title: Aspose.Slides для .NET API Reference
+description: Базовый класс для классов, которые предоставляют доступ к различным типам тем.
 type: docs
-weight: 10240
+weight: 10740
 url: /ru/aspose.slides.theme/basethememanager/
 ---
-## BaseThemeManager class
 
-Базовый класс для классов, предоставляющих доступ к разным типам тем.
+## Класс BaseThemeManager
+
+Базовый класс для классов, которые предоставляют доступ к различным типам тем.
 
 ```csharp
 public abstract class BaseThemeManager
 ```
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)

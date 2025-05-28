@@ -1,12 +1,13 @@
 ---
 title: IPresentation
-second_title: Aspose.Slides für .NET-API-Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Präsentationsdokument
 type: docs
-weight: 6220
+weight: 6550
 url: /de/aspose.slides/ipresentation/
 ---
-## IPresentation interface
+
+## IPresentation-Schnittstelle
 
 Präsentationsdokument
 
@@ -18,68 +19,67 @@ public interface IPresentation : IDisposable, IPresentationComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AllCustomXmlParts](../../aspose.slides/ipresentation/allcustomxmlparts) { get; } | Gibt alle benutzerdefinierten Datenteile in der Präsentation zurück. Schreibgeschützt[`ICustomXmlPart`](../icustomxmlpart) []. |
-| [AsIDisposable](../../aspose.slides/ipresentation/asidisposable) { get; } | Gibt IDisposable-Schnittstelle zurück. SchreibgeschütztIDisposable . |
-| [AsIPresentationComponent](../../aspose.slides/ipresentation/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPPresentationComponent-Schnittstelle. Schreibgeschützt[`IPresentationComponent`](../ipresentationcomponent) . |
-| [Audios](../../aspose.slides/ipresentation/audios) { get; } | Gibt die Sammlung aller eingebetteten Audiodateien in der Präsentation zurück. Schreibgeschützt[`IAudioCollection`](../iaudiocollection) . |
-| [CommentAuthors](../../aspose.slides/ipresentation/commentauthors) { get; } | Gibt die Sammlung von Kommentaren zurück. Schreibgeschützt[`ICommentAuthorCollection`](../icommentauthorcollection) . |
-| [CurrentDateTime](../../aspose.slides/ipresentation/currentdatetime) { get; set; } | Gibt Datum und Uhrzeit zurück oder legt sie fest, die den Inhalt der datetime-Felder ersetzen. Uhrzeit der standardmäßigen Erstellung dieses Präsentationsobjekts. Lesen/SchreibenDateTime . |
-| [CustomData](../../aspose.slides/ipresentation/customdata) { get; } | Gibt die benutzerdefinierten Daten der Präsentation zurück. Schreibgeschützt[`ICustomData`](../icustomdata) . |
-| [DefaultTextStyle](../../aspose.slides/ipresentation/defaulttextstyle) { get; } | Gibt den Standardtextstil für Formen zurück. Schreibgeschützt[`ITextStyle`](../itextstyle) . |
-| [DigitalSignatures](../../aspose.slides/ipresentation/digitalsignatures) { get; } | Gibt die Sammlung von Signaturen zurück, die zum Signieren der Präsentation verwendet wurden. Schreibgeschützt[`IDigitalSignatureCollection`](../idigitalsignaturecollection) . |
-| [DocumentProperties](../../aspose.slides/ipresentation/documentproperties) { get; } | Gibt das DocumentProperties-Objekt zurück, das standardmäßige und benutzerdefinierte Dokumenteigenschaften enthält. Schreibgeschützt[`IDocumentProperties`](../idocumentproperties) . |
-| [FirstSlideNumber](../../aspose.slides/ipresentation/firstslidenumber) { get; set; } | Repräsentiert die erste Foliennummer in der Präsentation. Lesen/SchreibenInt32 . |
-| [FontsManager](../../aspose.slides/ipresentation/fontsmanager) { get; } | Gibt den Schriftarten-Manager zurück. Schreibgeschützt[`IFontsManager`](../ifontsmanager) . |
-| [HeaderFooterManager](../../aspose.slides/ipresentation/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Präsentation zurück. Schreibgeschützt[`IPresentationHeaderFooterManager`](../ipresentationheaderfootermanager) . |
-| [HyperlinkQueries](../../aspose.slides/ipresentation/hyperlinkqueries) { get; } | Bietet einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfolien enthalten sind (nicht in Master-, Layout- und Notizenfolien). Schreibgeschützt[`IHyperlinkQueries`](../ihyperlinkqueries) . |
-| [Images](../../aspose.slides/ipresentation/images) { get; } | Gibt die Sammlung aller Bilder in der Präsentation zurück. Schreibgeschützt[`IImageCollection`](../iimagecollection) . |
-| [LayoutSlides](../../aspose.slides/ipresentation/layoutslides) { get; } | Gibt eine Liste aller Layoutfolien zurück, die in der Präsentation definiert sind. Schreibgeschützt[`IGlobalLayoutSlideCollection`](../igloballayoutslidecollection) . |
-| [MasterHandoutSlideManager](../../aspose.slides/ipresentation/masterhandoutslidemanager) { get; } | Gibt Handout-Master-Manager zurück. Schreibgeschützt[`IMasterHandoutSlideManager`](../imasterhandoutslidemanager) . |
-| [MasterNotesSlideManager](../../aspose.slides/ipresentation/masternotesslidemanager) { get; } | Gibt den Notes-Master-Manager zurück. Schreibgeschützt[`IMasterNotesSlideManager`](../imasternotesslidemanager) . |
-| [Masters](../../aspose.slides/ipresentation/masters) { get; } | Gibt eine Liste aller Masterfolien zurück, die in der Präsentation definiert sind. Schreibgeschützt[`IMasterSlideCollection`](../imasterslidecollection) . |
-| [MasterTheme](../../aspose.slides/ipresentation/mastertheme) { get; } | Gibt das Hauptthema der Präsentation zurück. Schreibgeschützt[`IMasterTheme`](../../aspose.slides.theme/imastertheme) . |
-| [NotesSize](../../aspose.slides/ipresentation/notessize) { get; } | Gibt das Notizen-Foliengrößenobjekt zurück. Schreibgeschützt[`INotesSize`](../inotessize) . |
-| [ProtectionManager](../../aspose.slides/ipresentation/protectionmanager) { get; } | Ruft den Manager der Berechtigungen für diese Präsentation ab. Schreibgeschützt[`IProtectionManager`](../iprotectionmanager) . |
-| [Sections](../../aspose.slides/ipresentation/sections) { get; } | Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind. Schreibgeschützt[`ISectionCollection`](../isectioncollection) . |
-| [Slides](../../aspose.slides/ipresentation/slides) { get; } | Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. Schreibgeschützt[`ISlideCollection`](../islidecollection) . |
-| [SlideSize](../../aspose.slides/ipresentation/slidesize) { get; } | Gibt das Foliengrößenobjekt zurück. Schreibgeschützt[`ISlideSize`](../islidesize) . |
-| [SourceFormat](../../aspose.slides/ipresentation/sourceformat) { get; } | Gibt Informationen darüber zurück, aus welchem Format die Präsentation geladen wurde. Schreibgeschützt[`SourceFormat`](./sourceformat) . |
-| [VbaProject](../../aspose.slides/ipresentation/vbaproject) { get; set; } | Ruft VBA-Projekt mit Präsentationsmakros ab. Lesen/Schreiben[`IVbaProject`](../../aspose.slides.vba/ivbaproject) . |
-| [Videos](../../aspose.slides/ipresentation/videos) { get; } | Gibt die Sammlung aller eingebetteten Videodateien in der Präsentation zurück. Schreibgeschützt[`IVideoCollection`](../ivideocollection) . |
-| [ViewProperties](../../aspose.slides/ipresentation/viewproperties) { get; } | Ruft die Eigenschaften der präsentationsweiten Ansicht ab. Schreibgeschützt[`IViewProperties`](../iviewproperties) . |
+| [AllCustomXmlParts](../../aspose.slides/ipresentation/allcustomxmlparts) { get; } | Gibt alle benutzerdefinierten Daten in der Präsentation zurück. Nur Lesezugriff [`ICustomXmlPart`](../icustomxmlpart)[]. |
+| [AsIDisposable](../../aspose.slides/ipresentation/asidisposable) { get; } | Gibt die IDisposable-Schnittstelle zurück. Nur Lesezugriff IDisposable. |
+| [AsIPresentationComponent](../../aspose.slides/ipresentation/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur Lesezugriff [`IPresentationComponent`](../ipresentationcomponent). |
+| [Audios](../../aspose.slides/ipresentation/audios) { get; } | Gibt die Sammlung aller eingebetteten Audiodateien in der Präsentation zurück. Nur Lesezugriff [`IAudioCollection`](../iaudiocollection). |
+| [CommentAuthors](../../aspose.slides/ipresentation/commentauthors) { get; } | Gibt die Sammlung der Autoren von Kommentaren zurück. Nur Lesezugriff [`ICommentAuthorCollection`](../icommentauthorcollection). |
+| [CurrentDateTime](../../aspose.slides/ipresentation/currentdatetime) { get; set; } | Gibt das Datum und die Uhrzeit zurück oder setzt sie, die den Inhalt der Datumsfeld ersetzen wird. Standardmäßig die Zeit dieser Präsentationsobjekterstellung. Lese-/Schreibzugriff DateTime. |
+| [CustomData](../../aspose.slides/ipresentation/customdata) { get; } | Gibt die benutzerdefinierten Daten der Präsentation zurück. Nur Lesezugriff [`ICustomData`](../icustomdata). |
+| [DefaultTextStyle](../../aspose.slides/ipresentation/defaulttextstyle) { get; } | Gibt den Standardtextstil für Formen zurück. Nur Lesezugriff [`ITextStyle`](../itextstyle). |
+| [DigitalSignatures](../../aspose.slides/ipresentation/digitalsignatures) { get; } | Gibt die Sammlung der Signaturen zurück, die verwendet werden, um die Präsentation zu unterzeichnen. Nur Lesezugriff [`IDigitalSignatureCollection`](../idigitalsignaturecollection). |
+| [DocumentProperties](../../aspose.slides/ipresentation/documentproperties) { get; } | Gibt das DocumentProperties-Objekt zurück, das Standard- und benutzerdefinierte Dokumenteigenschaften enthält. Nur Lesezugriff [`IDocumentProperties`](../idocumentproperties). |
+| [FirstSlideNumber](../../aspose.slides/ipresentation/firstslidenumber) { get; set; } | Stellt die erste Foliennummer in der Präsentation dar. Lese-/Schreibzugriff Int32. |
+| [FontsManager](../../aspose.slides/ipresentation/fontsmanager) { get; } | Gibt den Schriftartenmanager zurück. Nur Lesezugriff [`IFontsManager`](../ifontsmanager). |
+| [HeaderFooterManager](../../aspose.slides/ipresentation/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Präsentation zurück. Nur Lesezugriff [`IPresentationHeaderFooterManager`](../ipresentationheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/ipresentation/hyperlinkqueries) { get; } | Bietet einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfolien enthalten sind (nicht in Master-, Layout- oder Notizenfolien). Nur Lesezugriff [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Images](../../aspose.slides/ipresentation/images) { get; } | Gibt die Sammlung aller Bilder in der Präsentation zurück. Nur Lesezugriff [`IImageCollection`](../iimagecollection). |
+| [LayoutSlides](../../aspose.slides/ipresentation/layoutslides) { get; } | Gibt eine Liste aller Layoutfolien zurück, die in der Präsentation definiert sind. Nur Lesezugriff [`IGlobalLayoutSlideCollection`](../igloballayoutslidecollection). |
+| [MasterHandoutSlideManager](../../aspose.slides/ipresentation/masterhandoutslidemanager) { get; } | Gibt den Handout-Master-Manager zurück. Nur Lesezugriff [`IMasterHandoutSlideManager`](../imasterhandoutslidemanager). |
+| [MasterNotesSlideManager](../../aspose.slides/ipresentation/masternotesslidemanager) { get; } | Gibt den Notizen-Master-Manager zurück. Nur Lesezugriff [`IMasterNotesSlideManager`](../imasternotesslidemanager). |
+| [Masters](../../aspose.slides/ipresentation/masters) { get; } | Gibt eine Liste aller Masterfolien zurück, die in der Präsentation definiert sind. Nur Lesezugriff [`IMasterSlideCollection`](../imasterslidecollection). |
+| [MasterTheme](../../aspose.slides/ipresentation/mastertheme) { get; } | Gibt das Master-Theme der Präsentation zurück. Nur Lesezugriff [`IMasterTheme`](../../aspose.slides.theme/imastertheme). |
+| [NotesSize](../../aspose.slides/ipresentation/notessize) { get; } | Gibt das Notizfolien-Größenobjekt zurück. Nur Lesezugriff [`INotesSize`](../inotessize). |
+| [ProtectionManager](../../aspose.slides/ipresentation/protectionmanager) { get; } | Ermöglicht den Zugriff auf den Manager der Berechtigungen für diese Präsentation. Nur Lesezugriff [`IProtectionManager`](../iprotectionmanager). |
+| [Sections](../../aspose.slides/ipresentation/sections) { get; } | Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind. Nur Lesezugriff [`ISectionCollection`](../isectioncollection). |
+| [Slides](../../aspose.slides/ipresentation/slides) { get; } | Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. Nur Lesezugriff [`ISlideCollection`](../islidecollection). |
+| [SlideSize](../../aspose.slides/ipresentation/slidesize) { get; } | Gibt das Foliengrößenobjekt zurück. Nur Lesezugriff [`ISlideSize`](../islidesize). |
+| [SourceFormat](../../aspose.slides/ipresentation/sourceformat) { get; } | Gibt Informationen darüber zurück, aus welchem Format die Präsentation geladen wurde. Nur Lesezugriff [`SourceFormat`](./sourceformat). |
+| [VbaProject](../../aspose.slides/ipresentation/vbaproject) { get; set; } | Ermöglicht den Zugriff auf das VBA-Projekt mit Präsentationsmakros. Lese-/Schreibzugriff [`IVbaProject`](../../aspose.slides.vba/ivbaproject). |
+| [Videos](../../aspose.slides/ipresentation/videos) { get; } | Gibt die Sammlung aller eingebetteten Videodateien in der Präsentation zurück. Nur Lesezugriff [`IVideoCollection`](../ivideocollection). |
+| [ViewProperties](../../aspose.slides/ipresentation/viewproperties) { get; } | Ermöglicht den Zugriff auf die präsentationsweiten Ansichtseigenschaften. Nur Lesezugriff [`IViewProperties`](../iviewproperties). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetSlideById](../../aspose.slides/ipresentation/getslidebyid)(uint) | Gibt eine Folie, MasterSlide oder LayoutSlide nach ID zurück. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_6)(IRenderingOptions) | Gibt ein Thumbnail-Bitmap-Objekt für alle Folien einer Präsentation zurück. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_7)(IRenderingOptions, int[]) | Gibt ein Thumbnail-Bitmap-Objekt für bestimmte Folien einer Präsentation zurück. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_11)(IRenderingOptions, Size) | Gibt ein Thumbnail-Bitmap-Objekt für alle Folien einer Präsentation mit angegebener Größe zurück. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_10)(IRenderingOptions, float, float) | Gibt ein Thumbnail-Bitmap-Objekt für alle Folien einer Präsentation mit benutzerdefinierter Skalierung zurück. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_9)(IRenderingOptions, int[], Size) | Gibt ein Thumbnail-Bitmap-Objekt für angegebene Folien einer Präsentation mit angegebener Größe zurück. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_8)(IRenderingOptions, int[], float, float) | Gibt ein Thumbnail-Bitmap-Objekt für bestimmte Folien einer Präsentation mit benutzerdefinierter Skalierung zurück. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ipresentation/joinportionswithsameformatting)() | Verbindet Läufe mit derselben Formatierung in allen Absätzen in allen akzeptablen Formen auf allen Folien. |
-| [Print](../../aspose.slides/ipresentation/print#print)() | Druckt die gesamte Präsentation auf dem Standarddrucker. |
-| [Print](../../aspose.slides/ipresentation/print#print_1)(PrinterSettings) | Druckt die Präsentation gemäß den angegebenen Druckereinstellungen, unter Verwendung des Standarddruckcontrollers (ohne Benutzeroberfläche). |
-| [Print](../../aspose.slides/ipresentation/print#print_3)(string) | Drucken Sie die gesamte Präsentation auf dem angegebenen Drucker, unter Verwendung des Standarddruckcontrollers (ohne Benutzeroberfläche). |
-| [Print](../../aspose.slides/ipresentation/print#print_2)(PrinterSettings, string) | Druckt das Dokument gemäß den angegebenen Druckereinstellungen unter Verwendung des Standarddruckcontrollers (ohne Benutzeroberfläche) und eines Präsentationsnamens. |
-| [Save](../../aspose.slides/ipresentation/save#save)(IXamlOptions) | Speichert alle Folien einer Präsentation in einem Satz von Dateien, die XAML-Markup darstellen. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages)(IRenderingOptions) | Gibt ein Thumbnail-Bildobjekt für alle Folien einer Präsentation zurück. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_1)(IRenderingOptions, int[]) | Gibt ein Thumbnail-Bitmap-Objekt für bestimmte Folien einer Präsentation zurück. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_5)(IRenderingOptions, Size) | Gibt ein Thumbnail-Bildobjekt für alle Folien einer Präsentation mit angegebener Größe zurück. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_4)(IRenderingOptions, float, float) | Gibt ein Thumbnail-Bildobjekt für alle Folien einer Präsentation mit benutzerdefinierter Skalierung zurück. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_3)(IRenderingOptions, int[], Size) | Gibt ein Thumbnail-Bildobjekt für bestimmte Folien einer Präsentation mit angegebener Größe zurück. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_2)(IRenderingOptions, int[], float, float) | Gibt ein Thumbnail-Bildobjekt für bestimmte Folien einer Präsentation mit benutzerdefinierter Skalierung zurück. |
+| [GetSlideById](../../aspose.slides/ipresentation/getslidebyid)(uint) | Gibt eine Folie, MasterFolie oder LayoutFolie nach ID zurück. |
+| [HighlightRegex](../../aspose.slides/ipresentation/highlightregex)(Regex, Color, IFindResultCallback) | Hebt alle Übereinstimmungen des regulären Ausdrucks mit der angegebenen Farbe hervor. |
+| [HighlightText](../../aspose.slides/ipresentation/highlighttext#highlighttext)(string, Color) | Hebt alle Übereinstimmungen des Beispieltextes mit der angegebenen Farbe hervor. |
+| [HighlightText](../../aspose.slides/ipresentation/highlighttext#highlighttext_1)(string, Color, ITextSearchOptions, IFindResultCallback) | Hebt alle Übereinstimmungen des Beispieltextes mit der angegebenen Farbe hervor. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ipresentation/joinportionswithsameformatting)() | Verbindet Textabschnitte mit gleichem Format in allen Absätzen in allen akzeptablen Formen in allen Folien. |
+| [ReplaceRegex](../../aspose.slides/ipresentation/replaceregex)(Regex, string, IFindResultCallback) | Ersetzt alle Übereinstimmungen des regulären Ausdrucks durch den angegebenen String. |
+| [ReplaceText](../../aspose.slides/ipresentation/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Ersetzt alle Vorkommen des angegebenen Textes durch einen anderen angegebenen Text. |
+| [Save](../../aspose.slides/ipresentation/save#save)(IXamlOptions) | Speichert alle Folien einer Präsentation in einer Reihe von Dateien, die XAML-Markup darstellen. |
 | [Save](../../aspose.slides/ipresentation/save#save_1)(Stream, SaveFormat) | Speichert alle Folien einer Präsentation in einem Stream im angegebenen Format. |
-| [Save](../../aspose.slides/ipresentation/save#save_5)(string, SaveFormat) | Speichert alle Folien einer Präsentation in eine Datei mit dem angegebenen Format. |
+| [Save](../../aspose.slides/ipresentation/save#save_5)(string, SaveFormat) | Speichert alle Folien einer Präsentation in einer Datei im angegebenen Format. |
 | [Save](../../aspose.slides/ipresentation/save#save_3)(Stream, int[], SaveFormat) | Speichert bestimmte Folien einer Präsentation in einem Stream im angegebenen Format. |
 | [Save](../../aspose.slides/ipresentation/save#save_2)(Stream, SaveFormat, ISaveOptions) | Speichert alle Folien einer Präsentation in einem Stream im angegebenen Format und mit zusätzlichen Optionen. |
-| [Save](../../aspose.slides/ipresentation/save#save_9)(string, int[], SaveFormat) | Speichert bestimmte Folien einer Präsentation in einer Datei mit dem angegebenen Format. |
-| [Save](../../aspose.slides/ipresentation/save#save_6)(string, SaveFormat, ISaveOptions) | Speichert alle Folien einer Präsentation in eine Datei mit dem angegebenen Format und mit zusätzlichen Optionen. |
+| [Save](../../aspose.slides/ipresentation/save#save_7)(string, int[], SaveFormat) | Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format. |
+| [Save](../../aspose.slides/ipresentation/save#save_6)(string, SaveFormat, ISaveOptions) | Speichert alle Folien einer Präsentation in einer Datei im angegebenen Format und mit zusätzlichen Optionen. |
 | [Save](../../aspose.slides/ipresentation/save#save_4)(Stream, int[], SaveFormat, ISaveOptions) | Speichert bestimmte Folien einer Präsentation in einem Stream im angegebenen Format. |
-| [Save](../../aspose.slides/ipresentation/save#save_10)(string, int[], SaveFormat, ISaveOptions) | Speichert bestimmte Folien einer Präsentation in einer Datei mit dem angegebenen Format. |
-| [Save](../../aspose.slides/ipresentation/save#save_8)(string, SaveFormat, HttpResponse, bool) | Sendet die Präsentation an den Client-Browser. Diese Methode fehlt in ClientProfile-Versionen von Aspose.Slide. |
-| [Save](../../aspose.slides/ipresentation/save#save_7)(string, SaveFormat, ISaveOptions, HttpResponse, bool) | Sendet die Präsentation an den Client-Browser. Diese Methode fehlt in ClientProfile-Versionen von Aspose.Slide. |
+| [Save](../../aspose.slides/ipresentation/save#save_8)(string, int[], SaveFormat, ISaveOptions) | Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format. |
 
 ### Siehe auch
 
-* interface [IPresentationComponent](../ipresentationcomponent)
-* namensraum [Aspose.Slides](../../aspose.slides)
-* Montage [Aspose.Slides](../../)
+* Schnittstelle [IPresentationComponent](../ipresentationcomponent)
+* Namespace [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

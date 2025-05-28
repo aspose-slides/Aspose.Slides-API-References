@@ -1,12 +1,13 @@
 ---
-title: Encrypt
+title: Шифрование
 second_title: Справочник по API Aspose.Slides для .NET
 description: Шифрует презентацию с указанным паролем.
 type: docs
 weight: 80
 url: /ru/aspose.slides/iprotectionmanager/encrypt/
 ---
-## IProtectionManager.Encrypt method
+
+## Метод IProtectionManager.Encrypt
 
 Шифрует презентацию с указанным паролем.
 
@@ -18,9 +19,9 @@ public void Encrypt(string encryptionPassword)
 | --- | --- | --- |
 | encryptionPassword | String | Пароль. |
 
-### Смотрите также
+### См. также
 
-* interface [IProtectionManager](../../iprotectionmanager)
+* интерфейс [IProtectionManager](../../iprotectionmanager)
 * пространство имен [Aspose.Slides](../../iprotectionmanager)
 * сборка [Aspose.Slides](../../../)
 

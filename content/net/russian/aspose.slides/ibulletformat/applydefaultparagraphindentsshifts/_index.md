@@ -1,14 +1,15 @@
 ---
-title: ApplyDefaultParagraphIndentsShifts
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает ненулевые смещения по умолчанию для эффективного отступа и левого поля абзаца когда маркеры включены как это делает PowerPoint если в нем включены маркеры/нумерация абзаца. Если маркеры отключены просто сбросьте отступ и левое поле абзаца как это делает PowerPoint если отключите в нем маркеры/нумерацию абзаца. Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type .NumberedBulletStyle и FontHeight первой части. Сдвиги ненулевых отступов применяются к действующим Indent и MarginLeft текущего абзаца результирующие значения должны быть локальными значениями.
+title: ПрименениеПоумолчаниюСдвигаАбзацев
+second_title: Справка по API Aspose.Slides для .NET
+description: Устанавливает значения по умолчанию для не нулевых сдвигов для эффективного отступа абзаца и MarginLeft, когда включены маркеры, как это делает PowerPoint, если включены маркеры/номера абзаца. Если маркеры отключены, просто сбрасывает отступ абзаца и MarginLeft, как это делает PowerPoint, если отключены маркеры/номера абзаца. Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type .NumberedBulletStyle и FontHeight первой части. Ненулевые сдвиги отступов применяются к эффективному отступу и MarginLeft текущего абзаца, чтобы итоговые значения стали локальными.
 type: docs
 weight: 110
 url: /ru/aspose.slides/ibulletformat/applydefaultparagraphindentsshifts/
 ---
-## IBulletFormat.ApplyDefaultParagraphIndentsShifts method
 
-Устанавливает ненулевые смещения по умолчанию для эффективного отступа и левого поля абзаца, когда маркеры включены (как это делает PowerPoint, если в нем включены маркеры/нумерация абзаца). Если маркеры отключены, просто сбросьте отступ и левое поле абзаца (как это делает PowerPoint, если отключите в нем маркеры/нумерацию абзаца). Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Сдвиги ненулевых отступов применяются к действующим Indent и MarginLeft текущего абзаца (результирующие значения должны быть локальными значениями).
+## Метод IBulletFormat.ApplyDefaultParagraphIndentsShifts
+
+Устанавливает значения по умолчанию для не нулевых сдвигов для эффективного отступа абзаца и MarginLeft, когда включены маркеры (как это делает PowerPoint, если включены маркеры/номера абзаца). Если маркеры отключены, просто сбрасывает отступ абзаца и MarginLeft (как это делает PowerPoint, если отключены маркеры/номера абзаца). Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Ненулевые сдвиги отступов применяются к эффективному отступу и MarginLeft текущего абзаца (чтобы итоговые значения стали локальными).
 
 ```csharp
 public void ApplyDefaultParagraphIndentsShifts()
@@ -18,11 +19,11 @@ public void ApplyDefaultParagraphIndentsShifts()
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызов этого метода не имеет значения и бросаетInvalidOperationExceptionв следующих случаях: если родительский форматированный объект не является абзацем (например, вызов ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() вызовет исключение); или если абзац не был добавлен ни в одну коллекцию ITextFrame.Paragraphs (добавьте его первым); |
+| InvalidOperationException | Вызов этого метода не имеет значения и вызывает InvalidOperationException в следующих случаях: если родительский форматированный объект не является абзацем (например, вызов ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() вызовет исключение); или если абзац не был добавлен в коллекцию ITextFrame.Paragraphs (добавьте его сначала); |
 
-### Смотрите также
+### См. также
 
-* interface [IBulletFormat](../../ibulletformat)
+* интерфейс [IBulletFormat](../../ibulletformat)
 * пространство имен [Aspose.Slides](../../ibulletformat)
 * сборка [Aspose.Slides](../../../)
 

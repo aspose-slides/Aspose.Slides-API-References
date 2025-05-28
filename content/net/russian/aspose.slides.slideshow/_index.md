@@ -1,71 +1,72 @@
 ---
 title: Aspose.Slides.SlideShow
-second_title: Справочник по API Aspose.Slides для .NET
-description: Содержит классы для управления слайд-шоу и переходами между слайдами
+second_title: Aspose.Slides для .NET API Reference
+description: Содержит классы для управления слайд-шоу и переходами слайдов
 type: docs
 weight: 130
 url: /ru/aspose.slides.slideshow/
 ---
-Содержит классы для управления слайд-шоу и переходами между слайдами
+
+Содержит классы для управления слайд-шоу и переходами слайдов
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
-| [CornerDirectionTransition](./cornerdirectiontransition) | Эффект перехода слайда в угловом направлении. |
+| [CornerDirectionTransition](./cornerdirectiontransition) | Эффект перехода слайда в направлении угла. |
 | [EightDirectionTransition](./eightdirectiontransition) | Эффект перехода слайда в восьми направлениях. |
-| [EmptyTransition](./emptytransition) | Эффект перехода пустого слайда. |
-| [FlyThroughTransition](./flythroughtransition) | Эффект перехода через слайд. |
-| [GlitterTransition](./glittertransition) | Эффект перехода с блестками. |
-| [InOutTransition](./inouttransition) | Эффект перехода слайда In-Out. |
+| [EmptyTransition](./emptytransition) | Эффект пустого перехода слайда. |
+| [FlyThroughTransition](./flythroughtransition) | Эффект перехода слайда «пролет». |
+| [GlitterTransition](./glittertransition) | Эффект блестящего перехода слайда. |
+| [InOutTransition](./inouttransition) | Эффект перехода слайда «внутри-наружу». |
 | [LeftRightDirectionTransition](./leftrightdirectiontransition) | Эффект перехода слайда влево-вправо. |
-| [MorphTransition](./morphtransition) | Эффект перехода слайда пульсации. |
-| [OptionalBlackTransition](./optionalblacktransition) | Дополнительный эффект перехода черного слайда. |
-| [OrientationTransition](./orientationtransition) | Эффект перехода слайдов ориентации. |
-| [RevealTransition](./revealtransition) | Эффект перехода между слайдами. |
-| [RippleTransition](./rippletransition) | Эффект перехода слайда пульсации. |
-| [ShredTransition](./shredtransition) | Эффект перехода между слайдами. |
+| [MorphTransition](./morphtransition) | Эффект волнистого перехода слайда. |
+| [OptionalBlackTransition](./optionalblacktransition) | Опциональный черный эффект перехода слайда. |
+| [OrientationTransition](./orientationtransition) | Эффект перехода слайда по ориентации. |
+| [RevealTransition](./revealtransition) | Эффект перехода слайда «раскрытие». |
+| [RippleTransition](./rippletransition) | Эффект волны перехода слайда. |
+| [ShredTransition](./shredtransition) | Эффект рваного перехода слайда. |
 | [SideDirectionTransition](./sidedirectiontransition) | Эффект перехода слайда в боковом направлении. |
 | [SlideShowTransition](./slideshowtransition) | Представляет переход слайд-шоу. |
-| [SplitTransition](./splittransition) | Эффект перехода между слайдами. |
-| [TransitionValueBase](./transitionvaluebase) | Базовый класс для эффектов смены слайдов. |
-| [WheelTransition](./wheeltransition) | Эффект перехода при скольжении колеса. |
+| [SplitTransition](./splittransition) | Эффект раздельного перехода слайда. |
+| [TransitionValueBase](./transitionvaluebase) | Базовый класс для эффектов перехода слайдов. |
+| [WheelTransition](./wheeltransition) | Эффект перехода слайда колесом. |
 ## Интерфейсы
 
 | Интерфейс | Описание |
 | --- | --- |
-| [ICornerDirectionTransition](./icornerdirectiontransition) | Эффект перехода слайда в угловом направлении. |
+| [ICornerDirectionTransition](./icornerdirectiontransition) | Эффект перехода слайда в направлении угла. |
 | [IEightDirectionTransition](./ieightdirectiontransition) | Эффект перехода слайда в восьми направлениях. |
-| [IEmptyTransition](./iemptytransition) | Эффект перехода пустого слайда. |
-| [IFlyThroughTransition](./iflythroughtransition) | Эффект перехода через слайд. |
-| [IGlitterTransition](./iglittertransition) | Эффект перехода с блестками. |
-| [IInOutTransition](./iinouttransition) | Эффект перехода слайда In-Out. |
+| [IEmptyTransition](./iemptytransition) | Эффект пустого перехода слайда. |
+| [IFlyThroughTransition](./iflythroughtransition) | Эффект перехода слайда «пролет». |
+| [IGlitterTransition](./iglittertransition) | Эффект блестящего перехода слайда. |
+| [IInOutTransition](./iinouttransition) | Эффект перехода слайда «внутри-наружу». |
 | [ILeftRightDirectionTransition](./ileftrightdirectiontransition) | Эффект перехода слайда влево-вправо. |
-| [IMorphTransition](./imorphtransition) | Эффект перехода слайда пульсации. |
-| [IOptionalBlackTransition](./ioptionalblacktransition) | Дополнительный эффект перехода черного слайда. |
-| [IOrientationTransition](./iorientationtransition) | Эффект перехода слайдов ориентации. |
-| [IRevealTransition](./irevealtransition) | Эффект перехода между слайдами. |
-| [IRippleTransition](./irippletransition) | Эффект перехода слайда пульсации. |
-| [IShredTransition](./ishredtransition) | Эффект перехода между слайдами. |
+| [IMorphTransition](./imorphtransition) | Эффект волнистого перехода слайда. |
+| [IOptionalBlackTransition](./ioptionalblacktransition) | Опциональный черный эффект перехода слайда. |
+| [IOrientationTransition](./iorientationtransition) | Эффект перехода слайда по ориентации. |
+| [IRevealTransition](./irevealtransition) | Эффект перехода слайда «раскрытие». |
+| [IRippleTransition](./irippletransition) | Эффект волны перехода слайда. |
+| [IShredTransition](./ishredtransition) | Эффект рваного перехода слайда. |
 | [ISideDirectionTransition](./isidedirectiontransition) | Эффект перехода слайда в боковом направлении. |
-| [ISplitTransition](./isplittransition) | Эффект перехода между слайдами. |
-| [ITransitionValueBase](./itransitionvaluebase) | Представляет базовый класс для эффектов смены слайдов. |
-| [IWheelTransition](./iwheeltransition) | Эффект перехода при скольжении колеса. |
-## перечисление
+| [ISplitTransition](./isplittransition) | Эффект раздельного перехода слайда. |
+| [ITransitionValueBase](./itransitionvaluebase) | Представляет базовый класс для эффектов перехода слайдов. |
+| [IWheelTransition](./iwheeltransition) | Эффект перехода слайда колесом. |
+## Перечисления
 
-| перечисление | Описание |
+| Перечисление | Описание |
 | --- | --- |
-| [TransitionCornerAndCenterDirectionType](./transitioncornerandcenterdirectiontype) | Задает направление, ограниченное углами и центром. |
-| [TransitionCornerDirectionType](./transitioncornerdirectiontype) | Представляют типы перехода в направлении угла. |
-| [TransitionEightDirectionType](./transitioneightdirectiontype) | Представляют восемь типов перехода направления. |
-| [TransitionInOutDirectionType](./transitioninoutdirectiontype) | Представляют типы перехода внутрь или наружу. |
-| [TransitionLeftRightDirectionType](./transitionleftrightdirectiontype) | Указывает направление, ограниченное значениями влево и вправо. |
-| [TransitionMorphType](./transitionmorphtype) | Представляют тип перехода морфинга. |
-| [TransitionPattern](./transitionpattern) | Определяет геометрический узор, который мозаично заполняет большую область. |
-| [TransitionShredPattern](./transitionshredpattern) | Определяет геометрическую фигуру, которая складывается вместе, чтобы заполнить большую область. |
-| [TransitionSideDirectionType](./transitionsidedirectiontype) | Представляют типы перехода в боковом направлении. |
-| [TransitionSoundMode](./transitionsoundmode) | Представляют звуковой режим перехода. |
-| [TransitionSpeed](./transitionspeed) | Представляют типы скорости перехода. |
+| [TransitionCornerAndCenterDirectionType](./transitioncornerandcenterdirectiontype) | Определяет направление, ограниченное углами и центром. |
+| [TransitionCornerDirectionType](./transitioncornerdirectiontype) | Представляет типы переходов в направлении угла. |
+| [TransitionEightDirectionType](./transitioneightdirectiontype) | Представляет типы переходов в восьми направлениях. |
+| [TransitionInOutDirectionType](./transitioninoutdirectiontype) | Представляет типы переходов внутри или снаружи. |
+| [TransitionLeftRightDirectionType](./transitionleftrightdirectiontype) | Определяет направление, ограниченное значениями «влево» и «вправо». |
+| [TransitionMorphType](./transitionmorphtype) | Представляет тип морфного перехода. |
+| [TransitionPattern](./transitionpattern) | Определяет геометрический узор, который заполняет большую площадь. |
+| [TransitionShredPattern](./transitionshredpattern) | Определяет геометрическую форму, которая заполняет большую площадь. |
+| [TransitionSideDirectionType](./transitionsidedirectiontype) | Представляет типы переходов в боковом направлении. |
+| [TransitionSoundMode](./transitionsoundmode) | Представляет звуковой режим перехода. |
+| [TransitionSpeed](./transitionspeed) | Представляет типы скорости перехода. |
 | [TransitionType](./transitiontype) | Представляет тип перехода слайд-шоу. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

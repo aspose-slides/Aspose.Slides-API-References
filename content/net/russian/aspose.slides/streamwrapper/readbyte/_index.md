@@ -1,22 +1,23 @@
 ---
 title: ReadByte
-second_title: Справочник по API Aspose.Slides для .NET
-description: Считывает байт из потока и сдвигает позицию в потоке на один байт или возвращает -1 если в конце потока.
+second_title: Aspose.Slides для .NET Справочник API
+description: Читает байт из потока и перемещает позицию в потоке на один байт или возвращает -1, если достигнут конец потока.
 type: docs
 weight: 120
 url: /ru/aspose.slides/streamwrapper/readbyte/
 ---
-## StreamWrapper.ReadByte method
 
-Считывает байт из потока и сдвигает позицию в потоке на один байт или возвращает -1, если в конце потока.
+## StreamWrapper.ReadByte метод
+
+Читает байт из потока и перемещает позицию в потоке на один байт, или возвращает -1, если достигнут конец потока.
 
 ```csharp
 public int ReadByte()
 ```
 
-### Смотрите также
+### См. также
 
-* class [StreamWrapper](../../streamwrapper)
+* класс [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

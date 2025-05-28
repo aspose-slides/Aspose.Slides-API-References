@@ -1,14 +1,15 @@
 ---
-title: Insert
+title: Вставить
 second_title: Справочник по API Aspose.Slides для .NET
-description: Вставляет порцию в коллекцию по указанному индексу.
+description: Вставляет Portion в коллекцию по указанному индексу.
 type: docs
 weight: 100
 url: /ru/aspose.slides/portioncollection/insert/
 ---
-## PortionCollection.Insert method
 
-Вставляет порцию в коллекцию по указанному индексу.
+## Метод PortionCollection.Insert
+
+Вставляет Portion в коллекцию по указанному индексу.
 
 ```csharp
 public void Insert(int index, IPortion value)
@@ -16,13 +17,13 @@ public void Insert(int index, IPortion value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который должна быть вставлена порция. |
-| value | IPortion | Часть для вставки. |
+| index | Int32 | Индекс с нуля, по которому Portion должен быть вставлен. |
+| value | IPortion | Portion для вставки. |
 
-### Смотрите также
+### См. Также
 
-* interface [IPortion](../../iportion)
-* class [PortionCollection](../../portioncollection)
+* интерфейс [IPortion](../../iportion)
+* класс [PortionCollection](../../portioncollection)
 * пространство имен [Aspose.Slides](../../portioncollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,53 +1,90 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Ermöglicht das Erstellen einer Präsentation über die COMSchnittstelle
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ermöglicht die Erstellung von Präsentationen über die COM-Schnittstelle
 type: docs
-weight: 8900
+weight: 9330
 url: /de/aspose.slides/presentationfactory/
 ---
-## PresentationFactory class
 
-Ermöglicht das Erstellen einer Präsentation über die COM-Schnittstelle
+## PresentationFactory-Klasse
+
+Ermöglicht die Erstellung von Präsentationen über die COM-Schnittstelle
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [PresentationFactory](presentationfactory)() | Default_Constructor |
+| [PresentationFactory](presentationfactory)() | Der Standardkonstruktor. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Statische Instanz der Presentation Factory. Schreibgeschützt[`PresentationFactory`](../presentationfactory) . |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Statische Instanz der Präsentationsfabrik. Nur schreibgeschützt [`PresentationFactory`](../presentationfactory). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Erstellt eine neue Präsentation. |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Erstellt neue Präsentation mit zusätzlichen Ladeoptionen |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Erstellt ein neues PresentationInfo-Objekt aus dem Stream und bindet die Präsentation daran. Ruft Informationen über die Präsentation im angegebenen Stream ab. |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Erstellt eine neue Präsentation mit zusätzlichen Ladeoptionen |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Erstellt ein neues PresentationInfo-Objekt aus einem Stream und bindet die Präsentation daran. Ruft Informationen über die Präsentation im angegebenen Stream ab. |
 | [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Erstellt ein neues PresentationInfo-Objekt aus einer Datei und bindet die Präsentation daran. |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Ruft den Rohtext von den Folien ab |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Ruft den Rohtext von den Folien ab |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Ruft den Rohtext von den Folien ab |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Liest eine vorhandene Präsentation aus array |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Liest eine vorhandene Präsentation aus stream |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Liest eine vorhandene Präsentation aus Datei |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Liest eine vorhandene Präsentation aus einem Array |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Liest eine vorhandene Präsentation aus einem Stream |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Liest eine vorhandene Präsentation aus einer Datei |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Liest eine vorhandene Präsentation aus einem Array mit zusätzlichen Ladeoptionen |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Liest eine vorhandene Präsentation aus dem Stream mit zusätzlichen Ladeoptionen |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Liest eine vorhandene Präsentation aus dem Stream mit zusätzlichen Ladeoptionen |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Liest eine vorhandene Präsentation aus einem Stream mit zusätzlichen Ladeoptionen |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Liest eine vorhandene Präsentation aus einem Stream mit zusätzlichen Ladeoptionen |
 
-### Siehe auch
+### Beispiele
+
+Das folgende Beispiel zeigt, wie man das Format einer Präsentation überprüft.
+
+```csharp
+[C#]
+IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
+Console.WriteLine(info.LoadFormat); // PPTX
+IPresentationInfo info2 = PresentationFactory.Instance.GetPresentationInfo("pres.ppt");
+Console.WriteLine(info2.LoadFormat); // PPT
+IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres.odp");
+Console.WriteLine(info3.LoadFormat); // ODP
+```
+
+Das folgende Beispiel zeigt, wie man die Eigenschaften einer Präsentation abruft.
+
+```csharp
+[C#]
+IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
+IDocumentProperties props = info.ReadDocumentProperties();
+Console.WriteLine(props.CreatedTime);
+Console.WriteLine(props.Subject);
+Console.WriteLine(props.Title);
+// ..
+```
+
+Das folgende Beispiel zeigt, wie man die Eigenschaften einer Präsentation aktualisiert.
+
+```csharp
+[C#]
+IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
+IDocumentProperties props = info.ReadDocumentProperties();
+props.Title = "Mein Titel";
+info.UpdateDocumentProperties(props);
+```
+
+### Siehe Auch
 
 * interface [IPresentationFactory](../ipresentationfactory)
-* namensraum [Aspose.Slides](../../aspose.slides)
-* Montage [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

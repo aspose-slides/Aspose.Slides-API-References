@@ -1,14 +1,15 @@
 ---
-title: Remove
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет элемент из коллекции по его индексу в родительской коллекции точек серии.
+title: Удалить
+second_title: Справка по API Aspose.Slides для .NET
+description: Удаляет элемент из коллекции по индексу в коллекции точек родительской серии.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ipiesplitcustompointcollection/remove/
 ---
-## IPieSplitCustomPointCollection.Remove method
 
-Удаляет элемент из коллекции по его индексу в родительской коллекции точек серии.
+## Метод IPieSplitCustomPointCollection.Remove
+
+Удаляет элемент из коллекции по индексу в коллекции точек родительской серии.
 
 ```csharp
 public void Remove(int dataPointIndex)
@@ -16,11 +17,10 @@ public void Remove(int dataPointIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataPointIndex | Int32 | Индекс точки данных в коллекции точек родительского ряда.. |
+| dataPointIndex | Int32 | Индекс точки данных в коллекции точек родительской серии. |
 
-### Смотрите также
-
-* interface [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
+### Также см.
+* интерфейс [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ipiesplitcustompointcollection)
 * сборка [Aspose.Slides](../../../)
 

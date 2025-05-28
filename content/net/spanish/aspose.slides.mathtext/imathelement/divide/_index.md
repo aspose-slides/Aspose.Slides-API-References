@@ -1,24 +1,25 @@
 ---
-title: Divide
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea una fracción con este numerador y el denominador especificado
+title: Dividir
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Crea una fracción con este numerador y denominador especificado
 type: docs
 weight: 30
 url: /es/aspose.slides.mathtext/imathelement/divide/
 ---
-## Divide(IMathElement) {#divide}
 
-Crea una fracción con este numerador y el denominador especificado
+## Dividir(IMathElement) {#divide}
+
+Crea una fracción con este numerador y denominador especificado
 
 ```csharp
 public IMathFraction Divide(IMathElement denominator)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | denominator | IMathElement | Denominador |
 
-### Valor_devuelto
+### Valor de Retorno
 
 nueva fracción
 
@@ -33,28 +34,28 @@ IMathElement denumerator = new MathematicalText("y");
 IMathFraction fraction = numerator.Divide(denumerator);
 ```
 
-### Ver también
+### Véase También
 
 * interface [IMathFraction](../../imathfraction)
 * interface [IMathElement](../../imathelement)
-* espacio de nombres [Aspose.Slides.MathText](../../imathelement)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.MathText](../../imathelement)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Divide(string) {#divide_2}
+## Dividir(string) {#divide_2}
 
-Crea una fracción con este numerador y el denominador especificado
+Crea una fracción con este numerador y denominador especificado
 
 ```csharp
 public IMathFraction Divide(string denominator)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | denominator | String | Denominador |
 
-### Valor_devuelto
+### Valor de Retorno
 
 nueva fracción
 
@@ -68,16 +69,16 @@ IMathElement numerator = new MathematicalText("x");
 IMathFraction fraction = numerator.Divide("y");
 ```
 
-### Ver también
+### Véase También
 
 * interface [IMathFraction](../../imathfraction)
 * interface [IMathElement](../../imathelement)
-* espacio de nombres [Aspose.Slides.MathText](../../imathelement)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.MathText](../../imathelement)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Divide(IMathElement, MathFractionTypes) {#divide_1}
+## Dividir(IMathElement, MathFractionTypes) {#divide_1}
 
 Crea una fracción del tipo especificado con este numerador y denominador especificado
 
@@ -85,12 +86,12 @@ Crea una fracción del tipo especificado con este numerador y denominador especi
 public IMathFraction Divide(IMathElement denominator, MathFractionTypes fractionType)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | denominator | IMathElement | Denominador |
-| fractionType | MathFractionTypes | Tipo de fracción: barra, sin barra, sesgada, lineal |
+| fractionType | MathFractionTypes | Tipo de fracción: Bar, NoBar, Skewed, Linear |
 
-### Valor_devuelto
+### Valor de Retorno
 
 nueva fracción
 
@@ -105,17 +106,17 @@ IMathElement denumerator = new MathematicalText("y");
 IMathFraction fraction = numerator.Divide(denumerator, MathFractionTypes.Linear);
 ```
 
-### Ver también
+### Véase También
 
 * interface [IMathFraction](../../imathfraction)
 * enum [MathFractionTypes](../../mathfractiontypes)
 * interface [IMathElement](../../imathelement)
-* espacio de nombres [Aspose.Slides.MathText](../../imathelement)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.MathText](../../imathelement)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Divide(string, MathFractionTypes) {#divide_3}
+## Dividir(string, MathFractionTypes) {#divide_3}
 
 Crea una fracción del tipo especificado con este numerador y denominador especificado
 
@@ -123,12 +124,12 @@ Crea una fracción del tipo especificado con este numerador y denominador especi
 public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | denominator | String | Denominador |
-| fractionType | MathFractionTypes | Tipo de fracción: barra, sin barra, sesgada, lineal |
+| fractionType | MathFractionTypes | Tipo de fracción: Bar, NoBar, Skewed, Linear |
 
-### Valor_devuelto
+### Valor de Retorno
 
 nueva fracción
 
@@ -142,12 +143,12 @@ IMathElement numerator = new MathematicalText("x");
 IMathFraction fraction = numerator.Divide("y", MathFractionTypes.Linear);
 ```
 
-### Ver también
+### Véase También
 
 * interface [IMathFraction](../../imathfraction)
 * enum [MathFractionTypes](../../mathfractiontypes)
 * interface [IMathElement](../../imathelement)
-* espacio de nombres [Aspose.Slides.MathText](../../imathelement)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.MathText](../../imathelement)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

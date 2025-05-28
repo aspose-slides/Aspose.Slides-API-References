@@ -1,12 +1,13 @@
 ---
 title: ISlideImageFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет формат в котором изображение слайда будет сохранено для экспорта презентации в HTML.
+description: Определяет формат, в котором изображение слайда будет сохранено для экспорта презентации в HTML.
 type: docs
-weight: 3760
+weight: 3920
 url: /ru/aspose.slides.export/islideimageformat/
 ---
-## ISlideImageFormat interface
+
+## Интерфейс ISlideImageFormat
 
 Определяет формат, в котором изображение слайда будет сохранено для экспорта презентации в HTML.
 
@@ -14,7 +15,7 @@ url: /ru/aspose.slides.export/islideimageformat/
 public interface ISlideImageFormat
 ```
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

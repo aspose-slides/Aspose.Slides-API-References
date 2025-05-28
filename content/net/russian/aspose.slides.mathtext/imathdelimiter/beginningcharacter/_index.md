@@ -1,14 +1,15 @@
 ---
-title: BeginningCharacter
-second_title: Справочник по API Aspose.Slides для .NET
-description: Начальный символ-разделитель определяет начальный или открывающий символ-разделитель. Математические разделители заключают в себя символы такие как круглые и фигурные скобки. Значение по умолчанию.
+title: Начальный Символ
+second_title: Справочник API Aspose.Slides для .NET
+description: Символ Начального Разделителя указывает на начальный или открывающий символ разделителя. Математические разделители — это заключающие символы, такие как скобки, квадратные скобки и фигурные скобки. Значение по умолчанию ''.
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathdelimiter/beginningcharacter/
 ---
-## IMathDelimiter.BeginningCharacter property
 
-Начальный символ-разделитель определяет начальный или открывающий символ-разделитель. Математические разделители заключают в себя символы, такие как круглые и фигурные скобки. Значение по умолчанию:'('.
+## Свойство IMathDelimiter.BeginningCharacter
+
+Символ Начального Разделителя указывает на начальный или открывающий символ разделителя. Математические разделители — это заключающие символы, такие как скобки, квадратные скобки и фигурные скобки. Значение по умолчанию: '('.
 
 ```csharp
 public char BeginningCharacter { get; set; }
@@ -24,9 +25,9 @@ IMathDelimiter delimiter = new MathematicalText("x").Join("y").Enclose();
 delimiter.BeginningCharacter = '[';
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathDelimiter](../../imathdelimiter)
+* интерфейс [IMathDelimiter](../../imathdelimiter)
 * пространство имен [Aspose.Slides.MathText](../../imathdelimiter)
 * сборка [Aspose.Slides](../../../)
 

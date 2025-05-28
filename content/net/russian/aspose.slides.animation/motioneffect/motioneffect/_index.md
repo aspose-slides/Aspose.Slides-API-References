@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.animation/motioneffect/motioneffect/
 ---
-## MotionEffect constructor
+
+## Конструктор MotionEffect
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/motioneffect/motioneffect/
 public MotionEffect()
 ```
 
-### Смотрите также
+### См. также
 
-* class [MotionEffect](../../motioneffect)
+* класс [MotionEffect](../../motioneffect)
 * пространство имен [Aspose.Slides.Animation](../../motioneffect)
 * сборка [Aspose.Slides](../../../)
 

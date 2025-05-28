@@ -1,22 +1,23 @@
 ---
 title: PresentationFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает предполагаемый формат презентации. Чтение/записьString.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает целевой формат презентации. Читаемая/записываемая строка.
 type: docs
-weight: 190
+weight: 260
 url: /ru/aspose.slides/idocumentproperties/presentationformat/
 ---
-## IDocumentProperties.PresentationFormat property
 
-Возвращает или задает предполагаемый формат презентации. Чтение/записьString.
+## Свойство IDocumentProperties.PresentationFormat
+
+Возвращает или задает целевой формат презентации. Читаемая/записываемая строка.
 
 ```csharp
 public string PresentationFormat { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IDocumentProperties](../../idocumentproperties)
+* интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
 * сборка [Aspose.Slides](../../../)
 

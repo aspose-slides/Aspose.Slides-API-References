@@ -1,28 +1,29 @@
 ---
 title: ITab
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет собой таблицу для текста.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет табуляцию для текста.
 type: docs
-weight: 6610
+weight: 6970
 url: /ru/aspose.slides/itab/
 ---
-## ITab interface
 
-Представляет собой таблицу для текста.
+## Интерфейс ITab
+
+Представляет табуляцию для текста.
 
 ```csharp
 public interface ITab : IComparable
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Возвращает или задает стиль выравнивания вкладки. Чтение/запись[`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтенияIComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | Возвращает или устанавливает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недействительным. Чтение/записьDouble. |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Возвращает или устанавливает стиль выравнивания табуляции. Чтение/запись [`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтения IComparable. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Возвращает или устанавливает позицию табуляции. Присваивание этого свойства может изменить индекс табуляции в коллекции и сделать недействительным Enumerator. Чтение/запись Double. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

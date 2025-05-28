@@ -1,27 +1,28 @@
 ---
 title: LayoutSlides
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию дочерних слайдов макета для этого мастер-слайда. Только для чтенияIMasterLayoutSlideCollectionaspose.slides/imasterlayoutslidecollection.
+description: Возвращает коллекцию дочерних слайдов макета для этого слайда-мастера. Только для чтения IMasterLayoutSlideCollectionaspose.slides/imasterlayoutslidecollection.
 type: docs
 weight: 40
 url: /ru/aspose.slides/masterslide/layoutslides/
 ---
-## MasterSlide.LayoutSlides property
 
-Возвращает коллекцию дочерних слайдов макета для этого мастер-слайда. Только для чтения[`IMasterLayoutSlideCollection`](../../imasterlayoutslidecollection).
+## Свойство MasterSlide.LayoutSlides
+
+Возвращает коллекцию дочерних слайдов макета для этого слайда-мастера. Только для чтения [`IMasterLayoutSlideCollection`](../../imasterlayoutslidecollection).
 
 ```csharp
 public IMasterLayoutSlideCollection LayoutSlides { get; }
 ```
 
-### Примечания
+### Замечания
 
-Вы можете получить доступ к альтернативному API для добавления/вставки/удаления/клонирования слайдов макета с помощью свойства[`LayoutSlides`](../../ipresentation/layoutslides).
+Вы можете получить доступ к альтернативному API для добавления/вставки/удаления/клонирования слайдов макета, используя свойство [`LayoutSlides`](../../ipresentation/layoutslides).
 
 ### Смотрите также
 
-* interface [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
-* class [MasterSlide](../../masterslide)
+* интерфейс [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
+* класс [MasterSlide](../../masterslide)
 * пространство имен [Aspose.Slides](../../masterslide)
 * сборка [Aspose.Slides](../../../)
 

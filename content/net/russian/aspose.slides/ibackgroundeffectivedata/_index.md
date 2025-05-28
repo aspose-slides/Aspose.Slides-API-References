@@ -1,12 +1,13 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект содержащий эффективные свойства фона.
+second_title: Aspose.Slides для .NET API Справочник
+description: Неизменяемый объект, содержащий эффективные свойства фона.
 type: docs
-weight: 4800
+weight: 5080
 url: /ru/aspose.slides/ibackgroundeffectivedata/
 ---
-## IBackgroundEffectiveData interface
+
+## Интерфейс IBackgroundEffectiveData
 
 Неизменяемый объект, содержащий эффективные свойства фона.
 
@@ -14,21 +15,21 @@ url: /ru/aspose.slides/ibackgroundeffectivedata/
 public interface IBackgroundEffectiveData : IFillParamSource
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | Возвращает интерфейс IFillParamSource. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Возвращает эффективный формат эффекта. Только для чтения[`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Возвращает эффективный формат заполнения. Только для чтения[`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Возвращает эффективный формат эффекта. Только для чтения [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Возвращает эффективный формат заливки. Только для чтения [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`IBackground`](../ibackground)интерфейс для возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с интерфейсом [`IBackground`](../ibackground) для возврата эффективных значений форматирования с применением наследования.
 
-### Смотрите также
+### См. также
 
-* interface [IFillParamSource](../ifillparamsource)
+* интерфейс [IFillParamSource](../ifillparamsource)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

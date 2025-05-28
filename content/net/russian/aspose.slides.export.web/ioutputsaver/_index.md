@@ -1,14 +1,15 @@
 ---
 title: IOutputSaver
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет службу сохранения вывода.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Представляет собой службу сохранения вывода.
 type: docs
-weight: 4180
+weight: 4420
 url: /ru/aspose.slides.export.web/ioutputsaver/
 ---
-## IOutputSaver interface
 
-Представляет службу сохранения вывода.
+## Интерфейс IOutputSaver
+
+Представляет собой службу сохранения вывода.
 
 ```csharp
 public interface IOutputSaver
@@ -18,9 +19,9 @@ public interface IOutputSaver
 
 | Имя | Описание |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | Сохраняет выходной файл по указанному пути. |
+| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | Сохраняет файл вывода в указанном пути. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * сборка [Aspose.Slides](../../)

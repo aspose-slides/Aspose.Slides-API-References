@@ -1,14 +1,15 @@
 ---
 title: ContourWidth
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ширину трехмерного контура. Только для чтенияDouble.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Возвращает ширину 3D-контуров. Только для чтения Double.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ithreedformateffectivedata/contourwidth/
 ---
-## IThreeDFormatEffectiveData.ContourWidth property
 
-Возвращает ширину трехмерного контура. Только для чтенияDouble.
+## Свойство IThreeDFormatEffectiveData.ContourWidth
+
+Возвращает ширину 3D-контуров. Только для чтения Double.
 
 ```csharp
 public double ContourWidth { get; }
@@ -16,7 +17,7 @@ public double ContourWidth { get; }
 
 ### Смотрите также
 
-* interface [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
+* интерфейс [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * пространство имен [Aspose.Slides](../../ithreedformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: StrokeEndArrow
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство stroke.endArrow
 type: docs
 weight: 910
 url: /ru/aspose.slides.animation/behaviorproperty/strokeendarrow/
 ---
-## BehaviorProperty.StrokeEndArrow property
+
+## BehaviorProperty.StrokeEndArrow свойство
 
 Представляет свойство 'stroke.endArrow'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokeendarrow/
 public static BehaviorProperty StrokeEndArrow { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

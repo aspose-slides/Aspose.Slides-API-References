@@ -1,12 +1,13 @@
 ---
 title: ShadowOffset2X
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство shadow.offset2.x
 type: docs
 weight: 680
 url: /ru/aspose.slides.animation/behaviorproperty/shadowoffset2x/
 ---
-## BehaviorProperty.ShadowOffset2X property
+
+## Свойство BehaviorProperty.ShadowOffset2X
 
 Представляет свойство 'shadow.offset2.x'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/shadowoffset2x/
 public static BehaviorProperty ShadowOffset2X { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

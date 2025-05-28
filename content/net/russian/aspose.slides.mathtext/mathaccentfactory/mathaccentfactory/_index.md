@@ -1,12 +1,13 @@
 ---
 title: MathAccentFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathaccentfactory/mathaccentfactory/
 ---
-## MathAccentFactory constructor
+
+## Конструктор MathAccentFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.mathtext/mathaccentfactory/mathaccentfactory/
 public MathAccentFactory()
 ```
 
-### Смотрите также
+### См. также
 
-* class [MathAccentFactory](../../mathaccentfactory)
+* класс [MathAccentFactory](../../mathaccentfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathaccentfactory)
 * сборка [Aspose.Slides](../../../)
 

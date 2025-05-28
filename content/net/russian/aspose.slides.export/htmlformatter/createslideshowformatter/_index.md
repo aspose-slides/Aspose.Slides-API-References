@@ -1,14 +1,15 @@
 ---
 title: CreateSlideShowFormatter
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает и возвращает средство форматирования HTML для простого HTML-слайд-шоу которое показывает слайды один за другим.
+description: Создает и возвращает HTML-форматтер для простого HTML слайд-шоу, который показывает слайды один за другим.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/htmlformatter/createslideshowformatter/
 ---
-## HtmlFormatter.CreateSlideShowFormatter method
 
-Создает и возвращает средство форматирования HTML для простого HTML-слайд-шоу, которое показывает слайды один за другим.
+## HtmlFormatter.CreateSlideShowFormatter метод
+
+Создает и возвращает HTML-форматтер для простого HTML слайд-шоу, который показывает слайды один за другим.
 
 ```csharp
 public static HtmlFormatter CreateSlideShowFormatter(string css, bool showSlideTitle)
@@ -16,12 +17,12 @@ public static HtmlFormatter CreateSlideShowFormatter(string css, bool showSlideT
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| css | String | Указывает URL-адрес используемого файла CCS. |
-| showSlideTitle | Boolean | Добавить заголовок слайда, если есть изображение над слайдом. |
+| css | String | Указывает URL файла CSS, который будет использован. |
+| showSlideTitle | Boolean | Добавляет заголовок слайда, если он есть над изображением слайда. |
 
-### Смотрите также
+### Также смотри
 
-* class [HtmlFormatter](../../htmlformatter)
+* класс [HtmlFormatter](../../htmlformatter)
 * пространство имен [Aspose.Slides.Export](../../htmlformatter)
 * сборка [Aspose.Slides](../../../)
 

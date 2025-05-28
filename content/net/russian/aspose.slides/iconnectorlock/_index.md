@@ -1,38 +1,39 @@
 ---
 title: IConnectorLock
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет какие операции отключены в родительском коннекторе.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, какие операции отключены на родительском Connector.
 type: docs
-weight: 5120
+weight: 5420
 url: /ru/aspose.slides/iconnectorlock/
 ---
-## IConnectorLock interface
 
-Определяет, какие операции отключены в родительском коннекторе.
+## Интерфейс IConnectorLock
+
+Определяет, какие операции отключены на родительском Connector.
 
 ```csharp
 public interface IConnectorLock : IBaseShapeLock
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Определяет, запрещено ли изменение значений настройки. Чтение/записьBoolean. |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Определяет, запрещена ли смена наконечников стрелок. Чтение/записьBoolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения[`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean. |
-| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Определяет, запрещено ли прямое изменение контура этой формы. Чтение/записьBoolean. |
-| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой формы в группу. Чтение/записьBoolean. |
-| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean. |
-| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой фигуры. Чтение/записьBoolean. |
-| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Определяет, запрещен ли выбор этой формы. Чтение/записьBoolean. |
-| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Определяет, запрещено ли изменение типа формы. Чтение/записьBoolean. |
-| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение/записьBoolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Определяет, запрещено ли изменение значений подстройки. Чтение/запись Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Определяет, запрещено ли изменение наконечников стрелок. Чтение/запись Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Определяет, необходимо ли сохранять аспектное соотношение при изменении размера. Чтение/запись Boolean. |
+| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Определяет, запрещено ли прямое изменение контура этой фигуры. Чтение/запись Boolean. |
+| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой фигуры в группу. Чтение/запись Boolean. |
+| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/запись Boolean. |
+| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой фигуры. Чтение/запись Boolean. |
+| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Определяет, запрещено ли выделение этой фигуры. Чтение/запись Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Определяет, запрещено ли изменение типа фигуры. Чтение/запись Boolean. |
+| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение/запись Boolean. |
 
-### Смотрите также
+### См. также
 
-* interface [IBaseShapeLock](../ibaseshapelock)
+* интерфейс [IBaseShapeLock](../ibaseshapelock)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

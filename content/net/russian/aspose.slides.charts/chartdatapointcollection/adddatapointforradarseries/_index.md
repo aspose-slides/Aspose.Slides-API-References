@@ -1,14 +1,15 @@
 ---
 title: AddDataPointForRadarSeries
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий тип диаграммы которых является одним из подтипов радара см. такжеIsChartTypeRadaraspose.slides.charts/charttypecharacterizer/ischarttyperadarметод .
+second_title: Aspose.Sildes для .NET API Справка
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, для которых chartType является одним из подтипов Radar, см. также метод IsChartTypeRadar aspose.slides.charts/charttypecharacterizer/ischarttyperadar.
 type: docs
 weight: 200
 url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointforradarseries/
 ---
+
 ## AddDataPointForRadarSeries(IChartDataCell) {#adddatapointforradarseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов радара (см. также[`IsChartTypeRadar`](../../charttypecharacterizer/ischarttyperadar)метод) .
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, для которых chartType является одним из подтипов Radar (см. также метод [`IsChartTypeRadar`](../../charttypecharacterizer/ischarttyperadar)).
 
 ```csharp
 public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
@@ -16,17 +17,17 @@ public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | IChartDataCell | Точка данных Значение |
+| value | IChartDataCell | Значение точки данных |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataPoint](../../ichartdatapoint)
-* interface [IChartDataCell](../../ichartdatacell)
-* class [ChartDataPointCollection](../../chartdatapointcollection)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* класс [ChartDataPointCollection](../../chartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -34,7 +35,7 @@ public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
 
 ## AddDataPointForRadarSeries(double) {#adddatapointforradarseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов радара (см. также[`IsChartTypeRadar`](../../charttypecharacterizer/ischarttyperadar)метод) .
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, для которых chartType является одним из подтипов Radar (см. также метод [`IsChartTypeRadar`](../../charttypecharacterizer/ischarttyperadar)).
 
 ```csharp
 public IChartDataPoint AddDataPointForRadarSeries(double value)
@@ -42,16 +43,16 @@ public IChartDataPoint AddDataPointForRadarSeries(double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Double | Точка данных Значение |
+| value | Double | Значение точки данных |
 
 ### Возвращаемое значение
 
 Новая точка данных.
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataPoint](../../ichartdatapoint)
-* class [ChartDataPointCollection](../../chartdatapointcollection)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* класс [ChartDataPointCollection](../../chartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

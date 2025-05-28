@@ -1,12 +1,13 @@
 ---
-title: InsertSectionZoomFrame
-second_title: Справочник по API Aspose.Slides для .NET
+title: ВставитьSectionZoomFrame
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает новый объект Section Zoom и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 320
 url: /ru/aspose.slides/ishapecollection/insertsectionzoomframe/
 ---
-## InsertSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
+
+## ВставитьSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
 
 Создает новый объект Section Zoom и вставляет его в коллекцию по указанному индексу.
 
@@ -17,26 +18,26 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | отсчитываемый от нуля индекс, в который следует вставить рамку масштабирования раздела. |
-| x | Single | Координата X нового кадра увеличения сеченияSingle. |
-| y | Single | Координата Y нового кадра увеличения сеченияSingle. |
-| width | Single | Ширина нового кадра масштабирования разделаSingle. |
-| height | Single | Высота нового кадра масштабирования разделаSingle. |
-| section | ISection | Объект слайда, на который ссылается кадр Section Zoom[`ISection`](../../isection). |
+| index | Int32 | Индекс с нуля, по которому должен быть вставлен фрейм Section Zoom. |
+| x | Single | Координата X нового фрейма Section Zoom. |
+| y | Single | Координата Y нового фрейма Section Zoom. |
+| width | Single | Ширина нового фрейма Section Zoom. |
+| height | Single | Высота нового фрейма Section Zoom. |
+| section | ISection | Объект слайда, к которому ссылается фрейм Section Zoom [`ISection`](../../isection). |
 
 ### Возвращаемое значение
 
-Создан объект Zoom Section[`ISectionZoomFrame`](../../isectionzoomframe).
+Созданный объект Section Zoom [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Упомянутый раздел не относится к текущей презентации или не содержит слайдов. |
+| ArgumentException | Указанный раздел не принадлежит текущей презентации или не содержит слайдов. |
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Section Zoom по указанному индексу коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
+Этот пример демонстрирует создание и вставку объекта Section Zoom по указанному индексу в коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
 
 ```csharp
 [C#]
@@ -46,17 +47,17 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [ISectionZoomFrame](../../isectionzoomframe)
-* interface [ISection](../../isection)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [ISectionZoomFrame](../../isectionzoomframe)
+* интерфейс [ISection](../../isection)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## InsertSectionZoomFrame(int, float, float, float, float, ISection, IPPImage) {#insertsectionzoomframe_1}
+## ВставитьSectionZoomFrame(int, float, float, float, float, ISection, IPPImage) {#insertsectionzoomframe_1}
 
 Создает новый объект Section Zoom и вставляет его в коллекцию по указанному индексу.
 
@@ -67,27 +68,27 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | отсчитываемый от нуля индекс, в который следует вставить рамку масштабирования раздела. |
-| x | Single | Координата X нового кадра увеличения сеченияSingle. |
-| y | Single | Координата Y нового кадра увеличения сеченияSingle. |
-| width | Single | Ширина нового кадра масштабирования разделаSingle. |
-| height | Single | Высота нового кадра масштабирования разделаSingle. |
-| section | ISection | Объект слайда, на который ссылается кадр Section Zoom[`ISection`](../../isection). |
-| image | IPPImage | Изображение для указанного слайда[`IPPImage`](../../ippimage) |
+| index | Int32 | Индекс с нуля, по которому должен быть вставлен фрейм Section Zoom. |
+| x | Single | Координата X нового фрейма Section Zoom. |
+| y | Single | Координата Y нового фрейма Section Zoom. |
+| width | Single | Ширина нового фрейма Section Zoom. |
+| height | Single | Высота нового фрейма Section Zoom. |
+| section | ISection | Объект слайда, к которому ссылается фрейм Section Zoom [`ISection`](../../isection). |
+| image | IPPImage | Изображение для ссылочного слайда [`IPPImage`](../../ippimage) |
 
 ### Возвращаемое значение
 
-Создан объект Zoom Section[`ISectionZoomFrame`](../../isectionzoomframe).
+Созданный объект Section Zoom [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Упомянутый раздел не относится к текущей презентации или не содержит слайдов. |
+| ArgumentException | Указанный раздел не принадлежит текущей презентации или не содержит слайдов. |
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Section Zoom по указанному индексу коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
+Этот пример демонстрирует создание и вставку объекта Section Zoom по указанному индексу в коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
 
 ```csharp
 [C#]
@@ -98,12 +99,12 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [ISectionZoomFrame](../../isectionzoomframe)
-* interface [ISection](../../isection)
-* interface [IPPImage](../../ippimage)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [ISectionZoomFrame](../../isectionzoomframe)
+* интерфейс [ISection](../../isection)
+* интерфейс [IPPImage](../../ippimage)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

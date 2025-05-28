@@ -1,12 +1,13 @@
 ---
-title: Equals
+title: Равно
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равны ли два экземпляра ILineFormatEffectiveData.
+description: Определяет, равны ли два экземпляра ILineFormatEffectiveData.
 type: docs
 weight: 180
 url: /ru/aspose.slides/ilineformateffectivedata/equals/
 ---
-## ILineFormatEffectiveData.Equals method
+
+## Метод ILineFormatEffectiveData.Equals
 
 Определяет, равны ли два экземпляра ILineFormatEffectiveData.
 
@@ -16,15 +17,15 @@ public bool Equals(ILineFormatEffectiveData lf)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| lf | ILineFormatEffectiveData | ILineFormatEffectiveData для сравнения с текущими ILineFormatEffectiveData. |
+| lf | ILineFormatEffectiveData | Экземпляр ILineFormatEffectiveData для сравнения с текущим экземпляром ILineFormatEffectiveData. |
 
 ### Возвращаемое значение
 
-**true** , если указанный ILineFormatEffectiveData равен текущему ILineFormatEffectiveData; в противном случае **false** .
+**true**, если указанный ILineFormatEffectiveData равен текущему ILineFormatEffectiveData; в противном случае **false**.
 
-### Смотрите также
+### См. также
 
-* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * пространство имен [Aspose.Slides](../../ilineformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

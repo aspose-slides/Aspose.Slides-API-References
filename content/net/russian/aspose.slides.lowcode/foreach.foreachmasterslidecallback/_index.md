@@ -1,21 +1,21 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Справочник по API Aspose.Slides для .NET
-description: 
-type: docs
-weight: 7220
+second_title: Aspose.Sildes для .NET API Справочник
+description: type docs
+weight: 7680
 url: /ru/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
-## ForEach.ForEachMasterSlideCallback delegate
+
+## Делегат ForEach.ForEachMasterSlideCallback
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
 ```
 
-### Смотрите также
+### См. также
 
-* class [MasterSlide](../../aspose.slides/masterslide)
-* class [ForEach](../foreach)
+* класс [MasterSlide](../../aspose.slides/masterslide)
+* класс [ForEach](../foreach)
 * пространство имен [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * сборка [Aspose.Slides](../../)
 

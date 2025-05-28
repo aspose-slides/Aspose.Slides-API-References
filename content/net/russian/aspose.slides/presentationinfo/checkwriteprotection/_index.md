@@ -1,14 +1,15 @@
 ---
-title: CheckWriteProtection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Проверяет правильность изменяемого пароля для защищенной от записи презентации.
+title: ПроверкаЗащитыЗаписи
+second_title: Справка по API Aspose.Slides для .NET
+description: Проверяет, правильный ли пароль для изменения для защищенной от записи презентации.
 type: docs
 weight: 60
 url: /ru/aspose.slides/presentationinfo/checkwriteprotection/
 ---
-## PresentationInfo.CheckWriteProtection method
 
-Проверяет правильность изменяемого пароля для защищенной от записи презентации.
+## Метод PresentationInfo.CheckWriteProtection
+
+Проверяет, правильный ли пароль для изменения для защищенной от записи презентации.
 
 ```csharp
 public bool CheckWriteProtection(string password)
@@ -18,13 +19,19 @@ public bool CheckWriteProtection(string password)
 | --- | --- | --- |
 | password | String | Пароль для проверки. |
 
-### Возвращаемое значение
+### Возвращаемое Значение
 
-Истинно, если презентация защищена от записи и пароль правильный. Ложь в противном случае.
+True, если презентация защищена от записи и пароль правильный. В противном случае False.
 
-### Примечания
+### Исключения
 
-1. Вы должны проверить[`IsWriteProtected`](../iswriteprotected)перед вызовом этого метода. 2. Когда пароль нулевой или пустой, этот метод возвращает false.
+| исключение | условие |
+| --- | --- |
+| InvalidOperationException |  |
+
+### Комментарии
+
+1. Вы должны проверить свойство [`IsWriteProtected`](../iswriteprotected) перед вызовом этого метода. 2. Если пароль равен null или пустой строке, этот метод возвращает false.
 
 ### Примеры
 
@@ -37,9 +44,9 @@ if (info.IsWriteProtected == NullableBool.True)
 }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [PresentationInfo](../../presentationinfo)
+* класс [PresentationInfo](../../presentationinfo)
 * пространство имен [Aspose.Slides](../../presentationinfo)
 * сборка [Aspose.Slides](../../../)
 

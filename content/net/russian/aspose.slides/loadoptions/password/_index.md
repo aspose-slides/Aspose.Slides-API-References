@@ -1,26 +1,40 @@
 ---
-title: Password
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает пароль. Чтение/записьString.
+title: Пароль
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Получает или устанавливает пароль. Читаемая/пишемая строка.
 type: docs
-weight: 100
+weight: 120
 url: /ru/aspose.slides/loadoptions/password/
 ---
-## LoadOptions.Password property
 
-Получает или задает пароль. Чтение/записьString.
+## Свойство LoadOptions.Password
+
+Получает или устанавливает пароль. Читаемая/пишемая строка.
 
 ```csharp
 public string Password { get; set; }
 ```
 
-### Стоимость имущества
+### Значение свойства
 
 Пароль.
 
+### Примеры
+
+Следующий пример кода показывает, как открыть защищённую паролем презентацию PowerPoint.
+
+```csharp
+[C#]
+	LoadOptions loadOptions = new LoadOptions {Password = "YOUR_PASSWORD"};
+	using (Presentation presentation = new Presentation("pres.pptx", loadOptions))
+	{
+	  // работа с расшифрованной презентацией
+	}
+```
+
 ### Смотрите также
 
-* class [LoadOptions](../../loadoptions)
+* класс [LoadOptions](../../loadoptions)
 * пространство имен [Aspose.Slides](../../loadoptions)
 * сборка [Aspose.Slides](../../../)
 

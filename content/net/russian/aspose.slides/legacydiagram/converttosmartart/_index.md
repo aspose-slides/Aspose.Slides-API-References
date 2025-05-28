@@ -1,14 +1,15 @@
 ---
 title: ConvertToSmartArt
-second_title: Справочник по API Aspose.Slides для .NET
-description: Преобразует устаревшую диграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется к фигуре родительской группы в той же позиции.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Преобразует устаревший диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется в родительскую группу фигур в том же положении.
 type: docs
 weight: 30
 url: /ru/aspose.slides/legacydiagram/converttosmartart/
 ---
-## LegacyDiagram.ConvertToSmartArt method
 
-Преобразует устаревшую диграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется к фигуре родительской группы в той же позиции.
+## LegacyDiagram.ConvertToSmartArt метод
+
+Преобразует устаревший диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется в родительскую группу фигур в том же положении.
 
 ```csharp
 public ISmartArt ConvertToSmartArt()
@@ -16,12 +17,12 @@ public ISmartArt ConvertToSmartArt()
 
 ### Возвращаемое значение
 
-Создан объект SmartArt.
+Созданный объект SmartArt.
 
-### Смотрите также
+### См. также
 
-* interface [ISmartArt](../../../aspose.slides.smartart/ismartart)
-* class [LegacyDiagram](../../legacydiagram)
+* интерфейс [ISmartArt](../../../aspose.slides.smartart/ismartart)
+* класс [LegacyDiagram](../../legacydiagram)
 * пространство имен [Aspose.Slides](../../legacydiagram)
 * сборка [Aspose.Slides](../../../)
 

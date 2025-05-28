@@ -1,22 +1,23 @@
 ---
 title: IsDateTimeVisible
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение указывающее на наличие заполнителя даты и времени. ЧтениеBoolean.
+second_title: Aspose.Slides для .NET Справочник API
+description: Получает значение, указывающее на наличие заполнителя для даты и времени. ReadBoolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible/
 ---
-## IBaseSlideHeaderFooterManager.IsDateTimeVisible property
 
-Получает значение, указывающее на наличие заполнителя даты и времени. ЧтениеBoolean.
+## IBaseSlideHeaderFooterManager.IsDateTimeVisible свойство
+
+Получает значение, указывающее на наличие заполнителя для даты и времени. ReadBoolean.
 
 ```csharp
 public bool IsDateTimeVisible { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
+* интерфейс [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ibaseslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

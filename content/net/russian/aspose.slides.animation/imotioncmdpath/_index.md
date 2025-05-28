@@ -1,29 +1,30 @@
 ---
 title: IMotionCmdPath
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют одну команду пути.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет одну команду пути.
 type: docs
-weight: 410
+weight: 430
 url: /ru/aspose.slides.animation/imotioncmdpath/
 ---
-## IMotionCmdPath interface
 
-Представляют одну команду пути.
+## Интерфейс IMotionCmdPath
+
+Представляет одну команду пути.
 
 ```csharp
 public interface IMotionCmdPath
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | Указывает тип команды. Чтение/запись[`MotionCommandPathType`](../motioncommandpathtype). |
-| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | Определить координаты команды относительные или нет. Чтение/записьBoolean. |
-| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | Определяет точки командования. Чтение/записьPointF[]. |
-| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | Определяет тип командных точек Чтение/запись[`MotionPathPointsType`](../motionpathpointstype). |
+| [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | Указывает тип команды. Чтение/запись [`MotionCommandPathType`](../motioncommandpathtype). |
+| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | Определяет, являются ли координаты команды относительными или нет. Чтение/запись Boolean. |
+| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | Указывает точки команды. Чтение/запись PointF[]. |
+| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | Указывает тип точек команды. Чтение/запись [`MotionPathPointsType`](../motionpathpointstype). |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

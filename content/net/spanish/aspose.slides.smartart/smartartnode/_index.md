@@ -1,43 +1,44 @@
 ---
 title: SmartArtNode
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa el nodo de un objeto SmartArt
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa un nodo de un objeto SmartArt
 type: docs
-weight: 9820
+weight: 10320
 url: /es/aspose.slides.smartart/smartartnode/
 ---
-## SmartArtNode class
 
-Representa el nodo de un objeto SmartArt
+## Clase SmartArtNode
+
+Representa un nodo de un objeto SmartArt
 
 ```csharp
-public class SmartArtNode : ISmartArtNode
+public sealed class SmartArtNode : ISmartArtNode
 ```
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Devuelve el objeto FillFormat que contiene propiedades de formato de relleno para una viñeta de nodo. Nota: puede devolver un valor nulo para ciertos tipos de diseño de SmartArt que no proporcionan viñetas para nodos. Solo lectura[`IFillFormat`](../../aspose.slides/ifillformat) . |
-| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Devuelve colecciones de todos los nodos secundarios del nodo actual. Solo lectura[`ISmartArtNodeCollection`](../ismartartnodecollection) . |
-| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Devuelve o establece el nodo como asistente. Lectura/escrituraBoolean . |
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Devuelve verdadero si este nodo es un nodo oculto en el modelo de datos. Solo lecturaBoolean . |
-| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Devuelve el nivel de anidamiento del nodo. Solo lecturaInt32 . |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Devuelve o establece el tipo de diseño del organigrama asociado con el nodo actual. Lectura/escritura[`OrganizationChartLayoutType`](../organizationchartlayouttype) . |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Devuelve o establece la posición de base cero del nodo entre los nodos hermanos. Lectura/escrituraInt32 . |
-| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Devuelve colecciones de todas las formas asociadas con el nodo. Solo lectura[`ISmartArtShapeCollection`](../ismartartshapecollection) . |
-| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Devuelve o establece el texto del nodo. Solo lectura[`ITextFrame`](../../aspose.slides/itextframe) . |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Devuelve el objeto FillFormat que contiene propiedades de formato de relleno para un viñeta de nodo. Nota: puede devolver null para ciertos tipos de diseño de SmartArt que no proporcionan viñetas para los nodos. Solo lectura [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Devuelve colecciones de todos los nodos hijos del nodo actual. Solo lectura [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Devuelve o establece el nodo como asistente. Lectura/escritura booleano. |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Devuelve true si este nodo es un nodo oculto en el modelo de datos. Solo lectura booleano. |
+| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Devuelve el nivel de anidación del nodo. Solo lectura Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Devuelve o establece el tipo de diseño del organigrama asociado con el nodo actual. Lectura/escritura [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Devuelve o establece la posición basada en cero del nodo entre nodos hermanos. Lectura/escritura Int32. |
+| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Devuelve colecciones de todas las formas asociadas con el nodo. Solo lectura [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Devuelve el marco de texto del nodo. Solo lectura [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Remove](../../aspose.slides.smartart/smartartnode/remove)() | Quitar nodo actual. |
+| [Remove](../../aspose.slides.smartart/smartartnode/remove)() | Elimina el nodo actual. |
 
-### Ver también
+### Véase También
 
 * interface [ISmartArtNode](../ismartartnode)
-* espacio de nombres [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
-* asamblea [Aspose.Slides](../../)
+* namespace [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
+* assembly [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,27 +1,28 @@
 ---
 title: CreateTextFrameFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новыйITextFrameFormataspose.slides/itextframeformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает новый ITextFrameFormataspose.slides/itextframeformat.
 type: docs
 weight: 50
 url: /ru/aspose.slides/formatfactory/createtextframeformat/
 ---
-## FormatFactory.CreateTextFrameFormat method
 
-Создает новый[`ITextFrameFormat`](../../itextframeformat).
+## FormatFactory.CreateTextFrameFormat метод
+
+Создает новый [`ITextFrameFormat`](../../itextframeformat).
 
 ```csharp
 public ITextFrameFormat CreateTextFrameFormat()
 ```
 
-### Возвращаемое значение
+### Возвращаемое Значение
 
 Новый формат текстового фрейма.
 
-### Смотрите также
+### См. Также
 
-* interface [ITextFrameFormat](../../itextframeformat)
-* class [FormatFactory](../../formatfactory)
+* интерфейс [ITextFrameFormat](../../itextframeformat)
+* класс [FormatFactory](../../formatfactory)
 * пространство имен [Aspose.Slides](../../formatfactory)
 * сборка [Aspose.Slides](../../../)
 

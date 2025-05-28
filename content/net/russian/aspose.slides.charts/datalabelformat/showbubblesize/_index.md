@@ -1,26 +1,27 @@
 ---
 title: ShowBubbleSize
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение отображения значения размера пузырька метки данных указанной диаграммы. True отображает значение размера пузырька. Ложь скрывать. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет собой поведение отображения значения размера пузырька метки данных для заданного графика. True отображает значение размера пузырька. False, чтобы скрыть. Читаемое/записываемое булево значение.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/datalabelformat/showbubblesize/
 ---
-## DataLabelFormat.ShowBubbleSize property
 
-Представляет поведение отображения значения размера пузырька метки данных указанной диаграммы. True отображает значение размера пузырька. Ложь скрывать. Чтение/записьBoolean.
+## DataLabelFormat.ShowBubbleSize свойство
+
+Представляет собой поведение отображения значения размера пузырька метки данных для заданного графика. True отображает значение размера пузырька. False, чтобы скрыть. Читаемое/записываемое булево значение.
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
 ```
 
-### Примечания
+### Замечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства ShowBubbleSize для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство ShowBubbleSize для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowBubbleSize = val;" приводит к тому, что все DataLabels[i].ShowBubbleSize равно val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или устанавливает значение по умолчанию для свойства ShowBubbleSize для новых меток данных в коллекции DataLabelCollection. Установка этого свойства с значением также устанавливает это значение для свойства ShowBubbleSize для всех меток данных в коллекции DataLabelCollection (например, "DataLabels.DefaultDataLabelFormat.ShowBubbleSize = val;" приводит к тому, что все DataLabels[i].ShowBubbleSize равны val).
 
-### Смотрите также
+### См. также
 
-* class [DataLabelFormat](../../datalabelformat)
+* класс [DataLabelFormat](../../datalabelformat)
 * пространство имен [Aspose.Slides.Charts](../../datalabelformat)
 * сборка [Aspose.Slides](../../../)
 

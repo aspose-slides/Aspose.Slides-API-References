@@ -6,7 +6,8 @@ type: docs
 weight: 920
 url: /ru/aspose.slides.animation/behaviorproperty/strokeendarrowlength/
 ---
-## BehaviorProperty.StrokeEndArrowLength property
+
+## Свойство BehaviorProperty.StrokeEndArrowLength
 
 Представляет свойство 'stroke.endArrowLength'
 
@@ -16,7 +17,7 @@ public static BehaviorProperty StrokeEndArrowLength { get; }
 
 ### Смотрите также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Slides для .NET
-description: Служит хэш-функцией для определенного типа подходящей для использования в алгоритмах хеширования и структурах данных таких как хэш-таблица.
+second_title: Aspose.Slides для .NET API Справочник
+description: Служит хеш-функцией для конкретного типа, подходящего для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица.
 type: docs
-weight: 120
+weight: 130
 url: /ru/aspose.slides.slideshow/slideshowtransition/gethashcode/
 ---
-## SlideShowTransition.GetHashCode method
 
-Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица.
+## Метод SlideShowTransition.GetHashCode
+
+Служит хеш-функцией для конкретного типа, подходящего для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица.
 
 ```csharp
 public override int GetHashCode()
@@ -20,11 +21,11 @@ public override int GetHashCode()
 
 ### Примечания
 
-Переопределено, чтобы сделать компилятор счастливым. Всегда возвращает константу, потому что объект изменчив.
+Переопределено для удовлетворения компилятора. Всегда возвращает константу, так как объект изменяемый.
 
-### Смотрите также
+### См. Также
 
-* class [SlideShowTransition](../../slideshowtransition)
+* класс [SlideShowTransition](../../slideshowtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../slideshowtransition)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: PlotOnSecondAxis
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает нанесен ли ряд этой группы на второстепенную ось. Только чтениеBoolean.
+description: Указывает, отображаются ли серии этой группы на вторичной оси. Свойство доступно только для чтения Boolean.
 type: docs
 weight: 160
 url: /ru/aspose.slides.charts/chartseriesgroup/plotonsecondaxis/
 ---
-## ChartSeriesGroup.PlotOnSecondAxis property
 
-Указывает, нанесен ли ряд этой группы на второстепенную ось. Только чтениеBoolean.
+## Свойство ChartSeriesGroup.PlotOnSecondAxis
+
+Указывает, отображаются ли серии этой группы на вторичной оси. Свойство доступно только для чтения (Boolean).
 
 ```csharp
 public bool PlotOnSecondAxis { get; }
@@ -16,7 +17,7 @@ public bool PlotOnSecondAxis { get; }
 
 ### Смотрите также
 
-* class [ChartSeriesGroup](../../chartseriesgroup)
+* класс [ChartSeriesGroup](../../chartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../chartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

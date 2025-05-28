@@ -1,12 +1,13 @@
 ---
 title: ImageWrapperFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для справки API .NET
 description: Этот класс позволяет инициализировать IBitmapWrapper.
 type: docs
-weight: 6860
+weight: 7230
 url: /ru/aspose.slides/imagewrapperfactory/
 ---
-## ImageWrapperFactory class
+
+## Класс ImageWrapperFactory
 
 Этот класс позволяет инициализировать IBitmapWrapper.
 
@@ -16,21 +17,21 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [ImageWrapperFactory](imagewrapperfactory)() | Конструктор по умолчанию. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(Image) | Инициализирует новый экземпляр класса BitmapWrapper из указанного существующего изображения. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Инициализирует новый экземпляр класса BitmapWrapper из указанного потока данных. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Инициализирует новый экземпляр класса BitmapWrapper из указанного файла. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Инициализирует новый экземпляр класса ImageWrapper из указанного существующего изображения. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(Stream) | Инициализирует новый экземпляр класса BitmapWrapper из указанного потока данных. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_3)(string) | Инициализирует новый экземпляр класса BitmapWrapper из указанного файла. |
 
-### Смотрите также
+### См. Также
 
-* interface [IImageWrapperFactory](../iimagewrapperfactory)
+* интерфейс [IImageWrapperFactory](../iimagewrapperfactory)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

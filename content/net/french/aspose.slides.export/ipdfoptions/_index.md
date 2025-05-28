@@ -1,14 +1,15 @@
 ---
 title: IPdfOptions
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit des options qui contrôlent la manière dont une présentation est enregistrée au format Pdf.
+description: Fournit des options qui contrôlent comment une présentation est enregistrée au format Pdf.
 type: docs
-weight: 3700
+weight: 3830
 url: /fr/aspose.slides.export/ipdfoptions/
 ---
-## IPdfOptions interface
 
-Fournit des options qui contrôlent la manière dont une présentation est enregistrée au format Pdf.
+## Interface IPdfOptions
+
+Fournit des options qui contrôlent comment une présentation est enregistrée au format Pdf.
 
 ```csharp
 public interface IPdfOptions : ISaveOptions
@@ -16,30 +17,33 @@ public interface IPdfOptions : ISaveOptions
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | Contient un ensemble d'indicateurs spécifiant les autorisations d'accès à accorder lorsque le document est ouvert avec un accès utilisateur. Voir[`PdfAccessPermissions`](../pdfaccesspermissions) . |
-| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | Renvoie ou définit un tableau de noms définis par l'utilisateur de familles de polices qu'Aspose.Slides devrait considérer comme communes. Lecture/écritureString []. |
-| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | Applique la couleur transparente spécifiée à une image si`vrai` . |
-| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | Renvoie l'interface ISaveOptions. Lecture seule[`ISaveOptions`](../isaveoptions) . |
-| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | Indique si la compression la plus efficace (au lieu de celle par défaut) pour chaque image doit être sélectionnée automatiquement. Si réglé surBoolean.true, pour chaque image en présentation, l'algorithme de compression le plus approprié sera choisi, ce qui conduira à la plus petite taille du document PDF résultant.  La sélection du meilleur taux de compression d'image est coûteuse en calcul et prend une quantité supplémentaire de RAM, et cette option estBoolean.false par défaut. |
-| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | Niveau de conformité souhaité pour le document PDF généré. Lecture/écriture[`PdfCompliance`](../pdfcompliance) . |
-| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | True pour dessiner un cadre noir autour de chaque diapositive. Lecture/écritureBoolean . |
-| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | Détermine si tous les caractères de la police doivent être incorporés ou uniquement un sous-ensemble utilisé. Lecture/écritureBoolean . |
-| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | True pour incorporer les polices True Type pour les caractères ASCII 32-127. Les polices pour les codes de caractères supérieurs à 127 sont toujours incorporées. Lecture/écritureBoolean . |
+| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | Contient un ensemble de drapeaux spécifiant les permissions d'accès qui doivent être accordées lorsque le document est ouvert avec un accès utilisateur. Voir [`PdfAccessPermissions`](../pdfaccesspermissions). |
+| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | Renvoie ou définit un tableau de noms de familles de polices définis par l'utilisateur que Aspose.Slides doit considérer comme communes. Lecture/écriture String[]. |
+| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | Applique la couleur transparente spécifiée à une image si `true`. |
+| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | Renvoie l'interface ISaveOptions. Lecture seule [`ISaveOptions`](../isaveoptions). |
+| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | Indique si la compression la plus efficace (au lieu de celle par défaut) pour chaque image doit être sélectionnée automatiquement. Si défini sur Boolean.true, pour chaque image dans la présentation, l'algorithme de compression le plus approprié sera choisi, ce qui conduira à une taille plus petite du document PDF résultant. La sélection du meilleur rapport de compression d'image est coûteuse en calcul et nécessite une quantité supplémentaire de RAM, et cette option est Boolean.false par défaut. |
+| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | Niveau de conformité souhaité pour le document PDF généré. Lecture/écriture [`PdfCompliance`](../pdfcompliance). |
+| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | Vrai pour dessiner un cadre noir autour de chaque diapositive. Lecture/écriture Boolean. |
+| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | Détermine si tous les caractères de la police doivent être intégrés ou seulement le sous-ensemble utilisé. Lecture/écriture Boolean. |
+| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | Vrai pour intégrer des polices TrueType pour les caractères ASCII 32-127. Les polices pour les codes de caractères supérieurs à 127 sont toujours intégrées. Lecture/écriture Boolean. |
 | [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | Obtient ou définit la couleur transparente de l'image. |
-| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | Renvoie ou définit une valeur déterminant la qualité des images JPEG dans le document PDF. Lecture/écritureByte . |
-| [NotesCommentsLayouting](../../aspose.slides.export/ipdfoptions/notescommentslayouting) { get; } | Fournit des options qui contrôlent la façon dont les notes et les commentaires sont placés dans le document exporté. |
-| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | Définition du mot de passe utilisateur pour protéger le document PDF. Lecture/écritureString . |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | True pour convertir tous les métafichiers utilisés dans une présentation en images PNG. Lecture/écritureBoolean . |
-| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | Spécifie si le document généré doit inclure ou non des diapositives masquées. La valeur par défaut est`faux` . |
-| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | Renvoie ou définit une valeur déterminant la résolution des images dans le document PDF. |
-| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | Spécifie le type de compression à utiliser pour tout le contenu textuel du document. Lecture/écriture[`PdfTextCompression`](../pdftextcompression) . |
+| [IncludeOleData](../../aspose.slides.export/ipdfoptions/includeoledata) { get; set; } | Vrai pour convertir toutes les données OLE de la présentation en fichiers intégrés dans le PDF résultant. Lecture/écriture Boolean. |
+| [InkOptions](../../aspose.slides.export/ipdfoptions/inkoptions) { get; } | Fournit des options qui contrôlent l'apparence des objets d'encre dans le document exporté. Lecture seule [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | Renvoie ou définit une valeur déterminant la qualité des images JPEG à l'intérieur du document PDF. Lecture/écriture Byte. |
+| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | Définit un mot de passe utilisateur pour protéger le document PDF. Lecture/écriture String. |
+| [RasterizeUnsupportedFontStyles](../../aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles) { get; set; } | Indique si le texte doit être rasterisé en tant que bitmap et enregistré dans le PDF lorsque la police ne prend pas en charge le style gras. Cette approche peut améliorer la qualité du texte dans le PDF résultant pour certaines polices. Lecture/écriture Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | Vrai pour convertir tous les métadonnées utilisées dans une présentation en images PNG. Lecture/écriture Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | Spécifie si le document généré doit inclure des diapositives cachées ou non. La valeur par défaut est `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/ipdfoptions/slideslayoutoptions) { get; set; } | Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | Renvoie ou définit une valeur déterminant la résolution des images à l'intérieur du document PDF. |
+| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | Spécifie le type de compression à utiliser pour tout le contenu textuel du document. Lecture/écriture [`PdfTextCompression`](../pdftextcompression). |
 
-### Voir également
+### Voir aussi
 
 * interface [ISaveOptions](../isaveoptions)
-* espace de noms [Aspose.Slides.Export](../../aspose.slides.export)
-* Assemblée [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

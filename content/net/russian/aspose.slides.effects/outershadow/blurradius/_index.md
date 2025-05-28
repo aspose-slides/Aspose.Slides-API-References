@@ -1,22 +1,23 @@
 ---
 title: BlurRadius
-second_title: Справочник по API Aspose.Slides для .NET
-description: Радиус размытия. Чтение/записьDouble.
+second_title: Aspose.Slides для .NET API Справочник
+description: Радиус размытия. Чтение/запись Double.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/outershadow/blurradius/
 ---
-## OuterShadow.BlurRadius property
 
-Радиус размытия. Чтение/записьDouble.
+## Свойство OuterShadow.BlurRadius
+
+Радиус размытия. Чтение/запись Double.
 
 ```csharp
 public double BlurRadius { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [OuterShadow](../../outershadow)
+* класс [OuterShadow](../../outershadow)
 * пространство имен [Aspose.Slides.Effects](../../outershadow)
 * сборка [Aspose.Slides](../../../)
 

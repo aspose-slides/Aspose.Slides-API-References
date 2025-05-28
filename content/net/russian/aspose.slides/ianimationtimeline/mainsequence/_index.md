@@ -1,23 +1,24 @@
 ---
 title: MainSequence
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает основную последовательность которая может содержать только коллекцию основных эффектов. Только для чтенияISequenceaspose.slides.animation/isequence.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает основную последовательность, которая может содержать только коллекцию основных эффектов. Только для чтения ISequenceaspose.slides.animation/isequence.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ianimationtimeline/mainsequence/
 ---
-## IAnimationTimeLine.MainSequence property
 
-Возвращает основную последовательность, которая может содержать только коллекцию основных эффектов. Только для чтения[`ISequence`](../../../aspose.slides.animation/isequence).
+## Свойство IAnimationTimeLine.MainSequence
+
+Возвращает основную последовательность, которая может содержать только коллекцию основных эффектов. Только для чтения [`ISequence`](../../../aspose.slides.animation/isequence).
 
 ```csharp
 public ISequence MainSequence { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISequence](../../../aspose.slides.animation/isequence)
-* interface [IAnimationTimeLine](../../ianimationtimeline)
+* интерфейс [ISequence](../../../aspose.slides.animation/isequence)
+* интерфейс [IAnimationTimeLine](../../ianimationtimeline)
 * пространство имен [Aspose.Slides](../../ianimationtimeline)
 * сборка [Aspose.Slides](../../../)
 

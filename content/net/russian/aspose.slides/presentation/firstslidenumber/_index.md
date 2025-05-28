@@ -1,22 +1,23 @@
 ---
 title: FirstSlideNumber
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет номер первого слайда в презентации
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет первый номер слайда в презентации
 type: docs
 weight: 100
 url: /ru/aspose.slides/presentation/firstslidenumber/
 ---
-## Presentation.FirstSlideNumber property
 
-Представляет номер первого слайда в презентации
+## Presentation.FirstSlideNumber свойство
+
+Представляет первый номер слайда в презентации
 
 ```csharp
 public int FirstSlideNumber { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Presentation](../../presentation)
+* класс [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

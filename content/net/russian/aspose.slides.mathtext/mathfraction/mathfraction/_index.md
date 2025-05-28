@@ -1,12 +1,13 @@
 ---
 title: MathFraction
 second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует MathFraction с указанными числителем знаменателем и типом
+description: Инициализирует MathFraction с указанными числителем, знаменателем и типом
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathfraction/mathfraction/
 ---
-## MathFraction(IMathElement, IMathElement, MathFractionTypes) {#constructor_1}
+
+## MathFraction(IMathElement, IMathElement, MathFractionTypes) {#constructor_1}
 
 Инициализирует MathFraction с указанными числителем, знаменателем и типом
 
@@ -17,8 +18,8 @@ public MathFraction(IMathElement numerator, IMathElement denominator,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| числитель | IMathElement | Числитель |
-| знаменатель | IMathElement | Знаменатель |
+| numerator | IMathElement | Числитель |
+| denominator | IMathElement | Знаменатель |
 | fractionType | MathFractionTypes | Тип дроби |
 
 ### Примеры
@@ -30,17 +31,17 @@ public MathFraction(IMathElement numerator, IMathElement denominator,
 MathFraction mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* enum [MathFractionTypes](../../mathfractiontypes)
-* class [MathFraction](../../mathfraction)
+* интерфейс [IMathElement](../../imathelement)
+* перечисление [MathFractionTypes](../../mathfractiontypes)
+* класс [MathFraction](../../mathfraction)
 * пространство имен [Aspose.Slides.MathText](../../mathfraction)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## MathFraction(IMathElement, IMathElement) {#constructor}
+## MathFraction(IMathElement, IMathElement) {#constructor}
 
 Инициализирует MathFraction типа 'Bar' с указанными числителем и знаменателем
 
@@ -50,8 +51,8 @@ public MathFraction(IMathElement numerator, IMathElement denominator)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| числитель | IMathElement | Числитель |
-| знаменатель | IMathElement | Знаменатель |
+| numerator | IMathElement | Числитель |
+| denominator | IMathElement | Знаменатель |
 
 ### Примеры
 
@@ -62,10 +63,10 @@ public MathFraction(IMathElement numerator, IMathElement denominator)
 MathFraction mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathFraction](../../mathfraction)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathFraction](../../mathfraction)
 * пространство имен [Aspose.Slides.MathText](../../mathfraction)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: ViewerIncluded
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает должен ли сгенерированный SWF-документ включать интегрированное средство просмотра документов или нет. По умолчанию true .
+description: Указывает, должен ли сгенерированный документ SWF включать интегрированный просмотрщик документов или нет. По умолчанию true.
 type: docs
 weight: 170
 url: /ru/aspose.slides.export/iswfoptions/viewerincluded/
 ---
-## ISwfOptions.ViewerIncluded property
 
-Указывает, должен ли сгенерированный SWF-документ включать интегрированное средство просмотра документов или нет. По умолчанию:` true` .
+## Свойство ISwfOptions.ViewerIncluded
+
+Указывает, должен ли сгенерированный документ SWF включать интегрированный просмотрщик документов или нет. По умолчанию `true`.
 
 ```csharp
 public bool ViewerIncluded { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISwfOptions](../../iswfoptions)
+* интерфейс [ISwfOptions](../../iswfoptions)
 * пространство имен [Aspose.Slides.Export](../../iswfoptions)
 * сборка [Aspose.Slides](../../../)
 

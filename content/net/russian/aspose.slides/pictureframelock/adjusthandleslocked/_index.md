@@ -1,14 +1,15 @@
 ---
 title: AdjustHandlesLocked
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли изменение значений настройки. Чтение/записьBoolean.
+description: Определяет, запрещено ли изменение значений корректировки. Читаемое/записываемое логическое значение.
 type: docs
 weight: 10
 url: /ru/aspose.slides/pictureframelock/adjusthandleslocked/
 ---
-## PictureFrameLock.AdjustHandlesLocked property
 
-Определяет, запрещено ли изменение значений настройки. Чтение/записьBoolean.
+## Свойство PictureFrameLock.AdjustHandlesLocked
+
+Определяет, запрещено ли изменение значений корректировки. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }
@@ -16,7 +17,7 @@ public bool AdjustHandlesLocked { get; set; }
 
 ### Смотрите также
 
-* class [PictureFrameLock](../../pictureframelock)
+* класс [PictureFrameLock](../../pictureframelock)
 * пространство имен [Aspose.Slides](../../pictureframelock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,142 +1,143 @@
 ---
 title: GetCell
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
+second_title: Aspose.Sildes pour les références API .NET
+description: Obtient la cellule pouvant être utilisée pour les séries ou les catégories de graphique
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/chartdataworkbook/getcell/
 ---
+
 ## GetCell(string, int, int) {#getcell_4}
 
-Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
+Obtient la cellule pouvant être utilisée pour les séries ou les catégories de graphique
 
 ```csharp
 public IChartDataCell GetCell(string worksheetName, int row, int column)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | worksheetName | String | Nom de la feuille de calcul. |
 | row | Int32 | La ligne. |
 | column | Int32 | La colonne. |
 
-### Return_Value
+### Valeur de Retour
 
-Objet cellule
+Objet Cell
 
-### Voir également
+### Voir Aussi
 
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataWorkbook](../../chartdataworkbook)
-* espace de noms [Aspose.Slides.Charts](../../chartdataworkbook)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Charts](../../chartdataworkbook)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCell(int, int, int) {#getcell}
 
-Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
+Obtient la cellule pouvant être utilisée pour les séries ou les catégories de graphique
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | Int32 | Index de la feuille de travail. |
+| worksheetIndex | Int32 | Index de la feuille de calcul. |
 | row | Int32 | La ligne. |
 | column | Int32 | La colonne. |
 
-### Return_Value
+### Valeur de Retour
 
-Objet cellule
+Objet Cell
 
-### Voir également
+### Voir Aussi
 
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataWorkbook](../../chartdataworkbook)
-* espace de noms [Aspose.Slides.Charts](../../chartdataworkbook)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Charts](../../chartdataworkbook)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCell(int, string) {#getcell_2}
 
-Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
+Obtient la cellule pouvant être utilisée pour les séries ou les catégories de graphique
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, string cellName)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | Int32 | Index de la feuille de travail. |
+| worksheetIndex | Int32 | Index de la feuille de calcul. |
 | cellName | String | Nom de la cellule. |
 
-### Return_Value
+### Valeur de Retour
 
-Objet cellule
+Objet Cell
 
-### Voir également
+### Voir Aussi
 
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataWorkbook](../../chartdataworkbook)
-* espace de noms [Aspose.Slides.Charts](../../chartdataworkbook)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Charts](../../chartdataworkbook)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCell(int, string, object) {#getcell_3}
 
-Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
+Obtient la cellule pouvant être utilisée pour les séries ou les catégories de graphique
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | Int32 | Index de la feuille de travail. |
+| worksheetIndex | Int32 | Index de la feuille de calcul. |
 | cellName | String | Nom de la cellule. |
 | value | Object | La valeur. |
 
-### Return_Value
+### Valeur de Retour
 
-Objet cellule
+Objet Cell
 
-### Voir également
+### Voir Aussi
 
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataWorkbook](../../chartdataworkbook)
-* espace de noms [Aspose.Slides.Charts](../../chartdataworkbook)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Charts](../../chartdataworkbook)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetCell(int, int, int, object) {#getcell_1}
 
-Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
+Obtient la cellule pouvant être utilisée pour les séries ou les catégories de graphique
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, int row, int column, object value)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| worksheetIndex | Int32 | Index de la feuille de travail. |
+| worksheetIndex | Int32 | Index de la feuille de calcul. |
 | row | Int32 | La ligne. |
 | column | Int32 | La colonne. |
 | value | Object | La valeur. |
 
-### Return_Value
+### Valeur de Retour
 
-Objet cellule
+Objet Cell
 
-### Voir également
+### Voir Aussi
 
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataWorkbook](../../chartdataworkbook)
-* espace de noms [Aspose.Slides.Charts](../../chartdataworkbook)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Charts](../../chartdataworkbook)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,23 +1,24 @@
 ---
 title: AsISlideComponent
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ISlideComponent. Только для чтенияISlideComponentaspose.slides/islidecomponent.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет получить базовый интерфейс ISlideComponent. Только для чтения ISlideComponentaspose.slides/islidecomponent.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icell/asislidecomponent/
 ---
-## ICell.AsISlideComponent property
 
-Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../islidecomponent).
+## ICell.AsISlideComponent свойство
+
+Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../../islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISlideComponent](../../islidecomponent)
-* interface [ICell](../../icell)
+* интерфейс [ISlideComponent](../../islidecomponent)
+* интерфейс [ICell](../../icell)
 * пространство имен [Aspose.Slides](../../icell)
 * сборка [Aspose.Slides](../../../)
 

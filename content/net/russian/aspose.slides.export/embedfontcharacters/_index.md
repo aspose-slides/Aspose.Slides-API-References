@@ -1,25 +1,26 @@
 ---
 title: EmbedFontCharacters
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет правило используемое для добавления нового встроенного шрифта вIPresentation../aspose.slides/ipresentation
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет правило, которое используется для добавления нового встроенного шрифта в IPresentation../aspose.slides/ipresentation
 type: docs
-weight: 3500
+weight: 3600
 url: /ru/aspose.slides.export/embedfontcharacters/
 ---
-## EmbedFontCharacters enumeration
 
-Представляет правило, используемое для добавления нового встроенного шрифта в[`IPresentation`](../../aspose.slides/ipresentation)
+## Перечисление EmbedFontCharacters
+
+Представляет правило, которое используется для добавления нового встроенного шрифта в [`IPresentation`](../../aspose.slides/ipresentation)
 
 ```csharp
 public enum EmbedFontCharacters
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| OnlyUsed | `0` | Встраивайте только символы, используемые в презентации (лучше всего для уменьшения размера файла). |
-| All | `1` | Вставить все символы (лучше всего для редактирования другими людьми). |
+| OnlyUsed | `0` | Встраивать только используемые в презентации символы (лучший вариант для уменьшения размера файла). |
+| All | `1` | Встраивать все символы (лучший вариант для редактирования другими людьми). |
 
 ### Смотрите также
 

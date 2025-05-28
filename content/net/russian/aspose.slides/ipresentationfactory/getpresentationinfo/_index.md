@@ -1,11 +1,12 @@
 ---
 title: GetPresentationInfo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Получает информацию о презентации в указанном файле.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ipresentationfactory/getpresentationinfo/
 ---
+
 ## GetPresentationInfo(string) {#getpresentationinfo_1}
 
 Получает информацию о презентации в указанном файле.
@@ -22,10 +23,10 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 Информация о презентации
 
-### Смотрите также
+### См. также
 
-* interface [IPresentationInfo](../../ipresentationinfo)
-* interface [IPresentationFactory](../../ipresentationfactory)
+* интерфейс [IPresentationInfo](../../ipresentationinfo)
+* интерфейс [IPresentationFactory](../../ipresentationfactory)
 * пространство имен [Aspose.Slides](../../ipresentationfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -47,10 +48,10 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 
 Информация о презентации.
 
-### Смотрите также
+### См. также
 
-* interface [IPresentationInfo](../../ipresentationinfo)
-* interface [IPresentationFactory](../../ipresentationfactory)
+* интерфейс [IPresentationInfo](../../ipresentationinfo)
+* интерфейс [IPresentationFactory](../../ipresentationfactory)
 * пространство имен [Aspose.Slides](../../ipresentationfactory)
 * сборка [Aspose.Slides](../../../)
 

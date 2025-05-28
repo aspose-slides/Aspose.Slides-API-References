@@ -1,22 +1,23 @@
 ---
 title: MarginTop
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает верхнее поле в TextFrame. Чтение/записьDouble.
+description: Возвращает или устанавливает верхний отступ в TextFrame. Читаемое/записываемое Double.
 type: docs
 weight: 130
 url: /ru/aspose.slides/cell/margintop/
 ---
-## Cell.MarginTop property
 
-Возвращает или задает верхнее поле в TextFrame. Чтение/записьDouble.
+## Свойство Cell.MarginTop
+
+Возвращает или устанавливает верхний отступ в TextFrame. Читаемое/записываемое Double.
 
 ```csharp
 public double MarginTop { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Cell](../../cell)
+* класс [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)
 * сборка [Aspose.Slides](../../../)
 

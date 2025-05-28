@@ -1,14 +1,15 @@
 ---
 title: MathBarFactory
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создать математическую панель
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет создать математическую планку
 type: docs
-weight: 7860
+weight: 8320
 url: /ru/aspose.slides.mathtext/mathbarfactory/
 ---
-## MathBarFactory class
 
-Позволяет создать математическую панель
+## Класс MathBarFactory
+
+Позволяет создать математическую планку
 
 ```csharp
 public class MathBarFactory : IMathBarFactory
@@ -24,16 +25,16 @@ public class MathBarFactory : IMathBarFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Создать математическую полосу, применив к элементу |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Создать математическую полосу, применив к элементу |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Создать математическую планку, применив к элементу |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Создать математическую планку, применив к элементу |
 
 ### Примечания
 
-Для COM-совместимости
+Для совместимости с COM
 
-### Смотрите также
+### См. также
 
-* interface [IMathBarFactory](../imathbarfactory)
+* интерфейс [IMathBarFactory](../imathbarfactory)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

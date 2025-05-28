@@ -1,12 +1,13 @@
 ---
 title: GetChildren
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Получить дочерние элементы
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathfunction/getchildren/
 ---
-## MathFunction.GetChildren method
+
+## Метод MathFunction.GetChildren
 
 Получить дочерние элементы
 
@@ -14,10 +15,10 @@ url: /ru/aspose.slides.mathtext/mathfunction/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [IMathElement](../../imathelement)
-* class [MathFunction](../../mathfunction)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathFunction](../../mathfunction)
 * пространство имен [Aspose.Slides.MathText](../../mathfunction)
 * сборка [Aspose.Slides](../../../)
 

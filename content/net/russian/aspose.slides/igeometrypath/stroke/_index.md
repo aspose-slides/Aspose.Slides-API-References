@@ -1,14 +1,15 @@
 ---
-title: Stroke
+title: Обвод
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает вид обводки
+description: Устанавливает внешний вид обвода
 type: docs
 weight: 30
 url: /ru/aspose.slides/igeometrypath/stroke/
 ---
-## IGeometryPath.Stroke property
 
-Устанавливает вид обводки
+## Свойство IGeometryPath.Stroke
+
+Устанавливает внешний вид обвода
 
 ```csharp
 public bool Stroke { get; set; }
@@ -16,7 +17,7 @@ public bool Stroke { get; set; }
 
 ### Смотрите также
 
-* interface [IGeometryPath](../../igeometrypath)
+* интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
 * сборка [Aspose.Slides](../../../)
 

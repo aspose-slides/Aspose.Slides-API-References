@@ -1,14 +1,15 @@
 ---
 title: ImageTransform
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор эффектов преобразования изображения. Только для чтенияIImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает коллекцию эффектов преобразования изображений. Только для чтения IImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection.
 type: docs
-weight: 20
+weight: 30
 url: /ru/aspose.slides/picture/imagetransform/
 ---
-## Picture.ImageTransform property
 
-Возвращает набор эффектов преобразования изображения. Только для чтения[`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection).
+## Свойство Picture.ImageTransform
+
+Возвращает коллекцию эффектов преобразования изображений. Только для чтения [`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection).
 
 ```csharp
 public IImageTransformOperationCollection ImageTransform { get; }
@@ -16,8 +17,8 @@ public IImageTransformOperationCollection ImageTransform { get; }
 
 ### Смотрите также
 
-* interface [IImageTransformOperationCollection](../../../aspose.slides.effects/iimagetransformoperationcollection)
-* class [Picture](../../picture)
+* интерфейс [IImageTransformOperationCollection](../../../aspose.slides.effects/iimagetransformoperationcollection)
+* класс [Picture](../../picture)
 * пространство имен [Aspose.Slides](../../picture)
 * сборка [Aspose.Slides](../../../)
 

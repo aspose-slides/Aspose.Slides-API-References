@@ -1,26 +1,27 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Slides для .NET
-description: Служит хэш-функцией для определенного типа.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Служит хеш-функцией для определенного типа.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/luminance/gethashcode/
 ---
-## Luminance.GetHashCode method
 
-Служит хэш-функцией для определенного типа.
+## Luminance.GetHashCode метод
+
+Служит хеш-функцией для определенного типа.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-Хэш-код текущего объекта.
+Хеш-код для текущего объекта.
 
-### Смотрите также
+### См. Также
 
-* class [Luminance](../../luminance)
+* класс [Luminance](../../luminance)
 * пространство имен [Aspose.Slides.Effects](../../luminance)
 * сборка [Aspose.Slides](../../../)
 

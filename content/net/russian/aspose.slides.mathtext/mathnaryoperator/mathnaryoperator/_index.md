@@ -1,11 +1,12 @@
 ---
 title: MathNaryOperator
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Инициализирует новый экземпляр класса MathNaryOperator.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathnaryoperator/mathnaryoperator/
 ---
+
 ## MathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#constructor_2}
 
 Инициализирует новый экземпляр класса MathNaryOperator.
@@ -17,7 +18,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| operatorSymbol | Char | Символ оператора Nary |
+| operatorSymbol | Char | Символ n-ичного оператора |
 | baseArgument | IMathElement | Базовый аргумент |
 | lowerLimit | IMathElement | Нижний предел |
 | upperLimit | IMathElement | Верхний предел |
@@ -31,10 +32,10 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i=0"), new MathematicalText("𝑛"));
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathNaryOperator](../../mathnaryoperator)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathNaryOperator](../../mathnaryoperator)
 * пространство имен [Aspose.Slides.MathText](../../mathnaryoperator)
 * сборка [Aspose.Slides](../../../)
 
@@ -50,7 +51,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| operatorSymbol | Char | Символ оператора Nary |
+| operatorSymbol | Char | Символ n-ичного оператора |
 | baseArgument | IMathElement | Базовый аргумент |
 | lowerLimit | IMathElement | Нижний предел |
 
@@ -63,10 +64,10 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i"));
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathNaryOperator](../../mathnaryoperator)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathNaryOperator](../../mathnaryoperator)
 * пространство имен [Aspose.Slides.MathText](../../mathnaryoperator)
 * сборка [Aspose.Slides](../../../)
 
@@ -82,7 +83,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| operatorSymbol | Char | Символ оператора Nary |
+| operatorSymbol | Char | Символ n-ичного оператора |
 | baseArgument | IMathElement | Базовый аргумент |
 
 ### Примеры
@@ -94,10 +95,10 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"));
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathNaryOperator](../../mathnaryoperator)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathNaryOperator](../../mathnaryoperator)
 * пространство имен [Aspose.Slides.MathText](../../mathnaryoperator)
 * сборка [Aspose.Slides](../../../)
 

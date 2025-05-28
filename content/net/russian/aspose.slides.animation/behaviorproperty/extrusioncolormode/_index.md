@@ -1,12 +1,13 @@
 ---
 title: ExtrusionColorMode
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство extrusion.colormode
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/behaviorproperty/extrusioncolormode/
 ---
-## BehaviorProperty.ExtrusionColorMode property
+
+## BehaviorProperty.ExtrusionColorMode свойство
 
 Представляет свойство 'extrusion.colormode'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusioncolormode/
 public static BehaviorProperty ExtrusionColorMode { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

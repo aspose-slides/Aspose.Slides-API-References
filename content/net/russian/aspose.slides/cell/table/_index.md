@@ -1,23 +1,24 @@
 ---
-title: Table
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительский объект таблицы для ячейки. Только для чтенияITableaspose.slides/itable.
+title: Таблица
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает родительский объект Table для ячейки. Только для чтения ITableaspose.slides/itable.
 type: docs
 weight: 200
 url: /ru/aspose.slides/cell/table/
 ---
-## Cell.Table property
 
-Возвращает родительский объект таблицы для ячейки. Только для чтения[`ITable`](../../itable).
+## Свойство Cell.Table
+
+Возвращает родительский объект Table для ячейки. Только для чтения [`ITable`](../../itable).
 
 ```csharp
 public ITable Table { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITable](../../itable)
-* class [Cell](../../cell)
+* интерфейс [ITable](../../itable)
+* класс [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: WriteSlideStart
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вызывается для записи html заголовка слайда. Вызывается один раз для каждого из слайдов.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Вызывается для записи заголовка HTML-слайда. Вызывается один раз для каждого слайда.
 type: docs
 weight: 90
 url: /ru/aspose.slides.export/embedallfontshtmlcontroller/writeslidestart/
 ---
-## EmbedAllFontsHtmlController.WriteSlideStart method
 
-Вызывается для записи html заголовка слайда. Вызывается один раз для каждого из слайдов.
+## EmbedAllFontsHtmlController.WriteSlideStart метод
+
+Вызывается для записи заголовка HTML-слайда. Вызывается один раз для каждого слайда.
 
 ```csharp
 public virtual void WriteSlideStart(IHtmlGenerator generator, ISlide slide)
@@ -16,14 +17,14 @@ public virtual void WriteSlideStart(IHtmlGenerator generator, ISlide slide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| генератор | IHtmlGenerator | Выходной объект. |
-| слайд | ISlide | Слайд, который в данный момент рендерится. |
+| generator | IHtmlGenerator | Выходной объект. |
+| slide | ISlide | Слайд, который в данный момент отображается. |
 
-### Смотрите также
+### См. также
 
-* interface [IHtmlGenerator](../../ihtmlgenerator)
-* interface [ISlide](../../../aspose.slides/islide)
-* class [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
+* интерфейс [IHtmlGenerator](../../ihtmlgenerator)
+* интерфейс [ISlide](../../../aspose.slides/islide)
+* класс [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embedallfontshtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

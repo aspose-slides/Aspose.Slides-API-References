@@ -6,7 +6,8 @@ type: docs
 weight: 550
 url: /ru/aspose.slides.animation/behaviorproperty/pptx/
 ---
-## BehaviorProperty.PptX property
+
+## Свойство BehaviorProperty.PptX
 
 Представляет свойство 'ppt_x'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/pptx/
 public static BehaviorProperty PptX { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

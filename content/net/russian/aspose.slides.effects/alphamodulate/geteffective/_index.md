@@ -1,14 +1,15 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные данные эффекта альфа-модуляции с применением наследования.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Получает эффективные данные эффекта Alpha Modulate с применением наследования.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/alphamodulate/geteffective/
 ---
-## AlphaModulate.GetEffective method
 
-Получает эффективные данные эффекта альфа-модуляции с применением наследования.
+## AlphaModulate.GetEffective метод
+
+Получает эффективные данные эффекта Alpha Modulate с применением наследования.
 
 ```csharp
 public IAlphaModulateEffectiveData GetEffective()
@@ -16,12 +17,12 @@ public IAlphaModulateEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IAlphaModulateEffectiveData`](../../ialphamodulateeffectivedata).
+[`IAlphaModulateEffectiveData`](../../ialphamodulateeffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [IAlphaModulateEffectiveData](../../ialphamodulateeffectivedata)
-* class [AlphaModulate](../../alphamodulate)
+* интерфейс [IAlphaModulateEffectiveData](../../ialphamodulateeffectivedata)
+* класс [AlphaModulate](../../alphamodulate)
 * пространство имен [Aspose.Slides.Effects](../../alphamodulate)
 * сборка [Aspose.Slides](../../../)
 

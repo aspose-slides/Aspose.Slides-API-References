@@ -1,12 +1,13 @@
 ---
 title: MathLimitFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathlimitfactory/mathlimitfactory/
 ---
-## MathLimitFactory constructor
+
+## Конструктор MathLimitFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.mathtext/mathlimitfactory/mathlimitfactory/
 public MathLimitFactory()
 ```
 
-### Смотрите также
+### См. также
 
-* class [MathLimitFactory](../../mathlimitfactory)
+* класс [MathLimitFactory](../../mathlimitfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathlimitfactory)
 * сборка [Aspose.Slides](../../../)
 

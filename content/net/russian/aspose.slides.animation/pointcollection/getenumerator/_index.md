@@ -1,14 +1,15 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает итератор, который перебирает коллекцию.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/pointcollection/getenumerator/
 ---
-## PointCollection.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+## Метод PointCollection.GetEnumerator
+
+Возвращает итератор, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<IPoint> GetEnumerator()
@@ -16,12 +17,12 @@ public IEnumerator<IPoint> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для перебора коллекции.
 
-### Смотрите также
+### См. Также
 
-* interface [IPoint](../../ipoint)
-* class [PointCollection](../../pointcollection)
+* интерфейс [IPoint](../../ipoint)
+* класс [PointCollection](../../pointcollection)
 * пространство имен [Aspose.Slides.Animation](../../pointcollection)
 * сборка [Aspose.Slides](../../../)
 

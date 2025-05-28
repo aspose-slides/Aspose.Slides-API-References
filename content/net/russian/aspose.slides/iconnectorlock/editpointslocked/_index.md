@@ -1,22 +1,23 @@
 ---
 title: EditPointsLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли прямое изменение контура этой формы. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Reference
+description: Определяет, запрещено ли прямое изменение контура этой фигуры. Читаемое/записываемое логическое значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides/iconnectorlock/editpointslocked/
 ---
-## IConnectorLock.EditPointsLocked property
 
-Определяет, запрещено ли прямое изменение контура этой формы. Чтение/записьBoolean.
+## IConnectorLock.EditPointsLocked свойство
+
+Определяет, запрещено ли прямое изменение контура этой фигуры. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool EditPointsLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IConnectorLock](../../iconnectorlock)
+* интерфейс [IConnectorLock](../../iconnectorlock)
 * пространство имен [Aspose.Slides](../../iconnectorlock)
 * сборка [Aspose.Slides](../../../)
 

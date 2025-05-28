@@ -1,12 +1,13 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает индекс указанного объекта SummaryZoomSection.
 type: docs
 weight: 50
 url: /ru/aspose.slides/isummaryzoomsectioncollection/indexof/
 ---
-## ISummaryZoomSectionCollection.IndexOf method
+
+## ISummaryZoomSectionCollection.IndexOf метод
 
 Возвращает индекс указанного объекта SummaryZoomSection.
 
@@ -16,7 +17,7 @@ public int IndexOf(ISummaryZoomSection summaryZoomSection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| summaryZoomSection | ISummaryZoomSection | SummaryZoomSection объект для поиска[`ISummaryZoomSection`](../../isummaryzoomsection). |
+| summaryZoomSection | ISummaryZoomSection | Объект SummaryZoomSection, который необходимо найти [`ISummaryZoomSection`](../../isummaryzoomsection). |
 
 ### Возвращаемое значение
 
@@ -37,10 +38,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISummaryZoomSection](../../isummaryzoomsection)
-* interface [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
+* интерфейс [ISummaryZoomSection](../../isummaryzoomsection)
+* интерфейс [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
 * пространство имен [Aspose.Slides](../../isummaryzoomsectioncollection)
 * сборка [Aspose.Slides](../../../)
 

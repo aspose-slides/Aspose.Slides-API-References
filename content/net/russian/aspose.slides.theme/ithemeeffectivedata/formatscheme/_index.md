@@ -1,23 +1,24 @@
 ---
 title: FormatScheme
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает схему формата фигуры. Только для чтенияIFormatSchemeEffectiveDataaspose.slides.theme/iformatschemeeffectivedata.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает схему формата фигуры. Только для чтения IFormatSchemeEffectiveDataaspose.slides.theme/iformatschemeeffectivedata.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/ithemeeffectivedata/formatscheme/
 ---
-## IThemeEffectiveData.FormatScheme property
 
-Возвращает схему формата фигуры. Только для чтения[`IFormatSchemeEffectiveData`](../../iformatschemeeffectivedata).
+## Свойство IThemeEffectiveData.FormatScheme
+
+Возвращает схему формата фигуры. Только для чтения [`IFormatSchemeEffectiveData`](../../iformatschemeeffectivedata).
 
 ```csharp
 public IFormatSchemeEffectiveData FormatScheme { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)
-* interface [IThemeEffectiveData](../../ithemeeffectivedata)
+* интерфейс [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)
+* интерфейс [IThemeEffectiveData](../../ithemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../ithemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

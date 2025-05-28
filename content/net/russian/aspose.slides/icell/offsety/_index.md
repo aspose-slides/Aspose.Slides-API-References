@@ -1,22 +1,23 @@
 ---
 title: OffsetY
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает расстояние от верхнего края таблицы до верхнего края ячейки. Только для чтенияDouble.
+description: Возвращает расстояние от верхней стороны таблицы до верхней стороны ячейки. Только для чтения Double.
 type: docs
 weight: 170
 url: /ru/aspose.slides/icell/offsety/
 ---
-## ICell.OffsetY property
 
-Возвращает расстояние от верхнего края таблицы до верхнего края ячейки. Только для чтенияDouble.
+## Свойство ICell.OffsetY
+
+Возвращает расстояние от верхней стороны таблицы до верхней стороны ячейки. Только для чтения Double.
 
 ```csharp
 public double OffsetY { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ICell](../../icell)
+* интерфейс [ICell](../../icell)
 * пространство имен [Aspose.Slides](../../icell)
 * сборка [Aspose.Slides](../../../)
 

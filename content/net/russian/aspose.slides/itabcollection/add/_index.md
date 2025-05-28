@@ -1,12 +1,13 @@
 ---
-title: Add
+title: Добавить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет вкладку в коллекцию.
 type: docs
 weight: 20
 url: /ru/aspose.slides/itabcollection/add/
 ---
-## Add(double, TabAlignment) {#add}
+
+## Добавить(double, TabAlignment) {#add}
 
 Добавляет вкладку в коллекцию.
 
@@ -16,24 +17,24 @@ public ITab Add(double position, TabAlignment align)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Double | Позиция табуляции. |
-| align | TabAlignment | Выравнивание табуляции. |
+| position | Double | Позиция вкладки. |
+| align | TabAlignment | Выравнивание вкладки. |
 
 ### Возвращаемое значение
 
-Добавлена вкладка.
+Добавленная вкладка.
 
-### Смотрите также
+### Также см.
 
-* interface [ITab](../../itab)
-* enum [TabAlignment](../../tabalignment)
-* interface [ITabCollection](../../itabcollection)
+* интерфейс [ITab](../../itab)
+* перечисление [TabAlignment](../../tabalignment)
+* интерфейс [ITabCollection](../../itabcollection)
 * пространство имен [Aspose.Slides](../../itabcollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Add(ITab) {#add_1}
+## Добавить(ITab) {#add_1}
 
 Добавляет вкладку в коллекцию.
 
@@ -43,16 +44,16 @@ public int Add(ITab value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | ITab | Объект Tab, добавляемый в конец коллекции. |
+| value | ITab | Объект вкладки, который нужно добавить в конец коллекции. |
 
 ### Возвращаемое значение
 
 Индекс, по которому была добавлена вкладка.
 
-### Смотрите также
+### Также см.
 
-* interface [ITab](../../itab)
-* interface [ITabCollection](../../itabcollection)
+* интерфейс [ITab](../../itab)
+* интерфейс [ITabCollection](../../itabcollection)
 * пространство имен [Aspose.Slides](../../itabcollection)
 * сборка [Aspose.Slides](../../../)
 

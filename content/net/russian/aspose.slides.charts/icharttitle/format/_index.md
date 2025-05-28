@@ -1,23 +1,24 @@
 ---
-title: Format
+title: Формат
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стили заливки линии эффекта заголовка. Только для чтенияIFormataspose.slides.charts/iformat.
+description: Возвращает стили заполнения, линии и эффектов заголовка. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/icharttitle/format/
 ---
-## IChartTitle.Format property
 
-Возвращает стили заливки, линии, эффекта заголовка. Только для чтения[`IFormat`](../../iformat).
+## Свойство IChartTitle.Format
+
+Возвращает стили заполнения, линии и эффектов заголовка. Только для чтения [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFormat](../../iformat)
-* interface [IChartTitle](../../icharttitle)
+* интерфейс [IFormat](../../iformat)
+* интерфейс [IChartTitle](../../icharttitle)
 * пространство имен [Aspose.Slides.Charts](../../icharttitle)
 * сборка [Aspose.Slides](../../../)
 

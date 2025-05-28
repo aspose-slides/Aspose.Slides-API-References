@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Справка по API Aspose.Slidес для .NET
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ichartseriescollection/item/
 ---
-## IChartSeriesCollection indexer
+
+## Индексатор IChartSeriesCollection
 
 Получает элемент по указанному индексу.
 
@@ -22,12 +23,12 @@ public IChartSeries this[int index] { get; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*не является допустимым индексом вIList. |
+| ArgumentOutOfRangeException | *index* не является допустимым индексом в IList. |
 
-### Смотрите также
+### См. также
 
-* interface [IChartSeries](../../ichartseries)
-* interface [IChartSeriesCollection](../../ichartseriescollection)
+* интерфейс [IChartSeries](../../ichartseries)
+* интерфейс [IChartSeriesCollection](../../ichartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriescollection)
 * сборка [Aspose.Slides](../../../)
 

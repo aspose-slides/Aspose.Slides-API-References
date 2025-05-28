@@ -1,49 +1,50 @@
 ---
-title: Reflection
-second_title: Справочник по API Aspose.Slides для .NET
+title: Отражение
+second_title: Справочная информация по API Aspose.Slides для .NET
 description: Представляет эффект отражения.
 type: docs
-weight: 3440
+weight: 3520
 url: /ru/aspose.slides.effects/reflection/
 ---
-## Reflection class
+
+## Класс Reflection
 
 Представляет эффект отражения.
 
 ```csharp
-public class Reflection : IReflection
+public sealed class Reflection : IReflection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Радиус размытия. Чтение/записьDouble. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Направление отражения. Чтение/записьSingle. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Расстояние отражения. Чтение/записьDouble. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Задает конечное положение (вдоль линейного градиента альфа-канала) конечного значения альфа-канала (в процентах). Чтение/записьSingle. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Непрозрачность конечного отражения. (проценты). Чтение/записьSingle. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Задает направление смещения отражения. (угол). Чтение/записьSingle. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение/запись[`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Указывает, должно ли отражение вращаться вместе с фигурой, если фигура вращается. Чтение/записьBoolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Задает коэффициент масштабирования по горизонтали, отрицательное масштабирование приводит к перевороту. (проценты) Чтение/записьDouble. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Определяет коэффициент масштабирования по вертикали, отрицательное масштабирование приводит к перевороту. (проценты) Чтение/записьDouble. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Задает угол наклона по горизонтали. Чтение/записьDouble. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Указывает вертикальный угол наклона. Чтение/записьDouble. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Определяет начальную позицию (вдоль шкалы альфа-градиента) начального значения альфа-канала (в процентах). Чтение/записьSingle. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Начальная непрозрачность отражения. (проценты). Чтение/записьSingle. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Радиус размытия. Чтение/запись Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Направление отражения. Чтение/запись Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Расстояние отражения. Чтение/запись Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Указывает конечную позицию (вдоль градиентного перехода альфа) конечного значения альфа (проценты). Чтение/запись Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Конечная прозрачность отражения. (проценты). Чтение/запись Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Указывает направление, в котором будет смещено отражение. (угол). Чтение/запись Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение/запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Указывает, должно ли отражение вращаться вместе с фигурой, если фигура вращается. Чтение/запись Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Указывает коэффициент горизонтального масштабирования, отрицательное масштабирование вызывает переворот. (проценты) Чтение/запись Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Указывает коэффициент вертикального масштабирования, отрицательное масштабирование вызывает переворот. (проценты) Чтение/запись Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Указывает угол горизонтального сдвига. Чтение/запись Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Указывает угол вертикального сдвига. Чтение/запись Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Указывает начальную позицию (вдоль градиентного перехода альфа) начального значения альфа (проценты). Чтение/запись Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Начальная прозрачность отражения. (проценты). Чтение/запись Single. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Определяет, равен ли указанный[`Reflection`](../reflection)текущемуОтражение. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Определяет, равен ли указанный [`Reflection`](../reflection) текущему [`Reflection`](../reflection). |
 | [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Получает данные об эффективном эффекте отражения с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Служит хэш-функцией для конкретного типа. |
 
-### Смотрите также
+### См. также
 
-* interface [IReflection](../ireflection)
+* интерфейс [IReflection](../ireflection)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

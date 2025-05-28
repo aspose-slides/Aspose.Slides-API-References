@@ -1,23 +1,24 @@
 ---
-title: Shape
+title: Форма
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает фигуру связанную с комментарием. Только для чтенияIShapeaspose.slides/ishape.
+description: Возвращает форму, связанную с комментарием. Только для чтения IShapeaspose.slides/ishape.
 type: docs
 weight: 10
 url: /ru/aspose.slides/moderncomment/shape/
 ---
-## ModernComment.Shape property
 
-Возвращает фигуру, связанную с комментарием. Только для чтения[`IShape`](../../ishape).
+## Свойство ModernComment.Shape
+
+Возвращает форму, связанную с комментарием. Только для чтения [`IShape`](../../ishape).
 
 ```csharp
 public IShape Shape { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IShape](../../ishape)
-* class [ModernComment](../../moderncomment)
+* интерфейс [IShape](../../ishape)
+* класс [ModernComment](../../moderncomment)
 * пространство имен [Aspose.Slides](../../moderncomment)
 * сборка [Aspose.Slides](../../../)
 

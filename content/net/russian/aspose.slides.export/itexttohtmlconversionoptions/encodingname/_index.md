@@ -1,14 +1,15 @@
 ---
 title: EncodingName
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает имя кодировки html. Это значение будет сохранено в сгенерированном файле HTML но вызывающая сторона должна убедиться что файл будет сохранен в этой кодировке. Чтение/записьString.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает имя html кодировки. Это значение будет сохранено в сгенерированном HTML файле, но ответственность за сохранение файла в этой кодировке лежит на вызывающем. Читаемая/записываемая строка.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/itexttohtmlconversionoptions/encodingname/
 ---
-## ITextToHtmlConversionOptions.EncodingName property
 
-Возвращает или устанавливает имя кодировки html. Это значение будет сохранено в сгенерированном файле HTML, но вызывающая сторона должна убедиться, что файл будет сохранен в этой кодировке. Чтение/записьString.
+## Свойство ITextToHtmlConversionOptions.EncodingName
+
+Возвращает или устанавливает имя html кодировки. Это значение будет сохранено в сгенерированном HTML файле, но ответственность за сохранение файла в этой кодировке лежит на вызывающем. Читаемая/записываемая строка.
 
 ```csharp
 public string EncodingName { get; set; }
@@ -16,7 +17,7 @@ public string EncodingName { get; set; }
 
 ### Смотрите также
 
-* interface [ITextToHtmlConversionOptions](../../itexttohtmlconversionoptions)
+* интерфейс [ITextToHtmlConversionOptions](../../itexttohtmlconversionoptions)
 * пространство имен [Aspose.Slides.Export](../../itexttohtmlconversionoptions)
 * сборка [Aspose.Slides](../../../)
 

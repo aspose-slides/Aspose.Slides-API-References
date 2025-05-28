@@ -1,22 +1,23 @@
 ---
 title: AsIEnumerable
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable.
+second_title: Aspose.Sildes для .NET API Справка
+description: Позволяет получить базовый интерфейс IEnumerable. Только для чтения IEnumerable.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/itrendlinecollection/asienumerable/
 ---
-## ITrendlineCollection.AsIEnumerable property
 
-Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable.
+## ITrendlineCollection.AsIEnumerable свойство
+
+Позволяет получить базовый интерфейс IEnumerable. Только для чтения IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITrendlineCollection](../../itrendlinecollection)
+* интерфейс [ITrendlineCollection](../../itrendlinecollection)
 * пространство имен [Aspose.Slides.Charts](../../itrendlinecollection)
 * сборка [Aspose.Slides](../../../)
 

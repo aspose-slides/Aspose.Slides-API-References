@@ -1,14 +1,15 @@
 ---
 title: MathPortion
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет часть с математическим контекстом внутри.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Представляет собой фрагмент с математическим контекстом внутри.
 type: docs
-weight: 8200
+weight: 8660
 url: /ru/aspose.slides.mathtext/mathportion/
 ---
-## MathPortion class
 
-Представляет часть с математическим контекстом внутри.
+## Класс MathPortion
+
+Представляет собой фрагмент с математическим контекстом внутри.
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
@@ -20,24 +21,24 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [MathPortion](mathportion)() | Инициализирует новый экземпляр класса MathPortion. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Возвращает поле этой части. Только для чтения[`IField`](../../aspose.slides/ifield). |
+| [Field](../../aspose.slides/portion/field) { get; } | Возвращает поле этого фрагмента. Только для чтения [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Математический параграф |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения[`IPortionFormat`](../../aspose.slides/iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или задает обычный текст части. Чтение/записьString. |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстового фрагмента без применения наследования. Только для чтения [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или устанавливает простой текст фрагмента. Чтение/запись String. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Преобразует эту часть в автоматически обновляемое поле. |
-| [AddField](../../aspose.slides/portion/addfield)(string) | Преобразует эту часть в автоматически обновляемое поле. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получить координаты начала участка. Координата X точки представляет собой часть , начинающуюся с первого символа, включая левый боковой подшипник. Координата Y включает верхний боковой подшипник. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Получить координаты прямоугольника, ограничивающего часть. Прямоугольник включает в себя все строки text в порции, включая пустые. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Преобразует эту часть поля в простую часть. |
+| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Преобразует этот фрагмент в автоматически обновляемое поле. |
+| [AddField](../../aspose.slides/portion/addfield)(string) | Преобразует этот фрагмент в автоматически обновляемое поле. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получает координаты начала фрагмента. Координата X точки представляет начало фрагмента с первого символа, включая левую боковую отрисовку. Координата Y включает верхнюю боковую отрисовку. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Получает координаты прямоугольника, который ограничивает фрагмент. Прямоугольник включает все строки текста во фрагменте, включая пустые. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Преобразует этот фрагмент поля в простой фрагмент. |
 
 ### Примеры
 
@@ -54,10 +55,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Portion](../../aspose.slides/portion)
-* interface [IMathPortion](../imathportion)
+* класс [Portion](../../aspose.slides/portion)
+* интерфейс [IMathPortion](../imathportion)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

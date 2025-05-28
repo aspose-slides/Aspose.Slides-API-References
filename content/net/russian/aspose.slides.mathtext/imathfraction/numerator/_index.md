@@ -1,12 +1,13 @@
 ---
-title: Numerator
-second_title: Справочник по API Aspose.Slides для .NET
+title: Числитель
+second_title: Справочник API Aspose.Slides для .NET
 description: Числитель
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathfraction/numerator/
 ---
-## IMathFraction.Numerator property
+
+## Свойство IMathFraction.Numerator
 
 Числитель
 
@@ -24,10 +25,10 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathElement numerator = mathFraction.Numerator;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathFraction](../../imathfraction)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathFraction](../../imathfraction)
 * пространство имен [Aspose.Slides.MathText](../../imathfraction)
 * сборка [Aspose.Slides](../../../)
 

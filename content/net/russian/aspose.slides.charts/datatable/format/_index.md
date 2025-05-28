@@ -1,23 +1,24 @@
 ---
-title: Format
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стили линии заливки и эффекта объекта. Только для чтенияIFormataspose.slides.charts/iformat.
+title: Формат
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает стили линий, заливки и эффектов объекта. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/datatable/format/
 ---
-## DataTable.Format property
 
-Возвращает стили линии, заливки и эффекта объекта. Только для чтения[`IFormat`](../../iformat).
+## Свойство DataTable.Format
+
+Возвращает стили линий, заливки и эффектов объекта. Только для чтения [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFormat](../../iformat)
-* class [DataTable](../../datatable)
+* интерфейс [IFormat](../../iformat)
+* класс [DataTable](../../datatable)
 * пространство имен [Aspose.Slides.Charts](../../datatable)
 * сборка [Aspose.Slides](../../../)
 

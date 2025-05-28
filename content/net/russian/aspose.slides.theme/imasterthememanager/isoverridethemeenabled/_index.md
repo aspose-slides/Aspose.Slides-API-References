@@ -1,22 +1,23 @@
 ---
 title: IsOverrideThemeEnabled
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет переопределяет ли OverrideTheme унаследованную действующую тему Presentation.MasterTheme или нет. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET Справочник API
+description: Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему Presentation.MasterTheme или нет. Чтение/запись Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/imasterthememanager/isoverridethemeenabled/
 ---
-## IMasterThemeManager.IsOverrideThemeEnabled property
 
-Определяет, переопределяет ли OverrideTheme унаследованную действующую тему (Presentation.MasterTheme) или нет. Чтение/записьBoolean.
+## Свойство IMasterThemeManager.IsOverrideThemeEnabled
+
+Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему (Presentation.MasterTheme) или нет. Чтение/запись Boolean.
 
 ```csharp
 public bool IsOverrideThemeEnabled { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMasterThemeManager](../../imasterthememanager)
+* интерфейс [IMasterThemeManager](../../imasterthememanager)
 * пространство имен [Aspose.Slides.Theme](../../imasterthememanager)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Справка по API Aspose.Slides для .NET
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ichartseriesreadonlycollection/item/
 ---
-## IChartSeriesReadonlyCollection indexer
+
+## Индексатор IChartSeriesReadonlyCollection
 
 Получает элемент по указанному индексу.
 
@@ -14,10 +15,10 @@ url: /ru/aspose.slides.charts/ichartseriesreadonlycollection/item/
 public IChartSeries this[int index] { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IChartSeries](../../ichartseries)
-* interface [IChartSeriesReadonlyCollection](../../ichartseriesreadonlycollection)
+* интерфейс [IChartSeries](../../ichartseries)
+* интерфейс [IChartSeriesReadonlyCollection](../../ichartseriesreadonlycollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriesreadonlycollection)
 * сборка [Aspose.Slides](../../../)
 

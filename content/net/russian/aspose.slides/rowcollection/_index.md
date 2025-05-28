@@ -1,12 +1,13 @@
 ---
 title: RowCollection
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет коллекцию строк таблицы.
 type: docs
-weight: 8990
+weight: 9450
 url: /ru/aspose.slides/rowcollection/
 ---
-## RowCollection class
+
+## Класс RowCollection
 
 Представляет коллекцию строк таблицы.
 
@@ -14,30 +15,30 @@ url: /ru/aspose.slides/rowcollection/
 public sealed class RowCollection : DomObject<Table>, IRowCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | Получает количество строк, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/rowcollection/item) { get; } | Возвращает строку по указанному индексу. Только чтение[`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Получает количество строк, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасно для потоков). Только для чтения Boolean. |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | Возвращает строку по указанному индексу. Только для чтения [`Row`](../row). |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Создает копию указанной строки шаблона и вставляет ее внизу таблицы. |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Создает копию указанной строки-шаблона и вставляет ее в низ таблицы. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Создает копию указанной строки шаблона и вставляет ее в указанную позицию в таблице. |
-| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Удаляет строку в указанной позиции из таблицы. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Возвращает перечислитель, который проходит по коллекции. |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Создает копию указанной строки-шаблона и вставляет ее в указанное положение в таблице. |
+| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Удаляет строку по указанному индексу из таблицы. |
 
-### Смотрите также
+### См. также
 
-* class [DomObject&lt;TParent&gt;](../domobject-1)
-* class [Table](../table)
-* interface [IRowCollection](../irowcollection)
+* класс [DomObject&lt;TParent&gt;](../domobject-1)
+* класс [Table](../table)
+* интерфейс [IRowCollection](../irowcollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

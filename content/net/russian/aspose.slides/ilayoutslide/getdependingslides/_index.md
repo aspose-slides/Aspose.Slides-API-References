@@ -1,12 +1,13 @@
 ---
 title: GetDependingSlides
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает массив со всеми слайдами которые зависят от этого макета слайда.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает массив со всеми слайдами, которые зависят от этого макета слайда.
 type: docs
-weight: 70
+weight: 80
 url: /ru/aspose.slides/ilayoutslide/getdependingslides/
 ---
-## ILayoutSlide.GetDependingSlides method
+
+## ILayoutSlide.GetDependingSlides метод
 
 Возвращает массив со всеми слайдами, которые зависят от этого макета слайда.
 
@@ -20,8 +21,8 @@ public ISlide[] GetDependingSlides()
 
 ### Смотрите также
 
-* interface [ISlide](../../islide)
-* interface [ILayoutSlide](../../ilayoutslide)
+* интерфейс [ISlide](../../islide)
+* интерфейс [ILayoutSlide](../../ilayoutslide)
 * пространство имен [Aspose.Slides](../../ilayoutslide)
 * сборка [Aspose.Slides](../../../)
 

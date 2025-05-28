@@ -6,7 +6,8 @@ type: docs
 weight: 70
 url: /ru/aspose.slides.animation/ibehaviorfactory/createscaleeffect/
 ---
-## IBehaviorFactory.CreateScaleEffect method
+
+## IBehaviorFactory.CreateScaleEffect метод
 
 Создает эффект масштаба.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides.animation/ibehaviorfactory/createscaleeffect/
 public IScaleEffect CreateScaleEffect()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-Масштабный эффект.
+Эффект масштаба.
 
-### Смотрите также
+### См. Также
 
-* interface [IScaleEffect](../../iscaleeffect)
-* interface [IBehaviorFactory](../../ibehaviorfactory)
+* интерфейс [IScaleEffect](../../iscaleeffect)
+* интерфейс [IBehaviorFactory](../../ibehaviorfactory)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorfactory)
 * сборка [Aspose.Slides](../../../)
 

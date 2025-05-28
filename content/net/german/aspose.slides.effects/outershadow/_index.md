@@ -1,46 +1,47 @@
 ---
 title: OuterShadow
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Stellt einen äußeren Schatteneffekt dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt einen Outer Shadow-Effekt dar.
 type: docs
-weight: 3440
+weight: 3500
 url: /de/aspose.slides.effects/outershadow/
 ---
-## OuterShadow class
 
-Stellt einen äußeren Schatteneffekt dar.
+## OuterShadow-Klasse
+
+Stellt einen Outer Shadow-Effekt dar.
 
 ```csharp
-public class OuterShadow : IOuterShadow
+public sealed class OuterShadow : IOuterShadow
 ```
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Unschärferadius. Lesen/SchreibenDouble . |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Richtung des Schattens. Lesen/SchreibenSingle . |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Entfernung des Schattens. Lesen/SchreibenDouble . |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Rechteckausrichtung. Lesen/Schreiben[`RectangleAlignment`](../../aspose.slides/rectanglealignment) . |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Gibt an, ob sich der Schatten mit der Form drehen soll, wenn die Form gedreht wird. Lesen/SchreibenBoolean . |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Gibt den horizontalen Skalierungsfaktor an, negative Skalierung bewirkt einen Flip. Lesen/SchreibenDouble . |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Gibt den vertikalen Skalierungsfaktor an, negative Skalierung bewirkt einen Flip. Lesen/SchreibenDouble . |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Farbe des Schattens. Schreibgeschützt[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Gibt den horizontalen Neigungswinkel (in Grad) an. Lesen/SchreibenDouble . |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Gibt den vertikalen Neigungswinkel (in Grad) an. Lesen/SchreibenDouble . |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Unscharf-Radius. Lese-/Schreibzugriff Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Richtung des Schattens. Lese-/Schreibzugriff Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Entfernung des Schattens. Lese-/Schreibzugriff Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Rechteckausrichtung. Lese-/Schreibzugriff [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Gibt an, ob der Schatten mit der Form rotieren soll, wenn die Form rotiert wird. Lese-/Schreibzugriff Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Gibt den horizontalen Skalierungsfaktor an, negative Skalierung führt zu einer Umkehrung. Lese-/Schreibzugriff Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Gibt den vertikalen Skalierungsfaktor an, negative Skalierung führt zu einer Umkehrung. Lese-/Schreibzugriff Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Farbe des Schattens. Nur lesender Zugriff [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Gibt den horizontalen Schiefwinkewinkel (in Grad) an. Lese-/Schreibzugriff Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Gibt den vertikalen Schiefwinkewinkel (in Grad) an. Lese-/Schreibzugriff Double. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Bestimmt, ob die angegebene[`OuterShadow`](../outershadow) ist gleich dem Strom[`OuterShadow`](../outershadow) . |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Ruft effektive Outer Shadow-Effektdaten mit angewendeter Vererbung ab. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Bestimmt, ob der angegebene [`OuterShadow`](../outershadow) gleich dem aktuellen [`OuterShadow`](../outershadow) ist. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Erhält die effektiven Daten des Outer Shadow-Effekts mit der angewandten Vererbung. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ. |
 
 ### Siehe auch
 
 * interface [IOuterShadow](../ioutershadow)
-* namensraum [Aspose.Slides.Effects](../../aspose.slides.effects)
-* Montage [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

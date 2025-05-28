@@ -1,12 +1,13 @@
 ---
 title: ReadVbaProject
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Справочник по API
 description: Читает проект VBA из контейнера OLE.
 type: docs
 weight: 20
 url: /ru/aspose.slides.vba/ivbaprojectfactory/readvbaproject/
 ---
-## IVbaProjectFactory.ReadVbaProject method
+
+## IVbaProjectFactory.ReadVbaProject метод
 
 Читает проект VBA из контейнера OLE.
 
@@ -16,16 +17,16 @@ public IVbaProject ReadVbaProject(byte[] data)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| data | Byte[] | Ole dataByte[] |
+| data | Byte[] | Ole данные Byte[] |
 
-### Возвращаемое значение
+### Возвращаемое Значение
 
-Чтение проекта VBA
+Прочитанный проект VBA
 
-### Смотрите также
+### См. Также
 
-* interface [IVbaProject](../../ivbaproject)
-* interface [IVbaProjectFactory](../../ivbaprojectfactory)
+* интерфейс [IVbaProject](../../ivbaproject)
+* интерфейс [IVbaProjectFactory](../../ivbaprojectfactory)
 * пространство имен [Aspose.Slides.Vba](../../ivbaprojectfactory)
 * сборка [Aspose.Slides](../../../)
 

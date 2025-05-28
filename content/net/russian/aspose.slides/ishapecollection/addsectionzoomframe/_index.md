@@ -1,11 +1,12 @@
 ---
 title: AddSectionZoomFrame
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет новый объект Section Zoom в конец коллекции.
 type: docs
 weight: 140
 url: /ru/aspose.slides/ishapecollection/addsectionzoomframe/
 ---
+
 ## AddSectionZoomFrame(float, float, float, float, ISection) {#addsectionzoomframe}
 
 Добавляет новый объект Section Zoom в конец коллекции.
@@ -17,25 +18,25 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового Раздел Кадр масштабированияSingle. |
-| y | Single | Координата Y нового кадра увеличения сеченияSingle. |
-| width | Single | Ширина нового кадра масштабирования разделаSingle. |
-| height | Single | Высота нового кадра масштабирования разделаSingle. |
-| section | ISection | Объект раздела, на который ссылается фрейм масштабирования раздела[`ISection`](../../isection). |
+| x | Single | X координата нового кадра Section Zoom. |
+| y | Single | Y координата нового кадра Section Zoom. |
+| width | Single | Ширина нового кадра Section Zoom. |
+| height | Single | Высота нового кадра Section Zoom. |
+| section | ISection | Объект секции, на который ссылается кадр Section Zoom [`ISection`](../../isection). |
 
 ### Возвращаемое значение
 
-Создан объект Zoom Section[`ISectionZoomFrame`](../../isectionzoomframe).
+Созданный объект Section Zoom [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Упомянутый раздел не относится к текущей презентации или не содержит слайдов. |
+| ArgumentException | Ссылка на секцию не принадлежит текущей презентации или не содержит никаких слайдов. |
 
 ### Примеры
 
-В этом примере показано добавление объекта Section Zoom в конец коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
+Этот пример демонстрирует добавление объекта Section Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум две секции):
 
 ```csharp
 [C#]
@@ -45,11 +46,11 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Смотрите также
+### Также смотрите
 
-* interface [ISectionZoomFrame](../../isectionzoomframe)
-* interface [ISection](../../isection)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [ISectionZoomFrame](../../isectionzoomframe)
+* интерфейс [ISection](../../isection)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -66,26 +67,26 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового Раздел Кадр масштабированияSingle. |
-| y | Single | Координата Y нового кадра увеличения сеченияSingle. |
-| width | Single | Ширина нового кадра масштабирования разделаSingle. |
-| height | Single | Высота нового кадра масштабирования разделаSingle. |
-| section | ISection | Объект раздела, на который ссылается фрейм масштабирования раздела[`ISection`](../../isection). |
-| image | IPPImage | Изображение для указанного слайда[`IPPImage`](../../ippimage) |
+| x | Single | X координата нового кадра Section Zoom. |
+| y | Single | Y координата нового кадра Section Zoom. |
+| width | Single | Ширина нового кадра Section Zoom. |
+| height | Single | Высота нового кадра Section Zoom. |
+| section | ISection | Объект секции, на который ссылается кадр Section Zoom [`ISection`](../../isection). |
+| image | IPPImage | Изображение для слайда, на который ссылаются [`IPPImage`](../../ippimage) |
 
 ### Возвращаемое значение
 
-Создан объект Zoom Section[`ISectionZoomFrame`](../../isectionzoomframe).
+Созданный объект Section Zoom [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Упомянутый раздел не относится к текущей презентации или не содержит слайдов. |
+| ArgumentException | Ссылка на секцию не принадлежит текущей презентации или не содержит никаких слайдов. |
 
 ### Примеры
 
-В этом примере показано добавление объекта Section Zoom в конец коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
+Этот пример демонстрирует добавление объекта Section Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум две секции):
 
 ```csharp
 [C#]
@@ -96,12 +97,12 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Смотрите также
+### Также смотрите
 
-* interface [ISectionZoomFrame](../../isectionzoomframe)
-* interface [ISection](../../isection)
-* interface [IPPImage](../../ippimage)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [ISectionZoomFrame](../../isectionzoomframe)
+* интерфейс [ISection](../../isection)
+* интерфейс [IPPImage](../../ippimage)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

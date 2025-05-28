@@ -1,14 +1,15 @@
 ---
 title: AddTextFrameForOverriding
-second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализировать TextFrameForOverriding с текстом в параметре text. Если TextFrameForOverriding уже инициализирован то просто меняет свой текст.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Инициализируйте TextFrameForOverriding с текстом в параметре "text". Если TextFrameForOverriding уже инициализирован, просто измените его текст.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/charttitle/addtextframeforoverriding/
 ---
-## ChartTitle.AddTextFrameForOverriding method
 
-Инициализировать TextFrameForOverriding с текстом в параметре "text". Если TextFrameForOverriding уже инициализирован, то просто меняет свой текст.
+## ChartTitle.AddTextFrameForOverriding метод
+
+Инициализируйте TextFrameForOverriding с текстом в параметре "text". Если TextFrameForOverriding уже инициализирован, просто измените его текст.
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)
@@ -18,10 +19,10 @@ public ITextFrame AddTextFrameForOverriding(string text)
 | --- | --- | --- |
 | text | String | Текст для нового TextFrameForOverriding. |
 
-### Смотрите также
+### Смотрите Также
 
-* interface [ITextFrame](../../../aspose.slides/itextframe)
-* class [ChartTitle](../../charttitle)
+* интерфейс [ITextFrame](../../../aspose.slides/itextframe)
+* класс [ChartTitle](../../charttitle)
 * пространство имен [Aspose.Slides.Charts](../../charttitle)
 * сборка [Aspose.Slides](../../../)
 

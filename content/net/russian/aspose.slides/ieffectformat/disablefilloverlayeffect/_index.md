@@ -6,7 +6,8 @@ type: docs
 weight: 120
 url: /ru/aspose.slides/ieffectformat/disablefilloverlayeffect/
 ---
-## IEffectFormat.DisableFillOverlayEffect method
+
+## Метод IEffectFormat.DisableFillOverlayEffect
 
 Отключает эффект наложения заливки.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/ieffectformat/disablefilloverlayeffect/
 public void DisableFillOverlayEffect()
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IEffectFormat](../../ieffectformat)
+* интерфейс [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)
 * сборка [Aspose.Slides](../../../)
 

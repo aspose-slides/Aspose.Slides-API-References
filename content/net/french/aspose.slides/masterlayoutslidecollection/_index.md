@@ -1,14 +1,15 @@
 ---
 title: MasterLayoutSlideCollection
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une collection de toutes les diapositives de mise en page de la diapositive principale définie. Étend la classe LayoutSlideCollection avec des méthodes pour ajouter/insérer/supprimer/cloner/réorganiser les diapositives de mise en page dans le contexte des collections individuelles de diapositives de mise en page du maître.
+description: Représente une collection de toutes les diapositives de mise en page du modèle maître défini. Étend la classe LayoutSlideCollection avec des méthodes pour ajouter/inserer/supprimer/cloner/reorganiser des diapositives de mise en page dans le contexte des collections individuelles de diapositives de mise en page de modèles.
 type: docs
-weight: 7320
+weight: 7750
 url: /fr/aspose.slides/masterlayoutslidecollection/
 ---
-## MasterLayoutSlideCollection class
 
-Représente une collection de toutes les diapositives de mise en page de la diapositive principale définie. Étend la classe LayoutSlideCollection avec des méthodes pour ajouter/insérer/supprimer/cloner/réorganiser les diapositives de mise en page dans le contexte des collections individuelles de diapositives de mise en page du maître.
+## Classe MasterLayoutSlideCollection
+
+Représente une collection de toutes les diapositives de mise en page du modèle maître défini. Étend la classe LayoutSlideCollection avec des méthodes pour ajouter/inserer/supprimer/cloner/reorganiser des diapositives de mise en page dans le contexte des collections individuelles de diapositives de mise en page du maître.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,34 +18,34 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Renvoie le nombre de diapositives de mise en page dans une collection. Lecture seuleInt32 . |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seuleBoolean . |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Renvoie la diapositive de mise en page par index. Lecture seule[`LayoutSlide`](../layoutslide) . |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seuleObject . |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Renvoie le nombre de diapositives de mise en page dans une collection. En lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé par des threads). En lecture seule Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Renvoie la diapositive de mise en page par index. En lecture seule [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Renvoie une racine de synchronisation. En lecture seule Object. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Ajoute une nouvelle diapositive de mise en page à la fin de la collection. |
 | [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Ajoute une copie d'une diapositive de mise en page spécifiée à la fin de la collection. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Renvoie la première diapositive de mise en page du type spécifié. Type de diapositive de mise en page à rechercher.[`LayoutSlide`](../layoutslide) avec le type spécifié ou null si aucune mise en page n'a été trouvée. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Renvoie la première diapositive de mise en page du type spécifié. Un type de diapositive de mise en page à trouver. [`LayoutSlide`](../layoutslide) avec le type spécifié ou null si aucune mise en page n'est trouvée. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
 | [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Insère une nouvelle diapositive de mise en page à la position spécifiée de la collection. |
 | [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Insère une copie d'une diapositive de mise en page spécifiée à la position spécifiée de la collection. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Supprime une mise en page de la collection. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Supprime une diapositive de la collection. |
 | [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Supprime l'élément à l'index spécifié de la collection. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Supprime les diapositives de mise en page inutilisées (diapositives de mise en page dont HasDependingSlides est faux). |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Déplace la diapositive de mise en page de la collection vers la position spécifiée. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Supprime les diapositives de mise en page non utilisées (diapositives de mise en page dont HasDependingSlides est faux). |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Déplace la diapositive de mise en page de la collection à la position spécifiée. |
 
-### Voir également
+### Voir Aussi
 
-* class [LayoutSlideCollection](../layoutslidecollection)
+* classe [LayoutSlideCollection](../layoutslidecollection)
 * interface [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
 * espace de noms [Aspose.Slides](../../aspose.slides)
-* Assemblée [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

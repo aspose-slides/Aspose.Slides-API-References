@@ -1,12 +1,13 @@
 ---
-title: Theme
+title: Тема
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет тему.
 type: docs
-weight: 10670
+weight: 11170
 url: /ru/aspose.slides.theme/theme/
 ---
-## Theme class
+
+## Класс Theme
 
 Представляет тему.
 
@@ -14,24 +15,24 @@ url: /ru/aspose.slides.theme/theme/
 public abstract class Theme : ITheme
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения[`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Возвращает схему шрифта. Только для чтения[`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Возвращает схему формата формы. Только для чтения[`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Возвращает родительскую презентацию. Только чтение[`IPresentation`](../../aspose.slides/ipresentation). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения [`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Возвращает шрифтовую схему. Только для чтения [`IFontScheme`](../ifontscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Возвращает схему формата фигур. Только для чтения [`IFormatScheme`](../iformatscheme). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Возвращает родительскую презентацию. Только для чтения [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Получает эффективные данные темы с примененным наследованием. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Получает эффективные данные темы с применением наследования. |
 
 ### Смотрите также
 
-* interface [ITheme](../itheme)
+* интерфейс [ITheme](../itheme)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

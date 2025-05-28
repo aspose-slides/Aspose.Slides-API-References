@@ -1,33 +1,34 @@
 ---
 title: INotesSlide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет слайд заметок в презентации.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет заметочный слайд в презентации.
 type: docs
-weight: 5940
+weight: 6300
 url: /ru/aspose.slides/inotesslide/
 ---
-## INotesSlide interface
 
-Представляет слайд заметок в презентации.
+## Интерфейс INotesSlide
+
+Представляет заметочный слайд в презентации.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Возвращает интерфейс IOverrideThemeable. Только для чтения[`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter слайда заметок. Только для чтения[`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Возвращает TextFrame с текстом заметок, если он есть. Только для чтения[`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Возвращает ParentSlide Только для чтения[`ISlide`](../islide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Возвращает интерфейс IOverrideThemeable. Только для чтения [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter заметочного слайда. Только для чтения [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Возвращает TextFrame с текстом заметок, если он есть. Только для чтения [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Возвращает ParentSlide. Только для чтения [`ISlide`](../islide). |
 
-### Смотрите также
+### См. также
 
-* interface [IBaseSlide](../ibaseslide)
-* interface [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
+* интерфейс [IBaseSlide](../ibaseslide)
+* интерфейс [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

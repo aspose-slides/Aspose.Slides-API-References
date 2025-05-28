@@ -1,12 +1,13 @@
 ---
 title: ILineFormatCollection
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Представляет коллекцию стилей линий.
 type: docs
-weight: 10480
+weight: 10980
 url: /ru/aspose.slides.theme/ilineformatcollection/
 ---
-## ILineFormatCollection interface
+
+## Интерфейс ILineFormatCollection
 
 Представляет коллекцию стилей линий.
 
@@ -14,16 +15,16 @@ url: /ru/aspose.slides.theme/ilineformatcollection/
 public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* interface [ILineFormat](../../aspose.slides/ilineformat)
+* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* интерфейс [ILineFormat](../../aspose.slides/ilineformat)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

@@ -1,12 +1,13 @@
 ---
 title: AsIHtmlFormattingController
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает интерфейс IHtmlFormattingController.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller/
 ---
-## IEmbeddedWoffFontsHtmlController.AsIHtmlFormattingController property
+
+## IEmbeddedWoffFontsHtmlController.AsIHtmlFormattingController свойство
 
 Возвращает интерфейс IHtmlFormattingController.
 
@@ -16,12 +17,12 @@ public IHtmlFormattingController AsIHtmlFormattingController { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. Так же
 
-* interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
-* interface [IEmbeddedWoffFontsHtmlController](../../iembeddedwofffontshtmlcontroller)
+* интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
+* интерфейс [IEmbeddedWoffFontsHtmlController](../../iembeddedwofffontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../iembeddedwofffontshtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

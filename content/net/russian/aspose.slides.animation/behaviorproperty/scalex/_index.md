@@ -1,12 +1,13 @@
 ---
 title: ScaleX
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство ScaleX
 type: docs
 weight: 580
 url: /ru/aspose.slides.animation/behaviorproperty/scalex/
 ---
-## BehaviorProperty.ScaleX property
+
+## Свойство BehaviorProperty.ScaleX
 
 Представляет свойство 'ScaleX'
 
@@ -16,7 +17,7 @@ public static BehaviorProperty ScaleX { get; }
 
 ### Смотрите также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

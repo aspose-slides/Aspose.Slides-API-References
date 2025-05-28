@@ -1,12 +1,13 @@
 ---
-title: Add
+title: Добавить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет IMathBlock в конец коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/mathparagraph/add/
 ---
-## MathParagraph.Add method
+
+## Метод MathParagraph.Add
 
 Добавляет IMathBlock в конец коллекции.
 
@@ -31,8 +32,8 @@ mathParagraph.Add(new MathBlock(new MathematicalText("x")));
 
 ### Смотрите также
 
-* interface [IMathBlock](../../imathblock)
-* class [MathParagraph](../../mathparagraph)
+* интерфейс [IMathBlock](../../imathblock)
+* класс [MathParagraph](../../mathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraph)
 * сборка [Aspose.Slides](../../../)
 

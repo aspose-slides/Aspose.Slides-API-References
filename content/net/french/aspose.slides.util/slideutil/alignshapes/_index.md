@@ -1,29 +1,30 @@
 ---
 title: AlignShapes
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie le placement de toutes les formes sur la diapositive. Aligne les formes sur les marges ou le bord de la diapositive ou les aligne les unes par rapport aux autres.
+description: Modifie le placement de toutes les formes sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou les aligne par rapport les unes aux autres.
 type: docs
 weight: 10
 url: /fr/aspose.slides.util/slideutil/alignshapes/
 ---
-## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
 
-Modifie le placement de toutes les formes sur la diapositive. Aligne les formes sur les marges ou le bord de la diapositive ou les aligne les unes par rapport aux autres.
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
+
+Modifie le placement de toutes les formes sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou les aligne par rapport les unes aux autres.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IBaseSlide slide)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | Détermine le type d'alignement qui sera appliqué. |
+| alignmentType | ShapesAlignmentType | Détermine quel type d'alignement sera appliqué. |
 | alignToSlide | Boolean | Si vrai, les formes seront alignées par rapport aux bords de la diapositive. |
-| slide | IBaseSlide | Diapositive parent. |
+| slide | IBaseSlide | Diapositive parente. |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -33,35 +34,35 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir également
+### Voir aussi
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
 * class [SlideUtil](../../slideutil)
-* espace de noms [Aspose.Slides.Util](../../slideutil)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
 
-Modifie l'emplacement des formes sélectionnées sur la diapositive. Aligne les formes sur les marges ou le bord de la diapositive ou les aligne les unes par rapport aux autres.
+Modifie le placement des formes sélectionnées sur la diapositive. Aligne les formes aux marges ou au bord de la diapositive ou les aligne par rapport les unes aux autres.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IBaseSlide slide, int[] shapeIndexes)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | Détermine le type d'alignement qui sera appliqué. |
+| alignmentType | ShapesAlignmentType | Détermine quel type d'alignement sera appliqué. |
 | alignToSlide | Boolean | Si vrai, les formes seront alignées par rapport aux bords de la diapositive. |
-| slide | IBaseSlide | Diapositive parent. |
+| slide | IBaseSlide | Diapositive parente. |
 | shapeIndexes | Int32[] | Index des formes à aligner. |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -79,34 +80,34 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir également
+### Voir aussi
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
 * class [SlideUtil](../../slideutil)
-* espace de noms [Aspose.Slides.Util](../../slideutil)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
 
-Modifie le placement de toutes les formes dans la forme du groupe. Aligne les formes sur les marges ou le bord de la diapositive ou les aligne les unes par rapport aux autres.
+Modifie le placement de toutes les formes au sein d'une forme groupe. Aligne les formes aux marges ou au bord de la diapositive ou les aligne par rapport les unes aux autres.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IGroupShape groupShape)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | Détermine le type d'alignement qui sera appliqué. |
+| alignmentType | ShapesAlignmentType | Détermine quel type d'alignement sera appliqué. |
 | alignToSlide | Boolean | Si vrai, les formes seront alignées par rapport aux bords de la diapositive. |
-| groupShape | IGroupShape | Forme du groupe parent. |
+| groupShape | IGroupShape | Forme groupe parente. |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -116,35 +117,35 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir également
+### Voir aussi
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IGroupShape](../../../aspose.slides/igroupshape)
 * class [SlideUtil](../../slideutil)
-* espace de noms [Aspose.Slides.Util](../../slideutil)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
 
-Modifie le placement des formes sélectionnées dans la forme du groupe. Aligne les formes sur les marges ou le bord de la diapositive ou les aligne les unes par rapport aux autres.
+Modifie le placement des formes sélectionnées au sein d'une forme groupe. Aligne les formes aux marges ou au bord de la diapositive ou les aligne par rapport les unes aux autres.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IGroupShape groupShape, int[] shapeIndexes)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | Détermine le type d'alignement qui sera appliqué. |
+| alignmentType | ShapesAlignmentType | Détermine quel type d'alignement sera appliqué. |
 | alignToSlide | Boolean | Si vrai, les formes seront alignées par rapport aux bords de la diapositive. |
-| groupShape | IGroupShape | Forme du groupe parent. |
+| groupShape | IGroupShape | Forme groupe parente. |
 | shapeIndexes | Int32[] | Index des formes à aligner. |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -154,12 +155,12 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir également
+### Voir aussi
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IGroupShape](../../../aspose.slides/igroupshape)
 * class [SlideUtil](../../slideutil)
-* espace de noms [Aspose.Slides.Util](../../slideutil)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

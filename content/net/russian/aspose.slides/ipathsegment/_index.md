@@ -1,12 +1,13 @@
 ---
 title: IPathSegment
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет сегмент графического пути GeometryShape
 type: docs
-weight: 6050
+weight: 6410
 url: /ru/aspose.slides/ipathsegment/
 ---
-## IPathSegment interface
+
+## Интерфейс IPathSegment
 
 Представляет сегмент графического пути GeometryShape
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides/ipathsegment/
 public interface IPathSegment
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | Тип пути сегмента |
 | [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Данные пути сегмента |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

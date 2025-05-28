@@ -1,14 +1,15 @@
 ---
 title: PptxReadException
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет исключение вызываемое ошибками чтения презентации.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет собой исключение, которое возникает при ошибках чтения презентации.
 type: docs
-weight: 8850
+weight: 9300
 url: /ru/aspose.slides/pptxreadexception/
 ---
-## PptxReadException class
 
-Представляет исключение, вызываемое ошибками чтения презентации.
+## Класс PptxReadException
+
+Представляет собой исключение, которое возникает при ошибках чтения презентации.
 
 ```csharp
 public class PptxReadException : PptxException
@@ -20,11 +21,11 @@ public class PptxReadException : PptxException
 | --- | --- |
 | [PptxReadException](pptxreadexception#constructor)() | Конструктор по умолчанию. |
 | [PptxReadException](pptxreadexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
-| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
+| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и вложенное исключение. |
 
-### Смотрите также
+### См. также
 
-* class [PptxException](../pptxexception)
+* класс [PptxException](../pptxexception)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

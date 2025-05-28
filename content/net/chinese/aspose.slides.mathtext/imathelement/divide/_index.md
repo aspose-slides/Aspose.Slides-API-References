@@ -1,153 +1,154 @@
----
-title: Divide
-second_title: Aspose.Slides for .NET API 参考
-description: 使用此分子和指定分母创建分数
-type: docs
-weight: 30
+---  
+title: 除法  
+second_title: Aspose.Slides for .NET API 参考  
+description: 使用此分子和指定分母创建一个分数
+type: docs  
+weight: 30  
 url: /zh/aspose.slides.mathtext/imathelement/divide/
----
-## Divide(IMathElement) {#divide}
+---  
 
-使用此分子和指定分母创建分数
+## Divide(IMathElement) {#divide}  
 
-```csharp
-public IMathFraction Divide(IMathElement denominator)
-```
+使用此分子和指定分母创建一个分数  
 
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| denominator | IMathElement | 分母 |
+```csharp  
+public IMathFraction Divide(IMathElement denominator)  
+```  
 
-### 返回值
+| 参数 | 类型 | 描述 |  
+| --- | --- | --- |  
+| denominator | IMathElement | 分母 |  
 
-新分数
+### 返回值  
 
-### 例子
+新分数  
 
-示例:
+### 示例  
 
-```csharp
-[C#]
-IMathElement numerator = new MathematicalText("x");
-IMathElement denumerator = new MathematicalText("y");
-IMathFraction fraction = numerator.Divide(denumerator);
-```
+示例：  
 
-### 也可以看看
+```csharp  
+[C#]  
+IMathElement numerator = new MathematicalText("x");  
+IMathElement denumerator = new MathematicalText("y");  
+IMathFraction fraction = numerator.Divide(denumerator);  
+```  
 
-* interface [IMathFraction](../../imathfraction)
-* interface [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 部件 [Aspose.Slides](../../../)
+### 另请参见  
 
----
+* 接口 [IMathFraction](../../imathfraction)  
+* 接口 [IMathElement](../../imathelement)  
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)  
+* 程序集 [Aspose.Slides](../../../)  
 
-## Divide(string) {#divide_2}
+---  
 
-使用此分子和指定分母创建分数
+## Divide(string) {#divide_2}  
 
-```csharp
-public IMathFraction Divide(string denominator)
-```
+使用此分子和指定分母创建一个分数  
 
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| denominator | String | 分母 |
+```csharp  
+public IMathFraction Divide(string denominator)  
+```  
 
-### 返回值
+| 参数 | 类型 | 描述 |  
+| --- | --- | --- |  
+| denominator | String | 分母 |  
 
-新分数
+### 返回值  
 
-### 例子
+新分数  
 
-示例:
+### 示例  
 
-```csharp
-[C#]
-IMathElement numerator = new MathematicalText("x");
-IMathFraction fraction = numerator.Divide("y");
-```
+示例：  
 
-### 也可以看看
+```csharp  
+[C#]  
+IMathElement numerator = new MathematicalText("x");  
+IMathFraction fraction = numerator.Divide("y");  
+```  
 
-* interface [IMathFraction](../../imathfraction)
-* interface [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 部件 [Aspose.Slides](../../../)
+### 另请参见  
 
----
+* 接口 [IMathFraction](../../imathfraction)  
+* 接口 [IMathElement](../../imathelement)  
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)  
+* 程序集 [Aspose.Slides](../../../)  
 
-## Divide(IMathElement, MathFractionTypes) {#divide_1}
+---  
 
-使用此分子和指定分母创建指定类型的分数
+## Divide(IMathElement, MathFractionTypes) {#divide_1}  
 
-```csharp
-public IMathFraction Divide(IMathElement denominator, MathFractionTypes fractionType)
-```
+使用此分子和指定分母创建指定类型的分数  
 
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| 分母 | IMathElement | 分母 |
-| fractionType | MathFractionTypes | 分数类型:条形、无条形、倾斜、线性 |
+```csharp  
+public IMathFraction Divide(IMathElement denominator, MathFractionTypes fractionType)  
+```  
 
-### 返回值
+| 参数 | 类型 | 描述 |  
+| --- | --- | --- |  
+| denominator | IMathElement | 分母 |  
+| fractionType | MathFractionTypes | 分数类型：Bar, NoBar, Skewed, Linear |  
 
-新分数
+### 返回值  
 
-### 例子
+新分数  
 
-示例:
+### 示例  
 
-```csharp
-[C#]
-IMathElement numerator = new MathematicalText("x");
-IMathElement denumerator = new MathematicalText("y");
-IMathFraction fraction = numerator.Divide(denumerator, MathFractionTypes.Linear);
-```
+示例：  
 
-### 也可以看看
+```csharp  
+[C#]  
+IMathElement numerator = new MathematicalText("x");  
+IMathElement denumerator = new MathematicalText("y");  
+IMathFraction fraction = numerator.Divide(denumerator, MathFractionTypes.Linear);  
+```  
 
-* interface [IMathFraction](../../imathfraction)
-* enum [MathFractionTypes](../../mathfractiontypes)
-* interface [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 部件 [Aspose.Slides](../../../)
+### 另请参见  
 
----
+* 接口 [IMathFraction](../../imathfraction)  
+* 枚举 [MathFractionTypes](../../mathfractiontypes)  
+* 接口 [IMathElement](../../imathelement)  
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)  
+* 程序集 [Aspose.Slides](../../../)  
 
-## Divide(string, MathFractionTypes) {#divide_3}
+---  
 
-使用此分子和指定分母创建指定类型的分数
+## Divide(string, MathFractionTypes) {#divide_3}  
 
-```csharp
-public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
-```
+使用此分子和指定分母创建指定类型的分数  
 
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| 分母 | String | 分母 |
-| fractionType | MathFractionTypes | 分数类型:条形、无条形、倾斜、线性 |
+```csharp  
+public IMathFraction Divide(string denominator, MathFractionTypes fractionType)  
+```  
 
-### 返回值
+| 参数 | 类型 | 描述 |  
+| --- | --- | --- |  
+| denominator | String | 分母 |  
+| fractionType | MathFractionTypes | 分数类型：Bar, NoBar, Skewed, Linear |  
 
-新分数
+### 返回值  
 
-### 例子
+新分数  
 
-示例:
+### 示例  
 
-```csharp
-[C#]
-IMathElement numerator = new MathematicalText("x");
-IMathFraction fraction = numerator.Divide("y", MathFractionTypes.Linear);
-```
+示例：  
 
-### 也可以看看
+```csharp  
+[C#]  
+IMathElement numerator = new MathematicalText("x");  
+IMathFraction fraction = numerator.Divide("y", MathFractionTypes.Linear);  
+```  
 
-* interface [IMathFraction](../../imathfraction)
-* enum [MathFractionTypes](../../mathfractiontypes)
-* interface [IMathElement](../../imathelement)
-* 命名空间 [Aspose.Slides.MathText](../../imathelement)
-* 部件 [Aspose.Slides](../../../)
+### 另请参见  
+
+* 接口 [IMathFraction](../../imathfraction)  
+* 枚举 [MathFractionTypes](../../mathfractiontypes)  
+* 接口 [IMathElement](../../imathelement)  
+* 命名空间 [Aspose.Slides.MathText](../../imathelement)  
+* 程序集 [Aspose.Slides](../../../)  
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

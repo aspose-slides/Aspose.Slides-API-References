@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает подпись по индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides/digitalsignaturecollection/item/
 ---
-## DigitalSignatureCollection indexer
+
+## Индексатор DigitalSignatureCollection
 
 Возвращает подпись по индексу.
 
@@ -14,10 +15,10 @@ url: /ru/aspose.slides/digitalsignaturecollection/item/
 public IDigitalSignature this[int index] { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IDigitalSignature](../../idigitalsignature)
-* class [DigitalSignatureCollection](../../digitalsignaturecollection)
+* интерфейс [IDigitalSignature](../../idigitalsignature)
+* класс [DigitalSignatureCollection](../../digitalsignaturecollection)
 * пространство имен [Aspose.Slides](../../digitalsignaturecollection)
 * сборка [Aspose.Slides](../../../)
 

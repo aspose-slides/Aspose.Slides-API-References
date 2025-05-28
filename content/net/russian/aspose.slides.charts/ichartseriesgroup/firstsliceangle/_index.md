@@ -1,22 +1,23 @@
 ---
 title: FirstSliceAngle
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает угол первого фрагмента круговой или кольцевой диаграммы в градусах по часовой стрелке сверху от 0 до 360 градусов. Чтение/записьUInt16.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает или устанавливает угол первого сегмента круговой или донат-диаграммы в градусах по часовой стрелке от нуля до 360 градусов. Чтение/запись UInt16.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ichartseriesgroup/firstsliceangle/
 ---
-## IChartSeriesGroup.FirstSliceAngle property
 
-Получает или задает угол первого фрагмента круговой или кольцевой диаграммы, в градусах (по часовой стрелке сверху, от 0 до 360 градусов). Чтение/записьUInt16.
+## Свойство IChartSeriesGroup.FirstSliceAngle
+
+Получает или устанавливает угол первого сегмента круговой или донат-диаграммы в градусах (по часовой стрелке от нуля, от 0 до 360 градусов). Чтение/запись UInt16.
 
 ```csharp
 public ushort FirstSliceAngle { get; set; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IChartSeriesGroup](../../ichartseriesgroup)
+* интерфейс [IChartSeriesGroup](../../ichartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
-title: SetSlideNumberAndChildSlideNumbersVisibility
+title: УстановитьНомерСлайдаИВидимостьНомеровДетскихСлайдов
 second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет заполнитель номеров страниц макета и видимость всех заполнителей номеров дочерних страниц. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда.
+description: Изменяет видимость заполнитель номера страницы макета слайда и всех заполнителей номеров страниц дочерних слайдов. Дочерние заполнители - это заполнители, содержащиеся на зависимых слайдах. Зависимые слайды используют и зависят от макета слайда.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
-## ILayoutSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility method
 
-Изменяет заполнитель номеров страниц макета и видимость всех заполнителей номеров дочерних страниц. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда.
+## ILayoutSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility метод
+
+Изменяет видимость заполнителей номера страницы макета слайда и всех заполнителей номеров страниц дочерних слайдов. Дочерние заполнители - это заполнители, содержащиеся на зависимых слайдах. Зависимые слайды используют и зависят от макета слайда.
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
@@ -16,11 +17,11 @@ public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает видимыми заполнители номеров страниц, иначе - скрывает их. |
+| isVisible | Boolean | true - делает заполнители номера страницы видимыми, иначе - скрывает их. |
 
-### Смотрите также
+### См. Также
 
-* interface [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
+* интерфейс [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ilayoutslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

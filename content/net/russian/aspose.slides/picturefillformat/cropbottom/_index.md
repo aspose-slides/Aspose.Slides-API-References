@@ -1,22 +1,23 @@
 ---
 title: CropBottom
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает количество процентов от реальной высоты изображения которые обрезаются нижняя часть изображения. Чтение/записьSingle.
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает или устанавливает процент реальной высоты изображения, который отрезается снизу картинки. Чтение/запись Single.
 type: docs
 weight: 10
 url: /ru/aspose.slides/picturefillformat/cropbottom/
 ---
-## PictureFillFormat.CropBottom property
 
-Возвращает или задает количество процентов от реальной высоты изображения, которые обрезаются нижняя часть изображения. Чтение/записьSingle.
+## Свойство PictureFillFormat.CropBottom
+
+Возвращает или устанавливает процент реальной высоты изображения, который отрезается снизу картинки. Чтение/запись Single.
 
 ```csharp
 public float CropBottom { get; set; }
 ```
 
-### Смотрите также
+### Также см.
 
-* class [PictureFillFormat](../../picturefillformat)
+* класс [PictureFillFormat](../../picturefillformat)
 * пространство имен [Aspose.Slides](../../picturefillformat)
 * сборка [Aspose.Slides](../../../)
 

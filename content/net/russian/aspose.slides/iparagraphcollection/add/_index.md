@@ -1,14 +1,15 @@
 ---
-title: Add
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет абзац в конец коллекции.
+title: Добавить
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Добавляет Параграф в конец коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides/iparagraphcollection/add/
 ---
+
 ## Add(IParagraph) {#add_1}
 
-Добавляет абзац в конец коллекции.
+Добавляет Параграф в конец коллекции.
 
 ```csharp
 public void Add(IParagraph value)
@@ -16,12 +17,12 @@ public void Add(IParagraph value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IParagraph | Параграф, добавляемый в конец коллекции. |
+| value | IParagraph | Параграф, который будет добавлен в конец коллекции. |
 
 ### Смотрите также
 
-* interface [IParagraph](../../iparagraph)
-* interface [IParagraphCollection](../../iparagraphcollection)
+* интерфейс [IParagraph](../../iparagraph)
+* интерфейс [IParagraphCollection](../../iparagraphcollection)
 * пространство имен [Aspose.Slides](../../iparagraphcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -37,15 +38,15 @@ public int Add(IParagraphCollection value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IParagraphCollection | Коллекция ParagraphCollection, добавляемая в конец коллекции. |
+| value | IParagraphCollection | ParagraphCollection, который будет добавлен в конец коллекции. |
 
 ### Возвращаемое значение
 
-Индекс, по которому был добавлен Абзац или -1, если добавить нечего.
+Индекс, по которому Параграф был добавлен, или -1, если нечего добавлять.
 
 ### Смотрите также
 
-* interface [IParagraphCollection](../../iparagraphcollection)
+* интерфейс [IParagraphCollection](../../iparagraphcollection)
 * пространство имен [Aspose.Slides](../../iparagraphcollection)
 * сборка [Aspose.Slides](../../../)
 

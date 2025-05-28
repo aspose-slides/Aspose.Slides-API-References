@@ -1,23 +1,24 @@
 ---
 title: FontsManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает диспетчер шрифтов. Только для чтенияIFontsManageraspose.slides/ifontsmanager.
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает менеджер шрифтов. Только для чтения IFontsManager aspose.slides/ifontsmanager.
 type: docs
 weight: 120
 url: /ru/aspose.slides/ipresentation/fontsmanager/
 ---
-## IPresentation.FontsManager property
 
-Возвращает диспетчер шрифтов. Только для чтения[`IFontsManager`](../../ifontsmanager).
+## Свойство IPresentation.FontsManager
+
+Возвращает менеджер шрифтов. Только для чтения [`IFontsManager`](../../ifontsmanager).
 
 ```csharp
 public IFontsManager FontsManager { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFontsManager](../../ifontsmanager)
-* interface [IPresentation](../../ipresentation)
+* интерфейс [IFontsManager](../../ifontsmanager)
+* интерфейс [IPresentation](../../ipresentation)
 * пространство имен [Aspose.Slides](../../ipresentation)
 * сборка [Aspose.Slides](../../../)
 

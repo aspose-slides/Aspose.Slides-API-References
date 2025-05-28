@@ -1,20 +1,21 @@
 ---
 title: MathBox
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Gibt die logische Box Verpackung eines mathematischen Elements an. Beispielsweise kann ein BoxObjekt als Operatoremulator mit oder ohne Ausrichtungspunkt dienen als Zeilenumbruchpunkt dienen oder so gruppiert werden dass keine Zeilenumbrüche zulässig sind within. Beispielsweise sollte der Operator  umrahmt werden um Zeilenumbrüche zu vermeiden.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die logische Verpackung Boxing von mathematischen Elementen an. Ein verpacktes Objekt kann beispielsweise als Operator-Emulator mit oder ohne einen Ausrichtungspunkt dienen, als Zeilenumbruchpunkt fungieren oder so gruppiert sein, dass innerhalb der Box keine Zeilenumbrüche erlaubt sind. Beispielsweise sollte der "==" Operator verpackt werden, um Zeilenumbrüche zu verhindern.
 type: docs
-weight: 7940
+weight: 8370
 url: /de/aspose.slides.mathtext/mathbox/
 ---
-## MathBox class
 
-Gibt die logische Box (Verpackung) eines mathematischen Elements an. Beispielsweise kann ein Box-Objekt als Operatoremulator mit oder ohne Ausrichtungspunkt dienen, als Zeilenumbruchpunkt dienen oder so gruppiert werden, dass keine Zeilenumbrüche zulässig sind within. Beispielsweise sollte der Operator "==" umrahmt werden, um Zeilenumbrüche zu vermeiden.
+## MathBox Klasse
+
+Gibt die logische Verpackung (Boxing) von mathematischen Elementen an. Ein verpacktes Objekt kann beispielsweise als Operator-Emulator mit oder ohne einen Ausrichtungspunkt dienen, als Zeilenumbruchpunkt fungieren oder so gruppiert sein, dass innerhalb der Box keine Zeilenumbrüche erlaubt sind. Beispielsweise sollte der "==" Operator verpackt werden, um Zeilenumbrüche zu verhindern.
 
 ```csharp
 public sealed class MathBox : MathElementBase, IMathBox
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
@@ -24,34 +25,34 @@ public sealed class MathBox : MathElementBase, IMathBox
 
 | Name | Beschreibung |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/mathbox/alignmentpoint) { get; set; } | Wenn wahr, dient dieser Operatoremulator als Ausrichtungspunkt; das heißt, bezeichnete Ausrichtungspunkte in anderen Gleichungen können daran ausgerichtet werden. Standard: false |
+| [AlignmentPoint](../../aspose.slides.mathtext/mathbox/alignmentpoint) { get; set; } | Wenn wahr, dient dieser Operator-Emulator als Ausrichtungspunkt; das heißt, bestimmte Ausrichtungs­punkte in anderen Gleichungen können mit ihm ausgerichtet werden. Standardwert: false |
 | [Base](../../aspose.slides.mathtext/mathbox/base) { get; } | Basisargument |
-| [Differential](../../aspose.slides.mathtext/mathbox/differential) { get; set; } | Differential Wenn wahr, fungiert die Box als Differential (z. B. 𝑑𝑥 in einem Integranden) und erhält den entsprechenden horizontalen Abstand für das mathematische Differential. Standard: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/mathbox/explicitbreak) { get; set; } | Expliziter Umbruch gibt an, ob es am Anfang des Box-Objekts einen Zeilenumbruch gibt, so, dass die Zeile am Anfang des Box-Objekts umbricht. Gibt die Nummer des Operators in der vorherigen Zeile des mathematischen Texts an, der verwendet werden soll als Ausrichtungspunkt für die aktuelle Zeile des mathematischen Textes mögliche Werte: 1..255 Default: 0 (kein expliziter Umbruch) |
-| [NoBreak](../../aspose.slides.mathtext/mathbox/nobreak) { get; set; } | Nein break Diese Eigenschaft gibt die Eigenschaft "unzerbrechlich" für die Objektbox an. Wenn wahr, können innerhalb der Box keine Zeilenumbrüche auftreten. Dies kann für Operatoremulatoren wichtig sein, die aus mehr als einem binären Operator bestehen. Wenn dieses Element nicht angegeben ist, können Umbrüche innerhalb der Box auftreten. Standard: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/mathbox/operatoremulator) { get; set; } | Operator-Emulator. Wenn wahr, verhalten sich das Feld und sein Inhalt wie ein einzelner Operator und erben die Eigenschaften eines Operators. Das bedeutet beispielsweise, dass das Zeichen als Punkt für einen Zeilenumbruch dienen und an anderen Operatoren ausgerichtet werden kann. Operator-Emulatoren werden häufig verwendet, wenn eine oder mehrere Glyphen zu einem Operator kombiniert werden, wie z. B. '==' . Standardwert: false |
+| [Differential](../../aspose.slides.mathtext/mathbox/differential) { get; set; } | Differential Wenn wahr, fungiert die Box als Differential (z.B. 𝑑𝑥 in einem Integranden) und erhält den passenden horizontalen Abstand für das mathematische Differential. Standardwert: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/mathbox/explicitbreak) { get; set; } | Expliziter Bruch gibt an, ob es einen Zeilenumbruch am Anfang des Box-Objekts gibt, sodass die Zeile am Anfang des Box-Objekts umbricht. Gibt die Nummer des Operators in der vorherigen Zeile des mathematischen Textes an, die als Ausrichtungs­punkt für die aktuelle Zeile des mathematischen Textes verwendet werden soll. Mögliche Werte: 1..255. Standardwert: 0 (kein expliziter Bruch) |
+| [NoBreak](../../aspose.slides.mathtext/mathbox/nobreak) { get; set; } | Kein Bruch Diese Eigenschaft gibt die "nicht unterbrechbare" Eigenschaft des Objekt-Box an. Wenn wahr, können innerhalb der Box keine Zeilenumbrüche auftreten. Dies kann wichtig sein für Operator-Emulatoren, die aus mehr als einem binären Operator bestehen. Wenn dieses Element nicht angegeben ist, können Brüche innerhalb der Box auftreten. Standardwert: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/mathbox/operatoremulator) { get; set; } | Operator-Emulator. Wenn wahr, verhält sich die Box und ihr Inhalt wie ein einzelner Operator und erben die Eigenschaften eines Operators. Dies bedeutet beispielsweise, dass das Zeichen als Punkt für einen Zeilenumbruch dienen und an andere Operatoren ausgerichtet werden kann. Operator-Emulatoren werden häufig verwendet, wenn ein oder mehrere Glyphen kombiniert werden, um einen Operator zu bilden, wie z.B. '=='. Standardwert: false |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Setzt ein Akzentzeichen (ein Zeichen über diesem Element) |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Akzeptiert die angegebene Funktion unter Verwendung dieser Instanz als Argument |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Akzeptiert die angegebene Funktion unter Verwendung dieser Instanz als Argument |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Akzeptiert die angegebene Funktion unter Verwendung dieser Instanz als Argument |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Akzeptiert die angegebene Funktion mit dieser Instanz als Argument und dem angegebenen zusätzlichen Argument |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Akzeptiert die angegebene Funktion mit dieser Instanz als Argument und dem angegebenen zusätzlichen Argument |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Erzeugt einen Bruch mit diesem Zähler und dem angegebenen Nenner |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Erzeugt einen Bruch mit diesem Zähler und dem angegebenen Nenner |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Erzeugt einen Bruch des angegebenen Typs mit diesem Zähler und angegebenen Nenner |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Erzeugt einen Bruch des angegebenen Typs mit diesem Zähler und angegebenen Nenner |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Setzt ein Akzentzeichen (ein Zeichen oben auf diesem Element) |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(IMathElement) | Nimmt die angegebene Funktion unter Verwendung dieser Instanz als Argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfOneArgument) | Nimmt die angegebene Funktion unter Verwendung dieser Instanz als Argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(string) | Nimmt die angegebene Funktion unter Verwendung dieser Instanz als Argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, IMathElement) | Nimmt die angegebene Funktion unter Verwendung dieser Instanz als Argument und einem angegebenen zusätzlichen Argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction)(MathFunctionsOfTwoArguments, string) | Nimmt die angegebene Funktion unter Verwendung dieser Instanz als Argument und einem angegebenen zusätzlichen Argument |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement) | Erstellt einen Bruch mit diesem Zähler und angegebenem Nenner |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string) | Erstellt einen Bruch mit diesem Zähler und angegebenem Nenner |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Erstellt einen Bruch des angegebenen Typs mit diesem Zähler und angegebenem Nenner |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Erstellt einen Bruch des angegebenen Typs mit diesem Zähler und angegebenem Nenner |
 | [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Schließt ein mathematisches Element in Klammern ein |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Schließt ein mathematisches Element in bestimmte Zeichen wie Klammern oder andere Zeichen wie framing ein |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Nimmt eine Funktion eines Arguments unter Verwendung dieser Instanz als Funktionsname |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Nimmt eine Funktion eines Arguments unter Verwendung dieser Instanz als Funktionsname |
-| [GetChildren](../../aspose.slides.mathtext/mathbox/getchildren)() | Holen Sie sich untergeordnete Elemente |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Platziert dieses Element in einer Gruppe mit einer unteren geschweiften Klammer |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Platziert dieses Element in einer Gruppe mit einem Gruppierungszeichen wie z. B. untere geschweifte Klammer oder other |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Schließt ein mathematisches Element in angegebenen Zeichen ein, wie z.B. Klammern oder andere Zeichen als Rahmen |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Nimmt eine Funktion eines Arguments unter Verwendung dieser Instanz als Funktionsnamen |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Nimmt eine Funktion eines Arguments unter Verwendung dieser Instanz als Funktionsnamen |
+| [GetChildren](../../aspose.slides.mathtext/mathbox/getchildren)() | Gibt untergeordnete Elemente zurück |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Platziert dieses Element in einer Gruppe mit geschweiftem Klammer unten |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Platziert dieses Element in einer Gruppe mit einem Gruppierungszeichen wie geschweiftem Klammer oder einem anderen |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Nimmt das Integral ohne Grenzen |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Nimmt das Integral |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Nimmt das Integral |
@@ -59,28 +60,28 @@ public sealed class MathBox : MathElementBase, IMathBox
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string, MathLimitLocations) | Nimmt das Integral |
 | virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(IMathElement) | Verbindet ein mathematisches Element und bildet einen mathematischen Block |
 | virtual [Join](../../aspose.slides.mathtext/mathelementbase/join)(string) | Verbindet einen mathematischen Text und bildet einen mathematischen Block |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Erstellt einen N-stelligen Operator |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | Erstellt einen N-stelligen Operator |
-| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Setzt eine Leiste oben auf dieses Element |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Gibt die mathematische Wurzel des angegebenen Grads aus dem angegebenen Argument an. |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Gibt die mathematische Wurzel des angegebenen Grads aus dem angegebenen Argument an. |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | nimmt untere Grenze |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | nimmt untere Grenze |
-| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | Erstellt Index |
-| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(string) | Erstellt Index |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(IMathElement, IMathElement) | Erstellt Tief- und Hochstellung auf der linken Seite |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(string, string) | Erstellt Tief- und Hochstellung auf der linken Seite |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(IMathElement, IMathElement) | Erzeugt tiefgestellt und hochgestellt auf der rechten Seite |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(string, string) | Erzeugt tiefgestellt und hochgestellt auf der rechten Seite |
-| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(IMathElement) | Erstellt hochgestellte |
-| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | Erstellt hochgestellte |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | nimmt Obergrenze |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | nimmt Obergrenze |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Platziert dieses Element in einer Rahmenbox |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Platziert dieses Element in einer Rahmenbox |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Platziert dieses Element in einer nicht sichtbaren Box (logische Gruppierung) , die verwendet wird, um Komponenten einer Gleichung oder eines anderen mathematischen Textes zu gruppieren. Ein Box-Objekt kann (zum Beispiel) als Operator-Emulator mit oder ohne Ausrichtung dienen Punkt, dienen als Zeilenumbruchpunkt oder werden so gruppiert, dass keine Zeilenumbrüche innerhalb von zulässig sind. |
-| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Fügt ein vertikales Array ein |
-| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Setzt einen Balken am unteren Rand dieses Elements |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Erstellt einen N-ären Operator |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary)(MathNaryOperatorTypes, string, string) | Erstellt einen N-ären Operator |
+| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Setzt eine Linie auf die Oberseite dieses Elements |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(IMathElement) | Gibt die mathematische Wurzel des gegebenen Grades vom angegebenen Argument an. |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical)(string) | Gibt die mathematische Wurzel des gegebenen Grades vom angegebenen Argument an. |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(IMathElement) | Nimmt eine Untergrenze |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit)(string) | Nimmt eine Untergrenze |
+| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(IMathElement) | Erstellt einen tiefgestellten Text |
+| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript)(string) | Erstellt einen tiefgestellten Text |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(IMathElement, IMathElement) | Erstellt einen tiefgestellten und einen hochgestellten Text auf der linken Seite |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft)(string, string) | Erstellt einen tiefgestellten und einen hochgestellten Text auf der linken Seite |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(IMathElement, IMathElement) | Erstellt einen tiefgestellten und einen hochgestellten Text auf der rechten Seite |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright)(string, string) | Erstellt einen tiefgestellten und einen hochgestellten Text auf der rechten Seite |
+| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(IMathElement) | Erstellt einen hochgestellten Text |
+| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | Erstellt einen hochgestellten Text |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Nimmt eine Obergrenze |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Nimmt eine Obergrenze |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Platziert dieses Element in einem Rahmen-Box |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Platziert dieses Element in einem Rahmen-Box |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Platziert dieses Element in einer nicht visuellen Box (logische Gruppierung), die verwendet wird, um Komponenten einer Gleichung oder anderer mathematischer Texte zu gruppieren. Ein verpacktes Objekt kann (zum Beispiel) als Operator-Emulator mit oder ohne einen Ausrichtungs­punkt dienen, als Zeilenumbruchpunkt fungieren oder so gruppiert sein, dass innerhalb der Box keine Zeilenumbrüche erlaubt sind. |
+| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Setzt in ein vertikales Array |
+| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Setzt eine Linie am unteren Ende dieses Elements |
 
 ### Beispiele
 
@@ -93,9 +94,9 @@ MathBox box = new MathBox(new MathematicalText("=="));
 
 ### Siehe auch
 
-* class [MathElementBase](../mathelementbase)
-* interface [IMathBox](../imathbox)
-* namensraum [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* Montage [Aspose.Slides](../../)
+* Klasse [MathElementBase](../mathelementbase)
+* Schnittstelle [IMathBox](../imathbox)
+* Namensraum [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

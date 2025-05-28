@@ -1,22 +1,23 @@
 ---
-title: Height
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает высоту маркера абзаца без наследования. Значение float.NaN определяет что маркер наследует высоту от первой части абзаца. Чтение/записьSingle.
+title: Высота
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает или задает высоту маркера параграфа без наследования. Значение float.NaN определяет, что маркер наследует высоту от первой части параграфа. Чтение/запись Single.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ibulletformat/height/
 ---
-## IBulletFormat.Height property
 
-Возвращает или задает высоту маркера абзаца без наследования. Значение float.NaN определяет, что маркер наследует высоту от первой части абзаца. Чтение/записьSingle.
+## Свойство IBulletFormat.Height
+
+Возвращает или задает высоту маркера параграфа без наследования. Значение float.NaN определяет, что маркер наследует высоту от первой части параграфа. Чтение/запись Single.
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### Смотрите также
+### Также смотрите
 
-* interface [IBulletFormat](../../ibulletformat)
+* интерфейс [IBulletFormat](../../ibulletformat)
 * пространство имен [Aspose.Slides](../../ibulletformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Справка по API Aspose.Slides для .NET
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides/paragraphcollection/item/
 ---
-## ParagraphCollection indexer
+
+## Индексатор ParagraphCollection
 
 Получает элемент по указанному индексу.
 
@@ -14,10 +15,10 @@ url: /ru/aspose.slides/paragraphcollection/item/
 public IParagraph this[int index] { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IParagraph](../../iparagraph)
-* class [ParagraphCollection](../../paragraphcollection)
+* интерфейс [IParagraph](../../iparagraph)
+* класс [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 

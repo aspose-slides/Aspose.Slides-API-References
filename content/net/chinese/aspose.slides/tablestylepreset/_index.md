@@ -1,12 +1,13 @@
 ---
-title: TableStylePreset
+title: 表格样式预设
 second_title: Aspose.Slides for .NET API 参考
-description: 表示内置表格样式
+description: 表示内置表格样式。
 type: docs
-weight: 10070
+weight: 10570
 url: /zh/aspose.slides/tablestylepreset/
 ---
-## TableStylePreset enumeration
+
+## TableStylePreset 枚举
 
 表示内置表格样式。
 
@@ -14,90 +15,90 @@ url: /zh/aspose.slides/tablestylepreset/
 public enum TableStylePreset
 ```
 
-### 价值观
+### 值
 
-| 姓名 | 价值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Custom | `-1` | 表格具有自定义样式。 这是只返回值。 |
+| Custom | `-1` | 表格具有自定义样式。此值仅用于返回。 |
 | None | `0` | 没有样式。 |
-| MediumStyle2Accent1 | `1` | 中等风格 2 - 重音 1。 |
-| MediumStyle2 | `2` | 中等风格 2. |
+| MediumStyle2Accent1 | `1` | 中等样式 2 - 强调 1。 |
+| MediumStyle2 | `2` | 中等样式 2。 |
 | NoStyleNoGrid | `3` | 无样式，无网格。 |
-| ThemedStyle1Accent1 | `4` | 主题风格 1 - 口音 1. |
-| ThemedStyle1Accent2 | `5` | 主题风格 1 - 口音 2. |
-| ThemedStyle1Accent3 | `6` | 主题风格 1 - 口音 3. |
-| ThemedStyle1Accent4 | `7` | 主题风格 1 - 口音 4. |
-| ThemedStyle1Accent5 | `8` | 主题风格 1 - 口音 5. |
-| ThemedStyle1Accent6 | `9` | 主题风格 1 - 口音 6. |
+| ThemedStyle1Accent1 | `4` | 主题样式 1 - 强调 1。 |
+| ThemedStyle1Accent2 | `5` | 主题样式 1 - 强调 2。 |
+| ThemedStyle1Accent3 | `6` | 主题样式 1 - 强调 3。 |
+| ThemedStyle1Accent4 | `7` | 主题样式 1 - 强调 4。 |
+| ThemedStyle1Accent5 | `8` | 主题样式 1 - 强调 5。 |
+| ThemedStyle1Accent6 | `9` | 主题样式 1 - 强调 6。 |
 | NoStyleTableGrid | `10` | 无样式，表格网格。 |
-| ThemedStyle2Accent1 | `11` | 主题风格 2 - 口音 1. |
-| ThemedStyle2Accent2 | `12` | 主题风格 2 - 口音 2. |
-| ThemedStyle2Accent3 | `13` | 主题风格 2 - 口音 3. |
-| ThemedStyle2Accent4 | `14` | 主题风格 2 - 口音 4. |
-| ThemedStyle2Accent5 | `15` | 主题风格 2 - 口音 5. |
-| ThemedStyle2Accent6 | `16` | 主题风格 2 - 口音 6. |
-| LightStyle1 | `17` | 灯光样式 1 |
-| LightStyle1Accent1 | `18` | 灯光样式 1 - 重音 1。 |
-| LightStyle1Accent2 | `19` | 浅色风格 1 - 重音 2. |
-| LightStyle1Accent3 | `20` | 浅色样式 1 - 重音 3。 |
-| LightStyle1Accent4 | `21` | 灯光样式 1 - 重音 4. |
-| LightStyle2Accent5 | `22` | 灯光风格 2 - 口音 5. |
-| LightStyle1Accent6 | `23` | 灯光风格 1 - 重音 6. |
-| LightStyle2 | `24` | 灯光样式 2. |
-| LightStyle2Accent1 | `25` | 灯光风格 2 - 口音 1。 |
-| LightStyle2Accent2 | `26` | 灯光风格 2 - 重音 2。 |
-| LightStyle2Accent3 | `27` | 灯光风格 2 - 重音 3。 |
-| MediumStyle2Accent3 | `28` | 中等风格 2 - 重音 3. |
-| MediumStyle2Accent4 | `29` | 中等风格 2 - 重音 4. |
-| MediumStyle2Accent5 | `30` | 中等风格 2 - 重音 5. |
-| LightStyle2Accent6 | `31` | 灯光风格 2 - 口音 6. |
-| LightStyle2Accent4 | `32` | 灯光风格 2 - 口音 4. |
-| LightStyle3 | `33` | 灯光风格 3. |
-| LightStyle3Accent1 | `34` | 灯光风格 3 - 重音 1。 |
-| MediumStyle2Accent2 | `35` | 中等风格 2 - 重音 2. |
-| LightStyle3Accent2 | `36` | 灯光风格 3 - 口音 2。 |
-| LightStyle3Accent3 | `37` | 灯光风格 3 - 口音 3。 |
-| LightStyle3Accent4 | `38` | 灯光风格 3 - 口音 4. |
-| LightStyle3Accent5 | `39` | 灯光风格 3 - 口音 5. |
-| LightStyle3Accent6 | `40` | 灯光风格 3 - 口音 6. |
-| MediumStyle1 | `41` | 中等风格 1. |
-| MediumStyle1Accent1 | `42` | 中等风格 1 - 重音 1。 |
-| MediumStyle1Accent2 | `43` | 中等风格 1 - 重音 2. |
-| MediumStyle1Accent3 | `44` | 中等风格 1 - 重音 3. |
-| MediumStyle1Accent4 | `45` | 中等风格 1 - 重音 4. |
-| MediumStyle1Accent5 | `46` | 中等风格 1 - 重音 5. |
-| MediumStyle1Accent6 | `47` | 中等风格 1 - 重音 6. |
-| MediumStyle2Accent6 | `48` | 中等风格 2 - 重音 6. |
-| MediumStyle3 | `49` | 中等风格 3. |
-| MediumStyle3Accent1 | `50` | 中等风格 3 - 重音 1. |
-| MediumStyle3Accent2 | `51` | 中等风格 3 - 重音 2. |
-| MediumStyle3Accent3 | `52` | 中等风格 3 - 重音 3. |
-| MediumStyle3Accent4 | `53` | 中等风格 3 - 重音 4. |
-| MediumStyle3Accent5 | `54` | 中等风格 3 - 重音 5. |
-| MediumStyle3Accent6 | `55` | 中等风格 3 - 重音 6. |
-| MediumStyle4 | `56` | 中等风格 4. |
-| MediumStyle4Accent1 | `57` | 中等风格 4 - 重音 1. |
-| MediumStyle4Accent2 | `58` | 中等风格 4 - 重音 2. |
-| MediumStyle4Accent3 | `59` | 中等风格 4 - 重音 3. |
-| MediumStyle4Accent4 | `60` | 中等风格 4 - 重音 4. |
-| MediumStyle4Accent5 | `61` | 中等风格 4 - 重音 5. |
-| MediumStyle4Accent6 | `62` | 中等风格 4 - 重音 6. |
-| DarkStyle1 | `63` | 深色风格 1. |
-| DarkStyle1Accent1 | `64` | 深色风格 1 - 重音 1。 |
-| DarkStyle1Accent2 | `65` | 深色风格 1 - 重音 2. |
-| DarkStyle1Accent3 | `66` | 深色风格 1 - 重音 3. |
-| DarkStyle1Accent4 | `67` | 深色风格 1 - 重音 4. |
-| DarkStyle1Accent5 | `68` | 深色风格 1 - 口音 5. |
-| DarkStyle1Accent6 | `69` | 深色风格 1 - 重音 6. |
-| DarkStyle2 | `70` | 深色风格 2. |
-| DarkStyle2Accent1Accent2 | `71` | 深色风格 2 - 重音 1/重音 2。 |
-| DarkStyle2Accent3Accent4 | `72` | 深色风格 2 - 重音 3/重音 4。 |
-| DarkStyle2Accent5Accent6 | `73` | 深色风格 2 - 重音 5/重音 6。 |
-| LightStyle1Accent5 | `74` | 灯光样式 1 - 重音 5。 |
+| ThemedStyle2Accent1 | `11` | 主题样式 2 - 强调 1。 |
+| ThemedStyle2Accent2 | `12` | 主题样式 2 - 强调 2。 |
+| ThemedStyle2Accent3 | `13` | 主题样式 2 - 强调 3。 |
+| ThemedStyle2Accent4 | `14` | 主题样式 2 - 强调 4。 |
+| ThemedStyle2Accent5 | `15` | 主题样式 2 - 强调 5。 |
+| ThemedStyle2Accent6 | `16` | 主题样式 2 - 强调 6。 |
+| LightStyle1 | `17` | 亮样式 1 |
+| LightStyle1Accent1 | `18` | 亮样式 1 - 强调 1。 |
+| LightStyle1Accent2 | `19` | 亮样式 1 - 强调 2。 |
+| LightStyle1Accent3 | `20` | 亮样式 1 - 强调 3。 |
+| LightStyle1Accent4 | `21` | 亮样式 1 - 强调 4。 |
+| LightStyle2Accent5 | `22` | 亮样式 2 - 强调 5。 |
+| LightStyle1Accent6 | `23` | 亮样式 1 - 强调 6。 |
+| LightStyle2 | `24` | 亮样式 2。 |
+| LightStyle2Accent1 | `25` | 亮样式 2 - 强调 1。 |
+| LightStyle2Accent2 | `26` | 亮样式 2 - 强调 2。 |
+| LightStyle2Accent3 | `27` | 亮样式 2 - 强调 3。 |
+| MediumStyle2Accent3 | `28` | 中等样式 2 - 强调 3。 |
+| MediumStyle2Accent4 | `29` | 中等样式 2 - 强调 4。 |
+| MediumStyle2Accent5 | `30` | 中等样式 2 - 强调 5。 |
+| LightStyle2Accent6 | `31` | 亮样式 2 - 强调 6。 |
+| LightStyle2Accent4 | `32` | 亮样式 2 - 强调 4。 |
+| LightStyle3 | `33` | 亮样式 3。 |
+| LightStyle3Accent1 | `34` | 亮样式 3 - 强调 1。 |
+| MediumStyle2Accent2 | `35` | 中等样式 2 - 强调 2。 |
+| LightStyle3Accent2 | `36` | 亮样式 3 - 强调 2。 |
+| LightStyle3Accent3 | `37` | 亮样式 3 - 强调 3。 |
+| LightStyle3Accent4 | `38` | 亮样式 3 - 强调 4。 |
+| LightStyle3Accent5 | `39` | 亮样式 3 - 强调 5。 |
+| LightStyle3Accent6 | `40` | 亮样式 3 - 强调 6。 |
+| MediumStyle1 | `41` | 中等样式 1。 |
+| MediumStyle1Accent1 | `42` | 中等样式 1 - 强调 1。 |
+| MediumStyle1Accent2 | `43` | 中等样式 1 - 强调 2。 |
+| MediumStyle1Accent3 | `44` | 中等样式 1 - 强调 3。 |
+| MediumStyle1Accent4 | `45` | 中等样式 1 - 强调 4。 |
+| MediumStyle1Accent5 | `46` | 中等样式 1 - 强调 5。 |
+| MediumStyle1Accent6 | `47` | 中等样式 1 - 强调 6。 |
+| MediumStyle2Accent6 | `48` | 中等样式 2 - 强调 6。 |
+| MediumStyle3 | `49` | 中等样式 3。 |
+| MediumStyle3Accent1 | `50` | 中等样式 3 - 强调 1。 |
+| MediumStyle3Accent2 | `51` | 中等样式 3 - 强调 2。 |
+| MediumStyle3Accent3 | `52` | 中等样式 3 - 强调 3。 |
+| MediumStyle3Accent4 | `53` | 中等样式 3 - 强调 4。 |
+| MediumStyle3Accent5 | `54` | 中等样式 3 - 强调 5。 |
+| MediumStyle3Accent6 | `55` | 中等样式 3 - 强调 6。 |
+| MediumStyle4 | `56` | 中等样式 4。 |
+| MediumStyle4Accent1 | `57` | 中等样式 4 - 强调 1。 |
+| MediumStyle4Accent2 | `58` | 中等样式 4 - 强调 2。 |
+| MediumStyle4Accent3 | `59` | 中等样式 4 - 强调 3。 |
+| MediumStyle4Accent4 | `60` | 中等样式 4 - 强调 4。 |
+| MediumStyle4Accent5 | `61` | 中等样式 4 - 强调 5。 |
+| MediumStyle4Accent6 | `62` | 中等样式 4 - 强调 6。 |
+| DarkStyle1 | `63` | 深色样式 1。 |
+| DarkStyle1Accent1 | `64` | 深色样式 1 - 强调 1。 |
+| DarkStyle1Accent2 | `65` | 深色样式 1 - 强调 2。 |
+| DarkStyle1Accent3 | `66` | 深色样式 1 - 强调 3。 |
+| DarkStyle1Accent4 | `67` | 深色样式 1 - 强调 4。 |
+| DarkStyle1Accent5 | `68` | 深色样式 1 - 强调 5。 |
+| DarkStyle1Accent6 | `69` | 深色样式 1 - 强调 6。 |
+| DarkStyle2 | `70` | 深色样式 2。 |
+| DarkStyle2Accent1Accent2 | `71` | 深色样式 2 - 强调 1/强调 2。 |
+| DarkStyle2Accent3Accent4 | `72` | 深色样式 2 - 强调 3/强调 4。 |
+| DarkStyle2Accent5Accent6 | `73` | 深色样式 2 - 强调 5/强调 6。 |
+| LightStyle1Accent5 | `74` | 亮样式 1 - 强调 5。 |
 
-### 也可以看看
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
-* 部件 [Aspose.Slides](../../)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

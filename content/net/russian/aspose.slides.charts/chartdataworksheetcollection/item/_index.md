@@ -1,12 +1,13 @@
 ---
-title: Item
+title: Элемент
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает рабочий лист по индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/chartdataworksheetcollection/item/
 ---
-## ChartDataWorksheetCollection indexer
+
+## Индексатор ChartDataWorksheetCollection
 
 Возвращает рабочий лист по индексу.
 
@@ -18,14 +19,14 @@ public IChartDataWorksheet this[int index] { get; }
 | --- | --- |
 | index | Индекс рабочего листа в коллекции. |
 
-### Возвращаемое значение
+### Значение возрата
 
 Экземпляр IChartDataWorksheet.
 
-### Смотрите также
+### См. Также
 
-* interface [IChartDataWorksheet](../../ichartdataworksheet)
-* class [ChartDataWorksheetCollection](../../chartdataworksheetcollection)
+* интерфейс [IChartDataWorksheet](../../ichartdataworksheet)
+* класс [ChartDataWorksheetCollection](../../chartdataworksheetcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdataworksheetcollection)
 * сборка [Aspose.Slides](../../../)
 

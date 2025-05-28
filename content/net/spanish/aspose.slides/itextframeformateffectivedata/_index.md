@@ -1,14 +1,15 @@
 ---
 title: ITextFrameFormatEffectiveData
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Objeto inmutable que contiene propiedades efectivas de formato de marco de texto.
+second_title: Aspose.Slides para referencia de API .NET
+description: Objeto inmutable que contiene propiedades de formato de texto de marco efectivas.
 type: docs
-weight: 6710
+weight: 7070
 url: /es/aspose.slides/itextframeformateffectivedata/
 ---
-## ITextFrameFormatEffectiveData interface
 
-Objeto inmutable que contiene propiedades efectivas de formato de marco de texto.
+## Interfaz ITextFrameFormatEffectiveData
+
+Objeto inmutable que contiene propiedades de formato de texto de marco efectivas.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -18,26 +19,26 @@ public interface ITextFrameFormatEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Devuelve texto ancla vertical en un TextFrame. Solo lectura[`TextAnchorType`](../textanchortype) . |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Devuelve el modo de ajuste automático de texto. Solo lectura[`TextAutofitType`](../textautofittype) . |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Devuelve si el texto debe estar centrado en el cuadro horizontalmente. Solo lecturaBoolean . |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Especifica el número de columnas de texto en el rectángulo delimitador. Solo lecturaInt32 . |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Especifica el espacio entre columnas de texto en el área de texto (en puntos). Solo lecturaSingle . |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Devuelve el margen inferior (puntos) en un TextFrame. Solo lecturaDouble . |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Devuelve el margen izquierdo (puntos) en un TextFrame. Solo lecturaDouble . |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Devuelve el margen derecho (puntos) en un TextFrame. Solo lecturaDouble . |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Devuelve el margen superior (puntos) en un TextFrame. Solo lecturaDouble . |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Devuelve el estilo de texto efectivo. Solo lectura[`ITextStyleEffectiveData`](../itextstyleeffectivedata) . |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Devuelve la orientación del texto. Solo lectura[`TextVerticalType`](../textverticaltype) . |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Devuelve si el texto se ajusta a los márgenes de TextFrame. Solo lecturaBoolean . |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Devuelve el anclaje vertical del texto en un TextFrame. Solo lectura [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Devuelve el modo de ajuste automático del texto. Solo lectura [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Devuelve si el texto debe estar centrado en el cuadro horizontalmente. Solo lectura Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Especifica el número de columnas de texto en el rectángulo delimitador. Solo lectura Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Especifica el espacio entre las columnas de texto en el área de texto (en puntos). Solo lectura Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Devuelve el margen inferior (puntos) en un TextFrame. Solo lectura Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Devuelve el margen izquierdo (puntos) en un TextFrame. Solo lectura Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Devuelve el margen derecho (puntos) en un TextFrame. Solo lectura Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Devuelve el margen superior (puntos) en un TextFrame. Solo lectura Double. |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Devuelve el estilo efectivo del texto. Solo lectura [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Devuelve la orientación del texto. Solo lectura [`TextVerticalType`](../textverticaltype). |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Devuelve si el texto se ajusta a los márgenes del TextFrame. Solo lectura Boolean. |
 
 ### Observaciones
 
-Esta interfaz se utiliza junto con la[`ITextFrameFormat`](../itextframeformat) interfaz para devolver valores de formato efectivos con herencia aplicada.
+Esta interfaz se utiliza junto con la interfaz [`ITextFrameFormat`](../itextframeformat) para devolver valores de formato efectivos con la herencia aplicada.
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* asamblea [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

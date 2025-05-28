@@ -1,22 +1,23 @@
 ---
-title: Name
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает имя этого элемента управления. Чтение/записьString.
+title: Имя
+second_title: Справка по API Aspose.Sildes для .NET
+description: Получает или задает имя этого элемента управления. Читаемое/записываемое строковое значение.
 type: docs
 weight: 40
 url: /ru/aspose.slides/control/name/
 ---
-## Control.Name property
 
-Получает или задает имя этого элемента управления. Чтение/записьString.
+## Свойство Control.Name
+
+Получает или задает имя этого элемента управления. Читаемое/записываемое строковое значение.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Control](../../control)
+* класс [Control](../../control)
 * пространство имен [Aspose.Slides](../../control)
 * сборка [Aspose.Slides](../../../)
 
