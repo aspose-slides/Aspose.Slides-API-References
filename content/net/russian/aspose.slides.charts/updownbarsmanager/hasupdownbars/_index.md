@@ -1,22 +1,23 @@
 ---
 title: HasUpDownBars
-second_title: Справочник по API Aspose.Slides для .NET
-description: HasUpDownBars. Чтение/записьBoolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: HasUpDownBars. Чтение/запись логического значения.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/updownbarsmanager/hasupdownbars/
 ---
-## UpDownBarsManager.HasUpDownBars property
 
-HasUpDownBars. Чтение/записьBoolean.
+## UpDownBarsManager.HasUpDownBars свойство
+
+HasUpDownBars. Чтение/запись логического значения.
 
 ```csharp
 public bool HasUpDownBars { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [UpDownBarsManager](../../updownbarsmanager)
+* класс [UpDownBarsManager](../../updownbarsmanager)
 * пространство имен [Aspose.Slides.Charts](../../updownbarsmanager)
 * сборка [Aspose.Slides](../../../)
 

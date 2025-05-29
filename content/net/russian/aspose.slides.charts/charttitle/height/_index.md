@@ -1,22 +1,23 @@
 ---
-title: Height
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает высоту заголовка как часть высоты диаграммы. Чтение/записьSingle.
+title: Высота
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает высоту заголовка как долю от высоты графика. Чтение/запись Single.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/charttitle/height/
 ---
-## ChartTitle.Height property
 
-Возвращает или задает высоту заголовка как часть высоты диаграммы. Чтение/записьSingle.
+## Свойство ChartTitle.Height
+
+Возвращает или устанавливает высоту заголовка как долю от высоты графика. Чтение/запись Single.
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartTitle](../../charttitle)
+* класс [ChartTitle](../../charttitle)
 * пространство имен [Aspose.Slides.Charts](../../charttitle)
 * сборка [Aspose.Slides](../../../)
 

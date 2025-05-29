@@ -1,22 +1,23 @@
 ---
-title: Explosion
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает величину на которую точка данных должна быть перемещена из центра круговой диаграммы. Чтение/записьInt32.
+title: Взрыв
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Указывает, на сколько данных точка будет смещена от центра круговой диаграммы. Чтение/запись Int32.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/ichartdatapoint/explosion/
 ---
-## IChartDataPoint.Explosion property
 
-Задает величину, на которую точка данных должна быть перемещена из центра круговой диаграммы. Чтение/записьInt32.
+## Свойство IChartDataPoint.Explosion
+
+Указывает, на сколько данных точка будет смещена от центра круговой диаграммы. Чтение/запись Int32.
 
 ```csharp
 public int Explosion { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataPoint](../../ichartdatapoint)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

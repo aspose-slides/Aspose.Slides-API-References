@@ -1,12 +1,13 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Справочник по API
 description: Удаляет подпись по указанному индексу.
 type: docs
 weight: 90
 url: /ru/aspose.slides/digitalsignaturecollection/removeat/
 ---
-## DigitalSignatureCollection.RemoveAt method
+
+## Метод DigitalSignatureCollection.RemoveAt
 
 Удаляет подпись по указанному индексу.
 
@@ -16,11 +17,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс подписи, которую необходимо удалить. |
+| index | Int32 | Индекс подписи, которая должна быть удалена. |
 
-### Смотрите также
+### См. также
 
-* class [DigitalSignatureCollection](../../digitalsignaturecollection)
+* класс [DigitalSignatureCollection](../../digitalsignaturecollection)
 * пространство имен [Aspose.Slides](../../digitalsignaturecollection)
 * сборка [Aspose.Slides](../../../)
 

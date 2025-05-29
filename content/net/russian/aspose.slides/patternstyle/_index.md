@@ -1,22 +1,23 @@
 ---
 title: PatternStyle
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет стиль шаблона.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет стиль узора.
 type: docs
-weight: 8630
+weight: 9090
 url: /ru/aspose.slides/patternstyle/
 ---
-## PatternStyle enumeration
 
-Представляет стиль шаблона.
+## Перечисление PatternStyle
+
+Представляет стиль узора.
 
 ```csharp
 public enum PatternStyle : sbyte
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Unknown | `0` |  |
@@ -75,7 +76,7 @@ public enum PatternStyle : sbyte
 | UpwardDiagonal | `53` |  |
 | DiagonalCross | `54` |  |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

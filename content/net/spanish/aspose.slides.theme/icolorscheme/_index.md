@@ -1,14 +1,15 @@
 ---
 title: IColorScheme
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Almacena los colores definidos por el tema.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Almacena colores definidos por el tema.
 type: docs
-weight: 10340
+weight: 10840
 url: /es/aspose.slides.theme/icolorscheme/
 ---
-## IColorScheme interface
 
-Almacena los colores definidos por el tema.
+## Interfaz IColorScheme
+
+Almacena colores definidos por el tema.
 
 ```csharp
 public interface IColorScheme : ISlideComponent
@@ -18,25 +19,25 @@ public interface IColorScheme : ISlideComponent
 
 | Nombre | Descripción |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Primer color de énfasis en el esquema. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Segundo color de énfasis en el esquema. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Tercer color de énfasis en el esquema. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Cuarto color de énfasis en el esquema. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Quinto color de énfasis en el esquema. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Sexto color de énfasis en el esquema. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Devuelve la interfaz ISlideComponent. Solo lectura[`ISlideComponent`](../../aspose.slides/islidecomponent) . |
-| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Primer color oscuro del esquema. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Segundo color oscuro del esquema. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Color de los hipervínculos visitados. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Color para los hipervínculos. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Primer color de luz en el esquema. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
-| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Segundo color de luz del esquema. Solo lectura[`IColorFormat`](../../aspose.slides/icolorformat) . |
+| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Primer color de acento en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Segundo color de acento en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Tercer color de acento en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Cuarto color de acento en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Quinto color de acento en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Sexto color de acento en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Devuelve la interfaz ISlideComponent. Solo lectura [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Primer color oscuro en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Segundo color oscuro en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Color para los hipervínculos visitados. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Color para los hipervínculos. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Primer color claro en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Segundo color claro en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Ver también
+### Véase también
 
-* interface [ISlideComponent](../../aspose.slides/islidecomponent)
+* interfaz [ISlideComponent](../../aspose.slides/islidecomponent)
 * espacio de nombres [Aspose.Slides.Theme](../../aspose.slides.theme)
-* asamblea [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

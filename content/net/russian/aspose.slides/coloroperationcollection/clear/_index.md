@@ -1,22 +1,23 @@
 ---
-title: Clear
+title: Очистить
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет все операции с цветом.
+description: Удаляет все цветовые операции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/coloroperationcollection/clear/
 ---
-## ColorOperationCollection.Clear method
 
-Удаляет все операции с цветом.
+## Метод ColorOperationCollection.Clear
+
+Удаляет все цветовые операции.
 
 ```csharp
 public void Clear()
 ```
 
-### Смотрите также
+### Также смотри
 
-* class [ColorOperationCollection](../../coloroperationcollection)
+* класс [ColorOperationCollection](../../coloroperationcollection)
 * пространство имен [Aspose.Slides](../../coloroperationcollection)
 * сборка [Aspose.Slides](../../../)
 

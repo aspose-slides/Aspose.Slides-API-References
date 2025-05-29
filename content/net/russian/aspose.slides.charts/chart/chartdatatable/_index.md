@@ -1,23 +1,24 @@
 ---
 title: ChartDataTable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает таблицу данных диаграммы. Только для чтенияIDataTableaspose.slides.charts/idatatable.
+description: Возвращает таблицу данных графика. Только для чтения IDataTableaspose.slides.charts/idatatable.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/chart/chartdatatable/
 ---
-## Chart.ChartDataTable property
 
-Возвращает таблицу данных диаграммы. Только для чтения[`IDataTable`](../../idatatable).
+## Свойство Chart.ChartDataTable
+
+Возвращает таблицу данных графика. Только для чтения [`IDataTable`](../../idatatable).
 
 ```csharp
 public IDataTable ChartDataTable { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IDataTable](../../idatatable)
-* class [Chart](../../chart)
+* интерфейс [IDataTable](../../idatatable)
+* класс [Chart](../../chart)
 * пространство имен [Aspose.Slides.Charts](../../chart)
 * сборка [Aspose.Slides](../../../)
 

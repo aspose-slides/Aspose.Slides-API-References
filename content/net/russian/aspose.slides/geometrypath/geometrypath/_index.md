@@ -1,12 +1,13 @@
 ---
 title: GeometryPath
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает экземпляр GeometryPath
 type: docs
 weight: 10
 url: /ru/aspose.slides/geometrypath/geometrypath/
 ---
-## GeometryPath constructor
+
+## Конструктор GeometryPath
 
 Создает экземпляр GeometryPath
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/geometrypath/geometrypath/
 public GeometryPath()
 ```
 
-### Смотрите также
+### См. также
 
-* class [GeometryPath](../../geometrypath)
+* класс [GeometryPath](../../geometrypath)
 * пространство имен [Aspose.Slides](../../geometrypath)
 * сборка [Aspose.Slides](../../../)
 

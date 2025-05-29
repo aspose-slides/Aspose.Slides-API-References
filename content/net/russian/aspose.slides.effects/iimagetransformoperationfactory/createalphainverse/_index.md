@@ -1,27 +1,28 @@
 ---
 title: CreateAlphaInverse
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает обратный эффект альфа-канала.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает эффект Alpha инверсии.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createalphainverse/
 ---
-## IImageTransformOperationFactory.CreateAlphaInverse method
 
-Создает обратный эффект альфа-канала.
+## IImageTransformOperationFactory.CreateAlphaInverse метод
+
+Создает эффект Alpha инверсии.
 
 ```csharp
 public IAlphaInverse CreateAlphaInverse()
 ```
 
-### Возвращаемое значение
+### Значение возврата
 
-Альфа-инверсный эффект.
+Эффект Alpha инверсии.
 
-### Смотрите также
+### См. также
 
-* interface [IAlphaInverse](../../ialphainverse)
-* interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
+* интерфейс [IAlphaInverse](../../ialphainverse)
+* интерфейс [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

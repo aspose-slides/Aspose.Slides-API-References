@@ -1,48 +1,49 @@
 ---
 title: BulletFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойства форматирования маркеров абзаца.
 type: docs
-weight: 950
+weight: 990
 url: /ru/aspose.slides/bulletformat/
 ---
-## BulletFormat class
+
+## Класс BulletFormat
 
 Представляет свойства форматирования маркеров абзаца.
 
 ```csharp
-public class BulletFormat : PVIObject, IBulletFormat
+public sealed class BulletFormat : PVIObject, IBulletFormat
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Возвращает или устанавливает маркер абзаца без наследования. Чтение/записьChar. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Возвращает цветовой формат маркера абзаца без наследования. Только для чтения[`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Возвращает или задает шрифт маркера абзаца без наследования. Чтение/запись[`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Возвращает или задает высоту маркера абзаца без наследования. Значение float.NaN определяет, что маркер наследует высоту от первой части абзаца. Чтение/записьSingle. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Определяет, имеет ли маркер собственный цвет или наследует его от первой части абзаца.  **NullableBool.True** , если пуля имеет собственный цвет и **NullableBool.False** , если маркер наследует цвет от первой части абзаца. Чтение/запись[`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Определяет, имеет ли маркер собственный шрифт или наследует его от первой части абзаца.  **NullableBool.True** , если маркер имеет собственный шрифт и **NullableBool.False** if bullet наследует шрифт от первой части абзаца. Чтение/запись[`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Возвращает или устанавливает первое число, которое используется для группы нумерованных маркеров без наследования. Чтение/записьInt16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Возвращает или задает стиль нумерованного маркера без наследования. Чтение/запись[`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Возвращает изображение, используемое в качестве маркера в абзаце, без наследования. Только для чтения[`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Возвращает или задает тип маркера абзаца без наследования. Чтение/запись[`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Возвращает или задает символ маркера абзаца без наследования. Чтение/запись Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Возвращает цветовое форматирование маркера абзаца без наследования. Только для чтения [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Возвращает или задает шрифт маркера абзаца без наследования. Чтение/запись [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Возвращает или задает высоту маркера абзаца без наследования. Значение float.NaN указывает, что маркер наследует высоту от первой части абзаца. Чтение/запись Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Определяет, имеет ли маркер собственный цвет или наследует его от первой части абзаца. **NullableBool.True**, если маркер имеет собственный цвет, и **NullableBool.False**, если маркер наследует цвет от первой части абзаца. Чтение/запись [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Определяет, имеет ли маркер собственный шрифт или наследует его от первой части абзаца. **NullableBool.True**, если маркер имеет собственный шрифт, и **NullableBool.False**, если маркер наследует шрифт от первой части абзаца. Чтение/запись [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Возвращает или задает первое число, используемое для группы нумерованных маркеров без наследования. Чтение/запись Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Возвращает или задает стиль нумерованного маркера без наследования. Чтение/запись [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Возвращает изображение, используемое в качестве маркера в абзаце без наследования. Только для чтения [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Возвращает или задает тип маркера абзаца без наследования. Чтение/запись [`BulletType`](../bullettype). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Устанавливает ненулевые смещения по умолчанию для эффективного отступа и левого поля абзаца, когда маркеры включены (как это делает PowerPoint, если в нем включены маркеры/нумерация абзаца). Если маркеры отключены, просто сбросьте отступ и левое поле абзаца (как это делает PowerPoint, если отключите в нем маркеры/нумерацию абзаца). Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Сдвиги ненулевых отступов применяются к действующим Indent и MarginLeft текущего абзаца (результирующие значения должны быть локальными значениями). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Устанавливает значения сдвигов по умолчанию, отличные от нуля, для эффективного отступа абзаца и левого поля, когда включены маркеры (как это делает PowerPoint, если включены маркеры/нумерация абзацев). Если маркеры отключены, просто сбрасывает отступ абзаца и левое поле (как это делает PowerPoint, если отключены маркеры/нумерация абзацев). Сдвиги отступов применяются с учетом текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Сдвиги отступов, отличные от нуля, применяются к эффективному отступу и левому полю текущего абзаца (приводит к тому, что результат будет локальными значениями). |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Получает эффективные данные форматирования маркеров с применением наследования. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Получает эффективные данные форматирования маркеров с примененным наследованием. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### Смотрите также
+### См. также
 
-* class [PVIObject](../pviobject)
-* interface [IBulletFormat](../ibulletformat)
+* класс [PVIObject](../pviobject)
+* интерфейс [IBulletFormat](../ibulletformat)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

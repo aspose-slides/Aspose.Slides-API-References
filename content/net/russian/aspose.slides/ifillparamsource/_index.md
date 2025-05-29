@@ -1,20 +1,21 @@
 ---
 title: IFillParamSource
-second_title: Справочник по API Aspose.Slides для .NET
-description: Интерфейс дополнительных параметров заливки.
+second_title: Aspose.Slides для .NET API Справка
+description: Вспомогательный интерфейс параметров заливки.
 type: docs
-weight: 5290
+weight: 5610
 url: /ru/aspose.slides/ifillparamsource/
 ---
-## IFillParamSource interface
 
-Интерфейс дополнительных параметров заливки.
+## Интерфейс IFillParamSource
+
+Вспомогательный интерфейс параметров заливки.
 
 ```csharp
 public interface IFillParamSource
 ```
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

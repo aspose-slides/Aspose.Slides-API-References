@@ -1,22 +1,23 @@
 ---
 title: EffectFillType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют типы заполнения.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Представляет типы заполнения.
 type: docs
-weight: 210
+weight: 230
 url: /ru/aspose.slides.animation/effectfilltype/
 ---
-## EffectFillType enumeration
 
-Представляют типы заполнения.
+## Перечисление EffectFillType
+
+Представляет типы заполнения.
 
 ```csharp
 public enum EffectFillType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Remove | `0` |  |
@@ -24,7 +25,7 @@ public enum EffectFillType
 | Hold | `2` |  |
 | Transition | `3` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

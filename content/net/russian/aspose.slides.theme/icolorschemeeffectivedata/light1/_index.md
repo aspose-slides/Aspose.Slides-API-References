@@ -1,14 +1,15 @@
 ---
 title: Light1
-second_title: Справочник по API Aspose.Slides для .NET
-description: Первый светлый цвет в схеме. Только для чтенияColor.
+second_title: Справочник API Aspose.Slides для .NET
+description: Первый светлый цвет в схеме. Цвет только для чтения.
 type: docs
 weight: 120
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/light1/
 ---
-## IColorSchemeEffectiveData.Light1 property
 
-Первый светлый цвет в схеме. Только для чтенияColor.
+## Свойство IColorSchemeEffectiveData.Light1
+
+Первый светлый цвет в схеме. Цвет только для чтения.
 
 ```csharp
 public Color Light1 { get; }
@@ -16,7 +17,7 @@ public Color Light1 { get; }
 
 ### Смотрите также
 
-* interface [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
+* интерфейс [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../icolorschemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

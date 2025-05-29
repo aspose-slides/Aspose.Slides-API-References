@@ -1,12 +1,13 @@
 ---
 title: PortionFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/portionfactory/portionfactory/
 ---
-## PortionFactory constructor
+
+## Конструктор PortionFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/portionfactory/portionfactory/
 public PortionFactory()
 ```
 
-### Смотрите также
+### См. также
 
-* class [PortionFactory](../../portionfactory)
+* класс [PortionFactory](../../portionfactory)
 * пространство имен [Aspose.Slides](../../portionfactory)
 * сборка [Aspose.Slides](../../../)
 

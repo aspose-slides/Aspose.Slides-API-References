@@ -1,23 +1,24 @@
 ---
-title: Token
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает новый токен привязанный к этомуIInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
+title: Токен
+second_title: Справочник по API Aspose.Slidеs для .NET
+description: Возвращает новый токен, связанный с этим IInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iinterruptiontokensource/token/
 ---
-## IInterruptionTokenSource.Token property
 
-Возвращает новый токен, привязанный к этому[`IInterruptionTokenSource`](../../iinterruptiontokensource).
+## Свойство IInterruptionTokenSource.Token
+
+Возвращает новый токен, связанный с этим [`IInterruptionTokenSource`](../../iinterruptiontokensource).
 
 ```csharp
 public IInterruptionToken Token { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IInterruptionToken](../../iinterruptiontoken)
-* interface [IInterruptionTokenSource](../../iinterruptiontokensource)
+* интерфейс [IInterruptionToken](../../iinterruptiontoken)
+* интерфейс [IInterruptionTokenSource](../../iinterruptiontokensource)
 * пространство имен [Aspose.Slides](../../iinterruptiontokensource)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,24 +1,25 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Sildes для .NET API Reference
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/ifilloverlay/asiaccessiblepviobject/
 ---
-## IFillOverlay.AsIAccessiblePVIObject property
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+## Свойство IFillOverlay.AsIAccessiblePVIObject
+
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IFillOverlayEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* interface [IFillOverlayEffectiveData](../../ifilloverlayeffectivedata)
-* interface [IFillOverlay](../../ifilloverlay)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IFillOverlayEffectiveData](../../ifilloverlayeffectivedata)
+* интерфейс [IFillOverlay](../../ifilloverlay)
 * пространство имен [Aspose.Slides.Effects](../../ifilloverlay)
 * сборка [Aspose.Slides](../../../)
 

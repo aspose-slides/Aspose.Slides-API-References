@@ -1,28 +1,28 @@
 ---
-title: Add
-second_title: Aspose.Slides für .NET-API-Referenz
-description: 
-type: docs
+title: Hinzufügen
+second_title: Aspose.Slides für .NET API Referenz
+description: type docs
 weight: 10
 url: /de/aspose.slides.export.web/output/add/
 ---
-## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_5}
+
+## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_6}
 
 ```csharp
 public IOutputFile Add<TContextObject>(string path, string templateKey, 
     TContextObject contextObject)
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IOutputFile](../../ioutputfile)
 * class [Output](../../output)
-* namensraum [Aspose.Slides.Export.Web](../../output)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Add(string, IPPImage) {#add_1}
+## Add(string, IPPImage) {#add_2}
 
 Fügt ein Ausgabeelement für das Bild hinzu.
 
@@ -32,50 +32,51 @@ public IOutputFile Add(string path, IPPImage image)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| path | String | Ausgangspfad. |
-| image | IPPImage | Bild zur Ausgabe. |
+| path | String | Ausgabepfad. |
+| image | IPPImage | Bild zum Ausgeben. |
 
 ### Rückgabewert
 
-[`IOutputFile`](../../ioutputfile)Objekt für das Bild.
+[`IOutputFile`](../../ioutputfile) Objekt für das Bild.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IPPImage](../../../aspose.slides/ippimage)
 * class [Output](../../output)
-* namensraum [Aspose.Slides.Export.Web](../../output)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Add(string, Image) {#add_3}
+## Add(string, IImage) {#add_1}
 
 Fügt ein Ausgabeelement für das Bild hinzu.
 
 ```csharp
-public IOutputFile Add(string path, Image image)
+public IOutputFile Add(string path, IImage image)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| path | String | Ausgangspfad. |
-| image | Image | Bild zur Ausgabe. |
+| path | String | Ausgabepfad. |
+| image | IImage | Bild zum Ausgeben. |
 
 ### Rückgabewert
 
-[`IOutputFile`](../../ioutputfile)Objekt für das Bild.
+[`IOutputFile`](../../ioutputfile) Objekt für das Bild.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IOutputFile](../../ioutputfile)
+* interface [IImage](../../../aspose.slides/iimage)
 * class [Output](../../output)
-* namensraum [Aspose.Slides.Export.Web](../../output)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Add(string, IVideo) {#add_2}
+## Add(string, IVideo) {#add_3}
 
 Fügt ein Ausgabeelement für das Video hinzu.
 
@@ -85,20 +86,20 @@ public IOutputFile Add(string path, IVideo video)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| path | String | Ausgangspfad. |
-| video | IVideo | Video zur Ausgabe. |
+| path | String | Ausgabepfad. |
+| video | IVideo | Video zum Ausgeben. |
 
 ### Rückgabewert
 
 [`IOutputFile`](../../ioutputfile) Objekt für das Video.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IVideo](../../../aspose.slides/ivideo)
 * class [Output](../../output)
-* namensraum [Aspose.Slides.Export.Web](../../output)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -112,25 +113,25 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| path | String | Ausgangspfad. |
-| fontData | IFontData | Schriftart zur Ausgabe. |
-| fontStyle | FontStyle | Schriftstil. |
+| path | String | Ausgabepfad. |
+| fontData | IFontData | Schriftart zum Ausgeben. |
+| fontStyle | FontStyle | Schriftart-Stil. |
 
 ### Rückgabewert
 
 [`IOutputFile`](../../ioutputfile) Objekt für die Schriftart.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IFontData](../../../aspose.slides/ifontdata)
 * class [Output](../../output)
-* namensraum [Aspose.Slides.Export.Web](../../output)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Add(string, string) {#add_4}
+## Add(string, string) {#add_5}
 
 Fügt ein Ausgabeelement für den Textinhalt hinzu.
 
@@ -140,18 +141,18 @@ public IOutputFile Add(string path, string textContent)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| path | String | Ausgangspfad. |
-| textContent | String | Auszugebender Inhalt. |
+| path | String | Ausgabepfad. |
+| textContent | String | Inhalt zum Ausgeben. |
 
 ### Rückgabewert
 
 [`IOutputFile`](../../ioutputfile) Objekt für den Textinhalt.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IOutputFile](../../ioutputfile)
 * class [Output](../../output)
-* namensraum [Aspose.Slides.Export.Web](../../output)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

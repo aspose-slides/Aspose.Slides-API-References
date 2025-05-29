@@ -1,22 +1,23 @@
 ---
-title: Radius
+title: Радиус
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает радиус размытия применяемый к краям. Чтение/записьDouble.
+description: Указывает радиус размытия, который необходимо применить к краям. Чтение/запись Double.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/softedge/radius/
 ---
-## SoftEdge.Radius property
 
-Указывает радиус размытия, применяемый к краям. Чтение/записьDouble.
+## Свойство SoftEdge.Radius
+
+Указывает радиус размытия, который необходимо применить к краям. Чтение/запись Double.
 
 ```csharp
 public double Radius { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [SoftEdge](../../softedge)
+* класс [SoftEdge](../../softedge)
 * пространство имен [Aspose.Slides.Effects](../../softedge)
 * сборка [Aspose.Slides](../../../)
 

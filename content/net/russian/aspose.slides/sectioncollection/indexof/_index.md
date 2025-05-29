@@ -1,12 +1,13 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает индекс указанного раздела в коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides/sectioncollection/indexof/
 ---
-## SectionCollection.IndexOf method
+
+## Метод SectionCollection.IndexOf
 
 Возвращает индекс указанного раздела в коллекции.
 
@@ -16,16 +17,16 @@ public int IndexOf(ISection section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | ISection | Раздел, который нужно найти. |
+| section | ISection | Раздел для поиска. |
 
 ### Возвращаемое значение
 
 Индекс раздела или -1, если раздел не из этой коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [ISection](../../isection)
-* class [SectionCollection](../../sectioncollection)
+* интерфейс [ISection](../../isection)
+* класс [SectionCollection](../../sectioncollection)
 * пространство имен [Aspose.Slides](../../sectioncollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
-title: Overlay
+title: Наложение
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет разрешено ли другим элементам диаграммы перекрывать заголовок. Чтение/записьBoolean.
+description: Определяет, разрешено ли другим элементам диаграммы накладываться на заголовок. Читаемое/записываемое логическое значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/charttitle/overlay/
 ---
-## ChartTitle.Overlay property
 
-Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. Чтение/записьBoolean.
+## Свойство ChartTitle.Overlay
+
+Определяет, разрешено ли другим элементам диаграммы накладываться на заголовок. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool Overlay { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartTitle](../../charttitle)
+* класс [ChartTitle](../../charttitle)
 * пространство имен [Aspose.Slides.Charts](../../charttitle)
 * сборка [Aspose.Slides](../../../)
 

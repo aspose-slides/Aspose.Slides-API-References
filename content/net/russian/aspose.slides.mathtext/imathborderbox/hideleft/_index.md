@@ -1,14 +1,15 @@
 ---
-title: HideLeft
-second_title: Справочник по API Aspose.Slides для .NET
-description: Скрыть левый край по умолчанию false - указывает скрытое или отображаемое состояние левого края рамки.
+title: СкрытьСлева
+second_title: Aspose.Slides для .NET Справочник по API
+description: Скрыть левый край значение по умолчанию - ложь - указывает на скрытое или видимое состояние левого края рамки.
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathborderbox/hideleft/
 ---
-## IMathBorderBox.HideLeft property
 
-Скрыть левый край (по умолчанию false) - указывает скрытое или отображаемое состояние левого края рамки.
+## IMathBorderBox.HideLeft свойство
+
+Скрыть левый край (значение по умолчанию - ложь) - указывает на скрытое или видимое состояние левого края рамки.
 
 ```csharp
 public bool HideLeft { get; set; }
@@ -24,9 +25,9 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 borderBox.HideLeft = true;
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IMathBorderBox](../../imathborderbox)
+* интерфейс [IMathBorderBox](../../imathborderbox)
 * пространство имен [Aspose.Slides.MathText](../../imathborderbox)
 * сборка [Aspose.Slides](../../../)
 

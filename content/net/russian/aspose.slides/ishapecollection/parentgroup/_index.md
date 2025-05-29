@@ -1,23 +1,24 @@
 ---
 title: ParentGroup
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительский объект GroupShape для коллекции фигур. Только для чтенияIGroupShapeaspose.slides/igroupshape.
+description: Возвращает родительский объект GroupShape для коллекции фигур. Только для чтения IGroupShapeaspose.slides/igroupshape.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ishapecollection/parentgroup/
 ---
-## IShapeCollection.ParentGroup property
 
-Возвращает родительский объект GroupShape для коллекции фигур. Только для чтения[`IGroupShape`](../../igroupshape).
+## Свойство IShapeCollection.ParentGroup
+
+Возвращает родительский объект GroupShape для коллекции фигур. Только для чтения [`IGroupShape`](../../igroupshape).
 
 ```csharp
 public IGroupShape ParentGroup { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IGroupShape](../../igroupshape)
-* interface [IShapeCollection](../../ishapecollection)
+* интерфейс [IGroupShape](../../igroupshape)
+* интерфейс [IShapeCollection](../../ishapecollection)
 * пространство имен [Aspose.Slides](../../ishapecollection)
 * сборка [Aspose.Slides](../../../)
 

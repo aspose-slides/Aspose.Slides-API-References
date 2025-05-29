@@ -1,28 +1,29 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий эффект Alpha Inverse. Значения альфа-канала непрозрачности инвертируются путем вычитания из 100.
+second_title: Aspose.Slides для .NET API Reference
+description: Неизменяемый объект, который представляет эффект Альфа Инверсии. Значения альфа-прозрачности инвертируются путем вычитания из 100.
 type: docs
-weight: 2910
+weight: 2990
 url: /ru/aspose.slides.effects/ialphainverseeffectivedata/
 ---
-## IAlphaInverseEffectiveData interface
 
-Неизменяемый объект, представляющий эффект Alpha Inverse. Значения альфа-канала (непрозрачности) инвертируются путем вычитания из 100%.
+## Интерфейс IAlphaInverseEffectiveData
+
+Неизменяемый объект, который представляет эффект Альфа Инверсии. Значения альфа (прозрачности) инвертируются путем вычитания из 100%.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Смотрите также
+### См. также
 
-* interface [IEffectEffectiveData](../ieffecteffectivedata)
+* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

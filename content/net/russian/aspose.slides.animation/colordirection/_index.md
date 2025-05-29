@@ -3,10 +3,11 @@ title: ColorDirection
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет направление цвета для поведения цветового эффекта.
 type: docs
-weight: 120
+weight: 140
 url: /ru/aspose.slides.animation/colordirection/
 ---
-## ColorDirection enumeration
+
+## Перечисление ColorDirection
 
 Представляет направление цвета для поведения цветового эффекта.
 
@@ -14,15 +15,15 @@ url: /ru/aspose.slides.animation/colordirection/
 public enum ColorDirection
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Clockwise | `0` |  |
 | CounterClockwise | `1` |  |
 
-### Смотрите также
+### Также см.
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

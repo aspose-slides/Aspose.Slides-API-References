@@ -1,23 +1,24 @@
 ---
 title: ThemeManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает приоритетный менеджер тем. Только для чтенияIOverrideThemeManageraspose.slides.theme/ioverridethememanager.
+second_title: Aspose.Slides для .NET API Референс
+description: Возвращает менеджер тем для переопределения. Только для чтения IOverrideThemeManageraspose.slides.theme/ioverridethememanager.
 type: docs
-weight: 60
+weight: 70
 url: /ru/aspose.slides/layoutslide/thememanager/
 ---
-## LayoutSlide.ThemeManager property
 
-Возвращает приоритетный менеджер тем. Только для чтения[`IOverrideThemeManager`](../../../aspose.slides.theme/ioverridethememanager).
+## Свойство LayoutSlide.ThemeManager
+
+Возвращает менеджер тем для переопределения. Только для чтения [`IOverrideThemeManager`](../../../aspose.slides.theme/ioverridethememanager).
 
 ```csharp
 public IOverrideThemeManager ThemeManager { get; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
-* interface [IOverrideThemeManager](../../../aspose.slides.theme/ioverridethememanager)
-* class [LayoutSlide](../../layoutslide)
+* интерфейс [IOverrideThemeManager](../../../aspose.slides.theme/ioverridethememanager)
+* класс [LayoutSlide](../../layoutslide)
 * пространство имен [Aspose.Slides](../../layoutslide)
 * сборка [Aspose.Slides](../../../)
 

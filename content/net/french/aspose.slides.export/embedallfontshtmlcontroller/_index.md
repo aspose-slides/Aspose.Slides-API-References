@@ -1,14 +1,15 @@
 ---
 title: EmbedAllFontsHtmlController
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: La classe de contrôleur de formatage à utiliser pour intégrer toutes les polices de présentation au format WOFF.
+description: La classe contrôleur de format qui doit être utilisée pour intégrer toutes les polices de présentation au format WOFF.
 type: docs
-weight: 3510
+weight: 3590
 url: /fr/aspose.slides.export/embedallfontshtmlcontroller/
 ---
-## EmbedAllFontsHtmlController class
 
-La classe de contrôleur de formatage à utiliser pour intégrer toutes les polices de présentation au format WOFF.
+## Classe EmbedAllFontsHtmlController
+
+La classe contrôleur de format qui doit être utilisée pour intégrer toutes les polices de présentation au format WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -16,28 +17,26 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | Crée une nouvelle instance |
 | [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | Crée une nouvelle instance |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Ecrire toutes les polices contenues dans[`Presentation`](../../aspose.slides/presentation) . |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Écrit toutes les polices contenues dans [`Presentation`](../../aspose.slides/presentation). |
 | virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Appelé pour écrire le pied de page du document html. Appelé une fois par conversion de présentation. |
 | virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Appelé pour écrire l'en-tête du document html. Appelé une fois par conversion de présentation. |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Écrit les données en base64 dans le document HTML lui-même |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Appelé avant le rendu de la forme. Appelé une fois par forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive en cours sera terminée, un fragment html ajouté sera inséré et une nouvelle image sera lancée au-dessus de la précédente. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Appelé avant le rendu de la forme. Appelé une fois par forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive en cours sera terminée, un fragment html ajouté sera inséré et une nouvelle image sera lancée au-dessus de la précédente. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Appelé pour écrire le pied de page de la diapositive html. Appelé une fois pour chacune des diapositives. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Appelé pour écrire un en-tête de diapositive html. Appelé une fois pour chacune des diapositives. |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Écrit des données au format base64 dans le document HTML lui-même |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Appelé avant le rendu de la forme. Appelé une fois pour chaque forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive actuelle sera terminée, le fragment html ajouté sera inséré et une nouvelle image sera commencée au-dessus de la précédente. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Appelé avant le rendu de la forme. Appelé une fois pour chaque forme. Si cette fonction écrit quoi que ce soit dans le générateur, la génération de l'image de la diapositive actuelle sera terminée, le fragment html ajouté sera inséré et une nouvelle image sera commencée au-dessus de la précédente. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Appelé pour écrire le pied de page de la diapositive html. Appelé une fois pour chaque diapositive. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Appelé pour écrire l'en-tête de la diapositive html. Appelé une fois pour chaque diapositive. |
 
-### Voir également
+### Voir aussi
 
 * interface [IHtmlFormattingController](../ihtmlformattingcontroller)
-* espace de noms [Aspose.Slides.Export](../../aspose.slides.export)
-* Assemblée [Aspose.Slides](../../)
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)

@@ -1,22 +1,23 @@
 ---
 title: ShowMasterShapes
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Чтение/записьBoolean.
+second_title: Справочник API Aspose.Slides для .NET
+description: Указывает, должны ли фигуры на основном слайде отображаться на слайдах или нет. Читаемый/г Writable Boolean.
 type: docs
-weight: 50
+weight: 60
 url: /ru/aspose.slides/layoutslide/showmastershapes/
 ---
-## LayoutSlide.ShowMasterShapes property
 
-Указывает, должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Чтение/записьBoolean.
+## LayoutSlide.ShowMasterShapes свойство
+
+Указывает, должны ли фигуры на основном слайде отображаться на слайдах или нет. Читаемый/г Writable Boolean.
 
 ```csharp
 public override bool ShowMasterShapes { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [LayoutSlide](../../layoutslide)
+* класс [LayoutSlide](../../layoutslide)
 * пространство имен [Aspose.Slides](../../layoutslide)
 * сборка [Aspose.Slides](../../../)
 

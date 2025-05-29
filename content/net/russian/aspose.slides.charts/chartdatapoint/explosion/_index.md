@@ -1,22 +1,23 @@
 ---
-title: Explosion
+title: Взрыв
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает величину на которую точка данных должна быть перемещена из центра круговой диаграммы. Чтение/записьInt32.
+description: Указывает, на сколько следует сместить точку данных от центра пирога. Чтение/запись Int32.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/chartdatapoint/explosion/
 ---
-## ChartDataPoint.Explosion property
 
-Задает величину, на которую точка данных должна быть перемещена из центра круговой диаграммы. Чтение/записьInt32.
+## Свойство ChartDataPoint.Explosion
+
+Указывает, на сколько следует сместить точку данных от центра пирога. Чтение/запись Int32.
 
 ```csharp
 public int Explosion { get; set; }
 ```
 
-### Смотрите также
+### Также см. 
 
-* class [ChartDataPoint](../../chartdatapoint)
+* класс [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

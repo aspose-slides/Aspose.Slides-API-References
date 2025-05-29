@@ -1,22 +1,23 @@
 ---
 title: CanRead
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение указывающее поддерживает ли текущий поток чтение. Только чтениеBoolean.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Получает значение, указывающее, поддерживает ли текущий поток чтение. Boolean только для чтения.
 type: docs
 weight: 20
 url: /ru/aspose.slides/streamwrapper/canread/
 ---
-## StreamWrapper.CanRead property
 
-Получает значение, указывающее, поддерживает ли текущий поток чтение. Только чтениеBoolean.
+## StreamWrapper.CanRead свойство
+
+Получает значение, указывающее, поддерживает ли текущий поток чтение. Boolean только для чтения.
 
 ```csharp
 public bool CanRead { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [StreamWrapper](../../streamwrapper)
+* класс [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

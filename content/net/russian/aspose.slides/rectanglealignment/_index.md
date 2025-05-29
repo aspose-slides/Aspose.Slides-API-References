@@ -1,22 +1,23 @@
 ---
-title: RectangleAlignment
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет двухмерное выравнивание.
+title: ПрямоугольноеВыравнивание
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет 2-мерное выравнивание.
 type: docs
-weight: 8960
+weight: 9420
 url: /ru/aspose.slides/rectanglealignment/
 ---
-## RectangleAlignment enumeration
 
-Определяет двухмерное выравнивание.
+## Перечисление RectangleAlignment
+
+Определяет 2-мерное выравнивание.
 
 ```csharp
 public enum RectangleAlignment : sbyte
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | TopLeft | `0` |  |
@@ -29,7 +30,7 @@ public enum RectangleAlignment : sbyte
 | Bottom | `7` |  |
 | BottomRight | `8` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

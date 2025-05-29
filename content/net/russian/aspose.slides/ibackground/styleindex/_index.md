@@ -1,22 +1,23 @@
 ---
 title: StyleIndex
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает индекс BackgroundType.Themed заливки в коллекцию фоновых тем. 0 означает отсутствие заполнения. 1..999 - индекс. Чтение/записьUInt16.
+description: Возвращает индекс BackgroundType.Themed заполнения в коллекции тем фона. 0 означает отсутствие заполнения. 1..999 - индекс. Чтение/Запись UInt16.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ibackground/styleindex/
 ---
-## IBackground.StyleIndex property
 
-Возвращает индекс BackgroundType.Themed заливки в коллекцию фоновых тем. 0 означает отсутствие заполнения. 1..999 - индекс. Чтение/записьUInt16.
+## Свойство IBackground.StyleIndex
+
+Возвращает индекс BackgroundType.Themed заполнения в коллекции тем фона. 0 означает отсутствие заполнения. 1..999 - индекс. Чтение/Запись UInt16.
 
 ```csharp
 public ushort StyleIndex { get; set; }
 ```
 
-### Смотрите также
-
-* interface [IBackground](../../ibackground)
+### Также см.
+ 
+* интерфейс [IBackground](../../ibackground)
 * пространство имен [Aspose.Slides](../../ibackground)
 * сборка [Aspose.Slides](../../../)
 

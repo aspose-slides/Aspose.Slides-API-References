@@ -1,37 +1,38 @@
 ---
 title: AlphaFloor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект Alpha Floor. Значения альфа-канала непрозрачности менее 100 заменяются на ноль. Другими словами все частично прозрачное становится полностью прозрачным.
+second_title: Aspose.Sldes для .NET API Справочник
+description: Представляет эффект Alpha Floor. Значения альфа-непрозрачности меньше 100 меняются на ноль. Другими словами, всё, что частично прозрачно, становится полностью прозрачным.
 type: docs
-weight: 2690
+weight: 2770
 url: /ru/aspose.slides.effects/alphafloor/
 ---
-## AlphaFloor class
 
-Представляет эффект Alpha Floor. Значения альфа-канала (непрозрачности) менее 100% заменяются на ноль. Другими словами, все частично прозрачное становится полностью прозрачным.
+## Класс AlphaFloor
+
+Представляет эффект Alpha Floor. Значения альфа (непрозрачности) меньше 100% меняются на ноль. Другими словами, всё, что частично прозрачно, становится полностью прозрачным.
 
 ```csharp
-public class AlphaFloor : ImageTransformOperation, IAlphaFloor
+public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Определяет, равен ли указанный[`AlphaFloor`](../alphafloor)текущемуAlphaFloor. |
-| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Получает эффективные данные эффекта Alpha Floor с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Определяет, равен ли указанный [`AlphaFloor`](../alphafloor) текущему [`AlphaFloor`](../alphafloor). |
+| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Получает данные эффектов Alpha Floor с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Служит в качестве хеш-функции для данного типа. |
 
 ### Смотрите также
 
-* class [ImageTransformOperation](../imagetransformoperation)
-* interface [IAlphaFloor](../ialphafloor)
+* класс [ImageTransformOperation](../imagetransformoperation)
+* интерфейс [IAlphaFloor](../ialphafloor)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

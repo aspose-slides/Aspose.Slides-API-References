@@ -1,39 +1,40 @@
 ---
 title: PresetShadow
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет предустановленный эффект тени.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет эффект предустановленной тени.
 type: docs
-weight: 3430
+weight: 3510
 url: /ru/aspose.slides.effects/presetshadow/
 ---
-## PresetShadow class
 
-Представляет предустановленный эффект тени.
+## Класс PresetShadow
+
+Представляет эффект предустановленной тени.
 
 ```csharp
-public class PresetShadow : IPresetShadow
+public sealed class PresetShadow : IPresetShadow
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Направление тени. Чтение/записьSingle. |
-| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble. |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Предустановка. Чтение/запись[`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Направление тени. Чтение/запись Single. |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Расстояние тени. Чтение/запись Double. |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Предустановка. Чтение/запись [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Цвет тени. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Определяет, равен ли указанный[`PresetShadow`](../presetshadow)текущемуPresetShadow. |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Получает данные об эффективном предустановленном эффекте тени с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Определяет, равен ли указанный [`PresetShadow`](../presetshadow) текущему [`PresetShadow`](../presetshadow). |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Получает данные об эффекте предустановленной тени с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Используется в качестве хеш-функции для конкретного типа. |
 
 ### Смотрите также
 
-* interface [IPresetShadow](../ipresetshadow)
+* интерфейс [IPresetShadow](../ipresetshadow)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

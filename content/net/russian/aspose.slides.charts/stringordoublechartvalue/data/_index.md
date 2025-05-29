@@ -1,14 +1,15 @@
 ---
-title: Data
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает объект данных. Чтение/записьObject.
+title: Данные
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает или устанавливает объект Data. Читаемый/записываемый объект.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/stringordoublechartvalue/data/
 ---
-## StringOrDoubleChartValue.Data property
 
-Возвращает или устанавливает объект данных. Чтение/записьObject.
+## Свойство StringOrDoubleChartValue.Data
+
+Возвращает или устанавливает объект Data. Читаемый/записываемый объект.
 
 ```csharp
 public override object Data { get; set; }
@@ -16,7 +17,7 @@ public override object Data { get; set; }
 
 ### Смотрите также
 
-* class [StringOrDoubleChartValue](../../stringordoublechartvalue)
+* класс [StringOrDoubleChartValue](../../stringordoublechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../stringordoublechartvalue)
 * сборка [Aspose.Slides](../../../)
 

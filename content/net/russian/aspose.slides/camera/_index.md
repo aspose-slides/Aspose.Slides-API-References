@@ -1,27 +1,28 @@
 ---
-title: Camera
+title: Камера
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет камеру.
+description: Представляет Камеру.
 type: docs
-weight: 970
+weight: 1010
 url: /ru/aspose.slides/camera/
 ---
-## Camera class
 
-Представляет камеру.
+## Класс Camera
+
+Представляет Камеру.
 
 ```csharp
-public class Camera : PVIObject, ICamera
+public sealed class Camera : PVIObject, ICamera
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Тип камеры. Чтение/запись[`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | FOV камеры (0-180 град, поле зрения). Чтение/записьSingle. |
-| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Увеличение камеры (положительное значение в процентах). Чтение/записьSingle. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить баз 인터фейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
+| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Тип камеры. Чтение/запись [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | Угол обзора камеры (0-180 градусов, поле зрения). Чтение/запись Single. |
+| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Увеличение камеры (положительное значение в процентах). Чтение/запись Single. |
 
 ## Методы
 
@@ -29,13 +30,13 @@ public class Camera : PVIObject, ICamera
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
-| [GetRotation](../../aspose.slides/camera/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. первый элемент возвращаемого массива - широта, второй - долгота, третий - оборот. Возвращает null, если вращение не определено. |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. Если какое-либо из значений координат имеет значение float.NaN, все вращения не определены. |
+| [GetRotation](../../aspose.slides/camera/getrotation)() | Вращение определяется с использованием координаты широты, координаты долготы и оборота вокруг оси, как координаты широты и долготы. Первый элемент в возвращаемом массиве - широта, второй - долгота, третий - оборот. Возвращает null, если вращение не определено. |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Вращение определяется с использованием координаты широты, координаты долготы и оборота вокруг оси, как координаты широты и долготы. Если любое из значений координат равно float.NaN, все вращение не определено. |
 
 ### Смотрите также
 
-* class [PVIObject](../pviobject)
-* interface [ICamera](../icamera)
+* класс [PVIObject](../pviobject)
+* интерфейс [ICamera](../icamera)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

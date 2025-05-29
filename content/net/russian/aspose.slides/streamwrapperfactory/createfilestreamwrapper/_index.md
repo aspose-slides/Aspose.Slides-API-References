@@ -1,11 +1,12 @@
 ---
 title: CreateFileStreamWrapper
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Создает FileStream с указанным путем и режимом создания.
 type: docs
 weight: 20
 url: /ru/aspose.slides/streamwrapperfactory/createfilestreamwrapper/
 ---
+
 ## CreateFileStreamWrapper(string, FileMode) {#createfilestreamwrapper}
 
 Создает FileStream с указанным путем и режимом создания.
@@ -14,10 +15,10 @@ url: /ru/aspose.slides/streamwrapperfactory/createfilestreamwrapper/
 public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode)
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IStreamWrapper](../../istreamwrapper)
-* class [StreamWrapperFactory](../../streamwrapperfactory)
+* интерфейс [IStreamWrapper](../../istreamwrapper)
+* класс [StreamWrapperFactory](../../streamwrapperfactory)
 * пространство имен [Aspose.Slides](../../streamwrapperfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -25,17 +26,17 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 ## CreateFileStreamWrapper(string, FileMode, FileAccess) {#createfilestreamwrapper_1}
 
-Создает FileStream с указанным путем, режимом создания и разрешением на чтение/запись.
+Создает FileStream с указанным путем, режимом создания и правами на чтение/запись.
 
 ```csharp
 public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode, 
     FileAccess fileAccess)
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IStreamWrapper](../../istreamwrapper)
-* class [StreamWrapperFactory](../../streamwrapperfactory)
+* интерфейс [IStreamWrapper](../../istreamwrapper)
+* класс [StreamWrapperFactory](../../streamwrapperfactory)
 * пространство имен [Aspose.Slides](../../streamwrapperfactory)
 * сборка [Aspose.Slides](../../../)
 

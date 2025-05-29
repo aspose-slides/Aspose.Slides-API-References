@@ -1,12 +1,13 @@
 ---
 title: ColorEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Создает новый экземпляр.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/coloreffect/coloreffect/
 ---
-## ColorEffect constructor
+
+## Конструктор ColorEffect
 
 Создает новый экземпляр.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/coloreffect/coloreffect/
 public ColorEffect()
 ```
 
-### Смотрите также
+### См. также
 
-* class [ColorEffect](../../coloreffect)
+* класс [ColorEffect](../../coloreffect)
 * пространство имен [Aspose.Slides.Animation](../../coloreffect)
 * сборка [Aspose.Slides](../../../)
 

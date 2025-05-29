@@ -1,22 +1,23 @@
 ---
-title: Position
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает положение комментария на слайде. Чтение/записьPointF.
+title: Позиция
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает позицию комментария на слайде. Чтение/запись PointF.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icomment/position/
 ---
-## IComment.Position property
 
-Возвращает или задает положение комментария на слайде. Чтение/записьPointF.
+## Свойство IComment.Position
+
+Возвращает или устанавливает позицию комментария на слайде. Чтение/запись PointF.
 
 ```csharp
 public PointF Position { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IComment](../../icomment)
+* интерфейс [IComment](../../icomment)
 * пространство имен [Aspose.Slides](../../icomment)
 * сборка [Aspose.Slides](../../../)
 

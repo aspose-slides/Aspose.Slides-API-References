@@ -1,36 +1,37 @@
 ---
 title: LeftRightDirectionTransition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода слайда влево-вправо.
+second_title: Aspose.Slides для .NET API Reference
+description: Эффект перехода слайдов влево-вправо.
 type: docs
-weight: 9460
+weight: 9930
 url: /ru/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
-## LeftRightDirectionTransition class
 
-Эффект перехода слайда влево-вправо.
+## Класс LeftRightDirectionTransition
+
+Эффект перехода слайдов влево-вправо.
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для конкретного типа, подходит для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
 
-### Смотрите также
+### См. также
 
-* class [TransitionValueBase](../transitionvaluebase)
-* interface [ILeftRightDirectionTransition](../ileftrightdirectiontransition)
+* класс [TransitionValueBase](../transitionvaluebase)
+* интерфейс [ILeftRightDirectionTransition](../ileftrightdirectiontransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

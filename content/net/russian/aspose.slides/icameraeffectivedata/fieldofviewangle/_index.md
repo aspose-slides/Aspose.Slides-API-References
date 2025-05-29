@@ -1,14 +1,15 @@
 ---
-title: FieldOfViewAngle
-second_title: Справочник по API Aspose.Slides для .NET
-description: FOV камеры 0-180 град поле зрения. Только для чтенияSingle.
+title: УголОбзора
+second_title: Справка по Aspose.Slides для .NET
+description: Угол обзора камеры FOV 0-180 градусов. Только для чтения одиночное значение.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icameraeffectivedata/fieldofviewangle/
 ---
-## ICameraEffectiveData.FieldOfViewAngle property
 
-FOV камеры (0-180 град, поле зрения). Только для чтенияSingle.
+## Свойство ICameraEffectiveData.FieldOfViewAngle
+
+Угол обзора камеры (0-180 градусов, поле обзора). Только для чтения одиночное значение.
 
 ```csharp
 public float FieldOfViewAngle { get; }
@@ -16,7 +17,7 @@ public float FieldOfViewAngle { get; }
 
 ### Смотрите также
 
-* interface [ICameraEffectiveData](../../icameraeffectivedata)
+* интерфейс [ICameraEffectiveData](../../icameraeffectivedata)
 * пространство имен [Aspose.Slides](../../icameraeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

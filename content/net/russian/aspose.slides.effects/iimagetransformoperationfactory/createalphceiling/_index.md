@@ -1,14 +1,15 @@
 ---
 title: CreateAlphCeiling
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает эффект альфа-потолка.
+description: Создает эффект Alpha Ceiling.
 type: docs
 weight: 70
 url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createalphceiling/
 ---
-## IImageTransformOperationFactory.CreateAlphCeiling method
 
-Создает эффект альфа-потолка.
+## IImageTransformOperationFactory.CreateAlphCeiling метод
+
+Создает эффект Alpha Ceiling.
 
 ```csharp
 public IAlphaCeiling CreateAlphCeiling()
@@ -16,12 +17,12 @@ public IAlphaCeiling CreateAlphCeiling()
 
 ### Возвращаемое значение
 
-Эффект альфа-потолка.
+Эффект Alpha Ceiling.
 
-### Смотрите также
+### См. также
 
-* interface [IAlphaCeiling](../../ialphaceiling)
-* interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
+* интерфейс [IAlphaCeiling](../../ialphaceiling)
+* интерфейс [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

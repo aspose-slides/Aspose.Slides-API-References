@@ -1,23 +1,24 @@
 ---
-title: Placeholder
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает заполнитель для фигуры. Только для чтенияIPlaceholderaspose.slides/iplaceholder.
+title: Заполнитель
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает заполнитель для фигуры. Только для чтения IPlaceholderaspose.slides/iplaceholder.
 type: docs
-weight: 190
+weight: 200
 url: /ru/aspose.slides/ishape/placeholder/
 ---
-## IShape.Placeholder property
 
-Возвращает заполнитель для фигуры. Только для чтения[`IPlaceholder`](../../iplaceholder).
+## Свойство IShape.Placeholder
+
+Возвращает заполнитель для фигуры. Только для чтения [`IPlaceholder`](../../iplaceholder).
 
 ```csharp
 public IPlaceholder Placeholder { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IPlaceholder](../../iplaceholder)
-* interface [IShape](../../ishape)
+* интерфейс [IPlaceholder](../../iplaceholder)
+* интерфейс [IShape](../../ishape)
 * пространство имен [Aspose.Slides](../../ishape)
 * сборка [Aspose.Slides](../../../)
 

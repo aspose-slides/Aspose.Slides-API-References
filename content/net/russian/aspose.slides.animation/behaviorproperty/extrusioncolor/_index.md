@@ -6,7 +6,8 @@ type: docs
 weight: 30
 url: /ru/aspose.slides.animation/behaviorproperty/extrusioncolor/
 ---
-## BehaviorProperty.ExtrusionColor property
+
+## Свойство BehaviorProperty.ExtrusionColor
 
 Представляет свойство 'extrusion.color'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusioncolor/
 public static BehaviorProperty ExtrusionColor { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

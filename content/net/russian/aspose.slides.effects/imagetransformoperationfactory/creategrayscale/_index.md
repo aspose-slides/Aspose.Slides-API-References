@@ -1,14 +1,15 @@
 ---
-title: CreateGrayScale
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает эффект шкалы серого.
+title: Создание серого масштаба
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Создает эффект серого масштаба.
 type: docs
 weight: 150
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/creategrayscale/
 ---
-## ImageTransformOperationFactory.CreateGrayScale method
 
-Создает эффект шкалы серого.
+## Метод ImageTransformOperationFactory.CreateGrayScale
+
+Создает эффект серого масштаба.
 
 ```csharp
 public IGrayScale CreateGrayScale()
@@ -16,12 +17,12 @@ public IGrayScale CreateGrayScale()
 
 ### Возвращаемое значение
 
-Возвращает эффект шкалы серого.
+Возвращает эффект серого масштаба.
 
 ### Смотрите также
 
-* interface [IGrayScale](../../igrayscale)
-* class [ImageTransformOperationFactory](../../imagetransformoperationfactory)
+* интерфейс [IGrayScale](../../igrayscale)
+* класс [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

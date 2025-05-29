@@ -1,14 +1,15 @@
 ---
 title: SkewVertical
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает вертикальный угол наклона. Только для чтенияDouble.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает угол вертикального наклона. Только для чтения Double.
 type: docs
 weight: 130
 url: /ru/aspose.slides.effects/ireflectioneffectivedata/skewvertical/
 ---
-## IReflectionEffectiveData.SkewVertical property
 
-Задает вертикальный угол наклона. Только для чтенияDouble.
+## IReflectionEffectiveData.SkewVertical свойство
+
+Указывает угол вертикального наклона. Только для чтения Double.
 
 ```csharp
 public double SkewVertical { get; }
@@ -16,7 +17,7 @@ public double SkewVertical { get; }
 
 ### Смотрите также
 
-* interface [IReflectionEffectiveData](../../ireflectioneffectivedata)
+* интерфейс [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ireflectioneffectivedata)
 * сборка [Aspose.Slides](../../../)
 

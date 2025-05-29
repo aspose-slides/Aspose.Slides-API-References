@@ -3,10 +3,11 @@ title: IRowFormat
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет формат строки таблицы.
 type: docs
-weight: 6310
+weight: 6670
 url: /ru/aspose.slides/irowformat/
 ---
-## IRowFormat interface
+
+## Интерфейс IRowFormat
 
 Представляет формат строки таблицы.
 
@@ -16,11 +17,11 @@ public interface IRowFormat
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Получает эффективные свойства форматирования строк таблицы с применением стилей наследования и таблиц. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Получает свойства форматирования строки таблицы с учетом унаследованных свойств и применяемых стилей таблицы. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

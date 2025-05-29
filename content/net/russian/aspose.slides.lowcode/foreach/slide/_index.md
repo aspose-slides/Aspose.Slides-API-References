@@ -1,14 +1,15 @@
 ---
-title: Slide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Итерировать каждыйSlideaspose.slides.lowcode/foreach/slideвPresentationaspose.slides/presentation.
+title: Слайд
+second_title: Справочник API Aspose.Slides для .NET
+description: Перебор каждого Слайда aspose.slides.lowcode/foreach/slide в Презентации aspose.slides/presentation.
 type: docs
 weight: 60
 url: /ru/aspose.slides.lowcode/foreach/slide/
 ---
-## ForEach.Slide method
 
-Итерировать каждый`Slide`в[`Presentation`](../../../aspose.slides/presentation).
+## Метод ForEach.Slide
+
+Перебор каждого `Slide` в [`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static void Slide(Presentation pres, ForEachSlideCallback forEachSlide)
@@ -16,8 +17,8 @@ public static void Slide(Presentation pres, ForEachSlideCallback forEachSlide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Презентация для повторения слайдов |
-| forEachSlide | ForEachSlideCallback | Обратный вызов, который будет вызываться для каждого слайда |
+| pres | Presentation | Презентация для перебора слайдов |
+| forEachSlide | ForEachSlideCallback | Колбек, который будет вызван для каждого слайда |
 
 ### Примеры
 
@@ -31,11 +32,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Смотрите также
+### См. также
 
-* class [Presentation](../../../aspose.slides/presentation)
-* delegate [ForEachSlideCallback](../../foreach.foreachslidecallback)
-* class [ForEach](../../foreach)
+* класс [Presentation](../../../aspose.slides/presentation)
+* делегат [ForEachSlideCallback](../../foreach.foreachslidecallback)
+* класс [ForEach](../../foreach)
 * пространство имен [Aspose.Slides.LowCode](../../foreach)
 * сборка [Aspose.Slides](../../../)
 

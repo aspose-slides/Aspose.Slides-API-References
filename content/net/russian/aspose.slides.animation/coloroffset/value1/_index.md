@@ -1,22 +1,23 @@
 ---
 title: Value1
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет второе значение смещения. Чтение/записьSingle.
+description: Определяет второе значение смещения. Читаемый/записываемый тип Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/coloroffset/value1/
 ---
-## ColorOffset.Value1 property
 
-Определяет второе значение смещения. Чтение/записьSingle.
+## Свойство ColorOffset.Value1
+
+Определяет второе значение смещения. Читаемый/записываемый тип Single.
 
 ```csharp
 public float Value1 { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ColorOffset](../../coloroffset)
+* класс [ColorOffset](../../coloroffset)
 * пространство имен [Aspose.Slides.Animation](../../coloroffset)
 * сборка [Aspose.Slides](../../../)
 

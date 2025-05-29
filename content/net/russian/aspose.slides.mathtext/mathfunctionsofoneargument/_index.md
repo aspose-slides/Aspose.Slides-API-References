@@ -1,33 +1,34 @@
 ---
 title: MathFunctionsOfOneArgument
-second_title: Справочник по API Aspose.Slides для .NET
-description: Общие математические функции одного аргумента
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Общие математические функции с одним аргументом
 type: docs
-weight: 8020
+weight: 8480
 url: /ru/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
-## MathFunctionsOfOneArgument enumeration
 
-Общие математические функции одного аргумента
+## Перечисление MathFunctionsOfOneArgument
+
+Общие математические функции с одним аргументом
 
 ```csharp
 public enum MathFunctionsOfOneArgument
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Sin | `0` | Синус |
 | Cos | `1` | Косинус |
 | Tan | `2` | Тангенс |
-| Csc | `3` | Сесеканс |
-| Sec | `4` | Секанц |
+| Csc | `3` | Косеканс |
+| Sec | `4` | Секанс |
 | Cot | `5` | Котангенс |
 | HyperbolicSin | `6` | Гиперболический синус |
 | HyperbolicCos | `7` | Гиперболический косинус |
 | HyperbolicTan | `8` | Гиперболический тангенс |
-| HyperbolicCsc | `9` | Гиперболический секанс |
+| HyperbolicCsc | `9` | Гиперболический косеканс |
 | HyperbolicSec | `10` | Гиперболический секанс |
 | HyperbolicCot | `11` | Гиперболический котангенс |
 | Lg | `12` | Десятичный логарифм |
@@ -36,16 +37,16 @@ public enum MathFunctionsOfOneArgument
 | ArcCos | `15` | Арккосинус |
 | ArcTan | `16` | Арктангенс |
 | ArcCsc | `17` | Арккосеканс |
-| ArcSec | `18` | Секущая |
+| ArcSec | `18` | Аркесеканс |
 | ArcCot | `19` | Арккотангенс |
 | HyperbolicArcSin | `20` | Гиперболический арксинус |
 | HyperbolicArcCos | `21` | Гиперболический арккосинус |
 | HyperbolicArcTan | `22` | Гиперболический арктангенс |
 | HyperbolicArcCsc | `23` | Гиперболический арккосеканс |
-| HyperbolicArcSec | `24` | Гиперболический арксеканс |
+| HyperbolicArcSec | `24` | Гиперболический аркесеканс |
 | HyperbolicArcCot | `25` | Гиперболический арккотангенс |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

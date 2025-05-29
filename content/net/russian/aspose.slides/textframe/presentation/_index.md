@@ -1,23 +1,24 @@
 ---
-title: Presentation
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительское представление TextFrame. Только чтениеIPresentationaspose.slides/ipresentation.
+title: Презентация
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает родительскую презентацию для TextFrame. Только для чтения IPresentationaspose.slides/ipresentation.
 type: docs
-weight: 30
+weight: 50
 url: /ru/aspose.slides/textframe/presentation/
 ---
-## TextFrame.Presentation property
 
-Возвращает родительское представление TextFrame. Только чтение[`IPresentation`](../../ipresentation).
+## Свойство TextFrame.Presentation
+
+Возвращает родительскую презентацию для TextFrame. Только для чтения [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPresentation](../../ipresentation)
-* class [TextFrame](../../textframe)
+* интерфейс [IPresentation](../../ipresentation)
+* класс [TextFrame](../../textframe)
 * пространство имен [Aspose.Slides](../../textframe)
 * сборка [Aspose.Slides](../../../)
 

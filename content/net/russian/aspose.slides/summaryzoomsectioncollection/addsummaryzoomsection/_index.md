@@ -1,14 +1,15 @@
 ---
 title: AddSummaryZoomSection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый объект Сводная секция масштабирования и добавляет его в коллекцию
+second_title: Aspose.Slides для .NET Справочник по API
+description: Создает новый объект раздела автообзора и добавляет его в коллекцию
 type: docs
 weight: 50
 url: /ru/aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection/
 ---
-## SummaryZoomSectionCollection.AddSummaryZoomSection method
 
-Создает новый объект Сводная секция масштабирования и добавляет его в коллекцию
+## Метод SummaryZoomSectionCollection.AddSummaryZoomSection
+
+Создает новый объект раздела автообзора и добавляет его в коллекцию
 
 ```csharp
 public ISummaryZoomSection AddSummaryZoomSection(ISection section)
@@ -16,25 +17,25 @@ public ISummaryZoomSection AddSummaryZoomSection(ISection section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | ISection | Section для нового элемента Summary Zoom Section[`ISection`](../../isection) |
+| section | ISection | Раздел для нового элемента автообзора [`ISection`](../../isection) |
 
 ### Возвращаемое значение
 
-Добавлен[`ISummaryZoomFrame`](../../isummaryzoomframe)element
+Добавленный элемент [`ISummaryZoomFrame`](../../isummaryzoomframe)
 
 ### Исключения
 
-| исключение | условие |
+| Исключение | Условие |
 | --- | --- |
-| ArgumentException | Упомянутый раздел не относится к текущей презентации или не содержит слайдов. |
+| ArgumentException | Указанный раздел не принадлежит текущей презентации или не содержит слайдов. |
 
-### Примечания
+### Замечания
 
 Если элемент для этого раздела уже существует в коллекции, возвращается существующий элемент.
 
 ### Примеры
 
-Пример демонстрирует получение элемента Summary Zoom Section по индексу:
+Пример демонстрирует получение элемента раздела автообзора по индексу:
 
 ```csharp
 [C#]
@@ -46,11 +47,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISummaryZoomSection](../../isummaryzoomsection)
-* interface [ISection](../../isection)
-* class [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
+* интерфейс [ISummaryZoomSection](../../isummaryzoomsection)
+* интерфейс [ISection](../../isection)
+* класс [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)
 * пространство имен [Aspose.Slides](../../summaryzoomsectioncollection)
 * сборка [Aspose.Slides](../../../)
 

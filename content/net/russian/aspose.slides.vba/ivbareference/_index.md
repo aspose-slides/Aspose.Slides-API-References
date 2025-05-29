@@ -3,10 +3,11 @@ title: IVbaReference
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет имя ссылки на проект VBA.
 type: docs
-weight: 10760
+weight: 11260
 url: /ru/aspose.slides.vba/ivbareference/
 ---
-## IVbaReference interface
+
+## Интерфейс IVbaReference
 
 Представляет имя ссылки на проект VBA.
 
@@ -14,13 +15,13 @@ url: /ru/aspose.slides.vba/ivbareference/
 public interface IVbaReference
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | Представляет имя ссылки на проект VBA. Чтение/записьString. |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | Представляет имя ссылки на проект VBA. Читаемая/записываемая строка. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Vba](../../aspose.slides.vba)
 * сборка [Aspose.Slides](../../)

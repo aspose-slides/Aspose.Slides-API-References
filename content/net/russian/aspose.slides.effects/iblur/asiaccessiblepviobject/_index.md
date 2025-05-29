@@ -1,24 +1,25 @@
 ---
 title: AsIAccessiblePVIObject
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/iblur/asiaccessiblepviobject/
 ---
-## IBlur.AsIAccessiblePVIObject property
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+## Свойство IBlur.AsIAccessiblePVIObject
+
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IBlurEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* interface [IBlurEffectiveData](../../iblureffectivedata)
-* interface [IBlur](../../iblur)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IBlurEffectiveData](../../iblureffectivedata)
+* интерфейс [IBlur](../../iblur)
 * пространство имен [Aspose.Slides.Effects](../../iblur)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,24 @@
 ---
 title: ComplexScriptFont
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает информацию о сложном шрифте сценария. Null означает что шрифт не определен и должен быть унаследован от мастера. Чтение/записьIFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает или устанавливает информацию о шрифте сложного скрипта. Null означает, что шрифт не определен и должен наследоваться от Мастера. Чтение/запись IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /ru/aspose.slides/baseportionformat/complexscriptfont/
 ---
-## BasePortionFormat.ComplexScriptFont property
 
-Возвращает или устанавливает информацию о сложном шрифте сценария. Null означает, что шрифт не определен и должен быть унаследован от мастера. Чтение/запись[`IFontData`](../../ifontdata).
+## BasePortionFormat.ComplexScriptFont свойство
+
+Возвращает или устанавливает информацию о шрифте сложного скрипта. Null означает, что шрифт не определен и должен наследоваться от Мастера. Чтение/запись [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData ComplexScriptFont { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFontData](../../ifontdata)
-* class [BasePortionFormat](../../baseportionformat)
+* интерфейс [IFontData](../../ifontdata)
+* класс [BasePortionFormat](../../baseportionformat)
 * пространство имен [Aspose.Slides](../../baseportionformat)
 * сборка [Aspose.Slides](../../../)
 

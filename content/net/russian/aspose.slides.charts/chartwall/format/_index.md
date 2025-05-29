@@ -1,14 +1,15 @@
 ---
-title: Format
+title: Формат
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает заливку стены линию эффект 3D-стили. Только для чтенияIFormataspose.slides.charts/iformat.
+description: Возвращает стили эффектов 3D для заливки стены. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartwall/format/
 ---
-## ChartWall.Format property
 
-Возвращает заливку стены, линию, эффект, 3D-стили. Только для чтения[`IFormat`](../../iformat).
+## Свойство ChartWall.Format
+
+Возвращает стили заливки, линии, эффекта и 3D для стены. Только для чтения [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
@@ -16,8 +17,8 @@ public IFormat Format { get; }
 
 ### Смотрите также
 
-* interface [IFormat](../../iformat)
-* class [ChartWall](../../chartwall)
+* интерфейс [IFormat](../../iformat)
+* класс [ChartWall](../../chartwall)
 * пространство имен [Aspose.Slides.Charts](../../chartwall)
 * сборка [Aspose.Slides](../../../)
 

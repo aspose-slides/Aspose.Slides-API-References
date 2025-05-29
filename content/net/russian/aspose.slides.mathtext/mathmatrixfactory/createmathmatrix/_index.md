@@ -6,7 +6,8 @@ type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathmatrixfactory/createmathmatrix/
 ---
-## MathMatrixFactory.CreateMathMatrix method
+
+## MathMatrixFactory.CreateMathMatrix метод
 
 Создает математическую матрицу
 
@@ -19,14 +20,14 @@ public IMathMatrix CreateMathMatrix(int rowCount, int columnCount)
 | rowCount | Int32 | количество строк |
 | columnCount | Int32 | количество столбцов |
 
-### Возвращаемое значение
+### Возврат Значения
 
 новая математическая матрица
 
-### Смотрите также
+### См. Также
 
-* interface [IMathMatrix](../../imathmatrix)
-* class [MathMatrixFactory](../../mathmatrixfactory)
+* интерфейс [IMathMatrix](../../imathmatrix)
+* класс [MathMatrixFactory](../../mathmatrixfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrixfactory)
 * сборка [Aspose.Slides](../../../)
 

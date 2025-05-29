@@ -1,22 +1,23 @@
 ---
 title: ActualHeight
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout перед тем как получить фактические значения. ЧитатьSingle.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает фактическую высоту элемента графика. Вызовите метод IChart.ValidateChartLayout перед получением фактических значений. См. Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/datalabel/actualheight/
 ---
-## DataLabel.ActualHeight property
 
-Определяет фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle.
+## DataLabel.ActualHeight свойство
+
+Указывает фактическую высоту элемента графика. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. См. Single.
 
 ```csharp
 public float ActualHeight { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [DataLabel](../../datalabel)
+* класс [DataLabel](../../datalabel)
 * пространство имен [Aspose.Slides.Charts](../../datalabel)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: DefaultTabSize
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает размер табуляции по умолчанию без наследования. Чтение/записьSingle.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает размер табуляции по умолчанию без наследования. Чтение/запись Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides/paragraphformat/defaulttabsize/
 ---
-## ParagraphFormat.DefaultTabSize property
 
-Возвращает или устанавливает размер табуляции по умолчанию без наследования. Чтение/записьSingle.
+## Свойство ParagraphFormat.DefaultTabSize
+
+Возвращает или устанавливает размер табуляции по умолчанию без наследования. Чтение/запись Single.
 
 ```csharp
 public float DefaultTabSize { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ParagraphFormat](../../paragraphformat)
+* класс [ParagraphFormat](../../paragraphformat)
 * пространство имен [Aspose.Slides](../../paragraphformat)
 * сборка [Aspose.Slides](../../../)
 

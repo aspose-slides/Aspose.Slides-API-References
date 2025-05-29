@@ -1,14 +1,15 @@
 ---
 title: SplitByColSpan
-second_title: Справочник по API Aspose.Slides для .NET
-description: Разбивает ячейку на две ячейки по индексу столбца.
+second_title: Aspose.Sildes для справки по API .NET
+description: Разделяет ячейку на две ячейки по индексу столбца.
 type: docs
 weight: 240
 url: /ru/aspose.slides/icell/splitbycolspan/
 ---
-## ICell.SplitByColSpan method
 
-Разбивает ячейку на две ячейки по индексу столбца.
+## ICell.SplitByColSpan метод
+
+Разделяет ячейку на две ячейки по индексу столбца.
 
 ```csharp
 public void SplitByColSpan(int index)
@@ -18,9 +19,9 @@ public void SplitByColSpan(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс столбца. |
 
-### Смотрите также
+### См. также
 
-* interface [ICell](../../icell)
+* интерфейс [ICell](../../icell)
 * пространство имен [Aspose.Slides](../../icell)
 * сборка [Aspose.Slides](../../../)
 

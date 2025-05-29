@@ -3,10 +3,11 @@ title: IEffectStyle
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет стиль эффекта.
 type: docs
-weight: 10360
+weight: 10860
 url: /ru/aspose.slides.theme/ieffectstyle/
 ---
-## IEffectStyle interface
+
+## Интерфейс IEffectStyle
 
 Представляет стиль эффекта.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides.theme/ieffectstyle/
 public interface IEffectStyle
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Возвращает формат эффекта. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Возвращает формат 3D. Только для чтения[`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Возвращает формат эффекта. Только для чтения [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Возвращает 3d формат. Только для чтения [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)

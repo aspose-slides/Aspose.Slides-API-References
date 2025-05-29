@@ -1,12 +1,13 @@
 ---
-title: AddColorChangeEffect
-second_title: Справочник по API Aspose.Slides для .NET
+title: ДобавитьЭффектИзмененияЦвета
+second_title: Справочная информация по Aspose.Sildes для .NET
 description: Добавляет новый эффект изменения цвета в конец коллекции.
 type: docs
 weight: 140
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addcolorchangeeffect/
 ---
-## ImageTransformOperationCollection.AddColorChangeEffect method
+
+## ImageTransformOperationCollection.AddColorChangeEffect метод
 
 Добавляет новый эффект изменения цвета в конец коллекции.
 
@@ -18,10 +19,10 @@ public IColorChange AddColorChangeEffect()
 
 Индекс нового эффекта изображения в коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IColorChange](../../icolorchange)
-* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* интерфейс [IColorChange](../../icolorchange)
+* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Objeto inmutable que contiene propiedades efectivas de formato de viñetas de párrafo.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Objeto inmutable que contiene propiedades de formato de viñetas efectivas de párrafo.
 type: docs
-weight: 4920
+weight: 5200
 url: /es/aspose.slides/ibulletformateffectivedata/
 ---
-## IBulletFormatEffectiveData interface
 
-Objeto inmutable que contiene propiedades efectivas de formato de viñetas de párrafo.
+## Interfaz IBulletFormatEffectiveData
+
+Objeto inmutable que contiene propiedades de formato de viñetas efectivas de párrafo.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -18,24 +19,24 @@ public interface IBulletFormatEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Devuelve el valor real de la viñeta para el párrafo principal. Solo lecturaString . |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Devuelve el carácter de viñeta de un párrafo. Solo lecturaChar . |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Devuelve el formato de viñetas de un párrafo. Solo lectura[`IFillFormatEffectiveData`](../ifillformateffectivedata) . |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Devuelve la fuente de viñeta de un párrafo. Solo lectura[`IFontData`](../ifontdata) . |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Devuelve la altura de la viñeta de un párrafo. Solo lecturaSingle . |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Determina si la viñeta tiene color propio o lo hereda de la primera parte del párrafo. Devuelve **verdadero** si la bala tiene su propio color y **falso** si viñeta hereda el color de la primera parte del párrafo. Solo lecturaBoolean . |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Determina si la viñeta tiene fuente propia o la hereda de la primera parte del párrafo. Devuelve **verdadero** si la viñeta tiene una fuente propia y **verdadero** si viñeta hereda la fuente de la primera parte del párrafo. Solo lecturaBoolean . |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Devuelve el primer número que se usa para el grupo de viñetas numeradas. Solo lecturaInt16 . |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Devuelve el estilo de una viñeta numerada. Solo lectura[`NumberedBulletStyle`](../numberedbulletstyle) . |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Devuelve el tipo de viñeta de un párrafo. Solo lectura[`BulletType`](../bullettype) . |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Devuelve el valor real de la viñeta para el párrafo padre. Solo de lectura String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Devuelve el carácter de viñeta de un párrafo. Solo de lectura Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Devuelve el formato de relleno de la viñeta de un párrafo. Solo de lectura [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Devuelve la fuente de viñeta de un párrafo. Solo de lectura [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Devuelve la altura de la viñeta de un párrafo. Solo de lectura Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Determina si la viñeta tiene su propio color o lo hereda de la primera porción en el párrafo. Devuelve **true** si la viñeta tiene su propio color y **false** si la viñeta hereda el color de la primera porción en el párrafo. Solo de lectura Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Determina si la viñeta tiene su propia fuente o la hereda de la primera porción en el párrafo. Devuelve **true** si la viñeta tiene su propia fuente y **true** si la viñeta hereda la fuente de la primera porción en el párrafo. Solo de lectura Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Devuelve el primer número que se utiliza para el grupo de viñetas numeradas. Solo de lectura Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Devuelve el estilo de una viñeta numerada. Solo de lectura [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Devuelve el tipo de viñeta de un párrafo. Solo de lectura [`BulletType`](../bullettype). |
 
 ### Observaciones
 
-Esta interfaz se utiliza como parte de[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) .
+Esta interfaz se utiliza como parte de [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* asamblea [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

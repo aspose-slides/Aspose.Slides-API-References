@@ -1,23 +1,24 @@
 ---
-title: Effect
+title: Эффект
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает эффекты используемые для линии графика. Только для чтенияIEffectFormataspose.slides/ieffectformat.
+description: Возвращает эффекты, используемые для линии графика. Только для чтения IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartlinesformat/effect/
 ---
-## ChartLinesFormat.Effect property
 
-Возвращает эффекты, используемые для линии графика. Только для чтения[`IEffectFormat`](../../../aspose.slides/ieffectformat).
+## Свойство ChartLinesFormat.Effect
+
+Возвращает эффекты, используемые для линии графика. Только для чтения [`IEffectFormat`](../../../aspose.slides/ieffectformat).
 
 ```csharp
 public IEffectFormat Effect { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IEffectFormat](../../../aspose.slides/ieffectformat)
-* class [ChartLinesFormat](../../chartlinesformat)
+* интерфейс [IEffectFormat](../../../aspose.slides/ieffectformat)
+* класс [ChartLinesFormat](../../chartlinesformat)
 * пространство имен [Aspose.Slides.Charts](../../chartlinesformat)
 * сборка [Aspose.Slides](../../../)
 

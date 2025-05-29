@@ -1,14 +1,15 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает узел по индексу. Только для чтенияISmartArtNodeaspose.slides.smartart/ismartartnode
+title: Элемент
+second_title: Справка по API Aspose.Sildes для .NET
+description: Возвращает узел по индексу. Только для чтения ISmartArtNodeaspose.slides.smartart/ismartartnode
 type: docs
 weight: 10
 url: /ru/aspose.slides.smartart/ismartartnodecollection/item/
 ---
-## ISmartArtNodeCollection indexer
 
-Возвращает узел по индексу. Только для чтения[`ISmartArtNode`](../../ismartartnode)
+## Индексатор ISmartArtNodeCollection
+
+Возвращает узел по индексу. Только для чтения [`ISmartArtNode`](../../ismartartnode)
 
 ```csharp
 public ISmartArtNode this[int index] { get; }
@@ -16,12 +17,12 @@ public ISmartArtNode this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс, начинающийся с нуля элемента. |
+| index | Индекс элемента с нуля. |
 
-### Смотрите также
+### См. также
 
-* interface [ISmartArtNode](../../ismartartnode)
-* interface [ISmartArtNodeCollection](../../ismartartnodecollection)
+* интерфейс [ISmartArtNode](../../ismartartnode)
+* интерфейс [ISmartArtNodeCollection](../../ismartartnodecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../ismartartnodecollection)
 * сборка [Aspose.Slides](../../../)
 

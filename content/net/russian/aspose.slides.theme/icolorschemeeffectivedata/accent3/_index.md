@@ -1,22 +1,23 @@
 ---
 title: Accent3
 second_title: Справочник по API Aspose.Slides для .NET
-description: Третий акцентный цвет в схеме. Только для чтенияColor.
+description: Третий акцентный цвет в схеме. Только для чтения Color.
 type: docs
 weight: 30
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/accent3/
 ---
-## IColorSchemeEffectiveData.Accent3 property
 
-Третий акцентный цвет в схеме. Только для чтенияColor.
+## IColorSchemeEffectiveData.Accent3 свойство
+
+Третий акцентный цвет в схеме. Только для чтения Color.
 
 ```csharp
 public Color Accent3 { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
+* интерфейс [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../icolorschemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

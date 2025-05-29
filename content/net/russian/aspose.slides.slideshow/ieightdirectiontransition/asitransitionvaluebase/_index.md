@@ -1,14 +1,15 @@
 ---
 title: AsITransitionValueBase
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтенияITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /ru/aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase/
 ---
-## IEightDirectionTransition.AsITransitionValueBase property
 
-Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../../itransitionvaluebase).
+## IEightDirectionTransition.AsITransitionValueBase свойство
+
+Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../../itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase AsITransitionValueBase { get; }
@@ -16,8 +17,8 @@ public ITransitionValueBase AsITransitionValueBase { get; }
 
 ### Смотрите также
 
-* interface [ITransitionValueBase](../../itransitionvaluebase)
-* interface [IEightDirectionTransition](../../ieightdirectiontransition)
+* интерфейс [ITransitionValueBase](../../itransitionvaluebase)
+* интерфейс [IEightDirectionTransition](../../ieightdirectiontransition)
 * пространство имен [Aspose.Slides.SlideShow](../../ieightdirectiontransition)
 * сборка [Aspose.Slides](../../../)
 

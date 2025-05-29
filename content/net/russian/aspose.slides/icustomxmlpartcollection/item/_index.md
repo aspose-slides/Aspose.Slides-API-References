@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icustomxmlpartcollection/item/
 ---
-## ICustomXmlPartCollection indexer
+
+## Индексатор ICustomXmlPartCollection
 
 Возвращает элемент по указанному индексу.
 
@@ -16,7 +17,7 @@ public ICustomXmlPart this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Отсчитываемый от нуля индекс элемента, который требуется получить. |
+| index | Индекс элемента с нуля, который нужно получить. |
 
 ### Возвращаемое значение
 
@@ -26,12 +27,12 @@ public ICustomXmlPart this[int index] { get; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | index меньше 0.-или-index равен или больше Count |
+| ArgumentOutOfRangeException | index меньше 0.-или-index равен или больше, чем Count |
 
-### Смотрите также
+### См. также
 
-* interface [ICustomXmlPart](../../icustomxmlpart)
-* interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
+* интерфейс [ICustomXmlPart](../../icustomxmlpart)
+* интерфейс [ICustomXmlPartCollection](../../icustomxmlpartcollection)
 * пространство имен [Aspose.Slides](../../icustomxmlpartcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: MathDelimiter
-second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует MathDelimiter с указанным элементом в качестве единственного базового аргумента
+second_title: Aspose.Sildes для .NET API Справочник
+description: Инициализирует MathDelimiter с указанным элементом в качестве единственного аргумента
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathdelimiter/mathdelimiter/
 ---
-## MathDelimiter constructor
 
-Инициализирует MathDelimiter с указанным элементом в качестве единственного базового аргумента
+## Конструктор MathDelimiter
+
+Инициализирует MathDelimiter с указанным элементом в качестве единственного аргумента
 
 ```csharp
 public MathDelimiter(IMathElement element)
@@ -16,13 +17,13 @@ public MathDelimiter(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Базовый элемент, к которому применяется разделитель. Может быть нулевым. |
+| element | IMathElement | Базовый элемент, к которому применяется разделитель. Может быть null. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Затем выбрасывает*element*контейнер для других элементов, таких как MathBlock . В этом случае вам нужно вызвать другой конструктор с аргументом IEnumerable. |
+| InvalidOperationException | Выбрасывается, если *element* является контейнером для других элементов, таких как MathBlock. В этом случае необходимо вызвать другой конструктор с аргументом IEnumerable. |
 
 ### Примеры
 
@@ -34,10 +35,10 @@ IMathElement element = new MathematicalText("x");
 MathDelimiter delimiter = new MathDelimiter(element);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathDelimiter](../../mathdelimiter)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathDelimiter](../../mathdelimiter)
 * пространство имен [Aspose.Slides.MathText](../../mathdelimiter)
 * сборка [Aspose.Slides](../../../)
 

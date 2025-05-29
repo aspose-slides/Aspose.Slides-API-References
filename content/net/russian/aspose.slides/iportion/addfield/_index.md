@@ -1,11 +1,12 @@
 ---
 title: AddField
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Преобразует эту часть в автоматически обновляемое поле.
 type: docs
 weight: 50
 url: /ru/aspose.slides/iportion/addfield/
 ---
+
 ## AddField(IFieldType) {#addfield}
 
 Преобразует эту часть в автоматически обновляемое поле.
@@ -16,12 +17,12 @@ public void AddField(IFieldType fieldType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | IFieldType | Тип поля[`IFieldType`](../../ifieldtype) |
+| fieldType | IFieldType | Тип поля [`IFieldType`](../../ifieldtype) |
 
-### Смотрите также
+### См. также
 
-* interface [IFieldType](../../ifieldtype)
-* interface [IPortion](../../iportion)
+* интерфейс [IFieldType](../../ifieldtype)
+* интерфейс [IPortion](../../iportion)
 * пространство имен [Aspose.Slides](../../iportion)
 * сборка [Aspose.Slides](../../../)
 
@@ -37,11 +38,11 @@ public void AddField(string internalString)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| internalString | String | Внутреннее имя FieldTypeExString |
+| internalString | String | Внутреннее имя FieldTypeEx String |
 
-### Смотрите также
+### См. также
 
-* interface [IPortion](../../iportion)
+* интерфейс [IPortion](../../iportion)
 * пространство имен [Aspose.Slides](../../iportion)
 * сборка [Aspose.Slides](../../../)
 

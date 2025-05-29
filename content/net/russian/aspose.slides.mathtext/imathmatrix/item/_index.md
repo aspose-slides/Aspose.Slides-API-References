@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Справка по API Aspose.Slides для .NET
 description: Элементы матрицы
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/imathmatrix/item/
 ---
-## IMathMatrix indexer
+
+## Индексатор IMathMatrix
 
 Элементы матрицы
 
@@ -16,8 +17,8 @@ public IMathElement this[int row, int column] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| row | Отсчитываемый от нуля индекс матрицы строка для получения элемента |
-| column | Отсчитываемый от нуля индекс столбца для получения элемента |
+| row | Индекс строки (начиная с нуля), чтобы получить элемент |
+| column | Индекс столбца (начиная с нуля), чтобы получить элемент |
 
 ### Примеры
 
@@ -29,10 +30,10 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix[0, 0] = new MathematicalText("item.1.1");
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathMatrix](../../imathmatrix)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathMatrix](../../imathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../imathmatrix)
 * сборка [Aspose.Slides](../../../)
 

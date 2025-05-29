@@ -1,12 +1,13 @@
 ---
 title: SvgCoordinateUnit
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет единицы координат CSS2 используемые для определения координат SVG.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет единицы координат CSS2, используемые для определения координат SVG.
 type: docs
-weight: 4050
+weight: 4290
 url: /ru/aspose.slides.export/svgcoordinateunit/
 ---
-## SvgCoordinateUnit enumeration
+
+## Перечисление SvgCoordinateUnit
 
 Представляет единицы координат CSS2, используемые для определения координат SVG.
 
@@ -14,21 +15,21 @@ url: /ru/aspose.slides.export/svgcoordinateunit/
 public enum SvgCoordinateUnit
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
-| Inch | `0` | Дюймы |
+| Inch | `0` | Дюйм |
 | Centimeter | `1` | Сантиметр. |
 | Millimeter | `2` | Миллиметр. |
 | Point | `3` | Точка (1/72 дюйма), |
 | Pica | `4` | Пика (1/6 дюйма). |
-| Em | `5` | Em Размер шрифта содержащего элемента. |
+| Em | `5` | Размер Em шрифта содержащего элемента. |
 | Ex | `6` | Размер Ex (размер строчной буквы, обычно "x") шрифта содержащего элемента. |
-| Pixel | `7` | Размер в пикселях. |
+| Pixel | `7` | Размер пикселя. |
 | Percent | `8` | Процент. |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

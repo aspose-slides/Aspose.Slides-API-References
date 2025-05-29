@@ -1,14 +1,15 @@
 ---
 title: RemoveSectionWithSlides
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удалить раздел и слайды содержащиеся в разделе.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Удалить секцию и слайды, содержащиеся в секции.
 type: docs
 weight: 130
 url: /ru/aspose.slides/sectioncollection/removesectionwithslides/
 ---
-## SectionCollection.RemoveSectionWithSlides method
 
-Удалить раздел и слайды, содержащиеся в разделе.
+## SectionCollection.RemoveSectionWithSlides метод
+
+Удалить секцию и слайды, содержащиеся в секции.
 
 ```csharp
 public void RemoveSectionWithSlides(ISection section)
@@ -16,12 +17,12 @@ public void RemoveSectionWithSlides(ISection section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | ISection | Раздел, который необходимо удалить из коллекции. |
+| section | ISection | Секция, которую нужно удалить из коллекции. |
 
-### Смотрите также
+### См. Также
 
-* interface [ISection](../../isection)
-* class [SectionCollection](../../sectioncollection)
+* интерфейс [ISection](../../isection)
+* класс [SectionCollection](../../sectioncollection)
 * пространство имен [Aspose.Slides](../../sectioncollection)
 * сборка [Aspose.Slides](../../../)
 

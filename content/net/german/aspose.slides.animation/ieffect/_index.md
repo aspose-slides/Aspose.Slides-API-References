@@ -1,14 +1,15 @@
 ---
 title: IEffect
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Stellt den Animationseffekt dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Animationseffekt dar.
 type: docs
-weight: 390
+weight: 410
 url: /de/aspose.slides.animation/ieffect/
 ---
-## IEffect interface
 
-Stellt den Animationseffekt dar.
+## IEffect-Schnittstelle
+
+Stellt einen Animationseffekt dar.
 
 ```csharp
 public interface IEffect
@@ -18,19 +19,24 @@ public interface IEffect
 
 | Name | Beschreibung |
 | --- | --- |
-| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Gibt eine Verhaltenssammlung für den Effekt zurück. Lesen/Schreiben[`IBehaviorCollection`](../ibehaviorcollection) . |
-| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Definiert die Wirkungsklasse. Lesen/Schreiben[`EffectPresetClassType`](../effectpresetclasstype) . |
-| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Gibt eine Sequenz für einen Effekt zurück. Schreibgeschützt[`ISequence`](../isequence) . |
-| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Definierter eingebetteter Sound für Effekt. Lesen/Schreiben[`IAudio`](../../aspose.slides/iaudio) . |
-| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Definiert den Untertyp des Effekts. Lesen/Schreiben[`EffectSubtype`](../effectsubtype) . |
-| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Gibt die Zielform für den Effekt zurück. Schreibgeschützt[`IShape`](../../aspose.slides/ishape) . |
-| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Gibt eine Textanimation zurück. Schreibgeschützt[`ITextAnimation`](../itextanimation) . |
-| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Definiert den Zeitwert für den Effekt. Lesen/Schreiben[`ITiming`](../itiming) . |
-| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | Definiert die Art des Effekts. Lesen/Schreiben[`EffectType`](../effecttype) . |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Definiert eine Nachanimationsfarbe für den Effekt. Lese-/Schreibzugriff [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Definiert einen Nachanimationstyp für den Effekt. Lese-/Schreibzugriff [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | Definiert einen animierten Texttyp für den Effekt. Der Text der Form kann nach Buchstaben, nach Wörtern oder alles auf einmal animiert werden. Lese-/Schreibzugriff [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Gibt eine Sammlung von Verhaltensweisen für den Effekt zurück. Lese-/Schreibzugriff [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | Definiert eine Verzögerung zwischen animierten Textteilen (Wörtern oder Buchstaben). Ein positiver Wert gibt den Prozentsatz der Effektdauer an. Ein negativer Wert gibt die Verzögerung in Sekunden an. Lese-/Schreibzugriff Single. |
+| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Definiert die Klasse des Effekts. Lese-/Schreibzugriff [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Gibt eine Sequenz für einen Effekt zurück. Nur Lesezugriff [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Definiert den eingebetteten Klang für den Effekt. Lese-/Schreibzugriff [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | Dieses Attribut gibt an, ob der Animationseffekt den vorherigen Klang stoppt. Lese-/Schreibzugriff Boolean. |
+| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Definiert den Subtyp des Effekts. Lese-/Schreibzugriff [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Gibt die Zielgestalt für den Effekt zurück. Nur Lesezugriff [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Gibt die Textanimation zurück. Nur Lesezugriff [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Definiert den Zeitwert für den Effekt. Lese-/Schreibzugriff [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | Definiert den Typ des Effekts. Lese-/Schreibzugriff [`EffectType`](../effecttype). |
 
 ### Siehe auch
 
-* namensraum [Aspose.Slides.Animation](../../aspose.slides.animation)
-* Montage [Aspose.Slides](../../)
+* Namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

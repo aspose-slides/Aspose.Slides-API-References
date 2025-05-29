@@ -1,23 +1,24 @@
 ---
 title: ShapeFormattingController
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает и устанавливает интерфейс обратного вызова который позволяет пользователю управлять преобразованием формы. Чтение/записьISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
+description: Возвращает и устанавливает интерфейс обратного вызова, который позволяет пользователю управлять преобразованием фигур. Чтение/запись ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
 type: docs
-weight: 130
+weight: 150
 url: /ru/aspose.slides.export/svgoptions/shapeformattingcontroller/
 ---
-## SVGOptions.ShapeFormattingController property
 
-Возвращает и устанавливает интерфейс обратного вызова, который позволяет пользователю управлять преобразованием формы. Чтение/запись[`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).
+## Свойство SVGOptions.ShapeFormattingController
+
+Возвращает и устанавливает интерфейс обратного вызова, который позволяет пользователю управлять преобразованием фигур. Чтение/запись [`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).
 
 ```csharp
 public ISvgShapeFormattingController ShapeFormattingController { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
-* class [SVGOptions](../../svgoptions)
+* интерфейс [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
+* класс [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)
 * сборка [Aspose.Slides](../../../)
 

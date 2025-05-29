@@ -1,26 +1,27 @@
 ---
 title: TransitionDuration
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает продолжительность перехода между масштабированием и слайдом. Чтение/записьSingle. Значение по умолчанию1.0f
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или устанавливает длительность перехода между увеличением и слайдом. Читаемое/записываемое Single. Значение по умолчанию 1.0f
 type: docs
-weight: 60
+weight: 50
 url: /ru/aspose.slides/izoomobject/transitionduration/
 ---
-## IZoomObject.TransitionDuration property
 
-Получает или задает продолжительность перехода между масштабированием и слайдом. Чтение/записьSingle. Значение по умолчанию:1.0f
+## IZoomObject.TransitionDuration свойство
+
+Получает или устанавливает длительность перехода между увеличением и слайдом. Читаемое/записываемое Single. Значение по умолчанию: 1.0f
 
 ```csharp
 public float TransitionDuration { get; set; }
 ```
 
-### Примечания
+### Замечания
 
-Если не указано (TransitionDur = 0) , будет использоваться целевой переход слайда и время, связанное с этим переходом.
+Если не указано (TransitionDur = 0), будет использован переход на целевой слайд и время, связанное с этим переходом.
 
 ### Примеры
 
-пример демонстрирует изменение длительности перехода между Zoom и слайдом:
+Пример демонстрирует изменение длительности перехода между увеличением и слайдом:
 
 ```csharp
 [C#]
@@ -31,9 +32,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IZoomObject](../../izoomobject)
+* интерфейс [IZoomObject](../../izoomobject)
 * пространство имен [Aspose.Slides](../../izoomobject)
 * сборка [Aspose.Slides](../../../)
 

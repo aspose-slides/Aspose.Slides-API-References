@@ -1,12 +1,13 @@
 ---
 title: CreateVbaProject
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает новый проект VBA.
 type: docs
 weight: 10
 url: /ru/aspose.slides.vba/ivbaprojectfactory/createvbaproject/
 ---
-## IVbaProjectFactory.CreateVbaProject method
+
+## IVbaProjectFactory.CreateVbaProject метод
 
 Создает новый проект VBA.
 
@@ -20,8 +21,8 @@ public IVbaProject CreateVbaProject()
 
 ### Смотрите также
 
-* interface [IVbaProject](../../ivbaproject)
-* interface [IVbaProjectFactory](../../ivbaprojectfactory)
+* интерфейс [IVbaProject](../../ivbaproject)
+* интерфейс [IVbaProjectFactory](../../ivbaprojectfactory)
 * пространство имен [Aspose.Slides.Vba](../../ivbaprojectfactory)
 * сборка [Aspose.Slides](../../../)
 

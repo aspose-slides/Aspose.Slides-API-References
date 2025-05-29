@@ -1,14 +1,15 @@
 ---
-title: Item
+title: Элемент
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияSmartArtShapeaspose.slides.smartart/smartartshape.gt.
+description: Получает элемент по заданному индексу. Только для чтения SmartArtShapeaspose.slides.smartart/smartartshape.gt.
 type: docs
 weight: 30
 url: /ru/aspose.slides.smartart/smartartshapecollection/item/
 ---
-## SmartArtShapeCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`SmartArtShape`](../../smartartshape).&gt;.
+## Индексатор SmartArtShapeCollection
+
+Получает элемент по заданному индексу. Только для чтения [`SmartArtShape`](../../smartartshape).&gt;.
 
 ```csharp
 public ISmartArtShape this[int index] { get; }
@@ -22,10 +23,10 @@ public ISmartArtShape this[int index] { get; }
 
 Форма SmartArt
 
-### Смотрите также
+### См. также
 
-* interface [ISmartArtShape](../../ismartartshape)
-* class [SmartArtShapeCollection](../../smartartshapecollection)
+* интерфейс [ISmartArtShape](../../ismartartshape)
+* класс [SmartArtShapeCollection](../../smartartshapecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartshapecollection)
 * сборка [Aspose.Slides](../../../)
 

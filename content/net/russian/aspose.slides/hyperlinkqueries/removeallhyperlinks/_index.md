@@ -6,17 +6,18 @@ type: docs
 weight: 40
 url: /ru/aspose.slides/hyperlinkqueries/removeallhyperlinks/
 ---
-## HyperlinkQueries.RemoveAllHyperlinks method
 
-Удаляет все содержащиеся гиперссылки HyperlinkClick и HyperlinkMouseOver (во всех подобъектах IHyperlinkContainer).
+## Метод HyperlinkQueries.RemoveAllHyperlinks
+
+Удаляет все содержащиеся гиперссылки HyperlinkClick и HyperlinkMouseOver (во всех под объектах IHyperlinkContainer).
 
 ```csharp
 public void RemoveAllHyperlinks()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [HyperlinkQueries](../../hyperlinkqueries)
+* класс [HyperlinkQueries](../../hyperlinkqueries)
 * пространство имен [Aspose.Slides](../../hyperlinkqueries)
 * сборка [Aspose.Slides](../../../)
 

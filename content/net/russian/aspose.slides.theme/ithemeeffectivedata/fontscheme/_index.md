@@ -1,23 +1,24 @@
 ---
 title: FontScheme
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает схему шрифта. Только чтениеIFontSchemeEffectiveDataaspose.slides.theme/ifontschemeeffectivedata.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Возвращает цветовую схему шрифта. Только для чтения IFontSchemeEffectiveDataaspose.slides.theme/ifontschemeeffectivedata.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/ithemeeffectivedata/fontscheme/
 ---
-## IThemeEffectiveData.FontScheme property
 
-Возвращает схему шрифта. Только чтение[`IFontSchemeEffectiveData`](../../ifontschemeeffectivedata).
+## Свойство IThemeEffectiveData.FontScheme
+
+Возвращает цветовую схему шрифта. Только для чтения [`IFontSchemeEffectiveData`](../../ifontschemeeffectivedata).
 
 ```csharp
 public IFontSchemeEffectiveData FontScheme { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)
-* interface [IThemeEffectiveData](../../ithemeeffectivedata)
+* интерфейс [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)
+* интерфейс [IThemeEffectiveData](../../ithemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../ithemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

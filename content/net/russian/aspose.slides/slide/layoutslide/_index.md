@@ -1,23 +1,24 @@
 ---
 title: LayoutSlide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает макет слайда для текущего слайда. Чтение/записьILayoutSlideaspose.slides/ilayoutslide.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает макетный слайд для текущего слайда. Чтение/запись ILayoutSlideaspose.slides/ilayoutslide.
 type: docs
 weight: 30
 url: /ru/aspose.slides/slide/layoutslide/
 ---
-## Slide.LayoutSlide property
 
-Возвращает или задает макет слайда для текущего слайда. Чтение/запись[`ILayoutSlide`](../../ilayoutslide).
+## Свойство Slide.LayoutSlide
+
+Возвращает или устанавливает макетный слайд для текущего слайда. Чтение/запись [`ILayoutSlide`](../../ilayoutslide).
 
 ```csharp
 public ILayoutSlide LayoutSlide { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILayoutSlide](../../ilayoutslide)
-* class [Slide](../../slide)
+* интерфейс [ILayoutSlide](../../ilayoutslide)
+* класс [Slide](../../slide)
 * пространство имен [Aspose.Slides](../../slide)
 * сборка [Aspose.Slides](../../../)
 

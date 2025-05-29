@@ -1,0 +1,30 @@
+---
+title: PresentationPlayer
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée une nouvelle instance de PresentationPlayeraspose.slides.export/presentationplayer.
+type: docs
+weight: 10
+url: /fr/aspose.slides.export/presentationplayer/presentationplayer/
+---
+
+## Constructeur PresentationPlayer
+
+Crée une nouvelle instance de [`PresentationPlayer`](../../presentationplayer).
+
+```csharp
+public PresentationPlayer(PresentationAnimationsGenerator generator, double fps)
+```
+
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| generator | PresentationAnimationsGenerator |  |
+| fps | Double | Images par seconde (FPS) |
+
+### Voir aussi
+
+* classe [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
+* classe [PresentationPlayer](../../presentationplayer)
+* espace de noms [Aspose.Slides.Export](../../presentationplayer)
+* assembly [Aspose.Slides](../../../)
+
+<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->

@@ -1,22 +1,23 @@
 ---
 title: ScaleHorizontal
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает коэффициент масштабирования по горизонтали отрицательное масштабирование приводит к перевороту. Только для чтенияDouble.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Указывает коэффициент горизонтального масштабирования, отрицательное масштабирование вызывает переворот. Только для чтения Double.
 type: docs
 weight: 70
 url: /ru/aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal/
 ---
-## IOuterShadowEffectiveData.ScaleHorizontal property
 
-Задает коэффициент масштабирования по горизонтали, отрицательное масштабирование приводит к перевороту. Только для чтенияDouble.
+## Свойство IOuterShadowEffectiveData.ScaleHorizontal
+
+Указывает коэффициент горизонтального масштабирования, отрицательное масштабирование вызывает переворот. Только для чтения Double.
 
 ```csharp
 public double ScaleHorizontal { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
+* интерфейс [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ioutershadoweffectivedata)
 * сборка [Aspose.Slides](../../../)
 

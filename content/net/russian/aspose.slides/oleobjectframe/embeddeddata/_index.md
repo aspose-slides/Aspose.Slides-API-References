@@ -1,23 +1,24 @@
 ---
 title: EmbeddedData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает информацию о встроенных данных OLE. Чтение/записьIOleEmbeddedDataInfoaspose.slides/ioleembeddeddatainfo.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Получает или задает информацию о встроенных данных OLE. Чтение/запись IOleEmbeddedDataInfoaspose.slides/ioleembeddeddatainfo.
 type: docs
 weight: 20
 url: /ru/aspose.slides/oleobjectframe/embeddeddata/
 ---
-## OleObjectFrame.EmbeddedData property
 
-Получает или задает информацию о встроенных данных OLE. Чтение/запись[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo).
+## OleObjectFrame.EmbeddedData свойство
+
+Получает или задает информацию о встроенных данных OLE. Чтение/запись [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo).
 
 ```csharp
 public IOleEmbeddedDataInfo EmbeddedData { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
-* class [OleObjectFrame](../../oleobjectframe)
+* интерфейс [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
+* класс [OleObjectFrame](../../oleobjectframe)
 * пространство имен [Aspose.Slides](../../oleobjectframe)
 * сборка [Aspose.Slides](../../../)
 

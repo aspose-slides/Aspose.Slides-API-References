@@ -1,40 +1,41 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет менеджер который определяет поведение заполнителей включая заполнитель заголовка для всех типов слайдов раздаточных материалов и заметок.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет менеджер, который держит поведение заполнителей, включая заголовок заполнителя для всех типов раздаточных и заметочных слайдов.
 type: docs
-weight: 4810
+weight: 5090
 url: /ru/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
-## IBaseHandoutNotesSlideHeaderFooterManag interface
 
-Представляет менеджер, который определяет поведение заполнителей, включая заполнитель заголовка для всех типов слайдов раздаточных материалов и заметок.
+## Интерфейс IBaseHandoutNotesSlideHeaderFooterManag
+
+Представляет менеджер, который держит поведение заполнителей, включая заголовок заполнителя для всех типов раздаточных и заметочных слайдов.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Возвращает интерфейс IBaseSlideHeaderFooterManager. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель заголовка. ЧтениеBoolean. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Получает значение, указывающее на то, что заголовок заполнителя присутствует. Чтение Boolean. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Устанавливает текст в качестве заполнителя заголовка слайда. |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Устанавливает текст для заполнителя заголовка слайда. |
 | [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Изменяет видимость заполнителя заголовка слайда. |
 
 ### Примечания
 
-Оригинальное имя интерфейса "IBaseHandoutNotesSlideHeaderFooterManager" преобразовано в "IBaseHandoutNotesSlideHeaderFooterManag" для COM-совместимости (длина имени типа не должна превышать 39).
+Исходное имя интерфейса "IBaseHandoutNotesSlideHeaderFooterManager" укорочено до "IBaseHandoutNotesSlideHeaderFooterManag" для совместимости с COM (длина имени типа не должна превышать 39 символов).
 
-### Смотрите также
+### См. также
 
-* interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
+* интерфейс [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

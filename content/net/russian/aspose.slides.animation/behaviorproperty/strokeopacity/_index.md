@@ -6,7 +6,8 @@ type: docs
 weight: 990
 url: /ru/aspose.slides.animation/behaviorproperty/strokeopacity/
 ---
-## BehaviorProperty.StrokeOpacity property
+
+## Свойство BehaviorProperty.StrokeOpacity
 
 Представляет свойство 'stroke.opacity'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokeopacity/
 public static BehaviorProperty StrokeOpacity { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
-title: Count
+title: Количество
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество путей в коллекции. Только для чтенияInt32.
+description: Возвращает количество путей в коллекции. Только для чтения Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/motionpath/count/
 ---
-## MotionPath.Count property
 
-Возвращает количество путей в коллекции. Только для чтенияInt32.
+## Свойство MotionPath.Count
+
+Возвращает количество путей в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
@@ -16,7 +17,7 @@ public int Count { get; }
 
 ### Смотрите также
 
-* class [MotionPath](../../motionpath)
+* класс [MotionPath](../../motionpath)
 * пространство имен [Aspose.Slides.Animation](../../motionpath)
 * сборка [Aspose.Slides](../../../)
 

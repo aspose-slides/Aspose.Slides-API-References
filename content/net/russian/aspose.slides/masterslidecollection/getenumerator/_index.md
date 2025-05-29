@@ -1,14 +1,15 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+description: Возвращает перечислитель, который выполняет итерацию по коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides/masterslidecollection/getenumerator/
 ---
-## MasterSlideCollection.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+## Метод MasterSlideCollection.GetEnumerator
+
+Возвращает перечислитель, который выполняет итерацию по коллекции.
 
 ```csharp
 public IEnumerator<IMasterSlide> GetEnumerator()
@@ -16,12 +17,12 @@ public IEnumerator<IMasterSlide> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для итерации по коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IMasterSlide](../../imasterslide)
-* class [MasterSlideCollection](../../masterslidecollection)
+* интерфейс [IMasterSlide](../../imasterslide)
+* класс [MasterSlideCollection](../../masterslidecollection)
 * пространство имен [Aspose.Slides](../../masterslidecollection)
 * сборка [Aspose.Slides](../../../)
 

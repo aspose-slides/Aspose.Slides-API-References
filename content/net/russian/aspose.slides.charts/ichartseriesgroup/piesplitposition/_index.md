@@ -1,14 +1,15 @@
 ---
 title: PieSplitPosition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает значение которое должно использоваться для определения того какие точки данных находятся во втором круге или столбце на круге или столбце круговая диаграмма. Используется вместе со свойством PieSplitBy. Чтение/записьDouble.
+description: Указывает значение, которое будет использовано для определения, какие точки данных находятся во втором круге или столбце на круговой или столбиковой диаграмме. Используется вместе с свойством PieSplitBy. Читаемое/записываемое значение Double.
 type: docs
 weight: 150
 url: /ru/aspose.slides.charts/ichartseriesgroup/piesplitposition/
 ---
-## IChartSeriesGroup.PieSplitPosition property
 
-Указывает значение, которое должно использоваться для определения того, какие точки данных находятся во втором круге или столбце на круге или столбце круговая диаграмма. Используется вместе со свойством PieSplitBy. Чтение/записьDouble.
+## IChartSeriesGroup.PieSplitPosition свойство
+
+Указывает значение, которое будет использовано для определения, какие точки данных находятся во втором круге или столбце на круговой или столбиковой диаграмме. Используется вместе с свойством PieSplitBy. Читаемое/записываемое значение Double.
 
 ```csharp
 public double PieSplitPosition { get; set; }
@@ -16,7 +17,7 @@ public double PieSplitPosition { get; set; }
 
 ### Смотрите также
 
-* interface [IChartSeriesGroup](../../ichartseriesgroup)
+* интерфейс [IChartSeriesGroup](../../ichartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

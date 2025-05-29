@@ -1,22 +1,23 @@
 ---
 title: LinkPathLong
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает имя видеофайла связанного с видеокадром. Чтение/записьString.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает или задает имя видеофайла, связанного с VideoFrame. Чтение/запись String.
 type: docs
-weight: 50
+weight: 60
 url: /ru/aspose.slides/ivideoframe/linkpathlong/
 ---
-## IVideoFrame.LinkPathLong property
 
-Возвращает или задает имя видеофайла, связанного с видеокадром. Чтение/записьString.
+## Свойство IVideoFrame.LinkPathLong
+
+Возвращает или задает имя видеофайла, связанного с VideoFrame. Чтение/запись String.
 
 ```csharp
 public string LinkPathLong { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IVideoFrame](../../ivideoframe)
+* интерфейс [IVideoFrame](../../ivideoframe)
 * пространство имен [Aspose.Slides](../../ivideoframe)
 * сборка [Aspose.Slides](../../../)
 

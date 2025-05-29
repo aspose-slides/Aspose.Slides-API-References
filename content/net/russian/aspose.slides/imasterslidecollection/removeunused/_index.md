@@ -1,12 +1,13 @@
 ---
 title: RemoveUnused
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Удаляет неиспользуемые мастер-слайды.
 type: docs
 weight: 60
 url: /ru/aspose.slides/imasterslidecollection/removeunused/
 ---
-## IMasterSlideCollection.RemoveUnused method
+
+## IMasterSlideCollection.RemoveUnused метод
 
 Удаляет неиспользуемые мастер-слайды.
 
@@ -16,11 +17,11 @@ public void RemoveUnused(bool ignorePreserveField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ignorePreserveField | Boolean | Определяет, должен ли этот метод удалять неиспользуемый мастер, даже если егоPДлясвойства:Aspose.Slides.IMasterSlide.Preserveустановлено значение true. |
+| ignorePreserveField | Boolean | Определяет, должен ли этот метод удалять неиспользуемый мастер, даже если его [`Preserve`](../../imasterslide/preserve) свойство установлено в true. |
 
-### Смотрите также
+### См. также
 
-* interface [IMasterSlideCollection](../../imasterslidecollection)
+* интерфейс [IMasterSlideCollection](../../imasterslidecollection)
 * пространство имен [Aspose.Slides](../../imasterslidecollection)
 * сборка [Aspose.Slides](../../../)
 

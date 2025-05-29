@@ -1,11 +1,12 @@
 ---
-title: Insert
-second_title: Справочник по API Aspose.Slides для .NET
+title: Вставить
+second_title: Ссылка на API Aspose.Slides для .NET
 description: Вставляет абзац в коллекцию по указанному индексу.
 type: docs
 weight: 120
 url: /ru/aspose.slides/paragraphcollection/insert/
 ---
+
 ## Insert(int, IParagraph) {#insert}
 
 Вставляет абзац в коллекцию по указанному индексу.
@@ -16,13 +17,13 @@ public void Insert(int index, IParagraph value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен абзац. |
+| index | Int32 | Индекс, основывающийся на нуле, по которому абзац должен быть вставлен. |
 | value | IParagraph | Абзац для вставки. |
 
-### Смотрите также
+### См. также
 
-* interface [IParagraph](../../iparagraph)
-* class [ParagraphCollection](../../paragraphcollection)
+* интерфейс [IParagraph](../../iparagraph)
+* класс [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -38,13 +39,13 @@ public void Insert(int index, IParagraphCollection value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, по которому должны быть вставлены абзацы. |
+| index | Int32 | Индекс, основывающийся на нуле, по которому абзацы должны быть вставлены. |
 | value | IParagraphCollection | Абзацы для вставки. |
 
-### Смотрите также
+### См. также
 
-* interface [IParagraphCollection](../../iparagraphcollection)
-* class [ParagraphCollection](../../paragraphcollection)
+* интерфейс [IParagraphCollection](../../iparagraphcollection)
+* класс [ParagraphCollection](../../paragraphcollection)
 * пространство имен [Aspose.Slides](../../paragraphcollection)
 * сборка [Aspose.Slides](../../../)
 

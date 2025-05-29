@@ -1,42 +1,43 @@
 ---
 title: ControlCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Набор элементов управления ActiveX.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Коллекция ActiveX-контролей.
 type: docs
-weight: 2550
+weight: 2610
 url: /ru/aspose.slides/controlcollection/
 ---
-## ControlCollection class
 
-Набор элементов управления ActiveX.
+## Класс ControlCollection
+
+Коллекция ActiveX-контролей.
 
 ```csharp
 public class ControlCollection : IControlCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | Возвращает количество объектов в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/controlcollection/item) { get; } | Возвращает элемент управления в указанной позиции. |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | Возвращает количество объектов в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потоко-безопасен). Только для чтения Boolean. |
+| [Item](../../aspose.slides/controlcollection/item) { get; } | Возвращает контроль по указанной позиции. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Создает и добавляет в коллекцию новый элемент управления. |
-| [Clear](../../aspose.slides/controlcollection/clear)() | Удаляет все элементы управления из коллекции. |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Создает и добавляет новый контроль в коллекцию. |
+| [Clear](../../aspose.slides/controlcollection/clear)() | Удаляет все контроли из коллекции. |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Копирует всю коллекцию в указанный массив. |
-| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Удаляет элемент управления ActiveX из коллекции. |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Удаляет элемент управления ActiveX, хранящийся в указанной позиции, из коллекции. |
+| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Возвращает перечислитель, который проходит через коллекцию. |
+| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Удаляет ActiveX-контроль из коллекции. |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Удаляет ActiveX-контроль, хранящийся в указанной позиции из коллекции. |
 
-### Смотрите также
+### См. также
 
-* interface [IControlCollection](../icontrolcollection)
+* интерфейс [IControlCollection](../icontrolcollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

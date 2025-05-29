@@ -1,14 +1,15 @@
 ---
 title: CellUnsupportedDataException
-second_title: Справочник по API Aspose.Slides для .NET
-description: Исключение возникающее при обнаружении неподдерживаемых данных в ячейке электронной таблицы.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Исключение, которое выбрасывается, когда в ячейке электронной таблицы встречаются неподдерживаемые данные.
 type: docs
-weight: 9920
+weight: 10420
 url: /ru/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
-## CellUnsupportedDataException class
 
-Исключение, возникающее при обнаружении неподдерживаемых данных в ячейке электронной таблицы.
+## Класс CellUnsupportedDataException
+
+Исключение, которое выбрасывается, когда в ячейке электронной таблицы встречаются неподдерживаемые данные.
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException
@@ -18,13 +19,13 @@ public class CellUnsupportedDataException : PptxEditException
 
 | Имя | Описание |
 | --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Инициализирует новый экземпляр класса[`CellUnsupportedDataException`](../cellunsupporteddataexception). |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`CellUnsupportedDataException`](../cellunsupporteddataexception)с указанной ошибкой сообщение. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`CellUnsupportedDataException`](../cellunsupporteddataexception)с указанной ошибкой сообщение и ссылку на внутреннее исключение, которое является причиной этого исключения. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Инициализирует новый экземпляр класса [`CellUnsupportedDataException`](../cellunsupporteddataexception). |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Инициализирует новый экземпляр класса [`CellUnsupportedDataException`](../cellunsupporteddataexception) с указанным сообщением об ошибке. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса [`CellUnsupportedDataException`](../cellunsupporteddataexception) с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
 
-### Смотрите также
+### См. также
 
-* class [PptxEditException](../../aspose.slides/pptxeditexception)
+* класс [PptxEditException](../../aspose.slides/pptxeditexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)
 * сборка [Aspose.Slides](../../)
 

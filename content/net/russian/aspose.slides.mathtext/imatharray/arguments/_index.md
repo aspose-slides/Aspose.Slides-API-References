@@ -1,12 +1,13 @@
 ---
-title: Arguments
+title: Аргументы
 second_title: Справочник по API Aspose.Slides для .NET
 description: Набор элементов массива
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imatharray/arguments/
 ---
-## IMathArray.Arguments property
+
+## Свойство IMathArray.Arguments
 
 Набор элементов массива
 
@@ -24,10 +25,10 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.Arguments.Add(new MathematicalText("item2"));
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElementCollection](../../imathelementcollection)
-* interface [IMathArray](../../imatharray)
+* интерфейс [IMathElementCollection](../../imathelementcollection)
+* интерфейс [IMathArray](../../imatharray)
 * пространство имен [Aspose.Slides.MathText](../../imatharray)
 * сборка [Aspose.Slides](../../../)
 

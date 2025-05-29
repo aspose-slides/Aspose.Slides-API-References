@@ -1,12 +1,13 @@
 ---
 title: IChartTitle
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойства заголовка диаграммы.
 type: docs
-weight: 1860
+weight: 1920
 url: /ru/aspose.slides.charts/icharttitle/
 ---
-## IChartTitle interface
+
+## Интерфейс IChartTitle
 
 Представляет свойства заголовка диаграммы.
 
@@ -14,19 +15,19 @@ url: /ru/aspose.slides.charts/icharttitle/
 public interface IChartTitle : ILayoutable, IOverridableText
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Позволяет получить базовый интерфейс IOverridableText. Только для чтения[`IOverridableText`](../ioverridabletext). |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Возвращает стили заливки, линии, эффекта заголовка. Только для чтения[`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. Чтение/записьBoolean. |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Позволяет получить базовый интерфейс IOverridableText. Только для чтения [`IOverridableText`](../ioverridabletext). |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Возвращает стили заливки, линий и эффектов заголовка. Только для чтения [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Определяет, будут ли другие элементы диаграммы разрешены перекрывать заголовок. Чтение/запись Boolean. |
 
-### Смотрите также
+### См. также
 
-* interface [ILayoutable](../ilayoutable)
-* interface [IOverridableText](../ioverridabletext)
+* интерфейс [ILayoutable](../ilayoutable)
+* интерфейс [IOverridableText](../ioverridabletext)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

@@ -1,14 +1,15 @@
 ---
 title: OutputSaver
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает заставку вывода. Чтение/записьIOutputSaveraspose.slides.export.web/ioutputsaver.
+description: Возвращает или устанавливает сохранитель вывода. Чтение/запись IOutputSaveraspose.slides.export.web/ioutputsaver.
 type: docs
 weight: 50
 url: /ru/aspose.slides.export.web/webdocumentoptions/outputsaver/
 ---
-## WebDocumentOptions.OutputSaver property
 
-Возвращает или устанавливает заставку вывода. Чтение/запись[`IOutputSaver`](../../ioutputsaver).
+## Свойство WebDocumentOptions.OutputSaver
+
+Возвращает или устанавливает сохранитель вывода. Чтение/запись [`IOutputSaver`](../../ioutputsaver).
 
 ```csharp
 public IOutputSaver OutputSaver { get; set; }
@@ -16,8 +17,8 @@ public IOutputSaver OutputSaver { get; set; }
 
 ### Смотрите также
 
-* interface [IOutputSaver](../../ioutputsaver)
-* class [WebDocumentOptions](../../webdocumentoptions)
+* интерфейс [IOutputSaver](../../ioutputsaver)
+* класс [WebDocumentOptions](../../webdocumentoptions)
 * пространство имен [Aspose.Slides.Export.Web](../../webdocumentoptions)
 * сборка [Aspose.Slides](../../../)
 

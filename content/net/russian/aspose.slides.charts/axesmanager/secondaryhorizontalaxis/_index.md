@@ -1,23 +1,24 @@
 ---
-title: SecondaryHorizontalAxis
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает дополнительную горизонтальную ось диаграммы. Только для чтенияIAxisaspose.slides.charts/iaxis.
+title: ВторичнаяГоризонтальнаяОсь
+second_title: Aspose.Slides для .NET API Справка
+description: Получает вторичную горизонтальную ось графика. Только для чтения IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/axesmanager/secondaryhorizontalaxis/
 ---
-## AxesManager.SecondaryHorizontalAxis property
 
-Получает дополнительную горизонтальную ось диаграммы. Только для чтения[`IAxis`](../../iaxis).
+## AxesManager.SecondaryHorizontalAxis свойство
+
+Получает вторичную горизонтальную ось графика. Только для чтения [`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis SecondaryHorizontalAxis { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IAxis](../../iaxis)
-* class [AxesManager](../../axesmanager)
+* интерфейс [IAxis](../../iaxis)
+* класс [AxesManager](../../axesmanager)
 * пространство имен [Aspose.Slides.Charts](../../axesmanager)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: ItemId
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает глобальный уникальный идентификатор GUID однозначно идентифицирующий одну пользовательскую часть XML в документе Office Open XML. Только чтениеGuid.
+second_title: Aspose.Slides для .NET API Reference
+description: Указывает глобально уникальный идентификатор GUID, который однозначно идентифицирует одну пользовательскую XML-часть в документе Office Open XML. Только для чтения Guid.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icustomxmlpart/itemid/
 ---
-## ICustomXmlPart.ItemId property
 
-Задает глобальный уникальный идентификатор (GUID), однозначно идентифицирующий одну пользовательскую часть XML в документе Office Open XML. Только чтениеGuid.
+## Свойство ICustomXmlPart.ItemId
+
+Указывает глобально уникальный идентификатор (GUID), который однозначно идентифицирует одну пользовательскую XML-часть в документе Office Open XML. Только для чтения Guid.
 
 ```csharp
 public Guid ItemId { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ICustomXmlPart](../../icustomxmlpart)
+* интерфейс [ICustomXmlPart](../../icustomxmlpart)
 * пространство имен [Aspose.Slides](../../icustomxmlpart)
 * сборка [Aspose.Slides](../../../)
 

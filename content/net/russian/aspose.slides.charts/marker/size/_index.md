@@ -1,22 +1,23 @@
 ---
-title: Size
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет размер маркера на линейной диаграмме точечной диаграмме или лепестковой диаграмме. Чтение/записьInt32.
+title: Размер
+second_title: Ссылки на API Aspose.Sildes для .NET
+description: Представляет размер маркера в линейном графике, разбросанном графике или радарном графике. Чтение/запись Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/marker/size/
 ---
-## Marker.Size property
 
-Представляет размер маркера на линейной диаграмме, точечной диаграмме или лепестковой диаграмме. Чтение/записьInt32.
+## Свойство Marker.Size
+
+Представляет размер маркера в линейном графике, разбросанном графике или радарном графике. Чтение/запись Int32.
 
 ```csharp
 public int Size { get; set; }
 ```
 
-### Смотрите также
+### Также см. 
 
-* class [Marker](../../marker)
+* класс [Marker](../../marker)
 * пространство имен [Aspose.Slides.Charts](../../marker)
 * сборка [Aspose.Slides](../../../)
 

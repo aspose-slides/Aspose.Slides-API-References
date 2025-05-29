@@ -1,22 +1,23 @@
 ---
 title: AdditionalCommonFontFamilies
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает массив определяемых пользователем имен семейств шрифтов которые Aspose.Slides должен считать общими. Чтение/записьString.
+description: Возвращает или устанавливает массив пользовательских имен семейств шрифтов, которые Aspose.Slides должен считать общими. Чтение/запись String.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/ipdfoptions/additionalcommonfontfamilies/
 ---
-## IPdfOptions.AdditionalCommonFontFamilies property
 
-Возвращает или задает массив определяемых пользователем имен семейств шрифтов, которые Aspose.Slides должен считать общими. Чтение/записьString[].
+## Свойство IPdfOptions.AdditionalCommonFontFamilies
+
+Возвращает или устанавливает массив пользовательских имен семейств шрифтов, которые Aspose.Slides должен считать общими. Чтение/запись String[].
 
 ```csharp
 public string[] AdditionalCommonFontFamilies { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPdfOptions](../../ipdfoptions)
+* интерфейс [IPdfOptions](../../ipdfoptions)
 * пространство имен [Aspose.Slides.Export](../../ipdfoptions)
 * сборка [Aspose.Slides](../../../)
 

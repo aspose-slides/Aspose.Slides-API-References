@@ -1,12 +1,13 @@
 ---
-title: Reorder
+title: Переупорядочить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Перемещает слайд из коллекции в указанную позицию.
 type: docs
 weight: 120
 url: /ru/aspose.slides/islidecollection/reorder/
 ---
-## Reorder(int, ISlide) {#reorder}
+
+## Переупорядочить(int, ISlide) {#reorder}
 
 Перемещает слайд из коллекции в указанную позицию.
 
@@ -17,20 +18,20 @@ public void Reorder(int index, ISlide slide)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Целевой индекс. |
-| слайд | ISlide | Слайд для перемещения. |
+| slide | ISlide | Слайд, который нужно переместить. |
 
-### Смотрите также
+### См. также
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
+* интерфейс [ISlide](../../islide)
+* интерфейс [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Reorder(int, params ISlide[]) {#reorder_1}
+## Переупорядочить(int, params ISlide[]) {#reorder_1}
 
-Перемещает слайды из коллекции в указанную позицию. Слайды будут располагаться, начиная с индекса, в порядке их появления в списке.
+Перемещает слайды из коллекции в указанную позицию. Слайды будут размещены, начиная с индекса, в порядке их появления в списке.
 
 ```csharp
 public void Reorder(int index, params ISlide[] slides)
@@ -39,12 +40,12 @@ public void Reorder(int index, params ISlide[] slides)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Целевой индекс. |
-| слайды | ISlide[] | Слайды для перемещения. |
+| slides | ISlide[] | Слайды, которые нужно переместить. |
 
-### Смотрите также
+### См. также
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
+* интерфейс [ISlide](../../islide)
+* интерфейс [ISlideCollection](../../islidecollection)
 * пространство имен [Aspose.Slides](../../islidecollection)
 * сборка [Aspose.Slides](../../../)
 

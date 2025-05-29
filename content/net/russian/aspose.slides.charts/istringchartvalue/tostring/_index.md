@@ -1,12 +1,13 @@
 ---
 title: ToString
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочная информация по API Aspose.Slides для .NET
 description: Возвращает строковое представление.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/istringchartvalue/tostring/
 ---
-## IStringChartValue.ToString method
+
+## Метод IStringChartValue.ToString
 
 Возвращает строковое представление.
 
@@ -16,11 +17,11 @@ public string ToString()
 
 ### Возвращаемое значение
 
-Строковое представление значенияString
+Строковое представление значения String
 
-### Смотрите также
+### См. также
 
-* interface [IStringChartValue](../../istringchartvalue)
+* интерфейс [IStringChartValue](../../istringchartvalue)
 * пространство имен [Aspose.Slides.Charts](../../istringchartvalue)
 * сборка [Aspose.Slides](../../../)
 

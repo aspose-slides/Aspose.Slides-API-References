@@ -1,14 +1,15 @@
 ---
 title: HtmlOptions
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une option dexportation HTML.
+second_title: Aspose.Slides pour .NET API Référence
+description: Représente les options d'exportation HTML.
 type: docs
-weight: 3590
+weight: 3720
 url: /fr/aspose.slides.export/htmloptions/
 ---
-## HtmlOptions class
 
-Représente une option d'exportation HTML.
+## Classe HtmlOptions
+
+Représente les options d'exportation HTML.
 
 ```csharp
 public class HtmlOptions : SaveOptions, IHtmlOptions
@@ -16,32 +17,36 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | Crée un nouvel objet HtmlOptions à enregistrer dans un seul fichier HTML. |
-| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Crée un nouvel objet HtmlOptions spécifiant le rappel. |
+| [HtmlOptions](htmloptions#constructor)() | Crée un nouvel objet HtmlOptions pour sauvegarder dans un fichier HTML unique. |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Crée un nouvel objet HtmlOptions spécifiant un rappel. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée dans le cas où la police source est introuvable. Lecture-écritureString . |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Un indicateur booléen indique si les parties recadrées restent dans le document. Si vrai, les parties rognées seront supprimées, si faux, elles seront sérialisées dans le document (ce qui peut éventuellement conduire à un fichier plus volumineux) |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Renvoie ou définit le modèle HTML. Lecture/écriture[`IHtmlFormatter`](../ihtmlformatter) . |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Renvoie ou définit une valeur déterminant la qualité des images JPEG dans le document PDF. Lecture/écritureByte . |
-| [NotesCommentsLayouting](../../aspose.slides.export/htmloptions/notescommentslayouting) { get; } | Fournit des options qui contrôlent la façon dont les notes et les commentaires sont placés dans le document exporté. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée en cas de non détection de la police source. Propriété en lecture-écriture de type String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Un indicateur booléen qui indique si les parties recadrées restent dans le document. Si vrai, les parties recadrées seront supprimées, si faux, elles seront sérialisées dans le document (ce qui peut entraîner un fichier plus volumineux) |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur `true`, les ligatures seront désactivées dans le rendu. Par défaut, cette propriété est définie sur `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Renvoie ou définit le style visuel du dégradé. Propriété en lecture-écriture de type [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Renvoie ou définit le modèle HTML. Propriété en lecture-écriture de type [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Fournit des options qui contrôlent l'apparence des objets Ink dans le document exporté. Propriété en lecture seule de type [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Renvoie ou définit une valeur déterminant la qualité des images JPEG dans le document PDF. Propriété en lecture-écriture de type Byte. |
 | [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Représente le niveau de compression des images |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour enregistrer les mises à jour de progression en pourcentage. Voir[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Spécifie si le document généré doit inclure ou non des diapositives masquées. La valeur par défaut est`faux` . |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Renvoie ou définit les options de format d'image de diapositive. Lecture/écriture[`ISlideImageFormat`](../islideimageformat) . |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True pour exclure les attributs de largeur et de hauteur du conteneur svg - cela rendra la mise en page réactive. Faux - sinon. Lecture/écritureBoolean . |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Renvoie des ensembles d'un objet qui reçoit des avertissements et décide si le processus de chargement va continuer ou sera abandonné. Lecture/écriture[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de callback pour les mises à jour de progression par pourcentage. Voir [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Spécifie si le document généré doit inclure des diapositives cachées ou non. Par défaut, c'est `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de la sauvegarde de la présentation. Propriété en lecture-écriture de type Boolean. La valeur par défaut est **false**. |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Renvoie ou définit les options de format d'image des diapositives. Propriété en lecture-écriture de type [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | Vrai pour exclure les attributs de largeur et de hauteur du conteneur svg - cela rendra la mise en page réactive. Faux - sinon. Propriété en lecture-écriture de type Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Renvoie ou définit un objet qui reçoit des avertissements et décide si le processus de chargement continuera ou sera interrompu. Propriété en lecture-écriture de type [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Voir également
+### Voir aussi
 
-* class [SaveOptions](../saveoptions)
+* classe [SaveOptions](../saveoptions)
 * interface [IHtmlOptions](../ihtmloptions)
 * espace de noms [Aspose.Slides.Export](../../aspose.slides.export)
-* Assemblée [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

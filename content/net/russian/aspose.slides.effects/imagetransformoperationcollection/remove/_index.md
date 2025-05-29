@@ -1,14 +1,15 @@
 ---
-title: Remove
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет первое вхождение определенного объекта изICollection.
+title: Удалить
+second_title: Aspose.Sildes для .NET API Справка
+description: Удаляет первое вхождение конкретного объекта из ICollection.
 type: docs
 weight: 260
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/remove/
 ---
-## ImageTransformOperationCollection.Remove method
 
-Удаляет первое вхождение определенного объекта изICollection.
+## Метод ImageTransformOperationCollection.Remove
+
+Удаляет первое вхождение конкретного объекта из ICollection.
 
 ```csharp
 public bool Remove(IImageTransformOperation item)
@@ -16,22 +17,22 @@ public bool Remove(IImageTransformOperation item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IImageTransformOperation | Объект для удаления изICollection. |
+| item | IImageTransformOperation | Объект, который нужно удалить из ICollection. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-true, если*item*был успешно удален изICollection; в противном случае ложно. Этот метод также возвращает false, если*item*не найден в исходномICollection.
+true, если *item* был успешно удалён из ICollection; в противном случае - false. Этот метод также возвращает false, если *item* не найден в исходном ICollection.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | КоллекцияICollectionдоступна только для чтения. |
+| NotSupportedException | ICollection является только для чтения. |
 
-### Смотрите также
+### См. Также
 
-* interface [IImageTransformOperation](../../iimagetransformoperation)
-* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* интерфейс [IImageTransformOperation](../../iimagetransformoperation)
+* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

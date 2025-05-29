@@ -1,14 +1,15 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет последовательность по указанному индексу.
+second_title: Справка по API Aspose.Slides для .NET
+description: Удаляет последовательность по заданному индексу.
 type: docs
 weight: 70
 url: /ru/aspose.slides.animation/isequencecollection/removeat/
 ---
-## ISequenceCollection.RemoveAt method
 
-Удаляет последовательность по указанному индексу.
+## Метод ISequenceCollection.RemoveAt
+
+Удаляет последовательность по заданному индексу.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,11 +17,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс элемента в коллекцииInt32 |
+| index | Int32 | Индекс элемента в коллекции Int32 |
 
 ### Смотрите также
 
-* interface [ISequenceCollection](../../isequencecollection)
+* интерфейс [ISequenceCollection](../../isequencecollection)
 * пространство имен [Aspose.Slides.Animation](../../isequencecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
-title: Width
+title: Ширина
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает ширину легенды как часть ширины диаграммы. Чтение/записьSingle.
+description: Возвращает или задает ширину легенды как долю ширины диаграммы. Чтение/запись Single.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/legend/width/
 ---
-## Legend.Width property
 
-Возвращает или задает ширину легенды как часть ширины диаграммы. Чтение/записьSingle.
+## Свойство Legend.Width
+
+Возвращает или задает ширину легенды как долю ширины диаграммы. Чтение/запись Single.
 
 ```csharp
 public float Width { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Legend](../../legend)
+* класс [Legend](../../legend)
 * пространство имен [Aspose.Slides.Charts](../../legend)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: Nary
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает N-арный оператор
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/mathelementbase/nary/
 ---
-## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
+
+## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
 
 Создает N-арный оператор
 
@@ -17,13 +18,13 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MathNaryOperatorTypes | N-арный тип оператора |
+| type | MathNaryOperatorTypes | Тип N-арного оператора |
 | lowerLimit | IMathElement | Нижний предел |
 | upperLimit | IMathElement | Верхний предел |
 
-### Возвращаемое значение
+### Значение возвращаемого результата
 
-Новый экземпляр типа[`IMathNaryOperator`](../../imathnaryoperator)
+Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Примеры
 
@@ -37,18 +38,18 @@ IMathElement upperLimit = new MathematicalText("𝑛");
 IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summation, lowerLimit, upperLimit);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathNaryOperatorTypes](../../mathnaryoperatortypes)
-* interface [IMathElement](../../imathelement)
-* class [MathElementBase](../../mathelementbase)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* перечисление [MathNaryOperatorTypes](../../mathnaryoperatortypes)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Nary(MathNaryOperatorTypes, string, string) {#nary_1}
+## Nary(MathNaryOperatorTypes, string, string) {#nary_1}
 
 Создает N-арный оператор
 
@@ -58,13 +59,13 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MathNaryOperatorTypes | N-арный тип оператора |
+| type | MathNaryOperatorTypes | Тип N-арного оператора |
 | lowerLimit | String | Нижний предел |
 | upperLimit | String | Верхний предел |
 
-### Возвращаемое значение
+### Значение возвращаемого результата
 
-Новый экземпляр типа[`IMathNaryOperator`](../../imathnaryoperator)
+Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Примеры
 
@@ -75,11 +76,11 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 IMathNaryOperator naryOperator = new MathematicalText("i").Nary(MathNaryOperatorTypes.Summation, "i=0", "𝑛");
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathNaryOperatorTypes](../../mathnaryoperatortypes)
-* class [MathElementBase](../../mathelementbase)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* перечисление [MathNaryOperatorTypes](../../mathnaryoperatortypes)
+* класс [MathElementBase](../../mathelementbase)
 * пространство имен [Aspose.Slides.MathText](../../mathelementbase)
 * сборка [Aspose.Slides](../../../)
 

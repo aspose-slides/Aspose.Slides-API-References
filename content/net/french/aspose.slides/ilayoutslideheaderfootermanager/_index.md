@@ -1,14 +1,15 @@
 ---
 title: ILayoutSlideHeaderFooterManager
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le gestionnaire qui contient le comportement du pied de page de la diapositive de mise en page la date et lheure les espaces réservés de numéro de page et tous les espaces réservés enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur les diapositives dépendantes. Les diapositives dépendent de lutilisation et dépendent de la diapositive de mise en page.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente un gestionnaire qui maintient le comportement des espaces réservés de pied de page de diapositive de mise en page, de date-heure, de numéro de page et de tous les espaces réservés enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
 type: docs
-weight: 5710
+weight: 6040
 url: /fr/aspose.slides/ilayoutslideheaderfootermanager/
 ---
-## ILayoutSlideHeaderFooterManager interface
 
-Représente le gestionnaire qui contient le comportement du pied de page de la diapositive de mise en page, la date et l'heure, les espaces réservés de numéro de page et tous les espaces réservés enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur les diapositives dépendantes. Les diapositives dépendent de l'utilisation et dépendent de la diapositive de mise en page.
+## Interface ILayoutSlideHeaderFooterManager
+
+Représente un gestionnaire qui maintient le comportement des espaces réservés de pied de page de diapositive de mise en page, de date-heure, de numéro de page et de tous les espaces réservés enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -16,24 +17,24 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Renvoie l'interface IBaseSlideHeaderFooterManager. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Définit le texte sur l'espace réservé de date-heure de la diapositive de mise en page et tous les espaces réservés de date-heure enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur les diapositives dépendantes. Selon l'utilisation des diapositives et dépendent de la diapositive de mise en page. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Modifie l'espace réservé de date-heure de la diapositive de mise en page et la visibilité de tous les espaces réservés de date-heure enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur les diapositives dépendantes. Selon l'utilisation des diapositives et dépendent de la diapositive de mise en page. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Définit le texte sur l'espace réservé du pied de page de la diapositive de mise en page et tous les espaces réservés du pied de page enfant. Les espaces réservés enfant signifient que les espaces réservés sont contenus sur les diapositives dépendantes. Selon l'utilisation des diapositives et dépendent de la diapositive de mise en page. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Modifie la mise en page de l'espace réservé du pied de page de la diapositive et la visibilité de tous les espaces réservés du pied de page enfant. Les espaces réservés enfant signifient que les espaces réservés sont contenus dans les diapositives dépendantes. Selon l'utilisation des diapositives et dépendent de la diapositive principale. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Modifie l'espace réservé du numéro de page de la diapositive de mise en page et la visibilité de tous les espaces réservés du numéro de page enfant. Les espaces réservés enfant signifient que les espaces réservés sont contenus sur les diapositives dépendantes. Selon l'utilisation des diapositives et dépendent de la diapositive de mise en page. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Définit le texte pour l'espace réservé de date-heure de la diapositive de mise en page et tous les espaces réservés de date-heure enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Modifie la visibilité de l'espace réservé de date-heure de la diapositive de mise en page et tous les espaces réservés de date-heure enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Définit le texte pour l'espace réservé de pied de page de la diapositive de mise en page et tous les espaces réservés de pied de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Modifie la visibilité de l'espace réservé de pied de page de la diapositive de mise en page et tous les espaces réservés de pied de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive maître. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Modifie la visibilité de l'espace réservé de numéro de page de la diapositive de mise en page et tous les espaces réservés de numéro de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page. |
 
-### Voir également
+### Voir aussi
 
 * interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* Assemblée [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

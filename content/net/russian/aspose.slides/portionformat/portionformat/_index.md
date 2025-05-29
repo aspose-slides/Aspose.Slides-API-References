@@ -1,14 +1,15 @@
 ---
 title: PortionFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует новый экземпляр классаPortionFormataspose.slides/portionformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Инициализирует новый экземпляр класса PortionFormataspose.slides/portionformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/portionformat/portionformat/
 ---
-## PortionFormat constructor
 
-Инициализирует новый экземпляр класса[`PortionFormat`](../../portionformat).
+## Конструктор PortionFormat
+
+Инициализирует новый экземпляр класса [`PortionFormat`](../../portionformat).
 
 ```csharp
 public PortionFormat()
@@ -16,7 +17,7 @@ public PortionFormat()
 
 ### Смотрите также
 
-* class [PortionFormat](../../portionformat)
+* класс [PortionFormat](../../portionformat)
 * пространство имен [Aspose.Slides](../../portionformat)
 * сборка [Aspose.Slides](../../../)
 

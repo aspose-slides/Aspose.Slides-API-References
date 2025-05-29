@@ -1,31 +1,32 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект содержащий эффективные свойства стиля эффекта.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Неизменяемый объект, содержащий свойства эффективного стиля эффекта.
 type: docs
-weight: 10390
+weight: 10890
 url: /ru/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
-## IEffectStyleEffectiveData interface
 
-Неизменяемый объект, содержащий эффективные свойства стиля эффекта.
+## Интерфейс IEffectStyleEffectiveData
+
+Неизменяемый объект, содержащий свойства эффективного стиля эффекта.
 
 ```csharp
 public interface IEffectStyleEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Возвращает формат эффекта. Только для чтения[`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Возвращает формат 3D. Только для чтения[`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Возвращает формат эффекта. Только для чтения [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Возвращает 3d формат. Только для чтения [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
+Этот интерфейс используется как часть [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)

@@ -1,12 +1,13 @@
 ---
-title: Remove
-second_title: Справочник по API Aspose.Slides для .NET
+title: Удалить
+second_title: Справка по API Aspose.Slides для .NET
 description: Удаляет указанное значение.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/chartseriescollection/remove/
 ---
-## ChartSeriesCollection.Remove method
+
+## Метод ChartSeriesCollection.Remove
 
 Удаляет указанное значение.
 
@@ -24,10 +25,10 @@ public void Remove(IChartSeries value)
 | --- | --- |
 | ArgumentException | Параметр value не найден в коллекции. |
 
-### Смотрите также
+### См. также
 
-* interface [IChartSeries](../../ichartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
+* интерфейс [IChartSeries](../../ichartseries)
+* класс [ChartSeriesCollection](../../chartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../chartseriescollection)
 * сборка [Aspose.Slides](../../../)
 

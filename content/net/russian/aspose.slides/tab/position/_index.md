@@ -1,14 +1,15 @@
 ---
-title: Position
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недействительным. Чтение/записьDouble.
+title: Позиция
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает позицию вкладки. Присвоение этого свойства может изменить индекс вкладки в коллекции и сделать недействительным Enumerator. Чтение/запись Double.
 type: docs
 weight: 30
 url: /ru/aspose.slides/tab/position/
 ---
-## Tab.Position property
 
-Возвращает или устанавливает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недействительным. Чтение/записьDouble.
+## Свойство Tab.Position
+
+Возвращает или устанавливает позицию вкладки. Присвоение этого свойства может изменить индекс вкладки в коллекции и сделать недействительным Enumerator. Чтение/запись Double.
 
 ```csharp
 public double Position { get; set; }
@@ -16,7 +17,7 @@ public double Position { get; set; }
 
 ### Смотрите также
 
-* class [Tab](../../tab)
+* класс [Tab](../../tab)
 * пространство имен [Aspose.Slides](../../tab)
 * сборка [Aspose.Slides](../../../)
 

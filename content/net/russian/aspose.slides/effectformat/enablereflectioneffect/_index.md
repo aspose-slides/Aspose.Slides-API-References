@@ -1,12 +1,13 @@
 ---
-title: EnableReflectionEffect
+title: ВключитьЭффектОтражения
 second_title: Справочник по API Aspose.Slides для .NET
 description: Включает эффект отражения.
 type: docs
 weight: 230
 url: /ru/aspose.slides/effectformat/enablereflectioneffect/
 ---
-## EffectFormat.EnableReflectionEffect method
+
+## Метод EffectFormat.EnableReflectionEffect
 
 Включает эффект отражения.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/effectformat/enablereflectioneffect/
 public void EnableReflectionEffect()
 ```
 
-### Смотрите также
+### См. также
 
-* class [EffectFormat](../../effectformat)
+* класс [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

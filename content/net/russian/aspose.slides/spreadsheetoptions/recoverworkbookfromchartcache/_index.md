@@ -1,14 +1,15 @@
 ---
 title: RecoverWorkbookFromChartCache
-second_title: Справочник по API Aspose.Slides для .NET
-description: Если источником данных для диаграммы является внешняя рабочая книга и она недоступна она будет восстановлена из кэша диаграммы.
+second_title: Aspose.Slides для .NET API Reference
+description: Если источник данных для графика является внешней книгой, и она недоступна, она будет восстановлена из кеша графика.
 type: docs
 weight: 30
 url: /ru/aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache/
 ---
-## SpreadsheetOptions.RecoverWorkbookFromChartCache property
 
-Если источником данных для диаграммы является внешняя рабочая книга и она недоступна, она будет восстановлена из кэша диаграммы.
+## Свойство SpreadsheetOptions.RecoverWorkbookFromChartCache
+
+Если источник данных для графика является внешней книгой, и она недоступна, она будет восстановлена из кеша графика.
 
 ```csharp
 public bool RecoverWorkbookFromChartCache { get; set; }
@@ -18,7 +19,7 @@ public bool RecoverWorkbookFromChartCache { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызывается, когда внешняя рабочая книга недоступна, а значение свойства RecoverWorkbookFromChartCache равно false. |
+| InvalidOperationException | Выбрасывается, когда внешняя книга недоступна и значение свойства RecoverWorkbookFromChartCache равно false. |
 
 ### Примеры
 
@@ -41,9 +42,9 @@ using (Presentation pres = new Presentation("Presentation.pptx", loadOptions))
 }
 ```
 
-### Смотрите также
+### См. также
 
-* class [SpreadsheetOptions](../../spreadsheetoptions)
+* класс [SpreadsheetOptions](../../spreadsheetoptions)
 * пространство имен [Aspose.Slides](../../spreadsheetoptions)
 * сборка [Aspose.Slides](../../../)
 

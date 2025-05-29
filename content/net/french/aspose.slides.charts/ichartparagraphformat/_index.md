@@ -1,14 +1,15 @@
 ---
 title: IChartParagraphFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les propriétés de mise en forme dun paragraphe dun graphique.
+description: Représente les propriétés de formatage d'un paragraphe d'un graphique.
 type: docs
-weight: 1780
+weight: 1820
 url: /fr/aspose.slides.charts/ichartparagraphformat/
 ---
-## IChartParagraphFormat interface
 
-Représente les propriétés de mise en forme d'un paragraphe d'un graphique.
+## Interface IChartParagraphFormat
+
+Représente les propriétés de formatage d'un paragraphe d'un graphique.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -16,26 +17,26 @@ public interface IChartParagraphFormat
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Renvoie ou définit l'alignement du texte dans un paragraphe. Lecture/écriture[`TextAlignment`](../../aspose.slides/textalignment) . |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Renvoie ou définit la taille de tabulation par défaut. Lecture/écritureSingle . |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Détermine si le saut de ligne est-asiatique est utilisé dans un paragraphe. Lecture/écriture[`NullableBool`](../../aspose.slides/nullablebool) . |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Renvoie ou définit un alignement de police dans un paragraphe. Lecture/écriture[`FontAlignment`](../../aspose.slides/fontalignment) . |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Détermine si la ponctuation hors justification est utilisée dans un paragraphe. Lecture/écriture[`NullableBool`](../../aspose.slides/nullablebool) . |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Renvoie ou définit le paragraphe Retrait de première ligne/Retrait négatif. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture/écritureSingle . |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Détermine si le saut de ligne latin est utilisé dans un paragraphe. Lecture/écriture[`NullableBool`](../../aspose.slides/nullablebool) . |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Renvoie ou définit la marge de gauche dans un paragraphe. Lecture/écritureSingle . |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Renvoie ou définit la marge de droite dans un paragraphe. Lecture/écritureSingle . |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Lecture/écriture[`NullableBool`](../../aspose.slides/nullablebool) . |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Renvoie ou définit la quantité d'espace après la dernière ligne d'un paragraphe. Lecture/écritureSingle . |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Renvoie ou définit la quantité d'espace avant la première ligne d'un paragraphe. Lecture/écritureSingle . |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Renvoie ou définit la quantité d'espace entre les lignes de base dans un paragraphe. Lecture/écritureSingle . |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Renvoie les tabulations d'un paragraphe. Lecture seule[`ITabCollection`](../../aspose.slides/itabcollection) . |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Retourne ou définit l'alignement du texte dans un paragraphe. Lecture/écriture [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Retourne ou définit la taille de tabulation par défaut. Lecture/écriture Simple. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Détermine si le saut de ligne est utilisé dans un paragraphe pour les langues asiatiques de l'Est. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Retourne ou définit l'alignement de la police dans un paragraphe. Lecture/écriture [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Détermine si la ponctuation suspendue est utilisée dans un paragraphe. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Retourne ou définit l'indentation de la première ligne/d'indentation suspendue d'un paragraphe. L'indentation suspendue peut être définie avec des valeurs négatives. Lecture/écriture Simple. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Détermine si le saut de ligne est utilisé dans un paragraphe pour les langues latines. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Retourne ou définit la marge gauche dans un paragraphe. Lecture/écriture Simple. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Retourne ou définit la marge droite dans un paragraphe. Lecture/écriture Simple. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Retourne ou définit la quantité d'espace après la dernière ligne dans un paragraphe. Lecture/écriture Simple. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Retourne ou définit la quantité d'espace avant la première ligne dans un paragraphe. Lecture/écriture Simple. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Retourne ou définit la quantité d'espace entre les lignes de base dans un paragraphe. Lecture/écriture Simple. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Retourne les tabulations d'un paragraphe. Lecture seule [`ITabCollection`](../../aspose.slides/itabcollection). |
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Assemblée [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

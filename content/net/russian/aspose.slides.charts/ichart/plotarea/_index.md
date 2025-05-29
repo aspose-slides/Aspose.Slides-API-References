@@ -1,23 +1,24 @@
 ---
 title: PlotArea
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет область построения диаграммы. Только для чтенияIChartPlotAreaaspose.slides.charts/ichartplotarea.
+description: Представляет собой область графика диаграммы. Только для чтения IChartPlotAreaaspose.slides.charts/ichartplotarea.
 type: docs
 weight: 160
 url: /ru/aspose.slides.charts/ichart/plotarea/
 ---
-## IChart.PlotArea property
 
-Представляет область построения диаграммы. Только для чтения[`IChartPlotArea`](../../ichartplotarea).
+## Свойство IChart.PlotArea
+
+Представляет собой область графика диаграммы. Только для чтения [`IChartPlotArea`](../../ichartplotarea).
 
 ```csharp
 public IChartPlotArea PlotArea { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartPlotArea](../../ichartplotarea)
-* interface [IChart](../../ichart)
+* интерфейс [IChartPlotArea](../../ichartplotarea)
+* интерфейс [IChart](../../ichart)
 * пространство имен [Aspose.Slides.Charts](../../ichart)
 * сборка [Aspose.Slides](../../../)
 

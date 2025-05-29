@@ -1,14 +1,15 @@
 ---
-title: Escapement
+title: Эскейпмент
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает текст верхнего или нижнего индекса. Значение от -100 нижний индекс до 100 верхний индекс.  float.NaN означает что значение не определено и должно быть унаследовано от Мастера. Чтение/записьSingle.
+description: Возвращает или устанавливает текст надстрочного или подстрочного формата. Значение от -100 подстрока до 100 надстрока. **float.NaN** означает, что значение не определено и должно наследоваться от мастера. Чтение/запись Single.
 type: docs
 weight: 50
 url: /ru/aspose.slides/baseportionformat/escapement/
 ---
-## BasePortionFormat.Escapement property
 
-Возвращает или задает текст верхнего или нижнего индекса. Значение от -100% (нижний индекс) до 100% (верхний индекс).  **float.NaN** означает, что значение не определено и должно быть унаследовано от Мастера. Чтение/записьSingle.
+## Свойство BasePortionFormat.Escapement
+
+Возвращает или устанавливает текст надстрочного или подстрочного формата. Значение от -100% (подстрок) до 100% (надстрок). **float.NaN** означает, что значение не определено и должно наследоваться от мастера. Чтение/запись Single.
 
 ```csharp
 public float Escapement { get; set; }
@@ -16,7 +17,7 @@ public float Escapement { get; set; }
 
 ### Смотрите также
 
-* class [BasePortionFormat](../../baseportionformat)
+* класс [BasePortionFormat](../../baseportionformat)
 * пространство имен [Aspose.Slides](../../baseportionformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект содержащий свойства схемы эффективного формата.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Неизменяемый объект, который содержит свойства эффективной схемы формата.
 type: docs
-weight: 10470
+weight: 10970
 url: /ru/aspose.slides.theme/iformatschemeeffectivedata/
 ---
-## IFormatSchemeEffectiveData interface
 
-Неизменяемый объект, содержащий свойства схемы эффективного формата.
+## Интерфейс IFormatSchemeEffectiveData
+
+Неизменяемый объект, который содержит свойства эффективной схемы формата.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
@@ -16,16 +17,16 @@ public interface IFormatSchemeEffectiveData
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Возвращает набор стилей заливки фона, определенных темой. |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Возвращает набор стилей эффектов, определенных темой. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Возвращает набор стилей заливки, определенных темой. |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Возвращает набор стилей линий, определенных темой. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Возвращает коллекцию стилей заполнения фона, заданных темой. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Возвращает коллекцию стилей эффектов, заданных темой. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Возвращает коллекцию стилей заливки, заданных темой. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Возвращает коллекцию стилей линий, заданных темой. |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IThemeEffectiveData`](../ithemeeffectivedata).
+Этот интерфейс используется как часть [`IThemeEffectiveData`](../ithemeeffectivedata).
 
 ### Смотрите также
 

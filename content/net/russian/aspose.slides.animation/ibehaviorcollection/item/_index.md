@@ -1,12 +1,13 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+title: Элемент
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает поведение по указанному индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/ibehaviorcollection/item/
 ---
-## IBehaviorCollection indexer
+
+## Индексатор IBehaviorCollection
 
 Возвращает поведение по указанному индексу.
 
@@ -16,16 +17,16 @@ public IBehavior this[int index] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс возвращаемого поведения. |
+| index | Индекс поведения для возврата. |
 
 ### Возвращаемое значение
 
-Анимация поведения.
+Поведение анимации.
 
-### Смотрите также
+### См. также
 
-* interface [IBehavior](../../ibehavior)
-* interface [IBehaviorCollection](../../ibehaviorcollection)
+* интерфейс [IBehavior](../../ibehavior)
+* интерфейс [IBehaviorCollection](../../ibehaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: FindByNameAndInitials
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slidеs для .NET API Reference
 description: Найти автора в коллекции по имени и инициалам.
 type: docs
 weight: 90
 url: /ru/aspose.slides/commentauthorcollection/findbynameandinitials/
 ---
-## CommentAuthorCollection.FindByNameAndInitials method
+
+## CommentAuthorCollection.FindByNameAndInitials метод
 
 Найти автора в коллекции по имени и инициалам.
 
@@ -16,17 +17,17 @@ public ICommentAuthor[] FindByNameAndInitials(string name, string initials)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя автора, которого нужно найти. |
-| initials | String | Инициалы автора, которого нужно найти. |
+| name | String | Имя автора для поиска. |
+| initials | String | Инициалы автора для поиска. |
 
 ### Возвращаемое значение
 
-Автор или ноль.
+Автор или null.
 
-### Смотрите также
+### См. Также
 
-* interface [ICommentAuthor](../../icommentauthor)
-* class [CommentAuthorCollection](../../commentauthorcollection)
+* интерфейс [ICommentAuthor](../../icommentauthor)
+* класс [CommentAuthorCollection](../../commentauthorcollection)
 * пространство имен [Aspose.Slides](../../commentauthorcollection)
 * сборка [Aspose.Slides](../../../)
 

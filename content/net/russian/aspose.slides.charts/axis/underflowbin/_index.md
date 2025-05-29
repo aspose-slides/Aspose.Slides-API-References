@@ -1,22 +1,23 @@
 ---
 title: UnderflowBin
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает пользовательское значение корзины для недорасхода. Применяется когда свойство IsAutomaticUnderflowBin имеет значение false а свойство IsUnderflowBin равно true.
+description: Указывает на пользовательское значение подбыва. Применяется, когда свойство IsAutomaticUnderflowBin установлено в false, а свойство IsUnderflowBin равно true.
 type: docs
 weight: 560
 url: /ru/aspose.slides.charts/axis/underflowbin/
 ---
-## Axis.UnderflowBin property
 
-Указывает пользовательское значение корзины для недорасхода. Применяется, когда свойство IsAutomaticUnderflowBin имеет значение false, а свойство IsUnderflowBin равно true.
+## Свойство Axis.UnderflowBin
+
+Указывает на пользовательское значение подбыва. Применяется, когда свойство IsAutomaticUnderflowBin установлено в false, а свойство IsUnderflowBin равно true.
 
 ```csharp
 public double UnderflowBin { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Axis](../../axis)
+* класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

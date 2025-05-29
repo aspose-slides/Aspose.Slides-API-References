@@ -1,22 +1,23 @@
 ---
 title: ToString
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает данные строкового значения. Возвращает null если DataSourceType имеет значение false и строковое значение не было присвоено.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает данные строкового значения. Возвращает null, если DataSourceType равно false и строковое значение не было присвоено.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/stringchartvalue/tostring/
 ---
-## StringChartValue.ToString method
 
-Возвращает данные строкового значения. Возвращает null, если DataSourceType имеет значение false и строковое значение не было присвоено.
+## Метод StringChartValue.ToString
+
+Возвращает данные строкового значения. Возвращает null, если DataSourceType равно false и строковое значение не было присвоено.
 
 ```csharp
 public override string ToString()
 ```
 
-### Смотрите также
+### См. также
 
-* class [StringChartValue](../../stringchartvalue)
+* класс [StringChartValue](../../stringchartvalue)
 * пространство имен [Aspose.Slides.Charts](../../stringchartvalue)
 * сборка [Aspose.Slides](../../../)
 

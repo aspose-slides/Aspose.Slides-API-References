@@ -1,11 +1,12 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ooxmlcorruptfileexception/ooxmlcorruptfileexception/
 ---
+
 ## OOXMLCorruptFileException() {#constructor}
 
 Конструктор по умолчанию.
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/ooxmlcorruptfileexception/ooxmlcorruptfileexception/
 public OOXMLCorruptFileException()
 ```
 
-### Смотрите также
+### См. также
 
-* class [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
+* класс [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
 * пространство имен [Aspose.Slides](../../ooxmlcorruptfileexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -32,11 +33,11 @@ public OOXMLCorruptFileException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
+| message | String | сообщение |
 
-### Смотрите также
+### См. также
 
-* class [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
+* класс [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
 * пространство имен [Aspose.Slides](../../ooxmlcorruptfileexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,7 +45,7 @@ public OOXMLCorruptFileException(string message)
 
 ## OOXMLCorruptFileException(string, Exception) {#constructor_2}
 
-Конструктор исключения, содержащего сообщение и встроенное исключение.
+Конструктор для исключения, содержащего сообщение и вложенное исключение.
 
 ```csharp
 public OOXMLCorruptFileException(string message, Exception exception)
@@ -52,12 +53,12 @@ public OOXMLCorruptFileException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
-| исключение | Exception | исходное исключение |
+| message | String | сообщение |
+| exception | Exception | оригинальное исключение |
 
-### Смотрите также
+### См. также
 
-* class [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
+* класс [OOXMLCorruptFileException](../../ooxmlcorruptfileexception)
 * пространство имен [Aspose.Slides](../../ooxmlcorruptfileexception)
 * сборка [Aspose.Slides](../../../)
 

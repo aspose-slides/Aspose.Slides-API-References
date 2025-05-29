@@ -1,14 +1,15 @@
 ---
 title: CreatePortion
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает пустую текстовую часть.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает пустую текстовую порцию.
 type: docs
 weight: 20
 url: /ru/aspose.slides/portionfactory/createportion/
 ---
+
 ## CreatePortion() {#createportion}
 
-Создает пустую текстовую часть.
+Создает пустую текстовую порцию.
 
 ```csharp
 public IPortion CreatePortion()
@@ -16,12 +17,12 @@ public IPortion CreatePortion()
 
 ### Возвращаемое значение
 
-Часть.
+Порция.
 
-### Смотрите также
+### См. Также
 
-* interface [IPortion](../../iportion)
-* class [PortionFactory](../../portionfactory)
+* интерфейс [IPortion](../../iportion)
+* класс [PortionFactory](../../portionfactory)
 * пространство имен [Aspose.Slides](../../portionfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -29,7 +30,7 @@ public IPortion CreatePortion()
 
 ## CreatePortion(string) {#createportion_2}
 
-Создает текстовую часть из указанной строки.
+Создает текстовую порцию из указанной строки.
 
 ```csharp
 public IPortion CreatePortion(string str)
@@ -41,12 +42,12 @@ public IPortion CreatePortion(string str)
 
 ### Возвращаемое значение
 
-Часть.
+Порция.
 
-### Смотрите также
+### См. Также
 
-* interface [IPortion](../../iportion)
-* class [PortionFactory](../../portionfactory)
+* интерфейс [IPortion](../../iportion)
+* класс [PortionFactory](../../portionfactory)
 * пространство имен [Aspose.Slides](../../portionfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -54,7 +55,7 @@ public IPortion CreatePortion(string str)
 
 ## CreatePortion(IPortion) {#createportion_1}
 
-Создает порцию с использованием данных указанной порции.
+Создает порцию, используя данные указанной порции.
 
 ```csharp
 public IPortion CreatePortion(IPortion portion)
@@ -62,16 +63,16 @@ public IPortion CreatePortion(IPortion portion)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| partion | IPortion | Используемая часть. |
+| portion | IPortion | Порция для использования. |
 
 ### Возвращаемое значение
 
-Часть.
+Порция.
 
-### Смотрите также
+### См. Также
 
-* interface [IPortion](../../iportion)
-* class [PortionFactory](../../portionfactory)
+* интерфейс [IPortion](../../iportion)
+* класс [PortionFactory](../../portionfactory)
 * пространство имен [Aspose.Slides](../../portionfactory)
 * сборка [Aspose.Slides](../../../)
 

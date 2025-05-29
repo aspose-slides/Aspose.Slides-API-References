@@ -1,14 +1,15 @@
 ---
-title: Equals
+title: Равно
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйAlphaInverseaspose.slides.effects/alphainverseтекущемуАльфа-Инверсия.
+description: Определяет, равен ли указанный AlphaInverseaspose.slides.effects/alphainverse текущему AlphaInverseaspose.slides.effects/alphainverse.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/alphainverse/equals/
 ---
-## AlphaInverse.Equals method
 
-Определяет, равен ли указанный[`AlphaInverse`](../../alphainverse)текущемуАльфа-Инверсия.
+## Метод AlphaInverse.Equals
+
+Определяет, равен ли указанный [`AlphaInverse`](../../alphainverse) текущему [`AlphaInverse`](../../alphainverse).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaInverse`](../../alphainverse)для сравнения. |
+| obj | Object | [`AlphaInverse`](../../alphainverse), который нужно сравнить. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае ложно.
+true, если объекты равны; в противном случае false.
 
-### Смотрите также
+### См. также
 
-* class [AlphaInverse](../../alphainverse)
+* класс [AlphaInverse](../../alphainverse)
 * пространство имен [Aspose.Slides.Effects](../../alphainverse)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
-title: HideDegree
-second_title: Справочник по API Aspose.Slides для .NET
-description: Скрыть степень Когда истинно степень не отображается как в 
+title: СкрытьСтепень
+second_title: Aspose.Sildes для .NET API Справочник
+description: Скрыть степень Когда истинно, степень не показывается, как в
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathradical/hidedegree/
 ---
-## MathRadical.HideDegree property
 
-Скрыть степень Когда истинно, степень не отображается, как в √𝑥
+## MathRadical.HideDegree свойство
+
+Скрыть степень Когда истинно, степень не показывается, как в √𝑥
 
 ```csharp
 public bool HideDegree { get; set; }
@@ -26,7 +27,7 @@ radical.HideDegree = true;
 
 ### Смотрите также
 
-* class [MathRadical](../../mathradical)
+* класс [MathRadical](../../mathradical)
 * пространство имен [Aspose.Slides.MathText](../../mathradical)
 * сборка [Aspose.Slides](../../../)
 

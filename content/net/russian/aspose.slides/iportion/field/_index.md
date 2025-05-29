@@ -1,23 +1,24 @@
 ---
-title: Field
+title: Поле
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает поле этой части. Только для чтенияIFieldaspose.slides/ifield.
+description: Возвращает поле этого раздела. Только для чтения IFieldaspose.slides/ifield.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iportion/field/
 ---
-## IPortion.Field property
 
-Возвращает поле этой части. Только для чтения[`IField`](../../ifield).
+## Свойство IPortion.Field
+
+Возвращает поле этого раздела. Только для чтения [`IField`](../../ifield).
 
 ```csharp
 public IField Field { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IField](../../ifield)
-* interface [IPortion](../../iportion)
+* интерфейс [IField](../../ifield)
+* интерфейс [IPortion](../../iportion)
 * пространство имен [Aspose.Slides](../../iportion)
 * сборка [Aspose.Slides](../../../)
 

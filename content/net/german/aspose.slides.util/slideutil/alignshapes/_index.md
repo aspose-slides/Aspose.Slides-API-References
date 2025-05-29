@@ -1,14 +1,15 @@
 ---
 title: AlignShapes
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Ändert die Platzierung aller Formen auf der Folie. Richtet Formen an den Rändern oder dem Rand der Folie aus oder richtet sie relativ zueinander aus.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ändert die Platzierung aller Formen auf der Folie. Richtet Formen an den Rändern oder am Rand der Folie aus oder richtet sie relativ zueinander aus.
 type: docs
 weight: 10
 url: /de/aspose.slides.util/slideutil/alignshapes/
 ---
+
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
 
-Ändert die Platzierung aller Formen auf der Folie. Richtet Formen an den Rändern oder dem Rand der Folie aus oder richtet sie relativ zueinander aus.
+Ändert die Platzierung aller Formen auf der Folie. Richtet Formen an den Rändern oder am Rand der Folie aus oder richtet sie relativ zueinander aus.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -17,8 +18,8 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | Legt fest, welcher Ausrichtungstyp angewendet wird. |
-| alignToSlide | Boolean | Wenn wahr, werden Formen relativ zu den Folienrändern ausgerichtet. |
+| alignmentType | ShapesAlignmentType | Bestimmt, welcher Ausrichtungstyp angewendet wird. |
+| alignToSlide | Boolean | Wenn wahr, werden die Formen relativ zu den Folienrändern ausgerichtet. |
 | slide | IBaseSlide | Übergeordnete Folie. |
 
 ### Beispiele
@@ -33,19 +34,19 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
 * class [SlideUtil](../../slideutil)
-* namensraum [Aspose.Slides.Util](../../slideutil)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
 
-Ändert die Platzierung ausgewählter Formen auf der Folie. Richtet Formen an den Rändern oder dem Rand der Folie aus oder richtet sie relativ zueinander aus.
+Ändert die Platzierung ausgewählter Formen auf der Folie. Richtet Formen an den Rändern oder am Rand der Folie aus oder richtet sie relativ zueinander aus.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -54,8 +55,8 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | Legt fest, welcher Ausrichtungstyp angewendet wird. |
-| alignToSlide | Boolean | Wenn wahr, werden Formen relativ zu den Folienrändern ausgerichtet. |
+| alignmentType | ShapesAlignmentType | Bestimmt, welcher Ausrichtungstyp angewendet wird. |
+| alignToSlide | Boolean | Wenn wahr, werden die Formen relativ zu den Folienrändern ausgerichtet. |
 | slide | IBaseSlide | Übergeordnete Folie. |
 | shapeIndexes | Int32[] | Indizes der auszurichtenden Formen. |
 
@@ -79,19 +80,19 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
 * class [SlideUtil](../../slideutil)
-* namensraum [Aspose.Slides.Util](../../slideutil)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
 
-Ändert die Platzierung aller Formen innerhalb der Gruppenform. Richtet Formen an den Rändern oder dem Rand der Folie aus oder richtet sie relativ zueinander aus.
+Ändert die Platzierung aller Formen innerhalb der Gruppierungsform. Richtet Formen an den Rändern oder am Rand der Folie aus oder richtet sie relativ zueinander aus.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -100,9 +101,9 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | Legt fest, welcher Ausrichtungstyp angewendet wird. |
-| alignToSlide | Boolean | Wenn wahr, werden Formen relativ zu den Folienrändern ausgerichtet. |
-| groupShape | IGroupShape | Form der Elterngruppe. |
+| alignmentType | ShapesAlignmentType | Bestimmt, welcher Ausrichtungstyp angewendet wird. |
+| alignToSlide | Boolean | Wenn wahr, werden die Formen relativ zu den Folienrändern ausgerichtet. |
+| groupShape | IGroupShape | Übergeordnete Gruppierungsform. |
 
 ### Beispiele
 
@@ -116,19 +117,19 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IGroupShape](../../../aspose.slides/igroupshape)
 * class [SlideUtil](../../slideutil)
-* namensraum [Aspose.Slides.Util](../../slideutil)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
 
-Ändert die Platzierung ausgewählter Formen innerhalb einer Gruppenform. Richtet Formen an den Rändern oder dem Rand der Folie aus oder richtet sie relativ zueinander aus.
+Ändert die Platzierung ausgewählter Formen innerhalb der Gruppierungsform. Richtet Formen an den Rändern oder am Rand der Folie aus oder richtet sie relativ zueinander aus.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -137,9 +138,9 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | Legt fest, welcher Ausrichtungstyp angewendet wird. |
-| alignToSlide | Boolean | Wenn wahr, werden Formen relativ zu den Folienrändern ausgerichtet. |
-| groupShape | IGroupShape | Form der Elterngruppe. |
+| alignmentType | ShapesAlignmentType | Bestimmt, welcher Ausrichtungstyp angewendet wird. |
+| alignToSlide | Boolean | Wenn wahr, werden die Formen relativ zu den Folienrändern ausgerichtet. |
+| groupShape | IGroupShape | Übergeordnete Gruppierungsform. |
 | shapeIndexes | Int32[] | Indizes der auszurichtenden Formen. |
 
 ### Beispiele
@@ -154,12 +155,12 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IGroupShape](../../../aspose.slides/igroupshape)
 * class [SlideUtil](../../slideutil)
-* namensraum [Aspose.Slides.Util](../../slideutil)
-* Montage [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

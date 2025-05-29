@@ -1,14 +1,15 @@
 ---
 title: ValidateChartLayout
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вычисляет фактические значения элементов диаграммы. Фактические значения включают положение элементов которые реализуют интерфейс IActualLayout IActualLayout.ActualX IActualLayout.ActualY IActualLayout.ActualWidth IActualLayout.ActualHeight и фактические значения осей IAxis.ActualMaxValue IAxis.ActualMinValue IAxis.ActualMajorUnit IAxis.ActualMinorUnit IAxis.ActualMajorUnitScale IAxis.ActualMinorUnitScale
+second_title: Aspose.Slides для .NET API Справочник
+description: Вычисляет актуальные значения элементов графика. Актуальные значения включают позиции элементов, которые реализуют интерфейс IActualLayout IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight и актуальные значения осей IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale
 type: docs
 weight: 240
 url: /ru/aspose.slides.charts/ichart/validatechartlayout/
 ---
-## IChart.ValidateChartLayout method
 
-Вычисляет фактические значения элементов диаграммы. Фактические значения включают положение элементов, которые реализуют интерфейс IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) и фактические значения осей (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
+## Метод IChart.ValidateChartLayout
+
+Вычисляет актуальные значения элементов графика. Актуальные значения включают позиции элементов, которые реализуют интерфейс IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) и актуальные значения осей (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
 
 ```csharp
 public void ValidateChartLayout()
@@ -16,7 +17,7 @@ public void ValidateChartLayout()
 
 ### Смотрите также
 
-* interface [IChart](../../ichart)
+* интерфейс [IChart](../../ichart)
 * пространство имен [Aspose.Slides.Charts](../../ichart)
 * сборка [Aspose.Slides](../../../)
 

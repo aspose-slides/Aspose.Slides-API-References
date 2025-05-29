@@ -1,23 +1,24 @@
 ---
 title: DownBarsFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат DownBars. Только для чтенияIFormataspose.slides.charts/iformat.
+description: Возвращает формат DownBars. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/updownbarsmanager/downbarsformat/
 ---
-## UpDownBarsManager.DownBarsFormat property
 
-Возвращает формат DownBars. Только для чтения[`IFormat`](../../iformat).
+## Свойство UpDownBarsManager.DownBarsFormat
+
+Возвращает формат DownBars. Только для чтения [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat DownBarsFormat { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFormat](../../iformat)
-* class [UpDownBarsManager](../../updownbarsmanager)
+* интерфейс [IFormat](../../iformat)
+* класс [UpDownBarsManager](../../updownbarsmanager)
 * пространство имен [Aspose.Slides.Charts](../../updownbarsmanager)
 * сборка [Aspose.Slides](../../../)
 

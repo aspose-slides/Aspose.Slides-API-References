@@ -1,22 +1,23 @@
 ---
 title: IsLogarithmic
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает является ли тип шкалы оси значений логарифмическим или нет. Чтение/записьBoolean.
+second_title: Справочник API Aspose.Slides для .NET
+description: Представляет, является ли тип шкалы оси значений логарифмическим или нет. Читаемое/записываемое логическое значение.
 type: docs
 weight: 260
 url: /ru/aspose.slides.charts/iaxis/islogarithmic/
 ---
-## IAxis.IsLogarithmic property
 
-Указывает, является ли тип шкалы оси значений логарифмическим или нет. Чтение/записьBoolean.
+## Свойство IAxis.IsLogarithmic
+
+Представляет, является ли тип шкалы оси значений логарифмическим или нет. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool IsLogarithmic { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAxis](../../iaxis)
+* интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

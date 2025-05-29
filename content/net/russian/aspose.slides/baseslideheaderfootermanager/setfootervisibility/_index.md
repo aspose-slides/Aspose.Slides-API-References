@@ -1,12 +1,13 @@
 ---
 title: SetFooterVisibility
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Изменяет видимость заполнителя нижнего колонтитула слайда.
 type: docs
 weight: 70
 url: /ru/aspose.slides/baseslideheaderfootermanager/setfootervisibility/
 ---
-## BaseSlideHeaderFooterManager.SetFooterVisibility method
+
+## Метод BaseSlideHeaderFooterManager.SetFooterVisibility
 
 Изменяет видимость заполнителя нижнего колонтитула слайда.
 
@@ -18,9 +19,9 @@ public void SetFooterVisibility(bool isVisible)
 | --- | --- | --- |
 | isVisible | Boolean | true - делает заполнитель нижнего колонтитула видимым, иначе - скрывает его. |
 
-### Смотрите также
+### См. также
 
-* class [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
+* класс [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../baseslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

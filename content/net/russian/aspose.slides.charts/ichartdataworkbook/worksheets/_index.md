@@ -1,14 +1,15 @@
 ---
-title: Worksheets
+title: Рабочие листы
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает набор рабочих листов.
+description: Получает коллекцию рабочих листов.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ichartdataworkbook/worksheets/
 ---
-## IChartDataWorkbook.Worksheets property
 
-Получает набор рабочих листов.
+## Свойство IChartDataWorkbook.Worksheets
+
+Получает коллекцию рабочих листов.
 
 ```csharp
 public IChartDataWorksheetCollection Worksheets { get; }
@@ -31,10 +32,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [IChartDataWorksheetCollection](../../ichartdataworksheetcollection)
-* interface [IChartDataWorkbook](../../ichartdataworkbook)
+* интерфейс [IChartDataWorksheetCollection](../../ichartdataworksheetcollection)
+* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
 * пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
 * сборка [Aspose.Slides](../../../)
 

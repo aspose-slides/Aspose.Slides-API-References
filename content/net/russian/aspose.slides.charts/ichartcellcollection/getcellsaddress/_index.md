@@ -1,12 +1,13 @@
 ---
 title: GetCellsAddress
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Возвращает адрес набора ячеек в книге.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ichartcellcollection/getcellsaddress/
 ---
-## IChartCellCollection.GetCellsAddress method
+
+## IChartCellCollection.GetCellsAddress метод
 
 Возвращает адрес набора ячеек в книге.
 
@@ -16,11 +17,11 @@ public string GetCellsAddress()
 
 ### Возвращаемое значение
 
-Адрес набора ячеек в книгеString
+Адрес набора ячеек в книге String
 
-### Смотрите также
+### См. также
 
-* interface [IChartCellCollection](../../ichartcellcollection)
+* интерфейс [IChartCellCollection](../../ichartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartcellcollection)
 * сборка [Aspose.Slides](../../../)
 

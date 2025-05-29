@@ -1,14 +1,15 @@
 ---
-title: AlternativeText
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает альтернативный текст связанный с фигурой. Чтение/записьString.
+title: АльтернативныйТекст
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Возвращает или устанавливает альтернативный текст, связанный с фигурой. Читаемый/записываемый String.
 type: docs
 weight: 10
 url: /ru/aspose.slides/shape/alternativetext/
 ---
-## Shape.AlternativeText property
 
-Возвращает или задает альтернативный текст, связанный с фигурой. Чтение/записьString.
+## Свойство Shape.AlternativeText
+
+Возвращает или устанавливает альтернативный текст, связанный с фигурой. Читаемый/записываемый String.
 
 ```csharp
 public string AlternativeText { get; set; }
@@ -16,7 +17,7 @@ public string AlternativeText { get; set; }
 
 ### Смотрите также
 
-* class [Shape](../../shape)
+* класс [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)
 * сборка [Aspose.Slides](../../../)
 

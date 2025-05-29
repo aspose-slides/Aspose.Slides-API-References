@@ -1,14 +1,15 @@
 ---
 title: IChartDataPoint
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Repräsentiert Seriendatenpunkt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt einen Datenpunkt der Serie dar.
 type: docs
-weight: 1700
+weight: 1740
 url: /de/aspose.slides.charts/ichartdatapoint/
 ---
-## IChartDataPoint interface
 
-Repräsentiert Seriendatenpunkt.
+## IChartDataPoint-Schnittstelle
+
+Stellt einen Datenpunkt der Serie dar.
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
@@ -19,34 +20,35 @@ public interface IChartDataPoint : IActualLayout
 | Name | Beschreibung |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Gibt die IActualLayout-Schnittstelle zurück. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Gibt die Blasengröße des Diagrammdatenpunkts zurück. Schreibgeschützt[`IDoubleChartValue`](../idoublechartvalue) . |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Gibt den Farbwert des Diagrammdatenpunkts zurück. Wird mit Kartendiagrammen verwendet. Schreibgeschützt[`IDoubleChartValue`](../idoublechartvalue) . |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Gibt einen Container mit Datenpunktebenen zurück. Wird für die Serien Treeamp und Sunburst angewendet. Die Indizierung der Datenpunktebenen ist nullbasiert. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Repräsentiert Reihenfehlerbalkenwerte im Falle des benutzerdefinierten Werttyps. Schreibgeschützt[`IErrorBarsCustomValues`](../ierrorbarscustomvalues) . |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Gibt den Betrag an, um den der Datenpunkt von der Mitte des Kreises verschoben werden soll. Lesen/SchreibenInt32 . |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Repräsentiert die Formatierungseigenschaften. Lesen/Schreiben[`IFormat`](../iformat) . |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Gibt an, dass der Datenpunkt seine Farben invertieren soll, wenn der Wert negativ ist. Lesen/SchreibenBoolean . |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Gibt an, dass auf die Blasen ein 3D-Effekt angewendet wird. Lesen/SchreibenBoolean . |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Repräsentiert das Label des Diagrammdatenpunkts. Schreibgeschützt[`IDataLabel`](../idatalabel) . |
-| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Gibt einen Datenmarker an. Schreibgeschützt[`IMarker`](../imarker) . |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Eigenschaften des entsprechenden Legendeneintrags bei Diagrammtypen aus dieser Liste: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Nur lesen[`ILegendEntryProperties`](../ilegendentryproperties) . |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Legt den Datenpunkt als Summe fest. Gilt nur für den Typ Wasserfallserie. |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Gibt den Größenwert des Diagrammdatenpunkts zurück. Wird mit Treemap- und Sunburst-Diagrammen verwendet. Schreibgeschützt[`IDoubleChartValue`](../idoublechartvalue) . |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Gibt den Wert des Diagrammdatenpunkts zurück. Schreibgeschützt[`IDoubleChartValue`](../idoublechartvalue) . |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Gibt den x-Wert des Diagrammdatenpunkts zurück. Schreibgeschützt[`IStringOrDoubleChartValue`](../istringordoublechartvalue) . |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Gibt den y-Wert des Diagrammdatenpunkts zurück. Schreibgeschützt[`IDoubleChartValue`](../idoublechartvalue) . |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Gibt die Bubblgröße des Diagrammdatenpunkts zurück. Schreibgeschützt [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Gibt den Farbwert des Diagrammdatenpunkts zurück. Wird mit Karten-Diagrammen verwendet. Schreibgeschützt [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Gibt den Container der Datenpunktlevels zurück. Anwendbar für Treeamp- und Sunburst-Serien. Die Indizierung der Datenpunktlevels ist nullbasiert. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Stellt die Fehlerbalkenwerte der Serie im Fall von benutzerdefiniertem Werttyp dar. Schreibgeschützt [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Gibt an, um wie viel der Datenpunkt vom Mittelpunkt des Kuchendiagramms verschoben werden soll. Lese-/Schreibzugriff Int32. |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Stellt die Formatierungseigenschaften dar. Lese-/Schreibzugriff [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Bestimmt, auf welches Kind der übergeordneten Sammlung dieser Datenpunkt angewendet wird. Lese UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Gibt an, dass der Datenpunkt seine Farben umkehren soll, wenn der Wert negativ ist. Lese-/Schreibzugriff Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Gibt an, dass die Blasen einen 3D-Effekt haben. Lese-/Schreibzugriff Boolean. |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Stellt das Label des Diagrammdatenpunkts dar. Schreibgeschützt [`IDataLabel`](../idatalabel). |
+| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Gibt einen Datenschreiber an. Schreibgeschützt [`IMarker`](../imarker). |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Eigenschaften des entsprechenden Legendenpunkts im Fall von Diagrammtypen aus dieser Liste: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Schreibgeschützt [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Setzt den Datenpunkt als Gesamtwert. Nur anwendbar für den Waterfall-Diagrammtyp. |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Gibt den Größenwert des Diagrammdatenpunkts zurück. Wird mit Treemap- und Sunburst-Diagrammen verwendet. Schreibgeschützt [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Gibt den Wert des Diagrammdatenpunkts zurück. Schreibgeschützt [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Gibt den X-Wert des Diagrammdatenpunkts zurück. Schreibgeschützt [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Gibt den Y-Wert des Diagrammdatenpunkts zurück. Schreibgeschützt [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Gibt eine automatische Farbe des Datenpunkts basierend auf dem Reihenindex, dem Datenpunktindex, der Eigenschaft ParentSeriesGroup.IsColorVaried und dem Diagrammstil zurück. Diese Farbe wird standardmäßig verwendet, wenn FillType gleich NotDefined ist. |
-| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Entfernt DataPoint aus Diagrammreihen. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Gibt eine automatische Farbe des Datenpunkts basierend auf dem Serienindex, dem Datenpunktindex, der ParentSeriesGroup.IsColorVaried-Eigenschaft und dem Diagrammstil zurück. Diese Farbe wird standardmäßig verwendet, wenn FillType gleich NotDefined ist. |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Entfernt den Datenpunkt aus der Diagrammserie. |
 
 ### Siehe auch
 
-* interface [IActualLayout](../iactuallayout)
-* namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Montage [Aspose.Slides](../../)
+* Schnittstelle [IActualLayout](../iactuallayout)
+* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

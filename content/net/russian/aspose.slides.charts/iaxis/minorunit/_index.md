@@ -1,14 +1,15 @@
 ---
-title: MinorUnit
+title: МинорнаяЕдиница
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет младшие единицы для оси дат или значений. Чтение/записьDouble.
+description: Представляет минорные единицы для оси даты или значения. Чтение/запись Double.
 type: docs
 weight: 410
 url: /ru/aspose.slides.charts/iaxis/minorunit/
 ---
-## IAxis.MinorUnit property
 
-Представляет младшие единицы для оси дат или значений. Чтение/записьDouble.
+## Свойство IAxis.MinorUnit
+
+Представляет минорные единицы для оси даты или значения. Чтение/запись Double.
 
 ```csharp
 public double MinorUnit { get; set; }
@@ -16,7 +17,7 @@ public double MinorUnit { get; set; }
 
 ### Смотрите также
 
-* interface [IAxis](../../iaxis)
+* интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: CommentsPositions
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет правило для отображения комментариев в экспортированном документе
 type: docs
-weight: 3470
+weight: 3570
 url: /ru/aspose.slides.export/commentspositions/
 ---
-## CommentsPositions enumeration
+
+## Перечисление CommentsPositions
 
 Представляет правило для отображения комментариев в экспортированном документе
 
@@ -14,15 +15,15 @@ url: /ru/aspose.slides.export/commentspositions/
 public enum CommentsPositions
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| None | `0` | Указывает, что комментарии вообще не должны отображаться. |
+| None | `0` | Указывает, что комментарии не должны отображаться вообще. |
 | Bottom | `1` | Указывает, что комментарии должны отображаться внизу страницы. |
 | Right | `2` | Указывает, что комментарии должны отображаться справа от страницы. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

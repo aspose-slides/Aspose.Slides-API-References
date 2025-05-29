@@ -1,22 +1,23 @@
 ---
 title: UngroupingLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли разделение этой формы группы. Чтение/записьBoolean.
+second_title: Справка по API Aspose.Slides для .NET
+description: Определяет, запрещено ли разделение этой группы. Свойство типа Boolean для чтения и записи.
 type: docs
 weight: 70
 url: /ru/aspose.slides/groupshapelock/ungroupinglocked/
 ---
+
 ## GroupShapeLock.UngroupingLocked property
 
-Определяет, запрещено ли разделение этой формы группы. Чтение/записьBoolean.
+Определяет, запрещено ли разделение этой группы. Свойство типа Boolean для чтения и записи.
 
 ```csharp
 public bool UngroupingLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [GroupShapeLock](../../groupshapelock)
+* класс [GroupShapeLock](../../groupshapelock)
 * пространство имен [Aspose.Slides](../../groupshapelock)
 * сборка [Aspose.Slides](../../../)
 

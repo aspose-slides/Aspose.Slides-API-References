@@ -1,12 +1,13 @@
 ---
 title: InsertFromHtml
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Erstellt Folien aus HTMLText und fügt sie an der angegebenen Position in die Sammlung ein.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt Folien aus HTML-Text und fügt sie an der angegebenen Position in die Sammlung ein.
 type: docs
 weight: 90
 url: /de/aspose.slides/islidecollection/insertfromhtml/
 ---
-## InsertFromHtml(int, string, IExternalResourceResolver, string) {#insertfromhtml_5}
+
+## InsertFromHtml(int, string, IExternalResourceResolver, string) {#insertfromhtml_7}
 
 Erstellt Folien aus HTML-Text und fügt sie an der angegebenen Position in die Sammlung ein.
 
@@ -17,26 +18,26 @@ public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceReso
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Position zum Einfügen. |
-| htmlText | String | HTML hinzuzufügen. |
-| resolver | IExternalResourceResolver | Ein Callback-Objekt, das zum Abrufen externer Objekte verwendet wird. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
-| uri | String | Ein URI des angegebenen HTML. Wird verwendet, um relative Verknüpfungen aufzulösen. |
+| index | Int32 | Position, an der eingefügt werden soll. |
+| htmlText | String | HTML, das hinzugefügt werden soll. |
+| resolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| uri | String | Eine URI des angegebenen HTML. Wird verwendet, um relative Links aufzulösen. |
 
 ### Rückgabewert
 
-Folien hinzugefügt.
+Hinzugefügte Folien.
 
 ### Siehe auch
 
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* interface [ISlideCollection](../../islidecollection)
-* namensraum [Aspose.Slides](../../islidecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
-## InsertFromHtml(int, string) {#insertfromhtml_4}
+## InsertFromHtml(int, string) {#insertfromhtml_6}
 
 Erstellt Folien aus HTML-Text und fügt sie an der angegebenen Position in die Sammlung ein.
 
@@ -46,23 +47,23 @@ public ISlide[] InsertFromHtml(int index, string htmlText)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Position zum Einfügen. |
-| htmlText | String | HTML hinzuzufügen. |
+| index | Int32 | Position, an der eingefügt werden soll. |
+| htmlText | String | HTML, das hinzugefügt werden soll. |
 
 ### Rückgabewert
 
-Folien hinzugefügt
+Hinzugefügte Folien
 
 ### Siehe auch
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
-* namensraum [Aspose.Slides](../../islidecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
-## InsertFromHtml(int, TextReader, IExternalResourceResolver, string) {#insertfromhtml_3}
+## InsertFromHtml(int, TextReader, IExternalResourceResolver, string) {#insertfromhtml_5}
 
 Erstellt Folien aus HTML-Text und fügt sie an der angegebenen Position in die Sammlung ein.
 
@@ -73,26 +74,26 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Position zum Einfügen. |
+| index | Int32 | Position, an der eingefügt werden soll. |
 | htmlReader | TextReader | TextReader-Objekt, das als Quelle einer HTML-Datei verwendet wird. |
-| resolver | IExternalResourceResolver | Ein Callback-Objekt, das zum Abrufen externer Objekte verwendet wird. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
-| uri | String | Ein URI des angegebenen HTML. Wird verwendet, um relative Verknüpfungen aufzulösen. |
+| resolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| uri | String | Eine URI des angegebenen HTML. Wird verwendet, um relative Links aufzulösen. |
 
 ### Rückgabewert
 
-Folien hinzugefügt.
+Hinzugefügte Folien.
 
 ### Siehe auch
 
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* interface [ISlideCollection](../../islidecollection)
-* namensraum [Aspose.Slides](../../islidecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
-## InsertFromHtml(int, TextReader) {#insertfromhtml_2}
+## InsertFromHtml(int, TextReader) {#insertfromhtml_4}
 
 Erstellt Folien aus HTML-Text und fügt sie an der angegebenen Position in die Sammlung ein.
 
@@ -102,19 +103,19 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Position zum Einfügen. |
+| index | Int32 | Position, an der eingefügt werden soll. |
 | htmlReader | TextReader | TextReader-Objekt, das als Quelle einer HTML-Datei verwendet wird. |
 
 ### Rückgabewert
 
-Folien hinzugefügt
+Hinzugefügte Folien
 
 ### Siehe auch
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
-* namensraum [Aspose.Slides](../../islidecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -129,22 +130,22 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceRe
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Position zum Einfügen. |
+| index | Int32 | Position, an der eingefügt werden soll. |
 | htmlStream | Stream | Ein Stream-Objekt, das als Quelle einer HTML-Datei verwendet wird. |
-| resolver | IExternalResourceResolver | Ein Callback-Objekt, das zum Abrufen externer Objekte verwendet wird. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
-| uri | String | Ein URI des angegebenen HTML. Wird verwendet, um relative Verknüpfungen aufzulösen. |
+| resolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| uri | String | Eine URI des angegebenen HTML. Wird verwendet, um relative Links aufzulösen. |
 
 ### Rückgabewert
 
-Folien hinzugefügt.
+Hinzugefügte Folien.
 
 ### Siehe auch
 
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* interface [ISlideCollection](../../islidecollection)
-* namensraum [Aspose.Slides](../../islidecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -158,18 +159,134 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Position zum Einfügen. |
+| index | Int32 | Position, an der eingefügt werden soll. |
 | htmlStream | Stream | Ein Stream-Objekt, das als Quelle einer HTML-Datei verwendet wird. |
 
 ### Rückgabewert
 
-Folien hinzugefügt
+Hinzugefügte Folien
 
 ### Siehe auch
 
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
-* namensraum [Aspose.Slides](../../islidecollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
+
+---
+
+## InsertFromHtml(int, string, bool) {#insertfromhtml_9}
+
+Erstellt Folien aus HTML-Text und fügt sie an der angegebenen Position in die Sammlung ein.
+
+```csharp
+public ISlide[] InsertFromHtml(int index, string htmlText, bool useSlideWithIndexAsStart)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| index | Int32 | Position, an der eingefügt werden soll. |
+| htmlText | String | HTML, das hinzugefügt werden soll. |
+| useSlideWithIndexAsStart | Boolean | Dieses Flag bestimmt, wie die Einfügung beginnen soll: von einer neuen Folie oder von der Folie mit dem angegebenen Index. Wenn **true**, beginnt die Dateneinfügung von einem leeren Raum auf der Folie mit dem angegebenen Index. Wenn **false**, werden die Daten zu den erstellten Folien hinzugefügt. |
+
+### Rückgabewert
+
+Hinzugefügte Folien
+
+### Siehe auch
+
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
+
+---
+
+## InsertFromHtml(int, string, IExternalResourceResolver, string, bool) {#insertfromhtml_8}
+
+Erstellt Folien aus HTML-Text und fügt sie an der angegebenen Position in die Sammlung ein.
+
+```csharp
+public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceResolver resolver, 
+    string uri, bool useSlideWithIndexAsStart)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| index | Int32 | Position, an der eingefügt werden soll. |
+| htmlText | String | HTML, das hinzugefügt werden soll. |
+| resolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| uri | String | Eine URI des angegebenen HTML. Wird verwendet, um relative Links aufzulösen. |
+| useSlideWithIndexAsStart | Boolean | Dieses Flag bestimmt, wie die Einfügung beginnen soll: von einer neuen Folie oder von der Folie mit dem angegebenen Index. Wenn **true**, beginnt die Dateneinfügung von einem leeren Raum auf der Folie mit dem angegebenen Index. Wenn **false**, werden die Daten zu den erstellten Folien hinzugefügt. |
+
+### Rückgabewert
+
+Hinzugefügte Folien.
+
+### Siehe auch
+
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
+
+---
+
+## InsertFromHtml(int, Stream, bool) {#insertfromhtml_3}
+
+Erstellt Folien aus HTML-Text und fügt sie an der angegebenen Position in die Sammlung ein.
+
+```csharp
+public ISlide[] InsertFromHtml(int index, Stream htmlStream, bool useSlideWithIndexAsStart)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| index | Int32 | Position, an der eingefügt werden soll. |
+| htmlStream | Stream | Ein Stream-Objekt, das als Quelle einer HTML-Datei verwendet wird. |
+| useSlideWithIndexAsStart | Boolean | Dieses Flag bestimmt, wie die Einfügung beginnen soll: von einer neuen Folie oder von der Folie mit dem angegebenen Index. Wenn **true**, beginnt die Dateneinfügung von einem leeren Raum auf der Folie mit dem angegebenen Index. Wenn **false**, werden die Daten zu den erstellten Folien hinzugefügt. |
+
+### Rückgabewert
+
+Hinzugefügte Folien
+
+### Siehe auch
+
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
+
+---
+
+## InsertFromHtml(int, Stream, IExternalResourceResolver, string, bool) {#insertfromhtml_2}
+
+Erstellt Folien aus HTML-Text und fügt sie an der angegebenen Position in die Sammlung ein.
+
+```csharp
+public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceResolver resolver, 
+    string uri, bool useSlideWithIndexAsStart)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| index | Int32 | Position, an der eingefügt werden soll. |
+| htmlStream | Stream | Ein Stream-Objekt, das als Quelle einer HTML-Datei verwendet wird. |
+| resolver | IExternalResourceResolver | Ein Callback-Objekt, das verwendet wird, um externe Objekte abzurufen. Wenn dieser Parameter null ist, werden alle externen Objekte ignoriert. |
+| uri | String | Eine URI des angegebenen HTML. Wird verwendet, um relative Links aufzulösen. |
+| useSlideWithIndexAsStart | Boolean | Dieses Flag bestimmt, wie die Einfügung beginnen soll: von einer neuen Folie oder von der Folie mit dem angegebenen Index. Wenn **true**, beginnt die Dateneinfügung von einem leeren Raum auf der Folie mit dem angegebenen Index. Wenn **false**, werden die Daten zu den erstellten Folien hinzugefügt. |
+
+### Rückgabewert
+
+Hinzugefügte Folien.
+
+### Siehe auch
+
+* Schnittstelle [ISlide](../../islide)
+* Schnittstelle [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* Schnittstelle [ISlideCollection](../../islidecollection)
+* Namespace [Aspose.Slides](../../islidecollection)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

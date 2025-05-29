@@ -1,12 +1,13 @@
 ---
-title: SlideSize
-second_title: Справочник по API Aspose.Slides для .NET
+title: РазмерСлайда
+second_title: Справка по API Aspose.Slides для .NET
 description: Представляет размер слайда.
 type: docs
-weight: 9700
+weight: 10190
 url: /ru/aspose.slides/slidesize/
 ---
-## SlideSize class
+
+## Класс SlideSize
 
 Представляет размер слайда.
 
@@ -14,26 +15,26 @@ url: /ru/aspose.slides/slidesize/
 public class SlideSize : DomObject<Presentation>, ISlideSize
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Возвращает или задает ориентацию слайда.  Изменение этого значения поменяет местами размеры слайда. Чтение/запись[`SlideOrientation`](../slideorientation). |
-| [Size](../../aspose.slides/slidesize/size) { get; } | Возвращает или задает размер в пунктах.  Присвоение любого значения приведет к сбросу[`Type`](./type) свойствоCustomи установите[`Orientation`](./orientation) . Чтение/записьSizeF. |
-| [Type](../../aspose.slides/slidesize/type) { get; } | Возвращает или задает тип размера слайда.  Присвоение любого значения, кромеCustomизменится[`Size`](./size) соответственно, но сохранит[`Orientation`](./orientation) нетронутыми. Чтение/запись[`SlideSizeType`](../slidesizetype). |
+| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Возвращает или устанавливает ориентацию слайда. Изменение этого значения поменяет размеры слайда местами. Чтение/запись [`SlideOrientation`](../slideorientation). |
+| [Size](../../aspose.slides/slidesize/size) { get; } | Возвращает или устанавливает размер в пунктах. Присвоение любого значения сбросит свойство [`Type`](./type) на Custom и установит [`Orientation`](./orientation). Чтение/запись SizeF. |
+| [Type](../../aspose.slides/slidesize/type) { get; } | Возвращает или устанавливает тип размера слайда. Присвоение любого значения, кроме Custom, изменит [`Size`](./size) соответствующим образом, но сохранит [`Orientation`](./orientation) без изменений. Чтение/запись [`SlideSizeType`](../slidesizetype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Устанавливает тип размера слайда и масштабирует содержимое, используя тип масштаба.  Присвоение любого значения, кромеCustomизменится[`Size`](./size) соответственно, но сохранит[`Orientation`](./orientation) нетронутыми. |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Устанавливает размер в пунктах и масштабирует содержимое, используя тип масштаба.  Присвоение любого значения приведет к сбросу[`Type`](./type) свойствоCustomи установите[`Orientation`](./orientation) . |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Устанавливает тип размера слайда и масштабирует содержимое с использованием типа масштаба. Присвоение любого значения, кроме Custom, изменит [`Size`](./size) соответствующим образом, но сохранит [`Orientation`](./orientation) без изменений. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Устанавливает размер в пунктах и масштабирует содержимое с использованием типа масштаба. Присвоение любого значения сбросит свойство [`Type`](./type) на Custom и установит [`Orientation`](./orientation). |
 
-### Смотрите также
+### См. также
 
-* class [DomObject&lt;TParent&gt;](../domobject-1)
-* class [Presentation](../presentation)
-* interface [ISlideSize](../islidesize)
+* класс [DomObject&lt;TParent&gt;](../domobject-1)
+* класс [Presentation](../presentation)
+* интерфейс [ISlideSize](../islidesize)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

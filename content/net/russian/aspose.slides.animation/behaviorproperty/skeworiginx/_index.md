@@ -1,12 +1,13 @@
 ---
 title: SkewOriginX
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство skew.origin.x
 type: docs
 weight: 860
 url: /ru/aspose.slides.animation/behaviorproperty/skeworiginx/
 ---
-## BehaviorProperty.SkewOriginX property
+
+## Свойство BehaviorProperty.SkewOriginX
 
 Представляет свойство 'skew.origin.x'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/skeworiginx/
 public static BehaviorProperty SkewOriginX { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

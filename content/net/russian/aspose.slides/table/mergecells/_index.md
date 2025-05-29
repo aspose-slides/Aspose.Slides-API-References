@@ -1,12 +1,13 @@
 ---
 title: MergeCells
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Объединяет соседние ячейки.
 type: docs
-weight: 130
+weight: 140
 url: /ru/aspose.slides/table/mergecells/
 ---
-## Table.MergeCells method
+
+## Table.MergeCells метод
 
 Объединяет соседние ячейки.
 
@@ -16,18 +17,18 @@ public ICell MergeCells(ICell cell1, ICell cell2, bool allowSplitting)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cell1 | ICell | Ячейка для слияния. |
-| cell2 | ICell | Ячейка для слияния. |
-| allowSplitting | Boolean | Значение true, чтобы разрешить разделение ячеек. |
+| cell1 | ICell | Ячейка для объединения. |
+| cell2 | ICell | Ячейка для объединения. |
+| allowSplitting | Boolean | True, чтобы разрешить разделение ячеек. |
 
 ### Возвращаемое значение
 
 Объединенная ячейка.
 
-### Смотрите также
+### См. также
 
-* interface [ICell](../../icell)
-* class [Table](../../table)
+* интерфейс [ICell](../../icell)
+* класс [Table](../../table)
 * пространство имен [Aspose.Slides](../../table)
 * сборка [Aspose.Slides](../../../)
 

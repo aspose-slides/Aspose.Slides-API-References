@@ -1,28 +1,29 @@
 ---
 title: IAdjustValueCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор корректировок формы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет коллекцию корректировок формы.
 type: docs
-weight: 4710
+weight: 4990
 url: /ru/aspose.slides/iadjustvaluecollection/
 ---
-## IAdjustValueCollection interface
 
-Представляет набор корректировок формы.
+## Интерфейс IAdjustValueCollection
+
+Представляет коллекцию корректировок формы.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Позволяет получить базовый интерфейс ICollection. Только для чтенияICollection. |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Возвращает настройку по индексу. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Позволяет получить базовый интерфейс ICollection. Только для чтения ICollection. |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Возвращает корректировку по индексу. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,38 +1,39 @@
 ---
 title: SmartArtShapeCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет коллекцию фигур SmartArt
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой коллекцию фигур SmartArt
 type: docs
-weight: 9860
+weight: 10360
 url: /ru/aspose.slides.smartart/smartartshapecollection/
 ---
-## SmartArtShapeCollection class
 
-Представляет коллекцию фигур SmartArt
+## Класс SmartArtShapeCollection
+
+Представляет собой коллекцию фигур SmartArt
 
 ```csharp
 public class SmartArtShapeCollection : ISmartArtShapeCollection
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`SmartArtShape`](../smartartshape).&gt;. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
-### Смотрите также
+### См. также
 
-* interface [ISmartArtShapeCollection](../ismartartshapecollection)
+* интерфейс [ISmartArtShapeCollection](../ismartartshapecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * сборка [Aspose.Slides](../../)
 

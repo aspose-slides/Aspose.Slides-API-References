@@ -1,14 +1,15 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает индекс указанной метки DataLabel в коллекции.
+second_title: Aspose.Slildes для .NET Справочник по API
+description: Возвращает индекс указанного DataLabel в коллекции.
 type: docs
-weight: 100
+weight: 110
 url: /ru/aspose.slides.charts/idatalabelcollection/indexof/
 ---
-## IDataLabelCollection.IndexOf method
 
-Возвращает индекс указанной метки DataLabel в коллекции.
+## Метод IDataLabelCollection.IndexOf
+
+Возвращает индекс указанного DataLabel в коллекции.
 
 ```csharp
 public int IndexOf(IDataLabel value)
@@ -20,12 +21,12 @@ public int IndexOf(IDataLabel value)
 
 ### Возвращаемое значение
 
-Индекс метки данных или -1, если метка данных не из этой коллекции.
+Индекс DataLabel или -1, если DataLabel нет в этой коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IDataLabel](../../idatalabel)
-* interface [IDataLabelCollection](../../idatalabelcollection)
+* интерфейс [IDataLabel](../../idatalabel)
+* интерфейс [IDataLabelCollection](../../idatalabelcollection)
 * пространство имен [Aspose.Slides.Charts](../../idatalabelcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,20 +1,21 @@
 ---
 title: IHtmlFormatter
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет шаблон файла HTML.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Представляет шаблон HTML файла.
 type: docs
-weight: 3620
+weight: 3770
 url: /ru/aspose.slides.export/ihtmlformatter/
 ---
-## IHtmlFormatter interface
 
-Представляет шаблон файла HTML.
+## Интерфейс IHtmlFormatter
+
+Представляет шаблон HTML файла.
 
 ```csharp
 public interface IHtmlFormatter
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

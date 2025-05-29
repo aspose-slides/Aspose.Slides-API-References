@@ -1,14 +1,15 @@
 ---
 title: ColorTransformOperation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit lopération de transformation des couleurs.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Définit l'opération de transformation de couleur.
 type: docs
-weight: 2440
+weight: 2480
 url: /fr/aspose.slides/colortransformoperation/
 ---
-## ColorTransformOperation enumeration
 
-Définit l'opération de transformation des couleurs.
+## Énumération ColorTransformOperation
+
+Définit l'opération de transformation de couleur.
 
 ```csharp
 public enum ColorTransformOperation
@@ -16,40 +17,40 @@ public enum ColorTransformOperation
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| Tint | `0` | Teint la couleur. Le paramètre est compris entre 0 (couleur d'origine) et 1 (blanc). |
-| Shade | `1` | Ombre la couleur. Le paramètre est compris entre 0 (couleur d'origine) et 1 (noir). |
-| Complement | `2` | Change la couleur en une couleur RVB complémentaire. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
+| Tint | `0` | Teinte la couleur. Le paramètre est compris entre 0 (couleur originale) et 1 (blanc). |
+| Shade | `1` | Ombre la couleur. Le paramètre est compris entre 0 (couleur originale) et 1 (noir). |
+| Complement | `2` | Change la couleur en une couleur complémentaire RVB. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
 | Inverse | `3` | Change la couleur en une couleur inversée. r = 1 - r; g = 1 - g; b = 1 - b; |
-| Grayscale | `4` | Change la couleur en un gris avec la même luminosité. Paramètre ignoré. |
-| SetAlpha | `5` | Définit une composante alpha de la couleur. Le paramètre est compris entre 0 (transparent) et 1 (opaque). |
+| Grayscale | `4` | Change la couleur en une couleur grise avec la même luminosité. Paramètre ignoré. |
+| SetAlpha | `5` | Définit un composant alpha de la couleur. Le paramètre est compris entre 0 (transparent) et 1 (opaque). |
 | AddAlpha | `6` | Ajoute la valeur d'un paramètre à un composant alpha de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplyAlpha | `7` | Multiplie une composante alpha par la valeur d'un paramètre. |
-| SetHue | `8` | Modifie un composant de teinte de la couleur en une valeur de paramètre. Le paramètre est compris entre 0 et 360. |
-| AddHue | `9` | Ajoute la valeur du paramètre à la composante de teinte de la couleur. Le paramètre est compris entre -360 et 360. |
+| MultiplyAlpha | `7` | Multiplie un composant alpha par la valeur d'un paramètre. |
+| SetHue | `8` | Change un composant de teinte de la couleur à la valeur d'un paramètre. Le paramètre est compris entre 0 et 360. |
+| AddHue | `9` | Ajoute la valeur du paramètre au composant de teinte de la couleur. Le paramètre est compris entre -360 et 360. |
 | MultiplyHue | `10` | Multiplie un composant de teinte par la valeur d'un paramètre. |
-| SetSaturation | `11` | Modifie une composante de saturation de la couleur en une valeur de paramètre. Le paramètre est compris entre 0 et 1. |
+| SetSaturation | `11` | Change un composant de saturation de la couleur à la valeur d'un paramètre. Le paramètre est compris entre 0 et 1. |
 | AddSaturation | `12` | Ajoute la valeur d'un paramètre à un composant de saturation de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplySaturation | `13` | Multiplie une composante de saturation par la valeur d'un paramètre. |
-| SetLuminance | `14` | Modifie une composante de luminance de la couleur en une valeur de paramètre. Le paramètre est compris entre 0 et 1. |
+| MultiplySaturation | `13` | Multiplie un composant de saturation par la valeur d'un paramètre. |
+| SetLuminance | `14` | Change un composant de luminance de la couleur à la valeur d'un paramètre. Le paramètre est compris entre 0 et 1. |
 | AddLuminance | `15` | Ajoute la valeur d'un paramètre à un composant de luminance de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplyLuminance | `16` | Multiplie une composante de luminance par la valeur d'un paramètre. |
-| SetRed | `17` | Modifie une composante rouge de la couleur en une valeur de paramètre. Le paramètre est compris entre 0 et 1. |
+| MultiplyLuminance | `16` | Multiplie un composant de luminance par la valeur d'un paramètre. |
+| SetRed | `17` | Change un composant rouge de la couleur à la valeur d'un paramètre. Le paramètre est compris entre 0 et 1. |
 | AddRed | `18` | Ajoute la valeur d'un paramètre à un composant rouge de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplyRed | `19` | Multiplie une composante rouge par un paramètre. |
-| SetGreen | `20` | Modifie une composante verte de la couleur en la valeur d'un paramètre. Le paramètre est compris entre 0 et 1. |
+| MultiplyRed | `19` | Multiplie un composant rouge par un paramètre. |
+| SetGreen | `20` | Change un composant vert de la couleur à la valeur d'un paramètre. Le paramètre est compris entre 0 et 1. |
 | AddGreen | `21` | Ajoute un paramètre à un composant vert de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplyGreen | `22` | Multiplie une composante verte de la couleur par la valeur d'un paramètre. |
-| SetBlue | `23` | Modifie une composante bleue de la couleur en une valeur de paramètre. Le paramètre est compris entre 0 et 360. |
+| MultiplyGreen | `22` | Multiplie un composant vert de la couleur par la valeur d'un paramètre. |
+| SetBlue | `23` | Change un composant bleu de la couleur à la valeur d'un paramètre. Le paramètre est compris entre 0 et 360. |
 | AddBlue | `24` | Ajoute la valeur d'un paramètre à un composant bleu de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplyBlue | `25` | Multiplie une composante bleue de la couleur par la valeur d'un paramètre. |
+| MultiplyBlue | `25` | Multiplie un composant bleu de la couleur par la valeur d'un paramètre. |
 | Gamma | `26` | Correction gamma. Paramètre ignoré. |
 | InverseGamma | `27` | Correction gamma inverse. Paramètre ignoré. |
 
-### Voir également
+### Voir aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
-* Assemblée [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

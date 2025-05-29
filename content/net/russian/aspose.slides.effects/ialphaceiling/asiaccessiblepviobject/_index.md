@@ -1,24 +1,25 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/ialphaceiling/asiaccessiblepviobject/
 ---
-## IAlphaCeiling.AsIAccessiblePVIObject property
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+## IAlphaCeiling.AsIAccessiblePVIObject свойство
+
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IAlphaCeilingEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* interface [IAlphaCeilingEffectiveData](../../ialphaceilingeffectivedata)
-* interface [IAlphaCeiling](../../ialphaceiling)
+* интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* интерфейс [IAlphaCeilingEffectiveData](../../ialphaceilingeffectivedata)
+* интерфейс [IAlphaCeiling](../../ialphaceiling)
 * пространство имен [Aspose.Slides.Effects](../../ialphaceiling)
 * сборка [Aspose.Slides](../../../)
 

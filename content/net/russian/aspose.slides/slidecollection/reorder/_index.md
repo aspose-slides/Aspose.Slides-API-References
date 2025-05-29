@@ -1,14 +1,15 @@
 ---
-title: Reorder
-second_title: Справочник по API Aspose.Slides для .NET
-description: Перемещает слайд из коллекции в указанную позицию.
+title: Переупорядочить
+second_title: Aspose.Slides для .NET Справочник по API
+description: Перемещает слайд из коллекции на указанную позицию.
 type: docs
 weight: 170
 url: /ru/aspose.slides/slidecollection/reorder/
 ---
-## Reorder(int, ISlide) {#reorder}
 
-Перемещает слайд из коллекции в указанную позицию.
+## Переупорядочить(int, ISlide) {#reorder}
+
+Перемещает слайд из коллекции на указанную позицию.
 
 ```csharp
 public void Reorder(int index, ISlide slide)
@@ -17,20 +18,20 @@ public void Reorder(int index, ISlide slide)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Целевой индекс. |
-| слайд | ISlide | Слайд для перемещения. |
+| slide | ISlide | Слайд для перемещения. |
 
-### Смотрите также
+### См. также
 
-* interface [ISlide](../../islide)
-* class [SlideCollection](../../slidecollection)
+* интерфейс [ISlide](../../islide)
+* класс [SlideCollection](../../slidecollection)
 * пространство имен [Aspose.Slides](../../slidecollection)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Reorder(int, params ISlide[]) {#reorder_1}
+## Переупорядочить(int, params ISlide[]) {#reorder_1}
 
-Перемещает слайды из коллекции в указанную позицию. Слайды будут располагаться, начиная с индекса, в порядке их появления в списке.
+Перемещает слайды из коллекции на указанную позицию. Слайды будут размещены начиная с индекса в порядке их появления в списке.
 
 ```csharp
 public void Reorder(int index, params ISlide[] slides)
@@ -39,12 +40,12 @@ public void Reorder(int index, params ISlide[] slides)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Целевой индекс. |
-| слайды | ISlide[] | Слайды для перемещения. |
+| slides | ISlide[] | Слайды для перемещения. |
 
-### Смотрите также
+### См. также
 
-* interface [ISlide](../../islide)
-* class [SlideCollection](../../slidecollection)
+* интерфейс [ISlide](../../islide)
+* класс [SlideCollection](../../slidecollection)
 * пространство имен [Aspose.Slides](../../slidecollection)
 * сборка [Aspose.Slides](../../../)
 

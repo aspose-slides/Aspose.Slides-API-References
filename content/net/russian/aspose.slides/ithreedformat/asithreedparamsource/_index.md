@@ -1,23 +1,24 @@
 ---
 title: AsIThreeDParamSource
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IThreeDParamSource. Только для чтенияIThreeDParamSourceaspose.slides/ithreedparamsource.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс IThreeDParamSource. Доступ только для чтения IThreeDParamSourceaspose.slides/ithreedparamsource.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ithreedformat/asithreedparamsource/
 ---
-## IThreeDFormat.AsIThreeDParamSource property
 
-Позволяет получить базовый интерфейс IThreeDParamSource. Только для чтения[`IThreeDParamSource`](../../ithreedparamsource).
+## IThreeDFormat.AsIThreeDParamSource свойство
+
+Позволяет получить базовый интерфейс IThreeDParamSource. Доступ только для чтения [`IThreeDParamSource`](../../ithreedparamsource).
 
 ```csharp
 public IThreeDParamSource AsIThreeDParamSource { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IThreeDParamSource](../../ithreedparamsource)
-* interface [IThreeDFormat](../../ithreedformat)
+* интерфейс [IThreeDParamSource](../../ithreedparamsource)
+* интерфейс [IThreeDFormat](../../ithreedformat)
 * пространство имен [Aspose.Slides](../../ithreedformat)
 * сборка [Aspose.Slides](../../../)
 

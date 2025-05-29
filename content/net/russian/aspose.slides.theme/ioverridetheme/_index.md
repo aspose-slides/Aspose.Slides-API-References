@@ -1,44 +1,45 @@
 ---
 title: IOverrideTheme
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет приоритетную тему.
+description: Представляет собой переопределяющую тему.
 type: docs
-weight: 10530
+weight: 11030
 url: /ru/aspose.slides.theme/ioverridetheme/
 ---
-## IOverrideTheme interface
 
-Представляет приоритетную тему.
+## Интерфейс IOverrideTheme
+
+Представляет собой переопределяющую тему.
 
 ```csharp
 public interface IOverrideTheme : ITheme
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Позволяет получить базовый интерфейс ITheme. Только для чтения[`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Значение True означает, что ColorScheme, FontScheme, FormatScheme имеют значение null и любые переопределения с этим объектом темы отключены. Только чтениеBoolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Позволяет получить базовый интерфейс ITheme. Только для чтения [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Значение true означает, что ColorScheme, FontScheme, FormatScheme равны null и любое переопределение с помощью этого объекта темы отключено. Только для чтения Boolean. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Установите для ColorScheme, FontScheme, FormatScheme значение null, чтобы отключить любое переопределение с этим объектом темы. |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Инициировать ColorScheme с новым объектом для переопределения ColorScheme InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Инициировать ColorScheme с новым объектом для переопределения ColorScheme InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Инициировать ColorScheme с новым объектом для переопределения ColorScheme InheritedTheme. И инициализируйте данные этого нового объекта данными ColorScheme InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Инициировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Инициировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Инициировать FontScheme с новым объектом для переопределения FontScheme InheritedTheme. И инициализируйте данные этого нового объекта данными FontScheme InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Init FormatScheme с новым объектом для переопределения FormatScheme InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Init FormatScheme с новым объектом для переопределения FormatScheme InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Init FormatScheme с новым объектом для переопределения FormatScheme InheritedTheme. И инициализируйте данные этого нового объекта данными FormatScheme InheritedTheme. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Устанавливает ColorScheme, FontScheme, FormatScheme в null, чтобы отключить любое переопределение с помощью этого объекта темы. |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Инициализирует ColorScheme новым объектом для переопределения ColorScheme у InheritedTheme. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Инициализирует ColorScheme новым объектом для переопределения ColorScheme у InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Инициализирует ColorScheme новым объектом для переопределения ColorScheme у InheritedTheme. И инициализирует данные этого нового объекта данными ColorScheme у InheritedTheme. |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Инициализирует FontScheme новым объектом для переопределения FontScheme у InheritedTheme. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Инициализирует FontScheme новым объектом для переопределения FontScheme у InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Инициализирует FontScheme новым объектом для переопределения FontScheme у InheritedTheme. И инициализирует данные этого нового объекта данными FontScheme у InheritedTheme. |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Инициализирует FormatScheme новым объектом для переопределения FormatScheme у InheritedTheme. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Инициализирует FormatScheme новым объектом для переопределения FormatScheme у InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Инициализирует FormatScheme новым объектом для переопределения FormatScheme у InheritedTheme. И инициализирует данные этого нового объекта данными FormatScheme у InheritedTheme. |
 
-### Смотрите также
+### См. также
 
-* interface [ITheme](../itheme)
+* интерфейс [ITheme](../itheme)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

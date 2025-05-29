@@ -1,29 +1,30 @@
 ---
 title: ChartLinesFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет свойства формата линий сетки.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет свойства формата сеточных линий.
 type: docs
-weight: 1270
+weight: 1330
 url: /ru/aspose.slides.charts/chartlinesformat/
 ---
-## ChartLinesFormat class
 
-Представляет свойства формата линий сетки.
+## Класс ChartLinesFormat
+
+Представляет свойства формата сеточных линий.
 
 ```csharp
 public class ChartLinesFormat : IChartLinesFormat
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Возвращает эффекты, используемые для линии графика. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Возвращает свойства стиля линии линии диаграммы. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | Возвращает эффекты, используемые для линии графика. Только для чтения [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | Возвращает свойства стиля линии для линии графика. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### Смотрите также
+### См. также
 
-* interface [IChartLinesFormat](../ichartlinesformat)
+* интерфейс [IChartLinesFormat](../ichartlinesformat)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

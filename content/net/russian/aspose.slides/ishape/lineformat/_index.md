@@ -1,23 +1,24 @@
 ---
 title: LineFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект LineFormat который содержит свойства форматирования линии для фигуры. Только для чтенияILineFormataspose.slides/ilineformat.
+second_title: Справочная информация по Aspose.Slides для .NET
+description: Возвращает объект LineFormat, который содержит свойства форматирования линии для фигуры. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs
-weight: 150
+weight: 160
 url: /ru/aspose.slides/ishape/lineformat/
 ---
-## IShape.LineFormat property
 
-Возвращает объект LineFormat, который содержит свойства форматирования линии для фигуры. Только для чтения[`ILineFormat`](../../ilineformat).
+## Свойство IShape.LineFormat
+
+Возвращает объект LineFormat, который содержит свойства форматирования линии для фигуры. Только для чтения [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat LineFormat { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [ILineFormat](../../ilineformat)
-* interface [IShape](../../ishape)
+* интерфейс [ILineFormat](../../ilineformat)
+* интерфейс [IShape](../../ishape)
 * пространство имен [Aspose.Slides](../../ishape)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,24 @@
 ---
 title: UserShapes
 second_title: Справочник по API Aspose.Slides для .NET
-description: Укажите фигуры нарисованные поверх диаграммы. Только для чтенияIGroupShapeaspose.slides/igroupshape.
+description: Укажите фигуры, нарисованные поверх графика. Только для чтения IGroupShape aspose.slides/igroupshape.
 type: docs
 weight: 240
 url: /ru/aspose.slides.charts/chart/usershapes/
 ---
-## Chart.UserShapes property
 
-Укажите фигуры, нарисованные поверх диаграммы. Только для чтения[`IGroupShape`](../../../aspose.slides/igroupshape).
+## Свойство Chart.UserShapes
+
+Укажите фигуры, нарисованные поверх графика. Только для чтения [`IGroupShape`](../../../aspose.slides/igroupshape).
 
 ```csharp
 public IGroupShape UserShapes { get; }
 ```
 
-### Смотрите также
+### Также см. 
 
-* interface [IGroupShape](../../../aspose.slides/igroupshape)
-* class [Chart](../../chart)
+* интерфейс [IGroupShape](../../../aspose.slides/igroupshape)
+* класс [Chart](../../chart)
 * пространство имен [Aspose.Slides.Charts](../../chart)
 * сборка [Aspose.Slides](../../../)
 

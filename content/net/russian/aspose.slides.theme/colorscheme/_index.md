@@ -1,42 +1,43 @@
 ---
 title: ColorScheme
 second_title: Справочник по API Aspose.Slides для .NET
-description: Сохраняет цвета определенные темой.
+description: Хранит цвета, определенные темой.
 type: docs
-weight: 10260
+weight: 10760
 url: /ru/aspose.slides.theme/colorscheme/
 ---
-## ColorScheme class
 
-Сохраняет цвета, определенные темой.
+## Класс ColorScheme
+
+Хранит цвета, определенные темой.
 
 ```csharp
 public class ColorScheme : IColorScheme
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Первый акцентный цвет в схеме. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Второй акцентный цвет в схеме. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Третий акцентный цвет в схеме. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Четвертый акцентный цвет в схеме. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Пятый акцентный цвет в схеме. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Шестой акцентный цвет в схеме. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Первый тёмный цвет в схеме. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Второй темный цвет в схеме. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Цвет посещенных гиперссылок. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Цвет гиперссылок. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Первый светлый цвет в схеме. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Второй светлый цвет в схеме. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Возвращает родительскую презентацию. Только чтение[`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Возвращает родительский слайд. Только для чтения[`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Первый акцентный цвет в колор-схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Второй акцентный цвет в колор-схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Третий акцентный цвет в колор-схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Четвертый акцентный цвет в колор-схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Пятый акцентный цвет в колор-схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Шестой акцентный цвет в колор-схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Первый темный цвет в колор-схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Второй темный цвет в колор-схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Цвет для посещенных гиперссылок. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Цвет для гиперссылок. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Возвращает элемент по указанному индексу. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Первый светлый цвет в колор-схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Второй светлый цвет в колор-схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Возвращает родительскую презентацию. Только для чтения [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Возвращает родительский слайд. Только для чтения [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
-### Смотрите также
+### См. также
 
-* interface [IColorScheme](../icolorscheme)
+* интерфейс [IColorScheme](../icolorscheme)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

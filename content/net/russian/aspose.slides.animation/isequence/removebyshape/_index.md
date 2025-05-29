@@ -1,14 +1,15 @@
 ---
 title: RemoveByShape
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удалить эффект для указанной формы.
+second_title: Справка по API Aspose.Slidess для .NET
+description: Удаление эффекта для указанной формы.
 type: docs
 weight: 120
 url: /ru/aspose.slides.animation/isequence/removebyshape/
 ---
-## ISequence.RemoveByShape method
 
-Удалить эффект для указанной формы.
+## Метод ISequence.RemoveByShape
+
+Удаление эффекта для указанной формы.
 
 ```csharp
 public void RemoveByShape(IShape shape)
@@ -16,12 +17,12 @@ public void RemoveByShape(IShape shape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | IShape | Shape object[`IShape`](../../../aspose.slides/ishape) |
+| shape | IShape | Объект формы [`IShape`](../../../aspose.slides/ishape) |
 
-### Смотрите также
+### См. также
 
-* interface [IShape](../../../aspose.slides/ishape)
-* interface [ISequence](../../isequence)
+* интерфейс [IShape](../../../aspose.slides/ishape)
+* интерфейс [ISequence](../../isequence)
 * пространство имен [Aspose.Slides.Animation](../../isequence)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: IMathematicalText
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Математический текст
 type: docs
-weight: 7790
+weight: 8250
 url: /ru/aspose.slides.mathtext/imathematicaltext/
 ---
-## IMathematicalText interface
+
+## Интерфейс IMathematicalText
 
 Математический текст
 
@@ -14,13 +15,13 @@ url: /ru/aspose.slides.mathtext/imathematicaltext/
 public interface IMathematicalText : IMathElement
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | Свойства форматирования текста |
-| [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | Текстовое значение |
+| [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | Значение текста |
 
 ### Примеры
 
@@ -31,9 +32,9 @@ public interface IMathematicalText : IMathElement
 IMathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../imathelement)
+* интерфейс [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

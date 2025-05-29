@@ -1,12 +1,13 @@
 ---
 title: AddPictureFrame
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для справочника API .NET
 description: Создает новый PictureFrame и добавляет его в конец коллекции.
 type: docs
 weight: 160
 url: /ru/aspose.slides/shapecollection/addpictureframe/
 ---
-## ShapeCollection.AddPictureFrame method
+
+## ShapeCollection.AddPictureFrame метод
 
 Создает новый PictureFrame и добавляет его в конец коллекции.
 
@@ -17,23 +18,23 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | Форма, содержащаяся в наборе[`ShapeType`](../../shapetype) фигур, кроме всяких линий: |
+| shapeType | ShapeType | Форма, содержащаяся в наборе [`ShapeType`](../../shapetype) форм, за исключением всех видов линий: |
 | x | Single | Координата X для левой стороны рамки формы. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
-| width | Single | Ширина рамки фигуры. |
-| height | Single | Высота рамки фигуры. |
-| image | IPPImage | Изображение рамки изображения. |
+| y | Single | Координата Y для верхней стороны рамки формы. |
+| width | Single | Ширина рамки формы. |
+| height | Single | Высота рамки формы. |
+| image | IPPImage | Изображение рамки. |
 
 ### Возвращаемое значение
 
-Создан объект PictureFrame.
+Созданный объект PictureFrame.
 
-### Смотрите также
+### См. также
 
-* interface [IPictureFrame](../../ipictureframe)
-* enum [ShapeType](../../shapetype)
-* interface [IPPImage](../../ippimage)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IPictureFrame](../../ipictureframe)
+* перечисление [ShapeType](../../shapetype)
+* интерфейс [IPPImage](../../ippimage)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

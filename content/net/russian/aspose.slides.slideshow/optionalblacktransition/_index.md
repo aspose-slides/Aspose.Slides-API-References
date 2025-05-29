@@ -1,36 +1,37 @@
 ---
 title: OptionalBlackTransition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Дополнительный эффект перехода черного слайда.
+second_title: Aspose.Sildes для .NET API справочник
+description: Опциональный эффект перехода на черный слайд.
 type: docs
-weight: 9480
+weight: 9950
 url: /ru/aspose.slides.slideshow/optionalblacktransition/
 ---
-## OptionalBlackTransition class
 
-Дополнительный эффект перехода черного слайда.
+## Класс OptionalBlackTransition
+
+Опциональный эффект перехода на черный слайд.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, будет ли переход начинаться с черного экрана (и затем переходить новый слайд поверх черного). Чтение/записьBoolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, начнется ли переход с черного экрана (а затем будет выполнен переход к новому слайду на черном фоне). Чтение/запись Boolean. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для данного типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
 
-### Смотрите также
+### Также см.
 
-* class [TransitionValueBase](../transitionvaluebase)
-* interface [IOptionalBlackTransition](../ioptionalblacktransition)
+* класс [TransitionValueBase](../transitionvaluebase)
+* интерфейс [IOptionalBlackTransition](../ioptionalblacktransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

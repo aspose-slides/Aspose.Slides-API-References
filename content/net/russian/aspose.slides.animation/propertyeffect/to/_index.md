@@ -1,22 +1,23 @@
 ---
-title: To
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает конечное значение анимации. Чтение/записьString.
+title: До
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Указывает конечное значение для анимации. Читаемое/Записываемое строковое значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/propertyeffect/to/
 ---
-## PropertyEffect.To property
 
-Указывает конечное значение анимации. Чтение/записьString.
+## Свойство PropertyEffect.To
+
+Указывает конечное значение для анимации. Читаемое/Записываемое строковое значение.
 
 ```csharp
 public string To { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* class [PropertyEffect](../../propertyeffect)
+* класс [PropertyEffect](../../propertyeffect)
 * пространство имен [Aspose.Slides.Animation](../../propertyeffect)
 * сборка [Aspose.Slides](../../../)
 

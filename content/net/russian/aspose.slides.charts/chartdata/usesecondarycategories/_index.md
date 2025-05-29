@@ -1,14 +1,15 @@
 ---
-title: UseSecondaryCategories
-second_title: Справочник по API Aspose.Slides для .NET
-description: Если false тоSecondaryCategoriesaspose.slides.charts/chartdata/secondarycategoriesсвойство возвращает null и данные вCategoriesaspose.slides.charts/chartdata/categoriesсвойство используется как для основного так и для дополнительного ряда. Если true то данные в свойствеSecondaryCategoriesaspose.slides.charts/chartdata/secondarycategoriesиспользуются для вторичных рядов и данных вCategoriesaspose.slides.charts/chartdata/categoriesсвойство используется для основной серии. Чтение/записьBoolean.
+title: ИспользоватьВторичныеКатегории
+second_title: Aspose.Slides для .NET API Справочник
+description: Если ложь, то свойство SecondaryCategoriesaspose.slides.charts/chartdata/secondarycategories возвращает null, и данные в свойстве Categoriesaspose.slides.charts/chartdata/categories используются как для первичных, так и для вторичных последовательностей. Если истина, то данные в свойстве SecondaryCategoriesaspose.slides.charts/chartdata/secondarycategories используются для вторичных последовательностей, а данные в свойстве Categoriesaspose.slides.charts/chartdata/categories используются для первичных последовательностей. Читаемое/Запись булево.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/chartdata/usesecondarycategories/
 ---
-## ChartData.UseSecondaryCategories property
 
-Если false, то[`SecondaryCategories`](../secondarycategories)свойство возвращает null и данные в[`Categories`](../categories)свойство используется как для основного, так и для дополнительного ряда. Если true, то данные в свойстве[`SecondaryCategories`](../secondarycategories)используются для вторичных рядов и данных в[`Categories`](../categories)свойство используется для основной серии. Чтение/записьBoolean.
+## ChartData.UseSecondaryCategories свойство
+
+Если ложь, то свойство [`SecondaryCategories`](../secondarycategories) возвращает null, и данные в свойстве [`Categories`](../categories) используются как для первичных, так и для вторичных последовательностей. Если истина, то данные в свойстве [`SecondaryCategories`](../secondarycategories) используются для вторичных последовательностей, а данные в свойстве [`Categories`](../categories) используются для первичных последовательностей. Читаемое/Запись булево.
 
 ```csharp
 public bool UseSecondaryCategories { get; set; }
@@ -16,22 +17,22 @@ public bool UseSecondaryCategories { get; set; }
 
 ### Примеры
 
-Пример. Какие категории связаны с сериями - ChartData.Categories или ChartData.SecondaryCategories?
+Пример. Какие категории относятся к последовательностям - ChartData.Categories или ChartData.SecondaryCategories?
 
 ```csharp
 if (series.PlotOnSecondAxis && series.Chart.ChartData.UseSecondaryCategories)
 {
-     // связанные категории: series.Chart.ChartData.SecondaryCategories
+    // связанные категории - series.Chart.ChartData.SecondaryCategories
 }
 else
 {
-     // связанные категории: series.Chart.ChartData.Categories
+    // связанные категории - series.Chart.ChartData.Categories
 }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartData](../../chartdata)
+* класс [ChartData](../../chartdata)
 * пространство имен [Aspose.Slides.Charts](../../chartdata)
 * сборка [Aspose.Slides](../../../)
 

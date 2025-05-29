@@ -6,7 +6,8 @@ type: docs
 weight: 110
 url: /ru/aspose.slides/effectformat/disablefilloverlayeffect/
 ---
-## EffectFormat.DisableFillOverlayEffect method
+
+## EffectFormat.DisableFillOverlayEffect метод
 
 Отключает эффект наложения заливки.
 
@@ -16,7 +17,7 @@ public void DisableFillOverlayEffect()
 
 ### Смотрите также
 
-* class [EffectFormat](../../effectformat)
+* класс [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

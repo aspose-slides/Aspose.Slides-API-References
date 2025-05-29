@@ -1,22 +1,23 @@
 ---
 title: SelectLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещен ли выбор этой фигуры. Чтение/записьBoolean.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Определяет, запрещено ли выделение этой фигуры. Числовое значение "true/false" для чтения/записи.
 type: docs
 weight: 50
 url: /ru/aspose.slides/graphicalobjectlock/selectlocked/
 ---
-## GraphicalObjectLock.SelectLocked property
 
-Определяет, запрещен ли выбор этой фигуры. Чтение/записьBoolean.
+## Свойство GraphicalObjectLock.SelectLocked
+
+Определяет, запрещено ли выделение этой фигуры. Числовое значение "true/false" для чтения/записи.
 
 ```csharp
 public bool SelectLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [GraphicalObjectLock](../../graphicalobjectlock)
+* класс [GraphicalObjectLock](../../graphicalobjectlock)
 * пространство имен [Aspose.Slides](../../graphicalobjectlock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: StrokeStartArrow
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство stroke.startArrow
 type: docs
 weight: 1010
 url: /ru/aspose.slides.animation/behaviorproperty/strokestartarrow/
 ---
-## BehaviorProperty.StrokeStartArrow property
+
+## Свойство BehaviorProperty.StrokeStartArrow
 
 Представляет свойство 'stroke.startArrow'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokestartarrow/
 public static BehaviorProperty StrokeStartArrow { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

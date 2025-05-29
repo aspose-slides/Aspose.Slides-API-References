@@ -1,31 +1,32 @@
 ---
 title: MathIntegralTypes
-second_title: Справочник по API Aspose.Slides для .NET
-description: Типы математических интегралов
+second_title: Aspose.Sildes для .NET API Справочник
+description: Математические интегральные типы
 type: docs
-weight: 8070
+weight: 8530
 url: /ru/aspose.slides.mathtext/mathintegraltypes/
 ---
-## MathIntegralTypes enumeration
 
-Типы математических интегралов
+## Перечисление MathIntegralTypes
+
+Математические интегральные типы
 
 ```csharp
 public enum MathIntegralTypes
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Simple | `0` | Интеграл:'∫' |
-| Double | `1` | Двойной интеграл:'∬' |
-| Triple | `2` | Тройной интеграл:'∭' |
-| Contour | `3` | Интеграл контура:'∮' |
-| Surface | `4` | Поверхностный интеграл:'∯' |
-| Volume | `5` | VolumeIntegral:'∰' |
+| Simple | `0` | Интеграл: '∫' |
+| Double | `1` | Двойной интеграл: '∬' |
+| Triple | `2` | Тройной интеграл: '∭' |
+| Contour | `3` | Контурный интеграл: '∮' |
+| Surface | `4` | Поверхностный интеграл: '∯' |
+| Volume | `5` | Объемный интеграл: '∰' |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

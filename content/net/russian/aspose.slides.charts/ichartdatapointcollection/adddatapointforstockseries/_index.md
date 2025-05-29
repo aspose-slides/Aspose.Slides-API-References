@@ -1,14 +1,15 @@
 ---
 title: AddDataPointForStockSeries
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий ChartType которых является одним из подтипов Stock см. также метод ChartTypeCharacterizer.IsChartTypeStockChartType.
+second_title: Aspose.Slides для .NET API Reference
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей chartType является одним из субтипов Stock, см. также метод ChartTypeCharacterizer.IsChartTypeStockChartType.
 type: docs
 weight: 190
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforstockseries/
 ---
+
 ## AddDataPointForStockSeries(IChartDataCell) {#adddatapointforstockseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Stock (см. также метод ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей chartType является одним из субтипов Stock (см. также метод ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
@@ -16,17 +17,17 @@ public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | IChartDataCell | Значение точки данных. |
+| value | IChartDataCell | Значение точки данных. |
 
-### Возвращаемое значение
+### Возврат значения
 
 Новая точка данных.
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataPoint](../../ichartdatapoint)
-* interface [IChartDataCell](../../ichartdatacell)
-* interface [IChartDataPointCollection](../../ichartdatapointcollection)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -34,7 +35,7 @@ public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
 
 ## AddDataPointForStockSeries(double) {#adddatapointforstockseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Stock (см. также метод ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей chartType является одним из субтипов Stock (см. также метод ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForStockSeries(double value)
@@ -42,16 +43,16 @@ public IChartDataPoint AddDataPointForStockSeries(double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Double | Значение точки данных. |
+| value | Double | Значение точки данных. |
 
-### Возвращаемое значение
+### Возврат значения
 
 Новая точка данных.
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataPoint](../../ichartdatapoint)
-* interface [IChartDataPointCollection](../../ichartdatapointcollection)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
+* интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * сборка [Aspose.Slides](../../../)
 

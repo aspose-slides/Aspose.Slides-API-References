@@ -1,12 +1,13 @@
 ---
 title: IMasterHandoutSlide
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Представляет мастер-слайд для раздаточных материалов.
 type: docs
-weight: 5790
+weight: 6150
 url: /ru/aspose.slides/imasterhandoutslide/
 ---
-## IMasterHandoutSlide interface
+
+## Интерфейс IMasterHandoutSlide
 
 Представляет мастер-слайд для раздаточных материалов.
 
@@ -14,18 +15,18 @@ url: /ru/aspose.slides/imasterhandoutslide/
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter основного слайда раздаточных материалов. Только для чтения[`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Возвращает менеджер заголовков и колонтитулов мастер-слайда раздаточного материала. Только для чтения [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
-### Смотрите также
+### См. также
 
-* interface [IBaseSlide](../ibaseslide)
-* interface [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)
+* интерфейс [IBaseSlide](../ibaseslide)
+* интерфейс [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

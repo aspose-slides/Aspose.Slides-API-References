@@ -1,14 +1,15 @@
 ---
 title: Connector
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Stellt einen Konnektor dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt einen Connector dar.
 type: docs
-weight: 2540
+weight: 2580
 url: /de/aspose.slides/connector/
 ---
-## Connector class
 
-Stellt einen Konnektor dar.
+## Connector-Klasse
+
+Stellt einen Connector dar.
 
 ```csharp
 public class Connector : GeometryShape, IConnector
@@ -18,67 +19,69 @@ public class Connector : GeometryShape, IConnector
 
 | Name | Beschreibung |
 | --- | --- |
-| [Adjustments](../../aspose.slides/geometryshape/adjustments) { get; } | Gibt eine Sammlung von Anpassungswerten der Form zurück. Schreibgeschützt[`IAdjustValueCollection`](../iadjustvaluecollection) . |
-| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Gibt den einer Form zugeordneten alternativen Text zurück oder legt ihn fest. Lesen/SchreibenString . |
-| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Gibt den Titel des alternativen Textes zurück, der einer Form zugeordnet ist, oder legt ihn fest. Lesen/SchreibenString . |
-| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | -Eigenschaft gibt an, wie eine Form im Schwarzweiß-Anzeigemodus gerendert wird.. Lesen/Schreiben[`BlackWhiteMode`](../blackwhitemode) . |
-| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Gibt die Anzahl der Verbindungsstellen in der Form zurück. SchreibgeschütztInt32 . |
-| [ConnectorLock](../../aspose.slides/connector/connectorlock) { get; } | Gibt die Sperren des Connectors zurück. Schreibgeschützt[`IConnectorLock`](../iconnectorlock) . |
-| [CustomData](../../aspose.slides/shape/customdata) { get; } | Gibt die benutzerdefinierten Daten der Form zurück. Schreibgeschützt[`ICustomData`](../icustomdata) . |
-| virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Gibt das EffectFormat-Objekt zurück, das Pixeleffekte enthält, die auf eine Form angewendet wurden. Hinweis: Kann für bestimmte Arten von Formen, die keine Effekteigenschaften haben, null zurückgeben. Schreibgeschützt[`IEffectFormat`](../ieffectformat) . |
-| [EndShapeConnectedTo](../../aspose.slides/connector/endshapeconnectedto) { get; set; } | Gibt die Form zurück oder legt sie fest, an der das Ende des Verbinders befestigt werden soll. Lesen/Schreiben[`IShape`](../ishape) . |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/connector/endshapeconnectionsiteindex) { get; set; } | Gibt den Index der Verbindungsstelle für die Endform zurück oder legt ihn fest. Lesen/SchreibenUInt32 . |
-| virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | Gibt das FillFormat-Objekt zurück, das Füllformatierungseigenschaften für eine Form enthält. Hinweis: Kann für bestimmte Arten von Formen, die keine Fülleigenschaften haben, null zurückgeben. Schreibgeschützt[`IFillFormat`](../ifillformat) . |
-| [Frame](../../aspose.slides/shape/frame) { get; set; } | Gibt die Eigenschaften des Formrahmens zurück oder legt sie fest. Lesen/Schreiben[`IShapeFrame`](../ishapeframe) . |
-| [Height](../../aspose.slides/shape/height) { get; set; } | Gibt die Höhe der Form zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Bestimmt, ob die Form ausgeblendet ist. Lesen/SchreibenBoolean . |
-| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Gibt den für Mausklick definierten Hyperlink zurück oder setzt ihn. Lesen/Schreiben[`IHyperlink`](../ihyperlink) . |
-| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Gibt den Hyperlink-Manager zurück. Schreibgeschützt[`IHyperlinkManager`](../ihyperlinkmanager) . |
-| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Gibt den für Mouseover definierten Hyperlink zurück oder setzt ihn. Lesen/Schreiben[`IHyperlink`](../ihyperlink) . |
-| [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Bestimmt, ob die Form gruppiert ist. SchreibgeschütztBoolean . |
-| [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Bestimmt, ob die Form TextHolder_PPT ist. SchreibgeschütztBoolean . |
-| virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Gibt das LineFormat-Objekt zurück, das Linienformatierungseigenschaften für eine Form enthält. Hinweis: Kann für bestimmte Arten von Formen, die keine Linieneigenschaften haben, null zurückgeben. Schreibgeschützt[`ILineFormat`](../ilineformat) . |
-| [Name](../../aspose.slides/shape/name) { get; set; } | Gibt den Namen einer Form zurück oder legt ihn fest. Darf nicht null sein. Verwenden Sie bei Bedarf einen leeren Zeichenfolgenwert. Lesen/SchreibenString . |
-| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Ruft eine eindeutige Formkennung im Folienbereich ab. SchreibgeschütztUInt32 . Siehe auch[`UniqueId`](../shape/uniqueid) zum Abrufen einer eindeutigen Formkennung im Präsentationsbereich. |
-| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Gibt das übergeordnete GroupShape-Objekt zurück, wenn die Form gruppiert ist. Andernfalls wird null zurückgegeben. Schreibgeschützt[`IGroupShape`](../igroupshape) . |
-| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Gibt den Platzhalter für eine Form zurück. Gibt null zurück, wenn die Form keinen Platzhalter hat. Schreibgeschützt[`IPlaceholder`](../iplaceholder) . |
-| [Presentation](../../aspose.slides/shape/presentation) { get; } | Gibt die übergeordnete Präsentation einer Folie zurück. Schreibgeschützt[`IPresentation`](../ipresentation) . |
-| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Gibt die Eigenschaften des Rohformrahmens zurück oder legt sie fest. Lesen/Schreiben[`IShapeFrame`](../ishapeframe) . |
-| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | Gibt die Gradzahl zurück, um die die angegebene Form um die z-Achse gedreht wird, oder legt sie fest. Ein positiver Wert zeigt eine Drehung im Uhrzeigersinn an; ein negativer Wert zeigt eine Drehung gegen den Uhrzeigersinn an. Lesen/SchreibenSingle . |
-| [ShapeLock](../../aspose.slides/connector/shapelock) { get; } | Gibt die Sperren der Form zurück. Schreibgeschützt[`IConnectorLock`](../iconnectorlock) . (2 properties) |
-| [ShapeStyle](../../aspose.slides/geometryshape/shapestyle) { get; } | Gibt das Stilobjekt der Form zurück. Schreibgeschützt[`IShapeStyle`](../ishapestyle) . |
-| override [ShapeType](../../aspose.slides/connector/shapetype) { get; set; } | Gibt den AutoForm-Typ zurück oder legt ihn fest. Lesen/Schreiben[`ShapeType`](../shapetype) . |
-| [Slide](../../aspose.slides/shape/slide) { get; } | Gibt die übergeordnete Folie einer Form zurück. Schreibgeschützt[`IBaseSlide`](../ibaseslide) . |
-| [StartShapeConnectedTo](../../aspose.slides/connector/startshapeconnectedto) { get; set; } | Gibt die Form zurück oder legt sie fest, an die der Anfang des Verbinders angefügt werden soll. Lesen/Schreiben[`IShape`](../ishape) . |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/connector/startshapeconnectionsiteindex) { get; set; } | Gibt den Index der Verbindungsstelle für die Startform zurück oder legt ihn fest. Lesen/SchreibenUInt32 . |
-| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Gibt das ThreeDFormat-Objekt zurück, das 3D-Effekteigenschaften für eine Form hat. Hinweis: Kann für bestimmte Arten von Formen, die keine 3D-Eigenschaften haben, null zurückgeben. Schreibgeschützt[`IThreeDFormat`](../ithreedformat) . |
-| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Ruft eine eindeutige Formkennung im Darstellungsbereich ab. SchreibgeschütztUInt32 . Siehe auch[`OfficeInteropShapeId`](../shape/officeinteropshapeid) zum Abrufen einer eindeutigen Formkennung im Folienbereich. |
-| [Width](../../aspose.slides/shape/width) { get; set; } | Gibt die Breite der Form zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| [X](../../aspose.slides/shape/x) { get; set; } | Gibt die x-Koordinate der oberen linken Ecke der Form zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| [Y](../../aspose.slides/shape/y) { get; set; } | Gibt die y-Koordinate der oberen linken Ecke der Form zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | Gibt die Position einer Form in der Z-Reihenfolge zurück. Shapes[0] gibt die Form am Ende der Z-Reihenfolge zurück, und Shapes[Shapes.Count - 1] gibt die Form am Anfang der Z-Reihenfolge zurück. order. SchreibgeschütztInt32 . |
+| [Adjustments](../../aspose.slides/geometryshape/adjustments) { get; } | Gibt eine Sammlung von Anpassungswerten des Shapes zurück. Nur lesbar [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Gibt den alternativen Text zurück oder legt ihn fest, der mit einem Shape verknüpft ist. Lese-/schreibbar String. |
+| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Gibt den Titel des alternativen Texts zurück oder legt ihn fest, der mit einem Shape verknüpft ist. Lese-/schreibbar String. |
+| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | Die Eigenschaft gibt an, wie ein Shape im Schwarz-Weiß-Displaymodus dargestellt wird. Lese-/schreibbar [`BlackWhiteMode`](../blackwhitemode). |
+| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Gibt die Anzahl der Verbindungspunkte am Shape zurück. Nur lesbar Int32. |
+| [ConnectorLock](../../aspose.slides/connector/connectorlock) { get; } | Gibt die Locks des Connectors zurück. Nur lesbar [`IConnectorLock`](../iconnectorlock). |
+| [CustomData](../../aspose.slides/shape/customdata) { get; } | Gibt die benutzerdefinierten Daten des Shapes zurück. Nur lesbar [`ICustomData`](../icustomdata). |
+| virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Gibt das EffectFormat-Objekt zurück, das Pixel-Effekte enthält, die auf ein Shape angewendet werden. Hinweis: kann null für bestimmte Typen von Shapes zurückgeben, die keine Effekt-Eigenschaften haben. Nur lesbar [`IEffectFormat`](../ieffectformat). |
+| [EndShapeConnectedTo](../../aspose.slides/connector/endshapeconnectedto) { get; set; } | Gibt das Shape zurück oder legt es fest, an das das Ende des Connectors angeschlossen werden soll. Lese-/schreibbar [`IShape`](../ishape). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/connector/endshapeconnectionsiteindex) { get; set; } | Gibt den Index des Verbindungspunktes für das End-Shape zurück oder legt ihn fest. Lese-/schreibbar UInt32. |
+| virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | Gibt das FillFormat-Objekt zurück, das die Füllformatierungseigenschaften für ein Shape enthält. Hinweis: kann null für bestimmte Typen von Shapes zurückgeben, die keine Füll-Eigenschaften haben. Nur lesbar [`IFillFormat`](../ifillformat). |
+| [Frame](../../aspose.slides/shape/frame) { get; set; } | Gibt die Eigenschaften des Shape-Rahmens zurück oder legt sie fest. Lese-/schreibbar [`IShapeFrame`](../ishapeframe). |
+| [Height](../../aspose.slides/shape/height) { get; set; } | Gibt die Höhe des Shapes zurück oder legt sie fest. Lese-/schreibbar Single. |
+| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Bestimmt, ob das Shape versteckt ist. Lese-/schreibbar Boolean. |
+| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Gibt den für einen Mausklick definierten Hyperlink zurück oder legt ihn fest. Lese-/schreibbar [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Gibt den Hyperlink-Manager zurück. Nur lesbar [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Gibt den für den Mouseover definierten Hyperlink zurück oder legt ihn fest. Lese-/schreibbar [`IHyperlink`](../ihyperlink). |
+| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | Gibt die Option 'Als dekorativ markieren' zurück oder legt sie fest. Lese-/schreibbar Boolean. |
+| [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Bestimmt, ob das Shape gruppiert ist. Nur lesbar Boolean. |
+| [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Bestimmt, ob das Shape ein TextHolder_PPT ist. Nur lesbar Boolean. |
+| virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Gibt das LineFormat-Objekt zurück, das die Linienformatierungseigenschaften für ein Shape enthält. Hinweis: kann null für bestimmte Typen von Shapes zurückgeben, die keine Linien-Eigenschaften haben. Nur lesbar [`ILineFormat`](../ilineformat). |
+| [Name](../../aspose.slides/shape/name) { get; set; } | Gibt den Namen eines Shapes zurück oder legt ihn fest. Darf nicht null sein. Verwenden Sie leere Zeichenfolge, wenn nötig. Lese-/schreibbar String. |
+| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Gibt eine eindeutige Shape-ID im Folienkontext zurück. Nur lesbar UInt32. Siehe auch [`UniqueId`](../shape/uniqueid) zur Ermittlung der eindeutigen Shape-ID im Präsentationskontext. |
+| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Gibt das übergeordnete GroupShape-Objekt zurück, wenn das Shape gruppiert ist. Andernfalls wird null zurückgegeben. Nur lesbar [`IGroupShape`](../igroupshape). |
+| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Gibt den Platzhalter für ein Shape zurück. Gibt null zurück, wenn das Shape keinen Platzhalter hat. Nur lesbar [`IPlaceholder`](../iplaceholder). |
+| [Presentation](../../aspose.slides/shape/presentation) { get; } | Gibt die übergeordnete Präsentation einer Folie zurück. Nur lesbar [`IPresentation`](../ipresentation). |
+| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Gibt die Eigenschaften des Roh-Shape-Rahmens zurück oder legt sie fest. Lese-/schreibbar [`IShapeFrame`](../ishapeframe). |
+| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | Gibt die Anzahl der Grad zurück oder legt sie fest, um die das angegebene Shape um die Z-Achse rotiert ist. Ein positiver Wert zeigt eine Uhrzeigerrichtung an; ein negativer Wert zeigt eine gegen den Uhrzeigersinn gerichtete Rotation an. Lese-/schreibbar Single. |
+| [ShapeLock](../../aspose.slides/connector/shapelock) { get; } | Gibt die Locks des Shapes zurück. Nur lesbar [`IConnectorLock`](../iconnectorlock). (2 Eigenschaften) |
+| [ShapeStyle](../../aspose.slides/geometryshape/shapestyle) { get; } | Gibt das Style-Objekt des Shapes zurück. Nur lesbar [`IShapeStyle`](../ishapestyle). |
+| override [ShapeType](../../aspose.slides/connector/shapetype) { get; set; } | Gibt den AutoShape-Typ zurück oder legt ihn fest. Lese-/schreibbar [`ShapeType`](../shapetype). |
+| [Slide](../../aspose.slides/shape/slide) { get; } | Gibt die übergeordnete Folie eines Shapes zurück. Nur lesbar [`IBaseSlide`](../ibaseslide). |
+| [StartShapeConnectedTo](../../aspose.slides/connector/startshapeconnectedto) { get; set; } | Gibt das Shape zurück oder legt es fest, an das der Anfang des Connectors angeschlossen werden soll. Lese-/schreibbar [`IShape`](../ishape). |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/connector/startshapeconnectionsiteindex) { get; set; } | Gibt den Index des Verbindungspunktes für das Start-Shape zurück oder legt ihn fest. Lese-/schreibbar UInt32. |
+| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Gibt das ThreeDFormat-Objekt zurück, das 3D-Effekteigenschaften für ein Shape enthält. Hinweis: kann null für bestimmte Typen von Shapes zurückgeben, die keine 3D-Eigenschaften haben. Nur lesbar [`IThreeDFormat`](../ithreedformat). |
+| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Gibt die eindeutige Shape-ID im Präsentationskontext zurück. Nur lesbar UInt32. Siehe auch [`OfficeInteropShapeId`](../shape/officeinteropshapeid) zur Ermittlung der eindeutigen Shape-ID im Folienkontext. |
+| [Width](../../aspose.slides/shape/width) { get; set; } | Gibt die Breite des Shapes zurück oder legt sie fest. Lese-/schreibbar Single. |
+| [X](../../aspose.slides/shape/x) { get; set; } | Gibt die x-Koordinate der oberen linken Ecke des Shapes zurück oder legt sie fest. Lese-/schreibbar Single. |
+| [Y](../../aspose.slides/shape/y) { get; set; } | Gibt die y-Koordinate der oberen linken Ecke des Shapes zurück oder legt sie fest. Lese-/schreibbar Single. |
+| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | Gibt die Position eines Shapes in der Z-Reihenfolge zurück. Shapes[0] gibt das Shape an, das sich hinten in der Z-Reihenfolge befindet, und Shapes[Shapes.Count - 1] gibt das Shape an, das sich vorne in der Z-Reihenfolge befindet. Nur lesbar Int32. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Fügt einen neuen Platzhalter hinzu, wenn keiner vorhanden ist, und setzt die Platzhaltereigenschaften auf einen angegebenen. |
-| [CreateShapeElements](../../aspose.slides/geometryshape/createshapeelements)() | Erstellt ein Array von Formelementen und gibt es zurück. |
-| [GetGeometryPaths](../../aspose.slides/geometryshape/getgeometrypaths)() | Gibt die Kopie des Pfads der Geometrieform zurück. Koordinaten sind relativ zur linken oberen Ecke der Form. |
-| [GetThumbnail](../../aspose.slides/shape/getthumbnail)() | Gibt Form-Miniaturansicht zurück. ShapeThumbnailBounds.Shape Form-Miniatur-Umgrenzungstyp wird standardmäßig verwendet. |
-| [GetThumbnail](../../aspose.slides/shape/getthumbnail)(ShapeThumbnailBounds, float, float) | Gibt Miniaturansicht der Form zurück. |
-| [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Definiert, dass diese Form kein Platzhalter ist. |
-| [Reroute](../../aspose.slides/connector/reroute)() | Leitet Verbinder um, sodass er den kürzest möglichen Weg zwischen den Shapes nimmt, die er verbindet. |
-| [SetGeometryPath](../../aspose.slides/geometryshape/setgeometrypath)(IGeometryPath) | Aktualisiert Formgeometrie von[`IGeometryPath`](../igeometrypath) Objekt. Die Koordinaten müssen relativ zur linken oberen Ecke der Form sein. Ändert den Typ der Form ([`ShapeType`](../geometryshape/shapetype) ) zuCustom . |
-| [SetGeometryPaths](../../aspose.slides/geometryshape/setgeometrypaths)(IGeometryPath[]) | Aktualisiert die Formgeometrie aus einem Array von[`IGeometryPath`](../igeometrypath). Die Koordinaten müssen relativ zur linken oberen Ecke der Form sein. Ändert den Typ der Form ([`ShapeType`](../geometryshape/shapetype) ) zuCustom . |
-| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Speichert den Inhalt von Shape als SVG-Datei. |
-| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Speichert den Inhalt von Shape als SVG-Datei. |
+| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Fügt einen neuen Platzhalter hinzu, wenn keiner vorhanden ist, und legt die Platzhaltereigenschaften auf die angegebenen fest. |
+| [CreateShapeElements](../../aspose.slides/geometryshape/createshapeelements)() | Erstellt und gibt ein Array der Elemente des Shapes zurück. |
+| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Gibt ein grundlegendes Platzhalter-Shape zurück (Shape aus dem Layout und/oder der Master-Folie, von dem das aktuelle Shape abgeleitet ist). Ein null wird zurückgegeben, wenn das aktuelle Shape nicht abgeleitet ist. |
+| [GetGeometryPaths](../../aspose.slides/geometryshape/getgeometrypaths)() | Gibt eine Kopie des Pfades des Geometrie-Speichers zurück. Die Koordinaten beziehen sich auf die obere linke Ecke des Shapes. |
+| [GetImage](../../aspose.slides/shape/getimage)() | Gibt das Miniaturbild des Shapes zurück. Der Typ ShapeThumbnailBounds.Shape für die Miniaturbildgrenzen wird standardmäßig verwendet. |
+| [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | Gibt das Miniaturbild des Shapes zurück. |
+| [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Definiert, dass dieses Shape kein Platzhalter ist. |
+| [Reroute](../../aspose.slides/connector/reroute)() | Leitet den Connector um, sodass er den kürzesten möglichen Weg zwischen den Shapes nimmt, die er verbindet. |
+| [SetGeometryPath](../../aspose.slides/geometryshape/setgeometrypath)(IGeometryPath) | Aktualisiert die Formgeometrie aus dem [`IGeometryPath`](../igeometrypath)-Objekt. Die Koordinaten müssen relativ zur oberen linken Ecke des Shapes sein. Ändert den Typ des Shapes ([`ShapeType`](../geometryshape/shapetype)) in Benutzerdefiniert. |
+| [SetGeometryPaths](../../aspose.slides/geometryshape/setgeometrypaths)(IGeometryPath[]) | Aktualisiert die Formgeometrie aus einem Array von [`IGeometryPath`](../igeometrypath). Die Koordinaten müssen relativ zur oberen linken Ecke des Shapes sein. Ändert den Typ des Shapes ([`ShapeType`](../geometryshape/shapetype)) in Benutzerdefiniert. |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Speichert den Inhalt des Shapes als SVG-Datei. |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Speichert den Inhalt des Shapes als SVG-Datei. |
 
 ### Siehe auch
 
-* class [GeometryShape](../geometryshape)
-* interface [IConnector](../iconnector)
-* namensraum [Aspose.Slides](../../aspose.slides)
-* Montage [Aspose.Slides](../../)
+* Klasse [GeometryShape](../geometryshape)
+* Schnittstelle [IConnector](../iconnector)
+* Namespace [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,12 +1,13 @@
 ---
-title: Clear
+title: Очистить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все свойства из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/behaviorpropertycollection/clear/
 ---
-## BehaviorPropertyCollection.Clear method
+
+## Метод BehaviorPropertyCollection.Clear
 
 Удаляет все свойства из коллекции.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorpropertycollection/clear/
 public void Clear()
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* класс [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 

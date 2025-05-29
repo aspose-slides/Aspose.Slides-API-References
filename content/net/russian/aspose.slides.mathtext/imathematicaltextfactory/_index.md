@@ -1,14 +1,15 @@
 ---
 title: IMathematicalTextFactory
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создать элемент MathematicalText
+second_title: Aspose.Sildes для .NET API Справка
+description: Позволяет создавать элемент MathematicalText
 type: docs
-weight: 7800
+weight: 8260
 url: /ru/aspose.slides.mathtext/imathematicaltextfactory/
 ---
-## IMathematicalTextFactory interface
 
-Позволяет создать элемент MathematicalText
+## Интерфейс IMathematicalTextFactory
+
+Позволяет создавать элемент MathematicalText
 
 ```csharp
 public interface IMathematicalTextFactory
@@ -19,15 +20,15 @@ public interface IMathematicalTextFactory
 | Имя | Описание |
 | --- | --- |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Создать пустой элемент математического текста |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Создать элемент математического текста с указанным значением |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Создать пустой элемент математического текста с указанным значением |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Создать пустой элемент математического текста с указанным значением и свойствами форматирования |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Создать элемент математического текста с заданным значением |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Создать пустой элемент математического текста с заданным значением |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Создать пустой элемент математического текста с заданным значением и свойствами форматирования |
 
 ### Примечания
 
-Для COM-совместимости
+Для совместимости с COM
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

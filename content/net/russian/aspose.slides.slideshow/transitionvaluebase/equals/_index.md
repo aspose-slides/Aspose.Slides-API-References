@@ -1,12 +1,13 @@
 ---
 title: Equals
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равны ли два экземпляра TransitionValueBase.
+second_title: Aspose.Slides для .NET API Справочник
+description: Определяет, равны ли два экземпляра TransitionValueBase.
 type: docs
 weight: 10
 url: /ru/aspose.slides.slideshow/transitionvaluebase/equals/
 ---
-## TransitionValueBase.Equals method
+
+## Метод TransitionValueBase.Equals
 
 Определяет, равны ли два экземпляра TransitionValueBase.
 
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | TransitionValueBase для сравнения с текущей TransitionValueBase. |
+| obj | Object | TransitionValueBase, который требуется сравнить с текущим TransitionValueBase. |
 
-### Возвращаемое значение
+### Возврат значения
 
-**true** , если указанный TransitionValueBase равен текущему TransitionValueBase; в противном случае **false** .
+**true**, если указанный TransitionValueBase равен текущему TransitionValueBase; в противном случае **false**.
 
-### Смотрите также
+### См. также
 
-* class [TransitionValueBase](../../transitionvaluebase)
+* класс [TransitionValueBase](../../transitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../transitionvaluebase)
 * сборка [Aspose.Slides](../../../)
 

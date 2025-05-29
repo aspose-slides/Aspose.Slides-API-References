@@ -1,35 +1,36 @@
 ---
 title: ICamera
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет камеру.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет Камеру.
 type: docs
-weight: 4930
+weight: 5210
 url: /ru/aspose.slides/icamera/
 ---
-## ICamera interface
 
-Представляет камеру.
+## Интерфейс ICamera
+
+Представляет Камеру.
 
 ```csharp
 public interface ICamera
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Тип камеры Чтение/запись[`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | FOV камеры (0-180 градусов, поле зрения) Чтение/записьSingle. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Увеличение камеры (положительное значение в процентах) Чтение/записьSingle. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Тип камеры Чтение/запись [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Угол обзора камеры (0-180 градусов, поле зрения) Чтение/запись Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Зум камеры (положительное значение в процентах) Чтение/запись Single. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. первый элемент возвращаемого массива - широта, второй - долгота, третий - оборот. Возвращает null, если вращение не определено. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. Если какое-либо из значений координат имеет значение float.NaN, все вращения не определены. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | Поворот определяется с помощью координаты широты, координаты долготы и вращения вокруг оси, как координаты широты и долготы. Первый элемент в возвращаемом массиве - широта, второй - долгота, третий - вращение. Возвращает null, если вращение не определено. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Поворот определяется с помощью координаты широты, координаты долготы и вращения вокруг оси, как координаты широты и долготы. Если любое из значений координат равно float.NaN, все вращение не определено. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

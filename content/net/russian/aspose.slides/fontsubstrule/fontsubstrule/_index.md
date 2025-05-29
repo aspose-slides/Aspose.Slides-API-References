@@ -1,11 +1,12 @@
 ---
 title: FontSubstRule
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Создает новый экземпляр.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontsubstrule/fontsubstrule/
 ---
+
 ## FontSubstRule(IFontData, IFontData) {#constructor}
 
 Создает новый экземпляр.
@@ -17,12 +18,12 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceFont | IFontData | Исходный шрифт. |
-| destFont | IFontData | Целевой шрифт. |
+| destFont | IFontData | Шрифт назначения. |
 
 ### Смотрите также
 
-* interface [IFontData](../../ifontdata)
-* class [FontSubstRule](../../fontsubstrule)
+* интерфейс [IFontData](../../ifontdata)
+* класс [FontSubstRule](../../fontsubstrule)
 * пространство имен [Aspose.Slides](../../fontsubstrule)
 * сборка [Aspose.Slides](../../../)
 
@@ -39,14 +40,14 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont, FontSubstConditio
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceFont | IFontData | Исходный шрифт. |
-| destFont | IFontData | Целевой шрифт. |
-| fontSubstRule | FontSubstCondition | Подправило шрифта. |
+| destFont | IFontData | Шрифт назначения. |
+| fontSubstRule | FontSubstCondition | Правило замены шрифта. |
 
 ### Смотрите также
 
-* interface [IFontData](../../ifontdata)
-* enum [FontSubstCondition](../../fontsubstcondition)
-* class [FontSubstRule](../../fontsubstrule)
+* интерфейс [IFontData](../../ifontdata)
+* перечисление [FontSubstCondition](../../fontsubstcondition)
+* класс [FontSubstRule](../../fontsubstrule)
 * пространство имен [Aspose.Slides](../../fontsubstrule)
 * сборка [Aspose.Slides](../../../)
 

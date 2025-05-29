@@ -1,22 +1,23 @@
 ---
-title: Flush
-second_title: Справочник по API Aspose.Slides для .NET
-description: Очищает все буферы для этого потока и вызывает запись всех буферизованных данных на базовое устройство.
+title: Очистить
+second_title: Справка по API Aspose.Sildes для .NET
+description: Очищает все буферы для этого потока и заставляет данные, находящиеся в буфере, быть записанными на базовое устройство.
 type: docs
 weight: 100
 url: /ru/aspose.slides/streamwrapper/flush/
 ---
-## StreamWrapper.Flush method
 
-Очищает все буферы для этого потока и вызывает запись всех буферизованных данных на базовое устройство.
+## Метод StreamWrapper.Flush
+
+Очищает все буферы для этого потока и заставляет данные, находящиеся в буфере, быть записанными на базовое устройство.
 
 ```csharp
 public void Flush()
 ```
 
-### Смотрите также
+### См. также
 
-* class [StreamWrapper](../../streamwrapper)
+* класс [StreamWrapper](../../streamwrapper)
 * пространство имен [Aspose.Slides](../../streamwrapper)
 * сборка [Aspose.Slides](../../../)
 

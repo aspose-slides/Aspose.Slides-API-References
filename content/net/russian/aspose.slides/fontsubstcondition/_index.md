@@ -1,27 +1,28 @@
 ---
 title: FontSubstCondition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет правило замены шрифта
+second_title: Aspose.Slides для .NET API Справка
+description: Представляет правило для подстановки шрифтов
 type: docs
-weight: 4430
+weight: 4680
 url: /ru/aspose.slides/fontsubstcondition/
 ---
-## FontSubstCondition enumeration
 
-Представляет правило замены шрифта
+## Перечисление FontSubstCondition
+
+Представляет правило для подстановки шрифтов
 
 ```csharp
 public enum FontSubstCondition
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| WhenInaccessible | `0` | Подставить, если шрифт не найден |
-| Always | `1` | Заменять всегда |
+| WhenInaccessible | `0` | Подстановка, когда шрифт не найден |
+| Always | `1` | Подстановка всегда |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

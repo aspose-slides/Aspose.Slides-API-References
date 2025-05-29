@@ -1,12 +1,13 @@
 ---
 title: MathRadical
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Инициализирует новый экземпляр класса MathRadical.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathradical/mathradical/
 ---
-## MathRadical constructor
+
+## Конструктор MathRadical
 
 Инициализирует новый экземпляр класса MathRadical.
 
@@ -16,8 +17,8 @@ public MathRadical(IMathElement baseArgument, IMathElement degreeArgument)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArgument | IMathElement | Base |
-| gradeArgument | IMathElement | Степень |
+| baseArgument | IMathElement | Основание |
+| degreeArgument | IMathElement | Степень |
 
 ### Примеры
 
@@ -28,10 +29,10 @@ public MathRadical(IMathElement baseArgument, IMathElement degreeArgument)
 MathRadical radical = new MathRadical(new MathematicalText("x"), new MathematicalText("3"));
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathRadical](../../mathradical)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathRadical](../../mathradical)
 * пространство имен [Aspose.Slides.MathText](../../mathradical)
 * сборка [Aspose.Slides](../../../)
 

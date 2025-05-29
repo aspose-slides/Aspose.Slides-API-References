@@ -1,29 +1,30 @@
 ---
 title: IExtraColorSchemeCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор дополнительных цветовых схем.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет собой коллекцию дополнительных цветовых схем.
 type: docs
-weight: 10410
+weight: 10910
 url: /ru/aspose.slides.theme/iextracolorschemecollection/
 ---
-## IExtraColorSchemeCollection interface
 
-Представляет набор дополнительных цветовых схем.
+## Интерфейс IExtraColorSchemeCollection
+
+Представляет собой коллекцию дополнительных цветовых схем.
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Возвращает цветовую схему по индексу. Только для чтения[`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Возвращает цветовую схему по индексу. Только для чтения [`IExtraColorScheme`](../iextracolorscheme). |
 
-### Смотрите также
+### Также смотри
 
-* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* interface [IExtraColorScheme](../iextracolorscheme)
+* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* интерфейс [IExtraColorScheme](../iextracolorscheme)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

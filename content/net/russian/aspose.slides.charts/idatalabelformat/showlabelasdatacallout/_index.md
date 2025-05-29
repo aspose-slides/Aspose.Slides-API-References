@@ -1,22 +1,23 @@
 ---
 title: ShowLabelAsDataCallout
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет будет ли указанная метка данных диаграммы отображаться как выноска данных или как метка данных.  Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection то это свойство получает или задает значение по умолчанию значение свойства ShowLabelAsDataCallout для новых меток данных в коллекции DataLabelCollection. Присвоение этому свойству значения также устанавливает это значение в свойство ShowLabelAsDataCallout для всех меток данных в коллекции DataLabelCollection т.е. DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout  val приводит к тому что все DataLabelsi.ShowLabelAsDataCallout равно val.
+second_title: Справочник API Aspose.Slides для .NET
+description: Определяет, будет ли указанный ярлык данных для диаграммы отображаться в виде вызова данных или как ярлык данных. Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection ярлыков данных, то это свойство получает или устанавливает значение по умолчанию свойства ShowLabelAsDataCallout для новых ярлыков данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение для свойства ShowLabelAsDataCallout для всех ярлыков данных в коллекции DataLabelCollection, то есть "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" вызывает равенство всех DataLabelsi.ShowLabelAsDataCallout значению val.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/idatalabelformat/showlabelasdatacallout/
 ---
+
 ## IDataLabelFormat.ShowLabelAsDataCallout property
 
-Определяет, будет ли указанная метка данных диаграммы отображаться как выноска данных или как метка данных.  Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию значение свойства ShowLabelAsDataCallout для новых меток данных в коллекции DataLabelCollection. Присвоение этому свойству значения также устанавливает это значение в свойство ShowLabelAsDataCallout для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" приводит к тому, что все DataLabels[i].ShowLabelAsDataCallout равно val).
+Определяет, будет ли ярлык данных указанной диаграммы отображаться в виде вызова данных или как ярлык данных. Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection ярлыков данных, то это свойство получает или устанавливает значение по умолчанию свойства ShowLabelAsDataCallout для новых ярлыков данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение для свойства ShowLabelAsDataCallout для всех ярлыков данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" приводит к тому, что все DataLabels[i].ShowLabelAsDataCallout равны val).
 
 ```csharp
 public bool ShowLabelAsDataCallout { get; set; }
 ```
 
-### Смотрите также
+### See Also
 
-* interface [IDataLabelFormat](../../idatalabelformat)
+* интерфейс [IDataLabelFormat](../../idatalabelformat)
 * пространство имен [Aspose.Slides.Charts](../../idatalabelformat)
 * сборка [Aspose.Slides](../../../)
 

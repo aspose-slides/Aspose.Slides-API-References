@@ -6,7 +6,8 @@ type: docs
 weight: 20
 url: /ru/aspose.slides.effects/ieffectfactory/createglow/
 ---
-## IEffectFactory.CreateGlow method
+
+## Метод IEffectFactory.CreateGlow
 
 Создает эффект свечения.
 
@@ -18,10 +19,10 @@ public IGlow CreateGlow()
 
 Эффект свечения.
 
-### Смотрите также
+### См. также
 
-* interface [IGlow](../../iglow)
-* interface [IEffectFactory](../../ieffectfactory)
+* интерфейс [IGlow](../../iglow)
+* интерфейс [IEffectFactory](../../ieffectfactory)
 * пространство имен [Aspose.Slides.Effects](../../ieffectfactory)
 * сборка [Aspose.Slides](../../../)
 

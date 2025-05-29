@@ -1,28 +1,29 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий эффект Alpha Ceiling. Значения альфа-канала непрозрачности больше нуля изменены на 100. Другими словами все частично непрозрачное становится полностью непрозрачным.
+second_title: Aspose.Sildes для .NET API Reference
+description: Неизменяемый объект, представляющий эффект потолка альфа. Значения альфа-прозрачности, большие нуля, изменяются на 100. Другими словами, всё частично непрозрачное становится полностью непрозрачным.
 type: docs
-weight: 2870
+weight: 2950
 url: /ru/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
-## IAlphaCeilingEffectiveData interface
 
-Неизменяемый объект, представляющий эффект Alpha Ceiling. Значения альфа-канала (непрозрачности) больше нуля изменены на 100%. Другими словами, все частично непрозрачное становится полностью непрозрачным.
+## Интерфейс IAlphaCeilingEffectiveData
+
+Неизменяемый объект, представляющий эффект потолка альфа. Значения альфа (прозрачности), большие нуля, изменяются на 100%. Другими словами, всё частично непрозрачное становится полностью непрозрачным.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Смотрите также
+### См. также
 
-* interface [IEffectEffectiveData](../ieffecteffectivedata)
+* интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

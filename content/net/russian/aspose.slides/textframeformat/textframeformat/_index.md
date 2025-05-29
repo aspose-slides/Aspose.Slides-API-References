@@ -1,22 +1,23 @@
 ---
 title: TextFrameFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует новый экземпляр классаTextFrameFormataspose.slides/textframeformat.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Инициализирует новый экземпляр класса TextFrameFormataspose.slides/textframeformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/textframeformat/textframeformat/
 ---
-## TextFrameFormat constructor
 
-Инициализирует новый экземпляр класса[`TextFrameFormat`](../../textframeformat).
+## Конструктор TextFrameFormat
+
+Инициализирует новый экземпляр класса [`TextFrameFormat`](../../textframeformat).
 
 ```csharp
 public TextFrameFormat()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [TextFrameFormat](../../textframeformat)
+* класс [TextFrameFormat](../../textframeformat)
 * пространство имен [Aspose.Slides](../../textframeformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: IsLocationAutocalculated
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет как должно рассчитываться местоположениеtrue  вычисляется автоматически определяется свойствами X Y Width Height. Только чтениеBoolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, как должна рассчитываться позиция true – рассчитывается автоматически; определяется свойствами X, Y, Width, Height. Только для чтения, логическое значение.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/chartplotarea/islocationautocalculated/
 ---
-## ChartPlotArea.IsLocationAutocalculated property
 
-Определяет, как должно рассчитываться местоположение:true – вычисляется автоматически; определяется свойствами X, Y, Width, Height. Только чтениеBoolean.
+## ChartPlotArea.IsLocationAutocalculated свойство
+
+Определяет, как должна рассчитываться позиция: true – рассчитывается автоматически; определяется свойствами X, Y, Width, Height. Только для чтения, логическое значение.
 
 ```csharp
 public bool IsLocationAutocalculated { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartPlotArea](../../chartplotarea)
+* класс [ChartPlotArea](../../chartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../chartplotarea)
 * сборка [Aspose.Slides](../../../)
 

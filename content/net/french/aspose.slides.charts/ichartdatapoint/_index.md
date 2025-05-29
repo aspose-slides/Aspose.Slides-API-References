@@ -1,14 +1,15 @@
 ---
 title: IChartDataPoint
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le point de données de la série.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente un point de données de série.
 type: docs
-weight: 1700
+weight: 1740
 url: /fr/aspose.slides.charts/ichartdatapoint/
 ---
-## IChartDataPoint interface
 
-Représente le point de données de la série.
+## Interface IChartDataPoint
+
+Représente un point de données de série.
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
@@ -16,37 +17,38 @@ public interface IChartDataPoint : IActualLayout
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Renvoie l'interface IActualLayout. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Renvoie la taille de la bulle du point de données du graphique. Lecture seule[`IDoubleChartValue`](../idoublechartvalue) . |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Renvoie la valeur de couleur du point de données du graphique. Utilisé avec les graphiques Map. Lecture seule[`IDoubleChartValue`](../idoublechartvalue) . |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Renvoie le conteneur des niveaux de points de données. Appliqué pour les séries Treeamp et Sunburst. L'indexation des niveaux de points de données est basée sur zéro. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Représente les valeurs des barres d'erreur de série en cas de type de valeur personnalisée. Lecture seule[`IErrorBarsCustomValues`](../ierrorbarscustomvalues) . |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Spécifie la distance à laquelle le point de données doit être déplacé du centre du secteur. Lecture/écritureInt32 . |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Représente les propriétés de formatage. Lecture/écriture[`IFormat`](../iformat) . |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Spécifie que le point de données doit inverser ses couleurs si la valeur est négative. Lecture/écritureBoolean . |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Spécifie qu'un effet 3D est appliqué aux bulles. Lecture/écritureBoolean . |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Représente l'étiquette du point de données du graphique. Lecture seule[`IDataLabel`](../idatalabel) . |
-| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Spécifie un marqueur de données. Lecture seule[`IMarker`](../imarker) . |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Propriétés de l'entrée de légende correspondante en cas de type de graphique de cette liste : ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Lecture seule[`ILegendEntryProperties`](../ilegendentryproperties) . |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Définit le point de données comme total. Appliqué pour le type de série Waterfall uniquement. |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Renvoie la valeur de taille du point de données du graphique. Utilisé avec les graphiques Treemap et Sunburst. Lecture seule[`IDoubleChartValue`](../idoublechartvalue) . |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Renvoie la valeur du point de données du graphique. Lecture seule[`IDoubleChartValue`](../idoublechartvalue) . |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Renvoie la valeur x du point de données du graphique. Lecture seule[`IStringOrDoubleChartValue`](../istringordoublechartvalue) . |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Renvoie la valeur y du point de données du graphique. Lecture seule[`IDoubleChartValue`](../idoublechartvalue) . |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Renvoie la taille de la bulle du point de données du graphique. En lecture seule [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Renvoie la valeur de couleur du point de données du graphique. Utilisé avec les graphiques en carte. En lecture seule [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Renvoie le conteneur des niveaux de points de données. Appliqué aux séries Treeamp et Sunburst. L'indexation des niveaux de points de données est basée sur zéro. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Représente les valeurs des barres d'erreur de la série en cas de type de valeur personnalisée. En lecture seule [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Spécifie la quantité par laquelle le point de données doit être déplacé du centre de la tarte. En lecture/écriture Int32. |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Représente les propriétés de formatage. En lecture/écriture [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Détermine à quelle collection d'enfants du parent ce point de données s'applique. En lecture UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Spécifie que le point de données doit inverser ses couleurs si la valeur est négative. En lecture/écriture Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Spécifie que les bulles ont un effet 3-D qui leur est appliqué. En lecture/écriture Boolean. |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Représente l'étiquette du point de données du graphique. En lecture seule [`IDataLabel`](../idatalabel). |
+| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Spécifie un marqueur de données. En lecture seule [`IMarker`](../imarker). |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Propriétés de l'entrée de légende correspondante en cas de type de graphique parmi cette liste : ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. En lecture seule [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Définit le point de données comme total. Appliqué uniquement au type de série Waterfall. |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Renvoie la valeur de taille du point de données du graphique. Utilisé avec les graphiques Treemap et Sunburst. En lecture seule [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Renvoie la valeur du point de données du graphique. En lecture seule [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Renvoie la valeur x du point de données du graphique. En lecture seule [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Renvoie la valeur y du point de données du graphique. En lecture seule [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Renvoie une couleur automatique du point de données en fonction de l'index de série, de l'index de point de données, de la propriété ParentSeriesGroup.IsColorVaried et du style de graphique. Cette couleur est utilisée par défaut si FillType vaut NotDefined. |
-| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Supprime DataPoint de la série de graphiques. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Renvoie une couleur automatique du point de données basée sur l'index de la série, l'index du point de données, la propriété ParentSeriesGroup.IsColorVaried et le style du graphique. Cette couleur est utilisée par défaut si FillType est égal à NotDefined. |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Supprime le DataPoint de la série de graphiques. |
 
-### Voir également
+### Voir Aussi
 
 * interface [IActualLayout](../iactuallayout)
-* espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Assemblée [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../) 
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

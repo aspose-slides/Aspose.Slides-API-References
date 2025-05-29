@@ -1,14 +1,15 @@
 ---
-title: Integral
-second_title: Справочник по API Aspose.Slides для .NET
-description: Принимает интеграл
+title: Интеграл
+second_title: Ссылка API Aspose.Slides для .NET
+description: Берет интеграл
 type: docs
 weight: 80
 url: /ru/aspose.slides.mathtext/imathelement/integral/
 ---
-## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
-Принимает интеграл
+## Интеграл(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
+
+Берет интеграл
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
@@ -20,11 +21,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 | integralType | MathIntegralTypes | Тип интеграла |
 | lowerLimit | IMathElement | Нижний предел интеграла |
 | upperLimit | IMathElement | Верхний предел интеграла |
-| limitLocations | MathLimitLocations | местоположение пределов |
+| limitLocations | MathLimitLocations | Местоположение пределов |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathNaryOperator`](../../imathnaryoperator)
+Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Примеры
 
@@ -38,20 +39,20 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* enum [MathLimitLocations](../../mathlimitlocations)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* перечисление [MathIntegralTypes](../../mathintegraltypes)
+* перечисление [MathLimitLocations](../../mathlimitlocations)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
+## Интеграл(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
 
-Принимает интеграл
+Берет интеграл
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
@@ -66,7 +67,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathNaryOperator`](../../imathnaryoperator)
+Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Примеры
 
@@ -80,19 +81,19 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* перечисление [MathIntegralTypes](../../mathintegraltypes)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes) {#integral}
+## Интеграл(MathIntegralTypes) {#integral}
 
-Берет интеграл без ограничений
+Берет интеграл без пределов
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType)
@@ -104,7 +105,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType)
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathNaryOperator`](../../imathnaryoperator)
+Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Примеры
 
@@ -116,19 +117,19 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* перечисление [MathIntegralTypes](../../mathintegraltypes)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
+## Интеграл(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
 
-Принимает интеграл
+Берет интеграл
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
@@ -140,11 +141,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 | integralType | MathIntegralTypes | Тип интеграла |
 | lowerLimit | String | Нижний предел интеграла |
 | upperLimit | String | Верхний предел интеграла |
-| limitLocations | MathLimitLocations | местоположение пределов |
+| limitLocations | MathLimitLocations | Местоположение пределов |
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathNaryOperator`](../../imathnaryoperator)
+Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Примеры
 
@@ -156,20 +157,20 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5", MathLimitLocations.UnderOver);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* enum [MathLimitLocations](../../mathlimitlocations)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* перечисление [MathIntegralTypes](../../mathintegraltypes)
+* перечисление [MathLimitLocations](../../mathlimitlocations)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, string, string) {#integral_3}
+## Интеграл(MathIntegralTypes, string, string) {#integral_3}
 
-Принимает интеграл
+Берет интеграл
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
@@ -184,7 +185,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 ### Возвращаемое значение
 
-Новый экземпляр типа[`IMathNaryOperator`](../../imathnaryoperator)
+Новый экземпляр типа [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Примеры
 
@@ -196,11 +197,11 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5");
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathNaryOperator](../../imathnaryoperator)
+* перечисление [MathIntegralTypes](../../mathintegraltypes)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

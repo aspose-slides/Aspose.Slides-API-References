@@ -1,23 +1,24 @@
 ---
-title: InnerShadowEffect
+title: ЭффектТениВнутри
 second_title: Справочник по API Aspose.Slides для .NET
-description: Внутренняя тень. Чтение/записьIInnerShadowaspose.slides.effects/iinnershadow.
+description: Внутренняя тень. Чтение/запись IInnerShadowaspose.slides.effects/iinnershadow.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ieffectformat/innershadoweffect/
 ---
-## IEffectFormat.InnerShadowEffect property
 
-Внутренняя тень. Чтение/запись[`IInnerShadow`](../../../aspose.slides.effects/iinnershadow).
+## Свойство IEffectFormat.InnerShadowEffect
+
+Внутренняя тень. Чтение/запись [`IInnerShadow`](../../../aspose.slides.effects/iinnershadow).
 
 ```csharp
 public IInnerShadow InnerShadowEffect { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IInnerShadow](../../../aspose.slides.effects/iinnershadow)
-* interface [IEffectFormat](../../ieffectformat)
+* интерфейс [IInnerShadow](../../../aspose.slides.effects/iinnershadow)
+* интерфейс [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,24 @@
 ---
 title: UnderlineLineFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает свойства LineFormat используемые для выделения линии подчеркивания. Наследование не применяется. Только для чтенияILineFormataspose.slides/ilineformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает свойства LineFormat, используемые для обрисовки подчеркиваемой линии. Наследование не применяется. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 260
 url: /ru/aspose.slides/ibaseportionformat/underlinelineformat/
 ---
-## IBasePortionFormat.UnderlineLineFormat property
 
-Возвращает свойства LineFormat, используемые для выделения линии подчеркивания. Наследование не применяется. Только для чтения[`ILineFormat`](../../ilineformat).
+## IBasePortionFormat.UnderlineLineFormat свойство
+
+Возвращает свойства LineFormat, используемые для обрисовки подчеркиваемой линии. Наследование не применяется. Только для чтения [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat UnderlineLineFormat { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [ILineFormat](../../ilineformat)
-* interface [IBasePortionFormat](../../ibaseportionformat)
+* интерфейс [ILineFormat](../../ilineformat)
+* интерфейс [IBasePortionFormat](../../ibaseportionformat)
 * пространство имен [Aspose.Slides](../../ibaseportionformat)
 * сборка [Aspose.Slides](../../../)
 

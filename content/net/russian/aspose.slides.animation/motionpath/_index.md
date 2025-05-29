@@ -1,14 +1,15 @@
 ---
 title: MotionPath
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют траекторию движения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет путь движения.
 type: docs
-weight: 590
+weight: 610
 url: /ru/aspose.slides.animation/motionpath/
 ---
-## MotionPath class
 
-Представляют траекторию движения.
+## Класс MotionPath
+
+Представляет путь движения.
 
 ```csharp
 public class MotionPath : IMotionPath
@@ -16,31 +17,31 @@ public class MotionPath : IMotionPath
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [MotionPath](motionpath)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/motionpath/count) { get; } | Возвращает количество путей в коллекции. Только для чтенияInt32. |
+| [Count](../../aspose.slides.animation/motionpath/count) { get; } | Возвращает количество путей в коллекции. Только для чтения Int32. |
 | [Item](../../aspose.slides.animation/motionpath/item) { get; } | Возвращает команду по указанному индексу. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Добавить новую команду в путь |
+| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Добавляет новую команду к пути |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | Удаляет все команды из коллекции. |
 | [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Вставить новую команду в путь |
-| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Удаляет указанные команды из коллекции. |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Вставляет новую команду в путь |
+| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Удаляет указанную команду из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Удаляет команду по указанному индексу. |
 
-### Смотрите также
+### Также см.  
 
-* interface [IMotionPath](../imotionpath)
+* интерфейс [IMotionPath](../imotionpath)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

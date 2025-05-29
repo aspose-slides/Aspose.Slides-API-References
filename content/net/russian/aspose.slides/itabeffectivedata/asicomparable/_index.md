@@ -1,26 +1,27 @@
 ---
 title: AsIComparable
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IComparable. Только для чтенияIComparable.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает интерфейс IComparable. Только для чтения IComparable.
 type: docs
 weight: 20
 url: /ru/aspose.slides/itabeffectivedata/asicomparable/
 ---
-## ITabEffectiveData.AsIComparable property
 
-Возвращает интерфейс IComparable. Только для чтенияIComparable.
+## ITabEffectiveData.AsIComparable свойство
+
+Возвращает интерфейс IComparable. Только для чтения IComparable.
 
 ```csharp
 public IComparable AsIComparable { get; }
 ```
 
-### Примечания
+### Заметки
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. Также
 
-* interface [ITabEffectiveData](../../itabeffectivedata)
+* интерфейс [ITabEffectiveData](../../itabeffectivedata)
 * пространство имен [Aspose.Slides](../../itabeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

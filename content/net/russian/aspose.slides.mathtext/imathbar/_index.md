@@ -1,26 +1,27 @@
 ---
 title: IMathBar
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет функцию панели состоящую из базового аргумента и верхней или нижней черты
+second_title: Aspose.Slides для .NET API Справочник
+description: Задает функцию бар, состоящую из базового аргумента и верхней или нижней линии
 type: docs
-weight: 7410
+weight: 7870
 url: /ru/aspose.slides.mathtext/imathbar/
 ---
-## IMathBar interface
 
-Определяет функцию панели, состоящую из базового аргумента и верхней или нижней черты
+## Интерфейс IMathBar
+
+Задает функцию бар, состоящую из базового аргумента и верхней или нижней линии
 
 ```csharp
 public interface IMathBar : IMathElement
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Базовый аргумент |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Положение такта. По умолчанию:Верх |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Позиция линии бар. По умолчанию: Сверху |
 
 ### Примеры
 
@@ -31,9 +32,9 @@ public interface IMathBar : IMathElement
 IMathBar mathBar = new MathBar(new MathematicalText("x"));
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../imathelement)
+* интерфейс [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

@@ -1,14 +1,15 @@
 ---
 title: BackColor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цвет фонового узора. Только для чтенияColor.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает цвет фона узора. Только для чтения Color.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ipatternformateffectivedata/backcolor/
 ---
-## IPatternFormatEffectiveData.BackColor property
 
-Возвращает цвет фонового узора. Только для чтенияColor.
+## Свойство IPatternFormatEffectiveData.BackColor
+
+Возвращает цвет фона узора. Только для чтения Color.
 
 ```csharp
 public Color BackColor { get; }
@@ -16,7 +17,7 @@ public Color BackColor { get; }
 
 ### Смотрите также
 
-* interface [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
+* интерфейс [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
 * пространство имен [Aspose.Slides](../../ipatternformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

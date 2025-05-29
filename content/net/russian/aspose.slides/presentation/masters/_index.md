@@ -1,23 +1,110 @@
 ---
-title: Masters
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает список всех мастер-слайдов определенных в презентации. Только для чтенияIMasterSlideCollectionaspose.slides/imasterslidecollection.
+title: Мастера
+second_title: Справка по API Aspose.Sildes для .NET
+description: Возвращает список всех мастер-слайдов, определенных в презентации. Коллекция IMasterSlideCollection только для чтения aspose.slides/imasterslidecollection.
 type: docs
 weight: 180
 url: /ru/aspose.slides/presentation/masters/
 ---
-## Presentation.Masters property
 
-Возвращает список всех мастер-слайдов, определенных в презентации. Только для чтения[`IMasterSlideCollection`](../../imasterslidecollection).
+## Свойство Presentation.Masters
+
+Возвращает список всех мастер-слайдов, определенных в презентации. Коллекция только для чтения [`IMasterSlideCollection`](../../imasterslidecollection).
 
 ```csharp
 public IMasterSlideCollection Masters { get; }
 ```
 
+### Примеры
+
+Следующие примеры показывают, как добавлять изображения в мастер-слайды презентации PowerPoint.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    ISlide slide = pres.Slides[0];
+    IMasterSlide masterSlide = slide.LayoutSlide.MasterSlide;
+    IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image.png"));
+    masterSlide.Shapes.AddPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
+    pres.Save("pres.pptx", SaveFormat.Pptx);
+}
+```
+
+Следующие примеры показывают, как изменить цвет фона мастер-слайда презентации PowerPoint.
+
+```csharp
+[C#]
+// Создайте экземпляр класса Presentation, который представляет файл презентации
+using (Presentation pres = new Presentation())
+{
+    // Установите цвет фона мастер ISlide на Лесной Зеленый
+    pres.Masters[0].Background.Type = BackgroundType.OwnBackground;
+    pres.Masters[0].Background.FillFormat.FillType = FillType.Solid;
+    pres.Masters[0].Background.FillFormat.SolidFillColor.Color = Color.ForestGreen;
+    // Запишите презентацию на диск
+    pres.Save("SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
+}
+```
+
+Следующие примеры показывают, как добавить макет слайда в презентацию PowerPoint.
+
+```csharp
+[C#]
+// Создайте экземпляр класса Presentation, который представляет файл презентации
+using (Presentation presentation = new Presentation("AccessSlides.pptx"))
+{
+    // Попытка найти по типу слайда-макета
+    IMasterLayoutSlideCollection layoutSlides = presentation.Masters[0].LayoutSlides;
+    ILayoutSlide layoutSlide = layoutSlides.GetByType(SlideLayoutType.TitleAndObject) ?? layoutSlides.GetByType(SlideLayoutType.Title);
+    if (layoutSlide == null)
+    {
+        // Ситуация, когда презентация не содержит некоторых типов макетов.
+        // Файл презентации содержит только пустые и настраиваемые типы макета.
+        // Но слайды макета с настраиваемыми типами имеют разные названия слайдов,
+        // такие как "Заголовок", "Заголовок и содержание" и т.д. И можно использовать эти
+        // названия для выбора слайдов макета.
+        // Также возможно использовать набор типов фигур-заполнителей. Например,
+        // слайд Заголовка должен содержать только тип заполнителя Заголовка и т.д.
+        foreach (ILayoutSlide titleAndObjectLayoutSlide in layoutSlides)
+        {
+            if (titleAndObjectLayoutSlide.Name == "Title and Object")
+            {
+                layoutSlide = titleAndObjectLayoutSlide;
+                break;
+            }
+        }
+        if (layoutSlide == null)
+        {
+            foreach (ILayoutSlide titleLayoutSlide in layoutSlides)
+            {
+                if (titleLayoutSlide.Name == "Title")
+                {
+                    layoutSlide = titleLayoutSlide;
+                    break;
+                }
+            }
+            if (layoutSlide == null)
+            {
+                layoutSlide = layoutSlides.GetByType(SlideLayoutType.Blank);
+                if (layoutSlide == null)
+                {
+                    layoutSlide = layoutSlides.Add(SlideLayoutType.TitleAndObject, "Title and Object");
+                }
+            }
+        }
+    }
+    // Добавление пустого слайда с добавленным слайдом макета
+    presentation.Slides.InsertEmptySlide(0, layoutSlide);
+    // Сохранение презентации
+    presentation.Save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### Смотрите также
 
-* interface [IMasterSlideCollection](../../imasterslidecollection)
-* class [Presentation](../../presentation)
+* интерфейс [IMasterSlideCollection](../../imasterslidecollection)
+* класс [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

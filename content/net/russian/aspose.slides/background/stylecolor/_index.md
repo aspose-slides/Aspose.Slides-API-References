@@ -1,23 +1,24 @@
 ---
 title: StyleColor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ColorFormat для заливки BackgroundType.Themed. Только для чтенияIColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides для .NET API справочник
+description: Возвращает ColorFormat для BackgroundType.Themed fill. Доступно только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 50
 url: /ru/aspose.slides/background/stylecolor/
 ---
-## Background.StyleColor property
 
-Возвращает ColorFormat для заливки BackgroundType.Themed. Только для чтения[`IColorFormat`](../../icolorformat).
+## Свойство Background.StyleColor
+
+Возвращает ColorFormat для BackgroundType.Themed fill. Доступно только для чтения [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat StyleColor { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IColorFormat](../../icolorformat)
-* class [Background](../../background)
+* интерфейс [IColorFormat](../../icolorformat)
+* класс [Background](../../background)
 * пространство имен [Aspose.Slides](../../background)
 * сборка [Aspose.Slides](../../../)
 

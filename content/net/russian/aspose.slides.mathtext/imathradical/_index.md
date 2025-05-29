@@ -1,27 +1,28 @@
 ---
 title: IMathRadical
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает радикальную функцию состоящую из основания и необязательной степени. Примером радикального объекта является .
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает на радикальную функцию, состоящую из основания и необязательной степени. Пример радикального объекта - это .
 type: docs
-weight: 7710
+weight: 8170
 url: /ru/aspose.slides.mathtext/imathradical/
 ---
-## IMathRadical interface
 
-Задает радикальную функцию, состоящую из основания и необязательной степени. Примером радикального объекта является √𝑥.
+## Интерфейс IMathRadical
+
+Указывает на радикальную функцию, состоящую из основания и необязательной степени. Пример радикального объекта - √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Базовый аргумент |
+| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Аргумент основания |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Аргумент степени |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Скрыть степень Когда истинно, степень не отображается, как в √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Скрыть степень Когда значение true, степень не отображается, как в √𝑥 |
 
 ### Примеры
 
@@ -29,12 +30,12 @@ public interface IMathRadical : IMathElement
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radical("3");  // куб root
+IMathRadical radical = new MathematicalText("x").Radical("3"); // кубический корень
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [IMathElement](../imathelement)
+* интерфейс [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

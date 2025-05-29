@@ -1,14 +1,15 @@
 ---
 title: MathArray
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает математический массив и помещает в него указанный элемент
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает математический массив и помещает в него заданный элемент
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/matharray/matharray/
 ---
+
 ## MathArray(IMathElement) {#constructor}
 
-Создает математический массив и помещает в него указанный элемент
+Создает математический массив и помещает в него заданный элемент
 
 ```csharp
 public MathArray(IMathElement element)
@@ -16,7 +17,7 @@ public MathArray(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Элемент для размещения в массиве |
+| element | IMathElement | Элемент, который нужно поместить в массив |
 
 ### Примеры
 
@@ -27,10 +28,10 @@ public MathArray(IMathElement element)
 MathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathArray](../../matharray)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathArray](../../matharray)
 * пространство имен [Aspose.Slides.MathText](../../matharray)
 * сборка [Aspose.Slides](../../../)
 
@@ -38,7 +39,7 @@ MathArray mathArray = new MathArray(new MathematicalText("item1"));
 
 ## MathArray(IEnumerable&lt;IMathElement&gt;) {#constructor_1}
 
-Создает математический массив и помещает в него указанные элементы
+Создает математический массив и помещает в него заданные элементы
 
 ```csharp
 public MathArray(IEnumerable<IMathElement> elements)
@@ -48,10 +49,10 @@ public MathArray(IEnumerable<IMathElement> elements)
 | --- | --- | --- |
 | elements | IEnumerable`1 | Элементы для размещения в массиве |
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* class [MathArray](../../matharray)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathArray](../../matharray)
 * пространство имен [Aspose.Slides.MathText](../../matharray)
 * сборка [Aspose.Slides](../../../)
 

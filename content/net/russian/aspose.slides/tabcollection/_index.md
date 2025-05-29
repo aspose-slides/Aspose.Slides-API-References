@@ -1,44 +1,45 @@
 ---
 title: TabCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор вкладок.
+second_title: Aspose.Slides для .NET API Reference
+description: Представляет коллекцию вкладок.
 type: docs
-weight: 10030
+weight: 10530
 url: /ru/aspose.slides/tabcollection/
 ---
-## TabCollection class
 
-Представляет набор вкладок.
+## Класс TabCollection
+
+Представляет коллекцию вкладок.
 
 ```csharp
 public sealed class TabCollection : ITabCollection
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/tabcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`Tab`](../tab). |
-| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потоко-безопасно). Только для чтения Boolean. |
+| [Item](../../aspose.slides/tabcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`Tab`](../tab). |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Добавляет вкладку в коллекцию. |
 | [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Добавляет вкладку в коллекцию. |
 | [Clear](../../aspose.slides/tabcollection/clear)() | Удаляет все элементы из коллекции. |
-| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанной массив. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | Определяет, равны ли два экземпляра TabsEx. |
 | [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Возвращает хеш-код для этого объекта. |
+| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Возвращает код хеширования для этого объекта. |
 | [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
 
-### Смотрите также
+### См. также
 
-* interface [ITabCollection](../itabcollection)
+* интерфейс [ITabCollection](../itabcollection)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

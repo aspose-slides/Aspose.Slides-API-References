@@ -1,12 +1,13 @@
 ---
 title: ToMathArray
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Помещает в вертикальный массив
 type: docs
 weight: 210
 url: /ru/aspose.slides.mathtext/imathelement/tomatharray/
 ---
-## IMathElement.ToMathArray method
+
+## IMathElement.ToMathArray метод
 
 Помещает в вертикальный массив
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.mathtext/imathelement/tomatharray/
 public IMathArray ToMathArray()
 ```
 
-### Возвращаемое значение
+### Значение возврата
 
-Новый экземпляр типа[`IMathArray`](../../imatharray)
+Новый экземпляр типа [`IMathArray`](../../imatharray)
 
 ### Примеры
 
@@ -27,10 +28,10 @@ public IMathArray ToMathArray()
 IMathArray array = new MathematicalText("x1").Join("x2").Join("x3").ToMathArray();
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathArray](../../imatharray)
-* interface [IMathElement](../../imathelement)
+* интерфейс [IMathArray](../../imatharray)
+* интерфейс [IMathElement](../../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../imathelement)
 * сборка [Aspose.Slides](../../../)
 

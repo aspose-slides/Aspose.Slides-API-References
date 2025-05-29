@@ -1,12 +1,13 @@
 ---
 title: MathDelimiterFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathdelimiterfactory/mathdelimiterfactory/
 ---
-## MathDelimiterFactory constructor
+
+## Конструктор MathDelimiterFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.mathtext/mathdelimiterfactory/mathdelimiterfactory/
 public MathDelimiterFactory()
 ```
 
-### Смотрите также
+### См. также
 
-* class [MathDelimiterFactory](../../mathdelimiterfactory)
+* класс [MathDelimiterFactory](../../mathdelimiterfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathdelimiterfactory)
 * сборка [Aspose.Slides](../../../)
 

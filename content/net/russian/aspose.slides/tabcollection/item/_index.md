@@ -1,23 +1,24 @@
 ---
-title: Item
+title: Элемент
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияTabaspose.slides/tab.
+description: Получает элемент по указанному индексу. Только для чтения Tabaspose.slides/tab.
 type: docs
 weight: 30
 url: /ru/aspose.slides/tabcollection/item/
 ---
-## TabCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`Tab`](../../tab).
+## Индексатор TabCollection
+
+Получает элемент по указанному индексу. Только для чтения [`Tab`](../../tab).
 
 ```csharp
 public ITab this[int index] { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [ITab](../../itab)
-* class [TabCollection](../../tabcollection)
+* интерфейс [ITab](../../itab)
+* класс [TabCollection](../../tabcollection)
 * пространство имен [Aspose.Slides](../../tabcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,35 +1,36 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект содержащий эффективные свойства форматирования текстовой части.
+second_title: Aspose.Slides для .NET API Справочник
+description: Нев змени обьект, который содержит свойства форматирования эффективной текстовой части.
 type: docs
-weight: 6180
+weight: 6540
 url: /ru/aspose.slides/iportionformateffectivedata/
 ---
-## IPortionFormatEffectiveData interface
 
-Неизменяемый объект, содержащий эффективные свойства форматирования текстовой части.
+## Интерфейс IPortionFormatEffectiveData
+
+Нев змени обьект, который содержит свойства форматирования эффективной текстовой части.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Возвращает интерфейс IBasePortionFormatEffectiveData. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Возвращает идентификатор закладки. Только чтениеString. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Возвращает гиперссылку, определенную для щелчка мыши. Только для чтения[`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Возвращает гиперссылку, определенную для наведения мыши. Только для чтения[`IHyperlink`](../ihyperlink). |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Возвращает идентификатор закладки. Только для чтения String. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Возвращает гиперссылку, определенную для щелчка мыши. Только для чтения [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Возвращает гиперссылку, определенную для наведения мыши. Только для чтения [`IHyperlink`](../ihyperlink). |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`IPortionFormat`](../iportionformat)интерфейс для возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с интерфейсом [`IPortionFormat`](../iportionformat) для возврата эффективных значений форматирования с применением наследования.
 
-### Смотрите также
+### См. Также
 
-* interface [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
+* интерфейс [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

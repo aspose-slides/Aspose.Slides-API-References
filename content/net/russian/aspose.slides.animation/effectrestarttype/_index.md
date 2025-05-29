@@ -1,29 +1,30 @@
 ---
 title: EffectRestartType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют типы перезапуска для синхронизации.
+second_title: Справка по API Aspose.Slides для .NET
+description: Представляет типы перезапуска для тайминга.
 type: docs
-weight: 230
+weight: 250
 url: /ru/aspose.slides.animation/effectrestarttype/
 ---
-## EffectRestartType enumeration
 
-Представляют типы перезапуска для синхронизации.
+## Перечисление EffectRestartType
+
+Представляет типы перезапуска для тайминга.
 
 ```csharp
 public enum EffectRestartType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Always | `0` |  |
 | WhenNotActive | `1` |  |
 | Never | `2` |  |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

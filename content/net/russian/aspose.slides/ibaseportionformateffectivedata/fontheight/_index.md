@@ -1,22 +1,23 @@
 ---
-title: FontHeight
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает высоту шрифта части. Только для чтенияSingle.
+title: ВысотаШрифта
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает высоту шрифта части. Только для чтения Single.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ibaseportionformateffectivedata/fontheight/
 ---
-## IBasePortionFormatEffectiveData.FontHeight property
 
-Возвращает высоту шрифта части. Только для чтенияSingle.
+## Свойство IBasePortionFormatEffectiveData.FontHeight
+
+Возвращает высоту шрифта части. Только для чтения Single.
 
 ```csharp
 public float FontHeight { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibaseportionformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

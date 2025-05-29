@@ -1,22 +1,23 @@
 ---
-title: Rectangle
+title: Прямоугольник
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает координаты кадра. Только для чтенияRectangleF.
+description: Возвращает координаты рамки. Только для чтения RectangleF.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ishapeframe/rectangle/
 ---
-## IShapeFrame.Rectangle property
 
-Возвращает координаты кадра. Только для чтенияRectangleF.
+## IShapeFrame.Rectangle свойство
+
+Возвращает координаты рамки. Только для чтения RectangleF.
 
 ```csharp
 public RectangleF Rectangle { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IShapeFrame](../../ishapeframe)
+* интерфейс [IShapeFrame](../../ishapeframe)
 * пространство имен [Aspose.Slides](../../ishapeframe)
 * сборка [Aspose.Slides](../../../)
 

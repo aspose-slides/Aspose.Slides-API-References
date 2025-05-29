@@ -1,14 +1,15 @@
 ---
 title: ContentType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает MIME-тип аудио закодированный вBinaryDataaspose.slides/iaudio/binarydata. Только чтениеString.
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает MIME-тип аудио, закодированного в BinaryDataaspose.slides/iaudio/binarydata. Свойство только для чтения типа String.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iaudio/contenttype/
 ---
-## IAudio.ContentType property
 
-Возвращает MIME-тип аудио, закодированный в[`BinaryData`](../binarydata). Только чтениеString.
+## IAudio.ContentType свойство
+
+Возвращает MIME-тип аудио, закодированного в [`BinaryData`](../binarydata). Свойство только для чтения типа String.
 
 ```csharp
 public string ContentType { get; }
@@ -16,7 +17,7 @@ public string ContentType { get; }
 
 ### Смотрите также
 
-* interface [IAudio](../../iaudio)
+* интерфейс [IAudio](../../iaudio)
 * пространство имен [Aspose.Slides](../../iaudio)
 * сборка [Aspose.Slides](../../../)
 

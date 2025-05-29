@@ -1,12 +1,13 @@
 ---
 title: FilterEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/filtereffect/filtereffect/
 ---
-## FilterEffect constructor
+
+## Конструктор FilterEffect
 
 Конструктор по умолчанию.
 
@@ -16,7 +17,7 @@ public FilterEffect()
 
 ### Смотрите также
 
-* class [FilterEffect](../../filtereffect)
+* класс [FilterEffect](../../filtereffect)
 * пространство имен [Aspose.Slides.Animation](../../filtereffect)
 * сборка [Aspose.Slides](../../../)
 

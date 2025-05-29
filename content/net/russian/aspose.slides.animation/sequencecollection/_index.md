@@ -1,39 +1,40 @@
 ---
 title: SequenceCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор интерактивных последовательностей.
+second_title: Справочная информация по API Aspose.Sildes для .NET
+description: Представляет коллекцию интерактивных последовательностей.
 type: docs
-weight: 700
+weight: 720
 url: /ru/aspose.slides.animation/sequencecollection/
 ---
-## SequenceCollection class
 
-Представляет набор интерактивных последовательностей.
+## Класс SequenceCollection
+
+Представляет коллекцию интерактивных последовательностей.
 
 ```csharp
 public class SequenceCollection : ISequenceCollection
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Возвращает количество элементов в коллекции Только для чтенияInt32. |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
 | [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Возвращает последовательность по указанному индексу. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Добавить новую интерактивную последовательность. Чтение/запись[`Sequence`](../sequence). |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Добавить новую интерактивную последовательность. Читаемое/записываемое [`Sequence`](../sequence). |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Удаляет все последовательности из коллекции. |
 | [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Удаляет указанную последовательность из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Удаляет последовательность по указанному индексу. |
 
-### Смотрите также
+### См. также
 
-* interface [ISequenceCollection](../isequencecollection)
+* интерфейс [ISequenceCollection](../isequencecollection)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

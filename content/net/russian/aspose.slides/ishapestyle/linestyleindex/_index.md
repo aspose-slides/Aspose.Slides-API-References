@@ -1,22 +1,23 @@
 ---
 title: LineStyleIndex
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает индекс столбца строки в матрице стилей. Чтение/записьUInt16.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или задает индекс столбца линии в матрице стилей. Чтение/запись UInt16.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ishapestyle/linestyleindex/
 ---
-## IShapeStyle.LineStyleIndex property
 
-Возвращает или устанавливает индекс столбца строки в матрице стилей. Чтение/записьUInt16.
+## IShapeStyle.LineStyleIndex свойство
+
+Возвращает или задает индекс столбца линии в матрице стилей. Чтение/запись UInt16.
 
 ```csharp
 public ushort LineStyleIndex { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IShapeStyle](../../ishapestyle)
+* интерфейс [IShapeStyle](../../ishapestyle)
 * пространство имен [Aspose.Slides](../../ishapestyle)
 * сборка [Aspose.Slides](../../../)
 

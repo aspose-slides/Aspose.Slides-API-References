@@ -1,22 +1,23 @@
 ---
 title: TickLabelSpacing
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает сколько галочек следует пропустить между отображаемыми метками. Применяется к оси категорий или серий. Чтение/записьUInt32.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает, сколько меток делений пропустить между нарисованной меткой. Применяется к оси категории или серии. Читаемый/записываемый UInt32.
 type: docs
 weight: 530
 url: /ru/aspose.slides.charts/axis/ticklabelspacing/
 ---
-## Axis.TickLabelSpacing property
 
-Указывает, сколько галочек следует пропустить между отображаемыми метками. Применяется к оси категорий или серий. Чтение/записьUInt32.
+## Axis.TickLabelSpacing свойство
+
+Указывает, сколько меток делений пропустить между нарисованной меткой. Применяется к оси категории или серии. Читаемый/записываемый UInt32.
 
 ```csharp
 public uint TickLabelSpacing { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Axis](../../axis)
+* класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

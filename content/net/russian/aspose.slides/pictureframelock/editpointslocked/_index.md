@@ -1,14 +1,15 @@
 ---
 title: EditPointsLocked
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли прямое изменение контура этой формы. Чтение/записьBoolean.
+description: Определяет, запрещено ли прямое изменение контура этой формы. Читаемое/записываемое Булево значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides/pictureframelock/editpointslocked/
 ---
-## PictureFrameLock.EditPointsLocked property
 
-Определяет, запрещено ли прямое изменение контура этой формы. Чтение/записьBoolean.
+## Свойство PictureFrameLock.EditPointsLocked
+
+Определяет, запрещено ли прямое изменение контура этой формы. Читаемое/записываемое Булево значение.
 
 ```csharp
 public bool EditPointsLocked { get; set; }
@@ -16,7 +17,7 @@ public bool EditPointsLocked { get; set; }
 
 ### Смотрите также
 
-* class [PictureFrameLock](../../pictureframelock)
+* класс [PictureFrameLock](../../pictureframelock)
 * пространство имен [Aspose.Slides](../../pictureframelock)
 * сборка [Aspose.Slides](../../../)
 

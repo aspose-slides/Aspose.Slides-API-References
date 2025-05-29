@@ -1,12 +1,13 @@
 ---
-title: Base
+title: Базовый
 second_title: Справочник по API Aspose.Slides для .NET
 description: Базовый аргумент
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathborderbox/base/
 ---
-## IMathBorderBox.Base property
+
+## Свойство IMathBorderBox.Base
 
 Базовый аргумент
 
@@ -24,10 +25,10 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 IMathElement base = borderBox.Base;
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathBorderBox](../../imathborderbox)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathBorderBox](../../imathborderbox)
 * пространство имен [Aspose.Slides.MathText](../../imathborderbox)
 * сборка [Aspose.Slides](../../../)
 

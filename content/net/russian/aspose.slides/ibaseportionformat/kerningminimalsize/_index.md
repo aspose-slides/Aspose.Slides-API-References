@@ -1,22 +1,23 @@
 ---
 title: KerningMinimalSize
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает минимальный размер шрифта для которого должен быть включен кернинг.  float.NaN означает что значение не определено и должно быть унаследовано от Мастера. Чтение/записьSingle.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает или устанавливает минимальный размер шрифта, для которого должно быть включено кернинг. float.NaN означает, что значение не определено и должно быть унаследовано от Master. Читаемый/записываемый тип Single.
 type: docs
 weight: 140
 url: /ru/aspose.slides/ibaseportionformat/kerningminimalsize/
 ---
-## IBasePortionFormat.KerningMinimalSize property
 
-Возвращает или задает минимальный размер шрифта, для которого должен быть включен кернинг.  **float.NaN** означает, что значение не определено и должно быть унаследовано от Мастера. Чтение/записьSingle.
+## IBasePortionFormat.KerningMinimalSize свойство
+
+Возвращает или устанавливает минимальный размер шрифта, для которого должно быть включено кернинг. **float.NaN** означает, что значение не определено и должно быть унаследовано от Master. Читаемый/записываемый тип Single.
 
 ```csharp
 public float KerningMinimalSize { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBasePortionFormat](../../ibaseportionformat)
+* интерфейс [IBasePortionFormat](../../ibaseportionformat)
 * пространство имен [Aspose.Slides](../../ibaseportionformat)
 * сборка [Aspose.Slides](../../../)
 

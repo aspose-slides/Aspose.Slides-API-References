@@ -1,23 +1,24 @@
 ---
 title: PatternFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат заполнения узором. Только для чтенияIPatternFormatEffectiveDataaspose.slides/ipatternformateffectivedata.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает формат заливки шаблона. Только для чтения IPatternFormatEffectiveDataaspose.slides/ipatternformateffectivedata.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ilinefillformateffectivedata/patternformat/
 ---
-## ILineFillFormatEffectiveData.PatternFormat property
 
-Возвращает формат заполнения узором. Только для чтения[`IPatternFormatEffectiveData`](../../ipatternformateffectivedata).
+## Свойство ILineFillFormatEffectiveData.PatternFormat
+
+Возвращает формат заливки шаблона. Только для чтения [`IPatternFormatEffectiveData`](../../ipatternformateffectivedata).
 
 ```csharp
 public IPatternFormatEffectiveData PatternFormat { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
-* interface [ILineFillFormatEffectiveData](../../ilinefillformateffectivedata)
+* интерфейс [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
+* интерфейс [ILineFillFormatEffectiveData](../../ilinefillformateffectivedata)
 * пространство имен [Aspose.Slides](../../ilinefillformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

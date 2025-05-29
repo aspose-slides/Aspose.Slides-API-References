@@ -1,12 +1,13 @@
 ---
-title: Clear
-second_title: Справочник по API Aspose.Slides для .NET
+title: Очистить
+second_title: Справочник API Aspose.Slides для .NET
 description: Удаляет все шрифты из списка.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ifontfallbackrule/clear/
 ---
-## IFontFallBackRule.Clear method
+
+## Метод IFontFallBackRule.Clear
 
 Удаляет все шрифты из списка.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/ifontfallbackrule/clear/
 public void Clear()
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IFontFallBackRule](../../ifontfallbackrule)
+* интерфейс [IFontFallBackRule](../../ifontfallbackrule)
 * пространство имен [Aspose.Slides](../../ifontfallbackrule)
 * сборка [Aspose.Slides](../../../)
 

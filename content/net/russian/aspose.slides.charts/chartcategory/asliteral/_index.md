@@ -1,22 +1,23 @@
 ---
 title: AsLiteral
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает объект AsLiteral. Чтение/записьObject.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Возвращает или устанавливает объект AsLiteral. Читаемый/записываемый объект.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartcategory/asliteral/
 ---
-## ChartCategory.AsLiteral property
 
-Возвращает или устанавливает объект AsLiteral. Чтение/записьObject.
+## Свойство ChartCategory.AsLiteral
+
+Возвращает или устанавливает объект AsLiteral. Читаемый/записываемый объект.
 
 ```csharp
 public object AsLiteral { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartCategory](../../chartcategory)
+* класс [ChartCategory](../../chartcategory)
 * пространство имен [Aspose.Slides.Charts](../../chartcategory)
 * сборка [Aspose.Slides](../../../)
 

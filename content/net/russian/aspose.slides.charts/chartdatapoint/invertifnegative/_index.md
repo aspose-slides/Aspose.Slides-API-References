@@ -1,22 +1,23 @@
 ---
 title: InvertIfNegative
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает что точка данных должна инвертировать свои цвета если значение отрицательное. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает, что точка данных должна инвертировать свои цвета, если значение отрицательное. Чтение/запись логическое значение.
 type: docs
-weight: 110
+weight: 120
 url: /ru/aspose.slides.charts/chartdatapoint/invertifnegative/
 ---
-## ChartDataPoint.InvertIfNegative property
 
-Указывает, что точка данных должна инвертировать свои цвета, если значение отрицательное. Чтение/записьBoolean.
+## Свойство ChartDataPoint.InvertIfNegative
+
+Указывает, что точка данных должна инвертировать свои цвета, если значение отрицательное. Чтение/запись логическое значение.
 
 ```csharp
 public bool InvertIfNegative { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartDataPoint](../../chartdatapoint)
+* класс [ChartDataPoint](../../chartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../chartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

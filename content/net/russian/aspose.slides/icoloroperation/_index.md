@@ -1,27 +1,28 @@
 ---
 title: IColorOperation
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет различные операции с цветом используемые для преобразования цвета.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет различные операции с цветом, используемые для цветовых преобразований.
 type: docs
-weight: 5000
+weight: 5300
 url: /ru/aspose.slides/icoloroperation/
 ---
-## IColorOperation interface
 
-Представляет различные операции с цветом, используемые для преобразования цвета.
+## Интерфейс IColorOperation
+
+Представляет различные операции с цветом, используемые для цветовых преобразований.
 
 ```csharp
 public interface IColorOperation
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Возвращает или задает тип операции. Только для чтения[`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Возвращает параметр операции. Только для чтенияSingle. |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Возвращает или устанавливает тип операции. Только для чтения [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Возвращает параметр операции. Только для чтения Single. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

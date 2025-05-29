@@ -1,23 +1,24 @@
 ---
 title: BorderLeft
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект свойств левой границы. Только для чтенияILineFormataspose.slides/ilineformat.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает объект свойств левой границы линии. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icellformat/borderleft/
 ---
-## ICellFormat.BorderLeft property
 
-Возвращает объект свойств левой границы. Только для чтения[`ILineFormat`](../../ilineformat).
+## Свойство ICellFormat.BorderLeft
+
+Возвращает объект свойств левой границы линии. Только для чтения [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderLeft { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILineFormat](../../ilineformat)
-* interface [ICellFormat](../../icellformat)
+* интерфейс [ILineFormat](../../ilineformat)
+* интерфейс [ICellFormat](../../icellformat)
 * пространство имен [Aspose.Slides](../../icellformat)
 * сборка [Aspose.Slides](../../../)
 

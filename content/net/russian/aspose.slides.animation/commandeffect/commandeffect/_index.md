@@ -1,12 +1,13 @@
 ---
 title: CommandEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает новый экземпляр.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/commandeffect/commandeffect/
 ---
-## CommandEffect constructor
+
+## Конструктор CommandEffect
 
 Создает новый экземпляр.
 
@@ -16,7 +17,7 @@ public CommandEffect()
 
 ### Смотрите также
 
-* class [CommandEffect](../../commandeffect)
+* класс [CommandEffect](../../commandeffect)
 * пространство имен [Aspose.Slides.Animation](../../commandeffect)
 * сборка [Aspose.Slides](../../../)
 

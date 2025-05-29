@@ -1,27 +1,21 @@
 ---
 title: ShapeUtil
-second_title: Справочник по API Aspose.Slides для .NET
-description: Предложите методы помогающие обрабатывать объекты фигур.
+second_title: Aspose.Slides для .NET API Справочник
+description: Предлагает методы, которые помогают обрабатывать объекты фигур.
 type: docs
-weight: 10700
+weight: 11200
 url: /ru/aspose.slides.util/shapeutil/
 ---
-## ShapeUtil class
 
-Предложите методы, помогающие обрабатывать объекты фигур.
+## Класс ShapeUtil
+
+Предлагает методы, которые помогают обрабатывать объекты фигур.
 
 ```csharp
 public static class ShapeUtil
 ```
 
-## Методы
-
-| Имя | Описание |
-| --- | --- |
-| static [GeometryPathToGraphicsPath](../../aspose.slides.util/shapeutil/geometrypathtographicspath)(IGeometryPath) | Преобразует[`IGeometryPath`](../../aspose.slides/igeometrypath)вGraphicsPath.  GraphicsPath можно трансформировать различными способами, используя его удобные методы, а затем преобразовать обратно в [`IGeometryPath`](../../aspose.slides/igeometrypath)для использования в[`GeometryShape`](../../aspose.slides/geometryshape)через[`GraphicsPathToGeometryPath`](./graphicspathtogeometrypath)метод. |
-| static [GraphicsPathToGeometryPath](../../aspose.slides.util/shapeutil/graphicspathtogeometrypath)(GraphicsPath) | ПреобразуетGraphicsPathв[`IGeometryPath`](../../aspose.slides/igeometrypath) Возвращаемое значение вызова метода можно использовать для изменения геометрии объекта IGeometryShape с помощью метода IGeometryShape.SetGeometryPaths. |
-
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Util](../../aspose.slides.util)
 * сборка [Aspose.Slides](../../)

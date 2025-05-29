@@ -1,11 +1,12 @@
 ---
 title: OdpException
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Конструктор по умолчанию
 type: docs
 weight: 10
 url: /ru/aspose.slides/odpexception/odpexception/
 ---
+
 ## OdpException() {#constructor}
 
 Конструктор по умолчанию
@@ -16,7 +17,7 @@ public OdpException()
 
 ### Смотрите также
 
-* class [OdpException](../../odpexception)
+* класс [OdpException](../../odpexception)
 * пространство имен [Aspose.Slides](../../odpexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -32,11 +33,11 @@ public OdpException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
+| message | String | сообщение |
 
 ### Смотрите также
 
-* class [OdpException](../../odpexception)
+* класс [OdpException](../../odpexception)
 * пространство имен [Aspose.Slides](../../odpexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,7 +45,7 @@ public OdpException(string message)
 
 ## OdpException(string, Exception) {#constructor_2}
 
-Конструктор исключения, содержащего сообщение и встроенное исключение.
+Конструктор для исключения, содержащее сообщение и встроенное исключение.
 
 ```csharp
 public OdpException(string message, Exception exception)
@@ -52,12 +53,12 @@ public OdpException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
-| исключение | Exception | исходное исключение |
+| message | String | сообщение |
+| exception | Exception | оригинальное исключение |
 
 ### Смотрите также
 
-* class [OdpException](../../odpexception)
+* класс [OdpException](../../odpexception)
 * пространство имен [Aspose.Slides](../../odpexception)
 * сборка [Aspose.Slides](../../../)
 

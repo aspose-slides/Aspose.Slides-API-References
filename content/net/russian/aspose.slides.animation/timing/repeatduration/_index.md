@@ -1,14 +1,15 @@
 ---
 title: RepeatDuration
-second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает количество повторений эффекта. Чтение/записьSingle.
+second_title: Справочник API Aspose.Slides для .NET
+description: Описывает количество раз, которое эффект должен повторяться. Чтение/запись Single.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/timing/repeatduration/
 ---
-## Timing.RepeatDuration property
 
-Описывает количество повторений эффекта. Чтение/записьSingle.
+## Свойство Timing.RepeatDuration
+
+Описывает количество раз, которое эффект должен повторяться. Чтение/запись Single.
 
 ```csharp
 public float RepeatDuration { get; set; }
@@ -16,7 +17,7 @@ public float RepeatDuration { get; set; }
 
 ### Смотрите также
 
-* class [Timing](../../timing)
+* класс [Timing](../../timing)
 * пространство имен [Aspose.Slides.Animation](../../timing)
 * сборка [Aspose.Slides](../../../)
 

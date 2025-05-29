@@ -1,23 +1,24 @@
 ---
 title: MajorGridLinesFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет формат основных линий сетки на оси диаграммы. Только для чтенияIChartLinesFormataspose.slides.charts/ichartlinesformat.
+second_title: Aspose.Slides для .NET API Справка
+description: Представляет формат основных сеточных линий на оси графика. Только для чтения IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
 weight: 340
 url: /ru/aspose.slides.charts/axis/majorgridlinesformat/
 ---
-## Axis.MajorGridLinesFormat property
 
-Представляет формат основных линий сетки на оси диаграммы. Только для чтения[`IChartLinesFormat`](../../ichartlinesformat).
+## Свойство Axis.MajorGridLinesFormat
+
+Представляет формат основных сеточных линий на оси графика. Только для чтения [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat MajorGridLinesFormat { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartLinesFormat](../../ichartlinesformat)
-* class [Axis](../../axis)
+* интерфейс [IChartLinesFormat](../../ichartlinesformat)
+* класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)
 * сборка [Aspose.Slides](../../../)
 

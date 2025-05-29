@@ -1,14 +1,15 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Objeto inmutable que contiene propiedades efectivas de formato de párrafo.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Objeto inmutable que contiene propiedades de formato de párrafo efectivas.
 type: docs
-weight: 6040
+weight: 6400
 url: /es/aspose.slides/iparagraphformateffectivedata/
 ---
-## IParagraphFormatEffectiveData interface
 
-Objeto inmutable que contiene propiedades efectivas de formato de párrafo.
+## Interfaz IParagraphFormatEffectiveData
+
+Objeto inmutable que contiene propiedades de formato de párrafo efectivas.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -18,31 +19,31 @@ public interface IParagraphFormatEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Devuelve la alineación del texto en un párrafo. Solo lectura[`TextAlignment`](../textalignment) . |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Devuelve un formato de viñeta de un párrafo. Solo lectura[`IBulletFormatEffectiveData`](../ibulletformateffectivedata) . |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Devuelve el formato de parte predeterminado de un párrafo. Solo lectura[`IPortionFormatEffectiveData`](../iportionformateffectivedata) . |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Devuelve el tamaño de tabulación predeterminado. Solo lecturaSingle . |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Devuelve la profundidad de un párrafo. Solo lecturaInt16 . |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Determina si se utiliza el salto de línea de Asia oriental en un párrafo. Solo lecturaBoolean . |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Devuelve una alineación de fuente en un párrafo. Solo lectura[`FontAlignment`](../fontalignment) . |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Determina si se usa la puntuación colgante en un párrafo. Solo lecturaBoolean . |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Devuelve la sangría de primera línea o la sangría francesa del párrafo. La sangría francesa se puede definir con valores negativos. Solo lecturaSingle . |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Determina si se utiliza el salto de línea latino en un párrafo. Solo lecturaBoolean . |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Devuelve el margen izquierdo de un párrafo. Solo lecturaSingle . |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Devuelve el margen derecho de un párrafo. Solo lecturaSingle . |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Determina si se usa la escritura de derecha a izquierda en un párrafo. Solo lecturaBoolean . |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Devuelve la cantidad de espacio después de la última línea de un párrafo. Solo lecturaSingle . |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Devuelve la cantidad de espacio antes de la primera línea de un párrafo. Solo lecturaSingle . |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Devuelve la cantidad de espacio entre líneas base en un párrafo. Solo lecturaSingle . |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Devuelve tabulaciones de un párrafo. Solo lectura[`ITabEffectiveData`](../itabeffectivedata) []. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Devuelve la alineación del texto en un párrafo. Solo lectura [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Devuelve un formato de viñeta de un párrafo. Solo lectura [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Devuelve el formato de porción predeterminado de un párrafo. Solo lectura [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Devuelve el tamaño de tabulación predeterminado. Solo lectura Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Devuelve una profundidad de un párrafo. Solo lectura Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Determina si se usa el salto de línea de Asia Oriental en un párrafo. Solo lectura Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Devuelve una alineación de fuente en un párrafo. Solo lectura [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Determina si se usa la puntuación colgante en un párrafo. Solo lectura Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Devuelve el sangrado de la primera línea del párrafo/sangrado colgante. El sangrado colgante se puede definir con valores negativos. Solo lectura Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Determina si se usa el salto de línea latino en un párrafo. Solo lectura Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Devuelve el margen izquierdo en un párrafo. Solo lectura Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Devuelve el margen derecho en un párrafo. Solo lectura Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Determina si se utiliza la escritura de derecha a izquierda en un párrafo. Solo lectura Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Devuelve la cantidad de espacio después de la última línea en un párrafo. Solo lectura Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Devuelve la cantidad de espacio antes de la primera línea en un párrafo. Solo lectura Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Devuelve la cantidad de espacio entre líneas base en un párrafo. Solo lectura Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Devuelve tabulaciones de un párrafo. Solo lectura [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
-### Observaciones
+### Notas
 
-Esta interfaz se utiliza junto con la[`IParagraphFormat`](../iparagraphformat) interfaz para devolver valores de formato efectivos con herencia aplicada.
+Esta interfaz se utiliza junto con la interfaz [`IParagraphFormat`](../iparagraphformat) para devolver valores de formato efectivos con herencia aplicada.
 
-### Ver también
+### Véase también
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* asamblea [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

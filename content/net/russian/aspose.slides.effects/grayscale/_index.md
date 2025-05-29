@@ -1,37 +1,38 @@
 ---
-title: GrayScale
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект шкалы серого. Преобразует все значения цвета эффекта в оттенок серого соответствующий их яркости. Значения альфа-канала эффекта непрозрачности не изменяются.
+title: Серая шкала
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Представляет эффект серой шкалы. Преобразует все значения цветового эффекта в оттенок серого, соответствующий их яркости. Значения альфа-прозрачности эффекта не затрагиваются.
 type: docs
-weight: 2820
+weight: 2900
 url: /ru/aspose.slides.effects/grayscale/
 ---
-## GrayScale class
 
-Представляет эффект шкалы серого. Преобразует все значения цвета эффекта в оттенок серого, соответствующий их яркости. Значения альфа-канала эффекта (непрозрачности) не изменяются.
+## Класс GrayScale
+
+Представляет эффект серой шкалы. Преобразует все значения цветового эффекта в оттенок серого, соответствующий их яркости. Значения альфа-прозрачности эффекта не затрагиваются.
 
 ```csharp
-public class GrayScale : ImageTransformOperation, IGrayScale
+public sealed class GrayScale : ImageTransformOperation, IGrayScale
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить баз 인터фейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Определяет, равен ли указанный[`GrayScale`](../grayscale)текущемуОттенкисерого. |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Получает эффективные данные эффекта шкалы серого с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Определяет, равен ли заданный [`GrayScale`](../grayscale) текущему [`GrayScale`](../grayscale). |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Получает данные эффекта серой шкалы с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Служит хеш-функцией для данного типа. |
 
 ### Смотрите также
 
-* class [ImageTransformOperation](../imagetransformoperation)
-* interface [IGrayScale](../igrayscale)
+* класс [ImageTransformOperation](../imagetransformoperation)
+* интерфейс [IGrayScale](../igrayscale)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)
 

@@ -1,26 +1,27 @@
 ---
 title: IsReadOnly
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение указывающее является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean.
+second_title: Aspose.Sildes для справки по .NET API
+description: Получает значение, указывающее, является ли ICollection только для чтения. Булево значение только для чтения.
 type: docs
 weight: 20
 url: /ru/aspose.slides/portioncollection/isreadonly/
 ---
-## PortionCollection.IsReadOnly property
 
-Получает значение, указывающее, является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean.
+## Свойство PortionCollection.IsReadOnly
+
+Получает значение, указывающее, является ли ICollection только для чтения. Булево значение только для чтения.
 
 ```csharp
 public bool IsReadOnly { get; }
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-true, еслиICollectionдоступен только для чтения; в противном случае ложно.
+true, если ICollection является только для чтения; в противном случае false.
 
-### Смотрите также
+### См. Также
 
-* class [PortionCollection](../../portioncollection)
+* класс [PortionCollection](../../portioncollection)
 * пространство имен [Aspose.Slides](../../portioncollection)
 * сборка [Aspose.Slides](../../../)
 

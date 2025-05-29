@@ -1,22 +1,23 @@
 ---
-title: Width
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает ширину ограничивающей рамки области графика как часть ширины диаграммы от 0 до 1. Чтение/записьSingle.
+title: Ширина
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает ширину рамки области построения в виде доли ширины графика от 0 до 1. Чтение/запись Single.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/chartplotarea/width/
 ---
-## ChartPlotArea.Width property
 
-Возвращает или задает ширину ограничивающей рамки области графика как часть ширины диаграммы (от 0 до 1). Чтение/записьSingle.
+## Свойство ChartPlotArea.Width
+
+Возвращает или задает ширину рамки области построения в виде доли ширины графика (от 0 до 1). Чтение/запись Single.
 
 ```csharp
 public float Width { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartPlotArea](../../chartplotarea)
+* класс [ChartPlotArea](../../chartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../chartplotarea)
 * сборка [Aspose.Slides](../../../)
 

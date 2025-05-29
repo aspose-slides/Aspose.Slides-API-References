@@ -1,12 +1,13 @@
 ---
-title: Clone
+title: Клонировать
 second_title: Справочник по API Aspose.Slides для .NET
 description: Клонирует текущий объект
 type: docs
-weight: 280
+weight: 390
 url: /ru/aspose.slides/documentproperties/clone/
 ---
-## DocumentProperties.Clone method
+
+## Метод DocumentProperties.Clone
 
 Клонирует текущий объект
 
@@ -18,9 +19,9 @@ public object Clone()
 
 Клонировать
 
-### Смотрите также
+### См. также
 
-* class [DocumentProperties](../../documentproperties)
+* класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

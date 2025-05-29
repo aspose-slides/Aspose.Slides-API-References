@@ -1,16 +1,17 @@
 ---
 title: Aspose.Slides.DOM.Ole
-second_title: Aspose.Slides for .NET API 参考
-description: 
+second_title: Aspose.Sildes for .NET API 参考
+description: 包含用于处理 Microsoft PowerPoint 演示文稿中 OLE 对象的类。
 type: docs
 weight: 40
 url: /zh/aspose.slides.dom.ole/
 ---
- 包含用于在 Microsoft PowerPoint 演示文稿中使用 OLE 对象的类。
 
-## 课程
+包含用于处理 Microsoft PowerPoint 演示文稿中 OLE 对象的类。
 
-| 班级 | 描述 |
+## 类
+
+| 类 | 描述 |
 | --- | --- |
 | [OleEmbeddedDataInfo](./oleembeddeddatainfo) | 表示 OLE 对象的嵌入数据信息。 |
 

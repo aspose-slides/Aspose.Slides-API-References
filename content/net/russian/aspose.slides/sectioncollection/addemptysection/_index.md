@@ -1,14 +1,15 @@
 ---
 title: AddEmptySection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавить пустой раздел в указанную позицию коллекции.
+description: Добавить пустой раздел в указанное место коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides/sectioncollection/addemptysection/
 ---
-## SectionCollection.AddEmptySection method
 
-Добавить пустой раздел в указанную позицию коллекции.
+## Метод SectionCollection.AddEmptySection
+
+Добавляет пустой раздел в указанное место коллекции.
 
 ```csharp
 public ISection AddEmptySection(string name, int index)
@@ -17,16 +18,16 @@ public ISection AddEmptySection(string name, int index)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя раздела |
-| index | Int32 | Индекс нового раздел. |
+| index | Int32 | Индекс нового раздела. |
 
 ### Возвращаемое значение
 
-Добавлен раздел.
+Добавленный раздел.
 
-### Смотрите также
+### См. также
 
-* interface [ISection](../../isection)
-* class [SectionCollection](../../sectioncollection)
+* интерфейс [ISection](../../isection)
+* класс [SectionCollection](../../sectioncollection)
 * пространство имен [Aspose.Slides](../../sectioncollection)
 * сборка [Aspose.Slides](../../../)
 

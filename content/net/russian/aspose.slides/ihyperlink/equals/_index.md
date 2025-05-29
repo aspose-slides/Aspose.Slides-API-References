@@ -1,14 +1,15 @@
 ---
-title: Equals
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равны ли два экземпляра гиперссылки.
+title: Равенство
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Определяет, равны ли два экземпляра Hyperlink.
 type: docs
-weight: 100
+weight: 120
 url: /ru/aspose.slides/ihyperlink/equals/
 ---
-## IHyperlink.Equals method
 
-Определяет, равны ли два экземпляра гиперссылки.
+## Метод IHyperlink.Equals
+
+Определяет, равны ли два экземпляра Hyperlink.
 
 ```csharp
 public bool Equals(IHyperlink hlink)
@@ -16,15 +17,15 @@ public bool Equals(IHyperlink hlink)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hlink | IHyperlink | Гиперссылка для сравнения с текущей гиперссылкой. |
+| hlink | IHyperlink | Hyperlink, с которым нужно сравнить текущий Hyperlink. |
 
 ### Возвращаемое значение
 
-**true** , если указанная Гиперссылка равна текущей Гиперссылке; в противном случае **false** .
+**true**, если указанный Hyperlink равен текущему Hyperlink; в противном случае **false**.
 
-### Смотрите также
+### См. также
 
-* interface [IHyperlink](../../ihyperlink)
+* интерфейс [IHyperlink](../../ihyperlink)
 * пространство имен [Aspose.Slides](../../ihyperlink)
 * сборка [Aspose.Slides](../../../)
 

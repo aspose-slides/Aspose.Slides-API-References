@@ -1,14 +1,15 @@
 ---
-title: Remove
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет первое вхождение определенного объекта из коллекции/gt.
+title: Удалить
+second_title: Справка по API Aspose.Sildes для .NET
+description: Удаляет первое вхождение конкретного объекта из коллекции/&gt;.
 type: docs
 weight: 100
 url: /ru/aspose.slides.mathtext/mathparagraph/remove/
 ---
-## MathParagraph.Remove method
 
-Удаляет первое вхождение определенного объекта из коллекции/&gt;.
+## Метод MathParagraph.Remove
+
+Удаляет первое вхождение конкретного объекта из коллекции/&gt;.
 
 ```csharp
 public bool Remove(IMathBlock mathBlock)
@@ -16,11 +17,11 @@ public bool Remove(IMathBlock mathBlock)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathBlock | IMathBlock | Объект, удаляемый из коллекции. |
+| mathBlock | IMathBlock | Объект, который нужно удалить из коллекции. |
 
 ### Возвращаемое значение
 
-true, если*mathBlock*был успешно удален из коллекции; в противном случае ложно. Этот метод также возвращает false, если*mathBlock*не найден в исходной коллекции/&gt;.
+true, если *mathBlock* успешно удален из коллекции; в противном случае false. Этот метод также возвращает false, если *mathBlock* не найден в оригинальной коллекции/&gt;.
 
 ### Примеры
 
@@ -36,10 +37,10 @@ mathParagraph.Add(block);
 mathParagraph.Remove(block);
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathBlock](../../imathblock)
-* class [MathParagraph](../../mathparagraph)
+* интерфейс [IMathBlock](../../imathblock)
+* класс [MathParagraph](../../mathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraph)
 * сборка [Aspose.Slides](../../../)
 

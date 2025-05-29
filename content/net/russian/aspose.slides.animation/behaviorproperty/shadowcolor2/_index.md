@@ -1,12 +1,13 @@
 ---
 title: ShadowColor2
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Ссылка на API Aspose.Slidеs для .NET
 description: Представляет свойство shadow.color2
 type: docs
 weight: 610
 url: /ru/aspose.slides.animation/behaviorproperty/shadowcolor2/
 ---
-## BehaviorProperty.ShadowColor2 property
+
+## Свойство BehaviorProperty.ShadowColor2
 
 Представляет свойство 'shadow.color2'
 
@@ -16,7 +17,7 @@ public static BehaviorProperty ShadowColor2 { get; }
 
 ### Смотрите также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: FontData
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает новый объект FontData с указанным именем шрифта.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fontdata/fontdata/
 ---
-## FontData constructor
+
+## Конструктор FontData
 
 Создает новый объект FontData с указанным именем шрифта.
 
@@ -16,11 +17,11 @@ public FontData(string fontName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontName | String | Название шрифта. |
+| fontName | String | Имя шрифта. |
 
-### Смотрите также
+### См. также
 
-* class [FontData](../../fontdata)
+* класс [FontData](../../fontdata)
 * пространство имен [Aspose.Slides](../../fontdata)
 * сборка [Aspose.Slides](../../../)
 

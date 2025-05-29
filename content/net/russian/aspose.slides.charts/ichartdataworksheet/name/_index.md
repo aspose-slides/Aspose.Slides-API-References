@@ -1,22 +1,23 @@
 ---
-title: Name
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает имя. Только чтениеString.
+title: Имя
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Получает имя. Свойство только для чтения типа String.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/ichartdataworksheet/name/
 ---
-## IChartDataWorksheet.Name property
 
-Получает имя. Только чтениеString.
+## Свойство IChartDataWorksheet.Name
+
+Получает имя. Свойство только для чтения типа String.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataWorksheet](../../ichartdataworksheet)
+* интерфейс [IChartDataWorksheet](../../ichartdataworksheet)
 * пространство имен [Aspose.Slides.Charts](../../ichartdataworksheet)
 * сборка [Aspose.Slides](../../../)
 

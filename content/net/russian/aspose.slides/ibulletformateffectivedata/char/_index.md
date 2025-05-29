@@ -1,22 +1,23 @@
 ---
-title: Char
+title: Символ
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает маркер абзаца. Только для чтенияChar.
+description: Возвращает символ маркера абзаца. Свойство только для чтения Char.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ibulletformateffectivedata/char/
 ---
-## IBulletFormatEffectiveData.Char property
 
-Возвращает маркер абзаца. Только для чтенияChar.
+## Свойство IBulletFormatEffectiveData.Char
+
+Возвращает символ маркера абзаца. Свойство только для чтения Char.
 
 ```csharp
 public char Char { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
+* интерфейс [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibulletformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

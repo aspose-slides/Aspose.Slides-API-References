@@ -1,12 +1,13 @@
 ---
 title: PptxOptions
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает новый экземпляр PptxOptions
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/pptxoptions/pptxoptions/
 ---
-## PptxOptions constructor
+
+## Конструктор PptxOptions
 
 Создает новый экземпляр PptxOptions
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.export/pptxoptions/pptxoptions/
 public PptxOptions()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [PptxOptions](../../pptxoptions)
+* класс [PptxOptions](../../pptxoptions)
 * пространство имен [Aspose.Slides.Export](../../pptxoptions)
 * сборка [Aspose.Slides](../../../)
 

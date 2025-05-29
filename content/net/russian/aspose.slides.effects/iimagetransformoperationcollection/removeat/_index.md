@@ -1,12 +1,13 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Справочник API
 description: Удаляет эффект изображения из коллекции по указанному индексу.
 type: docs
 weight: 200
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/removeat/
 ---
-## IImageTransformOperationCollection.RemoveAt method
+
+## Метод IImageTransformOperationCollection.RemoveAt
 
 Удаляет эффект изображения из коллекции по указанному индексу.
 
@@ -16,11 +17,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс эффекта изображения, который следует удалить. |
+| index | Int32 | Индекс эффекта изображения, который должен быть удалён. |
 
-### Смотрите также
+### См. также
 
-* interface [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
+* интерфейс [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
-title: Name
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает имя этой схемы. Только чтениеString.
+title: Название
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает название этой схемы. Только для чтения строка.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/iextracolorscheme/name/
 ---
-## IExtraColorScheme.Name property
 
-Возвращает имя этой схемы. Только чтениеString.
+## Свойство IExtraColorScheme.Name
+
+Возвращает название этой схемы. Только для чтения строка.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IExtraColorScheme](../../iextracolorscheme)
+* интерфейс [IExtraColorScheme](../../iextracolorscheme)
 * пространство имен [Aspose.Slides.Theme](../../iextracolorscheme)
 * сборка [Aspose.Slides](../../../)
 

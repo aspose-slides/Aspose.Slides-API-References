@@ -1,14 +1,15 @@
 ---
-title: Base
+title: База
 second_title: Справочник по API Aspose.Slides для .NET
-description: Базовый аргумент
+description: Аргумент базы
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathleftsubsuperscriptelement/base/
 ---
-## IMathLeftSubSuperscriptElement.Base property
 
-Базовый аргумент
+## Свойство IMathLeftSubSuperscriptElement.Base
+
+Аргумент базы
 
 ```csharp
 public IMathElement Base { get; }
@@ -27,10 +28,10 @@ MathLeftSubSuperscriptElement leftSubSuperscript = new MathLeftSubSuperscriptEle
 IMathElement baseElem = leftSubSuperscript.Base;
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathElement](../../imathelement)
-* interface [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
 * пространство имен [Aspose.Slides.MathText](../../imathleftsubsuperscriptelement)
 * сборка [Aspose.Slides](../../../)
 

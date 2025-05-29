@@ -1,22 +1,23 @@
 ---
 title: NumberFormatOfYValues
 second_title: Справочник по API Aspose.Slides для .NET
-description: NumberFormatOfYValues. Чтение/записьString.
+description: NumberFormatOfYValues. Чтение/запись строка.
 type: docs
 weight: 250
 url: /ru/aspose.slides.charts/chartseries/numberformatofyvalues/
 ---
-## ChartSeries.NumberFormatOfYValues property
 
-NumberFormatOfYValues. Чтение/записьString.
+## Свойство ChartSeries.NumberFormatOfYValues
+
+NumberFormatOfYValues. Чтение/запись строка.
 
 ```csharp
 public string NumberFormatOfYValues { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartSeries](../../chartseries)
+* класс [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)
 * сборка [Aspose.Slides](../../../)
 

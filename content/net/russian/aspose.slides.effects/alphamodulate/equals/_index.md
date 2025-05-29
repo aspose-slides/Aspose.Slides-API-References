@@ -1,14 +1,15 @@
 ---
-title: Equals
+title: Равно
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйAlphaModulateaspose.slides.effects/alphamodulateтекущемуAlphaModulate.
+description: Определяет, равен ли указанный AlphaModulateaspose.slides.effects/alphamodulate текущему AlphaModulateaspose.slides.effects/alphamodulate.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/alphamodulate/equals/
 ---
-## AlphaModulate.Equals method
 
-Определяет, равен ли указанный[`AlphaModulate`](../../alphamodulate)текущемуAlphaModulate.
+## Метод AlphaModulate.Equals
+
+Определяет, равен ли указанный [`AlphaModulate`](../../alphamodulate) текущему [`AlphaModulate`](../../alphamodulate).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaModulate`](../../alphamodulate)для сравнения. |
+| obj | Object | [`AlphaModulate`](../../alphamodulate) для сравнения. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае ложно.
+true, если объекты равны; в противном случае false.
 
-### Смотрите также
+### Также смотрите
 
-* class [AlphaModulate](../../alphamodulate)
+* класс [AlphaModulate](../../alphamodulate)
 * пространство имен [Aspose.Slides.Effects](../../alphamodulate)
 * сборка [Aspose.Slides](../../../)
 

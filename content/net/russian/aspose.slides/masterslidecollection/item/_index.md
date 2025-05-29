@@ -1,23 +1,24 @@
 ---
-title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только чтениеMasterSlideaspose.slides/masterslide.
+title: Элемент
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Получает элемент по указанному индексу. Только для чтения MasterSlideaspose.slides/masterslide.
 type: docs
 weight: 30
 url: /ru/aspose.slides/masterslidecollection/item/
 ---
-## MasterSlideCollection indexer
 
-Получает элемент по указанному индексу. Только чтение[`MasterSlide`](../../masterslide).
+## Индексатор MasterSlideCollection
+
+Получает элемент по указанному индексу. Только для чтения [`MasterSlide`](../../masterslide).
 
 ```csharp
 public IMasterSlide this[int index] { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMasterSlide](../../imasterslide)
-* class [MasterSlideCollection](../../masterslidecollection)
+* интерфейс [IMasterSlide](../../imasterslide)
+* класс [MasterSlideCollection](../../masterslidecollection)
 * пространство имен [Aspose.Slides](../../masterslidecollection)
 * сборка [Aspose.Slides](../../../)
 

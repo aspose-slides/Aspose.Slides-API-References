@@ -1,22 +1,23 @@
 ---
 title: IsBubble3D
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает что к пузырькам применяется трехмерный эффект. Чтение/записьBoolean.
+description: Указывает на то, что к пузырям применен 3D-эффект. Доступно для чтения и записи булевое значение.
 type: docs
-weight: 90
+weight: 100
 url: /ru/aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
-## IChartDataPoint.IsBubble3D property
 
-Указывает, что к пузырькам применяется трехмерный эффект. Чтение/записьBoolean.
+## IChartDataPoint.IsBubble3D свойство
+
+Указывает на то, что к пузырям применен 3D-эффект. Доступно для чтения и записи булевое значение.
 
 ```csharp
 public bool IsBubble3D { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartDataPoint](../../ichartdatapoint)
+* интерфейс [IChartDataPoint](../../ichartdatapoint)
 * пространство имен [Aspose.Slides.Charts](../../ichartdatapoint)
 * сборка [Aspose.Slides](../../../)
 

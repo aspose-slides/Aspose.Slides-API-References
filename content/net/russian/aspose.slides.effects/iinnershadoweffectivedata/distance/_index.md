@@ -1,22 +1,23 @@
 ---
-title: Distance
+title: Расстояние
 second_title: Справочник по API Aspose.Slides для .NET
-description: Расстояние тени. Только для чтенияDouble.
+description: Расстояние тени. Свойство только для чтения типа Double.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/iinnershadoweffectivedata/distance/
 ---
-## IInnerShadowEffectiveData.Distance property
 
-Расстояние тени. Только для чтенияDouble.
+## Свойство IInnerShadowEffectiveData.Distance
+
+Расстояние тени. Свойство только для чтения типа Double.
 
 ```csharp
 public double Distance { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)
+* интерфейс [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../iinnershadoweffectivedata)
 * сборка [Aspose.Slides](../../../)
 

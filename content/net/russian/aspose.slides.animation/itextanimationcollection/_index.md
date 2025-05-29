@@ -1,29 +1,30 @@
 ---
 title: ITextAnimationCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор текстовых анимаций.
+description: Представляет собой коллекцию текстовых анимаций.
 type: docs
-weight: 530
+weight: 550
 url: /ru/aspose.slides.animation/itextanimationcollection/
 ---
-## ITextAnimationCollection interface
 
-Представляет набор текстовых анимаций.
+## Интерфейс ITextAnimationCollection
+
+Представляет собой коллекцию текстовых анимаций.
 
 ```csharp
 public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Возвращает элемент по индексу. (2 indexers) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Возвращает элемент по индексу. (2 индексатора) |
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* interface [ITextAnimation](../itextanimation)
+* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* интерфейс [ITextAnimation](../itextanimation)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)
 

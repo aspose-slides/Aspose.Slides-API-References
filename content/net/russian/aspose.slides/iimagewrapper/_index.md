@@ -1,36 +1,37 @@
 ---
 title: IImageWrapper
-second_title: Справочник по API Aspose.Slides для .NET
-description: System.Drawing.Image оболочка для COM-интерфейса.
+second_title: Aspose.Slides для .NET API Справочник
+description: Обертка System.Drawing.Image для COM-интерфейса.
 type: docs
-weight: 5620
+weight: 5970
 url: /ru/aspose.slides/iimagewrapper/
 ---
-## IImageWrapper interface
 
-System.Drawing.Image оболочка для COM-интерфейса.
+## Интерфейс IImageWrapper
+
+Обертка System.Drawing.Image для COM-интерфейса.
 
 ```csharp
 public interface IImageWrapper : IDisposable
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Возвращает интерфейс IDisposable. Только для чтенияIDisposable. |
-| [Image](../../aspose.slides/iimagewrapper/image) { get; } | Получает Syste.Drawing.Image Только для чтения[`Image`](./image). |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Получает ширину и высоту в пикселях изображения Только для чтенияРазмер. |
+| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Возвращает интерфейс IDisposable. Только для чтения IDisposable. |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Получает изображение. Только для чтения Image. |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Получает ширину и высоту в пикселях изображения. Только для чтения [`Size`](./size). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Сохраняет изображение в указанный файл |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Сохраняет изображение в указанный поток в указанном формате. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Сохраняет изображение в указанный файл в указанном формате. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Сохраняет изображение в указанный файл. |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Сохраняет изображение в указанный поток в заданном формате. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Сохраняет изображение в указанный файл в заданном формате. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

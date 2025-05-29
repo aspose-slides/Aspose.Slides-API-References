@@ -1,14 +1,15 @@
 ---
 title: InsertComment
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вставить новый комментарий в коллекцию по указанному индексу.
+second_title: Aspose.Sildes для .NET API Справка
+description: Вставить новый комментарий в коллекцию по заданному индексу.
 type: docs
 weight: 110
 url: /ru/aspose.slides/commentcollection/insertcomment/
 ---
-## CommentCollection.InsertComment method
 
-Вставить новый комментарий в коллекцию по указанному индексу.
+## Метод CommentCollection.InsertComment
+
+Вставить новый комментарий в коллекцию по заданному индексу.
 
 ```csharp
 public IComment InsertComment(int index, string text, ISlide slide, PointF position, 
@@ -17,21 +18,21 @@ public IComment InsertComment(int index, string text, ISlide slide, PointF posit
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс элемента в коллекции, в который следует вставить комментарий. |
-| text | String | Простой текст нового комментария. |
-| слайд | ISlide | Слайд в презентации, куда добавить новый комментарий. |
-| position | PointF | Позиция на слайде, где добавить новый комментарий. |
+| index | Int32 | Индекс элемента в коллекции, в который должен быть вставлен комментарий. |
+| text | String | Обычный текст нового комментария. |
+| slide | ISlide | Слайд в презентации, куда необходимо добавить новый комментарий. |
+| position | PointF | Позиция на слайде, куда необходимо добавить новый комментарий. |
 | creationTime | DateTime | Время создания комментария. |
 
-### Возвращаемое значение
+### Возвращаемое Значение
 
-Добавлен комментарий.
+Вставленный комментарий.
 
-### Смотрите также
+### См. Также
 
-* interface [IComment](../../icomment)
-* interface [ISlide](../../islide)
-* class [CommentCollection](../../commentcollection)
+* интерфейс [IComment](../../icomment)
+* интерфейс [ISlide](../../islide)
+* класс [CommentCollection](../../commentcollection)
 * пространство имен [Aspose.Slides](../../commentcollection)
 * сборка [Aspose.Slides](../../../)
 

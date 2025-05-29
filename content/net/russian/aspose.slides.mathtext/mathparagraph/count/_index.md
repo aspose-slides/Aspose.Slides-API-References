@@ -1,14 +1,15 @@
 ---
-title: Count
+title: Счет
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов фактически содержащихся в коллекции. Только для чтенияInt32.
+description: Получает количество элементов, фактически содержащихся в коллекции. Доступно только для чтения Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathparagraph/count/
 ---
-## MathParagraph.Count property
 
-Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32.
+## Свойство MathParagraph.Count
+
+Получает количество элементов, фактически содержащихся в коллекции. Доступно только для чтения Int32.
 
 ```csharp
 public int Count { get; }
@@ -24,9 +25,9 @@ MathParagraph mathParagraph = new MathParagraph();
 int blocksCount = mathParagraph.Count;
 ```
 
-### Смотрите также
+### См. Также
 
-* class [MathParagraph](../../mathparagraph)
+* класс [MathParagraph](../../mathparagraph)
 * пространство имен [Aspose.Slides.MathText](../../mathparagraph)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: IChartParagraphFormat
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Repräsentiert die Absatzformatierungseigenschaften eines Diagramms.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Eigenschaften der Absatzformatierung eines Diagramms dar.
 type: docs
-weight: 1780
+weight: 1820
 url: /de/aspose.slides.charts/ichartparagraphformat/
 ---
-## IChartParagraphFormat interface
 
-Repräsentiert die Absatzformatierungseigenschaften eines Diagramms.
+## IChartParagraphFormat Schnittstelle
+
+Stellt die Eigenschaften der Absatzformatierung eines Diagramms dar.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -18,24 +19,24 @@ public interface IChartParagraphFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Gibt die Textausrichtung in einem Absatz zurück oder legt sie fest. Lesen/Schreiben[`TextAlignment`](../../aspose.slides/textalignment) . |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Gibt die Standardtabellengröße zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Legt fest, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Lesen/Schreiben[`NullableBool`](../../aspose.slides/nullablebool) . |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Gibt eine Schriftausrichtung in einem Absatz zurück oder legt sie fest. Lesen/Schreiben[`FontAlignment`](../../aspose.slides/fontalignment) . |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Legt fest, ob die hängende Interpunktion in einem Absatz verwendet wird. Lesen/Schreiben[`NullableBool`](../../aspose.slides/nullablebool) . |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Gibt Erstzeileneinzug/Hängender Einzug des Absatzes zurück oder setzt ihn. Hanging Indent kann mit negativen Werten definiert werden. Read/writeSingle . |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Bestimmt, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. Lesen/Schreiben[`NullableBool`](../../aspose.slides/nullablebool) . |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Gibt den linken Rand in einem Absatz zurück oder legt ihn fest. Lesen/SchreibenSingle . |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Gibt den rechten Rand in einem Absatz zurück oder setzt ihn. Lesen/SchreibenSingle . |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Legt fest, ob in einem Absatz die Schreibweise von rechts nach links verwendet wird. Lesen/Schreiben[`NullableBool`](../../aspose.slides/nullablebool) . |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Gibt den Abstand nach der letzten Zeile in einem Absatz zurück oder legt ihn fest. Lesen/SchreibenSingle . |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Gibt den Abstand vor der ersten Zeile in einem Absatz zurück oder legt ihn fest. Lesen/SchreibenSingle . |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Gibt den Abstand zwischen Grundlinien in einem Absatz zurück oder legt ihn fest. Lesen/SchreibenSingle . |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Gibt Tabellierungen eines Absatzes zurück. Schreibgeschützt[`ITabCollection`](../../aspose.slides/itabcollection) . |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Gibt die Textausrichtung in einem Absatz zurück oder setzt sie. Lese-/Schreibzugriff [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Gibt die Standard-Tabulatorgröße zurück oder setzt sie. Lese-/Schreibzugriff Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Gibt eine Schriftartausrichtung in einem Absatz zurück oder setzt sie. Lese-/Schreibzugriff [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Bestimmt, ob die hängende Zeichensetzung in einem Absatz verwendet wird. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Gibt den ersten Zeilenabstand/Hängenden Einzug des Absatzes zurück oder setzt ihn. Hängender Einzug kann mit negativen Werten definiert werden. Lese-/Schreibzugriff Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Bestimmt, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Gibt den linken Abstand in einem Absatz zurück oder setzt ihn. Lese-/Schreibzugriff Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Gibt den rechten Abstand in einem Absatz zurück oder setzt ihn. Lese-/Schreibzugriff Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Bestimmt, ob die Schreibrichtung von rechts nach links in einem Absatz verwendet wird. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Gibt die Menge an Abstand nach der letzten Zeile in einem Absatz zurück oder setzt sie. Lese-/Schreibzugriff Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Gibt die Menge an Abstand vor der ersten Zeile in einem Absatz zurück oder setzt sie. Lese-/Schreibzugriff Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Gibt die Menge an Abstand zwischen den Grundlinien in einem Absatz zurück oder setzt sie. Lese-/Schreibzugriff Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Gibt die Tabulatoren eines Absatzes zurück. Nur Lesezugriff [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### Siehe auch
 
-* namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Montage [Aspose.Slides](../../)
+* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

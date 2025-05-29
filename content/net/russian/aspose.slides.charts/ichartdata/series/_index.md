@@ -1,23 +1,24 @@
 ---
-title: Series
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает серию. Только для чтенияIChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
+title: Серия
+second_title: Ссылка на API Aspose.Sildes для .NET
+description: Получает серию. Только для чтения IChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/ichartdata/series/
 ---
-## IChartData.Series property
 
-Получает серию. Только для чтения[`IChartSeriesCollection`](../../ichartseriescollection).
+## Свойство IChartData.Series
+
+Получает серию. Только для чтения [`IChartSeriesCollection`](../../ichartseriescollection).
 
 ```csharp
 public IChartSeriesCollection Series { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChartSeriesCollection](../../ichartseriescollection)
-* interface [IChartData](../../ichartdata)
+* интерфейс [IChartSeriesCollection](../../ichartseriescollection)
+* интерфейс [IChartData](../../ichartdata)
 * пространство имен [Aspose.Slides.Charts](../../ichartdata)
 * сборка [Aspose.Slides](../../../)
 

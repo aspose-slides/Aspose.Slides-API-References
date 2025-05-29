@@ -1,23 +1,24 @@
 ---
 title: TextFrameForOverriding
-second_title: Справочник по API Aspose.Slides для .NET
-description: Может содержать форматированный текст. Если это свойство не равно null то это форматированное текстовое значение переопределяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст управляемый свойствами ShowSeriesName ShowValue ... и отформатированный с помощью свойства TextFormatManager.TextFormat. Только для чтенияITextFrameaspose.slides/itextframe.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Может содержать текст с богатым форматированием. Если это свойство не равно нулю, то это значение форматированного текста заменяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст, который управляется свойствами ShowSeriesName, ShowValue и т.д., и форматируется с помощью свойства TextFormatManager.TextFormat. Только для чтения ITextFrameaspose.slides/../aspose.slides/itextframe.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/datalabel/textframeforoverriding/
 ---
-## DataLabel.TextFrameForOverriding property
 
-Может содержать форматированный текст. Если это свойство не равно null, то это форматированное текстовое значение переопределяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст, управляемый свойствами ShowSeriesName, ShowValue, ... и отформатированный с помощью свойства TextFormatManager.TextFormat. Только для чтения[`ITextFrame`](../../../aspose.slides/itextframe).
+## Свойство DataLabel.TextFrameForOverriding
+
+Может содержать текст с богатым форматированием. Если это свойство не равно нулю, то это значение форматированного текста заменяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст, который управляется свойствами ShowSeriesName, ShowValue и т.д., и форматируется с помощью свойства TextFormatManager.TextFormat. Только для чтения [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITextFrame](../../../aspose.slides/itextframe)
-* class [DataLabel](../../datalabel)
+* интерфейс [ITextFrame](../../../aspose.slides/itextframe)
+* класс [DataLabel](../../datalabel)
 * пространство имен [Aspose.Slides.Charts](../../datalabel)
 * сборка [Aspose.Slides](../../../)
 

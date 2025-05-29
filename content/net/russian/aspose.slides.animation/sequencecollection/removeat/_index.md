@@ -6,7 +6,8 @@ type: docs
 weight: 70
 url: /ru/aspose.slides.animation/sequencecollection/removeat/
 ---
-## SequenceCollection.RemoveAt method
+
+## Метод SequenceCollection.RemoveAt
 
 Удаляет последовательность по указанному индексу.
 
@@ -20,7 +21,7 @@ public void RemoveAt(int index)
 
 ### Смотрите также
 
-* class [SequenceCollection](../../sequencecollection)
+* класс [SequenceCollection](../../sequencecollection)
 * пространство имен [Aspose.Slides.Animation](../../sequencecollection)
 * сборка [Aspose.Slides](../../../)
 

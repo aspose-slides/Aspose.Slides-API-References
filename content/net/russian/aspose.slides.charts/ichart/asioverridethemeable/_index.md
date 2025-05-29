@@ -1,14 +1,15 @@
 ---
 title: AsIOverrideThemeable
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IOverrideThemeable. Только для чтенияIOverrideThemeableaspose.slides.theme/ioverridethemeable.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает интерфейс IOverrideThemeable. Толькодля чтения IOverrideThemeableaspose.slides.theme/ioverridethemeable.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/ichart/asioverridethemeable/
 ---
-## IChart.AsIOverrideThemeable property
 
-Возвращает интерфейс IOverrideThemeable. Только для чтения[`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).
+## Свойство IChart.AsIOverrideThemeable
+
+Возвращает интерфейс IOverrideThemeable. Толькодля чтения [`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).
 
 ```csharp
 public IOverrideThemeable AsIOverrideThemeable { get; }
@@ -16,12 +17,12 @@ public IOverrideThemeable AsIOverrideThemeable { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IOverrideThemeable](../../../aspose.slides.theme/ioverridethemeable)
-* interface [IChart](../../ichart)
+* интерфейс [IOverrideThemeable](../../../aspose.slides.theme/ioverridethemeable)
+* интерфейс [IChart](../../ichart)
 * пространство имен [Aspose.Slides.Charts](../../ichart)
 * сборка [Aspose.Slides](../../../)
 

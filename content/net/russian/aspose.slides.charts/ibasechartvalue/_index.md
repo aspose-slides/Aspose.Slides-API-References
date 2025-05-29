@@ -3,10 +3,11 @@ title: IBaseChartValue
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет значение диаграммы.
 type: docs
-weight: 1590
+weight: 1650
 url: /ru/aspose.slides.charts/ibasechartvalue/
 ---
-## IBaseChartValue interface
+
+## Интерфейс IBaseChartValue
 
 Представляет значение диаграммы.
 
@@ -14,14 +15,14 @@ url: /ru/aspose.slides.charts/ibasechartvalue/
 public interface IBaseChartValue
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Чтение/записьObject. |
-| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным. Другими словами, он указывает тип значения свойства Data. Это свойство доступно только для чтения. Для изменения значения этого свойства вы можете использовать один из ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; характеристики. Чтение/запись[`DataSourceType`](./datasourcetype). |
+| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Читаемое/записываемое значение Object. |
+| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным. Другими словами, оно указывает тип значения свойства Data. Это свойство доступно только для чтения. Для изменения значения этого свойства вы можете использовать одно из свойств ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Читаемое/записываемое [`DataSourceType`](./datasourcetype). |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

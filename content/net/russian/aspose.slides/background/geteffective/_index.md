@@ -1,14 +1,15 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает действующие фоновые данные с применением наследования.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает эффективные данные фона с применением наследования.
 type: docs
 weight: 80
 url: /ru/aspose.slides/background/geteffective/
 ---
-## Background.GetEffective method
 
-Получает действующие фоновые данные с применением наследования.
+## Метод Background.GetEffective
+
+Получает эффективные данные фона с применением наследования.
 
 ```csharp
 public IBackgroundEffectiveData GetEffective()
@@ -16,7 +17,7 @@ public IBackgroundEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
+[`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 
 ### Примеры
 
@@ -28,15 +29,15 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 {
 	IBackgroundEffectiveData effectiveBackground = pres.Slides[0].Background.GetEffective();
 
-	Console.WriteLine("Background fill type: " + effectiveBackground.FillFormat.FillType);
-	Console.WriteLine("Any effects applied: " + !effectiveBackground.EffectFormat.IsNoEffects);
+	Console.WriteLine("Тип заливки фона: " + effectiveBackground.FillFormat.FillType);
+	Console.WriteLine("Применены ли какие-либо эффекты: " + !effectiveBackground.EffectFormat.IsNoEffects);
 }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBackgroundEffectiveData](../../ibackgroundeffectivedata)
-* class [Background](../../background)
+* интерфейс [IBackgroundEffectiveData](../../ibackgroundeffectivedata)
+* класс [Background](../../background)
 * пространство имен [Aspose.Slides](../../background)
 * сборка [Aspose.Slides](../../../)
 

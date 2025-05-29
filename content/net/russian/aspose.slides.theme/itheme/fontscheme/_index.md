@@ -1,23 +1,24 @@
 ---
 title: FontScheme
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает схему шрифта. Только для чтенияIFontSchemeaspose.slides.theme/ifontscheme.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает схему шрифтов. Только для чтения IFontSchemeaspose.slides.theme/ifontscheme.
 type: docs
 weight: 30
 url: /ru/aspose.slides.theme/itheme/fontscheme/
 ---
-## ITheme.FontScheme property
 
-Возвращает схему шрифта. Только для чтения[`IFontScheme`](../../ifontscheme).
+## Свойство ITheme.FontScheme
+
+Возвращает схему шрифтов. Только для чтения [`IFontScheme`](../../ifontscheme).
 
 ```csharp
 public IFontScheme FontScheme { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFontScheme](../../ifontscheme)
-* interface [ITheme](../../itheme)
+* интерфейс [IFontScheme](../../ifontscheme)
+* интерфейс [ITheme](../../itheme)
 * пространство имен [Aspose.Slides.Theme](../../itheme)
 * сборка [Aspose.Slides](../../../)
 

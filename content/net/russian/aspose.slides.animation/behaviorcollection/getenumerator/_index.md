@@ -1,14 +1,15 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает перечислитель, который итеративно проходит по коллекции.
 type: docs
 weight: 80
 url: /ru/aspose.slides.animation/behaviorcollection/getenumerator/
 ---
-## BehaviorCollection.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+## Метод BehaviorCollection.GetEnumerator
+
+Возвращает перечислитель, который итеративно проходит по коллекции.
 
 ```csharp
 public IEnumerator<IBehavior> GetEnumerator()
@@ -16,12 +17,11 @@ public IEnumerator<IBehavior> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для итерации по коллекции.
 
-### Смотрите также
-
-* interface [IBehavior](../../ibehavior)
-* class [BehaviorCollection](../../behaviorcollection)
+### Также см.
+* интерфейс [IBehavior](../../ibehavior)
+* класс [BehaviorCollection](../../behaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorcollection)
 * сборка [Aspose.Slides](../../../)
 

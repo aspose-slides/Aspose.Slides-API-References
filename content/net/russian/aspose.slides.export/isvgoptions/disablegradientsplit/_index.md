@@ -1,22 +1,23 @@
 ---
 title: DisableGradientSplit
-second_title: Справочник по API Aspose.Slides для .NET
-description: Отключает разделение градиентов FromCornerX и FromCenter. Чтение/записьBoolean.
+second_title: Aspose.Slides для .NET API Reference
+description: Отключает разделение градиентов FromCornerX и FromCenter. Чтение/запись Boolean.
 type: docs
-weight: 40
+weight: 50
 url: /ru/aspose.slides.export/isvgoptions/disablegradientsplit/
 ---
-## ISVGOptions.DisableGradientSplit property
 
-Отключает разделение градиентов FromCornerX и FromCenter. Чтение/записьBoolean.
+## ISVGOptions.DisableGradientSplit свойство
+
+Отключает разделение градиентов FromCornerX и FromCenter. Чтение/запись Boolean.
 
 ```csharp
 public bool DisableGradientSplit { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISVGOptions](../../isvgoptions)
+* интерфейс [ISVGOptions](../../isvgoptions)
 * пространство имен [Aspose.Slides.Export](../../isvgoptions)
 * сборка [Aspose.Slides](../../../)
 

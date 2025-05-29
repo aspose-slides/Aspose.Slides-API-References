@@ -1,23 +1,24 @@
 ---
-title: Slide
+title: Слайд
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительский слайд CellCollection. Только для чтенияIBaseSlideaspose.slides/ibaseslide.
+description: Возвращает родительский слайд коллекции ячеек. Только для чтения IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 50
 url: /ru/aspose.slides/cellcollection/slide/
 ---
-## CellCollection.Slide property
 
-Возвращает родительский слайд CellCollection. Только для чтения[`IBaseSlide`](../../ibaseslide).
+## Свойство CellCollection.Slide
+
+Возвращает родительский слайд коллекции ячеек. Только для чтения [`IBaseSlide`](../../ibaseslide).
 
 ```csharp
 public IBaseSlide Slide { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBaseSlide](../../ibaseslide)
-* class [CellCollection](../../cellcollection)
+* интерфейс [IBaseSlide](../../ibaseslide)
+* класс [CellCollection](../../cellcollection)
 * пространство имен [Aspose.Slides](../../cellcollection)
 * сборка [Aspose.Slides](../../../)
 

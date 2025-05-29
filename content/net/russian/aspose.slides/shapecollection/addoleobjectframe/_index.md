@@ -1,14 +1,15 @@
 ---
 title: AddOleObjectFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый объект OLE в конец коллекции.
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет новый OLE-объект в конец коллекции.
 type: docs
 weight: 150
 url: /ru/aspose.slides/shapecollection/addoleobjectframe/
 ---
+
 ## AddOleObjectFrame(float, float, float, float, IOleEmbeddedDataInfo) {#addoleobjectframe}
 
-Добавляет новый объект OLE в конец коллекции.
+Добавляет новый OLE-объект в конец коллекции.
 
 ```csharp
 public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float height, 
@@ -17,32 +18,55 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового кадра OLE. |
-| y | Single | Координата Y нового кадра OLE. |
-| width | Single | Ширина нового кадра OLE. |
-| height | Single | Высота нового кадра OLE. |
-| dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| x | Single | Координата X нового OLE-рамки. |
+| y | Single | Координата Y нового OLE-рамки. |
+| width | Single | Ширина нового OLE-рамки. |
+| height | Single | Высота нового OLE-рамки. |
+| dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ### Возвращаемое значение
 
-Создан объект OLE.
+Созданный OLE-объект.
 
 ### Примеры
 
-Этот пример демонстрирует добавление объекта OLE в конец коллекции:
+Следующие примеры показывают, как добавлять OLE Object Frames в слайды PowerPoint презентации.
 
 ```csharp
 [C#]
-byte[] fileData = File.ReadAllBytes("test.zip");
-IEmbeddedDataInfo dataInfo = new EmbeddedDataInfo(fileData, "zip");
-IOleObjectFrame oleObjectFrame = slidees.Shapes.AddOleObjectFrame(150, 20, 50, 50, dataInfo);
+// Создает экземпляр класса Presentation, представляющего файл PPTX
+using (Presentation pres = new Presentation())
+{
+    // Получает первый слайд
+    ISlide sld = pres.Slides[0];
+    // Загружает файл excel в поток
+    MemoryStream mstream = new MemoryStream();
+    using (FileStream fs = new FileStream("book1.xlsx", FileMode.Open, FileAccess.Read))
+    {
+        byte[] buf = new byte[4096];
+        while (true)
+        {
+            int bytesRead = fs.Read(buf, 0, buf.Length);
+            if (bytesRead <= 0)
+                break;
+            mstream.Write(buf, 0, bytesRead);
+        }
+    }
+    // Создает объект данных для встраивания
+    IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx");
+    // Добавляет форму Ole Object Frame
+    IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
+        pres.SlideSize.Size.Height, dataInfo);
+    // Сохраняет файл PPTX на диск
+    pres.Save("OleEmbed_out.pptx", SaveFormat.Pptx);
+}
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IOleObjectFrame](../../ioleobjectframe)
-* interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IOleObjectFrame](../../ioleobjectframe)
+* интерфейс [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -50,7 +74,7 @@ IOleObjectFrame oleObjectFrame = slidees.Shapes.AddOleObjectFrame(150, 20, 50, 5
 
 ## AddOleObjectFrame(float, float, float, float, string, string) {#addoleobjectframe_1}
 
-Добавляет новый объект OLE в конец коллекции.
+Добавляет новый OLE-объект в конец коллекции.
 
 ```csharp
 public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float height, 
@@ -59,21 +83,21 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового кадра OLE. |
-| y | Single | Координата Y нового кадра OLE. |
-| width | Single | Ширина нового кадра OLE. |
-| height | Single | Высота нового кадра OLE. |
-| className | String | Имя класса OLE. |
+| x | Single | Координата X нового OLE-рамки. |
+| y | Single | Координата Y нового OLE-рамки. |
+| width | Single | Ширина нового OLE-рамки. |
+| height | Single | Высота нового OLE-рамки. |
+| className | String | Имя OLE класса. |
 | path | String | Путь к связанному файлу. |
 
 ### Возвращаемое значение
 
-Создан объект OLE.
+Созданный OLE-объект.
 
-### Смотрите также
+### См. также
 
-* interface [IOleObjectFrame](../../ioleobjectframe)
-* class [ShapeCollection](../../shapecollection)
+* интерфейс [IOleObjectFrame](../../ioleobjectframe)
+* класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)
 * сборка [Aspose.Slides](../../../)
 

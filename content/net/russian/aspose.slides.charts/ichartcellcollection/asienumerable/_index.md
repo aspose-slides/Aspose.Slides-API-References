@@ -1,14 +1,15 @@
 ---
 title: AsIEnumerable
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс ICollection. Только для чтенияIEnumerable.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает интерфейс ICollection. Только для чтения IEnumerable.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ichartcellcollection/asienumerable/
 ---
-## IChartCellCollection.AsIEnumerable property
 
-Возвращает интерфейс ICollection. Только для чтенияIEnumerable.
+## IChartCellCollection.AsIEnumerable свойство
+
+Возвращает интерфейс ICollection. Только для чтения IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
@@ -16,11 +17,11 @@ public IEnumerable AsIEnumerable { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### Также смотри
 
-* interface [IChartCellCollection](../../ichartcellcollection)
+* интерфейс [IChartCellCollection](../../ichartcellcollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartcellcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,84 +1,85 @@
----
-title: SetSubSuperscriptOnTheRight
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Erzeugt tiefgestellt und hochgestellt auf der rechten Seite
-type: docs
-weight: 150
+---  
+title: SetSubSuperscriptOnTheRight  
+second_title: Aspose.Slides für .NET API Referenz  
+description: Erstellt Subscript und Superscript auf der rechten Seite
+type: docs  
+weight: 150  
 url: /de/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright/
----
-## SetSubSuperscriptOnTheRight(IMathElement, IMathElement) {#setsubsuperscriptontheright}
+---  
 
-Erzeugt tiefgestellt und hochgestellt auf der rechten Seite
+## SetSubSuperscriptOnTheRight(IMathElement, IMathElement) {#setsubsuperscriptontheright}  
 
-```csharp
-public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement subscript, 
-    IMathElement superscript)
-```
+Erstellt Subscript und Superscript auf der rechten Seite  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| subscript | IMathElement | Index (unterer Index rechts) |
-| superscript | IMathElement | Hochgestellt (oberer Index rechts) |
+```csharp  
+public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement subscript,  
+    IMathElement superscript)  
+```  
 
-### Rückgabewert
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| subscript | IMathElement | Subscript (unterer Index auf der rechten Seite) |  
+| superscript | IMathElement | Superscript (oberer Index auf der rechten Seite) |  
 
-Neues mathematisches Element des Typs[`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
+### Rückgabewert  
 
-### Beispiele
+Neues Mathelement vom Typ [`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)  
 
-Beispiel:
+### Beispiele  
 
-```csharp
-[C#]
-IMathElement baseElement = new MathematicalText("N");
-IMathElement subscript = new MathematicalText("i");
-IMathElement superscript = new MathematicalText("j");
-IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOnTheRight(subscript, superscript);
-```
+Beispiel:  
 
-### Siehe auch
+```csharp  
+[C#]  
+IMathElement baseElement = new MathematicalText("N");  
+IMathElement subscript = new MathematicalText("i");  
+IMathElement superscript = new MathematicalText("j");  
+IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOnTheRight(subscript, superscript);  
+```  
 
-* interface [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
-* interface [IMathElement](../../imathelement)
-* class [MathElementBase](../../mathelementbase)
-* namensraum [Aspose.Slides.MathText](../../mathelementbase)
-* Montage [Aspose.Slides](../../../)
+### Siehe Auch  
 
----
+* Schnittstelle [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)  
+* Schnittstelle [IMathElement](../../imathelement)  
+* Klasse [MathElementBase](../../mathelementbase)  
+* Namespace [Aspose.Slides.MathText](../../mathelementbase)  
+* Assembly [Aspose.Slides](../../../)  
 
-## SetSubSuperscriptOnTheRight(string, string) {#setsubsuperscriptontheright_1}
+---  
 
-Erzeugt tiefgestellt und hochgestellt auf der rechten Seite
+## SetSubSuperscriptOnTheRight(string, string) {#setsubsuperscriptontheright_1}  
 
-```csharp
-public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscript, 
-    string superscript)
-```
+Erstellt Subscript und Superscript auf der rechten Seite  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| subscript | String | Index (unterer Index rechts) |
-| superscript | String | Hochgestellt (oberer Index rechts) |
+```csharp  
+public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscript,  
+    string superscript)  
+```  
 
-### Rückgabewert
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| subscript | String | Subscript (unterer Index auf der rechten Seite) |  
+| superscript | String | Superscript (oberer Index auf der rechten Seite) |  
 
-Neues mathematisches Element des Typs[`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
+### Rückgabewert  
 
-### Beispiele
+Neues Mathelement vom Typ [`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)  
 
-Beispiel:
+### Beispiele  
 
-```csharp
-[C#]
-IMathElement baseElement = new MathematicalText("N");
-IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOnTheRight("i", "j");
-```
+Beispiel:  
 
-### Siehe auch
+```csharp  
+[C#]  
+IMathElement baseElement = new MathematicalText("N");  
+IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOnTheRight("i", "j");  
+```  
 
-* interface [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
-* class [MathElementBase](../../mathelementbase)
-* namensraum [Aspose.Slides.MathText](../../mathelementbase)
-* Montage [Aspose.Slides](../../../)
+### Siehe Auch  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+* Schnittstelle [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)  
+* Klasse [MathElementBase](../../mathelementbase)  
+* Namespace [Aspose.Slides.MathText](../../mathelementbase)  
+* Assembly [Aspose.Slides](../../../)  
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

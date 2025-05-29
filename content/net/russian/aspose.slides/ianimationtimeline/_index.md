@@ -1,12 +1,13 @@
 ---
 title: IAnimationTimeLine
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет временную шкалу анимации.
 type: docs
-weight: 4720
+weight: 5000
 url: /ru/aspose.slides/ianimationtimeline/
 ---
-## IAnimationTimeLine interface
+
+## Интерфейс IAnimationTimeLine
 
 Представляет временную шкалу анимации.
 
@@ -14,13 +15,13 @@ url: /ru/aspose.slides/ianimationtimeline/
 public interface IAnimationTimeLine
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты "щелчка по фигуре" с заданной целевой формой. Только для чтения[`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Возвращает основную последовательность, которая может содержать только коллекцию основных эффектов. Только для чтения[`ISequence`](../../aspose.slides.animation/isequence). |
-| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Возвращает коллекцию текстовых анимаций. Только для чтения[`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты по "щелчку на фигуре" с указанной целевой фигурой. Только для чтения [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Возвращает основную последовательность, которая может содержать только коллекцию основных эффектов. Только для чтения [`ISequence`](../../aspose.slides.animation/isequence). |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Возвращает коллекцию текстовых анимаций. Только для чтения [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### Смотрите также
 

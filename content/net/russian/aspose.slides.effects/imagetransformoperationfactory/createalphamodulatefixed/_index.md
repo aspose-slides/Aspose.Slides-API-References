@@ -1,14 +1,15 @@
 ---
 title: CreateAlphaModulateFixed
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает фиксированный эффект альфа-модуляции.
+second_title: Aspose.Slidеs для .NET API Reference
+description: Создает эффект фиксированного альфа-модулирования.
 type: docs
 weight: 60
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed/
 ---
-## ImageTransformOperationFactory.CreateAlphaModulateFixed method
 
-Создает фиксированный эффект альфа-модуляции.
+## Метод ImageTransformOperationFactory.CreateAlphaModulateFixed
+
+Создает эффект фиксированного альфа-модулирования.
 
 ```csharp
 public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
@@ -16,16 +17,16 @@ public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сумма | Single | Сумма. |
+| amount | Single | Количество. |
 
 ### Возвращаемое значение
 
-Фиксированный эффект альфа-модуляции.
+Эффект фиксированного альфа-модулирования.
 
 ### Смотрите также
 
-* interface [IAlphaModulateFixed](../../ialphamodulatefixed)
-* class [ImageTransformOperationFactory](../../imagetransformoperationfactory)
+* интерфейс [IAlphaModulateFixed](../../ialphamodulatefixed)
+* класс [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: AsIWarningInfo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IWarningInfo. Только для чтенияIWarningInfoaspose.slides.warnings/iwarninginfo.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Возвращает интерфейс IWarningInfo. Только для чтения IWarningInfoaspose.slides.warnings/iwarninginfo.
 type: docs
 weight: 10
 url: /ru/aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo/
 ---
-## IKnownIssueWarningInfo.AsIWarningInfo property
 
-Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../../iwarninginfo).
+## Свойство IKnownIssueWarningInfo.AsIWarningInfo
+
+Возвращает интерфейс IWarningInfo. Только для чтения [`IWarningInfo`](../../iwarninginfo).
 
 ```csharp
 public IWarningInfo AsIWarningInfo { get; }
@@ -16,12 +17,12 @@ public IWarningInfo AsIWarningInfo { get; }
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IWarningInfo](../../iwarninginfo)
-* interface [IKnownIssueWarningInfo](../../iknownissuewarninginfo)
+* интерфейс [IWarningInfo](../../iwarninginfo)
+* интерфейс [IKnownIssueWarningInfo](../../iknownissuewarninginfo)
 * пространство имен [Aspose.Slides.Warnings](../../iknownissuewarninginfo)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
-title: Dispose
+title: Освободить
 second_title: Справочник по API Aspose.Slides для .NET
-description: Освобождает все ресурсы используемые этим объектом Presentation.
+description: Освобождает все ресурсы, используемые этим объектом Presentation.
 type: docs
-weight: 290
+weight: 300
 url: /ru/aspose.slides/presentation/dispose/
 ---
-## Presentation.Dispose method
+
+## Метод Presentation.Dispose
 
 Освобождает все ресурсы, используемые этим объектом Presentation.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/presentation/dispose/
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
-* class [Presentation](../../presentation)
+* класс [Presentation](../../presentation)
 * пространство имен [Aspose.Slides](../../presentation)
 * сборка [Aspose.Slides](../../../)
 

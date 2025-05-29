@@ -1,12 +1,13 @@
 ---
 title: InsertModernComment
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Вставить новый современный комментарий в коллекцию по указанному индексу.
 type: docs
 weight: 120
 url: /ru/aspose.slides/commentcollection/insertmoderncomment/
 ---
-## CommentCollection.InsertModernComment method
+
+## Метод CommentCollection.InsertModernComment
 
 Вставить новый современный комментарий в коллекцию по указанному индексу.
 
@@ -17,23 +18,23 @@ public IModernComment InsertModernComment(int index, string text, ISlide slide, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс элемента в коллекции, в который следует вставить современный комментарий. |
-| text | String | Простой текст нового современного комментария. |
-| слайд | ISlide | Слайд в презентации, куда добавить новый современный комментарий. |
-| shape | IShape | Фигура на слайде, с которой связан новый современный комментарий. |
-| position | PointF | Позиция на слайде, куда добавить новый современный комментарий. |
+| index | Int32 | Индекс элемента в коллекции, в который должен быть вставлен современный комментарий. |
+| text | String | Обычный текст нового современного комментария. |
+| slide | ISlide | Слайд в презентации, в который нужно добавить новый современный комментарий. |
+| shape | IShape | Форма на слайде, к которой ассоциирован новый современный комментарий. |
+| position | PointF | Позиция на слайде, где нужно добавить новый современный комментарий. |
 | creationTime | DateTime | Время создания современного комментария. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Вставлен современный комментарий.
+Вставленный современный комментарий.
 
-### Смотрите также
+### См. Также
 
-* interface [IModernComment](../../imoderncomment)
-* interface [ISlide](../../islide)
-* interface [IShape](../../ishape)
-* class [CommentCollection](../../commentcollection)
+* интерфейс [IModernComment](../../imoderncomment)
+* интерфейс [ISlide](../../islide)
+* интерфейс [IShape](../../ishape)
+* класс [CommentCollection](../../commentcollection)
 * пространство имен [Aspose.Slides](../../commentcollection)
 * сборка [Aspose.Slides](../../../)
 

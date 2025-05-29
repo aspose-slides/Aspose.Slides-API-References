@@ -1,14 +1,15 @@
 ---
 title: IXamlOutputSaver
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет собой реализацию сохранения вывода для передачи данных во внешнее хранилище.
+second_title: Справка по API Aspose.Slides для .NET
+description: Представляет реализацию сохранителя вывода для передачи данных на внешнее хранилище.
 type: docs
-weight: 4280
+weight: 4520
 url: /ru/aspose.slides.export.xaml/ixamloutputsaver/
 ---
-## IXamlOutputSaver interface
 
-Представляет собой реализацию сохранения вывода для передачи данных во внешнее хранилище.
+## Интерфейс IXamlOutputSaver
+
+Представляет реализацию сохранителя вывода для передачи данных на внешнее хранилище.
 
 ```csharp
 public interface IXamlOutputSaver
@@ -16,9 +17,9 @@ public interface IXamlOutputSaver
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | Сохраняет массив байтов в место назначения. |
+| [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | Сохраняет массив байтов в указанное место назначения. |
 
 ### Смотрите также
 

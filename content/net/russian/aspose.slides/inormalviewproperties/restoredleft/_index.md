@@ -1,23 +1,24 @@
 ---
 title: RestoredLeft
-second_title: Справочник по API Aspose.Slides для .NET
-description: Этот элемент указывает размер области бокового содержимого в обычном представлении когда область имеет переменный восстановленный размер ни минимизированный ни максимально. Читать открытоINormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
+second_title: Aspose.Slides для .NET API Reference
+description: Этот элемент определяет размер области содержимого по бокам в нормальном представлении, когда область имеет переменный восстановленный размер ни минимизированный, ни развернутый. Читайте только INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
 type: docs
 weight: 30
 url: /ru/aspose.slides/inormalviewproperties/restoredleft/
 ---
-## INormalViewProperties.RestoredLeft property
 
-Этот элемент указывает размер области бокового содержимого в обычном представлении, когда область имеет переменный восстановленный размер (ни минимизированный, ни максимально). Читать открыто[`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
+## Свойство INormalViewProperties.RestoredLeft
+
+Этот элемент определяет размер области содержимого по бокам в нормальном представлении, когда область имеет переменный восстановленный размер (ни минимизированный, ни развернутый). Читайте только [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
 
 ```csharp
 public INormalViewRestoredProperties RestoredLeft { get; }
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [INormalViewRestoredProperties](../../inormalviewrestoredproperties)
-* interface [INormalViewProperties](../../inormalviewproperties)
+* интерфейс [INormalViewRestoredProperties](../../inormalviewrestoredproperties)
+* интерфейс [INormalViewProperties](../../inormalviewproperties)
 * пространство имен [Aspose.Slides](../../inormalviewproperties)
 * сборка [Aspose.Slides](../../../)
 

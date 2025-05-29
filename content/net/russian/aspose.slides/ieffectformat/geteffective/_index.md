@@ -1,14 +1,15 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает данные форматирования эффективного эффекта с примененным наследованием.
+description: Получает эффективные данные форматирования эффекта с применением наследования.
 type: docs
 weight: 260
 url: /ru/aspose.slides/ieffectformat/geteffective/
 ---
-## IEffectFormat.GetEffective method
 
-Получает данные форматирования эффективного эффекта с примененным наследованием.
+## IEffectFormat.GetEffective метод
+
+Получает эффективные данные форматирования эффекта с применением наследования.
 
 ```csharp
 public IEffectFormatEffectiveData GetEffective()
@@ -16,12 +17,12 @@ public IEffectFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
+[`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
-* interface [IEffectFormat](../../ieffectformat)
+* интерфейс [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
+* интерфейс [IEffectFormat](../../ieffectformat)
 * пространство имен [Aspose.Slides](../../ieffectformat)
 * сборка [Aspose.Slides](../../../)
 

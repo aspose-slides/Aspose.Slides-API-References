@@ -1,14 +1,15 @@
 ---
-title: Add
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Erstellt eine neue Diagrammreihe und fügt sie der Sammlung hinzu.
+title: Hinzufügen
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt neue Diagrammserien und fügt sie der Sammlung hinzu.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ichartseriescollection/add/
 ---
+
 ## Add(ChartType) {#add}
 
-Erstellt eine neue Diagrammreihe und fügt sie der Sammlung hinzu.
+Erstellt neue Diagrammserien und fügt sie der Sammlung hinzu.
 
 ```csharp
 public IChartSeries Add(ChartType type)
@@ -16,25 +17,25 @@ public IChartSeries Add(ChartType type)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| type | ChartType | Art der Serie |
+| type | ChartType | Typ der Serie |
 
 ### Rückgabewert
 
-Neue Chartserie.
+Neue Diagrammserie.
 
-### Siehe auch
+### Siehe Auch
 
-* interface [IChartSeries](../../ichartseries)
-* enum [ChartType](../../charttype)
-* interface [IChartSeriesCollection](../../ichartseriescollection)
-* namensraum [Aspose.Slides.Charts](../../ichartseriescollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IChartSeries](../../ichartseries)
+* Enum [ChartType](../../charttype)
+* Schnittstelle [IChartSeriesCollection](../../ichartseriescollection)
+* Namespace [Aspose.Slides.Charts](../../ichartseriescollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Add(IChartDataCell, ChartType) {#add_2}
 
-Erstellt neue Diagrammserien aus[`IChartDataCell`](../../ichartdatacell) und fügt es der Sammlung hinzu.
+Erstellt neue Diagrammserien aus [`IChartDataCell`](../../ichartdatacell) und fügt sie der Sammlung hinzu.
 
 ```csharp
 public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
@@ -42,31 +43,31 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| cellWithSeriesName | IChartDataCell | Zelle, die den Seriennamen enthält. |
-| type | ChartType | Geben Sie die Art der Serie ein |
+| cellWithSeriesName | IChartDataCell | Zelle, die den Namen der Serie enthält. |
+| type | ChartType | Typ setzen Typ der Serie |
 
 ### Rückgabewert
 
-Diagrammserien oder Serien, die sich bereits in der Sammlung befinden, hinzugefügt.
+Hinzugefügte Diagrammserie oder Serie, die bereits in der Sammlung ist.
 
-### Bemerkungen
+### Anmerkungen
 
-Wenn Diagrammserien aus derselben Zelle bereits in Sammlung eingefügt wurden, fügt die Methode nichts hinzu und gibt ihren Index zurück.
+Wenn die Diagrammserie aus derselben Zelle bereits in der Sammlung vorhanden ist, fügt die Methode nichts hinzu und gibt ihren Index zurück.
 
-### Siehe auch
+### Siehe Auch
 
-* interface [IChartSeries](../../ichartseries)
-* interface [IChartDataCell](../../ichartdatacell)
-* enum [ChartType](../../charttype)
-* interface [IChartSeriesCollection](../../ichartseriescollection)
-* namensraum [Aspose.Slides.Charts](../../ichartseriescollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IChartSeries](../../ichartseries)
+* Schnittstelle [IChartDataCell](../../ichartdatacell)
+* Enum [ChartType](../../charttype)
+* Schnittstelle [IChartSeriesCollection](../../ichartseriescollection)
+* Namespace [Aspose.Slides.Charts](../../ichartseriescollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Add(IChartCellCollection, ChartType) {#add_1}
 
-Erstellt neue Diagrammserien aus[`IChartCellCollection`](../../ichartcellcollection) und fügt es der Sammlung hinzu.
+Erstellt neue Diagrammserien aus [`IChartCellCollection`](../../ichartcellcollection) und fügt sie der Sammlung hinzu.
 
 ```csharp
 public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type)
@@ -74,31 +75,31 @@ public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| cellsWithSeriesName | IChartCellCollection | Zellen, die Seriennamen enthalten. |
-| type | ChartType | Geben Sie die Art der Serie ein |
+| cellsWithSeriesName | IChartCellCollection | Zellen, die den Namen der Serie enthalten. |
+| type | ChartType | Typ setzen Typ der Serie |
 
 ### Rückgabewert
 
-Diagrammserien oder Serien, die sich bereits in der Sammlung befinden, hinzugefügt.
+Hinzugefügte Diagrammserie oder Serie, die bereits in der Sammlung ist.
 
-### Bemerkungen
+### Anmerkungen
 
-Wenn Diagrammserien aus derselben Zelle bereits in Sammlung eingefügt wurden, fügt die Methode nichts hinzu und gibt ihren Index zurück.
+Wenn die Diagrammserie aus derselben Zelle bereits in der Sammlung vorhanden ist, fügt die Methode nichts hinzu und gibt ihren Index zurück.
 
-### Siehe auch
+### Siehe Auch
 
-* interface [IChartSeries](../../ichartseries)
-* interface [IChartCellCollection](../../ichartcellcollection)
-* enum [ChartType](../../charttype)
-* interface [IChartSeriesCollection](../../ichartseriescollection)
-* namensraum [Aspose.Slides.Charts](../../ichartseriescollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IChartSeries](../../ichartseries)
+* Schnittstelle [IChartCellCollection](../../ichartcellcollection)
+* Enum [ChartType](../../charttype)
+* Schnittstelle [IChartSeriesCollection](../../ichartseriescollection)
+* Namespace [Aspose.Slides.Charts](../../ichartseriescollection)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Add(string, ChartType) {#add_3}
 
-Erstellt neue Diagrammreihen aus Wert und fügt sie der Sammlung hinzu.
+Erstellt neue Diagrammserien aus einem Wert und fügt sie der Sammlung hinzu.
 
 ```csharp
 public IChartSeries Add(string name, ChartType type)
@@ -107,18 +108,18 @@ public IChartSeries Add(string name, ChartType type)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | name | String | Serienname. |
-| type | ChartType | Geben Sie die Art der Serie ein |
+| type | ChartType | Typ setzen Typ der Serie |
 
 ### Rückgabewert
 
-Diagrammserie hinzugefügt.
+Hinzugefügte Diagrammserie.
 
-### Siehe auch
+### Siehe Auch
 
-* interface [IChartSeries](../../ichartseries)
-* enum [ChartType](../../charttype)
-* interface [IChartSeriesCollection](../../ichartseriescollection)
-* namensraum [Aspose.Slides.Charts](../../ichartseriescollection)
-* Montage [Aspose.Slides](../../../)
+* Schnittstelle [IChartSeries](../../ichartseries)
+* Enum [ChartType](../../charttype)
+* Schnittstelle [IChartSeriesCollection](../../ichartseriescollection)
+* Namespace [Aspose.Slides.Charts](../../ichartseriescollection)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

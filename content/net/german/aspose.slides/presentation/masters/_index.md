@@ -1,24 +1,111 @@
 ---
-title: Masters
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Gibt eine Liste aller Masterfolien zurück die in der Präsentation definiert sind. SchreibgeschütztIMasterSlideCollectionaspose.slides/imasterslidecollection .
+title: Master
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt eine Liste aller Master-Folien zurück, die in der Präsentation definiert sind. Nur-Lese IMasterSlideCollection aspose.slides/imasterslidecollection.
 type: docs
 weight: 180
 url: /de/aspose.slides/presentation/masters/
 ---
-## Presentation.Masters property
 
-Gibt eine Liste aller Masterfolien zurück, die in der Präsentation definiert sind. Schreibgeschützt[`IMasterSlideCollection`](../../imasterslidecollection) .
+## Presentation.Masters-Eigenschaft
+
+Gibt eine Liste aller Master-Folien zurück, die in der Präsentation definiert sind. Nur-Lese [`IMasterSlideCollection`](../../imasterslidecollection).
 
 ```csharp
 public IMasterSlideCollection Masters { get; }
 ```
 
-### Siehe auch
+### Beispiele
 
-* interface [IMasterSlideCollection](../../imasterslidecollection)
-* class [Presentation](../../presentation)
-* namensraum [Aspose.Slides](../../presentation)
-* Montage [Aspose.Slides](../../../)
+Die folgenden Beispiele zeigen, wie man Bilder zu den Master-Folien einer PowerPoint-Präsentation hinzufügt.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    ISlide slide = pres.Slides[0];
+    IMasterSlide masterSlide = slide.LayoutSlide.MasterSlide;
+    IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image.png"));
+    masterSlide.Shapes.AddPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
+    pres.Save("pres.pptx", SaveFormat.Pptx);
+}
+```
+
+Die folgenden Beispiele zeigen, wie man die Hintergrundfarbe der Master-Folie einer PowerPoint-Präsentation ändert.
+
+```csharp
+[C#]
+// Instanziieren Sie die Presentation-Klasse, die die Präsentationsdatei darstellt
+using (Presentation pres = new Presentation())
+{
+    // Setzen Sie die Hintergrundfarbe der Master-ISlide auf Forest Green
+    pres.Masters[0].Background.Type = BackgroundType.OwnBackground;
+    pres.Masters[0].Background.FillFormat.FillType = FillType.Solid;
+    pres.Masters[0].Background.FillFormat.SolidFillColor.Color = Color.ForestGreen;
+    // Schreiben Sie die Präsentation auf die Festplatte
+    pres.Save("SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
+}
+```
+
+Die folgenden Beispiele zeigen, wie man ein Folienlayout zu einer PowerPoint-Präsentation hinzufügt.
+
+```csharp
+[C#]
+// Instanziieren Sie die Presentation-Klasse, die die Präsentationsdatei darstellt
+using (Presentation presentation = new Presentation("AccessSlides.pptx"))
+{
+    // Versuchen Sie, nach Folienlayouttyp zu suchen
+    IMasterLayoutSlideCollection layoutSlides = presentation.Masters[0].LayoutSlides;
+    ILayoutSlide layoutSlide = layoutSlides.GetByType(SlideLayoutType.TitleAndObject) ?? layoutSlides.GetByType(SlideLayoutType.Title);
+    if (layoutSlide == null)
+    {
+        // Die Situation, wenn eine Präsentation einige Layouttypen nicht enthält.
+        // Die Präsentationsdatei enthält nur leere und benutzerdefinierte Layouttypen.
+        // Aber Layoutfolien mit benutzerdefinierten Typen haben unterschiedliche Foliennamen,
+        // wie "Titel", "Titel und Inhalt" usw. Und es ist möglich, diese
+        // Namen für die Auswahl von Layoutfolien zu verwenden.
+        // Es ist auch möglich, die Menge von Platzhalterformtypen zu verwenden. Zum Beispiel,
+        // sollte die Titelfolie nur den Platzhaltertyp Titel haben, usw.
+        foreach (ILayoutSlide titleAndObjectLayoutSlide in layoutSlides)
+        {
+            if (titleAndObjectLayoutSlide.Name == "Titel und Objekt")
+            {
+                layoutSlide = titleAndObjectLayoutSlide;
+                break;
+            }
+        }
+        if (layoutSlide == null)
+        {
+            foreach (ILayoutSlide titleLayoutSlide in layoutSlides)
+            {
+                if (titleLayoutSlide.Name == "Titel")
+                {
+                    layoutSlide = titleLayoutSlide;
+                    break;
+                }
+            }
+            if (layoutSlide == null)
+            {
+                layoutSlide = layoutSlides.GetByType(SlideLayoutType.Blank);
+                if (layoutSlide == null)
+                {
+                    layoutSlide = layoutSlides.Add(SlideLayoutType.TitleAndObject, "Titel und Objekt");
+                }
+            }
+        }
+    }
+    // Hinzufügen einer leeren Folie mit dem hinzugefügten Layout-Folie
+    presentation.Slides.InsertEmptySlide(0, layoutSlide);
+    // Präsentation speichern
+    presentation.Save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
+}
+```
+
+### Siehe Auch
+
+* Interface [IMasterSlideCollection](../../imasterslidecollection)
+* Klasse [Presentation](../../presentation)
+* Namespace [Aspose.Slides](../../presentation)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

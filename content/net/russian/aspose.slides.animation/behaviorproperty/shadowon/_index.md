@@ -6,7 +6,8 @@ type: docs
 weight: 720
 url: /ru/aspose.slides.animation/behaviorproperty/shadowon/
 ---
-## BehaviorProperty.ShadowOn property
+
+## Свойство BehaviorProperty.ShadowOn
 
 Представляет свойство 'shadow.on'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/shadowon/
 public static BehaviorProperty ShadowOn { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

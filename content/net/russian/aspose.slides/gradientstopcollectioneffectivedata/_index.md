@@ -1,27 +1,28 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет коллекцию объектов GradientStopData.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет собой коллекцию объектов GradientStopData.
 type: docs
-weight: 4580
+weight: 4840
 url: /ru/aspose.slides/gradientstopcollectioneffectivedata/
 ---
-## GradientStopCollectionEffectiveData class
 
-Представляет коллекцию объектов GradientStopData.
+## Класс GradientStopCollectionEffectiveData
+
+Представляет собой коллекцию объектов GradientStopData.
 
 ```csharp
 public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Возвращает количество остановок градиента в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Возвращает точку градиента по индексу. |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Возвращает количество градиентных остановок в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасный для потоков). Только для чтения Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Возвращает градиентную остановку по индексу. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
@@ -32,7 +33,7 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 ### Смотрите также
 
-* interface [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
+* интерфейс [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

@@ -1,14 +1,15 @@
 ---
 title: CreateAlphaModulate
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает эффект альфа-модуляции.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает эффект Alpha модуляции.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate/
 ---
-## IImageTransformOperationFactory.CreateAlphaModulate method
 
-Создает эффект альфа-модуляции.
+## IImageTransformOperationFactory.CreateAlphaModulate метод
+
+Создает эффект Alpha модуляции.
 
 ```csharp
 public IAlphaModulate CreateAlphaModulate()
@@ -16,12 +17,12 @@ public IAlphaModulate CreateAlphaModulate()
 
 ### Возвращаемое значение
 
-Эффект альфа-модуляции.
+Эффект Alpha модуляции.
 
-### Смотрите также
+### См. также
 
-* interface [IAlphaModulate](../../ialphamodulate)
-* interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
+* интерфейс [IAlphaModulate](../../ialphamodulate)
+* интерфейс [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * пространство имен [Aspose.Slides.Effects](../../iimagetransformoperationfactory)
 * сборка [Aspose.Slides](../../../)
 

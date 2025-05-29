@@ -1,33 +1,34 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий доступную только для чтения коллекцию эффективных форматов заливки.
+second_title: Aspose.Sildes для справки по API .NET
+description: Невозможно изменяемый объект, представляющий собой только для чтения коллекцию эффективных форматов заливки.
 type: docs
-weight: 10430
+weight: 10930
 url: /ru/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
-## IFillFormatCollectionEffectiveData interface
 
-Неизменяемый объект, представляющий доступную только для чтения коллекцию эффективных форматов заливки.
+## Интерфейс IFillFormatCollectionEffectiveData
+
+Невозможно изменяемый объект, представляющий собой только для чтения коллекцию эффективных форматов заливки.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
+Этот интерфейс используется как часть [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
-### Смотрите также
+### См. также
 
-* interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* interface [IFillFormatEffectiveData](../../aspose.slides/ifillformateffectivedata)
+* интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* интерфейс [IFillFormatEffectiveData](../../aspose.slides/ifillformateffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

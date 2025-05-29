@@ -1,32 +1,33 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект содержащий эффективные свойства рельефа грани фигуры.
+second_title: Справка по API Aspose.Slides для .NET
+description: Невозможный объект, который содержит эффективные свойства рельефа поверхности фигур.
 type: docs
-weight: 6390
+weight: 6750
 url: /ru/aspose.slides/ishapebeveleffectivedata/
 ---
-## IShapeBevelEffectiveData interface
 
-Неизменяемый объект, содержащий эффективные свойства рельефа грани фигуры.
+## Интерфейс IShapeBevelEffectiveData
+
+Невозможный объект, который содержит эффективные свойства рельефа поверхности фигуры.
 
 ```csharp
 public interface IShapeBevelEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Тип скоса. Только для чтения[`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Высота скоса. Только для чтенияDouble. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Ширина фаски. Только для чтенияDouble. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Тип среза. Только для чтения [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Высота среза. Только для чтения Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Ширина среза. Только для чтения Double. |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+Этот интерфейс используется как часть [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

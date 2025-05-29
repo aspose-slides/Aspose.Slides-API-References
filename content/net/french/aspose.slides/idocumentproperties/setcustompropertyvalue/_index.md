@@ -3,9 +3,10 @@ title: SetCustomPropertyValue
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définit une propriété personnalisée booléenne nommée.
 type: docs
-weight: 310
+weight: 420
 url: /fr/aspose.slides/idocumentproperties/setcustompropertyvalue/
 ---
+
 ## SetCustomPropertyValue(string, bool) {#setcustompropertyvalue}
 
 Définit une propriété personnalisée booléenne nommée.
@@ -14,16 +15,16 @@ Définit une propriété personnalisée booléenne nommée.
 public void SetCustomPropertyValue(string name, bool value)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | name | String | Nom de la propriété personnalisée à définir |
-| value | Boolean | Valeur de propriété personnalisée |
+| value | Boolean | Valeur de la propriété personnalisée |
 
-### Voir également
+### Voir Aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espace de noms [Aspose.Slides](../../idocumentproperties)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -35,16 +36,16 @@ Définit une propriété personnalisée entière nommée.
 public void SetCustomPropertyValue(string name, int value)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | name | String | Nom de la propriété personnalisée à définir |
-| value | Int32 | Valeur de propriété personnalisée |
+| value | Int32 | Valeur de la propriété personnalisée |
 
-### Voir également
+### Voir Aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espace de noms [Aspose.Slides](../../idocumentproperties)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -56,78 +57,78 @@ Définit une propriété personnalisée DateTime nommée.
 public void SetCustomPropertyValue(string name, DateTime value)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | name | String | Nom de la propriété personnalisée à définir |
-| value | DateTime | Valeur de propriété personnalisée |
+| value | DateTime | Valeur de la propriété personnalisée |
 
-### Voir également
+### Voir Aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espace de noms [Aspose.Slides](../../idocumentproperties)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## SetCustomPropertyValue(string, string) {#setcustompropertyvalue_5}
 
-Définit une propriété personnalisée de chaîne nommée.
+Définit une propriété personnalisée chaîne nommée.
 
 ```csharp
 public void SetCustomPropertyValue(string name, string value)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | name | String | Nom de la propriété personnalisée à définir |
-| value | String | Valeur de propriété personnalisée |
+| value | String | Valeur de la propriété personnalisée |
 
-### Voir également
+### Voir Aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espace de noms [Aspose.Slides](../../idocumentproperties)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## SetCustomPropertyValue(string, float) {#setcustompropertyvalue_3}
 
-Définit une propriété personnalisée flottante nommée.
+Définit une propriété personnalisée float nommée.
 
 ```csharp
 public void SetCustomPropertyValue(string name, float value)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | name | String | Nom de la propriété personnalisée à définir |
-| value | Single | Valeur de propriété personnalisée |
+| value | Single | Valeur de la propriété personnalisée |
 
-### Voir également
+### Voir Aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espace de noms [Aspose.Slides](../../idocumentproperties)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## SetCustomPropertyValue(string, double) {#setcustompropertyvalue_1}
 
-Définit une double propriété personnalisée nommée.
+Définit une propriété personnalisée double nommée.
 
 ```csharp
 public void SetCustomPropertyValue(string name, double value)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | name | String | Nom de la propriété personnalisée à définir |
-| value | Double | Valeur de propriété personnalisée |
+| value | Double | Valeur de la propriété personnalisée |
 
-### Voir également
+### Voir Aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
-* espace de noms [Aspose.Slides](../../idocumentproperties)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,11 +1,12 @@
 ---
 title: PptReadException
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides/pptreadexception/pptreadexception/
 ---
+
 ## PptReadException() {#constructor}
 
 Конструктор по умолчанию.
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/pptreadexception/pptreadexception/
 public PptReadException()
 ```
 
-### Смотрите также
+### См. также
 
-* class [PptReadException](../../pptreadexception)
+* класс [PptReadException](../../pptreadexception)
 * пространство имен [Aspose.Slides](../../pptreadexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -32,11 +33,11 @@ public PptReadException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
+| message | String | сообщение |
 
-### Смотрите также
+### См. также
 
-* class [PptReadException](../../pptreadexception)
+* класс [PptReadException](../../pptreadexception)
 * пространство имен [Aspose.Slides](../../pptreadexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,7 +45,7 @@ public PptReadException(string message)
 
 ## PptReadException(string, Exception) {#constructor_2}
 
-Конструктор исключения, содержащего сообщение и встроенное исключение.
+Конструктор для исключения, содержащего сообщение и вложенное исключение.
 
 ```csharp
 public PptReadException(string message, Exception exception)
@@ -52,12 +53,12 @@ public PptReadException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
-| исключение | Exception | исходное исключение |
+| message | String | сообщение |
+| exception | Exception | оригинальное исключение |
 
-### Смотрите также
+### См. также
 
-* class [PptReadException](../../pptreadexception)
+* класс [PptReadException](../../pptreadexception)
 * пространство имен [Aspose.Slides](../../pptreadexception)
 * сборка [Aspose.Slides](../../../)
 

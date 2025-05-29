@@ -1,14 +1,15 @@
 ---
 title: ResolveUri
 second_title: Справочник по API Aspose.Slides для .NET
-description: Разрешает абсолютный URI из базового и относительного URI.
+description: Разрешает абсолютный URI из базового и относительных URI.
 type: docs
 weight: 20
 url: /ru/aspose.slides.import/iexternalresourceresolver/resolveuri/
 ---
-## IExternalResourceResolver.ResolveUri method
 
-Разрешает абсолютный URI из базового и относительного URI.
+## Метод IExternalResourceResolver.ResolveUri
+
+Разрешает абсолютный URI из базового и относительных URI.
 
 ```csharp
 public string ResolveUri(string baseUri, string relativeUri)
@@ -16,16 +17,16 @@ public string ResolveUri(string baseUri, string relativeUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseUri | String | Базовый URI связывающих объектов |
+| baseUri | String | Базовый URI связанных объектов |
 | relativeUri | String | Относительный URI к связанному объекту. |
 
 ### Возвращаемое значение
 
-Абсолютный URI или нуль, если относительный URI не может быть разрешен.
+Абсолютный URI или null, если относительный URI не может быть разрешен.
 
-### Смотрите также
+### См. также
 
-* interface [IExternalResourceResolver](../../iexternalresourceresolver)
+* интерфейс [IExternalResourceResolver](../../iexternalresourceresolver)
 * пространство имен [Aspose.Slides.Import](../../iexternalresourceresolver)
 * сборка [Aspose.Slides](../../../)
 

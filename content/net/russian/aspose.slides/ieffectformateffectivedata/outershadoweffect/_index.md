@@ -1,23 +1,24 @@
 ---
 title: OuterShadowEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Внешняя тень. Только чтениеIOuterShadowEffectiveDataaspose.slides.effects/ioutershadoweffectivedata.
+description: Внешняя тень. Только для чтения IOuterShadowEffectiveDataaspose.slides.effects/ioutershadoweffectivedata.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ieffectformateffectivedata/outershadoweffect/
 ---
-## IEffectFormatEffectiveData.OuterShadowEffect property
 
-Внешняя тень. Только чтение[`IOuterShadowEffectiveData`](../../../aspose.slides.effects/ioutershadoweffectivedata).
+## Свойство IEffectFormatEffectiveData.OuterShadowEffect
+
+Внешняя тень. Только для чтения [`IOuterShadowEffectiveData`](../../../aspose.slides.effects/ioutershadoweffectivedata).
 
 ```csharp
 public IOuterShadowEffectiveData OuterShadowEffect { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IOuterShadowEffectiveData](../../../aspose.slides.effects/ioutershadoweffectivedata)
-* interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
+* интерфейс [IOuterShadowEffectiveData](../../../aspose.slides.effects/ioutershadoweffectivedata)
+* интерфейс [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * пространство имен [Aspose.Slides](../../ieffectformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,45 @@
 ---
-title: Overlap
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает сколько полос и столбцов должно перекрываться на двумерных диаграммах от -100 до 100. Чтение/записьSByte.
+title: Перекрытие
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Указывает, насколько бары и столбцы должны перекрываться на 2-D графиках в процентах от -100 до 100. - -100 Максимальное расстояние, бары полностью отделены. - 0 Они расположены рядом без перекрытия или расстояния. - 100 Максимальное перекрытие, бары полностью накладываются друг на друга. Это свойство доступно для чтения и записи SByte.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/ichartseriesgroup/overlap/
 ---
-## IChartSeriesGroup.Overlap property
 
-Указывает, сколько полос и столбцов должно перекрываться на двумерных диаграммах (от -100 до 100). Чтение/записьSByte.
+## IChartSeriesGroup.Overlap свойство
+
+Указывает, насколько бары и столбцы должны перекрываться на 2-D графиках в процентах (от -100% до 100%). - -100%: Максимальное расстояние (бары полностью разделены). - 0%: Бары расположены рядом без перекрытия или расстояния. - 100%: Максимальное перекрытие (бары полностью накладываются друг на друга). Это свойство доступно для чтения и записи SByte.
 
 ```csharp
 public sbyte Overlap { get; set; }
 ```
 
-### Смотрите также
+### Исключения
 
-* interface [IChartSeriesGroup](../../ichartseriesgroup)
+| исключение | условие |
+| --- | --- |
+| ArgumentOutOfRangeException | Выбрасывается, когда значение установлено за пределами допустимого диапазона от -100 до 100. |
+
+### Примеры
+
+Следующий пример демонстрирует, как установить перекрытие для группы графиков и отобразить полученный график на форме:
+
+```csharp
+using (Presentation pres = new Presentation())
+{
+    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
+    IChartSeriesCollection series = chart.ChartData.Series;
+    series[0].ParentSeriesGroup.Overlap = 55; // Установить перекрытие на 55%
+
+    var image=pres.Slides[0].GetImage(1, 1);
+    image.Save("image.png",ImageFormat.Png);
+}
+```
+
+### См. также
+
+* интерфейс [IChartSeriesGroup](../../ichartseriesgroup)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriesgroup)
 * сборка [Aspose.Slides](../../../)
 

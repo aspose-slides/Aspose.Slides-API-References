@@ -1,22 +1,23 @@
 ---
 title: KeepTextFlat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает чтобы текст оставался плоским даже если был применен эффект трехмерного вращения. Чтение/записьBoolean.
+description: Получает или задает сохранение текста плоским, даже если был применен эффект 3-D вращения. Чтение/запись логического значения.
 type: docs
 weight: 70
 url: /ru/aspose.slides/textframeformat/keeptextflat/
 ---
-## TextFrameFormat.KeepTextFlat property
 
-Получает или задает, чтобы текст оставался плоским, даже если был применен эффект трехмерного вращения. Чтение/записьBoolean.
+## Свойство TextFrameFormat.KeepTextFlat
+
+Получает или задает сохранение текста плоским, даже если был применен эффект 3-D вращения. Чтение/запись логического значения.
 
 ```csharp
 public bool KeepTextFlat { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [TextFrameFormat](../../textframeformat)
+* класс [TextFrameFormat](../../textframeformat)
 * пространство имен [Aspose.Slides](../../textframeformat)
 * сборка [Aspose.Slides](../../../)
 

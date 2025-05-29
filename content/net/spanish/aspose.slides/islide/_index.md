@@ -1,12 +1,13 @@
 ---
 title: ISlide
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de la API
 description: Representa una diapositiva en una presentación.
 type: docs
-weight: 6460
+weight: 6820
 url: /es/aspose.slides/islide/
 ---
-## ISlide interface
+
+## Interfaz ISlide
 
 Representa una diapositiva en una presentación.
 
@@ -18,39 +19,37 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Permite obtener la interfaz base IBaseSlide. Solo lectura[`IBaseSlide`](../ibaseslide) . |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Devuelve la interfaz IOverrideThemeable. Solo lectura[`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable) . |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Devuelve el administrador de encabezado y pie de página de la diapositiva. Solo lectura[`ISlideHeaderFooterManager`](../islideheaderfootermanager) . |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Determina si la diapositiva especificada se oculta durante una presentación de diapositivas. Lectura/escrituraBoolean . |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Devuelve o establece la diapositiva de diseño para la diapositiva actual. Lectura/escritura[`ILayoutSlide`](../ilayoutslide) . |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Permitir acceder a la diapositiva de notas, agregarla y eliminarla. Solo lectura[`INotesSlideManager`](../inotesslidemanager) . |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Devuelve un número de diapositiva. Índice de diapositiva en[`Slides`](../ipresentation/slides) la colección siempre es igual a SlideNumber - 1. Lectura/escrituraInt32 . |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Permite obtener la interfaz base IBaseSlide. Solo lectura [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Devuelve la interfaz IOverrideThemeable. Solo lectura [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Devuelve el administrador de encabezados y pies de página de la diapositiva. Solo lectura [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Determina si la diapositiva especificada está oculta durante una presentación. Lectura/escritura Boolean. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Devuelve o establece la diapositiva de diseño para la diapositiva actual. Lectura/escritura [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Permite acceder a la diapositiva de notas, agregarla y eliminarla. Solo lectura [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Devuelve el número de la diapositiva. El índice de la diapositiva en la colección [`Slides`](../ipresentation/slides) siempre es igual a SlideNumber - 1. Lectura/escritura Int32. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Devuelve todos los comentarios de diapositiva agregados por un autor específico. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail)() | Devuelve un objeto Imagen en miniatura (20% del tamaño real). |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_4)(IRenderingOptions) | Devuelve un objeto de mapa de bits en miniatura. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_7)(ITiffOptions) | Devuelve un objeto de mapa de bits tiff en miniatura con los parámetros especificados. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_9)(Size) | Devuelve un objeto de mapa de bits en miniatura con el tamaño especificado. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_8)(float, float) | Devuelve un objeto de mapa de bits en miniatura con escala personalizada. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_6)(IRenderingOptions, Size) | Devuelve un objeto de mapa de bits en miniatura con el tamaño especificado. |
-| [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_5)(IRenderingOptions, float, float) | Devuelve un objeto de mapa de bits en miniatura con escala personalizada. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Devuelve un objeto de imagen en miniatura (20% del tamaño real). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Devuelve un objeto de imagen en miniatura tipo Bitmap. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Devuelve un objeto de imagen en miniatura tipo tiff con los parámetros especificados. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Devuelve un objeto de imagen con el tamaño especificado. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Devuelve un objeto de imagen con escalado personalizado. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Devuelve un objeto de imagen en miniatura tipo Bitmap con el tamaño especificado. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Devuelve un objeto de imagen en miniatura tipo Bitmap con escalado personalizado. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Devuelve todos los comentarios de la diapositiva añadidos por un autor específico. |
 | [Remove](../../aspose.slides/islide/remove)() | Elimina la diapositiva de la presentación. |
-| [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_3)(IRenderingOptions, Graphics) | Renderiza cierta diapositiva a un objeto Graphics. |
-| [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_5)(IRenderingOptions, Graphics, Size) | Renderiza cierta diapositiva a un objeto Graphics usando el tamaño especificado. |
-| [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_4)(IRenderingOptions, Graphics, float, float) | Renderiza cierta diapositiva a un objeto Graphics con escalado personalizado. |
-| [Reset](../../aspose.slides/islide/reset)() | Restablece la posición, el tamaño y el formato de cada forma que tiene un prototipo en LayoutSlide. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Guarda el contenido de la diapositiva como archivo SVG. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Guarda el contenido de la diapositiva como archivo SVG. |
+| [Reset](../../aspose.slides/islide/reset)() | Restablece la posición, tamaño y formato de cada forma que tenga un prototipo en LayoutSlide. |
+| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Guarda el contenido de la diapositiva como un archivo EMF. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Guarda el contenido de la diapositiva como un archivo SVG. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Guarda el contenido de la diapositiva como un archivo SVG. |
 
-### Ver también
+### Véase también
 
-* interface [IBaseSlide](../ibaseslide)
-* interface [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
+* interfaz [IBaseSlide](../ibaseslide)
+* interfaz [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* asamblea [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

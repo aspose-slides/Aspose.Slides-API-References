@@ -1,22 +1,23 @@
 ---
 title: MarginLeft
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает левое поле в точках в TextFrame. Чтение/записьDouble.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает левый отступ в точках в TextFrame. Читаемое/записываемое Double.
 type: docs
 weight: 90
 url: /ru/aspose.slides/textframeformat/marginleft/
 ---
-## TextFrameFormat.MarginLeft property
 
-Возвращает или задает левое поле (в точках) в TextFrame. Чтение/записьDouble.
+## Свойство TextFrameFormat.MarginLeft
+
+Возвращает или задает левый отступ (в точках) в TextFrame. Читаемое/записываемое Double.
 
 ```csharp
 public double MarginLeft { get; set; }
 ```
 
-### Смотрите также
+### Также см. 
 
-* class [TextFrameFormat](../../textframeformat)
+* класс [TextFrameFormat](../../textframeformat)
 * пространство имен [Aspose.Slides](../../textframeformat)
 * сборка [Aspose.Slides](../../../)
 

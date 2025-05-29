@@ -1,22 +1,23 @@
 ---
 title: AsLiteralDouble
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает значение как буквальное двойное число. Чтение/записьDouble.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает или устанавливает значение как литеральный двойной. Чтение/запись Double.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/doublechartvalue/asliteraldouble/
 ---
-## DoubleChartValue.AsLiteralDouble property
 
-Возвращает или устанавливает значение как буквальное двойное число. Чтение/записьDouble.
+## DoubleChartValue.AsLiteralDouble свойство
+
+Возвращает или устанавливает значение как литеральный двойной. Чтение/запись Double.
 
 ```csharp
 public double AsLiteralDouble { get; set; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* class [DoubleChartValue](../../doublechartvalue)
+* класс [DoubleChartValue](../../doublechartvalue)
 * пространство имен [Aspose.Slides.Charts](../../doublechartvalue)
 * сборка [Aspose.Slides](../../../)
 

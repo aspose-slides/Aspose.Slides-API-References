@@ -1,23 +1,24 @@
 ---
-title: Format
+title: Формат
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат области графика. Только для чтенияIFormataspose.slides.charts/iformat.
+description: Возвращает формат области графика. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/ichartplotarea/format/
 ---
-## IChartPlotArea.Format property
 
-Возвращает формат области графика. Только для чтения[`IFormat`](../../iformat).
+## Свойство IChartPlotArea.Format
+
+Возвращает формат области графика. Только для чтения [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFormat](../../iformat)
-* interface [IChartPlotArea](../../ichartplotarea)
+* интерфейс [IFormat](../../iformat)
+* интерфейс [IChartPlotArea](../../ichartplotarea)
 * пространство имен [Aspose.Slides.Charts](../../ichartplotarea)
 * сборка [Aspose.Slides](../../../)
 

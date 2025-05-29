@@ -1,14 +1,15 @@
 ---
-title: Insert
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вставляет новый макет слайда в указанную позицию коллекции.
+title: Вставить
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Вставляет новый макетный слайд в указанную позицию коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides/imasterlayoutslidecollection/insert/
 ---
-## IMasterLayoutSlideCollection.Insert method
 
-Вставляет новый макет слайда в указанную позицию коллекции.
+## IMasterLayoutSlideCollection.Insert метод
+
+Вставляет новый макетный слайд в указанную позицию коллекции.
 
 ```csharp
 public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutName)
@@ -17,29 +18,29 @@ public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutN
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Индекс нового слайда. |
-| layoutType | SlideLayoutType | Тип макета для нового макета. Поддерживаемые типы макетов:Заголовок, Только заголовок, Пустой, Заголовок и объект, Вертикальный текст, Вертикальный заголовок и текст, Два объекта, Заголовок раздела, Два текста и два объекта, Заголовок и заголовок, Изображение и заголовок, Пользовательский. Другие типы макетов теперь не поддерживаются:Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText , TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| layoutName | String | Имя для нового макета. Если переданное имя уже используется, будет сгенерировано исключение ArgumentException. Если передан нулевой параметр, то имя генерируется автоматически в соответствии с переданным типом макета (например, "Title Slide" или "1_Title Slide", "2_.." и т. д. ). |
+| layoutType | SlideLayoutType | Тип макета для нового макета. Поддерживаемые типы макета: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Другие типы макета в настоящее время не поддерживаются: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| layoutName | String | Имя для нового макета. Если переданное имя уже используется, будет выброшено исключение ArgumentException. Если передан параметр null, то имя будет сгенерировано автоматически в зависимости от переданного типа макета (например, "Title Slide" или "1_Title Slide", "2_..", и т. д.). |
 
 ### Возвращаемое значение
 
-Вставлен слайд.
+Вставленный слайд.
 
 ### Исключения
 
-| исключение | условие |
+| Исключение | Условие |
 | --- | --- |
-| NotImplementedException | Брошен, если неподдерживаемое значение параметра*layoutType*передается. Типы макетов, которые сейчас не поддерживаются:Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, Вертикальный заголовок и текст над диаграммой, объект и два объекта, два объекта и объект. |
-| ArgumentException | Вызывается, если значение имени макета*layoutName*уже используется в этой коллекции макетов. |
+| NotImplementedException | Выбрасывается, если передано неподдерживаемое значение параметра *layoutType*. Типы макета, которые в настоящее время не поддерживаются: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| ArgumentException | Выбрасывается, если значение имени макета *layoutName* уже используется в этой коллекции макетов. |
 
 ### Примечания
 
-Вставлен макет для значения SlideLayoutType.Custom of*layoutType* не содержит заполнителей и форм.
+Вставленный макет для значения SlideLayoutType.Custom параметра *layoutType* не содержит заполнителей и никаких форм.
 
-### Смотрите также
+### См. также
 
-* interface [ILayoutSlide](../../ilayoutslide)
-* enum [SlideLayoutType](../../slidelayouttype)
-* interface [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
+* интерфейс [ILayoutSlide](../../ilayoutslide)
+* перечисление [SlideLayoutType](../../slidelayouttype)
+* интерфейс [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
 * пространство имен [Aspose.Slides](../../imasterlayoutslidecollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: TickMarksSpacing
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает сколько делений должно быть пропущено прежде чем будет нарисовано следующее . Применяется к оси категорий или серий. Чтение/записьUInt16.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Указывает, сколько меток отсчета должно быть пропущено перед тем, как будет нарисована следующая. Применяется к оси категорий или серий. Читаемое/записываемое UInt16.
 type: docs
 weight: 530
 url: /ru/aspose.slides.charts/iaxis/tickmarksspacing/
 ---
-## IAxis.TickMarksSpacing property
 
-Указывает, сколько делений должно быть пропущено, прежде чем будет нарисовано следующее . Применяется к оси категорий или серий. Чтение/записьUInt16.
+## Свойство IAxis.TickMarksSpacing
+
+Указывает, сколько меток отсчета должно быть пропущено перед тем, как будет нарисована следующая. Применяется к оси категорий или серий. Читаемое/записываемое UInt16.
 
 ```csharp
 public uint TickMarksSpacing { get; set; }
@@ -16,7 +17,7 @@ public uint TickMarksSpacing { get; set; }
 
 ### Смотрите также
 
-* interface [IAxis](../../iaxis)
+* интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

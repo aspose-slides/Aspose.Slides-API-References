@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/
 ---
+
 ## EmbeddedWoffFontsHtmlController() {#constructor}
 
 Создает новый экземпляр.
@@ -16,7 +17,7 @@ public EmbeddedWoffFontsHtmlController()
 
 ### Смотрите также
 
-* class [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller)
+* класс [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embeddedwofffontshtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 
@@ -36,8 +37,8 @@ public EmbeddedWoffFontsHtmlController(IHtmlFormattingController controller)
 
 ### Смотрите также
 
-* interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
-* class [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller)
+* интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
+* класс [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embeddedwofffontshtmlcontroller)
 * сборка [Aspose.Slides](../../../)
 

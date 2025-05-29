@@ -1,29 +1,30 @@
 ---
 title: PropertyCalcModeType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет режим расчета для свойства анимации.
+description: Представляет режим вычисления для свойства анимации.
 type: docs
-weight: 640
+weight: 660
 url: /ru/aspose.slides.animation/propertycalcmodetype/
 ---
-## PropertyCalcModeType enumeration
 
-Представляет режим расчета для свойства анимации.
+## Перечисление PropertyCalcModeType
+
+Представляет режим вычисления для свойства анимации.
 
 ```csharp
 public enum PropertyCalcModeType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Discrete | `0` |  |
 | Linear | `1` |  |
 | Formula | `2` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

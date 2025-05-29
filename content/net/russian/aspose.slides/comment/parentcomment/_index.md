@@ -1,14 +1,15 @@
 ---
 title: ParentComment
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает родительский комментарий. Чтение/записьICommentaspose.slides/icomment.
+second_title: Aspose.Slides для .NET API Справка
+description: Получает или устанавливает родительский комментарий. Чтение/запись ICommentaspose.slides/icomment.
 type: docs
 weight: 30
 url: /ru/aspose.slides/comment/parentcomment/
 ---
-## Comment.ParentComment property
 
-Получает или задает родительский комментарий. Чтение/запись[`IComment`](../../icomment).
+## Свойство Comment.ParentComment
+
+Получает или устанавливает родительский комментарий. Чтение/запись [`IComment`](../../icomment).
 
 ```csharp
 public IComment ParentComment { get; set; }
@@ -18,12 +19,12 @@ public IComment ParentComment { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Выбрасывается при установке значения приводит к циклической ссылке |
+| [PptxEditException](../../pptxeditexception) | Возникает, когда установка значения приводит к циклической ссылке |
 
 ### Смотрите также
 
-* interface [IComment](../../icomment)
-* class [Comment](../../comment)
+* интерфейс [IComment](../../icomment)
+* класс [Comment](../../comment)
 * пространство имен [Aspose.Slides](../../comment)
 * сборка [Aspose.Slides](../../../)
 

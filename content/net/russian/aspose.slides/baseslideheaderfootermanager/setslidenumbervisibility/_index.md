@@ -1,14 +1,15 @@
 ---
 title: SetSlideNumberVisibility
-second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет видимость заполнителя номера страницы слайда.
+second_title: Справка по API Aspose.Slides для .NET
+description: Изменяет видимость плейсхолдера номера страницы слайда.
 type: docs
 weight: 80
 url: /ru/aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility/
 ---
-## BaseSlideHeaderFooterManager.SetSlideNumberVisibility method
 
-Изменяет видимость заполнителя номера страницы слайда.
+## BaseSlideHeaderFooterManager.SetSlideNumberVisibility метод
+
+Изменяет видимость плейсхолдера номера страницы слайда.
 
 ```csharp
 public void SetSlideNumberVisibility(bool isVisible)
@@ -16,11 +17,11 @@ public void SetSlideNumberVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнитель номера страницы видимым, иначе - скрывает его. |
+| isVisible | Boolean | true - делает плейсхолдер номера страницы видимым, в противном случае - скрывает его. |
 
-### Смотрите также
+### См. также
 
-* class [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
+* класс [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../baseslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: LastSavedBy
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает имя последнего человека изменившего презентацию. Чтение/записьString.
+description: Возвращает или устанавливает имя последнего человека, который изменил презентацию. Читаемая/записываемая строка.
 type: docs
-weight: 160
+weight: 190
 url: /ru/aspose.slides/documentproperties/lastsavedby/
 ---
-## DocumentProperties.LastSavedBy property
 
-Возвращает или задает имя последнего человека, изменившего презентацию. Чтение/записьString.
+## Свойство DocumentProperties.LastSavedBy
+
+Возвращает или устанавливает имя последнего человека, который изменил презентацию. Читаемая/записываемая строка.
 
 ```csharp
 public string LastSavedBy { get; set; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
-* class [DocumentProperties](../../documentproperties)
+* класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

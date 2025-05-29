@@ -1,27 +1,28 @@
 ---
 title: Aspose.Slides.Export.Web
-second_title: Aspose.Slides for .NET API 参考
-description: 
+second_title: Aspose.Slides for .NET API Reference
+description: 包含用于将 Microsoft PowerPoint 演示文稿导出为 Html 的扩展项目的类。
 type: docs
 weight: 70
 url: /zh/aspose.slides.export.web/
 ---
-包含用于将 Microsoft PowerPoint 演示文稿导出到带有扩展项目的 Html 的类。
 
-## 课程
+包含用于将 Microsoft PowerPoint 演示文稿导出为 Html 的扩展项目的类。
 
-| 班级 | 描述 |
+## 类
+
+| 类 | 描述 |
 | --- | --- |
-| [Input](./input) | 表示!:IWebDocument的输入元素（模板）的集合。 |
-| [Output](./output) | 表示!:IWebDocument的输出元素的集合。 |
+| [Input](./input) | 表示输入元素（模板）的集合。 |
+| [Output](./output) | 表示 !:IWebDocument 的输出元素集合。 |
 | [OutputFile](./outputfile) | 表示输出文件。 |
-| [Storage](./storage) | 表示[`WebDocument`](../aspose.slides.export.web/webdocument)的临时数据存储。 |
+| [Storage](./storage) | 表示 [`WebDocument`](../aspose.slides.export.web/webdocument) 的临时数据存储。 |
 | [TemplateContext&lt;TObject&gt;](./templatecontext-1) | 表示模板引擎的模型对象接口。 |
-| [WebDocument](./webdocument) | 表示用于保存为 Web 格式的演示文稿的转换形式。 |
-| [WebDocumentOptions](./webdocumentoptions) | 表示为[`WebDocument`](../aspose.slides.export.web/webdocument)保存设置的选项。 |
+| [WebDocument](./webdocument) | 表示用于保存为网页格式的演示文稿的过渡形式。 |
+| [WebDocumentOptions](./webdocumentoptions) | 表示用于 [`WebDocument`](../aspose.slides.export.web/webdocument) 保存的选项集。 |
 ## 接口
 
-| 界面 | 描述 |
+| 接口 | 描述 |
 | --- | --- |
 | [IOutputFile](./ioutputfile) | 表示输出文件。 |
 | [IOutputSaver](./ioutputsaver) | 表示输出保存服务。 |

@@ -1,22 +1,23 @@
 ---
 title: BinWidth
-second_title: Справочник по API Aspose.Slides для .NET
-description: Задает ширину интервала когда для свойства AggregationType установлено значение AxisAggregationType.ByBinWidth. Применяется к осям категорий. Используется только с сериями Histogram или HistogramPareto.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Указывает ширину бина, когда значение свойства AggregationType установлено в AxisAggregationType.ByBinWidth. Применяется к категориальным осям. Используется только с сериями Histogram или HistogramPareto.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/iaxis/binwidth/
 ---
-## IAxis.BinWidth property
 
-Задает ширину интервала, когда для свойства AggregationType установлено значение AxisAggregationType.ByBinWidth. Применяется к осям категорий. Используется только с сериями Histogram или HistogramPareto.
+## Свойство IAxis.BinWidth
+
+Указывает ширину бина, когда значение свойства AggregationType установлено в AxisAggregationType.ByBinWidth. Применяется к категориальным осям. Используется только с сериями Histogram или HistogramPareto.
 
 ```csharp
 public double BinWidth { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IAxis](../../iaxis)
+* интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)
 * сборка [Aspose.Slides](../../../)
 

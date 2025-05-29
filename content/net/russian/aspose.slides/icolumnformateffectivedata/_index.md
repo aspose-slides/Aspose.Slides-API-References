@@ -1,32 +1,33 @@
 ---
 title: IColumnFormatEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект содержащий эффективные свойства форматирования столбца таблицы.
+second_title: Aspose.Slides для .NET API Reference
+description: Неизменяемый объект, который содержит свойства эффективного форматирования столбца таблицы.
 type: docs
-weight: 5050
+weight: 5350
 url: /ru/aspose.slides/icolumnformateffectivedata/
 ---
-## IColumnFormatEffectiveData interface
 
-Неизменяемый объект, содержащий эффективные свойства форматирования столбца таблицы.
+## Интерфейс IColumnFormatEffectiveData
+
+Неизменяемый объект, который содержит свойства эффективного форматирования столбца таблицы.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`IColumnFormat`](../icolumnformat)Интерфейс для возврата эффективных значений форматирования с примененными стилями наследования и таблиц.
+Этот интерфейс используется вместе с интерфейсом [`IColumnFormat`](../icolumnformat) для возврата эффективных значений форматирования с применением наследования и стилей таблиц.
 
-### Смотрите также
+### См. также
 
-* interface [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
+* интерфейс [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

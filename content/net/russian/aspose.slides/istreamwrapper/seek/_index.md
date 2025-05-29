@@ -1,12 +1,13 @@
 ---
 title: Seek
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Устанавливает позицию в текущем потоке
 type: docs
 weight: 120
 url: /ru/aspose.slides/istreamwrapper/seek/
 ---
-## IStreamWrapper.Seek method
+
+## Метод IStreamWrapper.Seek
 
 Устанавливает позицию в текущем потоке
 
@@ -16,16 +17,16 @@ public long Seek(long offset, SeekOrigin origin)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| offset | Int64 | Байтовое смещение относительно исходного параметраInt64 |
-| origin | SeekOrigin | Значение типаSeekOriginуказывает опорную точку, используемую для получения новой позиции |
+| offset | Int64 | Смещение в байтах относительно параметра origin Int64 |
+| origin | SeekOrigin | Значение типа SeekOrigin, указывающее точку отсчета, используемую для получения новой позиции |
 
 ### Возвращаемое значение
 
-Новая позиция в текущем потокеInt64
+Новая позиция в текущем потоке Int64
 
-### Смотрите также
+### См. также
 
-* interface [IStreamWrapper](../../istreamwrapper)
+* интерфейс [IStreamWrapper](../../istreamwrapper)
 * пространство имен [Aspose.Slides](../../istreamwrapper)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: DisableSoftEdgeEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Отключает эффект мягкого края.
+description: Отключает эффект мягких краев.
 type: docs
 weight: 170
 url: /ru/aspose.slides/effectformat/disablesoftedgeeffect/
 ---
-## EffectFormat.DisableSoftEdgeEffect method
 
-Отключает эффект мягкого края.
+## Метод EffectFormat.DisableSoftEdgeEffect
+
+Отключает эффект мягких краев.
 
 ```csharp
 public void DisableSoftEdgeEffect()
 ```
 
-### Смотрите также
+### См. также
 
-* class [EffectFormat](../../effectformat)
+* класс [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

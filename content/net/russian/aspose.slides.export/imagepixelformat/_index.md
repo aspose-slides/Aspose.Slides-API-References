@@ -1,12 +1,13 @@
 ---
 title: ImagePixelFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочная информация по API Aspose.Sildes для .NET
 description: Указывает формат пикселей для сгенерированных изображений.
 type: docs
-weight: 3870
+weight: 4040
 url: /ru/aspose.slides.export/imagepixelformat/
 ---
-## ImagePixelFormat enumeration
+
+## Перечисление ImagePixelFormat
 
 Указывает формат пикселей для сгенерированных изображений.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.export/imagepixelformat/
 public enum ImagePixelFormat
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Format1bppIndexed | `1` | 1 бит на пиксель, индексированный. |
 | Format4bppIndexed | `4` | 4 бита на пиксель, индексированный. |
@@ -24,7 +25,7 @@ public enum ImagePixelFormat
 | Format24bppRgb | `24` | 24 бита на пиксель, RGB. |
 | Format32bppArgb | `32` | 32 бита на пиксель, ARGB. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

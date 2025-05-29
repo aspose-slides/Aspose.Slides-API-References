@@ -1,23 +1,24 @@
 ---
 title: AsIPresentationComponent
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IPresentationComponent. Только для чтенияIPresentationComponentaspose.slides/ipresentationcomponent.
+second_title: Aspose.Slides для .NET API Референс
+description: Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения IPresentationComponent aspose.slides/ipresentationcomponent.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ipresentation/asipresentationcomponent/
 ---
-## IPresentation.AsIPresentationComponent property
 
-Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../ipresentationcomponent).
+## Свойство IPresentation.AsIPresentationComponent
+
+Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../ipresentationcomponent).
 
 ```csharp
 public IPresentationComponent AsIPresentationComponent { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPresentationComponent](../../ipresentationcomponent)
-* interface [IPresentation](../../ipresentation)
+* интерфейс [IPresentationComponent](../../ipresentationcomponent)
+* интерфейс [IPresentation](../../ipresentation)
 * пространство имен [Aspose.Slides](../../ipresentation)
 * сборка [Aspose.Slides](../../../)
 

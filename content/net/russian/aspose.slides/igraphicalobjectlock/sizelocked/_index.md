@@ -1,22 +1,23 @@
 ---
 title: SizeLocked
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли изменение размера этой фигуры. Чтение/записьBoolean.
+description: Определяет, запрещено ли изменение размеров этой формы. Читаемое/записываемое логическое значение.
 type: docs
 weight: 70
 url: /ru/aspose.slides/igraphicalobjectlock/sizelocked/
 ---
-## IGraphicalObjectLock.SizeLocked property
 
-Определяет, запрещено ли изменение размера этой фигуры. Чтение/записьBoolean.
+## IGraphicalObjectLock.SizeLocked свойство
+
+Определяет, запрещено ли изменение размеров этой формы. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool SizeLocked { get; set; }
 ```
 
-### Смотрите также
+### Также смотрите
 
-* interface [IGraphicalObjectLock](../../igraphicalobjectlock)
+* интерфейс [IGraphicalObjectLock](../../igraphicalobjectlock)
 * пространство имен [Aspose.Slides](../../igraphicalobjectlock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: SaveOptionsFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/saveoptionsfactory/saveoptionsfactory/
 ---
-## SaveOptionsFactory constructor
+
+## Конструктор SaveOptionsFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.export/saveoptionsfactory/saveoptionsfactory/
 public SaveOptionsFactory()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [SaveOptionsFactory](../../saveoptionsfactory)
+* класс [SaveOptionsFactory](../../saveoptionsfactory)
 * пространство имен [Aspose.Slides.Export](../../saveoptionsfactory)
 * сборка [Aspose.Slides](../../../)
 

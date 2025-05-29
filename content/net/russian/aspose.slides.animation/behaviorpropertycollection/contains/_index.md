@@ -1,14 +1,15 @@
 ---
-title: Contains
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет содержит лиICollectionопределенное значение.
+title: Содержит
+second_title: Справочная информация по API Aspose.Slides для .NET
+description: Определяет, содержит ли ICollection определенное значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/behaviorpropertycollection/contains/
 ---
+
 ## Contains(IBehaviorProperty) {#contains}
 
-Определяет, содержит лиICollectionопределенное значение.
+Определяет, содержит ли ICollection конкретное значение.
 
 ```csharp
 public bool Contains(IBehaviorProperty item)
@@ -16,16 +17,16 @@ public bool Contains(IBehaviorProperty item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IBehaviorProperty | Свойство для поиска вICollection. |
+| item | IBehaviorProperty | Свойство, которое необходимо найти в ICollection. |
 
 ### Возвращаемое значение
 
-true, если*item*находится вICollection; в противном случае ложно.
+true, если *item* найден в ICollection; в противном случае false.
 
-### Смотрите также
+### См. также
 
-* interface [IBehaviorProperty](../../ibehaviorproperty)
-* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* интерфейс [IBehaviorProperty](../../ibehaviorproperty)
+* класс [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 
@@ -33,7 +34,7 @@ true, если*item*находится вICollection; в противном сл
 
 ## Contains(string) {#contains_1}
 
-Определяет, содержит лиICollectionопределенное значение.
+Определяет, содержит ли ICollection конкретное значение.
 
 ```csharp
 public bool Contains(string propertyValue)
@@ -41,15 +42,15 @@ public bool Contains(string propertyValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| propertyValue | String | Значение свойства, которое нужно найти вICollection. |
+| propertyValue | String | Значение свойства, которое необходимо найти в ICollection. |
 
 ### Возвращаемое значение
 
-true, если*propertyValue*находится вICollection; в противном случае ложно.
+true, если *propertyValue* найден в ICollection; в противном случае false.
 
-### Смотрите также
+### См. также
 
-* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* класс [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * пространство имен [Aspose.Slides.Animation](../../behaviorpropertycollection)
 * сборка [Aspose.Slides](../../../)
 

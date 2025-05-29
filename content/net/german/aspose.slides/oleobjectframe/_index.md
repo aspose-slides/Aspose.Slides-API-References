@@ -1,12 +1,13 @@
 ---
 title: OleObjectFrame
-second_title: Aspose.Slides für .NET-API-Referenz
-description: Stellt ein OLEObjekt auf einer Folie dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt ein OLE-Objekt auf einer Folie dar.
 type: docs
-weight: 8530
+weight: 8960
 url: /de/aspose.slides/oleobjectframe/
 ---
-## OleObjectFrame class
+
+## OleObjectFrame-Klasse
 
 Stellt ein OLE-Objekt auf einer Folie dar.
 
@@ -18,69 +19,103 @@ public class OleObjectFrame : GraphicalObject, IOleObjectFrame
 
 | Name | Beschreibung |
 | --- | --- |
-| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Gibt den einer Form zugeordneten alternativen Text zurück oder legt ihn fest. Lesen/SchreibenString . |
-| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Gibt den Titel des alternativen Textes zurück, der einer Form zugeordnet ist, oder legt ihn fest. Lesen/SchreibenString . |
-| [AsIGraphicalObject](../../aspose.slides/oleobjectframe/asigraphicalobject) { get; } | Ermöglicht das Abrufen der IGraphicalObject-Basisschnittstelle. Schreibgeschützt[`IGraphicalObject`](../igraphicalobject) . |
-| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | -Eigenschaft gibt an, wie eine Form im Schwarzweiß-Anzeigemodus gerendert wird.. Lesen/Schreiben[`BlackWhiteMode`](../blackwhitemode) . |
-| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Gibt die Anzahl der Verbindungsstellen in der Form zurück. SchreibgeschütztInt32 . |
-| [CustomData](../../aspose.slides/shape/customdata) { get; } | Gibt die benutzerdefinierten Daten der Form zurück. Schreibgeschützt[`ICustomData`](../icustomdata) . |
-| virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Gibt das EffectFormat-Objekt zurück, das Pixeleffekte enthält, die auf eine Form angewendet wurden. Hinweis: Kann für bestimmte Arten von Formen, die keine Effekteigenschaften haben, null zurückgeben. Schreibgeschützt[`IEffectFormat`](../ieffectformat) . |
-| [EmbeddedData](../../aspose.slides/oleobjectframe/embeddeddata) { get; } | Ruft Informationen zu eingebetteten OLE-Daten ab oder legt sie fest. Lesen/Schreiben[`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo) . |
+| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Gibt den alternativen Text zurück oder legt ihn fest, der mit einer Form verknüpft ist. Verfügbar für Lese- und Schreibzugriff String. |
+| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Gibt den Titel des alternativen Textes zurück oder legt ihn fest, der mit einer Form verknüpft ist. Verfügbar für Lese- und Schreibzugriff String. |
+| [AsIGraphicalObject](../../aspose.slides/oleobjectframe/asigraphicalobject) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IGraphicalObject. Nur Lesezugriff [`IGraphicalObject`](../igraphicalobject). |
+| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | Diese Eigenschaft gibt an, wie eine Form im Schwarz-Weiß-Anzeigemodus dargestellt wird. Verfügbar für Lese- und Schreibzugriff [`BlackWhiteMode`](../blackwhitemode). |
+| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Gibt die Anzahl der Verbindungspunkte auf der Form zurück. Nur Lesezugriff Int32. |
+| [CustomData](../../aspose.slides/shape/customdata) { get; } | Gibt die benutzerdefinierten Daten der Form zurück. Nur Lesezugriff [`ICustomData`](../icustomdata). |
+| virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Gibt das EffectFormat-Objekt zurück, das die auf eine Form angewendeten Pixeleffekte enthält. Hinweis: Kann für bestimmte Typen von Formen, die keine Effekteigenschaften haben, null zurückgeben. Nur Lesezugriff [`IEffectFormat`](../ieffectformat). |
+| [EmbeddedData](../../aspose.slides/oleobjectframe/embeddeddata) { get; } | Ruft Informationen über OLE-eingebettete Daten ab oder legt sie fest. Verfügbar für Lese- und Schreibzugriff [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
 | [EmbeddedFileLabel](../../aspose.slides/oleobjectframe/embeddedfilelabel) { get; } | Gibt den Dateinamen des eingebetteten OLE-Objekts zurück |
 | [EmbeddedFileName](../../aspose.slides/oleobjectframe/embeddedfilename) { get; } | Gibt den Pfad des eingebetteten OLE-Objekts zurück |
-| virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | Gibt das FillFormat-Objekt zurück, das Füllformatierungseigenschaften für eine Form enthält. Hinweis: Kann für bestimmte Arten von Formen, die keine Fülleigenschaften haben, null zurückgeben. Schreibgeschützt[`IFillFormat`](../ifillformat) . |
-| [Frame](../../aspose.slides/shape/frame) { get; set; } | Gibt die Eigenschaften des Formrahmens zurück oder legt sie fest. Lesen/Schreiben[`IShapeFrame`](../ishapeframe) . |
-| [GraphicalObjectLock](../../aspose.slides/graphicalobject/graphicalobjectlock) { get; } | Gibt die Sperren der Form zurück. Schreibgeschützt[`IGraphicalObjectLock`](../igraphicalobjectlock) . |
-| [Height](../../aspose.slides/shape/height) { get; set; } | Gibt die Höhe der Form zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Bestimmt, ob die Form ausgeblendet ist. Lesen/SchreibenBoolean . |
-| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Gibt den für Mausklick definierten Hyperlink zurück oder setzt ihn. Lesen/Schreiben[`IHyperlink`](../ihyperlink) . |
-| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Gibt den Hyperlink-Manager zurück. Schreibgeschützt[`IHyperlinkManager`](../ihyperlinkmanager) . |
-| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Gibt den für Mouseover definierten Hyperlink zurück oder setzt ihn. Lesen/Schreiben[`IHyperlink`](../ihyperlink) . |
-| [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Bestimmt, ob die Form gruppiert ist. SchreibgeschütztBoolean . |
-| [IsObjectIcon](../../aspose.slides/oleobjectframe/isobjecticon) { get; set; } | Legt fest, ob ein Objekt als Symbol sichtbar ist. Lesen/SchreibenBoolean . |
-| [IsObjectLink](../../aspose.slides/oleobjectframe/isobjectlink) { get; } | Bestimmt, ob ein Objekt mit einer externen Datei verknüpft ist. SchreibgeschütztBoolean . |
-| [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Bestimmt, ob die Form TextHolder_PPT ist. SchreibgeschütztBoolean . |
-| virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Gibt das LineFormat-Objekt zurück, das Linienformatierungseigenschaften für eine Form enthält. Hinweis: Kann für bestimmte Arten von Formen, die keine Linieneigenschaften haben, null zurückgeben. Schreibgeschützt[`ILineFormat`](../ilineformat) . |
-| [LinkFileName](../../aspose.slides/oleobjectframe/linkfilename) { get; } | Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Es wird ein kurzer Dateiname verwendet. SchreibgeschütztString . |
-| [LinkPathLong](../../aspose.slides/oleobjectframe/linkpathlong) { get; set; } | Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Es wird ein langer Dateiname verwendet. Lesen/SchreibenString . |
-| [Name](../../aspose.slides/shape/name) { get; set; } | Gibt den Namen einer Form zurück oder legt ihn fest. Darf nicht null sein. Verwenden Sie bei Bedarf einen leeren Zeichenfolgenwert. Lesen/SchreibenString . |
-| [ObjectName](../../aspose.slides/oleobjectframe/objectname) { get; set; } | Gibt den Namen eines Objekts zurück oder legt ihn fest. Lesen/SchreibenString . |
-| [ObjectProgId](../../aspose.slides/oleobjectframe/objectprogid) { get; set; } | Gibt die ProgID eines Objekts zurück. Nur lesenString . |
-| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Ruft eine eindeutige Formkennung im Folienbereich ab. SchreibgeschütztUInt32 . Siehe auch[`UniqueId`](../shape/uniqueid) zum Abrufen einer eindeutigen Formkennung im Präsentationsbereich. |
-| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Gibt das übergeordnete GroupShape-Objekt zurück, wenn die Form gruppiert ist. Andernfalls wird null zurückgegeben. Schreibgeschützt[`IGroupShape`](../igroupshape) . |
-| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Gibt den Platzhalter für eine Form zurück. Gibt null zurück, wenn die Form keinen Platzhalter hat. Schreibgeschützt[`IPlaceholder`](../iplaceholder) . |
-| [Presentation](../../aspose.slides/shape/presentation) { get; } | Gibt die übergeordnete Präsentation einer Folie zurück. Schreibgeschützt[`IPresentation`](../ipresentation) . |
-| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Gibt die Eigenschaften des Rohformrahmens zurück oder legt sie fest. Lesen/Schreiben[`IShapeFrame`](../ishapeframe) . |
-| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | Gibt die Gradzahl zurück, um die die angegebene Form um die z-Achse gedreht wird, oder legt sie fest. Ein positiver Wert zeigt eine Drehung im Uhrzeigersinn an; ein negativer Wert zeigt eine Drehung gegen den Uhrzeigersinn an. Lesen/SchreibenSingle . |
-| [ShapeLock](../../aspose.slides/graphicalobject/shapelock) { get; } | Gibt die Sperren der Form zurück. Schreibgeschützt[`IGraphicalObjectLock`](../igraphicalobjectlock) . (2 properties) |
-| [Slide](../../aspose.slides/shape/slide) { get; } | Gibt die übergeordnete Folie einer Form zurück. Schreibgeschützt[`IBaseSlide`](../ibaseslide) . |
-| [SubstitutePictureFormat](../../aspose.slides/oleobjectframe/substitutepictureformat) { get; } | Gibt das OleObject-Bildfülleigenschaftenobjekt zurück. Schreibgeschützt[`IPictureFillFormat`](../ipicturefillformat) . |
-| [SubstitutePictureTitle](../../aspose.slides/oleobjectframe/substitutepicturetitle) { get; set; } | Gibt den Titel für das OleObject-Symbol zurück oder legt ihn fest. Lesen/SchreibenString . |
-| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Gibt das ThreeDFormat-Objekt zurück, das 3D-Effekteigenschaften für eine Form hat. Hinweis: Kann für bestimmte Arten von Formen, die keine 3D-Eigenschaften haben, null zurückgeben. Schreibgeschützt[`IThreeDFormat`](../ithreedformat) . |
-| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Ruft eine eindeutige Formkennung im Darstellungsbereich ab. SchreibgeschütztUInt32 . Siehe auch[`OfficeInteropShapeId`](../shape/officeinteropshapeid) zum Abrufen einer eindeutigen Formkennung im Folienbereich. |
-| [UpdateAutomatic](../../aspose.slides/oleobjectframe/updateautomatic) { get; set; } | Legt fest, ob das verknüpfte eingebettete Objekt automatisch aktualisiert wird, wenn die Präsentation geöffnet oder gedruckt wird. Lesen/SchreibenBoolean . |
-| [Width](../../aspose.slides/shape/width) { get; set; } | Gibt die Breite der Form zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| [X](../../aspose.slides/shape/x) { get; set; } | Gibt die x-Koordinate der oberen linken Ecke der Form zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| [Y](../../aspose.slides/shape/y) { get; set; } | Gibt die y-Koordinate der oberen linken Ecke der Form zurück oder legt sie fest. Lesen/SchreibenSingle . |
-| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | Gibt die Position einer Form in der Z-Reihenfolge zurück. Shapes[0] gibt die Form am Ende der Z-Reihenfolge zurück, und Shapes[Shapes.Count - 1] gibt die Form am Anfang der Z-Reihenfolge zurück. order. SchreibgeschütztInt32 . |
+| virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | Gibt das FillFormat-Objekt zurück, das die Füllformatierungseigenschaften für eine Form enthält. Hinweis: Kann für bestimmte Typen von Formen, die keine Fülleigenschaften haben, null zurückgeben. Nur Lesezugriff [`IFillFormat`](../ifillformat). |
+| [Frame](../../aspose.slides/shape/frame) { get; set; } | Gibt die Eigenschaften des Rahmens der Form zurück oder legt sie fest. Verfügbar für Lese- und Schreibzugriff [`IShapeFrame`](../ishapeframe). |
+| [GraphicalObjectLock](../../aspose.slides/graphicalobject/graphicalobjectlock) { get; } | Gibt die Sperren der Form zurück. Nur Lesezugriff [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [Height](../../aspose.slides/shape/height) { get; set; } | Gibt die Höhe der Form zurück oder legt sie fest. Verfügbar für Lese- und Schreibzugriff Single. |
+| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Bestimmt, ob die Form versteckt ist. Verfügbar für Lese- und Schreibzugriff Boolean. |
+| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Gibt den für den Mausklick definierten Hyperlink zurück oder legt ihn fest. Verfügbar für Lese- und Schreibzugriff [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Gibt den Hyperlink-Manager zurück. Nur Lesezugriff [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Gibt den für den Mouse-Over definierten Hyperlink zurück oder legt ihn fest. Verfügbar für Lese- und Schreibzugriff [`IHyperlink`](../ihyperlink). |
+| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | Ruft die „Als dekorativ markieren“-Option ab oder legt sie fest. Verfügbar für Lese- und Schreibzugriff Boolean. |
+| [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Bestimmt, ob die Form gruppiert ist. Nur Lesezugriff Boolean. |
+| [IsObjectIcon](../../aspose.slides/oleobjectframe/isobjecticon) { get; set; } | Bestimmt, ob ein Objekt als Symbol sichtbar ist. Verfügbar für Lese- und Schreibzugriff Boolean. |
+| [IsObjectLink](../../aspose.slides/oleobjectframe/isobjectlink) { get; } | Bestimmt, ob ein Objekt mit einer externen Datei verknüpft ist. Nur Lesezugriff Boolean. |
+| [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Bestimmt, ob die Form ein TextHolder_PPT ist. Nur Lesezugriff Boolean. |
+| virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Gibt das LineFormat-Objekt zurück, das die Linienformatierungseigenschaften für eine Form enthält. Hinweis: Kann für bestimmte Typen von Formen, die keine Linienspezifikationen haben, null zurückgeben. Nur Lesezugriff [`ILineFormat`](../ilineformat). |
+| [LinkFileName](../../aspose.slides/oleobjectframe/linkfilename) { get; } | Gibt den vollständigen Pfad zu einer verlinkten Datei zurück. Der kurze Dateiname wird verwendet. Nur Lesezugriff String. |
+| [LinkPathLong](../../aspose.slides/oleobjectframe/linkpathlong) { get; set; } | Gibt den vollständigen Pfad zu einer verlinkten Datei zurück. Der lange Dateiname wird verwendet. Verfügbar für Lese- und Schreibzugriff String. |
+| [LinkPathRelative](../../aspose.slides/oleobjectframe/linkpathrelative) { get; } | Gibt den relativen Pfad zu einer verlinkten Datei zurück, falls vorhanden, andernfalls wird ein leerer String zurückgegeben. Nur Lesezugriff String. |
+| [Name](../../aspose.slides/shape/name) { get; set; } | Gibt den Namen einer Form zurück oder legt ihn fest. Darf nicht null sein. Verwenden Sie bei Bedarf einen leeren Zeichenfolgenwert. Verfügbar für Lese- und Schreibzugriff String. |
+| [ObjectName](../../aspose.slides/oleobjectframe/objectname) { get; set; } | Gibt den Namen eines Objekts zurück oder legt ihn fest. Verfügbar für Lese- und Schreibzugriff String. |
+| [ObjectProgId](../../aspose.slides/oleobjectframe/objectprogid) { get; set; } | Gibt die ProgID eines Objekts zurück. Nur Lesezugriff String. |
+| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Ruft die eindeutige Formidentifikation im Folienkontext ab. Nur Lesezugriff UInt32. Siehe auch [`UniqueId`](../shape/uniqueid) zum Abrufen der eindeutigen Formidentifikation im Präsentationskontext. |
+| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Gibt das übergeordnete GroupShape-Objekt zurück, wenn die Form gruppiert ist. Andernfalls wird null zurückgegeben. Nur Lesezugriff [`IGroupShape`](../igroupshape). |
+| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Gibt den Platzhalter für eine Form zurück. Gibt null zurück, wenn die Form keinen Platzhalter hat. Nur Lesezugriff [`IPlaceholder`](../iplaceholder). |
+| [Presentation](../../aspose.slides/shape/presentation) { get; } | Gibt die übergeordnete Präsentation einer Folie zurück. Nur Lesezugriff [`IPresentation`](../ipresentation). |
+| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Gibt die Eigenschaften des Rohrahmens der Form zurück oder legt sie fest. Verfügbar für Lese- und Schreibzugriff [`IShapeFrame`](../ishapeframe). |
+| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | Gibt die Anzahl der Grad zurück oder legt sie fest, um die die angegebene Form um die z-Achse rotiert ist. Ein positiver Wert weist auf eine geschlossene Rotation hin; ein negativer Wert weist auf eine gegen den Uhrzeigersinn gerichtete Rotation hin. Verfügbar für Lese- und Schreibzugriff Single. |
+| [ShapeLock](../../aspose.slides/graphicalobject/shapelock) { get; } | Gibt die Sperren der Form zurück. Nur Lesezugriff [`IGraphicalObjectLock`](../igraphicalobjectlock). (2 Eigenschaften) |
+| [Slide](../../aspose.slides/shape/slide) { get; } | Gibt die übergeordnete Folie einer Form zurück. Nur Lesezugriff [`IBaseSlide`](../ibaseslide). |
+| [SubstitutePictureFormat](../../aspose.slides/oleobjectframe/substitutepictureformat) { get; } | Gibt das OleObject-Bildefflfüllformat-Objekt zurück. Nur Lesezugriff [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/oleobjectframe/substitutepicturetitle) { get; set; } | Gibt den Titel für das OleObject-Symbol zurück oder legt ihn fest. Verfügbar für Lese- und Schreibzugriff String. |
+| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Gibt das ThreeDFormat-Objekt zurück, das 3D-Effekteigenschaften für eine Form enthält. Hinweis: Kann für bestimmte Typen von Formen, die keine 3D-Eigenschaften haben, null zurückgeben. Nur Lesezugriff [`IThreeDFormat`](../ithreedformat). |
+| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Ruft die eindeutige Formidentifikation im Präsentationskontext ab. Nur Lesezugriff UInt32. Siehe auch [`OfficeInteropShapeId`](../shape/officeinteropshapeid) zum Abrufen der eindeutigen Formidentifikation im Folienkontext. |
+| [UpdateAutomatic](../../aspose.slides/oleobjectframe/updateautomatic) { get; set; } | Bestimmt, ob das verlinkte eingebettete Objekt automatisch aktualisiert wird, wenn die Präsentation geöffnet oder gedruckt wird. Verfügbar für Lese- und Schreibzugriff Boolean. |
+| [Width](../../aspose.slides/shape/width) { get; set; } | Gibt die Breite der Form zurück oder legt sie fest. Verfügbar für Lese- und Schreibzugriff Single. |
+| [X](../../aspose.slides/shape/x) { get; set; } | Gibt die x-Koordinate der oberen linken Ecke der Form zurück oder legt sie fest. Verfügbar für Lese- und Schreibzugriff Single. |
+| [Y](../../aspose.slides/shape/y) { get; set; } | Gibt die y-Koordinate der oberen linken Ecke der Form zurück oder legt sie fest. Verfügbar für Lese- und Schreibzugriff Single. |
+| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | Gibt die Position einer Form in der Z-Reihenfolge zurück. Shapes[0] gibt die Form am unteren Ende der Z-Reihenfolge zurück, und Shapes[Shapes.Count - 1] gibt die Form an der Spitze der Z-Reihenfolge zurück. Nur Lesezugriff Int32. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Fügt einen neuen Platzhalter hinzu, wenn keiner vorhanden ist, und setzt die Platzhaltereigenschaften auf einen angegebenen. |
-| [GetThumbnail](../../aspose.slides/shape/getthumbnail)() | Gibt Form-Miniaturansicht zurück. ShapeThumbnailBounds.Shape Form-Miniatur-Umgrenzungstyp wird standardmäßig verwendet. |
-| [GetThumbnail](../../aspose.slides/shape/getthumbnail)(ShapeThumbnailBounds, float, float) | Gibt Miniaturansicht der Form zurück. |
+| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Fügt einen neuen Platzhalter hinzu, wenn keiner vorhanden ist, und legt die Platzhaltereigenschaften auf einen bestimmten Wert fest. |
+| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Gibt eine grundlegende Platzhalterform zurück (eine Form aus dem Layout und/oder der Masterfolie, von der die aktuelle Form abgeleitet ist). Ein Nullwert wird zurückgegeben, wenn die aktuelle Form nicht abgeleitet ist. |
+| [GetImage](../../aspose.slides/shape/getimage)() | Gibt das Miniaturbild der Form zurück. Der Typ ShapeThumbnailBounds.Shape wird standardmäßig verwendet. |
+| [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | Gibt das Miniaturbild der Form zurück. |
 | [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Definiert, dass diese Form kein Platzhalter ist. |
-| [SetEmbeddedData](../../aspose.slides/oleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Legt Informationen zu eingebetteten OLE-Daten fest.  Diese Methode ändert die Eigenschaften des Objekts, um die neuen Daten widerzuspiegeln, und setzt das IsObjectLink-Flag auf „false“, was anzeigt, dass das OLE-Objekt eingebettet ist. |
-| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Speichert den Inhalt von Shape als SVG-Datei. |
-| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Speichert den Inhalt von Shape als SVG-Datei. |
+| [SetEmbeddedData](../../aspose.slides/oleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Legt Informationen über OLE-eingebettete Daten fest. Diese Methode ändert die Eigenschaften des Objekts, um die neuen Daten widerzuspiegeln, und setzt das IsObjectLink-Flag auf false, was anzeigt, dass das OLE-Objekt eingebettet ist. |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Speichert den Inhalt der Form als SVG-Datei. |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Speichert den Inhalt der Form als SVG-Datei. |
+
+### Beispiele
+
+Das folgende Beispiel zeigt, wie auf OLE-Objektrahmen zugegriffen wird.
+
+```csharp
+[C#]
+// Lädt die PPTX in ein Präsentationsobjekt
+using (Presentation pres = new Presentation("AccessingOLEObjectFrame.pptx"))
+{
+    // Greift auf die erste Folie zu
+    ISlide sld = pres.Slides[0];
+    // Wandelt die Form in OleObjectFrame um
+    OleObjectFrame oleObjectFrame = sld.Shapes[0] as OleObjectFrame;
+    // Liest das OLE-Objekt und schreibt es auf die Festplatte
+    if (oleObjectFrame != null)
+    {
+        // Ruft die eingebetteten Dateidaten ab
+        byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+        // Ruft die Erweiterung der eingebetteten Datei ab
+        string fileExtention = oleObjectFrame.EmbeddedData.EmbeddedFileExtension;
+        // Erstellt einen Pfad zum Speichern der extrahierten Datei
+        string extractedPath = "excelFromOLE_out" + fileExtention;
+        // Speichert die extrahierten Daten
+        using (FileStream fstr = new FileStream(extractedPath, FileMode.Create, FileAccess.Write))
+        {
+            fstr.Write(data, 0, data.Length);
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [GraphicalObject](../graphicalobject)
-* interface [IOleObjectFrame](../ioleobjectframe)
-* namensraum [Aspose.Slides](../../aspose.slides)
-* Montage [Aspose.Slides](../../)
+* Klasse [GraphicalObject](../graphicalobject)
+* Schnittstelle [IOleObjectFrame](../ioleobjectframe)
+* Namespace [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

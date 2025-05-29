@@ -1,12 +1,13 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Этот конструктор создает новую ссылку на библиотеку типов OLE Automation.
 type: docs
 weight: 10
 url: /ru/aspose.slides.vba/vbareferenceoletypelib/vbareferenceoletypelib/
 ---
-## VbaReferenceOleTypeLib constructor
+
+## Конструктор VbaReferenceOleTypeLib
 
 Этот конструктор создает новую ссылку на библиотеку типов OLE Automation.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.vba/vbareferenceoletypelib/vbareferenceoletypelib/
 public VbaReferenceOleTypeLib(string name, string libid)
 ```
 
-### Смотрите также
+### См. Также
 
-* class [VbaReferenceOleTypeLib](../../vbareferenceoletypelib)
+* класс [VbaReferenceOleTypeLib](../../vbareferenceoletypelib)
 * пространство имен [Aspose.Slides.Vba](../../vbareferenceoletypelib)
 * сборка [Aspose.Slides](../../../)
 

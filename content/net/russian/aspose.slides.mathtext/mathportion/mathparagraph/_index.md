@@ -1,12 +1,13 @@
 ---
 title: MathParagraph
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Математический параграф
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathportion/mathparagraph/
 ---
-## MathPortion.MathParagraph property
+
+## MathPortion.MathParagraph свойство
 
 Математический параграф
 
@@ -28,10 +29,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IMathParagraph](../../imathparagraph)
-* class [MathPortion](../../mathportion)
+* интерфейс [IMathParagraph](../../imathparagraph)
+* класс [MathPortion](../../mathportion)
 * пространство имен [Aspose.Slides.MathText](../../mathportion)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
-title: Hue
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает оттенок. Только для чтенияSingle.
+title: Оттенок
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает оттенок. Только для чтения Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/itinteffectivedata/hue/
 ---
-## ITintEffectiveData.Hue property
 
-Возвращает оттенок. Только для чтенияSingle.
+## ITintEffectiveData.Hue свойство
+
+Возвращает оттенок. Только для чтения Single.
 
 ```csharp
 public float Hue { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITintEffectiveData](../../itinteffectivedata)
+* интерфейс [ITintEffectiveData](../../itinteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../itinteffectivedata)
 * сборка [Aspose.Slides](../../../)
 

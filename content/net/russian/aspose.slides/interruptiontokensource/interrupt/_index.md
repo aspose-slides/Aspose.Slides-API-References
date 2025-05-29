@@ -1,12 +1,13 @@
 ---
-title: Interrupt
+title: Прерывание
 second_title: Справочник по API Aspose.Slides для .NET
 description: Инициализировать запрос на прерывание.
 type: docs
 weight: 40
 url: /ru/aspose.slides/interruptiontokensource/interrupt/
 ---
-## InterruptionTokenSource.Interrupt method
+
+## Метод InterruptionTokenSource.Interrupt
 
 Инициализировать запрос на прерывание.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/interruptiontokensource/interrupt/
 public void Interrupt()
 ```
 
-### Смотрите также
+### См. также
 
-* class [InterruptionTokenSource](../../interruptiontokensource)
+* класс [InterruptionTokenSource](../../interruptiontokensource)
 * пространство имен [Aspose.Slides](../../interruptiontokensource)
 * сборка [Aspose.Slides](../../../)
 

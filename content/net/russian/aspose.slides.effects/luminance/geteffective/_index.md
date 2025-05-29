@@ -1,14 +1,15 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает данные об эффективном эффекте яркости с применением наследования.
+description: Получает данные о действительном эффекте яркости с применением наследования.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/luminance/geteffective/
 ---
-## Luminance.GetEffective method
 
-Получает данные об эффективном эффекте яркости с применением наследования.
+## Метод Luminance.GetEffective
+
+Получает данные о действительном эффекте яркости с применением наследования.
 
 ```csharp
 public ILuminanceEffectiveData GetEffective()
@@ -16,12 +17,12 @@ public ILuminanceEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`ILuminanceEffectiveData`](../../iluminanceeffectivedata).
+[`ILuminanceEffectiveData`](../../iluminanceeffectivedata).
 
-### Смотрите также
+### Также см.
 
-* interface [ILuminanceEffectiveData](../../iluminanceeffectivedata)
-* class [Luminance](../../luminance)
+* интерфейс [ILuminanceEffectiveData](../../iluminanceeffectivedata)
+* класс [Luminance](../../luminance)
 * пространство имен [Aspose.Slides.Effects](../../luminance)
 * сборка [Aspose.Slides](../../../)
 

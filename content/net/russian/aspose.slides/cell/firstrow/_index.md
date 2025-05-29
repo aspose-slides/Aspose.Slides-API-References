@@ -1,23 +1,24 @@
 ---
 title: FirstRow
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает первую строку ячейки. Только для чтенияIRowaspose.slides/irow.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Получает первую строку ячейки. Только для чтения IRowaspose.slides/irow.
 type: docs
 weight: 60
 url: /ru/aspose.slides/cell/firstrow/
 ---
-## Cell.FirstRow property
 
-Получает первую строку ячейки. Только для чтения[`IRow`](../../irow).
+## Свойство Cell.FirstRow
+
+Получает первую строку ячейки. Только для чтения [`IRow`](../../irow).
 
 ```csharp
 public IRow FirstRow { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* interface [IRow](../../irow)
-* class [Cell](../../cell)
+* интерфейс [IRow](../../irow)
+* класс [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)
 * сборка [Aspose.Slides](../../../)
 

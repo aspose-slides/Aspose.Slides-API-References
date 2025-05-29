@@ -1,14 +1,15 @@
 ---
 title: DefaultDelay
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или устанавливает время задержки по умолчанию мс. Это значение будет использоваться еслиAdvanceAfterTimeaspose.slides/islideshowtransition/advanceaftertimeне установлено. Значение по умолчанию 1000.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или устанавливает время задержки по умолчанию в мс. Это значение будет использоваться, если AdvanceAfterTimeaspose.slides/../aspose.slides/islideshowtransition/advanceaftertime не задано. Значение по умолчанию - 1000.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/igifoptions/defaultdelay/
 ---
-## IGifOptions.DefaultDelay property
 
-Получает или устанавливает время задержки по умолчанию [мс]. Это значение будет использоваться, если[`AdvanceAfterTime`](../../../aspose.slides/islideshowtransition/advanceaftertime)не установлено. Значение по умолчанию 1000.
+## Свойство IGifOptions.DefaultDelay
+
+Получает или устанавливает время задержки по умолчанию [мс]. Это значение будет использоваться, если [`AdvanceAfterTime`](../../../aspose.slides/islideshowtransition/advanceaftertime) не задано. Значение по умолчанию - 1000.
 
 ```csharp
 public int DefaultDelay { get; set; }
@@ -24,9 +25,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IGifOptions](../../igifoptions)
+* интерфейс [IGifOptions](../../igifoptions)
 * пространство имен [Aspose.Slides.Export](../../igifoptions)
 * сборка [Aspose.Slides](../../../)
 

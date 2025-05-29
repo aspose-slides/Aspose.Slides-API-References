@@ -1,14 +1,15 @@
 ---
-title: Equals
+title: Равно
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равны ли два экземпляра IBaseSlide. Возвращаемое значение рассчитывается на основе структуры слайда и статического содержимого. Два слайда равны если все формы стили тексты анимация и другие настройки. и т. д. равны. При сравнении не учитываются значения уникальных идентификаторов например SlideId и динамическое содержимое например текущее значение даты в заполнителе даты.
+description: Определяет, равны ли два экземпляра IBaseSlide. Возвращаемое значение вычисляется на основе структуры слайдов и статического содержания. Два слайда равны, если все стили форм, тексты, анимация и другие настройки и т.д. равны. Сравнение не учитывает уникальные идентификаторы, такие как SlideId, и динамическое содержание, например, текущее значение даты в Date Placeholder.
 type: docs
 weight: 130
 url: /ru/aspose.slides/baseslide/equals/
 ---
-## BaseSlide.Equals method
 
-Определяет, равны ли два экземпляра IBaseSlide. Возвращаемое значение рассчитывается на основе структуры слайда и статического содержимого. Два слайда равны, если все формы, стили, тексты, анимация и другие настройки. и т. д. равны. При сравнении не учитываются значения уникальных идентификаторов, например SlideId, и динамическое содержимое, например текущее значение даты в заполнителе даты.
+## Метод BaseSlide.Equals
+
+Определяет, равны ли два экземпляра IBaseSlide. Возвращаемое значение вычисляется на основе структуры слайда и статического содержания. Два слайда равны, если все формы, стили, тексты, анимация и другие настройки и т.д. равны. Сравнение не учитывает уникальные идентификаторы, такие как SlideId, и динамическое содержание, например, текущее значение даты в Date Placeholder.
 
 ```csharp
 public bool Equals(IBaseSlide slide)
@@ -16,16 +17,38 @@ public bool Equals(IBaseSlide slide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| slide | IBaseSlide | IBaseSlide для сравнения с текущим IBaseSlide. |
+| slide | IBaseSlide | IBaseSlide, с которым нужно сравнить текущий IBaseSlide. |
 
-### Возвращаемое значение
+### Значение, которое возвращается
 
-**true** если указанный IBaseSlide равен текущему IBaseSlide; иначе, **false** .
+**true**, если указанный IBaseSlide равен текущему IBaseSlide; в противном случае **false**.
 
-### Смотрите также
+### Примеры
 
-* interface [IBaseSlide](../../ibaseslide)
-* class [BaseSlide](../../baseslide)
+Следующий пример показывает, как сравнить два слайда.
+
+```csharp
+[C#]
+using (Presentation presentation1 = new Presentation("AccessSlides.pptx"))
+{
+	using (Presentation presentation2 = new Presentation("HelloWorld.pptx"))
+	{
+		for (int i = 0; i < presentation1.Masters.Count; i++)
+		{
+			for (int j = 0; j < presentation2.Masters.Count; j++)
+			{
+				if (presentation1.Masters[i].Equals(presentation2.Masters[j]))
+					Console.WriteLine(string.Format("SomePresentation1 MasterSlide#{0} равен SomePresentation2 MasterSlide#{1}", i, j));
+			}
+		}
+	}
+}
+```
+
+### См. также
+
+* интерфейс [IBaseSlide](../../ibaseslide)
+* класс [BaseSlide](../../baseslide)
 * пространство имен [Aspose.Slides](../../baseslide)
 * сборка [Aspose.Slides](../../../)
 

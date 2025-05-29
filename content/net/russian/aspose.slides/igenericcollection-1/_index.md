@@ -1,14 +1,15 @@
 ---
 title: IGenericCollectionT
 second_title: Справочник по API Aspose.Slides для .NET
-description: Вспомогательный общий интерфейс коллекции.
+description: Вспомогательный интерфейс обобщенной коллекции.
 type: docs
-weight: 5430
+weight: 5760
 url: /ru/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection&lt;T&gt; interface
 
-Вспомогательный общий интерфейс коллекции.
+## Интерфейс IGenericCollection&lt;T&gt;
+
+Вспомогательный интерфейс обобщенной коллекции.
 
 ```csharp
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
@@ -18,14 +19,14 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | --- | --- |
 | T |  |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | Возвращает интерфейс ICollection. |
-| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
 
-### Смотрите также
+### Также см. 
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

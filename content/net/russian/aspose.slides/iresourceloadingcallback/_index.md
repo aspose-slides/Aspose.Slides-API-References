@@ -1,12 +1,13 @@
 ---
 title: IResourceLoadingCallback
-second_title: Справочник по API Aspose.Slides для .NET
-description: Интерфейс обратного вызова используемый для управления загрузкой внешних ресурсов.
+second_title: Aspose.Slides для .NET API Справочник
+description: Интерфейс обратного вызова, используемый для управления загрузкой внешних ресурсов.
 type: docs
-weight: 6280
+weight: 6640
 url: /ru/aspose.slides/iresourceloadingcallback/
 ---
-## IResourceLoadingCallback interface
+
+## Интерфейс IResourceLoadingCallback
 
 Интерфейс обратного вызова, используемый для управления загрузкой внешних ресурсов.
 
@@ -18,9 +19,9 @@ public interface IResourceLoadingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | Метод обратного вызова, регулирующий загрузку внешних ресурсов. |
+| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | Метод обратного вызова, который регулирует загрузку внешних ресурсов. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

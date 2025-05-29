@@ -1,22 +1,23 @@
 ---
 title: ShowConnectorLines
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет соединительные линии. Применяется только к диаграммам водопада.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет соединительные линии. Применяется только к водопадным диаграммам.
 type: docs
 weight: 370
 url: /ru/aspose.slides.charts/chartseries/showconnectorlines/
 ---
-## ChartSeries.ShowConnectorLines property
 
-Представляет соединительные линии. Применяется только к диаграммам водопада.
+## ChartSeries.ShowConnectorLines свойство
+
+Представляет соединительные линии. Применяется только к водопадным диаграммам.
 
 ```csharp
 public bool ShowConnectorLines { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartSeries](../../chartseries)
+* класс [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: X
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает X-смещение изображения. Только для чтенияInt32.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает значение смещения X изображения. Только для чтения Int32.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ppimage/x/
 ---
-## PPImage.X property
 
-Возвращает X-смещение изображения. Только для чтенияInt32.
+## Свойство PPImage.X
+
+Возвращает значение смещения X изображения. Только для чтения Int32.
 
 ```csharp
 public int X { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [PPImage](../../ppimage)
+* класс [PPImage](../../ppimage)
 * пространство имен [Aspose.Slides](../../ppimage)
 * сборка [Aspose.Slides](../../../)
 

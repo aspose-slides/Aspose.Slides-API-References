@@ -1,14 +1,15 @@
 ---
-title: Shape
-second_title: Справочник по API Aspose.Slides для .NET
-description: Итерировать каждыйShapeaspose.slides.lowcode/foreach/shapeвPresentationaspose.slides/presentation.  Формы будут повторяться во всех типах слайдов -Slideaspose.slides.lowcode/foreach/slideMasterSlideaspose.slides.lowcode/foreach/masterslideиLayoutSlideaspose.slides.lowcode/foreach/layoutslide
+title: Фигура
+second_title: Aspose.Slides для .NET API Справочник
+description: Итерация каждой Фигуры aspose.slides.lowcode/foreach/shape в Презентации aspose.slides/presentation. Фигуры будут итерироваться на всех типах слайдов - Слайд aspose.slides.lowcode/foreach/slide, ГлавныйСлайд aspose.slides.lowcode/foreach/masterslide и МакетныйСлайд aspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 50
 url: /ru/aspose.slides.lowcode/foreach/shape/
 ---
-## Shape(Presentation, ForEachShapeCallback) {#shape_1}
 
-Итерировать каждый`Shape`в[`Presentation`](../../../aspose.slides/presentation).  Формы будут повторяться во всех типах слайдов -[`Slide`](../slide),[`MasterSlide`](../masterslide)и[`LayoutSlide`](../layoutslide):
+## Shape(Presentation, ForEachShapeCallback) {#shape_2}
+
+Итерация каждой `Shape` в [`Presentation`](../../../aspose.slides/presentation). Фигуры будут итерироваться на всех типах слайдов - [`Slide`](../slide), [`MasterSlide`](../masterslide) и [`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
@@ -16,8 +17,8 @@ public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Презентация для повторения форм макета |
-| forEachShape | ForEachShapeCallback | Обратный вызов, который будет вызываться для каждой формы |
+| pres | Presentation | Презентация для итерации по макетным фигурам |
+| forEachShape | ForEachShapeCallback | Колбек, который будет вызван для каждой фигуры |
 
 ### Примеры
 
@@ -31,11 +32,47 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Смотрите также
+### См. Также
 
-* class [Presentation](../../../aspose.slides/presentation)
-* delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)
-* class [ForEach](../../foreach)
+* класс [Presentation](../../../aspose.slides/presentation)
+* делегат [ForEachShapeCallback](../../foreach.foreachshapecallback)
+* класс [ForEach](../../foreach)
+* пространство имен [Aspose.Slides.LowCode](../../foreach)
+* сборка [Aspose.Slides](../../../)
+
+---
+
+## Shape(Presentation, bool, ForEachShapeCallback) {#shape_1}
+
+Итерация каждой [`Shape`](../shape) в [`Presentation`](../../../aspose.slides/presentation). Фигуры будут итерироваться на всех типах слайдов - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) и [`NotesSlide`](../../../aspose.slides/notesslide), если необходимо.
+
+```csharp
+public static void Shape(Presentation pres, bool includeNotes, ForEachShapeCallback forEachShape)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| pres | Presentation | Презентация для итерации по макетным фигурам |
+| includeNotes | Boolean | Флаг, указывающий, должны ли NotesSlides быть включены в обработку. |
+| forEachShape | ForEachShapeCallback | Колбек, который будет вызван для каждой фигуры |
+
+### Примеры
+
+```csharp
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    ForEach.Shape(pres, true, (shape, slide, index) => 
+    {
+        System.Console.WriteLine($"{shape.Name}, index: {index}");
+    });
+} 
+```
+
+### См. Также
+
+* класс [Presentation](../../../aspose.slides/presentation)
+* делегат [ForEachShapeCallback](../../foreach.foreachshapecallback)
+* класс [ForEach](../../foreach)
 * пространство имен [Aspose.Slides.LowCode](../../foreach)
 * сборка [Aspose.Slides](../../../)
 
@@ -43,7 +80,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Shape(BaseSlide, ForEachShapeCallback) {#shape}
 
-Итерировать каждый[`Shape`](../shape)в[`BaseSlide`](../../../aspose.slides/baseslide). [`BaseSlide`](../../../aspose.slides/baseslide)является базовым типом дляForEachSlideCallback),[`MasterSlide`](../masterslide)и[`LayoutSlide`](../layoutslide)
+Итерация каждой [`Shape`](../shape) в [`BaseSlide`](../../../aspose.slides/baseslide). [`BaseSlide`](../../../aspose.slides/baseslide) является базовым типом для [`Slide`](../slide), [`MasterSlide`](../masterslide) и [`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
@@ -51,8 +88,8 @@ public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseSlide | BaseSlide | Слайд для повторения форм макета |
-| forEachShape | ForEachShapeCallback | Обратный вызов, который будет вызываться для каждая фигура |
+| baseSlide | BaseSlide | Слайд для итерации по макетным фигурам |
+| forEachShape | ForEachShapeCallback | Колбек, который будет вызван для каждой фигуры |
 
 ### Примеры
 
@@ -69,11 +106,11 @@ public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
 } 
 ```
 
-### Смотрите также
+### См. Также
 
-* class [BaseSlide](../../../aspose.slides/baseslide)
-* delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)
-* class [ForEach](../../foreach)
+* класс [BaseSlide](../../../aspose.slides/baseslide)
+* делегат [ForEachShapeCallback](../../foreach.foreachshapecallback)
+* класс [ForEach](../../foreach)
 * пространство имен [Aspose.Slides.LowCode](../../foreach)
 * сборка [Aspose.Slides](../../../)
 

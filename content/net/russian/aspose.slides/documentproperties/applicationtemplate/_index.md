@@ -1,22 +1,23 @@
 ---
 title: ApplicationTemplate
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает шаблон приложения. Чтение/записьString.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает шаблон приложения. Читаемый/записываемый String.
 type: docs
 weight: 20
 url: /ru/aspose.slides/documentproperties/applicationtemplate/
 ---
-## DocumentProperties.ApplicationTemplate property
 
-Возвращает или задает шаблон приложения. Чтение/записьString.
+## Свойство DocumentProperties.ApplicationTemplate
+
+Возвращает или устанавливает шаблон приложения. Читаемый/записываемый String.
 
 ```csharp
 public string ApplicationTemplate { get; set; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
-* class [DocumentProperties](../../documentproperties)
+* класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

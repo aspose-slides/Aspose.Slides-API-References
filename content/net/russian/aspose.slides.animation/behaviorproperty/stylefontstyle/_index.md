@@ -6,7 +6,8 @@ type: docs
 weight: 1080
 url: /ru/aspose.slides.animation/behaviorproperty/stylefontstyle/
 ---
-## BehaviorProperty.StyleFontStyle property
+
+## Свойство BehaviorProperty.StyleFontStyle
 
 Представляет свойство 'style.fontStyle'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/stylefontstyle/
 public static BehaviorProperty StyleFontStyle { get; }
 ```
 
-### Смотрите также
+### Также смотри
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

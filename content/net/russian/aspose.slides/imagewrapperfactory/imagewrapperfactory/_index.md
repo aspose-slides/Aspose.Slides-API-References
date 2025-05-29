@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides/imagewrapperfactory/imagewrapperfactory/
 ---
-## ImageWrapperFactory constructor
+
+## Конструктор ImageWrapperFactory
 
 Конструктор по умолчанию.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/imagewrapperfactory/imagewrapperfactory/
 public ImageWrapperFactory()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [ImageWrapperFactory](../../imagewrapperfactory)
+* класс [ImageWrapperFactory](../../imagewrapperfactory)
 * пространство имен [Aspose.Slides](../../imagewrapperfactory)
 * сборка [Aspose.Slides](../../../)
 

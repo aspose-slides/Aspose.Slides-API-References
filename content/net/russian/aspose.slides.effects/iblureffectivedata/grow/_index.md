@@ -1,22 +1,23 @@
 ---
-title: Grow
+title: Увеличить
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет должны ли границы объекта увеличиваться в результате размытия. True указывает что границы увеличиваются а false указывает что это не так. Только чтениеBoolean.
+description: Определяет, должны ли границы объекта увеличиваться в результате размытия. Значение true указывает, что границы увеличиваются, в то время как значение false указывает, что они не увеличиваются. Только для чтения Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/iblureffectivedata/grow/
 ---
-## IBlurEffectiveData.Grow property
 
-Определяет, должны ли границы объекта увеличиваться в результате размытия. True указывает, что границы увеличиваются, а false указывает, что это не так. Только чтениеBoolean.
+## IBlurEffectiveData.Grow свойство
+
+Определяет, должны ли границы объекта увеличиваться в результате размытия. Значение true указывает, что границы увеличиваются, в то время как значение false указывает, что они не увеличиваются. Только для чтения Boolean.
 
 ```csharp
 public bool Grow { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IBlurEffectiveData](../../iblureffectivedata)
+* интерфейс [IBlurEffectiveData](../../iblureffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../iblureffectivedata)
 * сборка [Aspose.Slides](../../../)
 

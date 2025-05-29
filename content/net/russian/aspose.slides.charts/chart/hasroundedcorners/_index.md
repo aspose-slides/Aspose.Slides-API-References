@@ -1,22 +1,23 @@
 ---
 title: HasRoundedCorners
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает что область диаграммы должна иметь закругленные углы. Чтение/записьBoolean.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Указывает, что область диаграммы должна иметь закругленные углы. Доступно для чтения/записи Boolean.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/chart/hasroundedcorners/
 ---
-## Chart.HasRoundedCorners property
 
-Указывает, что область диаграммы должна иметь закругленные углы. Чтение/записьBoolean.
+## Свойство Chart.HasRoundedCorners
+
+Указывает, что область диаграммы должна иметь закругленные углы. Доступно для чтения/записи Boolean.
 
 ```csharp
 public bool HasRoundedCorners { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Chart](../../chart)
+* класс [Chart](../../chart)
 * пространство имен [Aspose.Slides.Charts](../../chart)
 * сборка [Aspose.Slides](../../../)
 

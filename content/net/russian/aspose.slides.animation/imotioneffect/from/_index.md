@@ -1,22 +1,23 @@
 ---
-title: From
+title: Из
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает координату x/y для начала анимации в процентах. Чтение/записьPointF.
+description: Указывает координату x/y, с которой начинается анимация в процентах. Чтение/запись PointF.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/imotioneffect/from/
 ---
-## IMotionEffect.From property
 
-Указывает координату x/y для начала анимации (в процентах). Чтение/записьPointF.
+## Свойство IMotionEffect.From
+
+Указывает координату x/y, с которой начинается анимация (в процентах). Чтение/запись PointF.
 
 ```csharp
 public PointF From { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMotionEffect](../../imotioneffect)
+* интерфейс [IMotionEffect](../../imotioneffect)
 * пространство имен [Aspose.Slides.Animation](../../imotioneffect)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,29 +1,30 @@
 ---
 title: IChartComponent
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет компонент диаграммы.
+second_title: Aspose.Slides для .NET API справочник
+description: Представляет компонент графика.
 type: docs
-weight: 1650
+weight: 1710
 url: /ru/aspose.slides.charts/ichartcomponent/
 ---
-## IChartComponent interface
 
-Представляет компонент диаграммы.
+## Интерфейс IChartComponent
+
+Представляет компонент графика.
 
 ```csharp
 public interface IChartComponent : ISlideComponent
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Возвращает диаграмму. Только для чтения[`IChart`](../ichart). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Возвращает график. Только для чтения [`IChart`](../ichart). |
 
-### Смотрите также
+### См. также
 
-* interface [ISlideComponent](../../aspose.slides/islidecomponent)
+* интерфейс [ISlideComponent](../../aspose.slides/islidecomponent)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

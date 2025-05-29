@@ -1,37 +1,40 @@
 ---
 title: ILoadOptions
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет указать дополнительные параметры например формат или шрифт по умолчанию при загрузке презентации.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет задавать дополнительные параметры, такие как формат или шрифт по умолчанию, при загрузке презентации.
 type: docs
-weight: 5780
+weight: 6140
 url: /ru/aspose.slides/iloadoptions/
 ---
-## ILoadOptions interface
 
-Позволяет указать дополнительные параметры (например, формат или шрифт по умолчанию) при загрузке презентации.
+## Интерфейс ILoadOptions
+
+Позволяет задавать дополнительные параметры (такие как формат или шрифт по умолчанию) при загрузке презентации.
 
 ```csharp
 public interface ILoadOptions
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Представляет параметры, которые можно использовать для управления поведением обработки больших двоичных объектов (BLOB), например, использование временных файлов или максимальное количество байтов BLOB. в памяти. Эти параметры предназначены для установки наилучшего соотношения производительности и потребления памяти для конкретной среды или требований.  Большой двоичный объект (BLOB) представляет собой двоичные данные, хранящиеся как единое целое, т.е. BLOB может быть аудио, видео или самой презентацией . |
-| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Возвращает или устанавливает азиатский шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
-| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает обычный шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
-| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Возвращает или устанавливает символьный шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
-| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Указывает источники внешних шрифтов, которые будут использоваться презентацией. Эти шрифты доступны для презентации в течение всего времени ее существования и не используются совместно с другими презентациями |
-| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Маркер для отслеживания запросов прерывания.  Этот токен управляет всем[`IPresentation`](../ipresentation)временем существования экземпляра. Любая длительная операция, такая как презентация загрузка или сохранение, будет прервана вызовом метода[`Interrupt`](../iinterruptiontokensource/interrupt) the[`IInterruptionTokenSource`](../iinterruptiontokensource). |
-| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Возвращает или задает формат загружаемой презентации. Чтение/запись[`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Это свойство имеет смысл, если файл презентации защищен паролем. Значение true означает, что из зашифрованного файла презентации должны быть загружены только свойства документа, а пароль должен игнорироваться. Значение false означает, что вся зашифрованная презентация должна загружаться с использованием правильного пароля. Если презентация не зашифрована, то значение свойства всегда игнорируется. Если свойства документа зашифрованного файла не являются общедоступными и значение свойства равно true, то свойства документа не могут быть загружены, и будет выдано исключение. Чтение-записьBoolean. |
-| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Получает или задает пароль. Чтение-записьString. |
-| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Возвращает или задает интерфейс обратного вызова, управляющий загрузкой внешних ресурсов. Чтение/запись[`IResourceLoadingCallback`](../iresourceloadingcallback). |
-| [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | Представляет параметры, которые можно использовать для указания дополнительного поведения электронных таблиц. |
-| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Представляет параметры, которые можно использовать для управления поведением обработки бинарных больших объектов (BLOB), такими как использование временных файлов или максимальный размер BLOB в памяти. Эти параметры предназначены для настройки наилучшего соотношения производительности и потребления памяти для конкретной среды или требований. Бинарный большой объект (BLOB) - это бинарные данные, хранящиеся как единое целое, т.е. BLOB может быть аудио, видео или самой презентацией. |
+| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Возвращает или устанавливает азиатский шрифт, используемый в случае, если исходный шрифт не найден. Читаемая и записываемая строка. |
+| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает обычный шрифт, используемый в случае, если исходный шрифт не найден. Читаемая и записываемая строка. |
+| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Возвращает или устанавливает символический шрифт, используемый в случае, если исходный шрифт не найден. Читаемая и записываемая строка. |
+| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Возвращает или устанавливает язык по умолчанию для текста презентации. Читаемая и записываемая строка. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Определяет, будет ли Aspose.Slides удалять все встроенные бинарные объекты при загрузке презентации. |
+| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Указывает источники для внешних шрифтов, которые будут использоваться презентацией. Эти шрифты доступны для презентации в течение всего ее времени жизни и не разделяются с другими презентациями. |
+| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Токен для мониторинга запросов на прерывание. Этот токен управляет всей продолжительностью экземпляра [`IPresentation`](../ipresentation). Любая длительная операция, такая как загрузка или сохранение презентации, будет прервана вызовом метода [`Interrupt`](../iinterruptiontokensource/interrupt) интерфейса [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Возвращает или устанавливает формат презентации для загрузки. Читаемое и записываемое значение типа [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Это свойство имеет смысл, если файл презентации защищен паролем. Значение true означает, что необходимо загрузить только свойства документа из зашифрованного файла презентации, а пароль должен быть проигнорирован. Значение false означает, что вся зашифрованная презентация должна быть загружена с использованием правильного пароля. Если презентация не зашифрована, значение свойства всегда игнорируется. Если свойства документа зашифрованного файла не являются общими, а значение свойства true, то свойства документа не могут быть загружены, и будет выброшено исключение. Читаемое и записываемое значение типа Boolean. |
+| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Получает или устанавливает пароль. Читаемая и записываемая строка. |
+| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Возвращает или устанавливает интерфейс обратного вызова, который управляет загрузкой внешних ресурсов. Читаемое и записываемое значение типа [`IResourceLoadingCallback`](../iresourceloadingcallback). |
+| [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | Представляет параметры, которые можно использовать для задания дополнительного поведения электронных таблиц. |
+| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Читаемое и записываемое значение типа [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

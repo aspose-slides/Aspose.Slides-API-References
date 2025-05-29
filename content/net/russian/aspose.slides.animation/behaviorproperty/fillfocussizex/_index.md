@@ -6,7 +6,8 @@ type: docs
 weight: 330
 url: /ru/aspose.slides.animation/behaviorproperty/fillfocussizex/
 ---
-## BehaviorProperty.FillFocusSizeX property
+
+## Свойство BehaviorProperty.FillFocusSizeX
 
 Представляет свойство 'fill.focussize.x'
 
@@ -16,7 +17,7 @@ public static BehaviorProperty FillFocusSizeX { get; }
 
 ### Смотрите также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
 title: CreateMotionEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает эффект движения.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/behaviorfactory/createmotioneffect/
 ---
-## BehaviorFactory.CreateMotionEffect method
+
+## Метод BehaviorFactory.CreateMotionEffect
 
 Создает эффект движения.
 
@@ -18,10 +19,10 @@ public IMotionEffect CreateMotionEffect()
 
 Эффект движения.
 
-### Смотрите также
+### См. Также
 
-* interface [IMotionEffect](../../imotioneffect)
-* class [BehaviorFactory](../../behaviorfactory)
+* интерфейс [IMotionEffect](../../imotioneffect)
+* класс [BehaviorFactory](../../behaviorfactory)
 * пространство имен [Aspose.Slides.Animation](../../behaviorfactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,23 +1,24 @@
 ---
 title: ShadowColor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Цвет тени. Только для чтенияIColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides для .NET API Reference
+description: Цвет тени. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/presetshadow/shadowcolor/
 ---
-## PresetShadow.ShadowColor property
 
-Цвет тени. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+## Свойство PresetShadow.ShadowColor
+
+Цвет тени. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat ShadowColor { get; }
 ```
 
-### Смотрите также
+### Смотри также
 
-* interface [IColorFormat](../../../aspose.slides/icolorformat)
-* class [PresetShadow](../../presetshadow)
+* интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
+* класс [PresetShadow](../../presetshadow)
 * пространство имен [Aspose.Slides.Effects](../../presetshadow)
 * сборка [Aspose.Slides](../../../)
 

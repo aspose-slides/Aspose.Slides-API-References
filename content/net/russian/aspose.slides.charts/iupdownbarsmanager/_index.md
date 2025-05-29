@@ -1,29 +1,30 @@
 ---
 title: IUpDownBarsManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Обеспечивает доступ к барам вверх/вниз линейного или биржевого графика.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Предоставляет доступ к верхним и нижним полосам графика типа Line или Stock.
 type: docs
-weight: 2120
+weight: 2180
 url: /ru/aspose.slides.charts/iupdownbarsmanager/
 ---
-## IUpDownBarsManager interface
 
-Обеспечивает доступ к барам вверх/вниз линейного или биржевого графика.
+## Интерфейс IUpDownBarsManager
+
+Предоставляет доступ к верхним и нижним полосам графика типа Line или Stock.
 
 ```csharp
 public interface IUpDownBarsManager
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Возвращает формат даунбаров. Только для чтения[`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Возвращает или устанавливает ширину промежутка. Чтение/записьInt32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Определяет, есть ли на диаграмме столбцы вверх/вниз. Чтение/записьBoolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Возвращает формат баров вверх. Только для чтения[`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Возвращает формат нижних баров. Только для чтения [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Возвращает или задает ширину промежутка. Чтение/запись Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Определяет, есть ли в графике верхние и нижние бары. Чтение/запись Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Возвращает формат верхних баров. Только для чтения [`IFormat`](../iformat). |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

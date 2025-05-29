@@ -1,22 +1,23 @@
 ---
-title: Spokes
+title: Спицы
 second_title: Справочник по API Aspose.Slides для .NET
-description: Количество спиц колесного перехода. Чтение/записьUInt32.
+description: Количество спиц перехода колеса. Чтение/запись UInt32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.slideshow/iwheeltransition/spokes/
 ---
-## IWheelTransition.Spokes property
 
-Количество спиц колесного перехода. Чтение/записьUInt32.
+## Свойство IWheelTransition.Spokes
+
+Количество спиц перехода колеса. Чтение/запись UInt32.
 
 ```csharp
 public uint Spokes { get; set; }
 ```
 
-### Смотрите также
+### Также см.
 
-* interface [IWheelTransition](../../iwheeltransition)
+* интерфейс [IWheelTransition](../../iwheeltransition)
 * пространство имен [Aspose.Slides.SlideShow](../../iwheeltransition)
 * сборка [Aspose.Slides](../../../)
 

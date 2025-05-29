@@ -1,14 +1,15 @@
 ---
 title: EndingCharacter
-second_title: Справочник по API Aspose.Slides для .NET
-description: Конечный символ-разделитель определяет конечный или закрывающий символ-разделитель. Математические разделители заключают в себя символы такие как круглые и фигурные скобки. По умолчанию.
+second_title: Aspose.Sildes для .NET API Reference
+description: Символ завершения разделителя указывает символ завершения или закрывающего разделителя. Математические разделители - это окружающие символы, такие как круглые скобки, квадратные скобки и фигурные скобки. По умолчанию ''
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/mathdelimiter/endingcharacter/
 ---
-## MathDelimiter.EndingCharacter property
 
-Конечный символ-разделитель определяет конечный или закрывающий символ-разделитель. Математические разделители заключают в себя символы, такие как круглые и фигурные скобки. По умолчанию:')'.
+## MathDelimiter.EndingCharacter свойство
+
+Символ завершения разделителя указывает на завершение или закрывающий символ разделителя. Математические разделители - это окружающие символы, такие как круглые скобки, квадратные скобки и фигурные скобки. По умолчанию: ')'.
 
 ```csharp
 public char EndingCharacter { get; set; }
@@ -24,9 +25,9 @@ IMathDelimiter delimiter = new MathematicalText("x").Join("y").Enclose();
 delimiter.EndingCharacter = ']';
 ```
 
-### Смотрите также
+### См. также
 
-* class [MathDelimiter](../../mathdelimiter)
+* класс [MathDelimiter](../../mathdelimiter)
 * пространство имен [Aspose.Slides.MathText](../../mathdelimiter)
 * сборка [Aspose.Slides](../../../)
 

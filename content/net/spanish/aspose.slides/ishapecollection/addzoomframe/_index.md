@@ -1,11 +1,12 @@
 ---
 title: AddZoomFrame
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Agrega un nuevo objeto Zoom al final de una colección.
 type: docs
 weight: 190
 url: /es/aspose.slides/ishapecollection/addzoomframe/
 ---
+
 ## AddZoomFrame(float, float, float, float, ISlide) {#addzoomframe}
 
 Agrega un nuevo objeto Zoom al final de una colección.
@@ -14,27 +15,27 @@ Agrega un nuevo objeto Zoom al final de una colección.
 public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISlide slide)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Single | Coordenada X de un nuevo marco de ZoomSingle. |
-| y | Single | Coordenada Y de un nuevo marco de ZoomSingle. |
-| width | Single | Ancho de un nuevo marco de ZoomSingle. |
-| height | Single | Altura de un nuevo marco de ZoomSingle. |
-| slide | ISlide | El objeto de diapositiva al que hace referencia el cuadro Zoom[`ISlide`](../../islide). |
+| x | Single | Coordenada X de un nuevo marco de Zoom Single. |
+| y | Single | Coordenada Y de un nuevo marco de Zoom Single. |
+| width | Single | Ancho de un nuevo marco de Zoom Single. |
+| height | Single | Altura de un nuevo marco de Zoom Single. |
+| slide | ISlide | El objeto de diapositiva referenciado por el marco de Zoom [`ISlide`](../../islide). |
 
-### Valor_devuelto
+### Valor de Retorno
 
-Objeto Zoom creado[`IZoomFrame`](../../izoomframe).
+Objeto Zoom creado [`IZoomFrame`](../../izoomframe).
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | La diapositiva a la que se hace referencia no pertenece a la presentación actual. |
+| ArgumentException | La diapositiva referenciada no pertenece a la presentación actual. |
 
 ### Ejemplos
 
-Este ejemplo muestra cómo agregar un objeto Zoom al final de una colección (suponga que hay al menos dos diapositivas en la presentación "Presentación.pptx"):
+Este ejemplo demuestra cómo agregar un objeto Zoom al final de una colección (suponga que hay al menos dos diapositivas en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -44,13 +45,13 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver también
+### Ver También
 
 * interface [IZoomFrame](../../izoomframe)
 * interface [ISlide](../../islide)
 * interface [IShapeCollection](../../ishapecollection)
-* espacio de nombres [Aspose.Slides](../../ishapecollection)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../ishapecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -63,28 +64,28 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
     IPPImage image)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Single | Coordenada X de un nuevo marco de ZoomSingle. |
-| y | Single | Coordenada Y de un nuevo marco de ZoomSingle. |
-| width | Single | Ancho de un nuevo marco de ZoomSingle. |
-| height | Single | Altura de un nuevo marco de ZoomSingle. |
-| slide | ISlide | El objeto de diapositiva al que hace referencia el cuadro Zoom[`ISlide`](../../islide). |
-| image | IPPImage | La imagen de la diapositiva a la que se hace referencia[`IPPImage`](../../ippimage) |
+| x | Single | Coordenada X de un nuevo marco de Zoom Single. |
+| y | Single | Coordenada Y de un nuevo marco de Zoom Single. |
+| width | Single | Ancho de un nuevo marco de Zoom Single. |
+| height | Single | Altura de un nuevo marco de Zoom Single. |
+| slide | ISlide | El objeto de diapositiva referenciado por el marco de Zoom [`ISlide`](../../islide). |
+| image | IPPImage | La imagen para la diapositiva referenciada [`IPPImage`](../../ippimage) |
 
-### Valor_devuelto
+### Valor de Retorno
 
-Objeto Zoom creado[`IZoomFrame`](../../izoomframe).
+Objeto Zoom creado [`IZoomFrame`](../../izoomframe).
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | La diapositiva a la que se hace referencia no pertenece a la presentación actual. |
+| ArgumentException | La diapositiva referenciada no pertenece a la presentación actual. |
 
 ### Ejemplos
 
-Este ejemplo muestra cómo agregar un objeto Zoom al final de una colección (suponga que hay al menos dos diapositivas en la presentación "Presentación.pptx"):
+Este ejemplo demuestra cómo agregar un objeto Zoom al final de una colección (suponga que hay al menos dos diapositivas en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -95,13 +96,13 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver también
+### Ver También
 
 * interface [IZoomFrame](../../izoomframe)
 * interface [ISlide](../../islide)
 * interface [IPPImage](../../ippimage)
 * interface [IShapeCollection](../../ishapecollection)
-* espacio de nombres [Aspose.Slides](../../ishapecollection)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../ishapecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

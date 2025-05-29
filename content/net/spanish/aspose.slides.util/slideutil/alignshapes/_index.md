@@ -1,21 +1,22 @@
 ---
-title: AlignShapes
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Cambia la ubicación de todas las formas en la diapositiva. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
+title: AlinearFormas
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Cambia la colocación de todas las formas en la diapositiva. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
 type: docs
 weight: 10
 url: /es/aspose.slides.util/slideutil/alignshapes/
 ---
+
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
 
-Cambia la ubicación de todas las formas en la diapositiva. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
+Cambia la colocación de todas las formas en la diapositiva. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IBaseSlide slide)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Determina qué tipo de alineación se aplicará. |
 | alignToSlide | Boolean | Si es verdadero, las formas se alinearán en relación con los bordes de la diapositiva. |
@@ -33,31 +34,31 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ver también
+### Ver También
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
 * class [SlideUtil](../../slideutil)
-* espacio de nombres [Aspose.Slides.Util](../../slideutil)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
 
-Cambia la ubicación de las formas seleccionadas en la diapositiva. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
+Cambia la colocación de las formas seleccionadas en la diapositiva. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IBaseSlide slide, int[] shapeIndexes)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Determina qué tipo de alineación se aplicará. |
 | alignToSlide | Boolean | Si es verdadero, las formas se alinearán en relación con los bordes de la diapositiva. |
 | slide | IBaseSlide | Diapositiva principal. |
-| shapeIndexes | Int32[] | Índices de formas a alinear. |
+| shapeIndexes | Int32[] | Índices de las formas que se alinearán. |
 
 ### Ejemplos
 
@@ -79,30 +80,30 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ver también
+### Ver También
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
 * class [SlideUtil](../../slideutil)
-* espacio de nombres [Aspose.Slides.Util](../../slideutil)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
 
-Cambia la ubicación de todas las formas dentro de la forma del grupo. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
+Cambia la colocación de todas las formas dentro de la forma de grupo. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IGroupShape groupShape)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Determina qué tipo de alineación se aplicará. |
 | alignToSlide | Boolean | Si es verdadero, las formas se alinearán en relación con los bordes de la diapositiva. |
-| groupShape | IGroupShape | Forma del grupo de padres. |
+| groupShape | IGroupShape | Forma de grupo principal. |
 
 ### Ejemplos
 
@@ -116,31 +117,31 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ver también
+### Ver También
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IGroupShape](../../../aspose.slides/igroupshape)
 * class [SlideUtil](../../slideutil)
-* espacio de nombres [Aspose.Slides.Util](../../slideutil)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
 
-Cambia la ubicación de las formas seleccionadas dentro de la forma del grupo. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
+Cambia la colocación de las formas seleccionadas dentro de la forma de grupo. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IGroupShape groupShape, int[] shapeIndexes)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Determina qué tipo de alineación se aplicará. |
 | alignToSlide | Boolean | Si es verdadero, las formas se alinearán en relación con los bordes de la diapositiva. |
-| groupShape | IGroupShape | Forma del grupo de padres. |
-| shapeIndexes | Int32[] | Índices de formas a alinear. |
+| groupShape | IGroupShape | Forma de grupo principal. |
+| shapeIndexes | Int32[] | Índices de las formas que se alinearán. |
 
 ### Ejemplos
 
@@ -154,12 +155,12 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ver también
+### Ver También
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IGroupShape](../../../aspose.slides/igroupshape)
 * class [SlideUtil](../../slideutil)
-* espacio de nombres [Aspose.Slides.Util](../../slideutil)
-* asamblea [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

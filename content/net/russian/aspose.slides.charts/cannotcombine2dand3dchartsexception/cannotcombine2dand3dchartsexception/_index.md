@@ -1,11 +1,12 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Ссылка
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/cannotcombine2dand3dchartsexception/cannotcombine2dand3dchartsexception/
 ---
+
 ## CannotCombine2DAnd3DChartsException() {#constructor}
 
 Конструктор по умолчанию.
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.charts/cannotcombine2dand3dchartsexception/cannotcombine2
 public CannotCombine2DAnd3DChartsException()
 ```
 
-### Смотрите также
+### См. также
 
-* class [CannotCombine2DAnd3DChartsException](../../cannotcombine2dand3dchartsexception)
+* класс [CannotCombine2DAnd3DChartsException](../../cannotcombine2dand3dchartsexception)
 * пространство имен [Aspose.Slides.Charts](../../cannotcombine2dand3dchartsexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -32,11 +33,11 @@ public CannotCombine2DAnd3DChartsException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
+| message | String | сообщение |
 
-### Смотрите также
+### См. также
 
-* class [CannotCombine2DAnd3DChartsException](../../cannotcombine2dand3dchartsexception)
+* класс [CannotCombine2DAnd3DChartsException](../../cannotcombine2dand3dchartsexception)
 * пространство имен [Aspose.Slides.Charts](../../cannotcombine2dand3dchartsexception)
 * сборка [Aspose.Slides](../../../)
 
@@ -44,7 +45,7 @@ public CannotCombine2DAnd3DChartsException(string message)
 
 ## CannotCombine2DAnd3DChartsException(string, Exception) {#constructor_2}
 
-Конструктор исключения, содержащего сообщение и встроенное исключение.
+Конструктор для исключения, содержащего сообщение и вложенное исключение.
 
 ```csharp
 public CannotCombine2DAnd3DChartsException(string message, Exception exception)
@@ -52,12 +53,12 @@ public CannotCombine2DAnd3DChartsException(string message, Exception exception)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | сообщение |
-| исключение | Exception | исходное исключение |
+| message | String | сообщение |
+| exception | Exception | оригинальное исключение |
 
-### Смотрите также
+### См. также
 
-* class [CannotCombine2DAnd3DChartsException](../../cannotcombine2dand3dchartsexception)
+* класс [CannotCombine2DAnd3DChartsException](../../cannotcombine2dand3dchartsexception)
 * пространство имен [Aspose.Slides.Charts](../../cannotcombine2dand3dchartsexception)
 * сборка [Aspose.Slides](../../../)
 

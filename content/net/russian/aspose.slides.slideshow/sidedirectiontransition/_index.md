@@ -1,36 +1,37 @@
 ---
 title: SideDirectionTransition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода слайда в боковом направлении.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Эффект перехода слайдов в боковом направлении.
 type: docs
-weight: 9530
+weight: 10000
 url: /ru/aspose.slides.slideshow/sidedirectiontransition/
 ---
-## SideDirectionTransition class
 
-Эффект перехода слайда в боковом направлении.
+## Класс SideDirectionTransition
+
+Эффект перехода слайдов в боковом направлении.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Используется в качестве хеш-функции для конкретного типа, подходит для использования в хеширующих алгоритмах и структурах данных, таких как хеш-таблица. |
 
-### Смотрите также
+### Также см. 
 
-* class [TransitionValueBase](../transitionvaluebase)
-* interface [ISideDirectionTransition](../isidedirectiontransition)
+* класс [TransitionValueBase](../transitionvaluebase)
+* интерфейс [ISideDirectionTransition](../isidedirectiontransition)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

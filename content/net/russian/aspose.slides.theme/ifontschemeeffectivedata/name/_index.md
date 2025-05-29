@@ -1,22 +1,23 @@
 ---
-title: Name
+title: Название
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает имя схемы шрифта. Только чтениеString.
+description: Возвращает название схемы шрифта. Только для чтения String.
 type: docs
 weight: 30
 url: /ru/aspose.slides.theme/ifontschemeeffectivedata/name/
 ---
-## IFontSchemeEffectiveData.Name property
 
-Возвращает имя схемы шрифта. Только чтениеString.
+## Свойство IFontSchemeEffectiveData.Name
+
+Возвращает название схемы шрифта. Только для чтения String.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)
+* интерфейс [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../ifontschemeeffectivedata)
 * сборка [Aspose.Slides](../../../)
 

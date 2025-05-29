@@ -1,12 +1,13 @@
 ---
 title: AsIBaseHandoutNotesSlideHeaderFooterManag
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справка
 description: Возвращает интерфейс IBaseHandoutNotesSlideHeaderFooterManag.
 type: docs
 weight: 10
 url: /ru/aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag/
 ---
-## IMasterHandoutSlideHeaderFooterManager.AsIBaseHandoutNotesSlideHeaderFooterManag property
+
+## IMasterHandoutSlideHeaderFooterManager.AsIBaseHandoutNotesSlideHeaderFooterManag свойство
 
 Возвращает интерфейс IBaseHandoutNotesSlideHeaderFooterManag.
 
@@ -16,12 +17,12 @@ public IBaseHandoutNotesSlideHeaderFooterManag AsIBaseHandoutNotesSlideHeaderFoo
 
 ### Примечания
 
-Для COM-совместимости.
+Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
-* interface [IBaseHandoutNotesSlideHeaderFooterManag](../../ibasehandoutnotesslideheaderfootermanag)
-* interface [IMasterHandoutSlideHeaderFooterManager](../../imasterhandoutslideheaderfootermanager)
+* интерфейс [IBaseHandoutNotesSlideHeaderFooterManag](../../ibasehandoutnotesslideheaderfootermanag)
+* интерфейс [IMasterHandoutSlideHeaderFooterManager](../../imasterhandoutslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../imasterhandoutslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

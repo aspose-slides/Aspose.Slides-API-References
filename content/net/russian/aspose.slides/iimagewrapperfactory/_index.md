@@ -1,12 +1,13 @@
 ---
 title: IImageWrapperFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Этот интерфейс позволяет инициализировать IBitmapWrapper.
 type: docs
-weight: 5630
+weight: 5980
 url: /ru/aspose.slides/iimagewrapperfactory/
 ---
-## IImageWrapperFactory interface
+
+## Интерфейс IImageWrapperFactory
 
 Этот интерфейс позволяет инициализировать IBitmapWrapper.
 
@@ -18,11 +19,11 @@ public interface IImageWrapperFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(Image) | Инициализирует новый экземпляр класса BitmapWrapper из указанного существующего изображения. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Инициализирует новый экземпляр класса BitmapWrapper из указанного потока данных. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Инициализирует новый экземпляр класса BitmapWrapper из указанного файла. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Инициализирует новый экземпляр класса ImageWrapper из указанного существующего изображения. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(Stream) | Инициализирует новый экземпляр класса ImageWrapper из указанного потока данных. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_3)(string) | Инициализирует новый экземпляр класса ImageWrapper из указанного файла. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

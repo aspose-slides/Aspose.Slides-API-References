@@ -1,12 +1,13 @@
 ---
 title: StrokeLineStyle
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство stroke.linestyle
 type: docs
 weight: 970
 url: /ru/aspose.slides.animation/behaviorproperty/strokelinestyle/
 ---
-## BehaviorProperty.StrokeLineStyle property
+
+## Свойство BehaviorProperty.StrokeLineStyle
 
 Представляет свойство 'stroke.linestyle'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/strokelinestyle/
 public static BehaviorProperty StrokeLineStyle { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

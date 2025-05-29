@@ -1,14 +1,15 @@
 ---
 title: TextAnimation
-second_title: Справочник по API Aspose.Slides для .NET
-description: TextAnimation Только чтениеITextAnimationaspose.slides.animation/itextanimation.
+second_title: Aspose.Slides для .NET API Справочник
+description: TextAnimation Только для чтения ITextAnimationaspose.slides.animation/itextanimation.
 type: docs
-weight: 60
+weight: 120
 url: /ru/aspose.slides.animation/effect/textanimation/
 ---
-## Effect.TextAnimation property
 
-TextAnimation Только чтение[`ITextAnimation`](../../itextanimation).
+## Свойство Effect.TextAnimation
+
+TextAnimation Только для чтения [`ITextAnimation`](../../itextanimation).
 
 ```csharp
 public ITextAnimation TextAnimation { get; }
@@ -16,8 +17,8 @@ public ITextAnimation TextAnimation { get; }
 
 ### Смотрите также
 
-* interface [ITextAnimation](../../itextanimation)
-* class [Effect](../../effect)
+* интерфейс [ITextAnimation](../../itextanimation)
+* класс [Effect](../../effect)
 * пространство имен [Aspose.Slides.Animation](../../effect)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,24 +1,25 @@
 ---
-title: Item
+title: Элемент
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Получает элемент по указанному индексу. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 110
 url: /ru/aspose.slides.theme/colorscheme/item/
 ---
-## ColorScheme indexer
 
-Получает элемент по указанному индексу. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+## Индексатор ColorScheme
+
+Получает элемент по указанному индексу. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat this[ColorSchemeIndex index] { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IColorFormat](../../../aspose.slides/icolorformat)
-* enum [ColorSchemeIndex](../../../aspose.slides/colorschemeindex)
-* class [ColorScheme](../../colorscheme)
+* интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
+* перечисление [ColorSchemeIndex](../../../aspose.slides/colorschemeindex)
+* класс [ColorScheme](../../colorscheme)
 * пространство имен [Aspose.Slides.Theme](../../colorscheme)
 * сборка [Aspose.Slides](../../../)
 

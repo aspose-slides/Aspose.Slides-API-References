@@ -1,14 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает текст для заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+second_title: Aspose.Sildes для справки по API .NET
+description: Устанавливает текст для заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок.
 type: docs
 weight: 10
 url: /ru/aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext/
 ---
-## MasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText method
 
-Устанавливает текст для заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+## MasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText метод
+
+Устанавливает текст для заполнителя даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители находятся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от главного слайда заметок.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -18,9 +19,9 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### Смотрите также
+### См. также
 
-* class [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
+* класс [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masternotesslideheaderfootermanager)
 * сборка [Aspose.Slides](../../../)
 

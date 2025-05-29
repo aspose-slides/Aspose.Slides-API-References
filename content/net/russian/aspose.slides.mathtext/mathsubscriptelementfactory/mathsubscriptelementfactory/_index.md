@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/mathsubscriptelementfactory/mathsubscriptelementfactory/
 ---
-## MathSubscriptElementFactory constructor
+
+## Конструктор MathSubscriptElementFactory
 
 Конструктор по умолчанию.
 
@@ -16,7 +17,7 @@ public MathSubscriptElementFactory()
 
 ### Смотрите также
 
-* class [MathSubscriptElementFactory](../../mathsubscriptelementfactory)
+* класс [MathSubscriptElementFactory](../../mathsubscriptelementfactory)
 * пространство имен [Aspose.Slides.MathText](../../mathsubscriptelementfactory)
 * сборка [Aspose.Slides](../../../)
 

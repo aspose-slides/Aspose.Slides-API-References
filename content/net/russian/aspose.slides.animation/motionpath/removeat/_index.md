@@ -1,12 +1,13 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Удаляет команду по указанному индексу.
 type: docs
 weight: 90
 url: /ru/aspose.slides.animation/motionpath/removeat/
 ---
-## MotionPath.RemoveAt method
+
+## Метод MotionPath.RemoveAt
 
 Удаляет команду по указанному индексу.
 
@@ -20,7 +21,7 @@ public void RemoveAt(int index)
 
 ### Смотрите также
 
-* class [MotionPath](../../motionpath)
+* класс [MotionPath](../../motionpath)
 * пространство имен [Aspose.Slides.Animation](../../motionpath)
 * сборка [Aspose.Slides](../../../)
 

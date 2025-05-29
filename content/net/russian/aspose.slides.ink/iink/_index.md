@@ -1,28 +1,30 @@
 ---
 title: IInk
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет рукописный объект на слайде.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет объект чернил на слайде.
 type: docs
-weight: 6890
+weight: 7280
 url: /ru/aspose.slides.ink/iink/
 ---
-## IInk interface
 
-Представляет рукописный объект на слайде.
+## Интерфейс IInk
+
+Представляет объект чернил на слайде.
 
 ```csharp
 public interface IInk : IGraphicalObject
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения[`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Получает все следы, содержащиеся в элементе IInk [`IInkTrace`](../iinktrace). Только для чтения. |
 
 ### Смотрите также
 
-* interface [IGraphicalObject](../../aspose.slides/igraphicalobject)
+* интерфейс [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * пространство имен [Aspose.Slides.Ink](../../aspose.slides.ink)
 * сборка [Aspose.Slides](../../)
 

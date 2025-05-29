@@ -1,14 +1,15 @@
 ---
 title: DateTime8
-second_title: Справочник по API Aspose.Slides для .NET
-description: Текущая дата и время в предустановленном восьмом формате ММ/ДД/ГГГГ ччмм AM/PM для английского. Только для чтенияFieldTypeaspose.slides/fieldtype.
+second_title: Справочник API Aspose.Slides для .NET
+description: Текущая дата и время в восьмом предопределенном формате MM/DD/YYYY hhmm AM/PM для английского языка. Поле только для чтения FieldType aspose.slides/fieldtype.
 type: docs
 weight: 140
 url: /ru/aspose.slides/fieldtype/datetime8/
 ---
-## FieldType.DateTime8 property
 
-Текущая дата и время в предустановленном восьмом формате (ММ/ДД/ГГГГ чч:мм AM/PM для английского). Только для чтения[`FieldType`](../../fieldtype).
+## Свойство FieldType.DateTime8
+
+Текущая дата и время в восьмом предопределенном формате (MM/DD/YYYY hh:mm AM/PM для английского языка). Поле только для чтения [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime8 { get; }
@@ -16,7 +17,7 @@ public static FieldType DateTime8 { get; }
 
 ### Смотрите также
 
-* class [FieldType](../../fieldtype)
+* класс [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,12 +1,13 @@
 ---
-title: Clear
+title: Очистить
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/chartcategorycollection/clear/
 ---
-## ChartCategoryCollection.Clear method
+
+## Метод ChartCategoryCollection.Clear
 
 Удаляет все элементы из коллекции.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.charts/chartcategorycollection/clear/
 public void Clear()
 ```
 
-### Смотрите также
+### Также смотри
 
-* class [ChartCategoryCollection](../../chartcategorycollection)
+* класс [ChartCategoryCollection](../../chartcategorycollection)
 * пространство имен [Aspose.Slides.Charts](../../chartcategorycollection)
 * сборка [Aspose.Slides](../../../)
 

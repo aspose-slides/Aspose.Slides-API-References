@@ -1,22 +1,23 @@
 ---
 title: MarginLeft
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает левое поле в точках в TextFrame. Изменение этого свойства может оказать определенное влияние только на следующие части диаграммы DataLabel и DataLabelFormat полная поддержка в PowerPoint 2013 в PowerPoint 2007 нет эффекта для рендеринга. Чтение/записьDouble.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает левый отступ в пунктах в TextFrame. Изменение этого свойства может оказать определенное влияние только на эти части графика DataLabel и DataLabelFormat полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта для рендеринга. Чтение/запись Double.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/icharttextblockformat/marginleft/
 ---
-## IChartTextBlockFormat.MarginLeft property
 
-Возвращает или задает левое поле (в точках) в TextFrame. Изменение этого свойства может оказать определенное влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта для рендеринга). Чтение/записьDouble.
+## Свойство IChartTextBlockFormat.MarginLeft
+
+Возвращает или устанавливает левый отступ (пункты) в TextFrame. Изменение этого свойства может оказать определенное влияние только на эти части графика: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта для рендеринга). Чтение/запись Double.
 
 ```csharp
 public double MarginLeft { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IChartTextBlockFormat](../../icharttextblockformat)
+* интерфейс [IChartTextBlockFormat](../../icharttextblockformat)
 * пространство имен [Aspose.Slides.Charts](../../icharttextblockformat)
 * сборка [Aspose.Slides](../../../)
 

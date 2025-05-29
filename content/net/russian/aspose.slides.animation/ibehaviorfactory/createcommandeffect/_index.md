@@ -1,14 +1,15 @@
 ---
 title: CreateCommandEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает командный эффект.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает эффект команды.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/ibehaviorfactory/createcommandeffect/
 ---
-## IBehaviorFactory.CreateCommandEffect method
 
-Создает командный эффект.
+## IBehaviorFactory.CreateCommandEffect метод
+
+Создает эффект команды.
 
 ```csharp
 public ICommandEffect CreateCommandEffect()
@@ -16,12 +17,12 @@ public ICommandEffect CreateCommandEffect()
 
 ### Возвращаемое значение
 
-Командный эффект.
+Эффект команды.
 
-### Смотрите также
+### См. также
 
-* interface [ICommandEffect](../../icommandeffect)
-* interface [IBehaviorFactory](../../ibehaviorfactory)
+* интерфейс [ICommandEffect](../../icommandeffect)
+* интерфейс [IBehaviorFactory](../../ibehaviorfactory)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorfactory)
 * сборка [Aspose.Slides](../../../)
 

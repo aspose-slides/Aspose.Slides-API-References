@@ -1,28 +1,29 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Это предупреждение указывает на то что используется устаревшее поведение блокировки представления.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Это предупреждение указывает на то, что используется устаревшее поведение блокировки презентации.
 type: docs
-weight: 10970
+weight: 11470
 url: /ru/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
-## IObsoletePresLockingBehaviorWarningInfo interface
 
-Это предупреждение указывает на то, что используется устаревшее поведение блокировки представления.
+## Интерфейс IObsoletePresLockingBehaviorWarningInfo
+
+Это предупреждение указывает на то, что используется устаревшее поведение блокировки презентации.
 
 ```csharp
 public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения [`IWarningInfo`](../iwarninginfo). |
 
 ### Смотрите также
 
-* interface [IWarningInfo](../iwarninginfo)
+* интерфейс [IWarningInfo](../iwarninginfo)
 * пространство имен [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * сборка [Aspose.Slides](../../)
 

@@ -1,22 +1,23 @@
 ---
 title: IsSynchronized
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
+second_title: Aspose.Slides для .NET API Справка
+description: Возвращает значение, указывающее, синхронизирован ли доступ к сбору потокобезопасный. Только для чтения логическое значение.
 type: docs
 weight: 20
 url: /ru/aspose.slides/commentauthorcollection/issynchronized/
 ---
-## CommentAuthorCollection.IsSynchronized property
 
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
+## Свойство CommentAuthorCollection.IsSynchronized
+
+Возвращает значение, указывающее, синхронизирован ли доступ к сбору (потокобезопасный). Только для чтения логическое значение.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [CommentAuthorCollection](../../commentauthorcollection)
+* класс [CommentAuthorCollection](../../commentauthorcollection)
 * пространство имен [Aspose.Slides](../../commentauthorcollection)
 * сборка [Aspose.Slides](../../../)
 

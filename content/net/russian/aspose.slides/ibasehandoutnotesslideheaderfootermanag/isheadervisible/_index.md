@@ -1,14 +1,15 @@
 ---
 title: IsHeaderVisible
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение указывающее что присутствует заполнитель заголовка. ЧтениеBoolean.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Получает значение, указывающее, что плейсхолдер заголовка присутствует. Чтение Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible/
 ---
-## IBaseHandoutNotesSlideHeaderFooterManag.IsHeaderVisible property
 
-Получает значение, указывающее, что присутствует заполнитель заголовка. ЧтениеBoolean.
+## IBaseHandoutNotesSlideHeaderFooterManag.IsHeaderVisible свойство
+
+Получает значение, указывающее, что плейсхолдер заголовка присутствует. Чтение Boolean.
 
 ```csharp
 public bool IsHeaderVisible { get; }
@@ -16,7 +17,7 @@ public bool IsHeaderVisible { get; }
 
 ### Смотрите также
 
-* interface [IBaseHandoutNotesSlideHeaderFooterManag](../../ibasehandoutnotesslideheaderfootermanag)
+* интерфейс [IBaseHandoutNotesSlideHeaderFooterManag](../../ibasehandoutnotesslideheaderfootermanag)
 * пространство имен [Aspose.Slides](../../ibasehandoutnotesslideheaderfootermanag)
 * сборка [Aspose.Slides](../../../)
 

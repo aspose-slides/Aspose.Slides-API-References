@@ -1,28 +1,29 @@
 ---
-title: Format
+title: Формат
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойства формата диаграммы.
 type: docs
-weight: 1540
+weight: 1600
 url: /ru/aspose.slides.charts/format/
 ---
-## Format class
+
+## Класс Format
 
 Представляет свойства формата диаграммы.
 
 ```csharp
-public class Format : PVIObject, IFormat
+public sealed class Format : PVIObject, IFormat
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Effect](../../aspose.slides.charts/format/effect) { get; } | Возвращает эффекты, используемые для диаграммы. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Возвращает трехмерный формат диаграммы. Только для чтения[`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/format/fill) { get; } | Возвращает свойства стиля заливки диаграммы. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/format/line) { get; } | Возвращает свойства стиля линии диаграммы. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Effect](../../aspose.slides.charts/format/effect) { get; } | Возвращает эффекты, используемые для диаграммы. Только для чтения [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Возвращает 3D формат диаграммы. Только для чтения [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/format/fill) { get; } | Возвращает свойства стиля заливки диаграммы. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/format/line) { get; } | Возвращает свойства стиля линии диаграммы. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ## Методы
 
@@ -31,10 +32,10 @@ public class Format : PVIObject, IFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### Смотрите также
+### См. также
 
-* class [PVIObject](../../aspose.slides/pviobject)
-* interface [IFormat](../iformat)
+* класс [PVIObject](../../aspose.slides/pviobject)
+* интерфейс [IFormat](../iformat)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

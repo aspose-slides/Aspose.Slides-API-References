@@ -1,27 +1,28 @@
 ---
 title: VbaModuleCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор модулей проекта VBA.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет коллекцию модулей проекта VBA.
 type: docs
-weight: 10830
+weight: 11330
 url: /ru/aspose.slides.vba/vbamodulecollection/
 ---
-## VbaModuleCollection class
 
-Представляет набор модулей проекта VBA.
+## Класс VbaModuleCollection
+
+Представляет коллекцию модулей проекта VBA.
 
 ```csharp
 public sealed class VbaModuleCollection : IVbaModuleCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Получает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасно). Только для чтения Boolean. |
+| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Получает элемент по заданному индексу. |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
@@ -29,12 +30,12 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Добавляет новый пустой модуль в проект VBA. |
 | [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Удаляет первое вхождение определенного объекта из коллекции. |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Возвращает перечислитель, который проходит по коллекции. |
+| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Удаляет первое вхождение конкретного объекта из коллекции. |
 
-### Смотрите также
+### См. также
 
-* interface [IVbaModuleCollection](../ivbamodulecollection)
+* интерфейс [IVbaModuleCollection](../ivbamodulecollection)
 * пространство имен [Aspose.Slides.Vba](../../aspose.slides.vba)
 * сборка [Aspose.Slides](../../)
 

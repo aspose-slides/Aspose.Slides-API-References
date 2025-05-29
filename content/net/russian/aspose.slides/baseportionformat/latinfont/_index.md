@@ -1,23 +1,24 @@
 ---
 title: LatinFont
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает информацию о латинском шрифте. Null означает что шрифт не определен и должен быть унаследован от мастера. Чтение/записьIFontDataaspose.slides/ifontdata.
+second_title: Ссылка на API Aspose.Sildes для .NET
+description: Возвращает или задает информацию о латинском шрифте. Null означает, что шрифт не определен и должен наследоваться от Master. Чтение/запись IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 170
 url: /ru/aspose.slides/baseportionformat/latinfont/
 ---
-## BasePortionFormat.LatinFont property
 
-Возвращает или устанавливает информацию о латинском шрифте. Null означает, что шрифт не определен и должен быть унаследован от мастера. Чтение/запись[`IFontData`](../../ifontdata).
+## Свойство BasePortionFormat.LatinFont
+
+Возвращает или задает информацию о латинском шрифте. Null означает, что шрифт не определен и должен наследоваться от Master. Чтение/запись [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData LatinFont { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IFontData](../../ifontdata)
-* class [BasePortionFormat](../../baseportionformat)
+* интерфейс [IFontData](../../ifontdata)
+* класс [BasePortionFormat](../../baseportionformat)
 * пространство имен [Aspose.Slides](../../baseportionformat)
 * сборка [Aspose.Slides](../../../)
 

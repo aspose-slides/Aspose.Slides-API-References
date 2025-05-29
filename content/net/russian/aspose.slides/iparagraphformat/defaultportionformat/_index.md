@@ -1,23 +1,24 @@
 ---
 title: DefaultPortionFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат части абзаца по умолчанию. Наследование не применяется. Только для чтенияIPortionFormataspose.slides/iportionformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает формат по умолчанию для порции абзаца. Наследование не применяется. Только для чтения IPortionFormat aspose.slides/iportionformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iparagraphformat/defaultportionformat/
 ---
-## IParagraphFormat.DefaultPortionFormat property
 
-Возвращает формат части абзаца по умолчанию. Наследование не применяется. Только для чтения[`IPortionFormat`](../../iportionformat).
+## Свойство IParagraphFormat.DefaultPortionFormat
+
+Возвращает формат по умолчанию для порции абзаца. Наследование не применяется. Только для чтения [`IPortionFormat`](../../iportionformat).
 
 ```csharp
 public IPortionFormat DefaultPortionFormat { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IPortionFormat](../../iportionformat)
-* interface [IParagraphFormat](../../iparagraphformat)
+* интерфейс [IPortionFormat](../../iportionformat)
+* интерфейс [IParagraphFormat](../../iparagraphformat)
 * пространство имен [Aspose.Slides](../../iparagraphformat)
 * сборка [Aspose.Slides](../../../)
 

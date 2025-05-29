@@ -1,14 +1,15 @@
 ---
 title: OdpReadException
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет исключение вызываемое ошибками чтения презентации.
+second_title: Справочник API Aspose.Slides для .NET
+description: Представляет исключение, которое выбрасывается при ошибках чтения презентации.
 type: docs
-weight: 8490
+weight: 8950
 url: /ru/aspose.slides/odpreadexception/
 ---
-## OdpReadException class
 
-Представляет исключение, вызываемое ошибками чтения презентации.
+## Класс OdpReadException
+
+Представляет исключение, которое выбрасывается при ошибках чтения презентации.
 
 ```csharp
 public class OdpReadException : OdpException
@@ -16,15 +17,15 @@ public class OdpReadException : OdpException
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [OdpReadException](odpreadexception#constructor)() | Конструктор по умолчанию |
 | [OdpReadException](odpreadexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и встроенное исключение. |
 
-### Смотрите также
+### См. Также
 
-* class [OdpException](../odpexception)
+* класс [OdpException](../odpexception)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

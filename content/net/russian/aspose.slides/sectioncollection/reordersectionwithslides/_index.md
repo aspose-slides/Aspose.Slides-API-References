@@ -1,14 +1,15 @@
 ---
 title: ReorderSectionWithSlides
 second_title: Справочник по API Aspose.Slides для .NET
-description: Перемещает раздел и его слайды из коллекции в указанную позицию.
+description: Перемещает секцию и ее слайды из коллекции на указанную позицию.
 type: docs
 weight: 140
 url: /ru/aspose.slides/sectioncollection/reordersectionwithslides/
 ---
-## SectionCollection.ReorderSectionWithSlides method
 
-Перемещает раздел и его слайды из коллекции в указанную позицию.
+## Метод SectionCollection.ReorderSectionWithSlides
+
+Перемещает секцию и ее слайды из коллекции на указанную позицию.
 
 ```csharp
 public void ReorderSectionWithSlides(ISection section, int index)
@@ -17,12 +18,12 @@ public void ReorderSectionWithSlides(ISection section, int index)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | ISection | Целевой индекс. |
-| section | Int32 | Раздел для перемещения. |
+| section | Int32 | Секция для перемещения. |
 
-### Смотрите также
+### См. также
 
-* interface [ISection](../../isection)
-* class [SectionCollection](../../sectioncollection)
+* интерфейс [ISection](../../isection)
+* класс [SectionCollection](../../sectioncollection)
 * пространство имен [Aspose.Slides](../../sectioncollection)
 * сборка [Aspose.Slides](../../../)
 

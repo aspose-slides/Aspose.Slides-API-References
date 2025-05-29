@@ -1,23 +1,24 @@
 ---
-title: Item
+title: Элемент
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает столбец по указанному индексу. Только чтениеColumnaspose.slides/column.
+description: Возвращает столбец по указанному индексу. Только для чтения Columnaspose.slides/column.
 type: docs
 weight: 30
 url: /ru/aspose.slides/columncollection/item/
 ---
-## ColumnCollection indexer
 
-Возвращает столбец по указанному индексу. Только чтение[`Column`](../../column).
+## Индексатор ColumnCollection
+
+Возвращает столбец по указанному индексу. Только для чтения [`Column`](../../column).
 
 ```csharp
 public IColumn this[int index] { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IColumn](../../icolumn)
-* class [ColumnCollection](../../columncollection)
+* интерфейс [IColumn](../../icolumn)
+* класс [ColumnCollection](../../columncollection)
 * пространство имен [Aspose.Slides](../../columncollection)
 * сборка [Aspose.Slides](../../../)
 

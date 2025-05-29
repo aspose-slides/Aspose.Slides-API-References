@@ -1,24 +1,25 @@
 ---
 title: INotesSlideManager
-second_title: Справочник по API Aspose.Slides для .NET
-description: Менеджер слайдов Notes.
+second_title: Aspose.Sildes для .NET Ссылка по API
+description: Менеджер слайдов заметок.
 type: docs
-weight: 5960
+weight: 6320
 url: /ru/aspose.slides/inotesslidemanager/
 ---
-## INotesSlideManager interface
 
-Менеджер слайдов Notes.
+## Интерфейс INotesSlideManager
+
+Менеджер слайдов заметок.
 
 ```csharp
 public interface INotesSlideManager
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Возвращает слайд заметок для текущего слайда. Возвращает null, если на слайде нет слайда с заметками. Только для чтения[`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Возвращает слайд заметок для текущего слайда. Возвращает null, если у слайда нет слайда заметок. Только для чтения [`INotesSlide`](../inotesslide). |
 
 ## Методы
 
@@ -27,7 +28,7 @@ public interface INotesSlideManager
 | [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Возвращает слайд заметок для текущего слайда, создавая его, если его нет. |
 | [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Удаляет слайд заметок текущего слайда. |
 
-### Смотрите также
+### Смотрите Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

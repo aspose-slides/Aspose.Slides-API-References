@@ -1,12 +1,13 @@
 ---
 title: IMathBlockCollection
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Коллекция математических блоков IMathBlock
 type: docs
-weight: 7440
+weight: 7900
 url: /ru/aspose.slides.mathtext/imathblockcollection/
 ---
-## IMathBlockCollection interface
+
+## Интерфейс IMathBlockCollection
 
 Коллекция математических блоков (IMathBlock)
 
@@ -14,13 +15,13 @@ url: /ru/aspose.slides.mathtext/imathblockcollection/
 public interface IMathBlockCollection : IEnumerable<IMathBlock>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable IEnumerable |
-| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Получает элемент по указанному индексу. Только для чтения[`IMathBlock`](../imathblock). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Получает элемент по указанному индексу. Только для чтения [`IMathBlock`](../imathblock). |
 
 ## Методы
 
@@ -28,11 +29,11 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | Добавляет IMathBlock в конец коллекции. |
 | [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Определяет, содержит ли коллекция определенное значение. |
+| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Определяет, содержит ли коллекция конкретное значение. |
 | [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Определяет индекс конкретного IMathBlock в коллекции. |
 | [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Вставляет IMathBlock в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Удаляет первое вхождение определенного объекта из коллекции/&gt;. |
-| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Удаляет первое вхождение конкретного объекта из коллекции. |
+| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Удаляет элемент по указанному индексу из коллекции. |
 
 ### Примеры
 
@@ -43,9 +44,9 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 IMathBlockCollection blockCollection = new MathParagraph();
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IMathBlock](../imathblock)
+* интерфейс [IMathBlock](../imathblock)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)
 

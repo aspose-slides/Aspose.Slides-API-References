@@ -1,23 +1,24 @@
 ---
 title: AsILineParamSource
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ILineParamSource. Только для чтенияILineParamSourceaspose.slides/ilineparamsource.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс ILineParamSource. Только для чтения ILineParamSourceaspose.slides/ilineparamsource.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ilineformateffectivedata/asilineparamsource/
 ---
-## ILineFormatEffectiveData.AsILineParamSource property
 
-Позволяет получить базовый интерфейс ILineParamSource. Только для чтения[`ILineParamSource`](../../ilineparamsource).
+## ILineFormatEffectiveData.AsILineParamSource свойство
+
+Позволяет получить базовый интерфейс ILineParamSource. Только для чтения [`ILineParamSource`](../../ilineparamsource).
 
 ```csharp
 public ILineParamSource AsILineParamSource { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILineParamSource](../../ilineparamsource)
-* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* интерфейс [ILineParamSource](../../ilineparamsource)
+* интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * пространство имен [Aspose.Slides](../../ilineformateffectivedata)
 * сборка [Aspose.Slides](../../../)
 

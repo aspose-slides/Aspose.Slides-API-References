@@ -1,14 +1,15 @@
 ---
-title: Reporting
+title: Отчетность
 second_title: Справочник по API Aspose.Slides для .NET
-description: Сообщает об обновлении хода выполнения.
+description: Сообщает об обновлении прогресса.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iprogresscallback/reporting/
 ---
-## IProgressCallback.Reporting method
 
-Сообщает об обновлении хода выполнения.
+## Метод IProgressCallback.Reporting
+
+Сообщает об обновлении прогресса.
 
 ```csharp
 public void Reporting(double progressValue)
@@ -18,9 +19,9 @@ public void Reporting(double progressValue)
 | --- | --- | --- |
 | progressValue | Double | Значение обновленного прогресса. |
 
-### Смотрите также
+### См. также
 
-* interface [IProgressCallback](../../iprogresscallback)
+* интерфейс [IProgressCallback](../../iprogresscallback)
 * пространство имен [Aspose.Slides](../../iprogresscallback)
 * сборка [Aspose.Slides](../../../)
 

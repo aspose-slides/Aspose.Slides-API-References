@@ -1,14 +1,15 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
-description: Копирует все элементы из коллекции в указанный массив.
+second_title: Aspose.Sildes для .NET API Reference
+description: Копирует все элементы из коллекции в указанной массив.
 type: docs
 weight: 70
 url: /ru/aspose.slides.smartart/smartartnodecollection/copyto/
 ---
-## SmartArtNodeCollection.CopyTo method
 
-Копирует все элементы из коллекции в указанный массив.
+## Метод SmartArtNodeCollection.CopyTo
+
+Копирует все элементы из коллекции в указанной массив.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -16,12 +17,12 @@ public void CopyTo(Array array, int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| массив | Array |  |
+| array | Array |  |
 | index | Int32 |  |
 
-### Смотрите также
+### См. Также
 
-* class [SmartArtNodeCollection](../../smartartnodecollection)
+* класс [SmartArtNodeCollection](../../smartartnodecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartnodecollection)
 * сборка [Aspose.Slides](../../../)
 

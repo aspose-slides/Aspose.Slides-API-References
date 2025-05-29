@@ -1,20 +1,20 @@
 ---
-title: Get
-second_title: Справочник по API Aspose.Slides для .NET
-description: 
-type: docs
+title: Получить
+second_title: Справочник API Aspose.Slides для .NET
+description: type docs
 weight: 30
 url: /ru/aspose.slides.export.web/storage/get/
 ---
-## Storage.Get&lt;TValue&gt; method
+
+## Метод Storage.Get&lt;TValue&gt;
 
 ```csharp
 public TValue Get<TValue>(string key)
 ```
 
-### Смотрите также
+### См. также
 
-* class [Storage](../../storage)
+* класс [Storage](../../storage)
 * пространство имен [Aspose.Slides.Export.Web](../../storage)
 * сборка [Aspose.Slides](../../../)
 

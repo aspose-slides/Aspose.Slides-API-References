@@ -1,11 +1,12 @@
 ---
 title: SVGOptions
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Инициализирует новый экземпляр класса SVGOptions.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/svgoptions/svgoptions/
 ---
+
 ## SVGOptions() {#constructor}
 
 Инициализирует новый экземпляр класса SVGOptions.
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.export/svgoptions/svgoptions/
 public SVGOptions()
 ```
 
-### Смотрите также
+### См. также
 
-* class [SVGOptions](../../svgoptions)
+* класс [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)
 * сборка [Aspose.Slides](../../../)
 
@@ -24,7 +25,7 @@ public SVGOptions()
 
 ## SVGOptions(ILinkEmbedController) {#constructor_1}
 
-Инициализирует новый экземпляр класса SVGOptions, определяя объект контроллера внедрения ссылки.
+Инициализирует новый экземпляр класса SVGOptions, указывая объект контроллера встраивания ссылок.
 
 ```csharp
 public SVGOptions(ILinkEmbedController linkEmbedController)
@@ -32,16 +33,16 @@ public SVGOptions(ILinkEmbedController linkEmbedController)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| linkEmbedController | ILinkEmbedController | Ссылка на контроллер внедрения ссылки. |
+| linkEmbedController | ILinkEmbedController | Ссылка на контроллер встраивания ссылок. |
 
 ### Примечания
 
-Контроллер встраивания ссылок — это объект делегата, который отвечает за принятие решений о необходимости встраивания ресурсов (таких как изображения) внешние ресурсы.
+Контроллер встраивания ссылок — это объект делегата, который отвечает за принятие решений, нужно ли встраивать ресурсы (такие как изображения) или ссылаться на них как на внешние ресурсы.
 
-### Смотрите также
+### См. также
 
-* interface [ILinkEmbedController](../../ilinkembedcontroller)
-* class [SVGOptions](../../svgoptions)
+* интерфейс [ILinkEmbedController](../../ilinkembedcontroller)
+* класс [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)
 * сборка [Aspose.Slides](../../../)
 

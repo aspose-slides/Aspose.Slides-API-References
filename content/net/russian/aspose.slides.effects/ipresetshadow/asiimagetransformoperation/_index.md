@@ -1,23 +1,24 @@
 ---
 title: AsIImageTransformOperation
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтенияIImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+second_title: Справка по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/ipresetshadow/asiimagetransformoperation/
 ---
-## IPresetShadow.AsIImageTransformOperation property
 
-Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../../iimagetransformoperation).
+## Свойство IPresetShadow.AsIImageTransformOperation
+
+Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IImageTransformOperation](../../iimagetransformoperation)
-* interface [IPresetShadow](../../ipresetshadow)
+* интерфейс [IImageTransformOperation](../../iimagetransformoperation)
+* интерфейс [IPresetShadow](../../ipresetshadow)
 * пространство имен [Aspose.Slides.Effects](../../ipresetshadow)
 * сборка [Aspose.Slides](../../../)
 

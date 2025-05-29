@@ -1,12 +1,13 @@
 ---
 title: SkewOffsetY
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство skew.offset.y
 type: docs
 weight: 840
 url: /ru/aspose.slides.animation/behaviorproperty/skewoffsety/
 ---
-## BehaviorProperty.SkewOffsetY property
+
+## Свойство BehaviorProperty.SkewOffsetY
 
 Представляет свойство 'skew.offset.y'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/skewoffsety/
 public static BehaviorProperty SkewOffsetY { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: RotationX
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает угол поворота вокруг оси X т.е. в направлении Y для трехмерных диаграмм от -90 до 90 градусов. Свойство соответствует элементу 21.2.2.157 rotX X Rotation в ECMA-376 и параметру Y Rotation в PowerPoint 2007. Чтение/записьSByte.
+description: Получает или устанавливает степень вращения вокруг оси X, т.е. в направлении Y для 3D-графиков в диапазоне от -90 до 90 градусов. Свойство соответствует элементу 21.2.2.157 rotX Вращение X в ECMA-376 и опции "Вращение Y" в PowerPoint 2007. Читаемое/записываемое значение SByte.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/irotation3d/rotationx/
 ---
-## IRotation3D.RotationX property
 
-Возвращает или задает угол поворота вокруг оси X, т.е. в направлении Y для трехмерных диаграмм (от -90 до 90 градусов). Свойство соответствует элементу 21.2.2.157 rotX (X Rotation) в ECMA-376 и параметру Y Rotation в PowerPoint 2007+. Чтение/записьSByte.
+## Свойство IRotation3D.RotationX
+
+Получает или устанавливает степень вращения вокруг оси X, т.е. в направлении Y для 3D-графиков (в диапазоне от -90 до 90 градусов). Свойство соответствует элементу 21.2.2.157 rotX (Вращение X) в ECMA-376 и опции "Вращение Y" в PowerPoint 2007+. Читаемое/записываемое значение SByte.
 
 ```csharp
 public sbyte RotationX { get; set; }
@@ -16,7 +17,7 @@ public sbyte RotationX { get; set; }
 
 ### Смотрите также
 
-* interface [IRotation3D](../../irotation3d)
+* интерфейс [IRotation3D](../../irotation3d)
 * пространство имен [Aspose.Slides.Charts](../../irotation3d)
 * сборка [Aspose.Slides](../../../)
 

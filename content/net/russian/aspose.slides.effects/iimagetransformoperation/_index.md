@@ -1,20 +1,21 @@
 ---
 title: IImageTransformOperation
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект преобразования абстрактного изображения.
+second_title: Aspose.Slides для .NET API Справка
+description: Представляет абстрактный эффект преобразования изображения.
 type: docs
-weight: 3190
+weight: 3270
 url: /ru/aspose.slides.effects/iimagetransformoperation/
 ---
-## IImageTransformOperation interface
 
-Представляет эффект преобразования абстрактного изображения.
+## Интерфейс IImageTransformOperation
+
+Представляет абстрактный эффект преобразования изображения.
 
 ```csharp
 public interface IImageTransformOperation
 ```
 
-### Смотрите также
+### Также смотрите
 
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
 * сборка [Aspose.Slides](../../)

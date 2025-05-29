@@ -1,24 +1,80 @@
 ---
 title: HeaderFooterManager
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el administrador de encabezado y pie de página real. Solo lecturaIPresentationHeaderFooterManageraspose.slides/ipresentationheaderfootermanager .
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el gerente de HeaderFooter actual. Solo lectura IPresentationHeaderFooterManageraspose.slides/ipresentationheaderfootermanager.
 type: docs
 weight: 120
 url: /es/aspose.slides/presentation/headerfootermanager/
 ---
-## Presentation.HeaderFooterManager property
 
-Devuelve el administrador de encabezado y pie de página real. Solo lectura[`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager) .
+## Propiedad Presentation.HeaderFooterManager
+
+Devuelve el gerente de HeaderFooter actual. Solo lectura [`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).
 
 ```csharp
 public IPresentationHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### Ver también
+### Ejemplos
 
-* interface [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
-* class [Presentation](../../presentation)
+El siguiente ejemplo muestra cómo establecer la visibilidad del pie de página dentro de una diapositiva de una presentación de PowerPoint.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("presentation.ppt"))
+{
+    IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
+	// La propiedad IsFooterVisible se utiliza para indicar que un marcador de posición de pie de página de diapositiva no está presente.
+    if (!headerFooterManager.IsFooterVisible)
+    {
+		// El método SetFooterVisibility se utiliza para hacer visible un marcador de posición de pie de página de diapositiva.
+        headerFooterManager.SetFooterVisibility(true);
+    }
+	// La propiedad IsSlideNumberVisible se utiliza para indicar que un marcador de posición de número de página de diapositiva no está presente.
+    if (!headerFooterManager.IsSlideNumberVisible)
+    {
+		// El método SetSlideNumberVisibility se utiliza para hacer visible un marcador de posición de número de página de diapositiva.
+        headerFooterManager.SetSlideNumberVisibility(true);
+    }
+	// La propiedad IsDateTimeVisible se utiliza para indicar que un marcador de posición de fecha y hora de diapositiva no está presente.
+    if (!headerFooterManager.IsDateTimeVisible)
+    {
+		// El método SetFooterVisibility se utiliza para hacer visible un marcador de posición de fecha y hora de diapositiva.
+        headerFooterManager.SetDateTimeVisibility(true);
+    }
+	// El método SetFooterText se utiliza para establecer texto en el marcador de posición de pie de página de la diapositiva.
+    headerFooterManager.SetFooterText("Texto del pie de página");
+	// El método SetDateTimeText se utiliza para establecer texto en el marcador de posición de fecha y hora de la diapositiva.
+    headerFooterManager.SetDateTimeText("Texto de fecha y hora");
+	presentation.Save("Presentation.ppt",SaveFormat.ppt);
+}
+```
+
+El siguiente ejemplo muestra cómo establecer la visibilidad del pie de página secundario dentro de una diapositiva.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("presentation.ppt"))
+{
+    IMasterSlideHeaderFooterManager headerFooterManager = presentation.Masters[0].HeaderFooterManager;
+	// El método SetFooterAndChildFootersVisibility se utiliza para hacer visibles un pie de página de diapositiva maestra y todos los marcadores de posición de pie de página secundarios.
+    headerFooterManager.SetFooterAndChildFootersVisibility(true);
+	// El método SetSlideNumberAndChildSlideNumbersVisibility se utiliza para hacer visibles un número de página de diapositiva maestra y todos los marcadores de posición de números de diapositivas secundarios.
+    headerFooterManager.SetSlideNumberAndChildSlideNumbersVisibility(true);
+	// El método SetDateTimeAndChildDateTimesVisibility se utiliza para hacer visibles una diapositiva maestra y todos los marcadores de posición de fecha y hora secundarios.
+    headerFooterManager.SetDateTimeAndChildDateTimesVisibility(true);
+	// El método SetFooterAndChildFootersText se utiliza para establecer texto en la diapositiva maestra y todos los marcadores de posición de pie de página secundarios.
+    headerFooterManager.SetFooterAndChildFootersText("Texto del pie de página");
+	// El método SetDateTimeAndChildDateTimesText se utiliza para establecer texto en la diapositiva maestra y todos los marcadores de posición de fecha y hora secundarios.
+    headerFooterManager.SetDateTimeAndChildDateTimesText("Texto de fecha y hora");
+}
+```
+
+### Véase también
+
+* interfaz [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
+* clase [Presentation](../../presentation)
 * espacio de nombres [Aspose.Slides](../../presentation)
-* asamblea [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

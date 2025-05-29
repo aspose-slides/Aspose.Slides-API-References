@@ -1,22 +1,23 @@
 ---
 title: AutoReverse
-second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает следует ли автоматически воспроизводить анимацию в обратном направлении после ее воспроизведения в прямом направлении. Чтение/записьBoolean.
+second_title: Справка по API Aspose.Slides для .NET
+description: Описывает, следует ли автоматически воспроизводить анимацию в обратном направлении после ее воспроизведения в прямом направлении. Чтение/запись Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/itiming/autoreverse/
 ---
-## ITiming.AutoReverse property
 
-Описывает, следует ли автоматически воспроизводить анимацию в обратном направлении после ее воспроизведения в прямом направлении. Чтение/записьBoolean.
+## Свойство ITiming.AutoReverse
+
+Описывает, следует ли автоматически воспроизводить анимацию в обратном направлении после ее воспроизведения в прямом направлении. Чтение/запись Boolean.
 
 ```csharp
 public bool AutoReverse { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ITiming](../../itiming)
+* интерфейс [ITiming](../../itiming)
 * пространство имен [Aspose.Slides.Animation](../../itiming)
 * сборка [Aspose.Slides](../../../)
 

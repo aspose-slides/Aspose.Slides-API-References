@@ -1,23 +1,24 @@
 ---
-title: Entries
+title: Записи
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает записи легенды. Только для чтенияILegendEntryCollectionaspose.slides.charts/ilegendentrycollection.
+description: Получает записи легенды. Только для чтения ILegendEntryCollectionaspose.slides.charts/ilegendentrycollection.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/legend/entries/
 ---
-## Legend.Entries property
 
-Получает записи легенды. Только для чтения[`ILegendEntryCollection`](../../ilegendentrycollection).
+## Свойство Legend.Entries
+
+Получает записи легенды. Только для чтения [`ILegendEntryCollection`](../../ilegendentrycollection).
 
 ```csharp
 public ILegendEntryCollection Entries { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ILegendEntryCollection](../../ilegendentrycollection)
-* class [Legend](../../legend)
+* интерфейс [ILegendEntryCollection](../../ilegendentrycollection)
+* класс [Legend](../../legend)
 * пространство имен [Aspose.Slides.Charts](../../legend)
 * сборка [Aspose.Slides](../../../)
 

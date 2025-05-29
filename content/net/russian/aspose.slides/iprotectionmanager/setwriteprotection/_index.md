@@ -1,14 +1,15 @@
 ---
-title: SetWriteProtection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Установить защиту от записи для этой презентации с указанным паролем.
+title: УстановитьЗащитуОтЗаписи
+second_title: Справочная документация по Aspose.Slides для .NET
+description: Установите защиту от записи для этой презентации с указанным паролем.
 type: docs
 weight: 110
 url: /ru/aspose.slides/iprotectionmanager/setwriteprotection/
 ---
-## IProtectionManager.SetWriteProtection method
 
-Установить защиту от записи для этой презентации с указанным паролем.
+## Метод IProtectionManager.SetWriteProtection
+
+Установите защиту от записи для этой презентации с указанным паролем.
 
 ```csharp
 public void SetWriteProtection(string password)
@@ -16,11 +17,11 @@ public void SetWriteProtection(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Пароль. |
+| password | String | Пароль. |
 
-### Смотрите также
+### См. также
 
-* interface [IProtectionManager](../../iprotectionmanager)
+* интерфейс [IProtectionManager](../../iprotectionmanager)
 * пространство имен [Aspose.Slides](../../iprotectionmanager)
 * сборка [Aspose.Slides](../../../)
 

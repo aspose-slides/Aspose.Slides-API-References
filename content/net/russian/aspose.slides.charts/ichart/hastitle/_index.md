@@ -1,22 +1,23 @@
 ---
 title: HasTitle
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет имеет ли диаграмма видимый заголовок. Чтение/записьBoolean.
+second_title: Справка по API Aspose.Slides для .NET
+description: Определяет, имеет ли график видимый заголовок. Чтение/запись, логическое значение.
 type: docs
 weight: 140
 url: /ru/aspose.slides.charts/ichart/hastitle/
 ---
-## IChart.HasTitle property
 
-Определяет, имеет ли диаграмма видимый заголовок. Чтение/записьBoolean.
+## Свойство IChart.HasTitle
+
+Определяет, имеет ли график видимый заголовок. Чтение/запись, логическое значение.
 
 ```csharp
 public bool HasTitle { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [IChart](../../ichart)
+* интерфейс [IChart](../../ichart)
 * пространство имен [Aspose.Slides.Charts](../../ichart)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: SetTextFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает определенные свойства формата части для всех частей ячеек строки.
+second_title: Aspose.Sildes для .NET API Reference
+description: Устанавливает заданные свойства формата порций ко всем порциям ячеек строки.
 type: docs
 weight: 40
 url: /ru/aspose.slides/row/settextformat/
 ---
+
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-Устанавливает определенные свойства формата части для всех частей ячеек строки.
+Устанавливает заданные свойства формата порций ко всем порциям ячеек строки.
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -16,12 +17,12 @@ public void SetTextFormat(IPortionFormat source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | IPortionFormat | Объект IPortionFormat с необходимым набором свойств. |
+| source | IPortionFormat | Объект IPortionFormat с установленными необходимыми свойствами. |
 
-### Смотрите также
+### См. также
 
-* interface [IPortionFormat](../../iportionformat)
-* class [Row](../../row)
+* интерфейс [IPortionFormat](../../iportionformat)
+* класс [Row](../../row)
 * пространство имен [Aspose.Slides](../../row)
 * сборка [Aspose.Slides](../../../)
 
@@ -29,7 +30,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ## SetTextFormat(IParagraphFormat) {#settextformat}
 
-Устанавливает определенные свойства формата абзаца для всех абзацев ячеек строки.
+Устанавливает заданные свойства формата абзаца ко всем абзацам ячеек строки.
 
 ```csharp
 public void SetTextFormat(IParagraphFormat source)
@@ -39,10 +40,10 @@ public void SetTextFormat(IParagraphFormat source)
 | --- | --- | --- |
 | source | IParagraphFormat | Объект IParagraphFormat с установленными необходимыми свойствами. |
 
-### Смотрите также
+### См. также
 
-* interface [IParagraphFormat](../../iparagraphformat)
-* class [Row](../../row)
+* интерфейс [IParagraphFormat](../../iparagraphformat)
+* класс [Row](../../row)
 * пространство имен [Aspose.Slides](../../row)
 * сборка [Aspose.Slides](../../../)
 
@@ -50,7 +51,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-Устанавливает определенные свойства формата текстового фрейма для всех текстовых фреймов ячеек строки.
+Устанавливает заданные свойства формата текстового фрейма ко всем текстовым фреймам ячеек строки.
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -58,12 +59,12 @@ public void SetTextFormat(ITextFrameFormat source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | ITextFrameFormat | Объект ITextFrameFormat с необходимым набором свойств. |
+| source | ITextFrameFormat | Объект ITextFrameFormat с установленными необходимыми свойствами. |
 
-### Смотрите также
+### См. также
 
-* interface [ITextFrameFormat](../../itextframeformat)
-* class [Row](../../row)
+* интерфейс [ITextFrameFormat](../../itextframeformat)
+* класс [Row](../../row)
 * пространство имен [Aspose.Slides](../../row)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: HeightPercents
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает высоту трехмерной диаграммы в процентах от ширины диаграммы от 5 до 500 процентов. Чтение/записьUInt16.
+description: Устанавливает высоту 3-D графика в процентах от ширины графика от 5 до 500 процентов. Чтение/запись UInt16.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/rotation3d/heightpercents/
 ---
-## Rotation3D.HeightPercents property
 
-Указывает высоту трехмерной диаграммы в процентах от ширины диаграммы (от 5 до 500 процентов). Чтение/записьUInt16.
+## Свойство Rotation3D.HeightPercents
+
+Устанавливает высоту 3-D графика в процентах от ширины графика (от 5 до 500 процентов). Чтение/запись UInt16.
 
 ```csharp
 public ushort HeightPercents { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Rotation3D](../../rotation3d)
+* класс [Rotation3D](../../rotation3d)
 * пространство имен [Aspose.Slides.Charts](../../rotation3d)
 * сборка [Aspose.Slides](../../../)
 

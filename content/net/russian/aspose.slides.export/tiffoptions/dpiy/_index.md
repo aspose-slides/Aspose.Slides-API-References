@@ -1,22 +1,23 @@
 ---
 title: DpiY
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет вертикальное разрешение в точках на дюйм. Чтение/записьUInt32.
+second_title: Справка по API Aspose.Slides для .NET
+description: Указывает вертикальное разрешение в точках на дюйм. Чтение/запись UInt32.
 type: docs
-weight: 40
+weight: 50
 url: /ru/aspose.slides.export/tiffoptions/dpiy/
 ---
-## TiffOptions.DpiY property
 
-Определяет вертикальное разрешение в точках на дюйм. Чтение/записьUInt32.
+## Свойство TiffOptions.DpiY
+
+Указывает вертикальное разрешение в точках на дюйм. Чтение/запись UInt32.
 
 ```csharp
 public uint DpiY { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [TiffOptions](../../tiffoptions)
+* класс [TiffOptions](../../tiffoptions)
 * пространство имен [Aspose.Slides.Export](../../tiffoptions)
 * сборка [Aspose.Slides](../../../)
 

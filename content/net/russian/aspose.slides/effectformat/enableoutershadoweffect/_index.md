@@ -1,12 +1,13 @@
 ---
 title: EnableOuterShadowEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Включает эффект внешней тени.
 type: docs
 weight: 210
 url: /ru/aspose.slides/effectformat/enableoutershadoweffect/
 ---
-## EffectFormat.EnableOuterShadowEffect method
+
+## EffectFormat.EnableOuterShadowEffect метод
 
 Включает эффект внешней тени.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/effectformat/enableoutershadoweffect/
 public void EnableOuterShadowEffect()
 ```
 
-### Смотрите также
+### См. Также
 
-* class [EffectFormat](../../effectformat)
+* класс [EffectFormat](../../effectformat)
 * пространство имен [Aspose.Slides](../../effectformat)
 * сборка [Aspose.Slides](../../../)
 

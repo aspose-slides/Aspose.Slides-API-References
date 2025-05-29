@@ -1,12 +1,13 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Служит хэш-функцией для определенного типа.
 type: docs
 weight: 50
 url: /ru/aspose.slides.effects/filloverlay/gethashcode/
 ---
-## FillOverlay.GetHashCode method
+
+## Метод FillOverlay.GetHashCode
 
 Служит хэш-функцией для определенного типа.
 
@@ -14,13 +15,13 @@ url: /ru/aspose.slides.effects/filloverlay/gethashcode/
 public override int GetHashCode()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-Хэш-код текущего объекта.
+Хэш-код для текущего объекта.
 
-### Смотрите также
+### См. Также
 
-* class [FillOverlay](../../filloverlay)
+* класс [FillOverlay](../../filloverlay)
 * пространство имен [Aspose.Slides.Effects](../../filloverlay)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
 title: CropRight
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает количество процентов от реальной ширины изображения которые обрезаются справа от изображения. Чтение/записьSingle.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает количество процентов реальной ширины изображения, которое отрезается справа от картинки. Читаемое/записываемое значение Single.
 type: docs
 weight: 30
 url: /ru/aspose.slides/picturefillformat/cropright/
 ---
-## PictureFillFormat.CropRight property
 
-Возвращает или задает количество процентов от реальной ширины изображения, которые обрезаются справа от изображения. Чтение/записьSingle.
+## Свойство PictureFillFormat.CropRight
+
+Возвращает или устанавливает количество процентов реальной ширины изображения, которое отрезается справа от картинки. Читаемое/записываемое значение Single.
 
 ```csharp
 public float CropRight { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [PictureFillFormat](../../picturefillformat)
+* класс [PictureFillFormat](../../picturefillformat)
 * пространство имен [Aspose.Slides](../../picturefillformat)
 * сборка [Aspose.Slides](../../../)
 

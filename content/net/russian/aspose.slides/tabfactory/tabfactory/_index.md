@@ -6,7 +6,8 @@ type: docs
 weight: 10
 url: /ru/aspose.slides/tabfactory/tabfactory/
 ---
-## TabFactory constructor
+
+## Конструктор TabFactory
 
 Конструктор по умолчанию.
 
@@ -16,7 +17,7 @@ public TabFactory()
 
 ### Смотрите также
 
-* class [TabFactory](../../tabfactory)
+* класс [TabFactory](../../tabfactory)
 * пространство имен [Aspose.Slides](../../tabfactory)
 * сборка [Aspose.Slides](../../../)
 

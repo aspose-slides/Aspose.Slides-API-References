@@ -1,23 +1,24 @@
 ---
 title: AsIHyperlinkContainer
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IHyperlinkContainer. Только для чтенияIHyperlinkContaineraspose.slides/ihyperlinkcontainer.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс IHyperlinkContainer. Только для чтения IHyperlinkContainer aspose.slides/ihyperlinkcontainer.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iportionformat/asihyperlinkcontainer/
 ---
-## IPortionFormat.AsIHyperlinkContainer property
 
-Позволяет получить базовый интерфейс IHyperlinkContainer. Только для чтения[`IHyperlinkContainer`](../../ihyperlinkcontainer).
+## Свойство IPortionFormat.AsIHyperlinkContainer
+
+Позволяет получить базовый интерфейс IHyperlinkContainer. Только для чтения [`IHyperlinkContainer`](../../ihyperlinkcontainer).
 
 ```csharp
 public IHyperlinkContainer AsIHyperlinkContainer { get; }
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [IHyperlinkContainer](../../ihyperlinkcontainer)
-* interface [IPortionFormat](../../iportionformat)
+* интерфейс [IHyperlinkContainer](../../ihyperlinkcontainer)
+* интерфейс [IPortionFormat](../../iportionformat)
 * пространство имен [Aspose.Slides](../../iportionformat)
 * сборка [Aspose.Slides](../../../)
 

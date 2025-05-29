@@ -1,12 +1,13 @@
 ---
 title: ShapesAlignmentType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Определяет способ изменения размещения выбранных фигур на слайде.
 type: docs
-weight: 9160
+weight: 9630
 url: /ru/aspose.slides/shapesalignmenttype/
 ---
-## ShapesAlignmentType enumeration
+
+## Перечисление ShapesAlignmentType
 
 Определяет способ изменения размещения выбранных фигур на слайде.
 
@@ -14,20 +15,20 @@ url: /ru/aspose.slides/shapesalignmenttype/
 public enum ShapesAlignmentType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| AlignLeft | `0` | Выровнять по левому краю |
-| AlignRight | `1` | Выровнять по правому краю |
-| AlignCenter | `2` | Выровнять по центру |
-| AlignTop | `3` | Выровнять по верхнему краю |
-| AlignMiddle | `4` | Выровнять по центру |
-| AlignBottom | `5` | Выровнять по нижнему краю |
-| DistributeHorizontally | `6` | Распределить по горизонтали |
-| DistributeVertically | `7` | Распределить по вертикали |
+| AlignLeft | `0` | Выравнивание по левому краю |
+| AlignRight | `1` | Выравнивание по правому краю |
+| AlignCenter | `2` | Выравнивание по центру |
+| AlignTop | `3` | Выравнивание по верхнему краю |
+| AlignMiddle | `4` | Выравнивание по середине |
+| AlignBottom | `5` | Выравнивание по нижнему краю |
+| DistributeHorizontally | `6` | Распределить горизонтально |
+| DistributeVertically | `7` | Распределить вертикально |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

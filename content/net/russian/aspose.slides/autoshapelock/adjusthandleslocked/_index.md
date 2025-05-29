@@ -1,22 +1,23 @@
 ---
 title: AdjustHandlesLocked
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли изменение значений настройки. Чтение/записьBoolean.
+description: Определяет, запрещено ли изменение значений регулировки. Свойство типа Boolean для чтения и записи.
 type: docs
 weight: 10
 url: /ru/aspose.slides/autoshapelock/adjusthandleslocked/
 ---
-## AutoShapeLock.AdjustHandlesLocked property
 
-Определяет, запрещено ли изменение значений настройки. Чтение/записьBoolean.
+## Свойство AutoShapeLock.AdjustHandlesLocked
+
+Определяет, запрещено ли изменение значений регулировки. Свойство типа Boolean для чтения и записи.
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }
 ```
 
-### Смотрите также
+### Также см. 
 
-* class [AutoShapeLock](../../autoshapelock)
+* класс [AutoShapeLock](../../autoshapelock)
 * пространство имен [Aspose.Slides](../../autoshapelock)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,51 +1,53 @@
 ---
 title: IChartDataPoint
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет точку данных ряда.
+second_title: Справочник API Aspose.Slides для .NET
+description: Представляет данные точек серии.
 type: docs
-weight: 1680
+weight: 1740
 url: /ru/aspose.slides.charts/ichartdatapoint/
 ---
-## IChartDataPoint interface
 
-Представляет точку данных ряда.
+## Интерфейс IChartDataPoint
+
+Представляет данные точек серии.
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Возвращает интерфейс IActualLayout. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Возвращает размер пузырька точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Возвращает значение цвета точки данных диаграммы. Используется с диаграммами Map. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Возвращает контейнер уровней точек данных. Применяется для серий Treeamp и Sunburst. Индексация уровней точек данных начинается с нуля. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Представляет значения баров погрешностей серии в случае пользовательского типа значения. Только для чтения[`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Задает величину, на которую точка данных должна быть перемещена из центра круговой диаграммы. Чтение/записьInt32. |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Представляет свойства форматирования. Чтение/запись[`IFormat`](../iformat). |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Указывает, что точка данных должна инвертировать свои цвета, если значение отрицательное. Чтение/записьBoolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Указывает, что к пузырькам применяется трехмерный эффект. Чтение/записьBoolean. |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Представляет метку точки данных диаграммы. Только чтение[`IDataLabel`](../idatalabel). |
-| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Указывает маркер данных. Только для чтения[`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Свойства соответствующей записи легенды в случае типа диаграммы из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie , ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Только для чтения[`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Устанавливает точку данных как общую. Применяется только для серии Waterfall. |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Возвращает значение размера точки данных диаграммы. Используется с диаграммами Treemap и Sunburst. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Возвращает значение точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Возвращает значение x точки данных диаграммы. Только для чтения[`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Возвращает значение y точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Возвращает размер пузырька точки данных графика. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Возвращает цветовое значение точки данных графика. Используется с картами. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Возвращает контейнер уровней точек данных. Применяется для серии TreeMap и Sunburst. Индексация уровней точек данных начинается с нуля. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Представляет значения пользовательских ошибок серий в случае типа значения Custom. Только для чтения [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Определяет, насколько точка данных должна быть смещена от центра диаграммы. Чтение/запись Int32. |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Представляет свойства форматирования. Чтение/запись [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Определяет, к какому из дочерних коллекций родителя относится эта точка данных. Чтение UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Указывает, что точка данных должна инвертировать свои цвета, если значение отрицательное. Чтение/запись Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Указывает, что пузырьки имеют 3D-эффект. Чтение/запись Boolean. |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Представляет метку точки данных графика. Только для чтения [`IDataLabel`](../idatalabel). |
+| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Указывает маркер данных. Только для чтения [`IMarker`](../imarker). |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Свойства соответствующей записи легенды в случае типа диаграммы из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Только для чтения [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Устанавливает точку данных как общую. Применяется только для типа водопадной серии. |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Возвращает размерное значение точки данных графика. Используется с диаграммами Treemap и Sunburst. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Возвращает значение точки данных графика. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Возвращает x-значение точки данных графика. Только для чтения [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Возвращает y-значение точки данных графика. Только для чтения [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Возвращает автоматический цвет точки данных на основе индекса серии, индекса точки данных, свойства ParentSeriesGroup.IsColorVaried и стиля диаграммы. Этот цвет используется по умолчанию, если FillType равен NotDefined. |
-| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Удаляет DataPoint из серии диаграмм. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Возвращает автоматический цвет точки данных на основе индекса серии, индекса точки данных, свойства ParentSeriesGroup.IsColorVaried и стиля графика. Этот цвет используется по умолчанию, если FillType равен NotDefined. |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Удаляет DataPoint из серии графика. |
 
-### Смотрите также
+### См. также
 
-* interface [IActualLayout](../iactuallayout)
+* интерфейс [IActualLayout](../iactuallayout)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 

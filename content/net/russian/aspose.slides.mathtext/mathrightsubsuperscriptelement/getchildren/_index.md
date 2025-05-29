@@ -1,12 +1,13 @@
 ---
 title: GetChildren
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Получить дочерние элементы
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/mathrightsubsuperscriptelement/getchildren/
 ---
-## MathRightSubSuperscriptElement.GetChildren method
+
+## MathRightSubSuperscriptElement.GetChildren метод
 
 Получить дочерние элементы
 
@@ -14,10 +15,10 @@ url: /ru/aspose.slides.mathtext/mathrightsubsuperscriptelement/getchildren/
 public IMathElement[] GetChildren()
 ```
 
-### Смотрите также
+### Также смотрите
 
-* interface [IMathElement](../../imathelement)
-* class [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)
+* интерфейс [IMathElement](../../imathelement)
+* класс [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)
 * пространство имен [Aspose.Slides.MathText](../../mathrightsubsuperscriptelement)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: AddGrayScaleEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый эффект шкалы серого в конец коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет новый эффект серой шкалы в конец коллекции.
 type: docs
 weight: 180
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect/
 ---
-## ImageTransformOperationCollection.AddGrayScaleEffect method
 
-Добавляет новый эффект шкалы серого в конец коллекции.
+## ImageTransformOperationCollection.AddGrayScaleEffect метод
+
+Добавляет новый эффект серой шкалы в конец коллекции.
 
 ```csharp
 public IGrayScale AddGrayScaleEffect()
@@ -18,10 +19,10 @@ public IGrayScale AddGrayScaleEffect()
 
 Индекс нового эффекта изображения в коллекции.
 
-### Смотрите также
+### См. также
 
-* interface [IGrayScale](../../igrayscale)
-* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* интерфейс [IGrayScale](../../igrayscale)
+* класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * сборка [Aspose.Slides](../../../)
 

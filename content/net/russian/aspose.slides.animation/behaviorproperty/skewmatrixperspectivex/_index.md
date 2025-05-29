@@ -6,7 +6,8 @@ type: docs
 weight: 770
 url: /ru/aspose.slides.animation/behaviorproperty/skewmatrixperspectivex/
 ---
-## BehaviorProperty.SkewMatrixPerspectiveX property
+
+## Свойство BehaviorProperty.SkewMatrixPerspectiveX
 
 Представляет свойство 'skew.matrix.perspectiveX'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/skewmatrixperspectivex/
 public static BehaviorProperty SkewMatrixPerspectiveX { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

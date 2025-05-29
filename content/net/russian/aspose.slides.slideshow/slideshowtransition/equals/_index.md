@@ -1,14 +1,15 @@
 ---
-title: Equals
+title: Равно
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равны ли два экземпляра SlideShowTransition. Чтение/записьBoolean.
+description: Определяет, равны ли два экземпляра SlideShowTransition. Читаемое/записываемое логическое значение.
 type: docs
-weight: 110
+weight: 120
 url: /ru/aspose.slides.slideshow/slideshowtransition/equals/
 ---
-## SlideShowTransition.Equals method
 
-Определяет, равны ли два экземпляра SlideShowTransition. Чтение/записьBoolean.
+## Метод SlideShowTransition.Equals
+
+Определяет, равны ли два экземпляра SlideShowTransition. Читаемое/записываемое логическое значение.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,15 +17,15 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Переход слайд-шоу для сравнения с текущим переходом слайд-шоу. |
+| obj | Object | SlideShowTransition, который нужно сравнить с текущим SlideShowTransition. |
 
 ### Возвращаемое значение
 
-**true** , если указанный SlideShowTransition равен текущему SlideShowTransition; в противном случае **false** .
+**true**, если указанный SlideShowTransition равен текущему SlideShowTransition; в противном случае **false**.
 
-### Смотрите также
+### См. также
 
-* class [SlideShowTransition](../../slideshowtransition)
+* класс [SlideShowTransition](../../slideshowtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../slideshowtransition)
 * сборка [Aspose.Slides](../../../)
 

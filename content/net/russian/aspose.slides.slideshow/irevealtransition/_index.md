@@ -1,30 +1,31 @@
 ---
 title: IRevealTransition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода между слайдами.
+description: Эффект перехода с раскрытием слайда.
 type: docs
-weight: 9380
+weight: 9850
 url: /ru/aspose.slides.slideshow/irevealtransition/
 ---
-## IRevealTransition interface
 
-Эффект перехода между слайдами.
+## Интерфейс IRevealTransition
+
+Эффект перехода с раскрытием слайда.
 
 ```csharp
 public interface IRevealTransition : ITransitionValueBase
 ```
 
-## Характеристики
+## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Указывает, исчезает ли переход через черный цвет. Чтение/записьBoolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Указывает, затухает ли переход через черный. Чтение/запись Boolean. |
 
-### Смотрите также
+### См. также
 
-* interface [ITransitionValueBase](../itransitionvaluebase)
+* интерфейс [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)
 

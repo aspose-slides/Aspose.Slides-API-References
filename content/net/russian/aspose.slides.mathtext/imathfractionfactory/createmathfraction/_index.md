@@ -1,11 +1,12 @@
 ---
 title: CreateMathFraction
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает математическую дробь
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathfractionfactory/createmathfraction/
 ---
+
 ## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
 
 Создает математическую дробь
@@ -17,20 +18,20 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| числитель | IMathElement | Числитель |
-| знаменатель | IMathElement | Знаменатель |
+| numerator | IMathElement | Числитель |
+| denominator | IMathElement | Знаменатель |
 | fractionType | MathFractionTypes | Тип дроби |
 
 ### Возвращаемое значение
 
-Новая математическая дробь[`IMathFraction`](../../imathfraction)
+Новая математическая дробь [`IMathFraction`](../../imathfraction)
 
-### Смотрите также
+### См. также
 
-* interface [IMathFraction](../../imathfraction)
-* interface [IMathElement](../../imathelement)
-* enum [MathFractionTypes](../../mathfractiontypes)
-* interface [IMathFractionFactory](../../imathfractionfactory)
+* интерфейс [IMathFraction](../../imathfraction)
+* интерфейс [IMathElement](../../imathelement)
+* перечисление [MathFractionTypes](../../mathfractiontypes)
+* интерфейс [IMathFractionFactory](../../imathfractionfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathfractionfactory)
 * сборка [Aspose.Slides](../../../)
 
@@ -46,18 +47,18 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| числитель | IMathElement | Числитель |
-| знаменатель | IMathElement | Знаменатель |
+| numerator | IMathElement | Числитель |
+| denominator | IMathElement | Знаменатель |
 
 ### Возвращаемое значение
 
-Новая математическая дробь[`IMathFraction`](../../imathfraction)
+Новая математическая дробь [`IMathFraction`](../../imathfraction)
 
-### Смотрите также
+### См. также
 
-* interface [IMathFraction](../../imathfraction)
-* interface [IMathElement](../../imathelement)
-* interface [IMathFractionFactory](../../imathfractionfactory)
+* интерфейс [IMathFraction](../../imathfraction)
+* интерфейс [IMathElement](../../imathelement)
+* интерфейс [IMathFractionFactory](../../imathfractionfactory)
 * пространство имен [Aspose.Slides.MathText](../../imathfractionfactory)
 * сборка [Aspose.Slides](../../../)
 

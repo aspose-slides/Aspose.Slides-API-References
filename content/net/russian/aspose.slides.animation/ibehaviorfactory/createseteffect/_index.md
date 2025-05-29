@@ -1,14 +1,15 @@
 ---
 title: CreateSetEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает эффект набора.
+second_title: Aspose.Slides для .NET API Reference
+description: Создает эффект установки.
 type: docs
 weight: 80
 url: /ru/aspose.slides.animation/ibehaviorfactory/createseteffect/
 ---
-## IBehaviorFactory.CreateSetEffect method
 
-Создает эффект набора.
+## Метод IBehaviorFactory.CreateSetEffect
+
+Создает эффект установки.
 
 ```csharp
 public ISetEffect CreateSetEffect()
@@ -16,12 +17,12 @@ public ISetEffect CreateSetEffect()
 
 ### Возвращаемое значение
 
-Установить эффект.
+Эффект установки.
 
-### Смотрите также
+### См. также
 
-* interface [ISetEffect](../../iseteffect)
-* interface [IBehaviorFactory](../../ibehaviorfactory)
+* интерфейс [ISetEffect](../../iseteffect)
+* интерфейс [IBehaviorFactory](../../ibehaviorfactory)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorfactory)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,14 +1,15 @@
 ---
 title: PresetNumberFormat
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает встроенный формат отображения чисел и дат. Номер предустановки должен быть в диапазоне 0..22 или 37..49. Чтение/записьByte.
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает или устанавливает встроенный формат отображения чисел и дат. Предварительно заданное число должно быть в 0..22 или 37..49. Чтение/запись Byte.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/chartdatacell/presetnumberformat/
 ---
-## ChartDataCell.PresetNumberFormat property
 
-Получает или задает встроенный формат отображения чисел и дат. Номер предустановки должен быть в диапазоне [0..22] или [37..49]". Чтение/записьByte.
+## Свойство ChartDataCell.PresetNumberFormat
+
+Получает или устанавливает встроенный формат отображения чисел и дат. Предварительно заданное число должно быть в [0..22] или [37..49]. Чтение/запись Byte.
 
 ```csharp
 public byte PresetNumberFormat { get; set; }
@@ -17,7 +18,7 @@ public byte PresetNumberFormat { get; set; }
 ### Примеры
 
 ```csharp
-0	General
+0	Общий
 1	0
 2	0.00
 3	#,##0
@@ -55,9 +56,9 @@ public byte PresetNumberFormat { get; set; }
 49	@
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartDataCell](../../chartdatacell)
+* класс [ChartDataCell](../../chartdatacell)
 * пространство имен [Aspose.Slides.Charts](../../chartdatacell)
 * сборка [Aspose.Slides](../../../)
 

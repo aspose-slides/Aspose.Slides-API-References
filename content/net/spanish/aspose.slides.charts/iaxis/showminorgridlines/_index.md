@@ -1,22 +1,23 @@
 ---
 title: ShowMinorGridLines
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa si se mostraron las líneas de cuadrícula menores. Solo lecturaBoolean .
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa si se muestran las líneas de cuadrícula menores. Solo lectura Boolean.
 type: docs
 weight: 490
 url: /es/aspose.slides.charts/iaxis/showminorgridlines/
 ---
-## IAxis.ShowMinorGridLines property
 
-Representa si se mostraron las líneas de cuadrícula menores. Solo lecturaBoolean .
+## Propiedad IAxis.ShowMinorGridLines
+
+Representa si se muestran las líneas de cuadrícula menores. Solo lectura Boolean.
 
 ```csharp
 public bool ShowMinorGridLines { get; }
 ```
 
-### Ver también
+### Ver También
 
-* interface [IAxis](../../iaxis)
+* interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)
 * asamblea [Aspose.Slides](../../../)
 

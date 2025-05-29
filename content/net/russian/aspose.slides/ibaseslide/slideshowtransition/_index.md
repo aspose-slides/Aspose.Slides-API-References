@@ -1,23 +1,24 @@
 ---
 title: SlideShowTransition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект TransitionEx который содержит информацию о продвижении указанного слайда во время показа слайдов. Только для чтенияISlideShowTransitionaspose.slides/islideshowtransition.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает объект TransitionEx, который содержит информацию о том, как указанный слайд переходит во время слайд-шоу. Только для чтения ISlideShowTransition aspose.slides/islideshowtransition.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ibaseslide/slideshowtransition/
 ---
-## IBaseSlide.SlideShowTransition property
 
-Возвращает объект TransitionEx, который содержит информацию о продвижении указанного слайда во время показа слайдов. Только для чтения[`ISlideShowTransition`](../../islideshowtransition).
+## IBaseSlide.SlideShowTransition свойство
+
+Возвращает объект TransitionEx, который содержит информацию о том, как указанный слайд переходит во время слайд-шоу. Только для чтения [`ISlideShowTransition`](../../islideshowtransition).
 
 ```csharp
 public ISlideShowTransition SlideShowTransition { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* interface [ISlideShowTransition](../../islideshowtransition)
-* interface [IBaseSlide](../../ibaseslide)
+* интерфейс [ISlideShowTransition](../../islideshowtransition)
+* интерфейс [IBaseSlide](../../ibaseslide)
 * пространство имен [Aspose.Slides](../../ibaseslide)
 * сборка [Aspose.Slides](../../../)
 

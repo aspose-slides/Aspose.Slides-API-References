@@ -1,29 +1,36 @@
 ---
 title: ISvgImage
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет изображение SVG.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой SVG изображение.
 type: docs
-weight: 6600
+weight: 6960
 url: /ru/aspose.slides/isvgimage/
 ---
-## ISvgImage interface
 
-Представляет изображение SVG.
+## Интерфейс ISvgImage
+
+Представляет собой SVG изображение.
 
 ```csharp
 public interface ISvgImage
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Возвращает базовый URI указанного SVG. Используется для разрешения относительных ссылок. Только чтениеString. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов SVG. Только для чтения[`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Возвращает содержимое SVG. Только чтениеString. |
-| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Возвращает данные SVG. Только для чтенияByte[]. |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Возвращает базовый URI указанного SVG. Используется для разрешения относительных ссылок. Только для чтения String. |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов SVG. Только для чтения [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Возвращает содержимое SVG. Только для чтения String. |
+| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Возвращает данные SVG. Только для чтения Byte[]. |
 
-### Смотрите также
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | Сохраняет изображение SVG в виде EMF файла. |
+
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,12 +1,13 @@
 ---
 title: ShadowType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Ссылка на API Aspose.Slides для .NET
 description: Представляет свойство shadow.type
 type: docs
 weight: 760
 url: /ru/aspose.slides.animation/behaviorproperty/shadowtype/
 ---
-## BehaviorProperty.ShadowType property
+
+## Свойство BehaviorProperty.ShadowType
 
 Представляет свойство 'shadow.type'
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides.animation/behaviorproperty/shadowtype/
 public static BehaviorProperty ShadowType { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [BehaviorProperty](../../behaviorproperty)
+* класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)
 * сборка [Aspose.Slides](../../../)
 

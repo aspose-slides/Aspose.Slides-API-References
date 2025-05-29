@@ -1,14 +1,15 @@
 ---
 title: RemoveCustomProperty
-second_title: Справочник по API Aspose.Slides для .NET
-description: Удалить пользовательское свойство связанное с указанным именем.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Удалить настраиваемое свойство, связанное с указанным именем.
 type: docs
-weight: 330
+weight: 440
 url: /ru/aspose.slides/documentproperties/removecustomproperty/
 ---
-## DocumentProperties.RemoveCustomProperty method
 
-Удалить пользовательское свойство, связанное с указанным именем.
+## Метод DocumentProperties.RemoveCustomProperty
+
+Удалить настраиваемое свойство, связанное с указанным именем.
 
 ```csharp
 public bool RemoveCustomProperty(string name)
@@ -16,15 +17,15 @@ public bool RemoveCustomProperty(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для удаления. |
+| name | String | Имя настраиваемого свойства для удаления. |
 
 ### Возвращаемое значение
 
-Возвращает true, если свойство было удалено, и false в противном случае.
+Возвращает true, если свойство было удалено, иначе false.
 
-### Смотрите также
+### См. также
 
-* class [DocumentProperties](../../documentproperties)
+* класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)
 * сборка [Aspose.Slides](../../../)
 

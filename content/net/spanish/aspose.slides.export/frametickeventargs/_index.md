@@ -1,0 +1,55 @@
+---
+title: FrameTickEventArgs
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa los argumentos del evento FrameTick./presentationplayer/frametick.
+type: docs
+weight: 3640
+url: /es/aspose.slides.export/frametickeventargs/
+---
+
+## Clase FrameTickEventArgs
+
+Representa los argumentos del evento [`FrameTick`](../presentationplayer/frametick).
+
+```csharp
+public class FrameTickEventArgs
+```
+
+## Propiedades
+
+| Nombre | Descripción |
+| --- | --- |
+| [Player](../../aspose.slides.export/frametickeventargs/player) { get; } | Obtiene el reproductor de presentaciones |
+
+## Métodos
+
+| Nombre | Descripción |
+| --- | --- |
+| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | Obtiene el marco actual de [`PresentationPlayer`](../presentationplayer). |
+
+### Ejemplos
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    using (var animationsGenerator = new PresentationAnimationsGenerator(pres))
+    using (var player = new PresentationPlayer(animationsGenerator, 33))
+    {
+        int frameNumber = 0;
+        player.FrameTick += (sender, args) =>
+        {
+            args.GetFrame().Save($"frame_{frameNumber++}.png");
+        };
+        
+        animationsGenerator.Run(pres.Slides);
+    }
+}
+```
+
+### Véase También
+
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
+
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

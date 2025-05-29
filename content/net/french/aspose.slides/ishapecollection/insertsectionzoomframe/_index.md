@@ -1,11 +1,12 @@
 ---
 title: InsertSectionZoomFrame
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un nouvel objet Section Zoom et linsère dans une collection à lindex spécifié.
+description: Crée un nouvel objet Section Zoom et l'insère dans une collection à l'index spécifié.
 type: docs
 weight: 320
 url: /fr/aspose.slides/ishapecollection/insertsectionzoomframe/
 ---
+
 ## InsertSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
 
 Crée un nouvel objet Section Zoom et l'insère dans une collection à l'index spécifié.
@@ -15,28 +16,28 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
     float height, ISection section)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index de base zéro auquel le cadre de zoom de section doit être inséré. |
-| x | Single | Coordonnée X d'un nouveau cadre de zoom de sectionSingle. |
-| y | Single | Coordonnée Y d'un nouveau cadre de zoom de sectionSingle. |
-| width | Single | Largeur d'un nouveau cadre de zoom de sectionSingle. |
-| height | Single | Hauteur d'un nouveau cadre de zoom de sectionSingle. |
-| section | ISection | L'objet de diapositive référencé par le cadre Zoom de section[`ISection`](../../isection). |
+| index | Int32 | L'index basé sur zéro au niveau duquel le cadre Section Zoom doit être inséré. |
+| x | Single | Coordonnée X d'un nouveau cadre Section Zoom Single. |
+| y | Single | Coordonnée Y d'un nouveau cadre Section Zoom Single. |
+| width | Single | Largeur d'un nouveau cadre Section Zoom Single. |
+| height | Single | Hauteur d'un nouveau cadre Section Zoom Single. |
+| section | ISection | L'objet diapositive référencé par le cadre Section Zoom [`ISection`](../../isection). |
 
-### Return_Value
+### Valeur de retour
 
-Objet de zoom de section créé[`ISectionZoomFrame`](../../isectionzoomframe).
+Objet Section Zoom créé [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | La section référencée n'appartient pas à la présentation actuelle ou ne contient aucune diapositive. |
+| ArgumentException | La section référencée n'appartient pas à la présentation actuelle ou ne contient pas de diapositives. |
 
 ### Exemples
 
-Cet exemple illustre la création et l'insertion d'un objet Section Zoom à l'index spécifié d'une collection (en supposant qu'il y ait au moins deux sections dans la présentation "Presentation.pptx") :
+Cet exemple démontre la création et l'insertion d'un objet Section Zoom à l'index spécifié d'une collection (supposez qu'il y a au moins deux sections dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -46,13 +47,13 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Voir également
+### Voir aussi
 
 * interface [ISectionZoomFrame](../../isectionzoomframe)
 * interface [ISection](../../isection)
 * interface [IShapeCollection](../../ishapecollection)
-* espace de noms [Aspose.Slides](../../ishapecollection)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../ishapecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -65,29 +66,29 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
     float height, ISection section, IPPImage image)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index de base zéro auquel le cadre de zoom de section doit être inséré. |
-| x | Single | Coordonnée X d'un nouveau cadre de zoom de sectionSingle. |
-| y | Single | Coordonnée Y d'un nouveau cadre de zoom de sectionSingle. |
-| width | Single | Largeur d'un nouveau cadre de zoom de sectionSingle. |
-| height | Single | Hauteur d'un nouveau cadre de zoom de sectionSingle. |
-| section | ISection | L'objet de diapositive référencé par le cadre Zoom de section[`ISection`](../../isection). |
-| image | IPPImage | L'image de la diapositive référencée[`IPPImage`](../../ippimage) |
+| index | Int32 | L'index basé sur zéro au niveau duquel le cadre Section Zoom doit être inséré. |
+| x | Single | Coordonnée X d'un nouveau cadre Section Zoom Single. |
+| y | Single | Coordonnée Y d'un nouveau cadre Section Zoom Single. |
+| width | Single | Largeur d'un nouveau cadre Section Zoom Single. |
+| height | Single | Hauteur d'un nouveau cadre Section Zoom Single. |
+| section | ISection | L'objet diapositive référencé par le cadre Section Zoom [`ISection`](../../isection). |
+| image | IPPImage | L'image pour la diapositive référencée [`IPPImage`](../../ippimage). |
 
-### Return_Value
+### Valeur de retour
 
-Objet de zoom de section créé[`ISectionZoomFrame`](../../isectionzoomframe).
+Objet Section Zoom créé [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | La section référencée n'appartient pas à la présentation actuelle ou ne contient aucune diapositive. |
+| ArgumentException | La section référencée n'appartient pas à la présentation actuelle ou ne contient pas de diapositives. |
 
 ### Exemples
 
-Cet exemple illustre la création et l'insertion d'un objet Section Zoom à l'index spécifié d'une collection (en supposant qu'il y ait au moins deux sections dans la présentation "Presentation.pptx") :
+Cet exemple démontre la création et l'insertion d'un objet Section Zoom à l'index spécifié d'une collection (supposez qu'il y a au moins deux sections dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -98,13 +99,13 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Voir également
+### Voir aussi
 
 * interface [ISectionZoomFrame](../../isectionzoomframe)
 * interface [ISection](../../isection)
 * interface [IPPImage](../../ippimage)
 * interface [IShapeCollection](../../ishapecollection)
-* espace de noms [Aspose.Slides](../../ishapecollection)
-* Assemblée [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../ishapecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

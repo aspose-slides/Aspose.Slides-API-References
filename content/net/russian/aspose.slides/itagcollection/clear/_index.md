@@ -1,12 +1,13 @@
 ---
-title: Clear
-second_title: Справочник по API Aspose.Slides для .NET
+title: Очистить
+second_title: Справка по API Aspose.Slides для .NET
 description: Удаляет все теги из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/itagcollection/clear/
 ---
-## ITagCollection.Clear method
+
+## Метод ITagCollection.Clear
 
 Удаляет все теги из коллекции.
 
@@ -14,9 +15,9 @@ url: /ru/aspose.slides/itagcollection/clear/
 public void Clear()
 ```
 
-### Смотрите также
+### См. Также
 
-* interface [ITagCollection](../../itagcollection)
+* интерфейс [ITagCollection](../../itagcollection)
 * пространство имен [Aspose.Slides](../../itagcollection)
 * сборка [Aspose.Slides](../../../)
 

@@ -1,22 +1,23 @@
 ---
-title: Count
+title: Количество
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество операций в коллекции. Только для чтенияInt32.
+description: Возвращает количество операций в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/coloroperationcollection/count/
 ---
-## ColorOperationCollection.Count property
 
-Возвращает количество операций в коллекции. Только для чтенияInt32.
+## Свойство ColorOperationCollection.Count
+
+Возвращает количество операций в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [ColorOperationCollection](../../coloroperationcollection)
+* класс [ColorOperationCollection](../../coloroperationcollection)
 * пространство имен [Aspose.Slides](../../coloroperationcollection)
 * сборка [Aspose.Slides](../../../)
 
